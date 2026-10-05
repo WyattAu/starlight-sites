@@ -115,7 +115,7 @@ emergence.
 
 **Step 1: Refraction at the hypotenuse (entry):**
 
-Using Snell"s law at the hypotenuse:
+Using Snell's law at the hypotenuse:
 
 $$
 n_{\text{air}} \sin 30° = n_{\text{glass}} \sin r_1
@@ -382,7 +382,7 @@ $$
 For light travelling along the axis of a bent fibre, the condition for TIR at the outer edge of the
 core requires that the angle of incidence at the core-cladding boundary exceeds $\theta_c$.
 
-For a fibre bent with radius $R$The critical condition for axial light is:
+For a fibre bent with radius $R$ The critical condition for axial light is:
 
 $$
 \cos\left(\frac{d}{R}\right) \geq \cos\theta_c

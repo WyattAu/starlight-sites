@@ -44,7 +44,7 @@ The library provides three main operations:
 | `std::regex_replace(str, regex, fmt)` | Replaces all matches with a formatted string              |
 
 :::caution
-GCC"s libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
+GCC's libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
 Consider:
 
 - **CTRE** (Compile-Time Regular Expressions): header-only, uses CTAD and template metaprogramming

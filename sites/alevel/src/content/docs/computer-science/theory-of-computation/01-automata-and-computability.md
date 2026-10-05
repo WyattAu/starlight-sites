@@ -77,10 +77,10 @@ $\delta: Q \times (\Sigma \cup \{\varepsilon\}) \to \mathcal{P}(Q)$
 
 ## 2. DFA-NFA Equivalence
 
-**Theorem (Rabin-Scott).** For every NFA $N$There exists a DFA $D$ such that $L(N) = L(D)$. DFAs And
+**Theorem (Rabin-Scott).** For every NFA $N$ There exists a DFA $D$ such that $L(N) = L(D)$. DFAs And
 NFAs accept exactly the same class of languages (the **regular languages**).
 
-**Proof (subset construction).** Given NFA $N = (Q_N, \Sigma, \delta_N, q_0, F_N)$Construct DFA
+**Proof (subset construction).** Given NFA $N = (Q_N, \Sigma, \delta_N, q_0, F_N)$ Construct DFA
 $D = (Q_D, \Sigma, \delta_D, q_0", F_D)$:
 
 1. $Q_D = \mathcal{P}(Q_N)$ (states are subsets of $Q_N$)
@@ -161,7 +161,7 @@ $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{accept}, q_{reject})$ where:
 
 - $Q$ is a finite set of states
 - $\Sigma$ is the input alphabet (does not include the blank symbol)
-- $\Gamma$ is the tape alphabet ($\Sigma \subseteq \Gamma$Includes blank symbol $\sqcup$)
+- $\Gamma$ is the tape alphabet ($\Sigma \subseteq \Gamma$ Includes blank symbol $\sqcup$)
 - $\delta: Q \times \Gamma \to Q \times \Gamma \times \{L, R\}$ is the transition function
 - $q_0$ is the start state
 - $q_{accept}$ is the accept state
@@ -171,7 +171,7 @@ $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{accept}, q_{reject})$ where:
 
 1. Tape is infinite in both directions, initialised with input followed by blanks
 2. Read/write head starts at the leftmost input symbol
-3. At each step: read the current symbol, consult $\delta$Write a symbol, move head left or right
+3. At each step: read the current symbol, consult $\delta$ Write a symbol, move head left or right
 4. Accept if $q_{accept}$ is reached; reject if $q_{reject}$ is reached; may loop forever
 
 ### Example: TM that accepts $L = \{a^n b^n \mid n \geq 0\}$
@@ -219,7 +219,7 @@ Informal concept. However, no counterexample has ever been found.
 
 ### Definition
 
-**Halting problem:** Given a description of a Turing machine $M$ and an input $w$Determine whether
+**Halting problem:** Given a description of a Turing machine $M$ and an input $w$ Determine whether
 $M$ halts (accepts or rejects) when run on $w$.
 
 **Theorem (Turing, 1936).** The halting problem is **undecidable**, no Turing machine can solve it
@@ -349,7 +349,7 @@ $q_0 \to q_0 \to q_1 \to q_1$. Reject (1 zero, odd). ✓
 
 **Problem 2.** Convert the following NFA to a DFA using the subset construction.
 
-NFA: States $\{0, 1, 2\}$Alphabet $\{a, b\}$Start state 0, accepting state 2.
+NFA: States $\{0, 1, 2\}$ Alphabet $\{a, b\}$ Start state 0, accepting state 2.
 
 | From | Input | To     |
 | ---- | ----- | ------ |
@@ -424,12 +424,12 @@ $1 \leq k \leq p$.
 
 Pump with $i = 0$: $xz = 0^{p-k}10^p1$.
 
-Is this in $L$? It would need to be $ww$ for some $w$. The length is $2p - k + 2$Which is odd when
+Is this in $L$? It would need to be $ww$ for some $w$. The length is $2p - k + 2$ Which is odd when
 $k$ is odd, so it cannot be $ww$ (which always has even length). But even when $k$ is even, the
-First half is $0^{(p-k/2)+1}$... Actually, for $xz = 0^{p-k}10^p1$ to be in $L = \{ww\}$We need The
+First half is $0^{(p-k/2)+1}$... Actually, for $xz = 0^{p-k}10^p1$ to be in $L = \{ww\}$ We need The
 first half to equal the second half. The total length is $2p + 2 - k$. The first half is the First
 $p + 1 - k/2$ characters: $0^{p-k}1$. The second half is: $0^{k/2}0^p1 = 0^{p+k/2}1$. For These to
-be equal, $p-k = p+k/2$Giving $k = -k/2$ So $k = 0$. But $k \geq 1$. Contradiction. ✓
+be equal, $p-k = p+k/2$ Giving $k = -k/2$ So $k = 0$. But $k \geq 1$. Contradiction. ✓
 
 Therefore, $L$ is not regular. $\square$
 
@@ -488,7 +488,7 @@ $w \in L$ and loops forever if $w \notin L$.
 
 If the halting problem were decidable, we could build a TM $M$ that decides $L$:
 
-1. On input $w$Run the halting decider $H$ on $(M_L, w)$
+1. On input $w$ Run the halting decider $H$ on $(M_L, w)$
 2. If $H$ says $M_L$ halts on $w$: $M_L$ will accept (since it only halts on members of $L$), so run
    $M_L$ on $w$ and accept
 3. If $H$ says $M_L$ doesn't halt on $w$: reject (since $w \notin L$)
@@ -509,13 +509,13 @@ An example of each.
 
 **Decidable:** There exists a TM that halts on ALL inputs and correctly answers yes/no.
 
-- Example: "Given a DFA $M$ and a string $w$Does $M$ accept $w$?", simulate $M$ on $w$; it always
+- Example: "Given a DFA $M$ and a string $w$ Does $M$ accept $w$?", simulate $M$ on $w$; it always
   halts.
 
 **Semi-decidable (recursively enumerable):** There exists a TM that halts and accepts on
 Yes-instances, but may loop forever on no-instances.
 
-- Example: "Given a TM $M$ and input $w$Does $M$ halt on $w$?", run $M$ on $w$; if it halts,
+- Example: "Given a TM $M$ and input $w$ Does $M$ halt on $w$?", run $M$ on $w$; if it halts,
   accept. But if $M$ doesn't halt, our verifier loops forever.
 
 **Key difference:** For semi-decidable problems, you can verify a "yes" answer in finite time, but
@@ -558,7 +558,7 @@ Polynomial time:
 2. Sum the distances between consecutive cities (and from last back to first), $O(n)$
 3. Compare the total to $k$, $O(1)$
 
-Total verification time: $O(n)$Which is polynomial. Therefore, TSP is in NP. ✓
+Total verification time: $O(n)$ Which is polynomial. Therefore, TSP is in NP. ✓
 
 (Note: this does NOT mean TSP is in P. Verification is polynomial, but finding the tour may not be.)
 

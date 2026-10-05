@@ -76,7 +76,7 @@ Non-negative: $\mathrm{range}(f) = [0, 2]$.
 
 ### Definition
 
-Given $f$ and $g$The composite $f \circ g$ is:
+Given $f$ and $g$ The composite $f \circ g$ is:
 
 $$
 (f \circ g)(x) = f(g(x))
@@ -94,7 +94,7 @@ Let $f(x) = \sqrt{x + 1}$ and $g(x) = x^2 - 4$. Find $\mathrm{dom}(f \circ g)$.
 
 $\mathrm{dom}(g) = \mathbb{R}$.
 
-$\mathrm{dom}(f) = [ -1, \infty)$ So we need $g(x) \geqslant -1$I.e.,
+$\mathrm{dom}(f) = [ -1, \infty)$ So we need $g(x) \geqslant -1$ I.e.,
 $x^2 - 4 \geqslant -1 \implies x^2 \geqslant 3$.
 
 $$
@@ -153,7 +153,7 @@ $$
 x = \frac{-(y + 3)}{y - 2} = \frac{y + 3}{2 - y}
 $$
 
-Therefore $f^{-1}(x) = \dfrac{x + 3}{2 - x}$With domain $\mathbb{R} \setminus \{2\}$.
+Therefore $f^{-1}(x) = \dfrac{x + 3}{2 - x}$ With domain $\mathbb{R} \setminus \{2\}$.
 
 ---
 
@@ -246,7 +246,7 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 
 ## Common Pitfalls
 
-- When finding the domain of $f \circ g$Applying the domain restrictions of $f$ to $x$ instead of to
+- When finding the domain of $f \circ g$ Applying the domain restrictions of $f$ to $x$ instead of to
   $g(x)$. The argument of $f$ must be valid, so it is $g(x)$ that must fall in $\mathrm{dom}(f)$.
 - Forgetting that $f \circ g \neq g \circ f$ . Always check the order.
 - When finding an inverse, forgetting to verify that the function is one-to-one on the given domain.
@@ -317,7 +317,7 @@ $f^{-1}(x) = \dfrac{2x + 1}{x - 3}$$\mathrm{dom}(f^{-1}) = \mathbb{R} \setminus 
 
 1. **Question:** Let $f(x) = x^2 - 4x + 3$ with domain $[1, \infty)$. Find $f^{-1}(0)$.
 
-First find $f^{-1}$. Set $y = (x - 2)^2 - 1$. Since domain is $[1, \infty)$Range is $[-1, \infty)$.
+First find $f^{-1}$. Set $y = (x - 2)^2 - 1$. Since domain is $[1, \infty)$ Range is $[-1, \infty)$.
 
 $(x - 2)^2 = y + 1 \implies x - 2 = \sqrt{y + 1}$ (positive root since $x \geqslant 1$).
 
@@ -345,7 +345,7 @@ $x \leqslant 0$).
 
 $f^{-1}(x) = -\sqrt{2 - x}$$\mathrm{dom}(f^{-1}) = (-\infty, 2]$.
 
-1. **Question:** Given $f(x) = \sqrt{x - 1}$ and $g(x) = x^2 + x + 1$Find $\mathrm{dom}(g \circ f)$.
+1. **Question:** Given $f(x) = \sqrt{x - 1}$ and $g(x) = x^2 + x + 1$ Find $\mathrm{dom}(g \circ f)$.
 
 $\mathrm{dom}(f) = [1, \infty)$$\mathrm{dom}(g) = \mathbb{R}$.
 
@@ -368,14 +368,14 @@ $$
 f(x) = \begin{cases} -(x - 3) + -(x + 1) = -2x + 2 & \mathrm{if } x \lt -1 \\ -(x - 3) + (x + 1) = 4 & \mathrm{if } -1 \leqslant x \leqslant 3 \\ (x - 3) + (x + 1) = 2x - 2 & \mathrm{if } x \gt 3 \end{cases}
 $$
 
-For $x \lt -1$: $f(x) = -2x + 2$Which is decreasing (as $x$ increases towards $-1$). As
+For $x \lt -1$: $f(x) = -2x + 2$ Which is decreasing (as $x$ increases towards $-1$). As
 $x \to -1^-$: $f(x) \to 4$.
 
 For $-1 \leqslant x \leqslant 3$: $f(x) = 4$ (constant).
 
-For $x \gt 3$: $f(x) = 2x - 2$Which is increasing.
+For $x \gt 3$: $f(x) = 2x - 2$ Which is increasing.
 
-Minimum value: $4$Attained for all $x \in [-1, 3]$.
+Minimum value: $4$ Attained for all $x \in [-1, 3]$.
 
 </details>
 
@@ -402,7 +402,7 @@ $\mathrm{dom}(g \circ f)$.
 
 $\mathrm{dom}(g) = [3, \infty)$. $\mathrm{dom}(f) = \mathbb{R} \setminus \{2\}$.
 
-**For $f \circ g$:** We need $g(x) \in \mathrm{dom}(f)$I.e., $\sqrt{x-3} \neq 2$.
+**For $f \circ g$:** We need $g(x) \in \mathrm{dom}(f)$ I.e., $\sqrt{x-3} \neq 2$.
 
 $\sqrt{x-3} = 2 \implies x = 7$. So exclude $x = 7$.
 
@@ -422,7 +422,7 @@ Critical points: $x = \dfrac{7}{2}$ and $x = 2$.
 | $2 \lt x \lt \dfrac{7}{2}$ | positive / positive $=$ positive |
 | $x \gt \dfrac{7}{2}$       | negative / positive $=$ negative |
 
-At $x = \dfrac{7}{2}$: expression equals $0$Which satisfies $\geq 0$.
+At $x = \dfrac{7}{2}$: expression equals $0$ Which satisfies $\geq 0$.
 
 $\mathrm{dom}(g \circ f) = \left(2,\; \dfrac{7}{2}\right]$.
 
@@ -437,7 +437,7 @@ Let $f(x) = 2x^2 - 8x + 5$ with domain $[2, \infty)$. Find $f^{-1}$ and state it
 
 Complete the square: $f(x) = 2(x^2 - 4x) + 5 = 2\!\left[(x-2)^2 - 4\right] + 5 = 2(x-2)^2 - 3$.
 
-Since the domain is $[2, \infty)$ and the vertex is at $x = 2$The function is strictly increasing
+Since the domain is $[2, \infty)$ and the vertex is at $x = 2$ The function is strictly increasing
 and hence one-to-one.
 
 Range: $[-3, \infty)$.
@@ -474,7 +474,7 @@ corresponding points on $y = 2f(3x - 6) + 5$.
 
 Rewrite: $y = 2f(3(x-2)) + 5$.
 
-**For $(1, 4)$ on $y = f(x)$:** Set $3(x-2) = 1$ So $x - 2 = \dfrac{1}{3}$Giving $x = \dfrac{7}{3}$.
+**For $(1, 4)$ on $y = f(x)$:** Set $3(x-2) = 1$ So $x - 2 = \dfrac{1}{3}$ Giving $x = \dfrac{7}{3}$.
 
 $$
 y = 2(4) + 5 = 13
@@ -482,7 +482,7 @@ $$
 
 Corresponding point: $\left(\dfrac{7}{3},\; 13\right)$.
 
-**For the minimum at $(2, -1)$:** Set $3(x-2) = 2$ So $x - 2 = \dfrac{2}{3}$Giving
+**For the minimum at $(2, -1)$:** Set $3(x-2) = 2$ So $x - 2 = \dfrac{2}{3}$ Giving
 $x = \dfrac{8}{3}$.
 
 $$
@@ -505,7 +505,7 @@ $\mathrm{dom}(g) = \mathbb{R}$, $\mathrm{dom}(f) = (1, \infty)$.
 
 **$(f \circ g)(x) = f(g(x)) = \ln(x^2 + 1 - 1) = \ln(x^2)$.**
 
-Domain: need $g(x) \in \mathrm{dom}(f)$I.e., $x^2 + 1 \gt 1 \implies x^2 \gt 0 \implies x \neq 0$.
+Domain: need $g(x) \in \mathrm{dom}(f)$ I.e., $x^2 + 1 \gt 1 \implies x^2 \gt 0 \implies x \neq 0$.
 
 $\mathrm{dom}(f \circ g) = \mathbb{R} \setminus \{0\}$.
 
@@ -538,7 +538,7 @@ $$
 f^{-1}(x) = \frac{3x - 2}{x - 3} = f(x)
 $$
 
-Since $f^{-1} = f$The function is self-inverse.
+Since $f^{-1} = f$ The function is self-inverse.
 
 </details>
 
@@ -556,22 +556,22 @@ Since $f^{-1} = f$The function is self-inverse.
 ## Additional Common Pitfalls
 
 1. **Applying domain restrictions to $x$ instead of $g(x)$.** When finding
-   $\mathrm{dom}(f \circ g)$The condition $g(x) \in \mathrm{dom}(f)$ must be applied to the
-   expression $g(x)$Not to $x$ directly. Always substitute first, then impose domain conditions.
+   $\mathrm{dom}(f \circ g)$ The condition $g(x) \in \mathrm{dom}(f)$ must be applied to the
+   expression $g(x)$ Not to $x$ directly. Always substitute first, then impose domain conditions.
 
 2. **Assuming injectivity on the natural domain.** A quadratic $ax^2 + bx + c$ is only one-to-one on
    a half-domain $(-\infty,\; -b/(2a)]$ or $[-b/(2a),\; \infty)$. Before finding an inverse, verify
    or restrict the domain.
 
 3. **Choosing the wrong branch of the inverse.** When $f(x) = x^2$ is restricted to
-   $(-\infty, 0]$The inverse is $f^{-1}(x) = -\sqrt{x}$Not $+\sqrt{x}$. Always match the sign to the
+   $(-\infty, 0]$ The inverse is $f^{-1}(x) = -\sqrt{x}$ Not $+\sqrt{x}$. Always match the sign to the
    restricted domain.
 
 4. **Composition order confusion.** $(f \circ g)(x) = f(g(x))$ means $g$ is applied first, then $f$.
    The notation reads right-to-left: $(f \circ g)(x)$ is "$f$ of $g$ of $x$".
 
-5. **Transformation order errors.** For $y = af(kx + b) + c$Apply from inside out: horizontal shift
-   by $-b$Horizontal stretch by $1/k$Vertical stretch by $a$Vertical shift by $c$. Mixing up this
+5. **Transformation order errors.** For $y = af(kx + b) + c$ Apply from inside out: horizontal shift
+   by $-b$ Horizontal stretch by $1/k$ Vertical stretch by $a$ Vertical shift by $c$. Mixing up this
    order is a very common mistake.
 
 6. **Ignoring the range when checking invertibility.** Even if $f$ is one-to-one on its domain, the
@@ -705,14 +705,14 @@ $$
 
 Domain: need $x + 1 \neq 0 \implies x \neq -1$ And $\dfrac{1}{(x+1)^2} + 1 \neq 0$.
 
-Since $\dfrac{1}{(x+1)^2} \geq 0$ for all $x \neq -1$The second expression is always at least
+Since $\dfrac{1}{(x+1)^2} \geq 0$ for all $x \neq -1$ The second expression is always at least
 $1 > 0$.
 
 $\mathrm{dom}(f \circ g \circ f) = \mathbb{R} \setminus \{-1\}$.
 
 </details>
 
-**Problem 6.** Given $f(x) = |2x - 1| + |x + 3|$Find the minimum value of $f$.
+**Problem 6.** Given $f(x) = |2x - 1| + |x + 3|$ Find the minimum value of $f$.
 
 <details>
 <summary>Solution</summary>
@@ -731,18 +731,18 @@ $$
 f\!\left(\frac{1}{2}\right) = 3\!\left(\frac{1}{2}\right) + 2 = \frac{7}{2}
 $$
 
-Minimum value: $\dfrac{7}{2}$Attained at $x = \dfrac{1}{2}$.
+Minimum value: $\dfrac{7}{2}$ Attained at $x = \dfrac{1}{2}$.
 
 </details>
 
-**Problem 7.** If $f(x) = \dfrac{x}{x^2 + 1}$Find the range of $f$.
+**Problem 7.** If $f(x) = \dfrac{x}{x^2 + 1}$ Find the range of $f$.
 
 <details>
 <summary>Solution</summary>
 
 Let $y = \dfrac{x}{x^2 + 1}$. Then $yx^2 + y = x \implies yx^2 - x + y = 0$.
 
-For real $x$This quadratic in $x$ must have $\Delta \geq 0$:
+For real $x$ This quadratic in $x$ must have $\Delta \geq 0$:
 
 $$
 \Delta = 1 - 4y^2 \geq 0 \implies y^2 \leq \frac{1}{4} \implies -\frac{1}{2} \leq y \leq \frac{1}{2}
@@ -758,7 +758,7 @@ Range: $\left[-\dfrac{1}{2},\; \dfrac{1}{2}\right]$.
 
 </details>
 
-**Problem 8.** If $f(x) = 2x - 1$ and $g(x) = x + 3$Find the linear function $h(x)$ such that
+**Problem 8.** If $f(x) = 2x - 1$ and $g(x) = x + 3$ Find the linear function $h(x)$ such that
 $(f \circ h)(x) = (g \circ f)(x)$ for all $x$.
 
 <details>
@@ -834,7 +834,7 @@ For function problems in DSE Paper 1:
 
 1. When finding the domain of a composite function, explicitly state $\mathrm{dom}(g)$ and the
    condition $g(x) \in \mathrm{dom}(f)$.
-2. When finding an inverse, write $y = f(x)$Solve for $x$ And then interchange.
+2. When finding an inverse, write $y = f(x)$ Solve for $x$ And then interchange.
 3. When checking invertibility, verify that the function is one-to-one (strictly increasing or
    decreasing on the domain).
 4. For transformation problems, identify the sequence of transformations from inside out.
@@ -874,7 +874,7 @@ $\mathrm{dom}(g \circ f)$.
 
 $\mathrm{dom}(f) = (2, \infty)$ (need $x - 2 > 0$). $\mathrm{dom}(g) = \mathbb{R}$.
 
-**$f \circ g$:** Need $g(x) \in \mathrm{dom}(f)$I.e., $x^2 + 1 > 2 \implies x^2 > 1 \implies x < -1$
+**$f \circ g$:** Need $g(x) \in \mathrm{dom}(f)$ I.e., $x^2 + 1 > 2 \implies x^2 > 1 \implies x < -1$
 or $x > 1$.
 
 $\mathrm{dom}(f \circ g) = (-\infty, -1) \cup (1, \infty)$.
@@ -1042,7 +1042,7 @@ $\mathrm{dom}(h) = \mathrm{dom}(f) \cap \mathrm{dom}(g) = \mathbb{R} \setminus \
 
 </details>
 
-**DSE Practice 6.** Given $f(x) = \dfrac{x}{x + 1}$ for $x \neq -1$Find $f^{-1}$ and solve
+**DSE Practice 6.** Given $f(x) = \dfrac{x}{x + 1}$ for $x \neq -1$ Find $f^{-1}$ and solve
 $f(x) = f^{-1}(x)$.
 
 <details>
@@ -1057,7 +1057,7 @@ $f(x) = f^{-1}(x)$: $\dfrac{x}{x + 1} = \dfrac{x}{x - 1}$.
 If $x = 0$: both sides equal $0$. So $x = 0$ is a solution.
 
 If $x \neq 0$:
-$\dfrac{1}{x + 1} = \dfrac{1}{x - 1} \implies x - 1 = x + 1 \implies -1 = 1$Contradiction.
+$\dfrac{1}{x + 1} = \dfrac{1}{x - 1} \implies x - 1 = x + 1 \implies -1 = 1$ Contradiction.
 
 Solution: $x = 0$.
 

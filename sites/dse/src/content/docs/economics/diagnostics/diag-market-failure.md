@@ -45,7 +45,7 @@ $= \frac{1}{2} \times MEC_{at  Q_m} \times (Q_m - Q^*) = \frac{1}{2} \times 0.3(
 ### UT-2: Public Goods and Free Rider Problem
 
 **Question:** A coastal community of 100 residents is considering building a lighthouse. Each
-Resident"s individual demand for the lighthouse is $P_i = 10 - 0.1Q$Where $Q$ is the quality level
+Resident's individual demand for the lighthouse is $P_i = 10 - 0.1Q$ Where $Q$ is the quality level
 (0 to 100). The total cost of providing quality level $Q$ is $TC = 200 + 5Q$. (a) Explain why a
 Lighthouse is a public good, identifying which characteristics it satisfies. (b) Derive the market
 Demand (marginal social benefit) curve. (c) Calculate the socially optimal quality level. (d)
@@ -196,8 +196,8 @@ Pricing unsustainable without subsidy.
 ### IT-3: Multiple Externalities and Policy Design (with Government Policy)
 
 **Question:** A city has two sources of pollution: factories (negative production externality) and
-Driving (negative consumption externality). Factory output $Q_f$: MPC $= 30 + Q_f$MEC $= 0.5Q_f$
-Demand $P_f = 100 - Q_f$. Driving $Q_d$: MPB $= 60 - 0.5Q_d$MEC $= 0.3Q_d$Private MC of driving
+Driving (negative consumption externality). Factory output $Q_f$: MPC $= 30 + Q_f$ MEC $= 0.5Q_f$
+Demand $P_f = 100 - Q_f$. Driving $Q_d$: MPB $= 60 - 0.5Q_d$ MEC $= 0.3Q_d$ Private MC of driving
 $= 10$. (a) Calculate the free market equilibrium for each activity. (b) Calculate the socially
 Optimal levels. (c) If the government has a budget constraint and can only tax one activity, which
 Should it tax first? Justify using DWL calculations.
@@ -244,7 +244,7 @@ flowchart TD
 ### EQ-1: Positive Externalities and Education Subsidy
 
 **Question:** The market for university education has demand $P = 200 - 0.5Q$ and supply
-$P = 40 + Q$Where $P$ is in thousands of HKD and $Q$ is in thousands of students. University
+$P = 40 + Q$ Where $P$ is in thousands of HKD and $Q$ is in thousands of students. University
 education generates positive externalities (a more educated workforce, lower crime rates, better
 civic participation) with a constant marginal external benefit of $MEB = 30$. (a) Calculate the
 market equilibrium quantity and price. (b) Calculate the socially optimal quantity and price. (c)
@@ -265,7 +265,7 @@ receive (from supply curve): $P_s = 40 + 126.67 = \$166.67$.
 (c) The Pigouvian subsidy $= MEB = 30$ (thousand HKD per student).
 
 Verification: With subsidy of 30, the effective demand becomes
-$P + 30 = 200 - 0.5Q + 30 = 230 - 0.5Q$. Set equal to supply: $230 - 0.5Q = 40 + Q$Which gives
+$P + 30 = 200 - 0.5Q + 30 = 230 - 0.5Q$. Set equal to supply: $230 - 0.5Q = 40 + Q$ Which gives
 $Q = 126.67 = Q^*$. The subsidy works.
 
 Alternatively, the subsidy should equal the MEB at the optimal quantity: $MEB = 30$ (constant), so
@@ -381,7 +381,7 @@ not allow reallocation to more efficient fishers (unless licences are also trade
 
 **Question:** In the market for health insurance, individuals know their own health status but
 insurance companies do not. There are two types of individuals: healthy (probability of illness
-$= 0.1$Medical cost if ill $= \$100\,000$) and unhealthy (probability of illness $= 0.5$, medical
+$= 0.1$ Medical cost if ill $= \$100\,000$) and unhealthy (probability of illness $= 0.5$, medical
 cost if ill $= \$100\,000$). The population is 60% healthy and 40% unhealthy. Each individual has
 income of $\$200\,000$ and utility $U = \sqrt{W}$ where $W$ is wealth. (a) Calculate the actuarially
 fair premium for each type. (b) If the insurer cannot distinguish between types and must offer a
@@ -468,7 +468,7 @@ the project generates HK$1.72 of benefits for every HK$1 of cost. The government
 ## Common Pitfalls
 
 1. **Confusing the Pigouvian tax rate with the tax revenue:** The optimal Pigouvian tax equals the
-   marginal external cost at the _optimal_ quantity ($Q^*$), not at the market quantity ($Q_m$). Tax
+   marginal external cost at the _optimal_ quantity ($Q^*$), not at the market quantity ($ Q_m$). Tax
    revenue equals the tax rate multiplied by the _post-tax_ quantity. These are different because
    the tax changes the quantity.
 

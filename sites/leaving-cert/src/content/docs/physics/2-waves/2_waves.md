@@ -64,7 +64,7 @@ $$
 
 ### Derivation of the Wave Equation
 
-In one period $T$Each wavefront travels a distance of one wavelength $\lambda$. Therefore:
+In one period $T$ Each wavefront travels a distance of one wavelength $\lambda$. Therefore:
 
 $$
 V = \frac{\mathrm{distance}{\mathrm{time} = \frac{\lambda}{T} = \lambda f
@@ -181,7 +181,7 @@ The central maximum is the brightest, and the secondary maxima decrease rapidly 
 
 ### Young's Double Slit Experiment (HL)
 
-Light passes through two narrow slits separated by distance $d$Producing an interference pattern On
+Light passes through two narrow slits separated by distance $d$ Producing an interference pattern On
 a screen at distance $D$.
 
 **Path difference** between the two waves arriving at a point on the screen:
@@ -487,7 +487,7 @@ $$
 \beta_{\mathrm{total} = 10\log_{10}\left(\frac{3 \times 10^{-4}}{10^{-12}}\right) = 10 \times 7.477 = 74.8 \mathrm{ dB
 $$
 
-Adding $80 \mathrm{ dB$ and $83 \mathrm{ dB$ gives $74.8 \mathrm{ dB$Not $163 \mathrm{ dB$. If two
+Adding $80 \mathrm{ dB$ and $83 \mathrm{ dB$ gives $74.8 \mathrm{ dB$ Not $163 \mathrm{ dB$. If two
 Sources have the same intensity, the total is $3 \mathrm{ dB$ higher.
 
 ### Worked Example: Inverse Square Law for Sound
@@ -570,7 +570,7 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
 | Snell's law        | $n_1\sin\theta_1 = n_2\sin\theta_2$ | OL/HL | Frequency unchanged          |
 | Critical angle     | $\sin\theta_c = n_2/n_1$            | HL    | Denser to less dense only    |
 | Fringe spacing     | $\Delta x = \lambda L/d$            | HL    | Double slit                  |
-| Grating equation   | $d\sin\theta = n\lambda$            | HL    | $n$Th order maximum          |
+| Grating equation   | $d\sin\theta = n\lambda$            | HL    | $n$ Th order maximum          |
 | Decibels           | $\beta = 10\log_{10}(I/I_0)$        | HL    | $I_0 = 10^{-12}$ W/m$^2$     |
 | Doppler (source)   | $f' = fv/(v - v_s)$                 | HL    | Minus for approaching        |
 | Doppler (observer) | $f' = f(v + v_o)/v$                 | HL    | Plus for approaching         |
@@ -745,7 +745,7 @@ $$
 Critical angle:
 $\sin\theta_c = \frac{1}{n} = \frac{1}{1.50} = 0.6667 \implies \theta_c = 41.8^\circ$
 
-Since $r_2 = 31.87° \lt \theta_c$The light exits the second face.
+Since $r_2 = 31.87° \lt \theta_c$ The light exits the second face.
 
 **Step 4: Angle of emergence**
 
@@ -803,7 +803,7 @@ Different densities.
     from the mirror. Calculate the image position and magnification. Is the image real or virtual?
 
 4. The wavelength of light in a certain liquid is $450 \mathrm{ nm$. If the wavelength in air is
-    $600 \mathrm{ nm$Calculate the refractive index of the liquid and the speed of light in the
+    $600 \mathrm{ nm$ Calculate the refractive index of the liquid and the speed of light in the
     liquid.
 
 5. Explain how fibre optic cables use total internal reflection to transmit data. Include a

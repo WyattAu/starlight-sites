@@ -19,7 +19,7 @@ description: "Stability and Phase Plane Analysis: comprehensive educational cont
 
 ### 9.1 Autonomous Systems
 
-For $\mathbf{x}" = \mathbf{f}(\mathbf{x})$A **critical point** $\mathbf{x}^*$ satisfies
+For $\mathbf{x}" = \mathbf{f}(\mathbf{x})$ A **critical point** $\mathbf{x}^*$ satisfies
 $\mathbf{f}(\mathbf{x}^*) = \mathbf{0}$.
 
 ### 9.2 Linearization and Stability
@@ -38,7 +38,7 @@ Determine the local stability:
 
 ### 9.3 Lyapunov Stability
 
-**Definition.** A critical point $\mathbf{x}^*$ is **stable** if for every $\varepsilon > 0$There
+**Definition.** A critical point $\mathbf{x}^*$ is **stable** if for every $\varepsilon > 0$ There
 Exists $\delta > 0$ such that $\|\mathbf{x}(0) - \mathbf{x}^*\| \lt \delta$ implies
 $\|\mathbf{x}(t) - \mathbf{x}^*\| \lt \varepsilon$ for all $t > 0$.
 
@@ -88,7 +88,7 @@ Negative determinant: **saddle point** (unstable). $\blacksquare$
 
 ### 9.5 Phase Portraits for 2D Nonlinear Systems
 
-For the nonlinear system $\mathbf{x}' = \mathbf{f}(\mathbf{x})$The **Hartman-Grobman theorem**
+For the nonlinear system $\mathbf{x}' = \mathbf{f}(\mathbf{x})$ The **Hartman-Grobman theorem**
 States that near a hyperbolic critical point (one where the Jacobian has no eigenvalues on the
 Imaginary axis), the nonlinear phase portrait is topologically equivalent to the linearized one.
 
@@ -140,7 +140,7 @@ $\mathrm{tr}(J) = 0$. Eigenvalues $\pm i\sqrt{2}$: **center**.
 
 _Remark._ For the linearized system, the center is (marginally) stable. However, for the Nonlinear
 Lotka-Volterra system, the trajectories are actually closed orbits surrounding $(1, 2)$. This can be
-verified using the first integral $H = x - \ln x + 2\ln y - y$Which is constant Along trajectories.
+verified using the first integral $H = x - \ln x + 2\ln y - y$ Which is constant Along trajectories.
 $\blacksquare$
 
 </details>
@@ -164,7 +164,7 @@ Points are $(0, 0)$, $(r_1/a_{11}, 0)$, $(0, r_2/a_{22})$ And the coexistence po
 where both $x'$ and $y'$ vanish.
 
 The stability of the coexistence point determines whether both species survive. If
-$a_{11}a_{22} > a_{12}a_{21}$Coexistence is stable; otherwise, one species drives the other To
+$a_{11}a_{22} > a_{12}a_{21}$ Coexistence is stable; otherwise, one species drives the other To
 extinction (competitive exclusion).
 
 ### 9.7 Common Mistakes

@@ -37,7 +37,7 @@ empirical laws (the four laws of thermodynamics) without reference to atoms or m
 
 **Statistical mechanics** provides the microscopic foundation: macroscopic thermodynamic quantities
 emerge as statistical averages over enormous numbers of microscopic states. The bridge between the
-two perspectives is given by Boltzmann"s entropy formula:
+two perspectives is given by Boltzmann's entropy formula:
 
 $$
 S = k_B \ln \Omega
@@ -380,7 +380,7 @@ Examples: melting, boiling, sublimation.
 **Second-order (continuous) transitions** involve a discontinuity in a _second_ derivative of $G$
 (e.g., $C_p$, compressibility, thermal expansion coefficient). There is no latent heat.
 
-Examples: superconducting transition, ferromagnetic Curie point, superfluid transition of $^4$He.
+Examples: superconducting transition, ferromagnetic Curie point, superfluid transition of $^4$ He.
 
 ### 6.2 The Clausius–Clapeyron Equation
 

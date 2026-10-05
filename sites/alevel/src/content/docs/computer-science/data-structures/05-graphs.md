@@ -108,7 +108,7 @@ class Graph:
 | Dense graphs  | Efficient        | Slightly slower   |
 
 :::note
-- **AQA** requires adjacency matrix and adjacency list representations; Dijkstra"s algorithm for
+- **AQA** requires adjacency matrix and adjacency list representations; Dijkstra's algorithm for
   shortest path
 - **CIE (9618)** requires graph representations and traversal; may include minimum spanning tree
   algorithms (Kruskal's, Prim's)
@@ -156,7 +156,7 @@ _Base case ($d = 0$)._ $s$ is at distance 0 and is discovered at distance 0.
 
 _Inductive step._ Assume all vertices at distance $d$ are discovered at distance $d$. When a vertex
 $u$ at distance $d$ is dequeued, all unvisited neighbours $v$ are at distance at most $d + 1$ (by
-Edge relaxation). If $v$ were at distance $\lt d + 1$It would have been discovered earlier (by The
+Edge relaxation). If $v$ were at distance $\lt d + 1$ It would have been discovered earlier (by The
 inductive hypothesis or a previous BFS level). So $v$ is at distance exactly $d + 1$ and is
 Discovered at that distance. No vertex can be discovered at distance $\gt d + 1$ through $u$ Since
 each edge adds exactly 1 to the path length. $\square$
@@ -250,7 +250,7 @@ $$
 Since $\mathrm{dist}[x] \lt \mathrm{dist}[u]$, $x$ would have been extracted from the priority Queue
 before $u$, contradiction. Therefore $\mathrm{dist}[u] = d(s, u)$. $\square$
 
-**Complexity:** With a binary heap: $O((V + E) \log V)$. Each vertex is extracted once ($O(\log V)$
+**Complexity:** With a binary heap: $O((V + E) \log V)$. Each vertex is extracted once ($ O(\log V)$
 Each), and each edge causes at most one decrease-key ($O(\log V)$ each).
 
 > **Caution:** Warning Bellman-Ford algorithm instead for graphs that may contain negative weights.
@@ -321,7 +321,7 @@ Vertices it connects are in different components, this defines a cut where $e$ i
 Crossing edge (since edges are processed in sorted order). By the cut property, $e$ belongs to some
 MST.
 
-**Complexity:** Sorting: $O(E \log E)$. Union-Find operations: $O(E \cdot \alpha(V))$Where $\alpha$
+**Complexity:** Sorting: $O(E \log E)$. Union-Find operations: $O(E \cdot \alpha(V))$ Where $\alpha$
 is the inverse Ackermann function (effectively $O(1)$). Total: $O(E \log E) = O(E \log V)$.
 
 ### Prim's Algorithm
@@ -597,7 +597,7 @@ And sparse graphs.
 
 Kruskal: $O(E \log E) = O(E \log V)$. Prim (binary heap): $O((V+E) \log V)$.
 
-For dense graphs: Prim with an adjacency matrix (no heap) runs in $O(V^2)$Which is better than
+For dense graphs: Prim with an adjacency matrix (no heap) runs in $O(V^2)$ Which is better than
 Kruskal's $O(V^2 \log V)$.
 
 </details>

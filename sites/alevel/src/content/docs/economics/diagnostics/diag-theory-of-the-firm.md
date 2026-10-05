@@ -64,10 +64,10 @@ $\text{TVC} = 20Q + 2Q^2$$\text{AVC} = 20 + 2Q$.
 Minimum AVC: $\frac{d(\text{AVC})}{dQ} = 2 \neq 0$. Actually, since AVC is linear with a
 positive slope, the minimum is at $Q = 0$: $\text{AVC}_{\min} = 20$.
 
-Wait -- $\text{AVC} = \frac{\text{TVC}}{Q} = 20 + 2Q$Which increases with $Q$. The
-minimum is at $Q = 0$Where $\text{AVC} = 20$. So the shut-down price is $\pounds 20$.
+Wait -- $\text{AVC} = \frac{\text{TVC}}{Q} = 20 + 2Q$ Which increases with $Q$. The
+minimum is at $Q = 0$ Where $\text{AVC} = 20$. So the shut-down price is $\pounds 20$.
 
-Alternatively, $\text{AVC} = \text{MC}$: $20 + 2Q = 20 + 4Q$Which gives $Q = 0$$\text{AVC} = 20$.
+Alternatively, $\text{AVC} = \text{MC}$: $20 + 2Q = 20 + 4Q$ Which gives $Q = 0$$\text{AVC} = 20$.
 Shut-down price $= \pounds 20$.
 
 (d) Minimum AC: $\text{AC} = \frac{200 + 20Q + 2Q^2}{Q} = \frac{200}{Q} + 20 + 2Q$.
@@ -101,7 +101,7 @@ $2Q = 200/Q$
 $2Q^2 = 200$
 
 $Q = 10$. At $Q = 10$: $\text{AC} = 200/10 + 20 + 20 = 60$. Now $\text{MC} = 60 = \text{AC}$. So
-$\text{AC}_{\min} = \pounds 60$Not $\pounds 40$. The earlier AC calculation was correct at $Q = 10$:
+$\text{AC}_{\min} = \pounds 60$ Not $\pounds 40$. The earlier AC calculation was correct at $Q = 10$:
 $200/10 + 20 + 2(10) = 20 + 20 + 20 = 60$.
 
 Correction: $\text{AC}_{\min} = \pounds 60$ at $Q = 10$.
@@ -164,10 +164,10 @@ a Lerner Index of 0.
 }
 </script>
 
-### UT-3: Game Theory -- Prisoner"s Dilemma
+### UT-3: Game Theory -- Prisoner's Dilemma
 
 **Question:** Two firms (A and B) in a duopoly can choose to set a high price or a low price. The
-payoff matrix (profits in $\pounds$M) is:
+payoff matrix (profits in $\pounds$ M) is:
 
 |         | B: High | B: Low  |
 | ------- | ------- | ------- |
@@ -200,7 +200,7 @@ endpoint), cooperative outcomes can be sustained through trigger strategies:
 If the discount factor (weight placed on future payoffs) is sufficiently high, the present value of
 future cooperation exceeds the one-time gain from defecting. For the grim trigger: the gain from
 defecting once is $12 - 8 = 4$ But the future loss is $8 - 5 = 3$ per period forever. The firm will
-cooperate if $3/(1 - \delta) \gt 4$I.e., $\delta \gt 1/4$. Since most firms value future profits,
+cooperate if $3/(1 - \delta) \gt 4$ I.e., $\delta \gt 1/4$. Since most firms value future profits,
 repeated interaction sustains cooperative pricing (as observed in real-world oligopolies where
 prices remain stable for long periods).
 
@@ -240,7 +240,7 @@ The labour demand curve is the downward-sloping portion of $\text{MRP}_L$ becaus
 4. Only the downward-sloping portion is relevant because: (i) the upward-sloping portion (where
    $\text{MP}_L$ is increasing) represents a stage of production where adding workers increases
    their individual productivity, and no rational firm would stop hiring in this range; (ii) if
-   $w \gt \text{MRP}_L$ at all levels of $L$The firm hires zero workers.
+   $w \gt \text{MRP}_L$ at all levels of $L$ The firm hires zero workers.
 
 ---
 
@@ -390,7 +390,7 @@ Derive the firm's short-run supply curve.
 (b) $TR = 60 \times 10 = 600$. $TC = 100 + 200 + 200 = 500$. $\pi = 100$.
 
 (c) Shutdown price = minimum AVC. $VC = 20Q + 2Q^2$. $AVC = 20 + 2Q$. $AVC$ is minimised at
-$Q = 0$Giving $AVC_{min} = 20$. Shutdown price $= \pounds 20$.
+$Q = 0$ Giving $AVC_{min} = 20$. Shutdown price $= \pounds 20$.
 
 (d) Zero economic profit: $P = ATC_{min}$. $ATC = 100/Q + 20 + 2Q$.
 $\frac{dATC}{dQ} = -100/Q^2 + 2 = 0 \Rightarrow Q^2 = 50 \Rightarrow Q = 7.07$.
@@ -515,7 +515,7 @@ $= (120 - 40)(80) - 1000 = 5400$.
 a potential entrant cannot make a profit. The entrant's break-even condition: $P = AC_{min}$.
 $AC = 1000/Q + 40$. $AC_{min} = 40$ at $Q \to \infty$. But at any finite $Q$: $AC > 40$.
 
-For a potential entrant to break even at price $P$: $P = AC = 1000/Q + 40$. At $P$Demand is
+For a potential entrant to break even at price $P$: $P = AC = 1000/Q + 40$. At $P$ Demand is
 $Q = 200 - P$.
 
 If the incumbent serves the entire market at price $P$: $P = 1000/(200 - P) + 40$.

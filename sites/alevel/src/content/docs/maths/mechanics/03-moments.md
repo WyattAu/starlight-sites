@@ -356,12 +356,12 @@ Where $M = \sum m_i$. Similarly for $\bar{y}$. $\blacksquare$
 ### 4.3.1 Worked example: composite lamina
 
 A uniform lamina consists of a rectangle $ABCD$ where $AB = 6\,\mathrm{cm}$ and
-$BC = 4\,\mathrm{cm}$With an equilateral triangle $BCE$ attached to side $BC$ (each side of the
+$BC = 4\,\mathrm{cm}$ With an equilateral triangle $BCE$ attached to side $BC$ (each side of the
 Triangle is $4\,\mathrm{cm}$). Find the centre of mass of the composite lamina.
 
 **Step 1: Treat as two separate bodies.**
 
-Rectangle: area $= 6 \times 4 = 24\,\mathrm{cm}^2$Centre at $(3, 2)$ from $A$.
+Rectangle: area $= 6 \times 4 = 24\,\mathrm{cm}^2$ Centre at $(3, 2)$ from $A$.
 
 Equilateral triangle $BCE$ with side $4\,\mathrm{cm}$: height
 $= 4\sin 60° = 2\sqrt{3}\,\mathrm{cm}$. Area
@@ -448,7 +448,7 @@ Where $h$ is the height at which the force is applied and $d$ is half the base w
 
 ### 5.3 Worked example: toppling vs. Sliding
 
-A uniform block of weight $500\,\mathrm{N}$Width $0.6\,\mathrm{m}$ and height $1.2\,\mathrm{m}$ Sits
+A uniform block of weight $500\,\mathrm{N}$ Width $0.6\,\mathrm{m}$ and height $1.2\,\mathrm{m}$ Sits
 on a rough surface with $\mu = 0.4$. A horizontal force $P$ is applied at the top of the block.
 Determine whether the block slides or topples first, and find the critical value of $P$.
 
@@ -461,7 +461,7 @@ $P \times 1.2 = 500 \times 0.3$ (weight acts at the centre, $0.3\,\mathrm{m}$ fr
 
 $P = \dfrac{150}{1.2} = 125\,\mathrm{N}$.
 
-Since $125 \lt 200$The block **topples first** at $P = 125\,\mathrm{N}$.
+Since $125 \lt 200$ The block **topples first** at $P = 125\,\mathrm{N}$.
 
 :::note
 occurs First, which matches our calculation.
@@ -546,7 +546,7 @@ Range: $\dfrac{2l}{3} \leq x \leq \dfrac{4l}{3}$.
 
 <details>
 <summary>Problem 5</summary>
-A non-uniform rod $AB$ of length $2\,\mathrm{m}$ and weight $40\,\mathrm{N}$ is supported at $A$ and at a point $C$$1.4\,\mathrm{m}$ from $A$. When supported at $A$ and $B$The reaction at $A$ is $18\,\mathrm{N}$. Find the position of the centre of mass.
+A non-uniform rod $AB$ of length $2\,\mathrm{m}$ and weight $40\,\mathrm{N}$ is supported at $A$ and at a point $C$$1.4\,\mathrm{m}$ from $A$. When supported at $A$ and $B$ The reaction at $A$ is $18\,\mathrm{N}$. Find the position of the centre of mass.
 </details>
 
 <details>
@@ -554,7 +554,7 @@ A non-uniform rod $AB$ of length $2\,\mathrm{m}$ and weight $40\,\mathrm{N}$ is 
 When supported at $A$ and $B$: moments about $B$: $R_A \times 2 = W \times d_{\mathrm{from } B}$.
 $18 \times 2 = 40 \times d_{\mathrm{from } B} \implies d_{\mathrm{from } B} = 36/40 = 0.9\,\mathrm{m}$.
 
-Centre of mass is $0.9\,\mathrm{m}$ from $B$I.e., $1.1\,\mathrm{m}$ from $A$.
+Centre of mass is $0.9\,\mathrm{m}$ from $B$ I.e., $1.1\,\mathrm{m}$ from $A$.
 
 **If you get this wrong, revise:** [Centre of Mass](#4-centre-of-mass), Section 4.
 
@@ -629,10 +629,10 @@ A uniform lamina is made from a rectangle $ABCD$ with $AB = 8\,\mathrm{cm}$$AD =
 <summary>Solution 9</summary>
 Place $A$ at the origin, $AB$ along the $x$-axis, $AD$ along the $y$-axis.
 
-Rectangle: area $= 48$Centre at $(4, 3)$.
+Rectangle: area $= 48$ Centre at $(4, 3)$.
 
 Removed square: corner at $C(8,6)$ So the square occupies $x \in [5, 8]$$y \in [3, 6]$. Area
-$= 9$Centre at $(6.5, 4.5)$.
+$= 9$ Centre at $(6.5, 4.5)$.
 
 Using the subtraction method:
 
@@ -781,7 +781,7 @@ $120 \lt \dfrac{100}{h} \implies h \lt \dfrac{100}{120} = \dfrac{5}{6} \approx 0
 So the block will slide before it topples if $h \lt \dfrac{5}{6}\,\mathrm{m}$ (i.e., the force is
 Applied below $\dfrac{5}{6}\,\mathrm{m}$ from the ground).
 
-For $h > \dfrac{5}{6}\,\mathrm{m}$The block topples first. At $h = \dfrac{5}{6}\,\mathrm{m}$ Sliding
+For $h > \dfrac{5}{6}\,\mathrm{m}$ The block topples first. At $h = \dfrac{5}{6}\,\mathrm{m}$ Sliding
 and toppling occur simultaneously.
 
 **If you get this wrong, revise:** [Tilting and Toppling](#5-tilting-and-toppling), Section 5.
@@ -790,7 +790,7 @@ and toppling occur simultaneously.
 
 <details>
 <summary>Problem 15</summary>
-A uniform rod $AB$ of length $4\,\mathrm{m}$ and weight $120\,\mathrm{N}$ is hinged at $A$ to a vertical wall. The rod is held in a horizontal position by a light strut $BC$ connected to the wall at $C$Vertically below $A$With $AC = 3\,\mathrm{m}$. Find the thrust in the strut and the magnitude and direction of the reaction at the hinge $A$.
+A uniform rod $AB$ of length $4\,\mathrm{m}$ and weight $120\,\mathrm{N}$ is hinged at $A$ to a vertical wall. The rod is held in a horizontal position by a light strut $BC$ connected to the wall at $C$ Vertically below $A$ With $AC = 3\,\mathrm{m}$. Find the thrust in the strut and the magnitude and direction of the reaction at the hinge $A$.
 </details>
 
 <details>
@@ -810,7 +810,7 @@ The thrust acts along $CB$. The perpendicular distance from $A(0,0)$ to the line
 With direction $(-4,-3)$ is
 $\dfrac{|(-4)(0-0) - (-3)(0-4)|}{\sqrt{(-4)^2+(-3)^2}} = \dfrac{12}{5} = 2.4\,\mathrm{m}$.
 
-Clockwise moment of thrust: $T \times 2.4$ (thrust pushes from $B$ toward $C$Creating a clockwise
+Clockwise moment of thrust: $T \times 2.4$ (thrust pushes from $B$ toward $C$ Creating a clockwise
 Moment about $A$).
 
 Anticlockwise moment of weight: $120 \times 2 = 240\,\mathrm{Nm}$.

@@ -87,7 +87,7 @@ Binary $n$-tuples from $(0, \ldots, 0)$ to $(1, \ldots, 1)$. The first variable 
 (only every $2^{n-1}$ rows), while the last variable alternates every row.
 
 **Method 2: Recursive splitting.** For $n$ variables, the table splits into two blocks of $2^{n-1}$
-Rows: the top block has the first variable as $T$The bottom as $F$. Recurse on the remaining $n - 1$
+Rows: the top block has the first variable as $T$ The bottom as $F$. Recurse on the remaining $n - 1$
 variables within each block.
 
 **Worked Example.** Construct the truth table for $(p \implies q) \land (q \implies r)$.
@@ -132,7 +132,7 @@ Extending the table above:
 | F   | F   | T   | T      | T              | T                              |
 | F   | F   | F   | T      | T              | T                              |
 
-The final column is all $T$Confirming the tautology.
+The final column is all $T$ Confirming the tautology.
 
 </details>
 
@@ -236,9 +236,9 @@ DNF.
 
 **Conversion to CNF:**
 
-1. Eliminate $\iff$ and $\implies$: $A \implies B \equiv \neg A \lor B$And
+1. Eliminate $\iff$ and $\implies$: $A \implies B \equiv \neg A \lor B$ And
    $A \iff B \equiv (\neg A \lor B) \land (A \lor \neg B)$.
-2. Push $\neg$ inward using De Morgan"s laws and double negation ($\neg\neg A \equiv A$) until every
+2. Push $\neg$ inward using De Morgan's laws and double negation ($\neg\neg A \equiv A$) until every
    $\neg$ applies to a single variable.
 3. Distribute $\lor$ over $\land$: $A \lor (B \land C) \equiv (A \lor B) \land (A \lor C)$.
 
@@ -287,8 +287,8 @@ growth underlies the hardness Of many satisfiability problems.
 The **resolution rule** is a single inference rule that is refutation-complete for propositional
 Logic.
 
-**Resolution rule.** From clauses $(A \lor x)$ and $(B \lor \neg x)$Derive the **resolvent**
-$(A \lor B)$Where $A$ and $B$ are (possibly empty) sets of literals and $x$ is a propositional
+**Resolution rule.** From clauses $(A \lor x)$ and $(B \lor \neg x)$ Derive the **resolvent**
+$(A \lor B)$ Where $A$ and $B$ are (possibly empty) sets of literals and $x$ is a propositional
 Variable.
 
 **Resolution refutation.** To show that clauses $\{C_1, \ldots, C_k\}$ entail clause $C$:
@@ -319,7 +319,7 @@ Since $\bot$ is derived, the entailment holds. $\blacksquare$
 
 ### 1.8 The SAT Problem
 
-The **Boolean satisfiability problem (SAT)** asks: given a propositional formula $\phi$Is there a
+The **Boolean satisfiability problem (SAT)** asks: given a propositional formula $\phi$ Is there a
 Truth assignment that makes $\phi$ true?
 
 **Definition.** An instance of SAT is a propositional formula. The answer is YES if $\phi$ is

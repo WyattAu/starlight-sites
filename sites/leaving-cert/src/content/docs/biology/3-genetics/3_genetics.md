@@ -38,7 +38,7 @@ DNA is a double-stranded helix composed of nucleotides.
 - Adenine (A) pairs with Thymine (T) -- two hydrogen bonds.
 - Cytosine (C) pairs with Guanine (G) -- three hydrogen bonds.
 
-**Chargaff"s rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
+**Chargaff's rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
 
 ### DNA Replication (HL)
 
@@ -381,9 +381,9 @@ $A + G = T + C$ (purines = pyrimidines).
 **Worked Example: Applying Chargaff's rules.**
 
 If a DNA molecule is 28% adenine, then it is also 28% thymine. Since $A + T + G + C = 100\%$:
-$G + C = 100 - 28 - 28 = 44\%$. Since $G = C$Both $G$ and $C$ are 22%.
+$G + C = 100 - 28 - 28 = 44\%$. Since $G = C$ Both $G$ and $C$ are 22%.
 
-The percentage of purines ($A + G$) = $28 + 22 = 50\%$. The percentage of pyrimidines ($T + C$) =
+The percentage of purines ($A + G$) = $28 + 22 = 50\%$. The percentage of pyrimidines ($ T + C$) =
 $28 + 22 = 50\%$.
 
 **DNA replication (semiconservative):**
@@ -649,7 +649,7 @@ $$
 
 Degrees of freedom = $3 - 1 = 2$. Critical value at 5% for 2 df = 5.991.
 
-Since $\chi^2 = 360 \gt 5.991$The population is significantly different from Hardy-Weinberg
+Since $\chi^2 = 360 \gt 5.991$ The population is significantly different from Hardy-Weinberg
 Equilibrium.
 
 **Types of natural selection:**

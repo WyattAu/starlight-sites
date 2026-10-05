@@ -126,7 +126,7 @@ $$
 The characteristic polynomial is $\det(A - \lambda I) = (3 - \lambda)^2$ So $\lambda = 3$ is the Only
 eigenvalue with algebraic multiplicity 2.
 
-$A - 3I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$Which has rank 1, so the geometric
+$A - 3I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ Which has rank 1, so the geometric
 Multiplicity is $\dim(\ker(A - 3I)) = 2 - 1 = 1$.
 
 Since the geometric multiplicity (1) is less than the algebraic multiplicity (2), $A$ is not
@@ -324,7 +324,7 @@ $\blacksquare$
 The characteristic polynomial is $p(\lambda) = \lambda^2 - 7\lambda + 10$ So by Cayley--Hamilton,
 $A^2 = 7A - 10I$.
 
-To find $A^{10}$Divide $\lambda^{10}$ by $p(\lambda)$:
+To find $A^{10}$ Divide $\lambda^{10}$ by $p(\lambda)$:
 
 $$
 \lambda^{10} = q(\lambda)(\lambda^2 - 7\lambda + 10) + r(\lambda)
@@ -332,7 +332,7 @@ $$
 
 Where $r(\lambda) = a\lambda + b$ has degree less than 2. Then $A^{10} = r(A) = aA + bI$.
 
-To find $a$ and $b$Evaluate at the eigenvalues:
+To find $a$ and $b$ Evaluate at the eigenvalues:
 
 $\lambda^{10}\big|_{\lambda=5} = 5^{10} = 9765625 = 5a + b$
 

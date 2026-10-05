@@ -172,7 +172,7 @@ DSE-level problems.
 ### Worked Example: pH After Dilution
 
 A solution of $\mathrm{HCl}$ has $\mathrm{pH} = 2.00$. If $10.0 \mathrm{ cm^3}$ of this solution is
-diluted to $250 \mathrm{ cm^3}$What is the new pH?
+diluted to $250 \mathrm{ cm^3}$ What is the new pH?
 
 <summary>Solution</summary>
 
@@ -188,7 +188,7 @@ $$
 ### Worked Example: Identifying Conjugate Pairs
 
 In the reaction
-$\mathrm{HNO_2} + \mathrm{H_2O} \rightleftharpoons \mathrm{NO_2^-} + \mathrm{H_3O^+}$Identify the
+$\mathrm{HNO_2} + \mathrm{H_2O} \rightleftharpoons \mathrm{NO_2^-} + \mathrm{H_3O^+}$ Identify the
 two conjugate acid-base pairs.
 
 <summary>Solution</summary>
@@ -504,7 +504,7 @@ $$
 $$
 
 Sulphate and nitrate: $\mathrm{H}_2\mathrm{O}$ is oxidised instead
-($4\mathrm{OH}^- \to \mathrm{O}_2 + 2\mathrm{H}_2\mathrm{O} + 4e^-$Or
+($4\mathrm{OH}^- \to \mathrm{O}_2 + 2\mathrm{H}_2\mathrm{O} + 4e^-$ Or
 $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$)
 
 Halides ($\mathrm{Cl}^-$$\mathrm{Br}^-$$\mathrm{I}^-$): The halogen is discharged
@@ -545,7 +545,7 @@ $2\mathrm{H}_2\mathrm{O} + 2\mathrm{NaCl} \to \mathrm{H}_2 + \mathrm{Cl}_2 + 2\m
 }
 </script>
 
-## Faraday"s Laws of Electrolysis
+## Faraday's Laws of Electrolysis
 
 ### First Law
 
@@ -648,7 +648,7 @@ Where:
 - The cathode has the more positive (less negative) $E^\circ$ value (reduction occurs)
 - The anode has the less positive (more negative) $E^\circ$ value (oxidation occurs)
 
-If $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
+If $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 ### Worked Example 12
 

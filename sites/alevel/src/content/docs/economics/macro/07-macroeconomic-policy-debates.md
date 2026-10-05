@@ -158,7 +158,7 @@ Inflation exceeds target, and by 0.5% for every 1% that output exceeds potential
 
 <details>
 <summary>Worked Example</summary>
-Suppose $r^* = 2\%$, $\pi^* = 2\%$Current $\pi = 5\%$Output gap = $-3\%$ (recession).
+Suppose $r^* = 2\%$, $\pi^* = 2\%$ Current $\pi = 5\%$ Output gap = $-3\%$ (recession).
 
 $$
 i = 2 + 5 + 0.5(5 - 2) + 0.5(-3) = 2 + 5 + 1.5 - 1.5 = 7\%
@@ -853,7 +853,7 @@ Phillips curve: $u = u^* - \alpha(\pi - \pi^e)$.
 **If the government is credible (rules):** $\pi^e = \pi^a = 2\%$. Government sets $\pi = 2\%$.
 $u = u^*$. Loss $= 0 + 0 = 0$. First-best outcome.
 
-**If the government reneges (discretion):** After wages are set at $\pi^e = 2\%$The government
+**If the government reneges (discretion):** After wages are set at $\pi^e = 2\%$ The government
 minimises:
 $$
 L = (\pi - 2)^2 + \beta(u^* - \alpha(\pi - 2) - u^*)^2 = (\pi - 2)^2 + \beta\alpha^2(\pi - 2)^2 = (\pi - 2)^2(1 + \beta\alpha^2)
@@ -941,7 +941,7 @@ worlds: commitment to low inflation (solving the bias) with some flexibility to 
 **Keynesian policy:** Government increases $G$ by 20 with $k = 5$. $\Delta Y = 5 \times 20 = 100$.
 New $Y = 500$. Economy returns to full employment. Cost: budget deficit increases by 20 (before
 multiplier effects on tax revenue). Risk: if the multiplier is overestimated ($k = 3$),
-$\Delta Y = 60$New $Y = 460$. Policy is insufficient.
+$\Delta Y = 60$ New $Y = 460$. Policy is insufficient.
 
 **Monetarist approach:** Wait for self-correction.
 

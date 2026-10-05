@@ -29,7 +29,7 @@ categories:
 ### 1.1 Definition
 
 **Epistasis** occurs when the expression of one gene (the epistatic gene) is affected or masked by
-one or more independently inherited genes at different loci. This violates Mendel"s law of
+one or more independently inherited genes at different loci. This violates Mendel's law of
 independent assortment at the phenotypic level, producing phenotypic ratios that differ from the
 expected 9:3:3:1.
 
@@ -166,7 +166,7 @@ Distance = $205/1000 \times 100 = 20.5\ \mathrm{cM}$.
 $25 + 20 + 80 + 85 + 15 + 25 = 250$. Distance = $250/1000 \times 100 = 25\ \mathrm{cM}$.
 
 **Double cross-overs:** The rarest recombinant classes are the double cross-over products ($AbD$ and
-$aBd$Total 40). The map distance A--D calculated directly (25 cM) is less than A--B + B--D (41.5 cM)
+$aBd$ Total 40). The map distance A--D calculated directly (25 cM) is less than A--B + B--D (41.5 cM)
 because double cross-overs between A and D are counted as non-recombinant for the A--D comparison
 but are recombinant for both A--B and B--D. The corrected A--D distance = A--B + B--D + 2 $\times$
 (double cross-over frequency) = $21 + 20.5 + 2 \times 4 = 49.5\ \mathrm{cM}$ But this exceeds 50 cM,
@@ -218,7 +218,7 @@ $\chi^2 = 0.50 + 20.17 + 17.33 + 16.56 = 54.56$.
 
 $\mathrm{df} = 3$. Critical value at $p = 0.05$ for 3 df = 7.82.
 
-Since $\chi^2 = 54.56 \gg 7.82$We reject the null hypothesis. The genes are **linked**. The excess
+Since $\chi^2 = 54.56 \gg 7.82$ We reject the null hypothesis. The genes are **linked**. The excess
 of parental phenotypes ($A\_B\_$ = 120 and $aabb$ = 58) and deficit of recombinant phenotypes
 ($A\_bb$ = 10 and $aaB\_$ = 12) confirms linkage.
 
@@ -472,7 +472,7 @@ $\chi^2 = \frac{(122-120)^2}{120} + \frac{(28-30)^2}{30} + \frac{(10-10)^2}{10} 
 
 Degrees of freedom = $3 - 1 = 2$. Critical value at $p = 0.05$ for 2 df = 5.99.
 
-Since $\chi^2 = 0.167 \ll 5.99$We accept the null hypothesis. The observed results fit the 12:3:1
+Since $\chi^2 = 0.167 \ll 5.99$ We accept the null hypothesis. The observed results fit the 12:3:1
 ratio for dominant epistasis.
 
 <b>If you get this wrong, revise:</b> [Types of Epistasis](#12-types-of-epistasis)
@@ -481,7 +481,7 @@ ratio for dominant epistasis.
 
 <details>
 <summary>Problem 2</summary>
-Two genes, $G$ and $H$Are linked on the same chromosome. A test cross $GgHh \times gghh$ produces 1000 offspring: $GgHh$ = 410, $gghh$ = 390, $Gghh$ = 105, $ggHh$ = 95. (a) Calculate the recombination frequency and the map distance between $G$ and $H$. (b) Are the genes linked? Justify your answer with a chi-squared test against the 1:1:1:1 ratio expected for unlinked genes.
+Two genes, $G$ and $H$ Are linked on the same chromosome. A test cross $GgHh \times gghh$ produces 1000 offspring: $GgHh$ = 410, $gghh$ = 390, $Gghh$ = 105, $ggHh$ = 95. (a) Calculate the recombination frequency and the map distance between $G$ and $H$. (b) Are the genes linked? Justify your answer with a chi-squared test against the 1:1:1:1 ratio expected for unlinked genes.
 
 **Answer.** (a) Parental phenotypes: $GgHh$ (410) + $gghh$ (390) = 800. Recombinant phenotypes:
 $Gghh$ (105) + $ggHh$ (95) = 200. Recombination frequency = $200/1000 \times 100\% = 20\%$. Map
@@ -497,7 +497,7 @@ $= 102.4 + 78.4 + 84.1 + 96.1 = 361.0$.
 
 Degrees of freedom = 3. Critical value at $p = 0.05$ for 3 df = 7.82.
 
-Since $\chi^2 = 361 \gg 7.82$The genes are linked. The enormous excess of parental types and deficit
+Since $\chi^2 = 361 \gg 7.82$ The genes are linked. The enormous excess of parental types and deficit
 of recombinant types confirms strong linkage.
 
 <b>If you get this wrong, revise:</b> [Linkage](#2-genetic-linkage-and-crossing-over)
@@ -708,7 +708,7 @@ $$
 $1\%$ recombination frequency $= 1$ centimorgan (cM) $= 1$ map unit.
 
 **Worked Example.** In a test cross of $AaBb$ (both dominant alleles on the same chromosome, _cis_
-configuration) with $aabb$The following offspring are produced:
+configuration) with $aabb$ The following offspring are produced:
 
 | Phenotype | Count | Type        |
 | --------- | ----- | ----------- |
@@ -1069,8 +1069,8 @@ mutant mitochondria determines the severity of the disease. If the proportion ex
 When two genes are linked on the same chromosome, the dihybrid ratio deviates from 9:3:3:1 because
 the alleles do not assort independently.
 
-**Worked Example.** In sweet peas, genes for flower colour ($P/p$Purple/white) and pollen shape
-($L/l$Long/round) are linked on the same chromosome. A test cross of $PpLl$ (both dominant alleles
+**Worked Example.** In sweet peas, genes for flower colour ($P/p$ Purple/white) and pollen shape
+($L/l$ Long/round) are linked on the same chromosome. A test cross of $PpLl$ (both dominant alleles
 on the same chromosome, _cis_) with $ppll$ produces:
 
 | Phenotype               | Observed | Type        |
@@ -1092,7 +1092,7 @@ The excess of parental types and deficiency of recombinant types indicate linkag
 Some genes have more than two alleles in the population. The Hardy-Weinberg principle can be
 extended to multiple alleles.
 
-**Worked Example: ABO blood groups.** The alleles are $I^A$$I^B$ And $i$With frequencies $p$$q$ And
+**Worked Example: ABO blood groups.** The alleles are $I^A$$I^B$ And $i$ With frequencies $p$$q$ And
 $r$ respectively, where $p + q + r = 1$.
 
 Genotype frequencies: $p^2$ ($I^A I^A$), $q^2$ ($I^B I^B$), $r^2$ ($ii$), $2pq$ ($I^A I^B$), $2pr$
@@ -1141,7 +1141,7 @@ $p' = 0.70$.
 After the bottleneck, the population recovers to 10,000, but the allele frequency remains at
 $p = 0.70$ (assuming no selection or migration).
 
-Loss of heterozygosity during bottleneck: $H' = H \times (1 - \frac{1}{2N})$Where $N = 10$.
+Loss of heterozygosity during bottleneck: $H' = H \times (1 - \frac{1}{2N})$ Where $N = 10$.
 
 $H' = H \times (1 - \frac{1}{20}) = H \times 0.95$.
 
@@ -1440,7 +1440,7 @@ fittest genotype.
 | -------- | ------------- | ------------------------------------------------------------------ |
 | AA       | 1.0           | 0 (reference)                                                      |
 | Aa       | 1.0           | 0                                                                  |
-| aa       | $1 - s$       | $s$ (e.g., if $s = 0.5$Aa individuals produce 50% fewer offspring) |
+| aa       | $1 - s$       | $s$ (e.g., if $s = 0.5$ Aa individuals produce 50% fewer offspring) |
 
 **Selection against a recessive allele:** when $s$ is small, the change in allele frequency per
 generation ($\Delta q$) is approximately:
@@ -1466,7 +1466,7 @@ The frequency of the recessive allele decreases by approximately 0.0125 per gene
 diversity is lost. The surviving population is not representative of the original population.
 
 **Example:** A population of 100,000 is reduced to 10 individuals by a natural disaster. If the
-original population had 3 alleles at a locus with frequencies $p = 0.6$$q = 0.3$$r = 0.1$After the
+original population had 3 alleles at a locus with frequencies $p = 0.6$$q = 0.3$$r = 0.1$ After the
 bottleneck some alleles may be lost entirely (especially rare alleles like $r$).
 
 **Probability of allele loss in a bottleneck:** the probability that an allele with frequency $q$ is
@@ -1902,7 +1902,7 @@ Carrier testing identifies individuals who carry one copy of a recessive allele:
 
 | Condition           | Gene                                           | Carrier Frequency                       | Populations Most Affected                         |
 | ------------------- | ---------------------------------------------- | --------------------------------------- | ------------------------------------------------- |
-| Cystic fibrosis     | CFTR ($\Delta$F508 most common mutation)       | 1 in 25 (UK Caucasian)                  | Northern European descent                         |
+| Cystic fibrosis     | CFTR ($\Delta$ F508 most common mutation)       | 1 in 25 (UK Caucasian)                  | Northern European descent                         |
 | Sickle cell disease | HBB (glutamic acid $\to$ valine at position 6) | 1 in 10 (UK African-Caribbean)          | African, Caribbean, Mediterranean, Middle Eastern |
 | Tay-Sachs disease   | HEXA                                           | 1 in 27 (Ashkenazi Jewish)              | Ashkenazi Jewish descent                          |
 | Thalassaemia        | HBA/HBB genes                                  | 1 in 7--15 (Mediterranean, South Asian) | Mediterranean, Middle Eastern, South Asian        |
@@ -2039,7 +2039,7 @@ Degrees of freedom = number of categories - 1 = 2 - 1 = 1.
 
 Critical value at $p = 0.05$ with 1 df = 3.841.
 
-Since $0.48 < 3.841$We accept the null hypothesis: the observed results are consistent with the
+Since $0.48 < 3.841$ We accept the null hypothesis: the observed results are consistent with the
 expected 3:1 ratio.
 
 ### 31.3 Chi-Squared Rules

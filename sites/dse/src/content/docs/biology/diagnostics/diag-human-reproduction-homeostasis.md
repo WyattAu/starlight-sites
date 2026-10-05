@@ -301,7 +301,7 @@ $39.5^{\circ}C$) by chemicals called **pyrogens** (released by white blood cells
 infection). The hypothalamus now considers $39.5^{\circ}C$ as the "normal" temperature.
 
 At the new set point, the body actually triggers **heat-generating mechanisms** (shivering,
-vasoconstriction) to raise the body temperature to $39.5^{\circ}C$Rather than cooling mechanisms.
+vasoconstriction) to raise the body temperature to $39.5^{\circ}C$ Rather than cooling mechanisms.
 The cooling mechanisms are only triggered when the temperature **exceeds** the new set point (above
 $39.5^{\circ}C$). When the infection is cleared and pyrogens are removed, the set point returns to
 $37^{\circ}C$ and the body triggers cooling (sweating, vasodilation) to bring the temperature back

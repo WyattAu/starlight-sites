@@ -9057,7 +9057,7 @@ Producing standard JavaScript output.
 
 The type system is **structural**, meaning type compatibility is determined by the shape of values
 Rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
-With JavaScript"s own duck-typing semantics while providing compile-time guarantees that catch a
+With JavaScript's own duck-typing semantics while providing compile-time guarantees that catch a
 Broad class of errors before runtime.
 
 ## Relationship to JavaScript

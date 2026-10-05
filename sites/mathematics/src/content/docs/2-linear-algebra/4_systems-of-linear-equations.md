@@ -19,7 +19,7 @@ description: 'A system of linear equations in unknowns can be written as Where C
 
 ### 4.1 Gaussian Elimination
 
-A system of $m$ linear equations in $n$ unknowns can be written as $A\mathbf{x} = \mathbf{b}$Where
+A system of $m$ linear equations in $n$ unknowns can be written as $A\mathbf{x} = \mathbf{b}$ Where
 $A \in \mathcal{M}_{m \times n}(\mathbb{R})$, $\mathbf{x} \in \mathbb{R}^n$ And
 $\mathbf{b} \in \mathbb{R}^m$.
 
@@ -104,7 +104,7 @@ Verify: $LU = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix} 
 
 </details>
 
-To solve $A\mathbf{x} = \mathbf{b}$First solve $L\mathbf{y} = \mathbf{b}$ (forward substitution),
+To solve $A\mathbf{x} = \mathbf{b}$ First solve $L\mathbf{y} = \mathbf{b}$ (forward substitution),
 Then $U\mathbf{x} = \mathbf{y}$ (back substitution).
 
 ### 4.4 Gaussian Elimination with Partial Pivoting
@@ -181,7 +181,7 @@ $\hat{\mathbf{x}} = (A^T A)^{-1} A^T \mathbf{b}$.
 _Proof._ The error vector $\mathbf{e} = A\mathbf{x} - \mathbf{b}$ is minimised when
 $\mathbf{e} \perp \mathrm{col}(A)$ I.e., when $A^T \mathbf{e} = \mathbf{0}$. This gives
 $A^T(A\mathbf{x} - \mathbf{b}) = \mathbf{0}$ Or $A^T A \mathbf{x} = A^T \mathbf{b}$. If $A$ has full
-column rank, then $\ker(A) = \{\mathbf{0}\}$ So $\ker(A^T A) = \ker(A) = \{\mathbf{0}\}$Meaning
+column rank, then $\ker(A) = \{\mathbf{0}\}$ So $\ker(A^T A) = \ker(A) = \{\mathbf{0}\}$ Meaning
 $A^T A$ is invertible. $\blacksquare$
 
 **Problem.** Find the least squares line $y = ax + b$ fitting the data points $(1, 1)$, $(2, 1)$,

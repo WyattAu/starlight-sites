@@ -54,8 +54,8 @@ The only critical point is $(0, 0)$. Now $f_{xx} = 6x$, $f_{yy} = -6x + 6y$, $f_
 
 At $(0,0)$: $D = 0 \cdot 0 - 0 = 0$. The second derivative test is inconclusive.
 
-To classify, note $f(x, y) = x^3 - 3xy^2 + y^3$. Along $y = 0$: $f(x, 0) = x^3$Which changes sign At
-$0$. Along $x = y$: $f(x, x) = -x^3$Which also changes sign but with opposite sign. Since the
+To classify, note $f(x, y) = x^3 - 3xy^2 + y^3$. Along $y = 0$: $f(x, 0) = x^3$ Which changes sign At
+$0$. Along $x = y$: $f(x, x) = -x^3$ Which also changes sign but with opposite sign. Since the
 behaviour differs by direction, $(0, 0)$ is a saddle point.
 
 If you get this wrong, revise: Section 4.2 Second Derivative Test.
@@ -86,7 +86,7 @@ If you get this wrong, revise: Section 1.5 Directional Derivatives.
 
 ### Problem 4
 
-If $x^2 z + y^2 z^2 = 5$Find $\frac{\partial z}{\partial x}$ at $(1, 1, 1)$.
+If $x^2 z + y^2 z^2 = 5$ Find $\frac{\partial z}{\partial x}$ at $(1, 1, 1)$.
 
 <details>
 <summary>Solution</summary>
@@ -121,7 +121,7 @@ $$
 
 Where $R_2 = O(\lvert x \rvert^3 + \lvert y \rvert^3)$.
 
-If you get this wrong, revise: Section 1.10 Taylor"s Theorem.
+If you get this wrong, revise: Section 1.10 Taylor's Theorem.
 
 </details>
 
@@ -132,7 +132,7 @@ Evaluate $\iint_D (x + y)\, dA$ where $D$ is bounded by $y = x$ and $y = x^2$.
 <details>
 <summary>Solution</summary>
 
-The curves intersect when $x = x^2$I.e., $x(x-1) = 0$ So $x = 0$ and $x = 1$. For $x \in (0,1)$
+The curves intersect when $x = x^2$ I.e., $x(x-1) = 0$ So $x = 0$ and $x = 1$. For $x \in (0,1)$
 $x^2 \lt x$ So $D = \\{(x,y) : 0 \leq x \leq 1,\, x^2 \leq y \leq x\\}$.
 
 $$
@@ -506,7 +506,7 @@ $z = 1$.
 <summary>Solution</summary>
 
 Use spherical coordinates. The sphere has $\rho = 2$. The plane $z = 1$ intersects when
-$2\cos\phi = 1$ So $\cos\phi = 1/2$Giving $\phi = \pi/3$.
+$2\cos\phi = 1$ So $\cos\phi = 1/2$ Giving $\phi = \pi/3$.
 
 The region: $0 \leq \rho \leq 2$, $0 \leq \phi \leq \pi/3$, $0 \leq \theta \leq 2\pi$.
 
@@ -532,7 +532,7 @@ $\int_C \mathbf{F} \cdot d\mathbf{r}$ where $C$ is any path from $(0, 0)$ to $(1
 
 Check: $\frac{\partial P}{\partial y} = e^{xy} + xye^{xy}$,
 $\frac{\partial Q}{\partial x} = e^{xy} + xye^{xy}$. These are equal, so $\mathbf{F}$ is
-conservative (on $\mathbb{R}^2$Which is connected).
+conservative (on $\mathbb{R}^2$ Which is connected).
 
 Find $\phi$:
 

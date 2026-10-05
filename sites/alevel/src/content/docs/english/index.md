@@ -116,7 +116,7 @@ Most exam boards assess the following objectives (wording varies):
 
 Beyond your set texts, wider reading strengthens your understanding of literary traditions:
 
-- **Critical Guides**: York Notes, Bloom"s Modern Critical Interpretations
+- **Critical Guides**: York Notes, Bloom's Modern Critical Interpretations
 - **Literary Theory**: Introduction to formalism, feminism, post-colonialism, and Marxism
 - **Contextual Background**: Social history of the periods studied
 - **Model Essays**: Exam board exemplar responses at different mark bands

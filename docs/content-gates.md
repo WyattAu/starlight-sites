@@ -40,14 +40,36 @@ becomes unbalanced). Fenced code blocks and HTML comments are skipped.
 This class was worth 20,495 rewrites across 911 files — the largest single
 visual defect found in the content layer.
 
-## 4. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
+## 4. Prose damage lint (`scripts/fix-prose-damage.py --check`)
+
+The em-dash normalization pass also ate punctuation *inside* prose:
+
+- `Fermat"s Little Theorem` — curly closing quote used as an apostrophe (578)
+- `$1 \pmod{m}$Where $\phi$ is` — inline math glued to the following word (8,520)
+- `$p = 0.6$$q = 0.3$After` — spaces removed *between* adjacent spans too, so
+  the glued span's opening `$` is preceded by another `$`
+
+The repair is deliberately conservative: it never changes letter case, never
+edits inside a formula, and skips fenced code and inline code spans. Detecting
+the glue class needs remark-math's own delimiter rule (the opening `$` must not
+follow a word character, and must be followed by non-whitespace) — otherwise
+the *gap between two spans* reads as a span and the fixer corrupts correct
+prose like `$x - a$ divides $P(x)$ iff $P(a) = 0$`. 21 unit tests pin both
+directions, including a regression for a `--check`/fixer fence-handling
+mismatch.
+
+Not repaired, tracked via `--report`: the run-on class `$...$ Then`, where the
+math closed a sentence and the full stop was eaten. Restoring the stop also
+requires re-casing `Then` -> `then`, which is editorial.
+
+## 5. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
 
 Generates the AI-crawler-facing site indexes: a network root
 (`sites/main/public/llms.txt`) and one per site. `--check` fails when the
 committed files are stale relative to content. Regenerate with
 `node scripts/generate-llms-txt.js`.
 
-## 5. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
+## 6. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
 
 Parses markdown and `href=` links network-wide (14,000+ internal links),
 resolving each against the page index with browser semantics:

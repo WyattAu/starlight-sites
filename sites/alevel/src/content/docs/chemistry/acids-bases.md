@@ -91,7 +91,7 @@ $\mathrm{Ca(OH)}_2$ (sparingly soluble but fully dissociated).
 
 ### Weak Bases
 
-Common weak bases: $\mathrm{NH}_3$Amines, $\mathrm{CO}_3^{2-}$$\mathrm{HCO}_3^-$.
+Common weak bases: $\mathrm{NH}_3$ Amines, $\mathrm{CO}_3^{2-}$$\mathrm{HCO}_3^-$.
 
 ## The pH Scale
 
@@ -103,8 +103,8 @@ $$
 
 Where $[\mathrm{H}^+]$ is in $\mathrm{mol/dm}^3$.
 
-- At $25^\circ\mathrm{C}$Pure water has
-  $[\mathrm{H}^+] = 1.0 \times 10^{-7}\,\mathrm{mol/dm}^3$Giving $\mathrm{pH} = 7.0$.
+- At $25^\circ\mathrm{C}$ Pure water has
+  $[\mathrm{H}^+] = 1.0 \times 10^{-7}\,\mathrm{mol/dm}^3$ Giving $\mathrm{pH} = 7.0$.
 - Acidic solutions: $\mathrm{pH} \lt 7$ ($[\mathrm{H}^+] \gt [\mathrm{OH}^-]$).
 - Alkaline solutions: $\mathrm{pH} \gt 7$ ($[\mathrm{H}^+] \lt [\mathrm{OH}^-]$).
 - pH is measured on a scale of 0--14, though values outside this range are possible.
@@ -313,7 +313,7 @@ $$
 \mathrm{A}^- + \mathrm{H}^+ \to \mathrm{HA}
 $$
 
-This consumes the added $\mathrm{H}^+$Minimising the pH change.
+This consumes the added $\mathrm{H}^+$ Minimising the pH change.
 
 **Adding base ($\mathrm{OH}^-$):** The weak acid $\mathrm{HA}$ reacts with the added
 $\mathrm{OH}^-$:
@@ -322,7 +322,7 @@ $$
 \mathrm{HA} + \mathrm{OH}^- \to \mathrm{A}^- + \mathrm{H}_2\mathrm{O}
 $$
 
-This consumes the added $\mathrm{OH}^-$Minimising the pH change.
+This consumes the added $\mathrm{OH}^-$ Minimising the pH change.
 
 ### Henderson-Hasselbalch Equation
 
@@ -429,7 +429,7 @@ weak base.
 1. **Confusing pH with [H+].** pH = 3 does not mean $[\mathrm{H}^+] = 3\,\mathrm{mol/dm}^3$. It
    means $[\mathrm{H}^+] = 10^{-3}\,\mathrm{mol/dm}^3$. A lower pH means a higher $[\mathrm{H}^+]$.
 
-2. **Applying the weak acid approximation when it is not valid.** If $c/K_a \lt 100$The assumption
+2. **Applying the weak acid approximation when it is not valid.** If $c/K_a \lt 100$ The assumption
    $[\mathrm{HA}] \approx c$ fails, and the quadratic formula must be used.
 
 3. **Using the wrong indicator.** The indicator range must overlap with the steep portion of the
@@ -866,7 +866,7 @@ come from a strong or weak acid/base:
 | $\mathrm{NH}_4\mathrm{CH}_3\mathrm{COO}$ | Weak base   | Weak acid   | $\approx 7$    | Both hydrolyse; pH depends on relative $K_a$ and $K_b$                                                                                                         |
 
 **Worked Example.** Calculate the pH of a $0.050\,\mathrm{mol/dm}^3$ solution of
-$\mathrm{NH}_4\mathrm{Cl}$. ($K_b(\mathrm{NH}_3) = 1.8 \times 10^{-5}$)
+$\mathrm{NH}_4\mathrm{Cl}$. ($ K_b(\mathrm{NH}_3) = 1.8 \times 10^{-5}$)
 
 $$
 K_a(\mathrm{NH}_4^+) = \frac{K_w}{K_b} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.6 \times 10^{-10}
@@ -966,9 +966,9 @@ $$
 \mathrm{HA} \rightleftharpoons \mathrm{H}^+ + \mathrm{A}^-
 $$
 
-When acid is added, $\mathrm{A}^-$ consumes the added $\mathrm{H}^+$Shifting the equilibrium left
+When acid is added, $\mathrm{A}^-$ consumes the added $\mathrm{H}^+$ Shifting the equilibrium left
 and minimising pH change. When base is added, HA donates $\mathrm{H}^+$ to neutralise the added
-$\mathrm{OH}^-$Shifting the equilibrium right.
+$\mathrm{OH}^-$ Shifting the equilibrium right.
 
 $\mathrm{HCl}$ and $\mathrm{NaCl}$: $\mathrm{HCl}$ is a strong acid that dissociates completely.
 $\mathrm{Cl}^-$ is the conjugate base of a strong acid and has negligible basicity ($\mathrm{Cl}^-$
@@ -1088,7 +1088,7 @@ The titration of ethanoic acid with $\mathrm{NaOH}$ produces a characteristic S-
    because the weak acid is only partially dissociated).
 
 2. **Buffer region:** After some $\mathrm{NaOH}$ has been added, the solution contains both
-   $\mathrm{CH}_3\mathrm{COOH}$ and $\mathrm{CH}_3\mathrm{COO}^-$Forming a buffer. The pH changes
+   $\mathrm{CH}_3\mathrm{COOH}$ and $\mathrm{CH}_3\mathrm{COO}^-$ Forming a buffer. The pH changes
    slowly in this region.
 
 3. **Half-equivalence point:** When half the acid has been neutralised,
@@ -1155,7 +1155,7 @@ curve at the equivalence point.
 Sulfuric acid ($\mathrm{H}_2\mathrm{SO}_4$) is a diprotic acid:
 
 - First dissociation: complete
-  ($\mathrm{H}_2\mathrm{SO}_4 \to \mathrm{H}^+ + \mathrm{HSO}_4^-$Strong acid).
+  ($\mathrm{H}_2\mathrm{SO}_4 \to \mathrm{H}^+ + \mathrm{HSO}_4^-$ Strong acid).
 - Second dissociation: partial
   ($\mathrm{HSO}_4^- \rightleftharpoons \mathrm{H}^+ + \mathrm{SO}_4^{2-}$$K_{a2} = 1.02 \times 10^{-2}$).
 
@@ -1270,7 +1270,7 @@ Define the term $\mathrm{p}K_a$. Explain why the $\mathrm{p}K_a$ of chloroethano
 
 **Mark Scheme:**
 
-$\mathrm{p}K_a = -\log K_a$Where $K_a$ is the acid dissociation constant (1 mark). A lower
+$\mathrm{p}K_a = -\log K_a$ Where $K_a$ is the acid dissociation constant (1 mark). A lower
 $\mathrm{p}K_a$ means a stronger acid (greater dissociation).
 
 Chlorine is more electronegative than hydrogen, so it withdraws electron density from the carboxyl

@@ -1515,7 +1515,7 @@ Dart runs on a **single-threaded event loop** with an isolated memory model. Unl
 Threads (Java, C++, Rust), Dart uses **event-driven concurrency**, the single thread processes
 Events from a queue, interleaving async operations without blocking.
 
-This design is fundamental to Flutter"s architecture: the UI must remain responsive (60 fps) while
+This design is fundamental to Flutter's architecture: the UI must remain responsive (60 fps) while
 Performing I/O (network requests, file reads, database queries). If any operation blocks the thread,
 The entire UI freezes.
 
@@ -7087,7 +7087,7 @@ Verifying.
 ## Compiling and Running
 
 With everything setup and a `Flutter: new project` created, the code can now be compiled and ran
-With the device selected. Now clicking `F5` (VSCode"s debug mode) will run the command of
+With the device selected. Now clicking `F5` (VSCode's debug mode) will run the command of
 `flutter run --debug` and a counter app will be visible on your device. This is JIT compiled, and
 Can be hot-reloaded. If you want a release build use the `--release` flag instead, the profile mode
 Is a bit more complex, refer to
@@ -9077,7 +9077,7 @@ Program, no runtime type error related to null dereference can occur. The guaran
 Does not depend on the programmer annotating every variable correctly, because the type checker
 Enforces consistency at all boundaries.
 
-Unsound null safety (e.g., TypeScript"s `strictNullChecks`Kotlin's platform types at interop
+Unsound null safety (e.g., TypeScript's `strictNullChecks`Kotlin's platform types at interop
 Boundaries) means the compiler can miss cases. A variable declared non-nullable might still be
 `null` at runtime due to unchecked casts, interop boundaries, or generics erasure. Dart's null
 Safety is sound because:
@@ -23099,7 +23099,7 @@ true
 
 ### Strings
 
-Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang"s
+Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang's
 string type, which is a list of integers).
 
 ```elixir
@@ -24942,7 +24942,7 @@ of building fault-tolerant distributed systems.
 
 Valim was drawn to the Erlang ecosystem -- specifically its proven track record in
 telecommunications, messaging systems, and fault-tolerant infrastructure (WhatsApp, Discord,
-RabbitMQ all run on Erlang/BEAM). However, he found Erlang"s syntax arcane and its tooling lacking
+RabbitMQ all run on Erlang/BEAM). However, he found Erlang's syntax arcane and its tooling lacking
 the developer experience he had come to expect from the Ruby world. His goal was to create a
 language that would:
 
@@ -27306,7 +27306,7 @@ Metaprogramming in Elixir is the ability to write code that generates or transfo
 time. The primary mechanism for this is the **macro** system, which allows you to manipulate the
 Abstract Syntax Tree (AST) of Elixir code before it is compiled.
 
-Elixir"s macro system is similar to Lisp's but with important differences:
+Elixir's macro system is similar to Lisp's but with important differences:
 
 - Macros operate on Elixir's own AST representation, not S-expressions
 - Macros are hygienic by default (they do not accidentally capture or overwrite variables)
@@ -28994,7 +28994,7 @@ end
 
 ### Hot Code Upgrades
 
-One of BEAM"s most distinctive features is hot code swapping -- loading new code without stopping
+One of BEAM's most distinctive features is hot code swapping -- loading new code without stopping
 the system:
 
 ```elixir
@@ -39246,7 +39246,7 @@ monadic contexts (like `IORef` or `MVar`), and Haskell provides safe abstraction
 
 ## forkIO: Lightweight Threads
 
-Haskell"s `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
+Haskell's `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
 threads):
 
 ```haskell
@@ -40636,7 +40636,7 @@ stack haddock
 
 ### Hackage
 
-Hackage is Haskell"s central package repository at <https://hackage.haskell.org>. It hosts thousands
+Hackage is Haskell's central package repository at <https://hackage.haskell.org>. It hosts thousands
 of open-source packages. Key resources:
 
 - **Package search**: Find libraries for specific tasks
@@ -45776,7 +45776,7 @@ Dependencies, plugins, and build configuration.
 
 ### Lifecycle Phases
 
-Maven"s build lifecycle is a sequence of phases. Each phase delegates to plugins that implement the
+Maven's build lifecycle is a sequence of phases. Each phase delegates to plugins that implement the
 Behavior. Running a phase executes all prior phases in order.
 
 | Phase      | Description                                                         |
@@ -66200,7 +66200,7 @@ Encoding is used; it is determined automatically at construction time.
 ### When to Use Each
 
 **`String`**, Use for values that do not change. Literals, constants, method return values for
-Immutable data, keys in maps, and any case where immutability is desired. The JVM"s escape analysis
+Immutable data, keys in maps, and any case where immutability is desired. The JVM's escape analysis
 And JIT can sometimes optimize string concatenation into `StringBuilder` automatically.
 
 **`StringBuilder`**, Use for building strings in a single thread. This covers the vast majority of
@@ -72072,7 +72072,7 @@ Statement (as in Java) works without this constraint.
 
 ## when Expression
 
-`when` is Kotlin"s replacement for the Java `switch` statement. It is an expression by default and
+`when` is Kotlin's replacement for the Java `switch` statement. It is an expression by default and
 Supports arbitrary conditions, not just constant matching.
 
 ### Basic Matching
@@ -73169,7 +73169,7 @@ flow { emit(fetchData()) }
 
 ### CoroutineScope Lifecycle in Android and Compose
 
-`viewModelScope` is tied to the ViewModel"s lifecycle. In Compose, `LaunchedEffect` creates
+`viewModelScope` is tied to the ViewModel's lifecycle. In Compose, `LaunchedEffect` creates
 coroutines tied to composition:
 
 ```kotlin
@@ -75309,7 +75309,7 @@ Callable as a `void` method from Java.
 
 ### Kotlin Collections from Java
 
-Java code sees Kotlin"s read-only collection types as their mutable equivalents (e.g., `List` is
+Java code sees Kotlin's read-only collection types as their mutable equivalents (e.g., `List` is
 Seen as `java.util.List`). This is because Kotlin's read-only interfaces extend Java's mutable
 Interfaces for compatibility.
 
@@ -75386,7 +75386,7 @@ URL: https://languages.wyattau.com/kotlin/intro/
 ## Overview
 
 Kotlin is a statically typed language targeting the JVM, Android, JavaScript, and native platforms
-Via LLVM. Developed by JetBrains, it was designed to address Java"s verbosity, null safety issues,
+Via LLVM. Developed by JetBrains, it was designed to address Java's verbosity, null safety issues,
 And lack of modern language features while maintaining full interoperability.
 
 Key design goals:
@@ -79417,7 +79417,7 @@ producing a lost update.
 ### Why the GIL Exists
 
 The GIL is not a design oversight. It is a deliberate trade-off that solves a specific problem:
-**CPython"s memory management is not thread-safe**.
+**CPython's memory management is not thread-safe**.
 
 CPython uses reference counting as its primary garbage collection strategy. Every object carries a
 `ob_refcnt` field. When you assign an object to a new name, the reference count is incremented. When
@@ -83454,7 +83454,7 @@ Grows with the number of elements.
 - **`list`**: General-purpose, heterogeneous data. Use when you need to store objects of different
   types or when the list is small.
 - **`array.array`**: Homogeneous numeric data where memory efficiency matters but you do not need
-  NumPy"s vectorized operations.
+  NumPy's vectorized operations.
 - **`numpy.ndarray`**: Large-scale numerical computation. NumPy provides vectorized operations,
   broadcasting, and linear algebra that `array` does not.
 
@@ -88395,7 +88395,7 @@ Set to `True` when you use `from e` or `from None`Which tells the traceback form
 
 ## cProfile
 
-`cProfile` is CPython"s deterministic, function-level profiler. It is implemented in C as a C
+`cProfile` is CPython's deterministic, function-level profiler. It is implemented in C as a C
 Extension (`_lsprof`), which makes it significantly faster than a pure-Python implementation but
 Still imposes measurable overhead.
 
@@ -89116,7 +89116,7 @@ access system in Python. A descriptor is any object that implements at least one
 | Non-data descriptor | `__get__` only                        | Instance attribute takes precedence            |
 | Data descriptor     | `__get__` + `__set__` or `__delete__` | Descriptor always wins over instance attribute |
 
-This distinction is fundamental to understanding Python"s attribute lookup.
+This distinction is fundamental to understanding Python's attribute lookup.
 
 ```python
 class NonDataDescriptor:
@@ -96767,7 +96767,7 @@ print(list(islice(primes(), 10)))            # [2, 3, 5, 7, 11, 13, 17, 19, 23, 
 The prime sieve above is an incremental version of the Sieve of Eratosthenes, sometimes called the
 "incremental sieve" or "O'Neill sieve." It maintains a dictionary of known composite numbers and
 Their generating primes, avoiding the memory cost of a full boolean sieve array. Its time complexity
-Is approximately $O(n \log \log n)$ for generating all primes up to $n$Matching the classical Sieve,
+Is approximately $O(n \log \log n)$ for generating all primes up to $n$ Matching the classical Sieve,
 but its constant factor is higher due to dictionary overhead.
 
 ### Pipeline Processing (ETL)
@@ -102840,7 +102840,7 @@ print(m == f)  # False, Meter.__eq__ returns False
 print(f == m)  # Could be True, asymmetric!
 ```
 
-Always return `NotImplemented` for unsupported types to enable Python"s fallback mechanism.
+Always return `NotImplemented` for unsupported types to enable Python's fallback mechanism.
 
 ### 3. \_\_str\_\_ Returning Non-String
 
@@ -103006,7 +103006,7 @@ URL: https://languages.wyattau.com/python/02-fundamentals/05-python-internals/
 CPython is the reference implementation of Python, written in C. It is the most widely used
 Implementation and the one most people mean when they say "Python." Understanding its architecture
 Is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
-Python"s memory and concurrency behavior.
+Python's memory and concurrency behavior.
 
 The execution pipeline in CPython is:
 
@@ -104191,7 +104191,7 @@ print(data)  # {'host': "localhost'', "port': "localhost''} (or env values)
 
 ## TOML
 
-TOML (Tom"s Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
+TOML (Tom's Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
 `tomllib` in the standard library.
 
 ### Reading TOML (Python 3.11+)
@@ -106208,7 +106208,7 @@ URL: https://languages.wyattau.com/python/02-fundamentals/01-types-and-variables
 }
 </script>
 
-## Python"s Type System
+## Python's Type System
 
 Python is **dynamically typed** and **strongly typed**. These two properties are frequently
 Confused, so it is worth being precise about what they mean.
@@ -106894,7 +106894,7 @@ def get_name(obj: T) -> str:
 
 ### `Protocol`: Structural Subtyping (PEP 544)
 
-Python"s type system supports both nominal typing (based on inheritance) and structural typing
+Python's type system supports both nominal typing (based on inheritance) and structural typing
 (based on shape). `Protocol` enables structural typing -- a type satisfies a protocol if it has the
 Required attributes and methods, regardless of inheritance.
 
@@ -108237,7 +108237,7 @@ label = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : "F"
 
 ### case / when
 
-The `case` statement is Ruby"s switch construct. It supports both value matching and condition
+The `case` statement is Ruby's switch construct. It supports both value matching and condition
 matching:
 
 ```ruby
@@ -109998,7 +109998,7 @@ exceptionally well-suited for metaprogramming because:
 - Classes and modules are open -- they can be modified at any time
 - Methods can be defined, removed, and aliased dynamically
 - Every operation (including method calls and class definitions) is expressed as a message send
-- Ruby"s reflective API provides deep introspection capabilities
+- Ruby's reflective API provides deep introspection capabilities
 - Blocks, procs, and lambdas are first-class objects
 
 ## Open Classes
@@ -110064,7 +110064,7 @@ end
 
 ## method_missing
 
-`method_missing` is Ruby"s mechanism for handling unknown method calls:
+`method_missing` is Ruby's mechanism for handling unknown method calls:
 
 ```ruby
 class DynamicProxy
@@ -111231,7 +111231,7 @@ end
 
 ## Blocks
 
-Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby"s most
+Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby's most
 powerful features.
 
 ### Block Syntax
@@ -113147,7 +113147,7 @@ Key characteristics of Ruby:
 - Better error handling and deprecation warnings
 - `ReferenceError` instead of `NameError` for certain binding issues
 
-## Ruby"s Philosophy: The Principle of Least Astonishment
+## Ruby's Philosophy: The Principle of Least Astonishment
 
 The **Principle of Least Astonishment (POLA)**, sometimes called the **Principle of Least
 Surprise**, is the guiding philosophy behind Ruby's design. Matz designed Ruby so that the language
@@ -131834,7 +131834,7 @@ The `unsafe` keyword grants access to five capabilities that the compiler cannot
 4. **Implement unsafe traits**, `unsafe impl Send for T {}`
 5. **Access union fields**. Unions require unsafe for field access
 
-`unsafe` does not disable the borrow checker. It does not bypass Rust"s safety guarantees, it
+`unsafe` does not disable the borrow checker. It does not bypass Rust's safety guarantees, it
 Allows you to do things that the compiler cannot prove are safe. You are responsible for maintaining
 All invariants manually.
 
@@ -133119,7 +133119,7 @@ class ColoredShape: Shape {
 ## Protocols
 
 Protocols define a **blueprint of methods, properties, and requirements** that conforming types must
-implement. They are central to Swift"s protocol-oriented programming paradigm.
+implement. They are central to Swift's protocol-oriented programming paradigm.
 
 ### Defining Protocols
 
@@ -136698,7 +136698,7 @@ swift
 
 ## Swift Package Manager (SPM)
 
-SPM is Apple"s built-in dependency management and build tool. It integrates with Xcode and works
+SPM is Apple's built-in dependency management and build tool. It integrates with Xcode and works
 from the command line.
 
 ### Package Structure
@@ -145847,7 +145847,7 @@ Producing standard JavaScript output.
 
 The type system is **structural**, meaning type compatibility is determined by the shape of values
 Rather than by explicit inheritance relationships or nominal declarations. This design choice aligns
-With JavaScript"s own duck-typing semantics while providing compile-time guarantees that catch a
+With JavaScript's own duck-typing semantics while providing compile-time guarantees that catch a
 Broad class of errors before runtime.
 
 ## Relationship to JavaScript

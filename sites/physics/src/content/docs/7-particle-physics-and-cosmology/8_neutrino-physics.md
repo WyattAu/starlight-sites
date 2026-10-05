@@ -27,7 +27,7 @@ $$
 $$
 
 As a neutrino of flavour $\alpha$ propagates, the mass eigenstates acquire different phases:
-$\exp(-im_i^2 L/(2E))$Leading to oscillations.
+$\exp(-im_i^2 L/(2E))$ Leading to oscillations.
 
 **Two-flavour oscillation probability:**
 
@@ -60,7 +60,7 @@ Where $m_D$ is a Dirac mass and $M \gg m_D$ is the mass of a heavy right-handed 
 <summary>Example 8.1: Atmospheric neutrino oscillation calculation</summary>
 
 Atmospheric neutrinos are produced when cosmic rays strike the upper atmosphere, creating Pions that
-decay: $\pi^+ \to \mu^+ + \nu_\mu$Followed by $\mu^+ \to e^+ + \bar{\nu}_\mu + \nu_e$.
+decay: $\pi^+ \to \mu^+ + \nu_\mu$ Followed by $\mu^+ \to e^+ + \bar{\nu}_\mu + \nu_e$.
 
 Super-Kamiokande (1998) observed that upward-going muon neutrinos (travelling through the Earth,
 $L \sim 10^4$ km) were significantly depleted relative to downward-going ones ($L \sim 10$ km),
@@ -111,7 +111,7 @@ $$
 
 And at the first oscillation maximum,
 $L/E = 2\pi/(\Delta m^2) = 2\pi/(2.5 \times 10^{-3}) \approx 2513$ km/GeV. For $E = 1$ GeV,
-$L_{\mathrm{osc} \approx 2513}$ km, which is comparable to the Earth"s diameter ($\sim 12\,700$ km).
+$L_{\mathrm{osc} \approx 2513}$ km, which is comparable to the Earth's diameter ($\sim 12\,700$ km).
 The observed deficit is an average over many oscillations and energies, Giving roughly
 $\langle P\rangle \approx 1/2$ for maximal mixing, consistent with the Super-Kamiokande observation
 of approximately half the expected upward-going $\nu_\mu$ flux.
@@ -137,7 +137,7 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 
 ### 8.5 Applications
 
-- **Solar neutrino spectroscopy:** Precise measurement of solar neutrino fluxes (pp, $^7$Be, $^8$B) tests solar models and constrains the MSW effect transition between vacuum and matter-dominated oscillations.
+- **Solar neutrino spectroscopy:** Precise measurement of solar neutrino fluxes (pp, $^7$ Be, $^8$ B) tests solar models and constrains the MSW effect transition between vacuum and matter-dominated oscillations.
 - **Reactor neutrino monitoring:** Antineutrino detectors at nuclear reactors (Daya Bay, Double Chooz) measure $\theta_{13}$ and can monitor reactor power and fuel composition for non-proliferation.
 - **Supernova neutrinos:** Core-collapse supernovae release $\sim 99\%$ of their gravitational binding energy as neutrinos. Detecting these (SN 1987A, $\sim 20$ events) tests models of stellar death and neutron star formation.
 - **Neutrino telescopes:** IceCube and KM3NeT detect high-energy astrophysical neutrinos from blazars, gamma-ray bursts, and possibly dark matter annihilation.

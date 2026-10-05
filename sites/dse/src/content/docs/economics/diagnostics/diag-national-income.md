@@ -20,9 +20,9 @@ tableOfContents: false
 
 ### UT-1: GDP Calculation Methods
 
-**Question:** An economy has the following data (in billions of HKD): Consumption $= 800$Investment
-$= 300$Government spending $= 250$Exports $= 400$Imports $= 350$Subsidies $= 60$Indirect taxes
-$= 100$Depreciation $= 120$Net factor income from abroad $= -20$. Calculate: (a) GDP by expenditure
+**Question:** An economy has the following data (in billions of HKD): Consumption $= 800$ Investment
+$= 300$ Government spending $= 250$ Exports $= 400$ Imports $= 350$ Subsidies $= 60$ Indirect taxes
+$= 100$ Depreciation $= 120$ Net factor income from abroad $= -20$. Calculate: (a) GDP by expenditure
 method, (b) GNP, (c) NNP, (d) National Income.
 
 **Solution:**
@@ -142,7 +142,7 @@ $= \frac{120 - 105}{105} \times 100\% = 14.29\%$.
 (b) Cyclical unemployment $= 8\% - 5\% = 3\%$. Using Okun's law:
 $\frac{Y - Y^*}{Y^*} = -2 \times u_c = -2 \times 3\% = -6\%$.
 
-So $Y = 0.94 Y^*$Meaning actual output is 6% below potential. $Y^* = 1000/0.94 = \$1063.8$ billion.
+So $Y = 0.94 Y^*$ Meaning actual output is 6% below potential. $Y^* = 1000/0.94 = \$1063.8$ billion.
 Output gap $= 1000 - 1063.8 = -\$63.8$ billion (negative = recessionary gap).
 
 (c) Real GDP per capita $= \frac{1000}{50} = \$20,000$.
@@ -173,11 +173,11 @@ claims its economy is performing better. Critically evaluate this claim using th
 (a) Country A: GDP per capita $= \frac{2000}{60} = \$33,333$. Country B: GDP per capita
 $= \frac{500}{10} = \$50,000$.
 
-(b) Country A has a larger total economy (nominal GDP $\$2000$B vs $\$500$B), but Country B has a
+(b) Country A has a larger total economy (nominal GDP $\$2000$ B vs $\$500$ B), but Country B has a
 higher GDP per capita and is growing much faster (7.0% vs 2.5%).
 
-(c) Country A has a current account deficit of $\$100$B, meaning it imports more than it exports
-and/or receives less net income from abroad. Country B has a surplus of $\$50$B. The deficit means
+(c) Country A has a current account deficit of $\$100$ B, meaning it imports more than it exports
+and/or receives less net income from abroad. Country B has a surplus of $\$50$ B. The deficit means
 Country A is borrowing from abroad or selling assets to finance its excess imports -- this is
 sustainable in the short run but may create debt problems. Country B's surplus means it is a net
 lender to the rest of the world.
@@ -192,7 +192,7 @@ indicator tells the full story.
 ### IT-3: National Income Accounting Pitfalls (with Basic Economic Concepts)
 
 **Question:** A developing country experiences the following in one year: (i) a severe earthquake
-destroys $\$50$B of infrastructure, (ii) the government spends $\$80$B rebuilding, (iii) the
+destroys $\$50$ B of infrastructure, (ii) the government spends $\$80$ B rebuilding, (iii) the
 rebuilding employs 200,000 previously unemployed workers, (iv) pollution from rebuilding reduces air
 quality significantly. (a) How would each event affect GDP? (b) Calculate the net effect on GDP. (c)
 Does the GDP change reflect an improvement in welfare? Explain. (d) How does the concept of
@@ -202,21 +202,21 @@ opportunity cost apply to the rebuilding expenditure?
 
 (a) (i) Destruction of infrastructure does **not** directly reduce GDP (GDP measures current
 production, not the stock of capital). However, it reduces the capital stock, which will reduce
-future productive capacity. (ii) Government spending of $\$80$B **increases** GDP by $\$80$B through
+future productive capacity. (ii) Government spending of $\$80$ B **increases** GDP by $\$80$ B through
 the $G$ component. (iii) The employment of previously unemployed workers is already captured in (ii)
 -- the wages paid are part of the income approach to GDP. (iv) Pollution is **not** subtracted from
 GDP. In fact, if the government hires environmental consultants or cleanup crews, this would
 _increase_ GDP.
 
-(b) Net effect on GDP: $+\$80$B from government spending. GDP rises despite the destruction.
+(b) Net effect on GDP: $+\$80$ B from government spending. GDP rises despite the destruction.
 
-(c) No. The country is worse off -- it lost $\$50$B of infrastructure, suffered environmental
-damage, and had to divert $\$80$B from other productive uses to rebuild. Yet GDP shows an increase.
+(c) No. The country is worse off -- it lost $\$50$ B of infrastructure, suffered environmental
+damage, and had to divert $\$80$ B from other productive uses to rebuild. Yet GDP shows an increase.
 This is one of the most serious limitations of GDP: it counts the cost of rebuilding after a
 disaster as economic growth, even though the country is merely restoring what it already had (and
 not even fully, since the environmental damage is not accounted for).
 
-(d) The $\$80$B spent on rebuilding has an opportunity cost -- the goods and services that could
+(d) The $\$80$ B spent on rebuilding has an opportunity cost -- the goods and services that could
 have been produced if those resources had been allocated elsewhere. The 200,000 workers could have
 been producing consumer goods, new infrastructure, or education. The construction materials could
 have built new factories or housing. The earthquake forced the country to consume its rebuilding
@@ -248,7 +248,7 @@ flowchart TD
 **Question:** An economy has the following factor income data (in HK$ billion): Compensation of
 employees $= 600$, Gross operating surplus $= 350$, Gross mixed income $= 100$, Taxes on production
 and imports $= 80$, Subsidies $= 30$. (a) Calculate GDP by the income approach. (b) If depreciation
-is HK$120 billion and net factor income from abroad is $-$HK$15 billion, calculate GNP, NNP, and
+is HK$120 billion and net factor income from abroad is $-$ HK$15 billion, calculate GNP, NNP, and
 National Income. (c) Explain why the expenditure, income, and output approaches to GDP should yield
 the same result. (d) If a domestic company earns HK$50 billion from its subsidiary in Vietnam, how
 does this affect the calculation?

@@ -38,7 +38,7 @@ flowchart TD
 
 ## Unit Tests
 
-### UT-1: Faraday"s Law (Magnitude) vs Lenz's Law (Direction)
+### UT-1: Faraday's Law (Magnitude) vs Lenz's Law (Direction)
 
 **Question:**
 
@@ -116,7 +116,7 @@ The EMF is halved because the effective area perpendicular to the field is $A\co
 
 **Question:**
 
-A rectangular coil of $N = 500$ turns, dimensions $0.10\,\text{m} \times 0.15\,\text{m}$Rotates at
+A rectangular coil of $N = 500$ turns, dimensions $0.10\,\text{m} \times 0.15\,\text{m}$ Rotates at
 $f = 50\,\text{Hz}$ in a uniform magnetic field $B = 0.40\,\text{T}$. The axis of rotation is
 perpendicular to the field.
 
@@ -220,7 +220,7 @@ $$
 $$
 
 Check: the back EMF is proportional to angular velocity. Original:
-$\varepsilon_{\text{back}} = 110\,\text{V}$New: $50\,\text{V}$. The motor runs at $50/110 = 45.5\%$
+$\varepsilon_{\text{back}} = 110\,\text{V}$ New: $50\,\text{V}$. The motor runs at $50/110 = 45.5\%$
 of its original speed.
 
 ## Integration Tests
@@ -251,7 +251,7 @@ Time to pass through: $\Delta t \approx \ell/v$
 
 Average EMF: $\varepsilon \approx N\Delta\Phi/\Delta t = N \times 2\Phi \times v/\ell$
 
-This requires knowing $v$Which changes. For a rough estimate, assume the magnet reaches a terminal
+This requires knowing $v$ Which changes. For a rough estimate, assume the magnet reaches a terminal
 speed of $0.80\,\text{m}\,\text{s}^{-1}$:
 
 $$
@@ -393,12 +393,12 @@ Voltage across inductor: $V_L = I_{\text{rms}}X_L = 0.796 \times 113.1 = 90.0\,\
 Check: $\sqrt{V_R^2 + V_L^2} = \sqrt{6336 + 8100} = \sqrt{14436} = 120.2\,\text{V}$. This equals
 $V_{\text{rms}} = 170/\sqrt{2} = 120.2\,\text{V}$. Confirmed.
 
-(c) For resonance, we would need a capacitor. With only $R$ and $L$There is no resonance (the
+(c) For resonance, we would need a capacitor. With only $R$ and $L$ There is no resonance (the
 impedance $Z = \sqrt{R^2 + (\omega L)^2}$ increases monotonically with $\omega$).
 
-If a capacitor $C$ were added, resonance occurs when $X_L = X_C$I.e. $\omega_0 = 1/\sqrt{LC}$.
+If a capacitor $C$ were added, resonance occurs when $X_L = X_C$ I.e. $\omega_0 = 1/\sqrt{LC}$.
 
-Without a capacitor, increasing the frequency increases $X_L$ and therefore $Z$Which decreases the
+Without a capacitor, increasing the frequency increases $X_L$ and therefore $Z$ Which decreases the
 current. There is no resonance in a purely RL circuit.
 
 ## Common Mistakes

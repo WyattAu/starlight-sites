@@ -59,7 +59,7 @@ $$
 $$
 
 Defining the **generalised force**
-$Q_j = \sum_i \mathbf{F}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j}$For conservative forces
+$Q_j = \sum_i \mathbf{F}_i \cdot \frac{\partial \mathbf{r}_i}{\partial q_j}$ For conservative forces
 $Q_j = -\partial V/\partial q_j$.
 
 **Second term (inertia).** Using
@@ -142,7 +142,7 @@ $$
 \delta S = \int_{t_1}^{t_2} \left(\frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}}\right) \eta\, dt + \left[\frac{\partial L}{\partial \dot{q}}\eta\right]_{t_1}^{t_2}
 $$
 
-The boundary term vanishes since $\eta(t_1) = \eta(t_2) = 0$. For $\delta S = 0$ for all $\eta$By
+The boundary term vanishes since $\eta(t_1) = \eta(t_2) = 0$. For $\delta S = 0$ for all $\eta$ By
 The fundamental lemma of the calculus of variations:
 
 $$
@@ -184,12 +184,12 @@ $$
 \frac{d}{dt}(ml^2\dot{\theta}) + mgl\sin\theta = 0 \implies \ddot{\theta} + \frac{g}{l}\sin\theta = 0
 $$
 
-For small angles ($\sin\theta \approx \theta$): $\ddot{\theta} + \frac{g}{l}\theta = 0$Giving simple
+For small angles ($\sin\theta \approx \theta$): $\ddot{\theta} + \frac{g}{l}\theta = 0$ Giving simple
 Harmonic motion with $\omega = \sqrt{g/l}$. $\blacksquare$
 
 ### 3.5 Worked Example: Double Pendulum
 
-**Problem.** Derive the equations of motion for a double pendulum: mass $m_1$ on rod $l_1$Mass $m_2$
+**Problem.** Derive the equations of motion for a double pendulum: mass $m_1$ on rod $l_1$ Mass $m_2$
 on rod $l_2$ attached to $m_1$.
 
 _Solution._ Generalised coordinates: angles $\theta_1, \theta_2$ from the vertical. Position of

@@ -116,7 +116,7 @@ Linked to SDG 7 (clean energy), SDG 12 (responsible consumption), SDG 14 (life b
 15 (life on land).
 
 **Progress and challenges.** Global greenhouse gas emissions continue to rise, reaching
-Approximately 57 Gt $\mathrm{CO_2}$E in 2023. Current NDCs are insufficient to limit warming to
+Approximately 57 Gt $\mathrm{CO_2}$ E in 2023. Current NDCs are insufficient to limit warming to
 2$^\circ$C, let alone 1.5$^\circ$C. Climate finance for developing countries remains inadequate
 (approximately USD 100 billion per year was committed but delivery was delayed, and the actual need
 Is estimated at USD 1 trillion per year). Adaptation finance is particularly deficient, receiving

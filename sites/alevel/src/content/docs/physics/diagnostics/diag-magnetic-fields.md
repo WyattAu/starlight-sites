@@ -68,7 +68,7 @@ $$
 $$
 
 Using the right-hand grip rule: $I_1$ produces a field that points into the page at the location of
-$I_2$ (if $I_2$ is to the right of $I_1$ and both carry current upward). Fleming"s left-hand rule
+$I_2$ (if $I_2$ is to the right of $I_1$ and both carry current upward). Fleming's left-hand rule
 gives a force on $I_2$ directed toward $I_1$. The force is **attractive**.
 
 (b) Total force:
@@ -76,11 +76,11 @@ $F = 4.0 \times 10^{-4} \times 0.30 = 1.2 \times 10^{-4}\,\text{N} = 0.12\,\text
 
 (c) When the second wire is perpendicular, the force depends on the angle between the current and
 the field. The field from $I_1$ still circles $I_1$. If the second wire is horizontal (perpendicular
-to $I_1$), the field at the closest point of $I_2$ is tangential to the circle around $I_1$Which is
-perpendicular to $I_2$ at the closest point. However, along the length of $I_2$The distance from
+to $I_1$), the field at the closest point of $I_2$ is tangential to the circle around $I_1$ Which is
+perpendicular to $I_2$ at the closest point. However, along the length of $I_2$ The distance from
 $I_1$ varies and the field direction changes.
 
-For a wire perpendicular to $I_1$ with one end at distance $r = 0.05\,\text{m}$The field varies
+For a wire perpendicular to $I_1$ with one end at distance $r = 0.05\,\text{m}$ The field varies
 along its length and the direction of the force also varies. The total force requires integration.
 The key difference from part (b) is that the field is no longer uniform along $I_2$ And the angle
 between the field and current changes along the wire.
@@ -104,7 +104,7 @@ approximately equal to $\mu_0 I_1 I_2/(2\pi)$ times a geometric factor.
 
 **Question:**
 
-A proton (mass $1.67 \times 10^{-27}\,\text{kg}$Charge $1.60 \times 10^{-19}\,\text{C}$) enters a
+A proton (mass $1.67 \times 10^{-27}\,\text{kg}$ Charge $1.60 \times 10^{-19}\,\text{C}$) enters a
 uniform magnetic field $B = 0.50\,\text{T}$ perpendicular to its velocity with speed
 $4.0 \times 10^6\,\text{m}\,\text{s}^{-1}$.
 
@@ -158,7 +158,7 @@ In eV: $E_k = 1.336 \times 10^{-14}/(1.60 \times 10^{-19}) = 83500\,\text{eV} = 
 
 **Question:**
 
-A rectangular coil of $200$ turns, each of dimensions $0.05\,\text{m} \times 0.08\,\text{m}$Is
+A rectangular coil of $200$ turns, each of dimensions $0.05\,\text{m} \times 0.08\,\text{m}$ Is
 rotated at $3000\,\text{rpm}$ in a uniform magnetic field of $0.40\,\text{T}$. The axis of rotation
 is perpendicular to the field.
 
@@ -183,7 +183,7 @@ $$
 
 (b) $\varepsilon = NAB\omega\sin(\omega t) = 100.5\sin(314.2t)\,\text{V}$
 
-At $t = 0$The flux through the coil is maximum and the rate of change is zero, so $\varepsilon = 0$.
+At $t = 0$ The flux through the coil is maximum and the rate of change is zero, so $\varepsilon = 0$.
 This is consistent with $\varepsilon = \varepsilon_{\max}\sin(\omega t)$.
 
 (c) Average EMF over one quarter revolution ($t = 0$ to $t = T/4 = \pi/(2\omega)$):
@@ -302,7 +302,7 @@ Power loss: $P_{\text{loss}} = P_{\text{in}} - P_{\text{out}} = 62.6 - 57.6 = 5.
 
 (c) The induced EMF equation: $V_p = N_p \times \frac{d\Phi}{dt}$
 
-For sinusoidal: $V_p = N_p \times \omega \times \hat{B} \times A$Where $\hat{B}$ is the peak flux
+For sinusoidal: $V_p = N_p \times \omega \times \hat{B} \times A$ Where $\hat{B}$ is the peak flux
 density.
 
 Using RMS:

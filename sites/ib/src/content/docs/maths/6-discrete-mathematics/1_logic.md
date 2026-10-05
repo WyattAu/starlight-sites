@@ -345,7 +345,7 @@ Negation: "There exists a real number $x$ such that $x^2 \lt 0$."
 
 Negation: "For all integers $n$, $n^2 + 1 \neq 0$."
 
-**Example 3.** Negate: "For every integer $n$If $n$ is even then $n^2$ is even."
+**Example 3.** Negate: "For every integer $n$ If $n$ is even then $n^2$ is even."
 
 Negation: "There exists an integer $n$ such that $n$ is even and $n^2$ is not even."
 
@@ -443,7 +443,7 @@ Backbone of most direct .../1-number-and-algebra/3_proof-and-logics.
 
 ### Proof by contradiction
 
-**Structure.** To prove a statement $P$Assume $\neg P$ is true and deduce a contradiction (something
+**Structure.** To prove a statement $P$ Assume $\neg P$ is true and deduce a contradiction (something
 that is always false, such as $0 = 1$ or $q^2 = 2$ where $q$ is rational). Since the Assumption
 $\neg P$ led to an impossibility, $\neg P$ must be false, so $P$ is true.
 
@@ -479,14 +479,14 @@ $$
 N = p_1 p_2 \cdots p_n + 1
 $$
 
-When $N$ is divided by any $p_i$The remainder is 1 (since each $p_i$ divides the product
+When $N$ is divided by any $p_i$ The remainder is 1 (since each $p_i$ divides the product
 $p_1 p_2 \cdots p_n$ but not the added 1). Therefore no $p_i$ divides $N$. Since every integer
 Greater than 1 has a prime factor, $N$ must have a prime factor not in our list -- a contradiction.
 Hence there are infinitely many primes. $\square$
 
 ### Proof by contrapositive
 
-**Structure.** To prove $P \Rightarrow Q$Instead prove the logically equivalent contrapositive
+**Structure.** To prove $P \Rightarrow Q$ Instead prove the logically equivalent contrapositive
 $\neg Q \Rightarrow \neg P$.
 
 $$
@@ -507,7 +507,7 @@ $$
 n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1
 $$
 
-Since $2k^2 + 2k$ is an integer, $n^2$ is of the form $2m + 1$Which means $n^2$ is odd. We have
+Since $2k^2 + 2k$ is an integer, $n^2$ is of the form $2m + 1$ Which means $n^2$ is odd. We have
 Shown: if $n$ is odd then $n^2$ is odd. By contrapositive, if $n^2$ is even then $n$ is even.
 $\square$
 
@@ -538,7 +538,7 @@ In all four cases $|xy| = |x|\,|y|$. $\square$
 
 ### Dis.../1-number-and-algebra/3_proof-and-logic by counterexample
 
-**Structure.** To disprove a universal claim $\forall x,\; P(x)$It suffices to produce a single
+**Structure.** To disprove a universal claim $\forall x,\; P(x)$ It suffices to produce a single
 $x_0$ for which $P(x_0)$ is false. This is the negation of a universal statement:
 $\exists x,\; \neg P(x)$.
 
@@ -574,11 +574,11 @@ integer $k$.
 
 **Other common errors:**
 
-- **Affirming the consequent:** From $P \Rightarrow Q$ and $Q$Deducing $P$. This is the fallacy of
+- **Affirming the consequent:** From $P \Rightarrow Q$ and $Q$ Deducing $P$. This is the fallacy of
   treating the converse as equivalent to the original. Example: "All primes greater than 2 are odd.
   9 is odd. Therefore 9 is prime." -- Invalid.
 
-- **Denying the antecedent:** From $P \Rightarrow Q$ and $\neg P$Deducing $\neg Q$. Example: "If it
+- **Denying the antecedent:** From $P \Rightarrow Q$ and $\neg P$ Deducing $\neg Q$. Example: "If it
   is a square, then it is a rectangle. This shape is not a square. Therefore it is not a rectangle."
   -- Invalid (it could be a non-square rectangle).
 
@@ -593,7 +593,7 @@ integer $k$.
 
 ### Pitfall 1: Confusing necessary and sufficient
 
-"$A$ is necessary for $B$" means $B \Rightarrow A$Not $A \Rightarrow B$. Students frequently swap
+"$A$ is necessary for $B$" means $B \Rightarrow A$ Not $A \Rightarrow B$. Students frequently swap
 These. Remember: a necessary condition is one you **cannot do without**; a sufficient condition is
 One that is **enough on its own**.
 
@@ -680,7 +680,7 @@ Of 3, contradicting $\gcd(a, b) = 1$. Hence $\sqrt{3}$ is irrational. $\square$
 
 ### Problem 3
 
-Negate: "For all integers $n$If $n$ is prime then $n$ is odd or $n = 2$."
+Negate: "For all integers $n$ If $n$ is prime then $n$ is odd or $n = 2$."
 
 <details>
 <summary>Solution</summary>
@@ -715,7 +715,7 @@ $$
 f(2.5) = (2.5 - 2)(2.5 - 3) = (0.5)(-0.5) = -0.25 \lt 0
 $$
 
-So $f(2.5) \lt 0$Providing a counterexample. The claim is false. (In fact, $f(x) \ge 0$ only when
+So $f(2.5) \lt 0$ Providing a counterexample. The claim is false. (In fact, $f(x) \ge 0$ only when
 $x \le 2$ or $x \ge 3$.)
 
 </details>
@@ -759,7 +759,7 @@ Proof: $x^2 = y^2$. Taking square roots, $x = y$. QED."
 <summary>Solution</summary>
 
 The error is in the step "taking square roots gives $x = y$". This is invalid because
-$\sqrt{x^2} = |x|$Not $x$. From $x^2 = y^2$ we get $|x| = |y|$Which means $x = y$ or $x = -y$.
+$\sqrt{x^2} = |x|$ Not $x$. From $x^2 = y^2$ we get $|x| = |y|$ Which means $x = y$ or $x = -y$.
 
 Counterexample: $x = 3$, $y = -3$. Then $x^2 = 9 = y^2$ But $3 \neq -3$.
 
@@ -796,7 +796,7 @@ Prove by contradiction: there is no largest integer.
 <summary>Solution</summary>
 
 Assume, for contradiction, that there is a largest integer. Call it $N$. Then for every integer $n$
-$n \le N$. But $N + 1$ is an integer and $N + 1 \gt N$Contradicting the assumption that $N$ is the
+$n \le N$. But $N + 1$ is an integer and $N + 1 \gt N$ Contradicting the assumption that $N$ is the
 Largest integer. Hence there is no largest integer. $\square$
 
 </details>
@@ -821,7 +821,7 @@ Determine whether each condition is necessary, sufficient, both, or neither for 
 While $15 \nmid 6$ (so not sufficient).
 
 (b) **Necessary and sufficient.** $3 \mid n$ and $5 \mid n$ together mean $n$ is a common multiple
-Of 3 and 5. Since $\gcd(3, 5) = 1$The least common multiple is $15$ So $15 \mid n$.
+Of 3 and 5. Since $\gcd(3, 5) = 1$ The least common multiple is $15$ So $15 \mid n$.
 
 (c) **Sufficient but not necessary.** If $30 \mid n$ then $15 \mid n$ (since $30 = 2 \times 15$).
 But $15 \mid 15$ while $30 \nmid 15$.
@@ -833,7 +833,7 @@ By 15 but does not end in 5.
 
 ### Problem 10
 
-Let $P$ and $Q$ be statements. In terms of $P$ and $Q$Express: "It is not the case that both $P$ And
+Let $P$ and $Q$ be statements. In terms of $P$ and $Q$ Express: "It is not the case that both $P$ And
 $Q$ are true." Show that this is logically equivalent to "At least one of $P$, $Q$ is false."
 
 <details>

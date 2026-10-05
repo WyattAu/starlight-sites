@@ -108,7 +108,7 @@ electrons are in the $3d$ subshell.
 
 Each orbital can hold a maximum of 2 electrons with opposite spins.
 
-### Hund"s Rule
+### Hund's Rule
 
 When filling degenerate orbitals (orbitals of the same energy, such as the three $2p$ orbitals),
 Electrons occupy separate orbitals with parallel spins before pairing up.
@@ -425,7 +425,7 @@ A special, strong type of dipole-dipole interaction that occurs when:
 
 Conditions: H bonded to N, O, or F, and interacting with another N, O, or F.
 
-Examples: $\mathrm{H}_2\mathrm{O}$$\mathrm{NH}_3$HF, DNA base pairing.
+Examples: $\mathrm{H}_2\mathrm{O}$$\mathrm{NH}_3$ HF, DNA base pairing.
 
 ### Effect of Intermolecular Forces on Properties
 
@@ -448,7 +448,7 @@ However, $\mathrm{H}_2\mathrm{O}$ can form hydrogen bonds between molecules (H b
 $\mathrm{H}_2\mathrm{S}$ cannot (S is not electronegative enough).
 
 Hydrogen bonding in $\mathrm{H}_2\mathrm{O}$ is much stronger than the van der Waals forces in
-$\mathrm{H}_2\mathrm{S}$Resulting in a higher boiling point for water.
+$\mathrm{H}_2\mathrm{S}$ Resulting in a higher boiling point for water.
 
 ### Trends in Boiling Points of Group 17 Halogens
 
@@ -864,7 +864,7 @@ $\mathrm{S^{2-}}$ gains 2 electrons: $1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^6$
 
 This is the same as argon ($Z = 18$): $1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^6$
 
-Sulphur is in Group 16. By gaining 2 electrons to form $\mathrm{S^{2-}}$It achieves the stable noble
+Sulphur is in Group 16. By gaining 2 electrons to form $\mathrm{S^{2-}}$ It achieves the stable noble
 gas electron configuration of argon (a full outer shell of 8 electrons).
 
 </details>
@@ -893,9 +893,9 @@ reduced from ideal values due to lone pair repulsion.
 
 ### Worked Example: Intermolecular Forces Comparison
 
-Explain why propanone ($\mathrm{CH_3COCH_3}$B.p. $56^\circ\mathrm{C}$) has a higher boiling point
-than propane ($\mathrm{CH_3CH_2CH_3}$B.p. $-42^\circ\mathrm{C}$), but a lower boiling point than
-propan-1-ol ($\mathrm{CH_3CH_2CH_2OH}$B.p. $97^\circ\mathrm{C}$).
+Explain why propanone ($\mathrm{CH_3COCH_3}$ B.p. $56^\circ\mathrm{C}$) has a higher boiling point
+than propane ($\mathrm{CH_3CH_2CH_3}$ B.p. $-42^\circ\mathrm{C}$), but a lower boiling point than
+propan-1-ol ($\mathrm{CH_3CH_2CH_2OH}$ B.p. $97^\circ\mathrm{C}$).
 
 <details>
 <summary>Solution</summary>
@@ -958,7 +958,7 @@ Having a lower molecular mass.
 $\mathrm{HF}$ can form hydrogen bonds between molecules because hydrogen is bonded to fluorine
 (highly electronegative). $\mathrm{HCl}$ cannot form hydrogen bonds because chlorine is not
 Electronegative enough. Hydrogen bonding in $\mathrm{HF}$ is much stronger than the van der Waals
-Forces and dipole- dipole interactions in $\mathrm{HCl}$Resulting in a higher boiling point for
+Forces and dipole- dipole interactions in $\mathrm{HCl}$ Resulting in a higher boiling point for
 $\mathrm{HF}$.
 
 **Question 10:** Explain why diamond is an electrical insulator while graphite is a good conductor.
@@ -1022,7 +1022,7 @@ Equivalent in energy and suitable for bonding.
 
 Determine the hybridisation of the central atom in $\mathrm{SF}_4$.
 
-Sulphur has 6 valence electrons. In $\mathrm{SF}_4$Four are used for bonding with fluorine, Leaving
+Sulphur has 6 valence electrons. In $\mathrm{SF}_4$ Four are used for bonding with fluorine, Leaving
 one lone pair. Total electron pairs = 5 (4 bonding + 1 lone pair).
 
 Hybridisation: $sp^3d$ (trigonal bipyramidal electron pair geometry, with the lone pair in an
@@ -1160,7 +1160,7 @@ _If you get this wrong, revise: Electron Configuration_
 $\mathrm{Cu}$ ($Z = 29$): $[\mathrm{Ar}]\, 4s^1\, 3d^{10}$ (exception: full $d$ subshell is more
 stable)
 
-When forming $\mathrm{Cu^{2+}}$Both the $4s$ electron and one $3d$ electron are removed:
+When forming $\mathrm{Cu^{2+}}$ Both the $4s$ electron and one $3d$ electron are removed:
 
 $\mathrm{Cu^{2+}}$: $[\mathrm{Ar}]\, 3d^9$
 
@@ -1185,7 +1185,7 @@ radius. The outer electron is held more tightly, requiring more energy to remove
 
 **Second IE:** $\mathrm{Na}$ has the configuration $[\mathrm{Ne}]\, 3s^1$. After losing the first
 electron ($\mathrm{Na^+} = [\mathrm{Ne}]$), the second electron must be removed from the stable
-noble gas core ($1s^2\, 2s^2\, 2p^6$), which requires a huge amount of energy. For $\mathrm{Mg}$The
+noble gas core ($1s^2\, 2s^2\, 2p^6$), which requires a huge amount of energy. For $\mathrm{Mg}$ The
 second electron is still in the $3s$ subshell ($\mathrm{Mg^+} = [\mathrm{Ne}]\, 3s^1$), so it is
 much easier to remove.
 
@@ -1226,8 +1226,8 @@ require little energy to overcome, resulting in a low boiling point.
 
 </details>
 
-**Problem 6:** Explain why ammonia ($\mathrm{NH_3}$B.p. $-33^\circ\mathrm{C}$) has a higher boiling
-point than phosphine ($\mathrm{PH_3}$B.p. $-88^\circ\mathrm{C}$), even though phosphine has a larger
+**Problem 6:** Explain why ammonia ($\mathrm{NH_3}$ B.p. $-33^\circ\mathrm{C}$) has a higher boiling
+point than phosphine ($\mathrm{PH_3}$ B.p. $-88^\circ\mathrm{C}$), even though phosphine has a larger
 molecular mass.
 
 _If you get this wrong, revise: Hydrogen Bonding_
@@ -1238,7 +1238,7 @@ _If you get this wrong, revise: Hydrogen Bonding_
 $\mathrm{NH_3}$ can form hydrogen bonds between molecules because hydrogen is bonded to nitrogen
 (highly electronegative, EN $= 3.0$). $\mathrm{PH_3}$ cannot form hydrogen bonds because phosphorus
 (EN $= 2.1$) is not electronegative enough. Hydrogen bonding is much stronger than the van der Waals
-forces in $\mathrm{PH_3}$Giving $\mathrm{NH_3}$ a higher boiling point despite its lower molecular
+forces in $\mathrm{PH_3}$ Giving $\mathrm{NH_3}$ a higher boiling point despite its lower molecular
 mass.
 
 </details>
@@ -1338,7 +1338,7 @@ $\mathrm{NF_3}$: Nitrogen has 5 valence electrons; 3 used in bonding, 1 lone pai
 (3 bonding + 1 lone). Hybridisation: $sp^3$. Shape: trigonal pyramidal. Bond angle: approximately
 $107^\circ$ (less than $109.5^\circ$ due to lone pair repulsion).
 
-Despite both having formula $\mathrm{XF_3}$The lone pair on $\mathrm{N}$ in $\mathrm{NF_3}$ causes a
+Despite both having formula $\mathrm{XF_3}$ The lone pair on $\mathrm{N}$ in $\mathrm{NF_3}$ causes a
 different geometry and smaller bond angle.
 
 </details>
@@ -1472,12 +1472,12 @@ _If you get this wrong, revise: Bond Polarity_
 <details>
 <summary>Solution</summary>
 
-In $\mathrm{HCl}$Chlorine ($\mathrm{EN} = 3.0$) is more electronegative than hydrogen
+In $\mathrm{HCl}$ Chlorine ($\mathrm{EN} = 3.0$) is more electronegative than hydrogen
 ($\mathrm{EN} = 2.1$). The bonding electrons are pulled towards chlorine, creating a dipole with
 $\mathrm{Cl}^{\delta-}$ and $\mathrm{H}^{\delta+}$. Since the molecule is diatomic and the two atoms
 are different, the bond dipole does not cancel, making $\mathrm{HCl}$ a polar molecule.
 
-In $\mathrm{Cl_2}$Both atoms are identical (same electronegativity). The bonding electrons are
+In $\mathrm{Cl_2}$ Both atoms are identical (same electronegativity). The bonding electrons are
 shared equally, so there is no dipole. $\mathrm{Cl_2}$ is a non-polar molecule.
 
 </details>

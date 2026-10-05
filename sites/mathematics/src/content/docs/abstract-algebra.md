@@ -40,7 +40,7 @@ of algebraic structure:
 
 Abstract algebra arises by definition from several directions:
 
-- **Number theory:** Fermat"s little theorem and Euler’s theorem are most by definition understood
+- **Number theory:** Fermat's little theorem and Euler’s theorem are most by definition understood
   through the lens of group theory. The structure of $\mathbb{Z}/n\mathbb{Z}$ and its units
   underpins modular arithmetic.
 - **Equation solving:** The question "which polynomial equations can be solved by radicals?"

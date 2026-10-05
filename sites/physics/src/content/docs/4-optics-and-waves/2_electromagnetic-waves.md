@@ -41,7 +41,7 @@ $E_0/B_0 = \omega/k = c$. $\blacksquare$
 
 **Problem.** A plane wave in vacuum has
 $\mathbf{E} = (20\hat{\mathbf{x}} + 30\hat{\mathbf{y}})\cos(kz - \omega t)$ V/m with $\lambda = 500$
-nm. Find $\mathbf{B}$The intensity, and describe the polarisation state.
+nm. Find $\mathbf{B}$ The intensity, and describe the polarisation state.
 
 **Solution.** $|\mathbf{E}_0| = \sqrt{20^2 + 30^2} = \sqrt{1300} \approx 36.1$ V/m.
 $B_0 = E_0/c = 36.1/(3 \times 10^8) = 1.20 \times 10^{-7}$ T.
@@ -120,7 +120,7 @@ $$
 
 For non-magnetic materials ($\mu_r \approx 1$): $n \approx \sqrt{\varepsilon_r}$.
 
-The wavelength inside a medium of refractive index $n$ is $\lambda_n = \lambda_0/n$Where $\lambda_0$
+The wavelength inside a medium of refractive index $n$ is $\lambda_n = \lambda_0/n$ Where $\lambda_0$
 Is the vacuum wavelength. The frequency remains unchanged across the boundary.
 
 <details>
@@ -171,9 +171,9 @@ $$
 E_i \propto e^{i(k_{1x}x + k_{1z}z - \omega t)}, \quad E_r \propto e^{i(k_{1x}'x + k_{1z}'z - \omega t)}, \quad E_t \propto e^{i(k_{2x}x + k_{2z}z - \omega t)}
 $$
 
-At $z = 0$The tangential field must be continuous for all $x$ and $t$:
-$k_{1x} = k_{1x}' = k_{2x}$I.e., $k_1\sin\theta_i = k_1\sin\theta_r = k_2\sin\theta_t$. Since
-$k = n\omega/c$This yields Snell's law. $\blacksquare$
+At $z = 0$ The tangential field must be continuous for all $x$ and $t$:
+$k_{1x} = k_{1x}' = k_{2x}$ I.e., $k_1\sin\theta_i = k_1\sin\theta_r = k_2\sin\theta_t$. Since
+$k = n\omega/c$ This yields Snell's law. $\blacksquare$
 
 ### 2.5 Fresnel Equations
 
@@ -238,8 +238,8 @@ sign of $r_s$ indicates a phase shift of $\pi$ upon reflection.
 </details>
 
 :::caution
-error is to swap the $n_1\cos\theta_i$ and $n_2\cos\theta_t$ terms. Remember: for $r_s$The numerator
-starts with $n_1\cos\theta_i$; for $r_p$The numerator starts with $n_2\cos\theta_i$. Also, $r$ and
+error is to swap the $n_1\cos\theta_i$ and $n_2\cos\theta_t$ terms. Remember: for $r_s$ The numerator
+starts with $n_1\cos\theta_i$; for $r_p$ The numerator starts with $n_2\cos\theta_i$. Also, $r$ and
 $t$ are Amplitude coefficients, while $R$ and $T$ are energy coefficients, they are related but not
 Interchangeable.
 
@@ -253,7 +253,7 @@ $$
 $$
 
 Snell's law gives $\sin\theta_t = (n_1/n_2)\sin\theta_i \gt 1$ So $\theta_t$ becomes complex. Writing
-$\cos\theta_t = i\sqrt{\sin^2\theta_t - 1}$The Fresnel coefficients become complex with
+$\cos\theta_t = i\sqrt{\sin^2\theta_t - 1}$ The Fresnel coefficients become complex with
 $|r_s|^2 = |r_p|^2 = 1$: all energy is reflected.
 
 The transmitted field becomes an **evanescent wave**:
@@ -286,7 +286,7 @@ constant along the interface.
 
 **Solution.**
 
-(a) $\theta_c = \arcsin(n_2/n_1) = \arcsin(1/1.50) = 41.8°$. Since $50° \gt 41.8°$TIR occurs.
+(a) $\theta_c = \arcsin(n_2/n_1) = \arcsin(1/1.50) = 41.8°$. Since $50° \gt 41.8°$ TIR occurs.
 
 (b) $\kappa = k_0\sqrt{n_1^2\sin^2\theta_i - n_2^2}$
 $= \frac{2\pi}{\lambda}\sqrt{(1.50)^2\sin^2 50° - 1.00^2}$

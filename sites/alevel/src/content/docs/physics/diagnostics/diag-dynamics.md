@@ -34,7 +34,7 @@ flowchart TD
 
 ## Unit Tests
 
-### UT-1: Newton"s Third Law on an Accelerating System
+### UT-1: Newton's Third Law on an Accelerating System
 
 **Question:**
 
@@ -96,7 +96,7 @@ is applied to the block.
 
 (b) Calculate the maximum value of $P$ before the block begins to slide up the plane.
 
-(c) If $P = 30\,\text{N}$Determine the magnitude and direction of the frictional force.
+(c) If $P = 30\,\text{N}$ Determine the magnitude and direction of the frictional force.
 
 Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
@@ -144,7 +144,7 @@ $$
 P = 47.4\,\text{N}
 $$
 
-(c) With $P = 30\,\text{N}$We first check whether the block is in equilibrium by assuming it is and
+(c) With $P = 30\,\text{N}$ We first check whether the block is in equilibrium by assuming it is and
 finding the required friction.
 
 Up the plane: $P\cos 30^\circ = 30 \times 0.866 = 25.98\,\text{N}$
@@ -162,7 +162,7 @@ $$
 
 Check: $F_{\max} = \mu R = 0.25(42.48 + 30 \times 0.5) = 0.25 \times 57.48 = 14.37\,\text{N}$
 
-Since $1.455 \lt 14.37$The block is indeed in equilibrium and the friction is **less than the
+Since $1.455 \lt 14.37$ The block is indeed in equilibrium and the friction is **less than the
 maximum**, confirming $F \le \mu R$.
 
 The magnitude of friction is $1.5\,\text{N}$ (2 s.f.), directed down the plane.
@@ -253,7 +253,7 @@ $200\,\text{N}$ (both constant and opposing motion). The towbar is light and ine
 (b) Calculate the tension in the towbar.
 
 (c) Calculate the work done by the engine over the first $50\,\text{m}$ and hence the speed of the
-system after $50\,\text{m}$Starting from rest.
+system after $50\,\text{m}$ Starting from rest.
 
 Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
@@ -341,7 +341,7 @@ $$
 (b)
 $\omega_{\max} = \sqrt{\frac{0.40 \times 9.81}{0.15}} = \sqrt{\frac{3.924}{0.15}} = \sqrt{26.16} = 5.11\,\text{rad}\,\text{s}^{-1}$
 
-(c) When tilted at $10^\circ$Resolve perpendicular to the surface:
+(c) When tilted at $10^\circ$ Resolve perpendicular to the surface:
 
 $$
 R = mg\cos 10^\circ = 0.50 \times 9.81 \times 0.9848 = 4.831\,\text{N}
@@ -409,7 +409,7 @@ $$
 \omega_{\max} = 4.94\,\text{rad}\,\text{s}^{-1}
 $$
 
-Since $4.94 \lt 5.11$The block slides **more** when the turntable is tilted. The tilt reduces the
+Since $4.94 \lt 5.11$ The block slides **more** when the turntable is tilted. The tilt reduces the
 effective normal reaction and the friction must also counteract the tendency to slide down the
 slope.
 
@@ -441,7 +441,7 @@ $A$. If $A$ and $B$ then collide and stick together, calculate their common velo
 collision.
 
 (c) Calculate the total kinetic energy at the end and compare it with the initial
-$12.0\,\text{J}$Accounting for the difference.
+$12.0\,\text{J}$ Accounting for the difference.
 
 **Solution:**
 
@@ -491,7 +491,7 @@ Common velocity is $1.67\,\text{m}\,\text{s}^{-1}$ leftward.
 Energy lost $= 12.0 - 6.97 = 5.03\,\text{J}$
 
 This energy is lost in the collision with the wall (where $B$'s KE changed from
-$\frac{1}{2}(3.0)(1.79)^2 = 4.80\,\text{J}$ to $\frac{1}{2}(3.0)(1.0)^2 = 1.50\,\text{J}$A loss of
+$\frac{1}{2}(3.0)(1.79)^2 = 4.80\,\text{J}$ to $\frac{1}{2}(3.0)(1.0)^2 = 1.50\,\text{J}$ A loss of
 $3.30\,\text{J}$) and in the perfectly inelastic collision between $A$ and $B$ (loss of
 $5.03 - 3.30 = 1.73\,\text{J}$).
 

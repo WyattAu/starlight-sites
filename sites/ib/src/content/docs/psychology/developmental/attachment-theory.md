@@ -23,7 +23,7 @@ by Mary Ainsworth, has become one of the most influential and well-researched th
 Developmental psychology. It explains how early relationships shape emotional development, social
 Competence, and mental health across the lifespan.
 
-## Bowlby"s Evolutionary Theory of Attachment
+## Bowlby's Evolutionary Theory of Attachment
 
 ### Key Principles
 

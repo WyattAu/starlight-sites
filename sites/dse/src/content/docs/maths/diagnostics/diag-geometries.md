@@ -25,7 +25,7 @@ tableOfContents: false
 **Question:**
 
 In the figure, $A$, $B$, $C$ are points on a circle with centre $O$. If $\angle ABC = 35°$ and
-$\angle BAC = 70°$Find $\angle AOC$.
+$\angle BAC = 70°$ Find $\angle AOC$.
 
 **Solution:**
 
@@ -61,8 +61,8 @@ containing $B$), so the angle at the centre is $70°$.
 
 **Question:**
 
-$TA$ and $TB$ are tangents to a circle with centre $O$Touching the circle at $A$ and $B$
-respectively. If $\angle ATB = 50°$Find $\angle AOB$.
+$TA$ and $TB$ are tangents to a circle with centre $O$ Touching the circle at $A$ and $B$
+respectively. If $\angle ATB = 50°$ Find $\angle AOB$.
 
 **Solution:**
 
@@ -163,7 +163,7 @@ Place the right angle at the origin, with the legs along the axes.
 
 Let $A = (0, 0)$$B = (2a, 0)$$C = (0, 2b)$.
 
-Right angle at $A$Hypotenuse is $BC$.
+Right angle at $A$ Hypotenuse is $BC$.
 
 Midpoint $M$ of $BC$: $\left(\dfrac{2a + 0}{2},\; \dfrac{0 + 2b}{2}\right) = (a,\; b)$.
 
@@ -173,7 +173,7 @@ $MB = \sqrt{(a - 2a)^2 + (b - 0)^2} = \sqrt{a^2 + b^2}$.
 
 $MC = \sqrt{(a - 0)^2 + (b - 2b)^2} = \sqrt{a^2 + b^2}$.
 
-Since $MA = MB = MC$The midpoint of the hypotenuse is equidistant from all three vertices.
+Since $MA = MB = MC$ The midpoint of the hypotenuse is equidistant from all three vertices.
 
 ---
 
@@ -253,7 +253,7 @@ $$
 $|\vec{AB}| = 2\sqrt{13}$$|\vec{AC}| = 2\sqrt{5}$$|\vec{BC}| = 4\sqrt{5}$.
 
 None are equal, so this is **not** isosceles. Verifying:
-$|\vec{AC}|^2 + |\vec{BC}|^2 = 20 + 80 = 100 \neq 52 = |\vec{AB}|^2$Confirming it is also not
+$|\vec{AC}|^2 + |\vec{BC}|^2 = 20 + 80 = 100 \neq 52 = |\vec{AB}|^2$ Confirming it is also not
 Right-angled. The triangle is **scalene**.
 
 **Key takeaway:** Always compute and verify rather than assuming geometric properties.
@@ -312,7 +312,7 @@ $$
 
 **Question:**
 
-$TA$ is a tangent to a circle at $A$. $AB$ is a chord of the circle. If $\angle BAT = 42°$Find the
+$TA$ is a tangent to a circle at $A$. $AB$ is a chord of the circle. If $\angle BAT = 42°$ Find the
 angle in the alternate segment, i.e. The angle subtended by chord $AB$ in the opposite segment.
 
 **Solution:**
@@ -349,7 +349,7 @@ chord.
 
 Let the chord be $AB$ with centre $O$. Then $\angle AOB = 120°$ and $OA = OB = 10$ cm.
 
-Drop the perpendicular from $O$ to $AB$Meeting at $M$.
+Drop the perpendicular from $O$ to $AB$ Meeting at $M$.
 
 Since $OM$ bisects $\angle AOB$: $\angle AOM = 60°$.
 
@@ -376,12 +376,12 @@ $$
 
 **Question:**
 
-In triangle $ABC$, $D$ is a point on $BC$ such that $AD$ bisects $\angle BAC$. If $AD = AB$Prove that
+In triangle $ABC$, $D$ is a point on $BC$ such that $AD$ bisects $\angle BAC$. If $AD = AB$ Prove that
 $ABCD$ is a cyclic quadrilateral.
 
 **Solution:**
 
-Since $AD = AB$Triangle $ABD$ is isosceles with $\angle ABD = \angle ADB$. ... (1)
+Since $AD = AB$ Triangle $ABD$ is isosceles with $\angle ABD = \angle ADB$. ... (1)
 
 Since $AD$ bisects $\angle BAC$: $\angle BAD = \angle CAD$. ... (2)
 
@@ -397,7 +397,7 @@ Also $\angle ADB + \angle ADC = 180°$ (angles on a straight line), so
 $\angle ABD + \angle ADC = 180°$.
 
 Since $\angle ABD + \angle ACD = 180°$ (from the two triangle angle sums), we have
-$\angle ADC = \angle ACD$Meaning... Let us reconsider.
+$\angle ADC = \angle ACD$ Meaning... Let us reconsider.
 
 From the isosceles triangle: $\angle ABD = \angle ADB$.
 
@@ -490,7 +490,7 @@ $$
 
 **Question:**
 
-In triangle $ABC$Let $D$ be the midpoint of $BC$. Using vectors, prove that
+In triangle $ABC$ Let $D$ be the midpoint of $BC$. Using vectors, prove that
 $\vec{AD} = \dfrac{1}{2}(\vec{AB} + \vec{AC})$.
 
 **Solution:**
@@ -542,7 +542,7 @@ Equation: $x^2 + y^2 - 4x - 6y = 0$.
 
 Completing the square: $(x - 2)^2 + (y - 3)^2 = 4 + 9 = 13$.
 
-Centre: $(2, 3)$Radius: $\sqrt{13}$.
+Centre: $(2, 3)$ Radius: $\sqrt{13}$.
 
 ---
 
@@ -560,7 +560,7 @@ Centre: $(2, 3)$Radius: $\sqrt{13}$.
 **Question:**
 
 In the figure, $AB \parallel CD$. $EF$ is a transversal cutting $AB$ at $G$ and $CD$ at $H$. If
-$\angle EGB = 3x + 10°$ and $\angle CHG = 5x - 30°$Find $x$.
+$\angle EGB = 3x + 10°$ and $\angle CHG = 5x - 30°$ Find $x$.
 
 **Solution:**
 
@@ -659,7 +659,7 @@ $ABCD$ is a cyclic quadrilateral with $AB = AC$ and $AD$ produced to $E$ such th
 to the circle at $C$.
 
 (a) Prove that $\angle ABC = \angle ACE$. (3 marks) (b) If $\angle BAC = 50°$ and
-$\angle ABC = 65°$Find $\angle ADC$. (3 marks)
+$\angle ABC = 65°$ Find $\angle ADC$. (3 marks)
 
 **Solution:**
 
@@ -692,7 +692,7 @@ The vertices of triangle $ABC$ are $A(1, 2)$, $B(5, 4)$ And $C(3, 8)$.
 
 (a) Find the equation of the perpendicular bisector of $AB$. (4 marks) (b) The perpendicular
 bisector of $AB$ meets the perpendicular bisector of $AC$ at point $O$. Find the coordinates of
-$O$The circumcentre of triangle $ABC$. (4 marks) (c) Find the radius of the circumcircle. (2 marks)
+$O$ The circumcentre of triangle $ABC$. (4 marks) (c) Find the radius of the circumcircle. (2 marks)
 
 **Solution:**
 
@@ -783,7 +783,7 @@ The position vectors of points $A$$B$$C$ are $\mathbf{a}$$\mathbf{b}$$\mathbf{c}
 Point $D$ is such that $\vec{AD} = \dfrac{1}{3}\vec{AC}$.
 
 (a) Express $\vec{OD}$ in terms of $\mathbf{a}$ and $\mathbf{c}$. (1 mark) (b) If $E$ is the
-midpoint of $BC$Prove that $A$$D$$E$ are collinear. (4 marks)
+midpoint of $BC$ Prove that $A$$D$$E$ are collinear. (4 marks)
 
 **Solution:**
 
@@ -812,14 +812,14 @@ $\vec{AD} = \dfrac{1}{3}\vec{AC}$ means $D$ divides $AC$ in ratio $1:2$.
 $E$ is the midpoint of $BC$.
 
 By the converse of the midpoint theorem or using mass points: assign mass $2$ at $A$ and mass $1$ at
-$C$Giving the centre of mass at $D$ on $AC$. Similarly, mass $1$ at $B$ and $1$ at $C$ gives $E$ on
+$C$ Giving the centre of mass at $D$ on $AC$. Similarly, mass $1$ at $B$ and $1$ at $C$ gives $E$ on
 $BC$.
 
 Consider
 $\vec{DE} = \vec{OE} - \vec{OD} = \dfrac{1}{2}(\mathbf{b} + \mathbf{c}) - \dfrac{2}{3}\mathbf{a} - \dfrac{1}{3}\mathbf{c} = \dfrac{1}{2}\mathbf{b} + \dfrac{1}{6}\mathbf{c} - \dfrac{2}{3}\mathbf{a}$.
 
 This shows collinearity only if additional conditions are given. The question likely assumes $D$
-lies on the median from $A$Which it does since $D$ is on $AC$ and $E$ is on $BC$.
+lies on the median from $A$ Which it does since $D$ is on $AC$ and $E$ is on $BC$.
 
 ---
 
@@ -846,7 +846,7 @@ coordinates of $T$. (2 marks)
 
 $(x - 4)^2 + (y + 3)^2 = 16$.
 
-Centre: $(4, -3)$Radius: $4$.
+Centre: $(4, -3)$ Radius: $4$.
 
 (b) The tangent at $(5, -2)$ is perpendicular to the radius joining $(4, -3)$ and $(5, -2)$.
 

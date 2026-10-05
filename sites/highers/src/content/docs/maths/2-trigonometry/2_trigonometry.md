@@ -128,7 +128,7 @@ $$
 **Proof of $\cos(A + B)$.** Consider two points on the unit circle: $P$ at angle $A$ with
 Coordinates $(\cos A, \sin A)$ And $Q$ at angle $-(A+B)$ with coordinates $(\cos(A+B), -\sin(A+B))$.
 Rotating the entire figure by angle $A$ maps $P$ to $(1, 0)$ and $Q$ to The point at angle
-$-B$Namely $(\cos B, -\sin B)$. Since rotation preserves distances:
+$-B$ Namely $(\cos B, -\sin B)$. Since rotation preserves distances:
 
 $$
 [\cos(A+B) - \cos A]^2 + [-\sin(A+B) - \sin A]^2 = (\cos B - 1)^2 + (-\sin B)^2
@@ -280,7 +280,7 @@ $$
 
 $\sin x = 0$: $x = 0, \pi$.
 
-$2\sin x - 3 = 0$: $\sin x = 1.5$Which has no solution since $|\sin x| \le 1$.
+$2\sin x - 3 = 0$: $\sin x = 1.5$ Which has no solution since $|\sin x| \le 1$.
 
 Solutions: $x = 0, \pi$.
 
@@ -368,7 +368,7 @@ angles Must be less than $180^\circ$).
 ### Wave Function (R-Addition Formula)
 
 An expression of the form $a\sin x + b\cos x$ can be written as $R\sin(x + \alpha)$ or
-$R\cos(x - \alpha)$Where:
+$R\cos(x - \alpha)$ Where:
 
 $$
 R = \sqrt{a^2 + b^2}, \quad \alpha = \arctan\left(\frac{b}{a}\right)
@@ -395,7 +395,7 @@ $$
 3\sin x + 4\cos x = 5\sin\left(x + \arctan\left(\frac{4}{3}\right)\right)
 $$
 
-Maximum value is $5$Occurring when $\sin(x + \alpha) = 1$.
+Maximum value is $5$ Occurring when $\sin(x + \alpha) = 1$.
 
 **Example:** Find the maximum value of $2\sin\theta - \sqrt{3}\cos\theta$ and the smallest positive
 Value of $\theta$ at which it occurs.
@@ -411,7 +411,7 @@ $$
 Where $\tan\alpha = \dfrac{-\sqrt{3}}{2}$ So
 $\alpha = -\arctan\left(\dfrac{\sqrt{3}}{2}\right) \approx -0.714 \mathrm{ rad$.
 
-Maximum value is $\sqrt{7}$Occurring when $\sin(\theta + \alpha) = 1$I.e.,
+Maximum value is $\sqrt{7}$ Occurring when $\sin(\theta + \alpha) = 1$ I.e.,
 $\theta + \alpha = \dfrac{\pi}{2}$ So
 $\theta = \dfrac{\pi}{2} + \arctan\left(\dfrac{\sqrt{3}}{2}\right) \approx 2.285 \mathrm{ rad$.
 
@@ -437,7 +437,7 @@ $a\sin x + b\cos x = c$.
 
 **Example:** Solve $3\sin x + 4\cos x = 5$ for $0 \le x \lt 2\pi$.
 
-Since $R = 5$We have $5\sin(x + \alpha) = 5$ So $\sin(x + \alpha) = 1$.
+Since $R = 5$ We have $5\sin(x + \alpha) = 5$ So $\sin(x + \alpha) = 1$.
 
 $$
 X + \alpha = \frac{\pi}{2} + 2k\pi
@@ -452,7 +452,7 @@ $x \approx 0.644 + 2\pi \approx 6.927$ (outside range).
 
 There is exactly one solution in $[0, 2\pi)$.
 
-Note that if $|c| > R = \sqrt{a^2 + b^2}$The equation has no real solutions, because the maximum Of
+Note that if $|c| > R = \sqrt{a^2 + b^2}$ The equation has no real solutions, because the maximum Of
 $a\sin x + b\cos x$ is $R$.
 
 ---
@@ -491,7 +491,7 @@ Gradient of AB: $m_{AB} = \dfrac{3 - 5}{8 - 2} = -\dfrac{1}{3}$.
 
 Gradient of perpendicular bisector: $m = 3$.
 
-Equation: $y - 4 = 3(x - 5)$I.e., $y = 3x - 11$.
+Equation: $y - 4 = 3(x - 5)$ I.e., $y = 3x - 11$.
 
 ### Circles
 
@@ -503,7 +503,7 @@ $$
 
 Expanded form: $x^2 + y^2 - 2ax - 2by + (a^2 + b^2 - r^2) = 0$.
 
-Given the expanded form $x^2 + y^2 + 2gx + 2fy + c = 0$The centre is $(-g, -f)$ and the radius is
+Given the expanded form $x^2 + y^2 + 2gx + 2fy + c = 0$ The centre is $(-g, -f)$ and the radius is
 $\sqrt{g^2 + f^2 - c}$ (provided $g^2 + f^2 - c > 0$).
 
 **Example:** Find the centre and radius of the circle $x^2 + y^2 - 6x + 4y - 12 = 0$.
@@ -518,7 +518,7 @@ $$
 (x - 3)^2 + (y + 2)^2 = 25
 $$
 
-Centre $(3, -2)$Radius $5$.
+Centre $(3, -2)$ Radius $5$.
 
 **Example:** Find the equation of the circle with centre $(2, -3)$ that passes through $(5, 1)$.
 
@@ -548,12 +548,12 @@ Gradient of radius from $(2, -1)$ to $(5, 3)$: $m_r = \dfrac{3 - (-1)}{5 - 2} = 
 
 Gradient of tangent: $m_t = -\dfrac{3}{4}$.
 
-Equation: $y - 3 = -\dfrac{3}{4}(x - 5)$I.e., $4y - 12 = -3x + 15$Or $3x + 4y - 27 = 0$.
+Equation: $y - 3 = -\dfrac{3}{4}(x - 5)$ I.e., $4y - 12 = -3x + 15$ Or $3x + 4y - 27 = 0$.
 
 **Example:** Find the equation of the tangent to $x^2 + y^2 + 4x - 6y + 9 = 0$ at the point
 $(-2, 3)$.
 
-Complete the square: $(x + 2)^2 + (y - 3)^2 = 4$. Centre $(-2, 3)$Radius $2$.
+Complete the square: $(x + 2)^2 + (y - 3)^2 = 4$. Centre $(-2, 3)$ Radius $2$.
 
 Since $(-2, 3)$ is the centre, not a point on the circle, we must check:
 $(-2+2)^2 + (3-3)^2 = 0 \ne 4$. The point $(-2, 3)$ is inside the circle, so there is no tangent
@@ -605,7 +605,7 @@ $$
 **Proof.** Let $P = (x_0, y_0)$ and let $Q$ be the foot of the perpendicular from $P$ to the line.
 The line through $P$ perpendicular to $ax + by + c = 0$ has direction $(a, b)$ So its parametric Form
 is $(x_0 + at, y_0 + bt)$. Substituting into the line equation:
-$a(x_0 + at) + b(y_0 + bt) + c = 0$Giving $t = -\frac{ax_0 + by_0 + c}{a^2 + b^2}$. The distance Is
+$a(x_0 + at) + b(y_0 + bt) + c = 0$ Giving $t = -\frac{ax_0 + by_0 + c}{a^2 + b^2}$. The distance Is
 $|t|\sqrt{a^2 + b^2} = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$. $\blacksquare$
 
 **Example:** Find the distance from $(3, 2)$ to the line $4x + 3y - 5 = 0$.
@@ -675,10 +675,10 @@ $$
 2 - s = -1 + 3t \quad (3)
 $$
 
-From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$ So $3 - 2t = 3 + t$Giving $t = 0$,
+From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$ So $3 - 2t = 3 + t$ Giving $t = 0$,
 $s = 1$.
 
-Check (3): $2 - 1 = -1 + 0$I.e., $1 = -1$. This is false, so the lines are **skew**.
+Check (3): $2 - 1 = -1 + 0$ I.e., $1 = -1$. This is false, so the lines are **skew**.
 
 ### Distance from a Point to a Line in 3D
 
@@ -765,25 +765,25 @@ See the examples integrated throughout the sections above.
 1. **Degrees vs radians:** Always check which units are being used. Calculus requires radians. If a
    question gives angles in degrees, convert before differentiating or integrating.
 
-2. **Forgetting to check the domain:** When solving $\cos x = -\dfrac{2}{3}$There are two solutions
+2. **Forgetting to check the domain:** When solving $\cos x = -\dfrac{2}{3}$ There are two solutions
    in $[0, 2\pi)$: one in the second quadrant and one in the third quadrant.
 
 3. **Sign errors in the wave function:** When writing $a\sin x + b\cos x = R\sin(x + \alpha)$ ensure
    $\alpha$ has the correct sign. The quadrant of $\alpha$ depends on the signs of $a$ and $b$.
 
 4. **Incorrectly completing the square for circles:** Remember to add the constant terms to both
-   sides. For $x^2 + y^2 - 6x + 4y - 12 = 0$You add 9 and 4 to both sides.
+   sides. For $x^2 + y^2 - 6x + 4y - 12 = 0$ You add 9 and 4 to both sides.
 
 5. **Assuming lines in 3D always intersect:** Always check all three coordinates when testing for
    intersection. Even if two coordinates match, the third may not.
 
-6. **Dividing by zero in trig equations:** When you factor and divide by $\cos x$, $\sin x$Or
-   $\tan x$You lose solutions. Always consider the case where the factor equals zero separately.
+6. **Dividing by zero in trig equations:** When you factor and divide by $\cos x$, $\sin x$ Or
+   $\tan x$ You lose solutions. Always consider the case where the factor equals zero separately.
 
 7. **Using the wrong form of $\cos 2A$:** All three forms are equivalent, but using the wrong one
    for the given context makes the algebra much harder.
 
-8. **Confusing the ambiguous case of the sine rule:** When $\sin A = k$ where $0 < k < 1$There are
+8. **Confusing the ambiguous case of the sine rule:** When $\sin A = k$ where $0 < k < 1$ There are
    two possible angles ($A$ and $180° - A$). Both may or may not be valid in the triangle. Always
    check the sum of angles.
 

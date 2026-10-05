@@ -63,7 +63,7 @@ Where $f$ is a wave travelling in the $+x$ direction and $g$ in the $-x$ directi
 
 **Proof.** Substitute $u = f(x - vt)$. Let $\xi = x - vt$. Then $\partial u/\partial x = f'(\xi)$
 $\partial^2 u/\partial x^2 = f''(\xi)$, $\partial u/\partial t = -vf'(\xi)$
-$\partial^2 u/\partial t^2 = v^2 f''(\xi)$. The wave equation gives $f'' = (v^2/v^2)f''$Which Is
+$\partial^2 u/\partial t^2 = v^2 f''(\xi)$. The wave equation gives $f'' = (v^2/v^2)f''$ Which Is
 identically satisfied. The same holds for $g(x + vt)$. By linearity, the sum is also a solution.
 $\blacksquare$
 
@@ -143,9 +143,9 @@ $$
 
 This is a standing wave with the following properties:
 
-- **Nodes** (points of zero displacement): $kx = m\pi$I.e., $x = m\lambda/2$ for
+- **Nodes** (points of zero displacement): $kx = m\pi$ I.e., $x = m\lambda/2$ for
   $m = 0, 1, 2, \ldots$
-- **Antinodes** (points of maximum displacement): $kx = (m + 1/2)\pi$I.e., $x = (2m+1)\lambda/4$.
+- **Antinodes** (points of maximum displacement): $kx = (m + 1/2)\pi$ I.e., $x = (2m+1)\lambda/4$.
 - All points between two nodes oscillate **in phase** (or in antiphase with adjacent segments).
 - The standing wave does not transport energy in either direction.
 
@@ -164,7 +164,7 @@ u(x,t) = \sum_{n=1}^{\infty} \left(A_n \sin k_n x \cos \omega_n t + B_n \sin k_n
 $$
 
 **Standing waves on a string fixed at one end ($x = 0$) and free at the other ($x = L$).** The free
-end requires $\partial u/\partial x|_{x=L} = 0$Giving $\cos(kL) = 0$ So:
+end requires $\partial u/\partial x|_{x=L} = 0$ Giving $\cos(kL) = 0$ So:
 
 $$
 k_n L = (n + 1/2)\pi \implies f_n = \frac{(2n+1)v}{4L}, \quad n = 0, 1, 2, \ldots
@@ -191,7 +191,7 @@ $x = 0, 0.217, 0.433, 0.650$ m (the endpoints and two interior nodes).
 
 ### 1.5 Energy Transport by Waves
 
-For a transverse wave on a string of linear mass density $\mu$ under tension $T$With
+For a transverse wave on a string of linear mass density $\mu$ under tension $T$ With
 $v = \sqrt{T/\mu}$:
 
 **Kinetic energy** of an element $dx$:
@@ -231,7 +231,7 @@ $$
 P = -T\frac{\partial u}{\partial x}\frac{\partial u}{\partial t} = \mu v\left(\frac{\partial u}{\partial t}\right)^2
 $$
 
-For a sinusoidal wave $u = A\sin(kx - \omega t)$The time-averaged power is:
+For a sinusoidal wave $u = A\sin(kx - \omega t)$ The time-averaged power is:
 
 $$
 \langle P \rangle = \frac{1}{2}\mu v \omega^2 A^2
@@ -295,7 +295,7 @@ $$
 
 Where $\sigma_x(t) = \sigma_x(0)\sqrt{1 + (\alpha t / 2\sigma_x^2(0))^2}$.
 
-The envelope moves at $v_g$While individual wave crests move at the **phase velocity**
+The envelope moves at $v_g$ While individual wave crests move at the **phase velocity**
 $v_p = \omega/k$. The packet **broadens** over time due to GVD.
 
 - In a **non-dispersive** medium ($\omega \propto k$ So $v_g = v_p$): the packet propagates without
@@ -305,7 +305,7 @@ $v_p = \omega/k$. The packet **broadens** over time due to GVD.
 
 **Relation to the wave equation.** The 1D wave equation
 $\partial^2 u/\partial t^2 = v^2\partial^2 u/\partial x^2$ Has dispersion relation
-$\omega = \pm vk$Giving $v_g = v_p = v$, it is non-dispersive.
+$\omega = \pm vk$ Giving $v_g = v_p = v$, it is non-dispersive.
 
 <details>
 <summary>Worked Example: Group velocity in a dispersive medium</summary>

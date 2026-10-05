@@ -137,15 +137,15 @@ $$
 
 **Solution:**
 
-For $y = f(x - 3)$The graph shifts **right** by 3 units. The point $(2, 7)$ on $y = f(x)$ moves to
+For $y = f(x - 3)$ The graph shifts **right** by 3 units. The point $(2, 7)$ on $y = f(x)$ moves to
 $(5, 7)$.
 
-For $y = f(x + 3)$The graph shifts **left** by 3 units. The point $(2, 7)$ moves to $(-1, 7)$.
+For $y = f(x + 3)$ The graph shifts **left** by 3 units. The point $(2, 7)$ moves to $(-1, 7)$.
 
 The answer is **(B)**.
 
 A common mistake is choosing (A) because "$+3$ looks like moving in the positive direction." In
-fact, replacing $x$ with $x - h$ shifts the graph right by $h$Which is the **opposite** direction to
+fact, replacing $x$ with $x - h$ shifts the graph right by $h$ Which is the **opposite** direction to
 the sign.
 
 ---
@@ -174,7 +174,7 @@ $f^{-1}(x)$.
 
 (b) We need to restrict to a domain where $f$ is strictly monotonic.
 
-$f(x) = (x - 2)^2 - 1$ has vertex at $(2, -1)$Opening upward.
+$f(x) = (x - 2)^2 - 1$ has vertex at $(2, -1)$ Opening upward.
 
 Restricting to $\mathrm{dom}(f) = [2,\; \infty)$ makes $f$ strictly increasing.
 
@@ -253,11 +253,11 @@ $$
 **Question:**
 
 Let $f(x) = ax^2 + bx + c$ where $a > 0$. The function $f$ has a minimum value of $-5$ at $x = 3$.
-Given that $f(1) = 3$Find $a$, $b$ And $c$ And hence find the range of $f^{-1}$.
+Given that $f(1) = 3$ Find $a$, $b$ And $c$ And hence find the range of $f^{-1}$.
 
 **Solution:**
 
-Since the minimum is $-5$ at $x = 3$We can write:
+Since the minimum is $-5$ at $x = 3$ We can write:
 
 $$
 f(x) = a(x - 3)^2 - 5
@@ -342,7 +342,7 @@ The solutions are $x = 0$ and $x = 1$.
 
 **Question:**
 
-The function $f(x) = \dfrac{k}{x}$$x > 0$Represents a rectangular hyperbola. The line $y = mx + c$
+The function $f(x) = \dfrac{k}{x}$$x > 0$ Represents a rectangular hyperbola. The line $y = mx + c$
 is tangent to the curve at the point $(2,\; 4)$. Find $k$$m$ And $c$.
 
 **Solution:**
@@ -433,7 +433,7 @@ Let $f(x) = 2x + 1$ and $g(x) = x^2 - 3$. Find:
 
 (b) $f(2) = 5$. $g \circ f(2) = g(5) = 25 - 3 = 22$.
 
-Note: $f \circ g(2) \neq g \circ f(2)$Confirming that composition is not commutative.
+Note: $f \circ g(2) \neq g \circ f(2)$ Confirming that composition is not commutative.
 
 (c) $f \circ f(x) = f(f(x)) = f(2x + 1) = 2(2x + 1) + 1 = 4x + 3$.
 
@@ -588,7 +588,7 @@ Let $f(x) = \sqrt{x}$ and $g(x) = x - 4$. Find $f \circ g$ and its domain.
 
 $f \circ g(x) = f(g(x)) = f(x - 4) = \sqrt{x - 4}$.
 
-Domain of $f \circ g$: we need $x - 4 \geq 0$I.e. $x \geq 4$.
+Domain of $f \circ g$: we need $x - 4 \geq 0$ I.e. $x \geq 4$.
 
 $$
 \mathrm{dom}(f \circ g) = [4,\; \infty)
@@ -642,7 +642,7 @@ $$
 a = b
 $$
 
-Since $f(a) = f(b) \implies a = b$The function is **injective**.
+Since $f(a) = f(b) \implies a = b$ The function is **injective**.
 
 ---
 
@@ -677,7 +677,7 @@ flowchart TD
 ## Common Pitfalls
 
 1. **Confusing $f^{-1}$ with the reciprocal $\dfrac{1}{f}$.** The notation $f^{-1}$ denotes the
-   inverse function, NOT the reciprocal. $f^{-1}(x)$ is the value of $y$ such that $f(y) = x$Which
+   inverse function, NOT the reciprocal. $f^{-1}(x)$ is the value of $y$ such that $f(y) = x$ Which
    is completely different from $\dfrac{1}{f(x)}$.
 
 2. **Incorrect domain of composite functions.** The domain of $f \circ g$ is NOT $\mathrm{dom}(g)$.
@@ -834,9 +834,9 @@ Explain the relationship between $f$ and $g$. (1 mark)
 
 **Solution:**
 
-(a) $f \circ g(x) = f(\log_2 x) = 2^{\log_2 x} = x$For $x > 0$.
+(a) $f \circ g(x) = f(\log_2 x) = 2^{\log_2 x} = x$ For $x > 0$.
 
-(b) $g \circ f(x) = g(2^x) = \log_2(2^x) = x$For all $x \in \mathbb{R}$.
+(b) $g \circ f(x) = g(2^x) = \log_2(2^x) = x$ For all $x \in \mathbb{R}$.
 
 (c) $f$ and $g$ are inverse functions of each other. $f \circ g = \mathrm{id}$ on $(0, \infty)$ and
 $g \circ f = \mathrm{id}$ on $\mathbb{R}$.

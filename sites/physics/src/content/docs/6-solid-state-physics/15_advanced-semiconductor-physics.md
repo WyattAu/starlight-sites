@@ -110,7 +110,7 @@ detuning.
 <summary>Worked Example 15.1: MOSFET Drain Current</summary>
 
 An n-channel MOSFET has $\mu_n = 450$ cm$^2$/(V$\cdot$S), $C_{ox} = 34.5$ nF/cm$^2$ ($t_{ox} = 10$
-nm SiO$_2$), $W = 10$ $\mu$M, $L = 1$ $\mu$M, $V_T = 0.7$ V.
+nm SiO$_2$), $W = 10$ $\mu$ M, $L = 1$ $\mu$ M, $V_T = 0.7$ V.
 
 For $V_G = 2$ V, $V_D = 0.5$ V (linear region since $V_D < V_G - V_T = 1.3$ V):
 
@@ -244,7 +244,7 @@ zero.
 
 Actually, for this model the Berry phase arises from the $\phi$-dependent phase winding. Let us use
 the proper formulation. The wavefunction $\psi_k(x) = e^{ikx}u_k(x)$ where $u_k$ has the periodicity
-of the lattice. With the flux $\phi$The Berry connection picks up an extra term. The Berry phase for
+of the lattice. With the flux $\phi$ The Berry connection picks up an extra term. The Berry phase for
 one circuit of the BZ is:
 
 $$
@@ -253,7 +253,7 @@ $$
 
 (c) The Berry phase $\gamma = 2\pi\phi$ is directly proportional to the flux $\phi$ per unit cell.
 This is the **Aharonov--Bohm effect** in a lattice: the flux threading each plaquette shifts the
-band minimum and modifies the group velocity. For $\phi = \pi$The band is inverted
+band minimum and modifies the group velocity. For $\phi = \pi$ The band is inverted
 ($\varepsilon = 2t\cos k$), which is the basis for the Rice--Mele model of topological insulators.
 
 </details>
@@ -288,7 +288,7 @@ $$
 
 (b) $W = \sqrt{\frac{2\varepsilon_s V_0}{e}\left(\frac{1}{N_A} + \frac{1}{N_D}\right)}$
 
-Since $N_D \ll N_A$The depletion region extends mainly into the n-side:
+Since $N_D \ll N_A$ The depletion region extends mainly into the n-side:
 
 $$
 W \approx \sqrt{\frac{2 \times 11.7 \times 8.85 \times 10^{-12} \times 0.812}{1.6 \times 10^{-19} \times 10^{22}}} = \sqrt{\frac{1.68 \times 10^{-10}}{1.6 \times 10^{-3}}} = \sqrt{1.05 \times 10^{-7}} = 3.24 \times 10^{-4}\ \text{m} = 0.324\ \text{mm}

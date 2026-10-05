@@ -169,7 +169,7 @@ Step 1: low=0, high=6, mid=3, array[3]=7. Found. Return 3.
 
 Step 1: low=0, high=6, mid=3, array[3]=7. $7 \lt 8$ So low=4. Step 2: low=4, high=6, mid=5,
 Array[5]=11. $11 \gt 8$ So high=4. Step 3: low=4, high=4, mid=4, array[4]=9. $9 \gt 8$ So high=3. Step
-4: low=4, high=3. $4 \gt 3$Loop ends. Return -1 (not found).
+4: low=4, high=3. $4 \gt 3$ Loop ends. Return -1 (not found).
 
 **Worked Example.** Search for 3 in [1, 3, 5, 7, 9, 11, 13].
 

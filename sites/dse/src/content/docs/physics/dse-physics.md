@@ -366,7 +366,7 @@ If you get this wrong, revise: Mechanics / SUVAT equations
 
 **Problem 2.** A $5 \mathrm{ kg}$ object is pulled across a rough horizontal surface by a force Of
 $40 \mathrm{ N}$ at $30^\circ$ above the horizontal. If the coefficient of kinetic friction Is
-$0.4$Find the acceleration.
+$0.4$ Find the acceleration.
 
 <details>
 <summary>Solution</summary>
@@ -695,7 +695,7 @@ DSE Physics Paper 2 consists of multiple choice questions. Key strategies:
 2. **Check dimensions:** If the answer should be a force (N) and an option has units of energy (J),
    eliminate it.
 3. **Estimate:** Quick mental arithmetic can often eliminate wrong options.
-4. **Check extreme cases:** What happens if $m \to 0$, $R \to \infty$Etc.?
+4. **Check extreme cases:** What happens if $m \to 0$, $R \to \infty$ Etc.?
 5. **Do not leave blanks:** There is no penalty for wrong answers in DSE.
 
 ---

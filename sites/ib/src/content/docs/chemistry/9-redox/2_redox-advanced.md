@@ -134,7 +134,7 @@ $$
 E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac`\{RT}``\{nF}`\ln Q
 $$
 
-At $298\mathrm{ K}$This simplifies to:
+At $298\mathrm{ K}$ This simplifies to:
 
 $$
 E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac{0.0592}{n}\log Q
@@ -198,7 +198,7 @@ Cell has:
 - Cathode: negative electrode (reduction)
 - External power source drives electrons from anode to cathode
 
-### Faraday"s Laws
+### Faraday's Laws
 
 **First law**: The amount of substance produced at an electrode is proportional to the charge
 Passed.
@@ -261,7 +261,7 @@ $$
 
 :::note
 Example, Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes
-Cathode: $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ ($E^\circ = +0.34\mathrm{ V}$More positive than
+Cathode: $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ ($E^\circ = +0.34\mathrm{ V}$ More positive than
 Water's $-0.83\mathrm{ V}$)
 
 Anode: $2\mathrm{H}_2\mathrm{O} \to \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$ (sulfate is not oxidised;
@@ -284,7 +284,7 @@ This is the Downs process for industrial sodium production.
 ### Common Pitfalls
 
 - In aqueous solutions, water may be preferentially discharged instead of the expected ion.
-- Faraday's constant is $96485\mathrm{ C/mol}$Not $96500$ (though $96500$ is often used for
+- Faraday's constant is $96485\mathrm{ C/mol}$ Not $96500$ (though $96500$ is often used for
   estimation).
 - The anode in an electrolytic cell is positive (opposite to a galvanic cell).
 
@@ -675,7 +675,7 @@ toward equilibrium.
   oxidation).
 
 - **Nernst equation sign errors:** The Nernst equation is $E = E^\circ - (0.0592/n)\log Q$. If you
-  use $\ln$ instead of $\log$The factor is $RT/nF = 0.0257/n$Not $0.0592/n$. Mixing these up yields
+  use $\ln$ instead of $\log$ The factor is $RT/nF = 0.0257/n$ Not $0.0592/n$. Mixing these up yields
   a wrong answer.
 
 ---
@@ -698,7 +698,7 @@ toward equilibrium.
 
 2. **[Hard]** A current of $4.00\mathrm{ A}$ is passed through molten $\mathrm{Al}_2\mathrm{O}_3$
    for $45.0$ minutes. Calculate: (a) the mass of aluminium produced, (b) the volume of oxygen gas
-   produced at STP ($22.7\mathrm{ L/mol}$). ($M_r(\mathrm{Al}) = 27.0$)
+   produced at STP ($22.7\mathrm{ L/mol}$). ($ M_r(\mathrm{Al}) = 27.0$)
 
 3. **[Medium]** In an $\mathrm{H}_2/\mathrm{O}_2$ fuel cell, the standard cell potential is
    $+1.23\mathrm{ V}$. Calculate $\Delta G^\circ$ for the overall reaction
@@ -709,8 +709,8 @@ toward equilibrium.
    $\mathrm{Fe}^{3+}$ and $\mathrm{Fe}^{2+}$ at equal concentrations. The measured cell potential is
    $+0.77\mathrm{ V}$. Write the spontaneous cell reaction and calculate the equilibrium constant.
 
-5. **[Medium]** Explain why, during the electrolysis of concentrated $\mathrm{NaCl}(aq)$The product
-   at the anode is $\mathrm{Cl}_2$ rather than $\mathrm{O}_2$Even though the standard reduction
+5. **[Medium]** Explain why, during the electrolysis of concentrated $\mathrm{NaCl}(aq)$ The product
+   at the anode is $\mathrm{Cl}_2$ rather than $\mathrm{O}_2$ Even though the standard reduction
    potential for $\mathrm{O}_2/\mathrm{H}_2\mathrm{O}$ ($+1.23\mathrm{ V}$) is less positive than
    that of $\mathrm{Cl}_2/\mathrm{Cl}^-$ ($+1.36\mathrm{ V}$).
 
@@ -725,7 +725,7 @@ toward equilibrium.
    $= 8.96\mathrm{ g/cm}^3$, $M_r(\mathrm{Cu}) = 63.55$)
 
 8. **[Hard]** For the cell
-   $\mathrm{Zn} \mid \mathrm{Zn}^{2+}(1.0\mathrm{ M}) \parallel \mathrm{Fe}^{2+}(0.010\mathrm{ M}) \mid \mathrm{Fe}$Determine:
+   $\mathrm{Zn} \mid \mathrm{Zn}^{2+}(1.0\mathrm{ M}) \parallel \mathrm{Fe}^{2+}(0.010\mathrm{ M}) \mid \mathrm{Fe}$ Determine:
    (a) $E_{\mathrm{cell}}^\circ$(b) $E_{\mathrm{cell}}$ at the given concentrations, (c) $\Delta G$
    for the reaction under these non-standard conditions.
    ($E^\circ(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76\mathrm{ V}$, $E^\circ(\mathrm{Fe}^{2+}/\mathrm{Fe}) = -0.44\mathrm{ V}$)
@@ -1001,8 +1001,8 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
 
 - **Forgetting to convert between volts and joules in $\Delta G$ calculations**: $\Delta G = -nFE$
   requires $F$ in $\mathrm{C/mol}$ and $E$ in $\mathrm{V}$. Since
-  $1\;\mathrm{V} = 1\;\mathrm{J/C}$The product $nFE$ is automatically in joules. However, if you
-  need the answer in $\mathrm{kJ/mol}$You must divide by $1000$.
+  $1\;\mathrm{V} = 1\;\mathrm{J/C}$ The product $nFE$ is automatically in joules. However, if you
+  need the answer in $\mathrm{kJ/mol}$ You must divide by $1000$.
 
 - **Confusing $Q$ (reaction quotient) with $K$ (equilibrium constant)**: $Q$ uses the current
   (non-equilibrium) concentrations, while $K$ uses equilibrium concentrations. In the Nernst
@@ -1015,7 +1015,7 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
 
 - **Using the standard hydrogen electrode incorrectly in cell diagrams**: The SHE is always written
   on the side (anode or cathode) that makes $E_{\mathrm{cell}}^\circ$ positive. If the unknown
-  half-cell has $E^\circ > 0$The SHE is the anode. If $E^\circ < 0$The SHE is the cathode.
+  half-cell has $E^\circ > 0$ The SHE is the anode. If $E^\circ < 0$ The SHE is the cathode.
 
 - **Neglecting the stoichiometry of electrons when using $\Delta G = -nFE$**: The $n$ must be the
   total number of electrons transferred in the balanced equation, not per mole of a specific
@@ -1024,7 +1024,7 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
 
 - **Assuming standard conditions apply to real batteries**: A car battery at $12\;\mathrm{V}$ (open
   circuit) delivers less than $12\;\mathrm{V}$ under load due to internal resistance. The terminal
-  voltage is $V = E_{\mathrm{cell}} - Ir_{\mathrm{internal}}$Where $I$ is the current drawn.
+  voltage is $V = E_{\mathrm{cell}} - Ir_{\mathrm{internal}}$ Where $I$ is the current drawn.
 
 ---
 

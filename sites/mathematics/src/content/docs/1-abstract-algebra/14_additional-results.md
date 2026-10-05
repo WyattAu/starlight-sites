@@ -17,7 +17,7 @@ description: "If is a prime dividing Then has an element of Order . Comprehensiv
 }
 </script>
 
-### 14.1 Cauchy"s Theorem
+### 14.1 Cauchy's Theorem
 
 **Theorem 14.1 (Cauchy's Theorem).** If $p$ is a prime dividing $|G|$ Then $G$ has an element of
 Order $p$.
@@ -25,7 +25,7 @@ Order $p$.
 _Proof._ Consider the set $X = \{(g_1, g_2, \ldots, g_p) \in G^p : g_1 g_2 \cdots g_p = e\}$.
 $|X| = |G|^{p-1}$ (choose $g_1, \ldots, g_{p-1}$ freely; $g_p$ is determined). The cyclic group
 $\mathbb{Z}/p\mathbb{Z}$ acts on $X$ by cyclic permutation. Orbits have size $1$ or $p$. An orbit
-has size $1$ precisely when $(g, g, \ldots, g) \in X$I.e., $g^p = e$. Since $|X| = |G|^{p-1}$ is
+has size $1$ precisely when $(g, g, \ldots, g) \in X$ I.e., $g^p = e$. Since $|X| = |G|^{p-1}$ is
 divisible by $p$ (as $p$ divides $|G|$), the number of fixed points Is congruent to $0 \pmod{p}$.
 The element $(e, e, \ldots, e)$ is a fixed point, so there exists At least $p - 1$ other fixed
 points, giving a non-identity element with $g^p = e$. Since $p$ is Prime, $g$ has order $p$.
@@ -53,7 +53,7 @@ or $aba^{-1} = b^2$.
 $G \cong \mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z} \cong \mathbb{Z}/6\mathbb{Z}$.
 
 **Case 2:** $aba^{-1} = b^2 = b^{-1}$. Then $G$ is a semidirect product with $ab = b^{-1}a$. This is
-the presentation $\langle a, b \mid a^2 = b^3 = e,\ aba^{-1} = b^{-1} \rangle$Which is $S_3$.
+the presentation $\langle a, b \mid a^2 = b^3 = e,\ aba^{-1} = b^{-1} \rangle$ Which is $S_3$.
 $\blacksquare$
 
 </details>
@@ -104,7 +104,7 @@ The integers $r, k_1, \ldots, k_m$ are uniquely determined.
 
 **Problem.** Classify all abelian groups of order 72.
 
-_Solution._ Since $72 = 2^3 \cdot 3^2$Every abelian group of order 72 is a direct product of an
+_Solution._ Since $72 = 2^3 \cdot 3^2$ Every abelian group of order 72 is a direct product of an
 Abelian group of order $2^3$ and one of order $3^2$.
 
 For order $2^3$: the partitions of 3 give (3), (2,1), (1,1,1), corresponding to

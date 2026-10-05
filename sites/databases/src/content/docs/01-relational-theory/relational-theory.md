@@ -26,7 +26,7 @@ Shared Data Banks." The model provides a mathematically rigorous foundation for 
 Based on set theory and first-order predicate logic. Every SQL database is an approximation of this
 Model -- and understanding where SQL deviates from the theory helps you write correct queries.
 
-### Codd"s 12 Rules (and Rule 0)
+### Codd's 12 Rules (and Rule 0)
 
 Codd defined 13 rules (numbered 0 through 12) that a system must satisfy to be considered truly
 Relational. No commercial database fully satisfies all 13, but they serve as the theoretical
@@ -278,7 +278,7 @@ SELECT name FROM suppliers;
 
 ### Rename (rho)
 
-The rename operation, denoted $\rho_{\mathrm{new\_name}(R)$Gives a relation or its attributes new
+The rename operation, denoted $\rho_{\mathrm{new\_name}(R)$ Gives a relation or its attributes new
 Names. In SQL, this is `AS`:
 
 ```sql
@@ -289,8 +289,8 @@ JOIN Employee M ON E.manager_id = M.emp_id;
 
 ## Functional Dependencies
 
-A functional dependency (FD) is a constraint of the form $X \rightarrow Y$Meaning "for any two
-Tuples, if they agree on all attributes in $X$They must also agree on all attributes in $Y$." $X$ Is
+A functional dependency (FD) is a constraint of the form $X \rightarrow Y$ Meaning "for any two
+Tuples, if they agree on all attributes in $X$ They must also agree on all attributes in $Y$." $X$ Is
 called the determinant.
 
 Formally:
@@ -331,8 +331,8 @@ Derived rules (provable from the three axioms above):
 
 ### Attribute Closure
 
-To determine if $X \rightarrow Y$ holds given a set of FDs $F$Compute the **closure of $X$** under
-$F$Denoted $X^+$:
+To determine if $X \rightarrow Y$ holds given a set of FDs $F$ Compute the **closure of $X$** under
+$F$ Denoted $X^+$:
 
 1. Start with $X^+ = X$
 2. Repeatedly apply Armstrong's axioms to add attributes to $X^+$
@@ -362,9 +362,9 @@ A minimal cover $F_{\min}$ of a set of FDs $F$ satisfies:
 Algorithm:
 
 1. Split right sides: replace $X \rightarrow YZ$ with $X \rightarrow Y$ and $X \rightarrow Z$
-2. Remove redundant FDs: for each FD $f \in F$Check if $(F - \{f\})^+ = F^+$. If yes, remove $f$.
+2. Remove redundant FDs: for each FD $f \in F$ Check if $(F - \{f\})^+ = F^+$. If yes, remove $f$.
 3. Remove redundant attributes from left sides: for each FD $X \rightarrow Y$ and each attribute
-   $A \in X$Check if $(X - \{A\})^+ \supseteq Y$. If yes, remove $A$ from $X$.
+   $A \in X$ Check if $(X - \{A\})^+ \supseteq Y$. If yes, remove $A$ from $X$.
 
 ## Normalisation
 
@@ -476,7 +476,7 @@ The practical compromise.
 ### Fourth Normal Form (4NF)
 
 A relation is in 4NF if it is in BCNF and contains no non-trivial multivalued dependencies. A
-Multivalued dependency $X \twoheadrightarrow Y$ means: for each value of $X$The set of $Y$ values Is
+Multivalued dependency $X \twoheadrightarrow Y$ means: for each value of $X$ The set of $Y$ values Is
 independent of the set of $Z$ values (where $Z = R - X - Y$).
 
 ```text

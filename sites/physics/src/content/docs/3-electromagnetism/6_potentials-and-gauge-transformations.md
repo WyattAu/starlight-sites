@@ -60,7 +60,7 @@ spelling is "Lorenz gauge."
 ### 6.3 Derivation of the Lorenz Gauge Condition
 
 Starting from the definitions $\mathbf{E} = -\nabla V - \partial\mathbf{A}/\partial t$ and
-$\mathbf{B} = \nabla \times \mathbf{A}$Substitute into Gauss's law:
+$\mathbf{B} = \nabla \times \mathbf{A}$ Substitute into Gauss's law:
 
 $$
 \nabla \cdot \mathbf{E} = -\nabla^2 V - \frac{\partial}{\partial t}(\nabla \cdot \mathbf{A}) = \frac{\rho}{\varepsilon_0}
@@ -147,7 +147,7 @@ $$
 \square^2 V = \frac{1}{4\pi\varepsilon_0}\int \left[\frac{\square^2[\rho]}{R}\right] d^3\mathbf{r}'
 $$
 
-The key identity is $\square^2(f(t_r)/R) = -4\pi f(t)\,\delta^3(\mathbf{r} - \mathbf{r}')$Which
+The key identity is $\square^2(f(t_r)/R) = -4\pi f(t)\,\delta^3(\mathbf{r} - \mathbf{r}')$ Which
 Follows from the fact that $\nabla^2(1/R) = -4\pi\delta^3(\mathbf{r} - \mathbf{r}')$ and that the
 Time derivatives cancel the $1/R$ propagation effects. Therefore:
 
@@ -161,7 +161,7 @@ This confirms that $V$ satisfies the wave equation. $\blacksquare$
 
 ### 6.5 Lienard-Wiechert Potentials
 
-For a **moving point charge** $q$ following trajectory $\mathbf{r}_s(t)$The retarded potentials
+For a **moving point charge** $q$ following trajectory $\mathbf{r}_s(t)$ The retarded potentials
 Cannot be evaluated naively because the retarded time $t_r$ satisfies a non-trivial equation:
 
 $$

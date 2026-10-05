@@ -92,7 +92,7 @@ University-level thermal physics notes covering thermodynamics, statistical mech
 
 ## Prerequisites
 
-- Classical mechanics (Newton"s laws, energy, momentum)
+- Classical mechanics (Newton's laws, energy, momentum)
 - Multivariable calculus (partial derivatives, integrals)
 - Basic quantum mechanics (helpful but not required)
 - Mathematical proofs and logic

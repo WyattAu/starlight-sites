@@ -33,12 +33,12 @@ $10 + Q = 50$ So $Q^* = 40$.
 (b) Profit
 $= TR - TC = 50(40) - [200 + 10(40) + 0.5(40)^2] = 2000 - [200 + 400 + 800] = 2000 - 1400 = \$600$.
 
-(c) Since profit $\gt 0$The firm is **not** in long-run equilibrium. In long-run equilibrium under
+(c) Since profit $\gt 0$ The firm is **not** in long-run equilibrium. In long-run equilibrium under
 Perfect competition, economic profit $= 0$ (firms enter until price $=$ minimum ATC).
 
 (d) Shutdown price $= $ minimum AVC. $VC = 10Q + 0.5Q^2$ So $AVC = 10 + 0.5Q$. Minimum AVC occurs
-Where $\frac{\text{dAVC}}{    ext{dQ}} = 0.5 = 0$Which is at $Q = 0$. At $Q = 0$: $AVC = 10$. So the
-Shutdown price is $\$10$. If price falls below $\$10$The firm shuts down because it cannot even
+Where $\frac{\text{dAVC}}{    ext{dQ}} = 0.5 = 0$ Which is at $Q = 0$. At $Q = 0$: $AVC = 10$. So the
+Shutdown price is $\$10$. If price falls below $\$10$ The firm shuts down because it cannot even
 Cover its variable costs.
 
 ### UT-2: Monopoly Pricing and Deadweight Loss
@@ -146,13 +146,13 @@ Inverse demand for $P \le 20$: $P = 30 - 0.25Q$.
 
 $MR = 30 - 0.5Q$. Set $MR = MC = 4$: $30 - 0.5Q = 4$$0.5Q = 26$$Q = 52$. $P = 30 - 0.25(52) = \$17$.
 
-Since $P = 17 \le 20$Both groups are served. Profit $= 17(52) - 4(52) = 13(52) = \$676$.
+Since $P = 17 \le 20$ Both groups are served. Profit $= 17(52) - 4(52) = 13(52) = \$676$.
 
 (b) Third-degree price discrimination:
 
 - Adults: $MR_A = 40 - Q_A = 4$$Q_A = 36$$P_A = 40 - 0.5(36) = \$22$.
 - Students: $MR_S = 20 - Q_S = 4$$Q_S = 16$$P_S = 20 - 0.5(16) = \$12$.
-- Total $Q = 52$Profit $= 22(36) + 12(16) - 4(52) = 792 + 192 - 208 = \$776$.
+- Total $Q = 52$ Profit $= 22(36) + 12(16) - 4(52) = 792 + 192 - 208 = \$776$.
 
 (c) Under no discrimination ($P = 17$$Q = 52$): competitive output would be where $P = MC = 4$.
 $Q_c = 120 - 4(4) = 104$. $DWL = \frac{1}{2}(17 - 4)(104 - 52) = \frac{1}{2}(13)(52) = \$338$.
@@ -260,8 +260,8 @@ $MC = 2 + 0.2(33.33) = 8.67$. At $Q_c = 50$: $P_c = MC = 12$.
 
 $DWL = \frac{1}{2}(P_m - MC_m)(Q_c - Q_m) = \frac{1}{2}(15.33 - 8.67)(50 - 33.33) = \frac{1}{2}(6.67)(16.67) = \$55.6$.
 
-(d) Allocative efficiency requires $P = MC$Meaning marginal benefit (reflected in willingness to
-Pay) equals marginal cost. In perfect competition, firms produce where $P = MC$Maximising total
+(d) Allocative efficiency requires $P = MC$ Meaning marginal benefit (reflected in willingness to
+Pay) equals marginal cost. In perfect competition, firms produce where $P = MC$ Maximising total
 Surplus. The monopoly restricts output to $Q_m \lt Q_c$ So for the units between $Q_m$ and $Q_c$
 Consumers' marginal benefit exceeds the marginal cost of production. These mutually beneficial
 Trades do not occur, creating a deadweight loss. The monopoly maximises its own profit rather than
@@ -347,7 +347,7 @@ permitted return) while protecting consumers from excessive prices.
 **Question:** The market for a homogeneous good is perfectly competitive. Each firm has cost
 function $TC = 100 + 2Q + 0.5Q^2$. Market demand is $P = 50 - 0.1Q$ (where $Q$ is total market
 output in thousands). (a) Calculate the long-run equilibrium price, output per firm, and number of
-firms. (b) If demand increases to $P = 60 - 0.1Q$Calculate the new long-run equilibrium. (c)
+firms. (b) If demand increases to $P = 60 - 0.1Q$ Calculate the new long-run equilibrium. (c)
 Calculate the short-run response (before new firms enter) and explain the adjustment process. (d)
 Explain why firms earn zero economic profit in long-run perfect competition.
 
@@ -442,7 +442,7 @@ kink) to $MR_2 = -50$ (just below the kink). As long as marginal cost falls with
 ($-50 < MC < 33.33$), the profit-maximising output and price remain unchanged. This explains why
 oligopolistic prices tend to be rigid even when costs change moderately.
 
-(d) The price will not change as long as MC is in the range $MR_2 < MC < MR_1$I.e.,
+(d) The price will not change as long as MC is in the range $MR_2 < MC < MR_1$ I.e.,
 $-50 < MC < 33.33$.
 
 Since MC cannot be negative, the practical range is $0 < MC < 33.33$. The firm's current MC is
@@ -504,7 +504,7 @@ scale).
 multiplied by actual output.
 
 $ATC_{LR} = \frac{200 + 20(8.17) + 8.17^2}{8.17} = \frac{200 + 163.4 + 66.7}{8.17} = \frac{430.1}{8.17} = 52.65$
-(which equals $P_{LR}$Confirming zero profit).
+(which equals $P_{LR}$ Confirming zero profit).
 
 Welfare loss per unit $= 52.65 - 48.28 = 4.37$. Total welfare loss $= 4.37 \times 8.17 = 35.7$.
 
@@ -588,7 +588,7 @@ power.
 
 1. **Confusing the demand curve with the marginal revenue curve:** In monopoly, the MR curve is
    always below the demand curve (for a linear demand, MR has twice the slope). The
-   profit-maximising output is where $MR = MC$Not where $D = MC$. Setting $P = MC$ gives the
+   profit-maximising output is where $MR = MC$ Not where $D = MC$. Setting $P = MC$ gives the
    allocatively efficient output (used for regulation), not the profit-maximising output.
 
 2. **Forgetting that monopolistic competition leads to zero long-run profit but not allocative

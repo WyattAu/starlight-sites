@@ -54,7 +54,7 @@ $$
 
 ### Derivation of the Wave Equation
 
-In one period $T$Each wavefront travels a distance of one wavelength $\lambda$. Therefore:
+In one period $T$ Each wavefront travels a distance of one wavelength $\lambda$. Therefore:
 
 $$
 v = \frac{\mathrm{distance}{\mathrm{time} = \frac{\lambda}{T} = \lambda f
@@ -76,7 +76,7 @@ $$
 **Refraction:** When a wave passes from one medium to another, its speed changes. If it enters at an
 Angle, the direction changes.
 
-**Snell"s Law:**
+**Snell's Law:**
 
 $$
 n_1 \sin\theta_1 = n_2 \sin\theta_2
@@ -152,7 +152,7 @@ A path difference of $\lambda$ corresponds to a phase difference of $2\pi$ (one 
 
 ### Double Slit Experiment
 
-For light of wavelength $\lambda$ passing through two slits separated by distance $d$Observed on a
+For light of wavelength $\lambda$ passing through two slits separated by distance $d$ Observed on a
 Screen at distance $L$:
 
 **Fringe spacing:** $w = \dfrac{\lambda L}{d}$
@@ -170,7 +170,7 @@ $$
 d\sin\theta = n\lambda
 $$
 
-Where $d$ is the grating spacing, $\theta$ is the angle to the $n$Th order maximum, and $\lambda$ is
+Where $d$ is the grating spacing, $\theta$ is the angle to the $n$ Th order maximum, and $\lambda$ is
 The wavelength.
 
 **Example:** A diffraction grating has 500 lines per mm. Light of wavelength $580 \mathrm{ nm$ is
@@ -289,7 +289,7 @@ A = A_0 e^{-\lambda t}
 $$
 
 **Example:** A radioactive isotope has a half-life of 5 hours. If the initial activity is
-$800 \mathrm{ Bq$Find the activity after 15 hours.
+$800 \mathrm{ Bq$ Find the activity after 15 hours.
 
 $$
 \lambda = \frac{\ln 2}{5} = 0.1386 \mathrm{ h^{-1}
@@ -399,7 +399,7 @@ flowchart TD
 4. **Total internal reflection conditions:** It only occurs when light travels from a denser medium
    ($n_1$) to a less dense medium ($n_2$).
 
-5. **Decay constant and half-life:** $\lambda = \dfrac{\ln 2}{t_{1/2}}$Not
+5. **Decay constant and half-life:** $\lambda = \dfrac{\ln 2}{t_{1/2}}$ Not
    $\lambda = \dfrac{1}{t_{1/2}}$.
 
 6. **Confusing path difference and phase difference.** Path difference is in metres; phase
@@ -435,7 +435,7 @@ flowchart TD
 5. The binding energy per nucleon of iron-56 is $8.79 \mathrm{ MeV$. Find the total binding energy.
 
 6. In a double slit experiment, the fringe spacing is $3.2 \mathrm{ mm$ when the screen is
-   $1.2 \mathrm{ m$ from the slits. If the slit separation is $0.25 \mathrm{ mm$Find the wavelength
+   $1.2 \mathrm{ m$ from the slits. If the slit separation is $0.25 \mathrm{ mm$ Find the wavelength
    of the light.
 
 7. Write the nuclear equation for the beta-minus decay of carbon-14.
@@ -570,7 +570,7 @@ $$
 \beta_{\mathrm{total} = 10\log_{10}\left(\frac{3 \times 10^{-5}}{10^{-12}}\right) = 10\log_{10}(3 \times 10^7) = 10 \times 7.477 = 74.8 \mathrm{ dB
 $$
 
-Note: adding two sources of 70 dB and 73 dB gives $74.8 \mathrm{ dB$Not $143 \mathrm{ dB$. Decibels
+Note: adding two sources of 70 dB and 73 dB gives $74.8 \mathrm{ dB$ Not $143 \mathrm{ dB$. Decibels
 Do not add linearly. A 3 dB increase corresponds to a doubling of intensity, so adding a second
 Source of equal intensity adds 3 dB.
 
@@ -582,7 +582,7 @@ Source of equal intensity adds 3 dB.
 | Snell's law         | $n_1\sin\theta_1 = n_2\sin\theta_2$ | $n$, $\theta$        | Frequency unchanged       |
 | Critical angle      | $\sin\theta_c = n_2/n_1$            | $n_1 \gt n_2$        | Total internal reflection |
 | Double slit         | $w = \lambda L/d$                   | $\lambda$, $L$, $d$  | Fringe spacing            |
-| Diffraction grating | $d\sin\theta = n\lambda$            | $d$$\theta$$\lambda$ | $n$Th order maximum       |
+| Diffraction grating | $d\sin\theta = n\lambda$            | $d$$\theta$$\lambda$ | $n$ Th order maximum       |
 | Decibels            | $\beta = 10\log_{10}(I/I_0)$        | $I$$I_0$             | $I_0 = 10^{-12}$ W/m$^2$  |
 | Decay law           | $N = N_0 e^{-\lambda t}$            | $N_0$$\lambda$$t$    | Exponential decay         |
 | Half-life           | $t_{1/2} = \ln 2/\lambda$           | $\lambda$            | Constant for each isotope |
@@ -604,7 +604,7 @@ Source of equal intensity adds 3 dB.
     $= 343 \mathrm{ m/s$.)
 
 4. Calculate the binding energy per nucleon of carbon-12. Given: mass of carbon-12 =
-    $12.000 \mathrm{ u$Mass of proton $= 1.00728 \mathrm{ u$Mass of neutron $= 1.00867 \mathrm{ u$
+    $12.000 \mathrm{ u$ Mass of proton $= 1.00728 \mathrm{ u$ Mass of neutron $= 1.00867 \mathrm{ u$
     $1 \mathrm{ u = 931.5 \mathrm{ MeV/c^2$.
 
 5. A diffraction grating produces a first-order maximum at $22.0^{\circ}$ for light of wavelength
@@ -659,14 +659,14 @@ $$
 So the second secondary maximum has about $1.6\%$ of the central maximum intensity.
 
 :::note
-$\approx 1.6\%$Third $\approx 0.8\%$ of $I_0$. Most of the diffracted light energy is concentrated
+$\approx 1.6\%$ Third $\approx 0.8\%$ of $I_0$. Most of the diffracted light energy is concentrated
 In the central maximum.
 :::
 
 ### Example 22: Radioactive Dating
 
 A sample of ancient wood contains $25\%$ of the original carbon-14. Given that the half-life of
-Carbon-14 is $5730 \mathrm{ years$Calculate the age of the sample.
+Carbon-14 is $5730 \mathrm{ years$ Calculate the age of the sample.
 
 **Step 1: Use the decay law**
 
@@ -694,7 +694,7 @@ $$
 t = \frac{-\ln(0.25)}{\lambda} = \frac{1.386}{1.209 \times 10^{-4}} = 11460 \mathrm{ years
 $$
 
-**Check:** Since $0.25 = (1/2)^2$The sample has undergone exactly 2 half-lives, so
+**Check:** Since $0.25 = (1/2)^2$ The sample has undergone exactly 2 half-lives, so
 $t = 2 \times 5730 = 11460 \mathrm{ years$. This confirms our calculation.
 
 ### Example 23: Sound Level Addition with Multiple Sources
@@ -740,7 +740,7 @@ $+10 \mathrm{ dB$. This Logarithmic behaviour surprises many students.
 
 ### Pitfall 7: Forgetting the Factor of 2 in Coherent Source Path Difference
 
-For two coherent sources separated by distance $d$The path difference to a point at angle $\theta$
+For two coherent sources separated by distance $d$ The path difference to a point at angle $\theta$
 Is $d \sin\theta$_not_ $2d \sin\theta$. The factor of 2 only appears in thin film interference Where
 the light traverses the film twice (reflection from top and bottom surfaces).
 
@@ -805,7 +805,7 @@ $L_3 = 5\lambda/4 = 5 \times 0.165 = 0.825 \mathrm{ m = 82.5 \mathrm{ cm$
 ### Example 27: Nuclear Binding Energy Calculation
 
 Calculate the binding energy per nucleon of helium-4. Given: mass of helium-4 nucleus
-$= 4.001506 \mathrm{ u$Mass of proton $= 1.007276 \mathrm{ u$Mass of neutron
+$= 4.001506 \mathrm{ u$ Mass of proton $= 1.007276 \mathrm{ u$ Mass of neutron
 $= 1.008665 \mathrm{ u$$1 \mathrm{ u = 931.5 \mathrm{ MeV/c^2$.
 
 **Step 1: Calculate mass defect**
@@ -904,7 +904,7 @@ Where $\tau$ is the dead time.
     minima. (Speed of sound $= 343 \mathrm{ m/s$.)
 
 4. Calculate the energy released when two deuterium nuclei fuse to form helium-3 and a neutron.
-    Mass of deuterium $= 2.013553 \mathrm{ u$Mass of helium-3 $= 3.016029 \mathrm{ u$Mass of neutron
+    Mass of deuterium $= 2.013553 \mathrm{ u$ Mass of helium-3 $= 3.016029 \mathrm{ u$ Mass of neutron
     $= 1.008665 \mathrm{ u$.
 
 5. Explain the principles of a gamma camera used in medical imaging. Describe how the collimator,

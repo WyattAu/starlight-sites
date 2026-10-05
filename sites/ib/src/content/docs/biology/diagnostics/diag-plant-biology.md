@@ -49,7 +49,7 @@ NADPH has $\Delta G \approx 220\ \text{kJ mol}^{-1}$.
 
 **Solution:**
 
-$E = \frac{hc}{\lambda}$Where
+$E = \frac{hc}{\lambda}$ Where
 $h = 6.626 \times 10^{-34}\ \text{J s}$, $c = 2.998 \times 10^8\ \text{m s}^{-1}$.
 
 PSII ($680\ \text{nm}$):
@@ -106,7 +106,7 @@ $200 \times 400 \times 10^{-12} = 8 \times 10^{-8}\ \text{m}^2\text{ mm}^{-2}$.
 Per $\text{cm}^2$ ($= 100\ \text{mm}^2$): total pore area
 $= 100 \times 8 \times 10^{-8} = 8 \times 10^{-6}\ \text{m}^2$.
 
-Using Fick"s law: $J = D \times A \times \frac{\Delta c}{\Delta x}$
+Using Fick's law: $J = D \times A \times \frac{\Delta c}{\Delta x}$
 
 $J = (2.4 \times 10^{-5}) \times (8 \times 10^{-6}) \times \frac{23 - 10}{0.001}$
 

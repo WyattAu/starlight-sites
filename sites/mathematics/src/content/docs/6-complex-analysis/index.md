@@ -54,7 +54,7 @@ sources:
 2. [Complex Functions and Analyticity](/6-complex-analysis/2_complex-functions-and-analyticity/)
 3. [The Cauchy-Riemann Equations](/6-complex-analysis/3_the-cauchy-riemann-equations/)
 4. [Complex Integration](/6-complex-analysis/4_complex-integration/)
-5. [Cauchy"s Theorem](/6-complex-analysis/5_cauchy-s-theorem/)
+5. [Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)
 6. [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
 7. [Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)
 8. [Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)

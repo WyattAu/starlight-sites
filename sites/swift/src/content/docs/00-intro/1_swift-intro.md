@@ -192,7 +192,7 @@ swift
 
 ## Swift Package Manager (SPM)
 
-SPM is Apple"s built-in dependency management and build tool. It integrates with Xcode and works
+SPM is Apple's built-in dependency management and build tool. It integrates with Xcode and works
 from the command line.
 
 ### Package Structure

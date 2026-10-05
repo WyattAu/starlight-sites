@@ -254,7 +254,7 @@ thermodynamics states that absolute zero cannot be reached by any finite number 
 $T_C = 0\,\text{K}$ is unattainable. Practically, even if it were approachable, no process can be
 perfectly reversible, so $100\%$ efficiency is impossible.
 
-However, the **theoretical** limit of efficiency does approach $100\%$ as $T_C \to 0$Which is why
+However, the **theoretical** limit of efficiency does approach $100\%$ as $T_C \to 0$ Which is why
 reaching very low temperatures requires increasingly sophisticated and energy-intensive cooling
 methods.
 

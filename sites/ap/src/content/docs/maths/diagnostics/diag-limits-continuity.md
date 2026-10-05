@@ -34,7 +34,7 @@ Prove using an epsilon-delta argument that $\displaystyle\lim_{x \to 2} x^3 = 8$
 
 A student writes the following "proof":
 
-> For any $\varepsilon > 0$Choose $\delta = \varepsilon / 12$. Then
+> For any $\varepsilon > 0$ Choose $\delta = \varepsilon / 12$. Then
 > $|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4|$. If $|x - 2| \lt \delta$ Then
 > $|x^3 - 8| \lt 12 \cdot \delta = \varepsilon$.
 
@@ -49,7 +49,7 @@ shown by first restricting $\delta$ to ensure $x$ is close enough to $2$ for thi
 
 Let $\varepsilon > 0$. We need $|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4| \lt \varepsilon$.
 
-First, restrict $\delta \leq 1$ so that $|x - 2| \lt 1$Meaning $1 \lt x \lt 3$. On this interval:
+First, restrict $\delta \leq 1$ so that $|x - 2| \lt 1$ Meaning $1 \lt x \lt 3$. On this interval:
 
 $$
 x^2 + 2x + 4 \lt 9 + 6 + 4 = 19
@@ -132,7 +132,7 @@ $$
 \frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}
 $$
 
-Since $-1 \leq \sin x \leq 1$We have $|\sin x / x| \leq 1/|x| \to 0$ as $x \to \infty$. Therefore:
+Since $-1 \leq \sin x \leq 1$ We have $|\sin x / x| \leq 1/|x| \to 0$ as $x \to \infty$. Therefore:
 
 $$
 \lim_{x \to \infty} \frac{x + \sin x}{x} = 1
@@ -204,7 +204,7 @@ As $x \to -1^+$: $\frac{-4}{0^+} \to -\infty$. As $x \to -1^-$: $\frac{-4}{0^-} 
 
 The one-sided limits are both infinite but with opposite signs, so this is an **infinite
 discontinuity** (the limit DNE). This differs from $x = 1$ because the limit itself does not exist
-at $x = -1$Whereas at $x = 1$ the limit exists but does not match the function value.
+at $x = -1$ Whereas at $x = 1$ the limit exists but does not match the function value.
 
 ---
 
@@ -241,7 +241,7 @@ $$
 g(2) = 8 + 4 - 5 + \cos(2\pi) = 7 + 1 = 8 \gt 0
 $$
 
-Since $g(0) \lt 0 \lt g(2)$ and $g$ is continuous on $[0, 2]$By the IVT there exists $c \in (0, 2)$
+Since $g(0) \lt 0 \lt g(2)$ and $g$ is continuous on $[0, 2]$ By the IVT there exists $c \in (0, 2)$
 such that $g(c) = 0$.
 
 **Uniqueness (Rolle's theorem via monotonicity):**
@@ -256,17 +256,17 @@ $$
 g'(x) \geq 3x^2 + 2 - \pi
 $$
 
-For $x \geq 0$: $3x^2 + 2 - \pi > 0$ when $3x^2 > \pi - 2$I.e.,
+For $x \geq 0$: $3x^2 + 2 - \pi > 0$ when $3x^2 > \pi - 2$ I.e.,
 $x > \sqrt{(\pi - 2)/3} \approx 0.62$.
 
 For $x \in [0, 0.62]$: $g'(x) = 3x^2 + 2 - \pi\sin(\pi x)$. Since $\sin(\pi x) \leq \pi x$ for
 $x \geq 0$ (and $\pi x \leq \pi \cdot 0.62 \lt 2$), we have
-$g'(x) \geq 3(0)^2 + 2 - \pi(1) = 2 - \pi \approx -1.14$Which is negative. A finer argument is
+$g'(x) \geq 3(0)^2 + 2 - \pi(1) = 2 - \pi \approx -1.14$ Which is negative. A finer argument is
 needed.
 
 A cleaner argument: $g'(x) = 3x^2 + 2 - \pi\sin(\pi x)$. Since
-$|\pi\sin(\pi x)| \leq \pi \approx 3.14$ and $3x^2 + 2 \geq 2$We have
-$g'(x) \geq 2 - 3.14 = -1.14$Which does not prove positivity.
+$|\pi\sin(\pi x)| \leq \pi \approx 3.14$ and $3x^2 + 2 \geq 2$ We have
+$g'(x) \geq 2 - 3.14 = -1.14$ Which does not prove positivity.
 
 Let us check directly:
 $g'(0) = 2$$g'(1) = 3 + 2 - 0 = 5$$g'(0.5) = 0.75 + 2 - \pi \approx 2.75 - 3.14 = -0.39$.
@@ -370,7 +370,7 @@ $$
 Therefore $F(x)$ converges to some finite limit
 $L = \displaystyle\int_0^{\infty} \frac{e^{-t^2}}{1 + t^2} \, dt$ as $x \to \infty$.
 
-(b) Let $L = \displaystyle\lim_{x \to \infty} F(x)$. Since $F(x) \to L \neq 0$We have
+(b) Let $L = \displaystyle\lim_{x \to \infty} F(x)$. Since $F(x) \to L \neq 0$ We have
 $x \cdot F(x) \to \infty$. A more interesting limit is obtained by considering the tail: let
 $G(x) = L - F(x) = \displaystyle\int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt$ And evaluate
 $\displaystyle\lim_{x \to \infty} x \cdot G(x)$.
@@ -379,7 +379,7 @@ $$
 x \cdot G(x) = x \int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt
 $$
 
-For large $x$The dominant contribution comes from $t$ near $x$. Substitute $u = t - x$:
+For large $x$ The dominant contribution comes from $t$ near $x$. Substitute $u = t - x$:
 
 $$
 G(x) \approx \int_0^{\infty} \frac{e^{-(x+u)^2}}{1+(x+u)^2}\,du \approx \frac{e^{-x^2}}{1+x^2} \int_0^{\infty} e^{-2xu}\,du = \frac{e^{-x^2}}{1+x^2} \cdot \frac{1}{2x}

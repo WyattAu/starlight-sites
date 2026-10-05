@@ -183,7 +183,7 @@ $$
 
 ### Key Principles
 
-1. **Near Earth"s surface**, $g$ is approximately constant at $9.81\ \mathrm{m\,s^{-2}}$
+1. **Near Earth's surface**, $g$ is approximately constant at $9.81\ \mathrm{m\,s^{-2}}$
 2. $g$ **does not depend** on the mass of the falling object (Galileo's principle)
 3. In a **vacuum**, a feather and a bowling ball fall at the same rate
 

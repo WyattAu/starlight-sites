@@ -104,7 +104,7 @@ The negative sign means $B$ moves in the opposite direction to the defined posit
 initial direction. This is the same physical velocity as $\frac{5}{3}$ m/s in $A$'s initial
 direction, confirming the result is convention-independent.
 
-**(d)** Since $e = \frac{11}{24} \approx 0.458$ and $0 \lt e \lt 1$The collision is **inelastic**.
+**(d)** Since $e = \frac{11}{24} \approx 0.458$ and $0 \lt e \lt 1$ The collision is **inelastic**.
 
 $$
 \text{KE}_{\text{before}} = \frac{1}{2}(4)(25) + \frac{1}{2}(6)(9) = 50 + 27 = 77 \text{ J}
@@ -365,7 +365,7 @@ $$
 
 **(d)** $\Delta\mathrm{KE} = \frac{1}{2}(4)(5^2) - 0 = 50$ J.
 
-Since $W = 50$ J $= \Delta\mathrm{KE}$The work-energy theorem is verified.
+Since $W = 50$ J $= \Delta\mathrm{KE}$ The work-energy theorem is verified.
 
 ---
 
@@ -470,7 +470,7 @@ $$
 
 $\text{KE}_{\text{after}} = \frac{1}{2}(4)(16) + \frac{1}{2}(6)(89.34) = 32 + 268.0 = 300$ J.
 
-Wait -- $\text{KE}_{\text{after}} \gt \text{KE}_{\text{before}}$Which is impossible ($e \leq 1$
+Wait -- $\text{KE}_{\text{after}} \gt \text{KE}_{\text{before}}$ Which is impossible ($e \leq 1$
 implies no energy creation). Let me recheck.
 
 $v_B^2 = \frac{1289 - 280\sqrt{3}}{9}$.
@@ -486,7 +486,7 @@ deflects at $30°$ with speed $4$ m/s) is inconsistent with momentum and energy 
 problem is over-specified with contradictory data.
 
 **Conclusion:** The given data is inconsistent. With the given masses, initial velocities, and the
-stated post-collision velocity of $A$The resulting velocity of $B$ implies kinetic energy creation.
+stated post-collision velocity of $A$ The resulting velocity of $B$ implies kinetic energy creation.
 This diagnostic test is designed to identify whether the student recognises physically impossible
 data.
 

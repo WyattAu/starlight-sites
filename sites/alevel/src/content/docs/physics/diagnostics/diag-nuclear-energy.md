@@ -176,7 +176,7 @@ $m_p = 1.00728\,\text{u}$$m_{^{4}\text{He}} = 4.00150\,\text{u}$$m_{e^+} = 0.000
 
 (b) Calculate the energy released per kilogram of hydrogen consumed.
 
-(c) The Sun"s luminosity is $3.85 \times 10^{26}\,\text{W}$. Estimate the mass of hydrogen consumed
+(c) The Sun's luminosity is $3.85 \times 10^{26}\,\text{W}$. Estimate the mass of hydrogen consumed
 per second.
 
 Take
@@ -192,9 +192,9 @@ Mass defect: $\Delta m = 4.02912 - 4.00260 = 0.02652\,\text{u}$
 
 $Q = 0.02652 \times 931.5 = 24.70\,\text{MeV}$
 
-The stated value is $26.7\,\text{MeV}$Which includes the annihilation energy of the two positrons
+The stated value is $26.7\,\text{MeV}$ Which includes the annihilation energy of the two positrons
 with electrons ($2 \times 0.511 = 1.02\,\text{MeV}$). Since the hydrogen atoms include electrons,
-the net reaction includes $e^+ + e^- \to 2\gamma$Adding $1.02\,\text{MeV}$:
+the net reaction includes $e^+ + e^- \to 2\gamma$ Adding $1.02\,\text{MeV}$:
 
 $24.70 + 1.02 = 25.72\,\text{MeV}$
 
@@ -228,7 +228,7 @@ produces on average $2.5$ neutrons. The reactor operates at a thermal power of $
 
 (a) Calculate the fission rate (fissions per second).
 
-(b) If the neutron multiplication factor is $k = 1.003$Calculate the reactor period (the time for
+(b) If the neutron multiplication factor is $k = 1.003$ Calculate the reactor period (the time for
 the power to double).
 
 (c) Explain the role of control rods and the moderator in maintaining $k = 1$.
@@ -255,7 +255,7 @@ For $k = 1.003$: $(k - 1)/k \approx 0.003$
 
 Doubling time: $T = \ell/(k - 1) = 10^{-4}/0.003 = 0.033\,\text{s}$
 
-The power doubles every $33\,\text{ms}$Which is extremely fast. This is why prompt supercritical
+The power doubles every $33\,\text{ms}$ Which is extremely fast. This is why prompt supercritical
 excursions are dangerous and why delayed neutrons are essential for controllable reactor operation.
 
 (c) **Control rods** (made of neutron-absorbing materials like boron or cadmium) are inserted or
@@ -268,7 +268,7 @@ most neutrons would escape or be captured without causing further fission, and $
 
 For stable operation at constant power, $k = 1$ exactly (critical state). This is maintained by a
 negative temperature coefficient: if the reactor gets too hot, thermal expansion and Doppler
-broadening reduce $k$Providing automatic negative feedback.
+broadening reduce $k$ Providing automatic negative feedback.
 
 ---
 
@@ -408,7 +408,7 @@ $1.55 \times 10^{28}/(6.0 \times 10^{20}) = 2.58 \times 10^7 = 25.8\,\text{milli
 
 The deuterium in the oceans could theoretically supply the world's energy needs for about 26 million
 years. This highlights the enormous potential of nuclear fusion as a virtually limitless energy
-source. The challenge is achieving the conditions (temperature $\approx 10^8\,\text{K}$Confinement,
+source. The challenge is achieving the conditions (temperature $\approx 10^8\,\text{K}$ Confinement,
 and density) for sustained fusion reactions.
 
 Note: In practice, tritium must be "bred" from lithium using the fusion neutrons, and the achievable

@@ -55,7 +55,7 @@ Carboxylic acids contain the $-\text{COOH}$ functional group. They are weak acid
 - Electron-donating groups decrease acidity
 - Reactions: esterification, reduction, amide formation, Hell-Volhard-Zelinsky reaction
 - Acid chlorides: RCOCl (from RCOOH + SOCl$_2$ or PCl$_5$)
-- Acid anhydrides: (RCO)$_2$O (from 2 RCOOH with dehydration)
+- Acid anhydrides: (RCO)$_2$ O (from 2 RCOOH with dehydration)
 - Esters: RCOOR' (from RCOOH + R'OH with acid catalyst)
 
 ## Worked Example 1, Acidity Comparison

@@ -47,13 +47,13 @@ $$
 \int_{-\pi}^{\pi} \cos(mx)\sin(nx)\, dx = 0 \quad \mathrm{for}\; all\; m, n
 $$
 
-To find $a_n$Multiply both sides of the Fourier expansion by $\cos(nx)$ and integrate over
+To find $a_n$ Multiply both sides of the Fourier expansion by $\cos(nx)$ and integrate over
 $[-\pi, \pi]$. By orthogonality, all terms vanish except the $\cos(nx)$ term, yielding
 $a_n \pi = \int_{-\pi}^{\pi} f(x)\cos(nx)\, dx$. Similarly for $b_n$.
 
 ### 7.3 Convergence
 
-**Theorem 7.1 (Dirichlet"s Theorem).** If $f$ is $2\pi$-periodic and piecewise smooth, its Fourier
+**Theorem 7.1 (Dirichlet's Theorem).** If $f$ is $2\pi$-periodic and piecewise smooth, its Fourier
 Series converges to:
 
 - $f(x)$ at points where $f$ is continuous.
@@ -80,7 +80,7 @@ For functions defined on $[0, L]$:
 
 ### 7.6 Worked Example: Fourier Sine Series
 
-**Problem.** Find the Fourier series of $f(x) = x$ on $(-\pi, \pi)$Extended $2\pi$-periodically.
+**Problem.** Find the Fourier series of $f(x) = x$ on $(-\pi, \pi)$ Extended $2\pi$-periodically.
 
 _Solution._ $f$ is odd, so $a_n = 0$ for all $n$.
 
@@ -117,7 +117,7 @@ $= -\frac{4}{n\pi}\left[-\frac{\pi\cos(n\pi)}{n} + 0\right] = \frac{4\cos(n\pi)}
 
 $x^2 \sim \frac{\pi^2}{3} + 4\sum_{n=1}^{\infty} \frac{(-1)^n}{n^2}\cos(nx)$.
 
-Setting $x = 0$: $0 = \frac{\pi^2}{3} + 4\sum_{n=1}^{\infty} \frac{(-1)^n}{n^2}$Giving the famous
+Setting $x = 0$: $0 = \frac{\pi^2}{3} + 4\sum_{n=1}^{\infty} \frac{(-1)^n}{n^2}$ Giving the famous
 identity $\sum_{n=1}^{\infty} \frac{(-1)^{n+1}}{n^2} = \frac{\pi^2}{12}$. $\blacksquare$
 
 </details>
@@ -137,7 +137,7 @@ $c_{-n} = \overline{c_n}$ when $f$ is real-valued.
 
 ### 7.9 Worked Example: Parseval's Identity
 
-**Problem.** Using the Fourier series of $f(x) = x$ on $(-\pi, \pi)$Verify Parseval's identity And
+**Problem.** Using the Fourier series of $f(x) = x$ on $(-\pi, \pi)$ Verify Parseval's identity And
 deduce $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$.
 
 <details>

@@ -27,7 +27,7 @@ Dart runs on a **single-threaded event loop** with an isolated memory model. Unl
 Threads (Java, C++, Rust), Dart uses **event-driven concurrency**, the single thread processes
 Events from a queue, interleaving async operations without blocking.
 
-This design is fundamental to Flutter"s architecture: the UI must remain responsive (60 fps) while
+This design is fundamental to Flutter's architecture: the UI must remain responsive (60 fps) while
 Performing I/O (network requests, file reads, database queries). If any operation blocks the thread,
 The entire UI freezes.
 

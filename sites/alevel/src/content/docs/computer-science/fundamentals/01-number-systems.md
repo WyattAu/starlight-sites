@@ -25,7 +25,7 @@ categories:
 ### Definition
 
 A **positional number system** represents a number as a sequence of digits
-$d_{n-1}d_{n-2}\ldots d_1d_0$ in base $b$Where the value of the number is:
+$d_{n-1}d_{n-2}\ldots d_1d_0$ in base $b$ Where the value of the number is:
 
 $$
 N = \sum_{i=0}^{n-1} d_i \cdot b^i
@@ -49,7 +49,7 @@ We use subscript notation to denote the base: $1011_2 = 11_{10}$.
 
 #### Base $b$ to Denary
 
-**Algorithm.** Given digits $d_{n-1}\ldots d_0$ in base $b$Compute:
+**Algorithm.** Given digits $d_{n-1}\ldots d_0$ in base $b$ Compute:
 
 $$
 N = \sum_{i=0}^{n-1} d_i \cdot b^i
@@ -85,14 +85,14 @@ $N = d_0 + b \cdot N'$ So $d_0$ is indeed the coefficient of $b^0$.
 
 _Inductive step._ Assume after $k$ steps we have
 $N = d_0 + d_1 b + \cdots + d_{k-1}b^{k-1} + b^k \cdot N_k$ where $N_k = \lfloor N / b^k \rfloor$.
-The next step computes $d_k = N_k \bmod b$ and $N_{k+1} = \lfloor N_k / b \rfloor$Giving
+The next step computes $d_k = N_k \bmod b$ and $N_{k+1} = \lfloor N_k / b \rfloor$ Giving
 $N_k = d_k + b \cdot N_{k+1}$. Substituting:
 
 $$
 N = \sum_{i=0}^{k-1} d_i b^i + b^k(d_k + b \cdot N_{k+1}) = \sum_{i=0}^{k} d_i b^i + b^{k+1} N_{k+1}
 $$
 
-This maintains the invariant. When $N_k = 0$The representation is complete.
+This maintains the invariant. When $N_k = 0$ The representation is complete.
 
 <details>
 <summary>Example: Convert $156_{10}$ to binary</summary>
@@ -114,7 +114,7 @@ Reading bottom to top: $156_{10} = 10011100_2$
 
 #### Binary to Hexadecimal (and vice versa)
 
-Since $16 = 2^4$Each hex digit corresponds to exactly 4 binary digits. Group binary digits from
+Since $16 = 2^4$ Each hex digit corresponds to exactly 4 binary digits. Group binary digits from
 Right to left in groups of 4, then convert each group.
 
 <details>
@@ -143,7 +143,7 @@ Result: $001111110111_2 = 11111110111_2$
 
 #### Octal Conversions
 
-Since $8 = 2^3$Each octal digit maps to exactly 3 binary digits. Convert by grouping in 3s (or
+Since $8 = 2^3$ Each octal digit maps to exactly 3 binary digits. Convert by grouping in 3s (or
 Multiplying/dividing by 8).
 
 <hr />
@@ -222,7 +222,7 @@ Complement representation of $-x$ equals $\bar{x} + 1$ (where $\bar{x}$ is the b
 $n$-bit representation of $x$ And $+1$ is binary addition).
 
 **Proof.** The $n$-bit representation of $x$ has bits $x_{n-1}\ldots x_0$. The bitwise complement
-$\bar{x}$ has bits $\bar{x}_{n-1}\ldots\bar{x}_0$Where $\bar{x}_i = 1 - x_i$. The value of $\bar{x}$
+$\bar{x}$ has bits $\bar{x}_{n-1}\ldots\bar{x}_0$ Where $\bar{x}_i = 1 - x_i$. The value of $\bar{x}$
 as an unsigned $n$-bit number is:
 
 $$
@@ -245,7 +245,7 @@ $$
 x + (\bar{x} + 1) = x + 2^n - x = 2^n
 $$
 
-In $n$ bits, $2^n$ is represented as $00\ldots0$ with a carry out of bit position $n-1$Which is
+In $n$ bits, $2^n$ is represented as $00\ldots0$ with a carry out of bit position $n-1$ Which is
 Discarded. Hence the result is $0$. $\square$
 
 ### Two's Complement Addition and Overflow
@@ -297,7 +297,7 @@ $6 = 0110_2$, $5 = 0101_2$
        1 0 1 1
 ```
 
-Result: $1011_2 = -5$ in two's complement. But $6 + 5 = 11$Which is outside the range $[-8, 7]$ For
+Result: $1011_2 = -5$ in two's complement. But $6 + 5 = 11$ Which is outside the range $[-8, 7]$ For
 4 bits. Overflow detected: positive + positive yielded negative. ✓
 
 </details>
@@ -346,7 +346,7 @@ $011_2 = 0 \times 2^{-1} + 1 \times 2^{-2} + 1 \times 2^{-3} = 0.375_{10}$
 
 Value: $13.375_{10}$
 
-Range: $[0,\ 31.875]$Precision: $0.125$
+Range: $[0,\ 31.875]$ Precision: $0.125$
 
 </details>
 
@@ -378,7 +378,7 @@ The codes $1010$ through $1111$ are **invalid** in BCD.
 - BCD avoids rounding errors in decimal arithmetic, useful in financial systems
 
 :::caution
-Is $00010010_2$NOT $1100_2$.
+Is $00010010_2$ NOT $1100_2$.
 :::
 
 <hr />
@@ -570,7 +570,7 @@ Precision is $2^{-4}$. Range depends on whether signed or unsigned.
 <details>
 <summary>Answer</summary>
 
-Unsigned range: $[0,\ 255.9375]$Precision: $0.0625$ ($2^{-4}$).
+Unsigned range: $[0,\ 255.9375]$ Precision: $0.0625$ ($2^{-4}$).
 
 $01011010_2 = 64 + 16 + 8 + 2 = 90_{10}$
 
@@ -666,9 +666,9 @@ Let $y = \mathrm{TwosComp}_n(x) = 2^n - x$.
 
 $\mathrm{TwosComp}_n(y) = 2^n - y = 2^n - (2^n - x) = x$. ✓
 
-The exception is $x = -2^{n-1}$Whose two's complement is
-$2^n - (-2^{n-1}) = 2^n + 2^{n-1} = 2^{n-1} \cdot 3$Which exceeds $n$ bits. In $n$-bit arithmetic,
-$2^n - (-2^{n-1}) \bmod 2^n = 2^{n-1}$Which is the bit pattern $100\ldots0$, the same as
+The exception is $x = -2^{n-1}$ Whose two's complement is
+$2^n - (-2^{n-1}) = 2^n + 2^{n-1} = 2^{n-1} \cdot 3$ Which exceeds $n$ bits. In $n$-bit arithmetic,
+$2^n - (-2^{n-1}) \bmod 2^n = 2^{n-1}$ Which is the bit pattern $100\ldots0$, the same as
 $-2^{n-1}$. So $-2^{n-1}$ is its own two's complement.
 
 </details>

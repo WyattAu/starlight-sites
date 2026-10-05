@@ -2627,7 +2627,7 @@ URL: https://tools.wyattau.com/algorithms/07-graph-algorithms/advanced-graph-alg
 A strongly connected component (SCC) of a directed graph is a maximal set of vertices such that
 There is a path from every vertex to every other vertex within the set.
 
-### Kosaraju"s Algorithm
+### Kosaraju's Algorithm
 
 Kosaraju's algorithm finds all SCCs in $O(V + E)$ time using two DFS passes.
 
@@ -4474,13 +4474,13 @@ Mutated after insertion.
 ### 6. Prefix Sum Integer Overflow
 
 For large arrays, prefix sums can overflow 32-bit integers. A sum of $10^6$ elements each up to
-$10^9$ gives $10^{15}$Which exceeds 32-bit range. Use 64-bit integers (`int` in Python is always
+$10^9$ gives $10^{15}$ Which exceeds 32-bit range. Use 64-bit integers (`int` in Python is always
 Arbitrary precision, but in C/C++/Java, use `long long`/`long`).
 
 ### 7. Ignoring the Difference Between "At Most k" and "Exactly k"
 
 In sliding window problems, "at most k distinct elements" requires shrinking the window when the
-Count exceeds $k$While "exactly k distinct elements" requires maintaining two windows (one for at
+Count exceeds $k$ While "exactly k distinct elements" requires maintaining two windows (one for at
 Most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
 
 ```mermaid
@@ -4546,7 +4546,7 @@ URL: https://tools.wyattau.com/algorithms/04-trees-graphs/binary-search-trees/
 ## Binary Search Tree Fundamentals
 
 A binary search tree (BST) is a binary tree where every node satisfies the **BST property**: for any
-Node with key $k$All keys in its left subtree are strictly less than $k$ And all keys in its Right
+Node with key $k$ All keys in its left subtree are strictly less than $k$ And all keys in its Right
 subtree are strictly greater than $k$.
 
 ### Node Definition
@@ -4924,7 +4924,7 @@ class AVLTree:
 An AVL tree with $n$ nodes has height at most $1.44 \log_2(n+2) - 1.328$. Proof sketch: the minimum
 Number of nodes in an AVL tree of height $h$ is $N(h) = N(h-1) + N(h-2) + 1$ with $N(0) = 1$
 $N(1) = 2$. This is closely related to the Fibonacci sequence, giving $N(h) = F_{h+3} - 1$. Since
-$F_k \approx \phi^k / \sqrt{5}$We get $h \le c \log_\phi(n)$ for some constant $c$.
+$F_k \approx \phi^k / \sqrt{5}$ We get $h \le c \log_\phi(n)$ for some constant $c$.
 
 | Operation | Worst Case  | Rotations per Insert | Rotations per Delete |
 | --------- | ----------- | -------------------- | -------------------- |
@@ -4960,7 +4960,7 @@ Internal nodes has height at most $2 \log_2(n+1)$.
 **Proof sketch**: the shortest path from root to leaf has only black nodes (length = bh), and the
 Longest has alternating red-black (length = 2 \cdot bh). Since at least half the nodes on any
 Root-to-leaf path are black, the height $h \le 2 \cdot \mathrm{bh$. A tree with black-height $b$ has
-At least $2^b - 1$ internal nodes, so $n \ge 2^{h/2} - 1$Giving $h \le 2 \log_2(n+1)$.
+At least $2^b - 1$ internal nodes, so $n \ge 2^{h/2} - 1$ Giving $h \le 2 \log_2(n+1)$.
 
 ### Node Definition
 
@@ -5381,7 +5381,7 @@ Potential of node $x$ with rank $r(x) = \lfloor \log_2(\mathrm{size(x)) \rfloor$
 Of a splay is bounded by $1 + 3(r(\mathrm{root) - r(x)) = O(\log n)$.
 
 The **access lemma** states that the amortised cost of splaying node $x$ is at most
-$3(\log_2 n - \log_2(\mathrm{size(x))) + 1$Which means frequently accessed nodes move toward the
+$3(\log_2 n - \log_2(\mathrm{size(x))) + 1$ Which means frequently accessed nodes move toward the
 Root and become cheaper to access.
 
 ### Static Optimality Theorem
@@ -5735,14 +5735,14 @@ $$
 0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0
 $$
 
-Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$It means no matter how
+Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$ It means no matter how
 Clever your implementation, the algorithm will take at least $c \cdot n \log n$ steps for large $n$.
 
 ### Big-Theta: Tight Bound
 
 $\Theta(g(n))$ is the intersection: $f(n) \in \Theta(g(n))$ if and only if $f(n) \in O(g(n))$ and
 $f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exactly the same rate
-As $g(n)$Up to constant factors.
+As $g(n)$ Up to constant factors.
 
 $$
 0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0
@@ -5979,7 +5979,7 @@ Compute the total cost of $n$ operations and divide by $n$.
 **Dynamic array (e.g., Python `list`C++ `std::vector`):**
 
 - Append is $O(1)$ when there is capacity, $O(n)$ when resizing is needed
-- Resizing doubles the capacity: after growing from $k$ to $2k$The next $k$ appends are $O(1)$
+- Resizing doubles the capacity: after growing from $k$ to $2k$ The next $k$ appends are $O(1)$
 - Total cost for $n$ appends: $1 + 1 + \cdots + 1 + n + 1 + 1 + \cdots$ where the $n$ cost occurs at
   sizes $1, 2, 4, 8, \ldots$
 - Total: $n + 1 + 2 + 4 + \cdots + n = n + 2n - 1 = 3n - 1$
@@ -6017,7 +6017,7 @@ $$
 $$
 
 - After an $O(1)$ insert (no resize): $\Phi$ increases by 2, amortised cost = $1 + 2 = 3$
-- After a resize from $m$ to $2m$: $\Phi$ goes from $2m - m = m$ to $2m - 2m = 0$A drop of $m$
+- After a resize from $m$ to $2m$: $\Phi$ goes from $2m - m = m$ to $2m - 2m = 0$ A drop of $m$
 - Amortised cost = $m + 0 - m = 0$ (the actual cost of $m$ is fully paid by the potential drop)
 
 Total amortised cost: $O(1)$ per operation.
@@ -6149,11 +6149,11 @@ Is proven NP-complete by reducing from a known NP-complete problem.
 | ------------------- | ------------------------------- | ---------------------------------------- | ------------------------------------ |
 | SAT                 | Boolean formula                 | Is there a satisfying assignment?        | Basis for all NP-completeness proofs |
 | 3-SAT               | 3-CNF formula                   | Is there a satisfying assignment?        | Circuit design, scheduling           |
-| Vertex Cover        | Graph $G$Integer $k$            | Is there a vertex cover of size $\le k$? | Network monitoring                   |
+| Vertex Cover        | Graph $G$ Integer $k$            | Is there a vertex cover of size $\le k$? | Network monitoring                   |
 | Travelling Salesman | Graph with weights, integer $k$ | Is there a tour of length $\le k$?       | Logistics, routing                   |
 | Subset Sum          | Set of integers, target $t$     | Is there a subset summing to $t$?        | Knapsack variants                    |
-| Graph Colouring     | Graph $G$Integer $k$            | Can $G$ be coloured with $k$ colours?    | Register allocation, scheduling      |
-| Clique              | Graph $G$Integer $k$            | Does $G$ contain a clique of size $k$?   | Social network analysis              |
+| Graph Colouring     | Graph $G$ Integer $k$            | Can $G$ be coloured with $k$ colours?    | Register allocation, scheduling      |
+| Clique              | Graph $G$ Integer $k$            | Does $G$ contain a clique of size $k$?   | Social network analysis              |
 
 ### Dealing with NP-Hardness in Practice
 
@@ -6166,7 +6166,7 @@ When you encounter an NP-hard problem:
 3. **Heuristics**. Greedy algorithms, local search, simulated annealing, genetic algorithms. No
    guarantees, but often work well in practice
 4. **Fixed-parameter tractability**. If the problem is NP-hard but polynomial for fixed parameter
-   $k$Use FPT algorithms (e.g., vertex cover is $O(2^k \cdot n)$)
+   $k$ Use FPT algorithms (e.g., vertex cover is $O(2^k \cdot n)$)
 5. **SAT solvers**. For many combinatorial problems, encoding as SAT and using a modern solver
    (CDCL-based) is surprisingly effective
 
@@ -6182,7 +6182,7 @@ Asymptotic analysis ignores the memory hierarchy. In practice, cache effects dom
   number of cache misses per operation by a factor of $\log_2 B$ where $B$ is the block size
 
 A linked list traversal that is $O(n)$ in theory can be 10-100x slower than an array traversal that
-Is also $O(n)$Because the array has spatial locality.
+Is also $O(n)$ Because the array has spatial locality.
 
 ### Constant Factors
 
@@ -6216,7 +6216,7 @@ def branchless_max(a, b):
 ### 1. Confusing Big-O with Big-Theta
 
 Saying "this algorithm is $O(1)$" when you mean $\Theta(1)$ is imprecise. Technically, every
-Algorithm is $O(2^n)$ because $O$ is only an upper bound. If you claim $O(1)$You should be Prepared
+Algorithm is $O(2^n)$ because $O$ is only an upper bound. If you claim $O(1)$ You should be Prepared
 to justify it as a tight bound.
 
 ### 2. Ignoring the Input Distribution
@@ -6314,7 +6314,7 @@ E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
 $$
 
 Where $H_n = \sum_{i=1}^{n} 1/i$ is the $n$-th harmonic number. The constant $1.386$ is about 39%
-More comparisons than the information-theoretic minimum of $n \log_2 n$Which is remarkably close To
+More comparisons than the information-theoretic minimum of $n \log_2 n$ Which is remarkably close To
 optimal for a comparison sort.
 
 ### Smoothed Analysis
@@ -6364,7 +6364,7 @@ $N =
 
 Splay trees are self-adjusting BSTs with no explicit balance information. Every access is followed
 By a "splay" operation that moves the accessed node to the root using a sequence of rotations. The
-Amortised cost of each operation is $O(\log n)$Proven using the potential method.
+Amortised cost of each operation is $O(\log n)$ Proven using the potential method.
 
 The potential function for splay trees is:
 
@@ -7555,7 +7555,7 @@ Framework.
 
 ### 0/1 Knapsack
 
-Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $W$Maximise the Total
+Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $W$ Maximise the Total
 value of items selected. Each item can be taken at most once.
 
 $$
@@ -7581,7 +7581,7 @@ def knapsack_01(weights, values, capacity):
 ```
 
 :::note
-Iterate forward, `dp[c - w]` may already include item $i$Violating the 0/1 constraint. This is the
+Iterate forward, `dp[c - w]` may already include item $i$ Violating the 0/1 constraint. This is the
 Most common bug in knapsack implementations.
 
 ### Unbounded Knapsack
@@ -7690,7 +7690,7 @@ Partitions of an interval.
 
 ### Matrix Chain Multiplication
 
-Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions $p_{i-1} \times p_i$Find the
+Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions $p_{i-1} \times p_i$ Find the
 Parenthesisation that minimises the total number of scalar multiplications.
 
 $$
@@ -7759,7 +7759,7 @@ def burst_balloons(nums):
 
 ### Minimum Cost to Merge Stones
 
-Given $n$ piles of stones and an integer $k$Merge adjacent piles into one pile. Each merge of $k$
+Given $n$ piles of stones and an integer $k$ Merge adjacent piles into one pile. Each merge of $k$
 Piles costs the sum of those $k$ piles. Find the minimum total cost, or return -1 if impossible.
 
 ```python
@@ -8656,7 +8656,7 @@ def edit_distance(s1, s2):
 
 ### Knapsack Problem
 
-Given items with weights and values, and a knapsack with capacity $W$Maximise the total value
+Given items with weights and values, and a knapsack with capacity $W$ Maximise the total value
 Without exceeding the capacity.
 
 $$
@@ -8876,7 +8876,7 @@ def matrix_chain_order(dims):
 ### Burst Balloons
 
 Given `nums` where `nums[i]` is the value of the $i$-th balloon, burst all balloons to maximise
-Coins. When you burst balloon $i$You get `nums[left] * nums[i] * nums[right]` coins, where `left`
+Coins. When you burst balloon $i$ You get `nums[left] * nums[i] * nums[right]` coins, where `left`
 And `right` are the nearest unburst balloons.
 
 ```python
@@ -9155,11 +9155,11 @@ What parameters change in recursive calls, and those are your state variables.
 
 DP base cases are analogous to loop initialisation. Getting them wrong produces wrong answers for
 Small inputs that cascade into wrong answers for large inputs. Always test with the smallest
-Non-trivial input (e.g., $n = 1$Empty string, single element).
+Non-trivial input (e.g., $n = 1$ Empty string, single element).
 
 ### 3. Wrong Fill Order in Bottom-Up DP
 
-Bottom-up DP must fill the table in an order such that when computing $dp[state]$All states that
+Bottom-up DP must fill the table in an order such that when computing $dp[state]$ All states that
 $dp[state]$ depends on have already been computed. For interval DP, shorter intervals before longer.
 For 0/1 knapsack with space optimisation, iterate $w$ in reverse. Getting the fill order wrong
 Produces undefined behaviour (using uninitialised values).
@@ -9167,7 +9167,7 @@ Produces undefined behaviour (using uninitialised values).
 ### 4. Integer Overflow in DP
 
 DP values can grow exponentially (e.g., Fibonacci, counting paths in a grid). For $n = 100$
-$F_{100} \approx 3.5 \times 10^{20}$Which exceeds 64-bit range. Use arbitrary-precision integers
+$F_{100} \approx 3.5 \times 10^{20}$ Which exceeds 64-bit range. Use arbitrary-precision integers
 (Python's `int` is always arbitrary precision) or modular arithmetic when appropriate.
 
 ### 5. Confusing Subsequence with Subarray
@@ -9286,7 +9286,7 @@ def house_robber_tree(root):
 ### DP with Bitmask (Revisited)
 
 For problems where the state involves a subset of elements, bitmask DP provides a compact
-Representation. The state space is $O(2^n)$Limiting applicability to $n \le 20$.
+Representation. The state space is $O(2^n)$ Limiting applicability to $n \le 20$.
 
 **Assignment problem:** Assign $n$ workers to $n$ jobs with minimum total cost.
 
@@ -9582,7 +9582,7 @@ def floyd_warshall(n, edges):
 - The graph is dense ($E \approx V^2$), where $O(V^3)$ is competitive with $V$ runs of Dijkstra
 - You need to handle negative edges
 
-For sparse graphs with large $V$Run Dijkstra from each vertex: $O(V(V+E)\log V)$ which is
+For sparse graphs with large $V$ Run Dijkstra from each vertex: $O(V(V+E)\log V)$ which is
 $O(V^2 \log V)$ for sparse graphs, much better than $O(V^3)$.
 
 ### A\* Search
@@ -9640,7 +9640,7 @@ $h(v) \le \mathrm{actual distance from  v
 | Road networks        | Euclidean or precomputed lower bound | If well-chosen |
 
 A*with an admissible heuristic is optimal. If the heuristic is not admissible, A* may find a
-Suboptimal path but will be faster. If $h(v) = 0$ for all $v$A\* degrades to Dijkstra.
+Suboptimal path but will be faster. If $h(v) = 0$ for all $v$ A\* degrades to Dijkstra.
 
 ## Minimum Spanning Trees
 
@@ -9742,7 +9742,7 @@ def prim(n, graph):
 :::
 
 :::note
-At $O(E + V \log V)$. For sparse graphs ($E \approx V$), Kruskal's is simpler and equally fast.
+At $O(E + V \log V)$. For sparse graphs ($ E \approx V$), Kruskal's is simpler and equally fast.
 
 ## Strong Connectivity
 
@@ -10030,7 +10030,7 @@ Uses at most $\Delta + 1$ colors, and for most graphs, $\Delta$ colors.
 ## Travelling Salesman Problem (TSP)
 
 Given a complete graph with weighted edges, find the Hamiltonian cycle of minimum total weight. TSP
-Is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$Feasible for $n \le 20$).
+Is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$ Feasible for $n \le 20$).
 
 ### Approximation Algorithms
 
@@ -10128,7 +10128,7 @@ sufficiently large sentinel value or handle infinity explicitly.
 
 Without path compression, Kruskal's Union-Find operations degrade to $O(\log n)$ each, giving
 $O(E \log V + E \log V) = O(E \log V)$ total. With path compression and union by rank, it drops to
-$O(E \cdot \alpha(V))$Which is effectively $O(E)$. Always use both optimisations.
+$O(E \cdot \alpha(V))$ Which is effectively $O(E)$. Always use both optimisations.
 
 ### 4. A\* with Inadmissible Heuristic
 
@@ -10488,7 +10488,7 @@ Optimal solution with the greedy choice without making the solution worse.
 
 ### Example: Activity Selection
 
-Given $n$ activities with start times $s_i$ and finish times $f_i$Select the maximum number of
+Given $n$ activities with start times $s_i$ and finish times $f_i$ Select the maximum number of
 Non-overlapping activities.
 
 **Greedy**: always pick the activity with the earliest finish time.
@@ -10517,8 +10517,8 @@ def activity_selection(activities):
 
 Let $G = \{g_1, g_2, \ldots\}$ be the greedy solution and $O = \{o_1, o_2, \ldots\}$ be an optimal
 Solution, both sorted by finish time. $g_1$ has the earliest finish time of all activities. Since
-$o_1$ also finishes before $o_2, o_3, \ldots$We have $f(g_1) \le f(o_1)$. Replacing $o_1$ with $g_1$
-in $O$ gives a valid solution (since $g_1$ finishes no later than $o_1$It does not overlap With
+$o_1$ also finishes before $o_2, o_3, \ldots$ We have $f(g_1) \le f(o_1)$. Replacing $o_1$ with $g_1$
+in $O$ gives a valid solution (since $g_1$ finishes no later than $o_1$ It does not overlap With
 $o_2$). The new solution has the same size as $O$ and starts with $g_1$. By induction, $|G| = |O|$.
 
 :::tip
@@ -10602,7 +10602,7 @@ $$
 L = \sum_{i=1}^{n} f_i \cdot \mathrm{len(c_i)
 $$
 
-For a source with entropy $H = -\sum f_i \log_2 f_i$Huffman coding satisfies $H \le L \lt H + 1$
+For a source with entropy $H = -\sum f_i \log_2 f_i$ Huffman coding satisfies $H \le L \lt H + 1$
 (one bit per symbol worse than the theoretical minimum).
 
 ## Fractional Knapsack
@@ -10997,7 +10997,7 @@ def dp_coin_change(amount, coins):
 
 ## Set Cover (Greedy Approximation)
 
-Given a universe $U$ and a collection of subsets $S_1, S_2, \ldots, S_m$Find the minimum number of
+Given a universe $U$ and a collection of subsets $S_1, S_2, \ldots, S_m$ Find the minimum number of
 Subsets whose union is $U$. This is NP-hard, but a greedy algorithm gives a
 $(\ln n + 1)$-approximation.
 
@@ -11199,7 +11199,7 @@ When $|U|$ is much larger than the actual number of keys $n$.
 ### Hash Tables
 
 A hash table uses a hash function to map keys to indices in an array of size $m$ ( $m \approx n$).
-The space is $O(n)$ instead of $O(|U|)$At the cost of handling collisions (when Two keys hash to the
+The space is $O(n)$ instead of $O(|U|)$ At the cost of handling collisions (when Two keys hash to the
 same index).
 
 ```python
@@ -11303,7 +11303,7 @@ $$
 h(k, i) = (h'(k) + i) \bmod m
 $$
 
-The simplest open addressing scheme: on collision at index $h'(k)$Try $h'(k)+1$, $h'(k)+2$Etc.
+The simplest open addressing scheme: on collision at index $h'(k)$ Try $h'(k)+1$, $h'(k)+2$ Etc.
 
 ```python
 class LinearProbingHashTable:
@@ -11856,8 +11856,8 @@ class HyperLogLog:
 | Property             | Non-Cryptographic                 | Cryptographic                                            |
 | -------------------- | --------------------------------- | -------------------------------------------------------- |
 | Speed                | Very fast (GB/s)                  | Slower (hundreds of MB/s)                                |
-| Preimage resistance  | No                                | Yes, given $h(x)$Hard to find $x$                       |
-| Second preimage      | No                                | Yes, given $x$Hard to find $y \ne x$ with $h(y) = h(x)$ |
+| Preimage resistance  | No                                | Yes, given $h(x)$ Hard to find $x$                       |
+| Second preimage      | No                                | Yes, given $x$ Hard to find $y \ne x$ with $h(y) = h(x)$ |
 | Collision resistance | Weak                              | Yes, hard to find $x, y$ with $h(x) = h(y)$             |
 | Examples             | FNV, MurmurHash, xxHash, CityHash | SHA-256, SHA-3, BLAKE3                                   |
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
@@ -11922,9 +11922,9 @@ def resize(old_table, new_capacity):
 ```
 
 **Why geometric resizing gives amortised $O(1)$**: if the table grows by factor $c$ when it reaches
-Load factor $\alpha$The cost of resizing is $O(n)$ but it only happens every $O(n)$ insertions. Over
+Load factor $\alpha$ The cost of resizing is $O(n)$ but it only happens every $O(n)$ insertions. Over
 a sequence of $n$ insertions, the total resize cost is
-$O(n) + O(n/c) + O(n/c^2) + \ldots = O(cn)$Giving $O(c)$ amortised per insertion, a constant.
+$O(n) + O(n/c) + O(n/c^2) + \ldots = O(cn)$ Giving $O(c)$ amortised per insertion, a constant.
 
 ## Common Pitfalls
 
@@ -12106,7 +12106,7 @@ This subject assumes familiarity with:
 | ---------------------------- | ------------------------------------------------------------------------ | --------------------------------- |
 | Complexity Analysis          | Asymptotic notation, Master Theorem, amortised analysis, NP-completeness |,                                 |
 | Arrays and Strings           | Two pointers, sliding window, prefix sums, hashing, string matching      | Rabin-Karp, KMP                   |
-| Linked Lists, Stacks, Queues | Linear structures, monotonic structures, union-find                      | Floyd"s cycle detection           |
+| Linked Lists, Stacks, Queues | Linear structures, monotonic structures, union-find                      | Floyd's cycle detection           |
 | Trees and Graphs             | BSTs, balanced trees, heaps, tries, graph traversal, topological sort    | BFS, DFS                          |
 | Sorting                      | Comparison and non-comparison sorting, stability, adaptive behaviour     | Merge sort, quicksort, radix sort |
 | Dynamic Programming          | Memoisation, tabulation, state space reduction, common DP patterns       | Knapsack, LCS, edit distance      |
@@ -12326,7 +12326,7 @@ def reverse_recursive(head):
     return new_head
 ```
 
-### Cycle Detection (Floyd"s Tortoise and Hare)
+### Cycle Detection (Floyd's Tortoise and Hare)
 
 Floyd's algorithm uses two pointers moving at different speeds. If there is a cycle, the fast
 Pointer will eventually catch up to the slow pointer.
@@ -12369,7 +12369,7 @@ def find_cycle_start(head):
 **Why this works:** Let $\mu$ be the distance from head to cycle start, and $\lambda$ be the cycle
 Length. When slow and fast meet, slow has travelled $\mu + a\lambda$ steps and fast has travelled
 $\mu + a\lambda + b\lambda$ steps for some non-negative integers $a, b$. Since fast moves twice as
-Fast: $2(\mu + a\lambda) = \mu + a\lambda + b\lambda$Which gives $\mu = (b - a)\lambda$. So the
+Fast: $2(\mu + a\lambda) = \mu + a\lambda + b\lambda$ Which gives $\mu = (b - a)\lambda$. So the
 Distance from the meeting point to the cycle start (going around the cycle) is exactly $\mu$, the
 Same as the distance from head to cycle start.
 
@@ -12721,7 +12721,7 @@ Minimum (or maximum) priority element. The standard implementation uses a binary
 
 A binary heap is a complete binary tree where every node is less than or equal to its children
 (min-heap) or greater than or equal to its children (max-heap). Stored as an array where for node at
-Index $i$: parent is at $(i-1)/2$Left child is at $2i+1$Right child is at $2i+2$.
+Index $i$: parent is at $(i-1)/2$ Left child is at $2i+1$ Right child is at $2i+2$.
 
 ```python
 class MinHeap:
@@ -12931,7 +12931,7 @@ class UnionFind:
 
 ### Time Complexity
 
-The amortised time complexity of both `find` and `union` is $O(\alpha(n))$Where $\alpha$ is the
+The amortised time complexity of both `find` and `union` is $O(\alpha(n))$ Where $\alpha$ is the
 Inverse Ackermann function. For all practical values of $n$ (up to $2^{2^{2^{65536}}}$),
 $\alpha(n) \le 4$. This is effectively constant time.
 
@@ -13391,7 +13391,7 @@ def counting_sort(arr):
     return output
 ```
 
-**When to use:** Small integer ranges ($k = O(n)$). If $k \gg n$Counting sort uses more memory Than
+**When to use:** Small integer ranges ($k = O(n)$). If $k \gg n$ Counting sort uses more memory Than
 the input and may be slower than comparison sort.
 
 ### Radix Sort
@@ -13476,7 +13476,7 @@ def bucket_sort(arr, num_buckets=10):
 ```
 
 **When bucket sort works well:** When the input is uniformly distributed, each bucket has $O(n/k)$
-Elements and sorting each bucket takes $O((n/k)^2)$Giving total $O(n + k \cdot (n/k)^2) = O(n)$ When
+Elements and sorting each bucket takes $O((n/k)^2)$ Giving total $O(n + k \cdot (n/k)^2) = O(n)$ When
 $k = \Theta(n)$.
 
 **When it degrades:** When all elements fall into a single bucket, it degrades to the bucket's
@@ -13668,7 +13668,7 @@ Preserves the ordering for positive floats, and reversing it for negative floats
 ### 4. Counting Sort Memory Blowup
 
 Counting sort uses $O(k)$ space where $k$ is the range of values. If you have 1,000 integers ranging
-From 0 to $10^9$Counting sort allocates a $10^9$-element array. Always check that $k = O(n)$ Before
+From 0 to $10^9$ Counting sort allocates a $10^9$-element array. Always check that $k = O(n)$ Before
 using counting sort, or use radix sort instead.
 
 ### 5. Ignoring the Base Case in Recursive Sorts
@@ -13750,7 +13750,7 @@ Sample sort is a parallel generalisation of quicksort:
 | Java (objects)          | TimSort                     | Yes      | Since Java 7                       |
 | Java (primitives)       | Dual-pivot quicksort        | No       | Since Java 7                       |
 | C++ `std::sort`         | Introsort                   | No       | Quicksort + heapsort fallback      |
-| C++ `stable_sort`       | Merge sort                  | Yes      | $O(n \log n)$Uses extra memory     |
+| C++ `stable_sort`       | Merge sort                  | Yes      | $O(n \log n)$ Uses extra memory     |
 | Rust `sort`             | Modified merge sort         | No       | Also called "timsort"              |
 | Rust `sort_unstable`    | Pattern-defeating quicksort | No       | PDQSort                            |
 | Go `sort`               | Pattern-defeating quicksort | No       | Since Go 1.19                      |
@@ -15286,7 +15286,7 @@ The key ideas:
 1. **Implicit suffix tree**: during construction, suffixes may end in the middle of an edge
 2. **Suffix links**: each internal node has a link to the node representing its longest proper
    suffix
-3. **Rule 1 / Rule 2 extension**: when adding character $S[i]$Extend all suffixes. Rule 1 applies
+3. **Rule 1 / Rule 2 extension**: when adding character $S[i]$ Extend all suffixes. Rule 1 applies
    when the extension is trivial (character already exists on the current edge); Rule 2 applies when
    a new leaf must be created
 
@@ -15751,7 +15751,7 @@ Character.
 
 ### Good Suffix Rule
 
-When a mismatch occurs after a partial match of length $k$Shift the pattern so that the next
+When a mismatch occurs after a partial match of length $k$ Shift the pattern so that the next
 Occurrence of the suffix (or a prefix of it) aligns with the matched portion of the text.
 
 ```python
@@ -17640,7 +17640,7 @@ A good programming font is critical for long coding sessions:
 | -------------- | ------------ | --------- | -------------------------------------------- |
 | JetBrains Mono | Yes          | Yes       | Excellent readability, designed for code     |
 | Fira Code      | Yes          | Yes       | Popular, good for presentations              |
-| Cascadia Code  | Yes          | Yes       | Microsoft"s coding font, great for terminals |
+| Cascadia Code  | Yes          | Yes       | Microsoft's coding font, great for terminals |
 | Iosevka        | Customizable | Yes       | Highly customizable, many variants           |
 | Monaco         | No           | No        | Classic macOS font, no ligatures             |
 
@@ -17677,7 +17677,7 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
 
 - **Zsh** for power users who want maximum customization and compatibility. Pair with a minimal
   plugin set (zinit or znap) rather than oh-my-zsh for better performance.
-- **Fish** for developers who want a great out-of-the-box experience without configuration. Fish"s
+- **Fish** for developers who want a great out-of-the-box experience without configuration. Fish's
   built-in autosuggestions and syntax highlighting are excellent.
 - **Bash** for scripting and environments where POSIX compatibility is required. Keep Bash as
   `/bin/bash` for scripts regardless of your interactive shell choice.
@@ -20171,7 +20171,7 @@ You and the project. The most common licenses in systems software:
 
 1. **MIT/Apache/BSD code can be included in GPL projects.** The GPL project must honor the original
    license for those specific files, but the overall project remains GPL.
-2. **GPL code cannot be included in MIT/Apache projects.** This would violate the GPL"s copyleft
+2. **GPL code cannot be included in MIT/Apache projects.** This would violate the GPL's copyleft
    requirement because the MIT project does not require source distribution.
 3. **Apache 2.0 and GPL 3.0 are compatible** (Apache 2.0 has an explicit GPL 3.0 compatibility
    clause). Apache 2.0 and GPL 2.0 are not compatible due to patent clause differences.
@@ -20384,7 +20384,7 @@ You spend the entire day responding to Slack messages and pull request reviews.
 
 ### Deep Work
 
-Cal Newport"s concept of "Deep Work", cognitively demanding tasks performed in a state of
+Cal Newport's concept of "Deep Work", cognitively demanding tasks performed in a state of
 Distraction-free concentration, is the most valuable skill for a knowledge worker.
 
 **Rules for deep work:**
@@ -24947,7 +24947,7 @@ URL: https://tools.wyattau.com/git/03-branching-and-merging/01-branching/
 
 Branching is the mechanism that enables **parallel development**, multiple developers (or a single
 developer working on multiple features) can modify the codebase independently, then integrate their
-changes. Git"s branching model is one of its defining strengths: branches are cheap ($O(1)$
+changes. Git's branching model is one of its defining strengths: branches are cheap ($O(1)$
 creation), fast to switch, and designed to be created and deleted frequently.
 
 This contrasts sharply with older VCS where branching was an expensive operation that involved
@@ -28858,7 +28858,7 @@ WireGuard is recommended.
 ### Ingress and HTTPS Setup
 
 1. In the Gitea app configuration, enable Ingress and set the host name (e.g., `git.example.com`).
-2. Use TrueNAS built-in Certificates or Traefik with Let"s Encrypt for automatic TLS certificate
+2. Use TrueNAS built-in Certificates or Traefik with Let's Encrypt for automatic TLS certificate
    provisioning.
 3. Configure DNS to point the domain to the TrueNAS host IP.
 4. Verify HTTPS by navigating to `https://git.example.com` in a browser.
@@ -30756,7 +30756,7 @@ Git hooks are automation points that fire at specific moments in the Git workflo
 
 Git hooks are scripts that Git executes automatically before or after specific events in the
 Repository lifecycle, commits, pushes, rebases, checkouts, and so on. They live at the boundary
-Between your workflow and Git"s internal state machine, and they are the primary mechanism for
+Between your workflow and Git's internal state machine, and they are the primary mechanism for
 Enforcing local policy without requiring a central server.
 
 ### When Hooks Run
@@ -31364,7 +31364,7 @@ pre-commit:
       run: yamllint {staged_files}
 ```
 
-Lefthook"s advantages over Husky:
+Lefthook's advantages over Husky:
 
 - **Language-agnostic**: no npm dependency required for contributors
 - **Parallel execution**: hooks run concurrently when possible
@@ -31852,7 +31852,7 @@ Repository** with complete history. There is no intrinsic distinction between a 
 Git was created by Linus Torvalds in 2005 to manage the Linux kernel source tree after the
 Proprietary license for BitKeeper was revoked. The design constraints of the Linux kernel project
 (millions of lines of code, thousands of contributors, high concurrency of merges) fundamentally
-Shaped Git"s architecture.
+Shaped Git's architecture.
 
 :::note
 Here (e.g., `git switch``git restore`Sparse checkout) are unavailable in older versions.
@@ -31923,7 +31923,7 @@ Contributors on dial-up connections needed to work efficiently.
 | -------------------- | ---------------------------------- | ----------------------------- | ------------------------- | ------------------------- |
 | Architecture         | Distributed                        | Distributed                   | Centralized               | Centralized               |
 | Storage model        | Content-addressable snapshots      | Content-addressable snapshots | Delta-based               | Delta-based (server-side) |
-| Branching model      | Pointer-based ($O(1)$)             | Bookmark-based ($O(1)$)       | Directory copy ($O(n)$)   | Streams (server-side)     |
+| Branching model      | Pointer-based ($O(1)$)             | Bookmark-based ($ O(1)$)       | Directory copy ($ O(n)$)   | Streams (server-side)     |
 | Offline commits      | Full                               | Full                          | No                        | Limited (shelving)        |
 | Performance at scale | Excellent (Linux kernel, Chromium) | Good (Facebook used it)       | Degrades with large trees | Excellent with Helix Core |
 | Learning curve       | Steep                              | Moderate                      | Shallow                   | Steep                     |
@@ -37593,7 +37593,7 @@ overloaded in Git terminology, see [Git Objects](/git/02-fundamentals/02-git-obj
    graph of objects.
 
 Almost every Git command is a transformation between these three trees. Understanding this model
-makes Git"s behavior predictable, even for commands that appear confusing (like `git checkout`Which
+makes Git's behavior predictable, even for commands that appear confusing (like `git checkout`Which
 can mean different things depending on context).
 
 ```mermaid
@@ -39848,7 +39848,7 @@ Provide is the upstream source, not a modified version, because there are no mod
 ### GPLv3 (GNU General Public License v3)
 
 GPLv3 was published in June 2007 to address specific legal and technological developments since
-GPLv2 (1991). It is the Free Software Foundation"s flagship copyleft license and was drafted with
+GPLv2 (1991). It is the Free Software Foundation's flagship copyleft license and was drafted with
 Input from a large committee including representatives from corporate open-source contributors (IBM,
 Red Hat, Novell, Google, and others).
 
@@ -40863,7 +40863,7 @@ Given a set $A \subseteq S$ in a topological space:
 
 ### Lipschitz Continuity
 
-Given metric spaces $(X, d_X)$ and $(Y, d_Y)$A function $f: X \to Y$ is $K$-Lipschitz (with
+Given metric spaces $(X, d_X)$ and $(Y, d_Y)$ A function $f: X \to Y$ is $K$-Lipschitz (with
 $K \geq 0$) if: $$ d_Y(f(x_1), f(x_2)) \leq K \cdot d_X(x_1, x_2) \quad \forall x_1, x_2 \in X $$
 
 The **Lipschitz constant** (or Lipschitz semi-norm) is defined as:
@@ -40989,7 +40989,7 @@ unions, probabilities cannot be assign to limits of random variables.
 
 ### Sub-$\sigma$-algebra
 
-Given a measurable space $(\Omega, \mathcal{F})$A collection
+Given a measurable space $(\Omega, \mathcal{F})$ A collection
 $\mathcal{G}\subseteq \mathcal{F}$ is a
 sub-$\sigma$-algebra if $\mathcal{G}$ is itself a $\sigma$-algebra on
 $\Omega$.
@@ -41033,7 +41033,7 @@ _Note:_ This is the foundational definition before introducing Random Elements.
 
 ### Measure
 
-In a measurable space $(\Omega, \mathcal{F})$A measure is a function
+In a measurable space $(\Omega, \mathcal{F})$ A measure is a function
 $\mu : \mathcal{F} \rightarrow [0,\infty]$, satisfying:
 
 1. Null set: $\mu(\emptyset) = 0$
@@ -41429,7 +41429,7 @@ set of $\lambda$-measure zero, they define the same probability measure $P_X$.
 ### Absolutely Continuous Random Element
 
 A random element $X$ is **absolutely continuous** with respect to a reference measure $\lambda$ if
-its induced law $P_X$ is absolutely continuous with respect to $\lambda$I.e., $P_X \ll \lambda$.
+its induced law $P_X$ is absolutely continuous with respect to $\lambda$ I.e., $P_X \ll \lambda$.
 This means that for all measurable sets $B$ in the target space,
 $\lambda(B) = 0 \implies P_X(B) = 0$.
 
@@ -41675,7 +41675,7 @@ and Optimization).
 
 ### Jensen's Inequality
 
-Given a probability space $(\Omega, \mathcal{F}, P)$A real-valued random
+Given a probability space $(\Omega, \mathcal{F}, P)$ A real-valued random
 variable $X: \Omega \to \mathbb{R}$ and a convex function
 $\varphi: \mathbb{R} \to \mathbb{R}$:
 
@@ -41797,7 +41797,7 @@ space: $\varphi_X(t) = \mathbb{E}[e^{i t(X)}]$ where $t \in B^*$.
 
 ### Strongly Measurable
 
-Given a Banach space $\mathbb{V}$A function
+Given a Banach space $\mathbb{V}$ A function
 $X: \Omega \to \mathbb{V}$ is strongly measurable if it is the pointwise
 limit of a sequence of simple functions. Pettis Measurability Theorem states $X$ is strongly
 measurable iff $X$ is weakly measurable and has a separable range (This is essential for Polish
@@ -43172,7 +43172,7 @@ URL: https://tools.wyattau.com/probabilisticml/1_fundamentals/1_supervised_learn
 
 Supervised learning is the field of training models to act as a mapping between a set of inputs to a
 Set of output. To conduct supervised learning, a training set $N$ is given in the form of pairs
-$D = {x_n, y_n}^N_{n=1}$Where a input $x_n$ is paire with the correct output $y_n$.
+$D = {x_n, y_n}^N_{n=1}$ Where a input $x_n$ is paire with the correct output $y_n$.
 
 ## Classification
 

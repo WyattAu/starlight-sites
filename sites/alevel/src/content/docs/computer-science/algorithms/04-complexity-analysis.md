@@ -52,7 +52,7 @@ $$
 \iff \exists\, c_1, c_2 > 0,\ n_0 \in \mathbb{N} \mathrm{ s.t. } c_1 \cdot g(n) \leq f(n) \leq c_2 \cdot g(n)\ \forall\, n \geq n_0
 $$
 
-**Intuition:** $f$ grows at the same rate as $g$Up to constant factors.
+**Intuition:** $f$ grows at the same rate as $g$ Up to constant factors.
 
 #### Little-o (Strict Upper Bound)
 
@@ -121,7 +121,7 @@ Performance. **Edexcel** covers time and space complexity with Big-O notation.
 
 ### Definitions
 
-For an algorithm with input size $n$Let $D_n$ be the set of all possible inputs of size $n$ And Let
+For an algorithm with input size $n$ Let $D_n$ be the set of all possible inputs of size $n$ And Let
 $T(A, I)$ be the running time of algorithm $A$ on input $I$.
 
 - **Best case:** $T_{\mathrm{best}}(n) = \min_{I \in D_n} T(A, I)$
@@ -207,7 +207,7 @@ Cost (creating a "credit"); others are charged less (consuming credit). The cred
 Non-negative.
 
 **Example: Dynamic array.** Charge $\$3$ per insertion: $\$1$ for the actual insert, $\$2$ saved for
-Future resizing. When a resize of $k$ elements occurs, it costs $O(k)$Which is covered by the $2k$
+Future resizing. When a resize of $k$ elements occurs, it costs $O(k)$ Which is covered by the $2k$
 Credit accumulated from the $k$ insertions.
 
 #### Potential Method
@@ -228,7 +228,7 @@ Capacity/2, else 0.
 
 - **Insert without resize:** Actual cost = 1. $\Phi$ increases by 2. Amortised cost = $1 + 2 = 3$.
 - **Insert with resize from $k$ to $2k$:** Actual cost = $k$ (copy) + 1 (insert). Before: size =
-  $k$Capacity = $k$, $\Phi = 2(k - k/2) = k$. After: size = $k+1$Capacity = $2k$
+  $k$ Capacity = $k$, $\Phi = 2(k - k/2) = k$. After: size = $k+1$ Capacity = $2k$
   $\Phi = 2(k+1 - k) = 2$. Change: $2 - k$. Amortised = $(k + 1) + (2 - k) = 3$.
 
 Amortised cost per operation: $O(3) = O(1)$. $\square$
@@ -356,18 +356,18 @@ Than one with complexity $O(n^2 \log n)$. Is this correct? Explain.
 <summary>Answer</summary>
 
 No. Big-O is an **asymptotic** upper bound, it describes behaviour as $n \to \infty$. For small
-$n$The $O(n^3)$ algorithm might be faster due to smaller constant factors.
+$n$ The $O(n^3)$ algorithm might be faster due to smaller constant factors.
 
 Example: Algorithm A takes $1000n^2 \log n$ operations, Algorithm B takes $n^3$ operations. For
 $n = 10$: A ≈ $1000 \times 100 \times 3.3 = 330,000$; B = $1000$. B is much faster.
 
-The crossover point is where $n^3 = 1000n^2 \log n$I.e., $n = 1000\log n$Which is at
+The crossover point is where $n^3 = 1000n^2 \log n$ I.e., $n = 1000\log n$ Which is at
 $n \approx 13,000$. Below this, B is faster.
 
 </details>
 
-**Problem 7.** Perform amortized analysis of a stack that supports push ($O(1)$), pop ($O(1)$), and
-**multipop(k)** which pops $k$ elements ($O(k)$Or $O(\min(k, \mathrm{size}))$).
+**Problem 7.** Perform amortized analysis of a stack that supports push ($O(1)$), pop ($ O(1)$), and
+**multipop(k)** which pops $k$ elements ($O(k)$ Or $O(\min(k, \mathrm{size}))$).
 
 <details>
 <summary>Answer</summary>
@@ -405,7 +405,7 @@ def f(n):
 
 $T(n) = 2T(n-1) + O(1)$$T(1) = O(1)$.
 
-This is **not** in Master Theorem form (requires $T(n/b)$Not $T(n-1)$).
+This is **not** in Master Theorem form (requires $T(n/b)$ Not $T(n-1)$).
 
 Expanding:
 $T(n) = 2(2T(n-2) + 1) + 1 = 4T(n-2) + 3 = 8T(n-3) + 7 = \cdots = 2^{n-1}T(1) + (2^{n-1} - 1)$.
@@ -532,14 +532,14 @@ Of $n$ is Algorithm A faster than Algorithm B?
 <summary>Hint</summary>
 
 Algorithm A performs approximately $10n \log_2 n$ operations and Algorithm B performs approximately
-$n^2$ operations. Solve $10n \log_2 n < n^2$Which simplifies to $10 \log_2 n < n$.
+$n^2$ operations. Solve $10n \log_2 n < n^2$ Which simplifies to $10 \log_2 n < n$.
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
-We need $10n \log_2 n < n^2$Which simplifies to $10 \log_2 n < n$ (for $n > 0$).
+We need $10n \log_2 n < n^2$ Which simplifies to $10 \log_2 n < n$ (for $n > 0$).
 
 Testing values:
 
@@ -566,7 +566,7 @@ $O(n^3)$(c) $O(n)$ vs $O(\log n)$.
 <details>
 <summary>Hint</summary>
 
-Use the limit test: if $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$ Then $f(n) = o(g(n))$Meaning $f$
+Use the limit test: if $\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$ Then $f(n) = o(g(n))$ Meaning $f$
 grows strictly slower than $g$.
 
 </details>
@@ -724,7 +724,7 @@ $$
 T(n) = T(n/2) + O(1), \quad T(1) = O(1)
 $$
 
-Here $a = 1$$b = 2$$c = \log_2 1 = 0$. Since $f(n) = O(1) = O(n^0) = O(n^c)$This is Master Theorem
+Here $a = 1$$b = 2$$c = \log_2 1 = 0$. Since $f(n) = O(1) = O(n^0) = O(n^c)$ This is Master Theorem
 Case 2 with $k = 0$:
 
 $$
@@ -809,7 +809,7 @@ def algorithm_p(arr):
 
 **Algorithm Q** uses a modified merge sort that counts inversions during the merge step.
 
-(a) Determine the time complexity of each algorithm. (b) For $n = 10\,000$Estimate the number of
+(a) Determine the time complexity of each algorithm. (b) For $n = 10\,000$ Estimate the number of
 Operations for each algorithm. (c) Which algorithm is more efficient and by what factor? Explain
 Your reasoning.
 
@@ -857,7 +857,7 @@ $$
 
 Algorithm Q is approximately **376 times faster** than Algorithm P for $n = 10\,000$.
 
-**Reasoning:** The difference grows with $n$. For $n = 1\,000\,000$Algorithm P would perform
+**Reasoning:** The difference grows with $n$. For $n = 1\,000\,000$ Algorithm P would perform
 $\approx 5 \times 10^{11}$ operations while Algorithm Q performs $\approx 20\,000\,000$, a factor
 Of 25,000×. This demonstrates the critical importance of choosing algorithms with better asymptotic
 Complexity for large inputs.

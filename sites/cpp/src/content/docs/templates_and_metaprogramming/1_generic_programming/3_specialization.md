@@ -235,7 +235,7 @@ The partial ordering algorithm [N4950 S13.7.5.5/2] works by **synthetic substitu
 1. Given two partial specializations $A$ and $B$ that both match a given set of template arguments,
    the compiler attempts to determine which is "more specialized."
 
-2. To test whether $A$ is at least as specialized as $B$The compiler replaces each template
+2. To test whether $A$ is at least as specialized as $B$ The compiler replaces each template
    parameter of $A$ with a **unique synthetic type** and checks whether the resulting pattern
    matches $B$. If it does, $A$ is at least as specialized as $B$.
 
@@ -302,7 +302,7 @@ struct Ambig<T* const> {};     // matches: T = const int
 Type $U$: we get `const U*`. Does this match $B$ (`T* const`)? Yes, with $T = \mathrm{const
 U$. Now
 Replace `T` in $B$ with a unique type $V$: we get `V* const`. Does this match $A$ (`const T*`)? Yes,
-With $T = V \mathrm{ const$. Since $A$ matches $B$ **and** $B$ matches $A$Neither is strictly More
+With $T = V \mathrm{ const$. Since $A$ matches $B$ **and** $B$ matches $A$ Neither is strictly More
 specialized. The program is ill-formed.
 
 The fix is to provide a disambiguating specialization that is strictly more specialized than both:

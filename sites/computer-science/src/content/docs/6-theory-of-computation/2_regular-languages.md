@@ -72,7 +72,7 @@ $M$ accepts $w$ if there exists some path of transitions consuming $w$ that ends
 Design a DFA over $\Sigma = \{0, 1\}$ that accepts exactly those strings (interpreted as binary
 Numbers, most significant bit first) that are divisible by 3.
 
-We track the value of the number read so far, modulo 3. After reading prefix $x$Let $r = x \bmod 3$.
+We track the value of the number read so far, modulo 3. After reading prefix $x$ Let $r = x \bmod 3$.
 Reading a new bit $b$ appends $b$ to the right: the new value is $2r + b \bmod 3$.
 
 States: $q_0$ (remainder 0), $q_1$ (remainder 1), $q_2$ (remainder 2). Start state: $q_0$ (the empty
@@ -90,7 +90,7 @@ $$
 
 _Correctness._ By induction on input length. Base: $x = \varepsilon$,
 $\mathrm{val}(\varepsilon) = 0$ DFA is in $q_0$. Step: if after $x$ the DFA is in $q_r$ (where
-$r = \mathrm{val}(x) \bmod 3$), Then reading $b$ moves to $q_{(2r+b) \bmod 3}$Which equals
+$r = \mathrm{val}(x) \bmod 3$), Then reading $b$ moves to $q_{(2r+b) \bmod 3}$ Which equals
 $q_{\mathrm{val}(xb) \bmod 3}$. $\blacksquare$
 
 </details>
@@ -115,9 +115,9 @@ $q_0$ or move to $q_1$.
 
 ### 2.2 Equivalence of DFA and NFA
 
-**Theorem 2.1.** For every NFA $N$There exists a DFA $D$ such that $L(N) = L(D)$.
+**Theorem 2.1.** For every NFA $N$ There exists a DFA $D$ such that $L(N) = L(D)$.
 
-_Proof (subset construction)._ Given NFA $N = (Q, \Sigma, \delta, q_0, F)$Construct DFA
+_Proof (subset construction)._ Given NFA $N = (Q, \Sigma, \delta, q_0, F)$ Construct DFA
 $D = (Q", \Sigma, \delta', q_0', F')$ where:
 
 - $Q' = \mathcal{P}(Q)$ (each state of $D$ is a subset of states of $N$).
@@ -138,7 +138,7 @@ of Regular languages.
 
 Convert the NFA from the "strings ending in `01`" example to a DFA via the subset construction.
 
-NFA states: $\{q_0, q_1, q_2\}$, $\Sigma = \{0, 1\}$, $F = \{q_2\}$No $\varepsilon$-transitions.
+NFA states: $\{q_0, q_1, q_2\}$, $\Sigma = \{0, 1\}$, $F = \{q_2\}$ No $\varepsilon$-transitions.
 
 Start state: $\{q_0\}$.
 
@@ -216,7 +216,7 @@ State, connected by $\varepsilon$-transitions. The construction guarantees that 
 One accept state, no transitions into the start state, and no transitions out of the accept state.
 
 **Theorem 2.3a (Thompson's construction correctness).** For every regular expression $R$ over
-$\Sigma$Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
+$\Sigma$ Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
 States and transitions.
 
 _Proof._ By structural induction on $R$.
@@ -236,8 +236,8 @@ _Proof._ By structural induction on $R$.
   through exactly one sub-NFA, so $L(N_R) = L(R_1) \cup L(R_2) = L(R)$.
 - $R = R_1 \cdot R_2$: Thompson connects the accept state of $N_{R_1}$ to the start state of
   $N_{R_2}$ via $\varepsilon$-transitions. A string $w \in L(N_R)$ iff $w = w_1 w_2$ where
-  $w_1 \in L(N_{R_1})$ and $w_2 \in L(N_{R_2})$I.e., $w \in L(R_1) \cdot L(R_2) = L(R)$.
-- $R = R_1^*$: Thompson adds a new start $s$ and accept $f$With $\varepsilon$-transitions from $s$
+  $w_1 \in L(N_{R_1})$ and $w_2 \in L(N_{R_2})$ I.e., $w \in L(R_1) \cdot L(R_2) = L(R)$.
+- $R = R_1^*$: Thompson adds a new start $s$ and accept $f$ With $\varepsilon$-transitions from $s$
   to $f$ (allowing zero repetitions) and from $s$ to the start of $N_{R_1}$ And from the accept of
   $N_{R_1}$ back to $s$. Any accepting path corresponds to zero or more traversals of $N_{R_1}$ So
   $L(N_R) = L(R_1)^* = L(R)$.
@@ -262,9 +262,9 @@ _Proof of Theorem 2.4._
 **(1) $\Rightarrow$ (2):** Let $D = (Q, \Sigma, \delta, q_0, F)$ be a DFA for $L$. Define $x \sim y$
 iff $\delta^*(q_0, x) = \delta^*(q_0, y)$ (i.e., $D$ reaches the same state on $x$ and $y$). Then
 $\sim$ has at most $|Q|$ equivalence classes. We show $\sim = \equiv_L$. If $x \sim y$ Then for All
-$z$, $\delta^*(q_0, xz) = \delta^*(q_0, yz)$ So $xz \in L$ iff $yz \in L$Meaning $x \equiv_L y$.
-Conversely, if $x \not\equiv_L y$There exists $z$ with $xz \in L$ and $yz \notin L$ (or vice versa),
-so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$Hence $x \not\sim y$.
+$z$, $\delta^*(q_0, xz) = \delta^*(q_0, yz)$ So $xz \in L$ iff $yz \in L$ Meaning $x \equiv_L y$.
+Conversely, if $x \not\equiv_L y$ There exists $z$ with $xz \in L$ and $yz \notin L$ (or vice versa),
+so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$ Hence $x \not\sim y$.
 
 **(2) $\Rightarrow$ (3):** Trivial, since $L$ consists of all strings whose equivalence class is one
 That contains at least one string in $L$.
@@ -282,7 +282,7 @@ We show $L$ is not regular by exhibiting infinitely many pairwise distinguishabl
 
 Claim: the strings $0^0, 0^1, 0^2, 0^3, \ldots$ are pairwise distinguishable with respect to $L$.
 
-_Proof._ For $i \neq j$ with $i \lt j$Consider the suffix $z = 1^i$. Then:
+_Proof._ For $i \neq j$ with $i \lt j$ Consider the suffix $z = 1^i$. Then:
 
 - $0^i \cdot 1^i = 0^i 1^i \in L$.
 - $0^j \cdot 1^i = 0^j 1^i \notin L$ (since $j \gt i$).
@@ -357,7 +357,7 @@ regular, Contradiction. $\blacksquare$
 Let $L = \{w \in \{0,1\}^* : n_0(w) = n_1(w)\}$.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$ So $y = 0^k$ for some $k \geq 1$. Then $xy^0z = 0^{p-k}1^p$Which has $p - k$ zeros and
+$|xy| \leq p$ So $y = 0^k$ for some $k \geq 1$. Then $xy^0z = 0^{p-k}1^p$ Which has $p - k$ zeros and
 $p$ ones. Since $k \geq 1$ $p - k \neq p$ So $xy^0z \notin L$. Contradiction. $\blacksquare$
 
 </details>
@@ -402,7 +402,7 @@ _Proof._ Let $D_1 = (Q_1, \Sigma, \delta_1, q_1, F_1)$ and
 $D_2 = (Q_2, \Sigma, \delta_2, q_2, F_2)$. Construct
 $D = (Q_1 \times Q_2, \Sigma, \delta, (q_1, q_2), F_1 \times F_2)$ where
 $\delta((r_1, r_2), a) = (\delta_1(r_1, a), \delta_2(r_2, a))$. Then $D$ accepts $w$ iff both $D_1$
-and $D_2$ accept $w$I.e., $w \in L_1 \cap L_2$. $\blacksquare$
+and $D_2$ accept $w$ I.e., $w \in L_1 \cap L_2$. $\blacksquare$
 
 **Theorem 2.7.** If $L_1$ is regular and $L_2$ is not regular, then $L_1 \cap L_2$ may or may not be
 Regular. Closure properties do not apply when one operand is non-regular.

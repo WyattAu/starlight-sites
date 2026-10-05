@@ -69,7 +69,7 @@ $x = \frac{\pi}{6}, \frac{5\pi}{6}$.
 
 All four solutions: $x = \frac{\pi}{6}, \frac{\pi}{2}, \frac{5\pi}{6}, \frac{3\pi}{2}$.
 
-**(b)** By cancelling $\cos x$The student loses all solutions where $\cos x = 0$Namely
+**(b)** By cancelling $\cos x$ The student loses all solutions where $\cos x = 0$ Namely
 $x = \frac{\pi}{2}$ and $x = \frac{3\pi}{2}$. The student would find only two solutions instead of
 four. Dividing by a quantity that can be zero is only valid if that quantity is confirmed to be
 non-zero.
@@ -106,7 +106,7 @@ $$
 2\sin^2 x = 1 - \cos 2x \implies \sin^2 x = \frac{1 - \cos 2x}{2}
 $$
 
-**(b)** The correct expression is $\sin(2x) = 2\sin x \cos x$Not $2\sin^2 x$. The student confused
+**(b)** The correct expression is $\sin(2x) = 2\sin x \cos x$ Not $2\sin^2 x$. The student confused
 the double angle formula for sine with $\sin^2 x$. These are fundamentally different: $\sin(2x)$ is
 the sine of double the angle, while $\sin^2 x$ is the square of the sine.
 
@@ -153,7 +153,7 @@ $$
 R = \sqrt{3^2 + (-4)^2} = \sqrt{9 + 16} = \sqrt{25} = 5
 $$
 
-For $3\sin x - 4\cos x = R\sin(x - \alpha)$We need $\tan\alpha = \frac{4}{3}$ (note: the coefficient
+For $3\sin x - 4\cos x = R\sin(x - \alpha)$ We need $\tan\alpha = \frac{4}{3}$ (note: the coefficient
 of $\cos x$ is $-4$ And $\sin(x - \alpha) = \sin x\cos\alpha - \cos x\sin\alpha$ So $R\cos\alpha = 3$
 and $R\sin\alpha = 4$).
 
@@ -168,7 +168,7 @@ The range of $5\sin(x - \alpha)$ is $[-5, 5]$.
 For $\dfrac{1}{3\sin x - 4\cos x + 5}$: the denominator is
 $5\sin(x - \alpha) + 5 = 5(\sin(x - \alpha) + 1)$.
 
-Since $\sin(x - \alpha) + 1 \in [0, 2]$The denominator $\in [0, 10]$.
+Since $\sin(x - \alpha) + 1 \in [0, 2]$ The denominator $\in [0, 10]$.
 
 The maximum value of the reciprocal occurs when the denominator is at its minimum:
 
@@ -176,15 +176,15 @@ $$
 \text{Maximum} = \frac{1}{0}
 $$
 
-Wait, when $\sin(x - \alpha) = -1$The denominator is $0$Which is undefined. The range of the
+Wait, when $\sin(x - \alpha) = -1$ The denominator is $0$ Which is undefined. The range of the
 denominator is $(0, 10]$ So:
 
 $$
 \frac{1}{3\sin x - 4\cos x + 5} \in \left[\frac{1}{10}, \infty\right)
 $$
 
-The maximum does not exist (unbounded). The minimum is $\dfrac{1}{10}$Occurring when
-$\sin(x - \alpha) = 1$I.e., $x = \alpha + \frac{\pi}{2} + 2n\pi$.
+The maximum does not exist (unbounded). The minimum is $\dfrac{1}{10}$ Occurring when
+$\sin(x - \alpha) = 1$ I.e., $x = \alpha + \frac{\pi}{2} + 2n\pi$.
 
 ---
 
@@ -226,7 +226,7 @@ $$
 = \frac{1}{8}\int_0^{\pi/2}(1 - \cos 4x)\,dx = \frac{1}{8}\left[x - \frac{\sin 4x}{4}\right]_0^{\pi/2} = \frac{1}{8} \cdot \frac{\pi}{2} = \frac{\pi}{16}
 $$
 
-**(b)** With $u = \sin x$, $du = \cos x\,dx$When $x = 0$: $u = 0$When $x = \frac{\pi}{2}$: $u = 1$:
+**(b)** With $u = \sin x$, $du = \cos x\,dx$ When $x = 0$: $u = 0$ When $x = \frac{\pi}{2}$: $u = 1$:
 
 $$
 \int_0^{\pi/2} \sin^2 x\cos^2 x\,dx = \int_0^1 u^2(1 - u^2)\,du = \int_0^1 (u^2 - u^4)\,du
@@ -238,12 +238,12 @@ $$
 
 Note: this does NOT equal $\frac{\pi}{16}$. The student's substitution $du = \cos x\,dx$ loses the
 sign information when $\cos x$ changes sign. The substitution $u = \sin x$ is only valid on
-intervals where $\cos x \geq 0$Which $[0, \frac{\pi}{2}]$ satisfies. However, the student
-substituted $\cos^2 x = 1 - u^2$ but the differential gives $du = \cos x\,dx$Not
-$du = |\cos x|\,dx$. Since $\cos x \geq 0$ on $[0, \frac{\pi}{2}]$This substitution is actually
+intervals where $\cos x \geq 0$ Which $[0, \frac{\pi}{2}]$ satisfies. However, the student
+substituted $\cos^2 x = 1 - u^2$ but the differential gives $du = \cos x\,dx$ Not
+$du = |\cos x|\,dx$. Since $\cos x \geq 0$ on $[0, \frac{\pi}{2}]$ This substitution is actually
 valid, but the computation $\frac{2}{15} \neq \frac{\pi}{16}$ reveals an error: the identity
 $\sin^2 x \cos^2 x = u^2(1-u^2)$ is correct, but $\int_0^{\pi/2} \sin^2 x\cos^2 x\,dx$ via
-$u$-substitution should use $du = \cos x\,dx$Giving $\int_0^1 u^2\cos x\,dx$Not $\int_0^1 u^2\,du$.
+$u$-substitution should use $du = \cos x\,dx$ Giving $\int_0^1 u^2\cos x\,dx$ Not $\int_0^1 u^2\,du$.
 The student incorrectly replaced $\cos x\,dx$ with $du$ while also replacing $\cos^2 x$ with
 $1-u^2$. This is only correct if we use $du = \cos x\,dx$ But then we can't also replace the
 remaining $\cos x$ with $\sqrt{1-u^2}$ unless we are careful about signs.

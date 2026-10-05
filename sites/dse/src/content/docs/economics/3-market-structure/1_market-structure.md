@@ -1731,7 +1731,7 @@ If you get this wrong, revise: [Price Discrimination](#price-discrimination)
 
 ### Problem 10: Oligopoly -- Stackelberg Model
 
-Two firms, Leader (L) and Follower (F), compete in a market with demand $P = 100 - Q$Where
+Two firms, Leader (L) and Follower (F), compete in a market with demand $P = 100 - Q$ Where
 $Q = Q_L + Q_F$. Both firms have $MC = 10$.
 
 (a) Calculate the Stackelberg equilibrium (Leader moves first). (b) Compare with the Cournot
@@ -1840,12 +1840,12 @@ If you get this wrong, revise: [Regulation of Monopoly](/economics/3-market-stru
 
 ### Problem 12: Monopolistic Competition and Advertising
 
-A monopolistically competitive firm has demand $P = 100 - 2Q + \sqrt{A}$Where $A$ is advertising
+A monopolistically competitive firm has demand $P = 100 - 2Q + \sqrt{A}$ Where $A$ is advertising
 expenditure. Total cost is $TC = 200 + 10Q + Q^2 + A$.
 
 (a) Calculate the profit-maximising output, price, and advertising expenditure. (b) Calculate the
 profit and the advertising-to-sales ratio. (c) The Dorfman-Steiner condition states that optimal
-advertising satisfies $A/PQ = (P - MC)/P \times PED_A$Where $PED_A$ is the advertising elasticity.
+advertising satisfies $A/PQ = (P - MC)/P \times PED_A$ Where $PED_A$ is the advertising elasticity.
 Verify this condition. (d) Explain why monopolistically competitive firms tend to advertise more
 than perfectly competitive firms.
 
@@ -1932,7 +1932,7 @@ can Cheat or Comply. (d) Explain why cartels with more members are harder to sus
 
 (a) Compliant profit per firm $= (50 - 20) \times 100 = 3000$.
 
-(b) If A cheats: total $Q = 150 + 100 + 100 = 350$. $P = 80 - 70 = 10$. At $P = 10$All firms sell
+(b) If A cheats: total $Q = 150 + 100 + 100 = 350$. $P = 80 - 70 = 10$. At $P = 10$ All firms sell
 below MC (10 < 20), so this doesn't work. The cheater must produce enough to lower the price but
 still profit.
 

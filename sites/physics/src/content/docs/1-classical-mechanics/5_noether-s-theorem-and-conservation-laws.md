@@ -17,7 +17,7 @@ description: "For every continuous symmetry of the action, there is a Correspond
 }
 </script>
 
-### 5.1 Statement of Noether"s Theorem
+### 5.1 Statement of Noether's Theorem
 
 **Theorem 5.1 (Noether's Theorem).** For every continuous symmetry of the action, there is a
 Corresponding conserved quantity.
@@ -81,10 +81,10 @@ Therefore $Q = \sum_j p_j\, \delta q_j - F$ is constant. $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-Consider an infinitesimal translation $x \to x + \epsilon$I.e., $\delta x = 1$, $\delta y = 0$,
+Consider an infinitesimal translation $x \to x + \epsilon$ I.e., $\delta x = 1$, $\delta y = 0$,
 $\delta z = 0$.
 
-For a free particle, $L = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2 + \dot{z}^2)$Which is invariant
+For a free particle, $L = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2 + \dot{z}^2)$ Which is invariant
 ($\delta L = 0$ So $F = 0$).
 
 By Noether's theorem:
@@ -142,7 +142,7 @@ $$
 \delta L = \sum_j \left(\frac{\partial L}{\partial q_j}\dot{q}_j + \frac{\partial L}{\partial \dot{q}_j}\ddot{q}_j\right)\epsilon = \frac{dL}{dt}\epsilon = \frac{d}{dt}\left(\epsilon L\right)
 $$
 
-So $F = \epsilon L$Giving $F = L$ (per unit $\epsilon$).
+So $F = \epsilon L$ Giving $F = L$ (per unit $\epsilon$).
 
 By Noether's theorem:
 

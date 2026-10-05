@@ -86,7 +86,7 @@ $$
 s = \int_0^t (u + at')\,dt' = ut + \frac{1}{2}at^2
 $$
 
-From Equation 1, $v = u + at$ So $at = v - u$Giving:
+From Equation 1, $v = u + at$ So $at = v - u$ Giving:
 
 $$
 s = ut + \frac{1}{2}(v-u)t = \frac{1}{2}(u + v)t \quad \square
@@ -261,7 +261,7 @@ Combined with constant vertical acceleration.
 
 ### Maximum Height
 
-At maximum height, the vertical velocity is zero: $v_y = v_0\sin\theta - gt = 0$Giving
+At maximum height, the vertical velocity is zero: $v_y = v_0\sin\theta - gt = 0$ Giving
 $t_{\mathrm{peak}} = \frac{v_0\sin\theta}{g}$.
 
 $$
@@ -298,7 +298,7 @@ $$
 \boxed{R = \frac{v_0^2\sin 2\theta}{g}}
 $$
 
-**Maximum range** occurs when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$:
+**Maximum range** occurs when $\sin 2\theta = 1$ I.e., $\theta = 45^\circ$:
 
 $$
 R_{\max} = \frac{v_0^2}{g}
@@ -390,16 +390,16 @@ $t$.
 
 | Given      | Use                                                              |
 | ---------- | ---------------------------------------------------------------- |
-| $a = f(t)$ | $a = dv/dt$Integrate with respect to $t$                         |
+| $a = f(t)$ | $a = dv/dt$ Integrate with respect to $t$                         |
 | $a = f(v)$ | Rewrite as $dt/dv = 1/f(v)$ and integrate, or use $a = v\,dv/ds$ |
-| $a = f(s)$ | $a = v\,dv/ds$Integrate with respect to $s$                      |
+| $a = f(s)$ | $a = v\,dv/ds$ Integrate with respect to $s$                      |
 
 <Aside type="tip">
 Exam Technique Identify what the acceleration is given as a function of -- time, velocity, or
 
-Displacement -- to decide which calculus method to use. If $a$ is a function of $t$Integrate $dv/dt$
-directly. If $a$ is a function of $s$Use $a = v\,dv/ds$ and integrate with respect to $s$. If $a$ is
-a function of $v$Rewrite as $dt/dv = 1/f(v)$ and integrate to find $t(v)$ Then invert If possible.
+Displacement -- to decide which calculus method to use. If $a$ is a function of $t$ Integrate $dv/dt$
+directly. If $a$ is a function of $s$ Use $a = v\,dv/ds$ and integrate with respect to $s$. If $a$ is
+a function of $v$ Rewrite as $dt/dv = 1/f(v)$ and integrate to find $t(v)$ Then invert If possible.
 </Aside>
 
 ### Derivation of $v^2 = u^2 + 2as$ by Integration
@@ -431,13 +431,13 @@ A particle moves in a straight line with acceleration $a = 6t$ m s$^{-2}$Startin
 Origin.
 
 **(a)** Find $v$ as a function of $t$. $a = dv/dt = 6t$ So $dv = 6t\,dt$. Integrating:
-$v = \int_0^t 6t'\,dt' = 3t^2 + C$. Since $v(0) = 0$: $C = 0$Giving $v = 3t^2$ m s$^{-1}$.
+$v = \int_0^t 6t'\,dt' = 3t^2 + C$. Since $v(0) = 0$: $C = 0$ Giving $v = 3t^2$ m s$^{-1}$.
 
 **(b)** Find $s$ as a function of $t$. $v = ds/dt = 3t^2$ So $ds = 3t^2\,dt$. Integrating:
 $s = \int_0^t 3t'^2\,dt' = t^3$ m.
 
 **(c)** Find the acceleration as a function of $s$. From $v = 3t^2$ and $s = t^3$: $t = s^{1/3}$ So
-$v = 3s^{2/3}$. Then $a = v\,dv/ds = 3s^{2/3} \cdot 2s^{-1/3} = 6s^{1/3} = 6t$Confirming
+$v = 3s^{2/3}$. Then $a = v\,dv/ds = 3s^{2/3} \cdot 2s^{-1/3} = 6s^{1/3} = 6t$ Confirming
 Consistency.
 
 </details>
@@ -472,7 +472,7 @@ Direction: $\theta = \arctan(5/3) = 59.0^\circ$ north of east.
 
 ### Crossing a River
 
-A classic relative-velocity problem: to cross a river of width $d$ with current speed $v_c$A boat
+A classic relative-velocity problem: to cross a river of width $d$ with current speed $v_c$ A boat
 With speed $v_b$ (relative to water) can:
 
 - **Head directly across** (perpendicular to bank). The boat is carried downstream. Time to cross:
@@ -480,7 +480,7 @@ With speed $v_b$ (relative to water) can:
 - **Head upstream at an angle** to compensate for the current. If the boat heads at angle $\theta$
   upstream from the perpendicular, the component across the river is $v_b\cos\theta$ and the
   component against the current is $v_b\sin\theta$. For zero downstream drift:
-  $v_b\sin\theta = v_c$Giving $\theta = \arcsin(v_c/v_b)$. This is only possible if $v_b > v_c$.
+  $v_b\sin\theta = v_c$ Giving $\theta = \arcsin(v_c/v_b)$. This is only possible if $v_b > v_c$.
 </Aside>
 
 <Aside type="caution">
@@ -568,7 +568,7 @@ $t = \sqrt{\frac{80}{9.81}} = 2.86$ s.
 Derive the equation $s = ut + \frac{1}{2}at^2$ from the definition of velocity as a derivative, assuming constant acceleration.
 
 **Answer.** $v = \frac{ds}{dt}$ and $a = \frac{dv}{dt} = \mathrm{const}$. Integrating:
-$\int_0^t a\,dt' = \int_u^v dv'$Giving $v = u + at$. Then $ds/dt = u + at$. Integrating:
+$\int_0^t a\,dt' = \int_u^v dv'$ Giving $v = u + at$. Then $ds/dt = u + at$. Integrating:
 $\int_0^s ds' = \int_0^t (u + at')\,dt' = [ut' + \frac{1}{2}at'^2]_0^t = ut + \frac{1}{2}at^2$.
 $\square$
 
@@ -650,7 +650,7 @@ A golfer hits a ball from the ground with speed $40$ m s$^{-1}$. At what angle s
 **Answer.** $R = \frac{v_0^2\sin 2\theta}{g}$ So
 $\sin 2\theta = \frac{Rg}{v_0^2} = \frac{120 \times 9.81}{1600} = 0.736$.
 
-$2\theta = 47.4^\circ$ or $132.6^\circ$Giving $\theta = 23.7^\circ$ or $66.3^\circ$. Both angles
+$2\theta = 47.4^\circ$ or $132.6^\circ$ Giving $\theta = 23.7^\circ$ or $66.3^\circ$. Both angles
 Give the same range, complementary angles always do (since $\sin 2\theta = \sin(180° - 2\theta)$).
 
 <b>If you get this wrong, revise:</b> [Maximum Range](#maximum-range)
@@ -709,7 +709,7 @@ $u = 6 - 1.5(3.6) = 6 - 5.4 = 0.6$ m s$^{-1}$.
 <details>
 <summary>Problem 13</summary>
 
-A particle moves along a straight line with acceleration $a = 4 - 2t$ m s$^{-2}$. At $t = 0$The
+A particle moves along a straight line with acceleration $a = 4 - 2t$ m s$^{-2}$. At $t = 0$ The
 Particle is at rest at the origin. Find: (a) the velocity as a function of $t$(b) the displacement
 As a function of $t$(c) the time at which the particle is momentarily at rest again, (d) the
 Displacement at that time.
@@ -736,7 +736,7 @@ The starting point?
 
 **Answer.** (a) Time = $80/5.0 = 16$ s. Downstream displacement = $2.5 \times 16 = 40$ m.
 
-(b) For zero downstream drift: $\sin\theta = 2.5/5.0 = 0.5$Giving $\theta = 30^\circ$ upstream From
+(b) For zero downstream drift: $\sin\theta = 2.5/5.0 = 0.5$ Giving $\theta = 30^\circ$ upstream From
 the perpendicular.
 
 <b>If you get this wrong, revise:</b> [Crossing a River](#crossing-a-river)
@@ -763,7 +763,7 @@ $\ln v = -0.5t + C$. At $t = 0$$v = 10$: $\ln 10 = C$. So $v = 10e^{-0.5t}$ m s$
 <summary>Problem 16</summary>
 
 A particle moves with acceleration $a = 3s$ m s$^{-2}$Where $s$ is the displacement from the Origin.
-At $s = 0$The velocity is $4.0$ m s$^{-1}$. Find the velocity when $s = 2.0$ m.
+At $s = 0$ The velocity is $4.0$ m s$^{-1}$. Find the velocity when $s = 2.0$ m.
 
 **Answer.** We are given $a = f(s)$ So use $a = v\,dv/ds$:
 

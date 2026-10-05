@@ -55,7 +55,7 @@ $$
 $$
 
 The triplet state keeps electrons apart (effective repulsion), while the singlet allows them to be
-close. This is the origin of the **Hund"s first rule**: parallel spins are energetically favourable
+close. This is the origin of the **Hund's first rule**: parallel spins are energetically favourable
 for atoms because the exchange interaction lowers the Coulomb repulsion.
 
 ### 9.3 The Helium Atom
@@ -79,7 +79,7 @@ The unperturbed ground state energy is $E^{(0)} = 2 \times (-54.4\ \text{eV}) = 
 electrons in $Z = 2$ Coulomb potential). Including perturbation: $E \approx -108.8 + 34.0 = -74.8$
 eV. The experimental value is $-79.0$ eV.
 
-**Excited states:** When one electron is excited to $1s\,nl$The spin configuration matters:
+**Excited states:** When one electron is excited to $1s\,nl$ The spin configuration matters:
 
 - **Parahelium** (singlet, $S = 0$): symmetric spatial, antisymmetric spin. Lower energy for given
   configuration.
@@ -95,7 +95,7 @@ $$
 K = \iint \psi_a^*(1)\psi_b^*(2)\frac{e^2}{4\pi\varepsilon_0 r_{12}}\psi_b(1)\psi_a(2)\, d^3r_1 d^3r_2
 $$
 
-The energy splitting between singlet and triplet is $2K$With the triplet lower by $2K$.
+The energy splitting between singlet and triplet is $2K$ With the triplet lower by $2K$.
 
 <details>
 <summary>Worked Example 9.1: Helium $1s2s$ States</summary>
@@ -158,7 +158,7 @@ $$
 
 - **Forgetting normalisation:** The symmetrisation prefactor $1/\sqrt{2}$ in two-particle states is essential. Without it, the states are not normalised and probability conservation fails.
 - **Confusing exchange with interaction:** The exchange splitting $2K$ arises from symmetry requirements, not from an explicit interaction potential between particles.
-- **Assuming all particles are fermions or bosons:** Composite particles can be either. For example, $^4$He atoms (2 protons, 2 neutrons, 2 electrons) are bosons, while $^3$He atoms are fermions.
+- **Assuming all particles are fermions or bosons:** Composite particles can be either. For example, $^4$ He atoms (2 protons, 2 neutrons, 2 electrons) are bosons, while $^3$ He atoms are fermions.
 - **Neglecting spin in antisymmetrisation:** The full two-particle wavefunction (spatial $\times$ spin) must be antisymmetric for fermions. Using only the spatial part leads to incorrect results.
 
 ### 9.7 Applications

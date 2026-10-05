@@ -122,7 +122,7 @@ $$
 
 ### 1.5 Median, mode, and quartiles
 
-**Definition.** The **median** $m$ satisfies $F(m) = 0.5$I.e., $\int_{-\infty}^{m}f(x)\,dx = 0.5$.
+**Definition.** The **median** $m$ satisfies $F(m) = 0.5$ I.e., $\int_{-\infty}^{m}f(x)\,dx = 0.5$.
 
 **Definition.** The **mode** is the value of $x$ at which $f(x)$ is maximised.
 
@@ -138,7 +138,7 @@ $Q_3$ satisfies $F(Q_3) = 0.75$.
 ### 2.1 Definition
 
 **Definition.** A continuous random variable $X$ follows an **exponential distribution** with rate
-Parameter $\lambda$ (where $\lambda > 0$), written $X \sim \mathrm{Exp}(\lambda)$If
+Parameter $\lambda$ (where $\lambda > 0$), written $X \sim \mathrm{Exp}(\lambda)$ If
 
 $$
 \boxed{f(x) = \lambda e^{-\lambda x}, \quad x \geq 0}
@@ -246,7 +246,7 @@ A **Poisson process** with rate $\lambda$ satisfies:
 Event.
 $P(T > t) = P(\mathrm{no events in }[0,t]) = P(N(t) = 0) = \dfrac{e^{-\lambda t}(\lambda t)^0}{0!} = e^{-\lambda t}$.
 
-So $P(T \leq t) = 1 - e^{-\lambda t}$Which is the CDF of $\mathrm{Exp}(\lambda)$. $\blacksquare$
+So $P(T \leq t) = 1 - e^{-\lambda t}$ Which is the CDF of $\mathrm{Exp}(\lambda)$. $\blacksquare$
 
 ### 2.7 Percentiles
 
@@ -443,7 +443,7 @@ $F(Q_3) = 0.75 \implies \dfrac{Q_3^3}{27} = 0.75 \implies Q_3^3 = 20.25 \implies
 
 <details>
 <summary>Problem 8</summary>
-Prove that $E(X) = 1/\lambda$ for $X \sim \mathrm{Exp}(\lambda)$Using integration by parts.
+Prove that $E(X) = 1/\lambda$ for $X \sim \mathrm{Exp}(\lambda)$ Using integration by parts.
 </details>
 
 <details>
@@ -542,7 +542,7 @@ $$
 G(s + t) = G(s)G(t)
 $$
 
-This is Cauchy's functional equation. Since $G$ is non-increasing and $0 \leq G \leq 1$The only
+This is Cauchy's functional equation. Since $G$ is non-increasing and $0 \leq G \leq 1$ The only
 Solutions are:
 
 $$
@@ -574,7 +574,7 @@ The memoryless property means:
 
 ### 6.1 Derivation
 
-**Theorem.** In a Poisson process with rate $\lambda$The time between consecutive events follows
+**Theorem.** In a Poisson process with rate $\lambda$ The time between consecutive events follows
 $\mathrm{Exp}(\lambda)$.
 
 ### Proof
@@ -591,7 +591,7 @@ $$
 P(N(t) = 0) = \frac{e^{-\lambda t}(\lambda t)^0}{0!} = e^{-\lambda t}
 $$
 
-Therefore $P(T \leq t) = 1 - e^{-\lambda t}$Which is the CDF of $\mathrm{Exp}(\lambda)$.
+Therefore $P(T \leq t) = 1 - e^{-\lambda t}$ Which is the CDF of $\mathrm{Exp}(\lambda)$.
 $\blacksquare$
 
 ### 6.2 Sum of inter-arrival times
@@ -734,7 +734,7 @@ Formalism).
 ### Exponential rate vs mean
 
 $X \sim \mathrm{Exp}(\lambda)$ has mean $1/\lambda$. A common error is to confuse $\lambda$ (the
-Rate) with the mean. If the mean lifetime is 200 hours, then $\lambda = 1/200 = 0.005$Not
+Rate) with the mean. If the mean lifetime is 200 hours, then $\lambda = 1/200 = 0.005$ Not
 $\lambda = 200$.
 
 Check: a larger $\lambda$ means shorter lifetimes on average (events happen more frequently).
@@ -743,7 +743,7 @@ Check: a larger $\lambda$ means shorter lifetimes on average (events happen more
 
 If events occur at rate $\lambda = 5$ per hour, then the inter-arrival time is $\mathrm{Exp}(5)$
 Measured in **hours**. If you want the probability of waiting more than 20 minutes, convert to
-Hours: $t = 1/3$ hours. Using $t = 20$ directly would give $P(T > 20) = e^{-100}$Which is
+Hours: $t = 1/3$ hours. Using $t = 20$ directly would give $P(T > 20) = e^{-100}$ Which is
 Essentially zero and wrong.
 
 <hr />
@@ -800,7 +800,7 @@ $= 1 - P(N \leq 2) = 1 - e^{-2}(1 + 2 + 2) = 1 - 5e^{-2} \approx 1 - 0.6767 = 0.
 </details>
 
 <details>
-<summary>Q4. $X \sim U(0, a)$. Given that $E(X) = 3$ and $\mathrm{Var}(X) = 3$Find $a$ and the 90th percentile.</summary>
+<summary>Q4. $X \sim U(0, a)$. Given that $E(X) = 3$ and $\mathrm{Var}(X) = 3$ Find $a$ and the 90th percentile.</summary>
 
 $E(X) = a/2 = 3 \implies a = 6$.
 
@@ -829,7 +829,7 @@ Of the individual rates.
 </details>
 
 <details>
-<summary>Q6. A random variable $X$ has PDF $f(x) = \dfrac{2x}{9}$ for $0 \leq x \leq 3$. Find the CDF, $E(X)$, $\mathrm{Var}(X)$The median, and $P(1 \lt X \lt 2)$.</summary>
+<summary>Q6. A random variable $X$ has PDF $f(x) = \dfrac{2x}{9}$ for $0 \leq x \leq 3$. Find the CDF, $E(X)$, $\mathrm{Var}(X)$ The median, and $P(1 \lt X \lt 2)$.</summary>
 
 CDF: $F(x) = \int_0^x \dfrac{2t}{9}\,dt = \dfrac{x^2}{9}$ for $0 \leq x \leq 3$. $F(x) = 0$ for
 $x \lt 0$, $F(x) = 1$ for $x > 3$.
@@ -882,7 +882,7 @@ $P(T > 100) = e^{-0.005 \times 100} = e^{-0.5} = \boxed{0.607}$ (3 s.f.).
 **Solution.**
 $P(X > 6 \mid X > 3) = \dfrac{P(X > 6)}{P(X > 3)} = \dfrac{0.4}{0.7} = \dfrac{4}{7} \approx \boxed{0.571}$.
 
-Alternatively: conditional on $X > 3$The distribution is $\mathrm{U}(3, 10)$ So
+Alternatively: conditional on $X > 3$ The distribution is $\mathrm{U}(3, 10)$ So
 $P(X > 6 \mid X > 3) = \dfrac{10-6}{10-3} = \dfrac{4}{7}$.
 
 ### Example 8.3: Sum of independent exponential random variables
@@ -909,7 +909,7 @@ For example, if $\lambda_1 = \lambda_2$: $P(X < Y) = \dfrac{1}{2}$ (by symmetry)
 ### Example 8.4: Finding a CDF from a PDF with a parameter
 
 **Problem.** A continuous random variable $X$ has PDF $f(x) = kx(4-x)$ for $0 \leq x \leq 4$. Find
-$k$The CDF, and $P(1 < X < 3)$.
+$k$ The CDF, and $P(1 < X < 3)$.
 
 **Solution.**
 $\displaystyle\int_0^4 kx(4-x)\,dx = k\!\left[2x^2 - \frac{x^3}{3}\right]_0^4 = k\!\left(32 - \frac{64}{3}\right) = \frac{32k}{3} = 1 \implies k = \frac{3}{32}$.
@@ -963,7 +963,7 @@ $E(X) = \displaystyle\int_0^1 2x^2\,dx + \int_1^2 2x(2-x)\,dx = \dfrac{2}{3} + \
 Wait, let me recalculate:
 $\displaystyle\int_1^2 2x(2-x)\,dx = \int_1^2 (4x - 2x^2)\,dx = \left[2x^2 - \dfrac{2x^3}{3}\right]_1^2 = (8-\dfrac{16}{3}) - (2-\dfrac{2}{3}) = \dfrac{8}{3} - \dfrac{4}{3} = \dfrac{4}{3}$.
 
-$E(X) = \dfrac{2}{3} + \dfrac{4}{3} = \boxed{2}$. This is the midpoint of $[0,2]$As expected for a
+$E(X) = \dfrac{2}{3} + \dfrac{4}{3} = \boxed{2}$. This is the midpoint of $[0,2]$ As expected for a
 Symmetric triangular distribution.
 
 $E(X^2) = \displaystyle\int_0^1 2x^3\,dx + \int_1^2 (4x^2 - 2x^3)\,dx = \dfrac{1}{2} + \left[\dfrac{4x^3}{3} - \dfrac{x^4}{2}\right]_1^2 = \dfrac{1}{2} + \dfrac{32}{3} - 8 - \dfrac{4}{3} + \dfrac{1}{2} = \dfrac{8}{3}$.
@@ -1064,7 +1064,7 @@ Numerical methods: $m \approx 0.908$.
 
 ### Question 10
 
-**Prove that** for $X \sim \mathrm{Exp}(\lambda)$The memoryless property holds:
+**Prove that** for $X \sim \mathrm{Exp}(\lambda)$ The memoryless property holds:
 $P(X > s+t \mid X > s) = P(X > t)$.
 
 <details>
@@ -1217,7 +1217,7 @@ $P(a < X \leq b) = F(b) - F(a)$ where $F(x) = \displaystyle\int_{-\infty}^x f(t)
 
 ### 14.3 Order statistics
 
-For i.i.d. Random variables $X_1, \ldots, X_n$The order statistics are
+For i.i.d. Random variables $X_1, \ldots, X_n$ The order statistics are
 $X_{(1)} \leq X_{(2)} \leq \cdots \leq X_{(n)}$.
 
 For $X \sim \mathrm{U}(0,1)$: $X_{(k)} \sim \mathrm{Beta}(k, n-k+1)$.

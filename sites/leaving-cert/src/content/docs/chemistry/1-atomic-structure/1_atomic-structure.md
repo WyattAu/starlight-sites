@@ -42,7 +42,7 @@ Notation: $^A_Z X$
 
 ### Isotopes (OL/HL)
 
-Atoms of the same element with different numbers of neutrons (same $Z$Different $A$).
+Atoms of the same element with different numbers of neutrons (same $Z$ Different $A$).
 
 **Example (OL):** Carbon has two common isotopes: $^{12}_6\mathrm{C$ (98.9%) and $^{13}_6\mathrm{C$
 (1.1%).
@@ -60,7 +60,7 @@ A_r = \frac{75 \times 35 + 25 \times 37}{100} = \frac{2625 + 925}{100} = 35.5
 $$
 
 **Worked Example 1 (HL):** The relative atomic mass of boron is 10.81. If boron has two isotopes,
-$^{10}\mathrm{B$ and $^{11}\mathrm{B$Calculate their percentage abundances.
+$^{10}\mathrm{B$ and $^{11}\mathrm{B$ Calculate their percentage abundances.
 
 Let $x$ = percentage of $^{10}\mathrm{B$ and $(100 - x)$ = percentage of $^{11}\mathrm{B$.
 
@@ -144,7 +144,7 @@ This is because a half-filled $d$ subshell ($3d^5$) is more stable than a partia
 ($3d^4$). Similarly, copper ($Z = 29$) is $[\mathrm{Ar]\,4s^1 3d^{10}$ rather than
 $[\mathrm{Ar]\,4s^2 3d^9$.
 
-### Hund"s Rule (HL)
+### Hund's Rule (HL)
 
 When filling degenerate orbitals (same energy), electrons occupy separate orbitals with parallel
 Spins before pairing.
@@ -197,7 +197,7 @@ $$
 
 **Derivation of the energy levels of hydrogen:**
 
-The energy of an electron in the $n$Th level of hydrogen is:
+The energy of an electron in the $n$ Th level of hydrogen is:
 
 $$
 E_n = -\frac{13.6}{n^2} \mathrm{ eV
@@ -397,12 +397,12 @@ This element is chromium.
 3. A photon of wavelength $97.2\mathrm{ nm$ is emitted from a hydrogen atom. Identify the transition
    involved.
 4. The relative atomic mass of boron is 10.81. If boron has two isotopes, $^{10}\mathrm{B$ and
-   $^{11}\mathrm{B$Calculate their percentage abundances.
+   $^{11}\mathrm{B$ Calculate their percentage abundances.
 
 ### Extended Questions
 
 1. Explain why the first ionisation energy of neon is much higher than that of sodium.
-2. Write the electron configuration of $\mathrm{Fe^{2+}$ and $\mathrm{Fe^{3+}$Explaining why
+2. Write the electron configuration of $\mathrm{Fe^{2+}$ and $\mathrm{Fe^{3+}$ Explaining why
    $\mathrm{Fe^{3+}$ is more stable.
 3. Calculate the energy of a photon with wavelength $121.6\mathrm{ nm$ and identify the hydrogen
    transition that produces it.
@@ -555,7 +555,7 @@ When transition metals form ions, the $4s$ electrons are removed before the $3d$
 
 $\mathrm{Fe^{2+}$: $[\mathrm{Ar]\,3d^6$ (two $4s$ electrons removed)
 
-$\mathrm{Fe^{3+}$: $[\mathrm{Ar]\,3d^5$ (three electrons removed: two from $4s$One from $3d$)
+$\mathrm{Fe^{3+}$: $[\mathrm{Ar]\,3d^5$ (three electrons removed: two from $4s$ One from $3d$)
 
 Note: $\mathrm{Fe^{3+}$ has a half-filled $3d$ subshell, making it particularly stable.
 

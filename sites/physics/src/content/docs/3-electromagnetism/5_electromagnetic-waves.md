@@ -62,7 +62,7 @@ $\nabla^2 \mathbf{E} = \frac{\partial^2 E_x}{\partial z^2}\hat{\mathbf{x}} = -k^
 
 $\frac{\partial^2 \mathbf{E}}{\partial t^2} = -\omega^2 E_0 \cos(kz - \omega t)\,\hat{\mathbf{x}}$.
 
-The wave equation requires $k^2 = \mu_0 \varepsilon_0 \omega^2$I.e., $\omega/k = c$.
+The wave equation requires $k^2 = \mu_0 \varepsilon_0 \omega^2$ I.e., $\omega/k = c$.
 
 From Faraday's law: $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$.
 
@@ -139,7 +139,7 @@ $$
 P_{\mathrm{ref} = \frac{2\langle S \rangle}{c} = \varepsilon_0 E_0^2}
 $$
 
-A 1 kW/m$^2$ beam (like sunlight near Earth) exerts a pressure of about $3.3\ \mu$Pa on a Perfect
+A 1 kW/m$^2$ beam (like sunlight near Earth) exerts a pressure of about $3.3\ \mu$ Pa on a Perfect
 absorber. $\blacksquare$
 
 </details>
@@ -171,14 +171,14 @@ $\blacksquare$
 
 ### 5.6 EM Waves in Conductors
 
-In a conductor with conductivity $\sigma$Ohm's law gives $\mathbf{J} = \sigma\mathbf{E}$.
+In a conductor with conductivity $\sigma$ Ohm's law gives $\mathbf{J} = \sigma\mathbf{E}$.
 Substituting into the Ampere-Maxwell law:
 
 $$
 \nabla \times \mathbf{B} = \mu_0\sigma\mathbf{E} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}
 $$
 
-For a monochromatic wave $\mathbf{E} = \mathbf{E}_0\,e^{-i\omega t}$This leads to a complex Wave
+For a monochromatic wave $\mathbf{E} = \mathbf{E}_0\,e^{-i\omega t}$ This leads to a complex Wave
 number:
 
 $$
@@ -233,7 +233,7 @@ Electromagnetic waves can be guided by hollow conducting pipes (waveguides). Con
 waveguide with dimensions $a$ (width) and $b$ (height).
 
 **TE modes** (transverse electric, $E_z = 0$, $B_z \neq 0$). The lowest-order mode is
-$\mathrm{TE_}{10}$With fields:
+$\mathrm{TE_}{10}$ With fields:
 
 $$
 E_y = E_0 \sin\!\left(\frac{\pi x}{a}\right)\cos(k_g z - \omega t)
@@ -294,7 +294,7 @@ $$
 The fields fall off as $1/r$ (not $1/r^2$ as for static fields), which is characteristic of
 Radiation.
 
-**Radiation pattern.** The intensity varies as $\sin^2\theta$With maximum radiation in the
+**Radiation pattern.** The intensity varies as $\sin^2\theta$ With maximum radiation in the
 Equatorial plane ($\theta = \pi/2$) and zero along the dipole axis ($\theta = 0, \pi$).
 
 **Total radiated power.** Integrating the Poynting vector over a sphere:

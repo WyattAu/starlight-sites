@@ -437,7 +437,7 @@ co-transporter were used instead? Explain.
 smaller than the resolution limit of a light microscope (approximately 200 nm), so individual
 molecules cannot be seen; (2) the light microscope cannot track the movement of individual molecules
 across membranes. An alternative technique is to use **radioactive labelling**, leucine can be
-labelled with a radioactive isotope (e.g., $^{14}$C-leucine or $^{3}$H-leucine). The researcher
+labelled with a radioactive isotope (e.g., $^{14}$ C-leucine or $^{3}$ H-leucine). The researcher
 measures the radioactivity taken up by the cells over time using a scintillation counter.
 Alternatively, **fluorescent labelling** (e.g., using a fluorescently tagged leucine analogue) with
 fluorescence microscopy or confocal microscopy could allow visualisation of uptake patterns.
@@ -455,7 +455,7 @@ carrier protein that can couple the movement of leucine to the movement of Na$^+
 
 (c) In co-transport, the $\text{Na}^+/\text{K}^+$ pump on the basolateral membrane of the epithelial
 cell uses **ATP** to actively transport $\text{Na}^+$ out of the cell and $\text{K}^+$ into the
-cell. This maintains a low intracellular concentration of $\text{Na}^+$Creating a concentration
+cell. This maintains a low intracellular concentration of $\text{Na}^+$ Creating a concentration
 gradient of $\text{Na}^+$ across the apical membrane (high $\text{Na}^+$ in the intestinal lumen,
 low $\text{Na}^+$ in the cell). $\text{Na}^+$ diffuses down its concentration gradient into the cell
 through the $\text{Na}^+$-leucine co-transporter protein on the apical membrane. The co-transporter

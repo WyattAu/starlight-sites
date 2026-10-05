@@ -162,7 +162,7 @@ communication rather than radio waves.
 (a) $\lambda = v/f = 3 \times 10^8 / (1800 \times 10^6) = 3 \times 10^8 / 1.8 \times 10^9 = 0.167$
 m.
 
-(b) Time $= 5000 / (3 \times 10^8) = 1.67 \times 10^{-5}$ s $= 16.7$ $\mu$S.
+(b) Time $= 5000 / (3 \times 10^8) = 1.67 \times 10^{-5}$ s $= 16.7$ $\mu$ S.
 
 (c) Intensity at distance 5 km:
 $I = P/(4\pi r^2) = 1/(4\pi \times 25,000,000) = 1/314,159,265 = 3.18 \times 10^{-9}$ W/m$^2$. Power

@@ -56,10 +56,10 @@ displaced by $x$ from equilibrium in one arm. The cross-sectional area of each a
 
 (a) The restoring force is $F = -kx + bx^3$.
 
-Newton"s second law: $ma = -kx + bx^3$ So $a = -\frac{k}{m}x + \frac{b}{m}x^3$.
+Newton's second law: $ma = -kx + bx^3$ So $a = -\frac{k}{m}x + \frac{b}{m}x^3$.
 
 This is **not** SHM because the acceleration is not proportional to displacement. The $bx^3$ term
-makes it anharmonic. The motion is approximately SHM only when $bx^3 \ll kx$I.e. $x \ll \sqrt{k/b}$
+makes it anharmonic. The motion is approximately SHM only when $bx^3 \ll kx$ I.e. $x \ll \sqrt{k/b}$
 (small oscillations). But strictly, the motion is not SHM.
 
 (b) The equation of motion for a simple pendulum is:
@@ -71,13 +71,13 @@ $$
 For SHM, we need $a = -\omega^2 x$ (or $\ddot{\theta} = -\omega^2 \theta$), which requires
 $\sin\theta \approx \theta$ (small angle approximation).
 
-Using $\sin\theta = \theta - \theta^3/6 + \ldots$The exact equation is:
+Using $\sin\theta = \theta - \theta^3/6 + \ldots$ The exact equation is:
 
 $$
 \ddot{\theta} = -\frac{g}{L}\theta + \frac{g}{6L}\theta^3 - \ldots
 $$
 
-This is SHM only when $\theta$ is small enough that $\theta^3/6 \ll \theta$I.e.
+This is SHM only when $\theta$ is small enough that $\theta^3/6 \ll \theta$ I.e.
 $\theta \ll \sqrt{6} \approx 2.45\,\text{rad}$ (about $140^\circ$). For practical purposes,
 $\theta_{\max} \lt 15^\circ$ ensures the error is less than $0.5\%$.
 
@@ -99,7 +99,7 @@ $$
 
 This is of the form $a = -\omega^2 x$ with $\omega^2 = g/L$.
 
-The motion **is** SHM with period $T = 2\pi\sqrt{L/g}$Where $L$ is the total length of the liquid
+The motion **is** SHM with period $T = 2\pi\sqrt{L/g}$ Where $L$ is the total length of the liquid
 column. This is exact -- no approximation is needed.
 
 ---
@@ -330,7 +330,7 @@ Damping parameter: $\gamma = b/(2m) = 0.50/(2 \times 0.50) = 0.50\,\text{s}^{-1}
 
 Damping ratio: $\zeta = \gamma/\omega_0 = 0.50/10.0 = 0.05$
 
-Since $\zeta \lt 1$The system is **underdamped**.
+Since $\zeta \lt 1$ The system is **underdamped**.
 
 (b) The resonant frequency (where amplitude is maximum) is:
 

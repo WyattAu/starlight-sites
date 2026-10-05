@@ -78,7 +78,7 @@ int *ptr = &x;    // ptr stores the address of x
 *ptr = 10;        // dereference: change x to 10
 ```
 
-### Python"s Model: References, Not Pointers
+### Python's Model: References, Not Pointers
 
 Python does not have explicit pointers. Variables are **references** to objects in memory.
 
@@ -292,7 +292,7 @@ Representation of 0.1?
 $0.1$ in binary: $0.1_{10} = 0.0001100110011\ldots_2$ (repeating). This cannot be represented
 Exactly in a finite number of binary digits. The IEEE 754 double-precision representation stores an
 Approximation, which introduces a small rounding error. When $0.1$ and $0.2$ (both approximations)
-Are added, the result is $0.30000000000000004$Not exactly $0.3$.
+Are added, the result is $0.30000000000000004$ Not exactly $0.3$.
 
 Solution: use `abs(a - b) < 1e-9` for comparison, or use the `decimal` module for exact decimal
 Arithmetic.

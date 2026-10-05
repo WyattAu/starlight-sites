@@ -38,7 +38,7 @@ Intensity.
 Transmission coefficients satisfy $t = 1 + r$. Prove this from the boundary conditions.
 
 **6.** Unpolarised light is incident from water ($n = 1.33$) onto glass ($n = 1.50$). Calculate the
-Reflectance for (a) normal incidence, (b) $\theta_i = 45°$ And (c) Brewster"s angle. At which Angle
+Reflectance for (a) normal incidence, (b) $\theta_i = 45°$ And (c) Brewster's angle. At which Angle
 is the reflected light most strongly polarised?
 
 **7.** An optical fibre has core index $n_1 = 1.48$ and cladding index $n_2 = 1.46$. Find the
@@ -83,7 +83,7 @@ Describe the polarisation state after each element. What is the final polarisati
 
 **17.** Light is incident from air onto a glass surface ($n = 1.50$) at Brewster's angle. (a)
 Calculate the Brewster angle. (b) Find the angle of refraction and verify that the reflected and
-refracted beams are Perpendicular. (c) If the incident light is unpolarised with intensity $I_0$What
+refracted beams are Perpendicular. (c) If the incident light is unpolarised with intensity $I_0$ What
 is the intensity and Polarisation state of the reflected light?
 
 **18.** An object is placed 30 cm from a converging lens ($f_1 = 20$ cm). A diverging lens
@@ -109,12 +109,12 @@ $f_1 = 100$ Hz, $f_2 = 200$ Hz, $f_3 = 300$ Hz.
 
 **Solution 2.** $\partial^2 u/\partial x^2 = -k^2(Ae^{i(kx-\omega t)} + Be^{-i(kx+\omega t)})$ and
 $\partial^2 u/\partial t^2 = -\omega^2(Ae^{i(kx-\omega t)} + Be^{-i(kx+\omega t)})$. The wave
-Equation requires $k^2 = \omega^2/v^2$I.e., $\omega = \pm vk$. The first term is a wave Travelling
+Equation requires $k^2 = \omega^2/v^2$ I.e., $\omega = \pm vk$. The first term is a wave Travelling
 in the $+x$ direction; the second is a wave travelling in the $-x$ direction.
 
 **Solution 3.** Group velocity: $v_g = d\omega/dk \approx \Delta\omega/\Delta k$. Initial spatial
 Width: $\sigma_0 \approx 1/\Delta k = 1/(\Delta\omega/v_g)$. The packet doubles when
-$1 + (\alpha t/(2\sigma_0^2))^2 = 4$Giving $t = 2\sigma_0\sqrt{3}/\alpha$. Using
+$1 + (\alpha t/(2\sigma_0^2))^2 = 4$ Giving $t = 2\sigma_0\sqrt{3}/\alpha$. Using
 $\sigma_0 = v_g/\Delta\omega$ and $v_g = \omega_0/k_0$ with $k_0 = \omega_0/c$ (assuming
 $v_g \approx c$ for Estimation): $\sigma_0 \approx 3 \times 10^8/10^{12} = 3 \times 10^{-4}$ m.
 $t = 2(3 \times 10^{-4})(\sqrt{3})/(2 \times 10^6) = 5.2 \times 10^{-10}$ s. Time to travel 1 m:
@@ -135,7 +135,7 @@ $R = [(1 - 1.52)/(1 + 1.52)]^2 = (0.52/2.52)^2 = 0.0426 = 4.26\%$.
 $\Delta d = m\lambda/2 = 1000 \times 589 \times 10^{-9}/2 = 2.945 \times 10^{-4}$ m $= 0.295$ mm.
 (b) Fringes are visible for path difference
 $\Delta x \lt L_c = \lambda^2/\Delta\lambda = (589 \times 10^{-9})^2/(0.6 \times 10^{-9}) = 5.78 \times 10^{-4}$
-m $= 0.578$ mm. Since the path difference is $2\Delta d$The mirror can move up to
+m $= 0.578$ mm. Since the path difference is $2\Delta d$ The mirror can move up to
 $\Delta d = L_c/2 = 0.289$ mm before fringes wash out. Note that 1000 fringes correspond to
 $\Delta d = 0.295$ mm, which slightly exceeds $L_c/2$, the outermost fringes would already be
 fading.
@@ -184,11 +184,11 @@ $\theta_{\max} = \arcsin(0.242) = 14.0°$.
 $\sin\theta_1 = \lambda/a = 633 \times 10^{-9}/(5.0 \times 10^{-5}) = 1.266 \times 10^{-2}$,
 $\theta_1 = 0.726°$. Central maximum width on screen:
 $2y_1 \approx 2L\theta_1 = 2(3.0)(1.266 \times 10^{-2}) = 7.60$ cm. (b) Second secondary maximum
-near $\alpha \approx 5\pi/2 = 7.854$. $I/I_0 = (\sin 7.854/7.854)^2 = (1/7.854)^2 = 0.0162$About
+near $\alpha \approx 5\pi/2 = 7.854$. $I/I_0 = (\sin 7.854/7.854)^2 = (1/7.854)^2 = 0.0162$ About
 1.6% of $I_0$.
 
-**Solution 16.** After the QWP: fast-axis component $E_f = E_0\cos 30° = 0.866\,E_0$Slow-axis
-component $E_s = E_0\sin 30° = 0.500\,E_0$ with a $\pi/2$ phase delay. Since $E_f \neq E_s$The
+**Solution 16.** After the QWP: fast-axis component $E_f = E_0\cos 30° = 0.866\,E_0$ Slow-axis
+component $E_s = E_0\sin 30° = 0.500\,E_0$ with a $\pi/2$ phase delay. Since $E_f \neq E_s$ The
 output is elliptically polarised (not circular). After the HWP (same fast axis), the phase
 difference doubles to $\pi$ and the slow-axis component is negated: the output is linearly polarised
 at $-30°$ to the fast axis (reflected about the fast axis).

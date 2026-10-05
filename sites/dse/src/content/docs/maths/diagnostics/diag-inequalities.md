@@ -68,18 +68,18 @@ Solve $|2x - 5| \lt 3x + 1$.
 
 **Solution:**
 
-Since the RHS involves $x$We cannot split into two cases without considering the sign of the RHS.
+Since the RHS involves $x$ We cannot split into two cases without considering the sign of the RHS.
 
-**Case 1:** $3x + 1 \leq 0$I.e. $x \leq -\dfrac{1}{3}$.
+**Case 1:** $3x + 1 \leq 0$ I.e. $x \leq -\dfrac{1}{3}$.
 
 $|2x - 5| \geq 0$ and $3x + 1 \leq 0$ So $|2x - 5| \geq 0 > 3x + 1$ is possible only if
 $|2x - 5| < 3x + 1$. But $3x + 1 \leq 0$ while $|2x - 5| \geq 0$ So $|2x - 5| < 3x + 1$ is impossible
-when $3x + 1 \leq 0$ (since LHS $\geq 0$ and RHS $\leq 0$Equality requires both zero, but
+when $3x + 1 \leq 0$ (since LHS $\geq 0$ and RHS $\leq 0$ Equality requires both zero, but
 $|2x-5|=0 \implies x=5/2 \not\leq -1/3$).
 
 No solution in this case.
 
-**Case 2:** $3x + 1 > 0$I.e. $x > -\dfrac{1}{3}$.
+**Case 2:** $3x + 1 > 0$ I.e. $x > -\dfrac{1}{3}$.
 
 $$
 -(3x + 1) < 2x - 5 < 3x + 1
@@ -121,7 +121,7 @@ Critical values: $x = -1$ and $x = \dfrac{5}{2}$.
 
 Since the parabola $2x^2 - 3x - 5$ opens upward, it is negative between the roots.
 
-Solution: $-1 < x < \dfrac{5}{2}$I.e. $x \in (-1,\; \tfrac{5}{2})$.
+Solution: $-1 < x < \dfrac{5}{2}$ I.e. $x \in (-1,\; \tfrac{5}{2})$.
 
 A common mistake is forgetting to reverse the inequality when factoring out the negative sign.
 
@@ -303,7 +303,7 @@ $$
 
 Critical values: $x = 0$, $x = 2$.
 
-Solution: $x \leq 0$ or $x \geq 2$I.e. $x \in (-\infty,\; 0] \cup [2,\; \infty)$.
+Solution: $x \leq 0$ or $x \geq 2$ I.e. $x \in (-\infty,\; 0] \cup [2,\; \infty)$.
 
 ---
 
@@ -334,7 +334,7 @@ $$
 2x < 2 \implies x < 1
 $$
 
-But we also need the domain: $x + 3 > 0$ and $5 - x > 0$Giving $-3 < x < 5$.
+But we also need the domain: $x + 3 > 0$ and $5 - x > 0$ Giving $-3 < x < 5$.
 
 Combining: $-3 < x < 1$.
 
@@ -372,7 +372,7 @@ First inequality: $2x + 3 > x + 7 \implies x > 4$.
 
 Second inequality: $3x - 1 \leq 2x + 5 \implies x \leq 6$.
 
-Both must hold: $4 < x \leq 6$I.e. $x \in (4,\; 6]$.
+Both must hold: $4 < x \leq 6$ I.e. $x \in (4,\; 6]$.
 
 ---
 
@@ -555,11 +555,11 @@ Solve $\sqrt{2x + 1} \leq x + 1$.
 
 Domain: $2x + 1 \geq 0 \implies x \geq -\dfrac{1}{2}$. Also RHS $= x + 1$.
 
-Since $\sqrt{2x+1} \geq 0$We need $x + 1 \geq 0$I.e. $x \geq -1$.
+Since $\sqrt{2x+1} \geq 0$ We need $x + 1 \geq 0$ I.e. $x \geq -1$.
 
 Combined domain: $x \geq -\dfrac{1}{2}$.
 
-Squaring both sides: $2x + 1 \leq x^2 + 2x + 1 \implies 0 \leq x^2$Which is true for all real $x$.
+Squaring both sides: $2x + 1 \leq x^2 + 2x + 1 \implies 0 \leq x^2$ Which is true for all real $x$.
 
 So the solution is the domain: $x \in \left[-\dfrac{1}{2},\; \infty\right)$.
 
@@ -591,7 +591,7 @@ Since the quadratic opens upward (leading coefficient $= 2 > 0$):
 
 The product is positive outside the roots.
 
-Solution: $x < -4$ or $x > \dfrac{3}{2}$I.e.
+Solution: $x < -4$ or $x > \dfrac{3}{2}$ I.e.
 $x \in (-\infty,\; -4) \cup \left(\dfrac{3}{2},\; \infty\right)$.
 
 ---
@@ -631,7 +631,7 @@ flowchart TD
    inequality sign. This is the single most common error in inequality problems.
 
 2. **Cross-multiplying without considering the sign of the denominator.** When solving
-   $\dfrac{A}{B} > 0$You cannot write $A > 0$ because the sign depends on $B$. Use a sign chart or
+   $\dfrac{A}{B} > 0$ You cannot write $A > 0$ because the sign depends on $B$. Use a sign chart or
    consider cases.
 
 3. **Including values that make the denominator zero.** When solving rational inequalities, the
@@ -642,7 +642,7 @@ flowchart TD
    (it "bounces off" the axis). So at a double root, the expression equals zero, and the inequality
    direction determines whether to include or exclude it.
 
-5. **Not checking the domain before squaring.** When solving $\sqrt{f(x)} > g(x)$You must first
+5. **Not checking the domain before squaring.** When solving $\sqrt{f(x)} > g(x)$ You must first
    establish that $f(x) \geq 0$ and $g(x) \geq 0$ before squaring both sides. Squaring an inequality
    where one side is negative gives incorrect results.
 
@@ -668,13 +668,13 @@ and (b) are satisfied simultaneously. (2 marks)
 
 **Solution:**
 
-(a) $(x - 2)(x - 3) < 0 \implies 2 < x < 3$I.e. $x \in (2,\; 3)$.
+(a) $(x - 2)(x - 3) < 0 \implies 2 < x < 3$ I.e. $x \in (2,\; 3)$.
 
 (b) $(2x - 1)(x + 2) \geq 0$.
 
 Critical values: $x = \dfrac{1}{2}$ and $x = -2$.
 
-Opens upward: $x \leq -2$ or $x \geq \dfrac{1}{2}$I.e.
+Opens upward: $x \leq -2$ or $x \geq \dfrac{1}{2}$ I.e.
 $x \in (-\infty,\; -2] \cup \left[\dfrac{1}{2},\; \infty\right)$.
 
 (c) Intersection of $(2,\; 3)$ and $(-\infty,\; -2] \cup \left[\dfrac{1}{2},\; \infty\right)$:
@@ -747,10 +747,10 @@ Sign chart:
 | $-3 < x < 1$ | $x = 0$  | $-$  |
 | $x > 1$      | $x = 2$  | $+$  |
 
-Including $x = 1$Excluding $x = -3$ and $x = 3$.
+Including $x = 1$ Excluding $x = -3$ and $x = 3$.
 
 Solution: $x \in (-3,\; 1] \cup (3,\; \infty)$? No -- checking: for
-$x > 3$, $\dfrac{x-1}{x+3} > 0$Which does not satisfy $\leq 0$.
+$x > 3$, $\dfrac{x-1}{x+3} > 0$ Which does not satisfy $\leq 0$.
 
 Correct solution: $x \in (-3,\; 1]$.
 

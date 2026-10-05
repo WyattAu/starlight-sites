@@ -329,7 +329,7 @@ $$
 
 ### Welfare Analysis of a Subsidy
 
-For a per-unit subsidy $s$The supply curve shifts downward to $P = c + dQ - s$:
+For a per-unit subsidy $s$ The supply curve shifts downward to $P = c + dQ - s$:
 
 $$
 a - bQ = c + dQ - s \implies Q_s = \frac{a - c + s}{b + d}
@@ -384,7 +384,7 @@ $$
 $$
 
 If the government purchases the surplus at the floor price, the total cost is
-$P_{\text{floor}} \times (Q_s - Q_d)$Adding to the welfare loss.
+$P_{\text{floor}} \times (Q_s - Q_d)$ Adding to the welfare loss.
 
 ### Common Pitfalls in Welfare Analysis
 
@@ -640,7 +640,7 @@ G = \frac{A}{A + B}
 $$
 
 Where $A$ is the area between the line of perfect equality and the Lorenz curve, and $B$ is The area
-under the Lorenz curve. $G \in [0, 1]$Where 0 is perfect equality and 1 is perfect Inequality.
+under the Lorenz curve. $G \in [0, 1]$ Where 0 is perfect equality and 1 is perfect Inequality.
 
 **Interpretation of Gini coefficients:**
 

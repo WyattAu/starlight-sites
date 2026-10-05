@@ -25,7 +25,7 @@ $$
 \lambda_D = \sqrt{\frac{\varepsilon_0 k_B T}{n_e e^2}}
 $$
 
-For $n_e = 10^{18}$ m$^{-3}$, $T = 10^4$ K: $\lambda_D = 7.4 \times 10^{-5}$ m $= 74\,\mu$M.
+For $n_e = 10^{18}$ m$^{-3}$, $T = 10^4$ K: $\lambda_D = 7.4 \times 10^{-5}$ m $= 74\,\mu$ M.
 
 The plasma frequency:
 
@@ -49,7 +49,7 @@ wave has $\omega^2 = k^2 c_s^2/(1 + k^2\lambda_D^2)$ where $c_s = \sqrt{k_BT/m_i
 
 ## Worked Examples
 
-### Example 1: Gauss"s law
+### Example 1: Gauss's law
 
 **Problem.** A uniformly charged sphere of radius $R$ has total charge $Q$. Find $E$ inside and
 outside.

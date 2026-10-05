@@ -138,7 +138,7 @@ to antibiotics and why bacterial infections can spread so rapidly.
 | Membrane-bound organelles | Yes (mitochondria, ER, Golgi, etc.) | No                        |
 | Ribosomes                 | 80S (larger)                        | 70S (smaller)             |
 | Cell wall                 | Cellulose (plants), chitin (fungi)  | Peptidoglycan             |
-| Size                      | 10--100 $\mu$M                      | 1--10 $\mu$M              |
+| Size                      | 10--100 $\mu$ M                      | 1--10 $\mu$ M              |
 | Reproduction              | Mitosis, meiosis                    | Binary fission            |
 | Plasmids                  | No                                  | Yes                       |
 | Examples                  | Animals, plants, fungi, protists    | Bacteria, archaea         |
@@ -229,7 +229,7 @@ $$
 $$
 
 **Unit conversion tip.** You will frequently need to convert between millimetres (mm) and
-Micrometres ($\mu$M). Remember: $1 \mathrm{ mm = 1000 \mathrm{ \mu m$.
+Micrometres ($\mu$ M). Remember: $1 \mathrm{ mm = 1000 \mathrm{ \mu m$.
 
 **Worked Example.** A cell measures 8.5 mm in a micrograph taken at magnification $\times 400$. Find
 The actual size in micrometres.
@@ -631,7 +631,7 @@ Units.
 | Unit       | Symbol | Conversion to metres |
 | ---------- | ------ | -------------------- |
 | Millimetre | mm     | $\times 10^{-3}$ m   |
-| Micrometre | $\mu$M | $\times 10^{-6}$ m   |
+| Micrometre | $\mu$ M | $\times 10^{-6}$ m   |
 | Nanometre  | nm     | $\times 10^{-9}$ m   |
 
 **Worked Example.** A mitochondrion is $5 \mu\mathrm{m$ long. Express this in nanometres.
@@ -695,7 +695,7 @@ $$
    happens to the cell.
 
 6. Calculate the actual size of a cell that measures 8.5 mm in a micrograph taken at a magnification
-   of $\times 400$. Give your answer in micrometres ($\mu$M).
+   of $\times 400$. Give your answer in micrometres ($\mu$ M).
 
 7. Explain the difference between diffusion, osmosis, and active transport.
 
@@ -766,7 +766,7 @@ $$
 
 A cell is observed under a microscope with an eyepiece lens of magnification $\times 10$ and an
 Objective lens of magnification $\times 40$. The cell appears to be $4.8 \mathrm{ mm$ wide in the
-Image. Calculate the actual width of the cell in micrometres ($\mu$M).
+Image. Calculate the actual width of the cell in micrometres ($\mu$ M).
 
 </details>
 

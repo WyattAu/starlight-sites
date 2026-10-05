@@ -39,7 +39,7 @@ flowchart TD
 **Question:**
 
 Alpha-glucose and beta-glucose are both hexose monosaccharides with the molecular formula
-$\text{C}_6\text{H}_{12}\text{O}_6$Yet they form polysaccharides with very different properties.
+$\text{C}_6\text{H}_{12}\text{O}_6$ Yet they form polysaccharides with very different properties.
 
 (a) Describe the precise structural difference between alpha-glucose and beta-glucose.
 
@@ -54,20 +54,20 @@ specificity.
 
 **Solution:**
 
-(a) The difference lies in the position of the hydroxyl ($-$OH) group on carbon 1. In alpha-glucose,
-the $-$OH group on C1 is below the plane of the ring; in beta-glucose, the $-$OH group on C1 is
-above the plane of the ring. All other $-$OH positions are identical.
+(a) The difference lies in the position of the hydroxyl ($-$ OH) group on carbon 1. In alpha-glucose,
+the $-$ OH group on C1 is below the plane of the ring; in beta-glucose, the $-$ OH group on C1 is
+above the plane of the ring. All other $-$ OH positions are identical.
 
 (b) A condensation reaction occurs between the hydroxyl group on C1 of one alpha-glucose molecule
 and the hydroxyl group on C4 of another alpha-glucose molecule. This forms a glycosidic bond
 (specifically a 1,4-glycosidic bond) and eliminates a molecule of water ($\text{H}_2\text{O}$). The
 oxygen atom in the glycosidic bond originates from C1 of the first glucose molecule.
 
-(c) In beta-glucose, the alternating orientation of $-$OH groups above and below the ring means that
+(c) In beta-glucose, the alternating orientation of $-$ OH groups above and below the ring means that
 each successive beta-glucose molecule must rotate 180 degrees relative to its neighbour to form a
 1,4-glycosidic bond. This produces a straight, unbranched chain. The straight chains align parallel
-to each other, allowing extensive hydrogen bonding between the $-$OH groups of adjacent chains,
-forming strong, insoluble microfibrils. In alpha-glucose, the $-$OH groups all point in the same
+to each other, allowing extensive hydrogen bonding between the $-$ OH groups of adjacent chains,
+forming strong, insoluble microfibrils. In alpha-glucose, the $-$ OH groups all point in the same
 relative direction, so successive molecules do not need to rotate, the chain coils into a helix,
 which is compact and less accessible for hydrogen bonding between chains.
 
@@ -116,11 +116,11 @@ action, and state which model is currently preferred with a reason.
 
 (a) **Primary structure**: the sequence of amino acids in the polypeptide chain, held together by
 peptide bonds (covalent). **Secondary structure**: the folding of the polypeptide chain into
-alpha-helices and beta-pleated sheets, stabilised by hydrogen bonds between the $-$C=O of one amino
-acid and the $-$N-H of another amino acid four residues away (in an alpha-helix). **Tertiary
+alpha-helices and beta-pleated sheets, stabilised by hydrogen bonds between the $-$ C=O of one amino
+acid and the $-$ N-H of another amino acid four residues away (in an alpha-helix). **Tertiary
 structure**: the overall three-dimensional shape of a single polypeptide chain, stabilised by
-disulfide bridges (covalent, between cysteine residues), ionic bonds (between $-$NH$_3^+$ and
-$-$COO$^-$ groups), hydrogen bonds, and hydrophobic interactions (between non-polar R-groups that
+disulfide bridges (covalent, between cysteine residues), ionic bonds (between $-$ NH$_3^+$ and
+$-$ COO$^-$ groups), hydrogen bonds, and hydrophobic interactions (between non-polar R-groups that
 cluster in the interior of the protein away from water). **Quaternary structure**: the arrangement
 of multiple polypeptide subunits into a functional protein (e.g., haemoglobin has four subunits),
 held together by the same types of bonds as tertiary structure. Not all proteins have quaternary
@@ -204,7 +204,7 @@ the rightward shift of the curve).
 
 (b) Three structural differences between DNA and RNA:
 
-1. **Sugar**: DNA contains deoxyribose (lacks an oxygen on C2); RNA contains ribose (has an $-$OH on
+1. **Sugar**: DNA contains deoxyribose (lacks an oxygen on C2); RNA contains ribose (has an $-$ OH on
    C2).
 2. **Bases**: DNA contains adenine, thymine, cytosine, and guanine; RNA contains adenine, uracil,
    cytosine, and guanine (uracil replaces thymine).

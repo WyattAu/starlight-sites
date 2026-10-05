@@ -32,8 +32,8 @@ The mean is the balance point of the data. It is sensitive to outliers: a single
 Shift the mean significantly.
 
 **Median:** The middle value when data is sorted. For $n$ data points, if $n$ is odd, the median is
-The $\frac{n+1}{2}$Th value. If $n$ is even, it is the average of the $\frac{n}{2}$Th and
-$\frac{n}{2}+1$Th values. The median is robust to outliers.
+The $\frac{n+1}{2}$ Th value. If $n$ is even, it is the average of the $\frac{n}{2}$ Th and
+$\frac{n}{2}+1$ Th values. The median is robust to outliers.
 
 **Mode:** The most frequently occurring value. A data set can be unimodal, bimodal, or multimodal.
 
@@ -43,7 +43,7 @@ $$
 S = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}
 $$
 
-The divisor $n-1$ (Bessel"s correction) gives an unbiased estimate of the population standard
+The divisor $n-1$ (Bessel's correction) gives an unbiased estimate of the population standard
 Deviation. With $n$ in the denominator, the sample standard deviation systematically underestimates
 The population parameter.
 
@@ -87,11 +87,11 @@ This is useful when data needs to be converted between units (e.g., Celsius to F
 
 ### Interquartile Range and Box Plots
 
-The **interquartile range** (IQR) is $Q_3 - Q_1$Where $Q_1$ is the 25th percentile and $Q_3$ is The
+The **interquartile range** (IQR) is $Q_3 - Q_1$ Where $Q_1$ is the 25th percentile and $Q_3$ is The
 75th percentile.
 
-**Box plots** (box-and-whisker diagrams) display five key statistics: minimum, $Q_1$Median, $Q_3$
-And maximum. The box spans from $Q_1$ to $Q_3$With the median marked inside. Whiskers extend to The
+**Box plots** (box-and-whisker diagrams) display five key statistics: minimum, $Q_1$ Median, $Q_3$
+And maximum. The box spans from $Q_1$ to $Q_3$ With the median marked inside. Whiskers extend to The
 most extreme data points within $1.5 \times \mathrm{IQR$ of the quartiles.
 
 **Outlier detection:** A value is a potential outlier if it falls below
@@ -109,7 +109,7 @@ $\mathrm{IQR = 18 - 7 = 11$.
 
 Upper fence: $Q_3 + 1.5 \times 11 = 18 + 16.5 = 34.5$.
 
-Since $110 > 34.5$The value $110$ is an outlier.
+Since $110 > 34.5$ The value $110$ is an outlier.
 
 ### Probability
 
@@ -140,7 +140,7 @@ P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)}
 $$
 
 This theorem is foundational in statistics, machine learning, and medical testing. It allows you to
-"invert" conditional probabilities: if you know $P(B|A)$ but need $P(A|B)$Bayes' theorem provides
+"invert" conditional probabilities: if you know $P(B|A)$ but need $P(A|B)$ Bayes' theorem provides
 The bridge.
 
 **Example:** In a school, 60% of students study Maths, 40% study Physics, and 25% study both. A
@@ -160,7 +160,7 @@ $$
 
 (c) Are the events "studies Maths" and "studies Physics" independent?
 
-$P(M) \times P(P) = 0.6 \times 0.4 = 0.24$ But $P(M \cap P) = 0.25$. Since $0.24 \ne 0.25$The Events
+$P(M) \times P(P) = 0.6 \times 0.4 = 0.24$ But $P(M \cap P) = 0.25$. Since $0.24 \ne 0.25$ The Events
 are **not** independent.
 
 **Example:** A medical test has a 95% true positive rate
@@ -231,7 +231,7 @@ $$
 
 **Variance:** $\mathrm{Var(X) = np(1-p)$
 
-**Proof of $E(X) = np$.** Let $X_i$ be the indicator variable for the $i$Th trial: $X_i = 1$ if
+**Proof of $E(X) = np$.** Let $X_i$ be the indicator variable for the $i$ Th trial: $X_i = 1$ if
 Success, $0$ if failure. Then $X = \sum_{i=1}^{n} X_i$ and $E(X) = \sum E(X_i) = n \cdot p$.
 
 **Example:** A fair die is rolled 8 times. Find the probability of getting exactly 3 sixes.
@@ -278,7 +278,7 @@ Average) of a large number of independent, identically distributed random variab
 Normally distributed, regardless of the original distribution. This is why measurements of natural
 Phenomena (heights, blood pressure, measurement errors) tend to be normally distributed.
 
-**Standard Normal:** $Z = \dfrac{X - \mu}{\sigma}$Where $Z \sim N(0, 1)$.
+**Standard Normal:** $Z = \dfrac{X - \mu}{\sigma}$ Where $Z \sim N(0, 1)$.
 
 **Properties:**
 
@@ -314,7 +314,7 @@ $$
 **Example:** Exam scores are normally distributed with mean 60 and standard deviation 12. The top
 10% of candidates receive an A grade. Find the minimum score for an A grade.
 
-We need $P(X > a) = 0.10$I.e., $P(X \leq a) = 0.90$.
+We need $P(X > a) = 0.10$ I.e., $P(X \leq a) = 0.90$.
 
 From tables, $P(Z \leq 1.282) = 0.90$.
 
@@ -559,7 +559,7 @@ $$
 - **Type I error:** Rejecting $H_0$ when it is true (false positive). Probability = $\alpha$.
 - **Type II error:** Failing to reject $H_0$ when it is false (false negative). Probability =
   $\beta$.
-- The **power** of a test is $1 - \beta$The probability of correctly rejecting a false $H_0$.
+- The **power** of a test is $1 - \beta$ The probability of correctly rejecting a false $H_0$.
 
 **Trade-off between errors.** Decreasing $\alpha$ (making the test more conservative) increases
 $\beta$ (making it harder to detect a real effect). The only way to decrease both simultaneously is
@@ -577,7 +577,7 @@ $t = \dfrac{\bar{x} - \mu_0}{s / \sqrt{n}} = \dfrac{497 - 500}{5/\sqrt{16}} = \d
 Critical values for $t$-distribution with 15 degrees of freedom at 5% (two-tailed): approximately
 $\pm 2.131$.
 
-Since $|-2.4| = 2.4 > 2.131$We reject $H_0$. There is sufficient evidence to suggest the mean Weight
+Since $|-2.4| = 2.4 > 2.131$ We reject $H_0$. There is sufficient evidence to suggest the mean Weight
 differs from 500 g.
 
 ### Chi-Squared Test
@@ -590,7 +590,7 @@ $$
 
 Where $O_i$ is the observed frequency and $E_i$ is the expected frequency.
 
-**Conditions:** All expected frequencies should be at least 5. If any $E_i < 5$Combine categories.
+**Conditions:** All expected frequencies should be at least 5. If any $E_i < 5$ Combine categories.
 
 **Example:** A survey investigates whether there is an association between gender and preferred
 Subject among 200 students:
@@ -620,7 +620,7 @@ Degrees of freedom: $(2-1)(3-1) = 2$.
 
 Critical value at 5% for 2 df: 5.991.
 
-Since $24.194 > 5.991$We reject $H_0$. There is significant evidence of an association.
+Since $24.194 > 5.991$ We reject $H_0$. There is significant evidence of an association.
 
 ### One-Tailed vs Two-Tailed Tests
 
@@ -639,7 +639,7 @@ $t = \dfrac{498 - 500}{4/\sqrt{20}} = \dfrac{-2}{0.894} = -2.236$.
 
 Critical value for $t$-distribution with 19 df at 5% (one-tailed): approximately $-1.729$.
 
-Since $-2.236 < -1.729$We reject $H_0$. There is sufficient evidence that the machine is
+Since $-2.236 < -1.729$ We reject $H_0$. There is sufficient evidence that the machine is
 Underfilling.
 
 Note: If this were a two-tailed test, the critical value would be approximately $\pm 2.093$ And
@@ -712,7 +712,7 @@ See the examples integrated throughout the sections above.
    observed data. Predicting outside this range is unreliable.
 
 8. **Assuming normality without justification:** The normal approximation to the binomial requires
-   $np \ge 5$ and $n(1-p) \ge 5$. For small $n$ or extreme $p$Use the exact binomial distribution.
+   $np \ge 5$ and $n(1-p) \ge 5$. For small $n$ or extreme $p$ Use the exact binomial distribution.
 
 9. **Confusing one-tailed and two-tailed tests:** A two-tailed test has a critical region split
    between both tails. The significance level $\alpha$ is shared between the two tails, so each tail

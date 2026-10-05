@@ -91,7 +91,7 @@ C_V = \frac{\partial U}{\partial T} = Nk_B \cdot \frac{\pi^2}{2}\frac{k_BT}{\var
 $$
 
 **Physical insight.** At room temperature ($T \approx 300$ K), $T/T_F \approx 0.006$ for copper, so
-$C_V \approx 0.03 Nk_B$Which is negligible compared to the lattice contribution $\approx 3Nk_B$.
+$C_V \approx 0.03 Nk_B$ Which is negligible compared to the lattice contribution $\approx 3Nk_B$.
 This explains why the Dulong-Petit law works for metals despite the presence of conduction
 electrons.
 

@@ -118,7 +118,7 @@ $$
 (2k)^2 = 2b^2 \implies 4k^2 = 2b^2 \implies b^2 = 2k^2
 $$
 
-So $b^2$ is even, meaning $b$ is even. But then $\gcd(a,b) \geq 2$Contradicting $\gcd(a,b) = 1$.
+So $b^2$ is even, meaning $b$ is even. But then $\gcd(a,b) \geq 2$ Contradicting $\gcd(a,b) = 1$.
 $\blacksquare$
 
 ### 2.4 $\log_2 3$ is irrational
@@ -179,7 +179,7 @@ To disprove a universal statement, it suffices to find **one** example where the
 
 ### 4.2 Examples
 
-**Claim.** "For all real $x$, $x^2 \gt x$." Counterexample: $x = 0.5$Since $0.25 \not> 0.5$.
+**Claim.** "For all real $x$, $x^2 \gt x$." Counterexample: $x = 0.5$ Since $0.25 \not> 0.5$.
 
 **Claim.** "All quadratics have two distinct real roots." Counterexample: $x^2 + 1 = 0$ has no real
 Roots (discriminant $= -4 \lt 0$).
@@ -262,7 +262,7 @@ This is the formula with $n = k+1$. ✓ $\blacksquare$
 
 **Proof.**
 
-_Base case ($n=1$):_ $3^1 - 1 = 2$Which is divisible by 2. ✓
+_Base case ($n=1$):_ $3^1 - 1 = 2$ Which is divisible by 2. ✓
 
 _Hypothesis:_ Assume $3^k - 1 = 2m$ for some integer $m$.
 
@@ -274,7 +274,7 @@ This is divisible by 2. ✓ $\blacksquare$
 
 **Proof.**
 
-_Base case ($n=1$):_ $4-1 = 3$Divisible by 3. ✓
+_Base case ($n=1$):_ $4-1 = 3$ Divisible by 3. ✓
 
 _Hypothesis:_ $4^k - 1 = 3m$.
 
@@ -304,7 +304,7 @@ _Hypothesis:_ $k! \gt 2^k$ for $k \geq 4$.
 
 _Step:_ $(k+1)! = (k+1) \cdot k! \gt (k+1) \cdot 2^k \geq 5 \cdot 2^k \gt 2 \cdot 2^k = 2^{k+1}$.
 
-Since $k \geq 4$We have $k+1 \geq 5 \gt 2$. ✓ $\blacksquare$
+Since $k \geq 4$ We have $k+1 \geq 5 \gt 2$. ✓ $\blacksquare$
 
 <hr />
 
@@ -396,11 +396,11 @@ Prove that $\sqrt{3}$ is irrational.
 <summary>Solution 4</summary>
 Suppose $\sqrt{3} = a/b$ in lowest terms with $a, b \in \mathbb{Z}^+$, $\gcd(a,b) = 1$.
 
-$3 = a^2/b^2 \implies a^2 = 3b^2$ So $3 \mid a^2$Hence $3 \mid a$. Write $a = 3k$.
+$3 = a^2/b^2 \implies a^2 = 3b^2$ So $3 \mid a^2$ Hence $3 \mid a$. Write $a = 3k$.
 
-$9k^2 = 3b^2 \implies b^2 = 3k^2$ So $3 \mid b^2$Hence $3 \mid b$.
+$9k^2 = 3b^2 \implies b^2 = 3k^2$ So $3 \mid b^2$ Hence $3 \mid b$.
 
-But $\gcd(a,b) \geq 3$Contradicting $\gcd(a,b) = 1$. $\blacksquare$
+But $\gcd(a,b) \geq 3$ Contradicting $\gcd(a,b) = 1$. $\blacksquare$
 
 **If you get this wrong, revise:** [$\sqrt{2}$ is irrational](#23-sqrt2-is-irrational), Section
 2.3.
@@ -430,7 +430,7 @@ Prove by induction that $5^n + 3$ is divisible by 4 for all $n \geq 1$.
 
 <details>
 <summary>Solution 6</summary>
-*Base case ($n=1$):* $5 + 3 = 8$Divisible by 4. ✓
+*Base case ($n=1$):* $5 + 3 = 8$ Divisible by 4. ✓
 
 _Hypothesis:_ $5^k + 3 = 4m$.
 
@@ -472,8 +472,8 @@ Use proof by exhaustion to show that all integers $n$ with $1 \leq n \leq 6$ sat
 <summary>Solution 8</summary>
 Primes in range: 2, 3, 5.
 
-$n=2$: $n^2-1 = 3$Not divisible by 24 (special case $n=2$). $n=3$: $n^2-1 = 8$Not divisible by 24
-(special case $n=3$). $n=5$: $n^2-1 = 24$Divisible by 24. ✓
+$n=2$: $n^2-1 = 3$ Not divisible by 24 (special case $n=2$). $n=3$: $n^2-1 = 8$ Not divisible by 24
+(special case $n=3$). $n=5$: $n^2-1 = 24$ Divisible by 24. ✓
 
 So the claim holds: primes 2 and 3 are exceptions, and $5^2 - 1 = 24$ is divisible by 24.
 
@@ -488,7 +488,7 @@ Prove by induction that $n^3 - n$ is divisible by 6 for all $n \geq 1$.
 
 <details>
 <summary>Solution 9</summary>
-*Base case ($n=1$):* $1-1=0$Divisible by 6. ✓
+*Base case ($n=1$):* $1-1=0$ Divisible by 6. ✓
 
 _Hypothesis:_ $k^3 - k = 6m$.
 
@@ -515,7 +515,7 @@ a^2 + b^2 = (2m+1)^2 + (2n+1)^2 = 4m^2+4m+1 + 4n^2+4n+1 = 2(2m^2+2m+2n^2+2n+1)
 $$
 
 This is even but not divisible by 4. So $c^2$ is even but not divisible by 4, meaning $c$ is even
-(if $c = 2p$, $c^2 = 4p^2$Which IS divisible by 4). Contradiction. $\blacksquare$
+(if $c = 2p$, $c^2 = 4p^2$ Which IS divisible by 4). Contradiction. $\blacksquare$
 
 **If you get this wrong, revise:** [Proof by Contradiction](#2-proof-by-contradiction), Section 2.
 

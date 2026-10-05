@@ -157,8 +157,8 @@ flowchart TD
 
 **Question:** A 32-bit computer uses IEEE 754 single-precision floating-point format. (a) Explain
 how the number $-6.625$ is stored in binary floating-point format (sign, exponent, mantissa). (b) If
-the CPU needs to add $-6.625$ and $3.5$Describe the steps the ALU performs. (c) Why does
-floating-point arithmetic sometimes produce rounding errors, and how does this relate to the CPU"s
+the CPU needs to add $-6.625$ and $3.5$ Describe the steps the ALU performs. (c) Why does
+floating-point arithmetic sometimes produce rounding errors, and how does this relate to the CPU's
 hardware design?
 
 **Solution:**

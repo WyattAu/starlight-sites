@@ -76,7 +76,7 @@ Transfer payments are not directly part of $G$, they affect $AD$ indirectly thro
 Disposable income and hence consumption ($C$).
 
 :::caution
-They affect $C$Not $G$ directly. However, exam questions sometimes use "government spending" loosely
+They affect $C$ Not $G$ directly. However, exam questions sometimes use "government spending" loosely
 - always clarify What is meant.
 :::
 
@@ -191,7 +191,7 @@ Tax rates discourage work, investment, and encourage tax evasion.
 **Proposition: There exists a tax rate $t^*$ that maximises revenue, and beyond this rate, further
 Increases reduce revenue.**
 
-_Proof sketch._ At $t = 0$Revenue $R = 0$. At $t = 100\%$No one works (all income is taxed Away), so
+_Proof sketch._ At $t = 0$ Revenue $R = 0$. At $t = 100\%$ No one works (all income is taxed Away), so
 $R = 0$. Since $R$ is continuous, by the Intermediate Value Theorem there exists at least One
 maximum $t^*$ where $\frac{dR}{dt} = 0$. At this point, the marginal gain from a higher rate (more
 tax per unit of income) exactly equals the marginal loss from a smaller tax base. $\blacksquare$
@@ -244,8 +244,8 @@ $$
 
 Where $r$ is the average interest rate on government debt and $g$ is the GDP growth rate.
 
-**Key insight**: If $g > r$The debt-to-GDP ratio can fall even with a primary deficit (before
-Interest payments), because GDP is growing faster than the debt stock. If $r > g$Debt dynamics are
+**Key insight**: If $g > r$ The debt-to-GDP ratio can fall even with a primary deficit (before
+Interest payments), because GDP is growing faster than the debt stock. If $r > g$ Debt dynamics are
 Unstable, the debt ratio grows unless offset by primary surpluses.
 
 ### 4.3 Sustainability
@@ -294,7 +294,7 @@ Used to reduce aggregate demand during an overheating economy (to combat inflati
 Increase.**
 
 _Proof._ The increase in $G$ directly adds $\Delta G$ to AD. The increase in $T$ reduces disposable
-Income by $\Delta T = \Delta G$Reducing consumption by $MPC \times \Delta G$. The net injection Is:
+Income by $\Delta T = \Delta G$ Reducing consumption by $MPC \times \Delta G$. The net injection Is:
 
 $$
 \Delta A = \Delta G - MPC \cdot \Delta G = (1 - MPC) \cdot \Delta G = MPS \cdot \Delta G
@@ -544,7 +544,7 @@ Two approaches.
 
 <details>
 <summary>Hint</summary>
-(a) $k = 1/(MPS + MPT + MPM) = 1/(0.2 + 0.2 + 0.15) = 1/0.55 = 1.82$. (b) $\Delta Y = 1.82 \times 50 = £91$Bn. (c) Tax cut: $\Delta C = MPC \times \Delta T_{disposable} = 0.8 \times 50 = £40$Bn initial injection. $\Delta Y = 1.82 \times 40 = £72.7$Bn. (d) Government spending is more effective per pound because it is a direct injection, whereas tax cuts are partially saved. The "spending multiplier" > "tax multiplier."
+(a) $k = 1/(MPS + MPT + MPM) = 1/(0.2 + 0.2 + 0.15) = 1/0.55 = 1.82$. (b) $\Delta Y = 1.82 \times 50 = £91$ Bn. (c) Tax cut: $\Delta C = MPC \times \Delta T_{disposable} = 0.8 \times 50 = £40$ Bn initial injection. $\Delta Y = 1.82 \times 40 = £72.7$ Bn. (d) Government spending is more effective per pound because it is a direct injection, whereas tax cuts are partially saved. The "spending multiplier" > "tax multiplier."
 </details>
 
 **Problem 2.** A country's income tax schedule is: 0% on the first £12,570, 20% on £12,571–£50,270,
@@ -616,7 +616,7 @@ Have greater long-run benefits? (c) Evaluate the trade-offs.
 
 <details>
 <summary>Hint</summary>
-$k = 1/(0.3 + 0.15 + 0.1) = 1/0.55 = 1.82$. (a) Option A: $\Delta Y = 1.82 \times 80 = £145.5$Bn. Option B: initial consumption boost $= 0.7 \times 80 = £56$Bn. $\Delta Y = 1.82 \times 56 = £101.9$Bn. Option A has a larger impact (£145.5bn vs £101.9bn). (b) Option B might be better long-term if it incentivises work and investment. But Option A (infrastructure) also has long-run supply-side benefits, better transport raises productivity, shifting LRAS right. (c) Trade-offs: Option A has higher multiplier but adds to debt and may suffer from implementation lags. Option B is faster to implement and may improve work incentives but has a smaller multiplier. The best choice depends on the economic context.
+$k = 1/(0.3 + 0.15 + 0.1) = 1/0.55 = 1.82$. (a) Option A: $\Delta Y = 1.82 \times 80 = £145.5$ Bn. Option B: initial consumption boost $= 0.7 \times 80 = £56$ Bn. $\Delta Y = 1.82 \times 56 = £101.9$ Bn. Option A has a larger impact (£145.5bn vs £101.9bn). (b) Option B might be better long-term if it incentivises work and investment. But Option A (infrastructure) also has long-run supply-side benefits, better transport raises productivity, shifting LRAS right. (c) Trade-offs: Option A has higher multiplier but adds to debt and may suffer from implementation lags. Option B is faster to implement and may improve work incentives but has a smaller multiplier. The best choice depends on the economic context.
 </details>
 
 **Problem 10.** "Fiscal policy was ineffective during the 2008 financial crisis because of crowding
@@ -801,7 +801,7 @@ on tax revenue.
 <details>
 <summary>Full Mark Scheme</summary>
 **Laffer curve analysis (4 marks):**
-The Laffer curve suggests that there exists a tax rate $t^*$ that maximises revenue. If the current rate is below $t^*$Raising it increases revenue. If above $t^*$Raising it decreases revenue.
+The Laffer curve suggests that there exists a tax rate $t^*$ that maximises revenue. If the current rate is below $t^*$ Raising it increases revenue. If above $t^*$ Raising it decreases revenue.
 
 **Evidence for the UK (4 marks):**
 
@@ -810,7 +810,7 @@ The Laffer curve suggests that there exists a tax rate $t^*$ that maximises reve
 - The elasticity of taxable income for top earners is estimated at approximately 0.45-0.50 (Saez,
   2012). This means a 10% increase in the marginal tax rate reduces the taxable income base by
   approximately 4.5-5%.
-- Revenue change: $\Delta R \approx t \times \Delta B + B \times \Delta t$Where $B$ is the tax base.
+- Revenue change: $\Delta R \approx t \times \Delta B + B \times \Delta t$ Where $B$ is the tax base.
   If the tax base is GBP 200bn and elasticity is 0.5, a 5 percentage point increase (from 45% to
   50%) gives: $\Delta B = -0.5 \times (5/45) \times 200 = -$11.1bn.
 $\Delta R = 0.50 \times (200 -
@@ -919,14 +919,14 @@ approximately 1.1-1.3. A 5% GDP fall reduces tax revenue by 5.5-6.5%.
 revenue falls by $500 \times 0.05 \times 1.2 = 30$. New tax revenue = 470bn.
 
 Simultaneously, unemployment benefit spending rises. Unemployment goes from 4% to 7% (1.02 million
-additional unemployed). Additional UB cost $= 1.02 \times 15\,000 = 15.3$Bn.
+additional unemployed). Additional UB cost $= 1.02 \times 15\,000 = 15.3$ Bn.
 
-**Automatic stabiliser magnitude:** The budget deficit automatically widens by $30 + 15.3 = 45.3$Bn.
+**Automatic stabiliser magnitude:** The budget deficit automatically widens by $30 + 15.3 = 45.3$ Bn.
 This is equivalent to a fiscal stimulus of $45.3 / 2090 = 2.2\%$ of GDP, implemented with zero
 legislative delay.
 
 **Multiplier effect:** If the multiplier is 1.2, the automatic stabilisers raise GDP by
-$1.2 \times 45.3 = 54.4$Bn, partially offsetting the original 110bn decline. The automatic
+$1.2 \times 45.3 = 54.4$ Bn, partially offsetting the original 110bn decline. The automatic
 stabilisers absorb approximately 49% of the shock.
 
 ### 11.2 Debt Dynamics: Advanced Scenarios
@@ -949,8 +949,8 @@ a large primary deficit, the debt ratio is falling by 10 percentage points per y
 $r \ll g$.
 
 **Key lesson:** the interest rate-growth differential ($r - g$) is more important for debt
-sustainability than the debt level itself. When $r < g$Debt can be sustainable even at very high
-levels. When $r > g$Even moderate debt levels can become unstable.
+sustainability than the debt level itself. When $r < g$ Debt can be sustainable even at very high
+levels. When $r > g$ Even moderate debt levels can become unstable.
 
 ### 11.3 Ricardian Equivalence: Numerical Illustration
 
@@ -1007,16 +1007,16 @@ percentage points. This attracts GBP 30bn of foreign capital.
 
 Step 3: Exchange rate effect. Sterling appreciates by 2% (approximate elasticity). Export revenue
 falls by $0.3 \times 2 = 0.6\%$. On export revenue of 500bn: loss = 3bn. Import spending rises by
-$0.5 \times 2 = 1\%$. On import spending of 600bn: gain = 6bn. Net export change: $-3 + 6 = +3$Bn...
+$0.5 \times 2 = 1\%$. On import spending of 600bn: gain = 6bn. Net export change: $-3 + 6 = +3$ Bn...
 Wait, this is wrong. Currency appreciation makes imports cheaper (increasing import QUANTITY and
 value) and exports more expensive (reducing export QUANTITY and value). Both effects REDUCE net
 exports.
 
-Net export change $= -3 - 6 = -9$Bn (net exports fall by 9bn).
+Net export change $= -3 - 6 = -9$ Bn (net exports fall by 9bn).
 
 Step 4: Multiplier on net export change: $\Delta Y = 1.18 \times (-9) = -10.6$.
 
-**Total effect:** $\Delta Y = 59 - 10.6 = 48.4$Bn.
+**Total effect:** $\Delta Y = 59 - 10.6 = 48.4$ Bn.
 
 **Effective multiplier:** $48.4 / 50 = 0.97$. The open-economy multiplier is LESS than 1 because the
 exchange rate appreciation partially offsets the fiscal expansion.

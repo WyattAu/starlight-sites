@@ -35,7 +35,7 @@ The order relation $\leq$ on $\mathbb{R}$ satisfies:
 1. **Reflexivity**: $a \leq a$
 2. **Antisymmetry**: $a \leq b$ and $b \leq a$ implies $a = b$
 3. **Transitivity**: $a \leq b$ and $b \leq c$ implies $a \leq c$
-4. **Totality**: for all $a, b$Either $a \leq b$ or $b \leq a$
+4. **Totality**: for all $a, b$ Either $a \leq b$ or $b \leq a$
 5. **Compatibility with addition**: $a \leq b$ implies $a + c \leq b + c$
 6. **Compatibility with multiplication**: $a \leq b$ and $0 \leq c$ implies $ac \leq bc$
 
@@ -49,22 +49,22 @@ Upper bound** (supremum) in $\mathbb{R}$.
 
 Let $S \subseteq \mathbb{R}$ be a non-empty set that is bounded above.
 
-**Definition.** The **supremum** (or least upper bound) of $S$Denoted $\sup(S)$Is the real number
+**Definition.** The **supremum** (or least upper bound) of $S$ Denoted $\sup(S)$ Is the real number
 $u$ satisfying:
 
 1. $u$ is an upper bound: $s \leq u$ for all $s \in S$.
 2. $u$ is the least upper bound: if $v$ is any upper bound of $S$ Then $u \leq v$.
 
-Similarly, the **infimum** (or greatest lower bound), $\inf(S)$Is the greatest number $l$ such that
+Similarly, the **infimum** (or greatest lower bound), $\inf(S)$ Is the greatest number $l$ such that
 $l \leq s$ for all $s \in S$.
 
 **Proposition 1.1.** $\sup(S)$ exists if and only if $S$ is non-empty and bounded above.
 
-**Proposition 1.2 (Approximation Property).** If $u = \sup(S)$ Then for every $\varepsilon > 0$There
+**Proposition 1.2 (Approximation Property).** If $u = \sup(S)$ Then for every $\varepsilon > 0$ There
 Exists $s \in S$ such that $u - \varepsilon \lt s \leq u$.
 
 _Proof._ If no such $s$ existed, then $u - \varepsilon$ would be an upper bound of $S$ strictly less
-Than $u$Contradicting the definition of $\sup(S)$. $\blacksquare$
+Than $u$ Contradicting the definition of $\sup(S)$. $\blacksquare$
 
 **Example.** Let $S = \{x \in \mathbb{R} : x^2 \lt 2\}$. Then $\sup(S) = \sqrt{2}$. Note that
 $\sqrt{2}
@@ -72,24 +72,24 @@ $\sqrt{2}
 
 ### 1.4 Archimedean Property
 
-**Theorem 1.1 (Archimedean Property).** For every $x \in \mathbb{R}$There exists $n \in \mathbb{N}$
+**Theorem 1.1 (Archimedean Property).** For every $x \in \mathbb{R}$ There exists $n \in \mathbb{N}$
 Such that $n \gt x$.
 
 _Proof._ Suppose, for contradiction, that $\mathbb{N}$ is bounded above. By the completeness axiom,
 $s = \sup(\mathbb{N})$ exists in $\mathbb{R}$. Then $s - 1$ is not an upper bound for $\mathbb{N}$
-So there exists $n \in \mathbb{N}$ with $n \gt s - 1$I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
+So there exists $n \in \mathbb{N}$ with $n \gt s - 1$ I.e., $n + 1 \gt s$. But $n + 1 \in \mathbb{N}$
 Contradicting that $s$ is an upper bound. $\blacksquare$
 
-**Corollary 1.2.** For every $\varepsilon > 0$There exists $n \in \mathbb{N}$ such that
+**Corollary 1.2.** For every $\varepsilon > 0$ There exists $n \in \mathbb{N}$ such that
 $1/n \lt \varepsilon$.
 
 _Proof._ By the Archimedean property, choose $n \in \mathbb{N}$ with $n \gt 1/\varepsilon$. Then
 $1/n \lt \varepsilon$. $\blacksquare$
 
-**Corollary 1.3 (Density of $\mathbb{Q}$).** Between any two distinct real numbers $a \lt b$There
+**Corollary 1.3 (Density of $\mathbb{Q}$).** Between any two distinct real numbers $a \lt b$ There
 Exists a rational number $q \in \mathbb{Q}$ with $a \lt q \lt b$.
 
-_Proof._ Since $b - a > 0$By Corollary 1.2 there exists $n \in \mathbb{N}$ with $1/n \lt b - a$ So
+_Proof._ Since $b - a > 0$ By Corollary 1.2 there exists $n \in \mathbb{N}$ with $1/n \lt b - a$ So
 $1 \lt n(b - a) = nb - na$. Let $m = \lfloor na \rfloor + 1 \in \mathbb{Z}$. Then
 $m - 1 \leq na \lt m$ Giving $m \leq na + 1 \lt na + n(b - a) = nb$. Hence $a \lt m/n \lt b$ And
 $m/n \in \mathbb{Q}$. $\blacksquare$
@@ -97,7 +97,7 @@ $m/n \in \mathbb{Q}$. $\blacksquare$
 ### 1.5 Properties of Supremum and Infimum
 
 **Proposition 1.4.** If $A$ and $B$ are non-empty bounded subsets of $\mathbb{R}$ Then
-$\sup(A + B) = \sup(A) + \sup(B)$Where $A + B = \{a + b : a \in A, b \in B\}$.
+$\sup(A + B) = \sup(A) + \sup(B)$ Where $A + B = \{a + b : a \in A, b \in B\}$.
 
 _Proof._ For all $a \in A$ and $b \in B$: $a \leq \sup(A)$ and $b \leq \sup(B)$ So
 $a + b \leq \sup(A) + \sup(B)$. Thus $\sup(A) + \sup(B)$ is an upper bound for $A + B$ So
@@ -113,15 +113,15 @@ Where $-S = \{-s : s \in S\}$.
 
 _Proof._ Let $u = \sup(-S)$. Then $-s \leq u$ for all $s \in S$ So $s \geq -u$ for all $s \in S$
 Meaning $-u$ is a lower bound for $S$. If $v$ is any lower bound for $S$ Then $-v$ is an upper bound
-For $-S$ So $u \leq -v$I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
+For $-S$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u = \inf(S)$. $\blacksquare$
 
 <details>
 <summary>Worked Example: Find $\sup$ and $\inf$ of $S = \{(-1)^n + 1/n : n \in \mathbb{N}\}$</summary>
 
 _Solution._ The first few terms are $0, 3/2, -2/3, 5/4, -4/5, 7/6, \ldots$.
 
-For even $n = 2k$: $(-1)^{2k} + 1/(2k) = 1 + 1/(2k)$Which decreases toward $1$ from above. For odd
-$n = 2k-1$: $(-1)^{2k-1} + 1/(2k-1) = -1 + 1/(2k-1)$Which increases toward $-1$ from below.
+For even $n = 2k$: $(-1)^{2k} + 1/(2k) = 1 + 1/(2k)$ Which decreases toward $1$ from above. For odd
+$n = 2k-1$: $(-1)^{2k-1} + 1/(2k-1) = -1 + 1/(2k-1)$ Which increases toward $-1$ from below.
 
 The even terms form the sequence $3/2, 5/4, 7/6, \ldots$ with limit $1$ So $\sup(S) = 3/2$ (the first
 even term). The odd terms form $0, -2/3, -4/5, \ldots$ with limit $-1$ And since $0$ Is an
@@ -131,7 +131,7 @@ odd-indexed term, $\inf(S) = -1$ (approached but not attained). $\blacksquare$
 
 ### 1.6 Construction of $\mathbb{R}$ via Dedekind Cuts
 
-_Remark._ The following outline shows how $\mathbb{R}$ can be constructed from $\mathbb{Q}$Making
+_Remark._ The following outline shows how $\mathbb{R}$ can be constructed from $\mathbb{Q}$ Making
 The completeness axiom a theorem rather than an axiom.
 
 **Definition (Dedekind Cut).** A **Dedekind cut** is a subset $\alpha \subseteq \mathbb{Q}$
@@ -139,7 +139,7 @@ satisfying:
 
 1. $\alpha \neq \emptyset$ and $\alpha \neq \mathbb{Q}$
 2. If $p \in \alpha$ and $q \lt p$ (with $q \in \mathbb{Q}$), then $q \in \alpha$ (downward closure)
-3. $\alpha$ has no greatest element: for every $p \in \alpha$There exists $q \in \alpha$ with
+3. $\alpha$ has no greatest element: for every $p \in \alpha$ There exists $q \in \alpha$ with
    $p \lt q$
 
 **Definition.** The set of real numbers $\mathbb{R}$ is defined as the set of all Dedekind cuts.
@@ -186,8 +186,8 @@ _Remark._ The field $\mathbb{Q}$ satisfies none of these properties, which is wh
 Extended to $\mathbb{R}$ for analysis.
 
 :::caution
-$\sup(S)$ need not belong to $S$. For example, $\sup\{1/n : n \in \mathbb{N}\} = 1$Which belongs to
-the set, but $\sup(0, 1) = 1$Which does not belong to $(0, 1)$.
+$\sup(S)$ need not belong to $S$. For example, $\sup\{1/n : n \in \mathbb{N}\} = 1$ Which belongs to
+the set, but $\sup(0, 1) = 1$ Which does not belong to $(0, 1)$.
 :::
 
 ## 2. Sequences and Limits
@@ -195,7 +195,7 @@ the set, but $\sup(0, 1) = 1$Which does not belong to $(0, 1)$.
 ### 2.1 Convergence
 
 A sequence $(a_n)_{n=1}^{\infty}$ in $\mathbb{R}$ **converges** to a limit $L \in \mathbb{R}$ if for
-Every $\varepsilon > 0$There exists $N \in \mathbb{N}$ such that
+Every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
 
 $$
 |a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
@@ -218,7 +218,7 @@ A contradiction. $\blacksquare$
 
 **Proposition 2.2.** Every convergent sequence is bounded.
 
-_Proof._ Let $a_n \to L$. Taking $\varepsilon = 1$There exists $N$ such that $|a_n - L| \lt 1$ for
+_Proof._ Let $a_n \to L$. Taking $\varepsilon = 1$ There exists $N$ such that $|a_n - L| \lt 1$ for
 All $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
 $M = \max\{|a_1|, |a_2|, \ldots, |a_{N-1}|, |L| + 1\}$. Then $|a_n| \leq M$ for all $n$.
 $\blacksquare$
@@ -248,7 +248,7 @@ $|a_n - s| \lt \varepsilon$ for all $n \geq N$. $\blacksquare$
 
 ### 2.3 Cauchy Sequences
 
-A sequence $(a_n)$ is a **Cauchy sequence** if for every $\varepsilon > 0$There exists
+A sequence $(a_n)$ is a **Cauchy sequence** if for every $\varepsilon > 0$ There exists
 $N \in
 \mathbb{N}$ such that
 
@@ -258,7 +258,7 @@ $$
 
 **Theorem 2.4.** Every convergent sequence is Cauchy.
 
-_Proof._ Let $a_n \to L$. Given $\varepsilon > 0$Choose $N$ such that $|a_n - L| \lt \varepsilon/2$
+_Proof._ Let $a_n \to L$. Given $\varepsilon > 0$ Choose $N$ such that $|a_n - L| \lt \varepsilon/2$
 For all $n \geq N$. Then for $m, n \geq N$:
 $|a_n - a_m| \leq |a_n - L| + |a_m - L| \lt \varepsilon$. $\blacksquare$
 
@@ -269,8 +269,8 @@ _Proof._ Let $(a_n)$ be Cauchy. First, $(a_n)$ is bounded: choose $N$ with $|a_n
 $m, n \geq N$. Then $|a_n| \leq |a_N| + 1$ for $n \geq N$. By the Bolzano-Weierstrass theorem
 (Theorem 2.6 below), $(a_n)$ has a convergent subsequence $(a_{n_k}) \to L$. We show $a_n \to L$.
 
-Given $\varepsilon > 0$Choose $N_1$ so that $|a_n - a_m| \lt \varepsilon/2$ for $m, n \geq N_1$ And
-$K$ so that $|a_{n_k} - L| \lt \varepsilon/2$ for $k \geq K$. For $n \geq N_1$Choose $k \geq K$ with
+Given $\varepsilon > 0$ Choose $N_1$ so that $|a_n - a_m| \lt \varepsilon/2$ for $m, n \geq N_1$ And
+$K$ so that $|a_{n_k} - L| \lt \varepsilon/2$ for $k \geq K$. For $n \geq N_1$ Choose $k \geq K$ with
 $n_k \geq N_1$ (possible since $n_k \to \infty$). Then
 
 $$
@@ -296,7 +296,7 @@ subsequence.
 
 _Proof._ Let $(a_n)$ be bounded, so $a_n \in [A, B]$ for all $n$. Set $I_0 = [A, B]$. Bisect $I_0$
 into $[A, (A+B)/2]$ and $[(A+B)/2, B]$. At least one contains infinitely many terms of $(a_n)$; call
-it $I_1$. Having constructed $I_k = [l_k, r_k]$Bisect it and select $I_{k+1}$ as the half containing
+it $I_1$. Having constructed $I_k = [l_k, r_k]$ Bisect it and select $I_{k+1}$ as the half containing
 Infinitely many terms of $(a_n)$.
 
 This produces a nested sequence of closed intervals
@@ -305,7 +305,7 @@ By the **Nested Interval Property** (which follows From completeness),
 $\bigcap_{k=0}^{\infty} I_k = \{c\}$ for some $c \in [A, B]$.
 
 Construct the subsequence inductively: pick $n_1$ with $a_{n_1} \in I_1$. Having chosen
-$n_1 \lt n_2 \lt \cdots \lt n_{k-1}$Pick $n_k > n_{k-1}$ with $a_{n_k} \in I_k$ (possible since
+$n_1 \lt n_2 \lt \cdots \lt n_{k-1}$ Pick $n_k > n_{k-1}$ with $a_{n_k} \in I_k$ (possible since
 $I_k$ contains infinitely many terms). Then $a_{n_k} \in I_k$ for all $k$ So
 $|a_{n_k} - c| \leq \mathrm{length}(I_k) \to 0$. Hence $a_{n_k} \to c$. $\blacksquare$
 
@@ -326,16 +326,16 @@ _Proof._ For any $n$, $\inf_{k \geq n} a_k \leq a_n \leq \sup_{k \geq n} a_n$. T
 $n$ on the left: $\liminf a_n \leq \sup_{k \geq n} a_k$ for every $n$. Taking infimum over $n$ on
 The right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
 
-**Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$In which case the
+**Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$ In which case the
 Common value equals $\lim a_n$.
 
-_Proof._ If $a_n \to L$ Then for every $\varepsilon > 0$There exists $N$ such that
+_Proof._ If $a_n \to L$ Then for every $\varepsilon > 0$ There exists $N$ such that
 $L - \varepsilon \lt a_n \lt L + \varepsilon$ for $n \geq N$. Hence
 $\sup_{k \geq n} a_k \leq L + \varepsilon$ For $n \geq N$ So $\limsup a_n \leq L + \varepsilon$.
 Since $\varepsilon > 0$ is arbitrary, $\limsup a_n \leq L$. Similarly $\liminf a_n \geq L$. Combined
 with Proposition 2.5, $\liminf a_n = \limsup a_n = L$.
 
-Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$There exists $N_1$
+Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$ There exists $N_1$
 With $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
 $\inf_{k \geq n} a_k > L - \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
 $L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
@@ -344,13 +344,13 @@ $L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
 the smallest.
 
 _Proof._ Let $L^* = \limsup a_n = \inf_n \sup_{k \geq n} a_k$. Define $s_n = \sup_{k \geq n} a_k$.
-Then $(s_n)$ is decreasing and $s_n \to L^*$. For each $n$Choose $k_n \geq n$ with
+Then $(s_n)$ is decreasing and $s_n \to L^*$. For each $n$ Choose $k_n \geq n$ with
 $a_{k_n} > s_n - 1/n$. Then $a_{k_n} \to L^*$ (by squeeze), producing a subsequence converging to
 $L^*$.
 
 If $L > L^*$ were a subsequential limit, choose a subsequence $a_{n_j} \to L$. For large $j$:
 $a_{n_j} > (L + L^*)/2 > L^*$. But $a_{n_j} \leq s_{n_j}$ for all $j$ And $s_{n_j} \to L^*$ So
-$a_{n_j} \leq s_{n_j} \lt (L + L^*)/2$ for large $j$A contradiction. $\blacksquare$
+$a_{n_j} \leq s_{n_j} \lt (L + L^*)/2$ for large $j$ A contradiction. $\blacksquare$
 
 **Proposition 2.8 (Algebra of $\limsup$/$\liminf$).** If $(a_n)$ and $(b_n)$ are bounded sequences:
 
@@ -376,7 +376,7 @@ No subsequence can have a limit greater than $1$ (since $a_n \leq n/(n+1) \lt 1$
 $a_n \lt 0$ for odd $n$). Similarly, no subsequence can have a limit less than $-1$.
 
 Therefore $\limsup_{n \to \infty} a_n = 1$ and $\liminf_{n \to \infty} a_n = -1$. Since
-$\limsup \neq \liminf$The sequence diverges. $\blacksquare$
+$\limsup \neq \liminf$ The sequence diverges. $\blacksquare$
 
 </details>
 
@@ -384,8 +384,8 @@ $\limsup \neq \liminf$The sequence diverges. $\blacksquare$
 
 **Problem.** Prove that $\lim_{n \to \infty} \frac{n}{n+1} = 1$.
 
-_Solution._ Let $\varepsilon > 0$. We need $\left|\frac{n}{n+1} - 1\right| \lt \varepsilon$I.e.,
-$\frac{1}{n+1} \lt \varepsilon$I.e., $n > \frac{1}{\varepsilon} - 1$. Choose
+_Solution._ Let $\varepsilon > 0$. We need $\left|\frac{n}{n+1} - 1\right| \lt \varepsilon$ I.e.,
+$\frac{1}{n+1} \lt \varepsilon$ I.e., $n > \frac{1}{\varepsilon} - 1$. Choose
 $N = \lceil \frac{1}{\varepsilon} \rceil$. Then for $n \geq N$: $n \geq \frac{1}{\varepsilon}$ So
 $n+1 > \frac{1}{\varepsilon}$ So $\frac{1}{n+1} \lt \varepsilon$. $\blacksquare$
 
@@ -398,7 +398,7 @@ $$
 \left|\frac{3n+1}{n+2} - 3\right| = \left|\frac{3n+1 - 3(n+2)}{n+2}\right| = \left|\frac{-5}{n+2}\right| = \frac{5}{n+2}
 $$
 
-We need $\frac{5}{n+2} \lt \varepsilon$I.e., $n + 2 > 5/\varepsilon$I.e., $n > 5/\varepsilon - 2$.
+We need $\frac{5}{n+2} \lt \varepsilon$ I.e., $n + 2 > 5/\varepsilon$ I.e., $n > 5/\varepsilon - 2$.
 Choose $N = \lceil 5/\varepsilon \rceil$. Then for $n \geq N$:
 
 $$
@@ -420,7 +420,7 @@ $a_2 = \sqrt{2 + \sqrt{2}} \approx 1.848$. Assume $a_n \leq a_{n+1}$. Then
 $a_{n+1} = \sqrt{2 + a_n} \leq \sqrt{2 + a_{n+1}} = a_{n+2}$.
 
 **Step 3:** By the Monotone Convergence Theorem, $(a_n)$ converges. Let $L = \lim a_n$. Taking
-limits In $a_{n+1} = \sqrt{2 + a_n}$: $L = \sqrt{2 + L}$ So $L^2 = 2 + L$Giving $L^2 - L - 2 = 0$ So
+limits In $a_{n+1} = \sqrt{2 + a_n}$: $L = \sqrt{2 + L}$ So $L^2 = 2 + L$ Giving $L^2 - L - 2 = 0$ So
 $(L-2)(L+1) = 0$. Since $a_n \geq \sqrt{2} > 0$ for all $n$, $L \geq 0$ So $L = 2$. $\blacksquare$
 
 </details>
@@ -439,7 +439,7 @@ $\limsup = 0$.
 A **series** $\sum_{n=1}^{\infty} a_n$ converges if the sequence of partial sums
 $S_N = \sum_{n=1}^{N} a_n$ Converges. The limit is the sum of the series.
 
-If $a_n \geq 0$ for all $n$The series of partial sums is increasing, so by the monotone convergence
+If $a_n \geq 0$ for all $n$ The series of partial sums is increasing, so by the monotone convergence
 Theorem, $\sum a_n$ converges if and only if $(S_N)$ is bounded above.
 
 ### 3.2 Convergence Tests
@@ -457,16 +457,16 @@ if $\sum b_n$ converges.
 
 - If $L \lt 1$, $\sum a_n$ converges absolutely.
 - If $L > 1$, $\sum a_n$ diverges.
-- If $L = 1$The test is inconclusive.
+- If $L = 1$ The test is inconclusive.
 
 **Theorem 3.4 (Root Test).** If $\limsup_{n \to \infty} \sqrt[n]{|a_n|} = L$ Then:
 
 - If $L \lt 1$, $\sum a_n$ converges absolutely.
 - If $L > 1$, $\sum a_n$ diverges.
-- If $L = 1$The test is inconclusive.
+- If $L = 1$ The test is inconclusive.
 
-_Proof._ If $L \lt 1$Choose $r$ with $L \lt r \lt 1$. By definition of $\limsup$There exists $N$
-such that $\sqrt[n]{|a_n|} \lt r$ for all $n \geq N$I.e., $|a_n| \lt r^n$. Since $\sum r^n$
+_Proof._ If $L \lt 1$ Choose $r$ with $L \lt r \lt 1$. By definition of $\limsup$ There exists $N$
+such that $\sqrt[n]{|a_n|} \lt r$ for all $n \geq N$ I.e., $|a_n| \lt r^n$. Since $\sum r^n$
 converges (geometric series with $r \lt 1$), the comparison test gives absolute convergence.
 
 If $L > 1$ Then for infinitely many $n$: $\sqrt[n]{|a_n|} > 1$ So $|a_n| > 1$. Hence $a_n \not\to 0$
@@ -497,11 +497,11 @@ hence diverges. $\blacksquare$
 $\sum_{n=1}^{\infty} (-1)^{n+1} a_n$ converges.
 
 _Proof._ The partial sums of the even-indexed subsequence satisfy
-$S_{2n} = S_{2n-2} - a_{2n-1} + a_{2n}$. Since $a_{2n-1} \geq a_{2n}$We have
+$S_{2n} = S_{2n-2} - a_{2n-1} + a_{2n}$. Since $a_{2n-1} \geq a_{2n}$ We have
 $S_{2n} \leq S_{2n-2}$ So $(S_{2n})$ is decreasing. Similarly, $(S_{2n+1})$ is increasing. Also
 $S_{2n+1} = S_{2n} + a_{2n+1} \geq S_{2n}$. Both sequences are bounded (since $(S_{2n})$ is
 decreasing and bounded below by $S_1$ And $(S_{2n+1})$ is increasing and bounded Above by $S_2$).
-Hence both converge. Since $a_{2n+1} \to 0$Their limits coincide. $\blacksquare$
+Hence both converge. Since $a_{2n+1} \to 0$ Their limits coincide. $\blacksquare$
 
 ### 3.3 Absolute and Conditional Convergence
 
@@ -511,7 +511,7 @@ conditionally** If $\sum a_n$ converges but $\sum |a_n|$ diverges.
 **Theorem 3.7.** If $\sum a_n$ converges absolutely, then $\sum a_n$ converges.
 
 _Proof._ Since $\sum |a_n|$ converges, the partial sums of $\sum |a_n|$ satisfy the Cauchy
-criterion. Given $\varepsilon > 0$There exists $N$ such that for $m > n \geq N$:
+criterion. Given $\varepsilon > 0$ There exists $N$ such that for $m > n \geq N$:
 $\sum_{k=n+1}^{m} |a_k| \lt \varepsilon$. Then
 $\left|\sum_{k=n+1}^{m} a_k\right| \leq \sum_{k=n+1}^{m} |a_k| \lt \varepsilon$ So $\sum a_n$
 satisfies The Cauchy criterion and converges. $\blacksquare$
@@ -551,8 +551,8 @@ If $\sum 2^k a_{2^k}$ converges, the upper bound shows $\sum a_n$ converges. If 
 Converges, the lower bound shows $\sum 2^k a_{2^k}$ converges. $\blacksquare$
 
 _Corollary._ $\sum_{n=1}^{\infty} 1/n^p$ converges if and only if $p > 1$. Apply the condensation
-Test: $\sum 2^k \cdot 1/(2^k)^p = \sum 2^{k(1-p)}$A geometric series with ratio $2^{1-p}$ Which
-converges iff $1 - p \lt 0$I.e., $p > 1$.
+Test: $\sum 2^k \cdot 1/(2^k)^p = \sum 2^{k(1-p)}$ A geometric series with ratio $2^{1-p}$ Which
+converges iff $1 - p \lt 0$ I.e., $p > 1$.
 
 ### 3.6 Rearrangement of Series
 
@@ -616,7 +616,7 @@ The integral diverges, so by the integral test, the series diverges. $\blacksqua
 
 _Solution._ This is the alternating harmonic series, with $a_n = 1/n$. By the alternating series
 Estimation theorem, $|S - S_N| \leq a_{N+1} = 1/(N+1)$. We need $1/(N+1) \leq 0.01$ So
-$N + 1 \geq 100$I.e., $N \geq 99$.
+$N + 1 \geq 100$ I.e., $N \geq 99$.
 
 So $S_{99} = \sum_{n=1}^{99} \frac{(-1)^{n+1}}{n}$ approximates $\ln 2$ to within $0.01$. (The exact
 sum is $\ln 2 \approx 0.6931$.) $\blacksquare$
@@ -660,7 +660,7 @@ cases, try the comparison Test, integral test, or other methods. For example, $\
 ### 4.1 Limits of Functions
 
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
-Every $\varepsilon > 0$There exists $\delta > 0$ such that
+Every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
 $$
 0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
@@ -669,7 +669,7 @@ $$
 ### 4.2 Continuity
 
 **Definition.** $f$ is **continuous at $a$** if $\lim_{x \to a} f(x) = f(a)$. In epsilon-delta form:
-For every $\varepsilon > 0$There exists $\delta > 0$ such that
+For every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
 $$
 |x - a| \lt \delta \implies |f(x) - f(a)| \lt \varepsilon
@@ -701,16 +701,16 @@ The epsilon-delta definitions can be reformulated in terms of sequences, which i
 Convenient for proofs.
 
 **Proposition 4.2a (Sequential Criterion for Limits).** $\lim_{x \to c} f(x) = L$ if and only if For
-every sequence $(x_n)$ with $x_n \to c$ and $x_n \neq c$ for all $n$We have $f(x_n) \to L$.
+every sequence $(x_n)$ with $x_n \to c$ and $x_n \neq c$ for all $n$ We have $f(x_n) \to L$.
 
 _Proof._ ($\Rightarrow$) Let $\varepsilon > 0$. Choose $\delta > 0$ from the $\varepsilon$-$\delta$
-definition. Since $x_n \to c$There exists $N$ with $|x_n - c| \lt \delta$ for $n \geq N$. Then
+definition. Since $x_n \to c$ There exists $N$ with $|x_n - c| \lt \delta$ for $n \geq N$. Then
 $|f(x_n) - L| \lt \varepsilon$ for $n \geq N$.
 
 ($\Leftarrow$) Suppose the $\varepsilon$-$\delta$ condition fails. Then there exists
-$\varepsilon > 0$ such That for every $n \in \mathbb{N}$There exists $x_n$ with
+$\varepsilon > 0$ such That for every $n \in \mathbb{N}$ There exists $x_n$ with
 $0 \lt |x_n - c| \lt 1/n$ but $|f(x_n) - L| \geq \varepsilon$. Then $x_n \to c$ but
-$f(x_n) \not\to L$Contradicting the hypothesis. $\blacksquare$
+$f(x_n) \not\to L$ Contradicting the hypothesis. $\blacksquare$
 
 **Corollary 4.2b.** $f$ is continuous at $c$ if and only if for every sequence $(x_n)$ with
 $x_n \to c$ We have $f(x_n) \to f(c)$.
@@ -726,17 +726,17 @@ $f(b) \lt y \lt f(a)$), then there exists $c \in (a,b)$ such that $f(c) = y$.
 _Proof._ Assume $f(a) \lt y \lt f(b)$. Let $S = \{x \in [a,b] : f(x) \lt y\}$. Since $a \in S$ $S$
 is non-empty and bounded above by $b$. Let $c = \sup(S)$. We show $f(c) = y$.
 
-If $f(c) \lt y$ Then by continuity at $c$There exists $\delta > 0$ such that $f(x) \lt y$ for
-$x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$Contradicting that $c = \sup(S)$.
+If $f(c) \lt y$ Then by continuity at $c$ There exists $\delta > 0$ such that $f(x) \lt y$ for
+$x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$ Contradicting that $c = \sup(S)$.
 
 If $f(c) > y$ Then by continuity, there exists $\delta > 0$ such that $f(x) > y$ for
-$x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$Contradicting
+$x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$ Contradicting
 That $c = \sup(S)$.
 
 Therefore $f(c) = y$. $\blacksquare$
 
 _Alternative proof (bisection)._ Set $a_0 = a$, $b_0 = b$. Given $[a_n, b_n]$ with
-$f(a_n) \lt y \lt f(b_n)$ Let $m_n = (a_n + b_n)/2$. If $f(m_n) \geq y$Set $a_{n+1} = a_n$,
+$f(a_n) \lt y \lt f(b_n)$ Let $m_n = (a_n + b_n)/2$. If $f(m_n) \geq y$ Set $a_{n+1} = a_n$,
 $b_{n+1} = m_n$. If $f(m_n) \lt y$ Set $a_{n+1} = m_n$, $b_{n+1} = b_n$. Either way,
 $f(a_n) \lt y \leq f(b_n)$ and $b_n - a_n = (b-a)/2^n \to 0$. By the nested interval property,
 $a_n \to c$ and $b_n \to c$. By continuity, $f(c) = \lim f(a_n) \leq y$ And
@@ -748,20 +748,20 @@ $f(c) = \lim f(b_n) \geq y$ So $f(c) = y$. $\blacksquare$
 Minimum on $[a,b]$: there exist $c_1, c_2 \in [a,b]$ such that $f(c_1) \leq f(x) \leq f(c_2)$ for
 all $x \in [a,b]$.
 
-_Proof._ We first show $f$ is bounded. Suppose not; then for each $n \in \mathbb{N}$There exists
+_Proof._ We first show $f$ is bounded. Suppose not; then for each $n \in \mathbb{N}$ There exists
 $x_n \in [a,b]$ with $|f(x_n)| > n$. By Bolzano-Weierstrass, $(x_n)$ has a convergent subsequence
 $x_{n_k} \to c \in [a,b]$. By continuity, $f(x_{n_k}) \to f(c)$ So $(f(x_{n_k}))$ is bounded. But
-$|f(x_{n_k})| > n_k \to \infty$A contradiction.
+$|f(x_{n_k})| > n_k \to \infty$ A contradiction.
 
-Now we show $f$ attains its supremum. Let $M = \sup\{f(x) : x \in [a,b]\}$. For each $n$Choose
+Now we show $f$ attains its supremum. Let $M = \sup\{f(x) : x \in [a,b]\}$. For each $n$ Choose
 $x_n \in [a,b]$ with $f(x_n) > M - 1/n$. By Bolzano-Weierstrass, $(x_n)$ has a subsequence
 $x_{n_k} \to c \in [a,b]$. By continuity, $f(c) = \lim f(x_{n_k})$. Since
-$M - 1/n_k \lt f(x_{n_k}) \leq M$ for all $k$The squeeze theorem gives $f(c) = M$. The argument for
+$M - 1/n_k \lt f(x_{n_k}) \leq M$ for all $k$ The squeeze theorem gives $f(c) = M$. The argument for
 the infimum is similar (consider $-f$). $\blacksquare$
 
 ### 4.5 Uniform Continuity
 
-**Definition.** $f$ is **uniformly continuous** on $D$ if for every $\varepsilon > 0$There exists
+**Definition.** $f$ is **uniformly continuous** on $D$ if for every $\varepsilon > 0$ There exists
 $\delta > 0$ such that for all $x, y \in D$:
 
 $$
@@ -777,11 +777,11 @@ point $a$; for uniform continuity, $\delta$ depends only on $\varepsilon$.
 Interval $[a,b]$ Then $f$ is uniformly continuous on $[a,b]$.
 
 _Proof._ Suppose $f$ is continuous on $[a,b]$ but not uniformly continuous. Then there exists
-$\varepsilon > 0$ such that for every $n \in \mathbb{N}$There exist $x_n, y_n \in [a,b]$ with
+$\varepsilon > 0$ such that for every $n \in \mathbb{N}$ There exist $x_n, y_n \in [a,b]$ with
 $|x_n - y_n| \lt 1/n$ but $|f(x_n) - f(y_n)| \geq \varepsilon$.
 
 By the Bolzano-Weierstrass theorem, $(x_n)$ has a convergent subsequence $x_{n_k} \to c \in [a,b]$.
-Since $|x_{n_k} - y_{n_k}| \lt 1/n_k \to 0$We have $y_{n_k} \to c$ as well.
+Since $|x_{n_k} - y_{n_k}| \lt 1/n_k \to 0$ We have $y_{n_k} \to c$ as well.
 
 By continuity of $f$ at $c$: there exists $\delta > 0$ such that $|x - c| \lt \delta$ implies
 $|f(x) - f(c)| \lt \varepsilon/2$. For $k$ sufficiently large, $|x_{n_k} - c| \lt \delta$ and
@@ -800,9 +800,9 @@ Contradicting $|f(x_{n_k}) - f(y_{n_k})| \geq \varepsilon$. $\blacksquare$
 _Solution._ For $x, y \geq 0$:
 $|\sqrt{x} - \sqrt{y}| = \frac{|x - y|}{\sqrt{x} + \sqrt{y}} \leq |x - y|^{1/2}$.
 
-Given $\varepsilon > 0$Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
+Given $\varepsilon > 0$ Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
 $|\sqrt{x} - \sqrt{y}| \leq \sqrt{|x-y|} \lt \sqrt{\delta} = \varepsilon$. Since $\delta$ depends
-Only on $\varepsilon$The continuity is uniform. $\blacksquare$
+Only on $\varepsilon$ The continuity is uniform. $\blacksquare$
 
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ proof that $f(x) = 3x - 1$ is continuous at $x = 2$</summary>
@@ -826,7 +826,7 @@ $$
 |f(x) - 9| = |x^2 - 9| = |x + 3| \cdot |x - 3|
 $$
 
-Restrict to $\delta \leq 1$ So $|x - 3| \lt 1$ means $2 \lt x \lt 4$Giving $|x + 3| \lt 7$.
+Restrict to $\delta \leq 1$ So $|x - 3| \lt 1$ means $2 \lt x \lt 4$ Giving $|x + 3| \lt 7$.
 
 Choose $\delta = \min(1, \varepsilon/7)$. Then $|x - 3| \lt \delta$ implies:
 
@@ -876,7 +876,7 @@ $$
 |f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon
 $$
 
-So $f$ is continuous at $0$. Since $f$ extends continuously from $(0, 1]$ to $[0, 1]$The
+So $f$ is continuous at $0$. Since $f$ extends continuously from $(0, 1]$ to $[0, 1]$ The
 Heine-Cantor Theorem implies $f$ is uniformly continuous on $[0, 1]$. $\blacksquare$
 
 </details>
@@ -903,7 +903,7 @@ continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquar
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ proof that $f(x) = e^x$ is continuous at every $a \in \mathbb{R}$</summary>
 
-_Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$Which follows from the
+_Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$ Which follows from the
 Mean Value Theorem applied to $e^t$: $e^u - e^v = e^\xi (u - v)$ for some $\xi$ between $u$ and $v$
 So $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
 
@@ -960,7 +960,7 @@ The converse is false: $f(x) = |x|$ is continuous at $0$ but not differentiable 
 ### 5.3 Mean Value Theorem
 
 **Theorem 5.2 (Rolle's Theorem).** If $f : [a,b] \to \mathbb{R}$ is continuous on
-$[a,b]$Differentiable On $(a,b)$ And $f(a) = f(b)$ Then there exists $c \in (a,b)$ such that
+$[a,b]$ Differentiable On $(a,b)$ And $f(a) = f(b)$ Then there exists $c \in (a,b)$ such that
 $f'(c) = 0$.
 
 _Proof._ By the Extreme Value Theorem, $f$ attains its maximum $M$ and minimum $m$ on $[a,b]$. If
@@ -976,7 +976,7 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 $$
 
 _Proof._ Define $g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x - a)$. Then $g(a) = g(b)$ and $g$ satisfies
-the Hypotheses of Rolle's theorem. So $g'(c) = 0$ for some $c \in (a,b)$Which gives the result.
+the Hypotheses of Rolle's theorem. So $g'(c) = 0$ for some $c \in (a,b)$ Which gives the result.
 $\blacksquare$
 
 **Corollary 5.4.** If $f'(x) = 0$ for all $x \in (a,b)$ Then $f$ is constant on $[a,b]$.
@@ -991,9 +991,9 @@ $$
 $$
 
 _Proof._ Define $h(x) = (f(b) - f(a))g(x) - (g(b) - g(a))f(x)$. Then $h(a) = h(b)$ So by Rolle's
-Theorem, $h'(c) = 0$ for some $c \in (a,b)$Which gives the result. $\blacksquare$
+Theorem, $h'(c) = 0$ for some $c \in (a,b)$ Which gives the result. $\blacksquare$
 
-_Remark._ When $g(x) = x$Cauchy's MVT reduces to the standard MVT. Cauchy’s MVT is the key
+_Remark._ When $g(x) = x$ Cauchy's MVT reduces to the standard MVT. Cauchy’s MVT is the key
 Ingredient in the proof of L'Hôpital’s rule.
 
 **Corollary 5.6.** If $f$ is differentiable on $(a,b)$ and $|f'(x)| \leq M$ for all $x \in (a,b)$
@@ -1043,14 +1043,14 @@ open interval containing $c$ (except possibly at $c$ itself), $g'(x) \neq 0$ nea
 $\lim_{x \to c} f(x) = \lim_{x \to c} g(x) = 0$. If $\lim_{x \to c} f'(x)/g'(x) = L$ exists (as a
 finite Number or $\pm\infty$), then $\lim_{x \to c} f(x)/g(x) = L$.
 
-_Proof._ Extend $f$ and $g$ continuously to $c$ by setting $f(c) = g(c) = 0$. For $x \neq c$By
+_Proof._ Extend $f$ and $g$ continuously to $c$ by setting $f(c) = g(c) = 0$. For $x \neq c$ By
 Cauchy's Mean Value Theorem, there exists $\xi$ strictly between $c$ and $x$ such that
 
 $$
 \frac{f(x) - f(c)}{g(x) - g(c)} = \frac{f'(\xi)}{g'(\xi)}
 $$
 
-I.e., $\frac{f(x)}{g(x)} = \frac{f'(\xi)}{g'(\xi)}$. As $x \to c$We have $\xi \to c$ (since $\xi$ is
+I.e., $\frac{f(x)}{g(x)} = \frac{f'(\xi)}{g'(\xi)}$. As $x \to c$ We have $\xi \to c$ (since $\xi$ is
 trapped between $c$ and $x$). Therefore
 $\lim_{x \to c} f(x)/g(x) = \lim_{\xi \to c} f'(\xi)/g'(\xi) = L$. $\blacksquare$
 
@@ -1059,19 +1059,19 @@ Differentiable on $(a, b)$ (except possibly at $c$), $g'(x) \neq 0$ near $c$ And
 $\lim_{x \to c} |f(x)| = \lim_{x \to c} |g(x)| = \infty$. If $\lim_{x \to c} f'(x)/g'(x) = L$
 exists, Then $\lim_{x \to c} f(x)/g(x) = L$.
 
-_Proof (sketch)._ Fix $\varepsilon > 0$. For $x, y$ near $c$ with $x \neq y$By Cauchy's MVT:
+_Proof (sketch)._ Fix $\varepsilon > 0$. For $x, y$ near $c$ with $x \neq y$ By Cauchy's MVT:
 
 $$
 \frac{f(x) - f(y)}{g(x) - g(y)} = \frac{f'(\xi)}{g'(\xi)}
 $$
 
-For some $\xi$ between $x$ and $y$. Since $f'(\xi)/g'(\xi) \approx L$ for $\xi$ near $c$We have:
+For some $\xi$ between $x$ and $y$. Since $f'(\xi)/g'(\xi) \approx L$ for $\xi$ near $c$ We have:
 
 $$
 \frac{f(x)}{g(x)} = \frac{f(x) - f(y)}{g(x) - g(y)} \cdot \frac{1 - f(y)/f(x)}{1 - g(y)/g(x)}
 $$
 
-Since $f(x), g(x) \to \infty$By fixing $y$ and letting $x \to c$The fractions $f(y)/f(x)$ and
+Since $f(x), g(x) \to \infty$ By fixing $y$ and letting $x \to c$ The fractions $f(y)/f(x)$ and
 $g(y)/g(x)$ tend to $0$ So the second factor tends to $1$. The first factor tends to $L$ by Cauchy's
 MVT. Hence $f(x)/g(x) \to L$. $\blacksquare$
 
@@ -1097,7 +1097,7 @@ $\blacksquare$
 ### 5.6 Darboux's Theorem
 
 **Theorem 5.8 (Darboux's Theorem).** If $f$ is differentiable on $[a, b]$ Then $f'$ has the
-Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$There exists $c \in (a, b)$ With
+Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$ There exists $c \in (a, b)$ With
 $f'(c) = y$.
 
 _Remark._ This means derivatives satisfy the intermediate value property even though they need not
@@ -1111,8 +1111,8 @@ $$
 g'(a) = f'(a) - y \lt 0 \quad \mathrm{and} \quad g'(b) = f'(b) - y > 0
 $$
 
-Since $g'(a) \lt 0$There exists $x_1 > a$ with $g(x_1) \lt g(a)$ (otherwise $g(x) \geq g(a)$ For $x$
-near $a$Contradicting $g'(a) \lt 0$). Similarly, since $g'(b) > 0$There exists $x_2 \lt b$ with
+Since $g'(a) \lt 0$ There exists $x_1 > a$ with $g(x_1) \lt g(a)$ (otherwise $g(x) \geq g(a)$ For $x$
+near $a$ Contradicting $g'(a) \lt 0$). Similarly, since $g'(b) > 0$ There exists $x_2 \lt b$ with
 $g(x_2) \lt g(b)$.
 
 Therefore $g$ attains its minimum at some $c \in (a, b)$. By Fermat's theorem on interior extrema,
@@ -1124,7 +1124,7 @@ $g'(c) = 0$ So $f'(c) = y$. $\blacksquare$
 _Solution._ For $x \neq 0$: $f'(x) = 2x \sin(1/x) - \cos(1/x)$. At $x = 0$:
 $f'(0) = \lim_{h \to 0} \frac{h^2 \sin(1/h)}{h} = \lim_{h \to 0} h \sin(1/h) = 0$.
 
-So $f'(0) = 0$. For any $\delta > 0$The term $-\cos(1/x)$ oscillates between $-1$ and $1$ on
+So $f'(0) = 0$. For any $\delta > 0$ The term $-\cos(1/x)$ oscillates between $-1$ and $1$ on
 $(0, \delta)$ So $f'$ takes all values in $[-1, 1]$ infinitely often on $(0, \delta)$.
 
 But Darboux's theorem says $f'$ has the intermediate value property. Indeed, $f'$ is not continuous
@@ -1247,7 +1247,7 @@ The common value is denoted $\int_a^b f(x)\, dx$.
 ### 6.2 Integrability Criteria
 
 **Theorem 6.1 (Riemann Integrability Criterion).** A bounded function $f : [a,b] \to \mathbb{R}$ is
-Riemann integrable if and only if for every $\varepsilon > 0$There exists a partition $P$ such that
+Riemann integrable if and only if for every $\varepsilon > 0$ There exists a partition $P$ such that
 
 $$
 U(f,P) - L(f,P) \lt \varepsilon
@@ -1256,10 +1256,10 @@ $$
 **Theorem 6.2.** Every continuous function on $[a,b]$ is Riemann integrable.
 
 _Proof._ Let $f$ be continuous on $[a,b]$. By the Heine-Cantor theorem, $f$ is uniformly continuous.
-Given $\varepsilon > 0$Choose $\delta > 0$ such that $|x - y| \lt \delta$ implies
+Given $\varepsilon > 0$ Choose $\delta > 0$ such that $|x - y| \lt \delta$ implies
 $|f(x) - f(y)| \lt \varepsilon/(b-a)$.
 
-Let $P$ be any partition with $\|P\| \lt \delta$. On each subinterval $[x_{i-1}, x_i]$By the Extreme
+Let $P$ be any partition with $\|P\| \lt \delta$. On each subinterval $[x_{i-1}, x_i]$ By the Extreme
 Value Theorem, $f$ attains its maximum $M_i$ and minimum $m_i$. By uniform continuity:
 $M_i - m_i \lt \varepsilon/(b-a)$. Therefore:
 
@@ -1271,7 +1271,7 @@ By the Riemann integrability criterion, $f$ is integrable. $\blacksquare$
 
 **Theorem 6.3.** Every monotone function on $[a,b]$ is Riemann integrable.
 
-_Proof._ Assume $f$ is increasing (the decreasing case is analogous). Given $\varepsilon > 0$Let
+_Proof._ Assume $f$ is increasing (the decreasing case is analogous). Given $\varepsilon > 0$ Let
 $P_n$ be the uniform partition with $n$ subintervals of length $(b-a)/n$. On $[x_{i-1}, x_i]$:
 $M_i = f(x_i)$ and $m_i = f(x_{i-1})$. Then:
 
@@ -1286,7 +1286,7 @@ integrable.
 
 _Proof (sketch)._ Let $f$ have discontinuities at $d_1, \ldots, d_m \in [a,b]$. Given
 $\varepsilon > 0$ Enclose each $d_j$ in a small interval $I_j$ of total length
-$\varepsilon/(2M)$Where $M = \sup_{[a,b]} |f|$. On the remaining set (a finite union of closed
+$\varepsilon/(2M)$ Where $M = \sup_{[a,b]} |f|$. On the remaining set (a finite union of closed
 intervals), $f$ is continuous, Hence uniformly continuous. Choose a partition fine enough that the
 oscillation of $f$ on each Subinterval outside the $I_j$ is less than $\varepsilon/(2(b-a))$. Then:
 
@@ -1309,7 +1309,7 @@ Small total length. In particular, every countable set has measure zero. This me
 - Every continuous function is integrable (empty set of discontinuities).
 - Every function with countably many discontinuities is integrable (Theorem 6.4 is a special case).
 - The Dirichlet function $f(x) = 1$ for $x \in \mathbb{Q}$ and $f(x) = 0$ for $x \notin \mathbb{Q}$
-  is discontinuous everywhere (set of discontinuities = $[a,b]$Measure $> 0$), hence not integrable.
+  is discontinuous everywhere (set of discontinuities = $[a,b]$ Measure $> 0$), hence not integrable.
 - Thomae's function $f(x) = 1/q$ if $x = p/q$ in lowest terms, and $f(x) = 0$ if $x$ is irrational,
   is continuous at every irrational and discontinuous at every rational. Since $\mathbb{Q}$ is
   countable (measure zero), Thomae's function is Riemann integrable, with $\int_0^1 f = 0$.
@@ -1345,7 +1345,7 @@ $$
 \frac{F(x+h) - F(x)}{h} = \frac{1}{h}\int_x^{x+h} f(t)\, dt = f(\xi)
 $$
 
-As $h \to 0^+$We have $\xi \to x^+$ (since $\xi \in [x, x+h]$). By continuity of $f$
+As $h \to 0^+$ We have $\xi \to x^+$ (since $\xi \in [x, x+h]$). By continuity of $f$
 $f(\xi) \to f(x)$. Hence $F'_+(x) = f(x)$. A similar argument gives $F'_-(x) = f(x)$. $\blacksquare$
 
 **Theorem 6.9 (FTC Part 2).** If $F$ is differentiable on $[a,b]$ with $F' = f$ (and $f$ is
@@ -1363,7 +1363,7 @@ $$
 F(b) - F(a) = \sum_{i=1}^{n} [F(x_i) - F(x_{i-1})] = \sum_{i=1}^{n} f(\xi_i) \Delta x_i
 $$
 
-The right-hand side is a Riemann sum for $\int_a^b f$. As $\|P\| \to 0$This converges to the
+The right-hand side is a Riemann sum for $\int_a^b f$. As $\|P\| \to 0$ This converges to the
 Integral. Hence $F(b) - F(a) = \int_a^b f(x)\, dx$. $\blacksquare$
 
 ### 6.5 Worked Examples
@@ -1399,7 +1399,7 @@ $$
 \lim_{n \to \infty} U(f, P_n) = \lim_{n \to \infty} \frac{1}{n^{3/2}} \cdot \frac{2}{3}n^{3/2} = \frac{2}{3}
 $$
 
-Similarly $L(f, P_n) \to 2/3$Confirming $\int_0^1 \sqrt{x}\, dx = 2/3$. $\blacksquare$
+Similarly $L(f, P_n) \to 2/3$ Confirming $\int_0^1 \sqrt{x}\, dx = 2/3$. $\blacksquare$
 
 </details>
 
@@ -1408,7 +1408,7 @@ Similarly $L(f, P_n) \to 2/3$Confirming $\int_0^1 \sqrt{x}\, dx = 2/3$. $\blacks
 **Definition.** An **improper integral** is a Riemann integral where either the interval of
 integration Is unbounded or the integrand is unbounded.
 
-**Type I (Infinite Intervals).** If $f$ is Riemann integrable on $[a, b]$ for every $b > a$Define:
+**Type I (Infinite Intervals).** If $f$ is Riemann integrable on $[a, b]$ for every $b > a$ Define:
 
 $$
 \int_a^{\infty} f(x)\, dx = \lim_{b \to \infty} \int_a^b f(x)\, dx
@@ -1443,11 +1443,11 @@ $$
 \int_1^{\infty} x^{-p}\, dx = \lim_{b \to \infty} \left[\frac{x^{1-p}}{1-p}\right]_1^b = \lim_{b \to \infty} \frac{b^{1-p} - 1}{1-p}
 $$
 
-This converges when $1 - p < 0$I.e., $p > 1$. For $p = 1$:
+This converges when $1 - p < 0$ I.e., $p > 1$. For $p = 1$:
 $\int_1^{\infty} 1/x\, dx = \lim_{b \to \infty} \ln b = \infty$.
 
 For Type II: $\int_0^1 x^{-p}\, dx = \lim_{c \to 0^+} \frac{1 - c^{1-p}}{1-p}$. This converges when
-$1 - p > 0$I.e., $p < 1$. $\blacksquare$
+$1 - p > 0$ I.e., $p < 1$. $\blacksquare$
 
 _Remark._ The $p$-test for Type I integrals mirrors the $p$-series test: $\sum 1/n^p$ converges Iff
 $p > 1$. This is not a coincidence --- the integral test establishes the connection.
@@ -1474,14 +1474,14 @@ $\int_1^{\infty} \frac{|\sin x|}{x}\, dx \geq \sum_{k=1}^{\infty} \int_{k\pi}^{(
 which diverges by comparison with the harmonic series).
 
 However, $\int_1^{\infty} \frac{\sin x}{x}\, dx$ converges by **Dirichlet's test for integrals**.
-Let $F(b) = \int_1^b \sin x\, dx = \cos 1 - \cos b$Which is bounded by $|\cos 1 - \cos b| \leq 2$.
-Since $1/x$ decreases to $0$By integration by parts:
+Let $F(b) = \int_1^b \sin x\, dx = \cos 1 - \cos b$ Which is bounded by $|\cos 1 - \cos b| \leq 2$.
+Since $1/x$ decreases to $0$ By integration by parts:
 
 $$
 \int_1^b \frac{\sin x}{x}\, dx = \frac{-\cos x}{x}\bigg|_1^b - \int_1^b \frac{\cos x}{x^2}\, dx
 $$
 
-As $b \to \infty$The boundary term $\cos b / b \to 0$ and
+As $b \to \infty$ The boundary term $\cos b / b \to 0$ and
 $\int_1^{\infty} \frac{|\cos x|}{x^2}\, dx \leq
 \int_1^{\infty} \frac{1}{x^2}\, dx = 1$, so the
 improper integral converges (conditionally). $\blacksquare$
@@ -1554,7 +1554,7 @@ can change its value.
 Let $(f_n)$ be a sequence of functions defined on a set $E \subseteq \mathbb{R}$.
 
 **Definition.** $(f_n)$ **converges pointwise** to $f$ on $E$ if for every $x \in E$ and every
-$\varepsilon > 0$There exists $N \in \mathbb{N}$ (depending on both $x$ and $\varepsilon$) such that
+$\varepsilon > 0$ There exists $N \in \mathbb{N}$ (depending on both $x$ and $\varepsilon$) such that
 $|f_n(x) - f(x)| \lt \varepsilon$ for all $n \geq N$.
 
 **Example.** Let $f_n(x) = x^n$ on $E = [0, 1]$. For each $x \in [0, 1)$, $f_n(x) = x^n \to 0$ And
@@ -1568,8 +1568,8 @@ Note that each $f_n$ is continuous, but the pointwise limit $f$ is not continuou
 
 ### 7.2 Uniform Convergence
 
-**Definition.** $(f_n)$ **converges uniformly** to $f$ on $E$ if for every $\varepsilon > 0$There
-Exists $N \in \mathbb{N}$ (depending only on $\varepsilon$Not on $x$) such that for all $x \in E$:
+**Definition.** $(f_n)$ **converges uniformly** to $f$ on $E$ if for every $\varepsilon > 0$ There
+Exists $N \in \mathbb{N}$ (depending only on $\varepsilon$ Not on $x$) such that for all $x \in E$:
 
 $$
 |f_n(x) - f(x)| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
@@ -1594,7 +1594,7 @@ all $n$ And $\sum_{n=1}^{\infty} M_n \lt \infty$ Then $\sum_{n=1}^{\infty} f_n$ 
 $E$.
 
 _Proof._ Let $S_n(x) = \sum_{k=1}^{n} f_k(x)$ and $T_n = \sum_{k=1}^{n} M_k$. Since $\sum M_k$
-converges, $(T_n)$ is a Cauchy sequence. Given $\varepsilon > 0$There exists $N$ such that for
+converges, $(T_n)$ is a Cauchy sequence. Given $\varepsilon > 0$ There exists $N$ such that for
 $m > n \geq N$:
 
 $$
@@ -1607,7 +1607,7 @@ $$
 |S_m(x) - S_n(x)| = \left|\sum_{k=n+1}^{m} f_k(x)\right| \leq \sum_{k=n+1}^{m} |f_k(x)| \leq \sum_{k=n+1}^{m} M_k \lt \varepsilon
 $$
 
-So the partial sums $(S_n)$ satisfy the uniform Cauchy criterion on $E$Hence converge uniformly.
+So the partial sums $(S_n)$ satisfy the uniform Cauchy criterion on $E$ Hence converge uniformly.
 $\blacksquare$
 
 ### 7.4 Uniform Convergence and Continuity
@@ -1616,7 +1616,7 @@ $\blacksquare$
 On $E$ Then $f$ is continuous on $E$.
 
 _Proof._ Let $c \in E$ and $\varepsilon > 0$. Since $f_n \to f$ uniformly, choose $N$ such that
-$|f_N(x) - f(x)| \lt \varepsilon/3$ for all $x \in E$. Since $f_N$ is continuous at $c$Choose
+$|f_N(x) - f(x)| \lt \varepsilon/3$ for all $x \in E$. Since $f_N$ is continuous at $c$ Choose
 $\delta > 0$ such that $|x - c| \lt \delta$ implies $|f_N(x) - f_N(c)| \lt \varepsilon/3$. Then:
 
 $$
@@ -1635,7 +1635,7 @@ $$
 $$
 
 _Proof._ Since $(f_n)$ converges uniformly, $f$ is the uniform limit of integrable functions. Given
-$\varepsilon > 0$Choose $N$ with $\sup |f_N(x) - f(x)| \lt \varepsilon/(2(b-a))$ for all
+$\varepsilon > 0$ Choose $N$ with $\sup |f_N(x) - f(x)| \lt \varepsilon/(2(b-a))$ for all
 $x \in [a, b]$. Then $f_N - \varepsilon/(2(b-a)) \leq f(x) \leq f_N(x) + \varepsilon/(2(b-a))$ for
 all $x$ And by Integrability of $f_N$:
 
@@ -1643,7 +1643,7 @@ $$
 \int_a^b f_N - \frac{\varepsilon}{2} \leq \underline{\int_a^b} f \leq \overline{\int_a^b} f \leq \int_a^b f_N + \frac{\varepsilon}{2}
 $$
 
-So $\overline{\int} f - \underline{\int} f \leq \varepsilon$Proving $f$ is integrable. For the
+So $\overline{\int} f - \underline{\int} f \leq \varepsilon$ Proving $f$ is integrable. For the
 limit:
 
 $$
@@ -1718,11 +1718,11 @@ That is, the power series is continuous from the left at the endpoint $x = 1$.
 _Proof (sketch)._ Let $s_n = \sum_{k=0}^{n} c_k$ and $s_n \to L$. Write the partial sum
 $\sum_{k=0}^{n} c_k x^k = \sum_{k=0}^{n}(s_k - s_{k-1})x^k$ (with $s_{-1} = 0$) and use summation by
 Parts to express this as $s_n x^n + \sum_{k=0}^{n-1} s_k(x^k - x^{k+1})$. Letting $n \to \infty$ and
-using That $s_n \to L$ and $x^n \to 0$ for $|x| \lt 1$One shows the expression tends to $L$ as
+using That $s_n \to L$ and $x^n \to 0$ for $|x| \lt 1$ One shows the expression tends to $L$ as
 $x \to 1^-$. $\blacksquare$
 
-_Example._ Since $\sum_{k=1}^{\infty} (-1)^{k+1}/k = \ln 2$Abel's theorem gives
-$\lim_{x \to 1^-} \sum_{k=1}^{\infty} (-1)^{k+1} x^k/k = \ln 2$I.e., $\ln 2$ is the left-hand limit
+_Example._ Since $\sum_{k=1}^{\infty} (-1)^{k+1}/k = \ln 2$ Abel's theorem gives
+$\lim_{x \to 1^-} \sum_{k=1}^{\infty} (-1)^{k+1} x^k/k = \ln 2$ I.e., $\ln 2$ is the left-hand limit
 Of $-\ln(1 - x)$ at $x = 1$.
 
 ### 7.8 Taylor Series Convergence
@@ -1739,7 +1739,7 @@ f(x) = \begin{cases} e^{-1/x^2} & x \neq 0 \\ 0 & x = 0 \end{cases}
 $$
 
 $f^{(n)}(0) = 0$ for all $n$ So the Taylor series at $0$ is identically zero, which Converges only to
-$0$Not to $f(x)$ for $x \neq 0$.
+$0$ Not to $f(x)$ for $x \neq 0$.
 
 ### 7.9 Worked Examples
 
@@ -1776,7 +1776,7 @@ $$
 \lim_{n \to \infty} \left|\frac{c_{n+1}}{c_n}\right| = \lim_{n \to \infty} \frac{(n+1)!}{n!} = \lim_{n \to \infty} (n+1) = \infty
 $$
 
-So $R = 0$Meaning the series converges only at $x = 0$. $\blacksquare$
+So $R = 0$ Meaning the series converges only at $x = 0$. $\blacksquare$
 
 </details>
 
@@ -1796,7 +1796,7 @@ $$
 \sup_{x \geq 1} \frac{x}{1 + nx} = \lim_{x \to \infty} \frac{x}{1 + nx} = \frac{1}{n}
 $$
 
-Since $\sup |f_n| = 1/n \to 0$The convergence is uniform on $[1, \infty)$. $\blacksquare$
+Since $\sup |f_n| = 1/n \to 0$ The convergence is uniform on $[1, \infty)$. $\blacksquare$
 
 </details>
 
@@ -1819,8 +1819,8 @@ _Solution._ Let $M = \max(\sup A, \sup B)$. Without loss, assume $\sup A \geq \s
 $M = \sup A$. For all $x \in A \cup B$: either $x \in A$ So $x \leq \sup A = M$; or $x \in B$ So
 $x \leq \sup B \leq M$. Thus $M$ is an upper bound for $A \cup B$.
 
-For the least property: since $M = \sup A$ and $A \subseteq A \cup B$Every upper bound of $A \cup B$
-Is an upper bound of $A$Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
+For the least property: since $M = \sup A$ and $A \subseteq A \cup B$ Every upper bound of $A \cup B$
+Is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.3 (Supremum and Infimum), Section 1.5 (Properties).
 
@@ -1832,9 +1832,9 @@ $A \subseteq \mathbb{R}$.
 <details>
 <summary>Solution</summary>
 
-_Solution._ Let $u = \sup(-A)$. For all $a \in A$: $-a \in -A$ So $-a \leq u$Giving $a \geq -u$. Thus
+_Solution._ Let $u = \sup(-A)$. For all $a \in A$: $-a \in -A$ So $-a \leq u$ Giving $a \geq -u$. Thus
 $-u$ is a lower bound for $A$. If $v$ is any lower bound for $A$ Then $-v$ is an upper bound for
-$-A$ So $u \leq -v$I.e., $-u \geq v$. Hence $-u$ is the greatest lower bound, so
+$-A$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u$ is the greatest lower bound, so
 $\inf A = -u = -\sup(-A)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.5 (Properties of Supremum and Infimum).
@@ -1859,7 +1859,7 @@ $$
 \frac{6n - 1}{2(2n^2 + 1)} \lt \frac{6n}{4n^2} = \frac{3}{2n}
 $$
 
-We need $\frac{3}{2n} \lt \varepsilon$I.e., $n > 3/(2\varepsilon)$. Choose
+We need $\frac{3}{2n} \lt \varepsilon$ I.e., $n > 3/(2\varepsilon)$. Choose
 $N = \lceil 3/(2\varepsilon) \rceil$. For $n \geq N$: the expression is $\lt \varepsilon$.
 $\blacksquare$
 
@@ -1881,7 +1881,7 @@ $a_{n+1} - a_n = \frac{1}{2}(a_n + 2/a_n) - a_n = \frac{1}{2}(2/a_n - a_n) = \fr
 Since $a_n \geq \sqrt{2}$ for $n \geq 2$, $a_n^2 \geq 2$ So $a_{n+1} - a_n \leq 0$.
 
 **Step 3:** By the Monotone Convergence Theorem, $L = \lim a_n$ exists. Taking limits:
-$L = \frac{1}{2}(L + 2/L)$Giving $2L = L + 2/L$ So $L = 2/L$Hence $L^2 = 2$. Since
+$L = \frac{1}{2}(L + 2/L)$ Giving $2L = L + 2/L$ So $L = 2/L$ Hence $L^2 = 2$. Since
 $a_n \geq \sqrt{2}$ for $n \geq 2$, $L \geq 0$ So $L = \sqrt{2}$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 2.2 (Monotone Convergence Theorem), Section 2.7 (recursive
@@ -1931,7 +1931,7 @@ conditionally, or diverge?
 <details>
 <summary>Solution</summary>
 
-_Solution._ The absolute series is $\sum 1/n^{1/3}$Which is a $p$-series with $p = 1/3 \lt 1$ So it
+_Solution._ The absolute series is $\sum 1/n^{1/3}$ Which is a $p$-series with $p = 1/3 \lt 1$ So it
 diverges. Hence the series does not converge absolutely.
 
 For conditional convergence, apply the alternating series test: $a_n = 1/n^{1/3}$ is positive,
@@ -1987,8 +1987,8 @@ Then add positive terms until we exceed $0$: $S_5 = -1/12 + 1/3 = 1/4 > 0$.
 Then add negative terms until below $0$: $S_6 = 1/4 - 1/8 = 1/8 > 0$. $S_7 = 1/8 - 1/10 = 1/40 > 0$.
 $S_8 = 1/40 - 1/12 = -7/120 \lt 0$.
 
-Continue this process. Since $\sum 1/(2k-1) = \infty$ and $\sum 1/(2k) = \infty$We can always
-Continue. Since $1/n \to 0$The oscillations shrink to $0$. The resulting rearrangement converges to
+Continue this process. Since $\sum 1/(2k-1) = \infty$ and $\sum 1/(2k) = \infty$ We can always
+Continue. Since $1/n \to 0$ The oscillations shrink to $0$. The resulting rearrangement converges to
 $0$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 3.5 (Rearrangement of Series).
@@ -2007,7 +2007,7 @@ $$
 |f(x) - f(a)| = |x^3 - a^3| = |x - a| \cdot |x^2 + ax + a^2|
 $$
 
-Restrict to $|x - a| \lt 1$ So $|x| \lt |a| + 1$Giving
+Restrict to $|x - a| \lt 1$ So $|x| \lt |a| + 1$ Giving
 $|x^2 + ax + a^2| \leq (|a|+1)^2 + |a|(|a|+1) + a^2 = 3a^2 + 3|a| + 1$. Let $M = 3a^2 + 3|a| + 1$.
 
 Choose $\delta = \min(1, \varepsilon/M)$. Then $|x - a| \lt \delta$ implies:
@@ -2028,7 +2028,7 @@ not Uniformly continuous on $(0, 1)$. (Trick question --- see solution.)
 <details>
 <summary>Solution</summary>
 
-_Solution._ **Continuity at $0$:** Given $\varepsilon > 0$Choose $\delta = \varepsilon$. For
+_Solution._ **Continuity at $0$:** Given $\varepsilon > 0$ Choose $\delta = \varepsilon$. For
 $|x - 0| = |x| \lt \delta$: $|f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon$. So
 $f$ is continuous at $0$. For $x \neq 0$, $f$ is a product of continuous functions, hence
 continuous.
@@ -2037,8 +2037,8 @@ continuous.
 Here is why: $f$ extends continuously to $[0, 1]$ (define $f(0) = 0$). By the Heine-Cantor theorem
 (Theorem 4.5), $f$ is uniformly continuous on $[0, 1]$ And hence on the subset $(0, 1)$.
 
-The function that is **not** uniformly continuous on $(0, 1)$ is $g(x) = \sin(1/x)$Which does not
-Extend continuously to $0$. Or $h(x) = 1/x$Which is unbounded. But $f(x) = x\sin(1/x)$ is bounded
+The function that is **not** uniformly continuous on $(0, 1)$ is $g(x) = \sin(1/x)$ Which does not
+Extend continuously to $0$. Or $h(x) = 1/x$ Which is unbounded. But $f(x) = x\sin(1/x)$ is bounded
 And has a continuous extension, so it is uniformly continuous. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 4.5 (Uniform Continuity), Section 4.6 (Heine-Cantor).
@@ -2053,7 +2053,7 @@ Constant $C$.
 
 _Solution._ Let $h(x) = f(x) - g(x)$. Then $h'(x) = f'(x) - g'(x) = 0$ for all $x \in (a, b)$. By
 Corollary 5.4 (a consequence of the Mean Value Theorem), $h$ is constant on $(a, b)$. So
-$f(x) - g(x) = C$ for some $C \in \mathbb{R}$I.e., $f(x) = g(x) + C$. $\blacksquare$
+$f(x) - g(x) = C$ for some $C \in \mathbb{R}$ I.e., $f(x) = g(x) + C$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 5.3 (Mean Value Theorem, Corollary 5.4).
 
@@ -2176,7 +2176,7 @@ $$
 Setting to zero: $n - n^3 x^2 = 0$ So $x = 1/n$. The maximum value is
 $f_n(1/n) = \frac{n \cdot 1/n}{1 + n^2/n^2} = \frac{1}{2}$.
 
-Since $\sup_{x > 0} |f_n(x)| = 1/2$ for all $n$This does not tend to $0$. Therefore the convergence
+Since $\sup_{x > 0} |f_n(x)| = 1/2$ for all $n$ This does not tend to $0$. Therefore the convergence
 Is **not uniform** on $(0, \infty)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.2 (Uniform Convergence), Section 7.1 (Pointwise
@@ -2199,7 +2199,7 @@ $$
 = \frac{2(2n+1)}{n+1} \cdot |x| = \frac{4n + 2}{n + 1} \cdot |x| \to 4|x| \quad \mathrm{as\ } n \to \infty
 $$
 
-The series converges when $4|x| \lt 1$I.e., $|x| \lt 1/4$ And diverges when $4|x| > 1$. The radius of
+The series converges when $4|x| \lt 1$ I.e., $|x| \lt 1/4$ And diverges when $4|x| > 1$. The radius of
 convergence is $R = 1/4$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.7 (Power Series), Section 3.2 (Ratio Test).
@@ -2247,7 +2247,7 @@ $\frac{d}{dx}\left(\frac{x}{1 + nx^2}\right) = \frac{1 - nx^2}{(1 + nx^2)^2}$. S
 $x = 1/\sqrt{n}$. The maximum value is
 $f_n(1/\sqrt{n}) = \frac{1/\sqrt{n}}{1 + n/n} = \frac{1}{2\sqrt{n}}$.
 
-Since $\sup_{x \geq 0} |f_n(x)| = \frac{1}{2\sqrt{n}} \to 0$ as $n \to \infty$The convergence **is**
+Since $\sup_{x \geq 0} |f_n(x)| = \frac{1}{2\sqrt{n}} \to 0$ as $n \to \infty$ The convergence **is**
 Uniform on $[0, \infty)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.2 (Uniform Convergence).

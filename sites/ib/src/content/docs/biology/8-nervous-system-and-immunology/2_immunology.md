@@ -88,7 +88,7 @@ Phagocytes (neutrophils, macrophages, and dendritic cells) engulf and destroy pa
    called a **phagosome**.
 2. **Digestion**: the phagosome fuses with a **lysosome**, forming a **phagolysosome**. Hydrolytic
    enzymes (proteases, lipases, nucleases, lysozyme) and reactive oxygen species
-   ($\mathrm{H}_2\mathrm{O}_2$Superoxide radicals) degrade the pathogen.
+   ($\mathrm{H}_2\mathrm{O}_2$ Superoxide radicals) degrade the pathogen.
 3. **Exocytosis**: indigestible material is expelled from the cell.
 4. **Antigen presentation**: peptide fragments of the digested pathogen are displayed on MHC
    molecules on the phagocyte surface, initiating the adaptive immune response (see Section 4).
@@ -258,10 +258,10 @@ Helper T cells orchestrate the adaptive immune response through cytokine secreti
 
 | Subset                 | Cytokines driving differentiation | Key cytokines produced  | Primary function                                                                                         |
 | ---------------------- | --------------------------------- | ----------------------- | -------------------------------------------------------------------------------------------------------- |
-| **$\mathrm{T_H}1$**    | IL-12                             | IFN-$\gamma$IL-2        | Activates macrophages (cell-mediated immunity against intracellular pathogens).                          |
+| **$\mathrm{T_H}1$**    | IL-12                             | IFN-$\gamma$ IL-2        | Activates macrophages (cell-mediated immunity against intracellular pathogens).                          |
 | **$\mathrm{T_H}2$**    | IL-4                              | IL-4, IL-5, IL-6, IL-10 | Stimulates B cell activation and antibody production (humoral immunity against extracellular pathogens). |
 | **$\mathrm{T_H}17$**   | TGF-$\beta$ + IL-6                | IL-17, IL-22            | Recruits neutrophils; defends against extracellular bacteria and fungi.                                  |
-| **$\mathrm{T_{reg}}$** | TGF-$\beta$ + IL-2                | TGF-$\beta$IL-10        | Suppresses immune responses; maintains self-tolerance.                                                   |
+| **$\mathrm{T_{reg}}$** | TGF-$\beta$ + IL-2                | TGF-$\beta$ IL-10        | Suppresses immune responses; maintains self-tolerance.                                                   |
 
 ### Cytotoxic T Cells ($\mathrm{CD8}^+$)
 
@@ -848,7 +848,7 @@ Erythematosus (SLE).
 
 ### Type IV Hypersensitivity (Delayed-Type, T-Cell Mediated)
 
-Sensitised $\mathrm{CD4}^+$ helper T cells release cytokines (IFN-$\gamma$TNF-$\alpha$) upon
+Sensitised $\mathrm{CD4}^+$ helper T cells release cytokines (IFN-$\gamma$ TNF-$\alpha$) upon
 Re-exposure to the antigen, activating macrophages and causing inflammation. Onset: $24$--$72$
 hours.
 
@@ -908,8 +908,8 @@ hours.
 <summary>Question 1: ELISA Data Interpretation</summary>
 
 An indirect ELISA is used to test four patient serum samples for antibodies against a specific
-virus. The absorbance readings at $450\;\mathrm{nm}$ are: Patient A = $0.05$Patient B =
-$1.85$Patient C = $0.92$Patient D = $2.10$. The positive control gives $1.95$ and the negative
+virus. The absorbance readings at $450\;\mathrm{nm}$ are: Patient A = $0.05$ Patient B =
+$1.85$ Patient C = $0.92$ Patient D = $2.10$. The positive control gives $1.95$ and the negative
 control gives $0.08$. The diagnostic threshold is an absorbance value of $0.50$. (a) Which patients
 test positive? (b) Explain why a positive control and negative control are essential. (c) Why might
 Patient C's Value be lower than Patient B's despite both being positive?
@@ -1102,7 +1102,7 @@ antibody Production --- the effector response is pre-armed.
 **Worked Example: Primary vs Secondary Immune Response Kinetics**
 
 A patient receives a tetanus toxoid vaccine (primary immunisation) at Day 0 and a booster dose at
-Day $90$. The IgG antibody titres are measured weekly. At Day $14$The IgG titre is
+Day $90$. The IgG antibody titres are measured weekly. At Day $14$ The IgG titre is
 $50\;\mathrm{AU/mL}$. At Day $21$ (after booster), the IgG titre is $2000\;\mathrm{AU/mL}$.
 Calculate the fold increase in Peak titre and the time to peak after the booster. Explain the
 cellular basis for the accelerated Secondary response.
@@ -1136,7 +1136,7 @@ $97$ total), so the Time to peak decreased from $14$ days to approximately $7$ d
 A Mantoux test is performed by injecting $5$ tuberculin units ($0.1\;\mathrm{mL}$) of purified
 Protein derivative (PPD) intradermally. The induration (raised, hardened area) is measured
 $48$--$72$ Hours later. Three patients show the following results: Patient X =
-$5\;\mathrm{mm}$Patient Y = $12\;\mathrm{mm}$Patient Z = $18\;\mathrm{mm}$. Patient Y is known to be
+$5\;\mathrm{mm}$ Patient Y = $12\;\mathrm{mm}$ Patient Z = $18\;\mathrm{mm}$. Patient Y is known to be
 immunocompromised. Interpret each result.
 
 <details>
@@ -1155,7 +1155,7 @@ immunocompromised. Interpret each result.
   $\geq 15\;\mathrm{mm}$ is positive for all individuals regardless of risk factors.
 
 **Immunological basis**: the Mantoux test is a **Type IV (delayed-type) hypersensitivity** reaction.
-Memory $\mathrm{T_H}1$ cells recognise PPD antigens and release IFN-$\gamma$Activating macrophages.
+Memory $\mathrm{T_H}1$ cells recognise PPD antigens and release IFN-$\gamma$ Activating macrophages.
 Macrophages release inflammatory mediators, causing localised oedema and induration. The $48$--$72$
 Hour delay reflects the time required for T cell activation, cytokine secretion, and macrophage
 Recruitment.
@@ -1696,7 +1696,7 @@ Capability of the B cell with the immortality of the myeloma cell.
 
 3. **Adalimumab (Humira)**: a monoclonal antibody against TNF-$\alpha$ (tumour necrosis
    factor-alpha). Used in rheumatoid arthritis, Crohn's disease, and other autoimmune conditions.
-   Mechanism: binds and neutralises TNF-$\alpha$Preventing it from binding to its receptors and
+   Mechanism: binds and neutralises TNF-$\alpha$ Preventing it from binding to its receptors and
    triggering inflammation.
 
 (d) **Antibody types by human content**:
@@ -1729,7 +1729,7 @@ The key effector molecules or cells involved.
 | **Mechanism**          | IgE-mediated; mast cell degranulation                            | IgG/IgM against cell-surface antigens; complement activation, ADCC         | Immune complexes deposit in tissues; complement activation, neutrophil recruitment | T cell-mediated (Th1 and CTL); delayed hypersensitivity                          |
 | **Time course**        | Minutes (immediate); late phase 2--8 hours                       | Hours to days                                                              | Hours to days (serum sickness: 7--10 days)                                         | 48--72 hours (delayed)                                                           |
 | **Example**            | Asthma, hay fever, anaphylaxis, food allergy                     | Goodpasture syndrome, transfusion reactions, haemolytic disease of newborn | Serum sickness, systemic lupus erythematosus (SLE), Arthus reaction                | Tuberculin skin test (Mantoux), contact dermatitis (poison ivy), type 1 diabetes |
-| **Key effectors**      | IgE, mast cells, basophils, eosinophils, histamine, leukotrienes | IgG, IgM, complement (MAC), NK cells (ADCC), macrophages                   | IgG, IgM, complement (C3a, C5a), neutrophils, MAC                                  | Th1 cells (IFN-$\gamma$IL-2), CTLs (perforin, granzyme), macrophages             |
+| **Key effectors**      | IgE, mast cells, basophils, eosinophils, histamine, leukotrienes | IgG, IgM, complement (MAC), NK cells (ADCC), macrophages                   | IgG, IgM, complement (C3a, C5a), neutrophils, MAC                                  | Th1 cells (IFN-$\gamma$ IL-2), CTLs (perforin, granzyme), macrophages             |
 | **Antibody involved?** | Yes (IgE)                                                        | Yes (IgG, IgM)                                                             | Yes (IgG, IgM)                                                                     | No (T cell-mediated)                                                             |
 
 (d) Type I is mediated by IgE binding to Fc receptors on mast cells, triggering degranulation
@@ -1798,7 +1798,7 @@ Through combinatorial and somatic mechanisms during B cell development in the bo
 
 An immunoglobulin (Ig) molecule consists of:
 
-- **Two identical heavy chains** ($\mu$$\delta$$\gamma$$\epsilon$Or $\alpha$ -- determining the
+- **Two identical heavy chains** ($\mu$$\delta$$\gamma$$\epsilon$ Or $\alpha$ -- determining the
   antibody class: IgM, IgD, IgG, IgE, or IgA).
 - **Two identical light chains** ($\kappa$ or $\lambda$).
 
@@ -1889,7 +1889,7 @@ $190 + 116 = 306$. Combinatorial diversity: $7128 \times 306 = 2\,181\,168 \appr
 (b) With junctional diversity ($\times 10^7$ for heavy chain):
 $7128 \times 10^7 \times 306 = 2.2 \times 10^{13}$.
 
-(c) Somatic hypermutation: for $5$ mutations in $300\;\mathrm{bp}$Each mutation has $3$ possible
+(c) Somatic hypermutation: for $5$ mutations in $300\;\mathrm{bp}$ Each mutation has $3$ possible
 Nucleotide changes. The number of distinct sequences generated:
 $\binom{300}{5} \times 3^5 = \frac{300!}{5! \times 295!} \times 243$
 $\binom{300}{5} \approx 2.05 \times 10^{10}$

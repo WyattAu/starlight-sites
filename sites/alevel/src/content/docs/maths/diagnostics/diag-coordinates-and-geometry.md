@@ -57,7 +57,7 @@ Gradient of $AB$: $m_{AB} = \frac{4-2}{5-1} = \frac{1}{2}$.
 
 Gradient of perpendicular bisector: $m_1 = -2$.
 
-Equation: $y - 3 = -2(x - 3)$I.e. $y = -2x + 9$.
+Equation: $y - 3 = -2(x - 3)$ I.e. $y = -2x + 9$.
 
 **Step 2: Find the perpendicular bisector of $BC$.**
 
@@ -67,7 +67,7 @@ Gradient of $BC$: $m_{BC} = \frac{8-4}{3-5} = \frac{4}{-2} = -2$.
 
 Gradient of perpendicular bisector: $m_2 = \frac{1}{2}$.
 
-Equation: $y - 6 = \frac{1}{2}(x - 4)$I.e. $y = \frac{1}{2}x + 4$.
+Equation: $y - 6 = \frac{1}{2}(x - 4)$ I.e. $y = \frac{1}{2}x + 4$.
 
 **Step 3: Find the centre (intersection of perpendicular bisectors).**
 
@@ -92,7 +92,7 @@ Confirmed.
 
 Standard form: $(x - 2)^2 + (y - 5)^2 = 10$.
 
-Expanded form: $x^2 - 4x + 4 + y^2 - 10y + 25 = 10$Giving:
+Expanded form: $x^2 - 4x + 4 + y^2 - 10y + 25 = 10$ Giving:
 
 $$
 x^2 + y^2 - 4x - 10y + 19 = 0
@@ -133,7 +133,7 @@ $$\Delta = (4k-4)^2 - 4(1+k^2)(4) = 0$$ $$16k^2 - 32k + 16 - 16 - 16k^2 = 0$$ $$
 
 **Step 3: Find the point of tangency.**
 
-With $k = 0$The line is $y = 5$. Substituting into the circle:
+With $k = 0$ The line is $y = 5$. Substituting into the circle:
 
 $$x^2 + 25 - 4x - 30 + 9 = 0$$ $$x^2 - 4x + 4 = 0$$ $$(x-2)^2 = 0$$ $$x = 2$$
 
@@ -195,7 +195,7 @@ $$
 
 This is a reflection in the $x$-axis.
 
-**Note:** $RS \neq SR$Confirming that transformations do not generally commute.
+**Note:** $RS \neq SR$ Confirming that transformations do not generally commute.
 
 **(c)** Applying $S$ first, then $R$: the image is
 $R \cdot S \cdot \begin{pmatrix} 3 \\ 1 \end{pmatrix}$.
@@ -325,7 +325,7 @@ The closest point is approximately $(2.11, 3.01)$.
 
 **Question:**
 
-In triangle $ABC$The point $D$ lies on $BC$ such that $BD : DC = 2 : 1$. The point $E$ is the
+In triangle $ABC$ The point $D$ lies on $BC$ such that $BD : DC = 2 : 1$. The point $E$ is the
 midpoint of $AC$. The lines $AD$ and $BE$ intersect at point $F$.
 
 Using position vectors with origin at $A$ And taking $\overrightarrow{AB} = \mathbf{b}$ and
@@ -335,7 +335,7 @@ $\overrightarrow{AC} = \mathbf{c}$:
 
 **(b)** Find the ratio $AF : FD$.
 
-**(c)** If $|\mathbf{b}| = 5$, $|\mathbf{c}| = 7$ And $\mathbf{b} \cdot \mathbf{c} = 15$Find
+**(c)** If $|\mathbf{b}| = 5$, $|\mathbf{c}| = 7$ And $\mathbf{b} \cdot \mathbf{c} = 15$ Find
 $|\overrightarrow{AF}|$.
 
 [Difficulty: hard. Tests vector methods for concurrency problems and application of the dot
@@ -365,14 +365,14 @@ $$
 
 From the second equation: $t = \frac{4s}{3}$.
 
-Substituting into the first: $\frac{s}{3} = 1 - \frac{4s}{3}$Giving $\frac{5s}{3} = 1$ So
+Substituting into the first: $\frac{s}{3} = 1 - \frac{4s}{3}$ Giving $\frac{5s}{3} = 1$ So
 $s = \frac{3}{5}$.
 
 $$
 \overrightarrow{OF} = \frac{3}{5}\left(\frac{1}{3}\mathbf{b} + \frac{2}{3}\mathbf{c}\right) = \frac{1}{5}\mathbf{b} + \frac{2}{5}\mathbf{c}
 $$
 
-**(b)** $AF : FD$. Since $s = 3/5$Point $F$ divides $AD$ in the ratio
+**(b)** $AF : FD$. Since $s = 3/5$ Point $F$ divides $AD$ in the ratio
 $s : (1-s) = 3/5 : 2/5 = 3 : 2$.
 
 So $AF : FD = 3 : 2$.
@@ -448,18 +448,18 @@ Then $x = f(t)$ and $y = f(f(t)) = f(x)$.
 
 Therefore $y = x^2 - 2x = (x-1)^2 - 1$.
 
-This is a parabola with vertex at $(1, -1)$Opening upward.
+This is a parabola with vertex at $(1, -1)$ Opening upward.
 
-**(b)** $y = x^2 - 2x$. Since $x = (t-1)^2 - 1 \geq -1$ for all $t$The domain of the curve is
+**(b)** $y = x^2 - 2x$. Since $x = (t-1)^2 - 1 \geq -1$ for all $t$ The domain of the curve is
 $x \geq -1$.
 
 $\frac{dy}{dx} = 2x - 2$. Setting this to zero: $x = 1$.
 
 At $x = 1$: $y = 1 - 2 = -1$. This is the vertex.
 
-$\frac{d^2y}{dx^2} = 2 > 0$Confirming a minimum at $(1, -1)$.
+$\frac{d^2y}{dx^2} = 2 > 0$ Confirming a minimum at $(1, -1)$.
 
-The turning point is $(1, -1)$Which is a minimum.
+The turning point is $(1, -1)$ Which is a minimum.
 
 Note: there are no other turning points. The curve is a standard parabola restricted to $x \geq -1$.
 
@@ -468,7 +468,7 @@ turning point of the parabola itself.
 
 **(c)** The translation moves $(1, -1)$ to $(0, 0)$. The translation vector is $(-1, 1)$.
 
-Let $X = x - 1$ and $Y = y + 1$. Then $y = (x-1)^2 - 1$ becomes $Y - 1 = X^2 - 1$I.e.:
+Let $X = x - 1$ and $Y = y + 1$. Then $y = (x-1)^2 - 1$ becomes $Y - 1 = X^2 - 1$ I.e.:
 
 $$
 Y = X^2

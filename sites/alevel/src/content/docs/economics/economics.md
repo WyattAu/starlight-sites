@@ -160,7 +160,7 @@ $$
 
 **Phillips curve:** $$\pi = \pi^e - \beta(u - u^*)$$
 
-**Okun"s Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
+**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
 
 **Debt dynamics:** $$\Delta b = (r - g_{nominal})b - p$$
 

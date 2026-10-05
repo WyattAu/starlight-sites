@@ -97,7 +97,7 @@ $$
 
 1. Choose two large primes $p$ and $q$
 2. Compute $n = p \times q$
-3. Compute $\phi(n) = (p-1)(q-1)$ (Euler"s totient)
+3. Compute $\phi(n) = (p-1)(q-1)$ (Euler's totient)
 4. Choose $e$ such that $1 \lt e \lt \phi(n)$ and $\gcd(e, \phi(n)) = 1$
 5. Compute $d$ such that $d \cdot e \equiv 1 \pmod{\phi(n)}$
 
@@ -116,7 +116,7 @@ All $M \in [0, n)$.
 
 **Proof.** We need to show $M^{ed} \equiv M \pmod{n}$.
 
-Since $ed \equiv 1 \pmod{\phi(n)}$We have $ed = 1 + k\phi(n)$ for some integer $k$.
+Since $ed \equiv 1 \pmod{\phi(n)}$ We have $ed = 1 + k\phi(n)$ for some integer $k$.
 
 **Case 1:** $\gcd(M, n) = 1$ (M is coprime to n).
 
@@ -186,9 +186,9 @@ Fixed-length output (hash/digest).
 
 ### Properties
 
-1. **Pre-image resistance:** Given $h$It is computationally infeasible to find $M$ such that
+1. **Pre-image resistance:** Given $h$ It is computationally infeasible to find $M$ such that
    $H(M) = h$
-2. **Second pre-image resistance:** Given $M_1$It is infeasible to find $M_2 \neq M_1$ with
+2. **Second pre-image resistance:** Given $M_1$ It is infeasible to find $M_2 \neq M_1$ with
    $H(M_1) = H(M_2)$
 3. **Collision resistance:** It is infeasible to find any pair $M_1 \neq M_2$ with $H(M_1) = H(M_2)$
 4. **Avalanche effect:** A small change in input produces a completely different hash

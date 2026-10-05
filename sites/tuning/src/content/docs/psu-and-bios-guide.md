@@ -87,7 +87,7 @@ Efficiency is not constant across the load range. Typical efficiency curves show
   in transformer windings, traces, and connectors.
 
 :::note
-The PSU"s rated capacity. This places you near peak efficiency while maintaining headroom for
+The PSU's rated capacity. This places you near peak efficiency while maintaining headroom for
 Transient spikes.
 :::
 

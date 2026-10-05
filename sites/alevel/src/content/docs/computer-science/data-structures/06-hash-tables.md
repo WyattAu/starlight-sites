@@ -30,7 +30,7 @@ Delete, and search.
 
 ### The Core Idea
 
-Given a key $k$Compute $\mathrm{index} = h(k) \bmod m$Where $h$ is the hash function and $m$ is The
+Given a key $k$ Compute $\mathrm{index} = h(k) \bmod m$ Where $h$ is the hash function and $m$ is The
 table size. Store the key-value pair at this index.
 
 <hr />
@@ -230,7 +230,7 @@ $$
 \frac{1}{2}\left(1 + \frac{1}{(1 - \alpha)^2}\right)
 $$
 
-Where $\alpha = n/m$ is the load factor. As $\alpha \to 1$This grows to $\infty$. $\square$
+Where $\alpha = n/m$ is the load factor. As $\alpha \to 1$ This grows to $\infty$. $\square$
 
 ### Quadratic Probing
 
@@ -241,7 +241,7 @@ $$
 Eliminates primary clustering but may cause **secondary clustering** (keys with the same initial
 Hash follow the same probe sequence).
 
-**Theorem.** If the table size $m$ is prime and the load factor $\alpha \lt 0.5$Quadratic Probing
+**Theorem.** If the table size $m$ is prime and the load factor $\alpha \lt 0.5$ Quadratic Probing
 will always find an empty slot.
 
 ### Double Hashing
@@ -303,7 +303,7 @@ Per insertion: $O(1)$. $\square$
 
 ## Problem Set
 
-**Problem 1.** Using the division method with table size $m = 7$Compute the hash values for keys:
+**Problem 1.** Using the division method with table size $m = 7$ Compute the hash values for keys:
 14, 21, 28, 35, 42. What do you observe?
 
 <details>
@@ -406,7 +406,7 @@ For chaining.
 <details>
 <summary>Answer</summary>
 
-In open addressing, all keys are stored in the table itself. If $\alpha = n/m \geq 1$There are More
+In open addressing, all keys are stored in the table itself. If $\alpha = n/m \geq 1$ There are More
 keys than slots, making it impossible to store all keys (the table is full). With linear Probing,
 the search for an empty slot may never terminate.
 
@@ -425,8 +425,8 @@ Repeating if $h_2(k)$ and $m$ are coprime.
 **Proof.** The probe sequence is: $h_1(k),\ h_1(k) + h_2(k),\ h_1(k) + 2h_2(k),\ \ldots \pmod m$.
 
 This is an arithmetic progression modulo $m$ with common difference $d = h_2(k)$. The sequence
-Visits distinct values as long as $d$ is coprime with $m$. If $\gcd(d, m) = g \gt 1$The sequence
-Cycles through only $m/g$ distinct values. When $\gcd(d, m) = 1$By the properties of modular
+Visits distinct values as long as $d$ is coprime with $m$. If $\gcd(d, m) = g \gt 1$ The sequence
+Cycles through only $m/g$ distinct values. When $\gcd(d, m) = 1$ By the properties of modular
 Arithmetic, the sequence covers all $m$ residues before repeating. $\square$
 
 This is why $h_2(k)$ must be chosen so that $\gcd(h_2(k), m) = 1$.
@@ -513,7 +513,7 @@ Note: 42 and 55 both hash to index 3, a collision occurs.
 </details>
 
 **Problem 2.** A hash function for strings uses the polynomial rolling hash:
-$h(s) = (s[0] + s[1] \cdot 31 + s[2] \cdot 31^2) \bmod 100$Where $s[i]$ is the ASCII code of the
+$h(s) = (s[0] + s[1] \cdot 31 + s[2] \cdot 31^2) \bmod 100$ Where $s[i]$ is the ASCII code of the
 $i$-th character. Calculate the hash value for the string "Cat".
 
 <details>
@@ -550,7 +550,7 @@ Probing with $h(k) = k \bmod 7$. Show the state of the table after each insertio
 <details>
 <summary>Hint</summary>
 
-For linear probing, if index $h(k)$ is occupied, try $h(k)+1$ Then $h(k)+2$Etc., wrapping around
+For linear probing, if index $h(k)$ is occupied, try $h(k)+1$ Then $h(k)+2$ Etc., wrapping around
 Using modulo 7.
 
 </details>
@@ -609,7 +609,7 @@ Probe sequence:
 
 The key 61 was found at index 6 after 2 probes.
 
-Note: This illustrates a drawback of linear probing, even though $h(61) = 5$The key is stored at
+Note: This illustrates a drawback of linear probing, even though $h(61) = 5$ The key is stored at
 Index 6 due to earlier collisions. We must continue probing past occupied slots until we find the
 Key or an empty slot.
 
@@ -751,7 +751,7 @@ Probe sequences, memory usage, and deletion.
 | **Best-case search**   | $O(1)$, key at its hash index                                                                                                   | $O(1)$, key is alone in its bucket                                                                                                       |
 | **Worst-case search**  | $O(n)$, all keys cluster together                                                                                               | $O(n)$, all keys hash to same bucket                                                                                                     |
 | **Deletion**           | Requires "lazy deletion" (mark slot as deleted, not empty). If emptied, search would break by stopping early at the gap.         | $O(1)$, remove node from linked list                                                                                                     |
-| **Load factor effect** | Performance degrades rapidly as $\alpha \to 1$. At $\alpha > 0.7$Clustering causes significant slowdown. Must keep $\alpha < 1$. | Performance degrades gradually. Chains grow linearly with $\alpha$. No hard upper limit on $\alpha$ (but should keep < 1 for efficiency). |
+| **Load factor effect** | Performance degrades rapidly as $\alpha \to 1$. At $\alpha > 0.7$ Clustering causes significant slowdown. Must keep $\alpha < 1$. | Performance degrades gradually. Chains grow linearly with $\alpha$. No hard upper limit on $\alpha$ (but should keep < 1 for efficiency). |
 | **Memory**             | $O(m)$, fixed array size                                                                                                        | $O(n + m)$, array + linked list nodes                                                                                                    |
 | **Cache performance**  | Good, contiguous memory access                                                                                                  | Poor, following pointers to scattered nodes                                                                                              |
 
@@ -874,7 +874,7 @@ Search for 47:
 1. Index 3 → 47 found immediately. (This actually works for 47.)
 
 But consider searching for **key 25** after re-inserting it at a different location, or consider
-Searching for key 80 if index 0 were emptied: $h_1(80) = 3$Probing goes to index 1 (found). However,
+Searching for key 80 if index 0 were emptied: $h_1(80) = 3$ Probing goes to index 1 (found). However,
 the problem arises with keys that were inserted after the deleted key and probed past it.
 
 Consider searching for a hypothetical key that hashed to index 0 and was placed further along due to

@@ -117,13 +117,13 @@ _Proof (time)._ Each vertex is coloured exactly once (from WHITE to GREY) and fi
 (from GREY to BLACK): $O(V)$. Each edge is examined at most twice (once in each direction for
 undirected, once for directed): $O(E)$. Total: $O(V + E)$. $\blacksquare$
 
-**Theorem 4.3 (Parenthesis Theorem).** In any DFS, for any two vertices $u$ and $v$Exactly one of
+**Theorem 4.3 (Parenthesis Theorem).** In any DFS, for any two vertices $u$ and $v$ Exactly one of
 the following holds: (1) $d[u] \lt d[v] \lt f[v] \lt f[u]$ (interval nesting), (2)
 $d[v] \lt d[u] \lt f[u] \lt f[v]$ (interval nesting), or (3) the intervals $[d[u], f[u]]$ and
 $[d[v], f[v]]$ are disjoint.
 
-_Proof._ The DFS call stack forms a nesting of intervals. When we start visiting $v$ from $u$We must
-finish $v$ before finishing $u$Giving nesting. If $u$ and $v$ are in different DFS trees, their
+_Proof._ The DFS call stack forms a nesting of intervals. When we start visiting $v$ from $u$ We must
+finish $v$ before finishing $u$ Giving nesting. If $u$ and $v$ are in different DFS trees, their
 intervals are disjoint. $\blacksquare$
 
 **Theorem 4.4 (White-Path Theorem).** $v$ is a descendant of $u$ in the DFS forest if and only if,
@@ -137,7 +137,7 @@ intermediate white vertices.
 ($\Leftarrow$) Suppose there is a white path from $u$ to $v$ at time $d[u]$. Let $w$ be the first
 vertex on this path discovered after $u$. All vertices before $w$ on the path are still white (they
 can only be discovered after $w$), so $w$ will be discovered from the path. By induction, $v$ is a
-descendant of $w$Hence of $u$. $\blacksquare$
+descendant of $w$ Hence of $u$. $\blacksquare$
 
 ### 4.3 Topological Sort
 
@@ -150,26 +150,26 @@ edge $(u, v)$, $u$ appears before $v$.
 
 _Proof._ Suppose there is an edge $(u, v)$ but $u$ appears after $v$ in the ordering (i.e.,
 $f[u] \lt f[v]$). Since $(u, v)$ is an edge, when $u$ is being explored (coloured GREY), if $v$ is
-WHITE, then $v$ is discovered as a descendant of $u$ So $f[v] \lt f[u]$Contradiction. If $v$ is GREY,
+WHITE, then $v$ is discovered as a descendant of $u$ So $f[v] \lt f[u]$ Contradiction. If $v$ is GREY,
 we have a back edge, implying a cycle, contradicting that the graph is acyclic. If $v$ is BLACK,
-then $f[v] \lt d[u] \lt f[u]$Contradicting $f[u] \lt f[v]$. $\blacksquare$
+then $f[v] \lt d[u] \lt f[u]$ Contradicting $f[u] \lt f[v]$. $\blacksquare$
 
 ### 4.4 Strongly Connected Components
 
 Two vertices $u$ and $v$ are **strongly connected** if there is a path from $u$ to $v$ and from $v$
 to $u$. A **strongly connected component (SCC)** is a maximal set of strongly connected vertices.
 
-**Kosaraju"s Algorithm:**
+**Kosaraju's Algorithm:**
 
-1. Run DFS on $G$Recording finishing times.
+1. Run DFS on $G$ Recording finishing times.
 2. Compute $G^T$ (transpose of $G$: reverse all edges).
 3. Run DFS on $G^T$ in decreasing order of finishing times. Each DFS tree is an SCC.
 
 **Theorem 4.6.** Kosaraju's algorithm correctly identifies all SCCs in $O(V + E)$ time.
 
 _Proof._ Let $C$ be the SCC containing the vertex $s$ with the highest finishing time in the first
-DFS. We claim that in $G^T$No vertex in $C$ can reach a vertex outside $C$ (otherwise $s$ would have
-a path to and from that vertex, placing it in $C$). In the second DFS, starting from $s$ in $G^T$We
+DFS. We claim that in $G^T$ No vertex in $C$ can reach a vertex outside $C$ (otherwise $s$ would have
+a path to and from that vertex, placing it in $C$). In the second DFS, starting from $s$ in $G^T$ We
 discover exactly the vertices in $C$. Removing $C$ and repeating the argument gives the remaining
 SCCs. $\blacksquare$
 
@@ -213,9 +213,9 @@ Inductive step: Suppose all vertices in $S$ have correct distances. Let $u$ be t
 extracted from $Q$. Suppose for contradiction that $d[u] > \delta(s, u)$. Consider a shortest path
 $P$ from $s$ to $u$ And let $(x, y)$ be the first edge on $P$ where $x \in S$ and $y \notin S$. Then
 $\delta(s, y) = \delta(s, x) + w(x, y) = d[x] + w(x, y)$ (by induction). When $x$ was added to
-$S$The edge $(x, y)$ was relaxed, so $d[y] \leq d[x] + w(x, y) = \delta(s, y)$. Since edge weights
+$S$ The edge $(x, y)$ was relaxed, so $d[y] \leq d[x] + w(x, y) = \delta(s, y)$. Since edge weights
 are non-negative, $\delta(s, y) \leq \delta(s, u)$. But
-$d[y] \leq \delta(s, y) \leq \delta(s, u) \lt d[u]$ And $y$ is in $Q$Contradicting that $u$ has the
+$d[y] \leq \delta(s, y) \leq \delta(s, u) \lt d[u]$ And $y$ is in $Q$ Contradicting that $u$ has the
 minimum $d$-value in $Q$. $\blacksquare$
 
 **Theorem 4.8.** Dijkstra's algorithm with a binary heap runs in $O((V + E)\log V)$ time. With a
@@ -320,7 +320,7 @@ $d[A] = 0$.
 
 **Negative cycle check:** No edge can be relaxed. No negative cycle.
 
-Result: $d = [0, 6, 7, 2, 4, -1]$. Shortest path to $F$: $A \to B \to D \to E \to F$Cost $-1$.
+Result: $d = [0, 6, 7, 2, 4, -1]$. Shortest path to $F$: $A \to B \to D \to E \to F$ Cost $-1$.
 
 </details>
 
@@ -332,7 +332,7 @@ $A \to B \to C \to A$ of weight $1 + (-3) + 2 = 0$. Not negative.
 
 Now add $C \xrightarrow{-1} A$. Cycle weight: $1 + (-3) + (-1) = -3$. Negative cycle.
 
-Initial: $d[A] = 0$Rest $\infty$.
+Initial: $d[A] = 0$ Rest $\infty$.
 
 **Iteration 1:** $d[B] = 1$, $d[C] = -2$, $d[A] = \min(0, -2 + (-1)) = -3$.
 
@@ -344,7 +344,7 @@ Initial: $d[A] = 0$Rest $\infty$.
 
 **Iteration 5:** $d[B] = -11$, $d[C] = -14$, $d[A] = -15$.
 
-**Check (iteration 6):** $(A,B)$: $-15 + 1 = -14 \lt -11$Can still relax. **Negative cycle
+**Check (iteration 6):** $(A,B)$: $-15 + 1 = -14 \lt -11$ Can still relax. **Negative cycle
 detected!**
 
 </details>
@@ -353,7 +353,7 @@ detected!**
 
 **Problem.** Find all-pairs shortest paths.
 
-**Algorithm.** For $k = 1, \ldots, V$: for each pair $(i, j)$Check if going through vertex $k$
+**Algorithm.** For $k = 1, \ldots, V$: for each pair $(i, j)$ Check if going through vertex $k$
 Improves the path.
 
 $$
@@ -363,7 +363,7 @@ $$
 **Derivation.** Define $d_{ij}^{(k)}$ as the shortest-path distance from $i$ to $j$ using only
 intermediate vertices from $\\{1, 2, \ldots, k\\}$. Then:
 
-- $d_{ij}^{(0)} = w(i,j)$ (the weight of edge $(i,j)$Or $\infty$ if no edge).
+- $d_{ij}^{(0)} = w(i,j)$ (the weight of edge $(i,j)$ Or $\infty$ if no edge).
 - For $k \geq 1$: The shortest path from $i$ to $j$ through vertices $\\{1, \ldots, k\\}$ either
   does not use vertex $k$ (giving $d_{ij}^{(k-1)}$) or uses vertex $k$ (giving
   $d_{ik}^{(k-1)} + d_{kj}^{(k-1)}$).
@@ -438,19 +438,19 @@ Tree to a non-tree vertex (using a priority queue). $O((V + E)\log V)$.
 Belongs to some MST.
 
 _Proof._ Let $(S, V \setminus S)$ be a cut and $e = (u, v)$ be the minimum-weight crossing edge with
-$u \in S$, $v \notin S$. Let $T$ be an MST. If $e \in T$We are done. Otherwise, adding $e$ to $T$
+$u \in S$, $v \notin S$. Let $T$ be an MST. If $e \in T$ We are done. Otherwise, adding $e$ to $T$
 creates a cycle. This cycle must cross the cut at least once more (it goes from $u$ to $v$ via some
 other path). Let $e'$ be another crossing edge on this cycle. Since $e$ is the minimum-weight
 crossing edge, $w(e) \leq w(e')$. Replacing $e'$ with $e$ in $T$ gives a spanning tree of weight no
-greater than $T$Hence an MST containing $e$. $\blacksquare$
+greater than $T$ Hence an MST containing $e$. $\blacksquare$
 
 **Theorem 4.12 (Cycle Property).** For any cycle, the maximum-weight edge on the cycle does not
 belong To any MST.
 
 _Proof._ Let $C$ be a cycle and $e$ be the maximum-weight edge on $C$. Let $T$ be an MST. If
-$e \notin T$We are done. Otherwise, removing $e$ from $T$ disconnects it into two components. The
+$e \notin T$ We are done. Otherwise, removing $e$ from $T$ disconnects it into two components. The
 rest of cycle $C$ must contain an edge $e' \neq e$ crossing this cut. Since $w(e') \lt w(e)$ (if
-$w(e') = w(e)$We can replace either), replacing $e$ with $e'$ gives a spanning tree of strictly
+$w(e') = w(e)$ We can replace either), replacing $e$ with $e'$ gives a spanning tree of strictly
 smaller weight, contradicting the optimality of $T$. $\blacksquare$
 
 **Theorem 4.13.** Kruskal's algorithm produces a minimum spanning tree.

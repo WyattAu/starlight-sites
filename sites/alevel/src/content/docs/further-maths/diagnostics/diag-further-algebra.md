@@ -50,12 +50,12 @@ $\beta = 1+i$, $\gamma = 1-i$.
 
 (c)
 $\alpha^2 + \beta^2 + \gamma^2 = (\alpha+\beta+\gamma)^2 - 2(\alpha\beta+\alpha\gamma+\beta\gamma)$.
-By Vieta"s:
+By Vieta's:
 $\alpha+\beta+\gamma = 3$$\alpha\beta+\alpha\gamma+\beta\gamma = 4$$\alpha\beta\gamma = 2$.
 $= 9 - 8 = 1$.
 
-(d) If roots are $2\alpha, 2\beta, 2\gamma$: sum $= 2 \times 3 = 6$Sum of products
-$= 4 \times 4 = 16$Product $= 8 \times 2 = 16$. $g(x) = x^3 - 6x^2 + 16x - 16$.
+(d) If roots are $2\alpha, 2\beta, 2\gamma$: sum $= 2 \times 3 = 6$ Sum of products
+$= 4 \times 4 = 16$ Product $= 8 \times 2 = 16$. $g(x) = x^3 - 6x^2 + 16x - 16$.
 
 ### UT-2: Partial Fractions and Series
 
@@ -115,7 +115,7 @@ This is the formula with $n = k+1$. By induction, the result holds for all $n \g
 **Question:** If $\alpha, \beta, \gamma$ are the roots of $x^3 + px + q = 0$: (a) express
 $\alpha^3 + \beta^3 + \gamma^3$ in terms of $p$ and $q$. (b) express
 $\alpha^2\beta + \alpha\beta^2 + \alpha^2\gamma + \alpha\gamma^2 + \beta^2\gamma + \beta\gamma^2$ in
-terms of $p$ and $q$. (c) If $q = -8$ and $\alpha^3 + \beta^3 + \gamma^3 = 0$Find $p$. (d) Explain
+terms of $p$ and $q$. (c) If $q = -8$ and $\alpha^3 + \beta^3 + \gamma^3 = 0$ Find $p$. (d) Explain
 the relationship between these identities and symmetric functions.
 
 **Solution:**
@@ -129,7 +129,7 @@ $= 0 - 0 + 3(-q) = -3q$.
 (b)
 $\alpha^2\beta + \alpha\beta^2 + \alpha^2\gamma + \alpha\gamma^2 + \beta^2\gamma + \beta\gamma^2 = (\alpha+\beta+\gamma)(\alpha\beta+\alpha\gamma+\beta\gamma) - 3\alpha\beta\gamma = 0 \cdot p - 3(-q) = 3q$.
 
-(c) If $q = -8$: $\alpha^3 + \beta^3 + \gamma^3 = -3(-8) = 24$. If this equals 0, then $24 = 0$Which
+(c) If $q = -8$: $\alpha^3 + \beta^3 + \gamma^3 = -3(-8) = 24$. If this equals 0, then $24 = 0$ Which
 is impossible. So no such $p$ exists. The conditions are inconsistent.
 
 (d) These are Newton's identities connecting power sums $s_k = \sum \alpha_i^k$ with elementary
@@ -156,7 +156,7 @@ $= \frac{1 \cdot 4}{4 \cdot 2 \cdot 3} = \frac{1}{6}$. $\checkmark$.
 $\sum_{r=1}^{k+1} \frac{1}{r(r+1)(r+2)} = \frac{k(k+3)}{4(k+1)(k+2)} + \frac{1}{(k+1)(k+2)(k+3)}$
 $= \frac{k(k+3)^2 + 4}{4(k+1)(k+2)(k+3)} = \frac{k^3 + 6k^2 + 9k + 4}{4(k+1)(k+2)(k+3)} = \frac{(k+1)^2(k+4)}{4(k+1)(k+2)(k+3)} = \frac{(k+1)(k+4)}{4(k+2)(k+3)}$.
 
-This equals $\frac{(k+1)((k+1)+3)}{4((k+1)+1)((k+1)+2)}$Which is the formula with $n = k+1$. Proven.
+This equals $\frac{(k+1)((k+1)+3)}{4((k+1)+1)((k+1)+2)}$ Which is the formula with $n = k+1$. Proven.
 
 (b) $\lim_{n \to \infty} \frac{n(n+3)}{4(n+1)(n+2)} = \frac{1}{4}$. So
 $\sum_{r=1}^{\infty} \frac{1}{r(r+1)(r+2)} = \frac{1}{4}$.
@@ -173,7 +173,7 @@ $\frac{1}{(1-x)^3} = \sum_{n=0}^{\infty}\frac{(n+1)(n+2)}{2}x^n$. Verified.
 ### IT-3: Algebraic Manipulation (with Matrices)
 
 **Question:** (a) If $M = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ satisfies
-$M^2 = \mathbf{I}$Show that $a^2 + bc = 1$. (b) Find all $2 \times 2$ matrices with integer entries
+$M^2 = \mathbf{I}$ Show that $a^2 + bc = 1$. (b) Find all $2 \times 2$ matrices with integer entries
 satisfying $M^2 = \mathbf{I}$. (c) The trace of $M$ is $\text{tr}(M) = a + d$. What relationship
 must the trace satisfy for $M^2 = \mathbf{I}$? (d) How many such matrices exist with entries in
 $\{0, 1, -1\}$?
@@ -193,7 +193,7 @@ Case 1: $d = a$. Then $b(a+a) = 2ab = 0$ and $c(a+a) = 2ac = 0$. So either $a = 
 - If $a \ne 0$: $b = c = 0$$a^2 = 1$$a = \pm 1$. Matrices: $\pm\mathbf{I}$.
 
 Case 2: $d = -a$. Then $b(a-a) = 0$ and $c(a-a) = 0$ (always satisfied). Need $a^2 + bc = 1$. With
-integer entries and $|a|, |b|, |c| \le 1$: if $a = 0$: $bc = 1$Same as above. If $a = 1$: $bc = 0$.
+integer entries and $|a|, |b|, |c| \le 1$: if $a = 0$: $bc = 1$ Same as above. If $a = 1$: $bc = 0$.
 If $a = -1$: $bc = 0$.
 
 - $a = 1, d = -1, bc = 0$: $(b,c) = (0,0), (1,0), (-1,0), (0,1), (0,-1)$. But $b$ and $c$ must be in

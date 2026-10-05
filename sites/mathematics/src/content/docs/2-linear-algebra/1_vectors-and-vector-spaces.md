@@ -39,7 +39,7 @@ $\alpha, \beta \in F$:
    $(\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w})$
 3. **Additive identity**: There exists $\mathbf{0} \in V$ such that
    $\mathbf{v} + \mathbf{0} = \mathbf{v}$
-4. **Additive inverse**: For each $\mathbf{v}$There exists $-\mathbf{v}$ such that
+4. **Additive inverse**: For each $\mathbf{v}$ There exists $-\mathbf{v}$ such that
    $\mathbf{v} + (-\mathbf{v}) = \mathbf{0}$
 5. **Compatibility of scalar multiplication**: $\alpha(\beta \mathbf{v}) = (\alpha\beta)\mathbf{v}$
 6. **Identity element of scalar multiplication**: $1 \cdot \mathbf{v} = \mathbf{v}$
@@ -59,9 +59,9 @@ space Over $\mathbb{R}$.
 
 **Example 2.** The set $\mathcal{P}_n$ of all polynomials of degree at most $n$ with real
 coefficients, With the usual polynomial addition and scalar multiplication, is a vector space over
-$\mathbb{R}$. Its dimension is $n + 1$With standard basis $\{1, x, x^2, \ldots, x^n\}$.
+$\mathbb{R}$. Its dimension is $n + 1$ With standard basis $\{1, x, x^2, \ldots, x^n\}$.
 
-**Example 3.** The set $C[a,b]$ of all continuous real-valued functions on $[a,b]$With point-wise
+**Example 3.** The set $C[a,b]$ of all continuous real-valued functions on $[a,b]$ With point-wise
 Addition and scalar multiplication, is a vector space over $\mathbb{R}$. This space is
 Infinite-dimensional.
 
@@ -116,7 +116,7 @@ $\alpha_k \mathbf{v}_k \in W$ by closure under scalar multiplication. Their sum 
 under addition. $\blacksquare$
 
 **Example 7.** The set of all solutions to the homogeneous equation $A\mathbf{x} = \mathbf{0}$ forms
-a Subspace of $\mathbb{R}^n$Called the **null space** of $A$.
+a Subspace of $\mathbb{R}^n$ Called the **null space** of $A$.
 
 ### 1.4 Worked Example: Verifying Subspace Criteria
 
@@ -153,7 +153,7 @@ Under scalar multiplication.
 
 **(c)** Let $\mathbf{u} = (0, a, a)$ and $\mathbf{v} = (0, b, b)$ be in $W_3$. Then
 $\mathbf{u} + \mathbf{v} = (0, a + b, a + b) \in W_3$ and
-$\alpha \mathbf{u} = (0, \alpha a, \alpha a) \in W_3$. Since $(0, 0, 0) \in W_3$It is a non-empty
+$\alpha \mathbf{u} = (0, \alpha a, \alpha a) \in W_3$. Since $(0, 0, 0) \in W_3$ It is a non-empty
 subspace.
 
 $\blacksquare$

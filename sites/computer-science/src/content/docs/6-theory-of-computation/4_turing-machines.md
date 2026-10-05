@@ -91,13 +91,13 @@ Turing-recognisable If and only if some enumerator enumerates it.
 
 **Theorem 4.2a.** A language is Turing-recognisable if and only if some enumerator enumerates it.
 
-_Proof._ ($\Rightarrow$) Given TM $M$ recognising $L$Construct an enumerator $E$ that dovetails:
+_Proof._ ($\Rightarrow$) Given TM $M$ recognising $L$ Construct an enumerator $E$ that dovetails:
 Runs $M$ on $\varepsilon$ for 1 step, then $M$ on $\varepsilon$ and $M$ on $0$ for 2 steps, then on
 $\varepsilon, 0, 1, 00, 01, 10, 11$ for 3 steps, and so on. Whenever $M$ accepts, $E$ prints that
 String. Every string in $L$ is eventually printed.
 
-($\Leftarrow$) Given enumerator $E$ for $L$Construct TM $M$ that on input $w$ runs $E$ and checks
-Each printed string against $w$. If $w$ is printed, accept. If $w \in L$It will eventually be
+($\Leftarrow$) Given enumerator $E$ for $L$ Construct TM $M$ that on input $w$ runs $E$ and checks
+Each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
 Printed, so $M$ recognises $L$. $\blacksquare$
 
 ### 4.3 Church-Turing Thesis
@@ -141,14 +141,14 @@ $M = (Q, \{0, 1\}, \{0, 1, \mathrm{x, \sqcup\}, \delta, q_0, q_{\mathrm{accept},
 
 **Key transitions:**
 
-1. In $q_0$Read `0`: write `x`Move right, go to $q_1$. (Cross off a `0`.)
-2. In $q_0$Read `1`: reject. (A `1` before any `0`.)
-3. In $q_0$Read $\sqcup$: accept. (Nothing left.)
-4. In $q_1$Read `0`: move right, stay in $q_1$. (Skip remaining `0`S.)
-5. In $q_1$Read `1`: write `x`Move left, go to $q_2$. (Cross off a `1`.)
-6. In $q_1$Read $\sqcup$: reject. (No `1` to match.)
-7. In $q_2$Read `0` or `x`: move left, stay in $q_2$. (Scan back.)
-8. In $q_2$Read $\sqcup$: move right, go to $q_0$. (Return to start.)
+1. In $q_0$ Read `0`: write `x`Move right, go to $q_1$. (Cross off a `0`.)
+2. In $q_0$ Read `1`: reject. (A `1` before any `0`.)
+3. In $q_0$ Read $\sqcup$: accept. (Nothing left.)
+4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`S.)
+5. In $q_1$ Read `1`: write `x`Move left, go to $q_2$. (Cross off a `1`.)
+6. In $q_1$ Read $\sqcup$: reject. (No `1` to match.)
+7. In $q_2$ Read `0` or `x`: move left, stay in $q_2$. (Scan back.)
+8. In $q_2$ Read $\sqcup$: move right, go to $q_0$. (Return to start.)
 
 _Correctness._ Each iteration crosses off exactly one `0` and one `1`. If the input is $0^n 1^n$ The
 machine performs $n$ iterations and accepts. If counts differ or the pattern is violated, The
@@ -165,8 +165,8 @@ Design a TM that decides $A_{\mathrm{DFA} = \{\langle B, w \rangle : B \mathrm{ 
 
 1. Simulate $B$ on $w$. Maintain the current state $q$ and position $i$ in $w$.
 2. At each step, look up $\delta(q, w_i)$ in $B$'s transition table (encoded on the tape).
-3. Update $q$ and $i$. If $q \in F$ when $i = |w| + 1$Accept.
-4. If $i = |w| + 1$ and $q \notin F$Reject.
+3. Update $q$ and $i$. If $q \in F$ when $i = |w| + 1$ Accept.
+4. If $i = |w| + 1$ and $q \notin F$ Reject.
 
 The simulation takes $O(|w|)$ steps and always halts. $\blacksquare$
 
@@ -195,7 +195,7 @@ correctly simulates $M$. $\blacksquare$
 (the UTM) is fixed, and software (the encoded TM) provides the specific computation.
 
 **Simulation overhead.** If $M$ runs in time $t(n)$ Then $U$ simulates $M$ in time
-$O(t(n) \cdot |M|)$Where $|M|$ is the size of $M$'s description.
+$O(t(n) \cdot |M|)$ Where $|M|$ is the size of $M$'s description.
 
 <details>
 <summary>Worked Example: TM for $L = \{w\#w^R : w \in \{0,1\}^*\}$</summary>
@@ -207,14 +207,14 @@ remains, accept.
 
 **Algorithm:**
 
-1. Scan right to find the rightmost non-$\sqcup$Non-$\mathrm{x$ symbol (call it $a$). If we cross
+1. Scan right to find the rightmost non-$\sqcup$ Non-$\mathrm{x$ symbol (call it $a$). If we cross
    $\#$ on the way, note its position.
-2. Return to the leftmost non-$\sqcup$Non-$\mathrm{x$ symbol (call it $b$).
-3. If $a \neq b$Reject.
+2. Return to the leftmost non-$\sqcup$ Non-$\mathrm{x$ symbol (call it $b$).
+3. If $a \neq b$ Reject.
 4. Cross off both $a$ and $b$ (write $\mathrm{x$).
-5. Repeat until only $\#$ (and $\mathrm{x$S) remain, then accept.
+5. Repeat until only $\#$ (and $\mathrm{x$ S) remain, then accept.
 
-_Correctness._ If the input is $w\#w^R$The first symbol of $w$ equals the last symbol of $w^R$
+_Correctness._ If the input is $w\#w^R$ The first symbol of $w$ equals the last symbol of $w^R$
 (which is the first symbol of $w$), the second equals the second-to-last, etc. Each Iteration
 verifies one pair. If any pair mismatches, the string is not of the form $w\#w^R$. $\blacksquare$
 

@@ -19,7 +19,7 @@ description: "For an ODE where and are analytic near Substitute the Power series
 
 ### 6.1 Power Series Method
 
-For an ODE $y"' + p(x)y' + q(x)y = 0$ where $p$ and $q$ are analytic near $x_0$Substitute the Power
+For an ODE $y"' + p(x)y' + q(x)y = 0$ where $p$ and $q$ are analytic near $x_0$ Substitute the Power
 series $y = \sum_{n=0}^{\infty} a_n (x - x_0)^n$ and solve for the coefficients.
 
 ### 6.2 Ordinary and Regular Singular Points
@@ -29,7 +29,7 @@ Point** if $(x - x_0)p(x)$ and $(x - x_0)^2 q(x)$ are analytic at $x_0$.
 
 ### 6.3 Frobenius Method
 
-At a regular singular point $x_0 = 0$Substitute $y = \sum_{n=0}^{\infty} a_n x^{n + r}$. The
+At a regular singular point $x_0 = 0$ Substitute $y = \sum_{n=0}^{\infty} a_n x^{n + r}$. The
 **indicial equation** determines the possible values of $r$.
 
 **Theorem 6.1.** If the roots $r_1 \geq r_2$ of the indicial equation differ by a non-integer, there
@@ -43,8 +43,8 @@ $$
 x^2 y'' + xy' + (x^2 - \nu^2)y = 0
 $$
 
-For $\nu \notin \mathbb{Z}$The solutions are $J_\nu(x)$ and $J_{-\nu}(x)$ (Bessel functions of the
-First kind). For $\nu = n \in \mathbb{N}$The second solution is the Weber function $Y_n(x)$.
+For $\nu \notin \mathbb{Z}$ The solutions are $J_\nu(x)$ and $J_{-\nu}(x)$ (Bessel functions of the
+First kind). For $\nu = n \in \mathbb{N}$ The second solution is the Weber function $Y_n(x)$.
 
 ### 6.4b Worked Example: Higher-Order ODE
 
@@ -76,7 +76,7 @@ $y' = \sum_{n=1}^{\infty} na_n x^{n-1}$, $y'' = \sum_{n=2}^{\infty} n(n-1)a_n x^
 
 $y'' - xy = \sum_{n=2}^{\infty} n(n-1)a_n x^{n-2} - \sum_{n=0}^{\infty} a_n x^{n+1} = 0$.
 
-Shift indices: first sum $\sum_{m=0}^{\infty} (m+2)(m+1)a_{m+2} x^m$Second sum
+Shift indices: first sum $\sum_{m=0}^{\infty} (m+2)(m+1)a_{m+2} x^m$ Second sum
 $\sum_{m=1}^{\infty} a_{m-1} x^m$.
 
 For $m = 0$: $2 \cdot 1 \cdot a_2 = 0 \implies a_2 = 0$.
@@ -84,9 +84,9 @@ For $m = 0$: $2 \cdot 1 \cdot a_2 = 0 \implies a_2 = 0$.
 For $m \geq 1$: $(m+2)(m+1)a_{m+2} - a_{m-1} = 0 \implies a_{m+2} = \frac{a_{m-1}}{(m+2)(m+1)}$.
 
 This gives: $a_3 = \frac{a_0}{6}$, $a_4 = \frac{a_1}{12}$, $a_5 = \frac{a_2}{20} = 0$
-$a_6 = \frac{a_3}{30} = \frac{a_0}{180}$Etc.
+$a_6 = \frac{a_3}{30} = \frac{a_0}{180}$ Etc.
 
-Since $a_2 = 0$All $a_{3k+2} = 0$.
+Since $a_2 = 0$ All $a_{3k+2} = 0$.
 
 $y(x) = a_0\left(1 + \frac{x^3}{6} + \frac{x^6}{180} + \cdots\right) + a_1\left(x + \frac{x^4}{12} + \frac{x^7}{504} + \cdots\right)$.
 
@@ -127,7 +127,7 @@ $(n+r)(2n + 2r - 1)a_n = -a_{n-2}$
 $a_n = -\frac{a_{n-2}}{(n+r)(2n + 2r - 1)}$
 
 For $r = 0$: $a_n = -\frac{a_{n-2}}{n(2n-1)}$. Odd coefficients vanish ($a_1 = 0$). Even:
-$a_2 = -\frac{a_0}{6}$ $a_4 = \frac{a_0}{120}$Etc.
+$a_2 = -\frac{a_0}{6}$ $a_4 = \frac{a_0}{120}$ Etc.
 
 For $r = 1/2$: $a_n = -\frac{a_{n-2}}{(n+1/2)(2n)} = -\frac{a_{n-2}}{n(2n+1)}$.
 
@@ -138,7 +138,7 @@ $\blacksquare$
 
 ### 6.7 Worked Example: Bessel Functions
 
-**Problem.** Find the first three nonzero terms of $J_0(x)$The Bessel function of the first kind Of
+**Problem.** Find the first three nonzero terms of $J_0(x)$ The Bessel function of the first kind Of
 order zero, which satisfies $x^2 y'' + xy' + x^2 y = 0$.
 
 <details>

@@ -135,7 +135,7 @@ $$
 }
 </script>
 
-## Le Chatelier"s Principle
+## Le Chatelier's Principle
 
 ### Statement
 
@@ -625,7 +625,7 @@ $$
 
 Which salt is most soluble?
 
-A. AgCl ($K_{sp} = 1.8 \times 10^{-10}$) B. AgBr ($K_{sp} = 5.0 \times 10^{-13}$) C. AgI
+A. AgCl ($K_{sp} = 1.8 \times 10^{-10}$) B. AgBr ($ K_{sp} = 5.0 \times 10^{-13}$) C. AgI
 ($K_{sp} = 8.3 \times 10^{-17}$) D. BaSO$_4$ ($K_{sp} = 1.1 \times 10^{-10}$)
 
 **Answer: D**, BaSO$_4$ has the highest $K_{sp}$ But this comparison is only valid for salts with
@@ -668,7 +668,7 @@ flowchart TD
 :::tip[Exam Strategy]
 For equilibrium calculations, always set up an ICE table. For Le Chatelier questions, be precise
 About what changes and what stays the same (only $K$ changes with temperature). For acid-base
-Problems, identify whether the acid/base is strong or weak first. For $K_{sp}$Check the
+Problems, identify whether the acid/base is strong or weak first. For $K_{sp}$ Check the
 Stoichiometry carefully.
 
 ---
@@ -839,7 +839,7 @@ $\Delta H = -198\mathrm{ kJ/mol}$.
 
 Since the forward reaction is exothermic ($\Delta H \lt 0$), increasing temperature shifts the
 Equilibrium to the left (endothermic direction) by Le Chatelier's principle. This decreases the
-Yield of SO$_3$ and decreases $K$ (since $\ln K \propto -\Delta H / T$Increasing $T$ for an
+Yield of SO$_3$ and decreases $K$ (since $\ln K \propto -\Delta H / T$ Increasing $T$ for an
 Exothermic reaction reduces $K$).
 
 **(b)** Explain the effect of increasing pressure on the equilibrium yield of SO$_3$.
@@ -905,7 +905,7 @@ $$
 Q = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = (0.005)(0.010)^2 = 5.0 \times 10^{-7}
 $$
 
-Since $Q = 5.0 \times 10^{-7} \gt K_{sp} = 1.1 \times 10^{-8}$A precipitate of PbI$_2$ will form.
+Since $Q = 5.0 \times 10^{-7} \gt K_{sp} = 1.1 \times 10^{-8}$ A precipitate of PbI$_2$ will form.
 
 ### Question 8 (Paper 1 style)
 
@@ -953,7 +953,7 @@ $$
 <summary>Question 2: Le Chatelier's Principle</summary>
 
 For the exothermic reaction
-$\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g)$Predict and explain the
+$\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g)$ Predict and explain the
 Effect of each change on the equilibrium yield of $\mathrm{NH}_3$:
 
 (a) Increasing pressure
@@ -1077,7 +1077,7 @@ The solubility decreases significantly due to the common ion effect.
 <details>
 <summary>Question 5: Weak Acid pH</summary>
 
-Calculate the pH of a $0.050\mathrm{ M}$ solution of $\mathrm{HF}$. ($K_a = 6.8 \times 10^{-4}$)
+Calculate the pH of a $0.050\mathrm{ M}$ solution of $\mathrm{HF}$. ($ K_a = 6.8 \times 10^{-4}$)
 
 </details>
 

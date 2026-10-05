@@ -384,7 +384,7 @@ $$
 v = \frac{24.0}{10.0} = 2.4\,\text{m}\,\text{s}^{-1}
 $$
 
-The combined block then compresses the spring. At maximum compression $x$All kinetic energy converts
+The combined block then compresses the spring. At maximum compression $x$ All kinetic energy converts
 to elastic potential energy:
 
 $$
@@ -433,7 +433,7 @@ profile is given by $h(x) = 0.002x^2 - 0.05x$ where $h$ is in metres and $x$ is 
 distance in metres. The cyclist maintains constant power output $P = 250\,\text{W}$. The total
 resistive force (air resistance + rolling friction) is $F_r = 15 + 0.5v^2\,\text{N}$.
 
-At position $x = 50\,\text{m}$The cyclist is moving at $v = 8.0\,\text{m}\,\text{s}^{-1}$.
+At position $x = 50\,\text{m}$ The cyclist is moving at $v = 8.0\,\text{m}\,\text{s}^{-1}$.
 
 (a) Calculate the gradient of the road at $x = 50\,\text{m}$ and determine whether the cyclist is
 going uphill or downhill.
@@ -448,7 +448,7 @@ going uphill or downhill.
 
 At $x = 50\,\text{m}$: $\frac{dh}{dx} = 0.004 \times 50 - 0.05 = 0.20 - 0.05 = 0.15$
 
-Since $dh/dx \gt 0$The cyclist is going **uphill**.
+Since $dh/dx \gt 0$ The cyclist is going **uphill**.
 
 The angle of the incline: $\sin\theta \approx \tan\theta \approx 0.15$ (small angle approximation is
 valid here since $\theta \approx 8.5^\circ$).

@@ -55,7 +55,7 @@ $\mathcal{P}_2(\mathbb{R})$.
 
 Suppose $a(1 - x) + b(1 + x) + cx^2 = 0$ as a polynomial. Then $(a + b) + (-a + b)x + cx^2 = 0$ So
 $a + b = 0$, $-a + b = 0$, $c = 0$. From the first two equations: $2a = 0$ So $a = 0$ Then $b = 0$.
-Since $a = b = c = 0$The set is linearly independent.
+Since $a = b = c = 0$ The set is linearly independent.
 
 _If you get this wrong, revise: Section 2.1 (Linear Independence)._
 
@@ -90,7 +90,7 @@ in $\mathbb{R}^3$. Verify the dimension formula $\dim(U + W) = \dim(U) + \dim(W)
 <summary>Solution</summary>
 
 $\dim(U) = 2$ (the two spanning vectors are linearly independent), $\dim(W) = 1$. Since
-$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$We have $U + W = \mathbb{R}^3$ So $\dim(U + W) = 3$. By
+$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$ We have $U + W = \mathbb{R}^3$ So $\dim(U + W) = 3$. By
 the dimension formula: $\dim(U \cap W) = 2 + 1 - 3 = 0$ So $U \cap W = \{\mathbf{0}\}$.
 
 We can verify directly: if $a(1,0,1) + b(0,1,1) = c(1,1,0)$ Then $a = c$, $b = c$, $a + b = 0$ Giving
@@ -129,7 +129,7 @@ _If you get this wrong, revise: Section 3.4 (Determinants)._
 <summary>Solution</summary>
 
 $\det(A) = \det(A^T) = \det(-A) = (-1)^n \det(A) = -\det(A)$ (since $n$ is odd). Therefore
-$\det(A) = -\det(A)$ So $2\det(A) = 0$Giving $\det(A) = 0$.
+$\det(A) = -\det(A)$ So $2\det(A) = 0$ Giving $\det(A) = 0$.
 
 _If you get this wrong, revise: Section 3.5 (Properties of Determinants)._
 
@@ -198,7 +198,7 @@ $$
 $$
 
 $\mathrm{rank}(A) = 2$ but $\mathrm{rank}([A \mid \mathbf{b}]) = 3$ (the row $[0\ 0\ 0\ 1]$ is
-Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$The system is
+Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
 inconsistent.
 
 _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._
@@ -270,7 +270,7 @@ Is $A$ diagonalisable?
 
 $\det(A - \lambda I) = (2 - \lambda)^3$ So $\lambda = 2$ with algebraic multiplicity 3.
 
-$A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$Which has rank 2. The
+$A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$ Which has rank 2. The
 null space is spanned by $(1, 0, 0)^T$. So the geometric multiplicity is 1.
 
 Since the geometric multiplicity (1) does not equal the algebraic multiplicity (3), $A$ is **not**
@@ -312,7 +312,7 @@ _If you get this wrong, revise: Section 5.3 (Diagonalisation)._
 </details>
 
 **Problem 15.** Use the Cayley--Hamilton theorem to express $A^3$ as a linear combination of $A^2$,
-$A$ And $I$Where $A = \begin{pmatrix} 1 & 2 \\ -1 & 3 \end{pmatrix}$.
+$A$ And $I$ Where $A = \begin{pmatrix} 1 & 2 \\ -1 & 3 \end{pmatrix}$.
 
 <details>
 <summary>Solution</summary>
@@ -382,7 +382,7 @@ _If you get this wrong, revise: Section 7.5 (Orthogonal Projection)._
 </details>
 
 **Problem 18.** Prove the Cauchy--Schwarz inequality for $\mathbb{R}^n$ directly: for any nonzero
-$\mathbf{x}, \mathbf{y} \in \mathbb{R}^n$Show that
+$\mathbf{x}, \mathbf{y} \in \mathbb{R}^n$ Show that
 $\lvert\mathbf{x} \cdot \mathbf{y}\rvert \leq \lVert \mathbf{x} \rVert \lVert \mathbf{y} \rVert$ And
 determine when equality holds.
 
@@ -392,7 +392,7 @@ determine when equality holds.
 Consider the function
 $f(t) = \lVert \mathbf{x} + t\mathbf{y} \rVert^2 = \lVert \mathbf{x} \rVert^2 + 2t(\mathbf{x} \cdot \mathbf{y}) + t^2 \lVert \mathbf{y} \rVert^2$.
 
-Since $f(t) \geq 0$ for all $t \in \mathbb{R}$This quadratic in $t$ has at most one real root, So
+Since $f(t) \geq 0$ for all $t \in \mathbb{R}$ This quadratic in $t$ has at most one real root, So
 its discriminant satisfies $\Delta \leq 0$:
 
 $4(\mathbf{x} \cdot \mathbf{y})^2 - 4\lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2 \leq 0$
@@ -401,8 +401,8 @@ Therefore
 $(\mathbf{x} \cdot \mathbf{y})^2 \leq \lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2$ And
 taking square roots gives the result.
 
-Equality holds iff $\Delta = 0$Which means $f(t)$ has a double root, i.e., there exists $t_0$ such
-that $\mathbf{x} + t_0 \mathbf{y} = \mathbf{0}$Meaning $\mathbf{x}$ and $\mathbf{y}$ are linearly
+Equality holds iff $\Delta = 0$ Which means $f(t)$ has a double root, i.e., there exists $t_0$ such
+that $\mathbf{x} + t_0 \mathbf{y} = \mathbf{0}$ Meaning $\mathbf{x}$ and $\mathbf{y}$ are linearly
 dependent.
 
 _If you get this wrong, revise: Section 7.2 (Cauchy--Schwarz Inequality)._
@@ -429,7 +429,7 @@ $p(A) = -\begin{pmatrix} 1 & 0 & 0 \\ 0 & 14 & 13 \\ 0 & 13 & 14 \end{pmatrix} +
 
 $= \begin{pmatrix} -1+5-7+3 & 0 & 0 \\ 0 & -14+25-14+3 & -13+20-7+0 \\ 0 & -13+20-7+0 & -14+25-14+3 \end{pmatrix} = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$
 
-So $p(A) = 0$Confirming Cayley--Hamilton. $\blacksquare$
+So $p(A) = 0$ Confirming Cayley--Hamilton. $\blacksquare$
 
 _If you get this wrong, revise: Section 5.4 (Cayley--Hamilton Theorem)._
 

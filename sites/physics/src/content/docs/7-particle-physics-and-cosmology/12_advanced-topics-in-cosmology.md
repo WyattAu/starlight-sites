@@ -37,7 +37,7 @@ $$
 $$
 
 The ISW effect is significant only when the universe is not matter-dominated (since
-$\Phi = \text{const}$ during matter domination). In $\Lambda$CDM, the ISW effect operates at late
+$\Phi = \text{const}$ during matter domination). In $\Lambda$ CDM, the ISW effect operates at late
 times ($z \lesssim 1$) when dark energy starts to dominate.
 
 ### 12.2 Dark Matter Halos and NFW Profile
@@ -53,7 +53,7 @@ Where $r_s$ is the scale radius and $\rho_0$ is a characteristic density. The **
 $r_{200}$ is defined as the radius within which the mean density is $200\rho_c$. The **concentration
 parameter** $c_{200} = r_{200}/r_s$ depends on the halo mass and redshift.
 
-**The cusp-core problem:** NFW halos have a cuspy central density $\rho \propto 1/r$Predicting high
+**The cusp-core problem:** NFW halos have a cuspy central density $\rho \propto 1/r$ Predicting high
 rotation velocities near galactic centres. Observations of dwarf galaxies often show flat cores
 ($\rho \approx \text{const}$). This discrepancy remains unresolved and may indicate deficiencies in
 CDM or the effects of baryonic feedback.
@@ -68,7 +68,7 @@ $$
 
 Where $E_I = 13.6$ eV is the ionisation energy of hydrogen. Recombination occurs at
 $T_{\text{rec} \approx 3000}$ K (lower than $E_I/k_B \approx 158\,000$ K) because of the large
-photon-to-baryon ratio $\eta \sim 10^9$: even when $k_BT \ll E_I$There are enough high-energy
+photon-to-baryon ratio $\eta \sim 10^9$: even when $k_BT \ll E_I$ There are enough high-energy
 photons in the tail of the Planck distribution to keep hydrogen ionised until the number of ionising
 photons drops sufficiently.
 
@@ -99,7 +99,7 @@ the symmetry-breaking scale. Their gravitational effects include:
 - Characteristic step-function pattern in the CMB $B$-mode polarisation
 - Gravitational wave bursts from string cusps and kinks
 
-Current CMB limits constrain $G\mu/c^2 \lesssim 10^{-7}$Ruling out strings from GUT-scale symmetry
+Current CMB limits constrain $G\mu/c^2 \lesssim 10^{-7}$ Ruling out strings from GUT-scale symmetry
 breaking as the primary source of structure formation.
 
 <details>
@@ -133,7 +133,7 @@ $$
 $$
 
 The SZ effect ($\Delta T/T \approx -2y$ at low frequency) gives a temperature decrement of
-$\sim 3.6 \times 10^{-4}$Significantly larger than the primary CMB anisotropy.
+$\sim 3.6 \times 10^{-4}$ Significantly larger than the primary CMB anisotropy.
 
 </details>
 
@@ -179,9 +179,9 @@ with $M \sim 10^{14}$--$10^{15}$ GeV explains the tiny neutrino masses.
    poorly constrained. Even if the CKM phase were zero, CP violation would still exist in the lepton
    sector --- and vice versa.
 
-3. **$\Lambda$CDM is a model, not a theory:** The $\Lambda$CDM concordance model (flat universe with
+3. **$\Lambda$ CDM is a model, not a theory:** The $\Lambda$ CDM concordance model (flat universe with
    cold dark matter and a cosmological constant) fits all current data remarkably well, but it has
-   no theoretical explanation for the values of $\Omega_\Lambda$, $\Omega_{\text{DM}}$Or the initial
+   no theoretical explanation for the values of $\Omega_\Lambda$, $\Omega_{\text{DM}}$ Or the initial
    conditions (inflation potential). These are inputs, not outputs.
 
 4. **GUT-scale proton decay is experimentally excluded:** Minimal SU(5) predicted
@@ -210,7 +210,7 @@ $$
 
 (b) Using $P_{qq}(z) = C_F\left[\frac{1+z^2}{(1-z)_+}\right]$ where $(1-z)_+$ is the plus
 prescription, and the leading-order running
-$\alpha_s(Q^2) = \alpha_s(Q_0^2)/(1 + b_0\alpha_s(Q_0^2)\ln(Q^2/Q_0^2)/2\pi)$Show that the average
+$\alpha_s(Q^2) = \alpha_s(Q_0^2)/(1 + b_0\alpha_s(Q_0^2)\ln(Q^2/Q_0^2)/2\pi)$ Show that the average
 momentum fraction $\langle x \rangle_q$ decreases with $Q^2$.
 
 **Solution:**

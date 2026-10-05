@@ -49,7 +49,7 @@ approximately 40% of the global population lives within 100 km of a coast.
 | **Backwash**             | The return flow of water down a beach under gravity                                                         |
 | **Fetch**                | The maximum distance of open water over which wind can generate waves                                       |
 | **Wave refraction**      | The bending of wave crests as they approach shallower water at an angle to the coastline                    |
-| **Isostatic change**     | Vertical land movement due to adjustments in the Earth"s crust (e.g., post-glacial rebound)                 |
+| **Isostatic change**     | Vertical land movement due to adjustments in the Earth's crust (e.g., post-glacial rebound)                 |
 | **Eustatic change**      | Global sea-level change caused by alterations in the volume of ocean water                                  |
 | **Lithology**            | The physical and chemical composition of rock, affecting its resistance to erosion                          |
 | **Concordant coastline** | A coastline where bands of rock run parallel to the shore (e.g., Dorset)                                    |

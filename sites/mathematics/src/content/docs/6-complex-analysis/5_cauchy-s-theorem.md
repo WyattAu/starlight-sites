@@ -19,7 +19,7 @@ description: "If is analytic on a connected domain and Is a simple closed contou
 
 ### 5.1 Statement
 
-**Theorem 5.1 (Cauchy"s Theorem).** If $f$ is analytic on a connected domain $D$ and $\gamma$ Is a
+**Theorem 5.1 (Cauchy's Theorem).** If $f$ is analytic on a connected domain $D$ and $\gamma$ Is a
 simple closed contour in $D$ Then
 
 $$

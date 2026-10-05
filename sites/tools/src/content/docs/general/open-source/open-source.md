@@ -874,7 +874,7 @@ You and the project. The most common licenses in systems software:
 
 1. **MIT/Apache/BSD code can be included in GPL projects.** The GPL project must honor the original
    license for those specific files, but the overall project remains GPL.
-2. **GPL code cannot be included in MIT/Apache projects.** This would violate the GPL"s copyleft
+2. **GPL code cannot be included in MIT/Apache projects.** This would violate the GPL's copyleft
    requirement because the MIT project does not require source distribution.
 3. **Apache 2.0 and GPL 3.0 are compatible** (Apache 2.0 has an explicit GPL 3.0 compatibility
    clause). Apache 2.0 and GPL 2.0 are not compatible due to patent clause differences.

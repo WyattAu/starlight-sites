@@ -78,7 +78,7 @@ University-level particle physics and cosmology notes covering the Standard Mode
 ## Prerequisites
 
 - Quantum mechanics (operators, perturbation theory)
-- Electromagnetism (Maxwell"s equations, gauge invariance)
+- Electromagnetism (Maxwell's equations, gauge invariance)
 - Special relativity (four-vectors, Lorentz transformations)
 - Statistical mechanics (thermal physics, thermodynamics)
 

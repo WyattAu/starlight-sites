@@ -68,7 +68,7 @@ Computers represent all data in binary (0s and 1s).
 
 | Data Type | Representation                       |
 | --------- | ------------------------------------ |
-| Integer   | Two"s complement (signed integers)   |
+| Integer   | Two's complement (signed integers)   |
 | Character | ASCII (7-bit) or Unicode (16+ bit)   |
 | Color     | RGB values (24 bits, 8 per channel)  |
 | Image     | Grid of pixels, each with RGB values |
@@ -107,12 +107,12 @@ Add 1: $10011100$.
 Verify: $-128 + 16 + 8 + 4 = -100$. Correct.
 
 **Why two's complement is preferred.** Two's complement has the useful property that addition and
-Subtraction use the same circuitry. To subtract $a - b$You add $a$ to the two's complement Of $b$.
+Subtraction use the same circuitry. To subtract $a - b$ You add $a$ to the two's complement Of $b$.
 There is no separate subtraction circuit needed.
 
-**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$Let $\bar{x}$ Be
+**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$ Let $\bar{x}$ Be
 the bitwise complement. Then $\bar{x} = (2^n - 1) - x$. Adding 1: $\bar{x} + 1 = 2^n - x$. In
-$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$Confirming $\bar{x} + 1 = -x$.
+$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$ Confirming $\bar{x} + 1 = -x$.
 $\blacksquare$
 
 **Overflow detection.** If adding two positive numbers produces a negative result (or vice versa),
@@ -126,7 +126,7 @@ $100 = 01100100$, $50 = 00110010$.
 Sum: $10010110$.
 
 The MSB is 1, indicating a negative result. $10010110 = -128 + 16 + 4 + 2 = -106$. This is incorrect
-($100 + 50 = 150$Which exceeds the 8-bit range). Overflow has occurred.
+($100 + 50 = 150$ Which exceeds the 8-bit range). Overflow has occurred.
 
 #### Hexadecimal
 
@@ -844,7 +844,7 @@ Wait -- that's incorrect. Let me redo: $C(\bar{A} + A \cdot \bar{B})$. This does
 using basic identities .
 
 Alternative approach -- try consensus: $\bar{A}C + A\bar{B}C$. The consensus of $\bar{A}$ and
-$\bar{B}$ with respect to $C$ is $\bar{A}\bar{B}$Which is not present, so no further simplification.
+$\bar{B}$ with respect to $C$ is $\bar{A}\bar{B}$ Which is not present, so no further simplification.
 
 The simplified expression is:
 $\bar{A} \cdot C + A \cdot \bar{B} \cdot C = C(\bar{A} + A \cdot \bar{B})$.
@@ -933,7 +933,7 @@ $\overline{A \cdot B + C \cdot D} = \overline{A \cdot B} \cdot \overline{C \cdot
 
 To express using only AND and NOT, note that $\overline{X + Y} = \bar{X} \cdot \bar{Y}$ (De
 Morgan's). But the question says only AND and NOT. Since
-$\overline{A \cdot B} = \overline{A} + \overline{B}$This introduces OR.
+$\overline{A \cdot B} = \overline{A} + \overline{B}$ This introduces OR.
 
 Using only NAND (AND + NOT): $\overline{A \cdot B} = \mathrm{NAND(A, B)$ and
 $\overline{C \cdot D} = \mathrm{NAND(C, D)$.
@@ -941,7 +941,7 @@ $\overline{C \cdot D} = \mathrm{NAND(C, D)$.
 So: $\mathrm{NAND(A, B) \cdot \mathrm{NAND(C, D)$ -- but this uses AND.
 
 Actually, NAND(A, B) already uses AND and NOT: $\overline{A \cdot B}$. So the answer is:
-$\overline{A \cdot B} \cdot \overline{C \cdot D}$Which uses only AND (implicit in the NOT-AND) and
+$\overline{A \cdot B} \cdot \overline{C \cdot D}$ Which uses only AND (implicit in the NOT-AND) and
 NOT operations.
 
 </details>

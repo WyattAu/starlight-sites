@@ -650,12 +650,12 @@ Coroutine-to-coroutine chaining prevents unbounded stack growth.
 
 **Proof:**
 
-1. Consider a chain of $n$ coroutines: $C_1 \to C_2 \to \ldots \to C_n$Where each coroutine
+1. Consider a chain of $n$ coroutines: $C_1 \to C_2 \to \ldots \to C_n$ Where each coroutine
    `co_await`S the next.
-2. **Without symmetric transfer:** When $C_1$ `co_await`S $C_2$The `await_suspend` of $C_2$ calls
+2. **Without symmetric transfer:** When $C_1$ `co_await`S $C_2$ The `await_suspend` of $C_2$ calls
    `C_1.resume()` inside $C_2$'s suspension handler. This is a regular function call, which grows
    the call stack by one frame. For $n$ coroutines, the stack grows by $\mathcal{O}(n)$ frames. For
-   unbounded $n$This causes stack overflow.
+   unbounded $n$ This causes stack overflow.
 3. **With symmetric transfer:** When $C_1$ `co_await`S $C_2$`await_suspend` returns the handle of
    $C_2$. The compiler generates a tail call from $C_1$'s resume trampoline to $C_2$'s resume
    trampoline. A tail call reuses the current stack frame, so the stack depth is $\mathcal{O}(1)$.

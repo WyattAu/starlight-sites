@@ -121,7 +121,7 @@ $$
 $$
 
 **Tangential component of $\mathbf{E}$.** Apply Faraday's law to a rectangular loop Perpendicular to
-the interface. As the loop height $\Delta h \to 0$The flux through the Loop vanishes:
+the interface. As the loop height $\Delta h \to 0$ The flux through the Loop vanishes:
 
 $$
 \oint \mathbf{E} \cdot d\mathbf{l} = 0 \implies E_{1t} = E_{2t}

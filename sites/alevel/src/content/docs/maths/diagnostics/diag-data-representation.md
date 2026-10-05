@@ -105,7 +105,7 @@ $$
 
 The outlier 180 is very far from the mean (about 111 cm away), so $(180 - 68.83)^2 \approx 12370$
 contributes enormously to the sum of squared deviations. The interquartile range (IQR), by contrast,
-only uses $Q_1$ and $Q_3$Which depend on the middle 50% of the data. The outlier at 180 does not
+only uses $Q_1$ and $Q_3$ Which depend on the middle 50% of the data. The outlier at 180 does not
 affect $Q_1$ or $Q_3$ at all, so the IQR is completely unchanged.
 
 This is the fundamental advantage of the IQR over the standard deviation for skewed data or data
@@ -332,12 +332,12 @@ $$
 So $\text{SD}(y) = \frac{1}{5}\text{SD}(x)$.
 
 The question about whether $b$ being positive or negative matters: **it does not**. Since the
-variance scales by $a^2 = \left(\frac{1}{b}\right)^2 = \frac{1}{b^2}$ And $b^2 = (-b)^2$The sign of
-$b$ is irrelevant. If we had coded as $y = \frac{x - 10}{-5}$The variance would be the same. The
+variance scales by $a^2 = \left(\frac{1}{b}\right)^2 = \frac{1}{b^2}$ And $b^2 = (-b)^2$ The sign of
+$b$ is irrelevant. If we had coded as $y = \frac{x - 10}{-5}$ The variance would be the same. The
 mean would flip ($\bar{y}$ becomes $-1.8$ instead of $1.8$), but the spread is identical.
 
 The first two students are correct that SD($y$) = SD($x$) / 5. The third student is correct to ask
-the question, and the answer is: it does not matter because variance depends on $b^2$Not $b$.
+the question, and the answer is: it does not matter because variance depends on $b^2$ Not $b$.
 
 **(c)** For $z = 3 - 2x = -2x + 3$:
 
@@ -362,7 +362,7 @@ $$
 The variances are equal: $\text{Var}(z) = \text{Var}(w)$.
 
 This is because variance depends on the square of the scaling factor. Since both $z$ and $w$ use a
-scaling factor of magnitude 2, and $(-2)^2 = 2^2 = 4$The variances are the same. The additive
+scaling factor of magnitude 2, and $(-2)^2 = 2^2 = 4$ The variances are the same. The additive
 constant (3 or $-3$) and the sign of the multiplier only affect the mean, not the spread.
 
 ---
@@ -458,7 +458,7 @@ $$
 
 For a two-tailed test at the 5% level, the critical values are $z = \pm 1.96$.
 
-Since $-1.96 \lt -1.305 \lt 1.96$The test statistic does not fall in the critical region.
+Since $-1.96 \lt -1.305 \lt 1.96$ The test statistic does not fall in the critical region.
 
 **Conclusion:** There is insufficient evidence to reject $H_0$. The data is consistent with the
 factory's claim that the mean bolt length is 25.5 mm.
@@ -589,7 +589,7 @@ $$
 
 **(a)** Verify that $f(x)$ is a valid probability density function.
 
-**(b)** Find the median of $X$Giving your answer to 3 significant figures.
+**(b)** Find the median of $X$ Giving your answer to 3 significant figures.
 
 **(c)** Find the interquartile range of $X$.
 
@@ -607,7 +607,7 @@ exact statistics.]
 **(a)** A valid PDF must satisfy $f(x) \geq 0$ for all $x$ and
 $\int_{-\infty}^{\infty} f(x)\,dx = 1$.
 
-Since $x^2 \geq 0$ and $\frac{3}{64} > 0$We have $f(x) \geq 0$ on $[0, 4]$ and $f(x) = 0$ elsewhere.
+Since $x^2 \geq 0$ and $\frac{3}{64} > 0$ We have $f(x) \geq 0$ on $[0, 4]$ and $f(x) = 0$ elsewhere.
 
 $$
 \int_{0}^{4} \frac{3}{64}x^2\,dx = \frac{3}{64}\left[\frac{x^3}{3}\right]_0^4 = \frac{3}{64} \cdot \frac{64}{3} = 1 \checkmark

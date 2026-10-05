@@ -76,7 +76,7 @@ Participants were then asked which was more probable:
 
 Approximately 85% of participants chose option (B). This is a conjunction fallacy: the probability
 Of a conjunction (A and B) can never be greater than the probability of either component alone (A).
-Linda"s description is more representative of a feminist bank teller than of a bank teller in
+Linda's description is more representative of a feminist bank teller than of a bank teller in
 General, leading participants to violate the laws of probability.
 
 ### The Anchoring Heuristic

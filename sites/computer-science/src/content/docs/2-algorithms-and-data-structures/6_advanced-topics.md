@@ -50,7 +50,7 @@ Time.
 #### 6.1.2 Polynomial-Time Reductions
 
 A **polynomial-time reduction** from problem $A$ to problem $B$ is a polynomial-time algorithm that
-Transforms instances of $A$ into instances of $B$Preserving the answer.
+Transforms instances of $A$ into instances of $B$ Preserving the answer.
 
 **Lemma 6.1.** If $A \leq_p B$ and $B \in P$ Then $A \in P$.
 
@@ -61,8 +61,8 @@ Transforms instances of $A$ into instances of $B$Preserving the answer.
 **Theorem 6.2 (Cook-Levin, 1971).** SAT is NP-complete.
 
 _Proof sketch._ We show that every problem in NP reduces to SAT. Let $L \in \mathrm{NP}$. There
-exists a polynomial-time non-deterministic Turing machine $M$ that decides $L$Running in time $p(n)$
-on inputs of length $n$. For an input $x$We construct a Boolean formula $\phi_x$ that is satisfiable
+exists a polynomial-time non-deterministic Turing machine $M$ that decides $L$ Running in time $p(n)$
+on inputs of length $n$. For an input $x$ We construct a Boolean formula $\phi_x$ that is satisfiable
 if and only if $M$ accepts $x$.
 
 The formula encodes:
@@ -83,15 +83,15 @@ $\phi_x$ has size polynomial in $n$ and is satisfiable iff $M$ accepts $x$. $\bl
 
 **3-SAT.** SAT restricted to clauses with exactly 3 literals.
 
-**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$Is there a vertex cover of size
+**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$ Is there a vertex cover of size
 $\leq k$?
 
-**Travelling Salesman Problem (decision version).** Given a weighted graph and bound $B$Is there a
+**Travelling Salesman Problem (decision version).** Given a weighted graph and bound $B$ Is there a
 Tour of total weight $\leq B$?
 
-**Subset Sum.** Given a set of integers and a target $T$Is there a subset summing to $T$?
+**Subset Sum.** Given a set of integers and a target $T$ Is there a subset summing to $T$?
 
-**Clique.** Given a graph $G$ and integer $k$Does $G$ contain a clique of size $k$?
+**Clique.** Given a graph $G$ and integer $k$ Does $G$ contain a clique of size $k$?
 
 #### 6.1.5 Proof Strategy for NP-Completeness
 
@@ -111,11 +111,11 @@ Reduce 3-SAT formula
 $\phi = (x_1 \vee \bar{x}_2 \vee x_3) \wedge (\bar{x}_1 \vee x_2 \vee x_3) \wedge (x_1 \vee x_2 \vee \bar{x}_3)$
 to a vertex cover instance.
 
-For each variable $x_i$Create two vertices $x_i$ and $\bar{x}_i$ connected by an edge (the "literal edge").
+For each variable $x_i$ Create two vertices $x_i$ and $\bar{x}_i$ connected by an edge (the "literal edge").
 
-For each clause $C_j$Create a triangle of 3 vertices $c_{j1}, c_{j2}, c_{j3}$.
+For each clause $C_j$ Create a triangle of 3 vertices $c_{j1}, c_{j2}, c_{j3}$.
 
-For each clause vertex $c_{jk}$Connect it to the literal vertex corresponding to the $k$-th literal
+For each clause vertex $c_{jk}$ Connect it to the literal vertex corresponding to the $k$-th literal
 of clause $j$.
 
 **Claim:** $\phi$ is satisfiable iff the graph has a vertex cover of size $k + 2m$ where $k$ is the
@@ -162,7 +162,7 @@ least $(1/\rho)$ times the optimal value.
 
 _Proof._ The algorithm selects a set $C$ of vertices. Each edge in the matching used by the
 algorithm contributes 2 vertices to $C$. Let $M^*$ be a maximum matching. Then
-$|C| = 2|M^*| \leq 2 \cdot |\mathrm{OPT}|$Since OPT must contain at least one endpoint of every edge
+$|C| = 2|M^*| \leq 2 \cdot |\mathrm{OPT}|$ Since OPT must contain at least one endpoint of every edge
 in $M^*$ (and $M^*$ is maximum, so $|M^*| \geq$ the size of any matching). Therefore the
 approximation ratio is at most 2. $\blacksquare$
 
@@ -179,10 +179,10 @@ $\blacksquare$
 no polynomial-time approximation algorithm with any constant ratio.
 
 _Proof sketch._ If a $c$-approximation existed for TSP, we could use it to solve the Hamiltonian
-cycle problem (which is NP-complete): given a graph $G$Construct a TSP instance with edge weight 1
+cycle problem (which is NP-complete): given a graph $G$ Construct a TSP instance with edge weight 1
 for existing edges and weight $cn + 1$ for non-edges. If the approximation returns a tour of weight
 $n$ Then $G$ has a Hamiltonian cycle. Otherwise, the tour weight is at least
-$n - 1 + cn + 1 \gt cn$ So the approximation ratio would exceed $c$Contradiction. $\blacksquare$
+$n - 1 + cn + 1 \gt cn$ So the approximation ratio would exceed $c$ Contradiction. $\blacksquare$
 
 **Theorem 6.6 (SET COVER).** The greedy algorithm for SET COVER is a $(\ln n + O(1))$-approximation,
 where $n$ is the size of the universe.
@@ -206,8 +206,8 @@ $S_3 = \\{3, 5, 6\\}$, $S_4 = \\{4, 5\\}$, $S_5 = \\{1, 4, 6\\}$. All sets have 
    $S_5$ covers $\\{4, 6\\}$ (2 new). Pick $S_3$. Covered: $\\{1, 2, 3, 5, 6\\}$.
 3. Remaining: $\\{4\\}$. Pick $S_2$ (or $S_4$ or $S_5$). Covered: $\\{1, 2, 3, 4, 5, 6\\}$.
 
-**Greedy solution:** $\\{S_1, S_3, S_2\\}$Size 3. **Optimal:** $\\{S_1, S_5, S_4\\}$ or
-$\\{S_3, S_5, S_2\\}$Size 3. Here greedy is optimal, but it is a $\ln n$-approximation.
+**Greedy solution:** $\\{S_1, S_3, S_2\\}$ Size 3. **Optimal:** $\\{S_1, S_5, S_4\\}$ or
+$\\{S_3, S_5, S_2\\}$ Size 3. Here greedy is optimal, but it is a $\ln n$-approximation.
 
 </details>
 
@@ -272,7 +272,7 @@ The 3rd smallest element is 3.
 <details>
 <summary>Worked Example: Miller-Rabin Primality Test</summary>
 
-Test whether $n = 561$ is prime (it is not; $561 = 3 \times 11 \times 17$A Carmichael number).
+Test whether $n = 561$ is prime (it is not; $561 = 3 \times 11 \times 17$ A Carmichael number).
 
 Write $n - 1 = 560 = 2^4 \times 35$ So $s = 4$, $d = 35$.
 
@@ -311,7 +311,7 @@ $\leq 4^{-k}$.
 **Theorem 6.8.** With a universal hash family and chaining, the expected number of collisions for
 any element is at most $n/m$.
 
-_Proof._ For a fixed element $x$Let $X_{iy}$ be the indicator that $h(x) = h(y_i)$ where
+_Proof._ For a fixed element $x$ Let $X_{iy}$ be the indicator that $h(x) = h(y_i)$ where
 $y_1, \ldots, y_n$ are the other $n-1$ elements. Then
 $\mathrm{E}[X_{iy}] = \Pr[h(x) = h(y_i)] \leq 1/m$ by universality. By linearity of expectation, the
 expected number of collisions is $\sum_i \mathrm{E}[X_{iy}] \leq (n-1)/m$. $\blacksquare$
@@ -321,7 +321,7 @@ expected number of collisions is $\sum_i \mathrm{E}[X_{iy}] \leq (n-1)/m$. $\bla
 #### 6.4.1 Aggregate Analysis
 
 **Example: Multi-pop Stack.** A stack supports push ($O(1)$) and multi-pop($k$) (pop $k$ elements,
-cost $\min(k, s)$ where $s$ is the stack size). Although a single multi-pop can cost $O(n)$A
+cost $\min(k, s)$ where $s$ is the stack size). Although a single multi-pop can cost $O(n)$ A
 sequence of $n$ push/multi-pop operations costs $O(n)$ total: each element is pushed once and popped
 at most once.
 
@@ -383,12 +383,12 @@ alternating directions).
 **Access Lemma.** The amortised cost of splaying a node $x$ in a splay tree with $n$ nodes is
 $O(\log n)$.
 
-_Proof sketch._ Define the potential as $\Phi(T) = \sum_{x \in T} \log \mathrm{size}(x)$Where
+_Proof sketch._ Define the potential as $\Phi(T) = \sum_{x \in T} \log \mathrm{size}(x)$ Where
 $\mathrm{size}(x)$ is the number of nodes in the subtree rooted at $x$ (including $x$). Define the
 **rank** $r(x) = \log \mathrm{size}(x)$.
 
 The amortised cost of a splay step at node $x$ with parent $p$ and grandparent $g$ is
-$\hat{c} = 1 + r"(x) - r(x)$Where primes denote ranks after the step.
+$\hat{c} = 1 + r"(x) - r(x)$ Where primes denote ranks after the step.
 
 - **Zig:** $\hat{c} = 1 + r'(x) - r(x) \leq 1 + 3(r'(x) - r(x))$.
 - **Zig-zig:** $\hat{c} = 2 + r'(x) - r(x) \leq 3(r'(x) - r(x))$.

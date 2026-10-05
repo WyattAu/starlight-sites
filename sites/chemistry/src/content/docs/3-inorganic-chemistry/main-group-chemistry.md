@@ -49,7 +49,7 @@ $$
 
 (Na$_2$CO$_3$ is thermally stable.)
 
-### 1.3 Lithium"s Anomalous Behavior
+### 1.3 Lithium's Anomalous Behavior
 
 Lithium differs from other Group 1 elements due to its small size and high charge density:
 

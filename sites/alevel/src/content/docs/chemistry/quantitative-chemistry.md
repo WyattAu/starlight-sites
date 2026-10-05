@@ -24,7 +24,7 @@ categories:
 
 ## The Mole Concept
 
-### Avogadro"s Constant
+### Avogadro's Constant
 
 One mole of any substance contains exactly $N_A = 6.022 \times 10^{23}$ entities (atoms, molecules,
 ions, or formula units). This is the **Avogadro constant**.
@@ -266,7 +266,7 @@ A_r(\mathrm{M}) = 156.9 - 60.0 = 96.9
 $$
 
 The metal is **barium** ($A_r = 137.3$ is closest for Group 2; recalculating:
-$M_r = 2.00/0.01275 = 156.9$; $A_r(\mathrm{M}) = 156.9 - 12.0 - 48.0 = 96.9$Which corresponds to
+$M_r = 2.00/0.01275 = 156.9$; $A_r(\mathrm{M}) = 156.9 - 12.0 - 48.0 = 96.9$ Which corresponds to
 **molybdenum**. However, for Group 2 metal carbonates, this suggests a miscalculation. Let us
 recheck.)
 
@@ -426,7 +426,7 @@ enthalpies are averages and do not account for the specific molecular environmen
 
 ## Common Pitfalls
 
-1. **Unit errors in gas calculations.** Pressure must be in $\mathrm{Pa}$Volume in $\mathrm{m}^3$.
+1. **Unit errors in gas calculations.** Pressure must be in $\mathrm{Pa}$ Volume in $\mathrm{m}^3$.
    Converting $\mathrm{cm}^3$ to $\mathrm{dm}^3$ to $\mathrm{m}^3$ is a frequent source of error.
 
 2. **Sign convention for enthalpy.** Exothermic is negative. Many students lose marks by writing
@@ -505,7 +505,7 @@ $$
 \Delta H = 2253 - 2346 = -93\,\mathrm{kJ/mol}
 $$
 
-(The literature value is $-92\,\mathrm{kJ/mol}$Confirming good agreement.)
+(The literature value is $-92\,\mathrm{kJ/mol}$ Confirming good agreement.)
 
 </details>
 
@@ -571,7 +571,7 @@ The experimental value ($-424\,\mathrm{kJ/mol}$) is much less exothermic than th
 
 1. **Heat loss to the surroundings** (air, calorimeter). Not all heat from combustion is transferred
    to the water. This is the largest source of error.
-2. **Incomplete combustion.** Ethanol may produce $\mathrm{CO}$ instead of $\mathrm{CO}_2$Releasing
+2. **Incomplete combustion.** Ethanol may produce $\mathrm{CO}$ instead of $\mathrm{CO}_2$ Releasing
    less heat.
 3. **The calorimeter itself absorbs heat.** The copper calorimeter has a heat capacity that should
    be included:
@@ -728,7 +728,7 @@ $$
 ## Water of Crystallisation
 
 Many ionic compounds crystallise with water molecules incorporated into the crystal lattice. The
-formula is written as $\mathrm{CuSO}_4\cdot5\mathrm{H}_2\mathrm{O}$Where $5\mathrm{H}_2\mathrm{O}$
+formula is written as $\mathrm{CuSO}_4\cdot5\mathrm{H}_2\mathrm{O}$ Where $5\mathrm{H}_2\mathrm{O}$
 is the water of crystallisation.
 
 ### Determining the Formula of a Hydrate
@@ -942,9 +942,9 @@ Ratio: C : H : O = 3.33 : 6.65 : 3.33 = 1 : 2 : 1
 
 Empirical formula: $\mathrm{CH}_2\mathrm{O}$
 
-Step 3: If $M_r = 62$Calculate the molecular formula.
+Step 3: If $M_r = 62$ Calculate the molecular formula.
 
-$\mathrm{CH}_2\mathrm{O}$: $M_r = 12 + 2 + 16 = 30$. Since $62/30 = 2.07 \approx 2$The molecular
+$\mathrm{CH}_2\mathrm{O}$: $M_r = 12 + 2 + 16 = 30$. Since $62/30 = 2.07 \approx 2$ The molecular
 formula is $\mathrm{C}_2\mathrm{H}_4\mathrm{O}_2$ (ethane-1,2-diol).
 
 ### Water of Crystallisation
@@ -953,7 +953,7 @@ Some ionic compounds crystallise with water molecules incorporated into the crys
 water molecules are called water of crystallisation.
 
 **Worked Example:** $5.00\,\mathrm{g}$ of hydrated magnesium sulphate,
-$\mathrm{MgSO}_4 \cdot x\mathrm{H}_2\mathrm{O}$Was heated to constant mass. The anhydrous mass
+$\mathrm{MgSO}_4 \cdot x\mathrm{H}_2\mathrm{O}$ Was heated to constant mass. The anhydrous mass
 remaining was $2.44\,\mathrm{g}$. Calculate $x$.
 
 Mass of water lost: $5.00 - 2.44 = 2.56\,\mathrm{g}$
@@ -1028,7 +1028,7 @@ advantage of addition reactions in green chemistry.
 ### Common Pitfalls
 
 1. **Moles calculation with volume in $\mathrm{cm}^3$:** Always convert to $\mathrm{dm}^3$ before
-   calculating moles. $250\,\mathrm{cm}^3 = 0.250\,\mathrm{dm}^3$Not $250\,\mathrm{dm}^3$. This is
+   calculating moles. $250\,\mathrm{cm}^3 = 0.250\,\mathrm{dm}^3$ Not $250\,\mathrm{dm}^3$. This is
    the most common numerical error in quantitative chemistry.
 
 2. **Stoichiometry in titration calculations:** Always write the balanced equation first and
@@ -1116,7 +1116,7 @@ $$
 A_r(\mathrm{M}) = \frac{0.500}{0.00242} = 207\,\mathrm{g/mol}
 $$
 
-The metal is **lead** ($A_r = 207$Group 2, forms $\mathrm{Pb}^{2+}$Valency 2) (2 marks).
+The metal is **lead** ($A_r = 207$ Group 2, forms $\mathrm{Pb}^{2+}$ Valency 2) (2 marks).
 
 </details>
 
@@ -1125,7 +1125,7 @@ The metal is **lead** ($A_r = 207$Group 2, forms $\mathrm{Pb}^{2+}$Valency 2) (2
 
 In a titration to determine the concentration of ethanoic acid in vinegar, $25.0\,\mathrm{cm}^3$ of
 vinegar was diluted to $250\,\mathrm{cm}^3$ in a volumetric flask. $25.0\,\mathrm{cm}^3$ of this
-diluted solution was titrated with $0.100\,\mathrm{mol\,dm^{-3}}$ $\mathrm{NaOH}$Requiring
+diluted solution was titrated with $0.100\,\mathrm{mol\,dm^{-3}}$ $\mathrm{NaOH}$ Requiring
 $18.4\,\mathrm{cm}^3$ for neutralisation. Calculate the concentration of ethanoic acid in the
 original vinegar in $\mathrm{g\,dm^{-3}}$.
 

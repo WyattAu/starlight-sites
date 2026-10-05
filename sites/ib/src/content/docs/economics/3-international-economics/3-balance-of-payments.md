@@ -336,18 +336,18 @@ inflation is 1%.
 
 PPP-implied JPY/USD $= 95/120 = 0.792$
 
-For India: if CPI $= 130$PPP-implied INR/USD $= 130/120 = 1.083$
+For India: if CPI $= 130$ PPP-implied INR/USD $= 130/120 = 1.083$
 
-(b) UK: actual $= 0.75$PPP $= 0.90$. Overvalued by $(0.90 - 0.75)/0.90 \times 100 = 16.7\%$
+(b) UK: actual $= 0.75$ PPP $= 0.90$. Overvalued by $(0.90 - 0.75)/0.90 \times 100 = 16.7\%$
 
-Japan: actual $= 110$PPP $= 0.792$. Undervalued by $(0.792 - 110)/0.792 \times 100 = -13\,888\%$
+Japan: actual $= 110$ PPP $= 0.792$. Undervalued by $(0.792 - 110)/0.792 \times 100 = -13\,888\%$
 
 More precisely, the actual rate is 110 JPY/USD while PPP implies 0.792 USD/JPY, or $1/0.792 = 126.3$
 JPY/USD. The yen is overvalued (too few yen per dollar), not undervalued. Correction: actual $= 110$
-JPY/USD, PPP $= 126.3$ JPY/USD. Since $110 < 126.3$The yen is Overvalued (stronger than PPP
+JPY/USD, PPP $= 126.3$ JPY/USD. Since $110 < 126.3$ The yen is Overvalued (stronger than PPP
 predicts).
 
-India: actual $= 75$ INR/USD, PPP $= 1.083$ USD/INR, or $92.3$ INR/USD. Since $75 < 92.3$The rupee
+India: actual $= 75$ INR/USD, PPP $= 1.083$ USD/INR, or $92.3$ INR/USD. Since $75 < 92.3$ The rupee
 Is overvalued.
 
 (c) Relative PPP: $\%\Delta S \approx \pi_{\text{domestic}} - \pi_{\text{US}}$

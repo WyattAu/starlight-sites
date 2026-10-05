@@ -90,7 +90,7 @@ Reactants are consumed and rate slows down.
 
 ### Initial Rate
 
-The initial rate is the rate at $t = 0$Determined from the gradient of the tangent at the origin Of
+The initial rate is the rate at $t = 0$ Determined from the gradient of the tangent at the origin Of
 a concentration-time graph. It is the fastest rate in the reaction.
 
 ---
@@ -366,7 +366,7 @@ Enzymes are protein molecules that catalyse specific biochemical reactions.
 1. **Specificity:** Each enzyme catalyses only one reaction (or a small group of reactions).
 2. **Efficiency:** Enzymes can increase reaction rates by factors of $10^6$ to $10^{12}$.
 3. **Optimum temperature:** Most enzymes work best around $37^\circ\mathrm{C}$ (body temperature).
-   Above about $45^\circ\mathrm{C}$The enzyme denatures (loses its 3D structure) and activity drops
+   Above about $45^\circ\mathrm{C}$ The enzyme denatures (loses its 3D structure) and activity drops
    sharply.
 4. **Optimum pH:** Each enzyme has an optimal pH. Pepsin (stomach) works at pH ~2; trypsin
    (intestine) works at pH ~8.
@@ -408,7 +408,7 @@ For further catalysis.
 
 ### Definition
 
-For a reaction $a\mathrm{A} + b\mathrm{B} \to \mathrm{products}$The rate equation is:
+For a reaction $a\mathrm{A} + b\mathrm{B} \to \mathrm{products}$ The rate equation is:
 
 $$
 \mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n
@@ -751,7 +751,7 @@ Overall order = 2.
 ### Problem 1
 
 For the reaction
-$2\mathrm{NO}_{(g)} + 2\mathrm{H}_{2(g)} \to \mathrm{N}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(g)}$The
+$2\mathrm{NO}_{(g)} + 2\mathrm{H}_{2(g)} \to \mathrm{N}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(g)}$ The
 Following data were obtained:
 
 | Experiment | $[\mathrm{NO}]$ (mol/dm$^3$) | $[\mathrm{H}_2]$ (mol/dm$^3$) | Initial Rate (mol dm$^{-3}$ s$^{-1}$) |
@@ -849,7 +849,7 @@ At $T_2$ (400 K): the curve is broader and shifted right, peaking at higher ener
 Larger fraction of particles now exceeds $E_a$.
 
 The rate increase with temperature is primarily because more particles have kinetic energy
-$\geq E_a$Leading to a larger proportion of successful collisions. The increase in collision
+$\geq E_a$ Leading to a larger proportion of successful collisions. The increase in collision
 Frequency is a secondary, smaller effect.
 
 Both curves start at the origin, never touch the x-axis, and enclose the same total area.
@@ -881,7 +881,7 @@ The equilibrium yield of products remain the same.
 
 A reaction has the rate equation $\mathrm{Rate} = k[\mathrm{P}]^2[\mathrm{Q}]$. At a certain
 Temperature, when $[\mathrm{P}] = 0.30 \mathrm{ mol/dm}^3$ and
-$[\mathrm{Q}] = 0.20 \mathrm{ mol/dm}^3$The rate is
+$[\mathrm{Q}] = 0.20 \mathrm{ mol/dm}^3$ The rate is
 $1.08 \times 10^{-2} \mathrm{ mol dm}^{-3} \mathrm{ s}^{-1}$. Calculate the rate constant and its
 Units.
 
@@ -912,7 +912,7 @@ Increase in reaction rate than would be predicted by the increase in collision f
 <summary>Answer</summary>
 
 The collision frequency increases only slightly with temperature (proportional to $\sqrt{T}$), which
-Would predict roughly a $\sqrt{308/298} \approx 1.017$Or about 1.7% increase.
+Would predict roughly a $\sqrt{308/298} \approx 1.017$ Or about 1.7% increase.
 
 However, the actual rate increase is much larger (approximately doubling for a 10 K increase)
 Because the exponential dependence on $E_a / RT$ in the Arrhenius equation means that even a small
@@ -1137,12 +1137,12 @@ $k = 0.0116 \mathrm{ s}^{-1}$
 ### Refrigeration and Food Preservation
 
 Lowering temperature slows the rate of biochemical reactions (enzyme-catalysed decomposition) that
-Cause food spoilage. Each $10^\circ$C reduction approximately halves the rate.
+Cause food spoilage. Each $10^\circ$ C reduction approximately halves the rate.
 
 ### Pressure Cookers
 
 Higher pressure raises the boiling point of water, allowing food to cook at temperatures above
-$100^\circ$C. The higher temperature dramatically increases the rate of cooking reactions.
+$100^\circ$ C. The higher temperature dramatically increases the rate of cooking reactions.
 
 ### Catalytic Converters Revisited
 

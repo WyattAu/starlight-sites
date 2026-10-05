@@ -34,7 +34,7 @@ $\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$ And reparametrising by arc length
 curve: $\lVert \frac{d\mathbf{r}}{ds} \rVert = 1$.
 
 _Proof._ By the Fundamental Theorem of Calculus, $\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$. If
-we reparametrise by $s$I.e., write $\mathbf{r}(s) = \mathbf{r}(t(s))$ Then by the chain rule
+we reparametrise by $s$ I.e., write $\mathbf{r}(s) = \mathbf{r}(t(s))$ Then by the chain rule
 $\frac{d\mathbf{r}}{ds} = \mathbf{r}'(t) \cdot \frac{dt}{ds}$ So
 $\lVert \frac{d\mathbf{r}}{ds} \rVert = \lVert \mathbf{r}'(t) \rVert \cdot \left\lvert \frac{dt}{ds} \right\rvert = 1$.
 $\blacksquare$
@@ -112,7 +112,7 @@ Similarly, $\mathbf{B} = \mathbf{T} \times \mathbf{N}$ is a unit vector, so
 $\mathbf{B}' \cdot \mathbf{B} = 0$. Also $\mathbf{B} \cdot \mathbf{T} = 0$ So
 $\mathbf{B}' \cdot \mathbf{T} + \mathbf{B} \cdot \mathbf{T}' = 0$ Giving
 $\mathbf{B}' \cdot \mathbf{T} = -\mathbf{B} \cdot \kappa\,\mathbf{N} = 0$. So $\mathbf{B}'$ is
-Parallel to $\mathbf{N}$Giving $\mathbf{B}' = -\tau\,\mathbf{N}$.
+Parallel to $\mathbf{N}$ Giving $\mathbf{B}' = -\tau\,\mathbf{N}$.
 
 For $\mathbf{N}'$: since $\{\mathbf{T}, \mathbf{N}, \mathbf{B}\}$ is an orthonormal basis,
 $\mathbf{N}' = (\mathbf{N}' \cdot \mathbf{T})\,\mathbf{T} + (\mathbf{N}' \cdot \mathbf{N})\,\mathbf{N} + (\mathbf{N}' \cdot \mathbf{B})\,\mathbf{B}$.
@@ -203,7 +203,7 @@ $$
 - **Cylinder:** $\mathbf{r}(\theta, z) = (r\cos\theta,\, r\sin\theta,\, z)$
 - **Graph of $z = f(x,y)$:** $\mathbf{r}(x, y) = (x,\, y,\, f(x,y))$
 
-For the graph $z = f(x,y)$The normal is
+For the graph $z = f(x,y)$ The normal is
 $\mathbf{n} = \frac{(-f_x,\, -f_y,\, 1)}{\sqrt{1 + f_x^2 + f_y^2}}$.
 
 ### 5.4 Surface Area
@@ -216,7 +216,7 @@ $$
 
 _Derivation._ Partition $D$ into small rectangles $D_{ij}$ of area $\Delta u\, \Delta v$. The image
 $\mathbf{r}(D_{ij})$ is approximately a parallelogram spanned by $\mathbf{r}_u\, \Delta u$ and
-$\mathbf{r}_v\, \Delta v$With area
+$\mathbf{r}_v\, \Delta v$ With area
 $\lVert \mathbf{r}_u \times \mathbf{r}_v \rVert\, \Delta u\, \Delta v$. Summing and taking the limit
 gives the formula. $\blacksquare$
 
@@ -279,7 +279,7 @@ Where the orientation is determined by the choice of normal $\mathbf{r}_u \times
 $\mathbf{r}_v \times \mathbf{r}_u$.
 
 **Problem.** Evaluate $\iint_S \mathbf{F} \cdot d\mathbf{S}$ where $\mathbf{F} = (x,\, y,\, z^2)$
-and $S$ is the hemisphere $x^2 + y^2 + z^2 = 4$, $z \geq 0$With Upward orientation.
+and $S$ is the hemisphere $x^2 + y^2 + z^2 = 4$, $z \geq 0$ With Upward orientation.
 
 <details>
 <summary>Solution</summary>

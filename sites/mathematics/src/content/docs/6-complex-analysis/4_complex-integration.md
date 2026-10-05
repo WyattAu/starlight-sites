@@ -57,7 +57,7 @@ $$
 ### 4.4 ML Inequality
 
 **Proposition 4.4 (ML Inequality).** If $|f(z)| \leq M$ for all $z$ on a contour $\gamma$ of length
-$L$Then
+$L$ Then
 
 $$
 \left|\int_\gamma f(z)\, dz\right| \leq ML

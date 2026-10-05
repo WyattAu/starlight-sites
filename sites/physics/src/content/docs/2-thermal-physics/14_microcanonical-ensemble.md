@@ -17,7 +17,7 @@ description: "The describes an isolated system with fixed total energy Particle 
 }
 </script>
 
-The **microcanonical ensemble** describes an isolated system with fixed total energy $E$Particle
+The **microcanonical ensemble** describes an isolated system with fixed total energy $E$ Particle
 number $N$ And volume $V$.
 
 ### 14.1 Density of States
@@ -48,7 +48,7 @@ $$
 \Omega = \frac{V^N}{N!}\frac{(2\pi m E)^{3N/2}}{E\, \Gamma(3N/2)\, h^{3N}} \cdot \frac{\delta E}{E}
 $$
 
-Using Stirling"s approximation and the large-argument expansion of the Gamma function:
+Using Stirling's approximation and the large-argument expansion of the Gamma function:
 
 $$
 S = Nk_B\left[\ln\!\left(\frac{V}{N}\right) + \frac{3}{2}\ln\!\left(\frac{4\pi m E}{3Nh^2}\right) + \frac{5}{2}\right]
@@ -78,7 +78,7 @@ $$
 \left\langle \sum_i \mathbf{r}_i \cdot \frac{\partial \mathcal{H}}{\partial \mathbf{r}_i} \right\rangle = -3Nk_B T
 $$
 
-For a power-law potential $U \propto r^n$This gives:
+For a power-law potential $U \propto r^n$ This gives:
 
 $$
 \langle K \rangle = \frac{n}{2}\langle U \rangle
@@ -146,7 +146,7 @@ This is the **Brillouin function** for spin-1/2, matching the canonical ensemble
 <details>
 <summary>Worked Example 14.2: Density of States for $N$ Harmonic Oscillators</summary>
 
-For $N$ independent harmonic oscillators with frequency $\omega$Total energy $E$:
+For $N$ independent harmonic oscillators with frequency $\omega$ Total energy $E$:
 
 $$
 \Omega(E) = \frac{E^{N-1}}{(N-1)!\,(\hbar\omega)^N}

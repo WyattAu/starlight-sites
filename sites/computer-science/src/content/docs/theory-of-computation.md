@@ -52,7 +52,7 @@ Is denoted $\varepsilon$.
 - $\Sigma^n$: Strings of length $n$ over $\Sigma$.
 
 A **language** $L$ over $\Sigma$ is any subset of $\Sigma^*$. The empty language is $\emptyset$
-(distinct from $\{\varepsilon\}$Which contains one string).
+(distinct from $\{\varepsilon\}$ Which contains one string).
 
 **Operations on languages:**
 
@@ -111,7 +111,7 @@ is **countable**.
 **Theorem 1.1.** The set of all languages over a non-empty alphabet $\Sigma$ is uncountable.
 
 _Proof._ The set $\Sigma^*$ is countable (enumerate strings by length, then lexicographically). The
-set of all languages is $\mathcal{P}(\Sigma^*)$Which is uncountable by Cantor"s theorem (since
+set of all languages is $\mathcal{P}(\Sigma^*)$ Which is uncountable by Cantor's theorem (since
 $|\mathcal{P}(S)| \gt |S|$ for any set $S$). $\blacksquare$
 
 **Theorem 1.2.** The set of all Turing machines is countable.
@@ -169,7 +169,7 @@ $M$ accepts $w$ if there exists some path of transitions consuming $w$ that ends
 Design a DFA over $\Sigma = \{0, 1\}$ that accepts exactly those strings (interpreted as binary
 Numbers, most significant bit first) that are divisible by 3.
 
-We track the value of the number read so far, modulo 3. After reading prefix $x$Let $r = x \bmod 3$.
+We track the value of the number read so far, modulo 3. After reading prefix $x$ Let $r = x \bmod 3$.
 Reading a new bit $b$ appends $b$ to the right: the new value is $2r + b \bmod 3$.
 
 States: $q_0$ (remainder 0), $q_1$ (remainder 1), $q_2$ (remainder 2). Start state: $q_0$ (the empty
@@ -187,7 +187,7 @@ $$
 
 _Correctness._ By induction on input length. Base: $x = \varepsilon$,
 $\mathrm{val}(\varepsilon) = 0$ DFA is in $q_0$. Step: if after $x$ the DFA is in $q_r$ (where
-$r = \mathrm{val}(x) \bmod 3$), Then reading $b$ moves to $q_{(2r+b) \bmod 3}$Which equals
+$r = \mathrm{val}(x) \bmod 3$), Then reading $b$ moves to $q_{(2r+b) \bmod 3}$ Which equals
 $q_{\mathrm{val}(xb) \bmod 3}$. $\blacksquare$
 
 </details>
@@ -212,9 +212,9 @@ $q_0$ or move to $q_1$.
 
 ### 2.2 Equivalence of DFA and NFA
 
-**Theorem 2.1.** For every NFA $N$There exists a DFA $D$ such that $L(N) = L(D)$.
+**Theorem 2.1.** For every NFA $N$ There exists a DFA $D$ such that $L(N) = L(D)$.
 
-_Proof (subset construction)._ Given NFA $N = (Q, \Sigma, \delta, q_0, F)$Construct DFA
+_Proof (subset construction)._ Given NFA $N = (Q, \Sigma, \delta, q_0, F)$ Construct DFA
 $D = (Q', \Sigma, \delta', q_0', F')$ where:
 
 - $Q' = \mathcal{P}(Q)$ (each state of $D$ is a subset of states of $N$).
@@ -235,7 +235,7 @@ of Regular languages.
 
 Convert the NFA from the "strings ending in `01`" example to a DFA via the subset construction.
 
-NFA states: $\{q_0, q_1, q_2\}$, $\Sigma = \{0, 1\}$, $F = \{q_2\}$No $\varepsilon$-transitions.
+NFA states: $\{q_0, q_1, q_2\}$, $\Sigma = \{0, 1\}$, $F = \{q_2\}$ No $\varepsilon$-transitions.
 
 Start state: $\{q_0\}$.
 
@@ -313,7 +313,7 @@ State, connected by $\varepsilon$-transitions. The construction guarantees that 
 One accept state, no transitions into the start state, and no transitions out of the accept state.
 
 **Theorem 2.3a (Thompson's construction correctness).** For every regular expression $R$ over
-$\Sigma$Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
+$\Sigma$ Thompson's construction produces an NFA $N_R$ with $L(N_R) = L(R)$ And $N_R$ has $O(|R|)$
 States and transitions.
 
 _Proof._ By structural induction on $R$.
@@ -333,8 +333,8 @@ _Proof._ By structural induction on $R$.
   through exactly one sub-NFA, so $L(N_R) = L(R_1) \cup L(R_2) = L(R)$.
 - $R = R_1 \cdot R_2$: Thompson connects the accept state of $N_{R_1}$ to the start state of
   $N_{R_2}$ via $\varepsilon$-transitions. A string $w \in L(N_R)$ iff $w = w_1 w_2$ where
-  $w_1 \in L(N_{R_1})$ and $w_2 \in L(N_{R_2})$I.e., $w \in L(R_1) \cdot L(R_2) = L(R)$.
-- $R = R_1^*$: Thompson adds a new start $s$ and accept $f$With $\varepsilon$-transitions from $s$
+  $w_1 \in L(N_{R_1})$ and $w_2 \in L(N_{R_2})$ I.e., $w \in L(R_1) \cdot L(R_2) = L(R)$.
+- $R = R_1^*$: Thompson adds a new start $s$ and accept $f$ With $\varepsilon$-transitions from $s$
   to $f$ (allowing zero repetitions) and from $s$ to the start of $N_{R_1}$ And from the accept of
   $N_{R_1}$ back to $s$. Any accepting path corresponds to zero or more traversals of $N_{R_1}$ So
   $L(N_R) = L(R_1)^* = L(R)$.
@@ -359,9 +359,9 @@ _Proof of Theorem 2.4._
 **(1) $\Rightarrow$ (2):** Let $D = (Q, \Sigma, \delta, q_0, F)$ be a DFA for $L$. Define $x \sim y$
 iff $\delta^*(q_0, x) = \delta^*(q_0, y)$ (i.e., $D$ reaches the same state on $x$ and $y$). Then
 $\sim$ has at most $|Q|$ equivalence classes. We show $\sim = \equiv_L$. If $x \sim y$ Then for All
-$z$, $\delta^*(q_0, xz) = \delta^*(q_0, yz)$ So $xz \in L$ iff $yz \in L$Meaning $x \equiv_L y$.
-Conversely, if $x \not\equiv_L y$There exists $z$ with $xz \in L$ and $yz \notin L$ (or vice versa),
-so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$Hence $x \not\sim y$.
+$z$, $\delta^*(q_0, xz) = \delta^*(q_0, yz)$ So $xz \in L$ iff $yz \in L$ Meaning $x \equiv_L y$.
+Conversely, if $x \not\equiv_L y$ There exists $z$ with $xz \in L$ and $yz \notin L$ (or vice versa),
+so $\delta^*(q_0, xz) \neq \delta^*(q_0, yz)$ Hence $x \not\sim y$.
 
 **(2) $\Rightarrow$ (3):** Trivial, since $L$ consists of all strings whose equivalence class is one
 That contains at least one string in $L$.
@@ -379,7 +379,7 @@ We show $L$ is not regular by exhibiting infinitely many pairwise distinguishabl
 
 Claim: the strings $0^0, 0^1, 0^2, 0^3, \ldots$ are pairwise distinguishable with respect to $L$.
 
-_Proof._ For $i \neq j$ with $i \lt j$Consider the suffix $z = 1^i$. Then:
+_Proof._ For $i \neq j$ with $i \lt j$ Consider the suffix $z = 1^i$. Then:
 
 - $0^i \cdot 1^i = 0^i 1^i \in L$.
 - $0^j \cdot 1^i = 0^j 1^i \notin L$ (since $j \gt i$).
@@ -454,7 +454,7 @@ regular, Contradiction. $\blacksquare$
 Let $L = \{w \in \{0,1\}^* : n_0(w) = n_1(w)\}$.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$ So $y = 0^k$ for some $k \geq 1$. Then $xy^0z = 0^{p-k}1^p$Which has $p - k$ zeros and
+$|xy| \leq p$ So $y = 0^k$ for some $k \geq 1$. Then $xy^0z = 0^{p-k}1^p$ Which has $p - k$ zeros and
 $p$ ones. Since $k \geq 1$ $p - k \neq p$ So $xy^0z \notin L$. Contradiction. $\blacksquare$
 
 </details>
@@ -500,7 +500,7 @@ _Proof._ Let $D_1 = (Q_1, \Sigma, \delta_1, q_1, F_1)$ and
 $D_2 = (Q_2, \Sigma, \delta_2, q_2, F_2)$. Construct
 $D = (Q_1 \times Q_2, \Sigma, \delta, (q_1, q_2), F_1 \times F_2)$ where
 $\delta((r_1, r_2), a) = (\delta_1(r_1, a), \delta_2(r_2, a))$. Then $D$ accepts $w$ iff both $D_1$
-and $D_2$ accept $w$I.e., $w \in L_1 \cap L_2$. $\blacksquare$
+and $D_2$ accept $w$ I.e., $w \in L_1 \cap L_2$. $\blacksquare$
 
 **Theorem 2.7.** If $L_1$ is regular and $L_2$ is not regular, then $L_1 \cap L_2$ may or may not be
 Regular. Closure properties do not apply when one operand is non-regular.
@@ -543,7 +543,7 @@ S \to aSb \mid T, \quad T \to aTc \mid \varepsilon
 $$
 
 The variable $S$ generates the $a^i b^i$ part, and $T$ generates the $a^k c^k$ part. Since
-$S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$The total number Of
+$S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$ The total number Of
 `b`S and `c`S equals the total number of `a`S.
 
 **Example.** CFG for strings with equal numbers of `0`S and `1`S:
@@ -575,7 +575,7 @@ Language.
 
 _Proof of correctness for $S_1$._ By induction:
 $S_1 \Rightarrow^n a^n S_1 b^{2n} \Rightarrow a^n b^{2n}$. So $L(S_1) = \{a^n b^{2n} : n \geq 0\}$.
-Similarly $L(S_2) = \{a^{2n} b^n : n \geq 0\}$. Hence $L(S) = L(S_1) \cup L(S_2)$Which is exactly
+Similarly $L(S_2) = \{a^{2n} b^n : n \geq 0\}$. Hence $L(S) = L(S_1) \cup L(S_2)$ Which is exactly
 the target language. $\blacksquare$
 
 </details>
@@ -618,7 +618,7 @@ $n$ that $a^n b^n$ has exactly one parse tree.
 Base ($n = 1$): $ab$ has only the parse tree using $S \to ab$.
 
 Inductive step: $a^{n+1} b^{n+1}$ must use $S \to aSb$ (the rule $S \to ab$ produces only Strings of
-length 2). The inner $S$ must derive $a^n b^n$Which by IH has a unique parse tree. Hence
+length 2). The inner $S$ must derive $a^n b^n$ Which by IH has a unique parse tree. Hence
 $a^{n+1} b^{n+1}$ has exactly one parse tree. $\blacksquare$
 
 </details>
@@ -643,7 +643,7 @@ _Proof (conversion algorithm)._
    side if it generates $\varepsilon$).
 2. Remove all $\varepsilon$-productions $A \to \varepsilon$ (except possibly $S_0 \to \varepsilon$).
    For each occurrence of $A$ in a right-hand side, add a variant without $A$.
-3. Remove all unit productions $A \to B$. For each chain $A \Rightarrow^* B$Add $A \to \alpha$ for
+3. Remove all unit productions $A \to B$. For each chain $A \Rightarrow^* B$ Add $A \to \alpha$ for
    each $B \to \alpha$.
 4. Convert remaining rules: replace terminals $a$ in right-hand sides of length $\geq 2$ with new
    variables $T_a$ and rules $T_a \to a$. Replace right-hand sides of length $\geq 3$ by introducing
@@ -661,7 +661,7 @@ $$
 **Step 1:** Add new start variable. $S_0 \to S$.
 
 **Step 2:** Remove $\varepsilon$-productions. Both $A$ and $B$ are nullable. For each production
-Containing $A$ or $B$Add variants with nullable symbols removed:
+Containing $A$ or $B$ Add variants with nullable symbols removed:
 
 - $S \to AbB \mid Ab \mid aB \mid ab$
 - $A \to aA \mid a$
@@ -738,8 +738,8 @@ Middle is reached, then pop and compare with the remaining input.
 
 **Accept:** $\{q_2\}$.
 
-_Correctness._ If $w = uu^R$The PDA pushes $u$Guesses the midpoint, then pops and matches $u^R$. If
-$w \neq uu^R$No sequence of guesses leads to acceptance. $\blacksquare$
+_Correctness._ If $w = uu^R$ The PDA pushes $u$ Guesses the midpoint, then pops and matches $u^R$. If
+$w \neq uu^R$ No sequence of guesses leads to acceptance. $\blacksquare$
 
 </details>
 
@@ -753,8 +753,8 @@ _Proof (sketch)._
 the stack. At each step, it pops a variable from the stack and pushes the right-hand side of a
 Production for that variable.
 
-**PDA to CFG:** Given PDA $M$Construct a grammar whose variables encode pairs of states $(p, q)$
-Meaning "the PDA can go from state $p$ to state $q$Popping everything pushed onto the stack." The
+**PDA to CFG:** Given PDA $M$ Construct a grammar whose variables encode pairs of states $(p, q)$
+Meaning "the PDA can go from state $p$ to state $q$ Popping everything pushed onto the stack." The
 productions simulate the PDA's transitions. $\blacksquare$
 
 **Theorem 3.2a (CFG to PDA construction).** Let $G = (V, \Sigma, R, S)$ be a CFG. Then there exists
@@ -783,13 +783,13 @@ $|w| \geq p$, $w$ can be decomposed as $w = uvxyz$ satisfying:
 3. $uv^ixy^iz \in L$ for all $i \geq 0$.
 
 _Proof._ Let $G$ be a CFG in CNF with $k$ variables. Any parse tree of height $h$ generates a string
-Of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$The parse tree has height $\gt k$ So
+Of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
 some path repeats a variable. The substring generated between the two occurrences can be pumped.
 $\blacksquare$
 
 **Example.** $L = \{a^n b^n c^n : n \geq 0\}$ is not context-free.
 
-_Proof._ Assume pumping length $p$. Let $w = a^p b^p c^p$. Since $|vxy| \leq p$The substring $vxy$
+_Proof._ Assume pumping length $p$. Let $w = a^p b^p c^p$. Since $|vxy| \leq p$ The substring $vxy$
 cannot span all three letter types. Case analysis:
 
 - If $vxy$ is within the `a`S or `b`S or `c`S: pumping changes only one count, breaking the
@@ -815,7 +815,7 @@ In all cases, $uv^2xy^2z \notin L$. $\blacksquare$
 <details>
 <summary>Worked Example: $\{a^n b^n a^n : n \geq 0\}$ is not context-free</summary>
 
-_Proof._ Assume pumping length $p$. Let $w = a^p b^p a^p$. Since $|vxy| \leq p$The substring $vxy$
+_Proof._ Assume pumping length $p$. Let $w = a^p b^p a^p$. Since $|vxy| \leq p$ The substring $vxy$
 cannot span all three blocks. Case analysis:
 
 - $vxy$ within the first $a^p$ block: pumping down ($i = 0$) reduces the first count only.
@@ -835,10 +835,10 @@ In all cases, pumping produces a string not in $L$. $\blacksquare$
 The **Cocke--Younger--Kasami (CYK) algorithm** determines membership in a context-free language When
 the grammar is in Chomsky Normal Form.
 
-**Theorem 3.4.** Given a CFG $G$ in CNF and a string $w$ of length $n$The CYK algorithm decides
+**Theorem 3.4.** Given a CFG $G$ in CNF and a string $w$ of length $n$ The CYK algorithm decides
 Whether $w \in L(G)$ in $O(n^3 \cdot |G|)$ time.
 
-**Algorithm.** Construct a table $T[i, j]$ for $1 \leq i \leq j \leq n$Where $T[i, j]$ is the set Of
+**Algorithm.** Construct a table $T[i, j]$ for $1 \leq i \leq j \leq n$ Where $T[i, j]$ is the set Of
 variables that can derive the substring $w_i w_{i+1} \cdots w_j$.
 
 1. **Base case** ($j = 1$): $T[i, i] = \{A : A \to w_i \mathrm{ is a rule in  G\}$.
@@ -876,7 +876,7 @@ String: $w = ba$.
 - $X = B, Y = C$: $S \to BC$? Yes, add $S$.
 - $X = B, Y = A$: already checked. So $T[1,2] = \{S\}$.
 
-Since $S \in T[1,2]$The string $ba$ is **in** $L(G)$. The parse tree is $S \to BC$ Where $B \to b$
+Since $S \in T[1,2]$ The string $ba$ is **in** $L(G)$. The parse tree is $S \to BC$ Where $B \to b$
 and $C \to a$.
 
 </details>
@@ -938,13 +938,13 @@ Turing-recognisable If and only if some enumerator enumerates it.
 
 **Theorem 4.2a.** A language is Turing-recognisable if and only if some enumerator enumerates it.
 
-_Proof._ ($\Rightarrow$) Given TM $M$ recognising $L$Construct an enumerator $E$ that dovetails:
+_Proof._ ($\Rightarrow$) Given TM $M$ recognising $L$ Construct an enumerator $E$ that dovetails:
 Runs $M$ on $\varepsilon$ for 1 step, then $M$ on $\varepsilon$ and $M$ on $0$ for 2 steps, then on
 $\varepsilon, 0, 1, 00, 01, 10, 11$ for 3 steps, and so on. Whenever $M$ accepts, $E$ prints that
 String. Every string in $L$ is eventually printed.
 
-($\Leftarrow$) Given enumerator $E$ for $L$Construct TM $M$ that on input $w$ runs $E$ and checks
-Each printed string against $w$. If $w$ is printed, accept. If $w \in L$It will eventually be
+($\Leftarrow$) Given enumerator $E$ for $L$ Construct TM $M$ that on input $w$ runs $E$ and checks
+Each printed string against $w$. If $w$ is printed, accept. If $w \in L$ It will eventually be
 Printed, so $M$ recognises $L$. $\blacksquare$
 
 ### 4.3 Church-Turing Thesis
@@ -988,14 +988,14 @@ $M = (Q, \{0, 1\}, \{0, 1, \mathrm{x, \sqcup\}, \delta, q_0, q_{\mathrm{accept},
 
 **Key transitions:**
 
-1. In $q_0$Read `0`: write `x`Move right, go to $q_1$. (Cross off a `0`.)
-2. In $q_0$Read `1`: reject. (A `1` before any `0`.)
-3. In $q_0$Read $\sqcup$: accept. (Nothing left.)
-4. In $q_1$Read `0`: move right, stay in $q_1$. (Skip remaining `0`S.)
-5. In $q_1$Read `1`: write `x`Move left, go to $q_2$. (Cross off a `1`.)
-6. In $q_1$Read $\sqcup$: reject. (No `1` to match.)
-7. In $q_2$Read `0` or `x`: move left, stay in $q_2$. (Scan back.)
-8. In $q_2$Read $\sqcup$: move right, go to $q_0$. (Return to start.)
+1. In $q_0$ Read `0`: write `x`Move right, go to $q_1$. (Cross off a `0`.)
+2. In $q_0$ Read `1`: reject. (A `1` before any `0`.)
+3. In $q_0$ Read $\sqcup$: accept. (Nothing left.)
+4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`S.)
+5. In $q_1$ Read `1`: write `x`Move left, go to $q_2$. (Cross off a `1`.)
+6. In $q_1$ Read $\sqcup$: reject. (No `1` to match.)
+7. In $q_2$ Read `0` or `x`: move left, stay in $q_2$. (Scan back.)
+8. In $q_2$ Read $\sqcup$: move right, go to $q_0$. (Return to start.)
 
 _Correctness._ Each iteration crosses off exactly one `0` and one `1`. If the input is $0^n 1^n$ The
 machine performs $n$ iterations and accepts. If counts differ or the pattern is violated, The
@@ -1012,8 +1012,8 @@ Design a TM that decides $A_{\mathrm{DFA} = \{\langle B, w \rangle : B \mathrm{ 
 
 1. Simulate $B$ on $w$. Maintain the current state $q$ and position $i$ in $w$.
 2. At each step, look up $\delta(q, w_i)$ in $B$'s transition table (encoded on the tape).
-3. Update $q$ and $i$. If $q \in F$ when $i = |w| + 1$Accept.
-4. If $i = |w| + 1$ and $q \notin F$Reject.
+3. Update $q$ and $i$. If $q \in F$ when $i = |w| + 1$ Accept.
+4. If $i = |w| + 1$ and $q \notin F$ Reject.
 
 The simulation takes $O(|w|)$ steps and always halts. $\blacksquare$
 
@@ -1042,7 +1042,7 @@ correctly simulates $M$. $\blacksquare$
 (the UTM) is fixed, and software (the encoded TM) provides the specific computation.
 
 **Simulation overhead.** If $M$ runs in time $t(n)$ Then $U$ simulates $M$ in time
-$O(t(n) \cdot |M|)$Where $|M|$ is the size of $M$'s description.
+$O(t(n) \cdot |M|)$ Where $|M|$ is the size of $M$'s description.
 
 <details>
 <summary>Worked Example: TM for $L = \{w\#w^R : w \in \{0,1\}^*\}$</summary>
@@ -1054,14 +1054,14 @@ remains, accept.
 
 **Algorithm:**
 
-1. Scan right to find the rightmost non-$\sqcup$Non-$\mathrm{x$ symbol (call it $a$). If we cross
+1. Scan right to find the rightmost non-$\sqcup$ Non-$\mathrm{x$ symbol (call it $a$). If we cross
    $\#$ on the way, note its position.
-2. Return to the leftmost non-$\sqcup$Non-$\mathrm{x$ symbol (call it $b$).
-3. If $a \neq b$Reject.
+2. Return to the leftmost non-$\sqcup$ Non-$\mathrm{x$ symbol (call it $b$).
+3. If $a \neq b$ Reject.
 4. Cross off both $a$ and $b$ (write $\mathrm{x$).
-5. Repeat until only $\#$ (and $\mathrm{x$S) remain, then accept.
+5. Repeat until only $\#$ (and $\mathrm{x$ S) remain, then accept.
 
-_Correctness._ If the input is $w\#w^R$The first symbol of $w$ equals the last symbol of $w^R$
+_Correctness._ If the input is $w\#w^R$ The first symbol of $w$ equals the last symbol of $w^R$
 (which is the first symbol of $w$), the second equals the second-to-last, etc. Each Iteration
 verifies one pair. If any pair mismatches, the string is not of the form $w\#w^R$. $\blacksquare$
 
@@ -1145,7 +1145,7 @@ Computable, $A$ is decidable. $\blacksquare$
 
 **Corollary 5.4.** If $A \leq_m B$ and $A$ is undecidable, then $B$ is undecidable.
 
-**Applications.** Using reductions from $A_{\mathrm{TM}$We can prove many problems undecidable:
+**Applications.** Using reductions from $A_{\mathrm{TM}$ We can prove many problems undecidable:
 
 | Language                       | Description                         | Reduction from   |
 | ------------------------------ | ----------------------------------- | ---------------- |
@@ -1156,7 +1156,7 @@ Computable, $A$ is decidable. $\blacksquare$
 
 **Example reduction.** $A_{\mathrm{TM} \leq_m \mathrm{HALT_{\mathrm{TM}$.
 
-_Proof._ Given $\langle M, w \rangle$Construct a TM $M'$ that on input $x$: simulates $M$ on $w$. If
+_Proof._ Given $\langle M, w \rangle$ Construct a TM $M'$ that on input $x$: simulates $M$ on $w$. If
 $M$ accepts, accept. If $M$ rejects, loop. Then $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $M'$
 halts on some input (any input), iff $\langle M' \rangle \in \mathrm{HALT_{\mathrm{TM}$.
 $\blacksquare$
@@ -1164,11 +1164,11 @@ $\blacksquare$
 <details>
 <summary>Worked Example: $A_{\mathrm{TM} \leq_m E_{\mathrm{TM}$</summary>
 
-_Proof._ Given $\langle M, w \rangle$Construct a TM $M_w$ that on input $x$:
+_Proof._ Given $\langle M, w \rangle$ Construct a TM $M_w$ that on input $x$:
 
 1. Simulate $M$ on $w$.
-2. If $M$ accepts $w$Accept $x$.
-3. If $M$ rejects $w$Reject $x$.
+2. If $M$ accepts $w$ Accept $x$.
+3. If $M$ rejects $w$ Reject $x$.
 
 Then $L(M_w) = \Sigma^*$ if $M$ accepts $w$ And $L(M_w) = \emptyset$ if $M$ does not accept $w$.
 
@@ -1184,7 +1184,7 @@ decidable, contradiction. $\blacksquare$
 <details>
 <summary>Worked Example: $E_{\mathrm{TM} \leq_m \mathrm{EQ_{\mathrm{TM}$</summary>
 
-_Proof._ Given $\langle M \rangle$Construct two TMs:
+_Proof._ Given $\langle M \rangle$ Construct two TMs:
 
 - $M_1$: on any input, immediately rejects. So $L(M_1) = \emptyset$.
 - $M_2$: on any input, simulates $M$ and accepts iff $M$ accepts. So $L(M_2) = L(M)$.
@@ -1207,7 +1207,7 @@ neither Empty nor the set of all Turing-recognisable languages.
 
 _Proof (sketch)._ Let $P$ be a non-trivial property. Since $P$ is non-trivial, there exists a TM
 $M_0$ with $L(M_0) \in P$ and a TM $M_1$ with $L(M_1) \notin P$. Given an arbitrary TM $M$ and input
-$w$Construct $M_w$ that on input $x$: first simulates $M$ on $w$ Then simulates $M_0$ on $x$. If $M$
+$w$ Construct $M_w$ that on input $x$: first simulates $M$ on $w$ Then simulates $M_0$ on $x$. If $M$
 accepts $w$ Then $L(M_w) = L(M_0) \in P$; if $M$ does not accept $w$, $L(M_w) = \emptyset$. If
 $\emptyset \notin P$ Then $M_w \in P$ iff $M$ accepts $w$ So deciding $P$ would decide
 $A_{\mathrm{TM}}$. The case $\emptyset \in P$ is similar. $\blacksquare$
@@ -1261,7 +1261,7 @@ Not equal. Finding solutions to PCP instances can be very difficult, there is no
 
 **Theorem 5.6.** PCP is undecidable.
 
-_Proof (sketch)._ Reduce from $A_{\mathrm{TM}}$. Given TM $M$ and input $w$Construct a PCP instance
+_Proof (sketch)._ Reduce from $A_{\mathrm{TM}}$. Given TM $M$ and input $w$ Construct a PCP instance
 Whose tiles encode the computation history of $M$ on $w$. The tiles are designed so that a matching
 Sequence corresponds to a valid accepting computation: the first tile starts the computation, middle
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
@@ -1287,7 +1287,7 @@ $P^B = NP^B$.
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require
 Non-relativising techniques, proof methods that do not carry over in the presence of oracles.
 
-**The Turing jump.** Given a language $A$Define the **halting problem relative to $A$**:
+**The Turing jump.** Given a language $A$ Define the **halting problem relative to $A$**:
 
 $$
 A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}
@@ -1301,8 +1301,8 @@ $\emptyset^{(n+1)} = (\emptyset^{(n)})'$. Each jump produces a strictly more dif
 Yielding an infinite hierarchy of undecidability.
 
 :::caution
-prove $B$ is undecidable Using a reduction from a known undecidable problem $A$You need
-$A \leq_m B$Not $B \leq_m A$. Remember: if $A \leq_m B$ and $A$ is undecidable, then $B$ is
+prove $B$ is undecidable Using a reduction from a known undecidable problem $A$ You need
+$A \leq_m B$ Not $B \leq_m A$. Remember: if $A \leq_m B$ and $A$ is undecidable, then $B$ is
 undecidable (contrapositive of "if $B$ is decidable then $A$ is decidable"). Reversing the direction
 gives a valid implication ("if $B \leq_m A$ and $A$ is undecidable, then...") that tells us nothing
 about $B$.
@@ -1423,15 +1423,15 @@ _Proof (detailed sketch)._
 1. $\mathrm{SAT \in \mathrm{NP$: a satisfying assignment is a polynomial-size certificate that can
    be verified in polynomial time.
 
-2. For any $L \in \mathrm{NP$There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
-   some $k$. Given input $w$ of length $n$Construct a Boolean formula $\phi_{N,w}$ that is
+2. For any $L \in \mathrm{NP$ There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
+   some $k$. Given input $w$ of length $n$ Construct a Boolean formula $\phi_{N,w}$ that is
    satisfiable iff $N$ accepts $w$.
 
 The formula encodes the **tableau** of $N$ on $w$: a table of size $n^k \times n^k$ where each cell
 $T[i, j]$ records the symbol at tape cell $j$ after step $i$ of the computation.
 
 **Variables:** For each position $(i, j)$ in the tableau and each symbol $s$ in the combined
-state-tape alphabet $\Gamma' = Q \times \Gamma$A variable $x_{i,j,s}$ indicating that cell $(i, j)$
+state-tape alphabet $\Gamma' = Q \times \Gamma$ A variable $x_{i,j,s}$ indicating that cell $(i, j)$
 contains $s$.
 
 **Constraints:**
@@ -1444,7 +1444,7 @@ contains $s$.
 - **Acceptance:** Some cell in the last row contains $q_{\mathrm{accept}$.
 
 Each constraint can be expressed as a polynomial-size CNF formula (using standard encodings of
-"exactly one" and "window" constraints). The total formula has size $O(n^{2k})$Which is polynomial
+"exactly one" and "window" constraints). The total formula has size $O(n^{2k})$ Which is polynomial
 in $|w|$. $\blacksquare$
 
 <details>
@@ -1482,7 +1482,7 @@ Equivalent clauses with exactly 3 literals using auxiliary variables.
 
 **Theorem 6.5a.** SAT $\leq_p$ 3-SAT.
 
-_Proof._ Given a CNF formula $\phi$Convert each clause to exactly 3 literals:
+_Proof._ Given a CNF formula $\phi$ Convert each clause to exactly 3 literals:
 
 - Clause $(l_1)$ (1 literal): replace with
   $(l_1 \lor a \lor b) \land (l_1 \lor a \lor \bar{b}) \land (l_1 \lor \bar{a} \lor b) \land (l_1 \lor \bar{a} \lor \bar{b})$
@@ -1497,7 +1497,7 @@ _Proof._ Given a CNF formula $\phi$Convert each clause to exactly 3 literals:
 
 Each transformation is polynomial-size and preserves satisfiability. $\blacksquare$
 
-**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$Is there a vertex cover of size
+**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$ Is there a vertex cover of size
 $\leq k$?
 
 **Theorem 6.5b.** 3-SAT $\leq_p$ Vertex Cover.
@@ -1505,10 +1505,10 @@ $\leq k$?
 _Proof (sketch)._ Given a 3-CNF formula $\phi$ with $k$ clauses and $n$ variables, construct a graph
 $G$:
 
-1. For each variable $x_i$Create a **variable gadget**: two vertices $x_i$ and $\bar{x}_i$ connected
+1. For each variable $x_i$ Create a **variable gadget**: two vertices $x_i$ and $\bar{x}_i$ connected
    by an edge. Selecting $x_i$ into the cover corresponds to setting $x_i$ to true (removing
    $\bar{x}_i$ from consideration).
-2. For each clause $C_j = (l_a \lor l_b \lor l_c)$Create a **clause gadget**: a triangle of three
+2. For each clause $C_j = (l_a \lor l_b \lor l_c)$ Create a **clause gadget**: a triangle of three
    vertices connected to the corresponding literal vertices in the variable gadgets.
 3. Set the target: $k' = n + 2k$.
 
@@ -1518,17 +1518,17 @@ Cover removes it from clause consideration; the remaining two triangle vertices 
 Cover. The formula is satisfiable iff we can choose literal vertices such that each clause triangle
 Has at most one vertex already excluded. $\blacksquare$
 
-**Clique.** Given $G = (V, E)$ and integer $k$Does $G$ contain a clique of size $k$?
+**Clique.** Given $G = (V, E)$ and integer $k$ Does $G$ contain a clique of size $k$?
 
 **Reduction:** Vertex Cover $\leq_p$ Clique. $G = (V, E)$ has a vertex cover of size $k$ iff
 $\overline{G} = (V, \overline{E})$ has a clique of size $|V| - k$.
 
 _Proof._ If $C \subseteq V$ is a vertex cover of size $k$ in $G$ Then every edge of $G$ has at Least
-one endpoint in $C$. So $V \setminus C$ is an independent set in $G$Meaning every pair in
+one endpoint in $C$. So $V \setminus C$ is an independent set in $G$ Meaning every pair in
 $V \setminus C$ is an edge in $\overline{G}$. Hence $\overline{G}$ has a clique of size $|V| - k$.
 The converse is analogous. $\blacksquare$
 
-**Hamiltonian Path.** Given a graph $G = (V, E)$Does $G$ have a path visiting every vertex exactly
+**Hamiltonian Path.** Given a graph $G = (V, E)$ Does $G$ have a path visiting every vertex exactly
 Once?
 
 **Theorem 6.5c.** Vertex Cover $\leq_p$ Hamiltonian Path (via Hamiltonian Cycle).
@@ -1539,24 +1539,24 @@ choose $k$ vertices (the cover), verification gadgets that check every edge is c
 Connecting gadgets that string the selections together into a single cycle. The construction is
 Polynomial. $\blacksquare$
 
-**Subset Sum.** Given integers $S = \{s_1, \ldots, s_n\}$ and target $T$Is there a subset summing To
+**Subset Sum.** Given integers $S = \{s_1, \ldots, s_n\}$ and target $T$ Is there a subset summing To
 $T$?
 
 **Theorem 6.5d.** 3-SAT $\leq_p$ Subset Sum.
 
 _Proof (sketch)._ Given a 3-CNF formula with variables $x_1, \ldots, x_n$ and clauses
-$C_1, \ldots, C_k$Construct a set of numbers $S$ and target $T$ in decimal.
+$C_1, \ldots, C_k$ Construct a set of numbers $S$ and target $T$ in decimal.
 
-For each variable $x_i$Create two numbers $v_i$ and $\bar{v}_i$. In the "variable digits" (first $n$
+For each variable $x_i$ Create two numbers $v_i$ and $\bar{v}_i$. In the "variable digits" (first $n$
 columns), $v_i$ has a `1` in column $i$ and `0` elsewhere; $\bar{v}_i$ also has a `1` in column $i$
 and `0` elsewhere. This forces choosing exactly one of $v_i, \bar{v}_i$.
 
-For each clause $C_j$Add a "clause digit" (column $n + j$): in $v_i$ (resp. $\bar{v}_i$), This digit
+For each clause $C_j$ Add a "clause digit" (column $n + j$): in $v_i$ (resp. $\bar{v}_i$), This digit
 is `1` iff $x_i$ (resp. $\bar{x}_i$) appears in $C_j$. The target $T$ has `1` in Every digit.
 Choosing $v_i$ or $\bar{v}_i$ contributes to satisfying the clauses that contain That literal.
 $\blacksquare$
 
-**Partition.** Given integers $S = \{s_1, \ldots, s_n\}$Can $S$ be partitioned into two subsets of
+**Partition.** Given integers $S = \{s_1, \ldots, s_n\}$ Can $S$ be partitioned into two subsets of
 Equal sum?
 
 **Reduction chain:**
@@ -1582,7 +1582,7 @@ $$
 
 Given a 3-CNF formula $\phi$ with $k$ clauses, construct a graph $G$:
 
-1. For each clause $C_j$Create a group of 3 vertices (one per literal).
+1. For each clause $C_j$ Create a group of 3 vertices (one per literal).
 2. Within each group, add all three edges (forming a triangle). At most one vertex per group can be
    in an independent set.
 3. For each pair of contradictory literals ($x_i$ and $\bar{x}_i$) in different groups, add an edge. They cannot both be selected.
@@ -1626,7 +1626,7 @@ $A \in \mathrm{NL$ is log-space reducible to $B$.
 **Theorem 6.8 (Immerman--Szelepcsényi, 1987).** $\mathrm{NL = \mathrm{coNL$.
 
 This is surprising because it is not known whether $\mathrm{NP = \mathrm{coNP$. The proof uses An
-inductive counting argument: given an NTM for $L$Construct an NTM for $\overline{L}$ that Counts the
+inductive counting argument: given an NTM for $L$ Construct an NTM for $\overline{L}$ that Counts the
 number of reachable configurations.
 
 **PSPACE-completeness.** A language is PSPACE-complete if it is in PSPACE and every PSPACE problem
@@ -1638,8 +1638,8 @@ Reduces to it. Key PSPACE-complete problems:
 
 **Theorem 6.9.** TQBF is PSPACE-complete.
 
-_Proof (membership)._ Evaluate the quantifiers recursively. For $\exists x_i \phi$Try both values Of
-$x_i$ and recurse. For $\forall x_i \phi$Similarly. At depth $n$Evaluate $\psi$. Each level Uses
+_Proof (membership)._ Evaluate the quantifiers recursively. For $\exists x_i \phi$ Try both values Of
+$x_i$ and recurse. For $\forall x_i \phi$ Similarly. At depth $n$ Evaluate $\psi$. Each level Uses
 $O(n)$ space to store the current assignment, giving $O(n^2)$ total.
 
 _Proof (hardness)._ Reduce from any $L \in \mathrm{PSPACE$ using the configuration graph. A
@@ -1839,7 +1839,7 @@ that $c(u) \neq c(v)$ for every edge $(u, v) \in E$. Show that 3-SAT $\leq_p$ 3-
 describing the reduction construction.
 
 **Problem 15.** Prove that $\mathrm{CLIQUE}$ is self-reducible: given an oracle for
-$\mathrm{CLIQUE}$Describe a polynomial-time algorithm to find an actual clique of size $k$ (if one
+$\mathrm{CLIQUE}$ Describe a polynomial-time algorithm to find an actual clique of size $k$ (if one
 exists).
 
 **Problem 16.** Using Savitch's theorem, prove that $\mathrm{NL} \subseteq \mathrm{P}$. What is the
@@ -1863,7 +1863,7 @@ decidable? Justify.
 
 **Problem 20.** For each of the following languages, state the smallest complexity class (from
 $\mathrm{Regular}$, $\mathrm{CFL$, $\mathrm{Decidable}$, $\mathrm{NP$ $\mathrm{PSPACE$,
-$\mathrm{EXPTIME}$Or "undecidable") that is known to contain it. Justify each answer briefly.
+$\mathrm{EXPTIME}$ Or "undecidable") that is known to contain it. Justify each answer briefly.
 
 (a) $\{0^n 1^n 0^n : n \geq 0\}$ (b) $\{\langle G \rangle : G \mathrm{ has} a Hamiltonian cycle\}$
 (c) $\{\langle G, k \rangle : G \mathrm{ has} a vertex cover of size  \leq k\}$ (d)
@@ -1882,16 +1882,16 @@ suffix $1^{2i}$ distinguishes $0^i$ from $0^j$ since $0^i 1^{2i} \in L$ but $0^j
 **Problem 4.** Disproof: let $L_1 = \{0^n 1^n : n \geq 0\}$ (not regular) and $L_2 = \emptyset$
 (regular). Then $L_1 \cdot L_2 = \emptyset$ is regular, but $L_1$ is not.
 
-**Problem 7.** Let $w = a^p b^p a^p b^p$ with pumping length $p$. Since $|vxy| \leq p$The Substring
+**Problem 7.** Let $w = a^p b^p a^p b^p$ with pumping length $p$. Since $|vxy| \leq p$ The Substring
 $vxy$ cannot span all four blocks. Case analysis shows that pumping any valid Decomposition produces
 a string not in $L$.
 
-**Problem 10.** Reduce from $E_{\mathrm{TM}}$. Given $\langle M \rangle$Construct two TMs $M_1$
+**Problem 10.** Reduce from $E_{\mathrm{TM}}$. Given $\langle M \rangle$ Construct two TMs $M_1$
 (accepts $\varepsilon$ only) and $M_2$ (accepts what $M$ accepts). Then
 $L(M_1) \cap L(M_2) \neq \emptyset$ iff $M$ accepts $\varepsilon$ iff
 $\langle M \rangle \notin E_{\mathrm{TM}}$ (after adjusting for the specific reduction).
 
-**Problem 13.** If $\mathrm{P} = \mathrm{NP}$ Then for any $L \in \mathrm{NP}$We have
+**Problem 13.** If $\mathrm{P} = \mathrm{NP}$ Then for any $L \in \mathrm{NP}$ We have
 $L \in \mathrm{P}$. Since $\mathrm{P}$ is closed under complement,
 $\overline{L} \in \mathrm{P}
 \subseteq \mathrm{NP}$. So $\overline{L} \in \mathrm{NP}$ for every

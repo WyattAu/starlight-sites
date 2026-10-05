@@ -20,7 +20,7 @@ tableOfContents: false
 
 **Question**
 
-Manganate(VII) ions ($MnO_{4}^{-}$) oxidise iron(II) ions ($Fe^{2+}$) to iron(III) ions ($Fe^{3+}$)
+Manganate(VII) ions ($MnO_{4}^{-}$) oxidise iron(II) ions ($ Fe^{2+}$) to iron(III) ions ($ Fe^{3+}$)
 in acidic medium, being reduced to manganese(II) ions ($Mn^{2+}$).
 
 (a) Write the half-equation for the reduction of $MnO_{4}^{-}$ to $Mn^{2+}$ in acidic medium. [2
@@ -162,7 +162,7 @@ Product at anode changes from **chlorine** to **oxygen**.
 }
 </script>
 
-## Unit Test 3: Faraday"s Calculations
+## Unit Test 3: Faraday's Calculations
 
 **Question**
 
@@ -291,7 +291,7 @@ $$
 E^{\circ}_{\text{cell}} = 0.34 - (-0.76) = +1.10 \text{ V}
 $$
 
-Since $E^{\circ}_{\text{cell}} \gt 0$The reaction is feasible:
+Since $E^{\circ}_{\text{cell}} \gt 0$ The reaction is feasible:
 
 $$
 Zn(s) + Cu^{2+}(aq) \rightarrow Zn^{2+}(aq) + Cu(s)

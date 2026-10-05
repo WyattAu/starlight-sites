@@ -205,7 +205,7 @@ $$
 \frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}
 $$
 
-Since $\lvert \sin x \rvert \le 1$ and $x \to \infty$We have $\frac{\sin x}{x} \to 0$ by the squeeze
+Since $\lvert \sin x \rvert \le 1$ and $x \to \infty$ We have $\frac{\sin x}{x} \to 0$ by the squeeze
 theorem.
 
 So $\displaystyle\lim_{x \to \infty}\frac{x + \sin x}{x} = 1$.
@@ -318,7 +318,7 @@ $$
 
 **(b)** Stationary points: $f'(x) = 0 \implies x^x(1 + \ln x) = 0$.
 
-Since $x^x \gt 0$ for all $x \gt 0$We need
+Since $x^x \gt 0$ for all $x \gt 0$ We need
 $1 + \ln x = 0 \implies \ln x = -1 \implies x = e^{-1} = \frac{1}{e}$.
 
 To determine the nature: for $0 \lt x \lt \frac{1}{e}$, $\ln x \lt -1$ so $1 + \ln x \lt 0$
@@ -348,7 +348,7 @@ $$
 f''\!\left(\frac{1}{e}\right) = \left(\frac{1}{e}\right)^{1/e}\!\left[0 + e\right] = e \cdot e^{-1/e} = e^{1 - 1/e} \gt 0
 $$
 
-Since $f''\!\left(\frac{1}{e}\right) \gt 0$The stationary point is confirmed as a local minimum by
+Since $f''\!\left(\frac{1}{e}\right) \gt 0$ The stationary point is confirmed as a local minimum by
 the second derivative test.
 
 ## Cross-References

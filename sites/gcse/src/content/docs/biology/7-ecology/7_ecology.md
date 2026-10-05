@@ -109,7 +109,7 @@ Organisms are adapted to their environment through natural selection. Adaptation
   (reduces surface area, deters herbivores); swollen stem (stores water); shallow but extensive root
   system (quickly absorbs water after rain).
 - **Physiological:** CAM (Crassulacean Acid Metabolism) photosynthesis: stomata open at night to
-  take in $\mathrm{CO_2$Reducing water loss during the hot day.
+  take in $\mathrm{CO_2$ Reducing water loss during the hot day.
 
 **Worked Example: Surface-area-to-volume ratio and heat loss.**
 
@@ -501,7 +501,7 @@ from fertiliser runoff.
 
 ### 4.6 Global Warming
 
-**Greenhouse gases** ($\mathrm{CO_2$Methane, water vapour, nitrous oxide) trap heat in the
+**Greenhouse gases** ($\mathrm{CO_2$ Methane, water vapour, nitrous oxide) trap heat in the
 Atmosphere, causing the Earth's average temperature to rise. This is the **greenhouse effect**.
 
 **Evidence for climate change:**

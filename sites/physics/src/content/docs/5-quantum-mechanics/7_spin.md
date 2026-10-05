@@ -52,7 +52,7 @@ algebra For $j = 1/2$.
 
 **Requirements.** We seek $2 \times 2$ matrices $\sigma_x, \sigma_y, \sigma_z$ such that:
 
-1. $\sigma_i^2 = I$ (eigenvalues are $\pm 1$Corresponding to $S_z = \pm\hbar/2$)
+1. $\sigma_i^2 = I$ (eigenvalues are $\pm 1$ Corresponding to $S_z = \pm\hbar/2$)
 2. $\sigma_i^\dagger = \sigma_i$ (Hermitian)
 3. $\mathrm{Tr}(\sigma_i) = 0$ (traceless, since eigenvalues sum to zero)
 4. $[\sigma_x, \sigma_y] = 2i\sigma_z$ (and cyclic permutations)
@@ -73,7 +73,7 @@ $$
 
 Where $a \in \mathbb{R}$ and $b \in \mathbb{C}$. From $\sigma_x^2 = I$: $a^2 + |b|^2 = 1$ and
 $2ab = 0$. Since $|b| \neq 0$ (otherwise $\sigma_x$ is diagonal and commutes with
-$\sigma_z$Violating $[\sigma_x, \sigma_z] \neq 0$), we have $a = 0$ and $|b| = 1$. Choosing $b = 1$
+$\sigma_z$ Violating $[\sigma_x, \sigma_z] \neq 0$), we have $a = 0$ and $|b| = 1$. Choosing $b = 1$
 (by convention):
 
 $$
@@ -155,7 +155,7 @@ field $\mathbf{B} = B_0\hat{x}$ is applied. Find $|\psi(t)\rangle$.
 <details>
 <summary>Solution</summary>
 
-With $\mathbf{B} = B_0\hat{x}$The Hamiltonian is
+With $\mathbf{B} = B_0\hat{x}$ The Hamiltonian is
 $\hat{H} = -\gamma B_0\hat{S}_x = \omega_L\hat{S}_x$ Where $\omega_L = \gamma B_0$. The eigenstates
 of $\hat{S}_x$ are:
 
@@ -175,7 +175,7 @@ $$
 = \cos\!\left(\frac{\omega_L t}{2}\right)|\uparrow\rangle - i\sin\!\left(\frac{\omega_L t}{2}\right)|\downarrow\rangle
 $$
 
-The probability of measuring spin-up along $z$ oscillates as $\cos^2(\omega_L t/2)$With period
+The probability of measuring spin-up along $z$ oscillates as $\cos^2(\omega_L t/2)$ With period
 $T = 2\pi/\omega_L$.
 
 </details>
@@ -191,7 +191,7 @@ $$
 \mathbf{F} = \nabla(\boldsymbol{\mu}\cdot\mathbf{B})
 $$
 
-For a field $\mathbf{B} = B(z)\hat{z}$ with $\partial B_z/\partial z \neq 0$The $z$-component of
+For a field $\mathbf{B} = B(z)\hat{z}$ with $\partial B_z/\partial z \neq 0$ The $z$-component of
 force Is $F_z = \mu_z\,\partial B_z/\partial z$. Since $\mu_z = \gamma m_s\hbar$ and
 $m_s = \pm 1/2$:
 
@@ -253,7 +253,7 @@ flowchart TD
 Spin is the universe's internal compass that has no classical counterpart. An electron is not literally spinning like a top, yet it carries angular momentum and a magnetic moment as if it were. The Pauli matrices encode the algebra of this internal angular momentum in a neat two-by-two package. When you put a spin in a magnetic field, it precesses like a wobbling top, but the energy comes in only two values: aligned or anti-aligned. The Stern-Gerlach experiment is the smoking gun: a beam of atoms splits into exactly two beams, not a continuous spread, proving that angular momentum is quantized. Measuring spin along one axis completely randomizes the result along a perpendicular axis, which is the quantum version of the uncertainty principle at work. Adding two spins together gives either a triplet (symmetric) or a singlet (antisymmetric), and the singlet state is so entangled that measuring one instantly tells you about the other, no matter how far apart they are.
 
 Given two angular momenta $\hat{\mathbf{J}}_1$ and $\hat{\mathbf{J}}_2$ with quantum numbers
-$j_1, m_1$ and $j_2, m_2$Define the total
+$j_1, m_1$ and $j_2, m_2$ Define the total
 $\hat{\mathbf{J}} = \hat{\mathbf{J}}_1 + \hat{\mathbf{J}}_2$.
 
 **Compatible observables:** $\hat{J}^2$, $\hat{J}_z$, $\hat{J}_1^2$, $\hat{J}_2^2$ all commute. We
@@ -265,7 +265,7 @@ $$
 j = |j_1 - j_2|, |j_1 - j_2| + 1, \ldots, j_1 + j_2
 $$
 
-In integer steps. For each $j$The magnetic quantum number $m$ ranges from $-j$ to $j$.
+In integer steps. For each $j$ The magnetic quantum number $m$ ranges from $-j$ to $j$.
 
 The transformation between the product basis and the total-$j$ basis is:
 
@@ -306,7 +306,7 @@ $\hat{\mathbf{S}}_1\cdot\hat{\mathbf{S}}_2 = -3\hbar^2/4$.
 **Complete set of commuting observables (CSCO).** For a two-spin system, the set
 $\\{\hat{S}^2, \hat{S}_z, \hat{S}_1^2, \hat{S}_2^2\\}$ forms a CSCO: their simultaneous eigenstates
 are Uniquely labelled by the quantum numbers $(s, m_s, s_1, s_2)$. An alternative CSCO is
-$\\{\hat{S}_{1z}, \hat{S}_{2z}, \hat{S}_1^2, \hat{S}_2^2\\}$Which uses the product basis. The
+$\\{\hat{S}_{1z}, \hat{S}_{2z}, \hat{S}_1^2, \hat{S}_2^2\\}$ Which uses the product basis. The
 Clebsch-Gordan coefficients are the transformation matrix between these two bases.
 
 **Clebsch-Gordan table for $j_1 = j_2 = 1/2$:**
@@ -319,7 +319,7 @@ Clebsch-Gordan coefficients are the transformation matrix between these two base
 | $-1/2$ | $-1/2$ | $1$          | $0$           |
 
 **Example 7.3.** Two electrons are in the singlet state. If electron 1 is measured to have
-$S_z = +\hbar/2$What is the state of electron 2 immediately after? What is the probability of
+$S_z = +\hbar/2$ What is the state of electron 2 immediately after? What is the probability of
 Measuring $S_x = +\hbar/2$ for electron 2?
 
 <details>
@@ -328,7 +328,7 @@ Measuring $S_x = +\hbar/2$ for electron 2?
 The singlet state is
 $|0,0\rangle = (|\uparrow_1\downarrow_2\rangle - |\downarrow_1\uparrow_2\rangle)/\sqrt{2}$.
 
-After measuring $S_1^z = +\hbar/2$The state collapses to $|\uparrow_1\downarrow_2\rangle$. Electron
+After measuring $S_1^z = +\hbar/2$ The state collapses to $|\uparrow_1\downarrow_2\rangle$. Electron
 2 is in $|\downarrow\rangle$.
 
 The probability of measuring $S_2^x = +\hbar/2$ is:

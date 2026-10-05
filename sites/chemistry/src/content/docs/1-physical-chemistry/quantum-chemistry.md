@@ -279,7 +279,7 @@ Consequence: Each orbital can hold at most 2 electrons (one with $m_s = +1/2$, o
 **Definition 3 (Aufbau Principle):** Electrons fill orbitals in order of increasing energy:
 $1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, \ldots$
 
-**Definition 4 (Hund"s Rules):** For degenerate orbitals:
+**Definition 4 (Hund's Rules):** For degenerate orbitals:
 
 1. Maximize total spin $S$ (parallel spins first).
 2. For a given $S$, maximize $L$.

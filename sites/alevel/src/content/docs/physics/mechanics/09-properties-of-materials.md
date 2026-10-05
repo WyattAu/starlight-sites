@@ -27,7 +27,7 @@ The mechanical properties of materials, how they deform, stretch, compress, and 
 To engineering and physics. This topic sits within the "Mechanics & Materials" strand on every A
 Level board.
 
-## 1. Hooke"s Law
+## 1. Hooke's Law
 
 When an elastic object such as a spring or wire is stretched, the extension is (up to a limit)
 Proportional to the applied force.
@@ -273,7 +273,7 @@ $$
 ### Proof of Energy Stored in a Wire
 
 Consider a wire of original length $L$ and cross-sectional area $A$. When stretched by an increment
-$d(\Delta L)$The work done is:
+$d(\Delta L)$ The work done is:
 
 $$
 dW = F\,d(\Delta L)

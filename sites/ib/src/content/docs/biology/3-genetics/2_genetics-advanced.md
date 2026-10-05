@@ -124,7 +124,7 @@ Cells, stem cells, and most cancer cells but is inactive in most somatic cells.
    DNA unwinding (forming an open complex).
 4. RNA polymerase begins synthesising mRNA in the $5' \to 3'$ direction, using the **template
    (antisense) strand** as a template.
-5. After synthesising approximately $10\;\mathrm{nt}$The sigma factor dissociates.
+5. After synthesising approximately $10\;\mathrm{nt}$ The sigma factor dissociates.
 
 ### Initiation in Eukaryotes
 
@@ -940,7 +940,7 @@ Since the molecule has $2400$ total nucleotides, and $A_{total} = T_{total}$, $G
 $A_{total} + T_{total} + G_{total} + C_{total} = 2400$ $2A_{total} + 2G_{total} = 2400$
 $A_{total} + G_{total} = 1200$
 
-But we only know $A_1 = 300$Not $A_{total}$. We need more information. If the problem states that
+But we only know $A_1 = 300$ Not $A_{total}$. We need more information. If the problem states that
 one strand has $300$ A bases, then:
 
 - Strand 1 has $A_1 = 300$ So strand 2 has $T_2 = 300$ at those positions.
@@ -1096,7 +1096,7 @@ New strand ($5' \to 3'$): $5'$-CTGACTAGCA-$3'$
 The new strand is synthesised complementary to the template strand. The template strand is read in
 The $3' \to 5'$ direction by DNA polymerase, so:
 
-Template strand ($3' \to 5'$): $3'$-GACTGATCGT-$5'$Which written $5' \to 3'$ is:
+Template strand ($3' \to 5'$): $3'$-GACTGATCGT-$5'$ Which written $5' \to 3'$ is:
 $5'$-TGCTAGTCAG-$3'$
 
 The coding strand (same as new strand, $5' \to 3'$): $5'$-CTGACTAGCA-$3'$
@@ -1482,7 +1482,7 @@ population are: $3200\;\mathrm{bp} = 0.15$$5600\;\mathrm{bp} = 0.08$ And the rem
 collectively have a Combined frequency of $0.77$. (a) Assuming Hardy-Weinberg equilibrium, calculate
 the probability of this Specific genotype in the population. (b) If three independent VNTR loci are
 tested and all match between The suspect and the crime scene sample, and the match probabilities for
-the other two loci are $1/120$ and $1/85$Calculate the combined probability of a random match. (c)
+the other two loci are $1/120$ and $1/85$ Calculate the combined probability of a random match. (c)
 Explain why this Probability does not equal the probability of the suspect's guilt.
 
 </details>

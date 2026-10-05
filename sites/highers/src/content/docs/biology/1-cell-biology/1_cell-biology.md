@@ -55,15 +55,15 @@ Found in animals, plants, fungi, and protists. Key features:
 | Ribosomes                 | 70S              | 80S                                 |
 | Membrane-bound organelles | No               | Yes                                 |
 | Cell wall                 | Peptidoglycan    | Cellulose (plants) / chitin (fungi) |
-| Size                      | 1-10 $\mu$M      | 10-100 $\mu$M                       |
+| Size                      | 1-10 $\mu$ M      | 10-100 $\mu$ M                       |
 
 **Worked Example: Identifying cell types from electron micrographs.**
 
 A student is shown an electron micrograph of a cell. The cell has no nucleus, a cell wall,
-Ribosomes, and a flagellum. The diameter of the cell is approximately 3 $\mu$M.
+Ribosomes, and a flagellum. The diameter of the cell is approximately 3 $\mu$ M.
 
 Since the cell has no membrane-bound nucleus, it is prokaryotic. The presence of a cell wall (ruled
-Out animal cells), small size (3 $\mu$M is typical for prokaryotes), 70S ribosomes, and flagellum
+Out animal cells), small size (3 $\mu$ M is typical for prokaryotes), 70S ribosomes, and flagellum
 All confirm this. The cell wall is made of peptidoglycan, which is characteristic of bacteria (not
 Archaea, which have pseudopeptidoglycan or other cell wall compositions).
 
@@ -311,7 +311,7 @@ Centrifugation:
 
 **Worked Example: Calculating magnification.**
 
-A cell appears 5 mm wide in a micrograph. The actual cell width is 10 $\mu$M.
+A cell appears 5 mm wide in a micrograph. The actual cell width is 10 $\mu$ M.
 
 Magnification = image size / actual size = $5 \mathrm{ mm / 10 \mathrm{ \mu m$.
 

@@ -33,10 +33,10 @@ flowchart TD
 
 **Question:**
 
-A $200$ g block of ice at $-15°$C is heated by a $500$ W heater until it becomes steam at $110°$C.
-The specific heat capacity of ice is $2100 \text{ J kg}^{-1}\text{K}^{-1}$The specific heat capacity
-of water is $4200 \text{ J kg}^{-1}\text{K}^{-1}$The specific heat capacity of steam is
-$2010 \text{ J kg}^{-1}\text{K}^{-1}$The specific latent heat of fusion of ice is
+A $200$ g block of ice at $-15°$ C is heated by a $500$ W heater until it becomes steam at $110°$ C.
+The specific heat capacity of ice is $2100 \text{ J kg}^{-1}\text{K}^{-1}$ The specific heat capacity
+of water is $4200 \text{ J kg}^{-1}\text{K}^{-1}$ The specific heat capacity of steam is
+$2010 \text{ J kg}^{-1}\text{K}^{-1}$ The specific latent heat of fusion of ice is
 $3.34 \times 10^5 \text{ J kg}^{-1}$ And the specific latent heat of vaporisation of water is
 $2.26 \times 10^6 \text{ J kg}^{-1}$. Find (a) the total energy required, and (b) the total time
 taken.
@@ -45,31 +45,31 @@ taken.
 
 **(a) Total energy (five stages):**
 
-**Stage 1: Ice from $-15°$C to $0°$C:**
+**Stage 1: Ice from $-15°$ C to $0°$ C:**
 
 $$
 Q_1 = mc_{\text{ice}}\Delta T = 0.2 \times 2100 \times 15 = 6300 \text{ J}
 $$
 
-**Stage 2: Melting ice at $0°$C:**
+**Stage 2: Melting ice at $0°$ C:**
 
 $$
 Q_2 = mL_f = 0.2 \times 3.34 \times 10^5 = 66800 \text{ J}
 $$
 
-**Stage 3: Water from $0°$C to $100°$C:**
+**Stage 3: Water from $0°$ C to $100°$ C:**
 
 $$
 Q_3 = mc_{\text{water}}\Delta T = 0.2 \times 4200 \times 100 = 84000 \text{ J}
 $$
 
-**Stage 4: Vaporising water at $100°$C:**
+**Stage 4: Vaporising water at $100°$ C:**
 
 $$
 Q_4 = mL_v = 0.2 \times 2.26 \times 10^6 = 452000 \text{ J}
 $$
 
-**Stage 5: Steam from $100°$C to $110°$C:**
+**Stage 5: Steam from $100°$ C to $110°$ C:**
 
 $$
 Q_5 = mc_{\text{steam}}\Delta T = 0.2 \times 2010 \times 10 = 4020 \text{ J}
@@ -88,8 +88,8 @@ t = \frac{Q_{\text{total}}}{P} = \frac{613120}{500} = 1226.2 \text{ s} = 20.4 \t
 $$
 
 **Key insight:** The latent heat of vaporisation ($Q_4 = 452$ kJ) accounts for $73.7\%$ of the total
-energy. The phase change at $100°$C requires far more energy than raising the temperature of water
-by $100°$C ($Q_3 = 84$ kJ). This is the most common energy mistake in these problems.
+energy. The phase change at $100°$ C requires far more energy than raising the temperature of water
+by $100°$ C ($Q_3 = 84$ kJ). This is the most common energy mistake in these problems.
 
 ---
 
@@ -106,9 +106,9 @@ by $100°$C ($Q_3 = 84$ kJ). This is the most common energy mistake in these pro
 
 **Question:**
 
-A gas cylinder contains $8$ g of oxygen ($O_2$Molar mass $= 32$ g mol$^{-1}$) at a pressure of
-$2.5 \times 10^5$ Pa and temperature $27°$C. (a) Calculate the volume of the cylinder. (b) If the
-temperature is raised to $127°$C while the volume is kept constant, what is the new pressure? (c) If
+A gas cylinder contains $8$ g of oxygen ($O_2$ Molar mass $= 32$ g mol$^{-1}$) at a pressure of
+$2.5 \times 10^5$ Pa and temperature $27°$ C. (a) Calculate the volume of the cylinder. (b) If the
+temperature is raised to $127°$ C while the volume is kept constant, what is the new pressure? (c) If
 the gas is then allowed to expand isothermally until the pressure returns to $2.5 \times 10^5$ Pa,
 what is the final volume?
 
@@ -187,7 +187,7 @@ RMS speed of the molecules and the density of the gas.
 
 **(a) Derivation:**
 
-Consider $N$ molecules in a cubical container of side $L$Each of mass $m$.
+Consider $N$ molecules in a cubical container of side $L$ Each of mass $m$.
 
 A single molecule with velocity component $v_x$ in the $x$-direction travels between opposite walls
 in time $\Delta t = 2L / v_x$. Each collision with a wall reverses $v_x$ So the change in momentum
@@ -450,9 +450,9 @@ energy (and thus its temperature). This is why pumping air into a bicycle tyre m
 
 **Question:**
 
-$300$ g of water at $80°$C is mixed with $200$ g of water at $20°$C in an insulated calorimeter of
+$300$ g of water at $80°$ C is mixed with $200$ g of water at $20°$ C in an insulated calorimeter of
 heat capacity $50 \text{ J K}^{-1}$. Find the final equilibrium temperature. Then, a $100$ g
-aluminium block ($c_{\text{Al}} = 900 \text{ J kg}^{-1}\text{K}^{-1}$) at $150°$C is added to the
+aluminium block ($c_{\text{Al}} = 900 \text{ J kg}^{-1}\text{K}^{-1}$) at $150°$ C is added to the
 mixture. Find the new equilibrium temperature.
 
 **Solution:**

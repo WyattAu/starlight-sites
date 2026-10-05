@@ -116,7 +116,7 @@ The shared state transitions through these phases:
 ## Limitations: No Composability
 
 The primary limitation of `std::future` is **lack of composability** [N4950 §33.6.4]. Unlike
-JavaScript `Promise.then()` or Rust"s `Future`C++ `std::future`:
+JavaScript `Promise.then()` or Rust's `Future`C++ `std::future`:
 
 - Has no `.then()` method for chaining.
 - Cannot be combined with `when_all` or `when_any` from the standard library.

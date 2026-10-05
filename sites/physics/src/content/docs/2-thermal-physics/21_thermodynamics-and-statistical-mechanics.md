@@ -70,7 +70,7 @@ Body without external work.
 
 **Second Law (Kelvin-Planck Statement):** No cyclic process can convert heat entirely into work.
 
-**Theorem 1.1 (Carnot"s Theorem).** No engine operating between two heat reservoirs is more
+**Theorem 1.1 (Carnot's Theorem).** No engine operating between two heat reservoirs is more
 Efficient than a Carnot engine. All reversible engines operating between the same two reservoirs
 Have the same efficiency.
 
@@ -119,7 +119,7 @@ With equality for reversible processes. $\blacksquare$
 
 ### 1.5 Third Law
 
-**Third Law (Nernst Heat Theorem):** As $T \to 0$The entropy of a perfect crystal approaches zero:
+**Third Law (Nernst Heat Theorem):** As $T \to 0$ The entropy of a perfect crystal approaches zero:
 
 $$
 \lim_{T \to 0} S(T) = 0
@@ -181,7 +181,7 @@ $$
 
 $\blacksquare$
 
-Since $\kappa_T \gt 0$ for stable systems and $\alpha^2 \geq 0$We always have $C_P \geq C_V$.
+Since $\kappa_T \gt 0$ for stable systems and $\alpha^2 \geq 0$ We always have $C_P \geq C_V$.
 
 **Theorem 1.3 (Adiabatic index).** The ratio $\gamma = C_P/C_V$ satisfies:
 
@@ -213,7 +213,7 @@ gives $\gamma = \kappa_T/\kappa_S$. $\blacksquare$
 **Theorem 1.4 (Statistical basis of the second law).** For an isolated system, the entropy
 $S = k_B \ln \Omega$ can only increase or remain constant.
 
-**Proof.** Consider an isolated system with fixed energy $E$Volume $V$ And particle number $N$. The
+**Proof.** Consider an isolated system with fixed energy $E$ Volume $V$ And particle number $N$. The
 system evolves through accessible microstates. If the system starts in a non-equilibrium Macrostate
 $A$ with $\Omega_A$ microstates and evolves to macrostate $B$ with $\Omega_B$ microstates, The
 evolution is driven by the ergodic exploration of phase space.
@@ -250,7 +250,7 @@ Equipartition.
 ### 2.1 The Four Potentials
 
 The internal energy $U$ is the fundamental thermodynamic potential. By performing Legendre
-Transformations on $U(S, V, N)$We obtain the other potentials:
+Transformations on $U(S, V, N)$ We obtain the other potentials:
 
 | Potential             | Symbol | Natural Variables | Differential                    |
 | --------------------- | ------ | ----------------- | ------------------------------- |
@@ -348,7 +348,7 @@ $$
 
 So $V_A/V_B = N_A/N_B = 2$. With $V_A + V_B = 4$ L: $V_A = 8/3$ L, $V_B = 4/3$ L.
 
-This is just mechanical equilibrium: $P_A = P_B$I.e., $N_A k_B T/V_A = N_B k_B T/V_B$.
+This is just mechanical equilibrium: $P_A = P_B$ I.e., $N_A k_B T/V_A = N_B k_B T/V_B$.
 
 </details>
 
@@ -468,7 +468,7 @@ $$
 \left(\frac{\partial S}{\partial P}\right)_T = -\frac{Nk_B}{P}
 $$
 
-So $\Delta S = -Nk_B \ln(P_f/P_i) = Nk_B \ln(V_f/V_i)$Consistent.
+So $\Delta S = -Nk_B \ln(P_f/P_i) = Nk_B \ln(V_f/V_i)$ Consistent.
 
 **Application: internal energy of an ideal gas.** Using
 $(\partial U/\partial V)_T = T(\partial P/\partial T)_V - P$ (a Maxwell relation consequence from
@@ -501,7 +501,7 @@ $$
 \Delta U = -\frac{an^2}{V_f} + \frac{an^2}{V_i}
 $$
 
-For a free expansion ($W = 0$, $\delta Q = 0$Hence $\Delta U = 0$ for ideal gas), the van der Waals
+For a free expansion ($W = 0$, $\delta Q = 0$ Hence $\Delta U = 0$ for ideal gas), the van der Waals
 Gas heats up because the internal energy depends on volume through the $a/v^2$ term representing
 Intermolecular attraction. The temperature change is:
 
@@ -718,7 +718,7 @@ Latent heat $L = T \Delta S$.
 (e.g., $C_P$, $\kappa_T$, $\alpha$) diverge or are discontinuous.
 
 **Ehrenfest classification:** An $n$-th order transition has discontinuities in the $n$-th
-Derivatives of $G$With all lower derivatives continuous.
+Derivatives of $G$ With all lower derivatives continuous.
 
 ### 6.2 The Clausius-Clapeyron Equation
 
@@ -1014,7 +1014,7 @@ The factor $1/N!$ corrects for overcounting (Gibbs paradox).
 
 **Proof (Gibbs paradox).** Without the $1/N!$ factor, the entropy $S = Nk_B \ln z + U/T$ is not
 Extensive: mixing two identical gases gives $S_{\mathrm{mix} = 2S + Nk_B \ln 2 \neq 2S}$. With
-$1/N!$Using Stirling's approximation:
+$1/N!$ Using Stirling's approximation:
 
 $$
 F = -Nk_B T \ln\left(\frac{z}{N}\right) - Nk_B T
@@ -1093,7 +1093,7 @@ Where $n = N/V$ is the number density.
 **Proof.** A molecule of diameter $d$ sweeps out a cylinder of cross-section $\sigma = \pi d^2$ (per
 collision cross-section for identical particles, the effective cross-section is
 $\pi(2d/2)^2 = \pi d^2$ But the relative velocity correction introduces the factor $\sqrt{2}$). In
-time $\Delta t$The molecule travels $v\,\Delta t$ and sweeps volume $\sigma v\,\Delta t$. The Number
+time $\Delta t$ The molecule travels $v\,\Delta t$ and sweeps volume $\sigma v\,\Delta t$. The Number
 of collisions is $n\sigma v\,\Delta t$ So the mean free path is:
 
 $$
@@ -1313,7 +1313,7 @@ $$
 
 Where $n = N/V$ is the particle density and $\zeta(3/2) \approx 2.612$.
 
-Below $T_c$The chemical potential is essentially zero ($\mu \approx 0$), and a macroscopic Fraction
+Below $T_c$ The chemical potential is essentially zero ($\mu \approx 0$), and a macroscopic Fraction
 of particles condense into the ground state:
 
 $$
@@ -1326,7 +1326,7 @@ $$
 N_{\mathrm{ex} = \int_0^{\infty} \frac{g(\varepsilon)\,d\varepsilon}{e^{\beta\varepsilon} - 1} = V\left(\frac{mk_B T}{2\pi\hbar^2}\right)^{3/2} \zeta(3/2)}
 $$
 
-This has a maximum value at $\mu = 0$. When $N \gt N_{\mathrm{ex}^{\mathrm{max}}}$The excess
+This has a maximum value at $\mu = 0$. When $N \gt N_{\mathrm{ex}^{\mathrm{max}}}$ The excess
 Particles must go to the ground state. Setting $N = N_{\mathrm{ex}^{\mathrm{max}}}$ at $T = T_c$
 Gives the critical temperature above. $\blacksquare$
 
@@ -1336,7 +1336,7 @@ $$
 f_{\mathrm{MB} = e^{-\beta(\varepsilon - \mu)}, \quad f_{\mathrm{FD} = \frac{1}{e^{\beta(\varepsilon - \mu)} + 1}, \quad f_{\mathrm{BE} = \frac{1}{e^{\beta(\varepsilon - \mu)} - 1}}}}
 $$
 
-In the classical (dilute) limit $e^{\beta(\varepsilon - \mu)} \gg 1$All three reduce to the
+In the classical (dilute) limit $e^{\beta(\varepsilon - \mu)} \gg 1$ All three reduce to the
 Maxwell-Boltzmann distribution. This occurs when $n \ll n_Q$ (dilute gas) or $T \gg T_F$ for
 Fermions.
 
@@ -1359,7 +1359,7 @@ $$
 C_V \approx \frac{\pi^2}{2}Nk_B\frac{T}{T_F}
 $$
 
-This is much smaller than the classical prediction $C_V = \frac{3}{2}Nk_B$Explaining why electrons
+This is much smaller than the classical prediction $C_V = \frac{3}{2}Nk_B$ Explaining why electrons
 Contribute negligibly to the heat capacity of metals at room temperature.
 
 ## 11. Grand Canonical Ensemble
@@ -1405,7 +1405,7 @@ $$
 $$
 
 Where $\kappa_T = -\frac{1}{V}(\partial V/\partial P)_T$ is the isothermal compressibility. For an
-Ideal gas, this gives $\langle N^2 \rangle - \langle N \rangle^2 = \langle N \rangle$Consistent With
+Ideal gas, this gives $\langle N^2 \rangle - \langle N \rangle^2 = \langle N \rangle$ Consistent With
 Poisson .../4-statistics-and-probability/2_statistics.
 
 ## 12. Fluctuation-Dissipation Theorem
@@ -1601,7 +1601,7 @@ $$
 \frac{d}{dx}\left(\frac{x^5}{e^x - 1}\right) = 0 \implies 5(e^x - 1) - xe^x = 0
 $$
 
-This transcendental equation has the solution $x \approx 4.965$Giving
+This transcendental equation has the solution $x \approx 4.965$ Giving
 $\lambda_{\mathrm{max} T
 = hc/(4.965\,k_B) = b}$. $\blacksquare$
 
@@ -1685,7 +1685,7 @@ $$
 m = \tanh\left[\beta(Jzm + h)\right]
 $$
 
-For $h = 0$A non-zero solution exists when $T \lt T_c = Jz/k_B$.
+For $h = 0$ A non-zero solution exists when $T \lt T_c = Jz/k_B$.
 
 The critical exponents in mean-field theory: $\beta = 1/2$, $\gamma = 1$, $\delta = 3$.
 
@@ -1741,7 +1741,7 @@ $$
 These are verified experimentally and by renormalisation group calculations.
 
 :::caution
-Critical exponents. In 1D, it predicts a phase transition at $T_c = Jz/k_B$Whereas the exact
+Critical exponents. In 1D, it predicts a phase transition at $T_c = Jz/k_B$ Whereas the exact
 Solution shows no transition at $T \gt 0$. Mean-field theory is only reliable in high dimensions
 (where fluctuations are small) or for long-range interactions.
 :::
@@ -1750,7 +1750,7 @@ Solution shows no transition at $T \gt 0$. Mean-field theory is only reliable in
 
 ### 15.1 Definition and Fundamental Postulate
 
-The **microcanonical ensemble** describes an isolated system with fixed energy $E$Volume $V$ And
+The **microcanonical ensemble** describes an isolated system with fixed energy $E$ Volume $V$ And
 Particle number $N$. The fundamental postulate of statistical mechanics states:
 
 > All accessible microstates of an isolated system are equally probable.
@@ -1816,7 +1816,7 @@ The $\mathcal{O}(\ln N)$ terms (from the shell thickness) are negligible compare
 $\mathcal{O}(N)$ Terms in the thermodynamic limit. $\blacksquare$
 
 This is the **Sackur-Tetrode equation**, which gives the absolute entropy of a monatomic ideal gas.
-It satisfies the third law in the sense that $S \to -\infty$ as $T \to 0$Indicating the Breakdown of
+It satisfies the third law in the sense that $S \to -\infty$ as $T \to 0$ Indicating the Breakdown of
 the classical description at low temperatures.
 
 ### 15.4 Derivation of the Canonical Ensemble from the Microcanonical Ensemble
@@ -1849,7 +1849,7 @@ Normalising gives the Boltzmann distribution $P_i = e^{-\beta E_i}/Z$. $\blacksq
 <details>
 <summary>Solution: Worked Example, Entropy of Mixing Revisited</summary>
 
-Two ideal gases, each with $N$ particles at the same $T$ and $P$Are separated by a partition. The
+Two ideal gases, each with $N$ particles at the same $T$ and $P$ Are separated by a partition. The
 partition is removed. Find $\Delta S$.
 
 Before mixing: each gas occupies volume $V$. The total entropy is $S_i = 2 \times S(N, V, T)$.
@@ -1961,7 +1961,7 @@ $$
 
 This does not violate the second law. The second law states $\Delta S_{\mathrm{universe} \geq 0}$.
 For the system, $\Delta S = R\ln 2 \gt 0$. For the surroundings, $\Delta S_{\mathrm{surr} = 0}$ (no
-heat exchanged). So $\Delta S_{\mathrm{universe} = R\ln 2 \gt 0}$Consistent with an Irreversible
+heat exchanged). So $\Delta S_{\mathrm{universe} = R\ln 2 \gt 0}$ Consistent with an Irreversible
 process.
 
 **If you get this wrong, revise:** Section 1.4 (Clausius inequality) and Section 9.2 (ideal gas
@@ -2254,7 +2254,7 @@ Distribution).
 <details>
 <summary>Problem 12: Clausius-Clapeyron application</summary>
 
-**Problem.** The vapour pressure of benzene is 75 mmHg at $20\degree$C and 300 mmHg at $50\degree$C.
+**Problem.** The vapour pressure of benzene is 75 mmHg at $20\degree$ C and 300 mmHg at $50\degree$ C.
 Estimate the enthalpy of vaporisation and the normal boiling point.
 
 **Solution.** From the integrated Clausius-Clapeyron equation:
@@ -2293,7 +2293,7 @@ $$
 T_b \approx 354\ \mathrm{K} \approx 81\degree\mathrm{C}
 $$
 
-(Experimental value: $80.1\degree$C, showing good agreement.)
+(Experimental value: $80.1\degree$ C, showing good agreement.)
 
 **If you get this wrong, revise:** Section 6.2 (Clausius-Clapeyron equation) and Section 6.4 (worked
 examples).
@@ -2345,7 +2345,7 @@ Section 11 (grand canonical ensemble).
 <details>
 <summary>Problem 14: Ising model mean-field critical temperature</summary>
 
-**Problem.** For a 2D square lattice Ising model with coupling $J \gt 0$ and $h = 0$Use mean-field
+**Problem.** For a 2D square lattice Ising model with coupling $J \gt 0$ and $h = 0$ Use mean-field
 Theory to find $T_c$. The exact result (Onsager, 1944) is
 $T_c^{\mathrm{exact} = 2J/(k_B\ln(1 +
 \sqrt{2}))}$. Compare.
@@ -2466,7 +2466,7 @@ $$
 \frac{\sqrt{\langle N^2 \rangle - \langle N \rangle^2}}{\langle N \rangle} = \frac{1}{\sqrt{\langle N \rangle}}
 $$
 
-For $\langle N \rangle = 10^{23}$: relative fluctuations are $\sim 10^{-11.5}$Completely negligible
+For $\langle N \rangle = 10^{23}$: relative fluctuations are $\sim 10^{-11.5}$ Completely negligible
 - the grand canonical and canonical ensembles are equivalent for macroscopic systems.
 
 **If you get this wrong, revise:** Section 11.3 (grand canonical fluctuations) and Section 12
@@ -2600,7 +2600,7 @@ $$
 Where $f_0$ is the equilibrium (Maxwell--Boltzmann) distribution and $\tau$ is the relaxation time.
 
 The **$H$-theorem:** Define $H = \int f\ln f\, d^3v$. The Boltzmann equation implies
-$dH/dt \leq 0$With equality only at equilibrium. This is the microscopic basis of the second law.
+$dH/dt \leq 0$ With equality only at equilibrium. This is the microscopic basis of the second law.
 
 ### 13.4 Fick's Law and Diffusion
 
@@ -2631,8 +2631,8 @@ $$
 Where $D_T$ is the thermal diffusion coefficient. The **Soret coefficient** $S_T = D_T/D$
 characterises the strength of the effect.
 
-For a $50$--$50$ mixture of $^3$He--$^4$He below 2 K, $S_T$ is large and positive: $^3$He migrates
-toward the warm end. This is exploited in $^3$He--$^4$He dilution refrigerators, the workhorses of
+For a $50$--$50$ mixture of $^3$ He--$^4$ He below 2 K, $S_T$ is large and positive: $^3$ He migrates
+toward the warm end. This is exploited in $^3$ He--$^4$ He dilution refrigerators, the workhorses of
 millikelvin physics.
 
 The steady-state concentration gradient is:
@@ -2828,7 +2828,7 @@ physics.
    estimates but fails for quantitatively accurate transport predictions.
 
 3. **Effusion vs. Hydrodynamic flow:** Effusion (molecular flow through a small hole) occurs when
-   the hole diameter is much smaller than the mean free path ($d \ll \ell$Knudsen number $\gg 1$).
+   the hole diameter is much smaller than the mean free path ($d \ll \ell$ Knudsen number $\gg 1$).
    For larger holes ($d \gg \ell$), hydrodynamic flow (described by the Navier--Stokes equations)
    dominates. The transition between regimes is important in vacuum systems.
 
@@ -3039,7 +3039,7 @@ $$
 **Mean-field exponents:** $\alpha = 0$ (jump in $C$), $\beta = 1/2$, $\gamma = 1$, $\delta = 3$,
 $\eta = 0$.
 
-These are exact above the upper critical dimension $d_u = 4$. Below $d_u$Fluctuations modify the
+These are exact above the upper critical dimension $d_u = 4$. Below $d_u$ Fluctuations modify the
 exponents (as computed by the epsilon expansion).
 
 **Ginzburg criterion:** Mean-field theory is valid when the fluctuation contribution to the free
@@ -3073,7 +3073,7 @@ This means $r_0$ grows under RG, flowing away from the Gaussian fixed point ($r_
 point is unstable, indicating that the disordered phase ($r_0 > 0$, $\phi = 0$ is stable) is
 separated from the ordered phase by the critical point.
 
-The correlation length exponent: $\xi \propto r_0^{-1/2}$Giving $\nu = 1/2$ (the mean-field value).
+The correlation length exponent: $\xi \propto r_0^{-1/2}$ Giving $\nu = 1/2$ (the mean-field value).
 
 </details>
 

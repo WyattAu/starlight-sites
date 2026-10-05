@@ -91,14 +91,14 @@ Discussing any normal form, you must understand FDs thoroughly.
 ### Formal Definition
 
 **Definition.** Given a relation schema $R$ and two attribute sets $X \subseteq R$ and
-$Y \subseteq R$A functional dependency $X \rightarrow Y$ holds on $R$ if and only if, for every Pair
+$Y \subseteq R$ A functional dependency $X \rightarrow Y$ holds on $R$ if and only if, for every Pair
 of tuples $t_1$ and $t_2$ in any legal instance of $R$:
 
 $$
 t_1[X] = t_2[X] \implies t_1[Y] = t_2[Y]
 $$
 
-In plain language: if two tuples agree on all attributes in $X$They must also agree on all
+In plain language: if two tuples agree on all attributes in $X$ They must also agree on all
 Attributes in $Y$. $X$ is called the **determinant** and $Y$ is called the **dependent**.
 
 ### Trivial vs Non-trivial Dependencies
@@ -143,7 +143,7 @@ Transitive dependency: product_id -> category_id -> category_name
 Armstrong's axioms are a sound and complete set of inference rules for deriving all functional
 Dependencies that are logically implied by a given set $F$.
 
-**Definition.** Given a set of functional dependencies $F$ on a relation schema $R$The three Axioms
+**Definition.** Given a set of functional dependencies $F$ on a relation schema $R$ The three Axioms
 are:
 
 1. **Reflexivity (A1):** If $Y \subseteq X$ Then $X \rightarrow Y$.
@@ -181,7 +181,7 @@ $$
 ### Attribute Closure
 
 **Definition.** The **closure** of an attribute set $X$ under a set of functional dependencies $F$
-Denoted $X^+$Is the largest attribute set such that $X \rightarrow X^+$ can be derived from $F$
+Denoted $X^+$ Is the largest attribute set such that $X \rightarrow X^+$ can be derived from $F$
 Using Armstrong's axioms.
 
 Algorithm to compute $X^+$:
@@ -199,7 +199,7 @@ function attributeClosure(X, F):
 **Key property:** $X \rightarrow Y$ is logically implied by $F$ if and only if $Y \subseteq X^+$.
 
 This algorithm is used for two critical tasks: determining whether an attribute set is a superkey
-($X^+ = R$I.e., the closure equals the entire relation schema), and determining whether a specific
+($X^+ = R$ I.e., the closure equals the entire relation schema), and determining whether a specific
 FD $X \rightarrow Y$ is implied by $F$ (check whether $Y \subseteq X^+$).
 
 ```text
@@ -224,7 +224,7 @@ Compute AC⁺:
 
 ### Closure of a Set of FDs
 
-**Definition.** The closure of a set of functional dependencies $F$Denoted $F^+$Is the set of All
+**Definition.** The closure of a set of functional dependencies $F$ Denoted $F^+$ Is the set of All
 FDs that can be derived from $F$ using Armstrong's axioms.
 
 $F^+$ can be exponentially large (up to $2^{2^n}$ FDs for $n$ attributes), so you never compute it
@@ -555,11 +555,11 @@ Logic, triggers, or CHECK constraints.
 Multivalued dependency $X \twoheadrightarrow Y$ that holds in $R$, $X$ is a superkey of $R$.
 
 **Definition.** A multivalued dependency (MVD) $X \twoheadrightarrow Y$ holds in $R$ if and only if,
-For every pair of tuples $t_1$ and $t_2$ in $R$ that agree on $X$There exists a tuple $t_3$ in $R$
-That agrees with $t_1$ on $X$With $t_1$ on $Y$ And with $t_2$ on $R - X - Y$.
+For every pair of tuples $t_1$ and $t_2$ in $R$ that agree on $X$ There exists a tuple $t_3$ in $R$
+That agrees with $t_1$ on $X$ With $t_1$ on $Y$ And with $t_2$ on $R - X - Y$.
 
 A multivalued dependency $X \twoheadrightarrow Y$ means that the values of $Y$ are independent of
-The values of $R - X - Y$Given a fixed value of $X$. Every FD $X \rightarrow Y$ implies the MVD
+The values of $R - X - Y$ Given a fixed value of $X$. Every FD $X \rightarrow Y$ implies the MVD
 $X \twoheadrightarrow Y$ But not every MVD implies an FD.
 
 ```text
@@ -600,7 +600,7 @@ another), you likely have a 4NF violation.
 ### Fifth Normal Form (5NF) / Project-Join Normal Form (PJNF)
 
 **Definition.** A relation $R$ is in fifth normal form (5NF) if and only if, for every non-trivial
-Join dependency $JD(R_1, R_2, \ldots, R_n)$ that holds in $R$Each $R_i$ is a superkey of $R$.
+Join dependency $JD(R_1, R_2, \ldots, R_n)$ that holds in $R$ Each $R_i$ is a superkey of $R$.
 
 A join dependency generalizes the concept of lossless-join decomposition to $n$ relations. A
 Relation $R$ satisfies a join dependency $JD(R_1, R_2, \ldots, R_n)$ if and only if $R$ is equal to
@@ -928,10 +928,10 @@ This is the central practical tension in normalization theory:
 | Dependency-preserving | Always achievable | NOT always achievable |
 | Redundancy            | Possible (minor)  | None                  |
 
-**Theorem.** For every relation $R$ with a set of FDs $F$There exists a decomposition of $R$ into
+**Theorem.** For every relation $R$ with a set of FDs $F$ There exists a decomposition of $R$ into
 3NF that is both lossless and dependency-preserving.
 
-**Theorem.** For every relation $R$ with a set of FDs $F$There exists a decomposition of $R$ into
+**Theorem.** For every relation $R$ with a set of FDs $F$ There exists a decomposition of $R$ into
 BCNF that is lossless, but such a decomposition may NOT be dependency-preserving.
 
 ```text
@@ -1748,7 +1748,7 @@ Shared Data Banks." The model provides a mathematically rigorous foundation for 
 Based on set theory and first-order predicate logic. Every SQL database is an approximation of this
 Model -- and understanding where SQL deviates from the theory helps you write correct queries.
 
-### Codd"s 12 Rules (and Rule 0)
+### Codd's 12 Rules (and Rule 0)
 
 Codd defined 13 rules (numbered 0 through 12) that a system must satisfy to be considered truly
 Relational. No commercial database fully satisfies all 13, but they serve as the theoretical
@@ -2000,7 +2000,7 @@ SELECT name FROM suppliers;
 
 ### Rename (rho)
 
-The rename operation, denoted $\rho_{\mathrm{new\_name}(R)$Gives a relation or its attributes new
+The rename operation, denoted $\rho_{\mathrm{new\_name}(R)$ Gives a relation or its attributes new
 Names. In SQL, this is `AS`:
 
 ```sql
@@ -2011,8 +2011,8 @@ JOIN Employee M ON E.manager_id = M.emp_id;
 
 ## Functional Dependencies
 
-A functional dependency (FD) is a constraint of the form $X \rightarrow Y$Meaning "for any two
-Tuples, if they agree on all attributes in $X$They must also agree on all attributes in $Y$." $X$ Is
+A functional dependency (FD) is a constraint of the form $X \rightarrow Y$ Meaning "for any two
+Tuples, if they agree on all attributes in $X$ They must also agree on all attributes in $Y$." $X$ Is
 called the determinant.
 
 Formally:
@@ -2053,8 +2053,8 @@ Derived rules (provable from the three axioms above):
 
 ### Attribute Closure
 
-To determine if $X \rightarrow Y$ holds given a set of FDs $F$Compute the **closure of $X$** under
-$F$Denoted $X^+$:
+To determine if $X \rightarrow Y$ holds given a set of FDs $F$ Compute the **closure of $X$** under
+$F$ Denoted $X^+$:
 
 1. Start with $X^+ = X$
 2. Repeatedly apply Armstrong's axioms to add attributes to $X^+$
@@ -2084,9 +2084,9 @@ A minimal cover $F_{\min}$ of a set of FDs $F$ satisfies:
 Algorithm:
 
 1. Split right sides: replace $X \rightarrow YZ$ with $X \rightarrow Y$ and $X \rightarrow Z$
-2. Remove redundant FDs: for each FD $f \in F$Check if $(F - \{f\})^+ = F^+$. If yes, remove $f$.
+2. Remove redundant FDs: for each FD $f \in F$ Check if $(F - \{f\})^+ = F^+$. If yes, remove $f$.
 3. Remove redundant attributes from left sides: for each FD $X \rightarrow Y$ and each attribute
-   $A \in X$Check if $(X - \{A\})^+ \supseteq Y$. If yes, remove $A$ from $X$.
+   $A \in X$ Check if $(X - \{A\})^+ \supseteq Y$. If yes, remove $A$ from $X$.
 
 ## Normalisation
 
@@ -2198,7 +2198,7 @@ The practical compromise.
 ### Fourth Normal Form (4NF)
 
 A relation is in 4NF if it is in BCNF and contains no non-trivial multivalued dependencies. A
-Multivalued dependency $X \twoheadrightarrow Y$ means: for each value of $X$The set of $Y$ values Is
+Multivalued dependency $X \twoheadrightarrow Y$ means: for each value of $X$ The set of $Y$ values Is
 independent of the set of $Z$ values (where $Z = R - X - Y$).
 
 ```text
@@ -7779,7 +7779,7 @@ Matching that condition and commits. When T1 re-executes the query, it sees a ne
 | REPEATABLE READ  | Prevented  | Prevented           | Possible\*   | Row-level locks held until end of transaction |
 | SERIALIZABLE     | Prevented  | Prevented           | Prevented    | Range locks or snapshot isolation             |
 
-\*PostgreSQL"s REPEATABLE READ actually prevents phantom reads through its snapshot-based
+\*PostgreSQL's REPEATABLE READ actually prevents phantom reads through its snapshot-based
 Implementation, exceeding the SQL standard's requirement.
 
 ### READ UNCOMMITTED
@@ -14816,7 +14816,7 @@ Write throughput.
 
 | Topic                   | Focus                                                         |
 | ----------------------- | ------------------------------------------------------------- |
-| Relational Theory       | Codd"s model, normalisation, functional dependencies, keys    |
+| Relational Theory       | Codd's model, normalisation, functional dependencies, keys    |
 | SQL Fundamentals        | DDL, DML, joins, subqueries, window functions, CTEs           |
 | Indexing & Optimisation | B-trees, covering indexes, query plans, EXPLAIN               |
 | Transactions            | ACID, isolation levels, locking, MVCC, deadlocks              |

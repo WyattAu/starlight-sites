@@ -103,7 +103,7 @@ Or **Defect** (betray the other). The payoff matrix (years in prison, so lower i
   Defect is A's dominant strategy.
 - For B: by symmetric reasoning, defect is B's dominant strategy.
 - The Nash equilibrium is (Defect, Defect) with payoffs $(5, 5)$.
-- The socially optimal outcome is (Cooperate, Cooperate) with payoffs $(1, 1)$Which is Pareto
+- The socially optimal outcome is (Cooperate, Cooperate) with payoffs $(1, 1)$ Which is Pareto
   superior.
 
 ### The Core Insight
@@ -1140,10 +1140,10 @@ For the **strong** incumbent: if the entrant enters, compare Accommodate (5) vs.
 Strong incumbent fights (payoff $3 > 5$ is false; actually $3 < 5$ So the strong incumbent
 Accommodates). Wait -- let me re-examine. With payoffs as stated:
 
-For the **strong** incumbent: Accommodate $= 5$Fight $= 3$. Since $5 > 3$The strong Incumbent
+For the **strong** incumbent: Accommodate $= 5$ Fight $= 3$. Since $5 > 3$ The strong Incumbent
 accommodates.
 
-For the **weak** incumbent: Accommodate $= 5$Fight $= -3$. Since $5 > -3$The weak incumbent also
+For the **weak** incumbent: Accommodate $= 5$ Fight $= -3$. Since $5 > -3$ The weak incumbent also
 Accommodates.
 
 In this case, the entrant knows the incumbent will always accommodate, so the entrant always Enters.
@@ -1158,10 +1158,10 @@ information game:
 | Entrant enters, Incumbent accommodates | (3, 5)           | (3, 5)         |
 | Entrant enters, Incumbent fights       | (-2, 6)          | (-2, -3)       |
 
-For the **strong** incumbent: Accommodate $= 5$Fight $= 6$. Since $6 > 5$The strong incumbent
+For the **strong** incumbent: Accommodate $= 5$ Fight $= 6$. Since $6 > 5$ The strong incumbent
 Fights.
 
-For the **weak** incumbent: Accommodate $= 5$Fight $= -3$. Since $5 > -3$The weak incumbent
+For the **weak** incumbent: Accommodate $= 5$ Fight $= -3$. Since $5 > -3$ The weak incumbent
 Accommodates.
 
 The entrant's expected payoff from entering:
@@ -1267,7 +1267,7 @@ achieve a desired outcome, anticipating how rational agents will respond.
 <summary>Problem 11: Bayesian Nash Equilibrium</summary>
 
 Two firms are bidding for a government contract. Firm 1's cost of completing the project is Either
-$c_L = 10$ or $c_H = 20$Each with probability 0.5. Firm 2's cost is always $c_2 = 15$. Firm 1 knows
+$c_L = 10$ or $c_H = 20$ Each with probability 0.5. Firm 2's cost is always $c_2 = 15$. Firm 1 knows
 its own cost but Firm 2 only knows the probability distribution.
 
 The government uses a first-price sealed-bid auction. The firm with the lowest bid wins and is Paid
@@ -1277,7 +1277,7 @@ its bid.
 
 (b) What is Firm 2's equilibrium bid?
 
-(a) Firm 1's strategy: if its cost is $c_L = 10$It bids $b_L$; if its cost is $c_H = 20$It bids
+(a) Firm 1's strategy: if its cost is $c_L = 10$ It bids $b_L$; if its cost is $c_H = 20$ It bids
 $b_H$.
 
 In a first-price auction with independent private values, the equilibrium bid for a player with Cost
@@ -1381,7 +1381,7 @@ The student's reference point is a score of 60.
 
 (a) Calculate the expected value of each strategy.
 
-(b) Using prospect theory (loss aversion coefficient $\lambda = 2$Probability weighting function
+(b) Using prospect theory (loss aversion coefficient $\lambda = 2$ Probability weighting function
 $\pi(p) = p^{0.65}$), calculate the prospect theory value of each strategy.
 
 (c) Which strategy does prospect theory predict the student will choose?
@@ -1657,7 +1657,7 @@ Equilibrium is (Low Price, Low Price) with payoffs (3, 3).
 
 Grim trigger condition: $\delta \geq (t - g)/(t - p) = (15 - 10)/(15 - 3) = 5/12 = 0.417$
 
-Since $\delta = 0.8 > 0.417$Cooperation is sustainable. The present value of cooperation:
+Since $\delta = 0.8 > 0.417$ Cooperation is sustainable. The present value of cooperation:
 $10 + 10(0.8) + 10(0.8)^2 + \cdots = 10/(1 - 0.8) = 50$.
 
 The present value of defection:
@@ -1669,7 +1669,7 @@ $50 > 27$: cooperation yields higher lifetime profits.
 
 $\delta \geq 1/n = 1/3 = 0.333$
 
-Since $\delta = 0.8 > 0.333$Cooperation is still sustainable in theory. However, with more Firms,
+Since $\delta = 0.8 > 0.333$ Cooperation is still sustainable in theory. However, with more Firms,
 the incentive to defect increases because each firm's share of the cooperative payoff Decreases, and
 monitoring becomes harder. The probability of accidental defection or deviation Rises with the
 number of firms.
@@ -1688,7 +1688,7 @@ marks]
 revenue is the same as the first-price auction. [5 marks]
 
 (a) In a first-price sealed-bid auction with two bidders and valuations uniformly distributed on
-$[0, V]$The symmetric equilibrium bidding strategy is:
+$[0, V]$ The symmetric equilibrium bidding strategy is:
 
 $$
 b(v) = \frac{n-1}{n} \cdot v = \frac{1}{2} v
@@ -2004,7 +2004,7 @@ Check: $f_H = (2/3)(-1) + (1/3)(4) = -2/3 + 4/3 = 2/3$
 
 $f_D = (2/3)(0) + (1/3)(2) = 2/3$
 
-Now the payoffs are equal at $2/3$. The correct ESS is $p^* = V/C$Not $V/(V+C)$.
+Now the payoffs are equal at $2/3$. The correct ESS is $p^* = V/C$ Not $V/(V+C)$.
 
 (The formula $V/(V+C)$ applies to a different normalisation of the game. With the standard Payoffs
 above, the correct ESS is $p^* = V/C$.)
@@ -2113,7 +2113,7 @@ intended use, treating money differently depending on the account.
 A worker earns USD 50,000 per year and can save either USD 5,000 or USD 2,000 per year for
 Retirement. At age 25, the worker plans to save USD 5,000 per year for 40 years.
 
-With $\beta = 0.7$ and $\delta = 0.95$The present bias makes the worker save only USD 2,000 per
+With $\beta = 0.7$ and $\delta = 0.95$ The present bias makes the worker save only USD 2,000 per
 year.
 
 (a) Calculate the retirement savings at age 65 under both plans, assuming a 5% annual return. [4
@@ -2171,7 +2171,7 @@ Defect (continue business as usual). The payoff matrix (welfare in USD billion) 
 
 (a) Find the Nash equilibrium of the one-shot game. [2 marks]
 
-(b) If the game is repeated indefinitely with discount factor $\delta$Find the minimum $\delta$ for
+(b) If the game is repeated indefinitely with discount factor $\delta$ Find the minimum $\delta$ for
 cooperation under grim trigger. [4 marks]
 
 (c) Explain how evolutionary game theory predicts the outcome in a population of countries where
@@ -2235,7 +2235,7 @@ $\max_w (100 - w - 70)(w - 0) = (30 - w)w$
 
 FOC: $30 - 2w = 0 \implies w = 15$.
 
-The Nash solution gives $w = 15$With the firm earning profit $= 85$ and the union receiving
+The Nash solution gives $w = 15$ With the firm earning profit $= 85$ and the union receiving
 $u = 15$.
 
 **Alternative threat point:** if the union can strike and reduce the firm's profit to 20 During the
@@ -2582,7 +2582,7 @@ threshold (the "aspiration level"), rather than searching for the optimal option
 1. Define an aspiration level $A$
 2. Search options sequentially
 3. Accept the first option with value $v \geq A$
-4. If no option meets $A$Adjust $A$ downward (reduce aspirations)
+4. If no option meets $A$ Adjust $A$ downward (reduce aspirations)
 
 **Contrast with optimisation:**
 
@@ -2629,7 +2629,7 @@ with $U \geq 5$.
 If the consumer evaluates plans in random order, the average number of plans evaluated Before
 finding one with $U \geq 5$ depends on the distribution of $U$ across plans.
 
-If 30% of plans have $U \geq 5$The expected number of evaluations before acceptance is
+If 30% of plans have $U \geq 5$ The expected number of evaluations before acceptance is
 $1/0.30 = 3.3$ plans. The satisficer evaluates 3.3 plans on average, compared to 100 for The
 optimiser.
 
@@ -2655,7 +2655,7 @@ Daniel Kahneman (2011) distinguished two modes of thinking:
 - Analytical, effortful, logical
 - Requires attention and cognitive resources
 - Can override System 1 but is lazy (minimises effort)
-- Example: solving $17 \times 24$Comparing investment options
+- Example: solving $17 \times 24$ Comparing investment options
 
 **Economic implications:**
 

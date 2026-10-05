@@ -39,7 +39,7 @@ $\Delta S = k_B \ln(\Omega_f / \Omega_i)$.
 ### 2.2 The Boltzmann Distribution
 
 **Theorem 2.1 (Canonical Ensemble).** For a system in thermal equilibrium with a heat bath at
-temperature $T$The probability of the system being in microstate $i$ with energy $E_i$ is
+temperature $T$ The probability of the system being in microstate $i$ with energy $E_i$ is
 
 $$
 P_i = \frac{1}{Z} e^{-E_i / (k_B T)}
@@ -106,7 +106,7 @@ $$
 
 For $N$ indistinguishable particles (correct Boltzmann counting): $Z_N = z^N / N!$. $\blacksquare$
 
-**Corollary 2.4.** From $Z_N$We recover the ideal gas law:
+**Corollary 2.4.** From $Z_N$ We recover the ideal gas law:
 
 $$
 F = -k_BT \ln Z_N = -k_BT\left[N\ln\left(\frac{V}{\lambda_{\mathrm{th}^3}\right) - \ln N!\right]}
@@ -172,7 +172,7 @@ $$
 
 Where $n = N/V$ is the particle number density.
 
-**Proposition 2.6.** At $T = 0$All states with $E \leq \varepsilon_F$ are occupied and all states
+**Proposition 2.6.** At $T = 0$ All states with $E \leq \varepsilon_F$ are occupied and all states
 with $E > \varepsilon_F$ are empty. The ground-state energy of a 3D Fermi gas is:
 
 $$
@@ -187,7 +187,7 @@ $\blacksquare$
 
 ### 2.8 Blackbody Radiation
 
-**Planck"s Law** gives the spectral energy density of blackbody radiation:
+**Planck's Law** gives the spectral energy density of blackbody radiation:
 
 $$
 u(\nu, T) = \frac{8\pi h \nu^3}{c^3} \cdot \frac{1}{e^{h\nu/(k_BT)} - 1}
@@ -275,7 +275,7 @@ Statistical mechanics bridges the microscopic world of individual atoms to the m
 
 ### 2.10 Common Pitfalls
 
-- **The classical limit does not always apply.** When $\lambda_{\mathrm{th}^3 \gtrsim V/N}$Quantum
+- **The classical limit does not always apply.** When $\lambda_{\mathrm{th}^3 \gtrsim V/N}$ Quantum
   .../4-statistics-and-probability/2_statistics (Fermi-Dirac or Bose-Einstein) must be used. This is
   critical for electrons in metals and for helium-4 at low temperatures.
 - **The Boltzmann distribution applies to systems in contact with a heat bath, not isolated

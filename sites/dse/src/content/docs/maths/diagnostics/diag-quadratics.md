@@ -79,7 +79,7 @@ $$
 u = \frac{1}{4} \quad \text{or} \quad u = 1
 $$
 
-Since $u > 0$Both are valid.
+Since $u > 0$ Both are valid.
 
 $2^x = \dfrac{1}{4} = 2^{-2} \implies x = -2$.
 
@@ -98,11 +98,11 @@ Therefore $x = -2$ or $x = 0$.
 }
 </script>
 
-### UT-3: Vieta"s Formulas Application
+### UT-3: Vieta's Formulas Application
 
 **Question:**
 
-If $\alpha$ and $\beta$ are the roots of $2x^2 - 6x + 1 = 0$Find the value of $\alpha^2 + \beta^2$
+If $\alpha$ and $\beta$ are the roots of $2x^2 - 6x + 1 = 0$ Find the value of $\alpha^2 + \beta^2$
 without solving the equation.
 
 **Solution:**
@@ -136,7 +136,7 @@ $$
 f(x) = -3(x^2 - 4x) - 7 = -3(x - 2)^2 + 12 - 7 = -3(x - 2)^2 + 5
 $$
 
-Since $-3(x - 2)^2 \leq 0$ for all $x$The maximum value is $5$ at $x = 2$.
+Since $-3(x - 2)^2 \leq 0$ for all $x$ The maximum value is $5$ at $x = 2$.
 
 $$
 \mathrm{ran}(f) = (-\infty,\; 5]
@@ -192,7 +192,7 @@ Find the range of values of $x$ for which $\dfrac{x^2 - 4x + 3}{x^2 - 1} \lt 0$.
 
 **Solution:**
 
-Factorise: $\dfrac{(x-1)(x-3)}{(x-1)(x+1)} = \dfrac{x - 3}{x + 1}$Provided $x \neq 1$.
+Factorise: $\dfrac{(x-1)(x-3)}{(x-1)(x+1)} = \dfrac{x - 3}{x + 1}$ Provided $x \neq 1$.
 
 $\dfrac{x - 3}{x + 1} \lt 0$.
 
@@ -227,7 +227,7 @@ Combined: $x \in (-1,\; 1) \cup (1,\; 3)$.
 
 **Question:**
 
-Let $f(x) = x^2 - 4x + k$. If the equation $f(x) = 0$ has no real roots and $f(2) > 0$Find the range
+Let $f(x) = x^2 - 4x + k$. If the equation $f(x) = 0$ has no real roots and $f(2) > 0$ Find the range
 of $k$.
 
 **Solution:**
@@ -303,7 +303,7 @@ $$
 
 **Question:**
 
-If $\alpha$ and $\beta$ are the roots of $3x^2 - 5x + 2 = 0$Find a quadratic equation whose roots
+If $\alpha$ and $\beta$ are the roots of $3x^2 - 5x + 2 = 0$ Find a quadratic equation whose roots
 are $\alpha^2$ and $\beta^2$.
 
 **Solution:**
@@ -350,11 +350,11 @@ find the range of values of $x$ satisfying the inequality $x^2 + 2mx + m^2 - 1 \
 
 Discriminant: $\Delta = (2m)^2 - 4(m^2 - 1) = 4m^2 - 4m^2 + 4 = 4$.
 
-Since $\Delta = 4 > 0$ for all $m$The equation always has two distinct real roots.
+Since $\Delta = 4 > 0$ for all $m$ The equation always has two distinct real roots.
 
-When $m = 2$: $x^2 + 4x + 3 \leq 0$I.e. $(x + 1)(x + 3) \leq 0$.
+When $m = 2$: $x^2 + 4x + 3 \leq 0$ I.e. $(x + 1)(x + 3) \leq 0$.
 
-Solution: $-3 \leq x \leq -1$I.e. $x \in [-3,\; -1]$.
+Solution: $-3 \leq x \leq -1$ I.e. $x \in [-3,\; -1]$.
 
 ---
 
@@ -540,7 +540,7 @@ $$
 \frac{1}{\alpha} \cdot \frac{1}{\beta} = \frac{1}{\alpha\beta} = \frac{1}{10}
 $$
 
-Required equation: $x^2 - \dfrac{7}{10}x + \dfrac{1}{10} = 0$I.e. $10x^2 - 7x + 1 = 0$.
+Required equation: $x^2 - \dfrac{7}{10}x + \dfrac{1}{10} = 0$ I.e. $10x^2 - 7x + 1 = 0$.
 
 ---
 
@@ -617,11 +617,11 @@ flowchart TD
 ## Common Pitfalls
 
 1. **Forgetting the $a \neq 0$ condition in discriminant problems.** When asked about the roots of
-   $ax^2 + bx + c = 0$If $a$ contains a parameter, always check that $a \neq 0$ separately. If
-   $a = 0$The equation is linear and has exactly one root.
+   $ax^2 + bx + c = 0$ If $a$ contains a parameter, always check that $a \neq 0$ separately. If
+   $a = 0$ The equation is linear and has exactly one root.
 
 2. **Losing solutions when dividing by an expression containing $x$.** When solving
-   $x \cdot f(x) = 0$You must consider both $x = 0$ and $f(x) = 0$. Dividing by $x$ loses the
+   $x \cdot f(x) = 0$ You must consider both $x = 0$ and $f(x) = 0$. Dividing by $x$ loses the
    solution $x = 0$.
 
 3. **Incorrect sign when completing the square.** A common error is writing
@@ -632,7 +632,7 @@ flowchart TD
    not a perfect square, the roots are irrational. In such cases, use the quadratic formula and
    leave answers in surd form (exact values preferred in DSE).
 
-5. **Confusing the axis of symmetry with the vertex.** For $y = a(x - h)^2 + k$The axis of symmetry
+5. **Confusing the axis of symmetry with the vertex.** For $y = a(x - h)^2 + k$ The axis of symmetry
    is $x = h$ and the vertex is $(h, k)$. The vertex is a point; the axis of symmetry is a line.
 
 ---
@@ -669,7 +669,7 @@ Also $a \neq 0 \implies k \neq 0$.
 
 Therefore $k \in (-\infty,\; 0) \cup (0,\; 3) \cup (3,\; \infty)$.
 
-(b) At the boundary $k = 3$: $\Delta = 0$One repeated root.
+(b) At the boundary $k = 3$: $\Delta = 0$ One repeated root.
 
 $3x^2 - 6x + 3 = 0 \implies x^2 - 2x + 1 = 0 \implies (x - 1)^2 = 0 \implies x = 1$ (repeated root).
 
@@ -744,7 +744,7 @@ So $p = -4$, $q = \dfrac{16 - 10}{2} = 3$.
 Let $f(x) = x^2 - 2kx + k^2 + k - 3$.
 
 (a) Find the range of values of $k$ for which $f(x) > 0$ for all real $x$. (3 marks) (b) If the
-minimum value of $f(x)$ is $-1$Find $k$. (3 marks)
+minimum value of $f(x)$ is $-1$ Find $k$. (3 marks)
 
 **Solution:**
 
@@ -777,7 +777,7 @@ Solve the inequality $\dfrac{x^2 - 5x + 6}{x^2 - 4} \geq 0$.
 
 **Solution:**
 
-Factorise: $\dfrac{(x-2)(x-3)}{(x-2)(x+2)} = \dfrac{x - 3}{x + 2}$Provided $x \neq 2$.
+Factorise: $\dfrac{(x-2)(x-3)}{(x-2)(x+2)} = \dfrac{x - 3}{x + 2}$ Provided $x \neq 2$.
 
 Critical values: $x = -2$ (excluded, denominator zero) and $x = 3$ (included, numerator zero). Also
 $x = 2$ is excluded (denominator zero in original).
@@ -791,7 +791,7 @@ Sign chart for $\dfrac{x - 3}{x + 2}$:
 | $2 < x < 3$  | $x = 2.5$ | $-$  |
 | $x > 3$      | $x = 4$   | $+$  |
 
-The expression is non-negative for $x < -2$ or $x \geq 3$Excluding $x = 2$.
+The expression is non-negative for $x < -2$ or $x \geq 3$ Excluding $x = 2$.
 
 Solution: $x \in (-\infty,\; -2) \cup [3,\; \infty)$.
 
@@ -843,7 +843,7 @@ k = \frac{-4 \pm \sqrt{16 + 64}}{2} = \frac{-4 \pm \sqrt{80}}{2} = -2 \pm 2\sqrt
 $$
 
 Both are valid provided the original equation has real roots: $\Delta = 16 - 8k > 0 \implies k < 2$.
-Since $-2 + 2\sqrt{5} \approx 2.47 > 2$Only $k = -2 - 2\sqrt{5}$ gives real roots. Check:
+Since $-2 + 2\sqrt{5} \approx 2.47 > 2$ Only $k = -2 - 2\sqrt{5}$ gives real roots. Check:
 $\Delta = 16 - 8(-2 - 2\sqrt{5}) = 16 + 16 + 16\sqrt{5} = 32 + 16\sqrt{5} > 0$. Both values give
 $\Delta > 0$ So both are valid.
 

@@ -224,7 +224,7 @@ When asked to design an experiment, address:
 
 ### Worked Example: Planning an Experiment to Determine `g`
 
-**Aim:** To determine the acceleration of free fall, $g$Using a simple pendulum.
+**Aim:** To determine the acceleration of free fall, $g$ Using a simple pendulum.
 
 **Variables:**
 
@@ -250,7 +250,7 @@ When asked to design an experiment, address:
 Is $\pm 0.2$ s / 20 $= \pm 0.01$ s. The length measurement has uncertainty $\pm 0.005$ m from the
 Metre rule resolution.
 
-**Analysis:** Since $T = 2\pi\sqrt{L/g}$Plotting $T^2$ vs $L$ gives a straight line through the
+**Analysis:** Since $T = 2\pi\sqrt{L/g}$ Plotting $T^2$ vs $L$ gives a straight line through the
 Origin with gradient $4\pi^2/g$. Calculate $g$ from the gradient and compare with the accepted value
 $g = 9.81 \mathrm{ m s}^{-2}$.
 
@@ -565,7 +565,7 @@ A student obtains data points that do not lie on a straight line when plotting $
 A pendulum. Suggest three possible reasons and how to investigate each.
 
 **Answer.** (1) **Large angle oscillations**: the formula $T = 2\pi\sqrt{L/g}$ assumes small angles.
-For angles $> 10^\circ$The period increases. Solution: use smaller angles ($< 5^\circ$) and Repeat.
+For angles $> 10^\circ$ The period increases. Solution: use smaller angles ($< 5^\circ$) and Repeat.
 (2) **String not ideal**: the string may stretch or have mass. Solution: use a lighter, Inextensible
 string. (3) **Air resistance**: damping affects the period at large amplitudes. Solution: use a
 denser bob to minimise air resistance effects.
@@ -633,12 +633,12 @@ Diffraction. The laser is directed at a slit, and the diffraction pattern is obs
 <summary>Problem 9</summary>
 A student determines the internal resistance of a battery by plotting a graph of terminal potential
 Difference $V$ against current $I$. The equation relating these quantities is
-$V = \mathcal{E} - Ir$Where $\mathcal{E}$ is the emf and $r$ is the internal resistance. The
+$V = \mathcal{E} - Ir$ Where $\mathcal{E}$ is the emf and $r$ is the internal resistance. The
 Student obtains a y-intercept of 1.48 V and a gradient of $-1.25 \Omega$. The accepted emf is 1.50
 V. Evaluate this result.
 
 **Answer.** The measured emf ($\mathcal{E} = 1.48$ V) is close to the accepted value (1.50 V),
-Giving a percentage difference of $(1.50 - 1.48)/1.50 \times 100 = 1.3\%$Which is within typical
+Giving a percentage difference of $(1.50 - 1.48)/1.50 \times 100 = 1.3\%$ Which is within typical
 Measurement uncertainty. The internal resistance $r = 1.25 \Omega$. The graph passes approximately
 Through the origin (the x-intercept should be $\mathcal{E}/r = 1.50/1.25 = 1.20$ A). If the line
 Does not pass through the origin on a $V$ vs $I$ plot this is expected (the y-intercept is the emf).
@@ -661,7 +661,7 @@ Valid.
 **Variables:**
 
 - **Independent:** applied load (force $F$), varied by adding slotted masses
-- **Dependent:** extension $\Delta L$Measured with a vernier scale or scribe mark on a reference
+- **Dependent:** extension $\Delta L$ Measured with a vernier scale or scribe mark on a reference
   scale
 - **Control:** wire material and cross-sectional area, temperature, method of measuring extension
 

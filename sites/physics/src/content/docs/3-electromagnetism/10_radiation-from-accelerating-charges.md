@@ -82,7 +82,7 @@ $$
 P = \frac{q^2}{6\pi\varepsilon_0 c}\gamma^6\dot{\beta}^2
 $$
 
-For circular acceleration ($\boldsymbol{\beta} \perp \dot{\boldsymbol{\beta}}$E.g., synchrotron):
+For circular acceleration ($\boldsymbol{\beta} \perp \dot{\boldsymbol{\beta}}$ E.g., synchrotron):
 
 $$
 P = \frac{q^2}{6\pi\varepsilon_0 c}\gamma^4\dot{\beta}^2 = \frac{q^2 c}{6\pi\varepsilon_0}\frac{\gamma^4}{R^2}

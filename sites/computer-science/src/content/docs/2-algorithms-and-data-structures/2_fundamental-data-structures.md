@@ -80,7 +80,7 @@ A queue can be implemented using two stacks `in_stack` and `out_stack`.
 
 The `dequeue` operation is $O(1)$ amortised: each element is moved from `in_stack` to `out_stack` at
 most once across all operations. Over $n$ operations, the total number of element moves is at most
-$n$Giving $O(1)$ amortised per dequeue.
+$n$ Giving $O(1)$ amortised per dequeue.
 
 </details>
 
@@ -99,19 +99,19 @@ A **hash table** maps keys to values using a hash function $h : K \to \\{0, 1, \
 Length of a chain in a hash table with chaining is $\alpha = n/m$.
 
 _Proof._ Under simple uniform hashing, each of the $n$ keys is equally likely to hash to any of the
-$m$ slots. For any given key $k$The expected number of other keys that hash to the same slot as $k$
+$m$ slots. For any given key $k$ The expected number of other keys that hash to the same slot as $k$
 is $(n - 1)/m < \alpha$. Including $k$ itself, the expected chain length is
 $1 + (n-1)/m \leq 1 + \alpha$. $\blacksquare$
 
 **Theorem 2.2 (Successful Search with Chaining).** Under simple uniform hashing, the expected time
 for a successful search in a hash table with chaining is $O(1 + \alpha/2)$.
 
-_Proof._ The expected length of the list containing the searched element is $1 + (n - 1)/m$Since
+_Proof._ The expected length of the list containing the searched element is $1 + (n - 1)/m$ Since
 $n - 1$ other elements are distributed uniformly. On average, the searched element is halfway
 through its list, giving $(1 + (n-1)/m)/2 + 1/2$ comparisons (we examine elements before the target
 plus the target itself). This equals $1 + \alpha/2 - 1/(2m) = O(1 + \alpha)$. $\blacksquare$
 
-**Double Hashing.** Uses two hash functions: $h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$Where
+**Double Hashing.** Uses two hash functions: $h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$ Where
 $h_2(k)$ is relatively prime to $m$. This avoids the clustering problems of linear probing.
 
 <details>
@@ -144,7 +144,7 @@ $\mathrm{E}[Y_n] \leq \frac{1}{4} \sum_{i=0}^{n-1} \binom{n}{i} \mathrm{E}[Y_i] 
 Using the indicator random variable technique,
 $\mathrm{E}[Y_n] \leq \frac{c^{n+1}}{n^{3/2}} \sum_{i=0}^{n-1} \frac{i^{3/2}(n-1-i)^{3/2}}{c^i c^{n-1-i}} \leq c \cdot n^{3/2}$
 for some constant $c$. Taking logs gives
-$\mathrm{E}[X_n] = \mathrm{E}[\log Y_n] \leq \log \mathrm{E}[Y_n] = O(\log n)$ by Jensen"s
+$\mathrm{E}[X_n] = \mathrm{E}[\log Y_n] \leq \log \mathrm{E}[Y_n] = O(\log n)$ by Jensen's
 inequality. $\blacksquare$
 
 #### 2.4.1 AVL Trees
@@ -156,7 +156,7 @@ minus the height of its right subtree; valid balance factors are $\\{-1, 0, 1\\}
 **Rotations.** After insertion or deletion, the balance factor may become $\pm 2$. This is fixed by
 rotations:
 
-- **Right rotation (LL case):** Balance factor $+2$ at node $A$Balance factor $+1$ at left child
+- **Right rotation (LL case):** Balance factor $+2$ at node $A$ Balance factor $+1$ at left child
   $B$.
 
   ```
@@ -169,7 +169,7 @@ rotations:
 
 - **Left rotation (RR case):** Mirror of right rotation.
 
-- **Left-Right rotation (LR case):** Balance factor $+2$ at $A$Balance factor $-1$ at left child
+- **Left-Right rotation (LR case):** Balance factor $+2$ at $A$ Balance factor $-1$ at left child
   $B$. First left-rotate $B$ Then right-rotate $A$.
 
 - **Right-Left rotation (RL case):** Mirror of LR case.
@@ -179,7 +179,7 @@ rotations:
 _Proof._ Let $N(h)$ be the minimum number of nodes in an AVL tree of height $h$. We have $N(0) = 1$,
 $N(1) = 2$ And $N(h) = 1 + N(h-1) + N(h-2)$ for $h \geq 2$. This is the Fibonacci recurrence, giving
 $N(h) = F_{h+3} - 1$. Using $F_h = \frac{\phi^h - \hat{\phi}^h}{\sqrt{5}}$ where
-$\phi = \frac{1+\sqrt{5}}{2}$We get $N(h) > \phi^h / \sqrt{5} - 1$ So
+$\phi = \frac{1+\sqrt{5}}{2}$ We get $N(h) > \phi^h / \sqrt{5} - 1$ So
 $h \lt \log_\phi(\sqrt{5}(n + 1)) \approx 1.4404 \log_2(n + 1)$. $\blacksquare$
 
 **Corollary 2.5.** All AVL tree operations (search, insert, delete) run in $O(\log n)$ time.
@@ -204,9 +204,9 @@ $O(\log n)$. $\blacksquare$
 _Proof._ Let $r$ be the root. By property 5, at least half the nodes on any root-to-leaf path are
 black (by property 4, no two reds are adjacent), so the black-height $bh(r) \geq h/2$. Let
 $S(h, bh)$ be the minimum number of internal nodes in a subtree of height $h$ and black-height $bh$.
-Then $S(h, bh) \geq 2^{bh} - 1$ (proved by induction on $bh$Using the fact that each child has
+Then $S(h, bh) \geq 2^{bh} - 1$ (proved by induction on $bh$ Using the fact that each child has
 black-height at least $bh - 1$ and the root is black). Since $bh(r) \geq h/2$ and
-$n \geq 2^{bh(r)} - 1 \geq 2^{h/2} - 1$We get $h \leq 2 \log_2(n + 1)$. $\blacksquare$
+$n \geq 2^{bh(r)} - 1 \geq 2^{h/2} - 1$ We get $h \leq 2 \log_2(n + 1)$. $\blacksquare$
 
 **Insertion.** Insert as in a standard BST (colour the new node red), then fix violations by
 recolouring and rotating up to $O(\log n)$ times.
@@ -227,7 +227,7 @@ black-height property by recolouring and rotating. The fix-up procedure takes $O
 $h \leq \log_t \frac{n+1}{2}$.
 
 _Proof._ The root has at least 1 key and 2 children. At depth 1, each node has at least $t - 1$ keys
-and $t$ children. At depth $d \geq 1$The number of nodes is at least $2t^{d-1}$Each with at least
+and $t$ children. At depth $d \geq 1$ The number of nodes is at least $2t^{d-1}$ Each with at least
 $t - 1$ keys. So the total number of keys is at least
 $1 + 2(t-1) \sum_{i=0}^{h-1} t^i = 1 + 2(t-1) \cdot \frac{t^h - 1}{t - 1} = 2t^h - 1$. Setting
 $n \geq 2t^h - 1$ gives $h \leq \log_t((n+1)/2)$. $\blacksquare$
@@ -306,9 +306,9 @@ Level 0:  [HEAD] -> [7] -> [12] -> [19] -> [25] -> [31] -> [42]
 
 Search starts at HEAD, level 3:
 
-- Move right to 31. $31 > 25$Drop to level 2.
-- At level 2, move right to 12. $12 \leq 25$Move right, next is NIL. Drop to level 1.
-- At level 1, move right to 19. $19 \leq 25$Move right to 25. $25 = 25$. Found!
+- Move right to 31. $31 > 25$ Drop to level 2.
+- At level 2, move right to 12. $12 \leq 25$ Move right, next is NIL. Drop to level 1.
+- At level 1, move right to 19. $19 \leq 25$ Move right to 25. $25 = 25$. Found!
 
 The search examined keys 31, 12, 19, 25 to 4 comparisons across 3 levels.
 
@@ -356,7 +356,7 @@ $(1 - 1/m)^{kn} \approx e^{-kn/m}$. The probability that all $k$ bits for a quer
 $(1 - e^{-kn/m})^k$. $\blacksquare$
 
 **Optimal number of hash functions.** The false positive rate is minimised when
-$k = (m/n) \ln 2$Giving a minimum rate of approximately $(1/2)^k = 0.6185^{m/n}$.
+$k = (m/n) \ln 2$ Giving a minimum rate of approximately $(1/2)^k = 0.6185^{m/n}$.
 
 <details>
 <summary>Worked Example: Bloom Filter Configuration</summary>
@@ -411,7 +411,7 @@ A **binary heap** is a complete binary tree satisfying the heap property:
 Implemented as an array: parent of node $i$ is at $\lfloor(i-1)/2\rfloor$; children at $2i+1$ and
 $2i+2$.
 
-**Operations:** insert $O(\log n)$Extract-max/min $O(\log n)$Peek $O(1)$.
+**Operations:** insert $O(\log n)$ Extract-max/min $O(\log n)$ Peek $O(1)$.
 
 **Theorem 2.11 (Build-Heap).** `buildHeap` on an array of $n$ elements runs in $O(n)$ time.
 
@@ -489,7 +489,7 @@ The **Union-Find** data structure maintains a partition of a set into disjoint s
 - `Union` attaches the shorter tree under the root of the taller tree (by rank/size).
 
 **Theorem 2.12.** With both path compression and union by rank, the amortised time per operation is
-$O(\alpha(n))$Where $\alpha(n)$ is the inverse Ackermann function.
+$O(\alpha(n))$ Where $\alpha(n)$ is the inverse Ackermann function.
 
 _Proof (outline)._ The inverse Ackermann function $\alpha(n)$ grows so slowly that
 $\alpha(n) \leq 4$ for all practical values of $n$ ($n \leq 2^{2^{2^{65536}}}$). The

@@ -90,7 +90,7 @@ Codes (`#FF5733`), MAC addresses (`00:1A:2B:3C:4D:5E`), and error codes all use 
 
 **Unsigned integers:** Non-negative integers. An 8-bit unsigned integer can represent 0 to 255.
 
-**Two"s complement:** Represents both positive and negative integers.
+**Two's complement:** Represents both positive and negative integers.
 
 To find the two's complement of a negative number:
 
@@ -120,9 +120,9 @@ Verify: $-128 + 16 + 8 + 4 = -100$. Correct.
 To $2^{n-1} - 1$ ($2^{n-1}$ values). The negative range is $-2^{n-1}$ to $-1$ ($2^{n-1}$ values).
 Total: $2^{n-1} + 2^{n-1} = 2^n$. $\blacksquare$
 
-**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$Let $\bar{x}$ Be
+**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$ Let $\bar{x}$ Be
 the bitwise complement. Then $\bar{x} = (2^n - 1) - x$. Adding 1: $\bar{x} + 1 = 2^n - x$. In
-$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$Confirming $\bar{x} + 1 = -x$.
+$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$ Confirming $\bar{x} + 1 = -x$.
 $\blacksquare$
 
 **Two's complement range summary:**
@@ -156,7 +156,7 @@ $$
 
 $25 = 00011001$. $14 = 00001110$.
 
-Two's complement of 14: flip $00001110 \to 11110001$Add 1 $\to 11110010$.
+Two's complement of 14: flip $00001110 \to 11110001$ Add 1 $\to 11110010$.
 
 $00011001 + 11110010 = 100001011$.
 
@@ -166,7 +166,7 @@ Discard overflow: $00001011 = 11$. Check: $25 - 14 = 11$. Correct.
 
 $83 = 01010011$. $47 = 00101111$.
 
-Two's complement of 47: flip $00101111 \to 11010000$Add 1 $\to 11010001$.
+Two's complement of 47: flip $00101111 \to 11010000$ Add 1 $\to 11010001$.
 
 $01010011 + 11010001 = 100100100$.
 
@@ -182,7 +182,7 @@ $100 = 01100100$, $50 = 00110010$.
 Sum: $10010110$.
 
 The MSB is 1, indicating a negative result. $10010110 = -128 + 16 + 4 + 2 = -106$. This is incorrect
-($100 + 50 = 150$Which exceeds the 8-bit range). Overflow has occurred.
+($100 + 50 = 150$ Which exceeds the 8-bit range). Overflow has occurred.
 
 ### Representing Text
 

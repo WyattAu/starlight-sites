@@ -104,7 +104,7 @@ always decays faster than $R_B$ (larger decay constant), so $R_A$ is always less
 $t \gt 0$.
 
 For the activities to be equal, we would need $R_{A0} \gt R_{B0}$ (isotope $A$ starts with higher
-activity) and then they would cross at some time. With $R_{A0} \lt R_{B0}$The activities never
+activity) and then they would cross at some time. With $R_{A0} \lt R_{B0}$ The activities never
 cross.
 
 ---
@@ -164,9 +164,9 @@ $\lambda_X \gt \lambda_Y$. This is the opposite of secular equilibrium -- it is 
 equilibrium** ($\lambda_Y \lt \lambda_X$).
 
 In transient equilibrium, after sufficient time, the ratio $N_Y/N_X$ approaches a constant:
-$\lambda_X N_X = \lambda_Y N_Y$Giving $N_Y/N_X = \lambda_X/\lambda_Y = 2.0$.
+$\lambda_X N_X = \lambda_Y N_Y$ Giving $N_Y/N_X = \lambda_X/\lambda_Y = 2.0$.
 
-At $t = 20\,\text{s}$: $N_Y/N_X = 465/135 = 3.44$Which has not yet reached the equilibrium value of
+At $t = 20\,\text{s}$: $N_Y/N_X = 465/135 = 3.44$ Which has not yet reached the equilibrium value of
 $2.0$. More time is needed.
 
 ---
@@ -207,7 +207,7 @@ $m_e = 9.11 \times 10^{-31}\,\text{kg}$$c = 3.00 \times 10^8\,\text{m}\,\text{s}
 (a) In beta-minus decay, a neutron converts to a proton, electron, and electron antineutrino:
 $n \to p + e^- + \bar{\nu}_e$. Without the antineutrino, the decay would violate conservation of
 energy and momentum simultaneously. The kinetic energy of the beta particle varies from zero to
-$Q$With the antineutrino carrying the remaining energy. The antineutrino ensures that both energy
+$Q$ With the antineutrino carrying the remaining energy. The antineutrino ensures that both energy
 and momentum are conserved for every individual decay, not just on average.
 
 Additionally, beta decay involves the weak nuclear force (mediated by $W^-$ bosons), and the leptons
@@ -224,14 +224,14 @@ zero momentum. All momentum must be carried by the beta particle.
 
 $K_{\max} = 0.156\,\text{MeV} = 0.156 \times 10^6 \times 1.60 \times 10^{-19} = 2.496 \times 10^{-14}\,\text{J}$
 
-Since $K \ll m_e c^2 = 0.511\,\text{MeV}$We can use non-relativistic mechanics:
+Since $K \ll m_e c^2 = 0.511\,\text{MeV}$ We can use non-relativistic mechanics:
 
 $$
 p = \sqrt{2m_e K} = \sqrt{2 \times 9.11 \times 10^{-31} \times 2.496 \times 10^{-14}} = \sqrt{4.548 \times 10^{-44}} = 2.13 \times 10^{-22}\,\text{kg}\,\text{m}\,\text{s}^{-1}
 $$
 
 Alternatively, using
-$pc = \sqrt{2m_e c^2 K} = \sqrt{2 \times 0.511 \times 0.156}\,\text{MeV} = \sqrt{0.159}\,\text{MeV} = 0.399\,\text{MeV}$Giving
+$pc = \sqrt{2m_e c^2 K} = \sqrt{2 \times 0.511 \times 0.156}\,\text{MeV} = \sqrt{0.159}\,\text{MeV} = 0.399\,\text{MeV}$ Giving
 $p = 0.399\,\text{MeV}/c$.
 
 ## Integration Tests
@@ -248,7 +248,7 @@ $5730\,\text{years}$.
 
 (b) Calculate the percentage of original carbon-14 remaining.
 
-(c) If the measurement uncertainty in the activity is $\pm 0.1\,\text{Bq}\,\text{g}^{-1}$Calculate
+(c) If the measurement uncertainty in the activity is $\pm 0.1\,\text{Bq}\,\text{g}^{-1}$ Calculate
 the uncertainty in the age.
 
 **Solution:**
@@ -258,7 +258,7 @@ the uncertainty in the age.
 $\lambda = \ln 2/5730 = 1.209 \times 10^{-4}\,\text{year}^{-1}$
 
 **Note:** The stated sample activity of $1.2\,\text{Bq}\,\text{g}^{-1}$ exceeds the living-wood
-baseline of $0.23\,\text{Bq}\,\text{g}^{-1}$Which is physically inconsistent with radioactive decay
+baseline of $0.23\,\text{Bq}\,\text{g}^{-1}$ Which is physically inconsistent with radioactive decay
 (a sample cannot have more C-14 than living material). This indicates either measurement error or
 contamination. Assuming the intended value is $A = 0.12\,\text{Bq}\,\text{g}^{-1}$ (approximately
 half the living value):

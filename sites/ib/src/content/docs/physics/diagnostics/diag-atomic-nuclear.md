@@ -58,7 +58,7 @@ $$
 \frac{ke^2}{r_n^2} = \frac{m_e v_n^2}{r_n}
 $$
 
-Bohr"s quantisation condition: $m_e v_n r_n = n\hbar$ where $\hbar = h/(2\pi)$.
+Bohr's quantisation condition: $m_e v_n r_n = n\hbar$ where $\hbar = h/(2\pi)$.
 
 From the quantisation condition: $v_n = n\hbar/(m_e r_n)$.
 
@@ -187,7 +187,7 @@ with higher binding energy per nucleon.
 "directly converts" to energy. Rather, the fission products have a different (more tightly bound)
 nuclear configuration, and the total mass of the system decreases because the binding energy
 increases. The mass defect is a measure of the binding energy difference, and by
-$E = \Delta mc^2$This mass difference corresponds to the energy release.
+$E = \Delta mc^2$ This mass difference corresponds to the energy release.
 
 The energy appears as kinetic energy of the fission fragments, neutrons, and gamma radiation -- not
 as "pure energy."
@@ -214,7 +214,7 @@ half-life $t_{1/2} = 5.0\,\text{hours}$.
 
 (b) Calculate the probability that any given nucleus will decay within the next $1.0\,\text{hour}$.
 
-(c) After $20\,\text{hours}$The activity is measured to be $A = 3.2 \times 10^{14}\,\text{Bq}$ with
+(c) After $20\,\text{hours}$ The activity is measured to be $A = 3.2 \times 10^{14}\,\text{Bq}$ with
 an uncertainty of $\pm 5\%$. Explain why this measurement is consistent with the theoretical
 prediction, and discuss whether a single nucleus can be said to have a half-life.
 
@@ -337,14 +337,14 @@ radiation detection.
 
 **Solution:**
 
-(a) **Alpha particles** ($^4_2\text{He}^{2+}$Positive charge $+2e$):
+(a) **Alpha particles** ($^4_2\text{He}^{2+}$ Positive charge $+2e$):
 
 - Magnetic force: $\vec{F} = q\vec{v} \times \vec{B}$. For positive charge moving right with
   $\vec{B}$ into the page, the force is upward (by right-hand rule). Path curves upward (circular).
 - Electric force: $\vec{F} = q\vec{E}$. For positive charge, force is in the direction of $\vec{E}$
   (downward). This opposes the magnetic force.
 
-**Beta-minus particles** ($e^-$Negative charge $-e$):
+**Beta-minus particles** ($e^-$ Negative charge $-e$):
 
 - Magnetic force: negative charge moving right with $\vec{B}$ into page. Force is downward (opposite
   to alpha). Path curves downward (circular, opposite direction).
@@ -421,7 +421,7 @@ calculation.
 
 (a) Activity ratio: $A/A_0 = 0.25/0.23 = 1.087$.
 
-This gives $A/A_0 \gt 1$Meaning the artefact appears to have **more** C-14 than living wood. This is
+This gives $A/A_0 \gt 1$ Meaning the artefact appears to have **more** C-14 than living wood. This is
 physically impossible for a genuine ancient artefact, indicating either contamination or measurement
 error. The data is inconsistent with radioactive decay.
 

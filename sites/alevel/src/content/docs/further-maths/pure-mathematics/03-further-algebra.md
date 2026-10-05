@@ -42,7 +42,7 @@ Differences.
 
 ### 1.1 Polynomial long division
 
-To divide $P(x)$ by $(ax + b)$Perform polynomial long division (or synthetic division) to obtain:
+To divide $P(x)$ by $(ax + b)$ Perform polynomial long division (or synthetic division) to obtain:
 
 $$
 P(x) = (ax + b)Q(x) + R
@@ -476,7 +476,7 @@ $$
 <details>
 <summary>Hint</summary>
 
-Since $x^2 + 2x + 5 = (x+1)^2 + 4$ has $\Delta = 4 - 20 < 0$It is irreducible. Use the form
+Since $x^2 + 2x + 5 = (x+1)^2 + 4$ has $\Delta = 4 - 20 < 0$ It is irreducible. Use the form
 $\dfrac{A}{x+2} + \dfrac{Bx + C}{x^2 + 2x + 5}$.
 
 </details>
@@ -626,7 +626,7 @@ $= 16 - 2S$ where $S = \alpha\beta + \alpha\gamma + \beta\gamma$.
 Without further information about the individual roots, $S$ cannot be determined uniquely. However,
 We know $p = -12$ and $q$ depends on $S$.
 
-If the question provides that the roots are integers: trying factors of $\dfrac{-4}{3}$The roots Are
+If the question provides that the roots are integers: trying factors of $\dfrac{-4}{3}$ The roots Are
 $1, 1, 2$ (checking: sum = 4 ✓, product = 2 ≠ $-4$ ✗). The roots $-1, 2, 3$ give sum = 4 ✓ and
 Product = $-6$ ✗.
 
@@ -668,7 +668,7 @@ $$
 **Problem 7.** The polynomial $P(x) = x^4 + ax^3 + bx^2 + cx + d$ has roots
 $\alpha, \beta, \gamma,
 \delta$. Given that $\alpha + \beta = 3$, $\gamma + \delta = -5$, and
-$\alpha\beta = 2$Find $a$ and $b$.
+$\alpha\beta = 2$ Find $a$ and $b$.
 
 <details>
 <summary>Hint</summary>
@@ -857,7 +857,7 @@ As $n \to \infty$: $\displaystyle\sum_{r=1}^{\infty} \frac{1}{r(r+1)} = \boxed{1
 
 **Problem.** Prove by induction that $\displaystyle\sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}$.
 
-**Solution.** **Base case** ($n=1$): LHS $= 1$RHS $= \dfrac{1 \cdot 2 \cdot 3}{6} = 1$.
+**Solution.** **Base case** ($n=1$): LHS $= 1$ RHS $= \dfrac{1 \cdot 2 \cdot 3}{6} = 1$.
 ✓
 
 **Inductive hypothesis:** Assume $\displaystyle\sum_{r=1}^{k} r^2 = \frac{k(k+1)(2k+1)}{6}$.
@@ -891,7 +891,7 @@ $$
 
 ### Example 8.6: Manipulating series with a given recurrence
 
-**Problem.** Given $u_1 = 1$ and $u_{n+1} = \dfrac{u_n}{u_n + 1}$Find
+**Problem.** Given $u_1 = 1$ and $u_{n+1} = \dfrac{u_n}{u_n + 1}$ Find
 $\displaystyle\sum_{r=1}^{n} u_r$.
 
 **Solution.** Write $u_r$ in closed form. From the recurrence:
@@ -986,8 +986,8 @@ Partial fractions are the algebraic equivalent of decomposing a complex signal i
 
 ### Question 8
 
-The binomial expansion of $(1 + ax)^{-2}$In ascending powers of $x$ up to and including the term In
-$x^3$Is $1 - 4x + 12x^2 + bx^3$. Find the values of $a$ and $b$.
+The binomial expansion of $(1 + ax)^{-2}$ In ascending powers of $x$ up to and including the term In
+$x^3$ Is $1 - 4x + 12x^2 + bx^3$. Find the values of $a$ and $b$.
 
 <details>
 <summary>Solution</summary>
@@ -1009,7 +1009,7 @@ $\boxed{a = 2, \; b = -32}$
 <details>
 <summary>Solution</summary>
 
-**Base case** ($n=1$): $7^1 - 1 = 6$Divisible by 6. ✓
+**Base case** ($n=1$): $7^1 - 1 = 6$ Divisible by 6. ✓
 
 **Inductive hypothesis:** $7^k - 1 = 6m$ for some integer $m$.
 
@@ -1059,7 +1059,7 @@ $\alpha(2\alpha)(3\alpha) = -r \implies 6\alpha^3 = -r$.
 
 $p:q:r = -6\alpha : 11\alpha^2 : -6\alpha^3 = -6 : 11\alpha : -6\alpha^2$.
 
-For specific values, if $\alpha = 1$: $p:q:r = -6:11:-6$Giving
+For specific values, if $\alpha = 1$: $p:q:r = -6:11:-6$ Giving
 $(x-1)(x-2)(x-3) = x^3 - 6x^2 + 11x - 6$.
 
 </details>
@@ -1300,7 +1300,7 @@ LHS: $\binom{2n}{n}$ chooses any $n$ from $2n$.
 RHS: choosing $k$ men and $n-k$ women for each $k$ gives
 $\displaystyle\sum_{k=0}^{n} \binom{n}{k}\binom{n}{n-k} = \sum_{k=0}^{n} \binom{n}{k}^2$.
 
-Since $\binom{n}{n-k} = \binom{n}{k}$The identity follows. $\blacksquare$
+Since $\binom{n}{n-k} = \binom{n}{k}$ The identity follows. $\blacksquare$
 
 </details>
 

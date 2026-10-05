@@ -138,7 +138,7 @@ The result (11000) requires 5 bits, but we are working with 4-bit numbers. The l
 Giving an incorrect result of 1000. This is called **overflow** and occurs when the result of an
 Operation exceeds the number of bits available.
 
-### 1.5 Binary Subtraction Using Two"s Complement (Higher Tier)
+### 1.5 Binary Subtraction Using Two's Complement (Higher Tier)
 
 To subtract, add the two's complement of the number being subtracted.
 
@@ -148,7 +148,7 @@ To subtract, add the two's complement of the number being subtracted.
 
 $6 = 0110$$3 = 0011$
 
-Two's complement of 3: invert $0011 \to 1100$Add $1 \to 1101$.
+Two's complement of 3: invert $0011 \to 1100$ Add $1 \to 1101$.
 
 $0110 + 1101 = 10011$.
 
@@ -158,7 +158,7 @@ Discard the overflow bit: $0011 = 3$. Correct.
 
 $3 = 0011$$6 = 0110$.
 
-Two's complement of 6: invert $0110 \to 1001$Add $1 \to 1010$.
+Two's complement of 6: invert $0110 \to 1001$ Add $1 \to 1010$.
 
 $0011 + 1010 = 1101$.
 
@@ -168,14 +168,14 @@ In two's complement, $1101 = -8 + 4 + 0 + 1 = -3$. Correct.
 
 $15 = 01111$$8 = 01000$.
 
-Two's complement of 8: invert $01000 \to 10111$Add $1 \to 11000$.
+Two's complement of 8: invert $01000 \to 10111$ Add $1 \to 11000$.
 
 $01111 + 11000 = 100111$.
 
 Discard the overflow bit: $00111 = 7$. Correct.
 
 **Proof that two's complement negation works.** For an $n$-bit number $x$ with
-$0 \lt x \lt 2^{n-1}$Let $y$ be the bitwise complement of $x$ plus 1. Then $y = 2^n - x$. When we
+$0 \lt x \lt 2^{n-1}$ Let $y$ be the bitwise complement of $x$ plus 1. Then $y = 2^n - x$. When we
 Compute $x + y = x +
 (2^n - x) = 2^n$. In $N$-bit arithmetic, the leading 1 overflows and is
 Discarded, leaving 0. Therefore $y = -x$ in two's complement arithmetic. $\blacksquare$
@@ -261,7 +261,7 @@ Result: 16
 
 Result: 001111110111
 
-**Hex to denary:** Multiply each hex digit by its positional value ($16^0, 16^1, 16^2$Etc.) and Sum.
+**Hex to denary:** Multiply each hex digit by its positional value ($16^0, 16^1, 16^2$ Etc.) and Sum.
 
 **Worked Example.** Convert 2AF to denary.
 
@@ -538,9 +538,9 @@ Highest frequency in the sound. Human hearing ranges up to about 20,000 Hz, so a
 44,100 Hz (just above $2 \times 20000$) is sufficient for CD quality.
 
 **Proof sketch of the Nyquist theorem.** If a signal has maximum frequency $f_{\max}$ Then the Signal
-completes at most $f_{\max}$ cycles per second. If we sample at rate $f_s \ge 2 f_{\max}$We Take at
+completes at most $f_{\max}$ cycles per second. If we sample at rate $f_s \ge 2 f_{\max}$ We Take at
 least 2 samples per cycle. Two samples per cycle are sufficient to uniquely determine the Amplitude
-and phase of a sinusoidal component. If $f_s \lt 2 f_{\max}$Different frequencies Produce the same
+and phase of a sinusoidal component. If $f_s \lt 2 f_{\max}$ Different frequencies Produce the same
 sample values (aliasing), making reconstruction ambiguous. $\blacksquare$
 
 **Aliasing in practice.** If a 30,000 Hz tone is sampled at 44,100 Hz, the reconstructed frequency
@@ -734,7 +734,7 @@ $6 = 0110$, $3 = 0011$.
 - **Forgetting to pad binary numbers** when converting to hexadecimal. Always group from the right;
   add leading zeros if necessary.
 - **Confusing the MSB in two's complement** with a simple sign bit. In two's complement, the MSB
-  carries a negative weight of $-2^{n-1}$Not just a sign.
+  carries a negative weight of $-2^{n-1}$ Not just a sign.
 
 ## Practice Questions
 

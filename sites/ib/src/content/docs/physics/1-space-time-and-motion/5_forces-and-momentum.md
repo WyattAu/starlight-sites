@@ -326,7 +326,7 @@ Justify your answer with a calculation.
 - $E_{k, \mathrm{initial}} = \frac{1}{2}(0.20)(10)^2 = 10.0$ J.
 - $E_{k, \mathrm{final}} = \frac{1}{2}(0.20)(4.0)^2 + \frac{1}{2}(0.30)(4.56)^2 = 1.6 + 3.12 = 4.72$
   J.
-- Since $E_{k, \mathrm{final}} \lt E_{k, \mathrm{initial}}$Kinetic energy was lost, and the
+- Since $E_{k, \mathrm{final}} \lt E_{k, \mathrm{initial}}$ Kinetic energy was lost, and the
   collision was **inelastic**. **If you get this wrong, you should focus on:** Applying conservation
   of momentum as a vector equation (i.e., in component form), combining velocity components to find
   final speed and direction, and the definition of an elastic collision (conservation of kinetic
@@ -373,7 +373,7 @@ Any reliance on friction?
 **Problem 6.** **Question (HL Only):** A thin hoop of mass M and radius R ($I=MR^2$) rolls without
 Slipping down an incline of angle $\theta$. A) Draw a free-body diagram for the hoop, including the
 Force of static friction. B) By considering both linear and rotational dynamics, derive an
-Expression for the linear acceleration, $a$Of the hoop's center of mass. C) How does this
+Expression for the linear acceleration, $a$ Of the hoop's center of mass. C) How does this
 Acceleration compare to that of a block sliding down the same incline without friction?
 
 <details>

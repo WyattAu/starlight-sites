@@ -48,7 +48,7 @@ $$
 Where $S = \langle\psi_A|\psi_B\rangle$ is the overlap integral, $J$ is the Coulomb integral, and
 $K$ is the exchange integral.
 
-- $E_-$ (bonding): has a minimum at $R \approx 2.5\,a_0$Giving a binding energy of $\sim 1.8$ eV
+- $E_-$ (bonding): has a minimum at $R \approx 2.5\,a_0$ Giving a binding energy of $\sim 1.8$ eV
   (experiment: 2.8 eV).
 - $E_+$ (antibonding): monotonically decreases, no bound state.
 

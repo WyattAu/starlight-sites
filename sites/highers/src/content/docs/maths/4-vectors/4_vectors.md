@@ -100,7 +100,7 @@ $$
 Expanding the left side:
 $(\mathbf{a} - \mathbf{b}) \cdot (\mathbf{a} - \mathbf{b}) = |\mathbf{a}|^2 - 2\mathbf{a} \cdot \mathbf{b} + |\mathbf{b}|^2$.
 
-Comparing: $-2\mathbf{a} \cdot \mathbf{b} = -2|\mathbf{a}||\mathbf{b}|\cos\theta$Hence
+Comparing: $-2\mathbf{a} \cdot \mathbf{b} = -2|\mathbf{a}||\mathbf{b}|\cos\theta$ Hence
 $\mathbf{a} \cdot \mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta$.
 
 **Example:** Find the angle between $\mathbf{a} = (2, 1, -1)$ and $\mathbf{b} = (1, -3, 2)$.
@@ -135,7 +135,7 @@ The **displacement** from $A$ to $B$ is $\overrightarrow{AB} = \mathbf{b} - \mat
 **Triangle law of vector addition:**
 $\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}$.
 
-**Example:** Given $\overrightarrow{OA} = (3, 1, -2)$ and $\overrightarrow{OB} = (-1, 4, 3)$Find
+**Example:** Given $\overrightarrow{OA} = (3, 1, -2)$ and $\overrightarrow{OB} = (-1, 4, 3)$ Find
 $\overrightarrow{AB}$ and the distance $AB$.
 
 $$
@@ -200,14 +200,14 @@ $$
 ### Collinearity
 
 Three points $A$, $B$, $C$ are collinear if and only if $\overrightarrow{AB}$ is parallel to
-$\overrightarrow{AC}$I.e., $\overrightarrow{AB} = k\overrightarrow{AC}$ for some scalar $k$.
+$\overrightarrow{AC}$ I.e., $\overrightarrow{AB} = k\overrightarrow{AC}$ for some scalar $k$.
 
 **Example:** Determine whether $A(1, 2, -1)$, $B(3, 5, 1)$ And $C(5, 8, 3)$ are collinear.
 
 $\overrightarrow{AB} = (2, 3, 2)$
 $\overrightarrow{AC} = (4, 6, 4) = 2(2, 3, 2) = 2\overrightarrow{AB}$.
 
-Since $\overrightarrow{AC} = 2\overrightarrow{AB}$The points are collinear. $B$ is the midpoint of
+Since $\overrightarrow{AC} = 2\overrightarrow{AB}$ The points are collinear. $B$ is the midpoint of
 $AC$.
 
 ---
@@ -271,7 +271,7 @@ $$
 $$
 
 The determinant measures the area scaling factor of the linear transformation represented by $A$. If
-$\det A = 0$The transformation collapses the plane onto a line (or a point), and the matrix is not
+$\det A = 0$ The transformation collapses the plane onto a line (or a point), and the matrix is not
 Invertible.
 
 **Inverse:**
@@ -298,7 +298,7 @@ $$
 ### Solving Systems of Linear Equations
 
 A system $A\mathbf{x} = \mathbf{b}$ has solution $\mathbf{x} = A^{-1}\mathbf{b}$ (provided $A$ is
-Invertible). If $\det A = 0$The system has either no solutions or infinitely many solutions.
+Invertible). If $\det A = 0$ The system has either no solutions or infinitely many solutions.
 
 **Example:** Solve the system:
 
@@ -437,7 +437,7 @@ Confirmed coplanar. $\blacksquare$
 
 ### Lines and Planes in 3D
 
-**Equation of a plane:** $\mathbf{r} \cdot \mathbf{n} = d$Where $\mathbf{n}$ is the normal vector
+**Equation of a plane:** $\mathbf{r} \cdot \mathbf{n} = d$ Where $\mathbf{n}$ is the normal vector
 And $d$ is a constant.
 
 In Cartesian form: $ax + by + cz = d$.
@@ -451,7 +451,7 @@ $$
 $$
 
 **Angle between a line and a plane:** If the line has direction $\mathbf{d}$ and the plane has
-Normal $\mathbf{n}$The angle $\phi$ between the line and the plane satisfies:
+Normal $\mathbf{n}$ The angle $\phi$ between the line and the plane satisfies:
 
 $$
 \sin\phi = \frac{|\mathbf{d} \cdot \mathbf{n}|}{|\mathbf{d}||\mathbf{n}|}
@@ -592,7 +592,7 @@ $$
 
 The vector $\mathbf{v}$ is called an **eigenvector** corresponding to $\lambda$.
 
-**Geometric interpretation:** When $A$ acts on $\mathbf{v}$It only stretches or compresses
+**Geometric interpretation:** When $A$ acts on $\mathbf{v}$ It only stretches or compresses
 $\mathbf{v}$ (by factor $\lambda$) without changing its direction.
 
 **Finding Eigenvalues:** Solve the characteristic equation $\det(A - \lambda I) = 0$.
@@ -651,16 +651,16 @@ $$
 
 $\lambda = 6$ or $\lambda = 3$.
 
-For $\lambda = 6$: $\begin{pmatrix} -1 & 2 \\ 1 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0}$Giving
+For $\lambda = 6$: $\begin{pmatrix} -1 & 2 \\ 1 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0}$ Giving
 $v_1 = 2v_2$. Eigenvector: $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$.
 
-For $\lambda = 3$: $\begin{pmatrix} 2 & 2 \\ 1 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0}$Giving
+For $\lambda = 3$: $\begin{pmatrix} 2 & 2 \\ 1 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0}$ Giving
 $v_1 = -v_2$. Eigenvector: $\begin{pmatrix} 1 \\ -1 \end{pmatrix}$.
 
 ### Diagonalisation (Advanced Higher)
 
 If an $n \times n$ matrix $A$ has $n$ linearly independent eigenvectors, it can be diagonalised:
-$A = PDP^{-1}$Where $D$ is a diagonal matrix containing the eigenvalues and $P$ has the Eigenvectors
+$A = PDP^{-1}$ Where $D$ is a diagonal matrix containing the eigenvalues and $P$ has the Eigenvectors
 as columns.
 
 **Applications:**
@@ -718,10 +718,10 @@ See the examples integrated throughout the sections above.
    the result.
 
 8. **Cofactor sign errors:** The cofactor $C_{ij}$ includes a factor of $(-1)^{i+j}$. For position
-   $(2, 3)$This is $(-1)^5 = -1$. Getting the sign wrong invalidates the entire inverse.
+   $(2, 3)$ This is $(-1)^5 = -1$. Getting the sign wrong invalidates the entire inverse.
 
 9. **Confusing rotation direction:** A positive angle in the rotation matrix represents
-   anticlockwise rotation. For clockwise rotation by $\theta$Use $-\theta$ or swap the signs of the
+   anticlockwise rotation. For clockwise rotation by $\theta$ Use $-\theta$ or swap the signs of the
    off-diagonal entries.
 
 ---
@@ -737,7 +737,7 @@ See the examples integrated throughout the sections above.
 
 ## Practice Questions
 
-1. Given $\mathbf{a} = (2, -1, 3)$ and $\mathbf{b} = (4, 2, -1)$Find
+1. Given $\mathbf{a} = (2, -1, 3)$ and $\mathbf{b} = (4, 2, -1)$ Find
    $\mathbf{a} \cdot \mathbf{b}$$|\mathbf{a}|$$|\mathbf{b}|$ And the angle between them.
 
 2. Find the equation of the plane containing the points $(1, 0, 2)$$(3, 1, -1)$ And $(0, 2, 4)$.
@@ -768,7 +768,7 @@ $$2x + y - z = 8$$ $$x - y + 3z = 1$$ $$3x + 2y + z = 11$$
 
 4. Find the area of the triangle with vertices $A(1, 0, 2)$, $B(3, -1, 4)$ And $C(0, 2, -1)$.
 
-5. Given $\overrightarrow{OA} = (1, -1, 3)$ and $\overrightarrow{OB} = (4, 2, -1)$Find the position
+5. Given $\overrightarrow{OA} = (1, -1, 3)$ and $\overrightarrow{OB} = (4, 2, -1)$ Find the position
     vector of the point $P$ on $AB$ such that $AP : PB = 3 : 1$.
 
 6. Find the angle between the lines $\mathbf{r} = (0, 0, 0) + s(1, 2, -1)$ and

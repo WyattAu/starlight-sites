@@ -1979,7 +1979,7 @@ The key differences:
 An enzyme has an optimum temperature of 37$^{\circ}$C. The activity is measured at different
 Temperatures:
 
-| Temperature ($^{\circ}$C) | Rate (arbitrary units) |
+| Temperature ($^{\circ}$ C) | Rate (arbitrary units) |
 | ------------------------- | ---------------------- |
 | 10                        | 5                      |
 | 20                        | 15                     |
@@ -2032,7 +2032,7 @@ Low, increasing light further will have no effect.
 At high $\mathrm{CO_2$ concentration, $\mathrm{CO_2$ is not limiting. If light is low, increasing
 $\mathrm{CO_2$ will have no effect.
 
-This is an application of Blackman"s law of limiting factors: at any given time, only one factor is
+This is an application of Blackman's law of limiting factors: at any given time, only one factor is
 Limiting.
 
 ## Cellular Respiration (OL/HL)
@@ -2318,7 +2318,7 @@ Shortest supply (Blackman's law of limiting factors).
 
 **$\mathrm{CO_2$ concentration:**
 
-- At low $\mathrm{CO_2$The rate of photosynthesis increases with increasing $\mathrm{CO_2$.
+- At low $\mathrm{CO_2$ The rate of photosynthesis increases with increasing $\mathrm{CO_2$.
 - The rate levels off as $\mathrm{CO_2$ is no longer limiting (another factor such as light or
   temperature becomes limiting).
 - Very high $\mathrm{CO_2$ concentrations may reduce the rate of photosynthesis in some plants by
@@ -2338,9 +2338,9 @@ Shortest supply (Blackman's law of limiting factors).
 A graph shows the rate of photosynthesis at different light intensities at two different
 $\mathrm{CO_2$ concentrations (low and high):
 
-At low $\mathrm{CO_2$The rate plateaus at a lower value than at high $\mathrm{CO_2$. This is because
+At low $\mathrm{CO_2$ The rate plateaus at a lower value than at high $\mathrm{CO_2$. This is because
 $\mathrm{CO_2$ becomes limiting at a lower light intensity when $\mathrm{CO_2$ concentration is low.
-At high $\mathrm{CO_2$A higher light intensity is required before $\mathrm{CO_2$ becomes limiting,
+At high $\mathrm{CO_2$ A higher light intensity is required before $\mathrm{CO_2$ becomes limiting,
 So the plateau is higher. This demonstrates that the factors interact: the level at which one factor
 Becomes limiting depends on the availability of the other factors.
 
@@ -3031,7 +3031,7 @@ This demonstrates that most energy is lost at each trophic level.
 Carbon is stored in:
 
 - Atmosphere (as $\mathrm{CO_2$)
-- Oceans (dissolved $\mathrm{CO_2$Carbonate rocks)
+- Oceans (dissolved $\mathrm{CO_2$ Carbonate rocks)
 - Fossil fuels (coal, oil, natural gas)
 - Living organisms (biomass)
 
@@ -3110,7 +3110,7 @@ Density).
 
 ### Pollution
 
-- **Air pollution:** $\mathrm{CO_2$$\mathrm{SO_2$$\mathrm{NO_x$Particulate matter.
+- **Air pollution:** $\mathrm{CO_2$$\mathrm{SO_2$$\mathrm{NO_x$ Particulate matter.
 - **Water pollution:** sewage, fertilisers (eutrophication), heavy metals, oil spills.
 - **Soil pollution:** pesticides, herbicides, industrial waste.
 
@@ -3173,7 +3173,7 @@ Place quadrats at regular intervals along a line.
 
 ### Measuring Biodiversity (HL)
 
-**Simpson"s Diversity Index:**
+**Simpson's Diversity Index:**
 
 $$
 D = 1 - \sum \frac{n_i(n_i - 1)}{N(N - 1)}
@@ -3286,7 +3286,7 @@ Specialist species (sphagnum moss, insectivorous plants such as sundews).
 
 **Threats:** Peat has been harvested for fuel and horticulture for centuries. Drainage for
 Agriculture destroys the waterlogged conditions needed for peat formation. When peat bogs are
-Drained, the stored carbon is released as $\mathrm{CO_2$Contributing to climate change.
+Drained, the stored carbon is released as $\mathrm{CO_2$ Contributing to climate change.
 
 **Conservation:** Raised bogs and blanket bogs are protected under EU law (Habitats Directive).
 Rewetting drained bogs can restore their function as carbon stores. Bord na Mona (the Irish peat
@@ -3331,7 +3331,7 @@ Nitrogen-deficient, reducing plant growth.
 ## Review: Population Growth Curves
 
 **Exponential growth:** When resources are unlimited, populations grow exponentially
-($N = N_0 e^{rt}$Where $r$ is the intrinsic growth rate). A graph of population size against time
+($N = N_0 e^{rt}$ Where $r$ is the intrinsic growth rate). A graph of population size against time
 Shows a J-shaped curve.
 
 **Logistic growth:** In reality, resources are limited. As the population approaches the carrying
@@ -3341,7 +3341,7 @@ $$
 \frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)
 $$
 
-When $N$ is small compared to $K$Growth is nearly exponential. When $N$ approaches $K$Growth Slows
+When $N$ is small compared to $K$ Growth is nearly exponential. When $N$ approaches $K$ Growth Slows
 and the population stabilises.
 
 **Worked Example: Interpreting a population growth graph.**
@@ -3744,7 +3744,7 @@ DNA is a double-stranded helix composed of nucleotides.
 - Adenine (A) pairs with Thymine (T) -- two hydrogen bonds.
 - Cytosine (C) pairs with Guanine (G) -- three hydrogen bonds.
 
-**Chargaff"s rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
+**Chargaff's rule:** $[\mathrm{A] = [\mathrm{T]$ and $[\mathrm{C] = [\mathrm{G]$.
 
 ### DNA Replication (HL)
 
@@ -4087,9 +4087,9 @@ $A + G = T + C$ (purines = pyrimidines).
 **Worked Example: Applying Chargaff's rules.**
 
 If a DNA molecule is 28% adenine, then it is also 28% thymine. Since $A + T + G + C = 100\%$:
-$G + C = 100 - 28 - 28 = 44\%$. Since $G = C$Both $G$ and $C$ are 22%.
+$G + C = 100 - 28 - 28 = 44\%$. Since $G = C$ Both $G$ and $C$ are 22%.
 
-The percentage of purines ($A + G$) = $28 + 22 = 50\%$. The percentage of pyrimidines ($T + C$) =
+The percentage of purines ($A + G$) = $28 + 22 = 50\%$. The percentage of pyrimidines ($ T + C$) =
 $28 + 22 = 50\%$.
 
 **DNA replication (semiconservative):**
@@ -4355,7 +4355,7 @@ $$
 
 Degrees of freedom = $3 - 1 = 2$. Critical value at 5% for 2 df = 5.991.
 
-Since $\chi^2 = 360 \gt 5.991$The population is significantly different from Hardy-Weinberg
+Since $\chi^2 = 360 \gt 5.991$ The population is significantly different from Hardy-Weinberg
 Equilibrium.
 
 **Types of natural selection:**
@@ -4624,7 +4624,7 @@ Decreases; air rushes in.
 **Expiration:** intercostal muscles and diaphragm relax; thorax volume decreases; lung pressure
 Increases; air is pushed out.
 
-**Worked Example: Fick"s Law and gas exchange.**
+**Worked Example: Fick's Law and gas exchange.**
 
 $$
 \mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}
@@ -7059,7 +7059,7 @@ $$
 \mathrm{pK_a = -\log K_a
 $$
 
-The larger the $K_a$The stronger the acid.
+The larger the $K_a$ The stronger the acid.
 
 **Relationship:** $\mathrm{pH + \mathrm{pOH = 14$ at $25^\circ\mathrm{C$.
 
@@ -7115,13 +7115,13 @@ $$
 
 ### How Buffers Work
 
-When acid ($\mathrm{H^+$) is added: the conjugate base reacts with $\mathrm{H^+$Removing it.
+When acid ($\mathrm{H^+$) is added: the conjugate base reacts with $\mathrm{H^+$ Removing it.
 
 $$
 \mathrm{CH_3\mathrm{COO^- + \mathrm{H_3\mathrm{O^+ \to \mathrm{CH_3\mathrm{COOH + \mathrm{H_2\mathrm{O
 $$
 
-When base ($\mathrm{OH^-$) is added: the weak acid reacts with $\mathrm{OH^-$Neutralising it.
+When base ($\mathrm{OH^-$) is added: the weak acid reacts with $\mathrm{OH^-$ Neutralising it.
 
 $$
 \mathrm{CH_3\mathrm{COOH + \mathrm{OH^- \to \mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O
@@ -7256,10 +7256,10 @@ $$
 
 ### Strong Diprotic Acid
 
-For $\mathrm{H_2\mathrm{SO_4$The first proton dissociates completely. The second proton has
+For $\mathrm{H_2\mathrm{SO_4$ The first proton dissociates completely. The second proton has
 $K_{a2} = 1.2 \times 10^{-2}$.
 
-**Worked Example 6 (HL):** Find the pH of $0.010 \mathrm{ M$ $\mathrm{H_2\mathrm{SO_4$Accounting for
+**Worked Example 6 (HL):** Find the pH of $0.010 \mathrm{ M$ $\mathrm{H_2\mathrm{SO_4$ Accounting for
 Both protons.
 
 First proton: $[\mathrm{H^+] = 0.010 \mathrm{ M$ (complete dissociation).
@@ -7623,7 +7623,7 @@ $$
 \mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2
 $$
 
-Add excess $\mathrm{CaCO_3$ to $\mathrm{HCl$Filter, evaporate, crystallise.
+Add excess $\mathrm{CaCO_3$ to $\mathrm{HCl$ Filter, evaporate, crystallise.
 
 ### Method 4: Acid + Insoluble Base
 
@@ -7635,7 +7635,7 @@ $$
 \mathrm{CuO + \mathrm{H_2\mathrm{SO_4 \to \mathrm{CuSO_4 + \mathrm{H_2\mathrm{O
 $$
 
-Warm $\mathrm{CuO$ with dilute $\mathrm{H_2\mathrm{SO_4$Filter, evaporate, crystallise.
+Warm $\mathrm{CuO$ with dilute $\mathrm{H_2\mathrm{SO_4$ Filter, evaporate, crystallise.
 
 ### Method 5: Precipitation
 
@@ -7937,7 +7937,7 @@ Notation: $^A_Z X$
 
 ### Isotopes (OL/HL)
 
-Atoms of the same element with different numbers of neutrons (same $Z$Different $A$).
+Atoms of the same element with different numbers of neutrons (same $Z$ Different $A$).
 
 **Example (OL):** Carbon has two common isotopes: $^{12}_6\mathrm{C$ (98.9%) and $^{13}_6\mathrm{C$
 (1.1%).
@@ -7955,7 +7955,7 @@ A_r = \frac{75 \times 35 + 25 \times 37}{100} = \frac{2625 + 925}{100} = 35.5
 $$
 
 **Worked Example 1 (HL):** The relative atomic mass of boron is 10.81. If boron has two isotopes,
-$^{10}\mathrm{B$ and $^{11}\mathrm{B$Calculate their percentage abundances.
+$^{10}\mathrm{B$ and $^{11}\mathrm{B$ Calculate their percentage abundances.
 
 Let $x$ = percentage of $^{10}\mathrm{B$ and $(100 - x)$ = percentage of $^{11}\mathrm{B$.
 
@@ -8039,7 +8039,7 @@ This is because a half-filled $d$ subshell ($3d^5$) is more stable than a partia
 ($3d^4$). Similarly, copper ($Z = 29$) is $[\mathrm{Ar]\,4s^1 3d^{10}$ rather than
 $[\mathrm{Ar]\,4s^2 3d^9$.
 
-### Hund"s Rule (HL)
+### Hund's Rule (HL)
 
 When filling degenerate orbitals (same energy), electrons occupy separate orbitals with parallel
 Spins before pairing.
@@ -8092,7 +8092,7 @@ $$
 
 **Derivation of the energy levels of hydrogen:**
 
-The energy of an electron in the $n$Th level of hydrogen is:
+The energy of an electron in the $n$ Th level of hydrogen is:
 
 $$
 E_n = -\frac{13.6}{n^2} \mathrm{ eV
@@ -8292,12 +8292,12 @@ This element is chromium.
 3. A photon of wavelength $97.2\mathrm{ nm$ is emitted from a hydrogen atom. Identify the transition
    involved.
 4. The relative atomic mass of boron is 10.81. If boron has two isotopes, $^{10}\mathrm{B$ and
-   $^{11}\mathrm{B$Calculate their percentage abundances.
+   $^{11}\mathrm{B$ Calculate their percentage abundances.
 
 ### Extended Questions
 
 1. Explain why the first ionisation energy of neon is much higher than that of sodium.
-2. Write the electron configuration of $\mathrm{Fe^{2+}$ and $\mathrm{Fe^{3+}$Explaining why
+2. Write the electron configuration of $\mathrm{Fe^{2+}$ and $\mathrm{Fe^{3+}$ Explaining why
    $\mathrm{Fe^{3+}$ is more stable.
 3. Calculate the energy of a photon with wavelength $121.6\mathrm{ nm$ and identify the hydrogen
    transition that produces it.
@@ -8450,7 +8450,7 @@ When transition metals form ions, the $4s$ electrons are removed before the $3d$
 
 $\mathrm{Fe^{2+}$: $[\mathrm{Ar]\,3d^6$ (two $4s$ electrons removed)
 
-$\mathrm{Fe^{3+}$: $[\mathrm{Ar]\,3d^5$ (three electrons removed: two from $4s$One from $3d$)
+$\mathrm{Fe^{3+}$: $[\mathrm{Ar]\,3d^5$ (three electrons removed: two from $4s$ One from $3d$)
 
 Note: $\mathrm{Fe^{3+}$ has a half-filled $3d$ subshell, making it particularly stable.
 
@@ -10884,7 +10884,7 @@ $$
 \mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br
 $$
 
-**Markovnikov"s Rule (HL):** When HX adds to an unsymmetrical alkene, the hydrogen attaches to the
+**Markovnikov's Rule (HL):** When HX adds to an unsymmetrical alkene, the hydrogen attaches to the
 Carbon with the greater number of hydrogens already attached.
 
 **Addition of water (hydration):**
@@ -11448,10 +11448,10 @@ flowchart TD
 | ------------------------- | ----------------------------------- | --------------------- | ---------------------- |
 | Alkene                    | $\mathrm{Br_2$                      | Dibromoalkane         | Electrophilic addition |
 | Alkene                    | $\mathrm{HBr$                       | Bromoalkane           | Electrophilic addition |
-| Primary alcohol           | $[\mathrm{O]$Distil                 | Aldehyde              | Oxidation              |
-| Primary alcohol           | $[\mathrm{O]$Reflux                 | Carboxylic acid       | Oxidation              |
+| Primary alcohol           | $[\mathrm{O]$ Distil                 | Aldehyde              | Oxidation              |
+| Primary alcohol           | $[\mathrm{O]$ Reflux                 | Carboxylic acid       | Oxidation              |
 | Secondary alcohol         | $[\mathrm{O]$                       | Ketone                | Oxidation              |
-| Alcohol                   | $\mathrm{conc. H_2\mathrm{SO_4$Heat | Alkene                | Dehydration            |
+| Alcohol                   | $\mathrm{conc. H_2\mathrm{SO_4$ Heat | Alkene                | Dehydration            |
 | Carboxylic acid + alcohol | $\mathrm{conc. H_2\mathrm{SO_4$     | Ester + water         | Esterification         |
 | Ester + NaOH              | Heat                                | Carboxylate + alcohol | Saponification         |
 | Aldehyde                  | Tollens'                            | Silver mirror         | Oxidation (test)       |
@@ -12094,7 +12094,7 @@ Calculations at Higher Level.
 
 ## The Mole Concept (OL/HL)
 
-### Avogadro"s Number
+### Avogadro's Number
 
 $$
 N_A = 6.022 \times 10^{23}\mathrm{ mol^{-1}
@@ -12245,7 +12245,7 @@ $$
 
 Stoichiometry requires $n(\mathrm{O_2) = \frac{1}{2}n(\mathrm{Mg) = 0.0617\mathrm{ mol$.
 
-Since $0.156 > 0.0617$Oxygen is in excess and magnesium is the limiting reagent.
+Since $0.156 > 0.0617$ Oxygen is in excess and magnesium is the limiting reagent.
 
 $$
 N(\mathrm{MgO) = n(\mathrm{Mg) = 0.123\mathrm{ mol
@@ -12474,7 +12474,7 @@ The ideal gas equation combines three gas laws:
 - **Charles's Law:** $V \propto T$ (at constant $p$)
 - **Avogadro's Law:** $V \propto n$ (at constant $p$ and $T$)
 
-Combining: $pV = nRT$Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$.
+Combining: $pV = nRT$ Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$.
 
 ### Assumptions of the Ideal Gas Model
 
@@ -12663,7 +12663,7 @@ $$
 
 Stoichiometry requires $n(\mathrm{HCl) = 2 \times n(\mathrm{Zn) = 0.306 \mathrm{ mol$.
 
-Since $0.200 < 0.306$HCl is the limiting reagent.
+Since $0.200 < 0.306$ HCl is the limiting reagent.
 
 $$
 n(\mathrm{ZnCl_2) = \frac{1}{2} \times 0.200 = 0.100 \mathrm{ mol
@@ -12841,7 +12841,7 @@ $$
     monoprotic.
 9. What mass of $\mathrm{AgCl$ precipitate would be formed when excess $\mathrm{AgNO_3$ is added to
     $25.0 \mathrm{ cm^3$ of $0.150 \mathrm{ M$ $\mathrm{MgCl_2$?
-10. A gas mixture at $100 \mathrm{ kPa$ and $298 \mathrm{ K$ contains $\mathrm{N_2$, $\mathrm{O_2$And
+10. A gas mixture at $100 \mathrm{ kPa$ and $298 \mathrm{ K$ contains $\mathrm{N_2$, $\mathrm{O_2$ And
     $\mathrm{CO_2$ with partial pressures of 78, 21, and 1 kPa respectively. Calculate the mole
     fraction and number of moles of each gas if the total volume is $10.0 \mathrm{ L$.
 11. Find the empirical formula of a compound that contains 37.5% C, 12.5% H, and 50.0% O by mass.
@@ -13624,7 +13624,7 @@ def mystery(n):
 | 4   | 2     | False      | 6     |
 | 5   | 1     | False      | 6     |
 
-The function computes the sum of proper divisors. $1 + 2 + 3 = 6$. Since $6 = 6$The number 6 is A
+The function computes the sum of proper divisors. $1 + 2 + 3 = 6$. Since $6 = 6$ The number 6 is A
 **perfect number**.
 
 ## Additional Practice Questions
@@ -13723,7 +13723,7 @@ otherwise.
 
 **Proof.** The loop examines every index from 0 to len(arr)-1.
 
-- If `target` is at index $k$: the loop reaches index $k$Finds `arr[k] == target`And returns $k$.
+- If `target` is at index $k$: the loop reaches index $k$ Finds `arr[k] == target`And returns $k$.
 - If `target` is not in the array: no index satisfies `arr[i] == target`So the loop completes
   without returning, and the function returns -1.
 
@@ -13738,7 +13738,7 @@ the End of the array.
 
 Base case ($k=0$): Before any passes, 0 elements are sorted. True.
 
-Inductive step: Assume after $k$ passes, the $k$ largest elements are sorted. In pass $k+1$Adjacent
+Inductive step: Assume after $k$ passes, the $k$ largest elements are sorted. In pass $k+1$ Adjacent
 Pairs are compared and swapped if out of order. The largest unsorted element "bubbles up" to
 position $n - k - 1$ (one position left of the previously sorted elements). After this pass, $k+1$
 elements Are sorted.
@@ -15476,7 +15476,7 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
  10001
 ```
 
-**Two"s complement:** used to represent negative numbers. Invert the bits and add 1.
+**Two's complement:** used to represent negative numbers. Invert the bits and add 1.
 
 **Example (HL):** Represent $-5$ in 8-bit two's complement.
 
@@ -15486,18 +15486,18 @@ $5 = 00000101$. Invert: $11111010$. Add 1: $11111011$.
 
 $20 = 00010100$. $14 = 00001110$.
 
-Two's complement of 14: invert $00001110 \to 11110001$Add 1 $\to 11110010$.
+Two's complement of 14: invert $00001110 \to 11110001$ Add 1 $\to 11110010$.
 
 $00010100 + 11110010 = 100000110$. Discard overflow: $00000110 = 6$. Correct.
 
 **Worked Example (HL).** Represent $-20$ in 8-bit two's complement and add it to $15$ in two's
 Complement.
 
-$-20$: $20 = 00010100$Flip $= 11101011$Add 1 $= 11101100$.
+$-20$: $20 = 00010100$ Flip $= 11101011$ Add 1 $= 11101100$.
 
 $15 = 00001111$.
 
-$11101100 + 00001111 = 11111011$. MSB is 1, so negative. Flip $= 00000100$Add 1 $= 00000101 = 5$.
+$11101100 + 00001111 = 11111011$. MSB is 1, so negative. Flip $= 00000100$ Add 1 $= 00000101 = 5$.
 Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 
 **Two's complement range:**
@@ -17756,7 +17756,7 @@ $\lfloor\sqrt{n}\rfloor$. If $n$ is composite, it has a factor $f \le \sqrt{n}$.
 Every such $f$ So it will find a divisor. If no divisor is found, $n$ has no factor $\le
 \sqrt{n}$,
 And therefore no factor at all (since if $n = a \times b$ with $a \gt \sqrt{n}$ Then
-$b \lt \sqrt{n}$Contradicting no divisor found). Hence $n$ is prime. $\blacksquare$
+$b \lt \sqrt{n}$ Contradicting no divisor found). Hence $n$ is prime. $\blacksquare$
 
 ## Data Structures (OL/HL)
 
@@ -17851,7 +17851,7 @@ print(f"Found at index: {result}")  # 3
 **Time complexity:** $O(n)$.
 
 **Proof of correctness.** The loop examines every element from index 0 to $n-1$. If the target is at
-Index $k$The loop reaches index $k$ and returns $k$. If the target is not in the array, the loop
+Index $k$ The loop reaches index $k$ and returns $k$. If the target is not in the array, the loop
 Completes without finding it and returns -1. $\blacksquare$
 
 ### Binary Search (HL)
@@ -18113,7 +18113,7 @@ def quick_sort(arr):
 
 ### Recursion in Detail (HL)
 
-**Euclid"s algorithm for GCD:**
+**Euclid's algorithm for GCD:**
 
 ```python
 def gcd(a, b):
@@ -18783,7 +18783,7 @@ $$
 \theta = \arctan\left(\frac{b}{a}\right), \quad a > 0
 $$
 
-For $a < 0$Add $\pi$ to get the correct quadrant.
+For $a < 0$ Add $\pi$ to get the correct quadrant.
 
 **Quadrant check for the argument:**
 
@@ -18804,7 +18804,7 @@ Where $r = |z|$ and $\theta = \arg(z)$.
 
 **Example (HL):** Express $z = -1 + i\sqrt{3}$ in polar form.
 
-$r = \sqrt{1 + 3} = 2$. Since $a = -1 < 0$ and $b = \sqrt{3} > 0$The point is in the second
+$r = \sqrt{1 + 3} = 2$. Since $a = -1 < 0$ and $b = \sqrt{3} > 0$ The point is in the second
 Quadrant.
 
 $$
@@ -18815,7 +18815,7 @@ $$
 Z = 2\left(\cos\frac{2\pi}{3} + i\sin\frac{2\pi}{3}\right) = 2e^{2\pi i/3}
 $$
 
-### De Moivre"s Theorem (HL)
+### De Moivre's Theorem (HL)
 
 For $z = r(\cos\theta + i\sin\theta)$ and $n \in \mathbb{Z}$:
 
@@ -18838,7 +18838,7 @@ $$
 
 **Example (HL):** Express $z = 1 - i\sqrt{3}$ in polar form and hence find $z^5$.
 
-$r = \sqrt{1 + 3} = 2$. Since $a = 1 > 0$ and $b = -\sqrt{3} < 0$The point is in the fourth
+$r = \sqrt{1 + 3} = 2$. Since $a = 1 > 0$ and $b = -\sqrt{3} < 0$ The point is in the fourth
 Quadrant.
 
 $$
@@ -18851,7 +18851,7 @@ $$
 
 ### Roots of Unity (HL)
 
-The $n$Th roots of unity are the solutions to $z^n = 1$.
+The $n$ Th roots of unity are the solutions to $z^n = 1$.
 
 $$
 Z_k = \cos\frac{2k\pi}{n} + i\sin\frac{2k\pi}{n}, \quad k = 0, 1, 2, \ldots, n-1
@@ -18861,9 +18861,9 @@ These lie on the unit circle in the complex plane, equally spaced at angles of $
 
 **Properties:**
 
-- The sum of all $n$Th roots of unity is $0$.
-- The product of all $n$Th roots of unity is $(-1)^{n-1}$.
-- The $n$Th roots of any complex number $w = re^{i\theta}$ are
+- The sum of all $n$ Th roots of unity is $0$.
+- The product of all $n$ Th roots of unity is $(-1)^{n-1}$.
+- The $n$ Th roots of any complex number $w = re^{i\theta}$ are
   $\sqrt[n]{r}\, e^{i(\theta + 2k\pi)/n}$ for $k = 0, 1, \ldots, n-1$.
 
 **Example:** Find the cube roots of unity.
@@ -18969,7 +18969,7 @@ $$
 
 1. **Base case:** Show the statement holds for $n = 1$ (or the smallest relevant value).
 2. **Inductive hypothesis:** Assume the statement holds for $n = k$.
-3. **Inductive step:** Show that if it holds for $n = k$It also holds for $n = k + 1$.
+3. **Inductive step:** Show that if it holds for $n = k$ It also holds for $n = k + 1$.
 4. **Conclusion:** By the principle of mathematical induction, the statement holds for all
    $n \geq 1$.
 
@@ -18978,7 +18978,7 @@ If any link in the chain holds, the next one does too. Together, they prove that
 
 **Example:** Prove by induction that $\sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}$.
 
-**Base case** ($n = 1$): LHS $= 1$RHS $= \frac{1 \cdot 2 \cdot 3}{6} = 1$. True.
+**Base case** ($n = 1$): LHS $= 1$ RHS $= \frac{1 \cdot 2 \cdot 3}{6} = 1$. True.
 
 **Inductive hypothesis:** Assume $\sum_{r=1}^{k} r^2 = \frac{k(k+1)(2k+1)}{6}$.
 
@@ -19012,7 +19012,7 @@ This matches the formula with $n = k + 1$. By induction, the result holds for al
 
 **Example:** Prove that $\sum_{r=1}^{n} r^3 = \frac{n^2(n+1)^2}{4}$.
 
-**Base case** ($n = 1$): LHS $= 1$RHS $= \frac{1 \cdot 4}{4} = 1$. True.
+**Base case** ($n = 1$): LHS $= 1$ RHS $= \frac{1 \cdot 4}{4} = 1$. True.
 
 **Inductive hypothesis:** Assume $\sum_{r=1}^{k} r^3 = \frac{k^2(k+1)^2}{4}$.
 
@@ -19046,7 +19046,7 @@ By induction, the result holds for all $n \ge 1$.
 
 ## Long Division of Polynomials (HL)
 
-To divide $P(x)$ by $(x - a)$Use either long division or synthetic division. The result gives:
+To divide $P(x)$ by $(x - a)$ Use either long division or synthetic division. The result gives:
 
 $$
 P(x) = (x - a)Q(x) + R
@@ -19062,7 +19062,7 @@ Try $P(1) = 1 - 3 + 2 = 0$ So $(x - 1)$ is a factor.
 
 Dividing: $x^3 - 3x + 2 = (x - 1)(x^2 + x - 2) = (x - 1)(x + 2)(x - 1) = (x - 1)^2(x + 2)$.
 
-**Example (HL):** When $P(x) = x^3 + 2x^2 - 5x - 6$ is divided by $(x - 1)$The remainder is
+**Example (HL):** When $P(x) = x^3 + 2x^2 - 5x - 6$ is divided by $(x - 1)$ The remainder is
 $P(1) = 1 + 2 - 5 - 6 = -8$.
 
 ### Polynomial Inequalities (HL)
@@ -19079,7 +19079,7 @@ Sign chart:
 | $(x-1)^2$ | Positive | Positive     | Positive |
 | Product   | Negative | Positive     | Positive |
 
-Solution: $x < -2$ or $x > 1$I.e., $x \in (-\infty, -2) \cup (1, \infty)$.
+Solution: $x < -2$ or $x > 1$ I.e., $x \in (-\infty, -2) \cup (1, \infty)$.
 
 Note that $x = -1$ is not a solution (the product equals zero, not positive). And $x = 1$ is not a
 Solution despite being a root, because the factor is squared.
@@ -19106,7 +19106,7 @@ See the examples integrated throughout the sections above.
 8. **Forgetting absolute values** in the quadratic formula when $\Delta < 0$:
    $x = \frac{-b \pm i\sqrt{|\Delta|}}{2a}$.
 9. **Confusing the argument quadrant.** For $z = -1 + i$ (second quadrant),
-   $\arg(z) = \frac{3\pi}{4}$Not $\arctan(-1)$.
+   $\arg(z) = \frac{3\pi}{4}$ Not $\arctan(-1)$.
 
 ## Practice Questions
 
@@ -19125,7 +19125,7 @@ See the examples integrated throughout the sections above.
 3. Find the modulus and argument of $\frac{1 + i}{1 - i}$.
 4. Find the values of $k$ for which $kx^2 + 4x + k = 0$ has equal roots.
 5. Given $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ and
-   $B = \begin{pmatrix} 0 & -1 \\ 2 & 3 \end{pmatrix}$Find $AB - BA$.
+   $B = \begin{pmatrix} 0 & -1 \\ 2 & 3 \end{pmatrix}$ Find $AB - BA$.
 6. Find all complex numbers $z$ such that $z^4 = 16$.
 7. Solve the inequality $x^2 - 2x - 15 \gt 0$.
 8. Factorise $x^4 - 1$ completely.
@@ -19139,7 +19139,7 @@ See the examples integrated throughout the sections above.
 
 ### Extended Practice
 
-1. Given $z = 2 + 3i$ and $w = 1 - 4i$Find $z\bar{w}$ and $|z/w|$.
+1. Given $z = 2 + 3i$ and $w = 1 - 4i$ Find $z\bar{w}$ and $|z/w|$.
 2. Solve the simultaneous equations $x + iy + iz = 0$ and $x - 2y + iz = 1 + i$ for real $x$ and
     $y$.
 3. Prove by induction that
@@ -19211,7 +19211,7 @@ Adjust the parameters in the graph above to explore the relationships between va
 ### The Derivative
 
 The derivative of a function $f(x)$ measures the instantaneous rate of change of $f$ with respect to
-$x$. It is denoted $f'(x)$, $\frac{df}{dx}$Or $\dot{x}$ in the context of time.
+$x$. It is denoted $f'(x)$, $\frac{df}{dx}$ Or $\dot{x}$ in the context of time.
 
 Geometrically, $f'(a)$ is the gradient of the tangent to the curve $y = f(x)$ at the point $x = a$.
 
@@ -19284,7 +19284,7 @@ $$
 = \lim_\{h \to 0\} \left[ f(x+h) \cdot \frac\{g(x+h) - g(x)\}\{h\} + g(x) \cdot \frac\{f(x+h) - f(x)\}\{h\} \right]
 $$
 
-Since $f$ is differentiable (and hence continuous), $\lim_{h \to 0} f(x+h) = f(x)$Giving:
+Since $f$ is differentiable (and hence continuous), $\lim_{h \to 0} f(x+h) = f(x)$ Giving:
 
 $$
 = f(x)g'(x) + g(x)f'(x)
@@ -19386,7 +19386,7 @@ $$
 
 ### Derivative of $a^x$ (HL)
 
-For $a > 0$Write $a^x = e^{x \ln a}$. Then:
+For $a > 0$ Write $a^x = e^{x \ln a}$. Then:
 
 $$
 \frac\{d\}\{dx\}[a^x] = e^\{x \ln a\} \cdot \ln a = a^x \ln a
@@ -19394,7 +19394,7 @@ $$
 
 ### Implicit Differentiation (HL)
 
-When a function is not given explicitly as $y = f(x)$Differentiate both sides with respect to $x$
+When a function is not given explicitly as $y = f(x)$ Differentiate both sides with respect to $x$
 Treating $y$ as a function of $x$.
 
 **Example:** Find $\frac{dy}{dx}$ when $x^2 + y^2 = 25$.
@@ -19534,7 +19534,7 @@ $$
 \frac\{f(3) - f(1)\}\{3 - 1\} = \frac\{9 - 1\}\{2\} = 4
 $$
 
-We need $f'(c) = 2c = 4$ So $c = 2$. Since $1 < 2 < 3$The MVT is verified.
+We need $f'(c) = 2c = 4$ So $c = 2$. Since $1 < 2 < 3$ The MVT is verified.
 
 ### Rates of Change (OL/HL)
 
@@ -19549,7 +19549,7 @@ $$
 A rate of $3\mathrm{ m^3/\mathrm{min$. How fast is the water level rising when the water is 4 m
 deep?
 
-The tank has similar cross-sections, so $\frac{r}{h} = \frac{5}{10} = \frac{1}{2}$Giving $r = h/2$.
+The tank has similar cross-sections, so $\frac{r}{h} = \frac{5}{10} = \frac{1}{2}$ Giving $r = h/2$.
 
 $$
 V = \frac\{1\}\{3\}\pi r^2 h = \frac\{1\}\{3\}\pi\left(\frac\{h\}\{2\}\right)^2 h = \frac\{\pi h^3\}\{12\}
@@ -19608,7 +19608,7 @@ $$
 \frac\{d^2V\}\{dx^2\} = \frac\{-6x\}\{4\} = \frac\{-3x\}\{2\}
 $$
 
-At $x = 5\sqrt{2}$: $\frac{d^2V}{dx^2} = \frac{-15\sqrt{2}}{2} < 0$Confirming a maximum.
+At $x = 5\sqrt{2}$: $\frac{d^2V}{dx^2} = \frac{-15\sqrt{2}}{2} < 0$ Confirming a maximum.
 
 $$
 H = \frac\{150 - 50\}\{4 \cdot 5\sqrt\{2\}\} = \frac\{100\}\{20\sqrt\{2\}\} = \frac\{5\}\{\sqrt\{2\}\} = \frac\{5\sqrt\{2\}\}\{2\}
@@ -19666,12 +19666,12 @@ A = \int_a^b |f(x)| \, dx
 $$
 
 <Aside type="caution">
-If the curve crosses the $x$-axis between $a$ and $b$Split the integral and take the
+If the curve crosses the $x$-axis between $a$ and $b$ Split the integral and take the
 
 Absolute value of each part. The integral itself gives the signed area.
 </Aside>
 
-**Example (OL):** Find the area enclosed by $y = x^2$The $x$-axis, $x = 0$ And $x = 3$.
+**Example (OL):** Find the area enclosed by $y = x^2$ The $x$-axis, $x = 0$ And $x = 3$.
 
 $$
 A = \int_0^3 x^2 \, dx = \left[\frac\{x^3\}\{3\}\right]_0^3 = \frac\{27\}\{3\} = 9 \mathrm\{ square units
@@ -19679,7 +19679,7 @@ $$
 
 **Example (OL):** Find the total area between $y = x^2 - 4$ and the $x$-axis.
 
-The curve crosses the $x$-axis when $x^2 = 4$I.e. $x = -2$ and $x = 2$.
+The curve crosses the $x$-axis when $x^2 = 4$ I.e. $x = -2$ and $x = 2$.
 
 $$
 A = \int_\{-2\}^\{2\} |x^2 - 4| \, dx = \int_\{-2\}^\{2\} (4 - x^2) \, dx = \left[4x - \frac\{x^3\}\{3\}\right]_\{-2\}^\{2\} = \left(8 - \frac\{8\}\{3\}\right) - \left(-8 + \frac\{8\}\{3\}\right) = \frac\{32\}\{3\}
@@ -19878,7 +19878,7 @@ $$
 \frac\{1\}\{g(y)\} \, dy = f(x) \, dx
 $$
 
-**Example:** Solve $\frac{dy}{dx} = \frac{x}{y}$Given $y = 2$ when $x = 0$.
+**Example:** Solve $\frac{dy}{dx} = \frac{x}{y}$ Given $y = 2$ when $x = 0$.
 
 $$
 Y \, dy = x \, dx \implies \frac\{y^2\}\{2\} = \frac\{x^2\}\{2\} + C
@@ -19923,8 +19923,8 @@ $10 = e^{(\ln 2/3)t}$
 
 $t = \frac{3 \ln 10}{\ln 2} \approx 9.97$ hours.
 
-**Half-life proof.** For exponential decay $y = y_0 e^{-kt}$The half-life $t_{1/2}$ satisfies
-$y_0/2 = y_0 e^{-kt_{1/2}}$ So $e^{-kt_{1/2}} = 1/2$Giving $t_{1/2} = \frac{\ln 2}{k}$.
+**Half-life proof.** For exponential decay $y = y_0 e^{-kt}$ The half-life $t_{1/2}$ satisfies
+$y_0/2 = y_0 e^{-kt_{1/2}}$ So $e^{-kt_{1/2}} = 1/2$ Giving $t_{1/2} = \frac{\ln 2}{k}$.
 
 ### Applications: Connected Rates of Change (HL)
 
@@ -19978,9 +19978,9 @@ See the examples integrated throughout the sections above.
 7. **Forgetting to change limits** when using substitution in a definite integral.
 8. **Confusing $\frac{d}{dx}[\ln x] = \frac{1}{x}$ with $\int \frac{1}{x}\,dx = \ln|x|$** -- the
    absolute value in the integral is essential.
-9. **Cyclic integration by parts** -- when integrating $e^x \sin x$ or $e^x \cos x$The integral
+9. **Cyclic integration by parts** -- when integrating $e^x \sin x$ or $e^x \cos x$ The integral
    reappears. Move it to one side and divide by 2. Do not loop forever.
-10. **Stationary point classification** -- when $f''(x) = 0$The second derivative test is
+10. **Stationary point classification** -- when $f''(x) = 0$ The second derivative test is
     inconclusive. Use the first derivative test instead.
 11. **Domain issues with implicit differentiation** -- when finding $\frac{dy}{dx}$ implicitly,
     always check that the point lies on the curve before substituting.
@@ -20531,7 +20531,7 @@ Where $m$ is the slope and $c$ is the $y$-intercept.
 **Proof of the perpendicular condition.** If two lines with slopes $m_1$ and $m_2$ are
 Perpendicular, then the angle between them is $90^\circ$. Using the tangent addition formula:
 $\tan(\alpha + \beta) = \frac{m_1 + m_2}{1 - m_1 m_2}$. Setting $\alpha + \beta = 90^\circ$:
-$\tan 90^\circ$ Is undefined, so $1 - m_1 m_2 = 0$Giving $m_1 m_2 = -1$.
+$\tan 90^\circ$ Is undefined, so $1 - m_1 m_2 = 0$ Giving $m_1 m_2 = -1$.
 
 **Example (OL):** Find the equation of the line through $(1, 3)$ perpendicular to $y = 2x + 1$.
 
@@ -20579,7 +20579,7 @@ $$
 A = \frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|
 $$
 
-This is derived from the shoelace formula (also known as Gauss"s area formula).
+This is derived from the shoelace formula (also known as Gauss's area formula).
 
 **Example (HL):** Find the area of the triangle with vertices $(1, 2)$$(4, 6)$$(3, -1)$.
 
@@ -20615,7 +20615,7 @@ $$
 (x - 2)^2 - 4 + (y + 3)^2 - 9 - 3 = 0 \implies (x - 2)^2 + (y + 3)^2 = 16
 $$
 
-Centre $(2, -3)$Radius $4$.
+Centre $(2, -3)$ Radius $4$.
 
 ### Tangent to a Circle (HL)
 
@@ -20626,7 +20626,7 @@ X_1 x + y_1 y = r^2
 $$
 
 **Proof.** The radius to $(x_1, y_1)$ has slope $y_1/x_1$. The tangent is perpendicular, so its
-Slope is $-x_1/y_1$. Using point-slope form: $y - y_1 = -\frac{x_1}{y_1}(x - x_1)$Which simplifies
+Slope is $-x_1/y_1$. Using point-slope form: $y - y_1 = -\frac{x_1}{y_1}(x - x_1)$ Which simplifies
 To $x_1 x + y_1 y = x_1^2 + y_1^2 = r^2$.
 
 **Example (HL):** Find the equation of the tangent to $x^2 + y^2 = 25$ at the point $(3, 4)$.
@@ -20655,7 +20655,7 @@ $$
 X^2 + 6x + 9 = 0 \implies (x + 3)^2 = 0
 $$
 
-The discriminant is $\Delta = 0$Confirming a tangent. The point of tangency is $x = -3$
+The discriminant is $\Delta = 0$ Confirming a tangent. The point of tangency is $x = -3$
 $y = \frac{-9 + 25}{4} = 4$.
 
 ### Intersection of Line and Circle
@@ -20678,7 +20678,7 @@ Substituting $(4,0)$: $16 + 8g = 0 \implies g = -2$.
 
 Substituting $(0,4)$: $16 + 8f = 0 \implies f = -2$.
 
-The circle is $x^2 + y^2 - 4x - 4y = 0$With centre $(2, 2)$ and radius $\sqrt{4+4} = 2\sqrt{2}$.
+The circle is $x^2 + y^2 - 4x - 4y = 0$ With centre $(2, 2)$ and radius $\sqrt{4+4} = 2\sqrt{2}$.
 
 ## Trigonometry
 
@@ -20990,7 +20990,7 @@ $$
 
 So $5\sin\theta + 12\cos\theta = 13\sin(\theta + \alpha)$ where $\tan\alpha = 12/5$.
 
-Maximum $= 13$Minimum $= -13$.
+Maximum $= 13$ Minimum $= -13$.
 
 ## Vectors (HL)
 
@@ -21029,7 +21029,7 @@ $|\mathbf{a} \times \mathbf{b}| = |\mathbf{a}||\mathbf{b}|\sin\theta$ gives the 
 Parallelogram spanned by $\mathbf{a}$ and $\mathbf{b}$.
 
 **Example (HL):** Given $\mathbf{a} = 2\mathbf{i} - \mathbf{j} + 3\mathbf{k}$ and
-$\mathbf{b} = \mathbf{i} + 2\mathbf{j} - \mathbf{k}$Find $\mathbf{a} \times \mathbf{b}$ and the
+$\mathbf{b} = \mathbf{i} + 2\mathbf{j} - \mathbf{k}$ Find $\mathbf{a} \times \mathbf{b}$ and the
 Angle between them.
 
 $$
@@ -21061,7 +21061,7 @@ $$
 \begin{vmatrix} 1 & 2 & -1 \\ 3 & -1 & 2 \\ 2 & 3 & 1 \end{vmatrix} = 1(-1 - 6) - 2(3 - 4) + (-1)(9 - (-2)) = -7 + 2 - 11 = -16
 $$
 
-Since the scalar triple product is $-16 \neq 0$The vectors are not coplanar.
+Since the scalar triple product is $-16 \neq 0$ The vectors are not coplanar.
 
 ### Area of a Triangle Using Vectors (HL)
 
@@ -21096,10 +21096,10 @@ $$
 
 In a right-angled triangle, $a^2 + b^2 = c^2$.
 
-**Proof (using similar triangles):** Let $\triangle ABC$ be right-angled at $C$With altitude $CD$ To
+**Proof (using similar triangles):** Let $\triangle ABC$ be right-angled at $C$ With altitude $CD$ To
 the hypotenuse $AB$. Then $\triangle ABC \sim \triangle ACD \sim \triangle CBD$. From
-$\triangle ABC \sim \triangle ACD$: $\frac{AC}{AB} = \frac{AD}{AC}$Giving $AC^2 = AB \cdot AD$. From
-$\triangle ABC \sim \triangle CBD$: $\frac{BC}{AB} = \frac{BD}{BC}$Giving $BC^2 = AB \cdot BD$.
+$\triangle ABC \sim \triangle ACD$: $\frac{AC}{AB} = \frac{AD}{AC}$ Giving $AC^2 = AB \cdot AD$. From
+$\triangle ABC \sim \triangle CBD$: $\frac{BC}{AB} = \frac{BD}{BC}$ Giving $BC^2 = AB \cdot BD$.
 Adding:
 
 $$
@@ -21160,7 +21160,7 @@ See the examples integrated throughout the sections above.
 8. **Dividing by trig functions** in equations -- you may lose solutions. Factorise instead.
 9. **R-addition formula** -- be careful with the sign of $\alpha$. If $a$ is negative, the reference
    angle calculation needs adjustment.
-10. **Circle general form** -- the centre is $(-g, -f)$Not $(g, f)$. The negative signs are a common
+10. **Circle general form** -- the centre is $(-g, -f)$ Not $(g, f)$. The negative signs are a common
     source of error.
 
 ## Practice Questions
@@ -21182,7 +21182,7 @@ See the examples integrated throughout the sections above.
 3. Solve $\cos 2\theta = \cos\theta$ for $0 \leq \theta \leq 2\pi$.
 4. Find the area of the triangle with vertices $(1, 2)$$(4, 6)$$(3, -1)$.
 5. Given $\mathbf{a} = 2\mathbf{i} - \mathbf{j} + 3\mathbf{k}$ and
-   $\mathbf{b} = \mathbf{i} + 2\mathbf{j} - \mathbf{k}$Find $\mathbf{a} \times \mathbf{b}$ and the
+   $\mathbf{b} = \mathbf{i} + 2\mathbf{j} - \mathbf{k}$ Find $\mathbf{a} \times \mathbf{b}$ and the
    angle between $\mathbf{a}$ and $\mathbf{b}$.
 6. Express $\cos 3\theta$ in terms of $\cos\theta$.
 7. Prove that $\sin(A+B)\sin(A-B) = \sin^2 A - \sin^2 B$.
@@ -21472,10 +21472,10 @@ The real numbers satisfy the following axioms:
 
 **Identity elements:** $a + 0 = a$ and $a \cdot 1 = a$.
 
-**Inverse elements:** For every $a$There exists $-a$ such that $a + (-a) = 0$. For every
-$a \neq 0$There exists $a^{-1}$ such that $a \cdot a^{-1} = 1$.
+**Inverse elements:** For every $a$ There exists $-a$ such that $a + (-a) = 0$. For every
+$a \neq 0$ There exists $a^{-1}$ such that $a \cdot a^{-1} = 1$.
 
-**Ordered field properties:** For any $a, b \in \mathbb{R}$Exactly one of $a \lt b$, $a = b$
+**Ordered field properties:** For any $a, b \in \mathbb{R}$ Exactly one of $a \lt b$, $a = b$
 $a \gt b$ holds. The order is compatible with addition and multiplication by positive numbers.
 
 ### Irrational Numbers (HL)
@@ -21496,24 +21496,24 @@ irrational.
 **Example:** Prove that $\sqrt{2} + \sqrt{3}$ is irrational.
 
 Assume $\sqrt{2} + \sqrt{3} = r$ where $r \in \mathbb{Q}$. Then $\sqrt{3} = r - \sqrt{2}$ So
-$3 = r^2 - 2r\sqrt{2} + 2$Giving:
+$3 = r^2 - 2r\sqrt{2} + 2$ Giving:
 
 $$
 2r\sqrt{2} = r^2 - 1 \implies \sqrt{2} = \frac{r^2 - 1}{2r}
 $$
 
-Since $r \in \mathbb{Q}$, $\frac{r^2 - 1}{2r} \in \mathbb{Q}$Contradicting the irrationality of
+Since $r \in \mathbb{Q}$, $\frac{r^2 - 1}{2r} \in \mathbb{Q}$ Contradicting the irrationality of
 $\sqrt{2}$.
 
 **Example:** Prove that $\sqrt{2} \cdot \sqrt{3} = \sqrt{6}$ is irrational.
 
 Assume $\sqrt{6} = \frac{p}{q}$ in lowest terms. Then $p^2 = 6q^2$ So $p$ is even. Let $p = 2k$. Then
-$4k^2 = 6q^2$Giving $2k^2 = 3q^2$ So $q$ is even. Contradiction.
+$4k^2 = 6q^2$ Giving $2k^2 = 3q^2$ So $q$ is even. Contradiction.
 
 **Example (HL):** Prove that $\sqrt{2} + \sqrt{5}$ is irrational.
 
 Assume $\sqrt{2} + \sqrt{5} = r \in \mathbb{Q}$. Then $\sqrt{5} = r - \sqrt{2}$ So
-$5 = r^2 - 2r\sqrt{2} + 2$Giving:
+$5 = r^2 - 2r\sqrt{2} + 2$ Giving:
 
 $$
 2r\sqrt{2} = r^2 - 3 \implies \sqrt{2} = \frac{r^2 - 3}{2r} \in \mathbb{Q}
@@ -21523,7 +21523,7 @@ This contradicts the irrationality of $\sqrt{2}$.
 
 **Example (HL):** Prove that $\log_2 3$ is irrational.
 
-Assume $\log_2 3 = \frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$In lowest terms. Then
+Assume $\log_2 3 = \frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$ In lowest terms. Then
 $2^{p/q} = 3$ So $2^p = 3^q$.
 
 The left side is even (since $p \ge 1$) but the right side is odd. Contradiction.
@@ -21536,9 +21536,9 @@ $\sin x$ and the assumption that $\pi = a/b$ is rational.
 
 ### Density of $\mathbb{Q}$ in $\mathbb{R}$ (HL - awareness)
 
-Between any two real numbers $a \lt b$There exists a rational number. This is a consequence of the
-Archimedean property: since $b - a > 0$There exists a positive integer $n$ such that $n(b-a) > 1$
-I.e., $nb - na > 1$. Then there exists an integer $m$ with $na \lt m \lt nb$Giving
+Between any two real numbers $a \lt b$ There exists a rational number. This is a consequence of the
+Archimedean property: since $b - a > 0$ There exists a positive integer $n$ such that $n(b-a) > 1$
+I.e., $nb - na > 1$. Then there exists an integer $m$ with $na \lt m \lt nb$ Giving
 $a \lt m/n \lt b$.
 
 ## Set Theory
@@ -21699,7 +21699,7 @@ $$
 
 $rS_n = ar + ar^2 + \cdots + ar^{n-1} + ar^n$
 
-Subtracting: $S_n - rS_n = a - ar^n$ So $S_n(1-r) = a(1 - r^n)$Giving
+Subtracting: $S_n - rS_n = a - ar^n$ So $S_n(1-r) = a(1 - r^n)$ Giving
 $S_n = \frac{a(1-r^n)}{1-r} = \frac{a(r^n-1)}{r-1}$.
 
 **Example (OL):** Find the sum of the first 8 terms of 2, 6, 18, 54, ...
@@ -21727,8 +21727,8 @@ $$
 
 With equality if and only if $a = b$.
 
-**Proof.** Since $(\sqrt{a} - \sqrt{b})^2 \geq 0$We have $a - 2\sqrt{ab} + b \geq 0$ So
-$a + b \geq 2\sqrt{ab}$Giving $\frac{a+b}{2} \geq \sqrt{ab}$.
+**Proof.** Since $(\sqrt{a} - \sqrt{b})^2 \geq 0$ We have $a - 2\sqrt{ab} + b \geq 0$ So
+$a + b \geq 2\sqrt{ab}$ Giving $\frac{a+b}{2} \geq \sqrt{ab}$.
 
 ### Sum to Infinity (HL)
 
@@ -22007,7 +22007,7 @@ The general solution is $T_n = L + (T_1 - L)a^{n-1}$.
 
 **Why this works.** Let $U_n = T_n - L$. Then
 $U_{n+1} = T_{n+1} - L = aT_n + b - L = aT_n + b - \frac{b}{1-a} = aT_n + \frac{b - b + ab}{1-a} = aT_n + \frac{ab}{1-a}$.
-Since $L = \frac{b}{1-a}$We have $aL = \frac{ab}{1-a}$ So $U_{n+1} = aT_n - aL = aU_n$. This is a
+Since $L = \frac{b}{1-a}$ We have $aL = \frac{ab}{1-a}$ So $U_{n+1} = aT_n - aL = aU_n$. This is a
 Geometric sequence with ratio $a$.
 
 **Example:** Solve $T_1 = 3$, $T_{n+1} = 2T_n + 5$.
@@ -22026,7 +22026,7 @@ $$
 T_n = 1 + (1 - 1) \cdot 4^{n-1} = 1
 $$
 
-Indeed: $T_2 = 4(1) - 3 = 1$, $T_3 = 4(1) - 3 = 1$Etc. The sequence is constant at 1, which is the
+Indeed: $T_2 = 4(1) - 3 = 1$, $T_3 = 4(1) - 3 = 1$ Etc. The sequence is constant at 1, which is the
 Fixed point.
 
 ### Second Order Recurrence Relations (HL - awareness)
@@ -22062,13 +22062,13 @@ See the examples integrated throughout the sections above.
 
 ## Common Pitfalls
 
-1. **Mixing up arithmetic and geometric** formulas -- arithmetic has $d$Geometric has $r$. Remember:
+1. **Mixing up arithmetic and geometric** formulas -- arithmetic has $d$ Geometric has $r$. Remember:
    arithmetic adds, geometric multiplies.
-2. **Sum to infinity** only converges when $|r| \lt 1$. If $|r| \ge 1$The sum diverges.
+2. **Sum to infinity** only converges when $|r| \lt 1$. If $|r| \ge 1$ The sum diverges.
 3. **Financial mathematics** -- ensure the rate and time period match (e.g., annual rate with annual
    compounding, or monthly rate with monthly compounding).
 4. **Limits** -- always divide by the highest power of $n$ in both numerator and denominator.
-5. **Sigma notation** -- be careful with the lower and upper limits. $\sum_{r=1}^{n} 1 = n$Not $1$.
+5. **Sigma notation** -- be careful with the lower and upper limits. $\sum_{r=1}^{n} 1 = n$ Not $1$.
 6. **Set notation** -- do not confuse $\subset$ (subset) with $\in$ (element of).
 7. **Proof by contradiction** -- always state the assumption, derive a contradiction, and state what
    this proves.
@@ -22132,7 +22132,7 @@ See the examples integrated throughout the sections above.
 7. Prove that there are infinitely many prime numbers (Euclid's proof).
 8. EUR 10000 is invested at $r\%$ per annum compounded annually. After 10 years it is worth
     EUR 18000. Find $r$.
-9. The sum of the first $n$ terms of an arithmetic sequence is $S_n = 3n^2 + n$. Find the $n$Th
+9. The sum of the first $n$ terms of an arithmetic sequence is $S_n = 3n^2 + n$. Find the $n$ Th
     term $T_n$ and the common difference.
 10. Prove that $\frac{1}{\sqrt{2}}$ is irrational.
 
@@ -22140,7 +22140,7 @@ See the examples integrated throughout the sections above.
 
 #### Sum of an Arithmetic Series from $S_n$
 
-Given the sum formula $S_n = \frac{n}{2}[2a + (n-1)d]$We can find the $n$Th term from the sum:
+Given the sum formula $S_n = \frac{n}{2}[2a + (n-1)d]$ We can find the $n$ Th term from the sum:
 
 $$
 T_n = S_n - S_{n-1} = \frac{n}{2}[2a + (n-1)d] - \frac{n-1}{2}[2a + (n-2)d]
@@ -22154,7 +22154,7 @@ $$
 = \frac{1}{2}\left[2a + (n-1)d(2)\right] = a + (n-1)d
 $$
 
-This confirms that the $n$Th term can always be recovered from the sum.
+This confirms that the $n$ Th term can always be recovered from the sum.
 
 #### Geometric Series Derivation (Alternative)
 
@@ -22562,9 +22562,9 @@ $$
 \frac{10!}{3! \cdot 3! \cdot 2!} = \frac{3628800}{6 \times 6 \times 2} = \frac{3628800}{72} = 50400
 $$
 
-### Pascal"s Triangle and Binomial Coefficients (HL)
+### Pascal's Triangle and Binomial Coefficients (HL)
 
-Each entry in Pascal's triangle is the sum of the two entries above it. The $r$Th entry in row $n$
+Each entry in Pascal's triangle is the sum of the two entries above it. The $r$ Th entry in row $n$
 Is $\binom{n}{r}$.
 
 **Pascal's identity:** $\binom{n}{r} = \binom{n-1}{r-1} + \binom{n-1}{r}$.
@@ -22777,7 +22777,7 @@ $$
 E(X) = np, \quad \mathrm{Var(X) = np(1-p)
 $$
 
-**Conditions:** fixed $n$Independent trials, two outcomes, constant $p$.
+**Conditions:** fixed $n$ Independent trials, two outcomes, constant $p$.
 
 **Proof that $E(X) = np$ for $X \sim \mathrm{Bin(n, p)$.** Let $X_i$ be the indicator variable for
 Success on trial $i$ (so $X_i = 1$ with probability $p$$X_i = 0$ with probability $1-p$). Then
@@ -22910,18 +22910,18 @@ $$
 
 ### Box Plots (HL)
 
-A box plot displays five statistics: minimum, $Q_1$Median, $Q_3$Maximum.
+A box plot displays five statistics: minimum, $Q_1$ Median, $Q_3$ Maximum.
 
 **Outlier:** A value below $Q_1 - 1.5 \times \mathrm{IQR$ or above $Q_3 + 1.5 \times \mathrm{IQR$.
 
-**Example (HL):** A data set has $Q_1 = 25$$Q_3 = 45$Minimum $= 10$Maximum $= 65$. Identify Any
+**Example (HL):** A data set has $Q_1 = 25$$Q_3 = 45$ Minimum $= 10$ Maximum $= 65$. Identify Any
 outliers.
 
 $\mathrm{IQR = 45 - 25 = 20$.
 
-Lower fence: $25 - 1.5(20) = -5$. Since the minimum is $10 > -5$No low outliers.
+Lower fence: $25 - 1.5(20) = -5$. Since the minimum is $10 > -5$ No low outliers.
 
-Upper fence: $45 + 1.5(20) = 75$. Since the maximum is $65 < 75$No high outliers.
+Upper fence: $45 + 1.5(20) = 75$. Since the maximum is $65 < 75$ No high outliers.
 
 ### Skewness (HL)
 
@@ -22970,7 +22970,7 @@ $Z = \frac{114.5 - 100}{7.071} \approx 2.05$.
 
 Critical values at $\alpha = 0.05$ (two-tailed): $z = \pm 1.96$.
 
-Since $2.05 > 1.96$We reject $H_0$. There is sufficient evidence to suggest the coin is biased.
+Since $2.05 > 1.96$ We reject $H_0$. There is sufficient evidence to suggest the coin is biased.
 
 ### t-test for a Mean (HL)
 
@@ -22993,7 +22993,7 @@ $$
 Degrees of freedom $= 7$. The critical value from t-tables at $\alpha = 0.05$ (two-tailed, 7 df) is
 Approximately $\pm 2.365$.
 
-Since $|-2.156| = 2.156 < 2.365$We do not reject $H_0$. There is insufficient evidence to conclude
+Since $|-2.156| = 2.156 < 2.365$ We do not reject $H_0$. There is insufficient evidence to conclude
 The population mean differs from 25.
 
 ### Type I and Type II Errors (HL)
@@ -23044,7 +23044,7 @@ Correlation (but there may be a non-linear relationship).
 The coefficient of determination $r^2$ represents the proportion of variance in $y$ explained by the
 Linear relationship with $x$.
 
-If $r = 0.8$ Then $r^2 = 0.64$Meaning 64% of the variation in $y$ is accounted for by the linear
+If $r = 0.8$ Then $r^2 = 0.64$ Meaning 64% of the variation in $y$ is accounted for by the linear
 Regression on $x$. The remaining 36% is due to other factors.
 
 ### Line of Best Fit (Least Squares) (HL)
@@ -23063,7 +23063,7 @@ $$
 
 The least squares line minimises $\sum(y_i - (a + bx_i))^2$.
 
-**Example (HL):** For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$Find the correlation
+**Example (HL):** For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$ Find the correlation
 Coefficient and regression line.
 
 $n = 5$$\sum x = 15$$\sum y = 25$$\sum xy = 1(3)+2(5)+3(4)+4(7)+5(6) = 3+10+12+28+30 = 83$
@@ -23123,7 +23123,7 @@ See the examples integrated throughout the sections above.
 3. A bag contains 3 red and 5 green balls. Two are drawn at random without replacement. Find the
    probability both are green.
 4. Find the mean, median, and mode of: 3, 5, 5, 7, 8, 9, 12.
-5. Given $E(X) = 4$ and $\mathrm{Var(X) = 9$Find $E(X^2)$.
+5. Given $E(X) = 4$ and $\mathrm{Var(X) = 9$ Find $E(X^2)$.
 6. In a class of 35 students, 20 study maths, 15 study physics, and 8 study both. How many study
    neither?
 
@@ -23134,7 +23134,7 @@ See the examples integrated throughout the sections above.
    the probability a randomly selected person is between 160 cm and 180 cm tall.
 3. A sample of 8 measurements has $\bar{x} = 23.4$ and $s = 2.1$. Test at the 5% level whether the
    population mean is 25.
-4. For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$Find the correlation coefficient $r$ and
+4. For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$ Find the correlation coefficient $r$ and
    the equation of the regression line of $y$ on $x$.
 5. Prove that $\binom{n}{r} = \binom{n}{n-r}$.
 6. A test for a disease has 99% sensitivity and 1% false positive rate. If 0.5% of the population
@@ -23358,7 +23358,7 @@ constant speed but changing velocity because its direction is continuously chang
 }
 </script>
 
-### UT-2: Forces and Newton"s Laws
+### UT-2: Forces and Newton's Laws
 
 **Question:**
 
@@ -23745,7 +23745,7 @@ Where $n$ is the number density of free electrons, $A$ is the cross-sectional ar
 Velocity, and $e$ is the elementary charge.
 
 **Example (HL):** A copper wire of cross-sectional area $2 \times 10^{-6}\mathrm{ m^2$ carries a
-Current of 5 A. If $n = 8.5 \times 10^{28}\mathrm{ m^{-3}$Find the drift velocity.
+Current of 5 A. If $n = 8.5 \times 10^{28}\mathrm{ m^{-3}$ Find the drift velocity.
 
 $$
 V = \frac\{I\}\{nAe\} = \frac\{5\}\{8.5 \times 10^\{28\} \times 2 \times 10^\{-6\} \times 1.6 \times 10^\{-19\}\} \approx 1.84 \times 10^\{-4\}\mathrm\{ m/s
@@ -23791,7 +23791,7 @@ $$
 The internal resistance dissipates energy as heat. As current increases, the internal voltage drop
 ($Ir$) increases, and the terminal PD decreases. If the battery is short-circuited ($R = 0$), all
 The EMF is dropped across the internal resistance, and the terminal PD is zero. The current is
-$I = \varepsilon / r$Which can be very large, potentially damaging the battery.
+$I = \varepsilon / r$ Which can be very large, potentially damaging the battery.
 
 ## Resistance and Ohm's Law
 
@@ -24080,7 +24080,7 @@ $$
    $12\mathrm{ V$ supply. Find the total capacitance and the charge on each capacitor.
 
 6. An AC circuit has $R = 200\mathrm{ ohms$$L = 0.2\mathrm{ H$$C = 50\mathrm{ \mu F$ at
-   $f = 100\mathrm{ Hz$. Calculate $X_L$$X_C$$Z$The phase angle, and the power dissipated.
+   $f = 100\mathrm{ Hz$. Calculate $X_L$$X_C$$Z$ The phase angle, and the power dissipated.
 
 7. A battery of EMF $12\mathrm{ V$ and internal resistance $1.0\mathrm{ \Omega$ is connected to an
    external circuit of resistance $5\mathrm{ \Omega$. Calculate the power dissipated in the external
@@ -24284,7 +24284,7 @@ Check: $0.610 + 0.407 = 1.017\mathrm{ A$. Correct.
     $5\mathrm{ s$(c) the energy stored initially, and (d) the energy remaining after $5\mathrm{ s$.
 
 3. An AC circuit has $R = 150\mathrm{ \Omega$$L = 0.3\mathrm{ H$$C = 30\mathrm{ \mu\mathrm{F$ at
-    $f = 200\mathrm{ Hz$. Calculate $X_L$$X_C$$Z$The phase angle, the current, and the power
+    $f = 200\mathrm{ Hz$. Calculate $X_L$$X_C$$Z$ The phase angle, the current, and the power
     dissipated.
 
 4. A transformer with 1000 primary turns and 50 secondary turns is connected to a
@@ -24307,7 +24307,7 @@ Check: $0.610 + 0.407 = 1.017\mathrm{ A$. Correct.
 8. Describe Faraday's law of electromagnetic induction. Explain Lenz's law and why it is a
     consequence of conservation of energy. Include a description of one experimental demonstration.
 
-9. A coil of 150 turns, area $0.05\mathrm{ m^2$Resistance $5\mathrm{ \Omega$Is in a magnetic field
+9. A coil of 150 turns, area $0.05\mathrm{ m^2$ Resistance $5\mathrm{ \Omega$ Is in a magnetic field
     of flux density $0.6\mathrm{ T$. The field is reversed in $0.02\mathrm{ s$. Calculate the
     average EMF induced.
 
@@ -24367,7 +24367,7 @@ $$P_C = 0 \mathrm{ W$$ (pure capacitor dissipates no power)
 Only resistors dissipate power in AC circuits. Inductors and capacitors store and release
 
 Energy each cycle but have zero average power dissipation. The power factor $\cos\phi$ accounts for
-This: a purely resistive load has $\cos\phi = 1$While purely reactive loads have $\cos\phi = 0$.
+This: a purely resistive load has $\cos\phi = 1$ While purely reactive loads have $\cos\phi = 0$.
 </Aside>
 
 ### Example 22: Measuring Unknown Resistance with a Wheatstone Bridge
@@ -24649,12 +24649,12 @@ Monatomic ideal gas, energy is stored only as translational kinetic energy (3 de
 In water, energy can be stored in translational, rotational, and vibrational modes, as well as in
 Hydrogen bonds between molecules. More modes mean more energy is needed to raise the temperature.
 
-For solids, the Dulong-Petit law gives a rough estimate: $c \approx \frac{3R}{M}$Where $M$ is the
+For solids, the Dulong-Petit law gives a rough estimate: $c \approx \frac{3R}{M}$ Where $M$ is the
 Molar mass. This predicts about $25\mathrm{ J/(mol K)$ for many solids at room temperature.
 
-### Water"s High Specific Heat Capacity
+### Water's High Specific Heat Capacity
 
-Water has $c = 4180\mathrm{ J/(kg K)$Which is exceptionally high. This is because:
+Water has $c = 4180\mathrm{ J/(kg K)$ Which is exceptionally high. This is because:
 
 - Water molecules have three translational, three rotational, and vibrational degrees of freedom.
 - Hydrogen bonding between molecules absorbs additional energy as the bonds stretch and deform.
@@ -25233,7 +25233,7 @@ $$
 Entropy $S$ is a thermodynamic state function that quantifies the degree of disorder or the number
 Of microscopic configurations (microstates) corresponding to a given macroscopic state.
 
-For a reversible process at temperature $T$The entropy change is:
+For a reversible process at temperature $T$ The entropy change is:
 
 $$
 \Delta S = \frac{Q}{T}
@@ -25253,8 +25253,8 @@ $$
 \Delta S = \frac{-Q}{T_H} + \frac{Q}{T_C} = Q\left(\frac{1}{T_C} - \frac{1}{T_H}\right)
 $$
 
-Since $T_C \lt T_H$We have $1/T_C \gt 1/T_H$ So $\Delta S \gt 0$. The reverse (heat flowing from Cold
-to hot) would give $\Delta S \lt 0$Violating the second law. This is why heat spontaneously Flows
+Since $T_C \lt T_H$ We have $1/T_C \gt 1/T_H$ So $\Delta S \gt 0$. The reverse (heat flowing from Cold
+to hot) would give $\Delta S \lt 0$ Violating the second law. This is why heat spontaneously Flows
 only from hot to cold.
 
 ### Third Law of Thermodynamics
@@ -25337,7 +25337,7 @@ $$
 Where $\sigma = 5.67 \times 10^{-8}\mathrm{ W m^{-2}\mathrm{ K^{-4}$ is the Stefan-Boltzmann
 constant, $A$ is the surface area, and $T$ is the absolute temperature in kelvin.
 
-The power radiated is proportional to $T^4$Which means small temperature increases at high
+The power radiated is proportional to $T^4$ Which means small temperature increases at high
 Temperatures produce enormous increases in radiated power. This is why stars are so luminous.
 
 For a real body (not a perfect black body), the emissivity $\varepsilon$ (between 0 and 1) accounts
@@ -25378,7 +25378,7 @@ This is in the visible (green-yellow) region, consistent with the Sun appearing 
 
 ### Net Radiation Power
 
-When a body at temperature $T$ is surrounded by an environment at temperature $T_0$The net power
+When a body at temperature $T$ is surrounded by an environment at temperature $T_0$ The net power
 Radiated is:
 
 $$
@@ -25989,7 +25989,7 @@ Wave properties, refraction, diffraction, interference, sound, and the electroma
 
 ### Electricity
 
-Static electricity, circuits, Ohm"s law, electromagnetism, and semiconductor devices.
+Static electricity, circuits, Ohm's law, electromagnetism, and semiconductor devices.
 
 → **[Full notes](/physics/3-electricity/3_electricity/)**
 
@@ -26262,7 +26262,7 @@ Explore the simulation above to develop intuition for this topic.
 ### Key Principles
 
 - Horizontal: $a_x = 0$ So $v_x = u\cos\theta$ (constant).
-- Vertical: $a_y = -g$Using the equations of motion.
+- Vertical: $a_y = -g$ Using the equations of motion.
 
 ### Time of Flight
 
@@ -26321,7 +26321,7 @@ $$
 
 ### Projectile from a Height
 
-When launched from a height $h$The time of flight is found from $y(t) = 0$Which is a quadratic In
+When launched from a height $h$ The time of flight is found from $y(t) = 0$ Which is a quadratic In
 $t$. There is no simple closed-form range formula in this case.
 
 ## Newton's Laws of Motion (OL/HL)
@@ -26396,7 +26396,7 @@ $$
 
 Component of weight down the slope: $mg\sin\theta$.
 
-The block slides when $mg\sin\theta > \mu mg\cos\theta$I.e., $\tan\theta > \mu$.
+The block slides when $mg\sin\theta > \mu mg\cos\theta$ I.e., $\tan\theta > \mu$.
 
 If the block slides _down_ the slope:
 
@@ -26514,7 +26514,7 @@ $$
 \mathrm\{Impulse = F \Delta t = \Delta p = m\Delta v
 $$
 
-The impulse equals the change in momentum. For a given $\Delta p$Increasing $\Delta t$ decreases The
+The impulse equals the change in momentum. For a given $\Delta p$ Increasing $\Delta t$ decreases The
 average force. This is the principle behind crumple zones, air bags, and seat belts.
 
 ### Elastic vs Inelastic Collisions (HL)
@@ -26757,7 +26757,7 @@ $$
 f_{\max} = \mu_s mg\cos\theta \approx 0.35 \times 5 \times 9.8 \times 0.866 = 14.9 \mathrm{ N
 $$
 
-Since $24.5 \mathrm{ N \gt 14.9 \mathrm{ N$The block slides back.
+Since $24.5 \mathrm{ N \gt 14.9 \mathrm{ N$ The block slides back.
 
 **Sliding back (friction acts up the slope):**
 
@@ -26808,7 +26808,7 @@ $a_{\max} = \omega^2 A = \left(\frac{2\pi}{1.5}\right)^2 \times 0.08 = \left(\fr
 
 | Topic             | Formula                     | Level | Notes                             |
 | ----------------- | --------------------------- | ----- | --------------------------------- |
-| Kinematics        | $v = u + at$Etc.            | OL/HL | Constant acceleration only        |
+| Kinematics        | $v = u + at$ Etc.            | OL/HL | Constant acceleration only        |
 | Newton's 2nd law  | $F = ma$                    | OL/HL | Vector equation                   |
 | Friction          | $f \le \mu R$               | OL/HL | Static adjusts; kinetic = $\mu R$ |
 | Work              | $W = Fs\cos\theta$          | OL/HL | Scalar                            |
@@ -26841,7 +26841,7 @@ $a_{\max} = \omega^2 A = \left(\frac{2\pi}{1.5}\right)^2 \times 0.08 = \left(\fr
     $18 \mathrm{ m/s$. The banking angle is $15^{\circ}$. Find the minimum coefficient of static
     friction required.
 
-6. Two ice skaters, one of mass $60 \mathrm{ kg$ and one of mass $40 \mathrm{ kg$Push apart. The
+6. Two ice skaters, one of mass $60 \mathrm{ kg$ and one of mass $40 \mathrm{ kg$ Push apart. The
     $60 \mathrm{ kg$ skater moves at $2 \mathrm{ m/s$. Calculate the velocity of the
     $40 \mathrm{ kg$ skater and the total KE before and after.
 
@@ -27095,7 +27095,7 @@ Cathode, and any emitted electrons travel to the anode, producing a measurable c
 The experimental results were surprising and incompatible with classical wave theory:
 
 1. **Threshold frequency.** Electrons are emitted only if the incident light frequency exceeds a
-   **threshold frequency** $f_0$. Below $f_0$No electrons are emitted regardless of intensity or
+   **threshold frequency** $f_0$. Below $f_0$ No electrons are emitted regardless of intensity or
    exposure time.
 2. **Maximum kinetic energy depends on frequency, not intensity.** Increasing the intensity of light
    above $f_0$ increases the number of photoelectrons but not their maximum kinetic energy.
@@ -27116,7 +27116,7 @@ At low intensity are particularly fatal to the classical picture. A wave spread 
 Would deposit energy continuously; an electron at a specific point on the surface would need to wait
 To accumulate enough energy. Yet experiment shows no delay.
 
-### Einstein"s Explanation (1905)
+### Einstein's Explanation (1905)
 
 Einstein proposed that light consists of discrete packets called **photons**, each with energy:
 
@@ -27151,8 +27151,8 @@ $$
 
 This equation explains all three key observations:
 
-- Below $f_0$Each photon has insufficient energy to overcome $\phi$ So no emission occurs.
-- Above $f_0$Increasing $f$ increases each photon's energy, raising $E_{k(\max)}$.
+- Below $f_0$ Each photon has insufficient energy to overcome $\phi$ So no emission occurs.
+- Above $f_0$ Increasing $f$ increases each photon's energy, raising $E_{k(\max)}$.
 - Increasing intensity means more photons per second, so more electrons are emitted, but each photon
   still carries the same energy.
 
@@ -27230,7 +27230,7 @@ And violet light, but not by red or orange light.
 
 ### Intensity and Photocurrent
 
-If the frequency exceeds $f_0$The photocurrent (number of electrons per second) is directly
+If the frequency exceeds $f_0$ The photocurrent (number of electrons per second) is directly
 Proportional to the light intensity. Intensity in the photon picture is:
 
 $$
@@ -27283,8 +27283,8 @@ Struck by an alpha particle.
 **Why the Thomson model failed:** In the plum pudding model, the positive charge is spread out. The
 Maximum Coulomb force on an alpha particle passing through a diffuse positive sphere would be much
 Smaller than what is needed to produce the observed large-angle deflections. Rutherford calculated
-That to produce a deflection of greater than $90^\circ$The alpha particle must encounter a
-concentrated Charge within a radius of approximately $10^{-14}\mathrm{ m$About four orders of
+That to produce a deflection of greater than $90^\circ$ The alpha particle must encounter a
+concentrated Charge within a radius of approximately $10^{-14}\mathrm{ m$ About four orders of
 magnitude smaller Than the known atomic radius ($\approx 10^{-10}\mathrm{ m$).
 
 ### The Stability Problem
@@ -27381,7 +27381,7 @@ $n \to \infty$ (ionisation).
 
 ### Energy Levels of Hydrogen (HL)
 
-The energy of the $n$Th level:
+The energy of the $n$ Th level:
 
 $$
 E_n = -\frac{13.6\mathrm{ eV}{n^2}
@@ -27574,7 +27574,7 @@ Spread in momentum, and vice versa.
 - Electrons in atoms cannot have well-defined orbits (as in the Bohr model). Instead, we describe
   them using probability distributions (orbitals).
 - An electron confined to a nucleus ($\Delta x \approx 10^{-14}\mathrm{ m$) would have a momentum
-  uncertainty far exceeding $mc$Implying relativistic speeds -- another argument against electrons
+  uncertainty far exceeding $mc$ Implying relativistic speeds -- another argument against electrons
   existing inside the nucleus.
 
 There is also an energy-time uncertainty relation:
@@ -27648,7 +27648,7 @@ $$
 E_b = \Delta m \cdot c^2
 $$
 
-The binding energy per nucleon, $E_b/A$Indicates nuclear stability. A plot of $E_b/A$ versus $A$
+The binding energy per nucleon, $E_b/A$ Indicates nuclear stability. A plot of $E_b/A$ versus $A$
 Shows that iron-56 has the highest binding energy per nucleon ($\approx 8.8\mathrm{ MeV/nucleon$).
 Nuclei with lower $A$ can gain stability by fusing (moving right on the curve), while nuclei with
 Higher $A$ can gain stability by fissioning (moving left).
@@ -27828,7 +27828,7 @@ Fusion on Earth remains an active area of research (e.g., tokamak reactors and l
 ### Energy Released in Fission
 
 The energy released in a single fission event of U-235 is approximately $200\mathrm{ MeV$. This can
-Be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$While The
+Be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$ While The
 fission products have about $8.5\mathrm{ MeV/nucleon$. The difference of about
 $0.9\mathrm{ MeV/nucleon$ times 235 nucleons gives approximately $210\mathrm{ MeV$.
 
@@ -27877,7 +27877,7 @@ See the examples integrated throughout the sections above.
    (joules) for calculations involving $h$$c$ And $m$ And convert to eV at the end if needed.
 7. **Nuclear equations** -- always check conservation of $Z$ and $A$ on both sides.
 8. **De Broglie wavelength** -- use the relativistic momentum $p = \gamma mv$ for particles moving
-   at speeds approaching $c$. For electrons accelerated through less than about $10\mathrm{ kV$The
+   at speeds approaching $c$. For electrons accelerated through less than about $10\mathrm{ kV$ The
    non-relativistic formula is accurate enough.
 
 ## Practice Questions
@@ -28280,7 +28280,7 @@ $$
 
 ### Derivation of the Wave Equation
 
-In one period $T$Each wavefront travels a distance of one wavelength $\lambda$. Therefore:
+In one period $T$ Each wavefront travels a distance of one wavelength $\lambda$. Therefore:
 
 $$
 V = \frac{\mathrm{distance}{\mathrm{time} = \frac{\lambda}{T} = \lambda f
@@ -28397,7 +28397,7 @@ The central maximum is the brightest, and the secondary maxima decrease rapidly 
 
 ### Young's Double Slit Experiment (HL)
 
-Light passes through two narrow slits separated by distance $d$Producing an interference pattern On
+Light passes through two narrow slits separated by distance $d$ Producing an interference pattern On
 a screen at distance $D$.
 
 **Path difference** between the two waves arriving at a point on the screen:
@@ -28703,7 +28703,7 @@ $$
 \beta_{\mathrm{total} = 10\log_{10}\left(\frac{3 \times 10^{-4}}{10^{-12}}\right) = 10 \times 7.477 = 74.8 \mathrm{ dB
 $$
 
-Adding $80 \mathrm{ dB$ and $83 \mathrm{ dB$ gives $74.8 \mathrm{ dB$Not $163 \mathrm{ dB$. If two
+Adding $80 \mathrm{ dB$ and $83 \mathrm{ dB$ gives $74.8 \mathrm{ dB$ Not $163 \mathrm{ dB$. If two
 Sources have the same intensity, the total is $3 \mathrm{ dB$ higher.
 
 ### Worked Example: Inverse Square Law for Sound
@@ -28786,7 +28786,7 @@ Frequency shift: $\Delta f = 29.00 - 24.15 = 4.85 \mathrm{ GHz$
 | Snell's law        | $n_1\sin\theta_1 = n_2\sin\theta_2$ | OL/HL | Frequency unchanged          |
 | Critical angle     | $\sin\theta_c = n_2/n_1$            | HL    | Denser to less dense only    |
 | Fringe spacing     | $\Delta x = \lambda L/d$            | HL    | Double slit                  |
-| Grating equation   | $d\sin\theta = n\lambda$            | HL    | $n$Th order maximum          |
+| Grating equation   | $d\sin\theta = n\lambda$            | HL    | $n$ Th order maximum          |
 | Decibels           | $\beta = 10\log_{10}(I/I_0)$        | HL    | $I_0 = 10^{-12}$ W/m$^2$     |
 | Doppler (source)   | $f' = fv/(v - v_s)$                 | HL    | Minus for approaching        |
 | Doppler (observer) | $f' = f(v + v_o)/v$                 | HL    | Plus for approaching         |
@@ -28961,7 +28961,7 @@ $$
 Critical angle:
 $\sin\theta_c = \frac{1}{n} = \frac{1}{1.50} = 0.6667 \implies \theta_c = 41.8^\circ$
 
-Since $r_2 = 31.87° \lt \theta_c$The light exits the second face.
+Since $r_2 = 31.87° \lt \theta_c$ The light exits the second face.
 
 **Step 4: Angle of emergence**
 
@@ -29019,7 +29019,7 @@ Different densities.
     from the mirror. Calculate the image position and magnification. Is the image real or virtual?
 
 4. The wavelength of light in a certain liquid is $450 \mathrm{ nm$. If the wavelength in air is
-    $600 \mathrm{ nm$Calculate the refractive index of the liquid and the speed of light in the
+    $600 \mathrm{ nm$ Calculate the refractive index of the liquid and the speed of light in the
     liquid.
 
 5. Explain how fibre optic cables use total internal reflection to transmit data. Include a

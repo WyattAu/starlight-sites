@@ -43,28 +43,28 @@ More points.
 
 Differential equations arise throughout the natural sciences. A few canonical examples:
 
-1. **Newton"s law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
-   satisfies $\frac{dT}{dt} = -k(T - T_m)$A first-order linear ODE.
+1. **Newton's law of cooling.** The temperature $T(t)$ of a body in a medium at temperature $T_m$
+   satisfies $\frac{dT}{dt} = -k(T - T_m)$ A first-order linear ODE.
 
 2. **Harmonic oscillator.** A mass on a spring with damping obeys
-   $m\frac{d^2 x}{dt^2} + c\frac{dx}{dt} + kx = F(t)$A second-order linear ODE.
+   $m\frac{d^2 x}{dt^2} + c\frac{dx}{dt} + kx = F(t)$ A second-order linear ODE.
 
-3. **Logistic population growth.** $\frac{dP}{dt} = rP\left(1 - \frac{P}{K}\right)$A first-order
+3. **Logistic population growth.** $\frac{dP}{dt} = rP\left(1 - \frac{P}{K}\right)$ A first-order
    nonlinear (Bernoulli) ODE.
 
 4. **Lotka-Volterra predator-prey model.** $\frac{dx}{dt} = x(\alpha - \beta y)$,
-   $\frac{dy}{dt} = y(-\gamma + \delta x)$A coupled nonlinear system.
+   $\frac{dy}{dt} = y(-\gamma + \delta x)$ A coupled nonlinear system.
 
 5. **RC circuit.** The charge $q(t)$ on a capacitor satisfies $R\frac{dq}{dt} + \frac{q}{C} = V(t)$
    a first-order linear ODE.
 
-6. **Heat equation.** The temperature $u(x, t)$ in a rod satisfies $u_t = \alpha^2 u_{xx}$A
+6. **Heat equation.** The temperature $u(x, t)$ in a rod satisfies $u_t = \alpha^2 u_{xx}$ A
    second-order linear PDE.
 
-7. **Wave equation.** The displacement $u(x, t)$ of a string satisfies $u_{tt} = c^2 u_{xx}$A
+7. **Wave equation.** The displacement $u(x, t)$ of a string satisfies $u_{tt} = c^2 u_{xx}$ A
    second-order linear PDE.
 
-8. **Laplace's equation.** The steady-state temperature satisfies $u_{xx} + u_{yy} = 0$A
+8. **Laplace's equation.** The steady-state temperature satisfies $u_{xx} + u_{yy} = 0$ A
    second-order linear PDE.
 
 ### 1.5 Classification Tree

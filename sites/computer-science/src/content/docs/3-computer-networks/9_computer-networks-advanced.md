@@ -158,7 +158,7 @@ to 192.168.0.0/22.
 Common bits: first 22 bits = 11000000.10101000.000000 = 192.168.0.0/22.
 
 **Theorem 1.3.** A set of $2^k$ contiguous routes with prefix length $n$ can always be aggregated to
-a single route with prefix length $n - k$Provided they share the same first $n - k$ bits.
+a single route with prefix length $n - k$ Provided they share the same first $n - k$ bits.
 
 <details>
 <summary>Worked Example: Route Aggregation and Subnetting</summary>
@@ -233,7 +233,7 @@ $$
 
 Where $p$ is the packet loss rate.
 
-_Proof (outline)._ TCP oscillates between cwnd $= W/2$ and cwnd $= W$Where $W$ is the window size at
+_Proof (outline)._ TCP oscillates between cwnd $= W/2$ and cwnd $= W$ Where $W$ is the window size at
 which loss occurs. The area under the AIMD sawtooth is approximately $\frac{3}{8} W^2$ (the integral
 of the linear increase from $W/2$ to $W$). The number of packets sent per cycle is
 $\frac{3}{8} W^2$. The cycle length is $W/2$ RTTs. The loss rate is approximately
@@ -325,7 +325,7 @@ _Proof._ By Little's Law ($L = \lambda W$) and the properties of the geometric d
 number in system. The probability of $n$ in system is $(1 - \rho) \rho^n$. The expected value is
 $\sum_{n=0}^{\infty} n(1-\rho)\rho^n = \rho/(1-\rho)$. $\blacksquare$
 
-**Little's Law.** For any stable system: $L = \lambda W$Where $L$ is the long-term average number of
+**Little's Law.** For any stable system: $L = \lambda W$ Where $L$ is the long-term average number of
 customers in the system, $\lambda$ is the arrival rate, and $W$ is the average time a customer
 spends in the system.
 

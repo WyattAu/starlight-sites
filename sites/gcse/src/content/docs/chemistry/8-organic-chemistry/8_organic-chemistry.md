@@ -95,7 +95,7 @@ The formula is derived from the fact that each carbon atom forms four bonds. In 
 The two end carbons are bonded to three hydrogens each, and the remaining $(n-2)$ carbons are bonded
 To two hydrogens each. Total hydrogens: $2 \times 3 + (n-2) \times 2 = 6 + 2n - 4 = 2n + 2$.
 
-| Name    | Formula       | Structure | Boiling Point ($^{\circ}$C) |
+| Name    | Formula       | Structure | Boiling Point ($^{\circ}$ C) |
 | ------- | ------------- | --------- | --------------------------- |
 | Methane | CH$_4$        | 1 carbon  | -162                        |
 | Ethane  | C$_2$H$_6$    | 2 carbons | -89                         |
@@ -322,7 +322,7 @@ $$
 \mathrm{C_n\mathrm{H_{2n+1}\mathrm{OH
 $$
 
-| Name     | Formula      | Boiling Point ($^{\circ}$C) |
+| Name     | Formula      | Boiling Point ($^{\circ}$ C) |
 | -------- | ------------ | --------------------------- |
 | Methanol | CH$_3$OH     | 65                          |
 | Ethanol  | C$_2$H$_5$OH | 78                          |
@@ -686,10 +686,10 @@ To identify the monomer, remove the brackets and the subscript $n$:
 
 | Polymer                 | Repeating Unit               | Monomer                        |
 | ----------------------- | ---------------------------- | ------------------------------ |
-| Poly(ethene)            | $-$CH$_2$-CH$_2$-$-$\_n$     | Ethene (C$_2$H$_4$)            |
-| Poly(propene)           | $-$CH$_2$-CH(CH$_3$)-$-$\_n$ | Propene (C$_3$H$_6$)           |
-| PVC                     | $-$CH$_2$-CHCl-$-$\_n$       | Chloroethene (C$_2$H$_3$Cl)    |
-| Poly(tetrafluoroethene) | $-$CF$_2$-CF$_2$-$-$\_n$     | Tetrafluoroethene (C$_2$F$_4$) |
+| Poly(ethene)            | $-$ CH$_2$-CH$_2$-$-$\_n$     | Ethene (C$_2$H$_4$)            |
+| Poly(propene)           | $-$ CH$_2$-CH(CH$_3$)-$-$\_n$ | Propene (C$_3$H$_6$)           |
+| PVC                     | $-$ CH$_2$-CHCl-$-$\_n$       | Chloroethene (C$_2$H$_3$Cl)    |
+| Poly(tetrafluoroethene) | $-$ CF$_2$-CF$_2$-$-$\_n$     | Tetrafluoroethene (C$_2$F$_4$) |
 
 ### 10.2 Problems with Disposal
 
@@ -707,7 +707,7 @@ Biodegradable.
 
 ### 10.4 Worked Examples
 
-**Worked Example.** A polymer has the repeating unit $-$CH$_2$-CHCl-$-$\_n$. (a) Identify the
+**Worked Example.** A polymer has the repeating unit $-$ CH$_2$-CHCl-$-$\_n$. (a) Identify the
 Monomer. (b) Draw the displayed formula of the monomer. (c) Name the polymer.
 
 (a) The monomer is chloroethene, C$_2$H$_3$Cl.
@@ -744,7 +744,7 @@ Valuable shorter-chain alkanes and alkenes.
 **Worked Example.** C$_{14}$H$_{30}$ undergoes thermal cracking. One product is C$_8$H$_{18}$.
 Identify the other product.
 
-Atom balance: C: $14 - 8 = 6$H: $30 - 18 = 12$. The other product is C$_6$H$_{12}$Which is
+Atom balance: C: $14 - 8 = 6$ H: $30 - 18 = 12$. The other product is C$_6$H$_{12}$Which is
 Cyclohexane.
 
 $$

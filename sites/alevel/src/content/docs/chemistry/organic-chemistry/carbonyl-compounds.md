@@ -63,10 +63,10 @@ $$
 
 **Mechanism:**
 
-1. The nucleophile $\mathrm{CN}^-$ (generated in situ from $\mathrm{HCN}$Often with a catalytic
+1. The nucleophile $\mathrm{CN}^-$ (generated in situ from $\mathrm{HCN}$ Often with a catalytic
    base) attacks the $\delta^+$ carbonyl carbon.
 2. The $\pi$ electrons move onto the oxygen, forming a tetrahedral alkoxide intermediate.
-3. The alkoxide is protonated by $\mathrm{HCN}$Yielding the cyanohydrin.
+3. The alkoxide is protonated by $\mathrm{HCN}$ Yielding the cyanohydrin.
 
 Ketones react more slowly than aldehydes because of the steric and electronic factors discussed
 Above.
@@ -332,7 +332,7 @@ with subsequent steps.
 ### Iodoform Test for Methyl Ketones
 
 The iodoform test detects methyl ketones ($\mathrm{RCOCH}_3$) and ethanol
-($\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}$Which is oxidised to ethanal under the reaction conditions).
+($\mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}$ Which is oxidised to ethanal under the reaction conditions).
 
 **Reagents:** Iodine solution and sodium hydroxide.
 
@@ -561,7 +561,7 @@ Write a mechanism for the nucleophilic addition of $\mathrm{HCN}$ to propanone
 
 **Solution:**
 
-Step 1: The cyanide ion ($\mathrm{CN}^-$Nucleophile) attacks the electrophilic carbonyl carbon of
+Step 1: The cyanide ion ($\mathrm{CN}^-$ Nucleophile) attacks the electrophilic carbonyl carbon of
 propanone. The $\pi$ electrons of C=O move onto the oxygen, forming a tetrahedral intermediate with
 a negative charge on oxygen:
 
@@ -881,7 +881,7 @@ Explain why $\mathrm{NaBH}_4$ reduces aldehydes and ketones but does not reduce 
   due to the polar C=O bond) for nucleophilic attack (1 mark).
 - In carboxylic acids, the carbonyl carbon is less electrophilic because the $-\mathrm{OH}$ group
   donates electron density through resonance, and the acid protonates the
-  $\mathrm{BH}_4^-$Destroying the reducing agent before it can attack (1 mark).
+  $\mathrm{BH}_4^-$ Destroying the reducing agent before it can attack (1 mark).
 - A stronger reducing agent such as $\mathrm{LiAlH}_4$ is needed for carboxylic acids (1 mark).
 
 </details>
@@ -915,7 +915,7 @@ unless excess reagent is used or water is removed (1 mark).
 | ----------------------------------- | ----------------------------- | ------------------------------------- |
 | Primary alcohol                     | $\mathrm{C-OH}$ from aldehyde | Aldehyde + $\mathrm{NaBH}_4$          |
 | Secondary alcohol                   | $\mathrm{C-OH}$ from ketone   | Ketone + $\mathrm{NaBH}_4$            |
-| Carboxylic acid                     | $\mathrm{C-COOH}$ from ester  | Ester + $\mathrm{NaOH}$Reflux         |
+| Carboxylic acid                     | $\mathrm{C-COOH}$ from ester  | Ester + $\mathrm{NaOH}$ Reflux         |
 | Ester                               | $\mathrm{C-O-CO}$             | $\mathrm{RCOCl} + \mathrm{R'OH}$      |
 | Amide                               | $\mathrm{C-NH}$               | $\mathrm{RCOCl} + \mathrm{NH}_3$      |
 | Cyanohydrin                         | $\mathrm{C(CN)(OH)}$          | Aldehyde/ketone + $\mathrm{HCN}$      |

@@ -476,7 +476,7 @@ When two genes are located on the same chromosome, they do not assort independen
 Law is violated). The closer the genes are on the chromosome, the less likely they are to be
 separated by Crossing over.
 
-**Worked Example.** Two genes, $A$ and $B$Are linked on the same chromosome. A test cross is
+**Worked Example.** Two genes, $A$ and $B$ Are linked on the same chromosome. A test cross is
 performed: $AB/ab \times ab/ab$ (where $/$ indicates that $AB$ are on one homologous chromosome and
 $ab$ on the Other).
 
@@ -533,7 +533,7 @@ $\chi^2 = 0.62 + 0.38 + 1.87 + 1.13 = 4.00$
 
 Degrees of freedom $= 4 - 1 = 3$. Critical value at $p = 0.05$ for 3 df $= 7.82$.
 
-Since $\chi^2 = 4.00 < 7.82$We accept the null hypothesis: the observed results fit the expected
+Since $\chi^2 = 4.00 < 7.82$ We accept the null hypothesis: the observed results fit the expected
 9:3:3:1 ratio. The genes assort independently.
 
 ## 9. Detailed Mutation Analysis
@@ -630,15 +630,15 @@ A couple, both with normal vision, have a colour-blind son. The woman's father w
 Determine the genotypes of the parents and the probability that their next child will be a
 Colour-blind daughter.
 
-**Answer.** Colour blindness is X-linked recessive ($X^c$). The son is $X^cY$Having inherited $X^c$
-from his mother. The mother must therefore be a carrier: $X^CX^c$. The woman's father was $X^cY$So
+**Answer.** Colour blindness is X-linked recessive ($X^c$). The son is $X^cY$ Having inherited $X^c$
+from his mother. The mother must therefore be a carrier: $X^CX^c$. The woman's father was $X^cY$ So
 she inherited $X^c$ from him. The father has normal vision and is $X^CY$ (since he is not
 Colour-blind). The cross is $X^CX^c \times X^CY$.
 
 Possible offspring: $X^CX^C$ (25%, normal female), $X^CX^c$ (25%, carrier female), $X^CY$ (25%,
 Normal male), $X^cY$ (25%, colour-blind male).
 
-A colour-blind daughter requires genotype $X^cX^c$Which requires the father to contribute $X^c$ --
+A colour-blind daughter requires genotype $X^cX^c$ Which requires the father to contribute $X^c$ --
 But the father is $X^CY$ and cannot pass $X^c$ to any child. Therefore, the probability of a
 Colour-blind daughter is **zero**.
 
@@ -715,7 +715,7 @@ $= 0.006 + 0.017 + 0.817 + 2.450 = 3.29$.
 
 Degrees of freedom $= 4 - 1 = 3$. The critical value at $p = 0.05$ for 3 df is $7.82$.
 
-Since $\chi^2 = 3.29 \lt 7.82$We accept the null hypothesis: the observed results do not differ
+Since $\chi^2 = 3.29 \lt 7.82$ We accept the null hypothesis: the observed results do not differ
 Significantly from the expected 9:3:3:1 ratio. The genes segregate independently.
 
 <b>If you get this wrong, revise:</b> [Dihybrid Inheritance](#52-dihybrid-inheritance)
@@ -792,7 +792,7 @@ $= 211.6 + 211.6 + 207.9 + 207.9 = 839.0$
 
 Degrees of freedom $= 3$. Critical value at $p = 0.05$ is $7.82$.
 
-Since $\chi^2 = 839 \gg 7.82$The deviation from independent assortment is highly significant. The
+Since $\chi^2 = 839 \gg 7.82$ The deviation from independent assortment is highly significant. The
 Genes are linked.
 
 (b) Parental (non-recombinant) phenotypes: Normal grey (480) + Vestigial ebony (478) $= 958$.
@@ -1309,7 +1309,7 @@ mutations are permanent changes to the DNA sequence itself.
 ### 20.1 Cystic Fibrosis (CF)
 
 - **Gene:** CFTR (cystic fibrosis transmembrane conductance regulator) on chromosome 7.
-- **Mutation:** most common is $\Delta$F508 (deletion of phenylalanine at position 508), a
+- **Mutation:** most common is $\Delta$ F508 (deletion of phenylalanine at position 508), a
   three-nucleotide deletion.
 - **Inheritance:** autosomal recessive. Carriers are heterozygous and unaffected (approximately 1 in
   25 people of Northern European descent).
@@ -1520,7 +1520,7 @@ This is well below the world population ($\approx 8$ billion), so the match is e
 | Neutral (silent) | No change in amino acid sequence (due to degeneracy of the genetic code) | GAA $\to$ GAG (both code for glutamic acid)                                                                  |
 | Missense         | One amino acid is changed                                                | Sickle cell: GAG $\to$ GTG (glutamic acid $\to$ valine at position 6 of $\beta$-globin)                      |
 | Nonsense         | A sense codon is changed to a stop codon                                 | Duchenne muscular dystrophy: premature stop codon in dystrophin gene                                         |
-| Frameshift       | Insertion or deletion (not multiple of 3) shifts the reading frame       | Cystic fibrosis: $\Delta$F508 (3-bp deletion -- actually NOT a frameshift, but a deletion of one amino acid) |
+| Frameshift       | Insertion or deletion (not multiple of 3) shifts the reading frame       | Cystic fibrosis: $\Delta$ F508 (3-bp deletion -- actually NOT a frameshift, but a deletion of one amino acid) |
 | Splice site      | Mutation at an exon-intron boundary affects mRNA splicing                | $\beta$-thalassaemia: mutations at splice sites cause abnormal mRNA processing                               |
 
 ### 23.3 Mutagenic Agents
@@ -1814,7 +1814,7 @@ In practice, replication takes hours because:
 
 | Disorder                    | Gene                | Mutation                                                                                     | Inheritance         | Symptoms                                                                                                     |
 | --------------------------- | ------------------- | -------------------------------------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Cystic fibrosis             | CFTR (chromosome 7) | Deletion of 3 nucleotides ($\Delta$F508); loss of phenylalanine at position 508              | Autosomal recessive | Thick mucus in lungs and pancreas; chronic lung infections; malabsorption; male infertility                  |
+| Cystic fibrosis             | CFTR (chromosome 7) | Deletion of 3 nucleotides ($\Delta$ F508); loss of phenylalanine at position 508              | Autosomal recessive | Thick mucus in lungs and pancreas; chronic lung infections; malabsorption; male infertility                  |
 | Sickle cell anaemia         | HBB (chromosome 11) | Missense mutation (substitution); glutamic acid $\to$ valine at position 6 of $\beta$-globin | Autosomal recessive | Sickled RBCs; block capillaries; pain crises; organ damage; anaemia                                          |
 | Huntington's disease        | HTT (chromosome 4)  | CAG trinucleotide repeat expansion (> 35 repeats)                                            | Autosomal dominant  | Progressive neurodegeneration; chorea (involuntary movements); dementia; death 15--20 years after onset      |
 | Haemophilia A               | F8 (X chromosome)   | Various mutations (inversions, point mutations, deletions)                                   | X-linked recessive  | Deficiency of clotting factor VIII; prolonged bleeding; joint damage (haemarthrosis)                         |

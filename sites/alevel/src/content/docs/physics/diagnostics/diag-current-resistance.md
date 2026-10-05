@@ -56,7 +56,7 @@ with voltage.
 (a) The I-V graph curves away from both axes (current increases more slowly as voltage increases).
 This is because the filament is a metal (tungsten) whose resistance increases with temperature. As
 current flows, the filament heats up, increasing its resistance. V=IR applies at every instant
-(Ohm"s law is a property of the conductor at a specific operating point), but the resistance is not
+(Ohm's law is a property of the conductor at a specific operating point), but the resistance is not
 constant -- on the applied voltage (through the resulting temperature).
 
 The graph is not a straight line through the origin, so the lamp is non-ohmic.
@@ -71,9 +71,9 @@ The resistance more than doubles between $2\,\text{V}$ and $12\,\text{V}$.
 
 The resistance increases because the filament temperature increases with power dissipation
 ($P = I^2R$). For a metal, resistivity increases approximately linearly with temperature above the
-Debye temperature: $\rho(T) = \rho_0[1 + \alpha(T - T_0)]$Where
-$\alpha \approx 0.0045\,\text{K}^{-1}$ for tungsten. At $12\,\text{V}$The filament temperature is
-around $2800\,\text{K}$Much higher than room temperature.
+Debye temperature: $\rho(T) = \rho_0[1 + \alpha(T - T_0)]$ Where
+$\alpha \approx 0.0045\,\text{K}^{-1}$ for tungsten. At $12\,\text{V}$ The filament temperature is
+around $2800\,\text{K}$ Much higher than room temperature.
 
 ---
 
@@ -193,7 +193,7 @@ The lamp has resistance $100\,\Omega$ at the operating point in the balanced con
 
 (a) Calculate the current through each resistor when the bridge is balanced.
 
-(b) If $R_1$ increases to $110\,\Omega$Calculate the current through the galvanometer.
+(b) If $R_1$ increases to $110\,\Omega$ Calculate the current through the galvanometer.
 
 (c) Explain how the Wheatstone bridge principle fails when non-ohmic components are used.
 
@@ -203,8 +203,8 @@ The lamp has resistance $100\,\Omega$ at the operating point in the balanced con
 
 $100/200 = 150/R_L \Rightarrow R_L = 300\,\Omega$
 
-But we are told $R_L = 100\,\Omega$ at the operating point, and $R_1/R_2 = 100/200 = 0.5$While
-$R_3/R_L = 150/100 = 1.5$. Since $0.5 \ne 1.5$The bridge is **not balanced**.
+But we are told $R_L = 100\,\Omega$ at the operating point, and $R_1/R_2 = 100/200 = 0.5$ While
+$R_3/R_L = 150/100 = 1.5$. Since $0.5 \ne 1.5$ The bridge is **not balanced**.
 
 For the bridge to be balanced with $R_L = 100\,\Omega$: $R_1/R_2 = R_3/R_L = 150/100 = 1.5$ So
 $R_1 = 1.5 \times 200 = 300\,\Omega$.
@@ -213,7 +213,7 @@ Since the bridge is not balanced, the galvanometer will carry current. This is a
 the question -- the bridge is deliberately unbalanced.
 
 The total circuit needs to be solved using Kirchhoff's laws. The potential at the top junction is
-$12\,\text{V}$At the bottom is $0\,\text{V}$.
+$12\,\text{V}$ At the bottom is $0\,\text{V}$.
 
 Left branch: $R_1$ and $R_3$ in series, midpoint at
 $V_{\text{mid,left}} = 12 \times 150/(100 + 150) = 12 \times 0.6 = 7.2\,\text{V}$
@@ -259,7 +259,7 @@ without additional circuitry to control the operating point.
 
 **Question:**
 
-A student determines the resistivity of a material using a wire of length $l$Diameter $d$ And
+A student determines the resistivity of a material using a wire of length $l$ Diameter $d$ And
 measuring the resistance $R$ with a digital multimeter. They use $\rho = \pi d^2 R/(4l)$.
 
 Their measurements are:
@@ -269,7 +269,7 @@ $l = (1.000 \pm 0.001)\,\text{m}$$d = (0.500 \pm 0.005)\,\text{mm}$$R = (8.50 \p
 
 (b) The student notices that the resistance measurement was made with the wire at
 $25^\circ\text{C}$ But the specification gives the resistivity at $20^\circ\text{C}$. If
-$\alpha = 0.004\,\text{K}^{-1}$Calculate the corrected resistivity at $20^\circ\text{C}$.
+$\alpha = 0.004\,\text{K}^{-1}$ Calculate the corrected resistivity at $20^\circ\text{C}$.
 
 (c) The student then uses a micrometer screw gauge (resolution $0.01\,\text{mm}$) to re-measure the
 diameter, obtaining $d = (0.498 \pm 0.003)\,\text{mm}$. Recalculate the percentage uncertainty and
@@ -316,7 +316,7 @@ $$
 $$
 
 The percentage uncertainty improved from $2.69\%$ to $1.89\%$. The micrometer reduced the fractional
-uncertainty in diameter from $1.0\%$ to $0.60\%$ And since diameter enters as $d^2$This contributed
+uncertainty in diameter from $1.0\%$ to $0.60\%$ And since diameter enters as $d^2$ This contributed
 $2 \times 0.40\% = 0.80\%$ improvement.
 
 ---

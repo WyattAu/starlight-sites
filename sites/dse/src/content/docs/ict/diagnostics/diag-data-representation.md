@@ -27,7 +27,7 @@ negative numbers.
 
 **Solution:**
 
-(a) $(\text{FA3})_{16}$: F $= 15 = 1111_2$A $= 10 = 1010_2$3 $= 0011_2$. Binary: $111110100011_2$.
+(a) $(\text{FA3})_{16}$: F $= 15 = 1111_2$ A $= 10 = 1010_2$3 $= 0011_2$. Binary: $111110100011_2$.
 
 Decimal: $15 \times 256 + 10 \times 16 + 3 = 3840 + 160 + 3 = 4003$.
 
@@ -37,7 +37,7 @@ So $(-42)_{10}$ in 8-bit two's complement $= 11010110_2$.
 
 (c) Subtracting: $11010110 - 01101011$.
 
-Two's complement of $01101011$: invert $= 10010100$Add 1 $= 10010101$.
+Two's complement of $01101011$: invert $= 10010100$ Add 1 $= 10010101$.
 
 $11010110 + 10010101 = 101101011_2$. The 9th bit (carry) is discarded in 8-bit arithmetic. Result
 $= 01101011_2 = 107_{10}$.

@@ -37,7 +37,7 @@ Framework.
 
 ### 0/1 Knapsack
 
-Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $W$Maximise the Total
+Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $W$ Maximise the Total
 value of items selected. Each item can be taken at most once.
 
 $$
@@ -63,7 +63,7 @@ def knapsack_01(weights, values, capacity):
 ```
 
 :::note
-Iterate forward, `dp[c - w]` may already include item $i$Violating the 0/1 constraint. This is the
+Iterate forward, `dp[c - w]` may already include item $i$ Violating the 0/1 constraint. This is the
 Most common bug in knapsack implementations.
 
 ### Unbounded Knapsack
@@ -172,7 +172,7 @@ Partitions of an interval.
 
 ### Matrix Chain Multiplication
 
-Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions $p_{i-1} \times p_i$Find the
+Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions $p_{i-1} \times p_i$ Find the
 Parenthesisation that minimises the total number of scalar multiplications.
 
 $$
@@ -241,7 +241,7 @@ def burst_balloons(nums):
 
 ### Minimum Cost to Merge Stones
 
-Given $n$ piles of stones and an integer $k$Merge adjacent piles into one pile. Each merge of $k$
+Given $n$ piles of stones and an integer $k$ Merge adjacent piles into one pile. Each merge of $k$
 Piles costs the sum of those $k$ piles. Find the minimum total cost, or return -1 if impossible.
 
 ```python

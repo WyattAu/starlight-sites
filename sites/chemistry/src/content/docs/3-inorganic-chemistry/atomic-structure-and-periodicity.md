@@ -67,7 +67,7 @@ due to repulsion by other electrons.
 
 ## 2. Effective Nuclear Charge
 
-### 2.1 Slater"s Rules
+### 2.1 Slater's Rules
 
 **Theorem 2 (Slater's Rules):** The effective nuclear charge $Z_{\text{eff}}$ experienced by an
 electron is:

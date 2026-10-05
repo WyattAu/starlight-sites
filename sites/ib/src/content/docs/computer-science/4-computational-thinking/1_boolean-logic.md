@@ -405,7 +405,7 @@ $$
 F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \cdot C + A \cdot \overline{B} \cdot \overline{C} + A \cdot B \cdot \overline{C}
 $$
 
-This simplifies to $F = \overline{C} + \overline{A} \cdot B \cdot C$Which requires only 4 gate
+This simplifies to $F = \overline{C} + \overline{A} \cdot B \cdot C$ Which requires only 4 gate
 Inputs instead of the original 8.
 
 ### Worked Example 3 (Using De Morgan's Laws)
@@ -568,11 +568,11 @@ $m_2 = \overline{A}B\overline{C}$$m_5 = A\overline{B}C$$m_6 = AB\overline{C}$$m_
   is `C`So eliminate it: $\overline{A}\overline{B}$.
 - Group 2: Cells $(1,01)$$(1,11)$$(1,10)$ -- all three in row `A`=1. But $(1,01)$ and $(1,11)$ are
   adjacent, and $(1,11)$ and $(1,10)$ are adjacent. Group $(1,11)$ and $(1,10)$: these are $ABC$ and
-  $AB\overline{C}$Eliminating `C`: $AB$.
+  $AB\overline{C}$ Eliminating `C`: $AB$.
 - Group 3: Cells $(0,10)$ and $(1,10)$ -- adjacent vertically. These are $\overline{A}B\overline{C}$
-  and $AB\overline{C}$Eliminating `A`: $B\overline{C}$.
+  and $AB\overline{C}$ Eliminating `A`: $B\overline{C}$.
 - Group 4: Cells $(1,01)$ and $(0,01)$ -- adjacent vertically. These are $A\overline{B}C$ and
-  $\overline{A}\overline{B}C$Eliminating `A`: $\overline{B}C$.
+  $\overline{A}\overline{B}C$ Eliminating `A`: $\overline{B}C$.
 
 Now apply the covering rule: every 1 must be covered by at least one group.
 
@@ -703,7 +703,7 @@ Not covered but that is OK).
 
 Actually, $\overline{A}C$ covers $m_1, m_3$ and $\overline{B}C$ covers $m_1, m_5$. Together they
 cover All required minterms ($m_1, m_3, m_5$). The don't care $m_0$ could be used to replace
-$\overline{A}C$ With $\overline{A}\overline{B}$ But that only covers $m_0, m_1$Leaving $m_3$
+$\overline{A}C$ With $\overline{A}\overline{B}$ But that only covers $m_0, m_1$ Leaving $m_3$
 uncovered.
 
 Best result with don't cares: $F = \overline{A}C + \overline{B}C$ (2 terms, 3 literals). Wait, let
@@ -795,7 +795,7 @@ Group covering columns 01 and 11 gives $C$. Together: $F = C + A\overline{B}$.
 
 Check: $F = C + A\overline{B}$. For $A=0, B=0, C=0$: $F = 0 + 0 = 0$ (correct). For $A=0, B=0, C=1$:
 $F = 1 + 0 = 1$ (correct). For $A=1, B=1, C=0$: $F = 0 + 0 = 0$ (correct). The don't care
-($A=1, B=1, C=1$) gives $F = 1 + 0 = 1$Which is acceptable since the output is irrelevant for this
+($A=1, B=1, C=1$) gives $F = 1 + 0 = 1$ Which is acceptable since the output is irrelevant for this
 Input.
 
 The expression $C + A\overline{B}$ (2 terms, 3 literals) is simpler than
@@ -988,7 +988,7 @@ A ripple carry adder chains multiple full adders to add multi-bit numbers. The c
 Stage feeds into the carry-in of the next stage. For an $n$-bit adder, $n$ full adders are required.
 
 The main disadvantage is propagation delay: the carry must ripple through all stages sequentially.
-The worst-case delay is $n \times t_{carry}$Where $t_{carry}$ is the carry propagation time of a
+The worst-case delay is $n \times t_{carry}$ Where $t_{carry}$ is the carry propagation time of a
 Single full adder.
 
 ## Common Pitfalls
@@ -1200,7 +1200,7 @@ The $2 \times 2$ square covers cells $(0,10), (0,11), (1,10), (1,11)$. In row A=
 11: $\overline{A}B\overline{C}$ and $\overline{A}BC$ → eliminates C → $\overline{A}B$. In row A=1:
 $AB\overline{C}$ and $ABC$ → $AB$. Together: $\overline{A}B + AB = B$.
 
-So the $2 \times 2$ group gives $B$Not $C$.
+So the $2 \times 2$ group gives $B$ Not $C$.
 
 Remaining: $m_5 = A\overline{B}C$. Group with $(0,01)$: $\overline{B}C$.
 
@@ -1362,7 +1362,7 @@ If you get this wrong, revise: [NAND as Universal Gate](#nand-as-a-universal-gat
 }
 </script>
 
-**Problem 8:** For the majority voting circuit $F = AB + AC + BC$Determine the output when: (a) A=1,
+**Problem 8:** For the majority voting circuit $F = AB + AC + BC$ Determine the output when: (a) A=1,
 B=1, C=0 (b) A=0, B=1, C=1 (c) A=0, B=0, C=1
 
 <details>
@@ -1514,7 +1514,7 @@ If you get this wrong, revise: [Half Adder](#half-adder)
 }
 </script>
 
-**Problem 12:** Given $F(A, B, C) = \sum(0, 2, 4, 6, 7)$Use a K-map to find the minimal SOP
+**Problem 12:** Given $F(A, B, C) = \sum(0, 2, 4, 6, 7)$ Use a K-map to find the minimal SOP
 Expression.
 
 <details>

@@ -38,7 +38,7 @@ $$
 - $r > r_c$: Chaotic regime (with periodic windows)
 
 **Feigenbaum constants:** The ratio of successive bifurcation intervals converges to
-$\delta = 4.669\ldots$A universal constant for all period-doubling transitions.
+$\delta = 4.669\ldots$ A universal constant for all period-doubling transitions.
 
 ### 11.2 Lyapunov Exponents
 
@@ -73,7 +73,7 @@ the chaotic attractor reveals its fractal structure.
 <details>
 <summary>Worked Example 11.1: Period Doubling in the Logistic Map</summary>
 
-At $r = 3.2$The logistic map has a stable period-2 cycle.
+At $r = 3.2$ The logistic map has a stable period-2 cycle.
 
 Starting from $x_0 = 0.2$:
 
@@ -107,7 +107,7 @@ $$
 r[r(1-x)(1 - rx + rx^2)] = 1
 $$
 
-At $r = 3.2$: the solutions are $x^* = 0.5130$ and $x^* = 0.7995$Matching our numerical result.
+At $r = 3.2$: the solutions are $x^* = 0.5130$ and $x^* = 0.7995$ Matching our numerical result.
 
 </details>
 
@@ -118,7 +118,7 @@ At $r = 3.2$: the solutions are $x^* = 0.5130$ and $x^* = 0.7995$Matching our nu
    problem encountered in navigation. For numerical simulations, use quaternions instead.
 
 2. **Canonical transformations are not coordinate transformations:** A canonical transformation
-   changes both coordinates and momenta in a way that preserves Hamilton"s equations. Not every
+   changes both coordinates and momenta in a way that preserves Hamilton's equations. Not every
    coordinate transformation $(q, p) \to (Q, P)$ is canonical. The test is whether the Poisson
    brackets $\{Q_i, Q_j\} = \{P_i, P_j\} = 0$ and $\{Q_i, P_j\} = \delta_{ij}$ are preserved.
 
@@ -170,7 +170,7 @@ $\dot{\omega}_3 = \frac{(I_1 - I_2)}{I_3}\omega_1\omega_2 = \frac{(1-2)}{3}(0.1)
 rad/s$^2$.
 
 (c) The initial $\omega_2 = 0.5$ is the largest component, so the rotation is predominantly about
-the intermediate axis. Since $I_1 < I_2 < I_3$Rotation about the intermediate axis is **unstable**
+the intermediate axis. Since $I_1 < I_2 < I_3$ Rotation about the intermediate axis is **unstable**
 (tennis racket theorem). The body will exhibit periodic flipping, with $\omega_1$ and $\omega_3$
 growing at the expense of $\omega_2$ Then reversing. This is the Dzhanibekov effect.
 

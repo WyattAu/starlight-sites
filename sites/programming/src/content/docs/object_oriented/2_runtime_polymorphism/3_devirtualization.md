@@ -33,7 +33,7 @@ Devirtualization.
 Compiler can prove the dynamic type of the object at compile time.
 
 The C++ Standard does not define devirtualization -- it is a pure optimization. However, the
-Standard"s type system and specifiers provide the information compilers need to perform it.
+Standard's type system and specifiers provide the information compilers need to perform it.
 
 Devirtualization is important because virtual dispatch prevents several critical optimizations:
 

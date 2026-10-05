@@ -113,7 +113,7 @@ $$
 | Solvent            | Polar protic (stabilises carbocation) | Polar aprotic (does not stabilise carbocation) |
 | Base concentration | Low                                   | High                                           |
 
-### Zaitsev"s Rule
+### Zaitsev's Rule
 
 When multiple alkenes can form, the **more substituted** (more stable) alkene is the major product:
 
@@ -486,7 +486,7 @@ Repeating unit: $-\mathrm{OCH_2CH_2CH_2OOCCH_2CH_2CO}-$
 <summary>Problem 4</summary>
 
 A compound $\mathrm{C}_5\mathrm{H}_{10}\mathrm{O}$ shows the following spectra. IR: strong peak at
-$1700\mathrm{ cm}^{-1}$No broad O--H. $\mathrm{^1H}$ NMR: $\delta\ 1.0\ (t,\ 3\mathrm{H})$
+$1700\mathrm{ cm}^{-1}$ No broad O--H. $\mathrm{^1H}$ NMR: $\delta\ 1.0\ (t,\ 3\mathrm{H})$
 $\delta\ 1.6\ (m,\ 2\mathrm{H})$, $\delta\ 2.1\ (s,\ 3\mathrm{H})$ $\delta\ 2.3\ (t,\ 2\mathrm{H})$.
 Identify the compound.
 
@@ -548,7 +548,7 @@ $$
 \mathrm{(CH_3)_3CBr + KOH \to CH_3CH=C(CH_3)_2 + KBr + H_2O}
 $$
 
-Actually, for $(CH_3)_3CBr$There are no $\beta$-hydrogens on the carbon bearing two methyl groups
+Actually, for $(CH_3)_3CBr$ There are no $\beta$-hydrogens on the carbon bearing two methyl groups
 That are distinct from the terminal methyl groups. The only elimination products are
 $(CH_3)_2C=CH_2$ (the only possible alkene). Since there is only one type of $\beta$-hydrogen,
 Zaitsev's rule does not apply here --- there is only one elimination product.
@@ -678,7 +678,7 @@ DBE = 5 is consistent with a benzene ring (DBE = 4) plus one additional unsatura
 **Step 2: Analyse IR data.**
 
 - $3060\mathrm{ cm}^{-1}$: aromatic C--H stretch (above $3000\mathrm{ cm}^{-1}$ confirms sp2 C--H).
-- $1690\mathrm{ cm}^{-1}$: C=O stretch (slightly below $1700$Suggesting conjugation with the
+- $1690\mathrm{ cm}^{-1}$: C=O stretch (slightly below $1700$ Suggesting conjugation with the
   aromatic ring).
 - $1600$, $1580\mathrm{ cm}^{-1}$: aromatic C=C stretches.
 - $750\mathrm{ cm}^{-1}$: mono-substituted benzene (ortho-disubstituted shows near
@@ -753,7 +753,7 @@ Product: 2-methylpropan-2-ol (tert-butanol). Minor E1 product: 2-methylpropene.
 **(c) $\mathrm{CH_3CHBrCH_3}$ (secondary substrate):**
 
 Mechanism: **competition between SN1 and SN2**. Secondary substrates can proceed via either pathway
-Depending on exact conditions. With $\mathrm{NaOH}$ in water at $25\degree\mathrm{C}$Both SN2 and
+Depending on exact conditions. With $\mathrm{NaOH}$ in water at $25\degree\mathrm{C}$ Both SN2 and
 SN1 are possible, but SN2 is slightly favoured because $\mathrm{OH}^-$ is a strong nucleophile.
 
 Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: propene.

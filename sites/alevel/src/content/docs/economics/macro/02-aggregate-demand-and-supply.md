@@ -80,8 +80,8 @@ Gives combinations where real money supply equals real money demand:
 
 $$\mathrm{IS: } Y = C(Y - T) + I(r) + G + (X - M)$$ $$\mathrm{LM: } \frac{M^s}{P} = L(Y, r)$$
 
-An increase in $P$ reduces real money balances $M^s/P$Shifting the LM curve leftward. This raises
-$r$Which reduces $I$ and hence $Y$ along the IS curve. The AD curve is the set of $(Y, P)$ pairs
+An increase in $P$ reduces real money balances $M^s/P$ Shifting the LM curve leftward. This raises
+$r$ Which reduces $I$ and hence $Y$ along the IS curve. The AD curve is the set of $(Y, P)$ pairs
 Consistent with both IS and LM equilibrium. Since $P \uparrow \Rightarrow Y \downarrow$ along this
 Locus, the AD curve slopes downward.
 
@@ -104,9 +104,9 @@ The AD curve shifts when any component changes _at a given price level_:
 
 #### Derivation of AD Shift Magnitude
 
-The horizontal shift of the AD curve equals $\Delta Y = k \times \Delta A$Where $\Delta A$ is the
+The horizontal shift of the AD curve equals $\Delta Y = k \times \Delta A$ Where $\Delta A$ is the
 Initial change in autonomous spending and $k$ is the multiplier. For example, if the government
-Increases spending by £50bn and $k = 2$The AD curve shifts right by £100bn at every price level.
+Increases spending by £50bn and $k = 2$ The AD curve shifts right by £100bn at every price level.
 
 $$
 \mathrm{AD shifts right by } k \cdot \Delta A \mathrm{ at every } P
@@ -230,7 +230,7 @@ Simultaneously.
 
 #### Derivation of the SRAS Shift from Expectations
 
-From the SRAS equation $Y = Y^* + \alpha(P - P^e)$If expected prices $P^e$ rise by $\Delta P^e$
+From the SRAS equation $Y = Y^* + \alpha(P - P^e)$ If expected prices $P^e$ rise by $\Delta P^e$
 (with actual $P$ unchanged), output falls to:
 
 $$
@@ -384,7 +384,7 @@ $$
 
 Where $k = \frac{1}{1 - MPC} = \frac{1}{MPS}$ is the **simple multiplier**.
 
-**Proof that the series converges.** Since $0 < c < 1$The geometric series
+**Proof that the series converges.** Since $0 < c < 1$ The geometric series
 $\sum_{n=0}^{\infty} c^n = \frac{1}{1-c}$. $\blacksquare$
 
 ### 4.2 The Complex Multiplier
@@ -423,7 +423,7 @@ Irrational (everyone ends up poorer and saving less).
 The multiplier model has several important limitations:
 
 1. **Capacity constraints.** The multiplier assumes the economy has spare capacity. If the economy
-   is at or near $Y^*$Additional spending bids up prices rather than output, and the real multiplier
+   is at or near $Y^*$ Additional spending bids up prices rather than output, and the real multiplier
    may be close to zero.
 
 2. **Crowding out.** Government borrowing to finance spending may raise interest rates, reducing
@@ -525,7 +525,7 @@ Net effect on GDP?
 
 <details>
 <summary>Hint</summary>
-(a) $k = 1/(0.25 + 0.15 + 0.10) = 1/0.50 = 2$. (b) $\Delta Y = 2 \times 100 = £200$Bn. (c) The balanced budget multiplier: tax increase of £100bn reduces disposable income by £100bn, reducing consumption by $MPC \times 100 = 75$. The net injection is $100 - 75 = 25$. $\Delta Y = 2 \times 25 = £50$Bn. Alternatively, the balanced budget multiplier equals 1 when $k$ is the simple multiplier: $\Delta Y = \Delta G = £100$Bn. The discrepancy arises because the complex multiplier includes MPT and MPM in the denominator. With lump-sum taxes: balanced budget multiplier = 1.
+(a) $k = 1/(0.25 + 0.15 + 0.10) = 1/0.50 = 2$. (b) $\Delta Y = 2 \times 100 = £200$ Bn. (c) The balanced budget multiplier: tax increase of £100bn reduces disposable income by £100bn, reducing consumption by $MPC \times 100 = 75$. The net injection is $100 - 75 = 25$. $\Delta Y = 2 \times 25 = £50$ Bn. Alternatively, the balanced budget multiplier equals 1 when $k$ is the simple multiplier: $\Delta Y = \Delta G = £100$ Bn. The discrepancy arises because the complex multiplier includes MPT and MPM in the denominator. With lump-sum taxes: balanced budget multiplier = 1.
 </details>
 
 **Problem 2.** An economy is in short-run equilibrium with output £50bn below potential output of
@@ -534,7 +534,7 @@ The output gap?
 
 <details>
 <summary>Hint</summary>
-Required $\Delta Y = 50$. $\Delta Y = k \times \Delta G \Rightarrow 50 = 2.5 \times \Delta G \Rightarrow \Delta G = £20$Bn.
+Required $\Delta Y = 50$. $\Delta Y = k \times \Delta G \Rightarrow 50 = 2.5 \times \Delta G \Rightarrow \Delta G = £20$ Bn.
 </details>
 
 **Problem 3.** Using AD/AS analysis, explain the short-run and long-run effects of an increase in
@@ -592,7 +592,7 @@ Using the AD/AS model and the concept of crowding out.
 
 <details>
 <summary>Hint</summary>
-SR: AD shifts right $\Rightarrow Y \uparrow$, $P \uparrow$. LR: if the economy was below $Y^*$The increase in $Y$ is sustainable. If the economy was at or near $Y^*$SRAS shifts left as wages rise, returning $Y$ to $Y^*$ with only higher prices. Crowding out: increased government borrowing raises interest rates, reducing private investment $\Rightarrow$ AD may not shift by the full amount of the spending increase. The net effect on growth depends on: (1) the size of the output gap, (2) the multiplier, (3) the degree of crowding out.
+SR: AD shifts right $\Rightarrow Y \uparrow$, $P \uparrow$. LR: if the economy was below $Y^*$ The increase in $Y$ is sustainable. If the economy was at or near $Y^*$ SRAS shifts left as wages rise, returning $Y$ to $Y^*$ with only higher prices. Crowding out: increased government borrowing raises interest rates, reducing private investment $\Rightarrow$ AD may not shift by the full amount of the spending increase. The net effect on growth depends on: (1) the size of the output gap, (2) the multiplier, (3) the degree of crowding out.
 </details>
 
 **Problem 10.** Compare and contrast demand-pull and cost-push inflation using AD/AS diagrams.
@@ -617,7 +617,7 @@ Business cycle even without any external shocks.
 
 <details>
 <summary>Hint</summary>
-Suppose an initial increase in investment. The multiplier raises income. The accelerator causes further investment (since income is growing). This raises income further, causing more investment. Eventually, income growth slows (approaching capacity constraints). The accelerator then causes investment to fall (because $\Delta Y$ falls even though $Y$ is still high). Falling investment reduces income (multiplier in reverse), which causes further investment cuts. The economy enters recession. Eventually, the recession bottoms out (depletion of inventories, replacement investment), and the cycle begins again. The mathematical condition for explosive oscillations is that the accelerator coefficient $v$ must exceed $1$ (when $v > 1$The interaction between the multiplier and accelerator produces cycles of increasing amplitude; Samuelson's stability condition for convergence requires $v < 1$).
+Suppose an initial increase in investment. The multiplier raises income. The accelerator causes further investment (since income is growing). This raises income further, causing more investment. Eventually, income growth slows (approaching capacity constraints). The accelerator then causes investment to fall (because $\Delta Y$ falls even though $Y$ is still high). Falling investment reduces income (multiplier in reverse), which causes further investment cuts. The economy enters recession. Eventually, the recession bottoms out (depletion of inventories, replacement investment), and the cycle begins again. The mathematical condition for explosive oscillations is that the accelerator coefficient $v$ must exceed $1$ (when $v > 1$ The interaction between the multiplier and accelerator produces cycles of increasing amplitude; Samuelson's stability condition for convergence requires $v < 1$).
 </details>
 
 **Problem 13.** An economy in long-run equilibrium experiences a sudden increase in consumer
@@ -626,14 +626,14 @@ And the price level. Evaluate the extent to which the initial boost to output is
 
 <details>
 <summary>Hint</summary>
-SR: AD shifts right $\Rightarrow Y \uparrow$$P \uparrow$Employment rises as firms hire more
-Workers to meet increased demand. LR: as $Y > Y^*$The labour market tightens, wages rise, SRAS
+SR: AD shifts right $\Rightarrow Y \uparrow$$P \uparrow$ Employment rises as firms hire more
+Workers to meet increased demand. LR: as $Y > Y^*$ The labour market tightens, wages rise, SRAS
 Shifts left $\Rightarrow Y$ returns to $Y^*$$P$ rises further, employment returns to the natural
 Rate. Evaluation: the initial boost is temporary. Sustainability depends on whether the confidence
 Shock also stimulates investment (shifting LRAS right). If higher confidence leads to more capital
 Accumulation, $Y^*$ could increase permanently. However, if the shock is purely demand-driven with
 No supply-side effects, the long-run outcome is only higher prices. Also consider crowding out: if
-The economy was near $Y^*$The central bank may raise rates to prevent overheating, offsetting the
+The economy was near $Y^*$ The central bank may raise rates to prevent overheating, offsetting the
 AD shift.
 </details>
 
@@ -663,7 +663,7 @@ Distributional effects.
 
 <details>
 <summary>Hint</summary>
-(a) $k = 1/(0.4 + 0.2 + 0.15) = 1/0.75 = 1.33$. (b) Option A: $\Delta Y = 1.33 \times 30 = £40$Bn.
+(a) $k = 1/(0.4 + 0.2 + 0.15) = 1/0.75 = 1.33$. (b) Option A: $\Delta Y = 1.33 \times 30 = £40$ Bn.
 Option B: tax cut of £40bn increases disposable income by £40bn. Initial consumption increase $=
 MPC \times 40 = 24$. $\Delta Y = 1.33 \times 24 = £32$bn. Option A has a larger effect. (c)
 Evaluation: government spending directly injects into the circular flow, whereas tax cuts depend on
@@ -689,7 +689,7 @@ Right, SRAS shifts left. The outcome for output is ambiguous (depends on the rel
 Shifts), but the price level unambiguously rises (imported inflation). Evaluation: (1) The
 Marshall-Lerner condition must hold, the sum of price elasticities of demand for exports and
 Imports must exceed 1 for the trade balance to improve. In the short run, the J-curve effect means
-The trade balance may worsen before improving. (2) If the economy is near $Y^*$The main effect is
+The trade balance may worsen before improving. (2) If the economy is near $Y^*$ The main effect is
 Inflationary, not growth-promoting. (3) Second-round effects: higher import prices feed into wage
 Demands, creating a wage-price spiral.
 </details>
@@ -931,7 +931,7 @@ on how investment responds to the change in income.
 
 **Example.** An economy at full employment ($Y^* = 1000$) is hit by an oil price shock.
 
-**Initial equilibrium:** AD: $Y = 1200 - 2P$SRAS: $Y = 4P - 400$LRAS: $Y = 1000$.
+**Initial equilibrium:** AD: $Y = 1200 - 2P$ SRAS: $Y = 4P - 400$ LRAS: $Y = 1000$.
 $1200 - 2P = 4P - 400 \Rightarrow 1600 = 6P \Rightarrow P = 266.67$$Y = 666.67$.
 
 Wait, this is not at full employment. Let me adjust. Let me find SRAS that passes through
@@ -995,7 +995,7 @@ supporting the most vulnerable.
 
 **Example.** How does the multiplier change with different values of MPC, tax rate, and MPM?
 
-**Base case:** MPC = 0.8, $t = 0.2$MPM = 0.15.
+**Base case:** MPC = 0.8, $t = 0.2$ MPM = 0.15.
 $k = \frac{1}{1 - 0.8(0.8) + 0.15} = \frac{1}{1 - 0.64 + 0.15} = \frac{1}{0.51} = 1.96$.
 
 **Sensitivity table:**
@@ -1089,7 +1089,7 @@ In reality, the cycles are damped by:
 
 **Shock 1: Oil price doubles (from USD 60 to USD 120 per barrel).**
 
-Initial equilibrium: AD: $Y = 800 - P$SRAS: $Y = 2P - 200$LRAS: $Y^* = 450$.
+Initial equilibrium: AD: $Y = 800 - P$ SRAS: $Y = 2P - 200$ LRAS: $Y^* = 450$.
 $800 - P = 2P - 200 \Rightarrow P = 333.33$$Y = 466.67$.
 
 SRAS shifts left by 100 (higher production costs). New SRAS: $Y = 2P - 300$.

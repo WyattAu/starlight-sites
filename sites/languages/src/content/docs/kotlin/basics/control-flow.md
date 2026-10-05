@@ -43,7 +43,7 @@ Statement (as in Java) works without this constraint.
 
 ## when Expression
 
-`when` is Kotlin"s replacement for the Java `switch` statement. It is an expression by default and
+`when` is Kotlin's replacement for the Java `switch` statement. It is an expression by default and
 Supports arbitrary conditions, not just constant matching.
 
 ### Basic Matching

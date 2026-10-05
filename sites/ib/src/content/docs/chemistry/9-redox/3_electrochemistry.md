@@ -39,8 +39,8 @@ Rules for assigning oxidation states:
    $\mathrm{Fe}$, $\mathrm{Cl}_2$).
 2. For a monatomic ion, the oxidation state equals the charge (e.g., $\mathrm{Na}^+$ is $+1$
    $\mathrm{O}^{2-}$ is $-2$).
-3. Oxygen is $-2$Except in peroxides ($-1$) and with fluorine ($+2$).
-4. Hydrogen is $+1$Except in metal hydrides where it is $-1$.
+3. Oxygen is $-2$ Except in peroxides ($-1$) and with fluorine ($+2$).
+4. Hydrogen is $+1$ Except in metal hydrides where it is $-1$.
 5. The sum of oxidation states in a neutral compound is zero; in a polyatomic ion it equals the ion
    charge.
 6. Fluorine is always $-1$ in compounds.
@@ -330,7 +330,7 @@ $$
 E^\circ_{\mathrm{cell}} = 0.34 - (-0.76) = +1.10\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
+Since $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 ### Anode/Cathode Sign Convention
 
@@ -356,7 +356,7 @@ When asked to predict whether a reaction is spontaneous, always:
 1. Identify the two relevant half-reactions from the data booklet.
 2. Assign cathode (more positive $E^\circ$) and anode (more negative $E^\circ$).
 3. Calculate $E^\circ_{\mathrm{cell}}$.
-4. If $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
+4. If $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 ---
 
@@ -599,7 +599,7 @@ $$
 \boxed{E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac`\{RT}``\{nF}`\ln Q}
 $$
 
-This is the **Nernst equation**. At $298\mathrm{ K}$Substituting $R = 8.314\mathrm{ J/(mol K)}$
+This is the **Nernst equation**. At $298\mathrm{ K}$ Substituting $R = 8.314\mathrm{ J/(mol K)}$
 $F = 96485\mathrm{ C/mol}$ And converting to $\log_{10}$:
 
 $$
@@ -633,7 +633,7 @@ Solids and pure liquids are omitted from $Q$.
 ### Effect of Concentration on Cell Potential
 
 From the Nernst equation, increasing the concentration of reactants (or decreasing products)
-Increases $E_{\mathrm{cell}}$While decreasing reactant concentration (or increasing products)
+Increases $E_{\mathrm{cell}}$ While decreasing reactant concentration (or increasing products)
 Decreases $E_{\mathrm{cell}}$.
 
 **Example:** For the cell
@@ -665,7 +665,7 @@ Determines the equilibrium constant.
 
 :::note[IB Exam Tip]
 A useful relationship: a larger positive $E^\circ_{\mathrm{cell}}$ means a larger equilibrium
-Constant $K$Meaning the reaction proceeds further to completion. For
+Constant $K$ Meaning the reaction proceeds further to completion. For
 $E^\circ_{\mathrm{cell}} \gt 0.3\mathrm{ V}$ (approximately), $K \gt 1$ And the reaction can be
 Considered to go essentially to completion.
 
@@ -783,9 +783,9 @@ This extremely large $K$ confirms the reaction goes essentially to completion.
 :::
 
 :::caution[Common Mistake]
-When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$Ensure $n$ is the number of moles of
+When using $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$ Ensure $n$ is the number of moles of
 Electrons for the **balanced overall equation**, not per half-reaction. If you write the equation as
-$2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$ Then $n = 2$Not $n = 1$.
+$2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$ Then $n = 2$ Not $n = 1$.
 
 ---
 
@@ -800,7 +800,7 @@ $2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$ Then $n = 2$N
 
 ## 8. Electrolysis Quantitative Problems (HL)
 
-### Faraday"s Laws
+### Faraday's Laws
 
 **Faraday's First Law.** The mass of substance deposited or liberated at an electrode during
 Electrolysis is directly proportional to the quantity of electricity passed.
@@ -1591,7 +1591,7 @@ $$
 E^\circ_{\mathrm{cell}} = 0.77 - 0.54 = +0.23\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$Yes, $\mathrm{Fe}^{3+}$ will spontaneously oxidise
+Since $E^\circ_{\mathrm{cell}} \gt 0$ Yes, $\mathrm{Fe}^{3+}$ will spontaneously oxidise
 $\mathrm{I}^-$.
 
 (b) Cathode (reduction): $\mathrm{Br}_2 + 2e^- \to 2\mathrm{Br}^-$, $E^\circ = +1.07\mathrm{ V}$
@@ -1602,7 +1602,7 @@ $$
 E^\circ_{\mathrm{cell}} = 1.07 - 0.77 = +0.30\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$Yes, $\mathrm{Br}_2$ will spontaneously oxidise
+Since $E^\circ_{\mathrm{cell}} \gt 0$ Yes, $\mathrm{Br}_2$ will spontaneously oxidise
 $\mathrm{Fe}^{2+}$.
 
 </details>
@@ -1655,7 +1655,7 @@ $$
 $$
 
 Given $E^\circ(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76\mathrm{ V}$ and
-$E^\circ(\mathrm{Cu}^{2+}/\mathrm{Cu}) = +0.34\mathrm{ V}$Calculate the cell potential at
+$E^\circ(\mathrm{Cu}^{2+}/\mathrm{Cu}) = +0.34\mathrm{ V}$ Calculate the cell potential at
 $298\mathrm{ K}$.
 
 </details>

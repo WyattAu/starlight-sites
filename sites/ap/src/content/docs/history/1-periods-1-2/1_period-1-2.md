@@ -61,7 +61,7 @@ estimated between 50 and 100 million. Key regional cultures included:
 - Portuguese established trading posts and plantations in Brazil (sugar cultivation)
 - French explored the St. Lawrence River and Great Lakes (Jacques Cartier, 1534; Samuel de
   Champlain, 1608, founded Quebec)
-- English explorers (John Cabot, 1497; Sir Walter Raleigh"s Roanoke colony, 1585-1587, the "Lost
+- English explorers (John Cabot, 1497; Sir Walter Raleigh's Roanoke colony, 1585-1587, the "Lost
   Colony")
 - Dutch established trading networks in present-day New York (New Netherland, 1624)
 

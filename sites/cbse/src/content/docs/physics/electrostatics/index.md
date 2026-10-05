@@ -168,7 +168,7 @@ The negative sign indicates the system is bound (energy would be required to sep
 
 **Solution:**
 
-When the dielectric fills only half the space, the capacitor can be treated as two capacitors in parallel: one with air ($C_{\text{air}}$) and one with dielectric ($C_{\text{dielectric}}$).
+When the dielectric fills only half the space, the capacitor can be treated as two capacitors in parallel: one with air ($C_{\text{air}}$) and one with dielectric ($ C_{\text{dielectric}}$).
 
 Let the plate area be $A$ and separation $d$. The air-filled half has area $A/2$:
 $$

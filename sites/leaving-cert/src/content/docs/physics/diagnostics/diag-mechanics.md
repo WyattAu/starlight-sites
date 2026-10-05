@@ -88,7 +88,7 @@ constant speed but changing velocity because its direction is continuously chang
 }
 </script>
 
-### UT-2: Forces and Newton"s Laws
+### UT-2: Forces and Newton's Laws
 
 **Question:**
 

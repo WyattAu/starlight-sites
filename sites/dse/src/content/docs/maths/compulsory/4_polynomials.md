@@ -19,7 +19,7 @@ categories:
 </script>
 
 A polynomial in one variable $x$ is an expression of the form
-$a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0$Where $n \in \mathbb{N}_0$
+$a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0$ Where $n \in \mathbb{N}_0$
 $a_n, a_{n-1}, \ldots, a_0 \in \mathbb{R}$ And $a_n \neq 0$. Polynomials and their manipulation Form
 a core part of the DSE compulsory mathematics syllabus, with applications ranging from Algebraic
 identities to combinatorial coefficient extraction.
@@ -104,7 +104,7 @@ $$
 This is known as the **Binomial Theorem**. See also
 [combinatorial notation](/maths/compulsory/13_permutations-and-combinations/#combinations).
 
-### Pascal"s Triangle
+### Pascal's Triangle
 
 The binomial coefficients $\binom{n}{k}$ for successive values of $n$ form Pascal's triangle:
 
@@ -156,13 +156,13 @@ $$
 
 ### Expanding $(a + bx)^n$
 
-For $(a + bx)^n$The general term is:
+For $(a + bx)^n$ The general term is:
 
 $$
 T_{r+1} = \binom{n}{r} a^{n-r} (bx)^r = \binom{n}{r} a^{n-r} b^r x^r
 $$
 
-To find the coefficient of $x^k$Set $r = k$ and evaluate:
+To find the coefficient of $x^k$ Set $r = k$ and evaluate:
 
 $$
 [\mathrm{coefficient of } x^k] = \binom{n}{k} a^{n-k} b^k
@@ -201,7 +201,7 @@ The constant term is $160$.
 <summary>Example: Finding the middle term</summary>
 Find the middle term in the expansion of $\left(1 + \dfrac{x}{2}\right)^{10}$.
 
-Since $n = 10$ (even), there is one middle term at position $\dfrac{n}{2} + 1 = 6$I.e. $r = 5$:
+Since $n = 10$ (even), there is one middle term at position $\dfrac{n}{2} + 1 = 6$ I.e. $r = 5$:
 
 $$
 T_6 = \binom{10}{5} \left(\frac{x}{2}\right)^5 = 252 \cdot \frac{x^5}{32} = \frac{63}{8} x^5
@@ -222,7 +222,7 @@ $$
 
 ### Long Division
 
-Given two polynomials $f(x)$ (dividend) and $g(x)$ (divisor) with $\deg g(x) \geq 1$Polynomial Long
+Given two polynomials $f(x)$ (dividend) and $g(x)$ (divisor) with $\deg g(x) \geq 1$ Polynomial Long
 division yields a quotient $q(x)$ and a remainder $r(x)$ such that
 
 $$
@@ -249,18 +249,18 @@ X^2 - x + 2 & 2x^3 + 3x^2 - 5x + 7 \\
 \end{array}
 $$
 
-Quotient: $q(x) = 2x + 5$Remainder: $r(x) = -4x - 3$.
+Quotient: $q(x) = 2x + 5$ Remainder: $r(x) = -4x - 3$.
 
 Verification: $(x^2 - x + 2)(2x + 5) + (-4x - 3) = 2x^3 + 3x^2 - 5x + 7$.
 
 ### Remainder Theorem
 
-When a polynomial $f(x)$ is divided by $(x - c)$The remainder is $f(c)$.
+When a polynomial $f(x)$ is divided by $(x - c)$ The remainder is $f(c)$.
 
 **Proof.** By the division algorithm, $f(x) = (x-c) \cdot q(x) + r$ where $r$ is a constant (since
 $\deg r < \deg(x-c) = 1$). Substituting $x = c$: $f(c) = 0 \cdot q(c) + r = r$.
 
-For a divisor of the form $(ax - b)$Set $x = \dfrac{b}{a}$ to obtain the remainder
+For a divisor of the form $(ax - b)$ Set $x = \dfrac{b}{a}$ to obtain the remainder
 $f\!\left(\dfrac{b}{a}\right)$.
 
 <details>
@@ -302,7 +302,7 @@ By division (or by comparing coefficients), $f(x) = (x - 3)(x^2 - x - 2) = (x-3)
 
 </details>
 <summary>Example: Finding an unknown constant</summary>
-If $(x + 2)$ is a factor of $f(x) = x^3 + ax^2 - 3x + 10$Find $a$.
+If $(x + 2)$ is a factor of $f(x) = x^3 + ax^2 - 3x + 10$ Find $a$.
 
 By the Factor Theorem, $f(-2) = 0$:
 
@@ -373,13 +373,13 @@ $$
 
 <details>
 <summary>Quadratic trinomials</summary>
-For $ax^2 + bx + c$Find two numbers $p$ and $q$ such that $pq = ac$ and $p + q = b$.
+For $ax^2 + bx + c$ Find two numbers $p$ and $q$ such that $pq = ac$ and $p + q = b$.
 
 $$
 6x^2 - 7x + 2 = 6x^2 - 4x - 3x + 2 = 2x(3x - 2) - 1(3x - 2) = (2x - 1)(3x - 2)
 $$
 
-If the discriminant $\Delta = b^2 - 4ac < 0$The quadratic cannot be factorized over $\mathbb{R}$.
+If the discriminant $\Delta = b^2 - 4ac < 0$ The quadratic cannot be factorized over $\mathbb{R}$.
 
 ### Factorization by the Factor Theorem
 
@@ -441,7 +441,7 @@ Manipulation.
 
 </details>
 <summary>Example: Finding a new equation from roots</summary>
-If $\alpha$ and $\beta$ are roots of $2x^2 - 5x + 1 = 0$Find the equation whose roots are $\alpha^2$ and $\beta^2$.
+If $\alpha$ and $\beta$ are roots of $2x^2 - 5x + 1 = 0$ Find the equation whose roots are $\alpha^2$ and $\beta^2$.
 
 From Vieta: $\alpha + \beta = \dfrac{5}{2}$, $\alpha\beta = \dfrac{1}{2}$.
 
@@ -457,12 +457,12 @@ $$
 \alpha^2 \beta^2 = (\alpha\beta)^2 = \frac{1}{4}
 $$
 
-The required equation is $x^2 - \dfrac{21}{4}x + \dfrac{1}{4} = 0$Or equivalently
+The required equation is $x^2 - \dfrac{21}{4}x + \dfrac{1}{4} = 0$ Or equivalently
 $4x^2 - 21x + 1 = 0$.
 
 <details>
 <summary>Example: Symmetric expressions in roots</summary>
-If $\alpha$ and $\beta$ are roots of $x^2 - 6x + 4 = 0$Find the value of $\dfrac{1}{\alpha} + \dfrac{1}{\beta}$.
+If $\alpha$ and $\beta$ are roots of $x^2 - 6x + 4 = 0$ Find the value of $\dfrac{1}{\alpha} + \dfrac{1}{\beta}$.
 
 $$
 \frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta} = \frac{6}{4} = \frac{3}{2}
@@ -520,8 +520,8 @@ $$
 
 The constant term is $84$.
 
-1. **Question:** When $f(x) = 2x^3 + ax^2 + bx - 6$ is divided by $(x-1)$The remainder is $-4$. When
-divided by $(x+2)$The remainder is $30$. Find $a$ and $b$.
+1. **Question:** When $f(x) = 2x^3 + ax^2 + bx - 6$ is divided by $(x-1)$ The remainder is $-4$. When
+divided by $(x+2)$ The remainder is $30$. Find $a$ and $b$.
 
 <details>
 <summary>Answer</summary>
@@ -569,13 +569,13 @@ $$
 27 + 9(-d-2) + 3(2d-3) + 3d = 27 - 9d - 18 + 6d - 9 + 3d = 0
 $$
 
-This simplifies to $0 = 0$Which is consistent. From (ii):
+This simplifies to $0 = 0$ Which is consistent. From (ii):
 
 $$
 -1 - d - 2 + 3 - 2d + 3d = 0 \implies 0 = 0
 $$
 
-We need one more condition. Since the leading coefficient is $1$ and $f(x) = (x-3)(x+1)(x - d)$We
+We need one more condition. Since the leading coefficient is $1$ and $f(x) = (x-3)(x+1)(x - d)$ We
 Must have the constant term $c = 3d$. But $f(x)$ has constant term $c$. Comparing: $c = 3d$. We have
 One free parameter, so let us use $f(0) = c = 3d$ But we need another constraint.
 
@@ -611,7 +611,7 @@ $$
 U^2 - 5u + 4 = (u-1)(u-4) = (x^2 - 1)(x^2 - 4) = (x-1)(x+1)(x-2)(x+2)
 $$
 
-1. **Question:** If $\alpha$ and $\beta$ are roots of $3x^2 - 8x + 2 = 0$Find the value of
+1. **Question:** If $\alpha$ and $\beta$ are roots of $3x^2 - 8x + 2 = 0$ Find the value of
 $\alpha^3 + \beta^3$ without solving the equation.
 
 </details>
@@ -673,7 +673,7 @@ $$
 <summary>Answer</summary>
 Expand each factor using the binomial theorem and collect the $x^5$ terms.
 
-From $(1+x)^8$The terms contributing to $x^5$ are $x^k$ where $k \leq 5$; from $(1-x)^6$The term
+From $(1+x)^8$ The terms contributing to $x^5$ are $x^k$ where $k \leq 5$; from $(1-x)^6$ The term
 $(-x)^{5-k}$.
 
 The coefficient of $x^5$ is:
@@ -707,7 +707,7 @@ $\dfrac{1}{\alpha} + \dfrac{1}{\beta} = \dfrac{\alpha + \beta}{\alpha\beta} = \d
 
 Product of new roots: $\dfrac{1}{\alpha} \cdot \dfrac{1}{\beta} = \dfrac{1}{3}$.
 
-The equation is $x^2 - \dfrac{7}{3}x + \dfrac{1}{3} = 0$Or $3x^2 - 7x + 1 = 0$.
+The equation is $x^2 - \dfrac{7}{3}x + \dfrac{1}{3} = 0$ Or $3x^2 - 7x + 1 = 0$.
 
 1. **Question:** Factorize $f(x) = x^3 - 3x^2 + 4$ completely.
 
@@ -858,7 +858,7 @@ Remainder: $2x + 6$.
 
 **Worked Example 16: Vieta for cubic equations**
 
-If $\alpha$$\beta$$\gamma$ are roots of $x^3 - 2x^2 + 3x - 4 = 0$Find
+If $\alpha$$\beta$$\gamma$ are roots of $x^3 - 2x^2 + 3x - 4 = 0$ Find
 $\alpha^2 + \beta^2 + \gamma^2$.
 
 <details>
@@ -879,7 +879,7 @@ $$
 
 **Worked Example 17: Binomial coefficient ratio**
 
-If $\binom{n}{3} = 3\binom{n-1}{2}$Find $n$.
+If $\binom{n}{3} = 3\binom{n-1}{2}$ Find $n$.
 
 <details>
 <summary>Solution</summary>
@@ -907,8 +907,8 @@ $$
 
 ## DSE Exam-Style Questions
 
-**DSE Practice 1.** When $f(x) = x^3 + ax^2 + bx + c$ is divided by $(x - 1)$The remainder is $4$.
-When divided by $(x + 1)$The remainder is $-2$. When divided by $(x - 2)$The remainder is $14$. Find
+**DSE Practice 1.** When $f(x) = x^3 + ax^2 + bx + c$ is divided by $(x - 1)$ The remainder is $4$.
+When divided by $(x + 1)$ The remainder is $-2$. When divided by $(x - 2)$ The remainder is $14$. Find
 $a$, $b$ And $c$.
 
 <details>
@@ -954,7 +954,7 @@ Total coefficient of $x^3$: $80 + (-40) = 40$.
 
 </details>
 
-**DSE Practice 3.** If $(x + 1)$ and $(x - 2)$ are factors of $f(x) = 2x^3 + ax^2 + bx - 6$Find $a$
+**DSE Practice 3.** If $(x + 1)$ and $(x - 2)$ are factors of $f(x) = 2x^3 + ax^2 + bx - 6$ Find $a$
 and $b$. Hence find the third factor.
 
 <details>
@@ -1022,7 +1022,7 @@ $$
 \left(\frac{n+1}{2}\right)^n \geq n!
 $$
 
-We need to show $n^n > 2^{n-1} \cdot n!$I.e., $n^n / n! > 2^{n-1}$I.e., $\dfrac{n^n}{n!} > 2^{n-1}$.
+We need to show $n^n > 2^{n-1} \cdot n!$ I.e., $n^n / n! > 2^{n-1}$ I.e., $\dfrac{n^n}{n!} > 2^{n-1}$.
 
 Note
 $\dfrac{n^n}{n!} = \dfrac{n \cdot n \cdots n}{n \cdot (n-1) \cdots 1} = \prod_{k=1}^{n-1} \dfrac{n}{n - k}$.
@@ -1034,7 +1034,7 @@ $n \geq 3$ (since $\dfrac{n}{n-k} \geq 2$ when $n - k \leq n/2$).
 
 For $n = 2$: $4 > 2 \cdot 2 = 4$? No, $4 = 4$. For $n = 3$: $27 > 4 \cdot 6 = 24$. Yes.
 
-The inequality holds strictly for $n \geq 3$. For $n = 2$Equality holds.
+The inequality holds strictly for $n \geq 3$. For $n = 2$ Equality holds.
 
 </details>
 

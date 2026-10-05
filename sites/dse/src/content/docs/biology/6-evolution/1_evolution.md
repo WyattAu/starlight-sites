@@ -292,7 +292,7 @@ Allopatric speciation occurs when populations are geographically separated, prev
 
 **Evidence for allopatric speciation:**
 
-- Islands provide natural laboratories for allopatric speciation (e.g., Darwin"s finches on the
+- Islands provide natural laboratories for allopatric speciation (e.g., Darwin's finches on the
   Galapagos Islands)
 - The Kaibab squirrel and Abert's squirrel are similar species that live on opposite sides of the
   Grand Canyon and have evolved differences since the canyon formed
@@ -599,7 +599,7 @@ Where $O$ = observed frequency, $E$ = expected frequency.
 3. Compare to the critical value at the appropriate degrees of freedom (df = number of genotypes -
    number of alleles)
 4. For two alleles, df = 3 - 2 = 1. The critical value at p = 0.05 is 3.84
-5. If $\chi^2 > 3.84$The deviation from Hardy-Weinberg is statistically significant, suggesting
+5. If $\chi^2 > 3.84$ The deviation from Hardy-Weinberg is statistically significant, suggesting
    evolution is occurring
 
 ### Worked Example: Chi-Square Test
@@ -948,7 +948,7 @@ Where $O$ = observed frequency, $E$ = expected frequency.
 3. Compare to the critical value at the appropriate degrees of freedom (df = number of genotypes -
    number of alleles)
 4. For two alleles, df = 3 - 2 = 1. The critical value at p = 0.05 is 3.84
-5. If $\chi^2 > 3.84$The deviation from Hardy-Weinberg is statistically significant, suggesting
+5. If $\chi^2 > 3.84$ The deviation from Hardy-Weinberg is statistically significant, suggesting
    evolution is occurring
 
 ### Worked Example: Chi-Square Test

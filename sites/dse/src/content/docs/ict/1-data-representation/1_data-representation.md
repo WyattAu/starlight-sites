@@ -130,7 +130,7 @@ Verification: $107 + 93 = 200$ And $11001000_2 = 128 + 64 + 8 = 200$. Correct.
 
 </details>
 
-#### Two"s Complement
+#### Two's Complement
 
 Two's complement is the standard method for representing signed integers in binary. The most
 Significant bit (MSB) serves as the sign bit: 0 for positive, 1 for negative.
@@ -161,7 +161,7 @@ $11010101 + 1 = 11010110$
 
 So $-42$ in 8-bit two's complement is $11010110$.
 
-Verification: The MSB is 1 (negative). Magnitude: invert $11010110 \to 00101001$Add
+Verification: The MSB is 1 (negative). Magnitude: invert $11010110 \to 00101001$ Add
 $1 \to 00101010 = 42$. Correct.
 
 </details>
@@ -175,7 +175,7 @@ $67 = 01000011$
 
 $45 = 00101101$
 
-Two's complement of 45: invert $\to 11010010$Add $1 \to 11010011$
+Two's complement of 45: invert $\to 11010010$ Add $1 \to 11010011$
 
 Now add:
 
@@ -435,7 +435,7 @@ $$
 C = \frac{1 - R' - K}{1 - K}
 $$
 
-Where $R' = R / 255$Etc.
+Where $R' = R / 255$ Etc.
 
 ### Image File Formats -- Technical Specifications
 
@@ -1125,7 +1125,7 @@ Possible error patterns.
 
 ## Common Pitfalls
 
-1. **Two's complement range:** For n bits, the range is $-2^{n-1}$ to $2^{n-1} - 1$NOT $-2^{n-1}$ to
+1. **Two's complement range:** For n bits, the range is $-2^{n-1}$ to $2^{n-1} - 1$ NOT $-2^{n-1}$ to
    $2^{n-1}$. The asymmetry exists because zero uses one of the positive representations.
 
 2. **UTF-8 byte patterns:** Continuation bytes always start with `10`. The first byte's leading bits
@@ -1184,7 +1184,7 @@ Answer:
 
 Binary: $3 = 011$$4 = 100$$5 = 101$. So $345_8 = 011100101_2 = 11100101_2$
 
-(b) Two's complement of $01101011$: invert $\to 10010100$Add $1 \to 10010101$
+(b) Two's complement of $01101011$: invert $\to 10010100$ Add $1 \to 10010101$
 
 ```python
   11010110
@@ -1199,7 +1199,7 @@ Check: $214 - 107 = 107_{10}$. $01101011_2 = 64 + 32 + 8 + 2 + 1 = 107$. Correct
 
 (c) $98 = 64 + 32 + 2 = 01100010$
 
-Invert: $10011101$Add $1$: $10011110$
+Invert: $10011101$ Add $1$: $10011110$
 
 So $-98$ in 8-bit two's complement is $10011110$.
 

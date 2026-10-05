@@ -199,7 +199,7 @@ pressure**. [3 marks]
 **Worked Solution**
 
 (a) At **constant volume**, adding an inert gas increases the **total pressure** but does **not**
-change the partial pressures of $PCl_{5}$, $PCl_{3}$Or $Cl_{2}$. Since the equilibrium depends on
+change the partial pressures of $PCl_{5}$, $PCl_{3}$ Or $Cl_{2}$. Since the equilibrium depends on
 partial pressures (or concentrations), the **equilibrium position does not shift**.
 
 Reason: $P_{\text{total}}$ increases, but the mole fractions and hence partial pressures of the
@@ -304,7 +304,7 @@ $$
 
 (d) Let $\alpha$ be the new degree of dissociation at $P = 2.00$ atm.
 
-$n(N_{2}O_{4}) = 1 - \alpha$, $n(NO_{2}) = 2\alpha$Total $= 1 + \alpha$
+$n(N_{2}O_{4}) = 1 - \alpha$, $n(NO_{2}) = 2\alpha$ Total $= 1 + \alpha$
 
 $$
 P(N_{2}O_{4}) = \frac{1 - \alpha}{1 + \alpha} \times 2.00
@@ -345,7 +345,7 @@ $$
 $$
 
 The new degree of dissociation is **0.378** (37.8%), which is less than 0.50, consistent with Le
-Chatelier"s principle (increasing pressure favours the side with fewer gas moles).
+Chatelier's principle (increasing pressure favours the side with fewer gas moles).
 
 ---
 

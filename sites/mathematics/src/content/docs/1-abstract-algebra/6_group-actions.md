@@ -19,7 +19,7 @@ description: "A of on a set is a map Written Satisfying: Comprehensive education
 
 ### 6.1 Definition
 
-A **group action** of $G$ on a set $X$ is a map $G \times X \to X$Written $(g, x) \mapsto g \cdot x$
+A **group action** of $G$ on a set $X$ is a map $G \times X \to X$ Written $(g, x) \mapsto g \cdot x$
 Satisfying:
 
 1. $e \cdot x = x$ for all $x \in X$.
@@ -45,7 +45,7 @@ Iff $g \in h\,\mathrm{Stab}(x)$. So the fibers of $\phi$ are precisely the coset
 $\mathrm{Stab}(x)$ And there are $[G : \mathrm{Stab}(x)]$ of them, each mapping to a distinct
 element of $\mathrm{Orb}(x)$. $\blacksquare$
 
-### 6.3 Burnside"s Lemma
+### 6.3 Burnside's Lemma
 
 **Theorem 6.3 (Burnside's Lemma).** If a finite group $G$ acts on a finite set $X$ Then the number Of
 orbits is
@@ -123,14 +123,14 @@ $$
 
 Where $x_1, \ldots, x_r$ are representatives of the non-central conjugacy classes. For each $i$
 $x_i$ is non-central, so $C_G(x_i) \neq G$. Thus $[G : C_G(x_i)]$ is a divisor of $|G| = p^n$ That
-is strictly greater than $1$Hence $p$ divides $[G : C_G(x_i)]$. Since $p$ also divides $|G|$ We
+is strictly greater than $1$ Hence $p$ divides $[G : C_G(x_i)]$. Since $p$ also divides $|G|$ We
 have:
 
 $$
 |Z(G)| = |G| - \sum_{i=1}^{r} [G : C_G(x_i)] \equiv 0 - 0 \equiv 0 \pmod{p}
 $$
 
-Since $e \in Z(G)$We have $|Z(G)| \geq 1$. Therefore $|Z(G)| \geq p$. $\blacksquare$
+Since $e \in Z(G)$ We have $|Z(G)| \geq 1$. Therefore $|Z(G)| \geq p$. $\blacksquare$
 
 **Corollary 6.6.** Every group of order $p^2$ (where $p$ is prime) is abelian.
 

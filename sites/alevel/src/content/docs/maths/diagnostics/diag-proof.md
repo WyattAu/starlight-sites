@@ -59,7 +59,7 @@ Squaring: $2 = \frac{p^2}{q^2}$ So $p^2 = 2q^2$.
 
 Since $p^2 = 2q^2$, $p^2$ is even. Since the square of an odd number is odd, $p$ must be even.
 
-Write $p = 2k$ for some integer $k$. Then $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$Giving $q^2 = 2k^2$.
+Write $p = 2k$ for some integer $k$. Then $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$ Giving $q^2 = 2k^2$.
 
 Since $q^2 = 2k^2$, $q^2$ is even, and by the same argument, $q$ is even.
 
@@ -126,7 +126,7 @@ at $n = 0$. Show that the formula also holds for $n = 0$ and explain why startin
 not invalidate the proof.
 
 **(c)** A third student tries to prove that $2^n \gt n^2$ for all $n \geq 1$ by induction. Show that
-the inductive step fails at $n = 2 \to n = 3$Even though the statement is true for $n = 3$. Find the
+the inductive step fails at $n = 2 \to n = 3$ Even though the statement is true for $n = 3$. Find the
 smallest value of $N$ such that $2^n \gt n^2$ for all $n \geq N$.
 
 [Difficulty: hard. Tests the role of the base case in anchoring the induction, and the subtlety that
@@ -169,7 +169,7 @@ This is $P(k+1)$. By induction, $P(n)$ is true for all $n \geq 1$.
 $= \frac{0 \cdot 1 \cdot 1}{6} = 0$. True.
 
 Starting at $n = 0$ is valid because the inductive step from $P(k)$ to $P(k+1)$ works for
-$k \geq 0$. The proof establishes the result for all $n \geq 0$Which is a stronger statement than
+$k \geq 0$. The proof establishes the result for all $n \geq 0$ Which is a stronger statement than
 $n \geq 1$. This does not invalidate the proof; it proves a more general result.
 
 **(c)** **Check values:** $2^1 = 2 \gt 1 = 1^2$. True. $2^2 = 4 = 4 = 2^2$. Not strictly greater
@@ -181,11 +181,11 @@ So the statement "$2^n \gt n^2$ for all $n \geq 1$" is actually **false** at $n 
 
 $2^{k+1} = 2 \cdot 2^k \gt 2k^2$ (by the inductive hypothesis).
 
-We need $2k^2 \geq (k+1)^2 = k^2 + 2k + 1$I.e. $k^2 - 2k - 1 \geq 0$I.e.
+We need $2k^2 \geq (k+1)^2 = k^2 + 2k + 1$ I.e. $k^2 - 2k - 1 \geq 0$ I.e.
 $k \geq 1 + \sqrt{2} \approx 2.41$.
 
-So the inductive step works for $k \geq 3$Meaning $2^n \gt n^2$ for all $n \geq 5$ (since we need to
-verify the base case at $n = 5$Or anchor at $n = 3$ and step forward).
+So the inductive step works for $k \geq 3$ Meaning $2^n \gt n^2$ for all $n \geq 5$ (since we need to
+verify the base case at $n = 5$ Or anchor at $n = 3$ and step forward).
 
 Wait, let me check: $2^4 = 16 \gt 16$? No, $16 = 16$. Not strictly greater.
 
@@ -244,7 +244,7 @@ So "prime" does not imply "odd" (counterexample: 2). Also, "odd" does not imply 
 
 Answer: **neither necessary nor sufficient**.
 
-**(c)** "$a^2 + b^2 = 0$": since $a^2 \geq 0$ and $b^2 \geq 0$The sum is zero only when both are
+**(c)** "$a^2 + b^2 = 0$": since $a^2 \geq 0$ and $b^2 \geq 0$ The sum is zero only when both are
 zero. So $a^2 + b^2 = 0 \iff a = 0 \text{ and } b = 0$.
 
 Answer: **both necessary and sufficient** (the condition is equivalent).
@@ -260,7 +260,7 @@ Answer: Differentiability is **sufficient** (but not necessary) for continuity.
 **(e)** "$x^2 = 4$" is necessary for "$x = 2$": if $x = 2$ then $x^2 = 4$. (Every $x = 2$ satisfies
 $x^2 = 4$.)
 
-"$x^2 = 4$" is not sufficient for "$x = 2$": the counterexample is $x = -2$Since $(-2)^2 = 4$ but
+"$x^2 = 4$" is not sufficient for "$x = 2$": the counterexample is $x = -2$ Since $(-2)^2 = 4$ but
 $-2 \neq 2$.
 
 ---
@@ -291,7 +291,7 @@ A sequence $(a_n)$ is defined by $a_1 = 2$ and $a_{n+1} = \frac{a_n + 3}{2}$ for
 **(c)** State the limit of the sequence and justify your answer using the monotone convergence
 theorem.
 
-**(d)** Find $\sum_{r=1}^{n} a_r$ in terms of $n$Giving your answer in its simplest form.
+**(d)** Find $\sum_{r=1}^{n} a_r$ in terms of $n$ Giving your answer in its simplest form.
 
 [Difficulty: hard. Combines proof by induction with recurrence relations, boundedness, monotonicity,
 and series summation.]
@@ -316,7 +316,7 @@ So $a_{k+1} \lt 3$. By induction, $a_n \lt 3$ for all $n \geq 1$.
 
 $a_{k+2} - a_{k+1} = \frac{a_{k+1} + 3}{2} - a_{k+1} = \frac{3 - a_{k+1}}{2}$.
 
-By part (a), $a_{k+1} \lt 3$ So $3 - a_{k+1} \gt 0$Giving $a_{k+2} - a_{k+1} \gt 0$.
+By part (a), $a_{k+1} \lt 3$ So $3 - a_{k+1} \gt 0$ Giving $a_{k+2} - a_{k+1} \gt 0$.
 
 So $a_{k+1} \lt a_{k+2}$. By induction, $a_n \lt a_{n+1}$ for all $n \geq 1$ (strictly increasing).
 
@@ -374,13 +374,13 @@ Either $a = b$ or $a^2 + ab + b^2 = 0$.
 
 Now $a^2 + ab + b^2 = \left(a + \frac{b}{2}\right)^2 + \frac{3b^2}{4} \geq 0$.
 
-Equality requires $a + \frac{b}{2} = 0$ and $b = 0$Giving $a = b = 0$.
+Equality requires $a + \frac{b}{2} = 0$ and $b = 0$ Giving $a = b = 0$.
 
 So $a^2 + ab + b^2 = 0$ only when $a = b = 0$. In all cases, $a = b$.
 
 Therefore $f$ is injective.
 
-**(ii) Calculus proof:** $f'(x) = 3x^2 \geq 0$ for all $x \in \mathbb{R}$With equality only at
+**(ii) Calculus proof:** $f'(x) = 3x^2 \geq 0$ for all $x \in \mathbb{R}$ With equality only at
 $x = 0$.
 
 $f'(x) \geq 0$ means $f$ is non-decreasing. To show strict monotonicity: for any $a \lt b$ with
@@ -397,8 +397,8 @@ $\mathbb{R}$.
 
 **(c)** Claim: $g(x) = x^2$ is injective on $[0, \infty)$.
 
-**Proof:** If $a, b \geq 0$ and $a^2 = b^2$ Then $a^2 - b^2 = (a-b)(a+b) = 0$. Since $a + b \geq 0$We
-need $a - b = 0$Giving $a = b$.
+**Proof:** If $a, b \geq 0$ and $a^2 = b^2$ Then $a^2 - b^2 = (a-b)(a+b) = 0$. Since $a + b \geq 0$ We
+need $a - b = 0$ Giving $a = b$.
 
 Similarly, $g$ is injective on $(-\infty, 0]$.
 
@@ -456,7 +456,7 @@ So $(k+1)^3 - (k+1) = 6m + 6p = 6(m+p)$ for some integer $p$. Divisible by 6.
 
 By induction, $n^3 - n$ is divisible by 6 for all $n \geq 1$.
 
-**(Alternative proof:** $n^3 - n = n(n-1)(n+1) = (n-1)n(n+1)$The product of three consecutive
+**(Alternative proof:** $n^3 - n = n(n-1)(n+1) = (n-1)n(n+1)$ The product of three consecutive
 integers. Among any three consecutive integers, one is divisible by 3 and at least one is divisible
 by 2. So the product is divisible by $3 \times 2 = 6$.)
 
@@ -491,7 +491,7 @@ Divisible by 7. By induction, $3^{2n+1} + 2^{n+2}$ is divisible by 7 for all $n 
 | 3   | 13            | Yes                    |
 | 4   | 21            | No ($21 = 3 \times 7$) |
 
-The smallest counterexample is $n = 4$: $4^2 + 4 + 1 = 21$Which is not prime.
+The smallest counterexample is $n = 4$: $4^2 + 4 + 1 = 21$ Which is not prime.
 
 ## Cross-References
 

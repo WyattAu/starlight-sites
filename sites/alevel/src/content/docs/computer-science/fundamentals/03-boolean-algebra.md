@@ -112,7 +112,7 @@ We define the Boolean algebra over $\mathbb{B} = \{0, 1\}$ with operations:
 | Absorption                 | $A + A \cdot B = A$; $A \cdot (A + B) = A$                    |
 | Double negation            | $\bar{\bar{A}} = A$                                           |
 
-### De Morgan"s Laws
+### De Morgan's Laws
 
 **Theorem (De Morgan's Laws).** For all Boolean variables $A, B$:
 
@@ -141,7 +141,7 @@ Now $(\bar{A} \cdot \bar{B}) \cdot (A + B) = \bar{A}\bar{B}A + \bar{A}\bar{B}B =
 
 And $(\bar{A} \cdot \bar{B}) + (A + B) = (\bar{A} + A + B)(\bar{B} + A + B) = 1 \cdot 1 = 1$
 
-Since both $f$ and $\bar{A}\cdot\bar{B}$ have the same complement relationship with $A+B$By
+Since both $f$ and $\bar{A}\cdot\bar{B}$ have the same complement relationship with $A+B$ By
 Uniqueness of complement, $f = \bar{A}\cdot\bar{B}$. $\square$
 
 ### XNOR Identity
@@ -169,7 +169,7 @@ $\square$
 
 A Karnaugh map is a graphical method for simplifying Boolean expressions. The key insight is that
 **adjacent cells in the K-map correspond to minterms that differ in exactly one variable**. By the
-Combining theorem $AB + A\bar{B} = A(B + \bar{B}) = A$Grouping adjacent cells eliminates the
+Combining theorem $AB + A\bar{B} = A(B + \bar{B}) = A$ Grouping adjacent cells eliminates the
 Variable that differs.
 
 ### 2-Variable K-Map
@@ -370,7 +370,7 @@ A **full adder** adds three bits (two inputs + carry-in), producing sum and carr
 
 $\mathrm{Sum} = A \oplus B \oplus C_{in}$
 
-For $C_{out}$We note it is 1 when at least two of the three inputs are 1:
+For $C_{out}$ We note it is 1 when at least two of the three inputs are 1:
 
 $C_{out} = AB + AC_{in} + BC_{in}$
 
@@ -693,7 +693,7 @@ Of the output $Q$ on each clock pulse.
 <details>
 <summary>Hint</summary>
 
-Since $D = \bar{Q}$ and $Q_{next} = D$What happens to $Q$ on each clock edge?
+Since $D = \bar{Q}$ and $Q_{next} = D$ What happens to $Q$ on each clock edge?
 
 </details>
 
@@ -767,7 +767,7 @@ Total: approximately 9 NAND gates.
 </details>
 
 **Problem 12.** Use a K-map with don't-care conditions to simplify
-$f(A,B,C) = \sum(0,2,5) + d(1,4,7)$Where $d$ denotes don't-cares.
+$f(A,B,C) = \sum(0,2,5) + d(1,4,7)$ Where $d$ denotes don't-cares.
 
 <details>
 <summary>Hint</summary>

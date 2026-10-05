@@ -21,7 +21,7 @@ categories: [Physics]
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 >
-## 1. Newton"s Law of Universal Gravitation
+## 1. Newton's Law of Universal Gravitation
 
 **Newton's Law.** Every point mass attracts every other point mass with a force directed along the
 line Joining them, whose magnitude is:
@@ -41,7 +41,7 @@ $$
 \oint \mathbf{g} \cdot d\mathbf{A} = -4\pi G M_{\mathrm{enc}}
 $$
 
-Since the surface area is $4\pi r^2$The flux density (field strength) must be $g = GM/r^2$. The
+Since the surface area is $4\pi r^2$ The flux density (field strength) must be $g = GM/r^2$. The
 Force on a test mass $m$ is then $F = mg = GMm/r^2$. This inverse square law is a direct geometric
 Consequence of flux conservation in three-dimensional space.
 
@@ -84,7 +84,7 @@ Points ($r \lt R$).
 
 **Proof (external, $r \gt R$).** Consider a test mass $m$ at distance $r$ from the centre. Divide
 the Shell into thin annular rings perpendicular to the line from the centre to $m$. A ring at polar
-angle $\theta$ has radius $R\sin\theta$Width $R\,d\theta$ And mass:
+angle $\theta$ has radius $R\sin\theta$ Width $R\,d\theta$ And mass:
 
 $$
 dM = \frac{M}{4\pi R^2} \cdot 2\pi R^2 \sin\theta\,d\theta = \frac{M}{2}\sin\theta\,d\theta
@@ -138,7 +138,7 @@ $$
 \boxed{g = g_0\left(\frac{R}{R + h}\right)^2}
 $$
 
-For $h \ll R$The binomial approximation gives $g \approx g_0(1 - 2h/R)$.
+For $h \ll R$ The binomial approximation gives $g \approx g_0(1 - 2h/R)$.
 
 ## 3. Gravitational Potential
 
@@ -194,7 +194,7 @@ $$
 \boxed{E_p = -\frac{GMm}{r}}
 $$
 
-**Connection to $E_p = mgh$.** For height $h \ll R_E$The Taylor expansion gives:
+**Connection to $E_p = mgh$.** For height $h \ll R_E$ The Taylor expansion gives:
 
 $$
 \Delta E_p = -\frac{GMm}{R_E + h} + \frac{GMm}{R_E} = \frac{GMmh}{R_E(R_E + h)} \approx \frac{GMmh}{R_E^2} = mgh
@@ -286,7 +286,7 @@ $$
 $$
 
 Setting $a = r$ recovers the circular orbit result. For a parabolic escape trajectory
-($a \to \infty$): $v^2 = 2GM/r$Giving the escape speed.
+($a \to \infty$): $v^2 = 2GM/r$ Giving the escape speed.
 
 ### Orbital Speed is Mass-Independent
 
@@ -476,7 +476,7 @@ Prove that the gravitational field inside a uniform solid sphere of radius $R$ a
 The centre is $g = GMr/R^3$.
 
 **Answer.** By the shell theorem, only the mass within radius $r$ contributes. For uniform density
-$\rho = 3M/(4\pi R^3)$The enclosed mass is $M_{\mathrm{enc}} = \rho \cdot 4\pi r^3/3 = Mr^3/R^3$.
+$\rho = 3M/(4\pi R^3)$ The enclosed mass is $M_{\mathrm{enc}} = \rho \cdot 4\pi r^3/3 = Mr^3/R^3$.
 
 $g = \frac{GM_{\mathrm{enc}}}{r^2} = \frac{GMr^3/R^3}{r^2} = \frac{GMr}{R^3}$.
 

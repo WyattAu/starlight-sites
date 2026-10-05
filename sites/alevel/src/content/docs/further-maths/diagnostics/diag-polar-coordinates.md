@@ -54,7 +54,7 @@ the $y$-axis.
 (c) $r(1 + \cos\theta) = 4$. $r + r\cos\theta = 4$. $\sqrt{x^2+y^2} + x = 4$.
 $\sqrt{x^2+y^2} = 4 - x$. Squaring: $x^2 + y^2 = 16 - 8x + x^2$. $y^2 = 16 - 8x$. $x = 2 - y^2/8$.
 
-This is a parabola with vertex at $(2, 0)$Opening to the left. It is the polar form of a conic
+This is a parabola with vertex at $(2, 0)$ Opening to the left. It is the polar form of a conic
 section with eccentricity 1 (parabola) and directrix $x = 4$.
 
 (d) $r = 2(1 + \cos\theta)$ is a **cardioid**. At $\theta = 0$: $r = 4$. At $\theta = \pi$: $r = 0$.
@@ -106,7 +106,7 @@ $x = 0$$y = 2$$\frac{dx}{d\theta} = -2 + 0 = -2$.
 $\frac{dy}{d\theta} = 2\cos\theta - 2(\cos^2\theta - \sin^2\theta)$. At
 $\theta = \pi/2$: $\frac{dy}{d\theta} = 0 - 2(-1) = 2$.
 
-$\frac{dy}{dx} = \frac{2}{-2} = -1$. Tangent: $y - 2 = -1(x - 0)$I.e., $x + y = 2$.
+$\frac{dy}{dx} = \frac{2}{-2} = -1$. Tangent: $y - 2 = -1(x - 0)$ I.e., $x + y = 2$.
 
 (b) $2 = 4\cos\theta$$\cos\theta = 1/2$$\theta = \pm\pi/3$. Points:
 $(2\cos(\pi/3), 2\sin(\pi/3)) = (1, \sqrt{3})$ and $(1, -\sqrt{3})$.
@@ -174,13 +174,13 @@ equation. (d) Find the directrices in Cartesian form.
 $r = \frac{6}{2+\cos\theta} = \frac{3}{1 + \frac{1}{2}\cos\theta}$. So
 $l = 3$ and $e = 1/2$.
 
-(b) Since $e = 1/2 \lt 1$The conic is an **ellipse**.
+(b) Since $e = 1/2 \lt 1$ The conic is an **ellipse**.
 
 (c) $r(2+\cos\theta) = 6$. $2r + r\cos\theta = 6$. $2\sqrt{x^2+y^2} + x = 6$.
 $\sqrt{x^2+y^2} = 3 - x/2$. Squaring: $x^2 + y^2 = 9 - 3x + x^2/4$. $y^2 + 3x^2/4 - 3x + 9 = 0$.
 $4y^2 + 3x^2 - 12x + 36 = 0$. $4y^2 + 3(x^2 - 4x + 4) + 36 - 12 = 0$. $4y^2 + 3(x-2)^2 + 24 = 0$.
 
-Wait, that gives $4y^2 + 3(x-2)^2 = -24$Which is impossible. Let me recheck.
+Wait, that gives $4y^2 + 3(x-2)^2 = -24$ Which is impossible. Let me recheck.
 
 $y^2 + \frac{3}{4}x^2 - 3x + 9 = 0$. $\frac{3}{4}(x^2 - 4x) + y^2 + 9 = 0$.
 $\frac{3}{4}((x-2)^2 - 4) + y^2 + 9 = 0$. $\frac{3}{4}(x-2)^2 - 3 + y^2 + 9 = 0$.
@@ -201,8 +201,8 @@ $\frac{3}{4}x^2 - 3x + y^2 + 9 = 0$.
 $\frac{3}{4}(x^2 - 4x + 4) + y^2 + 9 - 3 = 0$. $\frac{3}{4}(x-2)^2 + y^2 + 6 = 0$.
 
 This is still impossible. The error is in the sign: $r + x/2 = 3$ requires $r = 3 - x/2$. For
-$r \ge 0$We need $x \le 6$. But squaring introduces extraneous solutions. The equation should be
-written as $4y^2 + 3(x-2)^2 = 6$Giving an ellipse. Let me verify: $y^2 + 6 = -\frac{3}{4}(x-2)^2$.
+$r \ge 0$ We need $x \le 6$. But squaring introduces extraneous solutions. The equation should be
+written as $4y^2 + 3(x-2)^2 = 6$ Giving an ellipse. Let me verify: $y^2 + 6 = -\frac{3}{4}(x-2)^2$.
 That gives negative. I"ve made a sign error somewhere.
 
 Actually: $r = 3 - x/2$ gives $r^2 = (3-x/2)^2 = 9 - 3x + x^2/4$. And $r^2 = x^2 + y^2$. So
@@ -211,7 +211,7 @@ $x^2 + y^2 = 9 - 3x + x^2/4$. $\frac{3}{4}x^2 + 3x + y^2 - 9 = 0$. (Sign of $3x$
 $\frac{3}{4}(x^2 + 4x + 4) + y^2 - 9 - 3 = 0$. $\frac{3}{4}(x+2)^2 + y^2 = 12$. This is an ellipse
 centred at $(-2, 0)$ with semi-axes $a = 4$ and $b = 2\sqrt{3}$.
 
-(d) The directrix is $x = l/e = 3/(1/2) = 6$I.e., $x = 6$ in Cartesian form.
+(d) The directrix is $x = l/e = 3/(1/2) = 6$ I.e., $x = 6$ in Cartesian form.
 
 ### IT-3: Polar Integration Applications (with Matrices)
 
@@ -233,10 +233,10 @@ $= \frac{1}{2}\left[3\theta + 2\sin 2\theta - 2\sin\theta\right]_{-\pi/3}^{\pi/3
 
 (c) Area inside cardioid but outside circle (the remaining part of the circle,
 $\theta \in [\pi/3, 5\pi/3]$ -- but the cardioid only goes to $\pi$ And for
-$\theta \in [\pi/3, \pi]$The circle is $r = 3\cos\theta$ which can be negative).
+$\theta \in [\pi/3, \pi]$ The circle is $r = 3\cos\theta$ which can be negative).
 
 Actually, the area inside the cardioid minus the overlap with the circle: Total cardioid area
-$= 3\pi/2$. Total circle area $= 9\pi/4$ (from $r = 3\cos\theta$Area $= \pi(3/2)^2/2 = 9\pi/8$...
+$= 3\pi/2$. Total circle area $= 9\pi/4$ (from $r = 3\cos\theta$ Area $= \pi(3/2)^2/2 = 9\pi/8$...
 Wait, area of circle $r = a\cos\theta$:
 $A = \frac{1}{2}\int_{-\pi/2}^{\pi/2} a^2\cos^2\theta\,d\theta = \frac{\pi a^2}{4}$).
 

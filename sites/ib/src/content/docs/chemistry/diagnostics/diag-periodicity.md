@@ -48,7 +48,7 @@ configuration.
 **Solution:** The trend decreases at Al (578) compared to Mg (738), and at S (1000) compared to P
 (1012).
 
-At Al: Mg has configuration $[Ne]\, 3s^2$ (fully filled $3s$Stable). Al has $[Ne]\, 3s^2\, 3p^1$.
+At Al: Mg has configuration $[Ne]\, 3s^2$ (fully filled $3s$ Stable). Al has $[Ne]\, 3s^2\, 3p^1$.
 The electron removed from Al is in the higher-energy $3p$ subshell, which experiences greater
 shielding and less penetration than $3s$ So less energy is needed despite the extra proton.
 
@@ -80,10 +80,10 @@ All four species have the electron configuration $1s^2\, 2s^2\, 2p^6$ (10 electr
 isoelectronic species, the radius is determined entirely by nuclear charge. Higher nuclear charge
 pulls electrons closer to the nucleus.
 
-- $\text{Mg}^{2+}$: $Z = 12$Highest effective nuclear charge, smallest radius.
-- $\text{Na}^+$: $Z = 11$Less pull than $\text{Mg}^{2+}$.
-- $\text{F}^-$: $Z = 9$Fewer protons attracting the same 10 electrons.
-- $\text{O}^{2-}$: $Z = 8$Lowest effective nuclear charge, largest radius.
+- $\text{Mg}^{2+}$: $Z = 12$ Highest effective nuclear charge, smallest radius.
+- $\text{Na}^+$: $Z = 11$ Less pull than $\text{Mg}^{2+}$.
+- $\text{F}^-$: $Z = 9$ Fewer protons attracting the same 10 electrons.
+- $\text{O}^{2-}$: $Z = 8$ Lowest effective nuclear charge, largest radius.
 
 ---
 
@@ -133,7 +133,7 @@ hybridisation to form four single $\sigma$ bonds to four oxygen atoms in a conti
 Breaking this structure requires breaking strong covalent bonds throughout the entire lattice, hence
 the very high melting point.
 
-C, being much smaller, can form strong $\pi$ bonds. In $\text{CO}_2$Carbon uses $sp$ hybridisation
+C, being much smaller, can form strong $\pi$ bonds. In $\text{CO}_2$ Carbon uses $sp$ hybridisation
 to form two double bonds ($\text{O}=\text{C}=\text{O}$). These are discrete molecules held together
 only by weak London dispersion forces (instantaneous dipole-induced dipole). Very little energy is
 needed to overcome these intermolecular forces, so $\text{CO}_2$ sublimes at
@@ -168,7 +168,7 @@ charge. Therefore, less energy is required to remove it -- first ionisation ener
 A reducing agent donates electrons. Lower ionisation energy means the element more readily loses its
 valence electron. Cs has the lowest first ionisation energy in group 1, so it loses its electron
 most : $\text{Cs} \to \text{Cs}^+ + e^-$. In aqueous solution, the reaction is
-$\text{Cs}(s) + \text{H}_2\text{O}(l) \to \text{Cs}^+(aq) + \text{OH}^-(aq) + \tfrac{1}{2}\text{H}_2(g)$Which
+$\text{Cs}(s) + \text{H}_2\text{O}(l) \to \text{Cs}^+(aq) + \text{OH}^-(aq) + \tfrac{1}{2}\text{H}_2(g)$ Which
 occurs extremely vigorously. The standard electrode potential
 $E^\circ(\text{Cs}^+/\text{Cs}) = -3.03\ \text{V}$ is more negative than
 $E^\circ(\text{Li}^+/\text{Li}) = -3.04\ \text{V}$; the values are very close (hydration energy
@@ -190,7 +190,7 @@ ionisation energy and lower melting point.
 ### IT-3: Electronegativity Trends and Acid Strength (with Acids and Bases)
 
 **Question:** Across period 3, the hydrides are:
-$\text{NaH}$$\text{MgH}_2$$\text{AlH}_3$$\text{SiH}_4$$\text{PH}_3$$\text{H}_2\text{S}$HCl. Use
+$\text{NaH}$$\text{MgH}_2$$\text{AlH}_3$$\text{SiH}_4$$\text{PH}_3$$\text{H}_2\text{S}$ HCl. Use
 electronegativity trends to predict and explain which of these behave as acids, which as bases, and
 which are essentially neutral in water.
 
@@ -210,7 +210,7 @@ practically insoluble and unreactive in water.
 Right side (S, Cl): These have electronegativity greater than H (S: 2.58, Cl: 3.16). The bond is
 polarised E$^\delta+$--H$^\delta-$Making H partially positive. In water, the H can be donated:
 $\text{H}_2\text{S} \rightleftharpoons \text{H}^+ + \text{HS}^-$ ($K_a = 9.1 \times 10^{-8}$) and
-$\text{HCl} \to \text{H}^+ + \text{Cl}^-$ ($K_a \gg 1$Strong acid). So $\text{H}_2\text{S}$ is a
+$\text{HCl} \to \text{H}^+ + \text{Cl}^-$ ($K_a \gg 1$ Strong acid). So $\text{H}_2\text{S}$ is a
 weak acid and HCl is a strong acid.
 
 ## Common Mistakes

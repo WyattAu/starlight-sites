@@ -32,7 +32,7 @@ Description.
 These notes cover the full AP Chemistry curriculum, from atomic structure and bonding through to
 kinetics, equilibrium, and thermodynamics. Each topic page includes key definitions, worked
 calculations, and visual explanations to support both the multiple-choice and free-response sections
-of the AP exam. The content is structured around the College Board"s six Big Ideas and their
+of the AP exam. The content is structured around the College Board's six Big Ideas and their
 associated science practices.
 
 ## Topics

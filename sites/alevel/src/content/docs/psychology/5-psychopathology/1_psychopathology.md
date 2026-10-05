@@ -83,7 +83,7 @@ cognitive, and biological explanations alongside evidence-based treatments.
 
 **Cognitive Explanations:**
 
-**Beck"s Cognitive Triad (1967):** Beck proposed that depression is maintained by three components
+**Beck's Cognitive Triad (1967):** Beck proposed that depression is maintained by three components
 of negative thinking:
 
 1. **Negative thoughts about the self** ("I am worthless")

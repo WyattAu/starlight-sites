@@ -103,14 +103,14 @@ $$
 
 So we need to show that $\displaystyle\lim_{h\to 0}\frac{e^h - 1}{h} = 1$.
 
-Let $e^h - 1 = t$ So that $h = \ln(1+t)$. As $h \to 0$We have $t \to 0$. Then:
+Let $e^h - 1 = t$ So that $h = \ln(1+t)$. As $h \to 0$ We have $t \to 0$. Then:
 
 $$
 \lim_{h\to 0}\frac{e^h - 1}{h} = \lim_{t\to 0}\frac{t}{\ln(1+t)} = \lim_{t\to 0}\frac{1}{\frac{\ln(1+t)}{t}}
 $$
 
 We use the fundamental limit $\displaystyle\lim_{t\to 0}\frac{\ln(1+t)}{t} = 1$ (which
-follows from The definition of $\ln x$ as the area under $1/u$ from $1$ to $1+t$Plus the squeeze
+follows from The definition of $\ln x$ as the area under $1/u$ from $1$ to $1+t$ Plus the squeeze
 theorem on $1/(1+t) \leq \ln(1+t)/t \leq 1$). Therefore:
 
 $$
@@ -147,14 +147,14 @@ Are all governed by exponential functions.
 
 ### 3.1 Definition
 
-**Definition.** For $a \gt 0$, $a \neq 1$The **logarithm** $\log_a x$ is the inverse function of
+**Definition.** For $a \gt 0$, $a \neq 1$ The **logarithm** $\log_a x$ is the inverse function of
 $a^x$:
 
 $$
 y = \log_a x \iff a^y = x
 $$
 
-The **natural logarithm** is the logarithm with base $e$Written $\ln x = \log_e x$.
+The **natural logarithm** is the logarithm with base $e$ Written $\ln x = \log_e x$.
 
 ### 3.2 Proof that $a^{\log_a x} = x$ and $\log_a(a^x) = x$
 
@@ -230,7 +230,7 @@ $$
 
 $$\ln(a^y) = \ln b$$ $$y \ln a = \ln b$$ $$y = \frac{\ln b}{\ln a}$$
 
-Since $y = \log_a b$We have $\log_a b = \dfrac{\ln b}{\ln a}$. $\blacksquare$
+Since $y = \log_a b$ We have $\log_a b = \dfrac{\ln b}{\ln a}$. $\blacksquare$
 
 <Aside type="tip">
 Your calculator likely has $\log$ (base 10) and $\ln$ (base $e$) buttons, but not a general
@@ -322,11 +322,11 @@ $$
 
 Sometimes we can use a substitution. For example, $e^{2x} + 3e^x - 4 = 0$.
 
-Let $u = e^x$ (note $u \gt 0$). Then $u^2 + 3u - 4 = 0$Giving $(u+4)(u-1) = 0$ So $u = 1$ (rejecting
-$u = -4$). Hence $e^x = 1$Giving $x = 0$.
+Let $u = e^x$ (note $u \gt 0$). Then $u^2 + 3u - 4 = 0$ Giving $(u+4)(u-1) = 0$ So $u = 1$ (rejecting
+$u = -4$). Hence $e^x = 1$ Giving $x = 0$.
 
 <Aside type="caution">
-When substituting $u = a^x$ or $u = \ln x$Always check the domain. For $u = a^x$ we Have
+When substituting $u = a^x$ or $u = \ln x$ Always check the domain. For $u = a^x$ we Have
 
 $u \gt 0$; for $u = \ln x$ we have $x \gt 0$. Always reject invalid solutions.
 </Aside>
@@ -397,7 +397,7 @@ hours.
 
 ### 9.1 Key features of $y = e^x$
 
-- Domain: $(-\infty, \infty)$Range: $(0, \infty)$
+- Domain: $(-\infty, \infty)$ Range: $(0, \infty)$
 - $y$-intercept: $(0, 1)$
 - Horizontal asymptote: $y = 0$ (as $x \to -\infty$)
 - Strictly increasing
@@ -405,7 +405,7 @@ hours.
 
 ### 9.2 Key features of $y = \ln x$
 
-- Domain: $(0, \infty)$Range: $(-\infty, \infty)$
+- Domain: $(0, \infty)$ Range: $(-\infty, \infty)$
 - $x$-intercept: $(1, 0)$
 - Vertical asymptote: $x = 0$
 - Strictly increasing
@@ -417,7 +417,7 @@ The graphs of $y = e^{-x}$ (reflection in $y$-axis), $y = e^{x} + c$ (vertical t
 $y = \ln(x-a)$ (horizontal translation) follow from standard transformation rules.
 
 **Intuition.** The graphs of $y = e^x$ and $y = \ln x$ are reflections of each other in the line
-$y = x$Since they are inverse functions.
+$y = x$ Since they are inverse functions.
 
 <DesmosGraph client:only="solid-js" title="e^x and ln(x) Graphs" expressions={["e^x", "\ln(x)", "e^{-x}"]} width={800}
 height={500} /> Explore the relationship between $y = e^x$ and $y = \ln x$ as inverse functions
@@ -426,7 +426,7 @@ Shift the curves. <hr />
 
 ## 10. Logarithmic Differentiation
 
-For functions of the form $y = f(x)^{g(x)}$Take logarithms first:
+For functions of the form $y = f(x)^{g(x)}$ Take logarithms first:
 
 $$
 \ln y = g(x) \ln f(x)
@@ -511,7 +511,7 @@ Domain: $x \gt 1$ So $x = -1 + 2\sqrt{5}$.
 
 <details>
 <summary>Problem 4</summary>
-Given $\log_a 2 = 0.301$ and $\log_a 5 = 0.699$Find $\log_a 200$.
+Given $\log_a 2 = 0.301$ and $\log_a 5 = 0.699$ Find $\log_a 200$.
 </details>
 
 <details>
@@ -667,7 +667,7 @@ And Section 2.2.
 
 <details>
 <summary>Problem 12</summary>
-Given $\ln(x^2 + 1) = 2\ln x + \ln 5$Solve for $x$.
+Given $\ln(x^2 + 1) = 2\ln x + \ln 5$ Solve for $x$.
 </details>
 
 <details>

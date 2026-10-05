@@ -415,7 +415,7 @@ def find_middle(head):
 ```
 
 Uses the **two-pointer technique**: `slow` moves one step at a time, `fast` moves two. When `fast`
-Reaches the end, `slow` is at the middle. Time: $O(n)$Space: $O(1)$.
+Reaches the end, `slow` is at the middle. Time: $O(n)$ Space: $O(1)$.
 
 </details>
 
@@ -439,7 +439,7 @@ def has_cycle(head):
 
 **Floyd's Tortoise and Hare algorithm.** `slow` advances by 1, `fast` by 2. If a cycle exists, both
 Pointers eventually enter the cycle, and `fast` gains on `slow` by 1 per step. Since the cycle has
-Finite length, `fast` must eventually equal `slow`. Time: $O(n)$Space: $O(1)$.
+Finite length, `fast` must eventually equal `slow`. Time: $O(n)$ Space: $O(1)$.
 
 </details>
 

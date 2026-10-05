@@ -160,9 +160,9 @@ remainder 0, Confirming no error.
 
 **ALOHA.** Transmit whenever ready; if collision, wait random time and retransmit.
 
-- **Pure ALOHA:** Throughput $S = G e^{-2G}$Maximum at $G = 0.5$:
+- **Pure ALOHA:** Throughput $S = G e^{-2G}$ Maximum at $G = 0.5$:
   $S_{\max} = 1/(2e) \approx 18.4\%$.
-- **Slotted ALOHA:** Time divided into slots; transmit at slot boundary. $S = G e^{-G}$Maximum at
+- **Slotted ALOHA:** Time divided into slots; transmit at slot boundary. $S = G e^{-G}$ Maximum at
   $G = 1$: $S_{\max} = 1/e \approx 36.8\%$.
 
 **CSMA (Carrier Sense Multiple Access).** Listen before transmitting.
@@ -182,7 +182,7 @@ simultaneously; If collision detected, send jam signal and wait random backoff.
 
 **CSMA/CD collision analysis.** The sender must still be transmitting when a collision signal
 returns From the farthest point on the network. The worst-case round-trip propagation time is
-$2\tau$Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
+$2\tau$ Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
 $2 \times 10^8$ m/s in copper). The minimum frame size is therefore:
 
 $$
@@ -374,7 +374,7 @@ $$
 <details>
 <summary>Worked Example: Switching Latency Comparison</summary>
 
-A 1500-byte frame traverses 3 store-and-forward switches on 1 Gbps links. Each link has 5 $\mu$S
+A 1500-byte frame traverses 3 store-and-forward switches on 1 Gbps links. Each link has 5 $\mu$ S
 Propagation delay.
 
 **Store-and-forward:**
@@ -389,7 +389,7 @@ $$
 \mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}
 $$
 
-**Answer:** Cut-through saves approximately 23.8 $\mu$S (47% reduction) for this scenario, but it
+**Answer:** Cut-through saves approximately 23.8 $\mu$ S (47% reduction) for this scenario, but it
 Cannot detect corrupted frames before forwarding them.
 
 </details>

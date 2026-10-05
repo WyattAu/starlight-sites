@@ -134,7 +134,7 @@ $$
 - Anti-periplanar geometry required (H and LG at 180° dihedral).
 - Rate: $v = k[\text{base}][\text{substrate}]$.
 - Strong bases favor E2; bulky bases (e.g., $t$-BuOK) favor E2 over S$\_\text{N}$2.
-- **Zaitsev"s rule:** The more substituted alkene is the major product.
+- **Zaitsev's rule:** The more substituted alkene is the major product.
 
 ### 2.2 E1 Mechanism
 
@@ -221,7 +221,7 @@ $$
 \text{Nu}^- + \text{CH}_2=\text{CH}-\text{C}=O \to \begin{cases} \text{1,2-addition (direct)} \\ \text{1,4-addition (conjugate/Michael)} \end{cases}
 $$
 
-**Theorem 7:** Hard nucleophiles (e.g., $^-$OH, $^-$CN) favor 1,2-addition. Soft nucleophiles (e.g.,
+**Theorem 7:** Hard nucleophiles (e.g., $^-$ OH, $^-$ CN) favor 1,2-addition. Soft nucleophiles (e.g.,
 enolates, thiols) favor 1,4-addition (Michael addition).
 
 ## 4. Radical Reactions
@@ -350,11 +350,11 @@ $$
 
 | Group Type           | Effect | Directing  | Examples                     |
 | -------------------- | ------ | ---------- | ---------------------------- |
-| Strong activator     | +      | ortho/para | $-$OH, $-$NH$_2$, $-$OCH$_3$ |
-| Moderate activator   | +      | ortho/para | $-$CH$_3$, alkyl groups      |
-| Weak activator       | +      | ortho/para | $-$F, $-$Cl, $-$Br, $-$I     |
-| Moderate deactivator | -      | meta       | $-$NO$_2$, $-$CN, $-$SO$_3$H |
-| Strong deactivator   | -      | meta       | $-$NR$_3^+$, $-$CF$_3$       |
+| Strong activator     | +      | ortho/para | $-$ OH, $-$ NH$_2$, $-$ OCH$_3$ |
+| Moderate activator   | +      | ortho/para | $-$ CH$_3$, alkyl groups      |
+| Weak activator       | +      | ortho/para | $-$ F, $-$ Cl, $-$ Br, $-$ I     |
+| Moderate deactivator | -      | meta       | $-$ NO$_2$, $-$ CN, $-$ SO$_3$H |
+| Strong deactivator   | -      | meta       | $-$ NR$_3^+$, $-$ CF$_3$       |
 
 ### 6.3 Examples of Electrophilic Aromatic Substitution
 

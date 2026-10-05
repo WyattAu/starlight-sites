@@ -46,7 +46,7 @@ $\blacksquare$
   of sound.
 - Group velocity: $v_g = d\omega/dq = a\sqrt{K/m}\cos(qa/2)$.
 - Maximum frequency: $\omega_{\mathrm{max} = 2\sqrt{K/m}}$.
-- Phase velocity: $v_p = \omega/q$Which exceeds $v_s$ and diverges as $q \to 0$.
+- Phase velocity: $v_p = \omega/q$ Which exceeds $v_s$ and diverges as $q \to 0$.
 
 ### 4.2 The Diatomic Chain
 
@@ -62,7 +62,7 @@ This gives two branches:
 - **Optical branch** ($+$ sign): $\omega \neq 0$ at $q = 0$. Atoms in the unit cell move out of
   phase. Can interact with light (hence the name).
 
-At $q = 0$The optical frequency is $\omega_0 = \sqrt{2K(1/m_1 + 1/m_2)}$ and the acoustic branch Has
+At $q = 0$ The optical frequency is $\omega_0 = \sqrt{2K(1/m_1 + 1/m_2)}$ and the acoustic branch Has
 $\omega = v_s q$ with $v_s = a\sqrt{2K/(m_1 + m_2)}$.
 
 ### 4.3 Quantisation: Phonons
@@ -106,7 +106,7 @@ g(\omega)\,d\omega = \frac{Vq^2}{\pi^2}\frac{dq}{d\omega}\,d\omega = \frac{V\ome
 $$
 
 Since there are $3N$ total modes, the cutoff is determined by
-$\int_0^{\omega_D} g(\omega)\,d\omega = 3N$Giving $g(\omega) = \frac{3V\omega^2}{2\pi^2 v_s^3}$ For
+$\int_0^{\omega_D} g(\omega)\,d\omega = 3N$ Giving $g(\omega) = \frac{3V\omega^2}{2\pi^2 v_s^3}$ For
 $0 \leq \omega \leq \omega_D$. $\blacksquare$
 
 **Lattice heat capacity:**
@@ -152,7 +152,7 @@ Where $\ell_{\mathrm{ph}}$ is the phonon mean free path.
 **Scattering mechanisms** that limit $\ell_{\mathrm{ph}}$:
 
 1. **Phonon--phonon scattering:** At high $T$, $\ell_{\mathrm{ph} \propto 1/T}$ (Umklapp processes
-   dominate, where the total phonon momentum is not conserved). At low $T$Only normal processes
+   dominate, where the total phonon momentum is not conserved). At low $T$ Only normal processes
    ($N$-processes, conserving momentum) contribute, and $\ell_{\mathrm{ph}}$ grows exponentially.
 2. **Boundary scattering:** At very low $T$, $\ell_{\mathrm{ph}}$ is limited by the sample size $L$.
 3. **Defect scattering:** Point defects, dislocations, and grain boundaries scatter phonons,
@@ -160,7 +160,7 @@ Where $\ell_{\mathrm{ph}}$ is the phonon mean free path.
 
 **Temperature dependence:**
 
-- Low $T$ ($T \ll \Theta_D$): $\kappa_{\mathrm{ph} \propto T^3}$ (from $C_V \propto T^3$With
+- Low $T$ ($T \ll \Theta_D$): $\kappa_{\mathrm{ph} \propto T^3}$ (from $C_V \propto T^3$ With
   $\ell_{\mathrm{ph}}$ limited by boundaries).
 - Intermediate $T$: $\kappa_{\mathrm{ph}}$ peaks.
 - High $T$ ($T \gtrsim \Theta_D$): $\kappa_{\mathrm{ph} \propto 1/T}$ (from
@@ -212,7 +212,7 @@ Model uses a single average sound velocity, while the real phonon spectrum is an
 :::caution
 specific heat. At low Temperatures, the electronic specific heat $C_e = \gamma T$ also contributes
 and can dominate over The lattice $T^3$ term in metals. The total low-$T$ specific heat of a metal
-is $C_V = \gamma T + \beta T^3$Where $\beta$ is related to $\Theta_D$. A plot of $C_V/T$ versus
+is $C_V = \gamma T + \beta T^3$ Where $\beta$ is related to $\Theta_D$. A plot of $C_V/T$ versus
 $T^2$ yields $\gamma$ (intercept) and $\beta$ (slope).
 
 <details>

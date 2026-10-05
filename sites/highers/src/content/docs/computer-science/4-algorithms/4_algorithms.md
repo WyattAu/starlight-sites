@@ -540,7 +540,7 @@ $i$ to vertex $j$.
 
 Explores all neighbours at the current depth before moving to the next level. Uses a queue.
 
-**Complexity:** Time: $O(V + E)$Space: $O(V)$.
+**Complexity:** Time: $O(V + E)$ Space: $O(V)$.
 
 ```python
 from collections import deque
@@ -564,7 +564,7 @@ def bfs(graph, start):
 
 Explores as far as possible along each branch before backtracking. Uses a stack (or recursion).
 
-**Complexity:** Time: $O(V + E)$Space: $O(V)$.
+**Complexity:** Time: $O(V + E)$ Space: $O(V)$.
 
 ```python
 def dfs(graph, start):

@@ -103,7 +103,7 @@ $$
 
 3. **BEC critical density**: The critical density for BEC in a box is
    $n_c = \zeta(3/2)(mk_BT/2\pi\hbar^2)^{3/2}$. This is extremely low ($\sim 10^{14}$ cm$^{-3}$ at 1
-   $\mu$K for Rb), but BEC in real experiments requires much lower temperatures because of the need
+   $\mu$ K for Rb), but BEC in real experiments requires much lower temperatures because of the need
    to reach quantum degeneracy in a finite trap.
 
 4. **Mean-field overestimates $T_c$**: The mean-field approximation $T_c^{\text{MF} = zJ/k_B}$
@@ -123,7 +123,7 @@ $$
 <summary>Problem 1: Entropy of Mixing</summary>
 
 Consider two ideal gases A and B, initially separated by a partition in a container of volume $V$.
-Gas A has $N_A$ particles in volume $V_A$; gas B has $N_B$ particles in volume $V_B$With
+Gas A has $N_A$ particles in volume $V_A$; gas B has $N_B$ particles in volume $V_B$ With
 $V_A + V_B = V$. The partition is removed and the gases mix isothermally at temperature $T$.
 
 (a) Show that the entropy of mixing is:
@@ -162,7 +162,7 @@ $$
 \Delta S = -2N_0k_B\left(\frac{1}{2}\ln\frac{1}{2}\right) = -2N_0k_B\left(-\frac{1}{2}\ln 2\right) = 2N_0k_B\ln 2
 $$
 
-(c) The Sackur--Tetrode equation includes $-Nk_B\ln N + Nk_B = -k_B\ln N!$Which accounts for the
+(c) The Sackur--Tetrode equation includes $-Nk_B\ln N + Nk_B = -k_B\ln N!$ Which accounts for the
 indistinguishability of particles. For identical gases, the "before" and "after" states are the same
 (same $N$, $V$, $E$), so $\Delta S = 0$. Without the $1/N!$ factor, we would get the same non-zero
 result for mixing identical gases, Gibbs" paradox.
@@ -192,7 +192,7 @@ $$
 m \approx \frac{m}{t} - \frac{1}{3}\left(\frac{m}{t}\right)^3 \implies m = \sqrt{3(1-t)}\, t \approx \sqrt{3}\,(1-t)^{1/2} \text{ near}  T_c
 $$
 
-(b) From the Landau analysis: $\chi \propto |T - T_c|^{-1}$I.e., $\gamma = 1$.
+(b) From the Landau analysis: $\chi \propto |T - T_c|^{-1}$ I.e., $\gamma = 1$.
 
 Explicitly: $\chi^{-1} = k_B T(1 - t^{-1}\text{sech}^2(m/t))$. Near $T_c$: $\chi \sim 1/(T - T_c)$.
 
@@ -238,7 +238,7 @@ $$
 u = \frac{(k_BT)^4}{\pi^2\hbar^3 c^3}\int_0^\infty \frac{x^3}{e^x - 1}\, dx = \frac{(k_BT)^4}{\pi^2\hbar^3 c^3}\cdot\frac{\pi^4}{15} = \frac{\pi^2 k_B^4}{15\hbar^3 c^3}\, T^4
 $$
 
-(c) $u = aT^4$ with $a = 7.566 \times 10^{-16}$ J$\cdot$m$^{-3}$, $\cdot$K$^{-4}$:
+(c) $u = aT^4$ with $a = 7.566 \times 10^{-16}$ J$\cdot$m$^{-3}$, $\cdot$ K$^{-4}$:
 
 $$
 u = 7.566 \times 10^{-16} \times (2.725)^4 = 7.566 \times 10^{-16} \times 55.15 = 4.17 \times 10^{-14} \text{ J/m}^3
@@ -259,7 +259,7 @@ $$
 <details>
 <summary>Problem 4: Chemical Equilibrium</summary>
 
-For the dissociation reaction $\text{H_2} \rightleftharpoons 2\text{H}$The equilibrium constant is:
+For the dissociation reaction $\text{H_2} \rightleftharpoons 2\text{H}$ The equilibrium constant is:
 
 $$
 K(T) = \frac{n_H^2}{n_{H_2}} = \left(\frac{m_H k_B T}{2\pi\hbar^2}\right)^{3/2}\frac{(j_H + 1)^2}{2j_{H_2} + 1}\frac{1}{Z_{\text{rot}Z_{\text{vib}}e^{-D/(k_BT)}}}
@@ -273,7 +273,7 @@ Where $D = 4.52$ eV is the dissociation energy, $j_H = 1/2$, $j_{H_2} = 1$.
 
 **Solution:**
 
-(a) At $T = 3000$ K, $k_BT = 0.259$ eV, so $D/(k_BT) = 17.5$Giving
+(a) At $T = 3000$ K, $k_BT = 0.259$ eV, so $D/(k_BT) = 17.5$ Giving
 $e^{-17.5} \approx 2.5 \times 10^{-8}$.
 
 The translational factor:
@@ -302,7 +302,7 @@ pressure (at fixed $T$) _decreases_ dissociation because the reaction produces 2
 <details>
 <summary>Problem 5: Grand Canonical Ensemble</summary>
 
-Consider a system in the grand canonical ensemble with chemical potential $\mu$Temperature $T$ And
+Consider a system in the grand canonical ensemble with chemical potential $\mu$ Temperature $T$ And
 volume $V$.
 
 (a) Derive the relation between the average particle number fluctuations and the isothermal
@@ -316,7 +316,7 @@ Where $n = N/V$.
 
 (b) Evaluate this for an ideal gas and show $\langle(\Delta N)^2\rangle = \langle N \rangle$.
 
-(c) For a Fermi gas at $T = 0$Show $\langle(\Delta N)^2\rangle = 0$ and explain physically.
+(c) For a Fermi gas at $T = 0$ Show $\langle(\Delta N)^2\rangle = 0$ and explain physically.
 
 **Solution:**
 
@@ -342,7 +342,7 @@ $$
 \langle(\Delta N)^2\rangle = k_BT \frac{\partial \langle N \rangle}{\partial \mu} = k_BT V \frac{\partial n}{\partial \mu} = k_BT V \frac{\partial n}{\partial P}\frac{\partial P}{\partial \mu}
 $$
 
-Since $(\partial P/\partial \mu)_T = n$ (from $dG = -SdT + VdP + \mu dN$Or $P = nk_BT$ for ideal
+Since $(\partial P/\partial \mu)_T = n$ (from $dG = -SdT + VdP + \mu dN$ Or $P = nk_BT$ for ideal
 gas):
 
 $$
@@ -360,7 +360,7 @@ $$
 This is the standard Poisson .../4-statistics-and-probability/2_statistics result for
 non-interacting particles.
 
-(c) At $T = 0$The Fermi gas is in its ground state with exactly $N$ particles filling all states up
+(c) At $T = 0$ The Fermi gas is in its ground state with exactly $N$ particles filling all states up
 to $\epsilon_F$. There are no particle number fluctuations: $\langle(\Delta N)^2\rangle = 0$.
 Physically, this is because adding or removing a particle costs a finite energy $\epsilon_F$ So the
 chemical potential is infinitely sharp.

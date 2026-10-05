@@ -31,7 +31,7 @@ tags:
 The **mole** is the SI unit for amount of substance. One mole contains exactly
 $6.022 \times 10^{23}$ elementary entities (atoms, molecules, ions, etc.).
 
-### Avogadro"s Constant
+### Avogadro's Constant
 
 $$
 N_A = 6.022 \times 10^{23}\mathrm{ mol}^{-1}
@@ -125,7 +125,7 @@ Empirical formula.
 
 Empirical formula: CH$_2$O.
 
-If the molar mass is $180\mathrm{ g/mol}$The molecular formula is:
+If the molar mass is $180\mathrm{ g/mol}$ The molecular formula is:
 
 $$
 N = \frac{180}{30.03} = 6
@@ -824,7 +824,7 @@ A. $1\mathrm{ g}$ of H$_2$ B. $1\mathrm{ g}$ of O$_2$ C. $1\mathrm{ g}$ of N$_2$
 Of CO$_2$
 
 **Answer: A.** Since $n = m/M$ And H$_2$ has the smallest molar mass (2 g/mol), $1\mathrm{ g}$ of
-H$_2$ gives $0.5\mathrm{ mol}$Which is more moles (and thus more molecules) than the others.
+H$_2$ gives $0.5\mathrm{ mol}$ Which is more moles (and thus more molecules) than the others.
 
 ### Question 7 (Paper 2 style)
 
@@ -849,7 +849,7 @@ $$
 V = \frac`\{nRT}`{P} = \frac{4.00 \times 8.314 \times 673}{200 \times 101325} = \frac{22390}{20265000} = 1.105 \times 10^{-3}\mathrm{ m}^3 = 1.105\mathrm{ L}
 $$
 
-**(c)** If the actual yield is $3.20\mathrm{ mol}$Calculate the percentage yield.
+**(c)** If the actual yield is $3.20\mathrm{ mol}$ Calculate the percentage yield.
 
 $$
 \mathrm{Percentage yield} = \frac{3.20}{4.00} \times 100\% = 80.0\%

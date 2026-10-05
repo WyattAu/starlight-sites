@@ -641,7 +641,7 @@ Colons:
 ### IPv6 Address Space
 
 The total IPv6 address space is $2^{128} = 340,282,366,920,938,463,463,374,607,431,768,211,456$
-Addresses. This is approximately $3.4 \times 10^{38}$Or roughly $5 \times 10^{28}$ addresses per
+Addresses. This is approximately $3.4 \times 10^{38}$ Or roughly $5 \times 10^{28}$ addresses per
 Person on Earth.
 
 To put this in perspective: if every atom on Earth's surface were assigned an IPv6 address, there

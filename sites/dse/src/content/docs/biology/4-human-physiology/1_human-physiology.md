@@ -623,7 +623,7 @@ A **left shift** = higher affinity for O$_2$ = less O$_2$ released to tissues.
 
 **Structure:**
 
-- Outer region: **cortex** (contains Bowman"s capsules, convoluted tubules)
+- Outer region: **cortex** (contains Bowman's capsules, convoluted tubules)
 - Inner region: **medulla** (contains loops of Henle, collecting ducts)
 - Central cavity: **renal pelvis** (collects urine)
 - **Ureter:** Carries urine from kidney to bladder
@@ -1428,12 +1428,12 @@ If you get this wrong, revise: Transport in Humans -- The Oxygen Dissociation Cu
 <summary>Solution</summary>
 
 During exercise, respiration rate increases, producing more CO$_2$ as a waste product. Increased
-CO$_2$ raises blood $pCO_2$Which lowers blood pH (more H$^+$ ions from carbonic acid:
+CO$_2$ raises blood $pCO_2$ Which lowers blood pH (more H$^+$ ions from carbonic acid:
 $\mathrm{CO}_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-$). Muscle
 temperature also rises due to increased metabolic activity.
 
-These factors (high $pCO_2$Low pH, high temperature) cause the oxygen dissociation curve to shift to
-the right (the Bohr effect). A rightward shift means that at any given $pO_2$Haemoglobin has a lower
+These factors (high $pCO_2$ Low pH, high temperature) cause the oxygen dissociation curve to shift to
+the right (the Bohr effect). A rightward shift means that at any given $pO_2$ Haemoglobin has a lower
 affinity for oxygen and releases more oxygen to the tissues. This ensures that more oxygen is
 unloaded precisely where and when it is needed most -- the actively respiring muscles.
 
@@ -1608,7 +1608,7 @@ chemically digest fats. Lipase chemically digests fats.
 | --------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Dissolved in plasma                     | ~5%        | Small amount dissolves directly in blood plasma                                                                                      |
 | Bound to haemoglobin                    | ~10-15%    | $\mathrm{CO}_2$ binds to globin chains (NOT the haem group)                                                                          |
-| Hydrogen carbonate ($\mathrm{HCO}_3^-$) | ~70-80%    | Carbonic anhydrase converts $\mathrm{CO}_2$ to $\mathrm{H}_2\mathrm{CO}_3$Which dissociates to $\mathrm{H}^+$ and $\mathrm{HCO}_3^-$ |
+| Hydrogen carbonate ($\mathrm{HCO}_3^-$) | ~70-80%    | Carbonic anhydrase converts $\mathrm{CO}_2$ to $\mathrm{H}_2\mathrm{CO}_3$ Which dissociates to $\mathrm{H}^+$ and $\mathrm{HCO}_3^-$ |
 
 ---
 

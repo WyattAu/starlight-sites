@@ -196,7 +196,7 @@ $E = P_{\text{input}} \times t = 577 \times 3600 = 2.08 \times 10^6\,\text{J} = 
 **Question:**
 
 A bungee jumper of mass $75\,\text{kg}$ jumps from a bridge. The bungee cord has natural length
-$25\,\text{m}$ and obeys Hooke"s law with spring constant $k = 80\,\text{N}\,\text{m}^{-1}$ up to a
+$25\,\text{m}$ and obeys Hooke's law with spring constant $k = 80\,\text{N}\,\text{m}^{-1}$ up to a
 maximum extension of $30\,\text{m}$. Beyond this extension, the cord becomes much stiffer. The
 bridge is $60\,\text{m}$ above the water.
 
@@ -215,7 +215,7 @@ Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
 
 $$v^2 = 2g \times 25 = 2 \times 9.81 \times 25 = 490.5$$ $$v = 22.15\,\text{m}\,\text{s}^{-1}$$
 
-Below $25\,\text{m}$The cord begins to stretch. The maximum speed occurs when acceleration is zero
+Below $25\,\text{m}$ The cord begins to stretch. The maximum speed occurs when acceleration is zero
 (when cord tension equals weight):
 
 $$ke = mg \Rightarrow 80e = 75 \times 9.81 = 735.75$$ $$e = 9.20\,\text{m}$$
@@ -254,7 +254,7 @@ $$
 
 (c) Total distance fallen $= 25 + 32.53 = 57.53\,\text{m}$
 
-Since $57.53\,\text{m} \lt 60\,\text{m}$The jumper does **not** hit the water. The closest approach
+Since $57.53\,\text{m} \lt 60\,\text{m}$ The jumper does **not** hit the water. The closest approach
 to the water is $60 - 57.53 = 2.47\,\text{m}$.
 
 However, note that $32.53\,\text{m}$ exceeds the maximum elastic extension of $30\,\text{m}$. The
@@ -276,7 +276,7 @@ be even further from the water. The assumption in part (b) is conservative.
 
 **Question:**
 
-A roller coaster car of mass $500\,\text{kg}$ starts from rest at point $A$Which is $30\,\text{m}$
+A roller coaster car of mass $500\,\text{kg}$ starts from rest at point $A$ Which is $30\,\text{m}$
 above the bottom of a vertical circular loop of radius $10\,\text{m}$. The track is frictionless
 except for a horizontal section $BC$ of length $20\,\text{m}$ between point $A$ and the loop, where
 a constant frictional force of $400\,\text{N}$ acts.
@@ -300,7 +300,7 @@ $$
 $$500 \times 9.81 \times 30 = \frac{1}{2}(500)v_D^2 + 400 \times 20$$ $$147150 = 250v_D^2 + 8000$$
 $$250v_D^2 = 139150$$ $$v_D = \sqrt{556.6} = 23.59\,\text{m}\,\text{s}^{-1}$$
 
-(b) At the top of the loop (point $E$Height $2r = 20\,\text{m}$ above $D$):
+(b) At the top of the loop (point $E$ Height $2r = 20\,\text{m}$ above $D$):
 
 Using energy conservation from $D$ to $E$:
 
@@ -370,7 +370,7 @@ around the Earth.
 (b) Calculate the minimum energy that must be supplied for the satellite to escape from Earth's
 gravitational field.
 
-(c) The satellite's rocket motor fires for $30\,\text{s}$Providing a thrust of $2000\,\text{N}$ in
+(c) The satellite's rocket motor fires for $30\,\text{s}$ Providing a thrust of $2000\,\text{N}$ in
 the direction of motion. Calculate the new orbital radius, assuming the orbit remains circular.
 
 Take

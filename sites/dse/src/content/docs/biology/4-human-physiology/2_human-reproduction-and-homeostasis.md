@@ -32,7 +32,7 @@ categories:
 | Vas deferens                         | Muscular tube that carries sperm from the epididymis to the urethra during ejaculation                                      |
 | Seminal vesicles                     | Produce seminal fluid rich in fructose (energy source for sperm) and prostaglandins                                         |
 | Prostate gland                       | Produces alkaline fluid that neutralises vaginal acidity; contains enzymes to liquefy semen                                 |
-| Bulbourethral gland (Cowper"s gland) | Produces mucus for lubrication and to neutralise residual urine in urethra                                                  |
+| Bulbourethral gland (Cowper's gland) | Produces mucus for lubrication and to neutralise residual urine in urethra                                                  |
 | Urethra                              | Shared passageway for semen (during ejaculation) and urine (during urination)                                               |
 | Penis                                | Erectile organ that delivers semen into the vagina during intercourse                                                       |
 
@@ -915,7 +915,7 @@ Their removal is not excretion.
 The liver plays a central role in processing and detoxifying substances:
 
 1. **Deamination:** Excess amino acids cannot be stored. The liver removes the amino group
-   ($\mathrm{NH}_2$) from amino acids, converting it to ammonia ($\mathrm{NH}_3$Highly toxic), which
+   ($\mathrm{NH}_2$) from amino acids, converting it to ammonia ($\mathrm{NH}_3$ Highly toxic), which
    is then converted to urea (less toxic) via the ornithine cycle in the liver:
 
 $$

@@ -123,7 +123,7 @@ $\int \frac{2\cosh u}{2\cosh u}\,du = \int 1\,du = u + C = \text{arcsinh}\frac{x
 $\cosh x = \frac{e^x + e^{-x}}{2} = \frac{1}{2}\left(1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \frac{x^5}{5!} + \frac{x^6}{6!} + 1 - x + \frac{x^2}{2!} - \frac{x^3}{3!} + \frac{x^4}{4!} - \frac{x^5}{5!} + \frac{x^6}{6!}\right)$
 $= \frac{1}{2}\left(2 + \frac{2x^4}{4!} + \frac{2x^6}{6!}\right) = 1 + \frac{x^2}{2!} + \frac{x^4}{4!} + \frac{x^6}{6!} = 1 + \frac{x^2}{2} + \frac{x^4}{24} + \frac{x^6}{720}$.
 
-### IT-2: Osborn"s Rule and Trigonometry (with Complex Numbers)
+### IT-2: Osborn's Rule and Trigonometry (with Complex Numbers)
 
 **Question:** (a) State Osborn's rule. (b) Use it to derive the identity for $\cosh 3x$. (c) Find
 $\frac{d}{dx}\text{cosech}\,x$. (d) Evaluate $\int_0^{\ln 2} \text{sech}\,x\,dx$.
@@ -131,7 +131,7 @@ $\frac{d}{dx}\text{cosech}\,x$. (d) Evaluate $\int_0^{\ln 2} \text{sech}\,x\,dx$
 **Solution:**
 
 (a) **Osborn's rule:** Replace every $\sin$ in a trigonometric identity with $\sinh$ and every
-$\cos$ with $\cosh$ And change the sign of every term containing a product of two $\sinh$S. The
+$\cos$ with $\cosh$ And change the sign of every term containing a product of two $\sinh$ S. The
 resulting identity holds for hyperbolic functions.
 
 (b) From $\cos 3x = 4\cos^3 x - 3\cos x$: replace $\cos \to \cosh$ (no $\sin$ terms):

@@ -63,7 +63,7 @@ WireGuard is recommended.
 ### Ingress and HTTPS Setup
 
 1. In the Gitea app configuration, enable Ingress and set the host name (e.g., `git.example.com`).
-2. Use TrueNAS built-in Certificates or Traefik with Let"s Encrypt for automatic TLS certificate
+2. Use TrueNAS built-in Certificates or Traefik with Let's Encrypt for automatic TLS certificate
    provisioning.
 3. Configure DNS to point the domain to the TrueNAS host IP.
 4. Verify HTTPS by navigating to `https://git.example.com` in a browser.

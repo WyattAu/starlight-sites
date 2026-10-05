@@ -91,15 +91,15 @@ $$
 
 The iteration cycles: $0, 1, 0, 1, 0, 1, \ldots$
 
-**(c)** The iteration fails because at $x_0 = 0$The tangent to the curve has gradient
-$f'(0) = -2$Which points towards $x = 1$ rather than towards the root at $x \approx -1.77$. The
+**(c)** The iteration fails because at $x_0 = 0$ The tangent to the curve has gradient
+$f'(0) = -2$ Which points towards $x = 1$ rather than towards the root at $x \approx -1.77$. The
 Newton-Raphson method overshoots dramatically because the tangent at $x = 0$ intersects the $x$-axis
-at $x = 1$Which is on the opposite side of the local minimum. The iteration then gets trapped in a
+at $x = 1$ Which is on the opposite side of the local minimum. The iteration then gets trapped in a
 2-cycle between $x = 0$ and $x = 1$.
 
 More precisely, the problem is that $f'(0) \neq 0$ but the initial guess is far from the root
 relative to the curvature of the function. The function has a local minimum at $x \approx 0.816$
-with $f \approx 0.91 \gt 0$Creating a barrier that the iteration cannot cross.
+with $f \approx 0.91 \gt 0$ Creating a barrier that the iteration cannot cross.
 
 **(d)** Any $x_0 \lt -\sqrt{2/3} \approx -0.816$ will converge, since on this interval $f$ is
 strictly decreasing (and hence $f$ and $f'$ have useful properties for convergence).
@@ -131,7 +131,7 @@ This converges rapidly to the root.
 
 **Question:**
 
-The equation $x = g(x)$ is to be solved by fixed-point iteration $x_{n+1} = g(x_n)$Where
+The equation $x = g(x)$ is to be solved by fixed-point iteration $x_{n+1} = g(x_n)$ Where
 $g(x) = \frac{1}{2}(x + \frac{3}{x})$.
 
 **(a)** Show that the equation $x = g(x)$ is equivalent to $x^2 = 3$ And hence state the positive
@@ -175,14 +175,14 @@ The iteration converges rapidly to $\sqrt{3} \approx 1.73205$.
 
 At $x = \alpha = \sqrt{3}$: $g'(\sqrt{3}) = \frac{1}{2}(1 - 1) = 0$.
 
-Since $\lvert g'(\sqrt{3}) \rvert = 0 \lt 1$The fixed-point iteration converges (with quadratic
+Since $\lvert g'(\sqrt{3}) \rvert = 0 \lt 1$ The fixed-point iteration converges (with quadratic
 convergence, since $g'(\alpha) = 0$).
 
 **(d)** $g(x) = x^2 - 3 + x$. $g'(x) = 2x + 1$.
 
 At $x = \sqrt{3}$: $g'(\sqrt{3}) = 2\sqrt{3} + 1 \approx 4.464$.
 
-Since $\lvert g'(\sqrt{3}) \rvert \approx 4.464 \gt 1$The fixed-point theorem tells us this
+Since $\lvert g'(\sqrt{3}) \rvert \approx 4.464 \gt 1$ The fixed-point theorem tells us this
 iteration diverges near the root.
 
 Verification with $x_0 = 2$:
@@ -216,7 +216,7 @@ diverging.
 
 **Question:**
 
-**(a)** Use the trapezium rule with 4 strips to estimate $\int_0^2 \sqrt{x}\, dx$Giving your answer
+**(a)** Use the trapezium rule with 4 strips to estimate $\int_0^2 \sqrt{x}\, dx$ Giving your answer
 to 4 decimal places.
 
 **(b)** Determine whether your estimate is an overestimate or underestimate, justifying your answer
@@ -252,7 +252,7 @@ $$
 
 For $x \in (0, 2]$: $f''(x) = -\frac{1}{4}x^{-3/2} \lt 0$.
 
-Since $f''(x) \lt 0$ on $(0, 2]$The curve is concave down. The trapezium rule **overestimates** when
+Since $f''(x) \lt 0$ on $(0, 2]$ The curve is concave down. The trapezium rule **overestimates** when
 the curve is concave down (the trapezia lie above the curve).
 
 **(c)** Exact value: $\frac{4\sqrt{2}}{3} \approx 1.8856$.
@@ -342,7 +342,7 @@ $g'(x) = f''(x) = 12x^2 - 24x + 16$.
 
 $x_0 = 1$: $g(1) = 4 - 12 + 16 - 8 = 0$.
 
-Since $g(1) = 0$The Newton-Raphson formula gives $x_1 = 1 - \frac{0}{g'(1)} = 1$. The iteration has
+Since $g(1) = 0$ The Newton-Raphson formula gives $x_1 = 1 - \frac{0}{g'(1)} = 1$. The iteration has
 already converged.
 
 The stationary point is at $x = 1$.
@@ -373,7 +373,7 @@ The point $(1, 0)$ is a local minimum.
 
 But $f(x) = x^4 - 4x^3 + 8x^2 - 8x + 3 \neq (x-1)^4$.
 
-Let me check: $(x-1)^4 = x^4 - 4x^3 + 6x^2 - 4x + 1$While $f(x) = x^4 - 4x^3 + 8x^2 - 8x + 3$.
+Let me check: $(x-1)^4 = x^4 - 4x^3 + 6x^2 - 4x + 1$ While $f(x) = x^4 - 4x^3 + 8x^2 - 8x + 3$.
 
 These are different. The question's claim is incorrect.
 
@@ -383,7 +383,7 @@ $f'(x) = 4x^3 - 12x^2 + 16x - 8 = 4(x^3 - 3x^2 + 4x - 2) = 4(x-1)(x^2 - 2x + 2)$
 $x^2 - 2x + 2 = (x-1)^2 + 1 \gt 0$ for all real $x$ So $x = 1$ is the only stationary point.
 
 The Newton-Raphson method converges rapidly because $f'(x) = 4(x-1)((x-1)^2+1)$ has a simple root at
-$x = 1$ (multiplicity 1), so $g'(1) = f''(1) = 4 \neq 0$Ensuring quadratic convergence near the
+$x = 1$ (multiplicity 1), so $g'(1) = f''(1) = 4 \neq 0$ Ensuring quadratic convergence near the
 root.
 
 ---
@@ -483,7 +483,7 @@ To 5 decimal places: $\alpha \approx 0.73909$.
 At the root $\alpha \approx 0.739$:
 $\lvert g'(\alpha) \rvert = \lvert -\sin(0.739) \rvert \approx \sin(0.739) \approx 0.674$.
 
-Since $\lvert g'(\alpha) \rvert \approx 0.674 \lt 1$The fixed-point iteration converges (linearly,
+Since $\lvert g'(\alpha) \rvert \approx 0.674 \lt 1$ The fixed-point iteration converges (linearly,
 since $0 \lt \lvert g'(\alpha) \rvert \lt 1$).
 
 **(d)** Newton-Raphson: $f(x) = \cos x - x$, $f'(x) = -\sin x - 1$.
@@ -523,7 +523,7 @@ linear convergence in this case.
 
 The integral $\int_0^1 e^{-x^2}\, dx$ cannot be evaluated in terms of elementary functions.
 
-**(a)** Use the trapezium rule with 4 strips to estimate $\int_0^1 e^{-x^2}\, dx$Giving your answer
+**(a)** Use the trapezium rule with 4 strips to estimate $\int_0^1 e^{-x^2}\, dx$ Giving your answer
 to 5 decimal places.
 
 **(b)** Use the trapezium rule with 8 strips and compare. Determine whether doubling the number of
@@ -583,7 +583,7 @@ $f'(x) = -2xe^{-x^2}$.
 
 $f''(x) = -2e^{-x^2} + 4x^2 e^{-x^2} = e^{-x^2}(4x^2 - 2)$.
 
-$f''(x) = 0$ when $4x^2 = 2$I.e. $x = \frac{1}{\sqrt{2}} \approx 0.707$.
+$f''(x) = 0$ when $4x^2 = 2$ I.e. $x = \frac{1}{\sqrt{2}} \approx 0.707$.
 
 For $0 \leq x \lt \frac{1}{\sqrt{2}}$: $4x^2 - 2 \lt 0$ So $f''(x) \lt 0$ (concave down).
 

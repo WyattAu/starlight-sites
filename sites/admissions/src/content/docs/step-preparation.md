@@ -98,8 +98,8 @@ $$
 $$
 
 **Technique: substitution to standardise.** When an inequality involves a constraint, a well-chosen
-Substitution can reduce it to a known form. If $a + b + c = 1$ with $a, b, c > 0$Setting
-$a = x/(x+y+z)$Etc., can convert a constrained problem into an unconstrained one.
+Substitution can reduce it to a known form. If $a + b + c = 1$ with $a, b, c > 0$ Setting
+$a = x/(x+y+z)$ Etc., can convert a constrained problem into an unconstrained one.
 
 ### 2.2 Partial Fractions
 
@@ -123,7 +123,7 @@ Evaluating the remaining expression at $x = a_i$.
 
 ### 2.3 Polynomials
 
-**Remainder theorem.** When $P(x)$ is divided by $(x - a)$The remainder is $P(a)$.
+**Remainder theorem.** When $P(x)$ is divided by $(x - a)$ The remainder is $P(a)$.
 
 **Factor theorem.** $(x - a)$ is a factor of $P(x)$ if and only if $P(a) = 0$.
 
@@ -162,7 +162,7 @@ Techniques.
 Contains $g'(x)$ alongside a function of $g(x)$.
 
 **Integration by parts.** For $\int u \, dv = uv - \int v \, du$. Strategy: apply repeatedly when
-the Integrand involves $x^n$ multiplied by $\sin x$, $\cos x$, $e^x$Or $\ln x$.
+the Integrand involves $x^n$ multiplied by $\sin x$, $\cos x$, $e^x$ Or $\ln x$.
 
 **Reduction formulae.** Many STEP questions establish a recurrence relation. For example, setting
 $I_n = \int_0^{\pi/2} \sin^n x \, dx$ and integrating by parts yields:
@@ -173,8 +173,8 @@ $$
 
 With $I_0 = \pi/2$ and $I_1 = 1$.
 
-**Trigonometric substitutions.** For integrands involving $\sqrt{a^2 - x^2}$Use $x = a\sin\theta$.
-For $\sqrt{a^2 + x^2}$Use $x = a\tan\theta$. For $\sqrt{x^2 - a^2}$Use $x = a\sec\theta$.
+**Trigonometric substitutions.** For integrands involving $\sqrt{a^2 - x^2}$ Use $x = a\sin\theta$.
+For $\sqrt{a^2 + x^2}$ Use $x = a\tan\theta$. For $\sqrt{x^2 - a^2}$ Use $x = a\sec\theta$.
 
 **Rational functions.** Decompose via partial fractions, then integrate term by term. A common STEP
 Trick is to write $\int \frac{1}{x^2 + a^2} \, dx = \frac{1}{a}\arctan\frac{x}{a}$.
@@ -187,8 +187,8 @@ Convergence before computing the value.
 **First order: separable.** $\frac{dy}{dx} = f(x)g(y)$ rearranges to
 $\int \frac{1}{g(y)}\,dy = \int f(x)\,dx$.
 
-**First order: integrating factor.** For $\frac{dy}{dx} + P(x)y = Q(x)$The integrating factor is
-$\mu(x) = e^{\int P(x)\,dx}$Giving $\frac{d}{dx}(\mu y) = \mu Q$.
+**First order: integrating factor.** For $\frac{dy}{dx} + P(x)y = Q(x)$ The integrating factor is
+$\mu(x) = e^{\int P(x)\,dx}$ Giving $\frac{d}{dx}(\mu y) = \mu Q$.
 
 **Second order: constant coefficients.** For $a\frac{d^2y}{dx^2} + b\frac{dy}{dx} + cy = f(x)$:
 
@@ -256,7 +256,7 @@ signed volume of the parallelepiped spanned by $\mathbf{a}, \mathbf{b}, \mathbf{
 
 **Vector equation of a line.** $\mathbf{r} = \mathbf{a} + t\mathbf{d}$.
 
-**Vector equation of a plane.** $\mathbf{r} \cdot \mathbf{n} = d$Or
+**Vector equation of a plane.** $\mathbf{r} \cdot \mathbf{n} = d$ Or
 $\mathbf{r} = \mathbf{a} + s\mathbf{b} + t\mathbf{c}$.
 
 ### 4.2 Matrices
@@ -276,7 +276,7 @@ $\det A \neq 0$.
 **Eigenvalues and eigenvectors.** Solve $\det(A - \lambda I) = 0$ for eigenvalues $\lambda$ Then
 solve $(A - \lambda I)\mathbf{v} = \mathbf{0}$ for eigenvectors $\mathbf{v}$.
 
-**Transformation matrices.** Reflection in the line $y = x\tan\theta$Rotation by angle $\theta$ And
+**Transformation matrices.** Reflection in the line $y = x\tan\theta$ Rotation by angle $\theta$ And
 other geometric transformations can be represented as $2 \times 2$ or $3 \times 3$ matrices.
 
 ---
@@ -371,7 +371,7 @@ $$
 
 ### 6.2 Conic Sections
 
-**Circle.** $(x - a)^2 + (y - b)^2 = r^2$. Centre $(a, b)$Radius $r$.
+**Circle.** $(x - a)^2 + (y - b)^2 = r^2$. Centre $(a, b)$ Radius $r$.
 
 **Ellipse.** $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ with $a > b$. Foci at $(\pm c, 0)$ where
 $c^2 = a^2 - b^2$.
@@ -390,7 +390,7 @@ $$
 \frac{dy}{dx} = \frac{dy/dt}{dx/dt}
 $$
 
-**Envelopes.** Given a family of curves $F(x, y, t) = 0$ parameterised by $t$The envelope satisfies
+**Envelopes.** Given a family of curves $F(x, y, t) = 0$ parameterised by $t$ The envelope satisfies
 $F(x, y, t) = 0$ and $\frac{\partial F}{\partial t} = 0$ simultaneously.
 
 ---
@@ -415,7 +415,7 @@ $F(x, y, t) = 0$ and $\frac{\partial F}{\partial t} = 0$ simultaneously.
 **Solution.** We use the substitution $x = b + c$, $y = c + a$, $z = a + b$. Then
 $a = \frac{y + z - x}{2}$, $b = \frac{z + x - y}{2}$, $c = \frac{x + y - z}{2}$.
 
-By the triangle inequalities on $a, b, c > 0$We have $y + z > x$, $z + x > y$, $x + y > z$ So $x, y, z$
+By the triangle inequalities on $a, b, c > 0$ We have $y + z > x$, $z + x > y$, $x + y > z$ So $x, y, z$
 are the side lengths of a (non-degenerate) triangle.
 
 The inequality becomes:
@@ -444,7 +444,7 @@ $$
 \frac{z}{2x} + \frac{x}{2z} \geq 1, \quad \frac{z}{2y} + \frac{y}{2z} \geq 1
 $$
 
-Summing these three inequalities gives the result. Equality holds when $x = y = z$I.e., $a = b = c$.
+Summing these three inequalities gives the result. Equality holds when $x = y = z$ I.e., $a = b = c$.
 
 ---
 
@@ -581,7 +581,7 @@ y = \frac{1}{x(2 - x)} = \frac{1}{2x - x^2}
 $$
 
 The denominator $2x - x^2 = x(2 - x)$ must be non-zero, so $x \neq 0$ and $x \neq 2$. For the
-Solution through $(1, 1)$We have $y > 0$ at $x = 1$ And the solution is defined on $(0, 2)$.
+Solution through $(1, 1)$ We have $y > 0$ at $x = 1$ And the solution is defined on $(0, 2)$.
 
 ---
 
@@ -603,13 +603,13 @@ Solution through $(1, 1)$We have $y > 0$ at $x = 1$ And the solution is defined 
 
 **Solution.**
 
-**(i)** For $n \geq 1$By AM-GM:
+**(i)** For $n \geq 1$ By AM-GM:
 
 $$
 a_{n+1} = \frac{1}{2}\left(a_n + \frac{2}{a_n}\right) \geq \sqrt{a_n \cdot \frac{2}{a_n}} = \sqrt{2}
 $$
 
-Since $a_2 = \frac{1}{2}(1 + 2) = \frac{3}{2} \geq \sqrt{2}$By induction $a_n \geq \sqrt{2}$ for all
+Since $a_2 = \frac{1}{2}(1 + 2) = \frac{3}{2} \geq \sqrt{2}$ By induction $a_n \geq \sqrt{2}$ for all
 $n \geq 2$.
 
 **(ii)** For $n \geq 2$:
@@ -618,7 +618,7 @@ $$
 a_{n+1} - a_n = \frac{1}{2}\left(a_n + \frac{2}{a_n}\right) - a_n = \frac{2 - a_n^2}{2a_n}
 $$
 
-Since $a_n \geq \sqrt{2}$We have $a_n^2 \geq 2$ So $2 - a_n^2 \leq 0$ and $2a_n > 0$Giving
+Since $a_n \geq \sqrt{2}$ We have $a_n^2 \geq 2$ So $2 - a_n^2 \leq 0$ and $2a_n > 0$ Giving
 $a_{n+1} - a_n \leq 0$. Hence $(a_n)$ is decreasing for $n \geq 2$.
 
 **(iii)** The sequence $(a_n)_{n \geq 2}$ is decreasing and bounded below by $\sqrt{2}$ So by the
@@ -642,7 +642,7 @@ $$
 L^2 = 2
 $$
 
-Since $L \geq \sqrt{2} > 0$We have $L = \sqrt{2}$.
+Since $L \geq \sqrt{2} > 0$ We have $L = \sqrt{2}$.
 
 ---
 

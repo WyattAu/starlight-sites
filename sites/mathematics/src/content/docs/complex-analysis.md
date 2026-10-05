@@ -120,7 +120,7 @@ $z = 5\,e^{i(\pi + \arctan(4/3))}$.
 
 </details>
 
-### 1.4 Euler"s Formula and De Moivre’s Theorem
+### 1.4 Euler's Formula and De Moivre’s Theorem
 
 **Euler's formula:** $e^{i\theta} = \cos\theta + i\sin\theta$.
 
@@ -130,10 +130,10 @@ $$
 (\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)
 $$
 
-**Proposition 1.5.** De Moivre's theorem holds for all integers $n$Including negative values.
+**Proposition 1.5.** De Moivre's theorem holds for all integers $n$ Including negative values.
 
-_Proof._ For $n \geq 0$It follows by induction from the multiplication law
-$e^{i\alpha}e^{i\beta} = e^{i(\alpha + \beta)}$. For $n \lt 0$Write $n = -m$ with $m \gt 0$:
+_Proof._ For $n \geq 0$ It follows by induction from the multiplication law
+$e^{i\alpha}e^{i\beta} = e^{i(\alpha + \beta)}$. For $n \lt 0$ Write $n = -m$ with $m \gt 0$:
 $(\cos\theta + i\sin\theta)^n = \frac{1}{(\cos\theta + i\sin\theta)^m}
 = \frac{1}{\cos(m\theta) + i\sin(m\theta)} = \cos(-m\theta) + i\sin(-m\theta) = \cos(n\theta) + i\sin(n\theta)$.
 $\blacksquare$
@@ -189,11 +189,11 @@ $$
 
 Where $\rho^{1/n} \gt 0$ is the positive real $n$-th root of $\rho$.
 
-_Proof._ If $z^n = w$Write $z = r\,e^{i\theta}$. Then $r^n e^{in\theta} = \rho\, e^{i\phi}$ So
+_Proof._ If $z^n = w$ Write $z = r\,e^{i\theta}$. Then $r^n e^{in\theta} = \rho\, e^{i\phi}$ So
 $r = \rho^{1/n}$ and $n\theta = \phi + 2\pi k$. For $k = 0, 1, \ldots, n-1$ these give distinct
 Values of $\theta$; for $k \geq n$ they repeat. $\blacksquare$
 
-_Remark._ The $n$-th roots of $w$ lie equally spaced on a circle of radius $\rho^{1/n}$Forming a
+_Remark._ The $n$-th roots of $w$ lie equally spaced on a circle of radius $\rho^{1/n}$ Forming a
 Regular $n$-gon.
 
 ### 1.6 Roots of Unity
@@ -258,7 +258,7 @@ $f(z) = u(x, y) + iv(x, y)$ where $z = x + iy$ and $u, v$ are real-valued functi
 
 ### 2.2 Limits and Continuity
 
-The limit $\lim_{z \to z_0} f(z) = L$ means: for every $\varepsilon \gt 0$There exists
+The limit $\lim_{z \to z_0} f(z) = L$ means: for every $\varepsilon \gt 0$ There exists
 $\delta \gt 0$ Such that $0 \lt |z - z_0| \lt \delta$ implies $|f(z) - L| \lt \varepsilon$.
 
 Unlike the real case, $z$ can approach $z_0$ from any direction in $\mathbb{C}$. This makes limits
@@ -276,7 +276,7 @@ $L = a + bi$.
 **Problem.** Show that $\lim_{z \to 0} \frac{\bar{z}}{z}$ does not exist.
 
 Let $z = re^{i\theta}$. Then $\frac{\bar{z}}{z} = e^{-2i\theta}$. As $z \to 0$ along different Rays
-($\theta = 0, \pi/2, \pi/4$Etc.), the ratio takes different values ($1, -1, -i$Etc.). Since the
+($\theta = 0, \pi/2, \pi/4$ Etc.), the ratio takes different values ($1, -1, -i$ Etc.). Since the
 limit depends on the direction of approach, it does not exist.
 
 **Problem.** Determine whether $f(z) = \frac{z^2 - 1}{z - 1}$ is continuous at $z = 1$.
@@ -305,7 +305,7 @@ Makes complex differentiability far more restrictive than real differentiability
 $U \subseteq \mathbb{C}$ if $f$ is differentiable at every point of $U$. A function that is analytic
 On all of $\mathbb{C}$ is called **entire**.
 
-**Examples of entire functions:** $z^n$, $e^z$, $\sin z$, $\cos z$Polynomials.
+**Examples of entire functions:** $z^n$, $e^z$, $\sin z$, $\cos z$ Polynomials.
 
 **Example of a non-analytic function:** $f(z) = \bar{z}$ is nowhere differentiable (except at
 $z = 0$ if we define it, but still not analytic there).
@@ -339,7 +339,7 @@ Single-valued functions, we must restrict the domain.
 **Definition.** A **branch** of a multi-valued function $f$ is a single-valued analytic function $g$
 Defined on a domain $D$ such that $g(z) \in f(z)$ for all $z \in D$.
 
-**The Complex Logarithm.** We define $\log z = \ln|z| + i\arg(z)$Which is multi-valued because
+**The Complex Logarithm.** We define $\log z = \ln|z| + i\arg(z)$ Which is multi-valued because
 $\arg(z) = \mathrm{Arg}(z) + 2\pi k$ for $k \in \mathbb{Z}$. The **principal branch** is
 
 $$
@@ -357,7 +357,7 @@ $$
 z^\alpha = e^{\alpha \log z}
 $$
 
-This is multi-valued . When $\alpha$ is rational with reduced form $p/q$There are exactly $q$
+This is multi-valued . When $\alpha$ is rational with reduced form $p/q$ There are exactly $q$
 distinct values.
 
 <details>
@@ -382,7 +382,7 @@ $e^{i5\pi/4} = -\frac{\sqrt{2}}{2}(1 + i)$. These are the two square roots of $i
 $\mathrm{Log}\, w$ is analytic on $\mathbb{C} \setminus (-\infty, 0]$ So we need
 $z^2 + 1 \notin (-\infty, 0]$.
 
-$z^2 + 1 \leq 0$ when $z^2 \leq -1$I.e., $z \in [-i, 0] \cup [0, i]$ (the imaginary axis Segment
+$z^2 + 1 \leq 0$ when $z^2 \leq -1$ I.e., $z \in [-i, 0] \cup [0, i]$ (the imaginary axis Segment
 from $-i$ to $i$). Also $z^2 + 1 = 0$ at $z = \pm i$.
 
 Domain: $\mathbb{C} \setminus \{z : z = iy,\, y \in [-1, 1]\}$.
@@ -459,11 +459,11 @@ $u_{xx} + u_{yy} = v_{yx} - v_{xy} = 0$. Similarly for $v$. $\blacksquare$
 $v$ is the **harmonic conjugate** of $u$.
 
 **Proposition 3.4.** If $U$ is a connected domain and $u$ is harmonic on $U$ Then $u$ has A harmonic
-conjugate on $U$Unique up to an additive constant.
+conjugate on $U$ Unique up to an additive constant.
 
 _Proof._ Define $v(x, y) = \int_{(x_0, y_0)}^{(x, y)} (-u_y\, dx + u_x\, dy)$. The integrand is
 closed (since $(-u_y)_y = -u_{yy} = u_{xx} = (u_x)_x$) and since $U$ is Connected, $v$ is
-well-defined (path-independent) by Green's theorem. Then $v_x = -u_y$ and $v_y = u_x$Which are the
+well-defined (path-independent) by Green's theorem. Then $v_x = -u_y$ and $v_y = u_x$ Which are the
 CR equations. $\blacksquare$
 
 <details>
@@ -474,7 +474,7 @@ CR equations. $\blacksquare$
 Verify $u$ is harmonic: $u_{xx} = 6x$, $u_{yy} = -6x$ So $u_{xx} + u_{yy} = 0$. $\checkmark$
 
 By CR: $v_y = u_x = 3x^2 - 3y^2$ So $v = 3x^2 y - y^3 + g(x)$. Also $v_x = -u_y = 6xy$ So
-$6xy = 6xy + g'(x)$Giving $g'(x) = 0$ So $g(x) = C$.
+$6xy = 6xy + g'(x)$ Giving $g'(x) = 0$ So $g(x) = C$.
 
 Harmonic conjugate: $v(x, y) = 3x^2 y - y^3 + C$.
 
@@ -866,7 +866,7 @@ $\blacksquare$
 **Theorem 6.5 (Liouville's Theorem).** Every bounded entire function is constant.
 
 _Proof._ If $|f(z)| \leq M$ for all $z$ Then by Cauchy's estimates with $R$ arbitrarily large:
-$|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$Meaning $f$ is
+$|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$ Meaning $f$ is
 Constant. $\blacksquare$
 
 **Corollary 6.6.** If $f$ is entire and $|f(z)| \geq M$ for all $z$ (bounded away from zero), then
@@ -893,7 +893,7 @@ Counting multiplicities.
 
 **Problem.** Evaluate $\int_\gamma \frac{e^z}{z - 1}\, dz$ where $\gamma$ is $|z| = 2$.
 
-_Solution._ The function $\frac{e^z}{z - 1}$ has a singularity at $z = 1$Which lies inside $\gamma$.
+_Solution._ The function $\frac{e^z}{z - 1}$ has a singularity at $z = 1$ Which lies inside $\gamma$.
 By Cauchy's integral formula with $f(z) = e^z$ and $z_0 = 1$:
 
 $\int_\gamma \frac{e^z}{z - 1}\, dz = 2\pi i \cdot f(1) = 2\pi i \cdot e^1 = 2\pi i e$.
@@ -944,7 +944,7 @@ $$
 
 And the series converges uniformly on compact subsets of $|z - z_0| \lt R$.
 
-_Proof._ For $|z - z_0| \lt r \lt R$Apply Cauchy's integral formula on $|\zeta - z_0| = r$:
+_Proof._ For $|z - z_0| \lt r \lt R$ Apply Cauchy's integral formula on $|\zeta - z_0| = r$:
 
 $f(z) = \frac{1}{2\pi i}\int_{|\zeta - z_0| = r} \frac{f(\zeta)}{\zeta - z}\, d\zeta$
 
@@ -989,7 +989,7 @@ $$
 
 $\frac{1}{z} = \frac{1}{1 + (z - 1)} = \sum_{n=0}^{\infty} (-1)^n (z - 1)^n$ for $|z - 1| \lt 1$.
 
-Radius of convergence: distance from $z_0 = 1$ to the singularity at $z = 0$Which is $1$.
+Radius of convergence: distance from $z_0 = 1$ to the singularity at $z = 0$ Which is $1$.
 
 **Problem.** Find the Taylor series of $f(z) = \frac{1}{(1 - z)^2}$ centered at $z_0 = 0$.
 
@@ -1216,7 +1216,7 @@ $$
 \int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)
 $$
 
-_Proof._ For each singularity $z_k$Draw a small circle $\gamma_k$ around it. By Cauchy's theorem
+_Proof._ For each singularity $z_k$ Draw a small circle $\gamma_k$ around it. By Cauchy's theorem
 Applied to the multiply connected region between $\gamma$ and the $\gamma_k$:
 
 $\int_\gamma f\, dz = \sum_{k=1}^n \int_{\gamma_k} f\, dz = \sum_{k=1}^n 2\pi i \cdot \mathrm{Res}(f, z_k)$.
@@ -1268,7 +1268,7 @@ $$
 Where the sum is over poles in the upper half-plane.
 
 _Proof._ Integrate $f(z)$ over the semicircular contour $\gamma_R$ consisting of $[-R, R]$ on the
-Real axis and the semicircle $|z| = R$ in the upper half-plane. As $R \to \infty$The integral over
+Real axis and the semicircle $|z| = R$ in the upper half-plane. As $R \to \infty$ The integral over
 The semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
 
 ### 9.3 Worked Example
@@ -1285,7 +1285,7 @@ $\int_{-\infty}^{\infty} \frac{dx}{x^2 + 1} = 2\pi i \cdot \frac{1}{2i} = \pi$. 
 
 ### 9.4 Integrals Involving Trigonometric Functions
 
-For integrals of the form $\int_0^{2\pi} R(\cos\theta, \sin\theta)\, d\theta$Substitute
+For integrals of the form $\int_0^{2\pi} R(\cos\theta, \sin\theta)\, d\theta$ Substitute
 $z = e^{i\theta}$ So $dz = iz\, d\theta$, $\cos\theta = \frac{z + z^{-1}}{2}$
 $\sin\theta = \frac{z - z^{-1}}{2i}$.
 
@@ -1513,7 +1513,7 @@ Formula for the conformal map .
 **Theorem 11.1 (Liouville's Theorem).** Every bounded entire function is constant.
 
 _Proof._ If $|f(z)| \leq M$ for all $z$ Then by Cauchy's estimates with $R$ arbitrarily large:
-$|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$Meaning $f$ is
+$|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$ Meaning $f$ is
 Constant. $\blacksquare$
 
 ### 11.2 The Fundamental Theorem of Algebra
@@ -1580,7 +1580,7 @@ Zeros inside $\gamma$.
 
 _Proof._ On $\gamma$: $|g(z)/f(z)| \lt 1$. The function $h(z) = 1 + g(z)/f(z)$ satisfies
 $|h(z) - 1| \lt 1$ on $\gamma$ So $h(\gamma)$ does not wind around $0$. By the argument principle
-Applied to $h$: $0 = N_h - P_h$Meaning $h$ has the same number of zeros and poles inside $\gamma$.
+Applied to $h$: $0 = N_h - P_h$ Meaning $h$ has the same number of zeros and poles inside $\gamma$.
 But $h = (f + g)/f$ So zeros of $h$ are zeros of $f + g$ and poles of $h$ are zeros of $f$. Therefore
 $f$ and $f + g$ have the same number of zeros. $\blacksquare$
 
@@ -1590,7 +1590,7 @@ $f$ and $f + g$ have the same number of zeros. $\blacksquare$
 
 _Solution._ On $|z| = 1$: $|6z| = 6 \gt |z^4 + 3| \leq |z|^4 + 3 = 4$. By Rouché's theorem with
 $f(z) = 6z$ and $g(z) = z^4 + 3$: $f + g = z^4 + 6z + 3$ has the same number of zeros in $|z| \lt 1$
-as $f(z) = 6z$Which has exactly one zero (at $z = 0$). $\blacksquare$
+as $f(z) = 6z$ Which has exactly one zero (at $z = 0$). $\blacksquare$
 
 <details>
 <summary>Solution</summary>
@@ -1604,7 +1604,7 @@ $z^4 + z + 1$ has $4$ zeros in $|z| \lt 2$ (same as $z^4$).
 
 On $|z| = 1$: $|3z^2 + 1| \geq |3z^2| - |1| = 2 \gt |z^5| = 1$. By Rouché with $f(z) = 3z^2 + 1$ and
 $g(z) = z^5$: $z^5 + 3z^2 + 1$ has the same number of zeros as $3z^2 + 1$ in $|z| \lt 1$.
-$3z^2 + 1 = 0 \Rightarrow z = \pm i/\sqrt{3}$Both in $|z| \lt 1$. So $2$ zeros.
+$3z^2 + 1 = 0 \Rightarrow z = \pm i/\sqrt{3}$ Both in $|z| \lt 1$. So $2$ zeros.
 
 </details>
 
@@ -1623,8 +1623,8 @@ With a limit point in $D$ Then $f = g$ on all of $D$.
 
 _Proof._ Let $E = \{z \in D : f^{(n)}(z) = g^{(n)}(z) \mathrm{\ for\ all\ } n \geq 0\}$. $E$ is
 Non-empty (it contains the limit point by continuity of derivatives). $E$ is closed (by continuity).
-If $z_0 \in E$The Taylor series of $f$ and $g$ at $z_0$ coincide, so $f = g$ in a neighbourhood of
-$z_0$Giving $E$ open. Since $D$ is connected, $E = D$. $\blacksquare$
+If $z_0 \in E$ The Taylor series of $f$ and $g$ at $z_0$ coincide, so $f = g$ in a neighbourhood of
+$z_0$ Giving $E$ open. Since $D$ is connected, $E = D$. $\blacksquare$
 
 ## 14. Common Pitfalls
 
@@ -1652,7 +1652,7 @@ sum of all residues (including the residue at infinity) is zero.
 
 :::caution
 Mapping $w = z^2$ is conformal at every $z \neq 0$ But it doubles the angle between curves at each
-Point. At $z = 0$It is not conformal because $f'(0) = 0$.
+Point. At $z = 0$ It is not conformal because $f'(0) = 0$.
 :::
 
 :::caution
@@ -1799,7 +1799,7 @@ Evaluate $\oint_\gamma \frac{z + 1}{z^2 - z}\, dz$ where $\gamma$ is $|z| = 2$.
 <details>
 <summary>Solution</summary>
 
-$\frac{z + 1}{z^2 - z} = \frac{z + 1}{z(z - 1)}$. Simple poles at $z = 0$ and $z = 1$Both inside
+$\frac{z + 1}{z^2 - z} = \frac{z + 1}{z(z - 1)}$. Simple poles at $z = 0$ and $z = 1$ Both inside
 $|z| = 2$.
 
 At $z = 0$: $\mathrm{Res} = \lim_{z \to 0} \frac{z + 1}{z - 1} = -1$. At $z = 1$:
@@ -1826,7 +1826,7 @@ $\mathrm{Res} = \frac{e^{1/(-i)}}{-2i} = \frac{e^{i}}{-2i}$.
 
 At $z = 0$: find the coefficient of $1/z$ in $\frac{e^{1/z}}{z^2 + 1}$.
 $\frac{1}{z^2 + 1} = 1 - z^2 + z^4 - \cdots$ near $z = 0$. $e^{1/z} = 1 + 1/z + 1/(2z^2) + \cdots$.
-The $1/z$ coefficient in the product: from $1 \cdot 1/z = 1/z$Giving residue $1$.
+The $1/z$ coefficient in the product: from $1 \cdot 1/z = 1/z$ Giving residue $1$.
 
 _If you get this wrong, revise:_ Sections 8.1 and 8.4 (Singularities and Residues).
 
@@ -1924,7 +1924,7 @@ Using Rouché's theorem, determine the number of roots of $z^5 - 5z + 1 = 0$ in 
 On $|z| = 1$: $|-5z| = 5 \gt |z^5 + 1| \leq 2$.
 
 By Rouché with $f(z) = -5z$ and $g(z) = z^5 + 1$: $z^5 - 5z + 1$ has the same number of zeros In
-$|z| \lt 1$ as $-5z$Which has exactly one zero (at $z = 0$).
+$|z| \lt 1$ as $-5z$ Which has exactly one zero (at $z = 0$).
 
 So exactly one root in $|z| \lt 1$.
 
@@ -1948,7 +1948,7 @@ $T(z) = -i \cdot \frac{z - 1}{z + 1}$.
 
 Verify: $T(1) = 0$ $\checkmark$, $T(i) = -i \cdot \frac{i-1}{i+1} = -i \cdot (-i) = -1$.
 
-That gives $-1$Not $1$. Let me recompute.
+That gives $-1$ Not $1$. Let me recompute.
 
 $T(z) = \frac{(z - z_1)(z_2 - z_3)}{(z - z_3)(z_2 - z_1)}$ with $z_1 = 1$, $z_2 = i$, $z_3 = -1$.
 
@@ -1971,7 +1971,7 @@ Evaluate $\int_\gamma \frac{z^3}{z^2 + 1}\, dz$ where $\gamma$ is $|z| = 2$.
 <details>
 <summary>Solution</summary>
 
-$\frac{z^3}{z^2 + 1}$ has simple poles at $z = \pm i$Both inside $|z| = 2$.
+$\frac{z^3}{z^2 + 1}$ has simple poles at $z = \pm i$ Both inside $|z| = 2$.
 
 At $z = i$: $\mathrm{Res} = \frac{i^3}{2i} = \frac{-i}{2i} = -\frac{1}{2}$. At $z = -i$:
 $\mathrm{Res} = \frac{(-i)^3}{-2i} = \frac{i}{-2i} = -\frac{1}{2}$.

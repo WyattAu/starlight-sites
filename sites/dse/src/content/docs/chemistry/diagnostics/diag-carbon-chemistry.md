@@ -190,7 +190,7 @@ Name the following compounds using IUPAC systematic nomenclature:
 
 **2-Methylbutane**
 
-(b) The structure is: C1($CH_{3}$)-C2($CH_{2}$)-C3($C(CH_{3})_{2}$)-C4($CH_{2}$)-C5($CH_{3}$).
+(b) The structure is: C1($CH_{3}$)-C2($ CH_{2}$)-C3($ C(CH_{3})_{2}$)-C4($ CH_{2}$)-C5($ CH_{3}$).
 
 The longest carbon chain has 5 carbons (pentane), with two methyl groups on carbon 3.
 

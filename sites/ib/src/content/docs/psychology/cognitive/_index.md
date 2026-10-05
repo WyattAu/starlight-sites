@@ -37,7 +37,7 @@ retrieval, and the systematic biases that distort these processes. The guiding a
 mental processes can be studied scientifically through controlled experiments, computational
 modelling, and, increasingly, neuroimaging.
 
-Memory research within CLOA has produced two foundational models. Atkinson and Shiffrin"s (1968)
+Memory research within CLOA has produced two foundational models. Atkinson and Shiffrin's (1968)
 multi-store model provided the first structural account, distinguishing sensory memory, short-term
 memory, and long-term memory as separate stores with distinct capacities and durations. Baddeley and
 Hitch's (1974) working memory model replaced the unitary STM with a multi-component active

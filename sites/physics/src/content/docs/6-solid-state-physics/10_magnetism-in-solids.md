@@ -34,7 +34,7 @@ description: "- Weak, negative susceptibility (). Present in all materials. Aris
 Diamagnetism is the universal tendency of matter to weakly oppose an applied magnetic field.
 
 **Langevin diamagnetism.** For an atom with $Z$ electrons, each in a circular orbit of radius
-$\langle r^2 \rangle$A field $B$ along $z$ modifies the angular velocity by
+$\langle r^2 \rangle$ A field $B$ along $z$ modifies the angular velocity by
 $\Delta\omega = eB/(2m_e)$. The induced magnetic moment per atom:
 
 $$
@@ -126,7 +126,7 @@ Giving the **Curie temperature:** $T_C = N\mu_B^2\lambda/k_B$.
 The critical exponent $\beta = 1/2$ (mean-field value), compared with the experimental value
 $\beta \approx 1/3$ (3D Ising universality class).
 
-Above $T_C$The susceptibility follows the **Curie--Weiss law:**
+Above $T_C$ The susceptibility follows the **Curie--Weiss law:**
 
 $$
 \chi = \frac{C}{T - T_C}
@@ -158,7 +158,7 @@ This enormous effective field is purely quantum-mechanical in origin (exchange i
 
 ### 10.5 Magnetic Domains
 
-Below $T_C$A ferromagnet divides into **domains** of uniform magnetisation, separated by **domain
+Below $T_C$ A ferromagnet divides into **domains** of uniform magnetisation, separated by **domain
 Walls** (Bloch walls). Domain formation reduces the magnetostatic energy.
 
 The **domain wall width:** $\delta \sim \sqrt{A/K}$ where $A$ is the exchange stiffness and $K$ is
@@ -198,7 +198,7 @@ At low temperatures ($T \ll T_C$), the reduction in magnetisation below saturati
 Collective excitations called **spin waves** or **magnons**.
 
 **Linear spin wave theory.** For a 1D chain of spins with nearest-neighbour exchange $J$ and Lattice
-constant $a$The magnon dispersion is:
+constant $a$ The magnon dispersion is:
 
 $$
 \hbar\omega(q) = 2JS[1 - \cos(qa)] = 4JS\sin^2\left(\frac{qa}{2}\right)

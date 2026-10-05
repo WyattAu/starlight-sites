@@ -67,7 +67,7 @@ Level.
 
 **Species evenness:** How evenly individuals are distributed among species.
 
-**Simpson"s Diversity Index:**
+**Simpson's Diversity Index:**
 
 $$
 D = 1 - \sum \frac{n(n-1)}{N(N-1)}
@@ -621,7 +621,7 @@ Geosphere.
 
 1. **Photosynthesis:** Atmospheric $\mathrm{CO_2$ is fixed into organic compounds by plants, algae,
    and cyanobacteria. Approximately 120 gigatonnes of carbon are fixed by photosynthesis each year.
-2. **Respiration:** Organic compounds are oxidised to release $\mathrm{CO_2$Returning carbon to the
+2. **Respiration:** Organic compounds are oxidised to release $\mathrm{CO_2$ Returning carbon to the
    atmosphere. This occurs in all living organisms.
 3. **Decomposition:** Decomposers (bacteria and fungi) break down dead organic matter, releasing
    $\mathrm{CO_2$.
@@ -766,7 +766,7 @@ A nitrogen atom in the atmosphere as $\mathrm{N_2$ is fixed by Rhizobium bacteri
 nodules Of a clover plant, converting it to $\mathrm{NH_3$. The clover incorporates the ammonia into
 amino Acids. A rabbit eats the clover and digests the proteins, using the amino acids to make its
 own Proteins. When the rabbit dies, decomposer bacteria break down its proteins, releasing
-$\mathrm{NH_3$ Back into the soil. Nitrosomonas converts the $\mathrm{NH_3$ to $\mathrm{NO_2^-$And
+$\mathrm{NH_3$ Back into the soil. Nitrosomonas converts the $\mathrm{NH_3$ to $\mathrm{NO_2^-$ And
 Nitrobacter Converts $\mathrm{NO_2^-$ to $\mathrm{NO_3^-$. A grass plant absorbs the nitrate through
 its roots.
 

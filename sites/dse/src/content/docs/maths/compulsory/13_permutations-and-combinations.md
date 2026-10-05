@@ -101,7 +101,7 @@ $$
 
 How many distinct arrangements of the letters in "BANANA"?
 
-Total letters: $n = 6$With $\mathrm{A}$ appearing $3$ times, $\mathrm{N}$ appearing $2$ times, and
+Total letters: $n = 6$ With $\mathrm{A}$ appearing $3$ times, $\mathrm{N}$ appearing $2$ times, and
 $\mathrm{B}$ appearing $1$ time.
 
 $$
@@ -181,7 +181,7 @@ This reflects the fact that each combination of $r$ objects can be arranged in $
 }
 </script>
 
-## Pascal"s Triangle
+## Pascal's Triangle
 
 ### Construction
 
@@ -590,11 +590,11 @@ $$
    strictly positive solutions (at least one per box), substitute $y_i = x_i - 1$ to get
    $\binom{n-1}{k-1}$.
 
-5. **Binomial theorem sign errors.** In $(a - b)^n$The general term is
+5. **Binomial theorem sign errors.** In $(a - b)^n$ The general term is
    $(-1)^k \binom{n}{k} a^{n-k} b^k$. The alternating sign $(-1)^k$ is frequently forgotten.
 
 6. **Division into equal indistinguishable groups.** When dividing $2n$ people into two teams of
-   $n$The answer is $\dfrac{1}{2}\binom{2n}{n}$Not $\binom{2n}{n}$Since the two teams are not
+   $n$ The answer is $\dfrac{1}{2}\binom{2n}{n}$ Not $\binom{2n}{n}$ Since the two teams are not
    labelled.
 
 7. **Double-counting in circular arrangements with identical objects.** In circular permutations
@@ -640,7 +640,7 @@ $\{1, 2, 3, 4, 5, 6, 7\}$ if no digit is repeated?
 <details>
 <summary>Solution</summary>
 
-The first digit must be $4$, $5$, $6$Or $7$: $4$ choices.
+The first digit must be $4$, $5$, $6$ Or $7$: $4$ choices.
 
 The remaining 4 positions are filled from the remaining $6$ digits without repetition:
 $P_4^6 = \dfrac{6!}{2!} = 360$.
@@ -1066,7 +1066,7 @@ For the power of $x$ to be $k$: $k = 6 - 3r$.
 Second factor: $(1 - x^{-1})^5$. General term: $\binom{5}{s}(-1)^s x^{-s}$.
 
 We need the total power of $x$ to be 0. From the first factor, take $x^{6-3r}$; from the second,
-take $(-1)^s x^{-s}$. Total power: $6 - 3r - s = 0$I.e., $s = 6 - 3r$.
+take $(-1)^s x^{-s}$. Total power: $6 - 3r - s = 0$ I.e., $s = 6 - 3r$.
 
 Since $0 \leq s \leq 5$:
 

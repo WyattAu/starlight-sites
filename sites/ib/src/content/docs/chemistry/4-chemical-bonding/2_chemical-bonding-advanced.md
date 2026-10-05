@@ -147,7 +147,7 @@ $$
 ### Sigma and Pi Bonds
 
 - **Sigma ($\sigma$) bond**: formed by head-on overlap of orbitals along the internuclear axis.
-  Always the first bond between two atoms. Can be formed by $s$-$s$, $s$-$p$, $p$-$p$Or hybrid-hybrid
+  Always the first bond between two atoms. Can be formed by $s$-$s$, $s$-$p$, $p$-$p$ Or hybrid-hybrid
   overlap.
 - **Pi ($\pi$) bond**: formed by sideways overlap of parallel $p$-orbitals. Always the second (or
   third) bond in a multiple bond.
@@ -314,7 +314,7 @@ Broaden into **energy bands** due to orbital overlap.
 
 ### Semiconductor Behaviour
 
-In an intrinsic semiconductor at $0\mathrm{ K}$The valence band is full and the conduction band is
+In an intrinsic semiconductor at $0\mathrm{ K}$ The valence band is full and the conduction band is
 Empty. As temperature increases:
 
 1. Some electrons gain enough energy to cross the band gap.
@@ -612,7 +612,7 @@ appears Metallic-grey and opaque.
 **Worked Example: Metallic bonding and melting point comparison**
 
 Explain why tungsten ($\mathrm{W}$) has a melting point of $3422\degree\mathrm{C}$ while sodium
-($\mathrm{Na}$) melts at $98\degree\mathrm{C}$Despite both being metals.
+($\mathrm{Na}$) melts at $98\degree\mathrm{C}$ Despite both being metals.
 
 <details>
 <summary>Solution</summary>
@@ -621,9 +621,9 @@ The strength of metallic bonding depends on three factors:
 
 1. **Number of delocalized electrons per atom:**
 
-- $\mathrm{W}$: electron configuration $[\mathrm{Xe}]\, 4f^{14}\, 5d^4\, 6s^2$Contributing up to 6
+- $\mathrm{W}$: electron configuration $[\mathrm{Xe}]\, 4f^{14}\, 5d^4\, 6s^2$ Contributing up to 6
   valence electrons to the delocalized sea.
-- $\mathrm{Na}$: configuration $[\mathrm{Ne}]\, 3s^1$Contributing only 1 valence electron.
+- $\mathrm{Na}$: configuration $[\mathrm{Ne}]\, 3s^1$ Contributing only 1 valence electron.
 
 1. **Ionic radius (charge density):**
 
@@ -660,17 +660,17 @@ Point, hardness, and tensile strength compared to sodium.
   lone pairs. $\mathrm{NH}_3$ has 3 bonds + 1 lone pair = 4 regions, giving tetrahedral electron
   pair geometry and trigonal pyramidal molecular shape.
 
-- **Misidentifying the central atom**: In molecules like $\mathrm{OF}_2$Oxygen is the central atom
-  (less electronegative than fluorine). In $\mathrm{SCl}_4$Sulfur is central. Always place the least
+- **Misidentifying the central atom**: In molecules like $\mathrm{OF}_2$ Oxygen is the central atom
+  (less electronegative than fluorine). In $\mathrm{SCl}_4$ Sulfur is central. Always place the least
   electronegative atom (excluding hydrogen) at the centre.
 
 - **Assigning hybridization based on bonded atoms only**: Hybridization depends on the total steric
   number (bonded atoms + lone pairs). $\mathrm{NH}_3$ has steric number 4, so its hybridization is
-  $sp^3$Not $sp^2$.
+  $sp^3$ Not $sp^2$.
 
 - **Reversing the MO energy ordering between $\mathrm{N}_2$ and $\mathrm{O}_2$**: For
   $\mathrm{B}_2$$\mathrm{C}_2$$\mathrm{N}_2$ (and lighter), $\pi_{2p}$ is lower than
-  $\sigma_{2p_z}$. For $\mathrm{O}_2$$\mathrm{F}_2$$\mathrm{Ne}_2$The ordering reverses. The
+  $\sigma_{2p_z}$. For $\mathrm{O}_2$$\mathrm{F}_2$$\mathrm{Ne}_2$ The ordering reverses. The
   boundary is between $\mathrm{N}_2$ and $\mathrm{O}_2$.
 
 - **Treating antibonding electrons as equivalent to bonding electrons**: Each antibonding electron
@@ -784,7 +784,7 @@ covalent character. Purely ionic bonding is an idealisation; real bonds exist on
 
 **Worked Example: Lewis Structure and Formal Charge for an Unusual Species**
 
-Draw the Lewis structure of $\mathrm{XeO}_3$Determine the formal charge on each atom, predict the
+Draw the Lewis structure of $\mathrm{XeO}_3$ Determine the formal charge on each atom, predict the
 molecular geometry, and state whether the molecule is polar.
 
 <details>
@@ -907,7 +907,7 @@ U \approx -644\;\mathrm{kJ/mol}
 $$
 
 The experimental lattice energy of $\mathrm{KBr}$ is approximately $-679\;\mathrm{kJ/mol}$. The
-Kapustinskii estimate is within about $5\%$Demonstrating its utility for predicting lattice energies
+Kapustinskii estimate is within about $5\%$ Demonstrating its utility for predicting lattice energies
 when Born-Haber data are unavailable.
 
 </details>
@@ -988,7 +988,7 @@ approximately $30\%$ and discuss one approach to exceeding this limit.
 
 The standard enthalpy of atomisation of methane is $+1660\;\mathrm{kJ/mol}$ (i.e.,
 $\mathrm{CH}_4(g) \to \mathrm{C}(g) + 4\mathrm{H}(g)$). Given that the standard enthalpy of
-formation of $\mathrm{CH}_4(g)$ is $-75\;\mathrm{kJ/mol}$The bond dissociation energy of
+formation of $\mathrm{CH}_4(g)$ is $-75\;\mathrm{kJ/mol}$ The bond dissociation energy of
 $\mathrm{H}_2$ is $+436\;\mathrm{kJ/mol}$ And the enthalpy of sublimation of graphite is
 $+717\;\mathrm{kJ/mol}$: (a) Calculate the mean C--H bond enthalpy in methane. (b) Explain why the
 first C--H bond dissociation energy ($+439\;\mathrm{kJ/mol}$) differs from the mean value. (c) The
@@ -1011,7 +1011,7 @@ from the value in methane.
 ## Common Pitfalls (Expanded)
 
 - **Counting lone pairs incorrectly for expanded octet species**: Elements in Period 3 and beyond
-  can have more than 8 valence electrons (expanded octet). For $\mathrm{SF}_6$Sulfur has $12$
+  can have more than 8 valence electrons (expanded octet). For $\mathrm{SF}_6$ Sulfur has $12$
   valence electrons (6 bonds, 0 lone pairs). Do not force an octet on central atoms that can
   accommodate more.
 
@@ -1021,7 +1021,7 @@ from the value in methane.
 
 - **Misidentifying coordinate (dative) covalent bonds**: A coordinate bond is formed when both
   electrons in the bond come from the same atom. Once formed, a coordinate bond is indistinguishable
-  from a normal covalent bond. In $\mathrm{NH}_4^+$The fourth N--H bond is a coordinate bond, but
+  from a normal covalent bond. In $\mathrm{NH}_4^+$ The fourth N--H bond is a coordinate bond, but
   all four N--H bonds are equivalent in the ammonium ion.
 
 - **Using the wrong MO energy ordering for heteronuclear diatomics**: For heteronuclear diatomics

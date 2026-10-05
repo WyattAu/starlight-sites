@@ -111,7 +111,7 @@ The **Von Neumann architecture** is the standard model for most computers:
 - A single bus is used for data transfer
 
 **The stored program concept.** Before Von Neumann, computers were rewired for each new program. Von
-Neumann"s key insight was that programs and data could both be stored in the same memory, and the
+Neumann's key insight was that programs and data could both be stored in the same memory, and the
 CPU could read instructions from memory just as it reads data. This means you can change what a
 Computer does by changing the contents of its memory -- no rewiring required.
 

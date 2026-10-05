@@ -281,7 +281,7 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 - **Meristems (plants)**: stem cells found in the tips of roots and shoots; can differentiate into
   any plant cell type
 - **Therapeutic uses**: treating leukaemia (bone marrow transplants), potential for treating spinal
-  injuries, Parkinson"s disease, diabetes
+  injuries, Parkinson's disease, diabetes
 - **Ethical issues**: embryonic stem cell research involves the destruction of embryos; some people
   object on religious or ethical grounds
 - Plant stem cells are used in agriculture: cloning plants from cuttings, tissue culture
@@ -1263,7 +1263,7 @@ $$
 
 ### 4.3 Moles
 
-One mole of any substance contains $6.02 \times 10^{23}$ particles (Avogadro"s constant, $N_A$).
+One mole of any substance contains $6.02 \times 10^{23}$ particles (Avogadro's constant, $N_A$).
 
 $$
 \text{Number of moles} = \frac{\text{mass (g)}}{M_r}
@@ -1366,7 +1366,7 @@ Alkenes are **unsaturated**, they contain at least one carbon-carbon double bond
 
 **General formula:** $\text{C}_n\text{H}_{2n+1}\text{OH}$
 
-- Functional group: $-$OH (hydroxyl group).
+- Functional group: $-$ OH (hydroxyl group).
 - Ethanol ($\text{C}_2\text{H}_5\text{OH}$) is the most common alcohol.
 - Produced by fermentation of sugars (enzymes in yeast) or hydration of ethene.
 - Properties: soluble in water, burns cleanly, used as solvents and fuels.
@@ -1375,7 +1375,7 @@ Alkenes are **unsaturated**, they contain at least one carbon-carbon double bond
 
 **General formula:** $\text{C}_n\text{H}_{2n+1}\text{COOH}$
 
-- Functional group: $-$COOH (carboxyl group).
+- Functional group: $-$ COOH (carboxyl group).
 - Weak acids, partially ionise in solution.
 - Ethanoic acid ($\text{CH}_3\text{COOH}$) is found in vinegar.
 - React with alcohols to form **esters** (condensation reaction).
@@ -5001,7 +5001,7 @@ where $u$ is initial velocity, $v$ is final velocity, $t$ is time.
 **Typical speeds:** Walking 1.5 m/s, running 3 m/s, cycling 6 m/s, car on motorway 30 m/s, sound in
 air 330 m/s.
 
-### 2.2 Newton"s Laws
+### 2.2 Newton's Laws
 
 **First law:** An object remains at rest or moves at constant velocity unless a resultant force acts
 on it.
@@ -6813,7 +6813,7 @@ Step-by-step interpretation:
 
 **Worked Example: Calculating light intensity.**
 
-Light intensity follows an inverse square law: intensity $\propto 1/d^2$Where $d$ is the distance
+Light intensity follows an inverse square law: intensity $\propto 1/d^2$ Where $d$ is the distance
 From the lamp.
 
 If the lamp is 10 cm from the pondweed and produces 100 bubbles per minute, what rate would you
@@ -6910,7 +6910,7 @@ Out of ATP and NADPH.
 | ------------------- | ------------------------- | ------------------------------ |
 | Location            | Thylakoid membranes       | Stroma                         |
 | Does it need light? | Yes, directly             | No (but needs products of LDR) |
-| Inputs              | Water, light, ADP, NADP+  | $\mathrm{CO_2$ATP, NADPH       |
+| Inputs              | Water, light, ADP, NADP+  | $\mathrm{CO_2$ ATP, NADPH       |
 | Outputs             | Oxygen, ATP, NADPH        | Glucose, ADP, NADP+            |
 | Key process         | Photolysis of water       | Carbon fixation by RuBisCO     |
 
@@ -7064,7 +7064,7 @@ To take in this extra oxygen to fully oxidise the accumulated lactic acid.
 **Why soda lime is essential.** Respiration produces $\mathrm{CO_2$ as well as consuming
 $\mathrm{O_2$. If the $\mathrm{CO_2$ were not absorbed, the volume change would be the difference
 Between $\mathrm{O_2$ consumed and $\mathrm{CO_2$ produced, not the true rate of oxygen consumption.
-Since soda lime absorbs $\mathrm{CO_2$The measured volume change reflects only $\mathrm{O_2$
+Since soda lime absorbs $\mathrm{CO_2$ The measured volume change reflects only $\mathrm{O_2$
 Consumption.
 
 ### 3.2 Interpreting Results
@@ -7264,7 +7264,7 @@ Suspended in a hydrogen carbonate indicator solution.
 2. Place a known number of algal balls into a test tube containing hydrogen carbonate indicator
    (which changes colour depending on the pH, which changes with $\mathrm{CO_2$ concentration).
 3. Expose the test tube to light of a specific intensity for a set time.
-4. As photosynthesis occurs, the algae absorb $\mathrm{CO_2$Raising the pH. The indicator changes
+4. As photosynthesis occurs, the algae absorb $\mathrm{CO_2$ Raising the pH. The indicator changes
    from red/orange (high $\mathrm{CO_2$) to purple (low $\mathrm{CO_2$).
 5. Use a colorimeter to measure the exact colour change, which corresponds to the amount of
    $\mathrm{CO_2$ absorbed.
@@ -7405,8 +7405,8 @@ Allowed for acclimatisation.
 
 **Worked Example: Interpreting the results.**
 
-At 1% $\mathrm{CO_2$The rate is 5 bubbles/min. At 2% $\mathrm{CO_2$The rate is 9 bubbles/min. At 3%
-$\mathrm{CO_2$The rate is 10 bubbles/min. At 4% $\mathrm{CO_2$The rate is 10 bubbles/min.
+At 1% $\mathrm{CO_2$ The rate is 5 bubbles/min. At 2% $\mathrm{CO_2$ The rate is 9 bubbles/min. At 3%
+$\mathrm{CO_2$ The rate is 10 bubbles/min. At 4% $\mathrm{CO_2$ The rate is 10 bubbles/min.
 
 Between 1% and 2%, the rate increases from 5 to 9 bubbles/min (an increase of 4). Between 2% and 3%,
 The rate increases from 9 to 10 (an increase of only 1). Between 3% and 4%, there is no increase at
@@ -7728,7 +7728,7 @@ to antibiotics and why bacterial infections can spread so rapidly.
 | Membrane-bound organelles | Yes (mitochondria, ER, Golgi, etc.) | No                        |
 | Ribosomes                 | 80S (larger)                        | 70S (smaller)             |
 | Cell wall                 | Cellulose (plants), chitin (fungi)  | Peptidoglycan             |
-| Size                      | 10--100 $\mu$M                      | 1--10 $\mu$M              |
+| Size                      | 10--100 $\mu$ M                      | 1--10 $\mu$ M              |
 | Reproduction              | Mitosis, meiosis                    | Binary fission            |
 | Plasmids                  | No                                  | Yes                       |
 | Examples                  | Animals, plants, fungi, protists    | Bacteria, archaea         |
@@ -7819,7 +7819,7 @@ $$
 $$
 
 **Unit conversion tip.** You will frequently need to convert between millimetres (mm) and
-Micrometres ($\mu$M). Remember: $1 \mathrm{ mm = 1000 \mathrm{ \mu m$.
+Micrometres ($\mu$ M). Remember: $1 \mathrm{ mm = 1000 \mathrm{ \mu m$.
 
 **Worked Example.** A cell measures 8.5 mm in a micrograph taken at magnification $\times 400$. Find
 The actual size in micrometres.
@@ -8221,7 +8221,7 @@ Units.
 | Unit       | Symbol | Conversion to metres |
 | ---------- | ------ | -------------------- |
 | Millimetre | mm     | $\times 10^{-3}$ m   |
-| Micrometre | $\mu$M | $\times 10^{-6}$ m   |
+| Micrometre | $\mu$ M | $\times 10^{-6}$ m   |
 | Nanometre  | nm     | $\times 10^{-9}$ m   |
 
 **Worked Example.** A mitochondrion is $5 \mu\mathrm{m$ long. Express this in nanometres.
@@ -8285,7 +8285,7 @@ $$
    happens to the cell.
 
 6. Calculate the actual size of a cell that measures 8.5 mm in a micrograph taken at a magnification
-   of $\times 400$. Give your answer in micrometres ($\mu$M).
+   of $\times 400$. Give your answer in micrometres ($\mu$ M).
 
 7. Explain the difference between diffusion, osmosis, and active transport.
 
@@ -8356,7 +8356,7 @@ $$
 
 A cell is observed under a microscope with an eyepiece lens of magnification $\times 10$ and an
 Objective lens of magnification $\times 40$. The cell appears to be $4.8 \mathrm{ mm$ wide in the
-Image. Calculate the actual width of the cell in micrometres ($\mu$M).
+Image. Calculate the actual width of the cell in micrometres ($\mu$ M).
 
 </details>
 
@@ -8583,7 +8583,7 @@ carbonate the drink or be released.
 **Question:** (a) Define the term "limiting factor". (b) Explain how light intensity, CO$_2$
 concentration, and temperature affect the rate of photosynthesis. (c) A farmer wants to increase
 crop yields in a greenhouse. Suggest three methods, explaining the biology behind each. (d) Explain
-why increasing temperature above $25^\circ$C does not continue to increase the rate of
+why increasing temperature above $25^\circ$ C does not continue to increase the rate of
 photosynthesis.
 
 **Solution:**
@@ -8601,7 +8601,7 @@ Increasing CO$_2$ increases the rate until another factor limits. At very high C
 temperature becomes limiting.
 
 **Temperature:** Increasing temperature increases the rate of enzyme-controlled reactions in
-photosynthesis (up to the optimum). Above the optimum ($\approx 25$--$30^\circ$C), enzymes begin to
+photosynthesis (up to the optimum). Above the optimum ($\approx 25$--$30^\circ$ C), enzymes begin to
 denature and the rate decreases.
 
 (c) Three methods: (1) **Artificial lighting** -- extends the hours of photosynthesis beyond
@@ -8610,7 +8610,7 @@ greenhouse increases the concentration above atmospheric levels, making CO$_2$ l
 limiting. (3) **Temperature control** -- heating in winter and ventilation in summer maintain the
 optimum temperature for photosynthetic enzymes.
 
-(d) Above $25^\circ$C, the enzymes involved in photosynthesis (particularly RuBisCO in the Calvin
+(d) Above $25^\circ$ C, the enzymes involved in photosynthesis (particularly RuBisCO in the Calvin
 cycle) begin to denature. The active site changes shape, reducing the enzyme"s ability to catalyse
 the reaction. Additionally, at higher temperatures, water loss through stomata increases. The guard
 cells close the stomata to conserve water, but this reduces CO$_2$ entry, further limiting
@@ -8820,7 +8820,7 @@ exit.
 (d) Two differences: (1) Prokaryotes have no membrane-bound organelles (no nucleus, mitochondria, or
 ER); their DNA is a single circular chromosome in the cytoplasm. Eukaryotes have membrane-bound
 organelles and linear chromosomes in a nucleus. (2) Prokaryotes are generally much smaller (1--5
-$\mu$M) than eukaryotes (10--100 $\mu$M). Prokaryotes may also have plasmids (small extra DNA rings)
+$\mu$ M) than eukaryotes (10--100 $\mu$ M). Prokaryotes may also have plasmids (small extra DNA rings)
 and a capsule, which eukaryotes lack.
 
 ### UT-2: Specialised Cells
@@ -8850,7 +8850,7 @@ axon is insulated by a myelin sheath that speeds up impulse transmission. Has br
 
 **Question:** (a) Calculate the total magnification of a microscope with a 10x eyepiece lens and a
 40x objective lens. (b) A cell is observed to be 4.2 mm across the eyepiece scale. If the total
-magnification is 400x, calculate the actual size of the cell in $\mu$M. (c) Explain the difference
+magnification is 400x, calculate the actual size of the cell in $\mu$ M. (c) Explain the difference
 between resolution and magnification. (d) Describe two advantages of electron microscopy over light
 microscopy.
 
@@ -8859,7 +8859,7 @@ microscopy.
 (a) Total magnification $= 10 \times 40 = 400\times$.
 
 (b) Actual size
-$= \text{image size / \text{magnification = 4.2 \text{ mm / 400 = 0.0105 \text{ mm = 10.5 \mu$M.
+$= \text{image size / \text{magnification = 4.2 \text{ mm / 400 = 0.0105 \text{ mm = 10.5 \mu$ M.
 
 (c) **Magnification** is how much larger the image appears compared to the actual object (e.g.,
 $400\times$ means 400 times larger). **Resolution** is the ability to distinguish between two
@@ -8870,7 +8870,7 @@ distinct. Higher resolution means finer detail is visible.
 wavelength than light) and can resolve structures down to about 0.2 nm, compared to about 200 nm for
 light microscopes. This reveals organelles like ribosomes, the structure of membranes, and internal
 details of mitochondria. (2) **Much higher effective magnification:** Electron microscopes can
-achieve magnifications of up to $2,000,000\times$Compared to about $2000\times$ for light
+achieve magnifications of up to $2,000,000\times$ Compared to about $2000\times$ for light
 microscopes. Disadvantages: specimens must be in a vacuum (dead), preparation is complex, and images
 are black and white.
 
@@ -8954,11 +8954,11 @@ organisms reproduce by mitosis, producing offspring genetically identical to the
 
 ### IT-3: Microscopy and Cell Size (with Bioenergetics)
 
-**Question:** (a) The diameter of a typical animal cell is 20 $\mu$M. Calculate how many cells would
+**Question:** (a) The diameter of a typical animal cell is 20 $\mu$ M. Calculate how many cells would
 fit along a line 1 mm long. (b) An electron micrograph shows a mitochondrion with a length of 5 mm
-on the image. The actual length is 1.5 $\mu$M. Calculate the magnification. (c) A chloroplast is
-observed to be 3.8 mm long at a magnification of 15,000x. Calculate the actual length in $\mu$M. (d)
-Explain why most cells are small ( 10--100 $\mu$M) rather than large, relating your answer to the
+on the image. The actual length is 1.5 $\mu$ M. Calculate the magnification. (c) A chloroplast is
+observed to be 3.8 mm long at a magnification of 15,000x. Calculate the actual length in $\mu$ M. (d)
+Explain why most cells are small ( 10--100 $\mu$ M) rather than large, relating your answer to the
 surface area to volume ratio.
 
 **Solution:**
@@ -9159,7 +9159,7 @@ sustainable forestry, and organic farming.
 ### IT-1: Ecosystem Dynamics (with Bioenergetics)
 
 **Question:** A lake ecosystem has the following biomass values (in kg): phytoplankton
-$= 4000$Zooplankton $= 400$Small fish $= 40$Large fish $= 4$. (a) Calculate the percentage energy
+$= 4000$ Zooplankton $= 400$ Small fish $= 40$ Large fish $= 4$. (a) Calculate the percentage energy
 transfer at each level. (b) A farmer applies fertiliser to a field near the lake. Explain how this
 could lead to eutrophication. (c) Calculate the total biomass if the farmer introduces 500 kg of an
 invasive fish species that competes with small fish, reducing the small fish biomass by 60%. (d)
@@ -9200,7 +9200,7 @@ carbonate shells. (d) Describe two biological consequences of global warming on 
 **Solution:**
 
 (a) **Greenhouse effect mechanism:** CO$_2$ (and other greenhouse gases like methane and water
-vapour) in the atmosphere absorb infrared radiation (heat) emitted by the Earth"s surface. This
+vapour) in the atmosphere absorb infrared radiation (heat) emitted by the Earth's surface. This
 radiation would otherwise escape to space. The absorbed heat is re-radiated in all directions,
 including back towards the Earth's surface, warming the planet. Increasing CO$_2$ concentration
 increases the greenhouse effect, trapping more heat and raising global temperatures.
@@ -9503,7 +9503,7 @@ selection and genetic drift. (6) Eventually, even if the populations are brought
 have diverged so much that they can no longer interbreed to produce fertile offspring -- they are
 now separate species.
 
-(b) Using the Hardy-Weinberg principle: $p + q = 1$Where $p$ is the dominant allele frequency and
+(b) Using the Hardy-Weinberg principle: $p + q = 1$ Where $p$ is the dominant allele frequency and
 $q$ is the recessive allele frequency.
 
 Population A: $p = 0.3$$q = 1 - 0.3 = 0.7$. Population B: $p = 0.7$$q = 1 - 0.7 = 0.3$.
@@ -9735,24 +9735,24 @@ moisture before diffusing.
 **Question:** An experiment investigates the effect of temperature on the activity of amylase. The
 time taken for starch to be completely digested is recorded:
 
-| Temperature ($^\circ$C) | 10  | 20  | 30  | 40  | 50  | 60  | 70          |
+| Temperature ($^\circ$ C) | 10  | 20  | 30  | 40  | 50  | 60  | 70          |
 | ----------------------- | --- | --- | --- | --- | --- | --- | ----------- |
 | Time (seconds)          | 300 | 180 | 90  | 45  | 60  | 240 | No reaction |
 
 (a) Calculate the rate of reaction (1/time) at each temperature. (b) Plot a graph of rate against
 temperature and identify the optimum temperature. (c) Explain why the rate decreases above
-$40^\circ$C. (d) Explain how the products of digestion (glucose, amino acids, fatty acids) are used
+$40^\circ$ C. (d) Explain how the products of digestion (glucose, amino acids, fatty acids) are used
 in cellular respiration.
 
 **Solution:**
 
 (a) Rates (1/time in s$^{-1}$ $\times 1000$): 3.3, 5.6, 11.1, 22.2, 16.7, 4.2, 0.
 
-(b) The graph peaks at $40^\circ$C (rate 22.2), making this the **optimum temperature**.
+(b) The graph peaks at $40^\circ$ C (rate 22.2), making this the **optimum temperature**.
 
-(c) Above $40^\circ$C, the enzyme"s active site begins to change shape due to the breaking of bonds
+(c) Above $40^\circ$ C, the enzyme"s active site begins to change shape due to the breaking of bonds
 maintaining the tertiary structure. This is **denaturation** -- the substrate can no longer fit into
-the active site, so the reaction rate decreases. At $70^\circ$C, the enzyme is completely denatured
+the active site, so the reaction rate decreases. At $70^\circ$ C, the enzyme is completely denatured
 and cannot function.
 
 (d) **Glucose:** Used in aerobic respiration (with oxygen) to produce ATP: glucose $+$ oxygen $\to$
@@ -9769,11 +9769,11 @@ energy reserves, or used in hormone synthesis.
 
 **Question:** Red blood cells contain haemoglobin and no nucleus. (a) Explain how the structure of
 red blood cells relates to their function in gas transport. (b) A red blood cell has a diameter of 7
-$\mu$M and must pass through a capillary of diameter 5 $\mu$M. Explain how this is possible and why
+$\mu$ M and must pass through a capillary of diameter 5 $\mu$ M. Explain how this is possible and why
 it is beneficial for gas exchange. (c) Haemoglobin binds oxygen in the lungs and releases it in the
 tissues. Explain how the different conditions (high O$_2$ in lungs, high CO$_2$ in tissues) drive
 this process. (d) Calculate how many red blood cells would fit along 1 cm of a capillary of diameter
-5 $\mu$M.
+5 $\mu$ M.
 
 **Solution:**
 
@@ -9795,8 +9795,8 @@ In the **tissues:** Low oxygen concentration and high CO$_2$ concentration (from
 respiration) cause oxyhaemoglobin to release oxygen. The lower pH (due to dissolved CO$_2$ forming
 carbonic acid) reduces haemoglobin's oxygen affinity, promoting unloading.
 
-(d) Capillary diameter $= 5 \mu$M. Cell diameter $= 7 \mu$M. Since cells deform, they pass through
-single file. Length of capillary $= 10,000 \mu$M. If each cell occupies approximately 7 $\mu$M when
+(d) Capillary diameter $= 5 \mu$ M. Cell diameter $= 7 \mu$ M. Since cells deform, they pass through
+single file. Length of capillary $= 10,000 \mu$ M. If each cell occupies approximately 7 $\mu$ M when
 deformed: $10,000/7 \approx 1429$ cells.
 
 ### IT-3: Nervous System and Homeostasis (with Organisation)
@@ -10146,7 +10146,7 @@ Organisms are adapted to their environment through natural selection. Adaptation
   (reduces surface area, deters herbivores); swollen stem (stores water); shallow but extensive root
   system (quickly absorbs water after rain).
 - **Physiological:** CAM (Crassulacean Acid Metabolism) photosynthesis: stomata open at night to
-  take in $\mathrm{CO_2$Reducing water loss during the hot day.
+  take in $\mathrm{CO_2$ Reducing water loss during the hot day.
 
 **Worked Example: Surface-area-to-volume ratio and heat loss.**
 
@@ -10538,7 +10538,7 @@ from fertiliser runoff.
 
 ### 4.6 Global Warming
 
-**Greenhouse gases** ($\mathrm{CO_2$Methane, water vapour, nitrous oxide) trap heat in the
+**Greenhouse gases** ($\mathrm{CO_2$ Methane, water vapour, nitrous oxide) trap heat in the
 Atmosphere, causing the Earth's average temperature to rise. This is the **greenhouse effect**.
 
 **Evidence for climate change:**
@@ -12714,7 +12714,7 @@ has been denatured, it cannot recover its function.
 
 A student investigates the effect of temperature on amylase activity. The results are:
 
-| Temperature ($^{\circ}$C) | Time for starch to disappear (s) | Rate ($1/\mathrm{time$) ($\times 10^{-3}$ s$^{-1}$) |
+| Temperature ($^{\circ}$ C) | Time for starch to disappear (s) | Rate ($1/\mathrm{time$) ($\times 10^{-3}$ s$^{-1}$) |
 | ------------------------- | -------------------------------- | --------------------------------------------------- |
 | 10                        | 300                              | 3.3                                                 |
 | 20                        | 120                              | 8.3                                                 |
@@ -13879,7 +13879,7 @@ $$Z = 11, \quad A = 11 + 12 = 23$$ $$\mathrm{Electron configuration:  2, 8, 1$$
 **Worked Example.** An atom has 9 protons, 10 neutrons, and 9 electrons. Identify the element and
 Write its full notation.
 
-The atomic number $Z = 9$Which is fluorine. The mass number $A = 9 + 10 = 19$. The notation is
+The atomic number $Z = 9$ Which is fluorine. The mass number $A = 9 + 10 = 19$. The notation is
 $\prescript{19}{9}\mathrm{F$. Since the number of protons equals the number of electrons, this is a
 Neutral fluorine atom.
 
@@ -13900,8 +13900,8 @@ $A = 8 + 8 = 16$.
 | Bohr (1913)       | Electron shells | Electrons orbit the nucleus in fixed energy levels                   |
 | Chadwick (1932)   | With neutrons   | Discovered the neutron, completing the modern picture                |
 
-Each model superseded its predecessor because new experimental evidence forced a revision. Dalton"s
-Model could not explain cathode rays (Thomson). Thomson"s plum pudding model could not explain the
+Each model superseded its predecessor because new experimental evidence forced a revision. Dalton's
+Model could not explain cathode rays (Thomson). Thomson's plum pudding model could not explain the
 Gold foil results (Rutherford). Rutherford's model was unstable by classical electrodynamics -- a
 Charged electron orbiting a nucleus should radiate energy and spiral inward. Bohr resolved this by
 Postulating quantised orbits, although his model was itself superseded by the full quantum
@@ -13928,7 +13928,7 @@ Implies a concentrated, massive, positively charged core -- the nucleus.
 <summary>Quantitative intuition for the Rutherford experiment</summary>
 
 The fraction of alpha particles scattered through an angle greater than $\theta$ is proportional to
-$\left(\frac{Z_1 Z_2 e^2}{4 E}\right)^2 \cot^2\!\left(\frac{\theta}{2}\right)$Where $Z_1$ and $Z_2$
+$\left(\frac{Z_1 Z_2 e^2}{4 E}\right)^2 \cot^2\!\left(\frac{\theta}{2}\right)$ Where $Z_1$ and $Z_2$
 are the atomic numbers of the alpha particle and gold nucleus, $e$ is the elementary charge, And $E$
 is the kinetic energy of the alpha particle. This shows that large-angle scattering is Extremely
 rare -- consistent with a tiny nucleus.
@@ -14012,7 +14012,7 @@ $$
 Half-life.
 
 After $n$ half-lives: $40 \times \frac{1}{2^n} = 5$ So
-$\frac{1}{2^n} = \frac{5}{40} = \frac{1}{8}$Which gives $2^n = 8$ So $n = 3$. The half-life is
+$\frac{1}{2^n} = \frac{5}{40} = \frac{1}{8}$ Which gives $2^n = 8$ So $n = 3$. The half-life is
 $t_{1/2} = \frac{90}{3} = 30$ minutes.
 
 ### 2.5 Derivation: The Half-Life Formula
@@ -14066,7 +14066,7 @@ $$
 \sum_{\ell=0}^{n-1} 2(2\ell + 1) = 2\sum_{\ell=0}^{n-1}(2\ell + 1) = 2n^2
 $$
 
-The sum of the first $n$ odd numbers equals $n^2$Which is a well-known result from arithmetic.
+The sum of the first $n$ odd numbers equals $n^2$ Which is a well-known result from arithmetic.
 
 ### 3.2 Rules for Filling Shells
 
@@ -14379,7 +14379,7 @@ Atmosphere).
 
 The increasing boiling point down Group 0 is explained by increasing London dispersion forces as the
 Number of electrons increases. Helium ($A_r = 4$) has very weak intermolecular forces and boils at
-$-269^{\circ}\mathrm{C$Whereas xenon ($A_r = 131$) boils at $-108^{\circ}\mathrm{C$.
+$-269^{\circ}\mathrm{C$ Whereas xenon ($A_r = 131$) boils at $-108^{\circ}\mathrm{C$.
 
 ### 5.6 Transition Metals
 
@@ -14943,12 +14943,12 @@ Some ions consist of more than one atom bonded covalently but carrying an overal
 | Hydrogencarbonate | HCO$_3^-$   | $1-$   |
 
 When writing formulae with polyatomic ions, use brackets if more than one of the polyatomic ion is
-Needed: Ca(NO$_3$)$_2$Not CaNO$\_3$2.
+Needed: Ca(NO$_3$)$_2$ Not CaNO$\_3$2.
 
 ### 1.6 Derivation: Why Ionic Compounds Have High Melting Points
 
 The melting point of an ionic compound depends on the strength of the electrostatic forces between
-Ions, given by Coulomb"s law:
+Ions, given by Coulomb's law:
 
 $$
 F \propto \frac{q_1 \cdot q_2}{r^2}
@@ -15593,7 +15593,7 @@ Draw dot-cross diagrams for (a) magnesium oxide ($\mathrm{MgO$) and (b) carbon d
 <details>
 <summary>Answer</summary>
 
-(a) $\mathrm{MgO$: $\mathrm{Mg$ donates 2 electrons (shown as x) to $\mathrm{O$Forming
+(a) $\mathrm{MgO$: $\mathrm{Mg$ donates 2 electrons (shown as x) to $\mathrm{O$ Forming
 $\mathrm{Mg^{2+}$ and $\mathrm{O^{2-}$. The diagram shows the oxide ion with 8 electrons (6 of its
 own + 2 from Mg) and the magnesium ion with none in its outer shell.
 
@@ -16162,7 +16162,7 @@ System is not closed (e.g., a gas escapes), equilibrium cannot be established.
 - The forward and reverse rates must be equal
 - The concentrations remain constant (but not necessarily equal)
 
-### 4.3 Le Chatelier"s Principle
+### 4.3 Le Chatelier's Principle
 
 **Le Chatelier's principle:** If a system at equilibrium is subjected to a change, the equilibrium
 Shifts in the direction that counteracts the change.
@@ -16449,7 +16449,7 @@ Oxidation state rules:
 
 **Worked Example.** Determine the oxidation state of manganese in KMnO$_4$.
 
-K = $+1$O = $-2$ (four oxygens: $4 \times -2 = -8$).
+K = $+1$ O = $-2$ (four oxygens: $4 \times -2 = -8$).
 
 $+1 + \mathrm{Mn + (-8) = 0$ So Mn = $+7$.
 
@@ -16457,7 +16457,7 @@ $+1 + \mathrm{Mn + (-8) = 0$ So Mn = $+7$.
 
 O = $-2$ (seven oxygens: $7 \times -2 = -14$).
 
-$2\mathrm{Cr + (-14) = -2$ So $2\mathrm{Cr = +12$Giving Cr = $+6$.
+$2\mathrm{Cr + (-14) = -2$ So $2\mathrm{Cr = +12$ Giving Cr = $+6$.
 
 ## Common Pitfalls
 
@@ -16479,7 +16479,7 @@ $2\mathrm{Cr + (-14) = -2$ So $2\mathrm{Cr = +12$Giving Cr = $+6$.
 - **Using the wrong reagent to identify a gas.** Know each test precisely: limewater for CO$_2$
   glowing splint for O$_2$Lighted splint for H$_2$.
 - **Confusing the oxidation state of oxygen in peroxides.** In H$_2$O$_2$Oxygen has oxidation state
-  $-1$Not $-2$.
+  $-1$ Not $-2$.
 - **Not including the correct charges in half equations.** Always balance both atoms and charge.
 
 ## Practice Questions
@@ -16840,11 +16840,11 @@ negatively charged ion (anion).
 
 (b)
 
-- **$\text{O}^{2-}$**: Oxygen ($Z = 8$, configuration $2, 6$) gains 2 electrons to achieve a full
+- **$\text{O}^{2-}$**: Oxygen ($ Z = 8$, configuration $2, 6$) gains 2 electrons to achieve a full
   outer shell. Configuration becomes $2, 8$.
-- **$\text{Mg}^{2+}$**: Magnesium ($Z = 12$, configuration $2, 8, 2$) loses its 2 outer electrons.
+- **$\text{Mg}^{2+}$**: Magnesium ($ Z = 12$, configuration $2, 8, 2$) loses its 2 outer electrons.
   Configuration becomes $2, 8$.
-- **$\text{Al}^{3+}$**: Aluminium ($Z = 13$, configuration $2, 8, 3$) loses its 3 outer electrons.
+- **$\text{Al}^{3+}$**: Aluminium ($ Z = 13$, configuration $2, 8, 3$) loses its 3 outer electrons.
   Configuration becomes $2, 8$.
 
 (c) The relative atomic mass is calculated using the weighted average:
@@ -16891,7 +16891,7 @@ the metal might be and explain your reasoning.
 **Solution:**
 
 (a) Sodium ($Z = 11$) has the electron configuration $2, 8, 1$ and loses its single outer electron
-very efficiently to form $\text{Na}^+$. Magnesium ($Z = 12$) has the configuration $2, 8, 2$ and must
+very efficiently to form $\text{Na}^+$. Magnesium ($ Z = 12$) has the configuration $2, 8, 2$ and must
 lose two electrons to form $\text{Mg}^{2+}$. Losing two electrons requires more energy than losing
 one. Additionally, sodium has a larger atomic radius than magnesium (it is in Period 3 vs Period 3
 but Group 1 vs Group 2), meaning its outer electron is further from the nucleus and less strongly
@@ -16940,7 +16940,7 @@ an ion.
 (b) The relative atomic mass of boron is 10.8. Boron has two isotopes: boron-10 and boron-11.
 Calculate the percentage abundance of each isotope. Show your working.
 
-(c) Explain how the discovery of isotopes modified Dalton"s atomic theory. State which of Dalton's
+(c) Explain how the discovery of isotopes modified Dalton's atomic theory. State which of Dalton's
 original postulates needed to be changed.
 
 (d) A scientist determines that an element has an $A_r$ of 28.1. Which element is this likely to be?
@@ -18289,7 +18289,7 @@ The formula is derived from the fact that each carbon atom forms four bonds. In 
 The two end carbons are bonded to three hydrogens each, and the remaining $(n-2)$ carbons are bonded
 To two hydrogens each. Total hydrogens: $2 \times 3 + (n-2) \times 2 = 6 + 2n - 4 = 2n + 2$.
 
-| Name    | Formula       | Structure | Boiling Point ($^{\circ}$C) |
+| Name    | Formula       | Structure | Boiling Point ($^{\circ}$ C) |
 | ------- | ------------- | --------- | --------------------------- |
 | Methane | CH$_4$        | 1 carbon  | -162                        |
 | Ethane  | C$_2$H$_6$    | 2 carbons | -89                         |
@@ -18516,7 +18516,7 @@ $$
 \mathrm{C_n\mathrm{H_{2n+1}\mathrm{OH
 $$
 
-| Name     | Formula      | Boiling Point ($^{\circ}$C) |
+| Name     | Formula      | Boiling Point ($^{\circ}$ C) |
 | -------- | ------------ | --------------------------- |
 | Methanol | CH$_3$OH     | 65                          |
 | Ethanol  | C$_2$H$_5$OH | 78                          |
@@ -18880,10 +18880,10 @@ To identify the monomer, remove the brackets and the subscript $n$:
 
 | Polymer                 | Repeating Unit               | Monomer                        |
 | ----------------------- | ---------------------------- | ------------------------------ |
-| Poly(ethene)            | $-$CH$_2$-CH$_2$-$-$\_n$     | Ethene (C$_2$H$_4$)            |
-| Poly(propene)           | $-$CH$_2$-CH(CH$_3$)-$-$\_n$ | Propene (C$_3$H$_6$)           |
-| PVC                     | $-$CH$_2$-CHCl-$-$\_n$       | Chloroethene (C$_2$H$_3$Cl)    |
-| Poly(tetrafluoroethene) | $-$CF$_2$-CF$_2$-$-$\_n$     | Tetrafluoroethene (C$_2$F$_4$) |
+| Poly(ethene)            | $-$ CH$_2$-CH$_2$-$-$\_n$     | Ethene (C$_2$H$_4$)            |
+| Poly(propene)           | $-$ CH$_2$-CH(CH$_3$)-$-$\_n$ | Propene (C$_3$H$_6$)           |
+| PVC                     | $-$ CH$_2$-CHCl-$-$\_n$       | Chloroethene (C$_2$H$_3$Cl)    |
+| Poly(tetrafluoroethene) | $-$ CF$_2$-CF$_2$-$-$\_n$     | Tetrafluoroethene (C$_2$F$_4$) |
 
 ### 10.2 Problems with Disposal
 
@@ -18901,7 +18901,7 @@ Biodegradable.
 
 ### 10.4 Worked Examples
 
-**Worked Example.** A polymer has the repeating unit $-$CH$_2$-CHCl-$-$\_n$. (a) Identify the
+**Worked Example.** A polymer has the repeating unit $-$ CH$_2$-CHCl-$-$\_n$. (a) Identify the
 Monomer. (b) Draw the displayed formula of the monomer. (c) Name the polymer.
 
 (a) The monomer is chloroethene, C$_2$H$_3$Cl.
@@ -18938,7 +18938,7 @@ Valuable shorter-chain alkanes and alkenes.
 **Worked Example.** C$_{14}$H$_{30}$ undergoes thermal cracking. One product is C$_8$H$_{18}$.
 Identify the other product.
 
-Atom balance: C: $14 - 8 = 6$H: $30 - 18 = 12$. The other product is C$_6$H$_{12}$Which is
+Atom balance: C: $14 - 8 = 6$ H: $30 - 18 = 12$. The other product is C$_6$H$_{12}$Which is
 Cyclohexane.
 
 $$
@@ -19414,7 +19414,7 @@ $$
 M_r(\mathrm{CaCO_3) = 40.1 + 12.0 + (3 \times 16.0) = 100.1
 $$
 
-**Worked Example.** Calculate $M_r$ for (NH$_4$)$_2$SO$_4$.
+**Worked Example.** Calculate $M_r$ for (NH$_4$)$_2$ SO$_4$.
 
 $$
 M_r = (2 \times 14.0) + (8 \times 1.0) + 32.1 + (4 \times 16.0) = 28 + 8 + 32.1 + 64 = 132.1
@@ -19466,7 +19466,7 @@ Both sides equal 80.6.
 ### 2.1 Definition
 
 The **mole** is the unit for amount of substance. One mole contains exactly $6.02 \times 10^{23}$
-Particles (this number is **Avogadro"s constant**, $N_A$).
+Particles (this number is **Avogadro's constant**, $N_A$).
 
 The mole bridges the gap between the atomic scale and the macroscopic scale. One mole of carbon-12
 Has a mass of exactly 12 g. One mole of any substance contains the same number of particles as there
@@ -19820,7 +19820,7 @@ $$
 n(\mathrm{O_2) = \frac{32}{32} = 1 \mathrm{ mol
 $$
 
-Divide by coefficients: H$_2$: $4/2 = 2$O$_2$: $1/1 = 1$. O$_2$ gives the smaller value, so it is
+Divide by coefficients: H$_2$: $4/2 = 2$ O$_2$: $1/1 = 1$. O$_2$ gives the smaller value, so it is
 Limiting.
 
 From the equation: 1 mol O$_2$ produces 2 mol H$_2$O.
@@ -19863,7 +19863,7 @@ $$
 n(\mathrm{HCl) = 2.0 \times 0.100 = 0.200 \mathrm{ mol
 $$
 
-Divide by coefficients: CaCO$_3$: $0.0999/1 = 0.0999$HCl: $0.200/2 = 0.100$. CaCO$_3$ gives the
+Divide by coefficients: CaCO$_3$: $0.0999/1 = 0.0999$ HCl: $0.200/2 = 0.100$. CaCO$_3$ gives the
 Smaller value, so it is the limiting reactant.
 
 ### 5.2 Percentage Yield
@@ -19899,7 +19899,7 @@ $$
 \mathrm{Atom economy = \frac{M_r \mathrm{ of desired product}{\sum M_r \mathrm{ of all products} \times 100\%
 $$
 
-**Worked Example.** For the reaction $\mathrm{CaCO_3 \to \mathrm{CaO + \mathrm{CO_2$Calculate the
+**Worked Example.** For the reaction $\mathrm{CaCO_3 \to \mathrm{CaO + \mathrm{CO_2$ Calculate the
 Atom economy if CaO is the desired product.
 
 $$
@@ -19921,7 +19921,7 @@ This is a very low atom economy, meaning most of the mass of the reactants ends 
 (CO) rather than the desired product (H$_2$).
 
 **Worked Example.** Calculate the atom economy for the reaction of iron with copper(II) sulfate:
-$\mathrm{Fe + \mathrm{CuSO_4 \to \mathrm{FeSO_4 + \mathrm{Cu$Where copper is the desired product.
+$\mathrm{Fe + \mathrm{CuSO_4 \to \mathrm{FeSO_4 + \mathrm{Cu$ Where copper is the desired product.
 
 $$
 \mathrm{Atom economy = \frac{63.5}{151.9 + 63.5} = \frac{63.5}{215.4} \times 100\% = 29.5\%
@@ -20176,7 +20176,7 @@ Since the yield exceeds 100%, this indicates experimental error -- likely the pr
 
 ## Practice Questions
 
-1. Calculate the relative formula mass of (NH$_4$)$_2$SO$_4$.
+1. Calculate the relative formula mass of (NH$_4$)$_2$ SO$_4$.
 
 2. How many moles are there in 22 g of CO$_2$?
 
@@ -20193,7 +20193,7 @@ Since the yield exceeds 100%, this indicates experimental error -- likely the pr
    percentage yield.
 
 7. Calculate the atom economy for the reaction:
-   $\mathrm{CH_4 + \mathrm{H_2\mathrm{O \to \mathrm{CO + 3\mathrm{H_2$Where H$_2$ is the desired
+   $\mathrm{CH_4 + \mathrm{H_2\mathrm{O \to \mathrm{CO + 3\mathrm{H_2$ Where H$_2$ is the desired
    product.
 
 8. A solution is made by dissolving 12 g of NaOH in water to make 500 cm$^3$ of solution. Calculate
@@ -20326,7 +20326,7 @@ Random errors cause measurements to scatter around the true value. Common source
 
 ### 10.4 Calculating Uncertainty
 
-If a measurement has an uncertainty of $\pm \delta$The percentage uncertainty is:
+If a measurement has an uncertainty of $\pm \delta$ The percentage uncertainty is:
 
 $$
 \mathrm{Percentage uncertainty = \frac{\delta}{\mathrm{measured value} \times 100\%
@@ -20690,7 +20690,7 @@ Step 1: low=0, high=6, mid=3, array[3]=7. Found. Return 3.
 
 Step 1: low=0, high=6, mid=3, array[3]=7. $7 \lt 8$ So low=4. Step 2: low=4, high=6, mid=5,
 Array[5]=11. $11 \gt 8$ So high=4. Step 3: low=4, high=4, mid=4, array[4]=9. $9 \gt 8$ So high=3. Step
-4: low=4, high=3. $4 \gt 3$Loop ends. Return -1 (not found).
+4: low=4, high=3. $4 \gt 3$ Loop ends. Return -1 (not found).
 
 **Worked Example.** Search for 3 in [1, 3, 5, 7, 9, 11, 13].
 
@@ -22537,7 +22537,7 @@ The result (11000) requires 5 bits, but we are working with 4-bit numbers. The l
 Giving an incorrect result of 1000. This is called **overflow** and occurs when the result of an
 Operation exceeds the number of bits available.
 
-### 1.5 Binary Subtraction Using Two"s Complement (Higher Tier)
+### 1.5 Binary Subtraction Using Two's Complement (Higher Tier)
 
 To subtract, add the two's complement of the number being subtracted.
 
@@ -22547,7 +22547,7 @@ To subtract, add the two's complement of the number being subtracted.
 
 $6 = 0110$$3 = 0011$
 
-Two's complement of 3: invert $0011 \to 1100$Add $1 \to 1101$.
+Two's complement of 3: invert $0011 \to 1100$ Add $1 \to 1101$.
 
 $0110 + 1101 = 10011$.
 
@@ -22557,7 +22557,7 @@ Discard the overflow bit: $0011 = 3$. Correct.
 
 $3 = 0011$$6 = 0110$.
 
-Two's complement of 6: invert $0110 \to 1001$Add $1 \to 1010$.
+Two's complement of 6: invert $0110 \to 1001$ Add $1 \to 1010$.
 
 $0011 + 1010 = 1101$.
 
@@ -22567,14 +22567,14 @@ In two's complement, $1101 = -8 + 4 + 0 + 1 = -3$. Correct.
 
 $15 = 01111$$8 = 01000$.
 
-Two's complement of 8: invert $01000 \to 10111$Add $1 \to 11000$.
+Two's complement of 8: invert $01000 \to 10111$ Add $1 \to 11000$.
 
 $01111 + 11000 = 100111$.
 
 Discard the overflow bit: $00111 = 7$. Correct.
 
 **Proof that two's complement negation works.** For an $n$-bit number $x$ with
-$0 \lt x \lt 2^{n-1}$Let $y$ be the bitwise complement of $x$ plus 1. Then $y = 2^n - x$. When we
+$0 \lt x \lt 2^{n-1}$ Let $y$ be the bitwise complement of $x$ plus 1. Then $y = 2^n - x$. When we
 Compute $x + y = x +
 (2^n - x) = 2^n$. In $N$-bit arithmetic, the leading 1 overflows and is
 Discarded, leaving 0. Therefore $y = -x$ in two's complement arithmetic. $\blacksquare$
@@ -22660,7 +22660,7 @@ Result: 16
 
 Result: 001111110111
 
-**Hex to denary:** Multiply each hex digit by its positional value ($16^0, 16^1, 16^2$Etc.) and Sum.
+**Hex to denary:** Multiply each hex digit by its positional value ($16^0, 16^1, 16^2$ Etc.) and Sum.
 
 **Worked Example.** Convert 2AF to denary.
 
@@ -22937,9 +22937,9 @@ Highest frequency in the sound. Human hearing ranges up to about 20,000 Hz, so a
 44,100 Hz (just above $2 \times 20000$) is sufficient for CD quality.
 
 **Proof sketch of the Nyquist theorem.** If a signal has maximum frequency $f_{\max}$ Then the Signal
-completes at most $f_{\max}$ cycles per second. If we sample at rate $f_s \ge 2 f_{\max}$We Take at
+completes at most $f_{\max}$ cycles per second. If we sample at rate $f_s \ge 2 f_{\max}$ We Take at
 least 2 samples per cycle. Two samples per cycle are sufficient to uniquely determine the Amplitude
-and phase of a sinusoidal component. If $f_s \lt 2 f_{\max}$Different frequencies Produce the same
+and phase of a sinusoidal component. If $f_s \lt 2 f_{\max}$ Different frequencies Produce the same
 sample values (aliasing), making reconstruction ambiguous. $\blacksquare$
 
 **Aliasing in practice.** If a 30,000 Hz tone is sampled at 44,100 Hz, the reconstructed frequency
@@ -23133,7 +23133,7 @@ $6 = 0110$, $3 = 0011$.
 - **Forgetting to pad binary numbers** when converting to hexadecimal. Always group from the right;
   add leading zeros if necessary.
 - **Confusing the MSB in two's complement** with a simple sign bit. In two's complement, the MSB
-  carries a negative weight of $-2^{n-1}$Not just a sign.
+  carries a negative weight of $-2^{n-1}$ Not just a sign.
 
 ## Practice Questions
 
@@ -23338,7 +23338,7 @@ The **Von Neumann architecture** is the standard model for most computers:
 - A single bus is used for data transfer
 
 **The stored program concept.** Before Von Neumann, computers were rewired for each new program. Von
-Neumann"s key insight was that programs and data could both be stored in the same memory, and the
+Neumann's key insight was that programs and data could both be stored in the same memory, and the
 CPU could read instructions from memory just as it reads data. This means you can change what a
 Computer does by changing the contents of its memory -- no rewiring required.
 
@@ -26719,7 +26719,7 @@ WJEC/Eduqas Paper 2 Section A
 ## 1. The 19th-Century Novel as a Genre
 
 The nineteenth century is the great age of the English novel. Between the publication of Jane
-Austen"s _Pride and Prejudice_ (1813) and the death of Thomas Hardy (1928), the novel emerged as the
+Austen's _Pride and Prejudice_ (1813) and the death of Thomas Hardy (1928), the novel emerged as the
 Dominant literary form in Britain, displacing poetry from the central position it had occupied since
 The Renaissance. This was a period of extraordinary formal experimentation and thematic ambition:
 The novel expanded from the comic realism of Austen to encompass social protest, psychological
@@ -28209,7 +28209,7 @@ Read the following article extract about urban cycling:
 > by over 70%, and cycling became the dominant mode of transport. Today, 61% of all journeys in
 > Groningen are made by bicycle, compared with just 2% in most British cities. Critics argue that
 > what worked in a flat Dutch city of 200,000 people cannot be transplanted to a congested
-> British metropolis of millions. They may be right. But the principle behind Groningen"s approach
+> British metropolis of millions. They may be right. But the principle behind Groningen's approach
 > -- that infrastructure determines behaviour -- is applicable everywhere.
 
 (a) According to the text, what was the key change made to Groningen's city centre in the 1970s?
@@ -30004,7 +30004,7 @@ Following are the most commonly set texts.
 
 **An Inspector Calls** by J.B. Priestley (1945)
 
-Though technically a post-1914 drama text, Priestley"s play is so widely studied that it warrants
+Though technically a post-1914 drama text, Priestley's play is so widely studied that it warrants
 Extended treatment. Set in the affluent Birling household in 1912, the play dramatises the
 Interruption of a family celebration by the mysterious Inspector Goole, who interrogates each family
 Member about their involvement in the death of Eva Smith, a young working-class woman.
@@ -30974,7 +30974,7 @@ URL: https://gcse.wyattau.com/english/1-shakespeare/1_shakespeare/
 
 William Shakespeare (1564--1616) is the only writer whose work is prescribed on every GCSE English
 Literature specification in the United Kingdom. This is not merely an act of institutional
-Conservatism. Shakespeare"s plays occupy a unique position in the English literary canon: they are
+Conservatism. Shakespeare's plays occupy a unique position in the English literary canon: they are
 The most frequently performed, the most widely studied, and the most thoroughly critiqued works in
 The language. They have shaped the development of English drama, influenced virtually every major
 Writer who followed, and continue to be adapted into film, fiction, and theatre worldwide.
@@ -31676,7 +31676,7 @@ $$
 
 **Worked Example.** Factorise $x^2 + 5x + 6$.
 
-We need $p + q = 5$ and $pq = 6$Giving $p = 2$ and $q = 3$:
+We need $p + q = 5$ and $pq = 6$ Giving $p = 2$ and $q = 3$:
 
 $$
 x^2 + 5x + 6 = (x + 2)(x + 3)
@@ -31802,9 +31802,9 @@ $$
 | $\Delta = 0$   | One repeated real root  |
 | $\Delta \lt 0$ | No real roots           |
 
-**Proof sketch.** The formula gives $x = \frac{-b \pm \sqrt{\Delta}}{2a}$. If $\Delta \gt 0$The
-Square root is a positive real, giving two distinct values. If $\Delta = 0$Both roots equal
-$\frac{-b}{2a}$. If $\Delta \lt 0$The square root is not real, so no real roots exist.
+**Proof sketch.** The formula gives $x = \frac{-b \pm \sqrt{\Delta}}{2a}$. If $\Delta \gt 0$ The
+Square root is a positive real, giving two distinct values. If $\Delta = 0$ Both roots equal
+$\frac{-b}{2a}$. If $\Delta \lt 0$ The square root is not real, so no real roots exist.
 
 **Worked Example.** Solve $2x^2 + 3x - 5 = 0$ using the formula.
 
@@ -31848,7 +31848,7 @@ $$
 f(x) = 2(x^2 - 6x) + 5 = 2\left((x - 3)^2 - 9\right) + 5 = 2(x - 3)^2 - 18 + 5 = 2(x - 3)^2 - 13
 $$
 
-Since $(x - 3)^2 \geq 0$The minimum value is $-13$ when $x = 3$.
+Since $(x - 3)^2 \geq 0$ The minimum value is $-13$ when $x = 3$.
 
 **Worked Example (Higher Tier).** Solve $3x^2 - 5x - 2 = 0$.
 
@@ -32183,7 +32183,7 @@ $-1$: $m_1 m_2 = -1$.
 **Proof of the perpendicular gradient property.** If two lines with gradients $m_1$ and $m_2$ are
 Perpendicular, then the angle between them is $90^{\circ}$. The tangent of the angle between two
 Lines is $\frac{m_2 - m_1}{1 + m_1 m_2}$. Setting this to be undefined (as $\tan 90^{\circ}$ is
-Undefined), the denominator $1 + m_1 m_2 = 0$Giving $m_1 m_2 = -1$. $\blacksquare$
+Undefined), the denominator $1 + m_1 m_2 = 0$ Giving $m_1 m_2 = -1$. $\blacksquare$
 
 **Worked Example.** Find the equation of the line through $(2, 5)$ perpendicular to $y = 3x - 1$.
 
@@ -32205,7 +32205,7 @@ Gradient of AB: $m = \frac{-1 - 3}{7 - 1} = \frac{-4}{6} = -\frac{2}{3}$.
 
 Perpendicular gradient: $\frac{3}{2}$.
 
-Equation: $y - 1 = \frac{3}{2}(x - 4)$I.e. $2y - 2 = 3x - 12$Or $3x - 2y = 10$.
+Equation: $y - 1 = \frac{3}{2}(x - 4)$ I.e. $2y - 2 = 3x - 12$ Or $3x - 2y = 10$.
 
 ### 5.2 Quadratic Graphs
 
@@ -32224,7 +32224,7 @@ $y$-intercept: $(0, 3)$.
 
 Vertex: $x = -\frac{-4}{2} = 2$, $y = 4 - 8 + 3 = -1$. Vertex at $(2, -1)$.
 
-The parabola opens upward with minimum at $(2, -1)$Crossing the $x$-axis at $x = 1$ and $x = 3$.
+The parabola opens upward with minimum at $(2, -1)$ Crossing the $x$-axis at $x = 1$ and $x = 3$.
 
 **Worked Example (Higher Tier).** Sketch the graph of $y = -2x^2 + 8x - 6$.
 
@@ -32243,7 +32243,7 @@ The parabola opens downward with maximum at $(2, 2)$.
 | $y = x^3$         | Cubic             | Point of inflection at origin         |
 | $y = \frac{1}{x}$ | Reciprocal        | Asymptotes at both axes               |
 | $y = \sqrt{x}$    | Square root       | Starts at origin, curves to the right |
-| $y = 2^x$         | Exponential       | Passes through $(0, 1)$Never negative |
+| $y = 2^x$         | Exponential       | Passes through $(0, 1)$ Never negative |
 | $x^2 + y^2 = a^2$ | Circle radius $a$ | Centre at origin                      |
 
 ### 5.4 Transformations of Graphs
@@ -32262,9 +32262,9 @@ Coordinates of the corresponding point on the graph of $y = f(x - 3) + 1$.
 
 Translation right by 3, up by 1: $(2 + 3, 5 + 1) = (5, 6)$.
 
-**Worked Example (Higher Tier).** Given $f(x) = x^2$Sketch $y = -f(2x) + 3$.
+**Worked Example (Higher Tier).** Given $f(x) = x^2$ Sketch $y = -f(2x) + 3$.
 
-$y = -(2x)^2 + 3 = -4x^2 + 3$. This is a parabola opening downward with vertex at $(0, 3)$Narrower
+$y = -(2x)^2 + 3 = -4x^2 + 3$. This is a parabola opening downward with vertex at $(0, 3)$ Narrower
 Than $y = x^2$ by a factor of 2 in the $x$-direction.
 
 ## 6. Algebraic Fractions
@@ -32358,8 +32358,8 @@ $n^2 + (n+1)^2 - 1 = n^2 + n^2 + 2n + 1 - 1 = 2n^2 + 2n = 2n(n + 1)$.
 Since $n$ and $n + 1$ are consecutive, one is even, so $n(n+1)$ is even, meaning $n(n+1) = 2k$ for
 Some integer $k$.
 
-Therefore $2n(n+1) = 4k$Which is divisible by 4 but not necessarily by 8. The original claim that
-This is always divisible by 8 is **false**. For example, when $n = 1$: $1 + 4 - 1 = 4$Which is not
+Therefore $2n(n+1) = 4k$ Which is divisible by 4 but not necessarily by 8. The original claim that
+This is always divisible by 8 is **false**. For example, when $n = 1$: $1 + 4 - 1 = 4$ Which is not
 Divisible by 8.
 
 ::warning Not every claim about numbers is true. When asked to prove something, first check whether
@@ -32375,11 +32375,11 @@ To disprove a statement, find a single example where it fails.
 $n^2 = 36$ is divisible by 4, but 6 is not.
 
 **Example (Higher Tier).** "The sum of two irrational numbers is irrational." Counterexample:
-$\sqrt{2} + (-\sqrt{2}) = 0$Which is rational.
+$\sqrt{2} + (-\sqrt{2}) = 0$ Which is rational.
 
 ### 7.4 Proof with Functions (Higher Tier)
 
-**Example.** Given $f(x) = 2x - 1$ and $g(x) = x^2 + 3$Prove that $fg(-2) = gf(1)$.
+**Example.** Given $f(x) = 2x - 1$ and $g(x) = x^2 + 3$ Prove that $fg(-2) = gf(1)$.
 
 $f(-2) = -5$, $g(-5) = 25 + 3 = 28$.
 
@@ -32393,10 +32393,10 @@ G \circ f$.
 ## Common Pitfalls
 
 - **Forgetting to reverse the inequality sign** when multiplying or dividing by a negative.
-- **Incorrectly expanding $(a + b)^2$.** It is $a^2 + 2ab + b^2$Not $a^2 + b^2$.
-- **Squaring brackets incorrectly in completing the square.** $(x + 3)^2 = x^2 + 6x + 9$Not
+- **Incorrectly expanding $(a + b)^2$.** It is $a^2 + 2ab + b^2$ Not $a^2 + b^2$.
+- **Squaring brackets incorrectly in completing the square.** $(x + 3)^2 = x^2 + 6x + 9$ Not
   $x^2 + 9$.
-- **Confusing the turning point formula.** The $x$-coordinate is $-\frac{b}{2a}$Not $\frac{b}{2a}$.
+- **Confusing the turning point formula.** The $x$-coordinate is $-\frac{b}{2a}$ Not $\frac{b}{2a}$.
 - **Dropping solutions when solving quadratics.** Always check both values from $\pm$ in the
   formula.
 - **Assuming all sequences are arithmetic.** Always check the first differences.
@@ -32404,7 +32404,7 @@ G \circ f$.
 - **Mistaking graph transformations.** $y = f(x + 2)$ shifts LEFT by 2, not right.
 - **Forgetting domain restrictions** when simplifying algebraic fractions (e.g., $x \neq 1$).
 - **Losing a negative sign** when expanding a bracket preceded by a minus sign. Expand $-(x - 3)$ as
-  $-x + 3$Not $-x - 3$.
+  $-x + 3$ Not $-x - 3$.
 - **Incorrectly identifying the common difference** of a geometric sequence as addition rather than
   multiplication. Arithmetic sequences add $d$; geometric sequences multiply by $r$.
 
@@ -32438,7 +32438,7 @@ G \circ f$.
 
 13. Prove that the difference between the squares of any two consecutive integers is always odd.
 
-14. Solve $x^2 - 6x + 2 \leq 0$Giving your answer in exact form.
+14. Solve $x^2 - 6x + 2 \leq 0$ Giving your answer in exact form.
 
 15. The first three terms of a geometric sequence are $k, k + 3, k + 12$. Find the value of $k$ and
     the common ratio.
@@ -32449,9 +32449,9 @@ G \circ f$.
 
 18. Find the values of $k$ for which $kx^2 - 6x + 4 = 0$ has two distinct real roots.
 
-19. Simplify $\frac{x^3 - 8}{x^2 - 4}$Stating any restriction on $x$.
+19. Simplify $\frac{x^3 - 8}{x^2 - 4}$ Stating any restriction on $x$.
 
-20. Prove that for any positive integer $n$The number $n^3 - n$ is divisible by 6.
+20. Prove that for any positive integer $n$ The number $n^3 - n$ is divisible by 6.
 
 ## Worked Examples
 
@@ -32543,7 +32543,7 @@ On a number line: open circle at 8, shading to the right.
 
 **Question:** (a) Solve the simultaneous equations: $3x + 2y = 16$ and $x - y = 1$. (b) Solve:
 $y = 2x + 1$ and $x^2 + y^2 = 25$. (c) A shop sells small and large boxes. Small boxes cost
-$\pounds 3$ and large boxes cost $\pounds 5$. If 20 boxes are sold for a total of $\pounds 76$How
+$\pounds 3$ and large boxes cost $\pounds 5$. If 20 boxes are sold for a total of $\pounds 76$ How
 many of each type were sold?
 
 **Solution:**
@@ -32602,7 +32602,7 @@ $r = \sqrt{\frac{200}{4\pi}} = \sqrt{\frac{50}{\pi}} = \sqrt{15.915} = 3.99$ cm 
 
 **Question:** A ball is thrown and its height $h$ metres after $t$ seconds is given by
 $h = -5t^2 + 20t + 1$. (a) Find the maximum height of the ball and the time at which it occurs. (b)
-Calculate when the ball hits the ground. (c) Sketch the graph of $h$ against $t$Labelling the
+Calculate when the ball hits the ground. (c) Sketch the graph of $h$ against $t$ Labelling the
 maximum point, the $t$-intercept, and the $h$-intercept. (d) Find the height of the ball after 3
 seconds and use this to determine whether the ball is rising or falling at that moment.
 
@@ -32629,13 +32629,13 @@ The ball hits the ground after approximately **4.05 seconds**.
 
 (d) $h(3) = -5(9) + 20(3) + 1 = -45 + 60 + 1 = 16$ metres.
 
-At $t = 3$The ball is at 16 metres. Since the maximum is at $t = 2$ (21 m), the ball is **falling**
+At $t = 3$ The ball is at 16 metres. Since the maximum is at $t = 2$ (21 m), the ball is **falling**
 at $t = 3$. This is confirmed by the negative coefficient of $t^2$ and the fact that $3 \gt 2$.
 
 ### IT-2: Algebraic Proof and Sequences (with Number)
 
 **Question:** (a) Prove that the sum of any three consecutive odd numbers is always a multiple of 3.
-(b) The $n$Th term of a sequence is given by $u_n = n^2 + 3n$. Find the first 4 terms and show that
+(b) The $n$ Th term of a sequence is given by $u_n = n^2 + 3n$. Find the first 4 terms and show that
 the difference between consecutive terms forms a linear sequence. (c) Prove that
 $\frac{n(n+1)}{2} + (n+1) = \frac{(n+1)(n+2)}{2}$. (d) A student claims "the product of two even
 numbers is always a multiple of 8." Is this true? Prove or disprove with a counterexample.
@@ -32658,8 +32658,8 @@ constant).
 $\frac{n(n+1)}{2} + (n+1) = \frac{n(n+1) + 2(n+1)}{2} = \frac{(n+1)(n + 2)}{2} = \frac{(n+1)(n+2)}{2}$.
 Proven.
 
-(d) False. Counterexample: $2 \times 2 = 4$Which is not a multiple of 8. Another:
-$2 \times 6 = 12$Not a multiple of 8. The product of two even numbers $2a \times 2b = 4ab$ is always
+(d) False. Counterexample: $2 \times 2 = 4$ Which is not a multiple of 8. Another:
+$2 \times 6 = 12$ Not a multiple of 8. The product of two even numbers $2a \times 2b = 4ab$ is always
 a multiple of 4, but not necessarily 8. It is only a multiple of 8 if at least one of the numbers is
 itself a multiple of 4 (i.e., $a$ or $b$ is even).
 
@@ -32673,7 +32673,7 @@ $\pounds 1.50$ per km with no fixed fee. For what range of distances is the firs
 
 **Solution:**
 
-(a) Let fixed fee $= f$Cost per km $= p$. $f + 10p = 18$ and $f + 25p = 33$. Subtracting:
+(a) Let fixed fee $= f$ Cost per km $= p$. $f + 10p = 18$ and $f + 25p = 33$. Subtracting:
 $15p = 15$$p = \pounds 1$ per km. $f = 18 - 10 = \pounds 8$.
 
 (b) $C = 8 + d$ (where $d$ is in km and $C$ in pounds).
@@ -32877,7 +32877,7 @@ $2(3)+1 = 7 \checkmark$. $y' = 2y$? A: $2(2) = 4 \checkmark$. B: $2(2) = 4 \chec
 $2(6) = 12 \checkmark$.
 
 This is an **enlargement** with scale factor 2 and centre of enlargement at $(1, 0)$: each point is
-mapped such that $(x', y') = (2x + 1, 2y)$Which corresponds to an enlargement by factor 2 about
+mapped such that $(x', y') = (2x + 1, 2y)$ Which corresponds to an enlargement by factor 2 about
 centre $(-1, 0)$.
 
 Verification: Centre $(-1, 0)$. A $(1, 2)$: distance from centre is $(2, 2)$. Scaled by 2: $(4, 4)$.
@@ -32996,7 +32996,7 @@ $36 \times 1.20 = \pounds 43.20$.
 
 The final price is not $\pounds 45$ because the 20% increase is applied to a smaller base
 ($\pounds 36$) than the 20% decrease ($\pounds 45$). A 20% decrease followed by a 20% increase
-equals $0.80 \times 1.20 = 0.96$A net 4% decrease.
+equals $0.80 \times 1.20 = 0.96$ A net 4% decrease.
 
 (d) $10\%$ of $360 = 36$. $5\%$ of $360 = 18$. $15\% = 36 + 18 = 54$.
 
@@ -33030,7 +33030,7 @@ factorisation.
 
 **Question:** (a) A rectangle has length 8.4 cm (correct to 1 decimal place) and width 5.2 cm
 (correct to 1 decimal place). Calculate the upper bound of the area. (b) Write $0.000376$ in
-standard form. (c) Calculate $\frac{4.2 \times 10^5}{2.8 \times 10^{-3}}$Giving your answer in
+standard form. (c) Calculate $\frac{4.2 \times 10^5}{2.8 \times 10^{-3}}$ Giving your answer in
 standard form. (d) The population of a city is $3.45 \times 10^6$ to the nearest $10,000$. Write
 down the lower and upper bounds.
 
@@ -33609,7 +33609,7 @@ drawn without replacement, calculate the probability that exactly 2 are red.
 $P(\text{two blue) = \frac{b(b-1)}{n(n-1)} = \frac{1}{3}$.
 
 (b) From $P(\text{two red)$: $6r(r-1) = n(n-1)$. From $P(\text{two blue)$: $3b(b-1) = n(n-1)$. So
-$6r(r-1) = 3b(b-1)$Giving $2r(r-1) = b(b-1)$.
+$6r(r-1) = 3b(b-1)$ Giving $2r(r-1) = b(b-1)$.
 
 Also: $\frac{1}{6} + \frac{1}{3} + P(\text{one of each) = 1$ So
 $P(\text{one of each) = 1 - \frac{1}{6} - \frac{1}{3} = \frac{1}{2}$.
@@ -33626,7 +33626,7 @@ $8r(r-1) = (3r-3)(3r-5) = 9r^2 - 24r + 15$.
 
 $8r^2 - 8r = 9r^2 - 24r + 15$. $r^2 - 16r + 15 = 0$. $(r-1)(r-15) = 0$.
 
-$r = 15$ (since $r = 1$ gives $b = 0$ But then $P(\text{two blue) = 0$Not $1/3$).
+$r = 15$ (since $r = 1$ gives $b = 0$ But then $P(\text{two blue) = 0$ Not $1/3$).
 
 $b = (45 - 3)/2 = 21$. Total $n = 36$.
 
@@ -33939,7 +33939,7 @@ $180 + 180(n - 3) = 180(n - 2)^{\circ}$. $\blacksquare$
 | Co-interior (allied) angles (U-angles) | Sum to $180^{\circ}$ |
 
 **Worked Example.** In the diagram, line $AB$ is parallel to line $CD$. A transversal intersects
-$AB$ at $E$ and $CD$ at $F$. If $\angle AEF = 65^{\circ}$Find all the other angles at $E$ and $F$.
+$AB$ at $E$ and $CD$ at $F$. If $\angle AEF = 65^{\circ}$ Find all the other angles at $E$ and $F$.
 
 $\angle AEF = \angle EFD = 65^{\circ}$ (alternate angles).
 
@@ -34025,7 +34025,7 @@ $$
 ### 1.4 Bearings
 
 A **bearing** is an angle measured clockwise from north, always given as a three-figure number (e.g.
-$045^{\circ}$Not $45^{\circ}$).
+$045^{\circ}$ Not $45^{\circ}$).
 
 **Worked Example.** A ship sails from port $A$ on a bearing of $070^{\circ}$ for 80 km to point $B$.
 It then sails on a bearing of $150^{\circ}$ for 60 km to point $C$. Find the bearing of $C$ from
@@ -34068,7 +34068,7 @@ a^2 + b^2 = c^2
 $$
 
 **Proof (area-based).** Consider a square of side $(a + b)$. Place four identical right-angled
-Triangles inside, each with legs $a$ and $b$Arranged so that their hypotenuses form a smaller Square
+Triangles inside, each with legs $a$ and $b$ Arranged so that their hypotenuses form a smaller Square
 of side $c$ in the centre.
 
 The area of the large square equals the area of the four triangles plus the area of the inner
@@ -34094,7 +34094,7 @@ $$h^2 + 6^2 = 10^2$$ $$h^2 = 100 - 36 = 64$$ $$h = 8 \mathrm{ m$$
 **Worked Example (Higher Tier).** Is a triangle with sides 7 cm, 11 cm, and 13 cm acute,
 Right-angled, or obtuse?
 
-$7^2 + 11^2 = 49 + 121 = 170$. Since $170 \gt 13^2 = 169$The triangle is acute (the angle opposite
+$7^2 + 11^2 = 49 + 121 = 170$. Since $170 \gt 13^2 = 169$ The triangle is acute (the angle opposite
 The longest side is less than $90^{\circ}$).
 
 **Test for triangle type:**
@@ -34164,7 +34164,7 @@ $$
 Used when you know: an angle and its opposite side, plus one other angle or side.
 
 **Proof sketch.** Drop an altitude from $C$ to $AB$. In the two right-angled triangles formed,
-Express the height as both $b \sin A$ and $a \sin B$. Setting equal: $b \sin A = a \sin B$Giving
+Express the height as both $b \sin A$ and $a \sin B$. Setting equal: $b \sin A = a \sin B$ Giving
 $\frac{a}{\sin A} = \frac{b}{\sin B}$. $\blacksquare$
 
 **Worked Example (Higher Tier).** In $\triangle ABC$, $a = 10$ cm, $A = 45^{\circ}$
@@ -34450,7 +34450,7 @@ $$
 \overrightarrow{AB} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}, \qquad \overrightarrow{BC} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}
 $$
 
-Since $\overrightarrow{AB} = \overrightarrow{BC}$The vectors are parallel and share point $B$ So $A$,
+Since $\overrightarrow{AB} = \overrightarrow{BC}$ The vectors are parallel and share point $B$ So $A$,
 $B$, $C$ are collinear. $\blacksquare$
 
 ### 5.3 Column Vectors in Geometry
@@ -34463,7 +34463,7 @@ The **midpoint** $M$ of $AB$ has position vector $\frac{1}{2}(\mathbf{a} + \math
 
 **Worked Example (Higher Tier).** Point $P$ divides the line segment $AB$ in the ratio $2 : 3$. If
 $\overrightarrow{OA} = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$ and
-$\overrightarrow{OB} = \begin{pmatrix} 11 \\ 9 \end{pmatrix}$Find $\overrightarrow{OP}$.
+$\overrightarrow{OB} = \begin{pmatrix} 11 \\ 9 \end{pmatrix}$ Find $\overrightarrow{OP}$.
 
 $$
 \overrightarrow{OP} = \overrightarrow{OA} + \frac{2}{5}\overrightarrow{AB} = \begin{pmatrix} 1 \\ 4 \end{pmatrix} + \frac{2}{5}\begin{pmatrix} 10 \\ 5 \end{pmatrix} = \begin{pmatrix} 1 \\ 4 \end{pmatrix} + \begin{pmatrix} 4 \\ 2 \end{pmatrix} = \begin{pmatrix} 5 \\ 6 \end{pmatrix}
@@ -34552,7 +34552,7 @@ On $A$'s side of the perpendicular bisector of $AB$. The shaded region is the in
 
 ### 8.1 3D Pythagoras and Trigonometry
 
-For a cuboid with dimensions $a, b, c$The longest diagonal is:
+For a cuboid with dimensions $a, b, c$ The longest diagonal is:
 
 $$
 d = \sqrt{a^2 + b^2 + c^2}
@@ -34598,7 +34598,7 @@ Height: $h = \sqrt{6^2 - (3\sqrt{2})^2} = \sqrt{36 - 18} = \sqrt{18} = 3\sqrt{2}
   equidistant from both endpoints.
 - **Using the wrong scale factor for area or volume.** Area uses the square of the length scale
   factor; volume uses the cube.
-- **Calculating the exterior angle incorrectly.** The exterior angle is $\frac{360}{n}$Not
+- **Calculating the exterior angle incorrectly.** The exterior angle is $\frac{360}{n}$ Not
   $\frac{180}{n}$.
 
 ## Practice Questions
@@ -34614,7 +34614,7 @@ Height: $h = \sqrt{6^2 - (3\sqrt{2})^2} = \sqrt{36 - 18} = \sqrt{18} = 3\sqrt{2}
 
 5. Point $P$ divides the line segment $AB$ in the ratio $2 : 3$. If
    $\overrightarrow{OA} = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$ and
-   $\overrightarrow{OB} = \begin{pmatrix} 11 \\ 9 \end{pmatrix}$Find $\overrightarrow{OP}$.
+   $\overrightarrow{OB} = \begin{pmatrix} 11 \\ 9 \end{pmatrix}$ Find $\overrightarrow{OP}$.
 
 6. Two similar cones have heights in the ratio $3 : 5$. The volume of the smaller cone is 108
    cm$^3$. Find the volume of the larger cone.
@@ -35021,7 +35021,7 @@ Coprime. Therefore $\sqrt{2}$ is irrational. $\blacksquare$
 **Theorem.** $\sqrt{3}$ is irrational.
 
 **Proof.** Suppose $\sqrt{3} = \frac{p}{q}$ in lowest terms. Then $p^2 = 3q^2$ So $3 \mid p^2$ Hence
-$3 \mid p$ (since 3 is prime). Write $p = 3k$: $9k^2 = 3q^2$ So $q^2 = 3k^2$Giving $3 \mid q$. This
+$3 \mid p$ (since 3 is prime). Write $p = 3k$: $9k^2 = 3q^2$ So $q^2 = 3k^2$ Giving $3 \mid q$. This
 contradicts coprimality. $\blacksquare$
 
 This technique generalises: for any prime $p$, $\sqrt{p}$ is irrational. The proof structure is
@@ -35080,7 +35080,7 @@ Prime factor not in the list (also a contradiction). $\blacksquare$
 
 ### 1.3 Highest Common Factor and Lowest Common Multiple
 
-Given two integers $a$ and $b$Their **highest common factor** (HCF) is the largest integer that
+Given two integers $a$ and $b$ Their **highest common factor** (HCF) is the largest integer that
 Divides both $a$ and $b$. Their **lowest common multiple** (LCM) is the smallest positive integer
 That is a multiple of both.
 
@@ -35147,9 +35147,9 @@ $\sqrt{n}$. If none divide $n$ Then $n$ is prime.
 $\sqrt{211} \approx 14.5$ So we check primes up to $13$: 2, 3, 5, 7, 11, 13.
 
 - Not divisible by 2 (odd), 3 (digit sum $= 4$), or 5 (does not end in 0 or 5).
-- $211 = 30 \times 7 + 1$Not divisible by 7.
-- $211 = 19 \times 11 + 2$Not divisible by 11.
-- $211 = 16 \times 13 + 3$Not divisible by 13.
+- $211 = 30 \times 7 + 1$ Not divisible by 7.
+- $211 = 19 \times 11 + 2$ Not divisible by 11.
+- $211 = 16 \times 13 + 3$ Not divisible by 13.
 
 Therefore $211$ is prime.
 
@@ -35201,7 +35201,7 @@ $$
 
 Subtracting: $99x = 36$ So $x = \frac{36}{99} = \frac{4}{11}$.
 
-**General rule:** If the repeating block has $n$ digits, multiply by $10^n$Subtract the original,
+**General rule:** If the repeating block has $n$ digits, multiply by $10^n$ Subtract the original,
 And simplify.
 
 **Worked Example (Higher Tier).** Convert $0.1\dot{6}\dot{3}$ to a fraction.
@@ -35222,7 +35222,7 @@ $$
 999x = 163 \implies x = \frac{163}{999}
 $$
 
-Check: $\gcd(163, 999)$. Since $163$ is prime and $999 = 3^3 \times 37$They are coprime. So
+Check: $\gcd(163, 999)$. Since $163$ is prime and $999 = 3^3 \times 37$ They are coprime. So
 $x = \frac{163}{999}$.
 
 **Worked Example.** Convert $0.4\dot{7}$ to a fraction.
@@ -35265,13 +35265,13 @@ $$
 \left(1 + \frac{P}{100}\right)\left(1 - \frac{P}{100}\right) = 1 - \frac{P^2}{10000}
 $$
 
-This is always less than 1 for $P \neq 0$Confirming a net decrease of $\frac{P^2}{100}\%$.
+This is always less than 1 for $P \neq 0$ Confirming a net decrease of $\frac{P^2}{100}\%$.
 $\blacksquare$
 
 **Worked Example (Higher Tier).** A quantity increases by 20% one year and decreases by 20% the
 Next. What is the overall percentage change?
 
-Combined factor: $1.2 \times 0.8 = 0.96$A net decrease of 4%.
+Combined factor: $1.2 \times 0.8 = 0.96$ A net decrease of 4%.
 
 By the theorem: $\frac{20^2}{100} = 4\%$ decrease. $\checkmark$
 
@@ -35321,7 +35321,7 @@ We need $18000 \times 0.88^n \lt 8000$ So $0.88^n \lt \frac{8000}{18000} = \frac
 
 Taking logarithms: $n \ln 0.88 \lt \ln\!\left(\frac{4}{9}\right)$.
 
-Since $\ln 0.88 \lt 0$The inequality reverses:
+Since $\ln 0.88 \lt 0$ The inequality reverses:
 $n \gt \frac{\ln(4/9)}{\ln 0.88} = \frac{-0.811}{-0.128} \approx 6.33$.
 
 So after 7 years the value first falls below 8000 pounds.
@@ -35419,7 +35419,7 @@ $$
 Irrational, then $a = d$ and $b = e$.
 
 **Proof.** If $a + b\sqrt{c} = d + e\sqrt{c}$ Then $(a - d) = (e - b)\sqrt{c}$. If $e \neq b$ Then
-$\sqrt{c} = \frac{a - d}{e - b} \in \mathbb{Q}$Contradicting the irrationality of $\sqrt{c}$.
+$\sqrt{c} = \frac{a - d}{e - b} \in \mathbb{Q}$ Contradicting the irrationality of $\sqrt{c}$.
 Therefore $e = b$ and hence $a = d$. $\blacksquare$
 
 This theorem is used frequently in solving equations involving surds.
@@ -35429,7 +35429,7 @@ This theorem is used frequently in solving equations involving surds.
 A number in **standard form** is written as $a \times 10^n$ where $1 \leq a \lt 10$ and $n$ is an
 Integer.
 
-**Worked Example.** Calculate $\frac{4.5 \times 10^8}{3 \times 10^{-2}}$Giving your answer in
+**Worked Example.** Calculate $\frac{4.5 \times 10^8}{3 \times 10^{-2}}$ Giving your answer in
 Standard form.
 
 $$
@@ -35479,7 +35479,7 @@ Bounds for width: $5.15 \leq w \lt 5.20$
 Positive quantities).
 :::
 
-**Worked Example (Higher Tier).** $x = 6.3$ and $y = 2.7$Both correct to 1 decimal place. Find the
+**Worked Example (Higher Tier).** $x = 6.3$ and $y = 2.7$ Both correct to 1 decimal place. Find the
 Lower bound of $\frac{x}{y}$.
 
 Lower bound of
@@ -35654,18 +35654,18 @@ Exam work.
 
 ### 7.2 Triangular and Other Sequences
 
-**Triangular numbers:** $T_n = \frac{n(n+1)}{2}$Giving the sequence $1, 3, 6, 10, 15, 21, \ldots$
+**Triangular numbers:** $T_n = \frac{n(n+1)}{2}$ Giving the sequence $1, 3, 6, 10, 15, 21, \ldots$
 
 These represent the number of dots that can form an equilateral triangle with $n$ dots on each side.
 
-**Square numbers:** $S_n = n^2$Giving $1, 4, 9, 16, 25, \ldots$
+**Square numbers:** $S_n = n^2$ Giving $1, 4, 9, 16, 25, \ldots$
 
-**Cube numbers:** $C_n = n^3$Giving $1, 8, 27, 64, 125, \ldots$
+**Cube numbers:** $C_n = n^3$ Giving $1, 8, 27, 64, 125, \ldots$
 
 **Proposition.** Every square number is either a multiple of 4 or one more than a multiple of 4.
 
-**Proof.** If $n$ is even, $n = 2k$ and $n^2 = 4k^2$A multiple of 4. If $n$ is odd, $n = 2k + 1$ And
-$n^2 = 4k^2 + 4k + 1 = 4(k^2 + k) + 1$One more than a multiple of 4. $\blacksquare$
+**Proof.** If $n$ is even, $n = 2k$ and $n^2 = 4k^2$ A multiple of 4. If $n$ is odd, $n = 2k + 1$ And
+$n^2 = 4k^2 + 4k + 1 = 4(k^2 + k) + 1$ One more than a multiple of 4. $\blacksquare$
 
 ### 7.3 Rules of Divisibility
 
@@ -35714,7 +35714,7 @@ List all possible cases and verify each one.
 
 **Example.** Prove that every prime greater than 3 is of the form $6n \pm 1$ for some integer $n$.
 
-Every integer is of the form $6n$, $6n+1$, $6n+2$, $6n+3$, $6n+4$Or $6n+5$.
+Every integer is of the form $6n$, $6n+1$, $6n+2$, $6n+3$, $6n+4$ Or $6n+5$.
 
 - $6n$: divisible by 6 (not prime for $n \geq 1$)
 - $6n + 2 = 2(3n + 1)$: even (not prime)
@@ -35764,11 +35764,11 @@ Since $k + 1$ is an integer, this is a multiple of 8. $\blacksquare$
 - **Incorrect bounds for subtraction and division.** For positive quantities, the upper bound of
   $a - b$ is upper$(a)$ - lower$(b)$Not upper$(a)$ - upper$(b)$.
 - **Forgetting that $a^0 = 1$ for any $a \neq 0$.** This is a definition, not a pattern.
-- **Mishandling negative indices.** $a^{-n} = \frac{1}{a^n}$Not $-a^n$.
-- **Rationalising denominators incorrectly.** When the denominator is $a + \sqrt{b}$Multiply by
-  $a - \sqrt{b}$Not by $\sqrt{a} - \sqrt{b}$.
+- **Mishandling negative indices.** $a^{-n} = \frac{1}{a^n}$ Not $-a^n$.
+- **Rationalising denominators incorrectly.** When the denominator is $a + \sqrt{b}$ Multiply by
+  $a - \sqrt{b}$ Not by $\sqrt{a} - \sqrt{b}$.
 - **Assuming compound percentage changes cancel.** A 20% increase followed by a 20% decrease gives
-  $1.2 \times 0.8 = 0.96$A net decrease of 4%.
+  $1.2 \times 0.8 = 0.96$ A net decrease of 4%.
 - **Truncation vs rounding.** Truncation discards digits; rounding considers the next digit.
 - **Using the wrong bound for division.** To maximise $\frac{a}{b}$ (positive), maximise the
   numerator and minimise the denominator.
@@ -35785,7 +35785,7 @@ Since $k + 1$ is an integer, this is a multiple of 8. $\blacksquare$
 4. A car depreciates at 12% per year. If it was bought for 18000 pounds, find its value after 4
    years to the nearest pound.
 
-5. $a = 6.3$ and $b = 2.7$Both correct to 1 decimal place. Find the lower bound of $\frac{a}{b}$.
+5. $a = 6.3$ and $b = 2.7$ Both correct to 1 decimal place. Find the lower bound of $\frac{a}{b}$.
 
 6. $y$ is directly proportional to the cube of $x$. When $x = 2$, $y = 40$. Find $x$ when
    $y = 1080$.
@@ -36164,7 +36164,7 @@ $$
 \mathrm{Each share = \frac{Q}{a + b}
 $$
 
-First share $= \frac{aQ}{a + b}$Second share $= \frac{bQ}{a + b}$.
+First share $= \frac{aQ}{a + b}$ Second share $= \frac{bQ}{a + b}$.
 
 **Worked Example.** Share 360 pounds in the ratio $2 : 3 : 4$.
 
@@ -36180,7 +36180,7 @@ Multiply each part by 12: $6 : 4 : 3$.
 
 Total parts: 13. One part: $\frac{560}{13}$.
 
-Shares: $\frac{3360}{13}, \frac{2240}{13}, \frac{1680}{13}$Approximately 258.46, 172.31, 129.23
+Shares: $\frac{3360}{13}, \frac{2240}{13}, \frac{1680}{13}$ Approximately 258.46, 172.31, 129.23
 Pounds.
 
 ### 1.3 Ratios and Fractions
@@ -36554,7 +36554,7 @@ Let red $= 3x$ and blue $= 5x$.
 $$\frac{3x + 8}{5x} = \frac{5}{6}$$ $$6(3x + 8) = 25x$$ $$18x + 48 = 25x$$ $$7x = 48$$
 
 Since $x$ must be an integer, there is no solution with whole counters. Let us re-check: $7x = 48$
-Gives $x = 48/7$Which is not an integer. This suggests the problem has no integer solution, which
+Gives $x = 48/7$ Which is not an integer. This suggests the problem has no integer solution, which
 Would need to be re-examined in context.
 
 ### 7.3 More Complex Ratio Problems (Higher Tier)
@@ -36582,7 +36582,7 @@ This is consistent with the earlier worked example: $a = 12$ and $b = 20$.
 Let me verify: $12 : 20$ simplifies to $3 : 2$. After adding 15: $27 : 35$. But
 $27 : 35 \neq 5 : 4$.
 
-So the numbers $12$ and $20$ with added $4$ gave $5 : 6$Not $5 : 4$. Let me solve from scratch.
+So the numbers $12$ and $20$ with added $4$ gave $5 : 6$ Not $5 : 4$. Let me solve from scratch.
 
 $\frac{a + 15}{b + 15} = \frac{5}{4}$ and $\frac{a}{b} = \frac{3}{2}$.
 
@@ -36626,8 +36626,8 @@ Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathr
 
 ## Common Pitfalls
 
-- **Mixing up the order of a ratio.** The ratio $A : B = 3 : 5$ means $A/B = 3/5$Not $B/A$.
-- **Forgetting to add all parts** when sharing in a ratio. The total number of parts is $a + b$Not
+- **Mixing up the order of a ratio.** The ratio $A : B = 3 : 5$ means $A/B = 3/5$ Not $B/A$.
+- **Forgetting to add all parts** when sharing in a ratio. The total number of parts is $a + b$ Not
   just $a$ or $b$.
 - **Confusing direct and inverse proportion graphs.** Direct proportion is a straight line through
   the origin; inverse proportion is a curve.
@@ -36887,7 +36887,7 @@ P = \frac{F}{A}
 $$
 
 **Worked Example.** A person weighing 600 N stands on the ground. If each foot has area
-$180\mathrm{ cm^2$Find the pressure.
+$180\mathrm{ cm^2$ Find the pressure.
 
 Total area $= 360\mathrm{ cm^2 = 0.036\mathrm{ m^2$.
 
@@ -36931,7 +36931,7 @@ $$
 \frac{\mathrm{total distance}{\mathrm{total time} = \frac{60}{4} = 15 \mathrm{ km/h
 $$
 
-The harmonic mean of 20 and 12 is $\frac{2}{1/20 + 1/12} = 15$Which equals the average speed for a
+The harmonic mean of 20 and 12 is $\frac{2}{1/20 + 1/12} = 15$ Which equals the average speed for a
 Return journey.
 
 ## Worked Examples
@@ -37198,7 +37198,7 @@ For $n$ data values in order:
 
 ### 3.3 Box Plots
 
-A **box plot** displays the minimum, $Q_1$Median, $Q_3$ And maximum.
+A **box plot** displays the minimum, $Q_1$ Median, $Q_3$ And maximum.
 
 **Worked Example.** Data set: $2, 5, 7, 8, 10, 12, 15, 18, 22, 25$.
 
@@ -37227,7 +37227,7 @@ Lower fence $= 7.75 - 1.5 \times 11.25 = 7.75 - 16.875 = -9.125$.
 
 Upper fence $= 19 + 16.875 = 35.875$.
 
-Since all values are between $-9.125$ and $35.875$There are no outliers.
+Since all values are between $-9.125$ and $35.875$ There are no outliers.
 
 ## 4. Representing Data
 
@@ -37522,7 +37522,7 @@ The mean and standard deviation?
 The new mean is $\bar{x} + 5$. The standard deviation is unchanged, because adding a constant shifts
 All values by the same amount but does not change their spread.
 
-If every value is multiplied by $k$The new mean is $k\bar{x}$ and the new standard deviation is
+If every value is multiplied by $k$ The new mean is $k\bar{x}$ and the new standard deviation is
 $|k|\sigma$.
 
 ## 7. Comparing Distributions (Higher Tier)
@@ -37620,9 +37620,9 @@ Outliers:
 - The **standard deviation** is inflated by outliers.
 - The **IQR** is resistant to outliers.
 
-**Example.** Consider the data set $\{2, 3, 4, 5, 100\}$. The mean is $114/5 = 22.8$Heavily pulled
+**Example.** Consider the data set $\{2, 3, 4, 5, 100\}$. The mean is $114/5 = 22.8$ Heavily pulled
 Up by the outlier 100. The median is 4, which better represents the "typical" value. The standard
-Deviation is very large due to the outlier. The IQR is $5 - 3 = 2$Unaffected by the outlier.
+Deviation is very large due to the outlier. The IQR is $5 - 3 = 2$ Unaffected by the outlier.
 
 ### 9.5 Tree Diagrams for Multiple Events
 
@@ -37740,11 +37740,11 @@ The area under a frequency polygon equals the total frequency (just like a histo
 1. The probability that it rains on any given day is 0.3. Find the probability that it rains on
     exactly 2 out of the next 5 days.
 
-2. Two events $A$ and $B$ are mutually exclusive. If $P(A) = 0.35$ and $P(A \cup B) = 0.65$Find
+2. Two events $A$ and $B$ are mutually exclusive. If $P(A) = 0.35$ and $P(A \cup B) = 0.65$ Find
     $P(B)$ and $P(A \cap B)$.
 
 3. A set of data has a mean of 50 and a standard deviation of 8. After applying the coding
-    $y = \frac{x - 50}{8}$Find the new mean and standard deviation.
+    $y = \frac{x - 50}{8}$ Find the new mean and standard deviation.
 
 4. The table below shows the distribution of exam scores for a class of 40 students:
 
@@ -37865,7 +37865,7 @@ complete cycles per second). Example: mains electricity supply.
 
 ### UT-2: Series and Parallel Circuits
 
-**Question:** Two resistors, 6 $\Omega$ and 4 $\Omega$Are connected in series with a 10 V battery.
+**Question:** Two resistors, 6 $\Omega$ and 4 $\Omega$ Are connected in series with a 10 V battery.
 (a) Calculate the total resistance, current, and voltage across each resistor. (b) If the same
 resistors are connected in parallel with the same battery, calculate the total resistance, current
 through each resistor, and total current. (c) Explain why household appliances are connected in
@@ -37891,7 +37891,7 @@ $P = VI_{\text{total} = 10 \times 4.17 = 41.7$ W. (Or: $P = V^2/R = 100/2.4 = 41
 
 ### UT-3: Electrical Power and Energy
 
-**Question:** (a) Derive the three formulas for electrical power: $P = VI$, $P = I^2R$And
+**Question:** (a) Derive the three formulas for electrical power: $P = VI$, $P = I^2R$ And
 $P = V^2/R$. (b) A heater rated at 2000 W is used for 3 hours per day for 30 days. Calculate the
 total energy in kWh and the cost at 28p per kWh. (c) A 12 V car battery has a capacity of 50 Ah.
 Calculate the total energy stored and how long it can power a 60 W light bulb.
@@ -37979,8 +37979,8 @@ kWh. Cost $= 133.9 \times 0.28 = \pounds 37.49$.
 **Question:** (a) Explain how the resistance of a metal wire changes with temperature, referring to
 the behaviour of electrons and ions. (b) Explain how the resistance of a thermistor (NTC type)
 changes with temperature. (c) A thermistor is used in a potential divider circuit with a 10
-k$\Omega$ fixed resistor and a 9 V supply. At $25^\circ\text{C$The thermistor resistance is 10
-k$\Omega$. Calculate the output voltage across the thermistor. (d) At $100^\circ\text{C$The
+k$\Omega$ fixed resistor and a 9 V supply. At $25^\circ\text{C$ The thermistor resistance is 10
+k$\Omega$. Calculate the output voltage across the thermistor. (d) At $100^\circ\text{C$ The
 thermistor resistance drops to 1 k$\Omega$. Calculate the new output voltage and explain how this
 enables temperature sensing.
 
@@ -38100,18 +38100,18 @@ climate.
 **Solution:**
 
 (a) Specific heat capacity is the energy required to raise the temperature of 1 kg of a substance by
-$1^\circ\text{C$. Unit: J/(kg $^\circ$C) or J/(kg K).
+$1^\circ\text{C$. Unit: J/(kg $^\circ$ C) or J/(kg K).
 
 (b) $\Delta E = mc\Delta T = 2 \times 4200 \times (80 - 20) = 2 \times 4200 \times 60 = 504,000$ J
 $= 504$ kJ.
 
 (c)
 $c = \frac{\Delta E}{m\Delta T} = \frac{45000}{0.5 \times (225 - 25)} = \frac{45000}{0.5 \times 200} = \frac{45000}{100} = 450$
-J/(kg $^\circ$C).
+J/(kg $^\circ$ C).
 
 (d) Water has strong hydrogen bonds between molecules, which must be partially broken to increase
 molecular motion (temperature). Metals have metallic bonding with free electrons that transfer
-energy . Water"s high SHC means it can absorb large amounts of energy with small temperature
+energy . Water's high SHC means it can absorb large amounts of energy with small temperature
 changes. This moderates coastal climates (oceans heat up slowly in summer, cool slowly in winter)
 and makes water effective as a coolant in engines and nuclear reactors.
 
@@ -38213,9 +38213,9 @@ water to a higher temperature.
 
 **Question:** (a) Compare solar and wind energy in terms of: energy source type, reliability,
 environmental impact, and typical output. (b) A solar panel has an area of $10 \text{ m^2$ and an
-efficiency of 18%. If the solar irradiance is $800 \text{ W/m^2$Calculate the power output. (c) A
+efficiency of 18%. If the solar irradiance is $800 \text{ W/m^2$ Calculate the power output. (c) A
 wind turbine has blades of length 40 m. If the wind speed is 12 m/s and the air density is
-$1.2 \text{ kg/m^3$Calculate the maximum theoretical power (use $P = \frac{1}{2}\rho A v^3$ where
+$1.2 \text{ kg/m^3$ Calculate the maximum theoretical power (use $P = \frac{1}{2}\rho A v^3$ where
 $A = \pi r^2$). (d) Explain why no energy resource is completely free of environmental impact.
 
 **Solution:**
@@ -38339,7 +38339,7 @@ the difference between elastic and inelastic deformation with examples.
 **Solution:**
 
 (a) Hooke's law states that the extension of a spring is directly proportional to the force applied,
-provided the limit of proportionality is not exceeded: $F = kx$Where $k$ is the spring constant and
+provided the limit of proportionality is not exceeded: $F = kx$ Where $k$ is the spring constant and
 $x$ is the extension.
 
 Limitation: Hooke's law only applies up to the limit of proportionality (elastic limit). Beyond this
@@ -38563,7 +38563,7 @@ orientations. Electromagnets use soft iron cores because they can be switched on
 
 ### UT-2: The Motor Effect
 
-**Question:** (a) State the motor effect and Fleming"s left-hand rule. (b) A wire carrying a current
+**Question:** (a) State the motor effect and Fleming's left-hand rule. (b) A wire carrying a current
 of 5 A is placed in a magnetic field of flux density 0.3 T. The wire is 20 cm long and is at 90
 degrees to the field. Calculate the force on the wire. (c) Explain how a DC motor works, including
 the role of the commutator. (d) Calculate the force if the wire is at 30 degrees to the magnetic
@@ -38652,7 +38652,7 @@ $= 25.6$ MW.
 
 (d) Power loss in transmission lines $= I^2R$. By increasing the voltage (using a step-up
 transformer), the current is reduced for the same power ($P = VI$). Since power loss depends on
-$I^2$Reducing the current by a factor of 16 (from 1600 A to 100 A) reduces the power loss by a
+$I^2$ Reducing the current by a factor of 16 (from 1600 A to 100 A) reduces the power loss by a
 factor of $16^2 = 256$. This is why high-voltage transmission is far more efficient: losses at 400
 kV (100 kW) are negligible compared to losses at 25 kV (25,600 kW).
 
@@ -38930,7 +38930,7 @@ communication rather than radio waves.
 (a) $\lambda = v/f = 3 \times 10^8 / (1800 \times 10^6) = 3 \times 10^8 / 1.8 \times 10^9 = 0.167$
 m.
 
-(b) Time $= 5000 / (3 \times 10^8) = 1.67 \times 10^{-5}$ s $= 16.7$ $\mu$S.
+(b) Time $= 5000 / (3 \times 10^8) = 1.67 \times 10^{-5}$ s $= 16.7$ $\mu$ S.
 
 (c) Intensity at distance 5 km:
 $I = P/(4\pi r^2) = 1/(4\pi \times 25,000,000) = 1/314,159,265 = 3.18 \times 10^{-9}$ W/m$^2$. Power
@@ -39046,7 +39046,7 @@ tableOfContents: false
 | Diagnostic File       | Topics Covered                                                                                  | Source File                         |
 | --------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------- |
 | `diag-energy.md`      | Energy stores, transfers, conservation, efficiency, specific heat capacity, work and power      | `energy.md`                         |
-| `diag-electricity.md` | Current, voltage, resistance, Ohm"s law, series/parallel circuits, power, domestic electricity  | `electricity.md`                    |
+| `diag-electricity.md` | Current, voltage, resistance, Ohm's law, series/parallel circuits, power, domestic electricity  | `electricity.md`                    |
 | `diag-forces.md`      | Newton's laws, weight/mass, Hooke's law, momentum, pressure, circular motion, terminal velocity | `forces.md`                         |
 | `diag-waves.md`       | Wave properties, EM spectrum, reflection, refraction, sound waves, interference                 | `waves.md`                          |
 | `diag-magnetism.md`   | Magnetic fields, electromagnets, motor effect, electromagnetic induction, transformers          | `magnetism-and-electromagnetism.md` |
@@ -39528,8 +39528,8 @@ $$\mathrm{Energy = 2 \times 3 = 6 \mathrm{ kWh$$ $$\mathrm{Cost = 6 \times 15 = 
 
 ### 4.5 Why the National Grid Uses High Voltages
 
-Power dissipated in transmission cables is $P = I^2R$. For a given cable resistance $R$The power
-Loss is proportional to $I^2$. Since $P_{\mathrm{transmitted} = VI$Increasing $V$ allows $I$ to
+Power dissipated in transmission cables is $P = I^2R$. For a given cable resistance $R$ The power
+Loss is proportional to $I^2$. Since $P_{\mathrm{transmitted} = VI$ Increasing $V$ allows $I$ to
 Decrease for the same transmitted power. If the voltage is doubled, the current is halved, and the
 Power loss is reduced to one-quarter. This is the entire reason for the national grid's
 Step-up/step-down transformer system.
@@ -39651,7 +39651,7 @@ And can be removed. This is how power stations reduce particulate pollution.
 
 ### 7.1 Concept
 
-A real battery has **internal resistance** $r$Which causes energy to be dissipated inside the
+A real battery has **internal resistance** $r$ Which causes energy to be dissipated inside the
 Battery itself when current flows. The terminal p.d. Is less than the EMF:
 
 $$
@@ -39817,8 +39817,8 @@ $$
 ## 9. Worked Example: Potential Divider with a Thermistor
 
 A potential divider circuit consists of a $10 \mathrm{ k\Omega$ fixed resistor and an NTC Thermistor
-in series with a $12 \mathrm{ V$ supply. At $20^{\circ}\mathrm{C$The thermistor Resistance is
-$10 \mathrm{ k\Omega$. At $80^{\circ}\mathrm{C$The thermistor resistance is $1 \mathrm{ k\Omega$.
+in series with a $12 \mathrm{ V$ supply. At $20^{\circ}\mathrm{C$ The thermistor Resistance is
+$10 \mathrm{ k\Omega$. At $80^{\circ}\mathrm{C$ The thermistor resistance is $1 \mathrm{ k\Omega$.
 The output voltage is taken across the thermistor.
 
 **At $20^{\circ}\mathrm{C$:**
@@ -39861,7 +39861,7 @@ Resistor in a circuit). Use $P = V^2/R$ when you know voltage and resistance.
 
 Consider transmitting power $P$ through cables of total resistance $R$.
 
-At voltage $V$The current is $I = P/V$ And the power lost in the cables is:
+At voltage $V$ The current is $I = P/V$ And the power lost in the cables is:
 
 $$
 P_{\mathrm{loss} = I^2 R = \frac{P^2 R}{V^2}
@@ -39974,10 +39974,10 @@ Straight line because the filament heats up as the current increases.
     explain how the output voltage changes as the sensed quantity changes.
 
 6. A hairdryer rated at $1800 \mathrm{ W$ is connected to the $230 \mathrm{ V$ mains. Calculate the
-    current it draws. If the mains cable has a resistance of $0.5 \mathrm{ \Omega$Calculate the
+    current it draws. If the mains cable has a resistance of $0.5 \mathrm{ \Omega$ Calculate the
     power lost in the cable and the voltage reaching the hairdryer.
 
-7. Three identical resistors, each of resistance $R$Are connected to a battery. Calculate the total
+7. Three identical resistors, each of resistance $R$ Are connected to a battery. Calculate the total
     resistance when they are connected (a) all in series, (b) all in parallel, and (c) two in
     parallel with the third in series.
 
@@ -39985,7 +39985,7 @@ Straight line because the filament heats up as the current increases.
     of a thermistor (NTC) decreases with temperature.
 
 9. A mobile phone charger has an output of $5 \mathrm{ V$ and $2 \mathrm{ A$. If the phone battery
-    has a capacity of $3000 \mathrm{ mAh$How long does it take to charge from empty? Calculate the
+    has a capacity of $3000 \mathrm{ mAh$ How long does it take to charge from empty? Calculate the
     energy transferred to the battery during a full charge.
 
 10. A circuit contains a variable resistor, a fixed resistor of $470 \mathrm{ \Omega$ And an LED in
@@ -40197,7 +40197,7 @@ PD across the parallel combination: $V_p = 12 - 6.86 = 5.14 \mathrm{ V$.
 <summary>Question 3: Cost of electricity</summary>
 
 A $2 \mathrm{ kW$ heater is used for 5 hours per day for 30 days. If electricity costs
-$15 \mathrm{ p/kWh$Calculate the total cost.
+$15 \mathrm{ p/kWh$ Calculate the total cost.
 
 </details>
 
@@ -40370,7 +40370,7 @@ F = ma \implies a = \frac{F}{m}
 $$
 $$v^2 = u^2 + 2as = 0 + 2 \times \frac{F}{m} \times d = \frac{2Fd}{m}$$ $$Fd = \frac{1}{2}mv^2$$
 
-Since work done $W = Fd$The kinetic energy is $E_k = \frac{1}{2}mv^2$.
+Since work done $W = Fd$ The kinetic energy is $E_k = \frac{1}{2}mv^2$.
 
 ### 2.2 Why the Factor of One-Half
 
@@ -40416,7 +40416,7 @@ $$
 
 ### 2.5 Proof That the Final Speed Is Independent of Mass
 
-In the equation $v = \sqrt{2gh}$The mass $m$ cancels out. This means a bowling ball and a feather
+In the equation $v = \sqrt{2gh}$ The mass $m$ cancels out. This means a bowling ball and a feather
 Dropped from the same height in a vacuum hit the ground at the same speed. The reason is that
 Although a heavier object has more gravitational potential energy, it also requires more force to
 Accelerate (it has more inertia), and these two effects cancel exactly. This is a deep result: it is
@@ -40500,7 +40500,7 @@ Kinetic energy) or to the number of degrees of freedom available to the particle
 
 ### 3.3 Specific Heat Capacities
 
-| Substance | Specific Heat Capacity (J/(kg $^{\circ}$C)) |
+| Substance | Specific Heat Capacity (J/(kg $^{\circ}$ C)) |
 | --------- | ------------------------------------------- |
 | Water     | 4200                                        |
 | Aluminium | 900                                         |
@@ -40513,7 +40513,7 @@ Coastal climates are more moderate.
 
 ### 3.4 Why Water's High Specific Heat Capacity Matters
 
-Water's specific heat capacity of 4200 J/(kg $^{\circ}$C) is anomalously high compared to most
+Water's specific heat capacity of 4200 J/(kg $^{\circ}$ C) is anomalously high compared to most
 Liquids. The consequence: a large body of water (ocean, lake) absorbs or releases enormous amounts
 Of energy with only a small temperature change. This is why coastal regions have milder climates
 Than inland areas at the same latitude. It is also why water is used as a coolant in car engines and
@@ -40942,7 +40942,7 @@ The electrical energy arrow would be 40% as wide as the input arrow, and the was
 
 3. A 500 g block of aluminium is heated from $20^{\circ}\mathrm{C$ to $120^{\circ}\mathrm{C$ by a
    200 W heater. How long does this take? (Specific heat capacity of aluminium = 900 J/(kg
-   $^{\circ}$C).)
+   $^{\circ}$ C).)
 
 4. A power station has an efficiency of 38%. It burns fuel at a rate of 500 kg per hour. If the fuel
    has an energy density of 45 MJ/kg, calculate the useful power output.
@@ -40972,17 +40972,17 @@ The electrical energy arrow would be 40% as wide as the input arrow, and the was
     overall efficiency is 36%. Calculate the useful power output and the rate of energy wasted.
 
 13. A student carries out the specific heat capacity practical and obtains a value of 510 J/(kg
-    $^{\circ}$C) for copper, compared to the accepted value of 390 J/(kg $^{\circ}$C). Explain why
+    $^{\circ}$ C) for copper, compared to the accepted value of 390 J/(kg $^{\circ}$ C). Explain why
     the measured value is too high.
 
 14. A car of mass 800 kg travelling at 20 m/s brakes to a stop. The brakes heat up. If 60% of the
     kinetic energy is transferred to the brakes, and the brakes have a total mass of 15 kg and
-    specific heat capacity 460 J/(kg $^{\circ}$C), calculate the temperature rise of the brakes.
+    specific heat capacity 460 J/(kg $^{\circ}$ C), calculate the temperature rise of the brakes.
 
 15. Calculate the energy required to convert 0.5 kg of ice at $-10^{\circ}\mathrm{C$ to water at
-    $50^{\circ}\mathrm{C$. (Specific heat capacity of ice = 2100 J/(kg $^{\circ}$C), specific latent
+    $50^{\circ}\mathrm{C$. (Specific heat capacity of ice = 2100 J/(kg $^{\circ}$ C), specific latent
     heat of fusion of ice = $3.34 \times 10^5$ J/kg, specific heat capacity of water = 4200 J/(kg
-    $^{\circ}$C).)
+    $^{\circ}$ C).)
 
 ## 10. Worked Example: Multi-Stage Heating
 
@@ -41103,7 +41103,7 @@ $$
 P_{\mathrm{wasted} = 440 - 184.8 = 255.2 \mathrm{ MW
 $$
 
-Over one hour, the wasted energy is $255.2 \times 3600 = 918720 \mathrm{ MJ$Enough to heat over
+Over one hour, the wasted energy is $255.2 \times 3600 = 918720 \mathrm{ MJ$ Enough to heat over
 20000 homes. This highlights the enormous scale of energy waste in fossil fuel power stations and
 The importance of improving efficiency.
 
@@ -41120,7 +41120,7 @@ Stretch and bend. This energy is stored as potential energy in the bonds rather 
 Energy of the molecules. As a result, more total energy input is needed to produce a given
 Temperature rise.
 
-Lead has a low specific heat capacity (130 J/(kg $^{\circ}$C)) because its atoms are heavy and
+Lead has a low specific heat capacity (130 J/(kg $^{\circ}$ C)) because its atoms are heavy and
 Tightly packed in a metallic lattice with weak intermolecular interactions. Nearly all the energy
 Input goes directly into kinetic energy, producing a rapid temperature rise.
 
@@ -41128,8 +41128,8 @@ Input goes directly into kinetic energy, producing a rapid temperature rise.
 
 1. A 200 g copper block at $150^{\circ}\mathrm{C$ is dropped into 300 g of water at
     $20^{\circ}\mathrm{C$. Assuming no heat loss to the surroundings, find the final temperature.
-    (Specific heat capacity of copper = 390 J/(kg $^{\circ}$C), specific heat capacity of water =
-    4200 J/(kg $^{\circ}$C).)
+    (Specific heat capacity of copper = 390 J/(kg $^{\circ}$ C), specific heat capacity of water =
+    4200 J/(kg $^{\circ}$ C).)
 
 2. A crane lifts a 500 kg load through a height of 12 m in 15 s. If the motor is 75% efficient,
     calculate the electrical power input to the motor.
@@ -41168,7 +41168,7 @@ $\Delta E_p = mgh = 60 \times 9.8 \times 15 = 8820 \mathrm{ J$.
 <summary>Question 2: Kinetic energy and speed</summary>
 
 A car of mass $800 \mathrm{ kg$ is travelling at $20 \mathrm{ m/s$. Calculate its kinetic energy. If
-the brakes apply a force of $4000 \mathrm{ N$Calculate the stopping distance.
+the brakes apply a force of $4000 \mathrm{ N$ Calculate the stopping distance.
 
 </details>
 
@@ -41625,7 +41625,7 @@ $$
 Fd = \frac{1}{2}mv^2
 $$
 
-For a given braking force $F$The braking distance $d = \frac{mv^2}{2F}$ is proportional to $v^2$.
+For a given braking force $F$ The braking distance $d = \frac{mv^2}{2F}$ is proportional to $v^2$.
 Doubling the speed quadruples the braking distance. Tripling the speed multiplies it by nine. This
 Is the single most important fact about road safety: small increases in speed produce very large
 Increases in stopping distance.
@@ -41954,7 +41954,7 @@ $$
 d = \frac{mv^2}{2F}
 $$
 
-This derivation reveals two key facts. First, for a given braking force $F$The braking distance is
+This derivation reveals two key facts. First, for a given braking force $F$ The braking distance is
 Proportional to $v^2$: doubling the speed quadruples the braking distance. Second, for a given
 Speed, the braking distance is inversely proportional to the braking force: better brakes (larger
 $F$) reduce the stopping distance, but the improvement is limited because the maximum braking force
@@ -41974,7 +41974,7 @@ Normal force: $N = mg\cos\theta = 3 \times 9.8 \times \cos 35^{\circ} = 24.1 \ma
 
 Maximum static friction: $f_{\max} = \mu_s N = 0.25 \times 24.1 = 6.02 \mathrm{ N$.
 
-Since $16.9 \mathrm{ N \gt 6.02 \mathrm{ N$The block slides.
+Since $16.9 \mathrm{ N \gt 6.02 \mathrm{ N$ The block slides.
 
 **Part (b):** Find the acceleration.
 
@@ -42166,7 +42166,7 @@ increases much more rapidly than the thinking distance when speed doubles.
 Total stopping distance $= 21 + 54 = 75 \mathrm{ m$.
 
 Thinking distance is proportional to speed ($d_t = vt$), so doubling speed doubles thinking
-distance. Braking distance is proportional to speed squared ($d_b \propto v^2$Since $KE \propto v^2$
+distance. Braking distance is proportional to speed squared ($d_b \propto v^2$ Since $KE \propto v^2$
 and $W = Fd$), so doubling speed quadruples the braking distance. This is why speeding is so
 dangerous.
 
@@ -42779,7 +42779,7 @@ curriculum and organised by topic for easy navigation.
 
 - **Energy**, energy stores and transfers, conservation of energy, specific heat capacity, latent
   heat, efficiency, renewable and non-renewable resources, national and global energy use
-- **Electricity**, circuit symbols, current, potential difference and resistance, Ohm"s law, series
+- **Electricity**, circuit symbols, current, potential difference and resistance, Ohm's law, series
   and parallel circuits, power and energy transfer, domestic electricity, the National Grid
 - **Forces**, scalar and vector quantities, Newton's laws, weight and mass, resultant forces, work
   done, momentum, stopping distances, elasticity, pressure in fluids
@@ -43049,7 +43049,7 @@ $$
 
 ### 2.4 Why the Wire Must Not Be Parallel to the Field
 
-The force on a current-carrying conductor in a magnetic field is given by $F = BIl\sin\theta$Where
+The force on a current-carrying conductor in a magnetic field is given by $F = BIl\sin\theta$ Where
 $\theta$ is the angle between the current direction and the field direction. When $\theta = 0$ (wire
 Parallel to the field), $\sin\theta = 0$ and the force is zero. Maximum force occurs when
 $\theta = 90^{\circ}$ (wire perpendicular to the field). In GCSE, we assume the wire is
@@ -43355,7 +43355,7 @@ The magnetic field changes, not on the absolute magnitude of the field.
   to produce current.
 - **Forgetting that transformers only work with AC.** A changing magnetic field is required for
   induction; DC produces a constant field.
-- **Reversing the transformer equation.** The ratio $N_s/N_p$ equals $V_s/V_p$Not $V_p/V_s$.
+- **Reversing the transformer equation.** The ratio $N_s/N_p$ equals $V_s/V_p$ Not $V_p/V_s$.
 - **Confusing magnetic and electric field lines.** Magnetic field lines go from N to S; electric
   field lines go from + to -.
 - **Forgetting that the motor effect requires the wire to NOT be parallel to the field.** If the
@@ -43461,7 +43461,7 @@ $$
 
 **Physical argument:** Consider a coil of $N$ turns in a changing magnetic field. The magnetic flux
 $\Phi = BA\cos\theta$ through each turn is changing. The total flux linkage is $N\Phi$. If the flux
-Changes by $\Delta\Phi$ in time $\Delta t$The rate of change is $\Delta\Phi / \Delta t$ And the
+Changes by $\Delta\Phi$ in time $\Delta t$ The rate of change is $\Delta\Phi / \Delta t$ And the
 Induced EMF is proportional to this rate. The negative sign (Lenz's law) indicates that the induced
 EMF opposes the change in flux.
 
@@ -43619,7 +43619,7 @@ Magnetism despite the changing fields produced by the motor's coils.
 6. Explain why transformers are essential for the efficient distribution of electrical energy from
     power stations to consumers. Include quantitative reasoning.
 
-7. A rectangular coil of 200 turns, dimensions $5 \mathrm{ cm \times 8 \mathrm{ cm$Rotates at
+7. A rectangular coil of 200 turns, dimensions $5 \mathrm{ cm \times 8 \mathrm{ cm$ Rotates at
     $40 \mathrm{ Hz$ in a magnetic field of flux density $0.5 \mathrm{ T$. Calculate (a) the peak
     EMF and (b) the EMF when the coil makes an angle of $60^{\circ}$ with the field.
 
@@ -43657,7 +43657,7 @@ The magnitude is $240 \mathrm{ V$ (the minus sign indicates direction via Lenz's
 ### Example 27: National Grid Power Loss Comparison
 
 A power station generates $500 \mathrm{ MW$ of power. Compare the power loss in the transmission
-Cables if the power is transmitted at (a) $25 \mathrm{ kV$ and (b) $400 \mathrm{ kV$Given a cable
+Cables if the power is transmitted at (a) $25 \mathrm{ kV$ and (b) $400 \mathrm{ kV$ Given a cable
 Resistance of $2 \Omega$.
 
 **Step 1: At $25 \mathrm{ kV$**
@@ -44411,7 +44411,7 @@ $$
 
 ### 1.5 Derivation of the Wave Equation
 
-Consider a wave moving at speed $v$. In one period $T$Each wavefront travels a distance equal to One
+Consider a wave moving at speed $v$. In one period $T$ Each wavefront travels a distance equal to One
 wavelength $\lambda$. Therefore:
 
 $$
@@ -44623,7 +44623,7 @@ The Sun but cannot hear it.
 The human ear can detect frequencies from about 20 Hz to 20,000 Hz. This range decreases with age,
 Particularly at the upper end. The ear is most sensitive to frequencies around 3000--4000 Hz, which
 Is roughly the frequency range of human speech. The threshold of hearing is $10^{-12}$ W/m$^2$ at
-1000 Hz, and the threshold of pain is about 1 W/m$^2$ -- a range of $10^{12}$Which is why the
+1000 Hz, and the threshold of pain is about 1 W/m$^2$ -- a range of $10^{12}$ Which is why the
 Decibel (logarithmic) scale is used.
 
 ### 5.5 Ultrasound
@@ -44713,7 +44713,7 @@ Remain stationary, while others (antinodes) oscillate with maximum amplitude.
 
 - Fundamental frequency (first harmonic): $f_1 = \frac{v}{2L}$
 - Second harmonic: $f_2 = \frac{v}{L} = 2f_1$
-- $n$Th harmonic: $f_n = \frac{nv}{2L}$
+- $n$ Th harmonic: $f_n = \frac{nv}{2L}$
 
 Where $L$ is the length of the string and $v$ is the wave speed.
 
@@ -44833,7 +44833,7 @@ answer with correct units or formatting.
 - **Forgetting that diffraction requires the gap to be comparable to the wavelength.** A very wide
   gap (compared to the wavelength) produces negligible diffraction.
 - **Writing the lens equation incorrectly.** The correct form is
-  $\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$Not $\frac{1}{f} = \frac{1}{v} - \frac{1}{u}$.
+  $\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$ Not $\frac{1}{f} = \frac{1}{v} - \frac{1}{u}$.
 
 ## Practice Questions
 
@@ -44913,8 +44913,8 @@ The image is 2 times larger than the object: $3 \times 2 = 6 \mathrm{ cm$ tall. 
 Positive and $v$ is positive, the image is real and inverted.
 
 **Check:** The object is between $f$ and $2f$ (between 10 cm and 20 cm), so the image should be
-Beyond $2f$Real, inverted, and magnified. Our result
-($v = 30 \mathrm{ cm \gt 2f = 20 \mathrm{ cm$Inverted, $m = 2$) is consistent.
+Beyond $2f$ Real, inverted, and magnified. Our result
+($v = 30 \mathrm{ cm \gt 2f = 20 \mathrm{ cm$ Inverted, $m = 2$) is consistent.
 
 ## 10. Worked Example: Using the Diffraction Grating Equation
 
@@ -45199,7 +45199,7 @@ Next trough, which is only half a wavelength.
     from the normal.
 
 2. A person standing $100 \mathrm{ m$ from a cliff claps their hands. If the speed of sound is
-    $340 \mathrm{ m/s$How long does it take to hear the echo? What is the minimum distance between
+    $340 \mathrm{ m/s$ How long does it take to hear the echo? What is the minimum distance between
     the person and the cliff to hear a distinct echo (assuming the human ear can distinguish sounds
     $0.1 \mathrm{ s$ apart)?
 

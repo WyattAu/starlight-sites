@@ -1233,11 +1233,11 @@ $$
 
 ## Quantum Chemistry and Statistical Mechanics
 
-<PracticeProblem client:only="solid-js" question={"What is the energy of a particle in a one-dimensional box of length $L$ in the quantum state with quantum number $n$?"} options={[ '$E_n = \\frac{n^2 h^2}{8mL^2}$', '$E_n = \\frac{nh}{8mL^2}$', '$E_n = \\frac{n^2 h^2}{2mL^2}$', '$E_n = \\frac{h^2}{8mn^2 L^2}$', ]} correctAnswer={0} explanation={"Solving the Schrodinger equation for a particle in a 1D box of length $L$ with boundary conditions $\\psi(0) = \\psi(L) = 0$ yields energy levels $E_n = n^2 h^2 / (8mL^2)$, where $n = 1, 2, 3, ...$. The ground state ($n=1$) has energy $h^2/(8mL^2)$, and the energy gap between levels grows with $n^2$. This model illustrates quantization and is the basis for understanding electronic transitions in conjugated systems."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What is the energy of a particle in a one-dimensional box of length $L$ in the quantum state with quantum number $n$?"} options={[ '$E_n = \\frac{n^2 h^2}{8mL^2}$', '$ E_n = \\frac{nh}{8mL^2}$', '$ E_n = \\frac{n^2 h^2}{2mL^2}$', '$ E_n = \\frac{h^2}{8mn^2 L^2}$', ]} correctAnswer={0} explanation={"Solving the Schrodinger equation for a particle in a 1D box of length $L$ with boundary conditions $\\psi(0) = \\psi(L) = 0$ yields energy levels $E_n = n^2 h^2 / (8mL^2)$, where $n = 1, 2, 3, ...$. The ground state ($n=1$) has energy $h^2/(8mL^2)$, and the energy gap between levels grows with $n^2$. This model illustrates quantization and is the basis for understanding electronic transitions in conjugated systems."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"The Boltzmann distribution gives the probability of a molecule occupying energy level $\\epsilon_i$ at temperature $T$. What is the correct expression for the fraction of molecules in level $i$?"} options={[ '$\\frac{e^{-\\epsilon_i / k_B T}}{q}$ where $q = \\sum_j e^{-\\epsilon_j / k_B T}$', '$\\frac{e^{-\\epsilon_i / k_B T}}{\\sum_i \\epsilon_i}$', '$\\frac{\\epsilon_i e^{-\\epsilon_i / k_B T}}{\\int_0^\\infty \\epsilon \\, e^{-\\epsilon/k_B T} \\, d\\epsilon}$', '$\\frac{e^{\\epsilon_i / k_B T}}{\\sum_j e^{\\epsilon_j / k_B T}}$', ]} correctAnswer={0} explanation={"The Boltzmann distribution states $n_i / N = e^{-\\epsilon_i / k_B T} / q$, where $q = \\sum_j g_j e^{-\\epsilon_j / k_B T}$ is the molecular partition function (including degeneracy $g_j$). The partition function normalizes the probabilities so they sum to 1. Higher energy levels are exponentially less populated. As $T \\to 0$, all molecules collapse into the ground state; as $T \\to \\infty$, the populations become more uniform."} difficulty="hard"  />
 
-<PracticeProblem client:only="solid-js" question={"For a system of $N$ indistinguishable, non-interacting particles, what is the relationship between the molecular partition function $q$ and the canonical partition function $Q$?"} options={[ '$Q = \\frac{q^N}{N!}$ (Maxwell-Boltzmann limit)', '$Q = q^N$', '$Q = \\frac{q^N}{N}$', '$Q = Nq^N$', ]} correctAnswer={0} explanation={"For indistinguishable particles in the classical (Maxwell-Boltzmann) limit where the number of available states far exceeds $N$, the canonical partition function is $Q = q^N / N!$. The $N!$ corrects for overcounting indistinguishable arrangements. The internal energy is $U = k_B T^2 (\\partial \\ln Q / \\partial T)$ and the Helmholtz free energy is $A = -k_B T \\ln Q$. For bosons and fermions at low temperature, quantum statistics (Bose-Einstein or Fermi-Dirac) must be used instead."} difficulty="hard"  />
+<PracticeProblem client:only="solid-js" question={"For a system of $N$ indistinguishable, non-interacting particles, what is the relationship between the molecular partition function $q$ and the canonical partition function $Q$?"} options={[ '$Q = \\frac{q^N}{N!}$ (Maxwell-Boltzmann limit)', '$Q = q^N$', '$Q = \\frac{q^N}{N}$', '$ Q = Nq^N$', ]} correctAnswer={0} explanation={"For indistinguishable particles in the classical (Maxwell-Boltzmann) limit where the number of available states far exceeds $N$, the canonical partition function is $Q = q^N / N!$. The $N!$ corrects for overcounting indistinguishable arrangements. The internal energy is $U = k_B T^2 (\\partial \\ln Q / \\partial T)$ and the Helmholtz free energy is $A = -k_B T \\ln Q$. For bosons and fermions at low temperature, quantum statistics (Bose-Einstein or Fermi-Dirac) must be used instead."} difficulty="hard"  />
 
 ## Intuition
 
@@ -1525,7 +1525,7 @@ $$
 
 ## The Schrodinger Equation and Model Systems
 
-<PracticeProblem client:only="solid-js" question={"For a particle of mass $m$ in a one-dimensional box of length $L$, the energy levels are $E_n = \\frac{n^2 h^2}{8mL^2}$. What is the energy of the ground state ($n=1$)?"} options={[ '$E_1 = \\frac{h^2}{8mL^2}$', '$E_1 = \\frac{2h^2}{8mL^2}$', '$E_1 = \\frac{h^2}{4mL^2}$', '$E_1 = 0$', ]} correctAnswer={0} explanation={"The particle in a 1D box has $V = 0$ inside and $V = \\infty$ outside. Solving $-\\frac{\\hbar^2}{2m}\\frac{d^2\\psi}{dx^2} = E\\psi$ with boundary conditions $\\psi(0) = \\psi(L) = 0$ gives $E_n = \\frac{n^2 h^2}{8mL^2}$ for $n = 1, 2, 3, \\ldots$. The ground state ($n=1$) has energy $E_1 = h^2/(8mL^2) > 0$, demonstrating zero-point energy."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"For a particle of mass $m$ in a one-dimensional box of length $L$, the energy levels are $E_n = \\frac{n^2 h^2}{8mL^2}$. What is the energy of the ground state ($n=1$)?"} options={[ '$E_1 = \\frac{h^2}{8mL^2}$', '$ E_1 = \\frac{2h^2}{8mL^2}$', '$ E_1 = \\frac{h^2}{4mL^2}$', '$ E_1 = 0$', ]} correctAnswer={0} explanation={"The particle in a 1D box has $V = 0$ inside and $V = \\infty$ outside. Solving $-\\frac{\\hbar^2}{2m}\\frac{d^2\\psi}{dx^2} = E\\psi$ with boundary conditions $\\psi(0) = \\psi(L) = 0$ gives $E_n = \\frac{n^2 h^2}{8mL^2}$ for $n = 1, 2, 3, \\ldots$. The ground state ($n=1$) has energy $E_1 = h^2/(8mL^2) > 0$, demonstrating zero-point energy."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"The Heisenberg uncertainty principle states that $\\Delta x \\cdot \\Delta p \\geq \\hbar/2$. If an electron is confined to a region of width $\\Delta x = 0.1$ nm, what is the minimum uncertainty in its momentum?"} options={[ '$\\Delta p \\geq \\hbar / (2 \\times 10^{-10}\\,\\text{m}) = 5.27 \\times 10^{-25}\\,\\text{kg m/s}$', '$\\Delta p \\geq 0$ (no uncertainty)', '$\\Delta p \\geq \\hbar / \\Delta x = 1.05 \\times 10^{-24}\\,\\text{kg m/s}$', '$\\Delta p \\geq m_e c$', ]} correctAnswer={0} explanation={"$\\Delta p \\geq \\hbar/(2\\Delta x) = (1.055 \\times 10^{-34}\\,\\text{J s}) / (2 \\times 10^{-10}\\,\\text{m}) = 5.27 \\times 10^{-25}\\,\\text{kg m/s}$. This means confining an electron to a small region necessarily gives it a large minimum momentum (and thus kinetic energy), explaining the zero-point energy in bound systems."} difficulty="medium"  />
 
@@ -1543,7 +1543,7 @@ $$
 
 <PracticeProblem client:only="solid-js" question={"The quantum numbers $\\ell$ and $m_\\ell$ relate to the angular momentum of an electron. What is the magnitude of the orbital angular momentum for an electron in a $d$ orbital?"} options={[ '$|\\mathbf{L}| = \\hbar\\sqrt{\\ell(\\ell+1)} = \\hbar\\sqrt{6}$ for $\\ell = 2$', '$|\\mathbf{L}| = \\hbar \\ell = 2\\hbar$', '$|\\mathbf{L}| = \\hbar(\\ell + 1) = 3\\hbar$', '$|\\mathbf{L}| = 0$ for all orbitals', ]} correctAnswer={0} explanation={"The magnitude of orbital angular momentum is $|\\mathbf{L}| = \\hbar\\sqrt{\\ell(\\ell+1)}$. For $d$ orbitals ($\\ell = 2$): $|\\mathbf{L}| = \\hbar\\sqrt{2 \\times 3} = \\hbar\\sqrt{6}$. Note this is NOT $\\ell\\hbar$ (the Bohr model result). The $z$-component is $L_z = m_\\ell\\hbar$ with $m_\\ell = -2, -1, 0, +1, +2$."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"The harmonic oscillator model for molecular vibration gives energy levels $E_v = (v + 1/2)\\hbar\\omega$ where $\\omega = \\sqrt{k/\\mu}$. What is the zero-point energy?"} options={[ '$E_0 = \\frac{1}{2}\\hbar\\omega$, meaning the molecule vibrates even at absolute zero', '$E_0 = 0$ (no vibration at 0 K)', '$E_0 = \\hbar\\omega$', '$E_0 = kT$ at all temperatures', ]} correctAnswer={0} explanation={"The zero-point energy $E_0 = \\hbar\\omega/2$ is a direct consequence of the uncertainty principle: confining the oscillator at the equilibrium position would require $\\Delta x = 0$, giving infinite $\\Delta p$ and thus infinite kinetic energy. The system therefore has non-zero energy in its ground state. For HCl with $\\tilde{\\nu} = 2990$ cm$^{-1}$, $E_0/hc = 1495$ cm$^{-1}$."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"The harmonic oscillator model for molecular vibration gives energy levels $E_v = (v + 1/2)\\hbar\\omega$ where $\\omega = \\sqrt{k/\\mu}$. What is the zero-point energy?"} options={[ '$ E_0 = \\frac{1}{2}\\hbar\\omega$, meaning the molecule vibrates even at absolute zero', '$E_0 = 0$ (no vibration at 0 K)', '$E_0 = \\hbar\\omega$', '$E_0 = kT$ at all temperatures', ]} correctAnswer={0} explanation={"The zero-point energy $E_0 = \\hbar\\omega/2$ is a direct consequence of the uncertainty principle: confining the oscillator at the equilibrium position would require $\\Delta x = 0$, giving infinite $\\Delta p$ and thus infinite kinetic energy. The system therefore has non-zero energy in its ground state. For HCl with $\\tilde{\\nu} = 2990$ cm$^{-1}$, $E_0/hc = 1495$ cm$^{-1}$."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"In the rigid rotor model for diatomic molecular rotation, the energy levels are $E_J = J(J+1)\\frac{\\hbar^2}{2I}$ where $I = \\mu r_e^2$. The selection rule for rotational spectroscopy is $\\Delta J = \\pm 1$. What is the energy of the first rotational transition ($J = 0 \\to 1$)?"} options={[ '$\\Delta E = 2B = \\frac{\\hbar^2}{I} = 2\\frac{\\hbar^2}{2I}$, expressed as $2B$ in wavenumber units', '$\\Delta E = B = \\frac{\\hbar^2}{2I}$', '$\\Delta E = 3B$', '$\\Delta E = 0$ (no transition allowed)', ]} correctAnswer={0} explanation={"$E_{J=1} - E_{J=0} = 1(2)\\frac{\\hbar^2}{2I} - 0 = \\frac{\\hbar^2}{I} = 2B$ where $B = \\frac{\\hbar^2}{2I}$ is the rotational constant. All rotational transitions are equally spaced by $2B$ (in the rigid rotor approximation): $J \\to J+1$ has $\\Delta E = 2B(J+1)$. For $J=0\\to 1$: $\\Delta E = 2B$."} difficulty="hard"  />
 
@@ -1719,7 +1719,7 @@ A. $q_\{\text\{rot\}
 *Difficulty: hard*
 
 
-**Q5. The vibrational partition function for a harmonic oscillator with frequency $\ u$ is $q_\{\text\{vib\}\} = \frac\{e^\{-h\ u/2k_BT\}\}\{1 - e^\{-h\ u/k_BT\}\}$. At room temperature ($T \ll \Theta_\{\text\{vib\}\} = h\ u/k_B$), the vibrational contribution to the internal energy is approximately:**
+**Q5. The vibrational partition function for a harmonic oscillator with frequency $\ u$ is $q_\{\text\{vib\}\} = \frac\{e^\{-h\ u/2k_BT\}\}\{1 - e^\{-h\ u/k_BT\}\}$. At room temperature ($ T \ll \Theta_\{\text\{vib\}\} = h\ u/k_B$), the vibrational contribution to the internal energy is approximately:**
 
 A. $U_\{\text\{vib\}
 
@@ -2113,7 +2113,7 @@ Consequence: Each orbital can hold at most 2 electrons (one with $m_s = +1/2$, o
 **Definition 3 (Aufbau Principle):** Electrons fill orbitals in order of increasing energy:
 $1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, \ldots$
 
-**Definition 4 (Hund"s Rules):** For degenerate orbitals:
+**Definition 4 (Hund's Rules):** For degenerate orbitals:
 
 1. Maximize total spin $S$ (parallel spins first).
 2. For a given $S$, maximize $L$.
@@ -3149,7 +3149,7 @@ $$
 S = k_B \ln W
 $$
 
-where $W$ is the number of microstates and $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
+where $W$ is the number of microstates and $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann's constant.
 
 For $N$ distinguishable particles with $n_i$ in each energy level $\varepsilon_i$:
 
@@ -4283,13 +4283,13 @@ retrosynthetic analysis. Select an option to check your answer and view the expl
 
 <PracticeProblem client:only="solid-js" question={"In IR spectroscopy, a strong absorption at approximately 1700 cm$^{-1}$ indicates the presence of which functional group?"} options={[ 'Carbonyl (C=O) group', 'Hydroxyl (O-H) group', 'Amino (N-H) group', 'Carbon-carbon triple bond (C$\\equiv$C)', ]} correctAnswer={0} explanation={"The C=O stretching frequency appears at ~1700-1750 cm$^{-1}$, varying with the specific carbonyl type: ketones/aldehydes ~1715, esters ~1740, amides ~1680, conjugated carbonyls shift to lower wavenumbers (~1675). O-H stretch: broad 3200-3600 cm$^{-1}$. C$\\equiv$C: ~2100-2250 cm$^{-1}$. N-H: ~3300-3500 cm$^{-1}$."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"In $^{1}$H NMR, the chemical shift range for aromatic protons is in standard practice:"} options={[ '$\\delta$ 6.5-8.0 ppm (downfield due to ring current of the aromatic system)', '$\\delta$ 0.5-2.0 ppm (upfield, aliphatic region)', '$\\delta$ 3.0-4.5 ppm (region for protons on oxygen-bearing carbons)', '$\\delta$ 9.0-10.0 ppm (aldehyde region)', ]} correctAnswer={0} explanation={"Aromatic protons appear downfield (6.5-8.0 ppm) due to the diamagnetic ring current of the aromatic $\\pi$ system, which creates a deshielding region above and below the ring plane. Aliphatic protons appear upfield (0.5-2.0 ppm). Aldehyde protons appear furthest downfield (9.0-10.0 ppm). The reference TMS is at 0 ppm."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"In $^{1}$ H NMR, the chemical shift range for aromatic protons is in standard practice:"} options={[ '$\\delta$ 6.5-8.0 ppm (downfield due to ring current of the aromatic system)', '$\\delta$ 0.5-2.0 ppm (upfield, aliphatic region)', '$\\delta$ 3.0-4.5 ppm (region for protons on oxygen-bearing carbons)', '$\\delta$ 9.0-10.0 ppm (aldehyde region)', ]} correctAnswer={0} explanation={"Aromatic protons appear downfield (6.5-8.0 ppm) due to the diamagnetic ring current of the aromatic $\\pi$ system, which creates a deshielding region above and below the ring plane. Aliphatic protons appear upfield (0.5-2.0 ppm). Aldehyde protons appear furthest downfield (9.0-10.0 ppm). The reference TMS is at 0 ppm."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"The $n+1$ rule in proton NMR predicts that a proton with $n$ equivalent neighbouring protons will show a multiplet with how many peaks?"} options={[ '$n+1$ peaks (a triplet for $n=2$, a quartet for $n=3$)', '$n$ peaks', '$2n+1$ peaks', '$n^2$ peaks', ]} correctAnswer={0} explanation={"First-order (weakly coupled) spin-spin splitting: a signal splits into $n+1$ peaks where $n$ is the number of equivalent neighbouring protons. The intensity pattern follows Pascal\'s triangle: doublet (1:1), triplet (1:2:1), quartet (1:3:3:1). The coupling constant $J$ (Hz) is the spacing between peaks and is independent of the external field strength."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"In mass spectrometry, the McLafferty rearrangement is characteristic of compounds containing:"} options={[ 'A gamma-hydrogen relative to a carbonyl group, producing an enol radical cation and a neutral alkene', 'A beta-hydrogen relative to a double bond', 'An alpha-hydrogen relative to an aromatic ring', 'A delta-hydrogen relative to a hydroxyl group', ]} correctAnswer={0} explanation={"The McLafferty rearrangement requires a gamma-hydrogen (4 bonds away) relative to a carbonyl oxygen. A six-membered transition state transfers the gamma-H to the carbonyl oxygen, cleaving the alpha-beta bond. This produces a characteristic even-mass molecular ion fragment. Common in ketones, aldehydes, and esters with appropriate gamma-H atoms."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"In $^{13}$C NMR with proton decoupling, how many signals would you expect for 1,4-dimethylbenzene (p-xylene)?"} options={[ '3 signals (one for the aromatic CH, one for CH$_3$, one for the substituted aromatic C)', '4 signals', '6 signals (one for each unique carbon)', '8 signals', ]} correctAnswer={0} explanation={"p-Xylene has a plane of symmetry through the 1-4 axis. Unique carbons: (1) C bearing CH$_3$ (ipso, no H), (2) CH$_3$ carbon, (3) ortho aromatic CH, (4) meta aromatic CH. The two ipso carbons are equivalent, the two CH$_3$ groups are equivalent, the two ortho CH are equivalent, and the two meta CH are equivalent. Total: 4 unique carbons = 4 signals."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"In $^{13}$ C NMR with proton decoupling, how many signals would you expect for 1,4-dimethylbenzene (p-xylene)?"} options={[ '3 signals (one for the aromatic CH, one for CH$_3$, one for the substituted aromatic C)', '4 signals', '6 signals (one for each unique carbon)', '8 signals', ]} correctAnswer={0} explanation={"p-Xylene has a plane of symmetry through the 1-4 axis. Unique carbons: (1) C bearing CH$_3$ (ipso, no H), (2) CH$_3$ carbon, (3) ortho aromatic CH, (4) meta aromatic CH. The two ipso carbons are equivalent, the two CH$_3$ groups are equivalent, the two ortho CH are equivalent, and the two meta CH are equivalent. Total: 4 unique carbons = 4 signals."} difficulty="medium"  />
 
 ## Retrosynthetic Analysis and Synthesis
 
@@ -4892,7 +4892,7 @@ $$
 - Anti-periplanar geometry required (H and LG at 180° dihedral).
 - Rate: $v = k[\text{base}][\text{substrate}]$.
 - Strong bases favor E2; bulky bases (e.g., $t$-BuOK) favor E2 over S$\_\text{N}$2.
-- **Zaitsev"s rule:** The more substituted alkene is the major product.
+- **Zaitsev's rule:** The more substituted alkene is the major product.
 
 ### 2.2 E1 Mechanism
 
@@ -4979,7 +4979,7 @@ $$
 \text{Nu}^- + \text{CH}_2=\text{CH}-\text{C}=O \to \begin{cases} \text{1,2-addition (direct)} \\ \text{1,4-addition (conjugate/Michael)} \end{cases}
 $$
 
-**Theorem 7:** Hard nucleophiles (e.g., $^-$OH, $^-$CN) favor 1,2-addition. Soft nucleophiles (e.g.,
+**Theorem 7:** Hard nucleophiles (e.g., $^-$ OH, $^-$ CN) favor 1,2-addition. Soft nucleophiles (e.g.,
 enolates, thiols) favor 1,4-addition (Michael addition).
 
 ## 4. Radical Reactions
@@ -5108,11 +5108,11 @@ $$
 
 | Group Type           | Effect | Directing  | Examples                     |
 | -------------------- | ------ | ---------- | ---------------------------- |
-| Strong activator     | +      | ortho/para | $-$OH, $-$NH$_2$, $-$OCH$_3$ |
-| Moderate activator   | +      | ortho/para | $-$CH$_3$, alkyl groups      |
-| Weak activator       | +      | ortho/para | $-$F, $-$Cl, $-$Br, $-$I     |
-| Moderate deactivator | -      | meta       | $-$NO$_2$, $-$CN, $-$SO$_3$H |
-| Strong deactivator   | -      | meta       | $-$NR$_3^+$, $-$CF$_3$       |
+| Strong activator     | +      | ortho/para | $-$ OH, $-$ NH$_2$, $-$ OCH$_3$ |
+| Moderate activator   | +      | ortho/para | $-$ CH$_3$, alkyl groups      |
+| Weak activator       | +      | ortho/para | $-$ F, $-$ Cl, $-$ Br, $-$ I     |
+| Moderate deactivator | -      | meta       | $-$ NO$_2$, $-$ CN, $-$ SO$_3$H |
+| Strong deactivator   | -      | meta       | $-$ NR$_3^+$, $-$ CF$_3$       |
 
 ### 6.3 Examples of Electrophilic Aromatic Substitution
 
@@ -5416,7 +5416,7 @@ $$
 
 **Theorem 3 (n+1 Rule):** A signal is split into $n + 1$ peaks by $n$ equivalent neighboring protons.
 
-The splitting pattern follows Pascal"s triangle:
+The splitting pattern follows Pascal's triangle:
 
 | $n$ (neighbors) | Splitting | Peak Ratio |
 | --------------- | --------- | ---------- |
@@ -5449,9 +5449,9 @@ arise:
 
 ### 3.6 $^{13}\text{C}$ NMR
 
-**Definition 3 ($^{13}$C NMR):** $^{13}\text{C}$ has $I = 1/2$ but only 1.1% natural abundance. Features:
+**Definition 3 ($^{13}$ C NMR):** $^{13}\text{C}$ has $I = 1/2$ but only 1.1% natural abundance. Features:
 
-- Broadband proton decoupling: all $^1$H–$^{13}$C couplings removed; one signal per unique carbon.
+- Broadband proton decoupling: all $^1$ H–$^{13}$ C couplings removed; one signal per unique carbon.
 - DEPT (Distortionless Enhancement by Polarization Transfer): distinguishes CH, CH$_2$, CH$_3$, and
   quaternary carbons.
 - Chemical shift range: 0–220 ppm.
@@ -5470,13 +5470,13 @@ arise:
 
 ### 3.7 2D NMR Techniques
 
-**Definition 4 (COSY, Correlation Spectroscopy):** Reveals $^1$H–$^1$H coupling relationships.
+**Definition 4 (COSY, Correlation Spectroscopy):** Reveals $^1$ H–$^1$ H coupling relationships.
 Cross-peaks indicate which protons are coupled.
 
-**Definition 5 (HSQC/HMQC):** Shows $^1$H–$^{13}$C one-bond correlations. Each proton signal correlates
+**Definition 5 (HSQC/HMQC):** Shows $^1$ H–$^{13}$ C one-bond correlations. Each proton signal correlates
 to the carbon it is directly bonded to.
 
-**Definition 6 (HMBC):** Shows $^1$H–$^{13}$C long-range correlations (2–3 bonds). Useful for
+**Definition 6 (HMBC):** Shows $^1$ H–$^{13}$ C long-range correlations (2–3 bonds). Useful for
 connecting fragments through quaternary carbons.
 
 **Definition 7 (NOESY/ROESY):** Nuclear Overhauser Effect spectroscopy; reveals spatial proximity
@@ -5556,8 +5556,8 @@ weight; a molecule with an even number (or zero) of nitrogen atoms has an even m
 1. **Molecular formula** from HRMS (exact mass) or elemental analysis. Calculate degree of
    unsaturation.
 2. **IR** for functional groups (O–H, C=O, C≡N, C=C, etc.).
-3. **$^1$H NMR** for proton environments (chemical shifts, integration, splitting).
-4. **$^{13}$C NMR** for carbon framework (number of unique carbons, types).
+3. **$^1$ H NMR** for proton environments (chemical shifts, integration, splitting).
+4. **$^{13}$ C NMR** for carbon framework (number of unique carbons, types).
 5. **2D NMR** (COSY, HSQC, HMBC) for connectivity.
 6. **MS** fragmentation to confirm proposed structure.
 
@@ -5583,7 +5583,7 @@ DoU $= 7 + 1 - 8/2 = 4$.
 
 IR: 3350 cm$^{-1}$ (broad, O–H), 1600, 1500 cm$^{-1}$ (aromatic C=C), no C=O.
 
-$^1$H NMR: $\delta$ 7.1 (2H, d, $J = 8$ Hz), 6.7 (2H, d, $J = 8$ Hz), 4.5 (1H, br s), 2.2 (3H, s).
+$^1$ H NMR: $\delta$ 7.1 (2H, d, $J = 8$ Hz), 6.7 (2H, d, $J = 8$ Hz), 4.5 (1H, br s), 2.2 (3H, s).
 
 Interpretation: Para-disubstituted benzene (AA'BB' pattern, 4H). Methyl group ($\delta$ 2.2). OH
 ($\delta$ 4.5, broad). Structure: 4-methylphenol ($p$-cresol).
@@ -5627,9 +5627,9 @@ flowchart TD
 - **UV-Vis:** $\lambda_{\max}$ depends on conjugation; Beer-Lambert law for quantitation.
 - **IR:** Functional group identification; fingerprint region for comparison; O–H, C=O, C≡N are
   most diagnostic.
-- **$^1$H NMR:** Chemical shift (environment), splitting ($n + 1$ rule), integration (number of protons),
+- **$^1$ H NMR:** Chemical shift (environment), splitting ($n + 1$ rule), integration (number of protons),
   coupling constant $J$ (geometry).
-- **$^{13}$C NMR:** Carbon framework; DEPT distinguishes CH$_n$ types; chemical shifts 0–220 ppm.
+- **$^{13}$ C NMR:** Carbon framework; DEPT distinguishes CH$_n$ types; chemical shifts 0–220 ppm.
 - **2D NMR:** COSY (H–H connectivity), HSQC (one-bond H–C), HMBC (long-range H–C), NOESY (spatial).
 - **MS:** Molecular weight, formula (HRMS), fragmentation patterns, isotopic patterns.
 - **Structure elucidation:** Combine all techniques systematically with DoU calculation.
@@ -5841,7 +5841,7 @@ Experimental $\Delta H_{\text{hyd}}$ = $-208$ kJ/mol. Resonance energy = 152 kJ/
 
 ## 5. Aromaticity
 
-### 5.1 Huckel"s Rule
+### 5.1 Huckel's Rule
 
 **Theorem 3 (Huckel's Rule):** A planar, cyclic, fully conjugated system with $(4n + 2)$ $\pi$
 electrons is aromatic (exceptionally stable). Systems with $4n$ $\pi$ electrons are antiaromatic
@@ -6035,8 +6035,8 @@ $\blacksquare$
 **Definition 16 (Inductive Effect):** Electron withdrawal or donation through $\sigma$ bonds,
 decreasing with distance.
 
-- **Electron-withdrawing groups (EWG):** $-$NO$_2$, $-$CN, $-$C=O, halogens (at short range).
-- **Electron-donating groups (EDG):** Alkyl groups, $-$O$^-$, $-$NH$_2$.
+- **Electron-withdrawing groups (EWG):** $-$ NO$_2$, $-$ CN, $-$ C=O, halogens (at short range).
+- **Electron-donating groups (EDG):** Alkyl groups, $-$ O$^-$, $-$ NH$_2$.
 
 ### 8.2 Hyperconjugation
 
@@ -6218,8 +6218,8 @@ $\blacksquare$
 | -------- | ------------ | ------------------------------ |
 | R$^-$    | Nucleophile  | Grignard (RMgBr), organolithium |
 | R$^+$    | Electrophile | Alkyl halide (R–X)             |
-| $^-$CH(OH)R | Nucleophile | Aldehyde (RCHO)               |
-| $^+$CHO  | Electrophile | Formyl cation equiv. (DMF, etc.) |
+| $^-$ CH(OH)R | Nucleophile | Aldehyde (RCHO)               |
+| $^+$ CHO  | Electrophile | Formyl cation equiv. (DMF, etc.) |
 | Ac$^-$   | Nucleophile  | Malonate ester, acetylide       |
 | Ac$^+$   | Electrophile | Acid chloride, acyl anhydride   |
 
@@ -6315,7 +6315,7 @@ its participation in a reaction, removable under conditions that do not affect o
 
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
-| Boc (t-butyloxycarbonyl) | (Boc)$_2$O, base | TFA or HCl        |
+| Boc (t-butyloxycarbonyl) | (Boc)$_2$ O, base | TFA or HCl        |
 | Cbz                 | Cbz-Cl, base        | H$_2$/Pd-C          |
 | Fmoc                | Fmoc-Cl, base       | Piperidine         |
 
@@ -6324,7 +6324,7 @@ its participation in a reaction, removable under conditions that do not affect o
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
 | Methyl ester        | CH$_2$N$_2$ or MeOH/H$^+$ | LiOH or NaOH   |
-| t-Butyl ester       | (t-Bu)$_2$O or t-BuOH/DCC | TFA             |
+| t-Butyl ester       | (t-Bu)$_2$ O or t-BuOH/DCC | TFA             |
 | Benzyl ester        | BnBr, K$_2$CO$_3$   | H$_2$/Pd-C          |
 
 ## 4. Carbon-Carbon Bond Forming Reactions
@@ -6347,7 +6347,7 @@ $$
 | CO$_2$             | Carboxylic acid    |
 
 **Limitations:** Grignard reagents are strong bases, incompatible with acidic protons (OH, NH,
-$\equiv$CH). They also react with epoxides (ring opening).
+$\equiv$ CH). They also react with epoxides (ring opening).
 
 ### 4.2 Wittig Reaction
 
@@ -6713,7 +6713,7 @@ due to repulsion by other electrons.
 
 ## 2. Effective Nuclear Charge
 
-### 2.1 Slater"s Rules
+### 2.1 Slater's Rules
 
 **Theorem 2 (Slater's Rules):** The effective nuclear charge $Z_{\text{eff}}$ experienced by an
 electron is:
@@ -7706,7 +7706,7 @@ $$
 
 (Na$_2$CO$_3$ is thermally stable.)
 
-### 1.3 Lithium"s Anomalous Behavior
+### 1.3 Lithium's Anomalous Behavior
 
 Lithium differs from other Group 1 elements due to its small size and high charge density:
 
@@ -9581,7 +9581,7 @@ where $N_i$ is the number of interstitial sites.
 
 ## 6. X-Ray Diffraction
 
-### 6.1 Bragg"s Law
+### 6.1 Bragg's Law
 
 **Theorem 6 (Bragg's Law):** Constructive interference occurs when:
 
@@ -10489,7 +10489,7 @@ Organic chemistry is the study of carbon-containing compounds and their reaction
 
 **Stereochemistry** concerns the three-dimensional arrangement of atoms in molecules. Chirality, enantiomers, diastereomers, and meso compounds all have profound effects on biological activity and chemical reactivity. Understanding stereochemistry is essential for pharmaceutical chemistry, where the two enantiomers of a drug may have very different effects.
 
-**Spectroscopic identification** combines IR, NMR, $^{13}$C NMR, and mass spectrometry to determine the structure of unknown organic compounds. This is a skill that develops with practice, working through interpretation problems is essential.
+**Spectroscopic identification** combines IR, NMR, $^{13}$ C NMR, and mass spectrometry to determine the structure of unknown organic compounds. This is a skill that develops with practice, working through interpretation problems is essential.
 
 ### Inorganic Chemistry: Beyond Carbon
 

@@ -60,7 +60,7 @@ For $x \lt 3$: $\frac{|x-3|}{x-3} = \frac{3-x}{x-3} = -1$.
 
 For $x \gt 3$: $\frac{|x-3|}{x-3} = \frac{x-3}{x-3} = 1$.
 
-Left limit $= -1$Right limit $= 1$. The limit does not exist.
+Left limit $= -1$ Right limit $= 1$. The limit does not exist.
 
 ### Common Limits
 
@@ -76,16 +76,16 @@ Left limit $= -1$Right limit $= 1$. The limit does not exist.
 **Proof that $\displaystyle\lim_{x \to 0} \frac{\sin x}{x} = 1$.**
 
 This is proved using the squeeze theorem and the geometric inequality $\sin x \lt x \lt \tan x$ for
-$0 \lt x \lt \frac{\pi}{2}$Which gives $\cos x \lt \frac{\sin x}{x} \lt 1$.
+$0 \lt x \lt \frac{\pi}{2}$ Which gives $\cos x \lt \frac{\sin x}{x} \lt 1$.
 
 As $x \to 0^+$, $\cos x \to 1$ So by the squeeze theorem, $\frac{\sin x}{x} \to 1$. A similar
 Argument applies from the left. $\blacksquare$
 
 **Proof of the geometric inequality $\sin x \lt x \lt \tan x$ for $0 \lt x \lt \frac{\pi}{2}$.**
 Consider a unit circle sector with angle $x$. The area of triangle $OAP$ (with altitude $\sin x$) is
-$\frac{1}{2}\sin x$The area of the sector is $\frac{1}{2}x$ And the area of triangle $OAT$ (with
+$\frac{1}{2}\sin x$ The area of the sector is $\frac{1}{2}x$ And the area of triangle $OAT$ (with
 Altitude $\tan x$) is $\frac{1}{2}\tan x$. Since the sector contains the first triangle and is
-Contained in the second, we get $\frac{1}{2}\sin x \lt \frac{1}{2}x \lt \frac{1}{2}\tan x$Hence
+Contained in the second, we get $\frac{1}{2}\sin x \lt \frac{1}{2}x \lt \frac{1}{2}\tan x$ Hence
 $\sin x \lt x \lt \tan x$. $\blacksquare$
 
 **Proof that $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x} = 1$.**
@@ -108,7 +108,7 @@ $$
 \frac{\ln(1+x)}{x} = \frac{u}{e^u - 1} = \frac{1}{\frac{e^u - 1}{u}}
 $$
 
-Since $\displaystyle\lim_{u \to 0} \frac{e^u - 1}{u} = 1$The result follows. $\blacksquare$
+Since $\displaystyle\lim_{u \to 0} \frac{e^u - 1}{u} = 1$ The result follows. $\blacksquare$
 
 ## The Squeeze Theorem
 
@@ -128,7 +128,7 @@ Evaluate directly.
 :::note[Example]
 Show that $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}\right) = 0$.
 
-Since $-1 \le \sin\!\left(\frac{1}{x}\right) \le 1$We have
+Since $-1 \le \sin\!\left(\frac{1}{x}\right) \le 1$ We have
 $-x^2 \le x^2 \sin\!\left(\frac{1}{x}\right) \le x^2$.
 
 Both $\displaystyle\lim_{x \to 0}(-x^2) = 0$ and $\displaystyle\lim_{x \to 0} x^2 = 0$.
@@ -139,7 +139,7 @@ By the squeeze theorem, $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}
 :::note[Example]
 Show that $\displaystyle\lim_{x \to 0} x\cos\!\left(\frac{1}{x}\right) = 0$.
 
-Since $-1 \le \cos\!\left(\frac{1}{x}\right) \le 1$We have
+Since $-1 \le \cos\!\left(\frac{1}{x}\right) \le 1$ We have
 $-|x| \le x\cos\!\left(\frac{1}{x}\right) \le |x|$.
 
 Both $\displaystyle\lim_{x \to 0}(-|x|) = 0$ and $\displaystyle\lim_{x \to 0}|x| = 0$.
@@ -150,7 +150,7 @@ By the squeeze theorem, the limit is $0$.
 :::note[Example]
 Show that $\displaystyle\lim_{x \to 0} x^2 e^{\sin(1/x)} = 0$.
 
-Since $-1 \le \sin(1/x) \le 1$We have $e^{-1} \le e^{\sin(1/x)} \le e^1$.
+Since $-1 \le \sin(1/x) \le 1$ We have $e^{-1} \le e^{\sin(1/x)} \le e^1$.
 
 Therefore:
 
@@ -170,7 +170,7 @@ If $\displaystyle\lim_{x \to a} f(x) = L$ and $\displaystyle\lim_{x \to a} g(x) 
 2. $\displaystyle\lim_{x \to a} [f(x) - g(x)] = L - M$
 3. $\displaystyle\lim_{x \to a} [c \cdot f(x)] = cL$
 4. $\displaystyle\lim_{x \to a} [f(x) \cdot g(x)] = L \cdot M$
-5. $\displaystyle\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{L}{M}$Provided $M \ne 0$
+5. $\displaystyle\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{L}{M}$ Provided $M \ne 0$
 
 **Theorem (Limit of a power).** If $\displaystyle\lim_{x \to a} f(x) = L$ and $n$ is a positive
 Integer, then $\displaystyle\lim_{x \to a} [f(x)]^n = L^n$.
@@ -179,7 +179,7 @@ Integer, then $\displaystyle\lim_{x \to a} [f(x)]^n = L^n$.
 Integer, and $L \ge 0$ when $n$ is even, then
 $\displaystyle\lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{L}$.
 
-**Proof of property 1 (sum rule).** We need to show that for every $\epsilon \gt 0$There exists
+**Proof of property 1 (sum rule).** We need to show that for every $\epsilon \gt 0$ There exists
 $\delta \gt 0$ such that $|x - a| \lt \delta$ implies $|(f+g)(x) - (L+M)| \lt \epsilon$.
 
 Note that $|(f+g)(x) - (L+M)| = |(f(x) - L) + (g(x) - M)| \le |f(x) - L| + |g(x) - M|$.
@@ -193,7 +193,7 @@ $|(f+g)(x) - (L+M)| \lt \epsilon/2 + \epsilon/2 = \epsilon$. $\blacksquare$
 
 ### Direct Substitution
 
-When a function is continuous at $a$The limit equals the function value:
+When a function is continuous at $a$ The limit equals the function value:
 
 $$
 \lim_{x \to a} f(x) = f(a)
@@ -208,7 +208,7 @@ For rational functions $\displaystyle\frac{P(x)}{Q(x)}$ where $P$ and $Q$ are po
   $\displaystyle\lim_{x \to \pm\infty} \frac{P(x)}{Q(x)} = \frac{\mathrm{leading coeff of  P}{\mathrm{leading coeff of  Q}$
 - If $\deg P \gt \deg Q$: the limit is $\pm\infty$
 
-**Why this works.** For large $x$The leading term dominates. Dividing numerator and denominator by
+**Why this works.** For large $x$ The leading term dominates. Dividing numerator and denominator by
 The highest power of $x$ in the denominator, all lower-order terms vanish.
 :::
 
@@ -225,7 +225,7 @@ $$
 :::note[Example]
 Find $\displaystyle\lim_{x \to \infty} \frac{5x^3 - 2x + 1}{4x^2 + 3x}$.
 
-Since $\deg P = 3 \gt \deg Q = 2$The limit is $+\infty$.
+Since $\deg P = 3 \gt \deg Q = 2$ The limit is $+\infty$.
 :::
 
 :::note[Example]
@@ -241,7 +241,7 @@ This confirms that the same shortcut works for $x \to -\infty$ when the degrees 
 
 ### Indeterminate Forms and Factoring
 
-When direct substitution yields $\frac{0}{0}$Algebraic manipulation is required.
+When direct substitution yields $\frac{0}{0}$ Algebraic manipulation is required.
 :::
 
 :::note[Example]
@@ -365,7 +365,7 @@ $$
 ## Formal Definition of a Limit (Epsilon-Delta)
 
 The precise definition: $\displaystyle\lim_{x \to a} f(x) = L$ means that for every
-$\epsilon \gt 0$There exists a $\delta \gt 0$ such that:
+$\epsilon \gt 0$ There exists a $\delta \gt 0$ such that:
 
 $$
 0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \epsilon
@@ -381,7 +381,7 @@ Game, the limit exists.
 :::note[Example]
 Prove that $\displaystyle\lim_{x \to 3} (2x - 1) = 5$.
 
-We need to show that for every $\epsilon \gt 0$There exists $\delta \gt 0$ such that
+We need to show that for every $\epsilon \gt 0$ There exists $\delta \gt 0$ such that
 $0 \lt |x - 3| \lt \delta \implies |(2x-1) - 5| \lt \epsilon$.
 
 Working backwards: $|(2x-1) - 5| = |2x - 6| = 2|x - 3|$.
@@ -490,7 +490,7 @@ Show that $f(x) = x^3 + x - 1$ has a root in $(0, 1)$.
 
 $f(0) = -1 \lt 0$ and $f(1) = 1 \gt 0$.
 
-Since $f$ is continuous on $[0, 1]$ and $0$ is between $f(0)$ and $f(1)$By the IVT there exists
+Since $f$ is continuous on $[0, 1]$ and $0$ is between $f(0)$ and $f(1)$ By the IVT there exists
 $c \in (0, 1)$ such that $f(c) = 0$.
 
 **Application of IVT to bisection.** The IVT motivates the bisection method for root-finding: if
@@ -503,7 +503,7 @@ Show that $f(x) = e^x - 3 - x$ has at least one root in $(1, 2)$.
 
 $f(1) = e - 4 \approx -1.282 \lt 0$ and $f(2) = e^2 - 5 \approx 2.389 \gt 0$.
 
-Since $f$ is continuous (as a sum of continuous functions) on $[1, 2]$By the IVT there exists
+Since $f$ is continuous (as a sum of continuous functions) on $[1, 2]$ By the IVT there exists
 $c \in (1, 2)$ such that $f(c) = 0$. $\blacksquare$
 
 **Corollary of the IVT.** If $f$ is continuous on $[a, b]$ and $f(a) \cdot f(b) \lt 0$ Then $f$ has
@@ -533,13 +533,13 @@ This follows directly from the EVT: the absolute minimum and maximum serve as th
 If $\displaystyle\lim_{x \to a^+} f(x) = \pm\infty$ or
 $\displaystyle\lim_{x \to a^-} f(x) = \pm\infty$ Then $x = a$ is a vertical asymptote.
 
-For rational functions $\frac{P(x)}{Q(x)}$Vertical asymptotes occur at zeros of $Q(x)$ that are Not
+For rational functions $\frac{P(x)}{Q(x)}$ Vertical asymptotes occur at zeros of $Q(x)$ that are Not
 also zeros of $P(x)$ (after cancellation).
 
 ### Horizontal Asymptotes
 
 - If $\displaystyle\lim_{x \to \pm\infty} f(x) = L$ Then $y = L$ is a horizontal asymptote.
-- A function can have at most two horizontal asymptotes (one as $x \to \infty$One as
+- A function can have at most two horizontal asymptotes (one as $x \to \infty$ One as
   $x \to -\infty$).
 
 ### Oblique (Slant) Asymptotes
@@ -643,7 +643,7 @@ $$
 :::note[Example]
 Find $\displaystyle\lim_{x \to 0^+} x \ln x$.
 
-This has the form $0 \cdot (-\infty)$Which is indeterminate. Rewrite as a quotient:
+This has the form $0 \cdot (-\infty)$ Which is indeterminate. Rewrite as a quotient:
 
 $$
 X \ln x = \frac{\ln x}{1/x}
@@ -693,7 +693,7 @@ Left-hand limit: $\displaystyle\lim_{x \to 0^-} h(x) = 0 + 0 + 1 = 1$.
 
 Right-hand limit: $\displaystyle\lim_{x \to 0^+} h(x) = 3$.
 
-For continuity: $1 = 3$Which is impossible. No value of $b$ makes $h$ continuous at $x = 0$.
+For continuity: $1 = 3$ Which is impossible. No value of $b$ makes $h$ continuous at $x = 0$.
 
 This example demonstrates that continuity at a junction point of a piecewise function is not always
 Achievable -- on whether the one-sided limits can be made to agree.
@@ -740,7 +740,7 @@ Achievable -- on whether the one-sided limits can be made to agree.
 
 7. Use the squeeze theorem to find $\displaystyle\lim_{x \to 0} x \cos\!\left(\frac{1}{x}\right)$.
 
-8. Given $f(x) = x^3 - 3x + 1$Use the IVT to show there is at least one root in the interval
+8. Given $f(x) = x^3 - 3x + 1$ Use the IVT to show there is at least one root in the interval
    $(1, 2)$.
 
 9. Find $\displaystyle\lim_{x \to 0} \frac{\tan x}{x}$.
@@ -779,7 +779,7 @@ Using the epsilon-delta definition, prove that $\displaystyle\lim_{x \to 2} (3x 
 <details>
 <summary>Answer</summary>
 
-We need to show: for every $\epsilon \gt 0$There exists a $\delta \gt 0$ such that if
+We need to show: for every $\epsilon \gt 0$ There exists a $\delta \gt 0$ such that if
 $0 \lt |x - 2| \lt \delta$ Then $|(3x - 1) - 5| \lt \epsilon$.
 
 $|(3x - 1) - 5| = |3x - 6| = 3|x - 2|$.
@@ -853,7 +853,7 @@ $f(0) = 0 - 0 + 1 = 1 \gt 0$.
 
 $f(1) = 1 - 5 + 1 = -3 \lt 0$.
 
-Since $f$ is continuous on $[0, 1]$ and $f(0) \gt 0$ and $f(1) \lt 0$By the Intermediate Value
+Since $f$ is continuous on $[0, 1]$ and $f(0) \gt 0$ and $f(1) \lt 0$ By the Intermediate Value
 Theorem, there exists at least one $c \in (0, 1)$ such that $f(c) = 0$.
 
 </details>

@@ -23,11 +23,11 @@ description: "Study notes for Storage Tuning - Wyatt's Notes with worked example
 | Technology          | Sequential Read    | Sequential Write  | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency       |
 | ------------------- | ------------------ | ----------------- | --------------------- | ---------------------- | ------------- |
 | HDD (7200 RPM)      | 150–250 MB/s       | 150–250 MB/s      | 100–200               | 100–200                | 5–10 ms       |
-| SATA SSD            | 500–560 MB/s       | 400–530 MB/s      | 50,000–100,000        | 50,000–90,000          | 50–100 $\mu$S |
-| NVMe SSD (PCIe 3.0) | 3,000–3,500 MB/s   | 2,500–3,000 MB/s  | 200,000–500,000       | 200,000–400,000        | 10–30 $\mu$S  |
-| NVMe SSD (PCIe 4.0) | 5,000–7,500 MB/s   | 4,500–7,000 MB/s  | 500,000–1,000,000     | 400,000–800,000        | 5–20 $\mu$S   |
-| NVMe SSD (PCIe 5.0) | 10,000–14,000 MB/s | 9,000–12,000 MB/s | 1,000,000–2,000,000   | 800,000–1,500,000      | 3–10 $\mu$S   |
-| Intel Optane P5800X | 7,200 MB/s         | 6,200 MB/s        | 1,500,000             | 1,100,000              | 6–10 $\mu$S   |
+| SATA SSD            | 500–560 MB/s       | 400–530 MB/s      | 50,000–100,000        | 50,000–90,000          | 50–100 $\mu$ S |
+| NVMe SSD (PCIe 3.0) | 3,000–3,500 MB/s   | 2,500–3,000 MB/s  | 200,000–500,000       | 200,000–400,000        | 10–30 $\mu$ S  |
+| NVMe SSD (PCIe 4.0) | 5,000–7,500 MB/s   | 4,500–7,000 MB/s  | 500,000–1,000,000     | 400,000–800,000        | 5–20 $\mu$ S   |
+| NVMe SSD (PCIe 5.0) | 10,000–14,000 MB/s | 9,000–12,000 MB/s | 1,000,000–2,000,000   | 800,000–1,500,000      | 3–10 $\mu$ S   |
+| Intel Optane P5800X | 7,200 MB/s         | 6,200 MB/s        | 1,500,000             | 1,100,000              | 6–10 $\mu$ S   |
 
 ### Choosing the Right Storage
 
@@ -72,7 +72,7 @@ Key architectural advantages over AHCI/SATA:
 3. **Deep queue depths:** The large number of queue entries allows the storage device to optimize
    its internal command scheduling and garbage collection.
 4. **Lower latency:** NVMe eliminates the SATA protocol overhead (command encoding, FIS framing,
-   spread spectrum clocking), reducing command latency by 2–5 $\mu$S.
+   spread spectrum clocking), reducing command latency by 2–5 $\mu$ S.
 
 ### NVMe Namespaces
 
@@ -98,8 +98,8 @@ NVMe defines several power states (PS0–PS4) that trade off power consumption a
 | Power State           | Power    | Exit Latency | Entry Latency |
 | --------------------- | -------- | ------------ | ------------- |
 | PS0 (Active)          | Highest  | 0            | N/A           |
-| PS1                   | Moderate | ~10 $\mu$S   | ~10 $\mu$S    |
-| PS2                   | Low      | ~100 $\mu$S  | ~100 $\mu$S   |
+| PS1                   | Moderate | ~10 $\mu$ S   | ~10 $\mu$ S    |
+| PS2                   | Low      | ~100 $\mu$ S  | ~100 $\mu$ S   |
 | PS3 (Deep Sleep)      | Very Low | ~10 ms       | ~10 ms        |
 | PS4 (Deep Power Down) | Minimal  | ~20 ms       | ~20 ms        |
 
@@ -817,7 +817,7 @@ Key metrics to analyze from fio JSON output:
 | iops     | I/O operations per second   | Workload-dependent                          |
 | lat_ns   | Latency in nanoseconds      | p99 &lt; 1ms for NVMe                       |
 | clat_ns  | Completion latency          | Lower is better                             |
-| slat_ns  | Submission latency          | Should be &lt; 10 $\mu$S                    |
+| slat_ns  | Submission latency          | Should be &lt; 10 $\mu$ S                    |
 | bw       | Bandwidth in KB/s           | Near theoretical max                        |
 | cpu_util | CPU utilization during test | &lt; 80% (CPU should not be the bottleneck) |
 
@@ -882,9 +882,9 @@ Consistent low latency regardless of workload:
 
 | Drive         | Read Latency | Write Latency | Endurance | Capacity       |
 | ------------- | ------------ | ------------- | --------- | -------------- |
-| Optane P5800X | 6 $\mu$S     | 6 $\mu$S      | 100 DWPD  | 400 GB–1.6 TB  |
-| Samsung PM9A3 | 25 $\mu$S    | 45 $\mu$S     | 3 DWPD    | 960 GB–7.68 TB |
-| Intel P4510   | 40 $\mu$S    | 60 $\mu$S     | 1 DWPD    | 1–8 TB         |
+| Optane P5800X | 6 $\mu$ S     | 6 $\mu$ S      | 100 DWPD  | 400 GB–1.6 TB  |
+| Samsung PM9A3 | 25 $\mu$ S    | 45 $\mu$ S     | 3 DWPD    | 960 GB–7.68 TB |
+| Intel P4510   | 40 $\mu$ S    | 60 $\mu$ S     | 1 DWPD    | 1–8 TB         |
 
 DWPD (Drive Writes Per Day) measures endurance relative to capacity. A 100 DWPD drive can be written
 To 100 times its capacity every day for 5 years.

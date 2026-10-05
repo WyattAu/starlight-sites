@@ -21,7 +21,7 @@ categories: [Physics]
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 >
-## 1. Coulomb"s Law
+## 1. Coulomb's Law
 
 **Coulomb's Law.** The electrostatic force between two point charges $q_1$ and $q_2$ separated by
 Distance $r$ in vacuum is:
@@ -93,7 +93,7 @@ $$
 Where $V$ is the potential difference and $d$ is the plate separation.
 
 **Proof.** A charge $q$ between the plates experiences force $F = qE$. Work done moving from one
-plate To the other: $W = Fd = qEd$. But also $W = qV$. Therefore $qEd = qV$Giving $E = V/d$.
+plate To the other: $W = Fd = qEd$. But also $W = qV$. Therefore $qEd = qV$ Giving $E = V/d$.
 $\square$
 
 The field is uniform (constant magnitude and direction) between the plates, with fringe effects at
@@ -140,7 +140,7 @@ $$
 
 **Proof.** Consider a test charge $q$ moved by $dr$ in the direction of the field. Work done by the
 Field: $dW = qE\,dr$. This equals the loss in potential energy: $dW = -q\,dV$. Therefore
-$qE\,dr = -q\,dV$Giving $E = -dV/dr$. $\square$
+$qE\,dr = -q\,dV$ Giving $E = -dV/dr$. $\square$
 
 The minus sign means the field points in the direction of decreasing potential.
 
@@ -321,7 +321,7 @@ $$
 \boxed{E = \frac{\lambda}{2\pi\varepsilon_0 r}}
 $$
 
-Where $r$ is the perpendicular distance from the line. Note: the field falls off as $1/r$Not $1/r^2$
+Where $r$ is the perpendicular distance from the line. Note: the field falls off as $1/r$ Not $1/r^2$
 Because a line charge is an extended source in one dimension.
 
 ## 8. Potential Gradient and the Millikan Experiment
@@ -331,7 +331,7 @@ Because a line charge is an extended source in one dimension.
 Millikan (1909--1913) measured the elementary charge $e$ by observing electrically charged oil drops
 In a uniform electric field.
 
-**Method:** An oil drop of mass $m$ carries charge $q$. In a uniform upward field $E$The drop is
+**Method:** An oil drop of mass $m$ carries charge $q$. In a uniform upward field $E$ The drop is
 Suspended when the electric force balances gravity:
 
 $$
@@ -381,7 +381,7 @@ $$
 
 <details>
 <summary>Problem 1</summary>
-Two point charges, $q_1 = +3.0\,\mu$C and $q_2 = -5.0\,\mu$C, are separated by 0.20 m. Calculate the
+Two point charges, $q_1 = +3.0\,\mu$ C and $q_2 = -5.0\,\mu$ C, are separated by 0.20 m. Calculate the
 Force between them.
 
 **Answer.**
@@ -392,7 +392,7 @@ N (attractive).
 
 <details>
 <summary>Problem 2</summary>
-Calculate the electric field strength at 0.10 m from a point charge of $+8.0\,\mu$C.
+Calculate the electric field strength at 0.10 m from a point charge of $+8.0\,\mu$ C.
 
 **Answer.**
 $E = \frac{kQ}{r^2} = \frac{8.99 \times 10^9 \times 8.0 \times 10^{-6}}{0.010} = 7.19 \times 10^6$
@@ -412,8 +412,8 @@ $F = qE = 1.60 \times 10^{-19} \times 2.5 \times 10^4 = 4.0 \times 10^{-15}$ N.
 
 <details>
 <summary>Problem 4</summary>
-Calculate the electric potential at 5.0 cm from a $+2.0\,\mu$C point charge. A second charge of
-$-1.0\,\mu$C is placed at this point. Calculate the potential energy of the system.
+Calculate the electric potential at 5.0 cm from a $+2.0\,\mu$ C point charge. A second charge of
+$-1.0\,\mu$ C is placed at this point. Calculate the potential energy of the system.
 
 **Answer.**
 $V = \frac{kQ}{r} = \frac{8.99 \times 10^9 \times 2.0 \times 10^{-6}}{0.050} = 3.60 \times 10^5$
@@ -425,7 +425,7 @@ $U = q_2 V = (-1.0 \times 10^{-6})(3.60 \times 10^5) = -0.360$ J.
 
 <details>
 <summary>Problem 5</summary>
-Starting from $E = -dV/dr$Derive the field of a point charge from its potential.
+Starting from $E = -dV/dr$ Derive the field of a point charge from its potential.
 
 **Answer.** $V = Q/(4\pi\varepsilon_0 r)$.
 $E = -\frac{dV}{dr} = -\frac{Q}{4\pi\varepsilon_0}\cdot\frac{d}{dr}(r^{-1}) = -\frac{Q}{4\pi\varepsilon_0}(-r^{-2}) = \frac{Q}{4\pi\varepsilon_0 r^2}$.

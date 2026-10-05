@@ -698,7 +698,7 @@ end
 
 ### Hot Code Upgrades
 
-One of BEAM"s most distinctive features is hot code swapping -- loading new code without stopping
+One of BEAM's most distinctive features is hot code swapping -- loading new code without stopping
 the system:
 
 ```elixir

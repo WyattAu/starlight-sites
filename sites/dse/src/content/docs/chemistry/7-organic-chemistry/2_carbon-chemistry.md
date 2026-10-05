@@ -201,7 +201,7 @@ $$
 
 Alkynes contain at least one carbon-carbon triple bond ($\mathrm{C \equiv C}$).
 
-The simplest alkyne is ethyne ($\mathrm{C_2H_2}$Also called acetylene):
+The simplest alkyne is ethyne ($\mathrm{C_2H_2}$ Also called acetylene):
 
 $$
 \mathrm{H - C \equiv C - H}
@@ -577,7 +577,7 @@ Formed from a diol and a dicarboxylic acid.
 ### Proteins
 
 - **Monomers:** Amino acids (20 different types)
-- **General structure:** $\mathrm{H_2N - CH(R) - COOH}$Where R is the side chain
+- **General structure:** $\mathrm{H_2N - CH(R) - COOH}$ Where R is the side chain
 - **Linkage:** Peptide bonds (amide bonds) formed by condensation:
   $$
   -\mathrm{COOH} + \mathrm{H_2N}- \to -\mathrm{CONH}- + \mathrm{H_2O}
@@ -692,9 +692,9 @@ flowchart TD
 
 | Concept              | Key Point                                                          |
 | -------------------- | ------------------------------------------------------------------ |
-| Alkanes              | $\mathrm{C_nH_{2n+2}}$Saturated, substitution                      |
-| Alkenes              | $\mathrm{C_nH_{2n}}$Unsaturated, addition                          |
-| Alkynes              | $\mathrm{C_nH_{2n-2}}$Triple bond                                  |
+| Alkanes              | $\mathrm{C_nH_{2n+2}}$ Saturated, substitution                      |
+| Alkenes              | $\mathrm{C_nH_{2n}}$ Unsaturated, addition                          |
+| Alkynes              | $\mathrm{C_nH_{2n-2}}$ Triple bond                                  |
 | Homologous series    | Same general formula, functional group, $\mathrm{CH_2}$ difference |
 | Isomerism            | Same formula, different structure                                  |
 | Esterification       | Acid + alcohol $\rightleftharpoons$ ester + water                  |

@@ -201,7 +201,7 @@ $$
 \Delta x = \frac{x_{\max} - x_{\min}}{2}
 $$
 
-For large $n$The standard uncertainty of the mean is:
+For large $n$ The standard uncertainty of the mean is:
 
 $$
 \Delta x = \frac{\sigma}{\sqrt{n}}, \qquad \sigma = \sqrt{\frac{1}{n-1}\sum(x_i - \bar{x})^2}
@@ -317,7 +317,7 @@ $x = 3.0 \pm 0.1$. Calculate $y$ and its percentage uncertainty.
 **Answer.** $y = 4.0 \times 27 / 2.0 = 54.0$.
 
 Fractional uncertainties: $0.2/4.0 = 0.050$ (for $a$), $0.1/2.0 = 0.050$ (for $b$),
-$3(0.1/3.0) = 0.10$ (for $x^3$Power rule).
+$3(0.1/3.0) = 0.10$ (for $x^3$ Power rule).
 
 Total $= 0.050 + 0.050 + 0.10 = 0.20 = 20\%$. $\Delta y = 54.0 \times 0.20 = 10.8$.
 
@@ -344,7 +344,7 @@ Periods.
 
 <details>
 <summary>Problem 7</summary>
-In an experiment to determine $g$ using $T = 2\pi\sqrt{L/g}$A student measures
+In an experiment to determine $g$ using $T = 2\pi\sqrt{L/g}$ A student measures
 $L = 0.800 \pm 0.002$ m and $T = 1.80 \pm 0.05$ s. Calculate $g$ with its absolute uncertainty.
 
 **Answer.** $g = 4\pi^2 L / T^2 = 39.48 \times 0.800 / 3.24 = 31.58/3.24 = 9.75$ m s$^{-2}$.
@@ -399,7 +399,7 @@ $$
 T = 2\pi\sqrt{\frac{L}{g}} \implies T^2 = \frac{4\pi^2}{g}L
 $$
 
-By plotting $T^2$ against $L$The gradient gives $4\pi^2/g$From which $g$ can be determined.
+By plotting $T^2$ against $L$ The gradient gives $4\pi^2/g$ From which $g$ can be determined.
 
 ### 4.2 Sample Data and Calculations
 
@@ -417,7 +417,7 @@ For the first row: $\Delta T^2 = 2 \times (0.03/1.26) \times 1.59 = 0.076 \appro
 
 ### 4.3 Determining $g$ from the Gradient
 
-From a line of best fit through $(L, T^2)$The gradient is $m = 4.08$ s$^2$ m$^{-1}$. The worst
+From a line of best fit through $(L, T^2)$ The gradient is $m = 4.08$ s$^2$ m$^{-1}$. The worst
 Acceptable line gives $m = 3.95$ s$^2$ m$^{-1}$.
 
 $$
@@ -522,7 +522,7 @@ Error bars represent the uncertainty in each measurement point:
 ### 7.2 Interpreting Error Bars
 
 The line of best fit should pass through or near the error bars of each data point. If a data
-Point"s error bar does not overlap with the line of best fit, either:
+Point's error bar does not overlap with the line of best fit, either:
 
 - The point is an outlier (consider whether to exclude it with justification)
 - There is an unaccounted systematic error
@@ -547,7 +547,7 @@ used to obtain Each data point. State this assumption explicitly.
    digit). Do not use half the smallest division for a digital instrument.
 
 2. **Using the range instead of the half-range.** The absolute uncertainty from repeated
-   measurements is the half-range: $\Delta x = (x_{\max} - x_{\min})/2$Not the full range. Using the
+   measurements is the half-range: $\Delta x = (x_{\max} - x_{\min})/2$ Not the full range. Using the
    full range overestimates the uncertainty by a factor of 2.
 
 3. **Confusing the line of best fit with the worst acceptable line.** The line of best fit passes as
@@ -555,12 +555,12 @@ used to obtain Each data point. State this assumption explicitly.
    line that passes through all error bars. These are different lines with different gradients.
 
 4. **Forgetting to propagate uncertainty through intermediate calculations.** If you calculate $T^2$
-   from $T$You must calculate the uncertainty in $T^2$ using the power rule before plotting. Do not
+   from $T$ You must calculate the uncertainty in $T^2$ using the power rule before plotting. Do not
    plot the raw uncertainty in $T$ on the $T^2$ axis.
 
 5. **Reporting uncertainty with too many significant figures.** Round the uncertainty to 1 or 2
    significant figures, then round the result to the same decimal place. For example, write
-   $9.68 \pm 0.15$Not $9.678 \pm 0.1542$.
+   $9.68 \pm 0.15$ Not $9.678 \pm 0.1542$.
 
 6. **Ignoring the uncertainty in the gradient when determining a physical constant.** Always use the
    worst acceptable line method to find the uncertainty in the gradient, and propagate this to the
@@ -664,7 +664,7 @@ Result: $V_0 = 10.0 \pm 0.5$ (arbitrary units).
 
 <details>
 <summary>Problem 6</summary>
-A student determines the refractive index $n$ of glass by measuring the critical angle $\theta_c$. Five measurements of $\theta_c$ are: $41.5^\circ$$42.0^\circ$$41.8^\circ$$42.2^\circ$$41.6^\circ$. Using $n = 1/\sin\theta_c$Calculate $n$ and its uncertainty.
+A student determines the refractive index $n$ of glass by measuring the critical angle $\theta_c$. Five measurements of $\theta_c$ are: $41.5^\circ$$42.0^\circ$$41.8^\circ$$42.2^\circ$$41.6^\circ$. Using $n = 1/\sin\theta_c$ Calculate $n$ and its uncertainty.
 
 **Answer.** Mean $\theta_c = (41.5 + 42.0 + 41.8 + 42.2 + 41.6)/5 = 41.82^\circ$. Range
 $= 42.2 - 41.5 = 0.7^\circ$. $\Delta\theta_c = 0.35^\circ$.

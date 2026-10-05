@@ -89,7 +89,7 @@ $$
 \mathrm{CH}_3\overset{+}{\mathrm{C}}\mathrm{HCH}_3 + \mathrm{Br}^- \to \mathrm{CH}_3\mathrm{CHBrCH}_3
 $$
 
-### Markovnikov"s Rule
+### Markovnikov's Rule
 
 When HX adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon of the double bond
 That already has the greater number of hydrogen atoms. Equivalently: the electrophile adds to the
@@ -255,7 +255,7 @@ $E$ and $Z$ isomers have different physical properties:
 - Different NMR spectra (different coupling constants between vinyl protons).
 
 The coupling constant $J$ between the two vinyl protons is larger for trans ($E$) isomers
-($J \approx 12$--$18\,\mathrm{Hz}$) than for cis ($Z$) isomers ($J \approx 6$--$12\,\mathrm{Hz}$).
+($J \approx 12$--$18\,\mathrm{Hz}$) than for cis ($ Z$) isomers ($J \approx 6$--$12\,\mathrm{Hz}$).
 
 ### Hydrogenation of Alkenes
 
@@ -321,7 +321,7 @@ $$
 \mathrm{CH}_2=\mathrm{CH}_2 + [\mathrm{O}] + \mathrm{H}_2\mathrm{O} \to \mathrm{CH}_2\mathrm{OHCH}_2\mathrm{OH}
 $$
 
-The purple $\mathrm{MnO}_4^-$ is reduced to colourless $\mathrm{Mn}^{2+}$Providing a second test for
+The purple $\mathrm{MnO}_4^-$ is reduced to colourless $\mathrm{Mn}^{2+}$ Providing a second test for
 unsaturation alongside bromine water.
 
 ### Oxidative Cleavage with Hot Concentrated $\mathrm{KMnO}_4$
@@ -380,7 +380,7 @@ Ethene is the most important organic chemical in industry:
 
 3. **Drawing the polymer repeating unit incorrectly.** The repeating unit must show the opened
    double bond. The monomer $\mathrm{CH}_2=\mathrm{CHCl}$ becomes the repeating unit
-   $-\mathrm{CH}_2\mathrm{CHCl}-$Not $-\mathrm{CH}_2=\mathrm{CHCl}-$.
+   $-\mathrm{CH}_2\mathrm{CHCl}-$ Not $-\mathrm{CH}_2=\mathrm{CHCl}-$.
 
 4. **Assuming all polymerisations produce the same type of poly(ethene).** LDPE (radical, branched)
    and HDPE (ionic, linear) have very different properties. The mechanism determines the polymer
@@ -529,7 +529,7 @@ trans-1,2-dibromocyclohexane
 
 **Mechanism:**
 
-Step 1: The $\pi$ electrons of cyclohexene attack one bromine atom of $\mathrm{Br}_2$Forming a
+Step 1: The $\pi$ electrons of cyclohexene attack one bromine atom of $\mathrm{Br}_2$ Forming a
 bromonium ion intermediate. The bromonium ion is a three-membered ring with a positive charge
 distributed over the bromine and both carbons.
 
@@ -576,8 +576,8 @@ Reconstructing: $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}
 $\mathrm{C}_7\mathrm{H}_{12}$ has $\text{DoU} = \frac{2(7) + 2 - 12}{2} = 1$. Hept-2-ene is
 $\mathrm{C}_7\mathrm{H}_{14}$ with $\text{DoU} = 1$.
 
-The formula must be $\mathrm{C}_7\mathrm{H}_{14}$Not $\mathrm{C}_7\mathrm{H}_{12}$. If the problem
-states $\mathrm{C}_7\mathrm{H}_{12}$The molecule has an additional degree of unsaturation (a ring or
+The formula must be $\mathrm{C}_7\mathrm{H}_{14}$ Not $\mathrm{C}_7\mathrm{H}_{12}$. If the problem
+states $\mathrm{C}_7\mathrm{H}_{12}$ The molecule has an additional degree of unsaturation (a ring or
 a second double bond). In this case, the product analysis is still valid, and the structure would be
 hept-2-ene (the given formula may contain a typo; in an exam, use the product information to deduce
 the structure).
@@ -770,7 +770,7 @@ products are propanoic acid and ethanoic acid. Deduce the structure of the alken
 - Ethanoic acid ($\mathrm{CH}_3\mathrm{COOH}$) indicates the fragment $=\mathrm{CHCH}_3$ on the
   other side (1 mark).
 - Combining: $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}=\mathrm{CHCH}_3$ (pent-2-ene) (1 mark).
-- Verification: $\mathrm{C}_5\mathrm{H}_{10}$One degree of unsaturation, consistent with one C=C
+- Verification: $\mathrm{C}_5\mathrm{H}_{10}$ One degree of unsaturation, consistent with one C=C
   bond (1 mark).
 
 </details>

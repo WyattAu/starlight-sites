@@ -47,7 +47,7 @@ continuous function $\gamma : [0, 1] \to X$ with $\gamma(0) = x$ and $\gamma(1) 
 
 **Proposition 6.1.** Every path-connected space is connected. The converse is false.
 
-**Example 6.3 (Topologist"s sine curve).** Let
+**Example 6.3 (Topologist's sine curve).** Let
 
 $$
 S = \{(x, \sin(1/x)) : 0 < x \leq 1\} \cup \{(0, y) : -1 \leq y \leq 1\} \subseteq \mathbb{R}^2.

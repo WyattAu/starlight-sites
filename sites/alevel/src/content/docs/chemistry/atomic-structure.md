@@ -49,7 +49,7 @@ Atoms consist of three principal subatomic particles. Their properties are summa
 | Location        | Nucleus                  | Nucleus         | Electron shells / orbitals   |
 | Spin            | $+\tfrac{1}{2}$          | $+\tfrac{1}{2}$ | $+\tfrac{1}{2}$              |
 
-The **atomic number** (proton number) $Z$ defines the element. The **mass number** $A = Z + N$Where
+The **atomic number** (proton number) $Z$ defines the element. The **mass number** $A = Z + N$ Where
 $N$ is the neutron number. The notation is:
 
 $$
@@ -95,7 +95,7 @@ Mass spectrometry separates ions by their mass-to-charge ratio ($m/z$). The stag
 1. **Vaporisation** -- sample converted to gaseous state.
 2. **Ionisation** -- by electron impact (EI): a high-energy electron beam ejects an electron from
    the sample molecule, producing a molecular ion $\mathrm{M}^{+\bullet}$.
-3. **Acceleration** -- ions accelerated through a potential difference $V$Gaining kinetic energy
+3. **Acceleration** -- ions accelerated through a potential difference $V$ Gaining kinetic energy
    $\tfrac{1}{2}mv^2 = zVe$.
 4. **Deflection** -- a magnetic field $B$ deflects ions into a curved path of radius $r$:
 
@@ -151,7 +151,7 @@ $$
 1s \lt 2s \lt 2p \lt 3s \lt 3p \lt 4s \lt 3d \lt 4p \lt 5s \lt 4d \lt 5p \lt 6s \lt 4f \lt 5d \lt 6p \lt 7s
 $$
 
-The $4s$ subshell fills before $3d$ because its energy is lower for $Z \le 20$. For $Z \gt 20$The
+The $4s$ subshell fills before $3d$ because its energy is lower for $Z \le 20$. For $Z \gt 20$ The
 energies shift and $3d$ becomes lower -- this is important for transition metals (see
 [Transition Metals](/chemistry/transition-metals/)).
 
@@ -160,7 +160,7 @@ energies shift and $3d$ becomes lower -- this is important for transition metals
 No two electrons in the same atom can have the same set of four quantum numbers. Consequently, each
 orbital holds at most two electrons, with opposite spins.
 
-### Hund"s Rule
+### Hund's Rule
 
 Within a given subshell, electrons occupy degenerate orbitals singly first, with parallel spins,
 before pairing. This minimises electron-electron repulsion and maximises total spin.
@@ -326,7 +326,7 @@ $$
 Z_\mathrm{eff} = Z - \sigma
 $$
 
-**Worked Example.** For potassium ($Z = 19$Configuration $1s^2 2s^2 2p^6 3s^2 3p^6 4s^1$), the
+**Worked Example.** For potassium ($Z = 19$ Configuration $1s^2 2s^2 2p^6 3s^2 3p^6 4s^1$), the
 shielding experienced by the $4s$ electron:
 
 $$
@@ -403,7 +403,7 @@ Write the electron configuration of $\mathrm{Cr}^{3+}$ and explain why it has a 
 **Solution:**
 
 Chromium ($Z = 24$) has the ground-state configuration $[\mathrm{Ar}]\,4s^1 3d^5$. When forming
-$\mathrm{Cr}^{3+}$The $4s$ electrons are removed first (as they are higher in energy once the $3d$
+$\mathrm{Cr}^{3+}$ The $4s$ electrons are removed first (as they are higher in energy once the $3d$
 subshell is populated), followed by one $3d$ electron:
 
 $$
@@ -447,7 +447,7 @@ $^{53}\mathrm{Cr}$ (9.5%), and $^{54}\mathrm{Cr}$ (2.4%). However, the data show
 $^{56}\mathrm{Fe}$ (91.7%), $^{57}\mathrm{Fe}$ (2.1%), and $^{58}\mathrm{Fe}$ (0.3%).
 
 Re-examining: the $m/z$ values of 52, 54, 56 with the given abundances most closely match chromium:
-$^{52}\mathrm{Cr}$ ($A_r = 51.94$Abundance $\approx 83.8\%$), $^{53}\mathrm{Cr}$
+$^{52}\mathrm{Cr}$ ($A_r = 51.94$ Abundance $\approx 83.8\%$), $^{53}\mathrm{Cr}$
 ($A_r = 52.94$$\approx 9.5\%$), $^{54}\mathrm{Cr}$ ($A_r = 53.94$$\approx 2.4\%$). However, the
 relative abundances in the problem (17.4%, 67.8%, 14.8%) do not match chromium's known isotope
 pattern.
@@ -475,7 +475,7 @@ to several decimal places, allowing distinction between species with the same no
 | $\mathrm{C}_2\mathrm{H}_4\mathrm{O}$ | 44.026             | 44           |
 
 High-resolution MS can distinguish $\mathrm{C}_3\mathrm{H}_8$ ($44.063$) from $\mathrm{CO}_2$
-($43.990$) -- a difference of $0.073\,\mathrm{amu}$Resolved by modern instruments.
+($43.990$) -- a difference of $0.073\,\mathrm{amu}$ Resolved by modern instruments.
 
 ### The Rule of 13
 
@@ -512,7 +512,7 @@ The compound likely contains 9 carbon atoms. $12 \times 9 = 108$. Remaining mass
 This could correspond to $\mathrm{C}_2\mathrm{H}_2\mathrm{O}$ (or other combinations). The rule of
 13 confirms: $150 = 13 \times 11 + 7$ So the base formula is $\mathrm{C}_{11}\mathrm{H}_7$. With 9
 carbons, the formula becomes $\mathrm{C}_9\mathrm{H}_{10}\mathrm{O}$
-($M_r = 9 \times 12 + 10 + 16 = 138$Which does not match). The calculation illustrates the method
+($M_r = 9 \times 12 + 10 + 16 = 138$ Which does not match). The calculation illustrates the method
 but requires additional information (like the M+2 peak for halogens) for unambiguous determination.
 
 ## Electron Configuration and Periodic Trends
@@ -615,7 +615,7 @@ The large jump between the second ($1451$) and third ($7733$) ionisation energie
 removing the third electron requires breaking into a new, inner electron shell. The element has two
 valence electrons and is in Group 2.
 
-The element is **magnesium** ($\mathrm{Mg}$$Z = 12$Electron configuration $[\mathrm{Ne}]\,3s^2$).
+The element is **magnesium** ($\mathrm{Mg}$$Z = 12$ Electron configuration $[\mathrm{Ne}]\,3s^2$).
 The first two electrons are removed from the $3s$ subshell (valence); the third must be removed from
 the $2p$ subshell (core), which is much closer to the nucleus and more tightly held.
 
@@ -634,7 +634,7 @@ A mass spectrum shows the following peaks for an organic compound: $m/z = 78$ (M
 (a) M+1 = 6.7% suggests approximately $6.7/1.1 = 6$ carbons. $\mathrm{C}_6\mathrm{H}_6$: $M = 72$
 (too low). $\mathrm{C}_6\mathrm{H}_6$... $M = 6(12) + 6(1) = 78$. Check: M+2 = 0.5%, consistent with
 approximately 6 carbons (each $^{13}\mathrm{C}$ contributes 1.1%, and $6 \times 1.1 = 6.6\%$; M+2
-from two $^{13}\mathrm{C}$ atoms: $C(6,2) \times (0.011)^2 \approx 15 \times 0.000121 = 0.18\%$Plus
+from two $^{13}\mathrm{C}$ atoms: $C(6,2) \times (0.011)^2 \approx 15 \times 0.000121 = 0.18\%$ Plus
 other contributions). The data are consistent with $\mathrm{C}_6\mathrm{H}_6$.
 
 (b) $\mathrm{C}_6\mathrm{H}_6$ is **benzene** ($M = 78$). The mass spectrum of benzene
@@ -700,7 +700,7 @@ electrons (1 mark for identifying the shell transition, 1 mark for explaining th
 electrons experience less shielding and are closer to the nucleus).
 
 (d) $\mathrm{Al}_2\mathrm{O}_3$. Aluminium is in Group 13 and forms a $3+$ ion. Oxygen forms a $2-$
-ion. The formula requires charge balance: $2 \times 3+ = 3 \times 2-$Giving
+ion. The formula requires charge balance: $2 \times 3+ = 3 \times 2-$ Giving
 $\mathrm{Al}_2\mathrm{O}_3$.
 
 </details>
@@ -725,13 +725,13 @@ A mass spectrum of an organic compound shows the following peaks:
 **Solution:**
 
 (a) M+1 = 7.7% suggests approximately $7.7/1.1 = 7$ carbon atoms. $7 \times 12 = 84$. Remaining mass
-= $92 - 84 = 8$Which corresponds to 8 hydrogen atoms. The molecular formula is
+= $92 - 84 = 8$ Which corresponds to 8 hydrogen atoms. The molecular formula is
 $\mathrm{C}_7\mathrm{H}_8$. Verification: $\text{DoU} = \frac{2(7) + 2 - 8}{2} = 4$. This is
 consistent with a benzene ring (4 degrees of unsaturation: one ring + three double bonds in the
 aromatic system).
 
 M+2 = 0.3% is consistent with two $^{13}\mathrm{C}$ atoms:
-$C(7,2) \times (0.011)^2 = 21 \times 0.000121 = 0.25\%$Close to the observed value.
+$C(7,2) \times (0.011)^2 = 21 \times 0.000121 = 0.25\%$ Close to the observed value.
 
 (b) $\mathrm{C}_7\mathrm{H}_8$ is consistent with **toluene**
 ($\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_3$).
@@ -755,7 +755,7 @@ the nucleus than the $p$ orbital, and $p$ penetrates closer than $d$. This means
   shell.
 - The $4s$ orbital is lower in energy than $3d$ for $Z \le 20$ because the $4s$ electron penetrates
   through the inner shell electron cloud more effectively.
-- For $Z > 20$The increasing nuclear charge pulls the $3d$ electrons closer, and $3d$ drops below
+- For $Z > 20$ The increasing nuclear charge pulls the $3d$ electrons closer, and $3d$ drops below
   $4s$ in energy.
 
 ### Effective Nuclear Charge Calculations for Period 3
@@ -778,7 +778,7 @@ ionisation energy.
 
 The drop from Be to B:
 
-- $\mathrm{IE}_1(\mathrm{Be}) = 899\,\mathrm{kJ/mol}$ ($2s^2$Filled subshell)
+- $\mathrm{IE}_1(\mathrm{Be}) = 899\,\mathrm{kJ/mol}$ ($2s^2$ Filled subshell)
 - $\mathrm{IE}_1(\mathrm{B}) = 801\,\mathrm{kJ/mol}$ ($2s^2 2p^1$)
 
 The $2p$ electron in boron is shielded by the two $2s$ electrons (which have the same $n$ value but
@@ -788,7 +788,7 @@ other. This reduces $Z_\mathrm{eff}$ for the $2p$ electron, making it easier to 
 
 The drop from N to P:
 
-- $\mathrm{IE}_1(\mathrm{N}) = 1402\,\mathrm{kJ/mol}$ ($2p^3$Half-filled)
+- $\mathrm{IE}_1(\mathrm{N}) = 1402\,\mathrm{kJ/mol}$ ($2p^3$ Half-filled)
 - $\mathrm{IE}_1(\mathrm{O}) = 1314\,\mathrm{kJ/mol}$ ($2p^4$)
 
 In nitrogen ($2p^3$), each $p$ orbital has one electron (Hund's rule). In oxygen ($2p^4$), one
@@ -797,7 +797,7 @@ repulsion between paired electrons) makes the fourth electron less tightly held.
 
 Exchange energy stabilisation for half-filled subshells: A half-filled $p^3$ configuration has three
 electrons with parallel spins. The number of exchange interactions is $\binom{3}{2} = 3$. For
-$p^4$The number of parallel spin pairs is $\binom{3}{2} = 3$ (among the three unpaired electrons)
+$p^4$ The number of parallel spin pairs is $\binom{3}{2} = 3$ (among the three unpaired electrons)
 plus the exchange between one of the unpaired electrons and the paired electron if spins are
 parallel. The net exchange stabilisation decreases slightly when the subshell goes from half-filled
 to more-than-half-filled.
@@ -877,7 +877,7 @@ mark).
 (c) The peak at $m/z = 77$ is $\mathrm{C}_6\mathrm{H}_5^+$ (phenyl cation), formed by loss of one
 hydrogen atom from the molecular ion (1 mark).
 
-(d) The peak at $m/z = 51$ is $\mathrm{C}_4\mathrm{H}_3^+$Formed by further fragmentation of the
+(d) The peak at $m/z = 51$ is $\mathrm{C}_4\mathrm{H}_3^+$ Formed by further fragmentation of the
 phenyl cation (loss of $\mathrm{C}_2\mathrm{H}_2$ from $\mathrm{C}_6\mathrm{H}_5^+$: $77 - 26 = 51$)
 (1 mark).
 
@@ -944,7 +944,7 @@ closely than $\mathrm{C}_2\mathrm{H}_4\mathrm{O}_2$ (60.0211). The correct formu
 $\mathrm{C}_3\mathrm{H}_8\mathrm{O}$ (1 mark).
 
 (c) A positive iodoform test indicates a $\mathrm{CH}_3\mathrm{CO}-$ group. With the formula
-$\mathrm{C}_3\mathrm{H}_8\mathrm{O}$The compound is **propan-2-ol**
+$\mathrm{C}_3\mathrm{H}_8\mathrm{O}$ The compound is **propan-2-ol**
 ($\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_3$). Under the iodoform test conditions,
 propan-2-ol is oxidised to propanone, which contains the $\mathrm{CH}_3\mathrm{CO}-$ group (1 mark
 for propan-2-ol, 1 mark for explanation).

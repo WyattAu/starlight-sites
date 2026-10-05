@@ -33,7 +33,7 @@ Dominates.
 **Catalog statistics:** Table cardinality ($n$), attribute value cardinality, number of distinct
 Values, histogram of value distribution, index information.
 
-**Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$The selectivity is approximately
+**Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$ The selectivity is approximately
 $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
 | Predicate type              | Selectivity estimate                             |
@@ -45,7 +45,7 @@ $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
 ### 7.3 Join Algorithms
 
-**Nested-loop join.** For each tuple in $R$Scan all of $S$.
+**Nested-loop join.** For each tuple in $R$ Scan all of $S$.
 
 $$
 \mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)
@@ -77,7 +77,7 @@ $$
 
 Best for equi-joins when one relation fits in memory.
 
-**Index nested-loop join.** For each tuple in $R$Use an index on $S$ to find matching tuples.
+**Index nested-loop join.** For each tuple in $R$ Use an index on $S$ to find matching tuples.
 
 $$
 \mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)

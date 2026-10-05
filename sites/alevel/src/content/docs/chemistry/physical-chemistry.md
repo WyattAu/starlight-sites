@@ -187,7 +187,7 @@ $$
 **Exothermic:** $\Delta H < 0$ (energy released to surroundings) **Endothermic:** $\Delta H > 0$
 (energy absorbed from surroundings)
 
-### Hess"s Law
+### Hess's Law
 
 The enthalpy change for a reaction is independent of the route taken, the answer varies by context
 only on initial and final states.

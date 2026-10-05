@@ -83,7 +83,7 @@ This is still unrealistically large. The Shockley equation with these parameters
 results at typical voltages. The point of this question is to show that the Shockley equation is an
 idealisation and real diodes have series resistance that limits current.
 
-For the purpose of this calculation, let us note that at $V = 6.0\,\text{V}$Both the lamp and diode
+For the purpose of this calculation, let us note that at $V = 6.0\,\text{V}$ Both the lamp and diode
 would carry very large currents. The diode"s exponential characteristic means it effectively acts as
 a short circuit at voltages well above its threshold.
 
@@ -146,14 +146,14 @@ Terminal PD: $V = \varepsilon - Ir = 12.0 - 8.0 \times 1.5 = 12.0 - 12.0 = 0\,\t
 
 All the EMF is dropped across the internal resistance.
 
-(b) **(i) Batteries in series:** Total EMF $= 24.0\,\text{V}$Total internal resistance
+(b) **(i) Batteries in series:** Total EMF $= 24.0\,\text{V}$ Total internal resistance
 $= 3.0\,\Omega$.
 
 Current: $I = 24.0/(4.0 + 3.0) = 24.0/7.0 = 3.43\,\text{A}$
 
 Power to $R_L$: $P = I^2R_L = 3.43^2 \times 4.0 = 47.0\,\text{W}$
 
-**(ii) Batteries in parallel:** Total EMF $= 12.0\,\text{V}$Total internal resistance
+**(ii) Batteries in parallel:** Total EMF $= 12.0\,\text{V}$ Total internal resistance
 $= 0.75\,\Omega$ (two $1.5\,\Omega$ in parallel).
 
 Current: $I = 12.0/(4.0 + 0.75) = 12.0/4.75 = 2.53\,\text{A}$
@@ -214,7 +214,7 @@ less than $1\%$ when $R_L = 100\,\text{k}\Omega$ is connected.
 (a) No load:
 $V_{\text{out}} = \frac{R_2}{R_1 + R_2} \times V = \frac{10}{20} \times 12 = 6.0\,\text{V}$
 
-(b) With $R_L = 10\,\text{k}\Omega$ across $R_2$The parallel combination is:
+(b) With $R_L = 10\,\text{k}\Omega$ across $R_2$ The parallel combination is:
 
 $$
 R_2' = \frac{R_2 R_L}{R_2 + R_L} = \frac{10 \times 10}{20} = 5.0\,\text{k}\Omega
@@ -238,7 +238,7 @@ Without load: $V_0 = \frac{R_2}{R_1 + R_2} \times 12$
 
 With load: $V_L = \frac{R_2 R_L/(R_2 + R_L)}{R_1 + R_2 R_L/(R_2 + R_L)} \times 12$
 
-The percentage change is $\le 1\%$. For a symmetric divider ($R_1 = R_2$):
+The percentage change is $\le 1\%$. For a symmetric divider ($ R_1 = R_2$):
 
 $V_0 = 6.0\,\text{V}$
 
@@ -471,7 +471,7 @@ $$
 E_R = \int_0^\infty I^2 R\,dt = \int_0^\infty \left(\frac{\varepsilon}{R}e^{-t/\tau}\right)^2 R\,dt = \frac{\varepsilon^2}{R}\int_0^\infty e^{-2t/\tau}\,dt = \frac{\varepsilon^2}{R} \times \frac{\tau}{2} = \frac{\varepsilon^2}{R} \times \frac{RC}{2} = \frac{1}{2}C\varepsilon^2
 $$
 
-So $E_R = \frac{1}{2}C\varepsilon^2 = 20\,\text{mJ}$Exactly half the total energy supplied.
+So $E_R = \frac{1}{2}C\varepsilon^2 = 20\,\text{mJ}$ Exactly half the total energy supplied.
 
 This result is independent of $R$: no matter how large or small the resistance, exactly half the
 energy from the battery is dissipated in the resistor and half is stored in the capacitor. This is a
@@ -513,7 +513,7 @@ $$
 
 The bridge is balanced. The galvanometer current is **zero**.
 
-(b) With $R_4 = 305\,\Omega$The bridge is unbalanced.
+(b) With $R_4 = 305\,\Omega$ The bridge is unbalanced.
 
 Using Thevenin's theorem: remove the galvanometer and find the Thevenin voltage and resistance.
 

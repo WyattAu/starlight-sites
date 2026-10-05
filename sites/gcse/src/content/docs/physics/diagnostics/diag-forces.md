@@ -55,7 +55,7 @@ the difference between elastic and inelastic deformation with examples.
 **Solution:**
 
 (a) Hooke's law states that the extension of a spring is directly proportional to the force applied,
-provided the limit of proportionality is not exceeded: $F = kx$Where $k$ is the spring constant and
+provided the limit of proportionality is not exceeded: $F = kx$ Where $k$ is the spring constant and
 $x$ is the extension.
 
 Limitation: Hooke's law only applies up to the limit of proportionality (elastic limit). Beyond this

@@ -28,7 +28,7 @@ Problem sets consolidate understanding through practice. Each problem targets a 
 **Problem 2.** Use the Master Theorem to solve the recurrence $T(n) = 3T(n/4) + n \log n$. If the
 Master Theorem does not apply, explain why.
 
-**Problem 3.** Prove that $\log(n!) = \Theta(n \log n)$ using Stirling"s approximation:
+**Problem 3.** Prove that $\log(n!) = \Theta(n \log n)$ using Stirling's approximation:
 $n! \approx \sqrt{2\pi n}(n/e)^n$.
 
 ### 7.2 Data Structures (Problems 4--8)
@@ -39,7 +39,7 @@ empty AVL tree. Show all rotations.
 **Problem 5.** Prove that deleting a node from a red-black tree with $n$ internal nodes takes
 $O(\log n)$ time.
 
-**Problem 6.** Design a hash table for $n = 1000$ strings using chaining. Choose the table size $m$A
+**Problem 6.** Design a hash table for $n = 1000$ strings using chaining. Choose the table size $m$ A
 hash function, and compute the expected number of comparisons for a successful search.
 
 **Problem 7.** A skip list uses $p = 1/4$. What is the expected maximum level for $n = 10000$
@@ -52,7 +52,7 @@ $O(\log n)$ amortised time per Union-Find operation.
 
 **Problem 9.** Prove that heapsort is not stable by giving a concrete counterexample.
 
-**Problem 10.** Given an array of $n$ integers in the range $[0, n^2 - 1]$Design an $O(n)$ sorting
+**Problem 10.** Given an array of $n$ integers in the range $[0, n^2 - 1]$ Design an $O(n)$ sorting
 algorithm using radix sort. Justify the choice of base and number of passes.
 
 **Problem 11.** Prove that the best-case number of comparisons for comparison-based sorting is
@@ -82,7 +82,7 @@ amount $M$. Find the minimum number of coins needed to make exact change for $M$
 is impossible). Give a recurrence, prove correctness, and state the time and space complexity.
 
 **Problem 17.** Given a sequence of matrices $A_1 (2 \times 10)$, $A_2 (10 \times 50)$,
-$A_3 (50 \times 20)$, $A_4 (20 \times 5)$, $A_5 (5 \times 80)$Find the optimal parenthesisation
+$A_3 (50 \times 20)$, $A_4 (20 \times 5)$, $A_5 (5 \times 80)$ Find the optimal parenthesisation
 using the matrix chain multiplication DP. Show the full DP table.
 
 ### 7.6 Advanced Topics (Problems 18--20)

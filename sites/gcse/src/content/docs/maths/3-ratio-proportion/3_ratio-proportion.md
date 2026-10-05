@@ -59,7 +59,7 @@ $$
 \mathrm{Each share = \frac{Q}{a + b}
 $$
 
-First share $= \frac{aQ}{a + b}$Second share $= \frac{bQ}{a + b}$.
+First share $= \frac{aQ}{a + b}$ Second share $= \frac{bQ}{a + b}$.
 
 **Worked Example.** Share 360 pounds in the ratio $2 : 3 : 4$.
 
@@ -75,7 +75,7 @@ Multiply each part by 12: $6 : 4 : 3$.
 
 Total parts: 13. One part: $\frac{560}{13}$.
 
-Shares: $\frac{3360}{13}, \frac{2240}{13}, \frac{1680}{13}$Approximately 258.46, 172.31, 129.23
+Shares: $\frac{3360}{13}, \frac{2240}{13}, \frac{1680}{13}$ Approximately 258.46, 172.31, 129.23
 Pounds.
 
 ### 1.3 Ratios and Fractions
@@ -449,7 +449,7 @@ Let red $= 3x$ and blue $= 5x$.
 $$\frac{3x + 8}{5x} = \frac{5}{6}$$ $$6(3x + 8) = 25x$$ $$18x + 48 = 25x$$ $$7x = 48$$
 
 Since $x$ must be an integer, there is no solution with whole counters. Let us re-check: $7x = 48$
-Gives $x = 48/7$Which is not an integer. This suggests the problem has no integer solution, which
+Gives $x = 48/7$ Which is not an integer. This suggests the problem has no integer solution, which
 Would need to be re-examined in context.
 
 ### 7.3 More Complex Ratio Problems (Higher Tier)
@@ -477,7 +477,7 @@ This is consistent with the earlier worked example: $a = 12$ and $b = 20$.
 Let me verify: $12 : 20$ simplifies to $3 : 2$. After adding 15: $27 : 35$. But
 $27 : 35 \neq 5 : 4$.
 
-So the numbers $12$ and $20$ with added $4$ gave $5 : 6$Not $5 : 4$. Let me solve from scratch.
+So the numbers $12$ and $20$ with added $4$ gave $5 : 6$ Not $5 : 4$. Let me solve from scratch.
 
 $\frac{a + 15}{b + 15} = \frac{5}{4}$ and $\frac{a}{b} = \frac{3}{2}$.
 
@@ -521,8 +521,8 @@ Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathr
 
 ## Common Pitfalls
 
-- **Mixing up the order of a ratio.** The ratio $A : B = 3 : 5$ means $A/B = 3/5$Not $B/A$.
-- **Forgetting to add all parts** when sharing in a ratio. The total number of parts is $a + b$Not
+- **Mixing up the order of a ratio.** The ratio $A : B = 3 : 5$ means $A/B = 3/5$ Not $B/A$.
+- **Forgetting to add all parts** when sharing in a ratio. The total number of parts is $a + b$ Not
   just $a$ or $b$.
 - **Confusing direct and inverse proportion graphs.** Direct proportion is a straight line through
   the origin; inverse proportion is a curve.
@@ -782,7 +782,7 @@ P = \frac{F}{A}
 $$
 
 **Worked Example.** A person weighing 600 N stands on the ground. If each foot has area
-$180\mathrm{ cm^2$Find the pressure.
+$180\mathrm{ cm^2$ Find the pressure.
 
 Total area $= 360\mathrm{ cm^2 = 0.036\mathrm{ m^2$.
 
@@ -826,7 +826,7 @@ $$
 \frac{\mathrm{total distance}{\mathrm{total time} = \frac{60}{4} = 15 \mathrm{ km/h
 $$
 
-The harmonic mean of 20 and 12 is $\frac{2}{1/20 + 1/12} = 15$Which equals the average speed for a
+The harmonic mean of 20 and 12 is $\frac{2}{1/20 + 1/12} = 15$ Which equals the average speed for a
 Return journey.
 
 ## Worked Examples

@@ -139,7 +139,7 @@ $$
 
 Where $s = (p_1 + p_2)^2$ is the Mandelstam variable (the centre-of-mass energy squared).
 
-In the centre-of-mass frame with $s = 4E_{\mathrm{cm}^2 \gg m_\mu^2}$The spin-averaged Squared
+In the centre-of-mass frame with $s = 4E_{\mathrm{cm}^2 \gg m_\mu^2}$ The spin-averaged Squared
 amplitude is:
 
 $$

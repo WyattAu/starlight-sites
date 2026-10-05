@@ -153,7 +153,7 @@ $$
 $$
 
 The **expectations-augmented Phillips curve** (Friedman, Phelps): if the government tries to reduce
-Unemployment below $u_n$Initial gains in employment are offset as workers demand higher wages in
+Unemployment below $u_n$ Initial gains in employment are offset as workers demand higher wages in
 Anticipation of higher inflation. The SRPC shifts upward, and unemployment returns to $u_n$ at a
 Higher inflation rate.
 
@@ -209,7 +209,7 @@ Labour supplied exceeds the quantity demanded at the artificially high wage.
 
 ### The Natural Rate of Unemployment
 
-The natural rate of unemployment ($u_n$Or NAIRU) is the rate of unemployment that prevails when The
+The natural rate of unemployment ($u_n$ Or NAIRU) is the rate of unemployment that prevails when The
 economy is at full employment. It equals the sum of frictional and structural unemployment.
 
 $$
@@ -294,7 +294,7 @@ $$
 \text{Money multiplier} = \frac{1}{\text{Reserve ratio}} = \frac{1}{r}
 $$
 
-If the reserve ratio is $r = 0.1$A deposit of `USD 1000` can ultimately support `USD 10000` in
+If the reserve ratio is $r = 0.1$ A deposit of `USD 1000` can ultimately support `USD 10000` in
 Deposits through successive rounds of lending and re-depositing.
 
 In practice, the money multiplier is less predictable because:
@@ -737,7 +737,7 @@ Where:
 - $\beta$ = slope of the Phillips curve
 - $\epsilon$ = supply shock
 
-**Short-run Phillips curve:** for a given $\pi^e$There is a trade-off between $\pi$ and $u$. The
+**Short-run Phillips curve:** for a given $\pi^e$ There is a trade-off between $\pi$ and $u$. The
 central bank can reduce $u$ below $u_n$ by creating unexpected inflation ($\pi > \pi^e$).
 
 **Long-run Phillips curve:** when $\pi = \pi^e$, $u = u_n$. The long-run Phillips curve is Vertical

@@ -83,7 +83,7 @@ $$
 
 where $B$ = bandwidth (Hz), $V$ = signal levels.
 
-**Shannon"s theorem** (noisy channel):
+**Shannon's theorem** (noisy channel):
 
 $$
 C = B \log_2(1 + \text{SNR})

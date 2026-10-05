@@ -367,7 +367,7 @@ class ColoredShape: Shape {
 ## Protocols
 
 Protocols define a **blueprint of methods, properties, and requirements** that conforming types must
-implement. They are central to Swift"s protocol-oriented programming paradigm.
+implement. They are central to Swift's protocol-oriented programming paradigm.
 
 ### Defining Protocols
 

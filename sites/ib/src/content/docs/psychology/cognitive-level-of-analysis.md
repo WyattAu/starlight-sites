@@ -30,7 +30,7 @@ software: how information is encoded, transformed, stored, and retrieved. For in
 BLOA might explain memory failure through hippocampal damage or acetylcholine deficiency, the CLOA
 explains it through interference, decay, or reconstructive processes shaped by schemas. The
 sociocultural level then contextualises these cognitive processes: memory accuracy, for example,
-varies with cultural framing (Loftus and Palmer"s leading questions) and social pressure (conformity
+varies with cultural framing (Loftus and Palmer's leading questions) and social pressure (conformity
 effects on recall). The CLOA thus occupies a mediating position in the three-level framework,
 translating biological inputs into behaviour that is further shaped by social context.
 

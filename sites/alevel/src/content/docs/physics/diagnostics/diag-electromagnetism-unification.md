@@ -30,7 +30,7 @@ flowchart TD
 
 ## Unit Tests
 
-### UT-1: Faraday"s Law vs Lenz's Law, Conceptual Distinction
+### UT-1: Faraday's Law vs Lenz's Law, Conceptual Distinction
 
 **Question:**
 
@@ -96,8 +96,8 @@ The key distinction: Faraday's law determines **how much** EMF is induced; Lenz'
 **Question:**
 
 An electromagnetic wave in vacuum has an electric field given by
-$E = E_0\sin(kx - \omega t)\,\hat{j}$Where
-$E_0 = 30\,\text{V}\,\text{m}^{-1}$, $k = 125.7\,\text{rad}\,\text{m}^{-1}$And
+$E = E_0\sin(kx - \omega t)\,\hat{j}$ Where
+$E_0 = 30\,\text{V}\,\text{m}^{-1}$, $k = 125.7\,\text{rad}\,\text{m}^{-1}$ And
 $\omega = 3.77 \times 10^{10}\,\text{rad}\,\text{s}^{-1}$.
 
 (a) Calculate the wavelength, frequency, and speed of the wave. Verify that the speed equals $c$.
@@ -228,7 +228,7 @@ $$
 U_E = \frac{1}{2}\varepsilon_0 E_0^2 \times \text{volume}
 $$
 
-We need the plate separation: $C = \varepsilon_0 A/d$So
+We need the plate separation: $C = \varepsilon_0 A/d$ So
 $d = \varepsilon_0 A/C = 8.85 \times 10^{-12} \times 0.01/(1.0 \times 10^{-12}) = 0.0885\,\text{m}$
 
 $$

@@ -140,7 +140,7 @@ true
 
 ### Strings
 
-Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang"s
+Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang's
 string type, which is a list of integers).
 
 ```elixir

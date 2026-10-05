@@ -31,7 +31,7 @@ The gap between theory ($k_BT\ln 2 \approx 0.018$ eV at 300 K) and practice ($\s
 switch) spans 5--6 orders of magnitude. Closing this gap requires fundamentally different computing
 paradigms.
 
-### 20.2 Bennett"s Clock and Reversible Computing
+### 20.2 Bennett's Clock and Reversible Computing
 
 Bennett (1982) showed that a computer can be made logically reversible at every step if it never
 erases information. Such a computer dissipates energy only during the initialisation of bits and
@@ -89,7 +89,7 @@ Living systems process information at nonzero thermodynamic cost:
 
 ## Worked Example: Landauer Limit for a Flip-Flop
 
-**Problem.** A CMOS flip-flop operating at 3 GHz dissipates 10 $\mu$W. How many $k_B T$ per operation does this represent at 300 K? Compare with the Landauer limit.
+**Problem.** A CMOS flip-flop operating at 3 GHz dissipates 10 $\mu$ W. How many $k_B T$ per operation does this represent at 300 K? Compare with the Landauer limit.
 
 **Solution.** Energy per operation: $E = 10 \times 10^{-6} / (3 \times 10^9) = 3.33 \times 10^{-15}$ J.
 

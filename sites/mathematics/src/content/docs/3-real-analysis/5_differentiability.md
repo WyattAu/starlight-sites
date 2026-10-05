@@ -47,7 +47,7 @@ The converse is false: $f(x) = |x|$ is continuous at $0$ but not differentiable 
 ### 5.3 Mean Value Theorem
 
 **Theorem 5.2 (Rolle's Theorem).** If $f : [a,b] \to \mathbb{R}$ is continuous on
-$[a,b]$Differentiable On $(a,b)$ And $f(a) = f(b)$ Then there exists $c \in (a,b)$ such that
+$[a,b]$ Differentiable On $(a,b)$ And $f(a) = f(b)$ Then there exists $c \in (a,b)$ such that
 $f'(c) = 0$.
 
 _Proof._ By the Extreme Value Theorem, $f$ attains its maximum $M$ and minimum $m$ on $[a,b]$. If
@@ -63,7 +63,7 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 $$
 
 _Proof._ Define $g(x) = f(x) - \frac{f(b)-f(a)}{b-a}(x - a)$. Then $g(a) = g(b)$ and $g$ satisfies
-the Hypotheses of Rolle's theorem. So $g'(c) = 0$ for some $c \in (a,b)$Which gives the result.
+the Hypotheses of Rolle's theorem. So $g'(c) = 0$ for some $c \in (a,b)$ Which gives the result.
 $\blacksquare$
 
 **Corollary 5.4.** If $f'(x) = 0$ for all $x \in (a,b)$ Then $f$ is constant on $[a,b]$.
@@ -78,9 +78,9 @@ $$
 $$
 
 _Proof._ Define $h(x) = (f(b) - f(a))g(x) - (g(b) - g(a))f(x)$. Then $h(a) = h(b)$ So by Rolle's
-Theorem, $h'(c) = 0$ for some $c \in (a,b)$Which gives the result. $\blacksquare$
+Theorem, $h'(c) = 0$ for some $c \in (a,b)$ Which gives the result. $\blacksquare$
 
-_Remark._ When $g(x) = x$Cauchy's MVT reduces to the standard MVT. Cauchy’s MVT is the key
+_Remark._ When $g(x) = x$ Cauchy's MVT reduces to the standard MVT. Cauchy’s MVT is the key
 Ingredient in the .../1-number-and-algebra/3_proof-and-logic of L'Hôpital’s rule.
 
 **Corollary 5.6.** If $f$ is differentiable on $(a,b)$ and $|f'(x)| \leq M$ for all $x \in (a,b)$
@@ -130,14 +130,14 @@ open interval containing $c$ (except possibly at $c$ itself), $g'(x) \neq 0$ nea
 $\lim_{x \to c} f(x) = \lim_{x \to c} g(x) = 0$. If $\lim_{x \to c} f'(x)/g'(x) = L$ exists (as a
 finite Number or $\pm\infty$), then $\lim_{x \to c} f(x)/g(x) = L$.
 
-_Proof._ Extend $f$ and $g$ continuously to $c$ by setting $f(c) = g(c) = 0$. For $x \neq c$By
+_Proof._ Extend $f$ and $g$ continuously to $c$ by setting $f(c) = g(c) = 0$. For $x \neq c$ By
 Cauchy's Mean Value Theorem, there exists $\xi$ strictly between $c$ and $x$ such that
 
 $$
 \frac{f(x) - f(c)}{g(x) - g(c)} = \frac{f'(\xi)}{g'(\xi)}
 $$
 
-I.e., $\frac{f(x)}{g(x)} = \frac{f'(\xi)}{g'(\xi)}$. As $x \to c$We have $\xi \to c$ (since $\xi$ is
+I.e., $\frac{f(x)}{g(x)} = \frac{f'(\xi)}{g'(\xi)}$. As $x \to c$ We have $\xi \to c$ (since $\xi$ is
 trapped between $c$ and $x$). Therefore
 $\lim_{x \to c} f(x)/g(x) = \lim_{\xi \to c} f'(\xi)/g'(\xi) = L$. $\blacksquare$
 
@@ -146,19 +146,19 @@ Differentiable on $(a, b)$ (except possibly at $c$), $g'(x) \neq 0$ near $c$ And
 $\lim_{x \to c} |f(x)| = \lim_{x \to c} |g(x)| = \infty$. If $\lim_{x \to c} f'(x)/g'(x) = L$
 exists, Then $\lim_{x \to c} f(x)/g(x) = L$.
 
-_Proof (sketch)._ Fix $\varepsilon > 0$. For $x, y$ near $c$ with $x \neq y$By Cauchy's MVT:
+_Proof (sketch)._ Fix $\varepsilon > 0$. For $x, y$ near $c$ with $x \neq y$ By Cauchy's MVT:
 
 $$
 \frac{f(x) - f(y)}{g(x) - g(y)} = \frac{f'(\xi)}{g'(\xi)}
 $$
 
-For some $\xi$ between $x$ and $y$. Since $f'(\xi)/g'(\xi) \approx L$ for $\xi$ near $c$We have:
+For some $\xi$ between $x$ and $y$. Since $f'(\xi)/g'(\xi) \approx L$ for $\xi$ near $c$ We have:
 
 $$
 \frac{f(x)}{g(x)} = \frac{f(x) - f(y)}{g(x) - g(y)} \cdot \frac{1 - f(y)/f(x)}{1 - g(y)/g(x)}
 $$
 
-Since $f(x), g(x) \to \infty$By fixing $y$ and letting $x \to c$The fractions $f(y)/f(x)$ and
+Since $f(x), g(x) \to \infty$ By fixing $y$ and letting $x \to c$ The fractions $f(y)/f(x)$ and
 $g(y)/g(x)$ tend to $0$ So the second factor tends to $1$. The first factor tends to $L$ by Cauchy's
 MVT. Hence $f(x)/g(x) \to L$. $\blacksquare$
 
@@ -184,7 +184,7 @@ $\blacksquare$
 ### 5.6 Darboux's Theorem
 
 **Theorem 5.8 (Darboux's Theorem).** If $f$ is differentiable on $[a, b]$ Then $f'$ has the
-Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$There exists $c \in (a, b)$ With
+Intermediate value property: for any $y$ between $f'(a)$ and $f'(b)$ There exists $c \in (a, b)$ With
 $f'(c) = y$.
 
 _Remark._ This means derivatives satisfy the intermediate value property even though they need not
@@ -198,8 +198,8 @@ $$
 g'(a) = f'(a) - y \lt 0 \quad \mathrm{and} \quad g'(b) = f'(b) - y > 0
 $$
 
-Since $g'(a) \lt 0$There exists $x_1 > a$ with $g(x_1) \lt g(a)$ (otherwise $g(x) \geq g(a)$ For $x$
-near $a$Contradicting $g'(a) \lt 0$). Similarly, since $g'(b) > 0$There exists $x_2 \lt b$ with
+Since $g'(a) \lt 0$ There exists $x_1 > a$ with $g(x_1) \lt g(a)$ (otherwise $g(x) \geq g(a)$ For $x$
+near $a$ Contradicting $g'(a) \lt 0$). Similarly, since $g'(b) > 0$ There exists $x_2 \lt b$ with
 $g(x_2) \lt g(b)$.
 
 Therefore $g$ attains its minimum at some $c \in (a, b)$. By Fermat's theorem on interior extrema,
@@ -211,7 +211,7 @@ $g'(c) = 0$ So $f'(c) = y$. $\blacksquare$
 _Solution._ For $x \neq 0$: $f'(x) = 2x \sin(1/x) - \cos(1/x)$. At $x = 0$:
 $f'(0) = \lim_{h \to 0} \frac{h^2 \sin(1/h)}{h} = \lim_{h \to 0} h \sin(1/h) = 0$.
 
-So $f'(0) = 0$. For any $\delta > 0$The term $-\cos(1/x)$ oscillates between $-1$ and $1$ on
+So $f'(0) = 0$. For any $\delta > 0$ The term $-\cos(1/x)$ oscillates between $-1$ and $1$ on
 $(0, \delta)$ So $f'$ takes all values in $[-1, 1]$ infinitely often on $(0, \delta)$.
 
 But Darboux's theorem says $f'$ has the intermediate value property. Indeed, $f'$ is not continuous

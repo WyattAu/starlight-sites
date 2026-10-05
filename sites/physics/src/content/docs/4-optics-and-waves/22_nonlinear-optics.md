@@ -85,7 +85,7 @@ $$
 \ell_c = \frac{\pi}{\Delta k} = \frac{\lambda}{4(n_e^{2\omega} - n_o^{\omega})}
 $$
 
-For typical values: $\ell_c \sim 5$ $\mu$M. A 1 mm crystal is $\sim 200$ coherence lengths long, so
+For typical values: $\ell_c \sim 5$ $\mu$ M. A 1 mm crystal is $\sim 200$ coherence lengths long, so
 phase matching is essential.
 
 The conversion efficiency for perfect phase matching with a 10 mm crystal at $I_\omega = 100$

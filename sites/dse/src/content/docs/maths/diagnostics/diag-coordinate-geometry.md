@@ -38,7 +38,7 @@ $$
 (x - 3)^2 + (y + 2)^2 = 25
 $$
 
-Centre: $(3,\; -2)$Radius: $5$.
+Centre: $(3,\; -2)$ Radius: $5$.
 
 ---
 
@@ -101,7 +101,7 @@ Find the length of the tangent from the point $P(8, 3)$ to the circle $x^2 + y^2
 
 Complete the square: $(x - 2)^2 + (y - 3)^2 = 4$.
 
-Centre $C = (2, 3)$Radius $r = 2$.
+Centre $C = (2, 3)$ Radius $r = 2$.
 
 Distance from $P$ to $C$: $PC = \sqrt{(8-2)^2 + (3-3)^2} = \sqrt{36} = 6$.
 
@@ -365,7 +365,7 @@ $BC = \sqrt{(11-7)^2 + (-1-5)^2} = \sqrt{16 + 36} = \sqrt{52} = 2\sqrt{13}$.
 
 $AC = \sqrt{(11-3)^2 + (-1-(-1))^2} = \sqrt{64} = 8$.
 
-Since $AB = BC$Triangle $ABC$ is isosceles.
+Since $AB = BC$ Triangle $ABC$ is isosceles.
 
 (b) Base $AC = 8$. Height is the perpendicular from $B$ to $AC$.
 
@@ -428,7 +428,7 @@ Centre: $\left(\dfrac{7}{3},\; \dfrac{14}{3}\right)$.
 Radius squared:
 $\left(\dfrac{7}{3} - 1\right)^2 + \left(\dfrac{14}{3} - 3\right)^2 = \dfrac{16}{9} + \dfrac{25}{9} = \dfrac{41}{9}$.
 
-Equation: $\left(x - \dfrac{7}{3}\right)^2 + \left(y - \dfrac{14}{3}\right)^2 = \dfrac{41}{9}$Or
+Equation: $\left(x - \dfrac{7}{3}\right)^2 + \left(y - \dfrac{14}{3}\right)^2 = \dfrac{41}{9}$ Or
 $9x^2 + 9y^2 - 42x - 84y + 128 = 0$.
 
 ---
@@ -494,9 +494,9 @@ Find the acute angle between the lines $3x - y + 2 = 0$ and $x + 2y - 7 = 0$.
 
 **Solution:**
 
-Line 1: $3x - y + 2 = 0 \implies y = 3x + 2$Slope $m_1 = 3$.
+Line 1: $3x - y + 2 = 0 \implies y = 3x + 2$ Slope $m_1 = 3$.
 
-Line 2: $x + 2y - 7 = 0 \implies y = -\dfrac{1}{2}x + \dfrac{7}{2}$Slope $m_2 = -\dfrac{1}{2}$.
+Line 2: $x + 2y - 7 = 0 \implies y = -\dfrac{1}{2}x + \dfrac{7}{2}$ Slope $m_2 = -\dfrac{1}{2}$.
 
 $$
 \tan \theta = \left|\frac{m_1 - m_2}{1 + m_1 m_2}\right| = \left|\frac{3 - (-1/2)}{1 + 3(-1/2)}\right| = \left|\frac{7/2}{1 - 3/2}\right| = \left|\frac{7/2}{-1/2}\right| = 7
@@ -631,7 +631,7 @@ Slope of $AB$: $m = \dfrac{-1-5}{4-(-2)} = \dfrac{-6}{6} = -1$.
 
 Slope of perpendicular bisector: $m_{\perp} = 1$.
 
-Equation: $y - 2 = 1(x - 1) \implies y = x + 1$Or $x - y + 1 = 0$.
+Equation: $y - 2 = 1(x - 1) \implies y = x + 1$ Or $x - y + 1 = 0$.
 
 ---
 
@@ -666,7 +666,7 @@ flowchart TD
 ## Common Pitfalls
 
 1. **Incorrect sign when completing the square in circle equations.** When completing the square for
-   $x^2 - 6x$The result is $(x - 3)^2 - 9$Not $(x - 3)^2 + 9$. Remember: you add and subtract the
+   $x^2 - 6x$ The result is $(x - 3)^2 - 9$ Not $(x - 3)^2 + 9$. Remember: you add and subtract the
    same quantity. Always verify by expanding back.
 
 2. **Forgetting to square the distance formula.** When equating distances (e.g. For a locus
@@ -677,8 +677,8 @@ flowchart TD
    $(x - h)^2 + (y - k)^2 = r^2$ gives the radius squared on the right side. If the equation is
    $(x-h)^2 + (y-k)^2 = d^2$ Then $d$ is the diameter, not the radius.
 
-4. **Wrong slope for perpendicular lines.** If a line has slope $m$The perpendicular line has slope
-   $-\dfrac{1}{m}$Not $\dfrac{1}{m}$. This sign error is extremely common in DSE.
+4. **Wrong slope for perpendicular lines.** If a line has slope $m$ The perpendicular line has slope
+   $-\dfrac{1}{m}$ Not $\dfrac{1}{m}$. This sign error is extremely common in DSE.
 
 5. **Not considering both intersection points of line and circle.** When a line intersects a circle,
    there can be 0, 1 (tangent), or 2 intersection points. Always check the discriminant of the
@@ -711,7 +711,7 @@ $P$. (2 marks)
 
 $(x + 2)^2 + (y - 5)^2 = 9$.
 
-Centre $= (-2, 5)$Radius $= 3$.
+Centre $= (-2, 5)$ Radius $= 3$.
 
 (b) The tangent at $(-1, 5)$ is perpendicular to the radius from $(-2, 5)$ to $(-1, 5)$.
 
@@ -741,7 +741,7 @@ the radius is horizontal and the tangent is vertical.
 The line $L: y = mx + 1$ intersects the circle $x^2 + y^2 = 9$ at two distinct points.
 
 (a) Show that $(1 + m^2)x^2 + 2mx - 8 = 0$. (2 marks) (b) Find the range of values of $m$ for which
-$L$ intersects the circle at two distinct points. (3 marks) (c) For $m = 1$Find the length of the
+$L$ intersects the circle at two distinct points. (3 marks) (c) For $m = 1$ Find the length of the
 chord of intersection. (3 marks)
 
 **Solution:**
@@ -758,7 +758,7 @@ $(1 + m^2)x^2 + 2mx - 8 = 0$.
 
 $\Delta = (2m)^2 - 4(1+m^2)(-8) = 4m^2 + 32(1 + m^2) = 4m^2 + 32 + 32m^2 = 36m^2 + 32$.
 
-Since $36m^2 + 32 > 0$ for all real $m$The line always intersects the circle at two distinct points
+Since $36m^2 + 32 > 0$ for all real $m$ The line always intersects the circle at two distinct points
 for all $m$.
 
 (c) For $m = 1$: $(1 + 1)x^2 + 2x - 8 = 0 \implies 2x^2 + 2x - 8 = 0 \implies x^2 + x - 4 = 0$.
@@ -805,7 +805,7 @@ $x + y - 7 = 0$.
 
 (b) Check $(3, 4)$: $3 + 4 - 7 = 0$. Yes, it lies on the locus.
 
-(c) The locus is the perpendicular bisector of the segment $AB$Which is a straight line.
+(c) The locus is the perpendicular bisector of the segment $AB$ Which is a straight line.
 
 ---
 
@@ -836,7 +836,7 @@ Median from $C(4, 6)$ to $M(4, 0)$: this is a vertical line $x = 4$.
 
 Slope of altitude from $A$: $m_{\perp} = \dfrac{2}{3}$.
 
-Equation: $y - 0 = \dfrac{2}{3}(x - 0) \implies y = \dfrac{2}{3}x$Or $2x - 3y = 0$.
+Equation: $y - 0 = \dfrac{2}{3}(x - 0) \implies y = \dfrac{2}{3}x$ Or $2x - 3y = 0$.
 
 (c) Intersection of $x = 4$ and $2x - 3y = 0$: $2(4) - 3y = 0 \implies y = \dfrac{8}{3}$.
 

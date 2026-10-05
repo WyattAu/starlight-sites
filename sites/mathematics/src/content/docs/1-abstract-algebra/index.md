@@ -52,7 +52,7 @@ sources:
 
 1. [Groups](/1-abstract-algebra/1_groups/)
 2. [Subgroups](/1-abstract-algebra/2_subgroups/)
-3. [Lagrange"s Theorem](/1-abstract-algebra/3_lagrange-s-theorem/)
+3. [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/)
 4. [Normal Subgroups and Quotient Groups](/1-abstract-algebra/4_normal-subgroups-and-quotient-groups/)
 5. [Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)
 6. [Group Actions](/1-abstract-algebra/6_group-actions/)

@@ -32,7 +32,7 @@ $$
 PV = Nk_BT
 $$
 
-Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
+Where $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann's constant.
 
 ### 1.2 First Law
 
@@ -92,18 +92,18 @@ $$
 With equality for reversible processes.
 
 _Proof._ Consider a system undergoing a cycle interacting with $n$ heat reservoirs at temperatures
-$T_1, \ldots, T_n$Exchanging heat $Q_i$ with reservoir $i$. The Clausius inequality follows from the
+$T_1, \ldots, T_n$ Exchanging heat $Q_i$ with reservoir $i$. The Clausius inequality follows from the
 impossibility of a perpetual motion machine of the second kind: a cycle that absorbs heat from a
 single reservoir and does work would violate the Kelvin-Planck statement. The detailed
 .../1-number-and-algebra/3_proof-and-logic uses auxiliary Carnot engines operating between pairs of
 reservoirs. $\blacksquare$
 
-**Corollary 1.4 (Principle of Increasing Entropy).** For an isolated system, $dS \geq 0$With
+**Corollary 1.4 (Principle of Increasing Entropy).** For an isolated system, $dS \geq 0$ With
 equality for reversible processes.
 
 ### 1.4 Third Law
 
-**Third Law (Nernst):** As $T \to 0^+$The entropy of a perfect crystal approaches a constant (which
+**Third Law (Nernst):** As $T \to 0^+$ The entropy of a perfect crystal approaches a constant (which
 can be taken as zero):
 
 $$
@@ -171,7 +171,7 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
 
 ### 1.7 Common Pitfalls
 
-- **$\delta Q$ and $\delta W$ are not exact differentials.** Unlike $dU$The heat and work are
+- **$\delta Q$ and $\delta W$ are not exact differentials.** Unlike $dU$ The heat and work are
   path-dependent. Only $\delta Q_{\mathrm{rev}/T = dS}$ is exact.
 - **The second law prohibits certain processes but does not explain _why_ they occur.** Statistical
   mechanics provides the microscopic explanation: entropy measures the number of microstates, and

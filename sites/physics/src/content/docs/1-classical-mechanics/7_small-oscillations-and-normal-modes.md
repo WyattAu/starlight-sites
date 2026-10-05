@@ -49,7 +49,7 @@ $$
 
 ### 7.3 Normal Modes and the Secular Equation
 
-Assuming solutions of the form $\eta_j = a_j e^{i\omega t}$The eigenvalue problem is:
+Assuming solutions of the form $\eta_j = a_j e^{i\omega t}$ The eigenvalue problem is:
 
 $$
 (\mathbf{V} - \omega^2 \mathbf{T})\mathbf{a} = \mathbf{0}
@@ -69,7 +69,7 @@ Modes are orthogonal with respect to both $\mathbf{T}$ and $\mathbf{V}$.
 
 _Proof._ Since $\mathbf{T}$ is positive definite, we can write $\mathbf{T} = \mathbf{L}\mathbf{L}^T$
 (Cholesky decomposition). Defining $\boldsymbol{\xi} = \mathbf{L}^T\mathbf{a}$ and
-$\mathbf{W} = \mathbf{L}^{-1}\mathbf{V}\mathbf{L}^{-T}$The eigenvalue problem becomes
+$\mathbf{W} = \mathbf{L}^{-1}\mathbf{V}\mathbf{L}^{-T}$ The eigenvalue problem becomes
 $\mathbf{W}\boldsymbol{\xi} = \omega^2\boldsymbol{\xi}$. Since $\mathbf{W}$ is symmetric and
 $\mathbf{V}$ is positive definite, all eigenvalues $\omega^2$ are real and positive. Orthogonality
 follows from the symmetry of $\mathbf{W}$. $\blacksquare$

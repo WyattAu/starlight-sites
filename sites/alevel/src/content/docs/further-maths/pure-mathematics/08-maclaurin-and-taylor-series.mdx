@@ -69,7 +69,7 @@ Differentiating repeatedly and evaluating at $x = 0$:
 - $f''(0) = 2a_2$
 - $f'''(0) = 6a_3 = 3!\,a_3$
 
-$f^{(n)}(0) = n!\,a_n$Giving $a_n = \dfrac{f^{(n)}(0)}{n!}$.
+$f^{(n)}(0) = n!\,a_n$ Giving $a_n = \dfrac{f^{(n)}(0)}{n!}$.
 
 Substituting back gives the Maclaurin series.
 
@@ -160,7 +160,7 @@ $$
 **Radius of convergence:** 1. Converges at $x = \pm 1$ by the alternating series test.
 
 **Derivation.** Since $\dfrac{d}{dx}\arctan x = \dfrac{1}{1+x^2} = 1 - x^2 + x^4 - x^6 + \cdots$ for
-$|x| < 1$Integrate term by term.
+$|x| < 1$ Integrate term by term.
 
 ### 2.7 Summary table
 
@@ -247,7 +247,7 @@ $x = \pm R$ must be tested separately.
 
 ### 4.2 The ratio test
 
-**Theorem (Ratio test).** For the series $\displaystyle\sum_{n=0}^{\infty}a_n x^n$Let
+**Theorem (Ratio test).** For the series $\displaystyle\sum_{n=0}^{\infty}a_n x^n$ Let
 
 $$
 L = \lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|
@@ -273,7 +273,7 @@ $\left|\dfrac{a_{n+1}}{a_n}\right| = \dfrac{n}{n+1} \to 1$ as $n \to \infty$.
 
 $R = 1$. The series converges for $|x| < 1$.
 
-At $x = 1$: alternating harmonic series, converges. At $x = -1$: $-\sum 1/n$Diverges.
+At $x = 1$: alternating harmonic series, converges. At $x = -1$: $-\sum 1/n$ Diverges.
 
 Interval of convergence: $-1 < x \leq 1$.
 
@@ -287,7 +287,7 @@ $R = \infty$. Converges for all $x$.
 
 ### Proof of convergence of the geometric series
 
-For $|x| < 1$The geometric series is $\displaystyle\sum_{n=0}^{\infty}x^n$.
+For $|x| < 1$ The geometric series is $\displaystyle\sum_{n=0}^{\infty}x^n$.
 
 The partial sum is $S_N = 1 + x + x^2 + \cdots + x^N$.
 
@@ -369,7 +369,7 @@ $$
 \frac{f(x)}{g(x)} \approx \frac{f'(a)(x-a) + \frac{f''(a)}{2}(x-a)^2}{g'(a)(x-a) + \frac{g''(a)}{2}(x-a)^2} = \frac{f'(a) + \frac{f''(a)}{2}(x-a)}{g'(a) + \frac{g''(a)}{2}(x-a)}
 $$
 
-Taking $x \to a$ gives $\dfrac{f'(a)}{g'(a)}$Which is L'Hôpital's rule. The series approach often
+Taking $x \to a$ gives $\dfrac{f'(a)}{g'(a)}$ Which is L'Hôpital's rule. The series approach often
 Gives more information (higher-order terms) than applying L'Hôpital's rule repeatedly.
 
 <hr />
@@ -377,14 +377,14 @@ Gives more information (higher-order terms) than applying L'Hôpital's rule repe
 ## 6. Key Results and Pitfalls
 
 <Aside type="caution" title="**Common errors:**">
-1. **Wrong coefficients.** The Maclaurin coefficient of $x^n$ is $\dfrac{f^{(n)}(0)}{n!}$Not
+1. **Wrong coefficients.** The Maclaurin coefficient of $x^n$ is $\dfrac{f^{(n)}(0)}{n!}$ Not
    $f^{(n)}(0)$. Always divide by the factorial.
 
-2. **Forgetting the range of validity.** $\ln(1+x)$ is valid for $-1 < x \leq 1$Not all $x$. Using
+2. **Forgetting the range of validity.** $\ln(1+x)$ is valid for $-1 < x \leq 1$ Not all $x$. Using
    it outside this range gives a wrong answer.
 
-3. **Incorrect substitution.** When expanding $e^{2x}$Substitute $2x$ into every term:
-   $e^{2x} = 1 + 2x + \dfrac{4x^2}{2} + \dfrac{8x^3}{6} + \cdots$Not
+3. **Incorrect substitution.** When expanding $e^{2x}$ Substitute $2x$ into every term:
+   $e^{2x} = 1 + 2x + \dfrac{4x^2}{2} + \dfrac{8x^3}{6} + \cdots$ Not
    $e^{2x} = 1 + 2x + \dfrac{x^2}{2} + \cdots$.
 
 4. **Sign errors in alternating series.** $\sin x$ and $\cos x$ have alternating signs:
@@ -445,7 +445,7 @@ $$
 $$
 
 Range: $|x^2| < 1 \implies |x| < 1$. Also converges at $x = \pm 1$ (alternating harmonic at $x = 1$
-When substituted, but here $-x^2 - x^4/2 - x^6/3 - \cdots$ at $x = 1$ is $-\sum 1/n$Diverges).
+When substituted, but here $-x^2 - x^4/2 - x^6/3 - \cdots$ at $x = 1$ is $-\sum 1/n$ Diverges).
 
 Valid for $-1 < x < 1$.
 
@@ -662,7 +662,7 @@ $$
 \frac{1}{\sqrt{1+x^2}} = 1 - \frac{x^2}{2} + \frac{3x^4}{8} - \frac{5x^6}{16} + \cdots
 $$
 
-Valid for $|x^2| < 1$I.e., $|x| < 1$.
+Valid for $|x^2| < 1$ I.e., $|x| < 1$.
 
 ### Example 7.2: Taylor series and error bounds
 
@@ -992,7 +992,7 @@ Ratio test: $\left|\dfrac{a_{n+1}}{a_n}\right| = \dfrac{n}{n+1}|x| \to |x|$.
 Converges when $|x| < 1$. At $x = 1$: alternating harmonic series (converges). At $x = -1$:
 $-\sum \dfrac{1}{n}$ (diverges).
 
-Radius of convergence: $\boxed{1}$Interval: $(-1, 1]$.
+Radius of convergence: $\boxed{1}$ Interval: $(-1, 1]$.
 
 ### Example 10.5: Series solution to estimate a definite integral
 
@@ -1011,7 +1011,7 @@ $= 0.5 - 0.04167 + 0.003125 - 0.000186 + 0.000009 = \boxed{0.4613}$ (4 d.p.)
 
 ### Example 10.6: Differentiating a known series
 
-**Problem.** By differentiating the Maclaurin series for $\dfrac{1}{1-x}$Find the Maclaurin series
+**Problem.** By differentiating the Maclaurin series for $\dfrac{1}{1-x}$ Find the Maclaurin series
 For $\dfrac{1}{(1-x)^2}$.
 
 **Solution.** $\dfrac{1}{1-x} = \sum_{n=0}^{\infty} x^n = 1 + x + x^2 + x^3 + \cdots$
@@ -1047,7 +1047,7 @@ $$
 | Pitfall                                                                   | Correct Approach                                                        |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | Confusing the Maclaurin series (about $x=0$) with a general Taylor series | Maclaurin: $a=0$; Taylor: $f(x) = \sum \dfrac{f^{(n)}(a)}{n!}(x-a)^n$   |
-| Forgetting the factorial in the denominator                               | Each term has $\dfrac{f^{(n)}(0)}{n!}x^n$Not $\dfrac{f^{(n)}(0)}{n}x^n$ |
+| Forgetting the factorial in the denominator                               | Each term has $\dfrac{f^{(n)}(0)}{n!}x^n$ Not $\dfrac{f^{(n)}(0)}{n}x^n$ |
 | Using a series outside its radius of convergence                          | Always check: e.g., $\ln(1+x)$ converges only for $-1 < x \leq 1$       |
 | Incorrectly multiplying series                                            | Collect like powers carefully; use a table if needed                    |
 
@@ -1099,7 +1099,7 @@ $\sin 0.1 = 0.1 - \dfrac{0.001}{6} + \dfrac{0.00001}{120} - \cdots = 0.1 - 0.000
 
 $\boxed{\sin 0.1 \approx 0.09983342}$
 
-The $x^7$ term contributes approximately $10^{-12}$Which is negligible.
+The $x^7$ term contributes approximately $10^{-12}$ Which is negligible.
 
 </details>
 
@@ -1199,7 +1199,7 @@ $\boxed{\displaystyle\lim_{x \to 0} \frac{\tan x - x}{x^3} = \frac{1}{3}}$
 
 ### 15.1 Power series solutions of differential equations
 
-For an ODE $y'' + p(x)y' + q(x)y = 0$Assume $y = \sum_{n=0}^{\infty} a_n x^n$.
+For an ODE $y'' + p(x)y' + q(x)y = 0$ Assume $y = \sum_{n=0}^{\infty} a_n x^n$.
 
 Substitute into the ODE and equate coefficients of each power of $x$ to zero. This gives a
 Recurrence relation for $a_n$.
@@ -1239,7 +1239,7 @@ $\ln(1-x^2) = -\displaystyle\sum_{n=1}^{\infty} \frac{x^{2n}}{n} = -x^2 - \dfrac
 
 Radius of convergence: $|x^2| < 1 \implies |x| < 1$. At $x = 1$: $-\sum \dfrac{1}{n}$ diverges.
 
-$\boxed{\ln(1-x^2) = -x^2 - \dfrac{x^4}{2} - \dfrac{x^6}{3} + O(x^8)}$Radius $= 1$.
+$\boxed{\ln(1-x^2) = -x^2 - \dfrac{x^4}{2} - \dfrac{x^6}{3} + O(x^8)}$ Radius $= 1$.
 
 </details>
 

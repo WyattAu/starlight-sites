@@ -78,7 +78,7 @@ Consider a triangle with vertices at $(0, 0)$, $(b, 0)$ And $(c, h)$.
 The line from $(0, 0)$ to $(c, h)$ is $y = \dfrac{h}{c}\,x$ and the line from $(b, 0)$ to $(c, h)$
 Is $y = \dfrac{h}{c - b}(x - b)$.
 
-For simplicity, take a right triangle with vertices $(0, 0)$$(b, 0)$$(0, h)$Where
+For simplicity, take a right triangle with vertices $(0, 0)$$(b, 0)$$(0, h)$ Where
 $f(x) = h - \dfrac{h}{b}x = h\!\left(1 - \dfrac{x}{b}\right)$.
 
 $$
@@ -144,7 +144,7 @@ $$
 $$
 
 This lies on the axis of symmetry. For a semicircle ($\alpha = \pi/2$):
-$\bar{x} = \dfrac{2r}{3(\pi/2)} = \dfrac{4r}{3\pi}$Consistent with Section
+$\bar{x} = \dfrac{2r}{3(\pi/2)} = \dfrac{4r}{3\pi}$ Consistent with Section
 2.2.
 
 ### 2.4 Circular arc
@@ -181,7 +181,7 @@ Edge. Find the centre of mass of the remaining lamina.
 The square has area $(4a)^2 = 16a^2$ and centre of mass at $(2a, 2a)$.
 
 The semicircle has area $\dfrac{1}{2}\pi(2a)^2 = 2\pi a^2$ and centre of mass at
-$(2a, 2a + \dfrac{4(2a)}{3\pi}) = (2a, 2a + \dfrac{8a}{3\pi})$Assuming the
+$(2a, 2a + \dfrac{4(2a)}{3\pi}) = (2a, 2a + \dfrac{8a}{3\pi})$ Assuming the
 Semicircle is removed from the top edge.
 
 Using negative mass for the semicircle:
@@ -243,7 +243,7 @@ $$
 
 Where $u$ is the initial velocity and $v$ is the final velocity.
 
-### 5.2 Newton"s law of restitution
+### 5.2 Newton's law of restitution
 
 **Definition.** The _coefficient of restitution_ $e$ for a collision between two bodies is:
 
@@ -355,7 +355,7 @@ $$
 \tan\beta = \frac{u_y}{e \cdot u_x} = \frac{\tan\alpha}{e}
 $$
 
-Since $e \leq 1$We have $\tan\beta \geq \tan\alpha$ So the angle of reflection is greater than or
+Since $e \leq 1$ We have $\tan\beta \geq \tan\alpha$ So the angle of reflection is greater than or
 Equal to the angle of incidence.
 
 ### 7.2 Two spheres in oblique collision
@@ -488,16 +488,16 @@ $\dfrac{20}{3\pi}\,\mathrm{cm}$ from the diameter.
 
 <details>
 <summary>Problem 4</summary>
-A uniform lamina is made from a rectangle of dimensions $6a \times 4a$ with a circular hole of radius $a$ cut out. The centre of the hole is at $(3a, 2a)$Which is the centre of the rectangle. Find the centre of mass of the remaining lamina.
+A uniform lamina is made from a rectangle of dimensions $6a \times 4a$ with a circular hole of radius $a$ cut out. The centre of the hole is at $(3a, 2a)$ Which is the centre of the rectangle. Find the centre of mass of the remaining lamina.
 </details>
 
 <details>
 <summary>Solution 4</summary>
-Rectangle: area $= 24a^2$Centre of mass at $(3a, 2a)$.
+Rectangle: area $= 24a^2$ Centre of mass at $(3a, 2a)$.
 
-Hole: area $= \pi a^2$Centre of mass at $(3a, 2a)$.
+Hole: area $= \pi a^2$ Centre of mass at $(3a, 2a)$.
 
-Since both centres of mass coincide at $(3a, 2a)$The composite lamina also has its centre of mass At
+Since both centres of mass coincide at $(3a, 2a)$ The composite lamina also has its centre of mass At
 $(3a, 2a)$ by symmetry.
 
 More formally:
@@ -542,9 +542,9 @@ A uniform wire framework consists of three rods forming a right-angled triangle 
 
 <details>
 <summary>Solution 6</summary>
-Rod 1: from $(0, 0)$ to $(4, 0)$Length $= 4$Midpoint $(2, 0)$.
-Rod 2: from $(0, 0)$ to $(0, 3)$Length $= 3$Midpoint $(0, 1.5)$.
-Rod 3: from $(4, 0)$ to $(0, 3)$Length $= \sqrt{16 + 9} = 5$Midpoint $(2, 1.5)$.
+Rod 1: from $(0, 0)$ to $(4, 0)$ Length $= 4$ Midpoint $(2, 0)$.
+Rod 2: from $(0, 0)$ to $(0, 3)$ Length $= 3$ Midpoint $(0, 1.5)$.
+Rod 3: from $(4, 0)$ to $(0, 3)$ Length $= \sqrt{16 + 9} = 5$ Midpoint $(2, 1.5)$.
 
 Total length $= 4 + 3 + 5 = 12$.
 
@@ -591,12 +591,12 @@ Velocity of $B$: $(2.28\mathbf{i} - \mathbf{j})\,\mathrm{m s}^{-1}$.
 
 <details>
 <summary>Problem 8</summary>
-A uniform lamina is made from a rectangle $ABCD$ where $AB = 8\,\mathrm{cm}$ and $BC = 6\,\mathrm{cm}$With a triangle $BCE$ removed where $E$ is the midpoint of $AD$. Find the centre of mass of the remaining lamina, taking $A$ as the origin with $AB$ along the $x$-axis.
+A uniform lamina is made from a rectangle $ABCD$ where $AB = 8\,\mathrm{cm}$ and $BC = 6\,\mathrm{cm}$ With a triangle $BCE$ removed where $E$ is the midpoint of $AD$. Find the centre of mass of the remaining lamina, taking $A$ as the origin with $AB$ along the $x$-axis.
 </details>
 
 <details>
 <summary>Solution 8</summary>
-Rectangle $ABCD$: area $= 48$Centre of mass at $(4, 3)$.
+Rectangle $ABCD$: area $= 48$ Centre of mass at $(4, 3)$.
 
 Triangle $BCE$: vertices $B(8, 0)$$C(8, 6)$$E(4, 6)$. Area $= \dfrac{1}{2} \times 4 \times 6 = 12$.
 Centre of mass:
@@ -643,15 +643,15 @@ $= u\cos\theta \times \dfrac{2eu\sin\theta}{g} = \dfrac{eu^2\sin 2\theta}{g}$.
 
 <details>
 <summary>Problem 10</summary>
-A uniform composite body is formed from a solid hemisphere of radius $r$ and a solid cylinder of radius $r$ and height $h$Joined at their circular faces. Both are made of the same uniform material. Find the centre of mass of the composite body, measured from the flat face of the hemisphere.
+A uniform composite body is formed from a solid hemisphere of radius $r$ and a solid cylinder of radius $r$ and height $h$ Joined at their circular faces. Both are made of the same uniform material. Find the centre of mass of the composite body, measured from the flat face of the hemisphere.
 </details>
 
 <details>
 <summary>Solution 10</summary>
-Hemisphere: volume $= \dfrac{2}{3}\pi r^3$Centre of mass at distance $\dfrac{3r}{8}$ from the flat
+Hemisphere: volume $= \dfrac{2}{3}\pi r^3$ Centre of mass at distance $\dfrac{3r}{8}$ from the flat
 Face.
 
-Cylinder: volume $= \pi r^2 h$Centre of mass at distance $\dfrac{h}{2}$ from the hemisphere end.
+Cylinder: volume $= \pi r^2 h$ Centre of mass at distance $\dfrac{h}{2}$ from the hemisphere end.
 
 Total volume $= \dfrac{2}{3}\pi r^3 + \pi r^2 h = \pi r^2\!\left(\dfrac{2r}{3} + h\right)$.
 
@@ -685,7 +685,7 @@ $$
 
 **Problem.** Two smooth spheres $A$ and $B$ have equal mass $m$. Before collision, $A$ moves with
 Velocity $(5\mathbf{i} + 3\mathbf{j})$ m/s and $B$ is stationary. The line of centres at impact
-Makes angle $\alpha$ with $\mathbf{i}$Where $\tan\alpha = 3/4$. The coefficient of restitution is
+Makes angle $\alpha$ with $\mathbf{i}$ Where $\tan\alpha = 3/4$. The coefficient of restitution is
 $e = 1/2$. Find the velocities after collision.
 
 **Solution.** The normal direction is along the line of centres:
@@ -724,7 +724,7 @@ $\mathbf{v}_B = \dfrac{87}{20}\!\left(\dfrac{4}{5}\mathbf{i} + \dfrac{3}{5}\math
 Removed with one vertex at the centre of the square and the opposite side on $AB$. Find the centre
 Of mass of the remaining lamina.
 
-**Solution.** Square: area $= 36a^2$Centre of mass at $(3a, 3a)$.
+**Solution.** Square: area $= 36a^2$ Centre of mass at $(3a, 3a)$.
 
 Equilateral triangle with side $2a$: area $= \dfrac{\sqrt{3}}{4}(2a)^2 = \sqrt{3}\,a^2$.
 
@@ -758,7 +758,7 @@ After impact with the wall:
 - Vertical velocity unchanged: $v_y' = u\sin\alpha - gd/(u\cos\alpha)$.
 
 The ball follows a parabolic trajectory after bouncing. By the reversibility of projectile motion
-And the scaling of horizontal velocity by factor $e$The horizontal range from the wall is $ed$.
+And the scaling of horizontal velocity by factor $e$ The horizontal range from the wall is $ed$.
 $\blacksquare$
 
 ### Example 9.4: Centre of mass of a solid cone
@@ -769,7 +769,7 @@ Radius $r$.
 **Solution.** Place the cone with its vertex at the origin and axis along the $z$-axis, extending to
 $z = h$.
 
-At height $z$The cross-section is a disc of radius $\dfrac{rz}{h}$With volume
+At height $z$ The cross-section is a disc of radius $\dfrac{rz}{h}$ With volume
 $dV = \pi\!\left(\dfrac{rz}{h}\right)^2 dz$.
 
 $$
@@ -801,12 +801,12 @@ Vertical.
 **Solution.** Centre of mass $G$ is at the centre of the rectangle. With $A$ at the origin and $B$
 Along the positive $x$-axis, $G = (4, 3)$.
 
-When suspended from $A$The line $AG$ is vertical. The vector $AG = (4, 3)$ makes angle
+When suspended from $A$ The line $AG$ is vertical. The vector $AG = (4, 3)$ makes angle
 $\arctan(3/4)$ with the horizontal.
 
 The diagonal $AC = (8, 6)$ also makes angle $\arctan(6/8) = \arctan(3/4)$ with the horizontal.
 
-Since $AG$ is parallel to $AC$The angle between the diagonal $AC$ and the vertical is the same as
+Since $AG$ is parallel to $AC$ The angle between the diagonal $AC$ and the vertical is the same as
 The angle between $AG$ and the vertical:
 $90^\circ - \arctan(3/4) = \arctan(4/3) \approx 53.1^\circ$.
 
@@ -862,9 +862,9 @@ From the centre of the semicircle. Find the centre of mass of the remaining lami
 <details>
 <summary>Solution</summary>
 
-Semicircle: area $= \pi a^2/2$Centre of mass at $(0, 4a/(3\pi))$ from the diameter.
+Semicircle: area $= \pi a^2/2$ Centre of mass at $(0, 4a/(3\pi))$ from the diameter.
 
-Removed circle: area $= \pi a^2/4$Centre of mass at $(a/2, 0)$.
+Removed circle: area $= \pi a^2/4$ Centre of mass at $(a/2, 0)$.
 
 Remaining area $= \pi a^2/2 - \pi a^2/4 = \pi a^2/4$.
 
@@ -931,9 +931,9 @@ Composite body have its centre of mass exactly at the join?
 <details>
 <summary>Solution</summary>
 
-Hemisphere: volume $= 2\pi r^3/3$Centre of mass at distance $3r/8$ from the flat face.
+Hemisphere: volume $= 2\pi r^3/3$ Centre of mass at distance $3r/8$ from the flat face.
 
-Cone: volume $= \pi r^2 h/3$Centre of mass at distance $h/4$ from the base.
+Cone: volume $= \pi r^2 h/3$ Centre of mass at distance $h/4$ from the base.
 
 Taking the join as the origin (measuring into the hemisphere as positive):
 
@@ -968,10 +968,10 @@ $$
 Width $2a$ and height $h$. The flat side of the semicircle coincides with one edge of the rectangle.
 Find the distance of the centre of mass from the base of the rectangle.
 
-**Solution.** Semicircle: area $= \dfrac{\pi a^2}{2}$Centre of mass at
+**Solution.** Semicircle: area $= \dfrac{\pi a^2}{2}$ Centre of mass at
 $\dfrac{4a}{3\pi}$ above the diameter.
 
-Rectangle: area $= 2ah$Centre of mass at $\dfrac{h}{2}$ above the base.
+Rectangle: area $= 2ah$ Centre of mass at $\dfrac{h}{2}$ above the base.
 
 Taking the base as datum:
 
@@ -1121,9 +1121,9 @@ Of mass of the remaining lamina.
 <details>
 <summary>Solution</summary>
 
-Triangle: area $= \dfrac{\sqrt{3}}{4}(2a)^2 = \sqrt{3}a^2$Centroid at geometric Centre.
+Triangle: area $= \dfrac{\sqrt{3}}{4}(2a)^2 = \sqrt{3}a^2$ Centroid at geometric Centre.
 
-Hole: area $= \dfrac{\pi a^2}{4}$Centroid at geometric centre.
+Hole: area $= \dfrac{\pi a^2}{4}$ Centroid at geometric centre.
 
 Since the hole is at the centroid, the remaining lamina has its centre of mass at the centroid of
 The triangle.
@@ -1143,7 +1143,7 @@ $\boxed{\bar{x} = 0}$
 ### Question 9
 
 **Prove that** in a one-dimensional elastic collision between a particle of mass $m_1$ and a
-Stationary particle of mass $m_2$The velocity of $m_1$ after collision is
+Stationary particle of mass $m_2$ The velocity of $m_1$ after collision is
 $v_1 = \dfrac{(m_1-m_2)u}{m_1+m_2}$.
 
 <details>

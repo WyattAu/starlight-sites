@@ -20,7 +20,7 @@ description: "Let where . We say if for Every There exists such that Comprehensi
 ### 4.1 Limits of Functions
 
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
-Every $\varepsilon > 0$There exists $\delta > 0$ such that
+Every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
 $$
 0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \varepsilon
@@ -29,7 +29,7 @@ $$
 ### 4.2 Continuity
 
 **Definition.** $f$ is **continuous at $a$** if $\lim_{x \to a} f(x) = f(a)$. In epsilon-delta form:
-For every $\varepsilon > 0$There exists $\delta > 0$ such that
+For every $\varepsilon > 0$ There exists $\delta > 0$ such that
 
 $$
 |x - a| \lt \delta \implies |f(x) - f(a)| \lt \varepsilon
@@ -61,16 +61,16 @@ The epsilon-delta definitions can be reformulated in terms of sequences, which i
 Convenient for .../1-number-and-algebra/3_proof-and-logics.
 
 **Proposition 4.2a (Sequential Criterion for Limits).** $\lim_{x \to c} f(x) = L$ if and only if For
-every sequence $(x_n)$ with $x_n \to c$ and $x_n \neq c$ for all $n$We have $f(x_n) \to L$.
+every sequence $(x_n)$ with $x_n \to c$ and $x_n \neq c$ for all $n$ We have $f(x_n) \to L$.
 
 _Proof._ ($\Rightarrow$) Let $\varepsilon > 0$. Choose $\delta > 0$ from the $\varepsilon$-$\delta$
-definition. Since $x_n \to c$There exists $N$ with $|x_n - c| \lt \delta$ for $n \geq N$. Then
+definition. Since $x_n \to c$ There exists $N$ with $|x_n - c| \lt \delta$ for $n \geq N$. Then
 $|f(x_n) - L| \lt \varepsilon$ for $n \geq N$.
 
 ($\Leftarrow$) Suppose the $\varepsilon$-$\delta$ condition fails. Then there exists
-$\varepsilon > 0$ such That for every $n \in \mathbb{N}$There exists $x_n$ with
+$\varepsilon > 0$ such That for every $n \in \mathbb{N}$ There exists $x_n$ with
 $0 \lt |x_n - c| \lt 1/n$ but $|f(x_n) - L| \geq \varepsilon$. Then $x_n \to c$ but
-$f(x_n) \not\to L$Contradicting the hypothesis. $\blacksquare$
+$f(x_n) \not\to L$ Contradicting the hypothesis. $\blacksquare$
 
 **Corollary 4.2b.** $f$ is continuous at $c$ if and only if for every sequence $(x_n)$ with
 $x_n \to c$ We have $f(x_n) \to f(c)$.
@@ -86,17 +86,17 @@ $f(b) \lt y \lt f(a)$), then there exists $c \in (a,b)$ such that $f(c) = y$.
 _Proof._ Assume $f(a) \lt y \lt f(b)$. Let $S = \{x \in [a,b] : f(x) \lt y\}$. Since $a \in S$ $S$
 is non-empty and bounded above by $b$. Let $c = \sup(S)$. We show $f(c) = y$.
 
-If $f(c) \lt y$ Then by continuity at $c$There exists $\delta > 0$ such that $f(x) \lt y$ for
-$x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$Contradicting that $c = \sup(S)$.
+If $f(c) \lt y$ Then by continuity at $c$ There exists $\delta > 0$ such that $f(x) \lt y$ for
+$x \in (c - \delta, c + \delta)$. But then $c + \delta/2 \in S$ Contradicting that $c = \sup(S)$.
 
 If $f(c) > y$ Then by continuity, there exists $\delta > 0$ such that $f(x) > y$ for
-$x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$Contradicting
+$x \in (c - \delta, c + \delta)$. But then $c - \delta/2$ is an upper bound for $S$ Contradicting
 That $c = \sup(S)$.
 
 Therefore $f(c) = y$. $\blacksquare$
 
 _Alternative .../1-number-and-algebra/3_proof-and-logic (bisection)._ Set $a_0 = a$, $b_0 = b$.
-Given $[a_n, b_n]$ with $f(a_n) \lt y \lt f(b_n)$ Let $m_n = (a_n + b_n)/2$. If $f(m_n) \geq y$Set
+Given $[a_n, b_n]$ with $f(a_n) \lt y \lt f(b_n)$ Let $m_n = (a_n + b_n)/2$. If $f(m_n) \geq y$ Set
 $a_{n+1} = a_n$, $b_{n+1} = m_n$. If $f(m_n) \lt y$ Set $a_{n+1} = m_n$, $b_{n+1} = b_n$. Either
 way, $f(a_n) \lt y \leq f(b_n)$ and $b_n - a_n = (b-a)/2^n \to 0$. By the nested interval property,
 $a_n \to c$ and $b_n \to c$. By continuity, $f(c) = \lim f(a_n) \leq y$ And
@@ -108,20 +108,20 @@ $f(c) = \lim f(b_n) \geq y$ So $f(c) = y$. $\blacksquare$
 Minimum on $[a,b]$: there exist $c_1, c_2 \in [a,b]$ such that $f(c_1) \leq f(x) \leq f(c_2)$ for
 all $x \in [a,b]$.
 
-_Proof._ We first show $f$ is bounded. Suppose not; then for each $n \in \mathbb{N}$There exists
+_Proof._ We first show $f$ is bounded. Suppose not; then for each $n \in \mathbb{N}$ There exists
 $x_n \in [a,b]$ with $|f(x_n)| > n$. By Bolzano-Weierstrass, $(x_n)$ has a convergent subsequence
 $x_{n_k} \to c \in [a,b]$. By continuity, $f(x_{n_k}) \to f(c)$ So $(f(x_{n_k}))$ is bounded. But
-$|f(x_{n_k})| > n_k \to \infty$A contradiction.
+$|f(x_{n_k})| > n_k \to \infty$ A contradiction.
 
-Now we show $f$ attains its supremum. Let $M = \sup\{f(x) : x \in [a,b]\}$. For each $n$Choose
+Now we show $f$ attains its supremum. Let $M = \sup\{f(x) : x \in [a,b]\}$. For each $n$ Choose
 $x_n \in [a,b]$ with $f(x_n) > M - 1/n$. By Bolzano-Weierstrass, $(x_n)$ has a subsequence
 $x_{n_k} \to c \in [a,b]$. By continuity, $f(c) = \lim f(x_{n_k})$. Since
-$M - 1/n_k \lt f(x_{n_k}) \leq M$ for all $k$The squeeze theorem gives $f(c) = M$. The argument for
+$M - 1/n_k \lt f(x_{n_k}) \leq M$ for all $k$ The squeeze theorem gives $f(c) = M$. The argument for
 the infimum is similar (consider $-f$). $\blacksquare$
 
 ### 4.5 Uniform Continuity
 
-**Definition.** $f$ is **uniformly continuous** on $D$ if for every $\varepsilon > 0$There exists
+**Definition.** $f$ is **uniformly continuous** on $D$ if for every $\varepsilon > 0$ There exists
 $\delta > 0$ such that for all $x, y \in D$:
 
 $$
@@ -137,11 +137,11 @@ point $a$; for uniform continuity, $\delta$ depends only on $\varepsilon$.
 Interval $[a,b]$ Then $f$ is uniformly continuous on $[a,b]$.
 
 _Proof._ Suppose $f$ is continuous on $[a,b]$ but not uniformly continuous. Then there exists
-$\varepsilon > 0$ such that for every $n \in \mathbb{N}$There exist $x_n, y_n \in [a,b]$ with
+$\varepsilon > 0$ such that for every $n \in \mathbb{N}$ There exist $x_n, y_n \in [a,b]$ with
 $|x_n - y_n| \lt 1/n$ but $|f(x_n) - f(y_n)| \geq \varepsilon$.
 
 By the Bolzano-Weierstrass theorem, $(x_n)$ has a convergent subsequence $x_{n_k} \to c \in [a,b]$.
-Since $|x_{n_k} - y_{n_k}| \lt 1/n_k \to 0$We have $y_{n_k} \to c$ as well.
+Since $|x_{n_k} - y_{n_k}| \lt 1/n_k \to 0$ We have $y_{n_k} \to c$ as well.
 
 By continuity of $f$ at $c$: there exists $\delta > 0$ such that $|x - c| \lt \delta$ implies
 $|f(x) - f(c)| \lt \varepsilon/2$. For $k$ sufficiently large, $|x_{n_k} - c| \lt \delta$ and
@@ -160,9 +160,9 @@ Contradicting $|f(x_{n_k}) - f(y_{n_k})| \geq \varepsilon$. $\blacksquare$
 _Solution._ For $x, y \geq 0$:
 $|\sqrt{x} - \sqrt{y}| = \frac{|x - y|}{\sqrt{x} + \sqrt{y}} \leq |x - y|^{1/2}$.
 
-Given $\varepsilon > 0$Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
+Given $\varepsilon > 0$ Choose $\delta = \varepsilon^2$. Then $|x - y| \lt \delta$ implies
 $|\sqrt{x} - \sqrt{y}| \leq \sqrt{|x-y|} \lt \sqrt{\delta} = \varepsilon$. Since $\delta$ depends
-Only on $\varepsilon$The continuity is uniform. $\blacksquare$
+Only on $\varepsilon$ The continuity is uniform. $\blacksquare$
 
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ .../1-number-and-algebra/3_proof-and-logic that $f(x) = 3x - 1$ is continuous at $x = 2$</summary>
@@ -186,7 +186,7 @@ $$
 |f(x) - 9| = |x^2 - 9| = |x + 3| \cdot |x - 3|
 $$
 
-Restrict to $\delta \leq 1$ So $|x - 3| \lt 1$ means $2 \lt x \lt 4$Giving $|x + 3| \lt 7$.
+Restrict to $\delta \leq 1$ So $|x - 3| \lt 1$ means $2 \lt x \lt 4$ Giving $|x + 3| \lt 7$.
 
 Choose $\delta = \min(1, \varepsilon/7)$. Then $|x - 3| \lt \delta$ implies:
 
@@ -236,7 +236,7 @@ $$
 |f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon
 $$
 
-So $f$ is continuous at $0$. Since $f$ extends continuously from $(0, 1]$ to $[0, 1]$The
+So $f$ is continuous at $0$. Since $f$ extends continuously from $(0, 1]$ to $[0, 1]$ The
 Heine-Cantor Theorem implies $f$ is uniformly continuous on $[0, 1]$. $\blacksquare$
 
 </details>
@@ -263,7 +263,7 @@ continuous** On $\mathbb{R}$. The same argument works for $\cos x$. $\blacksquar
 <details>
 <summary>Worked Example: $\varepsilon$-$\delta$ .../1-number-and-algebra/3_proof-and-logic that $f(x) = e^x$ is continuous at every $a \in \mathbb{R}$</summary>
 
-_Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$Which follows from the
+_Solution._ We use the inequality $|e^u - e^v| \leq e^{\max(u,v)} |u - v|$ Which follows from the
 Mean Value Theorem applied to $e^t$: $e^u - e^v = e^\xi (u - v)$ for some $\xi$ between $u$ and $v$
 So $|e^u - e^v| = e^\xi |u - v| \leq e^{\max(u,v)} |u - v|$.
 

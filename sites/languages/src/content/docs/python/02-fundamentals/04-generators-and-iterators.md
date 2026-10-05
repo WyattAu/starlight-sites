@@ -777,7 +777,7 @@ print(list(islice(primes(), 10)))            # [2, 3, 5, 7, 11, 13, 17, 19, 23, 
 The prime sieve above is an incremental version of the Sieve of Eratosthenes, sometimes called the
 "incremental sieve" or "O'Neill sieve." It maintains a dictionary of known composite numbers and
 Their generating primes, avoiding the memory cost of a full boolean sieve array. Its time complexity
-Is approximately $O(n \log \log n)$ for generating all primes up to $n$Matching the classical Sieve,
+Is approximately $O(n \log \log n)$ for generating all primes up to $n$ Matching the classical Sieve,
 but its constant factor is higher due to dictionary overhead.
 
 ### Pipeline Processing (ETL)

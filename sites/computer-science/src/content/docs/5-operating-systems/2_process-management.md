@@ -118,7 +118,7 @@ Averaging: $\tau_{n+1} = \alpha t_n + (1 - \alpha) \tau_n$.
 **Shortest Remaining Time First (SRTF).** Preemptive SJF. If a new process arrives with a shorter
 Remaining burst, preempt the current process.
 
-**Round Robin (RR).** Each process gets a time quantum $q$. If not finished within $q$Preempted and
+**Round Robin (RR).** Each process gets a time quantum $q$. If not finished within $q$ Preempted and
 Placed at the back of the ready queue. If $q$ is large, RR degenerates to FCFS. Typical $q$:
 $10\mathrm{--100}$ ms.
 

@@ -54,7 +54,7 @@ $$
 
 This works because $dy$ and $dx$ are related through the chain rule: $\frac{dy}{dx} = g(x)h(y)$
 Rewrites as $\frac{1}{h(y)}\frac{dy}{dx} = g(x)$ And integrating both sides with respect to $x$ Gives
-$\int \frac{1}{h(y)}\frac{dy}{dx}\,dx = \int g(x)\,dx$Which is exactly the separated form Above.
+$\int \frac{1}{h(y)}\frac{dy}{dx}\,dx = \int g(x)\,dx$ Which is exactly the separated form Above.
 
 ### Separability Test
 
@@ -179,7 +179,7 @@ $$
 Y(t) = y_0 \cdot 2^{-t/T_{1/2}}
 $$
 
-Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$We get $k = -\frac{\ln 2}{T_{1/2}}$.
+Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$ We get $k = -\frac{\ln 2}{T_{1/2}}$.
 
 The half-life is a constant: no matter when you start measuring, the time for the quantity to halve
 Is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
@@ -219,11 +219,11 @@ $$
 \frac{dy}{dt} = ky\!\left(1 - \frac{y}{L}\right)
 $$
 
-- When $y$ is small relative to $L$Growth is approximately exponential (the factor
+- When $y$ is small relative to $L$ Growth is approximately exponential (the factor
   $1 - \frac{y}{L} \approx 1$).
-- As $y \to L$The growth rate $\to 0$.
+- As $y \to L$ The growth rate $\to 0$.
 - The carrying capacity $L$ is a horizontal asymptote.
-- If $y \gt L$The growth rate is negative, pulling $y$ back toward $L$.
+- If $y \gt L$ The growth rate is negative, pulling $y$ back toward $L$.
 
 ### Solution
 
@@ -237,7 +237,7 @@ Where $A = \frac{L - y_0}{y_0}$ depends on the initial condition.
 
 ### Derivation
 
-Starting with $\frac{dy}{dt} = ky\!\left(1 - \frac{y}{L}\right)$Separate:
+Starting with $\frac{dy}{dt} = ky\!\left(1 - \frac{y}{L}\right)$ Separate:
 
 $$
 \int \frac{L}{y(L - y)}\, dy = \int k\, dt
@@ -306,7 +306,7 @@ Shows the direction a solution curve must pass through that point.
 
 ### Constructing Slope Fields
 
-For any given grid point $(x_i, y_j)$Compute $f(x_i, y_j)$ and draw a short segment with that Slope.
+For any given grid point $(x_i, y_j)$ Compute $f(x_i, y_j)$ and draw a short segment with that Slope.
 The density of the grid determines how accurately the field represents the DE.
 
 ### Interpreting Slope Fields
@@ -335,7 +335,7 @@ For $\displaystyle\frac{dy}{dx} = \frac{x}{y}$:
 When $y \gt 0$: slopes have the same sign as $x$. When $y \lt 0$: slopes have the opposite sign of
 $x$. When $y = 0$: slopes are undefined (vertical line segments).
 
-The solution curves are hyperbolas $y^2 - x^2 = C$Consistent with our earlier analytic solution.
+The solution curves are hyperbolas $y^2 - x^2 = C$ Consistent with our earlier analytic solution.
 
 ## Euler's Method (CED Unit 7.6)
 
@@ -381,8 +381,8 @@ $y(1) = 0$.
 
 So $y(2) \approx 1.5$.
 
-(The exact solution is $y = e^{x-1} - x - 1$Giving $y(2) = e - 3 \approx -0.282$. The Approximation
-is poor due to the large step size. With $\Delta x = 0.1$The result is much closer.)
+(The exact solution is $y = e^{x-1} - x - 1$ Giving $y(2) = e - 3 \approx -0.282$. The Approximation
+is poor due to the large step size. With $\Delta x = 0.1$ The result is much closer.)
 
 ### Worked Example: More Steps
 
@@ -464,7 +464,7 @@ Which substance leaves.
 A tank holds 100 L of pure water. Brine with 0.5 kg/L salt flows in at 5 L/min, and the mixture
 Flows out at 5 L/min. Find the salt content after 20 minutes.
 
-Since $r_i = r_o = 5$The volume stays at 100 L.
+Since $r_i = r_o = 5$ The volume stays at 100 L.
 
 $$
 \frac{dQ}{dt} = 5(0.5) - \frac{5}{100}Q = 2.5 - 0.05Q
@@ -491,7 +491,7 @@ $$
 A tank initially contains 200 L of pure water. Brine with 0.3 kg/L salt flows in at 4 L/min, and the
 Mixture flows out at 3 L/min. Find the salt content after 60 minutes.
 
-Since $r_i \neq r_o$The volume changes: $V(t) = 200 + (4 - 3)t = 200 + t$.
+Since $r_i \neq r_o$ The volume changes: $V(t) = 200 + (4 - 3)t = 200 + t$.
 
 $$
 \frac{dQ}{dt} = 4(0.3) - \frac{3}{200 + t}Q = 1.2 - \frac{3Q}{200 + t}
@@ -560,7 +560,7 @@ For autonomous equations $\frac{dy}{dt} = f(y)$:
 
 ### Phase Line Analysis
 
-For an autonomous DE $\frac{dy}{dt} = f(y)$The **phase line** is a one-dimensional diagram of the
+For an autonomous DE $\frac{dy}{dt} = f(y)$ The **phase line** is a one-dimensional diagram of the
 $y$-axis with arrows indicating the direction of flow.
 
 - Draw the $y$-axis and mark the equilibrium points (zeros of $f$).
@@ -688,7 +688,7 @@ Method would be.
 
 2. **Incorrectly separating variables.** All $y$ terms (including $dy$) must be on one side, and all
    $x$ terms (including $dx$) on the other. If you cannot algebraically factor $f(x, y)$ into
-   $g(x)h(y)$The equation is not separable and you need a different technique.
+   $g(x)h(y)$ The equation is not separable and you need a different technique.
 
 3. **Not checking the domain** of the solution. Some solutions may only be valid on a restricted
    interval. For example, the solution to $\frac{dy}{dx} = \frac{x}{y}$ is $y^2 = x^2 + C$ But if
@@ -697,11 +697,11 @@ Method would be.
 4. **Confusing the logistic growth equation** with exponential growth. The logistic equation has the
    additional factor $\left(1 - \frac{y}{L}\right)$ that caps growth at the carrying capacity.
 
-5. **Sign errors in Euler's method.** Remember: $y_{n+1} = y_n + f(x_n, y_n) \cdot \Delta x$Not
+5. **Sign errors in Euler's method.** Remember: $y_{n+1} = y_n + f(x_n, y_n) \cdot \Delta x$ Not
    minus. The slope at the current point tells you which direction to step.
 
-6. **Identifying the wrong carrying capacity.** In $\frac{dy}{dt} = ky(1 - y/L)$The carrying
-   capacity is $L$Not $\frac{1}{L}$ or $kL$. Check: setting $\frac{dy}{dt} = 0$ gives $y = 0$ or
+6. **Identifying the wrong carrying capacity.** In $\frac{dy}{dt} = ky(1 - y/L)$ The carrying
+   capacity is $L$ Not $\frac{1}{L}$ or $kL$. Check: setting $\frac{dy}{dt} = 0$ gives $y = 0$ or
    $y = L$.
 
 7. **Forgetting that equilibrium solutions** cannot be found by separation of variables (since you
@@ -724,7 +724,7 @@ Method would be.
 4. A body at $80^\circ\mathrm{C$ is placed in a room at $25^\circ\mathrm{C$. After 30 minutes, the
    body is at $50^\circ\mathrm{C$. When will it reach $30^\circ\mathrm{C$?
 
-5. For $\displaystyle\frac{dy}{dx} = y(y - 2)(y - 5)$Find all equilibrium solutions and classify
+5. For $\displaystyle\frac{dy}{dx} = y(y - 2)(y - 5)$ Find all equilibrium solutions and classify
    their stability. Draw the phase line.
 
 6. Sketch the slope field for $\displaystyle\frac{dy}{dx} = \frac{x}{y}$ and identify the
@@ -785,7 +785,7 @@ at $t = 50$ And (b) the time when the population reaches half the carrying capac
 <details>
 <summary>Answer</summary>
 
-Carrying capacity $K = 1000$Growth rate $r = 0.05$.
+Carrying capacity $K = 1000$ Growth rate $r = 0.05$.
 
 Logistic solution: $P(t) = \frac{K}{1 + Ae^{-rt}}$ where
 $A = \frac{K - P_0}{P_0} = \frac{1000 - 100}{100} = 9$.
@@ -844,7 +844,7 @@ For $y \gt x$ (above the line $y = x$): $dy/dx = x - y \lt 0$ So solutions decre
 For $y \lt x$ (below the line $y = x$): $dy/dx = x - y \gt 0$ So solutions increase.
 
 All solutions approach the line $y = x - 1$ as $x \to \infty$ (this can be verified by solving the
-DE: the general solution is $y = x - 1 + Ce^{-x}$Which approaches $x - 1$).
+DE: the general solution is $y = x - 1 + Ce^{-x}$ Which approaches $x - 1$).
 
 The line $y = x - 1$ is a stable equilibrium solution.
 

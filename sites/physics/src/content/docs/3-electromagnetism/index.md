@@ -58,7 +58,7 @@ graph TD
 
 ## Contents
 
-1. [Maxwell"s Equations](/3-electromagnetism/1_maxwell-s-equations/)
+1. [Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)
 2. [Electrostatics](/3-electromagnetism/2_electrostatics/)
 3. [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
 4. [Electrodynamics](/3-electromagnetism/4_electrodynamics/)

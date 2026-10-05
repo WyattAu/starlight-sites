@@ -63,7 +63,7 @@ $$
 $$
 
 Where $\Delta r$ is the radiative correction depending on $S$, $T$, $U$. Current data give
-$S = 0.05 \pm 0.11$ and $T = 0.09 \pm 0.13$Consistent with the SM ($S = T = 0$) but leaving room for
+$S = 0.05 \pm 0.11$ and $T = 0.09 \pm 0.13$ Consistent with the SM ($S = T = 0$) but leaving room for
 new physics.
 
 ### 13.3 Rare Decays and Flavour Physics
@@ -98,7 +98,7 @@ $$
 Where $G_{0\nu}$ is the phase space factor, $M_{0\nu}$ is the nuclear matrix element, and
 $\langle m_{\beta\beta}\rangle$ is the effective Majorana mass.
 
-Current best limit: $T_{1/2}^{0\nu} > 1.8 \times 10^{26}$ yr ($^{76}$Ge, GERDA), corresponding to
+Current best limit: $T_{1/2}^{0\nu} > 1.8 \times 10^{26}$ yr ($^{76}$ Ge, GERDA), corresponding to
 $\langle m_{\beta\beta}\rangle < 0.07$--$0.16$ eV.
 
 <details>
@@ -122,7 +122,7 @@ $$
 a_e^{\text{exp} = 1\,159\,652\,180.59(0.22) \times 10^{-12}}
 $$
 
-The agreement is at the level of $0.2 \times 10^{-12}$ out of $1160 \times 10^{-9}$I.e., relative
+The agreement is at the level of $0.2 \times 10^{-12}$ out of $1160 \times 10^{-9}$ I.e., relative
 precision of $1.7 \times 10^{-13}$. This is the most precise test of any prediction in physics.
 
 The comparison also determines $\alpha$ to higher precision than any direct measurement:

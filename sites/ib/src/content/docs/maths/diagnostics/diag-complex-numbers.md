@@ -40,13 +40,13 @@ flowchart TD
 
 > Tests edge cases, boundary conditions, and common misconceptions for complex numbers.
 
-### UT-1: De Moivre"s Theorem and Argument Branch Cuts
+### UT-1: De Moivre's Theorem and Argument Branch Cuts
 
 **Question:**
 
 **(a)** Find all values of $z$ such that $z^4 = -16$.
 
-**(b)** Express each solution in the form $a + bi$In polar form $re^{i\theta}$ And state the
+**(b)** Express each solution in the form $a + bi$ In polar form $re^{i\theta}$ And state the
 principal argument of each.
 
 **(c)** A student computes one root as $2e^{i\pi/4}$ and claims the other roots are obtained by
@@ -76,7 +76,7 @@ $$
   $z_3 = 2e^{i7\pi/4} = 2\left(\cos\frac{7\pi}{4} + i\sin\frac{7\pi}{4}\right) = \sqrt{2} - i\sqrt{2}$, $\arg = -\frac{\pi}{4}$
 
 Note: $\frac{5\pi}{4}$ is normalised to $-\frac{3\pi}{4}$ And $\frac{7\pi}{4}$ is normalised to
-$-\frac{\pi}{4}$To satisfy the principal argument range $(-\pi, \pi]$.
+$-\frac{\pi}{4}$ To satisfy the principal argument range $(-\pi, \pi]$.
 
 **(c)** The student is correct that the arguments differ by $\frac{\pi}{2}$. Starting from
 $\frac{\pi}{4}$: $\frac{3\pi}{4}$$\frac{5\pi}{4}$$\frac{7\pi}{4}$. These are the correct arguments
@@ -115,7 +115,7 @@ concludes that $\arg(z) = \frac{\pi}{3}$.
 **Solution:**
 
 **(a)** The point $(-1, -\sqrt{3})$ lies in the **third quadrant** (both coordinates negative). The
-student used $\arctan\!\left(\frac{b}{a}\right) = \arctan\!\left(\frac{-\sqrt{3}}{-1}\right)$Which
+student used $\arctan\!\left(\frac{b}{a}\right) = \arctan\!\left(\frac{-\sqrt{3}}{-1}\right)$ Which
 gives $\frac{\pi}{3}$, a first-quadrant angle. The $\arctan$ function always returns values in
 $(-\frac{\pi}{2}, \frac{\pi}{2})$ So it cannot distinguish between first and third quadrants.
 
@@ -125,7 +125,7 @@ $$
 \arg(z) = \pi + \arctan\!\left(\frac{\sqrt{3}}{1}\right) = \pi + \frac{\pi}{3} = -\frac{2\pi}{3}
 $$
 
-(The principal value is $-\frac{2\pi}{3}$Which lies in $(-\pi, \pi]$.)
+(The principal value is $-\frac{2\pi}{3}$ Which lies in $(-\pi, \pi]$.)
 
 Modulus: $|z| = \sqrt{(-1)^2 + (-\sqrt{3})^2} = \sqrt{1 + 3} = 2$.
 
@@ -151,7 +151,7 @@ Modulus: $|z| = \sqrt{(-1)^2 + (-\sqrt{3})^2} = \sqrt{1 + 3} = 2$.
 
 **Question:**
 
-**(a)** Simplify $\dfrac{(2 + 3i)^2}{1 - i}$Giving your answer in the form $a + bi$.
+**(a)** Simplify $\dfrac{(2 + 3i)^2}{1 - i}$ Giving your answer in the form $a + bi$.
 
 **(b)** Prove that for any non-zero complex number $z$, $\left|z + \dfrac{1}{\bar{z}}\right| \geq 2$.
 
@@ -256,7 +256,7 @@ $$
 $$
 
 **(b)** Note that $\frac{\pi}{9}$, $\frac{5\pi}{9}$ And $\frac{7\pi}{9}$ are the three distinct
-solutions to $\cos 3\theta = \cos\frac{\pi}{3} = \frac{1}{2}$Since
+solutions to $\cos 3\theta = \cos\frac{\pi}{3} = \frac{1}{2}$ Since
 $3 \cdot \frac{\pi}{9} = \frac{\pi}{3}$, $3 \cdot \frac{5\pi}{9} = \frac{5\pi}{3}$ And
 $3 \cdot \frac{7\pi}{9} = \frac{7\pi}{3} = \frac{\pi}{3} - 2\pi$.
 
@@ -273,7 +273,7 @@ $$
 $$
 
 The values $\cos\frac{\pi}{9}$$\cos\frac{5\pi}{9}$$\cos\frac{7\pi}{9}$ are the three roots of
-$4\cos^3\theta - 3\cos\theta - \frac{1}{2} = 0$I.e., $8x^3 - 6x - 1 = 0$. By Vieta's formula, the
+$4\cos^3\theta - 3\cos\theta - \frac{1}{2} = 0$ I.e., $8x^3 - 6x - 1 = 0$. By Vieta's formula, the
 sum of the roots is zero (coefficient of $x^2$ is $0$).
 
 Therefore:
@@ -316,7 +316,7 @@ $$
 R\begin{pmatrix} 1 \\ 0 \end{pmatrix} = \begin{pmatrix} \cos\frac{2\pi}{3} \\ \sin\frac{2\pi}{3} \end{pmatrix} = \begin{pmatrix} -\frac{1}{2} \\ \frac{\sqrt{3}}{2} \end{pmatrix}
 $$
 
-This is the point on the unit circle at angle $\frac{2\pi}{3}$Confirming a $120^\circ$ rotation.
+This is the point on the unit circle at angle $\frac{2\pi}{3}$ Confirming a $120^\circ$ rotation.
 
 **(b)** $R^2$ represents a rotation by $\frac{4\pi}{3}$:
 

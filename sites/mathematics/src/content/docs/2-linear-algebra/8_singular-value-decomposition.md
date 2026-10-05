@@ -40,7 +40,7 @@ $\sigma_1^2, \sigma_2^2, \ldots, \sigma_n^2$ be these eigenvalues (some may be z
 corresponding orthonormal eigenvectors $\mathbf{v}_1, \ldots, \mathbf{v}_n$ forming the columns of
 $V$.
 
-For each $i$ with $\sigma_i > 0$Define $\mathbf{u}_i = A\mathbf{v}_i / \sigma_i$. We verify that
+For each $i$ with $\sigma_i > 0$ Define $\mathbf{u}_i = A\mathbf{v}_i / \sigma_i$. We verify that
 these form an orthonormal set:
 
 $$
@@ -54,7 +54,7 @@ $$
 A\mathbf{x} = A\left(\sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x})\mathbf{v}_i\right) = \sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x}) A\mathbf{v}_i = \sum_{i=1}^{r} \sigma_i (\mathbf{v}_i^T \mathbf{x}) \mathbf{u}_i = U \Sigma V^T \mathbf{x}
 $$
 
-Since this holds for all $\mathbf{x}$We have $A = U \Sigma V^T$. $\blacksquare$
+Since this holds for all $\mathbf{x}$ We have $A = U \Sigma V^T$. $\blacksquare$
 
 ### 8.2 Relationship to Eigenvalues
 
@@ -75,7 +75,7 @@ $A\mathbf{v} \neq \mathbf{0}$). $\blacksquare$
 **Proposition 8.3.** If $A$ is symmetric with eigenvalues $\lambda_1, \ldots, \lambda_n$ Then the
 singular values of $A$ are $|\lambda_1|, \ldots, |\lambda_n|$.
 
-_Proof._ $A^T A = A^2$Whose eigenvalues are $\lambda_i^2$. The singular values are
+_Proof._ $A^T A = A^2$ Whose eigenvalues are $\lambda_i^2$. The singular values are
 $\sqrt{\lambda_i^2} = |\lambda_i|$. $\blacksquare$
 
 ### 8.3 Geometric Interpretation
@@ -88,13 +88,13 @@ The SVD decomposes the linear transformation $T : \mathbb{R}^n \to \mathbb{R}^m$
    where $\sigma_i = 0$).
 3. $U$ rotates (or reflects) the result into the coordinate system of the left singular vectors.
 
-**Unit circle image.** Under $A$The unit circle in $\mathbb{R}^2$ is mapped to an ellipse with
+**Unit circle image.** Under $A$ The unit circle in $\mathbb{R}^2$ is mapped to an ellipse with
 semi-axes $\sigma_1$ and $\sigma_2$ aligned with the columns of $U$.
 
 ### 8.4 Low-Rank Approximation
 
 **Theorem 8.4 (Eckart--Young--Mirsky).** Let $A = U \Sigma V^T$ be the SVD with singular values
-$\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$. For any $k < r$The best rank-$k$
+$\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$. For any $k < r$ The best rank-$k$
 approximation to $A$ (in both the Frobenius and spectral norms) is
 
 $$
@@ -161,8 +161,8 @@ $\mathbf{x}^* = A^+\mathbf{b}$ is the least-squares solution of minimum norm.
 
 _Proof._ The least-squares solutions to $A\mathbf{x} \approx \mathbf{b}$ are
 $\mathbf{x} = A^+\mathbf{b} + (I - A^+A)\mathbf{z}$ for arbitrary $\mathbf{z}$. Since
-$(I - A^+A)\mathbf{z} \in \ker(A)$ and $A^+\mathbf{b} \in \mathrm{im}(A^T)$These two components are
-orthogonal. The minimum-norm solution is obtained when $\mathbf{z} = \mathbf{0}$Giving
+$(I - A^+A)\mathbf{z} \in \ker(A)$ and $A^+\mathbf{b} \in \mathrm{im}(A^T)$ These two components are
+orthogonal. The minimum-norm solution is obtained when $\mathbf{z} = \mathbf{0}$ Giving
 $\mathbf{x}^* = A^+\mathbf{b}$. $\blacksquare$
 
 ### 8.6 Condition Number
@@ -207,7 +207,7 @@ $A^T A = \begin{pmatrix} 3 & 2 & 2 \\ 2 & 3 & -2 \end{pmatrix}\begin{pmatrix} 3 
 **Step 2:** Eigenvalues of $A^T A$:
 $\det\begin{pmatrix} 17 - \lambda & 4 \\ 4 & 17 - \lambda \end{pmatrix} = (17 - \lambda)^2 - 16 = \lambda^2 - 34\lambda + 273 = (\lambda - 21)(\lambda - 13)$.
 
-So $\sigma_1^2 = 21$ and $\sigma_2^2 = 13$Giving $\sigma_1 = \sqrt{21}$, $\sigma_2 = \sqrt{13}$.
+So $\sigma_1^2 = 21$ and $\sigma_2^2 = 13$ Giving $\sigma_1 = \sqrt{21}$, $\sigma_2 = \sqrt{13}$.
 
 **Step 3:** Eigenvectors of $A^T A$. For $\lambda = 21$: $(17 - 21)v_1 + 4v_2 = 0$ So $v_1 = v_2$.
 Normalised: $\mathbf{v}_1 = \frac{1}{\sqrt{2}}(1, 1)^T$.
@@ -223,7 +223,7 @@ $\mathbf{u}_1 = \frac{1}{\sqrt{21}} \cdot \frac{1}{\sqrt{2}}\begin{pmatrix} 3 & 
 
 $\mathbf{u}_2 = \frac{1}{\sqrt{13}} \cdot \frac{1}{\sqrt{2}}\begin{pmatrix} 3 & 2 \\ 2 & 3 \\ 2 & -2 \end{pmatrix}\begin{pmatrix} 1 \\ -1 \end{pmatrix} = \frac{1}{\sqrt{26}}\begin{pmatrix} 1 \\ -1 \\ 4 \end{pmatrix}$.
 
-Since $A$ is $3 \times 2$We need a third left singular vector $\mathbf{u}_3$ orthogonal to
+Since $A$ is $3 \times 2$ We need a third left singular vector $\mathbf{u}_3$ orthogonal to
 $\mathbf{u}_1$ and $\mathbf{u}_2$. Compute
 $\mathbf{u}_3 = \mathbf{u}_1 \times \mathbf{u}_2 = \frac{1}{\sqrt{52}}(4, -4, -2) = \frac{1}{\sqrt{26}}(2, -2, -1)$.
 
@@ -329,7 +329,7 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
 ### 8.11 Common Pitfalls
 
 - **Singular values are always non-negative.** Unlike eigenvalues, which can be negative or complex,
-  singular values are the square roots of eigenvalues of $A^T A$Hence always real and non-negative.
+  singular values are the square roots of eigenvalues of $A^T A$ Hence always real and non-negative.
 - **The SVD is not unique.** If $A$ has repeated singular values, the corresponding singular vectors
   can be any orthonormal basis of the eigenspace. The signs of singular vectors can also be flipped
   in pairs.
@@ -337,7 +337,7 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
   rank, $A^+A \neq I$; instead, $A^+A$ is the orthogonal projection onto $\mathrm{im}(A^T)$.
 - **The SVD and eigendecomposition are different decompositions.** The SVD always exists for any
   matrix, but the eigendecomposition requires the matrix to be square. Even for symmetric matrices,
-  the singular values are $|\lambda_i|$Not $\lambda_i$.
+  the singular values are $|\lambda_i|$ Not $\lambda_i$.
 
 
 ```mermaid

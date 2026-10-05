@@ -28,7 +28,7 @@ $\{0, 1, 2, \ldots, n\}$ or $\{0, 1, 2, \ldots\}$.
 
 ### Probability Mass Function (PMF)
 
-The **probability mass function** of $X$ is $p(x) = P(X = x)$Assigning a probability to each
+The **probability mass function** of $X$ is $p(x) = P(X = x)$ Assigning a probability to each
 Possible value. It must satisfy:
 
 1. $p(x) \ge 0$ for all $x$
@@ -160,7 +160,7 @@ $$
 
 ### Conditions
 
-A random variable $X$ follows a binomial distribution, $X \sim B(n, p)$When all four conditions
+A random variable $X$ follows a binomial distribution, $X \sim B(n, p)$ When all four conditions
 Hold:
 
 1. **Fixed number of trials**: exactly $n$ identical trials.
@@ -343,7 +343,7 @@ $\mathrm{Var}(X) = \lambda^2 + \lambda - \lambda^2 = \lambda$.
 
 ### Poisson as a Limit of the Binomial
 
-If $n \to \infty$, $p \to 0$While $np = \lambda$ stays constant, then
+If $n \to \infty$, $p \to 0$ While $np = \lambda$ stays constant, then
 $B(n, p) \to \mathrm{Po}(\lambda)$. The Poisson approximates the binomial when $n$ is large, $p$ is
 Small, and $np$ is moderate ( $n \ge 50$, $p \le 0.1$).
 
@@ -373,7 +373,7 @@ Over 2 hours: $Y \sim \mathrm{Po}(7)$, $P(Y \gt 7) = 1 - P(Y \le 7) \approx 0.40
 A typesetter makes errors at a rate of 1 per 500 characters. In a passage of 2000 characters, find
 The probability of at most 2 errors.
 
-Exact: $X \sim B(2000, 1/500)$With $\lambda = 2000/500 = 4$.
+Exact: $X \sim B(2000, 1/500)$ With $\lambda = 2000/500 = 4$.
 
 Approximate: $X \approx \mathrm{Po}(4)$.
 
@@ -446,7 +446,7 @@ $$
 F(x) = \frac{1}{\sigma\sqrt{2\pi}} \, e^{-\frac{(x-\mu)^2}{2\sigma^2}}, \quad -\infty \lt x \lt \infty
 $$
 
-Key properties: bell-shaped, symmetric about $x = \mu$Asymptotic to the $x$-axis, total area = 1,
+Key properties: bell-shaped, symmetric about $x = \mu$ Asymptotic to the $x$-axis, total area = 1,
 Inflection points at $x = \mu \pm \sigma$. The mean, median, and mode all equal $\mu$.
 
 $E(X) = \mu$ and $\mathrm{Var}(X) = \sigma^2$.
@@ -483,7 +483,7 @@ $$
 
 ### Probability Calculations
 
-For $X \sim N(\mu, \sigma^2)$To find $P(a \lt X \lt b)$Convert to $z$-scores:
+For $X \sim N(\mu, \sigma^2)$ To find $P(a \lt X \lt b)$ Convert to $z$-scores:
 
 $$
 P(a \lt X \lt b) = \Phi\!\left(\frac{b - \mu}{\sigma}\right) - \Phi\!\left(\frac{a - \mu}{\sigma}\right)
@@ -493,7 +493,7 @@ On the GDC these are computed directly without manual standardisation.
 
 ### Inverse Normal
 
-Given probability $p$The inverse normal finds $x$ such that $P(X \le x) = p$. For the standard
+Given probability $p$ The inverse normal finds $x$ such that $P(X \le x) = p$. For the standard
 Normal, $z = \Phi^{-1}(p)$. For a general normal: $x = \mu + z\sigma$.
 
 ### Finding Unknown Parameters
@@ -580,7 +580,7 @@ $$
 F(x) = \frac{1}{b - a}, \quad a \le x \le b
 $$
 
-And $f(x) = 0$ otherwise. The PDF is constant over $[a, b]$Meaning all values in the interval are
+And $f(x) = 0$ otherwise. The PDF is constant over $[a, b]$ Meaning all values in the interval are
 Equally likely.
 
 ### Mean and Variance
@@ -657,7 +657,7 @@ $$
 
 $E(X) = p\displaystyle\sum_{x=1}^{\infty} x(1-p)^{x-1}$
 
-Using $\displaystyle\sum_{x=1}^{\infty} xr^{x-1} = \frac{1}{(1-r)^2}$ for $|r| \lt 1$With $r = 1-p$:
+Using $\displaystyle\sum_{x=1}^{\infty} xr^{x-1} = \frac{1}{(1-r)^2}$ for $|r| \lt 1$ With $r = 1-p$:
 
 $E(X) = p \cdot \dfrac{1}{p^2} = \dfrac{1}{p}$
 
@@ -848,7 +848,7 @@ Deviation $s$.
 
 ### Margin of Error and Sample Size
 
-Margin of error: $E = z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt{n}}$. To halve $E$Quadruple $n$.
+Margin of error: $E = z_{\alpha/2} \cdot \dfrac{\sigma}{\sqrt{n}}$. To halve $E$ Quadruple $n$.
 
 Required sample size for margin $E$: $n = \left(\dfrac{z_{\alpha/2} \cdot \sigma}{E}\right)^2$
 (round up to the next integer).
@@ -859,7 +859,7 @@ Bottle volumes: $N(\mu, 25)$, $\sigma = 5$ ml. Sample of 25 gives $\bar{x} = 498
 
 95% CI: $498 \pm 1.960 \times 5/\sqrt{25} = 498 \pm 1.96$ So $(496.04, 499.96)$ ml.
 
-For margin 1 ml at 95%: $n = (1.960 \times 5/1)^2 = 96.04$Round up to 97.
+For margin 1 ml at 95%: $n = (1.960 \times 5/1)^2 = 96.04$ Round up to 97.
 
 ---
 
@@ -935,7 +935,7 @@ This is exact (not an approximation) for normal variables, and requires no CLT.
 :::
 
 :::note[Example]
-$X \sim B(10, 0.3)$$Y \sim B(15, 0.4)$Independent.
+$X \sim B(10, 0.3)$$Y \sim B(15, 0.4)$ Independent.
 
 $E(X + Y) = 3 + 6 = 9$
 
@@ -945,7 +945,7 @@ $\mathrm{Var}(2X - 3Y) = 4(2.1) + 9(3.6) = 8.4 + 32.4 = 40.8$
 :::
 
 :::note[Example: Normal combinations]
-Bus ride $X \sim N(25, 16)$Walk $Y \sim N(10, 9)$Independent.
+Bus ride $X \sim N(25, 16)$ Walk $Y \sim N(10, 9)$ Independent.
 
 $X + Y \sim N(35, 25)$. $P(X + Y \gt 40) = P(Z \gt 1) = 0.1587$.
 
@@ -1049,7 +1049,7 @@ $E(X) = 4/0.25 = 16$
 
 ### Question 8 (Paper 2, AHL)
 
-The masses of male students are $N(72, 36)$ and female students are $N(58, 25)$Independent. Find The
+The masses of male students are $N(72, 36)$ and female students are $N(58, 25)$ Independent. Find The
 probability that a randomly chosen male is heavier than a randomly chosen female.
 
 Let $M \sim N(72, 36)$ and $F \sim N(58, 25)$. Then $D = M - F \sim N(72-58, 36+25) = N(14, 61)$.
@@ -1100,7 +1100,7 @@ flowchart TD
 | Relationship                                                      | Condition                                          |
 | ----------------------------------------------------------------- | -------------------------------------------------- |
 | $B(n, p) \approx \mathrm{Po}(np)$                                 | $n$ large, $p$ small, $np$ moderate                |
-| $B(n, p) \approx N(np, np(1-p))$                                  | $np \ge 5$$n(1-p) \ge 5$With continuity correction |
+| $B(n, p) \approx N(np, np(1-p))$                                  | $np \ge 5$$n(1-p) \ge 5$ With continuity correction |
 | $\mathrm{Geo}(p) = \mathrm{NB}(1, p)$                             | Special case                                       |
 | $X + Y \sim \mathrm{Po}(\lambda_1 + \lambda_2)$                   | Independent Poisson variables                      |
 | $aX + bY \sim N(a\mu_X + b\mu_Y, a^2\sigma_X^2 + b^2\sigma_Y^2)$  | Independent normal variables                       |
@@ -1126,10 +1126,10 @@ Probability distributions are recipes for uncertainty. The binomial distribution
 ## Common Pitfalls
 
 1. **Confusing $p$ and $\lambda$**: For Poisson, $\lambda$ is a rate, not a probability. Unlike
-   binomial $p$There is no upper bound of 1 on $\lambda$.
+   binomial $p$ There is no upper bound of 1 on $\lambda$.
 
 2. **Forgetting conditions**: Before applying a distribution, verify all conditions. For binomial:
-   fixed $n$Independence, two outcomes, constant $p$.
+   fixed $n$ Independence, two outcomes, constant $p$.
 
 3. **Variance of differences**: $\mathrm{Var}(X - Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$ (plus, not
    minus) for independent variables.
@@ -1148,7 +1148,7 @@ Probability distributions are recipes for uncertainty. The binomial distribution
 8. **Confidence interval interpretation**: A 95% CI does not mean there is a 95% probability that
    $\mu$ lies in the interval. It means 95% of similarly constructed intervals contain $\mu$.
 
-9. **Squaring constants in variance**: $\mathrm{Var}(3X) = 9\mathrm{Var}(X)$Not $3\mathrm{Var}(X)$.
+9. **Squaring constants in variance**: $\mathrm{Var}(3X) = 9\mathrm{Var}(X)$ Not $3\mathrm{Var}(X)$.
 :::
 
 :::tip[Exam Strategy]
@@ -1457,7 +1457,7 @@ $$
 \mathrm{Var}(X - Y) = 3.6 + 4.2 = 7.8
 $$
 
-For $P(X + Y = 10)$Enumerate pairs $(x, y)$ where $x + y = 10$$0 \le x \le 15$$0 \le y \le 20$:
+For $P(X + Y = 10)$ Enumerate pairs $(x, y)$ where $x + y = 10$$0 \le x \le 15$$0 \le y \le 20$:
 
 This requires summing over $x = 0$ to $x = 10$:
 

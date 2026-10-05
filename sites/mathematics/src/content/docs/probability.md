@@ -52,7 +52,7 @@ A **probability space** is a triple $(\Omega, \mathcal{F}, P)$ where:
 2. $P(A^c) = 1 - P(A)$.
 3. If $A \subseteq B$ Then $P(A) \leq P(B)$.
 4. $P(A \cup B) = P(A) + P(B) - P(A \cap B)$ (inclusion-exclusion).
-5. **Boole"s inequality:** $P\left(\bigcup_{i=1}^{n} A_i\right) \leq \sum_{i=1}^{n} P(A_i)$.
+5. **Boole's inequality:** $P\left(\bigcup_{i=1}^{n} A_i\right) \leq \sum_{i=1}^{n} P(A_i)$.
 6. **Bonferroni inequality:**
    $P\left(\bigcap_{i=1}^{n} A_i\right) \geq 1 - \sum_{i=1}^{n} (1 - P(A_i))$.
 
@@ -140,11 +140,11 @@ $$
 _Proof._ (1) If $a \leq b$ Then $\{X \leq a\} \subseteq \{X \leq b\}$ So
 $F(a) = P(X \leq a) \leq P(X \leq b) = F(b)$ by Proposition 1.1(3).
 
-(2) As $x \to -\infty$The events $\{X \leq x\}$ decrease to $\emptyset$ So by continuity from above
-of probability measures, $F(x) \to 0$. As $x \to +\infty$The events increase to $\Omega$ So
+(2) As $x \to -\infty$ The events $\{X \leq x\}$ decrease to $\emptyset$ So by continuity from above
+of probability measures, $F(x) \to 0$. As $x \to +\infty$ The events increase to $\Omega$ So
 $F(x) \to 1$.
 
-(3) As $x \to a^+$The events $\{X \leq x\}$ decrease to $\{X \leq a\}$Giving right-continuity.
+(3) As $x \to a^+$ The events $\{X \leq x\}$ decrease to $\{X \leq a\}$ Giving right-continuity.
 $\blacksquare$
 
 ### 2.2 Discrete Random Variables
@@ -219,7 +219,7 @@ $Z = (X - \mu)/\sigma \sim N(0, 1)$.
 _Proof._ The CDF of $Z$:
 $P(Z \leq z) = P(X \leq \mu + \sigma z) = \int_{-\infty}^{\mu + \sigma z} \frac{1}{\sigma\sqrt{2\pi}} e^{-t^2/2}\, dt$.
 Substituting $u = (t - \mu)/\sigma$:
-$= \int_{-\infty}^{z} \frac{1}{\sqrt{2\pi}} e^{-u^2/2}\, du$Which is the CDF of $N(0, 1)$.
+$= \int_{-\infty}^{z} \frac{1}{\sqrt{2\pi}} e^{-u^2/2}\, du$ Which is the CDF of $N(0, 1)$.
 $\blacksquare$
 
 **Theorem 2.4 (Moment Generating Function).** If $X \sim N(\mu, \sigma^2)$ Then
@@ -306,7 +306,7 @@ $$
 \rho(X, Y) = \frac{\mathrm{Cov}(X, Y)}{\sqrt{\mathrm{Var}(X)\,\mathrm{Var}(Y)}}
 $$
 
-**Theorem 2.7 (Cauchy--Schwarz for Random Variables).** $|\rho(X, Y)| \leq 1$With equality if and
+**Theorem 2.7 (Cauchy--Schwarz for Random Variables).** $|\rho(X, Y)| \leq 1$ With equality if and
 only if $Y = aX + b$ almost surely for some $a, b$.
 
 ### 3.3 Independence of Random Variables
@@ -505,7 +505,7 @@ $Y \sim N(\mu_2, \sigma_2^2)$ are independent, then
 $X + Y \sim N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$.
 
 _Proof._ The convolution of two Gaussian PDFs is Gaussian. This follows from the MGF:
-$M_{X+Y}(t) = M_X(t)M_Y(t) = \exp((\mu_1 + \mu_2)t + (\sigma_1^2 + \sigma_2^2)t^2/2)$Which is the
+$M_{X+Y}(t) = M_X(t)M_Y(t) = \exp((\mu_1 + \mu_2)t + (\sigma_1^2 + \sigma_2^2)t^2/2)$ Which is the
 MGF of $N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$. $\blacksquare$
 
 ## Common Pitfalls

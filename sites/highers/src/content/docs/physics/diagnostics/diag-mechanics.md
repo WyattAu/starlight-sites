@@ -94,7 +94,7 @@ affect each other.
 }
 </script>
 
-### UT-2: Forces and Newton"s Laws
+### UT-2: Forces and Newton's Laws
 
 **Question:**
 

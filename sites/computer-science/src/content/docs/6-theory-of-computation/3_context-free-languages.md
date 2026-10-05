@@ -72,7 +72,7 @@ S \to aSb \mid T, \quad T \to aTc \mid \varepsilon
 $$
 
 The variable $S$ generates the $a^i b^i$ part, and $T$ generates the $a^k c^k$ part. Since
-$S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$The total number Of
+$S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$ The total number Of
 `b`S and `c`S equals the total number of `a`S.
 
 **Example.** CFG for strings with equal numbers of `0`S and `1`S:
@@ -104,7 +104,7 @@ Language.
 
 _Proof of correctness for $S_1$._ By induction:
 $S_1 \Rightarrow^n a^n S_1 b^{2n} \Rightarrow a^n b^{2n}$. So $L(S_1) = \{a^n b^{2n} : n \geq 0\}$.
-Similarly $L(S_2) = \{a^{2n} b^n : n \geq 0\}$. Hence $L(S) = L(S_1) \cup L(S_2)$Which is exactly
+Similarly $L(S_2) = \{a^{2n} b^n : n \geq 0\}$. Hence $L(S) = L(S_1) \cup L(S_2)$ Which is exactly
 the target language. $\blacksquare$
 
 </details>
@@ -147,7 +147,7 @@ $n$ that $a^n b^n$ has exactly one parse tree.
 Base ($n = 1$): $ab$ has only the parse tree using $S \to ab$.
 
 Inductive step: $a^{n+1} b^{n+1}$ must use $S \to aSb$ (the rule $S \to ab$ produces only Strings of
-length 2). The inner $S$ must derive $a^n b^n$Which by IH has a unique parse tree. Hence
+length 2). The inner $S$ must derive $a^n b^n$ Which by IH has a unique parse tree. Hence
 $a^{n+1} b^{n+1}$ has exactly one parse tree. $\blacksquare$
 
 </details>
@@ -172,7 +172,7 @@ _Proof (conversion algorithm)._
    side if it generates $\varepsilon$).
 2. Remove all $\varepsilon$-productions $A \to \varepsilon$ (except possibly $S_0 \to \varepsilon$).
    For each occurrence of $A$ in a right-hand side, add a variant without $A$.
-3. Remove all unit productions $A \to B$. For each chain $A \Rightarrow^* B$Add $A \to \alpha$ for
+3. Remove all unit productions $A \to B$. For each chain $A \Rightarrow^* B$ Add $A \to \alpha$ for
    each $B \to \alpha$.
 4. Convert remaining rules: replace terminals $a$ in right-hand sides of length $\geq 2$ with new
    variables $T_a$ and rules $T_a \to a$. Replace right-hand sides of length $\geq 3$ by introducing
@@ -190,7 +190,7 @@ $$
 **Step 1:** Add new start variable. $S_0 \to S$.
 
 **Step 2:** Remove $\varepsilon$-productions. Both $A$ and $B$ are nullable. For each production
-Containing $A$ or $B$Add variants with nullable symbols removed:
+Containing $A$ or $B$ Add variants with nullable symbols removed:
 
 - $S \to AbB \mid Ab \mid aB \mid ab$
 - $A \to aA \mid a$
@@ -267,8 +267,8 @@ Middle is reached, then pop and compare with the remaining input.
 
 **Accept:** $\{q_2\}$.
 
-_Correctness._ If $w = uu^R$The PDA pushes $u$Guesses the midpoint, then pops and matches $u^R$. If
-$w \neq uu^R$No sequence of guesses leads to acceptance. $\blacksquare$
+_Correctness._ If $w = uu^R$ The PDA pushes $u$ Guesses the midpoint, then pops and matches $u^R$. If
+$w \neq uu^R$ No sequence of guesses leads to acceptance. $\blacksquare$
 
 </details>
 
@@ -282,9 +282,9 @@ _Proof (sketch)._
 the stack. At each step, it pops a variable from the stack and pushes the right-hand side of a
 Production for that variable.
 
-**PDA to CFG:** Given PDA $M$Construct a grammar whose variables encode pairs of states $(p, q)$
-Meaning "the PDA can go from state $p$ to state $q$Popping everything pushed onto the stack." The
-productions simulate the PDA"s transitions. $\blacksquare$
+**PDA to CFG:** Given PDA $M$ Construct a grammar whose variables encode pairs of states $(p, q)$
+Meaning "the PDA can go from state $p$ to state $q$ Popping everything pushed onto the stack." The
+productions simulate the PDA's transitions. $\blacksquare$
 
 **Theorem 3.2a (CFG to PDA construction).** Let $G = (V, \Sigma, R, S)$ be a CFG. Then there exists
 a PDA $M$ with $L(M) = L(G)$.
@@ -312,13 +312,13 @@ $|w| \geq p$, $w$ can be decomposed as $w = uvxyz$ satisfying:
 3. $uv^ixy^iz \in L$ for all $i \geq 0$.
 
 _Proof._ Let $G$ be a CFG in CNF with $k$ variables. Any parse tree of height $h$ generates a string
-Of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$The parse tree has height $\gt k$ So
+Of length at most $2^{h-1}$. Set $p = 2^k$. For $|w| \geq p$ The parse tree has height $\gt k$ So
 some path repeats a variable. The substring generated between the two occurrences can be pumped.
 $\blacksquare$
 
 **Example.** $L = \{a^n b^n c^n : n \geq 0\}$ is not context-free.
 
-_Proof._ Assume pumping length $p$. Let $w = a^p b^p c^p$. Since $|vxy| \leq p$The substring $vxy$
+_Proof._ Assume pumping length $p$. Let $w = a^p b^p c^p$. Since $|vxy| \leq p$ The substring $vxy$
 cannot span all three letter types. Case analysis:
 
 - If $vxy$ is within the `a`S or `b`S or `c`S: pumping changes only one count, breaking the
@@ -344,7 +344,7 @@ In all cases, $uv^2xy^2z \notin L$. $\blacksquare$
 <details>
 <summary>Worked Example: $\{a^n b^n a^n : n \geq 0\}$ is not context-free</summary>
 
-_Proof._ Assume pumping length $p$. Let $w = a^p b^p a^p$. Since $|vxy| \leq p$The substring $vxy$
+_Proof._ Assume pumping length $p$. Let $w = a^p b^p a^p$. Since $|vxy| \leq p$ The substring $vxy$
 cannot span all three blocks. Case analysis:
 
 - $vxy$ within the first $a^p$ block: pumping down ($i = 0$) reduces the first count only.
@@ -364,10 +364,10 @@ In all cases, pumping produces a string not in $L$. $\blacksquare$
 The **Cocke--Younger--Kasami (CYK) algorithm** determines membership in a context-free language When
 the grammar is in Chomsky Normal Form.
 
-**Theorem 3.4.** Given a CFG $G$ in CNF and a string $w$ of length $n$The CYK algorithm decides
+**Theorem 3.4.** Given a CFG $G$ in CNF and a string $w$ of length $n$ The CYK algorithm decides
 Whether $w \in L(G)$ in $O(n^3 \cdot |G|)$ time.
 
-**Algorithm.** Construct a table $T[i, j]$ for $1 \leq i \leq j \leq n$Where $T[i, j]$ is the set Of
+**Algorithm.** Construct a table $T[i, j]$ for $1 \leq i \leq j \leq n$ Where $T[i, j]$ is the set Of
 variables that can derive the substring $w_i w_{i+1} \cdots w_j$.
 
 1. **Base case** ($j = 1$): $T[i, i] = \{A : A \to w_i \mathrm{ is a rule in  G\}$.
@@ -405,7 +405,7 @@ String: $w = ba$.
 - $X = B, Y = C$: $S \to BC$? Yes, add $S$.
 - $X = B, Y = A$: already checked. So $T[1,2] = \{S\}$.
 
-Since $S \in T[1,2]$The string $ba$ is **in** $L(G)$. The parse tree is $S \to BC$ Where $B \to b$
+Since $S \in T[1,2]$ The string $ba$ is **in** $L(G)$. The parse tree is $S \to BC$ Where $B \to b$
 and $C \to a$.
 
 </details>

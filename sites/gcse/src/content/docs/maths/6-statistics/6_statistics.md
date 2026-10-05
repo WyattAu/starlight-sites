@@ -221,7 +221,7 @@ For $n$ data values in order:
 
 ### 3.3 Box Plots
 
-A **box plot** displays the minimum, $Q_1$Median, $Q_3$ And maximum.
+A **box plot** displays the minimum, $Q_1$ Median, $Q_3$ And maximum.
 
 **Worked Example.** Data set: $2, 5, 7, 8, 10, 12, 15, 18, 22, 25$.
 
@@ -250,7 +250,7 @@ Lower fence $= 7.75 - 1.5 \times 11.25 = 7.75 - 16.875 = -9.125$.
 
 Upper fence $= 19 + 16.875 = 35.875$.
 
-Since all values are between $-9.125$ and $35.875$There are no outliers.
+Since all values are between $-9.125$ and $35.875$ There are no outliers.
 
 ## 4. Representing Data
 
@@ -545,7 +545,7 @@ The mean and standard deviation?
 The new mean is $\bar{x} + 5$. The standard deviation is unchanged, because adding a constant shifts
 All values by the same amount but does not change their spread.
 
-If every value is multiplied by $k$The new mean is $k\bar{x}$ and the new standard deviation is
+If every value is multiplied by $k$ The new mean is $k\bar{x}$ and the new standard deviation is
 $|k|\sigma$.
 
 ## 7. Comparing Distributions (Higher Tier)
@@ -643,9 +643,9 @@ Outliers:
 - The **standard deviation** is inflated by outliers.
 - The **IQR** is resistant to outliers.
 
-**Example.** Consider the data set $\{2, 3, 4, 5, 100\}$. The mean is $114/5 = 22.8$Heavily pulled
+**Example.** Consider the data set $\{2, 3, 4, 5, 100\}$. The mean is $114/5 = 22.8$ Heavily pulled
 Up by the outlier 100. The median is 4, which better represents the "typical" value. The standard
-Deviation is very large due to the outlier. The IQR is $5 - 3 = 2$Unaffected by the outlier.
+Deviation is very large due to the outlier. The IQR is $5 - 3 = 2$ Unaffected by the outlier.
 
 ### 9.5 Tree Diagrams for Multiple Events
 
@@ -763,11 +763,11 @@ The area under a frequency polygon equals the total frequency (just like a histo
 1. The probability that it rains on any given day is 0.3. Find the probability that it rains on
     exactly 2 out of the next 5 days.
 
-2. Two events $A$ and $B$ are mutually exclusive. If $P(A) = 0.35$ and $P(A \cup B) = 0.65$Find
+2. Two events $A$ and $B$ are mutually exclusive. If $P(A) = 0.35$ and $P(A \cup B) = 0.65$ Find
     $P(B)$ and $P(A \cap B)$.
 
 3. A set of data has a mean of 50 and a standard deviation of 8. After applying the coding
-    $y = \frac{x - 50}{8}$Find the new mean and standard deviation.
+    $y = \frac{x - 50}{8}$ Find the new mean and standard deviation.
 
 4. The table below shows the distribution of exam scores for a class of 40 students:
 

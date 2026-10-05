@@ -22,7 +22,7 @@ description: "Let be a sequence of functions defined on a set . Comprehensive ed
 Let $(f_n)$ be a sequence of functions defined on a set $E \subseteq \mathbb{R}$.
 
 **Definition.** $(f_n)$ **converges pointwise** to $f$ on $E$ if for every $x \in E$ and every
-$\varepsilon > 0$There exists $N \in \mathbb{N}$ (depending on both $x$ and $\varepsilon$) such that
+$\varepsilon > 0$ There exists $N \in \mathbb{N}$ (depending on both $x$ and $\varepsilon$) such that
 $|f_n(x) - f(x)| \lt \varepsilon$ for all $n \geq N$.
 
 **Example.** Let $f_n(x) = x^n$ on $E = [0, 1]$. For each $x \in [0, 1)$, $f_n(x) = x^n \to 0$ And
@@ -36,8 +36,8 @@ Note that each $f_n$ is continuous, but the pointwise limit $f$ is not continuou
 
 ### 7.2 Uniform Convergence
 
-**Definition.** $(f_n)$ **converges uniformly** to $f$ on $E$ if for every $\varepsilon > 0$There
-Exists $N \in \mathbb{N}$ (depending only on $\varepsilon$Not on $x$) such that for all $x \in E$:
+**Definition.** $(f_n)$ **converges uniformly** to $f$ on $E$ if for every $\varepsilon > 0$ There
+Exists $N \in \mathbb{N}$ (depending only on $\varepsilon$ Not on $x$) such that for all $x \in E$:
 
 $$
 |f_n(x) - f(x)| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
@@ -62,7 +62,7 @@ all $n$ And $\sum_{n=1}^{\infty} M_n \lt \infty$ Then $\sum_{n=1}^{\infty} f_n$ 
 $E$.
 
 _Proof._ Let $S_n(x) = \sum_{k=1}^{n} f_k(x)$ and $T_n = \sum_{k=1}^{n} M_k$. Since $\sum M_k$
-converges, $(T_n)$ is a Cauchy sequence. Given $\varepsilon > 0$There exists $N$ such that for
+converges, $(T_n)$ is a Cauchy sequence. Given $\varepsilon > 0$ There exists $N$ such that for
 $m > n \geq N$:
 
 $$
@@ -75,7 +75,7 @@ $$
 |S_m(x) - S_n(x)| = \left|\sum_{k=n+1}^{m} f_k(x)\right| \leq \sum_{k=n+1}^{m} |f_k(x)| \leq \sum_{k=n+1}^{m} M_k \lt \varepsilon
 $$
 
-So the partial sums $(S_n)$ satisfy the uniform Cauchy criterion on $E$Hence converge uniformly.
+So the partial sums $(S_n)$ satisfy the uniform Cauchy criterion on $E$ Hence converge uniformly.
 $\blacksquare$
 
 ### 7.4 Uniform Convergence and Continuity
@@ -84,7 +84,7 @@ $\blacksquare$
 On $E$ Then $f$ is continuous on $E$.
 
 _Proof._ Let $c \in E$ and $\varepsilon > 0$. Since $f_n \to f$ uniformly, choose $N$ such that
-$|f_N(x) - f(x)| \lt \varepsilon/3$ for all $x \in E$. Since $f_N$ is continuous at $c$Choose
+$|f_N(x) - f(x)| \lt \varepsilon/3$ for all $x \in E$. Since $f_N$ is continuous at $c$ Choose
 $\delta > 0$ such that $|x - c| \lt \delta$ implies $|f_N(x) - f_N(c)| \lt \varepsilon/3$. Then:
 
 $$
@@ -103,7 +103,7 @@ $$
 $$
 
 _Proof._ Since $(f_n)$ converges uniformly, $f$ is the uniform limit of integrable functions. Given
-$\varepsilon > 0$Choose $N$ with $\sup |f_N(x) - f(x)| \lt \varepsilon/(2(b-a))$ for all
+$\varepsilon > 0$ Choose $N$ with $\sup |f_N(x) - f(x)| \lt \varepsilon/(2(b-a))$ for all
 $x \in [a, b]$. Then $f_N - \varepsilon/(2(b-a)) \leq f(x) \leq f_N(x) + \varepsilon/(2(b-a))$ for
 all $x$ And by Integrability of $f_N$:
 
@@ -111,7 +111,7 @@ $$
 \int_a^b f_N - \frac{\varepsilon}{2} \leq \underline{\int_a^b} f \leq \overline{\int_a^b} f \leq \int_a^b f_N + \frac{\varepsilon}{2}
 $$
 
-So $\overline{\int} f - \underline{\int} f \leq \varepsilon$Proving $f$ is integrable. For the
+So $\overline{\int} f - \underline{\int} f \leq \varepsilon$ Proving $f$ is integrable. For the
 limit:
 
 $$
@@ -186,11 +186,11 @@ That is, the power series is continuous from the left at the endpoint $x = 1$.
 _Proof (sketch)._ Let $s_n = \sum_{k=0}^{n} c_k$ and $s_n \to L$. Write the partial sum
 $\sum_{k=0}^{n} c_k x^k = \sum_{k=0}^{n}(s_k - s_{k-1})x^k$ (with $s_{-1} = 0$) and use summation by
 Parts to express this as $s_n x^n + \sum_{k=0}^{n-1} s_k(x^k - x^{k+1})$. Letting $n \to \infty$ and
-using That $s_n \to L$ and $x^n \to 0$ for $|x| \lt 1$One shows the expression tends to $L$ as
+using That $s_n \to L$ and $x^n \to 0$ for $|x| \lt 1$ One shows the expression tends to $L$ as
 $x \to 1^-$. $\blacksquare$
 
-_Example._ Since $\sum_{k=1}^{\infty} (-1)^{k+1}/k = \ln 2$Abel's theorem gives
-$\lim_{x \to 1^-} \sum_{k=1}^{\infty} (-1)^{k+1} x^k/k = \ln 2$I.e., $\ln 2$ is the left-hand limit
+_Example._ Since $\sum_{k=1}^{\infty} (-1)^{k+1}/k = \ln 2$ Abel's theorem gives
+$\lim_{x \to 1^-} \sum_{k=1}^{\infty} (-1)^{k+1} x^k/k = \ln 2$ I.e., $\ln 2$ is the left-hand limit
 Of $-\ln(1 - x)$ at $x = 1$.
 
 ### 7.8 Taylor Series Convergence
@@ -207,7 +207,7 @@ f(x) = \begin{cases} e^{-1/x^2} & x \neq 0 \\ 0 & x = 0 \end{cases}
 $$
 
 $f^{(n)}(0) = 0$ for all $n$ So the Taylor series at $0$ is identically zero, which Converges only to
-$0$Not to $f(x)$ for $x \neq 0$.
+$0$ Not to $f(x)$ for $x \neq 0$.
 
 ### 7.9 Worked Examples
 
@@ -244,7 +244,7 @@ $$
 \lim_{n \to \infty} \left|\frac{c_{n+1}}{c_n}\right| = \lim_{n \to \infty} \frac{(n+1)!}{n!} = \lim_{n \to \infty} (n+1) = \infty
 $$
 
-So $R = 0$Meaning the series converges only at $x = 0$. $\blacksquare$
+So $R = 0$ Meaning the series converges only at $x = 0$. $\blacksquare$
 
 </details>
 
@@ -264,7 +264,7 @@ $$
 \sup_{x \geq 1} \frac{x}{1 + nx} = \lim_{x \to \infty} \frac{x}{1 + nx} = \frac{1}{n}
 $$
 
-Since $\sup |f_n| = 1/n \to 0$The convergence is uniform on $[1, \infty)$. $\blacksquare$
+Since $\sup |f_n| = 1/n \to 0$ The convergence is uniform on $[1, \infty)$. $\blacksquare$
 
 </details>
 

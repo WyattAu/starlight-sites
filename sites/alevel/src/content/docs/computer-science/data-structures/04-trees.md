@@ -64,7 +64,7 @@ A **binary tree** is a tree where each node has at most two children, called the
 
 **Theorem.** A binary tree of height $h$ has at most $2^{h+1} - 1$ nodes.
 
-**Proof.** At depth $d$There are at most $2^d$ nodes. The total number of nodes is at most:
+**Proof.** At depth $d$ There are at most $2^d$ nodes. The total number of nodes is at most:
 
 $$
 \sum_{d=0}^{h} 2^d = 2^{h+1} - 1
@@ -74,7 +74,7 @@ $\square$
 
 **Corollary.** The minimum height of a binary tree with $n$ nodes is $\lfloor \log_2 n \rfloor$.
 
-**Proof.** From the above, $n \leq 2^{h+1} - 1 \lt 2^{h+1}$ So $h + 1 \gt \log_2 n$Giving
+**Proof.** From the above, $n \leq 2^{h+1} - 1 \lt 2^{h+1}$ So $h + 1 \gt \log_2 n$ Giving
 $h \geq \lceil \log_2(n+1) \rceil - 1 = \lfloor \log_2 n \rfloor$. $\square$
 
 ### Full, Complete, and Perfect Binary Trees
@@ -344,8 +344,8 @@ Elements). $\square$
 
 ## 6. Balanced BSTs (Overview)
 
-**Theorem.** In a BST of height $h$Search, insert, and delete take $O(h)$ time. In the worst case
-(degenerate tree), $h = n$Giving $O(n)$.
+**Theorem.** In a BST of height $h$ Search, insert, and delete take $O(h)$ time. In the worst case
+(degenerate tree), $h = n$ Giving $O(n)$.
 
 To guarantee $O(\log n)$ operations, we need **balanced** BSTs:
 
@@ -487,8 +487,8 @@ Height: $h = \lfloor \log_2 100 \rfloor = 6$.
 Number of leaves: For a complete binary tree with $n$ nodes, the number of leaves is
 $\lceil n/2 \rceil = 50$.
 
-More precisely: at depth $h = 6$There are $100 - (2^6 - 1) = 100 - 63 = 37$ leaves. At depth
-$h - 1 = 5$There are $2^5 = 32$ nodes. Nodes at depth 5 that are not leaves have children at depth
+More precisely: at depth $h = 6$ There are $100 - (2^6 - 1) = 100 - 63 = 37$ leaves. At depth
+$h - 1 = 5$ There are $2^5 = 32$ nodes. Nodes at depth 5 that are not leaves have children at depth
 6, so internal nodes at depth 5 = 37 (one per leaf at depth 6), and leaves at depth 5 = $32 - 37$...
 Let me recalculate.
 
@@ -577,7 +577,7 @@ def tree_height(node):
 
 **Correctness.** By structural induction. Base case: empty tree has height $-1$ (convention).
 Inductive step: if the left subtree has height $h_L$ and right subtree has height $h_R$ (by
-Inductive hypothesis), then the height of the current node is $1 + \max(h_L, h_R)$Which is the
+Inductive hypothesis), then the height of the current node is $1 + \max(h_L, h_R)$ Which is the
 Length of the longest root-to-leaf path. $\square$
 
 **Problem 12.** Given an array representation of a min-heap `[1, 3, 2, 7, 5, 4, 8]`What are the
@@ -863,8 +863,8 @@ And then verify the parent-child relationships using the array formulas.
 
 <summary>Hint</summary>
 
-For a 0-indexed array: parent of node at index $i$ is $\lfloor (i-1)/2 \rfloor$Left child is
-$2i+1$Right child is $2i+2$. Fill the array using level-order traversal.
+For a 0-indexed array: parent of node at index $i$ is $\lfloor (i-1)/2 \rfloor$ Left child is
+$2i+1$ Right child is $2i+2$. Fill the array using level-order traversal.
 
 <summary>Answer</summary>
 
@@ -928,7 +928,7 @@ Approximately half the height.
 - BST A worst case: 1024 comparisons
 - BST B worst case: $\lfloor \log_2 1024 \rfloor + 1 = 10 + 1 = 11$ comparisons
 
-BST B is approximately $n / \log_2 n$ times faster. For large $n$This difference is enormous, Which
+BST B is approximately $n / \log_2 n$ times faster. For large $n$ This difference is enormous, Which
 is why balanced BSTs (AVL, red-black trees) are preferred in practice.
 
 **Problem 10.** (Exam-style multi-step question) A sequence of integers is read from a data stream:

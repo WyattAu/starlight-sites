@@ -61,9 +61,9 @@ perfectly reconstructed from samples taken at a rate of at least $2H$ samples pe
 _Proof._ Let $x(t)$ be a signal with Fourier transform $X(f)$ such that $X(f) = 0$ for
 $\lvert f \rvert \gt H$. Sampling at rate $f_s$ produces
 $x_s(t) = x(t) \cdot \sum_{n=-\infty}^{\infty} \delta(t - nT_s)$ Where $T_s = 1/f_s$. In the
-frequency domain, $X_s(f) = f_s \sum_{k=-\infty}^{\infty} X(f - kf_s)$. When $f_s \geq 2H$The
+frequency domain, $X_s(f) = f_s \sum_{k=-\infty}^{\infty} X(f - kf_s)$. When $f_s \geq 2H$ The
 spectral copies do not overlap, and $x(t)$ can be recovered by an ideal Lowpass filter with cutoff
-$H$. When $f_s \lt 2H$Aliasing occurs and perfect recovery is Impossible. $\blacksquare$
+$H$. When $f_s \lt 2H$ Aliasing occurs and perfect recovery is Impossible. $\blacksquare$
 
 - **Shannon capacity:** For a noisy channel with signal-to-noise ratio $\mathrm{SNR}$:
 
@@ -90,7 +90,7 @@ $C = 3100 \times \log_2(3163) \approx 34860$ bps.
 A noiseless channel has a bandwidth of 4000 Hz. How many signal levels are needed to achieve a data
 Rate of 56000 bps?
 
-Using Nyquist"s formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V$$
+Using Nyquist's formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V$$
 $$\log_2 V = \frac{56000}{8000} = 7$$ $$V = 2^7 = 128$$
 
 **Answer:** 128 signal levels are required.

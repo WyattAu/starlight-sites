@@ -32,7 +32,7 @@ The **coherence length**: $l_c = c\tau_c = \lambda^2/\Delta\lambda$.
 
 | Source           | $\Delta\lambda$   | $l_c$            |
 | ---------------- | ----------------- | ---------------- |
-| White light      | $\sim 300$ nm     | $\sim 1.5\,\mu$M |
+| White light      | $\sim 300$ nm     | $\sim 1.5\,\mu$ M |
 | Na D line        | $\sim 0.6$ nm     | $\sim 0.5$ mm    |
 | He-Ne laser      | $\sim 0.002$ nm   | $\sim 20$ cm     |
 | Stabilised laser | $\sim 10^{-6}$ nm | $\sim 400$ km    |
@@ -122,7 +122,7 @@ $$
 |\gamma| = \left|\frac{\sin(\pi wd/(\lambda D))}{\pi wd/(\lambda D)}\right|
 $$
 
-The fringe visibility vanishes when $\pi wd/(\lambda D) = \pi$I.e., $d = \lambda D/w$.
+The fringe visibility vanishes when $\pi wd/(\lambda D) = \pi$ I.e., $d = \lambda D/w$.
 
 For a candle flame ($w \approx 1$ mm) at $D = 1$ m with $\lambda = 550$ nm:
 
@@ -137,7 +137,7 @@ $$
 d_{\text{max} = \frac{550 \times 10^{-9} \times 10^{17}}{10^{11}} = 550\,\text{m}}
 $$
 
-This is the basis of the Michelson stellar interferometer: by measuring $d_{\text{max}}$The stellar
+This is the basis of the Michelson stellar interferometer: by measuring $d_{\text{max}}$ The stellar
 diameter is determined.
 
 </details>

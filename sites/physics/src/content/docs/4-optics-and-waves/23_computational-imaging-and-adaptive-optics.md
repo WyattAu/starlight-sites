@@ -99,7 +99,7 @@ flowchart TD
   at $v_g$.
 - Interference: thin films, Michelson interferometer, Fabry-Pérot etalon.
 - Diffraction: single slit, double slit, diffraction grating; Rayleigh criterion for resolution.
-- Polarisation: Brewster"s angle, Malus’s law ($I = I_0 \cos^2 \theta$).
+- Polarisation: Brewster's angle, Malus’s law ($I = I_0 \cos^2 \theta$).
 
 ## Cross-References
 

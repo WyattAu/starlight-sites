@@ -259,7 +259,7 @@ where $N_i$ is the number of interstitial sites.
 
 ## 6. X-Ray Diffraction
 
-### 6.1 Bragg"s Law
+### 6.1 Bragg's Law
 
 **Theorem 6 (Bragg's Law):** Constructive interference occurs when:
 

@@ -81,7 +81,7 @@ Rejection of $H_0$.
 For discrete distributions, the actual significance level may differ from the nominal level $\alpha$
 Because we cannot achieve exactly $\alpha$.
 
-**Example.** For $X \sim B(15, 0.5)$A right-tailed test at $\alpha = 0.05$:
+**Example.** For $X \sim B(15, 0.5)$ A right-tailed test at $\alpha = 0.05$:
 
 $P(X \geq 12) = 1 - P(X \leq 11)$. We find the smallest $c$ such that $P(X \geq c) \leq 0.05$.
 
@@ -136,7 +136,7 @@ Reduces Type I errors but increases Type II errors. You cannot eliminate both si
 
 Alternatively: 1–3. Same as above. 4. Calculate the **$p$-value**: the probability of obtaining a
 Result at least as extreme as the observed value, assuming $H_0$ is true. 5. If $p$-value
-$\lt \alpha$Reject $H_0$. Otherwise, do not reject $H_0$. 6. Conclude in context.
+$\lt \alpha$ Reject $H_0$. Otherwise, do not reject $H_0$. 6. Conclude in context.
 
 <hr />
 
@@ -168,8 +168,8 @@ There is sufficient evidence at the 5% level that the coin is biased towards hea
 
 ### 6.1 Test for a mean (known variance)
 
-**Example.** A machine fills bags with mean weight 500g. A sample of 30 bags gives $\bar{x} = 497$G.
-Test at the 5% level whether the mean weight has decreased, given $\sigma = 6$G.
+**Example.** A machine fills bags with mean weight 500g. A sample of 30 bags gives $\bar{x} = 497$ G.
+Test at the 5% level whether the mean weight has decreased, given $\sigma = 6$ G.
 
 $H_0: \mu = 500$, $H_1: \mu \lt 500$. $\alpha = 0.05$.
 
@@ -179,7 +179,7 @@ $z = \dfrac{497 - 500}{\sqrt{1.2}} = \dfrac{-3}{1.0954} = -2.739$.
 
 Critical value: $P(Z \lt -1.645) = 0.05$.
 
-Since $-2.739 \lt -1.645$We reject $H_0$.
+Since $-2.739 \lt -1.645$ We reject $H_0$.
 
 There is sufficient evidence that the mean weight has decreased.
 
@@ -213,7 +213,7 @@ Effect too weak).
 
 **Use a two-tailed test when:**
 
-- You are interested in any difference from $H_0$Regardless of direction.
+- You are interested in any difference from $H_0$ Regardless of direction.
 - You want a more conservative test that is harder to reach significance with.
 - There is no strong prior reason to expect the effect in one specific direction.
 
@@ -226,7 +226,7 @@ Effect too weak).
 
 ### 8.2 Critical region comparison
 
-For a test at significance level $\alpha$The allocation of the significance level differs:
+For a test at significance level $\alpha$ The allocation of the significance level differs:
 
 - **One-tailed:** The entire $\alpha$ goes into one tail. The critical value is at the $1 - \alpha$
   quantile (right-tailed) or $\alpha$ quantile (left-tailed).
@@ -244,13 +244,13 @@ An observed $z = 1.80$ is significant for the one-tailed test ($1.80 \gt 1.645$)
 Two-tailed test ($|1.80| \lt 1.960$).
 
 :::note
-Test at the same $\alpha$Because the significance "budget" is split between two tails. A Two-tailed
+Test at the same $\alpha$ Because the significance "budget" is split between two tails. A Two-tailed
 test at $\alpha = 0.05$ corresponds roughly to two one-tailed tests each at $\alpha = 0.025$.
 :::
 
 ### 8.3 Effect on power
 
-For the same $\alpha$A one-tailed test has **greater power** than a two-tailed test against an
+For the same $\alpha$ A one-tailed test has **greater power** than a two-tailed test against an
 Alternative in the predicted direction, because the critical value is closer to the null value.
 However, a one-tailed test has **zero power** to detect an effect in the opposite direction.
 
@@ -286,9 +286,9 @@ $$
 Since the binomial distribution is discrete and the normal distribution is continuous, a
 **continuity correction** improves the accuracy of the approximation:
 
-- For $P(X \leq k)$Use $P\!\left(Z \leq \dfrac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
-- For $P(X \geq k)$Use $P\!\left(Z \geq \dfrac{k - 0.5 - np}{\sqrt{np(1-p)}}\right)$.
-- For $P(X = k)$Use $P(k - 0.5 \lt X \lt k + 0.5)$ in the normal.
+- For $P(X \leq k)$ Use $P\!\left(Z \leq \dfrac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
+- For $P(X \geq k)$ Use $P\!\left(Z \geq \dfrac{k - 0.5 - np}{\sqrt{np(1-p)}}\right)$.
+- For $P(X = k)$ Use $P(k - 0.5 \lt X \lt k + 0.5)$ in the normal.
 
 ### 9.3 Worked example
 
@@ -332,7 +332,7 @@ Refers to the long-run proportion of intervals (across many repeated samples) th
 
 ### 10.2 95% confidence interval for a population proportion
 
-For large $n$ where $n\hat{p} \gt 5$ and $n(1 - \hat{p}) \gt 5$The sample proportion $\hat{p}$ Is
+For large $n$ where $n\hat{p} \gt 5$ and $n(1 - \hat{p}) \gt 5$ The sample proportion $\hat{p}$ Is
 approximately normal. The $100(1-\alpha)\%$ confidence interval for $p$ is:
 
 $$
@@ -345,7 +345,7 @@ $$
 \hat{p} \pm 1.96\sqrt{\dfrac{\hat{p}(1 - \hat{p})}{n}}
 $$
 
-The **margin of error** is $1.96\sqrt{\hat{p}(1-\hat{p})/n}$Which decreases as $n$ increases.
+The **margin of error** is $1.96\sqrt{\hat{p}(1-\hat{p})/n}$ Which decreases as $n$ increases.
 
 ### 10.3 Connection to hypothesis testing
 
@@ -366,7 +366,7 @@ $$
 95\%\mathrm{ CI} = 0.483 \pm 0.0894 = (0.394, 0.573)
 $$
 
-Since $p_0 = 0.4$ lies inside $(0.394, 0.573)$We do not reject $H_0: p = 0.4$ at the 5% level. This
+Since $p_0 = 0.4$ lies inside $(0.394, 0.573)$ We do not reject $H_0: p = 0.4$ at the 5% level. This
 is consistent with the hypothesis test result in Section 9.3.
 
 <hr />
@@ -430,7 +430,7 @@ $$
 p\mathrm{-value} = 2 \times P(Z \gt 1.687) = 2 \times (1 - 0.9542) = 0.0916
 $$
 
-Since $0.0916 \gt 0.05$We do not reject $H_0$ at the 5% level.
+Since $0.0916 \gt 0.05$ We do not reject $H_0$ at the 5% level.
 
 **Interpretation:** If the true mean were 50 mm, there would be approximately a 9.2% chance of
 Observing a sample mean at least as far from 50 mm as 50.8 mm. This is not unusual enough to provide
@@ -546,7 +546,7 @@ Section 6.
 
 <details>
 <summary>Problem 6</summary>
-For $X \sim B(20, 0.5)$Find the critical region for a two-tailed test at the 10% significance level.
+For $X \sim B(20, 0.5)$ Find the critical region for a two-tailed test at the 10% significance level.
 </details>
 
 <details>
@@ -626,7 +626,7 @@ Failing to reject $H_0$ means the data is consistent with $H_0$ but does not pro
 
 <details>
 <summary>Problem 10</summary>
-For a test of $H_0: \mu = 50$ vs $H_1: \mu \gt 50$ at the 5% level with $\sigma = 4$ and $n = 16$Find the probability of a Type II error if the true mean is $\mu = 52$.
+For a test of $H_0: \mu = 50$ vs $H_1: \mu \gt 50$ at the 5% level with $\sigma = 4$ and $n = 16$ Find the probability of a Type II error if the true mean is $\mu = 52$.
 </details>
 
 <details>
@@ -657,7 +657,7 @@ A researcher tests whether a new drug changes recovery time. She uses a two-tail
 <summary>Solution 11</summary>
 (a) Two-tailed test: critical values $\pm 1.96$. $|1.85| = 1.85 \lt 1.96$ So **do not reject** $H_0$. There is insufficient evidence that recovery time has changed.
 
-(b) One-tailed test: critical value $1.645$. Since $1.85 \gt 1.645$We **reject** $H_0$. There is
+(b) One-tailed test: critical value $1.645$. Since $1.85 \gt 1.645$ We **reject** $H_0$. There is
 Sufficient evidence that recovery time has increased.
 
 The conclusion changes because a one-tailed test allocates the entire 5% significance level to one
@@ -792,7 +792,7 @@ $$
 
 So $\beta \approx 0.153$ and power $= 1 - 0.153 = 0.847$.
 
-(c) If $\alpha = 0.10$The critical value becomes $c = 100 + 1.282 \times 3 = 103.846$.
+(c) If $\alpha = 0.10$ The critical value becomes $c = 100 + 1.282 \times 3 = 103.846$.
 
 $$
 \beta_{\mathrm{new}} = P\!\left(Z \leq \dfrac{103.846 - 108}{3}\right) = P(Z \leq -1.385) \approx 0.083

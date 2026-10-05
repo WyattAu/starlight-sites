@@ -615,7 +615,7 @@ wavelength (red-orange, $\approx 600$--$700\mathrm{ nm}$) are absorbed to promot
 lower to the upper $d$-orbital set. The transmitted or reflected light is the complementary colour,
 blue.
 
-In anhydrous $\mathrm{CuSO}_4$No water ligands are present, so no crystal field splitting occurs and
+In anhydrous $\mathrm{CuSO}_4$ No water ligands are present, so no crystal field splitting occurs and
 no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
 
 </details>
@@ -652,7 +652,7 @@ no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
 
 - **Reversing the spectrochemical series:** The spectrochemical series ranks ligands by the
   magnitude of crystal field splitting ($\Delta$). $\mathrm{CN}^-$ produces a larger $\Delta$ than
-  $\mathrm{H}_2\mathrm{O}$Not the other way around. A larger $\Delta$ means shorter-wavelength
+  $\mathrm{H}_2\mathrm{O}$ Not the other way around. A larger $\Delta$ means shorter-wavelength
   (higher-energy) light is absorbed.
 
 - **Saying transition metals are coloured:** The metals themselves are not coloured; it is their
@@ -783,7 +783,7 @@ extra stability, producing local maxima in ionisation energy across a period.
 The enthalpy of solution of $\mathrm{CaCl}_2$ is $-82.8\;\mathrm{kJ/mol}$. The lattice energy is
 $-2258\;\mathrm{kJ/mol}$. Calculate the total hydration enthalpy of $\mathrm{Ca}^{2+}$ and
 $2\mathrm{Cl}^-$. Given that the hydration enthalpy of $\mathrm{Cl}^-$ is
-$-363\;\mathrm{kJ/mol}$Determine the hydration enthalpy of $\mathrm{Ca}^{2+}$.
+$-363\;\mathrm{kJ/mol}$ Determine the hydration enthalpy of $\mathrm{Ca}^{2+}$.
 
 <details>
 <summary>Solution</summary>
@@ -803,7 +803,7 @@ $$
 \Delta H_\mathrm{hydration} = -82.8 - 2258 = -2341\;\mathrm{kJ/mol}
 $$
 
-The total hydration enthalpy is $-2341\;\mathrm{kJ/mol}$Which is the sum of the hydration enthalpies
+The total hydration enthalpy is $-2341\;\mathrm{kJ/mol}$ Which is the sum of the hydration enthalpies
 of all ions:
 
 $$
@@ -890,7 +890,7 @@ $$
 
 Arrange the following ionic compounds in order of increasing lattice energy (most negative first):
 $\mathrm{NaF}$$\mathrm{MgO}$$\mathrm{NaCl}$$\mathrm{MgCl}_2$$\mathrm{Al}_2\mathrm{O}_3$. Justify
-your ordering using Coulomb"s law: $U \propto \frac{z_+ z_-}{r_+ + r_-}$.
+your ordering using Coulomb's law: $U \propto \frac{z_+ z_-}{r_+ + r_-}$.
 
 </details>
 
@@ -912,7 +912,7 @@ The equilibrium constant for the reaction
 $\mathrm{Cl}_2(aq) + 2\mathrm{Br}^-(aq) \rightleftharpoons 2\mathrm{Cl}^-(aq) + \mathrm{Br}_2(aq)$
 is $K = 4.0 \times 10^{11}$ at $298\;\mathrm{K}$. (a) Calculate $E_{\mathrm{cell}}^\circ$ for the
 reaction. (b) If $0.050\;\mathrm{mol}$ of $\mathrm{Cl}_2$ is bubbled into $1.0\;\mathrm{L}$ of
-$0.10\;\mathrm{M}$ $\mathrm{KBr}$Calculate the equilibrium concentration of $\mathrm{Br}_2$.
+$0.10\;\mathrm{M}$ $\mathrm{KBr}$ Calculate the equilibrium concentration of $\mathrm{Br}_2$.
 ($E^\circ(\mathrm{Cl}_2/\mathrm{Cl}^-) = +1.36\;\mathrm{V}$$E^\circ(\mathrm{Br}_2/\mathrm{Br}^-) = +1.09\;\mathrm{V}$)
 
 </details>
@@ -974,8 +974,8 @@ of aluminium from bauxite ore via the Bayer process.
   significant covalent character.
 
 - **Ignoring the disproportionation of chlorine in cold vs hot alkali**: In cold dilute
-  $\mathrm{NaOH}$Chlorine disproportionates to $\mathrm{Cl}^-$ and $\mathrm{ClO}^-$. In hot
-  concentrated $\mathrm{NaOH}$It disproportionates to $\mathrm{Cl}^-$ and $\mathrm{ClO}_3^-$. The
+  $\mathrm{NaOH}$ Chlorine disproportionates to $\mathrm{Cl}^-$ and $\mathrm{ClO}^-$. In hot
+  concentrated $\mathrm{NaOH}$ It disproportionates to $\mathrm{Cl}^-$ and $\mathrm{ClO}_3^-$. The
   product depends on temperature.
 
 - **Stating that all Group 2 hydroxides are strong bases**: $\mathrm{Be}(\mathrm{OH})_2$ is

@@ -314,7 +314,7 @@ cmake -S . -B build \
 #### GCC
 
 - ccache works transparently with GCC.
-- GCC"s `-fprofile-generate` / `-fprofile-use` (PGO) is **not** cacheable by ccache because the
+- GCC's `-fprofile-generate` / `-fprofile-use` (PGO) is **not** cacheable by ccache because the
   output depends on runtime profile data, not just source inputs.
 
 #### Clang

@@ -68,8 +68,8 @@ Key (for decryption/signing). The public key can be freely distributed.
 Channel without prior shared key.
 
 1. Public parameters: prime $p$ and generator $g$.
-2. Alice picks secret $a$Sends $A = g^a \bmod p$.
-3. Bob picks secret $b$Sends $B = g^b \bmod p$.
+2. Alice picks secret $a$ Sends $A = g^a \bmod p$.
+3. Bob picks secret $b$ Sends $B = g^b \bmod p$.
 4. Shared secret: $s = B^a \bmod p = g^{ab} \bmod p = A^b \bmod p$.
 
 An eavesdropper who sees $g$, $p$, $A$, $B$ cannot compute $g^{ab}$ without solving the discrete

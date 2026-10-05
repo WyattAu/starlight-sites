@@ -26,7 +26,7 @@ tags:
 
 ## 1. Historical Development of Atomic Theory
 
-### Dalton"s Atomic Theory (1803)
+### Dalton's Atomic Theory (1803)
 
 John Dalton proposed that:
 
@@ -121,7 +121,7 @@ $$
 \hat{H}\Psi = E\Psi
 $$
 
-Where $\hat{H}$ is the Hamiltonian operator. The square of the wave function, $|\Psi|^2$Gives the
+Where $\hat{H}$ is the Hamiltonian operator. The square of the wave function, $|\Psi|^2$ Gives the
 Probability density of finding the electron at a given position.
 
 This is the basis of the **quantum mechanical model** of the atom.
@@ -472,7 +472,7 @@ $$
 Z_{\mathrm{eff}}(4s) = 26 - 22.25 = 3.75
 $$
 
-Wait, this gives $Z_{\mathrm{eff}}(3d) \gt Z_{\mathrm{eff}}(4s)$Which suggests $4s$ is higher in
+Wait, this gives $Z_{\mathrm{eff}}(3d) \gt Z_{\mathrm{eff}}(4s)$ Which suggests $4s$ is higher in
 Energy. For a neutral atom, the $4s$ has lower energy due to its greater penetration. Once the $3d$
 Subshell is occupied, however, the $3d$ electrons shield the $4s$ electrons, raising $4s$ above $3d$
 In energy. Therefore, upon ionization, the $4s$ electrons (now at higher energy) are removed first.
@@ -491,7 +491,7 @@ The large jump occurs between $IE_3$ and $IE_4$ (from $2745$ to $11577\mathrm{ k
 That the first three electrons are valence electrons and the fourth is from an inner shell. This
 Corresponds to a Group 13 element with three valence electrons.
 
-$IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$Configuration
+$IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$ Configuration
 $[\mathrm{Ne}]\, 3s^2\, 3p^1$).
 
 </details>
@@ -524,7 +524,7 @@ Of $+2$. Identify the element and determine whether the ion is paramagnetic or d
 
 **Solution:**
 
-The neutral atom would be $[\mathrm{Ar}]\, 4s^2\, 3d^5$Which is manganese ($\mathrm{Mn}$ $Z = 25$).
+The neutral atom would be $[\mathrm{Ar}]\, 4s^2\, 3d^5$ Which is manganese ($\mathrm{Mn}$ $Z = 25$).
 The ion $\mathrm{Mn}^{2+}$ has five unpaired $d$-electrons (all in separate orbitals Following
 Hund's rule), so it is strongly paramagnetic.
 
@@ -596,7 +596,7 @@ An inner shell. This corresponds to a Group 13 element.
 
 **Step 3: Identify the element.**
 
-$IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$Configuration
+$IE_1 = 578\mathrm{ kJ/mol}$ matches aluminium ($\mathrm{Al}$$Z = 13$ Configuration
 $[\mathrm{Ne}]\, 3s^2\, 3p^1$).
 
 **Step 4: Verify.**
@@ -739,7 +739,7 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
 
 - **Removing the wrong electrons when forming cations**: Transition metal ions lose $4s$ electrons
   before $3d$ electrons, despite $4s$ filling first. $\mathrm{Fe}$ is $[\mathrm{Ar}]\, 4s^2\, 3d^6$
-  but $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$Not $[\mathrm{Ar}]\, 4s^2\, 3d^4$.
+  but $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$ Not $[\mathrm{Ar}]\, 4s^2\, 3d^4$.
 
 - **Confusing penetration with shielding**: Penetration describes how close an electron can approach
   the nucleus ($s \gt p \gt d \gt f$). Shielding describes how other electrons reduce the effective

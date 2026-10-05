@@ -117,7 +117,7 @@ Key characteristics of Ruby:
 - Better error handling and deprecation warnings
 - `ReferenceError` instead of `NameError` for certain binding issues
 
-## Ruby"s Philosophy: The Principle of Least Astonishment
+## Ruby's Philosophy: The Principle of Least Astonishment
 
 The **Principle of Least Astonishment (POLA)**, sometimes called the **Principle of Least
 Surprise**, is the guiding philosophy behind Ruby's design. Matz designed Ruby so that the language
@@ -1905,7 +1905,7 @@ label = score >= 90 ? "A" : score >= 80 ? "B" : score >= 70 ? "C" : "F"
 
 ### case / when
 
-The `case` statement is Ruby"s switch construct. It supports both value matching and condition
+The `case` statement is Ruby's switch construct. It supports both value matching and condition
 matching:
 
 ```ruby
@@ -3255,7 +3255,7 @@ end
 
 ## Blocks
 
-Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby"s most
+Blocks are anonymous chunks of code that can be passed to methods. They are one of Ruby's most
 powerful features.
 
 ### Block Syntax
@@ -6098,7 +6098,7 @@ exceptionally well-suited for metaprogramming because:
 - Classes and modules are open -- they can be modified at any time
 - Methods can be defined, removed, and aliased dynamically
 - Every operation (including method calls and class definitions) is expressed as a message send
-- Ruby"s reflective API provides deep introspection capabilities
+- Ruby's reflective API provides deep introspection capabilities
 - Blocks, procs, and lambdas are first-class objects
 
 ## Open Classes
@@ -6164,7 +6164,7 @@ end
 
 ## method_missing
 
-`method_missing` is Ruby"s mechanism for handling unknown method calls:
+`method_missing` is Ruby's mechanism for handling unknown method calls:
 
 ```ruby
 class DynamicProxy

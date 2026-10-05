@@ -131,7 +131,7 @@ $$
 \mathbf{I}\,\dot{\boldsymbol{\omega}} + \boldsymbol{\omega} \times (\mathbf{I}\,\boldsymbol{\omega}) = \boldsymbol{\tau}
 $$
 
-In the principal axis frame with $\boldsymbol{\tau} = \mathbf{0}$This gives Euler's equations
+In the principal axis frame with $\boldsymbol{\tau} = \mathbf{0}$ This gives Euler's equations
 directly. $\blacksquare$
 
 ### 8.6 Stability of Torque-Free Rotation
@@ -149,7 +149,7 @@ $$
 
 Combining: $\ddot{\epsilon}_2 = \frac{(I_3 - I_1)(I_1 - I_2)}{I_2 I_3}\omega_1^2\,\epsilon_2$.
 
-For stability, the coefficient must be negative. This requires $(I_1 - I_3)(I_1 - I_2) \gt 0$I.e.,
+For stability, the coefficient must be negative. This requires $(I_1 - I_3)(I_1 - I_2) \gt 0$ I.e.,
 $I_1$ is either the largest or smallest. If $I_1$ is intermediate, the perturbation grows
 exponentially. $\blacksquare$
 

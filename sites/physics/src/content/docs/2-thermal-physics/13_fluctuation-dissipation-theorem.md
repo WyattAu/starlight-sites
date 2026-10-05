@@ -114,14 +114,14 @@ $$
 
 So $D = k_B T/(6\pi\eta r)$.
 
-For a $1$ $\mu$M diameter sphere in water ($\eta = 10^{-3}$ Pa$\cdot$S) at $T = 300$ K:
+For a $1$ $\mu$ M diameter sphere in water ($\eta = 10^{-3}$ Pa$\cdot$S) at $T = 300$ K:
 
 $$
 D = \frac{1.38 \times 10^{-23} \times 300}{6\pi \times 10^{-3} \times 0.5 \times 10^{-6}} = \frac{4.14 \times 10^{-21}}{9.42 \times 10^{-9}} \approx 4.39 \times 10^{-13} \text{ m}^2/\text{s}
 $$
 
 The mean squared displacement in time $t$ is $\langle x^2 \rangle = 2Dt$. In 1 second:
-$\sqrt{\langle x^2 \rangle} \approx 0.94$ $\mu$M.
+$\sqrt{\langle x^2 \rangle} \approx 0.94$ $\mu$ M.
 
 </details>
 

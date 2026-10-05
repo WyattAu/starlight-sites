@@ -49,7 +49,7 @@ from parallel spins in degenerate orbitals). The energy gained from having five 
 with parallel spins in the $3d$ subshell outweighs the small energy difference between $3d$ and $4s$
 orbitals.
 
-(b) When forming $Cr^{3+}$Electrons are removed from the **$4s$ orbital first** (since $4s$ is at a
+(b) When forming $Cr^{3+}$ Electrons are removed from the **$4s$ orbital first** (since $4s$ is at a
 higher energy than $3d$ once the atom is ionised), then from $3d$:
 
 $$
@@ -115,7 +115,7 @@ silicon (16091 kJ/mol). Explain this observation in terms of nuclear charge and 
 
 Reasoning: There are three relatively low ionisation energies (578, 1817, 2745) followed by a large
 jump to 11577. This indicates that $X$ has **three valence electrons** in the outermost shell. The
-electron configuration is $1s^{2}2s^{2}2p^{6}3s^{2}3p^{1}$Which corresponds to aluminium.
+electron configuration is $1s^{2}2s^{2}2p^{6}3s^{2}3p^{1}$ Which corresponds to aluminium.
 
 (b) The first three electrons are removed from the **third shell** ($3s$ and $3p$). The 4th electron
 must be removed from the **second shell** ($2p$), which is much closer to the nucleus and
@@ -252,7 +252,7 @@ new inner shell. The 4th IE is only 1.4 times the 3rd, meaning the 4th electron 
 shell as the 3rd. Therefore $Y$ has **two valence electrons** and is in **Group 2**.
 
 (b) $Y$ is in Group 2, Period 4: $Y = Ca$ ($Z = 20$). The element to its right is $Sc$
-($Z = 21$Group 3, Period 4).
+($Z = 21$ Group 3, Period 4).
 
 The decrease from Ca ($419$) to Sc ($403$) occurs because:
 

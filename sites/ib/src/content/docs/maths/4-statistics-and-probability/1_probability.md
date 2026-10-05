@@ -451,7 +451,7 @@ $$
 :::
 
 :::note[Example]
-Given $X \sim N(50, 16)$Find $P(45 \lt X \lt 55)$.
+Given $X \sim N(50, 16)$ Find $P(45 \lt X \lt 55)$.
 
 $\mu = 50$, $\sigma = 4$.
 
@@ -707,7 +707,7 @@ $$
 
 **(c)** Find the mode.
 
-Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$The mode is $x = 2$.
+Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$ The mode is $x = 2$.
 
 ---
 

@@ -96,9 +96,9 @@ $$
 \frac{10!}{3! \cdot 3! \cdot 2!} = \frac{3628800}{6 \times 6 \times 2} = \frac{3628800}{72} = 50400
 $$
 
-### Pascal"s Triangle and Binomial Coefficients (HL)
+### Pascal's Triangle and Binomial Coefficients (HL)
 
-Each entry in Pascal's triangle is the sum of the two entries above it. The $r$Th entry in row $n$
+Each entry in Pascal's triangle is the sum of the two entries above it. The $r$ Th entry in row $n$
 Is $\binom{n}{r}$.
 
 **Pascal's identity:** $\binom{n}{r} = \binom{n-1}{r-1} + \binom{n-1}{r}$.
@@ -311,7 +311,7 @@ $$
 E(X) = np, \quad \mathrm{Var(X) = np(1-p)
 $$
 
-**Conditions:** fixed $n$Independent trials, two outcomes, constant $p$.
+**Conditions:** fixed $n$ Independent trials, two outcomes, constant $p$.
 
 **Proof that $E(X) = np$ for $X \sim \mathrm{Bin(n, p)$.** Let $X_i$ be the indicator variable for
 Success on trial $i$ (so $X_i = 1$ with probability $p$$X_i = 0$ with probability $1-p$). Then
@@ -444,18 +444,18 @@ $$
 
 ### Box Plots (HL)
 
-A box plot displays five statistics: minimum, $Q_1$Median, $Q_3$Maximum.
+A box plot displays five statistics: minimum, $Q_1$ Median, $Q_3$ Maximum.
 
 **Outlier:** A value below $Q_1 - 1.5 \times \mathrm{IQR$ or above $Q_3 + 1.5 \times \mathrm{IQR$.
 
-**Example (HL):** A data set has $Q_1 = 25$$Q_3 = 45$Minimum $= 10$Maximum $= 65$. Identify Any
+**Example (HL):** A data set has $Q_1 = 25$$Q_3 = 45$ Minimum $= 10$ Maximum $= 65$. Identify Any
 outliers.
 
 $\mathrm{IQR = 45 - 25 = 20$.
 
-Lower fence: $25 - 1.5(20) = -5$. Since the minimum is $10 > -5$No low outliers.
+Lower fence: $25 - 1.5(20) = -5$. Since the minimum is $10 > -5$ No low outliers.
 
-Upper fence: $45 + 1.5(20) = 75$. Since the maximum is $65 < 75$No high outliers.
+Upper fence: $45 + 1.5(20) = 75$. Since the maximum is $65 < 75$ No high outliers.
 
 ### Skewness (HL)
 
@@ -504,7 +504,7 @@ $Z = \frac{114.5 - 100}{7.071} \approx 2.05$.
 
 Critical values at $\alpha = 0.05$ (two-tailed): $z = \pm 1.96$.
 
-Since $2.05 > 1.96$We reject $H_0$. There is sufficient evidence to suggest the coin is biased.
+Since $2.05 > 1.96$ We reject $H_0$. There is sufficient evidence to suggest the coin is biased.
 
 ### t-test for a Mean (HL)
 
@@ -527,7 +527,7 @@ $$
 Degrees of freedom $= 7$. The critical value from t-tables at $\alpha = 0.05$ (two-tailed, 7 df) is
 Approximately $\pm 2.365$.
 
-Since $|-2.156| = 2.156 < 2.365$We do not reject $H_0$. There is insufficient evidence to conclude
+Since $|-2.156| = 2.156 < 2.365$ We do not reject $H_0$. There is insufficient evidence to conclude
 The population mean differs from 25.
 
 ### Type I and Type II Errors (HL)
@@ -578,7 +578,7 @@ Correlation (but there may be a non-linear relationship).
 The coefficient of determination $r^2$ represents the proportion of variance in $y$ explained by the
 Linear relationship with $x$.
 
-If $r = 0.8$ Then $r^2 = 0.64$Meaning 64% of the variation in $y$ is accounted for by the linear
+If $r = 0.8$ Then $r^2 = 0.64$ Meaning 64% of the variation in $y$ is accounted for by the linear
 Regression on $x$. The remaining 36% is due to other factors.
 
 ### Line of Best Fit (Least Squares) (HL)
@@ -597,7 +597,7 @@ $$
 
 The least squares line minimises $\sum(y_i - (a + bx_i))^2$.
 
-**Example (HL):** For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$Find the correlation
+**Example (HL):** For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$ Find the correlation
 Coefficient and regression line.
 
 $n = 5$$\sum x = 15$$\sum y = 25$$\sum xy = 1(3)+2(5)+3(4)+4(7)+5(6) = 3+10+12+28+30 = 83$
@@ -657,7 +657,7 @@ See the examples integrated throughout the sections above.
 3. A bag contains 3 red and 5 green balls. Two are drawn at random without replacement. Find the
    probability both are green.
 4. Find the mean, median, and mode of: 3, 5, 5, 7, 8, 9, 12.
-5. Given $E(X) = 4$ and $\mathrm{Var(X) = 9$Find $E(X^2)$.
+5. Given $E(X) = 4$ and $\mathrm{Var(X) = 9$ Find $E(X^2)$.
 6. In a class of 35 students, 20 study maths, 15 study physics, and 8 study both. How many study
    neither?
 
@@ -668,7 +668,7 @@ See the examples integrated throughout the sections above.
    the probability a randomly selected person is between 160 cm and 180 cm tall.
 3. A sample of 8 measurements has $\bar{x} = 23.4$ and $s = 2.1$. Test at the 5% level whether the
    population mean is 25.
-4. For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$Find the correlation coefficient $r$ and
+4. For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$ Find the correlation coefficient $r$ and
    the equation of the regression line of $y$ on $x$.
 5. Prove that $\binom{n}{r} = \binom{n}{n-r}$.
 6. A test for a disease has 99% sensitivity and 1% false positive rate. If 0.5% of the population

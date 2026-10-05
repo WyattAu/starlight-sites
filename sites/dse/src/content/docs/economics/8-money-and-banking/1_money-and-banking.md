@@ -734,7 +734,7 @@ Per bank.
    m = \frac{1}{rrr}
    $$
 
-If rrr = 0.2, then $m = 5$Not 0.2.
+If rrr = 0.2, then $m = 5$ Not 0.2.
 
 1. **Stating that banks create money by printing notes:** Banks create money through LENDING, not by
    printing currency. When a bank makes a loan, it creates a new deposit in the borrower's account.
@@ -1646,7 +1646,7 @@ If you get this wrong, revise: [Open Market Operations](/economics/8-money-and-b
 
 A central bank has an inflation target of 2% with a tolerance band of $\pm 1\%$. Actual inflation
 has been 5% for the past two years. The public expects inflation to be 6% next year. The Phillips
-curve is $\pi = \pi^e - 0.5(u - 5) + s$Where $s$ is a supply shock (0 this year).
+curve is $\pi = \pi^e - 0.5(u - 5) + s$ Where $s$ is a supply shock (0 this year).
 
 (a) If the central bank wants to reduce inflation to 2%, calculate the required unemployment rate
 using the Phillips curve. (b) Calculate the sacrifice ratio (the cumulative unemployment cost of
@@ -1715,7 +1715,7 @@ capitalisation of 120% of GDP, and active venture capital and corporate bond mar
 
 (a) Explain four channels through which financial development promotes economic growth. (b) If
 Country Y's savings rate is 15% of GDP and Country Z's is 30%, and both have the same production
-function $Y = K^{0.3}L^{0.7}$Calculate the steady-state GDP per capita ratio. (c) Explain why
+function $Y = K^{0.3}L^{0.7}$ Calculate the steady-state GDP per capita ratio. (c) Explain why
 financial development may have diminishing returns at very high levels (financialisation risks). (d)
 Suggest three specific policies Country Y should implement to develop its financial system.
 
@@ -1739,7 +1739,7 @@ Suggest three specific policies Country Y should implement to develop its financ
    reducing the liquidity risk of long-term investment.
 
 (b) In the Solow model, steady-state capital per worker is proportional to
-$(s/n)^{1/(1-\alpha)}$Where $s$ is the saving rate, $n$ is the population growth rate, and
+$(s/n)^{1/(1-\alpha)}$ Where $s$ is the saving rate, $n$ is the population growth rate, and
 $\alpha = 0.3$.
 
 Steady-state $k^* \propto s^{1/0.7} = s^{1.429}$.

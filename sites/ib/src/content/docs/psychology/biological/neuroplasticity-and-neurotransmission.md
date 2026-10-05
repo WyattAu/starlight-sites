@@ -79,7 +79,7 @@ Substantia nigra, the ventral tegmental area (VTA), and the hypothalamus. Dopami
   addiction.
 - **Motor control:** Dopamine produced in the substantia nigra and transmitted to the striatum (the
   nigrostriatal pathway) is essential for smooth, coordinated movement. Degeneration of dopaminergic
-  neurons in this pathway causes Parkinson"s disease, characterised by tremor, rigidity, and
+  neurons in this pathway causes Parkinson's disease, characterised by tremor, rigidity, and
   bradykinesia.
 - **Cognitive function:** Dopamine in the prefrontal cortex (the mesocortical pathway) is involved
   in working memory, attention, and executive function. Abnormal dopamine activity in this pathway

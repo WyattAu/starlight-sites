@@ -118,7 +118,7 @@ Libc++, MSVC) use a factor of $\times 2$ (geometric growth).
 We prove that geometric growth with factor $\alpha \gt 1$ yields amortized $O(1)$ per `push_back`.
 
 **Theorem.** Starting from an empty vector, inserting $n$ elements by `push_back` with geometric
-Growth factor $\alpha$ incurs total element-copy cost $O(n)$Hence amortized $O(1)$ per insertion.
+Growth factor $\alpha$ incurs total element-copy cost $O(n)$ Hence amortized $O(1)$ per insertion.
 
 **Proof.** Let $c_k$ denote the capacity after the $k$-th reallocation, with $c_0 = 1$. Then
 $c_k = \lceil \alpha^k \rceil$. The total number of element copies across all reallocations is the
@@ -128,15 +128,15 @@ $$
 C(n) = \sum_{k=0}^{\lceil \log_\alpha n \rceil} c_k \leq \sum_{k=0}^{\lceil \log_\alpha n \rceil} \alpha^k = \frac{\alpha^{\lceil \log_\alpha n \rceil + 1} - 1}{\alpha - 1} \leq \frac{\alpha \cdot n}{\alpha - 1}
 $$
 
-For $\alpha = 2$This gives $C(n) \leq 2n$ So total copies are at most $2n$ for $n$ insertions,
+For $\alpha = 2$ This gives $C(n) \leq 2n$ So total copies are at most $2n$ for $n$ insertions,
 Yielding amortized cost of 2 element copies per insertion.
 
-For $\alpha = 1.5$We get $C(n) \leq 3n$. Each insertion is still amortized $O(1)$ But the Constant is
+For $\alpha = 1.5$ We get $C(n) \leq 3n$. Each insertion is still amortized $O(1)$ But the Constant is
 slightly worse. QED.
 
 #### Why 1.5x Can Be Preferred Over 2x
 
-Although both factors give amortized $O(1)$The choice of growth factor affects **peak memory
+Although both factors give amortized $O(1)$ The choice of growth factor affects **peak memory
 Usage**. Consider a vector that just reallocated from capacity $c$ to capacity $\alpha c$. Before
 The old buffer is freed, the vector temporarily holds $\alpha c$ bytes of allocated (but unused)
 Memory. The **peak allocated memory** at this point is $c + \alpha c = c(1 + \alpha)$.
@@ -145,14 +145,14 @@ For $\alpha = 2$: peak = $3c$ (the old buffer plus the new buffer of size $2c$).
 Peak = $2.5c$.
 
 More critically, a factor of exactly 2 can lead to the allocator being unable to reuse freed memory.
-When the vector grows from $c$ to $2c$The old block of size $c$ is freed. On the next reallocation
-From $2c$ to $4c$The old block of size $2c$ is freed. If the heap allocator places blocks
+When the vector grows from $c$ to $2c$ The old block of size $c$ is freed. On the next reallocation
+From $2c$ to $4c$ The old block of size $2c$ is freed. If the heap allocator places blocks
 Contiguously, the freed block of size $c$ or $2c$ may be too small to hold the next allocation of
-$4c$Forcing the allocator to find a completely new region. With $\alpha = 1.5$The old block of Size
+$4c$ Forcing the allocator to find a completely new region. With $\alpha = 1.5$ The old block of Size
 $c$ is freed when growing to $1.5c$ And the next reallocation needs $2.25c$. Because
-$c + 1.5c = 2.5c \gt 2.25c$The previously freed space can sometimes be reused.
+$c + 1.5c = 2.5c \gt 2.25c$ The previously freed space can sometimes be reused.
 
-This is why some production allocators (e.g., Facebook"s folly `fbvector`) use a factor of 1.5.
+This is why some production allocators (e.g., Facebook's folly `fbvector`) use a factor of 1.5.
 
 ```cpp
 #include <vector>

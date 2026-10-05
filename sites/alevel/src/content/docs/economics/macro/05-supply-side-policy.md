@@ -93,7 +93,7 @@ Reversed to 25% (2023).
 
 **The Laffer Curve.** The relationship between the tax rate and tax revenue is non-linear. At a tax
 Rate of 0%, revenue is zero. As the rate rises, revenue initially increases. Beyond some threshold
-$t^*$Further increases reduce revenue because the tax base shrinks (people work less, evade more, Or
+$t^*$ Further increases reduce revenue because the tax base shrinks (people work less, evade more, Or
 relocate).
 
 $$
@@ -655,7 +655,7 @@ In the UK?
 The Laffer curve is theoretically valid, at a 100% tax rate, nobody works and revenue is zero, so
 There must exist some rate that maximises revenue. However, its **practical relevance** for the UK is
 Highly contested. (1) Most empirical studies (IFS, OBR, Mirrlees Review) estimate that the UK income
-Tax rate is to the **left** of $t^*$Meaning that tax cuts would **reduce** rather than increase
+Tax rate is to the **left** of $t^*$ Meaning that tax cuts would **reduce** rather than increase
 Revenue. The revenue-maximising rate for income tax is estimated at 50--60% for top earners (Diamond
 And Saez, 2011), well above the current 45% additional rate. (2) The Laffer curve effect is stronger
 For highly mobile factors (capital, high-skilled labour) than for immobile ones, this is why
@@ -806,7 +806,7 @@ $$
 \frac{\Delta R}{R} = \frac{\Delta t}{t} + \frac{\Delta B}{B} = \frac{\Delta t}{t}(1 + \varepsilon_B)
 $$
 
-For a tax cut to increase revenue, we need $1 + \varepsilon_B < 0$I.e., $\varepsilon_B < -1$. The
+For a tax cut to increase revenue, we need $1 + \varepsilon_B < 0$ I.e., $\varepsilon_B < -1$. The
 tax base must be elastic (absolute value greater than 1). Empirical evidence suggests income tax
 elasticity in the UK is approximately -0.3 to -0.5 -- well below the threshold for a Laffer effect.
 
@@ -984,7 +984,7 @@ $$
 
 Where $A$ represents technology AND human capital. If education spending increases $A$:
 
-- Suppose $A = 0.3$ and the savings rate $s = 0.2$Depreciation $\delta = 0.05$.
+- Suppose $A = 0.3$ and the savings rate $s = 0.2$ Depreciation $\delta = 0.05$.
 - Growth rate: $g = sA - \delta = 0.2(0.3) - 0.05 = 0.01 = 1\%$.
 - If education spending raises $A$ to 0.35: $g = 0.2(0.35) - 0.05 = 0.02 = 2\%$.
 - Over 30 years: $Y_{30} = Y_0(1.02)^{30} = 1.81Y_0$ vs $Y_{30} = Y_0(1.01)^{30} = 1.35Y_0$.
@@ -1044,7 +1044,7 @@ for the UK?
 <details>
 <summary>Full Mark Scheme</summary>
 **Laffer curve analysis (6 marks):**
-The Laffer curve shows the relationship between the tax rate and tax revenue. At $t = 0\%$Revenue is zero (no tax). At $t = 100\%$Revenue is also zero (no one works). Revenue is maximised at some intermediate rate $t^*$. If the current rate is above $t^*$A tax cut increases revenue (the economy is on the downward-sloping portion). If the current rate is below $t^*$A tax cut reduces revenue (the economy is on the upward-sloping portion).
+The Laffer curve shows the relationship between the tax rate and tax revenue. At $t = 0\%$ Revenue is zero (no tax). At $t = 100\%$ Revenue is also zero (no one works). Revenue is maximised at some intermediate rate $t^*$. If the current rate is above $t^*$ A tax cut increases revenue (the economy is on the downward-sloping portion). If the current rate is below $t^*$ A tax cut reduces revenue (the economy is on the upward-sloping portion).
 
 **Application to the UK top rate (6 marks):** The top rate of income tax in the UK is 45% (on income
 above GBP 125,140). The IFS and OBR estimate that the revenue-maximising rate for the top rate is

@@ -123,7 +123,7 @@ is a key signature of a Fermi liquid. $\blacksquare$
 ### Additional Pitfalls
 
 - **Confusing $C_P$ and $C_V$ derivatives.** $C_P - C_V = T(\partial P/\partial T)_V (\partial V/\partial T)_P$.
-  For water near $4^\circ$C, $(\partial V/\partial T)_P = 0$ so $C_P = C_V$, which is unusual.
+  For water near $4^\circ$ C, $(\partial V/\partial T)_P = 0$ so $C_P = C_V$, which is unusual.
   Always verify the relation for the specific substance.
 - **Neglecting the chemical potential in open systems.** In grand canonical ensembles,
   $\mu$ is fixed by the reservoir. For photon gases, $\mu = 0$ because photon number is not

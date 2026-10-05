@@ -214,7 +214,7 @@ drawn without replacement, calculate the probability that exactly 2 are red.
 $P(\text{two blue) = \frac{b(b-1)}{n(n-1)} = \frac{1}{3}$.
 
 (b) From $P(\text{two red)$: $6r(r-1) = n(n-1)$. From $P(\text{two blue)$: $3b(b-1) = n(n-1)$. So
-$6r(r-1) = 3b(b-1)$Giving $2r(r-1) = b(b-1)$.
+$6r(r-1) = 3b(b-1)$ Giving $2r(r-1) = b(b-1)$.
 
 Also: $\frac{1}{6} + \frac{1}{3} + P(\text{one of each) = 1$ So
 $P(\text{one of each) = 1 - \frac{1}{6} - \frac{1}{3} = \frac{1}{2}$.
@@ -231,7 +231,7 @@ $8r(r-1) = (3r-3)(3r-5) = 9r^2 - 24r + 15$.
 
 $8r^2 - 8r = 9r^2 - 24r + 15$. $r^2 - 16r + 15 = 0$. $(r-1)(r-15) = 0$.
 
-$r = 15$ (since $r = 1$ gives $b = 0$ But then $P(\text{two blue) = 0$Not $1/3$).
+$r = 15$ (since $r = 1$ gives $b = 0$ But then $P(\text{two blue) = 0$ Not $1/3$).
 
 $b = (45 - 3)/2 = 21$. Total $n = 36$.
 

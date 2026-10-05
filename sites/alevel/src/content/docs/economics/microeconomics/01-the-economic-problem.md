@@ -137,7 +137,7 @@ Questions.
 
 ### 2.1 Derivation
 
-Consider an economy that produces two goods, $X$ and $Y$Using a fixed quantity of resources. We
+Consider an economy that produces two goods, $X$ and $Y$ Using a fixed quantity of resources. We
 Define the **production possibility frontier (PPF)** as the set of all maximum combinations of $X$
 And $Y$ that the economy can produce when all resources are fully and efficiently employed.
 
@@ -154,7 +154,7 @@ The PPF is **concave to the origin** (bowed outward). We prove this by showing t
 cost of producing additional units of $X$ increases as more $X$ is produced.
 
 **Proof.** Resources are not perfectly adaptable between uses. As we shift resources from $Y$ to
-$X$We first transfer those resources that are _most_ suited to $X$ production. The initial units Of
+$X$ We first transfer those resources that are _most_ suited to $X$ production. The initial units Of
 $X$ gained are large relative to the $Y$ given up. As we continue transferring, we must use
 Resources that are less suited to $X$ and more suited to $Y$. Each additional unit of $X$ requires
 Giving up _more_ $Y$.
@@ -518,13 +518,13 @@ Future growth.
 
 ## 7. Problem Set
 
-**Problem 1.** An economy's PPF is given by $y = 50 - \frac{x^2}{10}$Where $x$ and $y$ are in
+**Problem 1.** An economy's PPF is given by $y = 50 - \frac{x^2}{10}$ Where $x$ and $y$ are in
 Millions of units. Calculate the opportunity cost of producing the 10th unit of $x$ and the 20th
 Unit of $x$. What does the comparison tell you?
 
 <details>
 <summary>Hint</summary>
-Opportunity cost of the $n$Th unit of $x$ = $y(n-1) - y(n)$. Compute $y(9)$ and $y(10)$ for the 10th unit, then $y(19)$ and $y(20)$ for the 20th unit.
+Opportunity cost of the $n$ Th unit of $x$ = $y(n-1) - y(n)$. Compute $y(9)$ and $y(10)$ for the 10th unit, then $y(19)$ and $y(20)$ for the 20th unit.
 </details>
 
 **Problem 2.** Prove that if the PPF is linear ($y = a - bx$), then the opportunity cost of $x$ in
@@ -572,13 +572,13 @@ Better education improves human capital $\Rightarrow$ resources become more prod
 </details>
 
 **Problem 7.** A student has 6 hours to revise for two exams: Economics and Mathematics. Her
-Expected marks are $E_E = 20\sqrt{t_E}$ and $E_M = 15\sqrt{t_M}$Where $t_E + t_M = 6$. Find the
+Expected marks are $E_E = 20\sqrt{t_E}$ and $E_M = 15\sqrt{t_M}$ Where $t_E + t_M = 6$. Find the
 Allocation that maximises her total mark. What is the opportunity cost of the last hour spent on
 Economics?
 
 <details>
 <summary>Hint</summary>
-Set up the Lagrangian: $\mathcal{L} = 20\sqrt{t_E} + 15\sqrt{t_M} + \lambda(6 - t_E - t_M)$. Take derivatives and set to zero: $\frac{10}{\sqrt{t_E}} = \lambda$ and $\frac{7.5}{\sqrt{t_M}} = \lambda$. So $\frac{10}{\sqrt{t_E}} = \frac{7.5}{\sqrt{t_M}}$Giving $\frac{t_E}{t_M} = \frac{16}{9}$ So $t_E = \frac{96}{25} = 3.84$ hours, $t_M = 2.16$ hours.
+Set up the Lagrangian: $\mathcal{L} = 20\sqrt{t_E} + 15\sqrt{t_M} + \lambda(6 - t_E - t_M)$. Take derivatives and set to zero: $\frac{10}{\sqrt{t_E}} = \lambda$ and $\frac{7.5}{\sqrt{t_M}} = \lambda$. So $\frac{10}{\sqrt{t_E}} = \frac{7.5}{\sqrt{t_M}}$ Giving $\frac{t_E}{t_M} = \frac{16}{9}$ So $t_E = \frac{96}{25} = 3.84$ hours, $t_M = 2.16$ hours.
 </details>
 
 **Problem 8.** Evaluate the argument that "scarcity can be eliminated through technological
@@ -717,7 +717,7 @@ The opportunity cost of 10 additional units of $K$ is 9 units of $C$.
 
 **Marginal opportunity cost at $K = 40$:** $$\frac{dC}{dK} = -0.02K = -0.02(40) = -0.8$$
 
-At $K = 40$Each additional unit of $K$ costs 0.8 units of $C$.
+At $K = 40$ Each additional unit of $K$ costs 0.8 units of $C$.
 
 **At $K = 60$:** $$\frac{dC}{dK} = -0.02(60) = -1.2$$
 
@@ -860,17 +860,17 @@ price ratio ($P_w/P_b$).
 
 **Without trade (autarky):** Each country splits workers 50-50.
 
-UK: Cloth = $50 \times 4 = 200$M, Wine = $50 \times 2 = 100$L. Portugal: Cloth =
-$50 \times 1 = 50$M, Wine = $50 \times 3 = 150$L. Total: Cloth = 250m, Wine = 250L.
+UK: Cloth = $50 \times 4 = 200$ M, Wine = $50 \times 2 = 100$ L. Portugal: Cloth =
+$50 \times 1 = 50$ M, Wine = $50 \times 3 = 150$ L. Total: Cloth = 250m, Wine = 250L.
 
-**With specialisation:** UK: 100 workers in cloth. Cloth = $100 \times 4 = 400$M, Wine = 0.
-Portugal: 100 workers in wine. Cloth = 0, Wine = $100 \times 3 = 300$L. Total: Cloth = 400m, Wine =
+**With specialisation:** UK: 100 workers in cloth. Cloth = $100 \times 4 = 400$ M, Wine = 0.
+Portugal: 100 workers in wine. Cloth = 0, Wine = $100 \times 3 = 300$ L. Total: Cloth = 400m, Wine =
 300L.
 
 **Gains from specialisation:**
 
-- Cloth: $400 - 250 = 150$M more.
-- Wine: $300 - 250 = 50$L more.
+- Cloth: $400 - 250 = 150$ M more.
+- Wine: $300 - 250 = 50$ L more.
 - Total world output has increased by 150m cloth and 50L wine.
 
 **Terms of trade.** For trade to benefit both, the exchange rate must lie between the opportunity
@@ -878,8 +878,8 @@ costs: $$0.33 < \frac{P_{cloth}}{P_{wine}} < 2$$
 
 Suppose the terms of trade are 1m cloth = 1L wine.
 
-**If UK exports 150m cloth and imports 150L wine:** UK consumption: Cloth = $400 - 150 = 250$M, Wine
-= $150$L. Portugal consumption: Cloth = $150$M, Wine = $300 - 150 = 150$L.
+**If UK exports 150m cloth and imports 150L wine:** UK consumption: Cloth = $400 - 150 = 250$ M, Wine
+= $150$ L. Portugal consumption: Cloth = $150$ M, Wine = $300 - 150 = 150$ L.
 
 **Comparison with autarky:**
 
@@ -979,7 +979,7 @@ inequality and market failures.
 **Question 2 (12 marks).** An economy produces capital goods ($K$) and consumer goods ($C$)
 according to the PPF $C = 200 - 0.02K^2$. (a) Calculate the maximum output of each good. (b) Find
 the opportunity cost of the 50th unit of capital goods. (c) If the economy currently produces
-$K = 60$How much does a 5% increase in the capital stock shift the PPF outward (assuming
+$K = 60$ How much does a 5% increase in the capital stock shift the PPF outward (assuming
 proportional growth)?
 
 <details>

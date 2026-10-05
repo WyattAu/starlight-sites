@@ -46,7 +46,7 @@ and draw a diagram before calculating.
 
 <hr />
 
-## 1. Kolmogorov"s Axioms
+## 1. Kolmogorov's Axioms
 
 **Definition.** A probability function $P$ on a sample space $\Omega$ satisfies:
 
@@ -108,7 +108,7 @@ For mutually exclusive events ($A \cap B = \emptyset$): $P(A \cup B) = P(A) + P(
 
 **Corollary (Boole's inequality).** For any events $A$ and $B$, $P(A \cup B) \leq P(A) + P(B)$.
 
-**Proof.** Since $P(A \cap B) \geq 0$We have
+**Proof.** Since $P(A \cap B) \geq 0$ We have
 $P(A \cup B) = P(A) + P(B) - P(A \cap B) \leq P(A) + P(B)$. $\blacksquare$
 
 ### 2.3 Multiplication rule
@@ -194,7 +194,7 @@ $$
 
 :::tip
 Positive, what is the probability the patient actually has the disease?" Always define events and
-identify what is given ($P(A|B)$) versus what is sought ($P(B|A)$).
+identify what is given ($P(A|B)$) versus what is sought ($ P(B|A)$).
 :::
 
 <hr />
@@ -282,7 +282,7 @@ $$
 
 ### 7.1 Factorials
 
-$n! = n(n-1)(n-2)\cdots 1$With $0! = 1$.
+$n! = n(n-1)(n-2)\cdots 1$ With $0! = 1$.
 
 ### 7.2 Permutations and combinations
 
@@ -459,12 +459,12 @@ Real number to each outcome in the sample space.
 $\\{1, 2, 3, 4, 5, 6\\}$ So $X$ is discrete.
 
 **Example.** If a coin is tossed until the first head appears, define $X$ = "number of tosses". Then
-$X$ takes values in $\\{1, 2, 3, \ldots\\}$Which is countably infinite.
+$X$ takes values in $\\{1, 2, 3, \ldots\\}$ Which is countably infinite.
 
 ### 10.2 Probability mass function (PMF)
 
 **Definition.** The **probability mass function** (PMF) of a discrete random variable $X$ is the
-Function $p(x) = P(X = x)$Defined for all $x \in \mathbb{R}$.
+Function $p(x) = P(X = x)$ Defined for all $x \in \mathbb{R}$.
 
 **Properties of a PMF.** A function $p \colon \mathbb{R} \to [0, 1]$ is a valid PMF if and only if:
 
@@ -912,7 +912,7 @@ A discrete random variable $X$ has CDF $F(x) = 0$ for $x \lt 0$$F(x) = x/4$ for 
 The PMF is obtained from the jumps in the CDF:
 
 - $p(0) = F(0) - F(0^-) = 0 - 0 = 0$. But from the formula $F(x) = x/4$ at $x = 0$: $p(0) = 0$.
-  Actually, the jump occurs at the boundary. Since $F$ is continuous at $x = 0$There is no point
+  Actually, the jump occurs at the boundary. Since $F$ is continuous at $x = 0$ There is no point
   mass at 0. The value $X = 0$ has probability 0; we look at where jumps occur.
 
 More carefully, the jumps occur at:
@@ -923,7 +923,7 @@ More carefully, the jumps occur at:
 
 There is also a continuous component on $[0, 1)$ But since $X$ is discrete, the CDF must be a step
 Function. The given CDF has a linear portion, which indicates this CDF actually corresponds to a
-**mixed** distribution. For a purely discrete $X$The CDF should be piecewise constant with jumps.
+**mixed** distribution. For a purely discrete $X$ The CDF should be piecewise constant with jumps.
 
 Assuming the problem intended a discrete distribution, the PMF from the jumps is:
 

@@ -154,7 +154,7 @@ $$
 \mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br
 $$
 
-**Markovnikov"s Rule (HL):** When HX adds to an unsymmetrical alkene, the hydrogen attaches to the
+**Markovnikov's Rule (HL):** When HX adds to an unsymmetrical alkene, the hydrogen attaches to the
 Carbon with the greater number of hydrogens already attached.
 
 **Addition of water (hydration):**
@@ -718,10 +718,10 @@ flowchart TD
 | ------------------------- | ----------------------------------- | --------------------- | ---------------------- |
 | Alkene                    | $\mathrm{Br_2$                      | Dibromoalkane         | Electrophilic addition |
 | Alkene                    | $\mathrm{HBr$                       | Bromoalkane           | Electrophilic addition |
-| Primary alcohol           | $[\mathrm{O]$Distil                 | Aldehyde              | Oxidation              |
-| Primary alcohol           | $[\mathrm{O]$Reflux                 | Carboxylic acid       | Oxidation              |
+| Primary alcohol           | $[\mathrm{O]$ Distil                 | Aldehyde              | Oxidation              |
+| Primary alcohol           | $[\mathrm{O]$ Reflux                 | Carboxylic acid       | Oxidation              |
 | Secondary alcohol         | $[\mathrm{O]$                       | Ketone                | Oxidation              |
-| Alcohol                   | $\mathrm{conc. H_2\mathrm{SO_4$Heat | Alkene                | Dehydration            |
+| Alcohol                   | $\mathrm{conc. H_2\mathrm{SO_4$ Heat | Alkene                | Dehydration            |
 | Carboxylic acid + alcohol | $\mathrm{conc. H_2\mathrm{SO_4$     | Ester + water         | Esterification         |
 | Ester + NaOH              | Heat                                | Carboxylate + alcohol | Saponification         |
 | Aldehyde                  | Tollens'                            | Silver mirror         | Oxidation (test)       |

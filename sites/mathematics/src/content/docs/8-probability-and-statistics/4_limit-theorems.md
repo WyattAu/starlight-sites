@@ -27,7 +27,7 @@ $$
 $$
 
 _Proof._ Let $S_n = \frac{1}{n}\sum_{i=1}^{n} X_i$. Then $E[S_n] = \mu$ and
-$\mathrm{Var}(S_n) = \sigma^2/n$. By Chebyshev"s inequality:
+$\mathrm{Var}(S_n) = \sigma^2/n$. By Chebyshev's inequality:
 
 $$
 P(|S_n - \mu| \geq \varepsilon) \leq \frac{\mathrm{Var}(S_n)}{\varepsilon^2} = \frac{\sigma^2}{n\varepsilon^2} \to 0 \quad \mathrm{as\ } n \to \infty

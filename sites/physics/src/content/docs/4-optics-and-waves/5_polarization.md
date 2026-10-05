@@ -31,7 +31,7 @@ $$
   ($\delta = -\pi/2$) or left-handed ($\delta = +\pi/2$).
 - **Elliptical polarization:** General case. The tip of $\mathbf{E}$ traces an ellipse.
 
-### 5.2 Malus"s Law
+### 5.2 Malus's Law
 
 When linearly polarised light of intensity $I_0$ passes through a polariser at angle $\theta$ to the
 Polarisation direction:
@@ -78,12 +78,12 @@ Converts linear polarisation at $45°$ to the fast/slow axes into circular polar
 Versa.
 
 **Half-wave plate (HWP):** $\Delta\phi = \pi$ So $t_{\mathrm{HWP} = \lambda/(2|n_o - n_e|)}$. Rotates
-the plane of linear polarisation by $2\theta$Where $\theta$ is the angle between the Input
+the plane of linear polarisation by $2\theta$ Where $\theta$ is the angle between the Input
 polarisation and the fast axis.
 
 :::caution
 linear polarisation is at Exactly $45°$ to the fast and slow axes. For other input angles, the
-output is elliptically Polarised. A half-wave plate rotates linear polarisation by $2\theta$Not
+output is elliptically Polarised. A half-wave plate rotates linear polarisation by $2\theta$ Not
 $\theta$.
 
 <details>
@@ -129,7 +129,7 @@ Is cancelled.
 
 ### 5.5 Brewster's Angle
 
-At the **Brewster angle** $\theta_B$The reflected beam for p-polarised light vanishes ($r_p = 0$):
+At the **Brewster angle** $\theta_B$ The reflected beam for p-polarised light vanishes ($r_p = 0$):
 
 $$
 \tan\theta_B = \frac{n_2}{n_1}

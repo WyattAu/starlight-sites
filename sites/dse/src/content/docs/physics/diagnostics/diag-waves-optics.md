@@ -29,7 +29,7 @@ flowchart TD
 
 ## Unit Tests
 
-### UT-1: Young"s Double Slit with Non-Axial Source
+### UT-1: Young's Double Slit with Non-Axial Source
 
 **Question:**
 
@@ -119,7 +119,7 @@ Maximum when $\sin\theta = 1$: $n_{\max} = \frac{d}{\lambda}$
 
 **(c) Overlap condition:**
 
-Overlap occurs when the $(n+1)$Th order of violet coincides with the $n$Th order of red:
+Overlap occurs when the $(n+1)$ Th order of violet coincides with the $n$ Th order of red:
 
 $$
 (n+1)\lambda_v = n\lambda_r
@@ -143,7 +143,7 @@ $$
 
 Since $n$ must be an integer, the first overlap occurs between $n = 2$ (red) and $n = 3$ (violet):
 
-Check: $2 \times 700 = 1400$ nm, $3 \times 400 = 1200$ nm. Since $1200 \lt 1400$The 3rd order Violet
+Check: $2 \times 700 = 1400$ nm, $3 \times 400 = 1200$ nm. Since $1200 \lt 1400$ The 3rd order Violet
 ($\lambda_v = 400$ nm) falls at a smaller angle than the 2nd order red ($\lambda_r = 700$ nm). More
 precisely, overlap begins when the upper end of one order meets the lower end of the next. The 2nd
 order of red ends at $44.43°$ and the 3rd order of violet begins at:
@@ -152,7 +152,7 @@ $$
 \sin\theta = \frac{3 \times 400 \times 10^{-9}}{2 \times 10^{-6}} = 0.60, \quad \theta = 36.87°
 $$
 
-Since $36.87° \lt 44.43°$The 3rd-order violet spectrum overlaps with the 2nd-order red spectrum.
+Since $36.87° \lt 44.43°$ The 3rd-order violet spectrum overlaps with the 2nd-order red spectrum.
 
 ---
 
@@ -282,8 +282,8 @@ $$
 
 So every 5th order is missing: the 5th, 10th, 15th, ... Orders are absent.
 
-Verification: At the 5th double slit maximum: $d \sin\theta = 5\lambda$Which gives
-$a \sin\theta = a \times \frac{5\lambda}{d} = 5\lambda \times \frac{a}{d} = 5\lambda \times \frac{1}{5} = \lambda$Which
+Verification: At the 5th double slit maximum: $d \sin\theta = 5\lambda$ Which gives
+$a \sin\theta = a \times \frac{5\lambda}{d} = 5\lambda \times \frac{a}{d} = 5\lambda \times \frac{1}{5} = \lambda$ Which
 is exactly the condition for the first single slit minimum.
 
 **Key insight:** In a real double slit, the slits have finite width, producing a diffraction

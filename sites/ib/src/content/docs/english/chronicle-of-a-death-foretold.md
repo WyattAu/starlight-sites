@@ -61,7 +61,7 @@ To examine how rigid social hierarchies enforce destructive behaviors.
 
 ### Determinism
 
-The inevitability of Santiago"s death, shows a determinist worldview, where individual agency are
+The inevitability of Santiago's death, shows a determinist worldview, where individual agency are
 Constrained, expressing concerns on the lack of power against systemic forces (here being societal
 Norms and honor).
 

@@ -175,7 +175,7 @@ When $|U|$ is much larger than the actual number of keys $n$.
 ### Hash Tables
 
 A hash table uses a hash function to map keys to indices in an array of size $m$ ( $m \approx n$).
-The space is $O(n)$ instead of $O(|U|)$At the cost of handling collisions (when Two keys hash to the
+The space is $O(n)$ instead of $O(|U|)$ At the cost of handling collisions (when Two keys hash to the
 same index).
 
 ```python
@@ -279,7 +279,7 @@ $$
 h(k, i) = (h'(k) + i) \bmod m
 $$
 
-The simplest open addressing scheme: on collision at index $h'(k)$Try $h'(k)+1$, $h'(k)+2$Etc.
+The simplest open addressing scheme: on collision at index $h'(k)$ Try $h'(k)+1$, $h'(k)+2$ Etc.
 
 ```python
 class LinearProbingHashTable:
@@ -832,8 +832,8 @@ class HyperLogLog:
 | Property             | Non-Cryptographic                 | Cryptographic                                            |
 | -------------------- | --------------------------------- | -------------------------------------------------------- |
 | Speed                | Very fast (GB/s)                  | Slower (hundreds of MB/s)                                |
-| Preimage resistance  | No                                | Yes, given $h(x)$Hard to find $x$                       |
-| Second preimage      | No                                | Yes, given $x$Hard to find $y \ne x$ with $h(y) = h(x)$ |
+| Preimage resistance  | No                                | Yes, given $h(x)$ Hard to find $x$                       |
+| Second preimage      | No                                | Yes, given $x$ Hard to find $y \ne x$ with $h(y) = h(x)$ |
 | Collision resistance | Weak                              | Yes, hard to find $x, y$ with $h(x) = h(y)$             |
 | Examples             | FNV, MurmurHash, xxHash, CityHash | SHA-256, SHA-3, BLAKE3                                   |
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
@@ -898,9 +898,9 @@ def resize(old_table, new_capacity):
 ```
 
 **Why geometric resizing gives amortised $O(1)$**: if the table grows by factor $c$ when it reaches
-Load factor $\alpha$The cost of resizing is $O(n)$ but it only happens every $O(n)$ insertions. Over
+Load factor $\alpha$ The cost of resizing is $O(n)$ but it only happens every $O(n)$ insertions. Over
 a sequence of $n$ insertions, the total resize cost is
-$O(n) + O(n/c) + O(n/c^2) + \ldots = O(cn)$Giving $O(c)$ amortised per insertion, a constant.
+$O(n) + O(n/c) + O(n/c^2) + \ldots = O(cn)$ Giving $O(c)$ amortised per insertion, a constant.
 
 ## Common Pitfalls
 

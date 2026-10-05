@@ -27,7 +27,7 @@ state represent one of the most studied and consequential periods in modern hist
 
 ## Historical Context and Chronology
 
-Germany"s first democratic experiment, the Weimar Republic (1919-1933), was born in defeat and
+Germany's first democratic experiment, the Weimar Republic (1919-1933), was born in defeat and
 revolution at the end of the First World War. It faced existential challenges from the outset: the
 stigma of the "stab-in-the-back" myth (Dolchstosslegende), punitive reparations, hyperinflation, and
 violent political extremism from both left and right.

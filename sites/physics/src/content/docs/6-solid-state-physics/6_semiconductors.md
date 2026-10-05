@@ -19,10 +19,10 @@ description: 'At The valence band is completely filled and the conduction band i
 
 ### 6.1 Intrinsic Semiconductors
 
-At $T = 0$The valence band is completely filled and the conduction band is completely empty. There
+At $T = 0$ The valence band is completely filled and the conduction band is completely empty. There
 is a band gap $E_g$.
 
-At finite $T$Electrons are thermally excited across the gap. The intrinsic carrier concentration:
+At finite $T$ Electrons are thermally excited across the gap. The intrinsic carrier concentration:
 
 $$
 n_i = p_i = \sqrt{N_c N_v}\, e^{-E_g/(2k_B T)}
@@ -152,7 +152,7 @@ degeneracies (e.g., splitting the heavy-hole and light-hole bands).
 
 ### 6.6 Optical Properties of Semiconductors
 
-**Absorption.** A photon of energy $\hbar\omega$ can be absorbed if $\hbar\omega \geq E_g$Promoting
+**Absorption.** A photon of energy $\hbar\omega$ can be absorbed if $\hbar\omega \geq E_g$ Promoting
 An electron from the valence band to the conduction band.
 
 - **Direct band gap** (e.g., GaAs, InP): The conduction band minimum and valence band maximum occur

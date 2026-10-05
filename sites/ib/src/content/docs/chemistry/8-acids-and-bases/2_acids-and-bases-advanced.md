@@ -107,7 +107,7 @@ $K_{a2} = 1.2 \times 10^{-2}$.
 
 ### Common Pitfalls
 
-- The 5% rule: if $x/c_0 \gt 5\%$Use the quadratic formula.
+- The 5% rule: if $x/c_0 \gt 5\%$ Use the quadratic formula.
 - For very dilute strong acids ($c_0 \lt 10^{-6}\mathrm{ M}$), the contribution of water"s
   autoionization ($[\mathrm{H}^+] = 10^{-7}\mathrm{ M}$) becomes significant.
 - $\mathrm{pOH} = 14 - \mathrm{pH}$ only holds at $25\degree\mathrm{C}$.
@@ -140,7 +140,7 @@ Where $\mathrm{p}K_a = -\log K_a$.
 
 ### Buffer Capacity
 
-Buffer capacity is maximised when $[\mathrm{HA}] = [\mathrm{A}^-]$I.e., when
+Buffer capacity is maximised when $[\mathrm{HA}] = [\mathrm{A}^-]$ I.e., when
 $\mathrm{pH} = \mathrm{p}K_a$. A buffer is effective within $\pm 1$ unit of its $\mathrm{p}K_a$.
 
 ### Preparing a Buffer
@@ -320,7 +320,7 @@ $$
 
 | Effect             | Mechanism                                                               |
 | ------------------ | ----------------------------------------------------------------------- |
-| Soil acidification | Leaches $\mathrm{Ca}^{2+}$, $\mathrm{Mg}^{2+}$Releases $\mathrm{Al}^{3+}$ |
+| Soil acidification | Leaches $\mathrm{Ca}^{2+}$, $\mathrm{Mg}^{2+}$ Releases $\mathrm{Al}^{3+}$ |
 | Lake acidification | Reduces biodiversity, mobilises toxic $\mathrm{Al}^{3+}$                |
 | Plant damage       | Damages leaves, inhibits root growth                                    |
 | Building corrosion | $\mathrm{CaCO}_3$ (limestone/marble) reacts with acid                   |
@@ -508,7 +508,7 @@ $$
 Q = (5.0 \times 10^{-5})^2 = 2.5 \times 10^{-9}
 $$
 
-Since $Q = 2.5 \times 10^{-9} \gt K_{sp} = 1.8 \times 10^{-10}$A precipitate of $\mathrm{AgCl}$ Will
+Since $Q = 2.5 \times 10^{-9} \gt K_{sp} = 1.8 \times 10^{-10}$ A precipitate of $\mathrm{AgCl}$ Will
 form.
 
 </details>
@@ -551,7 +551,7 @@ $\mathrm{pH}$.
 
 **Solution:**
 
-$\mathrm{NH}_4\mathrm{Cl}$ dissociates completely to give $\mathrm{NH}_4^+$The conjugate acid of
+$\mathrm{NH}_4\mathrm{Cl}$ dissociates completely to give $\mathrm{NH}_4^+$ The conjugate acid of
 $\mathrm{NH}_3$. This is the **common ion effect**:
 
 $$
@@ -559,7 +559,7 @@ $$
 $$
 
 Adding $\mathrm{NH}_4^+$ shifts the equilibrium to the left (Le Chatelier's principle), decreasing
-$[\mathrm{OH}^-]$ and therefore increasing $[\mathrm{H}^+]$Which lowers the $\mathrm{pH}$.
+$[\mathrm{OH}^-]$ and therefore increasing $[\mathrm{H}^+]$ Which lowers the $\mathrm{pH}$.
 
 </details>
 
@@ -837,7 +837,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 - **Assuming complete dissociation for all diprotic acids**: $\mathrm{H}_2\mathrm{SO}_4$ has a
   complete first dissociation but a partial second ($K_{a2} = 1.2 \times 10^{-2}$), so
-  $[\mathrm{H}^+] \neq 2[\mathrm{acid}]$. For $\mathrm{H}_2\mathrm{CO}_3$Both dissociation steps are
+  $[\mathrm{H}^+] \neq 2[\mathrm{acid}]$. For $\mathrm{H}_2\mathrm{CO}_3$ Both dissociation steps are
   weak. Always check the magnitude of each $K_a$ before making simplifying assumptions.
 
 - **Using $\mathrm{pOH} = 14 - \mathrm{pH}$ without specifying temperature**:
@@ -860,7 +860,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
   calculate molar solubility from $K_{sp}$ before comparing.
 
 - **Ignoring water autoionization for dilute solutions**: When the calculated $[\mathrm{H}^+]$ from
-  the acid or base alone is below $10^{-6}\mathrm{ M}$The contribution from water
+  the acid or base alone is below $10^{-6}\mathrm{ M}$ The contribution from water
   ($10^{-7}\mathrm{ M}$) is comparable and must be included via the full quadratic.
 
 - **Confusing buffer capacity with buffer range**: Buffer capacity (total moles of acid or base that
@@ -895,7 +895,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 1. Calculate the $\mathrm{pH}$ of the solution formed when $15.0\mathrm{ mL}$ of $0.100\mathrm{ M}$
    $\mathrm{H}_2\mathrm{SO}_4$ is added to $35.0\mathrm{ mL}$ of $0.100\mathrm{ M}$ $\mathrm{NaOH}$
-   at $25\degree\mathrm{C}$. ($K_{a2}$ of $\mathrm{HSO}_4^-$ = $1.2 \times 10^{-2}$.) State all
+   at $25\degree\mathrm{C}$. ($ K_{a2}$ of $\mathrm{HSO}_4^-$ = $1.2 \times 10^{-2}$.) State all
    assumptions and justify their validity. **[Medium]**
 
 2. A buffer is prepared by dissolving $4.10\mathrm{ g}$ of sodium ethanoate
@@ -936,7 +936,7 @@ A suitable indicator: phenolphthalein (8.3--10.0).
    ethanoic acid. **[Hard]**
 
 8. An environmental scientist measures the $\mathrm{pH}$ of a lake at $4.50$. (a) Calculate
-   $[\mathrm{H}^+]$ and $[\mathrm{SO}_4^{2-}]$Assuming the acidity is entirely from dissolved
+   $[\mathrm{H}^+]$ and $[\mathrm{SO}_4^{2-}]$ Assuming the acidity is entirely from dissolved
    $\mathrm{H}_2\mathrm{SO}_4$ with complete dissociation of both protons. (b) Determine whether
    $\mathrm{CaSO}_4$ would precipitate if $[\mathrm{Ca}^{2+}] = 1.5 \times 10^{-3}\mathrm{ M}$.
    $K_{sp}(\mathrm{CaSO}_4) = 2.4 \times 10^{-5}$. (c) Calculate the minimum $[\mathrm{Ca}^{2+}]$

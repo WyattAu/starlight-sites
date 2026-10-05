@@ -417,10 +417,10 @@ A dedicated SLOG device accelerates synchronous writes:
 
 | Device Type            | Write Latency | Endurance | Cost                         |
 | ---------------------- | ------------- | --------- | ---------------------------- |
-| Intel Optane P5800X    | ~10 $\mu$S    | Very High | Very High                    |
-| Enterprise NVMe (PLP)  | ~50 $\mu$S    | High      | High                         |
-| Consumer NVMe (no PLP) | ~30 $\mu$S    | Moderate  | Low (unsafe for sync writes) |
-| SATA SSD               | ~100 $\mu$S   | Moderate  | Low                          |
+| Intel Optane P5800X    | ~10 $\mu$ S    | Very High | Very High                    |
+| Enterprise NVMe (PLP)  | ~50 $\mu$ S    | High      | High                         |
+| Consumer NVMe (no PLP) | ~30 $\mu$ S    | Moderate  | Low (unsafe for sync writes) |
+| SATA SSD               | ~100 $\mu$ S   | Moderate  | Low                          |
 
 ### L2ARC Devices
 

@@ -66,7 +66,7 @@ distributions, and hypothesis testing, the foundations of data-driven decision m
 ### Correlation and Regression
 
 - **Scatter diagrams**, visual assessment of correlation (positive, negative, none)
-- **Pearson"s product-moment correlation coefficient**, $r$ measures linear correlation;
+- **Pearson's product-moment correlation coefficient**, $r$ measures linear correlation;
   $-1 \leq r \leq 1$
 - **Regression line**, $y = a + bx$; least squares; interpreting $a$ (intercept) and $b$ (gradient)
   in context

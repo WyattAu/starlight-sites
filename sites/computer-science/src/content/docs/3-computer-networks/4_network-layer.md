@@ -199,7 +199,7 @@ Routers exchange vectors with neighbours periodically.
 
 **Count-to-infinity example.** Routers A, B, C in a line with cost 1 each. If link A-B fails:
 
-1. B sets $d_B(A) = \infty$Advertises to C.
+1. B sets $d_B(A) = \infty$ Advertises to C.
 2. C still has $d_C(A) = 2$ via B, advertises $d_C(A) = 2$ to B.
 3. B sets $d_B(A) = 3$ via C. C then sets $d_C(A) = 4$. This continues.
 
@@ -296,16 +296,16 @@ D ---6--- E ---3--- F
 **Initialisation.** Set $d(A) = 0$, $d(\mathrm{all}\;others) = \infty$. Unvisited =
 $\{A, B, C, D, E, F\}$.
 
-**Visit A** ($d = 0$). Neighbours: B (cost 3), D (cost 4). Update: $d(B) = 3$Prev$(B) = A$.
-$d(D) = 4$Prev$(D) = A$.
+**Visit A** ($d = 0$). Neighbours: B (cost 3), D (cost 4). Update: $d(B) = 3$ Prev$(B) = A$.
+$d(D) = 4$ Prev$(D) = A$.
 
-**Visit B** ($d = 3$Smallest unvisited). Neighbours: A (skip), C (3 + 2 = 5), E (3 + 1 = 4). Update:
-$d(C) = 5$Prev$(C) = B$. $d(E) = 4$Prev$(E) = B$.
+**Visit B** ($d = 3$ Smallest unvisited). Neighbours: A (skip), C (3 + 2 = 5), E (3 + 1 = 4). Update:
+$d(C) = 5$ Prev$(C) = B$. $d(E) = 4$ Prev$(E) = B$.
 
 **Visit D** ($d = 4$). Neighbours: A (skip), E (4 + 6 = 10, worse than 4). No updates.
 
 **Visit E** ($d = 4$). Neighbours: B (skip), D (skip), F (4 + 3 = 7). Update:
-$d(F) = 7$Prev$(F) = E$.
+$d(F) = 7$ Prev$(F) = E$.
 
 **Visit C** ($d = 5$). Neighbours: B (skip), F (5 + 5 = 10, worse than 7). No updates.
 

@@ -112,8 +112,8 @@ $$
 
 **Other forms:**
 
-- _Gradient-intercept form:_ $y = mx + c$Where $c$ is the $y$-intercept.
-- _General form:_ $ax + by + c = 0$Where $a, b$ are not both zero.
+- _Gradient-intercept form:_ $y = mx + c$ Where $c$ is the $y$-intercept.
+- _General form:_ $ax + by + c = 0$ Where $a, b$ are not both zero.
 
 ### 2.3 Parallel and Perpendicular Lines
 
@@ -208,7 +208,7 @@ $$
 $$
 
 This is a circle with centre $\left(-\frac{D}{2}, -\frac{E}{2}\right)$ and radius
-$\sqrt{\frac{D^2 + E^2}{4} - F}$Provided the right-hand side is positive. $\blacksquare$
+$\sqrt{\frac{D^2 + E^2}{4} - F}$ Provided the right-hand side is positive. $\blacksquare$
 
 > **Tip:** Tip $y$. This is faster and less error-prone than memorising the formula.
 <details>
@@ -223,7 +223,7 @@ $$
 \end{aligned}
 $$
 
-Centre: $(3, -2)$Radius: $5$.
+Centre: $(3, -2)$ Radius: $5$.
 
 </details>
 
@@ -369,7 +369,7 @@ $$
 <summary>Alternative proof (perpendicular line method)</summary>
 The line $ax + by + c = 0$ has gradient $m = -\frac{a}{b}$ (assuming $b \neq 0$).
 
-The perpendicular through $(x_0, y_0)$ has gradient $\frac{b}{a}$Giving equation:
+The perpendicular through $(x_0, y_0)$ has gradient $\frac{b}{a}$ Giving equation:
 
 $$
 y - y_0 = \frac{b}{a}(x - x_0) \implies bx - ay + (ay_0 - bx_0) = 0
@@ -420,7 +420,7 @@ $ax_0 + by_0 + c$ tells you which side of the line the point lies on.
 ## 7. Intersection of Two Circles
 
 **Theorem.** Two circles $C_1$ with centre $O_1$ and radius $r_1$ And $C_2$ with centre $O_2$ and
-Radius $r_2$Intersect if and only if the distance $d = |O_1 O_2|$ between their centres satisfies:
+Radius $r_2$ Intersect if and only if the distance $d = |O_1 O_2|$ between their centres satisfies:
 
 - **Two intersection points** when $|r_1 - r_2| < d < r_1 + r_2$;
 - **Externally tangent** (one point) when $d = r_1 + r_2$;
@@ -441,7 +441,7 @@ When two circles intersect, the line through both intersection points is called 
 To find its equation, subtract one circle equation from the other.
 
 **Method.** Given $C_1: x^2 + y^2 + D_1x + E_1y + F_1 = 0$ and
-$C_2: x^2 + y^2 + D_2x + E_2y + F_2 = 0$The common chord is:
+$C_2: x^2 + y^2 + D_2x + E_2y + F_2 = 0$ The common chord is:
 
 $$
 (D_1 - D_2)x + (E_1 - E_2)y + (F_1 - F_2) = 0
@@ -468,7 +468,7 @@ And $r_2 = \sqrt{1+1+14} = 4$.
 
 Distance between centres: $d = \sqrt{(2-(-1))^2 + (3-(-1))^2} = \sqrt{9+16} = 5$.
 
-Since $|r_1 - r_2| = 2 < 5 < 6 = r_1 + r_2$The circles intersect at two points as expected.
+Since $|r_1 - r_2| = 2 < 5 < 6 = r_1 + r_2$ The circles intersect at two points as expected.
 
 </details>
 
@@ -490,7 +490,7 @@ X_3^2 + y_3^2 + D x_3 + E y_3 + F &= 0
 \end{aligned}
 $$
 
-Subtracting the first equation from the second and third eliminates $F$Yielding a $2 \times 2$
+Subtracting the first equation from the second and third eliminates $F$ Yielding a $2 \times 2$
 System in $D$ and $E$. Solve for $D$ and $E$ Then substitute back to find $F$.
 
 :::caution
@@ -561,7 +561,7 @@ $$
 \end{aligned}
 $$
 
-Since $\cos^2\theta + \sin^2\theta = 1$ for all $\theta$Every value of the parameter produces a
+Since $\cos^2\theta + \sin^2\theta = 1$ for all $\theta$ Every value of the parameter produces a
 Point on the circle.
 
 ### 9.1 Applications
@@ -631,7 +631,7 @@ $$
 \end{aligned}
 $$
 
-Centre: $(-4, 3)$Radius: $7$.
+Centre: $(-4, 3)$ Radius: $7$.
 
 </details>
 <b>If you get this wrong, revise:</b> [Expanded form](#32-expanded-form)
@@ -656,7 +656,7 @@ $$
 $x = 0$ or $x = -1$.
 
 Wait, that gives two intersection points. Let me check: actually $2x^2 + 2x = 0$ gives $x = 0$ and
-$x = -1$Which are two points $(0, 1)$ and $(-1, 0)$.
+$x = -1$ Which are two points $(0, 1)$ and $(-1, 0)$.
 
 So $y = x + 1$ is **not** tangent to $x^2 + y^2 = 1$. Let me reconsider the problem. Actually, this
 Line passes through two points on the circle, it is a secant, not a tangent.
@@ -894,11 +894,11 @@ $$
 
 This is the equation of the common chord $PQ$.
 
-To find the length $PQ$First find the centres and radii.
+To find the length $PQ$ First find the centres and radii.
 
-$C_1$: $(x+1)^2 + (y-4)^2 = 1+16-8 = 9$ So centre $(-1, 4)$Radius $3$.
+$C_1$: $(x+1)^2 + (y-4)^2 = 1+16-8 = 9$ So centre $(-1, 4)$ Radius $3$.
 
-$C_2$: $(x-2)^2 + (y+2)^2 = 4+4+8 = 16$ So centre $(2, -2)$Radius $4$.
+$C_2$: $(x-2)^2 + (y+2)^2 = 4+4+8 = 16$ So centre $(2, -2)$ Radius $4$.
 
 Distance between centres: $d = \sqrt{(2-(-1))^2 + (-2-4)^2} = \sqrt{9+36} = \sqrt{45} = 3\sqrt{5}$.
 
@@ -949,7 +949,7 @@ The circle is $x^2 + y^2 - 4x - 2y + 1 = 0$.
 
 Completing the square: $(x-2)^2 - 4 + (y-1)^2 - 1 + 1 = 0 \implies (x-2)^2 + (y-1)^2 = 4$.
 
-Centre: $(2, 1)$Radius: $2$. Note that $AC$ is a diameter: midpoint of $AC$ is $(2, 1)$ and
+Centre: $(2, 1)$ Radius: $2$. Note that $AC$ is a diameter: midpoint of $AC$ is $(2, 1)$ and
 $|AC| = 4 = 2r$.
 
 </details>
@@ -968,7 +968,7 @@ $\theta = \frac{\pi}{3}$.
 
 <details>
 <summary>Solution</summary>
-(a) Centre: $(1, -2)$Radius: $5$.
+(a) Centre: $(1, -2)$ Radius: $5$.
 
 (b) Set $y = -2 + 5\sin\theta = 1$ So $\sin\theta = \frac{3}{5}$.
 

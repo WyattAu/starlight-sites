@@ -50,7 +50,7 @@ at C-2 (same carbon as the double bond). Alphabetical: methyl is the only substi
 
 (c) **pentane-1,3-diol**
 
-Working: The longest chain is 5 carbons (pentane). The two $-$OH groups are at C-1 and C-3. The
+Working: The longest chain is 5 carbons (pentane). The two $-$ OH groups are at C-1 and C-3. The
 suffix "-diol" is used with locants separated by commas.
 
 ---
@@ -68,14 +68,14 @@ suffix "-diol" is used with locants separated by commas.
 
 **Question:**
 
-(a) For the compound $\text{CH}_3\text{CH}=\text{C}(\text{Cl})\text{CH}_2\text{CH}_3$Identify
+(a) For the compound $\text{CH}_3\text{CH}=\text{C}(\text{Cl})\text{CH}_2\text{CH}_3$ Identify
 whether E/Z isomerism is possible and assign the configurations.
 
 (b) Explain why the compound $\text{CH}_3\text{CH}(\text{OH})\text{COOH}$ (lactic acid) exhibits
 optical isomerism but $\text{CH}_3\text{COOH}$ (ethanoic acid) does not.
 
 (c) A sample of 2-chlorobutane has an observed optical rotation of $+13.5^\circ$. If the pure
-$(R)$-enantiomer has a specific rotation of $+23.1^\circ$Calculate the enantiomeric excess and the
+$(R)$-enantiomer has a specific rotation of $+23.1^\circ$ Calculate the enantiomeric excess and the
 ratio of $(R)$- to $(S)$-2-chlorobutane in the mixture.
 
 **Solution:**
@@ -151,14 +151,14 @@ $\text{CH}_3\text{CH}_2\text{Br} + \text{NaOH}(aq) \to \text{CH}_3\text{CH}_2\te
 to propanal (iii) propanal to propanoic acid
 
 (c) A compound has the molecular formula $\text{C}_4\text{H}_8\text{O}$. It reacts with 2,4-DNP to
-form an orange precipitate but does not react with Fehling"s solution. It does not decolourise
+form an orange precipitate but does not react with Fehling's solution. It does not decolourise
 bromine water. Identify the compound and explain your reasoning.
 
 **Solution:**
 
 (a) (i) **Electrophilic addition** -- an alkene reacts with HBr, with the $\pi$-bond breaking and
-new $\sigma$-bonds forming. (ii) **Nucleophilic substitution** -- the $-$OH nucleophile replaces the
-$-$Br leaving group. (iii) **Oxidation** -- the alcohol is oxidised (loss of hydrogen/ gain of
+new $\sigma$-bonds forming. (ii) **Nucleophilic substitution** -- the $-$ OH nucleophile replaces the
+$-$ Br leaving group. (iii) **Oxidation** -- the alcohol is oxidised (loss of hydrogen/ gain of
 oxygen).
 
 (b) (i) **Propene to propan-1-ol:** React propene with **steam ($\text{H}_2\text{O}$) and a
@@ -227,7 +227,7 @@ isomers have a more compact shape with less surface area for intermolecular inte
 (unimolecular nucleophilic substitution), where the rate-determining step is the formation of a
 tertiary carbocation. Tertiary carbocations are stabilised by the electron-donating inductive effect
 of three methyl groups, making them relatively easy to form. The rate equation is
-$\text{rate} = k[\text{RBr}]$Independent of $[\text{OH}^-]$.
+$\text{rate} = k[\text{RBr}]$ Independent of $[\text{OH}^-]$.
 
 1-bromobutane (primary) would be slowest, undergoing **SN2** where both the halogenoalkane and
 nucleophile are involved in the rate-determining step.
@@ -302,7 +302,7 @@ oxidation to the carboxylic acid.
 - Ethene contains only C--C and C--H bonds, which are not oxidised by standard laboratory oxidising
   agents like acidified dichromate.
 - The C$=$C bond reacts with oxidising agents by cleavage (e.g., with hot concentrated
-  $\text{KMnO}_4$Ethene is cleaved to $\text{CO}_2$ and $\text{H}_2\text{O}$Not selectively to
+  $\text{KMnO}_4$ Ethene is cleaved to $\text{CO}_2$ and $\text{H}_2\text{O}$ Not selectively to
   ethanoic acid).
 - Industrial oxidation of ethene to ethanoic acid uses a two-step process: ethene is first converted
   to ethanol (or ethanal via the Wacker process), which is then oxidised.

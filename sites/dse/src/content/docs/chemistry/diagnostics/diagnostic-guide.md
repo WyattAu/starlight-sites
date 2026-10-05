@@ -52,7 +52,7 @@ Every diagnostic file contains:
 | Atomic Structure  | Transition metal electron config; ionisation energy trend breaks  |
 | Bonding           | VSEPR for lone pairs; molecular polarity vs bond polarity         |
 | Stoichiometry     | Back-titration setup; RTP gas volume assumptions                  |
-| Energetics        | Hess"s cycle direction; average vs exact bond enthalpy            |
+| Energetics        | Hess's cycle direction; average vs exact bond enthalpy            |
 | Kinetics          | Rate vs rate constant confusion; order from non-initial-rate data |
 | Equilibrium       | Kc/Kp temperature dependence; inert gas at constant P             |
 | Acids/Bases       | Weak acid pH requires Ka; buffer mechanism; salt hydrolysis       |

@@ -26,7 +26,7 @@ description: "A binary search tree (BST) is a binary tree where every node satis
 ## Binary Search Tree Fundamentals
 
 A binary search tree (BST) is a binary tree where every node satisfies the **BST property**: for any
-Node with key $k$All keys in its left subtree are strictly less than $k$ And all keys in its Right
+Node with key $k$ All keys in its left subtree are strictly less than $k$ And all keys in its Right
 subtree are strictly greater than $k$.
 
 ### Node Definition
@@ -404,7 +404,7 @@ class AVLTree:
 An AVL tree with $n$ nodes has height at most $1.44 \log_2(n+2) - 1.328$. Proof sketch: the minimum
 Number of nodes in an AVL tree of height $h$ is $N(h) = N(h-1) + N(h-2) + 1$ with $N(0) = 1$
 $N(1) = 2$. This is closely related to the Fibonacci sequence, giving $N(h) = F_{h+3} - 1$. Since
-$F_k \approx \phi^k / \sqrt{5}$We get $h \le c \log_\phi(n)$ for some constant $c$.
+$F_k \approx \phi^k / \sqrt{5}$ We get $h \le c \log_\phi(n)$ for some constant $c$.
 
 | Operation | Worst Case  | Rotations per Insert | Rotations per Delete |
 | --------- | ----------- | -------------------- | -------------------- |
@@ -440,7 +440,7 @@ Internal nodes has height at most $2 \log_2(n+1)$.
 **Proof sketch**: the shortest path from root to leaf has only black nodes (length = bh), and the
 Longest has alternating red-black (length = 2 \cdot bh). Since at least half the nodes on any
 Root-to-leaf path are black, the height $h \le 2 \cdot \mathrm{bh$. A tree with black-height $b$ has
-At least $2^b - 1$ internal nodes, so $n \ge 2^{h/2} - 1$Giving $h \le 2 \log_2(n+1)$.
+At least $2^b - 1$ internal nodes, so $n \ge 2^{h/2} - 1$ Giving $h \le 2 \log_2(n+1)$.
 
 ### Node Definition
 
@@ -861,7 +861,7 @@ Potential of node $x$ with rank $r(x) = \lfloor \log_2(\mathrm{size(x)) \rfloor$
 Of a splay is bounded by $1 + 3(r(\mathrm{root) - r(x)) = O(\log n)$.
 
 The **access lemma** states that the amortised cost of splaying node $x$ is at most
-$3(\log_2 n - \log_2(\mathrm{size(x))) + 1$Which means frequently accessed nodes move toward the
+$3(\log_2 n - \log_2(\mathrm{size(x))) + 1$ Which means frequently accessed nodes move toward the
 Root and become cheaper to access.
 
 ### Static Optimality Theorem

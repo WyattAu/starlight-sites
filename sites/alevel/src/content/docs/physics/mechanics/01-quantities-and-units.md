@@ -55,7 +55,7 @@ Varieties:
 A derived unit is obtained by combining base units according to the physical relationship. We denote
 The dimensions of a quantity using square brackets.
 
-**Definition.** The **dimension** of a physical quantity $Q$Written $[Q]$Is its expression in Terms
+**Definition.** The **dimension** of a physical quantity $Q$ Written $[Q]$ Is its expression in Terms
 of the base dimensions $\mathsf{M}$ (mass), $\mathsf{L}$ (length), $\mathsf{T}$ (time), $\mathsf{I}$
 (current), $\mathsf{\Theta}$ (temperature), $\mathsf{N}$ (amount of substance), $\mathsf{J}$
 (luminous intensity).
@@ -97,7 +97,7 @@ We prove that $v^2 = u^2 + 2as$ is dimensionally valid.
 - $[u^2] = (\mathsf{L}\mathsf{T}^{-1})^2 = \mathsf{L}^2\mathsf{T}^{-2}$
 - $[2as] = [\mathsf{L}\mathsf{T}^{-2}][\mathsf{L}] = \mathsf{L}^2\mathsf{T}^{-2}$
 
-Since $[v^2] = [u^2] = [2as] = \mathsf{L}^2\mathsf{T}^{-2}$The equation is dimensionally
+Since $[v^2] = [u^2] = [2as] = \mathsf{L}^2\mathsf{T}^{-2}$ The equation is dimensionally
 Homogeneous. $\square$
 
 ### Determining the Form of an Equation
@@ -157,7 +157,7 @@ Physical quantity that has both magnitude and direction.
 ### Vector Operations
 
 **Addition.** Vectors are added using the triangle rule or the parallelogram rule. Given vectors
-$\mathbf{a}$ and $\mathbf{b}$The resultant $\mathbf{R} = \mathbf{a} + \mathbf{b}$ is found by
+$\mathbf{a}$ and $\mathbf{b}$ The resultant $\mathbf{R} = \mathbf{a} + \mathbf{b}$ is found by
 Placing the tail of $\mathbf{b}$ at the head of $\mathbf{a}$.
 
 **Resolving.** Any vector $\mathbf{F}$ can be resolved into perpendicular components. If
@@ -418,12 +418,12 @@ $\theta = \arctan(9/1) = 83.7^\circ$ above the positive $x$-axis.
 
 <details>
 <summary>Problem 7</summary>
-A student proposes the formula for the period of a mass on a spring: $T = 2\pi\sqrt{\frac{k}{m}}$Where $k$ is the spring constant and $m$ is the mass. Use dimensional analysis to show this formula is incorrect, and find the correct form.
+A student proposes the formula for the period of a mass on a spring: $T = 2\pi\sqrt{\frac{k}{m}}$ Where $k$ is the spring constant and $m$ is the mass. Use dimensional analysis to show this formula is incorrect, and find the correct form.
 
 **Answer.** $[T] = \mathsf{T}$.
 $[k/m] = \frac{[\mathrm{force}]/[\mathrm{displacement}]}{[\mathrm{mass}]} = \frac{\mathsf{M}\mathsf{L}\mathsf{T}^{-2}/\mathsf{L}}{\mathsf{M}} = \mathsf{T}^{-2}$.
 So $[\sqrt{k/m}] = \mathsf{T}^{-1} \neq \mathsf{T}$. The formula is dimensionally wrong. The correct
-Form is $T = 2\pi\sqrt{\frac{m}{k}}$Which gives
+Form is $T = 2\pi\sqrt{\frac{m}{k}}$ Which gives
 $[\sqrt{m/k}] = \sqrt{\frac{\mathsf{M}}{\mathsf{T}^{-2}}} = \mathsf{T}$. $\square$
 
 <b>If you get this wrong, revise:</b>
@@ -528,7 +528,7 @@ Whether this is dimensionally valid.
 
 **Answer.** $[P] = \mathsf{M}\mathsf{L}^{-1}\mathsf{T}^{-2}$.
 $[\rho g h^2] = (\mathsf{M}\mathsf{L}^{-3})(\mathsf{L}\mathsf{T}^{-2})(\mathsf{L}^2) = \mathsf{M}\mathsf{L}^0\mathsf{T}^{-2} = \mathsf{M}\mathsf{T}^{-2}$.
-This does not match $[P]$. The correct formula is $P = \rho g h$Which gives
+This does not match $[P]$. The correct formula is $P = \rho g h$ Which gives
 $[\rho g h] = \mathsf{M}\mathsf{L}^{-3} \cdot \mathsf{L}\mathsf{T}^{-2} \cdot \mathsf{L} = \mathsf{M}\mathsf{L}^{-1}\mathsf{T}^{-2} = [P]$.
 $\square$
 
@@ -548,7 +548,7 @@ Consistent. $\square$
 ### 9.3 Determining the Form of an Equation
 
 **Example.** The centripetal force on an object moving in a circle of radius $r$ at speed $v$ is
-Assumed to depend on mass $m$Speed $v$ And radius $r$. Find the form of the equation.
+Assumed to depend on mass $m$ Speed $v$ And radius $r$. Find the form of the equation.
 
 **Answer.** Assume $F = k \cdot m^a \cdot v^b \cdot r^c$.
 
@@ -561,7 +561,7 @@ $$
 \mathsf{M}: \quad a = 1, \qquad \mathsf{L}: \quad b + c = 1, \qquad \mathsf{T}: \quad -b = -2 \implies b = 2
 $$
 
-Therefore $c = 1 - 2 = -1$Giving $F = k \cdot m v^2 / r$. Full analysis gives $k = 1$. $\square$
+Therefore $c = 1 - 2 = -1$ Giving $F = k \cdot m v^2 / r$. Full analysis gives $k = 1$. $\square$
 
 ### 9.4 Unit Conversions Using Dimensional Analysis
 
@@ -634,13 +634,13 @@ Result: $V = 30.0 \pm 0.5$ cm$^3$.
 
 ### 11.3 Uncertainty in a Formula with Roots
 
-**Example.** The speed of a wave on a string is $v = \sqrt{T/\mu}$Where $T$ is the tension and
+**Example.** The speed of a wave on a string is $v = \sqrt{T/\mu}$ Where $T$ is the tension and
 $\mu$ is the mass per unit length. Given $T = 10.0 \pm 0.2$ N and $\mu = 0.0250 \pm 0.0005$ kg
 M$^{-1}$Find $v$ and its uncertainty.
 
 **Answer.** $v = \sqrt{10.0 / 0.0250} = \sqrt{400} = 20.0$ m s$^{-1}$.
 
-Since $v = T^{1/2}\mu^{-1/2}$The fractional uncertainty is:
+Since $v = T^{1/2}\mu^{-1/2}$ The fractional uncertainty is:
 
 $\Delta v/v = \frac{1}{2}(\Delta T/T) + \frac{1}{2}(\Delta\mu/\mu) = \frac{1}{2}(0.2/10.0) + \frac{1}{2}(0.0005/0.0250) = 0.010 + 0.010 = 0.020$.
 
@@ -671,11 +671,11 @@ Result: $A = 1.00 \pm 0.04$ m$^2$.
    subtracting, use absolute uncertainties. When multiplying or dividing, use fractional (or
    percentage) uncertainties. Applying the wrong rule is a frequent source of error.
 
-2. **Forgetting the power rule.** If $z = x^3$ Then $\Delta z / z = 3(\Delta x / x)$Not
+2. **Forgetting the power rule.** If $z = x^3$ Then $\Delta z / z = 3(\Delta x / x)$ Not
    $\Delta z / z = \Delta x / x$. A common mistake is treating all operations as simple
    multiplication.
 
-3. **Quoting too many significant figures.** If the uncertainty is $0.3$The result should be quoted
+3. **Quoting too many significant figures.** If the uncertainty is $0.3$ The result should be quoted
    to one decimal place. Writing $9.814 \pm 0.3$ is wrong; write $9.8 \pm 0.3$. Match the result to
    the uncertainty.
 
@@ -712,13 +712,13 @@ $[G] = \mathsf{L}^3\mathsf{M}^{-1}\mathsf{T}^{-2}$. In SI units: m$^3$ kg$^{-1}$
 
 <details>
 <summary>Problem 2</summary>
-A student proposes the formula for the frequency of a mass-spring system: $f = \frac{1}{2\pi}\sqrt{\frac{m}{k}}$Where $k$ is the spring constant. Use dimensional analysis to determine whether this formula is correct.
+A student proposes the formula for the frequency of a mass-spring system: $f = \frac{1}{2\pi}\sqrt{\frac{m}{k}}$ Where $k$ is the spring constant. Use dimensional analysis to determine whether this formula is correct.
 
 **Answer.** $[f] = \mathsf{T}^{-1}$.
 $[m/k] = \frac{\mathsf{M}}{[\mathrm{force}]/[\mathrm{displacement}]} = \frac{\mathsf{M}}{\mathsf{M}\mathsf{L}\mathsf{T}^{-2}/\mathsf{L}} = \frac{\mathsf{M}}{\mathsf{M}\mathsf{T}^{-2}} = \mathsf{T}^2$.
 
 $[\sqrt{m/k}] = \mathsf{T} \neq \mathsf{T}^{-1}$. The formula is incorrect. The correct form is
-$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$Giving
+$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$ Giving
 $[\sqrt{k/m}] = \mathsf{T}^{-1} = [f]$. $\square$
 
 <b>If you get this wrong, revise:</b>
@@ -785,7 +785,7 @@ Result: $E_k = 0.77 \pm 0.04$ J.
 
 <details>
 <summary>Problem 6</summary>
-A student measures the period of a pendulum as $T = 2.05 \pm 0.05$ s and the length as $L = 1.00 \pm 0.01$ m. Using $g = 4\pi^2 L / T^2$Calculate $g$ with its absolute uncertainty. Comment on whether the result is consistent with the accepted value of $9.81$ m s$^{-2}$.
+A student measures the period of a pendulum as $T = 2.05 \pm 0.05$ s and the length as $L = 1.00 \pm 0.01$ m. Using $g = 4\pi^2 L / T^2$ Calculate $g$ with its absolute uncertainty. Comment on whether the result is consistent with the accepted value of $9.81$ m s$^{-2}$.
 
 **Answer.** $g = 4\pi^2 \times 1.00 / (2.05)^2 = 39.48 / 4.2025 = 9.395$ m s$^{-2}$.
 

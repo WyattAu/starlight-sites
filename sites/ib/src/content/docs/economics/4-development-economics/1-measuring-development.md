@@ -166,7 +166,7 @@ Debt-to-GDP ratio $= 50 / 100 = 50\%$ (moderate, but context-dependent)
 
 Debt service-to-export ratio $= 4 / 15 = 26.7\%$
 
-The debt service-to-export ratio exceeds the commonly cited threshold of $20$--$25\%$Indicating That
+The debt service-to-export ratio exceeds the commonly cited threshold of $20$--$25\%$ Indicating That
 debt servicing is placing a significant burden on the country's foreign exchange earnings. A Large
 share of export revenue is being diverted to debt repayment, leaving less for essential Imports and
 investment.
@@ -378,7 +378,7 @@ Total industrial profits $= 12\,000 \times 20\,000\,000 = \$240$ billion
 
 Reinvestment $= 0.40 \times 240 = \$96$ billion
 
-Growth rate of industrial capital $= 96 / (20\,000 \times k)$Where $k$ is capital per worker.
+Growth rate of industrial capital $= 96 / (20\,000 \times k)$ Where $k$ is capital per worker.
 
 Without knowing $k$ directly, we can express the growth rate in terms of the capital-output ratio.
 If the ICOR in industry is $v = 3$:
@@ -907,10 +907,10 @@ Regression: growth $= 1.0 + 1.5 \times \text{institution\_quality} + 0.3 \times 
 Where institution_quality is the WGI score (range -2.5 to +2.5) and investment is the Investment/GDP
 ratio.
 
-Country A: institution_quality $= 1.5$Investment $= 25\%$. Growth
+Country A: institution_quality $= 1.5$ Investment $= 25\%$. Growth
 $= 1.0 + 1.5(1.5) + 0.3(25) = 1.0 + 2.25 + 7.5 = 10.75\%$.
 
-Country B: institution_quality $= -1.0$Investment $= 30\%$. Growth
+Country B: institution_quality $= -1.0$ Investment $= 30\%$. Growth
 $= 1.0 + 1.5(-1.0) + 0.3(30) = 1.0 - 1.5 + 9.0 = 8.5\%$.
 
 Despite higher investment (30% vs. 25%), Country B grows more slowly (8.5% vs. 10.75%) because Its
@@ -947,7 +947,7 @@ $\ln w = 0.5 + 0.10 S + 0.05 E - 0.001 E^2$
 
 (a) Calculate the wage premium for an additional year of schooling.
 
-$\partial \ln w / \partial S = 0.10$Or approximately 10% per additional year of schooling.
+$\partial \ln w / \partial S = 0.10$ Or approximately 10% per additional year of schooling.
 
 (b) Calculate the wage for a worker with 10 years of schooling and 20 years of experience.
 

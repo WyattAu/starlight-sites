@@ -266,8 +266,8 @@ $$
 \mathrm{Allocative efficiency: } P = \mathrm{MC}
 $$
 
-When $P \gt MC$Society values the good more than it costs to produce -- more should be produced.
-When $P \lt MC$The good costs more to produce than society values it -- less should be produced.
+When $P \gt MC$ Society values the good more than it costs to produce -- more should be produced.
+When $P \lt MC$ The good costs more to produce than society values it -- less should be produced.
 
 ### Pareto Efficiency
 
@@ -1369,11 +1369,11 @@ If you get this wrong, revise: [Division of Labour](#division-of-labour)
 ### Problem 9: PPC and Economic Growth
 
 A country's PPC for capital goods ($K$) and consumer goods ($C$) is given by
-$K = 400 - C - 0.005C^2$Where $0 \le C \le 200$. Currently producing at $C = 100$, $K = 250$.
+$K = 400 - C - 0.005C^2$ Where $0 \le C \le 200$. Currently producing at $C = 100$, $K = 250$.
 
 (a) Verify that $(100, 250)$ lies on the PPC. (b) Calculate the opportunity cost of producing the
 101st unit of consumer goods. (c) If the country invests in new technology, shifting the PPC outward
-to $K = 480 - C - 0.005C^2$By how much does the maximum possible output of each good increase? (d)
+to $K = 480 - C - 0.005C^2$ By how much does the maximum possible output of each good increase? (d)
 Explain why the PPC is concave and relate this to the concept of increasing opportunity cost using a
 Hong Kong example.
 

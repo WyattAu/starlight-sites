@@ -35,7 +35,7 @@ $$
 f_{\mathrm{FD}(\varepsilon) \approx f_{\mathrm{BE}(\varepsilon) \approx f_{\mathrm{MB}(\varepsilon) = e^{-\beta(\varepsilon - \mu)}}}}
 $$
 
-_Proof._ When $e^{\beta(\varepsilon - \mu)} \gg 1$The $+1$ or $-1$ in the denominator is negligible:
+_Proof._ When $e^{\beta(\varepsilon - \mu)} \gg 1$ The $+1$ or $-1$ in the denominator is negligible:
 
 $$
 \frac{1}{e^{\beta(\varepsilon - \mu)} \pm 1} \approx \frac{1}{e^{\beta(\varepsilon - \mu)}} = e^{-\beta(\varepsilon - \mu)}

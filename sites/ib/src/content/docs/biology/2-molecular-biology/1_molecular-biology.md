@@ -952,7 +952,7 @@ Where $i$ is the van't Hoff factor (number of particles per formula unit), $C$ i
 concentration, $R$ is the gas constant ($0.0831\;\mathrm{L\;bar\;K^{-1}\;mol^{-1}}$), and $T$ is
 temperature in Kelvin.
 
-For $\mathrm{NaCl}$ ($i = 2$Dissociates into $\mathrm{Na}^+$ and $\mathrm{Cl}^-$):
+For $\mathrm{NaCl}$ ($i = 2$ Dissociates into $\mathrm{Na}^+$ and $\mathrm{Cl}^-$):
 $\Pi = 2 \times C \times 0.0831 \times T$
 
 ---
@@ -1057,7 +1057,7 @@ Increases the affinity of the remaining haem groups for subsequent $\mathrm{O}_2
 (positive cooperativity). This is described by the **Monod-Wyman-Changeux (MWC) model** or the
 **sequential (KNF) model**.
 
-**Bohr effect:** increased $\mathrm{CO}_2$Decreased pH (increased $\mathrm{H}^+$), and increased
+**Bohr effect:** increased $\mathrm{CO}_2$ Decreased pH (increased $\mathrm{H}^+$), and increased
 Temperature shift the oxygen dissociation curve to the **right**, reducing $\mathrm{Hb}$ affinity
 and Promoting $\mathrm{O}_2$ unloading in metabolically active tissues.
 
@@ -1273,7 +1273,7 @@ enzymes have more salt bridges for heat stability).
 An enzyme-catalysed reaction has an activation energy ($E_a$) of $35\;\mathrm{kJ/mol}$. The
 uncatalysed Reaction has an activation energy of $85\;\mathrm{kJ/mol}$. The reaction is carried out
 at $310\;\mathrm{K}$ ($37^\circ\mathrm{C}$). (a) Calculate the rate enhancement factor using the
-Arrhenius equation ($k = Ae^{-E_a/RT}$Where $R = 8.314\;\mathrm{J/(mol \cdot K)}$). (b) If the
+Arrhenius equation ($k = Ae^{-E_a/RT}$ Where $R = 8.314\;\mathrm{J/(mol \cdot K)}$). (b) If the
 temperature is Increased by $10^\circ\mathrm{C}$ ($320\;\mathrm{K}$), calculate the new rate
 enhancement. (c) Explain Why the rate enhancement is a ratio, not an absolute value. (d) Explain how
 the enzyme lowers the Activation energy.
@@ -1352,7 +1352,7 @@ transcribed DNA: Pre-mRNA $= 2400\;\mathrm{nt}$. Mature mRNA $= 2100\;\mathrm{nt
 length $= 2400 - 2100 = 300\;\mathrm{nt}$.
 
 But this assumes the gene is exactly $2400\;\mathrm{bp}$. The question does not specify this
-directly. If the DNA is $2400\;\mathrm{bp}$ total and the mRNA is $2100\;\mathrm{nt}$The introns
+directly. If the DNA is $2400\;\mathrm{bp}$ total and the mRNA is $2100\;\mathrm{nt}$ The introns
 account for $300\;\mathrm{nt}$. The number of introns cannot be determined without additional
 information (e.g., Knowing the exon sizes).
 
@@ -1386,7 +1386,7 @@ Substrate concentration needed to reach $50\%$ of $V_{max}$ in each condition.
 
 (a) [Students should sketch $v$ vs $[S]$ curves:]
 
-- No inhibitor: hyperbolic curve reaching $V_{max} = 100$ at high $[S]$Half-maximal at
+- No inhibitor: hyperbolic curve reaching $V_{max} = 100$ at high $[S]$ Half-maximal at
   $[S] = K_m = 5.0$.
 - Competitive: curve reaches the same $V_{max} = 100$ but is shifted to the right (half-maximal at
   $[S] = K_m^{app} = 15.0$). The initial slope is lower.
@@ -1401,7 +1401,7 @@ Competitive: $v = \frac{100 \times 5.0}{15.0 + 5.0} = \frac{500}{20} = 25\;\math
 
 Non-competitive: $v = \frac{50 \times 5.0}{5.0 + 5.0} = \frac{250}{10} = 25\;\mathrm{\mu mol/min}$
 
-At $[S] = K_m$Both inhibitors reduce the velocity by the same amount ($50\%$), but by different
+At $[S] = K_m$ Both inhibitors reduce the velocity by the same amount ($50\%$), but by different
 Mechanisms.
 
 (c) $50\%$ of $V_{max}$ is achieved when $[S] = K_m$ (by definition).
@@ -1409,10 +1409,10 @@ Mechanisms.
 - No inhibitor: $[S] = 5.0\;\mathrm{mM}$
 - Competitive: $[S] = K_m^{app} = 15.0\;\mathrm{mM}$
 - Non-competitive: $[S] = K_m^{app} = 5.0\;\mathrm{mM}$ (same $K_m$ But $50\%$ of the reduced
-  $V_{max}^{app} = 25$Achieved at $[S] = 5.0\;\mathrm{mM}$).
+  $V_{max}^{app} = 25$ Achieved at $[S] = 5.0\;\mathrm{mM}$).
 
 For the non-competitive inhibitor, to reach $50\%$ of the original $V_{max}$
-($= 50\;\mathrm{\mu mol/min}$): $v = \frac{50[S]}{5 + [S]} = 50$Which requires $[S] \to \infty$ (the
+($= 50\;\mathrm{\mu mol/min}$): $v = \frac{50[S]}{5 + [S]} = 50$ Which requires $[S] \to \infty$ (the
 enzyme can never reach the Original $V_{max}$). This illustrates a key difference: competitive
 inhibition can be overcome by Increasing $[S]$ But non-competitive cannot.
 
@@ -1447,7 +1447,7 @@ life.
 
 (d) Water is an excellent solvent for polar and ionic substances (**hydrophilic**) because its polar
 Molecules can form hydrogen bonds and ion-dipole interactions with solutes. Examples:
-$\mathrm{Na}^+$ $\mathrm{Cl}^-$Glucose, amino acids, DNA, proteins dissolve in water.
+$\mathrm{Na}^+$ $\mathrm{Cl}^-$ Glucose, amino acids, DNA, proteins dissolve in water.
 
 Non-polar substances (**hydrophobic**) cannot form hydrogen bonds with water and are insoluble.
 Examples: Lipids, cholesterol, steroid hormones. In aqueous environments, hydrophobic molecules
@@ -1527,7 +1527,7 @@ Stabilised by hydrogen bonds between backbone C=O and N-H groups (not R groups).
 
 **Quaternary structure**: the arrangement of multiple polypeptide subunits into a functional
 protein, Stabilised by the same interactions as tertiary structure (but between subunits, not within
-a subunit). Example: haemoglobin ($\alpha_2\beta_2$Four subunits).
+a subunit). Example: haemoglobin ($\alpha_2\beta_2$ Four subunits).
 
 (b) **Heat**: increases kinetic energy, disrupting weak interactions (hydrogen bonds, hydrophobic
 Interactions, ionic bonds). The protein unfolds, exposing hydrophobic R groups. At very high
@@ -1588,7 +1588,7 @@ protein contamination; ratios above $2.0$ suggest RNA contamination or other con
 
 (d) Proteins contain aromatic amino acids (tryptophan, tyrosine) that absorb UV light at
 $280\;\mathrm{nm}$ (with a weaker absorbance at $260\;\mathrm{nm}$). When protein is present as a
-contaminant in the DNA Sample, it increases $A_{280}$ more than $A_{260}$Lowering the
+contaminant in the DNA Sample, it increases $A_{280}$ more than $A_{260}$ Lowering the
 $A_{260}/A_{280}$ ratio. Pure DNA Has minimal absorbance at $280\;\mathrm{nm}$ (DNA bases absorb
 maximally at $260\;\mathrm{nm}$).
 
@@ -1711,7 +1711,7 @@ PCR amplifies a specific DNA sequence exponentially. Components:
   complementary to the regions flanking the target. The $3'$ end of each primer faces the target
   sequence.
 - **Taq DNA polymerase**: a thermostable DNA polymerase from _Thermus aquaticus_ (optimum
-  temperature $72^\circ\mathrm{C}$Withstands the $95^\circ\mathrm{C}$ denaturation step).
+  temperature $72^\circ\mathrm{C}$ Withstands the $95^\circ\mathrm{C}$ denaturation step).
 - **dNTPs**: deoxynucleoside triphosphates (dATP, dCTP, dGTP, dTTP) -- building blocks for DNA
   synthesis.
 - **Buffer**: provides optimal pH and $\mathrm{Mg}^{2+}$ concentration (cofactor for Taq
@@ -1767,7 +1767,7 @@ Sequencing in hours at rapidly decreasing cost.
 A gene has a single EcoRI site (GAATTC) in its normal allele but the site is mutated (GAATTC $\to$
 GAA TTC, introducing a 1 bp insertion that destroys the site) in a disease allele. The gene is
 $3000\;\mathrm{bp}$ long. (a) How many fragments are produced by EcoRI digestion of each allele? (b)
-If the EcoRI site is at position $1500$What are the fragment sizes for each allele? (c) How Could
+If the EcoRI site is at position $1500$ What are the fragment sizes for each allele? (c) How Could
 this be used for genetic diagnosis?
 
 <details>

@@ -30,7 +30,7 @@ flowchart TD
 
 **Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Forces and Newton"s Laws, Diagnostic Tests
+## Forces and Newton's Laws, Diagnostic Tests
 
 ## Unit Tests
 
@@ -48,7 +48,7 @@ block and the surface is $\mu = 0.4$. A horizontal force $P$ is applied to the b
 **(b)** When $P = 20$ N, find the magnitude and direction of the frictional force acting on the
 block.
 
-**(c)** A student, upon seeing the value $\mu = 0.4$Immediately writes
+**(c)** A student, upon seeing the value $\mu = 0.4$ Immediately writes
 $F = \mu R = 0.4 \times 78.4 = 31.36$ N for the frictional force, regardless of the applied force
 $P$. Explain why this is incorrect for $P = 20$ N, and calculate the percentage by which the student
 overestimates the friction.
@@ -57,7 +57,7 @@ overestimates the friction.
 value of $P$ for which the block remains in equilibrium, and explain why this maximum is greater
 than the answer in part (a).
 
-[Difficulty: hard. Tests the critical distinction between $F \leq \mu R$ and $F = \mu R$Requiring
+[Difficulty: hard. Tests the critical distinction between $F \leq \mu R$ and $F = \mu R$ Requiring
 the student to recognise when friction is not at its limiting value, and how an angled force changes
 the normal reaction.]
 
@@ -115,7 +115,7 @@ $$
 
 This is **less** than $31.36$ N, not greater. Applying the force at an angle above the horizontal
 reduces the normal reaction ($R = 78.4 - 0.5P \lt 78.4$), which in turn reduces the maximum
-friction. Although the horizontal component of $P$ is only $P\cos 30° \approx 0.866P$The reduction
+friction. Although the horizontal component of $P$ is only $P\cos 30° \approx 0.866P$ The reduction
 in $R$ means the maximum available horizontal force is reduced overall.
 
 ---
@@ -162,7 +162,7 @@ Force trying to pull $A$ up the plane $= 3g = 29.4$ N.
 
 Force opposing this $= 5g\sin 30° + \mu(5g\cos 30°) = 24.5 + 0.3(42.43) = 24.5 + 12.73 = 37.23$ N.
 
-Since $29.4 \lt 37.23$The system does **not** move with $B$ descending and $A$ ascending.
+Since $29.4 \lt 37.23$ The system does **not** move with $B$ descending and $A$ ascending.
 
 Now check if $A$ slides down the plane and $B$ ascends:
 
@@ -325,7 +325,7 @@ equivalently, the trailer pushes forward on the car through the bar).
 **Question:**
 
 A particle of mass $2$ kg moves along the positive $x$-axis. At time $t$ seconds, the force acting
-on the particle is $F = (3t^2 - 12t + 9)$ N in the direction of motion. When $t = 0$The particle is
+on the particle is $F = (3t^2 - 12t + 9)$ N in the direction of motion. When $t = 0$ The particle is
 at rest at the origin.
 
 **(a)** Find the velocity of the particle at time $t$.
@@ -415,9 +415,9 @@ Therefore $W = 4$ J, consistent with the work-energy theorem.
 **Question:**
 
 A uniform beam $AB$ of length $4$ m and weight $120$ N is hinged at $A$ to a vertical wall. The beam
-is held in a horizontal position by a light inextensible string $BC$Where $C$ is a point on the wall
+is held in a horizontal position by a light inextensible string $BC$ Where $C$ is a point on the wall
 vertically above $A$ with $AC = 3$ m. A particle of weight $80$ N is suspended from the beam at a
-point $D$Where $AD = 3$ m.
+point $D$ Where $AD = 3$ m.
 
 **(a)** Find the tension in the string $BC$ and the magnitude and direction of the reaction at the
 hinge $A$.

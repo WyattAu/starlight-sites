@@ -141,7 +141,7 @@ Result: $[1, 2, 3, 4, 5, 5, 7, 8, 9]$
 Is not stable.
 
 _Proof._ Building the heap takes $O(n)$ by Theorem 2.11. Each of the $n$ extract-max operations
-takes $O(\log n)$For a total of $O(n \log n)$. Space is $O(1)$ since the heap is stored in-place.
+takes $O(\log n)$ For a total of $O(n \log n)$. Space is $O(1)$ since the heap is stored in-place.
 $\blacksquare$
 
 ### 3.4 Lower Bound on Comparison Sorting
@@ -153,7 +153,7 @@ _Proof._ A comparison-based sort can be modelled as a decision tree. The tree mu
 $n!$ Leaves (one for each permutation). A binary tree with $n!$ leaves has height at least
 $\log_2(n!) \geq \log_2((n/2)^{n/2}) = (n/2)\log_2(n/2) = \Omega(n \log n)$.
 
-More precisely, using Stirling"s approximation:
+More precisely, using Stirling's approximation:
 $\log_2(n!) = n \log_2 n - n \log_2 e + O(\log n) = \Omega(n \log n)$. $\blacksquare$
 
 ### 3.5 Counting Sort
@@ -182,7 +182,7 @@ stable sort (e.g., counting sort) as a subroutine.
 time.
 
 _Proof._ We perform $d$ passes of counting sort, each taking $O(n + b)$ time. After the $i$-th pass,
-the array is sorted by the $i$ least significant digits. By induction on $i$After $d$ passes the
+the array is sorted by the $i$ least significant digits. By induction on $i$ After $d$ passes the
 array is fully sorted. $\blacksquare$
 
 **Corollary 3.11.** For $d$-digit integers where $d = O(1)$ (e.g., 32-bit integers), radix sort runs
@@ -201,13 +201,13 @@ Range of values: $[1, 8]$ So $k = 8$.
 
 **Step 3, Place (iterate backwards):**
 
-- $A[6] = 1$: $C[1] = 1$Place at position 0. $C[1] = 0$.
-- $A[5] = 3$: $C[3] = 5$Place at position 4. $C[3] = 4$.
-- $A[4] = 3$: $C[3] = 4$Place at position 3. $C[3] = 3$.
-- $A[3] = 8$: $C[8] = 6$Place at position 5. $C[8] = 5$.
-- $A[2] = 2$: $C[2] = 3$Place at position 2. $C[2] = 2$.
-- $A[1] = 2$: $C[2] = 2$Place at position 1. $C[2] = 1$.
-- $A[0] = 4$: $C[4] = 6$Place at position 5. $C[4] = 5$.
+- $A[6] = 1$: $C[1] = 1$ Place at position 0. $C[1] = 0$.
+- $A[5] = 3$: $C[3] = 5$ Place at position 4. $C[3] = 4$.
+- $A[4] = 3$: $C[3] = 4$ Place at position 3. $C[3] = 3$.
+- $A[3] = 8$: $C[8] = 6$ Place at position 5. $C[8] = 5$.
+- $A[2] = 2$: $C[2] = 3$ Place at position 2. $C[2] = 2$.
+- $A[1] = 2$: $C[2] = 2$ Place at position 1. $C[2] = 1$.
+- $A[0] = 4$: $C[4] = 6$ Place at position 5. $C[4] = 5$.
 
 Result: $[1, 2, 2, 3, 3, 4, 8]$.
 

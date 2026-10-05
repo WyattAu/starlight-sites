@@ -425,7 +425,7 @@ HAVING COUNT(*) > 5        -- Filter groups
 
 **Proof.** Recall:
 
-- 3NF: For every non-trivial dependency $A \to B$Either $A$ is a superkey, or $B$ is a prime
+- 3NF: For every non-trivial dependency $A \to B$ Either $A$ is a superkey, or $B$ is a prime
   attribute (part of some candidate key).
 - BCNF: For every non-trivial dependency $A \to B$, $A$ is a superkey.
 
@@ -552,7 +552,7 @@ lossless (by the chase test / BCNF decomposition theorem). ✓
 **Step 5: Dependency preservation.** The original FDs are $\\{AB \to C,\; C \to B\\}$.
 
 - $C \to B$ is preserved in $R_1(C, B)$. ✓
-- $AB \to C$: to check this, we need to compute $C$ from $A$ and $B$. In $R_2(A, C)$Given $A$ we
+- $AB \to C$: to check this, we need to compute $C$ from $A$ and $B$. In $R_2(A, C)$ Given $A$ we
   cannot determine $C$ without additional information. We would need to join $R_1$ and $R_2$: from
   $(A, B)$ we cannot join because $B$ is not in $R_2$. So $AB \to C$ is **not preserved**. ✗
 

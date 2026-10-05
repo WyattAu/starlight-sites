@@ -22,7 +22,7 @@ description: "Every cooling solution relies on three mechanisms of heat transfer
 Every cooling solution relies on three mechanisms of heat transfer:
 
 1. **Conduction**. Heat transfer through a solid material without bulk motion. Governed by
-   Fourier"s law:
+   Fourier's law:
 
 $$
 Q = -k \cdot A \cdot \frac{dT}{dx}
@@ -48,7 +48,7 @@ shiny surfaces.
 
 ### Thermal Resistance
 
-Thermal resistance ($\theta$Measured in °C/W) quantifies how effectively a thermal interface or
+Thermal resistance ($\theta$ Measured in °C/W) quantifies how effectively a thermal interface or
 Material transfers heat. Lower thermal resistance means better heat transfer.
 
 The total thermal resistance from die to ambient is the sum of all series thermal resistances:

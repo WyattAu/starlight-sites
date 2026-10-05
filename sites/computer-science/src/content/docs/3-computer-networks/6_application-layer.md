@@ -235,8 +235,8 @@ Model with authentication and encryption).
 - **Throughput:** Actual data rate achieved, less than bandwidth due to protocol overhead,
   congestion, and errors.
 
-- **Latency components:** Propagation delay ($d / c$Where $d$ is distance), transmission delay
-  ($L / R$Where $L$ is frame length, $R$ is rate), queuing delay, processing delay.
+- **Latency components:** Propagation delay ($d / c$ Where $d$ is distance), transmission delay
+  ($L / R$ Where $L$ is frame length, $R$ is rate), queuing delay, processing delay.
 
 - **Jitter:** Variation in packet arrival times. Critical for real-time applications (VoIP, video).
   Measured as the standard deviation of delay.

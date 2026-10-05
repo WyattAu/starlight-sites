@@ -72,7 +72,7 @@ producing a lost update.
 ### Why the GIL Exists
 
 The GIL is not a design oversight. It is a deliberate trade-off that solves a specific problem:
-**CPython"s memory management is not thread-safe**.
+**CPython's memory management is not thread-safe**.
 
 CPython uses reference counting as its primary garbage collection strategy. Every object carries a
 `ob_refcnt` field. When you assign an object to a new name, the reference count is incremented. When

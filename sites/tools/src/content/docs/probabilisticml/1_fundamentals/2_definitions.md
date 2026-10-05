@@ -119,7 +119,7 @@ Given a set $A \subseteq S$ in a topological space:
 
 ### Lipschitz Continuity
 
-Given metric spaces $(X, d_X)$ and $(Y, d_Y)$A function $f: X \to Y$ is $K$-Lipschitz (with
+Given metric spaces $(X, d_X)$ and $(Y, d_Y)$ A function $f: X \to Y$ is $K$-Lipschitz (with
 $K \geq 0$) if: $$ d_Y(f(x_1), f(x_2)) \leq K \cdot d_X(x_1, x_2) \quad \forall x_1, x_2 \in X $$
 
 The **Lipschitz constant** (or Lipschitz semi-norm) is defined as:
@@ -245,7 +245,7 @@ unions, probabilities cannot be assign to limits of random variables.
 
 ### Sub-$\sigma$-algebra
 
-Given a measurable space $(\Omega, \mathcal{F})$A collection
+Given a measurable space $(\Omega, \mathcal{F})$ A collection
 $\mathcal{G}\subseteq \mathcal{F}$ is a
 sub-$\sigma$-algebra if $\mathcal{G}$ is itself a $\sigma$-algebra on
 $\Omega$.
@@ -289,7 +289,7 @@ _Note:_ This is the foundational definition before introducing Random Elements.
 
 ### Measure
 
-In a measurable space $(\Omega, \mathcal{F})$A measure is a function
+In a measurable space $(\Omega, \mathcal{F})$ A measure is a function
 $\mu : \mathcal{F} \rightarrow [0,\infty]$, satisfying:
 
 1. Null set: $\mu(\emptyset) = 0$
@@ -685,7 +685,7 @@ set of $\lambda$-measure zero, they define the same probability measure $P_X$.
 ### Absolutely Continuous Random Element
 
 A random element $X$ is **absolutely continuous** with respect to a reference measure $\lambda$ if
-its induced law $P_X$ is absolutely continuous with respect to $\lambda$I.e., $P_X \ll \lambda$.
+its induced law $P_X$ is absolutely continuous with respect to $\lambda$ I.e., $P_X \ll \lambda$.
 This means that for all measurable sets $B$ in the target space,
 $\lambda(B) = 0 \implies P_X(B) = 0$.
 
@@ -931,7 +931,7 @@ and Optimization).
 
 ### Jensen's Inequality
 
-Given a probability space $(\Omega, \mathcal{F}, P)$A real-valued random
+Given a probability space $(\Omega, \mathcal{F}, P)$ A real-valued random
 variable $X: \Omega \to \mathbb{R}$ and a convex function
 $\varphi: \mathbb{R} \to \mathbb{R}$:
 
@@ -1053,7 +1053,7 @@ space: $\varphi_X(t) = \mathbb{E}[e^{i t(X)}]$ where $t \in B^*$.
 
 ### Strongly Measurable
 
-Given a Banach space $\mathbb{V}$A function
+Given a Banach space $\mathbb{V}$ A function
 $X: \Omega \to \mathbb{V}$ is strongly measurable if it is the pointwise
 limit of a sequence of simple functions. Pettis Measurability Theorem states $X$ is strongly
 measurable iff $X$ is weakly measurable and has a separable range (This is essential for Polish

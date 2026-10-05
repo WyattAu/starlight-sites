@@ -513,7 +513,7 @@ has lower biodiversity than a habitat with 5 species where each makes up approxi
 richness alone does not capture this difference, evenness provides the additional information
 needed.
 
-(b) **Simpson's Diversity Index**: $D = 1 - \sum\left(\frac{n}{N}\right)^2$Where $n$ is the number
+(b) **Simpson's Diversity Index**: $D = 1 - \sum\left(\frac{n}{N}\right)^2$ Where $n$ is the number
 of individuals of a particular species and $N$ is the total number of individuals of all species.
 $D$ ranges from 0 (no diversity, only one species present) to approaching 1 (maximum diversity,
 many species, all equally abundant).

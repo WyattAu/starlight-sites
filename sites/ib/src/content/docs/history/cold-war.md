@@ -122,7 +122,7 @@ Officially the European Recovery Programme (ERP), announced by Secretary of Stat
 - West Germany joined in 1955, this was a key trigger for the Warsaw Pact
 - First peacetime military alliance the USA had entered
 - Integrated military command under a Supreme Allied Commander (initially Eisenhower)
-- Demonstrated the USA"s commitment to defending Western Europe
+- Demonstrated the USA's commitment to defending Western Europe
 
 **Warsaw Pact**
 

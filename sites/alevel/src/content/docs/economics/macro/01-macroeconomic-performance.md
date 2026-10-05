@@ -348,7 +348,7 @@ $$
 u^* = u_{frictional} + u_{structural}
 $$
 
-When $u = u^*$The economy is at full employment (no cyclical unemployment).
+When $u = u^*$ The economy is at full employment (no cyclical unemployment).
 
 ### 3.2a Deeper Analysis of Unemployment Types
 
@@ -711,10 +711,10 @@ Economic inactivity rate.
 
 <details>
 <summary>Hint</summary>
-(a) Unemployed $= 35 - 31.5 = 3.5$M. $u = 3.5/35 = 10\%$. (b) Employment rate $= 31.5/55 = 57.3\%$. (c) Economically inactive $= 55 - 35 = 20$M. Inactivity rate $= 20/55 = 36.4\%$.
+(a) Unemployed $= 35 - 31.5 = 3.5$ M. $u = 3.5/35 = 10\%$. (b) Employment rate $= 31.5/55 = 57.3\%$. (c) Economically inactive $= 55 - 35 = 20$ M. Inactivity rate $= 20/55 = 36.4\%$.
 </details>
 
-**Problem 4.** Using Okun's Law with $\beta = 2$If potential GDP is £2.5 trillion and actual GDP Is
+**Problem 4.** Using Okun's Law with $\beta = 2$ If potential GDP is £2.5 trillion and actual GDP Is
 £2.35 trillion, estimate the cyclical unemployment rate if the natural rate is 5%.
 
 <details>
@@ -729,7 +729,7 @@ Or surplus.
 
 <details>
 <summary>Hint</summary>
-Trade in goods $= 300 - 400 = -100$. Trade in services $= 200 - 150 = +50$. Primary income $= -50$. Secondary income $= -20$. Current account $= -100 + 50 - 50 - 20 = -120$Bn (deficit).
+Trade in goods $= 300 - 400 = -100$. Trade in services $= 200 - 150 = +50$. Primary income $= -50$. Secondary income $= -20$. Current account $= -100 + 50 - 50 - 20 = -120$ Bn (deficit).
 </details>
 
 **Problem 6.** "A high GDP per capita necessarily means high living standards." Evaluate this

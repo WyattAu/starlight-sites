@@ -45,7 +45,7 @@ Physical world with mathematics.
 | Statistics: Distributions         | Paper 3    | S1      | Paper 3    | S1, S2     |
 | Statistics: Hypothesis Testing    | Paper 3    | S1      | Paper 3    | S2         |
 | Mechanics: Kinematics             | Paper 3    | M1      | Paper 3    | M1         |
-| Mechanics: Forces & Newton"s Laws | Paper 3    | M1      | Paper 3    | M1         |
+| Mechanics: Forces & Newton's Laws | Paper 3    | M1      | Paper 3    | M1         |
 | Mechanics: Moments                | Paper 3    | M1      | Paper 3    | M1         |
 | Mechanics: Energy & Work          | Paper 3    | M2      | Paper 3    | M2         |
 

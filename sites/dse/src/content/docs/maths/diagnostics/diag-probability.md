@@ -66,7 +66,7 @@ If $A$ and $B$ are mutually exclusive, then $P(A \cap B) = 0$.
 
 If $A$ and $B$ are independent, then $P(A \cap B) = P(A) \times P(B)$.
 
-So we need $P(A) \times P(B) = 0$Which means at least one of $P(A)$ or $P(B)$ is zero.
+So we need $P(A) \times P(B) = 0$ Which means at least one of $P(A)$ or $P(B)$ is zero.
 
 If both $P(A) > 0$ and $P(B) > 0$ Then mutually exclusive events CANNOT be independent.
 
@@ -164,7 +164,7 @@ $$
 
 For independence: $P(A) \times P(B) = 0.4 \times 0.7 = 0.28$.
 
-Since $P(A \cap B) = 0.25 \neq 0.28$The events are **not** independent.
+Since $P(A \cap B) = 0.25 \neq 0.28$ The events are **not** independent.
 
 ---
 
@@ -214,7 +214,7 @@ $$
 **Question:**
 
 Events $A$ and $B$ are independent with $P(A) = p$ and $P(B) = 2p$. Given that
-$P(A \cap B) = \dfrac{1}{8}$Find $p$.
+$P(A \cap B) = \dfrac{1}{8}$ Find $p$.
 
 **Solution:**
 
@@ -228,7 +228,7 @@ $$
 2p^2 = \frac{1}{8} \implies p^2 = \frac{1}{16} \implies p = \frac{1}{4}
 $$
 
-($p > 0$ since it is a probability, and $2p \leq 1$ gives $p \leq \dfrac{1}{2}$Which is satisfied.)
+($p > 0$ since it is a probability, and $2p \leq 1$ gives $p \leq \dfrac{1}{2}$ Which is satisfied.)
 
 ---
 
@@ -245,7 +245,7 @@ $$
 
 **Question:**
 
-A coin is tossed until the first head appears. If the probability of heads is $p$Find the
+A coin is tossed until the first head appears. If the probability of heads is $p$ Find the
 probability that the first head appears on the $n$-th toss. Show that the total probability sums
 to 1.
 
@@ -263,7 +263,7 @@ $$
 \sum_{n=1}^{\infty} p(1-p)^{n-1} = p \cdot \frac{1}{1 - (1-p)} = p \cdot \frac{1}{p} = 1
 $$
 
-This is a geometric series with first term $p$ and ratio $(1-p)$Converging since $0 < 1-p < 1$ when
+This is a geometric series with first term $p$ and ratio $(1-p)$ Converging since $0 < 1-p < 1$ when
 $0 < p < 1$.
 
 ---
@@ -602,7 +602,7 @@ flowchart TD
 
 5. **Incorrect counting with identical objects.** When arranging letters or selecting items with
    identical elements, remember to divide by the factorial of the number of identical items. For
-   example, the arrangements of "AABB" is $\dfrac{4!}{2! \times 2!} = 6$Not $4! = 24$.
+   example, the arrangements of "AABB" is $\dfrac{4!}{2! \times 2!} = 6$ Not $4! = 24$.
 
 ---
 
@@ -760,10 +760,10 @@ $$
 ### DSE-4
 
 A box contains $n$ red balls and $n$ blue balls. Three balls are drawn at random without
-replacement. Find, in terms of $n$The probability that:
+replacement. Find, in terms of $n$ The probability that:
 
 (a) All three balls are of the same colour. (3 marks) (b) The three balls are not all of the same
-colour. (2 marks) (c) For $n = 5$Evaluate the probability in part (a) as a fraction. (1 mark)
+colour. (2 marks) (c) For $n = 5$ Evaluate the probability in part (a) as a fraction. (1 mark)
 
 **Solution:**
 
@@ -817,7 +817,7 @@ answer. (3 marks) (c) Find $P(A \cup B)$. (2 marks) (d) Find $P(A' \cap B')$. (2
 
 (b) For independence: $P(A) \times P(B) = 0.5 \times 0.6 = 0.30$.
 
-Since $P(A \cap B) = 0.24 \neq 0.30 = P(A) \times P(B)$The events are **not independent**.
+Since $P(A \cap B) = 0.24 \neq 0.30 = P(A) \times P(B)$ The events are **not independent**.
 
 (c) $P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.5 + 0.6 - 0.24 = 0.86$.
 

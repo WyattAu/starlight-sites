@@ -25,7 +25,7 @@ The use of algebraic methods to solve geometric problems and vice versa.
 
 ### The Rectangular Coordinate System
 
-In the Cartesian plane, every point $P$ is uniquely identified by an ordered pair $(x, y)$Where $x$
+In the Cartesian plane, every point $P$ is uniquely identified by an ordered pair $(x, y)$ Where $x$
 is the horizontal coordinate (abscissa) and $y$ is the vertical coordinate (ordinate). The axes
 Divide the plane into four quadrants, numbered counterclockwise from the positive $x$-axis.
 
@@ -45,7 +45,7 @@ $$
 <summary>Examples</summary>
 - Distance between $A(3, 4)$ and $B(7, 1)$: $d = \sqrt{(7-3)^2 + (1-4)^2} = \sqrt{16 + 9} = 5$
 - Distance between $O(0, 0)$ and $P(5, 12)$: $d = \sqrt{5^2 + 12^2} = 13$
-- Verify that the points $A(0, 0)$$B(3, 4)$$C(6, 8)$ are collinear: $AB = 5$$BC = 5$$AC = 10$. Since $AB + BC = AC$The points are collinear.
+- Verify that the points $A(0, 0)$$B(3, 4)$$C(6, 8)$ are collinear: $AB = 5$$BC = 5$$AC = 10$. Since $AB + BC = AC$ The points are collinear.
 
 ### Midpoint Formula
 
@@ -66,8 +66,8 @@ The midpoint is the average of the respective coordinates of the two endpoints.
 
 ### Gradient (Slope)
 
-The gradient $m$ of the line passing through $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$Where
-$x_1 \neq x_2$Measures the rate of change of $y$ with respect to $x$:
+The gradient $m$ of the line passing through $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ Where
+$x_1 \neq x_2$ Measures the rate of change of $y$ with respect to $x$:
 
 $$
 \begin{aligned}
@@ -88,7 +88,7 @@ $x_1 = x_2$) has an undefined gradient. Key gradient values include:
 <details>
 <summary>Examples</summary>
 - Gradient of the line through $A(1, 2)$ and $B(4, 8)$: $m = \frac{8-2}{4-1} = 2$
-- A line with gradient $\frac{3}{4}$ passing through $(1, 5)$: using $y - y_1 = m(x - x_1)$The equation is $y - 5 = \frac{3}{4}(x - 1)$I.e., $3x - 4y + 17 = 0$
+- A line with gradient $\frac{3}{4}$ passing through $(1, 5)$: using $y - y_1 = m(x - x_1)$ The equation is $y - 5 = \frac{3}{4}(x - 1)$ I.e., $3x - 4y + 17 = 0$
 
 ### Division of a Line Segment
 
@@ -165,8 +165,8 @@ and the $y$-intercept is $c = -\frac{C}{B}$ (when $B \neq 0$).
 
 </details>
 <summary>Examples</summary>
-- Find the equation of the line through $(2, 3)$ and $(6, -1)$: $m = \frac{-1 - 3}{6 - 2} = -1$. Equation: $y - 3 = -1(x - 2)$I.e., $x + y - 5 = 0$
-- Find the equation of the line with gradient $\frac{1}{2}$ and $y$-intercept $-3$: $y = \frac{1}{2}x - 3$I.e., $x - 2y - 6 = 0$
+- Find the equation of the line through $(2, 3)$ and $(6, -1)$: $m = \frac{-1 - 3}{6 - 2} = -1$. Equation: $y - 3 = -1(x - 2)$ I.e., $x + y - 5 = 0$
+- Find the equation of the line with gradient $\frac{1}{2}$ and $y$-intercept $-3$: $y = \frac{1}{2}x - 3$ I.e., $x - 2y - 6 = 0$
 - Convert $3x + 4y - 12 = 0$ to intercept form: $\frac{x}{4} + \frac{y}{3} = 1$. The $x$-intercept is $4$ and the $y$-intercept is $3$.
 
 ## Parallel and Perpendicular Lines
@@ -182,7 +182,7 @@ $$
 \end{aligned}
 $$
 
-In the general form $Ax + By + C = 0$Two lines $A_1x + B_1y + C_1 = 0$ and $A_2x + B_2y + C_2 = 0$
+In the general form $Ax + By + C = 0$ Two lines $A_1x + B_1y + C_1 = 0$ and $A_2x + B_2y + C_2 = 0$
 Are parallel if and only if:
 
 $$
@@ -214,9 +214,9 @@ $$
 
 <details>
 <summary>Examples</summary>
-- Find the equation of the line through $(1, -2)$ parallel to $2x - 3y + 5 = 0$: The gradient of the given line is $m = \frac{2}{3}$. The parallel line is $y + 2 = \frac{2}{3}(x - 1)$I.e., $2x - 3y - 8 = 0$.
-- Find the equation of the line through $(3, 1)$ perpendicular to $4x + y - 7 = 0$: The gradient of the given line is $m_1 = -4$ So $m_2 = \frac{1}{4}$. The perpendicular line is $y - 1 = \frac{1}{4}(x - 3)$I.e., $x - 4y + 1 = 0$.
-- Determine whether $3x + 2y - 1 = 0$ and $6x + 4y + 5 = 0$ are parallel: Since $\frac{3}{6} = \frac{2}{4} = \frac{1}{2} \neq \frac{-1}{5}$The lines are parallel but not coincident.
+- Find the equation of the line through $(1, -2)$ parallel to $2x - 3y + 5 = 0$: The gradient of the given line is $m = \frac{2}{3}$. The parallel line is $y + 2 = \frac{2}{3}(x - 1)$ I.e., $2x - 3y - 8 = 0$.
+- Find the equation of the line through $(3, 1)$ perpendicular to $4x + y - 7 = 0$: The gradient of the given line is $m_1 = -4$ So $m_2 = \frac{1}{4}$. The perpendicular line is $y - 1 = \frac{1}{4}(x - 3)$ I.e., $x - 4y + 1 = 0$.
+- Determine whether $3x + 2y - 1 = 0$ and $6x + 4y + 5 = 0$ are parallel: Since $\frac{3}{6} = \frac{2}{4} = \frac{1}{2} \neq \frac{-1}{5}$ The lines are parallel but not coincident.
 
 ### Intersection of Two Lines
 
@@ -269,9 +269,9 @@ $\left(\frac{D}{2}\right)^2 + \left(\frac{E}{2}\right)^2 - F > 0$.
 
 <details>
 <summary>Examples</summary>
-- Find the centre and radius of $x^2 + y^2 - 6x + 4y - 12 = 0$: Completing squares, $(x-3)^2 + (y+2)^2 = 25$. Centre $(3, -2)$Radius $5$.
+- Find the centre and radius of $x^2 + y^2 - 6x + 4y - 12 = 0$: Completing squares, $(x-3)^2 + (y+2)^2 = 25$. Centre $(3, -2)$ Radius $5$.
 - Find the equation of the circle with centre $(-1, 4)$ and radius $3$: $(x+1)^2 + (y-4)^2 = 9$.
-- Find the equation of the circle with diameter endpoints $A(2, 3)$ and $B(8, 7)$: Centre is $M(5, 5)$Radius is $\frac{1}{2}\sqrt{(8-2)^2 + (7-3)^2} = \frac{1}{2}\sqrt{52} = \sqrt{13}$. Equation: $(x-5)^2 + (y-5)^2 = 13$.
+- Find the equation of the circle with diameter endpoints $A(2, 3)$ and $B(8, 7)$: Centre is $M(5, 5)$ Radius is $\frac{1}{2}\sqrt{(8-2)^2 + (7-3)^2} = \frac{1}{2}\sqrt{52} = \sqrt{13}$. Equation: $(x-5)^2 + (y-5)^2 = 13$.
 
 ### Finding the Equation of a Circle from Conditions
 
@@ -285,7 +285,7 @@ The equation of a circle can be determined when given:
 ### Intersection of a Line and a Circle
 
 To find the points of intersection of the line $y = mx + c$ and the circle
-$(x-a)^2 + (y-b)^2 = r^2$Substitute the line equation into the circle equation to obtain a Quadratic
+$(x-a)^2 + (y-b)^2 = r^2$ Substitute the line equation into the circle equation to obtain a Quadratic
 in $x$ (or $y$). The discriminant $\Delta = b^2 - 4ac$ determines the nature of Intersection:
 
 | Discriminant | Intersection                 |
@@ -332,8 +332,8 @@ $$
 
 </details>
 <summary>Examples</summary>
-- Find the equation of the tangent to $x^2 + y^2 = 25$ at $P(3, 4)$: The radius gradient is $\frac{4}{3}$ So the tangent gradient is $-\frac{3}{4}$. Equation: $y - 4 = -\frac{3}{4}(x - 3)$I.e., $3x + 4y - 25 = 0$. Alternatively, using the formula: $3x + 4y = 25$.
-- Determine whether the line $3x - 4y + 10 = 0$ is tangent to $(x-1)^2 + (y+2)^2 = 9$: Substitute $y = \frac{3x+10}{4}$ into the circle. The resulting quadratic has discriminant $\Delta = 0$Confirming tangency.
+- Find the equation of the tangent to $x^2 + y^2 = 25$ at $P(3, 4)$: The radius gradient is $\frac{4}{3}$ So the tangent gradient is $-\frac{3}{4}$. Equation: $y - 4 = -\frac{3}{4}(x - 3)$ I.e., $3x + 4y - 25 = 0$. Alternatively, using the formula: $3x + 4y = 25$.
+- Determine whether the line $3x - 4y + 10 = 0$ is tangent to $(x-1)^2 + (y+2)^2 = 9$: Substitute $y = \frac{3x+10}{4}$ into the circle. The resulting quadratic has discriminant $\Delta = 0$ Confirming tangency.
 
 ## 2D Measurements
 
@@ -347,7 +347,7 @@ $$
 \end{aligned}
 $$
 
-Using the [Heron"s formula](https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry/)) for a triangle with side lengths $a$$b$$c$ and
+Using the [Heron's formula](https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry/)) for a triangle with side lengths $a$$b$$c$ and
 Semi-perimeter $s = \frac{a+b+c}{2}$:
 
 $$
@@ -547,7 +547,7 @@ $$
 - Midpoint: $M = \left(\frac{3+7}{2}, \frac{-1+5}{2}\right) = (5, 2)$.
 - Gradient of $AB$: $m_{AB} = \frac{5 - (-1)}{7 - 3} = \frac{3}{2}$.
 - Gradient of perpendicular bisector: $m = -\frac{2}{3}$.
-- Equation: $y - 2 = -\frac{2}{3}(x - 5)$I.e., $2x + 3y - 16 = 0$.
+- Equation: $y - 2 = -\frac{2}{3}(x - 5)$ I.e., $2x + 3y - 16 = 0$.
 
 1. **Question:** Find the equation of the circle passing through the three points $A(0, 0)$
 $B(4, 0)$ And $C(0, 3)$.
@@ -559,9 +559,9 @@ $B(4, 0)$ And $C(0, 3)$.
 - Substituting $A(0,0)$: $F = 0$.
 - Substituting $B(4,0)$: $16 + 4D = 0 \implies D = -4$.
 - Substituting $C(0,3)$: $9 + 3E = 0 \implies E = -3$.
-- Equation: $x^2 + y^2 - 4x - 3y = 0$I.e.,
+- Equation: $x^2 + y^2 - 4x - 3y = 0$ I.e.,
   $(x-2)^2 + \left(y - \frac{3}{2}\right)^2 = \frac{25}{4}$.
-- Centre $\left(2, \frac{3}{2}\right)$Radius $\frac{5}{2}$.
+- Centre $\left(2, \frac{3}{2}\right)$ Radius $\frac{5}{2}$.
 
 1. **Question:** The line $y = 2x + k$ is tangent to the circle $x^2 + y^2 - 4x - 2y + 1 = 0$. Find
 The value(s) of $k$.
@@ -588,7 +588,7 @@ Chord length is $20\mathrm{ cm}$.
 - Arc length $l = r\theta$: $16\pi = 12\theta \implies \theta = \frac{4\pi}{3}$ rad.
 - Area of sector:
   $A = \frac{1}{2}r^2\theta = \frac{1}{2}(144)\left(\frac{4\pi}{3}\right) = 96\pi \mathrm{ cm}^2$.
-- Area of triangle formed by the radii and chord: Using the chord length $c = 20$The triangle has
+- Area of triangle formed by the radii and chord: Using the chord length $c = 20$ The triangle has
   sides $12$$12$$20$. Semi-perimeter $s = 22$. By Heron's formula: Area
   $= \sqrt{22 \times 10 \times 10 \times 2} = \sqrt{4400} = 20\sqrt{11} \mathrm{ cm}^2$.
 - Alternatively, the perpendicular from centre to chord: $h = \sqrt{12^2 - 10^2} = 2\sqrt{11}$.
@@ -601,7 +601,7 @@ $x + y + z = 1$.
 </details>
 <summary>Answer</summary>
 
-- Direction vector of the line: $\mathbf{d} = (4-1, 5-2, 6-3) = (3, 3, 3)$Simplified to $(1, 1, 1)$.
+- Direction vector of the line: $\mathbf{d} = (4-1, 5-2, 6-3) = (3, 3, 3)$ Simplified to $(1, 1, 1)$.
 - Normal of the plane: $\mathbf{n} = (1, 1, 1)$.
 - The angle $\alpha$ between $\mathbf{d}$ and $\mathbf{n}$:
   $\cos\alpha = \frac{|1+1+1|}{\sqrt{3}\sqrt{3}} = \frac{3}{3} = 1$ So $\alpha = 0^\circ$.
@@ -610,7 +610,7 @@ $x + y + z = 1$.
 - The line is parallel to the plane (perpendicular to the normal).
 
 1. **Question:** Points $A(1, 2)$$B(4, 6)$ And $C(7, 4)$ are vertices of a triangle. Find the
-Equation of the altitude from $A$ to $BC$The area of triangle $ABC$ And the length of the Altitude
+Equation of the altitude from $A$ to $BC$ The area of triangle $ABC$ And the length of the Altitude
 from $A$.
 
 <details>
@@ -618,7 +618,7 @@ from $A$.
 
 - Gradient of $BC$: $m_{BC} = \frac{4-6}{7-4} = -\frac{2}{3}$.
 - Gradient of altitude from $A$: $m = \frac{3}{2}$ (negative reciprocal).
-- Equation of altitude: $y - 2 = \frac{3}{2}(x - 1)$I.e., $3x - 2y + 1 = 0$.
+- Equation of altitude: $y - 2 = \frac{3}{2}(x - 1)$ I.e., $3x - 2y + 1 = 0$.
 - Area of $\triangle ABC$:
   $\frac{1}{2}|1(6-4) + 4(4-2) + 7(2-6)| = \frac{1}{2}|2 + 8 - 28| = \frac{1}{2}(18) = 9$ square
   units.
@@ -632,13 +632,13 @@ Through $(1, 4)$.
 </details>
 <summary>Answer</summary>
 
-- Since the circle touches the $x$-axis at $(3, 0)$The centre lies on the vertical line $x = 3$ so
+- Since the circle touches the $x$-axis at $(3, 0)$ The centre lies on the vertical line $x = 3$ so
   the centre is $C(3, r)$ where $r$ is the radius.
 - The circle equation is $(x-3)^2 + (y-r)^2 = r^2$.
 - Substituting $(1, 4)$: $(1-3)^2 + (4-r)^2 = r^2$.
 - $4 + 16 - 8r + r^2 = r^2 \implies 20 - 8r = 0 \implies r = \frac{5}{2}$.
-- Centre: $(3, \frac{5}{2})$Radius: $\frac{5}{2}$.
-- Equation: $(x-3)^2 + \left(y - \frac{5}{2}\right)^2 = \frac{25}{4}$I.e.,
+- Centre: $(3, \frac{5}{2})$ Radius: $\frac{5}{2}$.
+- Equation: $(x-3)^2 + \left(y - \frac{5}{2}\right)^2 = \frac{25}{4}$ I.e.,
   $x^2 + y^2 - 6x - 5y + 9 = 0$.
 
 1. **Question:** The vertices of a triangle are $A(2, 1, -1)$$B(0, 3, -4)$ And $C(5, 0, 2)$. Find (a)
@@ -668,7 +668,7 @@ Chord $AB$ and the coordinates of $A$ and $B$.
 <summary>Answer</summary>
 
 - Common chord: Subtract the two equations: $(-4x + 2y - 4) - (2x - 6y + 6) = 0$.
-- $-6x + 8y - 10 = 0$I.e., $3x - 4y + 5 = 0$.
+- $-6x + 8y - 10 = 0$ I.e., $3x - 4y + 5 = 0$.
 - From $C_1$: $(x-2)^2 + (y+1)^2 = 9$. Substitute $y = \frac{3x+5}{4}$:
 - $(x-2)^2 + \left(\frac{3x+5}{4} + 1\right)^2 = 9$.
 - $(x-2)^2 + \left(\frac{3x+9}{4}\right)^2 = 9$.
@@ -722,7 +722,7 @@ of a rectangle. Find the equation of the circle passing through all four vertice
   rectangle.
 - The circle through all four vertices (circumcircle) has centre at the intersection of the
   diagonals $(2, 1)$ and radius $= \frac{1}{2}AC = \sqrt{17}$.
-- Equation: $(x-2)^2 + (y-1)^2 = 17$I.e., $x^2 + y^2 - 4x - 2y - 12 = 0$.
+- Equation: $(x-2)^2 + (y-1)^2 = 17$ I.e., $x^2 + y^2 - 4x - 2y - 12 = 0$.
 
 </details>
 
@@ -839,7 +839,7 @@ $B(7, 8, 9)$.
 <details>
 <summary>Solution</summary>
 
-Direction vector of the line: $\mathbf{d} = (3, 3, 3)$Simplified to $(1, 1, 1)$.
+Direction vector of the line: $\mathbf{d} = (3, 3, 3)$ Simplified to $(1, 1, 1)$.
 
 Vector $\overrightarrow{AP} = (1 - 4, 2 - 5, 3 - 6) = (-3, -3, -3)$.
 
@@ -961,7 +961,7 @@ $h = k - 2 = 0$.
 
 Centre: $(0, 2)$. $r^2 = 0^2 + 2^2 = 4$.
 
-Equation: $x^2 + (y - 2)^2 = 4$Or $x^2 + y^2 - 4y = 0$.
+Equation: $x^2 + (y - 2)^2 = 4$ Or $x^2 + y^2 - 4y = 0$.
 
 </details>
 
@@ -1094,7 +1094,7 @@ $$
 d = \frac{|25|}{5} = 5
 $$
 
-Since $d = r = 5$The line is tangent to the circle (not a chord). There is no minor segment -- the
+Since $d = r = 5$ The line is tangent to the circle (not a chord). There is no minor segment -- the
 line touches the circle at exactly one point.
 
 The point of contact: the foot of the perpendicular from $(0,0)$ to $3x + 4y = 25$.

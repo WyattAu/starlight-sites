@@ -182,7 +182,7 @@ overcome the attractive force of $q_2$).
 
 **Question:**
 
-An electron (mass $9.11 \times 10^{-31}\,\text{kg}$Charge $-1.60 \times 10^{-19}\,\text{C}$) enters
+An electron (mass $9.11 \times 10^{-31}\,\text{kg}$ Charge $-1.60 \times 10^{-19}\,\text{C}$) enters
 the region between two parallel horizontal plates with velocity
 $3.0 \times 10^7\,\text{m}\,\text{s}^{-1}$ horizontally. The plates are $5.0\,\text{cm}$ long,
 separated by $2.0\,\text{cm}$ And have a potential difference of $400\,\text{V}$ across them (top
@@ -196,7 +196,7 @@ plate positive).
 
 **Solution:**
 
-(a) $E = V/d = 400/(2.0 \times 10^{-2}) = 2.0 \times 10^4\,\text{V}\,\text{m}^{-1}$Directed from the
+(a) $E = V/d = 400/(2.0 \times 10^{-2}) = 2.0 \times 10^4\,\text{V}\,\text{m}^{-1}$ Directed from the
 positive (top) plate to the negative (bottom) plate, i.e. Downward.
 
 (b) The electron (negative charge) experiences an upward force: $F = eE$
@@ -284,7 +284,7 @@ In terms of elementary charge: $n = q/e = 2.616 \times 10^{-19}/1.60 \times 10^{
 
 This is not exactly an integer, which means either the measurement has some uncertainty or the drop
 carries approximately 2 elementary charges. With the given values, the closest integer is
-$n = 2$Giving $q = 3.20 \times 10^{-19}\,\text{C}$. The discrepancy suggests experimental
+$n = 2$ Giving $q = 3.20 \times 10^{-19}\,\text{C}$. The discrepancy suggests experimental
 uncertainty.
 
 ---
@@ -341,7 +341,7 @@ $$
 C = 1.327 \times 10^{-10}\,\text{F} = 133\,\text{pF}
 $$
 
-The capacitance increased from $88.5\,\text{pF}$ to $133\,\text{pF}$A factor of 1.50.
+The capacitance increased from $88.5\,\text{pF}$ to $133\,\text{pF}$ A factor of 1.50.
 
 ---
 
@@ -358,7 +358,7 @@ The capacitance increased from $88.5\,\text{pF}$ to $133\,\text{pF}$A factor of 
 
 **Question:**
 
-The electric potential at a point in a region is given by $V = 3x^2 - 2xy + 4y\,\text{V}$Where $x$
+The electric potential at a point in a region is given by $V = 3x^2 - 2xy + 4y\,\text{V}$ Where $x$
 and $y$ are in metres.
 
 (a) Calculate the electric field components $E_x$ and $E_y$ at the point $(2, 1)$.
@@ -393,7 +393,7 @@ $\mathbf{E} \cdot \nabla V = (-10)(10) + (0)(0) = -100$
 
 $-|\mathbf{E}|^2 = -(10)^2 = -100$
 
-So $\mathbf{E} \cdot \nabla V = -|\mathbf{E}|^2$Confirming that $\mathbf{E}$ is perpendicular to the
+So $\mathbf{E} \cdot \nabla V = -|\mathbf{E}|^2$ Confirming that $\mathbf{E}$ is perpendicular to the
 equipotential (since $\nabla V$ is perpendicular to the equipotential, and
 $\mathbf{E} = -\nabla V$).
 

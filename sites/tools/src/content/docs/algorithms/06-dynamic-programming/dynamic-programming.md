@@ -256,7 +256,7 @@ def edit_distance(s1, s2):
 
 ### Knapsack Problem
 
-Given items with weights and values, and a knapsack with capacity $W$Maximise the total value
+Given items with weights and values, and a knapsack with capacity $W$ Maximise the total value
 Without exceeding the capacity.
 
 $$
@@ -476,7 +476,7 @@ def matrix_chain_order(dims):
 ### Burst Balloons
 
 Given `nums` where `nums[i]` is the value of the $i$-th balloon, burst all balloons to maximise
-Coins. When you burst balloon $i$You get `nums[left] * nums[i] * nums[right]` coins, where `left`
+Coins. When you burst balloon $i$ You get `nums[left] * nums[i] * nums[right]` coins, where `left`
 And `right` are the nearest unburst balloons.
 
 ```python
@@ -755,11 +755,11 @@ What parameters change in recursive calls, and those are your state variables.
 
 DP base cases are analogous to loop initialisation. Getting them wrong produces wrong answers for
 Small inputs that cascade into wrong answers for large inputs. Always test with the smallest
-Non-trivial input (e.g., $n = 1$Empty string, single element).
+Non-trivial input (e.g., $n = 1$ Empty string, single element).
 
 ### 3. Wrong Fill Order in Bottom-Up DP
 
-Bottom-up DP must fill the table in an order such that when computing $dp[state]$All states that
+Bottom-up DP must fill the table in an order such that when computing $dp[state]$ All states that
 $dp[state]$ depends on have already been computed. For interval DP, shorter intervals before longer.
 For 0/1 knapsack with space optimisation, iterate $w$ in reverse. Getting the fill order wrong
 Produces undefined behaviour (using uninitialised values).
@@ -767,7 +767,7 @@ Produces undefined behaviour (using uninitialised values).
 ### 4. Integer Overflow in DP
 
 DP values can grow exponentially (e.g., Fibonacci, counting paths in a grid). For $n = 100$
-$F_{100} \approx 3.5 \times 10^{20}$Which exceeds 64-bit range. Use arbitrary-precision integers
+$F_{100} \approx 3.5 \times 10^{20}$ Which exceeds 64-bit range. Use arbitrary-precision integers
 (Python's `int` is always arbitrary precision) or modular arithmetic when appropriate.
 
 ### 5. Confusing Subsequence with Subarray
@@ -886,7 +886,7 @@ def house_robber_tree(root):
 ### DP with Bitmask (Revisited)
 
 For problems where the state involves a subset of elements, bitmask DP provides a compact
-Representation. The state space is $O(2^n)$Limiting applicability to $n \le 20$.
+Representation. The state space is $O(2^n)$ Limiting applicability to $n \le 20$.
 
 **Assignment problem:** Assign $n$ workers to $n$ jobs with minimum total cost.
 

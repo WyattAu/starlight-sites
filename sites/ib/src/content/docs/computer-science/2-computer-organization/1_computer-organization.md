@@ -130,7 +130,7 @@ All data in a computer is represented using binary digits (bits), 0s and 1s.
 | 16   | 0 to 65,535        |
 | 32   | 0 to 4,294,967,295 |
 
-**Two"s complement** is used to represent both positive and negative integers:
+**Two's complement** is used to represent both positive and negative integers:
 
 | Bits | Range                           |
 | ---- | ------------------------------- |

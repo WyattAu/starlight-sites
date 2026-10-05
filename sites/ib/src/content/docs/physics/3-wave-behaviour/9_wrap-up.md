@@ -59,10 +59,10 @@ Determine the period of these small radial oscillations.
   $U_{\mathrm{eff}}(R+x) \approx U_{\mathrm{eff}}(R) + \frac{1}{2} U"'_{\mathrm{eff}}(R) x^2$.
 - So, $k_{\mathrm{eff}} = \frac{d^2U_{\mathrm{eff}}}{dr^2}$ evaluated at $r=R$.
 - $U''_{\mathrm{eff}}(r) = \frac{d}{dr}\left(\frac{GMm}{r^2} - \frac{L^2}{mr^3}\right) = -\frac{2GMm}{r^3} + \frac{3L^2}{mr^4}$.
-- At $r=R$We substitute $L^2 = GMm^2R$:
+- At $r=R$ We substitute $L^2 = GMm^2R$:
 - $k_{\mathrm{eff}} = -\frac{2GMm}{R^3} + \frac{3(GMm^2R)}{mR^4} = -\frac{2GMm}{R^3} + \frac{3GMm}{R^3} = \frac{GMm}{R^3}$.
 - **4. Find the Period of Oscillation:**
-- The effective restoring force is $F = -k_{\mathrm{eff}}x$Which is the definition of SHM.
+- The effective restoring force is $F = -k_{\mathrm{eff}}x$ Which is the definition of SHM.
 - The angular frequency of this SHM is
   $\omega_{\mathrm{osc}} = \sqrt{\frac{k_{\mathrm{eff}}}{m}} = \sqrt{\frac{GMm/R^3}{m}} = \sqrt{\frac{GM}{R^3}}$.
 - Notice that the orbital angular speed is
@@ -130,7 +130,7 @@ Conditions for nodes/antinodes in standing waves relative to a fixed boundary.
 Double slit with separation _d_ = 3.6 μm is placed. A) At what angle is the third minimum of the
 Single-slit diffraction pattern located? b) How many bright interference fringes from the double
 Slit appear within the central maximum of the single-slit diffraction pattern? c) If the amplitude
-Of the wave from the center of the single slit is $A_0$What is the approximate intensity of the
+Of the wave from the center of the single slit is $A_0$ What is the approximate intensity of the
 First-order double-slit fringe relative to the central double-slit fringe?
 
 <details>
@@ -139,7 +139,7 @@ First-order double-slit fringe relative to the central double-slit fringe?
 - **Strategy:** This problem overlays a double-slit interference pattern on top of a single-slit
   diffraction envelope.
 - **a) Third Single-Slit Minimum:**
-- The condition for minima in single-slit diffraction is $b \sin\theta = n\lambda$For
+- The condition for minima in single-slit diffraction is $b \sin\theta = n\lambda$ For
   $n=1, 2, 3, ...$.
 - For the third minimum, $n=3$.
 - $\sin\theta = \frac{3\lambda}{b} = \frac{3(600 \times 10^{-9})}{1.2 \times 10^{-6}} = 1.5$.
@@ -156,7 +156,7 @@ First-order double-slit fringe relative to the central double-slit fringe?
 - The central max spans from -30° to +30°.
 - Now find the angles of the double-slit bright fringes: $d \sin\theta_2 = m\lambda$.
 - $\sin\theta_2 = \frac{m\lambda}{d} = \frac{m(600)}{3600} = \frac{m}{6}$.
-- We need to find how many integer values of _m_ satisfy $|\sin\theta_2| < \sin\theta_1$Which is
+- We need to find how many integer values of _m_ satisfy $|\sin\theta_2| < \sin\theta_1$ Which is
   $|\frac{m}{6}| < 0.5$.
 - $|m| < 3$.
 - So, the allowed values for _m_ are -2, -1, 0, 1, 2.
@@ -354,7 +354,7 @@ The amount of diffraction depends on the relationship between the wavelength and
 
 ### Single-Slit Diffraction
 
-For a slit of width $b$The condition for **minima** (destructive interference) is:
+For a slit of width $b$ The condition for **minima** (destructive interference) is:
 
 $$
 b \sin\theta = n\lambda, \quad n = 1, 2, 3, \ldots
@@ -415,14 +415,14 @@ Relationship) and have the same frequency.
 
 ### Path Difference
 
-- **Constructive interference** (bright fringe / loud sound): path difference $= n\lambda$Where
+- **Constructive interference** (bright fringe / loud sound): path difference $= n\lambda$ Where
   $n = 0, 1, 2, \ldots$
 - **Destructive interference** (dark fringe / silence): path difference
-  $= (n + \frac{1}{2})\lambda$Where $n = 0, 1, 2, \ldots$
+  $= (n + \frac{1}{2})\lambda$ Where $n = 0, 1, 2, \ldots$
 
 ### Young's Double-Slit Experiment
 
-For two slits separated by distance $d$With the screen at distance $D$ from the slits:
+For two slits separated by distance $d$ With the screen at distance $D$ from the slits:
 
 $$
 \mathrm{Fringe spacing: } s = \frac{\lambda D}{d}
@@ -485,7 +485,7 @@ For a string of length $L$ fixed at both ends:
 | :------------------- | :------------ | :------------------------- | :--------------------------- |
 | Fundamental ($n=1$)  | One antinode  | $\lambda_1 = 2L$           | $f_1 = \frac{v}{2L}$         |
 | 2nd harmonic ($n=2$) | Two antinodes | $\lambda_2 = L$            | $f_2 = \frac{2v}{2L} = 2f_1$ |
-| $n$Th harmonic       | $n$ antinodes | $\lambda_n = \frac{2L}{n}$ | $f_n = \frac{nv}{2L} = nf_1$ |
+| $n$ Th harmonic       | $n$ antinodes | $\lambda_n = \frac{2L}{n}$ | $f_n = \frac{nv}{2L} = nf_1$ |
 
 The wave speed on a string under tension $T$ with mass per unit length $\mu$ is:
 
@@ -517,7 +517,7 @@ $$
 v = f_1 \times 2L = (330)(1.30) = 429 \mathrm{ m s}^{-1}
 $$
 
-If the string has a mass per unit length of $\mu = 3.5 \times 10^{-3} \mathrm{ kg m}^{-1}$What
+If the string has a mass per unit length of $\mu = 3.5 \times 10^{-3} \mathrm{ kg m}^{-1}$ What
 Tension is required?
 
 $$

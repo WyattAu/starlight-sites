@@ -121,7 +121,7 @@ Functional groups are specific groups of atoms within molecules that are respons
 Characteristic chemical reactions of those molecules. The reactivity of an organic compound is
 Determined almost entirely by its functional group(s).
 
-Electron-rich groups (nucleophilic sites): $-\mathrm{OH}$, $-\mathrm{NH}_2$C=C, benzene ring.
+Electron-rich groups (nucleophilic sites): $-\mathrm{OH}$, $-\mathrm{NH}_2$ C=C, benzene ring.
 
 Electron-deficient groups (electrophilic sites): C=O (carbonyl carbon), C$\equiv$N (nitrile carbon),
 $-\mathrm{COOH}$.
@@ -324,7 +324,7 @@ $\mathrm{I}^- \gt \mathrm{Br}^- \gt \mathrm{Cl}^- \gg \mathrm{F}^- \gg \mathrm{O
 $\mathrm{NH}_2^-$$\mathrm{CH}_3^-$.
 
 The trend follows basicity (weaker base = better leaving group) and the stability of the conjugate
-Acid. Water ($\mathrm{H}_2\mathrm{O}$) is a much better leaving group than $-\mathrm{OH}$Which is
+Acid. Water ($\mathrm{H}_2\mathrm{O}$) is a much better leaving group than $-\mathrm{OH}$ Which is
 Why acid catalysis is often used to protonate $-\mathrm{OH}$ groups before substitution or
 Elimination.
 
@@ -434,7 +434,7 @@ pair of enantiomers: (2R)-3-chloro-2-methylpentane and (2S)-3-chloro-2-methylpen
 ### Rules for Drawing Curly Arrows
 
 1. **Curly arrows show the movement of electron pairs.** A full-headed arrow ($\curvearrowright$)
-   shows movement of a pair of electrons. A half-headed arrow ($\hookrightarrow$Fishhook) shows
+   shows movement of a pair of electrons. A half-headed arrow ($\hookrightarrow$ Fishhook) shows
    movement of a single electron (used in radical mechanisms).
 
 2. **Arrows start from electron-rich sites:** lone pairs, pi bonds, sigma bonds, or negative
@@ -461,7 +461,7 @@ $$
 \mathrm{C}=\mathrm{C} \curvearrowright \mathrm{E}^+
 $$
 
-**Proton transfer:** Arrow from a lone pair to $\mathrm{H}^+$Or from a bond to $\mathrm{H}$ (to
+**Proton transfer:** Arrow from a lone pair to $\mathrm{H}^+$ Or from a bond to $\mathrm{H}$ (to
 break it).
 
 $$
@@ -560,19 +560,19 @@ modules:
 | Alkene          | Alcohol             | $\mathrm{H}_3\mathrm{PO}_4$ / steam, $300^\circ\mathrm{C}$                 | Electrophilic addition                      |
 | Alkene          | Diol                | Cold dilute $\mathrm{KMnO}_4$                                              | Oxidation                                   |
 | Alkane          | Halogenoalkane      | $\mathrm{Cl}_2$ / UV                                                       | Free radical substitution                   |
-| Alcohol         | Halogenoalkane      | $\mathrm{PBr}_3$$\mathrm{SOCl}_2$Or HX                                     | Substitution                                |
+| Alcohol         | Halogenoalkane      | $\mathrm{PBr}_3$$\mathrm{SOCl}_2$ Or HX                                     | Substitution                                |
 | Alcohol         | Aldehyde            | Distillation with $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ / $\mathrm{H}^+$ | Oxidation                                   |
 | Alcohol         | Carboxylic acid     | Reflux with $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ / $\mathrm{H}^+$       | Oxidation                                   |
 | Alcohol         | Alkene              | $\mathrm{H}_2\mathrm{SO}_4$$170^\circ\mathrm{C}$                           | Elimination (dehydration)                   |
 | Alcohol         | Ester               | Carboxylic acid / $\mathrm{H}_2\mathrm{SO}_4$ reflux                       | Esterification                              |
-| Halogenoalkane  | Alcohol             | $\mathrm{NaOH}(aq)$Heat                                                    | Nucleophilic substitution (SN2/SN1)         |
+| Halogenoalkane  | Alcohol             | $\mathrm{NaOH}(aq)$ Heat                                                    | Nucleophilic substitution (SN2/SN1)         |
 | Halogenoalkane  | Alkene              | $\mathrm{NaOH}$ in ethanol, heat                                           | Elimination (E2/E1)                         |
 | Halogenoalkane  | Nitrile             | $\mathrm{KCN}$ in ethanol                                                  | Nucleophilic substitution                   |
 | Halogenoalkane  | Amine               | Excess $\mathrm{NH}_3$                                                     | Nucleophilic substitution                   |
 | Halogenoalkane  | Amine (primary)     | Phthalimide / $\mathrm{KOH}$ (Gabriel)                                     | Nucleophilic substitution                   |
 | Halogenoalkane  | Ether               | Alkoxide ($\mathrm{RO}^-\mathrm{Na}^+$)                                    | Williamson synthesis (SN2)                  |
 | Nitrile         | Primary amine       | $\mathrm{LiAlH}_4$ then $\mathrm{H}_2\mathrm{O}$                           | Reduction                                   |
-| Nitrile         | Carboxylic acid     | $\mathrm{H}_3\mathrm{O}^+$Reflux                                           | Hydrolysis                                  |
+| Nitrile         | Carboxylic acid     | $\mathrm{H}_3\mathrm{O}^+$ Reflux                                           | Hydrolysis                                  |
 | Amide           | Amine               | $\mathrm{LiAlH}_4$ then $\mathrm{H}_2\mathrm{O}$                           | Reduction                                   |
 | Amide           | Carboxylic acid     | $\mathrm{HCl}$ reflux or $\mathrm{NaOH}$ reflux                            | Hydrolysis                                  |
 | Aldehyde        | Primary alcohol     | $\mathrm{NaBH}_4$ then $\mathrm{H}^+$                                      | Nucleophilic addition                       |
@@ -635,15 +635,15 @@ data.
 ### Step 5: Mass Spectrometry -- Confirm and Find Fragments
 
 The molecular ion confirms the molecular mass. Fragment peaks provide information about
-substructures (e.g. Loss of 15 = $\mathrm{CH}_3$Loss of 17 = $\mathrm{OH}$Loss of 29 =
-$\mathrm{CHO}$ or $\mathrm{C}_2\mathrm{H}_5$Loss of 31 = $\mathrm{OCH}_3$Loss of 45 =
+substructures (e.g. Loss of 15 = $\mathrm{CH}_3$ Loss of 17 = $\mathrm{OH}$ Loss of 29 =
+$\mathrm{CHO}$ or $\mathrm{C}_2\mathrm{H}_5$ Loss of 31 = $\mathrm{OCH}_3$ Loss of 45 =
 $\mathrm{COOH}$).
 
 ### Worked Example: Complete Structure Determination
 
 An unknown compound has:
 
-- Mass spec: $M^+ = 120$M+1 peak approximately $7.7\%$ of $M^+$
+- Mass spec: $M^+ = 120$ M+1 peak approximately $7.7\%$ of $M^+$
 - IR: $1705\,\mathrm{cm}^{-1}$ (strong), $2850$--$2950\,\mathrm{cm}^{-1}$ (strong), no O--H, no C--O
 - $^1\mathrm{H}$ NMR: $\delta\, 1.2$ (t, 6H), $\delta\, 2.9$ (q, 4H), $\delta\, 7.5$ (t, 2H),
   $\delta\, 7.9$ (d, 2H)
@@ -676,7 +676,7 @@ $\delta\, 1.2$ suggest two ethyl groups.
 
 **Structure:** 1,4-diacetylbenzene or 4-ethoxyacetophenone, etc. The correct structure consistent
 with all data is **1-phenylpropan-1-one** (propiophenone) if we have 5 aromatic protons... But we
-only have 4 aromatic protons. With $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$DoU = 5, a benzene ring (4
+only have 4 aromatic protons. With $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$ DoU = 5, a benzene ring (4
 unsaturations) plus C=O: para-ethylacetophenone
 ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{C}_6\mathrm{H}_4\mathrm{COCH}_3$) =
 $\mathrm{C}_9\mathrm{H}_{10}\mathrm{O}$ (wrong formula).
@@ -691,14 +691,14 @@ acetophenone would have 5 aromatic protons and a $\mathrm{CH}_3$ singlet, not ma
 triplet/quartet pattern.
 
 **Correct answer:** The NMR pattern (t, 6H; q, 4H) is characteristic of a diethyl ketone fragment.
-With $M = 120$ and $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$The structure is **phenacyl ethyl ether**
+With $M = 120$ and $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$ The structure is **phenacyl ethyl ether**
 ($\mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_2\mathrm{CH}_3$) = butyrophenone. But this is
 $\mathrm{C}_{10}\mathrm{H}_{12}\mathrm{O}$...
 
 The key insight: with triplet (6H) and quartet (4H), there are two $-\mathrm{CH}_2\mathrm{CH}_3$
 groups. With 4 aromatic protons (1,4-disubstituted), C=O, and formula
-$\mathrm{C}_8\mathrm{H}_8\mathrm{O}$The molecule is too small. The formula must be reconsidered:
-$\mathrm{C}_9\mathrm{H}_{12}\mathrm{O}$ has $M = 136$. With $M = 120$The only option with two ethyl
+$\mathrm{C}_8\mathrm{H}_8\mathrm{O}$ The molecule is too small. The formula must be reconsidered:
+$\mathrm{C}_9\mathrm{H}_{12}\mathrm{O}$ has $M = 136$. With $M = 120$ The only option with two ethyl
 groups is not possible with $\mathrm{C}_8\mathrm{H}_8\mathrm{O}$.
 
 This example illustrates the importance of cross-checking all data. In an exam, if the data are
@@ -842,13 +842,13 @@ Lactic acid is **$(S)$-lactic acid** (L-(+)-lactic acid).
 | **Electrophilic substitution**          | Electrophile replaces H on aromatic ring        | $\mathrm{Br}^+$$\mathrm{NO}_2^+$$\mathrm{CH}_3\mathrm{CO}^+$                    | Benzene $\to$ bromobenzene                            |
 | **Elimination** (E1/E2)                 | Loss of small molecule to form C=C              | Base in ethanol, $\Delta$                                                       | Halogenoalkane $\to$ alkene                           |
 | **Nucleophilic addition**               | Nucleophile adds to C=O                         | $\mathrm{NaBH}_4$$\mathrm{LiAlH}_4$$\mathrm{HCN}$                               | Aldehyde $\to$ alcohol                                |
-| **Nucleophilic addition-elimination**   | Addition to C=O followed by loss                | $\mathrm{NH}_3$$\mathrm{H}_2\mathrm{O}$Alcohols                                 | Acyl chloride $\to$ amide                             |
-| **Oxidation**                           | Increase in O:C ratio or loss of H              | $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7/\mathrm{H}^+$Acidified $\mathrm{KMnO}_4$ | Primary alcohol $\to$ aldehyde $\to$ acid             |
+| **Nucleophilic addition-elimination**   | Addition to C=O followed by loss                | $\mathrm{NH}_3$$\mathrm{H}_2\mathrm{O}$ Alcohols                                 | Acyl chloride $\to$ amide                             |
+| **Oxidation**                           | Increase in O:C ratio or loss of H              | $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7/\mathrm{H}^+$ Acidified $\mathrm{KMnO}_4$ | Primary alcohol $\to$ aldehyde $\to$ acid             |
 | **Reduction**                           | Decrease in O:C ratio or gain of H              | $\mathrm{NaBH}_4$$\mathrm{LiAlH}_4$$\mathrm{H}_2$/Ni                            | Aldehyde $\to$ primary alcohol                        |
 | **Hydrolysis**                          | Reaction with water (often base/acid-catalysed) | $\mathrm{NaOH}(\mathrm{aq})$$\mathrm{H}^+(\mathrm{aq})$                         | Ester $\to$ acid + alcohol                            |
 | **Condensation**                        | Two molecules join with loss of small molecule  | Concentrated $\mathrm{H}_2\mathrm{SO}_4$$\Delta$                                | Alcohol + acid $\to$ ester + $\mathrm{H}_2\mathrm{O}$ |
 | **Free radical substitution**           | Atom replaced via radical chain                 | $\mathrm{Cl}_2/h\nu$$\mathrm{Br}_2/h\nu$                                        | Alkane $\to$ haloalkane                               |
-| **Free radical addition**               | Radicals add across C=C                         | $\mathrm{HF}$Peroxides, $\Delta$                                                | Anti-Markovnikov alkene addition                      |
+| **Free radical addition**               | Radicals add across C=C                         | $\mathrm{HF}$ Peroxides, $\Delta$                                                | Anti-Markovnikov alkene addition                      |
 
 ### Structural Isomerism: Complete Classification
 
@@ -992,7 +992,7 @@ $\mathrm{CH}_3\mathrm{CH}=\mathrm{CH}\mathrm{CH}_3 + \mathrm{Br}_2 \to \mathrm{C
 
 (a) Mechanism (3 marks):
 
-- The $\pi$ electrons of the C=C attack one Br atom in $\mathrm{Br}_2$Forming a C--Br bond and
+- The $\pi$ electrons of the C=C attack one Br atom in $\mathrm{Br}_2$ Forming a C--Br bond and
   heterolytically cleaving the Br--Br bond (the arrow goes from the $\pi$ bond to one Br, and
   another arrow goes from the Br--Br bond to the other Br, forming $\mathrm{Br}^-$) (2 marks).
 - The $\mathrm{Br}^-$ ion then attacks the carbocation from the opposite side (back-side attack),

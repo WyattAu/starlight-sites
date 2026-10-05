@@ -83,7 +83,7 @@ carbonate the drink or be released.
 **Question:** (a) Define the term "limiting factor". (b) Explain how light intensity, CO$_2$
 concentration, and temperature affect the rate of photosynthesis. (c) A farmer wants to increase
 crop yields in a greenhouse. Suggest three methods, explaining the biology behind each. (d) Explain
-why increasing temperature above $25^\circ$C does not continue to increase the rate of
+why increasing temperature above $25^\circ$ C does not continue to increase the rate of
 photosynthesis.
 
 **Solution:**
@@ -101,7 +101,7 @@ Increasing CO$_2$ increases the rate until another factor limits. At very high C
 temperature becomes limiting.
 
 **Temperature:** Increasing temperature increases the rate of enzyme-controlled reactions in
-photosynthesis (up to the optimum). Above the optimum ($\approx 25$--$30^\circ$C), enzymes begin to
+photosynthesis (up to the optimum). Above the optimum ($\approx 25$--$30^\circ$ C), enzymes begin to
 denature and the rate decreases.
 
 (c) Three methods: (1) **Artificial lighting** -- extends the hours of photosynthesis beyond
@@ -110,7 +110,7 @@ greenhouse increases the concentration above atmospheric levels, making CO$_2$ l
 limiting. (3) **Temperature control** -- heating in winter and ventilation in summer maintain the
 optimum temperature for photosynthetic enzymes.
 
-(d) Above $25^\circ$C, the enzymes involved in photosynthesis (particularly RuBisCO in the Calvin
+(d) Above $25^\circ$ C, the enzymes involved in photosynthesis (particularly RuBisCO in the Calvin
 cycle) begin to denature. The active site changes shape, reducing the enzyme"s ability to catalyse
 the reaction. Additionally, at higher temperatures, water loss through stomata increases. The guard
 cells close the stomata to conserve water, but this reduces CO$_2$ entry, further limiting

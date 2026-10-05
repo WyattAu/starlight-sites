@@ -191,7 +191,7 @@ without bound, albeit slowly -- $\ln n$).
 
 $\sum_{n=1}^{\infty} \frac{(-1)^n}{n} = -1 + \frac{1}{2} - \frac{1}{3} + \frac{1}{4} - \cdots$ is an
 alternating series with terms $a_n = 1/n$ that decrease to 0. By the alternating series test, it
-converges (to $-\ln 2$). The partial sums oscillate above and below $-\ln 2$With the amplitude of
+converges (to $-\ln 2$). The partial sums oscillate above and below $-\ln 2$ With the amplitude of
 oscillation decreasing.
 
 ## Common Mistakes

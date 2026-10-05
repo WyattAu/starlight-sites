@@ -140,7 +140,7 @@ $$
 s^2 = \frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2 = \frac{\sum x_i^2 - n\bar{x}^2}{n-1}
 $$
 
-The division by $n-1$ (Bessel"s correction) accounts for the fact that $\bar{x}$ is estimated from
+The division by $n-1$ (Bessel's correction) accounts for the fact that $\bar{x}$ is estimated from
 The same data, losing one degree of freedom.
 
 <hr />
@@ -477,7 +477,7 @@ the class.
 
 <details>
 <summary>Problem 1</summary>
-For the dataset $\{3, 5, 7, 2, 8, 4, 6, 5\}$Find the mean, median, and mode.
+For the dataset $\{3, 5, 7, 2, 8, 4, 6, 5\}$ Find the mean, median, and mode.
 </details>
 
 <details>
@@ -531,12 +531,12 @@ $\sigma_y = \sigma_x/5 = 3 \implies \sigma_x = 15$.
 
 <details>
 <summary>Problem 4</summary>
-For the ordered dataset $\{2, 3, 5, 7, 8, 11, 14, 18, 23\}$Find $Q_1$, $Q_2$, $Q_3$ And the IQR. Identify any outliers.
+For the ordered dataset $\{2, 3, 5, 7, 8, 11, 14, 18, 23\}$ Find $Q_1$, $Q_2$, $Q_3$ And the IQR. Identify any outliers.
 </details>
 
 <details>
 <summary>Solution 4</summary>
-$n = 9$ (odd). $Q_2 = 5$Th value $= 8$.
+$n = 9$ (odd). $Q_2 = 5$ Th value $= 8$.
 
 Lower half: $\{2, 3, 5, 7\}$. $Q_1 = (3+5)/2 = 4$. Upper half: $\{11, 14, 18, 23\}$.
 $Q_3 = (14+18)/2 = 16$.
@@ -647,7 +647,7 @@ Explain why the median is preferred to the mean for measuring average income in 
 
 <details>
 <summary>Solution 10</summary>
-Income distributions are right-skewed, a small number of very high earners pull the mean upward. The median, being the middle value, is unaffected by extreme values and gives a more representative "typical" income. For example, if one billionaire lives in a village of 1000 people earning $30\,000$The mean would be vastly inflated while the median would remain close to $30\,000$.
+Income distributions are right-skewed, a small number of very high earners pull the mean upward. The median, being the middle value, is unaffected by extreme values and gives a more representative "typical" income. For example, if one billionaire lives in a village of 1000 people earning $30\,000$ The mean would be vastly inflated while the median would remain close to $30\,000$.
 
 **If you get this wrong, revise:** [Comparing Measures](#15-comparing-measures), Section 1.5.
 
@@ -655,14 +655,14 @@ Income distributions are right-skewed, a small number of very high earners pull 
 
 <details>
 <summary>Problem 11</summary>
-For the dataset $\{2, 4, 5, 6, 7, 8, 12, 15, 28\}$Find $Q_1$, $Q_2$, $Q_3$, $\bar{x}$ And $\sigma$. Hence calculate Pearson's first coefficient of skewness and interpret the result.
+For the dataset $\{2, 4, 5, 6, 7, 8, 12, 15, 28\}$ Find $Q_1$, $Q_2$, $Q_3$, $\bar{x}$ And $\sigma$. Hence calculate Pearson's first coefficient of skewness and interpret the result.
 </details>
 
 <details>
 <summary>Solution 11</summary>
 $n = 9$. Ordered data: $\{2, 4, 5, 6, 7, 8, 12, 15, 28\}$.
 
-$Q_2 = 5$Th value $= 7$.
+$Q_2 = 5$ Th value $= 7$.
 
 Lower half: $\{2, 4, 5, 6\}$. $Q_1 = (4+5)/2 = 4.5$. Upper half: $\{8, 12, 15, 28\}$.
 $Q_3 = (12+15)/2 = 13.5$.
@@ -678,7 +678,7 @@ $$
 S_1 = \frac{3(9.67 - 7)}{7.49} = \frac{3 \times 2.67}{7.49} = \frac{8.01}{7.49} \approx 1.07
 $$
 
-Since $S_1 \gt 0$The distribution is positively skewed. This is consistent with the right tail
+Since $S_1 \gt 0$ The distribution is positively skewed. This is consistent with the right tail
 Produced by the value 28.
 
 **If you get this wrong, revise:** [Skewness](#6-skewness), Section 6.
@@ -687,7 +687,7 @@ Produced by the value 28.
 
 <details>
 <summary>Problem 12</summary>
-A box plot shows: minimum = 5, $Q_1 = 12$$Q_2 = 18$$Q_3 = 25$Maximum = 34, with one outlier
+A box plot shows: minimum = 5, $Q_1 = 12$$Q_2 = 18$$Q_3 = 25$ Maximum = 34, with one outlier
 At 42. Calculate the IQR, the upper fence, and describe the skewness of the distribution.
 </details>
 
@@ -729,7 +729,7 @@ Compare the distributions of the two classes.
 Class A: $\{43, 47, 49, 54, 55, 58, 60, 62, 66, 74\}$. $n = 10$.
 Median $= (55 + 58)/2 = 56.5$. Range $= 74 - 43 = 31$.
 
-Class B: $\{41, 42, 45, 50, 53, 56, 58, 61, 64, 67, 72, 75, 79, 83, 86\}$. $n = 15$. Median $= 8$Th
+Class B: $\{41, 42, 45, 50, 53, 56, 58, 61, 64, 67, 72, 75, 79, 83, 86\}$. $n = 15$. Median $= 8$ Th
 Value $= 61$. Range $= 86 - 41 = 45$.
 
 Comparison:
@@ -763,20 +763,20 @@ Linear interpolation:
 <summary>Solution 14</summary>
 $n = 60$.
 
-**Median** ($n/2 = 30$Th value). Cumulative frequencies: 8, 23, 45, 55, 60. The 30th value falls in
+**Median** ($n/2 = 30$ Th value). Cumulative frequencies: 8, 23, 45, 55, 60. The 30th value falls in
 The class $30 \lt x \le 40$.
 
 $$
 Q_2 = 30 + \left(\frac{60}{2} - 23\right) \cdot \frac{10}{22} = 30 + (30 - 23) \cdot \frac{10}{22} = 30 + 7 \cdot \frac{10}{22} = 30 + \frac{70}{22} \approx 33.18
 $$
 
-**Lower quartile** ($n/4 = 15$Th value). The 15th value falls in $20 \lt x \le 30$.
+**Lower quartile** ($n/4 = 15$ Th value). The 15th value falls in $20 \lt x \le 30$.
 
 $$
 Q_1 = 20 + \left(15 - 8\right) \cdot \frac{10}{15} = 20 + 7 \cdot \frac{10}{15} = 20 + \frac{70}{15} \approx 24.67
 $$
 
-**Upper quartile** ($3n/4 = 45$Th value). The 45th value falls in $30 \lt x \le 40$.
+**Upper quartile** ($3n/4 = 45$ Th value). The 45th value falls in $30 \lt x \le 40$.
 
 $$
 Q_3 = 30 + \left(45 - 23\right) \cdot \frac{10}{22} = 30 + 22 \cdot \frac{10}{22} = 30 + 10 = 40
@@ -804,7 +804,7 @@ $$
 M = \frac{0.6745(48 - 12)}{4} = \frac{0.6745 \times 36}{4} = \frac{24.282}{4} = 6.07
 $$
 
-Since $|M| = 6.07 \gt 3.5$The value 48 is classified as an outlier by the modified z-score Method.
+Since $|M| = 6.07 \gt 3.5$ The value 48 is classified as an outlier by the modified z-score Method.
 
 **If you get this wrong, revise:** [Outliers in Depth](#7-outliers-in-depth), Section 7.2.
 
@@ -836,13 +836,13 @@ $$
 
 <details>
 <summary>Problem 17</summary>
-For the dataset $\{3, 5, 6, 7, 8, 9, 10, 12, 45\}$Compute both Pearson's first and second
+For the dataset $\{3, 5, 6, 7, 8, 9, 10, 12, 45\}$ Compute both Pearson's first and second
 Coefficients of skewness. Do they agree on the direction of skewness?
 </details>
 
 <details>
 <summary>Solution 17</summary>
-$n = 9$. $Q_2 = 5$Th value $= 8$.
+$n = 9$. $Q_2 = 5$ Th value $= 8$.
 
 Lower half: $\{3, 5, 6, 7\}$. $Q_1 = (5+6)/2 = 5.5$. Upper half: $\{9, 10, 12, 45\}$.
 $Q_3 = (10+12)/2 = 11$.

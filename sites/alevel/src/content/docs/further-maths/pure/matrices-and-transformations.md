@@ -33,7 +33,7 @@ Transformations, and many applications in science and engineering.
 ### 1.1 Definitions
 
 An $m \times n$ **matrix** $A$ is a rectangular array of numbers with $m$ rows and $n$ columns. The
-Entry in row $i$Column $j$ is written $a_{ij}$.
+Entry in row $i$ Column $j$ is written $a_{ij}$.
 
 **Addition.** If $A$ and $B$ are both $m \times n$ Then $(A + B)_{ij} = a_{ij} + b_{ij}$.
 
@@ -68,13 +68,13 @@ $AB \neq BA$. $\blacksquare$
 
 ### 1.3 The identity matrix
 
-The $n \times n$ **identity matrix** $I_n$ has $1$S on the main diagonal and $0$S elsewhere. For any
+The $n \times n$ **identity matrix** $I_n$ has $1$ S on the main diagonal and $0$ S elsewhere. For any
 $n \times n$ matrix $A$: $AI_n = I_n A = A$.
 
 ### 1.4 Worked example
 
 **Problem.** Given $A = \begin{pmatrix} 2 & -1 \\ 3 & 4 \end{pmatrix}$ and
-$B = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$Find $AB$ and $BA$.
+$B = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$ Find $AB$ and $BA$.
 
 $$
 AB = \begin{pmatrix} 2(1) + (-1)(-2) & 2(5) + (-1)(0) \\ 3(1) + 4(-2) & 3(5) + 4(0) \end{pmatrix} = \begin{pmatrix} 4 & 10 \\ -5 & 15 \end{pmatrix}
@@ -84,7 +84,7 @@ $$
 BA = \begin{pmatrix} 1(2) + 5(3) & 1(-1) + 5(4) \\ -2(2) + 0(3) & -2(-1) + 0(4) \end{pmatrix} = \begin{pmatrix} 17 & 19 \\ -4 & 2 \end{pmatrix}
 $$
 
-$AB \neq BA$Confirming non-commutativity.
+$AB \neq BA$ Confirming non-commutativity.
 
 <hr />
 
@@ -118,7 +118,7 @@ $$
 ### 2.4 Geometric interpretation
 
 For a $2 \times 2$ matrix, $|\det(A)|$ is the area scale factor of the transformation. If
-$\det(A) = 0$The transformation collapses the plane to a line or a point.
+$\det(A) = 0$ The transformation collapses the plane to a line or a point.
 
 For a $3 \times 3$ matrix, $|\det(A)|$ is the volume scale factor.
 
@@ -165,7 +165,7 @@ $$
 
 ### 3.3 Inverse of a 3x3 matrix
 
-**Method 1: Adjugate matrix.** $A^{-1} = \dfrac{1}{\det A}\,\mathrm{adj}(A)$Where the
+**Method 1: Adjugate matrix.** $A^{-1} = \dfrac{1}{\det A}\,\mathrm{adj}(A)$ Where the
 Adjugate is the transpose of the cofactor matrix.
 
 **Method 2: Row reduction.** Form the augmented matrix $[A \mid I]$ and apply row operations to
@@ -219,7 +219,7 @@ Key property: the origin is always mapped to the origin.
 
 ### 4.3 Combined transformations
 
-If transformation $A$ is followed by transformation $B$The combined transformation is $BA$.
+If transformation $A$ is followed by transformation $B$ The combined transformation is $BA$.
 
 **Proof.** If $\mathbf{v}' = A\mathbf{v}$ and $\mathbf{v}'' = B\mathbf{v}'$ Then
 $\mathbf{v}'' = B(A\mathbf{v}) = (BA)\mathbf{v}$. $\blacksquare$
@@ -240,7 +240,7 @@ Check: this is equivalent to a reflection in the line $y = -x$.
 
 ### 4.5 Invariant points and lines
 
-An **invariant point** satisfies $A\mathbf{x} = \mathbf{x}$I.e. $(A - I)\mathbf{x} = \mathbf{0}$.
+An **invariant point** satisfies $A\mathbf{x} = \mathbf{x}$ I.e. $(A - I)\mathbf{x} = \mathbf{0}$.
 
 An **invariant line** is a line that is mapped to itself (points on the line may move along the
 Line). If $\mathbf{v}$ is a direction vector of the line, then $A\mathbf{v} = \lambda\mathbf{v}$ for
@@ -252,7 +252,7 @@ Some scalar $\lambda$.
 
 ### 5.1 Definition
 
-For a square matrix $A$A scalar $\lambda$ and a non-zero vector $\mathbf{v}$ are an **eigenvalue**
+For a square matrix $A$ A scalar $\lambda$ and a non-zero vector $\mathbf{v}$ are an **eigenvalue**
 And **eigenvector** of $A$ if:
 
 $$
@@ -284,7 +284,7 @@ $\lambda_1 \lambda_2 = \det A$.
 
 ### 5.3 Finding eigenvectors
 
-For each eigenvalue $\lambda_i$Solve $(A - \lambda_i I)\mathbf{v} = \mathbf{0}$.
+For each eigenvalue $\lambda_i$ Solve $(A - \lambda_i I)\mathbf{v} = \mathbf{0}$.
 
 ### 5.4 Worked example
 
@@ -430,7 +430,7 @@ $P^{-1} = \frac{1}{3}\begin{pmatrix} 1 & 2 \\ -1 & 1 \end{pmatrix}$.
 $\begin{pmatrix} F_{n+1} \\ F_n \end{pmatrix} = A^n\begin{pmatrix} 1 \\ 0 \end{pmatrix}$.
 
 This gives $F_n = \frac{2^n - (-1)^n}{3}$ (the Lucas sequence). For the standard Fibonacci sequence
-With $A = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$The result is
+With $A = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}$ The result is
 $F_n = \frac{\phi^n - \psi^n}{\sqrt{5}}$ where
 $\phi = \frac{1+\sqrt{5}}{2}$.
 
@@ -476,11 +476,11 @@ $$
 
 ### 7.2 Proof: $\det(A) \neq 0 \iff A$ is invertible
 
-**Proof.** ($\Rightarrow$) If $\det(A) \neq 0$The adjugate formula gives
+**Proof.** ($\Rightarrow$) If $\det(A) \neq 0$ The adjugate formula gives
 $A^{-1} = \dfrac{1}{\det A}\mathrm{adj}(A)$ So $A$ is invertible.
 
 ($\Leftarrow$) If $A$ is invertible with $A^{-1}$ Then
-$\det(A)\det(A^{-1}) = \det(AA^{-1}) = \det(I) = 1$. Since $1 \neq 0$We must have $\det(A) \neq 0$.
+$\det(A)\det(A^{-1}) = \det(AA^{-1}) = \det(I) = 1$. Since $1 \neq 0$ We must have $\det(A) \neq 0$.
 $\blacksquare$
 
 ### 7.3 Proof: the trace equals the sum of eigenvalues
@@ -653,14 +653,14 @@ $\begin{pmatrix} 2 & 3 \\ 0 & 2 \end{pmatrix}\begin{pmatrix} x \\ 0 \end{pmatrix
 
 The image $(2x, 0)$ also lies on $y = 0$ So $y = 0$ is an invariant line.
 
-**(c)** For an invariant line $y = mx$We need
+**(c)** For an invariant line $y = mx$ We need
 $A\begin{pmatrix} 1 \\ m \end{pmatrix} = \lambda\begin{pmatrix} 1 \\ m \end{pmatrix}$:
 
 $2 + 3m = \lambda$ and $2m = \lambda m$.
 
 From the second equation: $m(2 - \lambda) = 0$.
 
-If $m = 0$We get the line $y = 0$ (already found).
+If $m = 0$ We get the line $y = 0$ (already found).
 
 If $\lambda = 2$: $2 + 3m = 2 \implies m = 0$ again.
 
@@ -794,7 +794,7 @@ $$
 
 This can be derived as $R_\theta \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} R_{-\theta}$.
 
-For $m = 1$ ($\theta = \pi/4$): $M = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$Which is
+For $m = 1$ ($\theta = \pi/4$): $M = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ Which is
 Reflection in $y = x$ (consistent with the standard table).
 
 ### Example 10.4: Successive transformations and invariant lines
@@ -828,7 +828,7 @@ $$
 
 Comparing constants: $-c = -4mc + c \implies 4mc = 2c \implies c(2m - 1) = 0$.
 
-Since $m = 1/2$: $c(0) = 0$Which is satisfied for all $c$.
+Since $m = 1/2$: $c(0) = 0$ Which is satisfied for all $c$.
 
 Therefore **every** line of the form $y = x/2 + c$ is invariant under $T$.
 
@@ -984,13 +984,13 @@ $$
 
 ### Question 9
 
-Find the matrix representing an enlargement of scale factor $3$ from the point $(1, 2)$Using
+Find the matrix representing an enlargement of scale factor $3$ from the point $(1, 2)$ Using
 Homogeneous coordinates.
 
 <details>
 <summary>Solution</summary>
 
-In homogeneous coordinates, this is the composite of translate by $(-1, -2)$Enlarge by $3$ And
+In homogeneous coordinates, this is the composite of translate by $(-1, -2)$ Enlarge by $3$ And
 Translate back by $(1, 2)$:
 
 $$
@@ -1007,7 +1007,7 @@ is diagonalisable.
 <details>
 <summary>Solution</summary>
 
-Since $\lambda_1 \neq \lambda_2$The eigenvectors $\mathbf{v}_1$ and $\mathbf{v}_2$ satisfy
+Since $\lambda_1 \neq \lambda_2$ The eigenvectors $\mathbf{v}_1$ and $\mathbf{v}_2$ satisfy
 $(A - \lambda_1 I)\mathbf{v}_1 = \mathbf{0}$ and $(A - \lambda_2 I)\mathbf{v}_2 = \mathbf{0}$.
 
 Suppose $\mathbf{v}_1$ and $\mathbf{v}_2$ are linearly dependent: $\mathbf{v}_2 = c\mathbf{v}_1$ for
@@ -1016,7 +1016,7 @@ Some scalar $c$.
 Then $(A - \lambda_2 I)\mathbf{v}_1 = \mathbf{0}$ (dividing by $c$), which means $\lambda_1$ and
 $\lambda_2$ are both eigenvalues with eigenvector $\mathbf{v}_1$. But
 $(A - \lambda_1 I)\mathbf{v}_1 = \mathbf{0}$ and $(A - \lambda_2 I)\mathbf{v}_1 = \mathbf{0}$
-Together give $(\lambda_1 - \lambda_2)\mathbf{v}_1 = \mathbf{0}$Contradicting
+Together give $(\lambda_1 - \lambda_2)\mathbf{v}_1 = \mathbf{0}$ Contradicting
 $\lambda_1 \neq \lambda_2$ and $\mathbf{v}_1 \neq \mathbf{0}$.
 
 Therefore $\mathbf{v}_1$ and $\mathbf{v}_2$ are linearly independent, $P$ is invertible, and
@@ -1046,17 +1046,17 @@ $A = \begin{pmatrix}4&2\\2&1\end{pmatrix}$.
 $\lambda = 0, 5$.
 
 $\lambda = 0$: $\begin{pmatrix}4&2\\2&1\end{pmatrix}\mathbf{v}=\mathbf{0} \implies v_1 = -v_2/2$.
-Eigenvector: $(1,-2)$Normalised: $\dfrac{1}{\sqrt{5}}(1,-2)$.
+Eigenvector: $(1,-2)$ Normalised: $\dfrac{1}{\sqrt{5}}(1,-2)$.
 
 $\lambda = 5$: $\begin{pmatrix}-1&2\\2&-4\end{pmatrix}\mathbf{v}=\mathbf{0} \implies v_1 = 2v_2$.
-Eigenvector: $(2,1)$Normalised: $\dfrac{1}{\sqrt{5}}(2,1)$.
+Eigenvector: $(2,1)$ Normalised: $\dfrac{1}{\sqrt{5}}(2,1)$.
 
 Orthogonality check: $(1)(2)+(-2)(1) = 0$. ✓ The eigenvectors are orthogonal (as expected for a
 Symmetric matrix).
 
 ### Example 13.2: Using diagonalisation to compute a matrix power
 
-**Problem.** Given $A = \begin{pmatrix}3&1\\0&2\end{pmatrix}$Find $A^{10}$.
+**Problem.** Given $A = \begin{pmatrix}3&1\\0&2\end{pmatrix}$ Find $A^{10}$.
 
 **Solution.** Eigenvalues: $(3-\lambda)(2-\lambda) = 0 \implies \lambda = 2, 3$.
 

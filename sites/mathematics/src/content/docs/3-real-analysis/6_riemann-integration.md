@@ -47,7 +47,7 @@ The common value is denoted $\int_a^b f(x)\, dx$.
 ### 6.2 Integrability Criteria
 
 **Theorem 6.1 (Riemann Integrability Criterion).** A bounded function $f : [a,b] \to \mathbb{R}$ is
-Riemann integrable if and only if for every $\varepsilon > 0$There exists a partition $P$ such that
+Riemann integrable if and only if for every $\varepsilon > 0$ There exists a partition $P$ such that
 
 $$
 U(f,P) - L(f,P) \lt \varepsilon
@@ -56,10 +56,10 @@ $$
 **Theorem 6.2.** Every continuous function on $[a,b]$ is Riemann integrable.
 
 _Proof._ Let $f$ be continuous on $[a,b]$. By the Heine-Cantor theorem, $f$ is uniformly continuous.
-Given $\varepsilon > 0$Choose $\delta > 0$ such that $|x - y| \lt \delta$ implies
+Given $\varepsilon > 0$ Choose $\delta > 0$ such that $|x - y| \lt \delta$ implies
 $|f(x) - f(y)| \lt \varepsilon/(b-a)$.
 
-Let $P$ be any partition with $\|P\| \lt \delta$. On each subinterval $[x_{i-1}, x_i]$By the Extreme
+Let $P$ be any partition with $\|P\| \lt \delta$. On each subinterval $[x_{i-1}, x_i]$ By the Extreme
 Value Theorem, $f$ attains its maximum $M_i$ and minimum $m_i$. By uniform continuity:
 $M_i - m_i \lt \varepsilon/(b-a)$. Therefore:
 
@@ -71,7 +71,7 @@ By the Riemann integrability criterion, $f$ is integrable. $\blacksquare$
 
 **Theorem 6.3.** Every monotone function on $[a,b]$ is Riemann integrable.
 
-_Proof._ Assume $f$ is increasing (the decreasing case is analogous). Given $\varepsilon > 0$Let
+_Proof._ Assume $f$ is increasing (the decreasing case is analogous). Given $\varepsilon > 0$ Let
 $P_n$ be the uniform partition with $n$ subintervals of length $(b-a)/n$. On $[x_{i-1}, x_i]$:
 $M_i = f(x_i)$ and $m_i = f(x_{i-1})$. Then:
 
@@ -86,7 +86,7 @@ integrable.
 
 _Proof (sketch)._ Let $f$ have discontinuities at $d_1, \ldots, d_m \in [a,b]$. Given
 $\varepsilon > 0$ Enclose each $d_j$ in a small interval $I_j$ of total length
-$\varepsilon/(2M)$Where $M = \sup_{[a,b]} |f|$. On the remaining set (a finite union of closed
+$\varepsilon/(2M)$ Where $M = \sup_{[a,b]} |f|$. On the remaining set (a finite union of closed
 intervals), $f$ is continuous, Hence uniformly continuous. Choose a partition fine enough that the
 oscillation of $f$ on each Subinterval outside the $I_j$ is less than $\varepsilon/(2(b-a))$. Then:
 
@@ -99,7 +99,7 @@ $\blacksquare$
 **Proposition 6.4a.** The set of Riemann integrable functions on $[a,b]$ forms a vector space, and
 If $f$ and $g$ are integrable, then so are $|f|$, $f^2$ And $\max(f, g)$.
 
-**Theorem 6.4b (Lebesgue"s Criterion for Riemann Integrability).** A bounded function
+**Theorem 6.4b (Lebesgue's Criterion for Riemann Integrability).** A bounded function
 $f : [a,b] \to \mathbb{R}$ Is Riemann integrable if and only if the set of its discontinuities has
 (Lebesgue) measure zero.
 
@@ -109,7 +109,7 @@ Small total length. In particular, every countable set has measure zero. This me
 - Every continuous function is integrable (empty set of discontinuities).
 - Every function with countably many discontinuities is integrable (Theorem 6.4 is a special case).
 - The Dirichlet function $f(x) = 1$ for $x \in \mathbb{Q}$ and $f(x) = 0$ for $x \notin \mathbb{Q}$
-  is discontinuous everywhere (set of discontinuities = $[a,b]$Measure $> 0$), hence not integrable.
+  is discontinuous everywhere (set of discontinuities = $[a,b]$ Measure $> 0$), hence not integrable.
 - Thomae's function $f(x) = 1/q$ if $x = p/q$ in lowest terms, and $f(x) = 0$ if $x$ is irrational,
   is continuous at every irrational and discontinuous at every rational. Since $\mathbb{Q}$ is
   countable (measure zero), Thomae's function is Riemann integrable, with $\int_0^1 f = 0$.
@@ -145,7 +145,7 @@ $$
 \frac{F(x+h) - F(x)}{h} = \frac{1}{h}\int_x^{x+h} f(t)\, dt = f(\xi)
 $$
 
-As $h \to 0^+$We have $\xi \to x^+$ (since $\xi \in [x, x+h]$). By continuity of $f$
+As $h \to 0^+$ We have $\xi \to x^+$ (since $\xi \in [x, x+h]$). By continuity of $f$
 $f(\xi) \to f(x)$. Hence $F'_+(x) = f(x)$. A similar argument gives $F'_-(x) = f(x)$. $\blacksquare$
 
 **Theorem 6.9 (FTC Part 2).** If $F$ is differentiable on $[a,b]$ with $F' = f$ (and $f$ is
@@ -163,7 +163,7 @@ $$
 F(b) - F(a) = \sum_{i=1}^{n} [F(x_i) - F(x_{i-1})] = \sum_{i=1}^{n} f(\xi_i) \Delta x_i
 $$
 
-The right-hand side is a Riemann sum for $\int_a^b f$. As $\|P\| \to 0$This converges to the
+The right-hand side is a Riemann sum for $\int_a^b f$. As $\|P\| \to 0$ This converges to the
 Integral. Hence $F(b) - F(a) = \int_a^b f(x)\, dx$. $\blacksquare$
 
 ### 6.5 Worked Examples
@@ -199,7 +199,7 @@ $$
 \lim_{n \to \infty} U(f, P_n) = \lim_{n \to \infty} \frac{1}{n^{3/2}} \cdot \frac{2}{3}n^{3/2} = \frac{2}{3}
 $$
 
-Similarly $L(f, P_n) \to 2/3$Confirming $\int_0^1 \sqrt{x}\, dx = 2/3$. $\blacksquare$
+Similarly $L(f, P_n) \to 2/3$ Confirming $\int_0^1 \sqrt{x}\, dx = 2/3$. $\blacksquare$
 
 </details>
 
@@ -208,7 +208,7 @@ Similarly $L(f, P_n) \to 2/3$Confirming $\int_0^1 \sqrt{x}\, dx = 2/3$. $\blacks
 **Definition.** An **improper integral** is a Riemann integral where either the interval of
 integration Is unbounded or the integrand is unbounded.
 
-**Type I (Infinite Intervals).** If $f$ is Riemann integrable on $[a, b]$ for every $b > a$Define:
+**Type I (Infinite Intervals).** If $f$ is Riemann integrable on $[a, b]$ for every $b > a$ Define:
 
 $$
 \int_a^{\infty} f(x)\, dx = \lim_{b \to \infty} \int_a^b f(x)\, dx
@@ -243,11 +243,11 @@ $$
 \int_1^{\infty} x^{-p}\, dx = \lim_{b \to \infty} \left[\frac{x^{1-p}}{1-p}\right]_1^b = \lim_{b \to \infty} \frac{b^{1-p} - 1}{1-p}
 $$
 
-This converges when $1 - p < 0$I.e., $p > 1$. For $p = 1$:
+This converges when $1 - p < 0$ I.e., $p > 1$. For $p = 1$:
 $\int_1^{\infty} 1/x\, dx = \lim_{b \to \infty} \ln b = \infty$.
 
 For Type II: $\int_0^1 x^{-p}\, dx = \lim_{c \to 0^+} \frac{1 - c^{1-p}}{1-p}$. This converges when
-$1 - p > 0$I.e., $p < 1$. $\blacksquare$
+$1 - p > 0$ I.e., $p < 1$. $\blacksquare$
 
 _Remark._ The $p$-test for Type I integrals mirrors the $p$-series test: $\sum 1/n^p$ converges Iff
 $p > 1$. This is not a coincidence --- the integral test establishes the connection.
@@ -274,14 +274,14 @@ $\int_1^{\infty} \frac{|\sin x|}{x}\, dx \geq \sum_{k=1}^{\infty} \int_{k\pi}^{(
 which diverges by comparison with the harmonic series).
 
 However, $\int_1^{\infty} \frac{\sin x}{x}\, dx$ converges by **Dirichlet's test for integrals**.
-Let $F(b) = \int_1^b \sin x\, dx = \cos 1 - \cos b$Which is bounded by $|\cos 1 - \cos b| \leq 2$.
-Since $1/x$ decreases to $0$By integration by parts:
+Let $F(b) = \int_1^b \sin x\, dx = \cos 1 - \cos b$ Which is bounded by $|\cos 1 - \cos b| \leq 2$.
+Since $1/x$ decreases to $0$ By integration by parts:
 
 $$
 \int_1^b \frac{\sin x}{x}\, dx = \frac{-\cos x}{x}\bigg|_1^b - \int_1^b \frac{\cos x}{x^2}\, dx
 $$
 
-As $b \to \infty$The boundary term $\cos b / b \to 0$ and
+As $b \to \infty$ The boundary term $\cos b / b \to 0$ and
 $\int_1^{\infty} \frac{|\cos x|}{x^2}\, dx \leq
 \int_1^{\infty} \frac{1}{x^2}\, dx = 1$, so the
 improper integral converges (conditionally). $\blacksquare$

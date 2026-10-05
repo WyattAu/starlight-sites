@@ -127,7 +127,7 @@ s = \tfrac{1}{2}(u+v)t \implies v = \frac{2s}{t} - u \quad \mathrm{(useful when 
 $$
 
 :::tip
-Constant acceleration $a = dv/dt$Using the initial conditions $v(0) = u$ and $s(0) = 0$. Memorising
+Constant acceleration $a = dv/dt$ Using the initial conditions $v(0) = u$ and $s(0) = 0$. Memorising
 the derivation means you can recover any formula you forget.
 :::
 
@@ -215,7 +215,7 @@ The velocity is $v = ds/dt = 3t^2 - 18t + 24 = 3(t^2 - 6t + 8) = 3(t-2)(t-4)$.
 
 The acceleration is $a = dv/dt = 6t - 18 = 6(t - 3)$.
 
-- At $t = 3$: $a = 0$The particle changes from decelerating to accelerating (in the positive sense).
+- At $t = 3$: $a = 0$ The particle changes from decelerating to accelerating (in the positive sense).
 
 Displacement at key times: $s(0) = 0$$s(2) = 8 - 36 + 48 = 20$$s(4) = 64 - 144 + 96 = 16$
 $s(6) = 216 - 324 + 144 = 36$.
@@ -282,7 +282,7 @@ $$
 R = v\cos\theta \cdot \frac{2v\sin\theta}{g} = \frac{v^2\sin 2\theta}{g}
 $$
 
-Maximum range occurs when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$.
+Maximum range occurs when $\sin 2\theta = 1$ I.e., $\theta = 45^\circ$.
 
 $$
 R_{\max} = \frac{v^2}{g}
@@ -290,7 +290,7 @@ $$
 
 ### 4.7 Velocity at any point on the trajectory
 
-At any time $t$The velocity vector is:
+At any time $t$ The velocity vector is:
 
 $$
 \mathbf{v} = \begin{pmatrix} v\cos\theta \\ v\sin\theta - gt \end{pmatrix}
@@ -377,7 +377,7 @@ Use initial conditions to find constants of integration.
 
 ### 5.1 Finding velocity from acceleration
 
-Given $a = f(t)$Integrate to find $v$:
+Given $a = f(t)$ Integrate to find $v$:
 
 $$
 v = \int a\,dt = \int f(t)\,dt = F(t) + C
@@ -387,7 +387,7 @@ Use the initial velocity $v(0) = u$ to find $C$.
 
 ### 5.2 Finding displacement from velocity
 
-Given $v = g(t)$Integrate to find $s$:
+Given $v = g(t)$ Integrate to find $s$:
 
 $$
 s = \int v\,dt = \int g(t)\,dt = G(t) + K
@@ -397,7 +397,7 @@ Use the initial displacement $s(0) = s_0$ to find $K$.
 
 ### 5.3 Acceleration in terms of displacement or velocity
 
-Sometimes acceleration is given as a function of $s$ or $v$Not $t$.
+Sometimes acceleration is given as a function of $s$ or $v$ Not $t$.
 
 **Case 1:** $a = f(v)$.
 
@@ -441,7 +441,7 @@ $$
 ### 5.5 Worked example: variable acceleration
 
 A particle moves in a straight line. At time $t$ seconds, its acceleration is
-$a = 6t - 4\,\mathrm{m/s}^2$. When $t = 0$The particle is at rest at the origin. Find:
+$a = 6t - 4\,\mathrm{m/s}^2$. When $t = 0$ The particle is at rest at the origin. Find:
 
 **(a)** The velocity at time $t$:
 
@@ -567,7 +567,7 @@ Show that the maximum range of a projectile on level ground is achieved at $45^\
 $R = \dfrac{v^2 \sin 2\theta}{g}$. To maximise: $\dfrac{dR}{d\theta} = \dfrac{2v^2 \cos 2\theta}{g} = 0 \implies \cos 2\theta = 0 \implies 2\theta = 90° \implies \theta = 45^\circ$.
 
 $\dfrac{d^2R}{d\theta^2} = -\dfrac{4v^2 \sin 2\theta}{g} \lt 0$ at
-$\theta = 45^\circ$Confirming A maximum. $\blacksquare$
+$\theta = 45^\circ$ Confirming A maximum. $\blacksquare$
 
 **If you get this wrong, revise:** [Range](#46-range), Section 4.6.
 
@@ -590,7 +590,7 @@ $v = gt = 9.8(4.04) \approx 39.6\,\mathrm{m/s}$.
 
 <details>
 <summary>Problem 8</summary>
-A particle is projected from a point $O$ on horizontal ground. It passes through a point $P$ which is $10\,\mathrm{m}$ horizontally and $5\,\mathrm{m}$ vertically from $O$. If the initial speed is $15\,\mathrm{m/s}$Find the possible angles of projection.
+A particle is projected from a point $O$ on horizontal ground. It passes through a point $P$ which is $10\,\mathrm{m}$ horizontally and $5\,\mathrm{m}$ vertically from $O$. If the initial speed is $15\,\mathrm{m/s}$ Find the possible angles of projection.
 </details>
 
 <details>
@@ -673,7 +673,7 @@ Separation: $45 - 20.19 = 24.81\,\mathrm{m}$.
 
 <details>
 <summary>Problem 12</summary>
-A projectile is launched from ground level and just clears a wall $20\,\mathrm{m}$ high and $40\,\mathrm{m}$ away. If the launch angle is $50^\circ$Find the minimum launch speed.
+A projectile is launched from ground level and just clears a wall $20\,\mathrm{m}$ high and $40\,\mathrm{m}$ away. If the launch angle is $50^\circ$ Find the minimum launch speed.
 </details>
 
 <details>
@@ -753,8 +753,8 @@ $2t^3 - 9t^2 + 12t - 5 = (t-1)(2t^2 - 7t + 5) = (t-1)(2t-5)(t-1) = (t-1)^2(2t-5)
 
 So $v = 0$ at $t = 1$ and $t = 2.5$.
 
-Check the sign of $v$: for $0 \lt t \lt 1$Test $t = 0.5$: $v = 0.25 - 2.25 + 6 - 5 = -1 \lt 0$. For
-$1 \lt t \lt 2.5$Test $t = 2$: $v = 16 - 36 + 24 - 5 = -1 \lt 0$. For $t \gt 2.5$Test $t = 3$:
+Check the sign of $v$: for $0 \lt t \lt 1$ Test $t = 0.5$: $v = 0.25 - 2.25 + 6 - 5 = -1 \lt 0$. For
+$1 \lt t \lt 2.5$ Test $t = 2$: $v = 16 - 36 + 24 - 5 = -1 \lt 0$. For $t \gt 2.5$ Test $t = 3$:
 $v = 54 - 81 + 36 - 5 = 4 \gt 0$.
 
 So $v \lt 0$ for $0 \lt t \lt 2.5$ and $v \gt 0$ for $t \gt 2.5$.
@@ -802,7 +802,7 @@ Angle below horizontal: $\arctan(12.05/6) \approx 63.5^\circ$.
 
 <details>
 <summary>Problem 17</summary>
-A particle moves so that $a = -6s\,\mathrm{m/s}^2$Where $s$ is the displacement from a fixed point. When $s = 0$$v = 8\,\mathrm{m/s}$. Find the velocity when $s = 1$.
+A particle moves so that $a = -6s\,\mathrm{m/s}^2$ Where $s$ is the displacement from a fixed point. When $s = 0$$v = 8\,\mathrm{m/s}$. Find the velocity when $s = 1$.
 </details>
 
 <details>
@@ -831,7 +831,7 @@ When $s = 1$:
 $v^2/2 = -3 + 32 = 29 \implies v^2 = 58 \implies v = \sqrt{58} \approx 7.62\,\mathrm{m/s}$.
 
 The particle is still moving in the positive direction ($v \gt 0$) since it has not yet reached The
-turning point where $v = 0$ (which occurs at $s^2 = 32/3$I.e., $s \approx 3.27\,\mathrm{m}$).
+turning point where $v = 0$ (which occurs at $s^2 = 32/3$ I.e., $s \approx 3.27\,\mathrm{m}$).
 
 **If you get this wrong, revise:**
 [Acceleration in Terms of Displacement](#53-acceleration-in-terms-of-displacement-or-velocity),
@@ -846,7 +846,7 @@ A particle $P$ is projected from a point $A$ on horizontal ground with speed $u$
 
 <details>
 <summary>Solution 18</summary>
-Highest point of $P$'s trajectory: $x = \dfrac{u^2\sin 2\theta}{2g}$, $y = \dfrac{u^2\sin^2\theta}{2g}$At time
+Highest point of $P$'s trajectory: $x = \dfrac{u^2\sin 2\theta}{2g}$, $y = \dfrac{u^2\sin^2\theta}{2g}$ At time
 $t_1 = \dfrac{u\sin\theta}{g}$.
 
 After $t_1$, $P$ is in free fall with $v_y = 0$ at $t_1$ So for $t \geq t_1$:
@@ -862,12 +862,12 @@ For $P$ to be at this $x$-coordinate at time $t$:
 $u\cos\theta \cdot t = u^2\sin 2\theta / (2g) = u^2\sin\theta\cos\theta / g$ So
 $t = u\sin\theta / g = t_1$.
 
-This means collision occurs at $t = t_1$The instant of the highest point. But $Q$ is projected at
+This means collision occurs at $t = t_1$ The instant of the highest point. But $Q$ is projected at
 That instant, so for collision we need $y_Q(0^+) = y_P(t_1) = H$.
 
 $Q$ starts at ground level ($y_Q = 0$) and must reach $y = H = u^2\sin^2\theta / (2g)$.
 
-For $Q$: $v_Q = w - gt$, $y_Q = wt - \tfrac{1}{2}gt^2$Where $w$ is the projection speed.
+For $Q$: $v_Q = w - gt$, $y_Q = wt - \tfrac{1}{2}gt^2$ Where $w$ is the projection speed.
 
 Collision at $y = H$ when $t = 0$ is impossible ($Q$ starts at $y = 0$). So collision must occur at
 Some $\Delta t \gt 0$ after $t_1$.
@@ -883,7 +883,7 @@ For all $\Delta t$ since $u\cos\theta \cdot t_1 = u^2\sin\theta\cos\theta/g$.
 So any $w$ and $\Delta t$ with $w\,\Delta t = H$ gives a collision. The minimum speed is
 $w = H/\Delta t$ for $\Delta t \to 0^+$ But in practice we need a finite time.
 
-If we require collision at the highest point itself ($\Delta t \to 0$), then $w \to \infty$Which Is
+If we require collision at the highest point itself ($\Delta t \to 0$), then $w \to \infty$ Which Is
 unphysical. The problem states they collide at some time after projection. Since no further
 Constraint is given, we take $w$ as a free parameter satisfying
 $w\,\Delta t = u^2\sin^2\theta / (2g)$ for some $\Delta t \gt 0$.

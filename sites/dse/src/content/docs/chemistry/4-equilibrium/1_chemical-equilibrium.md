@@ -53,7 +53,7 @@ Dynamic equilibrium is established when:
 }
 </script>
 
-## Le Chatelier"s Principle
+## Le Chatelier's Principle
 
 ### Statement
 
@@ -72,7 +72,7 @@ System will adjust to oppose the change and restore a new equilibrium.
 | Decrease [product]  | Produces more product  | Shifts to the right (products) |
 
 **Worked example 1:** For
-$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$What happens if More
+$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$ What happens if More
 $\mathrm{N}_2$ is added?
 
 <details>
@@ -80,7 +80,7 @@ $\mathrm{N}_2$ is added?
 
 The system opposes the increase in $\mathrm{N}_2$ by consuming some of it. The forward reaction is
 Favoured, shifting equilibrium to the right. More $\mathrm{NH}_3$ is produced, and some
-$\mathrm{H}_2$ is consumed. The new equilibrium has higher $[\mathrm{N}_2]$Higher
+$\mathrm{H}_2$ is consumed. The new equilibrium has higher $[\mathrm{N}_2]$ Higher
 $[\mathrm{NH}_3]$ And lower $[\mathrm{H}_2]$ compared to the original equilibrium.
 
 </details>
@@ -96,7 +96,7 @@ Products.
 | Decrease pressure | Increases total moles of gas | Shifts towards more moles of gas  |
 
 **Worked example 2:** For
-$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$What happens when
+$\mathrm{N}_{2(g)} + 3\mathrm{H}_{2(g)} \rightleftharpoons 2\mathrm{NH}_{3(g)}$ What happens when
 Pressure is increased?
 
 <details>
@@ -733,7 +733,7 @@ When $\Delta n = 0$, $K_p = K_c$ with no units.
    It only speeds up attainment of equilibrium.
 
 5. **Units of $K_c$:** Always include units. For
-   $\mathrm{N}_2 + 3\mathrm{H}_2 \rightleftharpoons 2\mathrm{NH}_3$The units are
+   $\mathrm{N}_2 + 3\mathrm{H}_2 \rightleftharpoons 2\mathrm{NH}_3$ The units are
    $(\mathrm{mol/dm}^3)^{-2}$.
 
 6. **Pressure changes only affect gaseous equilibria when $\Delta n \neq 0$:** If the moles of gas
@@ -741,7 +741,7 @@ When $\Delta n = 0$, $K_p = K_c$ with no units.
 
 7. **Reversing the reaction inverts $K_c$:** For the reverse reaction, $K_c' = 1/K_c$.
 
-8. **Multiplying the equation by $n$ raises $K_c$ to the $n$Th power:** If the equation is
+8. **Multiplying the equation by $n$ raises $K_c$ to the $n$ Th power:** If the equation is
    multiplied by 2, $K_c' = (K_c)^2$.
 
 ---
@@ -860,7 +860,7 @@ Percentage of $\mathrm{CO}$ reacted = $0.279 / 0.500 \times 100\% = 55.8\%$
 ### Problem 3
 
 For the exothermic reaction
-$\mathrm{A}_{(g)} + \mathrm{B}_{(g)} \rightleftharpoons 2\mathrm{C}_{(g)}$Explain the effect of Each
+$\mathrm{A}_{(g)} + \mathrm{B}_{(g)} \rightleftharpoons 2\mathrm{C}_{(g)}$ Explain the effect of Each
 of the following changes on (i) the equilibrium position, (ii) the value of $K_c$ And (iii) The rate
 of attainment of equilibrium:
 
@@ -1023,7 +1023,7 @@ Equilibrium.
 
 A very large $K_c$ means the equilibrium position lies far to the right, favouring products. At
 Equilibrium, the concentration of $\mathrm{SO}_3$ is much larger than those of $\mathrm{SO}_2$ and
-$\mathrm{O}_2$. However, $K_c \neq \infty$Which means the reaction does not go to completion.
+$\mathrm{O}_2$. However, $K_c \neq \infty$ Which means the reaction does not go to completion.
 
 The equilibrium is dynamic: both forward and reverse reactions continue. The very large $K_c$ means
 The reverse reaction rate is negligible compared to the forward rate at equilibrium, but it is not
@@ -1136,7 +1136,7 @@ $$
 \Delta G = \Delta G^\circ + RT \ln Q
 $$
 
-When $\Delta G = 0$: $0 = \Delta G^\circ + RT \ln K$Giving $\Delta G^\circ = -RT \ln K$.
+When $\Delta G = 0$: $0 = \Delta G^\circ + RT \ln K$ Giving $\Delta G^\circ = -RT \ln K$.
 
 | $\Delta G^\circ$   | $K$           | Interpretation              |
 | ------------------ | ------------- | --------------------------- |

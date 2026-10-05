@@ -85,7 +85,7 @@ P(X = 10) = \binom{20}{10}\left(\frac{1}{2}\right)^{20} = \frac{184756}{1048576}
 $$
 
 The mode of a binomial distribution is $\lfloor (n+1)p \rfloor$. Here
-$\lfloor 21 \times 0.5 \rfloor = \lfloor 10.5 \rfloor = 10$Confirming $X = 10$ is the mode.
+$\lfloor 21 \times 0.5 \rfloor = \lfloor 10.5 \rfloor = 10$ Confirming $X = 10$ is the mode.
 
 **(c)** The conditions are:
 
@@ -139,8 +139,8 @@ $$
 P(X \gt 185) = 1 - 0.8944 = 0.1056
 $$
 
-**(b)** The second student is correct. The student who got $0.8944$ looked up $P(Z \lt 1.25)$Which
-gives the probability of being **shorter** than $185\,\mathrm{cm}$Not taller. The question asks for
+**(b)** The second student is correct. The student who got $0.8944$ looked up $P(Z \lt 1.25)$ Which
+gives the probability of being **shorter** than $185\,\mathrm{cm}$ Not taller. The question asks for
 $P(X \gt 185)$ So the answer is $1 - 0.8944 = 0.1056$.
 
 ---
@@ -257,7 +257,7 @@ $$
 $$
 
 **(b)** The student's error is confusing the mean with the distribution. While the mean total weight
-is indeed $730\,\mathrm{g}$The total weight is a random variable with spread (standard deviation
+is indeed $730\,\mathrm{g}$ The total weight is a random variable with spread (standard deviation
 $\approx 29.7\,\mathrm{g}$). The probability of exceeding $750\,\mathrm{g}$ is not $50\%$, it is
 approximately $25\%$. The student failed to account for the variance of the sum. The probability is
 $50\%$ only at the mean ($730\,\mathrm{g}$), not at $750\,\mathrm{g}$.

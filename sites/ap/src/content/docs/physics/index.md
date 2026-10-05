@@ -36,7 +36,7 @@ to prepare you for both the multiple-choice and free-response sections.
 ## Topics
 
 - **[1. Kinematics](/physics/1-kinematics/1_kinematics/)**
-- **[2. Newton"s Laws](/physics/2-newtons-laws/2_newtons-laws/)**
+- **[2. Newton's Laws](/physics/2-newtons-laws/2_newtons-laws/)**
 - **[3. Work, Energy, and Power](/physics/3-work-energy-power/3_work-energy-power/)**
 - **[4. Momentum and Impulse](/physics/4-momentum-and-impulse/4_momentum-and-impulse/)**
 - **[5. Rotational Motion](/physics/5-rotational-motion/5_rotational-motion/)**

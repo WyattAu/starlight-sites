@@ -141,7 +141,7 @@ Constant.
    (the negative interior attracts $\mathrm{K}^+$ back). The resting potential (approximately
    $-70\;\mathrm{mV}$) is close to (but more positive than) the $\mathrm{K}^+$ equilibrium potential
    ($-90\;\mathrm{mV}$) because the membrane has a small residual permeability to
-   $\mathrm{Na}^+$Which pulls the potential toward the $\mathrm{Na}^+$ equilibrium potential.
+   $\mathrm{Na}^+$ Which pulls the potential toward the $\mathrm{Na}^+$ equilibrium potential.
 
 ---
 
@@ -433,7 +433,7 @@ signals (graded potentials, then action potentials) --- a process called **trans
 | **Mechanoreceptors** | Mechanical deformation (pressure, vibration, stretch) | Pacinian corpuscles (deep pressure); Meissner's corpuscles (light touch, vibration); hair cells in cochlea (sound). |
 | **Thermoreceptors**  | Temperature changes                                   | Warm receptors; cold receptors.                                                                                     |
 | **Nociceptors**      | Pain (tissue damage, extreme stimuli)                 | Free nerve endings in skin, muscles, organs.                                                                        |
-| **Chemoreceptors**   | Chemical substances                                   | Taste buds; olfactory receptors; carotid bodies ($\mathrm{O}_2$, $\mathrm{CO}_2$PH).                                  |
+| **Chemoreceptors**   | Chemical substances                                   | Taste buds; olfactory receptors; carotid bodies ($\mathrm{O}_2$, $\mathrm{CO}_2$ PH).                                  |
 | **Photoreceptors**   | Light                                                 | Rods (dim light, black-and-white); cones (colour vision, high acuity).                                              |
 
 ### Sensory Pathways to the Brain
@@ -524,7 +524,7 @@ signals (graded potentials, then action potentials) --- a process called **trans
 - **Thick filaments**: composed of **myosin** protein. Each myosin molecule has a globular head that
   can bind to actin and hydrolyse ATP.
 - **Thin filaments**: composed of **actin** (with binding sites for myosin), **tropomyosin** (blocks
-  myosin-binding sites at rest), and **troponin** (binds $\mathrm{Ca}^{2+}$Moving tropomyosin away
+  myosin-binding sites at rest), and **troponin** (binds $\mathrm{Ca}^{2+}$ Moving tropomyosin away
   from the binding sites).
 - **Sarcomere**: the repeating unit between two Z lines. Striations:
 - **A band**: full length of thick filaments (contains overlapping thick and thin filaments).
@@ -548,7 +548,7 @@ Of the sarcomere. The filaments themselves do not change length.
 4. **Power stroke**: the myosin head pivots, pulling the thin filament toward the centre of the
    sarcomere. ADP and $\mathrm{P_i}$ are released.
 5. **ATP binding**: a new ATP molecule binds to the myosin head, causing it to detach from actin.
-6. **ATP hydrolysis**: ATP is hydrolysed to ADP and $\mathrm{P_i}$Re-energising the myosin head and
+6. **ATP hydrolysis**: ATP is hydrolysed to ADP and $\mathrm{P_i}$ Re-energising the myosin head and
    repositioning it for another cycle.
 
 ### Neuromuscular Junction (NMJ)
@@ -779,18 +779,18 @@ $-10\;\mathrm{mV}$. What is the resulting membrane potential?
 <summary>Answer</summary>
 
 (a) Three simultaneous EPSPs: $3 \times 5 = +15\;\mathrm{mV}$. New potential:
-$-70 + 15 = -55\;\mathrm{mV}$Which exactly equals threshold. The motor neuron fires an action
+$-70 + 15 = -55\;\mathrm{mV}$ Which exactly equals threshold. The motor neuron fires an action
 Potential (at threshold, the probability of firing is approximately $50\%$; any additional input
 Would guarantee firing).
 
-(b) Spatial summation of A + B: $+10\;\mathrm{mV}$Bringing the membrane to $-60\;\mathrm{mV}$. C
-fires $2\;\mathrm{ms}$ later; since the EPSP duration is $5\;\mathrm{ms}$The depolarisation from A +
+(b) Spatial summation of A + B: $+10\;\mathrm{mV}$ Bringing the membrane to $-60\;\mathrm{mV}$. C
+fires $2\;\mathrm{ms}$ later; since the EPSP duration is $5\;\mathrm{ms}$ The depolarisation from A +
 B has not fully decayed. Temporal summation adds C's $+5\;\mathrm{mV}$ to the remaining
 Depolarisation. The membrane reaches approximately $-55\;\mathrm{mV}$ (threshold), and the motor
 Neuron fires.
 
-(c) Resting: $-70\;\mathrm{mV}$. EPSP of A: $+5\;\mathrm{mV}$Bringing membrane to
-$-65\;\mathrm{mV}$. IPSP: $-10\;\mathrm{mV}$Bringing membrane to $-65 - 10 = -75\;\mathrm{mV}$. The
+(c) Resting: $-70\;\mathrm{mV}$. EPSP of A: $+5\;\mathrm{mV}$ Bringing membrane to
+$-65\;\mathrm{mV}$. IPSP: $-10\;\mathrm{mV}$ Bringing membrane to $-65 - 10 = -75\;\mathrm{mV}$. The
 membrane is hyperpolarised below resting potential; the motor neuron does not fire.
 
 </details>
@@ -1053,7 +1053,7 @@ neuron).
 
 A patient with severe vomiting has a plasma $\mathrm{K}^+$ concentration of $2.5\;\mathrm{mmol/L}$
 (normal: $4.5\;\mathrm{mmol/L}$). Assuming intracellular $\mathrm{K}^+$ concentration is unchanged
-At $150\;\mathrm{mmol/L}$Calculate: (a) the $\mathrm{K}^+$ equilibrium potential before and After
+At $150\;\mathrm{mmol/L}$ Calculate: (a) the $\mathrm{K}^+$ equilibrium potential before and After
 vomiting. (b) Predict the effect on the resting membrane potential. (c) Explain why this Patient is
 at risk of cardiac arrhythmias.
 
@@ -1111,7 +1111,7 @@ lead to involuntary movements (dyskinesias).
 **Worked Example: Graded Potential Summation at the Axon Hillock**
 
 A neuron receives three simultaneous excitatory postsynaptic potentials (EPSPs) and one inhibitory
-Postsynaptic potential (IPSP). EPSP1 depolarises the membrane by $+8\;\mathrm{mV}$EPSP2 by
+Postsynaptic potential (IPSP). EPSP1 depolarises the membrane by $+8\;\mathrm{mV}$ EPSP2 by
 $+5\;\mathrm{mV}$ EPSP3 by $+3\;\mathrm{mV}$ And IPSP1 hyperpolarises by $-6\;\mathrm{mV}$. The
 resting potential is $-70\;\mathrm{mV}$ and the threshold is $-55\;\mathrm{mV}$. (a) Calculate the
 net change in membrane Potential. (b) Will an action potential be generated? (c) If EPSP2 arrives
@@ -1129,7 +1129,7 @@ $-70 + 10 = -60\;\mathrm{mV}$.
 $-55\;\mathrm{mV}$. The threshold of $-55\;\mathrm{mV}$ is not reached. No action potential is
 generated.
 
-(c) If EPSP2 arrives $2\;\mathrm{ms}$ later, with a time constant of $5\;\mathrm{ms}$EPSP1 and IPSP1
+(c) If EPSP2 arrives $2\;\mathrm{ms}$ later, with a time constant of $5\;\mathrm{ms}$ EPSP1 and IPSP1
 And EPSP3 have decayed by a factor of $e^{-t/\tau} = e^{-2/5} = e^{-0.4} \approx 0.670$.
 
 Remaining EPSP1 at the time of EPSP2: $8 \times 0.670 = 5.36\;\mathrm{mV}$. Remaining IPSP1:
@@ -1200,11 +1200,11 @@ A neuron has the following intracellular and extracellular ion concentrations:
 | $\mathrm{Ca}^{2+}$ | 0.0001             | 2.0                |
 
 Temperature $= 37^\circ\mathrm{C}$. (a) Calculate the equilibrium potential for each ion using the
-Nernst Equation ($E = \frac{RT}{zF}\ln\frac{[\text{ion}]_{out}}{[\text{ion}]_{in}}$Where
+Nernst Equation ($E = \frac{RT}{zF}\ln\frac{[\text{ion}]_{out}}{[\text{ion}]_{in}}$ Where
 $R = 8.314\;\mathrm{J/(mol\cdot K)}$ $F = 96485\;\mathrm{C/mol}$). (b) The resting membrane
 potential is $-70\;\mathrm{mV}$. For each ion, State whether the driving force favours influx or
 efflux. (c) If the membrane is $50\times$ more Permeable to $\mathrm{K}^+$ than to $\mathrm{Na}^+$
-and $10\times$ more permeable to $\mathrm{K}^+$ than To $\mathrm{Cl}^-$Use the Goldman equation to
+and $10\times$ more permeable to $\mathrm{K}^+$ than To $\mathrm{Cl}^-$ Use the Goldman equation to
 estimate the resting potential.
 
 <details>
@@ -1544,7 +1544,7 @@ $R_{in} = R_m / (\pi \times d) = 1000 / 0.157 = 6366\;\Omega/\text{cm}$.
 
 For a finite patch: $\Delta V = I \times R_{in}$.
 
-If the current is injected uniformly: $\Delta V = I / (g_m \times A)$Where
+If the current is injected uniformly: $\Delta V = I / (g_m \times A)$ Where
 $g_m = 1/R_m = 10^{-3}\;\mathrm{S/cm}^2$.
 
 For a $1\;\mathrm{cm}$ length patch:
@@ -1554,7 +1554,7 @@ This very small depolarisation reflects the large surface area of the squid gian
 a Point current injection would produce a larger local depolarisation that decays exponentially with
 distance.
 
-(c) An action potential fires when the local depolarisation reaches threshold ($-55\;\mathrm{mV}$Or
+(c) An action potential fires when the local depolarisation reaches threshold ($-55\;\mathrm{mV}$ Or
 Approximately $15\;\mathrm{mV}$ above rest). At threshold, voltage-gated $\mathrm{Na}^+$ channels
 open, Allowing rapid $\mathrm{Na}^+$ influx that further depolarises the membrane (positive
 feedback). This Regenerative cycle produces the all-or-none action potential, which is independent
@@ -1666,7 +1666,7 @@ Z-lines (Z-discs).
   the other).
 - **Thin filaments**: composed of **actin** (globular protein polymerised into a double helix),
   **tropomyosin** (covers myosin-binding sites on actin), and **troponin** (calcium-binding complex:
-  troponin C binds $\mathrm{Ca}^{2+}$Troponin I inhibits actin-myosin interaction, troponin T binds
+  troponin C binds $\mathrm{Ca}^{2+}$ Troponin I inhibits actin-myosin interaction, troponin T binds
   tropomyosin).
 
 **Sliding filament theory**:
@@ -1682,7 +1682,7 @@ Z-lines (Z-discs).
 5. **Power stroke**: the myosin head pivots, pulling the thin filament toward the centre of the
    sarcomere. ADP and $\mathrm{P_i}$ are released.
 6. **Detachment**: ATP binds to the myosin head, causing it to detach from actin.
-7. **Cocking**: ATP is hydrolysed to ADP and $\mathrm{P_i}$Re-cocking the myosin head.
+7. **Cocking**: ATP is hydrolysed to ADP and $\mathrm{P_i}$ Re-cocking the myosin head.
 8. The cycle repeats as long as $\mathrm{Ca}^{2+}$ and ATP are available.
 
 The result: thin filaments slide past thick filaments, the Z-lines move closer together, and the
@@ -1750,7 +1750,7 @@ A muscle fibre has $10^5$ sarcomeres in series along its length and $10^3$ thick
 Sarcomere cross-section. Each thick filament has approximately 300 myosin heads, and each myosin
 Head generates a force of $4\;\mathrm{pN}$ ($4 \times 10^{-12}\;\mathrm{N}$). (a) Calculate the
 Maximum force per sarcomere cross-section. (b) Calculate the maximum force of the entire fibre. (c)
-If each power stroke moves the thin filament by $5\;\mathrm{nm}$Calculate the work done by One
+If each power stroke moves the thin filament by $5\;\mathrm{nm}$ Calculate the work done by One
 cross-bridge per cycle. (d) Calculate the total work per contraction cycle if $50\%$ of Myosin heads
 are attached simultaneously.
 

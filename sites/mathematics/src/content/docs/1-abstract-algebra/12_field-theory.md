@@ -22,7 +22,7 @@ description: "A is an inclusion of fields. We write and call an of . Comprehensi
 A **field extension** is an inclusion $F \subseteq E$ of fields. We write $E/F$ and call $E$ an
 **extension field** of $F$.
 
-The **degree** of the extension, denoted $[E : F]$Is the dimension of $E$ as a vector space over
+The **degree** of the extension, denoted $[E : F]$ Is the dimension of $E$ as a vector space over
 $F$.
 
 **Proposition 12.1.** If $F \subseteq E \subseteq K$ are field extensions, then
@@ -42,7 +42,7 @@ Having $\alpha$ as a root.
 **Proposition 12.2.** The minimal polynomial of $\alpha$ over $F$ is irreducible in $F[x]$.
 
 _Proof._ If $m_\alpha = fg$ with $\deg(f), \deg(g) \lt \deg(m_\alpha)$ Then $f(\alpha)g(\alpha) = 0$
-So either $f(\alpha) = 0$ or $g(\alpha) = 0$Contradicting the minimality of $\deg(m_\alpha)$.
+So either $f(\alpha) = 0$ or $g(\alpha) = 0$ Contradicting the minimality of $\deg(m_\alpha)$.
 $\blacksquare$
 
 **Theorem 12.3.** $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] \lt \infty$. In
@@ -56,7 +56,7 @@ giving a polynomial relation $f(\alpha) = 0$. $\blacksquare$
 
 ### 12.3 Constructing Extension Fields
 
-**Theorem 12.4 (Kronecker"s Theorem).** If $F$ is a field and $f \in F[x]$ is irreducible, then
+**Theorem 12.4 (Kronecker's Theorem).** If $F$ is a field and $f \in F[x]$ is irreducible, then
 $E = F[x] / (f)$ is a field extension of $F$ containing a root of $f$.
 
 _Proof._ Since $f$ is irreducible and $F[x]$ is a PID, $(f)$ is a maximal ideal, so $E = F[x]/(f)$
@@ -65,7 +65,7 @@ $f(\alpha) = f(x + (f)) = f(x) + (f) = (f) = 0$ I.e., $\alpha$ is a root of $f$.
 
 ### 12.4 Finite Fields
 
-**Theorem 12.5.** For every prime $p$ and every $n \geq 1$There exists a field of order $p^n$ Unique
+**Theorem 12.5.** For every prime $p$ and every $n \geq 1$ There exists a field of order $p^n$ Unique
 up to isomorphism.
 
 _Proof (existence)._ Consider the splitting field of $f(x) = x^{p^n} - x$ over $\mathbb{F}_p$. The
@@ -76,7 +76,7 @@ Multiplication, and taking inverses), and it has exactly $p^n$ elements. $\black
 
 _Proof._ $\mathbb{F}_{p^n}^*$ is a finite abelian group of order $p^n - 1$. Let $m$ be the largest
 order of any element. By Lagrange, every element's order divides $m$. So $x^m = 1$ for all
-$x \in \mathbb{F}_{p^n}^*$Meaning every element is a root of $x^m - 1$. Since $x^m - 1$ has at most
+$x \in \mathbb{F}_{p^n}^*$ Meaning every element is a root of $x^m - 1$. Since $x^m - 1$ has at most
 $m$ roots in a field, $p^n - 1 \leq m$. But $m$ divides $p^n - 1$ So $m = p^n - 1$. $\blacksquare$
 
 ### 12.5 Algebraic Closure
@@ -101,15 +101,15 @@ of $\sqrt{2} + \sqrt{3}$ over $\mathbb{Q}$.
 
 _Solution._ First, $[\mathbb{Q}(\sqrt{2}) : \mathbb{Q}] = 2$ since $x^2 - 2$ is irreducible over
 $\mathbb{Q}$ (by Eisenstein with $p = 2$). Then $\sqrt{3} \notin \mathbb{Q}(\sqrt{2})$: if
-$\sqrt{3} = a + b\sqrt{2}$ With $a, b \in \mathbb{Q}$Squaring gives
-$3 = a^2 + 2b^2 + 2ab\sqrt{2}$Forcing $ab = 0$. If $b = 0$: $a^2 = 3$Impossible in $\mathbb{Q}$. If
-$a = 0$: $2b^2 = 3$Impossible in $\mathbb{Q}$. So
+$\sqrt{3} = a + b\sqrt{2}$ With $a, b \in \mathbb{Q}$ Squaring gives
+$3 = a^2 + 2b^2 + 2ab\sqrt{2}$ Forcing $ab = 0$. If $b = 0$: $a^2 = 3$ Impossible in $\mathbb{Q}$. If
+$a = 0$: $2b^2 = 3$ Impossible in $\mathbb{Q}$. So
 $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}(\sqrt{2})] = 2$.
 
 By the tower law: $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = 2 \cdot 2 = 4$.
 
 For the minimal polynomial of $\alpha = \sqrt{2} + \sqrt{3}$: compute powers.
-$\alpha^2 = 5 + 2\sqrt{6}$ So $\alpha^2 - 5 = 2\sqrt{6}$Giving $\alpha^4 - 10\alpha^2 + 25 = 24$
+$\alpha^2 = 5 + 2\sqrt{6}$ So $\alpha^2 - 5 = 2\sqrt{6}$ Giving $\alpha^4 - 10\alpha^2 + 25 = 24$
 Hence $\alpha^4 - 10\alpha^2 + 1 = 0$. One checks that $f(x) = x^4 - 10x^2 + 1$ is irreducible over
 $\mathbb{Q}$ (no rational roots, no quadratic factor), so $m_\alpha = x^4 - 10x^2 + 1$.
 $\blacksquare$
@@ -161,7 +161,7 @@ There exists $\theta \in E$ such that $E = F(\theta)$.
 
 _Proof (sketch)._ If $F$ is infinite, it suffices to find $\theta = \alpha + c\beta$ for suitable
 $c \in F$ When $E = F(\alpha, \beta)$. Only finitely many values of $c$ fail to work. For $F$ of
-characteristic $0$Every finite extension is separable, so every finite extension of $\mathbb{Q}$ is
+characteristic $0$ Every finite extension is separable, so every finite extension of $\mathbb{Q}$ is
 simple. $\blacksquare$
 
 **Corollary 12.9.** Every finite extension of $\mathbb{Q}$ is simple.

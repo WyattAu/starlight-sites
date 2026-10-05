@@ -34,7 +34,7 @@ $\|f\|_\infty = \mathrm{ess\,sup}|f|$.
 **Remark.** Elements of $L^p$ are equivalence classes of functions equal a.e. The norm $\|\cdot\|_p$
 is well-defined on equivalence classes.
 
-### 7.2 Holder"s Inequality
+### 7.2 Holder's Inequality
 
 **Theorem 7.1 (Holder's Inequality).** Let $1 \leq p, q \leq \infty$ with $1/p + 1/q = 1$. If
 $f \in L^p(\mu)$ and $g \in L^q(\mu)$, then $fg \in L^1(\mu)$ and

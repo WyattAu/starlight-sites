@@ -48,7 +48,7 @@ by (3), $\alpha_i = 0$ for all $i$. $\blacksquare$
 
 ### 2.2 Span
 
-The **span** of a set $S \subseteq V$Denoted $\mathrm{span}(S)$Is the set of all finite linear
+The **span** of a set $S \subseteq V$ Denoted $\mathrm{span}(S)$ Is the set of all finite linear
 Combinations of elements of $S$:
 
 $$
@@ -75,13 +75,13 @@ A set $B \subseteq V$ is a **basis** for $V$ if:
 **Theorem 2.1.** Every vector space has a basis. All bases of a finite-dimensional vector space have
 The same number of elements.
 
-The **dimension** of $V$Denoted $\dim(V)$Is the cardinality of any basis for $V$.
+The **dimension** of $V$ Denoted $\dim(V)$ Is the cardinality of any basis for $V$.
 
 ### 2.4 Steinitz Exchange Lemma
 
 **Lemma 2.3 (Steinitz Exchange Lemma).** Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a linearly
 Independent set in $V$ And let $\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ be a spanning set for $V$.
-Then $k \leq m$ And after relabelling the $\mathbf{w}_j$The set
+Then $k \leq m$ And after relabelling the $\mathbf{w}_j$ The set
 
 $$
 \{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_m\}
@@ -141,13 +141,13 @@ $$
 
 Where $\mathrm{rank}(A) = \dim(\mathrm{col}(A))$ and $\mathrm{nullity}(A) = \dim(\mathrm{null}(A))$.
 
-_Proof._ Let $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ be a basis for $\mathrm{null}(A)$Where
+_Proof._ Let $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ be a basis for $\mathrm{null}(A)$ Where
 $k = \mathrm{nullity}(A)$. Extend this to a basis
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_k, \mathbf{v}_{k+1}, \ldots, \mathbf{v}_n\}$ for $F^n$.
 
 We claim that $\{A\mathbf{v}_{k+1}, \ldots, A\mathbf{v}_n\}$ is a basis for $\mathrm{col}(A)$.
 
-_Spanning:_ For any $\mathbf{y} \in \mathrm{col}(A)$There exists $\mathbf{x} \in F^n$ With
+_Spanning:_ For any $\mathbf{y} \in \mathrm{col}(A)$ There exists $\mathbf{x} \in F^n$ With
 $\mathbf{y} = A\mathbf{x}$. Writing $\mathbf{x} = \sum_{i=1}^n \alpha_i \mathbf{v}_i$
 
 $$
@@ -160,7 +160,7 @@ _Linear independence:_ If $\sum_{i=k+1}^n \alpha_i A\mathbf{v}_i = \mathbf{0}$ T
 $A\left(\sum_{i=k+1}^n \alpha_i \mathbf{v}_i\right) = \mathbf{0}$ So
 $\sum_{i=k+1}^n \alpha_i \mathbf{v}_i \in \mathrm{null}(A)$. Since
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ Is a basis for the null space,
-$\sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ For some $\beta_i$Giving
+$\sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ For some $\beta_i$ Giving
 $\sum_{i=1}^n (-\beta_i)\mathbf{v}_i + \sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \mathbf{0}$. By linear
 independence of the full basis, $\alpha_i = 0$ for all $i \geq k + 1$.
 
@@ -206,7 +206,7 @@ $$
 
 This has pivots in columns 1, 3, and 4. The free variable is $x_2$. Setting $x_2 = t$ and
 Back-substituting: $x_4 = 0$, $x_3 = 0$, $x_1 = -2t$. The null space is
-$\{t(-2, 1, 0, 0) : t \in \mathbb{R}\}$With basis $\{(-2, 1, 0, 0)\}$ and dimension 1.
+$\{t(-2, 1, 0, 0) : t \in \mathbb{R}\}$ With basis $\{(-2, 1, 0, 0)\}$ and dimension 1.
 $\blacksquare$
 
 </details>
@@ -224,7 +224,7 @@ $$
 \det(A) = 1(45 - 48) - 2(36 - 42) + 3(32 - 35) = -3 + 12 - 9 = 0
 $$
 
-Since $\det(A) = 0$The columns are linearly dependent, so
+Since $\det(A) = 0$ The columns are linearly dependent, so
 $\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3\}$ Is not a basis. In fact,
 $\mathbf{v}_3 - 2\mathbf{v}_2 + \mathbf{v}_1 = \mathbf{0}$.
 
@@ -233,7 +233,7 @@ $\blacksquare$
 </details>
 
 :::tip
-whose Columns are those vectors. If $\det \neq 0$They form a basis; if $\det = 0$They do not.
+whose Columns are those vectors. If $\det \neq 0$ They form a basis; if $\det = 0$ They do not.
 
 **Problem.** Let $V = \mathcal{P}_3(\mathbb{R})$ (polynomials of degree at most 3). Find the
 dimension Of the subspace $W = \{p \in \mathcal{P}_3 : p(1) = p(-1) = 0\}$.

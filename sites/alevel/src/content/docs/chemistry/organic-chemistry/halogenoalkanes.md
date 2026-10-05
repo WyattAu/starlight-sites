@@ -23,7 +23,7 @@ categories:
 ## Halogenoalkanes
 
 Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an
-Alkane have been replaced by a halogen atom. The general formula is $\mathrm{R-X}$Where $\mathrm{X}$
+Alkane have been replaced by a halogen atom. The general formula is $\mathrm{R-X}$ Where $\mathrm{X}$
 is F, Cl, Br, or I. The C--X bond is polar (halogens are more electronegative than Carbon), making
 the carbon electrophilic and susceptible to attack by nucleophiles.
 
@@ -164,13 +164,13 @@ $$
 - **High temperature:** Elimination has a higher activation energy than substitution (breaking two
   $\sigma$ bonds vs one), so increasing temperature favours elimination (Arrhenius equation: $E_a$
   effects dominate at higher $T$).
-- **Strong, bulky base:** Bulky bases (e.g. $\mathrm{KO}^\mathrm{t}\mathrm{Bu}$Potassium
+- **Strong, bulky base:** Bulky bases (e.g. $\mathrm{KO}^\mathrm{t}\mathrm{Bu}$ Potassium
   tert-butoxide) are hindered from the backside attack required for SN2 and instead abstract a
   proton.
 - **Tertiary substrate:** Tertiary halogenoalkanes are heavily sterically hindered for SN2 and form
   stable carbocations for E1/E2.
 
-### Zaitsev"s Rule
+### Zaitsev's Rule
 
 When multiple elimination products are possible, the major product is the more substituted alkene
 (the alkene with the greater number of alkyl groups on the C=C double bond). This is because more
@@ -182,7 +182,7 @@ For 2-bromobutane: elimination gives a mixture of but-1-ene (minor) and but-2-en
 
 ### Chlorofluorocarbons (CFCs)
 
-CFCs (e.g. $\mathrm{CCl}_3\mathrm{F}$CFC-11; $\mathrm{CCl}_2\mathrm{F}_2$CFC-12) were widely Used as
+CFCs (e.g. $\mathrm{CCl}_3\mathrm{F}$ CFC-11; $\mathrm{CCl}_2\mathrm{F}_2$ CFC-12) were widely Used as
 refrigerants, propellants, and blowing agents. Their advantages (non-toxic, non-flammable,
 Chemically inert in the troposphere) led to massive global production.
 
@@ -247,7 +247,7 @@ Current replacements include:
 | ------------------------- | ----------------------------------------------------- | ------------------ | ------------------------- |
 | HFCs                      | $\mathrm{CF}_3\mathrm{CH}_2\mathrm{F}$ (HFC-134a)     | Zero (no chlorine) | High (GWP $\approx 1430$) |
 | HFOs (hydrofluoroolefins) | $\mathrm{CF}_3\mathrm{CF}=\mathrm{CH}_2$ (HFO-1234yf) | Zero               | Low (GWP $\approx 4$)     |
-| Natural refrigerants      | $\mathrm{NH}_3$$\mathrm{CO}_2$Hydrocarbons            | Zero               | Zero or low               |
+| Natural refrigerants      | $\mathrm{NH}_3$$\mathrm{CO}_2$ Hydrocarbons            | Zero               | Zero or low               |
 
 HFOs are the latest generation of refrigerants, designed to have both zero ozone depletion potential
 and very low global warming potential.
@@ -263,7 +263,7 @@ $$
 \mathrm{R-X} + \mathrm{H}_2\mathrm{O} \to \mathrm{R-OH} + \mathrm{X}^-
 $$
 
-Adding $\mathrm{AgNO}_3(aq)$ produces a precipitate ($\mathrm{AgCl}$$\mathrm{AgBr}$Or
+Adding $\mathrm{AgNO}_3(aq)$ produces a precipitate ($\mathrm{AgCl}$$\mathrm{AgBr}$ Or
 $\mathrm{AgI}$) whose appearance can be timed. The time for the precipitate to appear is inversely
 proportional to the rate of hydrolysis.
 
@@ -309,7 +309,7 @@ $$
 Net reaction: $2\mathrm{O}_3 \to 3\mathrm{O}_2$
 
 One chlorine radical can destroy approximately $100\,000$ ozone molecules before being removed from
-the cycle (by forming $\mathrm{HCl}$Which diffuses back to the troposphere).
+the cycle (by forming $\mathrm{HCl}$ Which diffuses back to the troposphere).
 
 ### Why CFCs Are Particularly Damaging
 
@@ -505,7 +505,7 @@ Step 1: The $\mathrm{OH}^-$ ion approaches the carbon bearing the bromine from t
 the C--Br bond (backside attack at $180^\circ$ to the leaving group).
 
 Step 2: As the C--O bond begins to form, the C--Br bond weakens and elongates. A transition state is
-formed in which the central carbon is partially bonded to both $\mathrm{OH}$ and $\mathrm{Br}$With
+formed in which the central carbon is partially bonded to both $\mathrm{OH}$ and $\mathrm{Br}$ With
 the three remaining groups arranged in a trigonal planar geometry.
 
 Transition state:
@@ -609,7 +609,7 @@ Arrhenius equation).
 | 1-iodobutane   | Fast (immediate)     | $\mathrm{AgI}$ (yellow) |
 
 **Conclusion:** The rate of hydrolysis increases in the order
-$\mathrm{C}\text{-}\mathrm{Cl} \lt \mathrm{C}\text{-}\mathrm{Br} \lt \mathrm{C}\text{-}\mathrm{I}$Consistent
+$\mathrm{C}\text{-}\mathrm{Cl} \lt \mathrm{C}\text{-}\mathrm{Br} \lt \mathrm{C}\text{-}\mathrm{I}$ Consistent
 with the decreasing bond enthalpy:
 $\mathrm{C}\text{-}\mathrm{Cl} \,(339\,\mathrm{kJ/mol}) \gt \mathrm{C}\text{-}\mathrm{Br} \,(276\,\mathrm{kJ/mol}) \gt \mathrm{C}\text{-}\mathrm{I} \,(238\,\mathrm{kJ/mol})$.
 
@@ -869,8 +869,8 @@ because they can be prepared from alcohols and can be converted to many other fu
 
 | Target                  | Disconnection                                                      | Equivalent synthons               | Forward reagents                    |
 | ----------------------- | ------------------------------------------------------------------ | --------------------------------- | ----------------------------------- |
-| Alcohol $\mathrm{R-OH}$ | $\mathrm{C}\text{-}\mathrm{OH} \to \mathrm{C}\text{-}\mathrm{X}$   | $\mathrm{R-X}$ + $\mathrm{OH}^-$  | $\mathrm{NaOH}(aq)$SN2              |
-| Nitrile $\mathrm{R-CN}$ | $\mathrm{C}\text{-}\mathrm{CN} \to \mathrm{C}\text{-}\mathrm{X}$   | $\mathrm{R-X}$ + $\mathrm{CN}^-$  | $\mathrm{KCN}$Ethanol               |
+| Alcohol $\mathrm{R-OH}$ | $\mathrm{C}\text{-}\mathrm{OH} \to \mathrm{C}\text{-}\mathrm{X}$   | $\mathrm{R-X}$ + $\mathrm{OH}^-$  | $\mathrm{NaOH}(aq)$ SN2              |
+| Nitrile $\mathrm{R-CN}$ | $\mathrm{C}\text{-}\mathrm{CN} \to \mathrm{C}\text{-}\mathrm{X}$   | $\mathrm{R-X}$ + $\mathrm{CN}^-$  | $\mathrm{KCN}$ Ethanol               |
 | Amine $\mathrm{R-NH_2}$ | $\mathrm{C}\text{-}\mathrm{NH_2} \to \mathrm{C}\text{-}\mathrm{X}$ | $\mathrm{R-X}$ + $\mathrm{NH_3}$  | Excess $\mathrm{NH_3}$              |
 | Ether $\mathrm{R-O-R'}$ | $\mathrm{C}\text{-}\mathrm{O} \to \mathrm{C}\text{-}\mathrm{X}$    | $\mathrm{R-X}$ + $\mathrm{R'O}^-$ | Williamson synthesis                |
 | Alkene $\mathrm{C=C}$   | $\mathrm{C=C} \to \mathrm{C-C-X}$                                  | Elimination of HX                 | $\mathrm{KOH}$ in ethanol, $\Delta$ |

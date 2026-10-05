@@ -137,8 +137,8 @@ $$
 \frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)
 $$
 
-When $N \ll K$Growth is approximately exponential. When $N$ approaches $K$Growth rate declines
-Towards zero. If $N \gt K$The population overshoots and declines.
+When $N \ll K$ Growth is approximately exponential. When $N$ approaches $K$ Growth rate declines
+Towards zero. If $N \gt K$ The population overshoots and declines.
 
 ### 2.2 Population Regulation
 
@@ -202,9 +202,9 @@ Atmosphere, atmospheric $\mathrm{N_2}$ is unreactive and cannot be used directly
   catalyses:
   $\mathrm{N_2} + 6\mathrm{H}^+ + 6e^- + 16\mathrm{ATP} \to 2\mathrm{NH_3} + 16\mathrm{ADP} + 16P_i$.
 - **Industrial fixation**: Haber process
-  ($\mathrm{N_2} + 3\mathrm{H_2} \rightleftharpoons 2\mathrm{NH_3}$High temperature and pressure,
+  ($\mathrm{N_2} + 3\mathrm{H_2} \rightleftharpoons 2\mathrm{NH_3}$ High temperature and pressure,
   iron catalyst).
-- **Lightning**: high energy converts $\mathrm{N_2}$ to $\mathrm{NO_x}$Which dissolves in rain as
+- **Lightning**: high energy converts $\mathrm{N_2}$ to $\mathrm{NO_x}$ Which dissolves in rain as
   $\mathrm{NO_3^-}$.
 
 1. **Nitrification**: conversion of $\mathrm{NH_4^+}$ to nitrite ($\mathrm{NO_2^-}$) by
@@ -323,7 +323,7 @@ $20\ \mathrm{mg\ dm^{-3}}$.
 **Example**: DDT (dichlorodiphenyltrichloroethane) was widely used as an insecticide. Its
 Persistence, bioaccumulation, and biomagnification caused eggshell thinning in birds of prey
 (ospreys, peregrine falcons), leading to population declines. DDT was banned in most countries
-Following Rachel Carson"s _Silent Spring_ (1962).
+Following Rachel Carson's _Silent Spring_ (1962).
 
 ### 5.3 Deforestation
 
@@ -469,7 +469,7 @@ population doubles 5 times: $100 \times 2^5 = 3200$ (consistent with the exponen
 within rounding).
 
 **Worked Example 2.** A population of rabbits has carrying capacity $K = 500$ and intrinsic rate of
-Increase $r = 1.2\ \mathrm{yr^{-1}}$. If the current population is $N = 100$What is the current rate
+Increase $r = 1.2\ \mathrm{yr^{-1}}$. If the current population is $N = 100$ What is the current rate
 Of population growth?
 
 $$
@@ -512,7 +512,7 @@ captured by Producers ( less than 3%).
 ### 9.1 Quantifying the Nitrogen Cycle
 
 **Worked Example.** A farmer applies $150\ \mathrm{kg\ ha^{-1}}$ of ammonium nitrate fertiliser
-($\mathrm{NH_4NO_3}$Molar mass $= 80\ \mathrm{g\ mol^{-1}}$). Calculate the mass of nitrogen applied
+($\mathrm{NH_4NO_3}$ Molar mass $= 80\ \mathrm{g\ mol^{-1}}$). Calculate the mass of nitrogen applied
 Per hectare.
 
 Molar mass of $\mathrm{NH_4NO_3} = 2(14) + 4(1) + 3(16) = 80\ \mathrm{g\ mol^{-1}}$.
@@ -587,7 +587,7 @@ $= \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}} = \sqrt{\frac{(12-10.5)^2 + (8-10.5)
 Standard error
 $= \frac{s}{\sqrt{n}} = \frac{2.80}{\sqrt{10}} = 0.89\ \mathrm{daisies\ per\ quadrat}$.
 
-The 95% confidence interval is approximately $\bar{x} \pm 2 \times \mathrm{SE} = 10.5 \pm 1.78$Or
+The 95% confidence interval is approximately $\bar{x} \pm 2 \times \mathrm{SE} = 10.5 \pm 1.78$ Or
 8.72 to 12.28 daisies per quadrat. Converting to total population: 174400 to 245600 daisies.
 
 ### 10.2 The Lincoln Index (Capture-Mark-Recapture)
@@ -804,7 +804,7 @@ Explain the mechanism of the enhanced greenhouse effect and discuss the evidence
 Activities to global warming.
 
 **Answer.** The greenhouse effect occurs when greenhouse gases ($\mathrm{CO_2}$, $\mathrm{CH_4}$
-$\mathrm{N_2O}$Water vapour) in the atmosphere absorb infrared radiation re-emitted by the Earth's
+$\mathrm{N_2O}$ Water vapour) in the atmosphere absorb infrared radiation re-emitted by the Earth's
 Surface and re-radiate it in all directions, including back towards the surface, warming the planet.
 The enhanced greenhouse effect refers to the additional warming caused by increased atmospheric
 Concentrations of these gases due to human activities. Evidence: (1) Atmospheric $\mathrm{CO_2}$ has
@@ -840,8 +840,8 @@ Overestimation of $N$ (denominator is smaller). Assumption 2: marked individuals
 the Population. If marked individuals remain clustered near the release point, the probability of
 recapture Is higher in that area, potentially causing either over- or under-estimation depending on
 where the Second sample is taken. Assumption 3: the population is closed (no births, deaths,
-immigration, or Emigration). Deaths of marked individuals reduce $n_3$Causing overestimation.
-Immigration of Unmarked individuals increases the population but not $n_3$Also causing
+immigration, or Emigration). Deaths of marked individuals reduce $n_3$ Causing overestimation.
+Immigration of Unmarked individuals increases the population but not $n_3$ Also causing
 overestimation.
 
 (c) Larger sample sizes reduce the effect of random sampling error. The estimate
@@ -967,11 +967,11 @@ Using the exponential model:
 $N_t = 100 \times e^{0.5 \times 10} = 100 \times e^5 = 100 \times 148.4 = 14,840$ cells after 10
 hours.
 
-Using the logistic model (at $t = 10\ \mathrm{h}$Assuming $N \ll K$): the result is approximately
+Using the logistic model (at $t = 10\ \mathrm{h}$ Assuming $N \ll K$): the result is approximately
 the same because the population is far below $K$.
 
 At $t = 30\ \mathrm{h}$: exponential model gives $N = 100 \times e^{15} = 3.27 \times 10^8$ cells
-(exceeds $K$Unrealistic). The logistic model would cap the population at $K = 10^6$.
+(exceeds $K$ Unrealistic). The logistic model would cap the population at $K = 10^6$.
 
 ### 13.3 Survivorship Curves
 
@@ -1273,7 +1273,7 @@ towards the surface, warming the lower atmosphere.
 - **Global temperature records**: average global temperature has risen by approximately $1.1$
   degrees C since 1850, with the rate of warming accelerating since the 1970s.
 - **Ocean acidification**: oceans have absorbed approximately 30% of anthropogenic
-  $\mathrm{CO_2}$Forming carbonic acid and lowering ocean pH by approximately 0.1 units (a 26%
+  $\mathrm{CO_2}$ Forming carbonic acid and lowering ocean pH by approximately 0.1 units (a 26%
   increase in $\mathrm{H^+}$ concentration). This impairs shell formation in marine organisms
   (corals, molluscs).
 - **Sea level rise**: thermal expansion of seawater and melting of land ice have raised global sea
@@ -1364,7 +1364,7 @@ $$
 
 $\text{SE} = \sqrt{\frac{50 \times 40 \times 40 \times 30}{1000}} = \sqrt{\frac{2400000}{1000}} = \sqrt{2400} = 49$.
 
-Approximate 95% confidence interval: $200 \pm 98$Or 102 to 298.
+Approximate 95% confidence interval: $200 \pm 98$ Or 102 to 298.
 
 This wide range reflects the uncertainty inherent in CMRR estimates with relatively small sample
 sizes.

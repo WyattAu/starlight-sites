@@ -371,8 +371,8 @@ $$
 EcoRI at position $1000\ \mathrm{bp}$ and with BamHI at position $3500\ \mathrm{bp}$. How many
 fragments are produced and what are their sizes?
 
-EcoRI cuts at $1000\ \mathrm{bp}$Producing fragments of $1000\ \mathrm{bp}$ and $4000\ \mathrm{bp}$.
-BamHI cuts the $4000\ \mathrm{bp}$ fragment at position $3500\ \mathrm{bp}$Producing fragments of
+EcoRI cuts at $1000\ \mathrm{bp}$ Producing fragments of $1000\ \mathrm{bp}$ and $4000\ \mathrm{bp}$.
+BamHI cuts the $4000\ \mathrm{bp}$ fragment at position $3500\ \mathrm{bp}$ Producing fragments of
 $2500\ \mathrm{bp}$ ($3500 - 1000$) and $1500\ \mathrm{bp}$ ($5000 - 3500$).
 
 Final fragments: $1000\ \mathrm{bp}$, $2500\ \mathrm{bp}$ And $1500\ \mathrm{bp}$ (three fragments).
@@ -934,7 +934,7 @@ threshold. A lower $C_t$ value indicates a higher starting concentration of the 
 The amount of DNA doubles with each cycle: after $n$ cycles, the amount of DNA
 $= \text{initial amount} \times 2^n$.
 
-If Sample A has $C_t = 20$ and Sample B has $C_t = 26$The difference is 6 cycles. The starting
+If Sample A has $C_t = 20$ and Sample B has $C_t = 26$ The difference is 6 cycles. The starting
 concentration of DNA in Sample A is $2^6 = 64$ times higher than in Sample B.
 
 ### 18.3 Reverse Transcription PCR (RT-PCR)
@@ -999,7 +999,7 @@ locus is approximately $0.005$ Then:
 $\text{Match probability} = (0.005)^{10} = 9.77 \times 10^{-24}$.
 
 This means the probability of a random person matching the DNA profile is approximately 1 in
-$10^{23}$Making it virtually certain that the suspect is the source of the DNA.
+$10^{23}$ Making it virtually certain that the suspect is the source of the DNA.
 
 ## 20. Cloning Organisms
 
@@ -1129,7 +1129,7 @@ selection programmes) produce over $50\ \mathrm{g\ L^{-1}}$.
 | Pollutant         | Microorganism                     | Mechanism                                                                                 |
 | ----------------- | --------------------------------- | ----------------------------------------------------------------------------------------- |
 | Oil spills        | _Pseudomonas_ spp., _Alcanivorax_ | Degrade hydrocarbons in crude oil into $\mathrm{CO_2}$ and water                          |
-| Heavy metals      | _Geobacter_ spp.                  | Reduce $\mathrm{U^{6+}}$ to $\mathrm{U^{4+}}$Making uranium insoluble and immobilising it |
+| Heavy metals      | _Geobacter_ spp.                  | Reduce $\mathrm{U^{6+}}$ to $\mathrm{U^{4+}}$ Making uranium insoluble and immobilising it |
 | Pesticides        | _Bacillus_ spp.                   | Produce enzymes that break down organophosphate pesticides                                |
 | Sewage            | Mixed microbial communities       | Degrade organic matter in primary and secondary treatment                                 |
 | Plastic pollution | _Ideonella sakaiensis_            | Produces PETase enzyme that breaks down PET plastic                                       |
@@ -1541,7 +1541,7 @@ After fermentation, the desired product must be extracted and purified:
 | Temperature control | Water bath or incubator    | Jacketed vessel with cooling water                            |
 | pH control          | Manual or simple buffer    | Automated acid/base addition                                  |
 | Sterilisation       | Autoclave                  | Steam-in-place (SIP) at 121 degrees C for 30+ minutes         |
-| Monitoring          | Manual sampling            | Online probes (pH, dissolved $\mathrm{O_2}$Temperature, foam) |
+| Monitoring          | Manual sampling            | Online probes (pH, dissolved $\mathrm{O_2}$ Temperature, foam) |
 
 ## 32. Genomics and Personalised Medicine
 
@@ -1888,7 +1888,7 @@ A researcher has identified a gene sequence from an unknown bacterium:
 
 They run a BLASTn (nucleotide BLAST) search against the NCBI database. The top hit is:
 
-5'-ATGGCTAGCTGA-3' (100% identity, E-value $= 10^{-12}$From _E. Coli_ -- lacZ gene fragment)
+5'-ATGGCTAGCTGA-3' (100% identity, E-value $= 10^{-12}$ From _E. Coli_ -- lacZ gene fragment)
 
 **Interpretation:**
 

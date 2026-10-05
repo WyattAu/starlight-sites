@@ -228,10 +228,10 @@ This can be proved by induction on the pack size $n$.
 **Base case** ($n = 1$): The fold `(e_1 op ...)` evaluates to `e_1`. This is Right-associative (no
 operator application).
 
-**Inductive step:** Assume the expansion holds for a pack of size $n$Producing:
+**Inductive step:** Assume the expansion holds for a pack of size $n$ Producing:
 $e_1 \oplus (e_2 \oplus (\ldots \oplus e_n))$.
 
-For a pack of size $n + 1$The Standard specifies that the first element is the left operand of the
+For a pack of size $n + 1$ The Standard specifies that the first element is the left operand of the
 Operator, and the remaining elements form the right operand via a nested fold:
 $e_1 \oplus (\mathrm{fold of  (e_2, \ldots, e_{n+1}))$.
 
@@ -419,7 +419,7 @@ The behavior of fold expressions with empty packs depends on the operator [N4950
 | All others | **Ill-formed**                | Must use binary fold with init   |
 
 The identity element rule follows from the mathematical definition: for an operator $\oplus$ with
-Identity element $e$Folding an empty sequence yields $e$. The logical operators `&&` and `||` have
+Identity element $e$ Folding an empty sequence yields $e$. The logical operators `&&` and `||` have
 Well-defined identity elements (`true` and `false` respectively), and the comma operator has the
 Identity element `void()` (a no-op expression).
 

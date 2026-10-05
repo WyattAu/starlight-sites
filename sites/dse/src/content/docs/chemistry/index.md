@@ -74,7 +74,7 @@ through to advanced topics.
 ## Stoichiometry and the Mole
 
 - **[Mole Concept and Stoichiometry](/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/)** --
-  Relative atomic/molecular masses, the mole, Avogadro"s number, molar volume, empirical and
+  Relative atomic/molecular masses, the mole, Avogadro's number, molar volume, empirical and
   molecular formulae, and volumetric analysis
 - **[Stoichiometry and Mole Concept](/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/)** --
   Relative atomic mass, molar calculations, empirical formulae, concentration, and limiting reagents

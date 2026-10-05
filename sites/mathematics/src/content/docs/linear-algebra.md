@@ -26,7 +26,7 @@ import Citations from '@components/Citations.astro'
 Before studying linear algebra, the reader should be familiar with:
 
 - **Basic set theory**: sets, subsets, functions, injectivity, surjectivity.
-- **Complex numbers**: arithmetic, polar form, Euler"s formula.
+- **Complex numbers**: arithmetic, polar form, Euler's formula.
 - **Mathematical proof techniques**: direct proof, proof by contradiction, mathematical induction.
 - **Single-variable calculus**: limits, continuity, differentiation (for the matrix calculus later in the course).
 
@@ -50,7 +50,7 @@ $\alpha, \beta \in F$:
    $(\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w})$
 3. **Additive identity**: There exists $\mathbf{0} \in V$ such that
    $\mathbf{v} + \mathbf{0} = \mathbf{v}$
-4. **Additive inverse**: For each $\mathbf{v}$There exists $-\mathbf{v}$ such that
+4. **Additive inverse**: For each $\mathbf{v}$ There exists $-\mathbf{v}$ such that
    $\mathbf{v} + (-\mathbf{v}) = \mathbf{0}$
 5. **Compatibility of scalar multiplication**: $\alpha(\beta \mathbf{v}) = (\alpha\beta)\mathbf{v}$
 6. **Identity element of scalar multiplication**: $1 \cdot \mathbf{v} = \mathbf{v}$
@@ -70,9 +70,9 @@ space Over $\mathbb{R}$.
 
 **Example 2.** The set $\mathcal{P}_n$ of all polynomials of degree at most $n$ with real
 coefficients, With the usual polynomial addition and scalar multiplication, is a vector space over
-$\mathbb{R}$. Its dimension is $n + 1$With standard basis $\{1, x, x^2, \ldots, x^n\}$.
+$\mathbb{R}$. Its dimension is $n + 1$ With standard basis $\{1, x, x^2, \ldots, x^n\}$.
 
-**Example 3.** The set $C[a,b]$ of all continuous real-valued functions on $[a,b]$With point-wise
+**Example 3.** The set $C[a,b]$ of all continuous real-valued functions on $[a,b]$ With point-wise
 Addition and scalar multiplication, is a vector space over $\mathbb{R}$. This space is
 Infinite-dimensional.
 
@@ -127,7 +127,7 @@ $\alpha_k \mathbf{v}_k \in W$ by closure under scalar multiplication. Their sum 
 under addition. $\blacksquare$
 
 **Example 7.** The set of all solutions to the homogeneous equation $A\mathbf{x} = \mathbf{0}$ forms
-a Subspace of $\mathbb{R}^n$Called the **null space** of $A$.
+a Subspace of $\mathbb{R}^n$ Called the **null space** of $A$.
 
 ### 1.4 Worked Example: Verifying Subspace Criteria
 
@@ -164,7 +164,7 @@ Under scalar multiplication.
 
 **(c)** Let $\mathbf{u} = (0, a, a)$ and $\mathbf{v} = (0, b, b)$ be in $W_3$. Then
 $\mathbf{u} + \mathbf{v} = (0, a + b, a + b) \in W_3$ and
-$\alpha \mathbf{u} = (0, \alpha a, \alpha a) \in W_3$. Since $(0, 0, 0) \in W_3$It is a non-empty
+$\alpha \mathbf{u} = (0, \alpha a, \alpha a) \in W_3$. Since $(0, 0, 0) \in W_3$ It is a non-empty
 subspace.
 
 $\blacksquare$
@@ -249,7 +249,7 @@ by (3), $\alpha_i = 0$ for all $i$. $\blacksquare$
 
 ### 2.2 Span
 
-The **span** of a set $S \subseteq V$Denoted $\mathrm{span}(S)$Is the set of all finite linear
+The **span** of a set $S \subseteq V$ Denoted $\mathrm{span}(S)$ Is the set of all finite linear
 Combinations of elements of $S$:
 
 $$
@@ -276,13 +276,13 @@ A set $B \subseteq V$ is a **basis** for $V$ if:
 **Theorem 2.1.** Every vector space has a basis. All bases of a finite-dimensional vector space have
 The same number of elements.
 
-The **dimension** of $V$Denoted $\dim(V)$Is the cardinality of any basis for $V$.
+The **dimension** of $V$ Denoted $\dim(V)$ Is the cardinality of any basis for $V$.
 
 ### 2.4 Steinitz Exchange Lemma
 
 **Lemma 2.3 (Steinitz Exchange Lemma).** Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a linearly
 Independent set in $V$ And let $\{\mathbf{w}_1, \ldots, \mathbf{w}_m\}$ be a spanning set for $V$.
-Then $k \leq m$ And after relabelling the $\mathbf{w}_j$The set
+Then $k \leq m$ And after relabelling the $\mathbf{w}_j$ The set
 
 $$
 \{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_m\}
@@ -342,13 +342,13 @@ $$
 
 Where $\mathrm{rank}(A) = \dim(\mathrm{col}(A))$ and $\mathrm{nullity}(A) = \dim(\mathrm{null}(A))$.
 
-_Proof._ Let $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ be a basis for $\mathrm{null}(A)$Where
+_Proof._ Let $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ be a basis for $\mathrm{null}(A)$ Where
 $k = \mathrm{nullity}(A)$. Extend this to a basis
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_k, \mathbf{v}_{k+1}, \ldots, \mathbf{v}_n\}$ for $F^n$.
 
 We claim that $\{A\mathbf{v}_{k+1}, \ldots, A\mathbf{v}_n\}$ is a basis for $\mathrm{col}(A)$.
 
-_Spanning:_ For any $\mathbf{y} \in \mathrm{col}(A)$There exists $\mathbf{x} \in F^n$ With
+_Spanning:_ For any $\mathbf{y} \in \mathrm{col}(A)$ There exists $\mathbf{x} \in F^n$ With
 $\mathbf{y} = A\mathbf{x}$. Writing $\mathbf{x} = \sum_{i=1}^n \alpha_i \mathbf{v}_i$
 
 $$
@@ -361,7 +361,7 @@ _Linear independence:_ If $\sum_{i=k+1}^n \alpha_i A\mathbf{v}_i = \mathbf{0}$ T
 $A\left(\sum_{i=k+1}^n \alpha_i \mathbf{v}_i\right) = \mathbf{0}$ So
 $\sum_{i=k+1}^n \alpha_i \mathbf{v}_i \in \mathrm{null}(A)$. Since
 $\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ Is a basis for the null space,
-$\sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ For some $\beta_i$Giving
+$\sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \sum_{i=1}^k \beta_i \mathbf{v}_i$ For some $\beta_i$ Giving
 $\sum_{i=1}^n (-\beta_i)\mathbf{v}_i + \sum_{i=k+1}^n \alpha_i \mathbf{v}_i = \mathbf{0}$. By linear
 independence of the full basis, $\alpha_i = 0$ for all $i \geq k + 1$.
 
@@ -407,7 +407,7 @@ $$
 
 This has pivots in columns 1, 3, and 4. The free variable is $x_2$. Setting $x_2 = t$ and
 Back-substituting: $x_4 = 0$, $x_3 = 0$, $x_1 = -2t$. The null space is
-$\{t(-2, 1, 0, 0) : t \in \mathbb{R}\}$With basis $\{(-2, 1, 0, 0)\}$ and dimension 1.
+$\{t(-2, 1, 0, 0) : t \in \mathbb{R}\}$ With basis $\{(-2, 1, 0, 0)\}$ and dimension 1.
 $\blacksquare$
 
 </details>
@@ -425,7 +425,7 @@ $$
 \det(A) = 1(45 - 48) - 2(36 - 42) + 3(32 - 35) = -3 + 12 - 9 = 0
 $$
 
-Since $\det(A) = 0$The columns are linearly dependent, so
+Since $\det(A) = 0$ The columns are linearly dependent, so
 $\{\mathbf{v}_1, \mathbf{v}_2, \mathbf{v}_3\}$ Is not a basis. In fact,
 $\mathbf{v}_3 - 2\mathbf{v}_2 + \mathbf{v}_1 = \mathbf{0}$.
 
@@ -434,7 +434,7 @@ $\blacksquare$
 </details>
 
 :::tip
-whose Columns are those vectors. If $\det \neq 0$They form a basis; if $\det = 0$They do not.
+whose Columns are those vectors. If $\det \neq 0$ They form a basis; if $\det = 0$ They do not.
 :::
 
 **Problem.** Let $V = \mathcal{P}_3(\mathbb{R})$ (polynomials of degree at most 3). Find the
@@ -482,7 +482,7 @@ _If you get this wrong, revise: Section 2.7 (Worked Examples)._
 
 ### 3.1 Matrix Operations
 
-An $m \times n$ matrix $A$ over $F$ is a rectangular array of $mn$ elements from $F$Arranged in $m$
+An $m \times n$ matrix $A$ over $F$ is a rectangular array of $mn$ elements from $F$ Arranged in $m$
 rows and $n$ columns. The set of all such matrices is denoted $\mathcal{M}_{m \times n}(F)$.
 
 **Addition.** For $A, B \in \mathcal{M}_{m \times n}(F)$, $(A + B)_{ij} = A_{ij} + B_{ij}$.
@@ -509,7 +509,7 @@ $\blacksquare$
 
 ### 3.2 Transpose
 
-The **transpose** of $A \in \mathcal{M}_{m \times n}(F)$Denoted $A^T$Is the $n \times m$ matrix With
+The **transpose** of $A \in \mathcal{M}_{m \times n}(F)$ Denoted $A^T$ Is the $n \times m$ matrix With
 $(A^T)_{ij} = A_{ji}$.
 
 **Properties of transpose:**
@@ -575,7 +575,7 @@ $$
 $$
 
 A matrix with two equal rows has determinant 0 (by antisymmetry: swapping them leaves the matrix
-Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$Hence $\det = 0$). Therefore
+Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$ Hence $\det = 0$). Therefore
 $\det(\mathrm{new}~A) = \det(A)$. $\blacksquare$
 
 **Theorem 3.3 (Multiplicativity).** For $A, B \in \mathcal{M}_{n \times n}(F)$
@@ -603,7 +603,7 @@ Since $\det(B) = \det(E_1)\cdots\det(E_k)\det(U)$. $\blacksquare$
 
 **Corollary 3.4.** $\det(A^T) = \det(A)$ And for invertible $A$, $\det(A^{-1}) = 1/\det(A)$.
 
-_Proof._ $AA^{-1} = I$ So $\det(A)\det(A^{-1}) = \det(I) = 1$Giving $\det(A^{-1}) = 1/\det(A)$. For
+_Proof._ $AA^{-1} = I$ So $\det(A)\det(A^{-1}) = \det(I) = 1$ Giving $\det(A^{-1}) = 1/\det(A)$. For
 the transpose, use the Leibniz formula or observe that row Operations and column operations have the
 same effects on the determinant. $\blacksquare$
 
@@ -627,9 +627,9 @@ $$
 In particular, if $\det(A) \neq 0$ Then $A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)$.
 
 _Proof._ The $(i,j)$-entry of $A \cdot \mathrm{adj}(A)$ is $\sum_{k=1}^n a_{ik} C_{jk}$. When
-$i = j$This is $\sum_{k=1}^n a_{ik} C_{ik} = \det(A)$ (cofactor expansion along row $i$). When
-$i \neq j$This is the cofactor expansion of a matrix obtained from $A$ by replacing row $j$ With row
-$i$Which has two equal rows and hence determinant 0. $\blacksquare$
+$i = j$ This is $\sum_{k=1}^n a_{ik} C_{ik} = \det(A)$ (cofactor expansion along row $i$). When
+$i \neq j$ This is the cofactor expansion of a matrix obtained from $A$ by replacing row $j$ With row
+$i$ Which has two equal rows and hence determinant 0. $\blacksquare$
 
 ### 3.7 Worked Examples
 
@@ -783,7 +783,7 @@ Only the product of diagonal entries. $\blacksquare$
 
 ### 4.1 Gaussian Elimination
 
-A system of $m$ linear equations in $n$ unknowns can be written as $A\mathbf{x} = \mathbf{b}$Where
+A system of $m$ linear equations in $n$ unknowns can be written as $A\mathbf{x} = \mathbf{b}$ Where
 $A \in \mathcal{M}_{m \times n}(\mathbb{R})$, $\mathbf{x} \in \mathbb{R}^n$ And
 $\mathbf{b} \in \mathbb{R}^m$.
 
@@ -868,7 +868,7 @@ Verify: $LU = \begin{pmatrix} 2 & 1 & 1 \\ 4 & 3 & 3 \\ 8 & 7 & 9 \end{pmatrix} 
 
 </details>
 
-To solve $A\mathbf{x} = \mathbf{b}$First solve $L\mathbf{y} = \mathbf{b}$ (forward substitution),
+To solve $A\mathbf{x} = \mathbf{b}$ First solve $L\mathbf{y} = \mathbf{b}$ (forward substitution),
 Then $U\mathbf{x} = \mathbf{y}$ (back substitution).
 
 ### 4.4 Gaussian Elimination with Partial Pivoting
@@ -945,7 +945,7 @@ $\hat{\mathbf{x}} = (A^T A)^{-1} A^T \mathbf{b}$.
 _Proof._ The error vector $\mathbf{e} = A\mathbf{x} - \mathbf{b}$ is minimised when
 $\mathbf{e} \perp \mathrm{col}(A)$ I.e., when $A^T \mathbf{e} = \mathbf{0}$. This gives
 $A^T(A\mathbf{x} - \mathbf{b}) = \mathbf{0}$ Or $A^T A \mathbf{x} = A^T \mathbf{b}$. If $A$ has full
-column rank, then $\ker(A) = \{\mathbf{0}\}$ So $\ker(A^T A) = \ker(A) = \{\mathbf{0}\}$Meaning
+column rank, then $\ker(A) = \{\mathbf{0}\}$ So $\ker(A^T A) = \ker(A) = \{\mathbf{0}\}$ Meaning
 $A^T A$ is invertible. $\blacksquare$
 
 **Problem.** Find the least squares line $y = ax + b$ fitting the data points $(1, 1)$, $(2, 1)$,
@@ -1163,7 +1163,7 @@ $$
 The characteristic polynomial is $\det(A - \lambda I) = (3 - \lambda)^2$ So $\lambda = 3$ is the Only
 eigenvalue with algebraic multiplicity 2.
 
-$A - 3I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$Which has rank 1, so the geometric
+$A - 3I = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ Which has rank 1, so the geometric
 Multiplicity is $\dim(\ker(A - 3I)) = 2 - 1 = 1$.
 
 Since the geometric multiplicity (1) is less than the algebraic multiplicity (2), $A$ is not
@@ -1286,7 +1286,7 @@ $\blacksquare$
 The characteristic polynomial is $p(\lambda) = \lambda^2 - 7\lambda + 10$ So by Cayley--Hamilton,
 $A^2 = 7A - 10I$.
 
-To find $A^{10}$Divide $\lambda^{10}$ by $p(\lambda)$:
+To find $A^{10}$ Divide $\lambda^{10}$ by $p(\lambda)$:
 
 $$
 \lambda^{10} = q(\lambda)(\lambda^2 - 7\lambda + 10) + r(\lambda)
@@ -1294,7 +1294,7 @@ $$
 
 Where $r(\lambda) = a\lambda + b$ has degree less than 2. Then $A^{10} = r(A) = aA + bI$.
 
-To find $a$ and $b$Evaluate at the eigenvalues:
+To find $a$ and $b$ Evaluate at the eigenvalues:
 
 $\lambda^{10}\big|_{\lambda=5} = 5^{10} = 9765625 = 5a + b$
 
@@ -1434,14 +1434,14 @@ $$
 \dim(\ker(T)) + \dim(\mathrm{im}(T)) = \dim(V)
 $$
 
-_Proof._ Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a basis for $\ker(T)$Where
+_Proof._ Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a basis for $\ker(T)$ Where
 $k = \dim(\ker(T))$. Extend to a basis
 $\{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{u}_{k+1}, \ldots, \mathbf{u}_n\}$ of $V$ Where
 $n = \dim(V)$.
 
 We claim $\{T(\mathbf{u}_{k+1}), \ldots, T(\mathbf{u}_n)\}$ is a basis for $\mathrm{im}(T)$.
 
-_Spanning:_ For any $\mathbf{w} \in \mathrm{im}(T)$Write $\mathbf{w} = T(\mathbf{v})$ for some
+_Spanning:_ For any $\mathbf{w} \in \mathrm{im}(T)$ Write $\mathbf{w} = T(\mathbf{v})$ for some
 $\mathbf{v} = \sum_{i=1}^n \alpha_i \mathbf{u}_i \in V$. Then
 
 $$
@@ -1456,7 +1456,7 @@ $\sum_{i=k+1}^n \alpha_i \mathbf{u}_i \in \ker(T)$. Thus
 $\sum_{i=k+1}^n \alpha_i \mathbf{u}_i = \sum_{j=1}^k \beta_j \mathbf{u}_j$ For some $\beta_j$. By
 linear independence of the full basis, all coefficients are zero.
 
-Therefore $\dim(\mathrm{im}(T)) = n - k$Giving $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = n$.
+Therefore $\dim(\mathrm{im}(T)) = n - k$ Giving $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = n$.
 $\blacksquare$
 
 ### 6.5 Isomorphisms
@@ -1473,7 +1473,7 @@ surjective.
 _Proof._ If $T$ is injective, $\ker(T) = \{\mathbf{0}\}$ So
 $\dim(\mathrm{im}(T)) = \dim(V) = \dim(W)$ Hence $\mathrm{im}(T) = W$ (a subspace of full dimension
 equals the whole space). Conversely, If $T$ is surjective,
-$\dim(\mathrm{im}(T)) = \dim(W) = \dim(V)$ So $\dim(\ker(T)) = 0$Giving $\ker(T) = \{\mathbf{0}\}$.
+$\dim(\mathrm{im}(T)) = \dim(W) = \dim(V)$ So $\dim(\ker(T)) = 0$ Giving $\ker(T) = \{\mathbf{0}\}$.
 $\blacksquare$
 
 ### 6.6 Change of Basis
@@ -1533,7 +1533,7 @@ $\blacksquare$
 
 ### 6.8 Dual Spaces
 
-**Definition.** The **dual space** of a vector space $V$ over $F$Denoted $V^*$Is the space of all
+**Definition.** The **dual space** of a vector space $V$ over $F$ Denoted $V^*$ Is the space of all
 Linear functionals $f : V \to F$. Elements of $V^*$ are called **covectors**.
 
 **Proposition 6.6.** If $\dim(V) = n \lt \infty$ Then $\dim(V^*) = n$.
@@ -1563,7 +1563,7 @@ Isomorphism is a special feature of finite-dimensional spaces.
 
 ### 6.9 Annihilators
 
-**Definition.** For a subset $S \subseteq V$The **annihilator** of $S$ is
+**Definition.** For a subset $S \subseteq V$ The **annihilator** of $S$ is
 
 $$
 S^0 = \{f \in V^* : f(s) = 0 \mathrm{~for~all~} s \in S\}
@@ -1572,15 +1572,15 @@ $$
 **Proposition 6.8.** $S^0$ is a subspace of $V^*$ And if $W$ is a subspace of $V$ with
 $\dim(V) = n$ Then $\dim(W^0) = n - \dim(W)$.
 
-_Proof._ $S^0$ is the intersection of the kernels $\ker(s)$ as $s$ ranges over $S$Where each $s$ Is
+_Proof._ $S^0$ is the intersection of the kernels $\ker(s)$ as $s$ ranges over $S$ Where each $s$ Is
 viewed as an element of $V^{**}$ via $\Phi$. Each $\ker(s)$ is a subspace of $V^*$ And any
 Intersection of subspaces is a subspace.
 
 For the dimension: let $\dim(W) = k$ and extend a basis $\{\mathbf{w}_1, \ldots, \mathbf{w}_k\}$ Of
 $W$ to a basis $\{\mathbf{w}_1, \ldots, \mathbf{w}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_n\}$ of
 $V$. Let $\{\varphi_1, \ldots, \varphi_n\}$ be the dual basis. Then $f \in W^0$ iff
-$f(\mathbf{w}_i) = 0$ For $i = 1, \ldots, k$. Writing $f = \sum c_j \varphi_j$We need $c_i = 0$ for
-$i = 1, \ldots, k$. So $f = \sum_{j=k+1}^n c_j \varphi_j$Giving $\dim(W^0) = n - k$. $\blacksquare$
+$f(\mathbf{w}_i) = 0$ For $i = 1, \ldots, k$. Writing $f = \sum c_j \varphi_j$ We need $c_i = 0$ for
+$i = 1, \ldots, k$. So $f = \sum_{j=k+1}^n c_j \varphi_j$ Giving $\dim(W^0) = n - k$. $\blacksquare$
 
 ---
 
@@ -1613,7 +1613,7 @@ A vector space equipped with an inner product is called an **inner product space
 $\langle \mathbf{x}, \mathbf{y} \rangle = \sum_{i=1}^n x_i y_i$. On $\mathbb{C}^n$
 $\langle \mathbf{x}, \mathbf{y} \rangle = \sum_{i=1}^n x_i \overline{y_i}$.
 
-**Example.** On $C[a,b]$The $L^2$ inner product is $\langle f, g \rangle = \int_a^b f(x)g(x)\,dx$.
+**Example.** On $C[a,b]$ The $L^2$ inner product is $\langle f, g \rangle = \int_a^b f(x)g(x)\,dx$.
 
 ### 7.2 Norms
 
@@ -1631,7 +1631,7 @@ $$
 
 With equality if and only if $\mathbf{u}$ and $\mathbf{v}$ are linearly dependent.
 
-_Proof._ If $\mathbf{v} = \mathbf{0}$Both sides are 0 and the result holds. Assume
+_Proof._ If $\mathbf{v} = \mathbf{0}$ Both sides are 0 and the result holds. Assume
 $\mathbf{v} \neq \mathbf{0}$. For any $t \in \mathbb{R}$ (or $\mathbb{C}$), positive definiteness
 gives
 
@@ -1715,7 +1715,7 @@ _Proof._ By construction, $\mathbf{u}_k$ is $\mathbf{v}_k$ minus its projection 
 $\mathrm{span}\{e_1, \ldots, e_{k-1}\} = \mathrm{span}\{\mathbf{v}_1, \ldots, \mathbf{v}_{k-1}\}$.
 So $\mathbf{u}_k \in \mathrm{span}\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ and
 $\mathbf{v}_k = \mathbf{u}_k + \sum_{i=1}^{k-1}\langle \mathbf{v}_k, e_i \rangle e_i \in \mathrm{span}\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$.
-Since each $e_i$ is a scalar multiple of $\mathbf{u}_i$The spans coincide. $\blacksquare$
+Since each $e_i$ is a scalar multiple of $\mathbf{u}_i$ The spans coincide. $\blacksquare$
 
 ### 7.5 Orthogonal Projection
 
@@ -1726,14 +1726,14 @@ $$
 \mathrm{proj_W}(\mathbf{v}) = \sum_{i=1}^k \langle \mathbf{v}, e_i \rangle e_i
 $$
 
-**Theorem 7.6 (Best Approximation).** Among all vectors in $W$The orthogonal projection
+**Theorem 7.6 (Best Approximation).** Among all vectors in $W$ The orthogonal projection
 $\mathrm{proj_W}(\mathbf{v})$ minimises the distance to $\mathbf{v}$:
 
 $$
 \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert \leq \lVert \mathbf{v} - \mathbf{w} \rVert \quad \mathrm{for}~all~ \mathbf{w} \in W
 $$
 
-_Proof._ For any $\mathbf{w} \in W$Write
+_Proof._ For any $\mathbf{w} \in W$ Write
 $\mathbf{v} - \mathbf{w} = (\mathbf{v} - \mathrm{proj_W}(\mathbf{v})) + (\mathrm{proj_W}(\mathbf{v}) - \mathbf{w})$.
 The first term is orthogonal to $W$ (hence to the second term, which lies in $W$), so by the
 Pythagorean theorem:
@@ -1747,7 +1747,7 @@ With equality iff $\mathbf{w} = \mathrm{proj_W}(\mathbf{v})$. $\blacksquare$
 ### 7.6 Least Squares Approximation
 
 A fundamental application of orthogonal projection is fitting functions to data. Given a subspace
-$W$ of an inner product space $V$ and a target $\mathbf{v} \in V$The best approximation in $W$ Is
+$W$ of an inner product space $V$ and a target $\mathbf{v} \in V$ The best approximation in $W$ Is
 the orthogonal projection $\mathrm{proj_W}(\mathbf{v})$.
 
 ### 7.7 Worked Example: Gram--Schmidt
@@ -1901,7 +1901,7 @@ $\sigma_1^2, \sigma_2^2, \ldots, \sigma_n^2$ be these eigenvalues (some may be z
 corresponding orthonormal eigenvectors $\mathbf{v}_1, \ldots, \mathbf{v}_n$ forming the columns of
 $V$.
 
-For each $i$ with $\sigma_i > 0$Define $\mathbf{u}_i = A\mathbf{v}_i / \sigma_i$. We verify that
+For each $i$ with $\sigma_i > 0$ Define $\mathbf{u}_i = A\mathbf{v}_i / \sigma_i$. We verify that
 these form an orthonormal set:
 
 $$
@@ -1915,7 +1915,7 @@ $$
 A\mathbf{x} = A\left(\sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x})\mathbf{v}_i\right) = \sum_{i=1}^{n} (\mathbf{v}_i^T \mathbf{x}) A\mathbf{v}_i = \sum_{i=1}^{r} \sigma_i (\mathbf{v}_i^T \mathbf{x}) \mathbf{u}_i = U \Sigma V^T \mathbf{x}
 $$
 
-Since this holds for all $\mathbf{x}$We have $A = U \Sigma V^T$. $\blacksquare$
+Since this holds for all $\mathbf{x}$ We have $A = U \Sigma V^T$. $\blacksquare$
 
 ### 8.2 Relationship to Eigenvalues
 
@@ -1936,7 +1936,7 @@ $A\mathbf{v} \neq \mathbf{0}$). $\blacksquare$
 **Proposition 8.3.** If $A$ is symmetric with eigenvalues $\lambda_1, \ldots, \lambda_n$ Then the
 singular values of $A$ are $|\lambda_1|, \ldots, |\lambda_n|$.
 
-_Proof._ $A^T A = A^2$Whose eigenvalues are $\lambda_i^2$. The singular values are
+_Proof._ $A^T A = A^2$ Whose eigenvalues are $\lambda_i^2$. The singular values are
 $\sqrt{\lambda_i^2} = |\lambda_i|$. $\blacksquare$
 
 ### 8.3 Geometric Interpretation
@@ -1949,13 +1949,13 @@ The SVD decomposes the linear transformation $T : \mathbb{R}^n \to \mathbb{R}^m$
    where $\sigma_i = 0$).
 3. $U$ rotates (or reflects) the result into the coordinate system of the left singular vectors.
 
-**Unit circle image.** Under $A$The unit circle in $\mathbb{R}^2$ is mapped to an ellipse with
+**Unit circle image.** Under $A$ The unit circle in $\mathbb{R}^2$ is mapped to an ellipse with
 semi-axes $\sigma_1$ and $\sigma_2$ aligned with the columns of $U$.
 
 ### 8.4 Low-Rank Approximation
 
 **Theorem 8.4 (Eckart--Young--Mirsky).** Let $A = U \Sigma V^T$ be the SVD with singular values
-$\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$. For any $k < r$The best rank-$k$
+$\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$. For any $k < r$ The best rank-$k$
 approximation to $A$ (in both the Frobenius and spectral norms) is
 
 $$
@@ -2022,8 +2022,8 @@ $\mathbf{x}^* = A^+\mathbf{b}$ is the least-squares solution of minimum norm.
 
 _Proof._ The least-squares solutions to $A\mathbf{x} \approx \mathbf{b}$ are
 $\mathbf{x} = A^+\mathbf{b} + (I - A^+A)\mathbf{z}$ for arbitrary $\mathbf{z}$. Since
-$(I - A^+A)\mathbf{z} \in \ker(A)$ and $A^+\mathbf{b} \in \mathrm{im}(A^T)$These two components are
-orthogonal. The minimum-norm solution is obtained when $\mathbf{z} = \mathbf{0}$Giving
+$(I - A^+A)\mathbf{z} \in \ker(A)$ and $A^+\mathbf{b} \in \mathrm{im}(A^T)$ These two components are
+orthogonal. The minimum-norm solution is obtained when $\mathbf{z} = \mathbf{0}$ Giving
 $\mathbf{x}^* = A^+\mathbf{b}$. $\blacksquare$
 
 ### 8.6 Condition Number
@@ -2068,7 +2068,7 @@ $A^T A = \begin{pmatrix} 3 & 2 & 2 \\ 2 & 3 & -2 \end{pmatrix}\begin{pmatrix} 3 
 **Step 2:** Eigenvalues of $A^T A$:
 $\det\begin{pmatrix} 17 - \lambda & 4 \\ 4 & 17 - \lambda \end{pmatrix} = (17 - \lambda)^2 - 16 = \lambda^2 - 34\lambda + 273 = (\lambda - 21)(\lambda - 13)$.
 
-So $\sigma_1^2 = 21$ and $\sigma_2^2 = 13$Giving $\sigma_1 = \sqrt{21}$, $\sigma_2 = \sqrt{13}$.
+So $\sigma_1^2 = 21$ and $\sigma_2^2 = 13$ Giving $\sigma_1 = \sqrt{21}$, $\sigma_2 = \sqrt{13}$.
 
 **Step 3:** Eigenvectors of $A^T A$. For $\lambda = 21$: $(17 - 21)v_1 + 4v_2 = 0$ So $v_1 = v_2$.
 Normalised: $\mathbf{v}_1 = \frac{1}{\sqrt{2}}(1, 1)^T$.
@@ -2084,7 +2084,7 @@ $\mathbf{u}_1 = \frac{1}{\sqrt{21}} \cdot \frac{1}{\sqrt{2}}\begin{pmatrix} 3 & 
 
 $\mathbf{u}_2 = \frac{1}{\sqrt{13}} \cdot \frac{1}{\sqrt{2}}\begin{pmatrix} 3 & 2 \\ 2 & 3 \\ 2 & -2 \end{pmatrix}\begin{pmatrix} 1 \\ -1 \end{pmatrix} = \frac{1}{\sqrt{26}}\begin{pmatrix} 1 \\ -1 \\ 4 \end{pmatrix}$.
 
-Since $A$ is $3 \times 2$We need a third left singular vector $\mathbf{u}_3$ orthogonal to
+Since $A$ is $3 \times 2$ We need a third left singular vector $\mathbf{u}_3$ orthogonal to
 $\mathbf{u}_1$ and $\mathbf{u}_2$. Compute
 $\mathbf{u}_3 = \mathbf{u}_1 \times \mathbf{u}_2 = \frac{1}{\sqrt{52}}(4, -4, -2) = \frac{1}{\sqrt{26}}(2, -2, -1)$.
 
@@ -2184,7 +2184,7 @@ $\log_{10}(20000) \approx 4.3$ digits of precision. $\blacksquare$
 ### 8.10 Common Pitfalls
 
 - **Singular values are always non-negative.** Unlike eigenvalues, which can be negative or complex,
-  singular values are the square roots of eigenvalues of $A^T A$Hence always real and non-negative.
+  singular values are the square roots of eigenvalues of $A^T A$ Hence always real and non-negative.
 - **The SVD is not unique.** If $A$ has repeated singular values, the corresponding singular vectors
   can be any orthonormal basis of the eigenspace. The signs of singular vectors can also be flipped
   in pairs.
@@ -2192,7 +2192,7 @@ $\log_{10}(20000) \approx 4.3$ digits of precision. $\blacksquare$
   rank, $A^+A \neq I$; instead, $A^+A$ is the orthogonal projection onto $\mathrm{im}(A^T)$.
 - **The SVD and eigendecomposition are different decompositions.** The SVD always exists for any
   matrix, but the eigendecomposition requires the matrix to be square. Even for symmetric matrices,
-  the singular values are $|\lambda_i|$Not $\lambda_i$.
+  the singular values are $|\lambda_i|$ Not $\lambda_i$.
 
 ---
 
@@ -2245,7 +2245,7 @@ $\mathcal{P}_2(\mathbb{R})$.
 
 Suppose $a(1 - x) + b(1 + x) + cx^2 = 0$ as a polynomial. Then $(a + b) + (-a + b)x + cx^2 = 0$ So
 $a + b = 0$, $-a + b = 0$, $c = 0$. From the first two equations: $2a = 0$ So $a = 0$ Then $b = 0$.
-Since $a = b = c = 0$The set is linearly independent.
+Since $a = b = c = 0$ The set is linearly independent.
 
 _If you get this wrong, revise: Section 2.1 (Linear Independence)._
 
@@ -2280,7 +2280,7 @@ in $\mathbb{R}^3$. Verify the dimension formula $\dim(U + W) = \dim(U) + \dim(W)
 <summary>Solution</summary>
 
 $\dim(U) = 2$ (the two spanning vectors are linearly independent), $\dim(W) = 1$. Since
-$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$We have $U + W = \mathbb{R}^3$ So $\dim(U + W) = 3$. By
+$\dim(U) + \dim(W) = 3 = \dim(\mathbb{R}^3)$ We have $U + W = \mathbb{R}^3$ So $\dim(U + W) = 3$. By
 the dimension formula: $\dim(U \cap W) = 2 + 1 - 3 = 0$ So $U \cap W = \{\mathbf{0}\}$.
 
 We can verify directly: if $a(1,0,1) + b(0,1,1) = c(1,1,0)$ Then $a = c$, $b = c$, $a + b = 0$ Giving
@@ -2319,7 +2319,7 @@ _If you get this wrong, revise: Section 3.4 (Determinants)._
 <summary>Solution</summary>
 
 $\det(A) = \det(A^T) = \det(-A) = (-1)^n \det(A) = -\det(A)$ (since $n$ is odd). Therefore
-$\det(A) = -\det(A)$ So $2\det(A) = 0$Giving $\det(A) = 0$.
+$\det(A) = -\det(A)$ So $2\det(A) = 0$ Giving $\det(A) = 0$.
 
 _If you get this wrong, revise: Section 3.5 (Properties of Determinants)._
 
@@ -2388,7 +2388,7 @@ $$
 $$
 
 $\mathrm{rank}(A) = 2$ but $\mathrm{rank}([A \mid \mathbf{b}]) = 3$ (the row $[0\ 0\ 0\ 1]$ is
-Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$The system is
+Non-zero). Since $\mathrm{rank}(A) \neq \mathrm{rank}([A \mid \mathbf{b}])$ The system is
 inconsistent.
 
 _If you get this wrong, revise: Section 4.2 (Rouché--Capelli Theorem)._
@@ -2460,7 +2460,7 @@ Is $A$ diagonalisable?
 
 $\det(A - \lambda I) = (2 - \lambda)^3$ So $\lambda = 2$ with algebraic multiplicity 3.
 
-$A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$Which has rank 2. The
+$A - 2I = \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{pmatrix}$ Which has rank 2. The
 null space is spanned by $(1, 0, 0)^T$. So the geometric multiplicity is 1.
 
 Since the geometric multiplicity (1) does not equal the algebraic multiplicity (3), $A$ is **not**
@@ -2502,7 +2502,7 @@ _If you get this wrong, revise: Section 5.3 (Diagonalisation)._
 </details>
 
 **Problem 15.** Use the Cayley--Hamilton theorem to express $A^3$ as a linear combination of $A^2$,
-$A$ And $I$Where $A = \begin{pmatrix} 1 & 2 \\ -1 & 3 \end{pmatrix}$.
+$A$ And $I$ Where $A = \begin{pmatrix} 1 & 2 \\ -1 & 3 \end{pmatrix}$.
 
 <details>
 <summary>Solution</summary>
@@ -2572,7 +2572,7 @@ _If you get this wrong, revise: Section 7.5 (Orthogonal Projection)._
 </details>
 
 **Problem 18.** Prove the Cauchy--Schwarz inequality for $\mathbb{R}^n$ directly: for any nonzero
-$\mathbf{x}, \mathbf{y} \in \mathbb{R}^n$Show that
+$\mathbf{x}, \mathbf{y} \in \mathbb{R}^n$ Show that
 $\lvert\mathbf{x} \cdot \mathbf{y}\rvert \leq \lVert \mathbf{x} \rVert \lVert \mathbf{y} \rVert$ And
 determine when equality holds.
 
@@ -2582,7 +2582,7 @@ determine when equality holds.
 Consider the function
 $f(t) = \lVert \mathbf{x} + t\mathbf{y} \rVert^2 = \lVert \mathbf{x} \rVert^2 + 2t(\mathbf{x} \cdot \mathbf{y}) + t^2 \lVert \mathbf{y} \rVert^2$.
 
-Since $f(t) \geq 0$ for all $t \in \mathbb{R}$This quadratic in $t$ has at most one real root, So
+Since $f(t) \geq 0$ for all $t \in \mathbb{R}$ This quadratic in $t$ has at most one real root, So
 its discriminant satisfies $\Delta \leq 0$:
 
 $4(\mathbf{x} \cdot \mathbf{y})^2 - 4\lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2 \leq 0$
@@ -2591,8 +2591,8 @@ Therefore
 $(\mathbf{x} \cdot \mathbf{y})^2 \leq \lVert \mathbf{x} \rVert^2 \lVert \mathbf{y} \rVert^2$ And
 taking square roots gives the result.
 
-Equality holds iff $\Delta = 0$Which means $f(t)$ has a double root, i.e., there exists $t_0$ such
-that $\mathbf{x} + t_0 \mathbf{y} = \mathbf{0}$Meaning $\mathbf{x}$ and $\mathbf{y}$ are linearly
+Equality holds iff $\Delta = 0$ Which means $f(t)$ has a double root, i.e., there exists $t_0$ such
+that $\mathbf{x} + t_0 \mathbf{y} = \mathbf{0}$ Meaning $\mathbf{x}$ and $\mathbf{y}$ are linearly
 dependent.
 
 _If you get this wrong, revise: Section 7.2 (Cauchy--Schwarz Inequality)._
@@ -2619,7 +2619,7 @@ $p(A) = -\begin{pmatrix} 1 & 0 & 0 \\ 0 & 14 & 13 \\ 0 & 13 & 14 \end{pmatrix} +
 
 $= \begin{pmatrix} -1+5-7+3 & 0 & 0 \\ 0 & -14+25-14+3 & -13+20-7+0 \\ 0 & -13+20-7+0 & -14+25-14+3 \end{pmatrix} = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}$
 
-So $p(A) = 0$Confirming Cayley--Hamilton. $\blacksquare$
+So $p(A) = 0$ Confirming Cayley--Hamilton. $\blacksquare$
 
 _If you get this wrong, revise: Section 5.4 (Cayley--Hamilton Theorem)._
 

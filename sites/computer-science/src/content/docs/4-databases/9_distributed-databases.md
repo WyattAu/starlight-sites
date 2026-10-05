@@ -162,7 +162,7 @@ visibility Of updates.
 **Write:** Client writes value $v$. Primary sends write to all 5 replicas. At least 3 acknowledge
 ($W = 3$). Write is considered successful.
 
-**Read:** Client reads from 3 replicas ($R = 3$). Since $W + R \gt N$Any read quorum overlaps With
+**Read:** Client reads from 3 replicas ($R = 3$). Since $W + R \gt N$ Any read quorum overlaps With
 the write quorum, so the reader is guaranteed to see at least one replica with the latest Value. The
 reader returns the most recent version among the 3 responses.
 

@@ -133,7 +133,7 @@ Exceeding these limits can cause electromigration and permanent silicon degradat
 | AMD Zen 5 (Ryzen 9000)               | 1.30 V             | Similar to Zen 4                                     |
 
 These are conservative long-term limits. Short bursts above these values (transient spikes) are
-Normal and handled by the CPU"s internal protections. The concern is sustained voltage at or above
+Normal and handled by the CPU's internal protections. The concern is sustained voltage at or above
 These thresholds under load.
 
 ---

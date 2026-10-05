@@ -141,7 +141,7 @@ $1 \text{ u} = 931.5 \text{ MeV}/c^2$, $1 \text{ eV} = 1.6 \times 10^{-19}$ J.
 
 (a) Calculate the binding energy per nucleon of $^{56}\text{Fe}$. (b) Calculate the binding energy
 per nucleon of $^{235}\text{U}$. (c) For the fission reaction
-$^{235}\text{U} + n \to ^{141}\text{Ba} + ^{92}\text{Kr} + 3n$Calculate the energy released.
+$^{235}\text{U} + n \to ^{141}\text{Ba} + ^{92}\text{Kr} + 3n$ Calculate the energy released.
 
 **Solution:**
 

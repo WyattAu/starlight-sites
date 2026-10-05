@@ -3367,7 +3367,7 @@ print(list(islice(primes(), 10)))            # [2, 3, 5, 7, 11, 13, 17, 19, 23, 
 The prime sieve above is an incremental version of the Sieve of Eratosthenes, sometimes called the
 "incremental sieve" or "O'Neill sieve." It maintains a dictionary of known composite numbers and
 Their generating primes, avoiding the memory cost of a full boolean sieve array. Its time complexity
-Is approximately $O(n \log \log n)$ for generating all primes up to $n$Matching the classical Sieve,
+Is approximately $O(n \log \log n)$ for generating all primes up to $n$ Matching the classical Sieve,
 but its constant factor is higher due to dictionary overhead.
 
 ### Pipeline Processing (ETL)
@@ -5221,7 +5221,7 @@ URL: https://python.wyattau.com/02-fundamentals/05-python-internals/
 CPython is the reference implementation of Python, written in C. It is the most widely used
 Implementation and the one most people mean when they say "Python." Understanding its architecture
 Is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
-Python"s memory and concurrency behavior.
+Python's memory and concurrency behavior.
 
 The execution pipeline in CPython is:
 
@@ -6112,7 +6112,7 @@ URL: https://python.wyattau.com/02-fundamentals/01-types-and-variables/
 }
 </script>
 
-## Python"s Type System
+## Python's Type System
 
 Python is **dynamically typed** and **strongly typed**. These two properties are frequently
 Confused, so it is worth being precise about what they mean.
@@ -6798,7 +6798,7 @@ def get_name(obj: T) -> str:
 
 ### `Protocol`: Structural Subtyping (PEP 544)
 
-Python"s type system supports both nominal typing (based on inheritance) and structural typing
+Python's type system supports both nominal typing (based on inheritance) and structural typing
 (based on shape). `Protocol` enables structural typing -- a type satisfies a protocol if it has the
 Required attributes and methods, regardless of inheritance.
 
@@ -7898,7 +7898,7 @@ Grows with the number of elements.
 - **`list`**: General-purpose, heterogeneous data. Use when you need to store objects of different
   types or when the list is small.
 - **`array.array`**: Homogeneous numeric data where memory efficiency matters but you do not need
-  NumPy"s vectorized operations.
+  NumPy's vectorized operations.
 - **`numpy.ndarray`**: Large-scale numerical computation. NumPy provides vectorized operations,
   broadcasting, and linear algebra that `array` does not.
 
@@ -10167,7 +10167,7 @@ access system in Python. A descriptor is any object that implements at least one
 | Non-data descriptor | `__get__` only                        | Instance attribute takes precedence            |
 | Data descriptor     | `__get__` + `__set__` or `__delete__` | Descriptor always wins over instance attribute |
 
-This distinction is fundamental to understanding Python"s attribute lookup.
+This distinction is fundamental to understanding Python's attribute lookup.
 
 ```python
 class NonDataDescriptor:
@@ -17009,7 +17009,7 @@ print(data)  # {'host': "localhost'', "port': "localhost''} (or env values)
 
 ## TOML
 
-TOML (Tom"s Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
+TOML (Tom's Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
 `tomllib` in the standard library.
 
 ### Reading TOML (Python 3.11+)
@@ -17751,7 +17751,7 @@ producing a lost update.
 ### Why the GIL Exists
 
 The GIL is not a design oversight. It is a deliberate trade-off that solves a specific problem:
-**CPython"s memory management is not thread-safe**.
+**CPython's memory management is not thread-safe**.
 
 CPython uses reference counting as its primary garbage collection strategy. Every object carries a
 `ob_refcnt` field. When you assign an object to a new name, the reference count is incremented. When
@@ -19329,7 +19329,7 @@ Set to `True` when you use `from e` or `from None`Which tells the traceback form
 
 ## cProfile
 
-`cProfile` is CPython"s deterministic, function-level profiler. It is implemented in C as a C
+`cProfile` is CPython's deterministic, function-level profiler. It is implemented in C as a C
 Extension (`_lsprof`), which makes it significantly faster than a pure-Python implementation but
 Still imposes measurable overhead.
 
@@ -27551,7 +27551,7 @@ print(m == f)  # False, Meter.__eq__ returns False
 print(f == m)  # Could be True, asymmetric!
 ```
 
-Always return `NotImplemented` for unsupported types to enable Python"s fallback mechanism.
+Always return `NotImplemented` for unsupported types to enable Python's fallback mechanism.
 
 ### 3. \_\_str\_\_ Returning Non-String
 

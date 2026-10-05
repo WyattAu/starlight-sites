@@ -78,7 +78,7 @@ On widget composition and core primitives.
 
 Dart runs on the server via `dart run` or compiled AOT binaries via `dart compile exe`. The `shelf`
 Package provides middleware-based HTTP handling, and the `dart:io` library gives you sockets, file
-I/O, and process management. Google"s internal infrastructure runs significant Dart services, and
+I/O, and process management. Google's internal infrastructure runs significant Dart services, and
 The ecosystem includes ORM-like packages (`drift`), gRPC support (`grpc`), and Docker base images
 (`dart:stable`).
 

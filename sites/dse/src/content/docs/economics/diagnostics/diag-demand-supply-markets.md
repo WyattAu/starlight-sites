@@ -20,7 +20,7 @@ tableOfContents: false
 
 ### UT-1: Price Elasticity of Demand Calculation
 
-**Question:** When the price of cinema tickets rises from $\$80$ to $\$100$The quantity demanded
+**Question:** When the price of cinema tickets rises from $\$80$ to $\$100$ The quantity demanded
 Falls from 500 to 350 tickets per week. Calculate the PED using the midpoint method. Is demand
 Elastic or inelastic? A second cinema raises its price from $\$60$ to $\$66$ and quantity demanded
 Falls from 400 to 380. Compare the elasticities and explain the difference using determinants of
@@ -101,7 +101,7 @@ $= \frac{1}{2} \times (150 - 100) \times (6000 - 4000) = \frac{1}{2} \times 50 \
 **Question:** A seafood restaurant's supply of fresh fish per day is given by $Q_s = -20 + 5P$ where
 $P$ is in HKD. (a) Calculate the PES when price rises from $\$50$ to $\$70$. (b) At what price does
 The restaurant start supplying fish? Explain the economic meaning. (c) If a new competitor opens
-Nearby and the supply shifts to $Q_s = -20 + 7P$Compare the new PES over the same price range and
+Nearby and the supply shifts to $Q_s = -20 + 7P$ Compare the new PES over the same price range and
 Explain the change.
 
 **Solution:**
@@ -141,7 +141,7 @@ Supply would be more elastic, meaning the market can adjust more quickly to chan
 ### IT-1: Taxation and Welfare (with Government Policy)
 
 **Question:** The government imposes a specific tax of $\$10$ per unit on cigarettes. Demand:
-$P = 120 - 0.5Q$Supply: $P = 20 + 0.5Q$. (a) Calculate the pre-tax and post-tax equilibrium. (b)
+$P = 120 - 0.5Q$ Supply: $P = 20 + 0.5Q$. (a) Calculate the pre-tax and post-tax equilibrium. (b)
 Calculate the tax incidence on consumers and producers. (c) Calculate the deadweight loss and tax
 Revenue. (d) Explain why the government might choose to tax cigarettes despite the deadweight loss,
 Using the concept of negative externalities.
@@ -219,7 +219,7 @@ Slightly longer travel time for many commuters.
 ### IT-3: Subsidy and Surplus Analysis (with Market Structure)
 
 **Question:** The government provides a per-unit subsidy of $\$8$ to rice farmers. Demand:
-$P = 60 - 0.4Q$Supply: $P = 10 + 0.4Q$. (a) Calculate the pre-subsidy and post-subsidy Equilibrium.
+$P = 60 - 0.4Q$ Supply: $P = 10 + 0.4Q$. (a) Calculate the pre-subsidy and post-subsidy Equilibrium.
 (b) Calculate the change in consumer surplus and producer surplus. (c) Calculate the Government
 expenditure and deadweight loss. (d) If the rice market is perfectly competitive, explain How the
 subsidy affects individual farmer behaviour and market output in the long run.
@@ -335,7 +335,7 @@ $\frac{\partial Q_{taxi}}{\partial P_{uber}} = 0.5$.
 
 $XED = 0.5 \times \frac{60}{170} = 0.176$.
 
-(b) Since $XED > 0$Taxis and Uber are **substitutes**. An increase in Uber's price leads to an
+(b) Since $XED > 0$ Taxis and Uber are **substitutes**. An increase in Uber's price leads to an
 increase in taxi demand (consumers switch from Uber to taxis). The positive but small value (0.176)
 suggests weak substitutability -- the two services are not perfect substitutes, possibly because
 they differ in service quality, availability, and consumer preferences.

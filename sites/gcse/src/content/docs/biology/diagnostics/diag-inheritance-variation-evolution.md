@@ -197,7 +197,7 @@ selection and genetic drift. (6) Eventually, even if the populations are brought
 have diverged so much that they can no longer interbreed to produce fertile offspring -- they are
 now separate species.
 
-(b) Using the Hardy-Weinberg principle: $p + q = 1$Where $p$ is the dominant allele frequency and
+(b) Using the Hardy-Weinberg principle: $p + q = 1$ Where $p$ is the dominant allele frequency and
 $q$ is the recessive allele frequency.
 
 Population A: $p = 0.3$$q = 1 - 0.3 = 0.7$. Population B: $p = 0.7$$q = 1 - 0.7 = 0.3$.

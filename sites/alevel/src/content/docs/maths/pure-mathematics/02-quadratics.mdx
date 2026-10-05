@@ -46,13 +46,13 @@ $$
 Where $a, b, c \in \mathbb{R}$ and $a \neq 0$.
 
 The graph of $y = ax^2 + bx + c$ is a _parabola_, a symmetrical U-shaped curve (opening upwards if
-$a > 0$Downwards if $a < 0$). The axis of symmetry is the vertical line $x = -\frac{b}{2a}$.
+$a > 0$ Downwards if $a < 0$). The axis of symmetry is the vertical line $x = -\frac{b}{2a}$.
 
 <hr />
 
 ## 2. Completing the Square
 
-The technique of completing the square rewrites a quadratic in the form $a(x - p)^2 + q$From which
+The technique of completing the square rewrites a quadratic in the form $a(x - p)^2 + q$ From which
 The vertex, axis of symmetry, and extremum are immediately readable.
 
 **Theorem.** Every quadratic $ax^2 + bx + c$ with $a \neq 0$ can be written in the form
@@ -90,13 +90,13 @@ Ax^2 + bx + c &= a\left[\left(x + \frac\{b\}\{2a\}\right)^2 - \frac\{b^2\}\{4a^2
 \end\{aligned\}
 $$
 
-Setting $p = -\frac{b}{2a}$ and $q = \frac{4ac - b^2}{4a}$We have $ax^2 + bx + c = a(x - p)^2 + q$.
+Setting $p = -\frac{b}{2a}$ and $q = \frac{4ac - b^2}{4a}$ We have $ax^2 + bx + c = a(x - p)^2 + q$.
 $\blacksquare$
 
 _Intuition (Geometric)._ Consider the expression $x^2 + bx$. This represents the area of a square of
 Side $x$ plus a rectangle of dimensions $x \times b$. We split the rectangle into two strips of
 $x \times \frac{b}{2}$ And rearrange to form an L-shape. The "missing corner" to complete the Larger
-square is a small square of side $\frac{b}{2}$With area
+square is a small square of side $\frac{b}{2}$ With area
 $\left(\frac{b}{2}\right)^2 = \frac{b^2}{4}$. We add and subtract this to preserve equality:
 
 $$
@@ -182,7 +182,7 @@ _Proof._ From the quadratic formula, the roots are
 $x = \frac{-b \pm \sqrt{\Delta}}{2a}$.
 
 - If $\Delta > 0$: $\sqrt{\Delta}$ is a positive real number, giving two distinct real values.
-- If $\Delta = 0$: both roots equal $\frac{-b}{2a}$A single repeated root.
+- If $\Delta = 0$: both roots equal $\frac{-b}{2a}$ A single repeated root.
 - If $\Delta < 0$: $\sqrt{\Delta}$ is not a real number, so no real roots exist. (Complex
   roots exist but are beyond this course.) $\blacksquare$
 
@@ -229,8 +229,8 @@ Furthermore, when $\Delta < 0$:
 | $a < 0$ and $\Delta < 0$ | $f(x) < 0$ for all $x \in \mathbb{R}$ (parabola entirely below) |
 
 _Proof._ From the completed-square form
-$f(x) = a\left(x + \frac{b}{2a}\right)^2 - \frac{\Delta}{4a}$The minimum value (when
-$a > 0$) or Maximum value (when $a < 0$) equals $-\frac{\Delta}{4a}$Attained at
+$f(x) = a\left(x + \frac{b}{2a}\right)^2 - \frac{\Delta}{4a}$ The minimum value (when
+$a > 0$) or Maximum value (when $a < 0$) equals $-\frac{\Delta}{4a}$ Attained at
 $x = -\frac{b}{2a}$.
 
 If $a > 0$ and $\Delta > 0$: the minimum is $-\frac{\Delta}{4a} < 0$ So the vertex is
@@ -245,7 +245,7 @@ The $a < 0$ cases follow by symmetry (or by applying the above to $-f(x)$). $\bl
 
 ### 4.2 Repeated Roots: Geometric Interpretation
 
-**Definition.** When $\Delta = 0$The equation $ax^2 + bx + c = 0$ has a single repeated root
+**Definition.** When $\Delta = 0$ The equation $ax^2 + bx + c = 0$ has a single repeated root
 $\alpha = -\frac{b}{2a}$. We say $\alpha$ is a _double root_ (or root of _multiplicity 2_), and the
 Quadratic factors as $a(x - \alpha)^2 = 0$.
 
@@ -259,17 +259,17 @@ $$
 f'(\alpha) = 2a\left(-\frac{b}{2a}\right) + b = -b + b = 0
 $$
 
-The tangent at $x = \alpha$ is $y - f(\alpha) = f'(\alpha)(x - \alpha)$Which gives $y = 0$.
+The tangent at $x = \alpha$ is $y - f(\alpha) = f'(\alpha)(x - \alpha)$ Which gives $y = 0$.
 $\blacksquare$
 
-This means that when $\Delta = 0$The $x$-axis is tangent to the parabola at the vertex. The Parabola
+This means that when $\Delta = 0$ The $x$-axis is tangent to the parabola at the vertex. The Parabola
 "kisses" the axis at one point and bounces back, rather than crossing it.
 
 <details>
 <summary>Example</summary>
 Show that $4x^2 - 12x + 9 = 0$ has a repeated root, and verify that the $x$-axis is tangent at that point.
 
-$\Delta = (-12)^2 - 4(4)(9) = 144 - 144 = 0$Confirming a repeated root.
+$\Delta = (-12)^2 - 4(4)(9) = 144 - 144 = 0$ Confirming a repeated root.
 
 The repeated root is $x = \frac{12}{8} = \frac{3}{2}$.
 
@@ -277,7 +277,7 @@ Verification:
 $f\left(\frac{3}{2}\right) = 4\left(\frac{9}{4}\right) - 12\left(\frac{3}{2}\right) + 9 = 9 - 18 + 9 = 0$.
 
 $f'(x) = 8x - 12$ So $f'\left(\frac{3}{2}\right) = 12 - 12 = 0$. The tangent at $x = \frac{3}{2}$ Is
-$y = 0$Confirming the $x$-axis is tangent to the curve.
+$y = 0$ Confirming the $x$-axis is tangent to the curve.
 
 </details>
 
@@ -320,8 +320,8 @@ Order-reversing: if $a < b$ Then $-a > -b$.
 
 **Theorem.** If $m < 0$ and $a < b$ Then $ma > mb$.
 
-_Proof._ From $a < b$We have $b - a > 0$. Since $m < 0$ and $b - a > 0$Their product $m(b - a) < 0$.
-So $mb - ma < 0$Giving $ma > mb$. $\blacksquare$
+_Proof._ From $a < b$ We have $b - a > 0$. Since $m < 0$ and $b - a > 0$ Their product $m(b - a) < 0$.
+So $mb - ma < 0$ Giving $ma > mb$. $\blacksquare$
 
 <details>
 <summary>Example</summary>
@@ -363,7 +363,7 @@ Sign analysis:
 
 The quotient is $\geq 0$ when $x \leq \frac{7}{2}$ (including equality) but $x \neq 2$.
 
-Solution: $x \leq \frac{7}{2}$, $x \neq 2$I.e.,
+Solution: $x \leq \frac{7}{2}$, $x \neq 2$ I.e.,
 $x \in (-\infty, 2) \cup \left[\frac{7}{2}, \infty\right)$.
 
 </details>
@@ -385,7 +385,7 @@ Product is negative and $f(x) < 0$. For $x < \alpha$: both factors are negative,
 Positive and $f(x) > 0$. The $a < 0$ case reverses all signs. $\blacksquare$
 
 **Corollary.** For $\Delta = 0$ (repeated root $\alpha$): $f(x) = a(x - \alpha)^2$ is always
-Non-negative when $a > 0$ and always non-positive when $a < 0$With equality only at $x = \alpha$.
+Non-negative when $a > 0$ and always non-positive when $a < 0$ With equality only at $x = \alpha$.
 
 **Method (Systematic Sign Chart).**
 
@@ -414,7 +414,7 @@ Sign chart for $g(x) = (2x - 5)(x + 1)$ (then apply the leading minus sign):
 | $-1 < x < 5/2$ | $-$      | $+$     | $-$    | $+$     |
 | $x > 5/2$      | $+$      | $+$     | $+$    | $-$     |
 
-We need $-g(x) \geq 0$Which occurs for $-1 \leq x \leq \frac{5}{2}$.
+We need $-g(x) \geq 0$ Which occurs for $-1 \leq x \leq \frac{5}{2}$.
 
 Solution: $x \in \left[-1, \frac{5}{2}\right]$.
 
@@ -482,7 +482,7 @@ to the quadratic $az^2 + bz + c = 0$.
 | $a\left(x + \frac{1}{x}\right)^2 + b\left(x + \frac{1}{x}\right) + c = 0$ | $z = x + \frac{1}{x}$ | $az^2 + bz + c = 0$ |
 
 <Aside type="caution">
-After solving the reduced quadratic for $z$You must substitute back to find $x$. Discard
+After solving the reduced quadratic for $z$ You must substitute back to find $x$. Discard
 
 any values of $z$ that are incompatible with the substitution (e.g., $z = x^2$ requires $z \geq 0$,
 $z = p^x$ requires $z > 0$). Always verify solutions in the original equation.
@@ -520,13 +520,13 @@ Now consider the related equation $x^2 + \frac{4}{x^2} + 2\left(x + \frac{1}{x}\
 
 Let $z = x + \frac{1}{x}$. Then $z^2 = x^2 + 2 + \frac{1}{x^2}$ So $x^2 + \frac{1}{x^2} = z^2 - 2$.
 
-The equation becomes: $z^2 - 2 + 2z = 0$I.e., $z^2 + 2z - 2 = 0$.
+The equation becomes: $z^2 - 2 + 2z = 0$ I.e., $z^2 + 2z - 2 = 0$.
 
 $$
 z = \frac{-2 \pm \sqrt{4 + 8}}{2} = \frac{-2 \pm 2\sqrt{3}}{2} = -1 \pm \sqrt{3}
 $$
 
-For each value of $z$Solve $x + \frac{1}{x} = z$I.e., $x^2 - zx + 1 = 0$ by the quadratic Formula.
+For each value of $z$ Solve $x + \frac{1}{x} = z$ I.e., $x^2 - zx + 1 = 0$ by the quadratic Formula.
 This yields four solutions in total (two for each value of $z$), provided each resulting
 Discriminant is non-negative.
 
@@ -547,7 +547,7 @@ $$
 \alpha\beta = \frac{c}{a} \quad \mathrm{(Product of Roots)}
 $$
 
-_Proof._ By the factor theorem, since $\alpha$ and $\beta$ are roots of $ax^2 + bx + c = 0$We can
+_Proof._ By the factor theorem, since $\alpha$ and $\beta$ are roots of $ax^2 + bx + c = 0$ We can
 Write:
 
 $$
@@ -562,8 +562,8 @@ $$
 
 Equating coefficients with $ax^2 + bx + c$:
 
-- Coefficient of $x$: $b = -a(\alpha + \beta)$Hence $\alpha + \beta = -\frac{b}{a}$.
-- Constant term: $c = a\alpha\beta$Hence $\alpha\beta = \frac{c}{a}$.
+- Coefficient of $x$: $b = -a(\alpha + \beta)$ Hence $\alpha + \beta = -\frac{b}{a}$.
+- Constant term: $c = a\alpha\beta$ Hence $\alpha\beta = \frac{c}{a}$.
 
 $\blacksquare$
 
@@ -601,7 +601,7 @@ Negative, their sum would be negative). $\blacksquare$
 
 ### 9.2 Constructing Equations from Roots
 
-Given two numbers $\alpha$ and $\beta$The monic quadratic with those roots is:
+Given two numbers $\alpha$ and $\beta$ The monic quadratic with those roots is:
 
 $$
 x^2 - (\alpha + \beta)x + \alpha\beta = 0
@@ -619,7 +619,7 @@ Find the quadratic equation with roots $\alpha = 3$ and $\beta = -5$.
 
 Sum: $\alpha + \beta = -2$. Product: $\alpha\beta = -15$.
 
-Monic equation: $x^2 - (-2)x + (-15) = 0$I.e., $x^2 + 2x - 15 = 0$.
+Monic equation: $x^2 - (-2)x + (-15) = 0$ I.e., $x^2 + 2x - 15 = 0$.
 
 Verification: $(x - 3)(x + 5) = x^2 + 2x - 15$. Correct.
 
@@ -675,7 +675,7 @@ $S = (\alpha + \beta)^2 - 2\alpha\beta = 25 - 4 = 21$.
 
 $P = (\alpha\beta)^2 = 4$.
 
-The required equation is $x^2 - Sx + P = 0$I.e., $x^2 - 21x + 4 = 0$.
+The required equation is $x^2 - Sx + P = 0$ I.e., $x^2 - 21x + 4 = 0$.
 
 </details>
 
@@ -706,7 +706,7 @@ $$
 (u - 5)(u + 1) = 0
 $$
 
-$u = 5$ or $u = -1$. Since $u > 0$Reject $u = -1$.
+$u = 5$ or $u = -1$. Since $u > 0$ Reject $u = -1$.
 
 $3^x = 5 \implies x = \log_3 5 = \frac{\ln 5}{\ln 3}$.
 
@@ -790,14 +790,14 @@ $$
 \end\{aligned\}
 $$
 
-Minimum value is $-5$Occurring at $x = 2$.
+Minimum value is $-5$ Occurring at $x = 2$.
 
 </details>
 <b>If you get this wrong, revise:</b> [Completing the square](#2-completing-the-square)
 
 <hr />
 
-**Problem 2.** Solve $2x^2 + 5x - 4 = 0$Giving your answer in the form $a \pm b\sqrt{c}$.
+**Problem 2.** Solve $2x^2 + 5x - 4 = 0$ Giving your answer in the form $a \pm b\sqrt{c}$.
 
 <details>
 <summary>Solution</summary>
@@ -824,8 +824,8 @@ K &\leq \frac\{36\}\{16\} = \frac\{9\}\{4\}
 \end\{aligned\}
 $$
 
-Note: $k \neq 0$ (otherwise it's not quadratic). If $k = 0$The equation $-6x + 4 = 0$ still has a
-Real root, so the condition is $k \leq \frac{9}{4}$ with $k$ real (including $k = 0$Which gives a
+Note: $k \neq 0$ (otherwise it's not quadratic). If $k = 0$ The equation $-6x + 4 = 0$ still has a
+Real root, so the condition is $k \leq \frac{9}{4}$ with $k$ real (including $k = 0$ Which gives a
 Linear equation).
 
 </details>
@@ -912,7 +912,7 @@ $$
 x^2 + 4x + 9 = (x + 2)^2 + 5
 $$
 
-Since $(x+2)^2 \geq 0$ for all $x$We have $(x+2)^2 + 5 \geq 5 > 0$ for all $x$. $\blacksquare$
+Since $(x+2)^2 \geq 0$ for all $x$ We have $(x+2)^2 + 5 \geq 5 > 0$ for all $x$. $\blacksquare$
 
 Alternatively: $\Delta = 16 - 36 = -20 < 0$ And since the coefficient of $x^2$ is positive, the
 Parabola is always above the $x$-axis.
@@ -974,7 +974,7 @@ $$
 \end\{aligned\}
 $$
 
-Since $\Delta = -4 < 0$ for all $k \in \mathbb{R}$There are no real roots. $\blacksquare$
+Since $\Delta = -4 < 0$ for all $k \in \mathbb{R}$ There are no real roots. $\blacksquare$
 
 </details>
 <b>If you get this wrong, revise:</b> [Discriminant](#4-the-discriminant)
@@ -1011,7 +1011,7 @@ $$
 
 <hr />
 
-**Problem 12.** Given $f(x) = x^2 - 6x + 14$Find the range of $f$ and solve $f(x) \leq 10$.
+**Problem 12.** Given $f(x) = x^2 - 6x + 14$ Find the range of $f$ and solve $f(x) \leq 10$.
 
 <details>
 <summary>Solution</summary>
@@ -1019,7 +1019,7 @@ $$
 f(x) = (x - 3)^2 + 5
 $$
 
-Since $(x - 3)^2 \geq 0$We have $f(x) \geq 5$. Range: $f(x) \in [5, \infty)$.
+Since $(x - 3)^2 \geq 0$ We have $f(x) \geq 5$. Range: $f(x) \in [5, \infty)$.
 
 For $f(x) \leq 10$:
 
@@ -1168,7 +1168,7 @@ $$
 
 $u = \frac{1}{2}$ or $u = -2$.
 
-Since $-1 \leq \sin\theta \leq 1$We reject $u = -2$.
+Since $-1 \leq \sin\theta \leq 1$ We reject $u = -2$.
 
 $\sin\theta = \frac{1}{2} \implies \theta = \frac{\pi}{6}$ or
 $\theta = \frac{5\pi}{6}$.

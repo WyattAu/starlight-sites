@@ -624,7 +624,7 @@ Anode (oxidation): $\mathrm{Mg} \to \mathrm{Mg}^{2+} + 2e^-$
 
 Overall: $\mathrm{Mg} + \mathrm{Fe}^{2+} \to \mathrm{Mg}^{2+} + \mathrm{Fe}$
 
-Since $E^\circ_{\mathrm{cell}} = +1.93 \mathrm{ V} \gt 0$The reaction is spontaneous.
+Since $E^\circ_{\mathrm{cell}} = +1.93 \mathrm{ V} \gt 0$ The reaction is spontaneous.
 
 </details>
 
@@ -774,7 +774,7 @@ In $\mathrm{SO_3^{2-}}$: $x + 3(-2) = -2 \Rightarrow x - 6 = -2 \Rightarrow x = 
 </details>
 
 **Problem 2:** In the reaction
-$\mathrm{Fe_2O_3} + 3\mathrm{CO} \to 2\mathrm{Fe} + 3\mathrm{CO_2}$Identify the species oxidised,
+$\mathrm{Fe_2O_3} + 3\mathrm{CO} \to 2\mathrm{Fe} + 3\mathrm{CO_2}$ Identify the species oxidised,
 reduced, the oxidising agent, and the reducing agent.
 
 _If you get this wrong, revise: Oxidising and Reducing Agents_

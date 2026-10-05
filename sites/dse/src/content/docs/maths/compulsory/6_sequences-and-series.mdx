@@ -25,7 +25,7 @@ Covers arithmetic and geometric progressions, sigma notation manipulation, and r
 ### Sequences
 
 A **sequence** is a function $a: \mathbb{N} \to \mathbb{R}$ (or a subset of $\mathbb{N}$). We write
-The sequence as $a_1, a_2, a_3, \ldots$Or $\{a_n\}$. Each $a_n$ is called a **term** of the
+The sequence as $a_1, a_2, a_3, \ldots$ Or $\{a_n\}$. Each $a_n$ is called a **term** of the
 Sequence. The expression $a_n$ giving the $n$-th term in terms of $n$ is the **general term** or
 **formula for the $n$-th term**.
 
@@ -38,7 +38,7 @@ S_n = a_1 + a_2 + \cdots + a_n
 $$
 
 $S_n$ is called the **$n$-th partial sum**. If the sequence of partial sums $\{S_n\}$ converges to a
-Limit $S$ as $n \to \infty$We write $S = \sum_{n=1}^{\infty} a_n$ and call $S$ the **sum to
+Limit $S$ as $n \to \infty$ We write $S = \sum_{n=1}^{\infty} a_n$ and call $S$ the **sum to
 Infinity**.
 
 ### Sigma Notation
@@ -253,7 +253,7 @@ $$
 
 $\blacksquare$
 
-For $r = 1$The sequence is constant and $S_n = n a_1$.
+For $r = 1$ The sequence is constant and $S_n = n a_1$.
 
 ### Sum to Infinity
 
@@ -263,7 +263,7 @@ $$
 S_\infty = \sum_\{n=1\}^\{\infty\} a_1 r^\{n-1\} = \frac\{a_1\}\{1 - r\}
 $$
 
-**Proof.** Since $|r| \lt 1$We have $\lim_{n \to \infty} r^n = 0$. Applying this to the finite sum
+**Proof.** Since $|r| \lt 1$ We have $\lim_{n \to \infty} r^n = 0$. Applying this to the finite sum
 Formula:
 
 $$
@@ -272,7 +272,7 @@ $$
 
 $\blacksquare$
 
-If $|r| \geq 1$The terms do not approach zero, so the series diverges.
+If $|r| \geq 1$ The terms do not approach zero, so the series diverges.
 
 ### Applications
 
@@ -417,10 +417,10 @@ Since $a_n \gt 0$, $L = 2$.
 
 - **Confusing $a_n$ and $S_n$.** $a_n$ is a single term; $S_n$ is the sum up to that term. Read the
   question carefully.
-- **Off-by-one errors in the $n$-th term formula.** The formula is $a_n = a_1 + (n-1)d$Not
-  $a_1 + nd$. The exponent in the geometric formula is $r^{n-1}$Not $r^n$.
+- **Off-by-one errors in the $n$-th term formula.** The formula is $a_n = a_1 + (n-1)d$ Not
+  $a_1 + nd$. The exponent in the geometric formula is $r^{n-1}$ Not $r^n$.
 - **Forgetting the convergence condition for infinite series.** $S_\infty = \frac{a_1}{1-r}$ is only
-  valid when $|r| \lt 1$. If $|r| \geq 1$The sum does not exist.
+  valid when $|r| \lt 1$. If $|r| \geq 1$ The sum does not exist.
 - **Mixing up the common ratio and common difference.** $d$ is for arithmetic (difference), $r$ is
   for geometric (ratio).
 - **Sigma notation index errors.** When shifting indices, verify by checking the first and last
@@ -428,8 +428,8 @@ Since $a_n \gt 0$, $L = 2$.
 - **Assuming a recurrence converges without justification.** Setting $L = f(L)$ gives candidate
   limits. You still need to verify the sequence actually converges (e.g., via the Monotone
   Convergence Theorem).
-- **Arithmetic series formula with wrong $n$.** If asked to sum from $a_3$ to $a_{10}$The number of
-  terms is $10 - 3 + 1 = 8$Not 10 or 7.
+- **Arithmetic series formula with wrong $n$.** If asked to sum from $a_3$ to $a_{10}$ The number of
+  terms is $10 - 3 + 1 = 8$ Not 10 or 7.
 
 ---
 
@@ -551,7 +551,7 @@ Denominators and identifying the cancellation pattern in telescoping series.
  - The series in the parenthesis is $ \frac{1}{3} + \frac{4}{9} \cdot \frac{1}{3} + \left(\frac{4}{9}\right)^2 \cdot \frac{1}{3} + \dots $
  - This is a geometric series with first term $a = 1/3$ and common ratio $r = 4/9$.
 - **Sum the series:**
- - Since $|r| = 4/9 \lt 1$The series converges.
+ - Since $|r| = 4/9 \lt 1$ The series converges.
  - Sum of the added area = $\frac{a}{1-r} = \frac{1/3}{1 - 4/9} = \frac{1/3}{5/9} = \frac{1}{3} \cdot \frac{9}{5} = \frac{3}{5}$.
  - The total area is $A_{total} = A + A \left( \frac{3}{5} \right) = \frac{8}{5}A$.
 
@@ -581,7 +581,7 @@ First term and common ratio of the resulting geometric series, and calculating t
  - Since the limit is 1, the Ratio Test is inconclusive.
 - **Part 2: Use a more appropriate test.**
  - The Limit Comparison Test is ideal here. The term $a_n$ behaves like $\frac{n^2}{n^3} = \frac{1}{n}$ for large $n$.
- - Let's compare our series to the harmonic series $\sum b_n = \sum \frac{1}{n}$Which is known to diverge.
+ - Let's compare our series to the harmonic series $\sum b_n = \sum \frac{1}{n}$ Which is known to diverge.
  - Compute the limit of the ratio of the terms:
     $$
     L = \lim_{n\to\infty} \frac{a_n}{b_n} = \lim_{n\to\infty} \frac{\frac{n^2+n}{n^3+2}}{\frac{1}{n}} = \lim_{n\to\infty} \frac{n(n^2+n)}{n^3+2} = \lim_{n\to\infty} \frac{n^3+n^2}{n^3+2}
@@ -604,15 +604,15 @@ Appropriate p-series to compare with.
 <summary>Answer</summary>
 - This problem requires using the Taylor Remainder Theorem, specifically the error bound for an alternating series, as the Maclaurin series for cosine is alternating.
 - The Maclaurin series for $\cos(x)$ is $\sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \dots$.
-- For $x=0.2$This is an alternating series. The Alternating Series Estimation Theorem states that the error $|R_n|$ in approximating the sum by the $n$-th partial sum is less than the absolute value of the first unused term, $|a_{n+1}|$.
+- For $x=0.2$ This is an alternating series. The Alternating Series Estimation Theorem states that the error $|R_n|$ in approximating the sum by the $n$-th partial sum is less than the absolute value of the first unused term, $|a_{n+1}|$.
 - Let's calculate the absolute values of the terms for $x=0.2$:
  - Term 0 ($1$): Used in $P_0$.
  - Term 1 ($-\frac{0.2^2}{2!}$): $|a_1| = \frac{0.04}{2} = 0.02$. Used in $P_2$.
  - Term 2 ($+\frac{0.2^4}{4!}$): $|a_2| = \frac{0.0016}{24} \approx 6.67 \times 10^{-5}$. Used in $P_4$.
  - Term 3 ($-\frac{0.2^6}{6!}$): $|a_3| = \frac{0.000064}{720} \approx 8.89 \times 10^{-8}$.
 - We need the error to be less than $10^{-7}$.
-- If we use the polynomial $P_4(x) = 1 - \frac{x^2}{2!} + \frac{x^4}{4!}$The error will be bounded by the absolute value of the next term, which is $|a_3| \approx 8.89 \times 10^{-8}$.
-- Since $8.89 \times 10^{-8} \lt 10^{-7}$This is sufficient.
+- If we use the polynomial $P_4(x) = 1 - \frac{x^2}{2!} + \frac{x^4}{4!}$ The error will be bounded by the absolute value of the next term, which is $|a_3| \approx 8.89 \times 10^{-8}$.
+- Since $8.89 \times 10^{-8} \lt 10^{-7}$ This is sufficient.
 - The polynomial $P_4(x)$ has degree 4. However, the question asks for the minimum degree. The polynomial used is $1 - \frac{x^2}{2!} + \frac{x^4}{4!}$. The term with $x^5$ is zero, so $P_5(x) = P_4(x)$. The error for $P_5(x)$ is also bounded by the next non-zero term, which is the $x^6$ term.
 - Therefore, using a polynomial of degree 4 (or 5) is sufficient. The minimum degree required to include the $x^4$ term is 4.
 
@@ -687,14 +687,14 @@ Geometric series.
  - We use the Alternating Series Test on $\sum_{n=2}^{\infty} \frac{(-1)^n}{\sqrt{n} \ln(n)}$. Let $b_n = \frac{1}{\sqrt{n} \ln(n)}$.
  - Condition 1: $b_n \gt 0$ for $n \ge 2$. This is true.
  - Condition 2: $\lim_{n\to\infty} b_n = \lim_{n\to\infty} \frac{1}{\sqrt{n} \ln(n)} = 0$. This is true as the denominator grows to infinity.
- - Condition 3: $b_{n+1} \le b_n$. The function $f(x) = \sqrt{x}\ln(x)$ is a product of two increasing functions, so it is increasing. Therefore, its reciprocal, $b_n$Is decreasing.
+ - Condition 3: $b_{n+1} \le b_n$. The function $f(x) = \sqrt{x}\ln(x)$ is a product of two increasing functions, so it is increasing. Therefore, its reciprocal, $b_n$ Is decreasing.
  - Since all three conditions are met, the series converges by the Alternating Series Test.
 - **Part 2: Show divergence of the series of absolute values.**
  - We need to test the series $\sum_{n=2}^{\infty} \left| \frac{(-1)^n}{\sqrt{n} \ln(n)} \right| = \sum_{n=2}^{\infty} \frac{1}{\sqrt{n} \ln(n)}$.
  - We can use the Direct Comparison Test. We know that for $n \gt e$, $\ln(n) \lt \sqrt{n}$.
  - Therefore, $\sqrt{n}\ln(n) \lt \sqrt{n}\sqrt{n} = n$.
  - This implies $\frac{1}{\sqrt{n}\ln(n)} \gt \frac{1}{n}$ for $n$ large enough.
- - We are comparing our series to the harmonic series $\sum \frac{1}{n}$Which diverges.
+ - We are comparing our series to the harmonic series $\sum \frac{1}{n}$ Which diverges.
  - Since the terms of our series are greater than the terms of a divergent series, the series $\sum \frac{1}{\sqrt{n} \ln(n)}$ diverges by the Direct Comparison Test.
 - **Conclusion:**
  - The series converges, but it does not converge absolutely. Therefore, the series is conditionally convergent.
@@ -772,7 +772,7 @@ Convergent recursive sequence and performing iterative calculations.
 - This is a standard limit form related to the definition of $e$. Recall the limit definition $\lim_{n\to\infty} (1 + \frac{x}{n})^n = e^x$.
 - In our case, $x=-1$.
   - $$ L = e^{-1} = \frac{1}{e} $$
-- Since $e \approx 2.718$We have $L = 1/e \lt 1$.
+- Since $e \approx 2.718$ We have $L = 1/e \lt 1$.
 - Because the limit $L$ is less than 1, the series converges by the Root Test.
 
 <b>If you get this wrong, you should focus on:</b> Recognizing when to apply the Root Test
@@ -834,7 +834,7 @@ The terms are not consecutive.
 <b>If you get this wrong, you should focus on:</b> Breaking a word problem into its constituent
 Parts and recognizing how to apply the formula for the sum of a simple arithmetic series.
 
-1. **Question:** Using the Maclaurin series for $e^x$Find the exact value of the sum
+1. **Question:** Using the Maclaurin series for $e^x$ Find the exact value of the sum
     $\sum_{n=0}^{\infty} \frac{2^n}{n!}$. Then, use this result to find the sum of the related
     series $\sum_{n=2}^{\infty} \frac{2^n}{(n-1)!}$.
 
@@ -891,11 +891,11 @@ Change the starting and ending indices of a sum to match a known formula.
  - Each factor $(\frac{n}{k})$ is $\ge 1$. The first factor is $n$.
  - So, $a_n = \frac{n}{1} \cdot (\mathrm{product of terms } \ge 1) \ge n$.
  - As $n \to \infty$, $a_n \to \infty$ because $a_n \ge n$.
- - Since $\lim_{n\to\infty} a_n \ne 0$The series diverges by the Test for Divergence.
+ - Since $\lim_{n\to\infty} a_n \ne 0$ The series diverges by the Test for Divergence.
 - **Method 2: Ratio Test**
   - $$ L = \lim_{n\to\infty} \left| \frac{(n+1)^{n+1}}{(n+1)!} \cdot \frac{n!}{n^n} \right| = \lim_{n\to\infty} \frac{(n+1)^{n+1}}{(n+1)n!} \cdot \frac{n!}{n^n} $$
   - $$ L = \lim_{n\to\infty} \frac{(n+1)^n}{n^n} = \lim_{n\to\infty} \left(\frac{n+1}{n}\right)^n = \lim_{n\to\infty} \left(1 + \frac{1}{n}\right)^n = e $$
-- Since $L = e \approx 2.718 \gt 1$The series diverges by the Ratio Test.
+- Since $L = e \approx 2.718 \gt 1$ The series diverges by the Ratio Test.
 
 <b>If you get this wrong, you should focus on:</b> The Test for Divergence as a first-line check,
 And the application of the Ratio Test leading to the limit definition of $e$.
@@ -922,7 +922,7 @@ And the application of the Ratio Test leading to the limit definition of $e$.
  Thus, the sequence is monotonic increasing.
 - **Step 3: Conclude convergence and find the limit.**
  - Since the sequence is bounded above and monotonic increasing, it must converge by the Monotone Convergence Theorem. Let the limit be $L$.
- - To find $L$We take the limit of the recurrence relation:
+ - To find $L$ We take the limit of the recurrence relation:
     - $$ \lim_{n\to\infty} x_{n+1} = \lim_{n\to\infty} \sqrt{2 + x_n} $$
     - $$ L = \sqrt{2 + L} $$
  - Square both sides: $L^2 = 2 + L \implies L^2 - L - 2 = 0$.

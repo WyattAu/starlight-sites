@@ -34,9 +34,9 @@ electronegativity. The rules for assigning oxidation states:
    charge.
 3. Group 1 metals: $+1$. Group 2 metals: $+2$. Al: $+3$.
 4. Hydrogen is $+1$ (except in metal hydrides, where it is $-1$).
-5. Oxygen is $-2$ (except in peroxides, where it is $-1$ And in $\mathrm{OF}_2$Where it is $+2$).
+5. Oxygen is $-2$ (except in peroxides, where it is $-1$ And in $\mathrm{OF}_2$ Where it is $+2$).
 6. Fluorine is always $-1$ in compounds.
-7. Halogens are $-1$Except when bonded to more electronegative elements or in polyatomic ions.
+7. Halogens are $-1$ Except when bonded to more electronegative elements or in polyatomic ions.
 
 **Worked Example.** Determine the oxidation state of $\mathrm{Cr}$ in
 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$.
@@ -203,7 +203,7 @@ $$
 Where $Q$ is the reaction quotient (same form as the equilibrium expression but with initial
 concentrations).
 
-At $298\,\mathrm{K}$Substituting $R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$ and
+At $298\,\mathrm{K}$ Substituting $R = 8.314\,\mathrm{J\,mol^{-1}\,K^{-1}}$ and
 $F = 96485\,\mathrm{C/mol}$:
 
 $$
@@ -322,8 +322,8 @@ inherently slow).
 | ------------------------------ | --------------------------------- | ------------------------------------------------------ | ------------------ | -------------- |
 | PEM (proton exchange membrane) | $\mathrm{H}_2$                    | Solid polymer                                          | 80$^\circ$C        | Vehicles       |
 | Alkaline (AFC)                 | $\mathrm{H}_2$                    | KOH solution                                           | 60--200$^\circ$C   | Space (Apollo) |
-| Solid oxide (SOFC)             | $\mathrm{H}_2$CO, $\mathrm{CH}_4$ | Yttria-stabilised zirconia                             | 500--1000$^\circ$C | Power stations |
-| Molten carbonate (MCFC)        | $\mathrm{H}_2$CO, $\mathrm{CH}_4$ | $\mathrm{Li}_2\mathrm{CO}_3/\mathrm{K}_2\mathrm{CO}_3$ | 650$^\circ$C       | Power stations |
+| Solid oxide (SOFC)             | $\mathrm{H}_2$ CO, $\mathrm{CH}_4$ | Yttria-stabilised zirconia                             | 500--1000$^\circ$C | Power stations |
+| Molten carbonate (MCFC)        | $\mathrm{H}_2$ CO, $\mathrm{CH}_4$ | $\mathrm{Li}_2\mathrm{CO}_3/\mathrm{K}_2\mathrm{CO}_3$ | 650$^\circ$C       | Power stations |
 
 Solid oxide fuel cells can use carbon monoxide and methane directly as fuels (internal reforming),
 and their high operating temperature makes them suitable for combined heat and power systems.
@@ -392,7 +392,7 @@ $$
 2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{O}_2(g) + 4\mathrm{H}^+(aq) + 4e^-
 $$
 
-### Faraday"s Laws
+### Faraday's Laws
 
 **First Law:** The mass of substance deposited or liberated at an electrode is directly proportional
 to the quantity of electricity passed.
@@ -402,7 +402,7 @@ M = \frac{Q \cdot M}{n \cdot F}
 $$
 
 **Second Law:** When the same quantity of electricity is passed through different electrolytes, the
-masses of substances deposited are proportional to their equivalent masses ($M/n$Where $n$ is the
+masses of substances deposited are proportional to their equivalent masses ($M/n$ Where $n$ is the
 number of electrons transferred per ion).
 
 $$
@@ -476,7 +476,7 @@ iron(III) oxide (rust).
    (oxidation), cathode is negative (reduction). In a galvanic cell, the anode is negative
    (oxidation), cathode is positive (reduction). The signs are reversed.
 
-3. **Forgetting to halve the Faraday calculation for divalent ions.** For $\mathrm{Cu}^{2+}$Two
+3. **Forgetting to halve the Faraday calculation for divalent ions.** For $\mathrm{Cu}^{2+}$ Two
    moles of electrons deposit one mole of copper.
 
 4. **Incorrect half-equations for aqueous electrolysis.** Students often write the anion oxidation
@@ -566,7 +566,7 @@ $$
 - **Ore:** Bauxite ($\mathrm{Al}_2\mathrm{O}_3$), purified to alumina.
 - **Electrolyte:** Molten cryolite ($\mathrm{Na}_3\mathrm{AlF}_6$) at approximately
   $950^\circ\mathrm{C}$. Cryolite lowers the melting point of $\mathrm{Al}_2\mathrm{O}_3$ from
-  $2072^\circ\mathrm{C}$ to approximately $950^\circ\mathrm{C}$Making the process economically
+  $2072^\circ\mathrm{C}$ to approximately $950^\circ\mathrm{C}$ Making the process economically
   viable.
 - **Electrodes:** Carbon (graphite) anode and cathode.
 
@@ -611,7 +611,7 @@ $$
 E^\circ_\mathrm{cell} = 1.07 - 0.77 = +0.30\,\mathrm{V}
 $$
 
-Since $E^\circ_\mathrm{cell} \gt 0$The reaction is thermodynamically feasible.
+Since $E^\circ_\mathrm{cell} \gt 0$ The reaction is thermodynamically feasible.
 
 </details>
 
@@ -766,7 +766,7 @@ Electrons flow from the dilute side (anode) to the concentrated side (cathode).
 <details>
 <summary>Problem 6</summary>
 
-In the electrolysis of molten $\mathrm{NaCl}$A current of $2.00\,\mathrm{A}$ is passed for 2.00
+In the electrolysis of molten $\mathrm{NaCl}$ A current of $2.00\,\mathrm{A}$ is passed for 2.00
 hours. Calculate: (a) The mass of sodium produced at the cathode. (b) The volume of chlorine gas
 produced at the anode at $298\,\mathrm{K}$ and $100\,\mathrm{kPa}$.
 
@@ -800,9 +800,9 @@ $$
 E^\circ_\mathrm{cell} = E^\circ_\mathrm{cathode} - E^\circ_\mathrm{anode}
 $$
 
-If $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$The reaction is considered thermodynamically feasible
+If $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$ The reaction is considered thermodynamically feasible
 (proceeds to a significant extent) under standard conditions. If
-$E^\circ_\mathrm{cell} < +0.27\mathrm{V}$The equilibrium lies to the left and the reaction does not
+$E^\circ_\mathrm{cell} < +0.27\mathrm{V}$ The equilibrium lies to the left and the reaction does not
 proceed significantly.
 
 ### Worked Example: Predicting Redox Reactions
@@ -821,7 +821,7 @@ $$
 E^\circ_\mathrm{cell} = 0.34 - (-0.76) = +1.10\,\mathrm{V}
 $$
 
-Since $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$The reaction is feasible:
+Since $E^\circ_\mathrm{cell} > +0.27\,\mathrm{V}$ The reaction is feasible:
 
 $$
 \mathrm{Zn}(s) + \mathrm{Cu}^{2+}(aq) \to \mathrm{Zn}^{2+}(aq) + \mathrm{Cu}(s)
@@ -1057,7 +1057,7 @@ theories, and practical applications.
 
 - standard electrode potentials
 - electrochemical cells
-- electrolysis and Faraday"s laws
+- electrolysis and Faraday's laws
 - corrosion and prevention
 - fuel cells
 

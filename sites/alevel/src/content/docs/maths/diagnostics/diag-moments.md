@@ -72,10 +72,10 @@ $$
 $$
 
 **(b)** The student used the distance $AB = 3$ m instead of the perpendicular distance
-$3\cos 40° \approx 2.298$ m. The moment is $F \times d_{\perp}$Not $F \times d_{\text{along rod}}$.
+$3\cos 40° \approx 2.298$ m. The moment is $F \times d_{\perp}$ Not $F \times d_{\text{along rod}}$.
 
 $$
-\text{Student"s answer} = 150 \text{ Nm}
+\text{Student's answer} = 150 \text{ Nm}
 $$
 
 $$
@@ -86,7 +86,7 @@ $$
 \text{Percentage overestimate} = \frac{150 - 150\cos 40°}{150\cos 40°} \times 100\% = \frac{1 - \cos 40°}{\cos 40°} \times 100\% = \left(\frac{1}{\cos 40°} - 1\right) \times 100\% \approx 30.5\%
 $$
 
-**(c)** If the $50$ N force acts perpendicular to the rod at $B$The perpendicular distance from $A$
+**(c)** If the $50$ N force acts perpendicular to the rod at $B$ The perpendicular distance from $A$
 to the line of action is the length of the rod:
 
 $$
@@ -147,12 +147,12 @@ $$
 P = \frac{240}{1.2} = 200 \text{ N}
 $$
 
-Since $200 \lt 300$The block **topples first** at $P = 200$ N.
+Since $200 \lt 300$ The block **topples first** at $P = 200$ N.
 
 **(c)** The student's reasoning is flawed because the critical comparison is not just the value of
-$\mu$ But the ratio $\frac{h}{d}$ compared to $\frac{1}{\mu}$Where $h$ is the height of
+$\mu$ But the ratio $\frac{h}{d}$ compared to $\frac{1}{\mu}$ Where $h$ is the height of
 force application and $d$ is half the base width. Here $\frac{h}{d} = \frac{1.2}{0.4} = 3$ and
-$\frac{1}{\mu} = 2$. Since $3 \gt 2$Toppling occurs first regardless of the specific
+$\frac{1}{\mu} = 2$. Since $3 \gt 2$ Toppling occurs first regardless of the specific
 value of $\mu$ being "large." A tall, narrow block with a force applied high up is always more
 susceptible to toppling than sliding.
 
@@ -211,7 +211,7 @@ $$
 
 The centre of mass is $2.75$ m from $A$ (i.e., $0.25$ m to the right of the midpoint).
 
-**(b)** With the $150$ N load at $2$ m from $A$Taking moments about $B$:
+**(b)** With the $150$ N load at $2$ m from $A$ Taking moments about $B$:
 
 $$
 R_A \times 5 = 200 \times (5 - 2.75) + 150 \times (5 - 2)
@@ -360,7 +360,7 @@ $$
 \tan 55° = \frac{10200}{6000} = 1.7
 $$
 
-$\tan 55° \approx 1.428$. Since $1.428 \neq 1.7$The assumption of simultaneous limiting equilibrium
+$\tan 55° \approx 1.428$. Since $1.428 \neq 1.7$ The assumption of simultaneous limiting equilibrium
 at both surfaces is inconsistent. The ladder cannot be at limiting friction at both surfaces
 simultaneously for these parameters.
 
@@ -410,7 +410,7 @@ $F_g = R_w = 152.74$ N (at limiting: $= 0.4 \times 381.86$).
 
 $F_w \approx 18.14$ N (not at limiting).
 
-**(c)** For the minimum $\mu_g$The ground must be at limiting friction and the wall friction is at
+**(c)** For the minimum $\mu_g$ The ground must be at limiting friction and the wall friction is at
 its maximum:
 
 $F_w = 0.3R_w$ and $F_g = \mu_g R_g$ with $F_g = R_w$.
@@ -485,7 +485,7 @@ By conservation of energy (taking $A$ as the reference level):
 
 Loss in GPE $= mgh = 8 \times 9.8 \times 1 = 78.4$ J.
 
-Gain in KE $= \frac{1}{2}I\omega^2$Where $I$ is the moment of inertia of the rod about $A$.
+Gain in KE $= \frac{1}{2}I\omega^2$ Where $I$ is the moment of inertia of the rod about $A$.
 
 For a uniform rod of mass $m$ and length $L$ about one end:
 $I = \frac{1}{3}mL^2 = \frac{1}{3}(8)(4) = \frac{32}{3}$ kg m$^2$.
@@ -541,7 +541,7 @@ $$
 
 A non-uniform beam $PQ$ of length $6$ m and weight $W$ N is supported at end $P$ on a pivot and at a
 point $R$ on the beam, where $PR = 4$ m, by a vertical string. When a load of $500$ N is hung from
-$Q$The beam is horizontal and the tension in the string at $R$ is $800$ N. When the load is removed,
+$Q$ The beam is horizontal and the tension in the string at $R$ is $800$ N. When the load is removed,
 the beam is still horizontal with the tension at $R$ now $250$ N.
 
 **(a)** Find the weight $W$ of the beam and the distance of its centre of mass from $P$.
@@ -558,7 +558,7 @@ configurations of the beam, using both moment equilibrium and force balance.]
 
 **(a)** Let the centre of mass of the beam be at distance $x$ from $P$.
 
-**Configuration 1 (load at $Q$Tension $= 800$ N):** Taking moments about $P$:
+**Configuration 1 (load at $Q$ Tension $= 800$ N):** Taking moments about $P$:
 
 $$
 800 \times 4 = Wx + 500 \times 6
@@ -582,7 +582,7 @@ From (2): $Wx = 1000$.
 
 Substituting into (1): $3200 = 1000 + 3000 = 4000$.
 
-This gives $3200 = 4000$Which is a contradiction. This means the beam cannot be horizontal in both
+This gives $3200 = 4000$ Which is a contradiction. This means the beam cannot be horizontal in both
 configurations with the given data, unless the beam is not uniform and the centre of mass shifts --
 which is impossible for a rigid body.
 
@@ -619,7 +619,7 @@ of mass at distance $x$ from $P$.
 
 If instead $T = 250$ N in configuration 2 is changed so that the data is consistent, we need
 $Wx = 3200 - 3000 = 200$ from equation (1), giving
-$250 \times 4 = Wx \implies Wx = 1000$Contradicting $Wx = 200$. The correct tension in configuration
+$250 \times 4 = Wx \implies Wx = 1000$ Contradicting $Wx = 200$. The correct tension in configuration
 2 should be $T = 200/4 = 50$ N.
 
 **Assuming the problem has a typo and $T = 50$ N in configuration 2:**

@@ -19,7 +19,7 @@ description: "For a spherically symmetric potential The scattering amplitude can
 
 ### 12.1 Partial Wave Analysis
 
-For a spherically symmetric potential $V(r)$The scattering amplitude can be expanded in partial
+For a spherically symmetric potential $V(r)$ The scattering amplitude can be expanded in partial
 waves:
 
 $$
@@ -93,7 +93,7 @@ Where the **scattering length** $a_s$ is defined by $k\cot\delta_0 \to -1/a_s$ a
 For a hard sphere of radius $a$: $\delta_0 = -ka$ (exact), giving $a_s = a$ and $\sigma = 4\pi a^2$
 (four times the geometric cross section $\pi a^2$ --- a purely quantum result).
 
-For the $^3$He--$^4$He system: $a_s \approx 1.4$ nm (positive, indicating a repulsive effective
+For the $^3$ He--$^4$ He system: $a_s \approx 1.4$ nm (positive, indicating a repulsive effective
 potential). For the neutron--proton system (triplet): $a_s \approx 5.4$ fm (positive, with a bound
 state --- the deuteron). For singlet: $a_s \approx -23.7$ fm (negative, indicating a virtual state).
 
@@ -125,7 +125,7 @@ $$
 \sigma \approx 4\pi\left(\frac{mV_0}{\hbar^2}\right)^2 2\pi\,a^6 = \frac{8\pi^2 m^2 V_0^2 a^6}{\hbar^4}
 $$
 
-The Born approximation is valid when $|V_0| \ll \hbar^2/(ma^2)$I.e., the potential is weak compared
+The Born approximation is valid when $|V_0| \ll \hbar^2/(ma^2)$ I.e., the potential is weak compared
 to the kinetic energy associated with the length scale $a$.
 
 </details>
@@ -244,7 +244,7 @@ $$
 \kappa\cot(\kappa a) = -\kappa'
 $$
 
-As $|E| \to 0$: $\kappa' \to 0$ So $\kappa\cot(\kappa a) \to 0$Giving $\kappa a = \pi/2$ (the
+As $|E| \to 0$: $\kappa' \to 0$ So $\kappa\cot(\kappa a) \to 0$ Giving $\kappa a = \pi/2$ (the
 threshold for the first bound state).
 
 (c) The scattering length $a_s = -\lim_{k \to 0}(\delta_0/k)$. As $\kappa a \to \pi/2$,

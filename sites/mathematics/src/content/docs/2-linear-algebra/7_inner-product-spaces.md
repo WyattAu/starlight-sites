@@ -35,7 +35,7 @@ A vector space equipped with an inner product is called an **inner product space
 $\langle \mathbf{x}, \mathbf{y} \rangle = \sum_{i=1}^n x_i y_i$. On $\mathbb{C}^n$
 $\langle \mathbf{x}, \mathbf{y} \rangle = \sum_{i=1}^n x_i \overline{y_i}$.
 
-**Example.** On $C[a,b]$The $L^2$ inner product is $\langle f, g \rangle = \int_a^b f(x)g(x)\,dx$.
+**Example.** On $C[a,b]$ The $L^2$ inner product is $\langle f, g \rangle = \int_a^b f(x)g(x)\,dx$.
 
 ### 7.2 Norms
 
@@ -53,7 +53,7 @@ $$
 
 With equality if and only if $\mathbf{u}$ and $\mathbf{v}$ are linearly dependent.
 
-_Proof._ If $\mathbf{v} = \mathbf{0}$Both sides are 0 and the result holds. Assume
+_Proof._ If $\mathbf{v} = \mathbf{0}$ Both sides are 0 and the result holds. Assume
 $\mathbf{v} \neq \mathbf{0}$. For any $t \in \mathbb{R}$ (or $\mathbb{C}$), positive definiteness
 gives
 
@@ -137,7 +137,7 @@ _Proof._ By construction, $\mathbf{u}_k$ is $\mathbf{v}_k$ minus its projection 
 $\mathrm{span}\{e_1, \ldots, e_{k-1}\} = \mathrm{span}\{\mathbf{v}_1, \ldots, \mathbf{v}_{k-1}\}$.
 So $\mathbf{u}_k \in \mathrm{span}\{\mathbf{v}_1, \ldots, \mathbf{v}_k\}$ and
 $\mathbf{v}_k = \mathbf{u}_k + \sum_{i=1}^{k-1}\langle \mathbf{v}_k, e_i \rangle e_i \in \mathrm{span}\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$.
-Since each $e_i$ is a scalar multiple of $\mathbf{u}_i$The spans coincide. $\blacksquare$
+Since each $e_i$ is a scalar multiple of $\mathbf{u}_i$ The spans coincide. $\blacksquare$
 
 ### 7.5 Orthogonal Projection
 
@@ -148,14 +148,14 @@ $$
 \mathrm{proj_W}(\mathbf{v}) = \sum_{i=1}^k \langle \mathbf{v}, e_i \rangle e_i
 $$
 
-**Theorem 7.6 (Best Approximation).** Among all vectors in $W$The orthogonal projection
+**Theorem 7.6 (Best Approximation).** Among all vectors in $W$ The orthogonal projection
 $\mathrm{proj_W}(\mathbf{v})$ minimises the distance to $\mathbf{v}$:
 
 $$
 \lVert \mathbf{v} - \mathrm{proj_W}(\mathbf{v}) \rVert \leq \lVert \mathbf{v} - \mathbf{w} \rVert \quad \mathrm{for}~all~ \mathbf{w} \in W
 $$
 
-_Proof._ For any $\mathbf{w} \in W$Write
+_Proof._ For any $\mathbf{w} \in W$ Write
 $\mathbf{v} - \mathbf{w} = (\mathbf{v} - \mathrm{proj_W}(\mathbf{v})) + (\mathrm{proj_W}(\mathbf{v}) - \mathbf{w})$.
 The first term is orthogonal to $W$ (hence to the second term, which lies in $W$), so by the
 Pythagorean theorem:
@@ -169,7 +169,7 @@ With equality iff $\mathbf{w} = \mathrm{proj_W}(\mathbf{v})$. $\blacksquare$
 ### 7.6 Least Squares Approximation
 
 A fundamental application of orthogonal projection is fitting functions to data. Given a subspace
-$W$ of an inner product space $V$ and a target $\mathbf{v} \in V$The best approximation in $W$ Is
+$W$ of an inner product space $V$ and a target $\mathbf{v} \in V$ The best approximation in $W$ Is
 the orthogonal projection $\mathrm{proj_W}(\mathbf{v})$.
 
 ### 7.7 Worked Example: Gram--Schmidt

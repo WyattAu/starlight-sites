@@ -103,8 +103,8 @@ Hybridisation rule: number of electron domains = number of hybrid orbitals: 2 ($
 
 ### UT-3: Intermolecular Force Hierarchy
 
-**Question:** Explain why the boiling points of the hydrogen halides are: HF (19.5 $^\circ$C) $\gt$
-HCl ($-85\ ^\circ$C) $\lt$ HBr ($-67\ ^\circ$C) $\lt$ HI ($-35\ ^\circ$C). Why does HF deviate from
+**Question:** Explain why the boiling points of the hydrogen halides are: HF (19.5 $^\circ$ C) $\gt$
+HCl ($-85\ ^\circ$ C) $\lt$ HBr ($-67\ ^\circ$ C) $\lt$ HI ($-35\ ^\circ$ C). Why does HF deviate from
 the trend? Rank all the intermolecular forces present in each substance.
 
 **Solution:** For HCl, HBr, and HI, the only significant intermolecular forces are London dispersion
@@ -167,7 +167,7 @@ overall interaction highly favourable.
 
 ### IT-2: Hybridisation and Bond Strength (with Energetics)
 
-**Question:** The bond enthalpy of a C--C single bond is $347\ \text{kJ mol}^{-1}$A C=C double bond
+**Question:** The bond enthalpy of a C--C single bond is $347\ \text{kJ mol}^{-1}$ A C=C double bond
 is $614\ \text{kJ mol}^{-1}$ And a C$\equiv$C triple bond is $839\ \text{kJ mol}^{-1}$. The second
 bond (first $\pi$ bond) adds $267\ \text{kJ mol}^{-1}$ but the third bond (second $\pi$ bond) only
 adds $225\ \text{kJ mol}^{-1}$. Explain this trend using hybridisation concepts.
@@ -210,7 +210,7 @@ $\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{CH}_3$ (pentane), (c) $\text{
 
 **Solution:**
 
-(a) Butan-1-ol: Moderately soluble (approximately $80\ \text{g/L}$ at $25\ ^\circ$C). The
+(a) Butan-1-ol: Moderately soluble (approximately $80\ \text{g/L}$ at $25\ ^\circ$ C). The
 $-\text{OH}$ group can hydrogen bond with water, but the four-carbon non-polar chain is relatively
 large. The hydrophobic effect of the alkyl chain partially counteracts the hydrogen bonding,
 limiting solubility compared to shorter alcohols.

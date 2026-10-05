@@ -107,7 +107,7 @@ $$
 
 An enzyme has the following rates at different substrate concentrations:
 
-| [S] (mM) | v ($\mu$Mol/min) |
+| [S] (mM) | v ($\mu$ Mol/min) |
 | -------- | ---------------- |
 | 1        | 1.67             |
 | 2        | 2.86             |
@@ -117,11 +117,11 @@ An enzyme has the following rates at different substrate concentrations:
 | 50       | 7.69             |
 | 100      | 8.00             |
 
-At very high [S], $v$ approaches $V_{\max} \approx 8$ $\mu$Mol/min.
+At very high [S], $v$ approaches $V_{\max} \approx 8$ $\mu$ Mol/min.
 
 At $v = V_{\max}/2 = 4$, $[S] = K_m \approx 5$ mM.
 
-So $K_m = 5$ mM and $V_{\max} = 8$ $\mu$Mol/min.
+So $K_m = 5$ mM and $V_{\max} = 8$ $\mu$ Mol/min.
 
 ### Cellular Respiration
 
@@ -241,7 +241,7 @@ The skin and in the hypothalamus itself.
 
 **Nephron structure:**
 
-- **Bowman"s capsule:** Filtration of blood; forms glomerular filtrate
+- **Bowman's capsule:** Filtration of blood; forms glomerular filtrate
 - **Proximal convoluted tubule:** Selective reabsorption of all glucose, amino acids, and some water
   and ions
 - **Loop of Henle:** Countercurrent multiplier; creates a concentration gradient in the medulla for
@@ -392,7 +392,7 @@ A person drinks 2 litres of water. What happens to their blood osmolarity and AD
 15. Explain why fever can be beneficial during an infection, with reference to enzyme activity.
 
 16. Calculate the $K_m$ and $V_{\max}$ of an enzyme from the following data: [S] = 2 mM, v = 3.33
-    $\mu$Mol/min; [S] = 10 mM, v = 6.67 $\mu$Mol/min; [S] = 50 mM, v = 8.33 $\mu$Mol/min.
+    $\mu$ Mol/min; [S] = 10 mM, v = 6.67 $\mu$ Mol/min; [S] = 50 mM, v = 8.33 $\mu$ Mol/min.
 
 17. Explain how the countercurrent multiplier in the loop of Henle creates a concentration gradient
     in the kidney medulla.
@@ -619,38 +619,38 @@ Temperature.
 
 **Worked Example: Effect of a competitive inhibitor.**
 
-An enzyme has $K_m = 5$ mM and $V_{\max} = 10$ $\mu$Mol/min. A competitive inhibitor is added at a
+An enzyme has $K_m = 5$ mM and $V_{\max} = 10$ $\mu$ Mol/min. A competitive inhibitor is added at a
 Concentration that doubles the apparent $K_m$.
 
-With inhibitor: apparent $K_m = 10$ mM, $V_{\max}$ unchanged at 10 $\mu$Mol/min.
+With inhibitor: apparent $K_m = 10$ mM, $V_{\max}$ unchanged at 10 $\mu$ Mol/min.
 
 At $[S] = 5$ mM (original $K_m$):
 
-- Without inhibitor: $v = (10 \times 5) / (5 + 5) = 5$ $\mu$Mol/min (50% of $V_{\max}$).
-- With inhibitor: $v = (10 \times 5) / (10 + 5) = 3.33$ $\mu$Mol/min (33.3% of $V_{\max}$).
+- Without inhibitor: $v = (10 \times 5) / (5 + 5) = 5$ $\mu$ Mol/min (50% of $V_{\max}$).
+- With inhibitor: $v = (10 \times 5) / (10 + 5) = 3.33$ $\mu$ Mol/min (33.3% of $V_{\max}$).
 
 At very high $[S]$ (e.g., 100 mM):
 
-- Without inhibitor: $v \approx 10$ $\mu$Mol/min.
-- With inhibitor: $v \approx 10$ $\mu$Mol/min.
+- Without inhibitor: $v \approx 10$ $\mu$ Mol/min.
+- With inhibitor: $v \approx 10$ $\mu$ Mol/min.
 
 The competitive inhibitor reduces the rate at low $[S]$ but has no effect at very high $[S]$ Because
 the substrate outcompetes the inhibitor.
 
 **Worked Example: Effect of a non-competitive inhibitor.**
 
-The same enzyme with $K_m = 5$ mM and $V_{\max} = 10$ $\mu$Mol/min. A non-competitive inhibitor
-Reduces $V_{\max}$ to 6 $\mu$Mol/min but does not change $K_m$.
+The same enzyme with $K_m = 5$ mM and $V_{\max} = 10$ $\mu$ Mol/min. A non-competitive inhibitor
+Reduces $V_{\max}$ to 6 $\mu$ Mol/min but does not change $K_m$.
 
 At $[S] = 5$ mM:
 
-- Without inhibitor: $v = 5$ $\mu$Mol/min.
-- With inhibitor: $v = (6 \times 5) / (5 + 5) = 3$ $\mu$Mol/min.
+- Without inhibitor: $v = 5$ $\mu$ Mol/min.
+- With inhibitor: $v = (6 \times 5) / (5 + 5) = 3$ $\mu$ Mol/min.
 
 At very high $[S]$ (e.g., 100 mM):
 
-- Without inhibitor: $v \approx 10$ $\mu$Mol/min.
-- With inhibitor: $v \approx 6$ $\mu$Mol/min.
+- Without inhibitor: $v \approx 10$ $\mu$ Mol/min.
+- With inhibitor: $v \approx 6$ $\mu$ Mol/min.
 
 Unlike the competitive inhibitor, the non-competitive inhibitor reduces the maximum rate even at
 Very high substrate concentrations, because it reduces the number of functional enzyme molecules
@@ -662,7 +662,7 @@ Regardless of substrate concentration.
 PEP carboxylase in mesophyll cells to form oxaloacetate (4C), which is converted to malate. Malate
 Is transported to bundle-sheath cells, where $\mathrm{CO_2$ is released and enters the Calvin cycle.
 PEP carboxylase has a much higher affinity for $\mathrm{CO_2$ than RuBisCO and does not bind
-$\mathrm{O_2$Minimising photorespiration.
+$\mathrm{O_2$ Minimising photorespiration.
 
 **CAM photosynthesis:** In CAM plants (e.g., cacti, pineapples), stomata open at night to fix
 $\mathrm{CO_2$ into malic acid, which is stored in vacuoles. During the day, stomata close, and

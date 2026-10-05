@@ -54,7 +54,7 @@ $\ln(y^2 + 1) = 2x + C$. At $(0,0)$: $\ln 1 = C = 0$. $y^2 + 1 = e^{2x}$$y = \sq
 
 (d) The **general solution** contains an arbitrary constant $C$ and represents the family of all
 possible solutions. The **particular solution** is obtained by using an initial/boundary condition
-to find the value of $C$Giving a single specific solution.
+to find the value of $C$ Giving a single specific solution.
 
 ### UT-2: Second Order Linear DEs
 
@@ -79,7 +79,7 @@ the nature of solutions:
 
 - $\Delta \gt 0$: Two distinct real roots, general solution $y = Ae^{m_1x} + Be^{m_2x}$.
 - $\Delta = 0$: One repeated real root, general solution $y = (A + Bx)e^{mx}$.
-- $\Delta \lt 0$: Complex conjugate roots $m = \alpha \pm \beta i$General solution
+- $\Delta \lt 0$: Complex conjugate roots $m = \alpha \pm \beta i$ General solution
   $y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)$.
 
 ### UT-3: Second Order DEs with RHS
@@ -137,12 +137,12 @@ $0 = mg/k + C$$C = -mg/k$. $v = \frac{mg}{k}(1 - e^{-kt/m})$.
 (c) At $t = m/k$: $v = \frac{mg}{k}(1 - e^{-1}) = \frac{mg}{k}(1 - 0.368) = 0.632 v_{\text{term}}$.
 The particle reaches approximately 63.2% of terminal velocity.
 
-(d) The graph starts at $v = 0$ with steep gradient $g$Curves concavely, and asymptotically
+(d) The graph starts at $v = 0$ with steep gradient $g$ Curves concavely, and asymptotically
 approaches $v = mg/k$. It is a typical exponential approach curve.
 
 ### IT-2: Coupled DEs (with Matrices)
 
-**Question:** Solve the system: $\frac{dx}{dt} = 2x + y$$\frac{dy}{dt} = x + 2y$With
+**Question:** Solve the system: $\frac{dx}{dt} = 2x + y$$\frac{dy}{dt} = x + 2y$ With
 $x(0) = 1$$y(0) = 0$. (a) Write in matrix form. (b) Find eigenvalues and eigenvectors of the
 coefficient matrix. (c) Solve the system. (d) Calculate $x(1)$ and $y(1)$.
 

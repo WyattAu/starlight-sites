@@ -218,7 +218,7 @@ When physical memory is full, a victim page must be selected for eviction.
 **Optimal (OPT/MIN).** Replace the page not used for the longest time in the future. Provably
 Optimal but requires future knowledge; used only as a benchmark.
 
-**Theorem 5.2 (Belady"s Optimality).** OPT yields the fewest page faults for any reference string.
+**Theorem 5.2 (Belady's Optimality).** OPT yields the fewest page faults for any reference string.
 
 _Proof._ If OPT replaces page $x$ (used furthest in future) and another algorithm replaces page $y$
 (used sooner), the other algorithm faults at least once more by the time $y$ is next Referenced.

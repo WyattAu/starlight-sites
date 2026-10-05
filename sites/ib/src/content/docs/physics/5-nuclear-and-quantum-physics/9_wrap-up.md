@@ -31,7 +31,7 @@ categories:
 ### Details
 
 <summary>Answer</summary>
-- **Strategy:** (a) Use Einstein"s photoelectric equation. (b) Use the max KE to find the max speed, then use the formula for the radius of a charged particle in a B-field. (c) Relate stopping potential to max KE.
+- **Strategy:** (a) Use Einstein's photoelectric equation. (b) Use the max KE to find the max speed, then use the formula for the radius of a charged particle in a B-field. (c) Relate stopping potential to max KE.
 - **a) Maximum Kinetic Energy ($E_{k, \mathrm{max}}$):**
  - Energy of incident photon: $E = hf = \frac{hc}{\lambda} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^8)}{400 \times 10^{-9}} = 4.97 \times 10^{-19}$ J.
  - Convert photon energy to eV: $E = \frac{4.97 \times 10^{-19}}{1.60 \times 10^{-19}} = 3.11$ eV.
@@ -65,7 +65,7 @@ categories:
  - Convert energy to joules: $\Delta E = 1.889 \times 1.6 \times 10^{-19} = 3.022 \times 10^{-19}$ J.
  - Photon wavelength: $\lambda_0 = \frac{hc}{\Delta E} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^8)}{3.022 \times 10^{-19}} = 6.58 \times 10^{-7}$ m or 658 nm.
 - **b) Relativistic Speed (v):**
- - The observed wavelength is $\lambda = 700$ nm. Since $\lambda > \lambda_0$This is a redshift, confirming the atom is moving away.
+ - The observed wavelength is $\lambda = 700$ nm. Since $\lambda > \lambda_0$ This is a redshift, confirming the atom is moving away.
  - Use the relativistic Doppler formula for light: $\lambda = \lambda_0 \sqrt{\frac{1+v/c}{1-v/c}}$.
  - $\left(\frac{\lambda}{\lambda_0}\right)^2 = \frac{1+v/c}{1-v/c} \implies \left(\frac{700}{658}\right)^2 = 1.132 = \frac{1+v/c}{1-v/c}$.
  - $1.132(1-v/c) = 1+v/c \implies 1.132 - 1.132(v/c) = 1 + v/c$.
@@ -124,7 +124,7 @@ categories:
  - Use the activity decay formula: $A = A_0 e^{-\lambda t}$.
  - $A = (100 \mathrm{ GBq}) e^{-(0.1315)(10)} = 100 \times e^{-1.315} = 100 \times 0.268 = 26.8$ GBq.
 - **c) Shield Thickness:**
- - The intensity is reduced to 1/16. Since $1/16 = (1/2)^4$The thickness of the shield must be equal to 4 half-value thicknesses ($x_{1/2}$).
+ - The intensity is reduced to 1/16. Since $1/16 = (1/2)^4$ The thickness of the shield must be equal to 4 half-value thicknesses ($x_{1/2}$).
  - Thickness = $4 \times x_{1/2} = 4 \times 1.2 \mathrm{ cm} = 4.8$ cm.
 <b>If you get this wrong, you should focus on:</b> The domain of applicability for quantum concepts (de Broglie for matter, E=hc/λ for photons), the exponential decay formula for activity, and the concept of half-value thickness for radiation attenuation.
 
@@ -142,7 +142,7 @@ categories:
 - **a) Radius of the Star:**
  - Stefan-Boltzmann Law: $L = 4\pi \sigma R^2 T^4$.
  - For the star: $L_{\mathrm{star}} = 100 L_\odot$. For the Sun: $L_\odot = 4\pi \sigma R_\odot^2 T_\odot^4$.
- - Since $T_{\mathrm{star}} = T_\odot$We can write:
+ - Since $T_{\mathrm{star}} = T_\odot$ We can write:
  - $L_{\mathrm{star}} = 4\pi \sigma R_{\mathrm{star}}^2 T_\odot^4$.
  - Divide the two equations: $\frac{L_{\mathrm{star}}}{L_\odot} = \frac{4\pi \sigma R_{\mathrm{star}}^2 T_\odot^4}{4\pi \sigma R_\odot^2 T_\odot^4} = \left(\frac{R_{\mathrm{star}}}{R_\odot}\right)^2$.
  - $100 = \left(\frac{R_{\mathrm{star}}}{R_\odot}\right)^2 \implies \frac{R_{\mathrm{star}}}{R_\odot} = \sqrt{100} = 10$.
@@ -321,7 +321,7 @@ $$
 \Delta m = Zm_p + (A-Z)m_n - m_{\mathrm{nucleus}}
 $$
 
-The mass defect arises because energy is released when nucleons bind together. By $E = mc^2$This
+The mass defect arises because energy is released when nucleons bind together. By $E = mc^2$ This
 "lost" mass is converted to binding energy.
 
 ### Binding Energy
@@ -435,7 +435,7 @@ Explain:
 - The independence of $E_{k,\mathrm{max}}$ from intensity.
 
 Einstein's explanation: Light consists of discrete packets of energy called **photons**, each with
-Energy $E = hf$. One photon interacts with one electron. If $hf \lt \Phi$No emission occurs
+Energy $E = hf$. One photon interacts with one electron. If $hf \lt \Phi$ No emission occurs
 Regardless of intensity.
 
 ---

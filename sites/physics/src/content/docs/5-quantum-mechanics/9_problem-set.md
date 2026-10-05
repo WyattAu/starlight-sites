@@ -39,7 +39,7 @@ amplitudes. Hint: consider the Mach-Zehnder interferometer with phase shifters.
 
 **5.** (Continuity equation) Starting from the Schrodinger equation, derive the continuity equation
 $\partial|\psi|^2/\partial t + \nabla\cdot\mathbf{J} = 0$. Show that for a stationary state
-$\psi(\mathbf{r},t) = \phi(\mathbf{r})e^{-iEt/\hbar}$The probability current is time-independent.
+$\psi(\mathbf{r},t) = \phi(\mathbf{r})e^{-iEt/\hbar}$ The probability current is time-independent.
 What does this imply about the probability distribution?
 
 **6.** (Normalisation) Normalise the wave function $\psi(x) = N\,x(a-x)$ for $0 \lt x \lt a$ (and
@@ -50,7 +50,7 @@ On the space of wave functions that vanish at infinity. What boundary conditions
 by counterexample that $\hat{p}$ is not Hermitian if the boundary terms do not vanish.
 
 **8.** (Uncertainty principle) For the harmonic oscillator ground state
-$\psi_0(x) = (m\omega/\pi\hbar)^{1/4}e^{-m\omega x^2/(2\hbar)}$Calculate $\langle x \rangle$
+$\psi_0(x) = (m\omega/\pi\hbar)^{1/4}e^{-m\omega x^2/(2\hbar)}$ Calculate $\langle x \rangle$
 $\langle x^2 \rangle$, $\langle p \rangle$, $\langle p^2 \rangle$ And verify that
 $\sigma_x\,\sigma_p = \hbar/2$. Also show that $\langle x \rangle = \langle p \rangle = 0$ by
 symmetry.
@@ -71,7 +71,7 @@ Express your answers in terms of $n$, $m$, $\omega$ And $\hbar$.
 
 **12.** (Delta potential) A particle of mass $m$ and energy $E \gt 0$ is incident on the potential
 $V(x) = \alpha[\delta(x+a) + \delta(x-a)]$. Find the transmission coefficient. In the limit
-$a \to 0$Verify that you recover the single-delta-function result.
+$a \to 0$ Verify that you recover the single-delta-function result.
 
 **13.** (Tunnelling) A proton with energy $3$ MeV approaches a rectangular barrier of height $10$
 MeV and width $5 \times 10^{-15}$ m. Estimate the transmission coefficient. Compare with The alpha
@@ -95,7 +95,7 @@ the density matrix $\hat{\rho}$ for this state and verify $\mathrm{Tr}(\hat{\rho
 $\hat{\rho}^2 = \hat{\rho}$ (pure state).
 
 **17.** (Singlet state) Two spin-1/2 particles are prepared in the singlet state. If particle 1 is
-Measured to have $S_z^{(1)} = +\hbar/2$What is the state of particle 2 immediately after? If
+Measured to have $S_z^{(1)} = +\hbar/2$ What is the state of particle 2 immediately after? If
 Particle 2"s spin is then measured along the $x$-axis, what is the probability of obtaining
 $+\hbar/2$? Explain how this result is consistent with Bell's theorem and the no-communication
 theorem.

@@ -1641,7 +1641,7 @@ Colons:
 ### IPv6 Address Space
 
 The total IPv6 address space is $2^{128} = 340,282,366,920,938,463,463,374,607,431,768,211,456$
-Addresses. This is approximately $3.4 \times 10^{38}$Or roughly $5 \times 10^{28}$ addresses per
+Addresses. This is approximately $3.4 \times 10^{38}$ Or roughly $5 \times 10^{28}$ addresses per
 Person on Earth.
 
 To put this in perspective: if every atom on Earth's surface were assigned an IPv6 address, there
@@ -2087,7 +2087,7 @@ Actual host requirement.
 | Office A   | 50    | 6 ($2^6 - 2 = 62$)              |
 | Office B   | 25    | 5 ($2^5 - 2 = 30$)              |
 | Management | 10    | 4 ($2^4 - 2 = 14$)              |
-| WAN 1      | 2     | 2 ($2^2 - 2 = 2$Or `/31` for 2) |
+| WAN 1      | 2     | 2 ($2^2 - 2 = 2$ Or `/31` for 2) |
 | WAN 2      | 2     | 2                               |
 | WAN 3      | 2     | 2                               |
 | WAN 4      | 2     | 2                               |
@@ -2949,7 +2949,7 @@ The UDP header is 8 bytes -- the smallest of any transport protocol:
 - **Unreliable:** No acknowledgments, no retransmissions. Datagrams may be lost, duplicated, or
   arrive out of order. The application is responsible for handling these cases if needed.
 - **Message-oriented:** Each `sendto()` call produces exactly one datagram. The receiver gets the
-  exact message boundaries. This is fundamentally different from TCP"s byte-stream model.
+  exact message boundaries. This is fundamentally different from TCP's byte-stream model.
 - **No flow control:** If the receiver cannot keep up, datagrams are silently dropped. The kernel's
   receive buffer fills up, and new datagrams are discarded. `ss -uanp` shows the receive queue
   depth.
@@ -3267,7 +3267,7 @@ The original TCP header has a 16-bit window field, limiting the window to 65,535
 Bandwidth-delay products (e.g., satellite links, long-haul fiber), this limits throughput.
 
 The **Window Scaling** option (RFC 7323) allows the window to be scaled by a factor of
-$2^{\mathrm{scale}$Where scale ranges from 0 to 14:
+$2^{\mathrm{scale}$ Where scale ranges from 0 to 14:
 
 $$
 \mathrm{Effective Window = \mathrm{Window \times 2^{\mathrm{scale factor}
@@ -4689,7 +4689,7 @@ DNS uses UDP for queries and responses under 512 bytes (originally; EDNS0 extend
 Response exceeds the limit, the server sets the TC (Truncation) bit, and the client retries over
 TCP.
 
-Why UDP: DNS queries are small, a single request-response pair, and the overhead of TCP"s three-way
+Why UDP: DNS queries are small, a single request-response pair, and the overhead of TCP's three-way
 Handshake (3 packets) would exceed the query itself (1 packet). UDP gets the answer in one round
 Trip instead of three.
 
@@ -14313,7 +14313,7 @@ $$
 The station waits for $r \times 512$ bit times before retransmitting. A "bit time" at 10 Mbps is 100
 Nanoseconds, so each slot time is $512 \times 100\mathrm{ ns = 51.2\,\mu\mathrm{s$.
 
-The maximum backoff occurs after 10 collisions: $k = 10$Giving a range of $\{0, 1, \ldots,
+The maximum backoff occurs after 10 collisions: $k = 10$ Giving a range of $\{0, 1, \ldots,
 1023\}$.
 After 16 consecutive collisions, the station gives up and reports an error to the upper layer.
 
@@ -14329,7 +14329,7 @@ Backoff range: $\{0, 1, 2, \ldots, 2^4 - 1\} = \{0, 1, 2, \ldots, 15\}$
 
 Slot time = 512 bit times = 51.2 microseconds
 
-If the random number selected is $r = 7$The station waits:
+If the random number selected is $r = 7$ The station waits:
 
 $$
 7 \times 51.2\,\mu\mathrm{s = 358.4\,\mu\mathrm{s
@@ -15533,7 +15533,7 @@ Minute.
 
 ### WPA (Wi-Fi Protected Access) -- Obsolete
 
-WPA was an interim solution designed to address WEP"s weaknesses before 802.11i was finalized.
+WPA was an interim solution designed to address WEP's weaknesses before 802.11i was finalized.
 
 - **Encryption:** TKIP (Temporal Key Integrity Protocol) -- still uses RC4, but adds a per-packet
   key mixing function, a 48-bit IV, and a cryptographic MIC (Michael).

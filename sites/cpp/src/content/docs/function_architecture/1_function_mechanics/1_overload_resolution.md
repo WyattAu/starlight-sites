@@ -166,11 +166,11 @@ Implicit conversion sequences required. A function $f_1$ is a better match than 
 
 ### Formal Statement of the Viable Function Selection
 
-Let $C$ be the candidate set from name lookup. For each candidate $c \in C$Let $n_c$ be the number
+Let $C$ be the candidate set from name lookup. For each candidate $c \in C$ Let $n_c$ be the number
 Of parameters of $c$ And let $k$ be the number of arguments in the call. Candidate $c$ is viable if
 And only if all of the following hold:
 
-1. $n_c = k$Or $c$ has a trailing parameter pack and $n_c \le k$Or $c$ is variadic and $n_c \le k$.
+1. $n_c = k$ Or $c$ has a trailing parameter pack and $n_c \le k$ Or $c$ is variadic and $n_c \le k$.
 2. For each argument $a_i$ (where $1 \le i \le k$), there exists an implicit conversion sequence
    converting $a_i$ to the type of the $i$-th parameter of $c$.
 
@@ -681,7 +681,7 @@ Argument and no worse for any argument, then $f_1$ is selected.
 
 **Proof:**
 
-1. Let $k$ be the number of arguments. For each argument $i \in \{1, \ldots, k\}$Let
+1. Let $k$ be the number of arguments. For each argument $i \in \{1, \ldots, k\}$ Let
    $\mathrm{ICS_{f_1}(i)$ and $\mathrm{ICS_{f_2}(i)$ be the implicit conversion sequences for $f_1$
    and $f_2$ respectively.
 

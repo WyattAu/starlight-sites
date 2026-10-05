@@ -292,7 +292,7 @@ $$
 
 ### Example 9: Galvanic Cell
 
-**Problem:** A galvanic cell is constructed with Fe/Fe²⁺ ($E° = -0.44\,\text{V}$) and Ag/Ag⁺ ($E° = +0.80\,\text{V}$). Write the cell notation, calculate the cell potential, and determine the spontaneous reaction.
+**Problem:** A galvanic cell is constructed with Fe/Fe²⁺ ($E° = -0.44\,\text{V}$) and Ag/Ag⁺ ($ E° = +0.80\,\text{V}$). Write the cell notation, calculate the cell potential, and determine the spontaneous reaction.
 
 **Solution:**
 

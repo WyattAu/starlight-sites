@@ -54,12 +54,12 @@ Where $t$ is the hopping integral and $U$ is the on-site repulsion energy.
   oxides
 
 The half-filled Hubbard model on a bipartite lattice has a metal--insulator transition at
-$U_c \sim W$ (bandwidth). For $U > U_c$The system is a Mott insulator even though band theory
+$U_c \sim W$ (bandwidth). For $U > U_c$ The system is a Mott insulator even though band theory
 predicts a metal.
 
 ### 14.3 Quasiparticles and Fermi Liquid Theory
 
-Landau"s **Fermi liquid theory** (1956) states that the low-energy excitations of an interacting
+Landau's **Fermi liquid theory** (1956) states that the low-energy excitations of an interacting
 Fermi system can be described as **quasiparticles** --- weakly interacting fermions with
 renormalised parameters:
 

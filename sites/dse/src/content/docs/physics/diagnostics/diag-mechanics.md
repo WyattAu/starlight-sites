@@ -42,7 +42,7 @@ coming to rest.
 
 **Stage 1: Braking on normal road ($t = 0$ to $t = 3$ s)**
 
-Using Newton"s second law:
+Using Newton's second law:
 
 $$
 a_1 = \frac{F}{m} = \frac{-7500}{1500} = -5 \text{ m s}^{-2}
@@ -202,7 +202,7 @@ $$
 
 Scale reads $65.0$ kg (normal weight).
 
-**Phase 3: Decelerating ($a = -3 \text{ m s}^{-2}$Lift is moving up but slowing down)**
+**Phase 3: Decelerating ($a = -3 \text{ m s}^{-2}$ Lift is moving up but slowing down)**
 
 $$
 N - mg = ma
@@ -334,7 +334,7 @@ $$
 a = \frac{30}{4 + 6} = 3 \text{ m s}^{-2}
 $$
 
-For block A to accelerate at $3 \text{ m s}^{-2}$The friction force on A must provide this
+For block A to accelerate at $3 \text{ m s}^{-2}$ The friction force on A must provide this
 acceleration:
 
 $$
@@ -347,7 +347,7 @@ $$
 f_{\max} = \mu_s m_A g = 0.3 \times 4 \times 9.81 = 11.77 \text{ N}
 $$
 
-Since $12 \text{ N} \gt 11.77 \text{ N}$The required friction exceeds the maximum static friction.
+Since $12 \text{ N} \gt 11.77 \text{ N}$ The required friction exceeds the maximum static friction.
 **The blocks slide relative to each other.**
 
 **Step 2: Find actual accelerations**

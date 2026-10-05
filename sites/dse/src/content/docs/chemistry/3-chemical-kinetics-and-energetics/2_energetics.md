@@ -141,7 +141,7 @@ This is always endothermic (bonds must be broken).
 }
 </script>
 
-## Hess"s Law
+## Hess's Law
 
 ### Statement
 
@@ -260,7 +260,7 @@ $$
 = -2323.7 + 2220 = -103.7 \mathrm{ kJ/mol}
 $$
 
-This is $\Delta H_f^\circ(\mathrm{C}_{3\mathrm{H}_{8(g)}})$Matching the reference value of
+This is $\Delta H_f^\circ(\mathrm{C}_{3\mathrm{H}_{8(g)}})$ Matching the reference value of
 $-103.8 \mathrm{ kJ/mol}$.
 
 </details>
@@ -398,7 +398,7 @@ Where:
 - $q$ = heat energy (J)
 - $m$ = mass of water/solution (g)
 - $c$ = specific heat capacity (4.18 J g$^{-1}$ K$^{-1}$ for water)
-- $\Delta T$ = temperature change (K or $^\circ$C)
+- $\Delta T$ = temperature change (K or $^\circ$ C)
 
 $$
 \Delta H = -\frac{q}{n} = -\frac{mc\Delta T}{n}
@@ -691,7 +691,7 @@ Calculate the minimum temperature at which the reaction becomes feasible.
 At $\Delta G = 0$:
 $T = \dfrac{\Delta H}{\Delta S} = \dfrac{178}{0.161} = 1106 \mathrm{ K} = 833^\circ\mathrm{C}$
 
-Above $833^\circ\mathrm{C}$The reaction becomes thermodynamically feasible.
+Above $833^\circ\mathrm{C}$ The reaction becomes thermodynamically feasible.
 
 </details>
 
@@ -709,7 +709,7 @@ At 298 K:
 
 $\Delta G = -92.0 - 298 \times (-0.199) = -92.0 + 59.3 = -32.7 \mathrm{ kJ/mol}$
 
-Since $\Delta G \lt 0$The reaction is feasible at 298 K.
+Since $\Delta G \lt 0$ The reaction is feasible at 298 K.
 
 At $\Delta G = 0$: $T = \dfrac{-92.0}{-0.199} = 462 \mathrm{ K} = 189^\circ\mathrm{C}$
 
@@ -740,7 +740,7 @@ A catalyst and continuous removal of $\mathrm{NH}_3$ to shift equilibrium.
 
 ## Common Pitfalls
 
-1. **Sign errors in Hess's Law:** When using $\Delta H_c^\circ$Remember:
+1. **Sign errors in Hess's Law:** When using $\Delta H_c^\circ$ Remember:
    $\Delta H = \sum \Delta H_c^\circ(\mathrm{reactants}) - \sum \Delta H_c^\circ(\mathrm{products})$.
    The signs are reversed compared to using $\Delta H_f^\circ$.
 
@@ -945,7 +945,7 @@ The discrepancy is due to:
    rather than being absorbed by the water.
 
 2. **Incomplete combustion:** Ethanol may burn incompletely, producing CO and soot instead of only
-   $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$Releasing less heat per mole.
+   $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$ Releasing less heat per mole.
 
 3. **Evaporation of ethanol:** Some ethanol evaporates before/during combustion, meaning not all the
    measured mass actually burns.
@@ -1073,12 +1073,12 @@ $$
 
 **Worked example 8:** A calorimeter has a heat capacity of 50.0 J/K. When 100 cm$^3$ of 1.00
 Mol/dm$^3$ HCl is mixed with 100 cm$^3$ of 1.00 mol/dm$^3$ NaOH, the temperature rises from
-$20.0^\circ$C to $26.7^\circ$C. Calculate $\Delta H_{\mathrm{neut}}$.
+$20.0^\circ$ C to $26.7^\circ$ C. Calculate $\Delta H_{\mathrm{neut}}$.
 
 <details>
 <summary>Answer</summary>
 
-$\Delta T = 26.7 - 20.0 = 6.7^\circ$C
+$\Delta T = 26.7 - 20.0 = 6.7^\circ$ C
 
 $q_{\mathrm{water}} = 200 \times 4.18 \times 6.7 = 5601 \mathrm{ J}$
 

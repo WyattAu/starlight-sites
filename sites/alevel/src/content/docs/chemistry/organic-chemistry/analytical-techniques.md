@@ -530,8 +530,8 @@ reference spectrum is used for identification.
 
 An unknown compound has the following analytical data:
 
-- Mass spectrum: molecular ion peak at $m/z = 88$Base peak at $m/z = 43$.
-- IR: strong absorption at $1700\,\mathrm{cm}^{-1}$Broad absorption at
+- Mass spectrum: molecular ion peak at $m/z = 88$ Base peak at $m/z = 43$.
+- IR: strong absorption at $1700\,\mathrm{cm}^{-1}$ Broad absorption at
   $2500$--$3300\,\mathrm{cm}^{-1}$.
 - $^1\mathrm{H}$ NMR: $\delta\, 1.2$ (triplet, 3H), $\delta\, 2.0$ (singlet, 3H), $\delta\, 2.3$
   (quartet, 2H), $\delta\, 11.0$ (singlet, 1H).
@@ -590,7 +590,7 @@ A compound with molecular formula $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$ gives the
 
 - IR: strong absorption at $1715\,\mathrm{cm}^{-1}$; no absorption above $3000\,\mathrm{cm}^{-1}$.
 - $^1\mathrm{H}$ NMR: $\delta\, 2.1$ (singlet, 3H), $\delta\, 2.5$ (singlet, 3H).
-- Mass spectrum: molecular ion at $m/z = 58$Base peak at $m/z = 43$.
+- Mass spectrum: molecular ion at $m/z = 58$ Base peak at $m/z = 43$.
 
 Identify the compound and explain each piece of evidence.
 
@@ -604,7 +604,7 @@ amines. The compound is either an aldehyde or a ketone.
 ($\delta\, 9\text{--}10$), so the compound is a ketone. Two methyl groups in different environments,
 each adjacent to the carbonyl (hence the low chemical shift of $\delta\, 2.1$ and $\delta\, 2.5$).
 
-**Mass spectrum:** $M_r = 58$Consistent with $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$. Base peak at
+**Mass spectrum:** $M_r = 58$ Consistent with $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$. Base peak at
 $m/z = 43$ corresponds to $\mathrm{CH}_3\mathrm{CO}^+$ (acetyl cation), formed by alpha-cleavage
 adjacent to the carbonyl.
 
@@ -620,14 +620,14 @@ singlet, 6H). The data showing two singlets of 3H each is inconsistent with prop
 The correct compound is **propanal** ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO}$), but this would show
 a triplet, quartet, and aldehyde proton, not two singlets. The data is most consistent with **ethyl
 methyl ketone (butanone)**, $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COCH}_3$ But this has
-$M_r = 72$Not 58.
+$M_r = 72$ Not 58.
 
 Given the constraint $M_r = 58$ and $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$: the only ketone is
 propanone, which should show one singlet (6H). The data provided appears to describe a different
 compound. Under exam conditions, the most likely answer is **propanone**, with the NMR simplified to
 show overlapping environments. Alternatively, the formula may be
-$\mathrm{C}_4\mathrm{H}_8\mathrm{O}$ (butanone: $\delta\, 2.1$S, 3H, $\mathrm{COCH}_3$;
-$\delta\, 2.5$S, 3H, $\mathrm{COCH}_2\mathrm{CH}_3$ -- but this should be a quartet, not a singlet).
+$\mathrm{C}_4\mathrm{H}_8\mathrm{O}$ (butanone: $\delta\, 2.1$ S, 3H, $\mathrm{COCH}_3$;
+$\delta\, 2.5$ S, 3H, $\mathrm{COCH}_2\mathrm{CH}_3$ -- but this should be a quartet, not a singlet).
 
 This problem illustrates the importance of cross-checking all data for consistency.
 
@@ -646,7 +646,7 @@ Identify the compound.
 **Solution:**
 
 The molecular formula $\mathrm{C}_7\mathrm{H}_7\mathrm{Br}$ has a degree of unsaturation of
-$2 - 7 + (7+1)/2 = 4$Strongly suggesting a benzene ring (one ring + three double bonds = 4 degrees
+$2 - 7 + (7+1)/2 = 4$ Strongly suggesting a benzene ring (one ring + three double bonds = 4 degrees
 of unsaturation).
 
 $^1\mathrm{H}$ NMR: $\delta\, 2.3$ (s, 3H) is a methyl group attached to an aromatic ring
@@ -668,7 +668,7 @@ and directs electrophilic substitution to the ortho and para positions.
 
 An unknown compound $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$ gives the following data:
 
-- Mass spectrum: $M^+ = 58$Base peak at $m/z = 43$.
+- Mass spectrum: $M^+ = 58$ Base peak at $m/z = 43$.
 - IR: $1715\,\mathrm{cm}^{-1}$ (strong), $3000\,\mathrm{cm}^{-1}$ (weak), no O--H.
 - $^1\mathrm{H}$ NMR: $\delta\, 1.1$ (d, 6H), $\delta\, 2.1$ (s, 3H), $\delta\, 2.5$ (septet, 1H).
 
@@ -677,7 +677,7 @@ Identify the compound and explain each piece of data.
 **Solution:**
 
 **Mass spectrometry:** $M = 58$. Possible formulas: $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$
-($3 \times 12 + 6 \times 1 + 16 = 58$). DoU $= (6 + 1 - 6)/2 = 0.5$Which rounds to 1 (one C=O). Base
+($3 \times 12 + 6 \times 1 + 16 = 58$). DoU $= (6 + 1 - 6)/2 = 0.5$ Which rounds to 1 (one C=O). Base
 peak at 43 = $\mathrm{CH}_3\mathrm{CO}^+$ (acylium ion, common fragmentation of ketones).
 
 **IR:** $1715\,\mathrm{cm}^{-1}$ = C=O (ketone). No broad O--H = not a carboxylic acid or alcohol.
@@ -694,9 +694,9 @@ Weak band at $3000\,\mathrm{cm}^{-1}$ = C--H stretch.
 
 The compound is **propanone** ($\mathrm{CH}_3\mathrm{COCH}_3$)? No, propanone has only one type of
 methyl. The data show an isopropyl group and a methyl group adjacent to C=O. The compound is
-**butan-2-one**? That is $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$Which is too many carbons.
+**butan-2-one**? That is $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$ Which is too many carbons.
 
-Reconsidering: $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$DoU = 1. The NMR shows
+Reconsidering: $\mathrm{C}_3\mathrm{H}_6\mathrm{O}$ DoU = 1. The NMR shows
 $(\mathrm{CH}_3)_2\mathrm{CH}-$ (isopropyl, 7H total) and $\mathrm{CH}_3-$ (3H) = 10H. But the
 formula has only 6H. This is inconsistent.
 
@@ -913,7 +913,7 @@ $\delta\, 11.0$ (s, 1H). The given data show only a quartet and triplet, consist
 group ($\mathrm{CH}_3\mathrm{CH}_2-$) and a carboxylic acid proton. This matches **propanoic acid**,
 but the formula should be $\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$.
 
-If the formula is $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$The additional $\mathrm{CH}_2$ would appear
+If the formula is $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$ The additional $\mathrm{CH}_2$ would appear
 in the NMR. The discrepancy suggests the formula may be $\mathrm{C}_3\mathrm{H}_6\mathrm{O}_2$
 (propanoic acid).
 
@@ -925,7 +925,7 @@ in the NMR. The discrepancy suggests the formula may be $\mathrm{C}_3\mathrm{H}_
 An organic compound $\mathrm{C}_7\mathrm{H}_8$ shows the following data:
 
 - Mass spec: M+ at $m/z = 92$ (base peak), M+1 at 7.7%, significant fragment at $m/z = 91$
-- IR: absorption at $3030\,\mathrm{cm}^{-1}$, $1600$ and $1500\,\mathrm{cm}^{-1}$No absorption above
+- IR: absorption at $3030\,\mathrm{cm}^{-1}$, $1600$ and $1500\,\mathrm{cm}^{-1}$ No absorption above
   $3100\,\mathrm{cm}^{-1}$
 - $^1\mathrm{H}$ NMR: $\delta\, 7.2$ (m, 5H), $\delta\, 2.3$ (s, 3H)
 

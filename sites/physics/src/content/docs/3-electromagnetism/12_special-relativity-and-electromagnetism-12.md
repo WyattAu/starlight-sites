@@ -77,7 +77,7 @@ $$
 $\frac{d}{dt}\left(\mathbf{p}_{\text{mech} + \mathbf{p}_{\text{field}\right) = 0}}$.
 
 For a charge and a magnetic monopole (if they exist), the field angular momentum
-$\mathbf{L} = -qg\hat{\mathbf{r}}/(4\pi)$ is quantised in units of $\hbar/2$Leading to the Dirac
+$\mathbf{L} = -qg\hat{\mathbf{r}}/(4\pi)$ is quantised in units of $\hbar/2$ Leading to the Dirac
 charge quantisation condition $eg = n\hbar/2$.
 
 ### 12.4 Key Relationships
@@ -161,7 +161,7 @@ $$
 
 At $t' = 0$: $\mathbf{E}'$ is still radial (from the instantaneous position) but with an enhanced
 transverse component by factor $\gamma$. The magnetic field is
-$\mathbf{B}' = -\mathbf{v} \times \mathbf{E}'/c^2$Circulating around the direction of motion.
+$\mathbf{B}' = -\mathbf{v} \times \mathbf{E}'/c^2$ Circulating around the direction of motion.
 
 The Poynting vector $\mathbf{S}' = \mathbf{E}' \times \mathbf{B}'/\mu_0$ is nonzero even for a
 uniformly moving charge (it points outward and forward, indicating energy flow in the direction of

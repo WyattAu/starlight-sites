@@ -120,12 +120,12 @@ has 2 decimal places, so $[\text{H}^+]$ should have 2 s.f.: $3.5 \times 10^{-4}\
 **Question:** In an experiment to determine the molar mass of an unknown gas, a student measures the
 mass of gas at different pressures (constant $T$, $V$). The data should follow $m = \frac{PMV}{RT}$.
 The student plots $m$ vs $P$ and obtains a gradient of $0.0445\ \text{g kPa}^{-1}$. If
-$V = 250\ \text{cm}^3$ and $T = 298\ \text{K}$Calculate the molar mass. Identify whether the student
+$V = 250\ \text{cm}^3$ and $T = 298\ \text{K}$ Calculate the molar mass. Identify whether the student
 should force the line through the origin and explain why.
 
 **Solution:**
 
-From $m = \frac{MV}{RT} \times P$The gradient of $m$ vs $P$ is $\frac{MV}{RT}$.
+From $m = \frac{MV}{RT} \times P$ The gradient of $m$ vs $P$ is $\frac{MV}{RT}$.
 
 $M = \frac{\text{gradient} \times RT}{V}$
 
@@ -146,7 +146,7 @@ $M = \frac{0.0445 \times 8.314 \times 298}{0.250} = \frac{110.3}{0.250} = 44.1\ 
 
 This gives $\text{CO}_2$ ($M = 44.01\ \text{g mol}^{-1}$), which is correct.
 
-**Origin question:** Yes, the line should be forced through the origin because when $P = 0$There is
+**Origin question:** Yes, the line should be forced through the origin because when $P = 0$ There is
 no gas in the container, so $m$ must equal $0$. The relationship $m = (MV/RT)P$ has no intercept
 term. However, in practice, a best-fit line not forced through the origin may reveal systematic
 error (e.g., the container was not fully evacuated).
@@ -155,7 +155,7 @@ error (e.g., the container was not fully evacuated).
 
 ### IT-1: Error Analysis in a Titration (with Acids and Bases)
 
-**Question:** In a titration of $\text{HCl}$ with $\text{NaOH}$A student uses a burette
+**Question:** In a titration of $\text{HCl}$ with $\text{NaOH}$ A student uses a burette
 ($\pm 0.05\ \text{cm}^3$) and a pipette ($\pm 0.05\ \text{cm}^3$). The pipette delivers
 $25.00\ \text{cm}^3$ of $0.100 \pm 0.001\ \text{mol dm}^{-3}$ HCl. The average titre is
 $24.85\ \text{cm}^3$. Calculate the concentration of NaOH with its absolute uncertainty. The titre
@@ -204,7 +204,7 @@ The concentration uncertainty is dominated by the uncertainty in the HCl concent
 **Question:** The Arrhenius equation $\ln k = \ln A - E_a/RT$ is used to determine $E_a$ from a plot
 of $\ln k$ vs $1/T$. A student obtains a gradient of $-8500\ \text{K}$ with a standard error of
 $\pm 200\ \text{K}$. Calculate $E_a$ and its uncertainty. If the y-intercept is
-$25.0 \pm 0.5$Calculate $A$ and its uncertainty.
+$25.0 \pm 0.5$ Calculate $A$ and its uncertainty.
 
 **Solution:**
 

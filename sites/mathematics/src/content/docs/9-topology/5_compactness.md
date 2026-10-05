@@ -55,7 +55,7 @@ $$
 Then $a \in S$ (since $a \in$ some $U_\alpha$), so $S \neq \emptyset$. Let $s = \sup S$. One shows
 $s \in S$ and $s = b$, completing the proof. $\square$
 
-### 5.4 Products: Tychonoff"s Theorem
+### 5.4 Products: Tychonoff's Theorem
 
 **Theorem 5.3 (Tychonoff).** The product of any collection of compact spaces is compact.
 

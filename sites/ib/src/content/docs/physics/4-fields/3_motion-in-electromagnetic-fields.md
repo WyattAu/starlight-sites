@@ -28,7 +28,7 @@ Except for the charge.
 
 ## Lorentz Force Law
 
-[Coulomb"s Law](/physics/4-fields/2_electric-and-magnetic-fields/#coulombs-law) is only valid for electrostatics, as
+[Coulomb's Law](/physics/4-fields/2_electric-and-magnetic-fields/#coulombs-law) is only valid for electrostatics, as
 Magnetic force is also induced by moving charge. The combined force ($\bm{F}$) on the test charge
 ($q$) can be governed by Lorentz force law:
 
@@ -58,7 +58,7 @@ $$
 
 ### Motion of Current in Electromagnetic Field
 
-The total force ($\bm{F}$) on a current ($I$) is determined by the combine force on the total number
+The total force ($\bm{F}$) on a current ($ I$) is determined by the combine force on the total number
 ($N$) of moving charges ($q$) in the current. As the dimensions of a electron is negligible when
 Comparing to the cross section of a wire, the flow of electrons $I$ can be approximated by a
 Continuum of current density ($\bm{J} = nq\bm{v}$), where $n$ is the density of charge carriers, and
@@ -73,7 +73,7 @@ $$
 $$
 
 For current of a conductor with constant cross-sectional area ($A$) and length displacement of
-($\bm{L}$), the volume can be evaluated as ($V = AL$), leading to a force of:
+($\bm{L}$), the volume can be evaluated as ($ V = AL$), leading to a force of:
 
 $$
 \begin`\{aligned}`
@@ -149,7 +149,7 @@ Where the direction of motion on current can be determined by right hand rule (m
 
 ## Force on a Stationary Charge in an Electric Field
 
-When a charge $q$ is placed in an electric field $\bm{E}$It experiences a force:
+When a charge $q$ is placed in an electric field $\bm{E}$ It experiences a force:
 
 $$
 \bm{F_E} = q\bm{E}
@@ -164,7 +164,7 @@ Key points:
 
 ## Force on a Moving Charge in a Magnetic Field
 
-When a charge $q$ moves with velocity $\bm{v}$ through a magnetic field $\bm{B}$It experiences the
+When a charge $q$ moves with velocity $\bm{v}$ through a magnetic field $\bm{B}$ It experiences the
 Magnetic component of the Lorentz force:
 
 $$
@@ -176,7 +176,7 @@ Key points:
 - The magnetic force is always **perpendicular** to both $\bm{v}$ and $\bm{B}$.
 - The magnetic force does **no work** on the charge (since $W = F \cdot d$ and $F \perp v$), so the
   kinetic energy of the charge does not change.
-- The magnitude is $F = qvB \sin\theta$Where $\theta$ is the angle between $\bm{v}$ and $\bm{B}$.
+- The magnitude is $F = qvB \sin\theta$ Where $\theta$ is the angle between $\bm{v}$ and $\bm{B}$.
 - When $\bm{v} \perp \bm{B}$ ($\theta = 90^\circ$), the force is maximum: $F = qvB$.
 - When $\bm{v} \parallel \bm{B}$ ($\theta = 0^\circ$ or $180^\circ$), the force is zero.
 
@@ -455,7 +455,7 @@ Experience a force, which is transmitted to the wire as a whole.
 ### Derivation
 
 Consider a wire of length $L$ carrying current $I$ in a magnetic field $\bm{B}$. If the wire
-Contains $N$ charge carriers, each with charge $q$Moving with drift velocity $v_d$:
+Contains $N$ charge carriers, each with charge $q$ Moving with drift velocity $v_d$:
 
 $$
 F = Nqv_d B \sin\theta
@@ -494,7 +494,7 @@ The direction is given by Fleming's Left-Hand Rule (motor effect):
    what the right-hand rule gives. Either use the left hand for negative charges, or reverse the
    right-hand rule result.
 
-3. **Magnetic force does no work.** Since $\bm{F} \perp \bm{v}$The kinetic energy of the particle
+3. **Magnetic force does no work.** Since $\bm{F} \perp \bm{v}$ The kinetic energy of the particle
    does not change in a magnetic field. Only electric fields can change the kinetic energy of a
    charged particle.
 
@@ -526,7 +526,7 @@ The direction is given by Fleming's Left-Hand Rule (motor effect):
 A uniform electric field exists between two parallel conducting plates. Key properties:
 
 - Field strength: $E = \frac{V}{d}$ (constant between the plates).
-- A charged particle experiences constant force: $F = qE$Leading to constant acceleration:
+- A charged particle experiences constant force: $F = qE$ Leading to constant acceleration:
   $a = \frac{qE}{m}$.
 - The trajectory is **parabolic** (analogous to projectile motion in a gravitational field).
 - The electric field **does work** on the charge, changing its kinetic energy.
@@ -665,8 +665,8 @@ Simplified values.
 ## Common Pitfalls
 
 1. **Forgetting the angle in $F = qvB\sin\theta$.** If the question does not specify the angle, it
-   is $90^\circ$Making $\sin\theta = 1$. However, if the velocity has a component parallel to
-   $\bm{B}$Use $\sin\theta$ with the perpendicular component only.
+   is $90^\circ$ Making $\sin\theta = 1$. However, if the velocity has a component parallel to
+   $\bm{B}$ Use $\sin\theta$ with the perpendicular component only.
 
 2. **Sign of electron charge.** The Lorentz force on an electron is in the **opposite** direction to
    $\bm{v} \times \bm{B}$. Use the right-hand rule and then reverse the result, or use the left hand
@@ -808,8 +808,8 @@ Velocity.
 
 The magnetic force is always perpendicular to the velocity of the charged particle (by definition,
 $\bm{F} = q(\bm{v} \times \bm{B})$). The work done by a force is $W = \bm{F} \cdot \bm{d}$ And Since
-the displacement $\bm{d}$ is parallel to $\bm{v}$The dot product $\bm{F} \cdot \bm{d} = 0$. By the
-work-energy theorem, $W = \Delta E_k = 0$Meaning the kinetic energy (and therefore the Speed) of the
+the displacement $\bm{d}$ is parallel to $\bm{v}$ The dot product $\bm{F} \cdot \bm{d} = 0$. By the
+work-energy theorem, $W = \Delta E_k = 0$ Meaning the kinetic energy (and therefore the Speed) of the
 particle does not change. The magnetic force only changes the **direction** of the Velocity, causing
 circular or helical motion, but never the speed.
 

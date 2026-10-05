@@ -50,10 +50,10 @@ Where $\alpha_i$ is the internal loss and $\alpha_m = -\ln(R_1 R_2)/(2L)$ is the
 | ----------- | ------------- | --------------- | ------------------------------------------ |
 | He-Ne       | Gas           | 632.8 nm        | CW, low power ($\sim$1 mW), high coherence |
 | Ar$^+$      | Gas           | 488, 514 nm     | CW, multiline, moderate power              |
-| CO$_2$      | Gas           | 10.6 $\mu$M     | High power (kW), efficient ($\sim$20%)     |
+| CO$_2$      | Gas           | 10.6 $\mu$ M     | High power (kW), efficient ($\sim$20%)     |
 | Nd:YAG      | Solid state   | 1064 nm         | Pulsed or CW, high power                   |
 | Ti:Sapphire | Solid state   | 700--1000 nm    | Tunable, femtosecond pulses                |
-| GaAs/InP    | Semiconductor | 0.8--1.6 $\mu$M | Compact, efficient, diode laser            |
+| GaAs/InP    | Semiconductor | 0.8--1.6 $\mu$ M | Compact, efficient, diode laser            |
 | Dye         | Liquid        | Tunable         | Wide tuning range                          |
 
 ### 17.3 Gaussian Beam Optics
@@ -98,7 +98,7 @@ the waist contribution, valid for $z \gg z_R$).
 1. **Coherence length limits interferometer arm difference:** In a Michelson interferometer, the
    path difference must not exceed the coherence length $l_c = \lambda^2/\Delta\lambda$ for fringes
    to be visible. White light fringes are visible only for near-zero path difference
-   ($l_c \sim 1.5\,\mu$M), while laser fringes remain visible for path differences of many metres.
+   ($l_c \sim 1.5\,\mu$ M), while laser fringes remain visible for path differences of many metres.
 
 2. **The Abbe limit is not a fundamental limit:** Techniques such as STED (stimulated emission
    depletion), PALM (photoactivated localisation microscopy), and SIM (structured illumination
@@ -115,7 +115,7 @@ the waist contribution, valid for $z \gg z_R$).
    approaches a Gaussian profile (Airy pattern central maximum), which is why spatial filtering is
    used to "clean up" laser beams.
 
-5. **Polarisation and Brewster"s angle:** At Brewster’s angle, the _reflected_ beam is purely
+5. **Polarisation and Brewster's angle:** At Brewster’s angle, the _reflected_ beam is purely
    $s$-polarised, not the transmitted beam. The transmitted beam has reduced $s$-component and
    becomes partially $p$-polarised. Complete polarisation of the transmitted beam requires many
    interfaces (pile-of-plates polariser).

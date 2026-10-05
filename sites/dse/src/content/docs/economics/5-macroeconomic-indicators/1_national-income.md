@@ -1484,7 +1484,7 @@ If you get this wrong, revise: [Okun's Law](/economics/5-macroeconomic-indicator
 
 ### Problem 11: Economic Growth Accounting
 
-An economy's production function is $Y = A \cdot K^{0.3} \cdot L^{0.7}$Where $Y$ is GDP, $K$ is
+An economy's production function is $Y = A \cdot K^{0.3} \cdot L^{0.7}$ Where $Y$ is GDP, $K$ is
 capital, $L$ is labour, and $A$ is total factor productivity (TFP). Data:
 
 | Variable    | Year 1 | Year 2 |

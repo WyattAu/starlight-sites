@@ -147,7 +147,7 @@ Percentage $= 7.2/14.4 \times 100 = 50\%$
 
 Exactly half the energy supplied by the battery is stored on the capacitor, and half is dissipated
 as heat in the resistor. This is a general result for RC charging: regardless of the value of
-$R$Exactly half the energy is always lost.
+$R$ Exactly half the energy is always lost.
 
 ---
 
@@ -196,7 +196,7 @@ $$
 Q = Q_0 e^{-3} = CV_0 e^{-3} = 470 \times 10^{-6} \times 20 \times 0.0498 = 4.68 \times 10^{-4}\,\text{C}
 $$
 
-After $3\tau$Only $4.98\%$ of the original charge remains. After $5\tau$Less than $1\%$ remains.
+After $3\tau$ Only $4.98\%$ of the original charge remains. After $5\tau$ Less than $1\%$ remains.
 
 ## Integration Tests
 
@@ -210,7 +210,7 @@ voltage source that alternates between $0\,\text{V}$ and $5.0\,\text{V}$ with fr
 (a) Calculate the time constant. For what frequency would the capacitor voltage just reach $63\%$ of
 the supply voltage during each half-cycle?
 
-(b) If the driving frequency is $1.0\,\text{kHz}$Sketch the voltage across the capacitor over two
+(b) If the driving frequency is $1.0\,\text{kHz}$ Sketch the voltage across the capacitor over two
 complete cycles.
 
 (c) Explain how this circuit can be used to convert a square wave into an approximate triangular
@@ -227,10 +227,10 @@ $$
 f = \frac{1}{2\tau} = \frac{1}{2 \times 10^{-3}} = 500\,\text{Hz}
 $$
 
-(b) At $f = 1.0\,\text{kHz}$The period is $T = 1.0\,\text{ms}$ and the half-cycle is
+(b) At $f = 1.0\,\text{kHz}$ The period is $T = 1.0\,\text{ms}$ and the half-cycle is
 $0.50\,\text{ms}$.
 
-Since $\tau = 1.0\,\text{ms}$ and the half-cycle is $0.5\tau$The capacitor charges to only:
+Since $\tau = 1.0\,\text{ms}$ and the half-cycle is $0.5\tau$ The capacitor charges to only:
 
 $$
 V_C = V_0(1 - e^{-0.5}) = 5.0(1 - 0.6065) = 5.0 \times 0.3935 = 1.97\,\text{V}
@@ -246,7 +246,7 @@ half-cycle. Over this small range, the exponential curve is approximately linear
 across the capacitor approximates a triangular wave. The amplitude of the triangular wave is
 approximately $V_0 T/(2\tau)$ for $\tau \gg T/2$.
 
-For example, with $\tau = 10T/2 = 5T$The capacitor charges to only
+For example, with $\tau = 10T/2 = 5T$ The capacitor charges to only
 $V_0(1 - e^{-0.2}) \approx 0.18V_0$ during each half-cycle, and this portion of the exponential is
 nearly linear.
 
@@ -306,7 +306,7 @@ $\tau = RC = 10 \times 10^6 \times 885 \times 10^{-12} = 8.85 \times 10^{-3}\,\t
 
 $1/f = 1.0\,\text{ms}$
 
-Since $\tau = 8.85\,\text{ms} \gg 1.0\,\text{ms} = 1/f$The condition is satisfied. The time constant
+Since $\tau = 8.85\,\text{ms} \gg 1.0\,\text{ms} = 1/f$ The condition is satisfied. The time constant
 must be much longer than the period of the sound wave so that the capacitor voltage cannot follow
 the rapid changes in capacitance. This means the charge on the capacitor remains approximately
 constant, and the voltage changes are caused by the changing capacitance, producing an AC signal
@@ -373,7 +373,7 @@ $\tau = R \times \frac{C_1 C_2}{C_1 + C_2} = 100 \times \frac{10 \times 40}{50} 
 Total energy dissipated in the resistor $= 10.0\,\text{mJ}$ (same as the energy lost, regardless of
 $R$).
 
-This confirms that the energy loss is independent of the resistance value -- even with $R = 0$The
+This confirms that the energy loss is independent of the resistance value -- even with $R = 0$ The
 same amount of energy would be lost (as radiation rather than heat).
 
 ## Common Mistakes

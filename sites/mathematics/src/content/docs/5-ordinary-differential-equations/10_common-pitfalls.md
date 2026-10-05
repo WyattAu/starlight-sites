@@ -18,7 +18,7 @@ description: "Overlaps with the homogeneous solution. For Guessing fails Because
 </script>
 
 :::caution
-Overlaps with the homogeneous solution. For $y"' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
+Overlaps with the homogeneous solution. For $y"' - 4y = e^{2x}$ Guessing $y_p = Ae^{2x}$ fails
 Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
 
@@ -58,7 +58,7 @@ Forgetting to include all powers of irreducible quadratic factors.
 
 :::caution
 with complex $r = \alpha \pm i\beta$ gives solutions involving $\cos(\beta \ln x)$ and
-$\sin(\beta \ln x)$Not $\cos(\beta x)$ and $\sin(\beta x)$.
+$\sin(\beta \ln x)$ Not $\cos(\beta x)$ and $\sin(\beta x)$.
 :::
 
 :::caution
@@ -87,7 +87,7 @@ This is not negative definite. Let us try $V(x, y) = \frac{x^4}{4} + \frac{y^4}{
 
 $\dot{V} = x^3(-x - y^3) + y^3(x^3 - y) = -x^4 - x^3 y^3 + x^3 y^3 - y^4 = -(x^4 + y^4)$.
 
-Since $\dot{V} = -(x^4 + y^4) \lt 0$ for $(x, y) \neq (0, 0)$The origin is asymptotically Stable by
+Since $\dot{V} = -(x^4 + y^4) \lt 0$ for $(x, y) \neq (0, 0)$ The origin is asymptotically Stable by
 Lyapunov's theorem. $\blacksquare$
 
 </details>
@@ -115,7 +115,7 @@ construct a trapping region. Define
 
 $L(x) = x^3/3 - x$ and write the system as $x' = y$, $y' = -x - \mu L'(x) y$.
 
-The function $L(x)$ has zeros at $x = \pm 1$. For $\mu > 0$The damping is negative for
+The function $L(x)$ has zeros at $x = \pm 1$. For $\mu > 0$ The damping is negative for
 $\lvert x \rvert \lt 1$ (energy input) and positive for $\lvert x \rvert > 1$ (energy Dissipation).
 This creates a unique stable limit cycle that passes through $x = \pm 1$.
 

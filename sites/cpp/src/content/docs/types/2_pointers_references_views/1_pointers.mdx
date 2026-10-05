@@ -135,9 +135,9 @@ Is undefined behavior.
 
 1. By [N4950 §7.6.6.6], if an expression `e` points to element $x[i]$ of an array object `x` with
    $n$ elements, the expressions `e + j` and `e - j` point to (respectively) element $x[i + j]$ and
-   $x[i - j]$Provided $0 \le i + j \le n$.
+   $x[i - j]$ Provided $0 \le i + j \le n$.
 
-2. When $i + j = n$The pointer points "one past the last element." The Standard explicitly permits
+2. When $i + j = n$ The pointer points "one past the last element." The Standard explicitly permits
    this pointer value. The constraint $0 \le i + j \le n$ (note the inclusive upper bound) is the
    formal statement of the one-past-the-end rule.
 

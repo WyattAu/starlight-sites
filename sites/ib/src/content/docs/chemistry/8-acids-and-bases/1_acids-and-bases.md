@@ -355,7 +355,7 @@ At $25\degree\mathrm{C}$: $K_w = 1.0 \times 10^{-14}$ (mol$^2$/L$^2$).
 
 $K_w$ is **temperature dependent**:
 
-| Temperature ($\degree$C) | $K_w$                  |
+| Temperature ($\degree$ C) | $K_w$                  |
 | ------------------------ | ---------------------- |
 | 0                        | $1.14 \times 10^{-15}$ |
 | 25                       | $1.00 \times 10^{-14}$ |
@@ -363,7 +363,7 @@ $K_w$ is **temperature dependent**:
 | 100                      | $5.13 \times 10^{-13}$ |
 
 :::caution
-Exam Tip At $50\degree\mathrm{C}$Pure water has $\mathrm{pH} = 6.63$ (not 7). This is
+Exam Tip At $50\degree\mathrm{C}$ Pure water has $\mathrm{pH} = 6.63$ (not 7). This is
 Because $K_w$ is larger, so $[\mathrm{H}^+] = [\mathrm{OH}^-] = \sqrt{K_w} \gt 10^{-7}$. The water
 Is still **neutral** because $[\mathrm{H}^+] = [\mathrm{OH}^-]$. Neutral does not always mean pH =
 7; on temperature.
@@ -442,7 +442,7 @@ $$
 \mathrm{HIn} \rightleftharpoons \mathrm{H}^+ + \mathrm{In}^-
 $$
 
-The colour observed depends on the ratio $[\mathrm{HIn}]/[\mathrm{In}^-]$Which depends on [H$^+$]
+The colour observed depends on the ratio $[\mathrm{HIn}]/[\mathrm{In}^-]$ Which depends on [H$^+$]
 (pH).
 
 ### Choosing an Indicator for a Titration
@@ -573,7 +573,7 @@ The effective buffer range is approximately $\mathrm{p}K_a \pm 1$.
 <summary>Worked Example 6: Buffer pH Calculation</summary>
 
 Calculate the pH of a buffer solution containing $0.200\mathrm{ mol/L}$ CH$_3$COOH and
-$0.150\mathrm{ mol/L}$ CH$_3$COONa. ($K_a = 1.8 \times 10^{-5}$P$K_a = 4.74$)
+$0.150\mathrm{ mol/L}$ CH$_3$COONa. ($K_a = 1.8 \times 10^{-5}$ P$K_a = 4.74$)
 
 Using the Henderson-Hasselbalch equation:
 
@@ -822,8 +822,8 @@ This is a general result: at the half-equivalence point, $\mathrm{pH} = \mathrm{
    are much larger than $[\mathrm{H}^+]$ and $[\mathrm{OH}^-]$. It is not valid for very dilute
    solutions.
 
-7. **Neutral pH:** Neutral means $[\mathrm{H}^+] = [\mathrm{OH}^-]$Which equals pH = 7 only at
-   $25\degree\mathrm{C}$. At $50\degree\mathrm{C}$Neutral pH is approximately 6.63.
+7. **Neutral pH:** Neutral means $[\mathrm{H}^+] = [\mathrm{OH}^-]$ Which equals pH = 7 only at
+   $25\degree\mathrm{C}$. At $50\degree\mathrm{C}$ Neutral pH is approximately 6.63.
 
 8. **$K_a$ and $K_b$ relationship:** Remember $K_a \times K_b = K_w$. This connects a conjugate
    acid-base pair. The conjugate base of a weak acid has a calculable $K_b$.
@@ -1071,7 +1071,7 @@ $$
 \mathrm{H}_3\mathrm{PO}_4 \rightleftharpoons \mathrm{H}^+ + \mathrm{H}_2\mathrm{PO}_4^-
 $$
 
-Since $K_{a1}$ is not very small compared to $c$The approximation $c - x \approx c$ may not be
+Since $K_{a1}$ is not very small compared to $c$ The approximation $c - x \approx c$ may not be
 Valid. Check: $K_{a1}/c = 7.5 \times 10^{-3}/0.100 = 0.075 \gt 0.05$. The $5\%$ rule fails.
 
 Solve the quadratic: $x^2 + K_a x - K_a \cdot c = 0$

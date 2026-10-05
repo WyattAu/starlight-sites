@@ -72,8 +72,8 @@ $$
 - **Mechanism**: the inhibitor ($I$) structurally resembles the substrate and binds reversibly to
   the active site, competing with the substrate.
 - **Effect**: increases the apparent $K_m$ ($K_m^{\mathrm{app}} = K_m(1 + [I]/K_i)$); $V_{\max}$ is
-  unchanged (at very high $[S]$The substrate outcompetes the inhibitor).
-- **Lineweaver-Burk**: lines intersect on the **y-axis** (same $1/V_{\max}$Different slopes and
+  unchanged (at very high $[S]$ The substrate outcompetes the inhibitor).
+- **Lineweaver-Burk**: lines intersect on the **y-axis** (same $1/V_{\max}$ Different slopes and
   x-intercepts).
 
 **Example**: statins competitively inhibit HMG-CoA reductase in cholesterol biosynthesis.
@@ -84,7 +84,7 @@ $$
   conformational change that reduces the enzyme's catalytic activity.
 - **Effect**: decreases $V_{\max}$ ($V_{\max}^{\mathrm{app}} = V_{\max}/(1 + [I]/K_i)$); $K_m$ is
   unchanged (substrate binding is not affected).
-- **Lineweaver-Burk**: lines intersect on the **x-axis** (same $-1/K_m$Different y-intercepts and
+- **Lineweaver-Burk**: lines intersect on the **x-axis** (same $-1/K_m$ Different y-intercepts and
   slopes).
 
 **Example**: heavy metal ions ($\mathrm{Pb}^{2+}$, $\mathrm{Hg}^{2+}$) bind to thiol groups (-SH) of
@@ -348,9 +348,9 @@ A multi-subunit enzyme with two components:
 - **$\mathrm{F}_0$**: membrane-embedded proton channel.
 - **$\mathrm{F}_1$**: catalytic head in the matrix where ATP is synthesised.
 
-The binding change mechanism (Boyer, 1997): as protons flow through $\mathrm{F}_0$The $\gamma$
+The binding change mechanism (Boyer, 1997): as protons flow through $\mathrm{F}_0$ The $\gamma$
 Subunit rotates, inducing conformational changes in the three $\beta$ subunits of $\mathrm{F}_1$
-(Loose, Tight, Open states), sequentially binding ADP + $\mathrm{P_i}$Forming ATP, and releasing
+(Loose, Tight, Open states), sequentially binding ADP + $\mathrm{P_i}$ Forming ATP, and releasing
 ATP. Approximately $3$--$4$ protons are required per ATP synthesised.
 
 ### P/O Ratios
@@ -434,7 +434,7 @@ Absorption spectrum, confirming that absorbed light drives photosynthesis.
    electron. This is the source of $\mathrm{O}_2$ released during photosynthesis.
 4. The electron passes through the **electron transport chain**: pheophytin $\to$ plastoquinone (PQ)
    $\to$ cytochrome $b_6f$ complex $\to$ plastocyanin (PC).
-5. As electrons pass through cytochrome $b_6f$Protons are pumped from the stroma into the thylakoid
+5. As electrons pass through cytochrome $b_6f$ Protons are pumped from the stroma into the thylakoid
    lumen, contributing to the proton gradient.
 
 #### Photosystem I (P700)
@@ -468,7 +468,7 @@ $$
 Rubisco catalyses approximately $10^{12}$ reactions per second globally but is inefficient:
 
 - **Slow turnover**: $\approx 3$ reactions per second per active site.
-- **Oxygenase activity**: Rubisco can bind $\mathrm{O}_2$ instead of $\mathrm{CO}_2$Producing one
+- **Oxygenase activity**: Rubisco can bind $\mathrm{O}_2$ instead of $\mathrm{CO}_2$ Producing one
   3-PGA molecule and one 2-phosphoglycolate (2-PG). This is **photorespiration**, which wastes
   carbon and energy.
 
@@ -673,7 +673,7 @@ $v = \frac{60 \times 4}{8 + 4} = \frac{240}{12} = 20\;\mathrm{\mu mol/min}$
 
 At $[S] = 8\;\mathrm{mM}$:
 $v = \frac{60 \times 8}{8 + 8} = \frac{480}{16} = 30\;\mathrm{\mu mol/min}$ (=
-$\frac{1}{2}V_{\max}$Confirming $K_m$)
+$\frac{1}{2}V_{\max}$ Confirming $K_m$)
 
 At $[S] = 20\;\mathrm{mM}$:
 $v = \frac{60 \times 20}{8 + 20} = \frac{1200}{28} = 42.9\;\mathrm{\mu mol/min}$
@@ -685,7 +685,7 @@ $v = \frac{60 \times 20}{24 + 20} = \frac{1200}{44} = 27.3\;\mathrm{\mu mol/min}
 For $90\%$ of $V_{\max}$ with inhibitor: $0.9 \times 60 = \frac{60 \times [S]}{24 + [S]}$
 $54(24 + [S]) = 60[S]$ $1296 + 54[S] = 60[S]$ $6[S] = 1296$ $[S] = 216\;\mathrm{mM}$
 
-At $[S] = 216\;\mathrm{mM}$The competitive inhibitor is effectively outcompeted.
+At $[S] = 216\;\mathrm{mM}$ The competitive inhibitor is effectively outcompeted.
 
 </details>
 
@@ -709,9 +709,9 @@ Calvin cycle. Since the $\mathrm{CO}_2$ concentration is not limiting at low lig
 Follow the same trajectory.
 
 At higher light intensities, the light-dependent reactions produce abundant ATP and NADPH, and
-$\mathrm{CO}_2$ concentration becomes the limiting factor. At $0.04\%$ $\mathrm{CO}_2$Rubisco is
+$\mathrm{CO}_2$ concentration becomes the limiting factor. At $0.04\%$ $\mathrm{CO}_2$ Rubisco is
 Saturated with its substrates at a lower rate, so the curve plateaus earlier and at a lower
-Photosynthetic rate. At $0.10\%$ $\mathrm{CO}_2$More $\mathrm{CO}_2$ is available for Rubisco,
+Photosynthetic rate. At $0.10\%$ $\mathrm{CO}_2$ More $\mathrm{CO}_2$ is available for Rubisco,
 Allowing a higher maximum rate before the curve plateaus. This demonstrates the principle of
 Limiting factors: the rate is determined by the factor in shortest supply.
 
@@ -862,7 +862,7 @@ Production ceases, and intermediates accumulate.
 
 At $35^\circ\mathrm{C}$ and atmospheric $\mathrm{CO}_2$ ($0.04\%$), Rubisco's relative specificity
 For $\mathrm{CO}_2$ vs $\mathrm{O}_2$ is $80$ (i.e., Rubisco reacts with $\mathrm{CO}_2$ 80 Times
-more readily than with $\mathrm{O}_2$Per molecule). The $\mathrm{O}_2$ concentration in The leaf is
+more readily than with $\mathrm{O}_2$ Per molecule). The $\mathrm{O}_2$ concentration in The leaf is
 $21\%$. Calculate the ratio of carboxylation to oxygenation reactions. If each Oxygenation reaction
 wastes 2 ATP and 1 NADPH, calculate the energy wasted per 1000 Rubisco Reactions.
 
@@ -1062,7 +1062,7 @@ into the mitochondria And using the updated P/O ratios
 
 Step 1: Activation of palmitic acid to palmitoyl-CoA.
 
-- Requires 2 ATP equivalents (ATP $\to$ AMP + $\mathrm{PP_i}$Equivalent to 2 ATP hydrolysed).
+- Requires 2 ATP equivalents (ATP $\to$ AMP + $\mathrm{PP_i}$ Equivalent to 2 ATP hydrolysed).
 
 Step 2: $\beta$-oxidation cycles.
 
@@ -1125,7 +1125,7 @@ Presence of an inhibitor, the apparent $V_{max}$ is $120\;\mathrm{\mu mol/min}$ 
 $K_m$ Is $12.0\;\mathrm{mM}$. (a) Identify the type of inhibitor. (b) Calculate the inhibitor
 constant $K_i$ If the inhibitor concentration is $2.0\;\mathrm{mM}$. (c) Sketch the expected
 Lineweaver-Burk plot Showing both the uninhibited and inhibited reactions. (d) At a substrate
-concentration of $4.0\;\mathrm{mM}$What fraction of the enzyme's maximum velocity is achieved in the
+concentration of $4.0\;\mathrm{mM}$ What fraction of the enzyme's maximum velocity is achieved in the
 presence and Absence of the inhibitor?
 
 <details>
@@ -1135,12 +1135,12 @@ presence and Absence of the inhibitor?
 This is characteristic of a **competitive inhibitor**.
 
 (b) For competitive inhibition: $\alpha = \frac{K_m^{app}}{K_m} = \frac{12.0}{4.0} = 3$.
-$\alpha = 1 + \frac{[I]}{K_i}$ So $3 = 1 + \frac{2.0}{K_i}$Giving $K_i = 1.0\;\mathrm{mM}$.
+$\alpha = 1 + \frac{[I]}{K_i}$ So $3 = 1 + \frac{2.0}{K_i}$ Giving $K_i = 1.0\;\mathrm{mM}$.
 
 (c) Lineweaver-Burk plot ($1/v$ vs $1/[S]$):
 
-- Uninhibited: x-intercept $= -1/K_m = -0.25$Y-intercept $= 1/V_{max} = 0.00833$
-- Inhibited: x-intercept $= -1/K_m^{app} = -0.0833$Y-intercept $= 1/V_{max} = 0.00833$ Both lines
+- Uninhibited: x-intercept $= -1/K_m = -0.25$ Y-intercept $= 1/V_{max} = 0.00833$
+- Inhibited: x-intercept $= -1/K_m^{app} = -0.0833$ Y-intercept $= 1/V_{max} = 0.00833$ Both lines
   intersect on the y-axis (same $1/V_{max}$). The inhibited line has a steeper slope (slope
   $= K_m/V_{max}$ increases from $4/120$ to $12/120$).
 
@@ -1259,7 +1259,7 @@ $= 2(12) + 6(1) + 16 = 46\;\mathrm{g/mol}$. Mass: $15 \times 46 = 690\;\mathrm{g
 - **Forgetting that glycolysis occurs in the cytoplasm, not the mitochondria**: only the link
   reaction, Krebs cycle, and oxidative phosphorylation occur in the mitochondria.
 - **Confusing photorespiration with photosynthesis**: photorespiration is a wasteful process in
-  which Rubisco binds $\mathrm{O}_2$ instead of $\mathrm{CO}_2$Consuming energy and releasing
+  which Rubisco binds $\mathrm{O}_2$ instead of $\mathrm{CO}_2$ Consuming energy and releasing
   $\mathrm{CO}_2$ without producing sugar. It is favoured at high temperatures and low
   $\mathrm{CO}_2$ concentrations.
 - **Assuming $V_{max}$ is always achievable**: $V_{max}$ is a theoretical maximum approached
@@ -1507,7 +1507,7 @@ uncoupling is regulated And controlled, unlike the non-specific uncoupling cause
 to Maintain ATP levels, depleting fat and carbohydrate stores). However, it is extremely dangerous
 because:
 
-- The hyperthermia can be fatal (body temperature can exceed $41^\circ\mathrm{C}$Causing protein
+- The hyperthermia can be fatal (body temperature can exceed $41^\circ\mathrm{C}$ Causing protein
   denaturation and brain damage).
 - ATP depletion affects all energy-dependent processes (nerve conduction, muscle contraction, ion
   pumps), potentially causing coma and cardiac arrest.
@@ -1618,7 +1618,7 @@ $\mathrm{NAD}^+$). It produces 1 NADH per pyruvate (2 per glucose).
 **Anaerobic conditions** (in animal cells): pyruvate is reduced to lactate by lactate dehydrogenase
 (LDH): $$\text{Pyruvate} + \mathrm{NADH} + \mathrm{H}^+ \to \text{lactate} + \mathrm{NAD}^+$$
 
-This regenerates $\mathrm{NAD}^+$Allowing glycolysis to continue. The lactate is transported to the
+This regenerates $\mathrm{NAD}^+$ Allowing glycolysis to continue. The lactate is transported to the
 Liver (Cori cycle), where it is converted back to glucose (gluconeogenesis, costing 6 ATP per
 lactate).
 
@@ -1685,7 +1685,7 @@ $\mathrm{H}^+$) $\to$ IV (2 $\mathrm{H}^+$) = 10 $\mathrm{H}^+$ per NADH. $\math
 to Complex II (0 $\mathrm{H}^+$) $\to$ III (4 $\mathrm{H}^+$) $\to$ IV (2 $\mathrm{H}^+$) = 6
 $\mathrm{H}^+$ per $\mathrm{FADH}_2$.
 
-**ATP synthase (Complex V)**: uses the proton gradient ($\Delta\mathrm{pH} + \Delta\Psi$The
+**ATP synthase (Complex V)**: uses the proton gradient ($\Delta\mathrm{pH} + \Delta\Psi$ The
 protonmotive Force) to drive ATP synthesis. Approximately 4 $\mathrm{H}^+$ are needed per ATP (3 for
 ATP synthesis
 
@@ -1734,7 +1734,7 @@ molecules: $150 \times 6.022 \times 10^{23} = 9.03 \times 10^{25}$ ATP molecules
 (c) **Muscle fatigue** after sprinting:
 
 - Phosphocreatine stores are depleted within $10$--$15$ seconds.
-- Anaerobic glycolysis produces lactate, which dissociates to lactate $+$ $\mathrm{H}^+$Lowering
+- Anaerobic glycolysis produces lactate, which dissociates to lactate $+$ $\mathrm{H}^+$ Lowering
   intracellular pH (acidosis). Low pH inhibits key glycolytic enzymes (especially PFK-1) and
   interferes with calcium release from the SR, reducing contractile force.
 - ADP and $\mathrm{P}_i$ accumulate, reducing the free energy of ATP hydrolysis.

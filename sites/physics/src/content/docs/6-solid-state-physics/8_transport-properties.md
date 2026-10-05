@@ -22,7 +22,7 @@ description: "The treats conduction electrons as a classical gas scattering off 
 The **Drude model** treats conduction electrons as a classical gas scattering off ions with a mean
 Free time $\tau$.
 
-Under an electric field $\mathbf{E}$The equation of motion:
+Under an electric field $\mathbf{E}$ The equation of motion:
 
 $$
 m_e\frac{d\mathbf{v}}{dt} = -e\mathbf{E} - \frac{m_e\mathbf{v}}{\tau}
@@ -40,7 +40,7 @@ $$
 
 The **mean free path:** $\ell = v_F\tau$.
 
-**Successes:** Explains Ohm"s law ($\mathbf{J} = \sigma\mathbf{E}$) and the Wiedemann--Franz law
+**Successes:** Explains Ohm's law ($\mathbf{J} = \sigma\mathbf{E}$) and the Wiedemann--Franz law
 ($\kappa/\sigma = LT$ with $L = \pi^2 k_B^2/(3e^2)$).
 
 **Failures:** Predicts the wrong temperature dependence ($\rho \propto T$ But experiments show
@@ -99,7 +99,7 @@ $$
 $$
 
 At high $T$ ($T \gt \Theta_D$): $\rho_{\mathrm{ph} \propto T}$ (linear, agreeing with the Drude
-model). At low $T$ ($T \ll \Theta_D$): $\rho_{\mathrm{ph} \propto T^5}$Consistent with experiment.
+model). At low $T$ ($T \ll \Theta_D$): $\rho_{\mathrm{ph} \propto T^5}$ Consistent with experiment.
 
 ### 8.3 Thermal Conductivity
 
@@ -120,7 +120,7 @@ The total thermal conductivity: $\kappa = \kappa_e + \kappa_{\mathrm{ph}}$.
 ### 8.4 The Hall Effect
 
 When a magnetic field $\mathbf{B} = B\hat{\mathbf{z}}$ is applied perpendicular to a current
-$\mathbf{J} = J_x\hat{\mathbf{x}}$A transverse electric field develops:
+$\mathbf{J} = J_x\hat{\mathbf{x}}$ A transverse electric field develops:
 
 $$
 E_y = R_H J_x B

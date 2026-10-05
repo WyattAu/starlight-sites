@@ -32,7 +32,7 @@ Description.
 These notes cover the full AP Computer Science curriculum, including computational thinking,
 computing systems, algorithms and programming, data analysis, and networking. Each topic page
 includes key definitions, worked examples, and practice questions to help you prepare for both the
-multiple-choice and free-response sections of the AP exam. The content follows the College Board"s
+multiple-choice and free-response sections of the AP exam. The content follows the College Board's
 course framework and big ideas.
 
 ## Topics

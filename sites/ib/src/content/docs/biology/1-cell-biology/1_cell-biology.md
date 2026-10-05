@@ -41,7 +41,7 @@ Three principles:
 ### Evidence for Cell Theory
 
 - **Microscopy**: light and electron microscopy confirm that all examined living tissue is cellular.
-- **Biogenesis experiments**: Pasteur"s swan-neck flask experiment (1859) demonstrated that
+- **Biogenesis experiments**: Pasteur's swan-neck flask experiment (1859) demonstrated that
   microorganisms arise only from existing microorganisms, not from non-living matter.
 - **Cell culture**: individual cells can be grown in vitro and give rise to colonies, confirming
   that single cells are viable living units.
@@ -143,7 +143,7 @@ Membrane is a dynamic, two-dimensional fluid of phospholipids in which proteins 
 #### Simple Diffusion
 
 Passive movement of molecules from a region of higher concentration to lower concentration, down the
-Concentration gradient. Only small, non-polar molecules ($\mathrm{O}_2$, $\mathrm{CO}_2$Steroid
+Concentration gradient. Only small, non-polar molecules ($\mathrm{O}_2$, $\mathrm{CO}_2$ Steroid
 Hormones) diffuse directly through the bilayer.
 
 **Fick's Law:**
@@ -487,7 +487,7 @@ Crossover, how many chromatids are affected?
 <details>
 <summary>Answer</summary>
 
-With $2n = 8$The haploid number is $n = 4$. Independent assortment alone yields $2^n = 2^4 = 16$
+With $2n = 8$ The haploid number is $n = 4$. Independent assortment alone yields $2^n = 2^4 = 16$
 Possible chromosome combinations.
 
 A single crossover between non-sister chromatids of one homologous pair affects exactly **two**
@@ -679,7 +679,7 @@ Suspension was diluted before loading.
 
 A student places potato cylinders of identical dimensions ($5\;\mathrm{cm} \times 0.5\;\mathrm{cm}$
 Diameter) into a series of sucrose solutions ranging from $0.0$ to $0.6\;\mathrm{mol/L}$ at
-$0.1\;\mathrm{mol/L}$ intervals. After $24$ hours at $20^\circ\mathrm{C}$The student measures the
+$0.1\;\mathrm{mol/L}$ intervals. After $24$ hours at $20^\circ\mathrm{C}$ The student measures the
 Mass change of each cylinder. The results are:
 
 | Sucrose concentration (mol/L) | Mass change (%) |
@@ -768,7 +768,7 @@ Surface area is approximately $70\;\mathrm{m}^2$ and the diffusion distance (alv
 Capillary wall) is approximately $1.5\;\mathrm{\mu m}$. The $\mathrm{O}_2$ partial pressure
 Difference is approximately $8\;\mathrm{kPa}$. (a) Calculate the relative rate of $\mathrm{O}_2$
 Diffusion under these conditions. (b) Explain how emphysema, which destroys alveolar walls and
-Reduces total surface area to $35\;\mathrm{m}^2$Would affect this rate.
+Reduces total surface area to $35\;\mathrm{m}^2$ Would affect this rate.
 
 </details>
 
@@ -1209,7 +1209,7 @@ $-400\;\mathrm{kPa}$).
 - Eventually, the cell membrane pulls away from the cell wall (**plasmolysis**).
 - $\Psi_p$ reaches $0$ (no pressure against the wall). The cell's water potential
   $= \Psi_s = -500\;\mathrm{kPa}$.
-- Since $-500 > -800$Water continues to leave until the solute potential becomes more negative
+- Since $-500 > -800$ Water continues to leave until the solute potential becomes more negative
   (concentration increases). Equilibrium when $\Psi_{cell} = -800\;\mathrm{kPa}$:
   $\Psi_s + 0 = -800\;\mathrm{kPa}$ So $\Psi_s = -800\;\mathrm{kPa}$. The cell has lost significant
   water and is plasmolysed.
@@ -1630,7 +1630,7 @@ prenylation, Myristoylation). Examples: alkaline phosphatase (GPI-anchored), Ras
 
 | Type                       | Direction         | Energy         | Carrier                    | Example                                                                               |
 | -------------------------- | ----------------- | -------------- | -------------------------- | ------------------------------------------------------------------------------------- |
-| Simple diffusion           | High to low conc. | None (passive) | None                       | $\mathrm{O}_2$, $\mathrm{CO}_2$Ethanol, steroid hormones                                |
+| Simple diffusion           | High to low conc. | None (passive) | None                       | $\mathrm{O}_2$, $\mathrm{CO}_2$ Ethanol, steroid hormones                                |
 | Facilitated diffusion      | High to low conc. | None (passive) | Channel or carrier protein | Glucose (via GLUT transporters), $\mathrm{Na}^+$ (via leak channels)                  |
 | Primary active transport   | Low to high conc. | ATP            | Pump protein               | $\mathrm{Na}^+/K^+$ pump, $\mathrm{Ca}^{2+}$ pump, $\mathrm{H}^+/K^+$ pump            |
 | Secondary active transport | Low to high conc. | Ion gradient   | Symporter or antiporter    | $\mathrm{Na}^+$/glucose symporter (SGLT1), $\mathrm{Na}^+/\mathrm{Ca}^{2+}$ exchanger |

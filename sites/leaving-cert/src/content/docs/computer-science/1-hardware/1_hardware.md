@@ -427,7 +427,7 @@ Binary: $11111111_2$. Decimal: $15 \times 16 + 15 = 255$.
  10001
 ```
 
-**Two"s complement:** used to represent negative numbers. Invert the bits and add 1.
+**Two's complement:** used to represent negative numbers. Invert the bits and add 1.
 
 **Example (HL):** Represent $-5$ in 8-bit two's complement.
 
@@ -437,18 +437,18 @@ $5 = 00000101$. Invert: $11111010$. Add 1: $11111011$.
 
 $20 = 00010100$. $14 = 00001110$.
 
-Two's complement of 14: invert $00001110 \to 11110001$Add 1 $\to 11110010$.
+Two's complement of 14: invert $00001110 \to 11110001$ Add 1 $\to 11110010$.
 
 $00010100 + 11110010 = 100000110$. Discard overflow: $00000110 = 6$. Correct.
 
 **Worked Example (HL).** Represent $-20$ in 8-bit two's complement and add it to $15$ in two's
 Complement.
 
-$-20$: $20 = 00010100$Flip $= 11101011$Add 1 $= 11101100$.
+$-20$: $20 = 00010100$ Flip $= 11101011$ Add 1 $= 11101100$.
 
 $15 = 00001111$.
 
-$11101100 + 00001111 = 11111011$. MSB is 1, so negative. Flip $= 00000100$Add 1 $= 00000101 = 5$.
+$11101100 + 00001111 = 11111011$. MSB is 1, so negative. Flip $= 00000100$ Add 1 $= 00000101 = 5$.
 Result is $-5$. Check: $-20 + 15 = -5$. Correct.
 
 **Two's complement range:**

@@ -23,27 +23,27 @@ Let $E/F$ be a field extension. An $F$-**automorphism** of $E$ is an automorphis
 That fixes $F$ pointwise (i.e., $\sigma(c) = c$ for all $c \in F$).
 
 The set of all $F$-automorphisms of $E$ forms a group under composition, called the **Galois group**
-Of $E/F$Denoted $\mathrm{Gal}(E/F)$.
+Of $E/F$ Denoted $\mathrm{Gal}(E/F)$.
 
 **Example.** $\mathrm{Gal}(\mathbb{C}/\mathbb{R}) = \{id, \sigma\}$ where $\sigma(a + bi) = a - bi$.
 This is isomorphic to $\mathbb{Z}/2\mathbb{Z}$.
 
 ### 13.2 The Fundamental Theorem of Galois Theory
 
-A finite extension $E/F$ is **Galois** if $|\mathrm{Gal}(E/F)| = [E : F]$Or equivalently, If $E$ is
+A finite extension $E/F$ is **Galois** if $|\mathrm{Gal}(E/F)| = [E : F]$ Or equivalently, If $E$ is
 the splitting field of a separable polynomial over $F$.
 
 **Theorem 13.1 (Fundamental Theorem of Galois Theory).** Let $E/F$ be a Galois extension. Then:
 
 1. There is an inclusion-reversing bijection between intermediate fields $F \subseteq K \subseteq E$
-   and subgroups $H \subseteq \mathrm{Gal}(E/F)$Given by:
+   and subgroups $H \subseteq \mathrm{Gal}(E/F)$ Given by:
 
 - $K \mapsto \mathrm{Gal}(E/K)$.
 - $H \mapsto E^H = \{x \in E : \sigma(x) = x\ \mathrm{for\ all\ }\sigma \in H\}$.
 
 1. $[E : K] = |\mathrm{Gal}(E/K)|$ and $[K : F] = [\mathrm{Gal}(E/F) : \mathrm{Gal}(E/K)]$.
 
-2. $K/F$ is Galois if and only if $\mathrm{Gal}(E/K) \trianglelefteq \mathrm{Gal}(E/F)$In which case
+2. $K/F$ is Galois if and only if $\mathrm{Gal}(E/K) \trianglelefteq \mathrm{Gal}(E/F)$ In which case
    $\mathrm{Gal}(K/F) \cong \mathrm{Gal}(E/F) / \mathrm{Gal}(E/K)$.
 
 ### 13.3 Worked Example
@@ -101,11 +101,11 @@ _Proof._ The Galois group acts on $\delta = \prod_{i \lt j}(\alpha_i - \alpha_j)
 For any $\sigma \in G$, $\sigma(\delta) = \mathrm{sgn}(\sigma) \cdot \delta$. If $\sigma \in A_n$
 $\sigma(\delta) = \delta$; if $\sigma \notin A_n$, $\sigma(\delta) = -\delta$.
 
-If $G \leq A_n$ Then $\delta$ is fixed by all of $G$ So $\delta \in F$Hence $\Delta = \delta^2$ is a
+If $G \leq A_n$ Then $\delta$ is fixed by all of $G$ So $\delta \in F$ Hence $\Delta = \delta^2$ is a
 square. Conversely, if $\Delta$ is a square in $F$ Then $\delta \in F$ (or $-\delta \in F$), so
-$\delta$ is fixed By $G$Meaning every element of $G$ acts as an even permutation. $\blacksquare$
+$\delta$ is fixed By $G$ Meaning every element of $G$ acts as an even permutation. $\blacksquare$
 
-**Example.** The discriminant of $x^3 - 3x + 1$ is $\Delta = 81 = 9^2$A perfect square. Therefore
+**Example.** The discriminant of $x^3 - 3x + 1$ is $\Delta = 81 = 9^2$ A perfect square. Therefore
 $\mathrm{Gal}(x^3 - 3x + 1) \leq A_3 \cong \mathbb{Z}/3\mathbb{Z}$. Since the polynomial is
 irreducible, The Galois group is transitive, so
 $\mathrm{Gal}(x^3 - 3x + 1) = A_3 \cong \mathbb{Z}/3\mathbb{Z}$.
@@ -131,7 +131,7 @@ $\tau: \sqrt[4]{2} \mapsto \sqrt[4]{2},\ i \mapsto -i$ (order $2$)
 
 We check:
 $\tau\sigma\tau^{-1}(\sqrt[4]{2}) = \tau(i\sqrt[4]{2}) = -i\sqrt[4]{2} = \sigma^{-1}(\sqrt[4]{2})$.
-So $\tau\sigma\tau^{-1} = \sigma^{-1}$The defining relation of $D_4$.
+So $\tau\sigma\tau^{-1} = \sigma^{-1}$ The defining relation of $D_4$.
 
 Therefore $\mathrm{Gal}(E/\mathbb{Q}) \cong D_4$ (dihedral group of order $8$). $\blacksquare$
 

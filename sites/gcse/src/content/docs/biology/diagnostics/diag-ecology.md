@@ -142,7 +142,7 @@ sustainable forestry, and organic farming.
 ### IT-1: Ecosystem Dynamics (with Bioenergetics)
 
 **Question:** A lake ecosystem has the following biomass values (in kg): phytoplankton
-$= 4000$Zooplankton $= 400$Small fish $= 40$Large fish $= 4$. (a) Calculate the percentage energy
+$= 4000$ Zooplankton $= 400$ Small fish $= 40$ Large fish $= 4$. (a) Calculate the percentage energy
 transfer at each level. (b) A farmer applies fertiliser to a field near the lake. Explain how this
 could lead to eutrophication. (c) Calculate the total biomass if the farmer introduces 500 kg of an
 invasive fish species that competes with small fish, reducing the small fish biomass by 60%. (d)
@@ -183,7 +183,7 @@ carbonate shells. (d) Describe two biological consequences of global warming on 
 **Solution:**
 
 (a) **Greenhouse effect mechanism:** CO$_2$ (and other greenhouse gases like methane and water
-vapour) in the atmosphere absorb infrared radiation (heat) emitted by the Earth"s surface. This
+vapour) in the atmosphere absorb infrared radiation (heat) emitted by the Earth's surface. This
 radiation would otherwise escape to space. The absorbed heat is re-radiated in all directions,
 including back towards the Earth's surface, warming the planet. Increasing CO$_2$ concentration
 increases the greenhouse effect, trapping more heat and raising global temperatures.

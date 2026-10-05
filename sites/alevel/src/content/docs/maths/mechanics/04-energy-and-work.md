@@ -77,7 +77,7 @@ $$
 \mathrm{KE} = \frac{1}{2}mv^2
 $$
 
-**Proof.** Starting from Newton"s Second Law:
+**Proof.** Starting from Newton's Second Law:
 
 $$
 F = ma = m\frac{dv}{dt} = m\frac{dv}{ds}\frac{ds}{dt} = mv\frac{dv}{ds}
@@ -139,7 +139,7 @@ $$
 (approximately $100\,\mathrm{km/h}$). Real coasters never reach this due to friction and air
 Resistance.
 
-For a loop-the-loop of radius $r$The minimum speed at the top is $\sqrt{gr}$ (from circular Motion).
+For a loop-the-loop of radius $r$ The minimum speed at the top is $\sqrt{gr}$ (from circular Motion).
 The coaster must enter the loop with enough GPE to reach this speed at the top:
 
 $$
@@ -293,7 +293,7 @@ P_{\mathrm{avg}} = \frac{\frac{1}{2}mv^2}{t} = \frac{1}{2}Fv
 $$
 
 This is half the instantaneous power $Fv$ at the end, since velocity increases linearly from $0$ to
-$v$ while force remains constant. For constant power $P$The average power equals $P$ throughout.
+$v$ while force remains constant. For constant power $P$ The average power equals $P$ throughout.
 
 <hr />
 
@@ -383,7 +383,7 @@ $$
 E_{\mathrm{total}} = \frac{1}{2}kA^2 = \frac{1}{2}mv_{\max}^2
 $$
 
-This gives $v_{\max} = A\sqrt{k/m}$The maximum speed at the equilibrium position.
+This gives $v_{\max} = A\sqrt{k/m}$ The maximum speed at the equilibrium position.
 
 <hr />
 
@@ -629,7 +629,7 @@ Extension of the spring. Take $g = 9.8\,\mathrm{m/s}^2$.
 
 <details>
 <summary>Solution 14</summary>
-At maximum extension $x$Speed $= 0$.
+At maximum extension $x$ Speed $= 0$.
 
 GPE lost $= mgx = 2(9.8)x = 19.6x$.
 
@@ -653,7 +653,7 @@ The spring is at its natural length. Find the maximum extension. Take $g = 9.8\,
 
 <details>
 <summary>Solution 15</summary>
-At maximum extension $x$Speed $= 0$. The body has moved distance $x$ down the slope.
+At maximum extension $x$ Speed $= 0$. The body has moved distance $x$ down the slope.
 
 GPE lost $= mgx\sin 30° = 0.2(9.8)(0.5)x = 0.98x$.
 
@@ -676,7 +676,7 @@ Is $8\,\mathrm{m/s}$. Take $g = 9.8\,\mathrm{m/s}^2$.
 
 <details>
 <summary>Solution 16</summary>
-**Maximum speed** ($a = 0$Driving force equals total resistance):
+**Maximum speed** ($a = 0$ Driving force equals total resistance):
 
 $\frac{P}{v_{\max}} = mg\sin\theta + R = 1500(9.8)(0.08) + 500 = 1176 + 500 = 1676\,\mathrm{N}$.
 

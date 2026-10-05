@@ -28,7 +28,7 @@ $$
 \vec{F} = q\vec{v} \times \vec{B}
 $$
 
-The magnitude is $F = qvB\sin\theta$Where $\theta$ is the angle between $\vec{v}$ and $\vec{B}$. The
+The magnitude is $F = qvB\sin\theta$ Where $\theta$ is the angle between $\vec{v}$ and $\vec{B}$. The
 Direction is given by the right-hand rule.
 
 ### Key Properties
@@ -54,7 +54,7 @@ $$
 
 ### Motion at an Angle to the Field
 
-If $\vec{v}$ makes angle $\theta$ with $\vec{B}$The motion is helical. The parallel component
+If $\vec{v}$ makes angle $\theta$ with $\vec{B}$ The motion is helical. The parallel component
 $v_\parallel = v\cos\theta$ is unaffected. The perpendicular component $v_\perp = v\sin\theta$
 produces Circular motion with radius $r = mv_\perp/(qB)$ and pitch
 $p = v_\parallel \cdot T = 2\pi m v_\parallel/(qB)$.
@@ -90,7 +90,7 @@ $$
 F_y = \int_0^\pi IRB\sin\theta\, d\theta = IRB[-\cos\theta]_0^\pi = 2IRB
 $$
 
-The total force on the semicircular wire is $2IRB$The same as on a straight wire of length $2R$.
+The total force on the semicircular wire is $2IRB$ The same as on a straight wire of length $2R$.
 
 ## Torque on a Current Loop
 
@@ -100,10 +100,10 @@ $$
 \vec{\tau} = \vec{\mu} \times \vec{B}
 $$
 
-Where the magnetic dipole moment is $\vec{\mu} = NI\vec{A}$With $\vec{A}$ directed normal to the
+Where the magnetic dipole moment is $\vec{\mu} = NI\vec{A}$ With $\vec{A}$ directed normal to the
 loop By the right-hand rule and $N$ is the number of turns.
 
-The magnitude is $\tau = NIAB\sin\alpha$Where $\alpha$ is the angle between $\vec{\mu}$ and
+The magnitude is $\tau = NIAB\sin\alpha$ Where $\alpha$ is the angle between $\vec{\mu}$ and
 $\vec{B}$.
 
 ## Biot-Savart Law
@@ -162,7 +162,7 @@ $$
 B_x = \frac{\mu_0 IR}{4\pi(R^2+x^2)^{3/2}}\oint dl = \frac{\mu_0 I \cdot 2\pi R^2}{4\pi(R^2+x^2)^{3/2}} = \frac{\mu_0 IR^2}{2(R^2+x^2)^{3/2}}
 $$
 
-## Ampere"s Law
+## Ampere's Law
 
 Ampere's law relates the line integral of $\vec{B}$ around a closed loop to the enclosed current:
 
@@ -172,7 +172,7 @@ $$
 
 ### Field Inside a Long Solenoid
 
-For a solenoid with $n$ turns per unit length carrying current $I$Choose a rectangular Amperian loop
+For a solenoid with $n$ turns per unit length carrying current $I$ Choose a rectangular Amperian loop
 With one side inside the solenoid and one outside.
 
 $$
@@ -184,7 +184,7 @@ center Of a long solenoid.
 
 ### Field Inside a Toroid
 
-A toroid with $N$ turns carrying current $I$Inner radius $a$Outer radius $b$:
+A toroid with $N$ turns carrying current $I$ Inner radius $a$ Outer radius $b$:
 
 $$
 B = \frac{\mu_0 N I}{2\pi r}
@@ -208,7 +208,7 @@ $$
 B \cdot 2\pi r = \mu_0 \frac{2\pi J_0 r^3}{3R} \implies B = \frac{\mu_0 J_0 r^2}{3R}
 $$
 
-To express in terms of $I$Find the total current:
+To express in terms of $I$ Find the total current:
 
 $$
 I = \frac{2\pi J_0 R^3}{3R} = \frac{2\pi J_0 R^2}{3} \implies J_0 = \frac{3I}{2\pi R^2}
@@ -373,7 +373,7 @@ $$
 V_L = L\frac{dI}{dt} = \mathcal{E} e^{-t/\tau_L}
 $$
 
-At $t = 0$All the voltage is across the inductor. At $t \to \infty$All the voltage is across the
+At $t = 0$ All the voltage is across the inductor. At $t \to \infty$ All the voltage is across the
 Resistor.
 
 ### LC Circuits
@@ -407,7 +407,7 @@ I(t) = -Q_0\omega\sin(\omega t + \phi) = -I_0\sin(\omega t + \phi)
 $$
 
 The charge and current oscillate $90°$ out of phase. Energy oscillates between the capacitor
-($U_C = Q^2/(2C)$) and the inductor ($U_L = LI^2/2$), with total energy conserved:
+($U_C = Q^2/(2C)$) and the inductor ($ U_L = LI^2/2$), with total energy conserved:
 
 $$
 U_{\text{total} = \frac{Q_0^2}{2C} = \frac{1}{2}LI_0^2
@@ -478,7 +478,7 @@ $$
 \Phi_E = E \cdot \pi r^2 = \frac{V}{d}\pi r^2
 $$
 
-Since $V = Q/C = Qd/(\epsilon_0 A)$We have $E = Q/(\epsilon_0 A)$ So
+Since $V = Q/C = Qd/(\epsilon_0 A)$ We have $E = Q/(\epsilon_0 A)$ So
 $\Phi_E = Q\pi r^2/(\epsilon_0 A)$.
 
 Apply Ampere-Maxwell law with a circular Amperian loop of radius $r$:
@@ -507,7 +507,7 @@ Magnetism is **electricity in motion**, moving charges create magnetic fields, a
 
 ## Common Pitfalls
 
-1. **Wrong direction for the magnetic force.** Use $\vec{F} = q\vec{v} \times \vec{B}$Not
+1. **Wrong direction for the magnetic force.** Use $\vec{F} = q\vec{v} \times \vec{B}$ Not
    $\vec{B} \times \vec{v}$. The cross product is not commutative. For negative charges, reverse the
    direction.
 2. **Confusing Gauss's law for magnetism with Gauss's law for electricity.**
@@ -526,7 +526,7 @@ Magnetism is **electricity in motion**, moving charges create magnetic fields, a
    coil to its own changing current. Mutual inductance $M$ relates the EMF in one coil to the
    changing current in another coil.
 7. **Incorrectly computing flux for non-perpendicular fields.** When $\vec{B}$ is not perpendicular
-   to the surface, use $\Phi_B = BA\cos\theta$Not $BA$. The angle $\theta$ is between $\vec{B}$ and
+   to the surface, use $\Phi_B = BA\cos\theta$ Not $BA$. The angle $\theta$ is between $\vec{B}$ and
    the surface normal.
 8. **Forgetting the displacement current in Ampere-Maxwell law.** When applying Ampere's law between
    capacitor plates (or in any region where $d\vec{E}/dt \neq 0$), you must include the displacement
@@ -547,7 +547,7 @@ Magnetism is **electricity in motion**, moving charges create magnetic fields, a
    field inside and the inductance if the cross-sectional area is $4 \times 10^{-4}$ m$^2$.
 
 4. A square loop of side $0.2$ m is in a magnetic field $B = 0.5$ T perpendicular to the loop. The
-   field decreases to zero in $0.1$ s. If the loop has resistance $2\,\Omega$Find the induced
+   field decreases to zero in $0.1$ s. If the loop has resistance $2\,\Omega$ Find the induced
    current and the energy dissipated.
 
 5. An RL circuit has $R = 50\,\Omega$ and $L = 0.2$ H connected to a $12$ V battery. Find (a) the
@@ -646,7 +646,7 @@ $$
 <summary>Question 9: AP Exam-Style -- RL circuit analysis</summary>
 
 An RL circuit with $R = 100\,\Omega$ and $L = 0.5$ H is connected to a DC source of
-$\mathcal{E} = 20$ V. At $t = 0$The switch is closed. (a) Derive the current as a function of time.
+$\mathcal{E} = 20$ V. At $t = 0$ The switch is closed. (a) Derive the current as a function of time.
 (b) At what time is The current increasing at half its initial rate? (c) How much energy has been
 stored in the inductor When the current reaches 80% of its maximum value?
 

@@ -556,7 +556,7 @@ $$
 
 Where $K$ = carrying capacity.
 
-Characteristics: initial exponential growth, deceleration as $N$ approaches $K$Stabilisation at or
+Characteristics: initial exponential growth, deceleration as $N$ approaches $K$ Stabilisation at or
 Near $K$.
 
 ### Carrying Capacity
@@ -802,7 +802,7 @@ Key processes:
 - Assimilation: plants incorporate nitrogen into amino acids and proteins
 - Feeding: animals obtain nitrogen by eating plants or other animals
 - Decomposition / ammonification: decomposers break down dead organisms and waste, releasing ammonia
-- Denitrification: denitrifying bacteria convert nitrate back to $\mathrm{N}_2$Returning it to the
+- Denitrification: denitrifying bacteria convert nitrate back to $\mathrm{N}_2$ Returning it to the
   atmosphere (e.g., Pseudomonas)
 
 **Phosphorus cycle:**
@@ -956,7 +956,7 @@ Substances that biomagnify are :
 
 ### Climate Change
 
-- Burning fossil fuels releases $\mathrm{CO}_2$Methane ($\mathrm{CH}_4$), and nitrous oxide
+- Burning fossil fuels releases $\mathrm{CO}_2$ Methane ($\mathrm{CH}_4$), and nitrous oxide
   ($\mathrm{N}_2\mathrm{O}$) -- greenhouse gases
 - Greenhouse gases trap infrared radiation (heat) in the atmosphere, increasing global temperatures
 - Pre-industrial $\mathrm{CO}_2$ concentration: ~280 ppm; current: &gt;420 ppm
@@ -1410,7 +1410,7 @@ $2pq = 2(0.2)(0.8) = 0.32$.
 The proportion of heterozygotes (Ww) is 0.32, or 32%.
 
 Note that the heterozygote frequency (32%) is higher than the homozygous dominant frequency
-($p^2 = 0.04$Or 4%), even though coloured butterflies are less common. This is a common result when
+($p^2 = 0.04$ Or 4%), even though coloured butterflies are less common. This is a common result when
 one allele is rare.
 
 </details>

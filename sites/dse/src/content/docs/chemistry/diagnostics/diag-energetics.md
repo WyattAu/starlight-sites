@@ -16,7 +16,7 @@ tableOfContents: false
 
 ## DSE Chemistry Diagnostic: Energetics / Thermochemistry
 
-## Unit Test 1: Hess"s Law Cycle Construction
+## Unit Test 1: Hess's Law Cycle Construction
 
 **Question**
 

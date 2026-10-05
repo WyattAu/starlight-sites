@@ -130,11 +130,11 @@ $$
 \boxed{\mathbf{a} = -\omega^2 r\,\hat{\mathbf{r}}}
 $$
 
-Magnitude: $a = \omega^2 r = \dfrac{v^2}{r}$Directed radially inward. $\blacksquare$
+Magnitude: $a = \omega^2 r = \dfrac{v^2}{r}$ Directed radially inward. $\blacksquare$
 
 ### 2.1 Centripetal force
 
-By Newton"s second law:
+By Newton's second law:
 
 $$
 \boxed{F_c = \frac{mv^2}{r} = m\omega^2 r}
@@ -146,7 +146,7 @@ $$
 
 ### 3.1 Conical pendulum
 
-A mass $m$ on a string of length $L$ moves in a horizontal circle of radius $r = L\sin\alpha$Where
+A mass $m$ on a string of length $L$ moves in a horizontal circle of radius $r = L\sin\alpha$ Where
 $\alpha$ is the angle the string makes with the vertical.
 
 **Vertical equilibrium:** $T\cos\alpha = mg$ ... (i)
@@ -187,8 +187,8 @@ $$
 \boxed{v_{\mathrm{optimum}} = \sqrt{rg\tan\theta}}
 $$
 
-At the optimum speed, no friction is needed. If $v > v_{\mathrm{opt}}$Friction acts down the Slope.
-If $v < v_{\mathrm{opt}}$Friction acts up the slope.
+At the optimum speed, no friction is needed. If $v > v_{\mathrm{opt}}$ Friction acts down the Slope.
+If $v < v_{\mathrm{opt}}$ Friction acts up the slope.
 
 ### 3.3 Motion on the inside of a hollow sphere
 
@@ -376,7 +376,7 @@ $\mathbf{v}(t) = -r\omega\sin(\omega t)\,\mathbf{i} + r\omega\cos(\omega t)\,\ma
 
 $\mathbf{a}(t) = -r\omega^2\cos(\omega t)\,\mathbf{i} - r\omega^2\sin(\omega t)\,\mathbf{j} = -\omega^2\mathbf{r}(t)$.
 
-$|\mathbf{a}| = \omega^2 r = \dfrac{v^2}{r}$Directed radially inward. $\blacksquare$
+$|\mathbf{a}| = \omega^2 r = \dfrac{v^2}{r}$ Directed radially inward. $\blacksquare$
 
 **If you get this wrong, revise:**
 [Proof from differentiation](#proof-from-differentiation-of-position-vector), Section 2.
@@ -450,7 +450,7 @@ A particle starts from rest at the top of a smooth sphere of radius $1.5\,\mathr
 
 <details>
 <summary>Solution 6</summary>
-The particle leaves when $R = 0$Which occurs at $\theta = \arccos(2/3) \approx 48.2^\circ$ from the top.
+The particle leaves when $R = 0$ Which occurs at $\theta = \arccos(2/3) \approx 48.2^\circ$ from the top.
 
 At this point: $\dfrac{1}{2}mv^2 = mgr(1-\cos\theta) = mg(1.5)(1/3) = 0.5mg$.
 
@@ -470,7 +470,7 @@ A car of mass $1200\,\mathrm{kg}$ travels at $18\,\mathrm{m s}^{-1}$ around a ba
 <summary>Solution 7</summary>
 $v_{\mathrm{opt}} = \sqrt{50 \times 9.8 \times \tan 25°} = \sqrt{50 \times 9.8 \times 0.4663} = \sqrt{228.5} \approx 15.1\,\mathrm{m s}^{-1}$.
 
-Since $18 > 15.1$The car is going too fast, so friction acts **down** the slope.
+Since $18 > 15.1$ The car is going too fast, so friction acts **down** the slope.
 
 $N\cos 25° - F\sin 25° = 1200 \times 9.8 = 11760$ ... (i)
 
@@ -619,7 +619,7 @@ $$
 At this speed, $T_{\mathrm{top}} = 0$ and the weight alone provides the centripetal acceleration at
 The top.
 
-The speed at the top is: $v_{\mathrm{top}}^2 = v_0^2 - 2gr(2) = 5gr - 4gr = gr$Confirming
+The speed at the top is: $v_{\mathrm{top}}^2 = v_0^2 - 2gr(2) = 5gr - 4gr = gr$ Confirming
 $v_{\mathrm{top}} = \sqrt{gr}$.
 
 <hr />
@@ -628,7 +628,7 @@ $v_{\mathrm{top}} = \sqrt{gr}$.
 
 ### 7.1 Derivation with friction
 
-A car of mass $m$ travels on a banked curve of radius $r$ and angle $\theta$With coefficient of
+A car of mass $m$ travels on a banked curve of radius $r$ and angle $\theta$ With coefficient of
 Friction $\mu$.
 
 When the car travels faster than the optimum speed, friction acts **down the slope** to provide
@@ -665,7 +665,7 @@ $$
 \boxed{v_{\min}^2 = \frac{rg(\sin\theta - \mu\cos\theta)}{\cos\theta + \mu\sin\theta}}
 $$
 
-Note: $v_{\min}$ only exists if $\sin\theta > \mu\cos\theta$I.e., $\tan\theta > \mu$. If the bank
+Note: $v_{\min}$ only exists if $\sin\theta > \mu\cos\theta$ I.e., $\tan\theta > \mu$. If the bank
 Angle is too shallow, the car can come to rest without sliding down.
 
 ### 7.2 Worked example: car on a banked curve with friction
@@ -731,8 +731,8 @@ $$
 Key observations:
 
 - The period depends only on $L$, $\alpha$ And $g$, it is independent of mass
-- As $\alpha \to 0$The period approaches $2\pi\sqrt{L/g}$ (simple pendulum for small angles)
-- As $\alpha \to 90^\circ$The period $\to 0$ (impractical: requires infinite speed)
+- As $\alpha \to 0$ The period approaches $2\pi\sqrt{L/g}$ (simple pendulum for small angles)
+- As $\alpha \to 90^\circ$ The period $\to 0$ (impractical: requires infinite speed)
 - A larger angle $\alpha$ means a faster rotation (shorter period)
 
 <hr />
@@ -800,14 +800,14 @@ At different points on a vertical circle, the normal reaction can point in diffe
 - At the top: reaction points **downward** (towards centre)
 - At the sides: reaction points horizontally (towards or away from centre depending on the speed)
 
-The sign of $R$ in your equations should emerge from the physics. If you get a negative $R$It means
+The sign of $R$ in your equations should emerge from the physics. If you get a negative $R$ It means
 the contact force acts in the opposite direction to what you assumed.
 
 ### String vs rod in vertical circles
 
-- **String**: can only pull (tension $\geq 0$). Minimum speed at top is $\sqrt{gr}$Minimum at bottom
+- **String**: can only pull (tension $\geq 0$). Minimum speed at top is $\sqrt{gr}$ Minimum at bottom
   is $\sqrt{5gr}$.
-- **Rod**: can push and pull. Particle can reach the top with $v = 0$Minimum at bottom is
+- **Rod**: can push and pull. Particle can reach the top with $v = 0$ Minimum at bottom is
   $\sqrt{4gr} = 2\sqrt{gr}$.
 - **Smooth wire**: like a rod in that it can provide a reaction in either direction.
 - **Rough surface**: friction can provide tangential force, making the problem significantly more
@@ -816,7 +816,7 @@ the contact force acts in the opposite direction to what you assumed.
 ### Confusing angular velocity with linear velocity
 
 $\omega = v/r$ is only valid when $v$ is the tangential speed and $r$ is the radius of the circular
-Path. In a conical pendulum, the radius of the circle is $L\sin\alpha$Not $L$.
+Path. In a conical pendulum, the radius of the circle is $L\sin\alpha$ Not $L$.
 
 <hr />
 
@@ -915,7 +915,7 @@ Height above the bottom $= r + r\cos\theta = 2 + 1.82 = 3.82\,\mathrm{m}$.
 </details>
 
 <details>
-<summary>Q6. A car of mass $800\,\mathrm{kg}$ travels at $15\,\mathrm{m s}^{-1}$ around an unbanked horizontal curve of radius $50\,\mathrm{m}$. Find the minimum coefficient of friction required for the car to maintain its circular path. If the curve is banked at $20^\circ$What coefficient of friction is needed?</summary>
+<summary>Q6. A car of mass $800\,\mathrm{kg}$ travels at $15\,\mathrm{m s}^{-1}$ around an unbanked horizontal curve of radius $50\,\mathrm{m}$. Find the minimum coefficient of friction required for the car to maintain its circular path. If the curve is banked at $20^\circ$ What coefficient of friction is needed?</summary>
 
 **Unbanked:**
 $\dfrac{mv^2}{r} = F = \mu mg \implies \mu = \dfrac{v^2}{rg} = \dfrac{225}{490} \approx 0.459$.
@@ -923,7 +923,7 @@ $\dfrac{mv^2}{r} = F = \mu mg \implies \mu = \dfrac{v^2}{rg} = \dfrac{225}{490} 
 **Banked at $20^\circ$:**
 $v_{\mathrm{opt}} = \sqrt{50 \times 9.8 \times \tan 20°} = \sqrt{178.3} \approx 13.4\,\mathrm{m s}^{-1}$.
 
-Since $15 > 13.4$Friction acts down the slope. With friction down the slope:
+Since $15 > 13.4$ Friction acts down the slope. With friction down the slope:
 
 $N\cos 20° - F\sin 20° = mg = 7840$ ... (i)
 
@@ -1053,7 +1053,7 @@ $T = \dfrac{mv^2}{r} - mg$ (minimum).
 ### Example 8.6: Non-uniform circular motion
 
 **Problem.** A disc rotates with angular acceleration $\alpha = -0.2\omega\,\mathrm{rad\,s^{-2}}$.
-If $\omega = 10\,\mathrm{rad\,s^{-1}}$ at $t = 0$Find $\omega(t)$.
+If $\omega = 10\,\mathrm{rad\,s^{-1}}$ at $t = 0$ Find $\omega(t)$.
 
 **Solution.** $\dfrac{d\omega}{dt} = -0.2\omega$. Separable:
 
@@ -1287,7 +1287,7 @@ Where $\boldsymbol{\tau}$ is the torque about the axis.
 ### 14.3 Non-uniform circular motion and SHM
 
 For small oscillations, the component of gravity tangential to a circular arc is approximately
-$-mg\theta$Giving simple harmonic motion with period $T = 2\pi\sqrt{l/g}$ (the simple pendulum).
+$-mg\theta$ Giving simple harmonic motion with period $T = 2\pi\sqrt{l/g}$ (the simple pendulum).
 
 ### 14.4 Motion in a vertical circle: general analysis
 
@@ -1314,7 +1314,7 @@ $T = \dfrac{m[u^2 - 2gr(1-\cos\theta)]}{r} + mg\cos\theta = \dfrac{mu^2}{r} - 2m
 
 At the top: $T_{\text{top}} = \dfrac{mu^2}{r} - 2mg - 3mg = \dfrac{mu^2}{r} - 5mg$.
 
-For the string not to go slack: $T_{\text{top}} \geq 0 \implies u^2 \geq 5gr$Giving
+For the string not to go slack: $T_{\text{top}} \geq 0 \implies u^2 \geq 5gr$ Giving
 $u_{\min} = \sqrt{5gr}$.
 
 ---
@@ -1397,7 +1397,7 @@ The particle leaves the sphere at $\theta = \arccos(2/3) \approx 48.2°$ from th
 
 ### 16.1 Motion on the inside of a vertical circle
 
-For a particle sliding on the inside of a smooth vertical sphere of radius $r$The condition for
+For a particle sliding on the inside of a smooth vertical sphere of radius $r$ The condition for
 Maintaining contact is:
 
 $$
@@ -1422,7 +1422,7 @@ $$
 \tan\alpha = \frac{v^2}{rg}
 $$
 
-Where $\alpha$ is the banking angle. This means for a given speed $v$ and radius $r$There is an
+Where $\alpha$ is the banking angle. This means for a given speed $v$ and radius $r$ There is an
 Ideal banking angle that requires no friction at all.
 
 ### 16.3 Angular impulse and momentum
@@ -1440,7 +1440,7 @@ Radial: $m(\ddot{r} - r\dot{\theta}^2) = F_r$
 
 Tangential: $m(r\ddot{\theta} + 2\dot{r}\dot{\theta}) = F_\theta$
 
-For circular motion ($r = \text{const}$): $\dot{r} = \ddot{r} = 0$Giving:
+For circular motion ($r = \text{const}$): $\dot{r} = \ddot{r} = 0$ Giving:
 
 $-mr\dot{\theta}^2 = F_r$ (centripetal) and $mr\ddot{\theta} = F_\theta$ (tangential).
 

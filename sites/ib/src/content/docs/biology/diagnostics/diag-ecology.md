@@ -94,7 +94,7 @@ $2.5 + 3.0 = 5.5\ \text{Gt C yr}^{-1}$ Net annual increase: $11.0 - 5.5 = 5.5\ \
 (b) Percentage increase per year: $\frac{5.5}{870} \times 100 = 0.63\%\text{ yr}^{-1}$.
 
 (c) For doubling: $\frac{870}{5.5} = 158$ years (using the simple linear approximation). More
-precisely, using exponential growth: $870 \times e^{0.0063t} = 1740$So
+precisely, using exponential growth: $870 \times e^{0.0063t} = 1740$ So
 $e^{0.0063t} = 2$, $t = \frac{\ln 2}{0.0063} = 110$ years.
 
 The linear model gives 158 years and the exponential model gives 110 years. The exponential model is
@@ -127,7 +127,7 @@ The logistic growth equation: $\frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)$
 (a) Per capita growth rate:
 $r\left(1 - \frac{N}{K}\right) = 0.5\left(1 - \frac{500}{5000}\right) = 0.5(1 - 0.1) = 0.5 \times 0.9 = 0.45\ \text{yr}^{-1}$.
 
-When $N \ll K$The per capita growth rate is close to $r$. When $N$ approaches $K$It approaches zero.
+When $N \ll K$ The per capita growth rate is close to $r$. When $N$ approaches $K$ It approaches zero.
 
 (b) Population growth rate:
 $\frac{dN}{dt} = 0.5 \times 500 \times 0.9 = 225\ \text{rabbits yr}^{-1}$.
@@ -137,7 +137,7 @@ $\frac{dN}{dt} = 0.5 \times 500 \times 0.9 = 225\ \text{rabbits yr}^{-1}$.
 At this point:
 $\frac{dN}{dt} = 0.5 \times 2500 \times (1 - 0.5) = 0.5 \times 2500 \times 0.5 = 625\ \text{rabbits yr}^{-1}$.
 
-This is the maximum possible growth rate for this population under logistic growth. At $N = K/2$The
+This is the maximum possible growth rate for this population under logistic growth. At $N = K/2$ The
 per capita growth rate is $r/2 = 0.25\ \text{yr}^{-1}$.
 
 ## Integration Tests
@@ -213,7 +213,7 @@ rates, and the carbon cycle.
 
 3. Decomposition rate increases exponentially with temperature (approximately doubling for every
    $10\ ^\circ\text{C}$ increase, $\text{Q}_{10} \approx 2$). The thawed organic matter is
-   decomposed aerobically (where $\text{O}_2$ is available), releasing $\text{CO}_2$Or anaerobically
+   decomposed aerobically (where $\text{O}_2$ is available), releasing $\text{CO}_2$ Or anaerobically
    (in waterlogged soils), releasing $\text{CH}_4$ (methane), which has a global warming potential
    about 80 times that of $\text{CO}_2$ over 20 years.
 

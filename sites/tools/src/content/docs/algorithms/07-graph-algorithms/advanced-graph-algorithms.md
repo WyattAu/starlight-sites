@@ -28,7 +28,7 @@ description: "Algorithms Advanced Graph Algorithms notes covering key definition
 A strongly connected component (SCC) of a directed graph is a maximal set of vertices such that
 There is a path from every vertex to every other vertex within the set.
 
-### Kosaraju"s Algorithm
+### Kosaraju's Algorithm
 
 Kosaraju's algorithm finds all SCCs in $O(V + E)$ time using two DFS passes.
 

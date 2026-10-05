@@ -29,13 +29,13 @@ flowchart TD
 
 ## Unit Tests
 
-### UT-1: Kirchhoff"s Laws with Three Loops
+### UT-1: Kirchhoff's Laws with Three Loops
 
 **Question:**
 
 In the circuit shown, three cells with EMFs $E_1 = 12$ V, $E_2 = 6$ V, and $E_3 = 4$ V are connected
 with resistors $R_1 = 4$ $\Omega$, $R_2 = 6$ $\Omega$ And $R_3 = 2$ $\Omega$. Cell $E_1$ is in series
-with $R_1$Cell $E_2$ is in series with $R_2$ And $R_3$ is the shared branch connecting the junctions.
+with $R_1$ Cell $E_2$ is in series with $R_2$ And $R_3$ is the shared branch connecting the junctions.
 $E_1$ and $E_2$ have their positive terminals facing the same junction (opposing each other). $E_3$
 is in the shared branch with its positive terminal facing the $E_1$ side. All cells have negligible
 internal resistance. Find the current in each branch.
@@ -433,7 +433,7 @@ it regardless of its resistance. This is the fundamental principle of the Wheats
 
 **Question:**
 
-A $100$ $\mu$F capacitor is charged through a $50$ k$\Omega$ resistor by a $12$ V battery. (a) Find
+A $100$ $\mu$ F capacitor is charged through a $50$ k$\Omega$ resistor by a $12$ V battery. (a) Find
 the time constant. (b) Calculate the charge on the capacitor after $5$ s. (c) Calculate the energy
 stored in the capacitor when fully charged. (d) How much energy is dissipated in the resistor during
 the full charging process?

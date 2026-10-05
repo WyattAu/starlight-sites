@@ -109,7 +109,7 @@ $$
 A car of mass $800$ kg travels on a level road. The engine works at constant power $40$ kW. The
 resistance to motion is a constant $200$ N.
 
-**(a)** Show that the acceleration of the car is given by $a = \frac{P}{mv} - \frac{R}{m}$Where $P$
+**(a)** Show that the acceleration of the car is given by $a = \frac{P}{mv} - \frac{R}{m}$ Where $P$
 is the power, $v$ is the speed, and $R$ is the resistance.
 
 **(b)** Find the maximum speed of the car.
@@ -225,7 +225,7 @@ equilibrium position as the point of maximum speed.]
 
 **Solution:**
 
-**(a)** At maximum extension $x_{\max}$The speed is zero. Taking the natural length position as the
+**(a)** At maximum extension $x_{\max}$ The speed is zero. Taking the natural length position as the
 reference for GPE (so the particle falls a distance $x_{\max}$):
 
 Loss in GPE $= mgx_{\max} = 3 \times 9.8 \times x_{\max} = 29.4x_{\max}$.
@@ -244,7 +244,7 @@ $$
 x_{\max} = \frac{29.4}{150} = 0.196 \text{ m}
 $$
 
-(Ignoring $x_{\max} = 0$The trivial solution.)
+(Ignoring $x_{\max} = 0$ The trivial solution.)
 
 **(b)** The speed is maximum when the acceleration is zero, i.e., when the net force on the particle
 is zero. This occurs at the equilibrium extension $x_e$ where:
@@ -269,7 +269,7 @@ $$
 gravity ($mg = 29.4$ N downward). The particle is still accelerating at $g = 9.8$ m/s$^2$ at this
 point. The particle continues to accelerate until the restoring force of the spring equals gravity
 (at $x_e = 0.098$ m). Beyond this point, the spring force exceeds gravity and the particle
-decelerates. The maximum speed occurs at $x_e$Not at the natural length.
+decelerates. The maximum speed occurs at $x_e$ Not at the natural length.
 
 ---
 
@@ -296,7 +296,7 @@ where $x$ is the displacement in metres from a fixed origin.
 
 **(a)** Find the work done by the force as the particle moves from $x = 0$ to $x = 3$.
 
-**(b)** Given that the particle has mass $2$ kg and starts from rest at $x = 0$Find its speed at
+**(b)** Given that the particle has mass $2$ kg and starts from rest at $x = 0$ Find its speed at
 $x = 3$.
 
 **(c)** Find the positions where the force is zero, and determine whether the force does positive or
@@ -361,7 +361,7 @@ does negative work in the region $[-5/3, 1]$ through which the particle passes.
 
 **Question:**
 
-**(a)** Starting from Newton's Second Law $F = ma$Derive the work-energy theorem in one dimension:
+**(a)** Starting from Newton's Second Law $F = ma$ Derive the work-energy theorem in one dimension:
 
 $$
 W = \int_{s_1}^{s_2} F\,ds = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
@@ -370,7 +370,7 @@ $$
 Show every step and justify each substitution.
 
 **(b)** Extend the derivation to two dimensions, where the force is $\mathbf{F} = (F_x, F_y)$ and
-the displacement is $\mathbf{s} = (x, y)$To show that:
+the displacement is $\mathbf{s} = (x, y)$ To show that:
 
 $$
 W = \int \mathbf{F} \cdot d\mathbf{s} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
@@ -397,7 +397,7 @@ $$
 F\,ds = m\frac{dv}{dt}\,ds
 $$
 
-Since $v = \frac{ds}{dt}$We have $ds = v\,dt$ So $\frac{ds}{dt} = v$. Rearranging:
+Since $v = \frac{ds}{dt}$ We have $ds = v\,dt$ So $\frac{ds}{dt} = v$. Rearranging:
 
 $$
 F\,ds = m\frac{dv}{dt} \cdot v\,dt = mv\,dv

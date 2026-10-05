@@ -19,7 +19,7 @@ categories:
 }
 </script>
 
-## Python"s Type System
+## Python's Type System
 
 Python is **dynamically typed** and **strongly typed**. These two properties are frequently
 Confused, so it is worth being precise about what they mean.
@@ -705,7 +705,7 @@ def get_name(obj: T) -> str:
 
 ### `Protocol`: Structural Subtyping (PEP 544)
 
-Python"s type system supports both nominal typing (based on inheritance) and structural typing
+Python's type system supports both nominal typing (based on inheritance) and structural typing
 (based on shape). `Protocol` enables structural typing -- a type satisfies a protocol if it has the
 Required attributes and methods, regardless of inheritance.
 

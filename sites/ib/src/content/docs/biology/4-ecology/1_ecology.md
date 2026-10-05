@@ -68,7 +68,7 @@ Relationships in an ecosystem.
 Its needs for food and shelter, how it survives, and how it reproduces. It includes all biotic and
 Abiotic interactions.
 
-The **competitive exclusion principle** (Gause"s principle) states that two species cannot coexist
+The **competitive exclusion principle** (Gause's principle) states that two species cannot coexist
 Permanently in the same niche: one will outcompete the other. Species that coexist must occupy
 Different niches (**resource partitioning**).
 
@@ -160,7 +160,7 @@ Carbon circulates between the atmosphere, biosphere, hydrosphere, and lithospher
 **Carbon reservoirs**:
 
 - Atmosphere: $\approx 800$ gigatonnes of carbon (Gt C), primarily as $\mathrm{CO}_2$.
-- Oceans: $\approx 38000$ Gt C (dissolved $\mathrm{CO}_2$Bicarbonate, carbonate, marine organisms).
+- Oceans: $\approx 38000$ Gt C (dissolved $\mathrm{CO}_2$ Bicarbonate, carbonate, marine organisms).
 - Fossil fuels: $\approx 4000$--$10000$ Gt C.
 - Terrestrial biosphere: $\approx 2000$ Gt C (plant biomass, soil organic matter).
 
@@ -394,7 +394,7 @@ One of two alternatives based on observable characteristics.
 
 A grassland ecosystem receives $10000\;\mathrm{kJ/m^2/year}$ of solar energy. If GPP is
 $2000\;\mathrm{kJ/m^2/year}$ and plant respiration accounts for $1200\;\mathrm{kJ/m^2/year}$
-Calculate the NPP. If ecological efficiency is $10\%$How much energy is available to secondary
+Calculate the NPP. If ecological efficiency is $10\%$ How much energy is available to secondary
 Consumers?
 
 </details>
@@ -451,7 +451,7 @@ The initial population contained genetic variation: a small fraction carried the
 The antibiotic acted as a strong selective pressure, killing susceptible bacteria (differential
 Survival). The resistant bacteria survived and reproduced, passing the resistance allele to all
 Offspring (heritability). After $5$ generations of binary fission ($2^5 = 32$-fold increase from
-$100$), the population recovered to $3200$All carrying the resistance gene. This demonstrates
+$100$), the population recovered to $3200$ All carrying the resistance gene. This demonstrates
 Natural selection: the allele frequency of the resistance gene increased from $\approx 1\%$ to
 $\approx 100\%$ in five generations.
 
@@ -475,7 +475,7 @@ After $50\%$ deforestation: $2200 \times 0.50 = 1100\;\mathrm{g\;C/m^2/year}$.
 
 Reduction: $1100\;\mathrm{g\;C/m^2/year}$.
 
-Convert to $\mathrm{CO}_2$: $\mathrm{CO}_2$ has molar mass $44\;\mathrm{g/mol}$C has molar mass
+Convert to $\mathrm{CO}_2$: $\mathrm{CO}_2$ has molar mass $44\;\mathrm{g/mol}$ C has molar mass
 $12\;\mathrm{g/mol}$. Ratio: $44/12 = 3.67$.
 
 Reduction in $\mathrm{CO}_2$ uptake: $1100 \times 3.67 = 4037\;\mathrm{g\;CO_2/m^2/year}$.
@@ -571,7 +571,7 @@ Hardy-Weinberg equilibrium.
 <details>
 <summary>Solution</summary>
 
-**Expected values** (total $= 1000$; ratio $1:2:1$): Red ($RR$): $250$Pink ($Rr$): $500$White
+**Expected values** (total $= 1000$; ratio $1:2:1$): Red ($RR$): $250$ Pink ($Rr$): $500$ White
 ($rr$): $250$
 
 **Chi-squared calculation**:
@@ -761,7 +761,7 @@ Evidence provide a more robust argument than any single type alone.
 <summary>Problem 6: Quantitative -- Hardy-Weinberg and Genetic Drift</summary>
 
 A small island population of $50$ lizards has allele frequencies for a colour gene: $p = 0.80$
-(allele $G$Green) and $q = 0.20$ (allele $g$Grey). A storm kills $40$ lizards randomly, Leaving $10$
+(allele $G$ Green) and $q = 0.20$ (allele $g$ Grey). A storm kills $40$ lizards randomly, Leaving $10$
 survivors. If all survivors are green, what are the new allele frequencies? Explain why Genetic
 drift has a stronger effect in small populations, and calculate the probability that the $g$ Allele
 is completely lost in this bottleneck event (assuming the $40$ deaths were truly random with Respect
@@ -1093,7 +1093,7 @@ two Strategies for reducing phosphate pollution from agricultural runoff.
 A forest has a gross primary productivity (GPP) of $18\,000\;\mathrm{kJ/m^2/year}$. The plants in
 the Forest respire at a rate of $12\,000\;\mathrm{kJ/m^2/year}$. (a) Calculate the net primary
 productivity (NPP). (b) If the ecological efficiency (transfer efficiency between trophic levels) is
-$10\%$Calculate The net secondary productivity of herbivores. (c) If $60\%$ of NPP is used by
+$10\%$ Calculate The net secondary productivity of herbivores. (c) If $60\%$ of NPP is used by
 decomposers, calculate the Energy available to herbivores. (d) Explain why ecological efficiency is
 low.
 
@@ -1127,7 +1127,7 @@ A population of birds on an island has a birth rate of $0.15$ per individual per
 rate of $0.10$ per individual per year. Immigration brings in $50$ birds per year and emigration
 removes $20$ birds Per year. The current population is $2000$. (a) Calculate $r$ (per capita rate of
 increase) excluding Migration. (b) Calculate the net change in population per year including
-migration. (c) If the carrying Capacity is $5000$Calculate the population size after 5 years using
+migration. (c) If the carrying Capacity is $5000$ Calculate the population size after 5 years using
 the logistic equation ($dN/dt = rN(1 - N/K)$). Assume migration continues at the same rate.
 
 <details>
@@ -1137,7 +1137,7 @@ the logistic equation ($dN/dt = rN(1 - N/K)$). Assume migration continues at the
 
 (b) Net change $= rN + I - E = 0.05 \times 2000 + 50 - 20 = 100 + 30 = 130$ birds per year.
 
-(c) Using the logistic equation with migration: $N_0 = 2000$$r = 0.05$$K = 5000$Migration $= +30$
+(c) Using the logistic equation with migration: $N_0 = 2000$$r = 0.05$$K = 5000$ Migration $= +30$
 per year.
 
 Year 1: $dN/dt = 0.05 \times 2000 \times (1 - 2000/5000) + 30 = 100 \times 0.6 + 30 = 60 + 30 = 90$.
@@ -1392,7 +1392,7 @@ at $p = 0.05$. (c) State your conclusion. (d) Which habitat types are most prefe
 <summary>Answer 14</summary>
 
 (a) The expected values should be based on $200$ total snails and the habitat proportions: Expected:
-Woodland $= 80$Grassland $= 70$Marsh $= 30$Rocky $= 20$.
+Woodland $= 80$ Grassland $= 70$ Marsh $= 30$ Rocky $= 20$.
 
 $\chi^2 = \frac{(85 - 80)^2}{80} + \frac{(55 - 70)^2}{70} + \frac{(40 - 30)^2}{30} + \frac{(20 - 20)^2}{20}$
 $= \frac{25}{80} + \frac{225}{70} + \frac{100}{30} + 0$ $= 0.313 + 3.214 + 3.333 + 0 = 6.860$

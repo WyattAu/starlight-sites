@@ -185,7 +185,7 @@ $$
 
 ### 3.1 Notation and regions
 
-For two events $A$ and $B$The Venn diagram has four regions:
+For two events $A$ and $B$ The Venn diagram has four regions:
 
 | Region       | Description            | Probability          |
 | ------------ | ---------------------- | -------------------- |
@@ -210,7 +210,7 @@ $$
 
 ### 3.3 Three-event Venn diagrams
 
-For three events $A$, $B$, $C$The inclusion-exclusion formula gives:
+For three events $A$, $B$, $C$ The inclusion-exclusion formula gives:
 
 $$
 P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)
@@ -304,7 +304,7 @@ $$
 P(A \cap B) = P(A) \cdot P(B)
 $$
 
-Equivalently: $P(A \mid B) = P(A)$Or $P(B \mid A) = P(B)$.
+Equivalently: $P(A \mid B) = P(A)$ Or $P(B \mid A) = P(B)$.
 
 **Interpretation.** Knowing that $B$ occurred provides no information about whether $A$ occurred.
 

@@ -83,12 +83,12 @@ Increasing temperature:
 
 | Law          | Relationship    | Condition held constant |
 | ------------ | --------------- | ----------------------- |
-| Boyle"s      | $P \propto 1/V$ | $n$, $T$                |
+| Boyle's      | $P \propto 1/V$ | $n$, $T$                |
 | Charles's    | $V \propto T$   | $n$, $P$                |
 | Gay-Lussac's | $P \propto T$   | $n$, $V$                |
 | Avogadro's   | $V \propto n$   | $P$, $T$                |
 
-Combining: $PV \propto nT$Giving the ideal gas equation:
+Combining: $PV \propto nT$ Giving the ideal gas equation:
 
 $$
 PV = nRT
@@ -135,7 +135,7 @@ Leaks.
 
 - Forgetting to convert temperature to Kelvin.
 - Using the wrong value of $R$ (check units of $P$, $V$, $T$).
-- Confusing STP definitions (the IB uses $100\mathrm{ kPa}$Not $1\mathrm{ atm}$).
+- Confusing STP definitions (the IB uses $100\mathrm{ kPa}$ Not $1\mathrm{ atm}$).
 
 ---
 
@@ -191,7 +191,7 @@ Z = \frac`\{PV}``\{nRT}`
 $$
 
 - $Z = 1$: ideal gas
-- $Z \lt 1$: intermolecular attractions dominate (low $T$Moderate $P$)
+- $Z \lt 1$: intermolecular attractions dominate (low $T$ Moderate $P$)
 - $Z \gt 1$: molecular volume dominates (high $P$)
 
 ---
@@ -267,7 +267,7 @@ Requirements:
 
 #### Anomalous Properties of Water
 
-Water's maximum density is at $4\degree\mathrm{C}$Not $0\degree\mathrm{C}$. In ice, each water
+Water's maximum density is at $4\degree\mathrm{C}$ Not $0\degree\mathrm{C}$. In ice, each water
 Molecule forms four hydrogen bonds in a tetrahedral arrangement, creating an open lattice with lower
 Density than liquid water.
 
@@ -659,7 +659,7 @@ The trend is entirely consistent with increasing LDF strength down the group.
 ## Common Pitfalls
 
 - **Using Celsius instead of Kelvin in gas calculations:** The ideal gas law requires absolute
-  temperature. A gas at $27\degree\mathrm{C}$ has $T = 300\mathrm{ K}$Not $27$. Forgetting this
+  temperature. A gas at $27\degree\mathrm{C}$ has $T = 300\mathrm{ K}$ Not $27$. Forgetting this
   conversion produces answers that are off by a factor of $\approx 10$.
 
 - **Choosing the wrong value of $R$:** $R = 8.314\mathrm{ J/(mol \cdot K)}$ requires SI units
@@ -668,7 +668,7 @@ The trend is entirely consistent with increasing LDF strength down the group.
   results.
 
 - **Confusing STP definitions:** The IB uses STP as $0\degree\mathrm{C}$ and
-  $100\mathrm{ kPa}$Giving $V_m = 22.7\mathrm{ L/mol}$. Many textbooks use the older IUPAC
+  $100\mathrm{ kPa}$ Giving $V_m = 22.7\mathrm{ L/mol}$. Many textbooks use the older IUPAC
   definition ($1\mathrm{ atm} = 101.3\mathrm{ kPa}$$V_m = 22.4\mathrm{ L/mol}$). Using the wrong
   molar volume introduces a $\approx 1.3\%$ error.
 
@@ -727,7 +727,7 @@ The trend is entirely consistent with increasing LDF strength down the group.
 
 7. **[Medium]** A sample of gas effuses through an apparatus in $42\mathrm{ s}$. An equal number of
    moles of an unknown gas effuses through the same apparatus in $78\mathrm{ s}$. If the first gas
-   is $\mathrm{CO}_2$Calculate the molar mass of the unknown gas.
+   is $\mathrm{CO}_2$ Calculate the molar mass of the unknown gas.
 
 8. **[Hard]** At high pressures, real gases can have $Z \gt 1$. Explain the molecular-level origin
    of this deviation. Under what conditions of temperature and molecular identity would you expect
@@ -771,8 +771,8 @@ $$
 
 Factor of increase: $\frac{624}{482} = 1.29$
 
-Since $v_{\mathrm{rms}} \propto \sqrt{T}$The factor is
-$\sqrt{500/298} = \sqrt{1.678} = 1.29$Consistent with the calculation.
+Since $v_{\mathrm{rms}} \propto \sqrt{T}$ The factor is
+$\sqrt{500/298} = \sqrt{1.678} = 1.29$ Consistent with the calculation.
 
 </details>
 
@@ -781,19 +781,19 @@ $\sqrt{500/298} = \sqrt{1.678} = 1.29$Consistent with the calculation.
 The critical point of $\mathrm{CO}_2$ is at $T_c = 304.3\;\mathrm{K}$ ($31.1\degree\mathrm{C}$) and
 $P_c = 7.38\;\mathrm{MPa}$ ($72.8\;\mathrm{atm}$). (a) Explain what happens at the critical point.
 (b) $\mathrm{CO}_2$ is commonly used as a supercritical fluid in decaffeination. If $\mathrm{CO}_2$
-is held at $40\degree\mathrm{C}$ and $80\;\mathrm{atm}$Is it supercritical? (c) State two properties
+is held at $40\degree\mathrm{C}$ and $80\;\mathrm{atm}$ Is it supercritical? (c) State two properties
 of supercritical $\mathrm{CO}_2$ that make it useful as a solvent.
 
 <details>
 <summary>Solution</summary>
 
 **(a)** At the critical point, the densities of the liquid and gas phases become identical. Above
-$T_c$ and $P_c$No phase boundary exists between liquid and gas, the substance exists as a single,
+$T_c$ and $P_c$ No phase boundary exists between liquid and gas, the substance exists as a single,
 dense phase called a supercritical fluid. The meniscus between liquid and gas disappears.
 
-**(b)** The conditions are $T = 40\degree\mathrm{C} = 313\;\mathrm{K}$Which is above
-$T_c = 304\;\mathrm{K}$ And $P = 80\;\mathrm{atm}$Which is above $P_c = 72.8\;\mathrm{atm}$. Since
-both $T > T_c$ and $P > P_c$The $\mathrm{CO}_2$ is in the supercritical state.
+**(b)** The conditions are $T = 40\degree\mathrm{C} = 313\;\mathrm{K}$ Which is above
+$T_c = 304\;\mathrm{K}$ And $P = 80\;\mathrm{atm}$ Which is above $P_c = 72.8\;\mathrm{atm}$. Since
+both $T > T_c$ and $P > P_c$ The $\mathrm{CO}_2$ is in the supercritical state.
 
 **(c)** Supercritical $\mathrm{CO}_2$ has a density similar to a liquid (good solvating power) but a
 viscosity similar to a gas (high diffusivity). This allows it to penetrate porous solids (like
@@ -849,8 +849,8 @@ the Clausius-Clapeyron equation over this temperature range.
 
 A $50.0\;\mathrm{g}$ sample of ice at $-20\degree\mathrm{C}$ is heated to $120\degree\mathrm{C}$ at
 standard pressure. Calculate the total energy required. Given: specific heat of ice
-$= 2.09\;\mathrm{J/(g \cdot \degree C)}$Specific heat of water
-$= 4.18\;\mathrm{J/(g \cdot \degree C)}$Specific heat of steam
+$= 2.09\;\mathrm{J/(g \cdot \degree C)}$ Specific heat of water
+$= 4.18\;\mathrm{J/(g \cdot \degree C)}$ Specific heat of steam
 $= 2.01\;\mathrm{J/(g \cdot \degree C)}$$\Delta H_{\mathrm{fusion}} = 334\;\mathrm{J/g}$$\Delta H_{\mathrm{vap}} = 2260\;\mathrm{J/g}$.
 
 <details>
@@ -907,7 +907,7 @@ demonstrating the dominance of the enthalpy of vaporisation.
 <details>
 <summary>Problem 9: Quantitative -- Boltzmann Distribution and Activation Energy</summary>
 
-For a reaction with activation energy $E_a = 75.0\;\mathrm{kJ/mol}$Calculate the ratio of molecules
+For a reaction with activation energy $E_a = 75.0\;\mathrm{kJ/mol}$ Calculate the ratio of molecules
 with sufficient energy to react at $350\;\mathrm{K}$ versus $300\;\mathrm{K}$.
 ($R = 8.314\;\mathrm{J/(mol \cdot K)}$). Use the Boltzmann factor
 $\frac{n(E > E_a)}{n_{\mathrm{total}}} \propto e^{-E_a/RT}$. Explain the significance of this ratio
@@ -964,7 +964,7 @@ $500\;\mathrm{K}$ and $100\;\mathrm{atm}$ for the same gas.
 <summary>Problem 14: Extended Response -- Phase Diagram Interpretation</summary>
 
 The phase diagram of a substance shows a triple point at $T = 150\;\mathrm{K}$,
-$P = 0.5\;\mathrm{atm}$A normal melting point of $180\;\mathrm{K}$ And a critical point at
+$P = 0.5\;\mathrm{atm}$ A normal melting point of $180\;\mathrm{K}$ And a critical point at
 $T = 350\;\mathrm{K}$, $P = 45\;\mathrm{atm}$. The solid-liquid boundary has a positive slope. (a)
 Sketch the phase diagram. (b) Describe what happens when the substance at $200\;\mathrm{K}$ and
 $1.0\;\mathrm{atm}$ is compressed to $50\;\mathrm{atm}$ at constant temperature. (c) Explain why the

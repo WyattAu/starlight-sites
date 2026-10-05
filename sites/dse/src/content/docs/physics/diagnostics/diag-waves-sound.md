@@ -156,7 +156,7 @@ $$
 r = \sqrt{\frac{P}{4\pi I}} = \sqrt{\frac{0.01}{4\pi \times 10^{-8}}} = \sqrt{\frac{0.01}{1.2566 \times 10^{-7}}} = \sqrt{79577} = 282 \text{ m}
 $$
 
-**Key misconception:** Intensity depends on $1/r^2$Not $1/r$. Doubling the distance reduces
+**Key misconception:** Intensity depends on $1/r^2$ Not $1/r$. Doubling the distance reduces
 intensity by a factor of $4$ (decrease of $6$ dB), not $2$.
 
 ---

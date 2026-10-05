@@ -268,7 +268,7 @@ $$
 Average bond enthalpies are mean values taken from many different compounds. The actual C-H bond
 Enthalpy in methane differs from that in ethane because the electronic environment is different.
 Therefore, using average values introduces systematic error. The true $\Delta H$ for the
-Hydrogenation of ethene is $-137 \mathrm{ kJ/mol$Showing that the bond enthalpy estimate
+Hydrogenation of ethene is $-137 \mathrm{ kJ/mol$ Showing that the bond enthalpy estimate
 ($-124 \mathrm{ kJ/mol$) is approximate.
 
 ---
@@ -350,7 +350,7 @@ Net ionic equation: $\mathrm{Zn(s) + 2\mathrm{H^+(aq) \to \mathrm{Zn^{2+}(aq) + 
 
 **Worked Example 11:** Determine the oxidation states in $\mathrm{KMnO_4$.
 
-$\mathrm{K = +1$, $\mathrm{O = -2$ So $\mathrm{Mn + 1 + 4(-2) = 0$Giving $\mathrm{Mn = +7$.
+$\mathrm{K = +1$, $\mathrm{O = -2$ So $\mathrm{Mn + 1 + 4(-2) = 0$ Giving $\mathrm{Mn = +7$.
 
 **Worked Example 12:** Determine the oxidation states of each element in $\mathrm{H_2\mathrm{O_2$
 and $\mathrm{Na_2\mathrm{Cr_2\mathrm{O_7$.
@@ -359,7 +359,7 @@ $\mathrm{H_2\mathrm{O_2$: $\mathrm{H = +1$, $2(+1) + 2(\mathrm{O) = 0$ So $\math
 Peroxide where oxygen has an unusual oxidation state of $-1$.
 
 $\mathrm{Na_2\mathrm{Cr_2\mathrm{O_7$: $\mathrm{Na = +1$, $\mathrm{O = -2$.
-$2(+1) + 2(\mathrm{Cr) + 7(-2) = 0$ So $2(\mathrm{Cr) = 12$Giving $\mathrm{Cr = +6$.
+$2(+1) + 2(\mathrm{Cr) + 7(-2) = 0$ So $2(\mathrm{Cr) = 12$ Giving $\mathrm{Cr = +6$.
 
 ### Redox Reactions
 
@@ -455,8 +455,8 @@ flowchart TD
 4. **Using average bond enthalpies:** These give approximate values only. They are less accurate
    when bonds are in different molecular environments.
 
-5. **Oxidation state of oxygen in peroxides:** In $\mathrm{H_2\mathrm{O_2$Oxygen has oxidation state
-   $-1$Not $-2$.
+5. **Oxidation state of oxygen in peroxides:** In $\mathrm{H_2\mathrm{O_2$ Oxygen has oxidation state
+   $-1$ Not $-2$.
 
 6. **Spectator ions in ionic equations:** Always identify and remove spectator ions. Remember that
    state symbols are essential.
@@ -547,7 +547,7 @@ Gaseous ions. It is always exothermic (negative) and indicates the strength of i
 ### Born-Haber Cycles
 
 A Born-Haber cycle is a thermochemical cycle that relates lattice energy to other measurable
-Enthalpy changes. It is an application of Hess"s Law to ionic compounds.
+Enthalpy changes. It is an application of Hess's Law to ionic compounds.
 
 **Worked Example 15:** Construct a Born-Haber cycle for sodium chloride.
 
@@ -625,11 +625,11 @@ Improved properties.
 $\mathrm{KF$(b) $\mathrm{CCl_4$(c) $\mathrm{Cu$(d) $\mathrm{AlCl_3$.
 
 **(a) $\mathrm{KF$:** Potassium is a Group 1 metal and fluorine is a Group 17 non-metal. The
-Electronegativity difference is $3.98 - 0.82 = 3.16$Which is greater than 1.7, so this is
+Electronegativity difference is $3.98 - 0.82 = 3.16$ Which is greater than 1.7, so this is
 Predominantly **ionic bonding**.
 
 **(b) $\mathrm{CCl_4$:** Both carbon and chlorine are non-metals. The electronegativity difference
-is $3.16 - 2.55 = 0.61$Which is in the polar covalent range. The molecule is tetrahedral and the
+is $3.16 - 2.55 = 0.61$ Which is in the polar covalent range. The molecule is tetrahedral and the
 bond Dipoles cancel, making the molecule non-polar overall. This is **covalent bonding**.
 
 **(c) $\mathrm{Cu$:** Copper is a metal. The bonding involves positive metal ions in a sea of
@@ -637,7 +637,7 @@ Delocalised electrons. This is **metallic bonding**, accounting for copper's con
 Malleability, and high melting point.
 
 **(d) $\mathrm{AlCl_3$:** Aluminium is a metal and chlorine is a non-metal. The electronegativity
-Difference is $3.16 - 1.61 = 1.55$Suggesting polar covalent. $\mathrm{Al^{3+}$ is a small, highly
+Difference is $3.16 - 1.61 = 1.55$ Suggesting polar covalent. $\mathrm{Al^{3+}$ is a small, highly
 Charged cation with high polarising power, and $\mathrm{Cl^-$ is a relatively large anion. According
 To Fajans' Rules, this gives $\mathrm{AlCl_3$ significant **covalent character**. Indeed,
 $\mathrm{AlCl_3$ sublimes at $180^\circ\mathrm{C$ (low for an ionic compound) and forms dimer
@@ -729,7 +729,7 @@ Arrangement, forming a rigid three-dimensional network. Every C-C bond is a stro
 
 **Properties explained:**
 
-- **Very high melting point ($> 3500^\circ$C):** All bonds must be broken to melt diamond, requiring
+- **Very high melting point ($> 3500^\circ$ C):** All bonds must be broken to melt diamond, requiring
   enormous energy.
 - **Extremely hard:** The three-dimensional network prevents any movement of atoms.
 - **Does not conduct electricity:** All four valence electrons of each carbon are localised in sigma
@@ -757,7 +757,7 @@ The entire layer.
 Each silicon atom is covalently bonded to four oxygen atoms, and each oxygen atom is bonded to two
 Silicon atoms, forming a giant covalent network similar to diamond.
 
-- Very high melting point ($\sim 1700^\circ$C)
+- Very high melting point ($\sim 1700^\circ$ C)
 - Hard and insoluble
 - Does not conduct electricity
 
@@ -852,8 +852,8 @@ $\mathrm{CuSO_4$ (oxidation).
 **Question:** Balance the following equation in acidic solution:
 $\mathrm{IO_3^- + \mathrm{I^- + \mathrm{H^+ \to \mathrm{I_2 + \mathrm{H_2\mathrm{O$
 
-**Step 1:** Assign oxidation states. In $\mathrm{IO_3^-$Iodine is $+5$. In $\mathrm{I^-$Iodine is
-$-1$. In $\mathrm{I_2$Iodine is 0.
+**Step 1:** Assign oxidation states. In $\mathrm{IO_3^-$ Iodine is $+5$. In $\mathrm{I^-$ Iodine is
+$-1$. In $\mathrm{I_2$ Iodine is 0.
 
 $\mathrm{IO_3^-$ is reduced: $+5 \to 0$ (gain of 5 electrons) $\mathrm{I^-$ is oxidised: $-1 \to 0$
 (loss of 1 electron)

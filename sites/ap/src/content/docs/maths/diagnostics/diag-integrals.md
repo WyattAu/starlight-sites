@@ -179,7 +179,7 @@ $$
 Intersection points: $x = -2, 1, 2$.
 
 The student"s error: they integrated from $-2$ to $2$ without accounting for the curve crossing at
-$x = 1$. On $[-2, 1]$We must determine which curve is on top; on $[1, 2]$The other may be on top.
+$x = 1$. On $[-2, 1]$ We must determine which curve is on top; on $[1, 2]$ The other may be on top.
 
 Test point $x = 0$: $x^3 - 4x = 0$, $x^2 - 4 = -4$. So $x^3 - 4x \gt x^2 - 4$ on $[-2, 1]$.
 
@@ -262,7 +262,7 @@ Explain why this is false, and compute the volume about the $y$-axis for compari
 A shell at height $y$ has radius $r = 6 - x = 6 - y^2$ and height $h = dy$ (thin strip). For shells,
 we integrate along the axis perpendicular to the axis of revolution.
 
-Since we revolve about $x = 6$ (vertical line), shells are vertical: radius $= 6 - x$Height
+Since we revolve about $x = 6$ (vertical line), shells are vertical: radius $= 6 - x$ Height
 $= \sqrt{x} - 0 = \sqrt{x}$.
 
 $$
@@ -276,7 +276,7 @@ $$
 (b) Washer method: washers perpendicular to $x = 6$ So we integrate with respect to $y$.
 
 Outer radius: $R = 6 - 0 = 6$ (from $x = 6$ to the $y$-axis). More precisely, for washers
-perpendicular to the axis $x = 6$: at height $y$The region extends from $x = y^2$ to $x = 4$.
+perpendicular to the axis $x = 6$: at height $y$ The region extends from $x = y^2$ to $x = 4$.
 Revolved about $x = 6$:
 
 - Outer radius: $6 - y^2$ (from axis to the left edge of region at $x = y^2$)
@@ -337,7 +337,7 @@ $$
 \frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-1}
 $$
 
-By comparison with $\displaystyle\int_0^1 x^{p-1}\,dx$ (converges iff $p - 1 > -1$I.e., $p > 0$):
+By comparison with $\displaystyle\int_0^1 x^{p-1}\,dx$ (converges iff $p - 1 > -1$ I.e., $p > 0$):
 
 The first integral converges iff $p > 0$.
 
@@ -348,7 +348,7 @@ $$
 \frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-2}
 $$
 
-By comparison with $\displaystyle\int_1^{\infty} x^{p-2}\,dx$ (converges iff $p - 2 \lt -1$I.e.,
+By comparison with $\displaystyle\int_1^{\infty} x^{p-2}\,dx$ (converges iff $p - 2 \lt -1$ I.e.,
 $p \lt 1$):
 
 The second integral converges iff $p \lt 1$.
@@ -399,7 +399,7 @@ $$
 So
 $F(x) = \begin{cases} x^2 & \text{if  0 \leq x \lt 2 \\ -x^2 + 8x - 8 & \text{if  2 \leq x \leq 4 \end{cases}$
 
-(Note: $4 + (8x - x^2 - 12) = -x^2 + 8x - 8$Not $(x-4)^2 = x^2 - 8x + 16$. The two expressions
+(Note: $4 + (8x - x^2 - 12) = -x^2 + 8x - 8$ Not $(x-4)^2 = x^2 - 8x + 16$. The two expressions
 differ.)
 
 (b) Check differentiability at $x = 2$:
@@ -416,7 +416,7 @@ $F'_{+}(2) = \lim_{h \to 0^+}\frac{F(2+h) - F(2)}{h} = \lim_{h \to 0^+}\frac{-(2
 
 $= \lim_{h \to 0^+}\frac{-4 - 4h - h^2 + 16 + 8h - 12}{h} = \lim_{h \to 0^+}\frac{-h^2 + 4h}{h} = \lim_{h \to 0^+}(-h + 4) = 4$.
 
-Since $4 = 4$, $F$ **is differentiable** at $x = 2$With $F'(2) = 4 = f(2)$.
+Since $4 = 4$, $F$ **is differentiable** at $x = 2$ With $F'(2) = 4 = f(2)$.
 
 (c) The student is **incorrect**. Although $f$ has a corner at $x = 2$ ($f$ changes from slope $+2$
 to slope $-2$), $f$ is continuous at $x = 2$ ($f(2^-) = 4 = f(2^+)$). By FTC part 1, since $f$ is

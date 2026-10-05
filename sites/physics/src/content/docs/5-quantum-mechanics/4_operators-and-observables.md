@@ -75,7 +75,7 @@ $$
 (a - b)\langle b|a\rangle = 0
 $$
 
-Since $a \neq b$We must have $\langle b|a\rangle = 0$. $\blacksquare$
+Since $a \neq b$ We must have $\langle b|a\rangle = 0$. $\blacksquare$
 
 **Theorem 4.2 (Spectral Theorem).** Every Hermitian operator on a finite-dimensional Hilbert space
 Has a complete orthonormal set of eigenvectors. In infinite dimensions, this holds for Self-adjoint
@@ -175,7 +175,7 @@ $$
 \langle A \rangle = \langle \psi | \hat{A} | \psi \rangle = \int \psi^* \hat{A} \psi\, dx
 $$
 
-**Theorem 4.6 (Ehrenfest"s Theorem).** Quantum expectation values obey classical equations of
+**Theorem 4.6 (Ehrenfest's Theorem).** Quantum expectation values obey classical equations of
 motion:
 
 $$
@@ -195,7 +195,7 @@ $$
 \frac{d\langle \hat{x} \rangle}{dt} = \frac{i}{\hbar}\!\left\langle\left[\frac{\hat{p}^2}{2m}, \hat{x}\right]\right\rangle = \frac{i}{\hbar}\cdot\frac{-2i\hbar}{2m}\langle\hat{p}\rangle = \frac{\langle\hat{p}\rangle}{m}
 $$
 
-For $\hat{A} = \hat{p}$Using $[V(\hat{x}), \hat{p}] = i\hbar\,V'(\hat{x})$:
+For $\hat{A} = \hat{p}$ Using $[V(\hat{x}), \hat{p}] = i\hbar\,V'(\hat{x})$:
 
 $$
 \frac{d\langle \hat{p} \rangle}{dt} = \frac{i}{\hbar}\langle[V(\hat{x}), \hat{p}]\rangle = -\left\langle\frac{\partial V}{\partial x}\right\rangle
@@ -211,7 +211,7 @@ For large systems.
 
 ### 4.6 Solving Eigenvalue Equations
 
-To find the eigenvalues and eigenvectors of an operator $\hat{A}$Solve:
+To find the eigenvalues and eigenvectors of an operator $\hat{A}$ Solve:
 
 $$
 \hat{A}|\phi\rangle = a|\phi\rangle \implies \det(\hat{A} - a\hat{I}) = 0

@@ -116,12 +116,12 @@ Monatomic ideal gas, energy is stored only as translational kinetic energy (3 de
 In water, energy can be stored in translational, rotational, and vibrational modes, as well as in
 Hydrogen bonds between molecules. More modes mean more energy is needed to raise the temperature.
 
-For solids, the Dulong-Petit law gives a rough estimate: $c \approx \frac{3R}{M}$Where $M$ is the
+For solids, the Dulong-Petit law gives a rough estimate: $c \approx \frac{3R}{M}$ Where $M$ is the
 Molar mass. This predicts about $25\mathrm{ J/(mol K)$ for many solids at room temperature.
 
-### Water"s High Specific Heat Capacity
+### Water's High Specific Heat Capacity
 
-Water has $c = 4180\mathrm{ J/(kg K)$Which is exceptionally high. This is because:
+Water has $c = 4180\mathrm{ J/(kg K)$ Which is exceptionally high. This is because:
 
 - Water molecules have three translational, three rotational, and vibrational degrees of freedom.
 - Hydrogen bonding between molecules absorbs additional energy as the bonds stretch and deform.
@@ -700,7 +700,7 @@ $$
 Entropy $S$ is a thermodynamic state function that quantifies the degree of disorder or the number
 Of microscopic configurations (microstates) corresponding to a given macroscopic state.
 
-For a reversible process at temperature $T$The entropy change is:
+For a reversible process at temperature $T$ The entropy change is:
 
 $$
 \Delta S = \frac{Q}{T}
@@ -720,8 +720,8 @@ $$
 \Delta S = \frac{-Q}{T_H} + \frac{Q}{T_C} = Q\left(\frac{1}{T_C} - \frac{1}{T_H}\right)
 $$
 
-Since $T_C \lt T_H$We have $1/T_C \gt 1/T_H$ So $\Delta S \gt 0$. The reverse (heat flowing from Cold
-to hot) would give $\Delta S \lt 0$Violating the second law. This is why heat spontaneously Flows
+Since $T_C \lt T_H$ We have $1/T_C \gt 1/T_H$ So $\Delta S \gt 0$. The reverse (heat flowing from Cold
+to hot) would give $\Delta S \lt 0$ Violating the second law. This is why heat spontaneously Flows
 only from hot to cold.
 
 ### Third Law of Thermodynamics
@@ -804,7 +804,7 @@ $$
 Where $\sigma = 5.67 \times 10^{-8}\mathrm{ W m^{-2}\mathrm{ K^{-4}$ is the Stefan-Boltzmann
 constant, $A$ is the surface area, and $T$ is the absolute temperature in kelvin.
 
-The power radiated is proportional to $T^4$Which means small temperature increases at high
+The power radiated is proportional to $T^4$ Which means small temperature increases at high
 Temperatures produce enormous increases in radiated power. This is why stars are so luminous.
 
 For a real body (not a perfect black body), the emissivity $\varepsilon$ (between 0 and 1) accounts
@@ -845,7 +845,7 @@ This is in the visible (green-yellow) region, consistent with the Sun appearing 
 
 ### Net Radiation Power
 
-When a body at temperature $T$ is surrounded by an environment at temperature $T_0$The net power
+When a body at temperature $T$ is surrounded by an environment at temperature $T_0$ The net power
 Radiated is:
 
 $$

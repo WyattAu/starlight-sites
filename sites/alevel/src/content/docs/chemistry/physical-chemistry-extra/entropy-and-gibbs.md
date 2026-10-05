@@ -73,7 +73,7 @@ Lower temperature produces a larger entropy change than at a higher temperature.
 ### Standard Entropy Values ($S^\circ$)
 
 Standard entropies are **absolute values** (not relative to a reference, unlike enthalpy). At
-$0\,\mathrm{K}$A perfect crystal has $S = 0$ (third law of thermodynamics). Standard entropies are
+$0\,\mathrm{K}$ A perfect crystal has $S = 0$ (third law of thermodynamics). Standard entropies are
 Always positive.
 
 Typical values ($\mathrm{J\,mol^{-1}\,K^{-1}}$):
@@ -214,7 +214,7 @@ $$
 \Delta G^\circ = -92000 - 298 \times (-199) = -92000 + 59302 = -32698\,\mathrm{J/mol} = -32.7\,\mathrm{kJ/mol}
 $$
 
-Since $\Delta G^\circ \lt 0$The reaction is spontaneous at $298\,\mathrm{K}$ (but kinetically
+Since $\Delta G^\circ \lt 0$ The reaction is spontaneous at $298\,\mathrm{K}$ (but kinetically
 Extremely slow without a catalyst).
 
 $$
@@ -274,7 +274,7 @@ $= \Delta H^\circ$ (at $T = 0$).
 - The x-intercept ($\Delta G^\circ = 0$) gives the equilibrium temperature.
 
 **Important caveat:** This linear extrapolation assumes that $\Delta H^\circ$ and $\Delta S^\circ$
-Are independent of temperature (Kirchhoff"s approximation). This is a reasonable approximation over
+Are independent of temperature (Kirchhoff's approximation). This is a reasonable approximation over
 Small temperature ranges but fails over large ranges where heat capacities change significantly.
 
 ### Non-Standard Conditions: $\Delta G$ vs $\Delta G^\circ$
@@ -289,7 +289,7 @@ $$
 Where $Q$ is the reaction quotient (the same expression as $K$ but with current, non-equilibrium
 Concentrations or partial pressures).
 
-At equilibrium, $Q = K$ and $\Delta G = 0$Recovering $\Delta G^\circ = -RT\ln K$.
+At equilibrium, $Q = K$ and $\Delta G = 0$ Recovering $\Delta G^\circ = -RT\ln K$.
 
 ## Industrial Applications
 
@@ -305,7 +305,7 @@ Chatelier's principle and the Gibbs equation:
 - **Low temperature** favours the forward reaction (exothermic). But low temperature gives a slow
   rate.
 - **High pressure** favours the forward reaction (fewer gas moles on the product side).
-- **Compromise:** $450^\circ\mathrm{C}$, $200\,\mathrm{atm}$With an iron catalyst.
+- **Compromise:** $450^\circ\mathrm{C}$, $200\,\mathrm{atm}$ With an iron catalyst.
 
 ### The Contact Process
 
@@ -329,7 +329,7 @@ Moles of gas products, but the solid is consumed). At the blast furnace temperat
 
 ## Common Pitfalls
 
-1. **Unit mismatch in the Gibbs equation.** $\Delta H$ is in $\mathrm{kJ/mol}$While $\Delta S$ is in
+1. **Unit mismatch in the Gibbs equation.** $\Delta H$ is in $\mathrm{kJ/mol}$ While $\Delta S$ is in
    $\mathrm{J\,mol^{-1}\,K^{-1}}$. Always convert to consistent units before combining: either
    convert $\Delta H$ to $\mathrm{J/mol}$ or $\Delta S$ to $\mathrm{kJ\,mol^{-1}\,K^{-1}}$.
 
@@ -378,7 +378,7 @@ $$
 T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{131000}{134} = 978\,\mathrm{K} = 705^\circ\mathrm{C}
 $$
 
-Above $978\,\mathrm{K}$The reaction becomes spontaneous.
+Above $978\,\mathrm{K}$ The reaction becomes spontaneous.
 
 (c) At $1000\,\mathrm{K}$:
 
@@ -413,7 +413,7 @@ T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{6010}{22.0} = 273\,\mathrm{K} 
 $$
 
 (b) Although $\Delta H^\circ \gt 0$ (endothermic), $\Delta S^\circ \gt 0$ (entropy increases). At
-Temperatures above $273\,\mathrm{K}$The $T\Delta S$ term exceeds $\Delta H$Making $\Delta G \lt 0$.
+Temperatures above $273\,\mathrm{K}$ The $T\Delta S$ term exceeds $\Delta H$ Making $\Delta G \lt 0$.
 The entropy gain from the increased disorder of the liquid phase more than Compensates for the
 enthalpy cost of breaking the hydrogen-bonded lattice.
 
@@ -466,7 +466,7 @@ For vaporisation: $\Delta S_\mathrm{vap} = \Delta H_\mathrm{vap} / T_\mathrm{boi
 
 Trouton's rule: $\Delta S_\mathrm{vap} \approx 85\,\mathrm{J\,mol^{-1}\,K^{-1}}$ for most non-polar
 liquids. Deviations indicate hydrogen bonding (e.g. Water:
-$\Delta S_\mathrm{vap} = 109\,\mathrm{J\,mol^{-1}\,K^{-1}}$Due to extra ordering in the liquid from
+$\Delta S_\mathrm{vap} = 109\,\mathrm{J\,mol^{-1}\,K^{-1}}$ Due to extra ordering in the liquid from
 H-bonds).
 
 ### Entropy of Mixing
@@ -599,7 +599,7 @@ $$
 K = \exp\left(\frac{-\Delta G^\circ}{RT}\right) = \exp\left(\frac{3000}{8.314 \times 1000}\right) = \exp(0.361) = 1.43
 $$
 
-$K > 1$Confirming that products are favoured.
+$K > 1$ Confirming that products are favoured.
 
 ### Problem: Using Gibbs Energy to Predict Decomposition
 
@@ -626,7 +626,7 @@ When two ideal gases mix, the entropy always increases because there are more wa
 molecules in the larger volume.
 
 **Worked Example:** $1.0\,\mathrm{mol}$ of $\mathrm{He}$ and $1.0\,\mathrm{mol}$ of
-$\mathrm{Ne}$Both initially in separate $10.0\,\mathrm{dm}^3$ containers at $298\,\mathrm{K}$Are
+$\mathrm{Ne}$ Both initially in separate $10.0\,\mathrm{dm}^3$ containers at $298\,\mathrm{K}$ Are
 allowed to mix in a combined volume of $20.0\,\mathrm{dm}^3$. Calculate $\Delta S_\text{mix}$.
 
 $$
@@ -645,7 +645,7 @@ $$
 
 ### Phase Transitions and Entropy
 
-At a phase transition, the system is at equilibrium so $\Delta G = 0$Giving:
+At a phase transition, the system is at equilibrium so $\Delta G = 0$ Giving:
 
 $$
 \Delta S_\text{transition} = \frac{\Delta H_\text{transition}}{T_\text{transition}}
@@ -697,7 +697,7 @@ $$
 $$
 
 This strongly exergonic reaction drives many endergonic processes in cells. If a reaction requires
-$+20\,\mathrm{kJ/mol}$Coupling with ATP hydrolysis gives:
+$+20\,\mathrm{kJ/mol}$ Coupling with ATP hydrolysis gives:
 
 $$
 \Delta G_\text{overall} = +20.0 + (-30.5) = -10.5\,\mathrm{kJ/mol}
@@ -705,13 +705,13 @@ $$
 
 ### Gibbs Energy and Equilibrium: Quantitative Treatment
 
-The relationship between $\Delta G$The reaction quotient $Q$ And the equilibrium constant $K$:
+The relationship between $\Delta G$ The reaction quotient $Q$ And the equilibrium constant $K$:
 
 $$
 \Delta G = \Delta G^\circ + RT\ln Q
 $$
 
-At equilibrium, $\Delta G = 0$ and $Q = K$Giving:
+At equilibrium, $\Delta G = 0$ and $Q = K$ Giving:
 
 $$
 \Delta G^\circ = -RT\ln K
@@ -837,8 +837,8 @@ $$
 $\Delta S^\circ = [213 + 2(70)] - [186 + 2(205)] = 353 - 596 = -243\,\mathrm{J\,mol^{-1}\,K^{-1}}$
 (2 marks).
 
-Since $\Delta H < 0$ and $\Delta S < 0$The reaction is feasible only when
-$\Delta G = \Delta H - T\Delta S < 0$I.e. When
+Since $\Delta H < 0$ and $\Delta S < 0$ The reaction is feasible only when
+$\Delta G = \Delta H - T\Delta S < 0$ I.e. When
 $T < |\Delta H / \Delta S| = 890000/243 = 3663\,\mathrm{K}$ (2 marks).
 
 The claim is **correct in practice** (combustion is feasible at all reasonable temperatures), but

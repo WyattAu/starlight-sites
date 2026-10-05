@@ -76,7 +76,7 @@ The **lattice enthalpy** $\Delta H_\mathrm{lat}$ is the enthalpy change when one
 compound is formed from its gaseous ions under standard conditions. It is always exothermic
 (negative).
 
-Born-Haber cycles apply Hess"s Law to determine lattice enthalpies indirectly, since they cannot be
+Born-Haber cycles apply Hess's Law to determine lattice enthalpies indirectly, since they cannot be
 measured directly. The cycle for $\mathrm{NaCl}$ is:
 
 $$
@@ -126,7 +126,7 @@ density maximum between the bonded atoms.
 ### Sigma ($\sigma$) and Pi ($\pi$) Bonds
 
 A **sigma bond** is formed by end-on (head-on) overlap of atomic orbitals along the internuclear
-axis. Sigma bonds can arise from $s$-$s$, $s$-$p$Or $p$-$p$ overlap. All single bonds are sigma
+axis. Sigma bonds can arise from $s$-$s$, $s$-$p$ Or $p$-$p$ overlap. All single bonds are sigma
 bonds.
 
 A **pi bond** is formed by sideways overlap of parallel $p$ orbitals above and below the
@@ -237,12 +237,12 @@ hydrogen bonds.
 ### Hydrogen Bonding
 
 Hydrogen bonding is a special, strong type of dipole-dipole interaction that occurs when hydrogen is
-covalently bonded to a highly electronegative atom ($\mathrm{N}$, $\mathrm{O}$Or $\mathrm{F}$). The
+covalently bonded to a highly electronegative atom ($\mathrm{N}$, $\mathrm{O}$ Or $\mathrm{F}$). The
 conditions are:
 
-1. Hydrogen bonded to $\mathrm{N}$, $\mathrm{O}$Or $\mathrm{F}$.
+1. Hydrogen bonded to $\mathrm{N}$, $\mathrm{O}$ Or $\mathrm{F}$.
 2. The hydrogen has a large partial positive charge ($\delta^+$).
-3. A lone pair on a nearby $\mathrm{N}$, $\mathrm{O}$Or $\mathrm{F}$ atom interacts with the
+3. A lone pair on a nearby $\mathrm{N}$, $\mathrm{O}$ Or $\mathrm{F}$ atom interacts with the
    $\delta^+$ hydrogen.
 
 Hydrogen bonds are approximately 10-40 kJ/mol, compared with 2-5 kJ/mol for typical dipole-dipole
@@ -290,8 +290,8 @@ that atom than bonding pairs, which are shared between two atoms.
 
 ### Why $\mathrm{NH}_3$ is $107^\circ$ and $\mathrm{H}_2\mathrm{O}$ is $104.5^\circ$
 
-Both have four electron domains (tetrahedral electron pair geometry). In $\mathrm{NH}_3$One lone
-pair compresses the H-N-H angle from $109.5^\circ$ to $107^\circ$. In $\mathrm{H}_2\mathrm{O}$Two
+Both have four electron domains (tetrahedral electron pair geometry). In $\mathrm{NH}_3$ One lone
+pair compresses the H-N-H angle from $109.5^\circ$ to $107^\circ$. In $\mathrm{H}_2\mathrm{O}$ Two
 lone pairs exert greater compression, reducing the H-O-H angle further to $104.5^\circ$.
 
 ## Giant Covalent Structures
@@ -529,7 +529,7 @@ Requirements for hydrogen bonding:
 1. H bonded to N, O, or F.
 2. A lone pair on N, O, or F on the neighbouring molecule.
 
-Hydrogen bonds are $5$--$40\,\mathrm{kJ/mol}$Compared with $0.1$--$5\,\mathrm{kJ/mol}$ for
+Hydrogen bonds are $5$--$40\,\mathrm{kJ/mol}$ Compared with $0.1$--$5\,\mathrm{kJ/mol}$ for
 dipole-dipole and London forces.
 
 **Effects of hydrogen bonding:**
@@ -666,8 +666,8 @@ silicon atoms, forming a giant covalent structure similar to diamond.
 Lone pairs occupy more space than bonding pairs because they are held by only one nucleus and spread
 out more. This compresses the bond angles:
 
-- $\mathrm{NH}_3$: ideal tetrahedral $109.5^\circ$Actual $107^\circ$ (one lone pair compresses)
-- $\mathrm{H}_2\mathrm{O}$: ideal tetrahedral $109.5^\circ$Actual $104.5^\circ$ (two lone pairs
+- $\mathrm{NH}_3$: ideal tetrahedral $109.5^\circ$ Actual $107^\circ$ (one lone pair compresses)
+- $\mathrm{H}_2\mathrm{O}$: ideal tetrahedral $109.5^\circ$ Actual $104.5^\circ$ (two lone pairs
   compress more)
 - $\mathrm{CH}_4$: exactly $109.5^\circ$ (no lone pairs)
 
@@ -697,7 +697,7 @@ angle is less than $120^\circ$ due to lone pair repulsion.
 <summary>Problem 4</summary>
 
 Explain why $\mathrm{SiO}_2$ has a very high melting point ($\approx 1700^\circ\mathrm{C}$) while
-$\mathrm{CO}_2$ sublimes at $-78^\circ\mathrm{C}$Despite both containing group 4 elements bonded to
+$\mathrm{CO}_2$ sublimes at $-78^\circ\mathrm{C}$ Despite both containing group 4 elements bonded to
 oxygen.
 
 **Solution:**

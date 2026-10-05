@@ -171,7 +171,7 @@ $$
 
 **Theorem 3 (n+1 Rule):** A signal is split into $n + 1$ peaks by $n$ equivalent neighboring protons.
 
-The splitting pattern follows Pascal"s triangle:
+The splitting pattern follows Pascal's triangle:
 
 | $n$ (neighbors) | Splitting | Peak Ratio |
 | --------------- | --------- | ---------- |
@@ -204,9 +204,9 @@ arise:
 
 ### 3.6 $^{13}\text{C}$ NMR
 
-**Definition 3 ($^{13}$C NMR):** $^{13}\text{C}$ has $I = 1/2$ but only 1.1% natural abundance. Features:
+**Definition 3 ($^{13}$ C NMR):** $^{13}\text{C}$ has $I = 1/2$ but only 1.1% natural abundance. Features:
 
-- Broadband proton decoupling: all $^1$H–$^{13}$C couplings removed; one signal per unique carbon.
+- Broadband proton decoupling: all $^1$ H–$^{13}$ C couplings removed; one signal per unique carbon.
 - DEPT (Distortionless Enhancement by Polarization Transfer): distinguishes CH, CH$_2$, CH$_3$, and
   quaternary carbons.
 - Chemical shift range: 0–220 ppm.
@@ -225,13 +225,13 @@ arise:
 
 ### 3.7 2D NMR Techniques
 
-**Definition 4 (COSY, Correlation Spectroscopy):** Reveals $^1$H–$^1$H coupling relationships.
+**Definition 4 (COSY, Correlation Spectroscopy):** Reveals $^1$ H–$^1$ H coupling relationships.
 Cross-peaks indicate which protons are coupled.
 
-**Definition 5 (HSQC/HMQC):** Shows $^1$H–$^{13}$C one-bond correlations. Each proton signal correlates
+**Definition 5 (HSQC/HMQC):** Shows $^1$ H–$^{13}$ C one-bond correlations. Each proton signal correlates
 to the carbon it is directly bonded to.
 
-**Definition 6 (HMBC):** Shows $^1$H–$^{13}$C long-range correlations (2–3 bonds). Useful for
+**Definition 6 (HMBC):** Shows $^1$ H–$^{13}$ C long-range correlations (2–3 bonds). Useful for
 connecting fragments through quaternary carbons.
 
 **Definition 7 (NOESY/ROESY):** Nuclear Overhauser Effect spectroscopy; reveals spatial proximity
@@ -311,8 +311,8 @@ weight; a molecule with an even number (or zero) of nitrogen atoms has an even m
 1. **Molecular formula** from HRMS (exact mass) or elemental analysis. Calculate degree of
    unsaturation.
 2. **IR** for functional groups (O–H, C=O, C≡N, C=C, etc.).
-3. **$^1$H NMR** for proton environments (chemical shifts, integration, splitting).
-4. **$^{13}$C NMR** for carbon framework (number of unique carbons, types).
+3. **$^1$ H NMR** for proton environments (chemical shifts, integration, splitting).
+4. **$^{13}$ C NMR** for carbon framework (number of unique carbons, types).
 5. **2D NMR** (COSY, HSQC, HMBC) for connectivity.
 6. **MS** fragmentation to confirm proposed structure.
 
@@ -338,7 +338,7 @@ DoU $= 7 + 1 - 8/2 = 4$.
 
 IR: 3350 cm$^{-1}$ (broad, O–H), 1600, 1500 cm$^{-1}$ (aromatic C=C), no C=O.
 
-$^1$H NMR: $\delta$ 7.1 (2H, d, $J = 8$ Hz), 6.7 (2H, d, $J = 8$ Hz), 4.5 (1H, br s), 2.2 (3H, s).
+$^1$ H NMR: $\delta$ 7.1 (2H, d, $J = 8$ Hz), 6.7 (2H, d, $J = 8$ Hz), 4.5 (1H, br s), 2.2 (3H, s).
 
 Interpretation: Para-disubstituted benzene (AA'BB' pattern, 4H). Methyl group ($\delta$ 2.2). OH
 ($\delta$ 4.5, broad). Structure: 4-methylphenol ($p$-cresol).
@@ -382,9 +382,9 @@ flowchart TD
 - **UV-Vis:** $\lambda_{\max}$ depends on conjugation; Beer-Lambert law for quantitation.
 - **IR:** Functional group identification; fingerprint region for comparison; O–H, C=O, C≡N are
   most diagnostic.
-- **$^1$H NMR:** Chemical shift (environment), splitting ($n + 1$ rule), integration (number of protons),
+- **$^1$ H NMR:** Chemical shift (environment), splitting ($n + 1$ rule), integration (number of protons),
   coupling constant $J$ (geometry).
-- **$^{13}$C NMR:** Carbon framework; DEPT distinguishes CH$_n$ types; chemical shifts 0–220 ppm.
+- **$^{13}$ C NMR:** Carbon framework; DEPT distinguishes CH$_n$ types; chemical shifts 0–220 ppm.
 - **2D NMR:** COSY (H–H connectivity), HSQC (one-bond H–C), HMBC (long-range H–C), NOESY (spatial).
 - **MS:** Molecular weight, formula (HRMS), fragmentation patterns, isotopic patterns.
 - **Structure elucidation:** Combine all techniques systematically with DoU calculation.

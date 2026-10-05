@@ -30,7 +30,7 @@ $f(z) = u(x, y) + iv(x, y)$ where $z = x + iy$ and $u, v$ are real-valued functi
 
 ### 2.2 Limits and Continuity
 
-The limit $\lim_{z \to z_0} f(z) = L$ means: for every $\varepsilon \gt 0$There exists
+The limit $\lim_{z \to z_0} f(z) = L$ means: for every $\varepsilon \gt 0$ There exists
 $\delta \gt 0$ Such that $0 \lt |z - z_0| \lt \delta$ implies $|f(z) - L| \lt \varepsilon$.
 
 Unlike the real case, $z$ can approach $z_0$ from any direction in $\mathbb{C}$. This makes limits
@@ -48,7 +48,7 @@ $L = a + bi$.
 **Problem.** Show that $\lim_{z \to 0} \frac{\bar{z}}{z}$ does not exist.
 
 Let $z = re^{i\theta}$. Then $\frac{\bar{z}}{z} = e^{-2i\theta}$. As $z \to 0$ along different Rays
-($\theta = 0, \pi/2, \pi/4$Etc.), the ratio takes different values ($1, -1, -i$Etc.). Since the
+($\theta = 0, \pi/2, \pi/4$ Etc.), the ratio takes different values ($1, -1, -i$ Etc.). Since the
 limit depends on the direction of approach, it does not exist.
 
 **Problem.** Determine whether $f(z) = \frac{z^2 - 1}{z - 1}$ is continuous at $z = 1$.
@@ -77,7 +77,7 @@ Makes complex differentiability far more restrictive than real differentiability
 $U \subseteq \mathbb{C}$ if $f$ is differentiable at every point of $U$. A function that is analytic
 On all of $\mathbb{C}$ is called **entire**.
 
-**Examples of entire functions:** $z^n$, $e^z$, $\sin z$, $\cos z$Polynomials.
+**Examples of entire functions:** $z^n$, $e^z$, $\sin z$, $\cos z$ Polynomials.
 
 **Example of a non-analytic function:** $f(z) = \bar{z}$ is nowhere differentiable (except at
 $z = 0$ if we define it, but still not analytic there).
@@ -111,7 +111,7 @@ Single-valued functions, we must restrict the domain.
 **Definition.** A **branch** of a multi-valued function $f$ is a single-valued analytic function $g$
 Defined on a domain $D$ such that $g(z) \in f(z)$ for all $z \in D$.
 
-**The Complex Logarithm.** We define $\log z = \ln|z| + i\arg(z)$Which is multi-valued because
+**The Complex Logarithm.** We define $\log z = \ln|z| + i\arg(z)$ Which is multi-valued because
 $\arg(z) = \mathrm{Arg}(z) + 2\pi k$ for $k \in \mathbb{Z}$. The **principal branch** is
 
 $$
@@ -129,7 +129,7 @@ $$
 z^\alpha = e^{\alpha \log z}
 $$
 
-This is multi-valued . When $\alpha$ is rational with reduced form $p/q$There are exactly $q$
+This is multi-valued . When $\alpha$ is rational with reduced form $p/q$ There are exactly $q$
 distinct values.
 
 <details>
@@ -154,7 +154,7 @@ $e^{i5\pi/4} = -\frac{\sqrt{2}}{2}(1 + i)$. These are the two square roots of $i
 $\mathrm{Log}\, w$ is analytic on $\mathbb{C} \setminus (-\infty, 0]$ So we need
 $z^2 + 1 \notin (-\infty, 0]$.
 
-$z^2 + 1 \leq 0$ when $z^2 \leq -1$I.e., $z \in [-i, 0] \cup [0, i]$ (the imaginary axis Segment
+$z^2 + 1 \leq 0$ when $z^2 \leq -1$ I.e., $z \in [-i, 0] \cup [0, i]$ (the imaginary axis Segment
 from $-i$ to $i$). Also $z^2 + 1 = 0$ at $z = \pm i$.
 
 Domain: $\mathbb{C} \setminus \{z : z = iy,\, y \in [-1, 1]\}$.

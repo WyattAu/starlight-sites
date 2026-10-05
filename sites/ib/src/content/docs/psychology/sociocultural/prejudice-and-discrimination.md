@@ -43,7 +43,7 @@ Prejudiced (acting on implicit biases).
 
 ### Social Identity Theory
 
-As discussed in [Social Identity Theory](/psychology/sociocultural/social-identity-theory/), Tajfel and Turner"s theory
+As discussed in [Social Identity Theory](/psychology/sociocultural/social-identity-theory/), Tajfel and Turner's theory
 Explains prejudice as a consequence of the need for positive social identity. People derive
 Self-esteem from their group memberships and maintain positive social identity by positively
 Differentiating their in-group from out-groups. This process leads to in-group favouritism and, in

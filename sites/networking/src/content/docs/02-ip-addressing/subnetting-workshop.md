@@ -153,7 +153,7 @@ Actual host requirement.
 | Office A   | 50    | 6 ($2^6 - 2 = 62$)              |
 | Office B   | 25    | 5 ($2^5 - 2 = 30$)              |
 | Management | 10    | 4 ($2^4 - 2 = 14$)              |
-| WAN 1      | 2     | 2 ($2^2 - 2 = 2$Or `/31` for 2) |
+| WAN 1      | 2     | 2 ($2^2 - 2 = 2$ Or `/31` for 2) |
 | WAN 2      | 2     | 2                               |
 | WAN 3      | 2     | 2                               |
 | WAN 4      | 2     | 2                               |

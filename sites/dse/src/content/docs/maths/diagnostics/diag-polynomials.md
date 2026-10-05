@@ -54,8 +54,8 @@ factor if $P(a) = 0$. Here the factor is $x + 2 = x - (-2)$ So we test $a = -2$.
 
 **Question:**
 
-When $P(x) = 2x^3 + ax^2 - 5x + 3$ is divided by $x - 2$The remainder is $11$. When $P(x)$ is
-divided by $x + 1$The remainder is $-4$. Find $a$ and $b$ (if $P(x)$ also has a constant term
+When $P(x) = 2x^3 + ax^2 - 5x + 3$ is divided by $x - 2$ The remainder is $11$. When $P(x)$ is
+divided by $x + 1$ The remainder is $-4$. Find $a$ and $b$ (if $P(x)$ also has a constant term
 correction $b$ replacing $3$), or find $a$.
 
 **Solution:**
@@ -114,7 +114,7 @@ X^2 - 2x + 3 & 2x^3 - 5x^2 + \phantom{0}x - 6 \\
 \end{array}
 $$
 
-Quotient: $2x - 1$Remainder: $-7x - 3$.
+Quotient: $2x - 1$ Remainder: $-7x - 3$.
 
 Verify: $(2x - 1)(x^2 - 2x + 3) + (-7x - 3)$
 
@@ -133,11 +133,11 @@ $= 2x^3 - 5x^2 + x - 6$. Correct.
 }
 </script>
 
-### UT-4: Vieta"s Formulas for Cubic
+### UT-4: Vieta's Formulas for Cubic
 
 **Question:**
 
-If $\alpha$, $\beta$, $\gamma$ are the roots of $x^3 - 5x^2 + 2x + 8 = 0$Find:
+If $\alpha$, $\beta$, $\gamma$ are the roots of $x^3 - 5x^2 + 2x + 8 = 0$ Find:
 
 (a) $\alpha + \beta + \gamma$ (b) $\alpha\beta + \beta\gamma + \gamma\alpha$ (c) $\alpha\beta\gamma$
 
@@ -331,11 +331,11 @@ $0$.
 
 **Question:**
 
-Given that $x - 1$$x + 2$ And $x - 3$ are factors of $P(x) = x^3 + ax^2 + bx + c$Find $a$$b$ And $c$.
+Given that $x - 1$$x + 2$ And $x - 3$ are factors of $P(x) = x^3 + ax^2 + bx + c$ Find $a$$b$ And $c$.
 
 **Solution:**
 
-Since $x - 1$$x + 2$ And $x - 3$ are all factors of the cubic $P(x)$We can write:
+Since $x - 1$$x + 2$ And $x - 3$ are all factors of the cubic $P(x)$ We can write:
 
 $$
 P(x) = (x - 1)(x + 2)(x - 3)
@@ -360,7 +360,7 @@ Therefore $a = -2$$b = -5$$c = 6$.
 
 **Question:**
 
-When $P(x) = x^3 + 2x^2 - 5x + 1$ is divided by $x^2 - x - 2$Find the quotient and remainder.
+When $P(x) = x^3 + 2x^2 - 5x + 1$ is divided by $x^2 - x - 2$ Find the quotient and remainder.
 
 **Solution:**
 
@@ -382,11 +382,11 @@ Remainder $= 7$.
 
 For the quotient: $P(x) - 7 = x^3 + 2x^2 - 5x - 6$.
 
-Dividing by $x^2 - x - 2$: the leading term is $x$Giving $x(x^2 - x - 2) = x^3 - x^2 - 2x$.
+Dividing by $x^2 - x - 2$: the leading term is $x$ Giving $x(x^2 - x - 2) = x^3 - x^2 - 2x$.
 
 $P(x) - 7 - x(x^2 - x - 2) = 3x^2 - 3x - 6 = 3(x^2 - x - 2)$.
 
-So $Q(x) = x + 3$Remainder $= 7$.
+So $Q(x) = x + 3$ Remainder $= 7$.
 
 ---
 
@@ -448,7 +448,7 @@ $P(x) = (x - 3)(2x^2 + 5x + 2) = (x - 3)(2x + 1)(x + 2)$.
 
 **Question:**
 
-If $\alpha$$\beta$$\gamma$ are the roots of $2x^3 - 3x^2 + 4x - 5 = 0$Find
+If $\alpha$$\beta$$\gamma$ are the roots of $2x^3 - 3x^2 + 4x - 5 = 0$ Find
 $\dfrac{1}{\alpha} + \dfrac{1}{\beta} + \dfrac{1}{\gamma}$.
 
 **Solution:**
@@ -539,7 +539,7 @@ Correct.
 
 **Question:**
 
-If $\alpha$ and $\beta$ are the roots of $2x^2 + 3x - 4 = 0$Find the equation whose roots are
+If $\alpha$ and $\beta$ are the roots of $2x^2 + 3x - 4 = 0$ Find the equation whose roots are
 $\dfrac{1}{\alpha^2}$ and $\dfrac{1}{\beta^2}$.
 
 **Solution:**
@@ -562,7 +562,7 @@ $$
 \frac{1}{\alpha^2} \cdot \frac{1}{\beta^2} = \frac{1}{4}
 $$
 
-Required equation: $x^2 - \dfrac{25}{16}x + \dfrac{1}{4} = 0$I.e. $16x^2 - 25x + 4 = 0$.
+Required equation: $x^2 - \dfrac{25}{16}x + \dfrac{1}{4} = 0$ I.e. $16x^2 - 25x + 4 = 0$.
 
 ---
 
@@ -579,7 +579,7 @@ Required equation: $x^2 - \dfrac{25}{16}x + \dfrac{1}{4} = 0$I.e. $16x^2 - 25x +
 
 **Question:**
 
-For $P(x) = -x^4 + 4x^2 - 3$Find:
+For $P(x) = -x^4 + 4x^2 - 3$ Find:
 
 (a) The $x$-intercepts. (b) The $y$-intercept. (c) The maximum value of $P(x)$.
 
@@ -597,7 +597,7 @@ $x$-intercepts: $(-\sqrt{3}, 0), (-1, 0), (1, 0), (\sqrt{3}, 0)$.
 
 (c) Let $v = x^2 \geq 0$. $P(x) = -(v^2 - 4v + 3) = -(v - 2)^2 + 4 - 3 = -(v-2)^2 + 1$.
 
-Maximum is $1$ when $v = 2$I.e. $x^2 = 2$ So $x = \pm\sqrt{2}$.
+Maximum is $1$ when $v = 2$ I.e. $x^2 = 2$ So $x = \pm\sqrt{2}$.
 
 ---
 
@@ -631,22 +631,22 @@ flowchart TD
 
 ## Common Pitfalls
 
-1. **Testing the wrong value in the factor theorem.** For the factor $(x - a)$You must evaluate
-   $P(a)$Not $P(-a)$. For $(x + a)$Evaluate $P(-a)$. The sign is the most common source of error in
+1. **Testing the wrong value in the factor theorem.** For the factor $(x - a)$ You must evaluate
+   $P(a)$ Not $P(-a)$. For $(x + a)$ Evaluate $P(-a)$. The sign is the most common source of error in
    factor theorem problems.
 
 2. **Not verifying the factorisation.** After polynomial division, always expand the quotient times
    divisor plus remainder to verify you get back the original polynomial. This catches arithmetic
    errors.
 
-3. **Incorrect Vieta's sign conventions.** For $ax^3 + bx^2 + cx + d = 0$: sum of roots $= -b/a$Sum
-   of pairwise products $= c/a$Product $= -d/a$. The alternating signs are easy to confuse.
+3. **Incorrect Vieta's sign conventions.** For $ax^3 + bx^2 + cx + d = 0$: sum of roots $= -b/a$ Sum
+   of pairwise products $= c/a$ Product $= -d/a$. The alternating signs are easy to confuse.
 
 4. **Assuming a polynomial has rational roots.** Not all polynomials factorise with rational roots.
    If the rational root theorem yields no valid candidates, the polynomial may have irrational or
    complex roots.
 
-5. **Forgetting the degree of the remainder.** When dividing by a polynomial of degree $m$The
+5. **Forgetting the degree of the remainder.** When dividing by a polynomial of degree $m$ The
    remainder has degree less than $m$. Dividing by a quadratic gives a linear (or constant)
    remainder, not a quadratic one.
 
@@ -668,7 +668,7 @@ flowchart TD
 Let $P(x) = x^3 - 4x^2 + x + 6$.
 
 (a) Show that $(x + 1)$ is a factor of $P(x)$. (1 mark) (b) Hence factorise $P(x)$ completely. (3
-marks) (c) Solve $P(x) = 0$. (1 mark) (d) Sketch the graph of $y = P(x)$Indicating the
+marks) (c) Solve $P(x) = 0$. (1 mark) (d) Sketch the graph of $y = P(x)$ Indicating the
 $x$-intercepts and the $y$-intercept. (3 marks)
 
 **Solution:**
@@ -695,8 +695,8 @@ leading coefficient, so it goes from bottom-left to top-right, crossing the $x$-
 
 ### DSE-2
 
-When $P(x) = 2x^3 + px^2 + qx + 3$ is divided by $(x - 1)$The remainder is $6$. When divided by
-$(x + 2)$The remainder is $-15$.
+When $P(x) = 2x^3 + px^2 + qx + 3$ is divided by $(x - 1)$ The remainder is $6$. When divided by
+$(x + 2)$ The remainder is $-15$.
 
 (a) Find $p$ and $q$. (4 marks) (b) Find the remainder when $P(x)$ is divided by $(x - 2)(x + 1)$.
 (3 marks)

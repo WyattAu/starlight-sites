@@ -125,7 +125,7 @@ $\lfloor\sqrt{n}\rfloor$. If $n$ is composite, it has a factor $f \le \sqrt{n}$.
 Every such $f$ So it will find a divisor. If no divisor is found, $n$ has no factor $\le
 \sqrt{n}$,
 And therefore no factor at all (since if $n = a \times b$ with $a \gt \sqrt{n}$ Then
-$b \lt \sqrt{n}$Contradicting no divisor found). Hence $n$ is prime. $\blacksquare$
+$b \lt \sqrt{n}$ Contradicting no divisor found). Hence $n$ is prime. $\blacksquare$
 
 ## Data Structures (OL/HL)
 
@@ -220,7 +220,7 @@ print(f"Found at index: {result}")  # 3
 **Time complexity:** $O(n)$.
 
 **Proof of correctness.** The loop examines every element from index 0 to $n-1$. If the target is at
-Index $k$The loop reaches index $k$ and returns $k$. If the target is not in the array, the loop
+Index $k$ The loop reaches index $k$ and returns $k$. If the target is not in the array, the loop
 Completes without finding it and returns -1. $\blacksquare$
 
 ### Binary Search (HL)
@@ -482,7 +482,7 @@ def quick_sort(arr):
 
 ### Recursion in Detail (HL)
 
-**Euclid"s algorithm for GCD:**
+**Euclid's algorithm for GCD:**
 
 ```python
 def gcd(a, b):

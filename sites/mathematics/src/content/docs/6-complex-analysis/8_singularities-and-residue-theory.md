@@ -30,7 +30,7 @@ $z_0$).
    finite.
 3. **Essential singularity**: infinitely many non-zero $a_n$ with $n \lt 0$.
 
-**Proposition 8.1 (Riemann"s Removable Singularity Theorem).** If $f$ is bounded near $z_0$ Then
+**Proposition 8.1 (Riemann's Removable Singularity Theorem).** If $f$ is bounded near $z_0$ Then
 $z_0$ is a removable singularity.
 
 **Proposition 8.2.** $z_0$ is a pole of order $m$ if and only if $\lim_{z \to z_0} (z - z_0)^m f(z)$
@@ -134,7 +134,7 @@ $$
 \int_\gamma f(z)\, dz = 2\pi i \sum_{k=1}^{n} \mathrm{Res}(f, z_k)
 $$
 
-_Proof._ For each singularity $z_k$Draw a small circle $\gamma_k$ around it. By Cauchy's theorem
+_Proof._ For each singularity $z_k$ Draw a small circle $\gamma_k$ around it. By Cauchy's theorem
 Applied to the multiply connected region between $\gamma$ and the $\gamma_k$:
 
 $\int_\gamma f\, dz = \sum_{k=1}^n \int_{\gamma_k} f\, dz = \sum_{k=1}^n 2\pi i \cdot \mathrm{Res}(f, z_k)$.

@@ -48,7 +48,7 @@ description: "1. The oxidation state of an element in its standard state is (e.g
 = +7.
 
 (b) Cr in K$_2$Cr$_2$O$_7$: K = +1 (two K = +2), O = -2 (seven O = -14). Sum = 0:
-$+2 + 2\mathrm{Cr} + 7(-2) = 0$ So $2\mathrm{Cr} = +12$Cr = +6.
+$+2 + 2\mathrm{Cr} + 7(-2) = 0$ So $2\mathrm{Cr} = +12$ Cr = +6.
 
 (c) S in H$_2$SO$_4$: H = +1 (two H = +2), O = -2 (four O = -8). Sum = 0:
 $+2 + \mathrm{S} + 4(-2) = 0$ So S = +6.
@@ -203,7 +203,7 @@ $$
 2\mathrm{CrO}_4^{2-} + 6\mathrm{H}_2\mathrm{O} + \mathrm{Br}^- + 6\mathrm{OH}^- + 6e^- \to 2\mathrm{Cr(OH)}_3 + 8\mathrm{OH}^- + \mathrm{BrO}_3^- + 3\mathrm{H}_2\mathrm{O} + 6e^-
 $$
 
-Simplify (cancel 6 $e^-$Subtract common terms):
+Simplify (cancel 6 $e^-$ Subtract common terms):
 
 $$
 2\mathrm{CrO}_4^{2-} + 3\mathrm{H}_2\mathrm{O} + \mathrm{Br}^- \to 2\mathrm{Cr(OH)}_3 + 2\mathrm{OH}^- + \mathrm{BrO}_3^-
@@ -416,7 +416,7 @@ $$
 E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}} = 0.34 - (-0.76) = +1.10\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
+Since $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 Cell notation:
 $\mathrm{Zn}(s) \mid \mathrm{Zn}^{2+}(aq) \parallel \mathrm{Cu}^{2+}(aq) \mid \mathrm{Cu}(s)$
@@ -440,7 +440,7 @@ $$
 E^\circ_{\mathrm{cell}} = 0.77 - 0.54 = +0.23\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
+Since $E^\circ_{\mathrm{cell}} \gt 0$ The reaction is spontaneous.
 
 </details>
 
@@ -516,7 +516,7 @@ On the relative electrode potentials and concentrations (overpotential effects).
 The rules as stated.
 :::
 
-### Faraday"s Laws
+### Faraday's Laws
 
 **Faraday's First Law:** The amount of substance produced at an electrode is directly proportional
 To the quantity of charge passed.
@@ -798,13 +798,13 @@ Answer:
 (a) K = +1 (two K = +2). O = -2 (seven O = -14). $+2 + 2\mathrm{Cr} - 14 = 0$$2\mathrm{Cr} = +12$ Cr
 = +6.
 
-(b) H = +1 (two H = +2). $+2 + 2\mathrm{O} = 0$$2\mathrm{O} = -2$O = -1. (Hydrogen peroxide.)
+(b) H = +1 (two H = +2). $+2 + 2\mathrm{O} = 0$$2\mathrm{O} = -2$ O = -1. (Hydrogen peroxide.)
 
 (c) H = +1 (four H = +4). $+4 + \mathrm{N} = +1$ (charge of ion), N = -3.
 
-(d) O = -2 (four O = -8). $\mathrm{Mn} - 8 = -2$Mn = +6.
+(d) O = -2 (four O = -8). $\mathrm{Mn} - 8 = -2$ Mn = +6.
 
-(e) O = -2 (three O = -6). $\mathrm{S} - 6 = -2$S = +4.
+(e) O = -2 (three O = -6). $\mathrm{S} - 6 = -2$ S = +4.
 
 </details>
 
@@ -889,7 +889,7 @@ $$
 E^\circ_{\mathrm{cell}} = 0.77 - (-0.25) = +1.02\mathrm{ V}
 $$
 
-Since $E^\circ_{\mathrm{cell}} = +1.02\mathrm{ V} \gt 0$Ni will spontaneously reduce Fe$^{3+}$.
+Since $E^\circ_{\mathrm{cell}} = +1.02\mathrm{ V} \gt 0$ Ni will spontaneously reduce Fe$^{3+}$.
 
 </details>
 
@@ -954,7 +954,7 @@ A hydrogen-oxygen fuel cell (alkaline) operates at a constant current of $10.0\m
 (b) Calculate the mass of hydrogen consumed per hour.
 
 (c) If the fuel cell has an efficiency of 65% and $\Delta H$ for the reaction is
-$-286\mathrm{ kJ/mol}$Calculate the electrical energy output per hour.
+$-286\mathrm{ kJ/mol}$ Calculate the electrical energy output per hour.
 
 Answer:
 

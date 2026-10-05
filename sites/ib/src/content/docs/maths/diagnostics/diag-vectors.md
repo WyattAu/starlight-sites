@@ -144,7 +144,7 @@ Three points are given: $A(1, 0, 2)$, $B(3, 1, -1)$ And $C(2, 2, 3)$.
 **(b)** Find the perpendicular distance from the origin to $\Pi$.
 
 **(c)** A student computes $\overrightarrow{AB} \times \overrightarrow{AC}$ and gets
-$\begin{pmatrix} 3 \\ 3 \\ 3 \end{pmatrix}$Concluding the plane equation is $x + y + z = 3$.
+$\begin{pmatrix} 3 \\ 3 \\ 3 \end{pmatrix}$ Concluding the plane equation is $x + y + z = 3$.
 Identify the error.
 
 [Difficulty: hard. Tests plane from three points, normal vector computation, and point-to-plane
@@ -187,12 +187,12 @@ d = \frac{|7(0) - 5(0) + 3(0) - 13|}{\sqrt{49 + 25 + 9}} = \frac{13}{\sqrt{83}}
 $$
 
 **(c)** The student's cross product computation is wrong. The correct cross product is
-$\begin{pmatrix} 7 \\ -5 \\ 3 \end{pmatrix}$Not $\begin{pmatrix} 3 \\ 3 \\ 3 \end{pmatrix}$.
+$\begin{pmatrix} 7 \\ -5 \\ 3 \end{pmatrix}$ Not $\begin{pmatrix} 3 \\ 3 \\ 3 \end{pmatrix}$.
 Specifically:
 
-- The $x$-component: $1 \times 1 - (-3) \times 2 = 1 + 6 = 7$Not $3$.
-- The $y$-component: $-(2 \times 1 - (-3) \times 1) = -(2 + 3) = -5$Not $3$.
-- The $z$-component: $2 \times 2 - 1 \times 1 = 4 - 1 = 3$Which coincidentally matches.
+- The $x$-component: $1 \times 1 - (-3) \times 2 = 1 + 6 = 7$ Not $3$.
+- The $y$-component: $-(2 \times 1 - (-3) \times 1) = -(2 + 3) = -5$ Not $3$.
+- The $z$-component: $2 \times 2 - 1 \times 1 = 4 - 1 = 3$ Which coincidentally matches.
 
 ---
 
@@ -260,9 +260,9 @@ the parallelepiped they span has zero volume (it is flat). Therefore
 $[\overrightarrow{OA}, \overrightarrow{OB}, \overrightarrow{OC}] = 0$.
 
 Conversely, if the scalar triple product is zero, then
-$\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}) = 0$Which means $\mathbf{a}$ is perpendicular to
+$\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}) = 0$ Which means $\mathbf{a}$ is perpendicular to
 $\mathbf{b} \times \mathbf{c}$. Since $\mathbf{b} \times \mathbf{c}$ is perpendicular to the plane
-containing $\mathbf{b}$ and $\mathbf{c}$It follows that $\mathbf{a}$ lies in the same plane as
+containing $\mathbf{b}$ and $\mathbf{c}$ It follows that $\mathbf{a}$ lies in the same plane as
 $\mathbf{b}$ and $\mathbf{c}$. Hence the four points are coplanar.
 
 ---
@@ -330,7 +330,7 @@ $P'\!\left(\frac{41}{9}, \frac{11}{9}, \frac{23}{9}\right)$:
 Direction:
 $\begin{pmatrix} \frac{41}{9} - 1 \\ \frac{11}{9} - 3 \\ \frac{23}{9} + 1 \end{pmatrix} = \begin{pmatrix} \frac{32}{9} \\ -\frac{16}{9} \\ \frac{32}{9} \end{pmatrix} = \frac{16}{9}\begin{pmatrix} 2 \\ -1 \\ 2 \end{pmatrix}$
 
-This is parallel to $\mathbf{n} = \begin{pmatrix} 2 \\ -1 \\ 2 \end{pmatrix}$Confirming $PP'$ is
+This is parallel to $\mathbf{n} = \begin{pmatrix} 2 \\ -1 \\ 2 \end{pmatrix}$ Confirming $PP'$ is
 perpendicular to $\Pi$.
 
 Verify midpoint:

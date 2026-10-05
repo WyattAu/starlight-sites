@@ -52,7 +52,7 @@ Species diversity has two components:
 A community with high richness and high evenness has higher diversity than one with high richness
 But low evenness (where one or a few species dominate).
 
-### 1.3 Simpson"s Index of Diversity
+### 1.3 Simpson's Index of Diversity
 
 Simpson's Diversity Index ($D$) quantifies species diversity by accounting for both richness and
 Evenness:
@@ -277,7 +277,7 @@ The total number of possible genotypic combinations from meiosis and random fert
 ### 4.2 The Hardy-Weinberg Principle
 
 The Hardy-Weinberg equilibrium describes a theoretical population in which allele frequencies do not
-Change from generation to generation. For a gene with two alleles, $A$ and $a$With frequencies $p$
+Change from generation to generation. For a gene with two alleles, $A$ and $a$ With frequencies $p$
 And $q$:
 
 $$
@@ -458,7 +458,7 @@ $$
 
 Where $O$ = observed frequency and $E$ = expected frequency under H-W.
 
-Degrees of freedom for a gene with $n$ alleles: $\mathrm{df} = \frac{n(n+1)}{2} - 1 - k$Where $k$ is
+Degrees of freedom for a gene with $n$ alleles: $\mathrm{df} = \frac{n(n+1)}{2} - 1 - k$ Where $k$ is
 The number of allele frequencies estimated from the data. For a two-allele system where both $p$ and
 $q$ Are estimated: $\mathrm{df} = 3 - 1 - 1 = 1$.
 
@@ -473,11 +473,11 @@ $q = 1 - 0.62 = 0.38$
 
 Step 2: Calculate expected frequencies.
 
-$AA$: $p^2 = 0.3844$Expected $= 384.4$
+$AA$: $p^2 = 0.3844$ Expected $= 384.4$
 
-$Aa$: $2pq = 0.4712$Expected $= 471.2$
+$Aa$: $2pq = 0.4712$ Expected $= 471.2$
 
-$aa$: $q^2 = 0.1444$Expected $= 144.4$
+$aa$: $q^2 = 0.1444$ Expected $= 144.4$
 
 Step 3: Calculate $\chi^2$.
 
@@ -495,7 +495,7 @@ $$
 
 Degrees of freedom $= 1$. Critical value at $p = 0.05$ for 1 df is $3.84$.
 
-Since $\chi^2 = 22.84 \gg 3.84$We reject the null hypothesis. The population is **not** in
+Since $\chi^2 = 22.84 \gg 3.84$ We reject the null hypothesis. The population is **not** in
 Hardy-Weinberg equilibrium. Possible explanations include non-random mating, selection against one
 Genotype, or population substructure (Wahlund effect).
 
@@ -689,7 +689,7 @@ $q = \frac{2(90) + 420}{2000} = \frac{600}{2000} = 0.30$.
 
 $\chi^2 = \frac{(490 - 490)^2}{490} + \frac{(420 - 420)^2}{420} + \frac{(90 - 90)^2}{90} = 0$.
 
-Degrees of freedom $= 1$. Since $\chi^2 = 0 < 3.84$The population is in perfect Hardy-Weinberg
+Degrees of freedom $= 1$. Since $\chi^2 = 0 < 3.84$ The population is in perfect Hardy-Weinberg
 Equilibrium. No evolutionary forces are detectably acting on this gene.
 
 (c) Not applicable in this case -- the population is in equilibrium. However, if the chi-squared
@@ -1513,7 +1513,7 @@ $\chi^2 = 14.5 + 0.47 + 12.2 + 12.7 + 0.41 + 10.7 = 50.98$
 
 Degrees of freedom $= (\text{rows} - 1) \times (\text{columns} - 1) = 1 \times 2 = 2$.
 
-Critical value at $p = 0.05$ with 2 df = 5.99. Since $50.98 > 5.99$We reject the null hypothesis:
+Critical value at $p = 0.05$ with 2 df = 5.99. Since $50.98 > 5.99$ We reject the null hypothesis:
 there is a significant association between species distribution and soil pH.
 
 ## 24. The Hardy-Weinberg Principle: Extended Analysis
@@ -1691,7 +1691,7 @@ $$
 
 Degrees of freedom $= 18$. Critical value at $p = 0.05$ with 18 df $= 2.101$.
 
-Since $3.27 > 2.101$We reject the null hypothesis: there is a statistically significant difference
+Since $3.27 > 2.101$ We reject the null hypothesis: there is a statistically significant difference
 in soil pH between the two fields.
 
 ## 27. Evidence for Evolution

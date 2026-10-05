@@ -179,12 +179,12 @@ Some ions consist of more than one atom bonded covalently but carrying an overal
 | Hydrogencarbonate | HCO$_3^-$   | $1-$   |
 
 When writing formulae with polyatomic ions, use brackets if more than one of the polyatomic ion is
-Needed: Ca(NO$_3$)$_2$Not CaNO$\_3$2.
+Needed: Ca(NO$_3$)$_2$ Not CaNO$\_3$2.
 
 ### 1.6 Derivation: Why Ionic Compounds Have High Melting Points
 
 The melting point of an ionic compound depends on the strength of the electrostatic forces between
-Ions, given by Coulomb"s law:
+Ions, given by Coulomb's law:
 
 $$
 F \propto \frac{q_1 \cdot q_2}{r^2}
@@ -829,7 +829,7 @@ Draw dot-cross diagrams for (a) magnesium oxide ($\mathrm{MgO$) and (b) carbon d
 <details>
 <summary>Answer</summary>
 
-(a) $\mathrm{MgO$: $\mathrm{Mg$ donates 2 electrons (shown as x) to $\mathrm{O$Forming
+(a) $\mathrm{MgO$: $\mathrm{Mg$ donates 2 electrons (shown as x) to $\mathrm{O$ Forming
 $\mathrm{Mg^{2+}$ and $\mathrm{O^{2-}$. The diagram shows the oxide ion with 8 electrons (6 of its
 own + 2 from Mg) and the magnesium ion with none in its outer shell.
 

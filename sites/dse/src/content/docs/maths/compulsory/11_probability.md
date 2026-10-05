@@ -120,7 +120,7 @@ $$
 \end{aligned}
 $$
 
-By Axiom 2, $P(S) = 1$ So $1 = 1 + P(\emptyset)$Hence $P(\emptyset) = 0$. $\square$
+By Axiom 2, $P(S) = 1$ So $1 = 1 + P(\emptyset)$ Hence $P(\emptyset) = 0$. $\square$
 
 **Theorem 2.** $P(A') = 1 - P(A)$.
 
@@ -149,8 +149,8 @@ By Axiom 1, $P(B \cap A') \geq 0$ So $P(B) \geq P(A)$. $\square$
 
 **Corollary.** $0 \leq P(A) \leq 1$ for any event $A$.
 
-_Proof._ Since $\emptyset \subseteq A \subseteq S$Theorem 3 gives
-$P(\emptyset) \leq P(A) \leq P(S)$I.e., $0 \leq P(A) \leq 1$. $\square$
+_Proof._ Since $\emptyset \subseteq A \subseteq S$ Theorem 3 gives
+$P(\emptyset) \leq P(A) \leq P(S)$ I.e., $0 \leq P(A) \leq 1$. $\square$
 
 </details>
 <summary>Example</summary>
@@ -197,10 +197,10 @@ Counted once in $P(A)$ and once in $P(B)$ So we subtract one copy.
 
 ### Mutually Exclusive Events
 
-Two events $A$ and $B$ are **mutually exclusive** (disjoint) if $A \cap B = \emptyset$I.e., they
+Two events $A$ and $B$ are **mutually exclusive** (disjoint) if $A \cap B = \emptyset$ I.e., they
 Cannot occur simultaneously.
 
-When $A \cap B = \emptyset$The general addition rule reduces to:
+When $A \cap B = \emptyset$ The general addition rule reduces to:
 
 $$
 \begin{aligned}
@@ -329,7 +329,7 @@ A fair die is rolled. Given that the result is even, find the probability that i
 - $A \cap B = \\{6\\}$ So $P(A \cap B) = \frac{1}{6}$.
 - $P(A \mid B) = \frac{1/6}{1/2} = \frac{1}{3}$.
 
-Verification by shrinking: within $\\{2, 4, 6\\}$Only $6$ is greater than $4$ So $\frac{1}{3}$.
+Verification by shrinking: within $\\{2, 4, 6\\}$ Only $6$ is greater than $4$ So $\frac{1}{3}$.
 $\checkmark$
 
 ### Fundamental Properties
@@ -545,7 +545,7 @@ $$
 \end{aligned}
 $$
 
-_Proof._ Since the $B_i$ partition $S$The events $A \cap B_1, A \cap B_2, \ldots, A \cap B_n$ are
+_Proof._ Since the $B_i$ partition $S$ The events $A \cap B_1, A \cap B_2, \ldots, A \cap B_n$ are
 Pairwise mutually exclusive and their union equals $A$. By Axiom 3:
 
 $$
@@ -657,7 +657,7 @@ $\checkmark$
 - $P(\mathrm{same colour}) = \frac{12}{30} + \frac{2}{30} = \frac{14}{30} = \frac{7}{15}$.
 - $P(\mathrm{different colours}) = \frac{8}{30} + \frac{8}{30} = \frac{16}{30} = \frac{8}{15}$.
 
-Note: $P(\mathrm{same}) + P(\mathrm{different}) = 1$As expected since these events are Complements.
+Note: $P(\mathrm{same}) + P(\mathrm{different}) = 1$ As expected since these events are Complements.
 
 ### Connection to Multiplication and Addition Rules
 
@@ -856,7 +856,7 @@ $$
 Check independence:
 $P(A) \cdot P(B) = \frac{1}{3} \times \frac{1}{4} = \frac{1}{12} \neq \frac{1}{6} = P(A \cap B)$.
 
-Since $P(A \cap B) \neq P(A) \cdot P(B)$The events are **not** independent.
+Since $P(A \cap B) \neq P(A) \cdot P(B)$ The events are **not** independent.
 
 1. **Question:** A box contains 5 red, 3 green, and 2 blue marbles. Three marbles are drawn without
 Replacement. Find the probability that all three are the same colour.
@@ -938,7 +938,7 @@ $$
 
 For comparison, the unconditional probability: $P(A) = \frac{5}{36}$ (pairs
 $(2,6), (3,5), (4,4), (5,3), (6,2)$). Conditioning on the first die being $\geq$ 3 eliminates
-$(2,6)$Reducing the count from 5 to 4.
+$(2,6)$ Reducing the count from 5 to 4.
 
 1. **Question:** $A$$B$ And $C$ are three events with $P(A) = P(B) = P(C) = \frac{1}{3}$
 $P(A \cap B) = P(A \cap C) = P(B \cap C) = \frac{1}{6}$ And $P(A \cap B \cap C) = \frac{1}{12}$. Find

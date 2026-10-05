@@ -50,7 +50,7 @@ $$
 i\hbar\frac{\partial\hat{\rho}}{\partial t} = [\hat{H}, \hat{\rho}]
 $$
 
-This is the quantum analogue of Liouville"s equation. For a closed system, the von Neumann
+This is the quantum analogue of Liouville's equation. For a closed system, the von Neumann
 entropy is constant (unitary evolution preserves eigenvalues of $\hat{\rho}$).
 
 ### 18.2 Quantum Ideal Gases: General Treatment

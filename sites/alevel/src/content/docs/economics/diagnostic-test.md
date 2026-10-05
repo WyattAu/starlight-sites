@@ -37,7 +37,7 @@ Spending the third hour on Economics (increasing $h_E$ from 2 to 3)?
 <summary>Answer</summary>
 At $h_E = 2$: $E_E = 30\sqrt{2} \approx 42.4$, $h_M = 3$: $E_M = 20\sqrt{3} \approx 34.6$. Total = 77.0.<br />
 At $h_E = 3$: $E_E = 30\sqrt{3} \approx 51.96$, $h_M = 2$: $E_M = 20\sqrt{2} \approx 28.3$. Total = 80.3.<br />
-The third hour on Economics raises total marks from 77.0 to 80.3. The opportunity cost is the Maths marks forgone: $34.6 - 28.3 = 6.3$ marks. (Note: the marginal gain in Economics is $51.96 - 42.4 = 9.6$Net gain = 3.3.)
+The third hour on Economics raises total marks from 77.0 to 80.3. The opportunity cost is the Maths marks forgone: $34.6 - 28.3 = 6.3$ marks. (Note: the marginal gain in Economics is $51.96 - 42.4 = 9.6$ Net gain = 3.3.)
 <i>Revision: [The Economic Problem](/economics/microeconomics/01-the-economic-problem/)</i>
 </details>
 
@@ -55,7 +55,7 @@ Opportunity cost of food increasing, constant, or decreasing? Prove your answer.
 
 <details>
 <summary>Answer</summary>
-$\frac{dC}{dF} = -\frac{2F}{50} = -\frac{F}{25}$. The absolute value of the slope is $\frac{F}{25}$Which increases as $F$ increases. Therefore the opportunity cost of food (in terms of consumer goods) is **increasing**. At $F = 5$: OC = $5/25 = 0.2$. At $F = 25$: OC = $25/25 = 1.0$. The PPF is concave to the origin.
+$\frac{dC}{dF} = -\frac{2F}{50} = -\frac{F}{25}$. The absolute value of the slope is $\frac{F}{25}$ Which increases as $F$ increases. Therefore the opportunity cost of food (in terms of consumer goods) is **increasing**. At $F = 5$: OC = $5/25 = 0.2$. At $F = 25$: OC = $25/25 = 1.0$. The PPF is concave to the origin.
 <i>Revision: [The Economic Problem](/economics/microeconomics/01-the-economic-problem/)</i>
 </details>
 
@@ -81,7 +81,7 @@ The bus company's pricing strategy.
 <summary>Answer</summary>
 (a) $E_d = \frac{\%\Delta Q}{\%\Delta P} = -0.4$. $\%\Delta Q = -0.4 \times 10\% = -4\%$. Quantity demanded falls by 4%.<br />
 (b) Total revenue = $P \times Q$. New $TR = 1.10P \times 0.96Q = 1.056PQ$. Revenue rises by 5.6%.<br />
-Since $|E_d| = 0.4 \lt 1$Demand is **inelastic**. A price increase raises total revenue. The bus company should raise fares to maximise revenue (though this ignores welfare and equity considerations).
+Since $|E_d| = 0.4 \lt 1$ Demand is **inelastic**. A price increase raises total revenue. The bus company should raise fares to maximise revenue (though this ignores welfare and equity considerations).
 <i>Revision: [Demand, Supply, and Equilibrium](/economics/microeconomics/02-demand-supply-and-equilibrium/)</i>
 </details>
 
@@ -117,7 +117,7 @@ Reference to the characteristics of public goods and the concept of government f
 
 <details>
 <summary>Answer</summary>
-Public goods are **non-excludable** and **non-rivalrous** → free-rider problem → markets underprovide or fail to provide them. Government provision can solve this. However: (1) Not all goods are pure public goods, many are quasi-public (congestible). (2) Government failure: inefficiency due to lack of profit motive (X-inefficiency), information problems, political bias. (3) Some public goods can be provided privately (lighthouses were historically private, Coase, 1974). (4) Public-private partnerships may combine efficiency incentives with public goods provision. (5) The optimal level of public good provision is determined by Samuelson's condition: $\sum MRS = MRT$Which is difficult to implement in practice (preference revelation problem). Conclusion: government has a role but should consider efficiency, cost-benefit analysis, and alternative provision mechanisms.
+Public goods are **non-excludable** and **non-rivalrous** → free-rider problem → markets underprovide or fail to provide them. Government provision can solve this. However: (1) Not all goods are pure public goods, many are quasi-public (congestible). (2) Government failure: inefficiency due to lack of profit motive (X-inefficiency), information problems, political bias. (3) Some public goods can be provided privately (lighthouses were historically private, Coase, 1974). (4) Public-private partnerships may combine efficiency incentives with public goods provision. (5) The optimal level of public good provision is determined by Samuelson's condition: $\sum MRS = MRT$ Which is difficult to implement in practice (preference revelation problem). Conclusion: government has a role but should consider efficiency, cost-benefit analysis, and alternative provision mechanisms.
 <i>Revision: [Market Failure](/economics/microeconomics/03-market-failure/)</i>
 </details>
 
@@ -132,7 +132,7 @@ Cost. Explain the relationship between MC and AC.
 (a) $AC = TC/Q = 100/Q + 10 + Q$. Minimise: $\frac{dAC}{dQ} = -100/Q^2 + 1 = 0 \Rightarrow Q^2 = 100 \Rightarrow Q = 10$.<br />
 (b) $AC(10) = 100/10 + 10 + 10 = 30$. Minimum average cost = £30.<br />
 (c) $MC = dTC/dQ = 10 + 2Q$. Set $MC = AC$: $10 + 2Q = 100/Q + 10 + Q \Rightarrow 2Q = 100/Q + Q \Rightarrow Q = 100/Q \Rightarrow Q^2 = 100 \Rightarrow Q = 10$.<br />
-**Relationship**: MC cuts AC at its minimum point. When $MC \lt AC$AC is falling. When $MC \gt AC$AC is rising. This is a mathematical identity: $\frac{dAC}{dQ} = \frac{MC - AC}{Q}$.
+**Relationship**: MC cuts AC at its minimum point. When $MC \lt AC$ AC is falling. When $MC \gt AC$ AC is rising. This is a mathematical identity: $\frac{dAC}{dQ} = \frac{MC - AC}{Q}$.
 <i>Revision: [Theory of the Firm](/economics/microeconomics/04-theory-of-the-firm/)</i>
 </details>
 
@@ -155,7 +155,7 @@ Market power?
 
 <details>
 <summary>Answer</summary>
-**Perfect competition**: Free entry and exit. If existing firms earn supernormal profit, new firms enter → market supply increases → price falls → profit is competed away. If firms make losses, some exit → supply decreases → price rises → remaining firms break even. Long-run equilibrium: $P = AC_{min}$Zero economic profit.<br />
+**Perfect competition**: Free entry and exit. If existing firms earn supernormal profit, new firms enter → market supply increases → price falls → profit is competed away. If firms make losses, some exit → supply decreases → price rises → remaining firms break even. Long-run equilibrium: $P = AC_{min}$ Zero economic profit.<br />
 **Monopolistic competition**: Despite product differentiation (downward-sloping demand), free entry and exit drive long-run profit to zero. If firms earn supernormal profit, new firms enter with similar but differentiated products → demand for each firm's product shifts left (consumers have more substitutes) → price falls until $P = AC$. The firm still produces where $MR = MC$ and charges $P \gt MC$ (some market power), but $P = AC$ (zero profit). Result: excess capacity, the firm produces less than the output that minimises AC.
 <i>Revision: [Theory of the Firm](/economics/microeconomics/04-theory-of-the-firm/)</i>
 </details>
@@ -231,7 +231,7 @@ Concepts of consumer surplus, deadweight loss, and dynamic efficiency.
 
 <details>
 <summary>Answer</summary>
-Static efficiency: monopoly charges $P \gt MC$Produces $Q \lt Q_c$Creates DWL, and reduces consumer surplus. By these measures, monopoly is worse.<br />
+Static efficiency: monopoly charges $P \gt MC$ Produces $Q \lt Q_c$ Creates DWL, and reduces consumer surplus. By these measures, monopoly is worse.<br />
 Dynamic efficiency: monopoly may invest more in R&D because (1) supernormal profits fund innovation, (2) the promise of monopoly power incentivises innovation (Schumpeter, 1942). If innovation creates new products or lowers costs, long-run consumer welfare may be higher under monopoly. Examples: pharmaceutical patents (high prices in short run, but new drugs developed).<br />
 Natural monopoly: where economies of scale are so large that one firm can supply the entire market at lowest cost (e.g., water, electricity grids). Competition would be wasteful (duplication of infrastructure). Regulation (price cap regulation, RPI-X) is needed rather than competition.<br />
 Conclusion: monopoly is statically inefficient but may be dynamically efficient and is appropriate for natural monopolies. Policy should regulate, not necessarily prevent, monopoly.
@@ -329,8 +329,8 @@ Imports induced by the spending increase.
 <details>
 <summary>Answer</summary>
 (a) $k = 1/(MPS + MPT + MPM) = 1/(0.4 + 0.2 + 0.15) = 1/0.75 = 1.333$.<br />
-(b) $\Delta Y = 1.333 \times 80 = £106.7$Bn.<br />
-(c) Imports increase by $MPM \times \Delta Y = 0.15 \times 106.7 = £16.0$Bn. This is the leakage abroad, a significant fraction of the stimulus benefits foreign economies, reducing the domestic multiplier.
+(b) $\Delta Y = 1.333 \times 80 = £106.7$ Bn.<br />
+(c) Imports increase by $MPM \times \Delta Y = 0.15 \times 106.7 = £16.0$ Bn. This is the leakage abroad, a significant fraction of the stimulus benefits foreign economies, reducing the domestic multiplier.
 <i>Revision: [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)</i>
 </details>
 
@@ -339,7 +339,7 @@ Imports induced by the spending increase.
 <details>
 <summary>Answer</summary>
 The paradox of thrift: if all households simultaneously increase saving (reduce consumption), AD falls → output falls (via multiplier) → total income falls → saving actually decreases. What is rational for the individual is collectively self-defeating. Formally: $\Delta S = MPS \times \Delta Y = MPS \times k \times \Delta C$. Since $k \gt 1$ and $\Delta C \lt 0$: $|\Delta S| \gt |\Delta C|$.<br />
-Conditions where it does NOT hold: (1) In a small open economy with a flexible exchange rate, increased saving reduces interest rates → currency depreciates → net exports rise → AD may not fall (the saving is channeled abroad and returns as export demand). (2) At full employment, if the economy is at $Y^*$Resources are reallocated from consumption to investment (Say's Law). (3) If saving finances productive investment (rather than hoarding), it may raise future output rather than reduce current output.
+Conditions where it does NOT hold: (1) In a small open economy with a flexible exchange rate, increased saving reduces interest rates → currency depreciates → net exports rise → AD may not fall (the saving is channeled abroad and returns as export demand). (2) At full employment, if the economy is at $Y^*$ Resources are reallocated from consumption to investment (Say's Law). (3) If saving finances productive investment (rather than hoarding), it may raise future output rather than reduce current output.
 <i>Revision: [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)</i>
 </details>
 
@@ -387,9 +387,9 @@ In the government's tax revenue (assuming the tax is proportional and GDP change
 
 <details>
 <summary>Answer</summary>
-(a) The tax increase reduces disposable income by £50bn. $\Delta C = MPC \times \Delta Y_D = 0.75 \times (-50) = -£37.5$Bn.<br />
-(b) $k = 1/(0.25 + 0.2 + 0.1) = 1/0.55 = 1.818$. $\Delta Y = k \times \Delta C_{initial} = 1.818 \times (-37.5) = -£68.2$Bn.<br />
-(c) The tax increase is £50bn. But GDP falls by £68.2bn, which reduces tax revenue by $MPT \times \Delta Y = 0.2 \times (-68.2) = -£13.6$Bn. So net revenue change $\approx 50 - 13.6 = £36.4$Bn. The actual revenue gain is less than the nominal tax increase because the contractionary effect reduces the tax base.
+(a) The tax increase reduces disposable income by £50bn. $\Delta C = MPC \times \Delta Y_D = 0.75 \times (-50) = -£37.5$ Bn.<br />
+(b) $k = 1/(0.25 + 0.2 + 0.1) = 1/0.55 = 1.818$. $\Delta Y = k \times \Delta C_{initial} = 1.818 \times (-37.5) = -£68.2$ Bn.<br />
+(c) The tax increase is £50bn. But GDP falls by £68.2bn, which reduces tax revenue by $MPT \times \Delta Y = 0.2 \times (-68.2) = -£13.6$ Bn. So net revenue change $\approx 50 - 13.6 = £36.4$ Bn. The actual revenue gain is less than the nominal tax increase because the contractionary effect reduces the tax base.
 <i>Revision: [Fiscal Policy](/economics/macro/04-fiscal-policy/)</i>
 </details>
 
@@ -593,8 +593,8 @@ per capita, (e) the current account balance.
 (e) Current account balance $= X - M = 280 - 310 = -\pounds 30\text{bn}$ (deficit).
 </details>
 
-**Q47.** The consumption function is $C = 150 + 0.75Y_d$Investment $I = 100$Government spending
-$G = 200$Taxes $T = 0.2Y$ And imports $M = 40 + 0.1Y$. Exports $X = 60$. Calculate: (a) the
+**Q47.** The consumption function is $C = 150 + 0.75Y_d$ Investment $I = 100$ Government spending
+$G = 200$ Taxes $T = 0.2Y$ And imports $M = 40 + 0.1Y$. Exports $X = 60$. Calculate: (a) the
 equilibrium level of income, (b) the government spending multiplier, (c) the tax multiplier, (d)
 whether the government budget is in surplus or deficit.
 
@@ -688,7 +688,7 @@ $w = 20 + 0.1(266.67) = 46.67$.
 At $L = 200$: $MRPL = 100 - 40 = 60$, $w = 40$. At $L = 266.67$: $MRPL = w = 46.67$. DWL
 $= \frac{1}{2}(60 - 46.67)(266.67 - 200) = \frac{1}{2}(13.33)(66.67) = 444.4$.
 
-(d) Minimum wage at $\pounds 50$: If $w = 50$The labour supply curve becomes horizontal at $w = 50$
+(d) Minimum wage at $\pounds 50$: If $w = 50$ The labour supply curve becomes horizontal at $w = 50$
 up to the point where the original supply curve equals 50: $50 = 20 + 0.1L \Rightarrow L = 300$. For
 $L \leq 300$: $MFCL = 50$ (horizontal supply means MFCL = wage). $MFCL = MRPL$:
 $50 = 100 - 0.2L \Rightarrow 0.2L = 50 \Rightarrow L = 250$. The monopsonist now hires 250 workers
@@ -776,8 +776,8 @@ the rest of the world (capital inflows of USD 170bn).
 
 </details>
 
-**Q54.** Using the Solow growth model, an economy has savings rate $s = 0.25$Depreciation
-$\delta = 0.05$Population growth $n = 0.02$ And production function $y = k^{0.5}$ (per worker).
+**Q54.** Using the Solow growth model, an economy has savings rate $s = 0.25$ Depreciation
+$\delta = 0.05$ Population growth $n = 0.02$ And production function $y = k^{0.5}$ (per worker).
 Calculate: (a) the steady-state capital per worker, (b) steady-state output per worker, (c)
 steady-state consumption per worker, (d) the golden rule savings rate.
 
@@ -802,7 +802,7 @@ saving too little -- consumption per worker could be higher if the savings rate 
 
 </details>
 
-**Q55.** A bond has a face value of $\pounds 100$Pays an annual coupon of $\pounds 4$ And has 3 years
+**Q55.** A bond has a face value of $\pounds 100$ Pays an annual coupon of $\pounds 4$ And has 3 years
 to maturity. Market interest rates are 5%. Calculate: (a) the current price of the bond, (b) the
 current yield, (c) the yield to maturity, (d) what happens to the price if market interest rates
 rise to 6%.
@@ -828,7 +828,7 @@ illustrates the inverse relationship between bond prices and interest rates.
 </details>
 
 **Q56.** The UK experiences a simultaneous increase in government spending and a decrease in
-consumer confidence. AD is initially $Y = 800 - 4P$SRAS is $Y = 2P + 200$. (a) Find the initial
+consumer confidence. AD is initially $Y = 800 - 4P$ SRAS is $Y = 2P + 200$. (a) Find the initial
 equilibrium. (b) Government spending increases by 50, shifting AD right. Consumer confidence falls,
 reducing autonomous consumption by 30, shifting AD left. Calculate the net shift in AD and the new
 equilibrium. (c) If potential output is 500, describe the output gap and appropriate policy

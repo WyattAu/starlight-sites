@@ -65,7 +65,7 @@ $$
 g = \frac{9.81}{16} = 0.613\,\text{m}\,\text{s}^{-2}
 $$
 
-(b) At depth $d = R_E/2$The distance from the centre is $r = R_E/2$.
+(b) At depth $d = R_E/2$ The distance from the centre is $r = R_E/2$.
 
 By the shell theorem, only the mass within radius $r$ contributes:
 
@@ -99,7 +99,7 @@ $$
 }
 </script>
 
-### UT-2: Kepler"s Third Law Application
+### UT-2: Kepler's Third Law Application
 
 **Question:**
 
@@ -128,7 +128,7 @@ $$
 = 7.66 \times (2.505)^{3/2} = 7.66 \times 3.965 = 30.4\,\text{hours}
 $$
 
-The accepted value is approximately $30.3\,\text{hours}$Confirming the calculation.
+The accepted value is approximately $30.3\,\text{hours}$ Confirming the calculation.
 
 (b) From Phobos:
 
@@ -402,7 +402,7 @@ $1 \times 10^{30} \times 27390 = 2.739 \times 10^{34}$. Consistent.
 
 **Question:**
 
-A spacecraft approaches Jupiter (mass $1.90 \times 10^{27}\,\text{kg}$Radius
+A spacecraft approaches Jupiter (mass $1.90 \times 10^{27}\,\text{kg}$ Radius
 $6.99 \times 10^7\,\text{m}$) with speed $8.0 \times 10^3\,\text{m}\,\text{s}^{-1}$ relative to
 Jupiter. The closest approach distance is $3.0 \times 10^8\,\text{m}$ from Jupiter's centre. Jupiter
 orbits the Sun at speed $1.31 \times 10^4\,\text{m}\,\text{s}^{-1}$.

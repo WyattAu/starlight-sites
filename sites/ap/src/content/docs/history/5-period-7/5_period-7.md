@@ -37,7 +37,7 @@ social justice.
   Lives_)
 - **Political reforms**: Initiative, referendum, recall, direct election of senators (17th
   Amendment, 1913), primary elections, commission and city manager forms of government
-- **Trust-busting**: Theodore Roosevelt"s "Square Deal"; Northern Securities Company case (1902);
+- **Trust-busting**: Theodore Roosevelt's "Square Deal"; Northern Securities Company case (1902);
   Elkins Act (1903) and Hepburn Act (1906) strengthened railroad regulation; William Howard Taft
   brought more antitrust suits than Roosevelt
 - **Conservation**: Roosevelt established national parks, forests, and monuments; Newlands

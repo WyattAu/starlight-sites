@@ -165,7 +165,7 @@ Averaging: $\tau_{n+1} = \alpha t_n + (1 - \alpha) \tau_n$.
 **Shortest Remaining Time First (SRTF).** Preemptive SJF. If a new process arrives with a shorter
 Remaining burst, preempt the current process.
 
-**Round Robin (RR).** Each process gets a time quantum $q$. If not finished within $q$Preempted and
+**Round Robin (RR).** Each process gets a time quantum $q$. If not finished within $q$ Preempted and
 Placed at the back of the ready queue. If $q$ is large, RR degenerates to FCFS. Typical $q$:
 $10\mathrm{--100}$ ms.
 
@@ -697,8 +697,8 @@ State.
 | $P_3$   | (2,1,1)    | (2,2,2) | (0,1,1) |
 | $P_4$   | (0,0,2)    | (4,3,3) | (4,3,1) |
 
-Safety check: $P_1$ has $\mathrm{Need} = (1,2,2) \leq (3,3,2) = A$. Execute $P_1$Release
-$(2,0,0)$New $A = (5,3,2)$. Then $P_3$: $\mathrm{Need} = (0,1,1) \leq (5,3,2)$. Continuing, All
+Safety check: $P_1$ has $\mathrm{Need} = (1,2,2) \leq (3,3,2) = A$. Execute $P_1$ Release
+$(2,0,0)$ New $A = (5,3,2)$. Then $P_3$: $\mathrm{Need} = (0,1,1) \leq (5,3,2)$. Continuing, All
 processes can complete: system is **safe**.
 
 <details>
@@ -809,7 +809,7 @@ The system is in an **unsafe state** with a deadlock involving $\{P_0, P_1, P_2\
 
 _Recovery:_ Preempt 3 units from $P_0$ (reducing its allocation to 2). Now Available = 4. $P_1$ can
 proceed ($\mathrm{Request_1} = 2 \leq 4$). After $P_1$ finishes, Available = $4 + 2 = 6$. $P_0$:
-$\mathrm{Request_0} = 4 \leq 6$Proceeds. After: Available = $6 + 5 = 11$. $P_2$ proceeds. Deadlock
+$\mathrm{Request_0} = 4 \leq 6$ Proceeds. After: Available = $6 + 5 = 11$. $P_2$ proceeds. Deadlock
 resolved.
 
 </details>
@@ -1704,7 +1704,7 @@ The scheduler triggers Ready → Running and Running → Ready (preemption). I/O
 <details>
 <summary>Problem 2, Kernel Architecture Trade-offs</summary>
 
-A microkernel-based OS adds 2 $\mu$S of message-passing overhead per system call compared to a
+A microkernel-based OS adds 2 $\mu$ S of message-passing overhead per system call compared to a
 Monolithic kernel. If a web server makes $10^6$ system calls per second, what is the total overhead
 As a fraction of CPU time on a 3 GHz processor?
 
@@ -1744,7 +1744,7 @@ Using the same processes as Problem 3, compute the schedule under non-preemptive
 
 **Solution.** (Revision: §2.4)
 
-At $t = 0$Only $P_1$ is available. $P_1$ runs 0--10. At $t = 10$, $P_2$ (burst 5) and $P_3$
+At $t = 0$ Only $P_1$ is available. $P_1$ runs 0--10. At $t = 10$, $P_2$ (burst 5) and $P_3$
 (burst 2) are both ready. SJF selects $P_3$ Then $P_2$.
 
 Gantt: $\lvert P_1(10) \rvert P_3(2) \rvert P_2(5) \rvert$ at times 0, 10, 12, 17.
@@ -1763,7 +1763,7 @@ Average waiting time improves from 7.33 to 6 compared to FCFS.
 <details>
 <summary>Problem 5, Round Robin Scheduling</summary>
 
-Using the processes from Problem 3 with quantum $q = 2$Draw the Gantt chart and compute the Average
+Using the processes from Problem 3 with quantum $q = 2$ Draw the Gantt chart and compute the Average
 turnaround time.
 
 **Solution.** (Revision: §2.4)
@@ -1888,13 +1888,13 @@ Second. Is deadlock possible? If so, identify the deadlocked set.
 **Solution.** (Revision: §4.1)
 
 Yes. If $P_0$ holds $R_0$ and requests $R_1$; $P_1$ holds $R_1$ and requests $R_2$; $P_2$ holds
-$R_2$ and requests $R_0$We have circular wait: $P_0 \to R_1 \to P_1 \to R_2 \to P_2 \to R_0
+$R_2$ and requests $R_0$ We have circular wait: $P_0 \to R_1 \to P_1 \to R_2 \to P_2 \to R_0
 \to P_0$.
 All four Coffman conditions hold (mutual exclusion, hold-and-wait, no preemption, Circular wait), so
 deadlock exists. The deadlocked set is $\{P_0, P_1, P_2\}$.
 
 If instead $P_0$ holds $R_0$ and requests $R_2$; $P_1$ holds $R_1$ and requests $R_0$; $P_2$ holds
-$R_2$ and requests $R_1$The same circular wait exists.
+$R_2$ and requests $R_1$ The same circular wait exists.
 
 </details>
 
@@ -1976,7 +1976,7 @@ _TLB hit, no fault_ ($0.90 \times 0.999$): $2 + 100 = 102$ ns. _TLB miss, no fau
 ($0.001$): $2 + 100 + 100 + 6 \times 10^6 = 6000002$ ns.
 
 $\mathrm{EAT} = 0.8991 \times 102 + 0.0999 \times 202 + 0.001 \times 6000002$
-$= 91.71 + 20.18 + 6000.20 = 6112.09$ ns $\approx 6.11$ $\mu$S.
+$= 91.71 + 20.18 + 6000.20 = 6112.09$ ns $\approx 6.11$ $\mu$ S.
 
 </details>
 
@@ -2102,7 +2102,7 @@ Of 8 pages is added?
 **Solution.** (Revision: §5.8)
 
 Without $P_4$: total working set = $15 + 12 + 18 = 45 \gt 40$. Thrashing occurs. Only two Processes
-can run concurrently (e.g., $P_1 + P_2 = 27 \leq 40$Or $P_2 + P_3 = 30 \leq 40$).
+can run concurrently (e.g., $P_1 + P_2 = 27 \leq 40$ Or $P_2 + P_3 = 30 \leq 40$).
 
 With $P_4$: total = $15 + 12 + 18 + 8 = 53 \gt 40$. Even worse. Using working set admission, we
 Would run at most two processes. The best combination that fits is $P_1 + P_3 = 33$ or

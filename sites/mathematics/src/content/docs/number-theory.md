@@ -24,14 +24,14 @@ categories:
 
 ### 1.1 The Division Algorithm
 
-**Theorem 1.1 (Division Algorithm).** For any integers $a$ and $b$ with $b > 0$There exist unique
+**Theorem 1.1 (Division Algorithm).** For any integers $a$ and $b$ with $b > 0$ There exist unique
 Integers $q$ and $r$ such that $a = bq + r$ with $0 \leq r \lt b$.
 
 _Proof._ Consider the set $S = \\{a - bk : k \in \mathbb{Z},\ a - bk \geq 0\\}$. This set is
 non-empty (by the Archimedean property, choosing $k$ sufficiently negative). By the well-ordering
 principle, $S$ has a least element $r = a - bq$. If $r \geq b$ Then $r - b = a - (q+1)b \in S$ with
-$r - b \lt r$Contradicting minimality. So $0 \leq r \lt b$. For uniqueness, if
-$a = bq_1 + r_1 = bq_2 + r_2$ Then $b(q_1 - q_2) = r_2 - r_1$. Since $|r_2 - r_1| \lt b$We must Have
+$r - b \lt r$ Contradicting minimality. So $0 \leq r \lt b$. For uniqueness, if
+$a = bq_1 + r_1 = bq_2 + r_2$ Then $b(q_1 - q_2) = r_2 - r_1$. Since $|r_2 - r_1| \lt b$ We must Have
 $q_1 = q_2$ and $r_1 = r_2$. $\blacksquare$
 
 ### 1.2 Divisibility
@@ -58,7 +58,7 @@ $0 \mid a$ Then $a = 0 \cdot k = 0$. $\blacksquare$
 <summary>Solution</summary>
 
 We compute $237 \div 14 = 16.93\ldots$ So $14 \cdot 16 = 224$ and $14 \cdot 17 = 238 > 237$. Thus for
-positive $237$: $q = 16$, $r = 13$Giving $237 = 14 \cdot 16 + 13$.
+positive $237$: $q = 16$, $r = 13$ Giving $237 = 14 \cdot 16 + 13$.
 
 For $a = -237$: we need $q$ such that $r = -237 - 14q$ satisfies $0 \leq r \lt 14$.
 $-237 = 14(-17) + 1$: check $14 \cdot (-17) = -238$ And $-238 + 1 = -237$. Here $q = -17$ and $r = 1$
@@ -71,9 +71,9 @@ with $0 \leq 1 \lt 14$. $\blacksquare$
 <details>
 <summary>Solution</summary>
 
-From $n \equiv 3 \pmod{7}$We have $n = 7k + 3$ for some $k \in \mathbb{Z}$. Substituting into
-$n \equiv 2 \pmod{5}$: $7k + 3 \equiv 2 \pmod{5}$ So $7k \equiv -1 \equiv 4 \pmod{5}$Giving
-$2k \equiv 4 \pmod{5}$Hence $k \equiv 2 \pmod{5}$.
+From $n \equiv 3 \pmod{7}$ We have $n = 7k + 3$ for some $k \in \mathbb{Z}$. Substituting into
+$n \equiv 2 \pmod{5}$: $7k + 3 \equiv 2 \pmod{5}$ So $7k \equiv -1 \equiv 4 \pmod{5}$ Giving
+$2k \equiv 4 \pmod{5}$ Hence $k \equiv 2 \pmod{5}$.
 
 So $k = 5m + 2$ And $n = 7(5m + 2) + 3 = 35m + 17$. The solutions are $n \equiv 17 \pmod{35}$.
 $\blacksquare$
@@ -82,14 +82,14 @@ $\blacksquare$
 
 ### 1.4 Uniqueness of the Greatest Common Divisor
 
-**Theorem 1.3.** Let $a, b \in \mathbb{Z}$Not both zero. The greatest common divisor of $a$ and $b$
+**Theorem 1.3.** Let $a, b \in \mathbb{Z}$ Not both zero. The greatest common divisor of $a$ and $b$
 Exists and is unique.
 
 _Proof._ The set $D = \\{d \in \mathbb{N} : d \mid a \mathrm{\ and\ } d \mid b\\}"$ is non-empty since $|a| \in D$ (if $a \neq 0$) or $|b| \in D$ (if $b \neq 0$). By the well-ordering principle, $D$ has A least element $g$. We claim $g = \gcd(a, b)$. By definition $g \mid a$ and $g \mid b$. If $c \mid a$ And $c \mid b$ Then $c \leq |c| \leq g$ (since $g$ is the least positive common divisor). For Uniqueness: if $g_1$ and $g_2$ are both greatest common divisors, then $g_1 \mid g_2$ and $g_2 \mid g_1$ So $g_1 = g_2$ (since both are positive). $\blacksquare$
 
 ### 1.5 Least Common Multiple
 
-**Definition.** The **least common multiple** of positive integers $a$ and $b$Written $\mathrm{lcm}(a, b)$Is the smallest positive integer $m$ such that $a \mid m$ and $b \mid m$.
+**Definition.** The **least common multiple** of positive integers $a$ and $b$ Written $\mathrm{lcm}(a, b)$ Is the smallest positive integer $m$ such that $a \mid m$ and $b \mid m$.
 
 **Theorem 1.4 (GCD--LCM Identity).** For all positive integers $a$ and $b$:
 
@@ -97,7 +97,7 @@ $$
 \gcd(a, b) \cdot \mathrm{lcm}(a, b) = ab
 $$
 
-_Proof._ Write $a = \prod_{i=1}^k p_i^{\alpha_i}$ and $b = \prod_{i=1}^k p_i^{\beta_i}$ where $\alpha_i, \beta_i \geq 0$. Then $\gcd(a, b) = \prod_{i=1}^k p_i^{\min(\alpha_i, \beta_i)}$ and $\mathrm{lcm}(a, b) = \prod_{i=1}^k p_i^{\max(\alpha_i, \beta_i)}$. Since $\min(\alpha_i, \beta_i) + \max(\alpha_i, \beta_i) = \alpha_i + \beta_i$ for each $i$We have:
+_Proof._ Write $a = \prod_{i=1}^k p_i^{\alpha_i}$ and $b = \prod_{i=1}^k p_i^{\beta_i}$ where $\alpha_i, \beta_i \geq 0$. Then $\gcd(a, b) = \prod_{i=1}^k p_i^{\min(\alpha_i, \beta_i)}$ and $\mathrm{lcm}(a, b) = \prod_{i=1}^k p_i^{\max(\alpha_i, \beta_i)}$. Since $\min(\alpha_i, \beta_i) + \max(\alpha_i, \beta_i) = \alpha_i + \beta_i$ for each $i$ We have:
 
 $$
 \gcd(a,b) \cdot \mathrm{lcm}(a,b) = \prod_{i=1}^k p_i^{\alpha_i + \beta_i} = ab \qquad \blacksquare
@@ -119,7 +119,7 @@ First, $\gcd(252, 105)$. Using the Euclidean algorithm: $252 = 2 \cdot 105 + 42$
 
 By the identity: $\mathrm{lcm}(252, 105) = 252 \cdot 105 / 21 = 252 \cdot 5 = 1260$.
 
-Verification: $1260 / 252 = 5$ and $1260 / 105 = 12$Both integers. $\blacksquare$
+Verification: $1260 / 252 = 5$ and $1260 / 105 = 12$ Both integers. $\blacksquare$
 
 </details>
 

@@ -48,7 +48,7 @@ This is **SUVAT equation 1**. We now derive the remaining four.
 
 **Equation 2: $s = ut + \tfrac{1}{2}at^2$**
 
-Since $v = \dfrac{ds}{dt} = u + at$Integrate:
+Since $v = \dfrac{ds}{dt} = u + at$ Integrate:
 
 $$
 \int_0^s ds = \int_0^t (u + at)\,dt \implies s = ut + \frac{1}{2}at^2
@@ -64,7 +64,7 @@ $$
 
 **Equation 4: $v^2 = u^2 + 2as$**
 
-From $v = u + at$Square both sides:
+From $v = u + at$ Square both sides:
 
 $$
 v^2 = (u + at)^2 = u^2 + 2uat + a^2t^2
@@ -137,7 +137,7 @@ multi-stage kinematics Problems.
 
 ### 2.1 The acceleration due to gravity
 
-Near the Earth"s surface, all objects in free fall (neglecting air resistance) experience the same
+Near the Earth's surface, all objects in free fall (neglecting air resistance) experience the same
 Acceleration $g$. The standard value is:
 
 $$
@@ -188,7 +188,7 @@ $$
 The negative sign confirms downward motion. Speed $= 16.3\;\mathrm{m\,s^{-1}}$ (3 s.f.).
 
 :::note
-$-2 = 15t - 4.9t^2$Giving $t \approx 3.15\;\mathrm{s}$. This is **not** $2 \times t_{\mathrm{max}}$
+$-2 = 15t - 4.9t^2$ Giving $t \approx 3.15\;\mathrm{s}$. This is **not** $2 \times t_{\mathrm{max}}$
 Because the ball was thrown from a height, not from ground level.
 :::
 
@@ -260,7 +260,7 @@ $$
 R = \frac{u^2\sin 2\theta}{g}
 $$
 
-**Maximum range** occurs when $\sin 2\theta = 1$I.e. $\theta = 45^\circ$Giving
+**Maximum range** occurs when $\sin 2\theta = 1$ I.e. $\theta = 45^\circ$ Giving
 $R_{\max} = \dfrac{u^2}{g}$.
 
 ### 3.5 Proof that complementary angles give the same range
@@ -273,7 +273,7 @@ Therefore $R(\theta_1) = R(\theta_2)$.
 ### 3.6 Worked example
 
 **Problem.** A cricketer hits a ball at $25\;\mathrm{m\,s^{-1}}$ at $35^\circ$ above the horizontal
-From a height of $1.5\;\mathrm{m}$. Taking $g = 9.8\;\mathrm{m\,s^{-2}}$Find the horizontal distance
+From a height of $1.5\;\mathrm{m}$. Taking $g = 9.8\;\mathrm{m\,s^{-2}}$ Find the horizontal distance
 Travelled before the ball hits the ground.
 
 $u_x = 25\cos 35^\circ \approx 20.48\;\mathrm{m\,s^{-1}}$
@@ -495,7 +495,7 @@ $$
 ### Problem 2
 
 A projectile is launched from ground level at $30\;\mathrm{m\,s^{-1}}$ at $60^\circ$ to the
-horizontal. Taking $g = 9.8\;\mathrm{m\,s^{-2}}$Find the maximum height and the range.
+horizontal. Taking $g = 9.8\;\mathrm{m\,s^{-2}}$ Find the maximum height and the range.
 
 <details>
 <summary>Solution</summary>
@@ -512,7 +512,7 @@ $$
 
 ### Problem 3
 
-A particle moves with acceleration $a = 12t\;\mathrm{m\,s^{-2}}$. At $t = 0$It is at rest at the
+A particle moves with acceleration $a = 12t\;\mathrm{m\,s^{-2}}$. At $t = 0$ It is at rest at the
 Origin. Find its displacement when $t = 3\;\mathrm{s}$.
 
 <details>
@@ -537,7 +537,7 @@ At $t = 3$: $s = 2(27) = 54\;\mathrm{m}$.
 ### Problem 4
 
 A stone is thrown horizontally at $8\;\mathrm{m\,s^{-1}}$ from the top of a cliff $60\;\mathrm{m}$
-high. Taking $g = 9.8\;\mathrm{m\,s^{-2}}$Find the horizontal distance from the base of the cliff
+high. Taking $g = 9.8\;\mathrm{m\,s^{-2}}$ Find the horizontal distance from the base of the cliff
 where the Stone lands, and the velocity (magnitude and direction) at impact.
 
 <details>

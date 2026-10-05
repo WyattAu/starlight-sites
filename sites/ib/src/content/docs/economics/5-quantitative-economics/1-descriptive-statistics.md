@@ -58,7 +58,7 @@ $$
 r \approx i - \pi^e
 $$
 
-If the nominal interest rate is $5\%$ and expected inflation is $2\%$The real interest rate is
+If the nominal interest rate is $5\%$ and expected inflation is $2\%$ The real interest rate is
 Approximately $3\%$.
 
 **Implications:**
@@ -165,7 +165,7 @@ $$
 
 Where $CF_t$ is the cash flow in period $t$ and $r$ is the discount rate.
 
-**Decision rule:** if NPV $> 0$The project is financially viable (the present value of benefits
+**Decision rule:** if NPV $> 0$ The project is financially viable (the present value of benefits
 Exceeds the present value of costs).
 
 ## Cost-Benefit Analysis (CBA)
@@ -401,8 +401,8 @@ $$
 
 ### Worked Example
 
-A country has: life expectancy $= 75$ years, mean years of schooling $= 10$Expected years of
-Schooling $= 14$GNI per capita (PPP) $= \text{USD }15000$.
+A country has: life expectancy $= 75$ years, mean years of schooling $= 10$ Expected years of
+Schooling $= 14$ GNI per capita (PPP) $= \text{USD }15000$.
 
 Health index $= \frac{75 - 20}{85 - 20} = \frac{55}{65} = 0.846$
 
@@ -725,7 +725,7 @@ $$
 - $L_2(r)$: speculative demand for money -- decreases with interest rates (higher rates increase the
   opportunity cost of holding money)
 
-**Equilibrium:** $M^s = M^d = L_1(Y) + L_2(r)$Where $M^s$ is the (exogenously fixed) money supply.
+**Equilibrium:** $M^s = M^d = L_1(Y) + L_2(r)$ Where $M^s$ is the (exogenously fixed) money supply.
 
 A higher level of output increases money demand, which (with a fixed money supply) requires a Higher
 interest rate to reduce speculative demand and restore equilibrium. Therefore, the LM curve Slopes
@@ -835,8 +835,8 @@ The social discount rate is $8\%$.
 (c) Recalculate the NPV using a discount rate of $12\%$. Is the decision sensitive to the discount
 Rate?
 
-(a) Net benefits each year: Year 0: $-500$Year 1: $+50$Year 2: $+100$Year 3: $+150$ Year 4:
-$+200$Year 5: $+250$.
+(a) Net benefits each year: Year 0: $-500$ Year 1: $+50$ Year 2: $+100$ Year 3: $+150$ Year 4:
+$+200$ Year 5: $+250$.
 
 $$
 \text{NPV} = -500 + \frac{50}{1.08} + \frac{100}{1.08^2} + \frac{150}{1.08^3} + \frac{200}{1.08^4} + \frac{250}{1.08^5}
@@ -866,7 +866,7 @@ $$
 \text{NPV} = -500 + 500.09 = \$0.09 \text{ million}
 $$
 
-At $12\%$The NPV is approximately zero (borderline). The decision is sensitive to the discount rate:
+At $12\%$ The NPV is approximately zero (borderline). The decision is sensitive to the discount rate:
 At $8\%$ the project is viable; at $12\%$ it barely breaks even. This highlights the Importance of
 sensitivity analysis in CBA.
 
@@ -929,7 +929,7 @@ $$
 G = 1 - [3 + 8 + 13 + 20 + 32] / 100 = 1 - 0.76 = 0.24
 $$
 
-The Gini coefficient falls from $0.40$ to $0.24$A significant reduction in inequality. This
+The Gini coefficient falls from $0.40$ to $0.24$ A significant reduction in inequality. This
 Demonstrates the powerful redistributive potential of targeted transfers.
 
 </details>
@@ -1072,7 +1072,7 @@ Output increased by only $88.9$).
 $Y = 1200 - 50(6.67) = 1200 - 333.3 = 866.7$
 
 Output increased from $811.1$ to $866.7$ (an increase of $55.6$). The interest rate fell from
-$7.78\%$ to $6.67\%$Stimulating investment. Monetary policy is effective but less powerful than
+$7.78\%$ to $6.67\%$ Stimulating investment. Monetary policy is effective but less powerful than
 Fiscal policy in this case (output increase of $55.6$ vs. $88.9$), because the LM curve is
 Relatively flat (responsive to output).
 
@@ -1373,7 +1373,7 @@ $$
 $$
 
 An increase in the proportional tax rate reduces equilibrium income. The effect is proportional to
-Current income $Y$Making it path-dependent.
+Current income $Y$ Making it path-dependent.
 
 ### Complete Worked Example
 
@@ -1412,7 +1412,7 @@ The Keynesian cross diagram plots:
 - **Vertical axis**: Aggregate Expenditure (AE) and output/income (Y)
 - **Horizontal axis**: Output/income (Y)
 - **45-degree line**: $AE = Y$ (equilibrium condition)
-- **AE line**: $\text{AE} = a + b(Y - T) + I + G + X - M$With slope $= b(1 - t) - m$
+- **AE line**: $\text{AE} = a + b(Y - T) + I + G + X - M$ With slope $= b(1 - t) - m$
 
 Equilibrium occurs at the intersection of the AE line and the 45-degree line.
 
@@ -1618,7 +1618,7 @@ $$
 \text{MR} = a - 2bQ
 $$
 
-TR is maximised where $\text{MR} = 0$I.e., at $Q = a/(2b)$ and $P = a/2$.
+TR is maximised where $\text{MR} = 0$ I.e., at $Q = a/(2b)$ and $P = a/2$.
 
 At this point, PED $= -1$ (unit elastic).
 
@@ -1983,7 +1983,7 @@ $$
 \text{GDI} = \left(\frac{\text{HDI}_f^{1-\epsilon} + \text{HDI}_m^{1-\epsilon}}{2}\right)^{\frac{1}{1-\epsilon}}
 $$
 
-Where $\epsilon$ is an aversion-to-inequality parameter. The UNDP uses $\epsilon = 2$Which Gives the
+Where $\epsilon$ is an aversion-to-inequality parameter. The UNDP uses $\epsilon = 2$ Which Gives the
 GDI as the harmonic mean of the male and female HDI values:
 
 $$
@@ -1995,7 +1995,7 @@ parity.
 
 **Worked example:**
 
-Country X has $\text{HDI}_f = 0.700$ and $\text{HDI}_m = 0.850$Overall $\text{HDI} = 0.780$.
+Country X has $\text{HDI}_f = 0.700$ and $\text{HDI}_m = 0.850$ Overall $\text{HDI} = 0.780$.
 
 $$
 \text{GDI} = \frac{2 \times 0.700 \times 0.850}{0.700 + 0.850} = \frac{1.190}{1.550} = 0.768
@@ -2219,7 +2219,7 @@ $= 5\,810 + 3\,889 = 9\,699$
 
 $\text{SD}(\text{NPV}) = \sqrt{9\,699} = \$98.5$ million
 
-The coefficient of variation $= 98.5/122.1 = 0.81$Indicating substantial risk relative to Expected
+The coefficient of variation $= 98.5/122.1 = 0.81$ Indicating substantial risk relative to Expected
 return.
 
 </details>
@@ -2454,7 +2454,7 @@ Where $k$ is the number of independent variables and $n$ is the sample size.
 An economist estimates the consumption function $C = \beta_0 + \beta_1 Y_d + \epsilon$ using The
 following data:
 
-| Observation | Disposable income ($Y_d$USD thousands) | Consumption ($C$USD thousands) |
+| Observation | Disposable income ($Y_d$ USD thousands) | Consumption ($C$ USD thousands) |
 | ----------- | -------------------------------------- | ------------------------------ |
 | 1           | 10                                     | 8                              |
 | 2           | 20                                     | 15                             |
@@ -2591,7 +2591,7 @@ $$
 t = \frac{\hat{\beta}_j - 0}{\text{SE}(\hat{\beta}_j)}
 $$
 
-If $|t| > t_{\text{critical}}$Reject $H_0: \beta_j = 0$ at the chosen significance level.
+If $|t| > t_{\text{critical}}$ Reject $H_0: \beta_j = 0$ at the chosen significance level.
 
 **F-test for overall significance:**
 
@@ -2599,7 +2599,7 @@ $$
 F = \frac{\text{MSR}}{\text{MSE}} = \frac{\text{SSR}/k}{\text{SSE}/(n-k-1)}
 $$
 
-If $F > F_{\text{critical}}(k, n-k-1)$Reject $H_0: \beta_1 = \beta_2 = \cdots = \beta_k = 0$.
+If $F > F_{\text{critical}}(k, n-k-1)$ Reject $H_0: \beta_1 = \beta_2 = \cdots = \beta_k = 0$.
 
 ### Multicollinearity
 

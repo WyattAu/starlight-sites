@@ -65,7 +65,7 @@ Covalent bonds absorb IR radiation at characteristic frequencies, causing them t
 | C-Cl                  | 600-800                | Strong      |
 | C≡N                   | 2210-2260              | Medium      |
 
-**Fingerprint region:** Below $1500 \mathrm{ cm^{-1}$The pattern is unique to each molecule and can
+**Fingerprint region:** Below $1500 \mathrm{ cm^{-1}$ The pattern is unique to each molecule and can
 Be compared with reference spectra.
 
 **Worked Example 1:** An organic compound with molecular formula $\mathrm{C_3\mathrm{H_6\mathrm{O$
@@ -141,7 +141,7 @@ Prominent peak at $m/z = 43$. Suggest a structure.
 
 $M = 58$. Possible formula: $\mathrm{C_3\mathrm{H_6\mathrm{O$ (propanone, $M_r = 58$).
 
-The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$Formed by alpha cleavage of
+The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$ Formed by alpha cleavage of
 Propanone.
 
 $$
@@ -181,7 +181,7 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 Neighbouring protons on adjacent carbons interact (spin-spin coupling) because their nuclear spins
 Can be aligned with or against the external magnetic field. For $n$ equivalent neighbouring protons,
 There are $n + 1$ possible spin arrangements (and therefore $n + 1$ possible local magnetic fields
-Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal"s
+Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal's
 Triangle.
 
 **Worked Example 5:** The $^1\mathrm{H$ NMR spectrum of a compound with formula
@@ -195,7 +195,7 @@ Identify the compound.
 
 The singlet that exchanges with $\mathrm{D_2\mathrm{O$ is an $\mathrm{O-\mathrm{H$ proton. The
 triplet (3H) and quartet (2H) indicate a $\mathrm{CH_3\mathrm{CH_2$ group. The quartet is shifted to
-$\delta = 3.7$Suggesting the $\mathrm{CH_2$ is adjacent to an electronegative oxygen. The compound
+$\delta = 3.7$ Suggesting the $\mathrm{CH_2$ is adjacent to an electronegative oxygen. The compound
 Is ethanol ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
 
 **Worked Example 6:** A compound with molecular formula $\mathrm{C_4\mathrm{H_{10}\mathrm{O$ has two
@@ -251,7 +251,7 @@ Concentration (mol/L), and $l$ is the path length (cm).
 The absorbance is proportional to the number of absorbing molecules in the light path. If a solution
 Of concentration $c$ and path length $l$ contains $c \times l$ moles per unit area, then doubling
 $c$ or $l$ doubles the number of absorbers and hence the absorbance. The proportionality constant is
-The molar absorptivity $\varepsilon$Which depends on the substance and wavelength.
+The molar absorptivity $\varepsilon$ Which depends on the substance and wavelength.
 
 **Applications:** Determining concentrations, following reaction kinetics, identifying conjugated
 Systems.
@@ -265,7 +265,7 @@ c = \frac{A}{\varepsilon l} = \frac{0.625}{12500 \times 1} = 5.0 \times 10^{-5} 
 $$
 
 **Worked Example 8:** A solution has absorbance 0.450 at 520 nm in a 2 cm cuvette. If
-$\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$Find the concentration.
+$\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$ Find the concentration.
 
 $$
 c = \frac{A}{\varepsilon l} = \frac{0.450}{15000 \times 2} = 1.5 \times 10^{-5} \mathrm{ mol/L
@@ -363,7 +363,7 @@ Far. Therefore, substance A is more polar than substance B.
 6. **Confirm:** Check that the proposed structure is consistent with all data.
 
 **Worked Example 10:** Combined IR, mass spec, and NMR data for an unknown compound
-$\mathrm{C_3\mathrm{H_6\mathrm{O_2$ shows: IR absorption at $1740 \mathrm{ cm^{-1}$Molecular ion at
+$\mathrm{C_3\mathrm{H_6\mathrm{O_2$ shows: IR absorption at $1740 \mathrm{ cm^{-1}$ Molecular ion at
 $m/z = 74$ And $^1\mathrm{H$ NMR singlet at $\delta = 3.7$ (3H), singlet at $\delta = 2.1$ (3H).
 
 **Step 1:** Molecular formula $\mathrm{C_3\mathrm{H_6\mathrm{O_2$, $M_r = 74$.
@@ -456,7 +456,7 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
    compound and explain the spectrum.
 
 4. A solution has absorbance 0.450 at 520 nm in a 2 cm cuvette. If
-   $\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$Find the concentration.
+   $\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$ Find the concentration.
 
 5. Explain how GC-MS can be used to identify an unknown compound in a mixture.
 
@@ -468,7 +468,7 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
    8.0 cm. Calculate the $R_f$ values and identify which substance is more polar.
 
 8. Combined IR, mass spec, and NMR data for an unknown compound $\mathrm{C_3\mathrm{H_6\mathrm{O_2$
-   shows: IR absorption at $1740 \mathrm{ cm^{-1}$Molecular ion at $m/z = 74$ And $^1\mathrm{H$ NMR
+   shows: IR absorption at $1740 \mathrm{ cm^{-1}$ Molecular ion at $m/z = 74$ And $^1\mathrm{H$ NMR
    singlet at $\delta = 3.7$ (3H), singlet at $\delta = 2.1$ (3H). Identify the compound.
 
 9. Calculate the degree of unsaturation for each of the following molecular formulae: (a)
@@ -502,7 +502,7 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
 
 ### Spin-Spin Coupling Constants
 
-The separation between the peaks in a multiplet is called the coupling constant $J$Measured in Hz.
+The separation between the peaks in a multiplet is called the coupling constant $J$ Measured in Hz.
 Coupling constants provide information about the spatial relationship between coupled protons.
 
 | Coupling type      | Typical $J$ (Hz) | Relationship                     |

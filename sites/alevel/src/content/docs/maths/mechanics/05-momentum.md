@@ -60,7 +60,7 @@ $$
 \sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}
 $$
 
-### 2.2 Derivation from Newton"s Laws
+### 2.2 Derivation from Newton's Laws
 
 **Proof.** Newton's Third Law states that for any two interacting bodies $A$ and $B$:
 
@@ -209,7 +209,7 @@ e = \frac{v_2 - v_1}{u_1 - u_2} \geq 0
 $$
 
 **Proof of $e \leq 1$.** Kinetic energy cannot be created in a collision, so
-$\mathrm{KE}_{\mathrm{after}} \leq \mathrm{KE}_{\mathrm{before}}$Which means
+$\mathrm{KE}_{\mathrm{after}} \leq \mathrm{KE}_{\mathrm{before}}$ Which means
 $\Delta\mathrm{KE} \geq 0$. From the energy loss formula in Section 5.3:
 
 $$
@@ -217,7 +217,7 @@ $$
 $$
 
 Since $\frac{1}{2} \gt 0$, $\frac{m_1m_2}{m_1+m_2} \gt 0$ (for positive masses), and
-$(u_1-u_2)^2 \geq 0$We must have:
+$(u_1-u_2)^2 \geq 0$ We must have:
 
 $$
 1 - e^2 \geq 0 \implies e^2 \leq 1 \implies e \leq 1
@@ -311,7 +311,7 @@ $$
 $$
 
 **Justification.** If $\mathbf{F}_{\mathrm{net}} = \mathbf{0}$ Then $F_x = 0$ and $F_y = 0$
-Independently. Since $F_x = \dfrac{dp_x}{dt} = 0$It follows that $p_x$ is constant. Similarly for
+Independently. Since $F_x = \dfrac{dp_x}{dt} = 0$ It follows that $p_x$ is constant. Similarly for
 $p_y$.
 
 ### 7.3 Worked example
@@ -378,7 +378,7 @@ Consequences:
 
 Two smooth spheres $A$ (mass $3\,\mathrm{kg}$) and $B$ (mass $2\,\mathrm{kg}$) collide. Before
 Collision, $A$ moves with velocity $5\,\mathrm{m/s}$ and $B$ is stationary. The line of centres
-Makes an angle of $30^\circ$ with the direction of motion of $A$. Given $e = 0.6$Find the speed And
+Makes an angle of $30^\circ$ with the direction of motion of $A$. Given $e = 0.6$ Find the speed And
 direction of each sphere after collision.
 
 **Solution.** Resolving parallel ($\parallel$) and perpendicular ($\perp$) to the line of centres:
@@ -616,7 +616,7 @@ Section 5.
 
 <details>
 <summary>Problem 7</summary>
-A force acts on a $5\,\mathrm{kg}$ body for $0.3\,\mathrm{s}$Giving it an impulse of $15\,\mathrm{Ns}$. Find the change in velocity.
+A force acts on a $5\,\mathrm{kg}$ body for $0.3\,\mathrm{s}$ Giving it an impulse of $15\,\mathrm{Ns}$. Find the change in velocity.
 </details>
 
 <details>
@@ -629,7 +629,7 @@ $J = m\Delta v \implies 15 = 5\Delta v \implies \Delta v = 3\,\mathrm{m/s}$.
 
 <details>
 <summary>Problem 8</summary>
-A $3\,\mathrm{kg}$ particle moving at $6\,\mathrm{m/s}$ collides with a $2\,\mathrm{kg}$ particle moving at $-3\,\mathrm{m/s}$. If $e = 0.6$Find the velocities after collision and the kinetic energy lost.
+A $3\,\mathrm{kg}$ particle moving at $6\,\mathrm{m/s}$ collides with a $2\,\mathrm{kg}$ particle moving at $-3\,\mathrm{m/s}$. If $e = 0.6$ Find the velocities after collision and the kinetic energy lost.
 </details>
 
 <details>
@@ -733,7 +733,7 @@ For $v_2 \lt 0$: $e = 1 + v_2/u \lt 1$. ✓ For $v_1 \lt 0$:
 $-3u - 2v_2 \lt 0 \implies v_2 \gt -3u/2$ So $e \gt 1 + (-3/2) = -1/2$. Since $e \geq 0$:
 $v_2 \geq -u$ So $e \geq 0$.
 
-If the problem says $e \leq 1/3$There may be additional constraints. Given the complexity, the key
+If the problem says $e \leq 1/3$ There may be additional constraints. Given the complexity, the key
 Idea is shown.
 
 **If you get this wrong, revise:** [Coefficient of Restitution](#5-coefficient-of-restitution),
@@ -799,7 +799,7 @@ $v = \sqrt{3.574^2 + 7.660^2} = \sqrt{12.77 + 58.68} = \sqrt{71.45} \approx 8.45
 
 <details>
 <summary>Problem 13</summary>
-Two smooth spheres $A$ and $B$ have masses $2\,\mathrm{kg}$ and $3\,\mathrm{kg}$. $A$ moves at $6\,\mathrm{m/s}$ and $B$ moves at $2\,\mathrm{m/s}$ at right angles to $A$. They collide when the line of centres is parallel to the direction of $A$'s motion. If $e = 0.5$Find the velocity of each sphere after collision.
+Two smooth spheres $A$ and $B$ have masses $2\,\mathrm{kg}$ and $3\,\mathrm{kg}$. $A$ moves at $6\,\mathrm{m/s}$ and $B$ moves at $2\,\mathrm{m/s}$ at right angles to $A$. They collide when the line of centres is parallel to the direction of $A$'s motion. If $e = 0.5$ Find the velocity of each sphere after collision.
 </details>
 
 <details>
@@ -832,8 +832,8 @@ $v_{B,\parallel} = 3.6\,\mathrm{m/s}$.
 
 **After collision:**
 
-- $A$: $\mathbf{v}_A = (0.6, 0)\,\mathrm{m/s}$Speed $= 0.6\,\mathrm{m/s}$
-- $B$: $\mathbf{v}_B = (3.6, 2)\,\mathrm{m/s}$Speed
+- $A$: $\mathbf{v}_A = (0.6, 0)\,\mathrm{m/s}$ Speed $= 0.6\,\mathrm{m/s}$
+- $B$: $\mathbf{v}_B = (3.6, 2)\,\mathrm{m/s}$ Speed
   $= \sqrt{3.6^2 + 2^2} = \sqrt{12.96 + 4} = \sqrt{16.96} \approx 4.12\,\mathrm{m/s}$
 
 **If you get this wrong, revise:**
@@ -858,10 +858,10 @@ $$
 If $e \gt 1$ Then $e^2 \gt 1$ and $1 - e^2 \lt 0$.
 
 Since $\frac{1}{2} \gt 0$, $\frac{m_1m_2}{m_1+m_2} \gt 0$ (for positive masses), and
-$(u_1-u_2)^2 \geq 0$We get $\Delta\mathrm{KE} \lt 0$.
+$(u_1-u_2)^2 \geq 0$ We get $\Delta\mathrm{KE} \lt 0$.
 
 $\Delta\mathrm{KE} \lt 0$ means
-$\mathrm{KE}_{\mathrm{after}} \gt \mathrm{KE}_{\mathrm{before}}$Which would require kinetic Energy
+$\mathrm{KE}_{\mathrm{after}} \gt \mathrm{KE}_{\mathrm{before}}$ Which would require kinetic Energy
 to be created during the collision. This violates conservation of energy (no external work is Done
 during the collision).
 
@@ -968,7 +968,7 @@ Collision). In that case $v_{A,\parallel} = 0$ and $\mathbf{v}_A = u\sin\theta$ 
 Line of centres), while $\mathbf{v}_B = u\cos\theta$ (along line of centres), so they are indeed
 Perpendicular.
 
-For general $e$The spheres do **not** move at right angles. The problem as stated is only correct
+For general $e$ The spheres do **not** move at right angles. The problem as stated is only correct
 For the elastic case. $\blacksquare$
 
 **If you get this wrong, revise:**

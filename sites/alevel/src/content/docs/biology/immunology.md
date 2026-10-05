@@ -1428,7 +1428,7 @@ of some immunotherapies (CAR-T cell therapy).
 
 Consequences:
 
-- Massive release of TNF-$\alpha$IL-1, IL-6, and interferons.
+- Massive release of TNF-$\alpha$ IL-1, IL-6, and interferons.
 - Systemic inflammation: fever, widespread capillary leakage (causing oedema and hypotension),
   multi-organ failure.
 - Treatment: anti-cytokine therapies (e.g., tocilizumab, an IL-6 receptor antagonist; anakinra, an
@@ -1756,7 +1756,7 @@ fluid to the blood, transports lipids, and provides immune defence:
 At the arterial end of a capillary:
 
 - **Blood hydrostatic pressure** ($\approx 35\ \mathrm{mmHg}$) forces fluid out of the capillary.
-- **Blood oncotic pressure** ($\approx 25\ \mathrm{mmHg}$Due to plasma proteins) pulls fluid back
+- **Blood oncotic pressure** ($\approx 25\ \mathrm{mmHg}$ Due to plasma proteins) pulls fluid back
   in.
 - **Net outward pressure** $= 35 - 25 = 10\ \mathrm{mmHg}$ (fluid leaves capillary).
 
@@ -1985,8 +1985,8 @@ $$
 | Stage                           | Time                               | CD4+ T Cell Count                                   | Symptoms                                                                                                          |
 | ------------------------------- | ---------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Acute infection                 | 2--4 weeks after exposure          | Drops rapidly then partially recovers               | Flu-like illness (fever, rash, sore throat, swollen lymph nodes); high viral load                                 |
-| Clinical latency (asymptomatic) | 2--10+ years                       | Gradually declining (500--1200 cells/$\mu$L normal) | No symptoms; virus continues to replicate at low levels                                                           |
-| AIDS                            | When CD4+ count < 200 cells/$\mu$L | Severely depleted                                   | Opportunistic infections (PCP pneumonia, TB, candidiasis, Kaposi's sarcoma); weight loss; death without treatment |
+| Clinical latency (asymptomatic) | 2--10+ years                       | Gradually declining (500--1200 cells/$\mu$ L normal) | No symptoms; virus continues to replicate at low levels                                                           |
+| AIDS                            | When CD4+ count < 200 cells/$\mu$ L | Severely depleted                                   | Opportunistic infections (PCP pneumonia, TB, candidiasis, Kaposi's sarcoma); weight loss; death without treatment |
 
 ### 38.3 Antiretroviral Therapy (ART)
 
@@ -2168,7 +2168,7 @@ response:
 | -------------------------------------------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Helper T cells (CD4+)                                    | CD4              | Coordinate the immune response; activate B cells (help them produce antibodies); activate cytotoxic T cells; activate macrophages (enhance phagocytosis); secrete cytokines |
 | Cytotoxic T cells (CD8+)                                 | CD8              | Kill virus-infected cells and cancer cells; recognise viral antigens presented on MHC class I; release perforin and granzymes (induce apoptosis of target cell)             |
-| Regulatory T cells ($\mathrm{T_{reg}}$CD4+ CD25+ FoxP3+) | CD4, CD25, FoxP3 | Suppress immune responses; maintain self-tolerance; prevent autoimmune reactions; secrete anti-inflammatory cytokines (IL-10, TGF-$\beta$)                                  |
+| Regulatory T cells ($\mathrm{T_{reg}}$ CD4+ CD25+ FoxP3+) | CD4, CD25, FoxP3 | Suppress immune responses; maintain self-tolerance; prevent autoimmune reactions; secrete anti-inflammatory cytokines (IL-10, TGF-$\beta$)                                  |
 | Memory T cells                                           | --               | Long-lived; provide rapid secondary response upon re-exposure to the same antigen                                                                                           |
 
 ### 46.2 MHC Class I vs MHC Class II

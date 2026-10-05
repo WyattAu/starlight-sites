@@ -39,7 +39,7 @@ Chromosome or organism level).
 ### Independent Assortment
 
 During Metaphase I, each bivalent (homologous pair) aligns independently at the metaphase plate. For
-An organism with haploid number $n$Independent assortment alone can produce $2^n$ different gamete
+An organism with haploid number $n$ Independent assortment alone can produce $2^n$ different gamete
 Genotypes.
 
 ---
@@ -55,7 +55,7 @@ Genotypes.
 
 ## 2. Mendelian Genetics
 
-### Mendel"s Laws
+### Mendel's Laws
 
 1. **Law of Segregation**: each organism carries two alleles for each trait, which segregate during
    gamete formation so each gamete carries one allele.
@@ -448,7 +448,7 @@ For hair length ($Ss \times Ss$): probability of $ss = \dfrac{1}{4}$.
 
 Combined probability: $\dfrac{1}{4} \times \dfrac{1}{4} = \dfrac{1}{16}$.
 
-The expected fraction of $bbss$ offspring is $\dfrac{1}{16}$Consistent with the $9:3:3:1$ ratio
+The expected fraction of $bbss$ offspring is $\dfrac{1}{16}$ Consistent with the $9:3:3:1$ ratio
 Where the doubly recessive class is $\dfrac{1}{16}$.
 
 </details>
@@ -484,7 +484,7 @@ The probability that a son has haemophilia is $\dfrac{1}{2}$ (or $50\%$).
 
 A forensic scientist starts with $10$ copies of a DNA fragment. After $30$ cycles of PCR, how many
 Copies will be present? If each double-stranded copy is $300\;\mathrm{bp}$ and the total amount of
-DNA produced is $54\;\mathrm{ng}$Calculate the approximate mass of one copy.
+DNA produced is $54\;\mathrm{ng}$ Calculate the approximate mass of one copy.
 ($1\;\mathrm{bp} \approx 660\;\mathrm{Da}$; $1\;\mathrm{Da} = 1.66 \times 10^{-24}\;\mathrm{g}$.)
 
 </details>
@@ -522,7 +522,7 @@ Ratio.
 
 First, the $W/w$ gene ratio: $\dfrac{3}{4}$ $W\_$ : $\dfrac{1}{4}$ $ww$.
 
-Among the $\dfrac{3}{4}$ that are $W\_$The $Y/y$ gene determines colour: $\dfrac{3}{4}$ $Y\_$
+Among the $\dfrac{3}{4}$ that are $W\_$ The $Y/y$ gene determines colour: $\dfrac{3}{4}$ $Y\_$
 (yellow) and $\dfrac{1}{4}$ $yy$ (green).
 
 - White ($ww\_$): $\dfrac{1}{4}$ of all offspring.
@@ -591,14 +591,14 @@ Ratio $1\;CC : 2\;Cc : 1\;cc$. The daughter (II-2) is unaffected, so she is eith
 probability she is $Cc$ is $\frac{2}{3}$.
 
 **Step 3: Determine the husband's carrier probability**. With no family history in a population
-where The carrier frequency is approximately $1$ in $25$The probability he is a carrier is
+where The carrier frequency is approximately $1$ in $25$ The probability he is a carrier is
 $\frac{1}{25}$.
 
 **Step 4: Combined probability**.
 $P(\mathrm{child\;affected}) = P(\mathrm{daughter\;is\;Cc}) \times P(\mathrm{husband\;is\;Cc}) \times P(\mathrm{child\;is\;cc} \mid Cc \times Cc)$
 $= \frac{2}{3} \times \frac{1}{25} \times \frac{1}{4} = \frac{2}{300} = \frac{1}{150} \approx 0.67\%$
 
-The probability is approximately $1$ in $150$Which is higher than the general population risk
+The probability is approximately $1$ in $150$ Which is higher than the general population risk
 (approximately $1$ in $2500$) because the mother has a known family history.
 
 </details>
@@ -680,7 +680,7 @@ $= \frac{56.25}{202.5} + \frac{225}{495} + \frac{56.25}{302.5}$ $= 0.278 + 0.455
 
 Critical value at $p = 0.05$ with $1$ degree of freedom $= 3.84$.
 
-Since $0.919 \lt 3.84$We fail to reject the null hypothesis. The population **is** in Hardy-Weinberg
+Since $0.919 \lt 3.84$ We fail to reject the null hypothesis. The population **is** in Hardy-Weinberg
 equilibrium for the MN blood group. This is consistent with random mating and the Absence of strong
 selection acting on MN antigens.
 
@@ -740,8 +740,8 @@ Operon genes when a more efficient carbon source (glucose) is available.
 - **Stating that PCR creates "new" DNA**: PCR synthesises copies of existing DNA sequences; it does
   not create novel sequences or introduce mutations (beyond the rare errors of Taq polymerase).
 - **Confusing carrier frequency with disease incidence**: for autosomal recessive conditions, if the
-  disease incidence ($q^2$) is $1$ in $10000$The carrier frequency ($2pq$) is approximately
-  $2q = 2 \times \frac{1}{100} = \frac{1}{50}$Not $1$ in $10000$.
+  disease incidence ($q^2$) is $1$ in $10000$ The carrier frequency ($2pq$) is approximately
+  $2q = 2 \times \frac{1}{100} = \frac{1}{50}$ Not $1$ in $10000$.
 - **Ignoring interference in genetic mapping**: in real organisms, one crossover can suppress nearby
   crossovers (positive interference), meaning observed double crossover frequencies may be lower
   than expected from single crossover frequencies.
@@ -973,14 +973,14 @@ Allele at each of three loci.
 
 When two genes are both on the X chromosome, they are linked and do not assort independently.
 
-**Example**: In _Drosophila_, red eyes ($w^+$Dominant) and normal wings ($m^+$Dominant) are both on
+**Example**: In _Drosophila_, red eyes ($w^+$ Dominant) and normal wings ($m^+$ Dominant) are both on
 the X chromosome. A female $w^+ m^+ / w\; m$ is crossed with a white-eyed, miniature-winged male
 $w\; m / Y$.
 
 **F1 females**: $w^+ m^+ / w\; m$ (all heterozygous at both loci) **F1 males**: $w^+ m^+ / Y$
 (receive the father's X chromosome)
 
-If the genes are linked with a recombination frequency of $30\%$The F1 female crossed with a
+If the genes are linked with a recombination frequency of $30\%$ The F1 female crossed with a
 Double-recessive male would produce:
 
 - $35\%$ parental: red normal ($w^+ m^+$), white miniature ($w\; m$)
@@ -1137,8 +1137,8 @@ much poorer prognoses than Down syndrome.
 In summer squash, fruit colour is controlled by two genes. Gene $W$ determines whether pigment is
 Produced ($W$ = pigment, $w$ = no pigment, white epistatic). Gene $Y$ determines colour when $W$ is
 Present ($Y$ = yellow, $y$ = green). A dihybrid cross ($WwYy \times WwYy$) produces: white = $412$
-Yellow = $298$Green = $96$Total = $806$. (a) Perform a chi-squared test to determine whether the
-Data fit the expected $12:3:1$ epistatic ratio ($p = 0.05$Critical value $= 5.99$ for $2$ df). (b)
+Yellow = $298$ Green = $96$ Total = $806$. (a) Perform a chi-squared test to determine whether the
+Data fit the expected $12:3:1$ epistatic ratio ($p = 0.05$ Critical value $= 5.99$ for $2$ df). (b)
 Identify the most deviant phenotype class and propose an explanation. (c) Explain how this Epistatic
 interaction reflects the underlying biochemical pathway.
 
@@ -1181,7 +1181,7 @@ Probability of a son with haemophilia: $1/4$ (out of all children) or $1/2$ (out
 (c) Probability of a carrier daughter: $1/4$ (out of all children) or $1/2$ (out of daughters only).
 
 (d) If their first daughter has haemophilia ($X^hX^h$), she must have inherited $X^h$ from both
-parents. The mother is $X^HX^h$ (confirmed). The father must have contributed $X^h$Meaning the
+parents. The mother is $X^HX^h$ (confirmed). The father must have contributed $X^h$ Meaning the
 father is $X^hY$ (has haemophilia). But the problem states he has no family history. This implies
 either:
 
@@ -1232,7 +1232,7 @@ are Present in red blood cells, visible on electrophoresis as two bands).
 In pea plants, tall ($T$) is dominant over dwarf ($t$). A tall plant of unknown genotype is crossed
 With a dwarf plant. The cross produces $48$ tall and $52$ dwarf offspring. (a) What was the genotype
 Of the tall parent? (b) Perform a chi-squared test to confirm that the observed ratio fits the
-Expected ratio ($p = 0.05$Critical value $= 3.84$ for $1$ df). (c) Explain why a test cross is Used
+Expected ratio ($p = 0.05$ Critical value $= 3.84$ for $1$ df). (c) Explain why a test cross is Used
 to determine unknown genotypes. (d) If the tall parent were homozygous ($TT$), what offspring Ratio
 would you expect?
 
@@ -1248,7 +1248,7 @@ $\chi^2 = 0.16 < 3.84$. We fail to reject $H_0$. The data fit the expected $1:1$
 
 (c) A test cross (crossing with a homozygous recessive individual, $tt$) reveals the genotype of the
 Unknown parent because the recessive parent can only contribute the recessive allele ($t$). If the
-Unknown parent is $TT$All offspring are $Tt$ (tall). If the unknown parent is $Tt$Approximately Half
+Unknown parent is $TT$ All offspring are $Tt$ (tall). If the unknown parent is $Tt$ Approximately Half
 the offspring are $Tt$ (tall) and half are $tt$ (dwarf). The phenotype of the offspring directly
 Reveals the alleles contributed by the unknown parent.
 
@@ -1299,7 +1299,7 @@ meiosis is important for sexual reproduction.
 <details>
 <summary>Solution</summary>
 
-(a) The number of possible gamete genotypes from independent assortment alone is $2^n$Where $n$ is
+(a) The number of possible gamete genotypes from independent assortment alone is $2^n$ Where $n$ is
 The haploid number. $n = 8/2 = 4$. Number of gamete genotypes $= 2^4 = 16$.
 
 (b) Crossing over between homologous chromosomes during prophase I produces recombinant chromatids.
@@ -1312,7 +1312,7 @@ $2^1 = 2$. For $n = 4$ chromosomes: $4^4 = 256$ possible gamete genotypes (compa
 crossing over).
 
 (c) Number of zygote combinations: if one parent can produce $16$ gamete types (without crossing
-over) And the other can produce $16$The number of possible zygotes is $16 \times 16 = 256$. With
+over) And the other can produce $16$ The number of possible zygotes is $16 \times 16 = 256$. With
 Crossing over, this number increases enormously.
 
 (d) Meiosis is important for sexual reproduction because:
@@ -1445,7 +1445,7 @@ Is unaffected, so his genotype is either $CC$ (probability $1/3$) or $Cc$ (proba
 Probability the husband is a carrier: $2/3$.
 
 Note: among the unaffected siblings of an affected child, the probability of being a carrier is
-$2/3$Not $1/2$. This is because the conditional probability
+$2/3$ Not $1/2$. This is because the conditional probability
 $P(\text{carrier} | \text{unaffected}) =
 P(\text{carrier and unaffected}) / P(\text{unaffected}) = (1/2) / (3/4) = 2/3$.
 

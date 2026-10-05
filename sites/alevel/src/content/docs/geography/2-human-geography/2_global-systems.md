@@ -113,7 +113,7 @@ borders.
 
 **Positive impacts:**
 
-- Economic growth in many developing countries (e.g., China"s GDP per capita increased approximately
+- Economic growth in many developing countries (e.g., China's GDP per capita increased approximately
   25-fold since 1980)
 - Poverty reduction, the proportion of the global population living in extreme poverty fell from
   approximately 42% in 1981 to under 10% by 2015

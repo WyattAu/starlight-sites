@@ -229,7 +229,7 @@ $$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br}
 $$
 
-### Markovnikov"s Rule
+### Markovnikov's Rule
 
 When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon with the greater number of
 Hydrogen atoms (the more substituted carbon gets the halogen).
@@ -741,7 +741,7 @@ The Cahn-Ingold-Prelog priority rules assign $R$ or $S$ to chiral centres:
 
 1. Assign priority (1--4) to groups around the chiral centre (atomic number).
 2. Orient the molecule so the lowest priority group points away.
-3. Trace 1 $\to$ 2 $\to$ 3: clockwise $= R$Counterclockwise $= S$.
+3. Trace 1 $\to$ 2 $\to$ 3: clockwise $= R$ Counterclockwise $= S$.
 
 ### Conformational Isomerism
 
@@ -784,7 +784,7 @@ Identifies functional groups by absorption of IR radiation.
 
 - **Molecular ion peak**: gives the molecular mass.
 - **Fragmentation pattern**: helps identify the structure.
-- **Isotope pattern**: Cl has $^{35}$Cl:$^{37}$Cl $\approx$ 3:1 ratio; Br has $^{79}$Br:$^{81}$Br
+- **Isotope pattern**: Cl has $^{35}$ Cl:$^{37}$ Cl $\approx$ 3:1 ratio; Br has $^{79}$ Br:$^{81}$ Br
   $\approx$ 1:1.
 
 ### Nuclear Magnetic Resonance (NMR) Spectroscopy

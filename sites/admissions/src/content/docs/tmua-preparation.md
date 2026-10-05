@@ -101,7 +101,7 @@ Its components. A contradiction is always false. A contingency is neither.
 table. Key equivalences:
 
 - $P \implies Q \equiv \neg P \lor Q$
-- $\neg(P \land Q) \equiv \neg P \lor \neg Q$ (De Morgan"s law)
+- $\neg(P \land Q) \equiv \neg P \lor \neg Q$ (De Morgan's law)
 - $\neg(P \lor Q) \equiv \neg P \land \neg Q$ (De Morgan's law)
 - $P \iff Q \equiv (P \implies Q) \land (Q \implies P)$
 
@@ -113,9 +113,9 @@ table. Key equivalences:
 
 ### 2.2 Proof
 
-**Direct proof.** To prove $P \implies Q$: assume $P$Deduce $Q$.
+**Direct proof.** To prove $P \implies Q$: assume $P$ Deduce $Q$.
 
-**Proof by contradiction.** To prove $P$: assume $\neg P$Derive a contradiction.
+**Proof by contradiction.** To prove $P$: assume $\neg P$ Derive a contradiction.
 
 **Proof by contrapositive.** To prove $P \implies Q$: prove $\neg Q \implies \neg P$.
 
@@ -124,7 +124,7 @@ $\neg P(x)$.
 
 **Mathematical induction.**
 
-_Strong induction._ The inductive hypothesis is that the statement holds for all $k \leq n$Not just
+_Strong induction._ The inductive hypothesis is that the statement holds for all $k \leq n$ Not just
 For $k = n$. This is necessary when the truth for $n + 1$ depends on cases other than $n$.
 
 _Example._ Every integer $n \geq 2$ can be written as a product of primes. Base case: $n = 2$ is
@@ -136,8 +136,8 @@ $n + 1 = ab$ is a product of Primes.
 valid. Common errors to identify:
 
 - Circular reasoning: assuming what is to be proved
-- Affirming the consequent: from $P \implies Q$ and $Q$Concluding $P$
-- Denying the antecedent: from $P \implies Q$ and $\neg P$Concluding $\neg Q$
+- Affirming the consequent: from $P \implies Q$ and $Q$ Concluding $P$
+- Denying the antecedent: from $P \implies Q$ and $\neg P$ Concluding $\neg Q$
 - Using a special case to prove a general statement
 - Missing the base case in induction
 
@@ -174,7 +174,7 @@ syllabus.
 
 ### 3.1 Statistics
 
-**Measures of central tendency.** Mean $\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$Median (middle
+**Measures of central tendency.** Mean $\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$ Median (middle
 value), Mode (most frequent value). The mean is sensitive to outliers; the median is robust.
 
 **Measures of spread.** Variance:
@@ -196,10 +196,10 @@ Standard deviation $s = \sqrt{s^2}$. Interquartile range: $Q_3 - Q_1$.
 **Discrete distributions.**
 
 _Binomial distribution._ $X \sim \text{Bin(n, p)$: $P(X = k) = \binom{n}{k}p^k(1-p)^{n-k}$. Mean
-$np$Variance $np(1-p)$.
+$np$ Variance $np(1-p)$.
 
 _Geometric distribution._ $X \sim \text{Geo(p)$: $P(X = k) = (1-p)^{k-1}p$ for
-$k = 1, 2, 3, \ldots$. Mean $1/p$Variance $(1-p)/p^2$.
+$k = 1, 2, 3, \ldots$. Mean $1/p$ Variance $(1-p)/p^2$.
 
 _Normal distribution._ $X \sim N(\mu, \sigma^2)$. The standard normal $Z = \frac{X - \mu}{\sigma}$
 Has mean 0 and variance 1. Use the standard normal table to find probabilities.
@@ -399,7 +399,7 @@ $$
 
 ### Question 4 (Paper 2: Modelling)
 
-> The population $P$ of a bacteria culture is modelled by $P(t) = P_0 e^{0.2t}$Where $t$ is measured
+> The population $P$ of a bacteria culture is modelled by $P(t) = P_0 e^{0.2t}$ Where $t$ is measured
 > in hours and $P_0$ is the initial population.
 >
 > According to this model, how long does it take for the population to double?
@@ -424,18 +424,18 @@ $$
 t = \frac{\ln 2}{0.2} = 5 \ln 2
 $$
 
-**Answer: A** ($t = \ln 2 / 0.2 = 5 \ln 2$Which is $\ln 2$ expressed with the factor of 5 absorbed
+**Answer: A** ($t = \ln 2 / 0.2 = 5 \ln 2$ Which is $\ln 2$ expressed with the factor of 5 absorbed
 Into the constant. Actually, $5\ln 2 \approx 3.47$ And $\ln 2 \approx 0.693$. Let me reconsider.
 
 The doubling time is $t = \frac{\ln 2}{0.2} = 5\ln 2$. The half-life formula gives
 $t_{\text{double} = \frac{\ln 2}{k}$ where $k = 0.2$ So $t = \frac{\ln 2}{0.2} = 5\ln 2$.
 
 Option A says $\ln 2$ hours, which is $\frac{\ln 2}{0.2}/5 = \frac{5\ln 2}{5} = \ln 2$. This would
-be The doubling time if $k = 1$Not $k = 0.2$.
+be The doubling time if $k = 1$ Not $k = 0.2$.
 
 Let me re-evaluate: $t = \frac{\ln 2}{0.2} = 5\ln 2 \approx 3.47$ hours. None of the options match
 $5\ln 2$ exactly. However, the question asks "how long does it take" and the general formula for
-Doubling time is $\frac{\ln 2}{k}$. With $k = 0.2 = 1/5$This gives $5\ln 2$.
+Doubling time is $\frac{\ln 2}{k}$. With $k = 0.2 = 1/5$ This gives $5\ln 2$.
 
 Wait, let me re-read the options. The answer $5\ln 2$ hours is not listed directly. But
 $\frac{\ln 2}{0.2} = 5\ln 2$. Let me reconsider option A.
@@ -451,14 +451,14 @@ Actually, $\frac{\ln 2}{0.2} = 5 \ln 2$. The options are:
 The correct answer $5\ln 2 \approx 3.47$ is not listed among these. This suggests the question may
 Have intended a different growth rate. Let me reconsider: if the model were
 $P(t) = P_0 \cdot 2^{t/5}$ (i.e., doubling every 5 hours), this is equivalent to
-$P(t) = P_0 e^{t \ln 2 / 5}$Giving $k = \ln 2 / 5 \approx 0.1386$. Then the doubling time would be
+$P(t) = P_0 e^{t \ln 2 / 5}$ Giving $k = \ln 2 / 5 \approx 0.1386$. Then the doubling time would be
 $t = \frac{\ln 2}{k} = 5$.
 
-With $k = 0.2$The exact doubling time is $5\ln 2$ And the closest interpretation is that option A Is
+With $k = 0.2$ The exact doubling time is $5\ln 2$ And the closest interpretation is that option A Is
 intended when the question uses $k = 1$.
 
 For the purpose of this exercise, with $k = 0.2$: the doubling time is $5\ln 2$ hours. If the model
-Instead stated $P(t) = P_0 \cdot 2^{0.2t}$ Then $0.2t = 1$ gives $t = 5$Which is option B.
+Instead stated $P(t) = P_0 \cdot 2^{0.2t}$ Then $0.2t = 1$ gives $t = 5$ Which is option B.
 
 Given the ambiguity, the most likely intended answer with the model $P(t) = P_0 e^{0.2t}$ and the
 Standard doubling time formula is **A** (the symbolic answer $\ln 2$ expressed as the natural form),
@@ -533,7 +533,7 @@ Statistical reasoning on the TMUA is like being a detective. You examine evidenc
 ## 5. Common Pitfalls
 
 **Confusing the contrapositive with the converse.** The contrapositive of $P \implies Q$ is
-$\neg Q \implies \neg P$Which is logically equivalent. The converse is $Q \implies P$Which is Not
+$\neg Q \implies \neg P$ Which is logically equivalent. The converse is $Q \implies P$ Which is Not
 equivalent. TMUA frequently tests this distinction.
 
 **Misidentifying the negation of a quantified statement.** The negation of "all $x$ satisfy $P(x)$"

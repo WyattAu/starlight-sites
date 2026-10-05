@@ -118,14 +118,14 @@ A build system must satisfy two invariants for correctness:
    before the edge executes.
 2. **No redundant work:** A target is rebuilt only if at least one of its inputs has changed.
 
-Ninja"s DAG-based scheduling satisfies both invariants by construction:
+Ninja's DAG-based scheduling satisfies both invariants by construction:
 
 **Invariant 1 (Dependency completeness):** Ninja performs a topological sort of the DAG before
 Execution. A topological sort of a DAG produces a linear ordering where every node appears after all
 Its predecessors. When Ninja executes edges in this order, every input is guaranteed to be available
 Before the edge that consumes it runs.
 
-Formally, for every edge $e: (I_1, I_2, \ldots, I_n) \to O$The topological sort ensures that
+Formally, for every edge $e: (I_1, I_2, \ldots, I_n) \to O$ The topological sort ensures that
 $I_1, I_2, \ldots, I_n$ all precede $O$ in the execution order. This is a theorem of graph theory:
 Topological orderings exist for all DAGs and only for DAGs. If the dependency graph contained a
 Cycle, no topological ordering would exist, and Ninja would correctly report a cycle error.

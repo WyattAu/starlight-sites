@@ -44,7 +44,7 @@ Same genes, but different genes are switched on (expressed) or off in different 
 **Transcription factors** and **epigenetic modifications** (e.g., DNA methylation, histone
 Modification) control which genes are expressed.
 
-**Worked Example: Stem cell therapy for Parkinson"s disease.**
+**Worked Example: Stem cell therapy for Parkinson's disease.**
 
 Parkinson's disease is caused by the death of dopamine-producing neurones in the brain. Stem cell
 Therapy involves:

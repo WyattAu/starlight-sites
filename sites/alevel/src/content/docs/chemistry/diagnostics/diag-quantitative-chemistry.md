@@ -131,12 +131,12 @@ $72.0\,\text{cm}^3$.
 
 (a) Calculate the molar mass of the gas. ($R = 8.31\,\text{J K}^{-1}\text{ mol}^{-1}$)
 
-(b) The gas is known to be one of: $\text{N}_2$$\text{O}_2$$\text{CO}$$\text{NO}_2$Or
+(b) The gas is known to be one of: $\text{N}_2$$\text{O}_2$$\text{CO}$$\text{NO}_2$ Or
 $\text{C}_3\text{H}_8$. Identify the gas.
 
 **Solution:**
 
-(a) Using $pV = nRT$Ensuring consistent SI units:
+(a) Using $pV = nRT$ Ensuring consistent SI units:
 
 - $p = 98.5\,\text{kPa} = 98500\,\text{Pa}$
 - $V = 72.0\,\text{cm}^3 = 72.0 \times 10^{-6}\,\text{m}^3 = 7.20 \times 10^{-5}\,\text{m}^3$
@@ -240,7 +240,7 @@ $$
 **Question:**
 
 $0.480\,\text{g}$ of a hydrocarbon (containing only carbon and hydrogen) is completely burned in
-oxygen. The products are passed through concentrated $\text{H}_2\text{SO}_4$Which increases in mass
+oxygen. The products are passed through concentrated $\text{H}_2\text{SO}_4$ Which increases in mass
 by $0.720\,\text{g}$ And then through limewater ($\text{Ca(OH)}_2$ solution), which produces
 $2.20\,\text{g}$ of white precipitate ($\text{CaCO}_3$).
 
@@ -255,7 +255,7 @@ is the more stable isomer, explaining your reasoning.
 
 **Solution:**
 
-(a) All hydrogen in the hydrocarbon becomes $\text{H}_2\text{O}$Absorbed by $\text{H}_2\text{SO}_4$:
+(a) All hydrogen in the hydrocarbon becomes $\text{H}_2\text{O}$ Absorbed by $\text{H}_2\text{SO}_4$:
 
 $$
 m(\text{H}_2\text{O}) = 0.720\,\text{g}
@@ -267,7 +267,7 @@ $$
 n(\text{H}) = 2 \times 0.0400 = 0.0800\,\text{mol}
 $$
 
-All carbon in the hydrocarbon becomes $\text{CO}_2$Which reacts with limewater:
+All carbon in the hydrocarbon becomes $\text{CO}_2$ Which reacts with limewater:
 
 $$
 \text{Ca(OH)}_2 + \text{CO}_2 \to \text{CaCO}_3 + \text{H}_2\text{O}
@@ -283,7 +283,7 @@ $$
 Ratio C : H = $0.0220 : 0.0800 = 1 : 3.64$.
 
 Multiplying to find the simplest integer ratio: $0.0220 : 0.0800 = 5 : 18.2$. The ratio is
-approximately $5 : 18$Giving an empirical formula of **$\text{C}_5\text{H}_{18}$**. However, this is
+approximately $5 : 18$ Giving an empirical formula of **$\text{C}_5\text{H}_{18}$**. However, this is
 not a standard hydrocarbon formula (alkanes follow $\text{C}_n\text{H}_{2n+2}$ So
 $\text{C}_5\text{H}_{12}$ would be the alkane with 5 carbons). The discrepancy is within expected
 experimental rounding error.
@@ -334,9 +334,9 @@ $\text{BaCl}_2$.
 
 (a) Determine the value of $x$ in the formula $\text{BaCl}_2 \cdot x\text{H}_2\text{O}$.
 
-(b) The enthalpy of solution of anhydrous $\text{BaCl}_2$ is $-13.2\,\text{kJ mol}^{-1}$While the
+(b) The enthalpy of solution of anhydrous $\text{BaCl}_2$ is $-13.2\,\text{kJ mol}^{-1}$ While the
 enthalpy of solution of $\text{BaCl}_2 \cdot 2\text{H}_2\text{O}$ is $+8.8\,\text{kJ mol}^{-1}$. Use
-a Hess"s law cycle to calculate the enthalpy change for the reaction:
+a Hess's law cycle to calculate the enthalpy change for the reaction:
 
 $$
 \text{BaCl}_2(s) + 2\text{H}_2\text{O}(l) \to \text{BaCl}_2 \cdot 2\text{H}_2\text{O}(s)
@@ -493,7 +493,7 @@ error and give the correct answer in $\mathrm{cm}^3$.
 
 **Solution:**
 
-The student used $p = 100$ without units. If they intended $100\,\mathrm{kPa}$They needed to convert
+The student used $p = 100$ without units. If they intended $100\,\mathrm{kPa}$ They needed to convert
 to pascals: $p = 100000\,\mathrm{Pa}$ (1 mark).
 
 $$
@@ -501,7 +501,7 @@ V = \frac{nRT}{p} = \frac{0.050 \times 8.314 \times 298}{100000} = \frac{123.9}{
 $$
 
 The student's answer of $123.7$ is actually correct numerically but lacks units. If they meant
-$\mathrm{dm}^3$Their answer is close. The key error was likely not tracking units through the
+$\mathrm{dm}^3$ Their answer is close. The key error was likely not tracking units through the
 calculation (1 mark).
 
 ## Common Mistakes

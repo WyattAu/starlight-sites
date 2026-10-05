@@ -42,7 +42,7 @@ Inorganic carbon (carbonate rocks, dissolved inorganic carbon in the ocean), and
 | **Respiration and decomposition**               | Approximately 120                | Plants, animals, and decomposers release $\mathrm{CO_2}$ through cellular respiration and decomposition of organic matter                                               |
 | **Ocean-atmosphere exchange**                   | Net approximately 2 (absorption) | The ocean absorbs approximately 92 GtC/year and releases approximately 90 GtC/year; net absorption of approximately 2 GtC/year                                          |
 | **Volcanic outgassing**                         | Approximately 0.1                | Release of $\mathrm{CO_2}$ from volcanic activity and mid-ocean ridges                                                                                                  |
-| **Weathering**                                  | Approximately 0.3                | Chemical weathering of silicate rocks absorbs $\mathrm{CO_2}$Converting it to bicarbonate ions transported to the ocean and eventually deposited as carbonate sediments |
+| **Weathering**                                  | Approximately 0.3                | Chemical weathering of silicate rocks absorbs $\mathrm{CO_2}$ Converting it to bicarbonate ions transported to the ocean and eventually deposited as carbonate sediments |
 
 ### Anthropogenic Carbon Fluxes
 

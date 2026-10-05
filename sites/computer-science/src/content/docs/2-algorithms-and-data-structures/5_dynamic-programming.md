@@ -59,12 +59,12 @@ To prove that a problem has optimal substructure:
 vertex on $p$ Then the subpath of $p$ from $u$ to $w$ is a shortest path from $u$ to $w$.
 
 _Proof._ If not, there exists a shorter path $p"$ from $u$ to $w$. Then $p'$ concatenated with the
-subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
+subpath of $p$ from $w$ to $v$ would be shorter than $p$ Contradicting that $p$ is a shortest path.
 $\blacksquare$
 
 :::caution
 simple path_ problem does not: the longest simple path from $u$ to $v$ may not contain the longest
-simple path from $u$ to an intermediate vertex $w$Because the subpath might share vertices with the
+simple path from $u$ to an intermediate vertex $w$ Because the subpath might share vertices with the
 rest of the path, creating a non-simple path.
 
 ### 5.4 Common Patterns
@@ -81,7 +81,7 @@ Optimal BST, matrix chain multiplication.
 ### 5.5 Worked Example: 0/1 Knapsack
 
 **Problem.** Given $n$ items with weights $w_1, \ldots, w_n$ and values $v_1, \ldots, v_n$ And a
-knapsack of capacity $W$Maximise the total value without exceeding the capacity.
+knapsack of capacity $W$ Maximise the total value without exceeding the capacity.
 
 **Recurrence:**
 
@@ -91,14 +91,14 @@ $$
 
 **Time:** $O(nW)$. **Space:** $O(nW)$ (can be reduced to $O(W)$ with 1D array).
 
-_Proof of correctness._ For each item $i$Either we don't include it (value $dp[i-1][c]$) or we
+_Proof of correctness._ For each item $i$ Either we don't include it (value $dp[i-1][c]$) or we
 include it (value $v_i + dp[i-1][c - w_i]$). The optimal choice is the maximum. The base cases are
 correct. $\blacksquare$
 
 <details>
 <summary>Worked Example: 0/1 Knapsack</summary>
 
-Items: $\\{(w=1, v=1), (w=3, v=4), (w=4, v=5), (w=5, v=7)\\}$Capacity $W = 7$.
+Items: $\\{(w=1, v=1), (w=3, v=4), (w=4, v=5), (w=5, v=7)\\}$ Capacity $W = 7$.
 
 Building the DP table (items as rows, capacities 0-7 as columns):
 
@@ -114,14 +114,14 @@ i=4:      0  1  1  4  5  7  8  9
 Maximum value: $dp[4][7] = 9$ (items 2 and 4: $w = 3 + 5 = 7$, $v = 4 + 7 = 11$, let me
 recalculate).
 
-Correct: items 2 and 3 ($w=3+4=7$, $v=4+5=9$), or items 1, 2, 4 ($w=1+3+5=9 > 7$Not valid). Items 1,
+Correct: items 2 and 3 ($w=3+4=7$, $v=4+5=9$), or items 1, 2, 4 ($w=1+3+5=9 > 7$ Not valid). Items 1,
 3 ($w=1+4=5$, $v=1+5=6$), items 2, 4 ($w=3+5=8 > 7$). Optimal: items 2 and 3 ($w=3+4=7$, $v=4+5=9$).
 
 </details>
 
 ### 5.6 Worked Example: Edit Distance (Levenshtein Distance)
 
-**Problem.** Given strings $s$ of length $m$ and $t$ of length $n$Find the minimum number of
+**Problem.** Given strings $s$ of length $m$ and $t$ of length $n$ Find the minimum number of
 insertions, deletions, and substitutions to transform $s$ into $t$.
 
 **Recurrence:**
@@ -130,7 +130,7 @@ $$
 dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}
 $$
 
-Where the three cases in the minimum are: delete from $s$Insert into $s$Substitute in $s$.
+Where the three cases in the minimum are: delete from $s$ Insert into $s$ Substitute in $s$.
 
 **Time:** $O(mn)$. **Space:** $O(mn)$ (can be reduced to $O(\min(m,n))$).
 
@@ -161,7 +161,7 @@ Transform: kitten → sitten (substitute k→s) → sittin (substitute e→i) �
 ### 5.7 Worked Example: Matrix Chain Multiplication
 
 **Problem.** Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions
-$p_{i-1} \times p_i$Find the parenthesisation that minimises the total number of scalar
+$p_{i-1} \times p_i$ Find the parenthesisation that minimises the total number of scalar
 multiplications.
 
 **Recurrence:**
@@ -193,13 +193,13 @@ $dp[2][3] = p_1 p_2 p_3 = 30 \times 5 \times 60 = 9000$. Split at $k=2$: $(A_2 A
 $dp[1][3]$: Try $k=1$: $dp[1][1] + dp[2][3] + 10 \times 30 \times 60 = 0 + 9000 + 18000 = 27000$.
 Try $k=2$: $dp[1][2] + dp[3][3] + 10 \times 5 \times 60 = 1500 + 0 + 3000 = 4500$.
 
-Minimum: $dp[1][3] = 4500$Split at $k=2$: $(A_1(A_2 A_3))$.
+Minimum: $dp[1][3] = 4500$ Split at $k=2$: $(A_1(A_2 A_3))$.
 
 </details>
 
 ### 5.8 Worked Example: Longest Common Subsequence
 
-**Problem.** Given sequences $X = (x_1, \ldots, x_m)$ and $Y = (y_1, \ldots, y_n)$Find the LCS.
+**Problem.** Given sequences $X = (x_1, \ldots, x_m)$ and $Y = (y_1, \ldots, y_n)$ Find the LCS.
 
 **Recurrence:**
 
@@ -209,13 +209,13 @@ $$
 
 **Time:** $O(mn)$. **Space:** $O(mn)$ (can be reduced to $O(\min(m,n))$ for the length only).
 
-_Proof of correctness._ If $x_i = y_j$Any LCS of $X[1..i]$ and $Y[1..j]$ must include $x_i$ So
-$\mathrm{LCS} = 1 + \mathrm{LCS}(X[1..i-1], Y[1..j-1])$. If $x_i \neq y_j$The LCS either Excludes
-$x_i$ or excludes $y_j$Giving the max of the two subproblems. $\blacksquare$
+_Proof of correctness._ If $x_i = y_j$ Any LCS of $X[1..i]$ and $Y[1..j]$ must include $x_i$ So
+$\mathrm{LCS} = 1 + \mathrm{LCS}(X[1..i-1], Y[1..j-1])$. If $x_i \neq y_j$ The LCS either Excludes
+$x_i$ or excludes $y_j$ Giving the max of the two subproblems. $\blacksquare$
 
 ### 5.9 Worked Example: Coin Change
 
-**Problem.** Given coin denominations $d_1, \ldots, d_n$ and a target amount $M$Find the minimum
+**Problem.** Given coin denominations $d_1, \ldots, d_n$ and a target amount $M$ Find the minimum
 number of coins needed.
 
 **Recurrence:**
@@ -226,7 +226,7 @@ $$
 
 **Time:** $O(nM)$. **Space:** $O(M)$.
 
-_Proof of correctness._ To make change for amount $c > 0$The last coin used must be some
+_Proof of correctness._ To make change for amount $c > 0$ The last coin used must be some
 $d_i \leq c$. The remaining amount is $c - d_i$ And the optimal solution for $c$ uses
 $1 + dp[c - d_i]$ coins. Taking the minimum over all valid $d_i$ gives the optimal solution.
 $\blacksquare$
@@ -255,10 +255,10 @@ Solution: 2 quarters + 1 dime + 3 pennies = $25 + 25 + 10 + 1 + 1 + 1 = 63$. 6 c
 
 ### 5.10 Worked Example: Longest Increasing Subsequence
 
-**Problem.** Given a sequence $a_1, \ldots, a_n$Find the length of the longest strictly increasing
+**Problem.** Given a sequence $a_1, \ldots, a_n$ Find the length of the longest strictly increasing
 subsequence (not necessarily contiguous).
 
-**Recurrence:** $dp[i] = 1 + \max\\{dp[j] : j \lt i \mathrm{~and~} a_j \lt a_i\\}$With $dp[i] = 1$
+**Recurrence:** $dp[i] = 1 + \max\\{dp[j] : j \lt i \mathrm{~and~} a_j \lt a_i\\}$ With $dp[i] = 1$
 if no such $j$ exists.
 
 **Time:** $O(n^2)$. **Space:** $O(n)$.

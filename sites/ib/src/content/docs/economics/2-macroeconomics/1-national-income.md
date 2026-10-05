@@ -120,7 +120,7 @@ actual Volume of goods and services that the average income can buy in each coun
 - Assuming that fiscal policy is always effective. Crowding out, time lags, and the size of the
   multiplier all limit its impact.
 - Confusing a movement along the AD curve (caused by a change in the price level) with a shift of
-  the AD curve (caused by changes in $C$, $I$, $G$Or $X - M$).
+  the AD curve (caused by changes in $C$, $I$, $G$ Or $X - M$).
 - Treating the Phillips Curve as a policy menu. The short-run trade-off does not exist in the long
   run.
 - Forgetting that the LRAS curve is vertical. In the long run, demand-side policies only affect the
@@ -140,7 +140,7 @@ actual Volume of goods and services that the average income can buy in each coun
 <summary>Problem 1: GDP Calculation with Multiple Components</summary>
 
 An economy has the following expenditure components (in billions): Consumption $= \$4200$,
-Investment $= \$1100$, Government spending $= \$1500$Exports $= \$800$, Imports $= \$950$.
+Investment $= \$1100$, Government spending $= \$1500$ Exports $= \$800$, Imports $= \$950$.
 
 (a) Calculate GDP and net exports.
 
@@ -262,14 +262,14 @@ Accelerate.
 
 (c) How would a supply shock (e.g., rising oil prices) shift the Phillips curve?
 
-(a) With unemployment at $3\%$Which is below the natural rate of $5\%$The economy is Overheating.
+(a) With unemployment at $3\%$ Which is below the natural rate of $5\%$ The economy is Overheating.
 The expectations-augmented Phillips curve predicts:
 
 $$
 \pi = \pi^e - \alpha(u - u_n)
 $$
 
-Since $u < u_n$Actual inflation exceeds expected inflation ($4\% > 2\%$). Workers will observe that
+Since $u < u_n$ Actual inflation exceeds expected inflation ($4\% > 2\%$). Workers will observe that
 Inflation is higher than expected and will revise their expectations upward in the next period. As
 $\pi^e$ rises, the SRPC shifts upward, and at the same unemployment rate ($3\%$), inflation will be
 Higher. This process continues -- inflation accelerates.

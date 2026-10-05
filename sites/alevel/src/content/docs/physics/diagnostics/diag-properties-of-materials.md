@@ -47,7 +47,7 @@ tested under tension. The following data are obtained:
 
 The wire breaks at a stress of $430\,\text{MPa}$.
 
-(a) Calculate Young"s modulus from the linear region of the graph.
+(a) Calculate Young's modulus from the linear region of the graph.
 
 (b) Calculate the elastic potential energy stored in the wire at a stress of $300\,\text{MPa}$ using
 the stress-strain graph.
@@ -229,7 +229,7 @@ $= W_{\text{load}} - W_{\text{unload}} = 1.115 - 0.575 = 0.540\,\text{J}$
 This energy is dissipated as heat due to internal friction within the rubber (hysteresis). The
 loading-unloading curve forms a hysteresis loop, and the area enclosed represents the energy lost
 per cycle. This is why rubber gets warm when repeatedly stretched and released. The fraction of
-energy dissipated is $0.540/1.115 = 48\%$Meaning the rubber band returns only about $52\%$ of the
+energy dissipated is $0.540/1.115 = 48\%$ Meaning the rubber band returns only about $52\%$ of the
 energy stored in it.
 
 ## Integration Tests
@@ -238,7 +238,7 @@ energy stored in it.
 
 **Question:**
 
-A steel wire of length $3.0\,\text{m}$Cross-sectional area $2.0 \times 10^{-6}\,\text{m}^2$ And
+A steel wire of length $3.0\,\text{m}$ Cross-sectional area $2.0 \times 10^{-6}\,\text{m}^2$ And
 Young's modulus $2.0 \times 10^{11}\,\text{Pa}$ is fixed between two rigid supports. The linear
 expansivity of steel is $1.2 \times 10^{-5}\,\text{K}^{-1}$.
 
@@ -340,7 +340,7 @@ $$
 \omega = \sqrt{\frac{\sigma}{\rho R^2}} = \sqrt{\frac{200 \times 10^6}{7800 \times 0.25}} = \sqrt{\frac{200 \times 10^6}{1950}} = \sqrt{1.026 \times 10^5} = 320\,\text{rad}\,\text{s}^{-1}
 $$
 
-This is about $3060\,\text{rpm}$Or $51\,\text{rev}\,\text{s}^{-1}$.
+This is about $3060\,\text{rpm}$ Or $51\,\text{rev}\,\text{s}^{-1}$.
 
 (c) Strain: $\varepsilon = \sigma/E = 200 \times 10^6/(2.0 \times 10^{11}) = 1.0 \times 10^{-3}$
 
@@ -363,7 +363,7 @@ The circumference also increases by $0.10\%$.
 
 **Question:**
 
-A steel wire of length $10\,\text{m}$Cross-sectional area $1.0 \times 10^{-6}\,\text{m}^2$Young's
+A steel wire of length $10\,\text{m}$ Cross-sectional area $1.0 \times 10^{-6}\,\text{m}^2$ Young's
 modulus $2.0 \times 10^{11}\,\text{Pa}$ And density $7800\,\text{kg}\,\text{m}^{-3}$ hangs vertically
 from a fixed support.
 

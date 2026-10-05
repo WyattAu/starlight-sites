@@ -97,7 +97,7 @@ $$
 ### Free Fall
 
 An object in free fall experiences only the force of gravity. All objects in free fall have the same
-acceleration $g \approx 9.8\ \text{m/s}^2$ near Earth"s surface, regardless of mass.
+acceleration $g \approx 9.8\ \text{m/s}^2$ near Earth's surface, regardless of mass.
 
 ### Graphical Analysis
 

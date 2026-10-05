@@ -81,7 +81,7 @@ to inform the sender exactly which blocks have arrived, avoiding unnecessary Ret
 
 **Window scaling.** The TCP window field is 16 bits (max 65,535 bytes), insufficient for high-BDP
 Paths. The window scale option shifts the window left by $S$ bits, allowing windows up to
-$2^{16+S-1}$ bytes (maximum $S = 14$Yielding a 1 GiB window).
+$2^{16+S-1}$ bytes (maximum $S = 14$ Yielding a 1 GiB window).
 
 ### 5.4 TCP vs UDP Comparison
 
@@ -173,7 +173,7 @@ TCP adapts its sending rate based on perceived network congestion.
 **Slow start.** `cwnd = 1` MSS. Double `cwnd` per ACK (exponential growth). Until `cwnd` reaches
 `ssthresh` or loss occurs.
 
-**Congestion avoidance.** When $\mathrm{cwnd} \geq \mathrm{ssthresh}$Increase `cwnd` by
+**Congestion avoidance.** When $\mathrm{cwnd} \geq \mathrm{ssthresh}$ Increase `cwnd` by
 $\mathrm{MSS} \times (\mathrm{MSS} / \mathrm{cwnd})$ per ACK (linear growth, approximately 1 MSS Per
 RTT).
 
@@ -265,7 +265,7 @@ The ACK could correspond To either the original or the retransmission (retransmi
 <details>
 <summary>Worked Example: RTT Estimation</summary>
 
-Given: $\alpha = 1/8$, $\beta = 1/4$Initial $\mathrm{RTT_s} = 0$, $\mathrm{RTT_d} = 0$. Measured
+Given: $\alpha = 1/8$, $\beta = 1/4$ Initial $\mathrm{RTT_s} = 0$, $\mathrm{RTT_d} = 0$. Measured
 RTTs: 220 ms, 240 ms, 230 ms, 260 ms, 250 ms.
 
 **After measurement 1 (220 ms):**

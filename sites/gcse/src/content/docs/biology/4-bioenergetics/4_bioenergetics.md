@@ -154,7 +154,7 @@ Step-by-step interpretation:
 
 **Worked Example: Calculating light intensity.**
 
-Light intensity follows an inverse square law: intensity $\propto 1/d^2$Where $d$ is the distance
+Light intensity follows an inverse square law: intensity $\propto 1/d^2$ Where $d$ is the distance
 From the lamp.
 
 If the lamp is 10 cm from the pondweed and produces 100 bubbles per minute, what rate would you
@@ -251,7 +251,7 @@ Out of ATP and NADPH.
 | ------------------- | ------------------------- | ------------------------------ |
 | Location            | Thylakoid membranes       | Stroma                         |
 | Does it need light? | Yes, directly             | No (but needs products of LDR) |
-| Inputs              | Water, light, ADP, NADP+  | $\mathrm{CO_2$ATP, NADPH       |
+| Inputs              | Water, light, ADP, NADP+  | $\mathrm{CO_2$ ATP, NADPH       |
 | Outputs             | Oxygen, ATP, NADPH        | Glucose, ADP, NADP+            |
 | Key process         | Photolysis of water       | Carbon fixation by RuBisCO     |
 
@@ -405,7 +405,7 @@ To take in this extra oxygen to fully oxidise the accumulated lactic acid.
 **Why soda lime is essential.** Respiration produces $\mathrm{CO_2$ as well as consuming
 $\mathrm{O_2$. If the $\mathrm{CO_2$ were not absorbed, the volume change would be the difference
 Between $\mathrm{O_2$ consumed and $\mathrm{CO_2$ produced, not the true rate of oxygen consumption.
-Since soda lime absorbs $\mathrm{CO_2$The measured volume change reflects only $\mathrm{O_2$
+Since soda lime absorbs $\mathrm{CO_2$ The measured volume change reflects only $\mathrm{O_2$
 Consumption.
 
 ### 3.2 Interpreting Results
@@ -605,7 +605,7 @@ Suspended in a hydrogen carbonate indicator solution.
 2. Place a known number of algal balls into a test tube containing hydrogen carbonate indicator
    (which changes colour depending on the pH, which changes with $\mathrm{CO_2$ concentration).
 3. Expose the test tube to light of a specific intensity for a set time.
-4. As photosynthesis occurs, the algae absorb $\mathrm{CO_2$Raising the pH. The indicator changes
+4. As photosynthesis occurs, the algae absorb $\mathrm{CO_2$ Raising the pH. The indicator changes
    from red/orange (high $\mathrm{CO_2$) to purple (low $\mathrm{CO_2$).
 5. Use a colorimeter to measure the exact colour change, which corresponds to the amount of
    $\mathrm{CO_2$ absorbed.
@@ -746,8 +746,8 @@ Allowed for acclimatisation.
 
 **Worked Example: Interpreting the results.**
 
-At 1% $\mathrm{CO_2$The rate is 5 bubbles/min. At 2% $\mathrm{CO_2$The rate is 9 bubbles/min. At 3%
-$\mathrm{CO_2$The rate is 10 bubbles/min. At 4% $\mathrm{CO_2$The rate is 10 bubbles/min.
+At 1% $\mathrm{CO_2$ The rate is 5 bubbles/min. At 2% $\mathrm{CO_2$ The rate is 9 bubbles/min. At 3%
+$\mathrm{CO_2$ The rate is 10 bubbles/min. At 4% $\mathrm{CO_2$ The rate is 10 bubbles/min.
 
 Between 1% and 2%, the rate increases from 5 to 9 bubbles/min (an increase of 4). Between 2% and 3%,
 The rate increases from 9 to 10 (an increase of only 1). Between 3% and 4%, there is no increase at

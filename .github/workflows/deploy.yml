@@ -134,6 +134,9 @@ jobs:
       - name: Display-math delimiter gate
         run: node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
 
+      - name: Prose damage lint
+        run: python3 scripts/fix-prose-damage.py --check
+
       - name: PracticeProblem corruption lint
         run: node scripts/lint-practice-components.js
 

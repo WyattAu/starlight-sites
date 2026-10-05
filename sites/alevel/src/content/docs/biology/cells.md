@@ -60,7 +60,7 @@ $$
 
 Where $d$ is the minimum resolvable distance, $\lambda$ is the wavelength, $n$ is the refractive
 Index of the medium, and $\theta$ is the half-angle of the cone of light. For light microscopy,
-$d \approx 200\ \mathrm{nm}$Giving a maximum useful magnification of approximately $\times 1500$.
+$d \approx 200\ \mathrm{nm}$ Giving a maximum useful magnification of approximately $\times 1500$.
 
 **Electron microscopy** uses a beam of electrons ($\lambda \approx 0.005\ \mathrm{nm}$) instead of
 Light, giving a resolving power of approximately $0.2\ \mathrm{nm}$ and effective magnifications up
@@ -184,7 +184,7 @@ The nucleus contains:
 
 ### 3.2 Mitochondria
 
-Mitochondria ($d \approx 1$--$10\ \mu\mathrm{m}$Length up to $7\ \mu\mathrm{m}$) are the site of
+Mitochondria ($d \approx 1$--$10\ \mu\mathrm{m}$ Length up to $7\ \mu\mathrm{m}$) are the site of
 Aerobic respiration, specifically the Krebs cycle (matrix) and oxidative phosphorylation (inner
 Membrane/cristae). They have:
 
@@ -413,7 +413,7 @@ $$
 $$
 
 **Worked Example 2.** A mitochondrion has an actual length of $5\ \mu\mathrm{m}$. If an electron
-Micrograph is taken at a magnification of $\times 50000$What will be the length of the mitochondrion
+Micrograph is taken at a magnification of $\times 50000$ What will be the length of the mitochondrion
 In the image?
 
 $$
@@ -537,7 +537,7 @@ $$
 \Psi_{\mathrm{cell}} = \Psi_s + \Psi_p = -700 + 300 = -400\ \mathrm{kPa}
 $$
 
-Since $\Psi_{\mathrm{cell}} = \Psi_{\mathrm{solution}} = -400\ \mathrm{kPa}$There is no net water
+Since $\Psi_{\mathrm{cell}} = \Psi_{\mathrm{solution}} = -400\ \mathrm{kPa}$ There is no net water
 Movement. The cell is in equilibrium with the external solution.
 
 **Worked Example 2.** A plant cell with $\Psi_s = -900\ \mathrm{kPa}$ and
@@ -550,7 +550,7 @@ $$
 
 Water moves from pure water ($0\ \mathrm{kPa}$) into the cell ($-450\ \mathrm{kPa}$) down the water
 Potential gradient. As water enters, the pressure potential increases (the cell becomes more
-turgid). Equilibrium is reached when $\Psi_{\mathrm{cell}} = 0\ \mathrm{kPa}$I.e., when
+turgid). Equilibrium is reached when $\Psi_{\mathrm{cell}} = 0\ \mathrm{kPa}$ I.e., when
 $\Psi_p = +900\ \mathrm{kPa}$.
 
 **Worked Example 3.** A red blood cell (which has no cell wall and therefore $\Psi_p = 0$) is placed
@@ -834,7 +834,7 @@ Organisms.
 An electron micrograph shows a mitochondrion. The scale bar indicates that $1\ \mathrm{mm}$ on the
 Image represents $0.2\ \mu\mathrm{m}$ in reality. The mitochondrion measures $6.5\ \mathrm{mm}$ in
 Length on the image. (a) Calculate the actual length. (b) If the magnification of the micrograph was
-$\times 25000$What is the expected image length, and does it match?
+$\times 25000$ What is the expected image length, and does it match?
 
 **Answer.** (a) Actual length
 $= 6.5\ \mathrm{mm} \times 0.2\ \mu\mathrm{m\ mm^{-1}} = 1.3\ \mu\mathrm{m}$.
@@ -1223,7 +1223,7 @@ $$
   negative resting membrane potential (approximately $-70\ \mathrm{mV}$).
 - Accounts for approximately 30--40% of the resting ATP consumption of a typical animal cell.
 - Inhibited by **ouabain** (a cardiac glycoside derived from the foxglove plant, _Digitalis
-  purpurea_). At therapeutic doses, partial inhibition increases intracellular $\mathrm{Na^+}$Which
+  purpurea_). At therapeutic doses, partial inhibition increases intracellular $\mathrm{Na^+}$ Which
   slows the $\mathrm{Na^+/Ca^{2+}}$ exchanger, increasing intracellular $\mathrm{Ca^{2+}}$ and
   strengthening heart muscle contraction (used to treat heart failure).
 
@@ -1447,7 +1447,7 @@ Gap junctions are channels that directly connect the cytoplasm of adjacent anima
 
 - Composed of connexin proteins arranged in a ring (connexon) in the plasma membrane of each cell.
 - Allow the passage of ions ($\mathrm{Ca^{2+}}$, $\mathrm{K^+}$), small molecules (cAMP,
-  $\mathrm{IP_3}$Glucose, amino acids), and electrical signals (action potentials) between cells.
+  $\mathrm{IP_3}$ Glucose, amino acids), and electrical signals (action potentials) between cells.
 - Diameter of each channel: approximately 1.5 nm.
 - Functions: electrical coupling between cardiac muscle cells (allows coordinated contraction);
   spread of calcium waves; metabolic coupling (sharing nutrients); communication between neurons in
@@ -1907,7 +1907,7 @@ $$
 | ---------- | ------ | ----------- |
 | Metre      | m      | --          |
 | Millimetre | mm     | $10^{-3}$ m |
-| Micrometre | $\mu$M | $10^{-6}$ m |
+| Micrometre | $\mu$ M | $10^{-6}$ m |
 | Nanometre  | nm     | $10^{-9}$ m |
 
 ## 36. Cell Division: Mitosis in Detail
@@ -1954,7 +1954,7 @@ $$
 
 | Feature                   | Prokaryotic Cell                                                                  | Eukaryotic Cell                                                |
 | ------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| Size                      | 1--10 $\mu$M                                                                      | 10--100 $\mu$M                                                 |
+| Size                      | 1--10 $\mu$ M                                                                      | 10--100 $\mu$ M                                                 |
 | Nucleus                   | No true nucleus (nucleoid region)                                                 | True nucleus with nuclear envelope and nucleolus               |
 | DNA                       | Single, circular chromosome; no histones                                          | Multiple linear chromosomes; associated with histones          |
 | Ribosomes                 | 70S (smaller)                                                                     | 80S (larger)                                                   |

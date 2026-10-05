@@ -36,7 +36,7 @@ Newton's second law, F=ma, is the universe's accounting rule for motion. It stat
 
 The first law is the special case of zero net force: the ledger is balanced, and the object's state of motion does not change. The third law is the double-entry bookkeeping principle: every force has an equal and opposite counterpart, so the total "debt" in the universe is always zero. The conservation laws -- of momentum, energy, and angular momentum -- are the consequences of this accounting system applied to isolated systems. They are the reason we can predict the outcome of a collision without knowing every microscopic detail: the ledger must balance, regardless of the complexity of the transactions.
 
-### 1.1 Newton"s Laws
+### 1.1 Newton's Laws
 
 1. **First Law (Inertia):** A body remains at rest or in uniform motion unless acted upon by a net
    force.
@@ -51,7 +51,7 @@ $$
 F_x = m\ddot{x}, \quad F_y = m\ddot{y}, \quad F_z = m\ddot{z}
 $$
 
-In planar polar coordinates $(r, \phi)$The acceleration decomposes into radial and transverse
+In planar polar coordinates $(r, \phi)$ The acceleration decomposes into radial and transverse
 components:
 
 $$
@@ -169,7 +169,7 @@ $$
 $\blacksquare$
 
 **Definition.** A force is **conservative** if the work done is path-independent, equivalently
-$\nabla \times \mathbf{F} = \mathbf{0}$Equivalently $\mathbf{F} = -\nabla V$ for some scalar
+$\nabla \times \mathbf{F} = \mathbf{0}$ Equivalently $\mathbf{F} = -\nabla V$ for some scalar
 potential $V(\mathbf{r})$.
 
 **Theorem 1.3 (Conservation of Mechanical Energy).** If all forces are conservative, $E = T + V$ is
@@ -218,7 +218,7 @@ $\blacksquare$
 **Definition.** The **rocket equation** (Tsiolkovsky equation) describes the motion of a rocket that
 expels mass at a constant exhaust velocity.
 
-Consider a rocket of mass $m$ moving with velocity $v$ in one dimension. In time $dt$It ejects mass
+Consider a rocket of mass $m$ moving with velocity $v$ in one dimension. In time $dt$ It ejects mass
 $dm$ (where $dm \lt 0$) at exhaust velocity $u_e$ relative to the rocket. The ejected mass has
 velocity $v - u_e$ in the lab frame. By conservation of momentum:
 

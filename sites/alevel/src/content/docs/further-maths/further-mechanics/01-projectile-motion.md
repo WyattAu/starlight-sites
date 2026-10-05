@@ -179,7 +179,7 @@ $$
 \boxed{R = \frac{V^2\sin 2\theta}{g}}
 $$
 
-This is maximised when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$Giving
+This is maximised when $\sin 2\theta = 1$ I.e., $\theta = 45^\circ$ Giving
 $R_{\max} = \dfrac{V^2}{g}$. $\blacksquare$
 
 :::note
@@ -237,7 +237,7 @@ $r = \dfrac{2V^2\cos\theta\sin(\theta-\alpha)}{g\cos^2\alpha}$.
 Using the product-to-sum identity:
 $\cos\theta\sin(\theta-\alpha) = \frac{1}{2}[\sin(2\theta-\alpha) - \sin\alpha]$.
 
-This is maximised when $\sin(2\theta - \alpha) = 1$Giving:
+This is maximised when $\sin(2\theta - \alpha) = 1$ Giving:
 
 $$
 2\theta - \alpha = 90° \implies \boxed{\theta = \frac{90° + \alpha}{2} = 45° + \frac{\alpha}{2}}
@@ -390,7 +390,7 @@ $= \dfrac{1250 \times 0.8192 \times 0.2588}{9.8 \times 0.8830} = \dfrac{265.1}{8
 
 <details>
 <summary>Problem 7</summary>
-Show that for a given initial speed $V$The maximum range on horizontal ground is $\dfrac{V^2}{g}$ and occurs at $\theta = 45^\circ$.
+Show that for a given initial speed $V$ The maximum range on horizontal ground is $\dfrac{V^2}{g}$ and occurs at $\theta = 45^\circ$.
 </details>
 
 <details>
@@ -413,7 +413,7 @@ A cricketer hits a ball at $28\,\mathrm{m s}^{-1}$ at $35^\circ$ to the horizont
 <summary>Solution 8</summary>
 $R = \dfrac{28^2\sin 70°}{9.8} = \dfrac{784 \times 0.9397}{9.8} = \dfrac{736.7}{9.8} \approx 75.2\,\mathrm{m}$.
 
-Since $75.2 > 60\,\mathrm{m}$The ball travels beyond the fielder. Check height at $x = 60$:
+Since $75.2 > 60\,\mathrm{m}$ The ball travels beyond the fielder. Check height at $x = 60$:
 
 $y = 60\tan 35° - \dfrac{9.8 \times 3600}{2 \times 784 \times \cos^2 35°} = 42.02 - \dfrac{35280}{2 \times 784 \times 0.6710} = 42.02 - \dfrac{35280}{1051.9}$
 
@@ -586,13 +586,13 @@ R(u) \propto u\sqrt{1-u^2} + \sqrt{1-u^2}\sqrt{V^2 u^2 + 2gh}
 $$
 
 Differentiating and simplifying leads to the condition
-$\cos\theta = \dfrac{V}{\sqrt{V^2 + 2gh}}$I.e.:
+$\cos\theta = \dfrac{V}{\sqrt{V^2 + 2gh}}$ I.e.:
 
 $$
 \tan\theta = \frac{V\sin\theta}{V\cos\theta} = \frac{V\sqrt{1 - \frac{V^2}{V^2 + 2gh}}}{\frac{V^2}{\sqrt{V^2 + 2gh}}} = \frac{V}{\sqrt{V^2 + 2gh}}
 $$
 
-When $h = 0$This reduces to $\tan\theta = 1$I.e., $\theta = 45^\circ$ as expected. $\blacksquare$
+When $h = 0$ This reduces to $\tan\theta = 1$ I.e., $\theta = 45^\circ$ as expected. $\blacksquare$
 
 ### 7.5 Worked example: projectile from a cliff
 
@@ -884,7 +884,7 @@ $$
 R = \frac{u^2[\sin(2\theta - \alpha) - \sin\alpha]}{g\cos^2\alpha}
 $$
 
-$R$ is maximised when $\sin(2\theta - \alpha) = 1$I.e.,
+$R$ is maximised when $\sin(2\theta - \alpha) = 1$ I.e.,
 $2\theta - \alpha = \dfrac{\pi}{2}$.
 
 $$
@@ -965,7 +965,7 @@ $x = \dfrac{V^2\sin 2\theta}{2g}$.
 **Problem.** A gun can fire a shell with speed $u$ at any angle. Show that no point outside the
 Parabola $y = \dfrac{u^2}{2g} - \dfrac{gx^2}{2u^2}$ can be hit.
 
-**Solution.** For angle $\theta$The trajectory is
+**Solution.** For angle $\theta$ The trajectory is
 $y = x\tan\theta - \dfrac{gx^2}{2u^2}(1+\tan^2\theta)$.
 
 Rearranging as a quadratic in $\tan\theta$:
@@ -1008,7 +1008,7 @@ $\blacksquare$
 | Using $45°$ for maximum range without checking if the target is above or below launch height | Maximum range at $45°$ only applies when launch and landing are at the same height                    |
 | Forgetting that $g$ acts downward in all projectile problems                                 | Decompose $g$ into components along your chosen axes                                                  |
 | Assuming air resistance is negligible when the question does not specify                     | In A-Level Further Maths, always state "assuming no air resistance" unless told otherwise             |
-| Confusing the angle to the horizontal with the angle to the inclined plane                   | On a plane inclined at $\alpha$: angle to the plane $= \theta - \alpha$Angle to horizontal $= \theta$ |
+| Confusing the angle to the horizontal with the angle to the inclined plane                   | On a plane inclined at $\alpha$: angle to the plane $= \theta - \alpha$ Angle to horizontal $= \theta$ |
 
 ---
 
@@ -1111,7 +1111,7 @@ $\boxed{u \approx 25.9\,\mathrm{m\,s^{-1}}}$
 
 ### 11.1 Projectiles and circular motion
 
-Both topics involve resolving forces and using Newton"s second law in 2D. See
+Both topics involve resolving forces and using Newton's second law in 2D. See
 [Circular Motion](/further-maths/further-mechanics/02-circular-motion/).
 
 ### 11.2 Projectile equations and calculus
@@ -1246,7 +1246,7 @@ This is complementary to the result for an upward slope ($\theta = \pi/4 + \alph
 
 ### 14.4 Range as a function of elevation
 
-At constant speed $u$The range is $R = \dfrac{u^2\sin 2\theta}{g}$.
+At constant speed $u$ The range is $R = \dfrac{u^2\sin 2\theta}{g}$.
 
 Two angles give the same range: $\theta$ and $90° - \theta$ (complementary angles).
 

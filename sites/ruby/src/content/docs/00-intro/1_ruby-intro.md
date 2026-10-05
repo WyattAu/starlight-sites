@@ -117,7 +117,7 @@ Key characteristics of Ruby:
 - Better error handling and deprecation warnings
 - `ReferenceError` instead of `NameError` for certain binding issues
 
-## Ruby"s Philosophy: The Principle of Least Astonishment
+## Ruby's Philosophy: The Principle of Least Astonishment
 
 The **Principle of Least Astonishment (POLA)**, sometimes called the **Principle of Least
 Surprise**, is the guiding philosophy behind Ruby's design. Matz designed Ruby so that the language

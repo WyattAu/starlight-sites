@@ -22,7 +22,7 @@ categories:
 
 ## 1. Introduction
 
-**The Sorting Problem:** Given an array $A[0..n-1]$Rearrange the elements into non-decreasing Order:
+**The Sorting Problem:** Given an array $A[0..n-1]$ Rearrange the elements into non-decreasing Order:
 $A[0] \leq A[1] \leq \cdots \leq A[n-1]$.
 
 **Stability:** A sort is **stable** if elements with equal keys maintain their relative order from
@@ -62,10 +62,10 @@ Positions at the end of the array.
 **Proof.** By induction on $i$.
 
 _Base case ($i = 0$)._ The inner loop compares each adjacent pair from index 0 to $n-2$. Whenever
-$A[j] \gt A[j+1]$They are swapped. This ensures the maximum element moves rightward through Every
+$A[j] \gt A[j+1]$ They are swapped. This ensures the maximum element moves rightward through Every
 comparison until it reaches index $n-1$. ✓
 
-_Inductive step._ Assume after pass $i-1$The $i$ largest elements are at indices $n-i, \ldots, n-1$.
+_Inductive step._ Assume after pass $i-1$ The $i$ largest elements are at indices $n-i, \ldots, n-1$.
 Pass $i$ operates on indices $0$ to $n-i-1$. By the same argument, the maximum Element in this range
 moves to index $n-i-1$. The $i+1$ largest elements are now at indices $n-i-1, \ldots, n-1$. ✓
 
@@ -116,7 +116,7 @@ is sorted.
 
 **Proof.** By induction on $i$.
 
-_Base case ($i = 1$)._ $A[0..1]$ contains at most 2 elements. If $A[0] \gt A[1]$They are Swapped;
+_Base case ($i = 1$)._ $A[0..1]$ contains at most 2 elements. If $A[0] \gt A[1]$ They are Swapped;
 otherwise, no change. Either way, $A[0..1]$ is sorted. ✓
 
 _Inductive step._ Assume $A[0..i-1]$ is sorted. We insert $A[i]$ (stored as `key`) by shifting
@@ -207,7 +207,7 @@ $$
 The $O(n)$ term comes from the `merge` step, which processes each element exactly once.
 
 By the Master Theorem: $a = 2$, $b = 2$, $f(n) = O(n)$. We have
-$f(n) = O(n^{\log_b a}) = O(n^1) = O(n)$Which is case 2. Therefore:
+$f(n) = O(n^{\log_b a}) = O(n^1) = O(n)$ Which is case 2. Therefore:
 
 $$
 T(n) = O(n \log n)
@@ -259,8 +259,8 @@ _At the start of each iteration with index `j`:_
 - $A[i+1..j-1]$ contains only elements $\geq$ pivot
 - $A[\mathrm{high}] = \mathrm{pivot}$ (unchanged)
 
-_Maintenance._ If $A[j] \lt \mathrm{pivot}$Increment $i$ and swap $A[i]$ with $A[j]$Extending The
-"$\lt $ pivot" region. If $A[j] \geq \mathrm{pivot}$Increment $j$ only, extending the "$\geq$ pivot"
+_Maintenance._ If $A[j] \lt \mathrm{pivot}$ Increment $i$ and swap $A[i]$ with $A[j]$ Extending The
+"$\lt $ pivot" region. If $A[j] \geq \mathrm{pivot}$ Increment $j$ only, extending the "$\geq$ pivot"
 region.
 
 _Termination._ After the loop, swap $A[i+1]$ with $A[\mathrm{high}]$ (the pivot). Now:
@@ -324,7 +324,7 @@ $$
 2^h \geq n! \implies h \geq \log_2(n!)
 $$
 
-Using Stirling"s approximation: $n! \approx \left(\frac{n}{e}\right)^n \sqrt{2\pi n}$
+Using Stirling's approximation: $n! \approx \left(\frac{n}{e}\right)^n \sqrt{2\pi n}$
 
 $$
 \log_2(n!) = n\log_2 n - n\log_2 e + O(\log n) = \Omega(n \log n)
@@ -419,7 +419,7 @@ Final: `[1, 1, 2, 3, 6, 8, 10]`
 
 Insertion sort inserts $A[i]$ into the sorted portion $A[0..i-1]$ by shifting elements $\gt A[i]$
 One position right. The condition for shifting is `A[j] > key` (strictly greater). If
-$A[j] = \mathrm{key}$The element is **not** shifted, and `key` is placed **after** the equal
+$A[j] = \mathrm{key}$ The element is **not** shifted, and `key` is placed **after** the equal
 Element. Therefore, equal elements maintain their relative input order. $\square$
 
 </details>
@@ -431,7 +431,7 @@ This possible? Justify using the decision tree model.
 <summary>Answer</summary>
 
 A decision tree for sorting 5 elements must have at least $5! = 120$ leaves. A binary tree of height
-7 has at most $2^8 - 1 = 255$ nodes and at most $2^7 = 128$ leaves. Since $128 \geq 120$It is
+7 has at most $2^8 - 1 = 255$ nodes and at most $2^7 = 128$ leaves. Since $128 \geq 120$ It is
 Theoretically possible to sort 5 elements in 7 comparisons. However, this requires a perfectly
 Balanced decision tree (each comparison splits the remaining possibilities roughly in half), which
 Is achievable by an optimal comparison-based sorting algorithm.
@@ -487,7 +487,7 @@ Master Theorem: $a = 2$, $b = 2$, $f(n) = cn$.
 
 $n^{\log_b a} = n^{\log_2 2} = n^1 = n$.
 
-$f(n) = cn = O(n^1)$Which is case 2: $f(n) = \Theta(n^{\log_b a} \log^k n)$ with $k = 0$.
+$f(n) = cn = O(n^1)$ Which is case 2: $f(n) = \Theta(n^{\log_b a} \log^k n)$ with $k = 0$.
 
 Therefore: $T(n) = \Theta(n \log n)$.
 
@@ -534,8 +534,8 @@ def merge_count(L, R):
     return result, inversions
 ```
 
-When $R[j] \lt L[i]$All elements $L[i], L[i+1], \ldots$ in the left half are greater than
-$R[j]$Contributing `len(L) - i` inversions.
+When $R[j] \lt L[i]$ All elements $L[i], L[i+1], \ldots$ in the left half are greater than
+$R[j]$ Contributing `len(L) - i` inversions.
 
 Total inversions = sum of inversions from all merge steps. Total time: $O(n \log n)$.
 

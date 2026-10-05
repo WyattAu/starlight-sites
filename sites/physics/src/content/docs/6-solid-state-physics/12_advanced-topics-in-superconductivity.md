@@ -192,7 +192,7 @@ strongly Type I.
 <details>
 <summary>Worked Example 12.2: Josephson Junction Frequency</summary>
 
-A voltage $V = 1\ \mu$V is applied across a Josephson junction:
+A voltage $V = 1\ \mu$ V is applied across a Josephson junction:
 
 $$
 \nu = \frac{2eV}{h} = \frac{2 \times 1.602 \times 10^{-19} \times 10^{-6}}{6.626 \times 10^{-34}} = \frac{3.204 \times 10^{-25}}{6.626 \times 10^{-34}} = 4.836 \times 10^{8}\ \mathrm{Hz} \approx 483.6\ \mathrm{MHz}

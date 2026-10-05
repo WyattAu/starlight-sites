@@ -73,7 +73,7 @@ would be nonsensically wrong.
 ### UT-2: Deviation from Ideal Gas Behaviour
 
 **Question:** For which gas under which conditions would deviation from ideal behaviour be greatest:
-(a) $\text{He}$ at $50\ \text{K}$ and $1\ \text{atm}$Or (b) $\text{NH}_3$ at $400\ \text{K}$ and
+(a) $\text{He}$ at $50\ \text{K}$ and $1\ \text{atm}$ Or (b) $\text{NH}_3$ at $400\ \text{K}$ and
 $1\ \text{atm}$? Justify your answer using the van der Waals equation concepts of intermolecular
 forces and molecular volume.
 
@@ -112,10 +112,10 @@ significant relative to kinetic energy. He at 50 K is still far above its critic
 
 **Question:** On a Maxwell-Boltzmann distribution curve, mark the most probable speed, mean speed,
 and root-mean-square speed. If the temperature of a gas is increased from $300\ \text{K}$ to
-$600\ \text{K}$By what factor does the fraction of molecules with energy greater than the activation
+$600\ \text{K}$ By what factor does the fraction of molecules with energy greater than the activation
 energy $E_a$ change, given that $E_a = 50\ \text{kJ mol}^{-1}$?
 
-**Solution:** On the distribution: $v_{\text{mp}} \lt v_{\text{mean}} \lt v_{\text{rms}}$All
+**Solution:** On the distribution: $v_{\text{mp}} \lt v_{\text{mean}} \lt v_{\text{rms}}$ All
 increasing with temperature. The peak shifts right and lowers.
 
 The fraction of molecules with energy $\geq E_a$ is proportional to $\exp(-E_a/RT)$.
@@ -210,12 +210,12 @@ much more energy than temperature changes.
 
 ### IT-3: Gas Behaviour and Bonding (with Chemical Bonding)
 
-**Question:** Explain why $\text{CO}_2$ sublimes rather than melts at $1\ \text{atm}$Referring to
+**Question:** Explain why $\text{CO}_2$ sublimes rather than melts at $1\ \text{atm}$ Referring to
 its phase diagram. Why does $\text{SiO}_2$ not have a triple point at accessible pressures? Relate
 both observations to the type of bonding in each substance.
 
 **Solution:** $\text{CO}_2$ has a triple point at $-56.6\ ^\circ\text{C}$ and $5.11\ \text{atm}$. At
-$1\ \text{atm}$The solid-gas equilibrium line lies below the solid-liquid line, meaning that at
+$1\ \text{atm}$ The solid-gas equilibrium line lies below the solid-liquid line, meaning that at
 atmospheric pressure, solid $\text{CO}_2$ transforms directly to gas (sublimation) without passing
 through the liquid phase. This occurs because $\text{CO}_2$ consists of small, non-polar molecules
 with only weak London dispersion forces. Little energy is needed to separate molecules from the

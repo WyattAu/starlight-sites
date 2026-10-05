@@ -138,7 +138,7 @@ $$
 \mathrm{pK_a = -\log K_a
 $$
 
-The larger the $K_a$The stronger the acid.
+The larger the $K_a$ The stronger the acid.
 
 **Relationship:** $\mathrm{pH + \mathrm{pOH = 14$ at $25^\circ\mathrm{C$.
 
@@ -194,13 +194,13 @@ $$
 
 ### How Buffers Work
 
-When acid ($\mathrm{H^+$) is added: the conjugate base reacts with $\mathrm{H^+$Removing it.
+When acid ($\mathrm{H^+$) is added: the conjugate base reacts with $\mathrm{H^+$ Removing it.
 
 $$
 \mathrm{CH_3\mathrm{COO^- + \mathrm{H_3\mathrm{O^+ \to \mathrm{CH_3\mathrm{COOH + \mathrm{H_2\mathrm{O
 $$
 
-When base ($\mathrm{OH^-$) is added: the weak acid reacts with $\mathrm{OH^-$Neutralising it.
+When base ($\mathrm{OH^-$) is added: the weak acid reacts with $\mathrm{OH^-$ Neutralising it.
 
 $$
 \mathrm{CH_3\mathrm{COOH + \mathrm{OH^- \to \mathrm{CH_3\mathrm{COO^- + \mathrm{H_2\mathrm{O
@@ -335,10 +335,10 @@ $$
 
 ### Strong Diprotic Acid
 
-For $\mathrm{H_2\mathrm{SO_4$The first proton dissociates completely. The second proton has
+For $\mathrm{H_2\mathrm{SO_4$ The first proton dissociates completely. The second proton has
 $K_{a2} = 1.2 \times 10^{-2}$.
 
-**Worked Example 6 (HL):** Find the pH of $0.010 \mathrm{ M$ $\mathrm{H_2\mathrm{SO_4$Accounting for
+**Worked Example 6 (HL):** Find the pH of $0.010 \mathrm{ M$ $\mathrm{H_2\mathrm{SO_4$ Accounting for
 Both protons.
 
 First proton: $[\mathrm{H^+] = 0.010 \mathrm{ M$ (complete dissociation).
@@ -702,7 +702,7 @@ $$
 \mathrm{CaCO_3 + 2\mathrm{HCl \to \mathrm{CaCl_2 + \mathrm{H_2\mathrm{O + \mathrm{CO_2
 $$
 
-Add excess $\mathrm{CaCO_3$ to $\mathrm{HCl$Filter, evaporate, crystallise.
+Add excess $\mathrm{CaCO_3$ to $\mathrm{HCl$ Filter, evaporate, crystallise.
 
 ### Method 4: Acid + Insoluble Base
 
@@ -714,7 +714,7 @@ $$
 \mathrm{CuO + \mathrm{H_2\mathrm{SO_4 \to \mathrm{CuSO_4 + \mathrm{H_2\mathrm{O
 $$
 
-Warm $\mathrm{CuO$ with dilute $\mathrm{H_2\mathrm{SO_4$Filter, evaporate, crystallise.
+Warm $\mathrm{CuO$ with dilute $\mathrm{H_2\mathrm{SO_4$ Filter, evaporate, crystallise.
 
 ### Method 5: Precipitation
 

@@ -38,9 +38,9 @@ the full multiplier effect may not materialise due to crowding out, time lags, a
 
 (d) Tax multiplier $= \frac{-MPC}{1 - MPC} = \frac{-0.8}{0.2} = -4$.
 
-Change in output from $\$50$B tax cut $= |-4| \times 50 = \$200$ billion.
+Change in output from $\$50$ B tax cut $= |-4| \times 50 = \$200$ billion.
 
-The tax cut produces a smaller effect ($\$200$B vs $\$250$B) because households save a portion of
+The tax cut produces a smaller effect ($\$200$ B vs $\$250$ B) because households save a portion of
 the tax cut (the MPS $= 0.2$). Only the portion spent (MPC $= 0.8$) enters the circular flow. Direct
 government spending injects the full amount into the economy immediately.
 
@@ -81,8 +81,8 @@ because it directly injects spending into the economy regardless of interest rat
 
 ### UT-3: Fiscal Policy Tools and Budget Balance
 
-**Question:** An economy has the following data: GDP $= \$5000$B, Tax revenue $= \$1000$B,
-Government spending $= \$1200$B, Interest payments on debt $= \$150$B. The marginal propensity to
+**Question:** An economy has the following data: GDP $= \$5000$ B, Tax revenue $= \$1000$ B,
+Government spending $= \$1200$ B, Interest payments on debt $= \$150$ B. The marginal propensity to
 import is 0.2 and MPC $= 0.75$. (a) Calculate the budget balance and the primary balance. (b)
 Calculate the full fiscal multiplier accounting for imports. (c) The government wants to achieve a
 balanced budget by cutting spending. Calculate the required spending cut and its effect on GDP. (d)
@@ -90,14 +90,14 @@ Explain the paradox of thrift/austerity in this context.
 
 **Solution:**
 
-(a) Budget balance $= T - G = 1000 - 1200 = -\$200$B (budget deficit). Primary balance
-$= T - G + Interest payments = 1000 - 1200 + 150 = -\$50$B (primary deficit).
+(a) Budget balance $= T - G = 1000 - 1200 = -\$200$ B (budget deficit). Primary balance
+$= T - G + Interest payments = 1000 - 1200 + 150 = -\$50$ B (primary deficit).
 
 (b) With imports, the multiplier includes the marginal propensity to import (MPM): multiplier
 $= \frac{1}{1 - MPC + MPM} = \frac{1}{1 - 0.75 + 0.2} = \frac{1}{0.45} = 2.22$.
 
-(c) To balance the budget: spending must be cut by $\$200$B to $\$1000$B. Effect on GDP:
-$\Delta Y = 2.22 \times (-200) = -\$444.4$B. New GDP $= 5000 - 444.4 = \$4555.6$B.
+(c) To balance the budget: spending must be cut by $\$200$ B to $\$1000$ B. Effect on GDP:
+$\Delta Y = 2.22 \times (-200) = -\$444.4$ B. New GDP $= 5000 - 444.4 = \$4555.6$ B.
 
 (d) The paradox of austerity: cutting spending to balance the budget actually reduces GDP
 significantly (-\$444.4B). The recession reduces tax revenue (as incomes fall), which may partially
@@ -122,21 +122,21 @@ increases the denominator (GDP) faster than the debt grows.
 
 ### IT-1: Policy Mix and AD-AS Analysis (with National Income)
 
-**Question:** An economy has GDP $= \$800$B, potential GDP $= \$900$B, inflation $= 6\%$Unemployment
+**Question:** An economy has GDP $= \$800$ B, potential GDP $= \$900$ B, inflation $= 6\%$ Unemployment
 $= 9\%$. The government decides to use a combination of fiscal and monetary policy. (a) Calculate
-the output gap and identify the type of gap. (b) The government increases spending by $\$15$B
-(multiplier $= 2.5$) and the central bank simultaneously lowers interest rates to stimulate $\$20$B
+the output gap and identify the type of gap. (b) The government increases spending by $\$15$ B
+(multiplier $= 2.5$) and the central bank simultaneously lowers interest rates to stimulate $\$20$ B
 of additional investment. Calculate the total impact on GDP. (c) What risk does this combined
 expansionary approach create for inflation? (d) Explain how the policy mix could be designed to
 close the output gap while controlling inflation.
 
 **Solution:**
 
-(a) Output gap $= 800 - 900 = -\$100$B (recessionary gap of 11.1%).
+(a) Output gap $= 800 - 900 = -\$100$ B (recessionary gap of 11.1%).
 
-(b) Fiscal impact $= 2.5 \times 15 = \$37.5$B increase. Monetary impact (direct) $= \$20$B increase
-in investment. The investment increase also has a multiplier effect: $2.5 \times 20 = \$50$B. Total
-increase $= 37.5 + 50 = \$87.5$B. New GDP $= 800 + 87.5 = \$887.5$B (close to but not fully closing
+(b) Fiscal impact $= 2.5 \times 15 = \$37.5$ B increase. Monetary impact (direct) $= \$20$ B increase
+in investment. The investment increase also has a multiplier effect: $2.5 \times 20 = \$50$ B. Total
+increase $= 37.5 + 50 = \$87.5$ B. New GDP $= 800 + 87.5 = \$887.5$ B (close to but not fully closing
 the gap).
 
 (c) The combined expansionary policy risks overheating the economy. With inflation already at 6%,
@@ -154,8 +154,8 @@ increasing inflationary pressure.
 
 ### IT-2: Government Debt Dynamics (with International Trade)
 
-**Question:** A country has national debt of $\$3000$B, GDP of $\$5000$B, interest rate on debt of
-4%, GDP growth rate of 2%, primary deficit of $\$50$B. (a) Calculate the debt-to-GDP ratio. (b)
+**Question:** A country has national debt of $\$3000$ B, GDP of $\$5000$ B, interest rate on debt of
+4%, GDP growth rate of 2%, primary deficit of $\$50$ B. (a) Calculate the debt-to-GDP ratio. (b)
 Using the debt dynamics equation, determine whether the debt ratio is rising or falling. (c) If the
 country runs a current account deficit of 3% of GDP, explain the connection between the twin
 deficits. (d) The government proposes cutting the primary deficit to zero. Calculate the new debt
@@ -166,7 +166,7 @@ dynamics.
 (a) Debt-to-GDP ratio $= 3000/5000 = 60\%$.
 
 (b) Debt dynamics: the change in debt-to-GDP ratio depends on:
-$\Delta d \approx primary deficit/Y + (r - g) \times d$Where $r = 4\%$$g = 2\%$$d = 0.6$.
+$\Delta d \approx primary deficit/Y + (r - g) \times d$ Where $r = 4\%$$g = 2\%$$d = 0.6$.
 
 $\Delta d = 50/5000 + (0.04 - 0.02) \times 0.6 = 0.01 + 0.012 = 0.022$.
 
@@ -184,7 +184,7 @@ external vulnerability.
 (d) With primary deficit $= 0$: $\Delta d = 0 + (0.04 - 0.02) \times 0.6 = 0.012$. The debt ratio is
 still rising by 1.2 percentage points per year because the interest rate exceeds the growth rate. To
 stabilise the debt ratio, the government needs a primary **surplus** of at least
-$(r - g) \times d \times Y = 0.02 \times 0.6 \times 5000 = \$60$B.
+$(r - g) \times d \times Y = 0.02 \times 0.6 \times 5000 = \$60$ B.
 
 ### IT-3: Supply-Side Policy Effectiveness (with Market Failure)
 
@@ -233,7 +233,7 @@ pocket the savings without investing, the benefits may not trickle down.
 government expenditure $= HK\$750$ billion, and outstanding national debt $= HK\$1\,800$ billion.
 The average interest rate on government debt is $3\%$ and the GDP growth rate is $4\%$. (a)
 Calculate the budget deficit as a percentage of GDP. (b) Calculate the debt-to-GDP ratio. (c) Using
-the debt dynamics equation $\Delta d = (r - g) \cdot d_0 + p$Where $p$ is the primary deficit-to-GDP
+the debt dynamics equation $\Delta d = (r - g) \cdot d_0 + p$ Where $p$ is the primary deficit-to-GDP
 ratio, determine whether the debt ratio is rising or falling. (d) If the government wants to
 stabilise the debt ratio at its current level, what primary balance (as a percentage of GDP) must it
 achieve?
@@ -290,7 +290,7 @@ billion.
 
 (d) The fiscal expansion is moderately effective. It closes part of any output gap (if one existed),
 but the crowding out effect and inflationary pressure reduce its impact. The multiplier of 1.455
-(after crowding out) means the $HK\$80$B spending generates only $HK\$116.4$B of additional output.
+(after crowding out) means the $HK\$80$ B spending generates only $HK\$116.4$ B of additional output.
 The policy is most effective when: (1) the economy has significant spare capacity (flat SRAS), (2)
 interest rates are not already near zero, and (3) the spending is on productive infrastructure
 rather than recurrent expenditure.
@@ -301,8 +301,8 @@ rather than recurrent expenditure.
 of government bonds from commercial banks. (a) Explain how QE differs from conventional open market
 operations. (b) If banks hold 5% of the new reserves as excess reserves and the required reserve
 ratio is 8%, calculate the maximum expansion of broad money supply. (c) The central bank's balance
-sheet before QE shows assets of $HK\$800$B (all government bonds) and liabilities of $HK\$800$B
-(currency in circulation $HK\$300$B, bank reserves $HK\$500$B). Show the balance sheet after QE. (d)
+sheet before QE shows assets of $HK\$800$ B (all government bonds) and liabilities of $HK\$800$ B
+(currency in circulation $HK\$300$ B, bank reserves $HK\$500$ B). Show the balance sheet after QE. (d)
 Discuss two risks of large-scale QE.
 
 **Solution:**
@@ -313,23 +313,23 @@ short-term interest rate. QE involves **large-scale** purchases of **longer-term
 to directly lower long-term interest rates, flatten the yield curve, and increase the money supply
 when conventional policy is exhausted (liquidity trap).
 
-(b) New reserves $= HK\$200$B. Excess reserves held $= 0.05 \times 200 = HK\$10$B. Reserves
-available for lending $= 200 - 10 = HK\$190$B.
+(b) New reserves $= HK\$200$ B. Excess reserves held $= 0.05 \times 200 = HK\$10$ B. Reserves
+available for lending $= 200 - 10 = HK\$190$ B.
 
 Maximum expansion $= \frac{190}{0.08} = HK\$2\,375$ billion of broad money.
 
 (c) After QE:
 
-- **Assets:** Government bonds $= 800 + 200 = HK\$1\,000$B.
-- **Liabilities:** Currency $= HK\$300$B, Bank reserves $= 500 + 200 = HK\$700$B. Total liabilities
-  $= HK\$1\,000$B.
+- **Assets:** Government bonds $= 800 + 200 = HK\$1\,000$ B.
+- **Liabilities:** Currency $= HK\$300$ B, Bank reserves $= 500 + 200 = HK\$700$ B. Total liabilities
+  $= HK\$1\,000$ B.
 
 (d) Two risks:
 
 1. **Asset price inflation and financial instability:** QE pushes investors into riskier assets
    (search for yield), inflating stock, bond, and property prices beyond fundamentals. When QE
    unwinds, these asset bubbles may burst.
-2. **Exit strategy difficulty:** Selling $HK\$200$B of bonds could depress bond prices and raise
+2. **Exit strategy difficulty:** Selling $HK\$200$ B of bonds could depress bond prices and raise
    interest rates sharply, disrupting financial markets. The central bank may become trapped --
    unable to normalise its balance sheet without causing market turmoil.
 
@@ -379,7 +379,7 @@ maintain fiscal reserves equivalent to at least 12 months of government expendit
 flat tax of 10% on income above HK\$15,000 (the personal allowance). The worker's after-tax hourly
 wage falls from HK\$187.5 to HK\$175. (a) Calculate the worker's monthly tax payment and after-tax
 income. (b) Using the income and substitution effects framework, explain how the tax might affect
-the worker's labour supply. (c) If the worker's elasticity of labour supply is $-0.2$Calculate the
+the worker's labour supply. (c) If the worker's elasticity of labour supply is $-0.2$ Calculate the
 percentage change in hours worked. (d) Explain the Laffer curve concept and identify the tax rate at
 which revenue is maximised, assuming a revenue-maximising tax rate of 40%.
 
@@ -419,7 +419,7 @@ shrinking the tax base more than the higher rate compensates.
 raises the policy interest rate by 1 percentage point. (a) Explain the effect on the exchange rate,
 using the interest rate parity condition. (b) If exports are HK\$400 billion and imports are HK\$500
 billion, and the Marshall-Lerner condition holds with PED of exports $= 0.8$ and PED of imports
-$= 1.2$Calculate the effect of a 5% currency appreciation on the trade balance. (c) Explain why the
+$= 1.2$ Calculate the effect of a 5% currency appreciation on the trade balance. (c) Explain why the
 impact on GDP differs between a small open economy and a large closed economy. (d) The central bank
 simultaneously sells domestic bonds worth HK\$50 billion. Calculate the combined effect on the money
 supply given a money multiplier of 5.
@@ -527,14 +527,14 @@ New taxable income $= 500 \times (1 - 0.0286) = \$485.7$ billion.
 
 New tax revenue $= 0.35 \times 485.7 = \$170.0$ billion.
 
-Tax revenue increases from $\$150$B to $\$170$B. The Laffer curve predicts that at a 30% tax rate,
+Tax revenue increases from $\$150$ B to $\$170$ B. The Laffer curve predicts that at a 30% tax rate,
 we are on the upward-sloping portion of the curve (below the revenue-maximising rate), so a tax rate
 increase still raises revenue.
 
 (c) The revenue-maximising tax rate is where $\frac{dR}{dt} = 0$. With a taxable income elasticity
 of $e = 0.4$:
 
-Revenue $R = t \times B(t)$Where $B(t)$ is the tax base.
+Revenue $R = t \times B(t)$ Where $B(t)$ is the tax base.
 
 $\frac{dR}{dt} = B + t \times \frac{dB}{dt} = 0$.
 
@@ -557,7 +557,7 @@ taxes.
 
 ### EQ-8: Phillips Curve and the Trade-off Between Inflation and Unemployment
 
-**Question:** An economy has the following Phillips curve: $\pi = \pi^e - 0.5(u - 5) + 0.1x$Where
+**Question:** An economy has the following Phillips curve: $\pi = \pi^e - 0.5(u - 5) + 0.1x$ Where
 $\pi$ is inflation, $\pi^e$ is expected inflation, $u$ is the unemployment rate, and $x$ is a supply
 shock (0 in normal times). The natural rate of unemployment is 5%. (a) If expected inflation is 3%
 and actual unemployment is 5%, calculate the inflation rate. (b) If the government uses expansionary

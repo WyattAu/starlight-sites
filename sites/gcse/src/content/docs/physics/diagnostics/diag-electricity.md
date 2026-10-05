@@ -43,7 +43,7 @@ complete cycles per second). Example: mains electricity supply.
 
 ### UT-2: Series and Parallel Circuits
 
-**Question:** Two resistors, 6 $\Omega$ and 4 $\Omega$Are connected in series with a 10 V battery.
+**Question:** Two resistors, 6 $\Omega$ and 4 $\Omega$ Are connected in series with a 10 V battery.
 (a) Calculate the total resistance, current, and voltage across each resistor. (b) If the same
 resistors are connected in parallel with the same battery, calculate the total resistance, current
 through each resistor, and total current. (c) Explain why household appliances are connected in
@@ -69,7 +69,7 @@ $P = VI_{\text{total} = 10 \times 4.17 = 41.7$ W. (Or: $P = V^2/R = 100/2.4 = 41
 
 ### UT-3: Electrical Power and Energy
 
-**Question:** (a) Derive the three formulas for electrical power: $P = VI$, $P = I^2R$And
+**Question:** (a) Derive the three formulas for electrical power: $P = VI$, $P = I^2R$ And
 $P = V^2/R$. (b) A heater rated at 2000 W is used for 3 hours per day for 30 days. Calculate the
 total energy in kWh and the cost at 28p per kWh. (c) A 12 V car battery has a capacity of 50 Ah.
 Calculate the total energy stored and how long it can power a 60 W light bulb.
@@ -157,8 +157,8 @@ kWh. Cost $= 133.9 \times 0.28 = \pounds 37.49$.
 **Question:** (a) Explain how the resistance of a metal wire changes with temperature, referring to
 the behaviour of electrons and ions. (b) Explain how the resistance of a thermistor (NTC type)
 changes with temperature. (c) A thermistor is used in a potential divider circuit with a 10
-k$\Omega$ fixed resistor and a 9 V supply. At $25^\circ\text{C$The thermistor resistance is 10
-k$\Omega$. Calculate the output voltage across the thermistor. (d) At $100^\circ\text{C$The
+k$\Omega$ fixed resistor and a 9 V supply. At $25^\circ\text{C$ The thermistor resistance is 10
+k$\Omega$. Calculate the output voltage across the thermistor. (d) At $100^\circ\text{C$ The
 thermistor resistance drops to 1 k$\Omega$. Calculate the new output voltage and explain how this
 enables temperature sensing.
 

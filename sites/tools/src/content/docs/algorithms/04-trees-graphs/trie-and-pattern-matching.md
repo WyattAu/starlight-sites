@@ -293,7 +293,7 @@ The key ideas:
 1. **Implicit suffix tree**: during construction, suffixes may end in the middle of an edge
 2. **Suffix links**: each internal node has a link to the node representing its longest proper
    suffix
-3. **Rule 1 / Rule 2 extension**: when adding character $S[i]$Extend all suffixes. Rule 1 applies
+3. **Rule 1 / Rule 2 extension**: when adding character $S[i]$ Extend all suffixes. Rule 1 applies
    when the extension is trivial (character already exists on the current edge); Rule 2 applies when
    a new leaf must be created
 
@@ -758,7 +758,7 @@ Character.
 
 ### Good Suffix Rule
 
-When a mismatch occurs after a partial match of length $k$Shift the pattern so that the next
+When a mismatch occurs after a partial match of length $k$ Shift the pattern so that the next
 Occurrence of the suffix (or a prefix of it) aligns with the matched portion of the text.
 
 ```python

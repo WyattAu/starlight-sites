@@ -90,7 +90,7 @@ Atomic and Nuclear Physics
 | Induction                | Current Electricity, SHM                |
 | Thermodynamics           | Energy, Kinematics                      |
 | Atomic/Nuclear           | Energy, Electric/Magnetic Fields        |
-| Current Electricity      | Kirchhoff"s Laws, Energy                |
+| Current Electricity      | Kirchhoff's Laws, Energy                |
 
 ## Grading Rubric
 

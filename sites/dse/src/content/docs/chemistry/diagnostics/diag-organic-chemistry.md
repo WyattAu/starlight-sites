@@ -26,7 +26,7 @@ results were obtained:
 | Test                                                                       | Observation            |
 | -------------------------------------------------------------------------- | ---------------------- |
 | Add solid $Na_{2}CO_{3}$                                                   | Effervescence observed |
-| Add Fehling"s solution and heat                                            | No change              |
+| Add Fehling's solution and heat                                            | No change              |
 | Add acidified $K_{2}Cr_{2}O_{7}$ and warm                                  | Orange to green        |
 | Sweet-smelling compound obtained on heating with ethanol and $H_{2}SO_{4}$ |
 
@@ -58,7 +58,7 @@ results were obtained:
 - **Orange to green with $K_{2}Cr_{2}O_{7}$**: $X$ is oxidised, but since we already know it has a
   $-COOH$ group (which cannot be further oxidised by this reagent), the colour change is likely due
   to an **alcohol** group also being present. However, the molecular formula is
-  $C_{3}H_{6}O_{2}$Which accounts for exactly one $-COOH$ group ($C_{2}H_{3}O_{2}$) plus one
+  $C_{3}H_{6}O_{2}$ Which accounts for exactly one $-COOH$ group ($C_{2}H_{3}O_{2}$) plus one
   additional carbon ($CH_{3}$). The only structure is $CH_{3}CH_{2}COOH$ (propanoic acid), which has
   no alcohol group.
 
@@ -124,7 +124,7 @@ Tertiary halogenoalkanes favour $S_{N}1$ because:
 1. The three alkyl groups on the carbon bearing the halogen **stabilise the carbocation
    intermediate** through electron-donating inductive effects and hyperconjugation.
 2. Steric hindrance from the three bulky alkyl groups makes it difficult for the nucleophile
-   ($OH^{-}$) to approach the carbon in a single step ($S_{N}2$).
+   ($OH^{-}$) to approach the carbon in a single step ($ S_{N}2$).
 3. The formation of a stable tertiary carbocation lowers the activation energy for the
    rate-determining step.
 

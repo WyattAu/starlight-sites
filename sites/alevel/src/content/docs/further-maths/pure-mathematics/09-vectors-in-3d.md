@@ -159,7 +159,7 @@ $$
 
 ### 4.3 Geometric interpretation
 
-**Theorem.** $|\mathbf{a}\times\mathbf{b}| = |\mathbf{a}||\mathbf{b}|\sin\theta$Where $\theta$ is
+**Theorem.** $|\mathbf{a}\times\mathbf{b}| = |\mathbf{a}||\mathbf{b}|\sin\theta$ Where $\theta$ is
 The angle between $\mathbf{a}$ and $\mathbf{b}$.
 
 ### Proof that the cross product magnitude equals the area of the parallelogram
@@ -191,7 +191,7 @@ $$
 $$
 
 The area of the parallelogram is base $\times$ height
-$= |\mathbf{a}| \times |\mathbf{b}|\sin\theta$Which equals $|\mathbf{a}\times\mathbf{b}|$. $\square$
+$= |\mathbf{a}| \times |\mathbf{b}|\sin\theta$ Which equals $|\mathbf{a}\times\mathbf{b}|$. $\square$
 
 The cross product $\mathbf{a}\times\mathbf{b}$ is **perpendicular** to both $\mathbf{a}$ and
 $\mathbf{b}$ And its direction is given by the right-hand rule.
@@ -227,13 +227,13 @@ $$
 ### 5.2 Cartesian form
 
 If $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and
-$\mathbf{d} = \begin{pmatrix}d_1\\d_2\\d_3\end{pmatrix}$The parametric equations are:
+$\mathbf{d} = \begin{pmatrix}d_1\\d_2\\d_3\end{pmatrix}$ The parametric equations are:
 
 $$
 x = a_1 + \lambda d_1, \quad y = a_2 + \lambda d_2, \quad z = a_3 + \lambda d_3
 $$
 
-When all $d_i \neq 0$The Cartesian (symmetric) form is:
+When all $d_i \neq 0$ The Cartesian (symmetric) form is:
 
 $$
 \boxed{\frac{x - a_1}{d_1} = \frac{y - a_2}{d_2} = \frac{z - a_3}{d_3}}
@@ -362,8 +362,8 @@ $$
 Let the plane have equation $\mathbf{r}\cdot\hat{\mathbf{n}} = p$ where $\hat{\mathbf{n}}$ is a unit
 Normal and $p$ is the perpendicular distance from the origin to the plane.
 
-For any point $P$ with position vector $\mathbf{p}$The distance from $P$ to the plane is the
-Magnitude of the projection of $\mathbf{p}$ onto $\hat{\mathbf{n}}$Minus $p$:
+For any point $P$ with position vector $\mathbf{p}$ The distance from $P$ to the plane is the
+Magnitude of the projection of $\mathbf{p}$ onto $\hat{\mathbf{n}}$ Minus $p$:
 
 $$
 D = |\mathbf{p}\cdot\hat{\mathbf{n}} - p|
@@ -478,7 +478,7 @@ Between any point on each line onto this perpendicular direction.
 <summary>Problem 1</summary>
 
 Given $\mathbf{a} = \begin{pmatrix}2\\-1\\3\end{pmatrix}$ and
-$\mathbf{b} = \begin{pmatrix}1\\4\\-2\end{pmatrix}$Find $\mathbf{a}\times\mathbf{b}$ and verify That
+$\mathbf{b} = \begin{pmatrix}1\\4\\-2\end{pmatrix}$ Find $\mathbf{a}\times\mathbf{b}$ and verify That
 it is perpendicular to both $\mathbf{a}$ and $\mathbf{b}$.
 
 </details>
@@ -757,7 +757,7 @@ $$
 Where $D = \dfrac{1+2+3-6}{\sqrt{3}} = 0$ and
 $\hat{\mathbf{n}} = \dfrac{1}{\sqrt{3}}(1, 1, 1)$.
 
-Since $D = 0$The point $P$ lies on the plane, so its reflection is itself: $P' = (1, 2, 3)$.
+Since $D = 0$ The point $P$ lies on the plane, so its reflection is itself: $P' = (1, 2, 3)$.
 
 Let me use a point not on the plane. The reflection of $Q(0, 0, 0)$:
 
@@ -769,7 +769,7 @@ $$
 Q' = (0, 0, 0) - 2(-2\sqrt{3})\frac{1}{\sqrt{3}}(1, 1, 1) = (0, 0, 0) + 4(1, 1, 1) = (4, 4, 4)
 $$
 
-Check: the midpoint of $Q$ and $Q'$ is $(2, 2, 2)$Which satisfies $2+2+2 = 6$. Correct.
+Check: the midpoint of $Q$ and $Q'$ is $(2, 2, 2)$ Which satisfies $2+2+2 = 6$. Correct.
 
 ### Example 11.2: Angle between a line and a plane
 
@@ -798,7 +798,7 @@ $$
 V = |\overrightarrow{OA}\cdot(\overrightarrow{OB}\times\overrightarrow{OC})| = \left|\begin{vmatrix}1&0&0\\0&2&0\\0&0&3\end{vmatrix}\right| = |6| = 6
 $$
 
-This equals $\frac{1}{6} \times 1 \times 2 \times 3 = 1$Confirming the standard formula.
+This equals $\frac{1}{6} \times 1 \times 2 \times 3 = 1$ Confirming the standard formula.
 
 ### Example 11.4: Shortest distance using calculus
 
@@ -828,7 +828,7 @@ $$
 
 $\mathbf{r}\cdot\mathbf{n} = (1)(-1) + (1)(-2) + (0)(-1) = -3$.
 
-Equation: $-x - 2y - z = -3$I.e., $\boxed{x + 2y + z = 3}$.
+Equation: $-x - 2y - z = -3$ I.e., $\boxed{x + 2y + z = 3}$.
 
 ### Example 11.6: Verifying coplanarity
 
@@ -1013,7 +1013,7 @@ And the point $P(3, 1, 4)$.
 <summary>Solution</summary>
 
 The direction of $L$ is $\mathbf{d} = (1, 2, -1)$. Two vectors in the plane are
-$\overrightarrow{PQ} = (1, 0, 2) - (3, 1, 4) = (-2, -1, -2)$ (wait, $Q$ should be on $L$Not $P$).
+$\overrightarrow{PQ} = (1, 0, 2) - (3, 1, 4) = (-2, -1, -2)$ (wait, $Q$ should be on $L$ Not $P$).
 
 Actually, the point on $L$ at $\lambda = 0$ is $(1, 0, 2)$. Vectors in the plane:
 $\overrightarrow{PQ} = (1-3, 0-1, 2-4) = (-2, -1, -2)$ and $\mathbf{d} = (1, 2, -1)$.
@@ -1275,7 +1275,7 @@ $\mathbf{n}_1 \times \mathbf{n}_2 = (1,1,1) \times (2,-1,1)$.
 
 $= \begin{pmatrix}(1)(1)-(1)(-1)\\(1)(2)-(1)(1)\\(1)(-1)-(1)(2)\end{pmatrix} = (2, 1, -3)$.
 
-Since the cross product gives $(2,1,-3)$The line is parallel to this vector. $\blacksquare$
+Since the cross product gives $(2,1,-3)$ The line is parallel to this vector. $\blacksquare$
 
 </details>
 

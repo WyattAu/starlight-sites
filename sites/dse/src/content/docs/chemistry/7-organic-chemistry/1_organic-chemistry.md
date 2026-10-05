@@ -31,7 +31,7 @@ Organic compounds, far exceeding the number of known inorganic compounds.
 
 ### Why Carbon?
 
-Carbon ($Z = 6$Electron configuration $1s^2\, 2s^2\, 2p^2$) has four valence electrons and can Form
+Carbon ($Z = 6$ Electron configuration $1s^2\, 2s^2\, 2p^2$) has four valence electrons and can Form
 four covalent bonds. Several properties make carbon exceptionally suited as the backbone of Organic
 molecules:
 
@@ -335,7 +335,7 @@ $$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br}
 $$
 
-**Markovnikov"s Rule:**
+**Markovnikov's Rule:**
 
 When HX adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon that already has
 More hydrogen atoms (the less substituted carbon).
@@ -606,7 +606,7 @@ does.
 <summary>Solution</summary>
 
 Cyclohexene has an isolated C=C double bond. The $\pi$ bond is relatively weak and readily undergoes
-electrophilic addition with $\mathrm{Br_2}$Decolourising bromine water.
+electrophilic addition with $\mathrm{Br_2}$ Decolourising bromine water.
 
 Benzene has a delocalised $\pi$ system of 6 electrons spread over the entire ring. This
 delocalisation provides approximately $150 \mathrm{ kJ/mol}$ of extra stability (resonance energy).
@@ -1171,12 +1171,12 @@ Key interconversions between functional groups:
 | Alkene            | Halogenoalkane (dihalide)  | $\mathrm{Br}_2$ or $\mathrm{Cl}_2$                                            |
 | Haloalkane        | Alcohol                    | NaOH (aq), heat                                                               |
 | Haloalkane        | Amine                      | Excess concentrated $\mathrm{NH}_3$ (alcoholic), heat                         |
-| Alcohol           | Aldehyde                   | Mild oxidation ($\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$Distil)                |
-| Alcohol           | Carboxylic acid            | Strong oxidation ($\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$Reflux)              |
-| Alcohol           | Ester                      | Carboxylic acid + conc. $\mathrm{H}_2\mathrm{SO}_4$Heat                       |
-| Carboxylic acid   | Ester                      | Alcohol + conc. $\mathrm{H}_2\mathrm{SO}_4$Heat                               |
+| Alcohol           | Aldehyde                   | Mild oxidation ($\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ Distil)                |
+| Alcohol           | Carboxylic acid            | Strong oxidation ($\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ Reflux)              |
+| Alcohol           | Ester                      | Carboxylic acid + conc. $\mathrm{H}_2\mathrm{SO}_4$ Heat                       |
+| Carboxylic acid   | Ester                      | Alcohol + conc. $\mathrm{H}_2\mathrm{SO}_4$ Heat                               |
 | Carboxylic acid   | Salt                       | Base (e.g., NaOH, $\mathrm{Na}_2\mathrm{CO}_3$)                               |
-| Ester             | Carboxylic acid + alcohol  | Acid hydrolysis (dilute $\mathrm{H}_2\mathrm{SO}_4$Heat)                      |
+| Ester             | Carboxylic acid + alcohol  | Acid hydrolysis (dilute $\mathrm{H}_2\mathrm{SO}_4$ Heat)                      |
 | Ester             | Carboxylate salt + alcohol | Alkaline hydrolysis (NaOH, heat)                                              |
 | Aldehyde / Ketone | Cyanohydrin                | HCN (trace NaOH catalyst)                                                     |
 
@@ -1279,7 +1279,7 @@ Methoxyethane.
 Reaction with $\mathrm{PCl}_5$ (white fumes = HCl) confirms the presence of -OH, so $\mathrm{D}$ is
 An alcohol (not methoxyethane).
 
-Oxidation of $\mathrm{D}$ gives $\mathrm{E}$Which gives a silver mirror with Tollens' reagent,
+Oxidation of $\mathrm{D}$ gives $\mathrm{E}$ Which gives a silver mirror with Tollens' reagent,
 Confirming $\mathrm{E}$ is an aldehyde. Only primary alcohols oxidise to aldehydes.
 
 $\mathrm{D}$ = propan-1-ol: $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH}$
@@ -1417,7 +1417,7 @@ $$
 
 ### Worked Example: Electrophilic Addition Mechanism
 
-Describe the mechanism for the reaction of propene with $\mathrm{HBr}$Explaining why 2-bromopropane
+Describe the mechanism for the reaction of propene with $\mathrm{HBr}$ Explaining why 2-bromopropane
 is the major product.
 
 <details>
@@ -1713,7 +1713,7 @@ flowchart TD
 | Topic                       | Key Concept                                                  | Example                                        |
 | --------------------------- | ------------------------------------------------------------ | ---------------------------------------------- |
 | Alkanes                     | Saturated, $\mathrm{C}_n\mathrm{H}_{2n+2}$                   | Free radical substitution with $\mathrm{Cl}_2$ |
-| Alkenes                     | Unsaturated, $\mathrm{C}_n\mathrm{H}_{2n}$Addition reactions | Bromine water decolourisation test             |
+| Alkenes                     | Unsaturated, $\mathrm{C}_n\mathrm{H}_{2n}$ Addition reactions | Bromine water decolourisation test             |
 | Alkynes                     | Triple bond, $\mathrm{C}_n\mathrm{H}_{2n-2}$                 | Hydration to carbonyl compounds                |
 | Benzene                     | Delocalised $\pi$ system, EAS                                | Nitration, Friedel-Crafts                      |
 | Alcohols                    | -OH group, classified as 1$^\circ$2$^\circ$3$^\circ$         | Oxidation to aldehydes/ketones                 |
@@ -2201,7 +2201,7 @@ gives more branched products.
 </details>
 
 **Problem 20:** Compound $\mathrm{Q}$ has the molecular formula $\mathrm{C_4H_{10}O}$. It does not
-react with $\mathrm{PCl_5}$Does not decolourise bromine water, and does not react with acidified
+react with $\mathrm{PCl_5}$ Does not decolourise bromine water, and does not react with acidified
 $\mathrm{K_2Cr_2O_7}$. Identify $\mathrm{Q}$ and explain the observations.
 
 _If you get this wrong, revise: Functional Group Identification (Section 5.4)_

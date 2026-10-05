@@ -53,7 +53,7 @@ $x$- and $y$-axes respectively. In 3D, $\mathbf{k} = \begin{pmatrix}0\\0\\1\end{
 ### 1.2 Position vectors
 
 The **position vector** of a point $P$ relative to an origin $O$ is the vector
-$\overrightarrow{OP}$Written as $\mathbf{r}_P$ or $\mathbf{p}$.
+$\overrightarrow{OP}$ Written as $\mathbf{r}_P$ or $\mathbf{p}$.
 
 <hr />
 
@@ -140,7 +140,7 @@ Scalar multiplication also satisfies the distributive laws:
 $\lambda(\mathbf{a} + \mathbf{b}) = \lambda\mathbf{a} + \lambda\mathbf{b}$ and
 $(\lambda + \mu)\mathbf{a} = \lambda\mathbf{a} + \mu\mathbf{a}$ for scalars $\lambda, \mu$.
 
-**Example.** Given points $A(1, 2, -1)$$B(4, 0, 3)$$C(2, 5, 1)$Find
+**Example.** Given points $A(1, 2, -1)$$B(4, 0, 3)$$C(2, 5, 1)$ Find
 $\overrightarrow{AB} + \overrightarrow{BC}$.
 
 $\overrightarrow{AB} = \begin{pmatrix}3\\-2\\4\end{pmatrix}$
@@ -164,7 +164,7 @@ $$
 
 ### 4.2 Geometric interpretation
 
-**Theorem.** $\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta$Where $\theta$ is the
+**Theorem.** $\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta$ Where $\theta$ is the
 Angle between $\mathbf{a}$ and $\mathbf{b}$.
 
 **Proof using the cosine rule.** Consider the triangle formed by vectors $\mathbf{a}$, $\mathbf{b}$
@@ -213,7 +213,7 @@ Positive; if opposite, negative.
 ### 5.1 Definition
 
 **Definition.** The vector equation of a line passing through point $A$ with position vector
-$\mathbf{a}$In the direction of vector $\mathbf{b}$Is
+$\mathbf{a}$ In the direction of vector $\mathbf{b}$ Is
 
 $$
 \mathbf{r} = \mathbf{a} + t\mathbf{b}, \quad t \in \mathbb{R}
@@ -224,7 +224,7 @@ Where $\mathbf{r}$ is the position vector of a general point on the line, and $t
 ### 5.2 Parametric form
 
 If $\mathbf{a} = \begin{pmatrix}a_1\\a_2\\a_3\end{pmatrix}$ and
-$\mathbf{b} = \begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$The parametric equations are
+$\mathbf{b} = \begin{pmatrix}b_1\\b_2\\b_3\end{pmatrix}$ The parametric equations are
 
 $$
 x = a_1 + tb_1, \quad y = a_2 + tb_2, \quad z = a_3 + tb_3
@@ -385,7 +385,7 @@ $$
 **Proof.** The vector $\mathbf{b}\times\mathbf{c}$ has magnitude
 $|\mathbf{b}||\mathbf{c}|\sin\theta$ equal to the area of the parallelogram with sides $\mathbf{b}$
 And $\mathbf{c}$ And direction perpendicular to both. The height of the parallelepiped is the
-Projection of $\mathbf{a}$ onto $\mathbf{b}\times\mathbf{c}$Which is $|\mathbf{a}|\cos\phi$ where
+Projection of $\mathbf{a}$ onto $\mathbf{b}\times\mathbf{c}$ Which is $|\mathbf{a}|\cos\phi$ where
 $\phi$ is the angle between $\mathbf{a}$ and $\mathbf{b}\times\mathbf{c}$.
 
 $$
@@ -401,7 +401,7 @@ $$
 - **Coplanarity test:** $\mathbf{a}$$\mathbf{b}$$\mathbf{c}$ are coplanar if and only if
   $[\mathbf{a},\, \mathbf{b},\, \mathbf{c}] = 0$ (the parallelepiped has zero volume).
 - **Volume of a tetrahedron:**
-  $V_{\mathrm{tet}} = \dfrac{1}{6}|\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})|$Since a tetrahedron
+  $V_{\mathrm{tet}} = \dfrac{1}{6}|\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})|$ Since a tetrahedron
   is $\dfrac{1}{6}$ of a parallelepiped.
 
 **Example.** Find the volume of the parallelepiped with edges
@@ -424,7 +424,7 @@ Volume $= |30| = 30$ cubic units.
 ### 10.1 Proving collinear points
 
 Points $A$$B$$C$ are **collinear** if and only if $\overrightarrow{AB}$ is parallel to
-$\overrightarrow{BC}$I.e. $\overrightarrow{AB} = k\,\overrightarrow{BC}$ for some scalar $k$.
+$\overrightarrow{BC}$ I.e. $\overrightarrow{AB} = k\,\overrightarrow{BC}$ for some scalar $k$.
 
 Equivalently, $\overrightarrow{AB} \times \overrightarrow{BC} = \mathbf{0}$ (zero vector).
 
@@ -487,7 +487,7 @@ Many geometry problems can be solved elegantly using vectors. The general strate
    perpendicularity via dot products, midpoints via averages).
 3. Compute and simplify algebraically.
 
-**Example.** In triangle $ABC$Let $M$ be the midpoint of $AB$. Prove that
+**Example.** In triangle $ABC$ Let $M$ be the midpoint of $AB$. Prove that
 $\overrightarrow{CM} = \dfrac{1}{2}\overrightarrow{CA} + \dfrac{1}{2}\overrightarrow{CB}$.
 
 $\mathbf{m} = \dfrac{\mathbf{a} + \mathbf{b}}{2}$ (midpoint formula).
@@ -503,7 +503,7 @@ $\blacksquare$
 
 <details>
 <summary>Problem 1</summary>
-Given $\mathbf{a} = 3\mathbf{i} - 2\mathbf{j} + \mathbf{k}$ and $\mathbf{b} = \mathbf{i} + 4\mathbf{j} - 3\mathbf{k}$Find $\mathbf{a} + \mathbf{b}$$\mathbf{a} - \mathbf{b}$$|\mathbf{a}|$ And a unit vector in the direction of $\mathbf{a}$.
+Given $\mathbf{a} = 3\mathbf{i} - 2\mathbf{j} + \mathbf{k}$ and $\mathbf{b} = \mathbf{i} + 4\mathbf{j} - 3\mathbf{k}$ Find $\mathbf{a} + \mathbf{b}$$\mathbf{a} - \mathbf{b}$$|\mathbf{a}|$ And a unit vector in the direction of $\mathbf{a}$.
 </details>
 
 <details>
@@ -668,7 +668,7 @@ Wait, all three are consistent! Let me re-check. Line 1: $(t, t, 1)$. Line 2: $(
 
 $t = s$$t = 1$$1 = s$. So $t = s = 1$. Point: $(1, 1, 1)$.
 
-Actually the lines **intersect** at $(1,1,1)$They are not skew.
+Actually the lines **intersect** at $(1,1,1)$ They are not skew.
 
 **If you get this wrong, revise:** [Skew Lines](#62-skew-lines), Section 6.2.
 
@@ -676,7 +676,7 @@ Actually the lines **intersect** at $(1,1,1)$They are not skew.
 
 <details>
 <summary>Problem 10</summary>
-Given $\mathbf{a} = 2\mathbf{i} + \mathbf{j}$ and $\mathbf{b} = \mathbf{i} - 3\mathbf{j}$Find the vector projection of $\mathbf{b}$ onto $\mathbf{a}$.
+Given $\mathbf{a} = 2\mathbf{i} + \mathbf{j}$ and $\mathbf{b} = \mathbf{i} - 3\mathbf{j}$ Find the vector projection of $\mathbf{b}$ onto $\mathbf{a}$.
 </details>
 
 <details>
@@ -790,7 +790,7 @@ Determine whether the points $P(1, 2, 3)$$Q(4, 5, 6)$$R(7, 8, 9)$ are collinear.
 $\overrightarrow{PQ} = \begin{pmatrix}3\\3\\3\end{pmatrix}$
 $\overrightarrow{QR} = \begin{pmatrix}3\\3\\3\end{pmatrix}$.
 
-Since $\overrightarrow{PQ} = \overrightarrow{QR}$The points are collinear. The ratio is
+Since $\overrightarrow{PQ} = \overrightarrow{QR}$ The points are collinear. The ratio is
 $PQ : QR = 1 : 1$.
 
 **If you get this wrong, revise:** [Proving Collinear Points](#101-proving-collinear-points),

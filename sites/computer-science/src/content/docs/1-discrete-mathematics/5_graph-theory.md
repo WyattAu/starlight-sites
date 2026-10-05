@@ -26,7 +26,7 @@ $E \subseteq V \times V$.
 - **Directed graph (digraph):** edges have direction.
 - **Weighted graph:** edges have weights.
 
-The **degree** of a vertex $v$, $\deg(v)$Is the number of edges incident to $v$.
+The **degree** of a vertex $v$, $\deg(v)$ Is the number of edges incident to $v$.
 
 **Theorem 5.1 (Handshaking Lemma).** $\sum_{v \in V} \deg(v) = 2|E|$.
 
@@ -55,7 +55,7 @@ A **tree** is a connected acyclic graph. A **forest** is a disjoint union of tre
 3. $G$ is acyclic and has $n - 1$ edges.
 4. Between any two vertices, there is exactly one path.
 
-**Cayley"s Formula.** The number of labelled trees on $n$ vertices is $n^{n-2}$.
+**Cayley's Formula.** The number of labelled trees on $n$ vertices is $n^{n-2}$.
 
 ### 5.4 Planarity
 
@@ -76,7 +76,7 @@ $\blacksquare$
 **Corollary 5.6.** For a simple planar graph with $V \geq 3$: $E \leq 3V - 6$.
 
 _Proof._ Every face has at least 3 edges on its boundary, and every edge borders at most 2 faces, So
-$3F \leq 2E$. By Euler's formula, $F = 2 - V + E$Giving $3(2 - V + E) \leq 2E$I.e., $E \leq 3V - 6$.
+$3F \leq 2E$. By Euler's formula, $F = 2 - V + E$ Giving $3(2 - V + E) \leq 2E$ I.e., $E \leq 3V - 6$.
 $\blacksquare$
 
 **Corollary 5.7.** $K_5$ and $K_{3,3}$ are not planar.
@@ -99,9 +99,9 @@ A graph $H$ is a subdivision of $G$ if $H$ can be obtained from $G$ by subdividi
 
 $K_{3,3}$ has $V = 6$ vertices and $E = 9$ edges. It is bipartite (partition sizes 3 and 3), so it
 Contains no triangles. Every face in a planar embedding must therefore be bounded by at least 4
-edges, Giving $4F \leq 2E$I.e., $F \leq 9/2 = 4.5$.
+edges, Giving $4F \leq 2E$ I.e., $F \leq 9/2 = 4.5$.
 
-But Euler's formula gives $F = E - V + 2 = 9 - 6 + 2 = 5$. Since $5 \gt 4.5$No planar embedding
+But Euler's formula gives $F = E - V + 2 = 9 - 6 + 2 = 5$. Since $5 \gt 4.5$ No planar embedding
 Exists. $\blacksquare$
 
 </details>
@@ -148,7 +148,7 @@ Pick edge $e = v_1v_2$.
 
 $G - e$ is a path on 4 vertices (a tree): $P(G - e, k) = k(k-1)^3$.
 
-$G / e$ merges $v_1$ and $v_2$Yielding $C_3$ (triangle): $P(C_3, k) = k(k-1)(k-2)$.
+$G / e$ merges $v_1$ and $v_2$ Yielding $C_3$ (triangle): $P(C_3, k) = k(k-1)(k-2)$.
 
 Therefore $P(C_4, k) = k(k-1)^3 - k(k-1)(k-2) = k(k-1)[(k-1)^2 - (k-2)] = k(k-1)(k^2 - 3k + 3)$.
 
@@ -233,7 +233,7 @@ Note that Dirac's theorem is a corollary of Ore’s theorem.
 
 $K_{2,3}$ has 5 vertices. A Hamilton circuit must visit all 5 vertices and return. Label the
 Partitions as $A = \\{a_1, a_2\\}$ and $B = \\{b_1, b_2, b_3\\}$. Any cycle in a bipartite graph
-alternates Between the two partitions. A Hamilton cycle would alternate between $A$ and $B$Requiring
+alternates Between the two partitions. A Hamilton cycle would alternate between $A$ and $B$ Requiring
 $|A| = |B|$. But $|A| = 2 \neq 3 = |B|$ So no Hamilton circuit exists.
 
 However, $K_{2,3}$ does have Hamilton paths (e.g., $a_1, b_1, a_2, b_2, b_3$ -- wait, this doesn't
@@ -285,7 +285,7 @@ $$
 Where $N(S) = \\{y \in Y : \exists\, x \in S\; \mathrm{with{}\; xy \in E\\}$ is the neighbourhood of
 $S$.
 
-_Proof (necessity)._ If a matching covers $X$Each $x \in S$ is matched to a distinct $y \in N(S)$ So
+_Proof (necessity)._ If a matching covers $X$ Each $x \in S$ is matched to a distinct $y \in N(S)$ So
 $|N(S)| \geq |S|$.
 
 _Proof (sufficiency by induction on $|X|$)._ Base case $|X| = 1$: Hall's condition gives
@@ -294,12 +294,12 @@ $|N(\\{x\\})| \geq 1$ So $x$ has a neighbour, and we can match $x$ to it.
 Inductive step. Consider two cases.
 
 _Case 1:_ For every nonempty proper subset $S \subsetneq X$, $|N(S)| \gt |S|$. Pick any edge $xy$.
-In $G' = G - \\{x, y\\}$Hall’s condition still holds (removing one element from each side preserves
+In $G' = G - \\{x, y\\}$ Hall’s condition still holds (removing one element from each side preserves
 the Strict inequality). By the induction hypothesis, $X \setminus \\{x\\}$ can be matched in $G'$.
 Adding $xy$ Gives the desired matching.
 
 _Case 2:_ There exists a nonempty proper $T \subsetneq X$ with $|N(T)| = |T|$. Match $T$ to $N(T)$
-By the induction hypothesis. In $G'' = G - (T \cup N(T))$For any $S \subseteq X \setminus T$
+By the induction hypothesis. In $G'' = G - (T \cup N(T))$ For any $S \subseteq X \setminus T$
 $N_{G''}(S) = N_G(S \cup T) \setminus N(T)$ So
 
 $$
@@ -332,7 +332,7 @@ $d$--$4$.
 
 ### 5.8 Network Flows
 
-A **flow network** is a directed graph $G = (V, E)$ with a **source** $s$A **sink** $t$ And a
+A **flow network** is a directed graph $G = (V, E)$ with a **source** $s$ A **sink** $t$ And a
 **capacity** function $c : E \to \mathbb{R}_{\geq 0}$. A **flow**
 $f : E \to \mathbb{R}_{\geq 0}$ Satisfies:
 
@@ -355,7 +355,7 @@ backward edges. Let $S$ be the set of vertices reachable from $s$ in $G_{f^*}$ v
 Positive residual capacity. Since $f^*$ is maximum, $t \notin S$ (otherwise we could augment the
 Flow). The cut $(S, V \setminus S)$ has capacity exactly $|f^*|$ (all forward edges are saturated,
 All backward edges have zero flow). Therefore $|f^*| = c(S, V \setminus S) \geq$ minimum cut
-Capacity $\geq |f^*|$Giving equality. $\blacksquare$
+Capacity $\geq |f^*|$ Giving equality. $\blacksquare$
 
 **Theorem 5.19 (Integrality Theorem).** If all capacities are integers, there exists a maximum flow
 Where every $f(e)$ is an integer.

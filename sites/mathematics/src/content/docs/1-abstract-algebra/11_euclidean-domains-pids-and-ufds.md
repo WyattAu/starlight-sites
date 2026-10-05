@@ -41,8 +41,8 @@ An integral domain $R$ is a **principal ideal domain (PID)** if every ideal of $
 **Theorem 11.1.** Every Euclidean domain is a PID.
 
 _Proof._ Let $I$ be a non-zero ideal of the Euclidean domain $R$. Choose $d \in I \setminus \{0\}$
-Minimising $\delta(d)$. We claim $I = (d)$. For any $a \in I$Write $a = qd + r$ with $r = 0$ or
-$\delta(r) \lt \delta(d)$. Since $r = a - qd \in I$Minimality of $\delta(d)$ Forces $r = 0$ So
+Minimising $\delta(d)$. We claim $I = (d)$. For any $a \in I$ Write $a = qd + r$ with $r = 0$ or
+$\delta(r) \lt \delta(d)$. Since $r = a - qd \in I$ Minimality of $\delta(d)$ Forces $r = 0$ So
 $a = qd \in (d)$. $\blacksquare$
 
 **Corollary 11.2.** $\mathbb{Z}$, $F[x]$ And $\mathbb{Z}[i]$ are PIDs.

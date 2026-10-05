@@ -67,7 +67,7 @@ Find the degree of polarisation of the transmitted light.
 <details>
 <summary>Solution</summary>
 
-At the Brewster angle $\theta_B$The reflected light for the $p$-polarisation has zero amplitude
+At the Brewster angle $\theta_B$ The reflected light for the $p$-polarisation has zero amplitude
 ($r_p = 0$). The $s$-polarisation is partially reflected with reflectance
 $R_s = ((n_1\cos\theta_i - n_2\cos\theta_t)/(n_1\cos\theta_i + n_2\cos\theta_t))^2$.
 

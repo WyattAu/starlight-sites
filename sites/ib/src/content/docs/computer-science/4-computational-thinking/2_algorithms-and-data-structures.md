@@ -307,7 +307,7 @@ And return -1.
 $n$ comparisons. In the best case, the target is the first element, requiring 1 comparison. On
 Average, $\frac{n}{2}$ comparisons are needed. Therefore, the worst-case time complexity is $O(n)$.
 
-**Space complexity:** $O(1)$As no additional data structures are required beyond a few variables.
+**Space complexity:** $O(1)$ As no additional data structures are required beyond a few variables.
 
 **Key properties:** Linear search works on any collection, sorted or unsorted. It requires no
 Preprocessing. However, its performance degrades linearly with input size, making it impractical for
@@ -411,14 +411,14 @@ And `target = 4` (not present):
 When `low` exceeds `high`The search space is empty and the target is confirmed absent.
 
 **Time complexity:** Each iteration halves the search space. After $k$ iterations, the remaining
-Search space has size $\frac{n}{2^k}$. The search terminates when $\frac{n}{2^k} \lt 1$I.e.,
-$2^k \gt n$I.e., $k \gt \log_2 n$. Therefore, the worst-case and average-case time complexity is
+Search space has size $\frac{n}{2^k}$. The search terminates when $\frac{n}{2^k} \lt 1$ I.e.,
+$2^k \gt n$ I.e., $k \gt \log_2 n$. Therefore, the worst-case and average-case time complexity is
 $O(\log n)$.
 
 **Space complexity:** $O(1)$ for the iterative version. A recursive version would use $O(\log n)$
 Stack space.
 
-**Best case:** $O(1)$When the middle element is the target on the first comparison.
+**Best case:** $O(1)$ When the middle element is the target on the first comparison.
 
 **Worked Example: Binary search -- longer trace**
 
@@ -497,7 +497,7 @@ Search.
 ### Hash-Based Search (Brief Overview)
 
 A hash table provides average-case $O(1)$ search time by using a hash function to compute an index
-Directly from the key. The hash function maps the key to an integer in the range $[0, m - 1]$Where
+Directly from the key. The hash function maps the key to an integer in the range $[0, m - 1]$ Where
 $m$ is the table size. A simple hash function for integer keys is:
 
 $h(k) = k \mod m$
@@ -582,7 +582,7 @@ $\frac{n(n-1)}{2}$ comparisons and swaps, giving $O(n^2)$. In the best case (alr
 The early-termination optimization, only $n - 1$ comparisons are made, giving $O(n)$. The average
 Case is $O(n^2)$.
 
-**Space complexity:** $O(1)$As sorting is performed in-place.
+**Space complexity:** $O(1)$ As sorting is performed in-place.
 
 **Stability:** Bubble sort is stable because it only swaps adjacent elements when the left element
 Is strictly greater. Equal elements maintain their relative order.
@@ -648,7 +648,7 @@ No swaps in pass 4, so the algorithm terminates.
 - **Confusing the loop bound:** The inner loop compares `arr[i]` with `arr[i + 1]`So `i` must stop
   at `n - 2` (not `n - 1`), otherwise `arr[i + 1]` would be out of bounds on the last iteration.
 - **Miscounting passes:** Each pass places one more element in its final position at the end of the
-  array. After pass $k$The last $k$ elements are sorted. The inner loop range should shrink
+  array. After pass $k$ The last $k$ elements are sorted. The inner loop range should shrink
   accordingly.
 
 ### Selection Sort
@@ -689,10 +689,10 @@ END PROCEDURE
 | 3    | [25, 64]             | 3        | No swap   | [11, 12, 22, 25, 64] |
 
 **Time complexity:** Selection sort always performs $\frac{n(n-1)}{2}$ comparisons regardless of
-Input order, giving $O(n^2)$ in all cases. The number of swaps is at most $n - 1$Which is
+Input order, giving $O(n^2)$ in all cases. The number of swaps is at most $n - 1$ Which is
 Advantageous when swap operations are expensive.
 
-**Space complexity:** $O(1)$In-place sorting.
+**Space complexity:** $O(1)$ In-place sorting.
 
 **Stability:** The basic selection sort is not stable. Consider the array `[4_a, 4_b, 2]`. The
 Minimum is 2 at index 2, which swaps with `4_a` at index 0, producing `[2, 4_b, 4_a]` and reversing
@@ -755,7 +755,7 @@ Elements, requiring $\frac{n(n-1)}{2}$ comparisons and shifts, giving $O(n^2)$. 
 (already sorted), each element requires only one comparison, giving $O(n)$. Average case is
 $O(n^2)$.
 
-**Space complexity:** $O(1)$In-place sorting.
+**Space complexity:** $O(1)$ In-place sorting.
 
 **Stability:** Insertion sort is stable. Elements are only shifted to the right when they are
 Strictly greater than the key, so equal elements maintain their relative order.
@@ -859,7 +859,7 @@ END PROCEDURE
             [3, 9, 10, 27, 38, 43, 82]
 ```
 
-**Time complexity:** The recurrence relation is $T(n) = 2T\!\left(\frac{n}{2}\right) + O(n)$Where
+**Time complexity:** The recurrence relation is $T(n) = 2T\!\left(\frac{n}{2}\right) + O(n)$ Where
 The $O(n)$ term accounts for the merge step. By the Master Theorem, this yields $T(n) = O(n \log n)$
 In all cases (best, average, worst). This is because the divide step always produces halves
 (regardless of input), and the merge step always processes $n$ elements.
@@ -945,7 +945,7 @@ After partition: [10, 30, 40, 50, 70, 90, 80], pivot index = 4.
 Recursively sort [10, 30, 40, 50] and [90, 80].
 
 **Time complexity:** The average case is $O(n \log n)$ when the pivot consistently divides the array
-Into roughly equal halves. The worst case is $O(n^2)$Which occurs when the pivot is always the
+Into roughly equal halves. The worst case is $O(n^2)$ Which occurs when the pivot is always the
 Smallest or largest element (e.g., already-sorted input with last-element pivot). The best case is
 $O(n \log n)$ when partitions are perfectly balanced.
 
@@ -1019,7 +1019,7 @@ or a random pivot.
 - **Comparing best-case of one algorithm with worst-case of another:** Always compare like with like
   (average with average, worst with worst) when evaluating algorithms.
 - **Forgetting the sorted precondition for binary search:** If an exam question says "sort the data
-  then search," the total cost is $O(n \log n) + O(\log n) = O(n \log n)$Not just $O(\log n)$.
+  then search," the total cost is $O(n \log n) + O(\log n) = O(n \log n)$ Not just $O(\log n)$.
 
 ### Sorting Algorithm Comparison
 
@@ -1698,7 +1698,7 @@ It is **efficient** to compute: $O(1)$ time.
 
 **Common hash functions:**
 
-For integer keys: $h(k) = k \mod m$Where $m$ is the table size. Choosing $m$ as a prime number Helps
+For integer keys: $h(k) = k \mod m$ Where $m$ is the table size. Choosing $m$ as a prime number Helps
 distribute keys more uniformly.
 
 For string keys: accumulate character codes and take the modulus.
@@ -1715,7 +1715,7 @@ END FUNCTION
 
 The multiplication by a prime (31 in this example) helps spread out similar strings.
 
-**Load factor:** $\alpha = \frac{n}{m}$Where $n$ is the number of stored elements and $m$ is the
+**Load factor:** $\alpha = \frac{n}{m}$ Where $n$ is the number of stored elements and $m$ is the
 Table size. When the load factor exceeds a threshold ( 0.7 or 0.75), the table is resized ( doubled)
 and all elements are rehashed. This keeps the average lookup time low.
 
@@ -1733,7 +1733,7 @@ In a single bucket.
 **Open addressing:** All elements are stored directly in the hash table array. When a collision
 Occurs, the algorithm probes for the next available slot using a probing sequence.
 
-**Linear probing:** $h(k, i) = (h'(k) + i) \mod m$Where $i = 0, 1, 2, \ldots$ Checks consecutive
+**Linear probing:** $h(k, i) = (h'(k) + i) \mod m$ Where $i = 0, 1, 2, \ldots$ Checks consecutive
 Slots.
 
 **Quadratic probing:** $h(k, i) = (h'(k) + c_1 i + c_2 i^2) \mod m$. Spreads probes more widely.
@@ -1843,7 +1843,7 @@ f(n) \leq c \cdot g(n) \quad \mathrm{for all } n \geq n_0
 $$
 
 In other words, $g(n)$ is an asymptotic upper bound for $f(n)$. Big-O describes the worst-case
-Growth rate; it says that $f(n)$ grows no faster than $g(n)$Up to a constant factor, for
+Growth rate; it says that $f(n)$ grows no faster than $g(n)$ Up to a constant factor, for
 Sufficiently large inputs.
 
 **Related notations:**
@@ -1912,7 +1912,7 @@ END WHILE
 
 The variable `i` starts at 1 and doubles each iteration: 1, 2, 4, 8, 16, ..., until `i $\ge$ n`.
 
-After $k$ iterations, $i = 2^k$. The loop terminates when $2^k \geq n$I.e., $k \geq \log_2 n$.
+After $k$ iterations, $i = 2^k$. The loop terminates when $2^k \geq n$ I.e., $k \geq \log_2 n$.
 
 The number of iterations is $\lfloor \log_2 n \rfloor + 1 = O(\log n)$.
 
@@ -1973,7 +1973,7 @@ Input sizes.
 Permutation generation, the naive traveling salesman solution.
 
 :::caution
-$n \log_2 n \approx 20000000$Which is 20 times larger than $n$.
+$n \log_2 n \approx 20000000$ Which is 20 times larger than $n$.
 :::
 
 ### Space Complexity
@@ -2025,11 +2025,11 @@ $\frac{1 + 2 + \cdots + n}{n} = \frac{n + 1}{2} = O(n)$.
 
 **Quick sort case study:**
 
-Best case: $O(n \log n)$When the pivot always divides the array into nearly equal halves.
+Best case: $O(n \log n)$ When the pivot always divides the array into nearly equal halves.
 
-Average case: $O(n \log n)$Assuming random pivot selection or random input ordering.
+Average case: $O(n \log n)$ Assuming random pivot selection or random input ordering.
 
-Worst case: $O(n^2)$When the pivot is always the minimum or maximum element, producing one Sub-array
+Worst case: $O(n^2)$ When the pivot is always the minimum or maximum element, producing one Sub-array
 of size $n - 1$ and one of size 0.
 
 The difference between quick sort's average and worst case is dramatic: for $n = 1000000$
@@ -2109,7 +2109,7 @@ END WHILE
 
 The variable `i` doubles each iteration: 1, 2, 4, 8, ..., $2^k$.
 
-The loop terminates when $2^k \geq n$I.e. $k \geq \log_2 n$.
+The loop terminates when $2^k \geq n$ I.e. $k \geq \log_2 n$.
 
 Total iterations: $\lfloor \log_2 n \rfloor + 1$. Time complexity: $O(\log n)$.
 

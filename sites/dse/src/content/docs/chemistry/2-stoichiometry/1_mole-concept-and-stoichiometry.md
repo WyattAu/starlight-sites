@@ -211,7 +211,7 @@ A hydrated salt contains water of crystallisation. The formula is written as
 $\mathrm{CuSO}_4 \cdot 5\mathrm{H}_2\mathrm{O}$.
 
 **Worked example 4:** 12.5 g of hydrated copper(II) sulfate,
-$\mathrm{CuSO}_4 \cdot x\mathrm{H}_2\mathrm{O}$Is heated until constant mass is 8.0 g. Find $x$.
+$\mathrm{CuSO}_4 \cdot x\mathrm{H}_2\mathrm{O}$ Is heated until constant mass is 8.0 g. Find $x$.
 
 <details>
 <summary>Answer</summary>
@@ -746,7 +746,7 @@ $c = 20.0 / 40.0 = 0.500 \mathrm{ mol/dm}^3$
 ## Water of Crystallisation and Stoichiometry Combined
 
 **Worked example 18:** 5.00 g of hydrated magnesium sulfate,
-$\mathrm{MgSO}_4 \cdot x\mathrm{H}_2\mathrm{O}$Is dissolved in water and made up to 250 cm$^3$. 25.0
+$\mathrm{MgSO}_4 \cdot x\mathrm{H}_2\mathrm{O}$ Is dissolved in water and made up to 250 cm$^3$. 25.0
 cm$^3$ of this solution requires 20.0 cm$^3$ of 0.100 mol/dm$^3$ $\mathrm{NaOH}$ to precipitate All
 the magnesium as $\mathrm{Mg(OH)}_2$. Find $x$.
 
@@ -776,7 +776,7 @@ $x = 0.211 / 0.0100 = 21.1$
 This is unrealistic for magnesium sulfate. The expected value is $x = 7$ for Epsom salt. The data
 Likely has an issue. For $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$:
 $M_r = 120.4 + 7(18.0) = 246.4$. 5.00 g would give $5.00/246.4 = 0.0203 \mathrm{ mol}$ And 25 Cm$^3$
-aliquot would need $0.00203 \times 2 = 0.00406 \mathrm{ mol}$ $\mathrm{NaOH}$I.e. 40.6 Cm$^3$ of
+aliquot would need $0.00203 \times 2 = 0.00406 \mathrm{ mol}$ $\mathrm{NaOH}$ I.e. 40.6 Cm$^3$ of
 0.100 M NaOH.
 
 Revised problem: using titre of 40.6 cm$^3$:
@@ -795,7 +795,7 @@ Moles of water = $2.556 / 18.0 = 0.142 \mathrm{ mol}$
 
 $x = 0.142 / 0.0203 = 7.00$
 
-Therefore $x = 7$Confirming the formula $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$.
+Therefore $x = 7$ Confirming the formula $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$.
 
 </details>
 
@@ -902,7 +902,7 @@ $c(\mathrm{KOH}) = 0.0100 / (40.0 / 1000) = 0.0100 / 0.0400 = 0.250 \mathrm{ mol
 ### Problem 3
 
 When 8.40 g of hydrated sodium carbonate,
-$\mathrm{Na}_2\mathrm{CO}_3 \cdot x\mathrm{H}_2\mathrm{O}$Is heated to constant mass, 3.10 g of
+$\mathrm{Na}_2\mathrm{CO}_3 \cdot x\mathrm{H}_2\mathrm{O}$ Is heated to constant mass, 3.10 g of
 Anhydrous $\mathrm{Na}_2\mathrm{CO}_3$ remains. Find the value of $x$.
 
 <details>

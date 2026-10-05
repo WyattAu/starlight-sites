@@ -63,7 +63,7 @@ algorithm and prove it always halts.
 **Problem 10.** Prove that the language
 $L = \{\langle M_1, M_2 \rangle : L(M_1) \cap L(M_2) \neq \emptyset\}$ is undecidable.
 
-**Problem 11.** Use Rice"s theorem to prove that
+**Problem 11.** Use Rice's theorem to prove that
 $L = \{\langle M \rangle : L(M) \mathrm{ contains} at least two strings\}$ is undecidable. Explain
 why Rice's theorem applies.
 
@@ -79,7 +79,7 @@ that $c(u) \neq c(v)$ for every edge $(u, v) \in E$. Show that 3-SAT $\leq_p$ 3-
 describing the reduction construction.
 
 **Problem 15.** Prove that $\mathrm{CLIQUE}$ is self-reducible: given an oracle for
-$\mathrm{CLIQUE}$Describe a polynomial-time algorithm to find an actual clique of size $k$ (if one
+$\mathrm{CLIQUE}$ Describe a polynomial-time algorithm to find an actual clique of size $k$ (if one
 exists).
 
 **Problem 16.** Using Savitch's theorem, prove that $\mathrm{NL} \subseteq \mathrm{P}$. What is the
@@ -103,7 +103,7 @@ decidable? Justify.
 
 **Problem 20.** For each of the following languages, state the smallest complexity class (from
 $\mathrm{Regular}$, $\mathrm{CFL$, $\mathrm{Decidable}$, $\mathrm{NP$ $\mathrm{PSPACE$,
-$\mathrm{EXPTIME}$Or "undecidable") that is known to contain it. Justify each answer briefly.
+$\mathrm{EXPTIME}$ Or "undecidable") that is known to contain it. Justify each answer briefly.
 
 (a) $\{0^n 1^n 0^n : n \geq 0\}$ (b) $\{\langle G \rangle : G \mathrm{ has} a Hamiltonian cycle\}$
 (c) $\{\langle G, k \rangle : G \mathrm{ has} a vertex cover of size  \leq k\}$ (d)
@@ -123,16 +123,16 @@ suffix $1^{2i}$ distinguishes $0^i$ from $0^j$ since $0^i 1^{2i} \in L$ but $0^j
 (not regular) and $L_2 = \emptyset$ (regular). Then $L_1 \cdot L_2 = \emptyset$ is regular, but
 $L_1$ is not.
 
-**Problem 7.** Let $w = a^p b^p a^p b^p$ with pumping length $p$. Since $|vxy| \leq p$The Substring
+**Problem 7.** Let $w = a^p b^p a^p b^p$ with pumping length $p$. Since $|vxy| \leq p$ The Substring
 $vxy$ cannot span all four blocks. Case analysis shows that pumping any valid Decomposition produces
 a string not in $L$.
 
-**Problem 10.** Reduce from $E_{\mathrm{TM}}$. Given $\langle M \rangle$Construct two TMs $M_1$
+**Problem 10.** Reduce from $E_{\mathrm{TM}}$. Given $\langle M \rangle$ Construct two TMs $M_1$
 (accepts $\varepsilon$ only) and $M_2$ (accepts what $M$ accepts). Then
 $L(M_1) \cap L(M_2) \neq \emptyset$ iff $M$ accepts $\varepsilon$ iff
 $\langle M \rangle \notin E_{\mathrm{TM}}$ (after adjusting for the specific reduction).
 
-**Problem 13.** If $\mathrm{P} = \mathrm{NP}$ Then for any $L \in \mathrm{NP}$We have
+**Problem 13.** If $\mathrm{P} = \mathrm{NP}$ Then for any $L \in \mathrm{NP}$ We have
 $L \in \mathrm{P}$. Since $\mathrm{P}$ is closed under complement,
 $\overline{L} \in \mathrm{P}
 \subseteq \mathrm{NP}$. So $\overline{L} \in \mathrm{NP}$ for every

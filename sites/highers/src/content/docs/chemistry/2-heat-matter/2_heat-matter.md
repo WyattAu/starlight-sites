@@ -44,7 +44,7 @@ Quantities of reactants as stated in the equation react under standard condition
 | $\Delta H_{\mathrm{neut}^\circ$ | Standard enthalpy of neutralisation | Enthalpy change when 1 mol of water forms from acid-base neutralisation           |
 | $\Delta H_{\mathrm{at}$         | Enthalpy of atomisation             | Enthalpy change to form 1 mol of gaseous atoms from an element                    |
 
-### Hess"s Law
+### Hess's Law
 
 Hess's Law states that the enthalpy change of a reaction is independent of the route taken, provided
 The initial and final conditions are the same.
@@ -245,7 +245,7 @@ Where square brackets denote equilibrium concentrations in $\mathrm{mol/L$.
 - A small $K_c$ ($\lt 10^{-3}$) means reactants are favoured
 - Pure solids and pure liquids are NOT included in the $K_c$ expression
 
-**Worked Example 7:** For $\mathrm{H_2 + \mathrm{I_2 \rightleftharpoons 2\mathrm{HI$At equilibrium
+**Worked Example 7:** For $\mathrm{H_2 + \mathrm{I_2 \rightleftharpoons 2\mathrm{HI$ At equilibrium
 The concentrations are $[\mathrm{H_2] = 0.22$, $[\mathrm{I_2] = 0.22$
 $[\mathrm{HI] = 1.56 \mathrm{ mol/L$. Find $K_c$.
 
@@ -308,15 +308,15 @@ Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$, $T$ is temperature in Kelvi
 **Derivation:**
 
 Starting from the thermodynamic relationship $\Delta G = \Delta G^\circ + RT\ln Q$ (where $Q$ is the
-Reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$Giving:
+Reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$ Giving:
 
 $$
 0 = \Delta G^\circ + RT\ln K \implies \Delta G^\circ = -RT\ln K
 $$
 
-- $\Delta G^\circ < 0$: $K > 1$Reaction favours products
-- $\Delta G^\circ > 0$: $K < 1$Reaction favours reactants
-- $\Delta G^\circ = 0$: $K = 1$System at equilibrium
+- $\Delta G^\circ < 0$: $K > 1$ Reaction favours products
+- $\Delta G^\circ > 0$: $K < 1$ Reaction favours reactants
+- $\Delta G^\circ = 0$: $K = 1$ System at equilibrium
 
 **Worked Example 10:** Calculate $K$ at $298 \mathrm{ K$ for a reaction with
 $\Delta G^\circ = -15.2 \mathrm{ kJ/mol$.
@@ -398,7 +398,7 @@ Shows that:
   with energy above $E_a$
 
 **Effect of temperature:** A small increase in temperature significantly increases the fraction of
-Molecules with energy above $E_a$Because the distribution is exponential. A $10^\circ\mathrm{C$ rise
+Molecules with energy above $E_a$ Because the distribution is exponential. A $10^\circ\mathrm{C$ rise
 Doubles the rate.
 
 **Effect of a catalyst:** A catalyst provides an alternative reaction pathway with a lower
@@ -435,7 +435,7 @@ The overall order is $m + n$.
 | 1             | $\mathrm{s^{-1}$                   |
 | 2             | $\mathrm{L mol^{-1}\mathrm{s^{-1}$ |
 
-**Worked Example 11:** For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$The rate equation is
+**Worked Example 11:** For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$ The rate equation is
 $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$. If $[\mathrm{A]$ doubles and $[\mathrm{B]$ triples, by
 what Factor does the rate change?
 
@@ -512,7 +512,7 @@ E_a = \frac{2.821 \times 8.314}{0.000476} = 49239 \mathrm{ J/mol \approx 49.2 \m
 $$
 
 **Worked Example 14:** The activation energy of a reaction is $75 \mathrm{ kJ/mol$. If the rate
-Constant at $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$Find the rate constant at
+Constant at $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$ Find the rate constant at
 $350 \mathrm{ K$.
 
 $$
@@ -672,12 +672,12 @@ flowchart TD
 1. Explain the effect of increasing pressure on the equilibrium
    $\mathrm{N_2\mathrm{O_4\mathrm{(g) \rightleftharpoons 2\mathrm{NO_2\mathrm{(g)$.
 
-2. For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$The rate equation is
+2. For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$ The rate equation is
    $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$. If $[\mathrm{A]$ doubles and $[\mathrm{B]$ triples,
    by what factor does the rate change?
 
 3. The activation energy of a reaction is $75 \mathrm{ kJ/mol$. If the rate constant at
-   $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$Find the rate constant at
+   $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$ Find the rate constant at
    $350 \mathrm{ K$.
 
 4. $1.0 \mathrm{ mol$ of $\mathrm{PCl_5$ is placed in a $5.0 \mathrm{ L$ container. At equilibrium,
@@ -690,7 +690,7 @@ flowchart TD
    $150 \mathrm{ g$ of water by $10.5°C$. Calculate $\Delta H_c$ and suggest why this value differs
    from the literature value of $-1367 \mathrm{ kJ/mol$.
 
-7. Given $\Delta G^\circ = -RT\ln K$Calculate $K$ at $298 \mathrm{ K$ for a reaction with
+7. Given $\Delta G^\circ = -RT\ln K$ Calculate $K$ at $298 \mathrm{ K$ for a reaction with
    $\Delta G^\circ = -15.2 \mathrm{ kJ/mol$.
 
 8. Using the following data, determine the rate equation and the value of $k$:
@@ -707,7 +707,7 @@ flowchart TD
 
 2. For the equilibrium
     $\mathrm{CO(g) + \mathrm{H_2\mathrm{O(g) \rightleftharpoons \mathrm{CO_2\mathrm{(g) + \mathrm{H_2\mathrm{(g)$
-    $\Delta H = -41 \mathrm{ kJ/mol$Explain how increasing temperature affects the yield of
+    $\Delta H = -41 \mathrm{ kJ/mol$ Explain how increasing temperature affects the yield of
     $\mathrm{CO_2$ and the value of $K_c$.
 
 3. Calculate the enthalpy of neutralisation when $30.0 \mathrm{ cm^3$ of $0.50 \mathrm{ M$ HCl is
@@ -831,7 +831,7 @@ The rate equation is determined by the slow step: $\mathrm{Rate = k[\mathrm{A][\
 Note that $\mathrm{D$ does not appear in the rate equation because it is involved only in the fast
 Step.
 
-**Worked Example 18:** For the reaction $\mathrm{2NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$The
+**Worked Example 18:** For the reaction $\mathrm{2NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$ The
 Proposed mechanism is:
 
 Step 1 (slow): $\mathrm{NO_2 + \mathrm{F_2 \to \mathrm{NO_2\mathrm{F + \mathrm{F$
@@ -840,7 +840,7 @@ Step 2 (fast): $\mathrm{F + \mathrm{NO_2 \to \mathrm{NO_2\mathrm{F$
 
 The rate equation is: $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$.
 
-This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$Even
+This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$ Even
 Though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
 Rate order cannot be predicted from the stoichiometry.
 
@@ -889,7 +889,7 @@ Rate order cannot be predicted from the stoichiometry.
     approximately constant (~-57 kJ/mol), but for weak acid-strong base reactions it is less
     exothermic.
 
-3. For a reaction with $\Delta H^\circ = -92 \mathrm{ kJ/mol$Explain qualitatively how $K_c$
+3. For a reaction with $\Delta H^\circ = -92 \mathrm{ kJ/mol$ Explain qualitatively how $K_c$
     changes as temperature increases. Would the equilibrium yield of products increase or decrease?
 
 4. In a bomb calorimeter, $1.00 \mathrm{ g$ of glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$) is
@@ -979,7 +979,7 @@ $$
 \Delta G^\circ = 25700 - 298 \times 108 = 25700 - 32184 = -6484 \mathrm{ J/mol
 $$
 
-Since $\Delta G^\circ < 0$The dissolution is spontaneous despite being endothermic. The driving
+Since $\Delta G^\circ < 0$ The dissolution is spontaneous despite being endothermic. The driving
 Force is the large increase in entropy (solid $\to$ aqueous ions).
 
 ## Worked Examples

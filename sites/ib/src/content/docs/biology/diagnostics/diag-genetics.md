@@ -110,14 +110,14 @@ Degrees of freedom: number of categories $- 1 = 2 - 1 = 1$.
 
 Critical value at $\alpha = 0.05$ with $df = 1$: $3.841$.
 
-Since $\chi^2_{\text{calc}} = 1.728 \lt 3.841 = \chi^2_{\text{crit}}$We **fail to reject** the null
+Since $\chi^2_{\text{calc}} = 1.728 \lt 3.841 = \chi^2_{\text{crit}}$ We **fail to reject** the null
 hypothesis.
 
 Conclusion: The observed data fits the expected 3:1 ratio at the 0.05 significance level. There is
 no statistically significant evidence that the inheritance pattern deviates from Mendelian
 expectations.
 
-The p-value for $\chi^2 = 1.728$ with $df = 1$ is approximately $0.19$Meaning there is a 19%
+The p-value for $\chi^2 = 1.728$ with $df = 1$ is approximately $0.19$ Meaning there is a 19%
 probability of observing this much deviation (or more) by chance alone.
 
 ---
@@ -141,7 +141,7 @@ probability that their son is colour-blind? What is the probability that a daugh
 
 Let $X^C$ = normal vision allele (dominant), $X^c$ = colour-blind allele (recessive).
 
-Woman"s genotype: Her father was $X^cY$ (colour-blind), so he passed $X^c$ to her. Her mother must
+Woman's genotype: Her father was $X^cY$ (colour-blind), so he passed $X^c$ to her. Her mother must
 have passed $X^C$ (since the woman has normal vision, she must have at least one $X^C$). Therefore,
 the woman is $X^CX^c$ (carrier).
 
@@ -165,7 +165,7 @@ mother (50% chance) = $1/2 = 50\%$. The other 50% would be $X^CX^C$ (normal, non
 ### IT-1: Genetics and Evolution (with Evolution)
 
 **Question:** In a population of 10000 humans, the frequency of the allele for cystic fibrosis
-($f$Recessive) is $0.02$. Assuming Hardy-Weinberg equilibrium: (a) calculate the expected number of
+($f$ Recessive) is $0.02$. Assuming Hardy-Weinberg equilibrium: (a) calculate the expected number of
 carriers, (b) calculate the expected number of individuals with cystic fibrosis, (c) if the
 population is in HWE and the disease reduces fitness by 90% ($w = 0.1$ for affected individuals),
 calculate the new allele frequency after one generation of selection.
@@ -307,13 +307,13 @@ Under the model (one parent Aa non-penetrant, other parent aa):
 
 P(affected) per child = $0.5 \times 0.8 = 0.4$ P(unaffected) per child = $1 - 0.4 = 0.6$
 
-Expected in 3 children: affected $= 3 \times 0.4 = 1.2$Unaffected $= 3 \times 0.6 = 1.8$.
+Expected in 3 children: affected $= 3 \times 0.4 = 1.2$ Unaffected $= 3 \times 0.6 = 1.8$.
 
-Observed: affected $= 1$Unaffected $= 2$.
+Observed: affected $= 1$ Unaffected $= 2$.
 
 $\chi^2 = \frac{(1 - 1.2)^2}{1.2} + \frac{(2 - 1.8)^2}{1.8} = \frac{0.04}{1.2} + \frac{0.04}{1.8} = 0.0333 + 0.0222 = 0.0556$
 
-With $df = 1$, $\chi^2_{\text{crit}} = 3.841$. Since $0.0556 \lt 3.841$The data is consistent with 80%
+With $df = 1$, $\chi^2_{\text{crit}} = 3.841$. Since $0.0556 \lt 3.841$ The data is consistent with 80%
 penetrance autosomal dominant inheritance. The probability of two unaffected parents having an
 affected child is 40% per child under this model.
 

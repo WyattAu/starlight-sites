@@ -119,7 +119,7 @@ water. This arrangement creates a hydrophobic core in the centre of the bilayer.
 
 The membrane is partially permeable because:
 
-- **Small non-polar molecules** (e.g. $O_{2}$, $CO_{2}$Lipid-soluble steroid hormones) can diffuse
+- **Small non-polar molecules** (e.g. $O_{2}$, $CO_{2}$ Lipid-soluble steroid hormones) can diffuse
   directly through the hydrophobic core.
 - **Large polar molecules** (e.g. Glucose), **ions** (e.g. $Na^{+}$, $Cl^{-}$), and **charged
   molecules** cannot pass through the hydrophobic region and require transport proteins or vesicles.
@@ -262,7 +262,7 @@ molecules they contain. The student performs the following tests:
 
 | Test                 | Result                              |
 | -------------------- | ----------------------------------- |
-| Benedict"s test on W | Brick-red precipitate after heating |
+| Benedict's test on W | Brick-red precipitate after heating |
 | Biuret test on X     | Violet/purple colour                |
 | Emulsion test on Y   | White emulsion forms                |
 | Iodine test on Z     | Blue-black colour                   |
@@ -363,8 +363,8 @@ ions out** of the cell and **$2K^{+}$ ions into** the cell per ATP molecule hydr
 ATP is hydrolysed to ADP and inorganic phosphate ($P_{i}$), and the phosphate group attaches to the
 pump protein, causing a **conformational change**. This change:
 
-1. Reduces the pump's affinity for $Na^{+}$Releasing $3Na^{+}$ outside the cell.
-2. Increases the pump's affinity for $K^{+}$Allowing $2K^{+}$ to bind from outside.
+1. Reduces the pump's affinity for $Na^{+}$ Releasing $3Na^{+}$ outside the cell.
+2. Increases the pump's affinity for $K^{+}$ Allowing $2K^{+}$ to bind from outside.
 3. Dephosphorylation returns the pump to its original shape, releasing $K^{+}$ inside the cell.
 
 This maintains a **high $Na^{+}$ concentration outside** the cell and a **low $Na^{+}$ concentration
@@ -438,7 +438,7 @@ optimum temperature, the rate of productive collisions is maximised before denat
 significant.
 
 (b) The claim is **imprecise**. Enzymes are not living organisms and cannot be "killed." The correct
-term is **denaturation**: at $80^{\circ}C$The excessive thermal energy breaks the hydrogen bonds,
+term is **denaturation**: at $80^{\circ}C$ The excessive thermal energy breaks the hydrogen bonds,
 ionic bonds, and other weak interactions maintaining the enzyme's **active site shape**. The
 tertiary structure unfolds irreversibly, and the active site can no longer bind the substrate.
 

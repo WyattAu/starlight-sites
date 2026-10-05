@@ -110,7 +110,7 @@ A common mistake is forgetting to check the domain and accepting both roots.
 
 **Question:**
 
-Given that $\log_2 3 = a$ and $\log_2 5 = b$Express $\log_{15} 4$ in terms of $a$ and $b$.
+Given that $\log_2 3 = a$ and $\log_2 5 = b$ Express $\log_{15} 4$ in terms of $a$ and $b$.
 
 **Solution:**
 
@@ -276,7 +276,7 @@ $$
 2x > 4 \implies x > 2
 $$
 
-Domain: $x + 4 > 0$ and $8 - x > 0$Giving $-4 < x < 8$.
+Domain: $x + 4 > 0$ and $8 - x > 0$ Giving $-4 < x < 8$.
 
 Combining: $2 < x < 8$.
 
@@ -437,7 +437,7 @@ The earthquake is $10^2 = 100$ times more powerful.
 
 **Question:**
 
-Given that $\log_3 2 = a$Express $\log_3 16 - \log_3 4$ in terms of $a$.
+Given that $\log_3 2 = a$ Express $\log_3 16 - \log_3 4$ in terms of $a$.
 
 **Solution:**
 
@@ -474,7 +474,7 @@ Solve $\log_{0.5}(2x - 1) > \log_{0.5}(x + 2)$.
 
 **Solution:**
 
-Domain: $2x - 1 > 0$ and $x + 2 > 0$Giving $x > \dfrac{1}{2}$ and $x > -2$ So $x > \dfrac{1}{2}$.
+Domain: $2x - 1 > 0$ and $x + 2 > 0$ Giving $x > \dfrac{1}{2}$ and $x > -2$ So $x > \dfrac{1}{2}$.
 
 Since the base $0.5$ is between 0 and 1, the logarithmic function is **decreasing**. Therefore the
 inequality **reverses**:
@@ -510,7 +510,7 @@ direction. This is a frequent trap in DSE Paper 2.
 
 **Question:**
 
-Given $\log_4 5 = a$Find $\log_8 10$ in terms of $a$.
+Given $\log_4 5 = a$ Find $\log_8 10$ in terms of $a$.
 
 **Solution:**
 
@@ -753,7 +753,7 @@ But $x > 1$ So $x = -2$ is rejected. No solution.
 
 ### DSE-3
 
-The number of bacteria in a culture is given by $N = 1000 \times 2^{0.1t}$Where $t$ is the time in
+The number of bacteria in a culture is given by $N = 1000 \times 2^{0.1t}$ Where $t$ is the time in
 hours.
 
 (a) Find the initial number of bacteria. (1 mark) (b) Find the number of bacteria after 10 hours,
@@ -788,7 +788,7 @@ hours.
 
 ### DSE-4
 
-If $\log_a 2 = p$ and $\log_a 5 = q$Express the following in terms of $p$ and $q$:
+If $\log_a 2 = p$ and $\log_a 5 = q$ Express the following in terms of $p$ and $q$:
 
 (a) $\log_a 10$ (1 mark) (b) $\log_a 0.04$ (2 marks) (c) $\log_a 250$ (2 marks) (d) $\log_2 a$ (2
 marks)
@@ -847,7 +847,7 @@ Solution of quadratic: $-1 - 2\sqrt{3} \leq x \leq -1 + 2\sqrt{3}$.
 
 Since $-1 + 2\sqrt{3} \approx 2.46$ and we need $x > 1$:
 
-$1 < x \leq -1 + 2\sqrt{3}$I.e. $x \in (1,\; -1 + 2\sqrt{3}]$.
+$1 < x \leq -1 + 2\sqrt{3}$ I.e. $x \in (1,\; -1 + 2\sqrt{3}]$.
 
 ## Cross-References
 

@@ -29,7 +29,7 @@ derivative of the Gibbs free energy is discontinuous.
 | Second order       | First derivatives continuous; second derivatives discontinuous                   | Superconducting transition     |
 | Lambda ($\lambda$) | Divergent second derivatives                                                     | Helium-4 superfluid transition |
 
-For a first-order transition at temperature $T_c$The **latent heat** is:
+For a first-order transition at temperature $T_c$ The **latent heat** is:
 
 $$
 L = T_c \Delta S = T_c \left(S_{\text{phase} 2} - S_{\text{phase} 1}\right)
@@ -163,7 +163,7 @@ $$
 P(T) = P_0 + \frac{L}{\Delta v}\ln\left(\frac{T}{T_0}\right)
 $$
 
-For water near $100^\circ$C, using $L = 2.26 \times 10^6$ J/kg, $\Delta v = 1.672$ m$^3$/kg, $T_0 = 373.15$ K, $P_0 = 1.013 \times 10^5$ Pa:
+For water near $100^\circ$ C, using $L = 2.26 \times 10^6$ J/kg, $\Delta v = 1.672$ m$^3$/kg, $T_0 = 373.15$ K, $P_0 = 1.013 \times 10^5$ Pa:
 
 $$
 P(T) \approx 1.013 \times 10^5 + 1.35 \times 10^6 \cdot \ln\left(\frac{T}{373.15}\right) \text{ Pa}

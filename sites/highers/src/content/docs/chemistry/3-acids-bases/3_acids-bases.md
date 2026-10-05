@@ -176,7 +176,7 @@ $$
 
 **$pK_a = -\log_{10} K_a$**
 
-The lower the $pK_a$The stronger the acid.
+The lower the $pK_a$ The stronger the acid.
 
 **Worked Example 6:** Ethanoic acid has $K_a = 1.74 \times 10^{-5} \mathrm{ mol/L$. Find the pH of a
 $0.10 \mathrm{ M$ solution.
@@ -309,7 +309,7 @@ $$
 $$
 
 **Worked Example 10:** Prepare a buffer at pH 5.00 using ethanoic acid ($pK_a = 4.76$) and sodium
-Ethanoate. If the total concentration is $0.30 \mathrm{ M$Find the concentrations of each Component.
+Ethanoate. If the total concentration is $0.30 \mathrm{ M$ Find the concentrations of each Component.
 
 $$
 5.00 = 4.76 + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}
@@ -597,7 +597,7 @@ flowchart TD
    is an extremely weak base because $\mathrm{HCl$ is a very strong acid.
 
 7. **Diprotic acids:** The second dissociation is always weaker than the first. For
-   $\mathrm{H_2\mathrm{SO_4$The first proton dissociates completely but the second does not
+   $\mathrm{H_2\mathrm{SO_4$ The first proton dissociates completely but the second does not
    ($K_{a2} = 1.2 \times 10^{-2}$).
 
 ---
@@ -620,7 +620,7 @@ flowchart TD
    solution and the percentage dissociation.
 
 3. Prepare a buffer at pH 5.00 using ethanoic acid ($pK_a = 4.76$) and sodium ethanoate. If the
-   total concentration is $0.30 \mathrm{ M$Find the concentrations of each component.
+   total concentration is $0.30 \mathrm{ M$ Find the concentrations of each component.
 
 4. $20.0 \mathrm{ cm^3$ of $0.15 \mathrm{ M$ $\mathrm{NH_3$ ($K_b = 1.78 \times 10^{-5}$) is
    titrated with $0.10 \mathrm{ M$ $\mathrm{HCl$. Find the pH after adding $15.0 \mathrm{ cm^3$ of
@@ -816,7 +816,7 @@ Key features:
    buffer ($\mathrm{CH_3\mathrm{COOH/\mathrm{CH_3\mathrm{COO^-$).
 3. **Half-equivalence point:** At $12.5 \mathrm{ mL$ (half the acid neutralised),
    $\mathrm{pH = pK_a = 4.76$.
-4. **Equivalence point:** At $25 \mathrm{ mL$PH = 8.73.
+4. **Equivalence point:** At $25 \mathrm{ mL$ PH = 8.73.
 5. **Beyond equivalence:** pH approaches that of the excess $\mathrm{NaOH$.
 
 ---
@@ -874,7 +874,7 @@ Dissolution).
 
 ## Practice Questions (Extended)
 
-1. Calculate the pH of a $0.050 \mathrm{ M$ solution of $\mathrm{AlCl_3$Given that
+1. Calculate the pH of a $0.050 \mathrm{ M$ solution of $\mathrm{AlCl_3$ Given that
     $K_a(\mathrm{Al^{3+}) = 1.0 \times 10^{-5}$. (Hint: $\mathrm{Al^{3+}$ acts as a weak acid.)
 
 2. A buffer is prepared by mixing $0.20 \mathrm{ mol$ of $\mathrm{CH_3\mathrm{COOH$ and
@@ -917,7 +917,7 @@ $\mathrm{H^+$ from water autoionisation becomes significant and cannot be ignore
 
 **Worked Example 19:** Find the pH of $1.0 \times 10^{-8}$ M HCl.
 
-If we use $\mathrm{pH = -\log(10^{-8}) = 8$This gives a basic pH for an acid solution, which Is
+If we use $\mathrm{pH = -\log(10^{-8}) = 8$ This gives a basic pH for an acid solution, which Is
 wrong. We must account for the autoionisation of water.
 
 $$
@@ -962,7 +962,7 @@ $$
 K_{a1} = 7.5 \times 10^{-3}, \quad K_{a2} = 6.2 \times 10^{-8}, \quad K_{a3} = 4.8 \times 10^{-13}
 $$
 
-Since $K_{a1} \gg K_{a2} \gg K_{a3}$The first dissociation dominates. For a $0.10 \mathrm{ M$
+Since $K_{a1} \gg K_{a2} \gg K_{a3}$ The first dissociation dominates. For a $0.10 \mathrm{ M$
 Solution, the pH is calculated using only $K_{a1}$.
 
 ---

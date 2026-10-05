@@ -27,7 +27,7 @@ The following are conserved in all known interactions:
 - Electric charge $Q$
 - Colour charge
 - Baryon number $B$ (each quark has $B = 1/3$)
-- Lepton family numbers $L_e$, $L_\mu$, $L_\tau$ (each lepton has $L = +1$Each antilepton $L = -1$)
+- Lepton family numbers $L_e$, $L_\mu$, $L_\tau$ (each lepton has $L = +1$ Each antilepton $L = -1$)
 
 ### 2.2 Approximate or Partially Conserved Quantities
 
@@ -43,20 +43,20 @@ The following are conserved in all known interactions:
 ### 2.3 The Gell-Mann--Nishijima Formula
 
 The Gell-Mann--Nishijima formula relates the electric charge of a hadron to its isospin Projection
-$I_3$Baryon number $B$ And strangeness $S$:
+$I_3$ Baryon number $B$ And strangeness $S$:
 
 $$
 Q = I_3 + \frac{B + S}{2}
 $$
 
-This can be generalised to include charm $C$Bottomness $B"$ And topness $T$:
+This can be generalised to include charm $C$ Bottomness $B"$ And topness $T$:
 
 $$
 Q = I_3 + \frac{1}{2}(B + S + C + B' + T)
 $$
 
 **Derivation.** The formula follows from the definition of the hypercharge $Y = B + S$ and the
-Relation $Q = I_3 + Y/2$Which is a direct consequence of the embedding of
+Relation $Q = I_3 + Y/2$ Which is a direct consequence of the embedding of
 $\mathrm{U}(1)_{\mathrm{em}}$ Within $\mathrm{SU}(3)$ flavour. For the electroweak theory, the
 hypercharge is generalised to $Y = B + S + C + B' + T$ when additional flavours are included.
 
@@ -95,7 +95,7 @@ $\mathbf{x} \to -\mathbf{x}$. Under parity, polar vectors change sign while axia
 
 In 1956, Lee and Yang proposed that parity might not be conserved in weak interactions. This was
 Confirmed by the **Wu experiment** (1957), which measured the angular distribution of electrons
-Emitted in the beta decay of polarised $^{60}$Co nuclei. The electrons were emitted preferentially
+Emitted in the beta decay of polarised $^{60}$ Co nuclei. The electrons were emitted preferentially
 Opposite to the nuclear spin direction, a clear parity-violating asymmetry.
 
 The weak interaction **maximally violates parity**: only left-handed fermions (and right-handed

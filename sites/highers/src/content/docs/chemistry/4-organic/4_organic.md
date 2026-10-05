@@ -199,7 +199,7 @@ $$
 \mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br
 $$
 
-**Markovnikov"s Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
+**Markovnikov's Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
 With more hydrogens already attached.
 
 $$
@@ -364,7 +364,7 @@ Positive charge.
 **Worked Example 10:** Explain why 2-bromo-2-methylpropane undergoes $S_N1$ hydrolysis faster than
 1-bromopropane.
 
-2-bromo-2-methylpropane is a tertiary halogenoalkane. In $S_N1$The rate-determining step is
+2-bromo-2-methylpropane is a tertiary halogenoalkane. In $S_N1$ The rate-determining step is
 Formation of the carbocation. The tertiary carbocation $(\mathrm{CH_3)_3\mathrm{C^+$ is stabilised
 by Three methyl groups (+I effect), making it relatively easy to form. 1-bromopropane would form a
 Primary carbocation ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2^+$), which is much less stable.
@@ -436,7 +436,7 @@ Requires a chiral centre (carbon with four different groups attached).
 **Worked Example 12:** Explain why $\mathrm{CH_3\mathrm{CH(\mathrm{OH)\mathrm{COOH$ is optically
 active, And draw both enantiomers.
 
-Carbon-2 has four different groups attached: $\mathrm{H$$\mathrm{OH$$\mathrm{CH_3$And
+Carbon-2 has four different groups attached: $\mathrm{H$$\mathrm{OH$$\mathrm{CH_3$ And
 $\mathrm{COOH$. This makes it a chiral centre. The two enantiomers are non-superimposable mirror
 Images that rotate plane-polarised light in opposite directions.
 
@@ -592,12 +592,12 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 
 | From            | To                | Reagent/Condition                        |
 | --------------- | ----------------- | ---------------------------------------- |
-| Alkene          | Alkane            | $\mathrm{H_2$Ni catalyst                 |
+| Alkene          | Alkane            | $\mathrm{H_2$ Ni catalyst                 |
 | Alkene          | Haloalkane        | $\mathrm{HX$ or $\mathrm{X_2$            |
 | Alkene          | Alcohol           | $\mathrm{H_2\mathrm{O$, $\mathrm{H^+$      |
-| Alcohol         | Aldehyde          | $[\mathrm{O]$Distillation                |
-| Alcohol         | Carboxylic acid   | $[\mathrm{O]$Reflux                      |
-| Alcohol         | Alkene            | $\mathrm{conc. H_2\mathrm{SO_4$Heat      |
+| Alcohol         | Aldehyde          | $[\mathrm{O]$ Distillation                |
+| Alcohol         | Carboxylic acid   | $[\mathrm{O]$ Reflux                      |
+| Alcohol         | Alkene            | $\mathrm{conc. H_2\mathrm{SO_4$ Heat      |
 | Haloalkane      | Alcohol           | $\mathrm{NaOH (aq)$                      |
 | Haloalkane      | Amine             | $\mathrm{NH_3$ (excess)                  |
 | Carboxylic acid | Ester             | Alcohol, $\mathrm{conc. H_2\mathrm{SO_4$ |
@@ -880,10 +880,10 @@ flowchart TD
 | Alkene            | $\mathrm{HX$                        | Haloalkane            | Electrophilic addition    |
 | Alkene            | $\mathrm{X_2$                       | Dihaloalkane          | Electrophilic addition    |
 | Alkene            | $\mathrm{H_2\mathrm{O/\mathrm{H^+$  | Alcohol               | Electrophilic addition    |
-| Primary alcohol   | $[\mathrm{O]$Distil                 | Aldehyde              | Oxidation                 |
-| Primary alcohol   | $[\mathrm{O]$Reflux                 | Carboxylic acid       | Oxidation                 |
+| Primary alcohol   | $[\mathrm{O]$ Distil                 | Aldehyde              | Oxidation                 |
+| Primary alcohol   | $[\mathrm{O]$ Reflux                 | Carboxylic acid       | Oxidation                 |
 | Secondary alcohol | $[\mathrm{O]$                       | Ketone                | Oxidation                 |
-| Alcohol           | $\mathrm{conc. H_2\mathrm{SO_4$Heat | Alkene                | Elimination (dehydration) |
+| Alcohol           | $\mathrm{conc. H_2\mathrm{SO_4$ Heat | Alkene                | Elimination (dehydration) |
 | Alcohol + acid    | $\mathrm{conc. H_2\mathrm{SO_4$     | Ester                 | Esterification            |
 | Haloalkane        | $\mathrm{NaOH (aq)$                 | Alcohol               | Nucleophilic substitution |
 | Haloalkane        | $\mathrm{KCN$                       | Nitrile               | Nucleophilic substitution |

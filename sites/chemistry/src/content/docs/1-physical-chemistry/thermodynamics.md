@@ -119,7 +119,7 @@ $$
 S = k_B \ln W
 $$
 
-where $W$ is the number of microstates and $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann"s constant.
+where $W$ is the number of microstates and $k_B = 1.381 \times 10^{-23}$ J/K is Boltzmann's constant.
 
 For $N$ distinguishable particles with $n_i$ in each energy level $\varepsilon_i$:
 

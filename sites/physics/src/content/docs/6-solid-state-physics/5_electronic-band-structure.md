@@ -80,7 +80,7 @@ Nearly spherical Fermi surface well within the first BZ. 2 electrons/atom (e.g.,
 The first BZ and the Fermi surface contacts the zone boundary. 3--4 electrons/atom (e.g., Al, Pb)
 Produce complex multiply-connected Fermi surfaces.
 
-### 5.3 Bloch"s Theorem
+### 5.3 Bloch's Theorem
 
 **Theorem 5.1 (Bloch, 1928).** The eigenstates of the one-electron Hamiltonian in a periodic
 Potential $V(\mathbf{r} + \mathbf{R}) = V(\mathbf{r})$ can be written as:
@@ -108,7 +108,7 @@ c_{\mathbf{R}_1 + \mathbf{R}_2} = c_{\mathbf{R}_1} c_{\mathbf{R}_2}
 $$
 
 The only solution of this functional equation is $c_{\mathbf{R}} = e^{i\mathbf{k}\cdot\mathbf{R}}$.
-Therefore $\psi(\mathbf{r} + \mathbf{R}) = e^{i\mathbf{k}\cdot\mathbf{R}}\psi(\mathbf{r})$Which is
+Therefore $\psi(\mathbf{r} + \mathbf{R}) = e^{i\mathbf{k}\cdot\mathbf{R}}\psi(\mathbf{r})$ Which is
 Satisfied by $\psi(\mathbf{r}) = e^{i\mathbf{k}\cdot\mathbf{r}}u_{\mathbf{k}}(\mathbf{r})$ with
 $u_{\mathbf{k}}$ periodic. $\blacksquare$
 
@@ -116,7 +116,7 @@ $u_{\mathbf{k}}$ periodic. $\blacksquare$
 
 - $\mathbf{k}$ is defined only up to a reciprocal lattice vector: $\mathbf{k}$ and
   $\mathbf{k} + \mathbf{G}$ are equivalent.
-- The energy spectrum consists of **bands** $\varepsilon_n(\mathbf{k})$Each labelled by a band index
+- The energy spectrum consists of **bands** $\varepsilon_n(\mathbf{k})$ Each labelled by a band index
   $n$.
 - Band gaps appear between allowed energy bands.
 
@@ -127,7 +127,7 @@ $V(\mathbf{r}) = \sum_{\mathbf{G}} V_{\mathbf{G}} e^{i\mathbf{G}\cdot\mathbf{r}}
 Brillouin zone boundaries where $\lvert\mathbf{k}\rvert = \lvert\mathbf{k} + \mathbf{G}\rvert$
 (Bragg Condition).
 
-At the zone boundary $\mathbf{k} = \mathbf{G}/2$The gap is:
+At the zone boundary $\mathbf{k} = \mathbf{G}/2$ The gap is:
 
 $$
 \Delta\varepsilon = 2\lvert V_{\mathbf{G}}\rvert
@@ -166,7 +166,7 @@ $$
 \sigma = \frac{ne^2\tau}{m_e}
 $$
 
-**AC conductivity.** For $\mathbf{E}(t) = \mathbf{E}_0\,e^{-i\omega t}$The Drude model gives:
+**AC conductivity.** For $\mathbf{E}(t) = \mathbf{E}_0\,e^{-i\omega t}$ The Drude model gives:
 
 $$
 \sigma(\omega) = \frac{ne^2\tau/m_e}{1 - i\omega\tau} = \frac{\sigma_0}{1 - i\omega\tau}
@@ -182,7 +182,7 @@ $$
 -e\mathbf{E} - \frac{m_e\mathbf{v}}{\tau} - e\mathbf{v} \times \mathbf{B} = 0
 $$
 
-For current $\mathbf{J} = J_x\hat{x}$A transverse field $E_y$ develops:
+For current $\mathbf{J} = J_x\hat{x}$ A transverse field $E_y$ develops:
 
 $$
 R_H = \frac{E_y}{J_x B} = -\frac{1}{ne}
@@ -190,7 +190,7 @@ $$
 
 This provides a direct measurement of the carrier density $n$.
 
-**Successes:** Ohm"s law ($\mathbf{J} = \sigma\mathbf{E}$), Wiedemann--Franz law
+**Successes:** Ohm's law ($\mathbf{J} = \sigma\mathbf{E}$), Wiedemann--Franz law
 ($\kappa/\sigma T = \frac{\pi^2 k_B^2}{3e^2}$), Hall effect.
 
 **Failures:** Predicts $\chi \propto T^{-1}$ (Curie law) for magnetic susceptibility, but real
@@ -206,7 +206,7 @@ $$
 f(\varepsilon) = \frac{1}{e^{(\varepsilon - \mu)/k_B T} + 1}
 $$
 
-At $T = 0$The chemical potential equals the Fermi energy: $\mu(0) = \varepsilon_F$. At finite $T$:
+At $T = 0$ The chemical potential equals the Fermi energy: $\mu(0) = \varepsilon_F$. At finite $T$:
 
 $$
 \mu(T) = \varepsilon_F\left[1 - \frac{\pi^2}{12}\left(\frac{k_B T}{\varepsilon_F}\right)^2 + \cdots\right]
@@ -237,7 +237,7 @@ $\chi \propto 1/T$ of the Drude model.
 <details>
 <summary>Derivation: Sommerfeld Expansion</summary>
 
-To compute thermal averages at low $T$We integrate $h(\varepsilon) f(\varepsilon)$ where
+To compute thermal averages at low $T$ We integrate $h(\varepsilon) f(\varepsilon)$ where
 $f(\varepsilon) = 1/(e^{\beta(\varepsilon - \mu)} + 1)$ is the Fermi--Dirac distribution and
 $h(\varepsilon)$ Is any smooth function (e.g., density of states times energy).
 
@@ -248,7 +248,7 @@ I = \int_0^\infty h(\varepsilon)f(\varepsilon)\,d\varepsilon = \int_0^\infty \fr
 $$
 
 Since $f(0) \approx 1$ and $f(\infty) = 0$ And $-\partial f/\partial \varepsilon$ is sharply peaked
-At $\varepsilon = \mu$ with width $\sim k_B T$We expand $H(\varepsilon)$ about $\mu$:
+At $\varepsilon = \mu$ with width $\sim k_B T$ We expand $H(\varepsilon)$ about $\mu$:
 
 $$
 I = \int_0^\mu h(\varepsilon)\,d\varepsilon + \frac{\pi^2}{6}(k_B T)^2 h'(\mu) + \cdots
@@ -359,7 +359,7 @@ Dependence of a parabolic band.
 
 ### 5.8 Effective Mass
 
-Near a band extremum at $\mathbf{k}_0$The energy can be expanded:
+Near a band extremum at $\mathbf{k}_0$ The energy can be expanded:
 
 $$
 \varepsilon(\mathbf{k}) = \varepsilon_0 + \frac{\hbar^2}{2}\sum_{ij}(m^{-1})_{ij}(k_i - k_{0,i})(k_j - k_{0,j})
@@ -411,7 +411,7 @@ occupied States). The Kohn--Sham equations are solved self-consistently.
   exchange-correlation energy of a homogeneous electron gas. Good for simple metals but tends to
   underestimate band gaps.
 - **Generalised gradient approximation (GGA):** Includes the density gradient
-  $\nabla n(\mathbf{r})$Improving accuracy for structural properties and band gaps.
+  $\nabla n(\mathbf{r})$ Improving accuracy for structural properties and band gaps.
 - **Hybrid functionals (e.g., HSE06):** Mix a fraction of exact Hartree--Fock exchange with DFT
   exchange, giving improved band gaps at higher computational cost.
 

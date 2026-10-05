@@ -71,7 +71,7 @@ block and the surface is $\mu = 0.4$. A horizontal force $P$ is applied to the b
 **(b)** When $P = 20$ N, find the magnitude and direction of the frictional force acting on the
 block. [2 marks]
 
-**(c)** A student, upon seeing the value $\mu = 0.4$Immediately writes
+**(c)** A student, upon seeing the value $\mu = 0.4$ Immediately writes
 $F = \mu R = 0.4 \times 78.4 = 31.36$ N for the frictional force, regardless of the applied force
 $P$. Explain why this is incorrect for $P = 20$ N, and calculate the percentage by which the student
 overestimates the friction. [3 marks]
@@ -99,7 +99,7 @@ vertically). Find the new moment about $A$ and explain why it is larger than the
 A car of mass $800$ kg travels on a level road. The engine works at constant power $40$ kW. The
 resistance to motion is a constant $200$ N.
 
-**(a)** Show that the acceleration of the car is given by $a = \frac{P}{mv} - \frac{R}{m}$Where $P$
+**(a)** Show that the acceleration of the car is given by $a = \frac{P}{mv} - \frac{R}{m}$ Where $P$
 is the power, $v$ is the speed, and $R$ is the resistance. [2 marks]
 
 **(b)** Find the maximum speed of the car. [2 marks]
@@ -159,7 +159,7 @@ For $1 \lt t \lt 5$: test $t = 3$, $v = 18 - 9 - 5 = 4 \gt 0$ (moving in positiv
 For $t \gt 5$: test $t = 6$, $v = 36 - 36 - 5 = -5 \lt 0$ (moving in negative direction).
 
 The particle reverses direction at $t = 1$ and $t = 5$. Total distance requires integrating
-$\lvert v \rvert$Which means splitting at the turning points and taking the magnitude of each
+$\lvert v \rvert$ Which means splitting at the turning points and taking the magnitude of each
 segment.
 
 $$
@@ -256,7 +256,7 @@ $$
 
 This is **less** than $31.36$ N, not greater. Applying the force at an angle above the horizontal
 reduces the normal reaction ($R = 78.4 - 0.5P \lt 78.4$), which in turn reduces the maximum
-friction. Although the horizontal component of $P$ is only $P\cos 30° \approx 0.866P$The reduction
+friction. Although the horizontal component of $P$ is only $P\cos 30° \approx 0.866P$ The reduction
 in $R$ means the maximum available horizontal force is reduced overall.
 
 ### Q3
@@ -276,7 +276,7 @@ $$
 $$
 
 **(b)** The student used the distance $AB = 3$ m instead of the perpendicular distance
-$3\cos 40° \approx 2.298$ m. The moment is $F \times d_{\perp}$Not $F \times d_{\text{along rod}}$.
+$3\cos 40° \approx 2.298$ m. The moment is $F \times d_{\perp}$ Not $F \times d_{\text{along rod}}$.
 
 $$
 \text{Student's answer} = 150 \text{ Nm}
@@ -290,7 +290,7 @@ $$
 \text{Percentage overestimate} = \frac{150 - 150\cos 40°}{150\cos 40°} \times 100\% = \frac{1 - \cos 40°}{\cos 40°} \times 100\% = \left(\frac{1}{\cos 40°} - 1\right) \times 100\% \approx 30.5\%
 $$
 
-**(c)** If the $50$ N force acts perpendicular to the rod at $B$The perpendicular distance from $A$
+**(c)** If the $50$ N force acts perpendicular to the rod at $B$ The perpendicular distance from $A$
 to the line of action is the length of the rod:
 
 $$
@@ -415,7 +415,7 @@ The negative sign means $B$ moves in the opposite direction to the defined posit
 initial direction. This is the same physical velocity as $\frac{5}{3}$ m/s in $A$'s initial
 direction, confirming the result is convention-independent.
 
-**(d)** Since $e = \frac{11}{24} \approx 0.458$ and $0 \lt e \lt 1$The collision is **inelastic**.
+**(d)** Since $e = \frac{11}{24} \approx 0.458$ and $0 \lt e \lt 1$ The collision is **inelastic**.
 
 $$
 \text{KE}_{\text{before}} = \frac{1}{2}(4)(25) + \frac{1}{2}(6)(9) = 50 + 27 = 77 \text{ J}
@@ -444,8 +444,8 @@ $$
 
 | Question  | Topic                    |  Marks | Key Skills Tested                                                                                        |
 | --------- | ------------------------ | -----: | -------------------------------------------------------------------------------------------------------- |
-| Q1        | Kinematics               |     10 | Displacement vs distance, direction changes from $v = 0$Splitting integrals, percentage error            |
-| Q2        | Forces and Newton's Laws |     10 | Static friction inequality $F \leq \mu R$Non-limiting friction, angled force and normal reaction         |
+| Q1        | Kinematics               |     10 | Displacement vs distance, direction changes from $v = 0$ Splitting integrals, percentage error            |
+| Q2        | Forces and Newton's Laws |     10 | Static friction inequality $F \leq \mu R$ Non-limiting friction, angled force and normal reaction         |
 | Q3        | Moments                  |     10 | Perpendicular distance vs distance to pivot, trigonometric moments, percentage error analysis            |
 | Q4        | Energy and Work          |     10 | $P = Fv$ derivation, maximum speed, decreasing acceleration at constant power, integration for time      |
 | Q5        | Momentum                 |     10 | Sign convention consistency, conservation of momentum, coefficient of restitution, energy classification |

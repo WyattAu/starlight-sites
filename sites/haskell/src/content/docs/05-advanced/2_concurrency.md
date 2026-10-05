@@ -41,7 +41,7 @@ monadic contexts (like `IORef` or `MVar`), and Haskell provides safe abstraction
 
 ## forkIO: Lightweight Threads
 
-Haskell"s `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
+Haskell's `forkIO` creates extremely lightweight threads managed by the GHC runtime (not OS
 threads):
 
 ```haskell

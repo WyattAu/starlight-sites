@@ -168,7 +168,7 @@ $\dfrac{dy}{dx} = \dfrac{e^x(x^2+2x)\sin x - x^2e^x\cos x}{\sin^2 x}$.
 <summary>Q13. Find the stationary points of $y = x^3 - 3x + 2$ and classify them.</summary>
 $y' = 3x^2 - 3 = 0 \implies x = \pm 1$. $y'' = 6x$.
 
-$x=1$: $y'' = 6 \gt 0$Minimum at $(1, 0)$. $x=-1$: $y'' = -6 \lt 0$Maximum at $(-1, 4)$.
+$x=1$: $y'' = 6 \gt 0$ Minimum at $(1, 0)$. $x=-1$: $y'' = -6 \lt 0$ Maximum at $(-1, 4)$.
 
 **If you get this wrong, revise:**
 [Differentiation](/maths/pure-mathematics/10-differentiation/)
@@ -292,7 +292,7 @@ $\bar{x} = 10(3)+50 = 80$. $\sigma_x = 10(2) = 20$.
 ### Correlation and Regression
 
 <details>
-<summary>Q25. Given $S_{xx}=40$$S_{xy}=24$$S_{yy}=25$$\bar{x}=5$$\bar{y}=7$Find $r$ and the regression line of $y$ on $x$.</summary>
+<summary>Q25. Given $S_{xx}=40$$S_{xy}=24$$S_{yy}=25$$\bar{x}=5$$\bar{y}=7$ Find $r$ and the regression line of $y$ on $x$.</summary>
 $r = \dfrac{24}{\sqrt{40 \times 25}} = \dfrac{24}{\sqrt{1000}} = \dfrac{24}{31.62} \approx 0.759$.
 
 $b = 24/40 = 0.6$$a = 7 - 0.6(5) = 4$. Line: $y = 4 + 0.6x$.
@@ -483,7 +483,7 @@ $4(6) + 2(0) = 6v \implies v = 4\,\mathrm{m/s}$.
 </details>
 
 <details>
-<summary>Q44. A ball hits a wall at $10\,\mathrm{m/s}$ and rebounds at $7\,\mathrm{m/s}$. If its mass is $0.15\,\mathrm{kg}$Find the impulse.</summary>
+<summary>Q44. A ball hits a wall at $10\,\mathrm{m/s}$ and rebounds at $7\,\mathrm{m/s}$. If its mass is $0.15\,\mathrm{kg}$ Find the impulse.</summary>
 $J = m(v-u) = 0.15(-7-10) = 0.15(-17) = -2.55\,\mathrm{Ns}$. Magnitude: $2.55\,\mathrm{Ns}$.
 
 **If you get this wrong, revise:** [Momentum](/maths/mechanics/05-momentum/)

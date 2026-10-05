@@ -49,7 +49,7 @@ $B = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$.
 
 **(a)** Show that $AB \neq BA$.
 
-**(b)** Find all $2 \times 2$ matrices $X$ such that $AX = XA$Where $A$ is as defined above.
+**(b)** Find all $2 \times 2$ matrices $X$ such that $AX = XA$ Where $A$ is as defined above.
 
 **(c)** A student claims that since $A$ and $B$ do not commute, no matrix can commute with $A$.
 Explain the error.
@@ -70,7 +70,7 @@ BA = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 1 & 2 \\ 0 & -1
 $$
 
 Since
-$AB = \begin{pmatrix} 2 & 1 \\ -1 & 0 \end{pmatrix} \neq \begin{pmatrix} 0 & -1 \\ 1 & 2 \end{pmatrix} = BA$The
+$AB = \begin{pmatrix} 2 & 1 \\ -1 & 0 \end{pmatrix} \neq \begin{pmatrix} 0 & -1 \\ 1 & 2 \end{pmatrix} = BA$ The
 matrices do not commute.
 
 **(b)** Let $X = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$. Then:
@@ -93,7 +93,7 @@ Setting $AX = XA$:
 So $X = \begin{pmatrix} 0 & b \\ 0 & 0 \end{pmatrix}$ for any $b \in \mathbb{R}$.
 
 **(c)** The student"s error is a logical fallacy: the fact that $B$ does not commute with $A$ does
-not imply that _no_ matrix commutes with $A$. The identity matrix $I$The zero matrix $O$ And all
+not imply that _no_ matrix commutes with $A$. The identity matrix $I$ The zero matrix $O$ And all
 scalar multiples of $I$ commute with every matrix. Part (b) shows that there is in fact a
 one-parameter family of matrices commuting with $A$.
 
@@ -138,7 +138,7 @@ $$
 \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
 $$
 
-This gives $y = 0$ and $z = 0$With $x$ free. So the eigenvectors are
+This gives $y = 0$ and $z = 0$ With $x$ free. So the eigenvectors are
 $\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$ times any scalar. There is only **one** linearly
 independent eigenvector for $\lambda = 2$.
 
@@ -148,7 +148,7 @@ $$
 \begin{pmatrix} -1 & 1 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 0 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}
 $$
 
-This gives $y = 0$, $-x = 0$ so $x = 0$With $z$ free. Eigenvector:
+This gives $y = 0$, $-x = 0$ so $x = 0$ With $z$ free. Eigenvector:
 $\begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$.
 
 **(b)** The student is incorrect. While it is true that the eigenvalues of a triangular matrix are

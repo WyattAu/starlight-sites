@@ -21,7 +21,7 @@ description: "In many physical situations, a system exchanges both energy and pa
 
 In many physical situations, a system exchanges both energy and particles with a reservoir. The
 **grand canonical ensemble** describes such open systems. The macroscopic variables are the chemical
-potential $\mu$The volume $V$ And the temperature $T$.
+potential $\mu$ The volume $V$ And the temperature $T$.
 
 **Definition.** The **grand partition function** is
 
@@ -83,14 +83,14 @@ $\langle N^2 \rangle - \langle N \rangle^2 = \frac{1}{\beta^2}\frac{\partial^2 \
 $\blacksquare$
 
 For an ideal gas, $\langle N \rangle = z e^{\beta \mu}$ So
-$\partial \langle N \rangle / \partial \mu = \beta \langle N \rangle$Giving relative fluctuations:
+$\partial \langle N \rangle / \partial \mu = \beta \langle N \rangle$ Giving relative fluctuations:
 
 $$
 \frac{\langle N^2 \rangle - \langle N \rangle^2}{\langle N \rangle^2} = \frac{1}{\langle N \rangle}
 $$
 
 This is Poisson .../4-statistics-and-probability/2_statistics: fluctuations scale as
-$1/\sqrt{N}$Negligible for macroscopic systems.
+$1/\sqrt{N}$ Negligible for macroscopic systems.
 
 ### 3.4 Worked Example: Ideal Gas in the Grand Canonical Ensemble
 
@@ -180,7 +180,7 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 
 - **The grand canonical ensemble extends the canonical ensemble** by allowing particle number fluctuations, making it suitable for open systems in contact with both a heat reservoir and a particle reservoir.
 - **$\Phi_G = -PV$ connects microscopic statistics to macroscopic thermodynamics:** The grand potential directly gives the equation of state, linking the partition function to pressure and volume.
-- **Fluctuations scale as $1/\sqrt{N}$:** For macroscopic systems ($N \sim 10^{23}$), relative particle number fluctuations are negligible ($\sim 10^{-12}$), justifying the use of the canonical ensemble for most practical purposes.
+- **Fluctuations scale as $1/\sqrt{N}$:** For macroscopic systems ($ N \sim 10^{23}$), relative particle number fluctuations are negligible ($\sim 10^{-12}$), justifying the use of the canonical ensemble for most practical purposes.
 - **The fugacity $z = e^{\beta\mu}$ parameterises particle number:** The grand partition function is a power series in $z$, where each coefficient encodes the thermodynamics of the $N$-particle sector.
 - **Ideal gas statistics emerge:** The grand canonical treatment of the ideal gas reproduces the canonical results ($\langle E \rangle = \frac{3}{2}Nk_BT$, $PV = Nk_BT$) without the need to compute $N$-particle partition functions.
 

@@ -58,7 +58,7 @@ $$
 
 Where $\hat{H}$ is the Hamiltonian (energy operator).
 
-_Physical motivation._ This is the quantum analogue of Hamilton"s equations in classical mechanics.
+_Physical motivation._ This is the quantum analogue of Hamilton's equations in classical mechanics.
 The Schrodinger equation is linear, guaranteeing superposition is preserved. Energy conservation is
 Built in: for a time-independent Hamiltonian, $\langle H \rangle$ is constant.
 
@@ -106,7 +106,7 @@ The measurement problem remains an active area of research in the foundations of
 For systems where the state is not known precisely (statistical mixtures), the **density operator**
 Provides a more general description than the state vector.
 
-**Definition.** For a pure state $|\psi\rangle$The density operator is
+**Definition.** For a pure state $|\psi\rangle$ The density operator is
 $\hat{\rho} = |\psi\rangle\langle\psi|$. For a statistical mixture of states $|\psi_i\rangle$ with
 probabilities $p_i$:
 

@@ -66,7 +66,7 @@ $$
 |z_1 z_2| = |z_1|\,|z_2| \qquad |z_1 + z_2| \leq |z_1| + |z_2| \qquad |z^n| = |z|^n
 $$
 
-### 1.3 de Moivre"s Theorem
+### 1.3 de Moivre's Theorem
 
 For integer $n$:
 

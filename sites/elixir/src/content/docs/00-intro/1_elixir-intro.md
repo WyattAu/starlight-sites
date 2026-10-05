@@ -51,7 +51,7 @@ of building fault-tolerant distributed systems.
 
 Valim was drawn to the Erlang ecosystem -- specifically its proven track record in
 telecommunications, messaging systems, and fault-tolerant infrastructure (WhatsApp, Discord,
-RabbitMQ all run on Erlang/BEAM). However, he found Erlang"s syntax arcane and its tooling lacking
+RabbitMQ all run on Erlang/BEAM). However, he found Erlang's syntax arcane and its tooling lacking
 the developer experience he had come to expect from the Ruby world. His goal was to create a
 language that would:
 

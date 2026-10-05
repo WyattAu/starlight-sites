@@ -2797,7 +2797,7 @@ same code. Apache 2.0 prevents this.
 
 Apache 2.0 requires that derivative works preserve a NOTICE file if the original work includes one.
 The NOTICE file contains additional attribution, names of contributors, copyright holders, and
-specific attribution notices. This is more burdensome than MIT"s single requirement.
+specific attribution notices. This is more burdensome than MIT's single requirement.
 
 ### Notable Projects
 

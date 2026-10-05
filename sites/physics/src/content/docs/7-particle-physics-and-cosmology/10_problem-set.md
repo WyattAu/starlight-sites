@@ -30,7 +30,7 @@ the $\Lambda^0$ actually decay?
 **Problem 4.** Compute the branching ratio upper bound for $\pi^0 \to e^+e^-$ relative to
 $\pi^0 \to \gamma\gamma$ using dimensional analysis and helicity suppression.
 
-**Problem 5.** In the decay $\mu^- \to e^- + \bar{\nu}_e + \nu_\mu$Verify that Electric charge,
+**Problem 5.** In the decay $\mu^- \to e^- + \bar{\nu}_e + \nu_\mu$ Verify that Electric charge,
 baryon number, and all three lepton family numbers are conserved.
 
 **Problem 6.** Draw the Feynman diagram for $e^+e^- \to e^+e^-$ (Bhabha scattering) at tree Level.
@@ -43,7 +43,7 @@ Thomson cross section $\sigma_T = 8\pi\alpha^2/(3m_e^2)$ from the Klein--Nishina
 GeV), given $\alpha(m_e) \approx 1/137$.
 
 **Problem 9.** For the Higgs potential $V = \mu^2\phi^\dagger\phi + \lambda(\phi^\dagger\phi)^2$
-With $\mu^2 \lt 0$Show that expanding the field around the VEV $\phi = (0, v)^T/\sqrt{2}$ Produces a
+With $\mu^2 \lt 0$ Show that expanding the field around the VEV $\phi = (0, v)^T/\sqrt{2}$ Produces a
 physical scalar with mass $m_H = \sqrt{2\lambda}\,v$. Identify the three Goldstone Modes.
 
 **Problem 10.** The top quark has mass $m_t = 173$ GeV/$c^2$ and the electron has mass $m_e = 0.511$
@@ -67,12 +67,12 @@ critical density $\rho_c$ in kg/m$^3$(b) the age of the universe $t_0 = 2/(3H_0)
 distance $d_H = c/H_0$.
 
 **Problem 15.** A supernova at redshift $z = 0.5$ is observed to be fainter than predicted By the
-matter-dominated Friedmann model. Using the deceleration parameter $q_0$Show that $q_0 \lt 0$ is
+matter-dominated Friedmann model. Using the deceleration parameter $q_0$ Show that $q_0 \lt 0$ is
 required and that this implies $\Omega_\Lambda \gt \Omega_m/2$.
 
 **Problem 16.** Solar neutrinos are produced by $p + p \to d + e^+ + \nu_e$ with energy
 $E_\nu \leq 0.42$ MeV. Using the two-flavour oscillation formula with
-$\Delta m^2_{21} = 7.5 \times 10^{-5}$ eV$^2$ and $\sin^2(2\theta_{12}) = 0.84$Calculate The
+$\Delta m^2_{21} = 7.5 \times 10^{-5}$ eV$^2$ and $\sin^2(2\theta_{12}) = 0.84$ Calculate The
 oscillation probability $P(\nu_e \to \nu_\mu)$ at the distance $L = 1.5 \times 10^{11}$ m
 (Earth--Sun distance). Take $E_\nu = 0.3$ MeV. (Express $L$ and $E$ in natural units.)
 

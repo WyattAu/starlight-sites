@@ -92,10 +92,10 @@ Where:
 
 - $q$ = heat energy (J)
 - $m$ = mass (g)
-- $c$ = specific heat capacity (J/g/$\degree$C)
-- $\Delta T$ = temperature change ($\degree$C)
+- $c$ = specific heat capacity (J/g/$\degree$ C)
+- $\Delta T$ = temperature change ($\degree$ C)
 
-| Substance | $c$ (J/g/$\degree$C) |
+| Substance | $c$ (J/g/$\degree$ C) |
 | --------- | -------------------- |
 | Water     | 4.18                 |
 | Ice       | 2.09                 |
@@ -161,7 +161,7 @@ $$
 }
 </script>
 
-## Hess"s Law
+## Hess's Law
 
 ### Statement
 
@@ -300,7 +300,7 @@ For an ionic compound MX:
 
 1. $\Delta H_f^\circ$: Standard enthalpy of formation of MX(s)
 2. $\Delta H_{\mathrm{at}}(M)$: Enthalpy of atomisation of M(s) $\to$ M(g)
-3. $\Delta H_{\mathrm{at}}(X_2)$: Enthalpy of atomisation of $\frac{1}{2}$X$_2$(g) $\to$ X(g)
+3. $\Delta H_{\mathrm{at}}(X_2)$: Enthalpy of atomisation of $\frac{1}{2}$ X$_2$(g) $\to$ X(g)
 4. IE$_1$IE$_2$...: Ionisation energies of M
 5. EA$_1$: Electron affinity of X (energy released when X gains an electron)
 6. $\Delta H_{\mathrm{latt}}$: Lattice energy (exothermic)
@@ -712,7 +712,7 @@ $$
 K = e^{-(-5400)/(8.314 \times 298)} = e^{2.18} = 8.85
 $$
 
-Since $K \gt 1$Products are favoured at equilibrium.
+Since $K \gt 1$ Products are favoured at equilibrium.
 
 ---
 
@@ -916,7 +916,7 @@ Using the following data, calculate the enthalpy of reaction for:
 
 $\mathrm{CH}_4(g) + 2\mathrm{O}_2(g) \to \mathrm{CO}_2(g) + 2\mathrm{H}_2\mathrm{O}(l)$
 
-Given bond enthalpies (kJ/mol): C--H $= 413$O=O $= 495$C=O $= 743$O--H $= 463$.
+Given bond enthalpies (kJ/mol): C--H $= 413$ O=O $= 495$ C=O $= 743$ O--H $= 463$.
 
 **Bonds broken**:
 $4(\mathrm{C--H}) + 2(\mathrm{O=O}) = 4(413) + 2(495) = 1652 + 990 = 2642\mathrm{ kJ/mol}$
@@ -940,7 +940,7 @@ $$
 \Delta G^\circ = -163000 - 298 \times 149 = -163000 - 44402 = -207402\mathrm{ J/mol} = -207.4\mathrm{ kJ/mol}
 $$
 
-Since $\Delta G^\circ \lt 0$The reaction is spontaneous at $298\mathrm{ K}$.
+Since $\Delta G^\circ \lt 0$ The reaction is spontaneous at $298\mathrm{ K}$.
 
 **(b)** At what temperature does $\Delta G^\circ$ become positive?
 
@@ -1068,7 +1068,7 @@ $$
 \Delta G = \Delta H - T\Delta S = 178000 - 298 \times 161 = 178000 - 47978 = +130\,022\mathrm{ J/mol} = +130\mathrm{ kJ/mol}
 $$
 
-Since $\Delta G \gt 0$The reaction is **not spontaneous** at $298\mathrm{ K}$.
+Since $\Delta G \gt 0$ The reaction is **not spontaneous** at $298\mathrm{ K}$.
 
 (b) At $\Delta G = 0$:
 

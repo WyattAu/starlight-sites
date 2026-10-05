@@ -38,7 +38,7 @@ $$
 (x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r
 $$
 
-**Theorem 4.2 (Pascal"s Identity).** $\binom{n}{r} = \binom{n-1}{r} + \binom{n-1}{r-1}$
+**Theorem 4.2 (Pascal's Identity).** $\binom{n}{r} = \binom{n-1}{r} + \binom{n-1}{r-1}$
 
 _Proof._ Every $r$-subset of $\\{1, \ldots, n\\}$ either contains $n$ (giving $\binom{n-1}{r-1}$
 ways To choose the remaining $r-1$) or does not contain $n$ (giving $\binom{n-1}{r}$ ways to choose
@@ -131,7 +131,7 @@ Directly by stars and bars: $\binom{20 + 4 - 1}{4 - 1} = \binom{23}{3} = 1771$. 
 at Least one box contains at least $\lceil n/k \rceil$ objects.
 
 _Proof._ If every box contained at most $\lceil n/k \rceil - 1$ objects, the total would be at most
-$k(\lceil n/k \rceil - 1) \lt k \cdot n/k = n$Contradicting that there are $n$ objects.
+$k(\lceil n/k \rceil - 1) \lt k \cdot n/k = n$ Contradicting that there are $n$ objects.
 $\blacksquare$
 
 **Worked Example.** In a class of 400 students, at least how many were born in the same month?
@@ -144,7 +144,7 @@ at least $\lceil 400/12 \rceil = \lceil 33.33\ldots \rceil = 34$ students.
 
 </details>
 
-**Worked Example.** Show that among any $n + 1$ integers from $\\{1, 2, \ldots, 2n\\}$Two of them
+**Worked Example.** Show that among any $n + 1$ integers from $\\{1, 2, \ldots, 2n\\}$ Two of them
 Differ by exactly $n$.
 
 <details>
@@ -154,7 +154,7 @@ Partition $\\{1, 2, \ldots, 2n\\}$ into $n$ pigeonholes: $\\{1, n+1\\}$, $\\{2, 
 $\\{n, 2n\\}$. Each pair sums to $n + (n+k) = 2n + k$... Let me rephrase.
 
 Partition into $\\{1, n+1\\}$, $\\{2, n+2\\}$, $\ldots$, $\\{n, 2n\\}$. These are $n$ disjoint sets.
-If we select $n + 1$ integers from $\\{1, \ldots, 2n\\}$By the pigeonhole principle two must lie in
+If we select $n + 1$ integers from $\\{1, \ldots, 2n\\}$ By the pigeonhole principle two must lie in
 the Same set $\\{i, n+i\\}$ And their difference is $(n + i) - i = n$. $\blacksquare$
 
 </details>
@@ -165,7 +165,7 @@ the Same set $\\{i, n+i\\}$ And their difference is $(n + i) - i = n$. $\blacksq
 <details>
 <summary>Solution</summary>
 
-Let $a_1, a_2, \ldots, a_{n^2+1}$ be the sequence. For each $a_i$Let $d_i$ be the length of the
+Let $a_1, a_2, \ldots, a_{n^2+1}$ be the sequence. For each $a_i$ Let $d_i$ be the length of the
 Longest increasing subsequence starting at $a_i$ And $e_i$ the length of the longest decreasing
 Subsequence starting at $a_i$.
 
@@ -177,7 +177,7 @@ Have $(d_i, e_i) = (d_j, e_j)$.
 If $a_i \lt a_j$ Then $d_i \geq d_j + 1$ (append $a_i$ before the increasing subsequence starting At
 $a_j$), contradicting $d_i = d_j$.
 
-If $a_i \gt a_j$ Then $e_i \geq e_j + 1$Contradicting $e_i = e_j$.
+If $a_i \gt a_j$ Then $e_i \geq e_j + 1$ Contradicting $e_i = e_j$.
 
 Either way we have a contradiction. $\blacksquare$
 
@@ -194,7 +194,7 @@ at most $m$ objects, then the total number of objects is at most $km$.
 <summary>Solution</summary>
 
 There are 3 colours (boxes). By the generalised pigeonhole principle, drawing $n$ socks guarantees
-At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$Giving
+At least $\lceil n/3 \rceil$ of one colour. We need $\lceil n/3 \rceil \geq 4$ So $n/3 \gt{} 3$ Giving
 $n \geq 10$.
 
 With 9 socks it is possible to have 3 of each colour (no colour reaches 4). With 10 socks, one

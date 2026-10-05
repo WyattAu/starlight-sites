@@ -112,7 +112,7 @@ This demonstrates that most energy is lost at each trophic level.
 Carbon is stored in:
 
 - Atmosphere (as $\mathrm{CO_2$)
-- Oceans (dissolved $\mathrm{CO_2$Carbonate rocks)
+- Oceans (dissolved $\mathrm{CO_2$ Carbonate rocks)
 - Fossil fuels (coal, oil, natural gas)
 - Living organisms (biomass)
 
@@ -191,7 +191,7 @@ Density).
 
 ### Pollution
 
-- **Air pollution:** $\mathrm{CO_2$$\mathrm{SO_2$$\mathrm{NO_x$Particulate matter.
+- **Air pollution:** $\mathrm{CO_2$$\mathrm{SO_2$$\mathrm{NO_x$ Particulate matter.
 - **Water pollution:** sewage, fertilisers (eutrophication), heavy metals, oil spills.
 - **Soil pollution:** pesticides, herbicides, industrial waste.
 
@@ -254,7 +254,7 @@ Place quadrats at regular intervals along a line.
 
 ### Measuring Biodiversity (HL)
 
-**Simpson"s Diversity Index:**
+**Simpson's Diversity Index:**
 
 $$
 D = 1 - \sum \frac{n_i(n_i - 1)}{N(N - 1)}
@@ -367,7 +367,7 @@ Specialist species (sphagnum moss, insectivorous plants such as sundews).
 
 **Threats:** Peat has been harvested for fuel and horticulture for centuries. Drainage for
 Agriculture destroys the waterlogged conditions needed for peat formation. When peat bogs are
-Drained, the stored carbon is released as $\mathrm{CO_2$Contributing to climate change.
+Drained, the stored carbon is released as $\mathrm{CO_2$ Contributing to climate change.
 
 **Conservation:** Raised bogs and blanket bogs are protected under EU law (Habitats Directive).
 Rewetting drained bogs can restore their function as carbon stores. Bord na Mona (the Irish peat
@@ -412,7 +412,7 @@ Nitrogen-deficient, reducing plant growth.
 ## Review: Population Growth Curves
 
 **Exponential growth:** When resources are unlimited, populations grow exponentially
-($N = N_0 e^{rt}$Where $r$ is the intrinsic growth rate). A graph of population size against time
+($N = N_0 e^{rt}$ Where $r$ is the intrinsic growth rate). A graph of population size against time
 Shows a J-shaped curve.
 
 **Logistic growth:** In reality, resources are limited. As the population approaches the carrying
@@ -422,7 +422,7 @@ $$
 \frac{dN}{dt} = rN\left(1 - \frac{N}{K}\right)
 $$
 
-When $N$ is small compared to $K$Growth is nearly exponential. When $N$ approaches $K$Growth Slows
+When $N$ is small compared to $K$ Growth is nearly exponential. When $N$ approaches $K$ Growth Slows
 and the population stabilises.
 
 **Worked Example: Interpreting a population growth graph.**

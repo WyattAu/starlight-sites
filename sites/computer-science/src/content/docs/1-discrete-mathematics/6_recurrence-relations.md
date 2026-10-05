@@ -22,7 +22,7 @@ description: "A defines a sequence by expressing in terms of previous terms. Com
 A **recurrence relation** defines a sequence $\{a_n\}$ by expressing $a_n$ in terms of previous
 terms.
 
-**Example.** Fibonacci: $F_n = F_{n-1} + F_{n-2}$With $F_0 = 0$, $F_1 = 1$.
+**Example.** Fibonacci: $F_n = F_{n-1} + F_{n-2}$ With $F_0 = 0$, $F_1 = 1$.
 
 ### 6.2 Linear Homogeneous Recurrences with Constant Coefficients
 
@@ -39,14 +39,14 @@ $$
 **Case 1 (distinct roots).** If $r_1, \ldots, r_k$ are distinct, then
 $a_n = A_1 r_1^n + \cdots + A_k r_k^n$.
 
-**Case 2 (repeated roots).** If $r$ has multiplicity $m$The contribution is
+**Case 2 (repeated roots).** If $r$ has multiplicity $m$ The contribution is
 $(A_1 + A_2 n + \cdots + A_m n^{m-1}) r^n$.
 
 ### 6.3 Worked Example
 
 **Problem.** Solve $a_n = 5a_{n-1} - 6a_{n-2}$ with $a_0 = 1$, $a_1 = 4$.
 
-_Solution._ Characteristic equation: $r^2 - 5r + 6 = 0$Giving $r_1 = 2$, $r_2 = 3$.
+_Solution._ Characteristic equation: $r^2 - 5r + 6 = 0$ Giving $r_1 = 2$, $r_2 = 3$.
 
 $a_n = A \cdot 2^n + B \cdot 3^n$.
 
@@ -105,7 +105,7 @@ $\beta = (1 - \sqrt{5})/2$.
 
 Partial fractions give
 $G(x) = \frac{1}{\sqrt{5}} \left(\frac{1}{1 - \alpha x} - \frac{1}{1 - \beta x}\right)$ So
-$F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet"s formula). $\blacksquare$
+$F_n = \frac{1}{\sqrt{5}}(\alpha^n - \beta^n)$ (Binet's formula). $\blacksquare$
 
 </details>
 
@@ -129,7 +129,7 @@ Partial fractions: $\frac{x}{(1-x)(1-2x)} = \frac{A}{1-x} + \frac{B}{1-2x}$.
 $x = A(1-2x) + B(1-x)$. Setting $x = 0$: $A + B = 0$ So $B = -A$. Setting $x = 1$: $1 = -A$ So
 $A = -1$, $B = 1$.
 
-$G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$Giving $a_n = 2^n - 1$. $\blacksquare$
+$G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$ Giving $a_n = 2^n - 1$. $\blacksquare$
 
 </details>
 
@@ -167,7 +167,7 @@ condition**), then $T(n) = \Theta(f(n))$.
 
 $a = 3$, $b = 2$, $f(n) = n^2$. Critical exponent: $c_{\mathrm{crit{}} = \log_2 3 \approx 1.585$.
 
-Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$ And $2 \gt 1.585 = c_{\mathrm{crit{}}$We are in
+Since $f(n) = n^2 = \Omega(n^c)$ for any $c \lt 2$ And $2 \gt 1.585 = c_{\mathrm{crit{}}$ We are in
 Case 3 (provided the regularity condition holds). Check:
 $3 \cdot (n/2)^2 = 3n^2/4 = 0.75\, n^2 \leq \delta\, n^2$ For $\delta = 0.75 \lt 1$. ✓
 
@@ -202,7 +202,7 @@ Therefore $T(n) = \Theta(n^2)$.
 </details>
 
 **Proof sketch of the Master Theorem.** Expand the recurrence tree. At level $j$ (root is level 0),
-There are $a^j$ subproblems, each of size $n/b^j$Each contributing $f(n/b^j)$ work. The tree has
+There are $a^j$ subproblems, each of size $n/b^j$ Each contributing $f(n/b^j)$ work. The tree has
 $\log_b n$ levels, with $a^{\log_b n} = n^{c_{\mathrm{crit{}}}$ leaves. The total work is
 
 $$

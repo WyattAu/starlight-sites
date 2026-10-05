@@ -42,8 +42,8 @@ $$
 
 **Outer join:** Preserves unmatched tuples from one or both relations.
 
-- **Left outer join** $R \bowtie_L S$: All tuples from $R$With NULLs for unmatched $S$ attributes.
-- **Right outer join** $R \bowtie_R S$: All tuples from $S$With NULLs for unmatched $R$ attributes.
+- **Left outer join** $R \bowtie_L S$: All tuples from $R$ With NULLs for unmatched $S$ attributes.
+- **Right outer join** $R \bowtie_R S$: All tuples from $S$ With NULLs for unmatched $R$ attributes.
 - **Full outer join** $R \bowtie_F S$: All tuples from both relations.
 
 **Recursive closure:** Not expressible in basic relational algebra. Requires recursive CTEs or
@@ -63,7 +63,7 @@ _Proof._ Let $t \in \pi_A(R)$. We need to show $t \in R \div S$ if and only if
 $t \notin \pi_A(\pi_A(R) \times S - R)$.
 
 ($\Rightarrow$) If $t \in R \div S$ Then for every $s \in S$, $(t, s) \in R$. So
-$(t, s) \notin \pi_A(R) \times S - R$ for any $s$Hence $t \notin \pi_A(\pi_A(R) \times S - R)$.
+$(t, s) \notin \pi_A(R) \times S - R$ for any $s$ Hence $t \notin \pi_A(\pi_A(R) \times S - R)$.
 
 ($\Leftarrow$) If $t \notin \pi_A(\pi_A(R) \times S - R)$ Then there is no $s \in S$ such that
 $(t, s) \notin R$. This means for every $s \in S$, $(t, s) \in R$ So $t \in R \div S$. $\blacksquare$
@@ -125,7 +125,7 @@ is always less.
 **Syntax:** $\{t \mid \exists u (R(u) \wedge t.A = u.A \wedge \ldots)\}$
 
 **Safety.** A calculus expression is safe if its result is finite. Unsafe expressions can produce
-infinite relations (e.g., $\{t \mid \neg R(t)\}$ is the complement of $R$Which is infinite if the
+infinite relations (e.g., $\{t \mid \neg R(t)\}$ is the complement of $R$ Which is infinite if the
 domain is infinite).
 
 **Theorem 1.3 (Codd).** Every safe relational calculus query can be expressed in relational algebra,
@@ -279,7 +279,7 @@ A **join dependency (JD)** $\bowtie\{R_1, R_2, \ldots, R_k\}$ holds over $R$ if
 $R = R_1 \bowtie R_2 \bowtie \cdots \bowtie R_k$.
 
 **Definition.** A relation $R$ is in **5NF (Project-Join Normal Form)** if for every non-trivial
-join dependency $\bowtie\{R_1, \ldots, R_k\}$ that holds over $R$Each $R_i$ is a superkey of $R$.
+join dependency $\bowtie\{R_1, \ldots, R_k\}$ that holds over $R$ Each $R_i$ is a superkey of $R$.
 
 5NF generalises 4NF: every 4NF violation is also a 5NF violation, but not vice versa.
 
@@ -311,7 +311,7 @@ Neither (course, teacher) nor (course, textbook) is a superkey. Therefore, the r
 - $R_1$(course, teacher): $\{(\text{CS101}, \text{Smith}), (\text{CS101}, \text{Jones})\}$
 - $R_2$(course, textbook): $\{(\text{CS101}, \text{Knuth}), (\text{CS101}, \text{Cormen})\}$
 
-This avoids the redundancy: adding a new teacher only requires adding one row to $R_1$Not $n$ rows
+This avoids the redundancy: adding a new teacher only requires adding one row to $R_1$ Not $n$ rows
 (one per textbook).
 
 </details>
@@ -561,8 +561,8 @@ possible under snapshot isolation.
 
 **Write skew example:**
 
-- $T_1$ reads rows where $x + y = 10$Checks $x > 3$Updates $x := x - 1$.
-- $T_2$ reads rows where $x + y = 10$Checks $y > 3$Updates $y := y - 1$.
+- $T_1$ reads rows where $x + y = 10$ Checks $x > 3$ Updates $x := x - 1$.
+- $T_2$ reads rows where $x + y = 10$ Checks $y > 3$ Updates $y := y - 1$.
 - Both commit successfully under snapshot isolation, but the invariant $x + y \geq 7$ may be
   violated.
 
@@ -862,7 +862,7 @@ A comprehensive summary of anomalies by isolation level:
 **Read skew:** $T_1$ reads $A$ and $B$, $T_2$ updates $A$, $T_1$ reads $A$ again and sees a
 different value. Prevented by Repeatable Read (locks on read rows).
 
-**Write skew:** $T_1$ reads rows where $x + y > 10$Updates $x$; $T_2$ reads same rows, updates $y$.
+**Write skew:** $T_1$ reads rows where $x + y > 10$ Updates $x$; $T_2$ reads same rows, updates $y$.
 Both commit, but $x + y$ may now be $\leq 10$. NOT prevented by Repeatable Read (requires
 Serializable).
 
@@ -995,7 +995,7 @@ attribute as the key. If $R$ fits in $M - 1$ blocks: single-pass hash join.
 
 1. **Partition phase:** Hash both relations into $k = \lceil \min(B_r, B_s) / (M - 1) \rceil$
    partitions on disk. Each partition of $R$ must fit in memory.
-2. **Build + probe phase:** For each partition pair $(R_i, S_i)$Load $R_i$ into memory, build hash
+2. **Build + probe phase:** For each partition pair $(R_i, S_i)$ Load $R_i$ into memory, build hash
    table, and probe with $S_i$.
 
 **Cost:** Partition: $2(B_r + B_s)$. Build + probe: $B_r + B_s$. Total: $3(B_r + B_s)$.
@@ -1005,7 +1005,7 @@ and the partition of $R$ fits in memory for each partition.
 
 ### 15.3 Index Nested-Loop Join Cost
 
-For each tuple in $R$Look up matching tuples in $S$ using an index on the join attribute.
+For each tuple in $R$ Look up matching tuples in $S$ using an index on the join attribute.
 
 $$
 \text{Cost} = B_r + R_r \cdot (\text{cost} per probe)
@@ -1257,19 +1257,19 @@ $BC^+ = \{B, C, D, E, A\}$ (via $C \to D$, $D \to E$, $E \to A$). So $BC$ is a c
 
 $CD^+ = \{C, D, E, A\}$ (no $B$ So not a candidate key).
 
-$DE^+ = \{D, E, A\}$ (no $B$Not a key).
+$DE^+ = \{D, E, A\}$ (no $B$ Not a key).
 
-$CE^+ = \{C, E, A, D\}$ (no $B$Not a key).
+$CE^+ = \{C, E, A, D\}$ (no $B$ Not a key).
 
-$BD^+ = \{B, D, E, A\}$ (no $C$Not a key).
+$BD^+ = \{B, D, E, A\}$ (no $C$ Not a key).
 
-$BE^+ = \{B, E, A\}$ (no $C$Not a key).
+$BE^+ = \{B, E, A\}$ (no $C$ Not a key).
 
 $AE^+ = \{A, E\}$ (not a key).
 
-$AC^+ = \{A, C, D, E\}$ (no $B$Not a key).
+$AC^+ = \{A, C, D, E\}$ (no $B$ Not a key).
 
-$AD^+ = \{A, D, E\}$ (no $B$Not a key).
+$AD^+ = \{A, D, E\}$ (no $B$ Not a key).
 
 Candidate keys: $\{AB, BC\}$.
 
@@ -1283,14 +1283,14 @@ $C \to D$ violates BCNF (LHS $C$ is not a superkey). Decompose $R$ into:
 Actually, $R_2$ has attributes $\{A, B, C, E\}$ and the restricted FDs are $AB \to C$, $E \to A$.
 
 $E \to A$ violates BCNF (LHS $E$ is not a superkey of $R_2$). Superkeys of $R_2$ include $AB$, $BC$
-(since $BC \to D$ is lost but $BC$ in $R_2$: $BC \to C$Not useful). Actually, $BC$ is not a key in
+(since $BC \to D$ is lost but $BC$ in $R_2$: $BC \to C$ Not useful). Actually, $BC$ is not a key in
 $R_2$ because we lost $D$.
 
 Keys of $R_2$: $AB$ is a key ($AB \to C$ And with $C$ we need... $ABC \to ?$ in $R_2$: $C$ doesn't
-give us $E$ in $R_2$. So $AB$ gives $\{A, B, C\}$Not $\{A, B, C, E\}$. So $AB$ is NOT a key in
+give us $E$ in $R_2$. So $AB$ gives $\{A, B, C\}$ Not $\{A, B, C, E\}$. So $AB$ is NOT a key in
 $R_2$!
 
-Hmm, let me recompute. In the original relation, $AB$ is a key. But after removing $D$The remaining
+Hmm, let me recompute. In the original relation, $AB$ is a key. But after removing $D$ The remaining
 FDs are $AB \to C$ and $E \to A$.
 
 $AB^+ = \{A, B, C\}$ in $R_2$. Not a superkey (missing $E$).

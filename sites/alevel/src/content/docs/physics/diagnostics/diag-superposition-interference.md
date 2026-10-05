@@ -51,7 +51,7 @@ comment on the effect on the interference pattern.
 
 **Solution:**
 
-(a) For a maximum: path difference $= n\lambda$Where $n = 0, 1, 2, \ldots$
+(a) For a maximum: path difference $= n\lambda$ Where $n = 0, 1, 2, \ldots$
 
 Using the approximation $d\sin\theta \approx n\lambda$ for small angles:
 
@@ -126,12 +126,12 @@ $n = 2$: $\sin\theta = 1400 \times 10^{-9}/(2.0 \times 10^{-6}) = 0.700$, $\thet
 
 (c) The second-order blue ($26.7^\circ$) must be compared with the first-order red ($20.5^\circ$).
 
-Since $26.7^\circ \gt 20.5^\circ$The second-order blue light is at a larger angle than the
+Since $26.7^\circ \gt 20.5^\circ$ The second-order blue light is at a larger angle than the
 first-order red light. This means the second-order spectrum **does overlap** with the first order.
 In practice, for gratings, this overlap occurs between the short-wavelength end of order $n + 1$ and
 the long-wavelength end of order $n$.
 
-To find the overlap region: we need $\theta_{2,\text{blue}} \gt \theta_{1,\text{red}}$Which is
+To find the overlap region: we need $\theta_{2,\text{blue}} \gt \theta_{1,\text{red}}$ Which is
 $26.7^\circ \gt 20.5^\circ$. Confirmed.
 
 ---
@@ -260,7 +260,7 @@ order.
 
 **Solution:**
 
-(a) Resolving power: $R = nN$Where $N$ is the total number of lines.
+(a) Resolving power: $R = nN$ Where $N$ is the total number of lines.
 
 $N = 6000 \times 4.0 = 24000$ lines
 
@@ -268,7 +268,7 @@ $R = 1 \times 24000 = 24000$
 
 (b) The resolving power needed: $R = \lambda/\Delta\lambda = 589.0/0.6 = 982$
 
-Since $R = 24000 \gg 982$The grating can resolve the sodium doublet in the first order.
+Since $R = 24000 \gg 982$ The grating can resolve the sodium doublet in the first order.
 
 (c) For the second order, $R = 2N \ge 982$ So $N \ge 491$ lines.
 
@@ -297,7 +297,7 @@ the film.
 
 (a) Explain why a phase change of $\pi$ occurs at one interface but not the other.
 
-(b) For a film of thickness $300\,\text{nm}$Calculate the wavelength of light in the visible
+(b) For a film of thickness $300\,\text{nm}$ Calculate the wavelength of light in the visible
 spectrum ($400$--$700\,\text{nm}$) that is most strongly reflected.
 
 (c) Calculate the minimum thickness of the film for which reflected light of wavelength

@@ -46,7 +46,7 @@ flowchart TD
 
 **(a)** Evaluate $\displaystyle\int e^{2x}\sin x\,dx$.
 
-**(b)** A student sets up $I = \int e^{2x}\sin x\,dx$Applies integration by parts twice, and gets
+**(b)** A student sets up $I = \int e^{2x}\sin x\,dx$ Applies integration by parts twice, and gets
 $I = \text{(something)} - I$ Then concludes $I = 0$. Explain the error.
 
 [Difficulty: hard. Tests cyclic integration by parts and the algebraic step of collecting the $I$
@@ -83,7 +83,7 @@ $$
 I = \frac{e^{2x}(2\sin x - \cos x)}{3} + C
 $$
 
-**(b)** The student"s error is that when they got $I = \text{(something)} - I$They incorrectly
+**(b)** The student"s error is that when they got $I = \text{(something)} - I$ They incorrectly
 concluded $I = 0$. The correct step is to add $I$ to both sides to get $2I = \text{(something)}$ Then
 divide by $2$ (or in this case $3$). The cyclic nature of the integral means $I$ appears on both
 sides, but this does not mean $I = 0$, it means $I$ can be solved for algebraically.
@@ -194,7 +194,7 @@ stating the condition on $p$.
 **(b)** Evaluate $\displaystyle\int_0^1 \frac{1}{\sqrt{x}}\,dx$ and explain why it converges despite
 the integrand being unbounded.
 
-**(c)** A student claims that since $\dfrac{1}{\sqrt{x}} \to \infty$ as $x \to 0^+$The integral must
+**(c)** A student claims that since $\dfrac{1}{\sqrt{x}} \to \infty$ as $x \to 0^+$ The integral must
 diverge. Explain the error.
 
 [Difficulty: hard. Tests improper integrals at both endpoints and the $p$-test for convergence.]
@@ -230,12 +230,12 @@ $$
 \int_0^1 \frac{1}{\sqrt{x}}\,dx = \lim_{a \to 0^+}\int_a^1 x^{-1/2}\,dx = \lim_{a \to 0^+}\left[2\sqrt{x}\right]_a^1 = \lim_{a \to 0^+}(2 - 2\sqrt{a}) = 2
 $$
 
-The integral converges to $2$. Although the integrand is unbounded at $x = 0$The area under the
+The integral converges to $2$. Although the integrand is unbounded at $x = 0$ The area under the
 curve is finite because the singularity is integrable (the exponent $-\frac{1}{2} \gt -1$).
 
 **(c)** The student confuses the behaviour of the integrand with the behaviour of the integral. An
 unbounded integrand does not necessarily produce a divergent integral. The key question is whether
-the **area** accumulates to a finite value. For $\frac{1}{\sqrt{x}}$ near $x = 0$The function grows,
+the **area** accumulates to a finite value. For $\frac{1}{\sqrt{x}}$ near $x = 0$ The function grows,
 but slowly enough that the total area remains bounded. The $p$-test shows that $\int_0^1 x^{-p}\,dx$
 converges when $p \lt 1$.
 
@@ -271,7 +271,7 @@ $$
 \sin x = \cos x \implies \tan x = 1 \implies x = \frac{\pi}{4}
 $$
 
-In $[0, \pi]$This is the only intersection.
+In $[0, \pi]$ This is the only intersection.
 
 Check which curve is on top:
 

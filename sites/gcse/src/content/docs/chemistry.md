@@ -309,7 +309,7 @@ $$
 
 ### 4.3 Moles
 
-One mole of any substance contains $6.02 \times 10^{23}$ particles (Avogadro"s constant, $N_A$).
+One mole of any substance contains $6.02 \times 10^{23}$ particles (Avogadro's constant, $N_A$).
 
 $$
 \text{Number of moles} = \frac{\text{mass (g)}}{M_r}
@@ -412,7 +412,7 @@ Alkenes are **unsaturated**, they contain at least one carbon-carbon double bond
 
 **General formula:** $\text{C}_n\text{H}_{2n+1}\text{OH}$
 
-- Functional group: $-$OH (hydroxyl group).
+- Functional group: $-$ OH (hydroxyl group).
 - Ethanol ($\text{C}_2\text{H}_5\text{OH}$) is the most common alcohol.
 - Produced by fermentation of sugars (enzymes in yeast) or hydration of ethene.
 - Properties: soluble in water, burns cleanly, used as solvents and fuels.
@@ -421,7 +421,7 @@ Alkenes are **unsaturated**, they contain at least one carbon-carbon double bond
 
 **General formula:** $\text{C}_n\text{H}_{2n+1}\text{COOH}$
 
-- Functional group: $-$COOH (carboxyl group).
+- Functional group: $-$ COOH (carboxyl group).
 - Weak acids, partially ionise in solution.
 - Ethanoic acid ($\text{CH}_3\text{COOH}$) is found in vinegar.
 - React with alcohols to form **esters** (condensation reaction).

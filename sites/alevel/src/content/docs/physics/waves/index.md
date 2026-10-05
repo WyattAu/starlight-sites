@@ -67,7 +67,7 @@ explaining phenomena from sound to light to quantum mechanics.
 - **Principle of superposition**, resultant displacement is the sum of individual displacements
 - **Constructive interference**, path difference $= n\lambda$; amplitudes add
 - **Destructive interference**, path difference $= (n + \frac{1}{2})\lambda$; amplitudes cancel
-- **Two-source interference**, Young"s double slit: fringe spacing
+- **Two-source interference**, Young's double slit: fringe spacing
   $\Delta y = \frac{\lambda D}{s}$; coherent sources required
 - **Diffraction gratings**, $d\sin\theta = n\lambda$; calculating wavelength or grating spacing;
   resolving power

@@ -111,7 +111,7 @@ Computable, $A$ is decidable. $\blacksquare$
 
 **Corollary 5.4.** If $A \leq_m B$ and $A$ is undecidable, then $B$ is undecidable.
 
-**Applications.** Using reductions from $A_{\mathrm{TM}$We can prove many problems undecidable:
+**Applications.** Using reductions from $A_{\mathrm{TM}$ We can prove many problems undecidable:
 
 | Language                       | Description                         | Reduction from   |
 | ------------------------------ | ----------------------------------- | ---------------- |
@@ -122,7 +122,7 @@ Computable, $A$ is decidable. $\blacksquare$
 
 **Example reduction.** $A_{\mathrm{TM} \leq_m \mathrm{HALT_{\mathrm{TM}$.
 
-_Proof._ Given $\langle M, w \rangle$Construct a TM $M"$ that on input $x$: simulates $M$ on $w$. If
+_Proof._ Given $\langle M, w \rangle$ Construct a TM $M"$ that on input $x$: simulates $M$ on $w$. If
 $M$ accepts, accept. If $M$ rejects, loop. Then $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $M'$
 halts on some input (any input), iff $\langle M' \rangle \in \mathrm{HALT_{\mathrm{TM}$.
 $\blacksquare$
@@ -130,11 +130,11 @@ $\blacksquare$
 <details>
 <summary>Worked Example: $A_{\mathrm{TM} \leq_m E_{\mathrm{TM}$</summary>
 
-_Proof._ Given $\langle M, w \rangle$Construct a TM $M_w$ that on input $x$:
+_Proof._ Given $\langle M, w \rangle$ Construct a TM $M_w$ that on input $x$:
 
 1. Simulate $M$ on $w$.
-2. If $M$ accepts $w$Accept $x$.
-3. If $M$ rejects $w$Reject $x$.
+2. If $M$ accepts $w$ Accept $x$.
+3. If $M$ rejects $w$ Reject $x$.
 
 Then $L(M_w) = \Sigma^*$ if $M$ accepts $w$ And $L(M_w) = \emptyset$ if $M$ does not accept $w$.
 
@@ -150,7 +150,7 @@ decidable, contradiction. $\blacksquare$
 <details>
 <summary>Worked Example: $E_{\mathrm{TM} \leq_m \mathrm{EQ_{\mathrm{TM}$</summary>
 
-_Proof._ Given $\langle M \rangle$Construct two TMs:
+_Proof._ Given $\langle M \rangle$ Construct two TMs:
 
 - $M_1$: on any input, immediately rejects. So $L(M_1) = \emptyset$.
 - $M_2$: on any input, simulates $M$ and accepts iff $M$ accepts. So $L(M_2) = L(M)$.
@@ -173,7 +173,7 @@ neither Empty nor the set of all Turing-recognisable languages.
 
 _Proof (sketch)._ Let $P$ be a non-trivial property. Since $P$ is non-trivial, there exists a TM
 $M_0$ with $L(M_0) \in P$ and a TM $M_1$ with $L(M_1) \notin P$. Given an arbitrary TM $M$ and input
-$w$Construct $M_w$ that on input $x$: first simulates $M$ on $w$ Then simulates $M_0$ on $x$. If $M$
+$w$ Construct $M_w$ that on input $x$: first simulates $M$ on $w$ Then simulates $M_0$ on $x$. If $M$
 accepts $w$ Then $L(M_w) = L(M_0) \in P$; if $M$ does not accept $w$, $L(M_w) = \emptyset$. If
 $\emptyset \notin P$ Then $M_w \in P$ iff $M$ accepts $w$ So deciding $P$ would decide
 $A_{\mathrm{TM}}$. The case $\emptyset \in P$ is similar. $\blacksquare$
@@ -226,7 +226,7 @@ Not equal. Finding solutions to PCP instances can be very difficult, there is no
 
 **Theorem 5.6.** PCP is undecidable.
 
-_Proof (sketch)._ Reduce from $A_{\mathrm{TM}}$. Given TM $M$ and input $w$Construct a PCP instance
+_Proof (sketch)._ Reduce from $A_{\mathrm{TM}}$. Given TM $M$ and input $w$ Construct a PCP instance
 Whose tiles encode the computation history of $M$ on $w$. The tiles are designed so that a matching
 Sequence corresponds to a valid accepting computation: the first tile starts the computation, middle
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
@@ -253,7 +253,7 @@ This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=}
 Non-relativising techniques, .../1-number-and-algebra/3_proof-and-logic methods that do not carry
 over in the presence of oracles.
 
-**The Turing jump.** Given a language $A$Define the **halting problem relative to $A$**:
+**The Turing jump.** Given a language $A$ Define the **halting problem relative to $A$**:
 
 $$
 A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}
@@ -268,8 +268,8 @@ Yielding an infinite hierarchy of undecidability.
 :::
 
 :::caution
-prove $B$ is undecidable Using a reduction from a known undecidable problem $A$You need
-$A \leq_m B$Not $B \leq_m A$. Remember: if $A \leq_m B$ and $A$ is undecidable, then $B$ is
+prove $B$ is undecidable Using a reduction from a known undecidable problem $A$ You need
+$A \leq_m B$ Not $B \leq_m A$. Remember: if $A \leq_m B$ and $A$ is undecidable, then $B$ is
 undecidable (contrapositive of "if $B$ is decidable then $A$ is decidable"). Reversing the direction
 gives a valid implication ("if $B \leq_m A$ and $A$ is undecidable, then...") that tells us nothing
 about $B$.

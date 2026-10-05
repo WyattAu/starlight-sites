@@ -207,7 +207,7 @@ Rainfall and Himalayan snowmelt, produces catastrophic flooding almost annually.
 Inundated approximately 100 000 km$^2$ of Bangladesh (approximately 70% of the country), affecting
 Over 30 million people, destroying approximately 500 000 homes, and causing estimated damage of
 Approximately USD 2 billion. The 2022 floods affected approximately 7.2 million people in
-Bangladesh"s northeastern Sylhet region.
+Bangladesh's northeastern Sylhet region.
 
 ## Hydrological Fieldwork and Skills
 

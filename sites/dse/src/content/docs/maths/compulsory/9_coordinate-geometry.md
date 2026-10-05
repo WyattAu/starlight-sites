@@ -176,7 +176,7 @@ $$
 x^2 + y^2 + Dx + Ey + F = 0
 $$
 
-Centre: $\left(-\dfrac{D}{2}, -\dfrac{E}{2}\right)$Radius:
+Centre: $\left(-\dfrac{D}{2}, -\dfrac{E}{2}\right)$ Radius:
 $r = \sqrt{\dfrac{D^2}{4} + \dfrac{E^2}{4} - F}$
 
 ### Worked Example 5
@@ -197,7 +197,7 @@ $$
 (x - 3)^2 + (y + 2)^2 = 25
 $$
 
-Centre: $(3, -2)$Radius: $r = 5$.
+Centre: $(3, -2)$ Radius: $r = 5$.
 
 ---
 
@@ -303,11 +303,11 @@ $$
 ## Common Pitfalls
 
 - Forgetting the absolute value in the distance-from-point-to-line formula.
-- Confusing the perpendicular slope formula: $m_1 m_2 = -1$Not $m_1 m_2 = 1$.
+- Confusing the perpendicular slope formula: $m_1 m_2 = -1$ Not $m_1 m_2 = 1$.
 - When finding the centre from the general circle equation, forgetting the negative signs: centre is
-  $(-D/2, -E/2)$Not $(D/2, E/2)$.
+  $(-D/2, -E/2)$ Not $(D/2, E/2)$.
 - Forgetting to check that $r^2 \gt 0$ when converting the general form to the standard form. If
-  $r^2 \lt 0$The equation does not represent a real circle.
+  $r^2 \lt 0$ The equation does not represent a real circle.
 - Arithmetic errors when completing the square for circle equations. Always double-check.
 
 ---
@@ -386,9 +386,9 @@ $(3) - (1)$: $4D = -24 \implies D = -6$
 
 From (4): $E = -4$. From (1): $-6 - 8 + F = -5 \implies F = 9$.
 
-Equation: $x^2 + y^2 - 6x - 4y + 9 = 0$I.e., $(x - 3)^2 + (y - 2)^2 = 4$.
+Equation: $x^2 + y^2 - 6x - 4y + 9 = 0$ I.e., $(x - 3)^2 + (y - 2)^2 = 4$.
 
-Centre: $(3, 2)$Radius: $2$.
+Centre: $(3, 2)$ Radius: $2$.
 
 1. **Question:** Show that the line $y = x + 1$ is a tangent to the circle $x^2 + y^2 = 2$ and find
    the point of contact.
@@ -535,9 +535,9 @@ $$
 m^2 = 1 \implies m = \pm 1
 $$
 
-Tangent 1: $y = x - 4$I.e. $x - y - 4 = 0$.
+Tangent 1: $y = x - 4$ I.e. $x - y - 4 = 0$.
 
-Tangent 2: $y = -x + 4$I.e. $x + y - 4 = 0$.
+Tangent 2: $y = -x + 4$ I.e. $x + y - 4 = 0$.
 
 Verification: distance from $(0,0)$ to $x - y - 4 = 0$ is
 $\dfrac{4}{\sqrt{2}} = 2\sqrt{2} = \sqrt{8}$. Correct.
@@ -630,7 +630,7 @@ $$
 r^2 = (2-0)^2 + (1-1)^2 = 4
 $$
 
-Equation: $(x - 2)^2 + (y - 1)^2 = 4$Or $x^2 + y^2 - 4x - 2y + 1 = 0$.
+Equation: $(x - 2)^2 + (y - 1)^2 = 4$ Or $x^2 + y^2 - 4x - 2y + 1 = 0$.
 
 Verification: $(4-2)^2 + (1-1)^2 = 4 = r^2$. Correct.
 
@@ -650,19 +650,19 @@ Verification: $(4-2)^2 + (1-1)^2 = 4 = r^2$. Correct.
 ## Additional Common Pitfalls
 
 1. **Sign error in the section formula.** The point dividing $AB$ in ratio $m:n$ (from $A$ towards
-   $B$) has $x$-coordinate $\dfrac{nx_1 + mx_2}{m+n}$Not $\dfrac{mx_1 + nx_2}{m+n}$. The weight of
-   $A$ is $n$Not $m$.
+   $B$) has $x$-coordinate $\dfrac{nx_1 + mx_2}{m+n}$ Not $\dfrac{mx_1 + nx_2}{m+n}$. The weight of
+   $A$ is $n$ Not $m$.
 
 2. **Dropping the absolute value in point-to-line distance.** The formula
    $\dfrac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}}$ always yields a non-negative result. Omitting the
    absolute value can produce a negative "distance".
 
 3. **Failing to normalise parallel lines.** Before using the distance-between-parallel-lines formula
-   $d = \dfrac{|C_2 - C_1|}{\sqrt{A^2 + B^2}}$Ensure both equations have identical $A$ and $B$
+   $d = \dfrac{|C_2 - C_1|}{\sqrt{A^2 + B^2}}$ Ensure both equations have identical $A$ and $B$
    coefficients. If one equation is a scalar multiple of the other, rescale first.
 
 4. **Assuming two circles always intersect.** Two circles with centres $O_1$, $O_2$ and radii $r_1$,
-   $r_2$ intersect at two points only when $|r_1 - r_2| \lt d \lt r_1 + r_2$Where $d$ is the
+   $r_2$ intersect at two points only when $|r_1 - r_2| \lt d \lt r_1 + r_2$ Where $d$ is the
    distance between centres.
 
 5. **Undefined slope of vertical lines.** The line $x = a$ has no defined slope. Never assign a
@@ -674,7 +674,7 @@ Verification: $(4-2)^2 + (1-1)^2 = 4 = r^2$. Correct.
 
 7. **Confusing the tangent formula for circles not at the origin.** The shortcut
    $x_1 x + y_1 y = r^2$ only applies when the circle is $x^2 + y^2 = r^2$. For
-   $(x-a)^2 + (y-b)^2 = r^2$Use the general formula $(x_1-a)(x-a) + (y_1-b)(y-b) = r^2$.
+   $(x-a)^2 + (y-b)^2 = r^2$ Use the general formula $(x_1-a)(x-a) + (y_1-b)(y-b) = r^2$.
 
 8. **Arithmetic errors in the shoelace formula.** Always list vertices in consistent order
    (clockwise or anticlockwise). Mixing the order gives the wrong area or its negative.
@@ -765,9 +765,9 @@ equation of the circle with $AB$ as diameter.
 <details>
 <summary>Solution</summary>
 
-$A$: set $y = 0$Giving $x = 4$. So $A(4, 0)$.
+$A$: set $y = 0$ Giving $x = 4$. So $A(4, 0)$.
 
-$B$: set $x = 0$Giving $y = 3$. So $B(0, 3)$.
+$B$: set $x = 0$ Giving $y = 3$. So $B(0, 3)$.
 
 Centre (midpoint of $AB$): $\left(\dfrac{4+0}{2}, \dfrac{0+3}{2}\right) = (2,\; 1.5)$.
 
@@ -1067,7 +1067,7 @@ $$
 8x + 8y = 64 \implies x + y = 8
 $$
 
-This is the perpendicular bisector of $AB$As expected.
+This is the perpendicular bisector of $AB$ As expected.
 
 </details>
 
@@ -1117,7 +1117,7 @@ $$
 d = \frac{|1|}{\sqrt{m^2 + 1}} = \frac{1}{\sqrt{m^2 + 1}}
 $$
 
-For tangency: $d = r = 2$I.e.,
+For tangency: $d = r = 2$ I.e.,
 $\dfrac{1}{\sqrt{m^2 + 1}} = 2 \implies \sqrt{m^2 + 1} = \dfrac{1}{2} \implies m^2 + 1 = \dfrac{1}{4} \implies m^2 = -\dfrac{3}{4}$.
 
 No real solution. Confirmed: the line is never tangent to the circle.
@@ -1130,7 +1130,7 @@ equation.
 <details>
 <summary>Solution</summary>
 
-Since the circle touches the $y$-axis at $(0, 3)$The centre lies on the horizontal line $y = 3$ So
+Since the circle touches the $y$-axis at $(0, 3)$ The centre lies on the horizontal line $y = 3$ So
 the centre is $C(r, 3)$ where $r$ is the radius.
 
 Equation: $(x - r)^2 + (y - 3)^2 = r^2$.
@@ -1138,9 +1138,9 @@ Equation: $(x - r)^2 + (y - 3)^2 = r^2$.
 Substituting $(2, 1)$:
 $(2 - r)^2 + (1 - 3)^2 = r^2 \implies 4 - 4r + r^2 + 4 = r^2 \implies 8 - 4r = 0 \implies r = 2$.
 
-Centre: $(2, 3)$Radius: $2$.
+Centre: $(2, 3)$ Radius: $2$.
 
-Equation: $(x - 2)^2 + (y - 3)^2 = 4$Or $x^2 + y^2 - 4x - 6y + 9 = 0$.
+Equation: $(x - 2)^2 + (y - 3)^2 = 4$ Or $x^2 + y^2 - 4x - 6y + 9 = 0$.
 
 </details>
 
@@ -1163,12 +1163,12 @@ From (i): $F = -1$.
 
 From (ii): $E = 0$.
 
-Equation: $x^2 + y^2 - 1 = 0$I.e., $x^2 + y^2 = 1$ (the unit circle).
+Equation: $x^2 + y^2 - 1 = 0$ I.e., $x^2 + y^2 = 1$ (the unit circle).
 
 </details>
 
 **DSE Practice 4.** The line $\ell$ passes through $A(2, 1)$ and $B(6, k)$. If the distance from the
-origin to $\ell$ is $\dfrac{6\sqrt{5}}{5}$Find $k$.
+origin to $\ell$ is $\dfrac{6\sqrt{5}}{5}$ Find $k$.
 
 <details>
 <summary>Solution</summary>
@@ -1256,7 +1256,7 @@ tangent is parallel to the line $2x + 3y = 7$.
 
 The gradient of $2x + 3y = 7$ is $m = -\dfrac{2}{3}$.
 
-The tangent at $(x_1, y_1)$ on $x^2 + y^2 = 13$ is $x_1 x + y_1 y = 13$With gradient
+The tangent at $(x_1, y_1)$ on $x^2 + y^2 = 13$ is $x_1 x + y_1 y = 13$ With gradient
 $m = -\dfrac{x_1}{y_1}$.
 
 Setting equal:

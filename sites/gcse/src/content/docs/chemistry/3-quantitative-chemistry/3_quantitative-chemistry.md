@@ -37,7 +37,7 @@ $$
 M_r(\mathrm{CaCO_3) = 40.1 + 12.0 + (3 \times 16.0) = 100.1
 $$
 
-**Worked Example.** Calculate $M_r$ for (NH$_4$)$_2$SO$_4$.
+**Worked Example.** Calculate $M_r$ for (NH$_4$)$_2$ SO$_4$.
 
 $$
 M_r = (2 \times 14.0) + (8 \times 1.0) + 32.1 + (4 \times 16.0) = 28 + 8 + 32.1 + 64 = 132.1
@@ -89,7 +89,7 @@ Both sides equal 80.6.
 ### 2.1 Definition
 
 The **mole** is the unit for amount of substance. One mole contains exactly $6.02 \times 10^{23}$
-Particles (this number is **Avogadro"s constant**, $N_A$).
+Particles (this number is **Avogadro's constant**, $N_A$).
 
 The mole bridges the gap between the atomic scale and the macroscopic scale. One mole of carbon-12
 Has a mass of exactly 12 g. One mole of any substance contains the same number of particles as there
@@ -443,7 +443,7 @@ $$
 n(\mathrm{O_2) = \frac{32}{32} = 1 \mathrm{ mol
 $$
 
-Divide by coefficients: H$_2$: $4/2 = 2$O$_2$: $1/1 = 1$. O$_2$ gives the smaller value, so it is
+Divide by coefficients: H$_2$: $4/2 = 2$ O$_2$: $1/1 = 1$. O$_2$ gives the smaller value, so it is
 Limiting.
 
 From the equation: 1 mol O$_2$ produces 2 mol H$_2$O.
@@ -486,7 +486,7 @@ $$
 n(\mathrm{HCl) = 2.0 \times 0.100 = 0.200 \mathrm{ mol
 $$
 
-Divide by coefficients: CaCO$_3$: $0.0999/1 = 0.0999$HCl: $0.200/2 = 0.100$. CaCO$_3$ gives the
+Divide by coefficients: CaCO$_3$: $0.0999/1 = 0.0999$ HCl: $0.200/2 = 0.100$. CaCO$_3$ gives the
 Smaller value, so it is the limiting reactant.
 
 ### 5.2 Percentage Yield
@@ -522,7 +522,7 @@ $$
 \mathrm{Atom economy = \frac{M_r \mathrm{ of desired product}{\sum M_r \mathrm{ of all products} \times 100\%
 $$
 
-**Worked Example.** For the reaction $\mathrm{CaCO_3 \to \mathrm{CaO + \mathrm{CO_2$Calculate the
+**Worked Example.** For the reaction $\mathrm{CaCO_3 \to \mathrm{CaO + \mathrm{CO_2$ Calculate the
 Atom economy if CaO is the desired product.
 
 $$
@@ -544,7 +544,7 @@ This is a very low atom economy, meaning most of the mass of the reactants ends 
 (CO) rather than the desired product (H$_2$).
 
 **Worked Example.** Calculate the atom economy for the reaction of iron with copper(II) sulfate:
-$\mathrm{Fe + \mathrm{CuSO_4 \to \mathrm{FeSO_4 + \mathrm{Cu$Where copper is the desired product.
+$\mathrm{Fe + \mathrm{CuSO_4 \to \mathrm{FeSO_4 + \mathrm{Cu$ Where copper is the desired product.
 
 $$
 \mathrm{Atom economy = \frac{63.5}{151.9 + 63.5} = \frac{63.5}{215.4} \times 100\% = 29.5\%
@@ -799,7 +799,7 @@ Since the yield exceeds 100%, this indicates experimental error -- likely the pr
 
 ## Practice Questions
 
-1. Calculate the relative formula mass of (NH$_4$)$_2$SO$_4$.
+1. Calculate the relative formula mass of (NH$_4$)$_2$ SO$_4$.
 
 2. How many moles are there in 22 g of CO$_2$?
 
@@ -816,7 +816,7 @@ Since the yield exceeds 100%, this indicates experimental error -- likely the pr
    percentage yield.
 
 7. Calculate the atom economy for the reaction:
-   $\mathrm{CH_4 + \mathrm{H_2\mathrm{O \to \mathrm{CO + 3\mathrm{H_2$Where H$_2$ is the desired
+   $\mathrm{CH_4 + \mathrm{H_2\mathrm{O \to \mathrm{CO + 3\mathrm{H_2$ Where H$_2$ is the desired
    product.
 
 8. A solution is made by dissolving 12 g of NaOH in water to make 500 cm$^3$ of solution. Calculate
@@ -949,7 +949,7 @@ Random errors cause measurements to scatter around the true value. Common source
 
 ### 10.4 Calculating Uncertainty
 
-If a measurement has an uncertainty of $\pm \delta$The percentage uncertainty is:
+If a measurement has an uncertainty of $\pm \delta$ The percentage uncertainty is:
 
 $$
 \mathrm{Percentage uncertainty = \frac{\delta}{\mathrm{measured value} \times 100\%

@@ -68,7 +68,7 @@ $$
 \lambda^8 = \frac{1}{\sqrt{3}}\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -2 \end{pmatrix}
 $$
 
-The normalised generators used in the QCD Lagrangian are $T^a = \lambda^a/2$Satisfying
+The normalised generators used in the QCD Lagrangian are $T^a = \lambda^a/2$ Satisfying
 $[T^a, T^b] = if^{abc}T^c$ and $\mathrm{Tr}(T^a T^b) = \delta^{ab}/2$.
 
 ### 5.3 SU(3) Decomposition: Worked Examples
@@ -133,7 +133,7 @@ symmetric).
 
 </details>
 
-### 5.4 SU(2)$\times$U(1) Electroweak Theory
+### 5.4 SU(2)$\times$ U(1) Electroweak Theory
 
 The electroweak interaction is governed by SU(2)$_L \times$ U(1)$_Y$:
 
@@ -217,7 +217,7 @@ $$
 **Left-hand side:** $(938.9 + 1318.3)/2 = 1128.6$ MeV. **Right-hand side:**
 $(3 \times 1115.7 + 1193.1)/4 = (3347.1 + 1193.1)/4 = 4540.2/4 = 1135.1$ MeV.
 
-The agreement is within $\sim 0.6\%$Confirming the SU(3) flavour symmetry to good Approximation. The
+The agreement is within $\sim 0.6\%$ Confirming the SU(3) flavour symmetry to good Approximation. The
 small deviation is due to SU(3) breaking by the strange quark mass.
 
 </details>

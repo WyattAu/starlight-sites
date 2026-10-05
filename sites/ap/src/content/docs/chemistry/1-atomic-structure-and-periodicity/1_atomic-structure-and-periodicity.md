@@ -36,7 +36,7 @@ categories:
 | Schrodinger | Wave equation for the electron (quantum mechanical model)            |
 
 Each model was superseded because it failed to explain new experimental observations. Dalton could
-Not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford"s model was
+Not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
 Unstable by classical electrodynamics. Bohr's model only worked for hydrogen. The Schrodinger
 Equation provides the complete quantum mechanical description, predicting probability distributions
 For electrons rather than definite orbits.
@@ -55,7 +55,7 @@ d = \frac{k \cdot Z_1 Z_2 e^2}{K}
 $$
 
 Where $K$ is the kinetic energy of the alpha particle. For $5.5 \mathrm{ MeV$ alpha particles on
-Gold, $d \approx 3 \times 10^{-14} \mathrm{ m$Which is much smaller than the atomic radius of About
+Gold, $d \approx 3 \times 10^{-14} \mathrm{ m$ Which is much smaller than the atomic radius of About
 $10^{-10} \mathrm{ m$. This confirms that the nucleus is extremely small compared to the Atom.
 
 ### Subatomic Particles
@@ -134,7 +134,7 @@ Each electron also has $m_s = \pm\frac{1}{2}$.
 
 The Pauli exclusion principle limits how many electrons can share the same quantum numbers: no two
 Electrons in an atom can have the same set of four quantum numbers. Since an orbital is defined by
-$n$, $\ell$ And $m_\ell$It can hold at most two electrons (differing in $m_s$).
+$n$, $\ell$ And $m_\ell$ It can hold at most two electrons (differing in $m_s$).
 
 ### Example: Valid vs. Invalid Quantum Number Sets
 
@@ -263,9 +263,9 @@ E_n = -\frac{13.6 \mathrm{ eV}{n^2} = -\frac{2.18 \times 10^{-18} \mathrm{ J}{n^
 $$
 
 The energy is negative because the electron is bound to the nucleus. The ground state ($n = 1$) has
-The most negative (lowest) energy. As $n \to \infty$$E_n \to 0$Which is the ionisation energy.
+The most negative (lowest) energy. As $n \to \infty$$E_n \to 0$ Which is the ionisation energy.
 
-The radius of the $n$Th orbit:
+The radius of the $n$ Th orbit:
 
 $$
 R_n = n^2 a_0 = n^2 \times 0.529 \mathrm{ \AA
@@ -315,7 +315,7 @@ For absorption: $n_i \lt n_f$ (photon absorbed).
 | Paschen | $n_f = 3$  | Infrared    |
 
 The convergence of lines towards the series limit corresponds to transitions from $n = \infty$ to
-$n_f$Where the energy difference approaches a maximum value.
+$n_f$ Where the energy difference approaches a maximum value.
 :::
 
 :::note[Example]
@@ -356,7 +356,7 @@ Where $\phi$ is the work function (minimum energy to eject an electron).
 
 The threshold frequency: $\nu_0 = \frac{\phi}{h}$.
 
-If $\nu \lt \nu_0$No electrons are emitted regardless of intensity.
+If $\nu \lt \nu_0$ No electrons are emitted regardless of intensity.
 
 The photoelectric effect demonstrates the particle nature of light. Increasing the intensity of
 Light below the threshold frequency does not eject electrons because no single photon has enough
@@ -489,7 +489,7 @@ This confirms aluminium has three valence electrons (Group 13).
 ### Shielding and Penetration
 
 Electrons in inner shells shield outer electrons from the full nuclear charge. However, not all
-Subshells shield equally. The penetration order is $s \gt p \gt d \gt f$Meaning s electrons
+Subshells shield equally. The penetration order is $s \gt p \gt d \gt f$ Meaning s electrons
 Penetrate closer to the nucleus and experience less shielding than p electrons in the same shell.
 
 This explains why the 4s orbital fills before the 3d orbital: 4s electrons penetrate the core more
@@ -676,7 +676,7 @@ flowchart TD
 10. Which element has the higher electronegativity, and why: P or Cl?
 
 11. For the isoelectronic series $\mathrm{N^{3-}$$\mathrm{O^{2-}$$\mathrm{F^-$
-    $\mathrm{Na^+$$\mathrm{Mg^{2+}$Arrange the ions in order of increasing radius and explain the
+    $\mathrm{Na^+$$\mathrm{Mg^{2+}$ Arrange the ions in order of increasing radius and explain the
     trend.
 
 12. Explain, in terms of effective nuclear charge, why atomic radius decreases across a period.
@@ -804,7 +804,7 @@ Configurations in your explanation.
 <details>
 <summary>Answer</summary>
 
-Nitrogen has the electron configuration $1s^2 2s^2 2p^3$With three unpaired electrons in the three
+Nitrogen has the electron configuration $1s^2 2s^2 2p^3$ With three unpaired electrons in the three
 $2p$ orbitals (Hund's rule). Each electron occupies a separate orbital, minimising electron-electron
 Repulsion.
 
@@ -837,7 +837,7 @@ The maximum number of electrons in a d subshell is 10 (5 orbitals $\times$ 2 ele
 Five orbitals have $m_l$ values of $-2, -1, 0, +1, +2$.
 
 The value $m_l = 4$ is not valid because $m_l$ must be an integer in the range from $-l$ to $+l$.
-Since $l = 2$The valid values are $m_l = -2, -1, 0, +1, +2$. The value 4 exceeds this range.
+Since $l = 2$ The valid values are $m_l = -2, -1, 0, +1, +2$. The value 4 exceeds this range.
 
 </details>
 

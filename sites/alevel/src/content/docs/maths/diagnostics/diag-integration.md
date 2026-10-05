@@ -182,7 +182,7 @@ $$
 This gives the same answer as part (a). Back-substitution always works because it restores the
 original variable, and the Fundamental Theorem of Calculus applies regardless of which variable is
 used. The error of forgetting limits occurs only when the student evaluates in $u$-space with the
-original $x$-limits (e.g., evaluating $\frac{1}{3}u^{3/2}$ from $u = 0$ to $u = 1$Which is wrong).
+original $x$-limits (e.g., evaluating $\frac{1}{3}u^{3/2}$ from $u = 0$ to $u = 1$ Which is wrong).
 
 **(c)** Correct answer: $\frac{\pi}{2} - 1 \approx 0.5708$.
 
@@ -231,10 +231,10 @@ The result is negative because the integrand $\frac{2}{x}$ is negative on $[-2, 
 $x \lt 0$).
 
 **(b)** The student writes $\ln x$ instead of $\ln\lvert x \rvert$. Since $x$ is negative in this
-interval, $\ln x$ is undefined. The correct antiderivative is $\ln\lvert x \rvert$Which is defined
+interval, $\ln x$ is undefined. The correct antiderivative is $\ln\lvert x \rvert$ Which is defined
 for $x \neq 0$.
 
-The correct answer is $-2\ln 2$As computed in part (a).
+The correct answer is $-2\ln 2$ As computed in part (a).
 
 **(c)** Note that $f(x) = \frac{x}{x^2+1}$ is an odd function: $f(-x) = \frac{-x}{x^2+1} = -f(x)$.
 
@@ -337,7 +337,7 @@ Completing the square: $t^2 - 4t + 8 = (t-2)^2 + 4$.
 
 Use the substitution $u = t^2 - 4t + 8$, $du = (2t - 4)\, dt$.
 
-Then $t\, dt = \frac{du + 4\, dt}{2}$Which is not directly useful. Instead, write:
+Then $t\, dt = \frac{du + 4\, dt}{2}$ Which is not directly useful. Instead, write:
 
 $$
 \int_0^3 t\sqrt{(t-2)^2 + 4}\, dt
@@ -419,7 +419,7 @@ $$
 $\int_0^{\pi} \sin^2 x\, dx = \left[\frac{1}{2}x - \frac{1}{4}\sin 2x\right]_0^{\pi} = \frac{\pi}{2} - 0 = \frac{\pi}{2}$.
 
 Geometrically, this is the area between the curve $y = \sin^2 x$ and the $x$-axis from $x = 0$ to
-$x = \pi$. Since $\sin^2 x \geq 0$The area equals the integral. The result
+$x = \pi$. Since $\sin^2 x \geq 0$ The area equals the integral. The result
 $\frac{\pi}{2}$ equals the area of a semicircle of radius 1, which is a coincidence
 related to the fact that $\sin^2 x$ and $\cos^2 x$ each average to $\frac{1}{2}$ over a full period.
 
@@ -495,7 +495,7 @@ $$
 
 Confirmed.
 
-**(b)** $u = \sqrt{x+1}$ So $u^2 = x + 1$Giving $x = u^2 - 1$ and $dx = 2u\, du$.
+**(b)** $u = \sqrt{x+1}$ So $u^2 = x + 1$ Giving $x = u^2 - 1$ and $dx = 2u\, du$.
 
 $$
 \int \frac{x}{\sqrt{x+1}}\, dx = \int \frac{u^2-1}{u} \cdot 2u\, du = 2\int(u^2 - 1)\, du

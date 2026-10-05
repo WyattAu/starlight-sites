@@ -332,7 +332,7 @@ def counting_sort(arr):
     return output
 ```
 
-**When to use:** Small integer ranges ($k = O(n)$). If $k \gg n$Counting sort uses more memory Than
+**When to use:** Small integer ranges ($k = O(n)$). If $k \gg n$ Counting sort uses more memory Than
 the input and may be slower than comparison sort.
 
 ### Radix Sort
@@ -417,7 +417,7 @@ def bucket_sort(arr, num_buckets=10):
 ```
 
 **When bucket sort works well:** When the input is uniformly distributed, each bucket has $O(n/k)$
-Elements and sorting each bucket takes $O((n/k)^2)$Giving total $O(n + k \cdot (n/k)^2) = O(n)$ When
+Elements and sorting each bucket takes $O((n/k)^2)$ Giving total $O(n + k \cdot (n/k)^2) = O(n)$ When
 $k = \Theta(n)$.
 
 **When it degrades:** When all elements fall into a single bucket, it degrades to the bucket's
@@ -609,7 +609,7 @@ Preserves the ordering for positive floats, and reversing it for negative floats
 ### 4. Counting Sort Memory Blowup
 
 Counting sort uses $O(k)$ space where $k$ is the range of values. If you have 1,000 integers ranging
-From 0 to $10^9$Counting sort allocates a $10^9$-element array. Always check that $k = O(n)$ Before
+From 0 to $10^9$ Counting sort allocates a $10^9$-element array. Always check that $k = O(n)$ Before
 using counting sort, or use radix sort instead.
 
 ### 5. Ignoring the Base Case in Recursive Sorts
@@ -691,7 +691,7 @@ Sample sort is a parallel generalisation of quicksort:
 | Java (objects)          | TimSort                     | Yes      | Since Java 7                       |
 | Java (primitives)       | Dual-pivot quicksort        | No       | Since Java 7                       |
 | C++ `std::sort`         | Introsort                   | No       | Quicksort + heapsort fallback      |
-| C++ `stable_sort`       | Merge sort                  | Yes      | $O(n \log n)$Uses extra memory     |
+| C++ `stable_sort`       | Merge sort                  | Yes      | $O(n \log n)$ Uses extra memory     |
 | Rust `sort`             | Modified merge sort         | No       | Also called "timsort"              |
 | Rust `sort_unstable`    | Pattern-defeating quicksort | No       | PDQSort                            |
 | Go `sort`               | Pattern-defeating quicksort | No       | Since Go 1.19                      |

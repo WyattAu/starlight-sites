@@ -32,7 +32,7 @@ Description.
 These notes cover the full AP Calculus curriculum, from limits and continuity through to series and
 differential equations. Each topic page includes key theorems, worked examples, and step-by-step
 solutions to help you prepare for both the multiple-choice and free-response sections of the AP
-exam. The content follows the College Board"s course framework and mathematical practices.
+exam. The content follows the College Board's course framework and mathematical practices.
 
 ## Topics
 

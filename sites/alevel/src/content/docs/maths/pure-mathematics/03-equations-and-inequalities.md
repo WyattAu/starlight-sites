@@ -73,7 +73,7 @@ $$
 
 Subtracting: $(a_1 b_2 - a_2 b_1)x = c_1 b_2 - c_2 b_1$.
 
-If $a_1 b_2 - a_2 b_1 \neq 0$We obtain a unique $x$. Similarly for $y$.
+If $a_1 b_2 - a_2 b_1 \neq 0$ We obtain a unique $x$. Similarly for $y$.
 
 If $a_1 b_2 - a_2 b_1 = 0$ Then either $c_1 b_2 - c_2 b_1 = 0$ (infinitely many solutions) or
 $c_1 b_2 - c_2 b_1 \neq 0$ (no solution). $\blacksquare$
@@ -166,8 +166,8 @@ The rules for manipulating inequalities are the same as for equations, with one 
 
 **Theorem (Order-Reversing Property).** If $a < b$ and $c < 0$ Then $ac > bc$.
 
-_Proof._ From $a < b$We have $b - a > 0$. Since $c < 0$ and $b - a > 0$: $c(b - a) < 0$ (product Of
-positive and negative). So $cb - ca < 0$Giving $ca > cb$. $\blacksquare$
+_Proof._ From $a < b$ We have $b - a > 0$. Since $c < 0$ and $b - a > 0$: $c(b - a) < 0$ (product Of
+positive and negative). So $cb - ca < 0$ Giving $ca > cb$. $\blacksquare$
 
 **Corollary.** Multiplying or dividing both sides of an inequality by a negative number reverses the
 Inequality.
@@ -273,7 +273,7 @@ $a + c < b + d$. $\blacksquare$
 
 If $a < b$ and $c > 0$ Then $ac < bc$.
 
-_Proof._ $b - a > 0$ and $c > 0$. Product: $c(b - a) > 0$ So $cb - ca > 0$Giving $ac < bc$.
+_Proof._ $b - a > 0$ and $c > 0$. Product: $c(b - a) > 0$ So $cb - ca > 0$ Giving $ac < bc$.
 $\blacksquare$
 
 ### 5.4 Reciprocals Reverse Order (for Positive Numbers)
@@ -281,7 +281,7 @@ $\blacksquare$
 If $0 < a < b$ Then $\frac{1}{a} > \frac{1}{b}$.
 
 _Proof._ Since $a, b > 0$ and $a < b$: $\frac{1}{a} - \frac{1}{b} = \frac{b - a}{ab}$. Since
-$b - a > 0$ and $ab > 0$The result is positive. So $\frac{1}{a} > \frac{1}{b}$. $\blacksquare$
+$b - a > 0$ and $ab > 0$ The result is positive. So $\frac{1}{a} > \frac{1}{b}$. $\blacksquare$
 
 _Intuition._ Consider $a = 2$$b = 4$. Then $\frac{1}{2} > \frac{1}{4}$. The smaller the positive
 Number, the larger its reciprocal, like how slicing a cake into more pieces makes each piece
@@ -295,7 +295,7 @@ Smaller.
 
 **Theorem (Factor Theorem).** If $f(a) = 0$ Then $(x - a)$ is a factor of $f(x)$.
 
-_Proof._ By polynomial division, for any polynomial $f(x)$ and constant $a$There exist a quotient
+_Proof._ By polynomial division, for any polynomial $f(x)$ and constant $a$ There exist a quotient
 Polynomial $Q(x)$ and a constant remainder $R$ such that:
 
 $$
@@ -309,10 +309,10 @@ $\blacksquare$
 
 ### 6.2 The Remainder Theorem
 
-**Theorem (Remainder Theorem).** When a polynomial $f(x)$ is divided by $(x - a)$The remainder
+**Theorem (Remainder Theorem).** When a polynomial $f(x)$ is divided by $(x - a)$ The remainder
 Equals $f(a)$.
 
-_Proof._ From the division identity $f(x) = (x - a)Q(x) + R$Substituting $x = a$ gives $f(a) = R$.
+_Proof._ From the division identity $f(x) = (x - a)Q(x) + R$ Substituting $x = a$ gives $f(a) = R$.
 $\blacksquare$
 
 The remainder theorem provides a quick way to evaluate $f(a)$: perform polynomial division of $f(x)$
@@ -365,7 +365,7 @@ So $f(x) = (x - 1)(2x - 1)(x + 2)$.
 </details>
 
 :::tip
-$f(x) = x^n + \cdots + c$The possible rational roots are $\pm 1, \pm 2, \ldots$ (factors of $c$).
+$f(x) = x^n + \cdots + c$ The possible rational roots are $\pm 1, \pm 2, \ldots$ (factors of $c$).
 :::
 
 <hr />
@@ -387,7 +387,7 @@ Adding a multiple of one row to another.
 A 3x3 system may have a unique solution, no solution, or infinitely many solutions, depending on the
 Determinant of the coefficient matrix (analogous to the 2x2 case in Section 1).
 
-### 7.2 Cramer"s Rule for 3x3 Systems
+### 7.2 Cramer's Rule for 3x3 Systems
 
 For the system:
 
@@ -405,7 +405,7 @@ $$
 D = \begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix}
 $$
 
-If $D \neq 0$The unique solution is:
+If $D \neq 0$ The unique solution is:
 
 $$
 x = \frac{D_x}{D}, \quad y = \frac{D_y}{D}, \quad z = \frac{D_z}{D}
@@ -477,9 +477,9 @@ Solution: $x = \frac{1}{2}, \; y = \frac{5}{2}, \; z = \frac{5}{2}$.
 
 Two principal approaches:
 
-1. **Case analysis:** Split into $f(x) \geq 0$ and $f(x) \lt 0$Replacing $|f(x)|$ with $f(x)$ or
+1. **Case analysis:** Split into $f(x) \geq 0$ and $f(x) \lt 0$ Replacing $|f(x)|$ with $f(x)$ or
    $-f(x)$ respectively. Solve each case and take the union.
-2. **Squaring:** Since $|f(x)|^2 = f(x)^2$The inequality $|f(x)| \lt g(x)$ becomes
+2. **Squaring:** Since $|f(x)|^2 = f(x)^2$ The inequality $|f(x)| \lt g(x)$ becomes
    $f(x)^2 \lt g(x)^2$ provided $g(x) \geq 0$. This is often cleaner when both sides are
    non-negative.
 
@@ -487,17 +487,17 @@ Two principal approaches:
 <summary>Example</summary>
 Solve $|2x - 1| \lt x + 3$.
 
-Since $|2x - 1| \geq 0$We require $x + 3 \gt 0$I.e. $x \gt -3$.
+Since $|2x - 1| \geq 0$ We require $x + 3 \gt 0$ I.e. $x \gt -3$.
 
-**Case 1:** $2x - 1 \geq 0$I.e. $x \geq \frac{1}{2}$.
+**Case 1:** $2x - 1 \geq 0$ I.e. $x \geq \frac{1}{2}$.
 
-Then $|2x - 1| = 2x - 1$ So $2x - 1 \lt x + 3$Giving $x \lt 4$.
+Then $|2x - 1| = 2x - 1$ So $2x - 1 \lt x + 3$ Giving $x \lt 4$.
 
 Combined with $x \geq \frac{1}{2}$: $\frac{1}{2} \leq x \lt 4$.
 
-**Case 2:** $2x - 1 \lt 0$I.e. $x \lt \frac{1}{2}$.
+**Case 2:** $2x - 1 \lt 0$ I.e. $x \lt \frac{1}{2}$.
 
-Then $|2x - 1| = 1 - 2x$ So $1 - 2x \lt x + 3$Giving $-2 \lt 3x$I.e. $x \gt -\frac{2}{3}$.
+Then $|2x - 1| = 1 - 2x$ So $1 - 2x \lt x + 3$ Giving $-2 \lt 3x$ I.e. $x \gt -\frac{2}{3}$.
 
 Combined with $x \lt \frac{1}{2}$: $-\frac{2}{3} \lt x \lt \frac{1}{2}$.
 
@@ -509,13 +509,13 @@ Combined with $x \lt \frac{1}{2}$: $-\frac{2}{3} \lt x \lt \frac{1}{2}$.
 <summary>Example</summary>
 Solve $|x^2 - 4| \gt 5$.
 
-**Case 1:** $x^2 - 4 \geq 0$I.e. $|x| \geq 2$.
+**Case 1:** $x^2 - 4 \geq 0$ I.e. $|x| \geq 2$.
 
-Then $x^2 - 4 \gt 5$Giving $x^2 \gt 9$ So $x \gt 3$ or $x \lt -3$.
+Then $x^2 - 4 \gt 5$ Giving $x^2 \gt 9$ So $x \gt 3$ or $x \lt -3$.
 
-**Case 2:** $x^2 - 4 \lt 0$I.e. $-2 \lt x \lt 2$.
+**Case 2:** $x^2 - 4 \lt 0$ I.e. $-2 \lt x \lt 2$.
 
-Then $-(x^2 - 4) \gt 5$Giving $4 - x^2 \gt 5$I.e. $x^2 \lt -1$.
+Then $-(x^2 - 4) \gt 5$ Giving $4 - x^2 \gt 5$ I.e. $x^2 \lt -1$.
 
 No real solution from this case.
 
@@ -764,11 +764,11 @@ Vertices: $(0, 0)$$(4, 0)$$(0, 4)$ And $\left(\frac{8}{3}, \frac{8}{3}\right)$.
 
 <details>
 <summary>Solution</summary>
-Since $a > b > 0$We have $a - b > 0$ and $a + b > 0$.
+Since $a > b > 0$ We have $a - b > 0$ and $a + b > 0$.
 
 $a^2 - b^2 = (a - b)(a + b)$.
 
-Both factors are positive, so their product is positive: $a^2 - b^2 > 0$Hence $a^2 > b^2$.
+Both factors are positive, so their product is positive: $a^2 - b^2 > 0$ Hence $a^2 > b^2$.
 $\blacksquare$
 
 </details>
@@ -792,7 +792,7 @@ Dividing by 2: $-1 \leq x \leq 4$.
 <hr />
 
 **Problem 9.** Given that $x^2 + px + q = 0$ has roots $\alpha$ and $\beta$ And $\alpha + \beta = 6$
-and $\alpha\beta = 8$Find $p$ and $q$.
+and $\alpha\beta = 8$ Find $p$ and $q$.
 
 <details>
 <summary>Solution</summary>
@@ -800,7 +800,7 @@ By Viète's formulas (sum and product of roots): $-p = 6$ and $q = 8$.
 
 So $p = -6$$q = 8$.
 
-Verification: $x^2 - 6x + 8 = (x - 2)(x - 4) = 0$Giving roots $2$ and $4$ with sum $6$ and product
+Verification: $x^2 - 6x + 8 = (x - 2)(x - 4) = 0$ Giving roots $2$ and $4$ with sum $6$ and product
 $8$. ✓
 
 </details>
@@ -913,21 +913,21 @@ Solution: $x = \frac{13}{7}, \; y = \frac{17}{7}, \; z = \frac{12}{7}$.
 
 <details>
 <summary>Solution</summary>
-**Case 1:** $x^2 - 3x + 1 \geq 0$I.e. $x \leq \frac{3 - \sqrt{5}}{2}$ or $x \geq \frac{3 + \sqrt{5}}{2}$.
+**Case 1:** $x^2 - 3x + 1 \geq 0$ I.e. $x \leq \frac{3 - \sqrt{5}}{2}$ or $x \geq \frac{3 + \sqrt{5}}{2}$.
 
-Then $x^2 - 3x + 1 \geq 2$Giving $x^2 - 3x - 1 \geq 0$.
+Then $x^2 - 3x + 1 \geq 2$ Giving $x^2 - 3x - 1 \geq 0$.
 
 Roots: $x = \frac{3 \pm \sqrt{13}}{2}$.
 
 So $x \leq \frac{3 - \sqrt{13}}{2}$ or $x \geq \frac{3 + \sqrt{13}}{2}$.
 
-Since $\sqrt{13} \gt \sqrt{5}$The condition $x^2 - 3x + 1 \geq 0$ is automatically satisfied by
+Since $\sqrt{13} \gt \sqrt{5}$ The condition $x^2 - 3x + 1 \geq 0$ is automatically satisfied by
 These ranges.
 
-**Case 2:** $x^2 - 3x + 1 \lt 0$I.e.
+**Case 2:** $x^2 - 3x + 1 \lt 0$ I.e.
 $\frac{3 - \sqrt{5}}{2} \lt x \lt \frac{3 + \sqrt{5}}{2}$.
 
-Then $-(x^2 - 3x + 1) \geq 2$Giving $x^2 - 3x + 3 \leq 0$.
+Then $-(x^2 - 3x + 1) \geq 2$ Giving $x^2 - 3x + 3 \leq 0$.
 
 Discriminant: $\Delta = 9 - 12 = -3 \lt 0$. Since the parabola opens upward, $x^2 - 3x + 3 \gt 0$
 For all real $x$. No solution from this case.
@@ -986,13 +986,13 @@ Subtracting: $y^2 - x^2 = 5$ So $(y - x)(y + x) = 5$.
 
 **Case 1:** $x + y = 5$.
 
-Then $(y - x)(5) = 5$Giving $y - x = 1$.
+Then $(y - x)(5) = 5$ Giving $y - x = 1$.
 
 From $x + y = 5$ and $y - x = 1$: adding gives $2y = 6$ So $y = 3$, $x = 2$.
 
 **Case 2:** $x + y = -5$.
 
-Then $(y - x)(-5) = 5$Giving $y - x = -1$.
+Then $(y - x)(-5) = 5$ Giving $y - x = -1$.
 
 From $x + y = -5$ and $y - x = -1$: adding gives $2y = -6$ So $y = -3$, $x = -2$.
 

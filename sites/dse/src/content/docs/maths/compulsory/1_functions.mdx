@@ -26,9 +26,9 @@ Functions are central to the DSE Mathematics compulsory syllabus and underpin to
 
 ### Definition of a Function
 
-A function $f$ from a set $A$ to a set $B$Written $f \colon A \to B$Is a rule that assigns to Every
+A function $f$ from a set $A$ to a set $B$ Written $f \colon A \to B$ Is a rule that assigns to Every
 element $x \in A$ **exactly one** element $y \in B$. The element $y$ is called the **image** Of $x$
-under $f$Written $y = f(x)$.
+under $f$ Written $y = f(x)$.
 
 - The set $A$ is called the **domain** of $f$.
 - The set $B$ is called the **codomain** of $f$.
@@ -56,12 +56,12 @@ A function $f \colon A \to B$ is:
 - **Injective (one-to-one)** if $f(x_1) = f(x_2) \implies x_1 = x_2$. Equivalently, distinct inputs
   produce distinct outputs. This can be checked using the **horizontal line test**: no horizontal
   line intersects the graph more than once.
-- **Surjective (onto)** if for every $y \in B$There exists $x \in A$ such that $f(x) = y$. In other
+- **Surjective (onto)** if for every $y \in B$ There exists $x \in A$ such that $f(x) = y$. In other
   words, the range equals the codomain.
 - **Bijective (one-to-one correspondence)** if $f$ is both injective and surjective.
 
 <summary>Examples</summary>
-- $f(x) = 2x + 1$ with domain $\mathbb{R}$ is injective (linear, non-constant) and surjective onto $\mathbb{R}$Hence bijective.
+- $f(x) = 2x + 1$ with domain $\mathbb{R}$ is injective (linear, non-constant) and surjective onto $\mathbb{R}$ Hence bijective.
 - $f(x) = x^2$ with domain $\mathbb{R}$ is neither injective ($f(2) = f(-2) = 4$) nor surjective onto $\mathbb{R}$ (range is $[0, \infty)$).
 - $f(x) = x^2$ with domain $[0, \infty)$ and codomain $[0, \infty)$ is bijective.
 - $f(x) = \dfrac{1}{x}$ with domain $\mathbb{R} \setminus \{0\}$ is injective but not surjective onto $\mathbb{R}$ (range is $\mathbb{R} \setminus \{0\}$).
@@ -72,14 +72,14 @@ A function $f \colon A \to B$ is:
 
 ### Definition
 
-Given two functions $f$ and $g$The **composite function** $f \circ g$ (read "$f$ of $g$") is Defined
+Given two functions $f$ and $g$ The **composite function** $f \circ g$ (read "$f$ of $g$") is Defined
 by:
 
 $
 (f \circ g)(x) = f(g(x))
 $
 
-For $(f \circ g)(x)$ to be defined at a particular value of $x$Two conditions must hold:
+For $(f \circ g)(x)$ to be defined at a particular value of $x$ Two conditions must hold:
 
 1. $x$ must be in the domain of $g$.
 2. $g(x)$ must be in the domain of $f$.
@@ -109,7 +109,7 @@ $
 
 The graphs of $y = f(x)$ and $y = f^{-1}(x)$ are reflections of each other in the line $y = x$.
 
-To find $f^{-1}(x)$Set $y = f(x)$Solve for $x$ in terms of $y$ Then interchange $x$ and $y$.
+To find $f^{-1}(x)$ Set $y = f(x)$ Solve for $x$ in terms of $y$ Then interchange $x$ and $y$.
 
 A necessary condition for a function to have an inverse is that it is one-to-one (injective). If the
 Original function is not injective on its given domain, one may restrict the domain to make it
@@ -119,18 +119,18 @@ Injective.
 - Let $f(x) = 2x + 3$ and $g(x) = x^2$. Then:
  - $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 3$
  - $(g \circ f)(x) = g(f(x)) = g(2x + 3) = (2x + 3)^2 = 4x^2 + 12x + 9$
- - Note that $(f \circ g)(1) = 5$ but $(g \circ f)(1) = 25$Confirming $f \circ g \neq g \circ f$.
+ - Note that $(f \circ g)(1) = 5$ but $(g \circ f)(1) = 25$ Confirming $f \circ g \neq g \circ f$.
 
 - Find the inverse of $f(x) = \dfrac{2x + 1}{x - 3}$ ($x \neq 3$):
 - Set $y = \dfrac{2x + 1}{x - 3}$
 - $y(x - 3) = 2x + 1 \implies yx - 3y = 2x + 1$
 - $x(y - 2) = 3y + 1 \implies x = \dfrac{3y + 1}{y - 2}$
-- Therefore $f^{-1}(x) = \dfrac{3x + 1}{x - 2}$With domain $\mathbb{R} \setminus \{2\}$.
+- Therefore $f^{-1}(x) = \dfrac{3x + 1}{x - 2}$ With domain $\mathbb{R} \setminus \{2\}$.
 
 - Let $f(x) = \sqrt{x - 1}$ and $g(x) = x^2 + 1$. Find the domain of $f \circ g$:
 - $\mathrm{dom}(g) = \mathbb{R}$
-- $\mathrm{dom}(f) = \{x : x \geq 1\}$ So we require $g(x) \geq 1$I.e.
-  $x^2 + 1 \geq 1 \implies x^2 \geq 0$Which holds for all real $x$.
+- $\mathrm{dom}(f) = \{x : x \geq 1\}$ So we require $g(x) \geq 1$ I.e.
+  $x^2 + 1 \geq 1 \implies x^2 \geq 0$ Which holds for all real $x$.
 - Therefore $\mathrm{dom}(f \circ g) = \mathbb{R}$.
 
 ---
@@ -155,8 +155,8 @@ $
 
 - The **vertex** is at $\left(-\dfrac{b}{2a},\; \dfrac{4ac - b^2}{4a}\right)$.
 - The **axis of symmetry** is the vertical line $x = -\dfrac{b}{2a}$.
-- If $a > 0$The parabola opens upward (minimum at the vertex).
-- If $a < 0$The parabola opens downward (maximum at the vertex).
+- If $a > 0$ The parabola opens upward (minimum at the vertex).
+- If $a < 0$ The parabola opens downward (maximum at the vertex).
 
 ### Discriminant
 
@@ -198,15 +198,15 @@ Expressions.
 <summary>Examples</summary>
 - Express $f(x) = 2x^2 - 12x + 22$ in vertex form:
  - $f(x) = 2(x^2 - 6x) + 22 = 2\left[(x - 3)^2 - 9\right] + 22 = 2(x - 3)^2 + 4$
- - Vertex: $(3, 4)$Axis of symmetry: $x = 3$Minimum value: $4$.
+ - Vertex: $(3, 4)$ Axis of symmetry: $x = 3$ Minimum value: $4$.
 
 - Determine the nature of roots of $3x^2 - 5x + 2 = 0$:
 - $\Delta = (-5)^2 - 4(3)(2) = 25 - 24 = 1 > 0$
-- Two distinct real roots: $x = \dfrac{5 \pm 1}{6}$I.e. $x = 1$ or $x = \dfrac{2}{3}$.
+- Two distinct real roots: $x = \dfrac{5 \pm 1}{6}$ I.e. $x = 1$ or $x = \dfrac{2}{3}$.
 
 - Find the range of $f(x) = -x^2 + 4x - 7$:
 - $f(x) = -(x^2 - 4x) - 7 = -\left[(x - 2)^2 - 4\right] - 7 = -(x - 2)^2 - 3$
-- Since $-(x - 2)^2 \leq 0$ for all $x$The maximum value is $-3$.
+- Since $-(x - 2)^2 \leq 0$ for all $x$ The maximum value is $-3$.
 - Range: $(-\infty, -3]$.
 
 ---
@@ -237,7 +237,7 @@ $$
 
 ### Graphs
 
-- For $a > 1$: $f(x) = a^x$ is strictly increasing. The graph passes through $(0, 1)$Approaches the
+- For $a > 1$: $f(x) = a^x$ is strictly increasing. The graph passes through $(0, 1)$ Approaches the
   $x$-axis as $x \to -\infty$ (horizontal asymptote at $y = 0$), and rises steeply as
   $x \to \infty$.
 - For $0 < a < 1$: $f(x) = a^x$ is strictly decreasing. The graph is a reflection of
@@ -248,7 +248,7 @@ $$
 Equations of the form $a^{f(x)} = a^{g(x)}$ can be solved by equating exponents: $f(x) = g(x)$
 (provided $a > 0$, $a \neq 1$).
 
-For equations of the form $a^{f(x)} = b$Take logarithms of both sides. See [logarithms](/maths/compulsory/7_logarithmics/)
+For equations of the form $a^{f(x)} = b$ Take logarithms of both sides. See [logarithms](/maths/compulsory/7_logarithmics/)
 for the full treatment of logarithmic techniques.
 
 <summary>Examples</summary>
@@ -323,7 +323,7 @@ When solving logarithmic equations, the following steps are typical:
  - Convert: $(x + 3)(x - 1) = 2^4 = 16$
  - $x^2 + 2x - 3 = 16 \implies x^2 + 2x - 19 = 0$
  - $x = \dfrac{-2 \pm \sqrt{4 + 76}}{2} = -1 \pm 2\sqrt{5}$
- - Domain requires $x + 3 > 0$ and $x - 1 > 0$I.e. $x > 1$.
+ - Domain requires $x + 3 > 0$ and $x - 1 > 0$ I.e. $x > 1$.
  - $-1 + 2\sqrt{5} \approx 3.47 > 1$ (accepted); $-1 - 2\sqrt{5} < 0$ (rejected).
  - Solution: $x = -1 + 2\sqrt{5}$.
 
@@ -341,7 +341,7 @@ When solving logarithmic equations, the following steps are typical:
 
 ## Graph Transformations
 
-Given the graph of $y = f(x)$The graph of $y = af(x + b) + c$ is obtained by applying a sequence Of
+Given the graph of $y = f(x)$ The graph of $y = af(x + b) + c$ is obtained by applying a sequence Of
 transformations. The general form can be broken down as:
 
 $$
@@ -365,9 +365,9 @@ Observe the order in which each transformation is applied.
 
 ### Order of Transformations
 
-For $y = af(x + b) + c$The recommended order of application (from the graph of $y = f(x)$) is:
+For $y = af(x + b) + c$ The recommended order of application (from the graph of $y = f(x)$) is:
 
-1. **Horizontal translation** by $-b$ units (shift left if $b > 0$Right if $b < 0$): replace $x$
+1. **Horizontal translation** by $-b$ units (shift left if $b > 0$ Right if $b < 0$): replace $x$
    with $x + b$.
 2. **Vertical stretch/compression** (and possible $x$-axis reflection) by factor $|a|$: multiply the
    function by $a$.
@@ -392,12 +392,12 @@ Shift has the "opposite sign" effect: $f(x + b)$ shifts left by $b$ (not right).
  - The vertex moves from $(0, 0)$ to $(3, 1)$.
 
 - The graph of $y = f(x)$ passes through $(2, 5)$. Find the corresponding point on $y = -f(2x) + 3$:
-- Start with $(2, 5)$ on $y = f(x)$Meaning $f(2) = 5$.
-- For $y = -f(2x) + 3$Set $2x = 2 \implies x = 1$.
+- Start with $(2, 5)$ on $y = f(x)$ Meaning $f(2) = 5$.
+- For $y = -f(2x) + 3$ Set $2x = 2 \implies x = 1$.
 - Then $y = -f(2) + 3 = -5 + 3 = -2$.
 - The point is $(1, -2)$.
 
-- Given $f(x) = \sqrt{x}$Sketch $y = \sqrt{-x + 4} - 2$:
+- Given $f(x) = \sqrt{x}$ Sketch $y = \sqrt{-x + 4} - 2$:
 - Rewrite as $y = f(-(x - 4)) - 2 = f(-x + 4) - 2$.
 - From $y = \sqrt{x}$: reflect in the $y$-axis to get $y = \sqrt{-x}$ Then shift right by 4 to get
   $y = \sqrt{-(x - 4)} = \sqrt{-x + 4}$ Then shift down by 2.
@@ -436,12 +436,12 @@ For all $a, b \in \mathbb{R}$:
 **Proposition (Triangle Inequality).** $|a + b| \leq |a| + |b|$.
 
 **Proof.** We have $-|a| \leq a \leq |a|$ and $-|b| \leq b \leq |b|$ for all $a, b$. Adding:
-$-(|a| + |b|) \leq a + b \leq |a| + |b|$Which means $|a + b| \leq |a| + |b|$. $\qed$
+$-(|a| + |b|) \leq a + b \leq |a| + |b|$ Which means $|a + b| \leq |a| + |b|$. $\qed$
 
 ### Solving Modulus Equations
 
 The equation $|f(x)| = a$ (where $a \geq 0$) is equivalent to $f(x) = a$ or $f(x) = -a$. If
-$a \lt 0$There is no solution.
+$a \lt 0$ There is no solution.
 
 ### Solving Modulus Inequalities
 
@@ -469,7 +469,7 @@ $(\Leftarrow)$ If $-a \lt f(x) \lt a$ Then $f(x) \lt a$ and $-f(x) \lt a$ So $|f
 <summary>Examples</summary>
 
 - Solve $|2x - 3| = 7$:
-- $2x - 3 = 7 \implies x = 5$Or $2x - 3 = -7 \implies x = -2$.
+- $2x - 3 = 7 \implies x = 5$ Or $2x - 3 = -7 \implies x = -2$.
 - Solutions: $x = -2$ or $x = 5$.
 
 - Solve $|3x + 1| \lt 5$:
@@ -486,7 +486,7 @@ $(\Leftarrow)$ If $-a \lt f(x) \lt a$ Then $f(x) \lt a$ and $-f(x) \lt a$ So $|f
 
 - Sketch $y = |x^2 - 4x - 5|$:
 - Factor: $y = |(x - 5)(x + 1)|$.
-- The quadratic $x^2 - 4x - 5$ has roots at $x = -1$ and $x = 5$With vertex at $x = 2$ giving
+- The quadratic $x^2 - 4x - 5$ has roots at $x = -1$ and $x = 5$ With vertex at $x = 2$ giving
   $f(2) = 4 - 8 - 5 = -9$.
 - Below the $x$-axis on $(-1, 5)$; above on $(-\infty, -1] \cup [5, \infty)$.
 - Reflect the portion on $(-1, 5)$ upward. The minimum on $(-1, 5)$ becomes a maximum at $(2, 9)$.
@@ -501,7 +501,7 @@ To solve $ax^2 + bx + c \gt 0$ (or $\lt$\geq$\leq$), use the discriminant and th
 Parabola:
 
 1. Find the roots of $ax^2 + bx + c = 0$ (if they exist).
-2. Sketch the parabola (opens upward if $a \gt 0$Downward if $a \lt 0$).
+2. Sketch the parabola (opens upward if $a \gt 0$ Downward if $a \lt 0$).
 3. Read off the intervals where the inequality is satisfied.
 
 | Discriminant   | Roots        | $a \gt 0$: $f(x) \gt 0$    | $a \gt 0$: $f(x) \lt 0$ |
@@ -525,7 +525,7 @@ To solve $\frac{f(x)}{g(x)} \gt 0$ (or $\lt$$\geq$$\leq$):
 <Aside type="caution">
 **Critical pitfall:** When multiplying both sides of an inequality by an expression
 
-Involving $x$The direction of the inequality flips if that expression is negative. Instead of
+Involving $x$ The direction of the inequality flips if that expression is negative. Instead of
 Multiplying through, use a sign chart.
 </Aside>
 
@@ -547,9 +547,9 @@ Multiplying through, use a sign chart.
 - Solve $\frac{x^2 - 4}{x - 3} \leq 0$:
 - $\frac{(x - 2)(x + 2)}{x - 3} \leq 0$.
 - Critical points: $x = -2$$x = 2$$x = 3$ (excluded).
-- Sign chart: negative on $(-2, 2) \cup (2, 3)$Positive elsewhere.
+- Sign chart: negative on $(-2, 2) \cup (2, 3)$ Positive elsewhere.
 - Include zeros of numerator: $x = -2$ and $x = 2$.
-- Solution: $-2 \leq x \leq 2$ or $2 \lt x \lt 3$I.e., $[-2, 2] \cup (2, 3)$.
+- Solution: $-2 \leq x \leq 2$ or $2 \lt x \lt 3$ I.e., $[-2, 2] \cup (2, 3)$.
 
 ---
 
@@ -569,7 +569,7 @@ $\mathbb{R} \setminus \{x : Q(x) = 0\}$.
 ### Asymptotes
 
 **Vertical asymptotes** occur at values of $x$ where $Q(x) = 0$ but $P(x) \neq 0$. Near a vertical
-Asymptote at $x = a$The magnitude of $f(x)$ grows without bound.
+Asymptote at $x = a$ The magnitude of $f(x)$ grows without bound.
 
 **Horizontal asymptotes** describe the end behaviour of $f(x)$ as $x \to \pm\infty$. Compare the
 Degrees of $P$ and $Q$:
@@ -590,7 +590,7 @@ $$
 
 ### Behaviour Near Vertical Asymptotes
 
-For a vertical asymptote at $x = a$The sign of $f(x)$ on each side depends on the signs of the
+For a vertical asymptote at $x = a$ The sign of $f(x)$ on each side depends on the signs of the
 Remaining factors. Analyse using a sign chart or by evaluating test points on each side.
 
 ### Sketching Rational Functions
@@ -619,8 +619,8 @@ Remaining factors. Analyse using a sign chart or by evaluating test points on ea
 - Domain: $x \neq \pm 2$. Vertical asymptotes: $x = 2$ and $x = -2$.
 - Degrees equal (both 2), horizontal asymptote at $y = \frac{1}{1} = 1$.
 - $x$-intercepts: $x = \pm 1$. $y$-intercept: $f(0) = \frac{-1}{-4} = \frac{1}{4}$.
-- As $x \to 2^+$Numerator $\to 3 \gt 0$Denominator $\to 0^+$ So $f(x) \to +\infty$.
-- As $x \to -2^+$Numerator $\to -3 \lt 0$Denominator $\to 0^-$ So $f(x) \to +\infty$.
+- As $x \to 2^+$ Numerator $\to 3 \gt 0$ Denominator $\to 0^+$ So $f(x) \to +\infty$.
+- As $x \to -2^+$ Numerator $\to -3 \lt 0$ Denominator $\to 0^-$ So $f(x) \to +\infty$.
 
 ---
 
@@ -643,7 +643,7 @@ Times the horizontal line $y = k$ intersects the graph of $y = f(x)$.
 
 Key observations:
 
-- At a **local maximum or minimum** of $f$A small change in $k$ can change the number of solutions.
+- At a **local maximum or minimum** of $f$ A small change in $k$ can change the number of solutions.
 - If $k$ equals the maximum or minimum value, the corresponding intersection point is a **tangency**
   (double root).
 
@@ -652,7 +652,7 @@ Key observations:
 - Find the number of solutions to $x^3 - 3x + 1 = 0$:
 - Let $f(x) = x^3 - 3x + 1$. Then $f'(x) = 3x^2 - 3 = 3(x - 1)(x + 1)$.
 - Critical points: $x = -1$ (local maximum, $f(-1) = 3$) and $x = 1$ (local minimum, $f(1) = -1$).
-- Since $f(-1) = 3 \gt 0$ and $f(1) = -1 \lt 0$The graph crosses the $x$-axis three times.
+- Since $f(-1) = 3 \gt 0$ and $f(1) = -1 \lt 0$ The graph crosses the $x$-axis three times.
 - Three distinct real solutions.
 
 - The equation $2^x = x + 3$ has exactly two solutions:
@@ -672,14 +672,14 @@ Key observations:
 
 <summary>Modulus function errors</summary>
 
-- **Forgetting both cases.** When solving $|f(x)| = a$You must consider $f(x) = a$ AND $f(x) = -a$.
+- **Forgetting both cases.** When solving $|f(x)| = a$ You must consider $f(x) = a$ AND $f(x) = -a$.
   Dropping one case loses solutions.
 - **Wrong inequality direction.** $\|f(x)\| \lt a$ means $f(x)$ is _between_ $-a$ and $a$ (a single
   interval). $\|f(x)\| \gt a$ means $f(x)$ is _outside_ this range (two disjoint intervals).
   Confusing these produces wrong solution sets.
 - **Squaring both sides carelessly.** Squaring $|f(x)| = |g(x)|$ to get $f(x)^2 = g(x)^2$ is valid,
   But squaring $f(x) = g(x)$ can introduce extraneous solutions (e.g., $x = \sqrt{x}$ squares to
-  $x^2 = x$Giving $x = 0$ or $x = 1$ But $x = 1$ is extraneous).
+  $x^2 = x$ Giving $x = 0$ or $x = 1$ But $x = 1$ is extraneous).
 
 <summary>Rational function errors</summary>
 
@@ -694,7 +694,7 @@ Key observations:
 
 - **Multiplying by a variable.** Multiplying $\frac{f(x)}{g(x)} \gt 0$ by $g(x)$ flips the
   inequality when $g(x) \lt 0$. Always use a sign chart instead.
-- **Including excluded values.** For $\frac{f(x)}{g(x)} \geq 0$Values where $g(x) = 0$ are still
+- **Including excluded values.** For $\frac{f(x)}{g(x)} \geq 0$ Values where $g(x) = 0$ are still
   excluded from the domain, even though the inequality is non-strict.
 - **Wrong discriminant analysis.** A negative discriminant with $a \gt 0$ means the quadratic is
   Always positive, not always negative.
@@ -709,7 +709,7 @@ Key observations:
 <summary>Answer</summary>
 - $(f \circ g)(x) = f(g(x)) = f(x^2 - 4) = \dfrac{2(x^2 - 4) - 6}{(x^2 - 4) + 1} = \dfrac{2x^2 - 14}{x^2 - 3}$
 - $\mathrm{dom}(g) = \mathbb{R}$.
-- $\mathrm{dom}(f) = \{x \in \mathbb{R} : x \neq -1\}$ So we require $g(x) \neq -1$I.e. $x^2 - 4 \neq -1 \implies x^2 \neq 3 \implies x \neq \pm\sqrt{3}$.
+- $\mathrm{dom}(f) = \{x \in \mathbb{R} : x \neq -1\}$ So we require $g(x) \neq -1$ I.e. $x^2 - 4 \neq -1 \implies x^2 \neq 3 \implies x \neq \pm\sqrt{3}$.
 - $\mathrm{dom}(f \circ g) = \mathbb{R} \setminus \{\sqrt{3},\; -\sqrt{3}\}$.
 
 1. **Question:** Let $f(x) = 3x - 5$. Find $f^{-1}(x)$ and verify that $f^{-1}(f(x)) = x$.
@@ -767,11 +767,11 @@ Key observations:
 <summary>Answer</summary>
 
 - For a point $(a, b)$ on $y = f(x)$ (so $f(a) = b$), the corresponding point on $y = 2f(x - 1) + 3$
-  is found by setting $x - 1 = a$I.e. $x = a + 1$ And $y = 2b + 3$.
+  is found by setting $x - 1 = a$ I.e. $x = a + 1$ And $y = 2b + 3$.
 - $(1, 4) \mapsto (1 + 1,\; 2 \times 4 + 3) = (2, 11)$.
 - $(3, 10) \mapsto (3 + 1,\; 2 \times 10 + 3) = (4, 23)$.
 
-1. **Question:** Given $f(x) = \log_2(x + 3)$ and $g(x) = 2^x - 1$Show that $f$ and $g$ are Inverse
+1. **Question:** Given $f(x) = \log_2(x + 3)$ and $g(x) = 2^x - 1$ Show that $f$ and $g$ are Inverse
    functions of each other, and state the domain and range of $f^{-1}$.
 
 <summary>Answer</summary>
@@ -791,17 +791,17 @@ Key observations:
   values for $x > -3$).
 - $\mathrm{range}(f^{-1}) = \mathrm{dom}(f) = (-3, \infty)$.
 
-1. **Question:** Given $f(x) = x^2 + 2x - 3$Find the range of $f$ when (a) the domain is
+1. **Question:** Given $f(x) = x^2 + 2x - 3$ Find the range of $f$ when (a) the domain is
    $\mathbb{R}$ And (b) the domain is $[0, 4]$.
 
 <summary>Answer</summary>
 
 - Completing the square: $f(x) = (x^2 + 2x + 1) - 1 - 3 = (x + 1)^2 - 4$.
 - The vertex is at $(-1, -4)$.
-- (a) Domain $\mathbb{R}$: Since the parabola opens upward with minimum $-4$Range is $[-4, \infty)$.
+- (a) Domain $\mathbb{R}$: Since the parabola opens upward with minimum $-4$ Range is $[-4, \infty)$.
 - (b) Domain $[0, 4]$:
 - $f(0) = -3$$f(4) = 16 + 8 - 3 = 21$.
-- On $[0, 4]$The function is increasing (vertex at $x = -1$ is to the left of the interval).
+- On $[0, 4]$ The function is increasing (vertex at $x = -1$ is to the left of the interval).
 - Range: $[-3, 21]$.
 
 1. **Question:** Let $f(x) = \dfrac{x}{x - 2}$ for $x \neq 2$. Find $f^{-1}$ And evaluate
@@ -811,7 +811,7 @@ Key observations:
 
 - Set $y = \dfrac{x}{x - 2}$.
 - $y(x - 2) = x \implies yx - 2y = x \implies yx - x = 2y \implies x(y - 1) = 2y \implies x = \dfrac{2y}{y - 1}$.
-- $f^{-1}(x) = \dfrac{2x}{x - 1}$With domain $\mathbb{R} \setminus \{1\}$.
+- $f^{-1}(x) = \dfrac{2x}{x - 1}$ With domain $\mathbb{R} \setminus \{1\}$.
 - $f^{-1}(3) = \dfrac{2(3)}{3 - 1} = 3$.
 - $f(3) = \dfrac{3}{3 - 2} = 3$.
 - $f^{-1}(3) + f(3) = 3 + 3 = 6$.
@@ -881,7 +881,7 @@ Is $f(x) = x^2 + 1$ surjective if the codomain is $\mathbb{R}$?
 
 <summary>Solution</summary>
 
-No. Since $x^2 \geq 0$ for all real $x$We have $f(x) = x^2 + 1 \geq 1$. The value $0 \in \mathbb{R}$
+No. Since $x^2 \geq 0$ for all real $x$ We have $f(x) = x^2 + 1 \geq 1$. The value $0 \in \mathbb{R}$
 is not attained. Therefore $f$ is not surjective onto $\mathbb{R}$.
 
 If the codomain is restricted to $[1, \infty)$ Then $f$ is surjective.
@@ -893,7 +893,7 @@ $f(x) = \begin{cases} |x| & \text{if } x \leq 2 \\ x^2 - 2x & \text{if } x > 2 \
 
 <summary>Solution</summary>
 
-For $x \leq 2$: $f(x) = |x|$Which is a V-shape with vertex at $(0, 0)$.
+For $x \leq 2$: $f(x) = |x|$ Which is a V-shape with vertex at $(0, 0)$.
 
 At $x = 2$: $f(2) = 2$.
 
@@ -903,7 +903,7 @@ At $x = 2^+$: $f(2) = 4 - 4 = 0$.
 
 There is a jump discontinuity at $x = 2$: $f(2) = 2$ but $\lim_{x \to 2^+} f(x) = 0$.
 
-For $x > 2$The function is a parabola with vertex at $(1, -1)$ But since $x > 2$We only see the right
+For $x > 2$ The function is a parabola with vertex at $(1, -1)$ But since $x > 2$ We only see the right
 branch, which is strictly increasing.
 
 **Worked Example 12: Even and odd function properties**
@@ -917,7 +917,7 @@ $(f \circ g)(-x) = f(g(-x)) = f(g(x)) = (f \circ g)(x)$
 
 Since $g$ is even: $g(-x) = g(x)$.
 
-So $(f \circ g)(-x) = (f \circ g)(x)$Which means $f \circ g$ is even.
+So $(f \circ g)(-x) = (f \circ g)(x)$ Which means $f \circ g$ is even.
 
 ---
 
@@ -954,7 +954,7 @@ $[1, \infty)$.
 
 Range: $[2, \infty)$.
 
-Since $f$ is strictly increasing (hence injective) on $[1, \infty)$It has an inverse.
+Since $f$ is strictly increasing (hence injective) on $[1, \infty)$ It has an inverse.
 
 **DSE Practice 3.** A function is defined by $f(x) = \lfloor x \rfloor$ (the greatest integer less
 than or equal to $x$). Find $f(3.7)$f(-2.1)$ And $f(0)$.
@@ -972,7 +972,7 @@ $f(-x) = (-x)^3 + (-x) = -x^3 - x = -(x^3 + x) = -f(x)$
 Since $f(-x) = -f(x)$, $f$ is odd.
 
 **DSE Practice 5.** The function $f$ is defined on $\mathbb{R}$ by $f(x) = ax^2 + bx + c$. Given
-that $f(0) = 5$f(1) = 4$ And $f(-1) = 10$Find $a$b$ And $c$.
+that $f(0) = 5$f(1) = 4$ And $f(-1) = 10$ Find $a$b$ And $c$.
 
 <summary>Solution</summary>
 

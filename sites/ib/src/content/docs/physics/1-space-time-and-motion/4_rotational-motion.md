@@ -90,7 +90,7 @@ Always directed toward the centre of the circular path (radially inward).
 
 - Centripetal acceleration changes the **direction** of velocity, not its magnitude.
 - If the centripetal force is removed, the object moves in a straight line (tangent to the circle)
-  by Newton"s first law.
+  by Newton's first law.
 - The word "centripetal" means "centre-seeking."
 :::
 
@@ -473,8 +473,8 @@ $$
 ### Applications
 
 - **Ice skater spinning**: Pulling arms in reduces $I$ So $\omega$ increases.
-- **Diving**: Tucking reduces $I$Increasing angular velocity for flips.
-- **Figure skater**: Extending arms increases $I$Decreasing $\omega$ for a controlled landing.
+- **Diving**: Tucking reduces $I$ Increasing angular velocity for flips.
+- **Figure skater**: Extending arms increases $I$ Decreasing $\omega$ for a controlled landing.
 :::
 
 :::note[Example]
@@ -650,7 +650,7 @@ $$
 V_{\mathrm{min}} = \sqrt`\{gr}` = \sqrt{9.81 \times 0.8} = \sqrt{7.85} = 2.80\mathrm{ m/s}
 $$
 
-**(b)** If the speed at the bottom is $8\mathrm{ m/s}$Find the tension in the string at the Bottom.
+**(b)** If the speed at the bottom is $8\mathrm{ m/s}$ Find the tension in the string at the Bottom.
 
 $$
 T_{\mathrm{bottom}} = mg + \frac{mv^2}{r} = 0.2(9.81) + \frac{0.2(64)}{0.8} = 1.962 + 16 = 17.96\mathrm{ N}
@@ -919,7 +919,7 @@ $$
 ### Question 6 (Paper 2 style)
 
 A disc of mass $5\mathrm{ kg}$ and radius $0.2\mathrm{ m}$ rotates about its central axis. A
-Constant torque of $0.5\mathrm{ N}\cdot\mathrm{m}$ is applied for $4\mathrm{ s}$Starting from Rest.
+Constant torque of $0.5\mathrm{ N}\cdot\mathrm{m}$ is applied for $4\mathrm{ s}$ Starting from Rest.
 
 **(a)** Find the angular acceleration.
 
@@ -989,7 +989,7 @@ $$
 
 A horizontal turntable of radius $0.5\mathrm{ m}$ rotates at $3\mathrm{ rad/s}$. A coin is placed on
 The turntable at a distance $0.3\mathrm{ m}$ from the centre. If the coefficient of static friction
-Is $0.4$Does the coin slip?
+Is $0.4$ Does the coin slip?
 
 $$
 A_c = \omega^2 r = 9 \times 0.3 = 2.7\mathrm{ m/s}^2
@@ -999,7 +999,7 @@ Required friction: $f = ma_c = m \times 2.7$.
 
 Maximum available friction: $f_{\max} = \mu_s mg = 0.4m(9.81) = 3.924m$.
 
-Since $2.7m \lt 3.924m$The coin does not slip.
+Since $2.7m \lt 3.924m$ The coin does not slip.
 
 For the A-Level treatment of this topic, see
 [Circular Motion](https://alevel.wyattau.com/docs/physi..../1-space-time-and-motion/circular-motion).

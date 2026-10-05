@@ -635,7 +635,7 @@ Economies of scale and learning curve effects.
 
 The learning curve: $\text{AC}(t) = \text{AC}_0 \times Q(t)^{-\alpha}$
 
-Where $\alpha$ is the learning rate parameter. If $\alpha = 0.15$A doubling of cumulative Output
+Where $\alpha$ is the learning rate parameter. If $\alpha = 0.15$ A doubling of cumulative Output
 reduces unit costs by approximately $1 - 2^{-0.15} = 10\%$.
 
 **Numerical example:**
@@ -745,11 +745,11 @@ A cross-country regression estimates:
 
 $\text{Growth} = 2.0 + 0.02 \times \text{Private\_credit/GDP} + 0.01 \times (\text{Private\_credit/GDP} \times \text{Institution\_quality})$
 
-Country C: Private credit/GDP $= 40\%$Institution quality $= 1.0$.
+Country C: Private credit/GDP $= 40\%$ Institution quality $= 1.0$.
 
 Growth $= 2.0 + 0.02(40) + 0.01(40 \times 1.0) = 2.0 + 0.8 + 0.4 = 3.2\%$.
 
-Country D: Private credit/GDP $= 40\%$Institution quality $= -1.5$.
+Country D: Private credit/GDP $= 40\%$ Institution quality $= -1.5$.
 
 Growth $= 2.0 + 0.02(40) + 0.01(40 \times -1.5) = 2.0 + 0.8 - 0.6 = 2.2\%$.
 

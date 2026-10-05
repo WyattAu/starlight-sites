@@ -120,7 +120,7 @@ $$
 
 **Case 2:** $\sin x = \dfrac{1}{2} \implies x = 30°$ or $x = 150°$.
 
-A common mistake is dividing by $\cos x$ without considering the case $\cos x = 0$Which loses
+A common mistake is dividing by $\cos x$ without considering the case $\cos x = 0$ Which loses
 solutions.
 
 Solution: $x = 30°,\; 90°,\; 150°,\; 270°$.
@@ -265,7 +265,7 @@ Denominator: $-\sin 18° - 1 + 2\sin^2 18° = -(1 + \sin 18° - 2\sin^2 18°)$.
 
 This equals $\tan 18°$ (verifiable numerically: $\tan 18° \approx 0.325$).
 
-Since slope $AB$ = slope $AC$The points are collinear.
+Since slope $AB$ = slope $AC$ The points are collinear.
 
 ---
 
@@ -300,7 +300,7 @@ $\tan x = \dfrac{3 + \sqrt{5}}{2} \approx 2.618 \implies x \approx 69.1°$
 
 $\tan x = \dfrac{3 - \sqrt{5}}{2} \approx 0.382 \implies x \approx 20.9°$
 
-In the range $0° \leq x \lt 180°$Each tangent value gives one solution (since $\tan$ is positive in
+In the range $0° \leq x \lt 180°$ Each tangent value gives one solution (since $\tan$ is positive in
 both Q1 and Q3):
 
 $x \approx 69.1°$ or $x \approx 20.9°$.
@@ -642,7 +642,7 @@ flowchart TD
 
 ## Common Pitfalls
 
-1. **Missing solutions in trigonometric equations.** When solving $\cos x \cdot f(x) = 0$You must
+1. **Missing solutions in trigonometric equations.** When solving $\cos x \cdot f(x) = 0$ You must
    consider both $\cos x = 0$ AND $f(x) = 0$. Dividing by $\cos x$ or $\sin x$ loses solutions.
    Always factorise first.
 
@@ -702,7 +702,7 @@ So $\angle B \approx 44.8°$.
 $\text{Area} = \dfrac{1}{2} \times 8 \times 6 \times \sin 65.2° \approx 24 \times 0.9075 \approx 21.8$
 cm$^2$.
 
-(c) $\text{Area} = \dfrac{1}{2} \times AB \times h$Where $AB = c$.
+(c) $\text{Area} = \dfrac{1}{2} \times AB \times h$ Where $AB = c$.
 
 By the sine rule:
 $c = \dfrac{8\sin 65.2°}{\sin 44.8°} \approx \dfrac{8 \times 0.9075}{0.7048} \approx 10.3$ cm.

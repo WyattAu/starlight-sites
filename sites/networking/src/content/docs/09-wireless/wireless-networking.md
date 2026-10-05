@@ -342,7 +342,7 @@ Minute.
 
 ### WPA (Wi-Fi Protected Access) -- Obsolete
 
-WPA was an interim solution designed to address WEP"s weaknesses before 802.11i was finalized.
+WPA was an interim solution designed to address WEP's weaknesses before 802.11i was finalized.
 
 - **Encryption:** TKIP (Temporal Key Integrity Protocol) -- still uses RC4, but adds a per-packet
   key mixing function, a 48-bit IV, and a cryptographic MIC (Michael).

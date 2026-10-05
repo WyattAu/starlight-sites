@@ -120,7 +120,7 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 - **Meristems (plants)**: stem cells found in the tips of roots and shoots; can differentiate into
   any plant cell type
 - **Therapeutic uses**: treating leukaemia (bone marrow transplants), potential for treating spinal
-  injuries, Parkinson"s disease, diabetes
+  injuries, Parkinson's disease, diabetes
 - **Ethical issues**: embryonic stem cell research involves the destruction of embryos; some people
   object on religious or ethical grounds
 - Plant stem cells are used in agriculture: cloning plants from cuttings, tissue culture

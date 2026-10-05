@@ -19,11 +19,11 @@ description: "To prove : assume Derive by a chain of logical deductions. Compreh
 
 ### 3.1 Direct Proof
 
-To prove $P \implies Q$: assume $P$Derive $Q$ by a chain of logical deductions.
+To prove $P \implies Q$: assume $P$ Derive $Q$ by a chain of logical deductions.
 
 **Example.** Prove: if $n$ is odd, then $n^2$ is odd.
 
-_Proof._ Let $n = 2k + 1$. Then $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$Which is odd.
+_Proof._ Let $n = 2k + 1$. Then $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$ Which is odd.
 $\blacksquare$
 
 **Worked Example.** Prove: the sum of any two rational numbers is rational.
@@ -37,7 +37,7 @@ $$
 a + b = \frac{p}{q} + \frac{r}{s} = \frac{ps + rq}{qs}
 $$
 
-Since $ps + rq \in \mathbb{Z}$ and $qs \in \mathbb{Z} \setminus \\{0\\}$The sum $a + b$
+Since $ps + rq \in \mathbb{Z}$ and $qs \in \mathbb{Z} \setminus \\{0\\}$ The sum $a + b$
 is rational. $\blacksquare$
 
 </details>
@@ -57,7 +57,7 @@ _Proof._ Contrapositive: if $n$ is odd, then $n^2$ is odd. This was proved above
 
 Contrapositive: if $n$ is even, then $3n + 2$ is even.
 
-Let $n = 2k$. Then $3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)$Which is even. $\blacksquare$
+Let $n = 2k$. Then $3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1)$ Which is even. $\blacksquare$
 
 </details>
 
@@ -79,7 +79,7 @@ Contradiction. $\blacksquare$
 
 Suppose $\sqrt{2} = p/q$ in lowest terms, with $p, q \in \mathbb{Z}^+$ and $\gcd(p, q) = 1$.
 Then $2q^2 = p^2$ So $p^2$ is even, hence $p$ is even. Write $p = 2r$. Then $2q^2 = 4r^2$ So
-$q^2 = 2r^2$Hence $q$ is even. But then both $p$ and $q$ are even, Contradicting $\gcd(p, q) = 1$.
+$q^2 = 2r^2$ Hence $q$ is even. But then both $p$ and $q$ are even, Contradicting $\gcd(p, q) = 1$.
 $\blacksquare$
 
 </details>
@@ -165,7 +165,7 @@ $m \in S$. Therefore $S = \emptyset$ and $P(n)$ holds for all $n \geq 0$.
 
 _Proof (induction implies WOP)._ Let $S \subseteq \mathbb{N}$ be nonempty. We prove by
 induction that If $S \cap \\{0, 1, \ldots, n\\} \neq \emptyset$ Then $S$ has a least element. For
-$n = 0$, $S$ Contains $0$Which is the least element. Assume the claim for $n = k$. If
+$n = 0$, $S$ Contains $0$ Which is the least element. Assume the claim for $n = k$. If
 $0 \in S \cap \\{0, \ldots, k+1\\}$ Then $0$ is the least element. Otherwise
 $S \cap \\{0, \ldots, k+1\\} = S \cap \\{1, \ldots, k+1\\}$ And by The induction hypothesis applied
 to the shifted set, a least element exists. $\blacksquare$

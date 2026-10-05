@@ -63,7 +63,7 @@ Absorption, $\mathrm{CO}_2$ uptake, and water exchange.
 
 **Location:** Thylakoid membranes of the chloroplast.
 
-**Requirements:** Light energy, water ($\mathrm{H}_2\mathrm{O}$), $\mathrm{NADP}^+$ADP, inorganic
+**Requirements:** Light energy, water ($\mathrm{H}_2\mathrm{O}$), $\mathrm{NADP}^+$ ADP, inorganic
 Phosphate ($\mathrm{P}_i$).
 
 **Products:** ATP, NADPH, $\mathrm{O}_2$ (waste product).
@@ -109,7 +109,7 @@ $$
 
 **Location:** Stroma of the chloroplast.
 
-**Requirements:** $\mathrm{CO}_2$ATP, NADPH (produced by the light-dependent reactions).
+**Requirements:** $\mathrm{CO}_2$ ATP, NADPH (produced by the light-dependent reactions).
 
 **Products:** Triose phosphate (G3P, a 3-carbon sugar), which is used to make glucose and other
 Organic compounds.
@@ -239,7 +239,7 @@ Guard cells control stomatal aperture by changing their turgor (internal water p
 
 During the day, photosynthesis is occurring and $\mathrm{CO}_2$ is being consumed. The concentration
 Of $\mathrm{CO}_2$ inside the leaf is lower than in the atmosphere, so $\mathrm{CO}_2$ diffuses in
-Through the stomata. $\mathrm{O}_2$Produced as a by-product of photolysis, diffuses out through The
+Through the stomata. $\mathrm{O}_2$ Produced as a by-product of photolysis, diffuses out through The
 stomata.
 
 $$
@@ -1455,14 +1455,14 @@ control mechanism involves phytochrome:
 2. In darkness, $\mathrm{Pfr}$ slowly reverts to $\mathrm{Pr}$ (this is a time-dependent process).
 3. In short-day plants, $\mathrm{Pfr}$ INHIBITS flowering. For flowering to occur, the
    $\mathrm{Pfr}$ concentration must drop below a threshold.
-4. Long nights allow sufficient time for $\mathrm{Pfr}$ to revert to $\mathrm{Pr}$Dropping below the
+4. Long nights allow sufficient time for $\mathrm{Pfr}$ to revert to $\mathrm{Pr}$ Dropping below the
    threshold and triggering flowering.
 5. Short nights do not allow enough $\mathrm{Pfr}$ to revert; the $\mathrm{Pfr}$ level remains above
    the threshold, and flowering is inhibited.
 
 The dark period is more important because the conversion of $\mathrm{Pfr}$ to $\mathrm{Pr}$ is a
 time-dependent process that only occurs in darkness. A brief flash of red light during the dark
-period converts $\mathrm{Pr}$ back to $\mathrm{Pfr}$Resetting the "clock" and preventing flowering
+period converts $\mathrm{Pr}$ back to $\mathrm{Pfr}$ Resetting the "clock" and preventing flowering
 in short-day plants. This is why short-day plants are really "long-night plants" -- it is the
 uninterrupted DARK period that matters.
 
@@ -1592,7 +1592,7 @@ crop yield and quality.
    pathogens (Bacillus thuringiensis) to control pest populations
 3. **Integrated pest management (IPM):** Combining biological, chemical, and cultural methods to
    control pests while minimising environmental damage and pesticide resistance
-4. **Greenhouse/glasshouse cultivation:** Controlling temperature, light, $\mathrm{CO}_2$Water, and
+4. **Greenhouse/glasshouse cultivation:** Controlling temperature, light, $\mathrm{CO}_2$ Water, and
    nutrients to optimise growth; allows year-round production in any climate; reduces water use
    through drip irrigation
 5. **Hydroponics:** Growing plants without soil in a nutrient solution; precise control over mineral

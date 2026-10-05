@@ -59,7 +59,7 @@ Over 20000 fringes are visible, a large number, but far fewer than for a laser.
 The **van Cittert-Zernike theorem** states that the spatial coherence of light from an extended
 Incoherent source is given by the Fourier transform of the source intensity distribution.
 
-For a circular source of angular diameter $\theta_s$The transverse coherence length is:
+For a circular source of angular diameter $\theta_s$ The transverse coherence length is:
 
 $$
 l_c \approx \frac{1.22\lambda}{\theta_s}

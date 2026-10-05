@@ -998,7 +998,7 @@ Confidentiality, integrity, authentication, and non-repudiation.
 | Key exchange             | Secure shared secret establishment | Diffie-Hellman, ECDH   |
 | Random number generation | Key material, nonces, salts        | `/dev/urandom`CSPRNG   |
 
-### Kerckhoffs"s Principle
+### Kerckhoffs's Principle
 
 A cryptosystem should be secure even if everything about the system, except the key, is public
 Knowledge. This means:
@@ -1116,7 +1116,7 @@ GCM properties:
 
 :::caution
 Authentication tag can be forged and confidentiality of both messages is compromised. Use a 96-bit
-Random nonce (the probability of collision with $2^{32}$ messages is approximately $2^{-32}$Which Is
+Random nonce (the probability of collision with $2^{32}$ messages is approximately $2^{-32}$ Which Is
 acceptable) or a deterministic nonce construction (NIST SP 800-38D).
 
 ### ChaCha20-Poly1305
@@ -1225,8 +1225,8 @@ Transmitting the secret itself.
 #### Finite Field Diffie-Hellman (FFDHE)
 
 1. Alice and Bob agree on a prime $p$ and generator $g$ (public parameters)
-2. Alice generates private key $a$Sends $A = g^a \mod p$
-3. Bob generates private key $b$Sends $B = g^b \mod p$
+2. Alice generates private key $a$ Sends $A = g^a \mod p$
+3. Bob generates private key $b$ Sends $B = g^b \mod p$
 4. Alice computes $s = B^a \mod p$
 5. Bob computes $s = A^b \mod p$
 6. Both arrive at the same shared secret $s = g^{ab} \mod p$
@@ -1263,9 +1263,9 @@ Secure.
 A cryptographic hash function maps arbitrary-length input to a fixed-length output with the
 Following properties:
 
-1. **Preimage resistance**: Given hash $h$It is infeasible to find $m$ such that
+1. **Preimage resistance**: Given hash $h$ It is infeasible to find $m$ such that
    $\mathrm{Hash(m) = h$
-2. **Second preimage resistance**: Given $m_1$It is infeasible to find $m_2 \neq m_1$ such that
+2. **Second preimage resistance**: Given $m_1$ It is infeasible to find $m_2 \neq m_1$ such that
    $\mathrm{Hash(m_1) = \mathrm{Hash(m_2)$
 3. **Collision resistance**: It is infeasible to find any pair $m_1 \neq m_2$ such that
    $\mathrm{Hash(m_1) = \mathrm{Hash(m_2)$
@@ -1389,7 +1389,7 @@ $$
 \mathrm{HMAC(K, m) = H\Big((K' \oplus \mathrm{opad) \;\|\; H\big((K' \oplus \mathrm{ipad) \;\|\; m\big)\Big)
 $$
 
-Where $K'$ is the key padded to the block size, $\mathrm{opad = \mathrm{0x5c...$And
+Where $K'$ is the key padded to the block size, $\mathrm{opad = \mathrm{0x5c...$ And
 $\mathrm{ipad = \mathrm{0x36...$.
 
 ```python
@@ -10725,7 +10725,7 @@ With `umask 027`:
 #### SUID, SGID, and Sticky Bit
 
 **SUID (Set User ID):** When set on an executable file, the process runs with the permissions of the
-File"s owner, not the user who executed it. This is how `passwd` can modify `/etc/shadow` -- the
+File's owner, not the user who executed it. This is how `passwd` can modify `/etc/shadow` -- the
 `passwd` binary has SUID root.
 
 ```bash
@@ -11725,7 +11725,7 @@ This rule audits the `open` and `openat` system calls on 64-bit systems when the
 Under `/etc` and the triggering user has a UID of 1000 or higher (regular users, not system
 Accounts). The key `etc_access` allows filtering audit logs for this specific rule.
 
-`auid!=4294967295` excludes the "unset" login UID (4294967295 = $2^{32} - 1$Which is the value of
+`auid!=4294967295` excludes the "unset" login UID (4294967295 = $2^{32} - 1$ Which is the value of
 `-1` as an unsigned 32-bit integer). When a process is started by the system (not through a user
 Login), its audit UID is unset. Excluding this prevents the rule from triggering for system
 Processes that happen to access files in `/etc`Reducing noise in the audit logs.

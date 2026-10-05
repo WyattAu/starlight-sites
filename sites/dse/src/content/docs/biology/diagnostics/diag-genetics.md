@@ -254,7 +254,7 @@ allele ($X^{c}$) to express the condition, since there is no second X chromosome
 dominant allele to mask it.
 
 Females have **two X chromosomes** ($XX$). A female must have **two copies** of the recessive allele
-($X^{c}X^{c}$) to express the condition. A female with one copy ($X^{C}X^{c}$) is a carrier with
+($X^{c}X^{c}$) to express the condition. A female with one copy ($ X^{C}X^{c}$) is a carrier with
 normal vision. Therefore, the condition is much less likely to be expressed in females.
 
 (c) **Dihbrid cross**: $BbSs \times BbSs$
@@ -506,7 +506,7 @@ dominant allele ($D$) on an autosome. The pedigree is described below:
 - Generation I: Father (affected, $Dd$) and Mother (unaffected, $dd$)
 - Generation II: Two children -- Daughter 1 (affected) and Son 1 (unaffected)
 
-(a) Explain why the father's genotype must be $Dd$ and not $DD$Given that the disorder is rare. [2
+(a) Explain why the father's genotype must be $Dd$ and not $DD$ Given that the disorder is rare. [2
 marks]
 
 (b) Calculate the probability that Daughter 1's first child (with an unaffected partner, $dd$) will
@@ -530,7 +530,7 @@ marks]
 **Worked Solution**
 
 (a) The disorder is **rare**, meaning the recessive allele ($d$) is much more common in the
-population than the dominant allele ($D$). If the father were $DD$Both of his parents would need to
+population than the dominant allele ($D$). If the father were $DD$ Both of his parents would need to
 carry or have the $D$ allele. Since the disorder is rare, it is far more likely that the father is
 **heterozygous ($Dd$)**, having inherited the $D$ allele from one parent (who may have been
 affected) and the $d$ allele from the other (unaffected parent). This is confirmed by the fact that

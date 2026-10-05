@@ -22,7 +22,7 @@ categories:
 
 ## The Mole Concept (CED Unit 1)
 
-### Avogadro"s Number
+### Avogadro's Number
 
 $$
 N_A = 6.022 \times 10^{23} \mathrm{ particles/mol
@@ -230,7 +230,7 @@ $$
 \mathrm{mass N = 0.00246 \times 14.01 = 0.0345 \mathrm{ g
 $$
 
-Total mass accounted for: $0.1204 + 0.02014 + 0.0345 = 0.1750 \mathrm{ g$Which matches the sample
+Total mass accounted for: $0.1204 + 0.02014 + 0.0345 = 0.1750 \mathrm{ g$ Which matches the sample
 Mass within rounding.
 
 Ratio: $0.01002 : 0.01998 : 0.00246 = 4.07 : 8.12 : 1 \approx 4 : 8 : 1$.
@@ -421,7 +421,7 @@ The concentration of sulfate.
 
 A $0.500 \mathrm{ g$ sample of an iron ore is dissolved and the iron is precipitated as
 $\mathrm{Fe_2\mathrm{O_3$ by heating. If the mass of $\mathrm{Fe_2\mathrm{O_3$ obtained is
-$0.350 \mathrm{ g$Calculate the percentage of iron in the ore.
+$0.350 \mathrm{ g$ Calculate the percentage of iron in the ore.
 
 $$
 \mathrm{mol Fe_2\mathrm{O_3 = \frac{0.350}{159.69} = 0.00219 \mathrm{ mol
@@ -443,7 +443,7 @@ $$
 
 A $2.00 \mathrm{ g$ sample of impure limestone ($\mathrm{CaCO_3$) is reacted with $50.0 \mathrm{ mL$
 of $1.00 \mathrm{ M  \mathrm{HCl$ (excess). The remaining acid is titrated With
-$0.500 \mathrm{ M  \mathrm{NaOH$Requiring $32.0 \mathrm{ mL$. Calculate the percentage Purity of
+$0.500 \mathrm{ M  \mathrm{NaOH$ Requiring $32.0 \mathrm{ mL$. Calculate the percentage Purity of
 $\mathrm{CaCO_3$.
 
 $$
@@ -501,7 +501,7 @@ P_{\mathrm{total} = P_1 + P_2 + \cdots + P_n
 $$
 
 The partial pressure of a gas is the pressure it would exert if it alone occupied the entire volume.
-For an ideal gas: $P_i = \chi_i \cdot P_{\mathrm{total}$Where $\chi_i$ is the mole fraction.
+For an ideal gas: $P_i = \chi_i \cdot P_{\mathrm{total}$ Where $\chi_i$ is the mole fraction.
 
 ### STP
 
@@ -539,7 +539,7 @@ Or using molar volume at STP: $V = 0.0612 \times 22.4 = 1.37 \mathrm{ L$.
 ### Derivation: The Ideal Gas Law from Empirical Laws
 
 Boyle's law: $PV = k_1$ (at constant $T$$n$). Charles's law: $V/T = k_2$ (at constant $P$$n$).
-Avogadro's law: $V/n = k_3$ (at constant $P$$T$). Combining all three: $PV/(nT) = k = R$Giving
+Avogadro's law: $V/n = k_3$ (at constant $P$$T$). Combining all three: $PV/(nT) = k = R$ Giving
 $PV = nRT$.
 
 ### Derivation: Molar Volume at STP
@@ -738,7 +738,7 @@ flowchart TD
     mass, leaving $2.45 \mathrm{ g$ of anhydrous $\mathrm{MgSO_4$. Determine the formula of the
     hydrate.
 
-18. At $25^\circ\mathrm{C$ and $1.00 \mathrm{ atm$What is the density of $\mathrm{O_2$ gas in g/L?
+18. At $25^\circ\mathrm{C$ and $1.00 \mathrm{ atm$ What is the density of $\mathrm{O_2$ gas in g/L?
 
 19. Balance the following redox equation in acidic solution:
     $\mathrm{MnO_4^- + \mathrm{Fe^{2+} \to \mathrm{Mn^{2+} + \mathrm{Fe^{3+}$.
@@ -746,7 +746,7 @@ flowchart TD
 20. A $0.500 \mathrm{ g$ sample of a compound containing only C, H, and O is burned in excess
     oxygen, producing $1.10 \mathrm{ g$ of $\mathrm{CO_2$ and $0.450 \mathrm{ g$ of
     $\mathrm{H_2\mathrm{O$. Find the empirical formula. If the molecular mass is approximately
-    $180 \mathrm{ g/mol$Determine the molecular formula.
+    $180 \mathrm{ g/mol$ Determine the molecular formula.
 
 21. Calculate the mass of $\mathrm{AgCl$ precipitate formed when $25.0 \mathrm{ mL$ of
     $0.150 \mathrm{ M $ $\mathrm{AgNO_3$ is mixed with $15.0 \mathrm{ mL$ of
@@ -887,7 +887,7 @@ $\mathrm{H_2\mathrm{SO_4 = 0.0250 \times 0.100 = 0.00250 \mathrm{ mol$. This req
 $0.00500 \mathrm{ mol$ $\mathrm{NaOH$. Volume of
 $\mathrm{NaOH = 0.00500 / 0.200 = 25.0 \mathrm{ mL$. Total volume = $50.0 \mathrm{ mL$.
 
-The solution contains $\mathrm{Na_2\mathrm{SO_4$The salt of a strong base and a strong acid (for The
+The solution contains $\mathrm{Na_2\mathrm{SO_4$ The salt of a strong base and a strong acid (for The
 first proton). The $\mathrm{SO_4^{2-}$ is a very weak base, so the pH is approximately 7 (actually
 slightly below 7 because $\mathrm{HSO_4^-$ is a weak acid).
 

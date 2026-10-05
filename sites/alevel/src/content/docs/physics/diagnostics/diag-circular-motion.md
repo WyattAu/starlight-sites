@@ -45,7 +45,7 @@ $0.40\,\text{m}$. The bead is projected from the lowest point with speed $u$.
 
 (b) Calculate the minimum value of $u$ for the bead to reach the highest point of the circle.
 
-(c) For $u = 6.0\,\text{m}\,\text{s}^{-1}$Calculate the normal reaction from the wire at the highest
+(c) For $u = 6.0\,\text{m}\,\text{s}^{-1}$ Calculate the normal reaction from the wire at the highest
 point and at the lowest point.
 
 Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
@@ -75,7 +75,7 @@ $$u^2 = v_{\text{top}}^2 + 4gr \ge gr + 4gr = 5gr$$ $$u \ge \sqrt{5gr}$$
 (b)
 $u_{\min} = \sqrt{5gr} = \sqrt{5 \times 9.81 \times 0.40} = \sqrt{19.62} = 4.43\,\text{m}\,\text{s}^{-1}$
 
-(c) With $u = 6.0\,\text{m}\,\text{s}^{-1}$Using energy conservation:
+(c) With $u = 6.0\,\text{m}\,\text{s}^{-1}$ Using energy conservation:
 
 At the top:
 $\frac{1}{2}(0.050)(36) = \frac{1}{2}(0.050)v_{\text{top}}^2 + 0.050 \times 9.81 \times 0.80$
@@ -124,9 +124,9 @@ A particle of mass $0.50\,\text{kg}$ is attached to one end of a light inextensi
 $1.0\,\text{m}$. The other end is fixed. The particle moves in a horizontal circle of radius $r$
 with the string making a constant angle $\theta$ with the vertical.
 
-(a) Show that $\cos\theta = g/\omega^2 l$Where $\omega$ is the angular velocity.
+(a) Show that $\cos\theta = g/\omega^2 l$ Where $\omega$ is the angular velocity.
 
-(b) If the period of rotation is $1.2\,\text{s}$Calculate the angle $\theta$ and the tension in the
+(b) If the period of rotation is $1.2\,\text{s}$ Calculate the angle $\theta$ and the tension in the
 string.
 
 (c) Calculate the speed of the particle.
@@ -189,7 +189,7 @@ horizontal. A car of mass $1200\,\text{kg}$ travels around the track.
 (a) Calculate the speed at which the car can travel around the track with no tendency to slip,
 assuming no friction.
 
-(b) If the coefficient of friction between the tyres and track is $\mu = 0.40$Calculate the maximum
+(b) If the coefficient of friction between the tyres and track is $\mu = 0.40$ Calculate the maximum
 safe speed.
 
 (c) Calculate the minimum safe speed (below which the car would tend to slide down the bank).
@@ -277,7 +277,7 @@ $8.5 \times 10^6\,\text{m}$.
 (b) Calculate the total energy of the satellite and verify it is conserved between perigee and
 apogee.
 
-(c) Calculate the speed the satellite would need at perigee to escape from Earth"s gravitational
+(c) Calculate the speed the satellite would need at perigee to escape from Earth's gravitational
 field.
 
 Take
@@ -356,7 +356,7 @@ tyres and the wall is $\mu_s = 0.80$.
 
 (b) At this minimum speed, calculate the normal reaction force from the wall.
 
-(c) If the motorcyclist increases speed by $20\%$Calculate the new normal reaction and explain
+(c) If the motorcyclist increases speed by $20\%$ Calculate the new normal reaction and explain
 whether friction still prevents sliding.
 
 Take $g = 9.81\,\text{m}\,\text{s}^{-2}$.
@@ -416,7 +416,7 @@ friction). The turntable rotates with angular velocity $\omega$.
 (a) Calculate the equilibrium radius of the block (where the spring force provides the centripetal
 force) as a function of $\omega$.
 
-(b) If the turntable rotates at $\omega = 15\,\text{rad}\,\text{s}^{-1}$Calculate the extension of
+(b) If the turntable rotates at $\omega = 15\,\text{rad}\,\text{s}^{-1}$ Calculate the extension of
 the spring and the tension in it.
 
 (c) The block is displaced radially outward by $0.02\,\text{m}$ from its equilibrium position and
@@ -425,7 +425,7 @@ equilibrium position.
 
 **Solution:**
 
-(a) At equilibrium radius $r_0$The spring extension is $(r_0 - l_0)$ where $l_0 = 0.10\,\text{m}$:
+(a) At equilibrium radius $r_0$ The spring extension is $(r_0 - l_0)$ where $l_0 = 0.10\,\text{m}$:
 
 $$k(r_0 - l_0) = m\omega^2 r_0$$ $$kr_0 - kl_0 = m\omega^2 r_0$$ $$r_0(k - m\omega^2) = kl_0$$
 $$
@@ -448,10 +448,10 @@ $$
 \omega_c = \sqrt{\frac{k}{m}} = \sqrt{\frac{50}{0.30}} = 12.9\,\text{rad}\,\text{s}^{-1}
 $$
 
-At $\omega = 15\,\text{rad}\,\text{s}^{-1} \gt \omega_c$The block cannot maintain a stable circular
+At $\omega = 15\,\text{rad}\,\text{s}^{-1} \gt \omega_c$ The block cannot maintain a stable circular
 orbit. It will spiral outward.
 
-(c) For $\omega \lt \omega_c$The restoring force for a small radial displacement $\delta$ from $r_0$
+(c) For $\omega \lt \omega_c$ The restoring force for a small radial displacement $\delta$ from $r_0$
 is:
 
 $$
@@ -472,7 +472,7 @@ $$
 T = 2\pi\sqrt{\frac{0.30}{50 - 0.30 \times 100}} = 2\pi\sqrt{\frac{0.30}{20}} = 2\pi\sqrt{0.015} = 2\pi \times 0.1225 = 0.770\,\text{s}
 $$
 
-Note: as $\omega$ approaches $\omega_c$The period diverges (the oscillation becomes infinitely
+Note: as $\omega$ approaches $\omega_c$ The period diverges (the oscillation becomes infinitely
 slow), indicating the onset of instability.
 
 ## Common Mistakes

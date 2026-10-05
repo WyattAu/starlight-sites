@@ -66,9 +66,9 @@ $$
 
 <details>
 <summary>Examples</summary>
-- $3 > 1 \implies 3 + 5 > 1 + 5$I.e., $8 > 6$.
-- $4 > 2$ and $3 > 0 \implies 4 \times 3 > 2 \times 3$I.e., $12 > 6$.
-- $5 > 2$ and $-3 < 0 \implies 5 \times (-3) < 2 \times (-3)$I.e., $-15 < -6$.
+- $3 > 1 \implies 3 + 5 > 1 + 5$ I.e., $8 > 6$.
+- $4 > 2$ and $3 > 0 \implies 4 \times 3 > 2 \times 3$ I.e., $12 > 6$.
+- $5 > 2$ and $-3 < 0 \implies 5 \times (-3) < 2 \times (-3)$ I.e., $-15 < -6$.
 - $7 > 5 > 2 \implies 7 > 2$ (transitivity).
 - $3 > 2 > 0 \implies 9 > 4$ and $\dfrac{1}{3} < \dfrac{1}{2}$.
 
@@ -76,7 +76,7 @@ $$
 
 ### Solving Linear Inequalities
 
-A linear inequality has the form $ax + b > c$ or $ax + b < c$Where $a \neq 0$. The solution
+A linear inequality has the form $ax + b > c$ or $ax + b < c$ Where $a \neq 0$. The solution
 Procedure mirrors that of linear equations, with one critical exception: when multiplying or
 Dividing by a negative number, the inequality sign must be reversed.
 
@@ -130,7 +130,7 @@ The solution set is $7, \infty)$.
 
 ## Quadratic Inequalities
 
-A quadratic inequality has the form $ax^2 + bx + c > 0$, $ax^2 + bx + c < 0$Or their non-strict
+A quadratic inequality has the form $ax^2 + bx + c > 0$, $ax^2 + bx + c < 0$ Or their non-strict
 Variants, where $a \neq 0$. Solving quadratic inequalities relies on understanding the graph of the
 Corresponding [quadratic function $f(x) = ax^2 + bx + c$.
 
@@ -170,7 +170,7 @@ Intersections with the $x$-axis:
 
 Factorize: $(x-2)(x-3) > 0$.
 
-Roots are $x = 2$ and $x = 3$. Since $a = 1 > 0$The parabola opens upward.
+Roots are $x = 2$ and $x = 3$. Since $a = 1 > 0$ The parabola opens upward.
 
 Sign diagram:
 
@@ -185,7 +185,7 @@ X & (-\infty, 2) & (2, 3) & (3, \infty) \\
 \end{array}
 $$
 
-Solution: $x < 2$ or $x > 3$I.e., $(-\infty, 2) \cup (3, \infty)$.
+Solution: $x < 2$ or $x > 3$ I.e., $(-\infty, 2) \cup (3, \infty)$.
 
 - Solve $-x^2 + 4x - 3 \geq 0$:
 
@@ -193,15 +193,15 @@ Multiply both sides by $-1$ (reverse inequality): $x^2 - 4x + 3 \leq 0$.
 
 Factorize: $(x-1)(x-3) \leq 0$.
 
-Since $a = 1 > 0$The parabola opens upward. The expression is non-positive between the roots.
+Since $a = 1 > 0$ The parabola opens upward. The expression is non-positive between the roots.
 
-Solution: $1 \leq x \leq 3$I.e., $[1, 3]$.
+Solution: $1 \leq x \leq 3$ I.e., $[1, 3]$.
 
 - Solve $x^2 + 2x + 5 < 0$:
 
 Discriminant: $\Delta = 4 - 20 = -16 < 0$.
 
-Since $a = 1 > 0$ and $\Delta < 0$The parabola is always above the $x$-axis.
+Since $a = 1 > 0$ and $\Delta < 0$ The parabola is always above the $x$-axis.
 
 Solution: $\varnothing$ (no solution).
 
@@ -224,12 +224,12 @@ X & \left(-\infty, -\tfrac{1}{2}\right) & \left(-\tfrac{1}{2}, 2\right) & (2, \i
 \end{array}
 $$
 
-Solution: $x < -\dfrac{1}{2}$ or $x > 2$I.e.,
+Solution: $x < -\dfrac{1}{2}$ or $x > 2$ I.e.,
 $\left(-\infty, -\dfrac{1}{2}\right) \cup (2, \infty)$.
 
 ## Absolute Value Inequalities
 
-The absolute value of a real number $x$Denoted $|x|$Represents its distance from zero on the Number
+The absolute value of a real number $x$ Denoted $|x|$ Represents its distance from zero on the Number
 line. This geometric interpretation is the key to solving absolute value inequalities.
 
 ### Fundamental Forms
@@ -314,7 +314,7 @@ $$
 -5 < x^2 - 4 < 5 \implies -1 < x^2 < 9
 $$
 
-Since $x^2 \geq 0$ for all real $x$The left inequality $-1 < x^2$ is always satisfied.
+Since $x^2 \geq 0$ for all real $x$ The left inequality $-1 < x^2$ is always satisfied.
 
 From $x^2 < 9$: $-3 < x < 3$.
 
@@ -322,7 +322,7 @@ Solution: $(-3, 3)$.
 
 - Solve $|x + 2| \leq -1$:
 
-Since $|x + 2| \geq 0$ for all real $x$It can never be $\leq -1$.
+Since $|x + 2| \geq 0$ for all real $x$ It can never be $\leq -1$.
 
 Solution: $\varnothing$.
 
@@ -351,7 +351,7 @@ From $x^2 - 4x + 3 < 0$: $(x-1)(x-3) < 0 \implies 1 < x < 3$.
 
 From $2x - 1 > 3$: $2x > 4 \implies x > 2$.
 
-Intersection: $2 < x < 3$I.e., $(2, 3)$.
+Intersection: $2 < x < 3$ I.e., $(2, 3)$.
 
 - Find all $x$ satisfying $|x - 1| \leq 3$ and $x^2 - 9 \leq 0$:
 
@@ -359,7 +359,7 @@ From $|x - 1| \leq 3$: $-3 \leq x - 1 \leq 3 \implies -2 \leq x \leq 4$.
 
 From $x^2 - 9 \leq 0$: $(x-3)(x+3) \leq 0 \implies -3 \leq x \leq 3$.
 
-Intersection: $-2 \leq x \leq 3$I.e., $[-2, 3]$.
+Intersection: $-2 \leq x \leq 3$ I.e., $[-2, 3]$.
 
 - Find all $x$ satisfying $x^2 - 2x - 8 > 0$ and $|x + 1| < 6$:
 
@@ -367,7 +367,7 @@ From $x^2 - 2x - 8 > 0$: $(x-4)(x+2) > 0 \implies x < -2$ or $x > 4$.
 
 From $|x + 1| < 6$: $-6 < x + 1 < 6 \implies -7 < x < 5$.
 
-Intersection: $-7 < x < -2$I.e., $(-7, -2)$.
+Intersection: $-7 < x < -2$ I.e., $(-7, -2)$.
 
 (Note: the second branch $x > 4$ from the quadratic has no overlap with $x < 5$ beyond $(4, 5)$ But
 $x > 4$ and $x < 5$ gives $4 < x < 5$. The full intersection is $(-7, -2) \cup (4, 5)$.)
@@ -396,7 +396,7 @@ Intersection: $(-\infty, 3)$.
 1. **Question:** Solve the inequality $\dfrac{2x - 1}{3} \leq \dfrac{x + 2}{4} + 1$.
 ### Details
 <summary>Answer</summary>
-Multiply through by $12$ (the LCM of $3$ and $4$Which is positive so the inequality sign is preserved):
+Multiply through by $12$ (the LCM of $3$ and $4$ Which is positive so the inequality sign is preserved):
 
 $$
 4(2x - 1) \leq 3(x + 2) + 12
@@ -431,7 +431,7 @@ From $x^2 - 3x - 10 < 0$: $(x - 5)(x + 2) < 0 \implies -2 < x < 5$.
 
 From $2x + 1 > 0$: $x > -\dfrac{1}{2}$.
 
-Intersection: $-\dfrac{1}{2} < x < 5$I.e., $\left(-\dfrac{1}{2}, 5\right)$.
+Intersection: $-\dfrac{1}{2} < x < 5$ I.e., $\left(-\dfrac{1}{2}, 5\right)$.
 
 1. **Question:** Solve $|3x - 5| < 7$.
 
@@ -470,7 +470,7 @@ So $1 - \sqrt{2} \leq x \leq 1 + \sqrt{2}$.
 Combined with $x \geq -\dfrac{3}{2}$:
 $\max\!\left(1 - \sqrt{2},\; -\dfrac{3}{2}\right) \leq x \leq 1 + \sqrt{2}$.
 
-Since $1 - \sqrt{2} \approx -0.414 > -\dfrac{3}{2} = -1.5$The constraint is
+Since $1 - \sqrt{2} \approx -0.414 > -\dfrac{3}{2} = -1.5$ The constraint is
 $1 - \sqrt{2} \leq x \leq 1 + \sqrt{2}$.
 
 **Case 2:** $2x + 3 < 0$ (i.e., $x < -\dfrac{3}{2}$), so $|2x + 3| = -(2x + 3)$:
@@ -479,7 +479,7 @@ $$
 -2x - 3 \geq x^2 + 2 \implies x^2 + 2x + 5 \leq 0
 $$
 
-Discriminant: $\Delta = 4 - 20 = -16 < 0$. Since $a = 1 > 0$The expression is always positive. No
+Discriminant: $\Delta = 4 - 20 = -16 < 0$. Since $a = 1 > 0$ The expression is always positive. No
 Solution in this case.
 
 Solution: $[1 - \sqrt{2},\; 1 + \sqrt{2}]$.
@@ -501,9 +501,9 @@ $$
 
 Factorize: $(k - 3)(k + 2) > 0$.
 
-Since $a = 1 > 0$The parabola opens upward. The expression is positive outside the roots.
+Since $a = 1 > 0$ The parabola opens upward. The expression is positive outside the roots.
 
-Solution: $k < -2$ or $k > 3$I.e., $(-\infty, -2) \cup (3, \infty)$.
+Solution: $k < -2$ or $k > 3$ I.e., $(-\infty, -2) \cup (3, \infty)$.
 
 1. **Question:** Solve the system of inequalities $x^2 - 5x + 4 \leq 0$, $|x - 2| \leq 3$ And
 $x > 0$.
@@ -692,7 +692,7 @@ Solve $|x^2 - 4x + 3| < 3x - 5$.
 
 The RHS must be positive: $3x - 5 > 0 \implies x > \dfrac{5}{3}$.
 
-Case 1: $x^2 - 4x + 3 \geq 0$I.e., $(x-1)(x-3) \geq 0 \implies x \leq 1$ or $x \geq 3$.
+Case 1: $x^2 - 4x + 3 \geq 0$ I.e., $(x-1)(x-3) \geq 0 \implies x \leq 1$ or $x \geq 3$.
 
 Combined with $x > \dfrac{5}{3}$: $x \geq 3$.
 
@@ -704,7 +704,7 @@ $\dfrac{7 - \sqrt{17}}{2} \approx 1.44$ and $\dfrac{7 + \sqrt{17}}{2} \approx 5.
 
 Intersection with $x \geq 3$: $3 \leq x < \dfrac{7 + \sqrt{17}}{2}$.
 
-Case 2: $x^2 - 4x + 3 < 0$I.e., $1 < x < 3$.
+Case 2: $x^2 - 4x + 3 < 0$ I.e., $1 < x < 3$.
 
 Combined with $x > \dfrac{5}{3}$: $\dfrac{5}{3} < x < 3$.
 
@@ -726,10 +726,10 @@ Find the range of $m$ such that $mx^2 + (m - 1)x + m > 0$ for all real $x$.
 <details>
 <summary>Solution</summary>
 
-Case 1: $m = 0$. The inequality becomes $-x > 0 \implies x < 0$Which is not true for all real $x$.
+Case 1: $m = 0$. The inequality becomes $-x > 0 \implies x < 0$ Which is not true for all real $x$.
 Reject.
 
-Case 2: $m \neq 0$. For $mx^2 + (m-1)x + m > 0$ for all real $x$We need $m > 0$ and $\Delta < 0$:
+Case 2: $m \neq 0$. For $mx^2 + (m-1)x + m > 0$ for all real $x$ We need $m > 0$ and $\Delta < 0$:
 
 $$
 \Delta = (m - 1)^2 - 4m^2 = m^2 - 2m + 1 - 4m^2 = -3m^2 - 2m + 1 < 0
@@ -835,11 +835,11 @@ Solution: $x < \dfrac{2}{3}$ or $x > 4$.
 
 Let $t = |x| \geq 0$: $t^2 - 2t - 8 < 0 \implies (t - 4)(t + 2) < 0 \implies -2 < t < 4$.
 
-Since $t \geq 0$: $0 \leq t < 4$I.e., $|x| < 4 \implies -4 < x < 4$.
+Since $t \geq 0$: $0 \leq t < 4$ I.e., $|x| < 4 \implies -4 < x < 4$.
 
 </details>
 
-**DSE Practice 5.** Given that $x^2 + 2(k + 1)x + 9 > 0$ for all real $x$Find the range of $k$.
+**DSE Practice 5.** Given that $x^2 + 2(k + 1)x + 9 > 0$ for all real $x$ Find the range of $k$.
 
 <details>
 <summary>Solution</summary>
@@ -862,7 +862,7 @@ For $x \neq -2$.
 
 $\dfrac{x - 3}{x - 2} \leq 0$: $2 < x \leq 3$.
 
-But $x \neq -2$Which is not in $[2, 3]$ anyway.
+But $x \neq -2$ Which is not in $[2, 3]$ anyway.
 
 Solution: $(2, 3]$.
 

@@ -489,7 +489,7 @@ volume was 2.00 m³?
 
 **Solution:**
 
-Using Boyle"s Law ($P_1 V_1 = P_2 V_2$):
+Using Boyle's Law ($P_1 V_1 = P_2 V_2$):
 
 $$
 V_2 = \frac{P_1 V_1}{P_2} = \frac{101.3 \times 2.00}{50.7} = 4.00 \text{ m}^3

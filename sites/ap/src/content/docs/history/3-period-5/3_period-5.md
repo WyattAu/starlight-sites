@@ -35,7 +35,7 @@ sectional conflict over the expansion of slavery.
 - **Oregon Boundary Dispute**: Settled by treaty in 1846, establishing the 49th parallel as the
   boundary between the US and British North America
 - **Mexican-American War (1846-1848)**: Sparked by disputes over the Texas-Mexico border after
-  annexation; "Spot Resolutions" by Abraham Lincoln challenged Polk"s justification; US forces
+  annexation; "Spot Resolutions" by Abraham Lincoln challenged Polk's justification; US forces
   captured Mexico City
 - **Treaty of Guadalupe Hidalgo (1848)**: Mexico ceded California, New Mexico, Arizona, Nevada,
   Utah, and parts of Colorado and Wyoming to the US for $15 million; Rio Grande established as the

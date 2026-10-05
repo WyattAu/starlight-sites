@@ -26,7 +26,7 @@ categories:
 
 We define the following cost concepts for a firm producing quantity $Q$:
 
-- **Total cost (TC)**: $TC(Q) = TFC + TVC(Q)$Where TFC = total fixed cost, TVC = total variable cost
+- **Total cost (TC)**: $TC(Q) = TFC + TVC(Q)$ Where TFC = total fixed cost, TVC = total variable cost
 - **Average total cost (ATC)**: $ATC = \frac{TC}{Q} = AFC + AVC$
 - **Average fixed cost (AFC)**: $AFC = \frac{TFC}{Q}$
 - **Average variable cost (AVC)**: $AVC = \frac{TVC}{Q}$
@@ -270,7 +270,7 @@ Group with lower $|\mathrm{PED}|$ pays higher price.
 
 <details>
 <summary>Example: Third-Degree Price Discrimination</summary>
-A cinema charges £12 for adults and £6 for students. Adult demand: $P_A = 20 - Q_A$Student demand:
+A cinema charges £12 for adults and £6 for students. Adult demand: $P_A = 20 - Q_A$ Student demand:
 $P_S = 14 - Q_S$, $MC = 2$.
 
 Adult MR: $MR_A = 20 - 2Q_A$. Set $MR_A = MC$: $20 - 2Q_A = 2 \Rightarrow Q_A = 9$, $P_A = 11$.
@@ -436,7 +436,7 @@ The static prisoner's dilemma predicts that collusion always fails. However, in 
 Oligopolists interact repeatedly over many years. In an infinitely repeated game (or one with an
 Uncertain end date), the **threat of future punishment** can sustain cooperation.
 
-Consider the discount factor $\delta \in (0, 1)$Which represents how much firms value future Profits
+Consider the discount factor $\delta \in (0, 1)$ Which represents how much firms value future Profits
 relative to current profits. If both firms play **tit-for-tat** (cooperate in the first Round, then
 copy the opponent's previous action), collusion is sustainable if:
 
@@ -700,7 +700,7 @@ $TC = 100 + 10Q + Q^2$. Find the long-run equilibrium price, quantity, and the e
 
 <details>
 <summary>Hint</summary>
-SR: $MR = 40 - 2Q = MC = 10 + 2Q \Rightarrow 3Q = 30 \Rightarrow Q = 10$$P = 30$. Profit $= 300 - (100 + 100 + 100) = 0$ (already in LR equilibrium). $AC_{min}$: $AC = 100/Q + 10 + Q$. $AC' = -100/Q^2 + 1 = 0 \Rightarrow Q_{MES} = 10$. Since $Q = Q_{MES}$There is no excess capacity in this specific case. For excess capacity to arise, the demand curve must be tangent to AC at a point where $Q < Q_{MES}$.
+SR: $MR = 40 - 2Q = MC = 10 + 2Q \Rightarrow 3Q = 30 \Rightarrow Q = 10$$P = 30$. Profit $= 300 - (100 + 100 + 100) = 0$ (already in LR equilibrium). $AC_{min}$: $AC = 100/Q + 10 + Q$. $AC' = -100/Q^2 + 1 = 0 \Rightarrow Q_{MES} = 10$. Since $Q = Q_{MES}$ There is no excess capacity in this specific case. For excess capacity to arise, the demand curve must be tangent to AC at a point where $Q < Q_{MES}$.
 </details>
 
 **Problem 6.** Two duopolists, Firm A and Firm B, face market demand $P = 100 - Q_A - Q_B$. Both
@@ -709,7 +709,7 @@ Given), find the Nash equilibrium outputs, price, and profit for each firm.
 
 <details>
 <summary>Hint</summary>
-Firm A's reaction function: $\pi_A = (100 - Q_A - Q_B)Q_A - 10Q_A$. FOC: $100 - 2Q_A - Q_B - 10 = 0 \Rightarrow Q_A = 45 - Q_B/2$. By symmetry: $Q_B = 45 - Q_A/2$. Solving: $Q_A = 45 - (45 - Q_A/2)/2 = 45 - 22.5 + Q_A/4 \Rightarrow 3Q_A/4 = 22.5 \Rightarrow Q_A = 30$$Q_B = 30$. $P = 40$. $\pi_A = \pi_B = 30 \times 30 = 900$. Compare with collusion: $Q = 45$$P = 55$Profit each = $55 \times 22.5 - 10 \times 22.5 = 1012.5$.
+Firm A's reaction function: $\pi_A = (100 - Q_A - Q_B)Q_A - 10Q_A$. FOC: $100 - 2Q_A - Q_B - 10 = 0 \Rightarrow Q_A = 45 - Q_B/2$. By symmetry: $Q_B = 45 - Q_A/2$. Solving: $Q_A = 45 - (45 - Q_A/2)/2 = 45 - 22.5 + Q_A/4 \Rightarrow 3Q_A/4 = 22.5 \Rightarrow Q_A = 30$$Q_B = 30$. $P = 40$. $\pi_A = \pi_B = 30 \times 30 = 900$. Compare with collusion: $Q = 45$$P = 55$ Profit each = $55 \times 22.5 - 10 \times 22.5 = 1012.5$.
 </details>
 
 **Problem 7.** A natural monopoly has total cost $TC = 200 + 20Q$ and faces demand $P = 100 - Q$.
@@ -838,7 +838,7 @@ Revenue relationships:
 - $AR = P$ (horizontal line at market price)
 - $MR = P$ (same horizontal line)
 
-Since $P = MR$Total revenue is maximised by producing as much as possible (subject to cost
+Since $P = MR$ Total revenue is maximised by producing as much as possible (subject to cost
 constraints). There is no tension between revenue and profit maximisation.
 
 **Monopoly:**
@@ -849,8 +849,8 @@ Revenue relationships with linear demand $P = a - bQ$:
 - $MR = a - 2bQ$ (steeper downward-sloping, same intercept)
 - $TR = aQ - bQ^2$ (inverted-U parabola, maximised at $Q = a/(2b)$)
 
-Key insight: TR is maximised at $MR = 0$Which gives $Q = a/(2b)$ and $P = a/2$. But profit
-maximisation requires $MR = MC$Which gives a LOWER output and HIGHER price. The profit-maximising
+Key insight: TR is maximised at $MR = 0$ Which gives $Q = a/(2b)$ and $P = a/2$. But profit
+maximisation requires $MR = MC$ Which gives a LOWER output and HIGHER price. The profit-maximising
 firm always produces less than the revenue-maximising level.
 
 **Monopolistic competition:**
@@ -1142,7 +1142,7 @@ $$
 50 \geq 100r \Rightarrow r \leq 0.5
 $$
 
-Now cooperation requires $r \leq 50\%$A stricter condition. The higher the temptation to defect, the
+Now cooperation requires $r \leq 50\%$ A stricter condition. The higher the temptation to defect, the
 more patient firms must be to sustain cooperation.
 
 **Policy implication:** Industries where firms interact frequently (stable market, few entrants) and

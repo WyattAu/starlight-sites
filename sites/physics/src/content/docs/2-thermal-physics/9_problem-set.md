@@ -126,7 +126,7 @@ $$
 N = \int_0^\infty \frac{g(\varepsilon)}{e^{\beta(\varepsilon - \mu)} + 1}\, d\varepsilon
 $$
 
-In the classical limit $e^{\beta(\varepsilon - \mu)} \gg 1$The $+1$ is negligible:
+In the classical limit $e^{\beta(\varepsilon - \mu)} \gg 1$ The $+1$ is negligible:
 
 $$
 N \approx \int_0^\infty g(\varepsilon)\, e^{-\beta(\varepsilon - \mu)}\, d\varepsilon = e^{\beta\mu} \int_0^\infty g(\varepsilon)\, e^{-\beta\varepsilon}\, d\varepsilon
@@ -136,7 +136,7 @@ $$
 e^{\beta\mu} = \frac{N}{\int_0^\infty g(\varepsilon)\, e^{-\beta\varepsilon}\, d\varepsilon} = \frac{N\lambda_{\mathrm{th}^3}{V}}
 $$
 
-The classical limit requires $e^{\beta\mu} \ll 1$I.e., $N\lambda_{\mathrm{th}^3/V \ll 1}$Or
+The classical limit requires $e^{\beta\mu} \ll 1$ I.e., $N\lambda_{\mathrm{th}^3/V \ll 1}$ Or
 equivalently, the average inter-particle spacing $(V/N)^{1/3}$ must be much larger than
 $\lambda_{\mathrm{th}}$.
 

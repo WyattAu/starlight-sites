@@ -1753,15 +1753,15 @@ Found in animals, plants, fungi, and protists. Key features:
 | Ribosomes                 | 70S              | 80S                                 |
 | Membrane-bound organelles | No               | Yes                                 |
 | Cell wall                 | Peptidoglycan    | Cellulose (plants) / chitin (fungi) |
-| Size                      | 1-10 $\mu$M      | 10-100 $\mu$M                       |
+| Size                      | 1-10 $\mu$ M      | 10-100 $\mu$ M                       |
 
 **Worked Example: Identifying cell types from electron micrographs.**
 
 A student is shown an electron micrograph of a cell. The cell has no nucleus, a cell wall,
-Ribosomes, and a flagellum. The diameter of the cell is approximately 3 $\mu$M.
+Ribosomes, and a flagellum. The diameter of the cell is approximately 3 $\mu$ M.
 
 Since the cell has no membrane-bound nucleus, it is prokaryotic. The presence of a cell wall (ruled
-Out animal cells), small size (3 $\mu$M is typical for prokaryotes), 70S ribosomes, and flagellum
+Out animal cells), small size (3 $\mu$ M is typical for prokaryotes), 70S ribosomes, and flagellum
 All confirm this. The cell wall is made of peptidoglycan, which is characteristic of bacteria (not
 Archaea, which have pseudopeptidoglycan or other cell wall compositions).
 
@@ -2009,7 +2009,7 @@ Centrifugation:
 
 **Worked Example: Calculating magnification.**
 
-A cell appears 5 mm wide in a micrograph. The actual cell width is 10 $\mu$M.
+A cell appears 5 mm wide in a micrograph. The actual cell width is 10 $\mu$ M.
 
 Magnification = image size / actual size = $5 \mathrm{ mm / 10 \mathrm{ \mu m$.
 
@@ -2984,7 +2984,7 @@ Level.
 
 **Species evenness:** How evenly individuals are distributed among species.
 
-**Simpson"s Diversity Index:**
+**Simpson's Diversity Index:**
 
 $$
 D = 1 - \sum \frac{n(n-1)}{N(N-1)}
@@ -3538,7 +3538,7 @@ Geosphere.
 
 1. **Photosynthesis:** Atmospheric $\mathrm{CO_2$ is fixed into organic compounds by plants, algae,
    and cyanobacteria. Approximately 120 gigatonnes of carbon are fixed by photosynthesis each year.
-2. **Respiration:** Organic compounds are oxidised to release $\mathrm{CO_2$Returning carbon to the
+2. **Respiration:** Organic compounds are oxidised to release $\mathrm{CO_2$ Returning carbon to the
    atmosphere. This occurs in all living organisms.
 3. **Decomposition:** Decomposers (bacteria and fungi) break down dead organic matter, releasing
    $\mathrm{CO_2$.
@@ -3683,7 +3683,7 @@ A nitrogen atom in the atmosphere as $\mathrm{N_2$ is fixed by Rhizobium bacteri
 nodules Of a clover plant, converting it to $\mathrm{NH_3$. The clover incorporates the ammonia into
 amino Acids. A rabbit eats the clover and digests the proteins, using the amino acids to make its
 own Proteins. When the rabbit dies, decomposer bacteria break down its proteins, releasing
-$\mathrm{NH_3$ Back into the soil. Nitrosomonas converts the $\mathrm{NH_3$ to $\mathrm{NO_2^-$And
+$\mathrm{NH_3$ Back into the soil. Nitrosomonas converts the $\mathrm{NH_3$ to $\mathrm{NO_2^-$ And
 Nitrobacter Converts $\mathrm{NO_2^-$ to $\mathrm{NO_3^-$. A grass plant absorbs the nitrate through
 its roots.
 
@@ -3946,7 +3946,7 @@ Degrees of freedom: $2 - 1 = 1$.
 
 Critical value at 5% for 1 df: 3.841.
 
-Since $0.48 \lt 3.841$The results are consistent with a 3:1 ratio. The difference is not
+Since $0.48 \lt 3.841$ The results are consistent with a 3:1 ratio. The difference is not
 Statistically significant.
 
 **Worked Example: Chi-squared for a dihybrid cross.**
@@ -3969,7 +3969,7 @@ $$
 
 Degrees of freedom: $4 - 1 = 3$. Critical value at 5% for 3 df: 7.815.
 
-Since $13.38 \gt 7.815$The observed results differ significantly from the expected 9:3:3:1 ratio.
+Since $13.38 \gt 7.815$ The observed results differ significantly from the expected 9:3:3:1 ratio.
 The null hypothesis is rejected.
 
 ---
@@ -4170,7 +4170,7 @@ See the examples integrated throughout the sections above.
 
 2. Explain how the lac operon allows E. Coli to regulate lactose metabolism.
 
-3. In a dihybrid cross between $\mathrm{RrYy \times \mathrm{rryy$Determine the expected phenotype
+3. In a dihybrid cross between $\mathrm{RrYy \times \mathrm{rryy$ Determine the expected phenotype
    ratio and the probability of an offspring with the genotype $\mathrm{RrYy$.
 
 4. A population has 9% of individuals showing a recessive genetic disorder. Calculate the frequency
@@ -5335,7 +5335,7 @@ $$
 
 An enzyme has the following rates at different substrate concentrations:
 
-| [S] (mM) | v ($\mu$Mol/min) |
+| [S] (mM) | v ($\mu$ Mol/min) |
 | -------- | ---------------- |
 | 1        | 1.67             |
 | 2        | 2.86             |
@@ -5345,11 +5345,11 @@ An enzyme has the following rates at different substrate concentrations:
 | 50       | 7.69             |
 | 100      | 8.00             |
 
-At very high [S], $v$ approaches $V_{\max} \approx 8$ $\mu$Mol/min.
+At very high [S], $v$ approaches $V_{\max} \approx 8$ $\mu$ Mol/min.
 
 At $v = V_{\max}/2 = 4$, $[S] = K_m \approx 5$ mM.
 
-So $K_m = 5$ mM and $V_{\max} = 8$ $\mu$Mol/min.
+So $K_m = 5$ mM and $V_{\max} = 8$ $\mu$ Mol/min.
 
 ### Cellular Respiration
 
@@ -5469,7 +5469,7 @@ The skin and in the hypothalamus itself.
 
 **Nephron structure:**
 
-- **Bowman"s capsule:** Filtration of blood; forms glomerular filtrate
+- **Bowman's capsule:** Filtration of blood; forms glomerular filtrate
 - **Proximal convoluted tubule:** Selective reabsorption of all glucose, amino acids, and some water
   and ions
 - **Loop of Henle:** Countercurrent multiplier; creates a concentration gradient in the medulla for
@@ -5620,7 +5620,7 @@ A person drinks 2 litres of water. What happens to their blood osmolarity and AD
 15. Explain why fever can be beneficial during an infection, with reference to enzyme activity.
 
 16. Calculate the $K_m$ and $V_{\max}$ of an enzyme from the following data: [S] = 2 mM, v = 3.33
-    $\mu$Mol/min; [S] = 10 mM, v = 6.67 $\mu$Mol/min; [S] = 50 mM, v = 8.33 $\mu$Mol/min.
+    $\mu$ Mol/min; [S] = 10 mM, v = 6.67 $\mu$ Mol/min; [S] = 50 mM, v = 8.33 $\mu$ Mol/min.
 
 17. Explain how the countercurrent multiplier in the loop of Henle creates a concentration gradient
     in the kidney medulla.
@@ -5847,38 +5847,38 @@ Temperature.
 
 **Worked Example: Effect of a competitive inhibitor.**
 
-An enzyme has $K_m = 5$ mM and $V_{\max} = 10$ $\mu$Mol/min. A competitive inhibitor is added at a
+An enzyme has $K_m = 5$ mM and $V_{\max} = 10$ $\mu$ Mol/min. A competitive inhibitor is added at a
 Concentration that doubles the apparent $K_m$.
 
-With inhibitor: apparent $K_m = 10$ mM, $V_{\max}$ unchanged at 10 $\mu$Mol/min.
+With inhibitor: apparent $K_m = 10$ mM, $V_{\max}$ unchanged at 10 $\mu$ Mol/min.
 
 At $[S] = 5$ mM (original $K_m$):
 
-- Without inhibitor: $v = (10 \times 5) / (5 + 5) = 5$ $\mu$Mol/min (50% of $V_{\max}$).
-- With inhibitor: $v = (10 \times 5) / (10 + 5) = 3.33$ $\mu$Mol/min (33.3% of $V_{\max}$).
+- Without inhibitor: $v = (10 \times 5) / (5 + 5) = 5$ $\mu$ Mol/min (50% of $V_{\max}$).
+- With inhibitor: $v = (10 \times 5) / (10 + 5) = 3.33$ $\mu$ Mol/min (33.3% of $V_{\max}$).
 
 At very high $[S]$ (e.g., 100 mM):
 
-- Without inhibitor: $v \approx 10$ $\mu$Mol/min.
-- With inhibitor: $v \approx 10$ $\mu$Mol/min.
+- Without inhibitor: $v \approx 10$ $\mu$ Mol/min.
+- With inhibitor: $v \approx 10$ $\mu$ Mol/min.
 
 The competitive inhibitor reduces the rate at low $[S]$ but has no effect at very high $[S]$ Because
 the substrate outcompetes the inhibitor.
 
 **Worked Example: Effect of a non-competitive inhibitor.**
 
-The same enzyme with $K_m = 5$ mM and $V_{\max} = 10$ $\mu$Mol/min. A non-competitive inhibitor
-Reduces $V_{\max}$ to 6 $\mu$Mol/min but does not change $K_m$.
+The same enzyme with $K_m = 5$ mM and $V_{\max} = 10$ $\mu$ Mol/min. A non-competitive inhibitor
+Reduces $V_{\max}$ to 6 $\mu$ Mol/min but does not change $K_m$.
 
 At $[S] = 5$ mM:
 
-- Without inhibitor: $v = 5$ $\mu$Mol/min.
-- With inhibitor: $v = (6 \times 5) / (5 + 5) = 3$ $\mu$Mol/min.
+- Without inhibitor: $v = 5$ $\mu$ Mol/min.
+- With inhibitor: $v = (6 \times 5) / (5 + 5) = 3$ $\mu$ Mol/min.
 
 At very high $[S]$ (e.g., 100 mM):
 
-- Without inhibitor: $v \approx 10$ $\mu$Mol/min.
-- With inhibitor: $v \approx 6$ $\mu$Mol/min.
+- Without inhibitor: $v \approx 10$ $\mu$ Mol/min.
+- With inhibitor: $v \approx 6$ $\mu$ Mol/min.
 
 Unlike the competitive inhibitor, the non-competitive inhibitor reduces the maximum rate even at
 Very high substrate concentrations, because it reduces the number of functional enzyme molecules
@@ -5890,7 +5890,7 @@ Regardless of substrate concentration.
 PEP carboxylase in mesophyll cells to form oxaloacetate (4C), which is converted to malate. Malate
 Is transported to bundle-sheath cells, where $\mathrm{CO_2$ is released and enters the Calvin cycle.
 PEP carboxylase has a much higher affinity for $\mathrm{CO_2$ than RuBisCO and does not bind
-$\mathrm{O_2$Minimising photorespiration.
+$\mathrm{O_2$ Minimising photorespiration.
 
 **CAM photosynthesis:** In CAM plants (e.g., cacti, pineapples), stomata open at night to fix
 $\mathrm{CO_2$ into malic acid, which is stored in vacuoles. During the day, stomata close, and
@@ -6046,7 +6046,7 @@ Same genes, but different genes are switched on (expressed) or off in different 
 **Transcription factors** and **epigenetic modifications** (e.g., DNA methylation, histone
 Modification) control which genes are expressed.
 
-**Worked Example: Stem cell therapy for Parkinson"s disease.**
+**Worked Example: Stem cell therapy for Parkinson's disease.**
 
 Parkinson's disease is caused by the death of dopamine-producing neurones in the brain. Stem cell
 Therapy involves:
@@ -7221,7 +7221,7 @@ $$
 
 **$pK_a = -\log_{10} K_a$**
 
-The lower the $pK_a$The stronger the acid.
+The lower the $pK_a$ The stronger the acid.
 
 **Worked Example 6:** Ethanoic acid has $K_a = 1.74 \times 10^{-5} \mathrm{ mol/L$. Find the pH of a
 $0.10 \mathrm{ M$ solution.
@@ -7354,7 +7354,7 @@ $$
 $$
 
 **Worked Example 10:** Prepare a buffer at pH 5.00 using ethanoic acid ($pK_a = 4.76$) and sodium
-Ethanoate. If the total concentration is $0.30 \mathrm{ M$Find the concentrations of each Component.
+Ethanoate. If the total concentration is $0.30 \mathrm{ M$ Find the concentrations of each Component.
 
 $$
 5.00 = 4.76 + \log\frac{[\mathrm{A^-]}{[\mathrm{HA]}
@@ -7642,7 +7642,7 @@ flowchart TD
    is an extremely weak base because $\mathrm{HCl$ is a very strong acid.
 
 7. **Diprotic acids:** The second dissociation is always weaker than the first. For
-   $\mathrm{H_2\mathrm{SO_4$The first proton dissociates completely but the second does not
+   $\mathrm{H_2\mathrm{SO_4$ The first proton dissociates completely but the second does not
    ($K_{a2} = 1.2 \times 10^{-2}$).
 
 ---
@@ -7665,7 +7665,7 @@ flowchart TD
    solution and the percentage dissociation.
 
 3. Prepare a buffer at pH 5.00 using ethanoic acid ($pK_a = 4.76$) and sodium ethanoate. If the
-   total concentration is $0.30 \mathrm{ M$Find the concentrations of each component.
+   total concentration is $0.30 \mathrm{ M$ Find the concentrations of each component.
 
 4. $20.0 \mathrm{ cm^3$ of $0.15 \mathrm{ M$ $\mathrm{NH_3$ ($K_b = 1.78 \times 10^{-5}$) is
    titrated with $0.10 \mathrm{ M$ $\mathrm{HCl$. Find the pH after adding $15.0 \mathrm{ cm^3$ of
@@ -7861,7 +7861,7 @@ Key features:
    buffer ($\mathrm{CH_3\mathrm{COOH/\mathrm{CH_3\mathrm{COO^-$).
 3. **Half-equivalence point:** At $12.5 \mathrm{ mL$ (half the acid neutralised),
    $\mathrm{pH = pK_a = 4.76$.
-4. **Equivalence point:** At $25 \mathrm{ mL$PH = 8.73.
+4. **Equivalence point:** At $25 \mathrm{ mL$ PH = 8.73.
 5. **Beyond equivalence:** pH approaches that of the excess $\mathrm{NaOH$.
 
 ---
@@ -7919,7 +7919,7 @@ Dissolution).
 
 ## Practice Questions (Extended)
 
-1. Calculate the pH of a $0.050 \mathrm{ M$ solution of $\mathrm{AlCl_3$Given that
+1. Calculate the pH of a $0.050 \mathrm{ M$ solution of $\mathrm{AlCl_3$ Given that
     $K_a(\mathrm{Al^{3+}) = 1.0 \times 10^{-5}$. (Hint: $\mathrm{Al^{3+}$ acts as a weak acid.)
 
 2. A buffer is prepared by mixing $0.20 \mathrm{ mol$ of $\mathrm{CH_3\mathrm{COOH$ and
@@ -7962,7 +7962,7 @@ $\mathrm{H^+$ from water autoionisation becomes significant and cannot be ignore
 
 **Worked Example 19:** Find the pH of $1.0 \times 10^{-8}$ M HCl.
 
-If we use $\mathrm{pH = -\log(10^{-8}) = 8$This gives a basic pH for an acid solution, which Is
+If we use $\mathrm{pH = -\log(10^{-8}) = 8$ This gives a basic pH for an acid solution, which Is
 wrong. We must account for the autoionisation of water.
 
 $$
@@ -8007,7 +8007,7 @@ $$
 K_{a1} = 7.5 \times 10^{-3}, \quad K_{a2} = 6.2 \times 10^{-8}, \quad K_{a3} = 4.8 \times 10^{-13}
 $$
 
-Since $K_{a1} \gg K_{a2} \gg K_{a3}$The first dissociation dominates. For a $0.10 \mathrm{ M$
+Since $K_{a1} \gg K_{a2} \gg K_{a3}$ The first dissociation dominates. For a $0.10 \mathrm{ M$
 Solution, the pH is calculated using only $K_{a1}$.
 
 ---
@@ -8123,7 +8123,7 @@ Covalent bonds absorb IR radiation at characteristic frequencies, causing them t
 | C-Cl                  | 600-800                | Strong      |
 | C≡N                   | 2210-2260              | Medium      |
 
-**Fingerprint region:** Below $1500 \mathrm{ cm^{-1}$The pattern is unique to each molecule and can
+**Fingerprint region:** Below $1500 \mathrm{ cm^{-1}$ The pattern is unique to each molecule and can
 Be compared with reference spectra.
 
 **Worked Example 1:** An organic compound with molecular formula $\mathrm{C_3\mathrm{H_6\mathrm{O$
@@ -8199,7 +8199,7 @@ Prominent peak at $m/z = 43$. Suggest a structure.
 
 $M = 58$. Possible formula: $\mathrm{C_3\mathrm{H_6\mathrm{O$ (propanone, $M_r = 58$).
 
-The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$Formed by alpha cleavage of
+The peak at $m/z = 43$ corresponds to $\mathrm{CH_3\mathrm{CO^+$ Formed by alpha cleavage of
 Propanone.
 
 $$
@@ -8239,7 +8239,7 @@ Proton NMR provides information about the hydrogen environments in a molecule.
 Neighbouring protons on adjacent carbons interact (spin-spin coupling) because their nuclear spins
 Can be aligned with or against the external magnetic field. For $n$ equivalent neighbouring protons,
 There are $n + 1$ possible spin arrangements (and therefore $n + 1$ possible local magnetic fields
-Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal"s
+Experienced by the observed proton). This gives $n + 1$ peaks with intensities following Pascal's
 Triangle.
 
 **Worked Example 5:** The $^1\mathrm{H$ NMR spectrum of a compound with formula
@@ -8253,7 +8253,7 @@ Identify the compound.
 
 The singlet that exchanges with $\mathrm{D_2\mathrm{O$ is an $\mathrm{O-\mathrm{H$ proton. The
 triplet (3H) and quartet (2H) indicate a $\mathrm{CH_3\mathrm{CH_2$ group. The quartet is shifted to
-$\delta = 3.7$Suggesting the $\mathrm{CH_2$ is adjacent to an electronegative oxygen. The compound
+$\delta = 3.7$ Suggesting the $\mathrm{CH_2$ is adjacent to an electronegative oxygen. The compound
 Is ethanol ($\mathrm{CH_3\mathrm{CH_2\mathrm{OH$).
 
 **Worked Example 6:** A compound with molecular formula $\mathrm{C_4\mathrm{H_{10}\mathrm{O$ has two
@@ -8309,7 +8309,7 @@ Concentration (mol/L), and $l$ is the path length (cm).
 The absorbance is proportional to the number of absorbing molecules in the light path. If a solution
 Of concentration $c$ and path length $l$ contains $c \times l$ moles per unit area, then doubling
 $c$ or $l$ doubles the number of absorbers and hence the absorbance. The proportionality constant is
-The molar absorptivity $\varepsilon$Which depends on the substance and wavelength.
+The molar absorptivity $\varepsilon$ Which depends on the substance and wavelength.
 
 **Applications:** Determining concentrations, following reaction kinetics, identifying conjugated
 Systems.
@@ -8323,7 +8323,7 @@ c = \frac{A}{\varepsilon l} = \frac{0.625}{12500 \times 1} = 5.0 \times 10^{-5} 
 $$
 
 **Worked Example 8:** A solution has absorbance 0.450 at 520 nm in a 2 cm cuvette. If
-$\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$Find the concentration.
+$\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$ Find the concentration.
 
 $$
 c = \frac{A}{\varepsilon l} = \frac{0.450}{15000 \times 2} = 1.5 \times 10^{-5} \mathrm{ mol/L
@@ -8421,7 +8421,7 @@ Far. Therefore, substance A is more polar than substance B.
 6. **Confirm:** Check that the proposed structure is consistent with all data.
 
 **Worked Example 10:** Combined IR, mass spec, and NMR data for an unknown compound
-$\mathrm{C_3\mathrm{H_6\mathrm{O_2$ shows: IR absorption at $1740 \mathrm{ cm^{-1}$Molecular ion at
+$\mathrm{C_3\mathrm{H_6\mathrm{O_2$ shows: IR absorption at $1740 \mathrm{ cm^{-1}$ Molecular ion at
 $m/z = 74$ And $^1\mathrm{H$ NMR singlet at $\delta = 3.7$ (3H), singlet at $\delta = 2.1$ (3H).
 
 **Step 1:** Molecular formula $\mathrm{C_3\mathrm{H_6\mathrm{O_2$, $M_r = 74$.
@@ -8514,7 +8514,7 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
    compound and explain the spectrum.
 
 4. A solution has absorbance 0.450 at 520 nm in a 2 cm cuvette. If
-   $\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$Find the concentration.
+   $\varepsilon = 15000 \mathrm{ L mol^{-1}\mathrm{ cm^{-1}$ Find the concentration.
 
 5. Explain how GC-MS can be used to identify an unknown compound in a mixture.
 
@@ -8526,7 +8526,7 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
    8.0 cm. Calculate the $R_f$ values and identify which substance is more polar.
 
 8. Combined IR, mass spec, and NMR data for an unknown compound $\mathrm{C_3\mathrm{H_6\mathrm{O_2$
-   shows: IR absorption at $1740 \mathrm{ cm^{-1}$Molecular ion at $m/z = 74$ And $^1\mathrm{H$ NMR
+   shows: IR absorption at $1740 \mathrm{ cm^{-1}$ Molecular ion at $m/z = 74$ And $^1\mathrm{H$ NMR
    singlet at $\delta = 3.7$ (3H), singlet at $\delta = 2.1$ (3H). Identify the compound.
 
 9. Calculate the degree of unsaturation for each of the following molecular formulae: (a)
@@ -8560,7 +8560,7 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
 
 ### Spin-Spin Coupling Constants
 
-The separation between the peaks in a multiplet is called the coupling constant $J$Measured in Hz.
+The separation between the peaks in a multiplet is called the coupling constant $J$ Measured in Hz.
 Coupling constants provide information about the spatial relationship between coupled protons.
 
 | Coupling type      | Typical $J$ (Hz) | Relationship                     |
@@ -9036,7 +9036,7 @@ are stronger than London dispersion forces but weaker than hydrogen bonds.
 }
 </script>
 
-### UT-2: Enthalpy Changes and Hess"s Law
+### UT-2: Enthalpy Changes and Hess's Law
 
 **Question:**
 
@@ -9401,7 +9401,7 @@ Quantities of reactants as stated in the equation react under standard condition
 | $\Delta H_{\mathrm{neut}^\circ$ | Standard enthalpy of neutralisation | Enthalpy change when 1 mol of water forms from acid-base neutralisation           |
 | $\Delta H_{\mathrm{at}$         | Enthalpy of atomisation             | Enthalpy change to form 1 mol of gaseous atoms from an element                    |
 
-### Hess"s Law
+### Hess's Law
 
 Hess's Law states that the enthalpy change of a reaction is independent of the route taken, provided
 The initial and final conditions are the same.
@@ -9602,7 +9602,7 @@ Where square brackets denote equilibrium concentrations in $\mathrm{mol/L$.
 - A small $K_c$ ($\lt 10^{-3}$) means reactants are favoured
 - Pure solids and pure liquids are NOT included in the $K_c$ expression
 
-**Worked Example 7:** For $\mathrm{H_2 + \mathrm{I_2 \rightleftharpoons 2\mathrm{HI$At equilibrium
+**Worked Example 7:** For $\mathrm{H_2 + \mathrm{I_2 \rightleftharpoons 2\mathrm{HI$ At equilibrium
 The concentrations are $[\mathrm{H_2] = 0.22$, $[\mathrm{I_2] = 0.22$
 $[\mathrm{HI] = 1.56 \mathrm{ mol/L$. Find $K_c$.
 
@@ -9665,15 +9665,15 @@ Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$, $T$ is temperature in Kelvi
 **Derivation:**
 
 Starting from the thermodynamic relationship $\Delta G = \Delta G^\circ + RT\ln Q$ (where $Q$ is the
-Reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$Giving:
+Reaction quotient), at equilibrium $\Delta G = 0$ and $Q = K$ Giving:
 
 $$
 0 = \Delta G^\circ + RT\ln K \implies \Delta G^\circ = -RT\ln K
 $$
 
-- $\Delta G^\circ < 0$: $K > 1$Reaction favours products
-- $\Delta G^\circ > 0$: $K < 1$Reaction favours reactants
-- $\Delta G^\circ = 0$: $K = 1$System at equilibrium
+- $\Delta G^\circ < 0$: $K > 1$ Reaction favours products
+- $\Delta G^\circ > 0$: $K < 1$ Reaction favours reactants
+- $\Delta G^\circ = 0$: $K = 1$ System at equilibrium
 
 **Worked Example 10:** Calculate $K$ at $298 \mathrm{ K$ for a reaction with
 $\Delta G^\circ = -15.2 \mathrm{ kJ/mol$.
@@ -9755,7 +9755,7 @@ Shows that:
   with energy above $E_a$
 
 **Effect of temperature:** A small increase in temperature significantly increases the fraction of
-Molecules with energy above $E_a$Because the distribution is exponential. A $10^\circ\mathrm{C$ rise
+Molecules with energy above $E_a$ Because the distribution is exponential. A $10^\circ\mathrm{C$ rise
 Doubles the rate.
 
 **Effect of a catalyst:** A catalyst provides an alternative reaction pathway with a lower
@@ -9792,7 +9792,7 @@ The overall order is $m + n$.
 | 1             | $\mathrm{s^{-1}$                   |
 | 2             | $\mathrm{L mol^{-1}\mathrm{s^{-1}$ |
 
-**Worked Example 11:** For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$The rate equation is
+**Worked Example 11:** For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$ The rate equation is
 $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$. If $[\mathrm{A]$ doubles and $[\mathrm{B]$ triples, by
 what Factor does the rate change?
 
@@ -9869,7 +9869,7 @@ E_a = \frac{2.821 \times 8.314}{0.000476} = 49239 \mathrm{ J/mol \approx 49.2 \m
 $$
 
 **Worked Example 14:** The activation energy of a reaction is $75 \mathrm{ kJ/mol$. If the rate
-Constant at $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$Find the rate constant at
+Constant at $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$ Find the rate constant at
 $350 \mathrm{ K$.
 
 $$
@@ -10029,12 +10029,12 @@ flowchart TD
 1. Explain the effect of increasing pressure on the equilibrium
    $\mathrm{N_2\mathrm{O_4\mathrm{(g) \rightleftharpoons 2\mathrm{NO_2\mathrm{(g)$.
 
-2. For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$The rate equation is
+2. For the reaction $\mathrm{A + 2\mathrm{B \to \mathrm{C$ The rate equation is
    $\mathrm{Rate = k[\mathrm{A][\mathrm{B]^2$. If $[\mathrm{A]$ doubles and $[\mathrm{B]$ triples,
    by what factor does the rate change?
 
 3. The activation energy of a reaction is $75 \mathrm{ kJ/mol$. If the rate constant at
-   $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$Find the rate constant at
+   $300 \mathrm{ K$ is $3.0 \times 10^{-4} \mathrm{ s^{-1}$ Find the rate constant at
    $350 \mathrm{ K$.
 
 4. $1.0 \mathrm{ mol$ of $\mathrm{PCl_5$ is placed in a $5.0 \mathrm{ L$ container. At equilibrium,
@@ -10047,7 +10047,7 @@ flowchart TD
    $150 \mathrm{ g$ of water by $10.5°C$. Calculate $\Delta H_c$ and suggest why this value differs
    from the literature value of $-1367 \mathrm{ kJ/mol$.
 
-7. Given $\Delta G^\circ = -RT\ln K$Calculate $K$ at $298 \mathrm{ K$ for a reaction with
+7. Given $\Delta G^\circ = -RT\ln K$ Calculate $K$ at $298 \mathrm{ K$ for a reaction with
    $\Delta G^\circ = -15.2 \mathrm{ kJ/mol$.
 
 8. Using the following data, determine the rate equation and the value of $k$:
@@ -10064,7 +10064,7 @@ flowchart TD
 
 2. For the equilibrium
     $\mathrm{CO(g) + \mathrm{H_2\mathrm{O(g) \rightleftharpoons \mathrm{CO_2\mathrm{(g) + \mathrm{H_2\mathrm{(g)$
-    $\Delta H = -41 \mathrm{ kJ/mol$Explain how increasing temperature affects the yield of
+    $\Delta H = -41 \mathrm{ kJ/mol$ Explain how increasing temperature affects the yield of
     $\mathrm{CO_2$ and the value of $K_c$.
 
 3. Calculate the enthalpy of neutralisation when $30.0 \mathrm{ cm^3$ of $0.50 \mathrm{ M$ HCl is
@@ -10188,7 +10188,7 @@ The rate equation is determined by the slow step: $\mathrm{Rate = k[\mathrm{A][\
 Note that $\mathrm{D$ does not appear in the rate equation because it is involved only in the fast
 Step.
 
-**Worked Example 18:** For the reaction $\mathrm{2NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$The
+**Worked Example 18:** For the reaction $\mathrm{2NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$ The
 Proposed mechanism is:
 
 Step 1 (slow): $\mathrm{NO_2 + \mathrm{F_2 \to \mathrm{NO_2\mathrm{F + \mathrm{F$
@@ -10197,7 +10197,7 @@ Step 2 (fast): $\mathrm{F + \mathrm{NO_2 \to \mathrm{NO_2\mathrm{F$
 
 The rate equation is: $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$.
 
-This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$Even
+This is first order with respect to $\mathrm{NO_2$ and first order with respect to $\mathrm{F_2$ Even
 Though the overall balanced equation has coefficient 2 for $\mathrm{NO_2$. This confirms that the
 Rate order cannot be predicted from the stoichiometry.
 
@@ -10246,7 +10246,7 @@ Rate order cannot be predicted from the stoichiometry.
     approximately constant (~-57 kJ/mol), but for weak acid-strong base reactions it is less
     exothermic.
 
-3. For a reaction with $\Delta H^\circ = -92 \mathrm{ kJ/mol$Explain qualitatively how $K_c$
+3. For a reaction with $\Delta H^\circ = -92 \mathrm{ kJ/mol$ Explain qualitatively how $K_c$
     changes as temperature increases. Would the equilibrium yield of products increase or decrease?
 
 4. In a bomb calorimeter, $1.00 \mathrm{ g$ of glucose ($\mathrm{C_6\mathrm{H_{12}\mathrm{O_6$) is
@@ -10336,7 +10336,7 @@ $$
 \Delta G^\circ = 25700 - 298 \times 108 = 25700 - 32184 = -6484 \mathrm{ J/mol
 $$
 
-Since $\Delta G^\circ < 0$The dissolution is spontaneous despite being endothermic. The driving
+Since $\Delta G^\circ < 0$ The dissolution is spontaneous despite being endothermic. The driving
 Force is the large increase in entropy (solid $\to$ aqueous ions).
 
 ## Worked Examples
@@ -10854,7 +10854,7 @@ Chemical bonding, intermolecular forces, reaction rates, equilibrium, and enthal
 
 ### Energy & Matter
 
-Energy changes in reactions, Hess"s law, bond enthalpies, and properties of matter.
+Energy changes in reactions, Hess's law, bond enthalpies, and properties of matter.
 
 → **[Full notes](/chemistry/2-heat-matter/2_heat-matter/)**
 
@@ -11208,7 +11208,7 @@ $$
 \mathrm{CH_2=\mathrm{CH_2 + \mathrm{HBr \to \mathrm{CH_3\mathrm{CH_2\mathrm{Br
 $$
 
-**Markovnikov"s Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
+**Markovnikov's Rule:** When HX adds to an unsymmetrical alkene, the hydrogen adds to the carbon
 With more hydrogens already attached.
 
 $$
@@ -11373,7 +11373,7 @@ Positive charge.
 **Worked Example 10:** Explain why 2-bromo-2-methylpropane undergoes $S_N1$ hydrolysis faster than
 1-bromopropane.
 
-2-bromo-2-methylpropane is a tertiary halogenoalkane. In $S_N1$The rate-determining step is
+2-bromo-2-methylpropane is a tertiary halogenoalkane. In $S_N1$ The rate-determining step is
 Formation of the carbocation. The tertiary carbocation $(\mathrm{CH_3)_3\mathrm{C^+$ is stabilised
 by Three methyl groups (+I effect), making it relatively easy to form. 1-bromopropane would form a
 Primary carbocation ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2^+$), which is much less stable.
@@ -11445,7 +11445,7 @@ Requires a chiral centre (carbon with four different groups attached).
 **Worked Example 12:** Explain why $\mathrm{CH_3\mathrm{CH(\mathrm{OH)\mathrm{COOH$ is optically
 active, And draw both enantiomers.
 
-Carbon-2 has four different groups attached: $\mathrm{H$$\mathrm{OH$$\mathrm{CH_3$And
+Carbon-2 has four different groups attached: $\mathrm{H$$\mathrm{OH$$\mathrm{CH_3$ And
 $\mathrm{COOH$. This makes it a chiral centre. The two enantiomers are non-superimposable mirror
 Images that rotate plane-polarised light in opposite directions.
 
@@ -11601,12 +11601,12 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 
 | From            | To                | Reagent/Condition                        |
 | --------------- | ----------------- | ---------------------------------------- |
-| Alkene          | Alkane            | $\mathrm{H_2$Ni catalyst                 |
+| Alkene          | Alkane            | $\mathrm{H_2$ Ni catalyst                 |
 | Alkene          | Haloalkane        | $\mathrm{HX$ or $\mathrm{X_2$            |
 | Alkene          | Alcohol           | $\mathrm{H_2\mathrm{O$, $\mathrm{H^+$      |
-| Alcohol         | Aldehyde          | $[\mathrm{O]$Distillation                |
-| Alcohol         | Carboxylic acid   | $[\mathrm{O]$Reflux                      |
-| Alcohol         | Alkene            | $\mathrm{conc. H_2\mathrm{SO_4$Heat      |
+| Alcohol         | Aldehyde          | $[\mathrm{O]$ Distillation                |
+| Alcohol         | Carboxylic acid   | $[\mathrm{O]$ Reflux                      |
+| Alcohol         | Alkene            | $\mathrm{conc. H_2\mathrm{SO_4$ Heat      |
 | Haloalkane      | Alcohol           | $\mathrm{NaOH (aq)$                      |
 | Haloalkane      | Amine             | $\mathrm{NH_3$ (excess)                  |
 | Carboxylic acid | Ester             | Alcohol, $\mathrm{conc. H_2\mathrm{SO_4$ |
@@ -11889,10 +11889,10 @@ flowchart TD
 | Alkene            | $\mathrm{HX$                        | Haloalkane            | Electrophilic addition    |
 | Alkene            | $\mathrm{X_2$                       | Dihaloalkane          | Electrophilic addition    |
 | Alkene            | $\mathrm{H_2\mathrm{O/\mathrm{H^+$  | Alcohol               | Electrophilic addition    |
-| Primary alcohol   | $[\mathrm{O]$Distil                 | Aldehyde              | Oxidation                 |
-| Primary alcohol   | $[\mathrm{O]$Reflux                 | Carboxylic acid       | Oxidation                 |
+| Primary alcohol   | $[\mathrm{O]$ Distil                 | Aldehyde              | Oxidation                 |
+| Primary alcohol   | $[\mathrm{O]$ Reflux                 | Carboxylic acid       | Oxidation                 |
 | Secondary alcohol | $[\mathrm{O]$                       | Ketone                | Oxidation                 |
-| Alcohol           | $\mathrm{conc. H_2\mathrm{SO_4$Heat | Alkene                | Elimination (dehydration) |
+| Alcohol           | $\mathrm{conc. H_2\mathrm{SO_4$ Heat | Alkene                | Elimination (dehydration) |
 | Alcohol + acid    | $\mathrm{conc. H_2\mathrm{SO_4$     | Ester                 | Esterification            |
 | Haloalkane        | $\mathrm{NaOH (aq)$                 | Alcohol               | Nucleophilic substitution |
 | Haloalkane        | $\mathrm{KCN$                       | Nitrile               | Nucleophilic substitution |
@@ -12581,7 +12581,7 @@ $$
 Average bond enthalpies are mean values taken from many different compounds. The actual C-H bond
 Enthalpy in methane differs from that in ethane because the electronic environment is different.
 Therefore, using average values introduces systematic error. The true $\Delta H$ for the
-Hydrogenation of ethene is $-137 \mathrm{ kJ/mol$Showing that the bond enthalpy estimate
+Hydrogenation of ethene is $-137 \mathrm{ kJ/mol$ Showing that the bond enthalpy estimate
 ($-124 \mathrm{ kJ/mol$) is approximate.
 
 ---
@@ -12663,7 +12663,7 @@ Net ionic equation: $\mathrm{Zn(s) + 2\mathrm{H^+(aq) \to \mathrm{Zn^{2+}(aq) + 
 
 **Worked Example 11:** Determine the oxidation states in $\mathrm{KMnO_4$.
 
-$\mathrm{K = +1$, $\mathrm{O = -2$ So $\mathrm{Mn + 1 + 4(-2) = 0$Giving $\mathrm{Mn = +7$.
+$\mathrm{K = +1$, $\mathrm{O = -2$ So $\mathrm{Mn + 1 + 4(-2) = 0$ Giving $\mathrm{Mn = +7$.
 
 **Worked Example 12:** Determine the oxidation states of each element in $\mathrm{H_2\mathrm{O_2$
 and $\mathrm{Na_2\mathrm{Cr_2\mathrm{O_7$.
@@ -12672,7 +12672,7 @@ $\mathrm{H_2\mathrm{O_2$: $\mathrm{H = +1$, $2(+1) + 2(\mathrm{O) = 0$ So $\math
 Peroxide where oxygen has an unusual oxidation state of $-1$.
 
 $\mathrm{Na_2\mathrm{Cr_2\mathrm{O_7$: $\mathrm{Na = +1$, $\mathrm{O = -2$.
-$2(+1) + 2(\mathrm{Cr) + 7(-2) = 0$ So $2(\mathrm{Cr) = 12$Giving $\mathrm{Cr = +6$.
+$2(+1) + 2(\mathrm{Cr) + 7(-2) = 0$ So $2(\mathrm{Cr) = 12$ Giving $\mathrm{Cr = +6$.
 
 ### Redox Reactions
 
@@ -12768,8 +12768,8 @@ flowchart TD
 4. **Using average bond enthalpies:** These give approximate values only. They are less accurate
    when bonds are in different molecular environments.
 
-5. **Oxidation state of oxygen in peroxides:** In $\mathrm{H_2\mathrm{O_2$Oxygen has oxidation state
-   $-1$Not $-2$.
+5. **Oxidation state of oxygen in peroxides:** In $\mathrm{H_2\mathrm{O_2$ Oxygen has oxidation state
+   $-1$ Not $-2$.
 
 6. **Spectator ions in ionic equations:** Always identify and remove spectator ions. Remember that
    state symbols are essential.
@@ -12860,7 +12860,7 @@ Gaseous ions. It is always exothermic (negative) and indicates the strength of i
 ### Born-Haber Cycles
 
 A Born-Haber cycle is a thermochemical cycle that relates lattice energy to other measurable
-Enthalpy changes. It is an application of Hess"s Law to ionic compounds.
+Enthalpy changes. It is an application of Hess's Law to ionic compounds.
 
 **Worked Example 15:** Construct a Born-Haber cycle for sodium chloride.
 
@@ -12938,11 +12938,11 @@ Improved properties.
 $\mathrm{KF$(b) $\mathrm{CCl_4$(c) $\mathrm{Cu$(d) $\mathrm{AlCl_3$.
 
 **(a) $\mathrm{KF$:** Potassium is a Group 1 metal and fluorine is a Group 17 non-metal. The
-Electronegativity difference is $3.98 - 0.82 = 3.16$Which is greater than 1.7, so this is
+Electronegativity difference is $3.98 - 0.82 = 3.16$ Which is greater than 1.7, so this is
 Predominantly **ionic bonding**.
 
 **(b) $\mathrm{CCl_4$:** Both carbon and chlorine are non-metals. The electronegativity difference
-is $3.16 - 2.55 = 0.61$Which is in the polar covalent range. The molecule is tetrahedral and the
+is $3.16 - 2.55 = 0.61$ Which is in the polar covalent range. The molecule is tetrahedral and the
 bond Dipoles cancel, making the molecule non-polar overall. This is **covalent bonding**.
 
 **(c) $\mathrm{Cu$:** Copper is a metal. The bonding involves positive metal ions in a sea of
@@ -12950,7 +12950,7 @@ Delocalised electrons. This is **metallic bonding**, accounting for copper's con
 Malleability, and high melting point.
 
 **(d) $\mathrm{AlCl_3$:** Aluminium is a metal and chlorine is a non-metal. The electronegativity
-Difference is $3.16 - 1.61 = 1.55$Suggesting polar covalent. $\mathrm{Al^{3+}$ is a small, highly
+Difference is $3.16 - 1.61 = 1.55$ Suggesting polar covalent. $\mathrm{Al^{3+}$ is a small, highly
 Charged cation with high polarising power, and $\mathrm{Cl^-$ is a relatively large anion. According
 To Fajans' Rules, this gives $\mathrm{AlCl_3$ significant **covalent character**. Indeed,
 $\mathrm{AlCl_3$ sublimes at $180^\circ\mathrm{C$ (low for an ionic compound) and forms dimer
@@ -13042,7 +13042,7 @@ Arrangement, forming a rigid three-dimensional network. Every C-C bond is a stro
 
 **Properties explained:**
 
-- **Very high melting point ($> 3500^\circ$C):** All bonds must be broken to melt diamond, requiring
+- **Very high melting point ($> 3500^\circ$ C):** All bonds must be broken to melt diamond, requiring
   enormous energy.
 - **Extremely hard:** The three-dimensional network prevents any movement of atoms.
 - **Does not conduct electricity:** All four valence electrons of each carbon are localised in sigma
@@ -13070,7 +13070,7 @@ The entire layer.
 Each silicon atom is covalently bonded to four oxygen atoms, and each oxygen atom is bonded to two
 Silicon atoms, forming a giant covalent network similar to diamond.
 
-- Very high melting point ($\sim 1700^\circ$C)
+- Very high melting point ($\sim 1700^\circ$ C)
 - Hard and insoluble
 - Does not conduct electricity
 
@@ -13165,8 +13165,8 @@ $\mathrm{CuSO_4$ (oxidation).
 **Question:** Balance the following equation in acidic solution:
 $\mathrm{IO_3^- + \mathrm{I^- + \mathrm{H^+ \to \mathrm{I_2 + \mathrm{H_2\mathrm{O$
 
-**Step 1:** Assign oxidation states. In $\mathrm{IO_3^-$Iodine is $+5$. In $\mathrm{I^-$Iodine is
-$-1$. In $\mathrm{I_2$Iodine is 0.
+**Step 1:** Assign oxidation states. In $\mathrm{IO_3^-$ Iodine is $+5$. In $\mathrm{I^-$ Iodine is
+$-1$. In $\mathrm{I_2$ Iodine is 0.
 
 $\mathrm{IO_3^-$ is reduced: $+5 \to 0$ (gain of 5 electrons) $\mathrm{I^-$ is oxidised: $-1 \to 0$
 (loss of 1 electron)
@@ -13788,7 +13788,7 @@ $i$ to vertex $j$.
 
 Explores all neighbours at the current depth before moving to the next level. Uses a queue.
 
-**Complexity:** Time: $O(V + E)$Space: $O(V)$.
+**Complexity:** Time: $O(V + E)$ Space: $O(V)$.
 
 ```python
 from collections import deque
@@ -13812,7 +13812,7 @@ def bfs(graph, start):
 
 Explores as far as possible along each branch before backtracking. Uses a stack (or recursion).
 
-**Complexity:** Time: $O(V + E)$Space: $O(V)$.
+**Complexity:** Time: $O(V + E)$ Space: $O(V)$.
 
 ```python
 def dfs(graph, start):
@@ -15545,7 +15545,7 @@ Codes (`#FF5733`), MAC addresses (`00:1A:2B:3C:4D:5E`), and error codes all use 
 
 **Unsigned integers:** Non-negative integers. An 8-bit unsigned integer can represent 0 to 255.
 
-**Two"s complement:** Represents both positive and negative integers.
+**Two's complement:** Represents both positive and negative integers.
 
 To find the two's complement of a negative number:
 
@@ -15575,9 +15575,9 @@ Verify: $-128 + 16 + 8 + 4 = -100$. Correct.
 To $2^{n-1} - 1$ ($2^{n-1}$ values). The negative range is $-2^{n-1}$ to $-1$ ($2^{n-1}$ values).
 Total: $2^{n-1} + 2^{n-1} = 2^n$. $\blacksquare$
 
-**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$Let $\bar{x}$ Be
+**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$ Let $\bar{x}$ Be
 the bitwise complement. Then $\bar{x} = (2^n - 1) - x$. Adding 1: $\bar{x} + 1 = 2^n - x$. In
-$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$Confirming $\bar{x} + 1 = -x$.
+$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$ Confirming $\bar{x} + 1 = -x$.
 $\blacksquare$
 
 **Two's complement range summary:**
@@ -15611,7 +15611,7 @@ $$
 
 $25 = 00011001$. $14 = 00001110$.
 
-Two's complement of 14: flip $00001110 \to 11110001$Add 1 $\to 11110010$.
+Two's complement of 14: flip $00001110 \to 11110001$ Add 1 $\to 11110010$.
 
 $00011001 + 11110010 = 100001011$.
 
@@ -15621,7 +15621,7 @@ Discard overflow: $00001011 = 11$. Check: $25 - 14 = 11$. Correct.
 
 $83 = 01010011$. $47 = 00101111$.
 
-Two's complement of 47: flip $00101111 \to 11010000$Add 1 $\to 11010001$.
+Two's complement of 47: flip $00101111 \to 11010000$ Add 1 $\to 11010001$.
 
 $01010011 + 11010001 = 100100100$.
 
@@ -15637,7 +15637,7 @@ $100 = 01100100$, $50 = 00110010$.
 Sum: $10010110$.
 
 The MSB is 1, indicating a negative result. $10010110 = -128 + 16 + 4 + 2 = -106$. This is incorrect
-($100 + 50 = 150$Which exceeds the 8-bit range). Overflow has occurred.
+($100 + 50 = 150$ Which exceeds the 8-bit range). Overflow has occurred.
 
 ### Representing Text
 
@@ -19067,12 +19067,12 @@ $$
 f(x) = 2(x - 3)^2 - 11
 $$
 
-The vertex is at $(3, -11)$ and since $a = 2 > 0$The parabola opens upward with a minimum value of
+The vertex is at $(3, -11)$ and since $a = 2 > 0$ The parabola opens upward with a minimum value of
 $-11$.
 
 **The Discriminant:**
 
-For $ax^2 + bx + c = 0$The discriminant is $\Delta = b^2 - 4ac$.
+For $ax^2 + bx + c = 0$ The discriminant is $\Delta = b^2 - 4ac$.
 
 | Condition    | Number of Roots         |
 | ------------ | ----------------------- |
@@ -19080,9 +19080,9 @@ For $ax^2 + bx + c = 0$The discriminant is $\Delta = b^2 - 4ac$.
 | $\Delta = 0$ | One repeated real root  |
 | $\Delta < 0$ | No real roots           |
 
-**Proof.** The quadratic formula gives $x = \frac{-b \pm \sqrt{\Delta}}{2a}$. If $\Delta > 0$The
-Square root is real and positive, yielding two distinct values. If $\Delta = 0$Both values are
-$-\frac{b}{2a}$. If $\Delta < 0$The square root is not real.
+**Proof.** The quadratic formula gives $x = \frac{-b \pm \sqrt{\Delta}}{2a}$. If $\Delta > 0$ The
+Square root is real and positive, yielding two distinct values. If $\Delta = 0$ Both values are
+$-\frac{b}{2a}$. If $\Delta < 0$ The square root is not real.
 
 **Example:** Determine the nature of the roots of $3x^2 - 5x + 2 = 0$.
 
@@ -19090,7 +19090,7 @@ $$
 \Delta = (-5)^2 - 4(3)(2) = 25 - 24 = 1
 $$
 
-Since $\Delta > 0$There are two distinct real roots.
+Since $\Delta > 0$ There are two distinct real roots.
 
 **Example:** Find the value of $k$ for which $x^2 + kx + 9 = 0$ has equal roots.
 
@@ -19125,7 +19125,7 @@ $$
 $$
 
 **Proof of change of base.** Let $y = \log_a b$ So $a^y = b$. Taking $\log_c$ of both sides:
-$y \log_c a = \log_c b$Hence $y = \frac{\log_c b}{\log_c a}$.
+$y \log_c a = \log_c b$ Hence $y = \frac{\log_c b}{\log_c a}$.
 
 **Example:** Solve $3^{2x - 1} = 7$.
 
@@ -19163,7 +19163,7 @@ $$
 x = \frac{-2 \pm \sqrt{4 + 76}}{2} = \frac{-2 \pm \sqrt{80}}{2} = -1 \pm 2\sqrt{5}
 $$
 
-Since $x + 3 > 0$ and $x - 1 > 0$We need $x > 1$. So $x = -1 + 2\sqrt{5} \approx 3.472$.
+Since $x + 3 > 0$ and $x - 1 > 0$ We need $x > 1$. So $x = -1 + 2\sqrt{5} \approx 3.472$.
 
 **Exponential Growth and Decay:**
 
@@ -19216,7 +19216,7 @@ $(x - a)$ is a factor of $p(x)$ if and only if $p(a) = 0$.
 
 **Remainder Theorem:**
 
-When $p(x)$ is divided by $(x - a)$The remainder is $p(a)$.
+When $p(x)$ is divided by $(x - a)$ The remainder is $p(a)$.
 
 **Proof.** By polynomial long division, $p(x) = (x-a)q(x) + r$ for some quotient $q(x)$ and constant
 Remainder $r$. Setting $x = a$: $p(a) = 0 + r$ So $r = p(a)$.
@@ -19239,7 +19239,7 @@ $$
 P(-1) = 2(-1)^3 + (-1)^2 - 5(-1) + 3 = -2 + 1 + 5 + 3 = 7
 $$
 
-**Example:** Given $p(x) = x^3 + 2x^2 - 5x - 6$Show that $(x + 1)$ is a factor and hence fully
+**Example:** Given $p(x) = x^3 + 2x^2 - 5x - 6$ Show that $(x + 1)$ is a factor and hence fully
 Factorise $p(x)$.
 
 $p(-1) = -1 + 2 + 5 - 6 = 0$. So $(x + 1)$ is a factor.
@@ -19377,8 +19377,8 @@ $$
 F'(x) = \frac\{2x \cdot e^\{3x\} - (x^2 + 1) \cdot 3e^\{3x\}\}\{e^\{6x\}\} = \frac\{e^\{3x\}(2x - 3x^2 - 3)\}\{e^\{6x\}\} = \frac\{2x - 3x^2 - 3\}\{e^\{3x\}\}
 $$
 
-Setting $f'(x) = 0$: $2x - 3x^2 - 3 = 0$I.e., $3x^2 - 2x + 3 = 0$. Since
-$\Delta = 4 - 36 = -32 \lt 0$There are no real stationary points.
+Setting $f'(x) = 0$: $2x - 3x^2 - 3 = 0$ I.e., $3x^2 - 2x + 3 = 0$. Since
+$\Delta = 4 - 36 = -32 \lt 0$ There are no real stationary points.
 
 ### Applications of Differentiation
 
@@ -19414,7 +19414,7 @@ At $x = 1$: $f''(1) = -6 < 0$ So local maximum. $f(1) = 1 - 6 + 9 + 1 = 5$.
 
 At $x = 3$: $f''(3) = 6 > 0$ So local minimum. $f(3) = 27 - 54 + 27 + 1 = 1$.
 
-Local maximum at $(1, 5)$Local minimum at $(3, 1)$.
+Local maximum at $(1, 5)$ Local minimum at $(3, 1)$.
 
 ### Equation of a Tangent and Normal
 
@@ -19478,7 +19478,7 @@ $$
 H = \frac\{128\}\{5.35^2\} \approx 4.47 \mathrm\{ cm
 $$
 
-**Verification:** $\frac{d^2C}{dx^2} = 10 + \frac{3072}{x^3} > 0$ for all $x > 0$Confirming a
+**Verification:** $\frac{d^2C}{dx^2} = 10 + \frac{3072}{x^3} > 0$ for all $x > 0$ Confirming a
 Minimum.
 
 **Example:** A closed cylindrical can must hold $500 \mathrm{ cm^3$ of liquid. Find the dimensions
@@ -19503,7 +19503,7 @@ H = \frac\{500\}\{\pi \times 4.30^2\} \approx 8.60 \mathrm\{ cm
 $$
 
 Note that $h = 2r$ So the optimal can has height equal to diameter.
-$\frac{d^2S}{dr^2} = 4\pi + \frac{2000}{r^3} > 0$Confirming a minimum.
+$\frac{d^2S}{dr^2} = 4\pi + \frac{2000}{r^3} > 0$ Confirming a minimum.
 
 ### Integration
 
@@ -19529,14 +19529,14 @@ Differentiation and integration are inverse operations.
 
 **Area Under a Curve:**
 
-The area between $y = f(x)$The $x$-axis, $x = a$ And $x = b$ is:
+The area between $y = f(x)$ The $x$-axis, $x = a$ And $x = b$ is:
 
 $$
 A = \int_a^b |f(x)| \, dx
 $$
 
 <Aside type="caution">
-If the curve crosses the $x$-axis between $a$ and $b$You must split the integral at Each
+If the curve crosses the $x$-axis between $a$ and $b$ You must split the integral at Each
 
 crossing point and take the absolute value. The integral itself gives the signed area, which Can
 cancel out.
@@ -19567,7 +19567,7 @@ $$
 
 ### Area Between Curves
 
-If $f(x) \ge g(x)$ on $[a, b]$The area between the curves is:
+If $f(x) \ge g(x)$ on $[a, b]$ The area between the curves is:
 
 $$
 A = \int_a^b [f(x) - g(x)] \, dx
@@ -19575,7 +19575,7 @@ $$
 
 **Example:** Find the area between $y = x^2$ and $y = 2x$.
 
-Find intersections: $x^2 = 2x$ So $x^2 - 2x = 0$Giving $x = 0$ and $x = 2$.
+Find intersections: $x^2 = 2x$ So $x^2 - 2x = 0$ Giving $x = 0$ and $x = 2$.
 
 Between $x = 0$ and $x = 2$, $2x > x^2$.
 
@@ -19585,7 +19585,7 @@ $$
 
 **Example:** Find the area enclosed by the curves $y = x^3$ and $y = x$.
 
-Find intersections: $x^3 = x$ So $x^3 - x = x(x-1)(x+1) = 0$Giving $x = -1, 0, 1$.
+Find intersections: $x^3 = x$ So $x^3 - x = x(x-1)(x+1) = 0$ Giving $x = -1, 0, 1$.
 
 Between $x = -1$ and $x = 0$: $x \ge x^3$ (since $x \in [-1, 0]$ means $x \ge x^3$). Between $x = 0$
 And $x = 1$: $x^3 \ge x$.
@@ -19638,7 +19638,7 @@ $$
 
 A first-order differential equation relates a function to its first derivative.
 
-**Separable equations.** If $\dfrac{dy}{dx} = f(x)g(y)$Separate the variables:
+**Separable equations.** If $\dfrac{dy}{dx} = f(x)g(y)$ Separate the variables:
 
 $$
 \frac\{1\}\{g(y)\}\,dy = f(x)\,dx
@@ -19654,7 +19654,7 @@ Integrate: $\dfrac{y^2}{2} = \dfrac{x^2}{2} + C$.
 
 Using $y = 2, x = 1$: $2 = \frac{1}{2} + C$ So $C = \frac{3}{2}$.
 
-$y^2 = x^2 + 3$Giving $y = \sqrt{x^2 + 3}$ (taking the positive root since $y = 2 > 0$).
+$y^2 = x^2 + 3$ Giving $y = \sqrt{x^2 + 3}$ (taking the positive root since $y = 2 > 0$).
 
 ---
 
@@ -19668,23 +19668,23 @@ See the examples integrated throughout the sections above.
 
 ## Common Pitfalls
 
-1. **Forgetting the chain rule:** When differentiating $\sin(3x)$The answer is $3\cos(3x)$Not
+1. **Forgetting the chain rule:** When differentiating $\sin(3x)$ The answer is $3\cos(3x)$ Not
    $\cos(3x)$. Every composite function requires the chain rule.
 
 2. **Missing the $+C$:** Always include the constant of integration for indefinite integrals.
    Omitting it is equivalent to asserting that you know the particular solution without initial
    conditions.
 
-3. **Sign errors in the product rule:** It is $f'g + fg'$Not $f'g - fg'$. The minus sign belongs in
+3. **Sign errors in the product rule:** It is $f'g + fg'$ Not $f'g - fg'$. The minus sign belongs in
    the quotient rule.
 
 4. **Incorrect domain for logarithms:** $\ln(x)$ is only defined for $x > 0$. Always check your
-   solutions satisfy the domain restrictions. When solving $\log_2(x+3)$You need $x > -3$.
+   solutions satisfy the domain restrictions. When solving $\log_2(x+3)$ You need $x > -3$.
 
 5. **Confusing $f^{-1}(x)$ with $\dfrac{1}{f(x)}$:** The notation $f^{-1}$ denotes the inverse
    function, not the reciprocal. This is a notation collision that causes persistent confusion.
 
-6. **Forgetting absolute values in integrals of $1/x$:** $\int \frac{dx}{x} = \ln|x| + C$Not
+6. **Forgetting absolute values in integrals of $1/x$:** $\int \frac{dx}{x} = \ln|x| + C$ Not
    $\ln x + C$.
 
 7. **Not checking that optimisation solutions are minima:** Always verify with the second derivative
@@ -19692,19 +19692,19 @@ See the examples integrated throughout the sections above.
 
 8. **Forgetting to change the limits** when using substitution for definite integrals.
 
-9. **Sign error in the quotient rule:** It is $\dfrac{f'g - fg'}{g^2}$Not $\dfrac{fg' - f'g}{g^2}$.
+9. **Sign error in the quotient rule:** It is $\dfrac{f'g - fg'}{g^2}$ Not $\dfrac{fg' - f'g}{g^2}$.
    "Low d-High minus High d-Low."
 
 ---
 
 ## Practice Questions
 
-1. Given $f(x) = 2x^2 - 8x + 5$Express $f(x)$ in completed square form and state the coordinates of
+1. Given $f(x) = 2x^2 - 8x + 5$ Express $f(x)$ in completed square form and state the coordinates of
    the vertex.
 
-2. Solve $4^{x+1} = 3^{2x-1}$Giving your answer in terms of natural logarithms.
+2. Solve $4^{x+1} = 3^{2x-1}$ Giving your answer in terms of natural logarithms.
 
-3. Given $p(x) = x^3 + 2x^2 - 5x - 6$Show that $(x + 1)$ is a factor and hence fully factorise
+3. Given $p(x) = x^3 + 2x^2 - 5x - 6$ Show that $(x + 1)$ is a factor and hence fully factorise
    $p(x)$.
 
 4. Differentiate $f(x) = \dfrac{x^2 + 1}{e^{3x}}$ and find the coordinates of any stationary points.
@@ -19718,7 +19718,7 @@ See the examples integrated throughout the sections above.
 
 8. Find the equation of the tangent to $y = x^3 - 3x + 1$ at the point where $x = 2$.
 
-9. Given $f(x) = \frac{1}{3}x^3 - x^2 - 3x + 2$Find the intervals on which $f$ is increasing and
+9. Given $f(x) = \frac{1}{3}x^3 - x^2 - 3x + 2$ Find the intervals on which $f$ is increasing and
    decreasing.
 
 10. Evaluate $\int_0^2 \frac{x}{x^2 + 1}\,dx$ using substitution.
@@ -19789,7 +19789,7 @@ URL: https://highers.wyattau.com/maths/3-calculus/3_calculus/
 ### Implicit Differentiation
 
 When a function is defined implicitly (e.g., $x^2 + y^2 = 25$), differentiate both sides with
-Respect to $x$Treating $y$ as a function of $x$.
+Respect to $x$ Treating $y$ as a function of $x$.
 
 $$
 \frac{d}{dx}[y^n] = ny^{n-1}\frac{dy}{dx}
@@ -19807,7 +19807,7 @@ $$
 \frac{dy}{dx} = -\frac{x}{y}
 $$
 
-This makes geometric sense: on the upper semicircle ($y > 0$), increasing $x$ decreases $y$Giving A
+This makes geometric sense: on the upper semicircle ($y > 0$), increasing $x$ decreases $y$ Giving A
 negative slope. On the lower semicircle ($y < 0$), the slope is positive.
 
 **Example:** Find $\dfrac{dy}{dx}$ for $x^3 + y^3 = 6xy$.
@@ -19847,7 +19847,7 @@ $$
 \frac{dy}{dx} = \frac{-2x - 2}{2y - 4} = \frac{-x - 1}{y - 2}
 $$
 
-**Second derivatives implicitly.** Differentiate $\frac{dy}{dx}$ again with respect to $x$Using The
+**Second derivatives implicitly.** Differentiate $\frac{dy}{dx}$ again with respect to $x$ Using The
 chain rule wherever $y$ appears.
 
 ### Parametric Differentiation
@@ -19908,7 +19908,7 @@ $$
 $$
 
 **Proof that $\frac{d}{dx}[\arctan x] = \frac{1}{1+x^2}$.** Let $y = \arctan x$ So $x = \tan y$.
-Differentiating implicitly: $1 = \sec^2 y \cdot \frac{dy}{dx}$Giving
+Differentiating implicitly: $1 = \sec^2 y \cdot \frac{dy}{dx}$ Giving
 $\frac{dy}{dx} = \frac{1}{\sec^2 y} = \frac{1}{1 + \tan^2 y} = \frac{1}{1 + x^2}$.
 
 **Example:** Differentiate $f(x) = \arcsin(3x)$.
@@ -19919,7 +19919,7 @@ $$
 
 ### Logarithmic Differentiation
 
-For functions of the form $y = [f(x)]^{g(x)}$Take natural logarithms first:
+For functions of the form $y = [f(x)]^{g(x)}$ Take natural logarithms first:
 
 $$
 \ln y = g(x) \ln f(x)
@@ -20068,7 +20068,7 @@ $$
 
 **Example:** Evaluate $\int \dfrac{x}{x^2 + 1} \, dx$.
 
-Let $u = x^2 + 1$ So $du = 2x \, dx$Giving $\dfrac{1}{2} du = x \, dx$.
+Let $u = x^2 + 1$ So $du = 2x \, dx$ Giving $\dfrac{1}{2} du = x \, dx$.
 
 $$
 \int \frac{x}{x^2 + 1} \, dx = \frac{1}{2}\int \frac{du}{u} = \frac{1}{2}\ln|u| + C = \frac{1}{2}\ln(x^2 + 1) + C
@@ -20238,7 +20238,7 @@ $$
 \mu\frac{dy}{dx} + \mu P y = \mu Q
 $$
 
-This is $\frac{d}{dx}[\mu y]$ provided $\mu' = \mu P$I.e., $\mu = e^{\int P\,dx}$.
+This is $\frac{d}{dx}[\mu y]$ provided $\mu' = \mu P$ I.e., $\mu = e^{\int P\,dx}$.
 
 **Example:** Solve $\dfrac{dy}{dx} + 3y = 6e^{-3x}$.
 
@@ -20295,7 +20295,7 @@ Combinations give $e^{\alpha x}\cos\beta x$ and $e^{\alpha x}\sin\beta x$.
 
 **Example:** Solve $\dfrac{d^2y}{dx^2} - 5\dfrac{dy}{dx} + 6y = 0$.
 
-Auxiliary equation: $m^2 - 5m + 6 = 0$ So $(m - 2)(m - 3) = 0$Giving $m = 2, 3$.
+Auxiliary equation: $m^2 - 5m + 6 = 0$ So $(m - 2)(m - 3) = 0$ Giving $m = 2, 3$.
 
 $$
 Y = Ae^{2x} + Be^{3x}
@@ -20311,7 +20311,7 @@ $$
 
 **Example:** Solve $\dfrac{d^2y}{dx^2} + 6\dfrac{dy}{dx} + 9y = 0$.
 
-Auxiliary equation: $m^2 + 6m + 9 = 0$ So $(m + 3)^2 = 0$Giving $m = -3$ (repeated).
+Auxiliary equation: $m^2 + 6m + 9 = 0$ So $(m + 3)^2 = 0$ Giving $m = -3$ (repeated).
 
 $$
 Y = (Ax + B)e^{-3x}
@@ -20467,25 +20467,25 @@ See the examples integrated throughout the sections above.
 
 ## Common Pitfalls
 
-1. **Forgetting the chain rule in implicit differentiation:** When differentiating $y^3$The result
-   is $3y^2 \dfrac{dy}{dx}$Not $3y^2$.
+1. **Forgetting the chain rule in implicit differentiation:** When differentiating $y^3$ The result
+   is $3y^2 \dfrac{dy}{dx}$ Not $3y^2$.
 
 2. **Wrong choice of $u$ in integration by parts:** Follow the LIATE rule. Choosing algebraic
    functions as $dv$ instead of $u$ leads to more complicated integrals.
 
 3. **Missing the constant of integration:** Always include $+C$ for indefinite integrals.
 
-4. **Incorrect auxiliary equation:** For $\dfrac{d^2y}{dx^2} + 4y = 0$The auxiliary equation is
-   $m^2 + 4 = 0$Not $m^2 + 4m = 0$.
+4. **Incorrect auxiliary equation:** For $\dfrac{d^2y}{dx^2} + 4y = 0$ The auxiliary equation is
+   $m^2 + 4 = 0$ Not $m^2 + 4m = 0$.
 
 5. **Domain restrictions in Maclaurin series:** The series for $\ln(1 + x)$ is valid for
-   $-1 < x \le 1$Not all $x$.
+   $-1 < x \le 1$ Not all $x$.
 
-6. **Forgetting to change limits in definite substitution:** When $u = g(x)$The new limits are
-   $u(a)$ and $u(b)$Not $a$ and $b$.
+6. **Forgetting to change limits in definite substitution:** When $u = g(x)$ The new limits are
+   $u(a)$ and $u(b)$ Not $a$ and $b$.
 
 7. **Not checking that the particular integral guess works:** If your guess for $y_p$ contains a
-   term already in $y_h$Multiply by $x$ and try again.
+   term already in $y_h$ Multiply by $x$ and try again.
 
 ---
 
@@ -21410,8 +21410,8 @@ The mean is the balance point of the data. It is sensitive to outliers: a single
 Shift the mean significantly.
 
 **Median:** The middle value when data is sorted. For $n$ data points, if $n$ is odd, the median is
-The $\frac{n+1}{2}$Th value. If $n$ is even, it is the average of the $\frac{n}{2}$Th and
-$\frac{n}{2}+1$Th values. The median is robust to outliers.
+The $\frac{n+1}{2}$ Th value. If $n$ is even, it is the average of the $\frac{n}{2}$ Th and
+$\frac{n}{2}+1$ Th values. The median is robust to outliers.
 
 **Mode:** The most frequently occurring value. A data set can be unimodal, bimodal, or multimodal.
 
@@ -21421,7 +21421,7 @@ $$
 S = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}
 $$
 
-The divisor $n-1$ (Bessel"s correction) gives an unbiased estimate of the population standard
+The divisor $n-1$ (Bessel's correction) gives an unbiased estimate of the population standard
 Deviation. With $n$ in the denominator, the sample standard deviation systematically underestimates
 The population parameter.
 
@@ -21465,11 +21465,11 @@ This is useful when data needs to be converted between units (e.g., Celsius to F
 
 ### Interquartile Range and Box Plots
 
-The **interquartile range** (IQR) is $Q_3 - Q_1$Where $Q_1$ is the 25th percentile and $Q_3$ is The
+The **interquartile range** (IQR) is $Q_3 - Q_1$ Where $Q_1$ is the 25th percentile and $Q_3$ is The
 75th percentile.
 
-**Box plots** (box-and-whisker diagrams) display five key statistics: minimum, $Q_1$Median, $Q_3$
-And maximum. The box spans from $Q_1$ to $Q_3$With the median marked inside. Whiskers extend to The
+**Box plots** (box-and-whisker diagrams) display five key statistics: minimum, $Q_1$ Median, $Q_3$
+And maximum. The box spans from $Q_1$ to $Q_3$ With the median marked inside. Whiskers extend to The
 most extreme data points within $1.5 \times \mathrm{IQR$ of the quartiles.
 
 **Outlier detection:** A value is a potential outlier if it falls below
@@ -21487,7 +21487,7 @@ $\mathrm{IQR = 18 - 7 = 11$.
 
 Upper fence: $Q_3 + 1.5 \times 11 = 18 + 16.5 = 34.5$.
 
-Since $110 > 34.5$The value $110$ is an outlier.
+Since $110 > 34.5$ The value $110$ is an outlier.
 
 ### Probability
 
@@ -21518,7 +21518,7 @@ P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)}
 $$
 
 This theorem is foundational in statistics, machine learning, and medical testing. It allows you to
-"invert" conditional probabilities: if you know $P(B|A)$ but need $P(A|B)$Bayes' theorem provides
+"invert" conditional probabilities: if you know $P(B|A)$ but need $P(A|B)$ Bayes' theorem provides
 The bridge.
 
 **Example:** In a school, 60% of students study Maths, 40% study Physics, and 25% study both. A
@@ -21538,7 +21538,7 @@ $$
 
 (c) Are the events "studies Maths" and "studies Physics" independent?
 
-$P(M) \times P(P) = 0.6 \times 0.4 = 0.24$ But $P(M \cap P) = 0.25$. Since $0.24 \ne 0.25$The Events
+$P(M) \times P(P) = 0.6 \times 0.4 = 0.24$ But $P(M \cap P) = 0.25$. Since $0.24 \ne 0.25$ The Events
 are **not** independent.
 
 **Example:** A medical test has a 95% true positive rate
@@ -21609,7 +21609,7 @@ $$
 
 **Variance:** $\mathrm{Var(X) = np(1-p)$
 
-**Proof of $E(X) = np$.** Let $X_i$ be the indicator variable for the $i$Th trial: $X_i = 1$ if
+**Proof of $E(X) = np$.** Let $X_i$ be the indicator variable for the $i$ Th trial: $X_i = 1$ if
 Success, $0$ if failure. Then $X = \sum_{i=1}^{n} X_i$ and $E(X) = \sum E(X_i) = n \cdot p$.
 
 **Example:** A fair die is rolled 8 times. Find the probability of getting exactly 3 sixes.
@@ -21656,7 +21656,7 @@ Average) of a large number of independent, identically distributed random variab
 Normally distributed, regardless of the original distribution. This is why measurements of natural
 Phenomena (heights, blood pressure, measurement errors) tend to be normally distributed.
 
-**Standard Normal:** $Z = \dfrac{X - \mu}{\sigma}$Where $Z \sim N(0, 1)$.
+**Standard Normal:** $Z = \dfrac{X - \mu}{\sigma}$ Where $Z \sim N(0, 1)$.
 
 **Properties:**
 
@@ -21692,7 +21692,7 @@ $$
 **Example:** Exam scores are normally distributed with mean 60 and standard deviation 12. The top
 10% of candidates receive an A grade. Find the minimum score for an A grade.
 
-We need $P(X > a) = 0.10$I.e., $P(X \leq a) = 0.90$.
+We need $P(X > a) = 0.10$ I.e., $P(X \leq a) = 0.90$.
 
 From tables, $P(Z \leq 1.282) = 0.90$.
 
@@ -21937,7 +21937,7 @@ $$
 - **Type I error:** Rejecting $H_0$ when it is true (false positive). Probability = $\alpha$.
 - **Type II error:** Failing to reject $H_0$ when it is false (false negative). Probability =
   $\beta$.
-- The **power** of a test is $1 - \beta$The probability of correctly rejecting a false $H_0$.
+- The **power** of a test is $1 - \beta$ The probability of correctly rejecting a false $H_0$.
 
 **Trade-off between errors.** Decreasing $\alpha$ (making the test more conservative) increases
 $\beta$ (making it harder to detect a real effect). The only way to decrease both simultaneously is
@@ -21955,7 +21955,7 @@ $t = \dfrac{\bar{x} - \mu_0}{s / \sqrt{n}} = \dfrac{497 - 500}{5/\sqrt{16}} = \d
 Critical values for $t$-distribution with 15 degrees of freedom at 5% (two-tailed): approximately
 $\pm 2.131$.
 
-Since $|-2.4| = 2.4 > 2.131$We reject $H_0$. There is sufficient evidence to suggest the mean Weight
+Since $|-2.4| = 2.4 > 2.131$ We reject $H_0$. There is sufficient evidence to suggest the mean Weight
 differs from 500 g.
 
 ### Chi-Squared Test
@@ -21968,7 +21968,7 @@ $$
 
 Where $O_i$ is the observed frequency and $E_i$ is the expected frequency.
 
-**Conditions:** All expected frequencies should be at least 5. If any $E_i < 5$Combine categories.
+**Conditions:** All expected frequencies should be at least 5. If any $E_i < 5$ Combine categories.
 
 **Example:** A survey investigates whether there is an association between gender and preferred
 Subject among 200 students:
@@ -21998,7 +21998,7 @@ Degrees of freedom: $(2-1)(3-1) = 2$.
 
 Critical value at 5% for 2 df: 5.991.
 
-Since $24.194 > 5.991$We reject $H_0$. There is significant evidence of an association.
+Since $24.194 > 5.991$ We reject $H_0$. There is significant evidence of an association.
 
 ### One-Tailed vs Two-Tailed Tests
 
@@ -22017,7 +22017,7 @@ $t = \dfrac{498 - 500}{4/\sqrt{20}} = \dfrac{-2}{0.894} = -2.236$.
 
 Critical value for $t$-distribution with 19 df at 5% (one-tailed): approximately $-1.729$.
 
-Since $-2.236 < -1.729$We reject $H_0$. There is sufficient evidence that the machine is
+Since $-2.236 < -1.729$ We reject $H_0$. There is sufficient evidence that the machine is
 Underfilling.
 
 Note: If this were a two-tailed test, the critical value would be approximately $\pm 2.093$ And
@@ -22090,7 +22090,7 @@ See the examples integrated throughout the sections above.
    observed data. Predicting outside this range is unreliable.
 
 8. **Assuming normality without justification:** The normal approximation to the binomial requires
-   $np \ge 5$ and $n(1-p) \ge 5$. For small $n$ or extreme $p$Use the exact binomial distribution.
+   $np \ge 5$ and $n(1-p) \ge 5$. For small $n$ or extreme $p$ Use the exact binomial distribution.
 
 9. **Confusing one-tailed and two-tailed tests:** A two-tailed test has a critical region split
    between both tails. The significance level $\alpha$ is shared between the two tails, so each tail
@@ -22319,7 +22319,7 @@ $$
 **Proof of $\cos(A + B)$.** Consider two points on the unit circle: $P$ at angle $A$ with
 Coordinates $(\cos A, \sin A)$ And $Q$ at angle $-(A+B)$ with coordinates $(\cos(A+B), -\sin(A+B))$.
 Rotating the entire figure by angle $A$ maps $P$ to $(1, 0)$ and $Q$ to The point at angle
-$-B$Namely $(\cos B, -\sin B)$. Since rotation preserves distances:
+$-B$ Namely $(\cos B, -\sin B)$. Since rotation preserves distances:
 
 $$
 [\cos(A+B) - \cos A]^2 + [-\sin(A+B) - \sin A]^2 = (\cos B - 1)^2 + (-\sin B)^2
@@ -22471,7 +22471,7 @@ $$
 
 $\sin x = 0$: $x = 0, \pi$.
 
-$2\sin x - 3 = 0$: $\sin x = 1.5$Which has no solution since $|\sin x| \le 1$.
+$2\sin x - 3 = 0$: $\sin x = 1.5$ Which has no solution since $|\sin x| \le 1$.
 
 Solutions: $x = 0, \pi$.
 
@@ -22559,7 +22559,7 @@ angles Must be less than $180^\circ$).
 ### Wave Function (R-Addition Formula)
 
 An expression of the form $a\sin x + b\cos x$ can be written as $R\sin(x + \alpha)$ or
-$R\cos(x - \alpha)$Where:
+$R\cos(x - \alpha)$ Where:
 
 $$
 R = \sqrt{a^2 + b^2}, \quad \alpha = \arctan\left(\frac{b}{a}\right)
@@ -22586,7 +22586,7 @@ $$
 3\sin x + 4\cos x = 5\sin\left(x + \arctan\left(\frac{4}{3}\right)\right)
 $$
 
-Maximum value is $5$Occurring when $\sin(x + \alpha) = 1$.
+Maximum value is $5$ Occurring when $\sin(x + \alpha) = 1$.
 
 **Example:** Find the maximum value of $2\sin\theta - \sqrt{3}\cos\theta$ and the smallest positive
 Value of $\theta$ at which it occurs.
@@ -22602,7 +22602,7 @@ $$
 Where $\tan\alpha = \dfrac{-\sqrt{3}}{2}$ So
 $\alpha = -\arctan\left(\dfrac{\sqrt{3}}{2}\right) \approx -0.714 \mathrm{ rad$.
 
-Maximum value is $\sqrt{7}$Occurring when $\sin(\theta + \alpha) = 1$I.e.,
+Maximum value is $\sqrt{7}$ Occurring when $\sin(\theta + \alpha) = 1$ I.e.,
 $\theta + \alpha = \dfrac{\pi}{2}$ So
 $\theta = \dfrac{\pi}{2} + \arctan\left(\dfrac{\sqrt{3}}{2}\right) \approx 2.285 \mathrm{ rad$.
 
@@ -22628,7 +22628,7 @@ $a\sin x + b\cos x = c$.
 
 **Example:** Solve $3\sin x + 4\cos x = 5$ for $0 \le x \lt 2\pi$.
 
-Since $R = 5$We have $5\sin(x + \alpha) = 5$ So $\sin(x + \alpha) = 1$.
+Since $R = 5$ We have $5\sin(x + \alpha) = 5$ So $\sin(x + \alpha) = 1$.
 
 $$
 X + \alpha = \frac{\pi}{2} + 2k\pi
@@ -22643,7 +22643,7 @@ $x \approx 0.644 + 2\pi \approx 6.927$ (outside range).
 
 There is exactly one solution in $[0, 2\pi)$.
 
-Note that if $|c| > R = \sqrt{a^2 + b^2}$The equation has no real solutions, because the maximum Of
+Note that if $|c| > R = \sqrt{a^2 + b^2}$ The equation has no real solutions, because the maximum Of
 $a\sin x + b\cos x$ is $R$.
 
 ---
@@ -22682,7 +22682,7 @@ Gradient of AB: $m_{AB} = \dfrac{3 - 5}{8 - 2} = -\dfrac{1}{3}$.
 
 Gradient of perpendicular bisector: $m = 3$.
 
-Equation: $y - 4 = 3(x - 5)$I.e., $y = 3x - 11$.
+Equation: $y - 4 = 3(x - 5)$ I.e., $y = 3x - 11$.
 
 ### Circles
 
@@ -22694,7 +22694,7 @@ $$
 
 Expanded form: $x^2 + y^2 - 2ax - 2by + (a^2 + b^2 - r^2) = 0$.
 
-Given the expanded form $x^2 + y^2 + 2gx + 2fy + c = 0$The centre is $(-g, -f)$ and the radius is
+Given the expanded form $x^2 + y^2 + 2gx + 2fy + c = 0$ The centre is $(-g, -f)$ and the radius is
 $\sqrt{g^2 + f^2 - c}$ (provided $g^2 + f^2 - c > 0$).
 
 **Example:** Find the centre and radius of the circle $x^2 + y^2 - 6x + 4y - 12 = 0$.
@@ -22709,7 +22709,7 @@ $$
 (x - 3)^2 + (y + 2)^2 = 25
 $$
 
-Centre $(3, -2)$Radius $5$.
+Centre $(3, -2)$ Radius $5$.
 
 **Example:** Find the equation of the circle with centre $(2, -3)$ that passes through $(5, 1)$.
 
@@ -22739,12 +22739,12 @@ Gradient of radius from $(2, -1)$ to $(5, 3)$: $m_r = \dfrac{3 - (-1)}{5 - 2} = 
 
 Gradient of tangent: $m_t = -\dfrac{3}{4}$.
 
-Equation: $y - 3 = -\dfrac{3}{4}(x - 5)$I.e., $4y - 12 = -3x + 15$Or $3x + 4y - 27 = 0$.
+Equation: $y - 3 = -\dfrac{3}{4}(x - 5)$ I.e., $4y - 12 = -3x + 15$ Or $3x + 4y - 27 = 0$.
 
 **Example:** Find the equation of the tangent to $x^2 + y^2 + 4x - 6y + 9 = 0$ at the point
 $(-2, 3)$.
 
-Complete the square: $(x + 2)^2 + (y - 3)^2 = 4$. Centre $(-2, 3)$Radius $2$.
+Complete the square: $(x + 2)^2 + (y - 3)^2 = 4$. Centre $(-2, 3)$ Radius $2$.
 
 Since $(-2, 3)$ is the centre, not a point on the circle, we must check:
 $(-2+2)^2 + (3-3)^2 = 0 \ne 4$. The point $(-2, 3)$ is inside the circle, so there is no tangent
@@ -22796,7 +22796,7 @@ $$
 **Proof.** Let $P = (x_0, y_0)$ and let $Q$ be the foot of the perpendicular from $P$ to the line.
 The line through $P$ perpendicular to $ax + by + c = 0$ has direction $(a, b)$ So its parametric Form
 is $(x_0 + at, y_0 + bt)$. Substituting into the line equation:
-$a(x_0 + at) + b(y_0 + bt) + c = 0$Giving $t = -\frac{ax_0 + by_0 + c}{a^2 + b^2}$. The distance Is
+$a(x_0 + at) + b(y_0 + bt) + c = 0$ Giving $t = -\frac{ax_0 + by_0 + c}{a^2 + b^2}$. The distance Is
 $|t|\sqrt{a^2 + b^2} = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$. $\blacksquare$
 
 **Example:** Find the distance from $(3, 2)$ to the line $4x + 3y - 5 = 0$.
@@ -22866,10 +22866,10 @@ $$
 2 - s = -1 + 3t \quad (3)
 $$
 
-From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$ So $3 - 2t = 3 + t$Giving $t = 0$,
+From (2): $s = 1 - t$. Substitute into (1): $1 + 2(1 - t) = 3 + t$ So $3 - 2t = 3 + t$ Giving $t = 0$,
 $s = 1$.
 
-Check (3): $2 - 1 = -1 + 0$I.e., $1 = -1$. This is false, so the lines are **skew**.
+Check (3): $2 - 1 = -1 + 0$ I.e., $1 = -1$. This is false, so the lines are **skew**.
 
 ### Distance from a Point to a Line in 3D
 
@@ -22956,25 +22956,25 @@ See the examples integrated throughout the sections above.
 1. **Degrees vs radians:** Always check which units are being used. Calculus requires radians. If a
    question gives angles in degrees, convert before differentiating or integrating.
 
-2. **Forgetting to check the domain:** When solving $\cos x = -\dfrac{2}{3}$There are two solutions
+2. **Forgetting to check the domain:** When solving $\cos x = -\dfrac{2}{3}$ There are two solutions
    in $[0, 2\pi)$: one in the second quadrant and one in the third quadrant.
 
 3. **Sign errors in the wave function:** When writing $a\sin x + b\cos x = R\sin(x + \alpha)$ ensure
    $\alpha$ has the correct sign. The quadrant of $\alpha$ depends on the signs of $a$ and $b$.
 
 4. **Incorrectly completing the square for circles:** Remember to add the constant terms to both
-   sides. For $x^2 + y^2 - 6x + 4y - 12 = 0$You add 9 and 4 to both sides.
+   sides. For $x^2 + y^2 - 6x + 4y - 12 = 0$ You add 9 and 4 to both sides.
 
 5. **Assuming lines in 3D always intersect:** Always check all three coordinates when testing for
    intersection. Even if two coordinates match, the third may not.
 
-6. **Dividing by zero in trig equations:** When you factor and divide by $\cos x$, $\sin x$Or
-   $\tan x$You lose solutions. Always consider the case where the factor equals zero separately.
+6. **Dividing by zero in trig equations:** When you factor and divide by $\cos x$, $\sin x$ Or
+   $\tan x$ You lose solutions. Always consider the case where the factor equals zero separately.
 
 7. **Using the wrong form of $\cos 2A$:** All three forms are equivalent, but using the wrong one
    for the given context makes the algebra much harder.
 
-8. **Confusing the ambiguous case of the sine rule:** When $\sin A = k$ where $0 < k < 1$There are
+8. **Confusing the ambiguous case of the sine rule:** When $\sin A = k$ where $0 < k < 1$ There are
    two possible angles ($A$ and $180° - A$). Both may or may not be valid in the triangle. Always
    check the sum of angles.
 
@@ -23163,7 +23163,7 @@ $$
 Expanding the left side:
 $(\mathbf{a} - \mathbf{b}) \cdot (\mathbf{a} - \mathbf{b}) = |\mathbf{a}|^2 - 2\mathbf{a} \cdot \mathbf{b} + |\mathbf{b}|^2$.
 
-Comparing: $-2\mathbf{a} \cdot \mathbf{b} = -2|\mathbf{a}||\mathbf{b}|\cos\theta$Hence
+Comparing: $-2\mathbf{a} \cdot \mathbf{b} = -2|\mathbf{a}||\mathbf{b}|\cos\theta$ Hence
 $\mathbf{a} \cdot \mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta$.
 
 **Example:** Find the angle between $\mathbf{a} = (2, 1, -1)$ and $\mathbf{b} = (1, -3, 2)$.
@@ -23198,7 +23198,7 @@ The **displacement** from $A$ to $B$ is $\overrightarrow{AB} = \mathbf{b} - \mat
 **Triangle law of vector addition:**
 $\overrightarrow{AB} + \overrightarrow{BC} = \overrightarrow{AC}$.
 
-**Example:** Given $\overrightarrow{OA} = (3, 1, -2)$ and $\overrightarrow{OB} = (-1, 4, 3)$Find
+**Example:** Given $\overrightarrow{OA} = (3, 1, -2)$ and $\overrightarrow{OB} = (-1, 4, 3)$ Find
 $\overrightarrow{AB}$ and the distance $AB$.
 
 $$
@@ -23263,14 +23263,14 @@ $$
 ### Collinearity
 
 Three points $A$, $B$, $C$ are collinear if and only if $\overrightarrow{AB}$ is parallel to
-$\overrightarrow{AC}$I.e., $\overrightarrow{AB} = k\overrightarrow{AC}$ for some scalar $k$.
+$\overrightarrow{AC}$ I.e., $\overrightarrow{AB} = k\overrightarrow{AC}$ for some scalar $k$.
 
 **Example:** Determine whether $A(1, 2, -1)$, $B(3, 5, 1)$ And $C(5, 8, 3)$ are collinear.
 
 $\overrightarrow{AB} = (2, 3, 2)$
 $\overrightarrow{AC} = (4, 6, 4) = 2(2, 3, 2) = 2\overrightarrow{AB}$.
 
-Since $\overrightarrow{AC} = 2\overrightarrow{AB}$The points are collinear. $B$ is the midpoint of
+Since $\overrightarrow{AC} = 2\overrightarrow{AB}$ The points are collinear. $B$ is the midpoint of
 $AC$.
 
 ---
@@ -23334,7 +23334,7 @@ $$
 $$
 
 The determinant measures the area scaling factor of the linear transformation represented by $A$. If
-$\det A = 0$The transformation collapses the plane onto a line (or a point), and the matrix is not
+$\det A = 0$ The transformation collapses the plane onto a line (or a point), and the matrix is not
 Invertible.
 
 **Inverse:**
@@ -23361,7 +23361,7 @@ $$
 ### Solving Systems of Linear Equations
 
 A system $A\mathbf{x} = \mathbf{b}$ has solution $\mathbf{x} = A^{-1}\mathbf{b}$ (provided $A$ is
-Invertible). If $\det A = 0$The system has either no solutions or infinitely many solutions.
+Invertible). If $\det A = 0$ The system has either no solutions or infinitely many solutions.
 
 **Example:** Solve the system:
 
@@ -23500,7 +23500,7 @@ Confirmed coplanar. $\blacksquare$
 
 ### Lines and Planes in 3D
 
-**Equation of a plane:** $\mathbf{r} \cdot \mathbf{n} = d$Where $\mathbf{n}$ is the normal vector
+**Equation of a plane:** $\mathbf{r} \cdot \mathbf{n} = d$ Where $\mathbf{n}$ is the normal vector
 And $d$ is a constant.
 
 In Cartesian form: $ax + by + cz = d$.
@@ -23514,7 +23514,7 @@ $$
 $$
 
 **Angle between a line and a plane:** If the line has direction $\mathbf{d}$ and the plane has
-Normal $\mathbf{n}$The angle $\phi$ between the line and the plane satisfies:
+Normal $\mathbf{n}$ The angle $\phi$ between the line and the plane satisfies:
 
 $$
 \sin\phi = \frac{|\mathbf{d} \cdot \mathbf{n}|}{|\mathbf{d}||\mathbf{n}|}
@@ -23655,7 +23655,7 @@ $$
 
 The vector $\mathbf{v}$ is called an **eigenvector** corresponding to $\lambda$.
 
-**Geometric interpretation:** When $A$ acts on $\mathbf{v}$It only stretches or compresses
+**Geometric interpretation:** When $A$ acts on $\mathbf{v}$ It only stretches or compresses
 $\mathbf{v}$ (by factor $\lambda$) without changing its direction.
 
 **Finding Eigenvalues:** Solve the characteristic equation $\det(A - \lambda I) = 0$.
@@ -23714,16 +23714,16 @@ $$
 
 $\lambda = 6$ or $\lambda = 3$.
 
-For $\lambda = 6$: $\begin{pmatrix} -1 & 2 \\ 1 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0}$Giving
+For $\lambda = 6$: $\begin{pmatrix} -1 & 2 \\ 1 & -2 \end{pmatrix}\mathbf{v} = \mathbf{0}$ Giving
 $v_1 = 2v_2$. Eigenvector: $\begin{pmatrix} 2 \\ 1 \end{pmatrix}$.
 
-For $\lambda = 3$: $\begin{pmatrix} 2 & 2 \\ 1 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0}$Giving
+For $\lambda = 3$: $\begin{pmatrix} 2 & 2 \\ 1 & 1 \end{pmatrix}\mathbf{v} = \mathbf{0}$ Giving
 $v_1 = -v_2$. Eigenvector: $\begin{pmatrix} 1 \\ -1 \end{pmatrix}$.
 
 ### Diagonalisation (Advanced Higher)
 
 If an $n \times n$ matrix $A$ has $n$ linearly independent eigenvectors, it can be diagonalised:
-$A = PDP^{-1}$Where $D$ is a diagonal matrix containing the eigenvalues and $P$ has the Eigenvectors
+$A = PDP^{-1}$ Where $D$ is a diagonal matrix containing the eigenvalues and $P$ has the Eigenvectors
 as columns.
 
 **Applications:**
@@ -23781,10 +23781,10 @@ See the examples integrated throughout the sections above.
    the result.
 
 8. **Cofactor sign errors:** The cofactor $C_{ij}$ includes a factor of $(-1)^{i+j}$. For position
-   $(2, 3)$This is $(-1)^5 = -1$. Getting the sign wrong invalidates the entire inverse.
+   $(2, 3)$ This is $(-1)^5 = -1$. Getting the sign wrong invalidates the entire inverse.
 
 9. **Confusing rotation direction:** A positive angle in the rotation matrix represents
-   anticlockwise rotation. For clockwise rotation by $\theta$Use $-\theta$ or swap the signs of the
+   anticlockwise rotation. For clockwise rotation by $\theta$ Use $-\theta$ or swap the signs of the
    off-diagonal entries.
 
 ---
@@ -23800,7 +23800,7 @@ See the examples integrated throughout the sections above.
 
 ## Practice Questions
 
-1. Given $\mathbf{a} = (2, -1, 3)$ and $\mathbf{b} = (4, 2, -1)$Find
+1. Given $\mathbf{a} = (2, -1, 3)$ and $\mathbf{b} = (4, 2, -1)$ Find
    $\mathbf{a} \cdot \mathbf{b}$$|\mathbf{a}|$$|\mathbf{b}|$ And the angle between them.
 
 2. Find the equation of the plane containing the points $(1, 0, 2)$$(3, 1, -1)$ And $(0, 2, 4)$.
@@ -23831,7 +23831,7 @@ $$2x + y - z = 8$$ $$x - y + 3z = 1$$ $$3x + 2y + z = 11$$
 
 4. Find the area of the triangle with vertices $A(1, 0, 2)$, $B(3, -1, 4)$ And $C(0, 2, -1)$.
 
-5. Given $\overrightarrow{OA} = (1, -1, 3)$ and $\overrightarrow{OB} = (4, 2, -1)$Find the position
+5. Given $\overrightarrow{OA} = (1, -1, 3)$ and $\overrightarrow{OB} = (4, 2, -1)$ Find the position
     vector of the point $P$ on $AB$ such that $AP : PB = 3 : 1$.
 
 6. Find the angle between the lines $\mathbf{r} = (0, 0, 0) + s(1, 2, -1)$ and
@@ -23971,7 +23971,7 @@ affect each other.
 }
 </script>
 
-### UT-2: Forces and Newton"s Laws
+### UT-2: Forces and Newton's Laws
 
 **Question:**
 
@@ -24407,7 +24407,7 @@ $$
 ### Orbital Motion and Satellites
 
 **Example:** A satellite orbits Earth at an altitude of $400 \mathrm{ km$ in a circular orbit. Given
-Earth's mass $M = 5.97 \times 10^{24} \mathrm{ kg$ and radius $R = 6.37 \times 10^6 \mathrm{ m$Find
+Earth's mass $M = 5.97 \times 10^{24} \mathrm{ kg$ and radius $R = 6.37 \times 10^6 \mathrm{ m$ Find
 The orbital speed and period.
 
 $$
@@ -24444,7 +24444,7 @@ Where $G = 6.67 \times 10^{-11} \mathrm{ N m^2 \mathrm{kg^{-2}$.
 
 Consider a point mass emitting gravitational field lines uniformly in all directions. The number of
 Field lines crossing a sphere of radius $r$ is constant (the same lines cross every sphere centered
-On the mass). The flux density (field lines per unit area) is proportional to $1/r^2$Since the
+On the mass). The flux density (field lines per unit area) is proportional to $1/r^2$ Since the
 Surface area of the sphere is $4\pi r^2$. Therefore, the gravitational field strength is
 Proportional to $1/r^2$.
 
@@ -24511,7 +24511,7 @@ $$
 A more massive star has a higher core temperature and pressure, so it burns its fuel much faster.
 Although it has more fuel, the rate of consumption increases more than proportionally with mass. A
 Star of 10 solar masses may live only 20 million years, compared to 10 billion years for the Sun.
-The luminosity of a main-sequence star scales roughly as $L \propto M^{3.5}$While the available Fuel
+The luminosity of a main-sequence star scales roughly as $L \propto M^{3.5}$ While the available Fuel
 scales as $M$ So the lifetime scales as $M^{-2.5}$.
 
 ### The Hertzsprung-Russell Diagram
@@ -24633,7 +24633,7 @@ $$
 3. A star has peak wavelength $350 \mathrm{ nm$. Find its surface temperature and state what colour
    it appears.
 
-4. Calculate the escape velocity from Mars (mass $6.39 \times 10^{23} \mathrm{ kg$Radius
+4. Calculate the escape velocity from Mars (mass $6.39 \times 10^{23} \mathrm{ kg$ Radius
    $3.39 \times 10^6 \mathrm{ m$).
 
 5. A galaxy is observed to have a redshift $z = 0.02$. Find its recession velocity and approximate
@@ -24690,7 +24690,7 @@ $$
 \frac{mv_{\min}^2}{r} = mg \implies v_{\min} = \sqrt{gr} = \sqrt{9.8} = 3.13 \mathrm{ m/s
 $$
 
-Since $v_t = 4.98 \mathrm{ m/s \gt 3.13 \mathrm{ m/s = v_{\min}$The string remains taut at the top.
+Since $v_t = 4.98 \mathrm{ m/s \gt 3.13 \mathrm{ m/s = v_{\min}$ The string remains taut at the top.
 
 ## 12. Gravitational Fields: Extended Analysis
 
@@ -24776,7 +24776,7 @@ L \propto M^{3.5}
 $$
 
 A star twice as massive as the Sun is $2^{3.5} \approx 11.3$ times as luminous. Since the available
-Fuel is proportional to $M$ but the consumption rate is proportional to $L \propto M^{3.5}$The
+Fuel is proportional to $M$ but the consumption rate is proportional to $L \propto M^{3.5}$ The
 Lifetime is:
 
 $$
@@ -24805,7 +24805,7 @@ This galaxy is about 214 megaparsecs away, or roughly 700 million light-years.
 ### The Cosmic Microwave Background
 
 The cosmic microwave background (CMB) radiation was discovered by Penzias and Wilson in 1965. It is
-Thermal radiation with a black-body temperature of $2.725 \mathrm{ K$Peaking in the microwave
+Thermal radiation with a black-body temperature of $2.725 \mathrm{ K$ Peaking in the microwave
 Region. The CMB is the afterglow of the Big Bang: after the universe became transparent about
 380,000 years after the Big Bang, the thermal radiation from the hot, dense early universe has been
 Redshifted by the expansion of space to microwave wavelengths.
@@ -24833,10 +24833,10 @@ Redshifted by the expansion of space to microwave wavelengths.
     gravitational potential energy formula.
 
 2. A star has apparent brightness $B$ and is at distance $d$. If the same star were moved to
-    distance $3d$By what factor would its apparent brightness change?
+    distance $3d$ By what factor would its apparent brightness change?
 
 3. Calculate the escape velocity from the surface of the Sun. (Mass of Sun
-    $= 1.989 \times 10^{30} \mathrm{ kg$Radius of Sun $= 6.96 \times 10^8 \mathrm{ m$.)
+    $= 1.989 \times 10^{30} \mathrm{ kg$ Radius of Sun $= 6.96 \times 10^8 \mathrm{ m$.)
 
 4. A ball of mass $0.3 \mathrm{ kg$ on a string of length $0.9 \mathrm{ m$ is swung in a vertical
     circle with speed $7 \mathrm{ m/s$ at the bottom. Calculate the tension at the bottom and the
@@ -24849,7 +24849,7 @@ Redshifted by the expansion of space to microwave wavelengths.
     Calculate the value of the Hubble constant from this single data point.
 
 7. Calculate the gravitational field strength at the surface of Mars and compare it to Earth's
-    surface gravity. (Mars mass $= 6.39 \times 10^{23} \mathrm{ kg$Mars radius
+    surface gravity. (Mars mass $= 6.39 \times 10^{23} \mathrm{ kg$ Mars radius
     $= 3.39 \times 10^6 \mathrm{ m$.)
 
 8. Two stars in a binary system orbit their common centre of mass. Star A has mass
@@ -25041,7 +25041,7 @@ $$
     when it is at a distance of $3R_E$ from Earth's centre.
 
 2. Two galaxies are observed to be moving apart at $1200 \mathrm{ km/s$. Using Hubble's constant
-    $H_0 = 70 \mathrm{ km/s/Mpc$Calculate the distance to these galaxies in Mpc and in light-years.
+    $H_0 = 70 \mathrm{ km/s/Mpc$ Calculate the distance to these galaxies in Mpc and in light-years.
 
 3. A $2000 \mathrm{ kg$ spacecraft in circular orbit at $300 \mathrm{ km$ altitude fires
     retro-rockets to deorbit. Calculate the orbital speed before and after a delta-v of
@@ -25155,7 +25155,7 @@ $2000 \mathrm{ km$ below the surface.
 
 **Step 1: Depth below surface**
 
-At depth $d$The distance from the centre is $r = R_E - d = 6371 - 2000 = 4371 \mathrm{ km$.
+At depth $d$ The distance from the centre is $r = R_E - d = 6371 - 2000 = 4371 \mathrm{ km$.
 
 **Step 2: Mass enclosed within radius $r$**
 
@@ -25205,7 +25205,7 @@ The potential difference: $\Delta V = (-5.97 + 6.25) \times 10^7 = 2.8 \times 10
 ## Additional Practice Problems
 
 1. Calculate the escape velocity from the surface of Mars. (Mars mass
-    $= 6.39 \times 10^{23} \mathrm{ kg$Mars radius $= 3.39 \times 10^6 \mathrm{ m$.) Compare it to
+    $= 6.39 \times 10^{23} \mathrm{ kg$ Mars radius $= 3.39 \times 10^6 \mathrm{ m$.) Compare it to
     the escape velocity from Earth.
 
 2. A satellite in an elliptical orbit has a perigee altitude of $300 \mathrm{ km$ and an apogee
@@ -25539,12 +25539,12 @@ At $t = 5\tau$: $Q \approx 0.993 Q_0$ (effectively fully charged or discharged).
 
 ### Voltage and Current During Charging/Discharging
 
-Since $V = Q/C$The voltage follows the same exponential as the charge:
+Since $V = Q/C$ The voltage follows the same exponential as the charge:
 
 - Charging: $V = V_0(1 - e^{-t/RC})$
 - Discharging: $V = V_0 e^{-t/RC}$
 
-The current during charging is: $I = I_0 e^{-t/RC}$ (starts at $I_0 = V_0/R$Decays to zero).
+The current during charging is: $I = I_0 e^{-t/RC}$ (starts at $I_0 = V_0/R$ Decays to zero).
 
 The current during discharging is: $I = -I_0 e^{-t/RC}$ (flows in the opposite direction).
 
@@ -25580,7 +25580,7 @@ In parallel)
    is what is available to the external circuit.
 
 2. **Incorrect parallel resistance formula:** It is
-   $\dfrac{1}{R} = \dfrac{1}{R_1} + \dfrac{1}{R_2}$Not $R = R_1 + R_2$.
+   $\dfrac{1}{R} = \dfrac{1}{R_1} + \dfrac{1}{R_2}$ Not $R = R_1 + R_2$.
 
 3. **Units:** Ensure consistent units (volts, amperes, ohms). Convert millivolts, kilo-ohms, etc. As
    needed.
@@ -25594,7 +25594,7 @@ In parallel)
    to zero**, not the other way around.
 
 7. **Using $P = IV$ with the terminal PD** when the problem asks for the total power output of the
-   battery. The total power is $P = \varepsilon I$Where $\varepsilon$ is the EMF.
+   battery. The total power is $P = \varepsilon I$ Where $\varepsilon$ is the EMF.
 
 ---
 
@@ -25670,14 +25670,14 @@ The terminal PD is EMF plus $Ir$)
 
 A nichrome wire has resistivity $1.10 \times 10^{-6} \Omega\mathrm{m$. A length of this wire must
 Have a resistance of $15 \Omega$ and carry a maximum current of $2 \mathrm{ A$ without overheating.
-If the wire must not exceed a power dissipation of $20 \mathrm{ W$Find the minimum cross-sectional
+If the wire must not exceed a power dissipation of $20 \mathrm{ W$ Find the minimum cross-sectional
 Area and the corresponding length.
 
 From $P = I^2R$: $R_{\max} = \frac{P}{I^2} = \frac{20}{4} = 5 \Omega$.
 
-But we need $R = 15 \Omega$ And $P = I^2R = 4 \times 15 = 60 \mathrm{ W$Which exceeds the limit. We
+But we need $R = 15 \Omega$ And $P = I^2R = 4 \times 15 = 60 \mathrm{ W$ Which exceeds the limit. We
 need to reduce the resistance or the current. If we use two identical wires in parallel, each has
-$R = 30 \Omega$ And the current through each is $1 \mathrm{ A$Giving
+$R = 30 \Omega$ And the current through each is $1 \mathrm{ A$ Giving
 $P = 1^2 \times 30 = 30 \mathrm{ W$ per wire. Still too high.
 
 This illustrates the constraints that real-world design must satisfy: the resistance must be
@@ -25725,7 +25725,7 @@ $$
 
 ### Energy Stored in a Charged Capacitor: Why the Factor of One-Half
 
-The energy stored in a capacitor is $E = \frac{1}{2}CV^2$Not $CV^2$. The factor of one-half arises
+The energy stored in a capacitor is $E = \frac{1}{2}CV^2$ Not $CV^2$. The factor of one-half arises
 Because the voltage increases linearly as charge builds up: at the start, $V = 0$ And at the end,
 $V = V_0$. The average voltage during charging is $V_0/2$ And
 $E = Q \times V_{\mathrm{avg} = QV_0/2$.
@@ -26005,7 +26005,7 @@ $$
 
 ### Pitfall 8: Confusing EMF with Terminal PD
 
-EMF ($\mathcal{E}$) is the total energy per unit charge supplied by the cell. Terminal PD ($V$) is
+EMF ($\mathcal{E}$) is the total energy per unit charge supplied by the cell. Terminal PD ($ V$) is
 The energy per unit charge delivered to the external circuit. They are related by:
 
 $$
@@ -26186,7 +26186,7 @@ $$
 v = \frac{5}{8.5 \times 10^{28} \times 7.854 \times 10^{-7} \times 1.602 \times 10^{-19}} = \frac{5}{1.068 \times 10^4} = 4.68 \times 10^{-4} \mathrm{ m/s
 $$
 
-The drift velocity is less than $1 \mathrm{ mm/s$Even though the current signal propagates at near
+The drift velocity is less than $1 \mathrm{ mm/s$ Even though the current signal propagates at near
 The speed of light.
 
 ## Additional Practice Problems
@@ -26718,7 +26718,7 @@ science degrees.
 
 ### Mechanics
 
-Kinematics, forces, energy, power, projectiles, and Newton"s laws of motion.
+Kinematics, forces, energy, power, projectiles, and Newton's laws of motion.
 
 → **[Full notes](https://leaving-cert.wyattau.com/physics/1-mechanics/1_mechanics/)**
 
@@ -26913,7 +26913,7 @@ $$
 F_x = F\cos\theta, \qquad F_y = F\sin\theta
 $$
 
-The original vector can be reconstructed: $F = \sqrt{F_x^2 + F_y^2}$At angle
+The original vector can be reconstructed: $F = \sqrt{F_x^2 + F_y^2}$ At angle
 $\theta =
 \arctan(F_y / F_x)$.
 
@@ -26971,7 +26971,7 @@ Where $u$ = initial velocity, $v$ = final velocity, $s$ = displacement, $t$ = ti
 
 Each equation relates a different subset of the five variables ($u$, $v$, $a$, $s$, $t$). The
 Variable that does _not_ appear tells you when to use that equation. If you know $u$, $a$ And $s$ And
-need $v$Use $v^2 = u^2 + 2as$ (it does not contain $t$). If you know $u$, $v$ And $t$ and Need $s$Use
+need $v$ Use $v^2 = u^2 + 2as$ (it does not contain $t$). If you know $u$, $v$ And $t$ and Need $s$ Use
 $s = \frac{1}{2}(u+v)t$ (it does not contain $a$).
 
 **Example:** A car accelerates uniformly from $10 \mathrm{ m/s$ to $30 \mathrm{ m/s$ over a distance
@@ -27065,7 +27065,7 @@ Range: $R = v_x \cdot t = 17.32 \times 2.04 \approx 35.3 \mathrm{ m$.
 **First Law:** An object remains at rest or moves with constant velocity unless acted upon by a
 Resultant force.
 
-**Second Law:** $F = ma$Where $F$ is the resultant force, $m$ is mass, and $a$ is acceleration.
+**Second Law:** $F = ma$ Where $F$ is the resultant force, $m$ is mass, and $a$ is acceleration.
 
 **Third Law:** If object A exerts a force on object B, then B exerts an equal and opposite force on
 A.
@@ -27114,13 +27114,13 @@ $$
 
 ### Inclined Planes
 
-On a plane inclined at angle $\theta$Resolve forces parallel and perpendicular to the plane:
+On a plane inclined at angle $\theta$ Resolve forces parallel and perpendicular to the plane:
 
 - Component of weight down the slope: $mg\sin\theta$
 - Normal reaction: $N = mg\cos\theta$
 - Friction: $f = \mu N = \mu mg\cos\theta$ (opposing motion)
 
-The block slides when $mg\sin\theta \gt \mu mg\cos\theta$I.e., $\tan\theta \gt \mu$.
+The block slides when $mg\sin\theta \gt \mu mg\cos\theta$ I.e., $\tan\theta \gt \mu$.
 
 ### Friction on Inclined Planes
 
@@ -27140,7 +27140,7 @@ The negative sign indicates deceleration.
 
 ## Work, Energy, and Power
 
-**Work Done:** $W = Fs\cos\theta$Where $\theta$ is the angle between the force and displacement.
+**Work Done:** $W = Fs\cos\theta$ Where $\theta$ is the angle between the force and displacement.
 
 For force in the direction of motion: $W = Fs$.
 
@@ -27229,7 +27229,7 @@ Zero, the total momentum of the system cannot change. This is one of the most po
 Laws in physics.
 
 **Example:** A $2 \mathrm{ kg$ ball moving at $5 \mathrm{ m/s$ collides with a stationary
-$3 \mathrm{ kg$ ball. If the $2 \mathrm{ kg$ ball rebounds at $1 \mathrm{ m/s$Find the velocity of
+$3 \mathrm{ kg$ ball. If the $2 \mathrm{ kg$ ball rebounds at $1 \mathrm{ m/s$ Find the velocity of
 The $3 \mathrm{ kg$ ball.
 
 Conservation of momentum:
@@ -27279,7 +27279,7 @@ $$
 v_1 = \frac{m_1 - m_2}{m_1 + m_2} u_1, \qquad v_2 = \frac{2m_1}{m_1 + m_2} u_1
 $$
 
-**Special case:** If $m_1 = m_2$The objects exchange velocities.
+**Special case:** If $m_1 = m_2$ The objects exchange velocities.
 
 ## Circular Motion (Higher)
 
@@ -27366,7 +27366,7 @@ The minimum speed at the top to maintain circular motion: $v_{\min} = \sqrt{gr}$
    fallen $2 \mathrm{ m$.
 
 7. A crane lifts a $500 \mathrm{ kg$ load from rest with constant acceleration. In the first
-   $3 \mathrm{ s$It rises $9 \mathrm{ m$. Find the tension in the cable.
+   $3 \mathrm{ s$ It rises $9 \mathrm{ m$. Find the tension in the cable.
 
 8. A bullet of mass $10 \mathrm{ g$ travelling at $400 \mathrm{ m/s$ embeds itself in a wooden block
    of mass $2 \mathrm{ kg$ at rest. Find the velocity of the block immediately after impact.
@@ -27380,7 +27380,7 @@ The minimum speed at the top to maintain circular motion: $v_{\min} = \sqrt{gr}$
 
 ## 11. Derivation of the Kinematic Equations from Calculus (Advanced Higher)
 
-For constant acceleration $a$Starting from the definition of acceleration:
+For constant acceleration $a$ Starting from the definition of acceleration:
 
 $$
 a = \frac{dv}{dt}
@@ -27402,7 +27402,7 @@ $$
 \int_0^s ds = \int_0^t (u + at')\, dt' \implies s = ut + \frac{1}{2}at^2
 $$
 
-This is the second kinematic equation. To eliminate $t$Substitute $t = (v - u)/a$ into the second
+This is the second kinematic equation. To eliminate $t$ Substitute $t = (v - u)/a$ into the second
 Equation:
 
 $$
@@ -27449,7 +27449,7 @@ Horizontal distance: $R = v_x t = 13.59 \times 3.58 = 48.7 \mathrm{ m$.
 ## 13. Worked Example: Energy with Friction on an Incline
 
 A $4 \mathrm{ kg$ block slides $5 \mathrm{ m$ down a $30^\circ$ rough incline with
-$\mu_k = 0.2$Starting From rest.
+$\mu_k = 0.2$ Starting From rest.
 
 **Work done by gravity:**
 $W_g = mg\sin\theta \times d = 4 \times 9.8 \times \sin 30° \times 5 = 98 \mathrm{ J$
@@ -27529,7 +27529,7 @@ The ball to just complete the circle, we need $v_t = \sqrt{gL} = \sqrt{11.76} = 
     friction required.
 
 3. A bullet of mass $8 \mathrm{ g$ travelling at $600 \mathrm{ m/s$ passes through a wooden block
-    of mass $2 \mathrm{ kg$Emerging at $200 \mathrm{ m/s$. Calculate the velocity of the block and
+    of mass $2 \mathrm{ kg$ Emerging at $200 \mathrm{ m/s$. Calculate the velocity of the block and
     the kinetic energy lost.
 
 4. A $5 \mathrm{ kg$ box is pushed up a $35^\circ$ incline at constant speed by a force of
@@ -27539,7 +27539,7 @@ The ball to just complete the circle, we need $v_t = \sqrt{gL} = \sqrt{11.76} = 
     a vertical circle. Calculate the minimum speed at the lowest point for the ball to complete the
     full circle.
 
-6. Two objects of masses $3 \mathrm{ kg$ and $5 \mathrm{ kg$Connected by a light string, are placed
+6. Two objects of masses $3 \mathrm{ kg$ and $5 \mathrm{ kg$ Connected by a light string, are placed
     on a smooth table with a pulley at the edge. The $5 \mathrm{ kg$ mass hangs over the edge. Find
     the speed of the system after the $5 \mathrm{ kg$ mass has fallen $1.5 \mathrm{ m$ using energy
     methods.
@@ -27710,7 +27710,7 @@ The system remains stationary.
 
 ### Pitfall 6: Using Kinematic Equations for Non-Constant Acceleration
 
-The standard kinematic equations ($v = u + at$$s = ut + \frac{1}{2}at^2$Etc.) assume _constant_
+The standard kinematic equations ($v = u + at$$s = ut + \frac{1}{2}at^2$ Etc.) assume _constant_
 Acceleration. For variable acceleration, you must use calculus:
 
 $$
@@ -27805,7 +27805,7 @@ Light and matter exhibit both wave-like and particle-like properties.
 Are emitted.
 
 - Electrons are emitted **instantaneously**, not after a delay
-- No electrons are emitted if the frequency is below the threshold frequency $f_0$Regardless of
+- No electrons are emitted if the frequency is below the threshold frequency $f_0$ Regardless of
   intensity
 - The maximum kinetic energy of emitted electrons depends on frequency, not intensity
 - More intense light produces more electrons, not more energetic ones
@@ -27814,7 +27814,7 @@ Are emitted.
 
 Classical wave theory predicts that the energy of a light wave depends on its intensity (amplitude),
 Not its frequency. A sufficiently intense low-frequency light should eventually eject electrons.
-This does not happen. Einstein"s explanation -- that light consists of discrete photons with energy
+This does not happen. Einstein's explanation -- that light consists of discrete photons with energy
 $E = hf$ -- correctly predicts that the kinetic energy of emitted electrons depends on frequency,
 And that there is a threshold frequency below which no electrons are emitted regardless of
 Intensity. This was one of the key experiments that led to quantum mechanics.
@@ -28157,8 +28157,8 @@ flowchart TD
    sources decrease it.
 
 6. **Confusing baryon number and atomic mass number.** Baryon number counts the number of quarks
-   minus antiquarks (each quark has $B = 1/3$Each antiquark has $B = -1/3$). A proton has $B = 1$ a
-   neutron has $B = 1$A meson has $B = 0$.
+   minus antiquarks (each quark has $B = 1/3$ Each antiquark has $B = -1/3$). A proton has $B = 1$ a
+   neutron has $B = 1$ A meson has $B = 0$.
 
 ---
 
@@ -28238,7 +28238,7 @@ $2 \mathrm{ cm^2$.
 **Photon energy:**
 $E = hf = 6.63 \times 10^{-34} \times 7 \times 10^{14} = 4.64 \times 10^{-19} \mathrm{ J = 2.90 \mathrm{ eV$
 
-Since $2.90 \mathrm{ eV \gt 2.0 \mathrm{ eV$Photoelectrons are emitted.
+Since $2.90 \mathrm{ eV \gt 2.0 \mathrm{ eV$ Photoelectrons are emitted.
 
 **Maximum KE:** $E_k = 2.90 - 2.0 = 0.90 \mathrm{ eV$
 
@@ -28889,7 +28889,7 @@ $$
 
 ### Derivation of the Wave Equation
 
-In one period $T$Each wavefront travels a distance of one wavelength $\lambda$. Therefore:
+In one period $T$ Each wavefront travels a distance of one wavelength $\lambda$. Therefore:
 
 $$
 v = \frac{\mathrm{distance}{\mathrm{time} = \frac{\lambda}{T} = \lambda f
@@ -28911,7 +28911,7 @@ $$
 **Refraction:** When a wave passes from one medium to another, its speed changes. If it enters at an
 Angle, the direction changes.
 
-**Snell"s Law:**
+**Snell's Law:**
 
 $$
 n_1 \sin\theta_1 = n_2 \sin\theta_2
@@ -28987,7 +28987,7 @@ A path difference of $\lambda$ corresponds to a phase difference of $2\pi$ (one 
 
 ### Double Slit Experiment
 
-For light of wavelength $\lambda$ passing through two slits separated by distance $d$Observed on a
+For light of wavelength $\lambda$ passing through two slits separated by distance $d$ Observed on a
 Screen at distance $L$:
 
 **Fringe spacing:** $w = \dfrac{\lambda L}{d}$
@@ -29005,7 +29005,7 @@ $$
 d\sin\theta = n\lambda
 $$
 
-Where $d$ is the grating spacing, $\theta$ is the angle to the $n$Th order maximum, and $\lambda$ is
+Where $d$ is the grating spacing, $\theta$ is the angle to the $n$ Th order maximum, and $\lambda$ is
 The wavelength.
 
 **Example:** A diffraction grating has 500 lines per mm. Light of wavelength $580 \mathrm{ nm$ is
@@ -29124,7 +29124,7 @@ A = A_0 e^{-\lambda t}
 $$
 
 **Example:** A radioactive isotope has a half-life of 5 hours. If the initial activity is
-$800 \mathrm{ Bq$Find the activity after 15 hours.
+$800 \mathrm{ Bq$ Find the activity after 15 hours.
 
 $$
 \lambda = \frac{\ln 2}{5} = 0.1386 \mathrm{ h^{-1}
@@ -29234,7 +29234,7 @@ flowchart TD
 4. **Total internal reflection conditions:** It only occurs when light travels from a denser medium
    ($n_1$) to a less dense medium ($n_2$).
 
-5. **Decay constant and half-life:** $\lambda = \dfrac{\ln 2}{t_{1/2}}$Not
+5. **Decay constant and half-life:** $\lambda = \dfrac{\ln 2}{t_{1/2}}$ Not
    $\lambda = \dfrac{1}{t_{1/2}}$.
 
 6. **Confusing path difference and phase difference.** Path difference is in metres; phase
@@ -29270,7 +29270,7 @@ flowchart TD
 5. The binding energy per nucleon of iron-56 is $8.79 \mathrm{ MeV$. Find the total binding energy.
 
 6. In a double slit experiment, the fringe spacing is $3.2 \mathrm{ mm$ when the screen is
-   $1.2 \mathrm{ m$ from the slits. If the slit separation is $0.25 \mathrm{ mm$Find the wavelength
+   $1.2 \mathrm{ m$ from the slits. If the slit separation is $0.25 \mathrm{ mm$ Find the wavelength
    of the light.
 
 7. Write the nuclear equation for the beta-minus decay of carbon-14.
@@ -29405,7 +29405,7 @@ $$
 \beta_{\mathrm{total} = 10\log_{10}\left(\frac{3 \times 10^{-5}}{10^{-12}}\right) = 10\log_{10}(3 \times 10^7) = 10 \times 7.477 = 74.8 \mathrm{ dB
 $$
 
-Note: adding two sources of 70 dB and 73 dB gives $74.8 \mathrm{ dB$Not $143 \mathrm{ dB$. Decibels
+Note: adding two sources of 70 dB and 73 dB gives $74.8 \mathrm{ dB$ Not $143 \mathrm{ dB$. Decibels
 Do not add linearly. A 3 dB increase corresponds to a doubling of intensity, so adding a second
 Source of equal intensity adds 3 dB.
 
@@ -29417,7 +29417,7 @@ Source of equal intensity adds 3 dB.
 | Snell's law         | $n_1\sin\theta_1 = n_2\sin\theta_2$ | $n$, $\theta$        | Frequency unchanged       |
 | Critical angle      | $\sin\theta_c = n_2/n_1$            | $n_1 \gt n_2$        | Total internal reflection |
 | Double slit         | $w = \lambda L/d$                   | $\lambda$, $L$, $d$  | Fringe spacing            |
-| Diffraction grating | $d\sin\theta = n\lambda$            | $d$$\theta$$\lambda$ | $n$Th order maximum       |
+| Diffraction grating | $d\sin\theta = n\lambda$            | $d$$\theta$$\lambda$ | $n$ Th order maximum       |
 | Decibels            | $\beta = 10\log_{10}(I/I_0)$        | $I$$I_0$             | $I_0 = 10^{-12}$ W/m$^2$  |
 | Decay law           | $N = N_0 e^{-\lambda t}$            | $N_0$$\lambda$$t$    | Exponential decay         |
 | Half-life           | $t_{1/2} = \ln 2/\lambda$           | $\lambda$            | Constant for each isotope |
@@ -29439,7 +29439,7 @@ Source of equal intensity adds 3 dB.
     $= 343 \mathrm{ m/s$.)
 
 4. Calculate the binding energy per nucleon of carbon-12. Given: mass of carbon-12 =
-    $12.000 \mathrm{ u$Mass of proton $= 1.00728 \mathrm{ u$Mass of neutron $= 1.00867 \mathrm{ u$
+    $12.000 \mathrm{ u$ Mass of proton $= 1.00728 \mathrm{ u$ Mass of neutron $= 1.00867 \mathrm{ u$
     $1 \mathrm{ u = 931.5 \mathrm{ MeV/c^2$.
 
 5. A diffraction grating produces a first-order maximum at $22.0^{\circ}$ for light of wavelength
@@ -29494,14 +29494,14 @@ $$
 So the second secondary maximum has about $1.6\%$ of the central maximum intensity.
 
 :::note
-$\approx 1.6\%$Third $\approx 0.8\%$ of $I_0$. Most of the diffracted light energy is concentrated
+$\approx 1.6\%$ Third $\approx 0.8\%$ of $I_0$. Most of the diffracted light energy is concentrated
 In the central maximum.
 :::
 
 ### Example 22: Radioactive Dating
 
 A sample of ancient wood contains $25\%$ of the original carbon-14. Given that the half-life of
-Carbon-14 is $5730 \mathrm{ years$Calculate the age of the sample.
+Carbon-14 is $5730 \mathrm{ years$ Calculate the age of the sample.
 
 **Step 1: Use the decay law**
 
@@ -29529,7 +29529,7 @@ $$
 t = \frac{-\ln(0.25)}{\lambda} = \frac{1.386}{1.209 \times 10^{-4}} = 11460 \mathrm{ years
 $$
 
-**Check:** Since $0.25 = (1/2)^2$The sample has undergone exactly 2 half-lives, so
+**Check:** Since $0.25 = (1/2)^2$ The sample has undergone exactly 2 half-lives, so
 $t = 2 \times 5730 = 11460 \mathrm{ years$. This confirms our calculation.
 
 ### Example 23: Sound Level Addition with Multiple Sources
@@ -29575,7 +29575,7 @@ $+10 \mathrm{ dB$. This Logarithmic behaviour surprises many students.
 
 ### Pitfall 7: Forgetting the Factor of 2 in Coherent Source Path Difference
 
-For two coherent sources separated by distance $d$The path difference to a point at angle $\theta$
+For two coherent sources separated by distance $d$ The path difference to a point at angle $\theta$
 Is $d \sin\theta$_not_ $2d \sin\theta$. The factor of 2 only appears in thin film interference Where
 the light traverses the film twice (reflection from top and bottom surfaces).
 
@@ -29640,7 +29640,7 @@ $L_3 = 5\lambda/4 = 5 \times 0.165 = 0.825 \mathrm{ m = 82.5 \mathrm{ cm$
 ### Example 27: Nuclear Binding Energy Calculation
 
 Calculate the binding energy per nucleon of helium-4. Given: mass of helium-4 nucleus
-$= 4.001506 \mathrm{ u$Mass of proton $= 1.007276 \mathrm{ u$Mass of neutron
+$= 4.001506 \mathrm{ u$ Mass of proton $= 1.007276 \mathrm{ u$ Mass of neutron
 $= 1.008665 \mathrm{ u$$1 \mathrm{ u = 931.5 \mathrm{ MeV/c^2$.
 
 **Step 1: Calculate mass defect**
@@ -29739,7 +29739,7 @@ Where $\tau$ is the dead time.
     minima. (Speed of sound $= 343 \mathrm{ m/s$.)
 
 4. Calculate the energy released when two deuterium nuclei fuse to form helium-3 and a neutron.
-    Mass of deuterium $= 2.013553 \mathrm{ u$Mass of helium-3 $= 3.016029 \mathrm{ u$Mass of neutron
+    Mass of deuterium $= 2.013553 \mathrm{ u$ Mass of helium-3 $= 3.016029 \mathrm{ u$ Mass of neutron
     $= 1.008665 \mathrm{ u$.
 
 5. Explain the principles of a gamma camera used in medical imaging. Describe how the collimator,

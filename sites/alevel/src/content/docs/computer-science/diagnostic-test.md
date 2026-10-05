@@ -578,7 +578,7 @@ In $L$.
 <details>
 <summary>Answer</summary>
 
-The halting problem asks: given a TM $M$ and input $w$Does $M$ halt on $w$? It is undecidable
+The halting problem asks: given a TM $M$ and input $w$ Does $M$ halt on $w$? It is undecidable
 Because assuming a decider $H$ exists leads to a contradiction when we construct a machine $D$ that
 Does the opposite of $H$ when run on itself.
 

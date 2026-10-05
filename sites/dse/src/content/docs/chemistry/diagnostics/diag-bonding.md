@@ -45,7 +45,7 @@ why this prediction is incorrect. [2 marks]
 Total valence electrons = $7 + 3 \times 7 = 28$.
 
 Lewis structure: $Cl$ forms three single bonds with three $F$ atoms (using 6 electrons). Remaining
-electrons = $28 - 6 = 22$I.e. 11 lone pairs. Each $F$ gets 3 lone pairs (using $3 \times 6 = 18$
+electrons = $28 - 6 = 22$ I.e. 11 lone pairs. Each $F$ gets 3 lone pairs (using $3 \times 6 = 18$
 electrons). Remaining on $Cl$: $22 - 18 = 4$ electrons = 2 lone pairs.
 
 Electron domain geometry: **trigonal bipyramidal** (5 domains: 3 bonding pairs + 2 lone pairs).
@@ -92,7 +92,7 @@ Consider the following molecules: $CF_{4}$$CH_{2}F_{2}$$CHF_{3}$.
 molecular geometry. [4 marks]
 
 (c) Explain why $CF_{4}$ has a boiling point of $-128\degree C$ while $CH_{2}F_{2}$ has a boiling
-point of $-52\degree C$Even though $CF_{4}$ has a higher molar mass. [3 marks]
+point of $-52\degree C$ Even though $CF_{4}$ has a higher molar mass. [3 marks]
 
 ---
 
@@ -120,7 +120,7 @@ the $C-H$ dipole, but the cancellation is **not complete** because the magnitude
 dipole $\neq C-H$ dipole). **Polar**.
 
 **$CH_{2}F_{2}$**: Tetrahedral geometry. Two $C-F$ dipoles and two $C-H$ dipoles. The resultant
-dipole depends on the vector sum. In $CH_{2}F_{2}$The $C-F$ and $C-H$ bonds can be arranged such
+dipole depends on the vector sum. In $CH_{2}F_{2}$ The $C-F$ and $C-H$ bonds can be arranged such
 that the dipole moments do not fully cancel (the molecule has $C_{2v}$ symmetry, not $T_{d}$).
 **Polar**.
 
@@ -237,7 +237,7 @@ Four substances have the following properties:
 
 (a) Identify the type of bonding in each substance. [4 marks]
 
-(b) For substance $W$Explain why it conducts electricity when molten but not when solid. [2 marks]
+(b) For substance $W$ Explain why it conducts electricity when molten but not when solid. [2 marks]
 
 (c) Substance $X$ has a higher melting point than substance $Y$. Explain this difference in terms of
 the types of intermolecular forces present. [3 marks]
@@ -272,7 +272,7 @@ electrons), insoluble in water.
 cannot be conducted. When molten, the ionic lattice breaks down and the ions become **mobile**,
 allowing them to carry charge.
 
-(c) $X$ has a higher melting point than $Y$Indicating **stronger intermolecular forces**. Possible
+(c) $X$ has a higher melting point than $Y$ Indicating **stronger intermolecular forces**. Possible
 explanations:
 
 - $X$ has hydrogen bonding (e.g., a molecule with $O-H$ or $N-H$ groups) while $Y$ only has London
@@ -435,8 +435,8 @@ $$
 
 The reaction is exothermic.
 
-(c) In $F_{2}$The fluorine atoms are very small, so the two bonding electrons are very close
-together and experience strong **inter-electronic repulsion**. In $Cl_{2}$The chlorine atoms are
+(c) In $F_{2}$ The fluorine atoms are very small, so the two bonding electrons are very close
+together and experience strong **inter-electronic repulsion**. In $Cl_{2}$ The chlorine atoms are
 larger, so the bonding electrons are further apart and the repulsion is weaker. The small size of
 fluorine also means the lone pairs on each $F$ atom are close to the bonding region, creating
 additional **lone pair-bond pair repulsion** that weakens the $F-F$ bond.

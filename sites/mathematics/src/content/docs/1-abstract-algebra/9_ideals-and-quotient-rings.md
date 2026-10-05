@@ -35,7 +35,7 @@ If only $ra \in I$ for all $r \in R$ and $a \in I$ Then $I$ is a **left ideal**.
 
 ### 9.2 Quotient Rings
 
-If $I$ is an ideal of $R$The **quotient ring** $R/I$ has elements $\{a + I : a \in R\}$ (cosets)
+If $I$ is an ideal of $R$ The **quotient ring** $R/I$ has elements $\{a + I : a \in R\}$ (cosets)
 With operations $(a + I) + (b + I) = (a + b) + I$ and $(a + I)(b + I) = ab + I$.
 
 **Theorem 9.2 (Ring Isomorphism Theorem).** If $\phi : R \to S$ is a surjective ring homomorphism,
@@ -59,11 +59,11 @@ An ideal $I \neq R$ is **maximal** if there is no ideal $J$ with $I \subsetneq J
 
 _Proof._ A field is an integral domain. $\blacksquare$
 
-**Example.** In $\mathbb{Z}$The ideal $(p)$ is maximal (hence prime) if and only if $p$ is prime.
+**Example.** In $\mathbb{Z}$ The ideal $(p)$ is maximal (hence prime) if and only if $p$ is prime.
 The ideal $(6)$ is neither prime nor maximal. The ideal $(0)$ is prime ($\mathbb{Z}$ is an integral
 domain) But not maximal ($\mathbb{Z}/(0) \cong \mathbb{Z}$ is not a field).
 
-**Example.** In $\mathbb{R}[x]$The ideal $(x^2 + 1)$ is maximal since
+**Example.** In $\mathbb{R}[x]$ The ideal $(x^2 + 1)$ is maximal since
 $\mathbb{R}[x]/(x^2 + 1) \cong \mathbb{C}$ is a field.
 
 **Problem.** Show that $(2)$ is a maximal ideal of $\mathbb{Z}$ but $(4)$ is not.
@@ -90,8 +90,8 @@ R/(I \cap J) \cong R/I \times R/J
 $$
 
 _Proof._ Define $\phi : R \to R/I \times R/J$ by $\phi(r) = (r + I, r + J)$. This is a ring
-homomorphism. It is surjective: since $I + J = R$There exist $a \in I$ and $b \in J$ with
-$a + b = 1$. For any $(r_1 + I, r_2 + J)$Take $r = r_1b + r_2a$. Then
+homomorphism. It is surjective: since $I + J = R$ There exist $a \in I$ and $b \in J$ with
+$a + b = 1$. For any $(r_1 + I, r_2 + J)$ Take $r = r_1b + r_2a$. Then
 $r \equiv r_1b \equiv r_1(1-a) \equiv r_1 \pmod{I}$ And
 $r \equiv r_2a \equiv r_2(1-b) \equiv r_2 \pmod{J}$.
 
@@ -101,7 +101,7 @@ isomorphism theorem, $R/(I \cap J) \cong R/I \times R/J$. $\blacksquare$
 **Corollary 9.6.** If $m, n \in \mathbb{Z}$ are coprime, then
 $\mathbb{Z}/(mn) \cong \mathbb{Z}/(m) \times \mathbb{Z}/(n)$.
 
-_Proof._ Apply Theorem 9.5 with $I = (m)$, $J = (n)$. Since $\gcd(m, n) = 1$We have
+_Proof._ Apply Theorem 9.5 with $I = (m)$, $J = (n)$. Since $\gcd(m, n) = 1$ We have
 $(m) + (n) = (1) = \mathbb{Z}$. Also $(m) \cap (n) = (\mathrm{lcm}(m, n)) = (mn)$. $\blacksquare$
 
 **Problem.** Find all solutions to $x \equiv 2 \pmod{3}$, $x \equiv 3 \pmod{5}$,
@@ -114,11 +114,11 @@ _Solution._ By the Chinese Remainder Theorem, since $\gcd(3, 5) = \gcd(3, 7) = \
 is a unique solution modulo $105$.
 
 First, solve $x \equiv 2 \pmod{3}$ and $x \equiv 3 \pmod{5}$. $x = 2 + 3k$: we need
-$2 + 3k \equiv 3 \pmod{5}$ So $3k \equiv 1 \pmod{5}$Giving $k \equiv 2 \pmod{5}$. Thus
+$2 + 3k \equiv 3 \pmod{5}$ So $3k \equiv 1 \pmod{5}$ Giving $k \equiv 2 \pmod{5}$. Thus
 $x \equiv 2 + 6 = 8 \pmod{15}$.
 
 Now solve $x \equiv 8 \pmod{15}$ and $x \equiv 1 \pmod{7}$. $x = 8 + 15k$: we need
-$8 + 15k \equiv 1 \pmod{7}$ So $1 + k \equiv 1 \pmod{7}$Giving $k \equiv 0 \pmod{7}$. Thus
+$8 + 15k \equiv 1 \pmod{7}$ So $1 + k \equiv 1 \pmod{7}$ Giving $k \equiv 0 \pmod{7}$. Thus
 $x \equiv 8 \pmod{105}$.
 
 The unique solution modulo $105$ is $x \equiv 8 \pmod{105}$. $\blacksquare$

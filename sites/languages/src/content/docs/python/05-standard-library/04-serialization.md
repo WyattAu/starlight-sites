@@ -308,7 +308,7 @@ print(data)  # {'host': "localhost'', "port': "localhost''} (or env values)
 
 ## TOML
 
-TOML (Tom"s Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
+TOML (Tom's Obvious Minimal Language) is designed for configuration files. Python 3.11+ includes
 `tomllib` in the standard library.
 
 ### Reading TOML (Python 3.11+)

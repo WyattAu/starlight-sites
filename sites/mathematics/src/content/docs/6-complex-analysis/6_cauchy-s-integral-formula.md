@@ -19,7 +19,7 @@ description: "If is analytic on a connected domain Containing a simple closed po
 
 ### 6.1 Statement
 
-**Theorem 6.1 (Cauchy"s Integral Formula).** If $f$ is analytic on a connected domain Containing a
+**Theorem 6.1 (Cauchy's Integral Formula).** If $f$ is analytic on a connected domain Containing a
 simple closed positively oriented contour $\gamma$ And $z_0$ is inside $\gamma$ Then
 
 $$
@@ -82,7 +82,7 @@ $\blacksquare$
 **Theorem 6.5 (Liouville's Theorem).** Every bounded entire function is constant.
 
 _Proof._ If $|f(z)| \leq M$ for all $z$ Then by Cauchy's estimates with $R$ arbitrarily large:
-$|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$Meaning $f$ is
+$|f'(z_0)| \leq \frac{M}{R} \to 0$ as $R \to \infty$. So $f'(z) = 0$ for all $z$ Meaning $f$ is
 Constant. $\blacksquare$
 
 **Corollary 6.6.** If $f$ is entire and $|f(z)| \geq M$ for all $z$ (bounded away from zero), then
@@ -109,7 +109,7 @@ Counting multiplicities.
 
 **Problem.** Evaluate $\int_\gamma \frac{e^z}{z - 1}\, dz$ where $\gamma$ is $|z| = 2$.
 
-_Solution._ The function $\frac{e^z}{z - 1}$ has a singularity at $z = 1$Which lies inside $\gamma$.
+_Solution._ The function $\frac{e^z}{z - 1}$ has a singularity at $z = 1$ Which lies inside $\gamma$.
 By Cauchy's integral formula with $f(z) = e^z$ and $z_0 = 1$:
 
 $\int_\gamma \frac{e^z}{z - 1}\, dz = 2\pi i \cdot f(1) = 2\pi i \cdot e^1 = 2\pi i e$.

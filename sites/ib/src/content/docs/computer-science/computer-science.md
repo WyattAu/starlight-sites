@@ -1035,7 +1035,7 @@ Total iterations: $1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}$
 For `mystery(4)`: $1 + 2 + 3 + 4 = 10$. Output: **10** For `mystery(5)`: $1 + 2 + 3 + 4 + 5 = 15$.
 Output: **15**
 
-Time complexity: $O(n^2)$ (the dominant term is $n^2/2$Constants are dropped in Big-O).
+Time complexity: $O(n^2)$ (the dominant term is $n^2/2$ Constants are dropped in Big-O).
 
 The nested loop pattern where the inner loop bound depends on the outer loop variable produces the
 Triangular number series. This is a common pattern in IB exam questions.

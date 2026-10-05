@@ -77,7 +77,7 @@ The UDP header is 8 bytes -- the smallest of any transport protocol:
 - **Unreliable:** No acknowledgments, no retransmissions. Datagrams may be lost, duplicated, or
   arrive out of order. The application is responsible for handling these cases if needed.
 - **Message-oriented:** Each `sendto()` call produces exactly one datagram. The receiver gets the
-  exact message boundaries. This is fundamentally different from TCP"s byte-stream model.
+  exact message boundaries. This is fundamentally different from TCP's byte-stream model.
 - **No flow control:** If the receiver cannot keep up, datagrams are silently dropped. The kernel's
   receive buffer fills up, and new datagrams are discarded. `ss -uanp` shows the receive queue
   depth.
@@ -395,7 +395,7 @@ The original TCP header has a 16-bit window field, limiting the window to 65,535
 Bandwidth-delay products (e.g., satellite links, long-haul fiber), this limits throughput.
 
 The **Window Scaling** option (RFC 7323) allows the window to be scaled by a factor of
-$2^{\mathrm{scale}$Where scale ranges from 0 to 14:
+$2^{\mathrm{scale}$ Where scale ranges from 0 to 14:
 
 $$
 \mathrm{Effective Window = \mathrm{Window \times 2^{\mathrm{scale factor}

@@ -55,7 +55,7 @@ Key four-vectors in electromagnetism:
 **Four-velocity:** $U^\mu = \frac{dx^\mu}{d\tau} = \gamma(c, v_x, v_y, v_z)$ where $\tau$ is proper
 time.
 
-**Four-momentum:** $p^\mu = mU^\mu = (E/c, p_x, p_y, p_z)$With $E = \gamma mc^2$.
+**Four-momentum:** $p^\mu = mU^\mu = (E/c, p_x, p_y, p_z)$ With $E = \gamma mc^2$.
 
 **Four-current density:**
 
@@ -86,7 +86,7 @@ $$
 ### 7.3 The Electromagnetic Field Tensor
 
 The six components of $\mathbf{E}$ and $\mathbf{B}$ are unified in the **antisymmetric field
-Tensor** $F^{\mu\nu}$Defined by:
+Tensor** $F^{\mu\nu}$ Defined by:
 
 $$
 F^{\mu\nu} = \partial^\mu A^\nu - \partial^\nu A^\mu
@@ -190,8 +190,8 @@ These invariants classify electromagnetic fields:
 
 - If $E^2 \gt c^2 B^2$ in some frame, there exists a frame where $\mathbf{B} = \mathbf{0}$ (purely
   electric).
-- If $c^2 B^2 \gt E^2$There exists a frame where $\mathbf{E} = \mathbf{0}$ (purely magnetic).
-- If $\mathbf{E} \cdot \mathbf{B} = 0$ and $E = cB$The field is a null field (electromagnetic wave).
+- If $c^2 B^2 \gt E^2$ There exists a frame where $\mathbf{E} = \mathbf{0}$ (purely magnetic).
+- If $\mathbf{E} \cdot \mathbf{B} = 0$ and $E = cB$ The field is a null field (electromagnetic wave).
 
 
 ```mermaid

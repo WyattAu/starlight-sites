@@ -379,7 +379,7 @@ END FOR
 ```
 
 The inner loop executes 5 times for each of the 5 iterations of the outer loop, giving a total of 25
-Iterations. For nested loops with outer loop size $m$ and inner loop size $n$The total iterations
+Iterations. For nested loops with outer loop size $m$ and inner loop size $n$ The total iterations
 Are $m \times n$.
 
 ### Common Loop Patterns
@@ -422,8 +422,8 @@ IF i ← i + 1 END WHILE
 
 ### Common Pitfalls: Loops
 
-- **Off-by-one errors:** The most common loop bug. For an array of size $n$Valid indices are $0$ to
-  $n - 1$. A FOR loop from $0$ TO $n$ would access index $n$Which is out of bounds. Always trace
+- **Off-by-one errors:** The most common loop bug. For an array of size $n$ Valid indices are $0$ to
+  $n - 1$. A FOR loop from $0$ TO $n$ would access index $n$ Which is out of bounds. Always trace
   with boundary values.
 - **Infinite WHILE loops:** If the loop variable is never updated inside the loop body, the
   condition never changes and the loop runs forever. Always ensure the loop variable moves toward
@@ -1223,7 +1223,7 @@ END LOOP
   that can never become false.
 - Modifying the loop variable inside the loop body (in a FOR loop), which can produce unexpected
   behavior depending on the language.
-- Fence-post errors: looping one time too many or one time too few. For an array of size $n$Valid
+- Fence-post errors: looping one time too many or one time too few. For an array of size $n$ Valid
   indices are $0$ to $n - 1$.
 
 **Recursion:**
@@ -1595,7 +1595,7 @@ END FUNCTION
 - Check divisibility by 2 separately, then only test odd divisors (step by 2).
 - Only test up to $\sqrt{n}$ (since if $n = a \times b$ and $a \leq b$ Then $a \leq \sqrt{n}$). In
   pseudocode, `i * i $\le$` n avoids needing a square root function.
-- Time complexity: $O(\sqrt{n})$Which is efficient for the values tested in IB exams.
+- Time complexity: $O(\sqrt{n})$ Which is efficient for the values tested in IB exams.
 
 **Revision:** Functions, Iteration, WHILE Loop, Operators (MOD)
 

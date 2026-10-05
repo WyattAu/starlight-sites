@@ -109,7 +109,7 @@ Count so it cannot deallocate while the object is alive. Formally:
 
 - **Object lifetime:** The managed object exists if and only if $s \gt 0$.
 - **Deleter invocation:** When $s$ transitions from 1 to 0, the deleter is invoked.
-- **Control block deallocation:** When both $s = 0$ and $w = 0$The control block memory is freed
+- **Control block deallocation:** When both $s = 0$ and $w = 0$ The control block memory is freed
  via the stored allocator (or `operator delete` by default).
 
 This two-phase destruction is critical: the object dies first (when strong owners vanish), but the

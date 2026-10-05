@@ -123,7 +123,7 @@ $$
 <details>
 <summary>Worked Example 13.1: WKB Tunnelling Through a Barrier</summary>
 
-For a potential barrier $V(x) = V_0(1 - x^2/a^2)$ for $|x| < a$With $E < V_0$The WKB transmission
+For a potential barrier $V(x) = V_0(1 - x^2/a^2)$ for $|x| < a$ With $E < V_0$ The WKB transmission
 probability is:
 
 $$
@@ -160,8 +160,8 @@ T \approx e^{-165.7} \approx 5 \times 10^{-73}
 $$
 
 This extremely small probability explains the enormously long half-lives of alpha-emitting nuclei
-($\sim 10^9$ years for $^{238}$U). The Geiger--Nuttall law relates $\log T_{1/2}$ to
-$E^{-1/2}$Consistent with the WKB exponential dependence.
+($\sim 10^9$ years for $^{238}$ U). The Geiger--Nuttall law relates $\log T_{1/2}$ to
+$E^{-1/2}$ Consistent with the WKB exponential dependence.
 
 </details>
 

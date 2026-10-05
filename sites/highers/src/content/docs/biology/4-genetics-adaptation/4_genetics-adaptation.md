@@ -227,7 +227,7 @@ Degrees of freedom: $2 - 1 = 1$.
 
 Critical value at 5% for 1 df: 3.841.
 
-Since $0.48 \lt 3.841$The results are consistent with a 3:1 ratio. The difference is not
+Since $0.48 \lt 3.841$ The results are consistent with a 3:1 ratio. The difference is not
 Statistically significant.
 
 **Worked Example: Chi-squared for a dihybrid cross.**
@@ -250,7 +250,7 @@ $$
 
 Degrees of freedom: $4 - 1 = 3$. Critical value at 5% for 3 df: 7.815.
 
-Since $13.38 \gt 7.815$The observed results differ significantly from the expected 9:3:3:1 ratio.
+Since $13.38 \gt 7.815$ The observed results differ significantly from the expected 9:3:3:1 ratio.
 The null hypothesis is rejected.
 
 ---
@@ -451,7 +451,7 @@ See the examples integrated throughout the sections above.
 
 2. Explain how the lac operon allows E. Coli to regulate lactose metabolism.
 
-3. In a dihybrid cross between $\mathrm{RrYy \times \mathrm{rryy$Determine the expected phenotype
+3. In a dihybrid cross between $\mathrm{RrYy \times \mathrm{rryy$ Determine the expected phenotype
    ratio and the probability of an offspring with the genotype $\mathrm{RrYy$.
 
 4. A population has 9% of individuals showing a recessive genetic disorder. Calculate the frequency

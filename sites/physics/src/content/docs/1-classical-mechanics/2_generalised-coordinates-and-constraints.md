@@ -20,7 +20,7 @@ description: "A system with degrees of freedom can be described by Comprehensive
 ### 2.1 Generalised Coordinates
 
 A system with $n$ degrees of freedom can be described by $n$ **generalised coordinates**
-$q_1, q_2, \ldots, q_n$Which may be angles, arc lengths, or any other set of parameters that
+$q_1, q_2, \ldots, q_n$ Which may be angles, arc lengths, or any other set of parameters that
 Uniquely determines the configuration.
 
 The Cartesian coordinates are functions of the generalised coordinates (and possibly time):
@@ -79,7 +79,7 @@ integrated to eliminate the angles, so they are non-holonomic, scleronomic.
 
 (c) Constraint: $z \geq 0$. This is a non-holonomic constraint (an inequality, not an equation).
 
-(d) The constraint is $x = A\cos(\omega t) + l\sin\theta$Which depends explicitly on $t$. Holonomic
+(d) The constraint is $x = A\cos(\omega t) + l\sin\theta$ Which depends explicitly on $t$. Holonomic
 (can be written as an equation), rheonomic (explicit time dependence).
 
 $\blacksquare$
@@ -149,7 +149,7 @@ $$
 \sum_i (\mathbf{F}_i + \mathbf{C}_i) \cdot \delta\mathbf{r}_i = 0
 $$
 
-For ideal constraints, $\sum_i \mathbf{C}_i \cdot \delta\mathbf{r}_i = 0$So
+For ideal constraints, $\sum_i \mathbf{C}_i \cdot \delta\mathbf{r}_i = 0$ So
 $\sum_i \mathbf{F}_i \cdot \delta\mathbf{r}_i = 0$. Conversely, if the virtual work of applied
 forces vanishes for all admissible virtual displacements, the system must be in equilibrium
 (otherwise one could choose a virtual displacement in the direction of net force to get non-zero
@@ -172,7 +172,7 @@ $$
 \sum_i (\mathbf{F}_i + \mathbf{C}_i - m_i\ddot{\mathbf{r}}_i) \cdot \delta\mathbf{r}_i = 0
 $$
 
-This is true. For ideal constraints $\sum_i \mathbf{C}_i \cdot \delta\mathbf{r}_i = 0$Giving:
+This is true. For ideal constraints $\sum_i \mathbf{C}_i \cdot \delta\mathbf{r}_i = 0$ Giving:
 
 $$
 \sum_i (\mathbf{F}_i - m_i\ddot{\mathbf{r}}_i) \cdot \delta\mathbf{r}_i = 0

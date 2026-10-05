@@ -28,7 +28,7 @@ Calculations at Higher Level.
 
 ## The Mole Concept (OL/HL)
 
-### Avogadro"s Number
+### Avogadro's Number
 
 $$
 N_A = 6.022 \times 10^{23}\mathrm{ mol^{-1}
@@ -179,7 +179,7 @@ $$
 
 Stoichiometry requires $n(\mathrm{O_2) = \frac{1}{2}n(\mathrm{Mg) = 0.0617\mathrm{ mol$.
 
-Since $0.156 > 0.0617$Oxygen is in excess and magnesium is the limiting reagent.
+Since $0.156 > 0.0617$ Oxygen is in excess and magnesium is the limiting reagent.
 
 $$
 N(\mathrm{MgO) = n(\mathrm{Mg) = 0.123\mathrm{ mol
@@ -408,7 +408,7 @@ The ideal gas equation combines three gas laws:
 - **Charles's Law:** $V \propto T$ (at constant $p$)
 - **Avogadro's Law:** $V \propto n$ (at constant $p$ and $T$)
 
-Combining: $pV = nRT$Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$.
+Combining: $pV = nRT$ Where $R = 8.314 \mathrm{ J mol^{-1}\mathrm{K^{-1}$.
 
 ### Assumptions of the Ideal Gas Model
 
@@ -597,7 +597,7 @@ $$
 
 Stoichiometry requires $n(\mathrm{HCl) = 2 \times n(\mathrm{Zn) = 0.306 \mathrm{ mol$.
 
-Since $0.200 < 0.306$HCl is the limiting reagent.
+Since $0.200 < 0.306$ HCl is the limiting reagent.
 
 $$
 n(\mathrm{ZnCl_2) = \frac{1}{2} \times 0.200 = 0.100 \mathrm{ mol
@@ -775,7 +775,7 @@ $$
     monoprotic.
 9. What mass of $\mathrm{AgCl$ precipitate would be formed when excess $\mathrm{AgNO_3$ is added to
     $25.0 \mathrm{ cm^3$ of $0.150 \mathrm{ M$ $\mathrm{MgCl_2$?
-10. A gas mixture at $100 \mathrm{ kPa$ and $298 \mathrm{ K$ contains $\mathrm{N_2$, $\mathrm{O_2$And
+10. A gas mixture at $100 \mathrm{ kPa$ and $298 \mathrm{ K$ contains $\mathrm{N_2$, $\mathrm{O_2$ And
     $\mathrm{CO_2$ with partial pressures of 78, 21, and 1 kPa respectively. Calculate the mole
     fraction and number of moles of each gas if the total volume is $10.0 \mathrm{ L$.
 11. Find the empirical formula of a compound that contains 37.5% C, 12.5% H, and 50.0% O by mass.

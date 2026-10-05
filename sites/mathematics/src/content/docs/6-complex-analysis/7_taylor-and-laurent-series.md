@@ -27,7 +27,7 @@ $$
 
 And the series converges uniformly on compact subsets of $|z - z_0| \lt R$.
 
-_Proof._ For $|z - z_0| \lt r \lt R$Apply Cauchy"s integral formula on $|\zeta - z_0| = r$:
+_Proof._ For $|z - z_0| \lt r \lt R$ Apply Cauchy's integral formula on $|\zeta - z_0| = r$:
 
 $f(z) = \frac{1}{2\pi i}\int_{|\zeta - z_0| = r} \frac{f(\zeta)}{\zeta - z}\, d\zeta$
 
@@ -72,7 +72,7 @@ $$
 
 $\frac{1}{z} = \frac{1}{1 + (z - 1)} = \sum_{n=0}^{\infty} (-1)^n (z - 1)^n$ for $|z - 1| \lt 1$.
 
-Radius of convergence: distance from $z_0 = 1$ to the singularity at $z = 0$Which is $1$.
+Radius of convergence: distance from $z_0 = 1$ to the singularity at $z = 0$ Which is $1$.
 
 **Problem.** Find the Taylor series of $f(z) = \frac{1}{(1 - z)^2}$ centered at $z_0 = 0$.
 

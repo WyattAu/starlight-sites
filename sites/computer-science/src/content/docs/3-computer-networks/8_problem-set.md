@@ -56,7 +56,7 @@ description: "1. A noiseless channel has bandwidth 8000 Hz. What is the maximum 
 12. **IPv6 addressing.** Expand the IPv6 address `2001:db8::1` to its full 128-bit form. How many
     /64 subnets does a /56 prefix provide? How many /128 addresses per /64?
 
-13. **Dijkstra"s algorithm.** Given the network topology below, find the shortest path tree from
+13. **Dijkstra's algorithm.** Given the network topology below, find the shortest path tree from
     router S to all destinations:
 
     ```

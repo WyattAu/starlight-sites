@@ -64,7 +64,7 @@ Result: 3 $\to$ 1 $\to$ 9 $\to$ 5.
 
 - Insert at head: $O(1)$ -- just update the head pointer and the new node's next.
 - Insert at position $k$: $O(n)$ -- must traverse $k$ nodes to find the insertion point. Even if the
-  insertion itself is $O(1)$The traversal dominates.
+  insertion itself is $O(1)$ The traversal dominates.
 
 (d) A doubly linked list has both `next` and `prev` pointers. For a deque (double-ended queue), we
 need to add and remove from both ends efficiently. With a singly linked list, removing from the tail
@@ -274,11 +274,11 @@ algorithm from A to all vertices. (c) State the shortest path from A to E and it
 
 (b) **Dijkstra's algorithm from A:**
 
-Initial: dist $= [0, \infty, \infty, \infty, \infty]$Visited $= \{\}$Prev $= [-, -, -, -, -]$.
+Initial: dist $= [0, \infty, \infty, \infty, \infty]$ Visited $= \{\}$ Prev $= [-, -, -, -, -]$.
 
-Visit A (dist $= 0$): update B $= 4$C $= 2$. Dist $= [0, 4, 2, \infty, \infty]$.
+Visit A (dist $= 0$): update B $= 4$ C $= 2$. Dist $= [0, 4, 2, \infty, \infty]$.
 
-Visit C (dist $= 2$): update B $= \min(4, 2+1) = 3$D $= 2+8 = 10$E $= 2+10 = 12$. Dist
+Visit C (dist $= 2$): update B $= \min(4, 2+1) = 3$ D $= 2+8 = 10$ E $= 2+10 = 12$. Dist
 $= [0, 3, 2, 10, 12]$.
 
 Visit B (dist $= 3$): update D $= \min(10, 3+5) = 8$. Dist $= [0, 3, 2, 8, 12]$.
@@ -318,7 +318,7 @@ The shortest path is A $\to$ C $\to$ B $\to$ D $\to$ E with total weight 10.
 **Question:** A binary search tree has $n$ nodes. (a) What is the worst-case height and best-case
 height? (b) If values 1, 2, 3, 4, 5, 6, 7 are inserted in sorted order, what is the resulting tree
 structure and height? (c) State the time complexity of searching in this tree vs a balanced tree.
-(d) If each comparison takes $1\ \mu\text{s}$Calculate the maximum search time for $n = 1000000$ in
+(d) If each comparison takes $1\ \mu\text{s}$ Calculate the maximum search time for $n = 1000000$ in
 a balanced vs unbalanced tree.
 
 **Solution:**

@@ -61,9 +61,9 @@ $$
 
 $\blacksquare$
 
-**Minima:** $\alpha = m\pi$I.e., $a\sin\theta = m\lambda$ for $m = \pm 1, \pm 2, \ldots$
+**Minima:** $\alpha = m\pi$ I.e., $a\sin\theta = m\lambda$ for $m = \pm 1, \pm 2, \ldots$
 
-**Central maximum:** at $\theta = 0$With width (first zero to first zero)
+**Central maximum:** at $\theta = 0$ With width (first zero to first zero)
 $\Delta\theta = 2\lambda/a$.
 
 The secondary maxima occur approximately midway between consecutive minima. Their intensities are:
@@ -109,7 +109,7 @@ Where $\alpha = \pi a\sin\theta/\lambda$ (diffraction envelope) and
 $\beta = \pi d\sin\theta/\lambda$ (interference fringes).
 
 The interference fringes are modulated by the diffraction envelope. **Missing orders** occur when
-$\beta = m\pi$ coincides with $\alpha = n\pi$I.e., when $d/a$ is a ratio of integers.
+$\beta = m\pi$ coincides with $\alpha = n\pi$ I.e., when $d/a$ is a ratio of integers.
 
 <details>
 <summary>Worked Example: Missing orders in a double-slit pattern</summary>
@@ -132,7 +132,7 @@ central envelope.
 
 ### 4.4 Diffraction Gratings
 
-A grating with $N$ slits, each of width $a$Separated by distance $d$:
+A grating with $N$ slits, each of width $a$ Separated by distance $d$:
 
 $$
 I(\theta) = I_0 \left(\frac{\sin\alpha}{\alpha}\right)^2 \left(\frac{\sin N\beta}{\sin\beta}\right)^2
@@ -156,7 +156,7 @@ Where $N$ is the total number of illuminated slits.
 the first order and the minimum resolvable wavelength difference at $\lambda = 600$ nm.
 
 **Solution.** Total number of slits: $N = 5000 \times 5.0 = 25000$. Slit spacing: $d = 1/5000$ cm
-$= 2.00 \times 10^{-6}$ m $= 2.00$ $\mu$M.
+$= 2.00 \times 10^{-6}$ m $= 2.00$ $\mu$ M.
 
 Resolving power: $R = mN = 1 \times 25000 = 25000$.
 
@@ -186,7 +186,7 @@ Produces patterns that depend on the distance.
 
 ### 4.7 Circular Aperture and the Airy Disk
 
-For a circular aperture of diameter $D$The Fraunhofer diffraction pattern is an **Airy pattern**:
+For a circular aperture of diameter $D$ The Fraunhofer diffraction pattern is an **Airy pattern**:
 
 $$
 I(\theta) = I_0 \left[\frac{2J_1(\beta)}{\beta}\right]^2
@@ -205,7 +205,7 @@ $$
 Where we used the identity $\int_0^a J_0(\rho r)\,r\,dr = aJ_1(\rho a)/\rho$. Since
 $I \propto |E|^2$ The result follows. $\blacksquare$
 
-The first zero of $J_1(\beta)$ is at $\beta = 1.22\pi$Giving:
+The first zero of $J_1(\beta)$ is at $\beta = 1.22\pi$ Giving:
 
 $$
 \sin\theta_1 = 1.22\frac{\lambda}{D}
@@ -233,7 +233,7 @@ $\theta_{\min} = 1.22\lambda/D = 1.22(550 \times 10^{-9})/(0.150) = 4.47 \times 
 
 Convert to arcseconds: $4.47 \times 10^{-6} \times (180/\pi) \times 3600 = 0.923''$.
 
-Since $0.50'' \lt 0.923''$The telescope cannot resolve these two stars, they would appear as a
+Since $0.50'' \lt 0.923''$ The telescope cannot resolve these two stars, they would appear as a
 Single blurred source.
 
 </details>
@@ -241,18 +241,18 @@ Single blurred source.
 ### 4.8 Introduction to Fourier Optics
 
 The Fraunhofer diffraction integral has a deep connection with Fourier analysis. For an aperture
-With transmission function $t(x, y)$The far-field diffraction pattern is:
+With transmission function $t(x, y)$ The far-field diffraction pattern is:
 
 $$
 E(\theta_x, \theta_y) \propto \iint t(x,y)\, e^{-i(k_x x + k_y y)}\,dx\,dy
 $$
 
 Where $k_x = k\sin\theta_x$ and $k_y = k\sin\theta_y$. This is precisely the **two-dimensional
-Fourier transform** of $t(x,y)$Evaluated at spatial frequencies $k_x/(2\pi)$ and $k_y/(2\pi)$.
+Fourier transform** of $t(x,y)$ Evaluated at spatial frequencies $k_x/(2\pi)$ and $k_y/(2\pi)$.
 
 **Key consequences:**
 
-1. A lens of focal length $f$Placed one focal length after the aperture, produces the Fourier
+1. A lens of focal length $f$ Placed one focal length after the aperture, produces the Fourier
    transform at its back focal plane, it performs an **optical Fourier transform**.
 2. Narrow features in the aperture (small $a$) produce broad diffraction patterns (large spread in
    $k$-space), and vice versa, the optical analogue of the uncertainty principle.
@@ -260,7 +260,7 @@ Fourier transform** of $t(x,y)$Evaluated at spatial frequencies $k_x/(2\pi)$ and
    spatial frequency components, modifying the image (the basis of optical image processing).
 
 **Example.** A single slit of width $a$ has aperture function $t(x) = \mathrm{rect}(x/a)$. Its
-Fourier Transform is $\mathrm{sinc}(\pi a \sin\theta/\lambda)$Directly giving the single-slit
+Fourier Transform is $\mathrm{sinc}(\pi a \sin\theta/\lambda)$ Directly giving the single-slit
 diffraction Pattern. A periodic grating has sharp peaks in the Fourier transform (the diffraction
 orders), each Corresponding to a spatial harmonic of the grating.
 

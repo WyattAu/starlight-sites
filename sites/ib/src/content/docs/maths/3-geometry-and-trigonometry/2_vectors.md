@@ -328,7 +328,7 @@ To find where line $\bm{r} = \bm{a} + t\bm{b}$ intersects plane $\bm{r} \cdot \h
 2. Solve for $t$: $, $
    t = \frac{d - \bm{a} \cdot \hat{n}}{\bm{b} \cdot \hat{n}}
    $, $
-3. If $\bm{b} \cdot \hat{n} = 0$The line is parallel to the plane (no intersection or lies in the
+3. If $\bm{b} \cdot \hat{n} = 0$ The line is parallel to the plane (no intersection or lies in the
    plane)
 
 ### Worked Example 3: Line-Plane Intersection
@@ -341,7 +341,7 @@ With plane $2x - y + z = 5$.
 
 Normal vector $\hat{n} = \begin{pmatrix} 2 \\ -1 \\ 1 \end{pmatrix}$$d = 5$.
 
-Point on line: $\bm{a} = \begin{pmatrix} 1 \\ 0 \\ 2 \end{pmatrix}$Direction:
+Point on line: $\bm{a} = \begin{pmatrix} 1 \\ 0 \\ 2 \end{pmatrix}$ Direction:
 $\bm{b} = \begin{pmatrix} 2 \\ 1 \\ -1 \end{pmatrix}$.
 
 $$
@@ -624,8 +624,8 @@ Vectors are arrows in space, they have both direction and magnitude. The dot pro
    always non-negative: use $|\bm{p} \cdot \hat{n} - d|$.
 
 4. **Assuming a line intersects a plane.** Always check that $\bm{b} \cdot \hat{n} \neq 0$ before
-   solving. If $\bm{b} \cdot \hat{n} = 0$ and $\bm{a} \cdot \hat{n} = d$The line lies in the plane.
-   If $\bm{b} \cdot \hat{n} = 0$ and $\bm{a} \cdot \hat{n} \neq d$The line is parallel to the plane.
+   solving. If $\bm{b} \cdot \hat{n} = 0$ and $\bm{a} \cdot \hat{n} = d$ The line lies in the plane.
+   If $\bm{b} \cdot \hat{n} = 0$ and $\bm{a} \cdot \hat{n} \neq d$ The line is parallel to the plane.
 
 5. **Angle between line and plane vs angle between line and normal.** The angle $\alpha$ between a
    line and a plane satisfies $\sin\alpha = \frac{|\bm{b} \cdot \hat{n}|}{|\bm{b}||\hat{n}|}$. The

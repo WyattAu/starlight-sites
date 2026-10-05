@@ -130,7 +130,7 @@ $$
 R_{\mathrm{parallel}} = \frac{R_1 R_2}{R_1 + R_2}
 $$
 
-**Proof.** $\frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} = \frac{R_1 + R_2}{R_1 R_2}$Hence
+**Proof.** $\frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} = \frac{R_1 + R_2}{R_1 R_2}$ Hence
 $R = \frac{R_1 R_2}{R_1 + R_2}$. $\square$
 
 **Intuition.** Adding resistors in series always increases total resistance (current must pass
@@ -193,7 +193,7 @@ Potential difference below the e.m.f.
 Of a power source when it is delivering current, equal to the e.m.f. Minus the potential difference
 Across the internal resistance: $V = \mathcal{E} - Ir$.
 
-Real power sources have **internal resistance** $r$Which causes the terminal p.d. To drop as Current
+Real power sources have **internal resistance** $r$ Which causes the terminal p.d. To drop as Current
 increases.
 
 ### Derivation of $V = \mathcal{E} - Ir$
@@ -264,13 +264,13 @@ The Thevenin resistance is the resistance between the two terminals when all ind
 Sources are replaced by short circuits (and current sources by open circuits).
 
 **Intuition.** Thevenin's theorem is powerful because it lets you simplify any complex circuit into
-A simple source-resistor pair. Once you know $V_{\mathrm{Th}}$ and $R_{\mathrm{Th}}$You can Predict
+A simple source-resistor pair. Once you know $V_{\mathrm{Th}}$ and $R_{\mathrm{Th}}$ You can Predict
 the behaviour of the circuit for any load.
 
 <details>
 <summary>Example: Thevenin Equivalent</summary>
 Find the Thevenin equivalent of a circuit with a 12 V battery in series with two parallel resistors
-$R_1 = 6\,\Omega$ and $R_2 = 3\,\Omega$Across terminals A and B that are across $R_2$.
+$R_1 = 6\,\Omega$ and $R_2 = 3\,\Omega$ Across terminals A and B that are across $R_2$.
 
 **Answer.** $V_{\mathrm{Th}}$ = open-circuit voltage across $R_2$ = potential divider:
 $V_{\mathrm{Th}} = 12 \times \frac{3}{6+3} = 4.0$ V.
@@ -299,7 +299,7 @@ $R_1$-$R_2$ and the junction of $R_3$-$R_4$.
 By KCL at each junction, the current through $R_1$ equals the current through $R_2$ (call it $I_1$),
 And the current through $R_3$ equals the current through $R_4$ (call it $I_2$).
 
-Since $I_g = 0$The p.d. Across the galvanometer is zero, so:
+Since $I_g = 0$ The p.d. Across the galvanometer is zero, so:
 
 $$
 V_A = V_B
@@ -385,9 +385,9 @@ $$
 A voltage source $V_{\mathrm{Th}}$ in series with $R_{\mathrm{Th}}$ is equivalent to a current
 Source $I_N$ in parallel with $R_N$.
 
-**Proof.** For the Thevenin equivalent: open-circuit voltage $= V_{\mathrm{Th}}$Short-circuit
+**Proof.** For the Thevenin equivalent: open-circuit voltage $= V_{\mathrm{Th}}$ Short-circuit
 Current $= V_{\mathrm{Th}}/R_{\mathrm{Th}}$. For the Norton equivalent: short-circuit current
-$= I_N$Open-circuit voltage $= I_N R_N$. For equivalence: $I_N = V_{\mathrm{Th}}/R_{\mathrm{Th}}$
+$= I_N$ Open-circuit voltage $= I_N R_N$. For equivalence: $I_N = V_{\mathrm{Th}}/R_{\mathrm{Th}}$
 And $R_N = R_{\mathrm{Th}}$. $\square$
 
 <Aside type="tip">
@@ -474,7 +474,7 @@ Resistance in the divider, we have $V_{\mathrm{measured}} \lt V_{\mathrm{true}}$
 
 ### Voltmeter Multiplier
 
-To extend the range of a galvanometer (full-scale current $I_g$Internal resistance $R_g$) to Measure
+To extend the range of a galvanometer (full-scale current $I_g$ Internal resistance $R_g$) to Measure
 voltage up to $V_{\mathrm{range}}$:
 
 A series "multiplier" resistor $R_s$ is added so that at full scale:
@@ -672,7 +672,7 @@ Over-driven (it would likely burn out).
 <details>
 <summary>Problem 9</summary>
 In the circuit below, find the current through each resistor: $R_1 = 2\,\Omega$ and
-$R_2 = 4\,\Omega$ in parallel, connected in series with $R_3 = 3\,\Omega$Across a 10 V supply.
+$R_2 = 4\,\Omega$ in parallel, connected in series with $R_3 = 3\,\Omega$ Across a 10 V supply.
 
 **Answer.** $R_{\parallel} = \frac{2 \times 4}{2+4} = \frac{8}{6} = 1.33\,\Omega$.
 $R_{\mathrm{total}} = 1.33 + 3 = 4.33\,\Omega$.
@@ -783,7 +783,7 @@ Loading error $= \frac{6.00 - 4.00}{6.00} \times 100 = 33.3\%$.
 
 <details>
 <summary>Problem 16</summary>
-A galvanometer has $R_g = 100\,\Omega$ and full-scale deflection at $I_g = 50\,\mu$A. Calculate the multiplier resistance needed to convert it into a voltmeter with range 0--50 V.
+A galvanometer has $R_g = 100\,\Omega$ and full-scale deflection at $I_g = 50\,\mu$ A. Calculate the multiplier resistance needed to convert it into a voltmeter with range 0--50 V.
 
 **Answer.**
 $R_s = \frac{V_{\mathrm{range}}}{I_g} - R_g = \frac{50}{50 \times 10^{-6}} - 100 = 10^6 - 100 \approx 1.0\,\mathrm{M}\Omega$.
@@ -795,7 +795,7 @@ $R_s = \frac{V_{\mathrm{range}}}{I_g} - R_g = \frac{50}{50 \times 10^{-6}} - 100
 
 <details>
 <summary>Problem 17</summary>
-In a two-loop circuit: Loop 1 has a 24 V battery with $R_1 = 3\,\Omega$Loop 2 has a 12 V battery with $R_2 = 6\,\Omega$ And the shared branch has $R_3 = 4\,\Omega$. Both batteries drive current clockwise. Find the current through $R_3$.
+In a two-loop circuit: Loop 1 has a 24 V battery with $R_1 = 3\,\Omega$ Loop 2 has a 12 V battery with $R_2 = 6\,\Omega$ And the shared branch has $R_3 = 4\,\Omega$. Both batteries drive current clockwise. Find the current through $R_3$.
 
 **Answer.** Assign $I_1$ (loop 1, CW) and $I_2$ (loop 2, CW).
 

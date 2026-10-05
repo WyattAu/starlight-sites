@@ -183,7 +183,7 @@ exported to a CSV file. Calculate the file size if each quarter entry uses: date
 
 Spreadsheet formula (assuming Q1 in B1, Q2 in C1): `=(C1-B1)/B1` formatted as percentage.
 
-(b) This year's total $= 2.5 + 3.1 + 2.8 + 4.2 = \$12.6$M. Year-on-year growth
+(b) This year's total $= 2.5 + 3.1 + 2.8 + 4.2 = \$12.6$ M. Year-on-year growth
 $= (12.6 - 10) / 10 = 26\%$.
 
 Formula: `=(SUM(B1:E1)-10000000)/10000000`.

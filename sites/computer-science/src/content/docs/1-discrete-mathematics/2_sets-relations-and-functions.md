@@ -26,7 +26,7 @@ description: "Sets, Relations, and Functions: comprehensive educational content 
 - Difference: $A \setminus B = \\{x : x \in A \mathrm{ and}  x \notin B\\}$
 - Complement: $A^c = U \setminus A$ (where $U$ is the universal set)
 
-**De Morgan"s Laws:**
+**De Morgan's Laws:**
 
 $$
 (A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c
@@ -63,7 +63,7 @@ $a \equiv b \pmod{5}$ is An equivalence relation. Describe the equivalence class
 
 _Reflexive:_ $a - a = 0 = 5 \cdot 0$ So $a \equiv a \pmod{5}$ for all $a$.
 
-_Symmetric:_ If $a \equiv b \pmod{5}$ Then $5 \mid (a - b)$ So $5 \mid (b - a)$Giving
+_Symmetric:_ If $a \equiv b \pmod{5}$ Then $5 \mid (a - b)$ So $5 \mid (b - a)$ Giving
 $b \equiv a \pmod{5}$.
 
 _Transitive:_ If $5 \mid (a - b)$ and $5 \mid (b - c)$ Then $5 \mid (a - b) + (b - c) = a - c$ So
@@ -85,7 +85,7 @@ iff $a \mid b$. Verify this is a partial order and identify the cover relations.
 _Reflexive:_ $a \mid a$ for all $a \in A$. ✓
 
 _Antisymmetric:_ If $a \mid b$ and $b \mid a$ Then $b = ka$ and $a = lb$ for positive $k, l$ So
-$a = lka$Giving $lk = 1$ and $l = k = 1$Hence $a = b$. ✓
+$a = lka$ Giving $lk = 1$ and $l = k = 1$ Hence $a = b$. ✓
 
 _Transitive:_ If $a \mid b$ and $b \mid c$ Then $c = lb = l(ka) = (lk)a$ So $a \mid c$. ✓
 
@@ -107,7 +107,7 @@ connects up to $4$ and $6$; $3$ connects up to $6$; $4$ and $6$ connect up to $1
 A function $f : A \to B$ is a relation where each $a \in A$ appears exactly once as a first element.
 
 - **Injective (one-to-one):** $f(a_1) = f(a_2) \implies a_1 = a_2$.
-- **Surjective (onto):** for every $b \in B$There exists $a \in A$ with $f(a) = b$.
+- **Surjective (onto):** for every $b \in B$ There exists $a \in A$ with $f(a) = b$.
 - **Bijective:** both injective and surjective.
 
 **Theorem 2.1.** If $A$ and $B$ are finite sets, $f : A \to B$ is:
@@ -120,7 +120,7 @@ A function $f : A \to B$ is a relation where each $a \in A$ appears exactly once
 injective. Equivalently, placing $n$ items into $m$ boxes with $n \gt{} m$ forces at least one box
 to contain at least $\lceil n/m \rceil$ items.
 
-**Function composition.** Given $f : A \to B$ and $g : B \to C$The composition $g \circ f : A \to C$
+**Function composition.** Given $f : A \to B$ and $g : B \to C$ The composition $g \circ f : A \to C$
 is defined by $(g \circ f)(a) = g(f(a))$ for all $a \in A$.
 
 **Theorem 2.3.** If $f : A \to B$ and $g : B \to C$ are both injective, then $g \circ f$ is
@@ -184,7 +184,7 @@ s_i = \begin{cases} 5 & \mathrm{if}\; d_{ii} \neq 5 \\ 6 & \mathrm{if}\; d_{ii} 
 $$
 
 Then $s \in [0, 1)$ and $s$ differs from $r_i$ in the $i$-th decimal place for every $i$ So
-$s \notin \\{r_1, r_2, \ldots\\}$Contradicting the assumption that the list was complete. Therefore
+$s \notin \\{r_1, r_2, \ldots\\}$ Contradicting the assumption that the list was complete. Therefore
 $\mathbb{R}$ is uncountable. $\blacksquare$
 
 

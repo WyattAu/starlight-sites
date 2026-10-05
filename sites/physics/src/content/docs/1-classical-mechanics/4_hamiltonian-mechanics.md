@@ -59,13 +59,13 @@ $$
 H = p\dot{x} - L = p\frac{p}{m} - \frac{1}{2}m\frac{p^2}{m^2} + \frac{1}{2}kx^2 = \frac{p^2}{2m} + \frac{1}{2}kx^2
 $$
 
-This is $T + V$ as expected for a natural system. Hamilton"s equations give:
+This is $T + V$ as expected for a natural system. Hamilton's equations give:
 
 $$
 \dot{x} = \frac{\partial H}{\partial p} = \frac{p}{m}, \quad \dot{p} = -\frac{\partial H}{\partial x} = -kx
 $$
 
-Combining: $\ddot{x} = \dot{p}/m = -kx/m$I.e., $\ddot{x} + (k/m)x = 0$. $\blacksquare$
+Combining: $\ddot{x} = \dot{p}/m = -kx/m$ I.e., $\ddot{x} + (k/m)x = 0$. $\blacksquare$
 
 </details>
 
@@ -116,7 +116,7 @@ $$
 dH = \sum \dot{q}_j\, dp_j + \sum p_j\, d\dot{q}_j - \sum \frac{\partial L}{\partial q_j}\, dq_j - \sum \frac{\partial L}{\partial \dot{q}_j}\, d\dot{q}_j - \frac{\partial L}{\partial t}\, dt
 $$
 
-Since $p_j = \partial L / \partial \dot{q}_j$The $d\dot{q}_j$ terms cancel:
+Since $p_j = \partial L / \partial \dot{q}_j$ The $d\dot{q}_j$ terms cancel:
 
 $$
 dH = \sum \dot{q}_j\, dp_j - \sum \dot{p}_j\, dq_j - \frac{\partial L}{\partial t}\, dt
@@ -291,7 +291,7 @@ _Intuition._ The Hamilton-Jacobi equation is the bridge between classical and qu
 Schrodinger's equation can be obtained from it via the substitution $S = -i\hbar \ln\psi$ (up to
 constants), making $S$ the classical limit of the quantum phase.
 
-**Separation of Variables.** If $H$ does not depend explicitly on $t$Write $S(q, t) = W(q) - Et$.
+**Separation of Variables.** If $H$ does not depend explicitly on $t$ Write $S(q, t) = W(q) - Et$.
 Then the time-independent Hamilton-Jacobi equation is:
 
 $$
@@ -354,7 +354,7 @@ Hamiltonian mechanics is like switching from a video recording of motion to a sn
 
 :::caution
 Legendre transform from $L$ To $H$ is regular. If
-$\det(\partial^2 L / \partial \dot{q}_i \partial \dot{q}_j) = 0$The system Has **constraints** and
+$\det(\partial^2 L / \partial \dot{q}_i \partial \dot{q}_j) = 0$ The system Has **constraints** and
 the Hamiltonian formulation requires special treatment (Dirac brackets or Constraint analysis).
 :::
 

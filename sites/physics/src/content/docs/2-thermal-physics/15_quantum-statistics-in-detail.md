@@ -63,7 +63,7 @@ The linear specific heat is a hallmark of degenerate Fermi systems.
 ### 15.3 The Bose Gas and Bose--Einstein Condensation
 
 For bosons, the chemical potential must satisfy $\mu \leq \epsilon_0$ (ground state energy). When
-$\mu \to \epsilon_0$A macroscopic fraction of particles condenses into the ground state.
+$\mu \to \epsilon_0$ A macroscopic fraction of particles condenses into the ground state.
 
 The **critical temperature** for BEC in 3D:
 
@@ -73,7 +73,7 @@ $$
 
 Where $\zeta(3/2) \approx 2.612$.
 
-Below $T_c$The condensate fraction is:
+Below $T_c$ The condensate fraction is:
 
 $$
 \frac{N_0}{N} = 1 - \left(\frac{T}{T_c}\right)^{3/2}
@@ -119,7 +119,7 @@ a highly degenerate Fermi gas.
 For $N = 10^6$ rubidium-87 atoms in a harmonic trap with frequency $\bar{\omega}/(2\pi) = 100$ Hz:
 
 In a harmonic trap, the density of states is
-$g(\epsilon) = \epsilon^2/(2\hbar^3\bar{\omega}^3)$Giving:
+$g(\epsilon) = \epsilon^2/(2\hbar^3\bar{\omega}^3)$ Giving:
 
 $$
 T_c = \frac{\hbar\bar{\omega}}{k_B}\left(\frac{6N}{\pi^2\zeta(3)}\right)^{1/3}

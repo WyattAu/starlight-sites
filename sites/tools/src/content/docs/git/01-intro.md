@@ -31,7 +31,7 @@ Repository** with complete history. There is no intrinsic distinction between a 
 Git was created by Linus Torvalds in 2005 to manage the Linux kernel source tree after the
 Proprietary license for BitKeeper was revoked. The design constraints of the Linux kernel project
 (millions of lines of code, thousands of contributors, high concurrency of merges) fundamentally
-Shaped Git"s architecture.
+Shaped Git's architecture.
 
 :::note
 Here (e.g., `git switch``git restore`Sparse checkout) are unavailable in older versions.
@@ -102,7 +102,7 @@ Contributors on dial-up connections needed to work efficiently.
 | -------------------- | ---------------------------------- | ----------------------------- | ------------------------- | ------------------------- |
 | Architecture         | Distributed                        | Distributed                   | Centralized               | Centralized               |
 | Storage model        | Content-addressable snapshots      | Content-addressable snapshots | Delta-based               | Delta-based (server-side) |
-| Branching model      | Pointer-based ($O(1)$)             | Bookmark-based ($O(1)$)       | Directory copy ($O(n)$)   | Streams (server-side)     |
+| Branching model      | Pointer-based ($O(1)$)             | Bookmark-based ($ O(1)$)       | Directory copy ($ O(n)$)   | Streams (server-side)     |
 | Offline commits      | Full                               | Full                          | No                        | Limited (shelving)        |
 | Performance at scale | Excellent (Linux kernel, Chromium) | Good (Facebook used it)       | Degrades with large trees | Excellent with Helix Core |
 | Learning curve       | Steep                              | Moderate                      | Shallow                   | Steep                     |

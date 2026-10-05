@@ -271,7 +271,7 @@ $$
 The station waits for $r \times 512$ bit times before retransmitting. A "bit time" at 10 Mbps is 100
 Nanoseconds, so each slot time is $512 \times 100\mathrm{ ns = 51.2\,\mu\mathrm{s$.
 
-The maximum backoff occurs after 10 collisions: $k = 10$Giving a range of $\{0, 1, \ldots,
+The maximum backoff occurs after 10 collisions: $k = 10$ Giving a range of $\{0, 1, \ldots,
 1023\}$.
 After 16 consecutive collisions, the station gives up and reports an error to the upper layer.
 
@@ -287,7 +287,7 @@ Backoff range: $\{0, 1, 2, \ldots, 2^4 - 1\} = \{0, 1, 2, \ldots, 15\}$
 
 Slot time = 512 bit times = 51.2 microseconds
 
-If the random number selected is $r = 7$The station waits:
+If the random number selected is $r = 7$ The station waits:
 
 $$
 7 \times 51.2\,\mu\mathrm{s = 358.4\,\mu\mathrm{s

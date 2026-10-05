@@ -17,7 +17,7 @@ description: "X-ray diffraction from crystal planes produces constructive interf
 }
 </script>
 
-### 3.1 Bragg"s Law
+### 3.1 Bragg's Law
 
 X-ray diffraction from crystal planes produces constructive interference when:
 
@@ -164,7 +164,7 @@ The **Bragg--Brentano geometry** uses a divergent beam and a focusing detector, 
 As a function of $2\theta$. Each peak position gives $d_{hkl}$ via Bragg's law, and the peak
 Intensity is proportional to $\lvert S_{hkl}\rvert^2$ times multiplicity and geometric factors.
 
-**Scherrer equation.** For crystallites of size $L$The diffraction peaks are broadened. The Full
+**Scherrer equation.** For crystallites of size $L$ The diffraction peaks are broadened. The Full
 width at half maximum (FWHM) $\beta$ (in radians) relates to the crystallite size by:
 
 $$

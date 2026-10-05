@@ -192,7 +192,7 @@ swift
 
 ## Swift Package Manager (SPM)
 
-SPM is Apple"s built-in dependency management and build tool. It integrates with Xcode and works
+SPM is Apple's built-in dependency management and build tool. It integrates with Xcode and works
 from the command line.
 
 ### Package Structure
@@ -2739,7 +2739,7 @@ class ColoredShape: Shape {
 ## Protocols
 
 Protocols define a **blueprint of methods, properties, and requirements** that conforming types must
-implement. They are central to Swift"s protocol-oriented programming paradigm.
+implement. They are central to Swift's protocol-oriented programming paradigm.
 
 ### Defining Protocols
 

@@ -49,7 +49,7 @@ Negative.
 ### 1.2 Moment of a force at an angle
 
 If a force $F$ acts at angle $\theta$ to the line joining the point of application to the pivot, The
-moment is $M = Fd\sin\theta$Where $d$ is the distance from the pivot to the point of Application.
+moment is $M = Fd\sin\theta$ Where $d$ is the distance from the pivot to the point of Application.
 
 **Proof.** Resolve the force into components parallel and perpendicular to the line from the pivot
 To the point of application. The parallel component passes through the pivot and produces zero
@@ -128,12 +128,12 @@ This gives three equations, which can determine up to three unknowns.
 
 **Problem.** A non-uniform beam $AB$ of length $6\;\mathrm{m}$ and mass $30\;\mathrm{kg}$ rests on
 Supports at $A$ and $B$. When a load of $200\;\mathrm{N}$ is placed at a point $2\;\mathrm{m}$ from
-$A$The reaction at $A$ is $350\;\mathrm{N}$. Find the position of the centre of mass of the beam.
+$A$ The reaction at $A$ is $350\;\mathrm{N}$. Find the position of the centre of mass of the beam.
 
 Let the centre of mass be at distance $x$ from $A$. Taking moments about $B$ (anticlockwise
 positive):
 
-The beam"s weight $30g$ acts downward at distance $x$ from $A$Which is $(6 - x)$ from $B$. The
+The beam"s weight $30g$ acts downward at distance $x$ from $A$ Which is $(6 - x)$ from $B$. The
 $200\;\mathrm{N}$ load acts at distance $4\;\mathrm{m}$ from $B$. The reaction at $A$
 ($350\;\mathrm{N}$) acts at distance $6\;\mathrm{m}$ from $B$.
 
@@ -210,7 +210,7 @@ $$
 \bar{y} = \frac{\int_0^b y \cdot a\!\left(1 - \frac{y}{b}\right)dy}{\int_0^b a\!\left(1 - \frac{y}{b}\right)dy} = \frac{\left[\frac{y^2}{2} - \frac{y^3}{3b}\right]_0^b}{\left[y - \frac{y^2}{2b}\right]_0^b} = \frac{\frac{b^2}{2} - \frac{b^2}{3}}{b - \frac{b}{2}} = \frac{\frac{b^2}{6}}{\frac{b}{2}} = \frac{b}{3}
 $$
 
-The centre of mass is at height $\dfrac{b}{3}$Which is $\dfrac{1}{3}$ of the way from the base And
+The centre of mass is at height $\dfrac{b}{3}$ Which is $\dfrac{1}{3}$ of the way from the base And
 $\dfrac{2}{3}$ from the apex. $\blacksquare$
 
 ### 3.3 Composite bodies
@@ -221,12 +221,12 @@ By treating each part as a particle at its own centre of mass.
 ### 3.4 Worked example: composite lamina
 
 **Problem.** A uniform lamina consists of a rectangle $ABCD$ with $AB = 8\;\mathrm{cm}$
-$BC = 6\;\mathrm{cm}$With a semicircle of diameter $8\;\mathrm{cm}$ removed from the top edge $AD$.
+$BC = 6\;\mathrm{cm}$ With a semicircle of diameter $8\;\mathrm{cm}$ removed from the top edge $AD$.
 Find the centre of mass of the remaining lamina.
 
-Rectangle: area $= 48\;\mathrm{cm}^2$Centre at $(4, 3)$.
+Rectangle: area $= 48\;\mathrm{cm}^2$ Centre at $(4, 3)$.
 
-Semicircle: radius $= 4\;\mathrm{cm}$Area $= \dfrac{1}{2}\pi(16) = 8\pi\;\mathrm{cm}^2$. Centre of
+Semicircle: radius $= 4\;\mathrm{cm}$ Area $= \dfrac{1}{2}\pi(16) = 8\pi\;\mathrm{cm}^2$. Centre of
 mass of the semicircle is at distance $\dfrac{4r}{3\pi} = \dfrac{16}{3\pi}$
 from the Diameter, i.e. At $(4, 6 - \dfrac{16}{3\pi})$.
 
@@ -297,7 +297,7 @@ $$
 
 Maximum available friction: $F_{\max} = \mu R_g = 0.4 \times 196 = 78.4\;\mathrm{N}$.
 
-Since $F_g = 22.85 \lt 78.4 = F_{\max}$The ladder does **not** slip.
+Since $F_g = 22.85 \lt 78.4 = F_{\max}$ The ladder does **not** slip.
 
 ### 4.3 Finding the minimum angle
 
@@ -395,7 +395,7 @@ Through the framework, and equilibrium of one of the resulting sections is analy
 ### Problem 1
 
 A uniform beam $AB$ of length $5\;\mathrm{m}$ and weight $200\;\mathrm{N}$ is hinged at $A$ and
-Supported by a wire attached at $B$Making an angle of $30^\circ$ with the beam. Find the tension In
+Supported by a wire attached at $B$ Making an angle of $30^\circ$ with the beam. Find the tension In
 the wire and the reaction at the hinge.
 
 <details>
@@ -426,7 +426,7 @@ The composite lamina.
 <details>
 <summary>Solution</summary>
 
-Square: area $= 100$Centre at $(5, 5)$. Triangle: area $= 30$Centre at
+Square: area $= 100$ Centre at $(5, 5)$. Triangle: area $= 30$ Centre at
 $\left(\dfrac{10}{3}, 3\right)$ (one-third from the base).
 
 $$
@@ -465,7 +465,7 @@ So $F_g = 407.5\;\mathrm{N}$. Available friction at ground: $0.4 \times 980 = 39
 
 Available friction at wall: $F_w \leq 0.3 R_w = 0.3 \times 407.5 = 122.3\;\mathrm{N}$.
 
-For vertical equilibrium at the wall: $F_w + 25g + 75g = R_g$Which gives $F_w = 0$ by our Equation.
+For vertical equilibrium at the wall: $F_w + 25g + 75g = R_g$ Which gives $F_w = 0$ by our Equation.
 But we should check: resolving vertically for the whole system gives $R_g = 980\;\mathrm{N}$ And the
 wall friction $F_w$ acts upward.
 
@@ -473,7 +473,7 @@ Taking moments about the foot again with $F_w$ included:
 
 $R_w \times 8\sin 55^\circ + F_w \times 8\cos 55^\circ = 475g\cos 55^\circ + 25g \times 4\cos 55^\circ$
 
-This gives $F_w = 0$ by the vertical resolution. Since $F_g = 407.5 \gt 392$The ladder **would
+This gives $F_w = 0$ by the vertical resolution. Since $F_g = 407.5 \gt 392$ The ladder **would
 slip** at the ground.
 
 </details>

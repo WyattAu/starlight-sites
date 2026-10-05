@@ -75,7 +75,7 @@ $$
 (b) Magnitude:
 $|\vec{\tau}| = \sqrt{22^2 + 48^2 + 63^2} = \sqrt{484 + 2304 + 3969} = \sqrt{6757} = 82.2\,\text{N}\,\text{m}$
 
-(c) The student computed $|\vec{F}| \times |\vec{r}|$Which is the product of the magnitudes. This is
+(c) The student computed $|\vec{F}| \times |\vec{r}|$ Which is the product of the magnitudes. This is
 only correct when $\vec{F}$ is perpendicular to $\vec{r}$. :
 
 $$
@@ -159,7 +159,7 @@ $$
 (c) The period is
 $T = 2\pi\sqrt{\frac{I_{\text{cm}} + Md^2}{Mgd}} = 2\pi\sqrt{\frac{R^2/2 + d^2}{gd}}$
 
-To minimise $T$We minimise $\frac{R^2/2 + d^2}{d} = \frac{R^2}{2d} + d$.
+To minimise $T$ We minimise $\frac{R^2/2 + d^2}{d} = \frac{R^2}{2d} + d$.
 
 Setting the derivative to zero:
 
@@ -458,7 +458,7 @@ is nearly unchanged.
 **Question:**
 
 A yo-yo consists of two discs of mass $M = 0.10\,\text{kg}$ each and radius
-$R = 0.030\,\text{m}$Connected by an axle of negligible mass and radius $r = 0.005\,\text{m}$. A
+$R = 0.030\,\text{m}$ Connected by an axle of negligible mass and radius $r = 0.005\,\text{m}$. A
 string is wound around the axle. The yo-yo is released from rest with the string unwinding.
 
 (a) Calculate the moment of inertia of the yo-yo about its central axis.

@@ -51,7 +51,7 @@ are awarded for method as well as final answer.
 
 ### Q1 [7 marks], Algebraic Expressions
 
-Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$Find the exact value of:
+Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$ Find the exact value of:
 
 $$
 \frac{a^{\frac{3}{2}} - a^{-\frac{3}{2}}}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}}
@@ -61,7 +61,7 @@ $$
 
 The roots of the equation $2x^2 - 5x + 1 = 0$ are $\alpha$ and $\beta$.
 
-Without finding the numerical values of $\alpha$ and $\beta$Find the value of:
+Without finding the numerical values of $\alpha$ and $\beta$ Find the value of:
 
 $$
 \frac{1}{\alpha^2 + 1} + \frac{1}{\beta^2 + 1}
@@ -88,9 +88,9 @@ Hence find the coordinates of the point of tangency.
 
 Given $f(x) = \sqrt{2x - 1}$ and $g(x) = \frac{1}{x - 3}$:
 
-**(a)** Find the domain of $f \circ g$I.e. $f(g(x))$.
+**(a)** Find the domain of $f \circ g$ I.e. $f(g(x))$.
 
-**(b)** Find the domain of $g \circ f$I.e. $g(f(x))$.
+**(b)** Find the domain of $g \circ f$ I.e. $g(f(x))$.
 
 **(c)** Explain why the domains of $f \circ g$ and $g \circ f$ are different.
 
@@ -121,12 +121,12 @@ interval $[0, 2\pi)$. Find $N$ and the sum of all $x$-coordinates of the interse
 
 ### Q9 [8 marks], Exponentials and Logarithms
 
-**(a)** Solve $e^{2x} - 5e^x + 6 = 0$Giving exact answers.
+**(a)** Solve $e^{2x} - 5e^x + 6 = 0$ Giving exact answers.
 
-**(b)** Solve $e^{2x} - 5e^x + 6 = 1$ for $x \in \mathbb{R}$Giving exact answers.
+**(b)** Solve $e^{2x} - 5e^x + 6 = 1$ for $x \in \mathbb{R}$ Giving exact answers.
 
 **(c)** Explain why, when using the substitution $u = e^x$ to solve an equation of the form
-$e^{2x} + pe^x + q = 0$You must check that $u \gt 0$ before taking natural logarithms.
+$e^{2x} + pe^x + q = 0$ You must check that $u \gt 0$ before taking natural logarithms.
 
 ### Q10 [9 marks], Differentiation
 
@@ -161,9 +161,9 @@ $\mathbf{d}_2 = \begin{pmatrix} 1 \\ a \\ 2 \end{pmatrix}$.
 
 **(a)** Find the value of $a$ for which $l_1$ and $l_2$ intersect.
 
-**(b)** For $a = 3$Determine whether $l_1$ and $l_2$ are skew, parallel, or intersecting.
+**(b)** For $a = 3$ Determine whether $l_1$ and $l_2$ are skew, parallel, or intersecting.
 
-**(c)** For $a = -1$Find the shortest distance between $l_1$ and $l_2$.
+**(c)** For $a = -1$ Find the shortest distance between $l_1$ and $l_2$.
 
 ### Q13 [5 marks], Proof
 
@@ -215,8 +215,8 @@ $$
 \frac{\left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}} = a + 1 + a^{-1}
 $$
 
-Provided $a^{1/2} - a^{-1/2} \neq 0$I.e. $a \neq 1$. (If $a = 1$The given condition would give
-$2 = 5$A contradiction, so $a \neq 1$ is guaranteed.)
+Provided $a^{1/2} - a^{-1/2} \neq 0$ I.e. $a \neq 1$. (If $a = 1$ The given condition would give
+$2 = 5$ A contradiction, so $a \neq 1$ is guaranteed.)
 
 **Step 2: Find $a + a^{-1}$ from the given condition.**
 
@@ -249,7 +249,7 @@ $$
 
 ### Q2, Solution
 
-**Step 1: State Vieta"s formulas.**
+**Step 1: State Vieta's formulas.**
 
 $$
 \alpha + \beta = \frac{5}{2}, \quad \alpha\beta = \frac{1}{2}
@@ -321,7 +321,7 @@ Excluded values: $x = -3$ (denominator zero) and $x = 2$ (denominator zero).
 
 **Step 5: Assemble the solution.**
 
-The expression is non-negative when $x \lt -3$, $1 \leq x \lt 2$Or $x \gt 2$.
+The expression is non-negative when $x \lt -3$, $1 \leq x \lt 2$ Or $x \gt 2$.
 
 $$
 x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)
@@ -351,7 +351,7 @@ $$\Delta = (4k-4)^2 - 4(1+k^2)(4) = 0$$ $$16k^2 - 32k + 16 - 16 - 16k^2 = 0$$ $$
 
 **Step 3: Find the point of tangency.**
 
-With $k = 0$The line is $y = 5$. Substituting into the circle:
+With $k = 0$ The line is $y = 5$. Substituting into the circle:
 
 $$x^2 + 25 - 4x - 30 + 9 = 0$$ $$x^2 - 4x + 4 = 0$$ $$(x-2)^2 = 0$$ $$x = 2$$
 
@@ -559,7 +559,7 @@ Coefficient of $x^4$: $15 + 100 + 240 + 240 + 80 = 675$.
 
 **(a)** $\cos(3x) = \frac{1}{2}$.
 
-Let $\theta = 3x$. Since $x \in [0, 2\pi)$We have $\theta \in [0, 6\pi)$.
+Let $\theta = 3x$. Since $x \in [0, 2\pi)$ We have $\theta \in [0, 6\pi)$.
 
 $\cos\theta = \frac{1}{2}$ gives $\theta = \frac{\pi}{3} + 2n\pi$ or
 $\theta = \frac{5\pi}{3} + 2n\pi$ for $n \in \mathbb{Z}$.
@@ -601,7 +601,7 @@ $$
 
 ### Q9, Solution
 
-**(a)** Let $u = e^x$. Since $e^x \gt 0$ for all $x \in \mathbb{R}$We require $u \gt 0$.
+**(a)** Let $u = e^x$. Since $e^x \gt 0$ for all $x \in \mathbb{R}$ We require $u \gt 0$.
 
 $$
 u^2 - 5u + 6 = 0 \implies (u-2)(u-3) = 0 \implies u = 2 \text{ or } u = 3
@@ -632,7 +632,7 @@ $$
 
 **(c)** The check is necessary because if a root of the quadratic in $u$ were negative or zero,
 taking $\ln u$ would be undefined. For example, if the equation were $e^{2x} - 3e^x - 4 = 0$ Then
-$u = -1$ or $u = 4$ And $u = -1$ would give $e^x = -1$Which has no real solution. The substitution
+$u = -1$ or $u = 4$ And $u = -1$ would give $e^x = -1$ Which has no real solution. The substitution
 $u = e^x$ implicitly constrains $u \gt 0$ And students who forget this constraint accept spurious
 solutions.
 
@@ -687,7 +687,7 @@ The second derivative test is inconclusive when $\frac{d^2y}{dx^2} = 0$; the fir
 
 **(d)** $y = x^4 - 4x^3 + 6x^2 - 4x + 1 = (x-1)^4$.
 
-This is immediately obvious because $(x-1)^4 \geq 0$ for all $x$With equality only at $x = 1$. So
+This is immediately obvious because $(x-1)^4 \geq 0$ for all $x$ With equality only at $x = 1$. So
 $(1, 0)$ is a global (and local) minimum.
 
 ---
@@ -776,18 +776,18 @@ Then $t = 2(3) - 3 = 3$.
 Substituting into the second equation:
 $2 - 3 = 1 + 3a \implies -1 = 1 + 3a \implies a = -\frac{2}{3}$.
 
-The lines intersect when $a = -\frac{2}{3}$At the point
+The lines intersect when $a = -\frac{2}{3}$ At the point
 $\begin{pmatrix} 7 \\ -1 \\ 6 \end{pmatrix}$.
 
 **(b)** For $a = 3$: the lines are not parallel. Check for intersection:
 
 From the first and third equations: $s = 3$, $t = 3$.
 
-Second equation: $2 - 3 = 1 + 3(3) = 10$Giving $-1 = 10$Which is false.
+Second equation: $2 - 3 = 1 + 3(3) = 10$ Giving $-1 = 10$ Which is false.
 
 The system is inconsistent, so the lines are **skew**.
 
-**(c)** For $a = -1$: the lines are skew (checking gives $-1 = 1 + (-1)(3) = -2$False).
+**(c)** For $a = -1$: the lines are skew (checking gives $-1 = 1 + (-1)(3) = -2$ False).
 
 The shortest distance between two skew lines is:
 
@@ -830,7 +830,7 @@ does not imply "prime" (counterexample: 9).
 
 Answer: **neither necessary nor sufficient**.
 
-**(c)** Since $a^2 \geq 0$ and $b^2 \geq 0$The sum $a^2 + b^2 = 0$ only when both are zero. So
+**(c)** Since $a^2 \geq 0$ and $b^2 \geq 0$ The sum $a^2 + b^2 = 0$ only when both are zero. So
 $a^2 + b^2 = 0 \iff a = 0 \text{ and } b = 0$.
 
 Answer: **both necessary and sufficient**.
@@ -879,11 +879,11 @@ $$
 
 The iteration cycles: $0, 1, 0, 1, 0, 1, \ldots$
 
-**(c)** The iteration fails because at $x_0 = 0$The tangent to the curve has gradient
-$f'(0) = -2$Which points towards $x = 1$ rather than towards the root at $x \approx -1.77$. The
+**(c)** The iteration fails because at $x_0 = 0$ The tangent to the curve has gradient
+$f'(0) = -2$ Which points towards $x = 1$ rather than towards the root at $x \approx -1.77$. The
 Newton-Raphson method overshoots because the tangent at $x = 0$ intersects the $x$-axis at
-$x = 1$Which is on the opposite side of the local minimum at $x \approx 0.816$ where
-$f \approx 0.91 \gt 0$Creating a barrier that the iteration cannot cross. The iteration gets trapped
+$x = 1$ Which is on the opposite side of the local minimum at $x \approx 0.816$ where
+$f \approx 0.91 \gt 0$ Creating a barrier that the iteration cannot cross. The iteration gets trapped
 in a 2-cycle between $x = 0$ and $x = 1$.
 
 ---
@@ -908,8 +908,8 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 | Q5        | Functions                   |       7 | Composite function domains, range of inner function, domain restrictions                                 |
 | Q6        | Sequences and Series        |       7 | Partial fractions, telescoping series, index shifting, limits                                            |
 | Q7        | Binomial Expansion          |       7 | General binomial theorem, combining expansions, coefficient extraction                                   |
-| Q8        | Trigonometry                |       8 | Periodicity of $\cos(3x)$Systematic solution enumeration, sum of solutions                               |
-| Q9        | Exponentials and Logarithms |       8 | Hidden quadratic in $e^x$Positivity constraint on substitution                                           |
+| Q8        | Trigonometry                |       8 | Periodicity of $\cos(3x)$ Systematic solution enumeration, sum of solutions                               |
+| Q9        | Exponentials and Logarithms |       8 | Hidden quadratic in $e^x$ Positivity constraint on substitution                                           |
 | Q10       | Differentiation             |       9 | Stationary points, second derivative test inconclusiveness, first derivative test, $(x-1)^4$ recognition |
 | Q11       | Integration                 |       9 | LIATE rule for integration by parts, definite integration with $e$                                       |
 | Q12       | Vectors                     |       7 | Skew/parallel/intersecting lines, cross product, shortest distance formula                               |

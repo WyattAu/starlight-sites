@@ -253,7 +253,7 @@ The key differences:
 An enzyme has an optimum temperature of 37$^{\circ}$C. The activity is measured at different
 Temperatures:
 
-| Temperature ($^{\circ}$C) | Rate (arbitrary units) |
+| Temperature ($^{\circ}$ C) | Rate (arbitrary units) |
 | ------------------------- | ---------------------- |
 | 10                        | 5                      |
 | 20                        | 15                     |
@@ -306,7 +306,7 @@ Low, increasing light further will have no effect.
 At high $\mathrm{CO_2$ concentration, $\mathrm{CO_2$ is not limiting. If light is low, increasing
 $\mathrm{CO_2$ will have no effect.
 
-This is an application of Blackman"s law of limiting factors: at any given time, only one factor is
+This is an application of Blackman's law of limiting factors: at any given time, only one factor is
 Limiting.
 
 ## Cellular Respiration (OL/HL)
@@ -592,7 +592,7 @@ Shortest supply (Blackman's law of limiting factors).
 
 **$\mathrm{CO_2$ concentration:**
 
-- At low $\mathrm{CO_2$The rate of photosynthesis increases with increasing $\mathrm{CO_2$.
+- At low $\mathrm{CO_2$ The rate of photosynthesis increases with increasing $\mathrm{CO_2$.
 - The rate levels off as $\mathrm{CO_2$ is no longer limiting (another factor such as light or
   temperature becomes limiting).
 - Very high $\mathrm{CO_2$ concentrations may reduce the rate of photosynthesis in some plants by
@@ -612,9 +612,9 @@ Shortest supply (Blackman's law of limiting factors).
 A graph shows the rate of photosynthesis at different light intensities at two different
 $\mathrm{CO_2$ concentrations (low and high):
 
-At low $\mathrm{CO_2$The rate plateaus at a lower value than at high $\mathrm{CO_2$. This is because
+At low $\mathrm{CO_2$ The rate plateaus at a lower value than at high $\mathrm{CO_2$. This is because
 $\mathrm{CO_2$ becomes limiting at a lower light intensity when $\mathrm{CO_2$ concentration is low.
-At high $\mathrm{CO_2$A higher light intensity is required before $\mathrm{CO_2$ becomes limiting,
+At high $\mathrm{CO_2$ A higher light intensity is required before $\mathrm{CO_2$ becomes limiting,
 So the plateau is higher. This demonstrates that the factors interact: the level at which one factor
 Becomes limiting depends on the availability of the other factors.
 

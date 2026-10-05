@@ -234,7 +234,7 @@ Examples: `3 4 +` (= 7), `5 1 2 + 4 * + 3 -` (= 14)
 2. For each token $t$:
 
 - If $t$ is an operand: `push(t)`
-- If $t$ is an operator $\oplus$: pop $b$Pop $a$Compute $a \oplus b$`push(result)`
+- If $t$ is an operator $\oplus$: pop $b$ Pop $a$ Compute $a \oplus b$`push(result)`
 
 1. The result is the single value remaining on the stack
 
@@ -517,11 +517,11 @@ class StackQueue:
 `enqueue`: $O(1)$, push onto `in_stack`.
 
 `dequeue`: If `out_stack` is non-empty, $O(1)$. If empty, transfer all $n$ elements from `in_stack`
-To `out_stack` ($O(n)$), then pop ($O(1)$). Each element is transferred at most once per
+To `out_stack` ($O(n)$), then pop ($ O(1)$). Each element is transferred at most once per
 `enqueue`/`dequeue` pair, so the amortised cost per `dequeue` is $O(1)$.
 
 **Amortised proof.** Over a sequence of $n$ operations, each element is pushed to `in_stack` once
-($O(1)$), transferred to `out_stack` at most once ($O(1)$ amortised), and popped from `out_stack`
+($O(1)$), transferred to `out_stack` at most once ($ O(1)$ amortised), and popped from `out_stack`
 Once ($O(1)$). Total: $O(n)$ for $n$ operations → $O(1)$ amortised per operation. $\square$
 
 </details>
@@ -578,7 +578,7 @@ def reverse_queue(queue):
 
 **Correctness.** Dequeuing all elements and pushing them onto a stack reverses the order (LIFO).
 Then popping all elements and enqueuing them places them in the queue in the reversed order. Time:
-$O(n)$Space: $O(n)$.
+$O(n)$ Space: $O(n)$.
 
 </details>
 

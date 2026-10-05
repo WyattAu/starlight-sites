@@ -87,7 +87,7 @@ Uncertainty, significant figures, error propagation, graphical analysis, and spe
 
 ### Energetics and Kinetics
 
-- **[Thermochemistry](/chemistry/5-energetics/1_thermochemistry/)**, Enthalpy, Hess"s law, bond enthalpies,
+- **[Thermochemistry](/chemistry/5-energetics/1_thermochemistry/)**, Enthalpy, Hess's law, bond enthalpies,
   calorimetry, and energy cycles
 - **[Chemical Kinetics](/chemistry/6-kinetics/1_chemical-kinetics/)**, Rate of reaction, rate equations,
   activation energy, and collision theory

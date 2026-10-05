@@ -96,7 +96,7 @@ $$
 
 ## Worked Example 3, Osmotic Pressure
 
-**Problem:** $1.5 \, \text{g}$ of a polymer ($M = 150{,}000 \, \text{g/mol}$) is dissolved in $500 \, \text{mL}$ of water at $27^\circ\text{C}$. Find the osmotic pressure. ($R = 0.0821 \, \text{L}\cdot\text{atm/K}\cdot\text{mol}$)
+**Problem:** $1.5 \, \text{g}$ of a polymer ($M = 150{,}000 \, \text{g/mol}$) is dissolved in $500 \, \text{mL}$ of water at $27^\circ\text{C}$. Find the osmotic pressure. ($ R = 0.0821 \, \text{L}\cdot\text{atm/K}\cdot\text{mol}$)
 
 **Solution:**
 

@@ -36,7 +36,7 @@ $$
 
 ### 3.3 Time-Independent Schrodinger Equation
 
-For time-independent potentials $V(\mathbf{r})$Separate variables:
+For time-independent potentials $V(\mathbf{r})$ Separate variables:
 $\psi(\mathbf{r}, t) = \phi(\mathbf{r}) e^{-iEt/\hbar}$:
 
 $$
@@ -157,7 +157,7 @@ $$
 $$
 
 This composition law, combined with unitarity, is the group structure underlying quantum dynamics.
-For a time-dependent Hamiltonian, the evolution operator is given by Dyson"s time-ordered
+For a time-dependent Hamiltonian, the evolution operator is given by Dyson's time-ordered
 exponential:
 
 $$
@@ -205,8 +205,8 @@ $$
 
 So $\Delta x = \sqrt{\langle x^2 \rangle - \langle x \rangle^2} = 1/(\sqrt{2}\,\alpha)$.
 
-The uncertainty product for this state is $\sigma_x\,\sigma_p = \hbar/(2\sqrt{2})$Which is larger
-Than the minimum $\hbar/2$Showing this is not a minimum-uncertainty state.
+The uncertainty product for this state is $\sigma_x\,\sigma_p = \hbar/(2\sqrt{2})$ Which is larger
+Than the minimum $\hbar/2$ Showing this is not a minimum-uncertainty state.
 
 </details>
 
@@ -325,11 +325,11 @@ $\blacksquare$
 
 ### 3.9 Time-Dependent Perturbation Theory
 
-When the Hamiltonian has a time-dependent perturbation, $\hat{H}(t) = \hat{H}_0 + \hat{V}(t)$The
+When the Hamiltonian has a time-dependent perturbation, $\hat{H}(t) = \hat{H}_0 + \hat{V}(t)$ The
 Transition probability from initial state $|i\rangle$ to final state $|f\rangle$ (with
 $E_i \neq E_f$) is computed in the interaction picture.
 
-**First-order transition amplitude.** If the system starts in $|i\rangle$ at $t = 0$The probability
+**First-order transition amplitude.** If the system starts in $|i\rangle$ at $t = 0$ The probability
 Amplitude for being in $|f\rangle$ at time $t$ is, to first order:
 
 $$
@@ -353,13 +353,13 @@ $$
 This function is sharply peaked around $\omega_{fi} = 0$ (resonance), with width
 $\Delta\omega \sim 2\pi/T$.
 
-**Interpretation.** As $T \to \infty$The function
+**Interpretation.** As $T \to \infty$ The function
 $\sin^2(\omega_{fi}T/2)/(\omega_{fi}/2)^2 \to 2\pi T\,\delta(\omega_{fi})$ So transitions occur only
-when energy is conserved ($E_f = E_i$). For finite $T$Energy conservation Is approximate to within
-$\Delta E \sim \hbar/T$A manifestation of the time-energy uncertainty Relation.
+when energy is conserved ($E_f = E_i$). For finite $T$ Energy conservation Is approximate to within
+$\Delta E \sim \hbar/T$ A manifestation of the time-energy uncertainty Relation.
 
 **Fermi's Golden Rule.** For a transition to a continuum of final states with density of states
-$\rho(E_f)$The transition **rate** (probability per unit time) is:
+$\rho(E_f)$ The transition **rate** (probability per unit time) is:
 
 $$
 \Gamma_{i \to f} = \frac{2\pi}{\hbar}|\langle f | \hat{V} | i \rangle|^2\,\rho(E_f)
@@ -371,7 +371,7 @@ Emission, scattering theory, and condensed matter physics.
 **Sudden and adiabatic approximations.**
 
 - **Sudden approximation.** If the Hamiltonian changes rapidly compared to the system's natural
-  timescale $\sim \hbar/\Delta E$The state does not have time to adjust:
+  timescale $\sim \hbar/\Delta E$ The state does not have time to adjust:
   $|\psi_{\mathrm{after}\rangle = |\psi_{\mathrm{before}\rangle}}$. The probability of finding the
   system in the new $n$-th eigenstate is
   $P_n = |\langle n_{\mathrm{new}|\psi_{\mathrm{before}\rangle|^2}}$.

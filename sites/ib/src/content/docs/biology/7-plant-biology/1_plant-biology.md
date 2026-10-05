@@ -514,7 +514,7 @@ Promote germination. However, the subsequent far-red pulse immediately reconvert
 $\mathrm{P}_{\mathrm{fr}}$ back to $\mathrm{P}_{\mathrm{r}}$. Since the final exposure is far-red
 Light, the seeds are left predominantly in the $\mathrm{P}_{\mathrm{r}}$ (inactive) state. In
 Darkness, $\mathrm{P}_{\mathrm{fr}}$ slowly reverts to $\mathrm{P}_{\mathrm{r}}$ anyway. With
-Insufficient $\mathrm{P}_{\mathrm{fr}}$The biochemical pathways triggering germination (e.g.,
+Insufficient $\mathrm{P}_{\mathrm{fr}}$ The biochemical pathways triggering germination (e.g.,
 Amylase production) are not activated.
 
 This demonstrates that the **last light exposure** determines the phytochrome state and hence the
@@ -550,7 +550,7 @@ $\frac{2.4\;\mathrm{mL}}{80\;\mathrm{cm}^2 \times 0.5\;\mathrm{hours}} = \frac{2
 **Convert to $\mathrm{mmol\;H_2O/m^2/s}$**:
 $0.060\;\mathrm{mL/(cm^2 \cdot h)} = 0.060 \times 10^{-2}\;\mathrm{L/(cm^2 \cdot h)} = 0.060 \times 10^{-2} \times 10^4\;\mathrm{L/(m^2 \cdot h)} = 0.60\;\mathrm{L/(m^2 \cdot h)}$
 
-Molar mass of water $= 18\;\mathrm{g/mol}$Density $= 1\;\mathrm{g/mL}$. Moles per hour:
+Molar mass of water $= 18\;\mathrm{g/mol}$ Density $= 1\;\mathrm{g/mL}$. Moles per hour:
 $\frac{600\;\mathrm{mL/h}}{18\;\mathrm{g/mol}} = 33.3\;\mathrm{mol/h}$
 
 Convert to $\mathrm{mmol/s}$:
@@ -569,7 +569,7 @@ depleting internal water reserves).
 A $10\;\mathrm{m}$ tall tree has a xylem vessel radius of $50\;\mathrm{\mu m}$. The surface tension
 Of water at $20^\circ\mathrm{C}$ is $0.073\;\mathrm{N/m}$ and the contact angle between water and
 The xylem wall is approximately $0^\circ$. Using the capillary rise equation
-$h = \frac{2\gamma \cos\theta}{\rho g r}$Calculate whether capillary action alone can account For
+$h = \frac{2\gamma \cos\theta}{\rho g r}$ Calculate whether capillary action alone can account For
 water reaching the top of the tree.
 
 <details>
@@ -578,7 +578,7 @@ water reaching the top of the tree.
 $h = \frac{2 \times 0.073 \times \cos(0^\circ)}{1000 \times 9.81 \times 50 \times 10^{-6}}$
 $= \frac{0.146}{0.4905} = 0.298\;\mathrm{m}$
 
-Capillary rise is approximately $0.30\;\mathrm{m}$Which is far less than the $10\;\mathrm{m}$ Height
+Capillary rise is approximately $0.30\;\mathrm{m}$ Which is far less than the $10\;\mathrm{m}$ Height
 of the tree. This demonstrates that **capillary action alone is insufficient** to explain Water
 transport in tall plants. The primary mechanism is the **cohesion-tension theory**: Transpiration at
 the leaves creates a negative pressure (tension) of approximately $-1$ to $-3\;\mathrm{MPa}$ in the
@@ -741,7 +741,7 @@ Divided into four groups of $25$: Group A (control, water only), Group B (scarif
 The number of germinated seeds in each group is: A = 8, B = 18, C = 20, D = 23. (a) Calculate the
 Germination percentage for each group. (b) If the expected germination under the null hypothesis is
 $50\%$ for all groups, perform a chi-squared test to determine whether the treatments significantly
-Affect germination ($p = 0.05$Critical value $= 7.82$ for $3$ degrees of freedom).
+Affect germination ($p = 0.05$ Critical value $= 7.82$ for $3$ degrees of freedom).
 
 </details>
 
@@ -1074,7 +1074,7 @@ Examples: chrysanthemum, poinsettia, soybean, strawberry.
 
 - Short-day plants (chrysanthemums) exposed to a long night with a brief flash of **red light**
   ($660\;\mathrm{nm}$) at the midpoint: flowering is **inhibited** (red light creates
-  $\mathrm{P}_{\mathrm{fr}}$Shortening the perceived night length).
+  $\mathrm{P}_{\mathrm{fr}}$ Shortening the perceived night length).
 - If the red flash is immediately followed by a **far-red flash** ($730\;\mathrm{nm}$):
   $\mathrm{P}_{\mathrm{fr}}$ is converted back to $\mathrm{P}_{\mathrm{r}}$ And flowering
   **proceeds** (the far-red flash "cancels" the red flash).
@@ -1144,7 +1144,7 @@ Rate of transpiration increases with wind speed. Explain why very tall trees (e.
 $>100\;\mathrm{m}$) Pose a challenge to the cohesion-tension theory and discuss how root pressure
 and capillary Action contribute. Calculate whether capillary action alone can account for water
 transport in a $100\;\mathrm{m}$ tall tree given a xylem vessel radius of
-$25\;\mathrm{\mu m}$Surface tension $0.073\;\mathrm{N/m}$ And contact angle $0^\circ$.
+$25\;\mathrm{\mu m}$ Surface tension $0.073\;\mathrm{N/m}$ And contact angle $0^\circ$.
 
 </details>
 
@@ -1244,7 +1244,7 @@ bidirectional, Unlike xylem transport.
    to leave by osmosis and reducing the hydrostatic pressure at the sink.
 5. The pressure difference between source (high) and sink (low) maintains the flow.
 
-(b) $\Pi = iCRT$Where $i = 1$ (sucrose does not ionise), $C = 0.5\;\mathrm{mol/L}$
+(b) $\Pi = iCRT$ Where $i = 1$ (sucrose does not ionise), $C = 0.5\;\mathrm{mol/L}$
 $R = 8.314\;\mathrm{J/(mol \cdot K)}$$T = 298\;\mathrm{K}$.
 
 $\Pi = 1 \times 0.5 \times 8.314 \times 298 = 1238\;\mathrm{kPa} = 12.4\;\mathrm{atm}$.
@@ -1313,14 +1313,14 @@ light ($730\;\mathrm{nm}$), will it flower?
 <details>
 <summary>Solution</summary>
 
-(a) June 21: day $= 15\;\mathrm{h}$Night $= 9\;\mathrm{h}$.
+(a) June 21: day $= 15\;\mathrm{h}$ Night $= 9\;\mathrm{h}$.
 
 - SDP: critical dark period $= 12\;\mathrm{h}$. Night $= 9\;\mathrm{h} < 12\;\mathrm{h}$. **No
   flowering.**
 - LDP: critical dark period $= 10\;\mathrm{h}$. Night $= 9\;\mathrm{h} < 10\;\mathrm{h}$.
   **Flowering.**
 
-(b) December 21: day $= 9\;\mathrm{h}$Night $= 15\;\mathrm{h}$.
+(b) December 21: day $= 9\;\mathrm{h}$ Night $= 15\;\mathrm{h}$.
 
 - SDP: night $= 15\;\mathrm{h} > 12\;\mathrm{h}$. **Flowering.**
 - LDP: night $= 15\;\mathrm{h} > 10\;\mathrm{h}$. **No flowering.**

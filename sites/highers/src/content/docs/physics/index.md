@@ -34,7 +34,7 @@ science degrees.
 
 ### Mechanics
 
-Kinematics, forces, energy, power, projectiles, and Newton"s laws of motion.
+Kinematics, forces, energy, power, projectiles, and Newton's laws of motion.
 
 → **[Full notes](https://leaving-cert.wyattau.com/physics/1-mechanics/1_mechanics/)**
 

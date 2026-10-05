@@ -91,10 +91,10 @@ With city size, geographic location, and prevailing weather patterns.
 
 | Source                           | Key Pollutants                                               | Characteristics                                                                     |
 | -------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
-| **Vehicle emissions**            | $\mathrm{NO_x}$$\mathrm{PM}_{2.5}$$\mathrm{PM}_{10}$CO, VOCs | Dominant source in most cities; concentrated along major roads and at intersections |
-| **Industrial activity**          | $\mathrm{SO_2}$$\mathrm{PM}_{10}$VOCs, heavy metals          | Point sources; often located in industrial zones or port areas                      |
+| **Vehicle emissions**            | $\mathrm{NO_x}$$\mathrm{PM}_{2.5}$$\mathrm{PM}_{10}$ CO, VOCs | Dominant source in most cities; concentrated along major roads and at intersections |
+| **Industrial activity**          | $\mathrm{SO_2}$$\mathrm{PM}_{10}$ VOCs, heavy metals          | Point sources; often located in industrial zones or port areas                      |
 | **Construction and demolition**  | $\mathrm{PM}_{10}$$\mathrm{PM}_{2.5}$                        | Seasonal; concentrated at construction sites                                        |
-| **Domestic heating and cooking** | $\mathrm{PM}_{2.5}$CO, $\mathrm{NO_x}$                       | Significant in cities where solid fuels (coal, biomass) are used; seasonal (winter) |
+| **Domestic heating and cooking** | $\mathrm{PM}_{2.5}$ CO, $\mathrm{NO_x}$                       | Significant in cities where solid fuels (coal, biomass) are used; seasonal (winter) |
 | **Power generation**             | $\mathrm{SO_2}$$\mathrm{NO_x}$$\mathrm{PM}_{10}$             | Point sources; depends on fuel mix                                                  |
 
 ### Health Impacts
@@ -122,7 +122,7 @@ And Cairo.
 | **Low-emission zones**          | Restrict or charge high-polluting vehicles from entering designated areas   | London Ultra Low Emission Zone (ULEZ), introduced 2019; expanded 2023                                     |
 | **Public transport investment** | Reduce private vehicle use by providing efficient alternatives              | Bogota TransMilenio BRT; Shanghai metro (longest in the world, over 800 km)                               |
 | **Congestion charging**         | Charge vehicles for entering congested urban areas, reducing traffic volume | Singapore Electronic Road Pricing (ERP); London Congestion Charge                                         |
-| **Green infrastructure**        | Trees and vegetation absorb pollutants, provide shade, reduce the UHI       | Milan"s 3 Million Trees initiative; Melbourne's urban forest strategy                                     |
+| **Green infrastructure**        | Trees and vegetation absorb pollutants, provide shade, reduce the UHI       | Milan's 3 Million Trees initiative; Melbourne's urban forest strategy                                     |
 | **Clean energy transitions**    | Shift from fossil fuel vehicles and heating to electric                     | Oslo's target of zero-emission city centre by 2030; Beijing's conversion from coal to natural gas heating |
 
 ## Waste Management

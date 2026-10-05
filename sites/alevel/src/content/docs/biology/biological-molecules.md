@@ -303,7 +303,7 @@ but do **not** change the $\Delta H$ or equilibrium position.
 
 ### $K_m$ and Vmax
 
-- **$K_m$** = substrate concentration at which rate = $\frac{1}{2}$Vmax
+- **$K_m$** = substrate concentration at which rate = $\frac{1}{2}$ Vmax
   - Low $K_m$ = high affinity for substrate
   - High $K_m$ = low affinity for substrate
 - **Vmax** = maximum rate when all active sites are saturated

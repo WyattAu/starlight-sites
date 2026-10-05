@@ -221,7 +221,7 @@ $$
 
 Adding: $5g - 4g = 13a \implies a = \dfrac{g}{13} \approx 0.754\;\mathrm{m\,s^{-2}}$.
 
-Since $a \gt 0$Our assumption was correct.
+Since $a \gt 0$ Our assumption was correct.
 
 $T = 5(g - a) = 5(9.8 - 0.754) = 45.23\;\mathrm{N}$
 
@@ -295,7 +295,7 @@ $$
 P\cos 25^\circ - 10g\sin 25^\circ - F = 0
 $$
 
-**Case 1: on the point of sliding up the plane** ($F = \mu R$Acting down the plane):
+**Case 1: on the point of sliding up the plane** ($F = \mu R$ Acting down the plane):
 
 $$
 P\cos 25^\circ - 10g\sin 25^\circ = \mu(10g\cos 25^\circ + P\sin 25^\circ)
@@ -313,7 +313,7 @@ $$
 P = \frac{10(9.8)(0.4226 + 0.3 \times 0.9063)}{0.9063 - 0.3 \times 0.4226} = \frac{98 \times 0.6945}{0.7795} \approx 87.3\;\mathrm{N}
 $$
 
-**Case 2: on the point of sliding down the plane** ($F = \mu R$Acting up the plane):
+**Case 2: on the point of sliding down the plane** ($F = \mu R$ Acting up the plane):
 
 $$
 P\cos 25^\circ - 10g\sin 25^\circ + \mu R = 0
@@ -491,7 +491,7 @@ The book exerts $25.6\;\mathrm{N}$ downward on the table.
 (c) For the entire system (book + table + lift platform):
 
 Let the total mass being accelerated be $M$ (including the lift structure). If we consider just The
-book and table: total mass $= 12\;\mathrm{kg}$Acceleration $= 3\;\mathrm{m\,s^{-2}}$.
+book and table: total mass $= 12\;\mathrm{kg}$ Acceleration $= 3\;\mathrm{m\,s^{-2}}$.
 
 $$
 T - 12g = 12(3) \implies T = 12(12.8) = 153.6\;\mathrm{N}
@@ -581,7 +581,7 @@ $$
 58.8 - 19.6 - 6.80 = 10a \implies 32.4 = 10a \implies a = 3.24\;\mathrm{m\,s^{-2}}
 $$
 
-Since $a \gt 0$The assumption is correct.
+Since $a \gt 0$ The assumption is correct.
 
 </details>
 

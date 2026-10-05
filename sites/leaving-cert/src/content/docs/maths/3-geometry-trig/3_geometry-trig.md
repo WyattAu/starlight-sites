@@ -86,7 +86,7 @@ Where $m$ is the slope and $c$ is the $y$-intercept.
 **Proof of the perpendicular condition.** If two lines with slopes $m_1$ and $m_2$ are
 Perpendicular, then the angle between them is $90^\circ$. Using the tangent addition formula:
 $\tan(\alpha + \beta) = \frac{m_1 + m_2}{1 - m_1 m_2}$. Setting $\alpha + \beta = 90^\circ$:
-$\tan 90^\circ$ Is undefined, so $1 - m_1 m_2 = 0$Giving $m_1 m_2 = -1$.
+$\tan 90^\circ$ Is undefined, so $1 - m_1 m_2 = 0$ Giving $m_1 m_2 = -1$.
 
 **Example (OL):** Find the equation of the line through $(1, 3)$ perpendicular to $y = 2x + 1$.
 
@@ -134,7 +134,7 @@ $$
 A = \frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|
 $$
 
-This is derived from the shoelace formula (also known as Gauss"s area formula).
+This is derived from the shoelace formula (also known as Gauss's area formula).
 
 **Example (HL):** Find the area of the triangle with vertices $(1, 2)$$(4, 6)$$(3, -1)$.
 
@@ -170,7 +170,7 @@ $$
 (x - 2)^2 - 4 + (y + 3)^2 - 9 - 3 = 0 \implies (x - 2)^2 + (y + 3)^2 = 16
 $$
 
-Centre $(2, -3)$Radius $4$.
+Centre $(2, -3)$ Radius $4$.
 
 ### Tangent to a Circle (HL)
 
@@ -181,7 +181,7 @@ X_1 x + y_1 y = r^2
 $$
 
 **Proof.** The radius to $(x_1, y_1)$ has slope $y_1/x_1$. The tangent is perpendicular, so its
-Slope is $-x_1/y_1$. Using point-slope form: $y - y_1 = -\frac{x_1}{y_1}(x - x_1)$Which simplifies
+Slope is $-x_1/y_1$. Using point-slope form: $y - y_1 = -\frac{x_1}{y_1}(x - x_1)$ Which simplifies
 To $x_1 x + y_1 y = x_1^2 + y_1^2 = r^2$.
 
 **Example (HL):** Find the equation of the tangent to $x^2 + y^2 = 25$ at the point $(3, 4)$.
@@ -210,7 +210,7 @@ $$
 X^2 + 6x + 9 = 0 \implies (x + 3)^2 = 0
 $$
 
-The discriminant is $\Delta = 0$Confirming a tangent. The point of tangency is $x = -3$
+The discriminant is $\Delta = 0$ Confirming a tangent. The point of tangency is $x = -3$
 $y = \frac{-9 + 25}{4} = 4$.
 
 ### Intersection of Line and Circle
@@ -233,7 +233,7 @@ Substituting $(4,0)$: $16 + 8g = 0 \implies g = -2$.
 
 Substituting $(0,4)$: $16 + 8f = 0 \implies f = -2$.
 
-The circle is $x^2 + y^2 - 4x - 4y = 0$With centre $(2, 2)$ and radius $\sqrt{4+4} = 2\sqrt{2}$.
+The circle is $x^2 + y^2 - 4x - 4y = 0$ With centre $(2, 2)$ and radius $\sqrt{4+4} = 2\sqrt{2}$.
 
 ## Trigonometry
 
@@ -545,7 +545,7 @@ $$
 
 So $5\sin\theta + 12\cos\theta = 13\sin(\theta + \alpha)$ where $\tan\alpha = 12/5$.
 
-Maximum $= 13$Minimum $= -13$.
+Maximum $= 13$ Minimum $= -13$.
 
 ## Vectors (HL)
 
@@ -584,7 +584,7 @@ $|\mathbf{a} \times \mathbf{b}| = |\mathbf{a}||\mathbf{b}|\sin\theta$ gives the 
 Parallelogram spanned by $\mathbf{a}$ and $\mathbf{b}$.
 
 **Example (HL):** Given $\mathbf{a} = 2\mathbf{i} - \mathbf{j} + 3\mathbf{k}$ and
-$\mathbf{b} = \mathbf{i} + 2\mathbf{j} - \mathbf{k}$Find $\mathbf{a} \times \mathbf{b}$ and the
+$\mathbf{b} = \mathbf{i} + 2\mathbf{j} - \mathbf{k}$ Find $\mathbf{a} \times \mathbf{b}$ and the
 Angle between them.
 
 $$
@@ -616,7 +616,7 @@ $$
 \begin{vmatrix} 1 & 2 & -1 \\ 3 & -1 & 2 \\ 2 & 3 & 1 \end{vmatrix} = 1(-1 - 6) - 2(3 - 4) + (-1)(9 - (-2)) = -7 + 2 - 11 = -16
 $$
 
-Since the scalar triple product is $-16 \neq 0$The vectors are not coplanar.
+Since the scalar triple product is $-16 \neq 0$ The vectors are not coplanar.
 
 ### Area of a Triangle Using Vectors (HL)
 
@@ -651,10 +651,10 @@ $$
 
 In a right-angled triangle, $a^2 + b^2 = c^2$.
 
-**Proof (using similar triangles):** Let $\triangle ABC$ be right-angled at $C$With altitude $CD$ To
+**Proof (using similar triangles):** Let $\triangle ABC$ be right-angled at $C$ With altitude $CD$ To
 the hypotenuse $AB$. Then $\triangle ABC \sim \triangle ACD \sim \triangle CBD$. From
-$\triangle ABC \sim \triangle ACD$: $\frac{AC}{AB} = \frac{AD}{AC}$Giving $AC^2 = AB \cdot AD$. From
-$\triangle ABC \sim \triangle CBD$: $\frac{BC}{AB} = \frac{BD}{BC}$Giving $BC^2 = AB \cdot BD$.
+$\triangle ABC \sim \triangle ACD$: $\frac{AC}{AB} = \frac{AD}{AC}$ Giving $AC^2 = AB \cdot AD$. From
+$\triangle ABC \sim \triangle CBD$: $\frac{BC}{AB} = \frac{BD}{BC}$ Giving $BC^2 = AB \cdot BD$.
 Adding:
 
 $$
@@ -715,7 +715,7 @@ See the examples integrated throughout the sections above.
 8. **Dividing by trig functions** in equations -- you may lose solutions. Factorise instead.
 9. **R-addition formula** -- be careful with the sign of $\alpha$. If $a$ is negative, the reference
    angle calculation needs adjustment.
-10. **Circle general form** -- the centre is $(-g, -f)$Not $(g, f)$. The negative signs are a common
+10. **Circle general form** -- the centre is $(-g, -f)$ Not $(g, f)$. The negative signs are a common
     source of error.
 
 ## Practice Questions
@@ -737,7 +737,7 @@ See the examples integrated throughout the sections above.
 3. Solve $\cos 2\theta = \cos\theta$ for $0 \leq \theta \leq 2\pi$.
 4. Find the area of the triangle with vertices $(1, 2)$$(4, 6)$$(3, -1)$.
 5. Given $\mathbf{a} = 2\mathbf{i} - \mathbf{j} + 3\mathbf{k}$ and
-   $\mathbf{b} = \mathbf{i} + 2\mathbf{j} - \mathbf{k}$Find $\mathbf{a} \times \mathbf{b}$ and the
+   $\mathbf{b} = \mathbf{i} + 2\mathbf{j} - \mathbf{k}$ Find $\mathbf{a} \times \mathbf{b}$ and the
    angle between $\mathbf{a}$ and $\mathbf{b}$.
 6. Express $\cos 3\theta$ in terms of $\cos\theta$.
 7. Prove that $\sin(A+B)\sin(A-B) = \sin^2 A - \sin^2 B$.

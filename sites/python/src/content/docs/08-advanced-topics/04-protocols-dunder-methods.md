@@ -755,7 +755,7 @@ print(m == f)  # False, Meter.__eq__ returns False
 print(f == m)  # Could be True, asymmetric!
 ```
 
-Always return `NotImplemented` for unsupported types to enable Python"s fallback mechanism.
+Always return `NotImplemented` for unsupported types to enable Python's fallback mechanism.
 
 ### 3. \_\_str\_\_ Returning Non-String
 

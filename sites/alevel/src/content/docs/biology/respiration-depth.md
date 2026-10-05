@@ -102,7 +102,7 @@ both molecules follow the same pathway. All subsequent steps occur twice per glu
 **Phase 2: Energy Payoff (produces 4 ATP + 2 NADH)**
 
 **Step 6: Oxidation and phosphorylation.** Each G3P is oxidised by triose phosphate dehydrogenase,
-which transfers two electrons and a proton to $\mathrm{NAD^+}$Forming NADH. A phosphate group is
+which transfers two electrons and a proton to $\mathrm{NAD^+}$ Forming NADH. A phosphate group is
 added from inorganic phosphate ($P_i$), producing 1,3-bisphosphoglycerate:
 
 $$
@@ -199,7 +199,7 @@ $$
 
 The Krebs cycle (also called the citric acid cycle or tricarboxylic acid cycle, TCA cycle) is a
 series of enzyme-catalysed reactions in the mitochondrial matrix. It completes the oxidation of
-acetyl CoA, releasing $\mathrm{CO_2}$ and transferring high-energy electrons to $\mathrm{NAD^+}$FAD,
+acetyl CoA, releasing $\mathrm{CO_2}$ and transferring high-energy electrons to $\mathrm{NAD^+}$ FAD,
 and ATP.
 
 The cycle turns twice per glucose molecule (one turn per acetyl CoA).
@@ -395,13 +395,13 @@ Oxygen is the **final electron acceptor** in the electron transport chain. Witho
 - Electrons cannot pass through Complex IV (they back up through the chain).
 - Proton pumping stops, the proton gradient dissipates, and ATP synthase stops.
 - NADH and $\mathrm{FADH_2}$ cannot be reoxidised to $\mathrm{NAD^+}$ and FAD.
-- Without $\mathrm{NAD^+}$The Krebs cycle and glycolysis (specifically step 6) stop.
+- Without $\mathrm{NAD^+}$ The Krebs cycle and glycolysis (specifically step 6) stop.
 
 This is why cells must switch to anaerobic respiration in the absence of oxygen.
 
 :::caution
 specifically as the final electron acceptor in the electron transport chain. The ATP itself is
-synthesised by ATP synthase, driven by the proton gradient. Oxygen"s role is to keep the electron
+synthesised by ATP synthase, driven by the proton gradient. Oxygen's role is to keep the electron
 transport chain flowing so that the proton gradient is maintained.
 :::
 
@@ -418,7 +418,7 @@ $$
 $$
 
 The critical purpose of this reaction is to **regenerate $\mathrm{NAD^+}$**, allowing glycolysis to
-continue. Without $\mathrm{NAD^+}$Glycolysis would stop at step 6, and the cell would have no ATP
+continue. Without $\mathrm{NAD^+}$ Glycolysis would stop at step 6, and the cell would have no ATP
 production.
 
 **ATP yield from anaerobic respiration**: 2 ATP per glucose (only from glycolysis; the link
@@ -618,10 +618,10 @@ Calculate the $Q_{10}$ between $20\ ^\circ\mathrm{C}$ and $30\ ^\circ\mathrm{C}$
 **Answer.** (b) The rate of respiration increases with temperature from $10$ to
 $40\ ^\circ\mathrm{C}$ due to increased kinetic energy of molecules and more frequent
 enzyme-substrate collisions. The rate is highest at approximately $40\ ^\circ\mathrm{C}$ (the
-optimum temperature for the yeast's respiratory enzymes). Above $40\ ^\circ\mathrm{C}$The rate
+optimum temperature for the yeast's respiratory enzymes). Above $40\ ^\circ\mathrm{C}$ The rate
 decreases sharply as the enzymes denature -- hydrogen bonds and other weak interactions maintaining
 tertiary structure break, the active site changes shape, and the enzyme can no longer catalyse the
-reaction. By $60\ ^\circ\mathrm{C}$Most enzymes are denatured and the rate is very low.
+reaction. By $60\ ^\circ\mathrm{C}$ Most enzymes are denatured and the rate is very low.
 
 (c)
 $Q_{10} = \frac{\text{Rate at } 30\ ^\circ\mathrm{C}}{\text{Rate at } 20\ ^\circ\mathrm{C}} = \frac{3.6}{1.8} = 2.0$.
@@ -643,7 +643,7 @@ aerobic respiration to supply it. Aerobic respiration is limited by the rate at 
 can be delivered to the muscles (via the lungs and cardiovascular system) and by the number of
 mitochondria in the muscle fibres. Anaerobic respiration (lactate fermentation) allows glycolysis to
 continue in the absence of sufficient $\mathrm{O_2}$ by regenerating $\mathrm{NAD^+}$ from NADH. The
-conversion of pyruvate to lactate oxidises NADH back to $\mathrm{NAD^+}$Which is needed for step 6
+conversion of pyruvate to lactate oxidises NADH back to $\mathrm{NAD^+}$ Which is needed for step 6
 of glycolysis (the oxidation of G3P). Although anaerobic respiration yields only 2 ATP per glucose
 (compared to $\approx$ 32 from aerobic respiration), it can proceed very rapidly in the cytoplasm
 without requiring oxygen or mitochondrial machinery, providing a rapid but short-term ATP supply to
@@ -819,8 +819,8 @@ occurring is $\mathrm{O_2}$ uptake.
 **Without soda lime:**
 
 If no $\mathrm{CO_2}$ absorbent is used, the volume change is the net difference between
-$\mathrm{O_2}$ consumed and $\mathrm{CO_2}$ produced. For carbohydrate substrates where $RQ = 1$This
-is zero (volumes cancel). For lipid substrates where $RQ < 1$The measured volume change
+$\mathrm{O_2}$ consumed and $\mathrm{CO_2}$ produced. For carbohydrate substrates where $RQ = 1$ This
+is zero (volumes cancel). For lipid substrates where $RQ < 1$ The measured volume change
 underestimates $\mathrm{O_2}$ consumption.
 
 $$
@@ -898,9 +898,9 @@ Energy value: $61 \times 30.5 = 1860.5\ \mathrm{kJ\ mol^{-1}}$.
 
 Compare with glucose: $32 \times 30.5 = 976\ \mathrm{kJ\ mol^{-1}}$.
 
-Palmitic acid (256 $\mathrm{g\ mol^{-1}}$) produces approximately $1860\ \mathrm{kJ\ mol^{-1}$Or
+Palmitic acid (256 $\mathrm{g\ mol^{-1}}$) produces approximately $1860\ \mathrm{kJ\ mol^{-1}$ Or
 $7.27\ \mathrm{kJ\ g^{-1}}$. Glucose (180 $\mathrm{g\ mol^{-1}}$) produces approximately
-$976\mathrm{kJ\ mol^{-1}}$Or $5.42\ \mathrm{kJ\ g^{-1}}$.
+$976\mathrm{kJ\ mol^{-1}}$ Or $5.42\ \mathrm{kJ\ g^{-1}}$.
 
 Fatty acids produce approximately 1.3 times more energy per gram than glucose, consistent with their
 higher energy value ($\approx 39\ \mathrm{kJ\ g^{-1}}$ vs $\approx 15.8\ \mathrm{kJ\ g^{-1}}$).
@@ -1226,7 +1226,7 @@ difference**.
 | ------------------- | --------------------------------------------------------- | ------------------------------------------------------------- |
 | Location of ETC     | Inner mitochondrial membrane                              | Thylakoid membrane                                            |
 | Energy transduction | Chemical energy $\to$ ATP + heat                          | Light energy $\to$ chemical energy (ATP, NADPH)               |
-| Electron carriers   | NADH, $\mathrm{FADH_2}$Ubiquinone, cytochromes            | Photosystems, plastoquinone, plastocyanin, ferredoxin         |
+| Electron carriers   | NADH, $\mathrm{FADH_2}$ Ubiquinone, cytochromes            | Photosystems, plastoquinone, plastocyanin, ferredoxin         |
 | Chemiosmosis        | Proton gradient across inner membrane drives ATP synthase | Proton gradient across thylakoid membrane drives ATP synthase |
 | Enzyme types        | Reductases, oxidases, synthases, dehydrogenases           | Kinases, carboxylases, reductases, synthases                  |
 
@@ -1260,7 +1260,7 @@ However, over geological time scales, imbalances have occurred:
 - Photosynthesis exceeded respiration during the Carboniferous period, when vast amounts of organic
   carbon were buried as coal, oil, and natural gas, and atmospheric $\mathrm{O_2}$ rose to its
   current level (21%).
-- Burning fossil fuels releases this stored carbon as $\mathrm{CO_2}$Reversing the ancient imbalance
+- Burning fossil fuels releases this stored carbon as $\mathrm{CO_2}$ Reversing the ancient imbalance
   and increasing atmospheric $\mathrm{CO_2}$.
 
 ---
@@ -1422,7 +1422,7 @@ Fatty acids are broken down in the mitochondrial matrix by the sequential remova
 3. **$\beta$-Oxidation spiral**: each cycle removes 2 carbons as acetyl CoA and produces 1 NADH and
    1 $\mathrm{FADH_2}$.
 
-**Worked Example: Palmitic acid ($\mathrm{C_{16}}$Saturated).**
+**Worked Example: Palmitic acid ($\mathrm{C_{16}}$ Saturated).**
 
 Number of $\beta$-oxidation cycles $= \frac{16}{2} - 1 = 7$ (the last cycle produces 2 acetyl CoA
 directly).
@@ -1674,7 +1674,7 @@ Key points:
 - Pyruvate is decarboxylated (1 carbon removed as $\mathrm{CO_2}$).
 - Pyruvate is dehydrogenated ($\mathrm{NAD^+}$ reduced to $\mathrm{NADH}$).
 - The remaining 2-carbon fragment is attached to coenzyme A (CoA-SH) to form acetyl CoA.
-- The enzyme complex is pyruvate dehydrogenase; it requires 5 coenzymes: $\mathrm{NAD^+}$FAD, CoA,
+- The enzyme complex is pyruvate dehydrogenase; it requires 5 coenzymes: $\mathrm{NAD^+}$ FAD, CoA,
   thiamine pyrophosphate (TPP, derived from vitamin $\mathrm{B_1}$), and lipoic acid.
 
 ### 25.2 The Krebs Cycle (Citric Acid Cycle): Step-by-Step
@@ -1686,7 +1686,7 @@ Location: mitochondrial matrix.
 | 1    | Acetyl CoA (2C) + oxaloacetate (4C) $\to$ citrate (6C) | CoA released                                     |
 | 2    | Citrate $\to$ isocitrate (6C)                          | (isomerisation)                                  |
 | 3    | Isocitrate $\to$ $\alpha$-ketoglutarate (5C)           | $\mathrm{NADH}$, $\mathrm{CO_2}$                 |
-| 4    | $\alpha$-Ketoglutarate (5C) $\to$ succinyl CoA (4C)    | $\mathrm{NADH}$, $\mathrm{CO_2}$CoA              |
+| 4    | $\alpha$-Ketoglutarate (5C) $\to$ succinyl CoA (4C)    | $\mathrm{NADH}$, $\mathrm{CO_2}$ CoA              |
 | 5    | Succinyl CoA $\to$ succinate (4C)                      | ATP (or GTP) via substrate-level phosphorylation |
 | 6    | Succinate $\to$ fumarate (4C)                          | $\mathrm{FADH_2}$                                |
 | 7    | Fumarate $\to$ malate (4C)                             | $\mathrm{H_2O}$ added                            |
@@ -2032,7 +2032,7 @@ prokaryotes that were engulfed by a larger host cell:
 | 70S ribosomes          | Mitochondrial ribosomes are 70S (prokaryotic size), not 80S (eukaryotic cytoplasmic size)                                                 |
 | Binary fission         | Mitochondria divide by binary fission, similar to prokaryotes                                                                             |
 | Antibiotic sensitivity | Antibiotics that inhibit prokaryotic protein synthesis (e.g., chloramphenicol, tetracycline) also inhibit mitochondrial protein synthesis |
-| Size                   | Similar in size to prokaryotes (1--10 $\mu$M)                                                                                             |
+| Size                   | Similar in size to prokaryotes (1--10 $\mu$ M)                                                                                             |
 | Genetic code           | Mitochondrial genetic code has slight differences from the nuclear genetic code (more similar to prokaryotes)                             |
 
 ## 35. ATP: The Universal Energy Currency

@@ -49,8 +49,8 @@ $h_x$: if $x$ is a leaf, it has $0 = 2^0 - 1$ internal nodes; otherwise, each ch
 at least $bh(x) - 1$ if it is red, or $bh(x)$ if it is black, so each child has at least
 $2^{bh(x)-1} - 1$ internal nodes, giving at least $2(2^{bh(x)-1} - 1) + 1 = 2^{bh(x)} - 1$ for $x$).
 
-Therefore $n \geq 2^{bh(\mathrm{root})} - 1$Giving $bh(\mathrm{root}) \leq \log_2(n+1)$. Since
-$h \leq 2 \cdot bh(\mathrm{root})$We have $h \leq 2\log_2(n+1)$. $\blacksquare$
+Therefore $n \geq 2^{bh(\mathrm{root})} - 1$ Giving $bh(\mathrm{root}) \leq \log_2(n+1)$. Since
+$h \leq 2 \cdot bh(\mathrm{root})$ We have $h \leq 2\log_2(n+1)$. $\blacksquare$
 
 **Corollary.** Search, insert, and delete in a red-black tree take $O(\log n)$ time.
 
@@ -73,7 +73,7 @@ at most 2 rotations.
 
 _Proof._ The BST insert takes $O(\log n)$ time. The fix-up loop ascends the tree. Each iteration
 either terminates (cases 2 and 3 perform one or two rotations and terminate) or moves the problem
-two levels up (case 1 recolours and continues with $g$). Since the tree height is $O(\log n)$The
+two levels up (case 1 recolours and continues with $g$). Since the tree height is $O(\log n)$ The
 loop runs $O(\log n)$ times, but only cases 2 and 3 involve rotations, and at most one of these is
 reached. $\blacksquare$
 
@@ -192,7 +192,7 @@ changes the black-height of paths.
 | ---- | ----------- | --------------------------------- | ------------------------------------------------------------------ |
 | 1    | Red         | Any                               | Left-rotate at parent, recolour; reduces to cases 2--4             |
 | 2    | Black       | Both black                        | Recolour $w$ red; push double-black up to parent                   |
-| 3    | Black       | Left child red, right child black | Right-rotate at $w$Recolour children; reduces to case 4            |
+| 3    | Black       | Left child red, right child black | Right-rotate at $w$ Recolour children; reduces to case 4            |
 | 4    | Black       | Right child red                   | Left-rotate at parent, recolour $w$ and parent's parent; terminate |
 
 **Theorem 1.3.** Deletion from a red-black tree with $n$ nodes takes $O(\log n)$ time and performs
@@ -318,7 +318,7 @@ _Insert 20:_ Root = [10, 20]. (2 keys, valid)
 
 _Insert 5:_ Root = [5, 10, 20]. (3 keys, valid)
 
-_Insert 6:_ Root = [5, 6, 10, 20]. (4 keys = $2t$Overflow!) Split: promote 6, create [5] and [10,
+_Insert 6:_ Root = [5, 6, 10, 20]. (4 keys = $2t$ Overflow!) Split: promote 6, create [5] and [10,
 20].
 
 ```
@@ -390,7 +390,7 @@ Now delete key 20. Key 20 is in the root [6, 20]. Replace with successor: 30 (fr
 from its leaf: [30] has 1 key = $t - 1$ So we need to handle carefully.
 
 Actually, we replace 20 with 30, and the leaf [30] becomes []. Since [30] is now empty and its
-sibling [10, 17] has 2 keys > $t - 1$We can borrow. But [10, 17] is not an immediate sibling of [30]
+sibling [10, 17] has 2 keys > $t - 1$ We can borrow. But [10, 17] is not an immediate sibling of [30]
 in terms of being a child of the same parent.
 
 Let me reconsider. The parent of [30] is the root [6, 20]. [30]'s siblings are [5, 7] and [10, 17].
@@ -927,7 +927,7 @@ of any node in the Fibonacci heap.
 _Proof (outline)._ Define the potential $\Phi = t(H) + 2m(H)$ where $t(H)$ is the number of trees
 and $m(H)$ is the number of marked nodes. Show that each operation's amortised cost is bounded. For
 decrease-key, the actual cost is $O(c)$ where $c$ is the number of cascading cuts. The change in
-potential is at most $c + 2 - 2m'(H) \cdot (\text{terms} cancel)$Giving $O(1)$ amortised.
+potential is at most $c + 2 - 2m'(H) \cdot (\text{terms} cancel)$ Giving $O(1)$ amortised.
 $\blacksquare$
 
 :::caution
@@ -955,7 +955,7 @@ takes $O(\log n)$ amortised time.
 
 _Proof sketch._ The potential function is $\Phi = \log n$ per subtree (where $n$ is the subtree
 size). The key insight is that the two-pass merge of delete-min reduces the potential by at least
-$\log n$Absorbing the $O(n)$ work of merging. $\blacksquare$
+$\log n$ Absorbing the $O(n)$ work of merging. $\blacksquare$
 
 **Note.** Whether pairing heaps achieve $O(\log n)$ amortised delete-min was an open problem for
 many years. It was resolved by Iacono and Ozturk (2018) who proved $O(\log n)$ for a variant called
@@ -1001,7 +1001,7 @@ For massive graphs that do not fit in memory:
 
 - **CSR (Compressed Sparse Row):** Two arrays: `offsets` (size $|V|+1$) and `neighbours` (size
   $2|E|$). `offsets[i]` to `offsets[i+1]-1` gives the range of neighbours for vertex $i$. Space:
-  $O(V + E)$Cache-friendly.
+  $O(V + E)$ Cache-friendly.
 - **WebGraph framework:** Compresses web graphs using gap encoding, reference chains, and interval
   encoding. Achieves 2--3 bits per edge for typical web graphs.
 
@@ -1058,7 +1058,7 @@ and bound the total charges.
 Let $A_k(j)$ be as defined above. Node $x$ has **level** $\ell$ if
 $\text{rank}(x) \in [A_\ell(\lfloor \log_2 n \rfloor), A_{\ell+1}(\lfloor \log_2 n \rfloor))$.
 
-For a Find operation along a path $x_1, x_2, \ldots, x_k$Path compression makes all nodes point to
+For a Find operation along a path $x_1, x_2, \ldots, x_k$ Path compression makes all nodes point to
 the root. We charge the cost of the Find as follows:
 
 - For each node $x_i$ that is not the root, if $x_i$'s parent changes, charge $O(1)$ to $x_i$.
@@ -1262,7 +1262,7 @@ prefix of suffixes $\mathrm{SA[i]$ and $\mathrm{SA[i-1]$.
 **Theorem 6.4 (Kasai).** The LCP array can be computed from the suffix array in $O(n)$ time.
 
 **Kasai's algorithm.** Uses the inverse suffix array $\mathrm{SA^{-1}[\mathrm{SA[i]] = i$ and
-processes suffixes in text order. When computing $\mathrm{LCP[\mathrm{SA^{-1}[j]]$The result is at
+processes suffixes in text order. When computing $\mathrm{LCP[\mathrm{SA^{-1}[j]]$ The result is at
 least $\mathrm{LCP[\mathrm{SA^{-1}[j-1]] - 1$.
 
 <details>
@@ -1455,19 +1455,19 @@ $$
 \frac{1}{2 - \alpha} \leq \frac{|T_L|}{|T|} \leq \frac{1}{2}
 $$
 
-For some fixed $\alpha \in (1/4, 1 - \sqrt{2}/2)$Where $|T_L|$ is the size of the left subtree and
+For some fixed $\alpha \in (1/4, 1 - \sqrt{2}/2)$ Where $|T_L|$ is the size of the left subtree and
 $|T|$ is the total size.
 
 **Theorem 8.2.** A weight-balanced tree with $n$ nodes has height $O(\log n)$.
 
 _Proof._ At each level, the subtree size decreases by a factor of at least $\alpha$. After $h$
-levels, the minimum size is $\alpha^h n \geq 1$Giving $h \leq \log_{1/\alpha} n = O(\log n)$.
+levels, the minimum size is $\alpha^h n \geq 1$ Giving $h \leq \log_{1/\alpha} n = O(\log n)$.
 $\blacksquare$
 
 ### 8.3 scapegoat Trees
 
 A **scapegoat tree** is a BST where no rebalancing is done during insertion (only during deletion if
-needed). When an insertion causes the height to exceed $\log_{3/2} n$The algorithm finds a
+needed). When an insertion causes the height to exceed $\log_{3/2} n$ The algorithm finds a
 "scapegoat" ancestor whose subtree is unbalanced and rebuilds it.
 
 **Height bound.** A scapegoat tree with $n$ nodes has height at most $\log_{3/2} n$ (the "scapegoat bound").
@@ -1486,12 +1486,12 @@ rebuilds, the amortised cost is $O(\log n)$. $\blacksquare$
 **Heavy-light decomposition (HLD)** partitions a tree into paths, enabling efficient path queries
 (sum, max, min) and updates on trees.
 
-**Definitions.** For each node $u$The child $v$ with the largest subtree is the **heavy child**. All
+**Definitions.** For each node $u$ The child $v$ with the largest subtree is the **heavy child**. All
 other children are **light children**.
 
 **Property.** Every root-to-leaf path has at most $O(\log n)$ light edges.
 
-_Proof._ When traversing a light edge from $u$ to its parent $p$The subtree size at least doubles:
+_Proof._ When traversing a light edge from $u$ to its parent $p$ The subtree size at least doubles:
 $|\text{subtree(p)| \geq 2 \cdot |\text{subtree(u)|$. Since the tree has $n$ nodes, there can be at
 most $\log_2 n$ light edges on any root-to-leaf path. $\blacksquare$
 
@@ -1572,12 +1572,12 @@ removal leaves no subtree with more than $n/2$ nodes) and recursing on each resu
 
 _Proof._ Start at any node and move toward the heaviest subtree. The subtree size strictly decreases
 (since we always move away from the heaviest child). When we reach a node where no subtree exceeds
-$n/2$That node is the centroid. $\blacksquare$
+$n/2$ That node is the centroid. $\blacksquare$
 
 **Theorem 9.3.** Centroid decomposition has depth $O(\log n)$.
 
 _Proof._ At each level, every component has at most $n/2$ nodes. After $k$ levels, the largest
-component has at most $n/2^k$ nodes. When $n/2^k < 1$The decomposition is complete, giving depth
+component has at most $n/2^k$ nodes. When $n/2^k < 1$ The decomposition is complete, giving depth
 $O(\log n)$. $\blacksquare$
 
 **Applications:**
@@ -1686,8 +1686,8 @@ order): 5, 1, 8, 4. Show the two-pass merge process step by step.
 
 ### 8.3 Advanced Structures (Problems 8--11)
 
-**Problem 8.** Given an array $A = [7, 2, 5, 1, 8, 3, 6, 4]$Build a segment tree for range minimum
-queries. Then query $\min(A[2..5])$Update $A[3] = 0$ And query $\min(A[1..6])$.
+**Problem 8.** Given an array $A = [7, 2, 5, 1, 8, 3, 6, 4]$ Build a segment tree for range minimum
+queries. Then query $\min(A[2..5])$ Update $A[3] = 0$ And query $\min(A[1..6])$.
 
 **Problem 9.** Build a Fenwick tree for the array $A = [5, 3, 7, 1, 4, 6, 2]$. Compute the prefix
 sum up to index 5, the range sum $A[2..6]$ And show the effect of adding 10 to $A[4]$.

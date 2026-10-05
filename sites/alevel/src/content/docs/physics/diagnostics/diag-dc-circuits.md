@@ -153,7 +153,7 @@ demonstrates why potential dividers should have $R_L \gg R_2$ to avoid loading e
 }
 </script>
 
-### UT-3: Kirchhoff"s Laws with Multiple Sources
+### UT-3: Kirchhoff's Laws with Multiple Sources
 
 **Question:**
 
@@ -306,7 +306,7 @@ Energy stored: $E = \frac{1}{2}CV^2 = 0.5 \times 10^{-3} \times 196 = 0.098\,\te
 **Question:**
 
 A circuit consists of a $24\,\text{V}$ supply (internal resistance $1\,\Omega$) in series with
-$R_1 = 5\,\Omega$Which is then connected to a parallel combination of $R_2 = 10\,\Omega$ and
+$R_1 = 5\,\Omega$ Which is then connected to a parallel combination of $R_2 = 10\,\Omega$ and
 $R_3 = 15\,\Omega$.
 
 (a) Find the Thevenin equivalent circuit across $R_3$.
@@ -352,8 +352,8 @@ $$
 $$\frac{15}{3.75 + R_3} \gt 0.8$$ $$15 \gt 0.8(3.75 + R_3)$$ $$18.75 \gt 3.0 + 0.8 R_3$$
 $$0.8 R_3 \lt 15.75$$ $$R_3 \lt 19.7\,\Omega$$
 
-For any $R_3 \lt 19.7\,\Omega$The current exceeds $0.8\,\text{A}$. Since the original
-$R_3 = 15\,\Omega$ gives exactly $0.8\,\text{A}$This is the boundary.
+For any $R_3 \lt 19.7\,\Omega$ The current exceeds $0.8\,\text{A}$. Since the original
+$R_3 = 15\,\Omega$ gives exactly $0.8\,\text{A}$ This is the boundary.
 
 ---
 
@@ -409,7 +409,7 @@ $$
 I_{\text{total}} = 9.0/46.56 = 0.1933\,\text{A}
 $$
 
-The voltmeter reads $9.0\,\text{V}$Which equals the ideal value. This is because with no other
+The voltmeter reads $9.0\,\text{V}$ Which equals the ideal value. This is because with no other
 resistance in the circuit, the full supply voltage appears across the parallel combination
 regardless of the voltmeter's loading effect.
 

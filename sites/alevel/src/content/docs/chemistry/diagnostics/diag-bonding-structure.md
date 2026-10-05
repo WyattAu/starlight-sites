@@ -78,8 +78,8 @@ bonds use 4 electrons, leaving 4 electrons (2 lone pairs).
 $\text{NH}_3$ there is one lone pair, while in $\text{H}_2\text{O}$ there are two lone pairs. Lone
 pair--bonding pair (LP--BP) repulsion is greater than bonding pair--bonding pair (BP--BP) repulsion
 because lone pairs occupy more space (they are attracted to only one nucleus). In
-$\text{H}_2\text{O}$The two lone pairs repel the bonding pairs more strongly, compressing the
-H--O--H angle to $104.5^\circ$Compared to $\text{NH}_3$ where only one lone pair compresses the
+$\text{H}_2\text{O}$ The two lone pairs repel the bonding pairs more strongly, compressing the
+H--O--H angle to $104.5^\circ$ Compared to $\text{NH}_3$ where only one lone pair compresses the
 H--N--H angle to $107^\circ$.
 
 ---
@@ -99,12 +99,12 @@ H--N--H angle to $107^\circ$.
 
 Explain the following observations:
 
-(a) Ethanol ($\text{C}_2\text{H}_5\text{OH}$, $M_r = 46$) boils at $78\,^\circ\text{C}$While dimethyl
-ether ($\text{CH}_3\text{OCH}_3$, $M_r = 46$) boils at $-24\,^\circ\text{C}$Despite having the same
+(a) Ethanol ($\text{C}_2\text{H}_5\text{OH}$, $M_r = 46$) boils at $78\,^\circ\text{C}$ While dimethyl
+ether ($\text{CH}_3\text{OCH}_3$, $M_r = 46$) boils at $-24\,^\circ\text{C}$ Despite having the same
 molecular formula and molar mass.
 
-(b) $\text{HF}$ ($M_r = 20$) boils at $20\,^\circ\text{C}$While $\text{HCl}$ ($M_r = 36.5$) boils at
-$-85\,^\circ\text{C}$Despite $\text{HCl}$ having greater van der Waals forces.
+(b) $\text{HF}$ ($M_r = 20$) boils at $20\,^\circ\text{C}$ While $\text{HCl}$ ($M_r = 36.5$) boils at
+$-85\,^\circ\text{C}$ Despite $\text{HCl}$ having greater van der Waals forces.
 
 (c) Water ($\text{H}_2\text{O}$) has a higher boiling point ($100\,^\circ\text{C}$) than hydrogen
 sulphide ($\text{H}_2\text{S}$, $-60\,^\circ\text{C}$), but the boiling points of $\text{HCl}$
@@ -113,8 +113,8 @@ sulphide ($\text{H}_2\text{S}$, $-60\,^\circ\text{C}$), but the boiling points o
 **Solution:**
 
 (a) Both molecules have the same molecular formula $\text{C}_2\text{H}_6\text{O}$ (they are
-functional group isomers). Ethanol has an $-$OH group capable of **hydrogen bonding** (H bonded to
-the highly electronegative O), while dimethyl ether has no $-$OH group and can only form
+functional group isomers). Ethanol has an $-$ OH group capable of **hydrogen bonding** (H bonded to
+the highly electronegative O), while dimethyl ether has no $-$ OH group and can only form
 **dipole-dipole interactions** and van der Waals forces. Hydrogen bonds are significantly stronger
 than dipole-dipole interactions and van der Waals forces, so more energy is required to separate
 ethanol molecules, giving it a much higher boiling point.
@@ -122,14 +122,14 @@ ethanol molecules, giving it a much higher boiling point.
 (b) Although $\text{HCl}$ has greater van der Waals forces (due to more electrons and larger
 electron cloud), $\text{HF}$ can form **hydrogen bonds** between molecules (H bonded to F, the most
 electronegative element). The hydrogen bonds in HF are strong enough to overcome the van der Waals
-advantage of $\text{HCl}$Resulting in a much higher boiling point for HF. Each HF molecule can form
+advantage of $\text{HCl}$ Resulting in a much higher boiling point for HF. Each HF molecule can form
 an average of approximately two hydrogen bonds (unlike water which forms four).
 
 (c) Water can form **hydrogen bonding** (each molecule can form up to four H-bonds: two as donor and
 two as acceptor), while $\text{H}_2\text{S}$ cannot form hydrogen bonds (S is not electronegative
 enough). The hydrogen bonding in water dominates, making its boiling point anomalously high.
 
-For $\text{HCl}$ and $\text{HBr}$Neither can form significant hydrogen bonding (Cl is insufficiently
+For $\text{HCl}$ and $\text{HBr}$ Neither can form significant hydrogen bonding (Cl is insufficiently
 electronegative, and the H--Cl bond is not polar enough). Therefore, the normal trend of increasing
 boiling point with increasing $M_r$ (due to stronger van der Waals forces from more electrons and
 larger electron clouds) applies. The hydrogen bonding anomaly only applies to
@@ -165,7 +165,7 @@ $\text{CCl}_4$.
 (a) $\text{Al}^{3+}$ is a small, highly charged cation with high charge density. It polarises the
 electron cloud of the $\text{Cl}^-$ anion significantly (Fajans" rules: small, highly charged
 cations distort large anions). This causes electron density to be drawn towards the
-$\text{Al}$Giving the bond significant **covalent character** rather than being purely ionic.
+$\text{Al}$ Giving the bond significant **covalent character** rather than being purely ionic.
 
 In the solid state, $\text{AlCl}_3$ forms a layer lattice with some covalent character, explaining
 the low melting point and lack of conductivity when molten. On sublimation, the
@@ -214,7 +214,7 @@ molecule. Explain this observation.
 (a) For $\text{NaCl}$ to dissolve, the strong ionic bonds in the lattice must be broken and the ions
 must be hydrated. Water molecules are polar and can surround the $\text{Na}^+$ and $\text{Cl}^-$
 ions with the appropriate partial charges (oxygen atom of water orientated towards
-$\text{Na}^+$Hydrogen atoms towards $\text{Cl}^-$). The energy released from ion-dipole interactions
+$\text{Na}^+$ Hydrogen atoms towards $\text{Cl}^-$). The energy released from ion-dipole interactions
 (hydration enthalpy) compensates for the lattice energy. Hexane is non-polar and cannot solvate
 ions, so $\text{NaCl}$ is insoluble.
 
@@ -228,7 +228,7 @@ dipole interactions, which is energetically unfavourable. Hexane is non-polar, s
 Waals forces need to be overcome and similar weak London dispersion forces are formed in their
 place, making the process energetically favourable.
 
-(c) Glucose has five $-$OH groups and one $=$O group. Each $-$OH group can form **hydrogen bonds**
+(c) Glucose has five $-$ OH groups and one $=$ O group. Each $-$ OH group can form **hydrogen bonds**
 with water molecules, and the ring oxygen also contributes to polarity. Although glucose is a large
 molecule, the numerous hydrogen bonding sites allow extensive solute-solvent interactions that
 compensate for the energy needed to separate water molecules. The large number of hydroxyl groups
@@ -314,7 +314,7 @@ electrical insulator while graphite is a conductor, referring to the bonding in 
 (b) Diamond has a standard enthalpy of atomisation of $+717\,\text{kJ mol}^{-1}$ and graphite has
 $+716\,\text{kJ mol}^{-1}$. Calculate the enthalpy change for the conversion of diamond to graphite.
 
-(c) Given that the bond enthalpy of a C--C single bond is $+347\,\text{kJ mol}^{-1}$Estimate the
+(c) Given that the bond enthalpy of a C--C single bond is $+347\,\text{kJ mol}^{-1}$ Estimate the
 average bond enthalpy of a C--C bond in diamond. Each carbon atom in diamond forms four bonds, and
 each bond is shared between two atoms.
 
@@ -364,7 +364,7 @@ $$
 \text{Average C--C bond enthalpy in diamond} = \frac{717}{2} = 358.5\,\text{kJ mol}^{-1}
 $$
 
-This is slightly higher than the standard C--C bond enthalpy of $347\,\text{kJ mol}^{-1}$Reflecting
+This is slightly higher than the standard C--C bond enthalpy of $347\,\text{kJ mol}^{-1}$ Reflecting
 the fact that diamond's rigid tetrahedral network creates slightly stronger bonds due to the
 constrained geometry and lack of bond rotation.
 
@@ -436,7 +436,7 @@ cation and increasing covalent character (Fajans' rules) (1 mark).
 #### IT-4: Bonding and Physical Properties
 
 **Question:** Explain why $\mathrm{SiO}_2$ has a melting point of $1713^\circ\mathrm{C}$ while
-$\mathrm{CO}_2$ sublimes at $-78^\circ\mathrm{C}$Even though both C and Si are in Group 4 and both
+$\mathrm{CO}_2$ sublimes at $-78^\circ\mathrm{C}$ Even though both C and Si are in Group 4 and both
 compounds contain oxygen.
 
 **Solution:**
@@ -445,7 +445,7 @@ $\mathrm{SiO}_2$ has a giant covalent (macromolecular) structure in which each s
 bonded to four oxygen atoms in a tetrahedral arrangement, and each oxygen atom bridges two silicon
 atoms ($\text{--Si--O--Si--}$). This creates a continuous three-dimensional network of strong
 covalent bonds ($\text{Si--O}: 452\,\mathrm{kJ/mol}$) throughout the entire crystal. To melt
-$\mathrm{SiO}_2$A large number of these strong covalent bonds must be broken, requiring a large
+$\mathrm{SiO}_2$ A large number of these strong covalent bonds must be broken, requiring a large
 amount of energy (2 marks).
 
 $\mathrm{CO}_2$ consists of simple discrete molecules with double bonds

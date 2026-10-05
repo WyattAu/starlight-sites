@@ -36,12 +36,12 @@ $g \in G$ I.e., $gng^{-1} \in N$ for all $g \in G$ and all $n \in N$.
 
 _Proof of (1) $\Rightarrow$ (3)._ Let $a_1n_1 \in aN$ and $b_1 n_2 \in bN$. Then
 $(a_1 n_1)(b_1 n_2) = a_1 b_1 (b_1^{-1} n_1 b_1) n_2$. Since $N$ is normal,
-$b_1^{-1} n_1 b_1 \in N$ So $(b_1^{-1} n_1 b_1) n_2 \in N$Giving $(a_1 n_1)(b_1 n_2) \in a_1 b_1 N$.
+$b_1^{-1} n_1 b_1 \in N$ So $(b_1^{-1} n_1 b_1) n_2 \in N$ Giving $(a_1 n_1)(b_1 n_2) \in a_1 b_1 N$.
 $\blacksquare$
 
 ### 4.2 The Quotient Group
 
-When $N \trianglelefteq G$The set $G/N = \{gN : g \in G\}$ of cosets forms a group under
+When $N \trianglelefteq G$ The set $G/N = \{gN : g \in G\}$ of cosets forms a group under
 
 $$
 (aN)(bN) = (ab)N
@@ -63,7 +63,7 @@ $Z(Q_8) = \{1, -1\}$. Compute $Q_8 / Z(Q_8)$.
 <details>
 <summary>Solution</summary>
 
-_Solution._ Since $|Q_8| = 8$ and $|Z(Q_8)| = 2$We have $|Q_8/Z(Q_8)| = 4$. The cosets are:
+_Solution._ Since $|Q_8| = 8$ and $|Z(Q_8)| = 2$ We have $|Q_8/Z(Q_8)| = 4$. The cosets are:
 
 $$
 Z(Q_8) = \{1, -1\}, \quad iZ(Q_8) = \{i, -i\}, \quad jZ(Q_8) = \{j, -j\}, \quad kZ(Q_8) = \{k, -k\}
@@ -83,7 +83,7 @@ $N \trianglelefteq S_4$ and identify $S_4/N$.
 <summary>Solution</summary>
 
 _Solution._ $N = \{e, (1\ 2)(3\ 4), (1\ 3)(2\ 4), (1\ 4)(2\ 3)\}$ is the Klein four-group $V_4$ With
-$|N| = 4$. To verify $N \trianglelefteq S_4$Note that conjugation preserves cycle type. Each
+$|N| = 4$. To verify $N \trianglelefteq S_4$ Note that conjugation preserves cycle type. Each
 non-identity element of $N$ is a product of two disjoint transpositions. Since $S_4$ acts
 Transitively on such elements (any pair of disjoint transpositions can be mapped to any other by
 relabeling), $N$ is closed under conjugation.
@@ -102,7 +102,7 @@ $\ker(\phi)$ and $GL_2(\mathbb{R})/\ker(\phi)$.
 <summary>Solution</summary>
 
 _Solution._ $\phi$ is a homomorphism since $\det(AB) = \det(A)\det(B)$. It is surjective: For any
-$r \in \mathbb{R}^*$The matrix $\begin{pmatrix} r & 0 \\ 0 & 1 \end{pmatrix}$ has determinant $r$.
+$r \in \mathbb{R}^*$ The matrix $\begin{pmatrix} r & 0 \\ 0 & 1 \end{pmatrix}$ has determinant $r$.
 
 The kernel is $\ker(\phi) = \{A \in GL_2(\mathbb{R}) : \det(A) = 1\} = SL_2(\mathbb{R})$.
 
@@ -111,7 +111,7 @@ $GL_2(\mathbb{R})/SL_2(\mathbb{R}) \cong \mathbb{R}^*$. $\blacksquare$
 
 </details>
 
-**Problem.** Show that $\mathbb{C}^* / S^1 \cong \mathbb{R}^+$Where
+**Problem.** Show that $\mathbb{C}^* / S^1 \cong \mathbb{R}^+$ Where
 $S^1 = \{z \in \mathbb{C}^* : |z| = 1\}$.
 
 <details>
@@ -119,7 +119,7 @@ $S^1 = \{z \in \mathbb{C}^* : |z| = 1\}$.
 
 _Solution._ Define $\phi : \mathbb{C}^* \to \mathbb{R}^+$ by $\phi(z) = |z|$. This is a homomorphism
 since $|zw| = |z||w|$. It is surjective since for any $r > 0$ $\phi(r) = r$. The kernel is
-$\ker(\phi) = \{z \in \mathbb{C}^* : |z| = 1\} = S^1$The unit circle. By the first isomorphism
+$\ker(\phi) = \{z \in \mathbb{C}^* : |z| = 1\} = S^1$ The unit circle. By the first isomorphism
 theorem, $\mathbb{C}^* / S^1 \cong \mathbb{R}^+$. $\blacksquare$
 
 </details>

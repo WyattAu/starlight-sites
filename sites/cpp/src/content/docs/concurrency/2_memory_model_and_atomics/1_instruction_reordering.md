@@ -327,7 +327,7 @@ Such that [N4950 §31.7.5]:
    last write to $x$ in $T$.
 
 The C++ memory model guarantees that all `memory_order_seq_cst` operations participate in a single
-Total order $S$Called the **modification order**, which is consistent with all happens-before
+Total order $S$ Called the **modification order**, which is consistent with all happens-before
 Relationships.
 
 ## Concrete Example: Reordering Bug

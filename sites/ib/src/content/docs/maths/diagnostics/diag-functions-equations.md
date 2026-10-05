@@ -72,9 +72,9 @@ Critical values: $x = \frac{4}{3}$ (numerator zero) and $x = 1$ (denominator zer
 
 Sign chart:
 
-- $x \lt 1$: numerator $4 - 3x \gt 0$Denominator $x - 1 \lt 0$. Ratio $\lt 0$. Not valid.
-- $1 \lt x \leq \frac{4}{3}$: numerator $\geq 0$Denominator $\gt 0$. Ratio $\geq 0$. Valid.
-- $x \gt \frac{4}{3}$: numerator $\lt 0$Denominator $\gt 0$. Ratio $\lt 0$. Not valid.
+- $x \lt 1$: numerator $4 - 3x \gt 0$ Denominator $x - 1 \lt 0$. Ratio $\lt 0$. Not valid.
+- $1 \lt x \leq \frac{4}{3}$: numerator $\geq 0$ Denominator $\gt 0$. Ratio $\geq 0$. Valid.
+- $x \gt \frac{4}{3}$: numerator $\lt 0$ Denominator $\gt 0$. Ratio $\lt 0$. Not valid.
 
 Domain of $f \circ g$: $\left(1, \frac{4}{3}\right]$.
 
@@ -83,14 +83,14 @@ Domain of $f \circ g$: $\left(1, \frac{4}{3}\right]$.
 Domain restrictions:
 
 1. From $f$: $x - 3 \geq 0$ So $x \geq 3$.
-2. From $g$: $\sqrt{x-3} \neq 1$ So $x - 3 \neq 1$Giving $x \neq 4$.
+2. From $g$: $\sqrt{x-3} \neq 1$ So $x - 3 \neq 1$ Giving $x \neq 4$.
 
 Domain of $g \circ f$: $[3, 4) \cup (4, \infty)$.
 
 **(c)** The student is incorrect. $\mathrm{dom}(f \circ g)$ is not $\mathrm{dom}(g)$. It is the
 subset of $\mathrm{dom}(g)$ for which $g(x)$ falls within $\mathrm{dom}(f)$. Here
 $\mathrm{dom}(g) = \mathbb{R} \setminus \{1\}$ But
-$\mathrm{dom}(f \circ g) = \left(1, \frac{4}{3}\right]$Which is a proper subset.
+$\mathrm{dom}(f \circ g) = \left(1, \frac{4}{3}\right]$ Which is a proper subset.
 
 ---
 
@@ -130,13 +130,13 @@ f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2
 $$
 
 The domain of $f^{-1}$ equals the range of $f$. Since
-$f(x) = \dfrac{2x + 3}{x - 1} = 2 + \dfrac{5}{x - 1}$As $x \to \pm\infty$, $f(x) \to 2$ But
+$f(x) = \dfrac{2x + 3}{x - 1} = 2 + \dfrac{5}{x - 1}$ As $x \to \pm\infty$, $f(x) \to 2$ But
 $f(x) \neq 2$. The horizontal asymptote at $y = 2$ is never reached. Domain:
 $\mathbb{R} \setminus \{2\}$.
 
-**(b)** The student computed $\dfrac{1}{f(x)} = \dfrac{x - 1}{2x + 3}$Confusing the inverse function
+**(b)** The student computed $\dfrac{1}{f(x)} = \dfrac{x - 1}{2x + 3}$ Confusing the inverse function
 $f^{-1}$ with the reciprocal $\dfrac{1}{f}$. The notation $f^{-1}$ means the function that "undoes"
-$f$Not $1/f$.
+$f$ Not $1/f$.
 
 **(c)** For $x \neq 2$:
 
@@ -162,7 +162,7 @@ Verified.
 **Question:**
 
 The graph of $y = f(x)$ passes through the point $(2, 5)$. After the transformation
-$y = -2f(x - 1) + 3$The graph passes through the point $(a, b)$.
+$y = -2f(x - 1) + 3$ The graph passes through the point $(a, b)$.
 
 Find the values of $a$ and $b$.
 
@@ -184,7 +184,7 @@ $a = 2 - 1 = 1$ But the correct calculation would give $a = 2 + 1 = 3$.
 **(b)** For $y = -2f(x - 1) + 3$:
 
 - The transformation $f(x - 1)$ shifts right by 1, so the input changes: $x = 2$ requires
-  $x - 1 = 2$I.e., $x = 3$. So $a = 3$.
+  $x - 1 = 2$ I.e., $x = 3$. So $a = 3$.
 - At the original point, $f(2) = 5$. The vertical stretch by $-2$ (reflection in $x$-axis then
   stretch by 2) gives $-2 \times 5 = -10$. Then translate up by 3: $b = -10 + 3 = -7$.
 
@@ -243,9 +243,9 @@ $$
 \frac{7x + 12}{4x + 7} = x \implies 7x + 12 = 4x^2 + 7x \implies 4x^2 = 12 \implies x^2 = 3
 $$
 
-This is not identically equal to $x$Confirming that $f$ is not self-inverse.
+This is not identically equal to $x$ Confirming that $f$ is not self-inverse.
 
-Since $f$ is a Mobius transformation with $ad - bc = 2 \cdot 2 - 1 \cdot 3 = 1 \neq 0$It is
+Since $f$ is a Mobius transformation with $ad - bc = 2 \cdot 2 - 1 \cdot 3 = 1 \neq 0$ It is
 invertible. The inverse is:
 
 $$

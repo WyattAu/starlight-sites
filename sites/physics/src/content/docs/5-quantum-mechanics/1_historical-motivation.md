@@ -35,7 +35,7 @@ Spiral into the nucleus.
 
 ### 1.2 Key Experiments
 
-**Planck"s quantisation (1900).** Blackbody radiation is explained by assuming energy is emitted in
+**Planck's quantisation (1900).** Blackbody radiation is explained by assuming energy is emitted in
 Discrete quanta: $E = h\nu$ where $h = 6.626 \times 10^{-34}$ J$\cdot$S is Planck's constant.
 
 **Einstein's photon (1905).** Light consists of photons, each carrying energy $E = h\nu$ and
@@ -72,7 +72,7 @@ Where $\phi$ is the work function (minimum energy to remove an electron from the
 
 **Key predictions:**
 
-1. **Threshold frequency.** No electrons are emitted if $\nu \lt \nu_0 = \phi/h$Regardless of
+1. **Threshold frequency.** No electrons are emitted if $\nu \lt \nu_0 = \phi/h$ Regardless of
    intensity. This is because each photon must supply at least $\phi$.
 
 2. **Linear dependence on frequency.** $K_{\max} = h\nu - \phi$ is linear in $\nu$ with slope $h$
@@ -90,7 +90,7 @@ $$
 h\nu_0 = \phi \implies \nu_0 = \frac{\phi}{h}
 $$
 
-For frequencies $\nu \lt \nu_0$The photon energy is insufficient to liberate an electron, and No
+For frequencies $\nu \lt \nu_0$ The photon energy is insufficient to liberate an electron, and No
 photoelectric emission occurs regardless of intensity. $\blacksquare$
 
 **Millikan's experimental verification (1916).** Robert Millikan, who initially opposed Einstein's
@@ -122,8 +122,8 @@ Compton scattering provides direct evidence that photons carry momentum. When an
 Wavelength $\lambda$ scatters off a free (or loosely bound) electron at rest, the scattered photon
 Has a longer wavelength $\lambda'$.
 
-**Setup.** Incident photon: energy $E = hc/\lambda$Momentum $p = h/\lambda$. Target electron: At
-rest, energy $m_e c^2$Momentum $0$. After scattering, the photon is deflected by angle $\theta$ And
+**Setup.** Incident photon: energy $E = hc/\lambda$ Momentum $p = h/\lambda$. Target electron: At
+rest, energy $m_e c^2$ Momentum $0$. After scattering, the photon is deflected by angle $\theta$ And
 the electron recoils at angle $\phi$.
 
 **Energy conservation:**

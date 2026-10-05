@@ -33,7 +33,7 @@ Light and matter exhibit both wave-like and particle-like properties.
 Are emitted.
 
 - Electrons are emitted **instantaneously**, not after a delay
-- No electrons are emitted if the frequency is below the threshold frequency $f_0$Regardless of
+- No electrons are emitted if the frequency is below the threshold frequency $f_0$ Regardless of
   intensity
 - The maximum kinetic energy of emitted electrons depends on frequency, not intensity
 - More intense light produces more electrons, not more energetic ones
@@ -42,7 +42,7 @@ Are emitted.
 
 Classical wave theory predicts that the energy of a light wave depends on its intensity (amplitude),
 Not its frequency. A sufficiently intense low-frequency light should eventually eject electrons.
-This does not happen. Einstein"s explanation -- that light consists of discrete photons with energy
+This does not happen. Einstein's explanation -- that light consists of discrete photons with energy
 $E = hf$ -- correctly predicts that the kinetic energy of emitted electrons depends on frequency,
 And that there is a threshold frequency below which no electrons are emitted regardless of
 Intensity. This was one of the key experiments that led to quantum mechanics.
@@ -385,8 +385,8 @@ flowchart TD
    sources decrease it.
 
 6. **Confusing baryon number and atomic mass number.** Baryon number counts the number of quarks
-   minus antiquarks (each quark has $B = 1/3$Each antiquark has $B = -1/3$). A proton has $B = 1$ a
-   neutron has $B = 1$A meson has $B = 0$.
+   minus antiquarks (each quark has $B = 1/3$ Each antiquark has $B = -1/3$). A proton has $B = 1$ a
+   neutron has $B = 1$ A meson has $B = 0$.
 
 ---
 
@@ -466,7 +466,7 @@ $2 \mathrm{ cm^2$.
 **Photon energy:**
 $E = hf = 6.63 \times 10^{-34} \times 7 \times 10^{14} = 4.64 \times 10^{-19} \mathrm{ J = 2.90 \mathrm{ eV$
 
-Since $2.90 \mathrm{ eV \gt 2.0 \mathrm{ eV$Photoelectrons are emitted.
+Since $2.90 \mathrm{ eV \gt 2.0 \mathrm{ eV$ Photoelectrons are emitted.
 
 **Maximum KE:** $E_k = 2.90 - 2.0 = 0.90 \mathrm{ eV$
 

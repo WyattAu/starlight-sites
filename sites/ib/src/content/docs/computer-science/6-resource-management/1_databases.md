@@ -299,7 +299,7 @@ Well-structured tables linked by relationships.
 ### Functional Dependencies
 
 A functional dependency $X \rightarrow Y$ means that the value of attribute $Y$ is uniquely
-Determined by the value of attribute $X$. If two rows have the same value for $X$They must have The
+Determined by the value of attribute $X$. If two rows have the same value for $X$ They must have The
 same value for $Y$.
 
 **Example:** In a table with `{studentID, name, dateOfBirth}`The dependency studentID $\rightarrow$

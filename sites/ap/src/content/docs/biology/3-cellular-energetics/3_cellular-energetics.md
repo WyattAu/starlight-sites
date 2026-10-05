@@ -91,7 +91,7 @@ $$
 Per glucose: 2 acetyl-CoA, $2 \mathrm{CO_2$2 NADH.
 
 The link reaction is catalysed by the pyruvate dehydrogenase complex, a large multi-enzyme complex
-That requires five coenzymes: CoA, $\mathrm{NAD^+$FAD, lipoic acid, and thiamine (vitamin B1). This
+That requires five coenzymes: CoA, $\mathrm{NAD^+$ FAD, lipoic acid, and thiamine (vitamin B1). This
 is why thiamine deficiency (beriberi) impairs energy metabolism.
 
 ### Citric Acid Cycle (Krebs Cycle)
@@ -180,7 +180,7 @@ Using the values of 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2$:
 - Krebs cycle: 2 ATP + 6 NADH $\times$ 2.5 + 2 $\mathrm{FADH_2 \times$ 1.5 = 2 + 15 + 3 = 20 ATP
 - **Total: 7 + 5 + 20 = 32 ATP**
 
-Note: Some textbooks use 3 ATP per NADH and 2 ATP per $\mathrm{FADH_2$Giving a total of 38 ATP. The
+Note: Some textbooks use 3 ATP per NADH and 2 ATP per $\mathrm{FADH_2$ Giving a total of 38 ATP. The
 actual yield is closer to 30-32 because of proton leak and the cost of transporting molecules Across
 membranes.
 
@@ -234,8 +234,8 @@ $$
 
 | Stage           | Location           | Inputs                                           | Outputs                            |
 | --------------- | ------------------ | ------------------------------------------------ | ---------------------------------- |
-| Light-dependent | Thylakoid membrane | $\mathrm{H_2\mathrm{O$Light, $\mathrm{NADP^+$ADP | $\mathrm{O_2$ATP, NADPH            |
-| Calvin cycle    | Stroma             | $\mathrm{CO_2$ATP, NADPH                         | G3P (sugar), ADP, $\mathrm{NADP^+$ |
+| Light-dependent | Thylakoid membrane | $\mathrm{H_2\mathrm{O$ Light, $\mathrm{NADP^+$ ADP | $\mathrm{O_2$ ATP, NADPH            |
+| Calvin cycle    | Stroma             | $\mathrm{CO_2$ ATP, NADPH                         | G3P (sugar), ADP, $\mathrm{NADP^+$ |
 
 ### Light-Dependent Reactions
 
@@ -283,7 +283,7 @@ $\mathrm{CO_2$ + 18 ATP + 12 NADPH $\to$ glucose + 18 ADP + 16 $\mathrm{P_i$ + 1
 ### Photorespiration
 
 When stomata close on hot, dry days, $\mathrm{CO_2$ levels drop and $\mathrm{O_2$ levels rise.
-RuBisCO binds $\mathrm{O_2$ instead of $\mathrm{CO_2$Producing 2-phosphoglycolate (a 2-carbon
+RuBisCO binds $\mathrm{O_2$ instead of $\mathrm{CO_2$ Producing 2-phosphoglycolate (a 2-carbon
 Compound) and 3-PGA. This consumes energy without producing sugar.
 
 ### C4 and CAM Photosynthesis
@@ -458,12 +458,12 @@ More photons are available to excite electrons in the photosystems. As light int
 The rate plateaus because another factor ( $\mathrm{CO_2$ concentration or temperature) Becomes
 limiting.
 
-**$\mathrm{CO_2$ concentration:** At low $\mathrm{CO_2$The rate increases because RuBisCO has More
-substrate to fix. At high $\mathrm{CO_2$The rate plateaus because light or temperature is Limiting.
+**$\mathrm{CO_2$ concentration:** At low $\mathrm{CO_2$ The rate increases because RuBisCO has More
+substrate to fix. At high $\mathrm{CO_2$ The rate plateaus because light or temperature is Limiting.
 Commercial greenhouses often enrich the atmosphere with $\mathrm{CO_2$ to increase crop Yields.
 
 **Temperature:** Affects enzyme activity (particularly RuBisCO). The rate increases with temperature
-Up to an optimum ( $25$--$35\degree$C for most plants) and then decreases sharply as Enzymes
+Up to an optimum ( $25$--$35\degree$ C for most plants) and then decreases sharply as Enzymes
 denature. The effect of temperature is most pronounced at high light intensities where light Is not
 the limiting factor.
 
@@ -475,22 +475,22 @@ $\mathrm{CO_2$ uptake and therefore limiting photosynthesis.
 **Worked Example: Interpreting a photosynthesis rate graph.**
 
 A graph shows the rate of photosynthesis plotted against light intensity at two temperatures,
-$15\degree$C and $30\degree$C.
+$15\degree$ C and $30\degree$ C.
 
 1. At low light intensity, both curves rise at the same rate. Light is the limiting factor at both
    temperatures.
-2. The $15\degree$C curve plateaus at a lower maximum rate than the $30\degree$C curve. At
-   $15\degree$C, temperature limits the rate of enzyme-catalysed reactions (particularly RuBisCO
+2. The $15\degree$ C curve plateaus at a lower maximum rate than the $30\degree$ C curve. At
+   $15\degree$ C, temperature limits the rate of enzyme-catalysed reactions (particularly RuBisCO
    activity).
-3. At $30\degree$C, the higher enzyme activity allows a higher maximum rate of photosynthesis.
-4. If a third curve at $40\degree$C were added, it might plateau at a similar or lower level than
-   the $30\degree$C curve if $40\degree$C is close to the optimum, or it might show a lower rate if
+3. At $30\degree$ C, the higher enzyme activity allows a higher maximum rate of photosynthesis.
+4. If a third curve at $40\degree$ C were added, it might plateau at a similar or lower level than
+   the $30\degree$ C curve if $40\degree$ C is close to the optimum, or it might show a lower rate if
    enzymes are beginning to denature.
 
 ## Review: The Role of the Electron Transport Chain in Respiration
 
 The ETC is a series of membrane-bound protein complexes and mobile electron carriers that transfer
-Electrons from NADH and $\mathrm{FADH_2$ to $\mathrm{O_2$The final electron acceptor. The energy
+Electrons from NADH and $\mathrm{FADH_2$ to $\mathrm{O_2$ The final electron acceptor. The energy
 Released by electron transfer is used to pump protons across the inner mitochondrial membrane,
 Creating the electrochemical gradient that drives ATP synthesis.
 
@@ -499,7 +499,7 @@ Creating the electrochemical gradient that drives ATP synthesis.
 - Electrons move through the complexes in order of increasingly positive reduction potential (each
   successive complex has a greater affinity for electrons).
 - $\mathrm{O_2$ is essential because it is the only molecule with a positive enough reduction
-  potential to accept electrons at the end of the chain. Without $\mathrm{O_2$Electrons back up
+  potential to accept electrons at the end of the chain. Without $\mathrm{O_2$ Electrons back up
   through the chain, NADH and $\mathrm{FADH_2$ cannot be oxidised, and the Krebs cycle stops.
 - Some compounds that block the ETC are poisons: cyanide blocks Complex IV, rotenone blocks Complex
   I, and antimycin A blocks Complex III. DNP (dinitrophenol) is an uncoupler that makes the membrane
@@ -702,7 +702,7 @@ Activating brown fat as a treatment for obesity (burning calories as heat).
 ## Review: The Role of Alternative Oxidases
 
 Some plants and fungi possess an alternative oxidase (AOX) in their mitochondrial ETC. AOX transfers
-Electrons directly from ubiquinol to $\mathrm{O_2$Bypassing Complexes III and IV. This pathway Does
+Electrons directly from ubiquinol to $\mathrm{O_2$ Bypassing Complexes III and IV. This pathway Does
 not pump protons, so no ATP is produced, but it does allow the ETC to continue operating when The
 cytochrome pathway is saturated. AOX also reduces the production of reactive oxygen species (ROS) by
 preventing over-reduction of the ETC.
@@ -806,7 +806,7 @@ mechanism of brown fat thermogenesis, where uncoupling protein 1 (UCP1) Performs
 <summary>Question 4: Fermentation and lactate accumulation</summary>
 
 A runner sprints for 30 seconds. During this time, the muscle cells produce lactate at a rate of
-$0.5 \mathrm{ mmol/(g\cdot min)$. If the muscle weighs $25 \mathrm{ kg$Calculate the total moles Of
+$0.5 \mathrm{ mmol/(g\cdot min)$. If the muscle weighs $25 \mathrm{ kg$ Calculate the total moles Of
 lactate produced and the number of glucose molecules consumed by fermentation during the sprint.
 
 </details>

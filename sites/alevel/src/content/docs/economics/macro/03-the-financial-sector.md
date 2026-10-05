@@ -541,7 +541,7 @@ This calculation rely on?
 
 <details>
 <summary>Hint</summary>
-$m = 1/0.08 = 12.5$. Maximum increase $= 12.5 \times 500 = £6\,250$M. Assumptions: no cash leakages, no excess reserves held, all loans are redeposited in the banking system, demand for loans is infinite at the prevailing interest rate.
+$m = 1/0.08 = 12.5$. Maximum increase $= 12.5 \times 500 = £6\,250$ M. Assumptions: no cash leakages, no excess reserves held, all loans are redeposited in the banking system, demand for loans is infinite at the prevailing interest rate.
 </details>
 
 **Problem 2.** The nominal interest rate on a savings account is 3% and inflation is 5%. Calculate
@@ -584,7 +584,7 @@ Loan the bank can make? (c) If the reserve ratio is increased to 15%, what happe
 
 <details>
 <summary>Hint</summary>
-(a) Required reserves $= 10\% \times 500 = £50$M. Actual reserves = £50m. Yes, exactly meeting. (b) Maximum new loan = £0 (no excess reserves). (c) Required reserves $= 15\% \times 500 = £75$M. The bank has only £50m, so it must reduce lending by £25m to meet the new requirement (or borrow reserves).
+(a) Required reserves $= 10\% \times 500 = £50$ M. Actual reserves = £50m. Yes, exactly meeting. (b) Maximum new loan = £0 (no excess reserves). (c) Required reserves $= 15\% \times 500 = £75$ M. The bank has only £50m, so it must reduce lending by £25m to meet the new requirement (or borrow reserves).
 </details>
 
 **Problem 7.** "Banks create money out of thin air." Evaluate this statement with reference to the
@@ -727,7 +727,7 @@ $$
 
 **Effective money multiplier:** $$m = \frac{D}{R} = \frac{4255}{1000} = 4.26$$
 
-Compared to the simple multiplier of $1/rr = 10$Cash leakages and excess reserves reduce the
+Compared to the simple multiplier of $1/rr = 10$ Cash leakages and excess reserves reduce the
 multiplier by more than half.
 
 ### 8.2 Bond Yield Calculations: Comprehensive Worked Examples
@@ -957,7 +957,7 @@ deposits, 6-month wholesale funding).
   10% of value. Loss: 20bn.
 
 - Liability costs: instant-access deposits may not reprice immediately, but wholesale funding rolls
-  over at higher rates. Additional interest cost: $80 \times 0.02 = 1.6$Bn per year.
+  over at higher rates. Additional interest cost: $80 \times 0.02 = 1.6$ Bn per year.
 
 **Impact on equity:** Asset losses of approximately 36bn reduce equity from 50bn to 14bn. The
 capital adequacy ratio falls from $50/390 = 12.8\%$ to $14/354 = 4.0\%$. This is below the Basel III
@@ -981,13 +981,13 @@ is $1.25/\pounds$. The exporter is concerned that sterling may appreciate, reduc
 of the dollar receivables.
 
 **Unhedged position:** If the exchange rate in 3 months is $1.30/\pounds$: the exporter receives
-$10/1.30 = \pounds 7.69$M. If the exchange rate is $1.20/\pounds$: the exporter receives
-$10/1.20 = \pounds 8.33$M. Uncertainty: the exporter does not know the pound value of the
+$10/1.30 = \pounds 7.69$ M. If the exchange rate is $1.20/\pounds$: the exporter receives
+$10/1.20 = \pounds 8.33$ M. Uncertainty: the exporter does not know the pound value of the
 receivables.
 
 **Hedge using a forward contract:** The exporter enters a 3-month forward contract to sell USD 10m
 at $1.25/\pounds$ (the forward rate). In 3 months: the exporter receives exactly
-$10/1.25 = \pounds 8.0$M regardless of the spot rate. The exporter has eliminated exchange rate
+$10/1.25 = \pounds 8.0$ M regardless of the spot rate. The exporter has eliminated exchange rate
 risk.
 
 **Cost of the hedge:** If the spot rate in 3 months is $1.20/\pounds$ (sterling depreciated):
@@ -1004,7 +1004,7 @@ If spot > 1.25 (sterling appreciated): the exporter exercises the put option, se
 Receives: 8.0m - 0.05m (premium) = 7.95m.
 
 If spot < 1.25 (sterling depreciated): the exporter lets the option expire and sells at the spot
-rate. Receives: $10/\text{spot} - 0.05$M. For example, at 1.20: 8.33 - 0.05 = 8.28m.
+rate. Receives: $10/\text{spot} - 0.05$ M. For example, at 1.20: 8.33 - 0.05 = 8.28m.
 
 **Comparison:**
 

@@ -63,13 +63,13 @@ element.
 :::caution
 $n_p \equiv 1 \pmod{p}$ AND $n_p$ divides $m$ (where $|G| = p^n m$). Both conditions must be checked
 simultaneously. For example, if $|G| = 12 = 2^2 \cdot 3$ Then $n_3 \equiv 1 \pmod{3}$ and $n_3$
-divides $4$ Giving $n_3 = 1$ or $4$ (not $7$Even though $7 \equiv 1 \pmod{3}$).
+divides $4$ Giving $n_3 = 1$ or $4$ (not $7$ Even though $7 \equiv 1 \pmod{3}$).
 :::
 
 :::caution
 simultaneously. In particular, $p^2$ Must NOT divide the constant term $a_0$. If $p^2$ divides
-$a_0$Eisenstein does not apply. In such cases, try the substitution $x \mapsto x + c$ for various
-constants $c$Or use Reduction modulo a prime.
+$a_0$ Eisenstein does not apply. In such cases, try the substitution $x \mapsto x + c$ for various
+constants $c$ Or use Reduction modulo a prime.
 :::
 
 :::caution
@@ -79,7 +79,7 @@ conversely.
 :::
 
 :::caution
-Galois. For a non-Galois Extension $E/F$The correspondence between intermediate fields and subgroups
+Galois. For a non-Galois Extension $E/F$ The correspondence between intermediate fields and subgroups
 of $\mathrm{Gal}(E/F)$ is not a bijection, and indices may not match. Always verify the Galois
 Condition before applying the theorem.
 :::

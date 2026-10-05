@@ -41,7 +41,7 @@ $$
 \nabla \cdot \mathbf{J} + \frac{\partial\rho}{\partial t} = 0
 $$
 
-Without the displacement current term, we would obtain $\nabla \cdot \mathbf{J} = 0$Which Violates
+Without the displacement current term, we would obtain $\nabla \cdot \mathbf{J} = 0$ Which Violates
 charge conservation whenever $\partial\rho/\partial t \neq 0$ (e.g., inside a Charging capacitor).
 
 _Cross-reference:_ Section 1.3, Section 4.5.
@@ -102,7 +102,7 @@ $$
 \mathbf{E} = \frac{\sigma R}{\varepsilon_0 r}\,\hat{\mathbf{r}}
 $$
 
-At the surface ($r = R^+$): $E = \sigma/\varepsilon_0$Which is the discontinuity expected From the
+At the surface ($r = R^+$): $E = \sigma/\varepsilon_0$ Which is the discontinuity expected From the
 surface charge.
 
 _Cross-reference:_ Section 2.2, Section 2.6.
@@ -209,7 +209,7 @@ $$
 \int_{\mathcal{V}}\lvert\nabla U\rvert^2\,dV = \oint_{\mathcal{S}} U\,\frac{\partial U}{\partial n}\,dA = 0
 $$
 
-Since the integrand $\lvert\nabla U\rvert^2 \geq 0$We conclude $\nabla U = \mathbf{0}$ In
+Since the integrand $\lvert\nabla U\rvert^2 \geq 0$ We conclude $\nabla U = \mathbf{0}$ In
 $\mathcal{V}$ So $U$ is constant throughout $\mathcal{V}$.
 
 $V_1 = V_2 + C$ for some constant $C$. The solution is unique up to an additive constant. (The
@@ -291,13 +291,13 @@ _Cross-reference:_ Section 2.9.
 </details>
 
 **Problem 9.** A dielectric slab of permittivity $\varepsilon$ and thickness $d$ is inserted Between
-the plates of a parallel-plate capacitor with plate separation $D \gt d$ and plate Area $A$Carrying
+the plates of a parallel-plate capacitor with plate separation $D \gt d$ and plate Area $A$ Carrying
 free charge $\pm Q$. Find the capacitance.
 
 <details>
 <summary>Solution</summary>
 
-Let the plates be at $x = 0$ and $x = D$With the slab occupying $0 \lt x \lt d$. Since $Q$ is fixed,
+Let the plates be at $x = 0$ and $x = D$ With the slab occupying $0 \lt x \lt d$. Since $Q$ is fixed,
 $D_n = \sigma_f = Q/A$ is the same in both regions.
 
 In the dielectric ($0 \lt x \lt d$): $E_1 = D/\varepsilon = Q/(\varepsilon A)$.
@@ -317,7 +317,7 @@ C = \frac{Q}{V} = \frac{\varepsilon_0 A}{D - d + d/\varepsilon_r}
 $$
 
 Where $\varepsilon_r = \varepsilon/\varepsilon_0$. For $d = D$ (fully filled):
-$C = \varepsilon_r\varepsilon_0 A/D$Which is $\varepsilon_r$ times the vacuum capacitance.
+$C = \varepsilon_r\varepsilon_0 A/D$ Which is $\varepsilon_r$ times the vacuum capacitance.
 
 _Cross-reference:_ Section 2.10.
 
@@ -524,7 +524,7 @@ _Cross-reference:_ Section 4.1, Section 4.4.
 </details>
 
 **Problem 16.** A plane electromagnetic wave in vacuum has
-$\mathbf{E} = 100\cos(kz - \omega t)\,\hat{\mathbf{x}}$ V/m. Find $B_0$The time-averaged intensity,
+$\mathbf{E} = 100\cos(kz - \omega t)\,\hat{\mathbf{x}}$ V/m. Find $B_0$ The time-averaged intensity,
 and the radiation pressure on a perfectly absorbing Surface.
 
 <details>
@@ -552,7 +552,7 @@ _Cross-reference:_ Section 5.2, Section 5.4, Section 5.5.
 
 **Problem 17.** Find the skin depth for a 1 MHz electromagnetic wave in copper
 ($\sigma = 5.96 \times 10^7$ S/m, $\mu_r \approx 1$). At what frequency does the skin depth Equal 1
-$\mu$M?
+$\mu$ M?
 
 <details>
 <summary>Solution</summary>
@@ -567,7 +567,7 @@ $$
 = \sqrt{\frac{2}{4\pi \times 5.96 \times 2\pi^2 \times 10^6}} = \sqrt{\frac{2}{4.70 \times 10^8}} \approx 65.2\ \mu\mathrm{m}
 $$
 
-For $\delta = 1\ \mu$M:
+For $\delta = 1\ \mu$ M:
 
 $$
 1 \times 10^{-6} = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 5.96 \times 10^7 \times 2\pi f}}

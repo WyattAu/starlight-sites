@@ -33,7 +33,7 @@ the DSE specification.
 | 4   | `diag-waves-sound.md`           | Waves and Sound           | Standing waves, intensity/dB, beats, Doppler effect, pipe harmonics            |
 | 5   | `diag-optics.md`                | Optics                    | Thin lens sign convention, TIR, compound systems, apparent depth               |
 | 6   | `diag-waves-optics.md`          | Waves and Optics          | Diffraction, interference, polarization, EM spectrum, thin films               |
-| 7   | `diag-electrical-circuits.md`   | Electrical Circuits       | Kirchhoff"s laws, internal resistance, potentiometer, RC circuits              |
+| 7   | `diag-electrical-circuits.md`   | Electrical Circuits       | Kirchhoff's laws, internal resistance, potentiometer, RC circuits              |
 | 8   | `diag-electricity-magnetism.md` | Electricity and Magnetism | Faraday/Lenz laws, transformers, back EMF, electromagnetic braking             |
 | 9   | `diag-heat-gases.md`            | Heat and Gases            | Latent heat, gas law units, kinetic theory, adiabatic processes                |
 | 10  | `diag-nuclear-physics.md`       | Nuclear Physics           | Half-life, binding energy, decay chains, mass-energy equivalence               |
@@ -152,7 +152,7 @@ Sum all 10 topic scores (max 240):
 
 - Confusing current direction with electron flow direction
 - Mixing up EMF and terminal PD
-- Wrong formula for parallel resistance ($1/R = 1/R_1 + 1/R_2$Not $R = R_1 + R_2$)
+- Wrong formula for parallel resistance ($1/R = 1/R_1 + 1/R_2$ Not $R = R_1 + R_2$)
 - Ignoring internal resistance in calculations
 
 ### Electricity and Magnetism

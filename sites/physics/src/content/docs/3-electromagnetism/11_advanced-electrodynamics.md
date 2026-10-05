@@ -19,7 +19,7 @@ description: "The scalar potential of a localised charge distribution at large d
 
 ### 11.1 Multipole Expansion
 
-The scalar potential of a localised charge distribution at large distances ($r \gg d$Where $d$ is
+The scalar potential of a localised charge distribution at large distances ($r \gg d$ Where $d$ is
 the size of the distribution):
 
 $$
@@ -123,7 +123,7 @@ This is tiny compared to atmospheric pressure ($10^5$ Pa), but is significant fo
 2. **Gauge choice matters for potentials, not fields:** Different gauges give different $\mathbf{A}$
    and $\phi$ for the same $\mathbf{E}$ and $\mathbf{B}$. In quantum mechanics, the Hamiltonian
    depends on the gauge, but all physical observables are gauge-invariant. The Aharonov--Bohm effect
-   shows that even in regions where $\mathbf{E} = \mathbf{B} = 0$The vector potential $\mathbf{A}$
+   shows that even in regions where $\mathbf{E} = \mathbf{B} = 0$ The vector potential $\mathbf{A}$
    has measurable physical effects.
 
 3. **Multipole expansion convergence:** The multipole expansion converges only outside a sphere that
@@ -181,14 +181,14 @@ walls ($x = 0, a$) and maximum at the centre ($x = a/2$). The magnetic field for
 the $xz$-plane.
 
 (c) Surface current $\mathbf{K} = \hat{\mathbf{n}} \times \mathbf{H}$. On the broad walls
-($y = 0, b$): $\mathbf{K}$ has components from $B_x$ and $B_z$With maximum at $x = a/2$ (where
+($y = 0, b$): $\mathbf{K}$ has components from $B_x$ and $B_z$ With maximum at $x = a/2$ (where
 $\sin(\pi x/a) = 1$). The power loss per unit length is:
 
 $$
 P_{\text{loss} = \frac{R_s}{2}\oint |\mathbf{K}|^2\, dl}
 $$
 
-Where $R_s = \sqrt{\omega\mu_0/(2\sigma)}$ is the surface resistance. For fixed $f$Increasing $a$
+Where $R_s = \sqrt{\omega\mu_0/(2\sigma)}$ is the surface resistance. For fixed $f$ Increasing $a$
 reduces the current density on the broad walls and increases the power-handling capacity.
 
 </details>

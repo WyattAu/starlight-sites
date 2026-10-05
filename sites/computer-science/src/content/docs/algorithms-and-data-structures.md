@@ -40,7 +40,7 @@ $f(n) \geq c \cdot g(n)$ for all $n \geq n_0$.
 **Theorem 1.1.** $f(n) = O(g(n))$ if and only if $g(n) = \Omega(f(n))$.
 
 _Proof._ Suppose $f(n) = O(g(n))$. Then there exist $c, n_0$ such that $f(n) \leq c \cdot g(n)$ for
-all $n \geq n_0$Hence $g(n) \geq (1/c) \cdot f(n)$ for all $n \geq n_0$ So $g(n) = \Omega(f(n))$. The
+all $n \geq n_0$ Hence $g(n) \geq (1/c) \cdot f(n)$ for all $n \geq n_0$ So $g(n) = \Omega(f(n))$. The
 converse follows by symmetry. $\blacksquare$
 
 **Theorem 1.2.** $f(n) = \Theta(g(n))$ if and only if there exist constants $c_1, c_2 > 0$ and $n_0$
@@ -54,10 +54,10 @@ $\blacksquare$
 **Theorem 1.3 (Limit Rule).** If $\lim_{n \to \infty} f(n)/g(n) = c$ where $0 < c < \infty$ Then
 $f(n) = \Theta(g(n))$. If $c = 0$ Then $f(n) = O(g(n))$. If $c = \infty$ Then $g(n) = O(f(n))$.
 
-_Proof._ If $c = 0$ Then for any $\varepsilon > 0$There exists $n_0$ such that
-$f(n)/g(n) < \varepsilon$ for all $n \geq n_0$ So $f(n) \leq \varepsilon \cdot g(n)$Establishing
-$f(n) = O(g(n))$. If $0 < c < \infty$Take $\varepsilon = c/2$; then
-$(c/2) \cdot g(n) \leq f(n) \leq (3c/2) \cdot g(n)$ for sufficiently large $n$Giving $\Theta$. The
+_Proof._ If $c = 0$ Then for any $\varepsilon > 0$ There exists $n_0$ such that
+$f(n)/g(n) < \varepsilon$ for all $n \geq n_0$ So $f(n) \leq \varepsilon \cdot g(n)$ Establishing
+$f(n) = O(g(n))$. If $0 < c < \infty$ Take $\varepsilon = c/2$; then
+$(c/2) \cdot g(n) \leq f(n) \leq (3c/2) \cdot g(n)$ for sufficiently large $n$ Giving $\Theta$. The
 $c = \infty$ case is symmetric. $\blacksquare$
 
 **Proposition 1.4.** Asymptotic notation is transitive: if $f = O(g)$ and $g = O(h)$ Then $f = O(h)$.
@@ -180,7 +180,7 @@ Where $a \geq 1$ is the number of subproblems, $b > 1$ is the factor by which th
 and $f(n)$ is the cost of dividing and combining.
 
 **Theorem 1.7 (Master Theorem).** Let $a \geq 1$ and $b > 1$ be constants, let $f(n)$ be a function,
-and let $T(n)$ be defined on the nonnegative integers by the recurrence $T(n) = aT(n/b) + f(n)$Where
+and let $T(n)$ be defined on the nonnegative integers by the recurrence $T(n) = aT(n/b) + f(n)$ Where
 we interpret $n/b$ to mean either $\lfloor n/b \rfloor$ or $\lceil n/b \rceil$. Let $c = \log_b a$.
 Then:
 
@@ -190,8 +190,8 @@ Then:
    for some constant $q < 1$ and all sufficiently large $n$ (the _regularity condition_), then
    $T(n) = \Theta(f(n))$.
 
-_Proof (Case 1 sketch)._ The recursion tree has depth $\log_b n$. At level $i$There are $a^i$ nodes,
-each costing $f(n/b^i)$. Since $f(n) = O(n^{c - \varepsilon})$The cost at level $i$ is
+_Proof (Case 1 sketch)._ The recursion tree has depth $\log_b n$. At level $i$ There are $a^i$ nodes,
+each costing $f(n/b^i)$. Since $f(n) = O(n^{c - \varepsilon})$ The cost at level $i$ is
 $a^i \cdot (n/b^i)^{c - \varepsilon} = n^{c - \varepsilon} \cdot (a / b^{c - \varepsilon})^i$. The
 total cost is dominated by the leaves (level $\log_b n$), which contribute $a^{\log_b n} = n^c$. The
 internal levels contribute a geometric series with ratio
@@ -206,7 +206,7 @@ $$
 T(n) = 2T(n/2) + \Theta(n)
 $$
 
-Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$Which
+Here $a = 2$, $b = 2$ So $c = \log_2 2 = 1$. We have $f(n) = \Theta(n) = \Theta(n^c \log^0 n)$ Which
 is Case 2 with $k = 0$.
 
 Therefore $T(n) = \Theta(n^1 \log^1 n) = \Theta(n \log n)$.
@@ -237,7 +237,7 @@ T(n) = 7T(n/2) + O(n^2)
 $$
 
 Here $a = 7$, $b = 2$ So $c = \log_2 7 \approx 2.807$. We have
-$f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$Which is Case 1.
+$f(n) = O(n^2) = O(n^{c - \varepsilon})$ with $\varepsilon = c - 2 \approx 0.807$ Which is Case 1.
 
 Therefore $T(n) = \Theta(n^{\log_2 7}) = \Theta(n^{2.807})$.
 
@@ -373,7 +373,7 @@ A queue can be implemented using two stacks `in_stack` and `out_stack`.
 
 The `dequeue` operation is $O(1)$ amortised: each element is moved from `in_stack` to `out_stack` at
 most once across all operations. Over $n$ operations, the total number of element moves is at most
-$n$Giving $O(1)$ amortised per dequeue.
+$n$ Giving $O(1)$ amortised per dequeue.
 
 </details>
 
@@ -392,19 +392,19 @@ A **hash table** maps keys to values using a hash function $h : K \to \\{0, 1, \
 Length of a chain in a hash table with chaining is $\alpha = n/m$.
 
 _Proof._ Under simple uniform hashing, each of the $n$ keys is equally likely to hash to any of the
-$m$ slots. For any given key $k$The expected number of other keys that hash to the same slot as $k$
+$m$ slots. For any given key $k$ The expected number of other keys that hash to the same slot as $k$
 is $(n - 1)/m < \alpha$. Including $k$ itself, the expected chain length is
 $1 + (n-1)/m \leq 1 + \alpha$. $\blacksquare$
 
 **Theorem 2.2 (Successful Search with Chaining).** Under simple uniform hashing, the expected time
 for a successful search in a hash table with chaining is $O(1 + \alpha/2)$.
 
-_Proof._ The expected length of the list containing the searched element is $1 + (n - 1)/m$Since
+_Proof._ The expected length of the list containing the searched element is $1 + (n - 1)/m$ Since
 $n - 1$ other elements are distributed uniformly. On average, the searched element is halfway
 through its list, giving $(1 + (n-1)/m)/2 + 1/2$ comparisons (we examine elements before the target
 plus the target itself). This equals $1 + \alpha/2 - 1/(2m) = O(1 + \alpha)$. $\blacksquare$
 
-**Double Hashing.** Uses two hash functions: $h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$Where
+**Double Hashing.** Uses two hash functions: $h(k, i) = (h_1(k) + i \cdot h_2(k)) \bmod m$ Where
 $h_2(k)$ is relatively prime to $m$. This avoids the clustering problems of linear probing.
 
 <details>
@@ -449,7 +449,7 @@ minus the height of its right subtree; valid balance factors are $\\{-1, 0, 1\\}
 **Rotations.** After insertion or deletion, the balance factor may become $\pm 2$. This is fixed by
 rotations:
 
-- **Right rotation (LL case):** Balance factor $+2$ at node $A$Balance factor $+1$ at left child
+- **Right rotation (LL case):** Balance factor $+2$ at node $A$ Balance factor $+1$ at left child
   $B$.
 
   ```
@@ -462,7 +462,7 @@ rotations:
 
 - **Left rotation (RR case):** Mirror of right rotation.
 
-- **Left-Right rotation (LR case):** Balance factor $+2$ at $A$Balance factor $-1$ at left child
+- **Left-Right rotation (LR case):** Balance factor $+2$ at $A$ Balance factor $-1$ at left child
   $B$. First left-rotate $B$ Then right-rotate $A$.
 
 - **Right-Left rotation (RL case):** Mirror of LR case.
@@ -472,7 +472,7 @@ rotations:
 _Proof._ Let $N(h)$ be the minimum number of nodes in an AVL tree of height $h$. We have $N(0) = 1$,
 $N(1) = 2$ And $N(h) = 1 + N(h-1) + N(h-2)$ for $h \geq 2$. This is the Fibonacci recurrence, giving
 $N(h) = F_{h+3} - 1$. Using $F_h = \frac{\phi^h - \hat{\phi}^h}{\sqrt{5}}$ where
-$\phi = \frac{1+\sqrt{5}}{2}$We get $N(h) > \phi^h / \sqrt{5} - 1$ So
+$\phi = \frac{1+\sqrt{5}}{2}$ We get $N(h) > \phi^h / \sqrt{5} - 1$ So
 $h \lt \log_\phi(\sqrt{5}(n + 1)) \approx 1.4404 \log_2(n + 1)$. $\blacksquare$
 
 **Corollary 2.5.** All AVL tree operations (search, insert, delete) run in $O(\log n)$ time.
@@ -497,9 +497,9 @@ $O(\log n)$. $\blacksquare$
 _Proof._ Let $r$ be the root. By property 5, at least half the nodes on any root-to-leaf path are
 black (by property 4, no two reds are adjacent), so the black-height $bh(r) \geq h/2$. Let
 $S(h, bh)$ be the minimum number of internal nodes in a subtree of height $h$ and black-height $bh$.
-Then $S(h, bh) \geq 2^{bh} - 1$ (proved by induction on $bh$Using the fact that each child has
+Then $S(h, bh) \geq 2^{bh} - 1$ (proved by induction on $bh$ Using the fact that each child has
 black-height at least $bh - 1$ and the root is black). Since $bh(r) \geq h/2$ and
-$n \geq 2^{bh(r)} - 1 \geq 2^{h/2} - 1$We get $h \leq 2 \log_2(n + 1)$. $\blacksquare$
+$n \geq 2^{bh(r)} - 1 \geq 2^{h/2} - 1$ We get $h \leq 2 \log_2(n + 1)$. $\blacksquare$
 
 **Insertion.** Insert as in a standard BST (colour the new node red), then fix violations by
 recolouring and rotating up to $O(\log n)$ times.
@@ -520,7 +520,7 @@ black-height property by recolouring and rotating. The fix-up procedure takes $O
 $h \leq \log_t \frac{n+1}{2}$.
 
 _Proof._ The root has at least 1 key and 2 children. At depth 1, each node has at least $t - 1$ keys
-and $t$ children. At depth $d \geq 1$The number of nodes is at least $2t^{d-1}$Each with at least
+and $t$ children. At depth $d \geq 1$ The number of nodes is at least $2t^{d-1}$ Each with at least
 $t - 1$ keys. So the total number of keys is at least
 $1 + 2(t-1) \sum_{i=0}^{h-1} t^i = 1 + 2(t-1) \cdot \frac{t^h - 1}{t - 1} = 2t^h - 1$. Setting
 $n \geq 2t^h - 1$ gives $h \leq \log_t((n+1)/2)$. $\blacksquare$
@@ -599,9 +599,9 @@ Level 0:  [HEAD] -> [7] -> [12] -> [19] -> [25] -> [31] -> [42]
 
 Search starts at HEAD, level 3:
 
-- Move right to 31. $31 > 25$Drop to level 2.
-- At level 2, move right to 12. $12 \leq 25$Move right, next is NIL. Drop to level 1.
-- At level 1, move right to 19. $19 \leq 25$Move right to 25. $25 = 25$. Found!
+- Move right to 31. $31 > 25$ Drop to level 2.
+- At level 2, move right to 12. $12 \leq 25$ Move right, next is NIL. Drop to level 1.
+- At level 1, move right to 19. $19 \leq 25$ Move right to 25. $25 = 25$. Found!
 
 The search examined keys 31, 12, 19, 25 to 4 comparisons across 3 levels.
 
@@ -649,7 +649,7 @@ $(1 - 1/m)^{kn} \approx e^{-kn/m}$. The probability that all $k$ bits for a quer
 $(1 - e^{-kn/m})^k$. $\blacksquare$
 
 **Optimal number of hash functions.** The false positive rate is minimised when
-$k = (m/n) \ln 2$Giving a minimum rate of approximately $(1/2)^k = 0.6185^{m/n}$.
+$k = (m/n) \ln 2$ Giving a minimum rate of approximately $(1/2)^k = 0.6185^{m/n}$.
 
 <details>
 <summary>Worked Example: Bloom Filter Configuration</summary>
@@ -704,7 +704,7 @@ A **binary heap** is a complete binary tree satisfying the heap property:
 Implemented as an array: parent of node $i$ is at $\lfloor(i-1)/2\rfloor$; children at $2i+1$ and
 $2i+2$.
 
-**Operations:** insert $O(\log n)$Extract-max/min $O(\log n)$Peek $O(1)$.
+**Operations:** insert $O(\log n)$ Extract-max/min $O(\log n)$ Peek $O(1)$.
 
 **Theorem 2.11 (Build-Heap).** `buildHeap` on an array of $n$ elements runs in $O(n)$ time.
 
@@ -782,7 +782,7 @@ The **Union-Find** data structure maintains a partition of a set into disjoint s
 - `Union` attaches the shorter tree under the root of the taller tree (by rank/size).
 
 **Theorem 2.12.** With both path compression and union by rank, the amortised time per operation is
-$O(\alpha(n))$Where $\alpha(n)$ is the inverse Ackermann function.
+$O(\alpha(n))$ Where $\alpha(n)$ is the inverse Ackermann function.
 
 _Proof (outline)._ The inverse Ackermann function $\alpha(n)$ grows so slowly that
 $\alpha(n) \leq 4$ for all practical values of $n$ ($n \leq 2^{2^{2^{65536}}}$). The proof uses a
@@ -958,7 +958,7 @@ Result: $[1, 2, 3, 4, 5, 5, 7, 8, 9]$
 Is not stable.
 
 _Proof._ Building the heap takes $O(n)$ by Theorem 2.11. Each of the $n$ extract-max operations
-takes $O(\log n)$For a total of $O(n \log n)$. Space is $O(1)$ since the heap is stored in-place.
+takes $O(\log n)$ For a total of $O(n \log n)$. Space is $O(1)$ since the heap is stored in-place.
 $\blacksquare$
 
 ### 3.4 Lower Bound on Comparison Sorting
@@ -999,7 +999,7 @@ stable sort (e.g., counting sort) as a subroutine.
 time.
 
 _Proof._ We perform $d$ passes of counting sort, each taking $O(n + b)$ time. After the $i$-th pass,
-the array is sorted by the $i$ least significant digits. By induction on $i$After $d$ passes the
+the array is sorted by the $i$ least significant digits. By induction on $i$ After $d$ passes the
 array is fully sorted. $\blacksquare$
 
 **Corollary 3.11.** For $d$-digit integers where $d = O(1)$ (e.g., 32-bit integers), radix sort runs
@@ -1018,13 +1018,13 @@ Range of values: $[1, 8]$ So $k = 8$.
 
 **Step 3, Place (iterate backwards):**
 
-- $A[6] = 1$: $C[1] = 1$Place at position 0. $C[1] = 0$.
-- $A[5] = 3$: $C[3] = 5$Place at position 4. $C[3] = 4$.
-- $A[4] = 3$: $C[3] = 4$Place at position 3. $C[3] = 3$.
-- $A[3] = 8$: $C[8] = 6$Place at position 5. $C[8] = 5$.
-- $A[2] = 2$: $C[2] = 3$Place at position 2. $C[2] = 2$.
-- $A[1] = 2$: $C[2] = 2$Place at position 1. $C[2] = 1$.
-- $A[0] = 4$: $C[4] = 6$Place at position 5. $C[4] = 5$.
+- $A[6] = 1$: $C[1] = 1$ Place at position 0. $C[1] = 0$.
+- $A[5] = 3$: $C[3] = 5$ Place at position 4. $C[3] = 4$.
+- $A[4] = 3$: $C[3] = 4$ Place at position 3. $C[3] = 3$.
+- $A[3] = 8$: $C[8] = 6$ Place at position 5. $C[8] = 5$.
+- $A[2] = 2$: $C[2] = 3$ Place at position 2. $C[2] = 2$.
+- $A[1] = 2$: $C[2] = 2$ Place at position 1. $C[2] = 1$.
+- $A[0] = 4$: $C[4] = 6$ Place at position 5. $C[4] = 5$.
 
 Result: $[1, 2, 2, 3, 3, 4, 8]$.
 
@@ -1168,13 +1168,13 @@ _Proof (time)._ Each vertex is coloured exactly once (from WHITE to GREY) and fi
 (from GREY to BLACK): $O(V)$. Each edge is examined at most twice (once in each direction for
 undirected, once for directed): $O(E)$. Total: $O(V + E)$. $\blacksquare$
 
-**Theorem 4.3 (Parenthesis Theorem).** In any DFS, for any two vertices $u$ and $v$Exactly one of
+**Theorem 4.3 (Parenthesis Theorem).** In any DFS, for any two vertices $u$ and $v$ Exactly one of
 the following holds: (1) $d[u] \lt d[v] \lt f[v] \lt f[u]$ (interval nesting), (2)
 $d[v] \lt d[u] \lt f[u] \lt f[v]$ (interval nesting), or (3) the intervals $[d[u], f[u]]$ and
 $[d[v], f[v]]$ are disjoint.
 
-_Proof._ The DFS call stack forms a nesting of intervals. When we start visiting $v$ from $u$We must
-finish $v$ before finishing $u$Giving nesting. If $u$ and $v$ are in different DFS trees, their
+_Proof._ The DFS call stack forms a nesting of intervals. When we start visiting $v$ from $u$ We must
+finish $v$ before finishing $u$ Giving nesting. If $u$ and $v$ are in different DFS trees, their
 intervals are disjoint. $\blacksquare$
 
 **Theorem 4.4 (White-Path Theorem).** $v$ is a descendant of $u$ in the DFS forest if and only if,
@@ -1188,7 +1188,7 @@ intermediate white vertices.
 ($\Leftarrow$) Suppose there is a white path from $u$ to $v$ at time $d[u]$. Let $w$ be the first
 vertex on this path discovered after $u$. All vertices before $w$ on the path are still white (they
 can only be discovered after $w$), so $w$ will be discovered from the path. By induction, $v$ is a
-descendant of $w$Hence of $u$. $\blacksquare$
+descendant of $w$ Hence of $u$. $\blacksquare$
 
 ### 4.3 Topological Sort
 
@@ -1201,9 +1201,9 @@ edge $(u, v)$, $u$ appears before $v$.
 
 _Proof._ Suppose there is an edge $(u, v)$ but $u$ appears after $v$ in the ordering (i.e.,
 $f[u] \lt f[v]$). Since $(u, v)$ is an edge, when $u$ is being explored (coloured GREY), if $v$ is
-WHITE, then $v$ is discovered as a descendant of $u$ So $f[v] \lt f[u]$Contradiction. If $v$ is GREY,
+WHITE, then $v$ is discovered as a descendant of $u$ So $f[v] \lt f[u]$ Contradiction. If $v$ is GREY,
 we have a back edge, implying a cycle, contradicting that the graph is acyclic. If $v$ is BLACK,
-then $f[v] \lt d[u] \lt f[u]$Contradicting $f[u] \lt f[v]$. $\blacksquare$
+then $f[v] \lt d[u] \lt f[u]$ Contradicting $f[u] \lt f[v]$. $\blacksquare$
 
 ### 4.4 Strongly Connected Components
 
@@ -1212,15 +1212,15 @@ to $u$. A **strongly connected component (SCC)** is a maximal set of strongly co
 
 **Kosaraju's Algorithm:**
 
-1. Run DFS on $G$Recording finishing times.
+1. Run DFS on $G$ Recording finishing times.
 2. Compute $G^T$ (transpose of $G$: reverse all edges).
 3. Run DFS on $G^T$ in decreasing order of finishing times. Each DFS tree is an SCC.
 
 **Theorem 4.6.** Kosaraju's algorithm correctly identifies all SCCs in $O(V + E)$ time.
 
 _Proof._ Let $C$ be the SCC containing the vertex $s$ with the highest finishing time in the first
-DFS. We claim that in $G^T$No vertex in $C$ can reach a vertex outside $C$ (otherwise $s$ would have
-a path to and from that vertex, placing it in $C$). In the second DFS, starting from $s$ in $G^T$We
+DFS. We claim that in $G^T$ No vertex in $C$ can reach a vertex outside $C$ (otherwise $s$ would have
+a path to and from that vertex, placing it in $C$). In the second DFS, starting from $s$ in $G^T$ We
 discover exactly the vertices in $C$. Removing $C$ and repeating the argument gives the remaining
 SCCs. $\blacksquare$
 
@@ -1264,9 +1264,9 @@ Inductive step: Suppose all vertices in $S$ have correct distances. Let $u$ be t
 extracted from $Q$. Suppose for contradiction that $d[u] > \delta(s, u)$. Consider a shortest path
 $P$ from $s$ to $u$ And let $(x, y)$ be the first edge on $P$ where $x \in S$ and $y \notin S$. Then
 $\delta(s, y) = \delta(s, x) + w(x, y) = d[x] + w(x, y)$ (by induction). When $x$ was added to
-$S$The edge $(x, y)$ was relaxed, so $d[y] \leq d[x] + w(x, y) = \delta(s, y)$. Since edge weights
+$S$ The edge $(x, y)$ was relaxed, so $d[y] \leq d[x] + w(x, y) = \delta(s, y)$. Since edge weights
 are non-negative, $\delta(s, y) \leq \delta(s, u)$. But
-$d[y] \leq \delta(s, y) \leq \delta(s, u) \lt d[u]$ And $y$ is in $Q$Contradicting that $u$ has the
+$d[y] \leq \delta(s, y) \leq \delta(s, u) \lt d[u]$ And $y$ is in $Q$ Contradicting that $u$ has the
 minimum $d$-value in $Q$. $\blacksquare$
 
 **Theorem 4.8.** Dijkstra's algorithm with a binary heap runs in $O((V + E)\log V)$ time. With a
@@ -1371,7 +1371,7 @@ $d[A] = 0$.
 
 **Negative cycle check:** No edge can be relaxed. No negative cycle.
 
-Result: $d = [0, 6, 7, 2, 4, -1]$. Shortest path to $F$: $A \to B \to D \to E \to F$Cost $-1$.
+Result: $d = [0, 6, 7, 2, 4, -1]$. Shortest path to $F$: $A \to B \to D \to E \to F$ Cost $-1$.
 
 </details>
 
@@ -1383,7 +1383,7 @@ $A \to B \to C \to A$ of weight $1 + (-3) + 2 = 0$. Not negative.
 
 Now add $C \xrightarrow{-1} A$. Cycle weight: $1 + (-3) + (-1) = -3$. Negative cycle.
 
-Initial: $d[A] = 0$Rest $\infty$.
+Initial: $d[A] = 0$ Rest $\infty$.
 
 **Iteration 1:** $d[B] = 1$, $d[C] = -2$, $d[A] = \min(0, -2 + (-1)) = -3$.
 
@@ -1395,7 +1395,7 @@ Initial: $d[A] = 0$Rest $\infty$.
 
 **Iteration 5:** $d[B] = -11$, $d[C] = -14$, $d[A] = -15$.
 
-**Check (iteration 6):** $(A,B)$: $-15 + 1 = -14 \lt -11$Can still relax. **Negative cycle
+**Check (iteration 6):** $(A,B)$: $-15 + 1 = -14 \lt -11$ Can still relax. **Negative cycle
 detected!**
 
 </details>
@@ -1404,7 +1404,7 @@ detected!**
 
 **Problem.** Find all-pairs shortest paths.
 
-**Algorithm.** For $k = 1, \ldots, V$: for each pair $(i, j)$Check if going through vertex $k$
+**Algorithm.** For $k = 1, \ldots, V$: for each pair $(i, j)$ Check if going through vertex $k$
 Improves the path.
 
 $$
@@ -1414,7 +1414,7 @@ $$
 **Derivation.** Define $d_{ij}^{(k)}$ as the shortest-path distance from $i$ to $j$ using only
 intermediate vertices from $\\{1, 2, \ldots, k\\}$. Then:
 
-- $d_{ij}^{(0)} = w(i,j)$ (the weight of edge $(i,j)$Or $\infty$ if no edge).
+- $d_{ij}^{(0)} = w(i,j)$ (the weight of edge $(i,j)$ Or $\infty$ if no edge).
 - For $k \geq 1$: The shortest path from $i$ to $j$ through vertices $\\{1, \ldots, k\\}$ either
   does not use vertex $k$ (giving $d_{ij}^{(k-1)}$) or uses vertex $k$ (giving
   $d_{ik}^{(k-1)} + d_{kj}^{(k-1)}$).
@@ -1489,19 +1489,19 @@ Tree to a non-tree vertex (using a priority queue). $O((V + E)\log V)$.
 Belongs to some MST.
 
 _Proof._ Let $(S, V \setminus S)$ be a cut and $e = (u, v)$ be the minimum-weight crossing edge with
-$u \in S$, $v \notin S$. Let $T$ be an MST. If $e \in T$We are done. Otherwise, adding $e$ to $T$
+$u \in S$, $v \notin S$. Let $T$ be an MST. If $e \in T$ We are done. Otherwise, adding $e$ to $T$
 creates a cycle. This cycle must cross the cut at least once more (it goes from $u$ to $v$ via some
 other path). Let $e'$ be another crossing edge on this cycle. Since $e$ is the minimum-weight
 crossing edge, $w(e) \leq w(e')$. Replacing $e'$ with $e$ in $T$ gives a spanning tree of weight no
-greater than $T$Hence an MST containing $e$. $\blacksquare$
+greater than $T$ Hence an MST containing $e$. $\blacksquare$
 
 **Theorem 4.12 (Cycle Property).** For any cycle, the maximum-weight edge on the cycle does not
 belong To any MST.
 
 _Proof._ Let $C$ be a cycle and $e$ be the maximum-weight edge on $C$. Let $T$ be an MST. If
-$e \notin T$We are done. Otherwise, removing $e$ from $T$ disconnects it into two components. The
+$e \notin T$ We are done. Otherwise, removing $e$ from $T$ disconnects it into two components. The
 rest of cycle $C$ must contain an edge $e' \neq e$ crossing this cut. Since $w(e') \lt w(e)$ (if
-$w(e') = w(e)$We can replace either), replacing $e$ with $e'$ gives a spanning tree of strictly
+$w(e') = w(e)$ We can replace either), replacing $e$ with $e'$ gives a spanning tree of strictly
 smaller weight, contradicting the optimality of $T$. $\blacksquare$
 
 **Theorem 4.13.** Kruskal's algorithm produces a minimum spanning tree.
@@ -1608,12 +1608,12 @@ To prove that a problem has optimal substructure:
 vertex on $p$ Then the subpath of $p$ from $u$ to $w$ is a shortest path from $u$ to $w$.
 
 _Proof._ If not, there exists a shorter path $p'$ from $u$ to $w$. Then $p'$ concatenated with the
-subpath of $p$ from $w$ to $v$ would be shorter than $p$Contradicting that $p$ is a shortest path.
+subpath of $p$ from $w$ to $v$ would be shorter than $p$ Contradicting that $p$ is a shortest path.
 $\blacksquare$
 
 :::caution
 simple path_ problem does not: the longest simple path from $u$ to $v$ may not contain the longest
-simple path from $u$ to an intermediate vertex $w$Because the subpath might share vertices with the
+simple path from $u$ to an intermediate vertex $w$ Because the subpath might share vertices with the
 rest of the path, creating a non-simple path.
 :::
 
@@ -1631,7 +1631,7 @@ Optimal BST, matrix chain multiplication.
 ### 5.5 Worked Example: 0/1 Knapsack
 
 **Problem.** Given $n$ items with weights $w_1, \ldots, w_n$ and values $v_1, \ldots, v_n$ And a
-knapsack of capacity $W$Maximise the total value without exceeding the capacity.
+knapsack of capacity $W$ Maximise the total value without exceeding the capacity.
 
 **Recurrence:**
 
@@ -1641,14 +1641,14 @@ $$
 
 **Time:** $O(nW)$. **Space:** $O(nW)$ (can be reduced to $O(W)$ with 1D array).
 
-_Proof of correctness._ For each item $i$Either we don't include it (value $dp[i-1][c]$) or we
+_Proof of correctness._ For each item $i$ Either we don't include it (value $dp[i-1][c]$) or we
 include it (value $v_i + dp[i-1][c - w_i]$). The optimal choice is the maximum. The base cases are
 correct. $\blacksquare$
 
 <details>
 <summary>Worked Example: 0/1 Knapsack</summary>
 
-Items: $\\{(w=1, v=1), (w=3, v=4), (w=4, v=5), (w=5, v=7)\\}$Capacity $W = 7$.
+Items: $\\{(w=1, v=1), (w=3, v=4), (w=4, v=5), (w=5, v=7)\\}$ Capacity $W = 7$.
 
 Building the DP table (items as rows, capacities 0-7 as columns):
 
@@ -1664,14 +1664,14 @@ i=4:      0  1  1  4  5  7  8  9
 Maximum value: $dp[4][7] = 9$ (items 2 and 4: $w = 3 + 5 = 7$, $v = 4 + 7 = 11$, let me
 recalculate).
 
-Correct: items 2 and 3 ($w=3+4=7$, $v=4+5=9$), or items 1, 2, 4 ($w=1+3+5=9 > 7$Not valid). Items 1,
+Correct: items 2 and 3 ($w=3+4=7$, $v=4+5=9$), or items 1, 2, 4 ($w=1+3+5=9 > 7$ Not valid). Items 1,
 3 ($w=1+4=5$, $v=1+5=6$), items 2, 4 ($w=3+5=8 > 7$). Optimal: items 2 and 3 ($w=3+4=7$, $v=4+5=9$).
 
 </details>
 
 ### 5.6 Worked Example: Edit Distance (Levenshtein Distance)
 
-**Problem.** Given strings $s$ of length $m$ and $t$ of length $n$Find the minimum number of
+**Problem.** Given strings $s$ of length $m$ and $t$ of length $n$ Find the minimum number of
 insertions, deletions, and substitutions to transform $s$ into $t$.
 
 **Recurrence:**
@@ -1680,7 +1680,7 @@ $$
 dp[i][j] = \begin{cases} j & \mathrm{if}  i = 0 \\ i & \mathrm{if}  j = 0 \\ dp[i-1][j-1] & \mathrm{if}  s[i] = t[j] \\ 1 + \min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) & \mathrm{if}  s[i] \neq t[j] \end{cases}
 $$
 
-Where the three cases in the minimum are: delete from $s$Insert into $s$Substitute in $s$.
+Where the three cases in the minimum are: delete from $s$ Insert into $s$ Substitute in $s$.
 
 **Time:** $O(mn)$. **Space:** $O(mn)$ (can be reduced to $O(\min(m,n))$).
 
@@ -1711,7 +1711,7 @@ Transform: kitten → sitten (substitute k→s) → sittin (substitute e→i) �
 ### 5.7 Worked Example: Matrix Chain Multiplication
 
 **Problem.** Given matrices $A_1, A_2, \ldots, A_n$ where $A_i$ has dimensions
-$p_{i-1} \times p_i$Find the parenthesisation that minimises the total number of scalar
+$p_{i-1} \times p_i$ Find the parenthesisation that minimises the total number of scalar
 multiplications.
 
 **Recurrence:**
@@ -1743,13 +1743,13 @@ $dp[2][3] = p_1 p_2 p_3 = 30 \times 5 \times 60 = 9000$. Split at $k=2$: $(A_2 A
 $dp[1][3]$: Try $k=1$: $dp[1][1] + dp[2][3] + 10 \times 30 \times 60 = 0 + 9000 + 18000 = 27000$.
 Try $k=2$: $dp[1][2] + dp[3][3] + 10 \times 5 \times 60 = 1500 + 0 + 3000 = 4500$.
 
-Minimum: $dp[1][3] = 4500$Split at $k=2$: $(A_1(A_2 A_3))$.
+Minimum: $dp[1][3] = 4500$ Split at $k=2$: $(A_1(A_2 A_3))$.
 
 </details>
 
 ### 5.8 Worked Example: Longest Common Subsequence
 
-**Problem.** Given sequences $X = (x_1, \ldots, x_m)$ and $Y = (y_1, \ldots, y_n)$Find the LCS.
+**Problem.** Given sequences $X = (x_1, \ldots, x_m)$ and $Y = (y_1, \ldots, y_n)$ Find the LCS.
 
 **Recurrence:**
 
@@ -1759,13 +1759,13 @@ $$
 
 **Time:** $O(mn)$. **Space:** $O(mn)$ (can be reduced to $O(\min(m,n))$ for the length only).
 
-_Proof of correctness._ If $x_i = y_j$Any LCS of $X[1..i]$ and $Y[1..j]$ must include $x_i$ So
-$\mathrm{LCS} = 1 + \mathrm{LCS}(X[1..i-1], Y[1..j-1])$. If $x_i \neq y_j$The LCS either Excludes
-$x_i$ or excludes $y_j$Giving the max of the two subproblems. $\blacksquare$
+_Proof of correctness._ If $x_i = y_j$ Any LCS of $X[1..i]$ and $Y[1..j]$ must include $x_i$ So
+$\mathrm{LCS} = 1 + \mathrm{LCS}(X[1..i-1], Y[1..j-1])$. If $x_i \neq y_j$ The LCS either Excludes
+$x_i$ or excludes $y_j$ Giving the max of the two subproblems. $\blacksquare$
 
 ### 5.9 Worked Example: Coin Change
 
-**Problem.** Given coin denominations $d_1, \ldots, d_n$ and a target amount $M$Find the minimum
+**Problem.** Given coin denominations $d_1, \ldots, d_n$ and a target amount $M$ Find the minimum
 number of coins needed.
 
 **Recurrence:**
@@ -1776,7 +1776,7 @@ $$
 
 **Time:** $O(nM)$. **Space:** $O(M)$.
 
-_Proof of correctness._ To make change for amount $c > 0$The last coin used must be some
+_Proof of correctness._ To make change for amount $c > 0$ The last coin used must be some
 $d_i \leq c$. The remaining amount is $c - d_i$ And the optimal solution for $c$ uses
 $1 + dp[c - d_i]$ coins. Taking the minimum over all valid $d_i$ gives the optimal solution.
 $\blacksquare$
@@ -1805,10 +1805,10 @@ Solution: 2 quarters + 1 dime + 3 pennies = $25 + 25 + 10 + 1 + 1 + 1 = 63$. 6 c
 
 ### 5.10 Worked Example: Longest Increasing Subsequence
 
-**Problem.** Given a sequence $a_1, \ldots, a_n$Find the length of the longest strictly increasing
+**Problem.** Given a sequence $a_1, \ldots, a_n$ Find the length of the longest strictly increasing
 subsequence (not necessarily contiguous).
 
-**Recurrence:** $dp[i] = 1 + \max\\{dp[j] : j \lt i \mathrm{~and~} a_j \lt a_i\\}$With $dp[i] = 1$
+**Recurrence:** $dp[i] = 1 + \max\\{dp[j] : j \lt i \mathrm{~and~} a_j \lt a_i\\}$ With $dp[i] = 1$
 if no such $j$ exists.
 
 **Time:** $O(n^2)$. **Space:** $O(n)$.
@@ -1852,7 +1852,7 @@ Time.
 #### 6.1.2 Polynomial-Time Reductions
 
 A **polynomial-time reduction** from problem $A$ to problem $B$ is a polynomial-time algorithm that
-Transforms instances of $A$ into instances of $B$Preserving the answer.
+Transforms instances of $A$ into instances of $B$ Preserving the answer.
 
 **Lemma 6.1.** If $A \leq_p B$ and $B \in P$ Then $A \in P$.
 
@@ -1863,8 +1863,8 @@ Transforms instances of $A$ into instances of $B$Preserving the answer.
 **Theorem 6.2 (Cook-Levin, 1971).** SAT is NP-complete.
 
 _Proof sketch._ We show that every problem in NP reduces to SAT. Let $L \in \mathrm{NP}$. There
-exists a polynomial-time non-deterministic Turing machine $M$ that decides $L$Running in time $p(n)$
-on inputs of length $n$. For an input $x$We construct a Boolean formula $\phi_x$ that is satisfiable
+exists a polynomial-time non-deterministic Turing machine $M$ that decides $L$ Running in time $p(n)$
+on inputs of length $n$. For an input $x$ We construct a Boolean formula $\phi_x$ that is satisfiable
 if and only if $M$ accepts $x$.
 
 The formula encodes:
@@ -1885,15 +1885,15 @@ $\phi_x$ has size polynomial in $n$ and is satisfiable iff $M$ accepts $x$. $\bl
 
 **3-SAT.** SAT restricted to clauses with exactly 3 literals.
 
-**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$Is there a vertex cover of size
+**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$ Is there a vertex cover of size
 $\leq k$?
 
-**Travelling Salesman Problem (decision version).** Given a weighted graph and bound $B$Is there a
+**Travelling Salesman Problem (decision version).** Given a weighted graph and bound $B$ Is there a
 Tour of total weight $\leq B$?
 
-**Subset Sum.** Given a set of integers and a target $T$Is there a subset summing to $T$?
+**Subset Sum.** Given a set of integers and a target $T$ Is there a subset summing to $T$?
 
-**Clique.** Given a graph $G$ and integer $k$Does $G$ contain a clique of size $k$?
+**Clique.** Given a graph $G$ and integer $k$ Does $G$ contain a clique of size $k$?
 
 #### 6.1.5 Proof Strategy for NP-Completeness
 
@@ -1913,11 +1913,11 @@ Reduce 3-SAT formula
 $\phi = (x_1 \vee \bar{x}_2 \vee x_3) \wedge (\bar{x}_1 \vee x_2 \vee x_3) \wedge (x_1 \vee x_2 \vee \bar{x}_3)$
 to a vertex cover instance.
 
-For each variable $x_i$Create two vertices $x_i$ and $\bar{x}_i$ connected by an edge (the "literal edge").
+For each variable $x_i$ Create two vertices $x_i$ and $\bar{x}_i$ connected by an edge (the "literal edge").
 
-For each clause $C_j$Create a triangle of 3 vertices $c_{j1}, c_{j2}, c_{j3}$.
+For each clause $C_j$ Create a triangle of 3 vertices $c_{j1}, c_{j2}, c_{j3}$.
 
-For each clause vertex $c_{jk}$Connect it to the literal vertex corresponding to the $k$-th literal
+For each clause vertex $c_{jk}$ Connect it to the literal vertex corresponding to the $k$-th literal
 of clause $j$.
 
 **Claim:** $\phi$ is satisfiable iff the graph has a vertex cover of size $k + 2m$ where $k$ is the
@@ -1956,7 +1956,7 @@ least $(1/\rho)$ times the optimal value.
 
 _Proof._ The algorithm selects a set $C$ of vertices. Each edge in the matching used by the
 algorithm contributes 2 vertices to $C$. Let $M^*$ be a maximum matching. Then
-$|C| = 2|M^*| \leq 2 \cdot |\mathrm{OPT}|$Since OPT must contain at least one endpoint of every edge
+$|C| = 2|M^*| \leq 2 \cdot |\mathrm{OPT}|$ Since OPT must contain at least one endpoint of every edge
 in $M^*$ (and $M^*$ is maximum, so $|M^*| \geq$ the size of any matching). Therefore the
 approximation ratio is at most 2. $\blacksquare$
 
@@ -1973,10 +1973,10 @@ $\blacksquare$
 no polynomial-time approximation algorithm with any constant ratio.
 
 _Proof sketch._ If a $c$-approximation existed for TSP, we could use it to solve the Hamiltonian
-cycle problem (which is NP-complete): given a graph $G$Construct a TSP instance with edge weight 1
+cycle problem (which is NP-complete): given a graph $G$ Construct a TSP instance with edge weight 1
 for existing edges and weight $cn + 1$ for non-edges. If the approximation returns a tour of weight
 $n$ Then $G$ has a Hamiltonian cycle. Otherwise, the tour weight is at least
-$n - 1 + cn + 1 \gt cn$ So the approximation ratio would exceed $c$Contradiction. $\blacksquare$
+$n - 1 + cn + 1 \gt cn$ So the approximation ratio would exceed $c$ Contradiction. $\blacksquare$
 
 **Theorem 6.6 (SET COVER).** The greedy algorithm for SET COVER is a $(\ln n + O(1))$-approximation,
 where $n$ is the size of the universe.
@@ -2000,8 +2000,8 @@ $S_3 = \\{3, 5, 6\\}$, $S_4 = \\{4, 5\\}$, $S_5 = \\{1, 4, 6\\}$. All sets have 
    $S_5$ covers $\\{4, 6\\}$ (2 new). Pick $S_3$. Covered: $\\{1, 2, 3, 5, 6\\}$.
 3. Remaining: $\\{4\\}$. Pick $S_2$ (or $S_4$ or $S_5$). Covered: $\\{1, 2, 3, 4, 5, 6\\}$.
 
-**Greedy solution:** $\\{S_1, S_3, S_2\\}$Size 3. **Optimal:** $\\{S_1, S_5, S_4\\}$ or
-$\\{S_3, S_5, S_2\\}$Size 3. Here greedy is optimal, but it is a $\ln n$-approximation.
+**Greedy solution:** $\\{S_1, S_3, S_2\\}$ Size 3. **Optimal:** $\\{S_1, S_5, S_4\\}$ or
+$\\{S_3, S_5, S_2\\}$ Size 3. Here greedy is optimal, but it is a $\ln n$-approximation.
 
 </details>
 
@@ -2066,7 +2066,7 @@ The 3rd smallest element is 3.
 <details>
 <summary>Worked Example: Miller-Rabin Primality Test</summary>
 
-Test whether $n = 561$ is prime (it is not; $561 = 3 \times 11 \times 17$A Carmichael number).
+Test whether $n = 561$ is prime (it is not; $561 = 3 \times 11 \times 17$ A Carmichael number).
 
 Write $n - 1 = 560 = 2^4 \times 35$ So $s = 4$, $d = 35$.
 
@@ -2105,7 +2105,7 @@ $\leq 4^{-k}$.
 **Theorem 6.8.** With a universal hash family and chaining, the expected number of collisions for
 any element is at most $n/m$.
 
-_Proof._ For a fixed element $x$Let $X_{iy}$ be the indicator that $h(x) = h(y_i)$ where
+_Proof._ For a fixed element $x$ Let $X_{iy}$ be the indicator that $h(x) = h(y_i)$ where
 $y_1, \ldots, y_n$ are the other $n-1$ elements. Then
 $\mathrm{E}[X_{iy}] = \Pr[h(x) = h(y_i)] \leq 1/m$ by universality. By linearity of expectation, the
 expected number of collisions is $\sum_i \mathrm{E}[X_{iy}] \leq (n-1)/m$. $\blacksquare$
@@ -2115,7 +2115,7 @@ expected number of collisions is $\sum_i \mathrm{E}[X_{iy}] \leq (n-1)/m$. $\bla
 #### 6.4.1 Aggregate Analysis
 
 **Example: Multi-pop Stack.** A stack supports push ($O(1)$) and multi-pop($k$) (pop $k$ elements,
-cost $\min(k, s)$ where $s$ is the stack size). Although a single multi-pop can cost $O(n)$A
+cost $\min(k, s)$ where $s$ is the stack size). Although a single multi-pop can cost $O(n)$ A
 sequence of $n$ push/multi-pop operations costs $O(n)$ total: each element is pushed once and popped
 at most once.
 
@@ -2177,12 +2177,12 @@ alternating directions).
 **Access Lemma.** The amortised cost of splaying a node $x$ in a splay tree with $n$ nodes is
 $O(\log n)$.
 
-_Proof sketch._ Define the potential as $\Phi(T) = \sum_{x \in T} \log \mathrm{size}(x)$Where
+_Proof sketch._ Define the potential as $\Phi(T) = \sum_{x \in T} \log \mathrm{size}(x)$ Where
 $\mathrm{size}(x)$ is the number of nodes in the subtree rooted at $x$ (including $x$). Define the
 **rank** $r(x) = \log \mathrm{size}(x)$.
 
 The amortised cost of a splay step at node $x$ with parent $p$ and grandparent $g$ is
-$\hat{c} = 1 + r'(x) - r(x)$Where primes denote ranks after the step.
+$\hat{c} = 1 + r'(x) - r(x)$ Where primes denote ranks after the step.
 
 - **Zig:** $\hat{c} = 1 + r'(x) - r(x) \leq 1 + 3(r'(x) - r(x))$.
 - **Zig-zig:** $\hat{c} = 2 + r'(x) - r(x) \leq 3(r'(x) - r(x))$.
@@ -2216,7 +2216,7 @@ empty AVL tree. Show all rotations.
 **Problem 5.** Prove that deleting a node from a red-black tree with $n$ internal nodes takes
 $O(\log n)$ time.
 
-**Problem 6.** Design a hash table for $n = 1000$ strings using chaining. Choose the table size $m$A
+**Problem 6.** Design a hash table for $n = 1000$ strings using chaining. Choose the table size $m$ A
 hash function, and compute the expected number of comparisons for a successful search.
 
 **Problem 7.** A skip list uses $p = 1/4$. What is the expected maximum level for $n = 10000$
@@ -2229,7 +2229,7 @@ $O(\log n)$ amortised time per Union-Find operation.
 
 **Problem 9.** Prove that heapsort is not stable by giving a concrete counterexample.
 
-**Problem 10.** Given an array of $n$ integers in the range $[0, n^2 - 1]$Design an $O(n)$ sorting
+**Problem 10.** Given an array of $n$ integers in the range $[0, n^2 - 1]$ Design an $O(n)$ sorting
 algorithm using radix sort. Justify the choice of base and number of passes.
 
 **Problem 11.** Prove that the best-case number of comparisons for comparison-based sorting is
@@ -2259,7 +2259,7 @@ amount $M$. Find the minimum number of coins needed to make exact change for $M$
 is impossible). Give a recurrence, prove correctness, and state the time and space complexity.
 
 **Problem 17.** Given a sequence of matrices $A_1 (2 \times 10)$, $A_2 (10 \times 50)$,
-$A_3 (50 \times 20)$, $A_4 (20 \times 5)$, $A_5 (5 \times 80)$Find the optimal parenthesisation
+$A_3 (50 \times 20)$, $A_4 (20 \times 5)$, $A_5 (5 \times 80)$ Find the optimal parenthesisation
 using the matrix chain multiplication DP. Show the full DP table.
 
 ### 7.6 Advanced Topics (Problems 18--20)

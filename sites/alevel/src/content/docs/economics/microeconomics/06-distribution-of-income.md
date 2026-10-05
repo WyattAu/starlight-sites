@@ -28,7 +28,7 @@ The **Lorenz curve** plots the cumulative proportion of total income received by
 Proportion of the population, ordered from poorest to richest.
 
 Let the population be divided into quintiles (five equal groups of 20%). If the income shares are
-$(s_1, s_2, s_3, s_4, s_5)$ where $\sum s_i = 1$The cumulative shares are:
+$(s_1, s_2, s_3, s_4, s_5)$ where $\sum s_i = 1$ The cumulative shares are:
 
 $$
 L_k = \sum_{i=1}^{k} s_i, \quad k = 1, 2, 3, 4, 5
@@ -124,7 +124,7 @@ $$
 
 **Thomas Piketty (2014)**: if the rate of return on capital ($r$) exceeds the rate of economic
 Growth ($g$), i.e., $r > g$ Then wealth inequality will tend to increase over time. Historically,
-$r \approx 4\mathrm{--}5\%$ while $g \approx 1\mathrm{--}2\%$Suggesting growing inequality.
+$r \approx 4\mathrm{--}5\%$ while $g \approx 1\mathrm{--}2\%$ Suggesting growing inequality.
 
 ### 2.3 Global Inequality
 
@@ -327,8 +327,8 @@ $$
 $$
 
 _Verification for discrete data._ Given cumulative shares $L_k$ at population proportions
-$p_k = k/n$The trapezoidal approximation gives
-$B = \sum_{k=1}^{n} \frac{(L_{k-1} + L_k)(p_k - p_{k-1})}{2}$Which is the formula used in Practice.
+$p_k = k/n$ The trapezoidal approximation gives
+$B = \sum_{k=1}^{n} \frac{(L_{k-1} + L_k)(p_k - p_{k-1})}{2}$ Which is the formula used in Practice.
 For perfect equality ($L(p) = p$): $B = \int_0^1 p\,dp = \frac{1}{2}$ So $G = 0$. For Maximum
 inequality ($L(p) = 0$ for $p < 1$, $L(1) = 1$): $B = 0$ So $G = 1$.
 
@@ -356,10 +356,10 @@ $$
 L'(p) = \frac{dL}{dp} = \frac{dL/dy}{dp/dy} = \frac{y \cdot f(y)}{f(y)} = y \geq 0
 $$
 
-Since income $y \geq 0$The Lorenz curve is monotonically non-decreasing. $\blacksquare$
+Since income $y \geq 0$ The Lorenz curve is monotonically non-decreasing. $\blacksquare$
 
 (iv) From (iii), $L'(p) = y \leq \mu$ for the bottom $p$ proportion (since the poorest individuals
-Earn less than or equal to the mean). Therefore $\frac{dL}{dp} \leq \frac{dp}{dp} = 1$Which Implies
+Earn less than or equal to the mean). Therefore $\frac{dL}{dp} \leq \frac{dp}{dp} = 1$ Which Implies
 $L(p) \leq p$ by integration from 0. Equality holds only under perfect equality. $\blacksquare$
 
 $$
@@ -529,7 +529,7 @@ $$
 G = 1 - 2(0.332) = 0.336
 $$
 
-The Gini coefficient falls from $0.352$ to $0.336$Confirming that progressive redistribution Reduces
+The Gini coefficient falls from $0.352$ to $0.336$ Confirming that progressive redistribution Reduces
 measured inequality.
 
 ## 11. Causes of Income Inequality: Extended Analysis
@@ -687,7 +687,7 @@ $£200$ per month?
 
 <details>
 <summary>Hint</summary>
-EMTR $= 20 + 12 + 55 = 87\%$. From $£200$: tax $= £40$NI $= £24$UC withdrawal $= £110$. Net gain $= 200 - 40 - 24 - 110 = £26$. She keeps 13%. This is a severe poverty trap.
+EMTR $= 20 + 12 + 55 = 87\%$. From $£200$: tax $= £40$ NI $= £24$ UC withdrawal $= £110$. Net gain $= 200 - 40 - 24 - 110 = £26$. She keeps 13%. This is a severe poverty trap.
 </details>
 
 **Problem 4.** "A universal basic income would eliminate poverty without creating disincentives to
@@ -771,7 +771,7 @@ $$
 \text{IGE} = \frac{\partial \ln(Y_{child})}{\partial \ln(Y_{parent})}
 $$
 
-If IGE $= 0.5$A 10% increase in parental income is associated with a 5% increase in the child's
+If IGE $= 0.5$ A 10% increase in parental income is associated with a 5% increase in the child's
 income. Higher IGE means less mobility.
 
 The **Great Gatsby Curve** plots IGE against the Gini coefficient across countries. The positive

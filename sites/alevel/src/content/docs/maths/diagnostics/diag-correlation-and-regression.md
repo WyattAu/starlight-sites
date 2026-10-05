@@ -36,16 +36,16 @@ flowchart TD
 
 > Tests edge cases, boundary conditions, and common misconceptions for correlation and regression.
 
-### UT-1: PMCC vs Spearman"s Rank and Coding Invariance
+### UT-1: PMCC vs Spearman's Rank and Coding Invariance
 
 **Question:**
 
 An economist collects data on the annual income (in thousands of pounds) and annual savings (in
 hundreds of pounds) for 7 households:
 
-| Income ($x$In $\pounds 1000$) | 15  | 22  | 30  | 35  | 42  | 55  | 68  |
+| Income ($x$ In $\pounds 1000$) | 15  | 22  | 30  | 35  | 42  | 55  | 68  |
 | ----------------------------- | --- | --- | --- | --- | --- | --- | --- |
-| Savings ($y$In $\pounds 100$) | 3   | 8   | 12  | 18  | 22  | 35  | 48  |
+| Savings ($y$ In $\pounds 100$) | 3   | 8   | 12  | 18  | 22  | 35  | 48  |
 
 **(a)** Calculate the product moment correlation coefficient (PMCC) for this data.
 
@@ -108,7 +108,7 @@ $$
 
 **(b)** The student's claim is **incorrect**. The PMCC is invariant under linear coding of the form
 $u = ax + b$ and $v = cy + d$ (where $a, c \neq 0$). Here $u = \frac{1}{1000}x$ and
-$v = \frac{1}{100}y$Which are linear transformations.
+$v = \frac{1}{100}y$ Which are linear transformations.
 
 To see why: the PMCC is defined as $r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}$.
 Under coding:
@@ -187,7 +187,7 @@ $\bar{y} = 17.9$.
 
 **(b)** Calculate the PMCC for the dataset.
 
-**(c)** A student uses the regression line of $y$ on $x$ to predict $y$ when $x = 15$Obtaining
+**(c)** A student uses the regression line of $y$ on $x$ to predict $y$ when $x = 15$ Obtaining
 $\hat{y} = 59.9$. Explain why this prediction may be unreliable, identifying the specific
 statistical concept that is violated.
 
@@ -210,13 +210,13 @@ and $\bar{y} = 17.9$ simultaneously for both lines. Let me verify: if the regres
 $x$ passes through $(5, 17.9)$ Then $17.9 = 4.2(5) + c$ So $c = 17.9 - 21 = -3.1$. This checks out.
 
 For the regression line of $x$ on $y$ to pass through $(5, 17.9)$: $5 = 0.21(17.9) + c$ So
-$c = 5 - 3.759 = 1.241$. But the given line has intercept $1.8$Not $1.241$. The given regression
+$c = 5 - 3.759 = 1.241$. But the given line has intercept $1.8$ Not $1.241$. The given regression
 lines are not consistent.
 
 For the remainder of this solution, I will use the corrected regression line of $x$ on $y$:
-$x = 0.21y + 1.241$Or equivalently I will derive $r$ from the $y$-on-$x$ line alone.
+$x = 0.21y + 1.241$ Or equivalently I will derive $r$ from the $y$-on-$x$ line alone.
 
-**(b)** From the regression line of $y$ on $x$: $y = 4.2x - 3.1$The regression coefficient is
+**(b)** From the regression line of $y$ on $x$: $y = 4.2x - 3.1$ The regression coefficient is
 $b_{yx} = 4.2$.
 
 The formula for the regression coefficient is:
@@ -264,7 +264,7 @@ $$
 y - \bar{y} = b_{yx}(x - \bar{x})
 $$
 
-Setting $x = \bar{x}$ gives $y = \bar{y}$Confirming the line passes through $(\bar{x}, \bar{y})$.
+Setting $x = \bar{x}$ gives $y = \bar{y}$ Confirming the line passes through $(\bar{x}, \bar{y})$.
 
 Similarly, the regression line of $x$ on $y$ is:
 
@@ -272,7 +272,7 @@ $$
 x - \bar{x} = b_{xy}(y - \bar{y})
 $$
 
-Setting $y = \bar{y}$ gives $x = \bar{x}$Confirming this line also passes through
+Setting $y = \bar{y}$ gives $x = \bar{x}$ Confirming this line also passes through
 $(\bar{x}, \bar{y})$.
 
 Geometrically, the point of means $(\bar{x}, \bar{y})$ is the "centre of gravity" of the data. The
@@ -367,7 +367,7 @@ At $h = 1$: residual $= -8$ At $h = 2$: residual $= -3$ At $h = 3$: residual $= 
 residual $= 2$ At $h = 5$: residual $= 3$ At $h = 6$: residual $= 4$ At $h = 7$: residual $= 2$ At
 $h = 8$: residual $= -1$ At $h = 9$: residual $= -5$ At $h = 10$: residual $= 5$
 
-The residual plot shows a clear **curved pattern**: residuals are negative at low $h$Rise to
+The residual plot shows a clear **curved pattern**: residuals are negative at low $h$ Rise to
 positive around $h = 5$--$7$ Then dip negative again at $h = 9$ before rising at $h = 10$. This
 curved (U-shaped or S-shaped) pattern in the residuals indicates that the relationship between $h$
 and $s$ is **not purely linear**. A linear model is systematically under-predicting at the extremes
@@ -461,7 +461,7 @@ $H_1: \rho > 0$ (positive correlation in the population)
 
 **Test statistic:** $r = 0.58$
 
-Since $0.58 > 0.497$The test statistic exceeds the critical value.
+Since $0.58 > 0.497$ The test statistic exceeds the critical value.
 
 **Conclusion:** There is sufficient evidence to reject $H_0$ and conclude that there is evidence of
 a positive correlation between hours of sleep and cognitive test performance in the population.
@@ -469,7 +469,7 @@ a positive correlation between hours of sleep and cognitive test performance in 
 **(b)** For a two-tailed test at the 5% level, the critical value would be higher ( the two-tailed
 5% critical value for $n = 12$ is approximately 0.576).
 
-Since $r = 0.58 > 0.576$The test statistic still exceeds the critical value, so the conclusion would
+Since $r = 0.58 > 0.576$ The test statistic still exceeds the critical value, so the conclusion would
 **not change**. There would still be sufficient evidence to reject $H_0$.
 
 However, note that the two-tailed test is more conservative: it requires stronger evidence because
@@ -483,7 +483,7 @@ $H_0: \rho = 0$, $H_1: \rho > 0$
 
 **Test statistic:** $r = 0.35$
 
-Since $0.35 > 0.306$We reject $H_0$.
+Since $0.35 > 0.306$ We reject $H_0$.
 
 **Comparison:** Both tests lead to rejection of $H_0$ But in part (a) the correlation was stronger
 ($r = 0.58$) with a smaller sample ($n = 12$), while in part (c) the correlation is weaker
@@ -493,10 +493,10 @@ This illustrates that **statistical significance depends on both the strength of
 the sample size**. A small sample needs a stronger correlation to achieve significance.
 
 **(d)** The PMCC follows a known sampling distribution (related to the $t$-distribution) under the
-null hypothesis $H_0: \rho = 0$Assuming the population is bivariate normal. This allows the
+null hypothesis $H_0: \rho = 0$ Assuming the population is bivariate normal. This allows the
 construction of critical value tables specific to the PMCC.
 
-Spearman's rank correlation coefficient, $r_s$Is based on the ranks of the data rather than the raw
+Spearman's rank correlation coefficient, $r_s$ Is based on the ranks of the data rather than the raw
 values. Its sampling distribution under $H_0: \rho_s = 0$ is different from that of the PMCC. For
 small samples, $r_s$ has a discrete distribution (since ranks are integers), and the exact critical
 values are tabulated separately. The PMCC critical values cannot be used for Spearman's test because
@@ -636,7 +636,7 @@ The probability is approximately 0.159 (15.9%).
 
 **Question:**
 
-The data below shows the temperature ($T$In $^\circ$C) and ice cream sales ($S$In $\pounds$) at a
+The data below shows the temperature ($T$ In $^\circ$ C) and ice cream sales ($S$ In $\pounds$) at a
 shop on 8 days:
 
 | $T$ | 12  | 15  | 18  | 20  | 22  | 25  | 28  | 30  |
@@ -677,8 +677,8 @@ evaluation of outlier removal.]
 | 28  | 310            | 242.7           | 67.3     |
 | 30  | 50             | 267.3           | $-217.3$ |
 
-The residual for $T = 30$ is $-217.3$Which is enormously negative. The predicted sales for
-$T = 30^\circ$C should be around $\pounds 267$ But the observed value is only $\pounds 50$. This is
+The residual for $T = 30$ is $-217.3$ Which is enormously negative. The predicted sales for
+$T = 30^\circ$ C should be around $\pounds 267$ But the observed value is only $\pounds 50$. This is
 almost certainly a data entry error (perhaps the sales were $\pounds 350$ or the temperature was
 recorded incorrectly). The residual of $-217.3$ is an extreme outlier compared to all other
 residuals (which range from $-2.2$ to $67.3$).

@@ -68,14 +68,14 @@ $$
 \dim(\ker(T)) + \dim(\mathrm{im}(T)) = \dim(V)
 $$
 
-_Proof._ Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a basis for $\ker(T)$Where
+_Proof._ Let $\{\mathbf{u}_1, \ldots, \mathbf{u}_k\}$ be a basis for $\ker(T)$ Where
 $k = \dim(\ker(T))$. Extend to a basis
 $\{\mathbf{u}_1, \ldots, \mathbf{u}_k, \mathbf{u}_{k+1}, \ldots, \mathbf{u}_n\}$ of $V$ Where
 $n = \dim(V)$.
 
 We claim $\{T(\mathbf{u}_{k+1}), \ldots, T(\mathbf{u}_n)\}$ is a basis for $\mathrm{im}(T)$.
 
-_Spanning:_ For any $\mathbf{w} \in \mathrm{im}(T)$Write $\mathbf{w} = T(\mathbf{v})$ for some
+_Spanning:_ For any $\mathbf{w} \in \mathrm{im}(T)$ Write $\mathbf{w} = T(\mathbf{v})$ for some
 $\mathbf{v} = \sum_{i=1}^n \alpha_i \mathbf{u}_i \in V$. Then
 
 $$
@@ -90,7 +90,7 @@ $\sum_{i=k+1}^n \alpha_i \mathbf{u}_i \in \ker(T)$. Thus
 $\sum_{i=k+1}^n \alpha_i \mathbf{u}_i = \sum_{j=1}^k \beta_j \mathbf{u}_j$ For some $\beta_j$. By
 linear independence of the full basis, all coefficients are zero.
 
-Therefore $\dim(\mathrm{im}(T)) = n - k$Giving $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = n$.
+Therefore $\dim(\mathrm{im}(T)) = n - k$ Giving $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = n$.
 $\blacksquare$
 
 ### 6.5 Isomorphisms
@@ -107,7 +107,7 @@ surjective.
 _Proof._ If $T$ is injective, $\ker(T) = \{\mathbf{0}\}$ So
 $\dim(\mathrm{im}(T)) = \dim(V) = \dim(W)$ Hence $\mathrm{im}(T) = W$ (a subspace of full dimension
 equals the whole space). Conversely, If $T$ is surjective,
-$\dim(\mathrm{im}(T)) = \dim(W) = \dim(V)$ So $\dim(\ker(T)) = 0$Giving $\ker(T) = \{\mathbf{0}\}$.
+$\dim(\mathrm{im}(T)) = \dim(W) = \dim(V)$ So $\dim(\ker(T)) = 0$ Giving $\ker(T) = \{\mathbf{0}\}$.
 $\blacksquare$
 
 ### 6.6 Change of Basis
@@ -167,7 +167,7 @@ $\blacksquare$
 
 ### 6.8 Dual Spaces
 
-**Definition.** The **dual space** of a vector space $V$ over $F$Denoted $V^*$Is the space of all
+**Definition.** The **dual space** of a vector space $V$ over $F$ Denoted $V^*$ Is the space of all
 Linear functionals $f : V \to F$. Elements of $V^*$ are called **covectors**.
 
 **Proposition 6.6.** If $\dim(V) = n \lt \infty$ Then $\dim(V^*) = n$.
@@ -197,7 +197,7 @@ Isomorphism is a special feature of finite-dimensional spaces.
 
 ### 6.9 Annihilators
 
-**Definition.** For a subset $S \subseteq V$The **annihilator** of $S$ is
+**Definition.** For a subset $S \subseteq V$ The **annihilator** of $S$ is
 
 $$
 S^0 = \{f \in V^* : f(s) = 0 \mathrm{~for~all~} s \in S\}
@@ -206,15 +206,15 @@ $$
 **Proposition 6.8.** $S^0$ is a subspace of $V^*$ And if $W$ is a subspace of $V$ with
 $\dim(V) = n$ Then $\dim(W^0) = n - \dim(W)$.
 
-_Proof._ $S^0$ is the intersection of the kernels $\ker(s)$ as $s$ ranges over $S$Where each $s$ Is
+_Proof._ $S^0$ is the intersection of the kernels $\ker(s)$ as $s$ ranges over $S$ Where each $s$ Is
 viewed as an element of $V^{**}$ via $\Phi$. Each $\ker(s)$ is a subspace of $V^*$ And any
 Intersection of subspaces is a subspace.
 
 For the dimension: let $\dim(W) = k$ and extend a basis $\{\mathbf{w}_1, \ldots, \mathbf{w}_k\}$ Of
 $W$ to a basis $\{\mathbf{w}_1, \ldots, \mathbf{w}_k, \mathbf{w}_{k+1}, \ldots, \mathbf{w}_n\}$ of
 $V$. Let $\{\varphi_1, \ldots, \varphi_n\}$ be the dual basis. Then $f \in W^0$ iff
-$f(\mathbf{w}_i) = 0$ For $i = 1, \ldots, k$. Writing $f = \sum c_j \varphi_j$We need $c_i = 0$ for
-$i = 1, \ldots, k$. So $f = \sum_{j=k+1}^n c_j \varphi_j$Giving $\dim(W^0) = n - k$. $\blacksquare$
+$f(\mathbf{w}_i) = 0$ For $i = 1, \ldots, k$. Writing $f = \sum c_j \varphi_j$ We need $c_i = 0$ for
+$i = 1, \ldots, k$. So $f = \sum_{j=k+1}^n c_j \varphi_j$ Giving $\dim(W^0) = n - k$. $\blacksquare$
 
 ---
 

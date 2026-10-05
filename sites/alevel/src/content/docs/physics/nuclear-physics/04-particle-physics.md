@@ -26,7 +26,7 @@ categories: [Physics]
 The Standard Model classifies all known fundamental particles and their interactions. It describes:
 
 - **12 fermions** (matter particles): 6 quarks and 6 leptons, each with an antiparticle.
-- **5 gauge bosons** (force carriers): photon, $W^+$, $W^-$, $Z^0$Gluon (8 types).
+- **5 gauge bosons** (force carriers): photon, $W^+$, $W^-$, $Z^0$ Gluon (8 types).
 - **1 scalar boson:** Higgs ($H^0$), responsible for giving mass to $W$, $Z$ bosons and fermions.
 
 ### The Four Fundamental Interactions
@@ -57,7 +57,7 @@ Quarks are never observed in isolation. They are always bound into colour-neutra
 
 - **Baryons:** Three quarks (one of each colour, or colour-anticolour combinations that cancel).
   Examples: proton ($uud$), neutron ($udd$).
-- **Mesons:** A quark--antiquark pair. Examples: pion ($\pi^+ = u\bar{d}$), kaon ($K^+ = u\bar{s}$).
+- **Mesons:** A quark--antiquark pair. Examples: pion ($\pi^+ = u\bar{d}$), kaon ($ K^+ = u\bar{s}$).
 
 The strong force increases with distance (unlike gravity and electromagnetism, which decrease).
 Pulling Quarks apart stores energy in the colour field until it is energetically favourable to
@@ -80,7 +80,7 @@ Leptons are fundamental particles that do **not** experience the strong force.
 | 2          | Muon ($\mu^-$)   | Muon neutrino ($\nu_\mu$)   |
 | 3          | Tau ($\tau^-$)   | Tau neutrino ($\nu_\tau$)   |
 
-Each lepton has a corresponding antiparticle ($e^+$, $\bar{\nu}_e$Etc.).
+Each lepton has a corresponding antiparticle ($e^+$, $\bar{\nu}_e$ Etc.).
 
 ### Conservation of Lepton Number
 
@@ -210,7 +210,7 @@ $$
 
 Two photons are required (not one) to conserve both energy and momentum.
 
-### Dirac"s Prediction
+### Dirac's Prediction
 
 Dirac (1928) combined quantum mechanics with special relativity, obtaining an equation that
 Predicted antiparticles. The positron ($e^+$) was discovered by Anderson (1932) in cosmic ray
@@ -294,7 +294,7 @@ $$
 \boxed{f_0 = \frac{\phi}{h}}
 $$
 
-For frequencies below $f_0$No electron can be emitted regardless of intensity, because each photon
+For frequencies below $f_0$ No electron can be emitted regardless of intensity, because each photon
 Carries insufficient energy. Increasing intensity means more photons, not more energy per photon.
 
 <details>
@@ -306,7 +306,7 @@ Energy of the emitted photoelectrons and determine whether emission occurs.
 $E_{\mathrm{photon}} = hf = hc/\lambda = (6.63 \times 10^{-34} \times 3.00 \times 10^8)/(400 \times 10^{-9}) = 4.97 \times 10^{-19}$
 J $= 3.11$ eV.
 
-Since $3.11\ \mathrm{eV} \lt 4.30\ \mathrm{eV} = \phi$No photoelectrons are emitted.
+Since $3.11\ \mathrm{eV} \lt 4.30\ \mathrm{eV} = \phi$ No photoelectrons are emitted.
 
 For emission, the minimum wavelength is:
 $\lambda_{\min} = hc/\phi = (6.63 \times 10^{-34} \times 3.00 \times 10^8)/(4.30 \times 1.60 \times 10^{-19}) = 2.89 \times 10^{-7}$
@@ -520,7 +520,7 @@ $m = h^2/(2eV\lambda^2) = (6.63 \times 10^{-34})^2/(2 \times 1.60 \times 10^{-19
 kg.
 
 Comparing with known masses: $m_e = 9.11 \times 10^{-31}$ kg, $m_p = 1.67 \times 10^{-27}$ kg. The
-mass is approximately $3.2\,m_e$Which does not match a known fundamental particle. This Suggests a
+mass is approximately $3.2\,m_e$ Which does not match a known fundamental particle. This Suggests a
 systematic error or that the particle is a muon ($m_\mu = 1.88 \times 10^{-28}$ kg). For a muon:
 $\lambda = 6.63 \times 10^{-34}/\sqrt{2 \times 1.88 \times 10^{-28} \times 1.60 \times 10^{-19} \times 500} = 6.63 \times 10^{-34}/\sqrt{3.01 \times 10^{-44}} = 6.63 \times 10^{-34}/1.74 \times 10^{-22} = 3.82 \times 10^{-12}$
 m.

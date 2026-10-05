@@ -32,7 +32,7 @@ categories:
 
 Solve the initial value problem $\dfrac{dy}{dx} = y^{2/3}$ with $y(0) = 0$.
 
-A student separates variables and writes $\displaystyle\int y^{-2/3}\,dy = \int dx$Obtaining
+A student separates variables and writes $\displaystyle\int y^{-2/3}\,dy = \int dx$ Obtaining
 $3y^{1/3} = x + C$. Using $y(0) = 0$: $C = 0$ So $y = \left(\dfrac{x}{3}\right)^3$.
 
 (a) Verify that $y(x) = 0$ (the constant zero function) is also a solution to the IVP. (b) Explain
@@ -46,7 +46,7 @@ Also $y(0) = 0$. So $y = 0$ is a solution.
 
 (b) The existence and uniqueness theorem (Picard-Lindelof) requires $\dfrac{dy}{dx} = f(x, y)$ where
 $f$ and $\dfrac{\partial f}{\partial y}$ are continuous near $(0, 0)$. Here $f(x, y) = y^{2/3}$ And
-$\dfrac{\partial f}{\partial y} = \dfrac{2}{3}y^{-1/3}$Which is **undefined** at $y = 0$. Therefore
+$\dfrac{\partial f}{\partial y} = \dfrac{2}{3}y^{-1/3}$ Which is **undefined** at $y = 0$. Therefore
 the theorem does not guarantee uniqueness.
 
 (c) A third solution can be constructed by patching:
@@ -57,7 +57,7 @@ $$
 
 For any $a \geq 0$. At $x = a$: $y(a) = 0$ from both sides, and $y"(a) = 0$ from both sides (since
 $\frac{d}{dx}\left[\left(\frac{x-a}{3}\right)^3\right] = \frac{(x-a)^2}{3} = 0$ at $x = a$). So this
-is a valid $C^1$ solution. For $a = 0$This gives:
+is a valid $C^1$ solution. For $a = 0$ This gives:
 
 $$
 y(x) = \begin{cases} 0 & \text{if  x \leq 0 \\ \dfrac{x^3}{27} & \text{if  x > 0 \end{cases}
@@ -93,7 +93,7 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 
 **Solution:**
 
-(a) With $\Delta x = 0.5$Starting at $(0, 1)$:
+(a) With $\Delta x = 0.5$ Starting at $(0, 1)$:
 
 | Step | $x$ | $y$  | $y' = x + y$ | $y_{\text{new} = y + 0.5 \cdot y'$ |
 | ---- | --- | ---- | ------------ | ---------------------------------- |
@@ -104,7 +104,7 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 
 Approximation: $y(2) \approx 7.125$.
 
-With $\Delta x = 0.25$Starting at $(0, 1)$:
+With $\Delta x = 0.25$ Starting at $(0, 1)$:
 
 | Step | $x$  | $y$         | $y' = x + y$ | $y_{\text{new}$ |
 | ---- | ---- | ----------- | ------------ | --------------- |
@@ -249,13 +249,13 @@ and III (where $x$ and $y$ have the same sign) and negative in quadrants II and 
 the slope is $1$; along $y = -x$ the slope is $-1$. The slopes are very steep near $y = 0$ and
 nearly horizontal near $x = 0$. The solution through $(1, 2)$ lies in quadrant I and is concave up
 (since
-$\dfrac{d^2y}{dx^2} = \dfrac{y - x \cdot y'}{y^2} = \dfrac{y - x^2/y}{y^2} = \dfrac{y^2 - x^2}{y^3}$Which
+$\dfrac{d^2y}{dx^2} = \dfrac{y - x \cdot y'}{y^2} = \dfrac{y - x^2/y}{y^2} = \dfrac{y^2 - x^2}{y^3}$ Which
 is positive for $y > |x|$).
 
 (b) $f(x, y) = \dfrac{x}{y}$ is undefined when $y = 0$ So the existence and uniqueness theorem does
 not apply on the $x$-axis. A solution curve approaching $y = 0$ would have
-$\dfrac{dy}{dx} \to \pm\infty$Meaning the curve becomes vertical. Since the ODE is not defined on
-$y = 0$No solution curve can cross it.
+$\dfrac{dy}{dx} \to \pm\infty$ Meaning the curve becomes vertical. Since the ODE is not defined on
+$y = 0$ No solution curve can cross it.
 
 (c) Separate variables: $y\,dy = x\,dx$. Integrate: $\dfrac{y^2}{2} = \dfrac{x^2}{2} + C$. Using
 $(1, 2)$: $2 = \frac{1}{2} + C \implies C = \frac{3}{2}$.
@@ -305,16 +305,16 @@ $$
 \int y\,dy = \int \frac{dx}{x} \implies \frac{y^2}{2} = \ln|x| + C
 $$
 
-Using $y(1) = 0$: $\dfrac{0}{2} = \ln 1 + C \implies C = 0$Giving $y = \pm\sqrt{2\ln|x|}$.
+Using $y(1) = 0$: $\dfrac{0}{2} = \ln 1 + C \implies C = 0$ Giving $y = \pm\sqrt{2\ln|x|}$.
 
 (a) Identify the domain issues with this solution. (b) Does a solution exist on any interval
 containing $x = 1$? Justify using the existence and uniqueness theorem. (c) If the initial condition
-is changed to $y(1) = 1$Find the solution and determine its maximal interval of existence.
+is changed to $y(1) = 1$ Find the solution and determine its maximal interval of existence.
 
 **Solution:**
 
-(a) The "solution" $y = \pm\sqrt{2\ln|x|}$ requires $\ln|x| \geq 0$I.e., $|x| \geq 1$. But the
-initial condition is at $x = 1$Where $\ln 1 = 0$ and $y = 0$. The domain does not include any
+(a) The "solution" $y = \pm\sqrt{2\ln|x|}$ requires $\ln|x| \geq 0$ I.e., $|x| \geq 1$. But the
+initial condition is at $x = 1$ Where $\ln 1 = 0$ and $y = 0$. The domain does not include any
 interval around $x = 1$ (it only includes $x = 1$ as a boundary point). This is not a valid solution
 on any open interval.
 
@@ -365,8 +365,8 @@ containing $x = 1$ is $(e^{-1/2}, \infty)$.
 Consider the autonomous differential equation $\dfrac{dy}{dx} = y(y - 2)^2(y + 1)$.
 
 (a) Find all equilibrium solutions and classify their stability. (b) A student claims that since
-$y = 2$ is a repeated root of $y(y-2)^2(y+1) = 0$The equilibrium at $y = 2$ is "doubly stable." Is
-this correct? (c) If $y(0) = 1$Determine $\displaystyle\lim_{t \to \infty} y(t)$ and
+$y = 2$ is a repeated root of $y(y-2)^2(y+1) = 0$ The equilibrium at $y = 2$ is "doubly stable." Is
+this correct? (c) If $y(0) = 1$ Determine $\displaystyle\lim_{t \to \infty} y(t)$ and
 $\displaystyle\lim_{t \to -\infty} y(t)$. (d) For what initial values $y(0) = y_0$ does $y(t) \to 2$
 as $t \to \infty$?
 
@@ -397,7 +397,7 @@ Stability classification:
 (b) No. The multiplicity of the root affects the nature of the equilibrium, but "doubly stable" is
 not the correct interpretation. A root of even multiplicity in $f(y)$ at an equilibrium means the
 equilibrium is a **node** -- semistable, with solutions approaching from one side and departing from
-the other. The "double root" makes $f'(2) = 0$Which means the linearization test is inconclusive and
+the other. The "double root" makes $f'(2) = 0$ Which means the linearization test is inconclusive and
 we must use the sign chart instead.
 
 (c) $y(0) = 1$ is in the region $0 < y < 2$ where $f(y) > 0$ So $y$ increases. Since $y = 2$ is

@@ -58,7 +58,7 @@ $$
 W = \int_{x_1}^{x_2} F\,dx
 $$
 
-**Proof.** For a small displacement $\delta x$The work done is approximately $F\,\delta x$. In the
+**Proof.** For a small displacement $\delta x$ The work done is approximately $F\,\delta x$. In the
 Limit as $\delta x \to 0$:
 
 $$
@@ -504,13 +504,13 @@ $$
 T_B = 3g \implies \frac{50(2 - d)}{1.0} = 29.4 \implies 2 - d = 0.588 \implies d = 1.412
 $$
 
-But $d = 1.412 \gt 0.8$Contradicting $d \leq 0.8$. If string $B$ is slack ($d \geq 2$):
+But $d = 1.412 \gt 0.8$ Contradicting $d \leq 0.8$. If string $B$ is slack ($d \geq 2$):
 
 $$
 T_A = 3g \implies 50(d - 0.8) = 29.4 \implies d = 1.388\;\mathrm{m}
 $$
 
-But $1.388 \lt 2$Contradiction. This problem needs a 2D treatment with the particle hanging below
+But $1.388 \lt 2$ Contradiction. This problem needs a 2D treatment with the particle hanging below
 The line, with both strings at angles.
 
 :::caution

@@ -34,7 +34,7 @@ $$
 
 Where $\Delta\phi = \phi_2 - \phi_1$ is the phase difference.
 
-### 3.2 Double-Slit Interference (Young"s Experiment)
+### 3.2 Double-Slit Interference (Young's Experiment)
 
 Two slits separated by distance $d$ are illuminated by coherent light of wavelength $\lambda$. The
 Screen is at distance $L \gg d$.
@@ -64,7 +64,7 @@ $$
 <details>
 <summary>Worked Example: Double-slit fringe calculation</summary>
 
-**Problem.** In a Young"s double-slit experiment, light of wavelength $\lambda = 550$ nm passes
+**Problem.** In a Young's double-slit experiment, light of wavelength $\lambda = 550$ nm passes
 Through slits separated by $d = 0.10$ mm onto a screen at $L = 2.0$ m. Find (a) the fringe spacing,
 (b) the angular position of the third bright fringe, and (c) the total number of bright fringes
 Visible within the central diffraction maximum (slit width $a = 0.020$ mm).
@@ -197,7 +197,7 @@ $$
 $$
 
 Where $\Delta x = c\tau$ is the path difference. Fringes become unresolvable when
-$\Delta x \approx \lambda^2/\Delta\lambda = L_c$The **coherence length**.
+$\Delta x \approx \lambda^2/\Delta\lambda = L_c$ The **coherence length**.
 
 **Implication for interferometry.** To observe interference fringes, the path difference between The
 two arms must satisfy $\Delta x \ll L_c$. A sodium lamp ($\Delta\lambda \approx 0.6$ nm at
@@ -210,7 +210,7 @@ A **Fabry-Perot etalon** consists of two parallel, partially reflecting surfaces
 Distance $d$. Multiple reflections create many beams that interfere, producing sharp transmission
 Peaks.
 
-For a lossless etalon with reflectance $R$ and transmittance $T = 1 - R$Illuminated at angle
+For a lossless etalon with reflectance $R$ and transmittance $T = 1 - R$ Illuminated at angle
 $\theta$ inside a medium of refractive index $n$:
 
 $$

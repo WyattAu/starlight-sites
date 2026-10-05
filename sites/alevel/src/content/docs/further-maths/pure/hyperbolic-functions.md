@@ -82,7 +82,7 @@ $$
 - As $x \to +\infty$: $\sinh x \to +\infty$$\cosh x \to +\infty$$\tanh x \to 1$.
 - As $x \to -\infty$: $\sinh x \to -\infty$$\cosh x \to +\infty$$\tanh x \to -1$.
 
-### 1.4 Connection with Euler"s formula
+### 1.4 Connection with Euler's formula
 
 $$
 \cosh x = \cos(ix), \qquad \sinh x = -i\sin(ix)
@@ -97,9 +97,9 @@ $\blacksquare$
 
 - **$\sinh x$**: passes through the origin, increasing, resembles $y = x/2$ near the origin and
   $y = e^x/2$ for large positive $x$.
-- **$\cosh x$**: minimum at $(0, 1)$Symmetric about the $y$-axis, resembles $y = 1 + x^2/2$ near the
+- **$\cosh x$**: minimum at $(0, 1)$ Symmetric about the $y$-axis, resembles $y = 1 + x^2/2$ near the
   origin and $y = e^x/2$ for large positive $x$.
-- **$\tanh x$**: S-shaped curve with horizontal asymptotes at $y = \pm 1$Passing through the origin
+- **$\tanh x$**: S-shaped curve with horizontal asymptotes at $y = \pm 1$ Passing through the origin
   with gradient 1.
 
 <hr />
@@ -191,7 +191,7 @@ $$
 
 ### 2.6 Worked example
 
-**Problem.** Given $\sinh x = 3$Find $\cosh x$ and $\tanh x$ without finding $x$.
+**Problem.** Given $\sinh x = 3$ Find $\cosh x$ and $\tanh x$ without finding $x$.
 
 From $\cosh^2 x - \sinh^2 x = 1$:
 
@@ -237,7 +237,7 @@ $$
 e^y = \frac{2x \pm \sqrt{4x^2 + 4}}{2} = x \pm \sqrt{x^2 + 1}
 $$
 
-Since $e^y \gt 0$ and $\sqrt{x^2 + 1} \gt |x|$We take the positive root:
+Since $e^y \gt 0$ and $\sqrt{x^2 + 1} \gt |x|$ We take the positive root:
 
 $$
 e^y = x + \sqrt{x^2 + 1} \implies y = \ln\!\left(x + \sqrt{x^2 + 1}\right) \quad \blacksquare
@@ -255,7 +255,7 @@ $$
 e^y = \frac{2x \pm \sqrt{4x^2 - 4}}{2} = x \pm \sqrt{x^2 - 1}
 $$
 
-Since $e^y \geq 1$ and $x \geq 1$We need $e^y \geq 1$. Both roots are positive when $x \geq 1$. The
+Since $e^y \geq 1$ and $x \geq 1$ We need $e^y \geq 1$. Both roots are positive when $x \geq 1$. The
 convention is to take $e^y = x + \sqrt{x^2 - 1}$ (which gives $y \geq 0$):
 
 $$
@@ -550,7 +550,7 @@ $$
 $y = a\cosh\!\left(\dfrac{x}{a}\right) + c$.
 
 **Proof (sketch).** Consider a small element of the chain between horizontal positions $x$ and
-$x + \delta x$. Let the tension at position $x$ be $T$Making angle $\theta$ with the horizontal.
+$x + \delta x$. Let the tension at position $x$ be $T$ Making angle $\theta$ with the horizontal.
 
 Horizontal equilibrium: $T\cos\theta = T_0$ (constant).
 
@@ -587,13 +587,13 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
 ## 7. Common Pitfalls
 
 :::caution
-1. **Sign in the fundamental identity:** Unlike $\cos^2 x + \sin^2 x = 1$The hyperbolic identity is
+1. **Sign in the fundamental identity:** Unlike $\cos^2 x + \sin^2 x = 1$ The hyperbolic identity is
    $\cosh^2 x - \sinh^2 x = 1$. The minus sign is crucial and is the source of many errors.
 2. **Domain of $\operatorname{arcosh}$:** The domain is $x \geq 1$ (not $x > 0$). Attempting to
    evaluate $\operatorname{arcosh}(0.5)$ is undefined.
 3. **$\cosh x \geq 1$ always:** When solving $\cosh^2 x = k$ and taking the square root, always take
    the positive root $\cosh x = +\sqrt{k}$ since $\cosh x \geq 1 > 0$ for all real $x$.
-4. **Integration: artanh vs ln:** When $|x| > a$ in $\displaystyle\int \frac{dx}{a^2 - x^2}$The
+4. **Integration: artanh vs ln:** When $|x| > a$ in $\displaystyle\int \frac{dx}{a^2 - x^2}$ The
    result involves $\operatorname{arcoth}$ (or an alternative logarithmic form), not
    $\operatorname{artanh}$. Check the domain of the integrand carefully.
 :::
@@ -613,7 +613,7 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
 
 ### Question 5
 
-**(a)** Solve the equation $\cosh x = 2.5$Giving your answer in exact logarithmic form.
+**(a)** Solve the equation $\cosh x = 2.5$ Giving your answer in exact logarithmic form.
 
 **(b)** Hence solve $\cosh 2x = 2.5$.
 
@@ -634,7 +634,7 @@ Since $\cosh$ is even, both $\pm$ give valid solutions (one positive, one negati
 
 $x = \dfrac{1}{2}\ln\!\left(\dfrac{5 \pm \sqrt{21}}{2}\right)$
 
-Alternatively, using $\cosh 2x = 2\cosh^2 x - 1 = 2.5 \implies \cosh^2 x = 1.75$Which gives the Same
+Alternatively, using $\cosh 2x = 2\cosh^2 x - 1 = 2.5 \implies \cosh^2 x = 1.75$ Which gives the Same
 result.
 
 </details>
@@ -685,7 +685,7 @@ $\dfrac{dy}{dx} = \dfrac{2}{\sqrt{(2x - 1)^2 + 1}} = \dfrac{2}{\sqrt{4x^2 - 4x +
 
 $\dfrac{dy}{dx}\bigg|_{x=1} = \dfrac{2}{\sqrt{4 - 4 + 2}} = \dfrac{2}{\sqrt{2}} = \sqrt{2}$.
 
-Equation of tangent: $y - \ln(1 + \sqrt{2}) = \sqrt{2}(x - 1)$I.e.
+Equation of tangent: $y - \ln(1 + \sqrt{2}) = \sqrt{2}(x - 1)$ I.e.
 
 $y = \sqrt{2}\,x - \sqrt{2} + \ln(1 + \sqrt{2})$.
 
@@ -697,7 +697,7 @@ $y = \sqrt{2}\,x - \sqrt{2} + \ln(1 + \sqrt{2})$.
 
 ### Example 9.1: Solving hyperbolic equations
 
-**Problem.** Solve $3\sinh x + 4\cosh x = 5$Giving your answer in exact logarithmic form.
+**Problem.** Solve $3\sinh x + 4\cosh x = 5$ Giving your answer in exact logarithmic form.
 
 **Solution.** Using the exponential definitions:
 
@@ -729,7 +729,7 @@ $$
 x = \ln\!\left(\frac{5 + 3\sqrt{2}}{7}\right) \quad \text{or} \quad x = \ln\!\left(\frac{5 - 3\sqrt{2}}{7}\right)
 $$
 
-Since $\dfrac{5 - 3\sqrt{2}}{7} \approx 0.109 > 0$Both solutions are valid.
+Since $\dfrac{5 - 3\sqrt{2}}{7} \approx 0.109 > 0$ Both solutions are valid.
 
 ### Example 9.2: Integration using hyperbolic substitution
 
@@ -762,8 +762,8 @@ $$
 
 **Problem.** Prove that $\cosh 3x = 4\cosh^3 x - 3\cosh x$.
 
-**Solution.** From the trigonometric identity $\cos 3\theta = 4\cos^3\theta - 3\cos\theta$Applying
-Osborne's rule: since $\cos^3\theta$ contains no products of $\sin$It remains unchanged. Therefore:
+**Solution.** From the trigonometric identity $\cos 3\theta = 4\cos^3\theta - 3\cos\theta$ Applying
+Osborne's rule: since $\cos^3\theta$ contains no products of $\sin$ It remains unchanged. Therefore:
 
 $$
 \cosh 3x = 4\cosh^3 x - 3\cosh x
@@ -890,7 +890,7 @@ $$
 ### 10.1 Hyperbolic functions and differential equations
 
 The differential equation $\dfrac{d^2y}{dx^2} - y = 0$ has general solution
-$y = A\cosh x + B\sinh x$Which can also be written $y = Ce^x + De^{-x}$. See
+$y = A\cosh x + B\sinh x$ Which can also be written $y = Ce^x + De^{-x}$. See
 [Differential Equations](/further-maths/pure-mathematics/07-differential-equations/).
 
 ### 10.2 Hyperbolic functions and complex numbers
@@ -923,7 +923,7 @@ The shape $y = a\cosh(x/a)$ describes a hanging chain. The arc length is $s = a\
 
 ### Question 8
 
-**(a)** Given $\sinh x = \dfrac{12}{5}$Find the exact value of $\cosh x$ and $\tanh x$.
+**(a)** Given $\sinh x = \dfrac{12}{5}$ Find the exact value of $\cosh x$ and $\tanh x$.
 
 **(b)** Hence evaluate $\operatorname{arcosh}\!\left(\dfrac{13}{5}\right)$ in exact logarithmic
 Form.
@@ -1010,7 +1010,7 @@ $$
 
 ### Question 12
 
-Given that $y = \ln(\sinh x)$Show that $\dfrac{d^2y}{dx^2} = -\mathrm{cosech}^2\,x$.
+Given that $y = \ln(\sinh x)$ Show that $\dfrac{d^2y}{dx^2} = -\mathrm{cosech}^2\,x$.
 
 <details>
 <summary>Solution</summary>
@@ -1091,17 +1091,17 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 ## 13. Further Common Pitfalls
 
 :::caution
-1. **Substitution domain errors:** When using $x = a\cosh u$The substitution requires $x \geq a$
+1. **Substitution domain errors:** When using $x = a\cosh u$ The substitution requires $x \geq a$
    (since $\cosh u \geq 1$). Attempting to use $x = a\cosh u$ for $x < a$ leads to an error. Use
    $x = a\sinh u$ for $\sqrt{x^2 + a^2}$ and $x = a\cosh u$ for $\sqrt{x^2 - a^2}$.
 2. **Confusing $\operatorname{artanh}$ and $\ln$ forms:** The formula
    $\displaystyle\int\frac{dx}{a^2 - x^2} = \frac{1}{2a}\ln\!\left|\frac{a+x}{a-x}\right|$ is valid
    for all $|x| \neq a$ But $\dfrac{1}{a}\operatorname{artanh}(x/a)$ is only valid for $|x| < a$. For
-   $|x| > a$Use the logarithmic form or $\operatorname{arcoth}$.
+   $|x| > a$ Use the logarithmic form or $\operatorname{arcoth}$.
 3. **No absolute value needed for $\cosh$:** Unlike $|\cos x|$, $\sqrt{\cosh^2 x} = \cosh x$
    (no absolute value needed) since $\cosh x \geq 1 > 0$ for all real $x$.
 4. **Differential equation solutions:** The equation $y'' - y = 0$ has solutions in both exponential
-   and hyperbolic forms. When boundary conditions involve $y(0)$ and $y'(0)$The hyperbolic form
+   and hyperbolic forms. When boundary conditions involve $y(0)$ and $y'(0)$ The hyperbolic form
    $y = A\cosh x + B\sinh x$ is often more convenient since $\cosh 0 = 1$ and $\sinh 0 = 0$.
 :::
 
@@ -1325,7 +1325,7 @@ $e^x = \dfrac{6 \pm \sqrt{36-12}}{2} = 3 \pm \sqrt{6}$.
 
 $x = \ln(3+\sqrt{6})$ or $x = \ln(3-\sqrt{6})$.
 
-Since $3-\sqrt{6} > 0$Both are valid.
+Since $3-\sqrt{6} > 0$ Both are valid.
 
 </details>
 

@@ -877,13 +877,13 @@ Mutated after insertion.
 ### 6. Prefix Sum Integer Overflow
 
 For large arrays, prefix sums can overflow 32-bit integers. A sum of $10^6$ elements each up to
-$10^9$ gives $10^{15}$Which exceeds 32-bit range. Use 64-bit integers (`int` in Python is always
+$10^9$ gives $10^{15}$ Which exceeds 32-bit range. Use 64-bit integers (`int` in Python is always
 Arbitrary precision, but in C/C++/Java, use `long long`/`long`).
 
 ### 7. Ignoring the Difference Between "At Most k" and "Exactly k"
 
 In sliding window problems, "at most k distinct elements" requires shrinking the window when the
-Count exceeds $k$While "exactly k distinct elements" requires maintaining two windows (one for at
+Count exceeds $k$ While "exactly k distinct elements" requires maintaining two windows (one for at
 Most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
 
 ```mermaid

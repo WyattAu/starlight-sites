@@ -311,7 +311,7 @@ Callable as a `void` method from Java.
 
 ### Kotlin Collections from Java
 
-Java code sees Kotlin"s read-only collection types as their mutable equivalents (e.g., `List` is
+Java code sees Kotlin's read-only collection types as their mutable equivalents (e.g., `List` is
 Seen as `java.util.List`). This is because Kotlin's read-only interfaces extend Java's mutable
 Interfaces for compatibility.
 

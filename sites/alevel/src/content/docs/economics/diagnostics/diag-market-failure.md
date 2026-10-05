@@ -83,7 +83,7 @@ optimum.
 ### UT-2: Public Goods and Free-Rider Problem
 
 **Question:** A town of 1000 residents is considering building a public park. Each resident"s
-individual demand for the park is $P = 10 - 0.01Q$Where $Q$ is the park size in hectares. The
+individual demand for the park is $P = 10 - 0.01Q$ Where $Q$ is the park size in hectares. The
 marginal cost of providing the park is $\text{MC} = 200 + 20Q$. Calculate the socially optimal park
 size. Explain why the private market would underprovide this good.
 
@@ -103,7 +103,7 @@ $9800 = 30Q$
 $Q^* = 326.67$ hectares (approximately 327 hectares).
 
 Why private markets underprovide: Each individual resident only values the park at $P = 10 - 0.01Q$.
-At $Q = 327$Individual willingness to pay $= 10 - 3.27 = \pounds 6.73$. But the marginal cost per
+At $Q = 327$ Individual willingness to pay $= 10 - 3.27 = \pounds 6.73$. But the marginal cost per
 hectare $= 200 + 20(327) = \pounds 6740$. No individual (or small group) would pay this cost
 voluntarily, even though the collective benefit far exceeds the cost. The free-rider problem means
 each person hopes others will pay, so no one contributes. This is a market failure -- the good is
@@ -149,7 +149,7 @@ This achieves the social optimum. DWL with tax $= 0$ (the tax perfectly corrects
 - External cost avoided: $15 \times 30 = \pounds 450$
 - Net DWL from ban $= 450 + 450 - 450 = \pounds 450$
 
-The ban creates a DWL of $\pounds 450$While the tax creates DWL of $\pounds 0$. The ban is too blunt
+The ban creates a DWL of $\pounds 450$ While the tax creates DWL of $\pounds 0$. The ban is too blunt
 an instrument -- it eliminates all consumption, including the 22.5 units where the marginal social
 benefit exceeds the marginal social cost. Only the 7.5 units from $Q = 22.5$ to $Q = 30$ generate
 external costs exceeding their social benefit. The tax allows the beneficial units to be consumed
@@ -207,7 +207,7 @@ for disadvantaged students).
 **Question:** In the market for health insurance, asymmetric information exists because individuals
 know more about their health status than insurers. Explain adverse selection and moral hazard in
 this context. If the probability of a healthy person needing medical treatment is 5% and for an
-unhealthy person is 30%, and treatment costs $\pounds 10000$Calculate the minimum premium an insurer
+unhealthy person is 30%, and treatment costs $\pounds 10000$ Calculate the minimum premium an insurer
 would charge if the population is 70% healthy and 30% unhealthy. Explain why this premium might
 drive healthy people out of the market.
 
@@ -272,7 +272,7 @@ $Q_d = (800 - 500)/0.5 = 600$. $Q_s = (500 - 200)/0.5 = 600$.
 
 Domestic supply equals demand at world price, so imports $= 0$.
 
-Wait, let me recalculate: $Q_d = 2(800 - 500) = 600$$Q_s = 2(500 - 200) = 600$. At $\pounds 500$The
+Wait, let me recalculate: $Q_d = 2(800 - 500) = 600$$Q_s = 2(500 - 200) = 600$. At $\pounds 500$ The
 domestic market is in equilibrium with no trade.
 
 Let me reconsider with a lower world price. Let world price $= \pounds 400$:
@@ -387,7 +387,7 @@ each individual hopes others will pay, so no one pays.
 
 (d) Total annual cost of 19 streetlights: $19 \times 50 = \pounds 950$. Per-person tax:
 $950 / 100 = \pounds 9.50$ per year. Each person's MB at $Q = 19$: $MB_i = 10 - 0.5(19) = 0.5$.
-Since $MB_i = 0.5 < 9.50$Each individual would vote against the tax if given a choice, even though
+Since $MB_i = 0.5 < 9.50$ Each individual would vote against the tax if given a choice, even though
 the social optimum benefits everyone. This illustrates the difficulty of funding public goods
 through voluntary means.
 

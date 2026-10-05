@@ -34,7 +34,7 @@ Where $F$ is the force on a wire of length $L$ carrying current $I$ at angle $\t
 
 SI unit: tesla (T). $1\ \mathrm{T} = 1\ \mathrm{N\,A^{-1}\,m^{-1}}$.
 
-**Direction of force:** Given by Fleming"s Left-Hand Rule:
+**Direction of force:** Given by Fleming's Left-Hand Rule:
 
 - First finger: Field ($B$)
 - Second finger: Current ($I$)
@@ -102,7 +102,7 @@ $$
 f = \frac{Bq}{2\pi m}
 $$
 
-**Physical reason.** The magnetic force is $F = Bqv = mv^2/r$Giving $r = mv/(Bq)$. Both $r$ and $v$
+**Physical reason.** The magnetic force is $F = Bqv = mv^2/r$ Giving $r = mv/(Bq)$. Both $r$ and $v$
 Increase proportionally, so $T = 2\pi r/v = 2\pi m/(Bq)$ is constant. This is the operating
 principle Of the cyclotron accelerator.
 
@@ -134,9 +134,9 @@ $$
 v_\perp = v\sin\theta, \qquad v_\parallel = v\cos\theta
 $$
 
-The perpendicular component produces circular motion (radius $r = mv_\perp/(Bq)$Period
+The perpendicular component produces circular motion (radius $r = mv_\perp/(Bq)$ Period
 $T = 2\pi m/(Bq)$), while the parallel component is unaffected by the magnetic force (since
-$\mathbf{F} \perp \mathbf{B}$There is no force component along $\mathbf{B}$).
+$\mathbf{F} \perp \mathbf{B}$ There is no force component along $\mathbf{B}$).
 
 The particle traces a **helix** with pitch:
 
@@ -210,7 +210,7 @@ $$
 \boxed{\varepsilon = Blv}
 $$
 
-**Proof.** In time $dt$The rod sweeps area $l \cdot v\,dt$. Flux swept: $d\Phi = Blv\,dt$. By
+**Proof.** In time $dt$ The rod sweeps area $l \cdot v\,dt$. Flux swept: $d\Phi = Blv\,dt$. By
 Faraday's law: $\varepsilon = d\Phi/dt = Blv$. $\square$
 
 **Alternative derivation.** Charges in the rod experience force $F = Bqv$ (by the magnetic force
@@ -219,7 +219,7 @@ $\varepsilon = Bvl$.
 
 ## 7. The AC Generator
 
-A coil of $N$ turns, area $A$Rotating at angular frequency $\omega$ in uniform field $B$:
+A coil of $N$ turns, area $A$ Rotating at angular frequency $\omega$ in uniform field $B$:
 
 $$
 \Phi = NBA\cos(\omega t)
@@ -333,7 +333,7 @@ Magnetic field, with energy density $u = B^2/(2\mu_0)$.
 
 Wire 1 (current $I_1$) creates field at distance $d$: $B_1 = \mu_0 I_1/(2\pi d)$.
 
-Wire 2 (current $I_2$Length $L$) in this field experiences force:
+Wire 2 (current $I_2$ Length $L$) in this field experiences force:
 
 $$
 F = B_1 I_2 L = \frac{\mu_0 I_1 I_2 L}{2\pi d}
@@ -375,7 +375,7 @@ Radius of its circular path.
 
 **Answer.**
 $r = \frac{m_e v}{Be} = \frac{9.11 \times 10^{-31} \times 2.0 \times 10^6}{0.80 \times 1.60 \times 10^{-19}} = 1.42 \times 10^{-5}$
-m $= 14.2\,\mu$M.
+m $= 14.2\,\mu$ M.
 
 </details>
 

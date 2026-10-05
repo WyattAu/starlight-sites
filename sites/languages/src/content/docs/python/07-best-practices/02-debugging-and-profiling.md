@@ -620,7 +620,7 @@ Set to `True` when you use `from e` or `from None`Which tells the traceback form
 
 ## cProfile
 
-`cProfile` is CPython"s deterministic, function-level profiler. It is implemented in C as a C
+`cProfile` is CPython's deterministic, function-level profiler. It is implemented in C as a C
 Extension (`_lsprof`), which makes it significantly faster than a pure-Python implementation but
 Still imposes measurable overhead.
 

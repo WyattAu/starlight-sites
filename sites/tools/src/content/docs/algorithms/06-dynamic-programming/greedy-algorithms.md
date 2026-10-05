@@ -51,7 +51,7 @@ Optimal solution with the greedy choice without making the solution worse.
 
 ### Example: Activity Selection
 
-Given $n$ activities with start times $s_i$ and finish times $f_i$Select the maximum number of
+Given $n$ activities with start times $s_i$ and finish times $f_i$ Select the maximum number of
 Non-overlapping activities.
 
 **Greedy**: always pick the activity with the earliest finish time.
@@ -80,8 +80,8 @@ def activity_selection(activities):
 
 Let $G = \{g_1, g_2, \ldots\}$ be the greedy solution and $O = \{o_1, o_2, \ldots\}$ be an optimal
 Solution, both sorted by finish time. $g_1$ has the earliest finish time of all activities. Since
-$o_1$ also finishes before $o_2, o_3, \ldots$We have $f(g_1) \le f(o_1)$. Replacing $o_1$ with $g_1$
-in $O$ gives a valid solution (since $g_1$ finishes no later than $o_1$It does not overlap With
+$o_1$ also finishes before $o_2, o_3, \ldots$ We have $f(g_1) \le f(o_1)$. Replacing $o_1$ with $g_1$
+in $O$ gives a valid solution (since $g_1$ finishes no later than $o_1$ It does not overlap With
 $o_2$). The new solution has the same size as $O$ and starts with $g_1$. By induction, $|G| = |O|$.
 
 :::tip
@@ -165,7 +165,7 @@ $$
 L = \sum_{i=1}^{n} f_i \cdot \mathrm{len(c_i)
 $$
 
-For a source with entropy $H = -\sum f_i \log_2 f_i$Huffman coding satisfies $H \le L \lt H + 1$
+For a source with entropy $H = -\sum f_i \log_2 f_i$ Huffman coding satisfies $H \le L \lt H + 1$
 (one bit per symbol worse than the theoretical minimum).
 
 ## Fractional Knapsack
@@ -560,7 +560,7 @@ def dp_coin_change(amount, coins):
 
 ## Set Cover (Greedy Approximation)
 
-Given a universe $U$ and a collection of subsets $S_1, S_2, \ldots, S_m$Find the minimum number of
+Given a universe $U$ and a collection of subsets $S_1, S_2, \ldots, S_m$ Find the minimum number of
 Subsets whose union is $U$. This is NP-hard, but a greedy algorithm gives a
 $(\ln n + 1)$-approximation.
 

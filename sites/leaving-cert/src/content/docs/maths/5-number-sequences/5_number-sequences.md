@@ -54,10 +54,10 @@ The real numbers satisfy the following axioms:
 
 **Identity elements:** $a + 0 = a$ and $a \cdot 1 = a$.
 
-**Inverse elements:** For every $a$There exists $-a$ such that $a + (-a) = 0$. For every
-$a \neq 0$There exists $a^{-1}$ such that $a \cdot a^{-1} = 1$.
+**Inverse elements:** For every $a$ There exists $-a$ such that $a + (-a) = 0$. For every
+$a \neq 0$ There exists $a^{-1}$ such that $a \cdot a^{-1} = 1$.
 
-**Ordered field properties:** For any $a, b \in \mathbb{R}$Exactly one of $a \lt b$, $a = b$
+**Ordered field properties:** For any $a, b \in \mathbb{R}$ Exactly one of $a \lt b$, $a = b$
 $a \gt b$ holds. The order is compatible with addition and multiplication by positive numbers.
 
 ### Irrational Numbers (HL)
@@ -78,24 +78,24 @@ irrational.
 **Example:** Prove that $\sqrt{2} + \sqrt{3}$ is irrational.
 
 Assume $\sqrt{2} + \sqrt{3} = r$ where $r \in \mathbb{Q}$. Then $\sqrt{3} = r - \sqrt{2}$ So
-$3 = r^2 - 2r\sqrt{2} + 2$Giving:
+$3 = r^2 - 2r\sqrt{2} + 2$ Giving:
 
 $$
 2r\sqrt{2} = r^2 - 1 \implies \sqrt{2} = \frac{r^2 - 1}{2r}
 $$
 
-Since $r \in \mathbb{Q}$, $\frac{r^2 - 1}{2r} \in \mathbb{Q}$Contradicting the irrationality of
+Since $r \in \mathbb{Q}$, $\frac{r^2 - 1}{2r} \in \mathbb{Q}$ Contradicting the irrationality of
 $\sqrt{2}$.
 
 **Example:** Prove that $\sqrt{2} \cdot \sqrt{3} = \sqrt{6}$ is irrational.
 
 Assume $\sqrt{6} = \frac{p}{q}$ in lowest terms. Then $p^2 = 6q^2$ So $p$ is even. Let $p = 2k$. Then
-$4k^2 = 6q^2$Giving $2k^2 = 3q^2$ So $q$ is even. Contradiction.
+$4k^2 = 6q^2$ Giving $2k^2 = 3q^2$ So $q$ is even. Contradiction.
 
 **Example (HL):** Prove that $\sqrt{2} + \sqrt{5}$ is irrational.
 
 Assume $\sqrt{2} + \sqrt{5} = r \in \mathbb{Q}$. Then $\sqrt{5} = r - \sqrt{2}$ So
-$5 = r^2 - 2r\sqrt{2} + 2$Giving:
+$5 = r^2 - 2r\sqrt{2} + 2$ Giving:
 
 $$
 2r\sqrt{2} = r^2 - 3 \implies \sqrt{2} = \frac{r^2 - 3}{2r} \in \mathbb{Q}
@@ -105,7 +105,7 @@ This contradicts the irrationality of $\sqrt{2}$.
 
 **Example (HL):** Prove that $\log_2 3$ is irrational.
 
-Assume $\log_2 3 = \frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$In lowest terms. Then
+Assume $\log_2 3 = \frac{p}{q}$ where $p, q \in \mathbb{Z}$, $q \neq 0$ In lowest terms. Then
 $2^{p/q} = 3$ So $2^p = 3^q$.
 
 The left side is even (since $p \ge 1$) but the right side is odd. Contradiction.
@@ -118,9 +118,9 @@ $\sin x$ and the assumption that $\pi = a/b$ is rational.
 
 ### Density of $\mathbb{Q}$ in $\mathbb{R}$ (HL - awareness)
 
-Between any two real numbers $a \lt b$There exists a rational number. This is a consequence of the
-Archimedean property: since $b - a > 0$There exists a positive integer $n$ such that $n(b-a) > 1$
-I.e., $nb - na > 1$. Then there exists an integer $m$ with $na \lt m \lt nb$Giving
+Between any two real numbers $a \lt b$ There exists a rational number. This is a consequence of the
+Archimedean property: since $b - a > 0$ There exists a positive integer $n$ such that $n(b-a) > 1$
+I.e., $nb - na > 1$. Then there exists an integer $m$ with $na \lt m \lt nb$ Giving
 $a \lt m/n \lt b$.
 
 ## Set Theory
@@ -281,7 +281,7 @@ $$
 
 $rS_n = ar + ar^2 + \cdots + ar^{n-1} + ar^n$
 
-Subtracting: $S_n - rS_n = a - ar^n$ So $S_n(1-r) = a(1 - r^n)$Giving
+Subtracting: $S_n - rS_n = a - ar^n$ So $S_n(1-r) = a(1 - r^n)$ Giving
 $S_n = \frac{a(1-r^n)}{1-r} = \frac{a(r^n-1)}{r-1}$.
 
 **Example (OL):** Find the sum of the first 8 terms of 2, 6, 18, 54, ...
@@ -309,8 +309,8 @@ $$
 
 With equality if and only if $a = b$.
 
-**Proof.** Since $(\sqrt{a} - \sqrt{b})^2 \geq 0$We have $a - 2\sqrt{ab} + b \geq 0$ So
-$a + b \geq 2\sqrt{ab}$Giving $\frac{a+b}{2} \geq \sqrt{ab}$.
+**Proof.** Since $(\sqrt{a} - \sqrt{b})^2 \geq 0$ We have $a - 2\sqrt{ab} + b \geq 0$ So
+$a + b \geq 2\sqrt{ab}$ Giving $\frac{a+b}{2} \geq \sqrt{ab}$.
 
 ### Sum to Infinity (HL)
 
@@ -589,7 +589,7 @@ The general solution is $T_n = L + (T_1 - L)a^{n-1}$.
 
 **Why this works.** Let $U_n = T_n - L$. Then
 $U_{n+1} = T_{n+1} - L = aT_n + b - L = aT_n + b - \frac{b}{1-a} = aT_n + \frac{b - b + ab}{1-a} = aT_n + \frac{ab}{1-a}$.
-Since $L = \frac{b}{1-a}$We have $aL = \frac{ab}{1-a}$ So $U_{n+1} = aT_n - aL = aU_n$. This is a
+Since $L = \frac{b}{1-a}$ We have $aL = \frac{ab}{1-a}$ So $U_{n+1} = aT_n - aL = aU_n$. This is a
 Geometric sequence with ratio $a$.
 
 **Example:** Solve $T_1 = 3$, $T_{n+1} = 2T_n + 5$.
@@ -608,7 +608,7 @@ $$
 T_n = 1 + (1 - 1) \cdot 4^{n-1} = 1
 $$
 
-Indeed: $T_2 = 4(1) - 3 = 1$, $T_3 = 4(1) - 3 = 1$Etc. The sequence is constant at 1, which is the
+Indeed: $T_2 = 4(1) - 3 = 1$, $T_3 = 4(1) - 3 = 1$ Etc. The sequence is constant at 1, which is the
 Fixed point.
 
 ### Second Order Recurrence Relations (HL - awareness)
@@ -644,13 +644,13 @@ See the examples integrated throughout the sections above.
 
 ## Common Pitfalls
 
-1. **Mixing up arithmetic and geometric** formulas -- arithmetic has $d$Geometric has $r$. Remember:
+1. **Mixing up arithmetic and geometric** formulas -- arithmetic has $d$ Geometric has $r$. Remember:
    arithmetic adds, geometric multiplies.
-2. **Sum to infinity** only converges when $|r| \lt 1$. If $|r| \ge 1$The sum diverges.
+2. **Sum to infinity** only converges when $|r| \lt 1$. If $|r| \ge 1$ The sum diverges.
 3. **Financial mathematics** -- ensure the rate and time period match (e.g., annual rate with annual
    compounding, or monthly rate with monthly compounding).
 4. **Limits** -- always divide by the highest power of $n$ in both numerator and denominator.
-5. **Sigma notation** -- be careful with the lower and upper limits. $\sum_{r=1}^{n} 1 = n$Not $1$.
+5. **Sigma notation** -- be careful with the lower and upper limits. $\sum_{r=1}^{n} 1 = n$ Not $1$.
 6. **Set notation** -- do not confuse $\subset$ (subset) with $\in$ (element of).
 7. **Proof by contradiction** -- always state the assumption, derive a contradiction, and state what
    this proves.
@@ -714,7 +714,7 @@ See the examples integrated throughout the sections above.
 7. Prove that there are infinitely many prime numbers (Euclid's proof).
 8. EUR 10000 is invested at $r\%$ per annum compounded annually. After 10 years it is worth
     EUR 18000. Find $r$.
-9. The sum of the first $n$ terms of an arithmetic sequence is $S_n = 3n^2 + n$. Find the $n$Th
+9. The sum of the first $n$ terms of an arithmetic sequence is $S_n = 3n^2 + n$. Find the $n$ Th
     term $T_n$ and the common difference.
 10. Prove that $\frac{1}{\sqrt{2}}$ is irrational.
 
@@ -722,7 +722,7 @@ See the examples integrated throughout the sections above.
 
 #### Sum of an Arithmetic Series from $S_n$
 
-Given the sum formula $S_n = \frac{n}{2}[2a + (n-1)d]$We can find the $n$Th term from the sum:
+Given the sum formula $S_n = \frac{n}{2}[2a + (n-1)d]$ We can find the $n$ Th term from the sum:
 
 $$
 T_n = S_n - S_{n-1} = \frac{n}{2}[2a + (n-1)d] - \frac{n-1}{2}[2a + (n-2)d]
@@ -736,7 +736,7 @@ $$
 = \frac{1}{2}\left[2a + (n-1)d(2)\right] = a + (n-1)d
 $$
 
-This confirms that the $n$Th term can always be recovered from the sum.
+This confirms that the $n$ Th term can always be recovered from the sum.
 
 #### Geometric Series Derivation (Alternative)
 

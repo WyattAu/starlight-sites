@@ -42,7 +42,7 @@ Let $R$ be a relation schema.
 - **Primary key:** One of the candidate keys, chosen by the designer.
 - **Foreign key:** An attribute (or set) $FK$ in relation $R_1$ that references the primary key $PK$
   of relation $R_2$. Enforces referential integrity: every value of $FK$ must appear as a value of
-  $PK$ in $R_2$Or be `NULL`.
+  $PK$ in $R_2$ Or be `NULL`.
 
 **Example.** `Student(ID, Name, Email)`. `ID` is a candidate key (unique). If `Email` is also
 unique, It is another candidate key. One is chosen as the primary key.
@@ -87,10 +87,10 @@ $$
 **Equi-join** $R \bowtie_{R.A = S.B} S$: A theta join where $\theta$ is an equality on specific
 Attributes. Keeps both join columns.
 
-**Left outer join** $R \bowtie_{\mathrm{left} S}$: All tuples from $R$Matched with $S$ where
+**Left outer join** $R \bowtie_{\mathrm{left} S}$: All tuples from $R$ Matched with $S$ where
 possible; `NULL`-padded otherwise.
 
-**Right outer join** $R \bowtie_{\mathrm{right} S}$: All tuples from $S$Matched with $R$.
+**Right outer join** $R \bowtie_{\mathrm{right} S}$: All tuples from $S$ Matched with $R$.
 
 **Full outer join** $R \bowtie_{\mathrm{full} S}$: All tuples from both $R$ and $S$.
 
@@ -203,7 +203,7 @@ $$
 $$
 
 **Safety.** A calculus expression is **safe** if it yields a finite relation. The expression
-$\\{t \mid \lnot(t \in R)\\}$ is unsafe (it includes every tuple not in $R$An infinite set). We
+$\\{t \mid \lnot(t \in R)\\}$ is unsafe (it includes every tuple not in $R$ An infinite set). We
 Restrict variables to domains of the relations appearing in the query.
 
 **Theorem 2.2 (Codd).** Relational algebra and relational calculus (both tuple and domain) are
@@ -251,11 +251,11 @@ _Proof._ Immediate from the commutativity of logical conjunction
 **Rule 3 (Selection pushdown through cross product).** If $\theta$ involves only attributes of $R$
 Then $\sigma_{\theta}(R \times S) \equiv \sigma_{\theta}(R) \times S$.
 
-_Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$The condition $\theta$ depends only on
+_Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$ The condition $\theta$ depends only on
 $r$. Filtering $(r, s)$ by $\theta$ on $R \times S$ is equivalent to first filtering $R$ by $\theta$
 And then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
 
-**Rule 4 (Selection pushdown through join).** If $\theta$ involves only attributes of $R$Then
+**Rule 4 (Selection pushdown through join).** If $\theta$ involves only attributes of $R$ Then
 $\sigma_{\theta}(R \bowtie S) \equiv \sigma_{\theta}(R) \bowtie S$.
 
 _Proof._ The join $R \bowtie S$ combines matching pairs from $R$ and $S$. Applying $\sigma_{\theta}$

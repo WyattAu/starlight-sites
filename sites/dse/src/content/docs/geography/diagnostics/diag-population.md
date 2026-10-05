@@ -132,7 +132,7 @@ natural increase and rapid population growth. As these countries develop further
 female education, industrialisation), birth rates gradually decline, moving them towards Stage 3 and
 eventually Stage 4.
 
-(b) Two social consequences of China"s One-Child Policy:
+(b) Two social consequences of China's One-Child Policy:
 
 1. **Gender imbalance**: A traditional preference for sons led to selective abortion, female
    infanticide, and abandonment of female babies. This created a significantly skewed sex ratio,

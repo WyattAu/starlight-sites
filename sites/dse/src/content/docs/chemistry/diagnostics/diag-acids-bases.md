@@ -92,7 +92,7 @@ $$
 (c) The pH change: $3.37 - 2.87 = 0.50$.
 
 The claim is **incorrect** for weak acids. Diluting by a factor of 10 increases the pH by **less
-than 1**. This is because dilution shifts the equilibrium to the right (Le Chatelier"s principle),
+than 1**. This is because dilution shifts the equilibrium to the right (Le Chatelier's principle),
 causing a greater fraction of the acid to dissociate. The $[H^{+}]$ does not decrease by a full
 factor of 10.
 
@@ -207,7 +207,7 @@ $$
 
 (c) The buffer contains a weak acid ($CH_{3}COOH$) and its conjugate base ($CH_{3}COO^{-}$). When a
 strong acid ($H^{+}$) is added, the $H^{+}$ ions react with $CH_{3}COO^{-}$ to form
-$CH_{3}COOH$Consuming most of the added $H^{+}$ and preventing a significant drop in pH.
+$CH_{3}COOH$ Consuming most of the added $H^{+}$ and preventing a significant drop in pH.
 
 ---
 
@@ -250,7 +250,7 @@ Explain. [1 mark]
 
 $NH_{4}Cl$ dissociates completely in water: $NH_{4}Cl \rightarrow NH_{4}^{+} + Cl^{-}$.
 
-The ammonium ion ($NH_{4}^{+}$) is the conjugate acid of the weak base ammonia ($NH_{3}$). It
+The ammonium ion ($NH_{4}^{+}$) is the conjugate acid of the weak base ammonia ($ NH_{3}$). It
 undergoes **hydrolysis**:
 
 $$
@@ -532,7 +532,7 @@ To prepare 250 cm$^{3}$ (0.250 dm$^{3}$): choose $[CH_{3}COOH] = 0.20$ mol/dm$^{
 mol/dm$^{3}$ stock by dilution).
 
 Volume of stock needed: $V = \frac{0.20 \times 250}{0.50} = 100$ cm$^{3}$ of 0.50 mol/dm$^{3}$
-$CH_{3}COOH$Diluted to 250 cm$^{3}$.
+$CH_{3}COOH$ Diluted to 250 cm$^{3}$.
 
 $[CH_{3}COO^{-}] = 1.82 \times 0.20 = 0.364$ mol/dm$^{3}$
 

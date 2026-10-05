@@ -56,14 +56,14 @@ Actually true. Common values are $\alpha = 0.05$ (5%), $\alpha = 0.01$ (1%), and
 1. Assume $H_0$ is true.
 2. Calculate the probability of obtaining a test statistic at least as extreme as the observed
    value, assuming $H_0$.
-3. If this probability (the **$p$-value**) is less than $\alpha$Reject $H_0$. Otherwise, do not
+3. If this probability (the **$p$-value**) is less than $\alpha$ Reject $H_0$. Otherwise, do not
    reject $H_0$.
 
 ### 1.5 Critical value approach
 
 Alternatively, find the **critical value** $c$ such that
 $P(\mathrm{test\ statistic} \geq c \mid H_0) = \alpha$ (for an upper-tailed test). If the observed
-test statistic exceeds $c$Reject $H_0$.
+test statistic exceeds $c$ Reject $H_0$.
 
 ### 1.6 Interpreting the conclusion
 
@@ -111,7 +111,7 @@ The power depends on:
 
 - The significance level $\alpha$ (increasing $\alpha$ increases power).
 - The sample size $n$ (increasing $n$ increases power).
-- The true value of the parameter (the further from $H_0$The greater the power).
+- The true value of the parameter (the further from $H_0$ The greater the power).
 
 ### 2.3 Worked example
 
@@ -133,7 +133,7 @@ Critical region: $\bar{X} \lt 49.755$ or $\bar{X} \gt 50.245$.
 
 Test statistic: $z = \dfrac{50.18 - 50}{0.125} = 1.44$.
 
-Since $1.44 \lt 1.96$We do **not** reject $H_0$. There is insufficient evidence at the 5% level To
+Since $1.44 \lt 1.96$ We do **not** reject $H_0$. There is insufficient evidence at the 5% level To
 conclude that the mean length has changed.
 
 ### 2.4 Finding the probability of Type II error
@@ -199,7 +199,7 @@ $$
 H_0: p = p_0, \qquad H_1: p \neq p_0\ (\mathrm{or}\ p \gt p_0\ \mathrm{or}\ p \lt p_0)
 $$
 
-Under $H_0$If $X$ is the number of successes in $n$ trials, then $X \sim B(n, p_0)$.
+Under $H_0$ If $X$ is the number of successes in $n$ trials, then $X \sim B(n, p_0)$.
 
 ### 4.2 Worked example: binomial test
 
@@ -273,7 +273,7 @@ $P(X \geq 6) = 1 - P(X \leq 5) = 1 - 0.9835 = 0.0165 \leq 0.05$
 
 Critical region: $X \geq 6$. Actual significance level: $1.65\%$.
 
-Since $X = 7 \geq 6$We **reject** $H_0$. There is sufficient evidence that the call rate has
+Since $X = 7 \geq 6$ We **reject** $H_0$. There is sufficient evidence that the call rate has
 Increased.
 
 ### 5.4 Worked example: normal critical region
@@ -292,7 +292,7 @@ $c = 250 - 2.326\sqrt{0.9} = 250 - 2.208 = 247.79$
 
 Critical region: $\bar{X} \lt 247.79$.
 
-Since $\bar{x} = 248 \gt 247.79$We do **not** reject $H_0$ at the 1% level.
+Since $\bar{x} = 248 \gt 247.79$ We do **not** reject $H_0$ at the 1% level.
 
 <hr />
 
@@ -340,7 +340,7 @@ $z = \dfrac{490 - 500}{3} = -3.33$.
 
 Critical values: $\pm 1.96$.
 
-Since $|-3.33| = 3.33 \gt 1.96$Reject $H_0$. Sufficient evidence the mean lifetime differs from 500
+Since $|-3.33| = 3.33 \gt 1.96$ Reject $H_0$. Sufficient evidence the mean lifetime differs from 500
 hours.
 
 </details>
@@ -362,7 +362,7 @@ $P(X \geq 7) = 1 - P(X \leq 6) \approx 1 - 0.9665 = 0.0335 \leq 0.05$.
 
 $P(X \geq 6) = 1 - P(X \leq 5) \approx 1 - 0.9161 = 0.0839 \gt 0.05$.
 
-Critical region: $X \geq 7$. Since $X = 8 \geq 7$Reject $H_0$. Sufficient evidence the rate Has
+Critical region: $X \geq 7$. Since $X = 8 \geq 7$ Reject $H_0$. Sufficient evidence the rate Has
 increased.
 
 </details>

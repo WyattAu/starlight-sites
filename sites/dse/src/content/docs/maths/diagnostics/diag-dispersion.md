@@ -68,7 +68,7 @@ Note: variance has units cm$^2$While standard deviation has units cm.
 **Question:**
 
 A set of data has mean $m$ and standard deviation $s$. If each value is transformed by
-$y = 3x - 5$Find the new mean and new standard deviation in terms of $m$ and $s$.
+$y = 3x - 5$ Find the new mean and new standard deviation in terms of $m$ and $s$.
 
 **Solution:**
 
@@ -140,7 +140,7 @@ Estimated SD $= \sqrt{\dfrac{821}{9}} = \dfrac{\sqrt{821}}{3} \approx 9.56$.
 
 **Question:**
 
-A box plot has minimum $= 10$$Q_1 = 25$Median $= 35$$Q_3 = 50$Maximum $= 80$. Find the interquartile
+A box plot has minimum $= 10$$Q_1 = 25$ Median $= 35$$Q_3 = 50$ Maximum $= 80$. Find the interquartile
 range and identify any outliers.
 
 **Solution:**
@@ -151,7 +151,7 @@ Lower fence: $Q_1 - 1.5 \times \text{IQR} = 25 - 37.5 = -12.5$.
 
 Upper fence: $Q_3 + 1.5 \times \text{IQR} = 50 + 37.5 = 87.5$.
 
-Since all values ($10$ to $80$) fall within $[-12.5,\; 87.5]$There are no outliers.
+Since all values ($10$ to $80$) fall within $[-12.5,\; 87.5]$ There are no outliers.
 
 ---
 
@@ -246,7 +246,7 @@ $$
 
 **Question:**
 
-A set of 50 numbers has mean $20$ and standard deviation $4$. Using Chebyshev"s inequality (or
+A set of 50 numbers has mean $20$ and standard deviation $4$. Using Chebyshev's inequality (or
 empirical reasoning), at least what percentage of the data lies within 2 standard deviations of the
 mean?
 
@@ -391,7 +391,7 @@ asked for a decimal.
 
 **Question:**
 
-Using the coding $y = \dfrac{x - 25}{5}$The coded data has mean $\bar{y} = 1.2$ and variance
+Using the coding $y = \dfrac{x - 25}{5}$ The coded data has mean $\bar{y} = 1.2$ and variance
 $s_y^2 = 4.8$. Find the mean and standard deviation of the original data.
 
 **Solution:**
@@ -472,7 +472,7 @@ $$
 \text{CV}_B = \frac{15}{68} \times 100\% \approx 22.1\%
 $$
 
-Since $\text{CV}_A < \text{CV}_B$Class A has more consistent performance.
+Since $\text{CV}_A < \text{CV}_B$ Class A has more consistent performance.
 
 Alternatively, comparing standard deviations directly: Class A has $\sigma = 8$ and Class B has
 $\sigma = 15$. The smaller standard deviation of Class A indicates less variability, i.e. More
@@ -580,7 +580,7 @@ $k = \dfrac{34}{3}$.
 
 **Question:**
 
-For grouped data with class width $h$State Sheppard's correction for the variance and explain when
+For grouped data with class width $h$ State Sheppard's correction for the variance and explain when
 it is appropriate to use it.
 
 **Solution:**
@@ -635,14 +635,14 @@ flowchart TD
 ## Common Pitfalls
 
 1. **Confusing population variance with sample variance.** The population variance formula divides
-   by $n$While the sample variance divides by $n - 1$ (Bessel's correction). In DSE Maths, unless
+   by $n$ While the sample variance divides by $n - 1$ (Bessel's correction). In DSE Maths, unless
    specified otherwise, use the population formula (divide by $n$).
 
 2. **Forgetting that variance has squared units.** If data is in centimetres, the variance is in
    cm$^2$ and the standard deviation is in cm. Do not mix up units when writing conclusions.
 
 3. **Incorrectly applying coding formulas.** For the transformation $y = ax + b$: new mean
-   $= a\bar{x} + b$New SD $= |a| \cdot s$. The additive constant $b$ does NOT affect the standard
+   $= a\bar{x} + b$ New SD $= |a| \cdot s$. The additive constant $b$ does NOT affect the standard
    deviation. A common error is writing new SD $= as + b$.
 
 4. **Using the wrong formula for combined variance.** When combining two data sets, do not average
@@ -790,10 +790,10 @@ $$
 
 ### DSE-4
 
-The box-and-whisker diagram below summarises the daily temperatures (in $°$C) recorded in a city for
+The box-and-whisker diagram below summarises the daily temperatures (in $°$ C) recorded in a city for
 30 days:
 
-Minimum $= 12$$Q_1 = 18$Median $= 22$$Q_3 = 28$Maximum $= 35$.
+Minimum $= 12$$Q_1 = 18$ Median $= 22$$Q_3 = 28$ Maximum $= 35$.
 
 (a) Find the interquartile range. (1 mark) (b) Determine the lower and upper fences and identify any
 outliers. (3 marks) (c) What percentage of the data lies between $18$ and $28$? (1 mark)
@@ -806,7 +806,7 @@ outliers. (3 marks) (c) What percentage of the data lies between $18$ and $28$? 
 
 Upper fence $= Q_3 + 1.5 \times \text{IQR} = 28 + 15 = 43$.
 
-Since all values ($12$ to $35$) lie within $[3, 43]$There are no outliers.
+Since all values ($12$ to $35$) lie within $[3, 43]$ There are no outliers.
 
 (c) By definition, $50\%$ of the data lies between $Q_1$ and $Q_3$.
 

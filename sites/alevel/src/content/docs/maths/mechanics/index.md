@@ -46,7 +46,7 @@ sources:
 ## Mechanics
 
 Mechanics applies mathematical models to describe and predict the motion of objects under the
-influence of forces. A-Level Mechanics covers kinematics, Newton"s laws, moments, energy, and
+influence of forces. A-Level Mechanics covers kinematics, Newton's laws, moments, energy, and
 momentum, the foundations of classical physics that also underpin engineering and applied
 mathematics.
 

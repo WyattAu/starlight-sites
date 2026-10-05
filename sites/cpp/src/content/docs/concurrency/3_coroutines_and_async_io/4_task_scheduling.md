@@ -83,7 +83,7 @@ Threads, which cooperative scheduling does not create.
 
 | Property            | Thread-Based                | Cooperative Coroutines        |
 | :------------------ | :-------------------------- | :---------------------------- |
-| Context switch cost | ~1-10 $\mu$S (kernel)       | ~10-100 ns (user-space)       |
+| Context switch cost | ~1-10 $\mu$ S (kernel)       | ~10-100 ns (user-space)       |
 | Stack size per task | ~1-8 MB                     | ~100-1000 bytes (frame)       |
 | Data race risk      | High (preemptive)           | Low (cooperative)             |
 | Deadlock risk       | Possible                    | Possible (less likely)        |

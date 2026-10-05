@@ -217,10 +217,10 @@ $$
 H(J) = J\omega
 $$
 
-The angle variable evolves as $\dot{\theta} = \partial H/\partial J = \omega$Giving
+The angle variable evolves as $\dot{\theta} = \partial H/\partial J = \omega$ Giving
 $\theta(t) = \omega t + \theta_0$.
 
-The frequency is $\omega = \partial H/\partial J = \text{const}$Independent of $J$ (harmonic
+The frequency is $\omega = \partial H/\partial J = \text{const}$ Independent of $J$ (harmonic
 oscillator has no frequency shift with amplitude --- a special property).
 
 This result shows why the harmonic oscillator is exactly solvable in action-angle variables: the

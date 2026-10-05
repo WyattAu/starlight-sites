@@ -90,7 +90,7 @@ $$
 
 ### 12.3 Exact Solution: 2D Ising Model (Onsager, 1944)
 
-Onsager"s exact solution for the square lattice gives:
+Onsager's exact solution for the square lattice gives:
 
 $$
 T_c = \frac{2J}{k_B \ln(1 + \sqrt{2})} \approx \frac{2.269J}{k_B}
@@ -130,7 +130,7 @@ with the error decreasing as $z$ (dimensionality) increases.
 <details>
 <summary>Worked Example 12.2: 1D Ising Free Energy</summary>
 
-For the 1D Ising model with $h = 0$The transfer matrix eigenvalues are:
+For the 1D Ising model with $h = 0$ The transfer matrix eigenvalues are:
 
 $$
 \lambda_\pm = e^{\beta J} \pm e^{-\beta J}

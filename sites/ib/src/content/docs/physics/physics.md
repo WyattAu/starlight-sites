@@ -69,7 +69,7 @@ Depends.
 
 - **A.1 Kinematics:** Describing motion using displacement, velocity, and acceleration; the SUVAT
   equations for uniformly accelerated motion; projectile motion.
-- **A.2 Forces and Momentum:** Newton"s laws of motion; free-body diagrams; linear momentum and
+- **A.2 Forces and Momentum:** Newton's laws of motion; free-body diagrams; linear momentum and
   impulse; conservation of momentum; elastic and inelastic collisions; centripetal acceleration and
   force.
 - **A.3 Work, Energy and Power:** Work done by a force; kinetic and potential energy; conservation
@@ -403,7 +403,7 @@ maximum to The third bright fringe.
 - $s = \dfrac{(590 \times 10^{-9})(1.20)}{0.050 \times 10^{-3}} = \dfrac{7.08 \times 10^{-7}}{5.0 \times 10^{-5}} = 0.01416$
   m $\approx 14.2$ mm
 - **(b) Distance to the third bright fringe:**
-- The $n$Th bright fringe is at $y_n = ns$ So $y_3 = 3 \times 14.2 = 42.6$ mm
+- The $n$ Th bright fringe is at $y_n = ns$ So $y_3 = 3 \times 14.2 = 42.6$ mm
 
 </details>
 
@@ -426,7 +426,7 @@ A light ray travels from glass ($n = 1.50$) into water ($n = 1.33$). (a) Find th
 - $\sin \theta_2 = \dfrac{1.229}{1.33} = 0.924$
 - $\theta_2 = \arcsin(0.924) = 67.5$ degrees
 
-Since $\theta_i \lt \theta_c$The light refracts into the water rather than undergoing TIR.
+Since $\theta_i \lt \theta_c$ The light refracts into the water rather than undergoing TIR.
 
 </details>
 
@@ -626,7 +626,7 @@ Calculate the magnitude of the magnetic force and the radius of the circular pat
 - **Radius of circular path:** Equate magnetic force to centripetal force:
 - $qvB = \dfrac{mv^2}{r} \implies r = \dfrac{mv}{qB}$
 - $r = \dfrac{(9.11 \times 10^{-31})(2.0 \times 10^6)}{(1.60 \times 10^{-19})(0.50)}$
-- $r = \dfrac{1.82 \times 10^{-24}}{8.0 \times 10^{-20}} = 2.28 \times 10^{-5}$ m $= 22.8$ $\mu$M
+- $r = \dfrac{1.82 \times 10^{-24}}{8.0 \times 10^{-20}} = 2.28 \times 10^{-5}$ m $= 22.8$ $\mu$ M
 
 </details>
 
@@ -1288,7 +1288,7 @@ If you get this wrong, revise: Internal resistance and terminal PD (Theme B.4).
 
 ### Fields
 
-1. Two point charges, $q_1 = +3.0$ $\mu$C and $q_2 = -5.0$ $\mu$C, are placed $0.20$ m apart in
+1. Two point charges, $q_1 = +3.0$ $\mu$ C and $q_2 = -5.0$ $\mu$ C, are placed $0.20$ m apart in
    vacuum. Calculate the force between them and state its nature.
 
 <details>
@@ -1465,7 +1465,7 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
 - **Snell's law and TIR:** Total internal reflection can only occur when light travels from a
   higher-index medium to a lower-index medium. Always check this condition first.
 - **Diffraction grating maximum order:** The maximum number of orders is limited by
-  $\sin \theta \leq 1$Giving $n_{\max} = d/\lambda$. If this is not an integer, round down.
+  $\sin \theta \leq 1$ Giving $n_{\max} = d/\lambda$. If this is not an integer, round down.
 - **Single-slit vs double-slit:** Single-slit diffraction produces a broad central maximum with
   subsidiary maxima; double-slit interference produces equally spaced fringes modulated by the
   single-slit envelope. Do not confuse the two patterns.
@@ -1488,14 +1488,14 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
 
 ### Nuclear and Quantum Physics (Theme E)
 
-- **Photoelectric effect threshold:** No electrons are emitted if $hf \lt \phi$Regardless of
+- **Photoelectric effect threshold:** No electrons are emitted if $hf \lt \phi$ Regardless of
   intensity. Increasing intensity only increases the number of photons, not their energy.
 - **Mass defect sign:** The mass defect $\Delta m$ is always positive (mass of nucleus is always
   less than the sum of nucleon masses). Do not report a negative mass defect.
 - **Binding energy per nucleon curve:** The most stable nuclei (like iron-56) are near the peak.
   Fusion is energetically favourable for light nuclei; fission is favourable for heavy nuclei.
 - **Half-life calculations:** Remember that after $n$ half-lives, the fraction remaining is
-  $(1/2)^n$Not $1/(2n)$. This is a very common arithmetic error.
+  $(1/2)^n$ Not $1/(2n)$. This is a very common arithmetic error.
 - **de Broglie wavelength for massive particles:** The de Broglie equation applies to all matter,
   not just electrons. However, the wavelength is only significant for particles with very small mass
   (electrons, neutrons) -- for macroscopic objects it is negligibly small.

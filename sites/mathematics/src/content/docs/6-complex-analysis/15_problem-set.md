@@ -142,7 +142,7 @@ Evaluate $\oint_\gamma \frac{z + 1}{z^2 - z}\, dz$ where $\gamma$ is $|z| = 2$.
 <details>
 <summary>Solution</summary>
 
-$\frac{z + 1}{z^2 - z} = \frac{z + 1}{z(z - 1)}$. Simple poles at $z = 0$ and $z = 1$Both inside
+$\frac{z + 1}{z^2 - z} = \frac{z + 1}{z(z - 1)}$. Simple poles at $z = 0$ and $z = 1$ Both inside
 $|z| = 2$.
 
 At $z = 0$: $\mathrm{Res} = \lim_{z \to 0} \frac{z + 1}{z - 1} = -1$. At $z = 1$:
@@ -169,7 +169,7 @@ $\mathrm{Res} = \frac{e^{1/(-i)}}{-2i} = \frac{e^{i}}{-2i}$.
 
 At $z = 0$: find the coefficient of $1/z$ in $\frac{e^{1/z}}{z^2 + 1}$.
 $\frac{1}{z^2 + 1} = 1 - z^2 + z^4 - \cdots$ near $z = 0$. $e^{1/z} = 1 + 1/z + 1/(2z^2) + \cdots$.
-The $1/z$ coefficient in the product: from $1 \cdot 1/z = 1/z$Giving residue $1$.
+The $1/z$ coefficient in the product: from $1 \cdot 1/z = 1/z$ Giving residue $1$.
 
 _If you get this wrong, revise:_ Sections 8.1 and 8.4 (Singularities and Residues).
 
@@ -267,7 +267,7 @@ Using Rouché's theorem, determine the number of roots of $z^5 - 5z + 1 = 0$ in 
 On $|z| = 1$: $|-5z| = 5 \gt |z^5 + 1| \leq 2$.
 
 By Rouché with $f(z) = -5z$ and $g(z) = z^5 + 1$: $z^5 - 5z + 1$ has the same number of zeros In
-$|z| \lt 1$ as $-5z$Which has exactly one zero (at $z = 0$).
+$|z| \lt 1$ as $-5z$ Which has exactly one zero (at $z = 0$).
 
 So exactly one root in $|z| \lt 1$.
 
@@ -291,7 +291,7 @@ $T(z) = -i \cdot \frac{z - 1}{z + 1}$.
 
 Verify: $T(1) = 0$ $\checkmark$, $T(i) = -i \cdot \frac{i-1}{i+1} = -i \cdot (-i) = -1$.
 
-That gives $-1$Not $1$. Let me recompute.
+That gives $-1$ Not $1$. Let me recompute.
 
 $T(z) = \frac{(z - z_1)(z_2 - z_3)}{(z - z_3)(z_2 - z_1)}$ with $z_1 = 1$, $z_2 = i$, $z_3 = -1$.
 
@@ -314,7 +314,7 @@ Evaluate $\int_\gamma \frac{z^3}{z^2 + 1}\, dz$ where $\gamma$ is $|z| = 2$.
 <details>
 <summary>Solution</summary>
 
-$\frac{z^3}{z^2 + 1}$ has simple poles at $z = \pm i$Both inside $|z| = 2$.
+$\frac{z^3}{z^2 + 1}$ has simple poles at $z = \pm i$ Both inside $|z| = 2$.
 
 At $z = i$: $\mathrm{Res} = \frac{i^3}{2i} = \frac{-i}{2i} = -\frac{1}{2}$. At $z = -i$:
 $\mathrm{Res} = \frac{(-i)^3}{-2i} = \frac{i}{-2i} = -\frac{1}{2}$.

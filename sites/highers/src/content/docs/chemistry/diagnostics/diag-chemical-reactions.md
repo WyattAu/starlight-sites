@@ -77,7 +77,7 @@ are stronger than London dispersion forces but weaker than hydrogen bonds.
 }
 </script>
 
-### UT-2: Enthalpy Changes and Hess"s Law
+### UT-2: Enthalpy Changes and Hess's Law
 
 **Question:**
 

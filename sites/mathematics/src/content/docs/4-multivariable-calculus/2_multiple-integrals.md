@@ -26,20 +26,20 @@ $$
 \iint_R f(x,y)\, dA = \lim_{\lVert P \rVert \to 0} \sum_{i,j} f(x_{ij}^*, y_{ij}^*) \Delta A_{ij}
 $$
 
-**Theorem 2.1 (Fubini"s Theorem).** If $f$ is continuous on $R = [a,b] \times [c,d]$ Then
+**Theorem 2.1 (Fubini's Theorem).** If $f$ is continuous on $R = [a,b] \times [c,d]$ Then
 
 $$
 \iint_R f(x,y)\, dA = \int_a^b \left(\int_c^d f(x,y)\, dy\right) dx = \int_c^d \left(\int_a^b f(x,y)\, dx\right) dy
 $$
 
-_Proof (sketch)._ For a continuous function $f$ on the compact rectangle $R$Define
+_Proof (sketch)._ For a continuous function $f$ on the compact rectangle $R$ Define
 
 $$
 F(x) = \int_c^d f(x,y)\, dy
 $$
 
 Since $f$ is continuous, $F$ is continuous on $[a,b]$. For each partition
-$P = \\{(x_0, \ldots, x_m)\\}$ of $[a,b]$Define Riemann sums for the outer integral:
+$P = \\{(x_0, \ldots, x_m)\\}$ of $[a,b]$ Define Riemann sums for the outer integral:
 
 $$
 S(P) = \sum_{i=1}^m F(x_i^*)\, \Delta x_i = \sum_{i=1}^m \int_c^d f(x_i^*, y)\, dy\, \Delta x_i
@@ -71,7 +71,7 @@ $y = x + 2$.
 <details>
 <summary>Solution</summary>
 
-The curves intersect when $x^2 = x + 2$I.e., $x^2 - x - 2 = 0$ So $(x-2)(x+1) = 0$Giving $x = -1$ and
+The curves intersect when $x^2 = x + 2$ I.e., $x^2 - x - 2 = 0$ So $(x-2)(x+1) = 0$ Giving $x = -1$ and
 $x = 2$. As a Type I region, $D = \\{(x,y) : -1 \leq x \leq 2,\, x^2 \leq y \leq x+2\\}$.
 
 $$
@@ -129,7 +129,7 @@ simplest approach is to split $D$ at $y = 4/3$.
 For $0 \leq y \leq 1$: $y/2 \leq x \leq y$ (between $y = x$ and $y = 2x$ But only up to $x + y = 2$).
 Actually $y = 2x$ gives $x = y/2$ And $y = x$ gives $x = y$. But $x + y = 2$ gives $x = 2 - y$. For
 $y \leq 1$: both $y \leq 2 - y$ (since $y \leq 1$) and $y/2 \leq y$ So the right boundary is $y$. But
-we also need $x + y \leq 2$I.e., $x \leq 2 - y$. For $y \leq 1$: $y \leq 2 - y$ So the constraint
+we also need $x + y \leq 2$ I.e., $x \leq 2 - y$. For $y \leq 1$: $y \leq 2 - y$ So the constraint
 $x \leq y$ is tighter.
 
 For $0 \leq y \leq 1$: $y/2 \leq x \leq y$.
@@ -198,7 +198,7 @@ $$
 \mathbf{b} = T(x, y + \Delta y) - T(x, y) \approx \left(\frac{\partial u}{\partial y}\Delta y,\, \frac{\partial v}{\partial y}\Delta y\right)
 $$
 
-The area of this parallelogram is $\lvert \mathbf{a} \times \mathbf{b} \rvert$Which equals
+The area of this parallelogram is $\lvert \mathbf{a} \times \mathbf{b} \rvert$ Which equals
 
 $$
 \left\lvert \frac{\partial u}{\partial x}\frac{\partial v}{\partial y} - \frac{\partial u}{\partial y}\frac{\partial v}{\partial x} \right\rvert \Delta x\, \Delta y = \lvert J_T \rvert\, \Delta x\, \Delta y
@@ -260,7 +260,7 @@ $x^2 + y^2 + z^2 = 2$ and below by the paraboloid $z = x^2 + y^2$.
 <summary>Solution</summary>
 
 The surfaces intersect when $x^2 + y^2 + (x^2 + y^2)^2 = 2$. Let $r^2 = x^2 + y^2$. Then
-$r^2 + r^4 = 2$I.e., $(r^2 + 2)(r^2 - 1) = 0$ So $r = 1$ (positive root). Use Cylindrical
+$r^2 + r^4 = 2$ I.e., $(r^2 + 2)(r^2 - 1) = 0$ So $r = 1$ (positive root). Use Cylindrical
 coordinates. The region $E'$ is
 
 $$
@@ -350,7 +350,7 @@ $\int_0^1 \int_{x^2}^1 x e^{y^2}\, dy\, dx$.
 <details>
 <summary>Solution</summary>
 
-The region is $0 \leq x \leq 1$, $x^2 \leq y \leq 1$Which is the same as $0 \leq y \leq 1$
+The region is $0 \leq x \leq 1$, $x^2 \leq y \leq 1$ Which is the same as $0 \leq y \leq 1$
 $0 \leq x \leq \sqrt{y}$.
 
 $$
@@ -384,7 +384,7 @@ The key to setting up multiple integrals is describing the region correctly. Typ
 
 :::caution
 - **Order of integration limits.** When setting up
-  $\int_a^b \int_{g_1(x)}^{g_2(x)} f\, dy\, dx$Verify that $g_1(x) \leq g_2(x)$ for all
+  $\int_a^b \int_{g_1(x)}^{g_2(x)} f\, dy\, dx$ Verify that $g_1(x) \leq g_2(x)$ for all
   $x \in [a, b]$. If the region is described as "between two curves," determine which curve is above
   the other.
 - **Forgetting the Jacobian.** In a change of variables, the Jacobian determinant $\lvert J \rvert$

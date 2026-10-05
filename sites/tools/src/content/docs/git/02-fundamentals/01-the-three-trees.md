@@ -32,7 +32,7 @@ overloaded in Git terminology, see [Git Objects](/git/02-fundamentals/02-git-obj
    graph of objects.
 
 Almost every Git command is a transformation between these three trees. Understanding this model
-makes Git"s behavior predictable, even for commands that appear confusing (like `git checkout`Which
+makes Git's behavior predictable, even for commands that appear confusing (like `git checkout`Which
 can mean different things depending on context).
 
 ```mermaid

@@ -20,7 +20,7 @@ description: 'A sequence in to a limit if for Every There exists such that Compr
 ### 2.1 Convergence
 
 A sequence $(a_n)_{n=1}^{\infty}$ in $\mathbb{R}$ **converges** to a limit $L \in \mathbb{R}$ if for
-Every $\varepsilon > 0$There exists $N \in \mathbb{N}$ such that
+Every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
 
 $$
 |a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
@@ -43,7 +43,7 @@ A contradiction. $\blacksquare$
 
 **Proposition 2.2.** Every convergent sequence is bounded.
 
-_Proof._ Let $a_n \to L$. Taking $\varepsilon = 1$There exists $N$ such that $|a_n - L| \lt 1$ for
+_Proof._ Let $a_n \to L$. Taking $\varepsilon = 1$ There exists $N$ such that $|a_n - L| \lt 1$ for
 All $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
 $M = \max\{|a_1|, |a_2|, \ldots, |a_{N-1}|, |L| + 1\}$. Then $|a_n| \leq M$ for all $n$.
 $\blacksquare$
@@ -73,7 +73,7 @@ $|a_n - s| \lt \varepsilon$ for all $n \geq N$. $\blacksquare$
 
 ### 2.3 Cauchy Sequences
 
-A sequence $(a_n)$ is a **Cauchy sequence** if for every $\varepsilon > 0$There exists
+A sequence $(a_n)$ is a **Cauchy sequence** if for every $\varepsilon > 0$ There exists
 $N \in
 \mathbb{N}$ such that
 
@@ -83,7 +83,7 @@ $$
 
 **Theorem 2.4.** Every convergent sequence is Cauchy.
 
-_Proof._ Let $a_n \to L$. Given $\varepsilon > 0$Choose $N$ such that $|a_n - L| \lt \varepsilon/2$
+_Proof._ Let $a_n \to L$. Given $\varepsilon > 0$ Choose $N$ such that $|a_n - L| \lt \varepsilon/2$
 For all $n \geq N$. Then for $m, n \geq N$:
 $|a_n - a_m| \leq |a_n - L| + |a_m - L| \lt \varepsilon$. $\blacksquare$
 
@@ -94,8 +94,8 @@ _Proof._ Let $(a_n)$ be Cauchy. First, $(a_n)$ is bounded: choose $N$ with $|a_n
 $m, n \geq N$. Then $|a_n| \leq |a_N| + 1$ for $n \geq N$. By the Bolzano-Weierstrass theorem
 (Theorem 2.6 below), $(a_n)$ has a convergent subsequence $(a_{n_k}) \to L$. We show $a_n \to L$.
 
-Given $\varepsilon > 0$Choose $N_1$ so that $|a_n - a_m| \lt \varepsilon/2$ for $m, n \geq N_1$ And
-$K$ so that $|a_{n_k} - L| \lt \varepsilon/2$ for $k \geq K$. For $n \geq N_1$Choose $k \geq K$ with
+Given $\varepsilon > 0$ Choose $N_1$ so that $|a_n - a_m| \lt \varepsilon/2$ for $m, n \geq N_1$ And
+$K$ so that $|a_{n_k} - L| \lt \varepsilon/2$ for $k \geq K$. For $n \geq N_1$ Choose $k \geq K$ with
 $n_k \geq N_1$ (possible since $n_k \to \infty$). Then
 
 $$
@@ -121,7 +121,7 @@ subsequence.
 
 _Proof._ Let $(a_n)$ be bounded, so $a_n \in [A, B]$ for all $n$. Set $I_0 = [A, B]$. Bisect $I_0$
 into $[A, (A+B)/2]$ and $[(A+B)/2, B]$. At least one contains infinitely many terms of $(a_n)$; call
-it $I_1$. Having constructed $I_k = [l_k, r_k]$Bisect it and select $I_{k+1}$ as the half containing
+it $I_1$. Having constructed $I_k = [l_k, r_k]$ Bisect it and select $I_{k+1}$ as the half containing
 Infinitely many terms of $(a_n)$.
 
 This produces a nested sequence of closed intervals
@@ -130,7 +130,7 @@ By the **Nested Interval Property** (which follows From completeness),
 $\bigcap_{k=0}^{\infty} I_k = \{c\}$ for some $c \in [A, B]$.
 
 Construct the subsequence inductively: pick $n_1$ with $a_{n_1} \in I_1$. Having chosen
-$n_1 \lt n_2 \lt \cdots \lt n_{k-1}$Pick $n_k > n_{k-1}$ with $a_{n_k} \in I_k$ (possible since
+$n_1 \lt n_2 \lt \cdots \lt n_{k-1}$ Pick $n_k > n_{k-1}$ with $a_{n_k} \in I_k$ (possible since
 $I_k$ contains infinitely many terms). Then $a_{n_k} \in I_k$ for all $k$ So
 $|a_{n_k} - c| \leq \mathrm{length}(I_k) \to 0$. Hence $a_{n_k} \to c$. $\blacksquare$
 
@@ -151,16 +151,16 @@ _Proof._ For any $n$, $\inf_{k \geq n} a_k \leq a_n \leq \sup_{k \geq n} a_n$. T
 $n$ on the left: $\liminf a_n \leq \sup_{k \geq n} a_k$ for every $n$. Taking infimum over $n$ on
 The right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
 
-**Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$In which case the
+**Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$ In which case the
 Common value equals $\lim a_n$.
 
-_Proof._ If $a_n \to L$ Then for every $\varepsilon > 0$There exists $N$ such that
+_Proof._ If $a_n \to L$ Then for every $\varepsilon > 0$ There exists $N$ such that
 $L - \varepsilon \lt a_n \lt L + \varepsilon$ for $n \geq N$. Hence
 $\sup_{k \geq n} a_k \leq L + \varepsilon$ For $n \geq N$ So $\limsup a_n \leq L + \varepsilon$.
 Since $\varepsilon > 0$ is arbitrary, $\limsup a_n \leq L$. Similarly $\liminf a_n \geq L$. Combined
 with Proposition 2.5, $\liminf a_n = \limsup a_n = L$.
 
-Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$There exists $N_1$
+Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$ There exists $N_1$
 With $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
 $\inf_{k \geq n} a_k > L - \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
 $L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
@@ -169,13 +169,13 @@ $L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
 the smallest.
 
 _Proof._ Let $L^* = \limsup a_n = \inf_n \sup_{k \geq n} a_k$. Define $s_n = \sup_{k \geq n} a_k$.
-Then $(s_n)$ is decreasing and $s_n \to L^*$. For each $n$Choose $k_n \geq n$ with
+Then $(s_n)$ is decreasing and $s_n \to L^*$. For each $n$ Choose $k_n \geq n$ with
 $a_{k_n} > s_n - 1/n$. Then $a_{k_n} \to L^*$ (by squeeze), producing a subsequence converging to
 $L^*$.
 
 If $L > L^*$ were a subsequential limit, choose a subsequence $a_{n_j} \to L$. For large $j$:
 $a_{n_j} > (L + L^*)/2 > L^*$. But $a_{n_j} \leq s_{n_j}$ for all $j$ And $s_{n_j} \to L^*$ So
-$a_{n_j} \leq s_{n_j} \lt (L + L^*)/2$ for large $j$A contradiction. $\blacksquare$
+$a_{n_j} \leq s_{n_j} \lt (L + L^*)/2$ for large $j$ A contradiction. $\blacksquare$
 
 **Proposition 2.8 (Algebra of $\limsup$/$\liminf$).** If $(a_n)$ and $(b_n)$ are bounded sequences:
 
@@ -201,7 +201,7 @@ No subsequence can have a limit greater than $1$ (since $a_n \leq n/(n+1) \lt 1$
 $a_n \lt 0$ for odd $n$). Similarly, no subsequence can have a limit less than $-1$.
 
 Therefore $\limsup_{n \to \infty} a_n = 1$ and $\liminf_{n \to \infty} a_n = -1$. Since
-$\limsup \neq \liminf$The sequence diverges. $\blacksquare$
+$\limsup \neq \liminf$ The sequence diverges. $\blacksquare$
 
 </details>
 

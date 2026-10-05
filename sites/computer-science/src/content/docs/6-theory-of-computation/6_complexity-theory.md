@@ -148,15 +148,15 @@ A language is **NP-hard** if condition (2) holds (it need not be in NP).
 1. $\mathrm{SAT \in \mathrm{NP$: a satisfying assignment is a polynomial-size certificate that can
    be verified in polynomial time.
 
-2. For any $L \in \mathrm{NP$There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
-   some $k$. Given input $w$ of length $n$Construct a Boolean formula $\phi_{N,w}$ that is
+2. For any $L \in \mathrm{NP$ There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
+   some $k$. Given input $w$ of length $n$ Construct a Boolean formula $\phi_{N,w}$ that is
    satisfiable iff $N$ accepts $w$.
 
 The formula encodes the **tableau** of $N$ on $w$: a table of size $n^k \times n^k$ where each cell
 $T[i, j]$ records the symbol at tape cell $j$ after step $i$ of the computation.
 
 **Variables:** For each position $(i, j)$ in the tableau and each symbol $s$ in the combined
-state-tape alphabet $\Gamma" = Q \times \Gamma$A variable $x_{i,j,s}$ indicating that cell $(i, j)$
+state-tape alphabet $\Gamma" = Q \times \Gamma$ A variable $x_{i,j,s}$ indicating that cell $(i, j)$
 contains $s$.
 
 **Constraints:**
@@ -169,7 +169,7 @@ contains $s$.
 - **Acceptance:** Some cell in the last row contains $q_{\mathrm{accept}$.
 
 Each constraint can be expressed as a polynomial-size CNF formula (using standard encodings of
-"exactly one" and "window" constraints). The total formula has size $O(n^{2k})$Which is polynomial
+"exactly one" and "window" constraints). The total formula has size $O(n^{2k})$ Which is polynomial
 in $|w|$. $\blacksquare$
 
 <details>
@@ -207,7 +207,7 @@ Equivalent clauses with exactly 3 literals using auxiliary variables.
 
 **Theorem 6.5a.** SAT $\leq_p$ 3-SAT.
 
-*Proof.* Given a CNF formula $\phi$Convert each clause to exactly 3 literals:
+*Proof.* Given a CNF formula $\phi$ Convert each clause to exactly 3 literals:
 
 - Clause $(l_1)$ (1 literal): replace with
   $(l_1 \lor a \lor b) \land (l_1 \lor a \lor \bar{b}) \land (l_1 \lor \bar{a} \lor b) \land (l_1 \lor \bar{a} \lor \bar{b})$
@@ -222,7 +222,7 @@ Equivalent clauses with exactly 3 literals using auxiliary variables.
 
 Each transformation is polynomial-size and preserves satisfiability. $\blacksquare$
 
-**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$Is there a vertex cover of size
+**Vertex Cover.** Given a graph $G = (V, E)$ and integer $k$ Is there a vertex cover of size
 $\leq k$?
 
 **Theorem 6.5b.** 3-SAT $\leq_p$ Vertex Cover.
@@ -230,10 +230,10 @@ $\leq k$?
 *Proof (sketch).* Given a 3-CNF formula $\phi$ with $k$ clauses and $n$ variables, construct a graph
 $G$:
 
-1. For each variable $x_i$Create a **variable gadget**: two vertices $x_i$ and $\bar{x}_i$ connected
+1. For each variable $x_i$ Create a **variable gadget**: two vertices $x_i$ and $\bar{x}_i$ connected
    by an edge. Selecting $x_i$ into the cover corresponds to setting $x_i$ to true (removing
    $\bar{x}_i$ from consideration).
-2. For each clause $C_j = (l_a \lor l_b \lor l_c)$Create a **clause gadget**: a triangle of three
+2. For each clause $C_j = (l_a \lor l_b \lor l_c)$ Create a **clause gadget**: a triangle of three
    vertices connected to the corresponding literal vertices in the variable gadgets.
 3. Set the target: $k' = n + 2k$.
 
@@ -243,17 +243,17 @@ Cover removes it from clause consideration; the remaining two triangle vertices 
 Cover. The formula is satisfiable iff we can choose literal vertices such that each clause triangle
 Has at most one vertex already excluded. $\blacksquare$
 
-**Clique.** Given $G = (V, E)$ and integer $k$Does $G$ contain a clique of size $k$?
+**Clique.** Given $G = (V, E)$ and integer $k$ Does $G$ contain a clique of size $k$?
 
 **Reduction:** Vertex Cover $\leq_p$ Clique. $G = (V, E)$ has a vertex cover of size $k$ iff
 $\overline{G} = (V, \overline{E})$ has a clique of size $|V| - k$.
 
 *Proof.* If $C \subseteq V$ is a vertex cover of size $k$ in $G$ Then every edge of $G$ has at Least
-one endpoint in $C$. So $V \setminus C$ is an independent set in $G$Meaning every pair in
+one endpoint in $C$. So $V \setminus C$ is an independent set in $G$ Meaning every pair in
 $V \setminus C$ is an edge in $\overline{G}$. Hence $\overline{G}$ has a clique of size $|V| - k$.
 The converse is analogous. $\blacksquare$
 
-**Hamiltonian Path.** Given a graph $G = (V, E)$Does $G$ have a path visiting every vertex exactly
+**Hamiltonian Path.** Given a graph $G = (V, E)$ Does $G$ have a path visiting every vertex exactly
 Once?
 
 **Theorem 6.5c.** Vertex Cover $\leq_p$ Hamiltonian Path (via Hamiltonian Cycle).
@@ -264,24 +264,24 @@ choose $k$ vertices (the cover), verification gadgets that check every edge is c
 Connecting gadgets that string the selections together into a single cycle. The construction is
 Polynomial. $\blacksquare$
 
-**Subset Sum.** Given integers $S = \{s_1, \ldots, s_n\}$ and target $T$Is there a subset summing To
+**Subset Sum.** Given integers $S = \{s_1, \ldots, s_n\}$ and target $T$ Is there a subset summing To
 $T$?
 
 **Theorem 6.5d.** 3-SAT $\leq_p$ Subset Sum.
 
 *Proof (sketch).* Given a 3-CNF formula with variables $x_1, \ldots, x_n$ and clauses
-$C_1, \ldots, C_k$Construct a set of numbers $S$ and target $T$ in decimal.
+$C_1, \ldots, C_k$ Construct a set of numbers $S$ and target $T$ in decimal.
 
-For each variable $x_i$Create two numbers $v_i$ and $\bar{v}_i$. In the "variable digits" (first $n$
+For each variable $x_i$ Create two numbers $v_i$ and $\bar{v}_i$. In the "variable digits" (first $n$
 columns), $v_i$ has a `1` in column $i$ and `0` elsewhere; $\bar{v}_i$ also has a `1` in column $i$
 and `0` elsewhere. This forces choosing exactly one of $v_i, \bar{v}_i$.
 
-For each clause $C_j$Add a "clause digit" (column $n + j$): in $v_i$ (resp. $\bar{v}_i$), This digit
+For each clause $C_j$ Add a "clause digit" (column $n + j$): in $v_i$ (resp. $\bar{v}_i$), This digit
 is `1` iff $x_i$ (resp. $\bar{x}_i$) appears in $C_j$. The target $T$ has `1` in Every digit.
 Choosing $v_i$ or $\bar{v}_i$ contributes to satisfying the clauses that contain That literal.
 $\blacksquare$
 
-**Partition.** Given integers $S = \{s_1, \ldots, s_n\}$Can $S$ be partitioned into two subsets of
+**Partition.** Given integers $S = \{s_1, \ldots, s_n\}$ Can $S$ be partitioned into two subsets of
 Equal sum?
 
 **Reduction chain:**
@@ -307,7 +307,7 @@ $$
 
 Given a 3-CNF formula $\phi$ with $k$ clauses, construct a graph $G$:
 
-1. For each clause $C_j$Create a group of 3 vertices (one per literal).
+1. For each clause $C_j$ Create a group of 3 vertices (one per literal).
 2. Within each group, add all three edges (forming a triangle). At most one vertex per group can be
    in an independent set.
 3. For each pair of contradictory literals ($x_i$ and $\bar{x}_i$) in different groups, add an edge. They cannot both be selected.
@@ -352,7 +352,7 @@ $A \in \mathrm{NL$ is log-space reducible to $B$.
 
 This is surprising because it is not known whether $\mathrm{NP = \mathrm{coNP$. The
 .../1-number-and-algebra/3_proof-and-logic uses An inductive counting argument: given an NTM for
-$L$Construct an NTM for $\overline{L}$ that Counts the number of reachable configurations.
+$L$ Construct an NTM for $\overline{L}$ that Counts the number of reachable configurations.
 
 **PSPACE-completeness.** A language is PSPACE-complete if it is in PSPACE and every PSPACE problem
 Reduces to it. Key PSPACE-complete problems:
@@ -363,8 +363,8 @@ Reduces to it. Key PSPACE-complete problems:
 
 **Theorem 6.9.** TQBF is PSPACE-complete.
 
-*Proof (membership).* Evaluate the quantifiers recursively. For $\exists x_i \phi$Try both values Of
-$x_i$ and recurse. For $\forall x_i \phi$Similarly. At depth $n$Evaluate $\psi$. Each level Uses
+*Proof (membership).* Evaluate the quantifiers recursively. For $\exists x_i \phi$ Try both values Of
+$x_i$ and recurse. For $\forall x_i \phi$ Similarly. At depth $n$ Evaluate $\psi$. Each level Uses
 $O(n)$ space to store the current assignment, giving $O(n^2)$ total.
 
 *Proof (hardness).* Reduce from any $L \in \mathrm{PSPACE$ using the configuration graph. A

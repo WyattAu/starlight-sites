@@ -261,12 +261,12 @@ Since PED < 0:
 **Proposition: Total revenue is maximised where $|\mathrm{PED}| = 1$.**
 
 _Proof._ We showed $\frac{d(TR)}{dP} = Q(1 + \mathrm{PED})$. Setting $\frac{d(TR)}{dP} = 0$:
-$1 + \mathrm{PED} = 0$ So $\mathrm{PED} = -1$I.e., $|\mathrm{PED}| = 1$. The second derivative
+$1 + \mathrm{PED} = 0$ So $\mathrm{PED} = -1$ I.e., $|\mathrm{PED}| = 1$. The second derivative
 Confirms this is a maximum (for downward-sloping demand). $\blacksquare$
 
 ### 4.3 PED Varies Along a Linear Demand Curve
 
-**Proposition:** For a linear demand curve $Q = a - bP$PED varies from $0$ (at the quantity axis) To
+**Proposition:** For a linear demand curve $Q = a - bP$ PED varies from $0$ (at the quantity axis) To
 $-\infty$ (at the price axis), with $|\mathrm{PED}| = 1$ at the midpoint.
 
 _Proof._ $P = \frac{a - Q}{b}$ So:

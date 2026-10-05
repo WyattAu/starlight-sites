@@ -59,7 +59,7 @@ $af + bg \in L^1(\mu)$ and $\int(af + bg)\, d\mu = a\int f\, d\mu + b\int g\, d\
 
 **Proposition 6.2 (Monotonicity).** If $f \leq g$ a.e., then $\int f\, d\mu \leq \int g\, d\mu$.
 
-**Proposition 6.3 (Markov"s Inequality).** If $f \geq 0$ is measurable, then for any $a > 0$:
+**Proposition 6.3 (Markov's Inequality).** If $f \geq 0$ is measurable, then for any $a > 0$:
 
 $$
 \mu(\{x : |f(x)| \geq a\}) \leq \frac{1}{a}\int |f|\, d\mu

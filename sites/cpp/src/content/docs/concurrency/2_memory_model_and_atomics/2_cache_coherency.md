@@ -198,14 +198,14 @@ Writes per thread.
 1. Let `var_a` and `var_b` reside on the same cache line $L$ And let thread $T_1$ write to `var_a`
    while thread $T_2$ writes to `var_b`.
 2. Initially, both threads may hold $L$ in **Shared** state (after the first read).
-3. When $T_1$ writes to `var_a`The cache controller issues an RFO for $L$Invalidating $T_2$'s copy.
+3. When $T_1$ writes to `var_a`The cache controller issues an RFO for $L$ Invalidating $T_2$'s copy.
    $T_1$'s line transitions to **Modified**.
 4. When $T_2$ writes to `var_b`Its copy is **Invalid** (due to step 3), so it incurs an L1 miss.
    $T_2$ issues an RFO, invalidating $T_1$'s copy. $T_2$'s line transitions to **Modified**.
 5. Step 3 and step 4 alternate for every write, producing a **ping-pong** pattern.
 6. Each ping-pong costs ~40-100ns (inter-core coherence latency), versus ~1-4ns for an L1 hit.
 7. For $n$ writes per thread, total coherence cost is
-   $\Theta(n \times \mathrm{coherence\_latency)$Versus $\Theta(n \times \mathrm{L1\_latency)$
+   $\Theta(n \times \mathrm{coherence\_latency)$ Versus $\Theta(n \times \mathrm{L1\_latency)$
    without false sharing.
 8. The speedup from eliminating false sharing is
    $\frac{\mathrm{coherence\_latency}{\mathrm{L1\_latency} \approx 10\mathrm{x\mathrm{--100\mathrm{x$.

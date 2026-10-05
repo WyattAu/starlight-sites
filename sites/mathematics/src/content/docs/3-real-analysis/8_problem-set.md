@@ -27,8 +27,8 @@ _Solution._ Let $M = \max(\sup A, \sup B)$. Without loss, assume $\sup A \geq \s
 $M = \sup A$. For all $x \in A \cup B$: either $x \in A$ So $x \leq \sup A = M$; or $x \in B$ So
 $x \leq \sup B \leq M$. Thus $M$ is an upper bound for $A \cup B$.
 
-For the least property: since $M = \sup A$ and $A \subseteq A \cup B$Every upper bound of $A \cup B$
-Is an upper bound of $A$Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
+For the least property: since $M = \sup A$ and $A \subseteq A \cup B$ Every upper bound of $A \cup B$
+Is an upper bound of $A$ Hence $\geq \sup A = M$. Therefore $\sup(A \cup B) = M$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.3 (Supremum and Infimum), Section 1.5 (Properties).
 
@@ -40,9 +40,9 @@ $A \subseteq \mathbb{R}$.
 <details>
 <summary>Solution</summary>
 
-_Solution._ Let $u = \sup(-A)$. For all $a \in A$: $-a \in -A$ So $-a \leq u$Giving $a \geq -u$. Thus
+_Solution._ Let $u = \sup(-A)$. For all $a \in A$: $-a \in -A$ So $-a \leq u$ Giving $a \geq -u$. Thus
 $-u$ is a lower bound for $A$. If $v$ is any lower bound for $A$ Then $-v$ is an upper bound for
-$-A$ So $u \leq -v$I.e., $-u \geq v$. Hence $-u$ is the greatest lower bound, so
+$-A$ So $u \leq -v$ I.e., $-u \geq v$. Hence $-u$ is the greatest lower bound, so
 $\inf A = -u = -\sup(-A)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 1.5 (Properties of Supremum and Infimum).
@@ -67,7 +67,7 @@ $$
 \frac{6n - 1}{2(2n^2 + 1)} \lt \frac{6n}{4n^2} = \frac{3}{2n}
 $$
 
-We need $\frac{3}{2n} \lt \varepsilon$I.e., $n > 3/(2\varepsilon)$. Choose
+We need $\frac{3}{2n} \lt \varepsilon$ I.e., $n > 3/(2\varepsilon)$. Choose
 $N = \lceil 3/(2\varepsilon) \rceil$. For $n \geq N$: the expression is $\lt \varepsilon$.
 $\blacksquare$
 
@@ -89,7 +89,7 @@ $a_{n+1} - a_n = \frac{1}{2}(a_n + 2/a_n) - a_n = \frac{1}{2}(2/a_n - a_n) = \fr
 Since $a_n \geq \sqrt{2}$ for $n \geq 2$, $a_n^2 \geq 2$ So $a_{n+1} - a_n \leq 0$.
 
 **Step 3:** By the Monotone Convergence Theorem, $L = \lim a_n$ exists. Taking limits:
-$L = \frac{1}{2}(L + 2/L)$Giving $2L = L + 2/L$ So $L = 2/L$Hence $L^2 = 2$. Since
+$L = \frac{1}{2}(L + 2/L)$ Giving $2L = L + 2/L$ So $L = 2/L$ Hence $L^2 = 2$. Since
 $a_n \geq \sqrt{2}$ for $n \geq 2$, $L \geq 0$ So $L = \sqrt{2}$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 2.2 (Monotone Convergence Theorem), Section 2.7 (recursive
@@ -139,7 +139,7 @@ conditionally, or diverge?
 <details>
 <summary>Solution</summary>
 
-_Solution._ The absolute series is $\sum 1/n^{1/3}$Which is a $p$-series with $p = 1/3 \lt 1$ So it
+_Solution._ The absolute series is $\sum 1/n^{1/3}$ Which is a $p$-series with $p = 1/3 \lt 1$ So it
 diverges. Hence the series does not converge absolutely.
 
 For conditional convergence, apply the alternating series test: $a_n = 1/n^{1/3}$ is positive,
@@ -195,8 +195,8 @@ Then add positive terms until we exceed $0$: $S_5 = -1/12 + 1/3 = 1/4 > 0$.
 Then add negative terms until below $0$: $S_6 = 1/4 - 1/8 = 1/8 > 0$. $S_7 = 1/8 - 1/10 = 1/40 > 0$.
 $S_8 = 1/40 - 1/12 = -7/120 \lt 0$.
 
-Continue this process. Since $\sum 1/(2k-1) = \infty$ and $\sum 1/(2k) = \infty$We can always
-Continue. Since $1/n \to 0$The oscillations shrink to $0$. The resulting rearrangement converges to
+Continue this process. Since $\sum 1/(2k-1) = \infty$ and $\sum 1/(2k) = \infty$ We can always
+Continue. Since $1/n \to 0$ The oscillations shrink to $0$. The resulting rearrangement converges to
 $0$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 3.5 (Rearrangement of Series).
@@ -215,7 +215,7 @@ $$
 |f(x) - f(a)| = |x^3 - a^3| = |x - a| \cdot |x^2 + ax + a^2|
 $$
 
-Restrict to $|x - a| \lt 1$ So $|x| \lt |a| + 1$Giving
+Restrict to $|x - a| \lt 1$ So $|x| \lt |a| + 1$ Giving
 $|x^2 + ax + a^2| \leq (|a|+1)^2 + |a|(|a|+1) + a^2 = 3a^2 + 3|a| + 1$. Let $M = 3a^2 + 3|a| + 1$.
 
 Choose $\delta = \min(1, \varepsilon/M)$. Then $|x - a| \lt \delta$ implies:
@@ -236,7 +236,7 @@ not Uniformly continuous on $(0, 1)$. (Trick question --- see solution.)
 <details>
 <summary>Solution</summary>
 
-_Solution._ **Continuity at $0$:** Given $\varepsilon > 0$Choose $\delta = \varepsilon$. For
+_Solution._ **Continuity at $0$:** Given $\varepsilon > 0$ Choose $\delta = \varepsilon$. For
 $|x - 0| = |x| \lt \delta$: $|f(x) - f(0)| = |x \sin(1/x)| \leq |x| \lt \delta = \varepsilon$. So
 $f$ is continuous at $0$. For $x \neq 0$, $f$ is a product of continuous functions, hence
 continuous.
@@ -245,8 +245,8 @@ continuous.
 Here is why: $f$ extends continuously to $[0, 1]$ (define $f(0) = 0$). By the Heine-Cantor theorem
 (Theorem 4.5), $f$ is uniformly continuous on $[0, 1]$ And hence on the subset $(0, 1)$.
 
-The function that is **not** uniformly continuous on $(0, 1)$ is $g(x) = \sin(1/x)$Which does not
-Extend continuously to $0$. Or $h(x) = 1/x$Which is unbounded. But $f(x) = x\sin(1/x)$ is bounded
+The function that is **not** uniformly continuous on $(0, 1)$ is $g(x) = \sin(1/x)$ Which does not
+Extend continuously to $0$. Or $h(x) = 1/x$ Which is unbounded. But $f(x) = x\sin(1/x)$ is bounded
 And has a continuous extension, so it is uniformly continuous. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 4.5 (Uniform Continuity), Section 4.6 (Heine-Cantor).
@@ -261,7 +261,7 @@ Constant $C$.
 
 _Solution._ Let $h(x) = f(x) - g(x)$. Then $h'(x) = f'(x) - g'(x) = 0$ for all $x \in (a, b)$. By
 Corollary 5.4 (a consequence of the Mean Value Theorem), $h$ is constant on $(a, b)$. So
-$f(x) - g(x) = C$ for some $C \in \mathbb{R}$I.e., $f(x) = g(x) + C$. $\blacksquare$
+$f(x) - g(x) = C$ for some $C \in \mathbb{R}$ I.e., $f(x) = g(x) + C$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 5.3 (Mean Value Theorem, Corollary 5.4).
 
@@ -384,7 +384,7 @@ $$
 Setting to zero: $n - n^3 x^2 = 0$ So $x = 1/n$. The maximum value is
 $f_n(1/n) = \frac{n \cdot 1/n}{1 + n^2/n^2} = \frac{1}{2}$.
 
-Since $\sup_{x > 0} |f_n(x)| = 1/2$ for all $n$This does not tend to $0$. Therefore the convergence
+Since $\sup_{x > 0} |f_n(x)| = 1/2$ for all $n$ This does not tend to $0$. Therefore the convergence
 Is **not uniform** on $(0, \infty)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.2 (Uniform Convergence), Section 7.1 (Pointwise
@@ -407,7 +407,7 @@ $$
 = \frac{2(2n+1)}{n+1} \cdot |x| = \frac{4n + 2}{n + 1} \cdot |x| \to 4|x| \quad \mathrm{as\ } n \to \infty
 $$
 
-The series converges when $4|x| \lt 1$I.e., $|x| \lt 1/4$ And diverges when $4|x| > 1$. The radius of
+The series converges when $4|x| \lt 1$ I.e., $|x| \lt 1/4$ And diverges when $4|x| > 1$. The radius of
 convergence is $R = 1/4$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.7 (Power Series), Section 3.2 (Ratio Test).
@@ -455,7 +455,7 @@ $\frac{d}{dx}\left(\frac{x}{1 + nx^2}\right) = \frac{1 - nx^2}{(1 + nx^2)^2}$. S
 $x = 1/\sqrt{n}$. The maximum value is
 $f_n(1/\sqrt{n}) = \frac{1/\sqrt{n}}{1 + n/n} = \frac{1}{2\sqrt{n}}$.
 
-Since $\sup_{x \geq 0} |f_n(x)| = \frac{1}{2\sqrt{n}} \to 0$ as $n \to \infty$The convergence **is**
+Since $\sup_{x \geq 0} |f_n(x)| = \frac{1}{2\sqrt{n}} \to 0$ as $n \to \infty$ The convergence **is**
 Uniform on $[0, \infty)$. $\blacksquare$
 
 _If you get this wrong, revise:_ Section 7.2 (Uniform Convergence).

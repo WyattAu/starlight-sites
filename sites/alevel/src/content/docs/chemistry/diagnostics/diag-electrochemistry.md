@@ -125,7 +125,7 @@ $$
 }
 </script>
 
-### UT-2: Electrolysis and Faraday"s Laws
+### UT-2: Electrolysis and Faraday's Laws
 
 **Question:**
 
@@ -458,7 +458,7 @@ $$
    intermediate thermal step, achieving efficiencies of 40--60% compared to 20--30% for internal
    combustion engines (which lose energy as heat).
 2. **Zero direct emissions**: The only product is water ($\text{H}_2\text{O}$), producing no
-   $\text{CO}_2$, $\text{NO}_x$Or particulate matter. (Note: the source of hydrogen matters for
+   $\text{CO}_2$, $\text{NO}_x$ Or particulate matter. (Note: the source of hydrogen matters for
    overall carbon footprint.)
 
 ---
@@ -546,7 +546,7 @@ The reaction will proceed but not go to completion (1 mark).
 (b) Calculate the volume of bromine gas produced at STP when a current of $2.00\,\mathrm{A}$ is
 passed for $15.0$ minutes.
 
-(c) If the actual volume of bromine collected is $0.85\,\mathrm{dm}^3$Calculate the current
+(c) If the actual volume of bromine collected is $0.85\,\mathrm{dm}^3$ Calculate the current
 efficiency.
 
 **Solution:**
@@ -573,7 +573,7 @@ $= \frac{\text{actual volume}}{\text{theoretical volume}} \times 100 = \frac{0.8
 
 This is impossible (>100%), suggesting an error in the question data or experimental conditions. A
 realistic current efficiency for bromine production is 85--95%. If the collected volume were
-$0.185\,\mathrm{dm}^3$The efficiency would be $88.5\%$ (1 mark).
+$0.185\,\mathrm{dm}^3$ The efficiency would be $88.5\%$ (1 mark).
 
 ## Common Mistakes
 

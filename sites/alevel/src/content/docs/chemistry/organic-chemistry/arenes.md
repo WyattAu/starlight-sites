@@ -32,7 +32,7 @@ Thermodynamic stability.
 
 ### Molecular Formula and Degree of Unsaturation
 
-Benzene has the molecular formula $\mathrm{C}_6\mathrm{H}_6$Corresponding to four degrees of
+Benzene has the molecular formula $\mathrm{C}_6\mathrm{H}_6$ Corresponding to four degrees of
 Unsaturation. This immediately rules out an acyclic structure and indicates significant multiple
 Bonding or ring formation.
 
@@ -230,7 +230,7 @@ $$
 
 Lies to the left because $\mathrm{H}_2\mathrm{CO}_3$ is a stronger acid than phenol. In contrast,
 carboxylic acids ($\mathrm{p}K_a \approx 4$) are stronger than $\mathrm{H}_2\mathrm{CO}_3$ and do
-react with $\mathrm{NaHCO}_3$Producing $\mathrm{CO}_2$. This distinction is a useful chemical test.
+react with $\mathrm{NaHCO}_3$ Producing $\mathrm{CO}_2$. This distinction is a useful chemical test.
 
 ## Directing Effects of Substituents
 
@@ -335,10 +335,10 @@ $$
 
 **Mechanism:**
 
-1. $\mathrm{AlCl}_3$ coordinates to the chlorine of $\mathrm{CH}_3\mathrm{Cl}$Generating a
+1. $\mathrm{AlCl}_3$ coordinates to the chlorine of $\mathrm{CH}_3\mathrm{Cl}$ Generating a
    carbocation-like electrophile ($\mathrm{CH}_3^+$) or a polarised complex.
 2. The electrophile attacks the benzene ring, forming a sigma complex (arenium ion).
-3. The $\mathrm{H}^+$ is removed by $\mathrm{AlCl}_4^-$Restoring aromaticity.
+3. The $\mathrm{H}^+$ is removed by $\mathrm{AlCl}_4^-$ Restoring aromaticity.
 
 **Limitations:**
 
@@ -434,7 +434,7 @@ than nitration of benzene.
 
 $-\mathrm{NO}_2$ is a meta director and strong deactivator. Nitration gives meta-dinitrobenzene. The
 reaction requires more vigorous conditions (fuming
-$\mathrm{HNO}_3$/$\mathrm{H}_2\mathrm{SO}_4$Higher temperature) and is slower than nitration of
+$\mathrm{HNO}_3$/$\mathrm{H}_2\mathrm{SO}_4$ Higher temperature) and is slower than nitration of
 benzene.
 
 ### Phenol: Special Reactivity
@@ -452,7 +452,7 @@ $$
 
 Phenol ($\mathrm{p}K_a \approx 10$) is a weak acid and reacts with $\mathrm{NaOH}$ to form sodium
 phenoxide, but does **not** react with $\mathrm{NaHCO}_3$ ($\mathrm{p}K_a \approx 6.4$). Carboxylic
-acids ($\mathrm{p}K_a \approx 4$--$5$) do react with $\mathrm{NaHCO}_3$Producing $\mathrm{CO}_2$.
+acids ($\mathrm{p}K_a \approx 4$--$5$) do react with $\mathrm{NaHCO}_3$ Producing $\mathrm{CO}_2$.
 This provides a clean experimental test to distinguish phenols from carboxylic acids.
 
 ## Practice Problems
@@ -574,12 +574,12 @@ $$
 $$
 
 Electron flow: The lone pair on the oxygen of $\mathrm{HNO}_3$ attacks the hydrogen of
-$\mathrm{H}_2\mathrm{SO}_4$Forming $\mathrm{H}_2\mathrm{NO}_3^+$. Water is eliminated, leaving
+$\mathrm{H}_2\mathrm{SO}_4$ Forming $\mathrm{H}_2\mathrm{NO}_3^+$. Water is eliminated, leaving
 $\mathrm{NO}_2^+$.
 
 **Step 2: Electrophilic attack on benzene.**
 
-The $\pi$ electrons of benzene attack the nitrogen of $\mathrm{NO}_2^+$Forming the sigma complex
+The $\pi$ electrons of benzene attack the nitrogen of $\mathrm{NO}_2^+$ Forming the sigma complex
 (arenium ion). The positive charge is delocalised over three carbon atoms (the carbon bearing the
 nitro group and the two ortho carbons).
 
@@ -754,7 +754,7 @@ cupboard.
 
 1. In a fume cupboard, add $10\,\mathrm{cm}^3$ of concentrated $\mathrm{HNO}_3$ to a conical flask
    and cool in an ice bath.
-2. Slowly add $10\,\mathrm{cm}^3$ of concentrated $\mathrm{H}_2\mathrm{SO}_4$With stirring,
+2. Slowly add $10\,\mathrm{cm}^3$ of concentrated $\mathrm{H}_2\mathrm{SO}_4$ With stirring,
    maintaining the temperature below $20^\circ\mathrm{C}$.
 3. Cool the nitrating mixture to $0$--$5^\circ\mathrm{C}$.
 4. Add $5\,\mathrm{cm}^3$ of methylbenzene dropwise, with vigorous stirring, keeping the temperature
@@ -803,7 +803,7 @@ the structure of the intermediate.
 - Formation of $\mathrm{NO}_2^+$:
   $\mathrm{HNO}_3 + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{HSO}_4^- + \mathrm{H}_2\mathrm{O}$
   (1 mark).
-- Electrophilic attack: $\pi$ electrons attack $\mathrm{NO}_2^+$Forming the sigma complex (arenium
+- Electrophilic attack: $\pi$ electrons attack $\mathrm{NO}_2^+$ Forming the sigma complex (arenium
   ion) with the positive charge delocalised over three carbons (1 mark).
 - Deprotonation: $\mathrm{HSO}_4^-$ removes $\mathrm{H}^+$ from the sigma complex, restoring
   aromaticity (1 mark).

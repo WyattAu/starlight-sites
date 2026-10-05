@@ -137,7 +137,7 @@ Decreases; air rushes in.
 **Expiration:** intercostal muscles and diaphragm relax; thorax volume decreases; lung pressure
 Increases; air is pushed out.
 
-**Worked Example: Fick"s Law and gas exchange.**
+**Worked Example: Fick's Law and gas exchange.**
 
 $$
 \mathrm{Rate of diffusion \propto \frac{\mathrm{Surface area \times \mathrm{Concentration difference}{\mathrm{Diffusion distance}

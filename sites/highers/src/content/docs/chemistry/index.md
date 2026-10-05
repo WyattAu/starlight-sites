@@ -40,7 +40,7 @@ Chemical bonding, intermolecular forces, reaction rates, equilibrium, and enthal
 
 ### Energy & Matter
 
-Energy changes in reactions, Hess"s law, bond enthalpies, and properties of matter.
+Energy changes in reactions, Hess's law, bond enthalpies, and properties of matter.
 
 → **[Full notes](/chemistry/2-heat-matter/2_heat-matter/)**
 

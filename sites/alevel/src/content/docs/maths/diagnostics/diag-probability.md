@@ -107,7 +107,7 @@ cannot be mutually exclusive.
 }
 </script>
 
-### UT-2: Conditional Probability and the Prosecutor"s Fallacy
+### UT-2: Conditional Probability and the Prosecutor's Fallacy
 
 **Question:**
 
@@ -215,7 +215,7 @@ $$
 \mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}
 $$
 
-They would be equal only when $\mathrm{P}(D) = \mathrm{P}(+)$I.e., when the prevalence equals the
+They would be equal only when $\mathrm{P}(D) = \mathrm{P}(+)$ I.e., when the prevalence equals the
 overall probability of a positive test. This is a very specific condition that would not generally
 hold.
 
@@ -237,13 +237,13 @@ hold.
 A bag contains 4 red balls and 6 blue balls. Three balls are drawn at random **without
 replacement**.
 
-**(a)** Find the probability distribution of $X$The number of red balls drawn. Verify that your
+**(a)** Find the probability distribution of $X$ The number of red balls drawn. Verify that your
 probabilities sum to 1.
 
 **(b)** Calculate $\mathrm{E}(X)$ and $\mathrm{Var}(X)$ directly from the probability distribution.
 
 **(c)** A student claims that since
-$\mathrm{P}(\text{at least one red}) = 1 - \mathrm{P}(\text{no red})$This identity is only valid for
+$\mathrm{P}(\text{at least one red}) = 1 - \mathrm{P}(\text{no red})$ This identity is only valid for
 independent events. Prove that this identity holds for any events (dependent or independent), using
 the addition rule.
 
@@ -369,7 +369,7 @@ $$
 
 **Question:**
 
-The random variable $X$ follows a binomial distribution $X \sim B(n, p)$Where $n$ is a positive
+The random variable $X$ follows a binomial distribution $X \sim B(n, p)$ Where $n$ is a positive
 integer and $0 \lt p \lt 1$.
 
 **(a)** By writing $X = \sum_{i=1}^{n} X_i$ where each $X_i$ is an indicator random variable for the
@@ -455,7 +455,7 @@ $$
 $$
 
 Note that the additive constant $-5$ has no effect on the variance. This is a common source of
-error: students sometimes write $\mathrm{Var}(Y) = \mathrm{Var}(3X) + \mathrm{Var}(-5)$Which is
+error: students sometimes write $\mathrm{Var}(Y) = \mathrm{Var}(3X) + \mathrm{Var}(-5)$ Which is
 incorrect. The variance of a constant is zero.
 
 ---
@@ -480,7 +480,7 @@ than $k$" and let $B$ be the event "at least one of the scores is prime."
 
 **(b)** Find the value of $k$ for which $\mathrm{P}(A) = \frac{1}{3}$.
 
-**(c)** For $k = 7$Determine whether events $A$ and $B$ are independent. Show all your working.
+**(c)** For $k = 7$ Determine whether events $A$ and $B$ are independent. Show all your working.
 
 **(d)** Find the range of values of $k$ for which
 $\mathrm{P}(A \cap B) \lt \mathrm{P}(A) \cdot \mathrm{P}(B)$ And explain the significance of this
@@ -569,9 +569,9 @@ $$
 \mathrm{P}(A) \cdot \mathrm{P}(B) = \frac{5}{12} \times \frac{3}{4} = \frac{5}{16} = \frac{11.25}{36}
 $$
 
-Since $\frac{11}{36} \neq \frac{11.25}{36}$Events $A$ and $B$ are **not independent**.
+Since $\frac{11}{36} \neq \frac{11.25}{36}$ Events $A$ and $B$ are **not independent**.
 
-**(d)** We need $\mathrm{P}(A \cap B) \lt \mathrm{P}(A) \cdot \mathrm{P}(B)$Which means the events
+**(d)** We need $\mathrm{P}(A \cap B) \lt \mathrm{P}(A) \cdot \mathrm{P}(B)$ Which means the events
 are **negatively dependent**: knowing $B$ occurred makes $A$ less likely.
 
 Computing for different values of $k$:
@@ -763,7 +763,7 @@ $$
 \mathrm{P}(A) + \mathrm{P}(B) = \mathrm{P}(A) + \mathrm{P}(B) - \mathrm{P}(A \cap B)
 $$
 
-This gives $\mathrm{P}(A \cap B) = 0$Meaning $A$ and $B$ are **mutually exclusive**, not
+This gives $\mathrm{P}(A \cap B) = 0$ Meaning $A$ and $B$ are **mutually exclusive**, not
 independent.
 
 Counterexample: Let $\mathrm{P}(A) = 0.3$$\mathrm{P}(B) = 0.2$$\mathrm{P}(A \cap B) = 0$. Then

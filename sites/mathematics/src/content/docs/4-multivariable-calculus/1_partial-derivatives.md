@@ -32,7 +32,7 @@ Holding all other variables fixed.
 **Notation.** Common notations for the partial derivative with respect to $x_i$ include $f_{x_i}$,
 $\partial_i f$ And $\frac{\partial f}{\partial x_i}$. We use these interchangeably.
 
-### 1.2 Clairaut"s Theorem
+### 1.2 Clairaut's Theorem
 
 **Theorem 1.1 (Clairaut's Theorem / Schwarz’s Theorem).** If $f_{xy}$ and $f_{yx}$ are continuous on
 an Open set containing $(a, b)$ Then
@@ -74,7 +74,7 @@ $$
 f_{xy}(a + \theta_1 h,\, b + \theta_2 k) = f_{yx}(a + \theta_3 h,\, b + \theta_4 k)
 $$
 
-Taking the limit as $(h, k) \to (0, 0)$ and using continuity of $f_{xy}$ and $f_{yx}$We obtain
+Taking the limit as $(h, k) \to (0, 0)$ and using continuity of $f_{xy}$ and $f_{yx}$ We obtain
 $f_{xy}(a, b) = f_{yx}(a, b)$. $\blacksquare$
 
 _Intuition._ Clairaut's theorem tells us that, under a mild regularity condition (continuity of the
@@ -90,7 +90,7 @@ $$
 \lim_{\mathbf{h} \to \mathbf{0}} \frac{f(\mathbf{a} + \mathbf{h}) - f(\mathbf{a}) - L(\mathbf{h})}{\lVert \mathbf{h} \rVert} = 0
 $$
 
-When $f$ is differentiable at $\mathbf{a}$The linear map $L$ is given by the gradient.
+When $f$ is differentiable at $\mathbf{a}$ The linear map $L$ is given by the gradient.
 
 _Remark._ Existence of all partial derivatives at a point does **not** imply differentiability at
 That point. The canonical counterexample is
@@ -333,7 +333,7 @@ is $C^1$ and $F(a,b,c) = 0$ with $F_z(a,b,c) \neq 0$ Then there exist neighbourh
 and $V$ of $c$ and a unique $C^1$ function $\varphi : U \to V$ with $\varphi(a,b) = c$ and
 $F(x, y, \varphi(x,y)) = 0$ for all $(x,y) \in U$.
 
-**Problem.** If $x^2 y + y^2 z + z^2 x = 3$Find $\frac{\partial z}{\partial x}$ and
+**Problem.** If $x^2 y + y^2 z + z^2 x = 3$ Find $\frac{\partial z}{\partial x}$ and
 $\frac{\partial z}{\partial y}$ at the point $(1, 1, 1)$.
 
 <details>
@@ -369,7 +369,7 @@ $$
 
 For some $\mathbf{c}$ on the line segment joining $\mathbf{a}$ and $\mathbf{x}$.
 
-For $n = 2$ and $k = 2$The second-order Taylor expansion is:
+For $n = 2$ and $k = 2$ The second-order Taylor expansion is:
 
 $$
 f(a+h, b+k) = f(a,b) + f_x h + f_y k + \frac{1}{2}\left(f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2\right) + R_2
@@ -411,7 +411,7 @@ The key subtlety in multivariable calculus is that knowing all partial derivativ
   $f_{xy} = f_{yx}$ can fail.
 - **Normalise the direction vector.** The formula $D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u}$
   assumes $\lVert \mathbf{u} \rVert = 1$. If the direction is given by a non-unit vector
-  $\mathbf{v}$Divide by $\lVert \mathbf{v} \rVert$ first.
+  $\mathbf{v}$ Divide by $\lVert \mathbf{v} \rVert$ first.
 :::
 
 

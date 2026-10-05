@@ -46,7 +46,7 @@ $$
 
 Where $n_s$ is the density of superconducting electrons.
 
-Combining with Maxwell"s equations:
+Combining with Maxwell's equations:
 
 $$
 \nabla^2 \mathbf{B} = \frac{1}{\lambda_L^2}\mathbf{B}
@@ -110,7 +110,7 @@ Theory (the pairing mechanism is still debated).
   superconductors), making them sensitive to defects but allowing high critical current densities.
 - **Strong anisotropy:** Superconducting properties differ dramatically between the $ab$-planes and
   the $c$-axis direction.
-- **Pseudogap phase:** Above $T_c$ but below a characteristic temperature $T^*$A partial gap opens
+- **Pseudogap phase:** Above $T_c$ but below a characteristic temperature $T^*$ A partial gap opens
   in the electronic spectrum, suggesting precursive pairing correlations.
 - **Phase diagram:** Doping controls the transition from antiferromagnetic insulator (underdoped)
   through the superconducting dome to a normal metal (overdoped).
@@ -146,7 +146,7 @@ Magnesium diboride MgB$_2$ ($T_c = 39$ K), and the recently discovered nickelate
 A **Josephson junction** consists of two superconductors separated by a thin insulating barrier. Cooper pairs can tunnel through the barrier, producing remarkable effects:
 
 - **DC Josephson effect:** A supercurrent $I = I_c \sin\phi$ flows across the junction even at zero applied voltage, where $\phi$ is the phase difference of the order parameter across the barrier and $I_c$ is the critical current.
-- **AC Josephson effect:** When a constant voltage $V$ is applied, the phase evolves as $d\phi/dt = 2eV/\hbar$, producing an oscillating current with frequency $f = 2eV/h \approx 483.6$ MHz/$\mu$V. This provides an exact voltage-to-frequency conversion.
+- **AC Josephson effect:** When a constant voltage $V$ is applied, the phase evolves as $d\phi/dt = 2eV/\hbar$, producing an oscillating current with frequency $f = 2eV/h \approx 483.6$ MHz/$\mu$ V. This provides an exact voltage-to-frequency conversion.
 
 The Josephson effects are the basis for SQUIDs, voltage standards, and superconducting qubits used in quantum computing.
 

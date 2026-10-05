@@ -127,7 +127,7 @@ With `umask 027`:
 #### SUID, SGID, and Sticky Bit
 
 **SUID (Set User ID):** When set on an executable file, the process runs with the permissions of the
-File"s owner, not the user who executed it. This is how `passwd` can modify `/etc/shadow` -- the
+File's owner, not the user who executed it. This is how `passwd` can modify `/etc/shadow` -- the
 `passwd` binary has SUID root.
 
 ```bash
@@ -1127,7 +1127,7 @@ This rule audits the `open` and `openat` system calls on 64-bit systems when the
 Under `/etc` and the triggering user has a UID of 1000 or higher (regular users, not system
 Accounts). The key `etc_access` allows filtering audit logs for this specific rule.
 
-`auid!=4294967295` excludes the "unset" login UID (4294967295 = $2^{32} - 1$Which is the value of
+`auid!=4294967295` excludes the "unset" login UID (4294967295 = $2^{32} - 1$ Which is the value of
 `-1` as an unsigned 32-bit integer). When a process is started by the system (not through a user
 Login), its audit UID is unset. Excluding this prevents the rule from triggering for system
 Processes that happen to access files in `/etc`Reducing noise in the audit logs.

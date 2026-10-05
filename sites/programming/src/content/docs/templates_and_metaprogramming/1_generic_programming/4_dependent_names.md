@@ -188,7 +188,7 @@ Dependent calls benefit from Phase 2 lookup.
 
 ### Formal Model of Two-Phase Lookup
 
-The two-phase model can be understood as a pair of environments, $\lt E_1, E_2 \gt$Where $E_1$ is
+The two-phase model can be understood as a pair of environments, $\lt E_1, E_2 \gt$ Where $E_1$ is
 The definition-time environment and $E_2$ is the instantiation-time environment. Name resolution
 Proceeds as follows:
 
@@ -201,8 +201,8 @@ Proceeds as follows:
    environments). For unqualified dependent function calls, also perform ADL using the associated
    namespaces and classes of the argument types.
 
-3. If any non-dependent name fails to resolve in $E_1$The program is ill-formed. If any dependent
-   name fails to resolve in $E_1 \cup E_2$The program is ill-formed at the point of instantiation.
+3. If any non-dependent name fails to resolve in $E_1$ The program is ill-formed. If any dependent
+   name fails to resolve in $E_1 \cup E_2$ The program is ill-formed at the point of instantiation.
 
 This model ensures that template definitions can be checked for basic correctness at definition time
 (catching typos in non-dependent names early), while template instantiations can find names declared

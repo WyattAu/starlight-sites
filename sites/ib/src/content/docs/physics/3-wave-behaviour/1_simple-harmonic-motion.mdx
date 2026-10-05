@@ -20,8 +20,8 @@ import PhetSimulation from "@components/PhetSimulation";
 
 - Conditions that lead to simple harmonic motion
 - The defining equation of simple harmonic motion: $a = -\omega^2 x$
-- A particle undergoing SHM can be described using time period $T$Frequency $f$Angular frequency
-  $\omega$Amplitude, equilibrium position, and displacement
+- A particle undergoing SHM can be described using time period $T$ Frequency $f$ Angular frequency
+  $\omega$ Amplitude, equilibrium position, and displacement
 - The time period in terms of frequency and angular frequency:
   $T = \frac{1}{f} = \frac{2\pi}{\omega}$
 - The time period of a mass-spring system: $T = 2\pi \sqrt{\frac{m}{k}}$
@@ -37,7 +37,7 @@ $$
 X = x_0 \sin(\omega t + \Phi),\quad v = \omega x_0 \cos(\omega t + \Phi),\quad v = \pm\omega\sqrt\{x_0^2 - x^2\},\quad E_T = \tfrac\{1\}\{2\}m\omega^2 x_0^2,\quad E_P = \tfrac\{1\}\{2\}m\omega^2 x^2
 $$
 
-Throughout this file, amplitude is $A$ and initial phase is $\phi_0$Corresponding to the data
+Throughout this file, amplitude is $A$ and initial phase is $\phi_0$ Corresponding to the data
 Booklet notation $x_0$ and $\Phi$.
 
 ## Fundamental Principles
@@ -314,7 +314,7 @@ $$
 \omega = \frac\{2\pi\}\{T\} = \frac\{2\pi\}\{0.50\} = 4\pi\mathrm\{ rad/s\}
 $$
 
-With $x(0) = A$Use the cosine form: $x = A\cos(\omega t)$.
+With $x(0) = A$ Use the cosine form: $x = A\cos(\omega t)$.
 
 $$
 X(0.125) = 0.10\cos(4\pi \times 0.125) = 0.10\cos\!\left(\frac\{\pi\}\{2\}\right) = 0\mathrm\{ m\}
@@ -324,7 +324,7 @@ $$
 V(0.125) = -\omega A \sin(\omega t) = -4\pi(0.10)\sin\!\left(\frac\{\pi\}\{2\}\right) = -1.26\mathrm\{ m/s\}
 $$
 
-The mass passes through equilibrium at $t = T/4 = 0.125\mathrm{ s}$Moving in the negative Direction
+The mass passes through equilibrium at $t = T/4 = 0.125\mathrm{ s}$ Moving in the negative Direction
 with speed $|v| = \omega A = 1.26\mathrm{ m/s}$.
 
 ### Example 3: Amplitude from Energy
@@ -332,13 +332,13 @@ with speed $|v| = \omega A = 1.26\mathrm{ m/s}$.
 A $0.30\mathrm{ kg}$ mass oscillates on a spring with $k = 120\mathrm{ N/m}$. At equilibrium, the
 Speed is $1.6\mathrm{ m/s}$. Determine the amplitude.
 
-At $x = 0$All energy is kinetic:
+At $x = 0$ All energy is kinetic:
 
 $$
 E_\{\mathrm\{total\}\} = \frac\{1\}\{2\}mv_\{\max\}^2 = \frac\{1\}\{2\}(0.30)(1.6)^2 = 0.384\mathrm\{ J\}
 $$
 
-At $x = A$All energy is potential:
+At $x = A$ All energy is potential:
 
 $$
 E_\{\mathrm\{total\}\} = \frac\{1\}\{2\}kA^2 \implies A = \sqrt\{\frac\{2E_\{\mathrm\{total\}\}\}\{k\}\} = \sqrt\{\frac\{2(0.384)\}\{120\}\} = \sqrt\{0.00640\} = 0.0800\mathrm\{ m\}
@@ -353,7 +353,7 @@ $$
 L = \frac\{gT^2\}\{4\pi^2\} = \frac\{(9.81)(2.00)^2\}\{4\pi^2\} = \frac\{39.2\}\{39.5\} = 0.993\mathrm\{ m\}
 $$
 
-This is close to $1.00\mathrm{ m}$Which is why a "seconds pendulum" ($T = 2\mathrm{ s}$) is
+This is close to $1.00\mathrm{ m}$ Which is why a "seconds pendulum" ($T = 2\mathrm{ s}$) is
 Approximately $1\mathrm{ m}$ long on Earth.
 
 ### Example 5: Phase Difference Between Two Oscillators
@@ -402,7 +402,7 @@ $$
 
 ### Determining Phase Angle from Initial Conditions
 
-Given initial displacement $x(0) = x_0$ and initial velocity $v(0) = v_0$We determine both the
+Given initial displacement $x(0) = x_0$ and initial velocity $v(0) = v_0$ We determine both the
 Amplitude $A$ and the phase angle $\phi_0$.
 
 Using the cosine form $x = A\cos(\omega t + \phi_0)$:
@@ -523,7 +523,7 @@ Regime. IB students may be asked to sketch displacement-time graphs for each reg
 
 ### Light Damping (Underdamping)
 
-The amplitude decays exponentially: $A(t) = A_0 e^{-bt}$Where $b$ is the damping coefficient.
+The amplitude decays exponentially: $A(t) = A_0 e^{-bt}$ Where $b$ is the damping coefficient.
 
 - The system oscillates with gradually decreasing amplitude.
 - The period is slightly **longer** than the undamped period: $T_{\mathrm{damped}} \gt T_0$.
@@ -561,7 +561,7 @@ Critical damping.
 
 In all damped systems, mechanical energy converts to thermal energy through resistive forces. The
 Rate of energy loss is proportional to $v^2$. For light damping, $E(t) \approx E_0 e^{-2bt}$; since
-$E \propto A^2$The amplitude decays as $A(t) \propto e^{-bt}$.
+$E \propto A^2$ The amplitude decays as $A(t) \propto e^{-bt}$.
 
 ### Phase Space (Qualitative)
 
@@ -580,8 +580,8 @@ Simple harmonic motion is the natural dance of any system displaced from equilib
 ### 1. Confusing $\omega$ and $f$
 
 $\omega = 2\pi f$. The angular frequency $\omega$ (rad/s) is $2\pi$ times the linear frequency $f$
-(Hz). When a question asks for "frequency," it means $f$Not $\omega$. When computing
-$v_{\max} = \omega A$You need $\omega$.
+(Hz). When a question asks for "frequency," it means $f$ Not $\omega$. When computing
+$v_{\max} = \omega A$ You need $\omega$.
 
 ### 2. Pendulum Period is Independent of Mass
 
@@ -599,12 +599,12 @@ Verify the restoring force direction opposes displacement.
 
 The cosine form $x = A\cos(\omega t + \phi_0)$ and sine form $x = A\sin(\omega t + \Phi)$ yield
 Different phase constants for the same physical state. If $x(0) = 0$ using the cosine form, then
-$\phi_0 = \pm\pi/2$Not $0$.
+$\phi_0 = \pm\pi/2$ Not $0$.
 
 ### 5. Small-Angle Approximation Validity
 
-$T = 2\pi\sqrt{L/g}$ relies on $\sin\theta \approx \theta$Accurate to within 1% for
-$\theta \lt 10^\circ$ and 0.1% for $\theta \lt 5^\circ$. Beyond approximately $15^\circ$The true
+$T = 2\pi\sqrt{L/g}$ relies on $\sin\theta \approx \theta$ Accurate to within 1% for
+$\theta \lt 10^\circ$ and 0.1% for $\theta \lt 5^\circ$. Beyond approximately $15^\circ$ The true
 Period exceeds the prediction and the motion is no longer strictly SHM.
 
 ### 6. Misidentifying Equilibrium Position
@@ -696,7 +696,7 @@ Is less accurate at $10^\circ$ But this difference is negligible at the IB level
 ### Problem 5 (SL)
 
 A $2.0\mathrm{ kg}$ object on a spring oscillates with amplitude $0.30\mathrm{ m}$. At
-$x = 0.20\mathrm{ m}$The speed is $2.0\mathrm{ m/s}$. Find the total energy and the spring Constant.
+$x = 0.20\mathrm{ m}$ The speed is $2.0\mathrm{ m/s}$. Find the total energy and the spring Constant.
 
 <details>
 <summary>Solution</summary>
@@ -801,7 +801,7 @@ $$
 A = \frac\{v_\{\max\}\}\{\omega\} = \frac\{3.13\}\{2.21\} = 1.42\mathrm\{ m\}
 $$
 
-This corresponds to an angular amplitude of $0.71\mathrm{ rad} \approx 41^\circ$Exceeding the
+This corresponds to an angular amplitude of $0.71\mathrm{ rad} \approx 41^\circ$ Exceeding the
 Small-angle regime. The SHM model is approximate here.
 
 (b)

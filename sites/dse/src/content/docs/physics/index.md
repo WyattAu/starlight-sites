@@ -53,7 +53,7 @@ efficient revision.
 
 - **[Mechanics](/physics/1-mechanics/2_mechanics-depth/)** -- Kinematics, dynamics, work and energy,
   momentum, and circular motion
-- **[Forces and Motion](/physics/1-mechanics/1_forces-and-motion/)** -- Newton"s laws, friction, projectile
+- **[Forces and Motion](/physics/1-mechanics/1_forces-and-motion/)** -- Newton's laws, friction, projectile
   motion, circular motion, momentum, and impulse
 - **[Energy and Work](/physics/1-mechanics/3_energy-and-work/)** -- Work done, kinetic energy, potential
   energy, conservation of energy, power, and efficiency

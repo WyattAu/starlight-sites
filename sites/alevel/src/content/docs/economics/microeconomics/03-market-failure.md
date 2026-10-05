@@ -177,8 +177,8 @@ Better information than the other.
 Akerlof (1970) analysed the market for used cars. Sellers know the quality of their car; buyers do
 Not. There are two types of cars:
 
-- **"Peaches"** (high quality): value to seller $= £8\,000$Value to buyer $= £10\,000$
-- **"Lemons"** (low quality): value to seller $= £4\,000$Value to buyer $= £6\,000$
+- **"Peaches"** (high quality): value to seller $= £8\,000$ Value to buyer $= £10\,000$
+- **"Lemons"** (low quality): value to seller $= £4\,000$ Value to buyer $= £6\,000$
 
 If buyers can distinguish quality, both types trade at mutually beneficial prices. But if buyers
 Cannot distinguish, and 50% of cars are peaches and 50% are lemons, the **expected value** to a

@@ -71,16 +71,16 @@ $$
 _Proof of the first law._ We show mutual inclusion.
 
 ($\subseteq$) Suppose $x \in (A \cup B)'$. Then $x \notin A \cup B$ So $x \notin A$ and $x \notin B$.
-Hence $x \in A'$ and $x \in B'$Which means $x \in A' \cap B'$.
+Hence $x \in A'$ and $x \in B'$ Which means $x \in A' \cap B'$.
 
 ($\supseteq$) Suppose $x \in A' \cap B'$. Then $x \in A'$ and $x \in B'$ So $x \notin A$ and
-$x \notin B$. Therefore $x \notin A \cup B$Giving $x \in (A \cup B)'$.
+$x \notin B$. Therefore $x \notin A \cup B$ Giving $x \in (A \cup B)'$.
 
 The second law follows by symmetry or by applying the first law to $A'$ and $B'$. $\blacksquare$
 
 ### Power Sets
 
-The **power set** $\mathcal{P}(A)$ of a set $A$ is the set of all subsets of $A$Including
+The **power set** $\mathcal{P}(A)$ of a set $A$ is the set of all subsets of $A$ Including
 $\emptyset$ and $A$ itself.
 
 If $|A| = n$ Then $|\mathcal{P}(A)| = 2^n$.
@@ -126,8 +126,8 @@ The number studying neither is $40 - 35 = 5$.
 
 ## Functions
 
-A function $f$ is an assignment from a **domain** ($X$The set of acceptable inputs) to a
-**codomain** ($Y$The set into which all outputs must fall), such that:
+A function $f$ is an assignment from a **domain** ($X$ The set of acceptable inputs) to a
+**codomain** ($Y$ The set into which all outputs must fall), such that:
 
 - Every element in $X$ is mapped to an element in $Y$: $\forall x \in X,\; f(x) \in Y$
 - No element in $X$ is mapped to more than one element in $Y$: $f(x_1) = f(x_2) \implies x_1 = x_2$
@@ -184,7 +184,7 @@ function.)
 _Surjective?_ No. There is no $x \in \mathbb{R}$ such that $f(x) = -1$ So
 $-1 \notin \mathrm{range}(f)$.
 
-The range is $[0, \infty)$A proper subset of $\mathbb{R}$.
+The range is $[0, \infty)$ A proper subset of $\mathbb{R}$.
 
 </details>
 
@@ -195,8 +195,8 @@ Let $f: \mathbb{R} \to \mathbb{R},\; f(x) = 2x + 3$.
 
 _Injective:_ Suppose $f(x_1) = f(x_2)$. Then $2x_1 + 3 = 2x_2 + 3$ So $x_1 = x_2$.
 
-_Surjective:_ Let $y \in \mathbb{R}$. We need $2x + 3 = y$I.e. $x = \frac{y - 3}{2}$. Since
-$\frac{y-3}{2} \in \mathbb{R}$Every $y$ is in the range.
+_Surjective:_ Let $y \in \mathbb{R}$. We need $2x + 3 = y$ I.e. $x = \frac{y - 3}{2}$. Since
+$\frac{y-3}{2} \in \mathbb{R}$ Every $y$ is in the range.
 
 Therefore $f$ is bijective.
 
@@ -210,7 +210,7 @@ $$
 f^{-1}(f(x)) = x \quad \mathrm{for all } x \in X, \qquad f(f^{-1}(y)) = y \quad \mathrm{for all } y \in Y
 $$
 
-To find $f^{-1}$: write $y = f(x)$Solve for $x$ in terms of $y$ Then interchange $x$ and $y$.
+To find $f^{-1}$: write $y = f(x)$ Solve for $x$ in terms of $y$ Then interchange $x$ and $y$.
 
 **Existence condition:** A function has an inverse (on its given domain and codomain) if and only if
 It is bijective.
@@ -218,10 +218,10 @@ It is bijective.
 <details>
 <summary>Example: Finding an inverse function</summary>
 
-Let $f: \mathbb{R} \to \mathbb{R},\; f(x) = \frac{2x + 1}{x - 3}$With domain
+Let $f: \mathbb{R} \to \mathbb{R},\; f(x) = \frac{2x + 1}{x - 3}$ With domain
 $\mathbb{R} \setminus \{3\}$.
 
-Set $y = \frac{2x+1}{x-3}$. Then $y(x-3) = 2x+1$ So $yx - 3y = 2x + 1$Hence $x(y-2) = 3y+1$ Giving
+Set $y = \frac{2x+1}{x-3}$. Then $y(x-3) = 2x+1$ So $yx - 3y = 2x + 1$ Hence $x(y-2) = 3y+1$ Giving
 $x = \frac{3y+1}{y-2}$.
 
 Therefore $f^{-1}(x) = \frac{3x+1}{x-2}$ with domain $\mathbb{R} \setminus \{2\}$.
@@ -243,7 +243,7 @@ A non-injective function can be made injective by restricting its domain.
 <summary>Example: Restricting domain</summary>
 
 $f(x) = x^2$ is not injective on $\mathbb{R}$ since $f(1) = f(-1)$. But by restricting to
-$[0, \infty)$Every non-negative real has exactly one non-negative square root, so
+$[0, \infty)$ Every non-negative real has exactly one non-negative square root, so
 $f: [0, \infty) \to [0, \infty)$ is bijective with inverse $f^{-1}(x) = \sqrt{x}$.
 
 Similarly, $f: (-\infty, 0] \to [0, \infty),\; f(x) = x^2$ is bijective with inverse
@@ -269,7 +269,7 @@ $$
 a_1 \cdot a_2 = b_1 \cdot b_2 \times 10^{k_1 + k_2}
 $$
 
-If $|b_1 \cdot b_2| \ge 10$ or $|b_1 \cdot b_2| \lt 1$Adjust the mantissa back into $[1, 10)$ by
+If $|b_1 \cdot b_2| \ge 10$ or $|b_1 \cdot b_2| \lt 1$ Adjust the mantissa back into $[1, 10)$ by
 Absorbing a factor of $10$ into the exponent.
 
 ### Significant Figures
@@ -320,7 +320,7 @@ $19.3125 \le A \lt 20.2125$.
 ## Sequences and Series
 
 A sequence is a function $f$ with domain $\mathbb{N}$ (or $\mathbb{N}_0$) and codomain $X$. Writing
-$u_n = f(n)$Every sequence is ordered by its index.
+$u_n = f(n)$ Every sequence is ordered by its index.
 
 $$
 f: \mathbb{N} \to X, \quad u_n = f(n), \; n \in \mathbb{N}
@@ -453,7 +453,7 @@ $$
 S_{\infty} = \frac{u_1}{1 - r}
 $$
 
-If $|r| \ge 1$The series diverges.
+If $|r| \ge 1$ The series diverges.
 
 ### Applications: Compound Interest
 
@@ -590,9 +590,9 @@ Use the logarithm laws to combine terms, then exponentiate both sides.
 
 Solve $\log_2(x + 3) + \log_2(x - 3) = 4$.
 
-By the product rule: $\log_2\!\big((x+3)(x-3)\big) = 4$I.e. $\log_2(x^2 - 9) = 4$.
+By the product rule: $\log_2\!\big((x+3)(x-3)\big) = 4$ I.e. $\log_2(x^2 - 9) = 4$.
 
-$x^2 - 9 = 2^4 = 16$ So $x^2 = 25$Giving $x = 5$ or $x = -5$.
+$x^2 - 9 = 2^4 = 16$ So $x^2 = 25$ Giving $x = 5$ or $x = -5$.
 
 Check domain: $x + 3 \gt 0$ and $x - 3 \gt 0$ requires $x \gt 3$. So $x = -5$ is rejected.
 
@@ -612,12 +612,12 @@ $\log_3 20 = \frac{\ln 20}{\ln 3} = \frac{2.9957\ldots}{1.0986\ldots} \approx 2.
 <details>
 <summary>Worked example: Exponential growth</summary>
 
-A bacteria culture doubles every 3 hours. If the initial population is $500$When will it reach
+A bacteria culture doubles every 3 hours. If the initial population is $500$ When will it reach
 32,000?
 
 $P(t) = 500 \cdot 2^{t/3}$. Set $500 \cdot 2^{t/3} = 32000$:
 
-$2^{t/3} = 64 = 2^6$ So $t/3 = 6$Giving $t = 18$ hours.
+$2^{t/3} = 64 = 2^6$ So $t/3 = 6$ Giving $t = 18$ hours.
 
 Alternatively, using logarithms: $\frac{t}{3}\ln 2 = \ln 64 = 6\ln 2$ So $t = 18$.
 
@@ -673,7 +673,7 @@ $$
 = \frac{(k+1)(2k^2 + 7k + 6)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}
 $$
 
-This equals $\frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}$Which is the formula for $n = k+1$. $\blacksquare$
+This equals $\frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}$ Which is the formula for $n = k+1$. $\blacksquare$
 
 </details>
 
@@ -684,7 +684,7 @@ This equals $\frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}$Which is the formula for $n = k+
 
 Prove $3^{2n} - 1$ is divisible by 8 for all $n \in \mathbb{N}$.
 
-**Base case ($n = 1$):** $3^2 - 1 = 9 - 1 = 8$Which is divisible by 8. True.
+**Base case ($n = 1$):** $3^2 - 1 = 9 - 1 = 8$ Which is divisible by 8. True.
 
 **Inductive hypothesis:** Assume $3^{2k} - 1 = 8m$ for some integer $m$.
 
@@ -707,7 +707,7 @@ Since $9m + 1$ is an integer, $3^{2(k+1)} - 1$ is divisible by 8. $\blacksquare$
 
 **Inductive step:** $2^{k+1} = 2 \cdot 2^k \gt 2k$ (by the hypothesis).
 
-Since $k \ge 1$We have $2k = k + k \ge k + 1$. Therefore $2^{k+1} \gt k + 1$. $\blacksquare$
+Since $k \ge 1$ We have $2k = k + k \ge k + 1$. Therefore $2^{k+1} \gt k + 1$. $\blacksquare$
 
 </details>
 
@@ -715,12 +715,12 @@ Since $k \ge 1$We have $2k = k + k \ge k + 1$. Therefore $2^{k+1} \gt k + 1$. $\
 
 - **Forgetting the base case:** The inductive step alone proves only an implication
   $P(k) \implies P(k+1)$. Without the base case, the chain never starts.
-- **Using what you need to prove:** The inductive hypothesis is $P(k)$Not $P(k+1)$. You must
-  _derive_ $P(k+1)$Not assume it.
+- **Using what you need to prove:** The inductive hypothesis is $P(k)$ Not $P(k+1)$. You must
+  _derive_ $P(k+1)$ Not assume it.
 - **Incorrect algebra:** Errors in the inductive step (especially with fractions or factorisation)
   are the most common source of failed induction .../1-number-and-algebra/3_proof-and-logics.
-- **Wrong starting value:** If the statement is only claimed for $n \ge 3$Verify the base case at
-  $n = 3$Not $n = 1$.
+- **Wrong starting value:** If the statement is only claimed for $n \ge 3$ Verify the base case at
+  $n = 3$ Not $n = 1$.
 
 ## The Binomial Theorem
 

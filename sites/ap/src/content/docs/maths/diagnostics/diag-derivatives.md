@@ -44,7 +44,7 @@ $$
 \frac{dy}{dx} = 6x \, e^{3x^2+1} \sin\!\left(2e^{3x^2+1}\right)
 $$
 
-For $\dfrac{d^2y}{dx^2}$Apply the product rule to $6x \cdot e^{3x^2+1} \cdot \sin(2e^{3x^2+1})$. Let
+For $\dfrac{d^2y}{dx^2}$ Apply the product rule to $6x \cdot e^{3x^2+1} \cdot \sin(2e^{3x^2+1})$. Let
 $A = 6x$$B = e^{3x^2+1}$$C = \sin(2e^{3x^2+1})$. Then:
 
 $$
@@ -89,7 +89,7 @@ the product rule when computing the second derivative.
 
 **Question:**
 
-Given $x^2 y + \sin(xy) = 3$Find $\dfrac{d^2y}{dx^2}$ in terms of $x$ and $y$.
+Given $x^2 y + \sin(xy) = 3$ Find $\dfrac{d^2y}{dx^2}$ in terms of $x$ and $y$.
 
 **Solution:**
 
@@ -111,7 +111,7 @@ $$
 y' = -\frac{2xy + y\cos(xy)}{x^2 + x\cos(xy)} = -\frac{y(2x + \cos(xy))}{x(x + \cos(xy))}
 $$
 
-For $y''$Differentiate $y'$ using the quotient rule. Let $u = -y(2x + \cos(xy))$ and
+For $y''$ Differentiate $y'$ using the quotient rule. Let $u = -y(2x + \cos(xy))$ and
 $v = x(x + \cos(xy))$.
 
 First, $u' = -y'(2x + \cos(xy)) - y\left(2 - \sin(xy)(y + xy')\right)$.
@@ -123,7 +123,7 @@ y'' = \frac{u'v - uv'}{v^2}
 $$
 
 This is extremely tedious but tests whether students correctly apply the product rule to the $xy$
-term inside $\sin(xy)$A common error point. The key misconception: students often write
+term inside $\sin(xy)$ A common error point. The key misconception: students often write
 $\frac{d}{dx}[\sin(xy)] = \cos(xy)$ instead of
 $\cos(xy) \cdot \frac{d}{dx}[xy] = \cos(xy)(y + xy')$.
 
@@ -173,7 +173,7 @@ $c = 1$.
 **not differentiable** at $x = 0$.
 
 This does not contradict the MVT because the MVT requires differentiability on the **open** interval
-$(-1, 8)$ and continuity on the **closed** interval $[-1, 8]$. Since $0 \in (-1, 8)$The hypothesis
+$(-1, 8)$ and continuity on the **closed** interval $[-1, 8]$. Since $0 \in (-1, 8)$ The hypothesis
 of the MVT is actually **not satisfied**.
 
 The fact that we found $c = 1$ is a coincidence -- the MVT conclusion happened to hold even though
@@ -271,7 +271,7 @@ $$
 **Question:**
 
 Find the rectangle of maximum area that can be inscribed in the region bounded by $y = 4 - x^2$ and
-$y = 0$With one side on the $x$-axis. Verify your answer is a maximum using the second derivative
+$y = 0$ With one side on the $x$-axis. Verify your answer is a maximum using the second derivative
 test, and then compute the area between the curve and the rectangle that is not covered by the
 rectangle.
 
@@ -290,7 +290,7 @@ $$
 A''(a) = -12a \lt 0 \text{ for  a > 0
 $$
 
-Since $A''\!\left(\frac{2\sqrt{3}}{3}\right) = -12 \cdot \frac{2\sqrt{3}}{3} = -8\sqrt{3} \lt 0$This
+Since $A''\!\left(\frac{2\sqrt{3}}{3}\right) = -12 \cdot \frac{2\sqrt{3}}{3} = -8\sqrt{3} \lt 0$ This
 is a local maximum (and by endpoints, the global maximum on $[0, 2]$).
 
 Maximum area:

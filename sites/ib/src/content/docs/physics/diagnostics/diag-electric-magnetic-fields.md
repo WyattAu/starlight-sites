@@ -56,22 +56,22 @@ $x = 0.20\,\text{m}$. Take $k = 8.99 \times 10^9\,\text{N}\,\text{m}^2\,\text{C}
 
 (a) At $x = 0.15\,\text{m}$:
 
-**Field from $q_1$** ($+4.0\,\mu\text{C}$Distance $= 0.15\,\text{m}$Direction: away from $q_1$I.e.
+**Field from $q_1$** ($+4.0\,\mu\text{C}$ Distance $= 0.15\,\text{m}$ Direction: away from $q_1$ I.e.
 $+x$):
 
 $$
 E_1 = \frac{kq_1}{r_1^2} = \frac{8.99 \times 10^9 \times 4.0 \times 10^{-6}}{0.0225} = 1.598 \times 10^6\,\text{V}\,\text{m}^{-1}\text{ (in } +x \text{ direction)}
 $$
 
-**Field from $q_2$** ($-3.0\,\mu\text{C}$ at $x = 0.10$Distance $= 0.05\,\text{m}$Direction: towards
-$q_2$I.e. $-x$):
+**Field from $q_2$** ($-3.0\,\mu\text{C}$ at $x = 0.10$ Distance $= 0.05\,\text{m}$ Direction: towards
+$q_2$ I.e. $-x$):
 
 $$
 E_2 = \frac{8.99 \times 10^9 \times 3.0 \times 10^{-6}}{0.0025} = 1.079 \times 10^7\,\text{V}\,\text{m}^{-1}\text{ (in } -x \text{ direction)}
 $$
 
-**Field from $q_3$** ($+2.0\,\mu\text{C}$ at $x = 0.20$Distance $= 0.05\,\text{m}$Direction: away
-from $q_3$I.e. $-x$):
+**Field from $q_3$** ($+2.0\,\mu\text{C}$ at $x = 0.20$ Distance $= 0.05\,\text{m}$ Direction: away
+from $q_3$ I.e. $-x$):
 
 $$
 E_3 = \frac{8.99 \times 10^9 \times 2.0 \times 10^{-6}}{0.0025} = 7.19 \times 10^6\,\text{V}\,\text{m}^{-1}\text{ (in } -x \text{ direction)}
@@ -94,7 +94,7 @@ $$
 The force is in the $+x$ direction (the negative charge is attracted towards the region of stronger
 negative field contribution).
 
-(c) For $x \gt 0.20\,\text{m}$All positive charges push in the $+x$ direction and the negative
+(c) For $x \gt 0.20\,\text{m}$ All positive charges push in the $+x$ direction and the negative
 charge pulls in the $+x$ direction. The net field cannot be zero.
 
 For $x \lt 0$, $q_1$ pushes in the $-x$ direction, $q_2$ attracts in the $+x$ direction, $q_3$
@@ -110,15 +110,15 @@ $$
 \frac{4.0}{a^2} = \frac{3.0}{(a + 0.10)^2} + \frac{2.0}{(a + 0.20)^2}
 $$
 
-By trial: for $a = 0.10$: LHS $= 400$RHS $= 75 + 22.2 = 97.2$ (LHS too large)
+By trial: for $a = 0.10$: LHS $= 400$ RHS $= 75 + 22.2 = 97.2$ (LHS too large)
 
-For $a = 0.40$: LHS $= 25$RHS $= 12 + 5.56 = 17.6$ (LHS still too large)
+For $a = 0.40$: LHS $= 25$ RHS $= 12 + 5.56 = 17.6$ (LHS still too large)
 
-For $a = 0.80$: LHS $= 6.25$RHS $= 3.70 + 2.0 = 5.70$
+For $a = 0.80$: LHS $= 6.25$ RHS $= 3.70 + 2.0 = 5.70$
 
-For $a = 1.0$: LHS $= 4.0$RHS $= 2.48 + 1.39 = 3.87$
+For $a = 1.0$: LHS $= 4.0$ RHS $= 2.48 + 1.39 = 3.87$
 
-For $a = 1.2$: LHS $= 2.78$RHS $= 1.78 + 1.02 = 2.80$
+For $a = 1.2$: LHS $= 2.78$ RHS $= 1.78 + 1.02 = 2.80$
 
 The solution is approximately $x = -1.2\,\text{m}$.
 
@@ -149,7 +149,7 @@ counterexample to show this is false.
 **Solution:**
 
 (a) The electric field at any point has a unique direction and magnitude. If two field lines crossed
-at a point $P$The field at $P$ would have two different directions simultaneously, which is
+at a point $P$ The field at $P$ would have two different directions simultaneously, which is
 impossible because a test charge placed at $P$ can only experience a force in one direction.
 
 More formally: the electric field $\vec{E} = -\nabla V$ is the gradient of a scalar function $V$.
@@ -189,7 +189,7 @@ infinity).
 
 **Question:**
 
-An electron (charge $-e = -1.6 \times 10^{-19}\,\text{C}$Mass
+An electron (charge $-e = -1.6 \times 10^{-19}\,\text{C}$ Mass
 $m_e = 9.11 \times 10^{-31}\,\text{kg}$) moves with velocity
 $\vec{v} = (3.0 \times 10^6\hat{i} + 4.0 \times 10^6\hat{j})\,\text{m}\,\text{s}^{-1}$ in a uniform
 magnetic field $\vec{B} = 0.50\hat{k}\,\text{T}$.
@@ -247,7 +247,7 @@ $T = \frac{2\pi m_e}{eB} = \frac{2\pi \times 9.11 \times 10^{-31}}{1.6 \times 10
 
 (c) The magnetic force is always perpendicular to the velocity
 ($\vec{F} = q\vec{v} \times \vec{B}$ And the cross product is perpendicular to $\vec{v}$). Since
-power $= \vec{F} \cdot \vec{v} = 0$The magnetic force does no work. The kinetic energy and therefore
+power $= \vec{F} \cdot \vec{v} = 0$ The magnetic force does no work. The kinetic energy and therefore
 the speed remain constant.
 
 Speed at any time: $v = 5.0 \times 10^6\,\text{m}\,\text{s}^{-1}$ (unchanged).
@@ -258,7 +258,7 @@ Speed at any time: $v = 5.0 \times 10^6\,\text{m}\,\text{s}^{-1}$ (unchanged).
 
 **Question:**
 
-A proton (mass $1.67 \times 10^{-27}\,\text{kg}$Charge $+1.6 \times 10^{-19}\,\text{C}$) enters a
+A proton (mass $1.67 \times 10^{-27}\,\text{kg}$ Charge $+1.6 \times 10^{-19}\,\text{C}$) enters a
 region with crossed electric and magnetic fields.
 $\vec{E} = 2.0 \times 10^4\,\text{V}\,\text{m}^{-1}$ in the $-y$ direction and
 $\vec{B} = 0.10\,\text{T}$ in the $-z$ direction. The proton enters with velocity
@@ -267,9 +267,9 @@ $\vec{v} = v_0\hat{i}$.
 (a) Calculate the value of $v_0$ for which the proton passes through undeflected (velocity selector
 condition).
 
-(b) If the proton enters at $v = 1.5v_0$Calculate the radius of curvature of its path.
+(b) If the proton enters at $v = 1.5v_0$ Calculate the radius of curvature of its path.
 
-(c) If the proton enters at $v = 0.5v_0$Describe qualitatively the path and determine whether it is
+(c) If the proton enters at $v = 0.5v_0$ Describe qualitatively the path and determine whether it is
 deflected towards the positive or negative $y$-plate.
 
 **Solution:**
@@ -284,7 +284,7 @@ $$
 v_0 = \frac{E}{B} = \frac{2.0 \times 10^4}{0.10} = 2.0 \times 10^5\,\text{m}\,\text{s}^{-1}
 $$
 
-(b) At $v = 1.5v_0 = 3.0 \times 10^5\,\text{m}\,\text{s}^{-1}$The magnetic force exceeds the
+(b) At $v = 1.5v_0 = 3.0 \times 10^5\,\text{m}\,\text{s}^{-1}$ The magnetic force exceeds the
 electric force. The net force (perpendicular to the velocity):
 
 $$
@@ -299,7 +299,7 @@ $$
 r = \frac{mv}{qvB - qE} = \frac{1.67 \times 10^{-27} \times 3.0 \times 10^5}{1.6 \times 10^{-15}} = \frac{5.01 \times 10^{-22}}{1.6 \times 10^{-15}} = 3.13 \times 10^{-7}\,\text{m}
 $$
 
-(c) At $v = 0.5v_0 = 1.0 \times 10^5\,\text{m}\,\text{s}^{-1}$The electric force exceeds the
+(c) At $v = 0.5v_0 = 1.0 \times 10^5\,\text{m}\,\text{s}^{-1}$ The electric force exceeds the
 magnetic force.
 
 Electric force on the proton (in $-y$ direction):
@@ -310,7 +310,7 @@ Magnetic force:
 $F_B = qvB = 1.6 \times 10^{-19} \times 1.0 \times 10^5 \times 0.10 = 1.6 \times 10^{-15}\,\text{N}$
 
 Using the right-hand rule for positive charge: $\vec{v} = v\hat{i}$, $\vec{B} = -B\hat{k}$ So
-$\vec{v} \times \vec{B} = vB(\hat{i} \times (-\hat{k})) = vB\hat{j}$. Force $= qvB\hat{j}$I.e. In
+$\vec{v} \times \vec{B} = vB(\hat{i} \times (-\hat{k})) = vB\hat{j}$. Force $= qvB\hat{j}$ I.e. In
 the $+y$ direction.
 
 Net force:
@@ -338,7 +338,7 @@ resistance $R = 2.0\,\Omega$ is pulled with constant velocity $v = 5.0\,\text{m}
 of a region of uniform magnetic field $B = 0.50\,\text{T}$ directed into the page. The field region
 has width $0.30\,\text{m}$.
 
-At $t = 0$The loop is entirely within the field region with its leading edge at the right boundary
+At $t = 0$ The loop is entirely within the field region with its leading edge at the right boundary
 of the field.
 
 (a) Calculate the induced EMF and current as the loop exits the field.
@@ -357,7 +357,7 @@ Rate of change of area: $\frac{dA}{dt} = -wv = -0.10 \times 5.0 = -0.50\,\text{m
 Induced EMF (magnitude):
 $\varepsilon = B \times w \times v = 0.50 \times 0.10 \times 5.0 = 0.25\,\text{V}$
 
-By Lenz"s law, the induced current opposes the decrease in flux, so it creates a field into the page
+By Lenz's law, the induced current opposes the decrease in flux, so it creates a field into the page
 inside the loop. By the right-hand rule, the current flows clockwise.
 
 Current: $I = \varepsilon/R = 0.25/2.0 = 0.125\,\text{A}$

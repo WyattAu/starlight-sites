@@ -48,7 +48,7 @@ Cathode, and any emitted electrons travel to the anode, producing a measurable c
 The experimental results were surprising and incompatible with classical wave theory:
 
 1. **Threshold frequency.** Electrons are emitted only if the incident light frequency exceeds a
-   **threshold frequency** $f_0$. Below $f_0$No electrons are emitted regardless of intensity or
+   **threshold frequency** $f_0$. Below $f_0$ No electrons are emitted regardless of intensity or
    exposure time.
 2. **Maximum kinetic energy depends on frequency, not intensity.** Increasing the intensity of light
    above $f_0$ increases the number of photoelectrons but not their maximum kinetic energy.
@@ -69,7 +69,7 @@ At low intensity are particularly fatal to the classical picture. A wave spread 
 Would deposit energy continuously; an electron at a specific point on the surface would need to wait
 To accumulate enough energy. Yet experiment shows no delay.
 
-### Einstein"s Explanation (1905)
+### Einstein's Explanation (1905)
 
 Einstein proposed that light consists of discrete packets called **photons**, each with energy:
 
@@ -104,8 +104,8 @@ $$
 
 This equation explains all three key observations:
 
-- Below $f_0$Each photon has insufficient energy to overcome $\phi$ So no emission occurs.
-- Above $f_0$Increasing $f$ increases each photon's energy, raising $E_{k(\max)}$.
+- Below $f_0$ Each photon has insufficient energy to overcome $\phi$ So no emission occurs.
+- Above $f_0$ Increasing $f$ increases each photon's energy, raising $E_{k(\max)}$.
 - Increasing intensity means more photons per second, so more electrons are emitted, but each photon
   still carries the same energy.
 
@@ -183,7 +183,7 @@ And violet light, but not by red or orange light.
 
 ### Intensity and Photocurrent
 
-If the frequency exceeds $f_0$The photocurrent (number of electrons per second) is directly
+If the frequency exceeds $f_0$ The photocurrent (number of electrons per second) is directly
 Proportional to the light intensity. Intensity in the photon picture is:
 
 $$
@@ -236,8 +236,8 @@ Struck by an alpha particle.
 **Why the Thomson model failed:** In the plum pudding model, the positive charge is spread out. The
 Maximum Coulomb force on an alpha particle passing through a diffuse positive sphere would be much
 Smaller than what is needed to produce the observed large-angle deflections. Rutherford calculated
-That to produce a deflection of greater than $90^\circ$The alpha particle must encounter a
-concentrated Charge within a radius of approximately $10^{-14}\mathrm{ m$About four orders of
+That to produce a deflection of greater than $90^\circ$ The alpha particle must encounter a
+concentrated Charge within a radius of approximately $10^{-14}\mathrm{ m$ About four orders of
 magnitude smaller Than the known atomic radius ($\approx 10^{-10}\mathrm{ m$).
 
 ### The Stability Problem
@@ -334,7 +334,7 @@ $n \to \infty$ (ionisation).
 
 ### Energy Levels of Hydrogen (HL)
 
-The energy of the $n$Th level:
+The energy of the $n$ Th level:
 
 $$
 E_n = -\frac{13.6\mathrm{ eV}{n^2}
@@ -527,7 +527,7 @@ Spread in momentum, and vice versa.
 - Electrons in atoms cannot have well-defined orbits (as in the Bohr model). Instead, we describe
   them using probability distributions (orbitals).
 - An electron confined to a nucleus ($\Delta x \approx 10^{-14}\mathrm{ m$) would have a momentum
-  uncertainty far exceeding $mc$Implying relativistic speeds -- another argument against electrons
+  uncertainty far exceeding $mc$ Implying relativistic speeds -- another argument against electrons
   existing inside the nucleus.
 
 There is also an energy-time uncertainty relation:
@@ -601,7 +601,7 @@ $$
 E_b = \Delta m \cdot c^2
 $$
 
-The binding energy per nucleon, $E_b/A$Indicates nuclear stability. A plot of $E_b/A$ versus $A$
+The binding energy per nucleon, $E_b/A$ Indicates nuclear stability. A plot of $E_b/A$ versus $A$
 Shows that iron-56 has the highest binding energy per nucleon ($\approx 8.8\mathrm{ MeV/nucleon$).
 Nuclei with lower $A$ can gain stability by fusing (moving right on the curve), while nuclei with
 Higher $A$ can gain stability by fissioning (moving left).
@@ -781,7 +781,7 @@ Fusion on Earth remains an active area of research (e.g., tokamak reactors and l
 ### Energy Released in Fission
 
 The energy released in a single fission event of U-235 is approximately $200\mathrm{ MeV$. This can
-Be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$While The
+Be estimated from the binding energy per nucleon: U-235 has about $7.6\mathrm{ MeV/nucleon$ While The
 fission products have about $8.5\mathrm{ MeV/nucleon$. The difference of about
 $0.9\mathrm{ MeV/nucleon$ times 235 nucleons gives approximately $210\mathrm{ MeV$.
 
@@ -830,7 +830,7 @@ See the examples integrated throughout the sections above.
    (joules) for calculations involving $h$$c$ And $m$ And convert to eV at the end if needed.
 7. **Nuclear equations** -- always check conservation of $Z$ and $A$ on both sides.
 8. **De Broglie wavelength** -- use the relativistic momentum $p = \gamma mv$ for particles moving
-   at speeds approaching $c$. For electrons accelerated through less than about $10\mathrm{ kV$The
+   at speeds approaching $c$. For electrons accelerated through less than about $10\mathrm{ kV$ The
    non-relativistic formula is accurate enough.
 
 ## Practice Questions

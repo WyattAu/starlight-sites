@@ -21,7 +21,7 @@ with a focus on attachment, cognitive development, and adolescence.
 
 ## Pages
 
-- [Attachment Theory](/psychology/developmental/attachment-theory/) -- Bowlby"s theory, Ainsworth's Strange Situation, types
+- [Attachment Theory](/psychology/developmental/attachment-theory/) -- Bowlby's theory, Ainsworth's Strange Situation, types
   of attachment, and cross-cultural variations.
 - [Cognitive Development](/psychology/developmental/cognitive-development/) -- Piaget's stages, Vygotsky's sociocultural
   theory, and their implications for education.

@@ -552,7 +552,7 @@ $\blacksquare$
    (not $-\pi$), and the roots are distributed starting from angle $\pi/n$.
 3. **Locus regions:** $|z - z_0| = r$ is a circle (boundary only). Use $\leq$ or $\geq$ for the
    interior or exterior including the boundary. Shade carefully in Argand diagrams.
-4. **Forgetting all roots:** For $z^n = w$There are exactly $n$ distinct roots. Do not forget to
+4. **Forgetting all roots:** For $z^n = w$ There are exactly $n$ distinct roots. Do not forget to
    include $k = 0, 1, \ldots, n-1$.
 
 ---
@@ -644,13 +644,13 @@ $x^2 + y^2 + 4y = \dfrac{17}{3}$
 
 $x^2 + (y + 2)^2 = \dfrac{17}{3} + 4 = \dfrac{29}{3}$
 
-Centre: $(0, -2)$Radius: $\sqrt{29/3}$.
+Centre: $(0, -2)$ Radius: $\sqrt{29/3}$.
 
 **(b)** $|z|$ is the distance from the origin to a point on the circle.
 
 Distance from origin to centre: $\sqrt{0^2 + (-2)^2} = 2$.
 
-Minimum $|z| = 2 - \sqrt{29/3}$. Since $\sqrt{29/3} \approx 3.11 > 2$This is negative, so the
+Minimum $|z| = 2 - \sqrt{29/3}$. Since $\sqrt{29/3} \approx 3.11 > 2$ This is negative, so the
 Minimum is $|\text{radius} - d| = \sqrt{29/3} - 2$.
 
 Maximum $|z| = 2 + \sqrt{29/3}$.
@@ -668,9 +668,9 @@ Factorised as $(z-1)(z+1)(z^2-z+1)(z^2+z+1)$.
 
 **Solution.** The sixth roots of unity are $e^{ik\pi/3}$ for $k = 0, 1, \ldots, 5$:
 
-$k = 0$: $z = 1$Factor $(z - 1)$. $k = 3$: $z = e^{i\pi} = -1$Factor $(z + 1)$. $k = 1, 5$:
-$z = e^{i\pi/3}$ and $z = e^{i5\pi/3}$Which are conjugate. Their combined factor is
-$z^2 - 2\cos(\pi/3)z + 1 = z^2 - z + 1$. $k = 2, 4$: $z = e^{i2\pi/3}$ and $z = e^{i4\pi/3}$Which
+$k = 0$: $z = 1$ Factor $(z - 1)$. $k = 3$: $z = e^{i\pi} = -1$ Factor $(z + 1)$. $k = 1, 5$:
+$z = e^{i\pi/3}$ and $z = e^{i5\pi/3}$ Which are conjugate. Their combined factor is
+$z^2 - 2\cos(\pi/3)z + 1 = z^2 - z + 1$. $k = 2, 4$: $z = e^{i2\pi/3}$ and $z = e^{i4\pi/3}$ Which
 Are conjugate. Their combined factor is $z^2 - 2\cos(2\pi/3)z + 1 = z^2 + z + 1$.
 
 Therefore $z^6 - 1 = (z-1)(z+1)(z^2 - z + 1)(z^2 + z + 1)$. $\blacksquare$
@@ -714,7 +714,7 @@ The constraint $0 \leq \arg(z - i) \leq \pi/4$ means the region between the posi
 $i$) and the line at $45^\circ$ (from $i$).
 
 The intersection of the disc with this sector gives $R$. The line $\arg(z - i) = \pi/4$ is the ray
-From $i$ along the direction $(1, 1)$Which has Cartesian equation $y - 1 = x$I.e., $y = x + 1$.
+From $i$ along the direction $(1, 1)$ Which has Cartesian equation $y - 1 = x$ I.e., $y = x + 1$.
 
 The disc boundary $(x)^2 + (y - 3)^2 = 4$ intersects $y = x + 1$ at:
 
@@ -753,7 +753,7 @@ $$
 v^2 = \frac{4y^2}{(1+y^2)^2} = \frac{4\!\left(\frac{2}{u-1} - 1\right)}{\frac{4}{(u-1)^2}} = \frac{\frac{8 - 2(u-1)}{u-1}}{\frac{4}{(u-1)^2}} = \frac{(10 - 2u)(u-1)}{4} = \frac{(5-u)(u-1)}{2}
 $$
 
-The image is the arc of the circle defined by $2v^2 = (5-u)(u-1)$ for $u \geq 1$Which is a circle
+The image is the arc of the circle defined by $2v^2 = (5-u)(u-1)$ for $u \geq 1$ Which is a circle
 With centre $(3, 0)$ and radius $2$ in the $w$-plane.
 
 ### Example 9.5: Solving $z^n = w$ with non-trivial arguments
@@ -766,7 +766,7 @@ $$
 z_k = 8^{1/5}\,e^{i(\pi/4 + 2k\pi)/5} = 2^{3/5}\,e^{i(\pi + 8k\pi)/20}, \quad k = 0, 1, 2, 3, 4
 $$
 
-The five roots lie on a circle of radius $2^{3/5}$Equally spaced starting from angle $\pi/20$.
+The five roots lie on a circle of radius $2^{3/5}$ Equally spaced starting from angle $\pi/20$.
 
 ### Example 9.6: Complex conjugate roots and polynomial equations
 
@@ -990,7 +990,7 @@ $$
 
 ### Question 12
 
-Given $z_1 = 2 + 3i$ and $z_2 = 1 - i$Find the complex number $z$ such that $z_1$$z$$z_2$ form An
+Given $z_1 = 2 + 3i$ and $z_2 = 1 - i$ Find the complex number $z$ such that $z_1$$z$$z_2$ form An
 equilateral triangle, giving both possible values of $z$.
 
 <details>
@@ -1098,7 +1098,7 @@ $\boxed{x = -1,\; x = -1+2i,\; x = -1-2i}$
 
 ### Example 12.6: Transformation, inversion
 
-**Problem.** Under the transformation $w = \dfrac{1}{z}$Find the image of the line $x = 2$.
+**Problem.** Under the transformation $w = \dfrac{1}{z}$ Find the image of the line $x = 2$.
 
 **Solution.** $z = 2 + iy$$w = u + iv = \dfrac{1}{2+iy} = \dfrac{2-iy}{4+y^2}$.
 
@@ -1150,7 +1150,7 @@ $z_k = e^{2\pi ik/n}$ for $k = 0, 1, \ldots, n-1$.
 
 $|z_k| = 1$ for all $k$ (on the unit circle).
 
-The angular separation between consecutive roots is $\dfrac{2\pi}{n}$Which is Constant.
+The angular separation between consecutive roots is $\dfrac{2\pi}{n}$ Which is Constant.
 
 Therefore the roots are the vertices of a regular $n$-gon inscribed in the unit circle.
 $\blacksquare$
@@ -1289,15 +1289,15 @@ This is a circle (after simplification).
 
 ### 15.1 De Moivre and roots of unity, applications
 
-The $n$Th roots of unity are equally spaced on the unit circle and have important properties:
+The $n$ Th roots of unity are equally spaced on the unit circle and have important properties:
 
 - They form a cyclic group under multiplication
-- The sum of all $n$Th roots is zero: $\displaystyle\sum_{k=0}^{n-1} e^{2\pi ik/n} = 0$
+- The sum of all $n$ Th roots is zero: $\displaystyle\sum_{k=0}^{n-1} e^{2\pi ik/n} = 0$
 - Products of roots of unity are also roots of unity
 
 ### 15.2 Complex logarithms
 
-$\ln z = \ln|z| + i\arg z$Where $\arg z$ is multi-valued.
+$\ln z = \ln|z| + i\arg z$ Where $\arg z$ is multi-valued.
 
 $\ln z = \ln|z| + i(\theta + 2k\pi)$ for $k \in \mathbb{Z}$.
 

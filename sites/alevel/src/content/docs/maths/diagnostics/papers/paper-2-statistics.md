@@ -77,9 +77,9 @@ highest frequency and the class with the highest frequency density. [3 marks]
 An economist collects data on the annual income (in thousands of pounds) and annual savings (in
 hundreds of pounds) for 7 households:
 
-| Income ($x$In $\pounds 1000$) | 15  | 22  | 30  | 35  | 42  | 55  | 68  |
+| Income ($x$ In $\pounds 1000$) | 15  | 22  | 30  | 35  | 42  | 55  | 68  |
 | ----------------------------- | --- | --- | --- | --- | --- | --- | --- |
-| Savings ($y$In $\pounds 100$) | 3   | 8   | 12  | 18  | 22  | 35  | 48  |
+| Savings ($y$ In $\pounds 100$) | 3   | 8   | 12  | 18  | 22  | 35  | 48  |
 
 **(a)** Calculate the product moment correlation coefficient (PMCC) for this data. [4 marks]
 
@@ -87,7 +87,7 @@ hundreds of pounds) for 7 households:
 the PMCC of $u$ and $v$ will be different from the PMCC of $x$ and $y$ because "the units have
 changed." Determine whether this claim is correct, and explain your reasoning. [2 marks]
 
-**(c)** Calculate Spearman"s rank correlation coefficient for the original data. [2 marks]
+**(c)** Calculate Spearman's rank correlation coefficient for the original data. [2 marks]
 
 **(d)** Explain why the PMCC is the more appropriate measure of correlation here rather than
 Spearman's rank coefficient, and state one scenario where Spearman's rank would be preferred. [2
@@ -285,7 +285,7 @@ $$
 
 **(b)** The student's claim is **incorrect**. The PMCC is invariant under linear coding of the form
 $u = ax + b$ and $v = cy + d$ (where $a, c \neq 0$). Here $u = \frac{1}{1000}x$ and
-$v = \frac{1}{100}y$Which are linear transformations.
+$v = \frac{1}{100}y$ Which are linear transformations.
 
 To see why: the PMCC is defined as $r = \frac{S_{xy}}{\sqrt{S_{xx} \cdot S_{yy}}}$.
 Under coding:
@@ -426,7 +426,7 @@ $$
 \mathrm{P}(D \mid +) = \frac{\mathrm{P}(+ \mid D) \cdot \mathrm{P}(D)}{\mathrm{P}(+)}
 $$
 
-They would be equal only when $\mathrm{P}(D) = \mathrm{P}(+)$I.e., when the prevalence equals the
+They would be equal only when $\mathrm{P}(D) = \mathrm{P}(+)$ I.e., when the prevalence equals the
 overall probability of a positive test. This is a very specific condition that would not generally
 hold.
 
@@ -517,7 +517,7 @@ $$
 
 The p-value is approximately 0.0414.
 
-Since $0.0414 \lt 0.05$The result is statistically significant at the 5% level.
+Since $0.0414 \lt 0.05$ The result is statistically significant at the 5% level.
 
 **(b)** The researcher's statement contains two errors:
 
@@ -541,7 +541,7 @@ probability that $H_0$ is true. The p-value is:
 > The probability of obtaining a test statistic at least as extreme as the one observed, **assuming
 > $H_0$ is true**.
 
-The p-value is a conditional probability: $\mathrm{P}(\text{data} \mid H_0)$Not
+The p-value is a conditional probability: $\mathrm{P}(\text{data} \mid H_0)$ Not
 $\mathrm{P}(H_0 \mid \text{data})$.
 
 A large p-value means the observed data is consistent with $H_0$ But it does not mean $H_0$ is

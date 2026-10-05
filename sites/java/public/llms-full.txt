@@ -1200,7 +1200,7 @@ Encoding is used; it is determined automatically at construction time.
 ### When to Use Each
 
 **`String`**, Use for values that do not change. Literals, constants, method return values for
-Immutable data, keys in maps, and any case where immutability is desired. The JVM"s escape analysis
+Immutable data, keys in maps, and any case where immutability is desired. The JVM's escape analysis
 And JIT can sometimes optimize string concatenation into `StringBuilder` automatically.
 
 **`StringBuilder`**, Use for building strings in a single thread. This covers the vast majority of
@@ -21351,7 +21351,7 @@ Dependencies, plugins, and build configuration.
 
 ### Lifecycle Phases
 
-Maven"s build lifecycle is a sequence of phases. Each phase delegates to plugins that implement the
+Maven's build lifecycle is a sequence of phases. Each phase delegates to plugins that implement the
 Behavior. Running a phase executes all prior phases in order.
 
 | Phase      | Description                                                         |

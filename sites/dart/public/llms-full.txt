@@ -1781,7 +1781,7 @@ Dart runs on a **single-threaded event loop** with an isolated memory model. Unl
 Threads (Java, C++, Rust), Dart uses **event-driven concurrency**, the single thread processes
 Events from a queue, interleaving async operations without blocking.
 
-This design is fundamental to Flutter"s architecture: the UI must remain responsive (60 fps) while
+This design is fundamental to Flutter's architecture: the UI must remain responsive (60 fps) while
 Performing I/O (network requests, file reads, database queries). If any operation blocks the thread,
 The entire UI freezes.
 
@@ -16985,7 +16985,7 @@ Program, no runtime type error related to null dereference can occur. The guaran
 Does not depend on the programmer annotating every variable correctly, because the type checker
 Enforces consistency at all boundaries.
 
-Unsound null safety (e.g., TypeScript"s `strictNullChecks`Kotlin's platform types at interop
+Unsound null safety (e.g., TypeScript's `strictNullChecks`Kotlin's platform types at interop
 Boundaries) means the compiler can miss cases. A variable declared non-nullable might still be
 `null` at runtime due to unchecked casts, interop boundaries, or generics erasure. Dart's null
 Safety is sound because:
@@ -19553,7 +19553,7 @@ On widget composition and core primitives.
 
 Dart runs on the server via `dart run` or compiled AOT binaries via `dart compile exe`. The `shelf`
 Package provides middleware-based HTTP handling, and the `dart:io` library gives you sockets, file
-I/O, and process management. Google"s internal infrastructure runs significant Dart services, and
+I/O, and process management. Google's internal infrastructure runs significant Dart services, and
 The ecosystem includes ORM-like packages (`drift`), gRPC support (`grpc`), and Docker base images
 (`dart:stable`).
 

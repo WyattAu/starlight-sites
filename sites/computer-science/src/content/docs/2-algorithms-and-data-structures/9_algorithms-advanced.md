@@ -32,7 +32,7 @@ A **flow network** is a directed graph $G = (V, E)$ with:
 
 - A **source** $s \in V$ and a **sink** $t \in V$.
 - A **capacity function** $c : E \to \mathbb{R}_{\geq 0}$.
-- For every edge $(u, v) \in E$The reverse edge $(v, u) \notin E$ (we can add reverse edges with
+- For every edge $(u, v) \in E$ The reverse edge $(v, u) \notin E$ (we can add reverse edges with
   capacity 0).
 
 A **flow** is a function $f : V \times V \to \mathbb{R}_{\geq 0}$ satisfying:
@@ -60,7 +60,7 @@ Therefore
 $|f^*| = \sum_{u \in S, v \in V \setminus S} f^*(u, v) - \sum_{u \in S, v \in V \setminus S} f^*(v, u) = \sum_{u \in S, v \in V \setminus S} c(u, v)$.
 
 Since any flow has value at most the capacity of any cut, and we have found a cut with capacity
-$|f^*|$The maximum flow equals the minimum cut. $\blacksquare$
+$|f^*|$ The maximum flow equals the minimum cut. $\blacksquare$
 
 ### 1.2 Ford-Fulkerson Method
 
@@ -105,8 +105,8 @@ The **Edmonds-Karp algorithm** is Ford-Fulkerson where augmenting paths are foun
 _Proof._ The key insight is that each edge can become a "critical edge" (the bottleneck of an
 augmenting path) at most $O(V)$ times. Each time an edge $(u, v)$ becomes critical, the distance
 from $s$ to $u$ in the residual graph strictly increases. Since the distance from $s$ to any vertex
-is at most $V - 1$Each edge can become critical at most $V/2$ times (the distance increases by at
-least 2). With $E$ edges, the total number of augmentations is $O(VE)$. Each BFS takes $O(E)$Giving
+is at most $V - 1$ Each edge can become critical at most $V/2$ times (the distance increases by at
+least 2). With $E$ edges, the total number of augmentations is $O(VE)$. Each BFS takes $O(E)$ Giving
 $O(VE^2)$. $\blacksquare$
 
 <details>
@@ -159,8 +159,8 @@ $a \xrightarrow{3} b$, $a \xrightarrow{7} c$. $b \xrightarrow{4} c$. $c \xrighta
 **Augmentation 5:** BFS from $s$: $s$ has no outgoing edges with residual capacity. Wait, $s \to a$
 has 0 residual, $s \to b$ has 0 residual. But we have reverse edges!
 
-$s$ has reverse edge from $b$: $b \xrightarrow{8} s$. But we are searching from $s$Not to $s$. The
-reverse edge $a \xrightarrow{8} s$ goes into $s$Which is irrelevant for BFS from $s$.
+$s$ has reverse edge from $b$: $b \xrightarrow{8} s$. But we are searching from $s$ Not to $s$. The
+reverse edge $a \xrightarrow{8} s$ goes into $s$ Which is irrelevant for BFS from $s$.
 
 Hmm, actually BFS from $s$ can only follow outgoing edges. $s$"s outgoing residual edges are:
 $s \xrightarrow{0} a$ (no), $s \xrightarrow{0} b$ (no). There are no reverse edges from $s$ to
@@ -185,7 +185,7 @@ Maximum flow = 18.
 
 ### 1.4 Applications of Maximum Flow
 
-**Bipartite matching.** Given a bipartite graph with partitions $L$ and $R$Create a flow network:
+**Bipartite matching.** Given a bipartite graph with partitions $L$ and $R$ Create a flow network:
 source $s$ connected to all $u \in L$ with capacity 1, all edges $(u, v)$ with $u \in L$, $v \in R$
 have capacity 1, all $v \in R$ connected to sink $t$ with capacity 1. Maximum flow = maximum
 matching.
@@ -252,10 +252,10 @@ $\min(3, 2, 2) = 2$. Push 2. Cost so far: $2 \times 4 = 8$.
 
 **Augmentation 2:** Residual graph. Shortest path from $s$ to $t$:
 
-- $s \to b \to t$ (first edge): cost $3 + 2 = 5$Bottleneck $\min(2, 1) = 1$. Push 1. Cost:
+- $s \to b \to t$ (first edge): cost $3 + 2 = 5$ Bottleneck $\min(2, 1) = 1$. Push 1. Cost:
   $8 + 5 = 13$.
 
-**Augmentation 3:** Residual. Shortest path: $s \to a \to t$: cost $2 + 4 = 6$Bottleneck
+**Augmentation 3:** Residual. Shortest path: $s \to a \to t$: cost $2 + 4 = 6$ Bottleneck
 $\min(1, 3) = 1$. Push 1. Cost: $13 + 6 = 19$.
 
 Total flow = $2 + 1 + 1 = 4$. Total cost = 19.
@@ -264,7 +264,7 @@ Flow assignment: $f(s,a) = 3$, $f(s,b) = 1$, $f(a,b) = 2$, $f(a,t) = 1$, $f(b,t)
 edge, 2 on second).
 
 Verify: inflow at $s$ = $3 + 1 = 4$ = outflow at $t$ = $1 + 3 = 4$. ✓ Node $a$: inflow = 3, outflow
-= $2 + 1 = 3$. ✓ Node $b$: inflow = $1 + 2 = 3$Outflow = $1 + 2 = 3$. ✓
+= $2 + 1 = 3$. ✓ Node $b$: inflow = $1 + 2 = 3$ Outflow = $1 + 2 = 3$. ✓
 
 </details>
 
@@ -272,7 +272,7 @@ Verify: inflow at $s$ = $3 + 1 = 4$ = outflow at $t$ = $1 + 3 = 4$. ✓ Node $a$
 
 ### 2.1 Interval Scheduling and Weighted Interval Scheduling
 
-**Weighted interval scheduling.** Given $n$ intervals $[s_i, f_i)$ with weights $w_i$Find a
+**Weighted interval scheduling.** Given $n$ intervals $[s_i, f_i)$ with weights $w_i$ Find a
 maximum-weight subset of non-overlapping intervals.
 
 **DP formulation.** Sort intervals by finish time $f_1 \leq f_2 \leq \cdots \leq f_n$. Define $p(j)$
@@ -291,8 +291,8 @@ DP itself. Total: $O(n \log n)$.
 **Theorem 2.1.** The weighted interval scheduling DP correctly computes the maximum weight of
 non-overlapping intervals.
 
-_Proof._ By strong induction on $j$. For the optimal solution for intervals $\{1, \ldots, j\}$Either
-interval $j$ is included (then the remaining solution is optimal for $\{1, \ldots, p(j)\}$By optimal
+_Proof._ By strong induction on $j$. For the optimal solution for intervals $\{1, \ldots, j\}$ Either
+interval $j$ is included (then the remaining solution is optimal for $\{1, \ldots, p(j)\}$ By optimal
 substructure) or it is not (then the solution is optimal for $\{1, \ldots, j-1\}$). The recurrence
 considers both cases. $\blacksquare$
 
@@ -390,16 +390,16 @@ Compute $e[i, j]$:
 - $e[3, 3] = w(3,3) = 0.3$
 
 - $e[1, 2]$: root $r = 1$: $e[1,0] + e[2,2] + w(1,2) = 0.1 + 0.4 + 0.8 = 1.3$. root $r = 2$:
-  $e[1,1] + e[3,2] + w(1,2) = 0.5 + 0.1 + 0.8 = 1.4$. Minimum: $e[1, 2] = 1.3$Root = 1.
+  $e[1,1] + e[3,2] + w(1,2) = 0.5 + 0.1 + 0.8 = 1.4$. Minimum: $e[1, 2] = 1.3$ Root = 1.
 
 - $e[2, 3]$: root $r = 2$: $e[2,1] + e[3,3] + w(2,3) = 0.1 + 0.3 + 0.6 = 1.0$. root $r = 3$:
-  $e[2,2] + e[4,3] + w(2,3) = 0.4 + 0.1 + 0.6 = 1.1$. Minimum: $e[2, 3] = 1.0$Root = 2.
+  $e[2,2] + e[4,3] + w(2,3) = 0.4 + 0.1 + 0.6 = 1.1$. Minimum: $e[2, 3] = 1.0$ Root = 2.
 
 - $e[1, 3]$: root $r = 1$: $e[1,0] + e[2,3] + w(1,3) = 0.1 + 1.0 + 1.0 = 2.1$. root $r = 2$:
   $e[1,1] + e[3,3] + w(1,3) = 0.5 + 0.3 + 1.0 = 1.8$. root $r = 3$:
-  $e[1,2] + e[4,3] + w(1,3) = 1.3 + 0.1 + 1.0 = 2.4$. Minimum: $e[1, 3] = 1.8$Root = 2.
+  $e[1,2] + e[4,3] + w(1,3) = 1.3 + 0.1 + 1.0 = 2.4$. Minimum: $e[1, 3] = 1.8$ Root = 2.
 
-Optimal BST: root = $k_2 = 2$Left child = $k_1 = 1$Right child = $k_3 = 3$. Expected search cost:
+Optimal BST: root = $k_2 = 2$ Left child = $k_1 = 1$ Right child = $k_3 = 3$. Expected search cost:
 1.8.
 
 </details>
@@ -436,7 +436,7 @@ space.
 #### 2.4.1 Divide and Conquer DP
 
 When the recurrence has the form $dp[i][j] = \min_{k < j} \{dp[i-1][k] + C(k, j)\}$ and the optimal
-$k$ is monotone in $j$We can use divide and conquer to compute each row in $O(n \log n)$ instead of
+$k$ is monotone in $j$ We can use divide and conquer to compute each row in $O(n \log n)$ instead of
 $O(n^2)$.
 
 **Theorem 2.4 (Monge / Quadrangle Inequality).** If $C$ satisfies the quadrangle inequality
@@ -505,13 +505,13 @@ time.
 
 _Proof._ The key observation is that the variable $k$ (the current match length) increases by at
 most 1 in each iteration of the outer loop, and decreases by at least 1 each time the while loop
-executes. Since $k$ starts at 0 and never exceeds $m$The total number of decreases across all
+executes. Since $k$ starts at 0 and never exceeds $m$ The total number of decreases across all
 iterations is at most $n$ (the number of increases). The total work is $O(n + m)$. $\blacksquare$
 
 <details>
 <summary>Worked Example: KMP String Matching</summary>
 
-Pattern: $P = \text{ababaca}$Text: $T = \text{abababaca}$.
+Pattern: $P = \text{ababaca}$ Text: $T = \text{abababaca}$.
 
 Compute prefix function:
 
@@ -542,7 +542,7 @@ Rabin-Karp uses hashing to compare the pattern with substrings of the text in $O
 per comparison.
 
 **Rolling hash.** Given a hash function
-$h(s) = \left(\sum_{i=0}^{m-1} s[i] \cdot p^{m-1-i}\right) \bmod q$The hash of the substring
+$h(s) = \left(\sum_{i=0}^{m-1} s[i] \cdot p^{m-1-i}\right) \bmod q$ The hash of the substring
 $T[i+1..i+m]$ can be computed from the hash of $T[i..i+m-1]$ in $O(1)$:
 
 $$
@@ -629,13 +629,13 @@ $\mathrm{OPT} / \alpha$.
 
 **Problem.** Find the minimum set of vertices that touches every edge.
 
-**Algorithm:** Repeatedly pick an arbitrary edge $(u, v)$Add both $u$ and $v$ to the cover, and
+**Algorithm:** Repeatedly pick an arbitrary edge $(u, v)$ Add both $u$ and $v$ to the cover, and
 remove all edges incident to $u$ or $v$.
 
 **Theorem 5.1.** This algorithm gives a 2-approximation for minimum vertex cover.
 
 _Proof._ The algorithm picks a set $C$ of edges that form a matching (no two share a vertex). For
-each edge in $C$Both endpoints are added to the cover, so $|S| = 2|C|$. Any vertex cover must
+each edge in $C$ Both endpoints are added to the cover, so $|S| = 2|C|$. Any vertex cover must
 include at least one endpoint of each edge in $C$ (since $C$ is a matching), so
 $\mathrm{OPT} \geq |C|$. Therefore $|S| = 2|C| \leq 2 \cdot \mathrm{OPT}$. $\blacksquare$
 
@@ -665,16 +665,16 @@ $(3/2 - \epsilon)$-approximation was discovered.
 ### 5.4 Set Cover -- $\ln n$-Approximation
 
 **Problem.** Given a universe $U$ of $n$ elements and a collection $\mathcal{S}$ of subsets of
-$U$Find the minimum number of subsets from $\mathcal{S}$ whose union is $U$.
+$U$ Find the minimum number of subsets from $\mathcal{S}$ whose union is $U$.
 
 **Greedy algorithm:** Repeatedly pick the set covering the most uncovered elements.
 
 **Theorem 5.3.** The greedy algorithm gives a $(\ln n + 1)$-approximation for set cover.
-Furthermore, unless $\text{P} = \text{NP}$No polynomial-time algorithm can do better than
+Furthermore, unless $\text{P} = \text{NP}$ No polynomial-time algorithm can do better than
 $(1 - o(1)) \ln n$.
 
 _Proof (approximation ratio)._ Let $n_t$ be the number of uncovered elements after $t$ iterations.
-In iteration $t+1$The greedy algorithm picks a set covering at least $n_t / \mathrm{OPT}$ elements
+In iteration $t+1$ The greedy algorithm picks a set covering at least $n_t / \mathrm{OPT}$ elements
 (since OPT sets cover all $n_t$ elements). So $n_{t+1} \leq n_t (1 - 1/\mathrm{OPT})$. After
 $k = \mathrm{OPT} \cdot \ln n$ iterations,
 $n_k \leq n(1 - 1/\mathrm{OPT})^{\mathrm{OPT} \cdot \ln n} \leq n \cdot e^{-\ln n} = 1$.
@@ -682,10 +682,10 @@ $\blacksquare$
 
 ### 5.5 Inapproximability
 
-**Theorem 5.4 (PCP Theorem).** Unless $\text{P} = \text{NP}$There is no polynomial-time algorithm
+**Theorem 5.4 (PCP Theorem).** Unless $\text{P} = \text{NP}$ There is no polynomial-time algorithm
 that approximates MAX-3SAT to within any constant factor better than $7/8$.
 
-**Theorem 5.5.** Unless $\text{P} = \text{NP}$TSP (without triangle inequality) cannot be
+**Theorem 5.5.** Unless $\text{P} = \text{NP}$ TSP (without triangle inequality) cannot be
 approximated to within any polynomial factor.
 
 ## 6. Randomised Algorithms
@@ -698,17 +698,17 @@ approximated to within any polynomial factor.
 
 ### 6.2 Miller-Rabin Primality Test
 
-Tests whether $n$ is prime. For any odd composite $n$The probability of a false positive (declaring
+Tests whether $n$ is prime. For any odd composite $n$ The probability of a false positive (declaring
 $n$ prime) is at most $1/4$ per random witness.
 
 **Algorithm:**
 
 1. Write $n - 1 = 2^s \cdot d$ with $d$ odd.
 2. Pick random $a \in \{2, \ldots, n-2\}$.
-3. Compute $x = a^d \bmod n$. If $x = 1$ or $x = n - 1$Declare "probably prime."
-4. For $r = 1, \ldots, s - 1$: compute $x = x^2 \bmod n$. If $x = n - 1$Declare "probably prime." If
-   $x = 1$Declare "composite."
-5. If we reach $r = s$ without $x = n - 1$Declare "composite."
+3. Compute $x = a^d \bmod n$. If $x = 1$ or $x = n - 1$ Declare "probably prime."
+4. For $r = 1, \ldots, s - 1$: compute $x = x^2 \bmod n$. If $x = n - 1$ Declare "probably prime." If
+   $x = 1$ Declare "composite."
+5. If we reach $r = s$ without $x = n - 1$ Declare "composite."
 
 **Theorem 6.1.** If $n$ is an odd composite number, the Miller-Rabin test declares $n$ "probably prime" for at most $(n-1)/4$ choices of $a \in \{2, \ldots, n-2\}$.
 
@@ -764,17 +764,17 @@ $(S, V \setminus S)$. Then $(u, v)$ is in every minimum spanning tree of $G$.
 _Proof._ Suppose for contradiction that $(u, v)$ is not in some MST $T$. Adding $(u, v)$ to $T$
 creates a cycle. This cycle must contain another edge $(x, y)$ crossing the cut $(S, V \setminus S)$
 (since $u \in S$ and $v \in V \setminus S$). Removing $(x, y)$ breaks the cycle and gives a spanning
-tree $T'$. Since $w(u, v) < w(x, y)$ (by the cut property), $w(T') < w(T)$Contradicting the
+tree $T'$. Since $w(u, v) < w(x, y)$ (by the cut property), $w(T') < w(T)$ Contradicting the
 minimality of $T$. $\blacksquare$
 
 **Theorem 7.2 (Cycle Property).** Let $C$ be a cycle in $G$ and let $(u, v)$ be the maximum-weight
 edge on $C$. Then $(u, v)$ is not in any minimum spanning tree.
 
 _Proof._ Suppose $(u, v)$ is in some MST $T$. Removing $(u, v)$ from $T$ disconnects it into two
-components. Since $(u, v)$ is on cycle $C$There exists another edge $(x, y)$ on $C$ connecting the
+components. Since $(u, v)$ is on cycle $C$ There exists another edge $(x, y)$ on $C$ connecting the
 two components. Adding $(x, y)$ to $T - \{(u, v)\}$ gives a spanning tree $T'$. Since
 $w(x, y) < w(u, v)$ (because $(u, v)$ is the maximum-weight edge on $C$),
-$w(T') < w(T)$Contradicting minimality. $\blacksquare$
+$w(T') < w(T)$ Contradicting minimality. $\blacksquare$
 
 ### 7.2 Prim's Algorithm with Fibonacci Heaps
 
@@ -798,29 +798,29 @@ Start at vertex $A$. Key values: $A = 0$, $B = \infty$, $C = \infty$, $D = \inft
 
 **Step 1:** Extract $A$ (key = 0). Update neighbours:
 
-- $B$: $\min(\infty, 4) = 4$Parent = $A$.
-- $C$: $\min(\infty, 1) = 1$Parent = $A$.
-- $E$: $\min(\infty, 6) = 6$Parent = $A$.
+- $B$: $\min(\infty, 4) = 4$ Parent = $A$.
+- $C$: $\min(\infty, 1) = 1$ Parent = $A$.
+- $E$: $\min(\infty, 6) = 6$ Parent = $A$.
 
 Keys: $B=4$, $C=1$, $D=\infty$, $E=6$. MST edges: $\{(A,C)\}$.
 
 **Step 2:** Extract $C$ (key = 1). Update neighbours:
 
-- $B$: $\min(4, 2) = 2$Parent = $C$. (Update!)
-- $D$: $\min(\infty, 8) = 8$Parent = $C$.
-- $E$: $\min(6, 7) = 6$Parent stays $A$.
+- $B$: $\min(4, 2) = 2$ Parent = $C$. (Update!)
+- $D$: $\min(\infty, 8) = 8$ Parent = $C$.
+- $E$: $\min(6, 7) = 6$ Parent stays $A$.
 
 Keys: $B=2$, $D=8$, $E=6$. MST edges: $\{(A,C), (C,B)\}$.
 
 **Step 3:** Extract $B$ (key = 2). Update neighbours:
 
-- $D$: $\min(8, 5) = 5$Parent = $B$. (Update!)
+- $D$: $\min(8, 5) = 5$ Parent = $B$. (Update!)
 
 Keys: $D=5$, $E=6$. MST edges: $\{(A,C), (C,B), (B,D)\}$.
 
 **Step 4:** Extract $D$ (key = 5). Update neighbours:
 
-- $E$: $\min(6, 3) = 3$Parent = $D$. (Update!)
+- $E$: $\min(6, 3) = 3$ Parent = $D$. (Update!)
 
 Keys: $E=3$. MST edges: $\{(A,C), (C,B), (B,D), (D,E)\}$.
 
@@ -930,7 +930,7 @@ SCCs: $\{A, B, C\}$, $\{D, E, F\}$, $\{G, H\}$.
 
 1. Compute in-degree for every vertex.
 2. Enqueue all vertices with in-degree 0.
-3. While queue is not empty: dequeue $v$Add to result, decrement in-degree of all neighbours,
+3. While queue is not empty: dequeue $v$ Add to result, decrement in-degree of all neighbours,
    enqueue any neighbour with in-degree 0.
 
 **Theorem 7.5.** A directed graph has a topological ordering if and only if it is a DAG.
@@ -1000,17 +1000,17 @@ String: $S = \text{aabcaab}$, $n = 7$.
 $Z[0]$ is undefined (the entire string matches itself).
 
 $i = 1$: $i > r = 0$. Set $l = r = 1$. Compare: $S[0] = \text{a} = S[1] = \text{a}$ So $r = 2$.
-$S[1] = \text{a} \neq S[2] = \text{b}$Stop. $Z[1] = r - l = 2 - 1 = 1$. Decrement $r$: $r = 1$.
+$S[1] = \text{a} \neq S[2] = \text{b}$ Stop. $Z[1] = r - l = 2 - 1 = 1$. Decrement $r$: $r = 1$.
 
-$i = 2$: $i > r = 1$. Set $l = r = 2$. Compare: $S[0] = \text{a} \neq S[2] = \text{b}$Stop
+$i = 2$: $i > r = 1$. Set $l = r = 2$. Compare: $S[0] = \text{a} \neq S[2] = \text{b}$ Stop
 immediately. $Z[2] = 0$. $r = 1$.
 
-$i = 3$: $i > r = 1$. Set $l = r = 3$. Compare: $S[0] = \text{a} \neq S[3] = \text{c}$Stop.
+$i = 3$: $i > r = 1$. Set $l = r = 3$. Compare: $S[0] = \text{a} \neq S[3] = \text{c}$ Stop.
 $Z[3] = 0$. $r = 2$.
 
 $i = 4$: $i > r = 2$. Set $l = r = 4$. Compare: $S[0] = \text{a} = S[4] = \text{a}$, $r = 5$.
 $S[1] = \text{a} = S[5] = \text{a}$, $r = 6$. $S[2] = \text{b} = S[6] = \text{b}$, $r = 7$.
-$r = n = 7$Stop. $Z[4] = 7 - 4 = 3$. Decrement $r$: $r = 6$.
+$r = n = 7$ Stop. $Z[4] = 7 - 4 = 3$. Decrement $r$: $r = 6$.
 
 $i = 5$: $i = 5 \leq r = 6$. $k = i - l = 5 - 4 = 1$. $Z[k] = Z[1] = 1$.
 $r - i + 1 = 6 - 5 + 1 = 2$. $Z[k] = 1 < 2$ So $Z[5] = 1$.
@@ -1040,9 +1040,9 @@ machine in polynomial time given a certificate.
 
 **Theorem 9.1.** If any NP-complete problem is in P, then P = NP.
 
-_Proof._ Let $L$ be NP-complete and $L \in P$. For any $L' \in NP$There exists a polynomial
-reduction $f$ from $L'$ to $L$ (since $L$ is NP-hard). To decide $L'$Compute $f(x)$ and test
-membership in $L$. Both steps are polynomial, so $L' \in P$. Hence $NP \subseteq P$Giving $P = NP$.
+_Proof._ Let $L$ be NP-complete and $L \in P$. For any $L' \in NP$ There exists a polynomial
+reduction $f$ from $L'$ to $L$ (since $L$ is NP-hard). To decide $L'$ Compute $f(x)$ and test
+membership in $L$. Both steps are polynomial, so $L' \in P$. Hence $NP \subseteq P$ Giving $P = NP$.
 $\blacksquare$
 
 ### 9.2 Cook-Levin Theorem
@@ -1052,7 +1052,7 @@ $\blacksquare$
 _Proof (sketch)._ SAT is in NP: given a satisfying assignment, verify it in polynomial time.
 
 To show NP-hardness, let $M$ be a polynomial-time NTM deciding language $L$. For any input
-$w$Construct a Boolean formula $\phi_{M,w}$ that is satisfiable if and only if $M$ accepts $w$.
+$w$ Construct a Boolean formula $\phi_{M,w}$ that is satisfiable if and only if $M$ accepts $w$.
 
 The formula encodes a tableau (2D grid of configurations) with the following constraints:
 
@@ -1182,7 +1182,7 @@ satisfies: $x \in A \iff f(x) \in B$ And $f$ is computable in polynomial time.
 
 ### 10.1 Longest Palindromic Subsequence
 
-Given a string $S$ of length $n$Find the length of the longest subsequence that is a palindrome.
+Given a string $S$ of length $n$ Find the length of the longest subsequence that is a palindrome.
 
 **Recurrence:**
 
@@ -1190,12 +1190,12 @@ $$
 dp[i][j] = \begin{cases} 1 & \text{if} {} i = j \\ 2 + dp[i+1][j-1] & \text{if} {} S[i] = S[j] \\ \max(dp[i+1][j], dp[i][j-1]) & \text{if} {} S[i] \neq S[j] \end{cases}
 $$
 
-**Running time:** $O(n^2)$Space $O(n^2)$ (or $O(n)$ with optimisation).
+**Running time:** $O(n^2)$ Space $O(n^2)$ (or $O(n)$ with optimisation).
 
 **Theorem 10.1.** The LPS recurrence is correct.
 
-_Proof._ If $S[i] = S[j]$Any palindrome in $S[i..j]$ that includes both ends contributes 2 plus the
-best palindrome in $S[i+1..j-1]$. If $S[i] \neq S[j]$The best palindrome excludes at least one end.
+_Proof._ If $S[i] = S[j]$ Any palindrome in $S[i..j]$ that includes both ends contributes 2 plus the
+best palindrome in $S[i+1..j-1]$. If $S[i] \neq S[j]$ The best palindrome excludes at least one end.
 $\blacksquare$
 
 <details>
@@ -1220,7 +1220,7 @@ r  [                        1]
 
 Let me compute key entries:
 
-- $dp[0][4]$ ($c..a$I.e., "chara"): $c \neq a$ So $\max(dp[1][4], dp[0][3])$. $dp[1][4]$ ("hara"):
+- $dp[0][4]$ ($c..a$ I.e., "chara"): $c \neq a$ So $\max(dp[1][4], dp[0][3])$. $dp[1][4]$ ("hara"):
   $h \neq a$, $\max(dp[2][4], dp[1][3])$. $dp[2][4]$ ("ara"): $a = a$, $2 + dp[3][3] = 2 + 1 = 3$.
   $dp[1][3]$ ("har"): $h \neq r$, $\max(dp[2][3], dp[1][2])$. $dp[2][3]$ ("ar"): $a \neq r$,
   $\max(1, 1) = 1$. $dp[1][2]$ ("ha"): $h \neq a$, $\max(1, 1) = 1$. So $dp[1][3] = 1$,
@@ -1295,7 +1295,7 @@ also divides $b \cdot \lfloor a/b \rfloor + (a \bmod b) = a$. $\blacksquare$
 
 **Fermat's Little Theorem.** If $p$ is prime and $\gcd(a, p) = 1$ Then $a^{p-1} \equiv 1 \pmod p$.
 
-**Euler's theorem.** If $\gcd(a, n) = 1$ Then $a^{\phi(n)} \equiv 1 \pmod n$Where $\phi(n)$ is
+**Euler's theorem.** If $\gcd(a, n) = 1$ Then $a^{\phi(n)} \equiv 1 \pmod n$ Where $\phi(n)$ is
 Euler's totient function.
 
 **Modular inverse.** The inverse of $a$ modulo $m$ (if it exists) is $a^{-1}$ such that
@@ -1316,7 +1316,7 @@ $60 = 3 \times 17 + 9$ $17 = 1 \times 9 + 8$ $9 = 1 \times 8 + 1$ $8 = 8 \times 
 Back-substitute: $1 = 9 - 1 \times 8$ $= 9 - 1 \times (17 - 1 \times 9) = 2 \times 9 - 17$
 $= 2 \times (60 - 3 \times 17) - 17 = 2 \times 60 - 7 \times 17$
 
-So $17 \times (-7) + 60 \times 2 = 1$Giving $d = -7 \equiv 53 \pmod{60}$.
+So $17 \times (-7) + 60 \times 2 = 1$ Giving $d = -7 \equiv 53 \pmod{60}$.
 
 Verify: $17 \times 53 = 901 = 15 \times 60 + 1$. So $17 \times 53 \equiv 1 \pmod{60}$. ✓
 
@@ -1573,7 +1573,7 @@ Compare with the optimal cover.
 
 TSP with 5 cities (0-indexed), starting and ending at city 0.
 
-$dp[S][i]$ = minimum cost to visit cities in set $S$Starting at 0, ending at $i$.
+$dp[S][i]$ = minimum cost to visit cities in set $S$ Starting at 0, ending at $i$.
 
 Base case: $dp[\{0\}][0] = 0$.
 
@@ -1631,23 +1631,23 @@ $U = \{1, 2, 3, 4, 5, 6\}$.
 
 Iteration 1: $S_1 = \{1, 2, 3\}$ covers 3 (most uncovered). Select $S_1$. Uncovered: $\{4, 5, 6\}$.
 Iteration 2: $S_3 = \{3, 5, 6\}$ covers 2 uncovered elements. $S_4 = \{1, 4, 5\}$ covers 2.
-$S_5 = \{4, 6\}$ covers 2. Pick $S_4$ (or $S_3$ or $S_5$All cover 2). Let's pick $S_4$. Uncovered:
+$S_5 = \{4, 6\}$ covers 2. Pick $S_4$ (or $S_3$ or $S_5$ All cover 2). Let's pick $S_4$. Uncovered:
 $\{6\}$. Iteration 3: $S_3 = \{3, 5, 6\}$ covers 1. $S_5 = \{4, 6\}$ covers 1. Pick $S_5$.
 Uncovered: $\emptyset$.
 
-Greedy cover: $\{S_1, S_4, S_5\}$Size 3.
+Greedy cover: $\{S_1, S_4, S_5\}$ Size 3.
 
 Optimal cover: $\{S_1, S_3\}$ covers $\{1, 2, 3, 5, 6\}$... No, $4$ is not covered. $\{S_1, S_5\}$
 covers $\{1, 2, 3, 4, 6\}$... $5$ not covered. $\{S_2, S_3\}$ covers $\{2, 3, 4, 5, 6\}$... $1$ not
 covered. $\{S_1, S_2, S_3\}$ covers all, size 3. $\{S_4, S_2\}$ covers $\{1, 2, 4, 5\}$... $3, 6$
 not covered.
 
-Actually: $\{S_1, S_5\} = \{1,2,3\} \cup \{4,6\} = \{1,2,3,4,6\}$Missing 5.
-$\{S_4, S_2\} = \{1,4,5\} \cup \{2,4\} = \{1,2,4,5\}$Missing 3, 6.
-$\{S_4, S_3\} = \{1,4,5\} \cup \{3,5,6\} = \{1,3,4,5,6\}$Missing 2.
+Actually: $\{S_1, S_5\} = \{1,2,3\} \cup \{4,6\} = \{1,2,3,4,6\}$ Missing 5.
+$\{S_4, S_2\} = \{1,4,5\} \cup \{2,4\} = \{1,2,4,5\}$ Missing 3, 6.
+$\{S_4, S_3\} = \{1,4,5\} \cup \{3,5,6\} = \{1,3,4,5,6\}$ Missing 2.
 
-Optimal: $\{S_1, S_4, S_5\}$ = $\{1,2,3,4,5,6\}$Size 3. Or $\{S_1, S_3, S_2\}$ =
-$\{1,2,3\} \cup \{3,5,6\} \cup \{2,4\} = \{1,2,3,4,5,6\}$Size 3.
+Optimal: $\{S_1, S_4, S_5\}$ = $\{1,2,3,4,5,6\}$ Size 3. Or $\{S_1, S_3, S_2\}$ =
+$\{1,2,3\} \cup \{3,5,6\} \cup \{2,4\} = \{1,2,3,4,5,6\}$ Size 3.
 
 Is there a cover of size 2? We need two sets covering all 6 elements. Maximum coverage of 2 sets:
 $|S_1 \cup S_4| = |\{1,2,3,4,5\}| = 5$. $|S_1 \cup S_3| = |\{1,2,3,5,6\}| = 5$.

@@ -35,7 +35,7 @@ $$
 - $b > 0$ for stability
 - $a(T) = a_0(T - T_c)$ changes sign at $T_c$
 
-With an external field $h$ conjugate to $\phi$Add $-h\phi$:
+With an external field $h$ conjugate to $\phi$ Add $-h\phi$:
 
 $$
 f(\phi, T) = f_0 + \frac{1}{2}a(T)\phi^2 + \frac{1}{4}b\phi^4 - h\phi
@@ -71,8 +71,8 @@ $$
 a\phi + b\phi^3 - h = 0 \implies (a + 3b\phi_0^2)\chi = 1
 $$
 
-- **$T > T_c$**: $\phi_0 = 0$ So $\chi = 1/a = 1/[a_0(T - T_c)]$Giving $\gamma = 1$.
-- **$T < T_c$**: $\phi_0^2 = -a/b$ So $\chi = 1/(-2a) = 1/[2a_0(T_c - T)]$Giving $\gamma" = 1$.
+- **$T > T_c$**: $\phi_0 = 0$ So $\chi = 1/a = 1/[a_0(T - T_c)]$ Giving $\gamma = 1$.
+- **$T < T_c$**: $\phi_0^2 = -a/b$ So $\chi = 1/(-2a) = 1/[2a_0(T_c - T)]$ Giving $\gamma" = 1$.
 
 ### 11.4 Specific Heat
 
@@ -116,7 +116,7 @@ $$
 f_{\text{min} = 0}
 $$
 
-The free energy drops by 625 units when going below $T_c = 100$Driving the transition.
+The free energy drops by 625 units when going below $T_c = 100$ Driving the transition.
 
 </details>
 
@@ -142,8 +142,8 @@ $$
 \phi^2 = \frac{-b \pm \sqrt{b^2 - 4ac}}{2c}
 $$
 
-This requires $b^2 > 4ac$Which occurs when $T$ is below some temperature $T^* > T_c$. Between $T_c$
-and $T^*$The system undergoes a **first-order** transition because the order parameter jumps
+This requires $b^2 > 4ac$ Which occurs when $T$ is below some temperature $T^* > T_c$. Between $T_c$
+and $T^*$ The system undergoes a **first-order** transition because the order parameter jumps
 discontinuously from zero to a finite value.
 
 </details>

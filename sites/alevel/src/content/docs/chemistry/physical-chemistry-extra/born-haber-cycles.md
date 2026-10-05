@@ -50,11 +50,11 @@ There are two conventions in use:
    positive).
 
 Always check which convention is being used in a given context. The sign difference is critical for
-Hess"s Law calculations.
+Hess's Law calculations.
 
 ## Born-Haber Cycle Construction
 
-For a general ionic compound $\mathrm{M}_a\mathrm{X}_b$The Born-Haber cycle relates the standard
+For a general ionic compound $\mathrm{M}_a\mathrm{X}_b$ The Born-Haber cycle relates the standard
 Enthalpy of formation to the lattice enthalpy through the following steps:
 
 $$
@@ -352,14 +352,14 @@ $$
 <details>
 <summary>Problem 2</summary>
 
-The experimental lattice enthalpy of $\mathrm{AgCl}$ is $-905\,\mathrm{kJ/mol}$While the Theoretical
+The experimental lattice enthalpy of $\mathrm{AgCl}$ is $-905\,\mathrm{kJ/mol}$ While the Theoretical
 (Born-Lande) value is $-834\,\mathrm{kJ/mol}$. Account for the difference.
 
 **Solution:**
 
 The experimental value is more exothermic than the theoretical value. This is an unusual case. For
 Most compounds where covalent character is present, the experimental value is less exothermic.
-However, for $\mathrm{Ag}^+$The $d^{10}$ electronic configuration leads to additional effects: the
+However, for $\mathrm{Ag}^+$ The $d^{10}$ electronic configuration leads to additional effects: the
 $d$ electrons provide a degree of covalent bonding that actually strengthens the lattice relative to
 The purely ionic model. The polarisation of $\mathrm{Cl}^-$ by $\mathrm{Ag}^+$ introduces some
 Covalent character, but the covalent contribution to the bond energy (which is not captured by the
@@ -414,7 +414,7 @@ The first electron affinity of oxygen is exothermic ($-141\,\mathrm{kJ/mol}$) be
 electron is attracted to the nuclear charge of the neutral oxygen atom, and energy is released as
 the electron enters the $2p$ subshell.
 
-The second electron affinity involves adding an electron to the oxide ion $\mathrm{O}^-$Which
+The second electron affinity involves adding an electron to the oxide ion $\mathrm{O}^-$ Which
 already carries a negative charge. The incoming electron is repelled by the negative charge of the
 ion. Energy must be supplied to overcome this electrostatic repulsion and force the second electron
 into the $2p$ subshell. Therefore, the process is endothermic.
@@ -441,12 +441,12 @@ $\Delta H_f^\circ = \Delta H_\mathrm{at}(\mathrm{Mg}) + \Delta H_\mathrm{at}(\ma
 $= 148 + 122 + 738 + (-349) + \Delta H_\mathrm{lat}(\mathrm{MgCl})$
 
 The lattice enthalpy of $\mathrm{MgCl}$ (with singly charged ions) would be relatively small. Even
-if $\Delta H_\mathrm{lat}(\mathrm{MgCl}) \approx -700\,\mathrm{kJ/mol}$The sum is approximately
-$+148 + 122 + 738 - 349 - 700 = -41\,\mathrm{kJ/mol}$Only weakly exothermic.
+if $\Delta H_\mathrm{lat}(\mathrm{MgCl}) \approx -700\,\mathrm{kJ/mol}$ The sum is approximately
+$+148 + 122 + 738 - 349 - 700 = -41\,\mathrm{kJ/mol}$ Only weakly exothermic.
 
 For $\mathrm{MgCl}_2$: the doubly charged $\mathrm{Mg}^{2+}$ produces a much more exothermic lattice
 enthalpy ($-2526\,\mathrm{kJ/mol}$), and the overall
-$\Delta H_f^\circ = -641\,\mathrm{kJ/mol}$Making it much more stable.
+$\Delta H_f^\circ = -641\,\mathrm{kJ/mol}$ Making it much more stable.
 
 The second ionisation energy of magnesium ($+1451\,\mathrm{kJ/mol}$) is more than compensated by the
 greatly increased lattice enthalpy of the $2+$ compound. This is the thermodynamic reason why Group
@@ -489,7 +489,7 @@ net $\Delta H_\mathrm{sol}^\circ$ becomes less endothermic (or more exothermic) 
 
 ### Polarising Power and Solubility
 
-The polarising power of a cation ($\phi = z^+/r^+$Where $z^+$ is the charge and $r^+$ is the ionic
+The polarising power of a cation ($\phi = z^+/r^+$ Where $z^+$ is the charge and $r^+$ is the ionic
 radius) determines the degree of covalent character in an ionic bond. Highly polarising cations
 (small, highly charged) distort the electron cloud of large, polarised anions, introducing covalent
 character.
@@ -684,7 +684,7 @@ $$
 
 The enthalpy of solution is exothermic ($-45\,\mathrm{kJ/mol}$), which is consistent with the high
 solubility of $\mathrm{CaF}_2$ in acidic solution (the $\mathrm{F}^-$ is removed as
-$\mathrm{HF}$Shifting the equilibrium).
+$\mathrm{HF}$ Shifting the equilibrium).
 
 ### Example 5: Using Born-Haber Data to Determine Covalent Character
 
@@ -830,7 +830,7 @@ for correct sign convention, 1 mark for correct answer with units.)
 <details>
 <summary>Q2 (5 marks)</summary>
 
-The experimental lattice enthalpy of $\mathrm{MgCl}_2$ is $-2526\,\mathrm{kJ/mol}$While the
+The experimental lattice enthalpy of $\mathrm{MgCl}_2$ is $-2526\,\mathrm{kJ/mol}$ While the
 theoretical value calculated from the Born-Lande equation is $-2328\,\mathrm{kJ/mol}$. Explain the
 difference between these values.
 
@@ -844,7 +844,7 @@ difference between these values.
 - $\mathrm{Mg}^{2+}$ is a small, highly charged cation with high polarising power (Fajans' rule) (1
   mark).
 - Some degree of covalent bonding (orbital overlap) occurs between $\mathrm{Mg}^{2+}$ and
-  $\mathrm{Cl}^-$Which adds to the overall lattice stability and makes the experimental value more
+  $\mathrm{Cl}^-$ Which adds to the overall lattice stability and makes the experimental value more
   exothermic than the purely electrostatic prediction (1 mark).
 
 </details>

@@ -31,11 +31,11 @@ $|g^k| = n / \gcd(n, k)$.
 _Solution._ Let $d = \gcd(n, k)$ and write $n = dn"$, $k = dk'$ with $\gcd(n', k') = 1$. We show
 $(g^k)^{n'} = e$ and that $n'$ is the smallest such positive exponent.
 
-$(g^k)^{n'} = g^{kn'} = g^{dk'n'} = g^{n'k}$. Since $n = dn'$We have
+$(g^k)^{n'} = g^{kn'} = g^{dk'n'} = g^{n'k}$. Since $n = dn'$ We have
 $g^{kn'} = g^{dk'n'} = (g^{dn'})^{k'} = e^{k'} = e$. So $|g^k|$ divides $n' = n/d$.
 
 Conversely, if $(g^k)^m = g^{km} = e$ Then $n$ divides $km$ So $dn'$ divides $dk'm$ Hence $n'$ divides
-$k'm$. Since $\gcd(n', k') = 1$We get $n'$ divides $m$. Thus $|g^k| = n' = n / \gcd(n, k)$.
+$k'm$. Since $\gcd(n', k') = 1$ We get $n'$ divides $m$. Thus $|g^k| = n' = n / \gcd(n, k)$.
 $\blacksquare$
 
 </details>
@@ -110,7 +110,7 @@ and verify $H$ is not normal.
 <summary>Solution</summary>
 
 _Solution._ $H = \{e, (1\ 2\ 3\ 4), (1\ 3)(2\ 4), (1\ 4\ 3\ 2)\}$ has order $4$ $[S_4 : H] = 6$.
-Choose representatives from $S_4 \setminus H$E.g., $(1\ 2)$, $(1\ 3)$ $(2\ 3)$, $(1\ 2\ 3)$,
+Choose representatives from $S_4 \setminus H$ E.g., $(1\ 2)$, $(1\ 3)$ $(2\ 3)$, $(1\ 2\ 3)$,
 $(1\ 3\ 2)$. The six cosets are: $H$, $(1\ 2)H$, $(1\ 3)H$, $(2\ 3)H$, $(1\ 2\ 3)H$, $(1\ 3\ 2)H$.
 
 To show $H$ is not normal: $(1\ 2)(1\ 2\ 3\ 4)(1\ 2) = (2\ 1\ 3\ 4) = (1\ 3\ 4\ 2) \notin H$ (since
@@ -125,7 +125,7 @@ _If you get this wrong, revise: Section 3.1, 3.4; Section 4.1._
 <details>
 <summary>Solution</summary>
 
-_Solution._ Since $[G : H] = 2$There are exactly two left cosets: $H$ and $gH$ for some
+_Solution._ Since $[G : H] = 2$ There are exactly two left cosets: $H$ and $gH$ for some
 $g \notin H$. These partition $G$ So $gH = G \setminus H$. Similarly, the two right cosets are $H$
 and $Hg$ And $Hg = G \setminus H$. Therefore $gH = Hg$ for all $g \in G$. For $h \in H$:
 $hH = H = Hh$. For $g \notin H$: $gH = G \setminus H = Hg$. Thus $gH = Hg$ for all $g \in G$ So
@@ -179,7 +179,7 @@ _If you get this wrong, revise: Section 5.1, Proposition 5.1; Section 8.6, Propo
 
 _Solution._ **Theorem.** Let $\phi : G \to H$ be a surjective homomorphism with $K = \ker(\phi)$.
 Then there is an inclusion-preserving bijection between subgroups of $G$ containing $K$ and
-Subgroups of $H$Given by $U \mapsto \phi(U)$ with inverse $V \mapsto \phi^{-1}(V)$. Normality and
+Subgroups of $H$ Given by $U \mapsto \phi(U)$ with inverse $V \mapsto \phi^{-1}(V)$. Normality and
 indices are preserved.
 
 _Proof._ Define $\Phi(U) = \phi(U)$ and $\Psi(V) = \phi^{-1}(V)$.
@@ -254,7 +254,7 @@ divides $3$ So $n_5 = 1$. $n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $5$ So $n_3 
 
 Both the Sylow $3$-subgroup $P \cong \mathbb{Z}/3\mathbb{Z}$ and the Sylow $5$-subgroup
 $Q \cong \mathbb{Z}/5\mathbb{Z}$ are normal. Since $P \cap Q = \{e\}$ (their orders are coprime) And
-$|PQ| = |P||Q|/|P \cap Q| = 15 = |G|$We have $G = PQ$. Since both are normal with trivial
+$|PQ| = |P||Q|/|P \cap Q| = 15 = |G|$ We have $G = PQ$. Since both are normal with trivial
 intersection,
 $G \cong P \times Q \cong \mathbb{Z}/3\mathbb{Z} \times \mathbb{Z}/5\mathbb{Z} \cong \mathbb{Z}/15\mathbb{Z}$.
 $\blacksquare$
@@ -269,10 +269,10 @@ $7$-subgroup. Must $G$ be abelian?
 <details>
 <summary>Solution</summary>
 
-_Solution._ $n_7 \equiv 1 \pmod{7}$ and $n_7$ divides $3$. Since $7 \nmid (3 - 1)$We must have
+_Solution._ $n_7 \equiv 1 \pmod{7}$ and $n_7$ divides $3$. Since $7 \nmid (3 - 1)$ We must have
 $n_7 = 1$. So the Sylow $7$-subgroup $Q \cong \mathbb{Z}/7\mathbb{Z}$ is normal.
 
-$n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $7$ So $n_3 \in \{1, 7\}$. If $n_3 = 1$Both Sylow subgroups
+$n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $7$ So $n_3 \in \{1, 7\}$. If $n_3 = 1$ Both Sylow subgroups
 are normal and $G \cong \mathbb{Z}/21\mathbb{Z}$ (abelian). If $n_3 = 7$, $G$ is a semidirect
 product $\mathbb{Z}/7\mathbb{Z} \rtimes \mathbb{Z}/3\mathbb{Z}$ Which is non-abelian. This group
 exists: it is the unique non-abelian group of order $21$. So $G$ need not be abelian. $\blacksquare$
@@ -306,7 +306,7 @@ $\mathbb{C}[x]$.
 <summary>Solution</summary>
 
 _Solution._ In $\mathbb{R}[x]$: suppose $x^2 + 1 = (x + a)(x + b)$ with $a, b \in \mathbb{R}$. Then
-$a + b = 0$ and $ab = 1$ So $-a^2 = 1$Giving $a^2 = -1$Which has no real solution. Thus $x^2 + 1$ is
+$a + b = 0$ and $ab = 1$ So $-a^2 = 1$ Giving $a^2 = -1$ Which has no real solution. Thus $x^2 + 1$ is
 irreducible in $\mathbb{R}[x]$.
 
 In $\mathbb{C}[x]$: $x^2 + 1 = (x + i)(x - i)$. $\blacksquare$
@@ -331,8 +331,8 @@ $$
 x^2 - 1 = (-x - 1)(-x + 1) + 0
 $$
 
-Since the last non-zero remainder is $-x + 1$We have $\gcd(x^3 - 2x + 1, x^2 - 1) = x - 1$ (up to
-multiplication by a unit in $\mathbb{Q}[x]$I.e., a non-zero constant). $\blacksquare$
+Since the last non-zero remainder is $-x + 1$ We have $\gcd(x^3 - 2x + 1, x^2 - 1) = x - 1$ (up to
+multiplication by a unit in $\mathbb{Q}[x]$ I.e., a non-zero constant). $\blacksquare$
 
 </details>
 
@@ -348,7 +348,7 @@ _Solution._ **UFD:** By Gauss's lemma, since $\mathbb{Z}$ is a UFD, $\mathbb{Z}[
 **Not a PID:** The ideal $I = (2, x) = \{2f + xg : f, g \in \mathbb{Z}[x]\}$ is not principal.
 Suppose $I = (h)$ for some $h \in \mathbb{Z}[x]$. Then $h$ divides both $2$ and $x$. Since $h$
 divides $2 \in \mathbb{Z}$, $h$ is a constant polynomial, say $h = c \in \mathbb{Z}$. Then
-$(c) = (2, x)$ So $c$ divides $2$ and $c$ divides $x$Hence $c = \pm 1$. But
+$(c) = (2, x)$ So $c$ divides $2$ and $c$ divides $x$ Hence $c = \pm 1$. But
 $(1) = \mathbb{Z}[x] \neq (2, x)$ since $1 \notin (2, x)$ (every element of $(2, x)$ has even
 constant term). Contradiction. Therefore $(2, x)$ is not principal, and $\mathbb{Z}[x]$ is not a
 PID. $\blacksquare$
@@ -366,8 +366,8 @@ _If you get this wrong, revise: Section 11.3, Theorem 11.3; Section 8.1._
 
 _Solution._ First, $[\mathbb{Q}(\sqrt{2}) : \mathbb{Q}] = 2$ since $x^2 - 2$ is irreducible over
 $\mathbb{Q}$ (by Eisenstein with $p = 2$). Then $\sqrt{3} \notin \mathbb{Q}(\sqrt{2})$ (if
-$\sqrt{3} = a + b\sqrt{2}$ With $a, b \in \mathbb{Q}$Squaring gives
-$3 = a^2 + 2b^2 + 2ab\sqrt{2}$Forcing $ab = 0$ and leading to contradiction). So
+$\sqrt{3} = a + b\sqrt{2}$ With $a, b \in \mathbb{Q}$ Squaring gives
+$3 = a^2 + 2b^2 + 2ab\sqrt{2}$ Forcing $ab = 0$ and leading to contradiction). So
 $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}(\sqrt{2})] = 2$.
 
 By the tower law: $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = 2 \cdot 2 = 4$.
@@ -397,7 +397,7 @@ either $a + I = 0 + I$ or $b + I = 0 + I$ I.e., $a \in I$ or $b \in I$. So $I$ i
 
 ($\Leftarrow$) Suppose $I$ is prime. $R/I$ is a commutative ring with unity (since $R$ is). If
 $(a + I)(b + I) = 0 + I$ Then $ab \in I$ So $a \in I$ or $b \in I$ (since $I$ is prime). Thus
-$a + I = 0 + I$ or $b + I = 0 + I$Meaning $R/I$ has no zero divisors. Also $1 + I \neq 0 + I$ since
+$a + I = 0 + I$ or $b + I = 0 + I$ Meaning $R/I$ has no zero divisors. Also $1 + I \neq 0 + I$ since
 $I \neq R$. Therefore $R/I$ is an integral domain. $\blacksquare$
 
 </details>
@@ -419,7 +419,7 @@ $|S| = \sum_{g \in G} |\{x \in X : g \cdot x = x\}| = \sum_{g \in G} |\mathrm{Fi
 
 **Grouping by $x$:** $|S| = \sum_{x \in X} |\mathrm{Stab}(x)|$.
 
-For each orbit $\mathcal{O}$Every $x \in \mathcal{O}$ has $|\mathrm{Stab}(x)| = |G|/|\mathcal{O}|$
+For each orbit $\mathcal{O}$ Every $x \in \mathcal{O}$ has $|\mathrm{Stab}(x)| = |G|/|\mathcal{O}|$
 (by orbit-stabilizer). So
 $\sum_{x \in \mathcal{O}} |\mathrm{Stab}(x)| = |\mathcal{O}| \cdot |G|/|\mathcal{O}| = |G|$.
 
@@ -442,7 +442,7 @@ _Solution._ We show that every non-abelian group of order $n < 60$ is not simple
 - Order $6$: $S_3$ has normal subgroup $A_3$.
 - Order $8$: all groups of order $p^3$ have non-trivial center (Theorem 6.5).
 - Order $10$: $n_5 = 1$ by Sylow.
-- Order $12$: $n_3 = 1$ or $4$. If $n_3 = 4$One checks $A_4$ has the normal Klein subgroup $V_4$.
+- Order $12$: $n_3 = 1$ or $4$. If $n_3 = 4$ One checks $A_4$ has the normal Klein subgroup $V_4$.
 - Order $14$: $n_7 = 1$ by Sylow.
 - Order $15$: $n_5 = 1$, $n_3 = 1$ by Sylow.
 - Order $18$: $n_3 = 1$ by Sylow (since $n_3 \equiv 1 \pmod{3}$ and $n_3$ divides $2$).
@@ -458,7 +458,7 @@ _Solution._ We show that every non-abelian group of order $n < 60$ is not simple
 - Order $33$: $n_{11} = 1$.
 - Order $34$: $n_{17} = 1$.
 - Order $35$: $n_7 = 1$, $n_5 = 1$.
-- Order $36$: $n_3 = 1$ or $4$. If $n_3 = 4$The action on Sylow $3$-subgroups gives a homomorphism
+- Order $36$: $n_3 = 1$ or $4$. If $n_3 = 4$ The action on Sylow $3$-subgroups gives a homomorphism
   $G \to S_4$ whose kernel is a proper normal subgroup.
 - Orders $38, 39, 40, 42, 44, 46, 48, 50, 51, 52, 54, 55, 56, 57, 58$: similar arguments apply. For
   each, either a Sylow subgroup is unique, or counting arguments force a normal subgroup.
@@ -481,7 +481,7 @@ Homomorphism (evaluation at $i$). It is surjective: any $a + bi \in \mathbb{Z}[i
 $\phi(a + bx)$.
 
 The kernel consists of polynomials $f \in \mathbb{Z}[x]$ with $f(i) = 0$. Since $x^2 + 1$ is the
-minimal Polynomial of $i$ over $\mathbb{Q}$Every such $f$ is divisible by $x^2 + 1$ in
+minimal Polynomial of $i$ over $\mathbb{Q}$ Every such $f$ is divisible by $x^2 + 1$ in
 $\mathbb{Q}[x]$. By Gauss's lemma, $f$ is divisible by $x^2 + 1$ in $\mathbb{Z}[x]$ as well. So
 $\ker(\phi) = (x^2 + 1)$.
 
@@ -506,8 +506,8 @@ By the division algorithm, $g = qf + r$ where $\deg(r) \lt n$ or $r = 0$. Then $
 So every element of $E$ can be written as
 $r(\bar{x}) = a_0 + a_1\bar{x} + \cdots + a_{n-1}\bar{x}^{n-1}$ With $a_i \in F$. This
 representation is unique: if $\sum_{i=0}^{n-1} a_i \bar{x}^i = \sum_{i=0}^{n-1} b_i \bar{x}^i$ Then
-$\sum (a_i - b_i)\bar{x}^i = 0$ So $\sum (a_i - b_i)x^i \in (f)$Meaning $f$ divides a polynomial Of
-degree $\lt n = \deg(f)$Which forces all $a_i - b_i = 0$.
+$\sum (a_i - b_i)\bar{x}^i = 0$ So $\sum (a_i - b_i)x^i \in (f)$ Meaning $f$ divides a polynomial Of
+degree $\lt n = \deg(f)$ Which forces all $a_i - b_i = 0$.
 
 Therefore $\{1, \bar{x}, \ldots, \bar{x}^{n-1}\}$ is a basis for $E$ over $F$ And $[E : F] = n$.
 $\blacksquare$

@@ -36,7 +36,7 @@ Memorise it.
 
 <hr />
 
-## 1. Pascal"s Triangle
+## 1. Pascal's Triangle
 
 Pascal's triangle displays the binomial coefficients for successive powers of $(a + b)^n$:
 
@@ -138,7 +138,7 @@ $$
 $$
 
 _Intuition._ Each term in the expansion corresponds to a way of choosing $a$'s and $b$'s: from $n$
-Factors of $(a + b)$Choosing $r$ of them to contribute a $b$ (and the remaining $n - r$ to
+Factors of $(a + b)$ Choosing $r$ of them to contribute a $b$ (and the remaining $n - r$ to
 Contribute an $a$) gives the term $\binom{n}{r} a^{n-r} b^r$.
 
 <details>
@@ -197,13 +197,13 @@ $$
 \end{aligned}
 $$
 
-Valid for $|-2x| \lt 1$I.e., $|x| \lt \frac{1}{2}$.
+Valid for $|-2x| \lt 1$ I.e., $|x| \lt \frac{1}{2}$.
 
 </details>
 
 ### 4.1 Expanding $(a + bx)^n$
 
-To expand $(a + bx)^n$First factor out $a$:
+To expand $(a + bx)^n$ First factor out $a$:
 
 $$
 (a + bx)^n = a^n\left(1 + \frac{b}{a}x\right)^n
@@ -225,7 +225,7 @@ $$
 \end{aligned}
 $$
 
-Valid for $\left|\frac{x}{4}\right| \lt 1$I.e., $|x| \lt 4$.
+Valid for $\left|\frac{x}{4}\right| \lt 1$ I.e., $|x| \lt 4$.
 
 </details>
 
@@ -235,7 +235,7 @@ Valid for $\left|\frac{x}{4}\right| \lt 1$I.e., $|x| \lt 4$.
 
 ### 5.1 The General Term
 
-In the expansion of $(a + bx)^n$The $(r+1)$Th term is:
+In the expansion of $(a + bx)^n$ The $(r+1)$ Th term is:
 
 $$
 T_{r+1} = \binom{n}{r} a^{n-r}(bx)^r
@@ -265,10 +265,10 @@ $$
 T_{r+1} = \binom{8}{r} (x^2)^{8-r}\left(\frac{2}{x}\right)^r = \binom{8}{r} 2^r x^{16-3r}
 $$
 
-For the constant term, set $16 - 3r = 0$Giving $r = \frac{16}{3}$. Since $r$ must be a Non-negative
+For the constant term, set $16 - 3r = 0$ Giving $r = \frac{16}{3}$. Since $r$ must be a Non-negative
 integer, there is no constant term.
 
-(If the power had been $9$We would get $r = \frac{18}{3} = 6$ And the constant term would be
+(If the power had been $9$ We would get $r = \frac{18}{3} = 6$ And the constant term would be
 $\binom{9}{6} 2^6 = 84 \cdot 64 = 5376$.)
 
 </details>
@@ -320,7 +320,7 @@ Coefficient of $x^3$: $\frac{135}{16}$.
 When $(1 + x)^n$ is expanded as an infinite series, taking only the first $k + 1$ terms gives an
 Approximation. The accuracy depends on how many terms are taken and how small $|x|$ is.
 
-For small $|x|$The series converges rapidly, so few terms are needed for high accuracy.
+For small $|x|$ The series converges rapidly, so few terms are needed for high accuracy.
 
 ### 6.2 Error Bounds
 
@@ -332,10 +332,10 @@ $$
 \left|(1+x)^n - S_k\right| \leq |T_{k+1}|
 $$
 
-Where $S_k$ is the partial sum up to and including the $x^k$ term, and $T_{k+1}$ is the $(k+1)$Th
+Where $S_k$ is the partial sum up to and including the $x^k$ term, and $T_{k+1}$ is the $(k+1)$ Th
 Term.
 
-This applies when $n \lt 0$ and $x \gt 0$Or when $n$ is fractional with alternating signs.
+This applies when $n \lt 0$ and $x \gt 0$ Or when $n$ is fractional with alternating signs.
 
 <details>
 <summary>Example: Approximating $\sqrt[3]{28}$</summary>
@@ -473,7 +473,7 @@ Summing over all valid $k$ gives the left-hand side. $\blacksquare$
 
 ### 8.1 Single Expansion Validity
 
-When expanding $(a + bx)^n$ with non-integer $n$We write it as $a^n\left(1 + \frac{bx}{a}\right)^n$.
+When expanding $(a + bx)^n$ with non-integer $n$ We write it as $a^n\left(1 + \frac{bx}{a}\right)^n$.
 The expansion is valid when:
 
 $$
@@ -487,7 +487,7 @@ Routinely deducted for omitting this.
 ### 8.2 Product of Two Expansions
 
 When a question asks for the expansion of a product of two binomial expressions, such as
-$(1 + px)^a(1 + qx)^b$Each factor has its own validity range:
+$(1 + px)^a(1 + qx)^b$ Each factor has its own validity range:
 
 $$
 |px| \lt 1 \quad \mathrm{and} \quad |qx| \lt 1
@@ -515,11 +515,11 @@ Applies: the overall validity is the most restrictive individual condition.
 
 <details>
 <summary>Example 1</summary>
-Find the expansion of $(1 + x)^{-2}(1 - 3x)^{-1}$ up to $x^2$Stating the validity.
+Find the expansion of $(1 + x)^{-2}(1 - 3x)^{-1}$ up to $x^2$ Stating the validity.
 
 $(1 + x)^{-2}$: valid for $|x| \lt 1$.
 
-$(1 - 3x)^{-1}$: valid for $|3x| \lt 1$I.e., $|x| \lt \frac{1}{3}$.
+$(1 - 3x)^{-1}$: valid for $|3x| \lt 1$ I.e., $|x| \lt \frac{1}{3}$.
 
 The combined validity is $|x| \lt \frac{1}{3}$ (the more restrictive condition).
 
@@ -561,7 +561,7 @@ $$
 
 $(1-x)^{-1}$: valid for $|x| \lt 1$.
 
-$(1 + x/2)^{-1}$: valid for $|x/2| \lt 1$I.e., $|x| \lt 2$.
+$(1 + x/2)^{-1}$: valid for $|x/2| \lt 1$ I.e., $|x| \lt 2$.
 
 Combined validity: $|x| \lt 1$.
 
@@ -617,7 +617,7 @@ Coefficient of $x^3$: $-160$.
 
 <hr />
 
-**Problem 3.** Expand $(1 + x)^{-2}$ up to the term in $x^3$Stating the range of validity.
+**Problem 3.** Expand $(1 + x)^{-2}$ up to the term in $x^3$ Stating the range of validity.
 
 <details>
 <summary>Solution</summary>
@@ -683,7 +683,7 @@ To 5 d.p.: $1.02470$.
 
 <hr />
 
-**Problem 6.** In the expansion of $(1 + ax)^n$The coefficients of $x$, $x^2$ And $x^3$ are in The
+**Problem 6.** In the expansion of $(1 + ax)^n$ The coefficients of $x$, $x^2$ And $x^3$ are in The
 ratio $1 : 4 : 12$. Find $a$ and $n$.
 
 <details>
@@ -753,7 +753,7 @@ $n$-element set, which is $2^n$ (each element can either be included or excluded
 
 <hr />
 
-**Problem 8.** Expand $\frac{1}{(1 + x)(1 - 2x)}$ in ascending powers of $x$ up to $x^3$Stating The
+**Problem 8.** Expand $\frac{1}{(1 + x)(1 - 2x)}$ in ascending powers of $x$ up to $x^3$ Stating The
 range of validity.
 
 <details>
@@ -784,7 +784,7 @@ Valid for $|x| \lt \frac{1}{2}$ (the more restrictive condition).
 <hr />
 
 **Problem 9.** Given that the expansion of $(1 + kx)^{10}$ in ascending powers of $x$ has a
-Coefficient of $x^3$ equal to $1080$Find the value of $k$.
+Coefficient of $x^3$ equal to $1080$ Find the value of $k$.
 
 <details>
 <summary>Solution</summary>
@@ -831,7 +831,7 @@ Remove one element).
 <hr />
 
 **Problem 11.** Find the coefficient of $x^3$ in the expansion of $(1 + x)^{-3}(1 - 2x)^{-1}$ up to
-$x^3$Stating the range of validity.
+$x^3$ Stating the range of validity.
 
 <details>
 <summary>Solution</summary>
@@ -925,7 +925,7 @@ $$10(1+1)^9 = \sum_{r=0}^{10} r\binom{10}{r} = 10 \times 512 = 5120$$ ✓
 
 <hr />
 
-**Problem 14.** In the expansion of $(2 + 3x)^{2n}$The ratio of the coefficient of $x^3$ to the
+**Problem 14.** In the expansion of $(2 + 3x)^{2n}$ The ratio of the coefficient of $x^3$ to the
 Coefficient of $x$ is $11 : 1$. Find the value of $n$.
 
 <details>
@@ -1018,7 +1018,7 @@ Achieved for any positive integer $n$ with $(2+3x)^{2n}$.
 
 <hr />
 
-**Problem 15.** Expand $\frac{2}{(1+x)^2(1-2x)}$ in ascending powers of $x$ up to $x^2$Stating the
+**Problem 15.** Expand $\frac{2}{(1+x)^2(1-2x)}$ in ascending powers of $x$ up to $x^2$ Stating the
 Range of validity.
 
 <details>

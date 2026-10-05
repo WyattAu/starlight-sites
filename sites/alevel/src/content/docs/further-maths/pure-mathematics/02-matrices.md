@@ -51,7 +51,7 @@ Transformations of the plane and space.
 ## 1. Matrix Notation and Operations
 
 **Definition.** An $m \times n$ _matrix_ is a rectangular array of numbers arranged in $m$ rows and
-$n$ columns. We write $\mathbf{A} = (a_{ij})$ where $a_{ij}$ is the entry in row $i$Column $j$. The
+$n$ columns. We write $\mathbf{A} = (a_{ij})$ where $a_{ij}$ is the entry in row $i$ Column $j$. The
 set of all $m \times n$ matrices with real entries is denoted $M_{m\times n}(\mathbb{R})$.
 
 A matrix with a single row is a _row vector_, and a matrix with a single column is a _column
@@ -74,7 +74,7 @@ Associative.
 ### 1.2 Matrix Multiplication
 
 **Definition.** If $\mathbf{A} \in M_{m \times p}(\mathbb{R})$ and
-$\mathbf{B} \in M_{p \times n}(\mathbb{R})$The product $\mathbf{AB} \in M_{m \times n}(\mathbb{R})$
+$\mathbf{B} \in M_{p \times n}(\mathbb{R})$ The product $\mathbf{AB} \in M_{m \times n}(\mathbb{R})$
 is defined by:
 
 $$
@@ -154,7 +154,7 @@ Determinants multiply.
 
 ## 3. Inverse Matrices
 
-**Definition.** The _inverse_ of a square matrix $\mathbf{A}$Written $\mathbf{A}^{-1}$Is the Unique
+**Definition.** The _inverse_ of a square matrix $\mathbf{A}$ Written $\mathbf{A}^{-1}$ Is the Unique
 matrix satisfying:
 
 $$
@@ -250,7 +250,7 @@ For a $2 \times 2$ system:
   solutions).
 - $\det(\mathbf{A}) = 0$ and the equations are inconsistent: the lines are parallel (no solutions).
 
-### 4.2 Cramer"s Rule
+### 4.2 Cramer's Rule
 
 For a system $\mathbf{A}\mathbf{x} = \mathbf{b}$ where $\det(\mathbf{A}) \neq 0$:
 
@@ -330,7 +330,7 @@ Note: $\det(\mathbf{R}_\theta) = \cos^2\theta + \sin^2\theta = 1$.
 
 **Enlargement by scale factor $k$ about the origin:** $\begin{pmatrix} k & 0 \\ 0 & k \end{pmatrix}$
 
-$\det = k^2$Confirming the area is scaled by $k^2$.
+$\det = k^2$ Confirming the area is scaled by $k^2$.
 
 ### 5.4 Shear
 
@@ -342,7 +342,7 @@ Note: $\det = 1$ for shears, so area is preserved.
 
 ### 5.5 Combining Transformations
 
-If transformation $\mathbf{A}$ is followed by transformation $\mathbf{B}$The combined Transformation
+If transformation $\mathbf{A}$ is followed by transformation $\mathbf{B}$ The combined Transformation
 is represented by $\mathbf{BA}$ (rightmost applied first).
 
 :::caution
@@ -368,7 +368,7 @@ Reflection in $y = x$: $\mathbf{S} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix
 Combined (reflection applied after rotation):
 $\mathbf{S}\mathbf{R} = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$
 
-This is a reflection in the $x$-axis. $\det = -1$Consistent with an orientation-reversing
+This is a reflection in the $x$-axis. $\det = -1$ Consistent with an orientation-reversing
 Transformation.
 
 </details>
@@ -414,7 +414,7 @@ $\begin{pmatrix} 1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
 **Reflection in the plane $z = 0$ (the $xy$-plane):**
 $\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -1 \end{pmatrix}$
 
-Each has $\det = -1$Confirming orientation reversal.
+Each has $\det = -1$ Confirming orientation reversal.
 
 <hr />
 
@@ -445,7 +445,7 @@ This is the _characteristic equation_ of $\mathbf{A}$. Its roots are the eigenva
 
 ### 7.2 Finding Eigenvectors
 
-For each eigenvalue $\lambda$Solve $(\mathbf{A} - \lambda\mathbf{I})\mathbf{v} = \mathbf{0}$ by Row
+For each eigenvalue $\lambda$ Solve $(\mathbf{A} - \lambda\mathbf{I})\mathbf{v} = \mathbf{0}$ by Row
 reduction.
 
 ### 7.3 Diagonalisation
@@ -494,7 +494,7 @@ $\begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix
 Eigenvector: $\mathbf{v}_2 = \begin{pmatrix} 1 \\ -2 \end{pmatrix}$.
 
 Diagonalisation: $\mathbf{P} = \begin{pmatrix} 1 & 1 \\ 1 & -2 \end{pmatrix}$
-$\mathbf{D} = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}$Giving
+$\mathbf{D} = \begin{pmatrix} 5 & 0 \\ 0 & 2 \end{pmatrix}$ Giving
 $\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}$.
 
 </details>
@@ -528,7 +528,7 @@ $$
 ## Problems
 
 **Problem 1.** Given $\mathbf{A} = \begin{pmatrix} 3 & -1 \\ 2 & 4 \end{pmatrix}$ and
-$\mathbf{B} = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$Compute $\mathbf{AB} - \mathbf{BA}$.
+$\mathbf{B} = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}$ Compute $\mathbf{AB} - \mathbf{BA}$.
 
 <details>
 <summary>Hint</summary>
@@ -894,12 +894,12 @@ $\lambda_1 = 2$ (repeated), $\lambda_2 = 3$.
 
 For $\lambda = 2$: $(\mathbf{A}-2\mathbf{I})\mathbf{v} = \mathbf{0}$ gives
 $\begin{pmatrix}0&1&0\\0&0&0\\0&1&1\end{pmatrix}\mathbf{v} = \mathbf{0}$ So $v_2 = 0$ and
-$v_3 = 0$With $v_1$ free. Only one eigenvector: $(1,0,0)$. Since the geometric multiplicity (1) is
+$v_3 = 0$ With $v_1$ free. Only one eigenvector: $(1,0,0)$. Since the geometric multiplicity (1) is
 Less than the algebraic multiplicity (2), $\mathbf{A}$ is **not diagonalisable**.
 
 ### Example 8.2: Finding $\mathbf{A}^n$ using Cayley--Hamilton
 
-**Problem.** For $\mathbf{A} = \begin{pmatrix}1&2\\0&3\end{pmatrix}$Find $\mathbf{A}^5$.
+**Problem.** For $\mathbf{A} = \begin{pmatrix}1&2\\0&3\end{pmatrix}$ Find $\mathbf{A}^5$.
 
 **Solution.** By Cayley--Hamilton, $\mathbf{A}^2 - 4\mathbf{A} + 3\mathbf{I} = \mathbf{O}$ So
 $\mathbf{A}^2 = 4\mathbf{A} - 3\mathbf{I}$.
@@ -949,7 +949,7 @@ $= |\det(\mathbf{T})| \times \text{original area} = 7 \times \dfrac{1}{2} = \box
 ### Example 8.5: Commutator and non-commuting matrices
 
 **Problem.** For $\mathbf{A} = \begin{pmatrix}0&1\\0&0\end{pmatrix}$ and
-$\mathbf{B} = \begin{pmatrix}0&0\\1&0\end{pmatrix}$Compute the commutator
+$\mathbf{B} = \begin{pmatrix}0&0\\1&0\end{pmatrix}$ Compute the commutator
 $[\mathbf{A}, \mathbf{B}] = \mathbf{AB} - \mathbf{BA}$.
 
 **Solution.**
@@ -974,7 +974,7 @@ $S = \begin{pmatrix}0&-1\\1&0\end{pmatrix}$.
 
 $RS = \begin{pmatrix}-\frac{1}{2}&\frac{\sqrt{3}}{2}\\\frac{\sqrt{3}}{2}&\frac{1}{2}\end{pmatrix}\begin{pmatrix}0&-1\\1&0\end{pmatrix} = \begin{pmatrix}\frac{\sqrt{3}}{2}&\frac{1}{2}\\\frac{1}{2}&-\frac{\sqrt{3}}{2}\end{pmatrix}$.
 
-$\det(RS) = -\dfrac{3}{4} - \dfrac{1}{4} = -1$ and $\text{tr}(RS) = 0$Confirming this is a
+$\det(RS) = -\dfrac{3}{4} - \dfrac{1}{4} = -1$ and $\text{tr}(RS) = 0$ Confirming this is a
 Reflection.
 
 ### Example 8.7: Finding the inverse of a 3×3 matrix
@@ -1062,7 +1062,7 @@ $\blacksquare$
 ### Question 10
 
 The transformation represented by $\mathbf{M} = \begin{pmatrix}a&b\\c&d\end{pmatrix}$ maps the unit
-Square to a parallelogram of area 6. Given $a+d = 5$ and $ad-bc = 6$Find the eigenvalues of
+Square to a parallelogram of area 6. Given $a+d = 5$ and $ad-bc = 6$ Find the eigenvalues of
 $\mathbf{M}$.
 
 <details>

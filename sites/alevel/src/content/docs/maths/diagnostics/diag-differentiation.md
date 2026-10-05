@@ -45,7 +45,7 @@ flowchart TD
 **(b)** A student writes $\frac{dy}{dx} = 2\sin(e^{3x}) \cdot 3e^{3x}$. Identify the errors in the
 student"s working.
 
-**(c)** Find the value of $\frac{d^2y}{dx^2}$ when $x = 0$Giving an exact answer.
+**(c)** Find the value of $\frac{d^2y}{dx^2}$ when $x = 0$ Giving an exact answer.
 
 [Difficulty: hard. Tests the chain rule applied through three layers of composition (square, sine,
 exponential), a common source of missing factors.]
@@ -81,7 +81,7 @@ $$
 1. Missing the $\cos(e^{3x})$ factor from differentiating the middle function $\sin(e^{3x})$. The
    student differentiated $\sin$ to get $1$ instead of $\cos$.
 2. The student treated $\sin^2(e^{3x})$ as if the outer function were $\sin$ and the inner function
-   were $e^{3x}$Completely missing the square.
+   were $e^{3x}$ Completely missing the square.
 
 **(c)** Starting from $\frac{dy}{dx} = 3e^{3x}\sin(2e^{3x})$.
 
@@ -128,7 +128,7 @@ A curve is defined implicitly by the equation $x^2 + xy + y^2 = 12$.
 
 **(a)** Find $\frac{dy}{dx}$ in terms of $x$ and $y$.
 
-**(b)** A student differentiates $xy$ as $1 \cdot y = y$Forgetting the product rule. Write down the
+**(b)** A student differentiates $xy$ as $1 \cdot y = y$ Forgetting the product rule. Write down the
 incorrect expression the student would obtain for $\frac{dy}{dx}$ And find the coordinates of the
 points where the student's answer agrees with the correct answer.
 
@@ -167,7 +167,7 @@ $$
 
 The correct answer is $\frac{dy}{dx} = -\frac{2x+y}{x+2y}$.
 
-These agree when $x + 2y = 2y$I.e. $x = 0$.
+These agree when $x + 2y = 2y$ I.e. $x = 0$.
 
 When $x = 0$: $0 + 0 + y^2 = 12 \implies y = \pm 2\sqrt{3}$.
 
@@ -264,7 +264,7 @@ $\frac{d^2y}{dx^2} = 0$; the first derivative test (sign change analysis) is the
 
 **(d)** $y = x^4 - 4x^3 + 6x^2 - 4x + 1 = (x-1)^4$.
 
-This is immediately obvious because $(x-1)^4 \geq 0$ for all $x$With equality only at $x = 1$. So
+This is immediately obvious because $(x-1)^4 \geq 0$ for all $x$ With equality only at $x = 1$. So
 $(1, 0)$ is a global (and local) minimum.
 
 ---
@@ -316,7 +316,7 @@ $\mathbb{R}$.
 For example, $f(-1) = -1 + 3 + 1 = 3$ and $f(2) = 8 - 6 + 1 = 3$ So $f(-1) = f(2)$ with $-1 \neq 2$.
 
 **(b)** The largest interval containing $x = 0$ on which $f$ is monotonic is $[-1, 1]$ (where
-$f' \leq 0$With equality only at the endpoints). Actually, on $(-1, 1)$, $f' \lt 0$ So $f$ is strictly
+$f' \leq 0$ With equality only at the endpoints). Actually, on $(-1, 1)$, $f' \lt 0$ So $f$ is strictly
 decreasing and therefore injective.
 
 The largest such interval is $[-1, 1]$.
@@ -398,13 +398,13 @@ The question states to "show that this tangent is also a tangent to $C_2$." This
 incorrect for the given curves. The tangent to $C_1$ at $x = 1$ intersects $C_2$ at two distinct
 points.
 
-Let me check: the discriminant is $16 + 12 = 28 \gt 0$Confirming two distinct intersection points.
+Let me check: the discriminant is $16 + 12 = 28 \gt 0$ Confirming two distinct intersection points.
 The line is not tangent to $C_2$.
 
-For the line to be tangent to $C_2$We would need the discriminant to be zero. The gradient of the
+For the line to be tangent to $C_2$ We would need the discriminant to be zero. The gradient of the
 tangent to $C_2$ is $2x + 2$. Setting this equal to $-2$: $2x + 2 = -2 \implies x = -2$.
 
-At $x = -2$ on $C_2$: $y = 4 - 4 + 1 = 1$Gradient $= -2$. Tangent:
+At $x = -2$ on $C_2$: $y = 4 - 4 + 1 = 1$ Gradient $= -2$. Tangent:
 $y - 1 = -2(x + 2) \implies y = -2x - 3$.
 
 This is a different line from $y = -2x + 4$. The two curves do not share a common tangent at these
@@ -489,7 +489,7 @@ The second derivative changes sign, so $\left(2, \frac{2}{e^2}\right)$ is a poin
 
 **(d)** The line $y = mx$ intersects $C$ when $mx = xe^{-x}$.
 
-For $x \neq 0$: $m = e^{-x}$Giving $x = -\ln m$ (requiring $m \gt 0$).
+For $x \neq 0$: $m = e^{-x}$ Giving $x = -\ln m$ (requiring $m \gt 0$).
 
 For tangency, the gradient of $C$ at this point must equal $m$:
 

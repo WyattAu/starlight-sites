@@ -448,7 +448,7 @@ System is not closed (e.g., a gas escapes), equilibrium cannot be established.
 - The forward and reverse rates must be equal
 - The concentrations remain constant (but not necessarily equal)
 
-### 4.3 Le Chatelier"s Principle
+### 4.3 Le Chatelier's Principle
 
 **Le Chatelier's principle:** If a system at equilibrium is subjected to a change, the equilibrium
 Shifts in the direction that counteracts the change.
@@ -735,7 +735,7 @@ Oxidation state rules:
 
 **Worked Example.** Determine the oxidation state of manganese in KMnO$_4$.
 
-K = $+1$O = $-2$ (four oxygens: $4 \times -2 = -8$).
+K = $+1$ O = $-2$ (four oxygens: $4 \times -2 = -8$).
 
 $+1 + \mathrm{Mn + (-8) = 0$ So Mn = $+7$.
 
@@ -743,7 +743,7 @@ $+1 + \mathrm{Mn + (-8) = 0$ So Mn = $+7$.
 
 O = $-2$ (seven oxygens: $7 \times -2 = -14$).
 
-$2\mathrm{Cr + (-14) = -2$ So $2\mathrm{Cr = +12$Giving Cr = $+6$.
+$2\mathrm{Cr + (-14) = -2$ So $2\mathrm{Cr = +12$ Giving Cr = $+6$.
 
 ## Common Pitfalls
 
@@ -765,7 +765,7 @@ $2\mathrm{Cr + (-14) = -2$ So $2\mathrm{Cr = +12$Giving Cr = $+6$.
 - **Using the wrong reagent to identify a gas.** Know each test precisely: limewater for CO$_2$
   glowing splint for O$_2$Lighted splint for H$_2$.
 - **Confusing the oxidation state of oxygen in peroxides.** In H$_2$O$_2$Oxygen has oxidation state
-  $-1$Not $-2$.
+  $-1$ Not $-2$.
 - **Not including the correct charges in half equations.** Always balance both atoms and charge.
 
 ## Practice Questions

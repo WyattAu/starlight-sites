@@ -38,10 +38,10 @@ flowchart TD
 
 **Question:**
 
-(a) Write the full electron configuration of $\text{Cr}^{3+}$ and $\text{Cu}^+$Explaining any
+(a) Write the full electron configuration of $\text{Cr}^{3+}$ and $\text{Cu}^+$ Explaining any
 deviation from the expected $4s$-before-$3d$ filling order.
 
-(b) The third ionisation energy of chromium is $2987\,\text{kJ mol}^{-1}$While the fourth ionisation
+(b) The third ionisation energy of chromium is $2987\,\text{kJ mol}^{-1}$ While the fourth ionisation
 energy is $4743\,\text{kJ mol}^{-1}$. Explain why this jump occurs and identify which electron is
 being removed at the fourth ionisation.
 
@@ -182,7 +182,7 @@ nuclear charge of Al.
 
 (c) P has the configuration $[\text{Ne}]\,3s^2\,3p^3$ (half-filled $3p$ subshell). A half-filled
 subshell has extra stability due to exchange energy (parallel spins in each $p$ orbital minimise
-electron-electron repulsion). S has $[\text{Ne}]\,3s^2\,3p^4$Where the fourth $3p$ electron must
+electron-electron repulsion). S has $[\text{Ne}]\,3s^2\,3p^4$ Where the fourth $3p$ electron must
 pair with an electron in an already-occupied orbital. The pairing introduces additional
 electron-electron repulsion, making this electron slightly easier to remove despite the higher
 nuclear charge.
@@ -252,7 +252,7 @@ overcome these strong forces and break the lattice, hence the high melting point
 An electron in a hydrogen atom is excited from the $n = 1$ ground state to the $n = 4$ energy level,
 then relaxes back to the ground state.
 
-(a) Calculate the energy, in $\text{kJ mol}^{-1}$Of a photon emitted when the electron transitions
+(a) Calculate the energy, in $\text{kJ mol}^{-1}$ Of a photon emitted when the electron transitions
 directly from $n = 4$ to $n = 2$. Use $E_n = -1312/n^2\,\text{kJ mol}^{-1}$.
 
 (b) Calculate the wavelength of this photon in nm. Use
@@ -294,7 +294,7 @@ $$
 
 This corresponds to a much shorter wavelength ($\approx 97\,\text{nm}$), placing it in the
 **ultraviolet region** (Lyman series). The energy difference between $n = 1$ and $n = 4$ is much
-larger than between $n = 2$ and $n = 4$Because the energy levels converge (get closer together) as
+larger than between $n = 2$ and $n = 4$ Because the energy levels converge (get closer together) as
 $n$ increases.
 
 ---
@@ -318,7 +318,7 @@ Consider the elements Na, Mg, Al, Si, P, S, Cl, and Ar.
 Explain the trend, identifying which element(s) are conductors, semiconductors, and insulators.
 
 (b) The melting points of Na ($98\,^\circ\text{C}$), Mg ($650\,^\circ\text{C}$), Al
-($660\,^\circ\text{C}$), Si ($1414\,^\circ\text{C}$), P ($44\,^\circ\text{C}$White), S
+($660\,^\circ\text{C}$), Si ($1414\,^\circ\text{C}$), P ($44\,^\circ\text{C}$ White), S
 ($115\,^\circ\text{C}$), Cl ($-101\,^\circ\text{C}$), and Ar ($-189\,^\circ\text{C}$) show a complex
 pattern. Explain this pattern in terms of bonding and structure, accounting for why Si has the
 highest melting point.
@@ -373,7 +373,7 @@ because the extra electrons can move freely through the lattice.
 
 #### UT-4: Ionisation Energy Calculation
 
-**Question:** The first three ionisation energies of aluminium are $578$, $1817$And
+**Question:** The first three ionisation energies of aluminium are $578$, $1817$ And
 $2745\,\mathrm{kJ\,mol^{-1}}$. Explain why the second ionisation energy is so much larger than the
 first, and why the third is larger still but the jump from second to third is smaller than from
 first to second.
@@ -426,7 +426,7 @@ Nitrogen has the electron configuration $1s^2\,2s^2\,2p^3$ with one electron in 
 $2p$ orbitals (Hund's rule). Each electron in a separate orbital experiences minimal
 electron-electron repulsion within the subshell (1 mark).
 
-Oxygen has the configuration $1s^2\,2s^2\,2p^4$Meaning one of the $2p$ orbitals must contain a pair
+Oxygen has the configuration $1s^2\,2s^2\,2p^4$ Meaning one of the $2p$ orbitals must contain a pair
 of electrons. The paired electrons in the same orbital repel each other, making it easier to remove
 one of them compared to removing an unpaired electron from nitrogen (1 mark).
 

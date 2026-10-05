@@ -82,7 +82,7 @@ has been denatured, it cannot recover its function.
 
 A student investigates the effect of temperature on amylase activity. The results are:
 
-| Temperature ($^{\circ}$C) | Time for starch to disappear (s) | Rate ($1/\mathrm{time$) ($\times 10^{-3}$ s$^{-1}$) |
+| Temperature ($^{\circ}$ C) | Time for starch to disappear (s) | Rate ($1/\mathrm{time$) ($\times 10^{-3}$ s$^{-1}$) |
 | ------------------------- | -------------------------------- | --------------------------------------------------- |
 | 10                        | 300                              | 3.3                                                 |
 | 20                        | 120                              | 8.3                                                 |

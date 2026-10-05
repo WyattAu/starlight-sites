@@ -24,7 +24,7 @@ tableOfContents: false
 **Question:**
 
 A particle of mass $0.50\,\text{kg}$ moves in a straight line. Its displacement from a fixed point
-$O$ is given by $x = 0.15\cos(4\pi t + \pi/3)\,\text{m}$Where $t$ is in seconds.
+$O$ is given by $x = 0.15\cos(4\pi t + \pi/3)\,\text{m}$ Where $t$ is in seconds.
 
 (a) Calculate the amplitude, angular frequency, period, and frequency of the motion.
 
@@ -46,7 +46,7 @@ each occurs.
 
 Maximum velocity: $v_{\max} = A\omega = 0.15 \times 4\pi = 1.885\,\text{m}\,\text{s}^{-1}$
 
-This occurs when $\sin(4\pi t + \pi/3) = \pm 1$I.e. $x = 0$ (equilibrium position).
+This occurs when $\sin(4\pi t + \pi/3) = \pm 1$ I.e. $x = 0$ (equilibrium position).
 
 Acceleration: $a = -A\omega^2\cos(\omega t + \phi) = -\omega^2 x$
 
@@ -57,7 +57,7 @@ This occurs when $|x| = A = 0.15\,\text{m}$ (maximum displacement).
 
 (c) KE $=$ PE when $\frac{1}{2}mv^2 = \frac{1}{2}m\omega^2 x^2$.
 
-Since $E_k + E_p = \frac{1}{2}m\omega^2 A^2$KE $=$ PE implies each is half the total:
+Since $E_k + E_p = \frac{1}{2}m\omega^2 A^2$ KE $=$ PE implies each is half the total:
 
 $$
 \frac{1}{2}m\omega^2 x^2 = \frac{1}{4}m\omega^2 A^2 \Rightarrow x^2 = \frac{A^2}{2} \Rightarrow x = \pm\frac{A}{\sqrt{2}}
@@ -113,7 +113,7 @@ The first time is $t = 0.104\,\text{s}$ (when $x = -A/\sqrt{2}$).
 **Question:**
 
 A mass-spring system undergoes damped harmonic oscillations. The displacement is given by
-$x = A_0 e^{-\gamma t}\cos(\omega_d t)$Where $\gamma = 0.50\,\text{s}^{-1}$ and
+$x = A_0 e^{-\gamma t}\cos(\omega_d t)$ Where $\gamma = 0.50\,\text{s}^{-1}$ and
 $\omega_d = 8.0\,\text{rad}\,\text{s}^{-1}$.
 
 (a) Calculate the time for the amplitude to halve.
@@ -295,8 +295,8 @@ $v_{\max} = A\omega = 0.05 \times \sqrt{k/m} = 0.05 \times \sqrt{40} = 0.05 \tim
 
 **Question:**
 
-A mechanical oscillator (mass $m$Spring constant $k$Damping constant $b$) is driven by a force
-$F = F_0\cos(\omega t)$. The analogous electrical circuit consists of an inductor $L$Capacitor
+A mechanical oscillator (mass $m$ Spring constant $k$ Damping constant $b$) is driven by a force
+$F = F_0\cos(\omega t)$. The analogous electrical circuit consists of an inductor $L$ Capacitor
 $C$ And resistor $R$ in series driven by an AC voltage $V = V_0\cos(\omega t)$.
 
 Given:
@@ -322,13 +322,13 @@ These are **not** equal. For the analogy to hold, the corresponding parameters m
 consistently. The mechanical-electrical analogies are:
 $m \leftrightarrow L$$k \leftrightarrow 1/C$$b \leftrightarrow R$.
 
-For the frequencies to match, we need $\sqrt{k/m} = 1/\sqrt{LC}$I.e. $k/m = 1/(LC)$.
+For the frequencies to match, we need $\sqrt{k/m} = 1/\sqrt{LC}$ I.e. $k/m = 1/(LC)$.
 
 Check: $k/m = 200/0.50 = 400$ and $1/(LC) = 1/(0.10 \times 25 \times 10^{-6}) = 400000$. These are
 not equal, so the systems are not analogous as given.
 
 For a true analogy with the given mechanical parameters, the electrical components would need:
-$LC = m/k = 0.50/200 = 2.5 \times 10^{-3}\,\text{s}^2$E.g.
+$LC = m/k = 0.50/200 = 2.5 \times 10^{-3}\,\text{s}^2$ E.g.
 $L = 0.50\,\text{H}$$C = 5.0 \times 10^{-3}\,\text{F}$.
 
 (b) For the mechanical oscillator at resonance:
@@ -394,11 +394,11 @@ $$
 
 The mass of the oscillating liquid: $m = \rho A L$
 
-By Newton"s second law: $ma = F$
+By Newton's second law: $ma = F$
 
 $$\rho A L \ddot{x} = -2\rho A g x$$ $$\ddot{x} = -\frac{2g}{L} x$$
 
-This is of the form $\ddot{x} = -\omega^2 x$Confirming SHM with $\omega^2 = 2g/L$.
+This is of the form $\ddot{x} = -\omega^2 x$ Confirming SHM with $\omega^2 = 2g/L$.
 
 (b)
 $\omega = \sqrt{2g/L} = \sqrt{2 \times 9.81/0.80} = \sqrt{24.53} = 4.953\,\text{rad}\,\text{s}^{-1}$

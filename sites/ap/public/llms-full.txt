@@ -1148,7 +1148,7 @@ information transfer, and systems interactions.
 
 ### Water Properties
 
-Water"s polarity gives it unique properties essential for life:
+Water's polarity gives it unique properties essential for life:
 
 1. **Cohesion and adhesion:** Hydrogen bonds between water molecules (cohesion) and between water
    and other surfaces (adhesion) enable capillary action and the transpiration stream in plants.
@@ -2964,7 +2964,7 @@ $$
 ### Free Fall
 
 An object in free fall experiences only the force of gravity. All objects in free fall have the same
-acceleration $g \approx 9.8\ \text{m/s}^2$ near Earth"s surface, regardless of mass.
+acceleration $g \approx 9.8\ \text{m/s}^2$ near Earth's surface, regardless of mass.
 
 ### Graphical Analysis
 
@@ -5115,7 +5115,7 @@ URL: https://ap.wyattau.com/biology/2-cell-structure-and-function/2_cell-structu
 | Nucleus                   | No (nucleoid region) | Yes, membrane-bound              |
 | Membrane-bound organelles | No                   | Yes                              |
 | DNA                       | Circular, single     | Linear, in chromosomes           |
-| Size                      | 0.1 -- 5 $\mu$M      | 10 -- 100 $\mu$M                 |
+| Size                      | 0.1 -- 5 $\mu$ M      | 10 -- 100 $\mu$ M                 |
 | Ribosomes                 | 70S (smaller)        | 80S (larger)                     |
 | Cell division             | Binary fission       | Mitosis, meiosis                 |
 | Examples                  | Bacteria, Archaea    | Plants, animals, fungi, protists |
@@ -5123,13 +5123,13 @@ URL: https://ap.wyattau.com/biology/2-cell-structure-and-function/2_cell-structu
 **Worked Example: Distinguishing prokaryotic and eukaryotic features.**
 
 A student examines a cell under a microscope and observes: no visible nucleus, a cell wall, and
-Ribosomes. The cell is approximately 2 $\mu$M in diameter.
+Ribosomes. The cell is approximately 2 $\mu$ M in diameter.
 
 Since there is no membrane-bound nucleus, this is a prokaryotic cell. Both prokaryotes and
 Eukaryotes can have cell walls (plant cell walls are made of cellulose; bacterial cell walls are
-Made of peptidoglycan), so the presence of a cell wall is not diagnostic. The small size (2 $\mu$M)
-Is consistent with a prokaryotic cell (prokaryotes are 0.1--5 $\mu$M, while eukaryotes are 10--100
-$\mu$M).
+Made of peptidoglycan), so the presence of a cell wall is not diagnostic. The small size (2 $\mu$ M)
+Is consistent with a prokaryotic cell (prokaryotes are 0.1--5 $\mu$ M, while eukaryotes are 10--100
+$\mu$ M).
 
 ## The Cell Membrane (CED Unit 2)
 
@@ -5305,7 +5305,7 @@ Eukaryotic cells.
 
 1. **Transduction:** The signal is relayed and amplified through a signal transduction pathway.
 
-- Often involves **second messengers** (cAMP, $\mathrm{Ca^{2+}$, $\mathrm{IP_3$DAG).
+- Often involves **second messengers** (cAMP, $\mathrm{Ca^{2+}$, $\mathrm{IP_3$ DAG).
 - **Protein kinases** phosphorylate target proteins, activating or deactivating them.
 - **Protein phosphatases** remove phosphate groups, reversing kinase action.
 - **Cascades** amplify the signal (one activated kinase activates many downstream targets).
@@ -5480,7 +5480,7 @@ Receptors in the cytoplasm or nucleus.
 Understanding the nuances of membrane transport is critical. Here is a more detailed analysis of
 Each mechanism:
 
-**Simple diffusion:** Small, nonpolar molecules (e.g., $\mathrm{O_2$, $\mathrm{CO_2$Steroid Hormones)
+**Simple diffusion:** Small, nonpolar molecules (e.g., $\mathrm{O_2$, $\mathrm{CO_2$ Steroid Hormones)
 diffuse directly through the phospholipid bilayer. The rate depends on the concentration Gradient,
 temperature, and the surface area of the membrane. No energy or transport protein is Required.
 
@@ -5689,14 +5689,14 @@ $$
 
 **Worked Example:** A mitochondrion measures 8 mm in an electron micrograph at
 $\times$10,000.
-Actual size $= 8 / 10,000 = 0.0008$ mm $= 0.8$ $\mu$M. This is within the expected
-Range (0.5--10 $\mu$M).
+Actual size $= 8 / 10,000 = 0.0008$ mm $= 0.8$ $\mu$ M. This is within the expected
+Range (0.5--10 $\mu$ M).
 
 **Worked Example: Converting between units for magnification calculations.**
 
-A cell appears 4.5 cm wide in a light micrograph. The actual cell width is 30 $\mu$M.
+A cell appears 4.5 cm wide in a light micrograph. The actual cell width is 30 $\mu$ M.
 
-Convert to the same units: 4.5 cm $= 45$ mm $= 45,000$ $\mu$M.
+Convert to the same units: 4.5 cm $= 45$ mm $= 45,000$ $\mu$ M.
 
 Magnification $= 45,000 / 30 = \times 1,500$.
 
@@ -6067,7 +6067,7 @@ $$
 Per glucose: 2 acetyl-CoA, $2 \mathrm{CO_2$2 NADH.
 
 The link reaction is catalysed by the pyruvate dehydrogenase complex, a large multi-enzyme complex
-That requires five coenzymes: CoA, $\mathrm{NAD^+$FAD, lipoic acid, and thiamine (vitamin B1). This
+That requires five coenzymes: CoA, $\mathrm{NAD^+$ FAD, lipoic acid, and thiamine (vitamin B1). This
 is why thiamine deficiency (beriberi) impairs energy metabolism.
 
 ### Citric Acid Cycle (Krebs Cycle)
@@ -6156,7 +6156,7 @@ Using the values of 2.5 ATP per NADH and 1.5 ATP per $\mathrm{FADH_2$:
 - Krebs cycle: 2 ATP + 6 NADH $\times$ 2.5 + 2 $\mathrm{FADH_2 \times$ 1.5 = 2 + 15 + 3 = 20 ATP
 - **Total: 7 + 5 + 20 = 32 ATP**
 
-Note: Some textbooks use 3 ATP per NADH and 2 ATP per $\mathrm{FADH_2$Giving a total of 38 ATP. The
+Note: Some textbooks use 3 ATP per NADH and 2 ATP per $\mathrm{FADH_2$ Giving a total of 38 ATP. The
 actual yield is closer to 30-32 because of proton leak and the cost of transporting molecules Across
 membranes.
 
@@ -6210,8 +6210,8 @@ $$
 
 | Stage           | Location           | Inputs                                           | Outputs                            |
 | --------------- | ------------------ | ------------------------------------------------ | ---------------------------------- |
-| Light-dependent | Thylakoid membrane | $\mathrm{H_2\mathrm{O$Light, $\mathrm{NADP^+$ADP | $\mathrm{O_2$ATP, NADPH            |
-| Calvin cycle    | Stroma             | $\mathrm{CO_2$ATP, NADPH                         | G3P (sugar), ADP, $\mathrm{NADP^+$ |
+| Light-dependent | Thylakoid membrane | $\mathrm{H_2\mathrm{O$ Light, $\mathrm{NADP^+$ ADP | $\mathrm{O_2$ ATP, NADPH            |
+| Calvin cycle    | Stroma             | $\mathrm{CO_2$ ATP, NADPH                         | G3P (sugar), ADP, $\mathrm{NADP^+$ |
 
 ### Light-Dependent Reactions
 
@@ -6259,7 +6259,7 @@ $\mathrm{CO_2$ + 18 ATP + 12 NADPH $\to$ glucose + 18 ADP + 16 $\mathrm{P_i$ + 1
 ### Photorespiration
 
 When stomata close on hot, dry days, $\mathrm{CO_2$ levels drop and $\mathrm{O_2$ levels rise.
-RuBisCO binds $\mathrm{O_2$ instead of $\mathrm{CO_2$Producing 2-phosphoglycolate (a 2-carbon
+RuBisCO binds $\mathrm{O_2$ instead of $\mathrm{CO_2$ Producing 2-phosphoglycolate (a 2-carbon
 Compound) and 3-PGA. This consumes energy without producing sugar.
 
 ### C4 and CAM Photosynthesis
@@ -6434,12 +6434,12 @@ More photons are available to excite electrons in the photosystems. As light int
 The rate plateaus because another factor ( $\mathrm{CO_2$ concentration or temperature) Becomes
 limiting.
 
-**$\mathrm{CO_2$ concentration:** At low $\mathrm{CO_2$The rate increases because RuBisCO has More
-substrate to fix. At high $\mathrm{CO_2$The rate plateaus because light or temperature is Limiting.
+**$\mathrm{CO_2$ concentration:** At low $\mathrm{CO_2$ The rate increases because RuBisCO has More
+substrate to fix. At high $\mathrm{CO_2$ The rate plateaus because light or temperature is Limiting.
 Commercial greenhouses often enrich the atmosphere with $\mathrm{CO_2$ to increase crop Yields.
 
 **Temperature:** Affects enzyme activity (particularly RuBisCO). The rate increases with temperature
-Up to an optimum ( $25$--$35\degree$C for most plants) and then decreases sharply as Enzymes
+Up to an optimum ( $25$--$35\degree$ C for most plants) and then decreases sharply as Enzymes
 denature. The effect of temperature is most pronounced at high light intensities where light Is not
 the limiting factor.
 
@@ -6451,22 +6451,22 @@ $\mathrm{CO_2$ uptake and therefore limiting photosynthesis.
 **Worked Example: Interpreting a photosynthesis rate graph.**
 
 A graph shows the rate of photosynthesis plotted against light intensity at two temperatures,
-$15\degree$C and $30\degree$C.
+$15\degree$ C and $30\degree$ C.
 
 1. At low light intensity, both curves rise at the same rate. Light is the limiting factor at both
    temperatures.
-2. The $15\degree$C curve plateaus at a lower maximum rate than the $30\degree$C curve. At
-   $15\degree$C, temperature limits the rate of enzyme-catalysed reactions (particularly RuBisCO
+2. The $15\degree$ C curve plateaus at a lower maximum rate than the $30\degree$ C curve. At
+   $15\degree$ C, temperature limits the rate of enzyme-catalysed reactions (particularly RuBisCO
    activity).
-3. At $30\degree$C, the higher enzyme activity allows a higher maximum rate of photosynthesis.
-4. If a third curve at $40\degree$C were added, it might plateau at a similar or lower level than
-   the $30\degree$C curve if $40\degree$C is close to the optimum, or it might show a lower rate if
+3. At $30\degree$ C, the higher enzyme activity allows a higher maximum rate of photosynthesis.
+4. If a third curve at $40\degree$ C were added, it might plateau at a similar or lower level than
+   the $30\degree$ C curve if $40\degree$ C is close to the optimum, or it might show a lower rate if
    enzymes are beginning to denature.
 
 ## Review: The Role of the Electron Transport Chain in Respiration
 
 The ETC is a series of membrane-bound protein complexes and mobile electron carriers that transfer
-Electrons from NADH and $\mathrm{FADH_2$ to $\mathrm{O_2$The final electron acceptor. The energy
+Electrons from NADH and $\mathrm{FADH_2$ to $\mathrm{O_2$ The final electron acceptor. The energy
 Released by electron transfer is used to pump protons across the inner mitochondrial membrane,
 Creating the electrochemical gradient that drives ATP synthesis.
 
@@ -6475,7 +6475,7 @@ Creating the electrochemical gradient that drives ATP synthesis.
 - Electrons move through the complexes in order of increasingly positive reduction potential (each
   successive complex has a greater affinity for electrons).
 - $\mathrm{O_2$ is essential because it is the only molecule with a positive enough reduction
-  potential to accept electrons at the end of the chain. Without $\mathrm{O_2$Electrons back up
+  potential to accept electrons at the end of the chain. Without $\mathrm{O_2$ Electrons back up
   through the chain, NADH and $\mathrm{FADH_2$ cannot be oxidised, and the Krebs cycle stops.
 - Some compounds that block the ETC are poisons: cyanide blocks Complex IV, rotenone blocks Complex
   I, and antimycin A blocks Complex III. DNP (dinitrophenol) is an uncoupler that makes the membrane
@@ -6678,7 +6678,7 @@ Activating brown fat as a treatment for obesity (burning calories as heat).
 ## Review: The Role of Alternative Oxidases
 
 Some plants and fungi possess an alternative oxidase (AOX) in their mitochondrial ETC. AOX transfers
-Electrons directly from ubiquinol to $\mathrm{O_2$Bypassing Complexes III and IV. This pathway Does
+Electrons directly from ubiquinol to $\mathrm{O_2$ Bypassing Complexes III and IV. This pathway Does
 not pump protons, so no ATP is produced, but it does allow the ETC to continue operating when The
 cytochrome pathway is saturated. AOX also reduces the production of reactive oxygen species (ROS) by
 preventing over-reduction of the ETC.
@@ -6782,7 +6782,7 @@ mechanism of brown fat thermogenesis, where uncoupling protein 1 (UCP1) Performs
 <summary>Question 4: Fermentation and lactate accumulation</summary>
 
 A runner sprints for 30 seconds. During this time, the muscle cells produce lactate at a rate of
-$0.5 \mathrm{ mmol/(g\cdot min)$. If the muscle weighs $25 \mathrm{ kg$Calculate the total moles Of
+$0.5 \mathrm{ mmol/(g\cdot min)$. If the muscle weighs $25 \mathrm{ kg$ Calculate the total moles Of
 lactate produced and the number of glucose molecules consumed by fermentation during the sprint.
 
 </details>
@@ -7186,7 +7186,7 @@ $$
 
 An enzyme has the following rates at different substrate concentrations:
 
-| [S] ($\mu$M) | v ($\mu$Mol/min) |
+| [S] ($\mu$ M) | v ($\mu$ Mol/min) |
 | ------------ | ---------------- |
 | 2            | 5.0              |
 | 5            | 10.0             |
@@ -7195,11 +7195,11 @@ An enzyme has the following rates at different substrate concentrations:
 | 50           | 18.9             |
 | 100          | 19.6             |
 
-At very high [S], $v$ approaches $V_{\max} \approx 20$ $\mu$Mol/min.
+At very high [S], $v$ approaches $V_{\max} \approx 20$ $\mu$ Mol/min.
 
-At $v = V_{\max}/2 = 10$[S] = 5 $\mu$M, so $K_m = 5$ $\mu$M.
+At $v = V_{\max}/2 = 10$[S] = 5 $\mu$ M, so $K_m = 5$ $\mu$ M.
 
-This means the enzyme reaches half its maximum rate when the substrate concentration is 5 $\mu$M. A
+This means the enzyme reaches half its maximum rate when the substrate concentration is 5 $\mu$ M. A
 Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 
 ### Enzyme Inhibition
@@ -7215,7 +7215,7 @@ Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 
 A competitive inhibitor binds to the active site, competing directly with the substrate. At low
 Substrate concentration, the inhibitor effectively blocks many active sites, reducing the reaction
-Rate. To achieve half $V_{\max}$A higher substrate concentration is needed (to outcompete the
+Rate. To achieve half $V_{\max}$ A higher substrate concentration is needed (to outcompete the
 Inhibitor), so the apparent $K_m$ increases.
 
 However, at very high substrate concentrations, the substrate outcompetes the inhibitor for all
@@ -7288,8 +7288,8 @@ Energy from ATP hydrolysis.
    one ring. "Pure As Gold" for purines.
 9. **Forgetting that denaturation only affects secondary, tertiary, and quaternary structure.** The
    primary structure (amino acid sequence) is not changed by denaturation.
-10. **Confusing exergonic and endergonic.** Exergonic: $\Delta G \lt 0$Releases energy. Endergonic:
-    $\Delta G \gt 0$Requires energy.
+10. **Confusing exergonic and endergonic.** Exergonic: $\Delta G \lt 0$ Releases energy. Endergonic:
+    $\Delta G \gt 0$ Requires energy.
 
 ## Practice Questions
 
@@ -7303,7 +7303,7 @@ Energy from ATP hydrolysis.
 
 4. Describe the four levels of protein structure and the types of bonds that stabilize each level.
 
-5. Explain why a competitive inhibitor increases $K_m$ but does not change $V_{\max}$While a
+5. Explain why a competitive inhibitor increases $K_m$ but does not change $V_{\max}$ While a
    noncompetitive inhibitor decreases $V_{\max}$ but does not change $K_m$.
 
 6. Compare DNA and RNA in terms of structure, bases, sugar, and function.
@@ -7585,7 +7585,7 @@ Relevant variables to ensure that only the independent variable affects the depe
 
 ## Review: Water's Role in Temperature Regulation
 
-Water's high specific heat capacity ($4.18$ J/g/$\degree$C) means it can absorb or release large
+Water's high specific heat capacity ($4.18$ J/g/$\degree$ C) means it can absorb or release large
 Amounts of heat with relatively small changes in temperature. This property has important biological
 Consequences:
 
@@ -7593,7 +7593,7 @@ Consequences:
   smaller temperature fluctuations than inland areas at the same latitude.
 - **Organisms maintain stable internal temperatures:** The high water content of organisms (
   60--90%) contributes to thermal stability.
-- **Evaporative cooling:** Water's high heat of vaporisation ($2260$ J/g at $100\degree$C) means
+- **Evaporative cooling:** Water's high heat of vaporisation ($2260$ J/g at $100\degree$ C) means
   that sweating (in mammals) and transpiration (in plants) are very effective cooling mechanisms.
 
 **Worked Example:** A person running on a hot day produces approximately 500 mL of sweat per hour.
@@ -7664,7 +7664,7 @@ Total hydrogen bonds: $3,600 + 9,600 = 13,200$.
 <summary>Question 2: Enzyme kinetics with an inhibitor</summary>
 
 An enzyme has $K_m = 4 \mathrm{ \mu M$ and $V_{\max} = 20 \mathrm{ \mu mol/min$. In the presence Of
-a competitive inhibitor at $8 \mathrm{ \mu M$The apparent $K_m$ increases to $12 \mathrm{ \mu M$.
+a competitive inhibitor at $8 \mathrm{ \mu M$ The apparent $K_m$ increases to $12 \mathrm{ \mu M$.
 Calculate the reaction velocity at a substrate concentration of $6 \mathrm{ \mu M$ both with and
 without the inhibitor.
 
@@ -7733,7 +7733,7 @@ Coupled. Is the overall reaction spontaneous?
 
 Overall $\Delta G = +16.7 + (-30.5) = -13.8 \mathrm{ kJ/mol$.
 
-Since $\Delta G \lt 0$The overall coupled reaction is spontaneous. The energy released by ATP
+Since $\Delta G \lt 0$ The overall coupled reaction is spontaneous. The energy released by ATP
 Hydrolysis ($-30.5 \mathrm{ kJ/mol$) more than compensates for the energy required for the
 Phosphorylation ($+16.7 \mathrm{ kJ/mol$). This is how phosphofructokinase drives the committed Step
 of glycolysis forward. The excess energy ($13.8 \mathrm{ kJ/mol$) is released as heat.
@@ -7745,7 +7745,7 @@ of glycolysis forward. The excess energy ($13.8 \mathrm{ kJ/mol$) is released as
 
 A researcher discovers that a protein loses its biological activity when heated to
 $45^\circ\mathrm{C$ But regains full activity when cooled back to $25^\circ\mathrm{C$. When Heated to
-$70^\circ\mathrm{C$The protein permanently loses activity even after cooling. Explain These
+$70^\circ\mathrm{C$ The protein permanently loses activity even after cooling. Explain These
 observations with reference to the levels of protein structure.
 
 </details>
@@ -7753,13 +7753,13 @@ observations with reference to the levels of protein structure.
 <details>
 <summary>Answer</summary>
 
-At $45^\circ\mathrm{C$The protein undergoes reversible denaturation. The secondary and tertiary
+At $45^\circ\mathrm{C$ The protein undergoes reversible denaturation. The secondary and tertiary
 Structures are disrupted (hydrogen bonds, hydrophobic interactions, and ionic bonds break), causing
 The protein to unfold and lose its active site shape. However, the primary structure (amino acid
 Sequence) remains intact. When cooled, these non-covalent interactions can re-form, allowing the
 Protein to refold into its native, functional conformation.
 
-At $70^\circ\mathrm{C$The denaturation is irreversible. At this higher temperature, the protein May
+At $70^\circ\mathrm{C$ The denaturation is irreversible. At this higher temperature, the protein May
 aggregate (unfolded proteins expose hydrophobic regions that stick together), or disulfide Bridges
 (covalent bonds) may be disrupted. Once aggregated or covalently damaged, the protein cannot Refold
 correctly upon cooling because the protein is trapped in incorrect, aggregated conformations. The
@@ -9383,7 +9383,7 @@ Description.
 These notes cover the full AP Biology curriculum, from the molecular level through to ecosystems and
 evolution. Each topic page includes key definitions, detailed explanations, and worked examples to
 help you prepare for both the multiple-choice and free-response sections of the AP exam. The content
-is structured around the College Board"s four Big Ideas to help you build connections between
+is structured around the College Board's four Big Ideas to help you build connections between
 topics.
 
 ## Topics
@@ -9517,7 +9517,7 @@ URL: https://ap.wyattau.com/biology/5-natural-selection/5_natural-selection/
 
 ## Evolution and Natural Selection (CED Units 6-8)
 
-### Darwin"s Theory of Natural Selection
+### Darwin's Theory of Natural Selection
 
 1. **Variation:** Individuals in a population exhibit heritable variation.
 2. **Overproduction:** Populations produce more offspring than the environment can support.
@@ -10706,7 +10706,7 @@ categories:
 | Schrodinger | Wave equation for the electron (quantum mechanical model)            |
 
 Each model was superseded because it failed to explain new experimental observations. Dalton could
-Not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford"s model was
+Not explain cathode rays. Thomson could not explain the gold foil experiment. Rutherford's model was
 Unstable by classical electrodynamics. Bohr's model only worked for hydrogen. The Schrodinger
 Equation provides the complete quantum mechanical description, predicting probability distributions
 For electrons rather than definite orbits.
@@ -10725,7 +10725,7 @@ d = \frac{k \cdot Z_1 Z_2 e^2}{K}
 $$
 
 Where $K$ is the kinetic energy of the alpha particle. For $5.5 \mathrm{ MeV$ alpha particles on
-Gold, $d \approx 3 \times 10^{-14} \mathrm{ m$Which is much smaller than the atomic radius of About
+Gold, $d \approx 3 \times 10^{-14} \mathrm{ m$ Which is much smaller than the atomic radius of About
 $10^{-10} \mathrm{ m$. This confirms that the nucleus is extremely small compared to the Atom.
 
 ### Subatomic Particles
@@ -10804,7 +10804,7 @@ Each electron also has $m_s = \pm\frac{1}{2}$.
 
 The Pauli exclusion principle limits how many electrons can share the same quantum numbers: no two
 Electrons in an atom can have the same set of four quantum numbers. Since an orbital is defined by
-$n$, $\ell$ And $m_\ell$It can hold at most two electrons (differing in $m_s$).
+$n$, $\ell$ And $m_\ell$ It can hold at most two electrons (differing in $m_s$).
 
 ### Example: Valid vs. Invalid Quantum Number Sets
 
@@ -10933,9 +10933,9 @@ E_n = -\frac{13.6 \mathrm{ eV}{n^2} = -\frac{2.18 \times 10^{-18} \mathrm{ J}{n^
 $$
 
 The energy is negative because the electron is bound to the nucleus. The ground state ($n = 1$) has
-The most negative (lowest) energy. As $n \to \infty$$E_n \to 0$Which is the ionisation energy.
+The most negative (lowest) energy. As $n \to \infty$$E_n \to 0$ Which is the ionisation energy.
 
-The radius of the $n$Th orbit:
+The radius of the $n$ Th orbit:
 
 $$
 R_n = n^2 a_0 = n^2 \times 0.529 \mathrm{ \AA
@@ -10985,7 +10985,7 @@ For absorption: $n_i \lt n_f$ (photon absorbed).
 | Paschen | $n_f = 3$  | Infrared    |
 
 The convergence of lines towards the series limit corresponds to transitions from $n = \infty$ to
-$n_f$Where the energy difference approaches a maximum value.
+$n_f$ Where the energy difference approaches a maximum value.
 :::
 
 :::note[Example]
@@ -11026,7 +11026,7 @@ Where $\phi$ is the work function (minimum energy to eject an electron).
 
 The threshold frequency: $\nu_0 = \frac{\phi}{h}$.
 
-If $\nu \lt \nu_0$No electrons are emitted regardless of intensity.
+If $\nu \lt \nu_0$ No electrons are emitted regardless of intensity.
 
 The photoelectric effect demonstrates the particle nature of light. Increasing the intensity of
 Light below the threshold frequency does not eject electrons because no single photon has enough
@@ -11159,7 +11159,7 @@ This confirms aluminium has three valence electrons (Group 13).
 ### Shielding and Penetration
 
 Electrons in inner shells shield outer electrons from the full nuclear charge. However, not all
-Subshells shield equally. The penetration order is $s \gt p \gt d \gt f$Meaning s electrons
+Subshells shield equally. The penetration order is $s \gt p \gt d \gt f$ Meaning s electrons
 Penetrate closer to the nucleus and experience less shielding than p electrons in the same shell.
 
 This explains why the 4s orbital fills before the 3d orbital: 4s electrons penetrate the core more
@@ -11346,7 +11346,7 @@ flowchart TD
 10. Which element has the higher electronegativity, and why: P or Cl?
 
 11. For the isoelectronic series $\mathrm{N^{3-}$$\mathrm{O^{2-}$$\mathrm{F^-$
-    $\mathrm{Na^+$$\mathrm{Mg^{2+}$Arrange the ions in order of increasing radius and explain the
+    $\mathrm{Na^+$$\mathrm{Mg^{2+}$ Arrange the ions in order of increasing radius and explain the
     trend.
 
 12. Explain, in terms of effective nuclear charge, why atomic radius decreases across a period.
@@ -11474,7 +11474,7 @@ Configurations in your explanation.
 <details>
 <summary>Answer</summary>
 
-Nitrogen has the electron configuration $1s^2 2s^2 2p^3$With three unpaired electrons in the three
+Nitrogen has the electron configuration $1s^2 2s^2 2p^3$ With three unpaired electrons in the three
 $2p$ orbitals (Hund's rule). Each electron occupies a separate orbital, minimising electron-electron
 Repulsion.
 
@@ -11507,7 +11507,7 @@ The maximum number of electrons in a d subshell is 10 (5 orbitals $\times$ 2 ele
 Five orbitals have $m_l$ values of $-2, -1, 0, +1, +2$.
 
 The value $m_l = 4$ is not valid because $m_l$ must be an integer in the range from $-l$ to $+l$.
-Since $l = 2$The valid values are $m_l = -2, -1, 0, +1, +2$. The value 4 exceeds this range.
+Since $l = 2$ The valid values are $m_l = -2, -1, 0, +1, +2$. The value 4 exceeds this range.
 
 </details>
 
@@ -11616,7 +11616,7 @@ U \propto \frac{|z_+ \cdot z_-|}{r_+ + r_-}
 $$
 
 Higher charges and smaller ionic radii lead to larger (more negative) lattice energy. This is a
-Direct consequence of Coulomb"s law: the electrostatic attraction is proportional to the product of
+Direct consequence of Coulomb's law: the electrostatic attraction is proportional to the product of
 The charges and inversely proportional to the distance between them.
 
 **Example:** MgO has a much higher lattice energy than NaCl because Mg$^{2+}$ and O$^{2-}$ carry
@@ -11703,7 +11703,7 @@ Complete octets on each O: $4 \times 6 = 24$ electrons. All 32 used.
 
 Formal charges: S has $6 - 0 - 8/2 = +2$. Each O has $6 - 6 - 2/2 = -1$.
 
-This gives total charge $+2 + 4(-1) = -2$Which is correct, but the formal charges are large.
+This gives total charge $+2 + 4(-1) = -2$ Which is correct, but the formal charges are large.
 
 **Better structure:** Form two S=O double bonds. S has $6 - 0 - 12/2 = 0$ (double-bonded O). For
 Double-bonded O: $6 - 4 - 4/2 = 0$. For single-bonded O: $6 - 6 - 2/2 = -1$.
@@ -12199,7 +12199,7 @@ flowchart TD
 7. For each molecule, predict whether it is polar or nonpolar: $\mathrm{BrF_5$$\mathrm{XeF_4$
    $\mathrm{IF_3$$\mathrm{PF_5$.
 
-8. Draw the Lewis structure for $\mathrm{ClO_4^-$Determine the formal charge on each atom, and
+8. Draw the Lewis structure for $\mathrm{ClO_4^-$ Determine the formal charge on each atom, and
    describe the molecular geometry.
 
 9. Explain why $n$-butanol has a much higher boiling point than diethyl ether, despite having the
@@ -12217,7 +12217,7 @@ flowchart TD
 13. Compare and contrast the types of intermolecular forces present in liquid
     $\mathrm{CH_3\mathrm{F$ and liquid $\mathrm{CH_3\mathrm{OH$.
 
-14. Draw the Lewis structure for $\mathrm{SF_6$Determine the formal charges, and explain why sulfur
+14. Draw the Lewis structure for $\mathrm{SF_6$ Determine the formal charges, and explain why sulfur
     can accommodate 12 electrons around it.
 
 15. Which of the following can form hydrogen bonds with water: $\mathrm{CH_3\mathrm{OH$
@@ -12238,14 +12238,14 @@ flowchart TD
 20. Draw the Lewis structure for $\mathrm{ClF_3$ and explain why the molecule has a T-shaped
     geometry rather than a trigonal planar geometry.
 
-21. For the molecule $\mathrm{SO_3$Draw the Lewis structure, determine the hybridization of sulfur,
+21. For the molecule $\mathrm{SO_3$ Draw the Lewis structure, determine the hybridization of sulfur,
     and explain why all three S--O bonds have the same length despite one being a double bond in the
     Lewis structure.
 
 22. Explain why $\mathrm{HF$ has a higher boiling point than $\mathrm{HCl$ even though $\mathrm{HCl$
     has a larger molar mass.
 
-23. Draw the Lewis structure for $\mathrm{XeF_4$Determine the formal charge on each atom, and
+23. Draw the Lewis structure for $\mathrm{XeF_4$ Determine the formal charge on each atom, and
     explain the square planar geometry.
 
 24. Calculate the number of sigma and pi bonds in
@@ -12273,7 +12273,7 @@ flowchart TD
 31. Calculate the percent ionic character of the H-F bond. Is it more accurate to describe this bond
     as covalent or ionic?
 
-32. Draw the Lewis structure for $\mathrm{ClO_2^-$Determine the molecular geometry, and predict
+32. Draw the Lewis structure for $\mathrm{ClO_2^-$ Determine the molecular geometry, and predict
     whether the ion is polar.
 
 33. Explain why the boiling point of $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CH_2\mathrm{OH$
@@ -12281,7 +12281,7 @@ flowchart TD
     $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CH_3$ ($0^{\circ}\mathrm{C$) by more than can be
     explained by the difference in molar mass alone.
 
-34. For the molecule $\mathrm{BF_3\mathrm{NH_3$Determine the hybridization of both boron and
+34. For the molecule $\mathrm{BF_3\mathrm{NH_3$ Determine the hybridization of both boron and
     nitrogen, and identify the type of bond formed between them.
 
 35. Explain why carbon tetrachloride ($\mathrm{CCl_4$) does not conduct electricity in any state,
@@ -13086,7 +13086,7 @@ Description.
 These notes cover the full AP Chemistry curriculum, from atomic structure and bonding through to
 kinetics, equilibrium, and thermodynamics. Each topic page includes key definitions, worked
 calculations, and visual explanations to support both the multiple-choice and free-response sections
-of the AP exam. The content is structured around the College Board"s six Big Ideas and their
+of the AP exam. The content is structured around the College Board's six Big Ideas and their
 associated science practices.
 
 ## Topics
@@ -13567,7 +13567,7 @@ $Q$ has the same form as $K$ but uses current (non-equilibrium) concentrations.
 | $Q = K$    | System is at equilibrium     |
 | $Q \gt K$  | Reaction proceeds in reverse |
 
-## Le Chatelier"s Principle (CED Unit 7)
+## Le Chatelier's Principle (CED Unit 7)
 
 If a stress is applied to a system at equilibrium, the system shifts to counteract the stress.
 
@@ -13712,7 +13712,7 @@ $$
 Q_{sp} = (0.00050)(0.0010)^2 = 5.0 \times 10^{-10}
 $$
 
-Since $Q_{sp} = 5.0 \times 10^{-10} \lt K_{sp} = 1.7 \times 10^{-5}$No precipitate forms.
+Since $Q_{sp} = 5.0 \times 10^{-10} \lt K_{sp} = 1.7 \times 10^{-5}$ No precipitate forms.
 
 ### Worked Example: $K_{sp}$ Calculation from Solubility
 
@@ -13836,7 +13836,7 @@ This matches the experimental rate law with $k = k_2 K$.
 
 ## Practice Questions
 
-1. For a first-order reaction with $k = 0.050 \mathrm{ s^{-1}$How long does it take for the
+1. For a first-order reaction with $k = 0.050 \mathrm{ s^{-1}$ How long does it take for the
    concentration to decrease from $0.80 \mathrm{ M$ to $0.20 \mathrm{ M$?
 
 2. The following data were collected for the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$:
@@ -13863,7 +13863,7 @@ Determine the rate law and rate constant.
 4. Explain how Le Chatelier's principle applies when the volume of the container is decreased for
    the reaction $\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$.
 
-5. For a reaction with $\Delta H = -92 \mathrm{ kJ/mol$What happens to $K$ when the temperature
+5. For a reaction with $\Delta H = -92 \mathrm{ kJ/mol$ What happens to $K$ when the temperature
    increases from $298 \mathrm{ K$ to $400 \mathrm{ K$?
 
 6. Calculate the molar solubility of $\mathrm{PbSO_4$ in pure water and in
@@ -13897,7 +13897,7 @@ Determine the rate law and rate constant.
 
 13. The decomposition of $\mathrm{HI$ is second order with a rate constant of
     $1.6 \times 10^{-3} \mathrm{ M^{-1}\mathrm{s^{-1}$ at $700 \mathrm{ K$. If the initial
-    concentration of $\mathrm{HI$ is $0.200 \mathrm{ M$How long does it take for the concentration
+    concentration of $\mathrm{HI$ is $0.200 \mathrm{ M$ How long does it take for the concentration
     to decrease to $0.050 \mathrm{ M$?
 
 14. A catalyst lowers the activation energy of a reaction from $85 \mathrm{ kJ/mol$ to
@@ -13925,7 +13925,7 @@ Determine the rate law and rate constant.
 
 20. For the reaction $\mathrm{N_2\mathrm{O_4(g) \rightleftharpoons 2\mathrm{NO_2(g)$ $K_c = 0.600$
     at $340 \mathrm{ K$. If $1.00 \mathrm{ atm$ of $\mathrm{N_2\mathrm{O_4$ is placed in a container
-    at $340 \mathrm{ K$Find the equilibrium partial pressures and the percentage dissociation.
+    at $340 \mathrm{ K$ Find the equilibrium partial pressures and the percentage dissociation.
 
 21. Calculate the pH of a saturated solution of $\mathrm{Mg(OH)_2$. $K_{sp} = 5.6 \times 10^{-12}$.
 
@@ -13937,7 +13937,7 @@ Determine the rate law and rate constant.
 <details>
 <summary>Question 1: Reaction order determination from initial rates</summary>
 
-For the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$The following initial rate data were
+For the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$ The following initial rate data were
 Collected:
 
 | $[\mathrm{A]$ (M) | $[\mathrm{B]$ (M) | Initial Rate (M/s) |
@@ -14009,7 +14009,7 @@ Percentage dissociation: $\frac{1.018}{2.00} \times 100 = 50.9\%$.
 <summary>Question 3: Le Chatelier's principle with pressure and temperature</summary>
 
 For the exothermic reaction
-$\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$Predict the effect on the
+$\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$ Predict the effect on the
 Equilibrium yield of $\mathrm{NH_3$ when (a) total pressure is increased, (b) temperature is
 Increased, (c) a catalyst is added, and (d) $\mathrm{Ar(g)$ is added at constant volume.
 
@@ -14068,7 +14068,7 @@ $$
 E_a = \frac{4.947 \times 8.314}{0.000499} = \frac{41.13}{0.000499} = 82,400 \mathrm{ J/mol = 82.4 \mathrm{ kJ/mol
 $$
 
-For the pre-exponential factor $A$Using $k = Ae^{-E_a/RT}$ at $298 \mathrm{ K$:
+For the pre-exponential factor $A$ Using $k = Ae^{-E_a/RT}$ at $298 \mathrm{ K$:
 
 $$
 3.46 \times 10^{-5} = A \cdot e^{-82400/(8.314 \times 298)} = A \cdot e^{-33.28}
@@ -14109,7 +14109,7 @@ Assuming $2s \ll 0.10$: $1.7 \times 10^{-5} = s \times (0.10)^2 = 0.01s$
 $s = 1.7 \times 10^{-3} \mathrm{ M$.
 
 The common ion effect reduces the solubility from $1.62 \times 10^{-2} \mathrm{ M$ to
-$1.7 \times 10^{-3} \mathrm{ M$Approximately a 10-fold decrease.
+$1.7 \times 10^{-3} \mathrm{ M$ Approximately a 10-fold decrease.
 
 </details>
 
@@ -14434,7 +14434,7 @@ URL: https://ap.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry/
 
 ## The Mole Concept (CED Unit 1)
 
-### Avogadro"s Number
+### Avogadro's Number
 
 $$
 N_A = 6.022 \times 10^{23} \mathrm{ particles/mol
@@ -14642,7 +14642,7 @@ $$
 \mathrm{mass N = 0.00246 \times 14.01 = 0.0345 \mathrm{ g
 $$
 
-Total mass accounted for: $0.1204 + 0.02014 + 0.0345 = 0.1750 \mathrm{ g$Which matches the sample
+Total mass accounted for: $0.1204 + 0.02014 + 0.0345 = 0.1750 \mathrm{ g$ Which matches the sample
 Mass within rounding.
 
 Ratio: $0.01002 : 0.01998 : 0.00246 = 4.07 : 8.12 : 1 \approx 4 : 8 : 1$.
@@ -14833,7 +14833,7 @@ The concentration of sulfate.
 
 A $0.500 \mathrm{ g$ sample of an iron ore is dissolved and the iron is precipitated as
 $\mathrm{Fe_2\mathrm{O_3$ by heating. If the mass of $\mathrm{Fe_2\mathrm{O_3$ obtained is
-$0.350 \mathrm{ g$Calculate the percentage of iron in the ore.
+$0.350 \mathrm{ g$ Calculate the percentage of iron in the ore.
 
 $$
 \mathrm{mol Fe_2\mathrm{O_3 = \frac{0.350}{159.69} = 0.00219 \mathrm{ mol
@@ -14855,7 +14855,7 @@ $$
 
 A $2.00 \mathrm{ g$ sample of impure limestone ($\mathrm{CaCO_3$) is reacted with $50.0 \mathrm{ mL$
 of $1.00 \mathrm{ M  \mathrm{HCl$ (excess). The remaining acid is titrated With
-$0.500 \mathrm{ M  \mathrm{NaOH$Requiring $32.0 \mathrm{ mL$. Calculate the percentage Purity of
+$0.500 \mathrm{ M  \mathrm{NaOH$ Requiring $32.0 \mathrm{ mL$. Calculate the percentage Purity of
 $\mathrm{CaCO_3$.
 
 $$
@@ -14913,7 +14913,7 @@ P_{\mathrm{total} = P_1 + P_2 + \cdots + P_n
 $$
 
 The partial pressure of a gas is the pressure it would exert if it alone occupied the entire volume.
-For an ideal gas: $P_i = \chi_i \cdot P_{\mathrm{total}$Where $\chi_i$ is the mole fraction.
+For an ideal gas: $P_i = \chi_i \cdot P_{\mathrm{total}$ Where $\chi_i$ is the mole fraction.
 
 ### STP
 
@@ -14951,7 +14951,7 @@ Or using molar volume at STP: $V = 0.0612 \times 22.4 = 1.37 \mathrm{ L$.
 ### Derivation: The Ideal Gas Law from Empirical Laws
 
 Boyle's law: $PV = k_1$ (at constant $T$$n$). Charles's law: $V/T = k_2$ (at constant $P$$n$).
-Avogadro's law: $V/n = k_3$ (at constant $P$$T$). Combining all three: $PV/(nT) = k = R$Giving
+Avogadro's law: $V/n = k_3$ (at constant $P$$T$). Combining all three: $PV/(nT) = k = R$ Giving
 $PV = nRT$.
 
 ### Derivation: Molar Volume at STP
@@ -15150,7 +15150,7 @@ flowchart TD
     mass, leaving $2.45 \mathrm{ g$ of anhydrous $\mathrm{MgSO_4$. Determine the formula of the
     hydrate.
 
-18. At $25^\circ\mathrm{C$ and $1.00 \mathrm{ atm$What is the density of $\mathrm{O_2$ gas in g/L?
+18. At $25^\circ\mathrm{C$ and $1.00 \mathrm{ atm$ What is the density of $\mathrm{O_2$ gas in g/L?
 
 19. Balance the following redox equation in acidic solution:
     $\mathrm{MnO_4^- + \mathrm{Fe^{2+} \to \mathrm{Mn^{2+} + \mathrm{Fe^{3+}$.
@@ -15158,7 +15158,7 @@ flowchart TD
 20. A $0.500 \mathrm{ g$ sample of a compound containing only C, H, and O is burned in excess
     oxygen, producing $1.10 \mathrm{ g$ of $\mathrm{CO_2$ and $0.450 \mathrm{ g$ of
     $\mathrm{H_2\mathrm{O$. Find the empirical formula. If the molecular mass is approximately
-    $180 \mathrm{ g/mol$Determine the molecular formula.
+    $180 \mathrm{ g/mol$ Determine the molecular formula.
 
 21. Calculate the mass of $\mathrm{AgCl$ precipitate formed when $25.0 \mathrm{ mL$ of
     $0.150 \mathrm{ M $ $\mathrm{AgNO_3$ is mixed with $15.0 \mathrm{ mL$ of
@@ -15299,7 +15299,7 @@ $\mathrm{H_2\mathrm{SO_4 = 0.0250 \times 0.100 = 0.00250 \mathrm{ mol$. This req
 $0.00500 \mathrm{ mol$ $\mathrm{NaOH$. Volume of
 $\mathrm{NaOH = 0.00500 / 0.200 = 25.0 \mathrm{ mL$. Total volume = $50.0 \mathrm{ mL$.
 
-The solution contains $\mathrm{Na_2\mathrm{SO_4$The salt of a strong base and a strong acid (for The
+The solution contains $\mathrm{Na_2\mathrm{SO_4$ The salt of a strong base and a strong acid (for The
 first proton). The $\mathrm{SO_4^{2-}$ is a very weak base, so the pH is approximately 7 (actually
 slightly below 7 because $\mathrm{HSO_4^-$ is a weak acid).
 
@@ -15468,10 +15468,10 @@ Standard conditions: $1 \mathrm{ atm$, $298 \mathrm{ K$ ($25^\circ\mathrm{C$), p
 Their most stable form. By convention, $\Delta H_f^\circ = 0$ for elements in their standard state.
 
 The standard state of an element is its most stable form at $1 \mathrm{ atm$ and
-$25^\circ\mathrm{C$: e.g., $\mathrm{O_2(g)$Not $\mathrm{O_3(g)$ or $\mathrm{O_2(l)$;
-$\mathrm{C(graphite)$Not $\mathrm{C(diamond)$.
+$25^\circ\mathrm{C$: e.g., $\mathrm{O_2(g)$ Not $\mathrm{O_3(g)$ or $\mathrm{O_2(l)$;
+$\mathrm{C(graphite)$ Not $\mathrm{C(diamond)$.
 
-### Hess"s Law
+### Hess's Law
 
 The total enthalpy change for a reaction is the same regardless of the pathway. If a reaction can be
 Written as the sum of several steps:
@@ -15542,7 +15542,7 @@ $$
 \Delta H \approx 2253 - 2346 = -93 \mathrm{ kJ/mol
 $$
 
-(The exact value is $-92.2 \mathrm{ kJ/mol$Showing that bond enthalpies give a good Approximation.)
+(The exact value is $-92.2 \mathrm{ kJ/mol$ Showing that bond enthalpies give a good Approximation.)
 
 :::note[Example]
 Calculate $\Delta H^\circ$ for the combustion of propane:
@@ -15852,7 +15852,7 @@ $$
 \Delta G = \Delta G^\circ + RT\ln Q
 $$
 
-Where $Q$ is the reaction quotient. At equilibrium, $\Delta G = 0$ and $Q = K$Giving
+Where $Q$ is the reaction quotient. At equilibrium, $\Delta G = 0$ and $Q = K$ Giving
 $\Delta G^\circ = -RT\ln K$.
 
 ### Temperature Dependence of Spontaneity
@@ -15903,7 +15903,7 @@ $$
 K = e^{-\Delta G^\circ/(RT)} = e^{32958/(8.314 \times 298)} = e^{13.29} = 5.9 \times 10^5
 $$
 
-$K \gg 1$Confirming the reaction strongly favours products at $298 \mathrm{ K$.
+$K \gg 1$ Confirming the reaction strongly favours products at $298 \mathrm{ K$.
 
 ### Worked Example: Non-Standard Gibbs Free Energy
 
@@ -15965,14 +15965,14 @@ flowchart TD
 4. **Using the wrong sign convention for calorimetry.**
    $q_{\mathrm{rxn} = -q_{\mathrm{surroundings}$.
 5. **Confusing entropy of the system with entropy of the universe.** Spontaneity requires
-   $\Delta S_{\mathrm{universe} \gt 0$Not just $\Delta S_{\mathrm{system} \gt 0$.
+   $\Delta S_{\mathrm{universe} \gt 0$ Not just $\Delta S_{\mathrm{system} \gt 0$.
 6. **Incorrect units in the Gibbs equation.** $\Delta H$ is in kJ/mol; $\Delta S$ is in
    J/(mol$\cdot$K). Convert one of them before combining.
 7. **Using $R = 0.08206$ in $\Delta G^\circ = -RT\ln K$.** Use
    $R = 8.314 \mathrm{ J/(mol\cdot\mathrm{K)$ because $\Delta G^\circ$ is in J/mol.
 8. **Assuming a negative $\Delta H$ guarantees spontaneity.** If $\Delta S$ is sufficiently
    negative, $\Delta G$ can be positive even when $\Delta H$ is negative.
-9. **Forgetting that standard conditions are $298 \mathrm{ K$ and $1 \mathrm{ atm$Not STP.**
+9. **Forgetting that standard conditions are $298 \mathrm{ K$ and $1 \mathrm{ atm$ Not STP.**
 
 ## Practice Questions
 
@@ -15985,7 +15985,7 @@ flowchart TD
    $\Delta H$ per mole of $\mathrm{NaOH$.
 
 3. For a reaction with $\Delta H = 125 \mathrm{ kJ/mol$ and
-   $\Delta S = 200 \mathrm{ J/(mol\cdot\mathrm{K)$Find the temperature range where the reaction is
+   $\Delta S = 200 \mathrm{ J/(mol\cdot\mathrm{K)$ Find the temperature range where the reaction is
    spontaneous.
 
 4. Given $\Delta G_f^\circ$ values: $\mathrm{NO_2(g) = 51.3 \mathrm{ kJ/mol$
@@ -16060,9 +16060,9 @@ flowchart TD
     $5.00 \mathrm{ g$ of $\mathrm{KOH$ is dissolved, the temperature rises to $35.0^\circ\mathrm{C$.
     Calculate the enthalpy of solution of $\mathrm{KOH$ in kJ/mol.
 
-21. For the reaction $2\mathrm{NO(g) + \mathrm{O_2(g) \to 2\mathrm{NO_2(g)$Given
+21. For the reaction $2\mathrm{NO(g) + \mathrm{O_2(g) \to 2\mathrm{NO_2(g)$ Given
     $\Delta H^\circ = -114.1 \mathrm{ kJ/mol$ and
-    $\Delta S^\circ = -146.5 \mathrm{ J/(mol\cdot\mathrm{K)$Calculate the temperature above which
+    $\Delta S^\circ = -146.5 \mathrm{ J/(mol\cdot\mathrm{K)$ Calculate the temperature above which
     the reaction is no longer spontaneous.
 
 22. Using the following data, calculate $\Delta S^\circ$ for the reaction
@@ -16105,7 +16105,7 @@ flowchart TD
 
 32. Given $\Delta H_f^\circ(\mathrm{NH_3, g) = -46.1 \mathrm{ kJ/mol$
     $\Delta H_f^\circ(\mathrm{NO, g) = 90.3 \mathrm{ kJ/mol$ And
-    $\Delta H_f^\circ(\mathrm{H_2\mathrm{O, g) = -241.8 \mathrm{ kJ/mol$Calculate $\Delta H^\circ$
+    $\Delta H_f^\circ(\mathrm{H_2\mathrm{O, g) = -241.8 \mathrm{ kJ/mol$ Calculate $\Delta H^\circ$
     for the reaction
     $4\mathrm{NH_3(g) + 5\mathrm{O_2(g) \to 4\mathrm{NO(g) + 6\mathrm{H_2\mathrm{O(g)$.
 
@@ -16171,7 +16171,7 @@ Reaction is spontaneous.
 
 $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = -36,000 - 298 \times 347 = -36,000 - 103,406 = -139,406 \mathrm{ J/mol = -139.4 \mathrm{ kJ/mol$.
 
-Since $\Delta G^\circ \lt 0$ at $298 \mathrm{ K$The reaction is spontaneous at this temperature.
+Since $\Delta G^\circ \lt 0$ at $298 \mathrm{ K$ The reaction is spontaneous at this temperature.
 
 The reaction is spontaneous when $\Delta G \lt 0$:
 
@@ -16232,9 +16232,9 @@ $\Delta S_{\mathrm{surroundings} = -\Delta H_{\mathrm{vap} / T = -40,700 / 373 =
 
 $\Delta S_{\mathrm{universe} = \Delta S_{\mathrm{system} + \Delta S_{\mathrm{surroundings} = 109.1 + (-109.1) = 0 \mathrm{ J/(mol\cdot K)$.
 
-At $100^\circ\mathrm{C$ and $1 \mathrm{ atm$Liquid and gaseous water are in equilibrium, so
+At $100^\circ\mathrm{C$ and $1 \mathrm{ atm$ Liquid and gaseous water are in equilibrium, so
 $\Delta G = 0$ and $\Delta S_{\mathrm{universe} = 0$. The process is at equilibrium, not Spontaneous
-in either direction. Above $100^\circ\mathrm{C$Vaporisation becomes spontaneous
+in either direction. Above $100^\circ\mathrm{C$ Vaporisation becomes spontaneous
 ($\Delta S_{\mathrm{universe} \gt 0$).
 
 </details>
@@ -16245,7 +16245,7 @@ in either direction. Above $100^\circ\mathrm{C$Vaporisation becomes spontaneous
 Using the following average bond enthalpies, estimate $\Delta H$ for the reaction
 $\mathrm{CH_4(g) + 2\mathrm{Cl_2(g) \to \mathrm{CH_2\mathrm{Cl_2(g) + 2\mathrm{HCl(g)$:
 
-C-H: $413 \mathrm{ kJ/mol$Cl-Cl: $242 \mathrm{ kJ/mol$C-Cl: $339 \mathrm{ kJ/mol$H-Cl:
+C-H: $413 \mathrm{ kJ/mol$ Cl-Cl: $242 \mathrm{ kJ/mol$ C-Cl: $339 \mathrm{ kJ/mol$ H-Cl:
 $431 \mathrm{ kJ/mol$.
 
 </details>
@@ -16258,7 +16258,7 @@ Bonds broken (reactants):
 - 4 C-H bonds in $\mathrm{CH_4$: $4 \times 413 = 1652 \mathrm{ kJ/mol$
 - 2 Cl-Cl bonds: $2 \times 242 = 484 \mathrm{ kJ/mol$
 
-Wait -- not all C-H bonds break. In $\mathrm{CH_2\mathrm{Cl_2$Two C-H bonds remain. So only 2 C-H
+Wait -- not all C-H bonds break. In $\mathrm{CH_2\mathrm{Cl_2$ Two C-H bonds remain. So only 2 C-H
 bonds break.
 
 Corrected bonds broken:
@@ -18343,7 +18343,7 @@ Computers represent all data in binary (0s and 1s).
 
 | Data Type | Representation                       |
 | --------- | ------------------------------------ |
-| Integer   | Two"s complement (signed integers)   |
+| Integer   | Two's complement (signed integers)   |
 | Character | ASCII (7-bit) or Unicode (16+ bit)   |
 | Color     | RGB values (24 bits, 8 per channel)  |
 | Image     | Grid of pixels, each with RGB values |
@@ -18382,12 +18382,12 @@ Add 1: $10011100$.
 Verify: $-128 + 16 + 8 + 4 = -100$. Correct.
 
 **Why two's complement is preferred.** Two's complement has the useful property that addition and
-Subtraction use the same circuitry. To subtract $a - b$You add $a$ to the two's complement Of $b$.
+Subtraction use the same circuitry. To subtract $a - b$ You add $a$ to the two's complement Of $b$.
 There is no separate subtraction circuit needed.
 
-**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$Let $\bar{x}$ Be
+**Proof of two's complement negation.** For $n$-bit $x$ where $0 \lt x \le 2^{n-1}$ Let $\bar{x}$ Be
 the bitwise complement. Then $\bar{x} = (2^n - 1) - x$. Adding 1: $\bar{x} + 1 = 2^n - x$. In
-$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$Confirming $\bar{x} + 1 = -x$.
+$n$-bit arithmetic, $2^n \equiv 0$ So $x + (\bar{x} + 1) = 0$ Confirming $\bar{x} + 1 = -x$.
 $\blacksquare$
 
 **Overflow detection.** If adding two positive numbers produces a negative result (or vice versa),
@@ -18401,7 +18401,7 @@ $100 = 01100100$, $50 = 00110010$.
 Sum: $10010110$.
 
 The MSB is 1, indicating a negative result. $10010110 = -128 + 16 + 4 + 2 = -106$. This is incorrect
-($100 + 50 = 150$Which exceeds the 8-bit range). Overflow has occurred.
+($100 + 50 = 150$ Which exceeds the 8-bit range). Overflow has occurred.
 
 #### Hexadecimal
 
@@ -19119,7 +19119,7 @@ Wait -- that's incorrect. Let me redo: $C(\bar{A} + A \cdot \bar{B})$. This does
 using basic identities .
 
 Alternative approach -- try consensus: $\bar{A}C + A\bar{B}C$. The consensus of $\bar{A}$ and
-$\bar{B}$ with respect to $C$ is $\bar{A}\bar{B}$Which is not present, so no further simplification.
+$\bar{B}$ with respect to $C$ is $\bar{A}\bar{B}$ Which is not present, so no further simplification.
 
 The simplified expression is:
 $\bar{A} \cdot C + A \cdot \bar{B} \cdot C = C(\bar{A} + A \cdot \bar{B})$.
@@ -19208,7 +19208,7 @@ $\overline{A \cdot B + C \cdot D} = \overline{A \cdot B} \cdot \overline{C \cdot
 
 To express using only AND and NOT, note that $\overline{X + Y} = \bar{X} \cdot \bar{Y}$ (De
 Morgan's). But the question says only AND and NOT. Since
-$\overline{A \cdot B} = \overline{A} + \overline{B}$This introduces OR.
+$\overline{A \cdot B} = \overline{A} + \overline{B}$ This introduces OR.
 
 Using only NAND (AND + NOT): $\overline{A \cdot B} = \mathrm{NAND(A, B)$ and
 $\overline{C \cdot D} = \mathrm{NAND(C, D)$.
@@ -19216,7 +19216,7 @@ $\overline{C \cdot D} = \mathrm{NAND(C, D)$.
 So: $\mathrm{NAND(A, B) \cdot \mathrm{NAND(C, D)$ -- but this uses AND.
 
 Actually, NAND(A, B) already uses AND and NOT: $\overline{A \cdot B}$. So the answer is:
-$\overline{A \cdot B} \cdot \overline{C \cdot D}$Which uses only AND (implicit in the NOT-AND) and
+$\overline{A \cdot B} \cdot \overline{C \cdot D}$ Which uses only AND (implicit in the NOT-AND) and
 NOT operations.
 
 </details>
@@ -20871,7 +20871,7 @@ Description.
 These notes cover the full AP Computer Science curriculum, including computational thinking,
 computing systems, algorithms and programming, data analysis, and networking. Each topic page
 includes key definitions, worked examples, and practice questions to help you prepare for both the
-multiple-choice and free-response sections of the AP exam. The content follows the College Board"s
+multiple-choice and free-response sections of the AP exam. The content follows the College Board's
 course framework and big ideas.
 
 ## Topics
@@ -21950,7 +21950,7 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **Why it matters:** Computer science powers every modern technology, from smartphones to social media to self-driving cars. Understanding computational thinking helps you solve problems efficiently, whether you're writing code, analysing data, or designing systems.
 
-**The key insight:** The difference between a good and bad algorithm can be enormous. Searching a sorted list with binary search ($O(\log n)$) is dramatically faster than linear search ($O(n)$) for large datasets. Understanding efficiency is what separates casual programmers from skilled computer scientists.
+**The key insight:** The difference between a good and bad algorithm can be enormous. Searching a sorted list with binary search ($O(\log n)$) is dramatically faster than linear search ($ O(n)$) for large datasets. Understanding efficiency is what separates casual programmers from skilled computer scientists.
 
 ---
 
@@ -24418,7 +24418,7 @@ estimated between 50 and 100 million. Key regional cultures included:
 - Portuguese established trading posts and plantations in Brazil (sugar cultivation)
 - French explored the St. Lawrence River and Great Lakes (Jacques Cartier, 1534; Samuel de
   Champlain, 1608, founded Quebec)
-- English explorers (John Cabot, 1497; Sir Walter Raleigh"s Roanoke colony, 1585-1587, the "Lost
+- English explorers (John Cabot, 1497; Sir Walter Raleigh's Roanoke colony, 1585-1587, the "Lost
   Colony")
 - Dutch established trading networks in present-day New York (New Netherland, 1624)
 
@@ -24592,7 +24592,7 @@ sectional conflict over the expansion of slavery.
 - **Oregon Boundary Dispute**: Settled by treaty in 1846, establishing the 49th parallel as the
   boundary between the US and British North America
 - **Mexican-American War (1846-1848)**: Sparked by disputes over the Texas-Mexico border after
-  annexation; "Spot Resolutions" by Abraham Lincoln challenged Polk"s justification; US forces
+  annexation; "Spot Resolutions" by Abraham Lincoln challenged Polk's justification; US forces
   captured Mexico City
 - **Treaty of Guadalupe Hidalgo (1848)**: Mexico ceded California, New Mexico, Arizona, Nevada,
   Utah, and parts of Colorado and Wyoming to the US for $15 million; Rio Grande established as the
@@ -24808,7 +24808,7 @@ technological innovation, the rise of large corporations, and the expansion of r
   settlement of the West, and standardised time zones (1883)
 - **Communication**: Telegraph (Morse, 1844) and telephone (Bell, 1876) revolutionised long-distance
   communication
-- **Electricity**: Thomas Edison"s light bulb (1879) and power generation systems transformed
+- **Electricity**: Thomas Edison's light bulb (1879) and power generation systems transformed
   industry and daily life
 
 ### Rise of Big Business
@@ -25049,7 +25049,7 @@ social justice.
   Lives_)
 - **Political reforms**: Initiative, referendum, recall, direct election of senators (17th
   Amendment, 1913), primary elections, commission and city manager forms of government
-- **Trust-busting**: Theodore Roosevelt"s "Square Deal"; Northern Securities Company case (1902);
+- **Trust-busting**: Theodore Roosevelt's "Square Deal"; Northern Securities Company case (1902);
   Elkins Act (1903) and Hepburn Act (1906) strengthened railroad regulation; William Howard Taft
   brought more antitrust suits than Roosevelt
 - **Conservation**: Roosevelt established national parks, forests, and monuments; Newlands
@@ -25873,7 +25873,7 @@ $\displaystyle\lim_{h \to 0^-} \frac{|h|}{h} = \lim_{h \to 0^-} \frac{-h}{h} = -
 Right-hand derivative:
 $\displaystyle\lim_{h \to 0^+} \frac{|h|}{h} = \lim_{h \to 0^+} \frac{h}{h} = 1$.
 
-Since $-1 \neq 1$The derivative does not exist. $\blacksquare$
+Since $-1 \neq 1$ The derivative does not exist. $\blacksquare$
 
 **Proof that $f(x) = x^{2/3}$ has a cusp at $x = 0$.**
 
@@ -25963,7 +25963,7 @@ $$
 $$
 
 Taking $h \to 0$: $\Delta u \to 0$ (since $g$ is differentiable, hence continuous), so
-$k(\Delta u) \to 0$Giving:
+$k(\Delta u) \to 0$ Giving:
 
 $$
 F'(g(x)) \cdot g'(x)
@@ -26095,12 +26095,12 @@ $\frac\{dy\}\{dx\} = \frac\{1\}\{\cos y\} = \frac\{1\}\{\sqrt\{1 - \sin^2 y\}\} 
 **Derivation of $\arctan x$.** Let $y = \arctan x$ So $x = \tan y$. Differentiating:
 $1 = \sec^2 y \cdot \frac{dy}{dx}$ So $\frac{dy}{dx} = \frac{1}{\sec^2 y} = \cos^2 y$.
 
-Since $\sec^2 y = 1 + \tan^2 y = 1 + x^2$We get $\cos^2 y = \frac{1}{1 + x^2}$ So
+Since $\sec^2 y = 1 + \tan^2 y = 1 + x^2$ We get $\cos^2 y = \frac{1}{1 + x^2}$ So
 $\frac{dy}{dx} = \frac{1}{1 + x^2}$. $\blacksquare$
 
 ## Implicit Differentiation
 
-When $y$ is defined implicitly as a function of $x$Differentiate both sides with respect to $x$ And
+When $y$ is defined implicitly as a function of $x$ Differentiate both sides with respect to $x$ And
 solve for $\frac{dy}{dx}$.
 </Aside>
 
@@ -26123,7 +26123,7 @@ $$
 \left.\frac\{dy\}\{dx\}\right|_\{(3,4)\} = -\frac\{3\}\{4\}
 $$
 
-The tangent line is $y - 4 = -\frac{3}{4}(x - 3)$Or $3x + 4y = 25$.
+The tangent line is $y - 4 = -\frac{3}{4}(x - 3)$ Or $3x + 4y = 25$.
 </Aside>
 
 <Aside type="note" title="Example">
@@ -26189,7 +26189,7 @@ $$
 F''(x) = \frac\{d\}\{dx\}[f'(x)] = \frac\{d^2y\}\{dx^2\}
 $$
 
-Similarly, $f'''(x)$$f^{(4)}(x)$Etc. Denote higher-order derivatives.
+Similarly, $f'''(x)$$f^{(4)}(x)$ Etc. Denote higher-order derivatives.
 
 ### Interpretation of the Second Derivative
 
@@ -26335,12 +26335,12 @@ Point.
 Secant line joining $(a, f(a))$ and $(b, f(b))$.
 
 **Proof of the MVT.** Let $g(x) = f(x) - \frac{f(b) - f(a)}{b-a}(x - a) - f(a)$. Then
-$g(a) = g(b) = 0$. By Rolle's Theorem, there exists $c \in (a, b)$ with $g'(c) = 0$Which gives
+$g(a) = g(b) = 0$. By Rolle's Theorem, there exists $c \in (a, b)$ with $g'(c) = 0$ Which gives
 $f'(c) = \frac{f(b) - f(a)}{b-a}$. $\blacksquare$
 
 ### Rolle's Theorem
 
-If $f$ is continuous on $[a, b]$Differentiable on $(a, b)$ And $f(a) = f(b)$ Then there exists At
+If $f$ is continuous on $[a, b]$ Differentiable on $(a, b)$ And $f(a) = f(b)$ Then there exists At
 least one $c \in (a, b)$ such that $f'(c) = 0$.
 
 Rolle's Theorem is a special case of the MVT where $f(a) = f(b)$.
@@ -26357,10 +26357,10 @@ Note that $f(0) = 1$ and $f(-2) = -8 + 6 + 1 = -1$. By the IVT, there is at leas
 $(-2, 0)$.
 
 Suppose there are two distinct roots $a \lt b$. Then $f(a) = f(b) = 0$ And by Rolle's Theorem, There
-exists $c \in (a, b)$ with $f'(c) = 0$. But $f'(x) = 3x^2 - 3 = 3(x+1)(x-1)$Which is zero Only at
+exists $c \in (a, b)$ with $f'(c) = 0$. But $f'(x) = 3x^2 - 3 = 3(x+1)(x-1)$ Which is zero Only at
 $x = \pm 1$. This does not lead to a contradiction on its own, so we must examine further.
 
-In fact, $f(-2) = -1$$f(0) = 1$$f(1) = -1$$f(2) = 3$. So $f$ has at least one root in $(-2, 0)$At
+In fact, $f(-2) = -1$$f(0) = 1$$f(1) = -1$$f(2) = 3$. So $f$ has at least one root in $(-2, 0)$ At
 least one in $(0, 1)$ And possibly one in $(1, 2)$. Rolle's Theorem applied to Consecutive roots
 shows that each pair of roots must bracket either $x = -1$ or $x = 1$.
 
@@ -26390,10 +26390,10 @@ Let $f''(c)$ exist with $f'(c) = 0$:
 
 - If $f''(c) \gt 0$ Then $f(c)$ is a **local minimum**.
 - If $f''(c) \lt 0$ Then $f(c)$ is a **local maximum**.
-- If $f''(c) = 0$The test is **inconclusive**.
+- If $f''(c) = 0$ The test is **inconclusive**.
 
 **When to use which test.** The first derivative test always works. The second derivative test is
-Faster but sometimes inconclusive. When $f''(c) = 0$You must fall back to the first derivative Test.
+Faster but sometimes inconclusive. When $f''(c) = 0$ You must fall back to the first derivative Test.
 
 **Example where the second derivative test is inconclusive.** Consider $f(x) = x^4$.
 $f'(x) = 4x^3 = 0$ gives $x = 0$ And $f''(x) = 12x^2$ So $f''(0) = 0$ -- the test is inconclusive. But
@@ -26478,7 +26478,7 @@ Confirming a minimum.
 
 ### Optimization on Closed Intervals
 
-When the domain is a closed interval $[a, b]$The absolute maximum and minimum occur at critical
+When the domain is a closed interval $[a, b]$ The absolute maximum and minimum occur at critical
 Points **or** at endpoints.
 
 **Procedure:**
@@ -26509,7 +26509,7 @@ Absolute minimum: $0$ at $x = -1$ and $x = 2$. Absolute maximum: $20$ at $x = 4$
 3. **Confusing $\frac{d}{dx}[e^x]$ with $\frac{d}{dx}[x^e]$.** The former is $e^x$; the latter is
    $ex^{e-1}$.
 4. **Implicit differentiation: forgetting to apply the chain rule to $y$ terms.** When
-   differentiating $y^2$ with respect to $x$The result is $2y\frac{dy}{dx}$Not $2y$.
+   differentiating $y^2$ with respect to $x$ The result is $2y\frac{dy}{dx}$ Not $2y$.
 5. **Units in related rates.** Always include units and check that they make dimensional sense.
 6. **Not checking endpoints** in optimization problems on closed intervals.
 7. **Using the second derivative test when it is inconclusive** ($f''(c) = 0$). Fall back to the
@@ -26626,7 +26626,7 @@ Still $0/0$. Apply again:
 
 $\displaystyle\lim_{x \to 0} \frac{e^x}{2} = \frac{1}{2}$.
 
-Alternatively, this is the coefficient of $x^2/2!$ in the Taylor series of $e^x$Confirming the
+Alternatively, this is the coefficient of $x^2/2!$ in the Taylor series of $e^x$ Confirming the
 answer.
 
 </details>
@@ -26642,7 +26642,7 @@ dimensions that minimise the surface area.
 <details>
 <summary>Answer</summary>
 
-Let base side = $x$Height = $h$. Volume: $x^2 h = 108$ So $h = 108/x^2$.
+Let base side = $x$ Height = $h$. Volume: $x^2 h = 108$ So $h = 108/x^2$.
 
 Surface area: $S = x^2 + 4xh = x^2 + 4x(108/x^2) = x^2 + 432/x$.
 
@@ -26650,9 +26650,9 @@ $\frac{dS}{dx} = 2x - 432/x^2 = 0$ So $2x = 432/x^2$$x^3 = 216$$x = 6 \mathrm{ c
 
 $h = 108/36 = 3 \mathrm{ cm$.
 
-$\frac{d^2S}{dx^2} = 2 + 864/x^3 \gt 0$ at $x = 6$Confirming minimum.
+$\frac{d^2S}{dx^2} = 2 + 864/x^3 \gt 0$ at $x = 6$ Confirming minimum.
 
-Dimensions: $6 \times 6 \times 3 \mathrm{ cm$Minimum surface area
+Dimensions: $6 \times 6 \times 3 \mathrm{ cm$ Minimum surface area
 $= 36 + 432/6 = 108 \mathrm{ cm^2$.
 
 </details>
@@ -26779,7 +26779,7 @@ $$
 \frac{dy}{dx} = 6x \, e^{3x^2+1} \sin\!\left(2e^{3x^2+1}\right)
 $$
 
-For $\dfrac{d^2y}{dx^2}$Apply the product rule to $6x \cdot e^{3x^2+1} \cdot \sin(2e^{3x^2+1})$. Let
+For $\dfrac{d^2y}{dx^2}$ Apply the product rule to $6x \cdot e^{3x^2+1} \cdot \sin(2e^{3x^2+1})$. Let
 $A = 6x$$B = e^{3x^2+1}$$C = \sin(2e^{3x^2+1})$. Then:
 
 $$
@@ -26824,7 +26824,7 @@ the product rule when computing the second derivative.
 
 **Question:**
 
-Given $x^2 y + \sin(xy) = 3$Find $\dfrac{d^2y}{dx^2}$ in terms of $x$ and $y$.
+Given $x^2 y + \sin(xy) = 3$ Find $\dfrac{d^2y}{dx^2}$ in terms of $x$ and $y$.
 
 **Solution:**
 
@@ -26846,7 +26846,7 @@ $$
 y' = -\frac{2xy + y\cos(xy)}{x^2 + x\cos(xy)} = -\frac{y(2x + \cos(xy))}{x(x + \cos(xy))}
 $$
 
-For $y''$Differentiate $y'$ using the quotient rule. Let $u = -y(2x + \cos(xy))$ and
+For $y''$ Differentiate $y'$ using the quotient rule. Let $u = -y(2x + \cos(xy))$ and
 $v = x(x + \cos(xy))$.
 
 First, $u' = -y'(2x + \cos(xy)) - y\left(2 - \sin(xy)(y + xy')\right)$.
@@ -26858,7 +26858,7 @@ y'' = \frac{u'v - uv'}{v^2}
 $$
 
 This is extremely tedious but tests whether students correctly apply the product rule to the $xy$
-term inside $\sin(xy)$A common error point. The key misconception: students often write
+term inside $\sin(xy)$ A common error point. The key misconception: students often write
 $\frac{d}{dx}[\sin(xy)] = \cos(xy)$ instead of
 $\cos(xy) \cdot \frac{d}{dx}[xy] = \cos(xy)(y + xy')$.
 
@@ -26908,7 +26908,7 @@ $c = 1$.
 **not differentiable** at $x = 0$.
 
 This does not contradict the MVT because the MVT requires differentiability on the **open** interval
-$(-1, 8)$ and continuity on the **closed** interval $[-1, 8]$. Since $0 \in (-1, 8)$The hypothesis
+$(-1, 8)$ and continuity on the **closed** interval $[-1, 8]$. Since $0 \in (-1, 8)$ The hypothesis
 of the MVT is actually **not satisfied**.
 
 The fact that we found $c = 1$ is a coincidence -- the MVT conclusion happened to hold even though
@@ -27006,7 +27006,7 @@ $$
 **Question:**
 
 Find the rectangle of maximum area that can be inscribed in the region bounded by $y = 4 - x^2$ and
-$y = 0$With one side on the $x$-axis. Verify your answer is a maximum using the second derivative
+$y = 0$ With one side on the $x$-axis. Verify your answer is a maximum using the second derivative
 test, and then compute the area between the curve and the rectangle that is not covered by the
 rectangle.
 
@@ -27025,7 +27025,7 @@ $$
 A''(a) = -12a \lt 0 \text{ for  a > 0
 $$
 
-Since $A''\!\left(\frac{2\sqrt{3}}{3}\right) = -12 \cdot \frac{2\sqrt{3}}{3} = -8\sqrt{3} \lt 0$This
+Since $A''\!\left(\frac{2\sqrt{3}}{3}\right) = -12 \cdot \frac{2\sqrt{3}}{3} = -8\sqrt{3} \lt 0$ This
 is a local maximum (and by endpoints, the global maximum on $[0, 2]$).
 
 Maximum area:
@@ -27163,7 +27163,7 @@ URL: https://ap.wyattau.com/maths/diagnostics/diag-differential-equations/
 
 Solve the initial value problem $\dfrac{dy}{dx} = y^{2/3}$ with $y(0) = 0$.
 
-A student separates variables and writes $\displaystyle\int y^{-2/3}\,dy = \int dx$Obtaining
+A student separates variables and writes $\displaystyle\int y^{-2/3}\,dy = \int dx$ Obtaining
 $3y^{1/3} = x + C$. Using $y(0) = 0$: $C = 0$ So $y = \left(\dfrac{x}{3}\right)^3$.
 
 (a) Verify that $y(x) = 0$ (the constant zero function) is also a solution to the IVP. (b) Explain
@@ -27177,7 +27177,7 @@ Also $y(0) = 0$. So $y = 0$ is a solution.
 
 (b) The existence and uniqueness theorem (Picard-Lindelof) requires $\dfrac{dy}{dx} = f(x, y)$ where
 $f$ and $\dfrac{\partial f}{\partial y}$ are continuous near $(0, 0)$. Here $f(x, y) = y^{2/3}$ And
-$\dfrac{\partial f}{\partial y} = \dfrac{2}{3}y^{-1/3}$Which is **undefined** at $y = 0$. Therefore
+$\dfrac{\partial f}{\partial y} = \dfrac{2}{3}y^{-1/3}$ Which is **undefined** at $y = 0$. Therefore
 the theorem does not guarantee uniqueness.
 
 (c) A third solution can be constructed by patching:
@@ -27188,7 +27188,7 @@ $$
 
 For any $a \geq 0$. At $x = a$: $y(a) = 0$ from both sides, and $y"(a) = 0$ from both sides (since
 $\frac{d}{dx}\left[\left(\frac{x-a}{3}\right)^3\right] = \frac{(x-a)^2}{3} = 0$ at $x = a$). So this
-is a valid $C^1$ solution. For $a = 0$This gives:
+is a valid $C^1$ solution. For $a = 0$ This gives:
 
 $$
 y(x) = \begin{cases} 0 & \text{if  x \leq 0 \\ \dfrac{x^3}{27} & \text{if  x > 0 \end{cases}
@@ -27224,7 +27224,7 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 
 **Solution:**
 
-(a) With $\Delta x = 0.5$Starting at $(0, 1)$:
+(a) With $\Delta x = 0.5$ Starting at $(0, 1)$:
 
 | Step | $x$ | $y$  | $y' = x + y$ | $y_{\text{new} = y + 0.5 \cdot y'$ |
 | ---- | --- | ---- | ------------ | ---------------------------------- |
@@ -27235,7 +27235,7 @@ roughly quarters the error for Euler's method. Does your result confirm this? If
 
 Approximation: $y(2) \approx 7.125$.
 
-With $\Delta x = 0.25$Starting at $(0, 1)$:
+With $\Delta x = 0.25$ Starting at $(0, 1)$:
 
 | Step | $x$  | $y$         | $y' = x + y$ | $y_{\text{new}$ |
 | ---- | ---- | ----------- | ------------ | --------------- |
@@ -27380,13 +27380,13 @@ and III (where $x$ and $y$ have the same sign) and negative in quadrants II and 
 the slope is $1$; along $y = -x$ the slope is $-1$. The slopes are very steep near $y = 0$ and
 nearly horizontal near $x = 0$. The solution through $(1, 2)$ lies in quadrant I and is concave up
 (since
-$\dfrac{d^2y}{dx^2} = \dfrac{y - x \cdot y'}{y^2} = \dfrac{y - x^2/y}{y^2} = \dfrac{y^2 - x^2}{y^3}$Which
+$\dfrac{d^2y}{dx^2} = \dfrac{y - x \cdot y'}{y^2} = \dfrac{y - x^2/y}{y^2} = \dfrac{y^2 - x^2}{y^3}$ Which
 is positive for $y > |x|$).
 
 (b) $f(x, y) = \dfrac{x}{y}$ is undefined when $y = 0$ So the existence and uniqueness theorem does
 not apply on the $x$-axis. A solution curve approaching $y = 0$ would have
-$\dfrac{dy}{dx} \to \pm\infty$Meaning the curve becomes vertical. Since the ODE is not defined on
-$y = 0$No solution curve can cross it.
+$\dfrac{dy}{dx} \to \pm\infty$ Meaning the curve becomes vertical. Since the ODE is not defined on
+$y = 0$ No solution curve can cross it.
 
 (c) Separate variables: $y\,dy = x\,dx$. Integrate: $\dfrac{y^2}{2} = \dfrac{x^2}{2} + C$. Using
 $(1, 2)$: $2 = \frac{1}{2} + C \implies C = \frac{3}{2}$.
@@ -27436,16 +27436,16 @@ $$
 \int y\,dy = \int \frac{dx}{x} \implies \frac{y^2}{2} = \ln|x| + C
 $$
 
-Using $y(1) = 0$: $\dfrac{0}{2} = \ln 1 + C \implies C = 0$Giving $y = \pm\sqrt{2\ln|x|}$.
+Using $y(1) = 0$: $\dfrac{0}{2} = \ln 1 + C \implies C = 0$ Giving $y = \pm\sqrt{2\ln|x|}$.
 
 (a) Identify the domain issues with this solution. (b) Does a solution exist on any interval
 containing $x = 1$? Justify using the existence and uniqueness theorem. (c) If the initial condition
-is changed to $y(1) = 1$Find the solution and determine its maximal interval of existence.
+is changed to $y(1) = 1$ Find the solution and determine its maximal interval of existence.
 
 **Solution:**
 
-(a) The "solution" $y = \pm\sqrt{2\ln|x|}$ requires $\ln|x| \geq 0$I.e., $|x| \geq 1$. But the
-initial condition is at $x = 1$Where $\ln 1 = 0$ and $y = 0$. The domain does not include any
+(a) The "solution" $y = \pm\sqrt{2\ln|x|}$ requires $\ln|x| \geq 0$ I.e., $|x| \geq 1$. But the
+initial condition is at $x = 1$ Where $\ln 1 = 0$ and $y = 0$. The domain does not include any
 interval around $x = 1$ (it only includes $x = 1$ as a boundary point). This is not a valid solution
 on any open interval.
 
@@ -27496,8 +27496,8 @@ containing $x = 1$ is $(e^{-1/2}, \infty)$.
 Consider the autonomous differential equation $\dfrac{dy}{dx} = y(y - 2)^2(y + 1)$.
 
 (a) Find all equilibrium solutions and classify their stability. (b) A student claims that since
-$y = 2$ is a repeated root of $y(y-2)^2(y+1) = 0$The equilibrium at $y = 2$ is "doubly stable." Is
-this correct? (c) If $y(0) = 1$Determine $\displaystyle\lim_{t \to \infty} y(t)$ and
+$y = 2$ is a repeated root of $y(y-2)^2(y+1) = 0$ The equilibrium at $y = 2$ is "doubly stable." Is
+this correct? (c) If $y(0) = 1$ Determine $\displaystyle\lim_{t \to \infty} y(t)$ and
 $\displaystyle\lim_{t \to -\infty} y(t)$. (d) For what initial values $y(0) = y_0$ does $y(t) \to 2$
 as $t \to \infty$?
 
@@ -27528,7 +27528,7 @@ Stability classification:
 (b) No. The multiplicity of the root affects the nature of the equilibrium, but "doubly stable" is
 not the correct interpretation. A root of even multiplicity in $f(y)$ at an equilibrium means the
 equilibrium is a **node** -- semistable, with solutions approaching from one side and departing from
-the other. The "double root" makes $f'(2) = 0$Which means the linearization test is inconclusive and
+the other. The "double root" makes $f'(2) = 0$ Which means the linearization test is inconclusive and
 we must use the sign chart instead.
 
 (c) $y(0) = 1$ is in the region $0 < y < 2$ where $f(y) > 0$ So $y$ increases. Since $y = 2$ is
@@ -27759,7 +27759,7 @@ $$
 Intersection points: $x = -2, 1, 2$.
 
 The student"s error: they integrated from $-2$ to $2$ without accounting for the curve crossing at
-$x = 1$. On $[-2, 1]$We must determine which curve is on top; on $[1, 2]$The other may be on top.
+$x = 1$. On $[-2, 1]$ We must determine which curve is on top; on $[1, 2]$ The other may be on top.
 
 Test point $x = 0$: $x^3 - 4x = 0$, $x^2 - 4 = -4$. So $x^3 - 4x \gt x^2 - 4$ on $[-2, 1]$.
 
@@ -27842,7 +27842,7 @@ Explain why this is false, and compute the volume about the $y$-axis for compari
 A shell at height $y$ has radius $r = 6 - x = 6 - y^2$ and height $h = dy$ (thin strip). For shells,
 we integrate along the axis perpendicular to the axis of revolution.
 
-Since we revolve about $x = 6$ (vertical line), shells are vertical: radius $= 6 - x$Height
+Since we revolve about $x = 6$ (vertical line), shells are vertical: radius $= 6 - x$ Height
 $= \sqrt{x} - 0 = \sqrt{x}$.
 
 $$
@@ -27856,7 +27856,7 @@ $$
 (b) Washer method: washers perpendicular to $x = 6$ So we integrate with respect to $y$.
 
 Outer radius: $R = 6 - 0 = 6$ (from $x = 6$ to the $y$-axis). More precisely, for washers
-perpendicular to the axis $x = 6$: at height $y$The region extends from $x = y^2$ to $x = 4$.
+perpendicular to the axis $x = 6$: at height $y$ The region extends from $x = y^2$ to $x = 4$.
 Revolved about $x = 6$:
 
 - Outer radius: $6 - y^2$ (from axis to the left edge of region at $x = y^2$)
@@ -27917,7 +27917,7 @@ $$
 \frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-1}
 $$
 
-By comparison with $\displaystyle\int_0^1 x^{p-1}\,dx$ (converges iff $p - 1 > -1$I.e., $p > 0$):
+By comparison with $\displaystyle\int_0^1 x^{p-1}\,dx$ (converges iff $p - 1 > -1$ I.e., $p > 0$):
 
 The first integral converges iff $p > 0$.
 
@@ -27928,7 +27928,7 @@ $$
 \frac{x^{p-1}}{2} \lt \frac{x^{p-1}}{1+x} \lt x^{p-2}
 $$
 
-By comparison with $\displaystyle\int_1^{\infty} x^{p-2}\,dx$ (converges iff $p - 2 \lt -1$I.e.,
+By comparison with $\displaystyle\int_1^{\infty} x^{p-2}\,dx$ (converges iff $p - 2 \lt -1$ I.e.,
 $p \lt 1$):
 
 The second integral converges iff $p \lt 1$.
@@ -27979,7 +27979,7 @@ $$
 So
 $F(x) = \begin{cases} x^2 & \text{if  0 \leq x \lt 2 \\ -x^2 + 8x - 8 & \text{if  2 \leq x \leq 4 \end{cases}$
 
-(Note: $4 + (8x - x^2 - 12) = -x^2 + 8x - 8$Not $(x-4)^2 = x^2 - 8x + 16$. The two expressions
+(Note: $4 + (8x - x^2 - 12) = -x^2 + 8x - 8$ Not $(x-4)^2 = x^2 - 8x + 16$. The two expressions
 differ.)
 
 (b) Check differentiability at $x = 2$:
@@ -27996,7 +27996,7 @@ $F'_{+}(2) = \lim_{h \to 0^+}\frac{F(2+h) - F(2)}{h} = \lim_{h \to 0^+}\frac{-(2
 
 $= \lim_{h \to 0^+}\frac{-4 - 4h - h^2 + 16 + 8h - 12}{h} = \lim_{h \to 0^+}\frac{-h^2 + 4h}{h} = \lim_{h \to 0^+}(-h + 4) = 4$.
 
-Since $4 = 4$, $F$ **is differentiable** at $x = 2$With $F'(2) = 4 = f(2)$.
+Since $4 = 4$, $F$ **is differentiable** at $x = 2$ With $F'(2) = 4 = f(2)$.
 
 (c) The student is **incorrect**. Although $f$ has a corner at $x = 2$ ($f$ changes from slope $+2$
 to slope $-2$), $f$ is continuous at $x = 2$ ($f(2^-) = 4 = f(2^+)$). By FTC part 1, since $f$ is
@@ -28071,7 +28071,7 @@ Prove using an epsilon-delta argument that $\displaystyle\lim_{x \to 2} x^3 = 8$
 
 A student writes the following "proof":
 
-> For any $\varepsilon > 0$Choose $\delta = \varepsilon / 12$. Then
+> For any $\varepsilon > 0$ Choose $\delta = \varepsilon / 12$. Then
 > $|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4|$. If $|x - 2| \lt \delta$ Then
 > $|x^3 - 8| \lt 12 \cdot \delta = \varepsilon$.
 
@@ -28086,7 +28086,7 @@ shown by first restricting $\delta$ to ensure $x$ is close enough to $2$ for thi
 
 Let $\varepsilon > 0$. We need $|x^3 - 8| = |x - 2| \cdot |x^2 + 2x + 4| \lt \varepsilon$.
 
-First, restrict $\delta \leq 1$ so that $|x - 2| \lt 1$Meaning $1 \lt x \lt 3$. On this interval:
+First, restrict $\delta \leq 1$ so that $|x - 2| \lt 1$ Meaning $1 \lt x \lt 3$. On this interval:
 
 $$
 x^2 + 2x + 4 \lt 9 + 6 + 4 = 19
@@ -28169,7 +28169,7 @@ $$
 \frac{x + \sin x}{x} = 1 + \frac{\sin x}{x}
 $$
 
-Since $-1 \leq \sin x \leq 1$We have $|\sin x / x| \leq 1/|x| \to 0$ as $x \to \infty$. Therefore:
+Since $-1 \leq \sin x \leq 1$ We have $|\sin x / x| \leq 1/|x| \to 0$ as $x \to \infty$. Therefore:
 
 $$
 \lim_{x \to \infty} \frac{x + \sin x}{x} = 1
@@ -28241,7 +28241,7 @@ As $x \to -1^+$: $\frac{-4}{0^+} \to -\infty$. As $x \to -1^-$: $\frac{-4}{0^-} 
 
 The one-sided limits are both infinite but with opposite signs, so this is an **infinite
 discontinuity** (the limit DNE). This differs from $x = 1$ because the limit itself does not exist
-at $x = -1$Whereas at $x = 1$ the limit exists but does not match the function value.
+at $x = -1$ Whereas at $x = 1$ the limit exists but does not match the function value.
 
 ---
 
@@ -28278,7 +28278,7 @@ $$
 g(2) = 8 + 4 - 5 + \cos(2\pi) = 7 + 1 = 8 \gt 0
 $$
 
-Since $g(0) \lt 0 \lt g(2)$ and $g$ is continuous on $[0, 2]$By the IVT there exists $c \in (0, 2)$
+Since $g(0) \lt 0 \lt g(2)$ and $g$ is continuous on $[0, 2]$ By the IVT there exists $c \in (0, 2)$
 such that $g(c) = 0$.
 
 **Uniqueness (Rolle's theorem via monotonicity):**
@@ -28293,17 +28293,17 @@ $$
 g'(x) \geq 3x^2 + 2 - \pi
 $$
 
-For $x \geq 0$: $3x^2 + 2 - \pi > 0$ when $3x^2 > \pi - 2$I.e.,
+For $x \geq 0$: $3x^2 + 2 - \pi > 0$ when $3x^2 > \pi - 2$ I.e.,
 $x > \sqrt{(\pi - 2)/3} \approx 0.62$.
 
 For $x \in [0, 0.62]$: $g'(x) = 3x^2 + 2 - \pi\sin(\pi x)$. Since $\sin(\pi x) \leq \pi x$ for
 $x \geq 0$ (and $\pi x \leq \pi \cdot 0.62 \lt 2$), we have
-$g'(x) \geq 3(0)^2 + 2 - \pi(1) = 2 - \pi \approx -1.14$Which is negative. A finer argument is
+$g'(x) \geq 3(0)^2 + 2 - \pi(1) = 2 - \pi \approx -1.14$ Which is negative. A finer argument is
 needed.
 
 A cleaner argument: $g'(x) = 3x^2 + 2 - \pi\sin(\pi x)$. Since
-$|\pi\sin(\pi x)| \leq \pi \approx 3.14$ and $3x^2 + 2 \geq 2$We have
-$g'(x) \geq 2 - 3.14 = -1.14$Which does not prove positivity.
+$|\pi\sin(\pi x)| \leq \pi \approx 3.14$ and $3x^2 + 2 \geq 2$ We have
+$g'(x) \geq 2 - 3.14 = -1.14$ Which does not prove positivity.
 
 Let us check directly:
 $g'(0) = 2$$g'(1) = 3 + 2 - 0 = 5$$g'(0.5) = 0.75 + 2 - \pi \approx 2.75 - 3.14 = -0.39$.
@@ -28407,7 +28407,7 @@ $$
 Therefore $F(x)$ converges to some finite limit
 $L = \displaystyle\int_0^{\infty} \frac{e^{-t^2}}{1 + t^2} \, dt$ as $x \to \infty$.
 
-(b) Let $L = \displaystyle\lim_{x \to \infty} F(x)$. Since $F(x) \to L \neq 0$We have
+(b) Let $L = \displaystyle\lim_{x \to \infty} F(x)$. Since $F(x) \to L \neq 0$ We have
 $x \cdot F(x) \to \infty$. A more interesting limit is obtained by considering the tail: let
 $G(x) = L - F(x) = \displaystyle\int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt$ And evaluate
 $\displaystyle\lim_{x \to \infty} x \cdot G(x)$.
@@ -28416,7 +28416,7 @@ $$
 x \cdot G(x) = x \int_x^{\infty} \frac{e^{-t^2}}{1+t^2}\,dt
 $$
 
-For large $x$The dominant contribution comes from $t$ near $x$. Substitute $u = t - x$:
+For large $x$ The dominant contribution comes from $t$ near $x$. Substitute $u = t - x$:
 
 $$
 G(x) \approx \int_0^{\infty} \frac{e^{-(x+u)^2}}{1+(x+u)^2}\,du \approx \frac{e^{-x^2}}{1+x^2} \int_0^{\infty} e^{-2xu}\,du = \frac{e^{-x^2}}{1+x^2} \cdot \frac{1}{2x}
@@ -28516,7 +28516,7 @@ starting from $n = 1$.
 Start from $n = 2$ instead:
 $b_2 = \dfrac{1}{\sqrt{2} + 1} \approx 0.414$$b_3 = \dfrac{1}{\sqrt{3} - 1} \approx 1.366$$b_4 = \dfrac{1}{2 + 1} \approx 0.333$.
 
-Since $b_3 > b_2$The sequence $\{b_n\}$ is **not decreasing**, so the alternating series test does
+Since $b_3 > b_2$ The sequence $\{b_n\}$ is **not decreasing**, so the alternating series test does
 not apply.
 
 To determine convergence, rewrite:
@@ -28558,7 +28558,7 @@ Use the Maclaurin series for $e^x$ to approximate $e^{0.3}$ using the first thre
 (a) Compute the approximation. (b) Use the Lagrange error bound to find an upper bound on the
 absolute error. (c) The actual value is $e^{0.3} \approx 1.3498588$. Compute the actual error and
 verify it is within the bound. (d) A student claims "since the Maclaurin series for $e^x$ converges
-for all $x$The error must go to zero." Explain why this does not mean the error is zero for any
+for all $x$ The error must go to zero." Explain why this does not mean the error is zero for any
 finite number of terms.
 
 **Solution:**
@@ -28570,7 +28570,7 @@ First three nonzero terms: $1 + 0.3 + \dfrac{0.09}{2} = 1 + 0.3 + 0.045 = 1.345$
 (b) The Lagrange remainder after $n$ terms: $|R_n(x)| \leq \dfrac{M|x|^{n+1}}{(n+1)!}$ where
 $M = \max|f^{(n+1)}(c)|$ for $c$ between $0$ and $x$.
 
-After 3 terms ($n = 3$Using up to the $x^2$ term), the next term involves $f^{(3)}(x) = e^x$:
+After 3 terms ($n = 3$ Using up to the $x^2$ term), the next term involves $f^{(3)}(x) = e^x$:
 
 $$
 |R_2(0.3)| \leq \frac{e^{0.3} \cdot (0.3)^3}{3!} = \frac{e^{0.3} \cdot 0.027}{6}
@@ -28623,7 +28623,7 @@ $$
 \lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right| = \lim_{n \to \infty}\left|\frac{(x-2)^{n+1}}{(n+1) \cdot 3^{n+1}} \cdot \frac{n \cdot 3^n}{(x-2)^n}\right| = \lim_{n \to \infty}\frac{n}{n+1} \cdot \frac{|x-2|}{3} = \frac{|x-2|}{3}
 $$
 
-The ratio test gives convergence when $\dfrac{|x-2|}{3} \lt 1$I.e., $|x - 2| \lt 3$.
+The ratio test gives convergence when $\dfrac{|x-2|}{3} \lt 1$ I.e., $|x - 2| \lt 3$.
 
 **Radius of convergence:** $R = 3$.
 
@@ -28659,11 +28659,11 @@ test: $\dfrac{1}{n} \to 0$ and decreases).
 **Question:**
 
 Starting from the geometric series $\displaystyle\sum_{n=0}^{\infty} x^n = \frac{1}{1-x}$ for
-$|x| \lt 1$Find the exact value of $\displaystyle\sum_{n=1}^{\infty} \frac{n^2}{2^n}$.
+$|x| \lt 1$ Find the exact value of $\displaystyle\sum_{n=1}^{\infty} \frac{n^2}{2^n}$.
 
 **Solution:**
 
-From $\displaystyle\sum_{n=0}^{\infty} x^n = \frac{1}{1-x}$Differentiate both sides:
+From $\displaystyle\sum_{n=0}^{\infty} x^n = \frac{1}{1-x}$ Differentiate both sides:
 
 $$
 \sum_{n=1}^{\infty} nx^{n-1} = \frac{1}{(1-x)^2}
@@ -28740,7 +28740,7 @@ Where $M = \max|f^{(6)}(c)|$ for $c \in [0, 0.5]$. This is complicated. Instead,
 next series term:
 
 Since the series for $\cos(x^2)$ is alternating and the terms decrease in magnitude for
-$|x| \lt 1$The error in truncating after the $x^4$ term is at most the magnitude of the next term:
+$|x| \lt 1$ The error in truncating after the $x^4$ term is at most the magnitude of the next term:
 
 $$
 |R_4(x)| \leq \frac{x^8}{24}
@@ -28825,7 +28825,7 @@ $$
 \int_N^{\infty}\frac{du}{u^{1.01}} = \frac{N^{-0.01}}{0.01} = 100N^{-0.01}
 $$
 
-Setting $100N^{-0.01} \lt 0.001$: $N^{-0.01} \lt 0.00001$ So $N^{0.01} > 100000$Giving
+Setting $100N^{-0.01} \lt 0.001$: $N^{-0.01} \lt 0.00001$ So $N^{0.01} > 100000$ Giving
 $N > 100000^{100}$. Still impractical. The series $\sum \frac{1}{n(\ln n)^p}$ converges very slowly
 for $p$ near $1$.
 
@@ -29156,7 +29156,7 @@ $$
 
 This works because $dy$ and $dx$ are related through the chain rule: $\frac{dy}{dx} = g(x)h(y)$
 Rewrites as $\frac{1}{h(y)}\frac{dy}{dx} = g(x)$ And integrating both sides with respect to $x$ Gives
-$\int \frac{1}{h(y)}\frac{dy}{dx}\,dx = \int g(x)\,dx$Which is exactly the separated form Above.
+$\int \frac{1}{h(y)}\frac{dy}{dx}\,dx = \int g(x)\,dx$ Which is exactly the separated form Above.
 
 ### Separability Test
 
@@ -29281,7 +29281,7 @@ $$
 Y(t) = y_0 \cdot 2^{-t/T_{1/2}}
 $$
 
-Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$We get $k = -\frac{\ln 2}{T_{1/2}}$.
+Alternatively, since $\frac{1}{2}y_0 = y_0 e^{kT_{1/2}}$ We get $k = -\frac{\ln 2}{T_{1/2}}$.
 
 The half-life is a constant: no matter when you start measuring, the time for the quantity to halve
 Is always $T_{1/2}$. This is a direct consequence of the exponential"s scale-invariance.
@@ -29321,11 +29321,11 @@ $$
 \frac{dy}{dt} = ky\!\left(1 - \frac{y}{L}\right)
 $$
 
-- When $y$ is small relative to $L$Growth is approximately exponential (the factor
+- When $y$ is small relative to $L$ Growth is approximately exponential (the factor
   $1 - \frac{y}{L} \approx 1$).
-- As $y \to L$The growth rate $\to 0$.
+- As $y \to L$ The growth rate $\to 0$.
 - The carrying capacity $L$ is a horizontal asymptote.
-- If $y \gt L$The growth rate is negative, pulling $y$ back toward $L$.
+- If $y \gt L$ The growth rate is negative, pulling $y$ back toward $L$.
 
 ### Solution
 
@@ -29339,7 +29339,7 @@ Where $A = \frac{L - y_0}{y_0}$ depends on the initial condition.
 
 ### Derivation
 
-Starting with $\frac{dy}{dt} = ky\!\left(1 - \frac{y}{L}\right)$Separate:
+Starting with $\frac{dy}{dt} = ky\!\left(1 - \frac{y}{L}\right)$ Separate:
 
 $$
 \int \frac{L}{y(L - y)}\, dy = \int k\, dt
@@ -29408,7 +29408,7 @@ Shows the direction a solution curve must pass through that point.
 
 ### Constructing Slope Fields
 
-For any given grid point $(x_i, y_j)$Compute $f(x_i, y_j)$ and draw a short segment with that Slope.
+For any given grid point $(x_i, y_j)$ Compute $f(x_i, y_j)$ and draw a short segment with that Slope.
 The density of the grid determines how accurately the field represents the DE.
 
 ### Interpreting Slope Fields
@@ -29437,7 +29437,7 @@ For $\displaystyle\frac{dy}{dx} = \frac{x}{y}$:
 When $y \gt 0$: slopes have the same sign as $x$. When $y \lt 0$: slopes have the opposite sign of
 $x$. When $y = 0$: slopes are undefined (vertical line segments).
 
-The solution curves are hyperbolas $y^2 - x^2 = C$Consistent with our earlier analytic solution.
+The solution curves are hyperbolas $y^2 - x^2 = C$ Consistent with our earlier analytic solution.
 
 ## Euler's Method (CED Unit 7.6)
 
@@ -29483,8 +29483,8 @@ $y(1) = 0$.
 
 So $y(2) \approx 1.5$.
 
-(The exact solution is $y = e^{x-1} - x - 1$Giving $y(2) = e - 3 \approx -0.282$. The Approximation
-is poor due to the large step size. With $\Delta x = 0.1$The result is much closer.)
+(The exact solution is $y = e^{x-1} - x - 1$ Giving $y(2) = e - 3 \approx -0.282$. The Approximation
+is poor due to the large step size. With $\Delta x = 0.1$ The result is much closer.)
 
 ### Worked Example: More Steps
 
@@ -29566,7 +29566,7 @@ Which substance leaves.
 A tank holds 100 L of pure water. Brine with 0.5 kg/L salt flows in at 5 L/min, and the mixture
 Flows out at 5 L/min. Find the salt content after 20 minutes.
 
-Since $r_i = r_o = 5$The volume stays at 100 L.
+Since $r_i = r_o = 5$ The volume stays at 100 L.
 
 $$
 \frac{dQ}{dt} = 5(0.5) - \frac{5}{100}Q = 2.5 - 0.05Q
@@ -29593,7 +29593,7 @@ $$
 A tank initially contains 200 L of pure water. Brine with 0.3 kg/L salt flows in at 4 L/min, and the
 Mixture flows out at 3 L/min. Find the salt content after 60 minutes.
 
-Since $r_i \neq r_o$The volume changes: $V(t) = 200 + (4 - 3)t = 200 + t$.
+Since $r_i \neq r_o$ The volume changes: $V(t) = 200 + (4 - 3)t = 200 + t$.
 
 $$
 \frac{dQ}{dt} = 4(0.3) - \frac{3}{200 + t}Q = 1.2 - \frac{3Q}{200 + t}
@@ -29662,7 +29662,7 @@ For autonomous equations $\frac{dy}{dt} = f(y)$:
 
 ### Phase Line Analysis
 
-For an autonomous DE $\frac{dy}{dt} = f(y)$The **phase line** is a one-dimensional diagram of the
+For an autonomous DE $\frac{dy}{dt} = f(y)$ The **phase line** is a one-dimensional diagram of the
 $y$-axis with arrows indicating the direction of flow.
 
 - Draw the $y$-axis and mark the equilibrium points (zeros of $f$).
@@ -29790,7 +29790,7 @@ Method would be.
 
 2. **Incorrectly separating variables.** All $y$ terms (including $dy$) must be on one side, and all
    $x$ terms (including $dx$) on the other. If you cannot algebraically factor $f(x, y)$ into
-   $g(x)h(y)$The equation is not separable and you need a different technique.
+   $g(x)h(y)$ The equation is not separable and you need a different technique.
 
 3. **Not checking the domain** of the solution. Some solutions may only be valid on a restricted
    interval. For example, the solution to $\frac{dy}{dx} = \frac{x}{y}$ is $y^2 = x^2 + C$ But if
@@ -29799,11 +29799,11 @@ Method would be.
 4. **Confusing the logistic growth equation** with exponential growth. The logistic equation has the
    additional factor $\left(1 - \frac{y}{L}\right)$ that caps growth at the carrying capacity.
 
-5. **Sign errors in Euler's method.** Remember: $y_{n+1} = y_n + f(x_n, y_n) \cdot \Delta x$Not
+5. **Sign errors in Euler's method.** Remember: $y_{n+1} = y_n + f(x_n, y_n) \cdot \Delta x$ Not
    minus. The slope at the current point tells you which direction to step.
 
-6. **Identifying the wrong carrying capacity.** In $\frac{dy}{dt} = ky(1 - y/L)$The carrying
-   capacity is $L$Not $\frac{1}{L}$ or $kL$. Check: setting $\frac{dy}{dt} = 0$ gives $y = 0$ or
+6. **Identifying the wrong carrying capacity.** In $\frac{dy}{dt} = ky(1 - y/L)$ The carrying
+   capacity is $L$ Not $\frac{1}{L}$ or $kL$. Check: setting $\frac{dy}{dt} = 0$ gives $y = 0$ or
    $y = L$.
 
 7. **Forgetting that equilibrium solutions** cannot be found by separation of variables (since you
@@ -29826,7 +29826,7 @@ Method would be.
 4. A body at $80^\circ\mathrm{C$ is placed in a room at $25^\circ\mathrm{C$. After 30 minutes, the
    body is at $50^\circ\mathrm{C$. When will it reach $30^\circ\mathrm{C$?
 
-5. For $\displaystyle\frac{dy}{dx} = y(y - 2)(y - 5)$Find all equilibrium solutions and classify
+5. For $\displaystyle\frac{dy}{dx} = y(y - 2)(y - 5)$ Find all equilibrium solutions and classify
    their stability. Draw the phase line.
 
 6. Sketch the slope field for $\displaystyle\frac{dy}{dx} = \frac{x}{y}$ and identify the
@@ -29887,7 +29887,7 @@ at $t = 50$ And (b) the time when the population reaches half the carrying capac
 <details>
 <summary>Answer</summary>
 
-Carrying capacity $K = 1000$Growth rate $r = 0.05$.
+Carrying capacity $K = 1000$ Growth rate $r = 0.05$.
 
 Logistic solution: $P(t) = \frac{K}{1 + Ae^{-rt}}$ where
 $A = \frac{K - P_0}{P_0} = \frac{1000 - 100}{100} = 9$.
@@ -29946,7 +29946,7 @@ For $y \gt x$ (above the line $y = x$): $dy/dx = x - y \lt 0$ So solutions decre
 For $y \lt x$ (below the line $y = x$): $dy/dx = x - y \gt 0$ So solutions increase.
 
 All solutions approach the line $y = x - 1$ as $x \to \infty$ (this can be verified by solving the
-DE: the general solution is $y = x - 1 + Ce^{-x}$Which approaches $x - 1$).
+DE: the general solution is $y = x - 1 + Ce^{-x}$ Which approaches $x - 1$).
 
 The line $y = x - 1$ is a stable equilibrium solution.
 
@@ -30415,7 +30415,7 @@ Description.
 These notes cover the full AP Calculus curriculum, from limits and continuity through to series and
 differential equations. Each topic page includes key theorems, worked examples, and step-by-step
 solutions to help you prepare for both the multiple-choice and free-response sections of the AP
-exam. The content follows the College Board"s course framework and mathematical practices.
+exam. The content follows the College Board's course framework and mathematical practices.
 
 ## Topics
 
@@ -30582,12 +30582,12 @@ $$
 \int x^n\, dx = \frac\{x^\{n+1\}\}\{n+1\} + C, \quad n \ne -1
 $$
 
-**Why the power rule excludes $n = -1$.** Substituting $n = -1$ gives $\frac{x^0}{0}$Which is
-Undefined. The antiderivative of $\frac{1}{x}$ is $\ln|x|$A fundamental result with deep Connections
+**Why the power rule excludes $n = -1$.** Substituting $n = -1$ gives $\frac{x^0}{0}$ Which is
+Undefined. The antiderivative of $\frac{1}{x}$ is $\ln|x|$ A fundamental result with deep Connections
 to the natural logarithm.
 
 **Why the absolute value in $\ln|x|$.** The derivative of $\ln x$ is $\frac{1}{x}$ for $x \gt 0$.
-For $x \lt 0$The derivative of $\ln(-x)$ is $\frac{1}{-x} \cdot (-1) = \frac{1}{x}$. So the
+For $x \lt 0$ The derivative of $\ln(-x)$ is $\frac{1}{-x} \cdot (-1) = \frac{1}{x}$. So the
 Antiderivative of $\frac{1}{x}$ on any interval not containing $0$ is $\ln|x| + C$.
 
 <Aside type="note" title="Example">
@@ -30620,7 +30620,7 @@ $$
 \sum_\{i=1\}^\{n\} f(x_i^*) \Delta x
 $$
 
-Where $\Delta x = \frac{b - a}{n}$ and $x_i^*$ is a sample point in the $i$Th subinterval.
+Where $\Delta x = \frac{b - a}{n}$ and $x_i^*$ is a sample point in the $i$ Th subinterval.
 
 | Type              | Sample Point $x_i^*$                              |
 | ----------------- | ------------------------------------------------- |
@@ -30654,7 +30654,7 @@ Provided this limit exists. When it does, $f$ is said to be **integrable** on $[
 5. $\displaystyle\int_a^b f(x)\, dx = \int_a^c f(x)\, dx + \int_c^b f(x)\, dx$ (Additivity)
 
 **Property 5 (Additivity) is powerful.** It allows splitting integrals at discontinuities. For
-Example, if $f$ has a jump at $c \in (a, b)$You can split:
+Example, if $f$ has a jump at $c \in (a, b)$ You can split:
 
 $$
 \int_a^b f(x)\, dx = \int_a^c f(x)\, dx + \int_c^b f(x)\, dx
@@ -30793,14 +30793,14 @@ $\blacksquare$
 
 ### $u$-Substitution
 
-If $\displaystyle\int f(g(x)) \cdot g'(x)\, dx$Let $u = g(x)$, $du = g'(x)\, dx$:
+If $\displaystyle\int f(g(x)) \cdot g'(x)\, dx$ Let $u = g(x)$, $du = g'(x)\, dx$:
 
 $$
 \int f(u)\, du = F(u) + C = F(g(x)) + C
 $$
 
 **Strategy for choosing $u$.** Look for a function and its derivative in the integrand. If you can
-Spot $f(g(x))$ and $g'(x)$Set $u = g(x)$.
+Spot $f(g(x))$ and $g'(x)$ Set $u = g(x)$.
 </Aside>
 
 <Aside type="note" title="Example">
@@ -30816,7 +30816,7 @@ $$
 <Aside type="note" title="Example">
 Evaluate $\displaystyle\int \frac{x}{x^2 + 1}\, dx$.
 
-Let $u = x^2 + 1$, $du = 2x\, dx$Giving $\frac{1}{2}du = x\, dx$:
+Let $u = x^2 + 1$, $du = 2x\, dx$ Giving $\frac{1}{2}du = x\, dx$:
 
 $$
 \int \frac\{x\}\{x^2 + 1\}\, dx = \frac\{1\}\{2\}\int \frac\{1\}\{u\}\, du = \frac\{1\}\{2\}\ln|u| + C = \frac\{1\}\{2\}\ln(x^2 + 1) + C
@@ -31044,7 +31044,7 @@ $$
 <Aside type="note" title="Example">
 Find the area between $y = x^2$ and $y = 2x$.
 
-Find intersections: $x^2 = 2x$ So $x^2 - 2x = 0$Giving $x = 0$ and $x = 2$.
+Find intersections: $x^2 = 2x$ So $x^2 - 2x = 0$ Giving $x = 0$ and $x = 2$.
 
 Between $x = 0$ and $x = 2$$2x \ge x^2$.
 
@@ -31162,14 +31162,14 @@ $$
 6. **Incorrectly choosing $u$ in integration by parts.** Use LIATE: prioritize Logarithmic over
    Inverse trig over Algebraic over Trig over Exponential.
 7. **Sign errors with FTC Part 1 chain rule.** The derivative of $\int_a^{g(x)} f(t)\, dt$ is
-   $f(g(x)) \cdot g'(x)$Not $f(g(x))$.
+   $f(g(x)) \cdot g'(x)$ Not $f(g(x))$.
 8. **Forgetting to split improper integrals at the discontinuity** when a singularity is in the
    interval.
 9. **Choosing the disk vs. Washer vs. Shell method incorrectly.** Disk: rotate around $x$-axis using
    radius. Shell: rotate around $y$-axis using height as the integrand. Washer: region between two
    curves rotated about an axis.
 10. **Dropping the absolute value in $\ln|x|$.** The antiderivative of $\frac{1}{x}$ is
-    $\ln|x| + C$Not $\ln x + C$. On intervals where $x \lt 0$The integral is well-defined and equals
+    $\ln|x| + C$ Not $\ln x + C$. On intervals where $x \lt 0$ The integral is well-defined and equals
     $\ln(-x) + C$.
 11. **Confusing the Gaussian integrals.**
     $\displaystyle\int_0^{\infty} xe^{-x^2}\, dx = \frac{1}{2}$ (evaluated via $u$-substitution),
@@ -31195,7 +31195,7 @@ $$
 
 7. Find the average value of $f(x) = \sin x$ on $[0, \pi]$.
 
-8. Given $\displaystyle g(x) = \int_0^{x^3} \cos(t^2)\, dt$Find $g'(x)$.
+8. Given $\displaystyle g(x) = \int_0^{x^3} \cos(t^2)\, dt$ Find $g'(x)$.
 
 9. Evaluate $\displaystyle\int_0^1 \frac{2x}{\sqrt{1 + x^2}}\, dx$.
 
@@ -31303,7 +31303,7 @@ $= \lim_{b \to \infty} \left[\frac{x^{1-p}}{1-p}\right]_1^b = \lim_{b \to \infty
 
 For $p = 1$: $\int_1^b \frac{1}{x} \, dx = \ln b \to \infty$. Diverges.
 
-The integral converges if and only if $p \gt 1$With value $\frac{1}{p-1}$.
+The integral converges if and only if $p \gt 1$ With value $\frac{1}{p-1}$.
 
 </details>
 
@@ -31440,7 +31440,7 @@ For $x \lt 3$: $\frac{|x-3|}{x-3} = \frac{3-x}{x-3} = -1$.
 
 For $x \gt 3$: $\frac{|x-3|}{x-3} = \frac{x-3}{x-3} = 1$.
 
-Left limit $= -1$Right limit $= 1$. The limit does not exist.
+Left limit $= -1$ Right limit $= 1$. The limit does not exist.
 
 ### Common Limits
 
@@ -31456,16 +31456,16 @@ Left limit $= -1$Right limit $= 1$. The limit does not exist.
 **Proof that $\displaystyle\lim_{x \to 0} \frac{\sin x}{x} = 1$.**
 
 This is proved using the squeeze theorem and the geometric inequality $\sin x \lt x \lt \tan x$ for
-$0 \lt x \lt \frac{\pi}{2}$Which gives $\cos x \lt \frac{\sin x}{x} \lt 1$.
+$0 \lt x \lt \frac{\pi}{2}$ Which gives $\cos x \lt \frac{\sin x}{x} \lt 1$.
 
 As $x \to 0^+$, $\cos x \to 1$ So by the squeeze theorem, $\frac{\sin x}{x} \to 1$. A similar
 Argument applies from the left. $\blacksquare$
 
 **Proof of the geometric inequality $\sin x \lt x \lt \tan x$ for $0 \lt x \lt \frac{\pi}{2}$.**
 Consider a unit circle sector with angle $x$. The area of triangle $OAP$ (with altitude $\sin x$) is
-$\frac{1}{2}\sin x$The area of the sector is $\frac{1}{2}x$ And the area of triangle $OAT$ (with
+$\frac{1}{2}\sin x$ The area of the sector is $\frac{1}{2}x$ And the area of triangle $OAT$ (with
 Altitude $\tan x$) is $\frac{1}{2}\tan x$. Since the sector contains the first triangle and is
-Contained in the second, we get $\frac{1}{2}\sin x \lt \frac{1}{2}x \lt \frac{1}{2}\tan x$Hence
+Contained in the second, we get $\frac{1}{2}\sin x \lt \frac{1}{2}x \lt \frac{1}{2}\tan x$ Hence
 $\sin x \lt x \lt \tan x$. $\blacksquare$
 
 **Proof that $\displaystyle\lim_{x \to 0} \frac{e^x - 1}{x} = 1$.**
@@ -31488,7 +31488,7 @@ $$
 \frac{\ln(1+x)}{x} = \frac{u}{e^u - 1} = \frac{1}{\frac{e^u - 1}{u}}
 $$
 
-Since $\displaystyle\lim_{u \to 0} \frac{e^u - 1}{u} = 1$The result follows. $\blacksquare$
+Since $\displaystyle\lim_{u \to 0} \frac{e^u - 1}{u} = 1$ The result follows. $\blacksquare$
 
 ## The Squeeze Theorem
 
@@ -31508,7 +31508,7 @@ Evaluate directly.
 :::note[Example]
 Show that $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}\right) = 0$.
 
-Since $-1 \le \sin\!\left(\frac{1}{x}\right) \le 1$We have
+Since $-1 \le \sin\!\left(\frac{1}{x}\right) \le 1$ We have
 $-x^2 \le x^2 \sin\!\left(\frac{1}{x}\right) \le x^2$.
 
 Both $\displaystyle\lim_{x \to 0}(-x^2) = 0$ and $\displaystyle\lim_{x \to 0} x^2 = 0$.
@@ -31519,7 +31519,7 @@ By the squeeze theorem, $\displaystyle\lim_{x \to 0} x^2 \sin\!\left(\frac{1}{x}
 :::note[Example]
 Show that $\displaystyle\lim_{x \to 0} x\cos\!\left(\frac{1}{x}\right) = 0$.
 
-Since $-1 \le \cos\!\left(\frac{1}{x}\right) \le 1$We have
+Since $-1 \le \cos\!\left(\frac{1}{x}\right) \le 1$ We have
 $-|x| \le x\cos\!\left(\frac{1}{x}\right) \le |x|$.
 
 Both $\displaystyle\lim_{x \to 0}(-|x|) = 0$ and $\displaystyle\lim_{x \to 0}|x| = 0$.
@@ -31530,7 +31530,7 @@ By the squeeze theorem, the limit is $0$.
 :::note[Example]
 Show that $\displaystyle\lim_{x \to 0} x^2 e^{\sin(1/x)} = 0$.
 
-Since $-1 \le \sin(1/x) \le 1$We have $e^{-1} \le e^{\sin(1/x)} \le e^1$.
+Since $-1 \le \sin(1/x) \le 1$ We have $e^{-1} \le e^{\sin(1/x)} \le e^1$.
 
 Therefore:
 
@@ -31550,7 +31550,7 @@ If $\displaystyle\lim_{x \to a} f(x) = L$ and $\displaystyle\lim_{x \to a} g(x) 
 2. $\displaystyle\lim_{x \to a} [f(x) - g(x)] = L - M$
 3. $\displaystyle\lim_{x \to a} [c \cdot f(x)] = cL$
 4. $\displaystyle\lim_{x \to a} [f(x) \cdot g(x)] = L \cdot M$
-5. $\displaystyle\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{L}{M}$Provided $M \ne 0$
+5. $\displaystyle\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{L}{M}$ Provided $M \ne 0$
 
 **Theorem (Limit of a power).** If $\displaystyle\lim_{x \to a} f(x) = L$ and $n$ is a positive
 Integer, then $\displaystyle\lim_{x \to a} [f(x)]^n = L^n$.
@@ -31559,7 +31559,7 @@ Integer, then $\displaystyle\lim_{x \to a} [f(x)]^n = L^n$.
 Integer, and $L \ge 0$ when $n$ is even, then
 $\displaystyle\lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{L}$.
 
-**Proof of property 1 (sum rule).** We need to show that for every $\epsilon \gt 0$There exists
+**Proof of property 1 (sum rule).** We need to show that for every $\epsilon \gt 0$ There exists
 $\delta \gt 0$ such that $|x - a| \lt \delta$ implies $|(f+g)(x) - (L+M)| \lt \epsilon$.
 
 Note that $|(f+g)(x) - (L+M)| = |(f(x) - L) + (g(x) - M)| \le |f(x) - L| + |g(x) - M|$.
@@ -31573,7 +31573,7 @@ $|(f+g)(x) - (L+M)| \lt \epsilon/2 + \epsilon/2 = \epsilon$. $\blacksquare$
 
 ### Direct Substitution
 
-When a function is continuous at $a$The limit equals the function value:
+When a function is continuous at $a$ The limit equals the function value:
 
 $$
 \lim_{x \to a} f(x) = f(a)
@@ -31588,7 +31588,7 @@ For rational functions $\displaystyle\frac{P(x)}{Q(x)}$ where $P$ and $Q$ are po
   $\displaystyle\lim_{x \to \pm\infty} \frac{P(x)}{Q(x)} = \frac{\mathrm{leading coeff of  P}{\mathrm{leading coeff of  Q}$
 - If $\deg P \gt \deg Q$: the limit is $\pm\infty$
 
-**Why this works.** For large $x$The leading term dominates. Dividing numerator and denominator by
+**Why this works.** For large $x$ The leading term dominates. Dividing numerator and denominator by
 The highest power of $x$ in the denominator, all lower-order terms vanish.
 :::
 
@@ -31605,7 +31605,7 @@ $$
 :::note[Example]
 Find $\displaystyle\lim_{x \to \infty} \frac{5x^3 - 2x + 1}{4x^2 + 3x}$.
 
-Since $\deg P = 3 \gt \deg Q = 2$The limit is $+\infty$.
+Since $\deg P = 3 \gt \deg Q = 2$ The limit is $+\infty$.
 :::
 
 :::note[Example]
@@ -31621,7 +31621,7 @@ This confirms that the same shortcut works for $x \to -\infty$ when the degrees 
 
 ### Indeterminate Forms and Factoring
 
-When direct substitution yields $\frac{0}{0}$Algebraic manipulation is required.
+When direct substitution yields $\frac{0}{0}$ Algebraic manipulation is required.
 :::
 
 :::note[Example]
@@ -31745,7 +31745,7 @@ $$
 ## Formal Definition of a Limit (Epsilon-Delta)
 
 The precise definition: $\displaystyle\lim_{x \to a} f(x) = L$ means that for every
-$\epsilon \gt 0$There exists a $\delta \gt 0$ such that:
+$\epsilon \gt 0$ There exists a $\delta \gt 0$ such that:
 
 $$
 0 \lt |x - a| \lt \delta \implies |f(x) - L| \lt \epsilon
@@ -31761,7 +31761,7 @@ Game, the limit exists.
 :::note[Example]
 Prove that $\displaystyle\lim_{x \to 3} (2x - 1) = 5$.
 
-We need to show that for every $\epsilon \gt 0$There exists $\delta \gt 0$ such that
+We need to show that for every $\epsilon \gt 0$ There exists $\delta \gt 0$ such that
 $0 \lt |x - 3| \lt \delta \implies |(2x-1) - 5| \lt \epsilon$.
 
 Working backwards: $|(2x-1) - 5| = |2x - 6| = 2|x - 3|$.
@@ -31870,7 +31870,7 @@ Show that $f(x) = x^3 + x - 1$ has a root in $(0, 1)$.
 
 $f(0) = -1 \lt 0$ and $f(1) = 1 \gt 0$.
 
-Since $f$ is continuous on $[0, 1]$ and $0$ is between $f(0)$ and $f(1)$By the IVT there exists
+Since $f$ is continuous on $[0, 1]$ and $0$ is between $f(0)$ and $f(1)$ By the IVT there exists
 $c \in (0, 1)$ such that $f(c) = 0$.
 
 **Application of IVT to bisection.** The IVT motivates the bisection method for root-finding: if
@@ -31883,7 +31883,7 @@ Show that $f(x) = e^x - 3 - x$ has at least one root in $(1, 2)$.
 
 $f(1) = e - 4 \approx -1.282 \lt 0$ and $f(2) = e^2 - 5 \approx 2.389 \gt 0$.
 
-Since $f$ is continuous (as a sum of continuous functions) on $[1, 2]$By the IVT there exists
+Since $f$ is continuous (as a sum of continuous functions) on $[1, 2]$ By the IVT there exists
 $c \in (1, 2)$ such that $f(c) = 0$. $\blacksquare$
 
 **Corollary of the IVT.** If $f$ is continuous on $[a, b]$ and $f(a) \cdot f(b) \lt 0$ Then $f$ has
@@ -31913,13 +31913,13 @@ This follows directly from the EVT: the absolute minimum and maximum serve as th
 If $\displaystyle\lim_{x \to a^+} f(x) = \pm\infty$ or
 $\displaystyle\lim_{x \to a^-} f(x) = \pm\infty$ Then $x = a$ is a vertical asymptote.
 
-For rational functions $\frac{P(x)}{Q(x)}$Vertical asymptotes occur at zeros of $Q(x)$ that are Not
+For rational functions $\frac{P(x)}{Q(x)}$ Vertical asymptotes occur at zeros of $Q(x)$ that are Not
 also zeros of $P(x)$ (after cancellation).
 
 ### Horizontal Asymptotes
 
 - If $\displaystyle\lim_{x \to \pm\infty} f(x) = L$ Then $y = L$ is a horizontal asymptote.
-- A function can have at most two horizontal asymptotes (one as $x \to \infty$One as
+- A function can have at most two horizontal asymptotes (one as $x \to \infty$ One as
   $x \to -\infty$).
 
 ### Oblique (Slant) Asymptotes
@@ -32023,7 +32023,7 @@ $$
 :::note[Example]
 Find $\displaystyle\lim_{x \to 0^+} x \ln x$.
 
-This has the form $0 \cdot (-\infty)$Which is indeterminate. Rewrite as a quotient:
+This has the form $0 \cdot (-\infty)$ Which is indeterminate. Rewrite as a quotient:
 
 $$
 X \ln x = \frac{\ln x}{1/x}
@@ -32073,7 +32073,7 @@ Left-hand limit: $\displaystyle\lim_{x \to 0^-} h(x) = 0 + 0 + 1 = 1$.
 
 Right-hand limit: $\displaystyle\lim_{x \to 0^+} h(x) = 3$.
 
-For continuity: $1 = 3$Which is impossible. No value of $b$ makes $h$ continuous at $x = 0$.
+For continuity: $1 = 3$ Which is impossible. No value of $b$ makes $h$ continuous at $x = 0$.
 
 This example demonstrates that continuity at a junction point of a piecewise function is not always
 Achievable -- on whether the one-sided limits can be made to agree.
@@ -32120,7 +32120,7 @@ Achievable -- on whether the one-sided limits can be made to agree.
 
 7. Use the squeeze theorem to find $\displaystyle\lim_{x \to 0} x \cos\!\left(\frac{1}{x}\right)$.
 
-8. Given $f(x) = x^3 - 3x + 1$Use the IVT to show there is at least one root in the interval
+8. Given $f(x) = x^3 - 3x + 1$ Use the IVT to show there is at least one root in the interval
    $(1, 2)$.
 
 9. Find $\displaystyle\lim_{x \to 0} \frac{\tan x}{x}$.
@@ -32159,7 +32159,7 @@ Using the epsilon-delta definition, prove that $\displaystyle\lim_{x \to 2} (3x 
 <details>
 <summary>Answer</summary>
 
-We need to show: for every $\epsilon \gt 0$There exists a $\delta \gt 0$ such that if
+We need to show: for every $\epsilon \gt 0$ There exists a $\delta \gt 0$ such that if
 $0 \lt |x - 2| \lt \delta$ Then $|(3x - 1) - 5| \lt \epsilon$.
 
 $|(3x - 1) - 5| = |3x - 6| = 3|x - 2|$.
@@ -32233,7 +32233,7 @@ $f(0) = 0 - 0 + 1 = 1 \gt 0$.
 
 $f(1) = 1 - 5 + 1 = -3 \lt 0$.
 
-Since $f$ is continuous on $[0, 1]$ and $f(0) \gt 0$ and $f(1) \lt 0$By the Intermediate Value
+Since $f$ is continuous on $[0, 1]$ and $f(0) \gt 0$ and $f(1) \lt 0$ By the Intermediate Value
 Theorem, there exists at least one $c \in (0, 1)$ such that $f(c) = 0$.
 
 </details>
@@ -32344,7 +32344,7 @@ URL: https://ap.wyattau.com/maths/5-sequences-and-series/5_sequences-and-series/
 
 A **sequence** is an ordered list of numbers: $a_1, a_2, a_3, \ldots$. Formally, a sequence is a
 Function from the positive integers (or a subset thereof) to the real numbers:
-$a \colon \mathbb{N} \to \mathbb{R}$Written as $\{a_n\}_{n=1}^{\infty}$ or $\{a_n\}$.
+$a \colon \mathbb{N} \to \mathbb{R}$ Written as $\{a_n\}_{n=1}^{\infty}$ or $\{a_n\}$.
 
 A sequence $\{a_n\}$ **converges** to a limit $L$ if:
 
@@ -32352,7 +32352,7 @@ $$
 \lim_{n \to \infty} a_n = L
 $$
 
-This means: for every $\epsilon \gt 0$There exists an integer $N$ such that $|a_n - L| \lt \epsilon$
+This means: for every $\epsilon \gt 0$ There exists an integer $N$ such that $|a_n - L| \lt \epsilon$
 for all $n \ge N$. The terms eventually get and stay arbitrarily close to $L$.
 
 If no such limit exists, the sequence **diverges**.
@@ -32404,7 +32404,7 @@ By the squeeze theorem, $\frac{n!}{n^n} \to 0$.
 
 ### Proof: $\frac{\ln n}{n} \to 0$
 
-Since $\ln n$ grows slower than any positive power of $n$We have $\ln n \lt \sqrt{n}$ for
+Since $\ln n$ grows slower than any positive power of $n$ We have $\ln n \lt \sqrt{n}$ for
 Sufficiently large $n$. Therefore
 $0 \lt \frac{\ln n}{n} \lt \frac{\sqrt{n}}{n} = \frac{1}{\sqrt{n}}$ And $\frac{1}{\sqrt{n}} \to 0$ So
 by the squeeze theorem, $\frac{\ln n}{n} \to 0$.
@@ -32419,7 +32419,7 @@ $$
 
 ### Partial Sums
 
-The $n$Th partial sum is $S_n = \sum_{k=1}^{n} a_k$. The series converges if and only if the
+The $n$ Th partial sum is $S_n = \sum_{k=1}^{n} a_k$. The series converges if and only if the
 Sequence of partial sums $\{S_n\}$ converges:
 
 $$
@@ -32428,14 +32428,14 @@ $$
 
 If $\{S_n\}$ diverges, the series diverges.
 
-### The $n$Th-Term Test (Divergence Test)
+### The $n$ Th-Term Test (Divergence Test)
 
 If $\displaystyle\lim_{n \to \infty} a_n \ne 0$ Then $\displaystyle\sum a_n$ diverges.
 
 **Proof (by contrapositive):** If $\sum a_n$ converges to $L$ Then $S_n \to L$ and $S_{n-1} \to L$.
-Since $a_n = S_n - S_{n-1}$We get $a_n \to L - L = 0$.
+Since $a_n = S_n - S_{n-1}$ We get $a_n \to L - L = 0$.
 
-**Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$The test is inconclusive. The series may
+**Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$ The test is inconclusive. The series may
 Converge or diverge. The harmonic series $\sum \frac{1}{n}$ is the canonical counterexample.
 
 :::note[Example]
@@ -32445,7 +32445,7 @@ $$
 \lim_{n \to \infty} \frac{n}{n+1} = 1 \ne 0
 $$
 
-By the $n$Th-term test, the series diverges.
+By the $n$ Th-term test, the series diverges.
 
 ### The Harmonic Series
 
@@ -32453,7 +32453,7 @@ $$
 \sum_{n=1}^{\infty} \frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots
 $$
 
-Even though $\frac{1}{n} \to 0$This series diverges. The proof groups terms:
+Even though $\frac{1}{n} \to 0$ This series diverges. The proof groups terms:
 
 $$
 1 + \frac{1}{2} + \left(\frac{1}{3} + \frac{1}{4}\right) + \left(\frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8}\right) + \cdots
@@ -32461,7 +32461,7 @@ $$
 
 Each group exceeds $\frac{1}{2}$:
 $\frac{1}{3} + \frac{1}{4} \gt \frac{1}{4} + \frac{1}{4} = \frac{1}{2}$ And so on. Since we can Form
-infinitely many groups each exceeding $\frac{1}{2}$The partial sums diverge to $+\infty$.
+infinitely many groups each exceeding $\frac{1}{2}$ The partial sums diverge to $+\infty$.
 
 ## Geometric Series (CED BC Unit 10.2)
 
@@ -32471,7 +32471,7 @@ $$
 
 The series diverges when $|r| \ge 1$.
 
-**Derivation.** The $n$Th partial sum is $S_n = a + ar + ar^2 + \cdots + ar^{n-1}$. Then:
+**Derivation.** The $n$ Th partial sum is $S_n = a + ar + ar^2 + \cdots + ar^{n-1}$. Then:
 
 $$
 RS_n = ar + ar^2 + \cdots + ar^n
@@ -32634,7 +32634,7 @@ $$
 \lim_{n \to \infty} \frac{1/(n^2+1)}{1/n^2} = \lim_{n \to \infty} \frac{n^2}{n^2 + 1} = 1
 $$
 
-Since $0 \lt 1 \lt \infty$Both series converge by the limit comparison test.
+Since $0 \lt 1 \lt \infty$ Both series converge by the limit comparison test.
 
 ### Worked Example: Choosing the Right Comparison
 
@@ -32648,11 +32648,11 @@ $$
 \lim_{n \to \infty} \frac{(3n+1)/(n^3-2)}{1/n^2} = \lim_{n \to \infty} \frac{n^2(3n+1)}{n^3-2} = \lim_{n \to \infty} \frac{3n^3 + n^2}{n^3 - 2} = 3
 $$
 
-Since $L = 3 \in (0, \infty)$Both series converge.
+Since $L = 3 \in (0, \infty)$ Both series converge.
 
 ## The Ratio Test (CED BC Unit 10.7)
 
-For $\displaystyle\sum a_n$Compute:
+For $\displaystyle\sum a_n$ Compute:
 
 $$
 L = \lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|
@@ -32677,7 +32677,7 @@ $$
 L = \lim_{n \to \infty} \frac{(n+1)! / 10^{n+1}}{n! / 10^n} = \lim_{n \to \infty} \frac{n+1}{10} = \infty
 $$
 
-Since $L = \infty \gt 1$The series diverges.
+Since $L = \infty \gt 1$ The series diverges.
 :::
 
 :::note[Example]
@@ -32687,7 +32687,7 @@ $$
 L = \lim_{n \to \infty} \frac{2^{n+1} / (n+1)!}{2^n / n!} = \lim_{n \to \infty} \frac{2}{n+1} = 0
 $$
 
-Since $L = 0 \lt 1$The series converges absolutely.
+Since $L = 0 \lt 1$ The series converges absolutely.
 
 ## The Alternating Series Test (Leibniz Test)
 
@@ -32721,9 +32721,9 @@ The error by counting terms.
 How many terms of $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}$ are needed to approximate
 The sum with error less than $0.001$?
 
-The terms are $a_n = \frac{1}{n}$Which decrease and approach 0.
+The terms are $a_n = \frac{1}{n}$ Which decrease and approach 0.
 
-We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$ So $n + 1 \gt 1000$Meaning $n \ge 1000$.
+We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$ So $n + 1 \gt 1000$ Meaning $n \ge 1000$.
 
 At least 1000 terms are needed.
 
@@ -32789,7 +32789,7 @@ $$
 L = \lim_{n \to \infty} \left|\frac{(x-2)^{n+1}/(n+1)!}{(x-2)^n/n!}\right| = \lim_{n \to \infty} \frac{|x-2|}{n+1} = 0
 $$
 
-Since $L = 0 \lt 1$ for all $x$The series converges for all real numbers. The interval of
+Since $L = 0 \lt 1$ for all $x$ The series converges for all real numbers. The interval of
 Convergence is $(-\infty, \infty)$ with $R = \infty$.
 :::
 
@@ -32800,7 +32800,7 @@ $$
 L = \lim_{n \to \infty} \left|\frac{(x-1)^{n+1}/(n+1)}{(x-1)^n/n}\right| = |x - 1| \cdot \lim_{n \to \infty} \frac{n}{n+1} = |x - 1|
 $$
 
-Converges when $|x - 1| \lt 1$I.e., $0 \lt x \lt 2$. Radius $R = 1$.
+Converges when $|x - 1| \lt 1$ I.e., $0 \lt x \lt 2$. Radius $R = 1$.
 
 **Check $x = 0$:** $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$ converges (alternating
 Series).
@@ -32832,13 +32832,13 @@ $$
 F(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x - a)^n
 $$
 
-When $a = 0$This is called a **Maclaurin series**.
+When $a = 0$ This is called a **Maclaurin series**.
 
 ### Why Taylor Series Work
 
 The Taylor polynomial $T_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k$ is the unique
 Polynomial of degree $\le n$ whose value and first $n$ derivatives at $x = a$ match those of $f$. As
-$n \to \infty$If the remainder $R_n(x) = f(x) - T_n(x) \to 0$ Then the Taylor series converges to
+$n \to \infty$ If the remainder $R_n(x) = f(x) - T_n(x) \to 0$ Then the Taylor series converges to
 $f(x)$.
 
 ### Common Maclaurin Series
@@ -32871,7 +32871,7 @@ $$
 \arctan x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1} = x - \frac{x^3}{3} + \frac{x^5}{5} - \cdots, \quad R = 1
 $$
 
-### Taylor"s Inequality (Remainder Estimation)
+### Taylor's Inequality (Remainder Estimation)
 
 The remainder after $n$ terms of the Taylor series satisfies:
 
@@ -32980,13 +32980,13 @@ $$
    sequence does not imply a convergent series (e.g., $a_n = \frac{1}{n}$ converges to 0, but
    $\sum \frac{1}{n}$ diverges).
 
-2. **Using the $n$Th-term test incorrectly.** $\lim a_n = 0$ does not prove convergence (e.g.,
+2. **Using the $n$ Th-term test incorrectly.** $\lim a_n = 0$ does not prove convergence (e.g.,
    harmonic series). The test only detects divergence.
 
 3. **Forgetting to check endpoints** of the interval of convergence for power series. The ratio test
    always gives $L = 1$ at the endpoints, so you must use a different test.
 
-4. **Misidentifying the center** of a Taylor series. For $\sum c_n(x - 3)^n$The center is $a = 3$.
+4. **Misidentifying the center** of a Taylor series. For $\sum c_n(x - 3)^n$ The center is $a = 3$.
 
 5. **Applying the ratio test when $L = 1$.** The test is inconclusive; use a different test
    (comparison, integral, alternating series).
@@ -33075,7 +33075,7 @@ $a_n = \frac{2^n x^n}{n!}$.
 
 $\displaystyle L = \lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right| = \lim_{n \to \infty} \left|\frac{2^{n+1} x^{n+1} / (n+1)!}{2^n x^n / n!}\right| = \lim_{n \to \infty} \frac{2|x|}{n+1} = 0$.
 
-Since $L = 0 \lt 1$ for all $x$The radius of convergence is $R = \infty$. The series converges for
+Since $L = 0 \lt 1$ for all $x$ The radius of convergence is $R = \infty$. The series converges for
 all real $x$. (This is the Maclaurin series for $e^{2x}$.)
 
 </details>
@@ -33116,9 +33116,9 @@ We know $\frac{1}{1-x} = \sum_{n=0}^{\infty} x^n$ for $|x| \lt 1$.
 Differentiate both sides:
 $\frac{1}{(1-x)^2} = \sum_{n=1}^{\infty} nx^{n-1} = \sum_{n=0}^{\infty} (n+1)x^n$.
 
-Interval of convergence: $|x| \lt 1$Or $(-1, 1)$.
+Interval of convergence: $|x| \lt 1$ Or $(-1, 1)$.
 
-Check endpoints: at $x = 1$Series is $\sum (n+1)$ which diverges. At $x = -1$Series is
+Check endpoints: at $x = 1$ Series is $\sum (n+1)$ which diverges. At $x = -1$ Series is
 $\sum (-1)^n(n+1)$ which diverges by the divergence test.
 
 </details>
@@ -33246,12 +33246,12 @@ $$
 J = \frac{I}{A}
 $$
 
-The current density is a vector: $\vec{J} = nq\vec{v}_d$Where $n$ is the charge carrier density and
+The current density is a vector: $\vec{J} = nq\vec{v}_d$ Where $n$ is the charge carrier density and
 $\vec{v}_d$ is the drift velocity.
 
 ### Microscopic View of Current
 
-In a conductor with $n$ charge carriers per unit volume, each with charge $q$Moving with drift
+In a conductor with $n$ charge carriers per unit volume, each with charge $q$ Moving with drift
 velocity $v_d$:
 
 $$
@@ -33261,7 +33261,7 @@ $$
 The drift velocity is very small (on the order of mm/s), even though the signal propagates at Nearly
 the speed of light.
 
-## Resistance and Ohm"s Law
+## Resistance and Ohm's Law
 
 Ohm's law (for ohmic materials):
 
@@ -33383,7 +33383,7 @@ Exhibits exponential charging and discharging.
 
 ### Charging a Capacitor
 
-With the switch closed at $t = 0$Apply KVL to the loop:
+With the switch closed at $t = 0$ Apply KVL to the loop:
 
 $$
 \mathcal{E} - IR - \frac{Q}{C} = 0
@@ -33423,7 +33423,7 @@ $$
 
 ### Discharging a Capacitor
 
-With the battery removed and the capacitor initially charged to $Q_0$KVL gives:
+With the battery removed and the capacitor initially charged to $Q_0$ KVL gives:
 
 $$
 -IR - \frac{Q}{C} = 0 \implies R\frac{dQ}{dt} + \frac{Q}{C} = 0
@@ -33522,8 +33522,8 @@ $$
 - **Voltmeter:** Measures potential difference. Connected in parallel. Ideal voltmeter has infinite
   resistance.
 
-A real ammeter has small resistance $R_A$Which slightly increases the total resistance of the
-circuit. A real voltmeter has finite resistance $R_V$Which draws a small current and slightly
+A real ammeter has small resistance $R_A$ Which slightly increases the total resistance of the
+circuit. A real voltmeter has finite resistance $R_V$ Which draws a small current and slightly
 reduces the Voltage across the measured component.
 
 ## Intuition
@@ -33551,7 +33551,7 @@ Circuits are **networks of energy transfer**, charges gain energy from batteries
    When in doubt, redraw the circuit.
 4. **Forgetting that the time constant determines the rate, not the final values.** $\tau = RC$
    controls how fast the capacitor charges or discharges. The final charge $Q_{\max} = C\mathcal{E}$
-   depends only on $C$ and $\mathcal{E}$Not on $R$.
+   depends only on $C$ and $\mathcal{E}$ Not on $R$.
 5. **Assuming current through an open switch or no current through a capacitor at steady state.** At
    steady state (DC), a fully charged capacitor acts as an open circuit (no current through it), and
    an inductor acts as a short circuit.
@@ -33586,7 +33586,7 @@ Circuits are **networks of energy transfer**, charges gain energy from batteries
    after 3 s, and (c) the time for the charge to drop to $10\,\mu\text{C$.
 
 6. In an RC charging circuit, the capacitor reaches 90% of its maximum charge in 5 s. If the
-   capacitance is $20\,\mu\text{F$Find the resistance.
+   capacitance is $20\,\mu\text{F$ Find the resistance.
 
 <details>
 <summary>Question 7: AP Exam-Style -- RC circuit with a switch</summary>
@@ -33604,7 +33604,7 @@ $R_1$.
 <details>
 <summary>Answer</summary>
 
-(a) At $t = 0$The capacitor is uncharged ($V_C = 0$), so it acts as a short circuit. $R_2$ is in
+(a) At $t = 0$ The capacitor is uncharged ($V_C = 0$), so it acts as a short circuit. $R_2$ is in
 Parallel with a short circuit, so all current flows through the capacitor branch. The equivalent
 Resistance seen by the battery is just $R_1 = 10\,\text{k\Omega$.
 
@@ -33994,7 +33994,7 @@ Charge is a fundamental property of matter. There are two types: positive and ne
 - Charge is conserved: the net charge in an isolated system is constant.
 - Conductors allow free movement of charge; insulators do not.
 
-### Coulomb"s Law
+### Coulomb's Law
 
 The electrostatic force between two point charges is:
 
@@ -34079,12 +34079,12 @@ $$
 E_x = \frac{1}{4\pi\epsilon_0} \frac{x}{(R^2 + x^2)^{3/2}} \int dq = \frac{1}{4\pi\epsilon_0} \frac{Qx}{(R^2 + x^2)^{3/2}}
 $$
 
-At the center ($x = 0$): $E = 0$As expected by symmetry.
+At the center ($x = 0$): $E = 0$ As expected by symmetry.
 :::
 
 :::note
 Example: Electric field of an infinite line of charge
-For an infinite line with linear charge density $\lambda$Use cylindrical symmetry. Place the line
+For an infinite line with linear charge density $\lambda$ Use cylindrical symmetry. Place the line
 along The $z$-axis. A segment $dz$ at the origin produces a field with perpendicular component:
 
 $$
@@ -34114,7 +34114,7 @@ $$
 
 ### Choosing a Gaussian Surface
 
-Choose a surface where $\vec{E}$ is either constant and parallel to $d\vec{A}$Or perpendicular to
+Choose a surface where $\vec{E}$ is either constant and parallel to $d\vec{A}$ Or perpendicular to
 $d\vec{A}$ (contributing zero flux). Common choices exploit symmetry: spheres, cylinders, and boxes.
 
 ### Applications of Gauss's Law
@@ -34130,7 +34130,7 @@ $$
 
 This result is independent of distance from the plane.
 
-#### Field of a Uniformly Charged Sphere (total charge $Q$Radius $R$)
+#### Field of a Uniformly Charged Sphere (total charge $Q$ Radius $R$)
 
 **Outside ($r > R$):** Choose a spherical Gaussian surface of radius $r$.
 
@@ -34149,9 +34149,9 @@ $$
 
 The field inside grows linearly with $r$ and reaches its maximum at $r = R$.
 
-#### Field of an Infinite Cylindrical Shell (radius $R$Linear charge density $\lambda$)
+#### Field of an Infinite Cylindrical Shell (radius $R$ Linear charge density $\lambda$)
 
-**Outside ($r > R$):** Cylindrical Gaussian surface of radius $r$Length $L$.
+**Outside ($r > R$):** Cylindrical Gaussian surface of radius $r$ Length $L$.
 
 $$
 \oint \vec{E} \cdot d\vec{A} = E \cdot 2\pi r L = \frac{\lambda L}{\epsilon_0} \implies E = \frac{\lambda}{2\pi\epsilon_0 r}
@@ -34280,7 +34280,7 @@ $V = Ed = Qd/(\epsilon_0 A)$ So $C = Q/V = \epsilon_0 A/d$.
 
 ### Cylindrical Capacitor
 
-Inner radius $a$Outer radius $b$Length $L$.
+Inner radius $a$ Outer radius $b$ Length $L$.
 
 By Gauss's law, the field at radius $r$ ($a \le r \le b$) is $E = \lambda/(2\pi\epsilon_0 r)$ where
 $\lambda = Q/L$.
@@ -34295,7 +34295,7 @@ $$
 
 ### Spherical Capacitor
 
-Inner radius $a$Outer radius $b$.
+Inner radius $a$ Outer radius $b$.
 
 $$
 E = \frac{Q}{4\pi\epsilon_0 r^2} \quad (a \le r \le b)
@@ -34421,7 +34421,7 @@ Electrostatics is about **how stationary charges create fields and exert forces*
 7. **Incorrectly handling series and parallel capacitors.** In series, the charge on each capacitor
    is the same. In parallel, the voltage across each capacitor is the same.
 8. **Forgetting the factor of $1/2$ in potential energy of a charge distribution.** The energy to
-   assemble $n$ charges is $\frac{1}{2}\sum q_i V_i$Not $\sum q_i V_i$. Without the factor of $1/2$
+   assemble $n$ charges is $\frac{1}{2}\sum q_i V_i$ Not $\sum q_i V_i$. Without the factor of $1/2$
    each pair is counted twice.
 
 ## Practice Questions
@@ -35211,7 +35211,7 @@ to prepare you for both the multiple-choice and free-response sections.
 ## Topics
 
 - **[1. Kinematics](/physics/1-kinematics/1_kinematics/)**
-- **[2. Newton"s Laws](/physics/2-newtons-laws/2_newtons-laws/)**
+- **[2. Newton's Laws](/physics/2-newtons-laws/2_newtons-laws/)**
 - **[3. Work, Energy, and Power](/physics/3-work-energy-power/3_work-energy-power/)**
 - **[4. Momentum and Impulse](/physics/4-momentum-and-impulse/4_momentum-and-impulse/)**
 - **[5. Rotational Motion](/physics/5-rotational-motion/5_rotational-motion/)**
@@ -35523,7 +35523,7 @@ In projectile motion, the horizontal and vertical motions are independent.
 ### Why Horizontal and Vertical Motions Are Independent
 
 The horizontal component of velocity has no effect on the vertical acceleration (which is always
-$g$Downward), and vice versa. This is because the gravitational force acts only vertically. There Is
+$g$ Downward), and vice versa. This is because the gravitational force acts only vertically. There Is
 no horizontal force (ignoring air resistance), so the horizontal acceleration is zero. The two
 Components of motion are completely decoupled, and can be analyzed separately using the same
 Kinematic equations.
@@ -35575,7 +35575,7 @@ Using the double-angle identity $\sin 2\theta = 2\sin\theta \cos\theta$.
 ### Why Maximum Range Is at 45 Degrees
 
 The range $R = (v_0^2/g)\sin 2\theta$ is maximized when $\sin 2\theta$ is maximized, i.e., when
-$2\theta = 90^{\circ}$Giving $\theta = 45^{\circ}$. Complementary angles give the same range:
+$2\theta = 90^{\circ}$ Giving $\theta = 45^{\circ}$. Complementary angles give the same range:
 $\sin 2\theta = \sin 2(90^{\circ} - \theta)$. A projectile launched at $30^{\circ}$ and one launched
 At $60^{\circ}$ with the same speed will travel the same horizontal distance, but the $60^{\circ}$
 Launch goes higher and stays in the air longer.
@@ -35635,7 +35635,7 @@ $y(t) = 0$ Then compute $R = v_0\cos\theta \cdot t$.
 - **Positive slope on $x$-vs-$t$:** moving in the positive direction.
 - **Zero slope on $x$-vs-$t$:** at rest.
 - **Negative slope on $x$-vs-$t$:** moving in the negative direction.
-- **Curvature on $x$-vs-$t$:** indicates acceleration (concave up = positive $a$Concave down =
+- **Curvature on $x$-vs-$t$:** indicates acceleration (concave up = positive $a$ Concave down =
   negative $a$).
 
 ### Inflection Points and Velocity Extrema
@@ -35666,7 +35666,7 @@ $$
 ### Derivation of Centripetal Acceleration
 
 Consider a particle moving at constant speed $v$ on a circle of radius $r$. Over a small time
-Interval $\Delta t$The velocity vector changes direction by angle $\Delta\theta$ while maintaining
+Interval $\Delta t$ The velocity vector changes direction by angle $\Delta\theta$ while maintaining
 Magnitude $v$.
 
 The change in velocity $\Delta\vec{v}$ is perpendicular to $\vec{v}$ and has magnitude:
@@ -35690,7 +35690,7 @@ $$
 ### Why Centripetal Acceleration Does Not Change Speed
 
 Centripetal acceleration is always perpendicular to the velocity. Since the dot product
-$\vec{a}_c \cdot \vec{v} = 0$The power delivered is $P = \vec{F} \cdot \vec{v} = 0$ And the Kinetic
+$\vec{a}_c \cdot \vec{v} = 0$ The power delivered is $P = \vec{F} \cdot \vec{v} = 0$ And the Kinetic
 energy $\frac{1}{2}mv^2$ is constant. The speed does not change; only the direction of the Velocity
 vector changes. This is why "centripetal" means "centre-seeking" -- the acceleration always Points
 toward the center, never along the velocity.
@@ -35757,7 +35757,7 @@ $$
 
 ## Relative Motion
 
-In one dimension with two reference frames $S$ and $S'$Where $S'$ moves with velocity $v_{S'/S}$
+In one dimension with two reference frames $S$ and $S'$ Where $S'$ moves with velocity $v_{S'/S}$
 Relative to $S$:
 
 $$
@@ -36036,7 +36036,7 @@ flowchart TD
 
 ## Practice Questions (Additional)
 
-1. A particle moves along the $x$-axis with acceleration $a(t) = 8t - 6$ m/s$^2$. At $t = 0$The
+1. A particle moves along the $x$-axis with acceleration $a(t) = 8t - 6$ m/s$^2$. At $t = 0$ The
     particle is at $x = 2$ m with velocity $v = -3$ m/s. Find (a) the time when the particle is at
     rest, (b) the position at that time, and (c) the total distance traveled between $t = 0$ and
     $t = 3$ s.
@@ -36133,7 +36133,7 @@ At $t = 0$: $a = 9 \mathrm{ m/s^2$ (speeding up) At $t = 3$: $a = 3(9 - 12 + 3) 
 (momentarily stationary, inflection point)
 
 <Aside type="note">
-Even though the particle is stationary at $t = 3 \mathrm{ s$The acceleration is also zero
+Even though the particle is stationary at $t = 3 \mathrm{ s$ The acceleration is also zero
 
 There, so the particle does not reverse direction. Compare this to projectile motion at the top of
 The trajectory where $v = 0$ but $a = g \ne 0$ So the projectile immediately starts moving Downward.
@@ -36259,7 +36259,7 @@ Height: $y_1 = 20(4.42) - 4.9(4.42)^2 = 88.4 - 95.7 = -7.3 \mathrm{ m$.
 This is negative, meaning the balls don't meet before ball 1 hits the ground. Ball 1 lands when
 $y_1 = 0$: $20t - 4.9t^2 = 0$, $t = 20/4.9 = 4.08 \mathrm{ s$.
 
-Since $4.42 > 4.08$Ball 1 has already landed. The balls do not meet in the air.
+Since $4.42 > 4.08$ Ball 1 has already landed. The balls do not meet in the air.
 
 </details>
 
@@ -36304,8 +36304,8 @@ Displacement = $\int_0^4 v \, dt = [2t^3 - 9t^2 + 12t]_0^4 = 128 - 144 + 48 = 32
 
 Total distance = $\int_0^1 v \, dt + |\int_1^2 v \, dt| + \int_2^4 v \, dt$.
 
-$\int_0^1 = [2 - 9 + 12] = 5$. $\int_1^2 = [16 - 36 + 24] - [2 - 9 + 12] = 4 - 5 = -1$Absolute value
-= 1. $\int_2^4 = [128 - 144 + 48] - [16 - 36 + 24] = 32 - 44 = -12$Absolute value = 12.
+$\int_0^1 = [2 - 9 + 12] = 5$. $\int_1^2 = [16 - 36 + 24] - [2 - 9 + 12] = 4 - 5 = -1$ Absolute value
+= 1. $\int_2^4 = [128 - 144 + 48] - [16 - 36 + 24] = 32 - 44 = -12$ Absolute value = 12.
 
 Total distance = $5 + 1 + 12 = 18 \mathrm{ m$.
 
@@ -36401,7 +36401,7 @@ $$
 \vec{F} = q\vec{v} \times \vec{B}
 $$
 
-The magnitude is $F = qvB\sin\theta$Where $\theta$ is the angle between $\vec{v}$ and $\vec{B}$. The
+The magnitude is $F = qvB\sin\theta$ Where $\theta$ is the angle between $\vec{v}$ and $\vec{B}$. The
 Direction is given by the right-hand rule.
 
 ### Key Properties
@@ -36427,7 +36427,7 @@ $$
 
 ### Motion at an Angle to the Field
 
-If $\vec{v}$ makes angle $\theta$ with $\vec{B}$The motion is helical. The parallel component
+If $\vec{v}$ makes angle $\theta$ with $\vec{B}$ The motion is helical. The parallel component
 $v_\parallel = v\cos\theta$ is unaffected. The perpendicular component $v_\perp = v\sin\theta$
 produces Circular motion with radius $r = mv_\perp/(qB)$ and pitch
 $p = v_\parallel \cdot T = 2\pi m v_\parallel/(qB)$.
@@ -36463,7 +36463,7 @@ $$
 F_y = \int_0^\pi IRB\sin\theta\, d\theta = IRB[-\cos\theta]_0^\pi = 2IRB
 $$
 
-The total force on the semicircular wire is $2IRB$The same as on a straight wire of length $2R$.
+The total force on the semicircular wire is $2IRB$ The same as on a straight wire of length $2R$.
 
 ## Torque on a Current Loop
 
@@ -36473,10 +36473,10 @@ $$
 \vec{\tau} = \vec{\mu} \times \vec{B}
 $$
 
-Where the magnetic dipole moment is $\vec{\mu} = NI\vec{A}$With $\vec{A}$ directed normal to the
+Where the magnetic dipole moment is $\vec{\mu} = NI\vec{A}$ With $\vec{A}$ directed normal to the
 loop By the right-hand rule and $N$ is the number of turns.
 
-The magnitude is $\tau = NIAB\sin\alpha$Where $\alpha$ is the angle between $\vec{\mu}$ and
+The magnitude is $\tau = NIAB\sin\alpha$ Where $\alpha$ is the angle between $\vec{\mu}$ and
 $\vec{B}$.
 
 ## Biot-Savart Law
@@ -36535,7 +36535,7 @@ $$
 B_x = \frac{\mu_0 IR}{4\pi(R^2+x^2)^{3/2}}\oint dl = \frac{\mu_0 I \cdot 2\pi R^2}{4\pi(R^2+x^2)^{3/2}} = \frac{\mu_0 IR^2}{2(R^2+x^2)^{3/2}}
 $$
 
-## Ampere"s Law
+## Ampere's Law
 
 Ampere's law relates the line integral of $\vec{B}$ around a closed loop to the enclosed current:
 
@@ -36545,7 +36545,7 @@ $$
 
 ### Field Inside a Long Solenoid
 
-For a solenoid with $n$ turns per unit length carrying current $I$Choose a rectangular Amperian loop
+For a solenoid with $n$ turns per unit length carrying current $I$ Choose a rectangular Amperian loop
 With one side inside the solenoid and one outside.
 
 $$
@@ -36557,7 +36557,7 @@ center Of a long solenoid.
 
 ### Field Inside a Toroid
 
-A toroid with $N$ turns carrying current $I$Inner radius $a$Outer radius $b$:
+A toroid with $N$ turns carrying current $I$ Inner radius $a$ Outer radius $b$:
 
 $$
 B = \frac{\mu_0 N I}{2\pi r}
@@ -36581,7 +36581,7 @@ $$
 B \cdot 2\pi r = \mu_0 \frac{2\pi J_0 r^3}{3R} \implies B = \frac{\mu_0 J_0 r^2}{3R}
 $$
 
-To express in terms of $I$Find the total current:
+To express in terms of $I$ Find the total current:
 
 $$
 I = \frac{2\pi J_0 R^3}{3R} = \frac{2\pi J_0 R^2}{3} \implies J_0 = \frac{3I}{2\pi R^2}
@@ -36746,7 +36746,7 @@ $$
 V_L = L\frac{dI}{dt} = \mathcal{E} e^{-t/\tau_L}
 $$
 
-At $t = 0$All the voltage is across the inductor. At $t \to \infty$All the voltage is across the
+At $t = 0$ All the voltage is across the inductor. At $t \to \infty$ All the voltage is across the
 Resistor.
 
 ### LC Circuits
@@ -36780,7 +36780,7 @@ I(t) = -Q_0\omega\sin(\omega t + \phi) = -I_0\sin(\omega t + \phi)
 $$
 
 The charge and current oscillate $90°$ out of phase. Energy oscillates between the capacitor
-($U_C = Q^2/(2C)$) and the inductor ($U_L = LI^2/2$), with total energy conserved:
+($U_C = Q^2/(2C)$) and the inductor ($ U_L = LI^2/2$), with total energy conserved:
 
 $$
 U_{\text{total} = \frac{Q_0^2}{2C} = \frac{1}{2}LI_0^2
@@ -36851,7 +36851,7 @@ $$
 \Phi_E = E \cdot \pi r^2 = \frac{V}{d}\pi r^2
 $$
 
-Since $V = Q/C = Qd/(\epsilon_0 A)$We have $E = Q/(\epsilon_0 A)$ So
+Since $V = Q/C = Qd/(\epsilon_0 A)$ We have $E = Q/(\epsilon_0 A)$ So
 $\Phi_E = Q\pi r^2/(\epsilon_0 A)$.
 
 Apply Ampere-Maxwell law with a circular Amperian loop of radius $r$:
@@ -36880,7 +36880,7 @@ Magnetism is **electricity in motion**, moving charges create magnetic fields, a
 
 ## Common Pitfalls
 
-1. **Wrong direction for the magnetic force.** Use $\vec{F} = q\vec{v} \times \vec{B}$Not
+1. **Wrong direction for the magnetic force.** Use $\vec{F} = q\vec{v} \times \vec{B}$ Not
    $\vec{B} \times \vec{v}$. The cross product is not commutative. For negative charges, reverse the
    direction.
 2. **Confusing Gauss's law for magnetism with Gauss's law for electricity.**
@@ -36899,7 +36899,7 @@ Magnetism is **electricity in motion**, moving charges create magnetic fields, a
    coil to its own changing current. Mutual inductance $M$ relates the EMF in one coil to the
    changing current in another coil.
 7. **Incorrectly computing flux for non-perpendicular fields.** When $\vec{B}$ is not perpendicular
-   to the surface, use $\Phi_B = BA\cos\theta$Not $BA$. The angle $\theta$ is between $\vec{B}$ and
+   to the surface, use $\Phi_B = BA\cos\theta$ Not $BA$. The angle $\theta$ is between $\vec{B}$ and
    the surface normal.
 8. **Forgetting the displacement current in Ampere-Maxwell law.** When applying Ampere's law between
    capacitor plates (or in any region where $d\vec{E}/dt \neq 0$), you must include the displacement
@@ -36920,7 +36920,7 @@ Magnetism is **electricity in motion**, moving charges create magnetic fields, a
    field inside and the inductance if the cross-sectional area is $4 \times 10^{-4}$ m$^2$.
 
 4. A square loop of side $0.2$ m is in a magnetic field $B = 0.5$ T perpendicular to the loop. The
-   field decreases to zero in $0.1$ s. If the loop has resistance $2\,\Omega$Find the induced
+   field decreases to zero in $0.1$ s. If the loop has resistance $2\,\Omega$ Find the induced
    current and the energy dissipated.
 
 5. An RL circuit has $R = 50\,\Omega$ and $L = 0.2$ H connected to a $12$ V battery. Find (a) the
@@ -37019,7 +37019,7 @@ $$
 <summary>Question 9: AP Exam-Style -- RL circuit analysis</summary>
 
 An RL circuit with $R = 100\,\Omega$ and $L = 0.5$ H is connected to a DC source of
-$\mathcal{E} = 20$ V. At $t = 0$The switch is closed. (a) Derive the current as a function of time.
+$\mathcal{E} = 20$ V. At $t = 0$ The switch is closed. (a) Derive the current as a function of time.
 (b) At what time is The current increasing at half its initial rate? (c) How much energy has been
 stored in the inductor When the current reaches 80% of its maximum value?
 
@@ -37218,7 +37218,7 @@ This is the constant force that would produce the same impulse over the same tim
 
 <Aside type="note" title="Example">
 A $0.15 \mathrm{ kg$ baseball pitched at $40 \mathrm{ m/s$ is hit back at $50 \mathrm{ m/s$ in The
-opposite direction. If the bat is in contact with the ball for $2.0 \mathrm{ ms$Find the Average
+opposite direction. If the bat is in contact with the ball for $2.0 \mathrm{ ms$ Find the Average
 force exerted by the bat.
 
 Take the initial direction as positive.
@@ -37231,11 +37231,11 @@ $$
 F_\{\mathrm\{avg\} = \frac\{J\}\{\Delta t\} = \frac\{-13.5\}\{0.002\} = -6750 \mathrm\{ N
 $$
 
-The magnitude is $6750 \mathrm{ N$Directed opposite to the initial pitch.
+The magnitude is $6750 \mathrm{ N$ Directed opposite to the initial pitch.
 
 ### Why Increasing Contact Time Reduces Force
 
-For a given change in momentum $\Delta p$The average force is inversely proportional to the Contact
+For a given change in momentum $\Delta p$ The average force is inversely proportional to the Contact
 time: $F = \Delta p / \Delta t$. This is the principle behind all safety devices: seat Belts, air
 bags, crumple zones, and crash mats all increase the time over which the momentum Changes, thereby
 reducing the peak force on the body.
@@ -37526,7 +37526,7 @@ Momentum is the **conserved quantity of motion**, and it's conserved more often 
 ## Practice Questions
 
 1. A $0.50 \mathrm{ kg$ ball hits a wall at $10 \mathrm{ m/s$ and rebounds at $8.0 \mathrm{ m/s$. If
-   the contact time is $0.020 \mathrm{ s$Find the average force on the ball.
+   the contact time is $0.020 \mathrm{ s$ Find the average force on the ball.
 
 2. A $10 \mathrm{ g$ bullet embeds in a $2.0 \mathrm{ kg$ wooden block on a frictionless surface.
    The block then slides into a spring ($k = 200 \mathrm{ N/m$) and compresses it $5.0 \mathrm{ cm$.
@@ -37679,7 +37679,7 @@ Conserved during the upward swing (only gravity does work).
 
 ### Worked Example: CM of a Non-Uniform Rod
 
-A thin rod of length $L$ and mass $M$ has linear mass density $\lambda(x) = \lambda_0 x/L$Where $x$
+A thin rod of length $L$ and mass $M$ has linear mass density $\lambda(x) = \lambda_0 x/L$ Where $x$
 is the distance from one end. Find the center of mass.
 
 $$
@@ -37695,7 +37695,7 @@ Mass is concentrated toward the heavier end.
 
 ### Worked Example: CM of an L-Shaped Object
 
-Two uniform rods, each of mass $M$ and length $L$Are joined at right angles to form an L shape. Find
+Two uniform rods, each of mass $M$ and length $L$ Are joined at right angles to form an L shape. Find
 the center of mass.
 
 Take the origin at the corner. Rod 1 lies along the positive $x$-axis with CM at $(L/2, 0)$. Rod 2
@@ -37755,7 +37755,7 @@ Load.
 
 1. A $0.05 \mathrm{ kg$ tennis ball hits a racket at $20 \mathrm{ m/s$ and rebounds at
     $25 \mathrm{ m/s$ at an angle of $30^{\circ}$ from the original direction. If the contact time
-    is $5 \mathrm{ ms$Find the average force exerted by the racket.
+    is $5 \mathrm{ ms$ Find the average force exerted by the racket.
 
 2. A $5 \mathrm{ kg$ object moving at $8 \mathrm{ m/s$ collides with a $3 \mathrm{ kg$ object
     moving at $4 \mathrm{ m/s$ in the same direction. After the collision, the $5 \mathrm{ kg$
@@ -37921,7 +37921,7 @@ $$
 V_{\mathrm{top} = 17.9 \mathrm{ m/s
 $$
 
-Since $V_{\mathrm{top} \gt 0$The block completes full circles. The string remains taut at the top
+Since $V_{\mathrm{top} \gt 0$ The block completes full circles. The string remains taut at the top
 If:
 
 $$
@@ -38061,7 +38061,7 @@ Conserved.
 
 A rocket ejects fuel at a rate of $100 \mathrm{ kg/s$ with an exhaust velocity of
 $3000 \mathrm{ m/s$ relative to the rocket. If the rocket has an initial mass of
-$50,000 \mathrm{ kg$What is the initial thrust and initial acceleration?
+$50,000 \mathrm{ kg$ What is the initial thrust and initial acceleration?
 
 </details>
 
@@ -38321,7 +38321,7 @@ The block slide?
 **Maximum static friction:**
 $f_{s,\max} = \mu_s N = 0.4 \times 5.0 \times 9.8 \times \cos 30^\circ = 0.4 \times 42.4 = 17.0 \mathrm{ N$.
 
-Since $mg\sin\theta = 24.5 \mathrm{ N \gt f_{s,\max} = 17.0 \mathrm{ N$The block slides.
+Since $mg\sin\theta = 24.5 \mathrm{ N \gt f_{s,\max} = 17.0 \mathrm{ N$ The block slides.
 
 **Kinetic friction:** $f_k = 0.3 \times 42.4 = 12.7 \mathrm{ N$.
 
@@ -38412,7 +38412,7 @@ $$
 
 ### Banked Curves
 
-On a banked curve of angle $\theta$ and radius $r$The ideal speed (at which no friction is Required)
+On a banked curve of angle $\theta$ and radius $r$ The ideal speed (at which no friction is Required)
 is:
 
 $$
@@ -38540,7 +38540,7 @@ Newton's laws answer the question **why do objects move the way they do?** The k
    acceleration if the block is given an initial push up the incline.
 
 5. A satellite orbits Earth at an altitude of $400 \mathrm{ km$. Find the orbital velocity and
-   period. (Earth's mass = $5.97 \times 10^{24} \mathrm{ kg$Earth's radius = $6371 \mathrm{ km$.)
+   period. (Earth's mass = $5.97 \times 10^{24} \mathrm{ kg$ Earth's radius = $6371 \mathrm{ km$.)
 
 6. A $1500 \mathrm{ kg$ car rounds a banked curve of radius 100 m at $20 \mathrm{ m/s$. The banking
    angle is $15^\circ$. Find the minimum coefficient of static friction.
@@ -38555,7 +38555,7 @@ Newton's laws answer the question **why do objects move the way they do?** The k
    frictionless. Find the acceleration of the wedge relative to the ground.
 
 10. A $2000 \mathrm{ kg$ car towing a $1000 \mathrm{ kg$ trailer accelerates at
-    $1.5 \mathrm{ m/s^2$. If the tension in the tow bar is $1800 \mathrm{ N$Find the friction force
+    $1.5 \mathrm{ m/s^2$. If the tension in the tow bar is $1800 \mathrm{ N$ Find the friction force
     on the car.
 
 ## 10. Friction: A Deeper Look
@@ -38580,7 +38580,7 @@ $$
 \theta_r = \arctan(\mu_s)
 $$
 
-This is because the block is on the point of sliding when $mg\sin\theta = \mu_s mg\cos\theta$I.e.,
+This is because the block is on the point of sliding when $mg\sin\theta = \mu_s mg\cos\theta$ I.e.,
 $\tan\theta = \mu_s$. This relationship is used in geology to predict landslides and in industry to
 Design hoppers and chutes.
 
@@ -38630,7 +38630,7 @@ For the string between $m_1$ and $m_2$ on the table: $T' = m_2 a = 6 \times 3.27
 
 Note that the tension in the string connecting to the hanging mass ($32.7 \mathrm{ N$) is greater
 Than the tension in the string between $m_1$ and $m_2$ ($19.6 \mathrm{ N$), because the latter
-string Only needs to accelerate $m_2$While the former must also provide the net force to accelerate
+string Only needs to accelerate $m_2$ While the former must also provide the net force to accelerate
 $m_3$.
 
 ## 12. Gravitational Field Strength: Derivation of Key Results
@@ -38648,7 +38648,7 @@ $g = \frac{GM}{4R_E^2} = \frac{g_0}{4} \approx 2.45 \mathrm{ m/s^2$.
 
 This rapid decrease is why astronauts in low Earth orbit (altitude about 400 km) are not truly
 Weightless because of distance from Earth -- they are weightless because they are in free fall. The
-Gravitational field strength at 400 km altitude is $g \approx 8.7 \mathrm{ m/s^2$About 89% of the
+Gravitational field strength at 400 km altitude is $g \approx 8.7 \mathrm{ m/s^2$ About 89% of the
 Surface value.
 
 ### Gravitational Field Strength Inside a Uniform Sphere
@@ -38715,7 +38715,7 @@ circular Orbit: $\frac{1}{2}mv_e^2 = 2 \times \frac{1}{2}mv_{\mathrm{orbit}^2$.
 ## 15. Common Pitfalls: Extended
 
 1. **Assuming the normal force equals $mg$ on an inclined plane.** The normal force is
-    $mg\cos\theta$Not $mg$. Always resolve forces perpendicular to the surface.
+    $mg\cos\theta$ Not $mg$. Always resolve forces perpendicular to the surface.
 
 2. **Forgetting that tension has a maximum value.** A string can only pull, not push. If the
     calculated tension is negative, the string has gone slack and the tension is zero.
@@ -38846,7 +38846,7 @@ $$
 
 **Step 2: Time constant**
 
-The equation of motion is $ma = mg - bv$Which gives:
+The equation of motion is $ma = mg - bv$ Which gives:
 
 $$
 v(t) = v_T(1 - e^{-t/\tau})
@@ -38966,7 +38966,7 @@ $mg\sin\theta = 5 \times 9.8 \times \sin(30^\circ) = 24.5 \mathrm{ N$.
 Maximum static friction:
 $f_s = \mu_s N = 0.4 \times 5 \times 9.8 \times \cos(30^\circ) = 0.4 \times 42.4 = 17.0 \mathrm{ N$.
 
-Since $24.5 \mathrm{ N > 17.0 \mathrm{ N$The block slides.
+Since $24.5 \mathrm{ N > 17.0 \mathrm{ N$ The block slides.
 
 Kinetic friction: $f_k = \mu_k N = 0.3 \times 42.4 = 12.7 \mathrm{ N$.
 
@@ -39002,7 +39002,7 @@ $826 \mathrm{ N$ (about $119\%$ of actual weight).
 <details>
 <summary>Question 3: Connected masses with friction</summary>
 
-Two blocks, $m_1 = 4 \mathrm{ kg$ and $m_2 = 6 \mathrm{ kg$Are connected by a string over a
+Two blocks, $m_1 = 4 \mathrm{ kg$ and $m_2 = 6 \mathrm{ kg$ Are connected by a string over a
 frictionless pulley. $m_1$ rests on a horizontal table with $\mu_k = 0.2$ And $m_2$ hangs vertically.
 Find the acceleration and the tension in the string.
 
@@ -39025,7 +39025,7 @@ $T = m_1 a + \mu_k m_1 g = 4(5.10) + 0.2(4)(9.8) = 20.4 + 7.84 = 28.2 \mathrm{ N
 <summary>Question 4: Circular motion on a banked curve</summary>
 
 A curve of radius $50 \mathrm{ m$ is banked at $15^\circ$. At what speed can a car negotiate this
-curve without relying on friction? If the car travels at $20 \mathrm{ m/s$What minimum coefficient
+curve without relying on friction? If the car travels at $20 \mathrm{ m/s$ What minimum coefficient
 of friction is required?
 
 </details>
@@ -39037,7 +39037,7 @@ Without friction:
 $v^2 = rg\tan\theta = 50 \times 9.8 \times \tan(15^\circ) = 50 \times 9.8 \times 0.268 = 131.3$.
 $v = 11.5 \mathrm{ m/s$.
 
-At $20 \mathrm{ m/s$Friction must provide additional centripetal force. The horizontal component of
+At $20 \mathrm{ m/s$ Friction must provide additional centripetal force. The horizontal component of
 normal force provides: $N\sin\theta = mv^2/r - f\cos\theta$. The vertical:
 $N\cos\theta + f\sin\theta = mg$.
 
@@ -39204,8 +39204,8 @@ Regardless of the direction of motion.
 
 | Object                          | Axis                         | Moment of Inertia  |
 | ------------------------------- | ---------------------------- | ------------------ |
-| Thin rod, length $L$Mass $M$    | Center, perpendicular to rod | $\frac{1}{12}ML^2$ |
-| Thin rod, length $L$Mass $M$    | End, perpendicular to rod    | $\frac{1}{3}ML^2$  |
+| Thin rod, length $L$ Mass $M$    | Center, perpendicular to rod | $\frac{1}{12}ML^2$ |
+| Thin rod, length $L$ Mass $M$    | End, perpendicular to rod    | $\frac{1}{3}ML^2$  |
 | Solid cylinder/disk, radius $R$ | Central axis                 | $\frac{1}{2}MR^2$  |
 | Hollow cylinder, radius $R$     | Central axis                 | $MR^2$             |
 | Solid sphere, radius $R$        | Diameter                     | $\frac{2}{5}MR^2$  |
@@ -39214,7 +39214,7 @@ Regardless of the direction of motion.
 
 ### Derivation: Moment of Inertia of a Solid Cylinder
 
-Consider a solid cylinder of mass $M$Radius $R$ And length $L$Rotating about its central axis. Divide
+Consider a solid cylinder of mass $M$ Radius $R$ And length $L$ Rotating about its central axis. Divide
 the cylinder into thin cylindrical shells of radius $r$ and thickness $dr$.
 
 $$
@@ -39426,7 +39426,7 @@ $$
 \vec{\tau} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ r_x & r_y & r_z \\ F_x & F_y & F_z \end{vmatrix}
 $$
 
-The magnitude: $\tau = rF\sin\theta$Where $\theta$ is the angle from $\vec{r}$ to $\vec{F}$.
+The magnitude: $\tau = rF\sin\theta$ Where $\theta$ is the angle from $\vec{r}$ to $\vec{F}$.
 
 The direction is determined by the right-hand rule.
 
@@ -39493,7 +39493,7 @@ Rotational motion is the **mirror image of linear motion**, every linear concept
    from the axis).
 3. **Forgetting that angular momentum is a vector.** Direction matters and is determined by the
    right-hand rule.
-4. **Incorrectly applying the rolling condition.** Rolling without slipping means $v = R\omega$Not
+4. **Incorrectly applying the rolling condition.** Rolling without slipping means $v = R\omega$ Not
    $v = R\alpha$.
 5. **Not accounting for rotational KE in energy problems.** Rolling objects have both translational
    and rotational kinetic energy.
@@ -39534,7 +39534,7 @@ Rotational motion is the **mirror image of linear motion**, every linear concept
 8. Derive the parallel axis theorem from the definition of moment of inertia.
 
 9. A solid sphere rolls without slipping up a $20^\circ$ incline. If its initial speed is
-   $5.0 \mathrm{ m/s$How far up the incline does it travel before stopping and rolling back?
+   $5.0 \mathrm{ m/s$ How far up the incline does it travel before stopping and rolling back?
 
 10. A flywheel of moment of inertia $50 \mathrm{ kg \cdot \mathrm{m^2$ rotating at
     $300 \mathrm{ rpm$ is brought to rest by a constant frictional torque of
@@ -39576,7 +39576,7 @@ $$
 
 ### Derivation: Thin Rod About One End
 
-A thin uniform rod of mass $M$ and length $L$Pivoted at one end.
+A thin uniform rod of mass $M$ and length $L$ Pivoted at one end.
 
 $$
 I = \int_0^L x^2 \frac{M}{L}\, dx = \frac{M}{L}\left[\frac{x^3}{3}\right]_0^L = \frac{ML^2}{3}
@@ -39591,7 +39591,7 @@ Confirmed.
 ### Worked Example: Race Down an Incline
 
 A solid sphere, a solid cylinder, a hollow sphere, and a hollow cylinder, all of mass $M$ and radius
-$R$Are released from rest at the top of an incline of height $h$. Rank them by their speed at the
+$R$ Are released from rest at the top of an incline of height $h$. Rank them by their speed at the
 Bottom.
 
 | Object          | $I_{\mathrm{cm}$  | $v$ at bottom   | Fraction as KE of translation |
@@ -39714,7 +39714,7 @@ $$
 
 **Check slipping:** $f_{\max} = \mu_s N_f = 0.4 \times 147 = 58.8 \mathrm{ N$
 
-Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$The ladder does not slip.
+Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$ The ladder does not slip.
 
 ## 15. Summary Table: Linear vs Rotational Quantities
 
@@ -39786,7 +39786,7 @@ $$
 \omega_p = \frac{\tau}{L} = \frac{2.94}{12.25} = 0.240 \mathrm{ rad/s
 $$
 
-The wheel precesses at $0.240 \mathrm{ rad/s$Completing one revolution in
+The wheel precesses at $0.240 \mathrm{ rad/s$ Completing one revolution in
 $T = 2\pi/\omega_p = 26.2 \mathrm{ s$.
 
 :::note
@@ -39828,7 +39828,7 @@ $$
 I_a = I_b + M_{\mathrm{total}d^2 = 3 + 5 \times 1^2 = 8 \mathrm{ kg\cdot\mathrm{m^2
 $$
 
-Wait -- this gives $8$Not $4$. Let me recheck. The parallel axis theorem requires the total mass To
+Wait -- this gives $8$ Not $4$. Let me recheck. The parallel axis theorem requires the total mass To
 be at the centre of mass of the _entire system_, not just the rod.
 
 **Centre of mass from the pivot (end with point mass):**
@@ -39854,7 +39854,7 @@ Correct.
 And $I_a$ directly: rod about its far end (away from point mass): use parallel axis from centre,
 $I_{\mathrm{rod, end} = \frac{1}{12}(3)(4) + 3(1)^2 = 1 + 3 = 4$. Point mass at distance
 $2 \mathrm{ m$: $I_{\mathrm{pm} = 2 \times 4 = 8$. Wait -- the point mass is at the pivot, so
-$r = 0$Giving $I_a = 4 + 0 = 4$.
+$r = 0$ Giving $I_a = 4 + 0 = 4$.
 
 The parallel axis check failed because I was not careful. The correct check: $I_{\mathrm{cm} = 3$
 About the centre of mass at $0.6 \mathrm{ m$ from pivot, so $I_a = 3 + 5(0.6)^2 = 3 + 1.8 = 4.8$.
@@ -39871,7 +39871,7 @@ Point.
 
 ### Example 18: Yo-Yo Problem
 
-A yo-yo consists of two disks of total mass $0.1 \mathrm{ kg$ and radius $3 \mathrm{ cm$With an Axle
+A yo-yo consists of two disks of total mass $0.1 \mathrm{ kg$ and radius $3 \mathrm{ cm$ With an Axle
 of radius $0.5 \mathrm{ cm$. The string unwinds from the axle. Find the acceleration of the Yo-yo as
 it falls and the tension in the string.
 
@@ -39879,7 +39879,7 @@ it falls and the tension in the string.
 
 Translation: $mg - T = ma$
 
-Rotation: $TR = I\alpha$Where $R$ is the axle radius and $a = R\alpha$.
+Rotation: $TR = I\alpha$ Where $R$ is the axle radius and $a = R\alpha$.
 
 $$
 T \times 0.005 = I \times \frac{a}{0.005}
@@ -39928,7 +39928,7 @@ The contact point (instantaneously at rest).
 ### Pitfall 8: Forgetting Units in Moment of Inertia
 
 Moment of inertia has units of $\mathrm{kg\cdot\mathrm{m^2$. A common error is to use centimetres
-Instead of metres when calculating $I = mr^2$Giving answers that are off by a factor of $10^4$.
+Instead of metres when calculating $I = mr^2$ Giving answers that are off by a factor of $10^4$.
 Always convert to SI units before calculating.
 
 ## Additional Practice Problems
@@ -40139,7 +40139,7 @@ The work done by a variable force equals the area under the force-vs-displacemen
 From $W = Fd$:
 $[W] = \mathrm\{N \cdot \mathrm\{m = (\mathrm\{kg \cdot \mathrm\{m/s^2) \cdot \mathrm\{m =
 \mathrm\{kg \cdot \mathrm\{m^2/\mathrm\{s^2$.
-This is the same as the dimensions of kinetic energy $\frac{1}{2}mv^2$Confirming that work and
+This is the same as the dimensions of kinetic energy $\frac{1}{2}mv^2$ Confirming that work and
 Energy are the same physical quantity.
 
 <Aside type="note" title="Example">
@@ -40295,7 +40295,7 @@ Where $W_{\mathrm{nc}$ is the work done by non-conservative forces (like frictio
 </Aside>
 
 <Aside type="note" title="Example">
-A roller coaster car starts from rest at height $h = 20 \mathrm{ m$Goes through a loop of radius
+A roller coaster car starts from rest at height $h = 20 \mathrm{ m$ Goes through a loop of radius
 $6.0 \mathrm{ m$ And reaches a second hill of height $12 \mathrm{ m$. Find the speed at the top Of
 the loop (neglecting friction).
 
@@ -40381,7 +40381,7 @@ $$
 A potential energy diagram plots $U(x)$ vs $x$. From this, we can determine:
 
 - **Force:** $\displaystyle F(x) = -\frac{dU}{dx}$
-- **Equilibrium points:** Where $F(x) = 0$I.e., $\frac{dU}{dx} = 0$
+- **Equilibrium points:** Where $F(x) = 0$ I.e., $\frac{dU}{dx} = 0$
 - **Stable equilibrium:** Local minimum of $U$ ($\frac{d^2U}{dx^2} \gt 0$)
 - **Unstable equilibrium:** Local maximum of $U$ ($\frac{d^2U}{dx^2} \lt 0$)
 - **Neutral equilibrium:** Flat region of $U$
@@ -40410,7 +40410,7 @@ $$
 ### Total Energy on a Potential Energy Diagram
 
 On a potential energy diagram, the total energy $E = K + U$ is a horizontal line. The kinetic energy
-At any point is $K = E - U$. Motion is only possible where $K \ge 0$I.e., $E \ge U$. The object
+At any point is $K = E - U$. Motion is only possible where $K \ge 0$ I.e., $E \ge U$. The object
 Oscillates between the "turning points" where $E = U$ (and $K = 0$).
 
 ## Escape Velocity
@@ -40488,7 +40488,7 @@ Work, energy, and power provide a **scalar alternative to vector-based force ana
    does $-5.0 \mathrm{ J$ of work, find the maximum height.
 
 6. A car of mass $1500 \mathrm{ kg$ travels at constant speed $20 \mathrm{ m/s$ up a $10^\circ$
-   incline. If the engine produces $50 \mathrm{ kW$Find the frictional force.
+   incline. If the engine produces $50 \mathrm{ kW$ Find the frictional force.
 
 7. A satellite in circular orbit at altitude $500 \mathrm{ km$ needs to escape Earth. What
    additional speed must it acquire?
@@ -40516,7 +40516,7 @@ $$
 
 The negative sign indicates the spring force opposes the displacement. The magnitude of work done
 _by_ the spring is $2.25 \mathrm{ J$ And the work done _on_ the spring (by the external agent) is
-$+2.25 \mathrm{ J$Which is stored as elastic potential energy.
+$+2.25 \mathrm{ J$ Which is stored as elastic potential energy.
 
 ### Worked Example: Non-Linear Force
 
@@ -40668,11 +40668,11 @@ Difficulty of climbing even a modest gradient.
 ## 16. Common Pitfalls: Extended
 
 1. **Using the wrong sign for work done by gravity.** When an object moves down, gravity does
-   positive work ($W_g = +mg\Delta h$Where $\Delta h$ is negative if up is positive). When an object
+   positive work ($W_g = +mg\Delta h$ Where $\Delta h$ is negative if up is positive). When an object
    moves up, gravity does negative work. Be careful with sign conventions.
 
 2. **Confusing the reference level for gravitational PE.** The choice of $h = 0$ is arbitrary. What
-    matters is the _change_ in height, $\Delta h$Not the absolute height.
+    matters is the _change_ in height, $\Delta h$ Not the absolute height.
 
 3. **Applying $U = mgh$ when the height change is a significant fraction of the distance from
     Earth's centre.** Use $U = -GMm/r$ for large altitude changes.
@@ -40973,7 +40973,7 @@ Your answer in terms of $R$.
 <summary>Answer</summary>
 
 At the top of the loop, the minimum condition is that the normal force is zero, so centripetal
-Acceleration is provided entirely by gravity: $mg = mv_{\mathrm{top}^2/R$Giving
+Acceleration is provided entirely by gravity: $mg = mv_{\mathrm{top}^2/R$ Giving
 $v_{\mathrm{top}^2 = gR$.
 
 Energy conservation from start to top of loop (height $2R$):

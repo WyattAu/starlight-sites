@@ -73,7 +73,7 @@ Two routes from elements to ionic solid:
 6. Second electron affinity of O: $+798$
 7. Lattice energy (LE): $\Delta H_{\text{latt}}$
 
-By Hess"s law: Route 1 = Route 2
+By Hess's law: Route 1 = Route 2
 
 $$
 -602 = 148 + 249 + 738 + 1451 - 141 + 798 + \Delta H_{\text{latt}}
@@ -241,7 +241,7 @@ $\Delta H^\circ = -198\,\text{kJ mol}^{-1}$, $\Delta S^\circ = -190\,\text{J K}^
 
 (a) Calculate the temperature above which the reaction is no longer thermodynamically feasible.
 
-(b) Given that industrial conditions use $400$--$450\,^\circ\text{C}$Explain why this temperature
+(b) Given that industrial conditions use $400$--$450\,^\circ\text{C}$ Explain why this temperature
 range is chosen despite the thermodynamic considerations.
 
 (c) Calculate $\Delta G^\circ$ at $700\,\text{K}$ and hence calculate $K_p$ at this temperature.
@@ -320,7 +320,7 @@ The entropy change involves competing factors:
 - **Negative contribution:** Water molecules become more ordered around the hydrated ions (water
   molecules orient their partial charges towards the ions, restricting their freedom)
 
-For $\text{NaCl}$The lattice breakdown slightly outweighs the ordering of water, giving a small
+For $\text{NaCl}$ The lattice breakdown slightly outweighs the ordering of water, giving a small
 positive $\Delta S$.
 
 For $\text{CaCO}_3$: $\text{CaCO}_3(s) \to \text{Ca}^{2+}(aq) + \text{CO}_3^{2-}(aq)$
@@ -378,7 +378,7 @@ $$
 \text{C}_2\text{H}_4(g) + \text{H}_2(g) \to \text{C}_2\text{H}_6(g) \quad \Delta H = -137\,\text{kJ mol}^{-1}
 $$
 
-Bond enthalpies: C$=$C $= 612$C--C $= 348$C--H $= 412$H--H $= 436$ (all in $\text{kJ mol}^{-1}$).
+Bond enthalpies: C$=$C $= 612$ C--C $= 348$ C--H $= 412$ H--H $= 436$ (all in $\text{kJ mol}^{-1}$).
 
 (a) Use bond enthalpies to estimate $\Delta H$ for this reaction and explain why it differs from the
 given value.

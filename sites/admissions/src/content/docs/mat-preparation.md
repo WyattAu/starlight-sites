@@ -86,7 +86,7 @@ mathematical Statement or computation with five options (A--E).
 Options can be eliminated immediately by dimensional analysis, symmetry considerations, or testing
 Special cases.
 
-**Test specific values.** If a statement claims a property holds for all $x$Test $x = 0$, $x = 1$ And
+**Test specific values.** If a statement claims a property holds for all $x$ Test $x = 0$, $x = 1$ And
 $x = -1$. If it fails for any of these, the statement is false.
 
 **Check edge cases.** For statements about functions, consider what happens at the boundaries of the
@@ -135,7 +135,7 @@ The discriminant of $ax^2 + bx + c = 0$ determines the nature of its roots:
 
 This form reveals the vertex, the minimum or maximum value, and the axis of symmetry.
 
-**Polynomial division.** When dividing $P(x)$ by $Q(x)$Write $P(x) = Q(x)D(x) + R(x)$ where
+**Polynomial division.** When dividing $P(x)$ by $Q(x)$ Write $P(x) = Q(x)D(x) + R(x)$ where
 $\deg R < \deg Q$.
 
 **Factor theorem applications.** If $P(a) = 0$ Then $(x - a)$ divides $P(x)$. This is frequently Used
@@ -146,7 +146,7 @@ to find roots of polynomials that arise from algebraic manipulation.
 **Function composition.** $(f \circ g)(x) = f(g(x))$. Note that composition is not commutative:
 $f \circ g \neq g \circ f$ .
 
-**Inverse functions.** $f^{-1}$ exists if and only if $f$ is bijective. To find $f^{-1}$Set
+**Inverse functions.** $f^{-1}$ exists if and only if $f$ is bijective. To find $f^{-1}$ Set
 $y = f(x)$ and solve for $x$ in terms of $y$.
 
 **Transformations.** The graph of $y = af(bx + c) + d$ is obtained from $y = f(x)$ by:
@@ -202,8 +202,8 @@ Powerful tools that frequently appear on MAT.
 **Quotient rule.**
 $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{g(x)^2}$.
 
-**Implicit differentiation.** When $y$ is defined implicitly by $F(x, y) = 0$Differentiate both
-Sides with respect to $x$Treating $y$ as a function of $x$:
+**Implicit differentiation.** When $y$ is defined implicitly by $F(x, y) = 0$ Differentiate both
+Sides with respect to $x$ Treating $y$ as a function of $x$:
 
 $$
 \frac{d}{dx}[F(x, y)] = \frac{\partial F}{\partial x} + \frac{\partial F}{\partial y}\frac{dy}{dx} = 0
@@ -272,17 +272,17 @@ The denominator: divide to find $f(x) = mx + c + \frac{r(x)}{s(x)}$.
 
 ### 5.1 Arithmetic Sequences
 
-The $n$-th term: $a_n = a_1 + (n-1)d$Where $d$ is the common difference.
+The $n$-th term: $a_n = a_1 + (n-1)d$ Where $d$ is the common difference.
 
 Sum of the first $n$ terms: $S_n = \frac{n}{2}(2a_1 + (n-1)d) = \frac{n}{2}(a_1 + a_n)$.
 
 ### 5.2 Geometric Sequences
 
-The $n$-th term: $a_n = a_1 r^{n-1}$Where $r$ is the common ratio.
+The $n$-th term: $a_n = a_1 r^{n-1}$ Where $r$ is the common ratio.
 
 Sum of the first $n$ terms: $S_n = \frac{a_1(1 - r^n)}{1 - r}$ for $r \neq 1$.
 
-Sum to infinity: $S_\infty = \frac{a_1}{1 - r}$Convergent for $|r| < 1$.
+Sum to infinity: $S_\infty = \frac{a_1}{1 - r}$ Convergent for $|r| < 1$.
 
 ### 5.3 Recurrence Relations
 
@@ -298,7 +298,7 @@ $$
 a_n = A r^{n-1} + \frac{c}{1 - r}
 $$
 
-For $r \neq 1$Where $A$ is determined by the initial condition.
+For $r \neq 1$ Where $A$ is determined by the initial condition.
 
 ### 5.4 Series Manipulation
 
@@ -309,7 +309,7 @@ $$
 $$
 
 **Method of differences.** If $a_k = f(k) - f(k-1)$ Then $\sum_{k=1}^{n} a_k = f(n) - f(0)$. The key
-is finding $f$ given $a_k$Often by partial fraction decomposition.
+is finding $f$ given $a_k$ Often by partial fraction decomposition.
 
 **Binomial expansion.** For $|x| < 1$ and $\alpha \in \mathbb{R}$:
 
@@ -361,13 +361,13 @@ $$
 
 ### 6.3 Proof Techniques
 
-**Direct proof.** Assume $P$Derive $Q$ through a sequence of logical steps.
+**Direct proof.** Assume $P$ Derive $Q$ through a sequence of logical steps.
 
 **Proof by contradiction.** Assume $\neg Q$ and derive a contradiction. This proves $Q$.
 
-**Proof by contrapositive.** To prove $P \implies Q$Prove $\neg Q \implies \neg P$ instead.
+**Proof by contrapositive.** To prove $P \implies Q$ Prove $\neg Q \implies \neg P$ instead.
 
-**Counterexample.** To disprove a universal statement $\forall x \, P(x)$Find a specific $x$ for
+**Counterexample.** To disprove a universal statement $\forall x \, P(x)$ Find a specific $x$ for
 Which $P(x)$ is false.
 
 **Mathematical induction.** To prove a statement for all $n \geq n_0$:
@@ -407,18 +407,18 @@ $$
 \frac{d}{dx}[f(f(x))] = f'(f(x)) \cdot f'(x)
 $$
 
-Stationary points occur where $f'(f(x)) \cdot f'(x) = 0$I.e., where $f'(x) = 0$ or $f'(f(x)) = 0$.
+Stationary points occur where $f'(f(x)) \cdot f'(x) = 0$ I.e., where $f'(x) = 0$ or $f'(f(x)) = 0$.
 
 First, $f'(x) = 3x^2 - 3 = 3(x+1)(x-1) = 0$ gives $x = -1$ or $x = 1$. These are 2 stationary
 points.
 
 Second, $f'(f(x)) = 0$ means $f(x) = -1$ or $f(x) = 1$.
 
-For $f(x) = -1$: $x^3 - 3x + 1 = -1$I.e., $x^3 - 3x + 2 = 0$. Since $x = 1$ is a root:
+For $f(x) = -1$: $x^3 - 3x + 1 = -1$ I.e., $x^3 - 3x + 2 = 0$. Since $x = 1$ is a root:
 $(x-1)(x^2 + x - 2) = (x-1)^2(x+2) = 0$. Roots: $x = 1$ (double), $x = -2$. The root $x = 1$ was
 Already counted, so this gives one new stationary point at $x = -2$.
 
-For $f(x) = 1$: $x^3 - 3x + 1 = 1$I.e., $x^3 - 3x = 0$I.e., $x(x^2 - 3) = 0$. Roots:
+For $f(x) = 1$: $x^3 - 3x + 1 = 1$ I.e., $x^3 - 3x = 0$ I.e., $x(x^2 - 3) = 0$. Roots:
 $x = 0, x = \sqrt{3}, x = -\sqrt{3}$. These are all new stationary points.
 
 Total: $2 + 1 + 3 = 6$ stationary points.
@@ -443,7 +443,7 @@ Total: $2 + 1 + 3 = 6$ stationary points.
 **Solution.**
 
 **(i)** By Fermat's little theorem, for any integer $n$ not divisible by 5, $n^4 \equiv 1 \pmod{5}$
-So $n^5 \equiv n \pmod{5}$Giving $n^5 - n \equiv 0 \pmod{5}$.
+So $n^5 \equiv n \pmod{5}$ Giving $n^5 - n \equiv 0 \pmod{5}$.
 
 Alternatively, by factorisation:
 
@@ -504,7 +504,7 @@ $$
 \frac{d^2y}{dx^2} = \frac{d}{dx}\left[\frac{x^2 - 2x}{(x-1)^2}\right]
 $$
 
-At $x = 0$The numerator $x^2 - 2x$ changes from positive (for $x < 0$) to negative (for
+At $x = 0$ The numerator $x^2 - 2x$ changes from positive (for $x < 0$) to negative (for
 $0 < x < 1$), So $\frac{dy}{dx}$ changes from positive to negative. Hence $(0, 0)$ is a local
 maximum.
 
@@ -523,7 +523,7 @@ As $x \to \pm\infty$, $\frac{1}{x-1} \to 0$ So $y \approx x + 1$. The oblique as
 
 - Domain: $x \neq 1$
 - Intercepts: $(0, 0)$
-- Stationary points: local maximum at $(0, 0)$Local minimum at $(2, 4)$
+- Stationary points: local maximum at $(0, 0)$ Local minimum at $(2, 4)$
 - Vertical asymptote: $x = 1$
 - Oblique asymptote: $y = x + 1$
 - As $x \to 1^+$, $y \to +\infty$; as $x \to 1^-$, $y \to -\infty$
@@ -610,7 +610,7 @@ $\sum_{k=1}^{\infty} \frac{k}{2^k} = \lim_{n \to \infty} S_n = \lim_{n \to \inft
 > $x, y \in \mathbb{R}$ and $f(xy) = f(x)f(y)$ for all $x, y \in \mathbb{R}$.
 >
 > (i) Find $f(0)$ and $f(1)$. (ii) Show that $f(n) = n f(1)$ for all $n \in \mathbb{Z}$. (iii) Show
-> that either $f(x) = x$ for all $x \in \mathbb{R}$Or $f(x) = 0$ for all $x \in \mathbb{R}$.
+> that either $f(x) = x$ for all $x \in \mathbb{R}$ Or $f(x) = 0$ for all $x \in \mathbb{R}$.
 
 **Solution.**
 
@@ -618,12 +618,12 @@ $\sum_{k=1}^{\infty} \frac{k}{2^k} = \lim_{n \to \infty} S_n = \lim_{n \to \inft
 
 Setting $y = 1$: $f(x) = f(x) + f(1)$ So $f(1) = 0$.
 
-Wait: $f(x \cdot 1) = f(x)f(1)$. Since $f(x \cdot 1) = f(x)$We have $f(x) = f(x)f(1)$ for all $x$.
+Wait: $f(x \cdot 1) = f(x)f(1)$. Since $f(x \cdot 1) = f(x)$ We have $f(x) = f(x)f(1)$ for all $x$.
 This means $f(x)(1 - f(1)) = 0$ for all $x$.
 
-Case 1: $f(1) \neq 1$. Then $f(x) = 0$ for all $x$Which satisfies both conditions.
+Case 1: $f(1) \neq 1$. Then $f(x) = 0$ for all $x$ Which satisfies both conditions.
 
-Case 2: $f(1) = 1$. Then from $f(1) = 1$Setting $x = y = 0$ in the additive property gives
+Case 2: $f(1) = 1$. Then from $f(1) = 1$ Setting $x = y = 0$ in the additive property gives
 $f(0) = 0$.
 
 **(ii)** In Case 2 ($f(1) = 1$):
@@ -645,7 +645,7 @@ $$
 f\left(\frac{p}{q}\right) = f\left(\frac{p}{q}\right)
 $$
 
-Since $f(q \cdot \frac{p}{q}) = f(q)f(\frac{p}{q})$ and $f(p) = p$We get
+Since $f(q \cdot \frac{p}{q}) = f(q)f(\frac{p}{q})$ and $f(p) = p$ We get
 $p = q \cdot f(\frac{p}{q})$ So $f(\frac{p}{q}) = \frac{p}{q}$.
 
 For $x > 0$: $f(x) = f(\sqrt{x} \cdot \sqrt{x}) = f(\sqrt{x})^2 \geq 0$.

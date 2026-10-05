@@ -410,9 +410,9 @@ $\mathrm{H^+}$ is buffered by haemoglobin (the Bohr effect).
 
 Changes in ventilation rate can compensate for pH disturbances:
 
-- **Respiratory acidosis** (high $p\mathrm{CO_2}$Low pH): increased ventilation rate removes
+- **Respiratory acidosis** (high $p\mathrm{CO_2}$ Low pH): increased ventilation rate removes
   $\mathrm{CO_2}$ from the blood, shifting the equilibrium to the left and raising pH.
-- **Respiratory alkalosis** (low $p\mathrm{CO_2}$High pH, e.g., due to hyperventilation): decreased
+- **Respiratory alkalosis** (low $p\mathrm{CO_2}$ High pH, e.g., due to hyperventilation): decreased
   ventilation rate allows $\mathrm{CO_2}$ to accumulate, shifting the equilibrium to the right and
   lowering pH.
 
@@ -459,7 +459,7 @@ supplying the skin surface, reducing blood flow near the skin and minimising hea
 insulating layer of air; (3) **shivering**, where skeletal muscles contract and relax rapidly,
 generating heat from increased metabolic activity; (4) increased secretion of **thyroxine** from the
 thyroid gland, raising the basal metabolic rate and increasing heat production from cellular
-respiration. As body temperature returns towards $37\ ^\circ\mathrm{C}$The thermoreceptors send
+respiration. As body temperature returns towards $37\ ^\circ\mathrm{C}$ The thermoreceptors send
 fewer impulses, reducing the hypothalamic response (negative feedback).
 
 <b>If you get this wrong, revise:</b> [Response to Cold](#32-response-to-cold-below-set-point)
@@ -569,7 +569,7 @@ the tip of the medulla. This gradient is essential for water reabsorption from t
 deeper into the medulla, the increasing osmolarity of the interstitial fluid draws water out by
 osmosis. The filtrate becomes progressively more concentrated.
 
-**Ascending limb**: impermeable to water, actively transports $\mathrm{Na^+}$, $\mathrm{K^+}$And
+**Ascending limb**: impermeable to water, actively transports $\mathrm{Na^+}$, $\mathrm{K^+}$ And
 $\mathrm{Cl^-}$ out of the filtrate (via the $\mathrm{Na^+/K^+/2Cl^-}$ co-transporter in the thick
 segment). This dilutes the filtrate and adds ions to the medullary interstitial fluid, maintaining
 the osmotic gradient.
@@ -832,7 +832,7 @@ release (hormonal) from the posterior pituitary.
 - **Risk factors**: obesity (especially visceral fat), sedentary lifestyle, diet high in refined
   carbohydrates, age, family history, ethnicity (higher risk in South Asian, Afro-Caribbean
   populations).
-- **Mechanism**: excess adipose tissue releases pro-inflammatory cytokines (TNF-$\alpha$IL-6) and
+- **Mechanism**: excess adipose tissue releases pro-inflammatory cytokines (TNF-$\alpha$ IL-6) and
   free fatty acids, which interfere with insulin receptor signalling. The $\mathrm{PI3K}$ pathway is
   disrupted, reducing GLUT4 translocation to the cell membrane.
 - **Treatment**: lifestyle changes (diet, exercise), oral medication (metformin reduces hepatic
@@ -984,7 +984,7 @@ connected to the hypothalamus by the infundibulum (pituitary stalk).
    process the information and secrete insulin directly.
 3. **Effector response**: insulin stimulates glucose uptake (GLUT4 translocation), glycogen
    synthesis, glycolysis, and lipogenesis in target cells.
-4. **Negative feedback**: as blood glucose falls back towards 90 $\mathrm{mg\ dL^{-1}}$The stimulus
+4. **Negative feedback**: as blood glucose falls back towards 90 $\mathrm{mg\ dL^{-1}}$ The stimulus
    to $\beta$ cells decreases, insulin secretion decreases, and the response diminishes.
 
 If blood glucose falls below 90 $\mathrm{mg\ dL^{-1}}$ (e.g., during fasting):
@@ -1233,12 +1233,12 @@ $$
 Where $\bar{x}_1, \bar{x}_2$ = mean radicle lengths in the two groups, $s_1, s_2$ = standard
 deviations, $n_1, n_2$ = sample sizes.
 
-If the calculated $t$ value exceeds the critical value (at $p = 0.05$With appropriate degrees of
+If the calculated $t$ value exceeds the critical value (at $p = 0.05$ With appropriate degrees of
 freedom), the difference is statistically significant.
 
-**Worked Example.** Control group ($n = 10$): mean radicle growth $= 12.0\ \mathrm{mm}$SD
+**Worked Example.** Control group ($n = 10$): mean radicle growth $= 12.0\ \mathrm{mm}$ SD
 $= 2.5\ \mathrm{mm}$. Treatment group ($10^{-4}\ \mathrm{mol\ dm^{-3}}$ IAA, $n = 10$): mean
-$= 5.0\ \mathrm{mm}$SD $= 2.0\ \mathrm{mm}$.
+$= 5.0\ \mathrm{mm}$ SD $= 2.0\ \mathrm{mm}$.
 
 $t = \frac{12.0 - 5.0}{\sqrt{\frac{2.5^2}{10} + \frac{2.0^2}{10}}} = \frac{7.0}{\sqrt{\frac{6.25 + 4.00}{10}}} = \frac{7.0}{\sqrt{1.025}} = \frac{7.0}{1.012} = 6.92$.
 
@@ -1246,7 +1246,7 @@ Degrees of freedom $= n_1 + n_2 - 2 = 18$.
 
 Critical value at $p = 0.05$ for 18 df $= 2.10$.
 
-Since $t = 6.92 > 2.10$The difference is statistically significant. Auxin at
+Since $t = 6.92 > 2.10$ The difference is statistically significant. Auxin at
 $10^{-4}\ \mathrm{mol\ dm^{-3}}$ significantly inhibits root growth.
 
 ## 22. Excretion: The Liver and Kidneys
@@ -1778,7 +1778,7 @@ Blood is taken from an artery, passed through a dialysis machine (dialyser), and
 | Component         | Function                                                                                                                                                                                                                                           |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Dialysis membrane | Partially permeable membrane; allows exchange of small molecules (urea, $\mathrm{K^+}$$\mathrm{Na^+}$$\mathrm{Ca^{2+}}$) between blood and dialysis fluid by diffusion                                                                             |
-| Dialysis fluid    | Contains the same concentration of useful substances ($\mathrm{Na^+}$$\mathrm{K^+}$$\mathrm{Ca^{2+}}$Glucose, bicarbonate) as healthy blood; contains no urea (creating a concentration gradient for urea to diffuse from blood to dialysis fluid) |
+| Dialysis fluid    | Contains the same concentration of useful substances ($\mathrm{Na^+}$$\mathrm{K^+}$$\mathrm{Ca^{2+}}$ Glucose, bicarbonate) as healthy blood; contains no urea (creating a concentration gradient for urea to diffuse from blood to dialysis fluid) |
 | Blood pump        | Moves blood through the dialyser                                                                                                                                                                                                                   |
 | Anticoagulant     | Heparin prevents blood clotting during dialysis                                                                                                                                                                                                    |
 
@@ -1787,7 +1787,7 @@ Blood is taken from an artery, passed through a dialysis machine (dialyser), and
 - Requires 3 sessions per week, 4--6 hours per session.
 - Does not replace all kidney functions (e.g., erythropoietin production, vitamin D activation).
 - Increased risk of infection (via the vascular access site).
-- Dietary restrictions (limited $\mathrm{K^+}$Phosphate, fluid intake).
+- Dietary restrictions (limited $\mathrm{K^+}$ Phosphate, fluid intake).
 
 ### 27.4 Peritoneal Dialysis
 
@@ -2190,7 +2190,7 @@ Without negative feedback:
 | Feature     | Description                                                                                                                                           |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Type        | Eccrine (distributed across the body) and apocrine (armpits, groin)                                                                                   |
-| Mechanism   | Sweat (water, $\mathrm{Na^+}$$\mathrm{Cl^-}$Urea) is produced by coiled secretory portion; secreted onto the skin surface via a duct                  |
+| Mechanism   | Sweat (water, $\mathrm{Na^+}$$\mathrm{Cl^-}$ Urea) is produced by coiled secretory portion; secreted onto the skin surface via a duct                  |
 | Evaporation | Water in sweat evaporates; heat is absorbed from the skin surface (high latent heat of vaporisation); this is the primary cooling mechanism in humans |
 | Control     | Sympathetic nervous system stimulates sweat gland secretion                                                                                           |
 

@@ -1236,7 +1236,7 @@ higher. The expected future spot rate is:
 
 $E(S) = 1.20 \times 1.03/1.01 = 1.2238$
 
-Wait -- the US rate is higher, so $F > S$Meaning fewer dollars per euro, which means the euro Is
+Wait -- the US rate is higher, so $F > S$ Meaning fewer dollars per euro, which means the euro Is
 expected to depreciate. Actually, in our notation, $S$ is USD per EUR, so $F = 1.2238 > S =
 1.20$,
 meaning the euro is expected to appreciate. This is because the US dollar has the higher Interest
@@ -1252,10 +1252,10 @@ should have a forward discount.
 
 The issue is the quotation convention. In standard notation, if $S$ is quoted as USD/EUR, then The
 euro is the "foreign" currency and the US rate is the "domestic" rate. With $i_d > i_f$
-$F > S$Meaning the foreign currency (EUR) is expected to appreciate. This is incorrect According to
+$F > S$ Meaning the foreign currency (EUR) is expected to appreciate. This is incorrect According to
 UIP, which says the higher-interest currency should depreciate.
 
-The correct interpretation: since $i_{\text{USD}} = 3\% > i_{\text{EUR}} = 1\%$UIP predicts the USD
+The correct interpretation: since $i_{\text{USD}} = 3\% > i_{\text{EUR}} = 1\%$ UIP predicts the USD
 should depreciate against the EUR. So the forward rate of 1.2238 USD/EUR means the EUR is Stronger
 (USD depreciated), which is consistent with UIP.
 
@@ -1299,7 +1299,7 @@ Achieved through:
 
 - Increasing domestic saving (tax incentives, financial development)
 - Attracting foreign saving (FDI, external borrowing, aid)
-- Reducing the ICOR to 2.14 ($s = 0.15 / v$For $g = 0.07$: $v = 0.15/0.07 = 2.14$) through more
+- Reducing the ICOR to 2.14 ($s = 0.15 / v$ For $g = 0.07$: $v = 0.15/0.07 = 2.14$) through more
   efficient investment
 
 (b) Lewis model: Country Z's surplus agricultural labour provides a pool of workers who can be
@@ -2100,12 +2100,12 @@ B has a comparative advantage in wine (lower opportunity cost: 1 cloth < 2 cloth
 
 Before trade (autarky): if each country allocates 12 labour hours equally (6 to each good):
 
-Country A: cloth $= 6/4 = 1.5$Wine $= 6/8 = 0.75$. Total world output: 3 cloth, 1.5 wine. Country B:
-cloth $= 6/6 = 1$Wine $= 6/6 = 1$. Total world output: 3 cloth, 1.5 wine.
+Country A: cloth $= 6/4 = 1.5$ Wine $= 6/8 = 0.75$. Total world output: 3 cloth, 1.5 wine. Country B:
+cloth $= 6/6 = 1$ Wine $= 6/6 = 1$. Total world output: 3 cloth, 1.5 wine.
 
 With specialisation (A produces only cloth, B produces only wine):
 
-Country A: cloth $= 12/4 = 3$Wine $= 0$. Country B: cloth $= 0$Wine $= 12/6 = 2$. Total world
+Country A: cloth $= 12/4 = 3$ Wine $= 0$. Country B: cloth $= 0$ Wine $= 12/6 = 2$. Total world
 output: 3 cloth, 2 wine.
 
 World wine output increases from 1.5 to 2 (a gain of 0.5 wine). Both countries can consume More wine
@@ -2156,7 +2156,7 @@ Let me reconsider. The terms of trade must satisfy: Country A gains from exporti
 Country B gains from exporting wine.
 
 For Country A to gain from exporting cloth: the world price of cloth (in wine) must exceed Country
-A's opportunity cost of cloth: $P_c/P_w > 0.5$I.e., $P_w/P_c < 2$.
+A's opportunity cost of cloth: $P_c/P_w > 0.5$ I.e., $P_w/P_c < 2$.
 
 For Country B to gain from exporting wine: the world price of wine (in cloth) must exceed Country
 B's opportunity cost of wine: $P_w/P_c > 1$.
@@ -2242,7 +2242,7 @@ has a comparative advantage in cars (lower opportunity cost: 4 < 10 wheat).
 
 Assume each country splits labour equally: 500 hours to each good.
 
-Country X: cars $= 500/100 = 5$Wheat $= 500/10 = 50$. Country Y: cars $= 500/80 = 6.25$Wheat
+Country X: cars $= 500/100 = 5$ Wheat $= 500/10 = 50$. Country Y: cars $= 500/80 = 6.25$ Wheat
 $= 500/20 = 25$. Total: 11.25 cars, 75 wheat.
 
 **With specialisation:**

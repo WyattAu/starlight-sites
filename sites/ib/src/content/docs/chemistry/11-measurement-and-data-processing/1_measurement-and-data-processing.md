@@ -204,10 +204,10 @@ At $x = 0$.
 
 ### Using Graphs to Verify Relationships
 
-For $y = kx^n$Plotting $\log y$ versus $\log x$ gives a straight line with gradient $n$ and
+For $y = kx^n$ Plotting $\log y$ versus $\log x$ gives a straight line with gradient $n$ and
 Y-intercept $\log k$.
 
-For $y = kx^n$ with $n = 1$The graph of $y$ versus $x$ is linear through the origin.
+For $y = kx^n$ with $n = 1$ The graph of $y$ versus $x$ is linear through the origin.
 
 ### Common Pitfalls
 
@@ -280,7 +280,7 @@ Used to confirm identity by comparison with a reference spectrum.
 :::
 
 :::note[Example]
-An unknown compound shows: broad absorption at $3300\mathrm{ cm}^{-1}$Sharp absorption at
+An unknown compound shows: broad absorption at $3300\mathrm{ cm}^{-1}$ Sharp absorption at
 $1700\mathrm{ cm}^{-1}$ And a C--O stretch at $1200\mathrm{ cm}^{-1}$. This is consistent with a
 Carboxylic acid.
 
@@ -574,8 +574,8 @@ $\delta\ 1.0\ (t,\ 3\mathrm{H})$, $\delta\ 2.1\ (s,\ 3\mathrm{H})$ $\delta\ 2.4\
 The septet pattern does not match.
 
 The correct answer is: the formula must be $\mathrm{C}_5\mathrm{H}_{12}\mathrm{O}$ for an isopropyl
-Group with a $\mathrm{CH}_3$. If restricted to $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$Re-examine:
-2-methylpropanal, $\mathrm{(CH}_3)_2\mathrm{CHCHO}$Has the correct formula. Its NMR:
+Group with a $\mathrm{CH}_3$. If restricted to $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$ Re-examine:
+2-methylpropanal, $\mathrm{(CH}_3)_2\mathrm{CHCHO}$ Has the correct formula. Its NMR:
 $\delta\ 1.1\ (d,\ 6\mathrm{H})$, $\delta\ 2.4\ (septet,\ 1\mathrm{H})$
 $\delta\ 9.7\ (s,\ 1\mathrm{H})$. The singlet at $\delta\ 2.1$ does not match.
 
@@ -689,7 +689,7 @@ Determine the molecular formula.
 
 **Step 1: Estimate the number of carbon atoms.**
 
-The M+1 peak arises primarily from $^{13}\mathrm{C}$Which has a natural abundance of 1.1% per Carbon
+The M+1 peak arises primarily from $^{13}\mathrm{C}$ Which has a natural abundance of 1.1% per Carbon
 atom.
 
 $$
@@ -700,7 +700,7 @@ $$
 
 Mass from 6 C atoms: $6 \times 12 = 72$
 
-Remaining mass: $78 - 72 = 6$Corresponding to 6 hydrogen atoms.
+Remaining mass: $78 - 72 = 6$ Corresponding to 6 hydrogen atoms.
 
 **Step 3: Propose the molecular formula.**
 
@@ -720,7 +720,7 @@ Benzene.
 **Step 5: Confirm the M+2 peak.**
 
 With no chlorine or bromine present, the M+2 peak should be very small (from $^{18}\mathrm{O}$
-$^{2}\mathrm{H}$Etc.). The absence of a significant M+2 peak is consistent with
+$^{2}\mathrm{H}$ Etc.). The absence of a significant M+2 peak is consistent with
 $\mathrm{C}_6\mathrm{H}_6$.
 
 </details>
@@ -728,7 +728,7 @@ $\mathrm{C}_6\mathrm{H}_6$.
 **Worked Example: Combined spectroscopic identification**
 
 An unknown compound has $\mathrm{M}^+ = 88$. IR: strong broad peak at
-$2500$--$3300\mathrm{ cm}^{-1}$Strong peak at $1715\mathrm{ cm}^{-1}$ And a C--O stretch at
+$2500$--$3300\mathrm{ cm}^{-1}$ Strong peak at $1715\mathrm{ cm}^{-1}$ And a C--O stretch at
 $1050\mathrm{ cm}^{-1}$. $^{1}\mathrm{H}$ NMR: $\delta\ 0.9\ (t,\ 3\mathrm{H})$
 $\delta\ 1.6\ (sextet,\ 2\mathrm{H})$, $\delta\ 2.3\ (t,\ 2\mathrm{H})$
 $\delta\ 11.0\ (s,\ 1\mathrm{H})$. $^{13}\mathrm{C}$ NMR: 4 signals. Identify the compound.
@@ -872,7 +872,7 @@ $$
 ## Common Pitfalls
 
 - **Using the smallest division (not half) for analogue instrument uncertainty**: A ruler with 1 mm
-  divisions has an absolute uncertainty of $\pm 0.5\mathrm{ mm}$Not $\pm 1\mathrm{ mm}$. A
+  divisions has an absolute uncertainty of $\pm 0.5\mathrm{ mm}$ Not $\pm 1\mathrm{ mm}$. A
   thermometer with $1\degree\mathrm{C}$ divisions has $\pm 0.5\degree\mathrm{C}$.
 
 - **Confusing absolute and percentage uncertainty during propagation**: For addition/subtraction,
@@ -896,7 +896,7 @@ $$
   from the $^{1}\mathrm{H}$ NMR spectrum. This is a definitive test for labile protons.
 
 - **Forcing a line of best fit through the origin**: Only force through $(0, 0)$ if the data
-  physically require it (e.g., Charles"s law at absolute zero). For most experimental data, the
+  physically require it (e.g., Charles's law at absolute zero). For most experimental data, the
   intercept has physical meaning and should be determined from the fit.
 
 - **Ignoring anomalous points instead of justifying their exclusion**: Outliers must be identified
@@ -926,7 +926,7 @@ $$
 
 1. A student measures the density of a metal cylinder using a vernier caliper (absolute uncertainty
    $\pm 0.02\mathrm{ mm}$) and a balance (absolute uncertainty $\pm 0.01\mathrm{ g}$). The diameter
-   is $12.50\mathrm{ mm}$The height is $25.00\mathrm{ mm}$ And the mass is $20.00\mathrm{ g}$.
+   is $12.50\mathrm{ mm}$ The height is $25.00\mathrm{ mm}$ And the mass is $20.00\mathrm{ g}$.
    Calculate the density and its percentage uncertainty. The density formula is
    $\rho = \dfrac{m}{\pi(d/2)^2 h}$. **[Medium]**
 
@@ -957,7 +957,7 @@ $$
    absorbance $0.350 \pm 0.005$. Calculate the concentration of the unknown and its uncertainty.
    **[Hard]**
 
-7. Calculate $\log(3.20 \times 10^{-4})$ and $10^{-7.45}$Each to the correct number of significant
+7. Calculate $\log(3.20 \times 10^{-4})$ and $10^{-7.45}$ Each to the correct number of significant
    figures. State the rule that governs significant figures in logarithmic and antilogarithmic
    operations. **[Easy]**
 

@@ -43,7 +43,7 @@ $$
 **Physical interpretation.** The first-order energy correction is the expectation value of the
 Perturbation in the unperturbed state. The second-order correction accounts for virtual transitions
 To other states: if the perturbation mixes in state $|m\rangle$ with amplitude proportional to
-$V_{mn}/(E_n - E_m)$The energy shift is the sum of $|V_{mn}|^2/(E_n - E_m)$ over all Intermediate
+$V_{mn}/(E_n - E_m)$ The energy shift is the sum of $|V_{mn}|^2/(E_n - E_m)$ over all Intermediate
 states. Lower-energy intermediate states ($E_m \lt E_n$) always lower the energy, While
 higher-energy ones raise it.
 
@@ -103,7 +103,7 @@ The first-order correction is $E_n^{(1)} = V_0/2$ for all $n$. $\blacksquare$
 </details>
 
 :::caution
-level spacing. If $|\langle m | H' | n \rangle| \sim |E_n^{(0)} - E_m^{(0)}|$The perturbation series
+level spacing. If $|\langle m | H' | n \rangle| \sim |E_n^{(0)} - E_m^{(0)}|$ The perturbation series
 may diverge. The Method also fails for systems where the unperturbed Hamiltonian has closely spaced
 or degenerate Levels that are not handled correctly.
 
@@ -165,7 +165,7 @@ Minimising: $dE/d\alpha = 0$ gives
 $-\hbar^2/(2m\alpha^3) + m\omega^2\alpha/2 + 3\lambda\alpha^3 = 0$.
 
 For $\lambda = 0$ (harmonic oscillator), this gives $\alpha^2 = \hbar/(m\omega)$ and
-$E = \hbar\omega/2$Which is exact. For small $\lambda$Expand
+$E = \hbar\omega/2$ Which is exact. For small $\lambda$ Expand
 $\alpha^2 = \hbar/(m\omega)(1 - \delta)$:
 
 $$
@@ -196,7 +196,7 @@ $\hbar$:
 
 **Leading order ($\hbar^0$):** $S'(x) = \pm p(x) = \pm\sqrt{2m(E - V(x))}$
 
-**Next order ($\hbar^1$):** $A'(x)/A(x) = -S''(x)/(2S'(x))$Giving $A(x) \propto 1/\sqrt{p(x)}$.
+**Next order ($\hbar^1$):** $A'(x)/A(x) = -S''(x)/(2S'(x))$ Giving $A(x) \propto 1/\sqrt{p(x)}$.
 
 Therefore, in the classically allowed region ($E \gt V$):
 
@@ -214,7 +214,7 @@ Connection formula (for a linear turning point, $V(x) \approx E + V'(x_1)(x-x_1)
   \frac{2C}{\sqrt{p(x)}}\cos\!\left(\frac{1}{\hbar}\int_{x_1}^x p(x')\,dx' - \frac{\pi}{4}\right) \longleftrightarrow \frac{C}{\sqrt{|p(x)|}}\exp\!\left(-\frac{1}{\hbar}\int_x^{x_1} |p(x')|\,dx'\right)
   $$
 
-**Quantization condition.** For a potential well with turning points $x_1$ and $x_2$Applying the
+**Quantization condition.** For a potential well with turning points $x_1$ and $x_2$ Applying the
 Connection formulas at both ends yields:
 
 $$
@@ -230,7 +230,7 @@ $$
 This is the Bohr-Sommerfeld quantization condition, corrected by the $1/2$ term from the connection
 Formulas.
 
-**Validity.** The WKB approximation requires $|d\lambda/dx| \ll 1$Where $\lambda = h/p(x)$ is the
+**Validity.** The WKB approximation requires $|d\lambda/dx| \ll 1$ Where $\lambda = h/p(x)$ is the
 Local de Broglie wavelength. Equivalently, the change in potential over one wavelength must be small
 Compared to the kinetic energy: $|\hbar\,|V'(x)|/(2mp(x))| \ll 1$.
 
@@ -239,7 +239,7 @@ Compared to the kinetic energy: $|\hbar\,|V'(x)|/(2mp(x))| \ll 1$.
 <details>
 <summary>Solution</summary>
 
-For $V(x) = \frac{1}{2}m\omega^2 x^2$The turning points are at $x_{1,2} = \pm\sqrt{2E/(m\omega^2)}$.
+For $V(x) = \frac{1}{2}m\omega^2 x^2$ The turning points are at $x_{1,2} = \pm\sqrt{2E/(m\omega^2)}$.
 
 $$
 \int_{x_1}^{x_2} \sqrt{2m\!\left(E - \frac{1}{2}m\omega^2 x^2\right)}\,dx = \sqrt{2mE}\int_{-a}^{a}\sqrt{1 - (x/a)^2}\,dx

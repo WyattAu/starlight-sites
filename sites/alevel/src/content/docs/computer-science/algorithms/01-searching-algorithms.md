@@ -24,7 +24,7 @@ categories:
 
 ### Algorithm
 
-**Problem:** Given an array $A[0..n-1]$ and a target value $x$Determine whether $x$ exists in $A$
+**Problem:** Given an array $A[0..n-1]$ and a target value $x$ Determine whether $x$ exists in $A$
 And return its index (or $-1$ if not found).
 
 ```python
@@ -37,11 +37,11 @@ def linear_search(A, x):
 
 ### Correctness
 
-**Theorem.** `linear_search(A, x)` returns the index of the first occurrence of $x$ in $A$Or $-1$ If
+**Theorem.** `linear_search(A, x)` returns the index of the first occurrence of $x$ in $A$ Or $-1$ If
 $x$ is not present.
 
-**Proof.** The algorithm examines elements $A[0], A[1], \ldots$ in order. If $A[i] = x$It
-Immediately returns $i$Which is the first occurrence since all earlier elements were checked and
+**Proof.** The algorithm examines elements $A[0], A[1], \ldots$ in order. If $A[i] = x$ It
+Immediately returns $i$ Which is the first occurrence since all earlier elements were checked and
 Found not equal to $x$. If the loop completes without finding $x$ Then $x \notin A$ And $-1$ is
 Returned. $\square$
 
@@ -72,7 +72,7 @@ $x$. Therefore, at least $n$ comparisons are necessary in the worst case. $\squa
 
 ### Algorithm
 
-**Problem:** Given a **sorted** array $A[0..n-1]$ and a target value $x$Find the index of $x$ (or
+**Problem:** Given a **sorted** array $A[0..n-1]$ and a target value $x$ Find the index of $x$ (or
 Determine that $x$ is not present).
 
 ```python
@@ -92,7 +92,7 @@ def binary_search(A, x):
 
 ### Correctness Proof
 
-**Theorem.** `binary_search(A, x)` returns the index of $x$ in the sorted array $A$Or $-1$ if $x$ Is
+**Theorem.** `binary_search(A, x)` returns the index of $x$ in the sorted array $A$ Or $-1$ if $x$ Is
 not present.
 
 **Proof.** We prove by invariant.
@@ -101,7 +101,7 @@ not present.
 $x \in A[\mathrm{low}..\mathrm{high}]$.
 
 **Base case.** Initially, `low = 0` and `high = n-1`So
-$A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$The invariant holds.
+$A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$ The invariant holds.
 
 **Maintenance.** Three cases:
 
@@ -122,9 +122,9 @@ $\square$
 
 **Theorem.** Binary search performs $O(\log n)$ comparisons.
 
-**Proof.** At each iteration, the search range is halved. Starting with a range of size $n$After $k$
+**Proof.** At each iteration, the search range is halved. Starting with a range of size $n$ After $k$
 iterations the range size is at most $\lceil n/2^k \rceil$. The algorithm terminates when the Range
-is empty, which happens when $n/2^k \lt 1$I.e., $k \gt \log_2 n$. Therefore, the maximum Number of
+is empty, which happens when $n/2^k \lt 1$ I.e., $k \gt \log_2 n$. Therefore, the maximum Number of
 iterations is $\lfloor \log_2 n \rfloor + 1 = O(\log n)$. $\square$
 
 **Formal derivation.** Let $T(n)$ be the number of comparisons for an array of size $n$.
@@ -139,7 +139,7 @@ By the Master Theorem (case 2): $T(n) = O(\log n)$.
 Requires $\Omega(\log n)$ comparisons in the worst case.
 
 **Proof.** A decision tree for searching a sorted array of $n$ elements has at least $n + 1$ leaves
-($n$ possible positions for $x$Plus "not found"). A binary tree of height $h$ has at most
+($n$ possible positions for $x$ Plus "not found"). A binary tree of height $h$ has at most
 $2^{h+1} - 1$ leaves, so:
 
 $$

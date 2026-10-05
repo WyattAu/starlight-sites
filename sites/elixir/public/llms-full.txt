@@ -51,7 +51,7 @@ of building fault-tolerant distributed systems.
 
 Valim was drawn to the Erlang ecosystem -- specifically its proven track record in
 telecommunications, messaging systems, and fault-tolerant infrastructure (WhatsApp, Discord,
-RabbitMQ all run on Erlang/BEAM). However, he found Erlang"s syntax arcane and its tooling lacking
+RabbitMQ all run on Erlang/BEAM). However, he found Erlang's syntax arcane and its tooling lacking
 the developer experience he had come to expect from the Ruby world. His goal was to create a
 language that would:
 
@@ -974,7 +974,7 @@ true
 
 ### Strings
 
-Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang"s
+Strings in Elixir are UTF-8 encoded binaries. They are not character arrays (unlike C or Erlang's
 string type, which is a list of integers).
 
 ```elixir
@@ -3688,7 +3688,7 @@ Metaprogramming in Elixir is the ability to write code that generates or transfo
 time. The primary mechanism for this is the **macro** system, which allows you to manipulate the
 Abstract Syntax Tree (AST) of Elixir code before it is compiled.
 
-Elixir"s macro system is similar to Lisp's but with important differences:
+Elixir's macro system is similar to Lisp's but with important differences:
 
 - Macros operate on Elixir's own AST representation, not S-expressions
 - Macros are hygienic by default (they do not accidentally capture or overwrite variables)
@@ -5128,7 +5128,7 @@ end
 
 ### Hot Code Upgrades
 
-One of BEAM"s most distinctive features is hot code swapping -- loading new code without stopping
+One of BEAM's most distinctive features is hot code swapping -- loading new code without stopping
 the system:
 
 ```elixir

@@ -197,7 +197,7 @@ outliers.
 Inferential statistics allow researchers to draw conclusions about a population based on a sample,
 and to test hypotheses about relationships between variables.
 
-**Spearman"s Rank Correlation Coefficient ($r_s$).** A non-parametric test that measures the
+**Spearman's Rank Correlation Coefficient ($r_s$).** A non-parametric test that measures the
 strength and direction of the association between two ranked variables. The formula is:
 
 $$
@@ -209,7 +209,7 @@ $n$ is the sample size. The value of $r_s$ ranges from $-1$ (perfect negative co
 (perfect positive correlation), with 0 indicating no correlation.
 
 To determine whether the correlation is statistically significant, compare $r_s$ to the critical
-value from a Spearman's rank table at the appropriate significance level ( $p = 0.05$I.e., a 5%
+value from a Spearman's rank table at the appropriate significance level ( $p = 0.05$ I.e., a 5%
 probability that the observed correlation occurred by chance) and degrees of freedom ($n - 2$). If
 $|r_s|$ exceeds the critical value, the null hypothesis (that there is no significant correlation)
 is rejected.
@@ -230,14 +230,14 @@ E_i = \frac{(\mathrm{row\ total}) \times (\mathrm{column\ total})}{\mathrm{grand
 $$
 
 Compare the calculated $\chi^2$ value to the critical value from a chi-squared table at the
-appropriate degrees of freedom ($\mathrm{df} = (r - 1)(c - 1)$Where $r$ is the number of rows and
+appropriate degrees of freedom ($\mathrm{df} = (r - 1)(c - 1)$ Where $r$ is the number of rows and
 $c$ is the number of columns) and significance level ( $p = 0.05$). If the calculated value exceeds
 the critical value, the null hypothesis is rejected, indicating a statistically significant
 association between the variables.
 
 **Conditions for validity:** the chi-squared test requires that (1) data are in the form of
 frequencies (not percentages or proportions); (2) expected frequencies in each cell are at least 5
-(if any $E_i \lt 5$Combine categories or use Fisher's exact test); (3) observations are independent.
+(if any $E_i \lt 5$ Combine categories or use Fisher's exact test); (3) observations are independent.
 
 **Mann-Whitney U test.** A non-parametric test that determines whether two independent samples come
 from the same population. It is the non-parametric equivalent of the independent samples t-test and

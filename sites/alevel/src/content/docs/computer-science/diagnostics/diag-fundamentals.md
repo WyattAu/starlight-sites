@@ -34,7 +34,7 @@ flowchart TD
 
 ## Unit Tests
 
-### UT-1: Two"s Complement and Arithmetic
+### UT-1: Two's Complement and Arithmetic
 
 **Question:** (a) Convert $-97$ to 8-bit two's complement. (b) Perform the addition $(-97) + 45$
 using 8-bit two's complement binary. State whether overflow occurs. (c) What is the range of
@@ -57,7 +57,7 @@ $$
 \end{array}
 $$
 
-$11001100_2$ is a negative number (MSB $= 1$). Convert to decimal: flip bits $= 00110011$Add 1
+$11001100_2$ is a negative number (MSB $= 1$). Convert to decimal: flip bits $= 00110011$ Add 1
 $= 00110100_2 = 52$. So the result is $-52$.
 
 Check: $-97 + 45 = -52$. Correct.
@@ -108,7 +108,7 @@ Relative error: $0\%$.
 
 **For comparison, with only 3 mantissa bits:**
 
-Mantissa would be $011$Stored value $= -1.011_2 \times 2^2 = -101.1_2 = -(4 + 1 + 0.5) = -5.5$.
+Mantissa would be $011$ Stored value $= -1.011_2 \times 2^2 = -101.1_2 = -(4 + 1 + 0.5) = -5.5$.
 
 Absolute error $= |-5.5 - (-5.75)| = 0.25$. Relative error $= 0.25 / 5.75 = 4.35\%$.
 
@@ -162,7 +162,7 @@ Groups:
 - $m_6 + m_7$ (row AB=11, A=1, B=1): $AB$
 - $m_5 + m_7$ (column C=1, A=1): $AC$
 
-All three groups are essential prime implicants. $F = AB + AC + BC$Confirming the algebraic result.
+All three groups are essential prime implicants. $F = AB + AC + BC$ Confirming the algebraic result.
 
 **NAND-only implementation:** $F = AB + BC + AC$.
 
@@ -213,7 +213,7 @@ Without knowing the character mix, we cannot determine the exact byte count. If 
 bytes. If all 4-byte: $262052$ bytes.
 
 (c) Maximum ASCII characters in a string that occupies this many bytes: $65513$ characters (if
-unsigned). If the value is $-23$There is no valid interpretation as a character count.
+unsigned). If the value is $-23$ There is no valid interpretation as a character count.
 
 This question illustrates the importance of choosing the correct representation: using an unsigned
 integer for counts avoids the confusion of negative values, while two's complement is essential for
@@ -319,7 +319,7 @@ Each full-adder uses 2 half-adders (5 ns each) and 1 OR gate (3 ns). But the cri
 carry propagation.
 
 Stage 1: $C_{\text{in}} = 0$ So $C_2 = S_1 \cdot C_{\text{in}} = 0$ and $C_{\text{out}} = C_1 = AB$.
-Carry out is ready after the first half-adder produces $C_1$I.e., 5 ns.
+Carry out is ready after the first half-adder produces $C_1$ I.e., 5 ns.
 
 For subsequent stages: the carry-in must propagate through. The longest path for carry:
 

@@ -142,7 +142,7 @@ $$
 
 **Question:**
 
-Given that $\sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}$Find the value of:
+Given that $\sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}$ Find the value of:
 
 $$
 \sum_{r=4}^{n+3} (r-3)^2
@@ -195,7 +195,7 @@ $$
 = \sum_{k=1}^{n} k^2 + 4 + 1 - 5 = \sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}
 $$
 
-**The student's answer** was $\frac{(n+3)(n+4)(2n+7)}{6}$Which equals $\sum_{r=1}^{n+3} r^2$Not
+**The student's answer** was $\frac{(n+3)(n+4)(2n+7)}{6}$ Which equals $\sum_{r=1}^{n+3} r^2$ Not
 $\sum_{r=4}^{n+3}(r-3)^2$. The student incorrectly treated the sum as starting from $r = 1$ with
 upper limit $n + 3$.
 
@@ -372,7 +372,7 @@ A sequence is defined by $x_0 = 1$ and $x_{n+1} = f(x_n) = \cos(x_n)$ for $n \ge
 
 **(b)** Prove that the sequence $(x_n)$ is convergent.
 
-**(c)** The limit $L$ satisfies $L = \cos L$. By considering the function $g(x) = x - \cos x$Show
+**(c)** The limit $L$ satisfies $L = \cos L$. By considering the function $g(x) = x - \cos x$ Show
 that $L$ is the unique solution to this equation in $[0, \pi/2]$.
 
 **(d)** Use the Newton-Raphson method with starting value $x_0 = 1$ to find $L$ to 8 decimal places.
@@ -396,7 +396,7 @@ $f'(x) = -\sin x$ So $|f'(x)| = |\sin x| \leq \sin(1) \approx 0.841 < 1$ for all
 
 Since $x_0 = 1 \in [0, 1]$ and $f$ maps $[0, 1]$ into itself (because $\cos(0) = 1 \leq 1$ and
 $\cos(1) \approx 0.54 \geq 0$), and $|f'(x)| \leq k < 1$ for all $x \in [0, 1]$ where
-$k = \sin 1$The sequence converges by the Banach fixed-point theorem.
+$k = \sin 1$ The sequence converges by the Banach fixed-point theorem.
 
 **(c)** $g(x) = x - \cos x$. Then $g(0) = 0 - 1 = -1 < 0$ and $g(\pi/2) = \pi/2 - 0 = \pi/2 > 0$.
 
@@ -474,7 +474,7 @@ $$
 \sum_{r=0}^{n} \binom{n}{r} = 2^n
 $$
 
-**(b)** By differentiating the binomial expansion of $(1 + x)^n$ and setting $x = 1$Show that:
+**(b)** By differentiating the binomial expansion of $(1 + x)^n$ and setting $x = 1$ Show that:
 
 $$
 \sum_{r=1}^{n} r\binom{n}{r} = n \cdot 2^{n-1}

@@ -93,7 +93,7 @@ Gives approximately $24 \times \log_{10}(2) \approx 7.22$ decimal digits of prec
 
 ### Denormalised Numbers
 
-When $E = 0$ and $M \neq 0$The value is:
+When $E = 0$ and $M \neq 0$ The value is:
 
 $$
 (-1)^S \times 0.M \times 2^{-126}
@@ -184,8 +184,8 @@ In IEEE 754: $e = -3$, $E = -3 + 127 = 124 = 01111100_2$.
 
 $0.1_{10} = \frac{1}{10} = \frac{1}{2 \times 5}$
 
-For a number to have a finite representation in base $b$When reduced to lowest terms
-$\frac{p}{q}$The denominator $q$ must divide some power of $b$. Here $q = 10 = 2 \times 5$ And $5$
+For a number to have a finite representation in base $b$ When reduced to lowest terms
+$\frac{p}{q}$ The denominator $q$ must divide some power of $b$. Here $q = 10 = 2 \times 5$ And $5$
 does not divide any power of $2$. Therefore $0.1_{10}$ has no finite binary expansion. $\square$
 
 When stored in IEEE 754, $0.1_{10}$ is approximated by the nearest representable binary value.
@@ -468,7 +468,7 @@ Think about the precision of single-precision float relative to the magnitude of
 <details>
 <summary>Answer</summary>
 
-Single precision has approximately 7 decimal digits of precision. When $a = 10^7$The smallest
+Single precision has approximately 7 decimal digits of precision. When $a = 10^7$ The smallest
 Representable difference between consecutive floats near $a$ is approximately
 $a \times \epsilon \approx 10^7 \times 10^{-7} = 1$. Since $b = 10^{-8}$ is much smaller than the
 Gap between representable numbers near $a$$a + b$ rounds to $a$ itself. Then $a - a = 0$.
@@ -741,7 +741,7 @@ def quadratic(a, b, c):
 <details>
 <summary>Answer</summary>
 
-**Problem: Catastrophic cancellation.** When $4ac$ is small compared to $b^2$The discriminant is
+**Problem: Catastrophic cancellation.** When $4ac$ is small compared to $b^2$ The discriminant is
 Close to $b^2$. Then $\sqrt{b^2 - 4ac} \approx |b|$ And one of the numerators becomes $-b + |b|$ or
 $-b - |b|$. If $b \gt 0$ Then $-b + \sqrt{b^2 - 4ac}$ subtracts nearly equal numbers, losing
 Precision.
@@ -767,7 +767,7 @@ Relationship, both roots maintain full precision.
 </details>
 
 **Problem 5.** In IEEE 754 single precision, what is the smallest positive number that, when added
-To $1.0$Produces a result different from $1.0$? Explain why.
+To $1.0$ Produces a result different from $1.0$? Explain why.
 
 <details>
 <summary>Answer</summary>
@@ -776,14 +776,14 @@ This is the definition of **machine epsilon**: the smallest $\epsilon$ such that
 $1 + \epsilon \gt 1$.
 
 In single precision, the mantissa has 23 bits. The value $1.0$ is represented as
-$1.000\ldots0 \times 2^0$. The next representable number is $1.000\ldots01 \times 2^0$Where the Last
+$1.000\ldots0 \times 2^0$. The next representable number is $1.000\ldots01 \times 2^0$ Where the Last
 bit of the mantissa is 1.
 
 This value is $1 + 2^{-23} \approx 1.0000001192092896$.
 
 So $\epsilon = 2^{-23} \approx 1.19 \times 10^{-7}$.
 
-Any value smaller than $\epsilon$When added to $1.0$Rounds back to $1.0$ because there are not
+Any value smaller than $\epsilon$ When added to $1.0$ Rounds back to $1.0$ because there are not
 Enough mantissa bits to represent the difference. For example, $1.0 + 2^{-24} = 1.0$ in single
 Precision.
 

@@ -39,7 +39,7 @@ flowchart TD
 **Question:** In a closed economy with no government, the marginal propensity to consume is
 $\text{MPC} = 0.75$. An increase in investment of $\pounds 200$~m occurs. Calculate: (a) the
 multiplier, (b) the total change in national income, (c) the change in consumption. If the
-government introduces a proportional income tax of $t = 0.2$ and $\text{MPM} = 0.1$Recalculate the
+government introduces a proportional income tax of $t = 0.2$ and $\text{MPM} = 0.1$ Recalculate the
 multiplier.
 
 **Solution:**
@@ -74,7 +74,7 @@ of $\pounds 800$~m.
 
 ### UT-2: Phillips Curve Analysis
 
-**Question:** The short-run Phillips curve is given by $\pi = \pi^e - 3(u - 5) + 0.5x$Where $\pi$ is
+**Question:** The short-run Phillips curve is given by $\pi = \pi^e - 3(u - 5) + 0.5x$ Where $\pi$ is
 inflation, $\pi^e$ is expected inflation, $u$ is unemployment (%), and $x$ is a supply shock.
 Initially, $\pi^e = 3\%$ and $x = 0$. (a) If the government reduces unemployment to 3%, what is the
 inflation rate? (b) In the long run, with adaptive expectations, what happens to the Phillips curve?
@@ -197,7 +197,7 @@ $\frac{\Delta(\text{MV})}{\text{MV}} = \frac{\Delta M}{M} + \frac{\Delta V}{V} +
 For small changes: $\frac{\Delta M}{M} + \frac{\Delta V}{V} \approx 2\%$.
 
 This scenario is contradictory: the interest rate rise and bond sale both reduce the money supply,
-which should reduce $Y$ or $P$Not increase $Y$ by 2%. If we observe $Y$ rising despite
+which should reduce $Y$ or $P$ Not increase $Y$ by 2%. If we observe $Y$ rising despite
 contractionary monetary policy, either: (1) the policy has not yet taken effect (lags), (2) other
 factors are boosting $Y$ (fiscal expansion, export boom), or (3) velocity has increased
 significantly as people spend money faster in anticipation of further rate rises.
@@ -240,7 +240,7 @@ simultaneously.
 
 (b) With AD unchanged and unitary elasticity (PQ approximately constant at potential):
 
-Initial: $P_0 \times 2000 = \text{AD}$New: $P_1 \times 2100 = \text{AD}$.
+Initial: $P_0 \times 2000 = \text{AD}$ New: $P_1 \times 2100 = \text{AD}$.
 
 $P_1 \times 2100 = P_0 \times 2000$ So $P_1 = P_0 \times \frac{2000}{2100} = P_0 \times 0.9524$.
 
@@ -370,7 +370,7 @@ balanced budget multiplier is NOT 1 here because of proportional taxation and im
 }
 </script>
 
-**UT-5 (Extension): AD/AS with Simultaneous Shocks.** An economy has AD: $Y = 600 - 2P$SRAS:
+**UT-5 (Extension): AD/AS with Simultaneous Shocks.** An economy has AD: $Y = 600 - 2P$ SRAS:
 $Y = 4P - 200$ And LRAS: $Y^* = 500$. (a) Find the current equilibrium and identify any output gap.
 (b) A positive supply shock shifts SRAS right by 80 units (new SRAS: $Y = 4P - 280$). Calculate the
 new equilibrium. (c) Simultaneously, consumer confidence falls, shifting AD left by 100 (new AD:
@@ -399,7 +399,7 @@ me re-examine.
 Original SRAS: $Y = 4P - 200$. At $P = 133.33$: $Y = 533.33 - 200 = 333.33$. Correct.
 
 New SRAS: $Y = 4P - 280$. The intercept has DECREASED (from -200 to -280), which means for any given
-$P$Output is LOWER. This is a LEFTWARD shift, not a rightward shift. I defined the shift
+$P$ Output is LOWER. This is a LEFTWARD shift, not a rightward shift. I defined the shift
 incorrectly.
 
 A rightward shift by 80 means: new SRAS $= 4P - 200 + 80 = 4P - 120$.
@@ -408,7 +408,7 @@ Let me redo: $600 - 2P = 4P - 120 \Rightarrow 720 = 6P \Rightarrow P = 120$$Y = 
 Output has increased from 333.33 to 360 (correct for a rightward SRAS shift). Output gap:
 $500 - 360 = 140$ (smaller recessionary gap).
 
-(c) Combined shocks: new AD $Y = 500 - 2P$New SRAS $Y = 4P - 120$.
+(c) Combined shocks: new AD $Y = 500 - 2P$ New SRAS $Y = 4P - 120$.
 $500 - 2P = 4P - 120 \Rightarrow 620 = 6P \Rightarrow P = 103.33$$Y = 500 - 206.67 = 293.33$.
 
 (d) Output gap: $500 - 293.33 = 206.67$ (large recessionary gap). The negative AD shock dominates,
@@ -426,8 +426,8 @@ increase but not the output decline.
 }
 </script>
 
-**IT-4 (Extension): Fiscal Policy and Debt Dynamics.** A country has GDP = $\pounds 2000$Bn,
-government debt = $\pounds 1800$Bn (90% of GDP), budget deficit = $\pounds 100$Bn (5% of GDP), and
+**IT-4 (Extension): Fiscal Policy and Debt Dynamics.** A country has GDP = $\pounds 2000$ Bn,
+government debt = $\pounds 1800$ Bn (90% of GDP), budget deficit = $\pounds 100$ Bn (5% of GDP), and
 the interest rate on government debt = 4%. GDP grows at 2% per year and inflation is 3%. (a)
 Calculate the primary deficit. (b) Calculate the debt-stabilising primary balance. (c) If the
 government maintains the current primary deficit, calculate the debt-to-GDP ratio after 5 years
@@ -440,7 +440,7 @@ needed to reduce the debt ratio to 60% of GDP within 10 years?
 interest payments. $100 = \text{primary deficit} + 72$. Primary deficit $= \pounds 28\text{bn}$
 (1.4% of GDP).
 
-(b) Debt-stabilising condition: the debt ratio is stable when $b_{t+1} = b_t$I.e.,
+(b) Debt-stabilising condition: the debt ratio is stable when $b_{t+1} = b_t$ I.e.,
 $(r - g - \pi)b = p$. Nominal GDP growth $= g + \pi = 2 + 3 = 5\%$. Real interest rate on debt
 $= r - \pi = 4 - 3 = 1\%$. Using the approximation: $(r - g_{nominal})b = p$ where $r$ is nominal
 rate and $g_{nominal} = 5\%$.
@@ -478,10 +478,10 @@ debt ratio from 90% to 60%.
 </script>
 
 **IT-5 (Extension): Monetary Policy Transmission.** The Bank of England raises the Bank Rate from 3%
-to 4%. (a) If the interest elasticity of investment is $-0.5$ and investment was $\pounds 300$Bn,
+to 4%. (a) If the interest elasticity of investment is $-0.5$ and investment was $\pounds 300$ Bn,
 calculate the change in investment. (b) If the multiplier is 2, calculate the change in GDP. (c) If
-the exchange rate appreciates by 3% as a result, and exports are $\pounds 500$Bn with a PED of
-$-0.8$Calculate the change in export revenue. (d) Calculate the total estimated change in AD.
+the exchange rate appreciates by 3% as a result, and exports are $\pounds 500$ Bn with a PED of
+$-0.8$ Calculate the change in export revenue. (d) Calculate the total estimated change in AD.
 
 **Solution:**
 
@@ -499,7 +499,7 @@ $\Delta X = -2.4\% \times 500 = -\pounds 12\text{bn}$. New exports $= \pounds 48
 through the multiplier: $\Delta Y_{exports} = 2 \times (-12) = -\pounds 24\text{bn}$. Total
 $\Delta Y = -100 - 24 = -\pounds 124\text{bn}$.
 
-If GDP was $\pounds 2000$Bn, this is a contraction of 6.2%. This is a large effect, illustrating the
+If GDP was $\pounds 2000$ Bn, this is a contraction of 6.2%. This is a large effect, illustrating the
 power of monetary policy. In practice, the effects are spread over 2-3 years and may be partially
 offset by other factors (e.g., falling inflation boosts real incomes).
 

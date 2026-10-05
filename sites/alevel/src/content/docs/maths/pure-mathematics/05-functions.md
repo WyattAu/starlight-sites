@@ -63,7 +63,7 @@ Domain: $[-2, 1) \cup (1, \infty)$.
 
 ## 2. Composition of Functions
 
-**Definition.** Given functions $f: A \to B$ and $g: B \to C$The _composition_ $g \circ f: A \to C$
+**Definition.** Given functions $f: A \to B$ and $g: B \to C$ The _composition_ $g \circ f: A \to C$
 is defined by:
 
 $$
@@ -76,7 +76,7 @@ $$
 
 <details>
 <summary>Example</summary>
-Given $f(x) = 2x + 1$ and $g(x) = x^2$Find $f \circ g$ and $g \circ f$.
+Given $f(x) = 2x + 1$ and $g(x) = x^2$ Find $f \circ g$ and $g \circ f$.
 
 $(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 1$.
 
@@ -95,7 +95,7 @@ $f \circ g \neq g \circ f$.
 $f(a_1) = f(a_2) \implies a_1 = a_2$ for all $a_1, a_2 \in A$. Equivalently, distinct inputs give
 Distinct outputs.
 
-**Definition.** A function $f: A \to B$ is _surjective_ (onto) if for every $b \in B$There exists
+**Definition.** A function $f: A \to B$ is _surjective_ (onto) if for every $b \in B$ There exists
 $a \in A$ such that $f(a) = b$.
 
 **Definition.** A function that is both injective and surjective is _bijective_.
@@ -154,17 +154,17 @@ $$
 x = \frac{y + 3}{y - 2}
 $$
 
-So $f^{-1}(x) = \frac{x + 3}{x - 2}$With domain $x \neq 2$.
+So $f^{-1}(x) = \frac{x + 3}{x - 2}$ With domain $x \neq 2$.
 
 The range of $f$ is all real numbers except $f(x) = 2$:
-$\frac{2x + 3}{x - 1} = 2 \implies 2x + 3 = 2x - 2 \implies 3 = -2$Impossible. So the range is
-$\mathbb{R} \setminus \{2\}$Which equals the domain of $f^{-1}$. ✓
+$\frac{2x + 3}{x - 1} = 2 \implies 2x + 3 = 2x - 2 \implies 3 = -2$ Impossible. So the range is
+$\mathbb{R} \setminus \{2\}$ Which equals the domain of $f^{-1}$. ✓
 
 </details>
 
 **Theorem.** The graph of $y = f^{-1}(x)$ is the reflection of $y = f(x)$ in the line $y = x$.
 
-_Proof._ If $(a, b)$ lies on $y = f(x)$ Then $b = f(a)$ So $a = f^{-1}(b)$Meaning $(b, a)$ lies On
+_Proof._ If $(a, b)$ lies on $y = f(x)$ Then $b = f(a)$ So $a = f^{-1}(b)$ Meaning $(b, a)$ lies On
 $y = f^{-1}(x)$. Swapping coordinates is reflection in $y = x$. $\blacksquare$
 
 <hr />
@@ -200,7 +200,7 @@ Holds.
 
 Case 3: $a \geq 0$, $b \leq 0$. If $a + b \geq 0$: $|a + b| = a + b \leq a + (-b) = |a| + |b|$. If
 $a + b \leq 0$: $|a + b| = -(a + b) = -a - b \leq a - b = |a| + |b|$ (since $a \geq 0$ implies
-$a \geq -a$I.e., $2a \geq 0$). $\blacksquare$
+$a \geq -a$ I.e., $2a \geq 0$). $\blacksquare$
 
 ### 4.1 Solving Modulus Equations
 
@@ -214,11 +214,11 @@ To solve $|f(x)| = g(x)$:
 <summary>Example</summary>
 Solve $|2x - 3| = x + 2$.
 
-Case 1: $2x - 3 \geq 0$I.e., $x \geq \frac{3}{2}$.
+Case 1: $2x - 3 \geq 0$ I.e., $x \geq \frac{3}{2}$.
 
 $2x - 3 = x + 2 \implies x = 5$. Check: $5 \geq \frac{3}{2}$ ✓
 
-Case 2: $2x - 3 < 0$I.e., $x < \frac{3}{2}$.
+Case 2: $2x - 3 < 0$ I.e., $x < \frac{3}{2}$.
 
 $-(2x - 3) = x + 2 \implies -2x + 3 = x + 2 \implies -3x = -1 \implies x = \frac{1}{3}$. Check:
 $\frac{1}{3} < \frac{3}{2}$ ✓
@@ -265,7 +265,7 @@ $y = f(-x)$. Reflecting $(x_0, y_0)$ in the $y$-axis gives $(-x_0, y_0)$. $\blac
 | $y = af(x)$    | Vertical stretch, scale factor $a$             |
 
 **Proof for $y = f(ax)$ as horizontal stretch.** If $(x_0, y_0)$ is on $y = f(x)$ Then on
-$y = f(ax)$The same $y$-value occurs when $ax = x_0$I.e., $x = \frac{x_0}{a}$. So
+$y = f(ax)$ The same $y$-value occurs when $ax = x_0$ I.e., $x = \frac{x_0}{a}$. So
 $(\frac{x_0}{a}, y_0)$ is on the new graph, a horizontal stretch by factor $\frac{1}{a}$.
 $\blacksquare$
 
@@ -281,7 +281,7 @@ $$
 y = af(x - p) + q
 $$
 
-Represents: horizontal translation by $p$ (right), vertical stretch by factor $a$Vertical
+Represents: horizontal translation by $p$ (right), vertical stretch by factor $a$ Vertical
 Translation by $q$ (up).
 
 > **Tip:** Tip (outside). The order inside-out matters.
@@ -317,7 +317,7 @@ $(fg)(-x) = f(-x)g(-x) = f(x)(-g(x)) = -f(x)g(x) = -(fg)(x)$. $\blacksquare$
 Symmetric domain).
 
 _Proof._ $f$ even: $f(-x) = f(x)$. $f$ odd: $f(-x) = -f(x)$. Therefore $f(x) = -f(x)$ So
-$2f(x) = 0$Hence $f(x) = 0$ for all $x$. $\blacksquare$
+$2f(x) = 0$ Hence $f(x) = 0$ for all $x$. $\blacksquare$
 
 <details>
 <summary>Example</summary>
@@ -339,11 +339,11 @@ _Proof._ For $(g \circ f)(x) = g(f(x))$ to be defined, we need $x \in \mathrm{do
 Exists) AND $f(x) \in \mathrm{dom}(g)$ (so $g$ can accept $f(x)$ as input). $\blacksquare$
 
 The range of $g \circ f$ is the image under $g$ of the set
-$\{f(x) : x \in \mathrm{dom}(g \circ f)\}$Which is a subset of the range of $g$.
+$\{f(x) : x \in \mathrm{dom}(g \circ f)\}$ Which is a subset of the range of $g$.
 
 <details>
 <summary>Example</summary>
-Given $f(x) = x^2$ with domain $\mathbb{R}$ and $g(x) = \sqrt{x}$ with domain $[0, \infty)$Find the domain and range of $g \circ f$.
+Given $f(x) = x^2$ with domain $\mathbb{R}$ and $g(x) = \sqrt{x}$ with domain $[0, \infty)$ Find the domain and range of $g \circ f$.
 
 **Domain:** We need $x \in \mathbb{R}$ (always true) and $f(x) = x^2 \in [0, \infty)$ (always true).
 So $\mathrm{dom}(g \circ f) = \mathbb{R}$.
@@ -354,9 +354,9 @@ So $\mathrm{dom}(g \circ f) = \mathbb{R}$.
 
 <details>
 <summary>Example</summary>
-Given $f(x) = \frac{1}{x - 1}$ with domain $\mathbb{R} \setminus \{1\}$ and $g(x) = \ln x$ with domain $(0, \infty)$Find the domain of $g \circ f$.
+Given $f(x) = \frac{1}{x - 1}$ with domain $\mathbb{R} \setminus \{1\}$ and $g(x) = \ln x$ with domain $(0, \infty)$ Find the domain of $g \circ f$.
 
-We need $\frac{1}{x-1} > 0$ So $x - 1 > 0$Giving $x > 1$.
+We need $\frac{1}{x-1} > 0$ So $x - 1 > 0$ Giving $x > 1$.
 
 $\mathrm{dom}(g \circ f) = (1, \infty)$.
 
@@ -366,7 +366,7 @@ $\mathrm{dom}(g \circ f) = (1, \infty)$.
 
 ## 8. Self-Inverse Functions
 
-**Definition.** A function $f$ is **self-inverse** if $f^{-1} = f$I.e., $f(f(x)) = x$ for all $x$ In
+**Definition.** A function $f$ is **self-inverse** if $f^{-1} = f$ I.e., $f(f(x)) = x$ for all $x$ In
 the domain of $f$.
 
 **Theorem.** If $f$ is self-inverse, then $f$ is bijective and $f = f^{-1}$.
@@ -409,7 +409,7 @@ This is equivalent to: $f(x) > g(x)$ OR $f(x) < -g(x)$.
 <summary>Example</summary>
 Solve $|x^2 - 3x| \lt 4$.
 
-This gives $-4 \lt x^2 - 3x \lt 4$I.e., two separate inequalities:
+This gives $-4 \lt x^2 - 3x \lt 4$ I.e., two separate inequalities:
 
 $x^2 - 3x - 4 \lt 0 \implies (x-4)(x+1) \lt 0 \implies -1 \lt x \lt 4$.
 
@@ -431,7 +431,7 @@ Case 2: $2x - 1 < 0$ (i.e., $x < 1/2$):
 $-(2x-1) \geq x + 2 \implies -2x + 1 \geq x + 2 \implies -1 \geq 3x \implies x \leq -1/3$. Combined
 With $x < 1/2$: $x \leq -1/3$.
 
-Solution: $x \leq -1/3$ or $x \geq 3$I.e., $x \in (-\infty, -1/3] \cup [3, \infty)$.
+Solution: $x \leq -1/3$ or $x \geq 3$ I.e., $x \in (-\infty, -1/3] \cup [3, \infty)$.
 
 </details>
 
@@ -439,14 +439,14 @@ Solution: $x \leq -1/3$ or $x \geq 3$I.e., $x \in (-\infty, -1/3] \cup [3, \inft
 
 ## 10. Transformation Order, Why It Matters
 
-When multiple transformations are applied to $y = f(x)$The order matters because horizontal and
+When multiple transformations are applied to $y = f(x)$ The order matters because horizontal and
 Vertical transformations interact differently.
 
 **Rule.** For $y = af(bx + c) + d$:
 
-1. Apply horizontal transformations **first**: the argument is $bx + c$Which is a horizontal stretch
+1. Apply horizontal transformations **first**: the argument is $bx + c$ Which is a horizontal stretch
    by factor $1/b$ then a horizontal shift of $-c/b$.
-2. Apply vertical transformations **second**: vertical stretch by $|a|$Reflection if $a < 0$ Then
+2. Apply vertical transformations **second**: vertical stretch by $|a|$ Reflection if $a < 0$ Then
    vertical shift $d$.
 
 :::caution
@@ -472,11 +472,11 @@ Note: the horizontal shift is 2 (not 4), because $2x - 4 = 2(x - 2)$.
 
 ## 11. Problem Set
 
-**Problem 1.** Given $f(x) = \frac{1}{x - 3} + 2$Find the domain, range, and inverse function.
+**Problem 1.** Given $f(x) = \frac{1}{x - 3} + 2$ Find the domain, range, and inverse function.
 
 <details>
 <summary>Solution</summary>
-Domain: $x \neq 3$I.e., $\mathbb{R} \setminus \{3\}$.
+Domain: $x \neq 3$ I.e., $\mathbb{R} \setminus \{3\}$.
 
 Range: As $x \to 3^+$$f(x) \to +\infty$; as $x \to 3^-$$f(x) \to -\infty$. As $x \to \pm\infty$
 $f(x) \to 2$. So $f(x) \neq 2$.
@@ -486,14 +486,14 @@ Range: $\mathbb{R} \setminus \{2\}$.
 Inverse:
 $y = \frac{1}{x - 3} + 2 \implies y - 2 = \frac{1}{x - 3} \implies x - 3 = \frac{1}{y - 2} \implies x = \frac{1}{y - 2} + 3$.
 
-$f^{-1}(x) = \frac{1}{x - 2} + 3$Domain $x \neq 2$.
+$f^{-1}(x) = \frac{1}{x - 2} + 3$ Domain $x \neq 2$.
 
 </details>
 <b>If you get this wrong, revise:</b> [Inverse functions](#3-inverse-functions)
 
 <hr />
 
-**Problem 2.** Given $f(x) = x^2 - 4x + 9$ for $x \geq 2$Find $f^{-1}(x)$.
+**Problem 2.** Given $f(x) = x^2 - 4x + 9$ for $x \geq 2$ Find $f^{-1}(x)$.
 
 <details>
 <summary>Solution</summary>
@@ -511,7 +511,7 @@ $$
 x = \sqrt{y - 5} + 2
 $$
 
-$f^{-1}(x) = \sqrt{x - 5} + 2$Domain $x \geq 5$.
+$f^{-1}(x) = \sqrt{x - 5} + 2$ Domain $x \geq 5$.
 
 </details>
 <b>If you get this wrong, revise:</b> [Inverse functions](#3-inverse-functions)
@@ -522,11 +522,11 @@ $f^{-1}(x) = \sqrt{x - 5} + 2$Domain $x \geq 5$.
 
 <details>
 <summary>Solution</summary>
-Case 1: $3x + 1 \geq 0$I.e., $x \geq -\frac{1}{3}$.
+Case 1: $3x + 1 \geq 0$ I.e., $x \geq -\frac{1}{3}$.
 
 $3x + 1 = 2x + 5 \implies x = 4$. Check: $4 \geq -\frac{1}{3}$ ✓
 
-Case 2: $3x + 1 < 0$I.e., $x < -\frac{1}{3}$.
+Case 2: $3x + 1 < 0$ I.e., $x < -\frac{1}{3}$.
 
 $-(3x + 1) = 2x + 5 \implies -3x - 1 = 2x + 5 \implies -5x = 6 \implies x = -\frac{6}{5}$.
 
@@ -539,7 +539,7 @@ Solutions: $x = -\frac{6}{5}$ and $x = 4$.
 
 <hr />
 
-**Problem 4.** Given $f(x) = 2x - 1$ and $g(x) = x^2 + 3$Find $(g \circ f)(x)$ and solve
+**Problem 4.** Given $f(x) = 2x - 1$ and $g(x) = x^2 + 3$ Find $(g \circ f)(x)$ and solve
 $(g \circ f)(x) = 12$.
 
 <details>
@@ -585,7 +585,7 @@ $f"(x) = 3x^2 - 3 = 3(x - 1)(x + 1)$.
 $f'(x) = 0$ at $x = \pm 1$. $f'(x) < 0$ for $-1 < x < 1$ (decreasing), and $f'(x) > 0$ for $x < -1$
 Or $x > 1$ (increasing).
 
-Since $f$ is decreasing on $(-1, 1)$ and increasing on $(-\infty, -1)$ and $(1, \infty)$It is not
+Since $f$ is decreasing on $(-1, 1)$ and increasing on $(-\infty, -1)$ and $(1, \infty)$ It is not
 Injective on all of $\mathbb{R}$. For example, $f(-2) = -8 + 6 + 1 = -1$ and $f(0) = 1$ and
 $f(1) = -1$. So $f(-2) = f(1) = -1$ with $-2 \neq 1$.
 
@@ -625,18 +625,18 @@ $$
 
 <hr />
 
-**Problem 8.** Given $f(x) = e^{2x}$ and $g(x) = \ln(x + 1)$Find $f^{-1}$$g^{-1}$ And the Domain of
+**Problem 8.** Given $f(x) = e^{2x}$ and $g(x) = \ln(x + 1)$ Find $f^{-1}$$g^{-1}$ And the Domain of
 $f \circ g$.
 
 <details>
 <summary>Solution</summary>
 $f^{-1}(x)$: $y = e^{2x} \implies \ln y = 2x \implies x = \frac{\ln y}{2}$.
 
-$f^{-1}(x) = \frac{1}{2}\ln x$Domain $x > 0$.
+$f^{-1}(x) = \frac{1}{2}\ln x$ Domain $x > 0$.
 
 $g^{-1}(x)$: $y = \ln(x + 1) \implies x + 1 = e^y \implies x = e^y - 1$.
 
-$g^{-1}(x) = e^x - 1$Domain all $\mathbb{R}$.
+$g^{-1}(x) = e^x - 1$ Domain all $\mathbb{R}$.
 
 $(f \circ g)(x) = f(g(x)) = f(\ln(x + 1)) = e^{2\ln(x+1)} = (x + 1)^2$.
 
@@ -647,7 +647,7 @@ Domain of $f \circ g$: we need $x + 1 > 0$ (for $g$), so $x > -1$.
 
 <hr />
 
-**Problem 9.** Sketch the graph of $y = |x^2 - 4|$Showing the coordinates of all points where the
+**Problem 9.** Sketch the graph of $y = |x^2 - 4|$ Showing the coordinates of all points where the
 Graph meets the axes.
 
 <details>
@@ -685,7 +685,7 @@ $\sqrt{4 + y} \geq 2$ So $x \geq 0$. Thus every $y \geq 0$ has a preimage.
 $y = x^2 + 4x \implies x^2 + 4x - y = 0 \implies x = \frac{-4 + \sqrt{16 + 4y}}{2}$
 (taking the positive root since $x \geq 0$).
 
-$f^{-1}(x) = -2 + \sqrt{4 + x} = \sqrt{x + 4} - 2$Domain $x \geq 0$.
+$f^{-1}(x) = -2 + \sqrt{4 + x} = \sqrt{x + 4} - 2$ Domain $x \geq 0$.
 
 </details>
 <b>If you get this wrong, revise:</b> [Inverse functions](#3-inverse-functions)
@@ -711,7 +711,7 @@ $g(x) = x^3 + x$ (c) $h(x) = x + 1$ (d) $k(x) = |x|$
 <hr />
 
 **Problem 12.** Given $f(x) = 2x + 3$ with domain $\mathbb{R}$ and $g(x) = \sqrt{x - 1}$ with domain
-$[1, \infty)$Find the domain of $f \circ g$ and $g \circ f$.
+$[1, \infty)$ Find the domain of $f \circ g$ and $g \circ f$.
 
 <details>
 <summary>Solution</summary>
@@ -752,7 +752,7 @@ If $x \neq 2$: divide both sides by $|x-2| > 0$:
 
 $|x - 3| \geq 1$
 
-This gives $x - 3 \geq 1$ or $x - 3 \leq -1$I.e., $x \geq 4$ or $x \leq 2$.
+This gives $x - 3 \geq 1$ or $x - 3 \leq -1$ I.e., $x \geq 4$ or $x \leq 2$.
 
 Combined with $x \neq 2$: $x \leq 2$ or $x \geq 4$.
 
@@ -768,7 +768,7 @@ Of the corresponding points on the graph of $y = 2f(3x - 1) + 4$.
 
 <details>
 <summary>Solution</summary>
-A point $(x_0, y_0)$ on $y = f(x)$ corresponds to a point on the new graph where $f(3x - 1) = y_0$I.e., $3x - 1 = x_0$ So $x = (x_0 + 1)/3$. The new $y$-value is $2y_0 + 4$.
+A point $(x_0, y_0)$ on $y = f(x)$ corresponds to a point on the new graph where $f(3x - 1) = y_0$ I.e., $3x - 1 = x_0$ So $x = (x_0 + 1)/3$. The new $y$-value is $2y_0 + 4$.
 
 For $(1, 3)$: new point is
 $\left(\frac{1+1}{3}, 2 \times 3 + 4\right) = \left(\frac{2}{3}, 10\right)$.

@@ -49,7 +49,7 @@ periodic table.
 
 **Solution:**
 
-(a) In an octahedral complex like $\text{[Cu(H}_2\text{O)}_6\text{]}^{2+}$The six water ligands
+(a) In an octahedral complex like $\text{[Cu(H}_2\text{O)}_6\text{]}^{2+}$ The six water ligands
 split the five degenerate d-orbitals into two groups: three lower-energy $t_{2g}$ orbitals and two
 higher-energy $e_g$ orbitals. The energy gap between these is the crystal field splitting energy
 ($\Delta_o$).
@@ -113,7 +113,7 @@ solution turns deep blue. Write the equation for this ligand exchange and explai
 $4.5 \times 10^{12}$. Explain what this value tells us about the stability of the complex compared
 to $\text{[Cu(H}_2\text{O)}_6\text{]}^{2+}$.
 
-(c) When dilute HCl is added to $\text{[Cu(NH}_3\text{)}_4\text{]}^{2+}$The colour changes from deep
+(c) When dilute HCl is added to $\text{[Cu(NH}_3\text{)}_4\text{]}^{2+}$ The colour changes from deep
 blue to pale blue-green. Write an equation for this reaction and explain what type of reaction it
 is.
 
@@ -144,9 +144,9 @@ $$
 $$
 
 This is a **ligand substitution reaction** driven by acid-base chemistry: the added $\text{H}^+$
-reacts with $\text{NH}_3$ (a base) to form $\text{NH}_4^+$Removing ammonia ligands from the
+reacts with $\text{NH}_3$ (a base) to form $\text{NH}_4^+$ Removing ammonia ligands from the
 coordination sphere. Water molecules then fill the vacant coordination sites. The equilibrium is
-driven to the right by the removal of $\text{NH}_3$ (Le Chatelier"s principle). The colour reverts
+driven to the right by the removal of $\text{NH}_3$ (Le Chatelier's principle). The colour reverts
 towards pale blue-green (the aqua complex colour, modified by the presence of chloride ions).
 
 ---
@@ -226,7 +226,7 @@ that the dichromate titration is not fully reaching all $\text{Fe}^{2+}$ under t
 (b) Both $\text{MnO}_4^-$ ($E^\circ = +1.51\,\text{V}$) and $\text{Cr}_2\text{O}_7^{2-}$
 ($E^\circ = +1.33\,\text{V}$) have more positive electrode potentials than
 $\text{Fe}^{3+}/\text{Fe}^{2+}$ ($E^\circ = +0.77\,\text{V}$). Since
-$E^\circ_{\text{cell}} = E^\circ_{\text{oxidising agent}} - E^\circ_{\text{Fe}^{3+}/\text{Fe}^{2+}}$Both
+$E^\circ_{\text{cell}} = E^\circ_{\text{oxidising agent}} - E^\circ_{\text{Fe}^{3+}/\text{Fe}^{2+}}$ Both
 reactions have positive $E^\circ_{\text{cell}}$ and are thermodynamically feasible:
 
 - $\text{MnO}_4^-$: $E^\circ_{\text{cell}} = 1.51 - 0.77 = +0.74\,\text{V}$ (feasible)
@@ -237,7 +237,7 @@ potential ($+1.51\,\text{V} \gt +1.33\,\text{V}$), meaning it has a greater tend
 electrons.
 
 (c) $\text{MnO}_4^-$ acts as a **self-indicator**. It is an intense purple colour in solution, and
-when it reacts with $\text{Fe}^{2+}$It is reduced to $\text{Mn}^{2+}$ which is virtually colourless
+when it reacts with $\text{Fe}^{2+}$ It is reduced to $\text{Mn}^{2+}$ which is virtually colourless
 (pale pink). As long as $\text{Fe}^{2+}$ remains in solution, any added $\text{MnO}_4^-$ is
 immediately decolourised. At the end point, when all $\text{Fe}^{2+}$ has been oxidised, the next
 drop of $\text{MnO}_4^-$ is not reduced and imparts a **persistent pink/purple colour** to the
@@ -325,7 +325,7 @@ Consider the following cobalt complexes:
 (a) Explain why $\text{[Co(H}_2\text{O)}_6\text{]}^{2+}$ is pink while
 $\text{[Co(NH}_3\text{)}_6\text{]}^{3+}$ is yellow-orange, even though both contain cobalt.
 
-(b) When concentrated HCl is added to a solution of $\text{[Co(H}_2\text{O)}_6\text{]}^{2+}$The
+(b) When concentrated HCl is added to a solution of $\text{[Co(H}_2\text{O)}_6\text{]}^{2+}$ The
 colour changes from pink to blue. Write an equation for this reaction and explain the colour change.
 
 (c) Explain why $\text{[Co(NH}_3\text{)}_6\text{]}^{3+}$ is much more stable than
@@ -341,7 +341,7 @@ $\text{[Co(H}_2\text{O)}_6\text{]}^{3+}$.
    possible d-d transitions and different absorbed wavelengths.
 
 2. **Different ligands:** $\text{NH}_3$ is a stronger field ligand than
-   $\text{H}_2\text{O}$Producing a larger crystal field splitting energy ($\Delta_o$). This shifts
+   $\text{H}_2\text{O}$ Producing a larger crystal field splitting energy ($\Delta_o$). This shifts
    the absorption to higher energy (shorter wavelength).
 
 For $\text{Co}^{3+}$ ($d^6$) in an octahedral field with strong ligands ($\text{NH}_3$), all
@@ -359,7 +359,7 @@ $$
 
 The colour changes from pink to blue because:
 
-- $\text{Cl}^-$ is a **weaker field ligand** than $\text{H}_2\text{O}$Producing a smaller $\Delta_o$
+- $\text{Cl}^-$ is a **weaker field ligand** than $\text{H}_2\text{O}$ Producing a smaller $\Delta_o$
   (or $\Delta_t$ in the tetrahedral case)
 - The complex changes from **octahedral** to **tetrahedral** geometry ($\text{[CoCl}_4\text{]}^{2-}$
   is tetrahedral)
@@ -372,14 +372,14 @@ The colour changes from pink to blue because:
 (c) $\text{[Co(NH}_3\text{)}_6\text{]}^{3+}$ is much more stable due to the **chelate effect** and
 **strong field ligand** properties of $\text{NH}_3$:
 
-1. **$\text{NH}_3$ is a stronger field ligand** than $\text{H}_2\text{O}$Forming stronger coordinate
+1. **$\text{NH}_3$ is a stronger field ligand** than $\text{H}_2\text{O}$ Forming stronger coordinate
    bonds with $\text{Co}^{3+}$.
 
-2. **$\text{Co}^{3+}$ with $\text{NH}_3$** is a low-spin complex with a large $\Delta_o$Giving it a
+2. **$\text{Co}^{3+}$ with $\text{NH}_3$** is a low-spin complex with a large $\Delta_o$ Giving it a
    very large ligand field stabilisation energy (LFSE). The $t_{2g}^6$ configuration maximises LFSE.
 
 3. **Thodynamic stability:** $\text{NH}_3$ is a better $\sigma$-donor than
-   $\text{H}_2\text{O}$Creating a stronger ligand-metal bond. The stability constant for
+   $\text{H}_2\text{O}$ Creating a stronger ligand-metal bond. The stability constant for
    $\text{[Co(NH}_3\text{)}_6\text{]}^{3+}$ is extremely large ($K_{\text{stab}} \approx 10^{35}$),
    while $\text{[Co(H}_2\text{O)}_6\text{]}^{3+}$ is much less stable.
 
@@ -416,7 +416,7 @@ $E^\circ(\text{Fe}^{3+}/\text{Fe}^{2+}) = +0.77\,\text{V}$, $E^\circ(\text{O}_2/
 
 (b) Haemoglobin contains $\text{Fe}^{2+}$ coordinated in an octahedral complex. Explain why
 $\text{O}_2$ can coordinate to the $\text{Fe}^{2+}$ in haemoglobin without oxidising it to
-$\text{Fe}^{3+}$Whereas in aqueous solution $\text{Fe}^{2+}$ is readily oxidised by oxygen.
+$\text{Fe}^{3+}$ Whereas in aqueous solution $\text{Fe}^{2+}$ is readily oxidised by oxygen.
 
 (c) Carbon monoxide (CO) is toxic because it binds to haemoglobin more strongly than $\text{O}_2$.
 Explain this in terms of ligand properties.
@@ -431,7 +431,7 @@ $$
 E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 1.23 - 0.77 = +0.46\,\text{V}
 $$
 
-$E^\circ_{\text{cell}} \gt 0$Confirming the reaction is thermodynamically feasible. The positive
+$E^\circ_{\text{cell}} \gt 0$ Confirming the reaction is thermodynamically feasible. The positive
 value ($\gt 0.3\,\text{V}$) indicates the reaction proceeds substantially to the right.
 
 (b) In haemoglobin, the iron is coordinated in a very specific environment:
@@ -443,7 +443,7 @@ value ($\gt 0.3\,\text{V}$) indicates the reaction proceeds substantially to the
    around the iron that physically hinders the approach of oxidising agents in orientations that
    would lead to electron transfer.
 
-3. **$\pi$-backbonding:** When $\text{O}_2$ binds to $\text{Fe}^{2+}$There is $\pi$-backbonding from
+3. **$\pi$-backbonding:** When $\text{O}_2$ binds to $\text{Fe}^{2+}$ There is $\pi$-backbonding from
    filled metal d-orbitals to empty $\pi^*$ orbitals of $\text{O}_2$. This delocalises electron
    density and stabilises the $\text{Fe}^{2+}$--$\text{O}_2$ bond without full electron transfer (no
    oxidation to $\text{Fe}^{3+}$).

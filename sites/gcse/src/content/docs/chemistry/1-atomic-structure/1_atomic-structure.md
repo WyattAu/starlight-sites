@@ -77,7 +77,7 @@ $$Z = 11, \quad A = 11 + 12 = 23$$ $$\mathrm{Electron configuration:  2, 8, 1$$
 **Worked Example.** An atom has 9 protons, 10 neutrons, and 9 electrons. Identify the element and
 Write its full notation.
 
-The atomic number $Z = 9$Which is fluorine. The mass number $A = 9 + 10 = 19$. The notation is
+The atomic number $Z = 9$ Which is fluorine. The mass number $A = 9 + 10 = 19$. The notation is
 $\prescript{19}{9}\mathrm{F$. Since the number of protons equals the number of electrons, this is a
 Neutral fluorine atom.
 
@@ -98,8 +98,8 @@ $A = 8 + 8 = 16$.
 | Bohr (1913)       | Electron shells | Electrons orbit the nucleus in fixed energy levels                   |
 | Chadwick (1932)   | With neutrons   | Discovered the neutron, completing the modern picture                |
 
-Each model superseded its predecessor because new experimental evidence forced a revision. Dalton"s
-Model could not explain cathode rays (Thomson). Thomson"s plum pudding model could not explain the
+Each model superseded its predecessor because new experimental evidence forced a revision. Dalton's
+Model could not explain cathode rays (Thomson). Thomson's plum pudding model could not explain the
 Gold foil results (Rutherford). Rutherford's model was unstable by classical electrodynamics -- a
 Charged electron orbiting a nucleus should radiate energy and spiral inward. Bohr resolved this by
 Postulating quantised orbits, although his model was itself superseded by the full quantum
@@ -126,7 +126,7 @@ Implies a concentrated, massive, positively charged core -- the nucleus.
 <summary>Quantitative intuition for the Rutherford experiment</summary>
 
 The fraction of alpha particles scattered through an angle greater than $\theta$ is proportional to
-$\left(\frac{Z_1 Z_2 e^2}{4 E}\right)^2 \cot^2\!\left(\frac{\theta}{2}\right)$Where $Z_1$ and $Z_2$
+$\left(\frac{Z_1 Z_2 e^2}{4 E}\right)^2 \cot^2\!\left(\frac{\theta}{2}\right)$ Where $Z_1$ and $Z_2$
 are the atomic numbers of the alpha particle and gold nucleus, $e$ is the elementary charge, And $E$
 is the kinetic energy of the alpha particle. This shows that large-angle scattering is Extremely
 rare -- consistent with a tiny nucleus.
@@ -210,7 +210,7 @@ $$
 Half-life.
 
 After $n$ half-lives: $40 \times \frac{1}{2^n} = 5$ So
-$\frac{1}{2^n} = \frac{5}{40} = \frac{1}{8}$Which gives $2^n = 8$ So $n = 3$. The half-life is
+$\frac{1}{2^n} = \frac{5}{40} = \frac{1}{8}$ Which gives $2^n = 8$ So $n = 3$. The half-life is
 $t_{1/2} = \frac{90}{3} = 30$ minutes.
 
 ### 2.5 Derivation: The Half-Life Formula
@@ -264,7 +264,7 @@ $$
 \sum_{\ell=0}^{n-1} 2(2\ell + 1) = 2\sum_{\ell=0}^{n-1}(2\ell + 1) = 2n^2
 $$
 
-The sum of the first $n$ odd numbers equals $n^2$Which is a well-known result from arithmetic.
+The sum of the first $n$ odd numbers equals $n^2$ Which is a well-known result from arithmetic.
 
 ### 3.2 Rules for Filling Shells
 
@@ -577,7 +577,7 @@ Atmosphere).
 
 The increasing boiling point down Group 0 is explained by increasing London dispersion forces as the
 Number of electrons increases. Helium ($A_r = 4$) has very weak intermolecular forces and boils at
-$-269^{\circ}\mathrm{C$Whereas xenon ($A_r = 131$) boils at $-108^{\circ}\mathrm{C$.
+$-269^{\circ}\mathrm{C$ Whereas xenon ($A_r = 131$) boils at $-108^{\circ}\mathrm{C$.
 
 ### 5.6 Transition Metals
 

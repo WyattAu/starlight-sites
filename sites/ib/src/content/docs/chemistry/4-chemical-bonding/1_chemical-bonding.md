@@ -111,7 +111,7 @@ $$
 
 ### The Born-Haber Cycle
 
-The Born-Haber cycle is an application of Hess"s law that links lattice energy to thermodynamic data
+The Born-Haber cycle is an application of Hess's law that links lattice energy to thermodynamic data
 You can measure experimentally.
 
 **Definition.** The **Born-Haber cycle** is a thermochemical cycle that decomposes the formation of
@@ -321,7 +321,7 @@ This model explains the key properties of metals:
 | Nuclear charge              | Higher charge = stronger attraction        | Ca $\gt$ K  |
 | Ionic radius                | Smaller radius = stronger bond             | Mg $\gt$ Ca |
 
-| Metal | Melting Point ($\degree$C) | Reason                               |
+| Metal | Melting Point ($\degree$ C) | Reason                               |
 | ----- | -------------------------- | ------------------------------------ |
 | Na    | 98                         | 1 valence electron, large radius     |
 | Mg    | 650                        | 2 valence electrons                  |
@@ -377,7 +377,7 @@ Factors affecting London dispersion force strength:
 1. **Number of electrons:** More electrons = larger electron cloud = stronger temporary dipoles.
 2. **Molecular shape (surface area):** Larger contact area between molecules = stronger forces.
 
-| Molecule     | Electrons | Boiling Point ($\degree$C) | Reason                       |
+| Molecule     | Electrons | Boiling Point ($\degree$ C) | Reason                       |
 | ------------ | --------- | -------------------------- | ---------------------------- |
 | CH$_4$       | 10        | -161                       | Few electrons, small surface |
 | C$_2$H$_6$   | 18        | -89                        | More electrons               |
@@ -402,7 +402,7 @@ Requirements:
 - A hydrogen atom bonded to N, O, or F.
 - A lone pair on an N, O, or F atom on a neighbouring molecule.
 
-| Substance | Boiling Point ($\degree$C) | Why so high?                          |
+| Substance | Boiling Point ($\degree$ C) | Why so high?                          |
 | --------- | -------------------------- | ------------------------------------- |
 | H$_2$O    | 100                        | Extensive hydrogen bonding network    |
 | HF        | 20                         | Strong H-bonds (1 per molecule)       |
@@ -1143,7 +1143,7 @@ Describe the bonding in ethyne, C$_2$H$_2$Including hybridization and the types 
 
 The following substances have the boiling points shown:
 
-| Substance | Boiling Point ($\degree$C) |
+| Substance | Boiling Point ($\degree$ C) |
 | --------- | -------------------------- |
 | CH$_4$    | -161                       |
 | SiH$_4$   | -112                       |
@@ -1259,11 +1259,11 @@ $$
 \Delta H_{\mathrm{LE}} \propto -\frac{|z^+| \cdot |z^-|}{r_+ + r_-}
 $$
 
-In $\mathrm{MgO}$Both ions are doubly charged ($\mathrm{Mg}^{2+}$ and $\mathrm{O}^{2-}$), so
-$|z^+| \cdot |z^-| = 2 \times 2 = 4$. In $\mathrm{NaCl}$Both ions are singly charged
+In $\mathrm{MgO}$ Both ions are doubly charged ($\mathrm{Mg}^{2+}$ and $\mathrm{O}^{2-}$), so
+$|z^+| \cdot |z^-| = 2 \times 2 = 4$. In $\mathrm{NaCl}$ Both ions are singly charged
 ($\mathrm{Na}^+$ and $\mathrm{Cl}^-$), so $|z^+| \cdot |z^-| = 1 \times 1 = 1$. The electrostatic
 Attraction is approximately four times stronger for $\mathrm{MgO}$. Additionally, $\mathrm{O}^{2-}$
-Is smaller than $\mathrm{Cl}^-$Further increasing the lattice energy.
+Is smaller than $\mathrm{Cl}^-$ Further increasing the lattice energy.
 
 </details>
 

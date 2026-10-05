@@ -61,13 +61,13 @@ doubling every month) causes money to lose its functions.
    barter. Example: A baker buys flour from a miller using money, without needing to find a miller
    who wants bread.
 2. **Unit of account**: Money provides a standard measure of value, allowing prices to be expressed
-   in a common unit. Example: A smartphone costs $\$5000$ and a meal costs $\$100$Making it easy to
+   in a common unit. Example: A smartphone costs $\$5000$ and a meal costs $\$100$ Making it easy to
    compare values.
 3. **Store of value**: Money allows purchasing power to be saved and used in the future. Example: A
    worker saves $\$2000$ per month in a bank account to buy a car next year.
 
 (b) Quantity theory: $MV = PY$. If velocity $V$ is constant: growth rate of $M$ $=$ growth rate of
-$P$ $+$ growth rate of $Y$. $\hat{M} = \hat{P} + \hat{Y}$. $15\% = \hat{P} + 3\%$So
+$P$ $+$ growth rate of $Y$. $\hat{M} = \hat{P} + \hat{Y}$. $15\% = \hat{P} + 3\%$ So
 $\hat{P} = 12\%$.
 
 Predicted inflation rate: **12%**.
@@ -78,15 +78,15 @@ Predicted inflation rate: **12%**.
   transaction agreement and actual payment. They switch to barter or foreign currency.
 - **Unit of account**: Prices change so rapidly that accounting in the domestic currency becomes
   meaningless. Firms may price in stable foreign currencies.
-- **Store of value**: Money"s purchasing power evaporates. Holding cash means guaranteed losses.
+- **Store of value**: Money's purchasing power evaporates. Holding cash means guaranteed losses.
   People spend money immediately or convert to real assets.
 
 ### UT-3: Interest Rate Determination
 
-**Question:** The demand for money (liquidity preference) is $L = 500 - 20i + 0.5Y$Where $i$ is the
+**Question:** The demand for money (liquidity preference) is $L = 500 - 20i + 0.5Y$ Where $i$ is the
 interest rate (in %) and $Y$ is real income. The money supply is fixed at $\$600$ billion. (a)
 Calculate the equilibrium interest rate when $Y = 1000$. (b) If the central bank increases the money
-supply to $\$700$B, calculate the new equilibrium interest rate. (c) If real income rises to
+supply to $\$700$ B, calculate the new equilibrium interest rate. (c) If real income rises to
 $Y = 1200$ with the original money supply, what happens to the interest rate? Explain the mechanism.
 
 **Solution:**
@@ -122,19 +122,19 @@ driving bond prices down and interest rates up (from 20% to 25%).
 ### IT-1: Banking System and Monetary Policy (with Fiscal Policy)
 
 **Question:** The central bank wants to stimulate the economy but the government is simultaneously
-running a large budget deficit. The required reserve ratio is 12.5%, and banks hold $\$200$B in
+running a large budget deficit. The required reserve ratio is 12.5%, and banks hold $\$200$ B in
 required reserves with no excess reserves. (a) Calculate the current money supply. (b) The central
-bank buys $\$10$B of government bonds. Calculate the maximum change in the money supply. (c) Explain
+bank buys $\$10$ B of government bonds. Calculate the maximum change in the money supply. (c) Explain
 how the government's bond issuance to finance its deficit might counteract the central bank's
 expansionary policy (crowding out through the banking system). (d) If the government finances its
 deficit by borrowing from the central bank, what is this called and what is the risk?
 
 **Solution:**
 
-(a) Money supply $= \frac{\text{Reserves}}{    ext{rrr}} = \frac{200}{0.125} = \$1600$B.
+(a) Money supply $= \frac{\text{Reserves}}{    ext{rrr}} = \frac{200}{0.125} = \$1600$ B.
 
-(b) $\$10$B open market purchase increases reserves by $\$10$B. Maximum change
-$= \frac{10}{0.125} = \$80$B. New money supply $= 1600 + 80 = \$1680$B.
+(b) $\$10$ B open market purchase increases reserves by $\$10$ B. Maximum change
+$= \frac{10}{0.125} = \$80$ B. New money supply $= 1600 + 80 = \$1680$ B.
 
 (c) When the government issues bonds to finance its deficit, it competes with the private sector for
 loanable funds. Banks that buy government bonds have fewer funds available for private lending. This
@@ -150,8 +150,8 @@ hyperinflation. This is why many central banks have operational independence fro
 
 ### IT-2: Inflation and Interest Rates (with National Income)
 
-**Question:** An economy has: nominal GDP $= \$2000$B, real GDP $= \$1600$B, money supply
-$= \$800$B. (a) Calculate the GDP deflator, inflation rate (base year deflator was 100), and
+**Question:** An economy has: nominal GDP $= \$2000$ B, real GDP $= \$1600$ B, money supply
+$= \$800$ B. (a) Calculate the GDP deflator, inflation rate (base year deflator was 100), and
 velocity of money. (b) If the central bank targets 2% inflation and real GDP is expected to grow at
 4%, calculate the required money supply growth rate. (c) A bank offers a nominal interest rate of 8%
 on deposits. Calculate the real interest rate. (d) If inflation unexpectedly rises to 10%, who
@@ -178,8 +178,8 @@ premiums and why inflation uncertainty is harmful to financial markets.
 
 **Question:** Banks perform financial intermediation, transforming short-term deposits into
 long-term loans. (a) Explain the problem of asymmetric information in banking, identifying both
-adverse selection and moral hazard. (b) A bank has deposits of $\$500$B, reserves of $\$50$B, and
-loans of $\$450$B. The required reserve ratio is 8%. Calculate: actual reserve ratio, excess
+adverse selection and moral hazard. (b) A bank has deposits of $\$500$ B, reserves of $\$50$ B, and
+loans of $\$450$ B. The required reserve ratio is 8%. Calculate: actual reserve ratio, excess
 reserves, and the maximum additional lending. (c) Explain how a bank run can occur and why deposit
 insurance addresses a market failure. (d) How does this relate to the concept of confidence in the
 monetary system?
@@ -195,8 +195,8 @@ higher average risk of loan applicants than the population as a whole.
 riskier behaviour than the bank agreed to (e.g., investing in speculative projects), because the
 bank bears part of the loss if the project fails while the borrower captures the upside.
 
-(b) Actual reserve ratio $= 50/500 = 10\%$. Required reserves $= 0.08 \times 500 = \$40$B. Excess
-reserves $= 50 - 40 = \$10$B. Maximum additional lending $= \$10$B (these excess reserves can be
+(b) Actual reserve ratio $= 50/500 = 10\%$. Required reserves $= 0.08 \times 500 = \$40$ B. Excess
+reserves $= 50 - 40 = \$10$ B. Maximum additional lending $= \$10$ B (these excess reserves can be
 lent out directly, subject to the multiplier process).
 
 (c) A bank run occurs when depositors lose confidence in a bank's ability to repay their deposits.
@@ -272,7 +272,7 @@ $$
 
 The multiplier falls from 4.6 to 4.0. The increase in the currency ratio means more money is held as
 cash outside the banking system, where it cannot be multiplied through lending. This is a leakage
-that reduces the effectiveness of monetary policy. If the central bank injected $\$50$B, the broad
+that reduces the effectiveness of monetary policy. If the central bank injected $\$50$ B, the broad
 money supply would now increase by only $4.0 \times 50 = \$200$ billion instead of $\$230$ billion
 -- a reduction of $\$30$ billion. This illustrates why confidence shocks can be self-reinforcing:
 higher cash withdrawals reduce the multiplier, contracting the money supply further.
@@ -428,7 +428,7 @@ currency.
 $F = E \times \frac{1 + i_A}{1 + i_B} = 5 \times \frac{1.02}{1.05} = 5 \times 0.9714 = 4.857$.
 
 The theoretical forward rate is 4.857, but the actual forward rate is 4.9. Since
-$F_{actual} (4.9) > F_{theoretical} (4.857)$There is an arbitrage opportunity:
+$F_{actual} (4.9) > F_{theoretical} (4.857)$ There is an arbitrage opportunity:
 
 1. Borrow in A's currency at 2%.
 2. Convert to B's currency at the spot rate (5.0).
@@ -486,7 +486,7 @@ minimum leverage ratio is 3%, so this bank is well above the minimum.)
 - Total capital minimum: $8\% \times 350 = \text{HK}\$28$ billion.
 
 Assuming all equity is CET1 capital (HK$100$ billion), the bank far exceeds all minimum ratios: CET1
-ratio $= 100/350 = 28.6\%$Tier 1 ratio $= 28.6\%$Total capital ratio $= 28.6\%$. These all exceed
+ratio $= 100/350 = 28.6\%$ Tier 1 ratio $= 28.6\%$ Total capital ratio $= 28.6\%$. These all exceed
 the Basel III minima comfortably, plus the capital conservation buffer (2.5%) and countercyclical
 buffer (0--2.5%).
 
@@ -523,7 +523,7 @@ Inflation rate $= \frac{156.25 - 125}{125} \times 100\% = 25\%$.
 When $V$ and $Y$ are constant, the inflation rate equals the money supply growth rate (the
 "neutrality of money" result).
 
-(c) New $V = 5$New $Y = 16 \times 0.90 = 14.4$. $M = 625$ (from part b). $MV = 625 \times 5 = 3125$.
+(c) New $V = 5$ New $Y = 16 \times 0.90 = 14.4$. $M = 625$ (from part b). $MV = 625 \times 5 = 3125$.
 $P = 3125 / 14.4 = 217.0$.
 
 Inflation rate from original: $\frac{217.0 - 125}{125} \times 100\% = 73.6\%$.

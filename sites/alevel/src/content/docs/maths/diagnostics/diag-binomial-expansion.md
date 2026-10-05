@@ -40,7 +40,7 @@ flowchart TD
 
 **Question:**
 
-**(a)** Find the binomial expansion of $(1 + 2x)^{1/2}$ up to and including the term in $x^3$Stating
+**(a)** Find the binomial expansion of $(1 + 2x)^{1/2}$ up to and including the term in $x^3$ Stating
 the range of values of $x$ for which the expansion is valid.
 
 **(b)** Use your expansion to estimate $\sqrt{1.02}$ to 6 decimal places, and determine whether your
@@ -89,11 +89,11 @@ $$
 = 1 + x - \frac{1}{2}x^2 + \frac{1}{2}x^3 + \cdots
 $$
 
-The expansion is valid when $|2x| < 1$I.e. $|x| < \frac{1}{2}$.
+The expansion is valid when $|2x| < 1$ I.e. $|x| < \frac{1}{2}$.
 
-**(b)** To estimate $\sqrt{1.02} = (1.02)^{1/2}$Set $1 + 2x = 1.02$Giving $2x = 0.02$, $x = 0.01$.
+**(b)** To estimate $\sqrt{1.02} = (1.02)^{1/2}$ Set $1 + 2x = 1.02$ Giving $2x = 0.02$, $x = 0.01$.
 
-Since $|0.01| < 0.5$The expansion is valid.
+Since $|0.01| < 0.5$ The expansion is valid.
 
 $$
 \sqrt{1.02} \approx 1 + 0.01 - \frac{1}{2}(0.0001) + \frac{1}{2}(0.000001)
@@ -112,7 +112,7 @@ Computing
 $\binom{1/2}{4} = \frac{(1/2)(-1/2)(-3/2)(-5/2)}{24} = \frac{-15/16}{24} = -\frac{5}{128}$. So the
 $x^4$ term is $-\frac{5}{128} \cdot 16x^4 = -\frac{5}{8}x^4$.
 
-At $x = 0.01$: $-\frac{5}{8}(10^{-8}) \approx -6.25 \times 10^{-9}$Which does not affect the 6th
+At $x = 0.01$: $-\frac{5}{8}(10^{-8}) \approx -6.25 \times 10^{-9}$ Which does not affect the 6th
 decimal place.
 
 So $\sqrt{1.02} \approx 1.009950$ to 6 decimal places.
@@ -219,7 +219,7 @@ Coefficient of $x^4$: $15 + 100 + 240 + 240 + 80 = 675$.
 **Question:**
 
 **(a)** Find the first four terms in the expansion of $(2 - 3x)^{-2}$ in ascending powers of
-$x$Stating the range of validity.
+$x$ Stating the range of validity.
 
 **(b)** If the coefficient of $x^2$ in the expansion of $(2 - 3x)^{-2}(1 + ax)$ is zero, find the
 value of $a$.
@@ -268,7 +268,7 @@ $$
 (2-3x)^{-2} = \frac{1}{4} + \frac{3x}{4} + \frac{27x^2}{16} + \frac{27x^3}{8} + \cdots
 $$
 
-Valid when $|\frac{3x}{2}| < 1$I.e. $|x| < \frac{2}{3}$.
+Valid when $|\frac{3x}{2}| < 1$ I.e. $|x| < \frac{2}{3}$.
 
 **(b)**
 $(2-3x)^{-2}(1+ax) = \left(\frac{1}{4} + \frac{3x}{4} + \frac{27x^2}{16} + \cdots\right)(1 + ax)$.
@@ -287,7 +287,7 @@ $1 = \frac{1}{4} \cdot 4$$\frac{3}{2} = \frac{3}{4} \cdot 2$$\frac{27}{8} = \fra
 
 The series $(2-3x)^{-2} = \frac{1}{4} + \frac{3x}{4} + \frac{27x^2}{16} + \frac{27x^3}{8} + \cdots$
 evaluated at $x = 1$ would give
-$\frac{1}{4} + \frac{3}{4} + \frac{27}{16} + \frac{27}{8} + \cdots$Which does not match.
+$\frac{1}{4} + \frac{3}{4} + \frac{27}{16} + \frac{27}{8} + \cdots$ Which does not match.
 
 Let me re-examine. The series
 $(1 - \frac{3x}{2})^{-2} = 1 + 3x + \frac{27x^2}{4} + \frac{27x^3}{2} + \cdots$. At
@@ -295,7 +295,7 @@ $x = \frac{1}{2}$:
 
 $1 + \frac{3}{2} + \frac{27}{16} + \frac{27}{16} + \cdots$
 
-That gives $1 + 3/2 + 27/16 + 27/16 + \cdots$Not matching.
+That gives $1 + 3/2 + 27/16 + 27/16 + \cdots$ Not matching.
 
 At $x = 1$: $1 + 3 + 27/4 + 27/2 + \cdots = 1 + 3 + 6.75 + 13.5 + \cdots$. Not matching either.
 
@@ -329,7 +329,7 @@ complicated. The simplest approach: the series is $(1-3/2)^{-2} = (-1/2)^{-2} = 
 sum it, but the expansion doesn't converge there.
 
 The correct identification: the series $1 + 3/2 + 27/8 + 135/16 + \cdots$ is the expansion of
-$(1 - 3x/2)^{-2}$ at $x = 1$Giving the sum $(1 - 3/2)^{-2} = 4$. Although the series diverges at
+$(1 - 3x/2)^{-2}$ at $x = 1$ Giving the sum $(1 - 3/2)^{-2} = 4$. Although the series diverges at
 $x = 1$ (since $|3/2| > 1$), the value can be assigned by analytic continuation. For the purpose of
 this question, the sum is $\boxed{4}$.
 
@@ -418,7 +418,7 @@ $$
 = 0.096851851...
 $$
 
-The next term involves $\binom{-2/3}{3}x^3$Which integrates to give a term of order $10^{-5}$Not
+The next term involves $\binom{-2/3}{3}x^3$ Which integrates to give a term of order $10^{-5}$ Not
 affecting 8 decimal places.
 
 To 8 decimal places: $\boxed{0.09685185}$.
@@ -443,7 +443,7 @@ that makes the divisibility by 8 evident.
 
 **(b)** Hence prove that $3^{2n} - 1$ is divisible by 8 for all positive integers $n$.
 
-**(c)** Prove that $7^n - 1$ is divisible by 6 for all positive integers $n$Using a similar method.
+**(c)** Prove that $7^n - 1$ is divisible by 6 for all positive integers $n$ Using a similar method.
 
 **(d)** Prove by induction that $3^{2n} + 2^{n+2}$ is divisible by 7 for all $n \geq 1$.
 

@@ -99,7 +99,7 @@ For the SM, the coefficients are:
 - $b_2 = -19/(6\pi)$ for $\mathrm{SU}(2)_L$
 - $b_3 = -7/\pi$ for $\mathrm{SU}(3)_C$
 
-At the unification scale $M_{\mathrm{GUT}}$All three couplings are equal:
+At the unification scale $M_{\mathrm{GUT}}$ All three couplings are equal:
 $\alpha_1^{-1}(M_{\mathrm{GUT}) = \alpha_2^{-1}(M_{\mathrm{GUT}) = \alpha_3^{-1}(M_{\mathrm{GUT})}}}$.
 
 Setting $\alpha_1^{-1} = \alpha_2^{-1}$:

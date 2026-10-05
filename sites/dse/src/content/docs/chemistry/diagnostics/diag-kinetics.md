@@ -32,7 +32,7 @@ data were obtained:
 
 (a) Determine the order of reaction with respect to $A$ and with respect to $B$. [3 marks]
 
-(b) Write the rate equation and calculate the rate constant $k$Including its units. [3 marks]
+(b) Write the rate equation and calculate the rate constant $k$ Including its units. [3 marks]
 
 (c) Using the rate equation, predict the initial rate when $[A] = 0.15$ and $[B] = 0.25$
 mol/dm$^{3}$. [2 marks]
@@ -142,7 +142,7 @@ Increasing temperature increases the rate because:
 
 (c) The claim is **incorrect**. A catalyst **lowers the activation energy** ($E_{a}$) rather than
 shifting the distribution. The Maxwell-Boltzmann distribution itself does not change. By lowering
-$E_{a}$A larger area under the **same** distribution curve now exceeds the threshold, meaning more
+$E_{a}$ A larger area under the **same** distribution curve now exceeds the threshold, meaning more
 molecules have sufficient energy to react.
 
 ---
@@ -168,7 +168,7 @@ $$
 
 (a) Define the term **activation energy**. [1 mark]
 
-(b) Explain how $MnO_{2}$ increases the rate of decomposition of $H_{2}O_{2}$Using the term
+(b) Explain how $MnO_{2}$ increases the rate of decomposition of $H_{2}O_{2}$ Using the term
 "alternative reaction pathway." [3 marks]
 
 (c) Does $MnO_{2}$ change the enthalpy change ($\Delta H$) of the reaction? Explain. [2 marks]
@@ -279,7 +279,7 @@ tripled while $[F_{2}]$ is kept constant, by what factor does the rate change? [
 
 **Worked Solution**
 
-(a) Overall order = $1 + 1 = 2$ (first order in $NO_{2}$First order in $F_{2}$).
+(a) Overall order = $1 + 1 = 2$ (first order in $NO_{2}$ First order in $F_{2}$).
 
 (b) If the reaction occurred in a single step involving the collision of $2NO_{2}$ and $F_{2}$
 simultaneously (a termolecular collision), the rate equation would be:
@@ -288,7 +288,7 @@ $$
 \text{Rate} = k[NO_{2}]^{2}[F_{2}]
 $$
 
-This predicts **second order** with respect to $NO_{2}$Which contradicts the experimentally
+This predicts **second order** with respect to $NO_{2}$ Which contradicts the experimentally
 determined rate equation (first order in $NO_{2}$). Therefore, the one-step mechanism is
 inconsistent.
 
@@ -308,7 +308,7 @@ $$
 
 This matches the experimental rate equation.
 
-(d) Since the reaction is first order in $NO_{2}$Tripling $[NO_{2}]$ will **triple** the rate
+(d) Since the reaction is first order in $NO_{2}$ Tripling $[NO_{2}]$ will **triple** the rate
 (factor of 3).
 
 ---
@@ -326,7 +326,7 @@ This matches the experimental rate equation.
 
 **Question**
 
-For the reaction $A \rightarrow B + C$The following data were collected:
+For the reaction $A \rightarrow B + C$ The following data were collected:
 
 | Time (s) | $[A]$ (mol/dm$^{3}$) |
 | -------- | -------------------- |
@@ -497,9 +497,9 @@ k_{2} = 13.60 \times 2.5 \times 10^{-3} = 3.40 \times 10^{-2} \text{ s}^{-1}
 $$
 
 (c) The statement is an **overgeneralisation**. While it is true that at higher temperatures, a
-larger proportion of molecules have energy above $E_{a}$The Maxwell-Boltzmann distribution always
+larger proportion of molecules have energy above $E_{a}$ The Maxwell-Boltzmann distribution always
 has a tail extending to very low energies. At any finite temperature, some molecules will always
-have energy below $E_{a}$. Furthermore, even if all molecules exceed $E_{a}$The rate still depends
+have energy below $E_{a}$. Furthermore, even if all molecules exceed $E_{a}$ The rate still depends
 on the **collision frequency** and the correct **orientation** of collisions (the steric/entropy
 factor). The rate would increase dramatically but would not be truly "instantaneous." In practice,
 at very high temperatures, other factors such as reactant decomposition or competing reactions may

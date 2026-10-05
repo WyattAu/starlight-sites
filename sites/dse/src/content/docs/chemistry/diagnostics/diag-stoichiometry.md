@@ -482,7 +482,7 @@ $$
 P(CO_{2}) = 101 - 2.3 = 98.7 \text{ kPa}
 $$
 
-Using Boyle"s law (at constant temperature, $P_{1}V_{1} = P_{2}V_{2}$) to find volume at atmospheric
+Using Boyle's law (at constant temperature, $P_{1}V_{1} = P_{2}V_{2}$) to find volume at atmospheric
 pressure:
 
 $$

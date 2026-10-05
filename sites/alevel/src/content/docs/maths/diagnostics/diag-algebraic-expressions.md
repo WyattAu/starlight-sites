@@ -102,7 +102,7 @@ $$
 
 **Final restrictions:** $x \neq -1, 1, 0$.
 
-**Verification:** If $x = 2$The original expression gives
+**Verification:** If $x = 2$ The original expression gives
 $\frac{\frac{1}{3}+\frac{1}{1}}{\frac{1}{9}-\frac{1}{1}} = \frac{4/3}{-8/9} = -\frac{3}{2}$ And
 our result gives $-\frac{4-1}{2} = -\frac{3}{2}$. Consistent.
 
@@ -247,7 +247,7 @@ $$
 
 **Question:**
 
-Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$Find the exact value of:
+Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$ Find the exact value of:
 
 $$
 \frac{a^{\frac{3}{2}} - a^{-\frac{3}{2}}}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}}
@@ -271,8 +271,8 @@ $$
 \frac{\left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}} = a + 1 + a^{-1}
 $$
 
-Provided $a^{1/2} - a^{-1/2} \neq 0$I.e. $a \neq 1$. (If $a = 1$The given condition would give
-$2 = 5$A contradiction, so $a \neq 1$ is guaranteed.)
+Provided $a^{1/2} - a^{-1/2} \neq 0$ I.e. $a \neq 1$. (If $a = 1$ The given condition would give
+$2 = 5$ A contradiction, so $a \neq 1$ is guaranteed.)
 
 **Step 2: Find $a + a^{-1}$ from the given condition.**
 
@@ -318,7 +318,7 @@ $$
 (1 + 2x)^{-1} = 1 - 2x + 4x^2 - 8x^3 + \cdots
 $$
 
-By writing $x = \frac{1}{y}$ for $y \geq 5$Find the exact rational expression for:
+By writing $x = \frac{1}{y}$ for $y \geq 5$ Find the exact rational expression for:
 
 $$
 \frac{y^4}{y + 2} - \frac{y^4}{y^2 + 2y}
@@ -369,7 +369,7 @@ $$
 
 But our expression also has the term $-\frac{y^3}{y+2} = -y^3(1 + 2/y)^{-1}$ So we get
 $-(y^3 - 2y^2 + 4y - 8) = -y^3 + 2y^2 - 4y + 8$ plus the remainder terms. Adding $y^4/(y+2)$ back
-and collecting, the polynomial part is $y^3 - 3y^2 + 6y - 12$Consistent with our exact division.
+and collecting, the polynomial part is $y^3 - 3y^2 + 6y - 12$ Consistent with our exact division.
 
 The binomial expansion confirms the coefficients $1, -3, 6, -12$ for the polynomial part, and the
 remainder $\frac{24}{y+2}$ accounts for the terms beyond $x^3$ in the expansion.
@@ -391,11 +391,11 @@ remainder $\frac{24}{y+2}$ accounts for the terms beyond $x^3$ in the expansion.
 
 Given the function $f(x) = \frac{3x + 1}{x - 2}$ for $x \neq 2$:
 
-**(a)** Find $f^{-1}(x)$Stating its domain.
+**(a)** Find $f^{-1}(x)$ Stating its domain.
 
 **(b)** Simplify $\frac{f(x) + f^{-1}(x)}{f(x) - f^{-1}(x)}$ to a constant.
 
-**(c)** If $g(x) = \frac{x}{x+1}$Simplify $f(g(x))$ and find the value of $x$ for which
+**(c)** If $g(x) = \frac{x}{x+1}$ Simplify $f(g(x))$ and find the value of $x$ for which
 $f(g(x)) = x$.
 
 [Difficulty: hard. Combines inverse functions, algebraic fraction manipulation, and equation
@@ -458,7 +458,7 @@ $\frac{f(x) \cdot f^{-1}(x)}{f(x) + f^{-1}(x)}$ should be checked, or alternativ
 expression simplifies when we use the property $f(f^{-1}(x)) = x$.
 
 Actually, re-examining: for a M\"obius transformation $f(x) = \frac{ax+b}{cx+d}$ with
-$ad - bc \neq 0$ and $a = 3, b = 1, c = 1, d = -2$We have
+$ad - bc \neq 0$ and $a = 3, b = 1, c = 1, d = -2$ We have
 $f^{-1}(x) = \frac{-dx+b}{cx-a} = \frac{2x+1}{x-3}$.
 
 The question asks us to simplify. Let us instead compute:
@@ -536,7 +536,7 @@ Where $m > n$ are positive integers:
 **(b)** Hence find the exact value of $\sqrt{7 - 4\sqrt{3}}$.
 
 **(c)** Solve the equation
-$\sqrt{7 + 4\sqrt{3}} \cdot x^2 - (m+n)x + \sqrt{7 - 4\sqrt{3}} = 0$Giving your answer
+$\sqrt{7 + 4\sqrt{3}} \cdot x^2 - (m+n)x + \sqrt{7 - 4\sqrt{3}} = 0$ Giving your answer
 in the form $p + q\sqrt{r}$.
 
 [Difficulty: hard. Combines surd manipulation, denesting, and solving equations with irrational
@@ -558,7 +558,7 @@ Equating rational and irrational parts:
 - $2\sqrt{mn} = 4\sqrt{3} \implies \sqrt{mn} = 2\sqrt{3} \implies mn = 12$
 
 We need integers $m > n$ with $m + n = 7$ and $mn = 12$. By Vieta's formulas, $m$ and $n$ are roots
-of $t^2 - 7t + 12 = 0$Giving $(t-3)(t-4) = 0$.
+of $t^2 - 7t + 12 = 0$ Giving $(t-3)(t-4) = 0$.
 
 Since $m > n$: $\boxed{m = 4, n = 3}$.
 

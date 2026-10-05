@@ -115,7 +115,7 @@ $z = 5\,e^{i(\pi + \arctan(4/3))}$.
 
 </details>
 
-### 1.4 Euler"s Formula and De Moivre’s Theorem
+### 1.4 Euler's Formula and De Moivre’s Theorem
 
 **Euler's formula:** $e^{i\theta} = \cos\theta + i\sin\theta$.
 
@@ -125,10 +125,10 @@ $$
 (\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)
 $$
 
-**Proposition 1.5.** De Moivre's theorem holds for all integers $n$Including negative values.
+**Proposition 1.5.** De Moivre's theorem holds for all integers $n$ Including negative values.
 
-_Proof._ For $n \geq 0$It follows by induction from the multiplication law
-$e^{i\alpha}e^{i\beta} = e^{i(\alpha + \beta)}$. For $n \lt 0$Write $n = -m$ with $m \gt 0$:
+_Proof._ For $n \geq 0$ It follows by induction from the multiplication law
+$e^{i\alpha}e^{i\beta} = e^{i(\alpha + \beta)}$. For $n \lt 0$ Write $n = -m$ with $m \gt 0$:
 $(\cos\theta + i\sin\theta)^n = \frac{1}{(\cos\theta + i\sin\theta)^m}
 = \frac{1}{\cos(m\theta) + i\sin(m\theta)} = \cos(-m\theta) + i\sin(-m\theta) = \cos(n\theta) + i\sin(n\theta)$.
 $\blacksquare$
@@ -184,11 +184,11 @@ $$
 
 Where $\rho^{1/n} \gt 0$ is the positive real $n$-th root of $\rho$.
 
-_Proof._ If $z^n = w$Write $z = r\,e^{i\theta}$. Then $r^n e^{in\theta} = \rho\, e^{i\phi}$ So
+_Proof._ If $z^n = w$ Write $z = r\,e^{i\theta}$. Then $r^n e^{in\theta} = \rho\, e^{i\phi}$ So
 $r = \rho^{1/n}$ and $n\theta = \phi + 2\pi k$. For $k = 0, 1, \ldots, n-1$ these give distinct
 Values of $\theta$; for $k \geq n$ they repeat. $\blacksquare$
 
-_Remark._ The $n$-th roots of $w$ lie equally spaced on a circle of radius $\rho^{1/n}$Forming a
+_Remark._ The $n$-th roots of $w$ lie equally spaced on a circle of radius $\rho^{1/n}$ Forming a
 Regular $n$-gon.
 
 ### 1.6 Roots of Unity

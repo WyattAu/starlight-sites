@@ -71,7 +71,7 @@ $$
 \frac{(x-1)(x-2)}{(x+3)(x-2)} = \frac{(x-1)(x-2)}{(x+3)(x-2)}
 $$
 
-For $x \neq 2$We can cancel $(x-2)$ but must remember the sign changes. Instead, analyse using a
+For $x \neq 2$ We can cancel $(x-2)$ but must remember the sign changes. Instead, analyse using a
 sign table:
 
 | Interval | $(x+3)$ | $(x-1)$ | $(x-2)$ | Expression                                                                       |
@@ -97,7 +97,7 @@ Sign analysis:
 
 **Step 5: Assemble the solution.**
 
-The expression is non-negative when $x < -3$, $1 \leq x < 2$Or $x > 2$.
+The expression is non-negative when $x < -3$, $1 \leq x < 2$ Or $x > 2$.
 
 $$
 x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)
@@ -194,7 +194,7 @@ $$x^2 + (2-x)^2 = 1$$ $$x^2 + 4 - 4x + x^2 = 1$$ $$2x^2 - 4x + 3 = 0$$
 
 Discriminant: $\Delta = 16 - 24 = -8 < 0$.
 
-Since $\Delta < 0$There are no real values of $x$Hence no real solutions to the system.
+Since $\Delta < 0$ There are no real values of $x$ Hence no real solutions to the system.
 
 **Finding the critical value of $k$:**
 
@@ -251,9 +251,9 @@ This confirms our algebraic result.
 
 The function $f$ is defined by $f(x) = \frac{2x+3}{x-1}$ for $x > 1$.
 
-**(a)** Find $f^{-1}(x)$Stating its domain and range.
+**(a)** Find $f^{-1}(x)$ Stating its domain and range.
 
-**(b)** Solve the equation $f(x) = f^{-1}(x)$Giving all solutions in the domain of $f$.
+**(b)** Solve the equation $f(x) = f^{-1}(x)$ Giving all solutions in the domain of $f$.
 
 **(c)** Without further calculation, explain why $f(x) = f^{-1}(x)$ is equivalent to $f(x) = x$ for
 this particular function.
@@ -271,7 +271,7 @@ So $f^{-1}(x) = \frac{x+3}{x-2}$.
 
 Domain of $f^{-1}$: Since the range of $f$ (for $x > 1$) needs to be determined first. As
 $x \to 1^+$$f(x) \to +\infty$. As $x \to +\infty$$f(x) \to 2$. So range of $f$ is
-$(2, +\infty)$Meaning domain of $f^{-1}$ is $x > 2$.
+$(2, +\infty)$ Meaning domain of $f^{-1}$ is $x > 2$.
 
 Range of $f^{-1}$: This equals the domain of $f$ So $(1, +\infty)$.
 
@@ -301,7 +301,7 @@ For this specific M\"obius transformation, since $f$ is a strictly decreasing fu
 $(1, \infty)$ (its derivative $f"(x) = \frac{-5}{(x-1)^2} < 0$), the graph of $f$ crosses $y = x$
 exactly once, and this crossing point is the unique solution to $f(x) = f^{-1}(x)$.
 
-Verification: $f(x) = x$ gives $\frac{2x+3}{x-1} = x$I.e. $2x+3 = x^2-x$I.e. $x^2-3x-3 = 0$Which is
+Verification: $f(x) = x$ gives $\frac{2x+3}{x-1} = x$ I.e. $2x+3 = x^2-x$ I.e. $x^2-3x-3 = 0$ Which is
 the same equation we obtained in part (b).
 
 ---
@@ -333,7 +333,7 @@ The sequence $(a_n)$ is defined by $a_n = \frac{n^2 + n}{n + 2}$ for $n \geq 1$.
 
 **(a)** We need to show $\frac{n^2 + n}{n+2} > n - 1$ for all $n \geq 1$.
 
-Since $n + 2 > 0$ for all $n \geq 1$We can multiply both sides by $n + 2$ without flipping the
+Since $n + 2 > 0$ for all $n \geq 1$ We can multiply both sides by $n + 2$ without flipping the
 inequality:
 
 $$
@@ -464,23 +464,23 @@ symmetry of the setup).
 
 **Intersection of Curve 1 and Curve 3:**
 
-For $x \geq 2$: $|x-2| = x-2$ So $x^2-4x+3 = x-3$Giving $x^2-5x+6 = 0$ So $x = 2$ or $x = 3$.
+For $x \geq 2$: $|x-2| = x-2$ So $x^2-4x+3 = x-3$ Giving $x^2-5x+6 = 0$ So $x = 2$ or $x = 3$.
 
 - At $x = 2$: $y = -1$.
 - At $x = 3$: $y = 0$.
 
-For $x < 2$: $|x-2| = 2-x$ So $x^2-4x+3 = 2-x-1 = 1-x$Giving $x^2-3x+2 = 0$ So $x = 1$ or $x = 2$.
+For $x < 2$: $|x-2| = 2-x$ So $x^2-4x+3 = 2-x-1 = 1-x$ Giving $x^2-3x+2 = 0$ So $x = 1$ or $x = 2$.
 
 - At $x = 1$: $y = 0$.
 
 **Intersection of Curve 2 and Curve 3:**
 
-For $x \geq 2$: $4-x^2 = x-3$Giving $x^2+x-7 = 0$ So
+For $x \geq 2$: $4-x^2 = x-3$ Giving $x^2+x-7 = 0$ So
 $x = \frac{-1+\sqrt{29}}{2} \approx 2.193$.
 $y = \frac{-1+\sqrt{29}}{2} - 3 = \frac{-7+\sqrt{29}}{2}$.
 
-For $x < 2$: $4-x^2 = 1-x$Giving $x^2-x-3 = 0$ So
-$x = \frac{1+\sqrt{13}}{2} \approx 2.303$. But this is $> 2$Contradicting $x < 2$. So
+For $x < 2$: $4-x^2 = 1-x$ Giving $x^2-x-3 = 0$ So
+$x = \frac{1+\sqrt{13}}{2} \approx 2.303$. But this is $> 2$ Contradicting $x < 2$. So
 $x = \frac{1-\sqrt{13}}{2} \approx -1.303$.
 $y = 1 - \frac{1-\sqrt{13}}{2} = \frac{1+\sqrt{13}}{2}$.
 

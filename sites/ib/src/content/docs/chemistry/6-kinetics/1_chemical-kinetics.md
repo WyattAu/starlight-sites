@@ -476,7 +476,7 @@ Catalysts provide an alternative pathway with lower activation energy:
 
 ### Question 1 (Paper 1 style)
 
-For the rate equation $\mathrm{Rate} = k[\mathrm{A}]^2[\mathrm{B}]$What are the units of $k$ when
+For the rate equation $\mathrm{Rate} = k[\mathrm{A}]^2[\mathrm{B}]$ What are the units of $k$ when
 Concentrations are in mol/L and time in seconds?
 
 $$
@@ -775,7 +775,7 @@ $$
 
 The rate constant is $3.0 \times 10^{-3}\mathrm{ min}^{-1}$ at $25\degree\mathrm{C}$.
 
-**(a)** If the initial concentration is $0.50\mathrm{ M}$How long does it take for the Concentration
+**(a)** If the initial concentration is $0.50\mathrm{ M}$ How long does it take for the Concentration
 to drop to $0.10\mathrm{ M}$?
 
 $$
@@ -808,7 +808,7 @@ $$
 
 ### Question 6 (Paper 1 style)
 
-For a reaction with rate equation Rate $= k[\mathrm{A}]^2[\mathrm{B}]^0$Which statement is Correct?
+For a reaction with rate equation Rate $= k[\mathrm{A}]^2[\mathrm{B}]^0$ Which statement is Correct?
 
 A. Doubling [A] doubles the rate. B. Doubling [A] quadruples the rate. C. Doubling [B] quadruples
 The rate. D. The reaction is first order overall.
@@ -889,7 +889,7 @@ Plotting $\ln[\mathrm{A}]$ vs $t$:
 | ----------------- | --- | -------- | -------- | -------- | -------- |
 | $\ln[\mathrm{A}]$ | 0   | $-0.693$ | $-1.386$ | $-2.079$ | $-2.773$ |
 
-The $\ln[\mathrm{A}]$ vs $t$ plot is linear with gradient $\approx -0.0693$Confirming first order
+The $\ln[\mathrm{A}]$ vs $t$ plot is linear with gradient $\approx -0.0693$ Confirming first order
 With $k = 0.0693\mathrm{ min}^{-1}$.
 
 Alternatively, note that $[\mathrm{A}]$ halves every 10 minutes: $t_{1/2} = 10\mathrm{ min}$.
@@ -1011,7 +1011,7 @@ For a zero-order reaction, which graph gives a straight line with a negative gra
 A. $[\mathrm{A}]$ vs $t$ B. $\ln[\mathrm{A}]$ vs $t$ C. $1/[\mathrm{A}]$ vs $t$ D. Rate vs
 $[\mathrm{A}]$
 
-**Answer: A.** For a zero-order reaction, $[\mathrm{A}] = [\mathrm{A}]_0 - kt$Which is a straight
+**Answer: A.** For a zero-order reaction, $[\mathrm{A}] = [\mathrm{A}]_0 - kt$ Which is a straight
 Line with gradient $-k$.
 
 ### Question 10 (Paper 2 style)
@@ -1056,7 +1056,7 @@ The slow step involves one molecule of each reactant, matching the rate equation
 <details>
 <summary>Question 1: Determining Rate Equation from Initial Rates</summary>
 
-For the reaction $\mathrm{A} + 2\mathrm{B} \to \mathrm{C}$The following data was obtained:
+For the reaction $\mathrm{A} + 2\mathrm{B} \to \mathrm{C}$ The following data was obtained:
 
 | Experiment | $[\mathrm{A}]$ (mol/L) | $[\mathrm{B}]$ (mol/L) | Initial Rate (mol/L/s) |
 | ---------- | ---------------------- | ---------------------- | ---------------------- |
@@ -1140,7 +1140,7 @@ A first-order reaction has a rate constant of $0.050\mathrm{ min}^{-1}$.
 
 (a) Calculate the half-life.
 
-(b) If the initial concentration is $0.80\mathrm{ M}$What is the concentration after
+(b) If the initial concentration is $0.80\mathrm{ M}$ What is the concentration after
 $20\mathrm{ minutes}$?
 
 </details>

@@ -48,7 +48,7 @@ Maltose.
 
 **Gastric juice** contains:
 
-- **Hydrochloric acid** ($\mathrm{HCl}$PH $\approx 1.5$--$2.0$): denatures proteins, kills ingested
+- **Hydrochloric acid** ($\mathrm{HCl}$ PH $\approx 1.5$--$2.0$): denatures proteins, kills ingested
   microorganisms, provides optimal pH for pepsin.
 - **Pepsin** (secreted as inactive **pepsinogen** by chief cells; activated by $\mathrm{HCl}$):
   endopeptidase that hydrolyses peptide bonds, breaking proteins into polypeptides.
@@ -155,7 +155,7 @@ $\mathrm{Hb}$ against partial pressure of $\mathrm{O}_2$ ($\mathrm{pO}_2$).
 - High $\mathrm{pO}_2$ (lungs): $\mathrm{Hb}$ has high affinity for $\mathrm{O}_2$; loading occurs
   (steep part of curve).
 - Low $\mathrm{pO}_2$ (respiring tissues): $\mathrm{Hb}$ affinity decreases; unloading occurs.
-- The curve shifts right (lower affinity, more unloading) with increased $\mathrm{CO}_2$Decreased pH
+- The curve shifts right (lower affinity, more unloading) with increased $\mathrm{CO}_2$ Decreased pH
   (Bohr effect), increased temperature, and increased $23$-BPG (produced in active tissues).
 
 ---
@@ -509,8 +509,8 @@ Describe the consequence for oxygen unloading.
 
 In actively respiring muscle tissue, $\mathrm{CO}_2$ concentration increases, pH decreases (Bohr
 Effect), and temperature rises. These factors reduce haemoglobin's affinity for $\mathrm{O}_2$
-Shifting the dissociation curve to the right. At any given $\mathrm{pO}_2$A lower percentage of
-$\mathrm{Hb}$ is saturated with $\mathrm{O}_2$Meaning more $\mathrm{O}_2$ is unloaded from
+Shifting the dissociation curve to the right. At any given $\mathrm{pO}_2$ A lower percentage of
+$\mathrm{Hb}$ is saturated with $\mathrm{O}_2$ Meaning more $\mathrm{O}_2$ is unloaded from
 Haemoglobin into the tissues. This ensures that active muscles receive a greater supply of oxygen to
 Sustain aerobic respiration.
 
@@ -655,7 +655,7 @@ Extraction contribute to meeting exercise demands.
 A patient's fasting blood glucose is measured at $12\;\mathrm{mmol/L}$ (normal: approximately
 $5\;\mathrm{mmol/L}$). The total blood volume is $5\;\mathrm{L}$. The molar mass of glucose is
 $180\;\mathrm{g/mol}$. Calculate the mass of excess glucose in the patient's blood. Assuming the
-Renal threshold for glucose is approximately $10\;\mathrm{mmol/L}$Explain why glucose would appear
+Renal threshold for glucose is approximately $10\;\mathrm{mmol/L}$ Explain why glucose would appear
 In the urine (glycosuria).
 
 <details>
@@ -671,9 +671,9 @@ $35 \times 10^{-3}\;\mathrm{mol} \times 180\;\mathrm{g/mol} = 6.3\;\mathrm{g}$
 **Total glucose in blood**:
 $12\;\mathrm{mmol/L} \times 5\;\mathrm{L} = 60\;\mathrm{mmol} = 10.8\;\mathrm{g}$
 
-The blood glucose exceeds the renal threshold of $10\;\mathrm{mmol/L}$Meaning the proximal
+The blood glucose exceeds the renal threshold of $10\;\mathrm{mmol/L}$ Meaning the proximal
 Convoluted tubule's $\mathrm{Na}^+$-glucose co-transporters (SGLT2) are saturated. The excess
-Glucose ($12 - 10 = 2\;\mathrm{mmol/L}$Or $10\;\mathrm{mmol}$ total, equivalent to
+Glucose ($12 - 10 = 2\;\mathrm{mmol/L}$ Or $10\;\mathrm{mmol}$ total, equivalent to
 $1.8\;\mathrm{g}$) Cannot be reabsorbed and remains in the filtrate, appearing in the urine. This is
 a hallmark of Diabetes mellitus. The osmotic effect of unreabsorbed glucose in the renal tubule also
 draws water Into the urine, causing polyuria (excessive urination).
@@ -684,7 +684,7 @@ draws water Into the urine, causing polyuria (excessive urination).
 
 A myelinated motor neurone has nodes of Ranvier spaced $1.5\;\mathrm{mm}$ apart. The time for an
 Action potential to travel between two adjacent nodes is $0.02\;\mathrm{ms}$. Calculate the
-Conduction velocity between nodes. If the axon length is $0.6\;\mathrm{m}$Calculate the total
+Conduction velocity between nodes. If the axon length is $0.6\;\mathrm{m}$ Calculate the total
 Transmission time and compare this with an unmyelinated axon of the same diameter with a conduction
 Velocity of $2\;\mathrm{m/s}$.
 
@@ -819,8 +819,8 @@ Pepsinogen and trypsinogen, explaining how these prevent autodigestion of the di
 <details>
 <summary>Problem 3: Quantitative -- Respiratory Volumes and Alveolar Ventilation</summary>
 
-A patient has the following lung volumes: tidal volume $= 500\;\mathrm{mL}$Vital capacity
-$= 4500\;\mathrm{mL}$Residual volume $= 1500\;\mathrm{mL}$Respiratory rate
+A patient has the following lung volumes: tidal volume $= 500\;\mathrm{mL}$ Vital capacity
+$= 4500\;\mathrm{mL}$ Residual volume $= 1500\;\mathrm{mL}$ Respiratory rate
 $= 15\;\mathrm{breaths/min}$. The dead space volume is $150\;\mathrm{mL}$. Calculate: (a) the Minute
 ventilation, (b) the alveolar ventilation rate, and (c) explain why alveolar ventilation is More
 physiologically relevant than minute ventilation.
@@ -949,8 +949,8 @@ nephrons.
 1. **Glomerulus**: a knot of capillaries inside Bowman's capsule. Blood pressure forces filtrate
    (water, glucose, amino acids, ions, urea) into the capsule (ultrafiltration).
 2. **Bowman's capsule**: cup-shaped structure surrounding the glomerulus; receives the filtrate.
-3. **Proximal convoluted tubule (PCT)**: reabsorbs $\approx 65\%$ of filtered $\mathrm{Na}^+$Water,
-   $\mathrm{K}^+$$\mathrm{Ca}^{2+}$$\mathrm{HCO}_3^-$Glucose, and amino acids. Secretes
+3. **Proximal convoluted tubule (PCT)**: reabsorbs $\approx 65\%$ of filtered $\mathrm{Na}^+$ Water,
+   $\mathrm{K}^+$$\mathrm{Ca}^{2+}$$\mathrm{HCO}_3^-$ Glucose, and amino acids. Secretes
    $\mathrm{H}^+$ and $\mathrm{NH}_4^+$.
 4. **Loop of Henle**: a U-shaped tubule that creates a concentration gradient in the medulla.
 
@@ -973,7 +973,7 @@ Driven by **hydrostatic pressure** in the glomerular capillaries ($\approx 55\;\
 opposed by:
 
 - Bowman's capsule hydrostatic pressure ($\approx 15\;\mathrm{mmHg}$)
-- Glomerular oncotic pressure ($\approx 30\;\mathrm{mmHg}$From plasma proteins)
+- Glomerular oncotic pressure ($\approx 30\;\mathrm{mmHg}$ From plasma proteins)
 
 Net filtration pressure: $\approx 55 - 15 - 30 = 10\;\mathrm{mmHg}$
 
@@ -1079,7 +1079,7 @@ Jaundice (yellowing of the skin and sclera) results from elevated bilirubin in t
 - **Vitamin D synthesis**: UV radiation converts 7-dehydrocholesterol in the skin to cholecalciferol
   (vitamin D3), which is converted in the liver and kidneys to the active form
   ($1,25$-dihydroxyvitamin D).
-- **Excretion**: sweat contains water, $\mathrm{Na}^+$$\mathrm{Cl}^-$Urea, and lactic acid.
+- **Excretion**: sweat contains water, $\mathrm{Na}^+$$\mathrm{Cl}^-$ Urea, and lactic acid.
 
 ---
 
@@ -1195,7 +1195,7 @@ environment (sweating heavily) versus a person at rest who has been drinking wat
 A patient's GFR is measured at $80\;\mathrm{mL/min}$ (normal: $125\;\mathrm{mL/min}$). Plasma
 Glucose concentration is $5\;\mathrm{mmol/L}$ (MW $= 180\;\mathrm{g/mol}$). (a) Calculate the mass
 of Glucose filtered per day. (b) If the patient has diabetes mellitus and the renal threshold for
-glucose Is $10\;\mathrm{mmol/L}$Calculate the mass of glucose excreted per day. (c) Explain why
+glucose Is $10\;\mathrm{mmol/L}$ Calculate the mass of glucose excreted per day. (c) Explain why
 Glucosuria (glucose in urine) causes increased urine volume (polyuria).
 
 </details>
@@ -1241,7 +1241,7 @@ disease (e.g., pulmonary fibrosis).
 **Worked Example: Cardiac Output and Blood Pressure**
 
 A patient has a heart rate of $72\;\mathrm{bpm}$ and a stroke volume of $70\;\mathrm{mL}$. (a)
-Calculate The cardiac output. (b) If the mean arterial pressure is $93\;\mathrm{mmHg}$Calculate the
+Calculate The cardiac output. (b) If the mean arterial pressure is $93\;\mathrm{mmHg}$ Calculate the
 total Peripheral resistance (TPR). (c) During exercise, heart rate increases to $150\;\mathrm{bpm}$
 and stroke Volume increases to $120\;\mathrm{mL}$. Calculate the new cardiac output and the
 percentage increase. (d) Explain how the baroreceptor reflex responds to a sudden drop in blood
@@ -1255,7 +1255,7 @@ $\text{CO} = \text{HR} \times \text{SV} = 72 \times 70 = 5040\;\mathrm{mL/min} =
 
 (b) $\text{MAP} = \text{CO} \times \text{TPR}$ So $\text{TPR} = \text{MAP} / \text{CO}$. Need
 consistent units. $\text{CO} = 5040\;\mathrm{mL/min} = 0.084\;\mathrm{L/s}$.
-$\text{TPR} = 93 / 0.084 = 1107\;\mathrm{mmHg \cdot s/L}$ (or $\text{PRU}$Peripheral resistance
+$\text{TPR} = 93 / 0.084 = 1107\;\mathrm{mmHg \cdot s/L}$ (or $\text{PRU}$ Peripheral resistance
 units). Normal TPR $= 1000$--$1200\;\mathrm{PRU}$.
 
 (c) $\text{CO}_{exercise} = 150 \times 120 = 18000\;\mathrm{mL/min} = 18.0\;\mathrm{L/min}$.
@@ -1400,7 +1400,7 @@ $7.65 - 4.5 = 3.15\;\mathrm{g}$ of glucose in the blood.
 Without Insulin:
 
 - GLUT4 translocation does not occur, so glucose cannot enter muscle and adipose cells efficiently.
-- Blood glucose remains elevated ($15\;\mathrm{mmol/L}$Well above the normal renal threshold of
+- Blood glucose remains elevated ($15\;\mathrm{mmol/L}$ Well above the normal renal threshold of
   approximately $10\;\mathrm{mmol/L}$).
 - The filtered load of glucose exceeds the maximum tubular reabsorption capacity ($T_m$).
 - The excess glucose is excreted in the urine (**glycosuria**), creating an osmotic diuresis (the
@@ -1410,13 +1410,13 @@ Without Insulin:
 
 **Worked Example: Oxygen-Haemoglobin Dissociation and Bohr Effect**
 
-At sea level, alveolar $\mathrm{pO}_2 = 13.3\;\mathrm{kPa}$Tissue
+At sea level, alveolar $\mathrm{pO}_2 = 13.3\;\mathrm{kPa}$ Tissue
 $\mathrm{pO}_2 = 4.0\;\mathrm{kPa}$. Tissue $\mathrm{pCO}_2 = 6.0\;\mathrm{kPa}$ and tissue pH
 $= 7.2$. (a) Using the oxygen dissociation Curve, estimate the percentage saturation of haemoglobin
 in the lungs and in the tissues (under normal Conditions and Bohr-shifted conditions). (b) Explain
 the molecular mechanism of the Bohr effect. (c) Calculate the oxygen delivery per litre of blood if
 haemoglobin concentration is $150\;\mathrm{g/L}$ And each gram carries
-$1.34\;\mathrm{mL\;O}_2$Comparing normal and Bohr-shifted conditions.
+$1.34\;\mathrm{mL\;O}_2$ Comparing normal and Bohr-shifted conditions.
 
 <details>
 <summary>Solution</summary>
@@ -1679,7 +1679,7 @@ the presence and absence Of ADH.
   as low as $500\;\mathrm{mL/day}$).
 - **Without ADH** (e.g., diabetes insipidus, or after large fluid intake): AQP2 channels are removed
   from the apical membrane. The collecting duct is impermeable to water. Dilute urine is produced
-  (approximately $50\;\mathrm{mOsm}$Up to $20\;\mathrm{L/day}$), regardless of the medullary
+  (approximately $50\;\mathrm{mOsm}$ Up to $20\;\mathrm{L/day}$), regardless of the medullary
   gradient.
 
 </details>
@@ -1790,8 +1790,8 @@ Lipophilic and diffuses directly through the plasma membrane.
 4. The complex binds to glucocorticoid response elements (GREs) in the promoter regions of target
    genes, recruiting co-activators or co-repressors and modulating transcription.
 5. Alternatively, the cortisol-GR complex can interact with other transcription factors (e.g.,
-   NF-$\kappa$B) in the cytoplasm, inhibiting their activity (transrepression). This is how cortisol
-   suppresses inflammation (by blocking NF-$\kappa$B, which activates inflammatory gene expression).
+   NF-$\kappa$ B) in the cytoplasm, inhibiting their activity (transrepression). This is how cortisol
+   suppresses inflammation (by blocking NF-$\kappa$ B, which activates inflammatory gene expression).
 
 **Effects of cortisol**:
 

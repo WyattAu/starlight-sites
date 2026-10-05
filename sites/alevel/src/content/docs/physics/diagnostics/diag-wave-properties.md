@@ -99,7 +99,7 @@ point $P$ is located $4.0\,\text{m}$ from $S_1$ and $5.0\,\text{m}$ from $S_2$.
 (a) Determine whether point $P$ is at a maximum, minimum, or neither, and calculate the ratio of the
 amplitude at $P$ to the amplitude from a single source.
 
-(b) If the amplitude from each source alone at $P$ is $A_0$Derive the general expression for the
+(b) If the amplitude from each source alone at $P$ is $A_0$ Derive the general expression for the
 amplitude at $P$ in terms of the path difference $\Delta x$.
 
 (c) Calculate the ratio of the intensity at $P$ to the intensity from a single source alone.
@@ -150,7 +150,7 @@ At a minimum ($\Delta x = (n + 0.5)\lambda$): $A = 0$ and $I = 0$.
 }
 </script>
 
-### UT-3: Polarisation and Malus"s Law
+### UT-3: Polarisation and Malus's Law
 
 **Question:**
 
@@ -181,10 +181,10 @@ $$
 \cos^2\theta = \frac{1}{4} \Rightarrow \cos\theta = \frac{1}{2} \Rightarrow \theta = 60^\circ
 $$
 
-(c) First polariser (vertical): intensity $= I_0/2$Polarised vertically.
+(c) First polariser (vertical): intensity $= I_0/2$ Polarised vertically.
 
 Second polariser (at $45^\circ$):
-$I_2 = \frac{I_0}{2}\cos^2 45^\circ = \frac{I_0}{2} \times \frac{1}{2} = \frac{I_0}{4}$Polarised at
+$I_2 = \frac{I_0}{2}\cos^2 45^\circ = \frac{I_0}{2} \times \frac{1}{2} = \frac{I_0}{4}$ Polarised at
 $45^\circ$.
 
 Third polariser (horizontal, $\theta = 90^\circ$ from vertical): the angle between the $45^\circ$
@@ -272,7 +272,7 @@ wavelength of the fundamental mode.
 
 **Solution:**
 
-(a) Wave speed: $v = \sqrt{T/\mu}$Where
+(a) Wave speed: $v = \sqrt{T/\mu}$ Where
 $\mu = m/l = 4.0 \times 10^{-3}/0.80 = 5.0 \times 10^{-3}\,\text{kg}\,\text{m}^{-1}$
 
 $$

@@ -47,7 +47,7 @@ U \propto \frac{|z_+ \cdot z_-|}{r_+ + r_-}
 $$
 
 Higher charges and smaller ionic radii lead to larger (more negative) lattice energy. This is a
-Direct consequence of Coulomb"s law: the electrostatic attraction is proportional to the product of
+Direct consequence of Coulomb's law: the electrostatic attraction is proportional to the product of
 The charges and inversely proportional to the distance between them.
 
 **Example:** MgO has a much higher lattice energy than NaCl because Mg$^{2+}$ and O$^{2-}$ carry
@@ -134,7 +134,7 @@ Complete octets on each O: $4 \times 6 = 24$ electrons. All 32 used.
 
 Formal charges: S has $6 - 0 - 8/2 = +2$. Each O has $6 - 6 - 2/2 = -1$.
 
-This gives total charge $+2 + 4(-1) = -2$Which is correct, but the formal charges are large.
+This gives total charge $+2 + 4(-1) = -2$ Which is correct, but the formal charges are large.
 
 **Better structure:** Form two S=O double bonds. S has $6 - 0 - 12/2 = 0$ (double-bonded O). For
 Double-bonded O: $6 - 4 - 4/2 = 0$. For single-bonded O: $6 - 6 - 2/2 = -1$.
@@ -630,7 +630,7 @@ flowchart TD
 7. For each molecule, predict whether it is polar or nonpolar: $\mathrm{BrF_5$$\mathrm{XeF_4$
    $\mathrm{IF_3$$\mathrm{PF_5$.
 
-8. Draw the Lewis structure for $\mathrm{ClO_4^-$Determine the formal charge on each atom, and
+8. Draw the Lewis structure for $\mathrm{ClO_4^-$ Determine the formal charge on each atom, and
    describe the molecular geometry.
 
 9. Explain why $n$-butanol has a much higher boiling point than diethyl ether, despite having the
@@ -648,7 +648,7 @@ flowchart TD
 13. Compare and contrast the types of intermolecular forces present in liquid
     $\mathrm{CH_3\mathrm{F$ and liquid $\mathrm{CH_3\mathrm{OH$.
 
-14. Draw the Lewis structure for $\mathrm{SF_6$Determine the formal charges, and explain why sulfur
+14. Draw the Lewis structure for $\mathrm{SF_6$ Determine the formal charges, and explain why sulfur
     can accommodate 12 electrons around it.
 
 15. Which of the following can form hydrogen bonds with water: $\mathrm{CH_3\mathrm{OH$
@@ -669,14 +669,14 @@ flowchart TD
 20. Draw the Lewis structure for $\mathrm{ClF_3$ and explain why the molecule has a T-shaped
     geometry rather than a trigonal planar geometry.
 
-21. For the molecule $\mathrm{SO_3$Draw the Lewis structure, determine the hybridization of sulfur,
+21. For the molecule $\mathrm{SO_3$ Draw the Lewis structure, determine the hybridization of sulfur,
     and explain why all three S--O bonds have the same length despite one being a double bond in the
     Lewis structure.
 
 22. Explain why $\mathrm{HF$ has a higher boiling point than $\mathrm{HCl$ even though $\mathrm{HCl$
     has a larger molar mass.
 
-23. Draw the Lewis structure for $\mathrm{XeF_4$Determine the formal charge on each atom, and
+23. Draw the Lewis structure for $\mathrm{XeF_4$ Determine the formal charge on each atom, and
     explain the square planar geometry.
 
 24. Calculate the number of sigma and pi bonds in
@@ -704,7 +704,7 @@ flowchart TD
 31. Calculate the percent ionic character of the H-F bond. Is it more accurate to describe this bond
     as covalent or ionic?
 
-32. Draw the Lewis structure for $\mathrm{ClO_2^-$Determine the molecular geometry, and predict
+32. Draw the Lewis structure for $\mathrm{ClO_2^-$ Determine the molecular geometry, and predict
     whether the ion is polar.
 
 33. Explain why the boiling point of $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CH_2\mathrm{OH$
@@ -712,7 +712,7 @@ flowchart TD
     $\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{CH_3$ ($0^{\circ}\mathrm{C$) by more than can be
     explained by the difference in molar mass alone.
 
-34. For the molecule $\mathrm{BF_3\mathrm{NH_3$Determine the hybridization of both boron and
+34. For the molecule $\mathrm{BF_3\mathrm{NH_3$ Determine the hybridization of both boron and
     nitrogen, and identify the type of bond formed between them.
 
 35. Explain why carbon tetrachloride ($\mathrm{CCl_4$) does not conduct electricity in any state,

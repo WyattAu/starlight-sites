@@ -121,7 +121,7 @@ cleft**. Neurons do not physically touch, signals are transmitted chemically acr
 | ------------------- | -------------------------------------- | ------------------------------------------------------------------------------ |
 | Serotonin           | Mood regulation, sleep, appetite       | Generally inhibitory, low levels associated with depression                   |
 | Dopamine            | Reward, motivation, voluntary movement | Generally excitatory, high levels associated with schizophrenia               |
-| Acetylcholine (ACh) | Muscle contraction, memory, attention  | Excitatory, involved in the neuromuscular junction; low levels in Alzheimer"s |
+| Acetylcholine (ACh) | Muscle contraction, memory, attention  | Excitatory, involved in the neuromuscular junction; low levels in Alzheimer's |
 | Noradrenaline       | Arousal, alertness, fight or flight    | Excitatory, involved in stress response                                       |
 | GABA                | Anxiety reduction, relaxation          | Inhibitory, the brain's main inhibitory neurotransmitter                      |
 

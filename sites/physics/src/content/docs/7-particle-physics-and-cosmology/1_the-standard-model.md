@@ -32,7 +32,7 @@ The fundamental particles are:
 
 **Bosons** (integer spin):
 
-- **Gauge bosons:** photon ($\gamma$), $W^\pm$, $Z^0$Gluons ($g$8 types).
+- **Gauge bosons:** photon ($\gamma$), $W^\pm$, $Z^0$ Gluons ($g$8 types).
 - **Scalar boson:** Higgs ($H$).
 
 **Forces and their gauge bosons:**
@@ -148,7 +148,7 @@ Each quark comes in three **colour charges**: red, green, blue. Antiquarks carry
 
 The $\Omega^-$ has the following quantum numbers: $Q = -1$, $B = 1$, $S = -3$ Strangeness $S = -3$.
 
-Since $B = 1$It is a baryon, so it consists of three quarks. The strangeness Contributes $-1$ per
+Since $B = 1$ It is a baryon, so it consists of three quarks. The strangeness Contributes $-1$ per
 strange quark, so all three quarks must be strange:
 
 $$
@@ -231,7 +231,7 @@ $$
 $$
 
 **Application.** The decay $b \to c$ proceeds with amplitude proportional to
-$\lvert V_{cb}\rvert \approx 0.041$While $b \to u$ proceeds with
+$\lvert V_{cb}\rvert \approx 0.041$ While $b \to u$ proceeds with
 $\lvert V_{ub}\rvert \approx 0.0036$. The ratio of partial widths is approximately:
 
 $$
@@ -239,7 +239,7 @@ $$
 $$
 
 This means the $b \to u$ transition is suppressed by roughly two orders of magnitude Relative to
-$b \to c$Which is why the $B$ meson predominantly decays to charm, not Up quarks.
+$b \to c$ Which is why the $B$ meson predominantly decays to charm, not Up quarks.
 
 </details>
 

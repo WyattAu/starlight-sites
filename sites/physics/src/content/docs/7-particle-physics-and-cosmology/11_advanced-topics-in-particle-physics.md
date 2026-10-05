@@ -20,12 +20,12 @@ description: "experiments (SLAC, 1968) scattered high-energy electrons off proto
 ### 11.1 Deep Inelastic Scattering and Parton Model
 
 **Deep inelastic scattering (DIS)** experiments (SLAC, 1968) scattered high-energy electrons off
-protons. The key observation: at large momentum transfer $Q^2$The proton behaves as if composed of
+protons. The key observation: at large momentum transfer $Q^2$ The proton behaves as if composed of
 nearly free point-like constituents --- the **partons** (identified with quarks and gluons by
 Feynman and Bjorken).
 
 **Structure functions.** The inclusive cross section for $ep \to eX$ is parameterised by structure
-functions $F_1(x, Q^2)$ and $F_2(x, Q^2)$Where $x = Q^2/(2p \cdot q)$ is the **Bjorken scaling
+functions $F_1(x, Q^2)$ and $F_2(x, Q^2)$ Where $x = Q^2/(2p \cdot q)$ is the **Bjorken scaling
 variable**.
 
 The **Callan--Gross relation** (for spin-1/2 partons):
@@ -36,7 +36,7 @@ $$
 
 This relation was experimentally verified, confirming that the partons are fermions (quarks).
 
-**Bjorken scaling:** At large $Q^2$The structure functions depend only on $x$Not on $Q^2$
+**Bjorken scaling:** At large $Q^2$ The structure functions depend only on $x$ Not on $Q^2$
 separately. This is a consequence of the parton model (impulse approximation). In reality, QCD
 predicts logarithmic scaling violations from gluon radiation and quark-antiquark pair production.
 
@@ -82,7 +82,7 @@ The remaining $\sim 5\%$ is carried by sea quarks ($q\bar{q}$ pairs). This means
 roughly half the proton"s momentum, despite being electrically neutral and invisible in
 electromagnetic DIS.
 
-At higher $Q^2$The gluon momentum fraction increases further (gluon radiation shifts momentum from
+At higher $Q^2$ The gluon momentum fraction increases further (gluon radiation shifts momentum from
 quarks to gluons).
 
 </details>
@@ -99,9 +99,9 @@ At temperatures above $T_c \approx 170$ MeV ($\sim 2 \times 10^{12}$ K), hadrons
 | Horizontal | Baryon chemical potential $\mu_B$ |
 | Vertical   | Temperature $T$                   |
 
-- Low $T$Low $\mu_B$: Hadronic phase (confined)
-- High $T$Low $\mu_B$: QGP (deconfined, crossover transition)
-- High $\mu_B$Low $T$: Colour superconductor (predicted)
+- Low $T$ Low $\mu_B$: Hadronic phase (confined)
+- High $T$ Low $\mu_B$: QGP (deconfined, crossover transition)
+- High $\mu_B$ Low $T$: Colour superconductor (predicted)
 - Very high $\mu_B$: Colour-flavour locked phase (predicted)
 
 **Experimental evidence.** The QGP is produced in heavy-ion collisions at RHIC and the LHC. Key
@@ -110,7 +110,7 @@ signatures:
 1. **Jet quenching:** High-$p_T$ partons lose energy traversing the QGP, reducing the jet yield
    (observed at RHIC and LHC).
 2. **Elliptic flow:** The azimuthal anisotropy of particle emission ($v_2$) indicates strong
-   collective behaviour, consistent with a nearly ideal fluid ($\eta/s \approx 0.12$Close to the KSS
+   collective behaviour, consistent with a nearly ideal fluid ($\eta/s \approx 0.12$ Close to the KSS
    bound $1/(4\pi)$).
 3. **J/$\psi$ suppression:** In a deconfined medium, the $c\bar{c}$ potential is screened (Debye
    screening), suppressing quarkonium production.
@@ -141,11 +141,11 @@ strength tensor.
 **Strong CP problem.** QCD allows a term
 $\mathcal{L}_\theta = \theta\frac{g_s^2}{32\pi^2}F_{\mu\nu}^a\tilde{F}^{a\mu\nu}$ in the Lagrangian.
 This gives the neutron an electric dipole moment $d_n \propto \theta$ But experiments find
-$d_n < 1.8 \times 10^{-26}\,e\cdot\text{cm}$Implying $|\theta| < 10^{-10}$. Why is $\theta$ so
+$d_n < 1.8 \times 10^{-26}\,e\cdot\text{cm}$ Implying $|\theta| < 10^{-10}$. Why is $\theta$ so
 small?
 
 **Axion solution.** The Peccei--Quinn mechanism (1977) promotes $\theta$ to a dynamical field ---
-the **axion** $a(x)$. The axion potential has a minimum at $\theta_{\text{eff} = 0}$Dynamically
+the **axion** $a(x)$. The axion potential has a minimum at $\theta_{\text{eff} = 0}$ Dynamically
 solving the strong CP problem. The axion acquires a small mass:
 
 $$

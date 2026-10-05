@@ -28,7 +28,7 @@ $$
 
 Where $a(t)$ is the scale factor and $k \in \{-1, 0, +1\}$ is the curvature parameter.
 
-The **Friedmann equation** (from Einstein"s equations with the FLRW metric):
+The **Friedmann equation** (from Einstein's equations with the FLRW metric):
 
 $$
 H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}
@@ -44,7 +44,7 @@ $$
 
 The FLRW metric gives the Einstein tensor components $G_{00} = 3(\dot{a}^2 + kc^2)/(c^2 a^2)$ and
 $G_{ij} = -(2a\ddot{a} + \dot{a}^2 + kc^2)g_{ij}/a^2$. For a perfect fluid with
-$T_{\mu\nu} = \mathrm{diag}(\rho c^2, P, P, P)$The $00$ component yields:
+$T_{\mu\nu} = \mathrm{diag}(\rho c^2, P, P, P)$ The $00$ component yields:
 
 $$
 \frac{3(\dot{a}^2 + kc^2)}{c^2 a^2} + \Lambda = \frac{8\pi G}{c^4}\rho c^2
@@ -78,7 +78,7 @@ $$
 
 The **critical density:** $\rho_c = \frac{3H_0^2}{8\pi G} \approx 9.2 \times 10^{-27}$ kg/m$^3$.
 
-The **density parameters:** $\Omega_i = \rho_i/\rho_c$With $\sum_i \Omega_i = 1$ for a flat
+The **density parameters:** $\Omega_i = \rho_i/\rho_c$ With $\sum_i \Omega_i = 1$ for a flat
 universe.
 
 Current best-fit values (Planck 2018):
@@ -116,7 +116,7 @@ $$
 \frac{\dot{\rho}}{\rho} = -3(1+w)\frac{\dot{a}}{a}
 $$
 
-Integrating: $\ln\rho = -3(1+w)\ln a + \mathrm{const}$Giving $\rho \propto a^{-3(1+w)}$.
+Integrating: $\ln\rho = -3(1+w)\ln a + \mathrm{const}$ Giving $\rho \propto a^{-3(1+w)}$.
 $\blacksquare$
 
 - **Matter-dominated era:** $a(t) \propto t^{2/3}$, $H \propto t^{-1}$.
@@ -126,7 +126,7 @@ $\blacksquare$
 <details>
 <summary>Example 7.1: Scale factor evolution in a matter-dominated universe</summary>
 
-For a flat ($k = 0$), matter-dominated ($P = 0$) universe with $\Lambda = 0$The Friedmann equation
+For a flat ($k = 0$), matter-dominated ($P = 0$) universe with $\Lambda = 0$ The Friedmann equation
 becomes:
 
 $$
@@ -235,10 +235,10 @@ Reactions to occur. The main products were:
 
 | Nucleus   | Mass fraction   |
 | --------- | --------------- |
-| $^1$H     | $\sim 75\%$     |
-| $^4$He    | $\sim 25\%$     |
-| D, $^3$He | $\sim 10^{-5}$  |
-| $^7$Li    | $\sim 10^{-10}$ |
+| $^1$ H     | $\sim 75\%$     |
+| $^4$ He    | $\sim 25\%$     |
+| D, $^3$ He | $\sim 10^{-5}$  |
+| $^7$ Li    | $\sim 10^{-10}$ |
 
 The nuclear reaction chain starts at $T \sim 0.1$ MeV ($t \sim 1$ s):
 
@@ -254,7 +254,7 @@ $$
 t + d \to {^4\mathrm{He} + \gamma, \quad {^3\mathrm{He} + d \to {^4\mathrm{He} + p}}}
 $$
 
-The process stops at $^4$He because there are no stable nuclei with $A = 5$.
+The process stops at $^4$ He because there are no stable nuclei with $A = 5$.
 
 At $T \gg 1$ MeV, weak interactions maintain $n/p$ in thermal equilibrium:
 
@@ -284,8 +284,8 @@ $$
 \frac{n_n}{n_p} = \frac{1}{7}
 $$
 
-Almost all neutrons end up in $^4$He nuclei. Each $^4$He nucleus contains 2 neutrons and 2 protons,
-so the number of $^4$He nuclei per unit volume is:
+Almost all neutrons end up in $^4$ He nuclei. Each $^4$ He nucleus contains 2 neutrons and 2 protons,
+so the number of $^4$ He nuclei per unit volume is:
 
 $$
 n_{^4\mathrm{He} = \frac{n_n}{2}}
@@ -335,7 +335,7 @@ $$
 $$
 
 If the baryon density were significantly higher ($\eta \sim 10^{-9}$), deuterium would Be much more
-efficiently processed into $^4$He, and the deuterium abundance would drop by Orders of magnitude.
+efficiently processed into $^4$ He, and the deuterium abundance would drop by Orders of magnitude.
 Conversely, a lower baryon density would leave more deuterium unburned.
 
 This strong dependence makes deuterium the best "baryometer" from BBN. Observations of Deuterium
@@ -345,7 +345,7 @@ $$
 \mathrm{D}/H = (2.527 \pm 0.030) \times 10^{-5}
 $$
 
-This constrains $\eta = (6.10 \pm 0.04) \times 10^{-10}$In excellent agreement with The CMB value of
+This constrains $\eta = (6.10 \pm 0.04) \times 10^{-10}$ In excellent agreement with The CMB value of
 $\eta = (6.13 \pm 0.04) \times 10^{-10}$. The concordance between two Completely independent
 measurements (one from nuclear physics at $t \sim 3$ min, the other From CMB physics at
 $t \sim 380\,000$ yr) is one of the strongest tests of the Big Bang Model.
@@ -390,13 +390,13 @@ Consider a spiral galaxy with a flat rotation curve: $v(r) = v_0 \approx 200$ km
 (where $r_0$ is the core radius).
 
 **Without dark matter:** For a galaxy with luminous mass $M_{\mathrm{lum}}$ concentrated Within
-$r_0$Keplerian dynamics gives:
+$r_0$ Keplerian dynamics gives:
 
 $$
 v(r) = \sqrt{\frac{GM_{\mathrm{lum}}{r}}}
 $$
 
-This predicts $v \propto r^{-1/2}$ at large $r$In conflict with the observed flat Rotation curve.
+This predicts $v \propto r^{-1/2}$ at large $r$ In conflict with the observed flat Rotation curve.
 
 **With a dark matter halo:** Assume a singular isothermal sphere profile with density:
 
@@ -441,10 +441,10 @@ In 1998, two teams (Riess et al., Perlmutter et al.) observed that Type Ia super
 Than expected for a decelerating universe. This implies the expansion is **accelerating**:
 $\ddot{a} \gt 0$.
 
-From the acceleration equation, this requires $\rho + 3P/c^2 \lt 0$Which is satisfied by a Component
+From the acceleration equation, this requires $\rho + 3P/c^2 \lt 0$ Which is satisfied by a Component
 with $w \lt -1/3$.
 
-The simplest explanation is **Einstein's cosmological constant** $\Lambda$With equation of state
+The simplest explanation is **Einstein's cosmological constant** $\Lambda$ With equation of state
 $w = -1$:
 
 $$
@@ -471,10 +471,10 @@ $$
 d_L = c(1+z)\int_0^z \frac{dz'}{H(z')}
 $$
 
-Where $H(z) = H_0\sqrt{\Omega_m(1+z)^3 + \Omega_\Lambda}$ for a $\Lambda$CDM universe.
+Where $H(z) = H_0\sqrt{\Omega_m(1+z)^3 + \Omega_\Lambda}$ for a $\Lambda$ CDM universe.
 
 The observed flux is $F = L/(4\pi d_L^2)$. For a matter-only universe ($\Omega_\Lambda = 0$),
-Supernovae at $z \sim 0.5$ appear brighter (closer) than in a $\Lambda$CDM universe with
+Supernovae at $z \sim 0.5$ appear brighter (closer) than in a $\Lambda$ CDM universe with
 $\Omega_\Lambda \approx 0.7$.
 
 The key observational result (Riess et al. 1998, Perlmutter et al. 1999) was that the Measured $d_L$
@@ -487,7 +487,7 @@ $$
 q_0 = -\frac{\ddot{a}a}{\dot{a}^2}\bigg\rvert_{t_0} = \frac{\Omega_m}{2} - \Omega_\Lambda
 $$
 
-For $\Omega_m = 0.3$ and $\Omega_\Lambda = 0.7$: $q_0 = 0.15 - 0.7 = -0.55 \lt 0$Confirming
+For $\Omega_m = 0.3$ and $\Omega_\Lambda = 0.7$: $q_0 = 0.15 - 0.7 = -0.55 \lt 0$ Confirming
 Acceleration.
 
 </details>
@@ -519,7 +519,7 @@ $$
 \rho_c - \rho = \frac{3kc^2}{8\pi G a^2}
 $$
 
-So $\rho_c - \rho \propto a^{-2}$While $\rho_c \propto H^2 \propto \rho$ (in a Radiation- or
+So $\rho_c - \rho \propto a^{-2}$ While $\rho_c \propto H^2 \propto \rho$ (in a Radiation- or
 matter-dominated era).
 
 Therefore:
@@ -539,7 +539,7 @@ $$
 \lvert\Omega - 1\rvert_{\mathrm{Planck} \sim 10^{-32} \times \lvert\Omega - 1\rvert_{\mathrm{now}}}
 $$
 
-Since $\lvert\Omega_{\mathrm{now} - 1\rvert \sim 0.007}$This gives:
+Since $\lvert\Omega_{\mathrm{now} - 1\rvert \sim 0.007}$ This gives:
 
 $$
 \lvert\Omega - 1\rvert_{\mathrm{Planck} \sim 7 \times 10^{-35}}
@@ -587,14 +587,14 @@ BICEP/Keck).
 ### 7.10 The Hubble Tension
 
 The Hubble constant $H_0$ measured from the CMB ($\sim 67.4$ km/s/Mpc, Planck 2018, assuming
-$\Lambda$CDM) disagrees with local distance-ladder measurements ($\sim 73.0$ km/s/Mpc, SH0ES).
+$\Lambda$ CDM) disagrees with local distance-ladder measurements ($\sim 73.0$ km/s/Mpc, SH0ES).
 
 This discrepancy is now at the $\sim 5\sigma$ level and is one of the most significant open problems
 In cosmology. Possible resolutions include:
 
 1. **Systematic errors** in one or both measurement methods.
 2. **New physics** prior to recombination (e.g., additional radiation, early dark energy).
-3. **Extensions to $\Lambda$CDM** (e.g., time-varying dark energy equation of state $w(z)$).
+3. **Extensions to $\Lambda$ CDM** (e.g., time-varying dark energy equation of state $w(z)$).
 
 :::caution
 Planck) disagrees with Local distance-ladder measurements ($\sim 73.0$ km/s/Mpc, SH0ES). This

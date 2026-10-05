@@ -21,7 +21,7 @@ description: "NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), ea
 
 NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cores,
 Shared memory, register files, and scheduling units. The number of SMs and their configuration
-Defines the GPU"s compute capability.
+Defines the GPU's compute capability.
 
 | GPU                 | SMs | CUDA Cores per SM | Total CUDA Cores | FP32 TFLOPS (Boost) |
 | ------------------- | --- | ----------------- | ---------------- | ------------------- |

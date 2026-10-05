@@ -45,7 +45,7 @@ $$
 S_\infty = \frac{a}{1 - r} = \frac{\dfrac{3x}{4}}{1 - \dfrac{x}{4}} = \frac{3x}{4 - x}
 $$
 
-A common mistake is writing $r = \dfrac{3x}{4}$ instead of $r = \dfrac{x}{4}$Confusing the first
+A common mistake is writing $r = \dfrac{3x}{4}$ instead of $r = \dfrac{x}{4}$ Confusing the first
 term with the ratio.
 
 ---
@@ -63,7 +63,7 @@ term with the ratio.
 
 **Question:**
 
-Express $\displaystyle\sum_{k=3}^{n+2} (k - 2)^2$ in terms of $n$Without sigma notation.
+Express $\displaystyle\sum_{k=3}^{n+2} (k - 2)^2$ in terms of $n$ Without sigma notation.
 
 **Solution:**
 
@@ -128,7 +128,7 @@ Find the sum of the first $n$ terms of the sequence: $2, 4, 8, 14, 22, 32, \ldot
 
 The first differences are: $2, 4, 6, 8, 10, \ldots$ (arithmetic with $d = 2$).
 
-The second differences are constant at $2$Confirming a quadratic sequence.
+The second differences are constant at $2$ Confirming a quadratic sequence.
 
 Let $u_n = an^2 + bn + c$.
 
@@ -214,7 +214,7 @@ Checking the ratio: $\dfrac{\log_2 9}{\log_2 3} = \dfrac{2\log_2 3}{\log_2 3} = 
 $\dfrac{\log_2 27}{\log_2 9} = \dfrac{3\log_2 3}{2\log_2 3} = \dfrac{3}{2}$.
 
 Since the ratio is not constant, this is **not** a geometric sequence. The terms are $\log_2 3$
-$2\log_2 3$$3\log_2 3$Which form an **arithmetic sequence** with common difference $d = \log_2 3$.
+$2\log_2 3$$3\log_2 3$ Which form an **arithmetic sequence** with common difference $d = \log_2 3$.
 
 $S_{10} = \dfrac{10}{2}[2\log_2 3 + 9\log_2 3] = 5 \times 11\log_2 3 = 55\log_2 3$.
 
@@ -321,7 +321,7 @@ Find the sum of all integers from 1 to 200 that are divisible by 3.
 
 The integers from 1 to 200 divisible by 3 form an AP: $3, 6, 9, \ldots, 198$.
 
-First term $a = 3$Common difference $d = 3$.
+First term $a = 3$ Common difference $d = 3$.
 
 Last term: $198 = 3 + (n-1) \times 3 \implies 195 = 3(n-1) \implies n - 1 = 65 \implies n = 66$.
 
@@ -487,7 +487,7 @@ $A_8 = 10000 \times (1.06)^8 = 10000 \times \left(\dfrac{106}{100}\right)^8 = 10
 **Question:**
 
 If three positive numbers $a$$b$$c$ form a geometric sequence and $a + b + c = 26$ and
-$a + 2b - c = 10$Find $a$$b$ And $c$.
+$a + 2b - c = 10$ Find $a$$b$ And $c$.
 
 **Solution:**
 
@@ -600,19 +600,19 @@ flowchart TD
    formulas.
 
 2. **Using the wrong formula for the sum of a geometric series.** $S_n = \dfrac{a(r^n - 1)}{r - 1}$
-   when $r \neq 1$. When $r = 1$The sum is $S_n = na$. Forgetting the $r \neq 1$ condition and using
+   when $r \neq 1$. When $r = 1$ The sum is $S_n = na$. Forgetting the $r \neq 1$ condition and using
    the formula with $r = 1$ leads to division by zero.
 
-3. **Incorrect index in sigma notation.** When evaluating $\displaystyle\sum_{k=1}^{n} f(k)$The
+3. **Incorrect index in sigma notation.** When evaluating $\displaystyle\sum_{k=1}^{n} f(k)$ The
    index $k$ starts at $1$ and ends at $n$. Confusing the starting index (e.g. Using $k = 0$ instead
    of $k = 1$) is a common source of error.
 
 4. **Assuming convergence without checking $|r| < 1$.** The infinite sum formula
-   $S_\infty = \dfrac{a}{1 - r}$ is only valid when $|r| < 1$. If $|r| \geq 1$The series diverges
+   $S_\infty = \dfrac{a}{1 - r}$ is only valid when $|r| < 1$. If $|r| \geq 1$ The series diverges
    and the sum does not exist.
 
 5. **Sign errors in the arithmetic series sum formula.** The formula is
-   $S_n = \dfrac{n}{2}[2a + (n-1)d]$. A common error is writing $(n + 1)d$ instead of $(n - 1)d$Or
+   $S_n = \dfrac{n}{2}[2a + (n-1)d]$. A common error is writing $(n + 1)d$ instead of $(n - 1)d$ Or
    using $a + nd$ instead of $2a + (n-1)d$.
 
 ---

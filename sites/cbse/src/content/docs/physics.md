@@ -44,7 +44,7 @@ theory paper includes MCQs, very-short-answer (1-mark), short-answer (2-3 marks)
 
 ### 1.1 Laws of Motion
 
-**Newton"s Laws:**
+**Newton's Laws:**
 
 1. An object remains at rest or in uniform motion unless acted upon by a net external force.
 2. $\vec{F}_{\text{net}} = m\vec{a}$

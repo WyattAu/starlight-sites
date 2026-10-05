@@ -161,7 +161,7 @@ Acyl substitution:
 
 ### Formation
 
-Primary aromatic amines react with nitrous acid ($\mathrm{HNO}_2$Generated in situ from
+Primary aromatic amines react with nitrous acid ($\mathrm{HNO}_2$ Generated in situ from
 $\mathrm{NaNO}_2$ and $\mathrm{HCl}$) at $0$--$5^\circ\mathrm{C}$ to form diazonium salts:
 
 $$
@@ -186,7 +186,7 @@ Introduction of substituents that cannot be directly attached by electrophilic s
 | Reagent                     | Product       | Reaction                                                                                                                                                              |
 | --------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $\mathrm{KI}$               | Iodobenzene   | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{I}^- \to \mathrm{C}_6\mathrm{H}_5\mathrm{I} + \mathrm{N}_2$                                                         |
-| $\mathrm{HBF}_4$Heat        | Fluorobenzene | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+\mathrm{BF}_4^- \xrightarrow{\Delta} \mathrm{C}_6\mathrm{H}_5\mathrm{F} + \mathrm{N}_2 + \mathrm{BF}_3$                        |
+| $\mathrm{HBF}_4$ Heat        | Fluorobenzene | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+\mathrm{BF}_4^- \xrightarrow{\Delta} \mathrm{C}_6\mathrm{H}_5\mathrm{F} + \mathrm{N}_2 + \mathrm{BF}_3$                        |
 | $\mathrm{H}_3\mathrm{PO}_2$ | Benzene       | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{H}_3\mathrm{PO}_2 + \mathrm{H}_2\mathrm{O} \to \mathrm{C}_6\mathrm{H}_6 + \mathrm{N}_2 + \mathrm{H}_3\mathrm{PO}_3$ |
 | $\mathrm{CuCN}$             | Benzonitrile  | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+ + \mathrm{CuCN} \to \mathrm{C}_6\mathrm{H}_5\mathrm{CN} + \mathrm{N}_2$                                                       |
 | $\mathrm{CuCl}$, $\Delta$   | Chlorobenzene | $\mathrm{C}_6\mathrm{H}_5\mathrm{N}_2^+\mathrm{Cl}^- \xrightarrow{\mathrm{CuCl},\,\Delta} \mathrm{C}_6\mathrm{H}_5\mathrm{Cl} + \mathrm{N}_2$                         |
@@ -214,7 +214,7 @@ $$
 
 ### Why Low Temperature ($0$--$5^\circ\mathrm{C}$) Is Critical
 
-Diazonium salts decompose at temperatures above approximately $5^\circ\mathrm{C}$Releasing Nitrogen
+Diazonium salts decompose at temperatures above approximately $5^\circ\mathrm{C}$ Releasing Nitrogen
 gas and forming phenols (via reaction with water). The ice bath maintains the temperature Low enough
 to isolate the diazonium salt for subsequent reactions.
 
@@ -229,7 +229,7 @@ to isolate the diazonium salt for subsequent reactions.
    ammonia.
 
 3. **Not maintaining low temperature for diazotisation.** If the temperature exceeds
-   $5^\circ\mathrm{C}$The diazonium salt decomposes. Always specify an ice bath.
+   $5^\circ\mathrm{C}$ The diazonium salt decomposes. Always specify an ice bath.
 
 4. **Wrong conditions for coupling reactions.** Coupling with phenols requires alkaline conditions
    (phenoxide is more reactive). Coupling with amines requires acidic conditions (free amine is more
@@ -800,7 +800,7 @@ must be kept below $5^\circ\mathrm{C}$.
   below $5^\circ\mathrm{C}$ (1 mark).
 - The nitrous acid ($\mathrm{HNO}_2$) generated in situ reacts with the phenylammonium ion to form
   the diazonium salt (1 mark).
-- Above $5^\circ\mathrm{C}$The diazonium salt decomposes, releasing nitrogen gas and forming phenol
+- Above $5^\circ\mathrm{C}$ The diazonium salt decomposes, releasing nitrogen gas and forming phenol
   (via reaction with water) (1 mark).
 - The low temperature stabilises the diazonium ion long enough for it to be used in subsequent
   reactions (coupling or Sandmeyer) (1 mark).
@@ -901,7 +901,7 @@ with nitrous acid.
 **Target:** 4-amino-2-methylbenzoic acid from toluene.
 
 Step 1: Oxidation of toluene to benzoic acid would place $-\mathrm{COOH}$ para to
-$-\mathrm{CH}_3$Which is not the desired arrangement.
+$-\mathrm{CH}_3$ Which is not the desired arrangement.
 
 Better approach:
 

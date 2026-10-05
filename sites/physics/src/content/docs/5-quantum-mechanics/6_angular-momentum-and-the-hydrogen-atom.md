@@ -112,14 +112,14 @@ $$
 - For a given $l$: $m = -l, -l+1, \ldots, l-1, l$ (there are $2l+1$ values)
 - For **orbital** angular momentum, $l$ is restricted to non-negative integers.
 
-_Proof._ Starting from a state $|l,m\rangle$Repeatedly applying $\hat{L}_+$ raises $m$ by 1 each
+_Proof._ Starting from a state $|l,m\rangle$ Repeatedly applying $\hat{L}_+$ raises $m$ by 1 each
 time. The norm of the resulting state is:
 
 $$
 \|\hat{L}_+|l,m\rangle\|^2 = \hbar^2[l(l+1) - m(m+1)]
 $$
 
-This must remain non-negative, so $m(m+1) \leq l(l+1)$Giving $m \leq l$. The raising process must
+This must remain non-negative, so $m(m+1) \leq l(l+1)$ Giving $m \leq l$. The raising process must
 Terminate at some maximum $m_{\max}$ where $\hat{L}_+|l, m_{\max}\rangle = 0$:
 
 $$
@@ -134,7 +134,7 @@ $$
 
 Subtracting: $m_{\max}(m_{\max}+1) - m_{\min}(m_{\min}-1) = 0$. Since we reach $m_{\max}$ from
 $m_{\min}$ in $N$ steps: $m_{\max} = m_{\min} + N$. Solving gives $m_{\max} = l$ and
-$m_{\min} = -l$ So $N = 2l$Meaning $2l$ must be a non-negative integer. Therefore
+$m_{\min} = -l$ So $N = 2l$ Meaning $2l$ must be a non-negative integer. Therefore
 $l = 0, 1/2, 1, 3/2, \ldots$ and $m$ takes $2l+1$ values from $-l$ to $l$. $\blacksquare$
 
 For orbital angular momentum (defined as
@@ -171,7 +171,7 @@ Where $P_l^m$ are the associated Legendre functions.
 
 ### 6.5 The Hydrogen Atom
 
-The Hamiltonian for hydrogen (electron of mass $m_e$ and charge $-e$Proton of charge $+e$):
+The Hamiltonian for hydrogen (electron of mass $m_e$ and charge $-e$ Proton of charge $+e$):
 
 $$
 \hat{H} = -\frac{\hbar^2}{2m_e}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r}
@@ -192,13 +192,13 @@ The term $\hbar^2 l(l+1)/(2m_e r^2$ acts as an effective **centrifugal barrier**
 
 Substitute $u(r) = rR(r)$ and define the Bohr radius $a_0 = 4\pi\varepsilon_0\hbar^2/(m_e e^2)$ and
 the Rydberg energy $E_R = e^2/(8\pi\varepsilon_0 a_0) = m_e e^4/(8\varepsilon_0^2 h^2)$. With the
-substitution $\rho = 2r/(na_0)$The radial equation becomes:
+substitution $\rho = 2r/(na_0)$ The radial equation becomes:
 
 $$
 \frac{d^2u}{d\rho^2} = \left[\frac{l(l+1)}{\rho^2} - \frac{1}{\rho} + \frac{n}{4}\left(\frac{1}{n^2} - \frac{E}{E_R}\right)\right]u
 $$
 
-For the solution to be well-behaved at both $\rho = 0$ and $\rho \to \infty$We require:
+For the solution to be well-behaved at both $\rho = 0$ and $\rho \to \infty$ We require:
 
 $$
 E = -\frac{E_R}{n^2} = -\frac{m_e e^4}{2(4\pi\varepsilon_0)^2\hbar^2}\cdot\frac{1}{n^2}
@@ -244,7 +244,7 @@ the Hydrogen ground state.
 <details>
 <summary>Solution</summary>
 
-For $\psi_{100} = (\pi a_0^3)^{-1/2}e^{-r/a_0}$All integrals involve radial integrals with $r^2 dr$:
+For $\psi_{100} = (\pi a_0^3)^{-1/2}e^{-r/a_0}$ All integrals involve radial integrals with $r^2 dr$:
 
 $$
 \langle r \rangle = \frac{4\pi}{\pi a_0^3}\int_0^{\infty} r^3 e^{-2r/a_0}\,dr = \frac{4}{a_0^3}\cdot\frac{6}{(2/a_0)^4} = \frac{4 \cdot 6 \cdot a_0^4}{16} = \frac{3}{2}a_0
@@ -277,7 +277,7 @@ $\Delta n$ is unrestricted (energy conservation determines which transitions are
 
 _Proof sketch._ The matrix element $\langle n'l'm'|\hat{z}|nlm\rangle$ involves the integral
 $\int Y_{l'}^{m'*}(\theta,\phi)\cos\theta\,Y_l^m(\theta,\phi)\,d\Omega$. Using the addition theorem
-For spherical harmonics, $\cos\theta = \sqrt{4\pi/3}\,Y_1^0$The integral becomes a product of
+For spherical harmonics, $\cos\theta = \sqrt{4\pi/3}\,Y_1^0$ The integral becomes a product of
 Clebsch-Gordan coefficients that vanishes unless $l' = l \pm 1$ and $m' = m$. $\blacksquare$
 
 ### 6.6 Orbital Shapes and Quantum Numbers
@@ -293,7 +293,7 @@ The three quantum numbers characterise hydrogen atom eigenstates:
 
 **Radial probability distribution.** The probability of finding the electron between $r$ and $r+dr$
 is $P(r)\,dr = |R_{nl}(r)|^2 r^2\,dr$. For the $1s$ state, the maximum is at $r = a_0$ (the Bohr
-radius). For $2s$There is a node at $r = 2a_0$. For $2p$The distribution peaks closer to the
+radius). For $2s$ There is a node at $r = 2a_0$. For $2p$ The distribution peaks closer to the
 nucleus.
 
 **Angular distributions.** The $s$ orbitals ($l = 0$) are spherically symmetric. The $p$ orbitals
@@ -301,7 +301,7 @@ nucleus.
 Orbitals ($l = 2$) have more complex cloverleaf patterns.
 
 **Radial nodes.** The radial wave function $R_{nl}(r)$ has $n - l - 1$ nodes (zeros excluding
-$r = 0$ And $r = \infty$). The total number of nodes in the full wave function is $n - 1$Consistent
+$r = 0$ And $r = \infty$). The total number of nodes in the full wave function is $n - 1$ Consistent
 with The general property that the $n$-th energy eigenstate has $n - 1$ nodes.
 
 **Fine structure.** The non-relativistic Schrodinger equation gives energy levels depending only on

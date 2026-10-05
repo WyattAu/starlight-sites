@@ -62,7 +62,7 @@ $r = 0, 1, 2, \ldots$ (number of failures). AQA uses $r = 1, 2, \ldots$.
 ### 1.1 Definition
 
 **Definition.** A discrete random variable $X$ follows a **Poisson distribution** with parameter
-$\lambda$ (where $\lambda > 0$), written $X \sim \mathrm{Po}(\lambda)$If
+$\lambda$ (where $\lambda > 0$), written $X \sim \mathrm{Po}(\lambda)$ If
 
 $$
 P(X = r) = \frac{e^{-\lambda}\lambda^r}{r!}, \quad r = 0, 1, 2, \ldots
@@ -195,7 +195,7 @@ Critical region: $X \leq 0$ or $X \geq 11$.
 ### 2.1 Definition
 
 **Definition.** A discrete random variable $X$ follows a **geometric distribution** with parameter
-$p$ (where $0 < p \leq 1$), written $X \sim \mathrm{Geo}(p)$If $X$ is the number of the trial on
+$p$ (where $0 < p \leq 1$), written $X \sim \mathrm{Geo}(p)$ If $X$ is the number of the trial on
 Which the first success occurs:
 
 $$
@@ -241,7 +241,7 @@ E(X(X-1)) &= \sum_{r=2}^{\infty}r(r-1)q^{r-1}p = p\,q\sum_{r=2}^{\infty}r(r-1)q^
 \end{aligned}
 $$
 
-Starting from $\sum_{r=0}^{\infty}q^r = \frac{1}{1-q}$Differentiating twice:
+Starting from $\sum_{r=0}^{\infty}q^r = \frac{1}{1-q}$ Differentiating twice:
 
 $$
 \sum_{r=2}^{\infty}r(r-1)q^{r-2} = \frac{2}{(1-q)^3}
@@ -392,7 +392,7 @@ Wait: $P(X > 10) = 1 - P(X \leq 10) = 1 - (1-q^{10}) = q^{10} = (5/6)^{10} \appr
 
 <details>
 <summary>Problem 3</summary>
-Prove that $E(X) = \lambda$ for $X \sim \mathrm{Po}(\lambda)$Showing all steps of the summation.
+Prove that $E(X) = \lambda$ for $X \sim \mathrm{Po}(\lambda)$ Showing all steps of the summation.
 </details>
 
 <details>
@@ -452,7 +452,7 @@ Prove the memoryless property of the geometric distribution: $P(X > m+n \mid X >
 <summary>Solution 6</summary>
 $P(X > m+n \mid X > m) = \dfrac{P(X > m+n)}{P(X > m)} = \dfrac{q^{m+n}}{q^m} = q^n = P(X > n)$.
 
-This uses $P(X > k) = q^k = (1-p)^k$Which follows from $P(X \leq k) = 1 - q^k$. $\blacksquare$
+This uses $P(X > k) = q^k = (1-p)^k$ Which follows from $P(X \leq k) = 1 - q^k$. $\blacksquare$
 
 **If you get this wrong, revise:** [The memoryless property](#24-the-memoryless-property), Section
 2.4.
@@ -461,7 +461,7 @@ This uses $P(X > k) = q^k = (1-p)^k$Which follows from $P(X \leq k) = 1 - q^k$. 
 
 <details>
 <summary>Problem 7</summary>
-A shop receives an average of 6 customers per 30 minutes. Find the critical region for a test at the 5% significance level of $H_0: \lambda = 6$ against $H_1: \lambda > 6$Where $X$ is the number of customers in a 30-minute period.
+A shop receives an average of 6 customers per 30 minutes. Find the critical region for a test at the 5% significance level of $H_0: \lambda = 6$ against $H_1: \lambda > 6$ Where $X$ is the number of customers in a 30-minute period.
 </details>
 
 <details>
@@ -511,7 +511,7 @@ Reject $H_0$. There is sufficient evidence that the accident rate has increased.
 Alternatively, critical region: $P(X \geq 7) = 1 - 0.9665 = 0.0335 < 0.05$
 $P(X \geq 6) = 1 - 0.9165 = 0.0835 > 0.05$.
 
-Critical region: $X \geq 7$. Since $X = 8 \geq 7$Reject $H_0$.
+Critical region: $X \geq 7$. Since $X = 8 \geq 7$ Reject $H_0$.
 
 **If you get this wrong, revise:** [Poisson hypothesis testing](#17-poisson-hypothesis-testing),
 Section 1.7.
@@ -520,14 +520,14 @@ Section 1.7.
 
 <details>
 <summary>Problem 10</summary>
-If $X \sim \mathrm{Geo}(p)$Find $E(X(X-1))$ and hence verify that $\mathrm{Var}(X) = \dfrac{1-p}{p^2}$.
+If $X \sim \mathrm{Geo}(p)$ Find $E(X(X-1))$ and hence verify that $\mathrm{Var}(X) = \dfrac{1-p}{p^2}$.
 </details>
 
 <details>
 <summary>Solution 10</summary>
 $E(X(X-1)) = \sum_{r=2}^{\infty}r(r-1)q^{r-1}p = pq\sum_{r=2}^{\infty}r(r-1)q^{r-2}$.
 
-Since $\sum_{r=0}^{\infty}q^r = \dfrac{1}{1-q}$Differentiating twice gives
+Since $\sum_{r=0}^{\infty}q^r = \dfrac{1}{1-q}$ Differentiating twice gives
 $\sum_{r=2}^{\infty}r(r-1)q^{r-2} = \dfrac{2}{(1-q)^3}$.
 
 $E(X(X-1)) = pq \cdot \dfrac{2}{p^3} = \dfrac{2q}{p^2}$.
@@ -715,7 +715,7 @@ Therefore $P(X = k) \to \dfrac{e^{-\lambda}\lambda^k}{k!}$. $\blacksquare$
 
 ### 8.1 Poisson distribution and exponential distribution
 
-If events occur according to a Poisson process with rate $\lambda$The time between consecutive
+If events occur according to a Poisson process with rate $\lambda$ The time between consecutive
 Events follows the exponential distribution $\mathrm{Exp}(\lambda)$. See
 Exponential and Continuous Random Variables.
 
@@ -881,7 +881,7 @@ The approximation is excellent (error $< 0.6\%$).
 **Problem.** Emails arrive at a rate of 5 per hour and texts at 3 per hour. Find the probability
 That the total number of messages in a 2-hour period exceeds 20.
 
-**Solution.** In 2 hours: emails $\sim \mathrm{Po}(10)$Texts $\sim \mathrm{Po}(6)$.
+**Solution.** In 2 hours: emails $\sim \mathrm{Po}(10)$ Texts $\sim \mathrm{Po}(6)$.
 
 Total messages $= \mathrm{Po}(10+6) = \mathrm{Po}(16)$.
 
@@ -909,9 +909,9 @@ Are received. Test at the 5% level whether the rate has increased.
 
 **Solution.** $H_0$: $\lambda = 6$ per minute. $H_1$: $\lambda > 6$.
 
-Under $H_0$Total calls in 10 minutes $\sim \mathrm{Po}(60)$.
+Under $H_0$ Total calls in 10 minutes $\sim \mathrm{Po}(60)$.
 
-For large $\lambda$Approximate with $N(60, 60)$.
+For large $\lambda$ Approximate with $N(60, 60)$.
 
 $$
 P(X \geq 72) \approx P\!\left(Z \geq \frac{71.5 - 60}{\sqrt{60}}\right) = P(Z \geq 1.485) = 1 - 0.9311 = 0.069
@@ -935,7 +935,7 @@ $$
 \frac{e^{-\lambda}\lambda^m}{m!} \geq \frac{e^{-\lambda}\lambda^{m+1}}{(m+1)!} \implies \frac{m+1}{\lambda} \geq 1 \implies m \geq \lambda - 1
 $$
 
-So $\lambda - 1 \leq m \leq \lambda$Meaning the mode is $\lfloor\lambda\rfloor$ (and also $\lambda$
+So $\lambda - 1 \leq m \leq \lambda$ Meaning the mode is $\lfloor\lambda\rfloor$ (and also $\lambda$
 if $\lambda$ is an integer).
 
 ### Example 8.6: Relationship between Poisson and exponential
@@ -943,7 +943,7 @@ if $\lambda$ is an integer).
 **Problem.** Events occur according to a Poisson process with rate $\lambda = 4$ per hour. Find the
 Probability that the time between two consecutive events exceeds 30 minutes.
 
-**Solution.** For a Poisson process with rate $\lambda$The inter-arrival time
+**Solution.** For a Poisson process with rate $\lambda$ The inter-arrival time
 $T \sim \mathrm{Exp}(\lambda)$.
 
 $$
@@ -952,7 +952,7 @@ $$
 
 ### Example 8.7: Variance of the geometric distribution
 
-**Problem.** Derive $\mathrm{Var}(X)$ for $X \sim \mathrm{Geo}(p)$Defined as the number of trials
+**Problem.** Derive $\mathrm{Var}(X)$ for $X \sim \mathrm{Geo}(p)$ Defined as the number of trials
 Until the first success.
 
 **Solution.** $E(X) = \dfrac{1}{p}$. Using $\mathrm{Var}(X) = E(X^2) - [E(X)]^2$:
@@ -1170,7 +1170,7 @@ $\mathrm{Var}(X) = E(X^2)-[E(X)]^2 = \lambda^2+\lambda-\lambda^2 = \boxed{\lambd
 
 ### 14.1 Compound Poisson process
 
-If events of type $A$ occur at rate $\lambda_A$ and type $B$ at rate $\lambda_B$Independently, Then
+If events of type $A$ occur at rate $\lambda_A$ and type $B$ at rate $\lambda_B$ Independently, Then
 the total event process is Poisson with rate $\lambda_A + \lambda_B$.
 
 ### 14.2 Poisson distribution and the Poisson point process
@@ -1262,7 +1262,7 @@ A Poisson process with rate $\lambda$ is a counting process $N(t)$ satisfying:
 
 ### 16.2 Conditional distributions
 
-For $X \sim \mathrm{Po}(\lambda_1)$ and $Y \sim \mathrm{Po}(\lambda_2)$Independent:
+For $X \sim \mathrm{Po}(\lambda_1)$ and $Y \sim \mathrm{Po}(\lambda_2)$ Independent:
 
 $$
 P(X = k \mid X + Y = n) = \binom{n}{k}\!\left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^k\left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{n-k}
@@ -1325,7 +1325,7 @@ $\approx 1 - 0.4232 \approx \boxed{0.577}$.
 
 ### Question 16
 
-**Prove that** for $X \sim \mathrm{Geo}(p)$The moment generating function is
+**Prove that** for $X \sim \mathrm{Geo}(p)$ The moment generating function is
 $M_X(t) = \dfrac{pe^t}{1-(1-p)e^t}$ for $t < -\ln(1-p)$.
 
 <details>
@@ -1335,7 +1335,7 @@ $M_X(t) = \displaystyle\sum_{n=1}^{\infty} e^{tn} p(1-p)^{n-1} = \frac{p}{1-p}\s
 
 $= \frac{p}{1-p} \cdot \frac{(1-p)e^t}{1-(1-p)e^t} = \frac{pe^t}{1-(1-p)e^t}$.
 
-This converges when $|(1-p)e^t| < 1$I.e., $t < -\ln(1-p)$. $\blacksquare$
+This converges when $|(1-p)e^t| < 1$ I.e., $t < -\ln(1-p)$. $\blacksquare$
 
 </details>
 

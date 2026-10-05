@@ -28,11 +28,11 @@ scalar Potential $\phi$ such that $\mathbf{F} = \nabla \phi$.
 **Theorem 3.1.** $\mathbf{F}$ is conservative (on a connected domain) if and only if
 $\nabla \times \mathbf{F} = \mathbf{0}$.
 
-_Proof._ ($\Rightarrow$) If $\mathbf{F} = \nabla \phi$ with $\phi \in C^2$ Then by Clairaut"s theorem
-$f_{xy} = f_{yx}$Etc., which directly gives $\nabla \times (\nabla \phi) = \mathbf{0}$.
+_Proof._ ($\Rightarrow$) If $\mathbf{F} = \nabla \phi$ with $\phi \in C^2$ Then by Clairaut's theorem
+$f_{xy} = f_{yx}$ Etc., which directly gives $\nabla \times (\nabla \phi) = \mathbf{0}$.
 
 ($\Leftarrow$) If $\nabla \times \mathbf{F} = \mathbf{0}$ on a connected domain $D$ Then for any
-Closed curve $C$ in $D$Stokes' theorem gives
+Closed curve $C$ in $D$ Stokes' theorem gives
 $\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = 0$.
 This means line integrals are path-independent, so we can define
 $\phi(\mathbf{x}) = \int_{\mathbf{x}_0}^{\mathbf{x}} \mathbf{F} \cdot d\mathbf{r}$ (independent of
@@ -126,7 +126,7 @@ $$
 
 _Proof (for a Type I region)._ Assume $D$ is a Type I region:
 $D = \\{(x,y) : a \leq x \leq b,\, g_1(x) \leq y \leq g_2(x)\\}$. The boundary $C$ consists of Four
-pieces: bottom $C_1$Right $C_2$Top $C_3$ And left $C_4$.
+pieces: bottom $C_1$ Right $C_2$ Top $C_3$ And left $C_4$.
 
 We first prove $\oint_C P\, dx = -\iint_D \frac{\partial P}{\partial y}\, dA$.
 
@@ -135,7 +135,7 @@ On $C_1$: $y = g_1(x)$, $x$ goes from $a$ to $b$ So $\int_{C_1} P\, dx = \int_a^
 On $C_3$: $y = g_2(x)$, $x$ goes from $b$ to $a$ So
 $\int_{C_3} P\, dx = \int_b^a P(x, g_2(x))\, dx = -\int_a^b P(x, g_2(x))\, dx$.
 
-On $C_2$ and $C_4$: $x$ is constant, so $dx = 0$Hence $\int_{C_2} P\, dx = \int_{C_4} P\, dx = 0$.
+On $C_2$ and $C_4$: $x$ is constant, so $dx = 0$ Hence $\int_{C_2} P\, dx = \int_{C_4} P\, dx = 0$.
 
 Therefore:
 
@@ -192,13 +192,13 @@ $$
 _Physical interpretation._ If $\mathbf{F}$ represents the velocity field of a fluid:
 
 - **Curl** $\nabla \times \mathbf{F}$ measures the local rotational tendency (vorticity) of the
-  fluid. At a point $\mathbf{p}$The component $(\nabla \times \mathbf{F}) \cdot \mathbf{n}$ gives
+  fluid. At a point $\mathbf{p}$ The component $(\nabla \times \mathbf{F}) \cdot \mathbf{n}$ gives
   twice the angular velocity of a small paddle wheel placed at $\mathbf{p}$ with axis along
   $\mathbf{n}$.
 
 - **Divergence** $\nabla \cdot \mathbf{F}$ measures the net rate of outward flux per unit volume at
-  a point. If $\nabla \cdot \mathbf{F} \gt 0$ at $\mathbf{p}$There is a net source at $\mathbf{p}$;
-  if $\nabla \cdot \mathbf{F} \lt 0$There is a net sink.
+  a point. If $\nabla \cdot \mathbf{F} \gt 0$ at $\mathbf{p}$ There is a net source at $\mathbf{p}$;
+  if $\nabla \cdot \mathbf{F} \lt 0$ There is a net sink.
 
 **Proposition 3.5.** For any $C^2$ vector field $\mathbf{F}$:
 
@@ -217,7 +217,7 @@ $$
 $$
 
 Each pair cancels by Clairaut:
-$\frac{\partial^2 R}{\partial x\,\partial y} = \frac{\partial^2 R}{\partial y\,\partial x}$Etc.
+$\frac{\partial^2 R}{\partial x\,\partial y} = \frac{\partial^2 R}{\partial y\,\partial x}$ Etc.
 $\blacksquare$
 
 ### 3.5 Stokes' Theorem
@@ -248,7 +248,7 @@ $$
 $$
 
 Expanding the partial derivatives and using the identity
-$\mathbf{r}_u \times \mathbf{r}_v = \mathbf{n}\, \lVert \mathbf{r}_u \times \mathbf{r}_v \rVert$One
+$\mathbf{r}_u \times \mathbf{r}_v = \mathbf{n}\, \lVert \mathbf{r}_u \times \mathbf{r}_v \rVert$ One
 Verifies that the integrand equals
 $(\nabla \times \mathbf{F}) \cdot \mathbf{n}\, \lVert \mathbf{r}_u \times \mathbf{r}_v \rVert$ Which
 gives $\iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S}$. $\blacksquare$
@@ -280,7 +280,7 @@ $$
 So $\nabla \times \mathbf{F} = (-x,\, -2x,\, z - 2y)$.
 
 Parametrise the triangle in the $xy$-plane: $0 \leq x \leq 1$, $0 \leq y \leq 1 - x$. On the plane
-$z = 1 - x - y$The surface element $dS = \sqrt{3}\, dx\, dy$.
+$z = 1 - x - y$ The surface element $dS = \sqrt{3}\, dx\, dy$.
 
 $$
 \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = \frac{1}{\sqrt{3}} \iint_S (-x - 2x + z - 2y)\, dS
@@ -346,7 +346,7 @@ On $S_3$: $\mathbf{k} \cdot \mathbf{n} = 0$ (the normal is horizontal), so
 $R\, \mathbf{k} \cdot d\mathbf{S} = 0$.
 
 Therefore
-$\iint_S R\, \mathbf{k} \cdot d\mathbf{S} = \iint_D [R(x,y,g_2) - R(x,y,g_1)]\, dA$Matching the
+$\iint_S R\, \mathbf{k} \cdot d\mathbf{S} = \iint_D [R(x,y,g_2) - R(x,y,g_1)]\, dA$ Matching the
 Volume integral. The $P$ and $Q$ components follow by an identical argument for Type II and Type III
 Regions. For general regions, decompose into finitely many regions of each type. $\blacksquare$
 
@@ -460,7 +460,7 @@ $$
 \frac{\partial \phi}{\partial z} = 2xz + y^2 + h'(z)
 $$
 
-This must equal $2xz + y^2$ So $h'(z) = 0$Giving $h(z) = C$.
+This must equal $2xz + y^2$ So $h'(z) = 0$ Giving $h(z) = C$.
 
 Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 

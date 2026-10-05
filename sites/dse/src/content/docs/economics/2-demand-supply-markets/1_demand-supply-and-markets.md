@@ -153,7 +153,7 @@ The equilibrium price is also called the **market-clearing price**.
 
 ### Worked Example 1
 
-Given $Q_D = 100 - 2P$ and $Q_S = 20 + 3P$Find the equilibrium price and quantity.
+Given $Q_D = 100 - 2P$ and $Q_S = 20 + 3P$ Find the equilibrium price and quantity.
 
 At equilibrium: $Q_D = Q_S$
 
@@ -446,7 +446,7 @@ The larger the absolute value of XED, the stronger the relationship between the 
 
 ### Worked Example 5
 
-Given $Q_D = 200 - 4P$ and $Q_S = 40 + 2P$The government sets a price ceiling at USD 20. Find the
+Given $Q_D = 200 - 4P$ and $Q_S = 40 + 2P$ The government sets a price ceiling at USD 20. Find the
 Resulting shortage.
 
 At $P = 20$:
@@ -487,7 +487,7 @@ $$
 
 ### Worked Example 6
 
-Given $Q_D = 100 - P$ and $Q_S = P - 20$A specific tax of USD 10 per unit is imposed. Find the new
+Given $Q_D = 100 - P$ and $Q_S = P - 20$ A specific tax of USD 10 per unit is imposed. Find the new
 Equilibrium, tax revenue, and the burden on consumers and producers.
 
 Original equilibrium: $100 - P = P - 20$ So $2P = 120$$P = 60$$Q = 40$.
@@ -1434,7 +1434,7 @@ off despite lower nominal rents.
 
 (a) At $P = 15\,000$: $Q_d = 18000 - 6000 = 12\,000$. $Q_s = 30000 - 30000 = 0$.
 
-This gives $Q_s = 0$Which means the supply curve must be recalibrated. Let me use:
+This gives $Q_s = 0$ Which means the supply curve must be recalibrated. Let me use:
 $Q_s = -6000 + 0.8P$.
 
 At $P = 20\,000$: $Q_s = -6000 + 16000 = 10\,000 = Q^*$. $Q_d = 18000 - 8000 = 10\,000 = Q^*$. Good.

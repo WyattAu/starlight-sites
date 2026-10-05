@@ -21,7 +21,7 @@ categories:
 
 Supervised learning is the field of training models to act as a mapping between a set of inputs to a
 Set of output. To conduct supervised learning, a training set $N$ is given in the form of pairs
-$D = {x_n, y_n}^N_{n=1}$Where a input $x_n$ is paire with the correct output $y_n$.
+$D = {x_n, y_n}^N_{n=1}$ Where a input $x_n$ is paire with the correct output $y_n$.
 
 ## Classification
 

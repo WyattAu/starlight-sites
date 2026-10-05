@@ -110,7 +110,7 @@ for i in range(n):
     print(i)
 ```
 
-**Invariant for `for i in range(n)`:** At the start of iteration $i$The loop body has executed
+**Invariant for `for i in range(n)`:** At the start of iteration $i$ The loop body has executed
 Exactly $i$ times.
 
 ### Indefinite Iteration (While Loop)
@@ -223,7 +223,7 @@ def fib(n):
 **Complexity:** $T(n) = T(n-1) + T(n-2) + O(1)$. This gives $T(n) = \Theta(\phi^n)$ where
 $\phi = \frac{1+\sqrt{5}}{2} \approx 1.618$ (the golden ratio).
 
-**Proof sketch.** The recurrence has characteristic equation $r^2 = r + 1$Giving roots $\phi$ and
+**Proof sketch.** The recurrence has characteristic equation $r^2 = r + 1$ Giving roots $\phi$ and
 $\psi = \frac{1-\sqrt{5}}{2}$. The solution is $T(n) = A\phi^n + B\psi^n$. Since
 $|\psi| \lt 1$ $T(n) = \Theta(\phi^n)$. $\square$
 
@@ -313,7 +313,7 @@ def sum_digits(n):
 
 **Correctness.** By induction on the number of digits $d$.
 
-Base case ($d = 1$): $n \lt 10$Returns $n$. Sum of digits = $n$. ✓
+Base case ($d = 1$): $n \lt 10$ Returns $n$. Sum of digits = $n$. ✓
 
 Inductive step: Assume correct for all numbers with $\leq d$ digits. For a $(d+1)$-digit number $n$:
 $n \bmod 10$ gives the last digit, and $n // 10$ gives the remaining $d$ digits. By the inductive

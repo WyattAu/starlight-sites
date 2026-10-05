@@ -163,7 +163,7 @@ $$
 :::note[Example]
 Evaluate $\displaystyle\int 2x\sqrt{x^2+1}\,dx$.
 
-Let $u = x^2 + 1$ So $\dfrac{du}{dx} = 2x$Giving $du = 2x\,dx$.
+Let $u = x^2 + 1$ So $\dfrac{du}{dx} = 2x$ Giving $du = 2x\,dx$.
 
 $$
 \int \sqrt{u}\,du = \int u^{1/2}\,du = \frac{2}{3}u^{3/2} + C = \frac{2}{3}(x^2+1)^{3/2} + C
@@ -258,7 +258,7 @@ $$
 
 ### Repeated Integration by Parts
 
-For integrals like $\displaystyle\int x^2 e^x\,dx$ or $\displaystyle\int x^2 \sin x\,dx$Apply
+For integrals like $\displaystyle\int x^2 e^x\,dx$ or $\displaystyle\int x^2 \sin x\,dx$ Apply
 Integration by parts repeatedly.
 :::
 
@@ -467,7 +467,7 @@ $y$-axis.
 
 Using the disc method (in terms of $y$):
 
-$x = \sqrt{y}$From $y = 0$ to $y = 1$.
+$x = \sqrt{y}$ From $y = 0$ to $y = 1$.
 
 $$
 V = \pi\int_0^1 (\sqrt{y})^2\,dy = \pi\int_0^1 y\,dy = \pi\left[\frac{y^2}{2}\right]_0^1 = \frac{\pi}{2}
@@ -787,7 +787,7 @@ Many trigonometric integrals require using identities to simplify before integra
 
 #### Powers of Sine and Cosine
 
-**Odd power of sine**: Factor out one $\sin x$Convert the rest to cosines using
+**Odd power of sine**: Factor out one $\sin x$ Convert the rest to cosines using
 $\sin^2 x = 1 - \cos^2 x$ Then substitute $u = \cos x$.
 :::
 
@@ -828,7 +828,7 @@ $$
 
 #### Products of Sine and Cosine
 
-For $\displaystyle\int \sin mx \cos nx\,dx$Use the product-to-sum identities:
+For $\displaystyle\int \sin mx \cos nx\,dx$ Use the product-to-sum identities:
 
 $$
 \sin A \cos B = \frac{1}{2}[\sin(A+B) + \sin(A-B)]

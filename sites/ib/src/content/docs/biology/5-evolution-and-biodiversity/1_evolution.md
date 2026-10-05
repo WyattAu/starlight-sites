@@ -120,7 +120,7 @@ Early embryonic stages of vertebrates share remarkable similarities:
   vertebrae in most vertebrates but persists as the nucleus pulposus of intervertebral discs.
 
 These shared embryonic features reflect common ancestry. "Ontogeny recapitulates phylogeny"
-(Haeckel"s biogenetic law) is an oversimplification, but embryological similarities do provide
+(Haeckel's biogenetic law) is an oversimplification, but embryological similarities do provide
 Evidence for shared evolutionary origins.
 
 ### Biogeographical Evidence
@@ -812,8 +812,8 @@ Selection.
 
 A molecular phylogenetic tree of four species (A, B, C, D) based on a conserved gene shows the
 Following topology: ((A, B), C), D; where D is the outgroup. The branch lengths (number of
-Substitutions per site) are: A--B common ancestor = $0.02$A--B split to present = $0.01$ each,
-A--B/C common ancestor to C = $0.05$A--B/C/D common ancestor to A--B/C common ancestor = $0.03$. (a)
+Substitutions per site) are: A--B common ancestor = $0.02$ A--B split to present = $0.01$ each,
+A--B/C common ancestor to C = $0.05$ A--B/C/D common ancestor to A--B/C common ancestor = $0.03$. (a)
 Which two species are most closely related? (b) Calculate the total evolutionary distance Between A
 and C. (c) Explain why D is used as an outgroup.
 
@@ -888,7 +888,7 @@ frequency of the $c$ allele after many generations.
 <details>
 <summary>Solution</summary>
 
-**Current equilibrium** ($w_{cc} = 0$Lethal): $q^2 = 1/2500$ So $q = 1/50 = 0.02$. $p = 0.98$.
+**Current equilibrium** ($w_{cc} = 0$ Lethal): $q^2 = 1/2500$ So $q = 1/50 = 0.02$. $p = 0.98$.
 Carrier frequency: $2pq = 2 \times 0.98 \times 0.02 = 0.0392 \approx 1/25.5$.
 
 **New equilibrium** ($w_{CC} = 1.0$$w_{Cc} = 1.0$$w_{cc} = 0.5$): At equilibrium, the frequency of
@@ -901,7 +901,7 @@ selection coefficient against homozygotes)
 With $s = 0.5$: if $\mu \approx 10^{-6}$ (typical mutation rate),
 $\hat`\{q}` = 10^{-6} / 0.5
 = 2 \times 10^{-6}$, which is negligible. However, if the selection
-pressure is relaxed Completely ($s = 0$No fitness disadvantage), the allele frequency will remain at
+pressure is relaxed Completely ($s = 0$ No fitness disadvantage), the allele frequency will remain at
 its current Value ($q = 0.02$) unless mutation rates are negligible.
 
 With $w_{cc} = 0.5$ (partial selection), the equilibrium frequency will be between the two Extremes.
@@ -912,11 +912,11 @@ $\hat{q} \approx \sqrt{\frac{\mu}{s}} = \sqrt{\frac{10^{-6}}{0.5}} = \sqrt{2 \ti
 
 Wait --- this gives a lower frequency, which is incorrect. The issue is that $\mu/s$ applies when
 Mutation is introducing the allele and selection is removing it. If we are starting from $q = 0.02$
-And reducing selection from $s = 1$ to $s = 0.5$The frequency will actually increase because Fewer
+And reducing selection from $s = 1$ to $s = 0.5$ The frequency will actually increase because Fewer
 $cc$ individuals are being removed.
 
 The correct approach: with reduced selection, the equilibrium moves to a higher $q$. The new
-Equilibrium is approximately $q \approx \sqrt{\mu/s}$Which with a smaller $s$ gives a larger $q$.
+Equilibrium is approximately $q \approx \sqrt{\mu/s}$ Which with a smaller $s$ gives a larger $q$.
 But this formula assumes mutation-selection balance. In reality, starting from $q = 0.02$ With
 relaxed selection, the allele frequency will increase over generations as $cc$ individuals Survive
 and reproduce, approaching a new equilibrium that depends on the mutation rate.
@@ -981,7 +981,7 @@ provide a more robust argument for evolution than any single type alone.
 In a population of $2000$ snails, shell colour is controlled by two alleles: $B$ (brown, Dominant)
 and $b$ (yellow, recessive). The observed numbers are: $B B = 720$$Bb = 960$$bb = 320$. (a)
 Calculate the allele frequencies. (b) Test whether the population is in Hardy-Weinberg Equilibrium
-using the chi-squared test ($p = 0.05$Critical value for $1$ df $= 3.84$). (c) If thrushes
+using the chi-squared test ($p = 0.05$ Critical value for $1$ df $= 3.84$). (c) If thrushes
 selectively prey on yellow snails ($bb$) with $40\%$ mortality while brown snails Are unaffected,
 calculate the new allele frequencies after one generation of selection.
 
@@ -1220,7 +1220,7 @@ requiring the fewest Total character state changes.
 A diploid plant species has $2n = 14$ ($n = 7$). (a) An individual undergoes autopolyploidy. What is
 The chromosome number of the tetraploid offspring? (b) Explain why the tetraploid is reproductively
 Isolated from the diploid parent. (c) If the diploid parent produces gametes with $n = 7$ and the
-Tetraploid produces gametes with $n = 14$What chromosome number would a triploid hybrid have, and
+Tetraploid produces gametes with $n = 14$ What chromosome number would a triploid hybrid have, and
 Why would it be sterile?
 
 <details>
@@ -1771,7 +1771,7 @@ Gene B (fast clock, rate $= 5 \times 10^{-9}$ substitutions/site/year):
 <summary>Solution</summary>
 
 (a) **Gene A**: the smallest distance is between species 2 and 3 ($6/1000$). The larger distances
-are Species 1 vs 2 ($12/1000$) and species 1 vs 3 ($18/1000$). Since $12 + 6 = 18$The tree is:
+are Species 1 vs 2 ($12/1000$) and species 1 vs 3 ($18/1000$). Since $12 + 6 = 18$ The tree is:
 
 ```
      ┌── Species 2 (6 substitutions from node)

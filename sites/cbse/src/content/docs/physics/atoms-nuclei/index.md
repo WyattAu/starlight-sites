@@ -86,7 +86,7 @@ This is the red line of the Balmer series.
 
 ## Worked Example 2, Binding Energy
 
-**Problem:** Calculate the binding energy per nucleon of $^4_2\text{He}$. (Mass of proton = 1.00728 u, mass of neutron = 1.00867 u, mass of $^4$He = 4.00260 u)
+**Problem:** Calculate the binding energy per nucleon of $^4_2\text{He}$. (Mass of proton = 1.00728 u, mass of neutron = 1.00867 u, mass of $^4$ He = 4.00260 u)
 
 **Solution:**
 

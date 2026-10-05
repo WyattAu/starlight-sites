@@ -194,7 +194,7 @@ Duration is either ordered or unordered." For variables in different translation
 Classifies initialization as **unordered** unless the variable has a constant initializer or is an
 Inline variable.
 
-Formally, let $v_1$ be defined in $TU_1$ and $v_2$ be defined in $TU_2$Where $v_2$'s initializer
+Formally, let $v_1$ be defined in $TU_1$ and $v_2$ be defined in $TU_2$ Where $v_2$'s initializer
 Depends on $v_1$. The standard does not require $TU_1$'s initialization to complete before $TU_2$'s
 Initialization begins. The implementation is free to order them in any way, and this ordering may
 Change between compiler versions, link orders, or optimization levels.

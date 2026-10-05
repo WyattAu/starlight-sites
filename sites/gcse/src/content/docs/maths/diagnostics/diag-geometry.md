@@ -153,7 +153,7 @@ $2(3)+1 = 7 \checkmark$. $y' = 2y$? A: $2(2) = 4 \checkmark$. B: $2(2) = 4 \chec
 $2(6) = 12 \checkmark$.
 
 This is an **enlargement** with scale factor 2 and centre of enlargement at $(1, 0)$: each point is
-mapped such that $(x', y') = (2x + 1, 2y)$Which corresponds to an enlargement by factor 2 about
+mapped such that $(x', y') = (2x + 1, 2y)$ Which corresponds to an enlargement by factor 2 about
 centre $(-1, 0)$.
 
 Verification: Centre $(-1, 0)$. A $(1, 2)$: distance from centre is $(2, 2)$. Scaled by 2: $(4, 4)$.

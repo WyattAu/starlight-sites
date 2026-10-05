@@ -116,8 +116,8 @@ Regardless of the direction of motion.
 
 | Object                          | Axis                         | Moment of Inertia  |
 | ------------------------------- | ---------------------------- | ------------------ |
-| Thin rod, length $L$Mass $M$    | Center, perpendicular to rod | $\frac{1}{12}ML^2$ |
-| Thin rod, length $L$Mass $M$    | End, perpendicular to rod    | $\frac{1}{3}ML^2$  |
+| Thin rod, length $L$ Mass $M$    | Center, perpendicular to rod | $\frac{1}{12}ML^2$ |
+| Thin rod, length $L$ Mass $M$    | End, perpendicular to rod    | $\frac{1}{3}ML^2$  |
 | Solid cylinder/disk, radius $R$ | Central axis                 | $\frac{1}{2}MR^2$  |
 | Hollow cylinder, radius $R$     | Central axis                 | $MR^2$             |
 | Solid sphere, radius $R$        | Diameter                     | $\frac{2}{5}MR^2$  |
@@ -126,7 +126,7 @@ Regardless of the direction of motion.
 
 ### Derivation: Moment of Inertia of a Solid Cylinder
 
-Consider a solid cylinder of mass $M$Radius $R$ And length $L$Rotating about its central axis. Divide
+Consider a solid cylinder of mass $M$ Radius $R$ And length $L$ Rotating about its central axis. Divide
 the cylinder into thin cylindrical shells of radius $r$ and thickness $dr$.
 
 $$
@@ -338,7 +338,7 @@ $$
 \vec{\tau} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ r_x & r_y & r_z \\ F_x & F_y & F_z \end{vmatrix}
 $$
 
-The magnitude: $\tau = rF\sin\theta$Where $\theta$ is the angle from $\vec{r}$ to $\vec{F}$.
+The magnitude: $\tau = rF\sin\theta$ Where $\theta$ is the angle from $\vec{r}$ to $\vec{F}$.
 
 The direction is determined by the right-hand rule.
 
@@ -405,7 +405,7 @@ Rotational motion is the **mirror image of linear motion**, every linear concept
    from the axis).
 3. **Forgetting that angular momentum is a vector.** Direction matters and is determined by the
    right-hand rule.
-4. **Incorrectly applying the rolling condition.** Rolling without slipping means $v = R\omega$Not
+4. **Incorrectly applying the rolling condition.** Rolling without slipping means $v = R\omega$ Not
    $v = R\alpha$.
 5. **Not accounting for rotational KE in energy problems.** Rolling objects have both translational
    and rotational kinetic energy.
@@ -446,7 +446,7 @@ Rotational motion is the **mirror image of linear motion**, every linear concept
 8. Derive the parallel axis theorem from the definition of moment of inertia.
 
 9. A solid sphere rolls without slipping up a $20^\circ$ incline. If its initial speed is
-   $5.0 \mathrm{ m/s$How far up the incline does it travel before stopping and rolling back?
+   $5.0 \mathrm{ m/s$ How far up the incline does it travel before stopping and rolling back?
 
 10. A flywheel of moment of inertia $50 \mathrm{ kg \cdot \mathrm{m^2$ rotating at
     $300 \mathrm{ rpm$ is brought to rest by a constant frictional torque of
@@ -488,7 +488,7 @@ $$
 
 ### Derivation: Thin Rod About One End
 
-A thin uniform rod of mass $M$ and length $L$Pivoted at one end.
+A thin uniform rod of mass $M$ and length $L$ Pivoted at one end.
 
 $$
 I = \int_0^L x^2 \frac{M}{L}\, dx = \frac{M}{L}\left[\frac{x^3}{3}\right]_0^L = \frac{ML^2}{3}
@@ -503,7 +503,7 @@ Confirmed.
 ### Worked Example: Race Down an Incline
 
 A solid sphere, a solid cylinder, a hollow sphere, and a hollow cylinder, all of mass $M$ and radius
-$R$Are released from rest at the top of an incline of height $h$. Rank them by their speed at the
+$R$ Are released from rest at the top of an incline of height $h$. Rank them by their speed at the
 Bottom.
 
 | Object          | $I_{\mathrm{cm}$  | $v$ at bottom   | Fraction as KE of translation |
@@ -626,7 +626,7 @@ $$
 
 **Check slipping:** $f_{\max} = \mu_s N_f = 0.4 \times 147 = 58.8 \mathrm{ N$
 
-Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$The ladder does not slip.
+Since $f = 34.3 \mathrm{ N \lt 58.8 \mathrm{ N = f_{\max}$ The ladder does not slip.
 
 ## 15. Summary Table: Linear vs Rotational Quantities
 
@@ -698,7 +698,7 @@ $$
 \omega_p = \frac{\tau}{L} = \frac{2.94}{12.25} = 0.240 \mathrm{ rad/s
 $$
 
-The wheel precesses at $0.240 \mathrm{ rad/s$Completing one revolution in
+The wheel precesses at $0.240 \mathrm{ rad/s$ Completing one revolution in
 $T = 2\pi/\omega_p = 26.2 \mathrm{ s$.
 
 :::note
@@ -740,7 +740,7 @@ $$
 I_a = I_b + M_{\mathrm{total}d^2 = 3 + 5 \times 1^2 = 8 \mathrm{ kg\cdot\mathrm{m^2
 $$
 
-Wait -- this gives $8$Not $4$. Let me recheck. The parallel axis theorem requires the total mass To
+Wait -- this gives $8$ Not $4$. Let me recheck. The parallel axis theorem requires the total mass To
 be at the centre of mass of the _entire system_, not just the rod.
 
 **Centre of mass from the pivot (end with point mass):**
@@ -766,7 +766,7 @@ Correct.
 And $I_a$ directly: rod about its far end (away from point mass): use parallel axis from centre,
 $I_{\mathrm{rod, end} = \frac{1}{12}(3)(4) + 3(1)^2 = 1 + 3 = 4$. Point mass at distance
 $2 \mathrm{ m$: $I_{\mathrm{pm} = 2 \times 4 = 8$. Wait -- the point mass is at the pivot, so
-$r = 0$Giving $I_a = 4 + 0 = 4$.
+$r = 0$ Giving $I_a = 4 + 0 = 4$.
 
 The parallel axis check failed because I was not careful. The correct check: $I_{\mathrm{cm} = 3$
 About the centre of mass at $0.6 \mathrm{ m$ from pivot, so $I_a = 3 + 5(0.6)^2 = 3 + 1.8 = 4.8$.
@@ -783,7 +783,7 @@ Point.
 
 ### Example 18: Yo-Yo Problem
 
-A yo-yo consists of two disks of total mass $0.1 \mathrm{ kg$ and radius $3 \mathrm{ cm$With an Axle
+A yo-yo consists of two disks of total mass $0.1 \mathrm{ kg$ and radius $3 \mathrm{ cm$ With an Axle
 of radius $0.5 \mathrm{ cm$. The string unwinds from the axle. Find the acceleration of the Yo-yo as
 it falls and the tension in the string.
 
@@ -791,7 +791,7 @@ it falls and the tension in the string.
 
 Translation: $mg - T = ma$
 
-Rotation: $TR = I\alpha$Where $R$ is the axle radius and $a = R\alpha$.
+Rotation: $TR = I\alpha$ Where $R$ is the axle radius and $a = R\alpha$.
 
 $$
 T \times 0.005 = I \times \frac{a}{0.005}
@@ -840,7 +840,7 @@ The contact point (instantaneously at rest).
 ### Pitfall 8: Forgetting Units in Moment of Inertia
 
 Moment of inertia has units of $\mathrm{kg\cdot\mathrm{m^2$. A common error is to use centimetres
-Instead of metres when calculating $I = mr^2$Giving answers that are off by a factor of $10^4$.
+Instead of metres when calculating $I = mr^2$ Giving answers that are off by a factor of $10^4$.
 Always convert to SI units before calculating.
 
 ## Additional Practice Problems

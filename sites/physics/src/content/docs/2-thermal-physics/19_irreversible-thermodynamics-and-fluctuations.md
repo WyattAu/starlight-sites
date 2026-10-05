@@ -64,7 +64,7 @@ state $A$ to equilibrium state $B$ in time $\tau$.
 
 **Consequences:**
 
-- By Jensen"s inequality: $\langle W \rangle \geq \Delta F$ (the average work is never less than the
+- By Jensen's inequality: $\langle W \rangle \geq \Delta F$ (the average work is never less than the
   free energy change).
 - For quasi-static processes: $\langle W \rangle = \Delta F$ and the distribution of $W$ is a delta
   function.
@@ -94,7 +94,7 @@ $$
 <details>
 <summary>Worked Example 19.1: Jarzynski Equality for a Two-Level System</summary>
 
-Consider a two-level system with $\epsilon_1 = 0$ and $\epsilon_2 = \epsilon$Initially in
+Consider a two-level system with $\epsilon_1 = 0$ and $\epsilon_2 = \epsilon$ Initially in
 equilibrium at inverse temperature $\beta$.
 
 The free energy: $F = -k_BT\ln Z = -k_BT\ln(1 + e^{-\beta\epsilon})$.

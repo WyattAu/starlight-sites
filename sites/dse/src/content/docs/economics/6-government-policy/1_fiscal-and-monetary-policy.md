@@ -1366,7 +1366,7 @@ the concept of stagflation and why it presents a policy dilemma.
 $Y_{SR} = 950$, $P_{SR} = 100 + 0.5 \times 50 = 125$ (using the given Phillips curve relationship).
 
 More precisely, the adverse supply shock shifts SRAS left. At the original price level
-$P = 100$Firms now produce 5% less: $Y = 950$. The resulting excess demand pushes prices up along
+$P = 100$ Firms now produce 5% less: $Y = 950$. The resulting excess demand pushes prices up along
 the new SRAS until a new short-run equilibrium is reached. Output falls below potential and prices
 rise -- this is stagflation.
 
@@ -1448,7 +1448,7 @@ often cited as dangerous. Yet Japan has not faced a debt crisis because:
    foreign investors who could suddenly withdraw.
 2. **Low interest rates:** The Bank of Japan's yield curve control policy keeps JGB yields near
    zero. Even with a debt/GDP of 250%, the interest burden is only about 1% of GDP
-   ($0.25 \times 0.004 = 0.001$Assuming a 0.4% yield).
+   ($0.25 \times 0.004 = 0.001$ Assuming a 0.4% yield).
 3. **Current account surplus:** Japan runs a persistent current account surplus, meaning it is a net
    creditor to the world. The government can always borrow from its own citizens' savings.
 4. **High domestic savings rate:** Japan's aging population saves heavily, providing a ready source

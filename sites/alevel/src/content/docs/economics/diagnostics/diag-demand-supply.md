@@ -145,17 +145,17 @@ $\text{PS} = \frac{1}{2} \times 18 \times (11 - 2) = \frac{1}{2} \times 18 \time
 Quantity demanded at $\pounds 8$: $8 = 20 - 0.5Q_d$, $Q_d = 24$. Quantity supplied at $\pounds 8$:
 $8 = 2 + 0.5Q_s$, $Q_s = 12$.
 
-Since $Q_s \lt Q_d$The binding price ceiling creates a shortage of $24 - 12 = 12$ units. The
+Since $Q_s \lt Q_d$ The binding price ceiling creates a shortage of $24 - 12 = 12$ units. The
 quantity traded is $Q = 12$.
 
-New CS: area below the demand curve and above $\pounds 8$From $Q = 0$ to $Q = 12$.
+New CS: area below the demand curve and above $\pounds 8$ From $Q = 0$ to $Q = 12$.
 
 Demand price at $Q = 0$: $\pounds 20$. Demand price at $Q = 12$: $20 - 6 = \pounds 14$.
 
 $\text{CS}_{\text{new}}$ is a trapezoid:
 $\frac{1}{2}(20 + 14 - 2 \times 8) \times 12 = \frac{1}{2}(34 - 16) \times 12 = \frac{1}{2} \times 18 \times 12 = \pounds 108$.
 
-New PS: area above supply and below $\pounds 8$From $Q = 0$ to $Q = 12$:
+New PS: area above supply and below $\pounds 8$ From $Q = 0$ to $Q = 12$:
 
 Supply price at $Q = 0$: $\pounds 2$. Supply price at $Q = 12$: $2 + 6 = \pounds 8$.
 
@@ -165,7 +165,7 @@ New total surplus: $108 + 36 = \pounds 144$.
 
 Deadweight loss $= 162 - 144 = \pounds 18$.
 
-Alternatively, DWL as a triangle: base $= 18 - 12 = 6$Height $= 14 - 8 = 6$.
+Alternatively, DWL as a triangle: base $= 18 - 12 = 6$ Height $= 14 - 8 = 6$.
 
 $\text{DWL} = \frac{1}{2} \times 6 \times 6 = \pounds 18$.
 
@@ -222,7 +222,7 @@ the government as revenue, but destroyed.
 ### IT-2: Subsidy Analysis (with Theory of the Firm)
 
 **Question:** The government provides a production subsidy of $\pounds 6$ per unit to wheat farmers.
-Demand: $P = 40 - 0.5Q$Supply: $P = 4 + 0.5Q$. Calculate the change in consumer surplus, producer
+Demand: $P = 40 - 0.5Q$ Supply: $P = 4 + 0.5Q$. Calculate the change in consumer surplus, producer
 surplus, government expenditure, and deadweight loss. Discuss why subsidies can lead to
 overproduction.
 
@@ -289,17 +289,17 @@ $40 + 5 = \pounds 45$ per unit. So $45 = 10 + Q_s$$Q_s = 35$.
 The subsidy means the effective price received by fishermen is $\pounds 40 + \pounds 5 = \pounds 45$
 per unit. The quantity supplied at this effective price: $45 = 10 + Q_s$$Q_s = 35$.
 
-Since $Q_s = 35 \gt Q_d = 20$There is excess supply (surplus) of $35 - 20 = 15$ units. The quantity
+Since $Q_s = 35 \gt Q_d = 20$ There is excess supply (surplus) of $35 - 20 = 15$ units. The quantity
 traded is determined by demand: $Q = 20$.
 
 Consumer surplus at $P = 40$$Q = 20$:
 
-$P_{\text{demand}}$ at $Q = 0$ is $\pounds 60$At $Q = 20$ is $\pounds 40$.
+$P_{\text{demand}}$ at $Q = 0$ is $\pounds 60$ At $Q = 20$ is $\pounds 40$.
 
 $\text{CS} = \frac{1}{2}(60 - 40)(20) = \frac{1}{2}(20)(20) = \pounds 200$.
 
 Producer surplus: producers receive $\pounds 45$ per unit. The supply price at $Q = 0$ is
-$\pounds 10$At $Q = 20$ is $10 + 20 = \pounds 30$.
+$\pounds 10$ At $Q = 20$ is $10 + 20 = \pounds 30$.
 
 $\text{PS}$ is the area above the supply curve and below the effective price received
 ($\pounds 45$), from $Q = 0$ to $Q = 20$:
@@ -340,7 +340,7 @@ change in consumer and producer surplus, government expenditure, and deadweight 
 
 Pre-subsidy: $120 - P = 2P - 40 \Rightarrow 160 = 3P \Rightarrow P = 53.33$$Q = 66.67$.
 
-Post-subsidy: consumers pay $P_c$Producers receive $P_c + 8$. Supply:
+Post-subsidy: consumers pay $P_c$ Producers receive $P_c + 8$. Supply:
 $Q_S = 2(P_c + 8) - 40 = 2P_c - 24$.
 $120 - P_c = 2P_c - 24 \Rightarrow 144 = 3P_c \Rightarrow P_c = 48$. $Q = 72$. Producers receive
 $48 + 8 = 56$.

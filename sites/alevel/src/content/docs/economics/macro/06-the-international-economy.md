@@ -651,13 +651,13 @@ $$
 \epsilon_X + \epsilon_M > 1
 $$
 
-Since $\epsilon_X = |\text{PED}_X|$ and $\epsilon_M = |\text{PED}_M|$The condition is
+Since $\epsilon_X = |\text{PED}_X|$ and $\epsilon_M = |\text{PED}_M|$ The condition is
 $|\text{PED}_X| + |\text{PED}_M| > 1$. $\blacksquare$
 
 **Empirical estimates for the UK.** The UK's price elasticity of demand for exports is approximately
 0.5-0.7 in the short run and 1.0-1.5 in the long run. The price elasticity of demand for imports is
 approximately 0.3-0.5 in the short run and 0.8-1.2 in the long run. In the short run,
-$|\text{PED}_X| + |\text{PED}_M| \approx 0.8 - 1.2$Which may be below 1, consistent with the J-curve
+$|\text{PED}_X| + |\text{PED}_M| \approx 0.8 - 1.2$ Which may be below 1, consistent with the J-curve
 effect. In the long run, the sum exceeds 1, so depreciation does improve the current account.
 
 ### 13.2 J-Curve Effect: Worked Example
@@ -997,13 +997,13 @@ If the common external tariff is 10: price from C = 70. Price from B = 80. A imp
 
 **For trade diversion to occur, the partner's price must be between the world price (without tariff)
 and the world price (with tariff):** $P_C < P_B < P_C + t$. Here: $60 < 80 < 60 + 20 = 80$. Since
-$P_B = P_C + t$Trade diversion is marginal.
+$P_B = P_C + t$ Trade diversion is marginal.
 
-**Better example:** $P_C = 50$$P_B = 80$Tariff on C = 20. Price from C = 70. Imports from C = 160.
+**Better example:** $P_C = 50$$P_B = 80$ Tariff on C = 20. Price from C = 70. Imports from C = 160.
 After customs union (common tariff 20): price from C = 70. Price from B = 80. A imports from C
 (still cheaper). No trade diversion.
 
-**Trade diversion requires $P_B < P_C + t_{CU}$ but $P_B > P_C$:** $P_C = 50$$P_B = 65$Tariff on C
+**Trade diversion requires $P_B < P_C + t_{CU}$ but $P_B > P_C$:** $P_C = 50$$P_B = 65$ Tariff on C
 = 20. Before CU: price from C = 70, from B = 85 (with tariff 20). A imports from C: 160 million
 tonnes. Tariff revenue = $20 \times 160 = 3200$.
 
@@ -1202,7 +1202,7 @@ If money growth is 15% per year (due to fiscal deficit financing) and the anchor
 growth is 5%: After 1 year: $e_{shadow}/e_{peg} = 1.10$ (10% overvaluation). After 2 years:
 $e_{shadow}/e_{peg} = 1.21$ (21% overvaluation).
 
-**Speculative attack timing:** Speculators attack when $e_{shadow} > e_{peg}$I.e., when the expected
+**Speculative attack timing:** Speculators attack when $e_{shadow} > e_{peg}$ I.e., when the expected
 devaluation exceeds the cost of attacking (the interest rate differential).
 
 If the domestic interest rate is 15% and the US interest rate is 5%, the cost of borrowing pesos to

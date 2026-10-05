@@ -109,7 +109,7 @@ def reverse_recursive(head):
     return new_head
 ```
 
-### Cycle Detection (Floyd"s Tortoise and Hare)
+### Cycle Detection (Floyd's Tortoise and Hare)
 
 Floyd's algorithm uses two pointers moving at different speeds. If there is a cycle, the fast
 Pointer will eventually catch up to the slow pointer.
@@ -152,7 +152,7 @@ def find_cycle_start(head):
 **Why this works:** Let $\mu$ be the distance from head to cycle start, and $\lambda$ be the cycle
 Length. When slow and fast meet, slow has travelled $\mu + a\lambda$ steps and fast has travelled
 $\mu + a\lambda + b\lambda$ steps for some non-negative integers $a, b$. Since fast moves twice as
-Fast: $2(\mu + a\lambda) = \mu + a\lambda + b\lambda$Which gives $\mu = (b - a)\lambda$. So the
+Fast: $2(\mu + a\lambda) = \mu + a\lambda + b\lambda$ Which gives $\mu = (b - a)\lambda$. So the
 Distance from the meeting point to the cycle start (going around the cycle) is exactly $\mu$, the
 Same as the distance from head to cycle start.
 
@@ -504,7 +504,7 @@ Minimum (or maximum) priority element. The standard implementation uses a binary
 
 A binary heap is a complete binary tree where every node is less than or equal to its children
 (min-heap) or greater than or equal to its children (max-heap). Stored as an array where for node at
-Index $i$: parent is at $(i-1)/2$Left child is at $2i+1$Right child is at $2i+2$.
+Index $i$: parent is at $(i-1)/2$ Left child is at $2i+1$ Right child is at $2i+2$.
 
 ```python
 class MinHeap:
@@ -714,7 +714,7 @@ class UnionFind:
 
 ### Time Complexity
 
-The amortised time complexity of both `find` and `union` is $O(\alpha(n))$Where $\alpha$ is the
+The amortised time complexity of both `find` and `union` is $O(\alpha(n))$ Where $\alpha$ is the
 Inverse Ackermann function. For all practical values of $n$ (up to $2^{2^{2^{65536}}}$),
 $\alpha(n) \le 4$. This is effectively constant time.
 

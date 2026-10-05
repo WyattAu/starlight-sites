@@ -17,10 +17,10 @@ description: "For a time-dependent perturbation applied to an initial state Comp
 }
 </script>
 
-### 11.1 Fermi"s Golden Rule
+### 11.1 Fermi's Golden Rule
 
 For a time-dependent perturbation $\hat{V}(t) = \hat{V}\,e^{-i\omega t}$ applied to an initial state
-$|i\rangle$The transition rate to a continuum of final states $|f\rangle$ is:
+$|i\rangle$ The transition rate to a continuum of final states $|f\rangle$ is:
 
 $$
 \Gamma_{i \to f} = \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f)
@@ -41,7 +41,7 @@ $$
 |c_f|^2 = \frac{|\langle f|\hat{V}|i\rangle|^2}{\hbar^2}\frac{\sin^2[(\omega_{fi} - \omega)t/2]}{(\omega_{fi} - \omega)^2/4}
 $$
 
-In the long-time limit, $\sin^2(xt)/x^2 \to 2\pi t\,\delta(x)$Giving:
+In the long-time limit, $\sin^2(xt)/x^2 \to 2\pi t\,\delta(x)$ Giving:
 
 $$
 \frac{|c_f|^2}{t} = \frac{2\pi}{\hbar^2}|\langle f|\hat{V}|i\rangle|^2\,\delta(E_f - E_i - \hbar\omega)
@@ -73,7 +73,7 @@ $$
 A_{2p \to 1s} = \frac{\omega^3}{3\pi\varepsilon_0\hbar c^3}|\langle 1s|e\mathbf{r}|2p\rangle|^2
 $$
 
-With $|\langle 1s|z|2p, m=0\rangle| = \frac{2^7\sqrt{2}}{3^5}a_0$This gives
+With $|\langle 1s|z|2p, m=0\rangle| = \frac{2^7\sqrt{2}}{3^5}a_0$ This gives
 $A_{2p \to 1s} \approx 6.3 \times 10^8$ s$^{-1}$Corresponding to a lifetime $\tau \approx 1.6$ ns.
 
 ### 11.3 Spontaneous Emission and Einstein Coefficients
@@ -104,8 +104,8 @@ By the Wigner--Eckart theorem and parity selection rules:
 
 The $3d \to 1s$ transition can proceed via:
 
-- **E2 (electric quadrupole):** $\Delta l = 0, \pm 2$Rate $\sim \alpha(kR)^2$ times slower than E1
-- **M1 (magnetic dipole):** requires $\Delta l = 0$Not applicable here
+- **E2 (electric quadrupole):** $\Delta l = 0, \pm 2$ Rate $\sim \alpha(kR)^2$ times slower than E1
+- **M1 (magnetic dipole):** requires $\Delta l = 0$ Not applicable here
 - **Two-photon decay:** $3d \to 2p \to 1s$ (two successive E1 transitions)
 
 The $3d \to 2p$ transition ($\Delta l = -1$) is E1-allowed and dominates, with

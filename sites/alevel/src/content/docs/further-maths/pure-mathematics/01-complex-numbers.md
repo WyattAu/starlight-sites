@@ -70,7 +70,7 @@ $\operatorname{Im}(z)$. The complex number $z = a + bi$ is plotted as the point 
 
 - The _modulus_ $|z|$ is defined as $|z| = \sqrt{a^2 + b^2}$.
 - The _argument_ $\arg(z)$ is the angle $\theta$ (measured anticlockwise from the positive real
-  axis) such that $\tan\theta = \dfrac{b}{a}$With $-\pi < \theta \leq \pi$ (the _principal
+  axis) such that $\tan\theta = \dfrac{b}{a}$ With $-\pi < \theta \leq \pi$ (the _principal
   argument_).
 
 $$
@@ -116,7 +116,7 @@ $z = 2\!\left(\cos\!\left(-\dfrac{\pi}{3}\right) + i\sin\!\left(-\dfrac{\pi}{3}\
 
 <hr />
 
-## 2. De Moivre"s Theorem
+## 2. De Moivre's Theorem
 
 **Theorem (De Moivre).** For any integer $n$ and any angle $\theta$:
 
@@ -211,7 +211,7 @@ $$
 $n \in \mathbb{Z}^+$.
 
 By De Moivre's theorem, writing $1 = \cos 0 + i\sin 0 = \cos(2k\pi) + i\sin(2k\pi)$ for any integer
-$k$The $n$ distinct solutions are:
+$k$ The $n$ distinct solutions are:
 
 $$
 \boxed{z_k = \cos\!\left(\frac{2k\pi}{n}\right) + i\sin\!\left(\frac{2k\pi}{n}\right), \quad k = 0, 1, 2, \ldots, n-1}
@@ -225,7 +225,7 @@ Inscribed in the unit circle, with one vertex at $z = 1$.
 
 ### 3.2 Sum and Product of Roots
 
-Since the roots satisfy $z^n - 1 = 0$The sum of all $n$-th roots of unity is zero:
+Since the roots satisfy $z^n - 1 = 0$ The sum of all $n$-th roots of unity is zero:
 
 $$
 \sum_{k=0}^{n-1} z_k = 0
@@ -350,7 +350,7 @@ $$
 
 ### 5.1 Circles: $|z - a| = r$
 
-**Definition.** The locus $|z - a| = r$Where $a \in \mathbb{C}$ and $r \in \mathbb{R}^+$Is a Circle
+**Definition.** The locus $|z - a| = r$ Where $a \in \mathbb{C}$ and $r \in \mathbb{R}^+$ Is a Circle
 with centre $a$ and radius $r$ in the Argand diagram.
 
 $$
@@ -363,7 +363,7 @@ The region $|z - a| < r$ is the _interior_ of the circle, and $|z - a| > r$ is t
 
 ### 5.2 Perpendicular Bisectors: $|z - a| = |z - b|$
 
-This locus represents all points equidistant from $a$ and $b$Which is the perpendicular bisector Of
+This locus represents all points equidistant from $a$ and $b$ Which is the perpendicular bisector Of
 the line segment joining $a$ and $b$.
 
 ### 5.3 Half-Lines: $\arg(z - a) = \alpha$
@@ -395,7 +395,7 @@ A complex number $z$ satisfies $|z - 2i| \leq 3$ and
 $0 \leq \arg(z) \leq \dfrac{\pi}{2}$. Find the greatest possible value of $|z|$ and the
 Least possible value of $|z|$.
 
-The first condition: $|z - 2i| \leq 3$ is the closed disc of radius 3 centred at $2i$I.e. At
+The first condition: $|z - 2i| \leq 3$ is the closed disc of radius 3 centred at $2i$ I.e. At
 $(0, 2)$.
 
 The second condition: $0 \leq \arg(z) \leq \dfrac{\pi}{2}$ restricts $z$ to the first
@@ -406,11 +406,11 @@ $x = 3$.
 
 **Greatest $|z|$:** The point in the region farthest from the origin is where the boundary of the
 Disc intersects the first quadrant boundary furthest from the origin. The disc intersects the
-Positive $y$-axis at $(0, 5)$Giving $|z| = 5$.
+Positive $y$-axis at $(0, 5)$ Giving $|z| = 5$.
 
 **Least $|z|$:** We need the closest point in the region to the origin. The disc boundary is
 $(x^2 + (y-2)^2) = 9$. The closest point on this circle to the origin lies along the line from the
-Origin through the centre $(0,2)$Which is the $y$-axis. The point $(0, -1)$ is outside the first
+Origin through the centre $(0,2)$ Which is the $y$-axis. The point $(0, -1)$ is outside the first
 Quadrant. Within the first quadrant, the closest point is where the circle meets the $x$-axis:
 Setting $y = 0$, $x^2 + 4 = 9 \implies x = \sqrt{5}$. So $|z| = \sqrt{5}$.
 
@@ -435,7 +435,7 @@ Writing $a = \lambda e^{i\alpha}$ and $b = \mu e^{i\beta}$:
 2. $\arg(a) = \alpha$ produces a _rotation_ through angle $\alpha$ about the origin.
 3. $b$ produces a _translation_ by the vector representing $b$.
 
-The composition is: enlarge by $|a|$Rotate by $\arg(a)$ Then translate by $b$.
+The composition is: enlarge by $|a|$ Rotate by $\arg(a)$ Then translate by $b$.
 
 ### 6.3 Inversion: $w = \dfrac{1}{z}$
 
@@ -471,7 +471,7 @@ Let $w = u + vi$. Then $u = \dfrac{1}{1 + y^2}$ and $v = \dfrac{-y}{1 + y^2}$.
 
 Note that $v = -uy$ So $y = -\dfrac{v}{u}$ (when $u \neq 0$).
 
-Substituting: $u = \dfrac{1}{1 + v^2/u^2} = \dfrac{u^2}{u^2 + v^2}$Giving $u^2 + v^2 = u$I.e.:
+Substituting: $u = \dfrac{1}{1 + v^2/u^2} = \dfrac{u^2}{u^2 + v^2}$ Giving $u^2 + v^2 = u$ I.e.:
 
 $$
 u^2 - u + v^2 = 0 \implies \left(u - \frac{1}{2}\right)^2 + v^2 = \frac{1}{4}
@@ -582,7 +582,7 @@ $$
 
 <hr />
 
-**Problem 3.** Find all solutions to $z^4 = 16i$Expressing each in the form $a + bi$.
+**Problem 3.** Find all solutions to $z^4 = 16i$ Expressing each in the form $a + bi$.
 
 <details>
 <summary>Hint</summary>
@@ -681,9 +681,9 @@ $x > 2$.
 **Intersection:** Setting $x - 2 = \sqrt{3}(x - 2)$:
 
 $(x - 2)(1 - \sqrt{3}) = 0$ So $x = 2$ (gives $y = 0$ But the half-line requires $x > 2$) or
-$1 = \sqrt{3}$Which is false.
+$1 = \sqrt{3}$ Which is false.
 
-There is no intersection. The half-line from $(2, 0)$ at angle $\pi/3$ has slope $\sqrt{3}$While The
+There is no intersection. The half-line from $(2, 0)$ at angle $\pi/3$ has slope $\sqrt{3}$ While The
 perpendicular bisector has slope 1, and they only meet at the point $(2, 0)$ which is excluded From
 the half-line.
 
@@ -793,7 +793,7 @@ $0 \leq \arg(z) \leq \dfrac{\pi}{4}$. Find and describe the image of $R$ under $
 <details>
 <summary>Hint</summary>
 
-Under $w = z^2$The modulus squares and the argument doubles.
+Under $w = z^2$ The modulus squares and the argument doubles.
 
 </details>
 
@@ -808,7 +808,7 @@ If $z = re^{i\theta}$ Then $w = r^2 e^{2i\theta}$.
   so $0 \leq \arg(w) \leq \dfrac{\pi}{2}$.
 
 The image is the region in the first quadrant of the $w$-plane between the circles $|w| = 1$ and
-$|w| = 4$Bounded by the rays $\arg(w) = 0$ and $\arg(w) = \dfrac{\pi}{2}$.
+$|w| = 4$ Bounded by the rays $\arg(w) = 0$ and $\arg(w) = \dfrac{\pi}{2}$.
 
 </details>
 
@@ -843,7 +843,7 @@ $$
 Now: $e^{i\pi/2} + e^{i\pi} + e^{3i\pi/2} = i + (-1) + (-i) = -1$.
 
 Separating real and imaginary parts:
-$\cos\dfrac{\pi}{2} + \cos\pi + \cos\dfrac{3\pi}{2} = -1$I.e.
+$\cos\dfrac{\pi}{2} + \cos\pi + \cos\dfrac{3\pi}{2} = -1$ I.e.
 $0 - 1 + 0 = -1$. ✓
 
 Alternatively, the claim as stated uses
@@ -931,7 +931,7 @@ $$
 
 ### Example 8.2: Solving $z^6 = -64$
 
-**Problem.** Solve $z^6 = -64$Giving answers in exponential form.
+**Problem.** Solve $z^6 = -64$ Giving answers in exponential form.
 
 **Solution.** $-64 = 64e^{i\pi}$. The 6th roots are:
 
@@ -992,7 +992,7 @@ And find the image of the line $\mathrm{Re}(z) = 1$.
 
 **Solution.** $w = (1+i)z + 2i = \sqrt{2}\,e^{i\pi/4}\,z + 2i$.
 
-$T$ is an enlargement by scale factor $\sqrt{2}$Rotation by $45°$ anticlockwise about the origin,
+$T$ is an enlargement by scale factor $\sqrt{2}$ Rotation by $45°$ anticlockwise about the origin,
 Followed by a translation by $2i$.
 
 For $\mathrm{Re}(z) = 1$: $z = 1 + it$.
@@ -1061,7 +1061,7 @@ $\blacksquare$
 
 ### Question 8
 
-Solve $z^4 = 8(1 + i\sqrt{3})$Giving roots in the form $r(\cos\theta + i\sin\theta)$.
+Solve $z^4 = 8(1 + i\sqrt{3})$ Giving roots in the form $r(\cos\theta + i\sin\theta)$.
 
 <details>
 <summary>Solution</summary>
@@ -1100,7 +1100,7 @@ The complex number $z$ satisfies $|z-1| = |z+1|$ and $|z-3i| = 3$. Find $z$.
 <details>
 <summary>Solution</summary>
 
-$|z-1| = |z+1|$: perpendicular bisector of $1$ and $-1$Giving $\mathrm{Re}(z) = 0$. So $z = iy$.
+$|z-1| = |z+1|$: perpendicular bisector of $1$ and $-1$ Giving $\mathrm{Re}(z) = 0$. So $z = iy$.
 
 $|z-3i| = 3 \implies |iy - 3i| = 3 \implies |y-3| = 3 \implies y - 3 = \pm 3$.
 
@@ -1175,7 +1175,7 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 
 ### Question 11
 
-Solve $z^3 = -8i$Giving roots in Cartesian form.
+Solve $z^3 = -8i$ Giving roots in Cartesian form.
 
 <details>
 <summary>Solution</summary>
@@ -1355,7 +1355,7 @@ $$
 z_k = r^{1/n} \exp\!\left(\frac{i(\phi + 2k\pi)}{n}\right) \quad \text{for } k = 0, 1, \ldots, n-1
 $$
 
-The roots lie on a circle of radius $r^{1/n}$Equally spaced.
+The roots lie on a circle of radius $r^{1/n}$ Equally spaced.
 
 ### 16.4 The complex exponential function
 

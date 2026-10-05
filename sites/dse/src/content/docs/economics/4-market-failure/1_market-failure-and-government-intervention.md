@@ -61,7 +61,7 @@ To bear it.
 ### Negative Externality of Production
 
 This occurs when the production of a good imposes costs on society that are not reflected in the
-Producer"s private costs.
+Producer's private costs.
 
 $$
 \mathrm{MSC} = \mathrm{MPC} + \mathrm{MEC}

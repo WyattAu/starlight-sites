@@ -113,7 +113,7 @@ Truth values for every possible assignment of truth values to their component pr
 7. **Double Negation:** $\neg(\neg P) \equiv P$
 8. **Absorption:** $P \vee (P \wedge Q) \equiv P$ And $P \wedge (P \vee Q) \equiv P$
 
-### 1.4 De Morgan"s Laws
+### 1.4 De Morgan's Laws
 
 These are essential for negating compound statements.
 
@@ -133,7 +133,7 @@ Each part and switch to "and."
 Negate: "The function $f$ is continuous and differentiable."
 
 Let $C$: "$f$ is continuous." Let $D$: "$f$ is differentiable." The statement is $C \wedge D$. Its
-Negation is $\neg C \vee \neg D$I.e., "$f$ is either not continuous or not differentiable."
+Negation is $\neg C \vee \neg D$ I.e., "$f$ is either not continuous or not differentiable."
 
 :::note
 "$f$ is continuous and differentiable" is NOT "$f$ is not continuous and not differentiable", that
@@ -142,7 +142,7 @@ Is too strong.
 
 ### 1.5 The Contrapositive
 
-For any implication $P \implies Q$The **contrapositive** is $\neg Q \implies \neg P$.
+For any implication $P \implies Q$ The **contrapositive** is $\neg Q \implies \neg P$.
 
 **Theorem:** An implication and its contrapositive are logically equivalent.
 
@@ -227,7 +227,7 @@ $$
 
 **Worked Example, Negating a nested quantifier statement:**
 
-Negate: "For every positive real number $\varepsilon$There exists a positive real number $\delta$
+Negate: "For every positive real number $\varepsilon$ There exists a positive real number $\delta$
 Such that..."
 
 $$
@@ -271,7 +271,7 @@ Is false (there are infinitely many primes), so the original statement is true.
 
 ### 2.1 Direct Proof
 
-**Strategy:** To prove $P \implies Q$Assume $P$ is true and use logical deduction to arrive at $Q$.
+**Strategy:** To prove $P \implies Q$ Assume $P$ is true and use logical deduction to arrive at $Q$.
 
 This is the most straightforward method. You chain together known results, definitions, and
 Algebraic manipulations.
@@ -292,7 +292,7 @@ n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1
 $$
 
 Since $2k^2 + 2k$ is an integer (sum and product of integers), let $m = 2k^2 + 2k \in \mathbb{Z}$.
-Then $n^2 = 2m + 1$Which is odd by definition.
+Then $n^2 = 2m + 1$ Which is odd by definition.
 
 Therefore, if $n$ is odd, then $n^2$ is odd.
 
@@ -304,7 +304,7 @@ $$
 a + b = 2m + 2n = 2(m + n)
 $$
 
-Since $m + n \in \mathbb{Z}$We have $a + b = 2(m+n)$ is even.
+Since $m + n \in \mathbb{Z}$ We have $a + b = 2(m+n)$ is even.
 
 <details>
 <summary>Exercise: Prove that the product of two odd numbers is odd.</summary>
@@ -313,13 +313,13 @@ Let $a = 2m + 1$ and $b = 2n + 1$ for some $m, n \in \mathbb{Z}$.
 
 $a \cdot b = (2m+1)(2n+1) = 4mn + 2m + 2n + 1 = 2(2mn + m + n) + 1$
 
-Since $2mn + m + n \in \mathbb{Z}$The product is of the form $2k + 1$Hence odd.
+Since $2mn + m + n \in \mathbb{Z}$ The product is of the form $2k + 1$ Hence odd.
 
 </details>
 
 ### 2.2 Proof by Contradiction
 
-**Strategy:** To prove a statement $P$Assume $\neg P$ and derive a logical contradiction (something
+**Strategy:** To prove a statement $P$ Assume $\neg P$ and derive a logical contradiction (something
 that is always false, like $1 = 0$ or $0 \lt 0$).
 
 **Template:**
@@ -343,7 +343,7 @@ $\gcd(a, b) = 1$ (the fraction is in lowest terms).
 
 Squaring both sides: $2 = \frac{a^2}{b^2}$ So $a^2 = 2b^2$.
 
-Since $a^2 = 2b^2$We have $a^2$ is even. Therefore $a$ is even (by the lemma: if $a^2$ is even, Then
+Since $a^2 = 2b^2$ We have $a^2$ is even. Therefore $a$ is even (by the lemma: if $a^2$ is even, Then
 $a$ is even, proved below).
 
 Write $a = 2k$ for some $k \in \mathbb{Z}^+$. Substituting:
@@ -368,14 +368,14 @@ lemma (if $3 \mid a^2$ Then $3 \mid a$), write $a = 3k$. Then $9k^2 = 3b^2$ So $
 $3 \mid b^2$ So $3 \mid b$. Both $a$ and $b$ are divisible by 3, contradicting lowest terms.
 
 The supporting lemma "if $p \mid a^2$ for prime $p$ Then $p \mid a$" follows from the Fundamental
-Theorem of Arithmetic: if $p$ appears in the prime factorization of $a^2$It must appear in the
+Theorem of Arithmetic: if $p$ appears in the prime factorization of $a^2$ It must appear in the
 Factorization of $a$.
 
 </details>
 
 ### 2.3 Proof by Contrapositive
 
-**Strategy:** To prove $P \implies Q$Instead prove $\neg Q \implies \neg P$. Since an implication Is
+**Strategy:** To prove $P \implies Q$ Instead prove $\neg Q \implies \neg P$. Since an implication Is
 logically equivalent to its contrapositive, this proves the original statement.
 
 **When to use this:** When the hypothesis $P$ feels "too big" or "too loose" to work with directly,
@@ -421,7 +421,7 @@ Odd.
 
 ### 2.4 Mathematical Induction
 
-Induction proves statements of the form $\forall n \ge n_0, \; P(n)$Where $n_0 \in \mathbb{Z}$.
+Induction proves statements of the form $\forall n \ge n_0, \; P(n)$ Where $n_0 \in \mathbb{Z}$.
 
 #### 2.4.1 Standard (Weak) Induction
 
@@ -436,9 +436,9 @@ Induction proves statements of the form $\forall n \ge n_0, \; P(n)$Where $n_0 \
 
 Let $P(n)$: $1 + 2 + \cdots + n = \frac{n(n+1)}{2}$.
 
-**Base case ($n = 1$):** LHS $= 1$RHS $= \frac{1 \cdot 2}{2} = 1$. So $P(1)$ is true.
+**Base case ($n = 1$):** LHS $= 1$ RHS $= \frac{1 \cdot 2}{2} = 1$. So $P(1)$ is true.
 
-**Inductive hypothesis:** Assume $P(k)$ is true for some $k \ge 1$I.e.,
+**Inductive hypothesis:** Assume $P(k)$ is true for some $k \ge 1$ I.e.,
 $1 + 2 + \cdots + k = \frac{k(k+1)}{2}$.
 
 **Inductive step:** We must show $P(k+1)$: $1 + 2 + \cdots + k + (k+1) = \frac{(k+1)(k+2)}{2}$.
@@ -463,7 +463,7 @@ This is exactly the RHS of $P(k+1)$. Therefore $P(k+1)$ holds.
 
 Let $P(n)$: $\displaystyle\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$.
 
-**Base case ($n = 1$):** LHS $= 1$RHS $= \frac{1 \cdot 2 \cdot 3}{6} = 1$. True.
+**Base case ($n = 1$):** LHS $= 1$ RHS $= \frac{1 \cdot 2 \cdot 3}{6} = 1$. True.
 
 **Inductive hypothesis:** Assume $P(k)$ holds for some $k \ge 1$.
 
@@ -504,7 +504,7 @@ This is $P(k+1)$. By induction, the formula holds for all $n \ge 1$.
 
 Let $P(n)$: $\displaystyle\sum_{i=1}^{n} (2i - 1) = n^2$.
 
-Base case ($n = 1$): LHS $= 1$RHS $= 1$. True.
+Base case ($n = 1$): LHS $= 1$ RHS $= 1$. True.
 
 Inductive hypothesis: Assume $P(k)$: $1 + 3 + \cdots + (2k-1) = k^2$.
 
@@ -540,7 +540,7 @@ Not just $P(k)$.
 
 1. **Base case(s):** Verify $P(n_0)$ (and possibly more base cases).
 2. **Inductive hypothesis:** Assume $P(j)$ is true for all $n_0 \le j \le k$.
-3. **Inductive step:** Using that $P(j)$ holds for all $j \le k$Prove $P(k+1)$.
+3. **Inductive step:** Using that $P(j)$ holds for all $j \le k$ Prove $P(k+1)$.
 4. **Conclusion:** By the Principle of Strong Induction, $P(n)$ is true for all $n \ge n_0$.
 
 **When to use strong induction:** When proving $P(k+1)$ requires not just $P(k)$ but some earlier
@@ -581,7 +581,7 @@ Stamps. $P(11)$: ... Hmm, $P(12)$: three 4-cent stamps. $P(13)$: two 4-cent + on
 One 4-cent + two 5-cent. $P(15)$: three 5-cent stamps.
 
 Let us use base cases $P(12)$, $P(13)$, $P(14)$, $P(15)$. Strong inductive hypothesis: assume $P(j)$
-For all $12 \le j \le k$Where $k \ge 15$.
+For all $12 \le j \le k$ Where $k \ge 15$.
 
 For $P(k+1)$: note that $(k+1) - 4 = k - 3 \ge 12$ (since $k \ge 15$). By strong IH, $P(k-3)$ holds,
 Meaning we can form $(k-3)$ cents. Adding one 4-cent stamp gives $(k-3) + 4 = k+1$ cents.
@@ -614,7 +614,7 @@ Fails at $n = 16$ since $16^2 + 16 + 17 = 289 = 17^2$.)
 
 A single counterexample is sufficient to disprove a universal statement.
 
-**Strategy:** To disprove $\forall x \in S, \; P(x)$Find one $a \in S$ such that $P(a)$ is false.
+**Strategy:** To disprove $\forall x \in S, \; P(x)$ Find one $a \in S$ such that $P(a)$ is false.
 
 **Worked Example, Disprove: "All prime numbers are odd."**
 
@@ -622,7 +622,7 @@ Counterexample: $2$ is prime and $2$ is even.
 
 **Worked Example, Disprove: "$n^2 - n + 41$ is prime for all $n \in \mathbb{N}$."**
 
-When $n = 41$: $41^2 - 41 + 41 = 41^2 = 1681$Which is composite ($41 \times 41$).
+When $n = 41$: $41^2 - 41 + 41 = 41^2 = 1681$ Which is composite ($41 \times 41$).
 
 :::tip
 disprove it requires only one Counterexample. This asymmetry is fundamental to mathematical logic.
@@ -631,7 +631,7 @@ disprove it requires only one Counterexample. This asymmetry is fundamental to m
 <details>
 <summary>Exercise: Disprove: "For all positive integers $a$ and $b$$\gcd(a+b, a-b) = \gcd(a, b)$."</summary>
 
-Take $a = 3$$b = 1$. Then $\gcd(3+1, 3-1) = \gcd(4, 2) = 2$ But $\gcd(3, 1) = 1$. Since $2 \ne 1$The
+Take $a = 3$$b = 1$. Then $\gcd(3+1, 3-1) = \gcd(4, 2) = 2$ But $\gcd(3, 1) = 1$. Since $2 \ne 1$ The
 statement is false.
 
 </details>
@@ -673,11 +673,11 @@ Odd," $a$ is even.
 
 Since $a$ is even, write $a = 2m$ for some integer $m$. Substituting into (1):
 
-$(2m)^2 = 2b^2$I.e., $4m^2 = 2b^2$I.e., $b^2 = 2m^2$. Equation (2).
+$(2m)^2 = 2b^2$ I.e., $4m^2 = 2b^2$ I.e., $b^2 = 2m^2$. Equation (2).
 
 From (2): $b^2$ is even, so $b$ is even (same reasoning as above).
 
-But now $a$ and $b$ are both even, meaning $\gcd(a, b) \ge 2$Contradicting $\gcd(a, b) = 1$.
+But now $a$ and $b$ are both even, meaning $\gcd(a, b) \ge 2$ Contradicting $\gcd(a, b) = 1$.
 
 This contradiction shows our assumption is false. Hence $\sqrt{2} \notin \mathbb{Q}$. $\blacksquare$
 
@@ -693,7 +693,7 @@ Assume there are only finitely many primes: $p_1, p_2, \ldots, p_n$.
 
 Consider the number $N = p_1 p_2 \cdots p_n + 1$.
 
-Since $N \gt 1$By the Fundamental Theorem of Arithmetic, $N$ has a prime factor $p$.
+Since $N \gt 1$ By the Fundamental Theorem of Arithmetic, $N$ has a prime factor $p$.
 
 This prime $p$ must be one of $p_1, p_2, \ldots, p_n$ (since we assumed these are all the primes).
 
@@ -739,7 +739,7 @@ Contradiction. Hence $\log_2{3}$ is irrational. $\blacksquare$
 
 Assume $\log_3{5} = \frac{p}{q}$ in lowest terms, so $3^p = 5^q$. The LHS has only prime factor 3;
 The RHS has only prime factor 5. By uniqueness of prime factorization, this is impossible unless
-$p = q = 0$Contradicting $p \ge 1$. Hence $\log_3{5}$ is irrational.
+$p = q = 0$ Contradicting $p \ge 1$. Hence $\log_3{5}$ is irrational.
 
 </details>
 
@@ -767,7 +767,7 @@ Integers.
 
 Let $P(n)$: $\displaystyle\sum_{i=1}^{n} i^3 = \left(\frac{n(n+1)}{2}\right)^2$.
 
-Base case ($n = 1$): LHS $= 1$RHS $= \left(\frac{1 \cdot 2}{2}\right)^2 = 1$. True.
+Base case ($n = 1$): LHS $= 1$ RHS $= \left(\frac{1 \cdot 2}{2}\right)^2 = 1$. True.
 
 Inductive hypothesis: Assume $P(k)$ holds.
 
@@ -803,18 +803,18 @@ We proved this by contrapositive in Section 2.3. Here are additional divisibilit
 
 **Proof:**
 
-Since $a \mid b$There exists $m \in \mathbb{Z}$ such that $b = am$. Since $b \mid c$There exists
+Since $a \mid b$ There exists $m \in \mathbb{Z}$ such that $b = am$. Since $b \mid c$ There exists
 $n \in \mathbb{Z}$ such that $c = bn$.
 
 Therefore $c = bn = (am)n = a(mn)$.
 
-Since $mn \in \mathbb{Z}$We have $a \mid c$. $\blacksquare$
+Since $mn \in \mathbb{Z}$ We have $a \mid c$. $\blacksquare$
 
 **Theorem:** If $d \mid a$ and $d \mid b$ Then $d \mid (ax + by)$ for all $x, y \in \mathbb{Z}$.
 
 **Proof:**
 
-Since $d \mid a$Write $a = dm$ for some $m \in \mathbb{Z}$. Since $d \mid b$Write $b = dn$ for Some
+Since $d \mid a$ Write $a = dm$ for some $m \in \mathbb{Z}$. Since $d \mid b$ Write $b = dn$ for Some
 $n \in \mathbb{Z}$.
 
 $ax + by = (dm)x + (dn)y = d(mx + ny)$.
@@ -842,7 +842,7 @@ Note that $(\sqrt{a} - \sqrt{b})^2 \ge 0$ for all $a, b \ge 0$.
 
 Expanding: $a - 2\sqrt{ab} + b \ge 0$ So $a + b \ge 2\sqrt{ab}$.
 
-Dividing by 2: $\frac{a+b}{2} \ge \sqrt{ab}$. Equality holds when $\sqrt{a} = \sqrt{b}$I.e.,
+Dividing by 2: $\frac{a+b}{2} \ge \sqrt{ab}$. Equality holds when $\sqrt{a} = \sqrt{b}$ I.e.,
 $a = b$. $\blacksquare$
 
 **Cauchy-Schwarz Inequality (statement):** For real numbers $a_1, \ldots, a_n$ and
@@ -866,7 +866,7 @@ Apply two-variable AM-GM twice. First, $\frac{a+b}{2} \ge \sqrt{ab}$. Let $m = \
 
 $\frac{m + c}{2} \ge \sqrt{mc} \ge \sqrt{\sqrt{ab} \cdot c} = (abc)^{1/4}$
 
-Wait, that gives us $\frac{\frac{a+b}{2} + c}{2} \ge (abc)^{1/4}$I.e.,
+Wait, that gives us $\frac{\frac{a+b}{2} + c}{2} \ge (abc)^{1/4}$ I.e.,
 $\frac{a+b+2c}{4} \ge (abc)^{1/4}$.
 
 That is not quite right for three-variable AM-GM. A cleaner approach: let $a = x^3$, $b = y^3$
@@ -911,7 +911,7 @@ $b = ak$.
 $a \mid b$ implies $b = ma$ for some $m \in \mathbb{Z}$. $b \mid a$ implies $a = nb$ for some
 $n \in \mathbb{Z}$.
 
-Substituting: $a = n(ma) = (nm)a$ So $(nm - 1)a = 0$. Since $a \ne 0$We have $nm = 1$.
+Substituting: $a = n(ma) = (nm)a$ So $(nm - 1)a = 0$. Since $a \ne 0$ We have $nm = 1$.
 
 In integers, $nm = 1$ implies $(n, m) = (1, 1)$ or $(n, m) = (-1, -1)$.
 
@@ -919,7 +919,7 @@ If $m = 1$: $b = a$. If $m = -1$: $b = -a$. So $a = \pm b$. $\blacksquare$
 
 ### 4.2 Congruences and Modular Arithmetic
 
-**Definition:** $a \equiv b \pmod{n}$ means $n \mid (a - b)$I.e., $a - b = kn$ for some
+**Definition:** $a \equiv b \pmod{n}$ means $n \mid (a - b)$ I.e., $a - b = kn$ for some
 $k \in \mathbb{Z}$.
 
 **Key properties of congruences:**
@@ -961,7 +961,7 @@ First, find $7^{100} \pmod{4}$: $7 \equiv 3 \equiv -1 \pmod{4}$ So
 $7^{100} \equiv (-1)^{100} = 1 \pmod{4}$.
 
 Next, find $7^{100} \pmod{25}$: By Euler's theorem (or Fermat's Little Theorem since 25 is a prime
-Power and $\gcd(7, 25) = 1$), $\phi(25) = 20$ So $7^{20} \equiv 1 \pmod{25}$Hence
+Power and $\gcd(7, 25) = 1$), $\phi(25) = 20$ So $7^{20} \equiv 1 \pmod{25}$ Hence
 $7^{100} = (7^{20})^5 \equiv 1^5 = 1 \pmod{25}$.
 
 We need $x$ such that $x \equiv 1 \pmod{4}$ and $x \equiv 1 \pmod{25}$. By CRT,
@@ -986,9 +986,9 @@ $\{1, 2, \ldots, p-1\}$ modulo $p$):**
 
 Consider the product $1 \cdot 2 \cdot 3 \cdots (p-1) = (p-1)!$.
 
-Modulo $p$The numbers $a, 2a, 3a, \ldots, (p-1)a$ are all nonzero and pairwise non-congruent Modulo
-$p$ (since $ja \equiv ka \pmod{p}$ implies $p \mid (j-k)a$ And since $p \nmid a$We get
-$p \mid (j-k)$Which means $j \equiv k \pmod{p}$ And since $1 \le j, k \le p-1$We get $j = k$).
+Modulo $p$ The numbers $a, 2a, 3a, \ldots, (p-1)a$ are all nonzero and pairwise non-congruent Modulo
+$p$ (since $ja \equiv ka \pmod{p}$ implies $p \mid (j-k)a$ And since $p \nmid a$ We get
+$p \mid (j-k)$ Which means $j \equiv k \pmod{p}$ And since $1 \le j, k \le p-1$ We get $j = k$).
 
 Therefore $\{a, 2a, \ldots, (p-1)a\}$ is a complete residue system modulo $p$ excluding 0, so:
 
@@ -1009,7 +1009,7 @@ $$
 
 **Worked Example, Find $2^{100} \pmod{13}$:**
 
-Since 13 is prime and $\gcd(2, 13) = 1$By Fermat: $2^{12} \equiv 1 \pmod{13}$.
+Since 13 is prime and $\gcd(2, 13) = 1$ By Fermat: $2^{12} \equiv 1 \pmod{13}$.
 
 $100 = 8 \cdot 12 + 4$ So
 $2^{100} = (2^{12})^8 \cdot 2^4 \equiv 1^8 \cdot 16 \equiv 16 \equiv 3 \pmod{13}$.
@@ -1046,10 +1046,10 @@ $$
 n = p_1 p_2 \cdots p_r = q_1 q_2 \cdots q_s
 $$
 
-Where all $p_i, q_j$ are primes. Since $p_1 \mid n = q_1 q_2 \cdots q_s$By Euclid's lemma
+Where all $p_i, q_j$ are primes. Since $p_1 \mid n = q_1 q_2 \cdots q_s$ By Euclid's lemma
 ($p \mid ab$ and $p$ prime implies $p \mid a$ or $p \mid b$), $p_1$ divides some $q_j$.
 
-Since $q_j$ is prime and $p_1$ is prime with $p_1 \mid q_j$We must have $p_1 = q_j$. Cancel this
+Since $q_j$ is prime and $p_1$ is prime with $p_1 \mid q_j$ We must have $p_1 = q_j$. Cancel this
 Factor and repeat. By induction, the factorizations are identical. $\blacksquare$
 
 ### 4.5 GCD and LCM Properties
@@ -1235,7 +1235,7 @@ $Q$" is "$P$ AND not $Q$."
 "Prove: $n = n + 1$ for all $n \ge 1$."
 
 Bad .../1-number-and-algebra/3_proof-and-logic: Assume $k = k + 1$. Then
-$k + 1 = (k + 1) + 1 = k + 2$. So $k + 1 = k + 2$I.e., $k + 1 = (k+1) + 1$. QED.
+$k + 1 = (k + 1) + 1 = k + 2$. So $k + 1 = k + 2$ I.e., $k + 1 = (k+1) + 1$. QED.
 
 This ".../1-number-and-algebra/3_proof-and-logic" never checks the base case. The statement
 $1 = 1 + 1 = 2$ is false, so the base case Fails.
@@ -1245,14 +1245,14 @@ Sequence, you may need MULTIPLE base cases. Proving the induction step from $P(k
 $P(k+1)$ requires both $P(1)$ and $P(2)$ as base cases.
 
 <details>
-<summary>Worked Example: Prove $F_n \le 2^n$ for all $n \ge 1$Where $F_n$ is the $n$-th Fibonacci number.</summary>
+<summary>Worked Example: Prove $F_n \le 2^n$ for all $n \ge 1$ Where $F_n$ is the $n$-th Fibonacci number.</summary>
 
 Let $P(n)$: $F_n \le 2^n$.
 
 Base cases: $F_1 = 1 \le 2 = 2^1$. True. $F_2 = 1 \le 4 = 2^2$. True. We need TWO base cases because
 The recurrence $F_{k+1} = F_k + F_{k-1}$ references two previous terms.
 
-Strong inductive hypothesis: Assume $F_j \le 2^j$ for all $1 \le j \le k$Where $k \ge 2$.
+Strong inductive hypothesis: Assume $F_j \le 2^j$ for all $1 \le j \le k$ Where $k \ge 2$.
 
 Inductive step:
 
@@ -1305,7 +1305,7 @@ The implication $P \implies Q$ is true whenever $P$ is false, regardless of $Q$.
 **Example:** "If $1 = 0$ Then the moon is made of cheese." This is TRUE (vacuously), because the
 Premise "$1 = 0$" is false.
 
-**Practical consequence:** To disprove $P \implies Q$You must show $P$ is true AND $Q$ is false.
+**Practical consequence:** To disprove $P \implies Q$ You must show $P$ is true AND $Q$ is false.
 Showing $P$ is false does NOT disprove the implication.
 
 ### 5.8 Incorrect Quantifier Negation
@@ -1359,7 +1359,7 @@ Preserved.
 
 5. Disprove: "For all real numbers $x$, $x^2 \gt x$."
 
-6. Negate: "For every real number $x$There exists a real number $y$ such that $x + y = 0$."
+6. Negate: "For every real number $x$ There exists a real number $y$ such that $x + y = 0$."
 
 7. Prove that there is no largest prime number.
 
@@ -1393,7 +1393,7 @@ $0^2 = 0 \not\gt 0$.
 
 **Exercise 6:** $\exists x \in \mathbb{R}, \; \forall y \in \mathbb{R}, \; x + y \ne 0$.
 
-**Exercise 10:** $a \equiv b \pmod{m}$ means $m \mid (a-b)$. Since $n \mid m$ and $m \mid (a-b)$By
+**Exercise 10:** $a \equiv b \pmod{m}$ means $m \mid (a-b)$. Since $n \mid m$ and $m \mid (a-b)$ By
 Transitivity of divisibility, $n \mid (a-b)$. Therefore $a \equiv b \pmod{n}$.
 
 </details>

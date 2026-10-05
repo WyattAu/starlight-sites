@@ -64,9 +64,9 @@ $$
 a_{n+1} = a_n + d
 $$
 
-### 2.1 The $n$Th Term
+### 2.1 The $n$ Th Term
 
-**Theorem.** The $n$Th term of an arithmetic sequence with first term $a$ and common difference $d$
+**Theorem.** The $n$ Th term of an arithmetic sequence with first term $a$ and common difference $d$
 Is:
 
 $$
@@ -140,9 +140,9 @@ $$
 a_{n+1} = a_n \cdot r
 $$
 
-### 3.1 The $n$Th Term
+### 3.1 The $n$ Th Term
 
-**Theorem.** The $n$Th term of a geometric sequence with first term $a$ and common ratio $r$ is:
+**Theorem.** The $n$ Th term of a geometric sequence with first term $a$ and common ratio $r$ is:
 
 $$
 a_n = ar^{n-1}
@@ -188,15 +188,15 @@ Iterative algorithms.
 
 ### 3.3 Sum to Infinity
 
-**Theorem.** If $|r| < 1$The infinite geometric series converges, and:
+**Theorem.** If $|r| < 1$ The infinite geometric series converges, and:
 
 $$
 S_\infty = \sum_{n=1}^{\infty} ar^{n-1} = \frac{a}{1 - r}
 $$
 
-_Proof._ From $S_n = \frac{a(1 - r^n)}{1 - r}$We take the limit as $n \to \infty$.
+_Proof._ From $S_n = \frac{a(1 - r^n)}{1 - r}$ We take the limit as $n \to \infty$.
 
-Since $|r| < 1$We have $\lim_{n \to \infty} r^n = 0$ (a standard limit; see below).
+Since $|r| < 1$ We have $\lim_{n \to \infty} r^n = 0$ (a standard limit; see below).
 
 $$
 S_\infty = \lim_{n \to \infty} S_n = \frac{a(1 - 0)}{1 - r} = \frac{a}{1 - r} \quad \blacksquare
@@ -204,20 +204,20 @@ $$
 
 **Lemma.** If $|r| < 1$ Then $\lim_{n \to \infty} r^n = 0$.
 
-_Proof._ Write $r^n = e^{n \ln|r|}$. Since $|r| < 1$We have $\ln|r| < 0$. As $n \to \infty$
+_Proof._ Write $r^n = e^{n \ln|r|}$. Since $|r| < 1$ We have $\ln|r| < 0$. As $n \to \infty$
 $n \ln|r| \to -\infty$ So $e^{n \ln|r|} \to 0$. $\blacksquare$
 
-**Theorem.** If $|r| \geq 1$The geometric series $\sum_{n=1}^{\infty} ar^{n-1}$ diverges.
+**Theorem.** If $|r| \geq 1$ The geometric series $\sum_{n=1}^{\infty} ar^{n-1}$ diverges.
 
 _Proof._ If $|r| > 1$ Then $|r^n| \to \infty$ So $|a_n| \to \infty$. Since the terms don"t tend to
 Zero, the series diverges by the divergence test.
 
 If $r = 1$: $S_n = na \to \pm\infty$ (unless $a = 0$).
 
-If $r = -1$: $S_n = a - a + a - a + \cdots$Which oscillates and does not converge. $\blacksquare$
+If $r = -1$: $S_n = a - a + a - a + \cdots$ Which oscillates and does not converge. $\blacksquare$
 
 :::caution
-Formula when $|r| \geq 1$Which gives nonsense.
+Formula when $|r| \geq 1$ Which gives nonsense.
 :::
 
 <details>
@@ -294,8 +294,8 @@ $$
 
 Equality holds if and only if $a = b$.
 
-_Proof._ Since $a, b \gt 0$Both $\sqrt{a}$ and $\sqrt{b}$ are real numbers. For any real number
-$x$We have $x^2 \geq 0$. In particular:
+_Proof._ Since $a, b \gt 0$ Both $\sqrt{a}$ and $\sqrt{b}$ are real numbers. For any real number
+$x$ We have $x^2 \geq 0$. In particular:
 
 $$
 (\sqrt{a} - \sqrt{b})^2 \geq 0
@@ -315,7 +315,7 @@ $$
 \frac{a + b}{2} \geq \sqrt{ab} \quad \blacksquare
 $$
 
-_Equality condition._ $(\sqrt{a} - \sqrt{b})^2 = 0$ if and only if $\sqrt{a} = \sqrt{b}$I.e.,
+_Equality condition._ $(\sqrt{a} - \sqrt{b})^2 = 0$ if and only if $\sqrt{a} = \sqrt{b}$ I.e.,
 $a = b$.
 
 **Extension.** For $n$ positive real numbers $x_1, x_2, \ldots, x_n$:
@@ -339,7 +339,7 @@ $$
 
 So $x + \frac{4}{x} \geq 4$.
 
-Equality when $x = \frac{4}{x}$I.e., $x^2 = 4$ So $x = 2$ (since $x \gt 0$).
+Equality when $x = \frac{4}{x}$ I.e., $x^2 = 4$ So $x = 2$ (since $x \gt 0$).
 
 Minimum value is 4, achieved at $x = 2$.
 
@@ -460,7 +460,7 @@ $$
 Each term is the product of a term from an arithmetic progression ($a, a+d, a+2d, \ldots$) and a
 Term from a geometric progression ($1, r, r^2, \ldots$).
 
-**Theorem.** The $n$Th term is:
+**Theorem.** The $n$ Th term is:
 
 $$
 u_n = (a + (n-1)d)\,r^{n-1}
@@ -508,7 +508,7 @@ $$
 
 ### 8.2 Sum to Infinity
 
-When $|r| \lt 1$Both $r^n \to 0$ and $r^{n-1} \to 0$ as $n \to \infty$:
+When $|r| \lt 1$ Both $r^n \to 0$ and $r^{n-1} \to 0$ as $n \to \infty$:
 
 $$
 S_\infty = \frac{a}{1 - r} + \frac{dr}{(1-r)^2}
@@ -566,7 +566,7 @@ $$
 \end{aligned}
 $$
 
-This equals $\frac{(n+1)\bigl((n+1)+1\bigr)\bigl(2(n+1)+1\bigr)}{6}$Which is the formula
+This equals $\frac{(n+1)\bigl((n+1)+1\bigr)\bigl(2(n+1)+1\bigr)}{6}$ Which is the formula
 for $n+1$. ✓ $\blacksquare$
 
 ### 9.2 Proof of $\sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$
@@ -644,7 +644,7 @@ $a = 17 - 12 = 5$.
 
 <details>
 <summary>Solution</summary>
-This is an arithmetic series with first term $a = 2$Last term $\ell = 3(50) - 1 = 149$, $n = 50$.
+This is an arithmetic series with first term $a = 2$ Last term $\ell = 3(50) - 1 = 149$, $n = 50$.
 
 $$
 S = \frac{50}{2}(2 + 149) = 25 \times 151 = 3775
@@ -706,7 +706,7 @@ $$
 
 <hr />
 
-**Problem 6.** Given $u_1 = 3$ and $u_{n+1} = \frac{u_n + 1}{u_n - 1}$Find $u_2$, $u_3$, $u_4$ And
+**Problem 6.** Given $u_1 = 3$ and $u_{n+1} = \frac{u_n + 1}{u_n - 1}$ Find $u_2$, $u_3$, $u_4$ And
 $u_5$. Comment on the sequence.
 
 <details>
@@ -835,7 +835,7 @@ This is the formula for $n + 1$. ✓ $\blacksquare$
 
 <hr />
 
-**Problem 11.** Given that $x \gt 0$Find the minimum value of $x^2 + \frac{9}{x^2}$ and state The
+**Problem 11.** Given that $x \gt 0$ Find the minimum value of $x^2 + \frac{9}{x^2}$ and state The
 value of $x$ at which it occurs.
 
 <details>
@@ -848,7 +848,7 @@ $$
 
 So $x^2 + \frac{9}{x^2} \geq 6$.
 
-Equality when $x^2 = \frac{9}{x^2}$I.e., $x^4 = 9$ So $x^2 = 3$Giving $x = \sqrt{3}$ (positive Root).
+Equality when $x^2 = \frac{9}{x^2}$ I.e., $x^4 = 9$ So $x^2 = 3$ Giving $x = \sqrt{3}$ (positive Root).
 
 Minimum value is 6, achieved at $x = \sqrt{3}$.
 
@@ -902,10 +902,10 @@ $1, \; 4 \times \tfrac{1}{2}, \; 7 \times \tfrac{1}{4}, \; 10 \times \tfrac{1}{8
 <details>
 <summary>Solution</summary>
 Identify the components:
-- AP part: first term $a = 1$Common difference $d = 3$ (since $4 - 1 = 3$, $7 - 4 = 3$Etc.)
+- AP part: first term $a = 1$ Common difference $d = 3$ (since $4 - 1 = 3$, $7 - 4 = 3$ Etc.)
 - GP part: common ratio $r = \frac{1}{2}$
 
-Since $|r| \lt 1$The sum to infinity converges:
+Since $|r| \lt 1$ The sum to infinity converges:
 
 $$
 S_\infty = \frac{a}{1 - r} + \frac{dr}{(1-r)^2}
@@ -959,7 +959,7 @@ Expression for $u_n$ and verify it for $n = 1, 2, 3$.
 <summary>Solution</summary>
 This is a first-order linear recurrence relation. We solve it by finding the equilibrium and subtracting.
 
-At equilibrium, $u = 3u + 2$Giving $-2u = 2$ So $u = -1$.
+At equilibrium, $u = 3u + 2$ Giving $-2u = 2$ So $u = -1$.
 
 Define $v_n = u_n - (-1) = u_n + 1$. Then:
 

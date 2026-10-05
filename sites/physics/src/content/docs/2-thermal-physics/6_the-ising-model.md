@@ -64,7 +64,7 @@ $$
 f = -k_BT \ln(e^{\beta J} + e^{-\beta J}) = -k_BT \ln(2\cosh\beta J)
 $$
 
-The magnetisation $m = -\partial f/\partial h|_{h=0} = 0$ for all $T > 0$Confirming no spontaneous
+The magnetisation $m = -\partial f/\partial h|_{h=0} = 0$ for all $T > 0$ Confirming no spontaneous
 magnetisation and hence no phase transition. $\blacksquare$
 
 ### 6.3 Mean Field Theory
@@ -93,7 +93,7 @@ $$
 m = \frac{Jz\,m}{k_BT} - \frac{1}{3}\left(\frac{Jz\,m}{k_BT}\right)^3
 $$
 
-For $m \neq 0$Dividing by $m$:
+For $m \neq 0$ Dividing by $m$:
 
 $$
 1 = \frac{Jz}{k_BT_c} - \frac{1}{3}\left(\frac{Jz}{k_BT_c}\right)^3
@@ -153,7 +153,7 @@ in mean field theory.
 <details>
 <summary>Solution</summary>
 
-For small $h$ and $T > T_c$Expand $m = \tanh(\beta(h + Jz\,m))$ to first order in $h$ and $m$:
+For small $h$ and $T > T_c$ Expand $m = \tanh(\beta(h + Jz\,m))$ to first order in $h$ and $m$:
 
 $$
 m \approx \beta(h + Jz\,m) = \frac{h}{k_BT} + \frac{Jz}{k_BT}m

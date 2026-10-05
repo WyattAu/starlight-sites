@@ -191,9 +191,9 @@ Step 1: State q0, read `0`. Write `1`Move R, go to q*accept. Tape: `1 1 1 *`. He
 
 The machine halts. Result: `111` (LSB first) $= 111_2 = 7_{10}$.
 
-Wait, but `011` $= 3$Adding 1 gives `100` $= 4$. Let me re-examine.
+Wait, but `011` $= 3$ Adding 1 gives `100` $= 4$. Let me re-examine.
 
-If `110` in LSB-first means: bit 0 $= 1$Bit 1 $= 1$Bit 2 $= 0$. So the number is
+If `110` in LSB-first means: bit 0 $= 1$ Bit 1 $= 1$ Bit 2 $= 0$. So the number is
 $1 \times 2^0 + 1 \times 2^1 + 0 \times 2^2 = 1 + 2 + 0 = 3$. Adding 1 gives $4 = 100_2$. In
 LSB-first: `001`.
 
@@ -314,7 +314,7 @@ problem.
 
 **Solution:**
 
-(a) **Halting problem:** Given an arbitrary program $P$ and input $I$Determine whether $P$ halts
+(a) **Halting problem:** Given an arbitrary program $P$ and input $I$ Determine whether $P$ halts
 (terminates) when run on $I$.
 
 **Proof by contradiction:** Assume a function `halts(P, I)` exists that returns True if program $P$
@@ -412,11 +412,11 @@ States: q0 (start), q1 (reading b's, popping), q_accept.
 - Read 'a' in q1: reject (a after b).
 
 (c) **Why no DFA can accept $a^n b^n$:** A DFA has a finite number of states. For the language
-$\{a^n b^n\}$The DFA would need to "remember" exactly how many $a$'s were read to verify the same
-number of $b$'s follow. For arbitrary $n$This requires unbounded memory (counting arbitrarily high).
+$\{a^n b^n\}$ The DFA would need to "remember" exactly how many $a$'s were read to verify the same
+number of $b$'s follow. For arbitrary $n$ This requires unbounded memory (counting arbitrarily high).
 A DFA's finite state set cannot store an arbitrarily large count. This is proven by the pumping
 lemma for regular languages: a sufficiently long string in the language can be "pumped" (a substring
-repeated) and must remain in the language. For $a^n b^n$Pumping the $a$ section breaks the balance,
+repeated) and must remain in the language. For $a^n b^n$ Pumping the $a$ section breaks the balance,
 producing a string not in the language -- proving it is not regular.
 
 (d) **Complexity classes:**

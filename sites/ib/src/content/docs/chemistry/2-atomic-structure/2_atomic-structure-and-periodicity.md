@@ -207,7 +207,7 @@ $$
 :::
 :::caution
 $3d^6\, 4s^2$). When writing configurations for ions, remove electrons from the highest $n$ value
-First: $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$Not $[\mathrm{Ar}]\, 4s^2\, 3d^4$.
+First: $\mathrm{Fe}^{2+}$ is $[\mathrm{Ar}]\, 3d^6$ Not $[\mathrm{Ar}]\, 4s^2\, 3d^4$.
 
 ### Exceptions to the Aufbau Principle
 
@@ -650,7 +650,7 @@ Interhalogens are generally more reactive than the parent halogens because the b
 
 ### Properties
 
-Noble gases have complete valence shells ($ns^2\, np^6$Except He which is $1s^2$), making them
+Noble gases have complete valence shells ($ns^2\, np^6$ Except He which is $1s^2$), making them
 Chemically inert under standard conditions. They exist as monatomic gases.
 
 | Element | Configuration                 | Boiling point (K) | First IE (kJ/mol) |
@@ -969,7 +969,7 @@ Proportional to natural abundance.
 Boron has two isotopes: $\mathrm{B}$-10 ($19.9\%$) and $\mathrm{B}$-11 ($80.1\%$).
 
 The mass spectrum shows peaks at $m/z = 10$ and $m/z = 11$ with relative heights in the ratio
-$19.9 : 80.1$Approximately $1 : 4$.
+$19.9 : 80.1$ Approximately $1 : 4$.
 
 $$
 A_r = (10 \times 0.199) + (11 \times 0.801) = 1.99 + 8.81 = 10.81
@@ -1055,7 +1055,7 @@ Many-electron atom.
 
 3. Other electrons in the **same group** contribute:
 
-- For $ns$ or $np$ electrons: each other electron contributes $0.35$ (except $1s$Where the other
+- For $ns$ or $np$ electrons: each other electron contributes $0.35$ (except $1s$ Where the other
   electron contributes $0.30$)
 - For $nd$ or $nf$ electrons: each other electron contributes $0.35$
 
@@ -1312,7 +1312,7 @@ The mass spectrum.
 
 Two peaks are observed at $m/z = 35$ and $m/z = 37$. (1 mark)
 
-The heights of the peaks are in the approximate ratio $3:1$Reflecting the natural abundances of
+The heights of the peaks are in the approximate ratio $3:1$ Reflecting the natural abundances of
 $\mathrm{Cl}$-35 ($75.77\%$) and $\mathrm{Cl}$-37 ($24.23\%$). (1 mark)
 
 The sample is diatomic ($\mathrm{Cl}_2$), so additional peaks appear at $m/z = 70$
@@ -1417,7 +1417,7 @@ $IE_1 = 577$$IE_2 = 1816$$IE_3 = 2744$$IE_4 = 11577$$IE_5 = 14842$$IE_6 = 18376$
 
 **Markscheme:**
 
-(a) The element is aluminium. (1 mark) There is a large jump between $IE_3$ and $IE_4$Indicating
+(a) The element is aluminium. (1 mark) There is a large jump between $IE_3$ and $IE_4$ Indicating
 That the first three electrons are removed from the valence shell and the fourth electron is from an
 Inner shell. This is consistent with Group 13, and aluminium is the element in Period 3, Group 13.
 (1 mark)
@@ -1482,7 +1482,7 @@ The trend statement AND the reasoning.
 :::caution[Common Mistake]
 When writing electron configurations for transition metal ions, always remove electrons from the
 $ns$ orbital first (highest principal quantum number), NOT from the $(n-1)d$ orbital. So
-$\mathrm{Fe}^{3+}$ is $[\mathrm{Ar}]\, 3d^5$Not $[\mathrm{Ar}]\, 4s^2\, 3d^3$.
+$\mathrm{Fe}^{3+}$ is $[\mathrm{Ar}]\, 3d^5$ Not $[\mathrm{Ar}]\, 4s^2\, 3d^3$.
 :::
 :::caution[Common Mistake]
 Do not confuse atomic radius trends with ionic radius trends. When comparing ionic radii within an
@@ -1582,7 +1582,7 @@ Energy level than the $3s$ electrons of Mg and is partially shielded by the $3s$
 Requires less energy to remove.
 
 **Sulfur vs Phosphorus:** P has the configuration $[\mathrm{Ne}]\, 3s^2\, 3p^3$ with a stable
-Half-filled $3p$ subshell. S has $[\mathrm{Ne}]\, 3s^2\, 3p^4$Where the fourth $3p$ electron is
+Half-filled $3p$ subshell. S has $[\mathrm{Ne}]\, 3s^2\, 3p^4$ Where the fourth $3p$ electron is
 Paired with another electron in the same orbital. The paired electrons experience mutual repulsion,
 Making the paired electron easier to remove.
 

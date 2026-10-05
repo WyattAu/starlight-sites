@@ -199,8 +199,8 @@ Market.**
 
 _Proof._ In competition, $w_c = MRP_L(L_c)$ (wage equals the value of the marginal product). In
 Monopsony, $w_m = S_L(L_m)$ where $MCL(L_m) = MRP_L(L_m)$. Since $MCL > S_L$ (supply curve), the
-Monopsony hires where $MRP_L = MCL$Which is at a lower $L$ than where $MRP_L = S_L$ (the Competitive
-point). At this lower $L$The supply curve gives a lower $w$. $\blacksquare$
+Monopsony hires where $MRP_L = MCL$ Which is at a lower $L$ than where $MRP_L = S_L$ (the Competitive
+point). At this lower $L$ The supply curve gives a lower $w$. $\blacksquare$
 
 ### 4.4 Deadweight Loss of Monopsony
 
@@ -304,12 +304,12 @@ Wage, encouraging the monopsonist to hire more workers.
 
 ### 5.3 Modelling Union Wage Effects
 
-In a competitive market, if the union negotiates wage $w_u > w^*$The quantity of labour demanded
+In a competitive market, if the union negotiates wage $w_u > w^*$ The quantity of labour demanded
 Falls to $L_d(w_u)$. There is an excess supply of labour (unemployment) of $L_s(w_u) - L_d(w_u)$.
 
 In a monopsony, a minimum wage $w_{min}$ set at the competitive level $w_c$ makes the
 $MCL = ACL = w_{min}$ for $L \leq L_c$ (the monopsonist no longer faces an upward-sloping MCL). The
-Monopsonist hires where $MRP_L = w_{min}$Which is at $L_c$, the competitive employment level.
+Monopsonist hires where $MRP_L = w_{min}$ Which is at $L_c$, the competitive employment level.
 Employment increases from $L_m$ to $L_c$.
 
 ### 5.4 Union Decline and Modern Relevance
@@ -383,7 +383,7 @@ Monopsony.**
 _Proof._ Without minimum wage, the monopsonist hires $L_m$ where $MRP_L = MCL$. With a binding
 Minimum wage $w_{min}$ ($w_m < w_{min} \leq w_c$), the MCL curve becomes horizontal at $w_{min}$ up
 To $L$ where $S_L(L) = w_{min}$ Then jumps to the original MCL. The monopsonist now maximises Profit
-by hiring where $MRP_L = w_{min}$Which gives $L > L_m$ (since $MRP_L$ is downward-sloping And
+by hiring where $MRP_L = w_{min}$ Which gives $L > L_m$ (since $MRP_L$ is downward-sloping And
 $w_{min} > w_m = MCL(L_m) = MRP_L(L_m)$). $\blacksquare$
 
 The optimal minimum wage under monopsony is $w_c$ (the competitive wage), which achieves the
@@ -662,7 +662,7 @@ Workers are hired?
 
 <details>
 <summary>Hint</summary>
-$MP_L = 20 - 2L$. $MRP_L = MP_L \times P = 10(20 - 2L) = 200 - 20L$. Set $MRP_L = w$: $200 - 20L = 60 \Rightarrow L = 7$. The labour demand curve is $w = 200 - 20L$Or $L = 10 - w/20$.
+$MP_L = 20 - 2L$. $MRP_L = MP_L \times P = 10(20 - 2L) = 200 - 20L$. Set $MRP_L = w$: $200 - 20L = 60 \Rightarrow L = 7$. The labour demand curve is $w = 200 - 20L$ Or $L = 10 - w/20$.
 </details>
 
 **Problem 2.** A monopsonist faces labour supply $w = 20 + 2L$ and has $MRP_L = 120 - 4L$. Find the
@@ -679,10 +679,10 @@ Eliminates the deadweight loss. What happens if the minimum wage is set above th
 
 <details>
 <summary>Hint</summary>
-At $w_{min} = w_c$The monopsonist faces $MCL = w_c$ for all $L \leq L_c$. They hire where $MRP_L = w_c$Which is exactly $L_c$ (the competitive employment level). DWL = 0. If $w_{min} > w_c$: the firm hires where $MRP_L = w_{min}$Giving $L < L_c$. Now there is unemployment ($S_L > D_L$) and a new DWL.
+At $w_{min} = w_c$ The monopsonist faces $MCL = w_c$ for all $L \leq L_c$. They hire where $MRP_L = w_c$ Which is exactly $L_c$ (the competitive employment level). DWL = 0. If $w_{min} > w_c$: the firm hires where $MRP_L = w_{min}$ Giving $L < L_c$. Now there is unemployment ($S_L > D_L$) and a new DWL.
 </details>
 
-**Problem 4.** A worker's utility function is $U(C, h) = C^{0.5}h^{0.5}$Where $C$ is consumption And
+**Problem 4.** A worker's utility function is $U(C, h) = C^{0.5}h^{0.5}$ Where $C$ is consumption And
 $h$ is leisure hours. Total time available is 24 hours, non-labour income $V = 0$. Derive the
 Individual labour supply function. Is it backward-bending?
 
@@ -767,7 +767,7 @@ Total wage payments to workers. Has the minimum wage improved worker welfare?
 
 <details>
 <summary>Hint</summary>
-$MCL = 10 + 2L$. (a) Monopsony equilibrium: $80 - 2L = 10 + 2L \Rightarrow 4L = 70 \Rightarrow L_m = 17.5$$w_m = 27.5$. Total wage payments $= 27.5 \times 17.5 = 481.25$. (b) With $w_{min} = 35$: the firm hires where $MRP_L = 35$: $80 - 2L = 35 \Rightarrow L = 22.5$. Supply at $w = 35$: $35 = 10 + L \Rightarrow L_s = 25$. So employment rises to 22.5, and $S_L(22.5) = 10 + 22.5 = 32.5$Which is less than $L_d$ at $w = 35$ (i.e., $80 - (35 - 10)/2 = 80 - 12.5 = 67.5$), so the minimum wage does not create a surplus at this employment level. (c) New total wage payments $= 35 \times 22.5 = 787.5$. Worker surplus has increased: more workers are employed at a higher wage. Competitive equilibrium would be $80 - 2L = 10 + L \Rightarrow 3L = 70 \Rightarrow L_c = 23.33$$w_c = 33.33$. The minimum wage of £35 is slightly above the competitive wage, so employment (22.5) is just below the competitive level (23.33), but the higher wage may compensate.
+$MCL = 10 + 2L$. (a) Monopsony equilibrium: $80 - 2L = 10 + 2L \Rightarrow 4L = 70 \Rightarrow L_m = 17.5$$w_m = 27.5$. Total wage payments $= 27.5 \times 17.5 = 481.25$. (b) With $w_{min} = 35$: the firm hires where $MRP_L = 35$: $80 - 2L = 35 \Rightarrow L = 22.5$. Supply at $w = 35$: $35 = 10 + L \Rightarrow L_s = 25$. So employment rises to 22.5, and $S_L(22.5) = 10 + 22.5 = 32.5$ Which is less than $L_d$ at $w = 35$ (i.e., $80 - (35 - 10)/2 = 80 - 12.5 = 67.5$), so the minimum wage does not create a surplus at this employment level. (c) New total wage payments $= 35 \times 22.5 = 787.5$. Worker surplus has increased: more workers are employed at a higher wage. Competitive equilibrium would be $80 - 2L = 10 + L \Rightarrow 3L = 70 \Rightarrow L_c = 23.33$$w_c = 33.33$. The minimum wage of £35 is slightly above the competitive wage, so employment (22.5) is just below the competitive level (23.33), but the higher wage may compensate.
 </details>
 
 **Problem 14.** "The gender pay gap is entirely explained by differences in human capital between
@@ -956,19 +956,19 @@ this statement supported by economic theory and evidence?
 <summary>Full Mark Scheme</summary>
 **Competitive labour market analysis (8 marks):**
 - In a competitive labour market, a minimum wage set above the equilibrium wage creates a surplus of labour (unemployment).
-- The firm hires where $MRP_L = w_{min}$. Since $w_{min} > w^*$The firm hires fewer workers: $L_d(w_{min}) < L^*$.
+- The firm hires where $MRP_L = w_{min}$. Since $w_{min} > w^*$ The firm hires fewer workers: $L_d(w_{min}) < L^*$.
 - Unemployment $= L_s(w_{min}) - L_d(w_{min})$.
 - The DWL is the triangle between the labour demand curve and the labour supply curve from $L_d$ to $L_s$.
 - The magnitude of job losses depends on the elasticity of labour demand. If PED_L is high (many substitutes for labour), job losses are large. If PED_L is low (few substitutes), job losses are small.
 
 **Monopsony analysis (8 marks):**
 
-- Under monopsony, the firm hires where $MRP_L = MCL$Paying a wage below the competitive level.
+- Under monopsony, the firm hires where $MRP_L = MCL$ Paying a wage below the competitive level.
 - A minimum wage set between $w_m$ and $w_c$ INCREASES employment by eliminating the gap between MCL
   and the wage.
 - The optimal minimum wage is $w_c$ (the competitive wage), which achieves the competitive outcome
   with zero DWL.
-- If the minimum wage exceeds $w_c$Employment falls below the competitive level.
+- If the minimum wage exceeds $w_c$ Employment falls below the competitive level.
 
 **Empirical evidence (5 marks):**
 
@@ -999,15 +999,15 @@ monopsonistic labour market. Use a diagram in your answer.
 <details>
 <summary>Full Mark Scheme</summary>
 **Monopsony analysis (6 marks):**
-- In a monopsony, the firm hires where $MRP_L = MCL$ at $L_m$Paying $w_m < w_c$.
-- The union negotiates a wage $w_u > w_m$. If $w_m < w_u \leq w_c$The firm's MCL becomes horizontal at $w_u$ (it no longer faces an upward-sloping MCL curve because the union wage is fixed).
-- The firm now hires where $MRP_L = w_u$Which gives $L > L_m$. Both wages and employment increase.
-- Diagram showing the monopsony labour supply, MCL, MRP, the monopsony equilibrium $(L_m, w_m)$The competitive equilibrium $(L_c, w_c)$ And the union-negotiated outcome with higher $L$ and $w$.
+- In a monopsony, the firm hires where $MRP_L = MCL$ at $L_m$ Paying $w_m < w_c$.
+- The union negotiates a wage $w_u > w_m$. If $w_m < w_u \leq w_c$ The firm's MCL becomes horizontal at $w_u$ (it no longer faces an upward-sloping MCL curve because the union wage is fixed).
+- The firm now hires where $MRP_L = w_u$ Which gives $L > L_m$. Both wages and employment increase.
+- Diagram showing the monopsony labour supply, MCL, MRP, the monopsony equilibrium $(L_m, w_m)$ The competitive equilibrium $(L_c, w_c)$ And the union-negotiated outcome with higher $L$ and $w$.
 
 **Conditions for success (4 marks):**
 
 - The union must set the wage at or below the competitive level. If the union pushes wages above
-  $w_c$Employment falls below $L_c$.
+  $w_c$ Employment falls below $L_c$.
 - The union must have sufficient bargaining power to enforce the wage (no free-riding by
   non-members).
 - The union must not simultaneously restrict labour supply (e.g., through closed shops or excessive
@@ -1075,7 +1075,7 @@ gap is multifaceted, requiring a comprehensive policy response.
 **Competitive equilibrium:** $200 - 2L = 40 + L \Rightarrow 160 = 3L \Rightarrow L = 53.33$,
 $w = 93.33$.
 
-**Trade union negotiates a wage of $\pounds 120$:** At $w = 120$The firm hires workers up to the
+**Trade union negotiates a wage of $\pounds 120$:** At $w = 120$ The firm hires workers up to the
 point where $MRPL = 120$: $200 - 2L = 120 \Rightarrow L = 40$.
 
 The union wage has reduced employment from 53.33 to 40 (a loss of 13.33 jobs, or 25%).
@@ -1234,7 +1234,7 @@ government introduces a progressive income tax:
 
 At $L = 40$, $w = 60$. Tax $= 0.2(30) + 0.4(30) = 6 + 12 = 18$. Net wage $= 42$.
 
-The labour supply curve must be expressed in terms of the NET wage. At each gross wage $w$The net
+The labour supply curve must be expressed in terms of the NET wage. At each gross wage $w$ The net
 wage $w_n = w - T(w)$.
 
 For $w \leq 30$: $w_n = 0.8w$. For $30 < w \leq 60$:
@@ -1258,7 +1258,7 @@ Let me find the new equilibrium in the third segment ($w > 60$):
 $28 + 2L = 100 - L \Rightarrow 3L = 72 \Rightarrow L = 24$.
 
 At $L = 24$: $w = 76$. This is in the third tax bracket (above 60). Net wage $= 6 + 0.5(76) = 44$.
-Before tax: $L = 40$, $w = 60$Net wage $= 42$.
+Before tax: $L = 40$, $w = 60$ Net wage $= 42$.
 
 **Results:**
 

@@ -17,7 +17,7 @@ description: "A changing magnetic field induces an electric field: Comprehensive
 }
 </script>
 
-### 4.1 Faraday"s Law of Induction
+### 4.1 Faraday's Law of Induction
 
 A changing magnetic field induces an electric field:
 
@@ -86,7 +86,7 @@ geometry or position changes the flux.
 <summary>Example: Rod sliding on rails</summary>
 
 A conducting rod of length $L$ slides with velocity $v$ along two parallel rails connected by A
-resistor $R$In a uniform magnetic field $\mathbf{B} = B\,\hat{\mathbf{z}}$ perpendicular to The rail
+resistor $R$ In a uniform magnetic field $\mathbf{B} = B\,\hat{\mathbf{z}}$ perpendicular to The rail
 plane.
 
 The motional EMF:
@@ -99,7 +99,7 @@ The induced current: $I = \mathcal{E}/R = vBL/R$.
 
 The magnetic force on the rod: $F = BIL = B^2L^2v/R$ (opposing the motion, by Lenz's law).
 
-The power dissipated: $P = I^2R = v^2B^2L^2/R$Which equals the mechanical power $Fv$ Supplied to the
+The power dissipated: $P = I^2R = v^2B^2L^2/R$ Which equals the mechanical power $Fv$ Supplied to the
 rod. $\blacksquare$
 
 </details>
@@ -144,7 +144,7 @@ $\mathbf{J} = 0$ but $\partial\mathbf{E}/\partial t \neq 0$.
 <details>
 <summary>Example: Loop falling through a magnetic field</summary>
 
-A rectangular loop of width $w$Height $\ell$ And resistance $R$ falls vertically under Gravity
+A rectangular loop of width $w$ Height $\ell$ And resistance $R$ falls vertically under Gravity
 through a region of uniform magnetic field $\mathbf{B} = B\,\hat{\mathbf{x}}$ confined To a
 horizontal strip of height $h$.
 
@@ -153,7 +153,7 @@ the distance the top edge has penetrated.
 
 The induced EMF: $\mathcal{E} = -Bw\,dx/dt = -Bwv$.
 
-The induced current: $I = Bwv/R$Flowing to oppose the change in flux (Lenz's law).
+The induced current: $I = Bwv/R$ Flowing to oppose the change in flux (Lenz's law).
 
 The braking force: $F = BwI = B^2w^2v/R$ (upward).
 

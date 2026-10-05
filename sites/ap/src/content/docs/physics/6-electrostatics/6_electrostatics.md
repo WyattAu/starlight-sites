@@ -29,7 +29,7 @@ Charge is a fundamental property of matter. There are two types: positive and ne
 - Charge is conserved: the net charge in an isolated system is constant.
 - Conductors allow free movement of charge; insulators do not.
 
-### Coulomb"s Law
+### Coulomb's Law
 
 The electrostatic force between two point charges is:
 
@@ -114,12 +114,12 @@ $$
 E_x = \frac{1}{4\pi\epsilon_0} \frac{x}{(R^2 + x^2)^{3/2}} \int dq = \frac{1}{4\pi\epsilon_0} \frac{Qx}{(R^2 + x^2)^{3/2}}
 $$
 
-At the center ($x = 0$): $E = 0$As expected by symmetry.
+At the center ($x = 0$): $E = 0$ As expected by symmetry.
 :::
 
 :::note
 Example: Electric field of an infinite line of charge
-For an infinite line with linear charge density $\lambda$Use cylindrical symmetry. Place the line
+For an infinite line with linear charge density $\lambda$ Use cylindrical symmetry. Place the line
 along The $z$-axis. A segment $dz$ at the origin produces a field with perpendicular component:
 
 $$
@@ -149,7 +149,7 @@ $$
 
 ### Choosing a Gaussian Surface
 
-Choose a surface where $\vec{E}$ is either constant and parallel to $d\vec{A}$Or perpendicular to
+Choose a surface where $\vec{E}$ is either constant and parallel to $d\vec{A}$ Or perpendicular to
 $d\vec{A}$ (contributing zero flux). Common choices exploit symmetry: spheres, cylinders, and boxes.
 
 ### Applications of Gauss's Law
@@ -165,7 +165,7 @@ $$
 
 This result is independent of distance from the plane.
 
-#### Field of a Uniformly Charged Sphere (total charge $Q$Radius $R$)
+#### Field of a Uniformly Charged Sphere (total charge $Q$ Radius $R$)
 
 **Outside ($r > R$):** Choose a spherical Gaussian surface of radius $r$.
 
@@ -184,9 +184,9 @@ $$
 
 The field inside grows linearly with $r$ and reaches its maximum at $r = R$.
 
-#### Field of an Infinite Cylindrical Shell (radius $R$Linear charge density $\lambda$)
+#### Field of an Infinite Cylindrical Shell (radius $R$ Linear charge density $\lambda$)
 
-**Outside ($r > R$):** Cylindrical Gaussian surface of radius $r$Length $L$.
+**Outside ($r > R$):** Cylindrical Gaussian surface of radius $r$ Length $L$.
 
 $$
 \oint \vec{E} \cdot d\vec{A} = E \cdot 2\pi r L = \frac{\lambda L}{\epsilon_0} \implies E = \frac{\lambda}{2\pi\epsilon_0 r}
@@ -315,7 +315,7 @@ $V = Ed = Qd/(\epsilon_0 A)$ So $C = Q/V = \epsilon_0 A/d$.
 
 ### Cylindrical Capacitor
 
-Inner radius $a$Outer radius $b$Length $L$.
+Inner radius $a$ Outer radius $b$ Length $L$.
 
 By Gauss's law, the field at radius $r$ ($a \le r \le b$) is $E = \lambda/(2\pi\epsilon_0 r)$ where
 $\lambda = Q/L$.
@@ -330,7 +330,7 @@ $$
 
 ### Spherical Capacitor
 
-Inner radius $a$Outer radius $b$.
+Inner radius $a$ Outer radius $b$.
 
 $$
 E = \frac{Q}{4\pi\epsilon_0 r^2} \quad (a \le r \le b)
@@ -456,7 +456,7 @@ Electrostatics is about **how stationary charges create fields and exert forces*
 7. **Incorrectly handling series and parallel capacitors.** In series, the charge on each capacitor
    is the same. In parallel, the voltage across each capacitor is the same.
 8. **Forgetting the factor of $1/2$ in potential energy of a charge distribution.** The energy to
-   assemble $n$ charges is $\frac{1}{2}\sum q_i V_i$Not $\sum q_i V_i$. Without the factor of $1/2$
+   assemble $n$ charges is $\frac{1}{2}\sum q_i V_i$ Not $\sum q_i V_i$. Without the factor of $1/2$
    each pair is counted twice.
 
 ## Practice Questions

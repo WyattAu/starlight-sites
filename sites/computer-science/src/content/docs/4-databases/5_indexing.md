@@ -69,7 +69,7 @@ Keys per internal node (order $m = 3$).
 
 **Insert 20.** Leaf: $[10, 20]$
 
-**Insert 5.** Leaf would be $[5, 10, 20]$ -- overflow (max 2 keys). Split: left leaf $[5]$Right Leaf
+**Insert 5.** Leaf would be $[5, 10, 20]$ -- overflow (max 2 keys). Split: left leaf $[5]$ Right Leaf
 $[10, 20]$. Push median (10) to new internal node.
 
 ```
@@ -126,7 +126,7 @@ Root: [15]
 
 Now delete 15. Leaf $[10, 15]$ becomes $[10]$. No underflow. Internal node key 15 changes to 10. But
 wait -- the internal node $[10]$ would need to distinguish between leaves $[5]$ and $[10]$. Since
-the left child contains keys $\lt 10$ and the right child contains keys $\geq 10$This Is still
+the left child contains keys $\lt 10$ and the right child contains keys $\geq 10$ This Is still
 correct.
 
 Now delete 10 from the left subtree"s right leaf. Leaf becomes empty -- underflow.
@@ -159,10 +159,10 @@ Average lookup: $O(1)$ under uniform hashing. No support for range queries.
 
 1. **Separate chaining:** Each bucket contains a linked list of entries. Lookup requires traversing
    the chain. Average chain length under uniform hashing is $n / B$.
-2. **Open addressing (linear probing):** If bucket $h(k)$ is full, try $h(k)+1$, $h(k)+2$Etc. (mod
+2. **Open addressing (linear probing):** If bucket $h(k)$ is full, try $h(k)+1$, $h(k)+2$ Etc. (mod
    $B$). Prone to **primary clustering**: consecutive occupied slots increase the average probe
    length.
-3. **Open addressing (quadratic probing):** Try $h(k) + 1^2, h(k) + 2^2, h(k) + 3^2$Etc. Reduces
+3. **Open addressing (quadratic probing):** Try $h(k) + 1^2, h(k) + 2^2, h(k) + 3^2$ Etc. Reduces
    clustering but may not probe all buckets.
 4. **Open addressing (double hashing):** Use a second hash function $h_2$: probe sequence is
    $h(k) + i \cdot h_2(k)$ for $i = 0, 1, 2, \ldots$. Minimises clustering.
@@ -192,7 +192,7 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 ### 5.3 Bitmap Indexes
 
 A **bitmap index** creates one bitmap per distinct value of an attribute. For a table with $n$ rows
-And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$Store $k$ bitmaps of $n$ bits each, where
+And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
 Bitmap $i$ has a 1 in position $j$ if row $j$ has $A = v_i$.
 
 **Use case:** Low-cardinality columns (gender, status, country). Bitmap indexes support fast bitwise

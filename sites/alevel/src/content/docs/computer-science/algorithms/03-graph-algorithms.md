@@ -20,7 +20,7 @@ categories:
 }
 </script>
 
-## 1. Dijkstra"s Algorithm (Revisited)
+## 1. Dijkstra's Algorithm (Revisited)
 
 See [Graphs](/computer-science/data-structures/05-graphs/) for the full treatment. Here we
 Provide additional detail on the priority queue implementation and A\* extension.
@@ -46,7 +46,7 @@ Use a **heuristic** to guide the search toward the goal.
 
 ### Algorithm
 
-A\* uses a priority queue ordered by $f(v) = g(v) + h(v)$Where:
+A\* uses a priority queue ordered by $f(v) = g(v) + h(v)$ Where:
 
 - $g(v)$ = actual cost from source to $v$ (same as Dijkstra)
 - $h(v)$ = **estimated** cost from $v$ to the goal (heuristic)
@@ -86,7 +86,7 @@ def a_star(graph, source, goal, h):
 A suboptimal path to the goal with cost $g' \gt g^*$. Let $v$ be the first node on this suboptimal
 Path not yet expanded. By admissibility:
 $f(v) = g(v) + h(v) \leq g^* + h(v) \leq g^* + \mathrm{true}(v, \mathrm{goal}) \leq g^* + (g' - g(v)) = g'$.
-Since A\* expands the node with minimum $f$It would expand $v$ before the goal on the suboptimal
+Since A\* expands the node with minimum $f$ It would expand $v$ before the goal on the suboptimal
 Path, contradiction. $\square$
 
 ### Common Heuristics
@@ -322,7 +322,7 @@ With 4-directional movement.
 **Proof.** In a grid with 4-directional movement, the shortest path from $(x_1, y_1)$ to
 $(x_2, y_2)$ requires at least $|x_1 - x_2|$ horizontal moves and $|y_1 - y_2|$ vertical moves
 (since each move changes one coordinate by exactly 1). Therefore, the minimum number of moves is
-$|x_1 - x_2| + |y_1 - y_2|$Which is exactly the Manhattan distance. Since the heuristic equals the
+$|x_1 - x_2| + |y_1 - y_2|$ Which is exactly the Manhattan distance. Since the heuristic equals the
 True minimum cost, it never overestimates. $\square$
 
 </details>
@@ -334,7 +334,7 @@ True minimum cost, it never overestimates. $\square$
 
 Choose Prim's when:
 
-1. The graph is **dense** ($E \approx V^2$): Prim's with adjacency matrix runs in $O(V^2)$While
+1. The graph is **dense** ($E \approx V^2$): Prim's with adjacency matrix runs in $O(V^2)$ While
    Kruskal's requires sorting $O(V^2)$ edges → $O(V^2 \log V)$
 2. The graph is stored as an **adjacency matrix** (Prim's works with this representation)
 3. You need the MST starting from a specific vertex
@@ -373,7 +373,7 @@ C is already marked as visited.
 </details>
 
 **Problem 5.** The Floyd-Warshall algorithm computes all-pairs shortest paths in $O(V^3)$ time. For
-A sparse graph with $E = O(V)$Is this more efficient than running Dijkstra from every vertex?
+A sparse graph with $E = O(V)$ Is this more efficient than running Dijkstra from every vertex?
 
 <details>
 <summary>Answer</summary>
@@ -440,7 +440,7 @@ Near-optimal solutions.
 <summary>Answer</summary>
 
 After running Floyd-Warshall, check the diagonal of the distance matrix. If
-$\mathrm{dist}[i][i] \lt 0$ for any vertex $i$There exists a negative cycle through $i$.
+$\mathrm{dist}[i][i] \lt 0$ for any vertex $i$ There exists a negative cycle through $i$.
 
 **Proof.** $\mathrm{dist}[i][i]$ represents the shortest path from $i$ back to $i$. If this is
 Negative, there exists a cycle with total weight $\lt 0$ through vertex $i$. This cycle can be
@@ -462,7 +462,7 @@ Undefined. $\square$
 | Space       | $O(V)$             | $O(V)$ (often less in practice)            |
 | Requirement | None               | Heuristic function needed                  |
 
-A*dominates Dijkstra: whenever $h(v) = 0$ for all $v$A* reduces to Dijkstra. With a good Heuristic,
+A*dominates Dijkstra: whenever $h(v) = 0$ for all $v$ A* reduces to Dijkstra. With a good Heuristic,
 A\* explores significantly fewer nodes.
 
 </details>
@@ -484,7 +484,7 @@ Answer: $dp[k][t]$.
 Time complexity: $O(k \cdot E)$, we compute $k+1$ tables, each requiring scanning all edges. Space:
 $O(k \cdot V)$ (or $O(V)$ with rolling array optimisation).
 
-For $k = V-1$This is equivalent to the Bellman-Ford algorithm.
+For $k = V-1$ This is equivalent to the Bellman-Ford algorithm.
 
 For revision on graphs, see [Graphs](/computer-science/data-structures/05-graphs/).
 

@@ -117,7 +117,7 @@ $\lvert\overrightarrow{P_1A}\rvert = \sqrt{1 + 1 + 9} = \sqrt{11}$.
 
 Actual shortest distance: $\sqrt{5/7} = \sqrt{35}/7 \approx 0.845$.
 
-Student"s answer: $\sqrt{11} \approx 3.317$.
+Student's answer: $\sqrt{11} \approx 3.317$.
 
 $$
 \text{Percentage overestimate} = \frac{\sqrt{11} - \sqrt{5/7}}{\sqrt{5/7}} \times 100\% = \left(\frac{\sqrt{77}}{\sqrt{5}} - 1\right) \times 100\% \approx 293\%
@@ -146,9 +146,9 @@ $\mathbf{d}_2 = \begin{pmatrix} 1 \\ a \\ 2 \end{pmatrix}$.
 
 **(a)** Find the value of $a$ for which $l_1$ and $l_2$ intersect.
 
-**(b)** For $a = 3$Determine whether $l_1$ and $l_2$ are skew, parallel, or intersecting.
+**(b)** For $a = 3$ Determine whether $l_1$ and $l_2$ are skew, parallel, or intersecting.
 
-**(c)** For $a = -1$Find the shortest distance between $l_1$ and $l_2$.
+**(c)** For $a = -1$ Find the shortest distance between $l_1$ and $l_2$.
 
 [Difficulty: hard. Tests the systematic approach to classifying pairs of lines in 3D: parallel
 (proportional direction vectors), intersecting (solvable system), or skew (inconsistent system with
@@ -176,7 +176,7 @@ Then $t = 2(3) - 3 = 3$.
 Substituting into the second equation:
 $2 - 3 = 1 + 3a \implies -1 = 1 + 3a \implies a = -\frac{2}{3}$.
 
-The lines intersect when $a = -\frac{2}{3}$At the point
+The lines intersect when $a = -\frac{2}{3}$ At the point
 $\begin{pmatrix} 1+6 \\ 2-3 \\ 3+3 \end{pmatrix} = \begin{pmatrix} 7 \\ -1 \\ 6 \end{pmatrix}$.
 
 **(b)** For $a = 3$: the lines are not parallel ($\mathbf{d}_1$ and $\mathbf{d}_2$ not
@@ -184,11 +184,11 @@ proportional). Check for intersection:
 
 $t = 2s - 3$, $s = 3$, $t = 3$ (from first and third equations).
 
-Second equation: $2 - 3 = 1 + 3(3) = 10$Giving $-1 = 10$Which is false.
+Second equation: $2 - 3 = 1 + 3(3) = 10$ Giving $-1 = 10$ Which is false.
 
 The system is inconsistent, so the lines are **skew**.
 
-**(c)** For $a = -1$: the lines are skew (checking as above gives $-1 = 1 + (-1)(3) = -2$False).
+**(c)** For $a = -1$: the lines are skew (checking as above gives $-1 = 1 + (-1)(3) = -2$ False).
 
 The shortest distance between two skew lines is:
 
@@ -312,7 +312,7 @@ Points $A$$B$$C$ lie on a circle. In a coordinate system, $A = (1, 2)$$B = (5, 4
 **(b)** A point $D$ has position vector $\mathbf{d} = \begin{pmatrix} 7 \\ 6 \end{pmatrix}$. Use the
 scalar product to determine whether $D$ lies inside, on, or outside the circle.
 
-**(c)** Find the equation of the tangent to the circle at point $A$Giving your answer in the form
+**(c)** Find the equation of the tangent to the circle at point $A$ Giving your answer in the form
 $ax + by + c = 0$.
 
 [Difficulty: hard. Uses the perpendicular bisector method with vectors to find a circumcircle, then
@@ -357,7 +357,7 @@ Since $\sqrt{26} \gt \sqrt{10}$$D$ lies outside the circle.
 **(c)** The tangent at $A$ is perpendicular to the radius $OA$.
 
 $\overrightarrow{OA} = \begin{pmatrix} -1 \\ -3 \end{pmatrix}$. The tangent has direction
-$\begin{pmatrix} 3 \\ -1 \end{pmatrix}$ (perpendicular to $OA$Since their dot product is
+$\begin{pmatrix} 3 \\ -1 \end{pmatrix}$ (perpendicular to $OA$ Since their dot product is
 $-3 + 3 = 0$).
 
 Tangent at $A(1, 2)$ with normal direction
@@ -419,7 +419,7 @@ $$
 \frac{d(D^2)}{dt} = 24t - 44 = 0 \implies t = \frac{44}{24} = \frac{11}{6}
 $$
 
-Wait, this gives $t = 11/6$Not $t = 1$. Let me re-check the claim.
+Wait, this gives $t = 11/6$ Not $t = 1$. Let me re-check the claim.
 
 At $t = 11/6$:
 $D^2 = 12(121/36) - 44(11/6) + 107 = \frac{1452 - 2904 + 3852}{36} = \frac{2400}{36} = \frac{200}{3}$.
@@ -430,10 +430,10 @@ At $t = 11/6$: $D = \sqrt{200/3} = \frac{10\sqrt{6}}{3} \approx 8.16$.
 
 At $t = 1$: $D = \sqrt{75} = 5\sqrt{3} \approx 8.66$.
 
-So the minimum is at $t = 11/6$Not $t = 1$. The question's claim is incorrect. The ships are closest
+So the minimum is at $t = 11/6$ Not $t = 1$. The question's claim is incorrect. The ships are closest
 at $t = 11/6$ hours.
 
-Let me verify: $\frac{d^2(D^2)}{dt^2} = 24 \gt 0$Confirming a minimum.
+Let me verify: $\frac{d^2(D^2)}{dt^2} = 24 \gt 0$ Confirming a minimum.
 
 Minimum distance: $D = \sqrt{200/3} = \frac{10\sqrt{6}}{3}$ km.
 
@@ -467,7 +467,7 @@ $\frac{10\sqrt{6}}{3} \approx 8.16$ km, which exceeds 5 km.
 **(a)** Using vectors, prove that the diagonals of a parallelogram bisect each other.
 
 **(b)** The medians of a triangle $ABC$ are the line segments from each vertex to the midpoint of
-the opposite side. Using position vectors with origin $O$Prove that the three medians of triangle
+the opposite side. Using position vectors with origin $O$ Prove that the three medians of triangle
 $ABC$ are concurrent at a point $G$ (the centroid), and that $G$ divides each median in the ratio
 $2:1$.
 
@@ -494,7 +494,7 @@ The midpoint of diagonal $AC$: $\frac{\mathbf{a} + \mathbf{c}}{2}$.
 
 The midpoint of diagonal $BD$: $\frac{\mathbf{b} + \mathbf{d}}{2}$.
 
-Since $\mathbf{a} + \mathbf{c} = \mathbf{b} + \mathbf{d}$These midpoints coincide. Therefore the
+Since $\mathbf{a} + \mathbf{c} = \mathbf{b} + \mathbf{d}$ These midpoints coincide. Therefore the
 diagonals bisect each other.
 
 **(b)** Let the vertices of triangle $ABC$ have position vectors
@@ -521,10 +521,10 @@ $$
 G = \mathbf{a} + \frac{2}{3}\left(\frac{\mathbf{b}+\mathbf{c}-2\mathbf{a}}{2}\right) = \mathbf{a} + \frac{\mathbf{b}+\mathbf{c}-2\mathbf{a}}{3} = \frac{3\mathbf{a} + \mathbf{b} + \mathbf{c} - 2\mathbf{a}}{3} = \frac{\mathbf{a}+\mathbf{b}+\mathbf{c}}{3}
 $$
 
-By the cyclic symmetry of $\frac{\mathbf{a}+\mathbf{b}+\mathbf{c}}{3}$The same point
+By the cyclic symmetry of $\frac{\mathbf{a}+\mathbf{b}+\mathbf{c}}{3}$ The same point
 lies on all three medians.
 
-The point $G$ is at parameter $t = \frac{2}{3}$ along the median from $A$Meaning
+The point $G$ is at parameter $t = \frac{2}{3}$ along the median from $A$ Meaning
 $\overrightarrow{AG} = \frac{2}{3}\overrightarrow{AM_{BC}}$. Therefore $G$ divides each median in
 the ratio $AG:GM_{BC} = 2:1$.
 
@@ -539,7 +539,7 @@ $$
 \overrightarrow{MN} = \frac{\mathbf{a}+\mathbf{c}}{2} - \frac{\mathbf{a}+\mathbf{b}}{2} = \frac{\mathbf{c}-\mathbf{b}}{2} = \frac{1}{2}\overrightarrow{BC}
 $$
 
-Since $\overrightarrow{MN} = \frac{1}{2}\overrightarrow{BC}$The segment $MN$ is parallel to $BC$ and
+Since $\overrightarrow{MN} = \frac{1}{2}\overrightarrow{BC}$ The segment $MN$ is parallel to $BC$ and
 half its length. This is the midpoint theorem.
 
 ## Common Mistakes

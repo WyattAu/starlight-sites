@@ -118,7 +118,7 @@ TOPOLOGICAL_SORT(G):
 
 **Time:** $O(V + E)$. Works only on DAGs (acyclic directed graphs).
 
-### 2.2 Kahn"s Algorithm (Indegree-Based)
+### 2.2 Kahn's Algorithm (Indegree-Based)
 
 ```
 TOPOPOLOGICAL_SORT_KAHN(G):
@@ -550,11 +550,11 @@ flowchart TD
   topological sort and SCC detection.
 - **Topological sort** works on DAGs using DFS finish times or Kahn's indegree algorithm.
 - **SCCs** are found by Kosaraju's (two DFS passes) or Tarjan’s (single DFS with lowlink).
-- **Shortest paths:** Dijkstra ($O((V+E)\log V)$, non-negative), Bellman-Ford ($O(VE)$, negative),
+- **Shortest paths:** Dijkstra ($O((V+E)\log V)$, non-negative), Bellman-Ford ($ O(VE)$, negative),
   Floyd-Warshall ($O(V^3)$, all pairs).
-- **MST:** Kruskal ($O(E \log E)$) and Prim ($O(E \log V)$), both based on cut/cycle properties.
+- **MST:** Kruskal ($O(E \log E)$) and Prim ($ O(E \log V)$), both based on cut/cycle properties.
 - **Max-flow:** Ford-Fulkerson/Edmonds-Karp ($O(VE^2)$), with max-flow min-cut theorem.
-- **Bipartite matching:** Hopcroft-Karp ($O(E\sqrt{V})$) for unweighted, Hungarian ($O(n^3)$) for
+- **Bipartite matching:** Hopcroft-Karp ($O(E\sqrt{V})$) for unweighted, Hungarian ($ O(n^3)$) for
   weighted.
 
 ## Intuition

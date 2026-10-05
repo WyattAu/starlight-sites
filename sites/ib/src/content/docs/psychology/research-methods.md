@@ -33,7 +33,7 @@ Revision.
 - **Falsifiability:** Scientific theories must generate testable predictions that could, in
   principle, be disproven by empirical evidence (Popper, 1959).
 - **Parsimony:** When multiple explanations account for the same data, the simplest explanation is
-  preferred (Occam"s razor).
+  preferred (Occam's razor).
 
 ### The Research Cycle
 
@@ -309,10 +309,10 @@ Statistically significant (i.e., unlikely to have occurred by chance alone).
 
 - The **significance level** (alpha) is the threshold below which a result is considered
   statistically significant. In psychology, the conventional significance level is
-  $\mathrm{p} \lt 0.05$Meaning there is less than a 5% probability that the observed result occurred
+  $\mathrm{p} \lt 0.05$ Meaning there is less than a 5% probability that the observed result occurred
   by chance alone.
 - The **p-value** is the probability of obtaining the observed result (or a more extreme result) if
-  the null hypothesis is true. If $\mathrm{p} \lt \alpha$The null hypothesis is rejected and the
+  the null hypothesis is true. If $\mathrm{p} \lt \alpha$ The null hypothesis is rejected and the
   result is considered statistically significant.
 
 **Type I and Type II errors:**
@@ -384,7 +384,7 @@ Association (APA). Key conventions include:
 - **Confidence intervals:** Reported alongside point estimates, e.g., $95\%$ CI $[18.2, 28.6]$.
 - **Decimal places:** Means and standard deviations are reported to one decimal place for most
   measures; test statistics and p-values are reported to two or three decimal places.
-- **Rounding:** P-values are reported as exact values (e.g., $p = 0.032$) unless $p \lt 0.001$In
+- **Rounding:** P-values are reported as exact values (e.g., $p = 0.032$) unless $p \lt 0.001$ In
   which case they are reported as $p \lt 0.001$.
 
 <details>

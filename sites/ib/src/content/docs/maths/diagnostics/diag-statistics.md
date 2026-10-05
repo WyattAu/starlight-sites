@@ -37,10 +37,10 @@ For a dataset, the quartiles are $Q_1 = 42$, $Q_2 = 55$ And $Q_3 = 70$.
 
 **(a)** Determine whether the data is positively skewed, negatively skewed, or symmetric.
 
-**(b)** A student argues: "Since $Q_2 - Q_1 = 13$ and $Q_3 - Q_2 = 15$The data is positively skewed
+**(b)** A student argues: "Since $Q_2 - Q_1 = 13$ and $Q_3 - Q_2 = 15$ The data is positively skewed
 because $Q_3 - Q_2 \gt Q_2 - Q_1$." Is this reasoning correct?
 
-**(c)** If the interquartile range is $IQR = 28$State the outlier boundaries using the
+**(c)** If the interquartile range is $IQR = 28$ State the outlier boundaries using the
 $1.5 \times IQR$ rule.
 
 [Difficulty: hard. Tests interpretation of quartile positions to identify skewness and outlier
@@ -53,12 +53,12 @@ detection.]
 - $Q_2 - Q_1 = 55 - 42 = 13$
 - $Q_3 - Q_2 = 70 - 55 = 15$
 
-Since $Q_3 - Q_2 \gt Q_2 - Q_1$The right tail is longer than the left tail, indicating **positive
+Since $Q_3 - Q_2 \gt Q_2 - Q_1$ The right tail is longer than the left tail, indicating **positive
 skew**.
 
 **(b)** The student"s reasoning is correct in principle: positive skew means the right tail is
 longer. However, the student should note that this is a heuristic, formal skewness is measured by
-the moment coefficient $\frac{1}{n}\sum\left(\frac{x_i - \bar{x}}{s}\right)^3$Not just quartile
+the moment coefficient $\frac{1}{n}\sum\left(\frac{x_i - \bar{x}}{s}\right)^3$ Not just quartile
 differences. The quartile-based test is a quick check, not definitive proof.
 
 **(c)** Lower fence: $Q_1 - 1.5 \times IQR = 42 - 42 = 0$. Upper fence:
@@ -98,7 +98,7 @@ concludes $s_x = s_y$. Explain why this is wrong.
 
 **(a)** $\bar{y} = \frac{45}{9} = 5$.
 
-Since $y = \frac{x - 50}{10}$We have $x = 10y + 50$:
+Since $y = \frac{x - 50}{10}$ We have $x = 10y + 50$:
 
 $$
 \bar{x} = 10\bar{y} + 50 = 10(5) + 50 = 100
@@ -116,7 +116,7 @@ $$
 
 **(b)** The student's error is concluding $s_x = s_y$. The coding $y = \frac{x-50}{10}$ scales by a
 factor of $\frac{1}{10}$ and shifts by $50$. Scaling by $c$ multiplies the standard deviation by
-$|c|$ So $s_x = 10s_y$Not $s_y$. The student forgot to account for the scaling factor. Additionally,
+$|c|$ So $s_x = 10s_y$ Not $s_y$. The student forgot to account for the scaling factor. Additionally,
 the student used $\frac{285}{9} \approx 31.67$ and then subtracted $25$ (where $25 = 5^2$), which is
 correct for computing $s_y$ But then incorrectly applied the result to $s_x$.
 

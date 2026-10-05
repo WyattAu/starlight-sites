@@ -30,7 +30,7 @@ prevent negative occupation numbers.
 
 ### 5.2 Density of States and Critical Temperature
 
-For a 3D free Bose gas with $\varepsilon = \hbar^2 k^2 / (2m)$The density of states is
+For a 3D free Bose gas with $\varepsilon = \hbar^2 k^2 / (2m)$ The density of states is
 $g(\varepsilon) = (V/4\pi^2)(2m/\hbar^2)^{3/2}\sqrt{\varepsilon}$. The number of particles in
 excited states ($\varepsilon > 0$) is
 
@@ -93,7 +93,7 @@ C_V = \frac{15}{4}\,Nk_B\,\zeta\!\left(\frac{5}{2}\right)\Big/\zeta\!\left(\frac
 $$
 
 This contrasts with the constant $C_V = \frac{3}{2}Nk_B$ above $T_c$ (equipartition). There is a
-cusp (discontinuity in the derivative) at $T_c$Characteristic of a phase transition.
+cusp (discontinuity in the derivative) at $T_c$ Characteristic of a phase transition.
 
 ### 5.5 Worked Example: BEC in Rubidium-87
 
@@ -160,7 +160,7 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 
 - **Atom lasers:** A BEC releases coherent matter waves, analogous to an optical laser. Coherence lengths exceeding 1 mm have been demonstrated.
 - **Precision measurement:** BEC interferometry measures gravitational acceleration, rotations, and fundamental constants with extreme sensitivity.
-- **Superfluid helium:** Liquid $^4$He below 2.17 K exhibits superfluidity, with approximately 10% of atoms in the condensate (strongly interacting, unlike the ideal gas model).
+- **Superfluid helium:** Liquid $^4$ He below 2.17 K exhibits superfluidity, with approximately 10% of atoms in the condensate (strongly interacting, unlike the ideal gas model).
 - **Quantum simulation:** Optical lattices loaded with BEC simulate the Hubbard model, enabling studies of quantum phase transitions.
 - **Slow light:** Electromagnetically induced transparency in BEC reduces light speed to metres per second.
 

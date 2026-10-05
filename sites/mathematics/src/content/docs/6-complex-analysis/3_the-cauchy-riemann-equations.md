@@ -85,11 +85,11 @@ $u_{xx} + u_{yy} = v_{yx} - v_{xy} = 0$. Similarly for $v$. $\blacksquare$
 $v$ is the **harmonic conjugate** of $u$.
 
 **Proposition 3.4.** If $U$ is a connected domain and $u$ is harmonic on $U$ Then $u$ has A harmonic
-conjugate on $U$Unique up to an additive constant.
+conjugate on $U$ Unique up to an additive constant.
 
 _Proof._ Define $v(x, y) = \int_{(x_0, y_0)}^{(x, y)} (-u_y\, dx + u_x\, dy)$. The integrand is
 closed (since $(-u_y)_y = -u_{yy} = u_{xx} = (u_x)_x$) and since $U$ is Connected, $v$ is
-well-defined (path-independent) by Green's theorem. Then $v_x = -u_y$ and $v_y = u_x$Which are the
+well-defined (path-independent) by Green's theorem. Then $v_x = -u_y$ and $v_y = u_x$ Which are the
 CR equations. $\blacksquare$
 
 <details>
@@ -100,7 +100,7 @@ CR equations. $\blacksquare$
 Verify $u$ is harmonic: $u_{xx} = 6x$, $u_{yy} = -6x$ So $u_{xx} + u_{yy} = 0$. $\checkmark$
 
 By CR: $v_y = u_x = 3x^2 - 3y^2$ So $v = 3x^2 y - y^3 + g(x)$. Also $v_x = -u_y = 6xy$ So
-$6xy = 6xy + g'(x)$Giving $g'(x) = 0$ So $g(x) = C$.
+$6xy = 6xy + g'(x)$ Giving $g'(x) = 0$ So $g(x) = C$.
 
 Harmonic conjugate: $v(x, y) = 3x^2 y - y^3 + C$.
 

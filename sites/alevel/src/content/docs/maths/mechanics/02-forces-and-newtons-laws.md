@@ -316,7 +316,7 @@ Included in the equations of motion for each particle.
 1. Assume a direction of motion.
 2. Write $F = ma$ for each particle, including friction opposing the assumed motion.
 3. Solve the simultaneous equations.
-4. If $a \lt 0$The assumed direction was wrong -- reconsider with friction reversed.
+4. If $a \lt 0$ The assumed direction was wrong -- reconsider with friction reversed.
 
 **Example.** A particle of mass $4\,\mathrm{kg}$ on a rough horizontal table ($\mu = 0.3$) is
 Connected by a light inextensible string over a smooth pulley at the table edge to a particle of
@@ -332,7 +332,7 @@ $$
 
 Adding: $3g - 1.2g = 7a \implies 1.8g = 7a \implies a = 1.8g/7 \approx 2.52\,\mathrm{m/s}^2$.
 
-Since $a \gt 0$The assumption is correct: the $3\,\mathrm{kg}$ mass descends.
+Since $a \gt 0$ The assumption is correct: the $3\,\mathrm{kg}$ mass descends.
 
 ### 8.4 Friction and the direction of motion
 
@@ -392,7 +392,7 @@ $$
 
 ### 9.3 Particle on a table with a pulley -- rough surface
 
-If the table surface is rough with coefficient $\mu$The equation for $m_1$ becomes:
+If the table surface is rough with coefficient $\mu$ The equation for $m_1$ becomes:
 
 $$
 T - \mu m_1 g = m_1 a
@@ -454,9 +454,9 @@ $$
 mg\sin\alpha \leq \mu mg\cos\alpha
 $$
 
-I.e. $\tan\alpha \leq \mu$Or $\alpha \leq \lambda$ where $\lambda$ is the angle of friction.
+I.e. $\tan\alpha \leq \mu$ Or $\alpha \leq \lambda$ where $\lambda$ is the angle of friction.
 
-If $\alpha \gt \lambda$The block slides and the acceleration down the slope is:
+If $\alpha \gt \lambda$ The block slides and the acceleration down the slope is:
 
 $$
 a = g(\sin\alpha - \mu\cos\alpha)
@@ -605,7 +605,7 @@ This is equivalent to Lami's theorem and follows from the sine rule applied to t
 ### 11.5 Worked example -- beam in equilibrium
 
 A uniform beam $AB$ of length $4\,\mathrm{m}$ and mass $20\,\mathrm{kg}$ is hinged at $A$ and
-Supported by a wire attached at $B$Making an angle of $30^\circ$ with the beam. A particle of mass
+Supported by a wire attached at $B$ Making an angle of $30^\circ$ with the beam. A particle of mass
 $30\,\mathrm{kg}$ hangs from the beam at a point $1.5\,\mathrm{m}$ from $A$. Find the tension in the
 Wire and the reaction at the hinge.
 
@@ -656,7 +656,7 @@ A body of mass $5\,\mathrm{kg}$ is on a rough horizontal surface with $\mu = 0.4
 <summary>Solution 1</summary>
 $R = mg = 5(9.8) = 49\,\mathrm{N}$. $F_{\max} = \mu R = 0.4(49) = 19.6\,\mathrm{N}$.
 
-Since $30 \gt 19.6$The body slides. Friction $= 19.6\,\mathrm{N}$ (opposing motion).
+Since $30 \gt 19.6$ The body slides. Friction $= 19.6\,\mathrm{N}$ (opposing motion).
 
 $F_{\mathrm{net}} = 30 - 19.6 = 10.4\,\mathrm{N}$.
 $a = F_{\mathrm{net}}/m = 10.4/5 = 2.08\,\mathrm{m/s}^2$.
@@ -721,7 +721,7 @@ $R = mg\cos 40° = 5(9.8)(0.766) = 37.53\,\mathrm{N}$.
 $F_{\max} = 0.25(37.53) = 9.38\,\mathrm{N}$.
 Force down slope: $mg\sin 40° = 5(9.8)(0.643) = 31.49\,\mathrm{N}$.
 
-Since $31.49 \gt 9.38$The block slides. $a = (31.49 - 9.38)/5 = 22.11/5 = 4.42\,\mathrm{m/s}^2$.
+Since $31.49 \gt 9.38$ The block slides. $a = (31.49 - 9.38)/5 = 22.11/5 = 4.42\,\mathrm{m/s}^2$.
 
 **If you get this wrong, revise:**
 [Resolving on an Inclined Plane](#32-resolving-on-an-inclined-plane), Section 3.2.
@@ -826,7 +826,7 @@ The critical angle is the angle of friction: $\tan\lambda = \mu$. $\blacksquare$
 
 <details>
 <summary>Problem 12</summary>
-A $4\,\mathrm{kg}$ block on a rough inclined plane ($\mu = 0.3$Angle $= 50^\circ$) is attached to a $2\,\mathrm{kg}$ block hanging freely over a pulley at the top. Find the acceleration.
+A $4\,\mathrm{kg}$ block on a rough inclined plane ($\mu = 0.3$ Angle $= 50^\circ$) is attached to a $2\,\mathrm{kg}$ block hanging freely over a pulley at the top. Find the acceleration.
 </details>
 
 <details>
@@ -936,7 +936,7 @@ Check if the system moves: the weight of the hanging mass is $2g = 19.6\,\mathrm
 Maximum static friction on the $3\,\mathrm{kg}$ block:
 $F_{\max} = \mu m_1 g = 0.5 \times 3 \times 9.8 = 14.7\,\mathrm{N}$.
 
-Since $19.6 \gt 14.7$The system moves.
+Since $19.6 \gt 14.7$ The system moves.
 
 For $2\,\mathrm{kg}$ (descending): $2g - T = 2a$.
 
@@ -992,7 +992,7 @@ A $4\,\mathrm{kg}$ block is placed on a rough inclined plane at angle $30^\circ$
 <summary>Solution 18</summary>
 Without $P$: $mg\sin 30° = 4(9.8)(0.5) = 19.6\,\mathrm{N}$. $F_{\max} = \mu mg\cos 30° = 0.6(4)(9.8)(0.866) = 20.35\,\mathrm{N}$.
 
-Since $19.6 \lt 20.35$The block is in equilibrium without the applied force.
+Since $19.6 \lt 20.35$ The block is in equilibrium without the applied force.
 
 With $P = 50\,\mathrm{N}$ horizontal:
 
@@ -1009,7 +1009,7 @@ $43.3 - 19.6 - 35.37 = 4a$
 
 $-11.67 = 4a$
 
-Since $a \lt 0$The block does not move up the slope with this force. The applied force is
+Since $a \lt 0$ The block does not move up the slope with this force. The applied force is
 Insufficient to overcome both gravity and friction.
 
 **If you get this wrong, revise:**
@@ -1032,9 +1032,9 @@ Forces on the book:
 Third Law pairs:
 
 1. Weight pair: the gravitational pull of the book on the Earth (Earth on book $\leftrightarrow$
-   book on Earth), magnitude $1.5g$Directed upward toward the book.
+   book on Earth), magnitude $1.5g$ Directed upward toward the book.
 2. Normal reaction pair: the contact force of the book pushing down on the table (table on book
-   $\leftrightarrow$ book on table), magnitude $1.5g$Directed downward.
+   $\leftrightarrow$ book on table), magnitude $1.5g$ Directed downward.
 
 Note that $W$ and $R$ are not a Third Law pair: they are different types of force (gravitational vs
 Contact) and both act on the book.
@@ -1071,7 +1071,7 @@ $7.51 - 29.4 - 3a = 5a$
 
 $-21.89 = 8a \implies a = -2.74\,\mathrm{m/s}^2$
 
-Since $a \lt 0$The assumption is wrong. The $5\,\mathrm{kg}$ block does not move down; instead The
+Since $a \lt 0$ The assumption is wrong. The $5\,\mathrm{kg}$ block does not move down; instead The
 $3\,\mathrm{kg}$ mass descends and the $5\,\mathrm{kg}$ block moves up the slope.
 
 Re-do with the $5\,\mathrm{kg}$ block moving up the slope (friction now acts down the slope):
@@ -1098,9 +1098,9 @@ Overcome friction plus the component of weight down the slope.
 Check: the force trying to pull the $5\,\mathrm{kg}$ block up the slope is $3g = 29.4\,\mathrm{N}$.
 The force opposing this is $5g\sin 30° + \mu(5g\cos 30°) = 24.5 + 16.99 = 41.49\,\mathrm{N}$.
 
-Since $29.4 \lt 41.49$The system remains in equilibrium. The tension is
+Since $29.4 \lt 41.49$ The system remains in equilibrium. The tension is
 $T = 3g = 29.4\,\mathrm{N}$ And friction $= T - 5g\sin 30° = 29.4 - 24.5 = 4.9\,\mathrm{N}$ (which Is
-$\lt \mu R = 16.99\,\mathrm{N}$Confirming equilibrium).
+$\lt \mu R = 16.99\,\mathrm{N}$ Confirming equilibrium).
 
 **If you get this wrong, revise:**
 [Friction and the direction of motion](#84-friction-and-the-direction-of-motion), Section 8.4.

@@ -302,7 +302,7 @@ Cause another fission) must equal 1.
 - $k \gt 1$: supercritical (exponential growth, nuclear weapon).
 
 **Critical mass:** The minimum mass of fissile material required to sustain a chain reaction. For
-$\prescript{235}_{92}\mathrm{U}$This is approximately 50 kg (sphere). The critical mass depends On
+$\prescript{235}_{92}\mathrm{U}$ This is approximately 50 kg (sphere). The critical mass depends On
 geometry, density, and the presence of a neutron reflector.
 
 ### Nuclear Reactor

@@ -19,7 +19,7 @@ description: 'An matrix over is a rectangular array of elements from Arranged in
 
 ### 3.1 Matrix Operations
 
-An $m \times n$ matrix $A$ over $F$ is a rectangular array of $mn$ elements from $F$Arranged in $m$
+An $m \times n$ matrix $A$ over $F$ is a rectangular array of $mn$ elements from $F$ Arranged in $m$
 rows and $n$ columns. The set of all such matrices is denoted $\mathcal{M}_{m \times n}(F)$.
 
 **Addition.** For $A, B \in \mathcal{M}_{m \times n}(F)$, $(A + B)_{ij} = A_{ij} + B_{ij}$.
@@ -46,7 +46,7 @@ $\blacksquare$
 
 ### 3.2 Transpose
 
-The **transpose** of $A \in \mathcal{M}_{m \times n}(F)$Denoted $A^T$Is the $n \times m$ matrix With
+The **transpose** of $A \in \mathcal{M}_{m \times n}(F)$ Denoted $A^T$ Is the $n \times m$ matrix With
 $(A^T)_{ij} = A_{ji}$.
 
 **Properties of transpose:**
@@ -112,7 +112,7 @@ $$
 $$
 
 A matrix with two equal rows has determinant 0 (by antisymmetry: swapping them leaves the matrix
-Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$Hence $\det = 0$). Therefore
+Unchanged but multiplies $\det$ by $-1$ So $\det = -\det$ Hence $\det = 0$). Therefore
 $\det(\mathrm{new}~A) = \det(A)$. $\blacksquare$
 
 **Theorem 3.3 (Multiplicativity).** For $A, B \in \mathcal{M}_{n \times n}(F)$
@@ -140,7 +140,7 @@ Since $\det(B) = \det(E_1)\cdots\det(E_k)\det(U)$. $\blacksquare$
 
 **Corollary 3.4.** $\det(A^T) = \det(A)$ And for invertible $A$, $\det(A^{-1}) = 1/\det(A)$.
 
-_Proof._ $AA^{-1} = I$ So $\det(A)\det(A^{-1}) = \det(I) = 1$Giving $\det(A^{-1}) = 1/\det(A)$. For
+_Proof._ $AA^{-1} = I$ So $\det(A)\det(A^{-1}) = \det(I) = 1$ Giving $\det(A^{-1}) = 1/\det(A)$. For
 the transpose, use the Leibniz formula or observe that row Operations and column operations have the
 same effects on the determinant. $\blacksquare$
 
@@ -164,9 +164,9 @@ $$
 In particular, if $\det(A) \neq 0$ Then $A^{-1} = \frac{1}{\det(A)} \mathrm{adj}(A)$.
 
 _Proof._ The $(i,j)$-entry of $A \cdot \mathrm{adj}(A)$ is $\sum_{k=1}^n a_{ik} C_{jk}$. When
-$i = j$This is $\sum_{k=1}^n a_{ik} C_{ik} = \det(A)$ (cofactor expansion along row $i$). When
-$i \neq j$This is the cofactor expansion of a matrix obtained from $A$ by replacing row $j$ With row
-$i$Which has two equal rows and hence determinant 0. $\blacksquare$
+$i = j$ This is $\sum_{k=1}^n a_{ik} C_{ik} = \det(A)$ (cofactor expansion along row $i$). When
+$i \neq j$ This is the cofactor expansion of a matrix obtained from $A$ by replacing row $j$ With row
+$i$ Which has two equal rows and hence determinant 0. $\blacksquare$
 
 ### 3.7 Worked Examples
 

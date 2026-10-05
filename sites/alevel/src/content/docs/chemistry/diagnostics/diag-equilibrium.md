@@ -94,7 +94,7 @@ K_p = 4.68 \times 10^{-6}\,\text{atm}^{-2}
 $$
 
 (c) $K_p$ is a constant at a given temperature. When the total pressure changes, the system adjusts
-the equilibrium position (Le Chatelier"s principle) to restore the original $K_p$ value. Increasing
+the equilibrium position (Le Chatelier's principle) to restore the original $K_p$ value. Increasing
 pressure shifts the equilibrium towards the side with fewer moles of gas (the $\text{NH}_3$ side in
 this case), increasing $p(\text{NH}_3)$ and changing the individual partial pressures. However, the
 ratio defining $K_p$ returns to its equilibrium value because $K_p$ depends only on temperature, not
@@ -127,7 +127,7 @@ $K_c = 0.0211\,\text{mol dm}^{-3}$ at $500\,\text{K}$.
 $\text{PCl}_3$.
 
 (b) $K_c = 0.0420\,\text{mol dm}^{-3}$ at $600\,\text{K}$. Calculate the value of $K_c$ at
-$550\,\text{K}$Using the van't Hoff equation approximation:
+$550\,\text{K}$ Using the van't Hoff equation approximation:
 $\ln(K_2/K_1) \approx \frac{\Delta H^\circ}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$.
 
 (c) Explain why adding a catalyst does not change the equilibrium position or the value of $K_c$.
@@ -168,7 +168,7 @@ $$
 \ln(1.990) = 0.688
 $$
 
-This gives $0.688$ vs the expected $4.974$Which indicates the van't Hoff equation is being applied
+This gives $0.688$ vs the expected $4.974$ Which indicates the van't Hoff equation is being applied
 over too wide a temperature range. The values given at 500 K and 600 K may not be perfectly
 consistent. The calculation at 550 K using 500 K data gives $K_{550} = 0.318\,\text{mol dm}^{-3}$.
 
@@ -223,14 +223,14 @@ depends only on its density, which is fixed at a given temperature. Since these 
 incorporated into the equilibrium constant, only the gaseous species appears.
 
 (b) For decomposition to be prevented, the system must not reach equilibrium (i.e.,
-$Q_p \gt K_p$Where $Q_p$ is the reaction quotient). The minimum $\text{CO}_2$ pressure to prevent
+$Q_p \gt K_p$ Where $Q_p$ is the reaction quotient). The minimum $\text{CO}_2$ pressure to prevent
 decomposition is when $Q_p = K_p$:
 
 $$
 p(\text{CO}_2)_{\text{min}} = K_p = 0.220\,\text{atm}
 $$
 
-If the partial pressure of $\text{CO}_2$ exceeds $0.220\,\text{atm}$The reverse reaction is favoured
+If the partial pressure of $\text{CO}_2$ exceeds $0.220\,\text{atm}$ The reverse reaction is favoured
 and decomposition is suppressed.
 
 (c) Lower total pressure means the partial pressure of $\text{CO}_2$ in the surroundings is lower.
@@ -282,7 +282,7 @@ reactions. The ratio of forward and reverse rate constants (which equals $K_c$) 
 
 (c) Recycling unreacted $\text{N}_2$ and $\text{H}_2$ means that over time, essentially all
 reactants are converted to product. Although the equilibrium conversion per pass is only about
-15--20% at $450\,^\circ\text{C}$ and $200\,\text{atm}$The recycled gases pass through the reactor
+15--20% at $450\,^\circ\text{C}$ and $200\,\text{atm}$ The recycled gases pass through the reactor
 repeatedly until they react. This gives a much higher overall yield than a single pass through the
 reactor, making the process economically efficient.
 
@@ -384,7 +384,7 @@ $y \approx 0.08$:
 New equilibrium moles:
 $\text{SO}_2 \approx 0.72$$\text{O}_2 \approx 0.86$$\text{SO}_3 \approx 1.28$.
 
-The moles of $\text{SO}_3$ have increased from $1.20$ to approximately $1.28\,\text{mol}$Consistent
+The moles of $\text{SO}_3$ have increased from $1.20$ to approximately $1.28\,\text{mol}$ Consistent
 with Le Chatelier's principle (increasing pressure favours the side with fewer moles of gas: 3 mol
 $\to$ 2 mol).
 
@@ -478,7 +478,7 @@ $$
 \text{pH} = -\log(1.235 \times 10^{-4}) = 3.91
 $$
 
-The pH change is from $2.88$ to $3.91$A change of $1.03$ units (not 2 units). This is because
+The pH change is from $2.88$ to $3.91$ A change of $1.03$ units (not 2 units). This is because
 diluting a weak acid increases the percentage dissociation (from $1.32\%$ to $12.4\%$), partially
 compensating for the lower concentration. The student's reasoning would only apply to a strong acid.
 
@@ -498,7 +498,7 @@ compensating for the lower concentration. The student's reasoning would only app
 #### UT-4: Heterogeneous Equilibrium
 
 **Question:** For the equilibrium
-$\mathrm{NH}_4\mathrm{HS}(s) \rightleftharpoons \mathrm{NH}_3(g) + \mathrm{H}_2\mathrm{S}(g)$The
+$\mathrm{NH}_4\mathrm{HS}(s) \rightleftharpoons \mathrm{NH}_3(g) + \mathrm{H}_2\mathrm{S}(g)$ The
 total pressure at equilibrium is $0.660\,\mathrm{atm}$ at $298\,\mathrm{K}$. Calculate $K_p$.
 
 **Solution:**
@@ -528,7 +528,7 @@ $$
 #### UT-5: Le Chatelier Applied
 
 **Question:** For the equilibrium
-$\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g) \quad \Delta H = -92\,\mathrm{kJ\,mol^{-1}}$Predict
+$\mathrm{N}_2(g) + 3\mathrm{H}_2(g) \rightleftharpoons 2\mathrm{NH}_3(g) \quad \Delta H = -92\,\mathrm{kJ\,mol^{-1}}$ Predict
 and explain the effect of each change on the equilibrium yield of ammonia:
 
 (a) Increasing pressure (b) Increasing temperature (c) Adding a catalyst (d) Removing

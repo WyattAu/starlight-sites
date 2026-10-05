@@ -68,7 +68,7 @@ $Y \sim N(\mu_2, \sigma_2^2)$ are independent, then
 $X + Y \sim N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$.
 
 _Proof._ The convolution of two Gaussian PDFs is Gaussian. This follows from the MGF:
-$M_{X+Y}(t) = M_X(t)M_Y(t) = \exp((\mu_1 + \mu_2)t + (\sigma_1^2 + \sigma_2^2)t^2/2)$Which is the
+$M_{X+Y}(t) = M_X(t)M_Y(t) = \exp((\mu_1 + \mu_2)t + (\sigma_1^2 + \sigma_2^2)t^2/2)$ Which is the
 MGF of $N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$. $\blacksquare$
 
 ## Common Pitfalls

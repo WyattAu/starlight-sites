@@ -116,7 +116,7 @@ Encoding is used; it is determined automatically at construction time.
 ### When to Use Each
 
 **`String`**, Use for values that do not change. Literals, constants, method return values for
-Immutable data, keys in maps, and any case where immutability is desired. The JVM"s escape analysis
+Immutable data, keys in maps, and any case where immutability is desired. The JVM's escape analysis
 And JIT can sometimes optimize string concatenation into `StringBuilder` automatically.
 
 **`StringBuilder`**, Use for building strings in a single thread. This covers the vast majority of

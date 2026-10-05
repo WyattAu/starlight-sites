@@ -172,7 +172,7 @@ Experimental $\Delta H_{\text{hyd}}$ = $-208$ kJ/mol. Resonance energy = 152 kJ/
 
 ## 5. Aromaticity
 
-### 5.1 Huckel"s Rule
+### 5.1 Huckel's Rule
 
 **Theorem 3 (Huckel's Rule):** A planar, cyclic, fully conjugated system with $(4n + 2)$ $\pi$
 electrons is aromatic (exceptionally stable). Systems with $4n$ $\pi$ electrons are antiaromatic
@@ -366,8 +366,8 @@ $\blacksquare$
 **Definition 16 (Inductive Effect):** Electron withdrawal or donation through $\sigma$ bonds,
 decreasing with distance.
 
-- **Electron-withdrawing groups (EWG):** $-$NO$_2$, $-$CN, $-$C=O, halogens (at short range).
-- **Electron-donating groups (EDG):** Alkyl groups, $-$O$^-$, $-$NH$_2$.
+- **Electron-withdrawing groups (EWG):** $-$ NO$_2$, $-$ CN, $-$ C=O, halogens (at short range).
+- **Electron-donating groups (EDG):** Alkyl groups, $-$ O$^-$, $-$ NH$_2$.
 
 ### 8.2 Hyperconjugation
 

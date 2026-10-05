@@ -144,7 +144,7 @@ $$
 \frac{d}{dx}(\mu y) = \mu\frac{dy}{dx} + y\frac{d\mu}{dx}
 $$
 
-We need $\dfrac{d\mu}{dx} = \mu P(x)$Which gives $\dfrac{1}{\mu}\dfrac{d\mu}{dx} = P(x)$Hence
+We need $\dfrac{d\mu}{dx} = \mu P(x)$ Which gives $\dfrac{1}{\mu}\dfrac{d\mu}{dx} = P(x)$ Hence
 $\mu = \exp\!\left(\displaystyle\int P(x)\,dx\right)$.
 
 ### Worked Examples
@@ -157,7 +157,7 @@ $$
 \mu(x) = \exp\!\left(\int \frac{1}{x}\,dx\right) = e^{\ln x} = x
 $$
 
-Multiply through: $x\dfrac{dy}{dx} + y = x^3$I.e. $\dfrac{d}{dx}(xy) = x^3$.
+Multiply through: $x\dfrac{dy}{dx} + y = x^3$ I.e. $\dfrac{d}{dx}(xy) = x^3$.
 
 $$
 xy = \int x^3\,dx = \frac{x^4}{4} + C \implies y = \frac{x^3}{4} + \frac{C}{x}
@@ -175,7 +175,7 @@ $$
 e^{2x} y = e^x + C \implies y = e^{-x} + Ce^{-2x}
 $$
 
-**Example.** Solve $\dfrac{dy}{dx} - 3y = 6$Given $y(0) = 1$.
+**Example.** Solve $\dfrac{dy}{dx} - 3y = 6$ Given $y(0) = 1$.
 
 $\mu(x) = e^{-3x}$.
 
@@ -444,7 +444,7 @@ $$
 v = \frac{mg}{k} + Ce^{-kt/m}
 $$
 
-If $v(0) = 0$: $C = -\dfrac{mg}{k}$Giving $v = \dfrac{mg}{k}\!\left(1 - e^{-kt/m}\right)$.
+If $v(0) = 0$: $C = -\dfrac{mg}{k}$ Giving $v = \dfrac{mg}{k}\!\left(1 - e^{-kt/m}\right)$.
 
 The **terminal velocity** is $v_T = \dfrac{mg}{k}$ (as $t \to \infty$).
 
@@ -463,7 +463,7 @@ The **terminal velocity** is $v_T = \dfrac{mg}{k}$ (as $t \to \infty$).
 
 ### Euler's Method
 
-For the initial value problem $\dfrac{dy}{dx} = f(x, y)$ with $y(x_0) = y_0$Euler's method Generates
+For the initial value problem $\dfrac{dy}{dx} = f(x, y)$ with $y(x_0) = y_0$ Euler's method Generates
 approximate values using:
 
 $$
@@ -513,7 +513,7 @@ $$
 
 At $x = 0.5$: $y = 2e^{0.5} - 1.5 \approx 1.797$.
 
-The Euler approximation of $1.721$ underestimates the true value by about $0.076$A relative error Of
+The Euler approximation of $1.721$ underestimates the true value by about $0.076$ A relative error Of
 roughly $4.2\%$.
 
 ### Error Analysis
@@ -527,7 +527,7 @@ A more accurate variant uses the average of the slopes at the beginning and end 
 
 $$k_1 = f(x_n, y_n)$$ $$k_2 = f(x_n + h, y_n + hk_1)$$ $$y_{n+1} = y_n + \frac{h}{2}(k_1 + k_2)$$
 
-This is a **second order** method with global error proportional to $h^2$Offering significantly
+This is a **second order** method with global error proportional to $h^2$ Offering significantly
 Better accuracy than the basic Euler method for the same step size.
 
 :::caution
@@ -585,7 +585,7 @@ Where $A = e^{2C} \gt 0$.
 
 Apply $y(1) = 2$: $\dfrac{1}{3} = A \cdot 1 \implies A = \dfrac{1}{3}$.
 
-Since $y(1) = 2 \gt 1$The numerator $y - 1$ is positive initially. For $x \gt 0$ near $1$:
+Since $y(1) = 2 \gt 1$ The numerator $y - 1$ is positive initially. For $x \gt 0$ near $1$:
 
 $$
 \frac{y-1}{y+1} = \frac{x^2}{3}
@@ -723,7 +723,7 @@ With $y(0) = 2$: $C = 3$. So $y = x - 1 + 3e^{-x}$.
 
 At $x = 0.3$: $y = -0.7 + 3e^{-0.3} \approx -0.7 + 3(0.7408) = -0.7 + 2.2225 = 1.522$.
 
-Error: $|1.522 - 1.505| \approx 0.017$Roughly $1.1\%$.
+Error: $|1.522 - 1.505| \approx 0.017$ Roughly $1.1\%$.
 
 </details>
 
@@ -753,15 +753,15 @@ A differential equation is a sentence about change. It does not tell you where y
    $\dfrac{dy}{dx} = y^2$ dividing by $y^2$ loses the solution $y = 0$.
 
 3. **Incorrect sign in the integrating factor.** The standard form is
-   $\dfrac{dy}{dx} + P(x)y = Q(x)$. If the equation is $\dfrac{dy}{dx} = P(x)y + Q(x)$You must
+   $\dfrac{dy}{dx} + P(x)y = Q(x)$. If the equation is $\dfrac{dy}{dx} = P(x)y + Q(x)$ You must
    rewrite it as $\dfrac{dy}{dx} - P(x)y = Q(x)$ before computing $\mu = e^{\int -P(x)\,dx}$.
 
 4. **Misidentifying the discriminant for second order equations.** For
-   $a\lambda^2 + b\lambda + c = 0$The discriminant is $\Delta = b^2 - 4ac$. If $\Delta = 0$The
+   $a\lambda^2 + b\lambda + c = 0$ The discriminant is $\Delta = b^2 - 4ac$. If $\Delta = 0$ The
    repeated root gives $(A + Bx)e^{\lambda x}$**not** $Ae^{\lambda x}$.
 
 5. **Confusing the damping cases.** In the damped oscillation equation
-   $\ddot{x} + 2\gamma\dot{x} + \omega_0^2 x = 0$It is $\gamma^2$ that is compared with
+   $\ddot{x} + 2\gamma\dot{x} + \omega_0^2 x = 0$ It is $\gamma^2$ that is compared with
    $\omega_0^2$. A common error is to compare $\gamma$ with $\omega_0$ directly.
 
 6. **Euler's method sign errors.** The update formula is $y_{n+1} = y_n + h \cdot f(x_n, y_n)$. A
@@ -791,7 +791,7 @@ A differential equation is a sentence about change. It does not tell you where y
 
 1. Solve $\dfrac{dy}{dx} = \dfrac{e^{x+y}}{e^x + 1}$ given $y(0) = \ln 3$.
 
-2. Solve $\dfrac{dy}{dx} + \dfrac{2y}{x} = x^3$ for $x \gt 0$Given $y(1) = 0$.
+2. Solve $\dfrac{dy}{dx} + \dfrac{2y}{x} = x^3$ for $x \gt 0$ Given $y(1) = 0$.
 
 3. Find the general solution of $y'' + 6y' + 9y = 0$ and identify the type of damping.
 

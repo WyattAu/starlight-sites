@@ -101,7 +101,7 @@ $$
 
 **(b)** State the range of values of $x$ for which the expansion is valid.
 
-**(c)** Use the expansion to find an approximation for $\dfrac{1}{\sqrt[3]{1.03}}$Giving your answer
+**(c)** Use the expansion to find an approximation for $\dfrac{1}{\sqrt[3]{1.03}}$ Giving your answer
 to 5 decimal places.
 
 [Difficulty: hard. Tests binomial expansion with fractional exponent, validity range, and numerical
@@ -124,9 +124,9 @@ $$
 = 1 - x + 2x^2 - \frac{28}{81} \cdot \frac{27}{6}x^3 = 1 - x + 2x^2 - \frac{14}{9}x^3
 $$
 
-**(b)** The expansion is valid when $|3x| \lt 1$I.e., $|x| \lt \dfrac{1}{3}$.
+**(b)** The expansion is valid when $|3x| \lt 1$ I.e., $|x| \lt \dfrac{1}{3}$.
 
-**(c)** $\dfrac{1}{\sqrt[3]{1.03}} = (1 + 0.03)^{-1/3}$. Here $x = 0.03$Which satisfies
+**(c)** $\dfrac{1}{\sqrt[3]{1.03}} = (1 + 0.03)^{-1/3}$. Here $x = 0.03$ Which satisfies
 $|x| \lt \frac{1}{3}$.
 
 $$

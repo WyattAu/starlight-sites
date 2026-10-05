@@ -24,7 +24,7 @@ categories:
 
 A **sequence** is an ordered list of numbers: $a_1, a_2, a_3, \ldots$. Formally, a sequence is a
 Function from the positive integers (or a subset thereof) to the real numbers:
-$a \colon \mathbb{N} \to \mathbb{R}$Written as $\{a_n\}_{n=1}^{\infty}$ or $\{a_n\}$.
+$a \colon \mathbb{N} \to \mathbb{R}$ Written as $\{a_n\}_{n=1}^{\infty}$ or $\{a_n\}$.
 
 A sequence $\{a_n\}$ **converges** to a limit $L$ if:
 
@@ -32,7 +32,7 @@ $$
 \lim_{n \to \infty} a_n = L
 $$
 
-This means: for every $\epsilon \gt 0$There exists an integer $N$ such that $|a_n - L| \lt \epsilon$
+This means: for every $\epsilon \gt 0$ There exists an integer $N$ such that $|a_n - L| \lt \epsilon$
 for all $n \ge N$. The terms eventually get and stay arbitrarily close to $L$.
 
 If no such limit exists, the sequence **diverges**.
@@ -84,7 +84,7 @@ By the squeeze theorem, $\frac{n!}{n^n} \to 0$.
 
 ### Proof: $\frac{\ln n}{n} \to 0$
 
-Since $\ln n$ grows slower than any positive power of $n$We have $\ln n \lt \sqrt{n}$ for
+Since $\ln n$ grows slower than any positive power of $n$ We have $\ln n \lt \sqrt{n}$ for
 Sufficiently large $n$. Therefore
 $0 \lt \frac{\ln n}{n} \lt \frac{\sqrt{n}}{n} = \frac{1}{\sqrt{n}}$ And $\frac{1}{\sqrt{n}} \to 0$ So
 by the squeeze theorem, $\frac{\ln n}{n} \to 0$.
@@ -99,7 +99,7 @@ $$
 
 ### Partial Sums
 
-The $n$Th partial sum is $S_n = \sum_{k=1}^{n} a_k$. The series converges if and only if the
+The $n$ Th partial sum is $S_n = \sum_{k=1}^{n} a_k$. The series converges if and only if the
 Sequence of partial sums $\{S_n\}$ converges:
 
 $$
@@ -108,14 +108,14 @@ $$
 
 If $\{S_n\}$ diverges, the series diverges.
 
-### The $n$Th-Term Test (Divergence Test)
+### The $n$ Th-Term Test (Divergence Test)
 
 If $\displaystyle\lim_{n \to \infty} a_n \ne 0$ Then $\displaystyle\sum a_n$ diverges.
 
 **Proof (by contrapositive):** If $\sum a_n$ converges to $L$ Then $S_n \to L$ and $S_{n-1} \to L$.
-Since $a_n = S_n - S_{n-1}$We get $a_n \to L - L = 0$.
+Since $a_n = S_n - S_{n-1}$ We get $a_n \to L - L = 0$.
 
-**Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$The test is inconclusive. The series may
+**Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$ The test is inconclusive. The series may
 Converge or diverge. The harmonic series $\sum \frac{1}{n}$ is the canonical counterexample.
 
 :::note[Example]
@@ -125,7 +125,7 @@ $$
 \lim_{n \to \infty} \frac{n}{n+1} = 1 \ne 0
 $$
 
-By the $n$Th-term test, the series diverges.
+By the $n$ Th-term test, the series diverges.
 
 ### The Harmonic Series
 
@@ -133,7 +133,7 @@ $$
 \sum_{n=1}^{\infty} \frac{1}{n} = 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \cdots
 $$
 
-Even though $\frac{1}{n} \to 0$This series diverges. The proof groups terms:
+Even though $\frac{1}{n} \to 0$ This series diverges. The proof groups terms:
 
 $$
 1 + \frac{1}{2} + \left(\frac{1}{3} + \frac{1}{4}\right) + \left(\frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8}\right) + \cdots
@@ -141,7 +141,7 @@ $$
 
 Each group exceeds $\frac{1}{2}$:
 $\frac{1}{3} + \frac{1}{4} \gt \frac{1}{4} + \frac{1}{4} = \frac{1}{2}$ And so on. Since we can Form
-infinitely many groups each exceeding $\frac{1}{2}$The partial sums diverge to $+\infty$.
+infinitely many groups each exceeding $\frac{1}{2}$ The partial sums diverge to $+\infty$.
 
 ## Geometric Series (CED BC Unit 10.2)
 
@@ -151,7 +151,7 @@ $$
 
 The series diverges when $|r| \ge 1$.
 
-**Derivation.** The $n$Th partial sum is $S_n = a + ar + ar^2 + \cdots + ar^{n-1}$. Then:
+**Derivation.** The $n$ Th partial sum is $S_n = a + ar + ar^2 + \cdots + ar^{n-1}$. Then:
 
 $$
 RS_n = ar + ar^2 + \cdots + ar^n
@@ -314,7 +314,7 @@ $$
 \lim_{n \to \infty} \frac{1/(n^2+1)}{1/n^2} = \lim_{n \to \infty} \frac{n^2}{n^2 + 1} = 1
 $$
 
-Since $0 \lt 1 \lt \infty$Both series converge by the limit comparison test.
+Since $0 \lt 1 \lt \infty$ Both series converge by the limit comparison test.
 
 ### Worked Example: Choosing the Right Comparison
 
@@ -328,11 +328,11 @@ $$
 \lim_{n \to \infty} \frac{(3n+1)/(n^3-2)}{1/n^2} = \lim_{n \to \infty} \frac{n^2(3n+1)}{n^3-2} = \lim_{n \to \infty} \frac{3n^3 + n^2}{n^3 - 2} = 3
 $$
 
-Since $L = 3 \in (0, \infty)$Both series converge.
+Since $L = 3 \in (0, \infty)$ Both series converge.
 
 ## The Ratio Test (CED BC Unit 10.7)
 
-For $\displaystyle\sum a_n$Compute:
+For $\displaystyle\sum a_n$ Compute:
 
 $$
 L = \lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right|
@@ -357,7 +357,7 @@ $$
 L = \lim_{n \to \infty} \frac{(n+1)! / 10^{n+1}}{n! / 10^n} = \lim_{n \to \infty} \frac{n+1}{10} = \infty
 $$
 
-Since $L = \infty \gt 1$The series diverges.
+Since $L = \infty \gt 1$ The series diverges.
 :::
 
 :::note[Example]
@@ -367,7 +367,7 @@ $$
 L = \lim_{n \to \infty} \frac{2^{n+1} / (n+1)!}{2^n / n!} = \lim_{n \to \infty} \frac{2}{n+1} = 0
 $$
 
-Since $L = 0 \lt 1$The series converges absolutely.
+Since $L = 0 \lt 1$ The series converges absolutely.
 
 ## The Alternating Series Test (Leibniz Test)
 
@@ -401,9 +401,9 @@ The error by counting terms.
 How many terms of $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}$ are needed to approximate
 The sum with error less than $0.001$?
 
-The terms are $a_n = \frac{1}{n}$Which decrease and approach 0.
+The terms are $a_n = \frac{1}{n}$ Which decrease and approach 0.
 
-We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$ So $n + 1 \gt 1000$Meaning $n \ge 1000$.
+We need $a_{n+1} = \frac{1}{n+1} \lt 0.001$ So $n + 1 \gt 1000$ Meaning $n \ge 1000$.
 
 At least 1000 terms are needed.
 
@@ -469,7 +469,7 @@ $$
 L = \lim_{n \to \infty} \left|\frac{(x-2)^{n+1}/(n+1)!}{(x-2)^n/n!}\right| = \lim_{n \to \infty} \frac{|x-2|}{n+1} = 0
 $$
 
-Since $L = 0 \lt 1$ for all $x$The series converges for all real numbers. The interval of
+Since $L = 0 \lt 1$ for all $x$ The series converges for all real numbers. The interval of
 Convergence is $(-\infty, \infty)$ with $R = \infty$.
 :::
 
@@ -480,7 +480,7 @@ $$
 L = \lim_{n \to \infty} \left|\frac{(x-1)^{n+1}/(n+1)}{(x-1)^n/n}\right| = |x - 1| \cdot \lim_{n \to \infty} \frac{n}{n+1} = |x - 1|
 $$
 
-Converges when $|x - 1| \lt 1$I.e., $0 \lt x \lt 2$. Radius $R = 1$.
+Converges when $|x - 1| \lt 1$ I.e., $0 \lt x \lt 2$. Radius $R = 1$.
 
 **Check $x = 0$:** $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$ converges (alternating
 Series).
@@ -512,13 +512,13 @@ $$
 F(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x - a)^n
 $$
 
-When $a = 0$This is called a **Maclaurin series**.
+When $a = 0$ This is called a **Maclaurin series**.
 
 ### Why Taylor Series Work
 
 The Taylor polynomial $T_n(x) = \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!}(x-a)^k$ is the unique
 Polynomial of degree $\le n$ whose value and first $n$ derivatives at $x = a$ match those of $f$. As
-$n \to \infty$If the remainder $R_n(x) = f(x) - T_n(x) \to 0$ Then the Taylor series converges to
+$n \to \infty$ If the remainder $R_n(x) = f(x) - T_n(x) \to 0$ Then the Taylor series converges to
 $f(x)$.
 
 ### Common Maclaurin Series
@@ -551,7 +551,7 @@ $$
 \arctan x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1} = x - \frac{x^3}{3} + \frac{x^5}{5} - \cdots, \quad R = 1
 $$
 
-### Taylor"s Inequality (Remainder Estimation)
+### Taylor's Inequality (Remainder Estimation)
 
 The remainder after $n$ terms of the Taylor series satisfies:
 
@@ -660,13 +660,13 @@ $$
    sequence does not imply a convergent series (e.g., $a_n = \frac{1}{n}$ converges to 0, but
    $\sum \frac{1}{n}$ diverges).
 
-2. **Using the $n$Th-term test incorrectly.** $\lim a_n = 0$ does not prove convergence (e.g.,
+2. **Using the $n$ Th-term test incorrectly.** $\lim a_n = 0$ does not prove convergence (e.g.,
    harmonic series). The test only detects divergence.
 
 3. **Forgetting to check endpoints** of the interval of convergence for power series. The ratio test
    always gives $L = 1$ at the endpoints, so you must use a different test.
 
-4. **Misidentifying the center** of a Taylor series. For $\sum c_n(x - 3)^n$The center is $a = 3$.
+4. **Misidentifying the center** of a Taylor series. For $\sum c_n(x - 3)^n$ The center is $a = 3$.
 
 5. **Applying the ratio test when $L = 1$.** The test is inconclusive; use a different test
    (comparison, integral, alternating series).
@@ -755,7 +755,7 @@ $a_n = \frac{2^n x^n}{n!}$.
 
 $\displaystyle L = \lim_{n \to \infty} \left|\frac{a_{n+1}}{a_n}\right| = \lim_{n \to \infty} \left|\frac{2^{n+1} x^{n+1} / (n+1)!}{2^n x^n / n!}\right| = \lim_{n \to \infty} \frac{2|x|}{n+1} = 0$.
 
-Since $L = 0 \lt 1$ for all $x$The radius of convergence is $R = \infty$. The series converges for
+Since $L = 0 \lt 1$ for all $x$ The radius of convergence is $R = \infty$. The series converges for
 all real $x$. (This is the Maclaurin series for $e^{2x}$.)
 
 </details>
@@ -796,9 +796,9 @@ We know $\frac{1}{1-x} = \sum_{n=0}^{\infty} x^n$ for $|x| \lt 1$.
 Differentiate both sides:
 $\frac{1}{(1-x)^2} = \sum_{n=1}^{\infty} nx^{n-1} = \sum_{n=0}^{\infty} (n+1)x^n$.
 
-Interval of convergence: $|x| \lt 1$Or $(-1, 1)$.
+Interval of convergence: $|x| \lt 1$ Or $(-1, 1)$.
 
-Check endpoints: at $x = 1$Series is $\sum (n+1)$ which diverges. At $x = -1$Series is
+Check endpoints: at $x = 1$ Series is $\sum (n+1)$ which diverges. At $x = -1$ Series is
 $\sum (-1)^n(n+1)$ which diverges by the divergence test.
 
 </details>

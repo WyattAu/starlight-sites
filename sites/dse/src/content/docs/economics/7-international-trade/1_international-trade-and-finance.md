@@ -1056,7 +1056,7 @@ The current account?
 
 $|0.6| + |0.3| = 0.9$
 
-Since $0.9 \lt 1$The Marshall-Lerner condition is NOT satisfied. A depreciation of the currency
+Since $0.9 \lt 1$ The Marshall-Lerner condition is NOT satisfied. A depreciation of the currency
 Would WORSEN the current account. The quantity effect (increased export volumes and decreased import
 Volumes) is smaller than the price effect (lower export prices and higher import prices), so the
 Trade balance deteriorates.
@@ -1065,7 +1065,7 @@ Trade balance deteriorates.
 
 $|0.6| + |0.8| = 1.4$
 
-Since $1.4 \gt 1$The Marshall-Lerner condition IS satisfied. A depreciation would IMPROVE the
+Since $1.4 \gt 1$ The Marshall-Lerner condition IS satisfied. A depreciation would IMPROVE the
 Current account. The quantity effect now outweighs the price effect, and the trade balance improves.
 
 </details>

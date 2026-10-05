@@ -157,8 +157,8 @@ computation time and $T_i$ is the period of task $i$.
 _Proof (sufficiency)._ The critical instant for a task occurs when it is released simultaneously
 with all higher-priority tasks. The worst-case response time of task $i$ is
 $R_i = C_i + \sum_{j \in hp(i)} \lceil R_i / T_j \rceil \cdot C_j$. For $n$ tasks with equal
-utilisation $U_i = C_i/T_i$The bound $n(2^{1/n} - 1)$ is derived by considering the maximum
-interference from higher-priority tasks at the critical instant. As $n \to \infty$This bound
+utilisation $U_i = C_i/T_i$ The bound $n(2^{1/n} - 1)$ is derived by considering the maximum
+interference from higher-priority tasks at the critical instant. As $n \to \infty$ This bound
 approaches $\ln 2 \approx 0.693$. $\blacksquare$
 
 **Utilisation bounds for RMS:**
@@ -178,7 +178,7 @@ nearest deadline has the highest priority.
 **Theorem 1.3.** EDF can schedule any task set with total utilisation $U \leq 1$. This is optimal
 among all preemptive uniprocessor scheduling algorithms.
 
-_Proof._ If $U \leq 1$The total demand (computation time) in any interval $[0, t]$ does not exceed
+_Proof._ If $U \leq 1$ The total demand (computation time) in any interval $[0, t]$ does not exceed
 $t$. Since EDF always prioritises the task that must complete soonest, no deadline is missed if the
 total demand is feasible. $\blacksquare$
 
@@ -195,7 +195,7 @@ Total utilisation: $U = 0.4 + 0.2 + 0.15 = 0.75$.
 
 RMS bound for $n = 3$: $3(2^{1/3} - 1) \approx 3(1.260 - 1) = 3 \times 0.260 = 0.779$.
 
-Since $0.75 \leq 0.779$The task set is schedulable by RMS (sufficient condition).
+Since $0.75 \leq 0.779$ The task set is schedulable by RMS (sufficient condition).
 
 Priority assignment (RMS): Task 1 has highest priority (shortest period $T_1 = 5$), then Task 2
 ($T_2 = 10$), then Task 3 ($T_3 = 20$).
@@ -861,7 +861,7 @@ The **Completely Fair Scheduler (CFS)** is the default process scheduler in Linu
    task's priority (niceness).
 2. CFS always picks the task with the smallest `vruntime`.
 3. The `vruntime` increment per tick is:
-   $\text{vruntime} += \text{actual}\_time \times \text{weight_0} / \text{weight}$Where
+   $\text{vruntime} += \text{actual}\_time \times \text{weight_0} / \text{weight}$ Where
    $\text{weight}$ depends on the nice value.
 
 **Target latency.** CFS aims to give each task a fair share of CPU time within a "sched period"

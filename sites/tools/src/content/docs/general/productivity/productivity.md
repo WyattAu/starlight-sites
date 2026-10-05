@@ -54,7 +54,7 @@ You spend the entire day responding to Slack messages and pull request reviews.
 
 ### Deep Work
 
-Cal Newport"s concept of "Deep Work", cognitively demanding tasks performed in a state of
+Cal Newport's concept of "Deep Work", cognitively demanding tasks performed in a state of
 Distraction-free concentration, is the most valuable skill for a knowledge worker.
 
 **Rules for deep work:**

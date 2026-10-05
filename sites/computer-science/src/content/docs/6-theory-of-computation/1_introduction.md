@@ -39,7 +39,7 @@ Is denoted $\varepsilon$.
 - $\Sigma^n$: Strings of length $n$ over $\Sigma$.
 
 A **language** $L$ over $\Sigma$ is any subset of $\Sigma^*$. The empty language is $\emptyset$
-(distinct from $\{\varepsilon\}$Which contains one string).
+(distinct from $\{\varepsilon\}$ Which contains one string).
 
 **Operations on languages:**
 
@@ -98,7 +98,7 @@ is **countable**.
 **Theorem 1.1.** The set of all languages over a non-empty alphabet $\Sigma$ is uncountable.
 
 _Proof._ The set $\Sigma^*$ is countable (enumerate strings by length, then lexicographically). The
-set of all languages is $\mathcal{P}(\Sigma^*)$Which is uncountable by Cantor"s theorem (since
+set of all languages is $\mathcal{P}(\Sigma^*)$ Which is uncountable by Cantor's theorem (since
 $|\mathcal{P}(S)| \gt |S|$ for any set $S$). $\blacksquare$
 
 **Theorem 1.2.** The set of all Turing machines is countable.

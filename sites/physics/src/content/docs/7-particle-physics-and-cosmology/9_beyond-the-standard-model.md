@@ -63,7 +63,7 @@ $$
 \delta m_H^2 \sim \frac{\lvert y_t\rvert^2}{8\pi^2}m_{\mathrm{SUSY}^2 \sim (100\;\mathrm{GeV})^2}
 $$
 
-Which is of the same order as $m_H^2$Eliminating the fine-tuning.
+Which is of the same order as $m_H^2$ Eliminating the fine-tuning.
 
 ### 9.1.2 R-Parity
 
@@ -135,7 +135,7 @@ Experimental reach.
 3. **Brane world scenarios.** In some string theory constructions, our four-dimensional universe is
    a "brane" embedded in a higher-dimensional "bulk." Standard Model particles are confined to the
    brane, while gravity can propagate into the bulk. This can lead to observable signatures such as
-   deviations from Newton"s law at short distances or the production of Kaluza--Klein gravitons at
+   deviations from Newton's law at short distances or the production of Kaluza--Klein gravitons at
    colliders.
 
 4. **AdS/CFT correspondence.** String theory in anti-de Sitter space is equivalent to a conformal

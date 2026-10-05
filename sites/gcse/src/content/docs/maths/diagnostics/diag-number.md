@@ -41,7 +41,7 @@ $36 \times 1.20 = \pounds 43.20$.
 
 The final price is not $\pounds 45$ because the 20% increase is applied to a smaller base
 ($\pounds 36$) than the 20% decrease ($\pounds 45$). A 20% decrease followed by a 20% increase
-equals $0.80 \times 1.20 = 0.96$A net 4% decrease.
+equals $0.80 \times 1.20 = 0.96$ A net 4% decrease.
 
 (d) $10\%$ of $360 = 36$. $5\%$ of $360 = 18$. $15\% = 36 + 18 = 54$.
 
@@ -75,7 +75,7 @@ factorisation.
 
 **Question:** (a) A rectangle has length 8.4 cm (correct to 1 decimal place) and width 5.2 cm
 (correct to 1 decimal place). Calculate the upper bound of the area. (b) Write $0.000376$ in
-standard form. (c) Calculate $\frac{4.2 \times 10^5}{2.8 \times 10^{-3}}$Giving your answer in
+standard form. (c) Calculate $\frac{4.2 \times 10^5}{2.8 \times 10^{-3}}$ Giving your answer in
 standard form. (d) The population of a city is $3.45 \times 10^6$ to the nearest $10,000$. Write
 down the lower and upper bounds.
 

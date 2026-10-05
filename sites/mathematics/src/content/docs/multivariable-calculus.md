@@ -37,7 +37,7 @@ Holding all other variables fixed.
 **Notation.** Common notations for the partial derivative with respect to $x_i$ include $f_{x_i}$,
 $\partial_i f$ And $\frac{\partial f}{\partial x_i}$. We use these interchangeably.
 
-### 1.2 Clairaut"s Theorem
+### 1.2 Clairaut's Theorem
 
 **Theorem 1.1 (Clairaut's Theorem / Schwarz’s Theorem).** If $f_{xy}$ and $f_{yx}$ are continuous on
 an Open set containing $(a, b)$ Then
@@ -79,7 +79,7 @@ $$
 f_{xy}(a + \theta_1 h,\, b + \theta_2 k) = f_{yx}(a + \theta_3 h,\, b + \theta_4 k)
 $$
 
-Taking the limit as $(h, k) \to (0, 0)$ and using continuity of $f_{xy}$ and $f_{yx}$We obtain
+Taking the limit as $(h, k) \to (0, 0)$ and using continuity of $f_{xy}$ and $f_{yx}$ We obtain
 $f_{xy}(a, b) = f_{yx}(a, b)$. $\blacksquare$
 
 _Intuition._ Clairaut's theorem tells us that, under a mild regularity condition (continuity of the
@@ -95,7 +95,7 @@ $$
 \lim_{\mathbf{h} \to \mathbf{0}} \frac{f(\mathbf{a} + \mathbf{h}) - f(\mathbf{a}) - L(\mathbf{h})}{\lVert \mathbf{h} \rVert} = 0
 $$
 
-When $f$ is differentiable at $\mathbf{a}$The linear map $L$ is given by the gradient.
+When $f$ is differentiable at $\mathbf{a}$ The linear map $L$ is given by the gradient.
 
 _Remark._ Existence of all partial derivatives at a point does **not** imply differentiability at
 That point. The canonical counterexample is
@@ -338,7 +338,7 @@ is $C^1$ and $F(a,b,c) = 0$ with $F_z(a,b,c) \neq 0$ Then there exist neighbourh
 and $V$ of $c$ and a unique $C^1$ function $\varphi : U \to V$ with $\varphi(a,b) = c$ and
 $F(x, y, \varphi(x,y)) = 0$ for all $(x,y) \in U$.
 
-**Problem.** If $x^2 y + y^2 z + z^2 x = 3$Find $\frac{\partial z}{\partial x}$ and
+**Problem.** If $x^2 y + y^2 z + z^2 x = 3$ Find $\frac{\partial z}{\partial x}$ and
 $\frac{\partial z}{\partial y}$ at the point $(1, 1, 1)$.
 
 <details>
@@ -374,7 +374,7 @@ $$
 
 For some $\mathbf{c}$ on the line segment joining $\mathbf{a}$ and $\mathbf{x}$.
 
-For $n = 2$ and $k = 2$The second-order Taylor expansion is:
+For $n = 2$ and $k = 2$ The second-order Taylor expansion is:
 
 $$
 f(a+h, b+k) = f(a,b) + f_x h + f_y k + \frac{1}{2}\left(f_{xx} h^2 + 2f_{xy} hk + f_{yy} k^2\right) + R_2
@@ -410,7 +410,7 @@ $\mathbf{c} = \mathbf{a} + \tau(\mathbf{x}-\mathbf{a})$ yields the result. $\bla
   $f_{xy} = f_{yx}$ can fail.
 - **Normalise the direction vector.** The formula $D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u}$
   assumes $\lVert \mathbf{u} \rVert = 1$. If the direction is given by a non-unit vector
-  $\mathbf{v}$Divide by $\lVert \mathbf{v} \rVert$ first.
+  $\mathbf{v}$ Divide by $\lVert \mathbf{v} \rVert$ first.
 :::
 
 ## 2. Multiple Integrals
@@ -430,14 +430,14 @@ $$
 \iint_R f(x,y)\, dA = \int_a^b \left(\int_c^d f(x,y)\, dy\right) dx = \int_c^d \left(\int_a^b f(x,y)\, dx\right) dy
 $$
 
-_Proof (sketch)._ For a continuous function $f$ on the compact rectangle $R$Define
+_Proof (sketch)._ For a continuous function $f$ on the compact rectangle $R$ Define
 
 $$
 F(x) = \int_c^d f(x,y)\, dy
 $$
 
 Since $f$ is continuous, $F$ is continuous on $[a,b]$. For each partition
-$P = \\{(x_0, \ldots, x_m)\\}$ of $[a,b]$Define Riemann sums for the outer integral:
+$P = \\{(x_0, \ldots, x_m)\\}$ of $[a,b]$ Define Riemann sums for the outer integral:
 
 $$
 S(P) = \sum_{i=1}^m F(x_i^*)\, \Delta x_i = \sum_{i=1}^m \int_c^d f(x_i^*, y)\, dy\, \Delta x_i
@@ -469,7 +469,7 @@ $y = x + 2$.
 <details>
 <summary>Solution</summary>
 
-The curves intersect when $x^2 = x + 2$I.e., $x^2 - x - 2 = 0$ So $(x-2)(x+1) = 0$Giving $x = -1$ and
+The curves intersect when $x^2 = x + 2$ I.e., $x^2 - x - 2 = 0$ So $(x-2)(x+1) = 0$ Giving $x = -1$ and
 $x = 2$. As a Type I region, $D = \\{(x,y) : -1 \leq x \leq 2,\, x^2 \leq y \leq x+2\\}$.
 
 $$
@@ -527,7 +527,7 @@ simplest approach is to split $D$ at $y = 4/3$.
 For $0 \leq y \leq 1$: $y/2 \leq x \leq y$ (between $y = x$ and $y = 2x$ But only up to $x + y = 2$).
 Actually $y = 2x$ gives $x = y/2$ And $y = x$ gives $x = y$. But $x + y = 2$ gives $x = 2 - y$. For
 $y \leq 1$: both $y \leq 2 - y$ (since $y \leq 1$) and $y/2 \leq y$ So the right boundary is $y$. But
-we also need $x + y \leq 2$I.e., $x \leq 2 - y$. For $y \leq 1$: $y \leq 2 - y$ So the constraint
+we also need $x + y \leq 2$ I.e., $x \leq 2 - y$. For $y \leq 1$: $y \leq 2 - y$ So the constraint
 $x \leq y$ is tighter.
 
 For $0 \leq y \leq 1$: $y/2 \leq x \leq y$.
@@ -596,7 +596,7 @@ $$
 \mathbf{b} = T(x, y + \Delta y) - T(x, y) \approx \left(\frac{\partial u}{\partial y}\Delta y,\, \frac{\partial v}{\partial y}\Delta y\right)
 $$
 
-The area of this parallelogram is $\lvert \mathbf{a} \times \mathbf{b} \rvert$Which equals
+The area of this parallelogram is $\lvert \mathbf{a} \times \mathbf{b} \rvert$ Which equals
 
 $$
 \left\lvert \frac{\partial u}{\partial x}\frac{\partial v}{\partial y} - \frac{\partial u}{\partial y}\frac{\partial v}{\partial x} \right\rvert \Delta x\, \Delta y = \lvert J_T \rvert\, \Delta x\, \Delta y
@@ -658,7 +658,7 @@ $x^2 + y^2 + z^2 = 2$ and below by the paraboloid $z = x^2 + y^2$.
 <summary>Solution</summary>
 
 The surfaces intersect when $x^2 + y^2 + (x^2 + y^2)^2 = 2$. Let $r^2 = x^2 + y^2$. Then
-$r^2 + r^4 = 2$I.e., $(r^2 + 2)(r^2 - 1) = 0$ So $r = 1$ (positive root). Use Cylindrical
+$r^2 + r^4 = 2$ I.e., $(r^2 + 2)(r^2 - 1) = 0$ So $r = 1$ (positive root). Use Cylindrical
 coordinates. The region $E'$ is
 
 $$
@@ -748,7 +748,7 @@ $\int_0^1 \int_{x^2}^1 x e^{y^2}\, dy\, dx$.
 <details>
 <summary>Solution</summary>
 
-The region is $0 \leq x \leq 1$, $x^2 \leq y \leq 1$Which is the same as $0 \leq y \leq 1$
+The region is $0 \leq x \leq 1$, $x^2 \leq y \leq 1$ Which is the same as $0 \leq y \leq 1$
 $0 \leq x \leq \sqrt{y}$.
 
 $$
@@ -776,7 +776,7 @@ elementary Antiderivative with respect to $y$. Swapping the order was essential.
 
 :::caution
 - **Order of integration limits.** When setting up
-  $\int_a^b \int_{g_1(x)}^{g_2(x)} f\, dy\, dx$Verify that $g_1(x) \leq g_2(x)$ for all
+  $\int_a^b \int_{g_1(x)}^{g_2(x)} f\, dy\, dx$ Verify that $g_1(x) \leq g_2(x)$ for all
   $x \in [a, b]$. If the region is described as "between two curves," determine which curve is above
   the other.
 - **Forgetting the Jacobian.** In a change of variables, the Jacobian determinant $\lvert J \rvert$
@@ -803,10 +803,10 @@ scalar Potential $\phi$ such that $\mathbf{F} = \nabla \phi$.
 $\nabla \times \mathbf{F} = \mathbf{0}$.
 
 _Proof._ ($\Rightarrow$) If $\mathbf{F} = \nabla \phi$ with $\phi \in C^2$ Then by Clairaut's theorem
-$f_{xy} = f_{yx}$Etc., which directly gives $\nabla \times (\nabla \phi) = \mathbf{0}$.
+$f_{xy} = f_{yx}$ Etc., which directly gives $\nabla \times (\nabla \phi) = \mathbf{0}$.
 
 ($\Leftarrow$) If $\nabla \times \mathbf{F} = \mathbf{0}$ on a connected domain $D$ Then for any
-Closed curve $C$ in $D$Stokes' theorem gives
+Closed curve $C$ in $D$ Stokes' theorem gives
 $\oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = 0$.
 This means line integrals are path-independent, so we can define
 $\phi(\mathbf{x}) = \int_{\mathbf{x}_0}^{\mathbf{x}} \mathbf{F} \cdot d\mathbf{r}$ (independent of
@@ -900,7 +900,7 @@ $$
 
 _Proof (for a Type I region)._ Assume $D$ is a Type I region:
 $D = \\{(x,y) : a \leq x \leq b,\, g_1(x) \leq y \leq g_2(x)\\}$. The boundary $C$ consists of Four
-pieces: bottom $C_1$Right $C_2$Top $C_3$ And left $C_4$.
+pieces: bottom $C_1$ Right $C_2$ Top $C_3$ And left $C_4$.
 
 We first prove $\oint_C P\, dx = -\iint_D \frac{\partial P}{\partial y}\, dA$.
 
@@ -909,7 +909,7 @@ On $C_1$: $y = g_1(x)$, $x$ goes from $a$ to $b$ So $\int_{C_1} P\, dx = \int_a^
 On $C_3$: $y = g_2(x)$, $x$ goes from $b$ to $a$ So
 $\int_{C_3} P\, dx = \int_b^a P(x, g_2(x))\, dx = -\int_a^b P(x, g_2(x))\, dx$.
 
-On $C_2$ and $C_4$: $x$ is constant, so $dx = 0$Hence $\int_{C_2} P\, dx = \int_{C_4} P\, dx = 0$.
+On $C_2$ and $C_4$: $x$ is constant, so $dx = 0$ Hence $\int_{C_2} P\, dx = \int_{C_4} P\, dx = 0$.
 
 Therefore:
 
@@ -966,13 +966,13 @@ $$
 _Physical interpretation._ If $\mathbf{F}$ represents the velocity field of a fluid:
 
 - **Curl** $\nabla \times \mathbf{F}$ measures the local rotational tendency (vorticity) of the
-  fluid. At a point $\mathbf{p}$The component $(\nabla \times \mathbf{F}) \cdot \mathbf{n}$ gives
+  fluid. At a point $\mathbf{p}$ The component $(\nabla \times \mathbf{F}) \cdot \mathbf{n}$ gives
   twice the angular velocity of a small paddle wheel placed at $\mathbf{p}$ with axis along
   $\mathbf{n}$.
 
 - **Divergence** $\nabla \cdot \mathbf{F}$ measures the net rate of outward flux per unit volume at
-  a point. If $\nabla \cdot \mathbf{F} \gt 0$ at $\mathbf{p}$There is a net source at $\mathbf{p}$;
-  if $\nabla \cdot \mathbf{F} \lt 0$There is a net sink.
+  a point. If $\nabla \cdot \mathbf{F} \gt 0$ at $\mathbf{p}$ There is a net source at $\mathbf{p}$;
+  if $\nabla \cdot \mathbf{F} \lt 0$ There is a net sink.
 
 **Proposition 3.5.** For any $C^2$ vector field $\mathbf{F}$:
 
@@ -991,7 +991,7 @@ $$
 $$
 
 Each pair cancels by Clairaut:
-$\frac{\partial^2 R}{\partial x\,\partial y} = \frac{\partial^2 R}{\partial y\,\partial x}$Etc.
+$\frac{\partial^2 R}{\partial x\,\partial y} = \frac{\partial^2 R}{\partial y\,\partial x}$ Etc.
 $\blacksquare$
 
 ### 3.5 Stokes' Theorem
@@ -1022,7 +1022,7 @@ $$
 $$
 
 Expanding the partial derivatives and using the identity
-$\mathbf{r}_u \times \mathbf{r}_v = \mathbf{n}\, \lVert \mathbf{r}_u \times \mathbf{r}_v \rVert$One
+$\mathbf{r}_u \times \mathbf{r}_v = \mathbf{n}\, \lVert \mathbf{r}_u \times \mathbf{r}_v \rVert$ One
 Verifies that the integrand equals
 $(\nabla \times \mathbf{F}) \cdot \mathbf{n}\, \lVert \mathbf{r}_u \times \mathbf{r}_v \rVert$ Which
 gives $\iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S}$. $\blacksquare$
@@ -1054,7 +1054,7 @@ $$
 So $\nabla \times \mathbf{F} = (-x,\, -2x,\, z - 2y)$.
 
 Parametrise the triangle in the $xy$-plane: $0 \leq x \leq 1$, $0 \leq y \leq 1 - x$. On the plane
-$z = 1 - x - y$The surface element $dS = \sqrt{3}\, dx\, dy$.
+$z = 1 - x - y$ The surface element $dS = \sqrt{3}\, dx\, dy$.
 
 $$
 \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = \frac{1}{\sqrt{3}} \iint_S (-x - 2x + z - 2y)\, dS
@@ -1120,7 +1120,7 @@ On $S_3$: $\mathbf{k} \cdot \mathbf{n} = 0$ (the normal is horizontal), so
 $R\, \mathbf{k} \cdot d\mathbf{S} = 0$.
 
 Therefore
-$\iint_S R\, \mathbf{k} \cdot d\mathbf{S} = \iint_D [R(x,y,g_2) - R(x,y,g_1)]\, dA$Matching the
+$\iint_S R\, \mathbf{k} \cdot d\mathbf{S} = \iint_D [R(x,y,g_2) - R(x,y,g_1)]\, dA$ Matching the
 Volume integral. The $P$ and $Q$ components follow by an identical argument for Type II and Type III
 Regions. For general regions, decompose into finitely many regions of each type. $\blacksquare$
 
@@ -1234,7 +1234,7 @@ $$
 \frac{\partial \phi}{\partial z} = 2xz + y^2 + h'(z)
 $$
 
-This must equal $2xz + y^2$ So $h'(z) = 0$Giving $h(z) = C$.
+This must equal $2xz + y^2$ So $h'(z) = 0$ Giving $h(z) = C$.
 
 Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 
@@ -1337,19 +1337,19 @@ Where $H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{xy} & f_{yy} \end{pmatrix}$ is 
 By Sylvester's criterion for $2 \times 2$ symmetric matrices:
 
 - If $\det(H) = D \gt 0$ and $f_{xx} \gt 0$ Then $H$ is positive definite, so $Q \gt 0$ for all
-  $(h,k) \neq (0,0)$Giving a local minimum.
+  $(h,k) \neq (0,0)$ Giving a local minimum.
 - If $\det(H) = D \gt 0$ and $f_{xx} \lt 0$ Then $H$ is negative definite, so $Q \lt 0$ for all
-  $(h,k) \neq (0,0)$Giving a local maximum.
+  $(h,k) \neq (0,0)$ Giving a local maximum.
 - If $\det(H) = D \lt 0$ Then $H$ is indefinite, so $Q$ takes both positive and negative values,
   giving a saddle point.
 
-When $D = 0$The quadratic form is degenerate and the sign is determined by higher-order terms.
+When $D = 0$ The quadratic form is degenerate and the sign is determined by higher-order terms.
 $\blacksquare$
 
 ### 4.3 Lagrange Multipliers
 
 **Theorem 4.3 (Method of Lagrange Multipliers).** To find the extrema of $f(x,y,z)$ subject to the
-Constraint $g(x,y,z) = 0$Solve the system:
+Constraint $g(x,y,z) = 0$ Solve the system:
 
 $$
 \nabla f = \lambda \nabla g, \quad g = 0
@@ -1364,10 +1364,10 @@ $$
 _Proof (single constraint, geometric justification)._ Let $M = \\{(x,y,z) : g(x,y,z) = 0\\}$ be the
 constraint surface. If $f$ has a local extremum on $M$ at $\mathbf{p}$ Then the directional
 derivative $D_{\mathbf{v}} f(\mathbf{p}) = 0$ for every tangent Vector $\mathbf{v}$ to $M$ at
-$\mathbf{p}$. Since $\nabla f(\mathbf{p}) \cdot \mathbf{v} = 0$ for all Such $\mathbf{v}$The
+$\mathbf{p}$. Since $\nabla f(\mathbf{p}) \cdot \mathbf{v} = 0$ for all Such $\mathbf{v}$ The
 gradient $\nabla f(\mathbf{p})$ must be orthogonal to the tangent space of $M$ At $\mathbf{p}$. But
 the tangent space of $M$ is orthogonal to $\nabla g(\mathbf{p})$ (by the implicit Function theorem).
-Therefore $\nabla f(\mathbf{p})$ must be parallel to $\nabla g(\mathbf{p})$I.e.,
+Therefore $\nabla f(\mathbf{p})$ must be parallel to $\nabla g(\mathbf{p})$ I.e.,
 $\nabla f(\mathbf{p}) = \lambda\, \nabla g(\mathbf{p})$ for some scalar $\lambda$. $\blacksquare$
 
 ### 4.4 Worked Example
@@ -1412,7 +1412,7 @@ $$
 x^3 = y, \quad y^3 = x
 $$
 
-Substituting $y = x^3$ into $y^3 = x$: $(x^3)^3 = x$I.e., $x^9 = x$Giving $x(x^8 - 1) = 0$. So
+Substituting $y = x^3$ into $y^3 = x$: $(x^3)^3 = x$ I.e., $x^9 = x$ Giving $x(x^8 - 1) = 0$. So
 $x = 0$ or $x = \pm 1$.
 
 - $x = 0$: $y = 0$. Critical point: $(0, 0)$.
@@ -1448,7 +1448,7 @@ $$
 3x^2 - 3y = 0 \implies y = x^2, \quad 3y^2 - 3x = 0 \implies y^2 = x
 $$
 
-Substituting: $(x^2)^2 = x$ So $x^4 - x = 0$Giving $x(x^3 - 1) = 0$ So $x = 0$ or $x = 1$.
+Substituting: $(x^2)^2 = x$ So $x^4 - x = 0$ Giving $x(x^3 - 1) = 0$ So $x = 0$ or $x = 1$.
 
 - $x = 0$: $y = 0$. Critical point: $(0, 0)$.
 - $x = 1$: $y = 1$. Critical point: $(1, 1)$.
@@ -1509,7 +1509,7 @@ $$
 yz = \lambda_1 + 2\lambda_2 x, \quad xz = \lambda_1 + 2\lambda_2 y, \quad xy = \lambda_1 + 2\lambda_2 z
 $$
 
-Subtracting the first two: $z(y - x) = 2\lambda_2(x - y)$Giving $(y - x)(z + 2\lambda_2) = 0$.
+Subtracting the first two: $z(y - x) = 2\lambda_2(x - y)$ Giving $(y - x)(z + 2\lambda_2) = 0$.
 
 Similarly, $(z - y)(x + 2\lambda_2) = 0$ and $(x - z)(y + 2\lambda_2) = 0$.
 
@@ -1521,10 +1521,10 @@ At $(1/3, 1/3, 1/3)$: $f = 1/27$.
 If $x \neq y$: Then $z + 2\lambda_2 = 0$. If also $y \neq z$: $x + 2\lambda_2 = 0$ So $x = z$.
 
 With $x = z$: from $x + y + z = 1$: $2x + y = 1$. From $2x^2 + y^2 = 1/3$: Substituting
-$y = 1 - 2x$: $6x^2 - 4x + 2/3 = 0$I.e., $(3x - 1)^2 = 0$ So $x = 1/3$ $y = 1/3$. This reduces to the
+$y = 1 - 2x$: $6x^2 - 4x + 2/3 = 0$ I.e., $(3x - 1)^2 = 0$ So $x = 1/3$ $y = 1/3$. This reduces to the
 symmetric case.
 
-Therefore the only critical point is $(1/3, 1/3, 1/3)$Which gives $f = 1/27$.
+Therefore the only critical point is $(1/3, 1/3, 1/3)$ Which gives $f = 1/27$.
 
 Since the constraint set is compact (intersection of a plane and a sphere in $\mathbb{R}^3$), the
 Extreme value theorem guarantees both a maximum and minimum exist. The maximum of $xyz$ is $1/27$ at
@@ -1541,7 +1541,7 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
   determine which gives the max/min.
 - **Boundary vs. Interior.** For unconstrained problems on a closed, bounded domain, check both
   interior critical points and boundary points separately.
-- **Degenerate Hessian.** When the Hessian determinant $D = 0$The second derivative test is
+- **Degenerate Hessian.** When the Hessian determinant $D = 0$ The second derivative test is
   inconclusive. Use higher-order Taylor expansions or direct analysis of the function near the
   critical point.
 - **Non-normalised constraint gradients.** Ensure the constraint functions are written in the form
@@ -1567,7 +1567,7 @@ $\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$ And reparametrising by arc length
 curve: $\lVert \frac{d\mathbf{r}}{ds} \rVert = 1$.
 
 _Proof._ By the Fundamental Theorem of Calculus, $\frac{ds}{dt} = \lVert \mathbf{r}'(t) \rVert$. If
-we reparametrise by $s$I.e., write $\mathbf{r}(s) = \mathbf{r}(t(s))$ Then by the chain rule
+we reparametrise by $s$ I.e., write $\mathbf{r}(s) = \mathbf{r}(t(s))$ Then by the chain rule
 $\frac{d\mathbf{r}}{ds} = \mathbf{r}'(t) \cdot \frac{dt}{ds}$ So
 $\lVert \frac{d\mathbf{r}}{ds} \rVert = \lVert \mathbf{r}'(t) \rVert \cdot \left\lvert \frac{dt}{ds} \right\rvert = 1$.
 $\blacksquare$
@@ -1645,7 +1645,7 @@ Similarly, $\mathbf{B} = \mathbf{T} \times \mathbf{N}$ is a unit vector, so
 $\mathbf{B}' \cdot \mathbf{B} = 0$. Also $\mathbf{B} \cdot \mathbf{T} = 0$ So
 $\mathbf{B}' \cdot \mathbf{T} + \mathbf{B} \cdot \mathbf{T}' = 0$ Giving
 $\mathbf{B}' \cdot \mathbf{T} = -\mathbf{B} \cdot \kappa\,\mathbf{N} = 0$. So $\mathbf{B}'$ is
-Parallel to $\mathbf{N}$Giving $\mathbf{B}' = -\tau\,\mathbf{N}$.
+Parallel to $\mathbf{N}$ Giving $\mathbf{B}' = -\tau\,\mathbf{N}$.
 
 For $\mathbf{N}'$: since $\{\mathbf{T}, \mathbf{N}, \mathbf{B}\}$ is an orthonormal basis,
 $\mathbf{N}' = (\mathbf{N}' \cdot \mathbf{T})\,\mathbf{T} + (\mathbf{N}' \cdot \mathbf{N})\,\mathbf{N} + (\mathbf{N}' \cdot \mathbf{B})\,\mathbf{B}$.
@@ -1736,7 +1736,7 @@ $$
 - **Cylinder:** $\mathbf{r}(\theta, z) = (r\cos\theta,\, r\sin\theta,\, z)$
 - **Graph of $z = f(x,y)$:** $\mathbf{r}(x, y) = (x,\, y,\, f(x,y))$
 
-For the graph $z = f(x,y)$The normal is
+For the graph $z = f(x,y)$ The normal is
 $\mathbf{n} = \frac{(-f_x,\, -f_y,\, 1)}{\sqrt{1 + f_x^2 + f_y^2}}$.
 
 ### 5.4 Surface Area
@@ -1749,7 +1749,7 @@ $$
 
 _Derivation._ Partition $D$ into small rectangles $D_{ij}$ of area $\Delta u\, \Delta v$. The image
 $\mathbf{r}(D_{ij})$ is approximately a parallelogram spanned by $\mathbf{r}_u\, \Delta u$ and
-$\mathbf{r}_v\, \Delta v$With area
+$\mathbf{r}_v\, \Delta v$ With area
 $\lVert \mathbf{r}_u \times \mathbf{r}_v \rVert\, \Delta u\, \Delta v$. Summing and taking the limit
 gives the formula. $\blacksquare$
 
@@ -1812,7 +1812,7 @@ Where the orientation is determined by the choice of normal $\mathbf{r}_u \times
 $\mathbf{r}_v \times \mathbf{r}_u$.
 
 **Problem.** Evaluate $\iint_S \mathbf{F} \cdot d\mathbf{S}$ where $\mathbf{F} = (x,\, y,\, z^2)$
-and $S$ is the hemisphere $x^2 + y^2 + z^2 = 4$, $z \geq 0$With Upward orientation.
+and $S$ is the hemisphere $x^2 + y^2 + z^2 = 4$, $z \geq 0$ With Upward orientation.
 
 <details>
 <summary>Solution</summary>
@@ -1934,8 +1934,8 @@ The only critical point is $(0, 0)$. Now $f_{xx} = 6x$, $f_{yy} = -6x + 6y$, $f_
 
 At $(0,0)$: $D = 0 \cdot 0 - 0 = 0$. The second derivative test is inconclusive.
 
-To classify, note $f(x, y) = x^3 - 3xy^2 + y^3$. Along $y = 0$: $f(x, 0) = x^3$Which changes sign At
-$0$. Along $x = y$: $f(x, x) = -x^3$Which also changes sign but with opposite sign. Since the
+To classify, note $f(x, y) = x^3 - 3xy^2 + y^3$. Along $y = 0$: $f(x, 0) = x^3$ Which changes sign At
+$0$. Along $x = y$: $f(x, x) = -x^3$ Which also changes sign but with opposite sign. Since the
 behaviour differs by direction, $(0, 0)$ is a saddle point.
 
 If you get this wrong, revise: Section 4.2 Second Derivative Test.
@@ -1966,7 +1966,7 @@ If you get this wrong, revise: Section 1.5 Directional Derivatives.
 
 ### Problem 4
 
-If $x^2 z + y^2 z^2 = 5$Find $\frac{\partial z}{\partial x}$ at $(1, 1, 1)$.
+If $x^2 z + y^2 z^2 = 5$ Find $\frac{\partial z}{\partial x}$ at $(1, 1, 1)$.
 
 <details>
 <summary>Solution</summary>
@@ -2012,7 +2012,7 @@ Evaluate $\iint_D (x + y)\, dA$ where $D$ is bounded by $y = x$ and $y = x^2$.
 <details>
 <summary>Solution</summary>
 
-The curves intersect when $x = x^2$I.e., $x(x-1) = 0$ So $x = 0$ and $x = 1$. For $x \in (0,1)$
+The curves intersect when $x = x^2$ I.e., $x(x-1) = 0$ So $x = 0$ and $x = 1$. For $x \in (0,1)$
 $x^2 \lt x$ So $D = \\{(x,y) : 0 \leq x \leq 1,\, x^2 \leq y \leq x\\}$.
 
 $$
@@ -2386,7 +2386,7 @@ $z = 1$.
 <summary>Solution</summary>
 
 Use spherical coordinates. The sphere has $\rho = 2$. The plane $z = 1$ intersects when
-$2\cos\phi = 1$ So $\cos\phi = 1/2$Giving $\phi = \pi/3$.
+$2\cos\phi = 1$ So $\cos\phi = 1/2$ Giving $\phi = \pi/3$.
 
 The region: $0 \leq \rho \leq 2$, $0 \leq \phi \leq \pi/3$, $0 \leq \theta \leq 2\pi$.
 
@@ -2412,7 +2412,7 @@ $\int_C \mathbf{F} \cdot d\mathbf{r}$ where $C$ is any path from $(0, 0)$ to $(1
 
 Check: $\frac{\partial P}{\partial y} = e^{xy} + xye^{xy}$,
 $\frac{\partial Q}{\partial x} = e^{xy} + xye^{xy}$. These are equal, so $\mathbf{F}$ is
-conservative (on $\mathbb{R}^2$Which is connected).
+conservative (on $\mathbb{R}^2$ Which is connected).
 
 Find $\phi$:
 

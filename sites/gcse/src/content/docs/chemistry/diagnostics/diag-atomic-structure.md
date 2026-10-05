@@ -151,11 +151,11 @@ negatively charged ion (anion).
 
 (b)
 
-- **$\text{O}^{2-}$**: Oxygen ($Z = 8$, configuration $2, 6$) gains 2 electrons to achieve a full
+- **$\text{O}^{2-}$**: Oxygen ($ Z = 8$, configuration $2, 6$) gains 2 electrons to achieve a full
   outer shell. Configuration becomes $2, 8$.
-- **$\text{Mg}^{2+}$**: Magnesium ($Z = 12$, configuration $2, 8, 2$) loses its 2 outer electrons.
+- **$\text{Mg}^{2+}$**: Magnesium ($ Z = 12$, configuration $2, 8, 2$) loses its 2 outer electrons.
   Configuration becomes $2, 8$.
-- **$\text{Al}^{3+}$**: Aluminium ($Z = 13$, configuration $2, 8, 3$) loses its 3 outer electrons.
+- **$\text{Al}^{3+}$**: Aluminium ($ Z = 13$, configuration $2, 8, 3$) loses its 3 outer electrons.
   Configuration becomes $2, 8$.
 
 (c) The relative atomic mass is calculated using the weighted average:
@@ -202,7 +202,7 @@ the metal might be and explain your reasoning.
 **Solution:**
 
 (a) Sodium ($Z = 11$) has the electron configuration $2, 8, 1$ and loses its single outer electron
-very efficiently to form $\text{Na}^+$. Magnesium ($Z = 12$) has the configuration $2, 8, 2$ and must
+very efficiently to form $\text{Na}^+$. Magnesium ($ Z = 12$) has the configuration $2, 8, 2$ and must
 lose two electrons to form $\text{Mg}^{2+}$. Losing two electrons requires more energy than losing
 one. Additionally, sodium has a larger atomic radius than magnesium (it is in Period 3 vs Period 3
 but Group 1 vs Group 2), meaning its outer electron is further from the nucleus and less strongly
@@ -251,7 +251,7 @@ an ion.
 (b) The relative atomic mass of boron is 10.8. Boron has two isotopes: boron-10 and boron-11.
 Calculate the percentage abundance of each isotope. Show your working.
 
-(c) Explain how the discovery of isotopes modified Dalton"s atomic theory. State which of Dalton's
+(c) Explain how the discovery of isotopes modified Dalton's atomic theory. State which of Dalton's
 original postulates needed to be changed.
 
 (d) A scientist determines that an element has an $A_r$ of 28.1. Which element is this likely to be?

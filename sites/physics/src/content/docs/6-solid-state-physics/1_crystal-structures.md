@@ -98,7 +98,7 @@ $$
 \rho = \frac{nM}{N_A V_{\mathrm{cell}}}
 $$
 
-Where $n$ is the number of formula units per cell, $M$ is the molar mass, $N_A$ is Avogadro"s
+Where $n$ is the number of formula units per cell, $M$ is the molar mass, $N_A$ is Avogadro's
 Number, and $V_{\mathrm{cell}}$ is the cell volume.
 
 <details>
@@ -144,7 +144,7 @@ This matches the accepted experimental density of iron ($7.87\ \mathrm{g}/cm^3$)
 <details>
 <summary>Worked Example: HCP Packing Fraction</summary>
 
-For HCP with ideal $c/a = \sqrt{8/3}$Lattice constant $a$ And atomic radius $R = a/2$:
+For HCP with ideal $c/a = \sqrt{8/3}$ Lattice constant $a$ And atomic radius $R = a/2$:
 
 Two atoms per primitive cell. The cell volume is
 $V_{\mathrm{cell} = \frac{\sqrt{3}}{2}a^2 \cdot c = \frac{\sqrt{3}}{2}a^2 \cdot a\sqrt{8/3} = \sqrt{2}\,a^3}$.
@@ -225,7 +225,7 @@ number of atoms in the unit Cell. For FCC, the coordination number is 12 even th
 <details>
 <summary>Worked Example: Interplanar Spacing for SC, BCC, FCC</summary>
 
-For a cubic crystal with lattice constant $a$The interplanar spacing for $(hkl)$ is:
+For a cubic crystal with lattice constant $a$ The interplanar spacing for $(hkl)$ is:
 
 $$
 d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}}

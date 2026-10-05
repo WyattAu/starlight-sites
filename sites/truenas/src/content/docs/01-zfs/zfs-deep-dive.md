@@ -312,7 +312,7 @@ zfs promote tank/data-restore
 
 ### ARC (Adaptive Replacement Cache)
 
-The ARC is ZFS"s primary read cache, stored in system RAM. It uses the Adaptive Replacement Cache
+The ARC is ZFS's primary read cache, stored in system RAM. It uses the Adaptive Replacement Cache
 Algorithm, which maintains two lists:
 
 - **MRU (Most Recently Used):** Recently accessed data.

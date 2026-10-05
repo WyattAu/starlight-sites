@@ -134,7 +134,7 @@ to the left, dramatically increasing the fraction of molecules that can react.
 
 ## Rate Equations
 
-For a reaction $a\mathrm{A} + b\mathrm{B} \to \mathrm{products}$The **rate equation** has the form:
+For a reaction $a\mathrm{A} + b\mathrm{B} \to \mathrm{products}$ The **rate equation** has the form:
 
 $$
 \mathrm{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n
@@ -354,7 +354,7 @@ equation $\mathrm{Rate} = k[\mathrm{NO}_2]^2$. The proposed mechanism is:
 
 **Step 2 (fast):** $\mathrm{NO}_3 + \mathrm{CO} \to \mathrm{NO}_2 + \mathrm{CO}_2$
 
-The rate equation depends on the RDS (Step 1): $\mathrm{Rate} = k_1[\mathrm{NO}_2]^2$Consistent with
+The rate equation depends on the RDS (Step 1): $\mathrm{Rate} = k_1[\mathrm{NO}_2]^2$ Consistent with
 the experimental rate equation. Note that $\mathrm{CO}$ does not appear in the rate equation because
 it is not involved in the RDS.
 
@@ -422,7 +422,7 @@ $$
 $$
 
 This leads (after simplification) to a rate equation of the form
-$\mathrm{Rate} = k_\mathrm{eff}[\mathrm{N}_2\mathrm{O}_5]$Showing that the reaction is
+$\mathrm{Rate} = k_\mathrm{eff}[\mathrm{N}_2\mathrm{O}_5]$ Showing that the reaction is
 experimentally first-order, consistent with observation. The key insight is that the intermediate
 $\mathrm{NO}_3$ is consumed as fast as it is formed.
 
@@ -530,7 +530,7 @@ The catalyst increases the rate by a factor of approximately 24,000 at room temp
 
 8. **Confusing zero-order and first-order half-life behaviour.** For a first-order reaction,
    $t_{1/2}$ is constant (independent of $[\mathrm{A}]_0$). For a zero-order reaction,
-   $t_{1/2} = [\mathrm{A}]_0 / (2k)$Which depends on the initial concentration. This is a key
+   $t_{1/2} = [\mathrm{A}]_0 / (2k)$ Which depends on the initial concentration. This is a key
    experimental distinction.
 
 9. **Using the wrong rate expression for gas-phase reactions.** For gas reactions, rate can be
@@ -723,7 +723,7 @@ Step 1 (slow, RDS): $\mathrm{A} + \mathrm{B} \to \mathrm{X}$ (intermediate)
 
 Step 2 (fast): $\mathrm{X} + \mathrm{B} \to \mathrm{C}$
 
-Rate equation: $\mathrm{Rate} = k_1[\mathrm{A}][\mathrm{B}]$Which matches.
+Rate equation: $\mathrm{Rate} = k_1[\mathrm{A}][\mathrm{B}]$ Which matches.
 
 </details>
 
@@ -904,7 +904,7 @@ $$
 \text{Rate} = k[\mathrm{N}_2\mathrm{O}_5]
 $$
 
-This is first-order with respect to $\mathrm{N}_2\mathrm{O}_5$Consistent with experimental
+This is first-order with respect to $\mathrm{N}_2\mathrm{O}_5$ Consistent with experimental
 observation.
 
 ### Catalysis in Detail
@@ -962,7 +962,7 @@ $$
 
 **Worked Example:** A reaction has $E_a = 75\,\mathrm{kJ/mol}$ without a catalyst and
 $E_a = 50\,\mathrm{kJ/mol}$ with a catalyst. Calculate the ratio of rate constants at
-$298\,\mathrm{K}$Assuming the pre-exponential factor $A$ is unchanged.
+$298\,\mathrm{K}$ Assuming the pre-exponential factor $A$ is unchanged.
 
 $$
 \frac{k_\text{cat}}{k_\text{uncat}} = \frac{Ae^{-E_{a,\text{cat}}/RT}}{Ae^{-E_{a,\text{uncat}}/RT}} = e^{(E_{a,\text{uncat}} - E_{a,\text{cat}})/RT}

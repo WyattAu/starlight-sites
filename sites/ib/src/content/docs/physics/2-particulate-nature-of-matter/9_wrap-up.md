@@ -41,7 +41,7 @@ categories:
 - The plate reflects 10%, so it absorbs 90%. Power absorbed:
   $P_{\mathrm{in}} = (\mathrm{Intensity}) \times (\mathrm{Area}) \times (\mathrm{Absorptivity}) = 800 \times 0.20 \times 0.90 = 144$
   W.
-- Power radiated (out): $P_{\mathrm{out}} = e \sigma A T^4$Where $e=0.90$.
+- Power radiated (out): $P_{\mathrm{out}} = e \sigma A T^4$ Where $e=0.90$.
 - In equilibrium,
   $P_{\mathrm{in}} = P_{\mathrm{out}} \implies 144 = (0.90)(5.67\times 10^{-8})(0.20)T^4$.
 - $T^4 = \frac{144}{1.02\times 10^{-8}} = 1.41 \times 10^{10}$ K⁴ $\implies T = 344.6$ K (or
@@ -275,7 +275,7 @@ $$
 F_b = \rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g
 $$
 
-An object floats when $F_b = mg$I.e., when:
+An object floats when $F_b = mg$ I.e., when:
 
 $$
 \rho_{\mathrm{fluid}} \cdot V_{\mathrm{submerged}} \cdot g = \rho_{\mathrm{object}} \cdot V_{\mathrm{object}} \cdot g
@@ -299,7 +299,7 @@ Water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
 
 > **Exam Tip:** A common IB question asks whether an object will float or sink. Compare the average
 > density of the object to the density of the fluid. If
-> $\rho_{\mathrm{object}} \lt \rho_{\mathrm{fluid}}$It floats.
+> $\rho_{\mathrm{object}} \lt \rho_{\mathrm{fluid}}$ It floats.
 
 ---
 

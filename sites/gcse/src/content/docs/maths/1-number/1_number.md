@@ -64,7 +64,7 @@ Coprime. Therefore $\sqrt{2}$ is irrational. $\blacksquare$
 **Theorem.** $\sqrt{3}$ is irrational.
 
 **Proof.** Suppose $\sqrt{3} = \frac{p}{q}$ in lowest terms. Then $p^2 = 3q^2$ So $3 \mid p^2$ Hence
-$3 \mid p$ (since 3 is prime). Write $p = 3k$: $9k^2 = 3q^2$ So $q^2 = 3k^2$Giving $3 \mid q$. This
+$3 \mid p$ (since 3 is prime). Write $p = 3k$: $9k^2 = 3q^2$ So $q^2 = 3k^2$ Giving $3 \mid q$. This
 contradicts coprimality. $\blacksquare$
 
 This technique generalises: for any prime $p$, $\sqrt{p}$ is irrational. The proof structure is
@@ -123,7 +123,7 @@ Prime factor not in the list (also a contradiction). $\blacksquare$
 
 ### 1.3 Highest Common Factor and Lowest Common Multiple
 
-Given two integers $a$ and $b$Their **highest common factor** (HCF) is the largest integer that
+Given two integers $a$ and $b$ Their **highest common factor** (HCF) is the largest integer that
 Divides both $a$ and $b$. Their **lowest common multiple** (LCM) is the smallest positive integer
 That is a multiple of both.
 
@@ -190,9 +190,9 @@ $\sqrt{n}$. If none divide $n$ Then $n$ is prime.
 $\sqrt{211} \approx 14.5$ So we check primes up to $13$: 2, 3, 5, 7, 11, 13.
 
 - Not divisible by 2 (odd), 3 (digit sum $= 4$), or 5 (does not end in 0 or 5).
-- $211 = 30 \times 7 + 1$Not divisible by 7.
-- $211 = 19 \times 11 + 2$Not divisible by 11.
-- $211 = 16 \times 13 + 3$Not divisible by 13.
+- $211 = 30 \times 7 + 1$ Not divisible by 7.
+- $211 = 19 \times 11 + 2$ Not divisible by 11.
+- $211 = 16 \times 13 + 3$ Not divisible by 13.
 
 Therefore $211$ is prime.
 
@@ -244,7 +244,7 @@ $$
 
 Subtracting: $99x = 36$ So $x = \frac{36}{99} = \frac{4}{11}$.
 
-**General rule:** If the repeating block has $n$ digits, multiply by $10^n$Subtract the original,
+**General rule:** If the repeating block has $n$ digits, multiply by $10^n$ Subtract the original,
 And simplify.
 
 **Worked Example (Higher Tier).** Convert $0.1\dot{6}\dot{3}$ to a fraction.
@@ -265,7 +265,7 @@ $$
 999x = 163 \implies x = \frac{163}{999}
 $$
 
-Check: $\gcd(163, 999)$. Since $163$ is prime and $999 = 3^3 \times 37$They are coprime. So
+Check: $\gcd(163, 999)$. Since $163$ is prime and $999 = 3^3 \times 37$ They are coprime. So
 $x = \frac{163}{999}$.
 
 **Worked Example.** Convert $0.4\dot{7}$ to a fraction.
@@ -308,13 +308,13 @@ $$
 \left(1 + \frac{P}{100}\right)\left(1 - \frac{P}{100}\right) = 1 - \frac{P^2}{10000}
 $$
 
-This is always less than 1 for $P \neq 0$Confirming a net decrease of $\frac{P^2}{100}\%$.
+This is always less than 1 for $P \neq 0$ Confirming a net decrease of $\frac{P^2}{100}\%$.
 $\blacksquare$
 
 **Worked Example (Higher Tier).** A quantity increases by 20% one year and decreases by 20% the
 Next. What is the overall percentage change?
 
-Combined factor: $1.2 \times 0.8 = 0.96$A net decrease of 4%.
+Combined factor: $1.2 \times 0.8 = 0.96$ A net decrease of 4%.
 
 By the theorem: $\frac{20^2}{100} = 4\%$ decrease. $\checkmark$
 
@@ -364,7 +364,7 @@ We need $18000 \times 0.88^n \lt 8000$ So $0.88^n \lt \frac{8000}{18000} = \frac
 
 Taking logarithms: $n \ln 0.88 \lt \ln\!\left(\frac{4}{9}\right)$.
 
-Since $\ln 0.88 \lt 0$The inequality reverses:
+Since $\ln 0.88 \lt 0$ The inequality reverses:
 $n \gt \frac{\ln(4/9)}{\ln 0.88} = \frac{-0.811}{-0.128} \approx 6.33$.
 
 So after 7 years the value first falls below 8000 pounds.
@@ -462,7 +462,7 @@ $$
 Irrational, then $a = d$ and $b = e$.
 
 **Proof.** If $a + b\sqrt{c} = d + e\sqrt{c}$ Then $(a - d) = (e - b)\sqrt{c}$. If $e \neq b$ Then
-$\sqrt{c} = \frac{a - d}{e - b} \in \mathbb{Q}$Contradicting the irrationality of $\sqrt{c}$.
+$\sqrt{c} = \frac{a - d}{e - b} \in \mathbb{Q}$ Contradicting the irrationality of $\sqrt{c}$.
 Therefore $e = b$ and hence $a = d$. $\blacksquare$
 
 This theorem is used frequently in solving equations involving surds.
@@ -472,7 +472,7 @@ This theorem is used frequently in solving equations involving surds.
 A number in **standard form** is written as $a \times 10^n$ where $1 \leq a \lt 10$ and $n$ is an
 Integer.
 
-**Worked Example.** Calculate $\frac{4.5 \times 10^8}{3 \times 10^{-2}}$Giving your answer in
+**Worked Example.** Calculate $\frac{4.5 \times 10^8}{3 \times 10^{-2}}$ Giving your answer in
 Standard form.
 
 $$
@@ -522,7 +522,7 @@ Bounds for width: $5.15 \leq w \lt 5.20$
 Positive quantities).
 :::
 
-**Worked Example (Higher Tier).** $x = 6.3$ and $y = 2.7$Both correct to 1 decimal place. Find the
+**Worked Example (Higher Tier).** $x = 6.3$ and $y = 2.7$ Both correct to 1 decimal place. Find the
 Lower bound of $\frac{x}{y}$.
 
 Lower bound of
@@ -697,18 +697,18 @@ Exam work.
 
 ### 7.2 Triangular and Other Sequences
 
-**Triangular numbers:** $T_n = \frac{n(n+1)}{2}$Giving the sequence $1, 3, 6, 10, 15, 21, \ldots$
+**Triangular numbers:** $T_n = \frac{n(n+1)}{2}$ Giving the sequence $1, 3, 6, 10, 15, 21, \ldots$
 
 These represent the number of dots that can form an equilateral triangle with $n$ dots on each side.
 
-**Square numbers:** $S_n = n^2$Giving $1, 4, 9, 16, 25, \ldots$
+**Square numbers:** $S_n = n^2$ Giving $1, 4, 9, 16, 25, \ldots$
 
-**Cube numbers:** $C_n = n^3$Giving $1, 8, 27, 64, 125, \ldots$
+**Cube numbers:** $C_n = n^3$ Giving $1, 8, 27, 64, 125, \ldots$
 
 **Proposition.** Every square number is either a multiple of 4 or one more than a multiple of 4.
 
-**Proof.** If $n$ is even, $n = 2k$ and $n^2 = 4k^2$A multiple of 4. If $n$ is odd, $n = 2k + 1$ And
-$n^2 = 4k^2 + 4k + 1 = 4(k^2 + k) + 1$One more than a multiple of 4. $\blacksquare$
+**Proof.** If $n$ is even, $n = 2k$ and $n^2 = 4k^2$ A multiple of 4. If $n$ is odd, $n = 2k + 1$ And
+$n^2 = 4k^2 + 4k + 1 = 4(k^2 + k) + 1$ One more than a multiple of 4. $\blacksquare$
 
 ### 7.3 Rules of Divisibility
 
@@ -757,7 +757,7 @@ List all possible cases and verify each one.
 
 **Example.** Prove that every prime greater than 3 is of the form $6n \pm 1$ for some integer $n$.
 
-Every integer is of the form $6n$, $6n+1$, $6n+2$, $6n+3$, $6n+4$Or $6n+5$.
+Every integer is of the form $6n$, $6n+1$, $6n+2$, $6n+3$, $6n+4$ Or $6n+5$.
 
 - $6n$: divisible by 6 (not prime for $n \geq 1$)
 - $6n + 2 = 2(3n + 1)$: even (not prime)
@@ -807,11 +807,11 @@ Since $k + 1$ is an integer, this is a multiple of 8. $\blacksquare$
 - **Incorrect bounds for subtraction and division.** For positive quantities, the upper bound of
   $a - b$ is upper$(a)$ - lower$(b)$Not upper$(a)$ - upper$(b)$.
 - **Forgetting that $a^0 = 1$ for any $a \neq 0$.** This is a definition, not a pattern.
-- **Mishandling negative indices.** $a^{-n} = \frac{1}{a^n}$Not $-a^n$.
-- **Rationalising denominators incorrectly.** When the denominator is $a + \sqrt{b}$Multiply by
-  $a - \sqrt{b}$Not by $\sqrt{a} - \sqrt{b}$.
+- **Mishandling negative indices.** $a^{-n} = \frac{1}{a^n}$ Not $-a^n$.
+- **Rationalising denominators incorrectly.** When the denominator is $a + \sqrt{b}$ Multiply by
+  $a - \sqrt{b}$ Not by $\sqrt{a} - \sqrt{b}$.
 - **Assuming compound percentage changes cancel.** A 20% increase followed by a 20% decrease gives
-  $1.2 \times 0.8 = 0.96$A net decrease of 4%.
+  $1.2 \times 0.8 = 0.96$ A net decrease of 4%.
 - **Truncation vs rounding.** Truncation discards digits; rounding considers the next digit.
 - **Using the wrong bound for division.** To maximise $\frac{a}{b}$ (positive), maximise the
   numerator and minimise the denominator.
@@ -828,7 +828,7 @@ Since $k + 1$ is an integer, this is a multiple of 8. $\blacksquare$
 4. A car depreciates at 12% per year. If it was bought for 18000 pounds, find its value after 4
    years to the nearest pound.
 
-5. $a = 6.3$ and $b = 2.7$Both correct to 1 decimal place. Find the lower bound of $\frac{a}{b}$.
+5. $a = 6.3$ and $b = 2.7$ Both correct to 1 decimal place. Find the lower bound of $\frac{a}{b}$.
 
 6. $y$ is directly proportional to the cube of $x$. When $x = 2$, $y = 40$. Find $x$ when
    $y = 1080$.

@@ -75,8 +75,8 @@ $\blacksquare$
 | -------- | ------------ | ------------------------------ |
 | R$^-$    | Nucleophile  | Grignard (RMgBr), organolithium |
 | R$^+$    | Electrophile | Alkyl halide (R–X)             |
-| $^-$CH(OH)R | Nucleophile | Aldehyde (RCHO)               |
-| $^+$CHO  | Electrophile | Formyl cation equiv. (DMF, etc.) |
+| $^-$ CH(OH)R | Nucleophile | Aldehyde (RCHO)               |
+| $^+$ CHO  | Electrophile | Formyl cation equiv. (DMF, etc.) |
 | Ac$^-$   | Nucleophile  | Malonate ester, acetylide       |
 | Ac$^+$   | Electrophile | Acid chloride, acyl anhydride   |
 
@@ -172,7 +172,7 @@ its participation in a reaction, removable under conditions that do not affect o
 
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
-| Boc (t-butyloxycarbonyl) | (Boc)$_2$O, base | TFA or HCl        |
+| Boc (t-butyloxycarbonyl) | (Boc)$_2$ O, base | TFA or HCl        |
 | Cbz                 | Cbz-Cl, base        | H$_2$/Pd-C          |
 | Fmoc                | Fmoc-Cl, base       | Piperidine         |
 
@@ -181,7 +181,7 @@ its participation in a reaction, removable under conditions that do not affect o
 | Protecting Group    | Introduction        | Removal            |
 | ------------------- | ------------------- | ------------------ |
 | Methyl ester        | CH$_2$N$_2$ or MeOH/H$^+$ | LiOH or NaOH   |
-| t-Butyl ester       | (t-Bu)$_2$O or t-BuOH/DCC | TFA             |
+| t-Butyl ester       | (t-Bu)$_2$ O or t-BuOH/DCC | TFA             |
 | Benzyl ester        | BnBr, K$_2$CO$_3$   | H$_2$/Pd-C          |
 
 ## 4. Carbon-Carbon Bond Forming Reactions
@@ -204,7 +204,7 @@ $$
 | CO$_2$             | Carboxylic acid    |
 
 **Limitations:** Grignard reagents are strong bases, incompatible with acidic protons (OH, NH,
-$\equiv$CH). They also react with epoxides (ring opening).
+$\equiv$ CH). They also react with epoxides (ring opening).
 
 ### 4.2 Wittig Reaction
 

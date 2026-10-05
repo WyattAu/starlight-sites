@@ -55,7 +55,7 @@ the surface. Show that the object undergoes SHM and calculate the period.
 
 **Solution:**
 
-(a) For a uniform sphere of density $\rho$The mass enclosed within radius $r$ is:
+(a) For a uniform sphere of density $\rho$ The mass enclosed within radius $r$ is:
 
 $$
 M_{\text{enc}} = \frac{4}{3}\pi r^3 \rho = M\frac{r^3}{R^3}
@@ -105,7 +105,7 @@ $$
 = 2\pi \times 809.4 = 5087\,\text{s} \approx 84.8\,\text{minutes}
 $$
 
-Note: this period is independent of the tunnel direction (it only depends on $R^3/GM$Not on the
+Note: this period is independent of the tunnel direction (it only depends on $R^3/GM$ Not on the
 chord chosen). It equals the period of a low-altitude circular orbit.
 
 ---
@@ -145,7 +145,7 @@ $$
 
 The zero of potential is defined at infinity (where the gravitational field is zero). Since work
 must be done against gravity to move a mass from distance $r$ to infinity, the potential at $r$ must
-be lower than at infinity. Since $V(\infty) = 0$ and $V(r) \lt V(\infty)$The potential is negative
+be lower than at infinity. Since $V(\infty) = 0$ and $V(r) \lt V(\infty)$ The potential is negative
 at all finite distances.
 
 The potential is a scalar quantity (unlike field strength, which is a vector). It represents the
@@ -487,7 +487,7 @@ $$
 = -5.00 \times 10^9 - 4.35 \times 10^8 = -5.44 \times 10^9\,\text{J}
 $$
 
-The probe needs to go from PE $= -1.60 \times 10^9\,\text{J}$ to PE $= -5.44 \times 10^9\,\text{J}$A
+The probe needs to go from PE $= -1.60 \times 10^9\,\text{J}$ to PE $= -5.44 \times 10^9\,\text{J}$ A
 decrease of $3.84 \times 10^9\,\text{J}$.
 
 Since PE decreases (becomes more negative), the probe gains KE. It needs zero initial speed --

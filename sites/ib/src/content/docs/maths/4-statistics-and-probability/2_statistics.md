@@ -242,8 +242,8 @@ $$
 - The **box** represents the middle 50% of data (IQR).
 - The **line inside** the box is the median.
 - **Whiskers** extend to the minimum and maximum (or to the most extreme non-outlier values).
-- **Skewness**: if the median is closer to $Q_1$The data is right-skewed (positively skewed). If
-  closer to $Q_3$Left-skewed (negatively skewed).
+- **Skewness**: if the median is closer to $Q_1$ The data is right-skewed (positively skewed). If
+  closer to $Q_3$ Left-skewed (negatively skewed).
 
 ---
 
@@ -301,7 +301,7 @@ $$
 
 A scatter diagram plots two variables to visually assess the relationship between them.
 
-### Pearson"s Correlation Coefficient ($r$)
+### Pearson's Correlation Coefficient ($r$)
 
 Measures the strength and direction of the linear relationship between two variables.
 
@@ -503,7 +503,7 @@ $H_0: \rho = 0$ vs $H_1: \rho \gt 0$.
 
 This is a one-tailed test. The critical value for $n = 12$ at 5% level is approximately $0.497$.
 
-Since $r = 0.85 \gt 0.497$We reject $H_0$.
+Since $r = 0.85 \gt 0.497$ We reject $H_0$.
 
 There is sufficient evidence at the 5% level to conclude a positive correlation between hours
 Studied and exam score.
@@ -565,12 +565,12 @@ Degrees of freedom: $(2-1)(3-1) = 2$.
 
 Critical value at $\alpha = 0.05$ with $\nu = 2$: $5.99$.
 
-Since $13.33 \gt 5.99$We reject $H_0$. Gender and favourite subject are not independent.
+Since $13.33 \gt 5.99$ We reject $H_0$. Gender and favourite subject are not independent.
 :::
 
 :::caution[Exam Tip]
 For the chi-squared test, always check that all expected frequencies are at least 5. If any
-$E_i \lt 5$Combine categories or note the limitation.
+$E_i \lt 5$ Combine categories or note the limitation.
 
 ---
 
@@ -658,7 +658,7 @@ Degrees of freedom $= 24$.
 
 Critical value (two-tailed, 5%) $\approx 2.064$.
 
-Since $|1.875| \lt 2.064$We do not reject $H_0$.
+Since $|1.875| \lt 2.064$ We do not reject $H_0$.
 
 There is insufficient evidence at the 5% level to reject the claim that the mean height is
 $170\mathrm{ cm}$.
@@ -726,7 +726,7 @@ If every data value is transformed by $y_i = ax_i + b$:
 | Variance                | $s_x^2$     | $a^2 s_x^2$                                      |     |              |
 | Median                  | $Q_2$       | $aQ_2 + b$                                       |     |              |
 | IQR                     | $Q_3 - Q_1$ | $                                                | a   | (Q_3 - Q_1)$ |
-| Correlation coefficient | $r$         | $r$ (unchanged if $a \gt 0$Negated if $a \lt 0$) |     |              |
+| Correlation coefficient | $r$         | $r$ (unchanged if $a \gt 0$ Negated if $a \lt 0$) |     |              |
 
 ### Standardised Scores (z-scores)
 
@@ -831,8 +831,8 @@ B. Group A's scores are more tightly clustered around the mean.
 
 ### Question 5 (Paper 2 style)
 
-A scientist investigates the relationship between temperature ($x$In $\degree$C) and reaction rate
-($y$In mol/L/s). The following data was collected:
+A scientist investigates the relationship between temperature ($x$ In $\degree$ C) and reaction rate
+($y$ In mol/L/s). The following data was collected:
 
 | $x$ | 10  | 20  | 30  | 40  | 50   | 60   |
 | --- | --- | --- | --- | --- | ---- | ---- |
@@ -843,7 +843,7 @@ A scientist investigates the relationship between temperature ($x$In $\degree$C)
 The data appears to show exponential growth, as temperature increases, the rate increases by an
 Increasing amount. A plot of $y$ vs $x$ would show a curve, not a straight line.
 
-**(b)** By plotting $\ln y$ against $x$Determine whether the relationship is of the form
+**(b)** By plotting $\ln y$ against $x$ Determine whether the relationship is of the form
 $y = ae^{bx}$.
 
 | $x$     | 10       | 20      | 30      | 40      | 50      | 60      |
@@ -874,7 +874,7 @@ Hours.
 
 **(b)** The $p$-value for testing $H_0: \rho = 0$ is $0.0001$. What conclusion can be drawn?
 
-Since $p = 0.0001 \lt 0.05$We reject $H_0$. There is strong evidence of a positive correlation
+Since $p = 0.0001 \lt 0.05$ We reject $H_0$. There is strong evidence of a positive correlation
 Between study hours and exam scores.
 
 ---

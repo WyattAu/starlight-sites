@@ -26,7 +26,7 @@ categories:
 ### Implicit Differentiation
 
 When a function is defined implicitly (e.g., $x^2 + y^2 = 25$), differentiate both sides with
-Respect to $x$Treating $y$ as a function of $x$.
+Respect to $x$ Treating $y$ as a function of $x$.
 
 $$
 \frac{d}{dx}[y^n] = ny^{n-1}\frac{dy}{dx}
@@ -44,7 +44,7 @@ $$
 \frac{dy}{dx} = -\frac{x}{y}
 $$
 
-This makes geometric sense: on the upper semicircle ($y > 0$), increasing $x$ decreases $y$Giving A
+This makes geometric sense: on the upper semicircle ($y > 0$), increasing $x$ decreases $y$ Giving A
 negative slope. On the lower semicircle ($y < 0$), the slope is positive.
 
 **Example:** Find $\dfrac{dy}{dx}$ for $x^3 + y^3 = 6xy$.
@@ -84,7 +84,7 @@ $$
 \frac{dy}{dx} = \frac{-2x - 2}{2y - 4} = \frac{-x - 1}{y - 2}
 $$
 
-**Second derivatives implicitly.** Differentiate $\frac{dy}{dx}$ again with respect to $x$Using The
+**Second derivatives implicitly.** Differentiate $\frac{dy}{dx}$ again with respect to $x$ Using The
 chain rule wherever $y$ appears.
 
 ### Parametric Differentiation
@@ -145,7 +145,7 @@ $$
 $$
 
 **Proof that $\frac{d}{dx}[\arctan x] = \frac{1}{1+x^2}$.** Let $y = \arctan x$ So $x = \tan y$.
-Differentiating implicitly: $1 = \sec^2 y \cdot \frac{dy}{dx}$Giving
+Differentiating implicitly: $1 = \sec^2 y \cdot \frac{dy}{dx}$ Giving
 $\frac{dy}{dx} = \frac{1}{\sec^2 y} = \frac{1}{1 + \tan^2 y} = \frac{1}{1 + x^2}$.
 
 **Example:** Differentiate $f(x) = \arcsin(3x)$.
@@ -156,7 +156,7 @@ $$
 
 ### Logarithmic Differentiation
 
-For functions of the form $y = [f(x)]^{g(x)}$Take natural logarithms first:
+For functions of the form $y = [f(x)]^{g(x)}$ Take natural logarithms first:
 
 $$
 \ln y = g(x) \ln f(x)
@@ -305,7 +305,7 @@ $$
 
 **Example:** Evaluate $\int \dfrac{x}{x^2 + 1} \, dx$.
 
-Let $u = x^2 + 1$ So $du = 2x \, dx$Giving $\dfrac{1}{2} du = x \, dx$.
+Let $u = x^2 + 1$ So $du = 2x \, dx$ Giving $\dfrac{1}{2} du = x \, dx$.
 
 $$
 \int \frac{x}{x^2 + 1} \, dx = \frac{1}{2}\int \frac{du}{u} = \frac{1}{2}\ln|u| + C = \frac{1}{2}\ln(x^2 + 1) + C
@@ -475,7 +475,7 @@ $$
 \mu\frac{dy}{dx} + \mu P y = \mu Q
 $$
 
-This is $\frac{d}{dx}[\mu y]$ provided $\mu' = \mu P$I.e., $\mu = e^{\int P\,dx}$.
+This is $\frac{d}{dx}[\mu y]$ provided $\mu' = \mu P$ I.e., $\mu = e^{\int P\,dx}$.
 
 **Example:** Solve $\dfrac{dy}{dx} + 3y = 6e^{-3x}$.
 
@@ -532,7 +532,7 @@ Combinations give $e^{\alpha x}\cos\beta x$ and $e^{\alpha x}\sin\beta x$.
 
 **Example:** Solve $\dfrac{d^2y}{dx^2} - 5\dfrac{dy}{dx} + 6y = 0$.
 
-Auxiliary equation: $m^2 - 5m + 6 = 0$ So $(m - 2)(m - 3) = 0$Giving $m = 2, 3$.
+Auxiliary equation: $m^2 - 5m + 6 = 0$ So $(m - 2)(m - 3) = 0$ Giving $m = 2, 3$.
 
 $$
 Y = Ae^{2x} + Be^{3x}
@@ -548,7 +548,7 @@ $$
 
 **Example:** Solve $\dfrac{d^2y}{dx^2} + 6\dfrac{dy}{dx} + 9y = 0$.
 
-Auxiliary equation: $m^2 + 6m + 9 = 0$ So $(m + 3)^2 = 0$Giving $m = -3$ (repeated).
+Auxiliary equation: $m^2 + 6m + 9 = 0$ So $(m + 3)^2 = 0$ Giving $m = -3$ (repeated).
 
 $$
 Y = (Ax + B)e^{-3x}
@@ -704,25 +704,25 @@ See the examples integrated throughout the sections above.
 
 ## Common Pitfalls
 
-1. **Forgetting the chain rule in implicit differentiation:** When differentiating $y^3$The result
-   is $3y^2 \dfrac{dy}{dx}$Not $3y^2$.
+1. **Forgetting the chain rule in implicit differentiation:** When differentiating $y^3$ The result
+   is $3y^2 \dfrac{dy}{dx}$ Not $3y^2$.
 
 2. **Wrong choice of $u$ in integration by parts:** Follow the LIATE rule. Choosing algebraic
    functions as $dv$ instead of $u$ leads to more complicated integrals.
 
 3. **Missing the constant of integration:** Always include $+C$ for indefinite integrals.
 
-4. **Incorrect auxiliary equation:** For $\dfrac{d^2y}{dx^2} + 4y = 0$The auxiliary equation is
-   $m^2 + 4 = 0$Not $m^2 + 4m = 0$.
+4. **Incorrect auxiliary equation:** For $\dfrac{d^2y}{dx^2} + 4y = 0$ The auxiliary equation is
+   $m^2 + 4 = 0$ Not $m^2 + 4m = 0$.
 
 5. **Domain restrictions in Maclaurin series:** The series for $\ln(1 + x)$ is valid for
-   $-1 < x \le 1$Not all $x$.
+   $-1 < x \le 1$ Not all $x$.
 
-6. **Forgetting to change limits in definite substitution:** When $u = g(x)$The new limits are
-   $u(a)$ and $u(b)$Not $a$ and $b$.
+6. **Forgetting to change limits in definite substitution:** When $u = g(x)$ The new limits are
+   $u(a)$ and $u(b)$ Not $a$ and $b$.
 
 7. **Not checking that the particular integral guess works:** If your guess for $y_p$ contains a
-   term already in $y_h$Multiply by $x$ and try again.
+   term already in $y_h$ Multiply by $x$ and try again.
 
 ---
 

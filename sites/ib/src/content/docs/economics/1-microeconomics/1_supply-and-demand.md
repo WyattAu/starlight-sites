@@ -156,8 +156,8 @@ Incentivising firms to expand output.
 Equilibrium occurs where quantity demanded equals quantity supplied. The equilibrium price $P^*$ and
 Quantity $Q^*$ are found at the intersection of the demand and supply curves.
 
-If the market price is above $P^*$A **surplus** (excess supply) exists, placing downward pressure On
-price. If the market price is below $P^*$A **shortage** (excess demand) exists, placing upward
+If the market price is above $P^*$ A **surplus** (excess supply) exists, placing downward pressure On
+price. If the market price is below $P^*$ A **shortage** (excess demand) exists, placing upward
 Pressure on price.
 
 The **rationing function** of price allocates scarce resources to those willing and able to pay. The
@@ -293,7 +293,7 @@ Must reallocate resources from consumer goods to capital goods, which requires t
 <details>
 <summary>Problem 2: PED, YED, and XED Calculations</summary>
 
-The demand for good $X$ is given by $Q_{d,X} = 200 - 2P_X + 0.5Y + 0.8P_Y$Where $P_X = 20$ $Y = 400$
+The demand for good $X$ is given by $Q_{d,X} = 200 - 2P_X + 0.5Y + 0.8P_Y$ Where $P_X = 20$ $Y = 400$
 (income), and $P_Y = 30$ (price of related good $Y$).
 
 (a) Calculate the quantity demanded of $X$.
@@ -314,7 +314,7 @@ $\|\mathrm{PED}\| = 0.104 < 1$: demand is inelastic at this point.
 (c)
 $\mathrm{YED} = \frac{\partial Q}{\partial Y} \times \frac{Y}{Q} = 0.5 \times \frac{400}{384} = 0.521$
 
-YED $> 0$: $X$ is a normal good. Since $0 <$ YED $< 1$It is a necessity (income inelastic).
+YED $> 0$: $X$ is a normal good. Since $0 <$ YED $< 1$ It is a necessity (income inelastic).
 
 (d)
 $\mathrm{XED} = \frac{\partial Q}{\partial P_Y} \times \frac{P_Y}{Q} = 0.8 \times \frac{30}{384} = 0.0625$
@@ -436,7 +436,7 @@ Imposes a specific tax of `USD 15` per unit.
 
 $$120 - P = 2P - 40 \implies 3P = 160 \implies P_0 = 53.33$$ $$Q_0 = 120 - 53.33 = 66.67$$
 
-(b) With a specific tax of $t = 15$The supply curve shifts upward. The new supply (price received by
+(b) With a specific tax of $t = 15$ The supply curve shifts upward. The new supply (price received by
 Producers) is $P_s = P_d - 15$. Setting $Q_d = Q_s$:
 
 $$120 - P_d = 2(P_d - 15) - 40 = 2P_d - 70$$ $$190 = 3P_d \implies P_d = 63.33$$
@@ -485,7 +485,7 @@ $$
 Q = \frac{80 \pm \sqrt{6400 - 1000}}{2} = \frac{80 \pm \sqrt{5400}}{2} = \frac{80 \pm 73.48}{2}
 $$
 
-$Q = 76.74$ (the other root, $Q = 3.26$Gives a higher ATC).
+$Q = 76.74$ (the other root, $Q = 3.26$ Gives a higher ATC).
 
 $P = 200 - 76.74 = 123.26$
 
@@ -497,7 +497,7 @@ Excess capacity $= 76.74 - 22.36 = 54.38$ units. The firm operates well below it
 Scale.
 
 (c) No. Allocative efficiency requires $P = \mathrm{MC}$. Here, $P = 123.26$ while
-$\mathrm{MC} = 40 + 2(76.74) = 193.48$. Since $P < \mathrm{MC}$This suggests an issue. In practice,
+$\mathrm{MC} = 40 + 2(76.74) = 193.48$. Since $P < \mathrm{MC}$ This suggests an issue. In practice,
 the firm should also satisfy the MR $=$ MC Condition.
 $\mathrm{MR} = 200 - 2Q = 200 - 153.48 = 46.52$. Setting MR $=$ MC: $46.52 = 193.48$ is not
 Satisfied. The correct approach recognises that in long-run equilibrium for monopolistic
@@ -534,7 +534,7 @@ Potential government failures include:
 ### Budget Constraints
 
 A consumer's budget constraint represents all combinations of two goods they can afford given their
-Income and the prices of the goods. If a consumer has income $M$The price of good $X$ is $P_X$And
+Income and the prices of the goods. If a consumer has income $M$ The price of good $X$ is $P_X$ And
 The price of good $Y$ is $P_Y$:
 
 $$
@@ -602,7 +602,7 @@ $$
 $$
 
 This condition states that the marginal utility per dollar spent must be equal across all goods. If
-$\frac{MU_X}{P_X} > \frac{MU_Y}{P_Y}$The consumer should buy more $X$ and less $Y$ until the Ratio
+$\frac{MU_X}{P_X} > \frac{MU_Y}{P_Y}$ The consumer should buy more $X$ and less $Y$ until the Ratio
 equalises.
 
 ### Income and Substitution Effects

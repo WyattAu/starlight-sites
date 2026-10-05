@@ -55,7 +55,7 @@ analytical skills needed for high-scoring essay responses.
 **Militarism**
 
 - The arms race between the major European powers created an atmosphere of tension and suspicion
-- Anglo-German naval rivalry: Germany"s decision to build a large fleet (Risk Theory) provoked a
+- Anglo-German naval rivalry: Germany's decision to build a large fleet (Risk Theory) provoked a
   British response, the naval arms race was a significant factor in worsening Anglo-German
   relations
 - Conscription and large standing armies created the capacity for rapid mobilisation, which meant

@@ -134,7 +134,7 @@ pressure on the exchange rate peg. The central bank would be forced to sell fore
 domestic currency, reversing the interest rate cut. Monetary policy is effectively determined by the
 anchor currency"s central bank.
 
-(b) Required output increase $= 5\%$ of potential GDP. If multiplier $= 2$Required fiscal injection
+(b) Required output increase $= 5\%$ of potential GDP. If multiplier $= 2$ Required fiscal injection
 $= \frac{5\%}{2} = 2.5\%$ of GDP. This could be achieved through increased government spending, tax
 cuts, or a combination. For a GDP of $\$500$ billion, the required injection $= \$12.5$ billion.
 
@@ -178,7 +178,7 @@ HK$10,000 units).
 CS after $= \frac{1}{2}(5000 - 1500 + 3500 - 1500)(100) = \frac{1}{2}(3500 + 2000)(100) = 275\,000$.
 
 Note: The demand price at $Q = 100$ is
-$P = 500 - 1000/0.1 = 500 - 1000 = $ wait, recalculate: $Q_d = 500 - 0.1P$So
+$P = 500 - 1000/0.1 = 500 - 1000 = $ wait, recalculate: $Q_d = 500 - 0.1P$ So
 $P = (500 - Q)/0.1 = 5000 - 10Q$. At $Q = 100$: $P = 5000 - 1000 = 4000$.
 
 CS after
@@ -228,7 +228,7 @@ these would be more effective than price controls.
 ### SQ-3: Development Economics and the DSE
 
 **Question:** Compare Country A (GDP per capita $\$50,000$, growth rate 2%, HDI 0.92, literacy rate
-99%, life expectancy 83) with Country B (GDP per capita $\$5,000$Growth rate 7%, HDI 0.65, literacy
+99%, life expectancy 83) with Country B (GDP per capita $\$5,000$ Growth rate 7%, HDI 0.65, literacy
 rate 75%, life expectancy 68). (a) Calculate how many years it will take for Country B's GDP per
 capita to equal Country A's current level, assuming constant growth rates. (b) Explain three reasons
 why GDP per capita alone is an inadequate measure of development. (c) Using the HDI components,

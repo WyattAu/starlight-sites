@@ -23,14 +23,14 @@ tags:
 When light of sufficiently high frequency is incident on a metal surface, electrons are ejected. Key
 Experimental observations:
 
-1. **Threshold frequency:** Electrons are emitted only if $f \ge f_0$Regardless of intensity.
+1. **Threshold frequency:** Electrons are emitted only if $f \ge f_0$ Regardless of intensity.
 2. **Instantaneous emission:** No detectable time delay between illumination and emission.
 3. **Maximum kinetic energy** of photoelectrons depends on frequency, not intensity.
 4. **More intensity** (at $f \ge f_0$) produces more photoelectrons, not faster ones.
 
 These observations cannot be explained by the classical wave model of light.
 
-### Einstein"s Explanation (1905)
+### Einstein's Explanation (1905)
 
 Light consists of discrete packets of energy called **photons**. Each photon has energy:
 
@@ -85,7 +85,7 @@ $$
 E_k = 3.11 - 4.3 = -1.19\,\mathrm{eV}
 $$
 
-Since $E_k \lt 0$No photoelectrons are emitted. The photon energy is below the work function.
+Since $E_k \lt 0$ No photoelectrons are emitted. The photon energy is below the work function.
 
 ---
 
@@ -364,7 +364,7 @@ $$
 Where $N$ is the number of undecayed nuclei at time $t$, $N_0$ is the initial number, and $\lambda$
 Is the **decay constant**.
 
-**Activity** (rate of decay): $A = -\dfrac{dN}{dt} = \lambda N = A_0 e^{-\lambda t}$Measured in
+**Activity** (rate of decay): $A = -\dfrac{dN}{dt} = \lambda N = A_0 e^{-\lambda t}$ Measured in
 **becquerels** ($\mathrm{Bq}$), where $1\,\mathrm{Bq} = 1$ decay per second.
 
 ### Half-Life
@@ -1041,7 +1041,7 @@ Conserving mass number: $234 = 234 + A \implies A = 0$
 
 Conserving atomic number: $90 = 91 + Z \implies Z = -1$
 
-The emitted particle has $A = 0$ and $Z = -1$Which is an electron: $e^{-}$ (or $\beta^{-}$).
+The emitted particle has $A = 0$ and $Z = -1$ Which is an electron: $e^{-}$ (or $\beta^{-}$).
 
 This is **beta-minus decay**, in which a neutron converts to a proton, emitting an electron and an
 Antineutrino:
@@ -1095,7 +1095,7 @@ $$
 E_{\min} = 2m_e c^2 = 2(0.511\,\mathrm{MeV}) = 1.022\,\mathrm{MeV}
 $$
 
-If the photon has exactly $1.022\,\mathrm{MeV}$Pair production **cannot** occur in free space
+If the photon has exactly $1.022\,\mathrm{MeV}$ Pair production **cannot** occur in free space
 Because momentum cannot be conserved. The photon has momentum $p = E/c$ But the electron-positron
 Pair at rest has zero momentum. A nearby nucleus must be present to absorb the recoil momentum. The
 Photon energy must be **greater than** $1.022\,\mathrm{MeV}$ for pair production to actually occur.
@@ -1177,7 +1177,7 @@ The wood is approximately $8700\,\mathrm{years}$ old.
 ### Problem 10
 
 In a Compton scattering experiment, a photon is scattered at $180^\circ$ (backscattered) by a free
-Electron. If the incident photon has wavelength $0.0100\,\mathrm{nm}$Find the wavelength of the
+Electron. If the incident photon has wavelength $0.0100\,\mathrm{nm}$ Find the wavelength of the
 Scattered photon and the kinetic energy transferred to the electron.
 
 <details>

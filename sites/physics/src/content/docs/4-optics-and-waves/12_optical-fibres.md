@@ -69,7 +69,7 @@ causing the two orthogonal polarisation components to travel at slightly differe
 Optical fibres are made by the **Modified Chemical Vapour Deposition (MCVD)** process.
 A thin layer of pure silica is deposited inside a rotating silica tube by passing
 SiCl$_4$ and O$_2$ through it. The tube is then collapsed into a solid preform rod
-at approximately 2000 $^\circ$C.
+at approximately 2000 $^\circ$ C.
 
 The preform is then placed in a drawing tower, heated to its melting point, and
 pulled into a thin fibre under tension. The fibre diameter is monitored precisely
@@ -130,7 +130,7 @@ A 50 km fibre link has attenuation 0.35 dB/km at 1310 nm. Input power is 1 mW (0
 Find the output power and the power lost.
 
 Total loss = $0.35 \times 50 = 17.5$ dB. Output power = $0 - 17.5 = -17.5$ dBm.
-Converting: $P_{\mathrm{out}} = 10^{-17.5/10} \approx 17.8\ \mu$W.
+Converting: $P_{\mathrm{out}} = 10^{-17.5/10} \approx 17.8\ \mu$ W.
 The power lost is $1\ \mathrm{mW} - 17.8\ \mu\mathrm{W} \approx 0.982\ \mathrm{mW}$.
 
 ### Practice Problems

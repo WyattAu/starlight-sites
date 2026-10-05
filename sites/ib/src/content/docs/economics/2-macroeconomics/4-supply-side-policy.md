@@ -51,7 +51,7 @@ AD shifts rightward when:
 - Interest rates fall (increasing $I$ and $C$)
 - Government spending increases (increasing $G$)
 - Income taxes fall (increasing $C$ and $I$ via higher disposable income)
-- The exchange rate depreciates (increasing $X$Reducing $M$)
+- The exchange rate depreciates (increasing $X$ Reducing $M$)
 - Foreign income rises (increasing $X$)
 - Wealth increases (e.g., rising house prices, stock market gains)
 
@@ -171,7 +171,7 @@ Rate. At the steady state:
 - Output per worker is constant
 - Growth in output per worker is zero (unless there is technological progress)
 
-With exogenous technological progress at rate $g$Output per worker grows at rate $g$ in the steady
+With exogenous technological progress at rate $g$ Output per worker grows at rate $g$ in the steady
 State. Total output grows at rate $n + g$.
 
 ### Endogenous Growth Theory
@@ -186,7 +186,7 @@ economic Decisions:
 - **Knowledge spillovers**: new ideas benefit other firms and workers, creating positive
   externalities that can prevent diminishing returns
 
-A simple endogenous growth model: $Y = A \cdot K$Where $A$ is a constant reflecting the Productivity
+A simple endogenous growth model: $Y = A \cdot K$ Where $A$ is a constant reflecting the Productivity
 of capital. Here, there are no diminishing returns to capital, and the growth rate is:
 
 $$
@@ -387,7 +387,7 @@ $$
 
 ### The Tax Multiplier
 
-A change in autonomous taxes $\Delta T$ changes disposable income by $\Delta T$Which changes
+A change in autonomous taxes $\Delta T$ changes disposable income by $\Delta T$ Which changes
 Consumption by $b \cdot \Delta T$ (where $b$ is MPC):
 
 $$
@@ -410,7 +410,7 @@ $$
 |k_G| = \frac{1}{1 - b(1 - t) + m} > |k_T| = \frac{b}{1 - b(1 - t) + m}
 $$
 
-Since $b < 1$The spending multiplier always exceeds the absolute value of the tax multiplier.
+Since $b < 1$ The spending multiplier always exceeds the absolute value of the tax multiplier.
 
 ### Balanced Budget Multiplier: Proof
 
@@ -453,15 +453,15 @@ $$
 \text{Tax revenue} = t \times Y(t)
 $$
 
-Where $Y(t)$ is the tax base (income, output), which depends on the tax rate. At $t = 0$Revenue Is
-zero. At $t = 100\%$Revenue is also zero (no one works or invests if all income is taxed). Between
+Where $Y(t)$ is the tax base (income, output), which depends on the tax rate. At $t = 0$ Revenue Is
+zero. At $t = 100\%$ Revenue is also zero (no one works or invests if all income is taxed). Between
 these extremes, there is a revenue-maximising tax rate $t^*$.
 
 **Implications:**
 
-- For tax rates above $t^*$Reducing the tax rate can increase revenue by stimulating economic
+- For tax rates above $t^*$ Reducing the tax rate can increase revenue by stimulating economic
   activity
-- For tax rates below $t^*$Reducing the tax rate decreases revenue
+- For tax rates below $t^*$ Reducing the tax rate decreases revenue
 - The position of $t^*$ is empirically uncertain and debated. Most estimates for income tax place it
   between 50% and 70%
 - The Laffer curve does not imply that all tax cuts pay for themselves. Empirical evidence suggests
@@ -516,7 +516,7 @@ At the steady state, capital per worker and output per worker are constant.
 
 **Convergence:**
 
-Starting from any $k_0$The economy converges to $k^*$ because:
+Starting from any $k_0$ The economy converges to $k^*$ because:
 
 - If $k < k^*$: $s \cdot f(k) > (n + \delta)k$ So $k$ rises
 - If $k > k^*$: $s \cdot f(k) < (n + \delta)k$ So $k$ falls
@@ -719,7 +719,7 @@ Alone.
 <summary>Problem 11: Solow Model Comparative Statics</summary>
 
 An economy has a Cobb-Douglas production function $y = k^{0.3}$ (per-worker terms). The savings Rate
-is $s = 0.2$The population growth rate is $n = 0.02$ And the depreciation rate is $\delta = 0.05$.
+is $s = 0.2$ The population growth rate is $n = 0.02$ And the depreciation rate is $\delta = 0.05$.
 
 (a) Find the steady-state capital per worker and output per worker.
 
@@ -1325,7 +1325,7 @@ $Y = 700 + 100(4.67) = 1167$
 
 BP at $r = 4.67$: $Y_{BP} = 400 + 50(4.67) = 633$.
 
-At $Y = 1167$The economy is above the BP curve ($Y > Y_{BP}$), indicating a balance of Payments
+At $Y = 1167$ The economy is above the BP curve ($Y > Y_{BP}$), indicating a balance of Payments
 surplus (capital inflows exceed the current account deficit).
 
 (b) **Fixed exchange rates:** The BoP surplus causes the central bank to buy foreign currency and
@@ -1437,7 +1437,7 @@ relax the policy as inflation approaches the target.
 
 Better approach: adjust $u$ each year:
 
-Year 1: target $\pi = 7\%$Set $u$ to achieve this: $7 = 10 - 1.5(u-5) \implies u = 7$ Year 2: target
+Year 1: target $\pi = 7\%$ Set $u$ to achieve this: $7 = 10 - 1.5(u-5) \implies u = 7$ Year 2: target
 $\pi = 4.5\%$: $4.5 = 7 - 1.5(u-5) \implies u = 6.67$ Year 3: target $\pi = 3.5\%$:
 $3.5 = 4.5 - 1.5(u-5) \implies u = 5.67$
 
@@ -1483,7 +1483,7 @@ IS: $Y = 600 + 4e$. LM: $Y = 600$.
 
 For equilibrium: $600 + 4e = 600 \implies e = 0$. This is unrealistic. Let me adjust the Parameters.
 
-Let IS: $Y = 600 - 40r + 4e$LM: $Y = 400 + 20r$, $r^* = 5$.
+Let IS: $Y = 600 - 40r + 4e$ LM: $Y = 400 + 20r$, $r^* = 5$.
 
 IS at $r=5$: $Y = 600 - 200 + 4e = 400 + 4e$. LM at $r=5$: $Y = 500$.
 
@@ -1511,7 +1511,7 @@ monetary stimulus through net exports.
 
 The fiscal multiplier is 0; the monetary multiplier is $200/(\Delta M/P)$. If the money supply
 Increase was $\Delta M/P = 10$ (shifting LM intercept from 400 to 600, i.e., $\Delta = 200$ At
-$r=0$Which corresponds to $\Delta M/P = 10$ given the LM slope of 20), the monetary Multiplier is
+$r=0$ Which corresponds to $\Delta M/P = 10$ given the LM slope of 20), the monetary Multiplier is
 $200/10 = 20$.
 
 </details>
@@ -1619,13 +1619,13 @@ $i = 2 + 5 + 0.5(3) + 0.5(0) = 8.5\%$.
 
 The central bank raises the rate by 4.5 percentage points to combat inflation.
 
-**Scenario 3:** $\pi = 2\%$Output gap $= -3\%$ (recession).
+**Scenario 3:** $\pi = 2\%$ Output gap $= -3\%$ (recession).
 
 $i = 2 + 2 + 0.5(0) + 0.5(-3) = 2.5\%$.
 
 The central bank cuts the rate by 1.5 percentage points to stimulate the economy.
 
-**Scenario 4 (stagflation):** $\pi = 7\%$Output gap $= -2\%$.
+**Scenario 4 (stagflation):** $\pi = 7\%$ Output gap $= -2\%$.
 
 $i = 2 + 7 + 0.5(5) + 0.5(-2) = 9 + 2.5 - 1 = 10.5\%$.
 
@@ -1745,7 +1745,7 @@ $i = 2 + 2 + 0.5(0) + 0.5(-4) = 4 + 0 - 2 = 2.0\%$
 
 $i = 2 + 6 + 0.5(6-2) + 0.5(-2) = 8 + 2 - 1 = 9.0\%$
 
-(b) In Shock C (stagflation), the Taylor rule prescribes $i = 9\%$A large increase from The baseline
+(b) In Shock C (stagflation), the Taylor rule prescribes $i = 9\%$ A large increase from The baseline
 4%. The central bank must raise rates to fight inflation despite the economy Being in recession.
 This is the fundamental policy dilemma of stagflation: the tools to fight Inflation (higher rates)
 worsen the recession, and the tools to fight the recession (lower Rates) worsen inflation.

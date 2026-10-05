@@ -22,7 +22,7 @@ sources:
 }
 </script>
 
-### 9.1 Euler"s Equations in the Body Frame
+### 9.1 Euler's Equations in the Body Frame
 
 For a rigid body rotating freely (no external torques), the angular momentum in the body frame
 satisfies:

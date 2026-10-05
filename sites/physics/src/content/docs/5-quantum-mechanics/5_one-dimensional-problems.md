@@ -37,7 +37,7 @@ $$
 
 From $\phi(0) = 0$: $B = 0$ So $\phi(x) = A\sin(kx)$.
 
-From $\phi(L) = 0$: $\sin(kL) = 0$Which requires $kL = n\pi$ for $n = 1, 2, 3, \ldots$
+From $\phi(L) = 0$: $\sin(kL) = 0$ Which requires $kL = n\pi$ for $n = 1, 2, 3, \ldots$
 
 Therefore $k_n = n\pi/L$ and:
 
@@ -45,7 +45,7 @@ $$
 E_n = \frac{\hbar^2 k_n^2}{2m} = \frac{n^2\pi^2\hbar^2}{2mL^2}
 $$
 
-**Normalisation.** $\int_0^L |A|^2\sin^2(n\pi x/L)\,dx = |A|^2 L/2 = 1$Giving $A = \sqrt{2/L}$.
+**Normalisation.** $\int_0^L |A|^2\sin^2(n\pi x/L)\,dx = |A|^2 L/2 = 1$ Giving $A = \sqrt{2/L}$.
 
 **Solutions:**
 
@@ -192,10 +192,10 @@ The **parity operator** $\hat{\Pi}$ reflects the coordinate: $\hat{\Pi}\psi(x) =
 - If $V(x) = V(-x)$ (symmetric potential), then $[\hat{H}, \hat{\Pi}] = 0$ So energy eigenstates can
   be chosen to have definite parity.
 
-**Theorem 5.1.** For a symmetric potential $V(x) = V(-x)$The energy eigenstates are either even Or
+**Theorem 5.1.** For a symmetric potential $V(x) = V(-x)$ The energy eigenstates are either even Or
 odd.
 
-_Proof._ Since $[\hat{H}, \hat{\Pi}] = 0$There exists a simultaneous eigenbasis. Let
+_Proof._ Since $[\hat{H}, \hat{\Pi}] = 0$ There exists a simultaneous eigenbasis. Let
 $\hat{H}\phi = E\phi$ and $\hat{\Pi}\phi = \pi\phi$ where $\pi = \pm 1$. Then
 $\phi(-x) = \pi\phi(x)$ So $\phi$ is either even ($\pi = +1$) or odd ($\pi = -1$). $\blacksquare$
 
@@ -246,7 +246,7 @@ $\langle T \rangle = -E$ and $\langle V \rangle = 2E$.
 
 ### 5.4 The Finite Square Well
 
-Consider $V(x) = -V_0$ for $|x| \lt a$ and $V(x) = 0$ for $|x| \gt a$Where $V_0 \gt 0$.
+Consider $V(x) = -V_0$ for $|x| \lt a$ and $V(x) = 0$ for $|x| \gt a$ Where $V_0 \gt 0$.
 
 #### 5.4.1 Bound States ($E \lt 0$)
 
@@ -277,7 +277,7 @@ There is always at least one bound state (the even ground state).
 
 #### 5.4.2 Scattering States ($E \gt 0$)
 
-For $E \gt 0$The particle has enough energy to escape. Define $k_1 = \sqrt{2mE}/\hbar$ (outside) And
+For $E \gt 0$ The particle has enough energy to escape. Define $k_1 = \sqrt{2mE}/\hbar$ (outside) And
 $k_2 = \sqrt{2m(E + V_0)}/\hbar$ (inside). The solutions are oscillatory everywhere. The
 Transmission coefficient is:
 
@@ -312,7 +312,7 @@ The number of bound states is
 $N = \lfloor 2z_0/\pi \rfloor + 1 = \lfloor 36.22/\pi \rfloor + 1 = \lfloor 11.53 \rfloor + 1 = 12$.
 
 (Actually, the formula is $N = \lfloor z_0/(\pi/2) \rfloor + 1$ only when counting the number of
-Intersections. With $z_0/(\pi/2) = 18.11/1.571 = 11.53$There are 11 full intersections plus one
+Intersections. With $z_0/(\pi/2) = 18.11/1.571 = 11.53$ There are 11 full intersections plus one
 Partial, giving about 11 or 12 bound states.)
 
 </details>

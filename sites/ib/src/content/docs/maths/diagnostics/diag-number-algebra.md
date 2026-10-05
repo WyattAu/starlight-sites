@@ -78,7 +78,7 @@ $$
 \sum_{k=3}^{20} (k - 2) = \sum_{j=1}^{18} j = \frac{18 \times 19}{2} = 171
 $$
 
-Verification: the original sum has 18 terms from $1$ to $18$Confirming the result.
+Verification: the original sum has 18 terms from $1$ to $18$ Confirming the result.
 
 **(c)**
 
@@ -145,7 +145,7 @@ $$
 So the coefficient of $x^3$ is $\dfrac{5}{2}$.
 
 **(b)** The expansion $(1 + x)^n$ for non-integer $n$ converges when $|x| \lt 1$. Here we have
-$(1 - 2x)^{-1/2}$ So we need $|-2x| \lt 1$I.e., $|x| \lt \dfrac{1}{2}$.
+$(1 - 2x)^{-1/2}$ So we need $|-2x| \lt 1$ I.e., $|x| \lt \dfrac{1}{2}$.
 
 **(c)** The student computed $\frac{n(n-1)}{2!}(-2)^2$ but used $n = -\frac{1}{2}$ incorrectly. The
 correct computation for the coefficient of $x^2$:
@@ -155,7 +155,7 @@ $$
 $$
 
 The student's error was multiplying three terms instead of two: $\binom{-1/2}{2}$ only involves two
-factors $\frac{n(n-1)}{2!}$Not three. The correct coefficient is $\dfrac{3}{2}$Not $-3$.
+factors $\frac{n(n-1)}{2!}$ Not three. The correct coefficient is $\dfrac{3}{2}$ Not $-3$.
 
 ---
 
@@ -176,7 +176,7 @@ Prove by mathematical induction that $7^n - 1$ is divisible by $6$ for all $n \i
 
 A student presents the following proof:
 
-> **Base case ($n = 0$):** $7^0 - 1 = 0$Which is divisible by $6$.
+> **Base case ($n = 0$):** $7^0 - 1 = 0$ Which is divisible by $6$.
 >
 > **Inductive step:** Assume $7^k - 1 = 6m$. Then
 > $7^{k+1} - 1 = 7 \cdot 7^k - 1 = 7(6m + 1) - 1 = 42m + 6 = 6(7m + 1)$.
@@ -191,15 +191,15 @@ divisibility results.]
 **Solution:**
 
 **(a)** The statement claims "for all $n \in \mathbb{Z}^+$", meaning $n \geq 1$. The student
-verified the base case at $n = 0$Which is outside the domain of the claim. While $n = 0$ does happen
+verified the base case at $n = 0$ Which is outside the domain of the claim. While $n = 0$ does happen
 to satisfy the property, the proof must start at $n = 1$ to be valid. The base case at $n = 0$ is
 unnecessary and, if it were the only base case, would not constitute a valid proof of the claim.
 
 **(b)**
 
-**Base case ($n = 1$):** $7^1 - 1 = 6$Which is divisible by $6$. True.
+**Base case ($n = 1$):** $7^1 - 1 = 6$ Which is divisible by $6$. True.
 
-**Inductive hypothesis:** Assume $7^k - 1 = 6m$ for some integer $m$Where $k \geq 1$.
+**Inductive hypothesis:** Assume $7^k - 1 = 6m$ for some integer $m$ Where $k \geq 1$.
 
 **Inductive step:** We must show $7^{k+1} - 1$ is divisible by $6$.
 
@@ -266,8 +266,8 @@ $$
 f(x) = \frac{1}{2}\sum_{n=0}^{\infty}\big(1 + (-1)^n\big)x^n
 $$
 
-This gives $f(x) = 1 + x^2 + x^4 + x^6 + \cdots$A geometric series with first term $1$ and common
-ratio $x^2$Valid for $|x^2| \lt 1$I.e., $x \in (-1, 1)$.
+This gives $f(x) = 1 + x^2 + x^4 + x^6 + \cdots$ A geometric series with first term $1$ and common
+ratio $x^2$ Valid for $|x^2| \lt 1$ I.e., $x \in (-1, 1)$.
 
 **(b)** This is a geometric series with first term $1$ and common ratio $r = \dfrac{1}{4}$. Since
 $|r| \lt 1$:
@@ -280,7 +280,7 @@ $$
 
 This is a geometric series with first term $1$ and common ratio $r = \dfrac{x^2}{3}$.
 
-Convergence requires $|r| \lt 1$ So $\left|\dfrac{x^2}{3}\right| \lt 1$Giving $x^2 \lt 3$I.e.,
+Convergence requires $|r| \lt 1$ So $\left|\dfrac{x^2}{3}\right| \lt 1$ Giving $x^2 \lt 3$ I.e.,
 $-\sqrt{3} \lt x \lt \sqrt{3}$.
 
 $$
@@ -320,7 +320,7 @@ why one solution must be rejected.
 Domain restrictions:
 
 - From $g(x)$: $x \in \mathbb{R}$ (no restriction, polynomial).
-- From $f$: the argument must be positive, so $x^2 - 1 \gt 0$Giving $x \lt -1$ or $x \gt 1$.
+- From $f$: the argument must be positive, so $x^2 - 1 \gt 0$ Giving $x \lt -1$ or $x \gt 1$.
 
 Domain of $f \circ g$: $(-\infty, -1) \cup (1, \infty)$.
 
@@ -332,7 +332,7 @@ Check against domain: $\sqrt{10} \approx 3.16 \gt 1$ (valid) and $-\sqrt{10} \ap
 Both solutions are valid: $x = \sqrt{10}$ and $x = -\sqrt{10}$.
 
 **(c)** The student solved $\log_3(x^2 - 1) = 2$ correctly, but without checking the domain. In this
-case both solutions are valid. However, if the equation were $\log_3(x - 1) = 2$Solving gives
+case both solutions are valid. However, if the equation were $\log_3(x - 1) = 2$ Solving gives
 $x - 1 = 9 \implies x = 10$ But the domain requires $x \gt 1$ So $x = 10$ is valid. If instead the
 equation were $\log_3(1 - x) = 2$ Then $1 - x = 9 \implies x = -8$ But the domain requires
 $1 - x \gt 0 \implies x \lt 1$ So $x = -8$ is valid. The key point is that logarithm arguments must

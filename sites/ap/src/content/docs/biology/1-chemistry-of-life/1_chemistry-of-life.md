@@ -313,7 +313,7 @@ $$
 
 An enzyme has the following rates at different substrate concentrations:
 
-| [S] ($\mu$M) | v ($\mu$Mol/min) |
+| [S] ($\mu$ M) | v ($\mu$ Mol/min) |
 | ------------ | ---------------- |
 | 2            | 5.0              |
 | 5            | 10.0             |
@@ -322,11 +322,11 @@ An enzyme has the following rates at different substrate concentrations:
 | 50           | 18.9             |
 | 100          | 19.6             |
 
-At very high [S], $v$ approaches $V_{\max} \approx 20$ $\mu$Mol/min.
+At very high [S], $v$ approaches $V_{\max} \approx 20$ $\mu$ Mol/min.
 
-At $v = V_{\max}/2 = 10$[S] = 5 $\mu$M, so $K_m = 5$ $\mu$M.
+At $v = V_{\max}/2 = 10$[S] = 5 $\mu$ M, so $K_m = 5$ $\mu$ M.
 
-This means the enzyme reaches half its maximum rate when the substrate concentration is 5 $\mu$M. A
+This means the enzyme reaches half its maximum rate when the substrate concentration is 5 $\mu$ M. A
 Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 
 ### Enzyme Inhibition
@@ -342,7 +342,7 @@ Lower $K_m$ would indicate a higher affinity between enzyme and substrate.
 
 A competitive inhibitor binds to the active site, competing directly with the substrate. At low
 Substrate concentration, the inhibitor effectively blocks many active sites, reducing the reaction
-Rate. To achieve half $V_{\max}$A higher substrate concentration is needed (to outcompete the
+Rate. To achieve half $V_{\max}$ A higher substrate concentration is needed (to outcompete the
 Inhibitor), so the apparent $K_m$ increases.
 
 However, at very high substrate concentrations, the substrate outcompetes the inhibitor for all
@@ -415,8 +415,8 @@ Energy from ATP hydrolysis.
    one ring. "Pure As Gold" for purines.
 9. **Forgetting that denaturation only affects secondary, tertiary, and quaternary structure.** The
    primary structure (amino acid sequence) is not changed by denaturation.
-10. **Confusing exergonic and endergonic.** Exergonic: $\Delta G \lt 0$Releases energy. Endergonic:
-    $\Delta G \gt 0$Requires energy.
+10. **Confusing exergonic and endergonic.** Exergonic: $\Delta G \lt 0$ Releases energy. Endergonic:
+    $\Delta G \gt 0$ Requires energy.
 
 ## Practice Questions
 
@@ -430,7 +430,7 @@ Energy from ATP hydrolysis.
 
 4. Describe the four levels of protein structure and the types of bonds that stabilize each level.
 
-5. Explain why a competitive inhibitor increases $K_m$ but does not change $V_{\max}$While a
+5. Explain why a competitive inhibitor increases $K_m$ but does not change $V_{\max}$ While a
    noncompetitive inhibitor decreases $V_{\max}$ but does not change $K_m$.
 
 6. Compare DNA and RNA in terms of structure, bases, sugar, and function.
@@ -712,7 +712,7 @@ Relevant variables to ensure that only the independent variable affects the depe
 
 ## Review: Water's Role in Temperature Regulation
 
-Water's high specific heat capacity ($4.18$ J/g/$\degree$C) means it can absorb or release large
+Water's high specific heat capacity ($4.18$ J/g/$\degree$ C) means it can absorb or release large
 Amounts of heat with relatively small changes in temperature. This property has important biological
 Consequences:
 
@@ -720,7 +720,7 @@ Consequences:
   smaller temperature fluctuations than inland areas at the same latitude.
 - **Organisms maintain stable internal temperatures:** The high water content of organisms (
   60--90%) contributes to thermal stability.
-- **Evaporative cooling:** Water's high heat of vaporisation ($2260$ J/g at $100\degree$C) means
+- **Evaporative cooling:** Water's high heat of vaporisation ($2260$ J/g at $100\degree$ C) means
   that sweating (in mammals) and transpiration (in plants) are very effective cooling mechanisms.
 
 **Worked Example:** A person running on a hot day produces approximately 500 mL of sweat per hour.
@@ -791,7 +791,7 @@ Total hydrogen bonds: $3,600 + 9,600 = 13,200$.
 <summary>Question 2: Enzyme kinetics with an inhibitor</summary>
 
 An enzyme has $K_m = 4 \mathrm{ \mu M$ and $V_{\max} = 20 \mathrm{ \mu mol/min$. In the presence Of
-a competitive inhibitor at $8 \mathrm{ \mu M$The apparent $K_m$ increases to $12 \mathrm{ \mu M$.
+a competitive inhibitor at $8 \mathrm{ \mu M$ The apparent $K_m$ increases to $12 \mathrm{ \mu M$.
 Calculate the reaction velocity at a substrate concentration of $6 \mathrm{ \mu M$ both with and
 without the inhibitor.
 
@@ -860,7 +860,7 @@ Coupled. Is the overall reaction spontaneous?
 
 Overall $\Delta G = +16.7 + (-30.5) = -13.8 \mathrm{ kJ/mol$.
 
-Since $\Delta G \lt 0$The overall coupled reaction is spontaneous. The energy released by ATP
+Since $\Delta G \lt 0$ The overall coupled reaction is spontaneous. The energy released by ATP
 Hydrolysis ($-30.5 \mathrm{ kJ/mol$) more than compensates for the energy required for the
 Phosphorylation ($+16.7 \mathrm{ kJ/mol$). This is how phosphofructokinase drives the committed Step
 of glycolysis forward. The excess energy ($13.8 \mathrm{ kJ/mol$) is released as heat.
@@ -872,7 +872,7 @@ of glycolysis forward. The excess energy ($13.8 \mathrm{ kJ/mol$) is released as
 
 A researcher discovers that a protein loses its biological activity when heated to
 $45^\circ\mathrm{C$ But regains full activity when cooled back to $25^\circ\mathrm{C$. When Heated to
-$70^\circ\mathrm{C$The protein permanently loses activity even after cooling. Explain These
+$70^\circ\mathrm{C$ The protein permanently loses activity even after cooling. Explain These
 observations with reference to the levels of protein structure.
 
 </details>
@@ -880,13 +880,13 @@ observations with reference to the levels of protein structure.
 <details>
 <summary>Answer</summary>
 
-At $45^\circ\mathrm{C$The protein undergoes reversible denaturation. The secondary and tertiary
+At $45^\circ\mathrm{C$ The protein undergoes reversible denaturation. The secondary and tertiary
 Structures are disrupted (hydrogen bonds, hydrophobic interactions, and ionic bonds break), causing
 The protein to unfold and lose its active site shape. However, the primary structure (amino acid
 Sequence) remains intact. When cooled, these non-covalent interactions can re-form, allowing the
 Protein to refold into its native, functional conformation.
 
-At $70^\circ\mathrm{C$The denaturation is irreversible. At this higher temperature, the protein May
+At $70^\circ\mathrm{C$ The denaturation is irreversible. At this higher temperature, the protein May
 aggregate (unfolded proteins expose hydrophobic regions that stick together), or disulfide Bridges
 (covalent bonds) may be disrupted. Once aggregated or covalently damaged, the protein cannot Refold
 correctly upon cooling because the protein is trapped in incorrect, aggregated conformations. The

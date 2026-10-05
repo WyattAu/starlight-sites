@@ -214,8 +214,8 @@ The specific molecules differ from the mean values. For precise work, experiment
 Calorimetry) must be used.
 
 **Worked Example.** Estimate $\Delta H_c$ for methane using mean bond enthalpies: C--H =
-$413\,\mathrm{kJ/mol}$O=O = $498\,\mathrm{kJ/mol}$C=O (in $\mathrm{CO}_2$) =
-$805\,\mathrm{kJ/mol}$O--H = $464\,\mathrm{kJ/mol}$.
+$413\,\mathrm{kJ/mol}$ O=O = $498\,\mathrm{kJ/mol}$ C=O (in $\mathrm{CO}_2$) =
+$805\,\mathrm{kJ/mol}$ O--H = $464\,\mathrm{kJ/mol}$.
 
 Bonds broken: $4 \times 413 + 2 \times 498 = 1652 + 996 = 2648\,\mathrm{kJ/mol}$.
 
@@ -237,7 +237,7 @@ Environment. Note: the bond enthalpy calculation above is per mole of methane as
 Alkanes are the primary components of fossil fuels: natural gas (mostly methane), petroleum (mix of
 Liquid alkanes $\mathrm{C}_5$--$\mathrm{C}_{12}$), and coal (complex hydrocarbon structures).
 
-Combustion of fossil fuels releases $\mathrm{CO}_2$Which contributes to the enhanced greenhouse
+Combustion of fossil fuels releases $\mathrm{CO}_2$ Which contributes to the enhanced greenhouse
 Effect. The atmospheric concentration of $\mathrm{CO}_2$ has increased from approximately
 $280\,\mathrm{ppm}$ in pre-industrial times to over $420\,\mathrm{ppm}$ as of 2025.
 
@@ -292,7 +292,7 @@ Catalytic cracking also produces higher-quality gasoline (higher octane rating d
    not undergo homolytic fission at room temperature. The reaction does not proceed in the dark.
 
 5. **Incorrect stoichiometry in combustion equations.** Always balance the equation fully. For an
-   alkane $\mathrm{C}_n\mathrm{H}_{2n+2}$The stoichiometric oxygen requirement is $\frac{3n+1}{2}$
+   alkane $\mathrm{C}_n\mathrm{H}_{2n+2}$ The stoichiometric oxygen requirement is $\frac{3n+1}{2}$
    moles per mole of alkane.
 
 6. **Confusing thermal and catalytic cracking.** Thermal cracking uses higher temperatures without a
@@ -397,8 +397,8 @@ main approaches.
 <summary>Problem 1</summary>
 
 Write the mechanism for the radical bromination of ethane to give bromoethane. Calculate $\Delta H$
-For each propagation step given: C--H bond enthalpy in ethane $= 420\,\mathrm{kJ/mol}$H--Br bond
-Enthalpy $= 366\,\mathrm{kJ/mol}$C--Br bond enthalpy in bromoethane $= 285\,\mathrm{kJ/mol}$ Br--Br
+For each propagation step given: C--H bond enthalpy in ethane $= 420\,\mathrm{kJ/mol}$ H--Br bond
+Enthalpy $= 366\,\mathrm{kJ/mol}$ C--Br bond enthalpy in bromoethane $= 285\,\mathrm{kJ/mol}$ Br--Br
 bond enthalpy $= 193\,\mathrm{kJ/mol}$.
 
 **Solution:**
@@ -654,7 +654,7 @@ $$
 N(\mathrm{CO}_2) = \frac{30.8}{44.0} = 0.700\,\mathrm{mol}
 $$
 
-If the alkane has formula $\mathrm{C}_n\mathrm{H}_{2n+2}$Combustion produces $n$ moles of
+If the alkane has formula $\mathrm{C}_n\mathrm{H}_{2n+2}$ Combustion produces $n$ moles of
 $\mathrm{CO}_2$:
 
 $$
@@ -711,7 +711,7 @@ The mechanism proceeds through three stages. Using ethane and chlorine as an exa
 **Stage 1 -- Initiation:** $$\mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet$$
 
 The Cl--Cl bond ($243\,\mathrm{kJ/mol}$) is homolytically cleaved by UV light. The bond dissociation
-energy must be supplied by a photon with energy $E \geq 243\,\mathrm{kJ/mol}$Corresponding to
+energy must be supplied by a photon with energy $E \geq 243\,\mathrm{kJ/mol}$ Corresponding to
 $\lambda \leq 493\,\mathrm{nm}$ (visible blue-green light).
 
 **Stage 2 -- Propagation:**
@@ -751,7 +751,7 @@ $$
 | $\mathrm{I}_2$  | 151                               | Negligible (reaction is endothermic) | --                               |
 
 Fluorine reacts too violently to be useful. Iodine does not react because the H-abstraction step is
-endothermic (the H--I bond formed, $297\,\mathrm{kJ/mol}$Is weaker than the C--H bond broken,
+endothermic (the H--I bond formed, $297\,\mathrm{kJ/mol}$ Is weaker than the C--H bond broken,
 $\approx 410\,\mathrm{kJ/mol}$ for primary C--H).
 
 ### Bond Dissociation Energies and Radical Stability
@@ -828,8 +828,8 @@ Catalytic converters reduce the emissions from internal combustion engines:
 
 ### Common Pitfalls
 
-1. **Writing balanced combustion equations:** For $\mathrm{C}_n\mathrm{H}_{2n+2}$The coefficient of
-   $\mathrm{O}_2$ is $\frac{3n+1}{2}$Not $n + \frac{n+1}{2}$ (these are the same, but students often
+1. **Writing balanced combustion equations:** For $\mathrm{C}_n\mathrm{H}_{2n+2}$ The coefficient of
+   $\mathrm{O}_2$ is $\frac{3n+1}{2}$ Not $n + \frac{n+1}{2}$ (these are the same, but students often
    get the algebra wrong). For odd $n$$\frac{3n+1}{2}$ is not an integer, so double the entire
    equation.
 

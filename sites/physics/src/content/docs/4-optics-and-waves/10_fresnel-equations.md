@@ -19,10 +19,10 @@ description: "When light strikes a planar interface between media with refractiv
 
 ### 10.1 Derivation at a Dielectric Interface
 
-When light strikes a planar interface between media with refractive indices $n_1$ and $n_2$The
+When light strikes a planar interface between media with refractive indices $n_1$ and $n_2$ The
 Amplitudes of the reflected and transmitted waves depend on the polarisation.
 
-For an incident wave with amplitude $E_i$The **reflection and transmission coefficients** are:
+For an incident wave with amplitude $E_i$ The **reflection and transmission coefficients** are:
 
 **s-polarisation** (perpendicular to the plane of incidence):
 
@@ -44,9 +44,9 @@ $$
 
 With $R + T = 1$ (energy conservation).
 
-### 10.2 Brewster"s Angle
+### 10.2 Brewster's Angle
 
-At the **Brewster angle** $\theta_B$The reflected beam for p-polarised light has zero amplitude:
+At the **Brewster angle** $\theta_B$ The reflected beam for p-polarised light has zero amplitude:
 $r_p = 0$:
 
 $$
@@ -71,7 +71,7 @@ Filters work at specific angles for reflected glare.
 
 ### 10.3 Total Internal Reflection and the Evanescent Wave
 
-When $n_1 \gt n_2$ and $\theta_i \gt \theta_c = \arcsin(n_2/n_1)$, $\sin\theta_t \gt 1$So
+When $n_1 \gt n_2$ and $\theta_i \gt \theta_c = \arcsin(n_2/n_1)$, $\sin\theta_t \gt 1$ So
 $\cos\theta_t = i\sqrt{\sin^2\theta_t - 1}$ becomes imaginary.
 
 The transmitted field becomes an **evanescent wave**:

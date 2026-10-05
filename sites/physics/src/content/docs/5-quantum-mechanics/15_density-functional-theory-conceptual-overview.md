@@ -73,7 +73,7 @@ $$
 T_{\text{TF}[n] = \frac{3\hbar^2}{10m}(3\pi^2)^{2/3}\int n^{5/3}(\mathbf{r})\,d^3r = C_{\text{TF}\int n^{5/3}\,d^3r}}
 $$
 
-For an atom with nuclear charge $Ze$Minimising
+For an atom with nuclear charge $Ze$ Minimising
 $E[n] = T_{\text{TF}[n] - Ze^2\int n(\mathbf{r})/r\,d^3r + \frac{1}{2}e^2\iint n(\mathbf{r})n(\mathbf{r}')/|\mathbf{r}-\mathbf{r}'|\,d^3rd^3r'}$:
 
 The variational equation gives:

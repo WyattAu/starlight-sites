@@ -24,7 +24,7 @@ description: "Study notes for Electricity with worked examples, practice problem
 
 **库仑定律：** $F = k\frac{q_1 q_2}{r^2}$（$k = 9 \times 10^9\,\text{N·m}^2/\text{C}^2$）
 
-**电场强度：** $E = \frac{F}{q}$（点电荷：$E = k\frac{Q}{r^2}$）
+**电场强度：** $E = \frac{F}{q}$（点电荷：$ E = k\frac{Q}{r^2}$）
 
 **电势：** $\varphi = \frac{E_p}{q}$
 
@@ -248,7 +248,7 @@ $$
 I_2 = \frac{U_{12}}{R_2} = \frac{24/7}{6} = \frac{4}{7} \approx 0.57\,\text{A}
 $$
 
-**答案：** $I_1 = \dfrac{8}{7}\,\text{A}$，$I_2 = \dfrac{4}{7}\,\text{A}$，$I_3 = \dfrac{12}{7}\,\text{A}$
+**答案：** $I_1 = \dfrac{8}{7}\,\text{A}$，$ I_2 = \dfrac{4}{7}\,\text{A}$，$ I_3 = \dfrac{12}{7}\,\text{A}$
 
 **考试技巧：** 电路动态分析的基本思路是"局部→整体→局部"：先分析局部电阻变化，再分析总电阻、总电流变化，最后分析各部分电压和电流的变化。
 
@@ -343,7 +343,7 @@ $$
 
 步骤3：电量 $Q = CU$，$C$ 减小，$U$ 不变，故 $Q$ 减小
 
-步骤4：电场强度 $E = \dfrac{U}{d}$，$U$ 不变，$d$ 增大，故 $E$ 减小
+步骤4：电场强度 $E = \dfrac{U}{d}$，$ U$ 不变，$d$ 增大，故 $E$ 减小
 
 步骤5：板间电势差 $U$ 不变
 

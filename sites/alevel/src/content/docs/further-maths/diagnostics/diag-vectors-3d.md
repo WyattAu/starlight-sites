@@ -126,7 +126,7 @@ $2x - y + 2z = 1$.
 **Solution:**
 
 (a)
-$\mathbf{r} = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix} + t\begin{pmatrix} 2 \\ -1 \\ 3 \end{pmatrix}$I.e.,
+$\mathbf{r} = \begin{pmatrix} 1 \\ 2 \\ -1 \end{pmatrix} + t\begin{pmatrix} 2 \\ -1 \\ 3 \end{pmatrix}$ I.e.,
 $x = 1+2t$$y = 2-t$$z = -1+3t$.
 
 (b) Substituting into the plane: $2(1+2t) - (0+t) + (1-t) = 5$. $2 + 4t - t + 1 - t = 5$.
@@ -157,7 +157,7 @@ Area $= \frac{1}{2}\sqrt{121 + 25 + 16} = \frac{1}{2}\sqrt{162} = \frac{9\sqrt{2
 
 (b) Normal
 $\mathbf{n} = \overrightarrow{AB} \times \overrightarrow{AC} = \begin{pmatrix} 11 \\ 5 \\ 4 \end{pmatrix}$.
-Plane through $A(1,0,0)$: $11(x-1) + 5y + 4z = 0$I.e., $11x + 5y + 4z = 11$.
+Plane through $A(1,0,0)$: $11(x-1) + 5y + 4z = 0$ I.e., $11x + 5y + 4z = 11$.
 
 (c) $|\overrightarrow{AB}| = \sqrt{1+9+1} = \sqrt{11}$.
 $|\overrightarrow{AC}| = \sqrt{1+1+16} = \sqrt{18}$.
@@ -172,7 +172,7 @@ $= \frac{11}{6}$ cubic units.
 ### IT-3: Applications in Mechanics (with Differential Equations)
 
 **Question:** A force $\mathbf{F} = \begin{pmatrix} 3t \\ 2 \\ -1 \end{pmatrix}$ N acts on a
-particle of mass 2 kg. At $t = 0$The particle is at $\begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}$ m
+particle of mass 2 kg. At $t = 0$ The particle is at $\begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix}$ m
 with velocity $\begin{pmatrix} 1 \\ 0 \\ 2 \end{pmatrix}$ m/s. (a) Find the acceleration. (b) Find
 the velocity as a function of time. (c) Find the position as a function of time. (d) Calculate the
 kinetic energy at $t = 2$.

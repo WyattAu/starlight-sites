@@ -29,7 +29,7 @@ Clean, readable overloading based on concept constraints.
 ## Partial Ordering of Constraints
 
 The C++ standard defines a **partial ordering** on constraints called **subsumption** [N4950
-§13.5.4]. Given two constraints $P$ and $Q$We say $P$ **subsumes** $Q$ (written $P \succeq Q$) if
+§13.5.4]. Given two constraints $P$ and $Q$ We say $P$ **subsumes** $Q$ (written $P \succeq Q$) if
 $P$ is at least as restrictive as $Q$ --- meaning that every set of template arguments satisfying
 $P$ also satisfies $Q$.
 
@@ -54,7 +54,7 @@ Determining subsumption between constraint conjunctions and disjunctions are [N4
 ## Proof: Partially-Ordered Overloads Are Preferred
 
 **Claim:** When two viable function templates have constraints $P$ and $Q$ And $P$ subsumes $Q$ but
-$Q$ does not subsume $P$The overload with constraint $P$ is unambiguously preferred.
+$Q$ does not subsume $P$ The overload with constraint $P$ is unambiguously preferred.
 
 **Proof:**
 

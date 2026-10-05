@@ -25,7 +25,7 @@ $$
 A u_{xx} + B u_{xy} + C u_{yy} + D u_x + E u_y + F u = G
 $$
 
-- **Elliptic** ($B^2 - 4AC \lt 0$): e.g., Laplace"s equation $u_{xx} + u_{yy} = 0$.
+- **Elliptic** ($B^2 - 4AC \lt 0$): e.g., Laplace's equation $u_{xx} + u_{yy} = 0$.
 - **Parabolic** ($B^2 - 4AC = 0$): e.g., the heat equation $u_t = \alpha^2 u_{xx}$.
 - **Hyperbolic** ($B^2 - 4AC > 0$): e.g., the wave equation $u_{tt} = c^2 u_{xx}$.
 
@@ -74,7 +74,7 @@ This gives two ODEs:
 $$X'' + \lambda X = 0, \quad X(0) = X(L) = 0$$ $$T' + \alpha^2 \lambda T = 0$$
 
 The boundary value problem for $X$ has solutions only for $\lambda_n = (n\pi/L)^2$
-$n = 1, 2, 3, \ldots$With $X_n(x) = \sin(n\pi x/L)$.
+$n = 1, 2, 3, \ldots$ With $X_n(x) = \sin(n\pi x/L)$.
 
 The corresponding $T_n(t) = e^{-\alpha^2 (n\pi/L)^2 t}$.
 
@@ -89,7 +89,7 @@ $f$).
 
 ### 8.5 Worked Example: Heat Equation
 
-**Problem.** Solve $u_t = u_{xx}$ for $0 \lt x \lt \pi$, $t > 0$With $u(0, t) = u(\pi, t) = 0$ And
+**Problem.** Solve $u_t = u_{xx}$ for $0 \lt x \lt \pi$, $t > 0$ With $u(0, t) = u(\pi, t) = 0$ And
 $u(x, 0) = \sin(2x) + 3\sin(5x)$.
 
 _Solution._ Here $\alpha = 1$ and $L = \pi$. The initial condition is already a sine series.
@@ -110,7 +110,7 @@ $u_t(x, 0) = g(x)$.
 ### 8.7 Derivation of the Wave Equation
 
 Consider a string of length $L$ under tension $T$. Let $u(x, t)$ be the vertical displacement. For A
-small segment $[x, x + \Delta x]$Newton's second law in the vertical direction gives:
+small segment $[x, x + \Delta x]$ Newton's second law in the vertical direction gives:
 
 $$
 \rho \Delta x \, u_{tt} = T\sin\theta(x + \Delta x) - T\sin\theta(x)
@@ -163,7 +163,7 @@ $$
 u_{xx} + u_{yy} = 0
 $$
 
-On a domain $\Omega \subseteq \mathbb{R}^2$With boundary conditions on $\partial\Omega$.
+On a domain $\Omega \subseteq \mathbb{R}^2$ With boundary conditions on $\partial\Omega$.
 
 **Theorem 8.1 (Maximum Principle).** A harmonic function $u$ (satisfying Laplace's equation) on a
 Bounded domain attains its maximum and minimum on the boundary.
@@ -253,7 +253,7 @@ $$
 u_x(0, t) = 0, \quad u_x(L, t) = 0
 $$
 
-(insulated ends). The separation of variables gives $X'(0) = X'(L) = 0$Yielding eigenvalues
+(insulated ends). The separation of variables gives $X'(0) = X'(L) = 0$ Yielding eigenvalues
 $\lambda_0 = 0$ with $X_0 = 1$ And $\lambda_n = (n\pi/L)^2$ for $n \geq 1$ with
 $X_n = \cos(n\pi x/L)$.
 
@@ -265,12 +265,12 @@ $$
 
 Where $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\, dx$.
 
-_Remark._ As $t \to \infty$All exponential terms decay, and $u(x, t) \to a_0/2$The average Value of
+_Remark._ As $t \to \infty$ All exponential terms decay, and $u(x, t) \to a_0/2$ The average Value of
 the initial temperature. Physically, an insulated rod reaches a uniform steady-state Temperature.
 
 ### 8.15 Worked Example: Heat Equation with Non-Trivial Initial Data
 
-**Problem.** Solve $u_t = u_{xx}$ for $0 \lt x \lt \pi$, $t > 0$With $u(0, t) = u(\pi, t) = 0$ And
+**Problem.** Solve $u_t = u_{xx}$ for $0 \lt x \lt \pi$, $t > 0$ With $u(0, t) = u(\pi, t) = 0$ And
 $u(x, 0) = x(\pi - x)$.
 
 <details>

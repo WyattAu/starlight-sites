@@ -82,7 +82,7 @@ University-level solid state physics notes covering crystal structures, band the
 
 - Quantum mechanics (wave functions, operators, perturbation theory)
 - Statistical mechanics (ensembles, partition functions)
-- Electromagnetism (Maxwell"s equations, dielectrics)
+- Electromagnetism (Maxwell's equations, dielectrics)
 - Linear algebra (vectors, matrices, Fourier transforms)
 
 ## How to Use These Notes

@@ -635,7 +635,7 @@ inserting to pre-allocate buckets and avoid all intermediate rehashes [N4950 §2
 
 **6. Using `std::unordered_map` when you need range queries:** `std::unordered_map` provides no
 Ordering guarantee. Operations like `lower_bound``upper_bound`And `equal_range` in the ordered Sense
-are not available. If you need to iterate over all keys in a range $[lo, hi]$Use `std::map` Instead.
+are not available. If you need to iterate over all keys in a range $[lo, hi]$ Use `std::map` Instead.
 
 **7. Erasing while iterating with `operator[]`:** In `std::map`The pattern `m.erase(m[key])` first
 Default-inserts `key` (via `operator[]`) and then immediately erases it, causing a redundant

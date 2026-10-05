@@ -36,7 +36,7 @@ technological innovation, the rise of large corporations, and the expansion of r
   settlement of the West, and standardised time zones (1883)
 - **Communication**: Telegraph (Morse, 1844) and telephone (Bell, 1876) revolutionised long-distance
   communication
-- **Electricity**: Thomas Edison"s light bulb (1879) and power generation systems transformed
+- **Electricity**: Thomas Edison's light bulb (1879) and power generation systems transformed
   industry and daily life
 
 ### Rise of Big Business

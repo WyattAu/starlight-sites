@@ -65,14 +65,14 @@ $$
 0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0
 $$
 
-Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$It means no matter how
+Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$ It means no matter how
 Clever your implementation, the algorithm will take at least $c \cdot n \log n$ steps for large $n$.
 
 ### Big-Theta: Tight Bound
 
 $\Theta(g(n))$ is the intersection: $f(n) \in \Theta(g(n))$ if and only if $f(n) \in O(g(n))$ and
 $f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exactly the same rate
-As $g(n)$Up to constant factors.
+As $g(n)$ Up to constant factors.
 
 $$
 0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0
@@ -309,7 +309,7 @@ Compute the total cost of $n$ operations and divide by $n$.
 **Dynamic array (e.g., Python `list`C++ `std::vector`):**
 
 - Append is $O(1)$ when there is capacity, $O(n)$ when resizing is needed
-- Resizing doubles the capacity: after growing from $k$ to $2k$The next $k$ appends are $O(1)$
+- Resizing doubles the capacity: after growing from $k$ to $2k$ The next $k$ appends are $O(1)$
 - Total cost for $n$ appends: $1 + 1 + \cdots + 1 + n + 1 + 1 + \cdots$ where the $n$ cost occurs at
   sizes $1, 2, 4, 8, \ldots$
 - Total: $n + 1 + 2 + 4 + \cdots + n = n + 2n - 1 = 3n - 1$
@@ -347,7 +347,7 @@ $$
 $$
 
 - After an $O(1)$ insert (no resize): $\Phi$ increases by 2, amortised cost = $1 + 2 = 3$
-- After a resize from $m$ to $2m$: $\Phi$ goes from $2m - m = m$ to $2m - 2m = 0$A drop of $m$
+- After a resize from $m$ to $2m$: $\Phi$ goes from $2m - m = m$ to $2m - 2m = 0$ A drop of $m$
 - Amortised cost = $m + 0 - m = 0$ (the actual cost of $m$ is fully paid by the potential drop)
 
 Total amortised cost: $O(1)$ per operation.
@@ -479,11 +479,11 @@ Is proven NP-complete by reducing from a known NP-complete problem.
 | ------------------- | ------------------------------- | ---------------------------------------- | ------------------------------------ |
 | SAT                 | Boolean formula                 | Is there a satisfying assignment?        | Basis for all NP-completeness proofs |
 | 3-SAT               | 3-CNF formula                   | Is there a satisfying assignment?        | Circuit design, scheduling           |
-| Vertex Cover        | Graph $G$Integer $k$            | Is there a vertex cover of size $\le k$? | Network monitoring                   |
+| Vertex Cover        | Graph $G$ Integer $k$            | Is there a vertex cover of size $\le k$? | Network monitoring                   |
 | Travelling Salesman | Graph with weights, integer $k$ | Is there a tour of length $\le k$?       | Logistics, routing                   |
 | Subset Sum          | Set of integers, target $t$     | Is there a subset summing to $t$?        | Knapsack variants                    |
-| Graph Colouring     | Graph $G$Integer $k$            | Can $G$ be coloured with $k$ colours?    | Register allocation, scheduling      |
-| Clique              | Graph $G$Integer $k$            | Does $G$ contain a clique of size $k$?   | Social network analysis              |
+| Graph Colouring     | Graph $G$ Integer $k$            | Can $G$ be coloured with $k$ colours?    | Register allocation, scheduling      |
+| Clique              | Graph $G$ Integer $k$            | Does $G$ contain a clique of size $k$?   | Social network analysis              |
 
 ### Dealing with NP-Hardness in Practice
 
@@ -496,7 +496,7 @@ When you encounter an NP-hard problem:
 3. **Heuristics**. Greedy algorithms, local search, simulated annealing, genetic algorithms. No
    guarantees, but often work well in practice
 4. **Fixed-parameter tractability**. If the problem is NP-hard but polynomial for fixed parameter
-   $k$Use FPT algorithms (e.g., vertex cover is $O(2^k \cdot n)$)
+   $k$ Use FPT algorithms (e.g., vertex cover is $O(2^k \cdot n)$)
 5. **SAT solvers**. For many combinatorial problems, encoding as SAT and using a modern solver
    (CDCL-based) is surprisingly effective
 
@@ -512,7 +512,7 @@ Asymptotic analysis ignores the memory hierarchy. In practice, cache effects dom
   number of cache misses per operation by a factor of $\log_2 B$ where $B$ is the block size
 
 A linked list traversal that is $O(n)$ in theory can be 10-100x slower than an array traversal that
-Is also $O(n)$Because the array has spatial locality.
+Is also $O(n)$ Because the array has spatial locality.
 
 ### Constant Factors
 
@@ -546,7 +546,7 @@ def branchless_max(a, b):
 ### 1. Confusing Big-O with Big-Theta
 
 Saying "this algorithm is $O(1)$" when you mean $\Theta(1)$ is imprecise. Technically, every
-Algorithm is $O(2^n)$ because $O$ is only an upper bound. If you claim $O(1)$You should be Prepared
+Algorithm is $O(2^n)$ because $O$ is only an upper bound. If you claim $O(1)$ You should be Prepared
 to justify it as a tight bound.
 
 ### 2. Ignoring the Input Distribution
@@ -644,7 +644,7 @@ E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
 $$
 
 Where $H_n = \sum_{i=1}^{n} 1/i$ is the $n$-th harmonic number. The constant $1.386$ is about 39%
-More comparisons than the information-theoretic minimum of $n \log_2 n$Which is remarkably close To
+More comparisons than the information-theoretic minimum of $n \log_2 n$ Which is remarkably close To
 optimal for a comparison sort.
 
 ### Smoothed Analysis
@@ -694,7 +694,7 @@ $N =
 
 Splay trees are self-adjusting BSTs with no explicit balance information. Every access is followed
 By a "splay" operation that moves the accessed node to the root using a sequence of rotations. The
-Amortised cost of each operation is $O(\log n)$Proven using the potential method.
+Amortised cost of each operation is $O(\log n)$ Proven using the potential method.
 
 The potential function for splay trees is:
 

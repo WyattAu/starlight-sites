@@ -56,7 +56,7 @@ $$
 
 ### 3.3 Magnetic Vector Potential
 
-Since $\nabla \cdot \mathbf{B} = 0$We can write $\mathbf{B} = \nabla \times \mathbf{A}$Where
+Since $\nabla \cdot \mathbf{B} = 0$ We can write $\mathbf{B} = \nabla \times \mathbf{A}$ Where
 $\mathbf{A}$ is the **magnetic vector potential**.
 
 In the Coulomb gauge ($\nabla \cdot \mathbf{A} = 0$), the vector potential satisfies
@@ -113,7 +113,7 @@ $$
 \mathbf{m} = I\mathbf{a}
 $$
 
-For a planar loop of $N$ turns: $\mathbf{m} = NIA\,\hat{\mathbf{n}}$Where $A$ is the area And
+For a planar loop of $N$ turns: $\mathbf{m} = NIA\,\hat{\mathbf{n}}$ Where $A$ is the area And
 $\hat{\mathbf{n}}$ is the unit normal given by the right-hand rule.
 
 **Field of a magnetic dipole** (at position $\mathbf{r}$ from the dipole):
@@ -146,7 +146,7 @@ $$
 <summary>Example: Field on the axis of a circular loop</summary>
 
 A circular loop of radius $R$ carries current $I$. On the axis at distance $z$ from the centre,
-Every element $d\mathbf{l}$ is perpendicular to $\hat{\mathbf{r}}$So:
+Every element $d\mathbf{l}$ is perpendicular to $\hat{\mathbf{r}}$ So:
 
 $$
 d\mathbf{B} = \frac{\mu_0 I}{4\pi}\frac{dl}{R^2 + z^2}
@@ -175,7 +175,7 @@ $$
 Using the product rule
 $\mathbf{J} \times (\nabla f) = \nabla \times (f\mathbf{J}) - f(\nabla \times \mathbf{J})$ And
 noting that $\nabla \times \mathbf{J}(\mathbf{r}') = 0$ (since $\mathbf{J}$ depends on
-$\mathbf{r}'$Not $\mathbf{r}$):
+$\mathbf{r}'$ Not $\mathbf{r}$):
 
 $$
 \mathbf{B}(\mathbf{r}) = \frac{\mu_0}{4\pi}\nabla \times \int \frac{\mathbf{J}(\mathbf{r}')}{|\mathbf{r}-\mathbf{r}'|}\,d^3\mathbf{r}'
@@ -197,7 +197,7 @@ $$
 <summary>Example: Vector potential of an infinite wire</summary>
 
 An infinite straight wire along the $z$-axis carries current $I$. In cylindrical coordinates
-$(s, \phi, z)$The vector potential can only depend on $s$ by symmetry, and must point along
+$(s, \phi, z)$ The vector potential can only depend on $s$ by symmetry, and must point along
 $\hat{\mathbf{z}}$.
 
 $\mathbf{A}(s) = \frac{\mu_0 I}{4\pi}\int_{-\infty}^{\infty}\frac{dz'}{\sqrt{s^2 + z'^2}}\,\hat{\mathbf{z}}$

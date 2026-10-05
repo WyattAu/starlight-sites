@@ -54,7 +54,7 @@ Before deploying, understand the core routing model:
 - **Services**: Define the backend (container IP + port)
 - **EntryPoints**: Listening ports (80 for HTTP, 443 for HTTPS, 8080 for dashboard)
 - **Providers**: Sources of configuration (Docker labels, file provider, etc.)
-- **TLS Stores/Certificates**: Managed by ACME (Let"s Encrypt) with automatic renewal
+- **TLS Stores/Certificates**: Managed by ACME (Let's Encrypt) with automatic renewal
 
 ## Docker Compose Deployment
 
@@ -255,7 +255,7 @@ http:
       service: noop@internal
 ```
 
-## TLS with Let"s Encrypt
+## TLS with Let's Encrypt
 
 Traefik handles Let's Encrypt certificate provisioning and renewal automatically. Two challenge
 Types are commonly used:

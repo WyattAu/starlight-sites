@@ -134,7 +134,7 @@ New fundamental frequency: $f_1' = \frac{120}{3.0} = 40.0\,\text{Hz}$
 
 Percentage increase: $\frac{40.0 - 33.3}{33.3} \times 100 = 20.1\%$
 
-The student is wrong. Since $f \propto v \propto \sqrt{T}$A $44\%$ increase in tension produces only
+The student is wrong. Since $f \propto v \propto \sqrt{T}$ A $44\%$ increase in tension produces only
 a $\sqrt{1.44} - 1 = 1.20 - 1 = 20\%$ increase in frequency.
 
 ---
@@ -389,7 +389,7 @@ No light passes through. The result is counterintuitive: removing a filter **red
 transmitted intensity from $I_0/8$ to zero.
 
 (c) The middle filter is essential because it rotates the plane of polarisation by
-$45^\circ$Creating a non-zero component along the horizontal axis of the third filter. Without it,
+$45^\circ$ Creating a non-zero component along the horizontal axis of the third filter. Without it,
 the vertically polarised light has zero component along the horizontal transmission axis.
 
 This demonstrates that:

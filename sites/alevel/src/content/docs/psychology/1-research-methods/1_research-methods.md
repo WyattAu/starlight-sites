@@ -127,7 +127,7 @@ The choice of statistical test depends on three factors:
 | Related t-test   | Difference               | Interval   | Related   |
 | Unrelated t-test | Difference               | Interval   | Unrelated |
 | Chi-squared      | Difference / association | Nominal    | Unrelated |
-| Spearman"s rho   | Correlation              | Ordinal    |,         |
+| Spearman's rho   | Correlation              | Ordinal    |,         |
 | Pearson's r      | Correlation              | Interval   |,         |
 
 **Significance:** If the calculated value is equal to or more extreme than the critical value (at p

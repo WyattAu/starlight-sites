@@ -81,7 +81,7 @@ individual differences, all examined through empirical evidence and critical eva
 
 ### Developmental Psychology
 
-- **Attachment**, Bowlby"s evolutionary theory; types of attachment (secure, insecure-avoidant,
+- **Attachment**, Bowlby's evolutionary theory; types of attachment (secure, insecure-avoidant,
   insecure-resistant); Ainsworth's Strange Situation
 - **Maternal deprivation**, Bowlby's 44 thieves study; the critical period; effects of
   institutionalisation (Romanian orphan studies)

@@ -53,7 +53,7 @@ eukaryotes.
 | Ribosomes     | 70S (30S + 50S subunits)                                   | 80S (40S + 60S subunits); 70S in mitochondria/chloroplasts           |
 | Organelles    | None (no nucleus, mitochondria, ER, etc.)                  | Membrane-bound organelles present (nucleus, mitochondria, ER, Golgi) |
 | Cell division | Binary fission (no spindle)                                | Mitosis (and meiosis); spindle apparatus involved                    |
-| Size          | 0.5--5 $\mu$M                                              | 10--100 $\mu$M                                                       |
+| Size          | 0.5--5 $\mu$ M                                              | 10--100 $\mu$ M                                                       |
 
 Prokaryotes reproduce faster because: (1) binary fission is simpler than mitosis -- no spindle
 formation or nuclear envelope breakdown; (2) they have a smaller genome to replicate (circular DNA,

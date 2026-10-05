@@ -1009,7 +1009,7 @@ This offers up to **35 subject combinations**. Each elective is scaled similarly
 
 ### Maximum Score: 750 Points
 
-The Gaokao"s total score of 750 points is distributed across the mandatory subjects and electives as
+The Gaokao's total score of 750 points is distributed across the mandatory subjects and electives as
 described above. Understanding how scores are reported and used is critical:
 
 - **Original score (卷面分):** The raw mark a student receives on the exam paper. Used directly for
@@ -4421,7 +4421,7 @@ $$
 
 ### 例题3：集合运算
 
-**题目：** 已知全集 $U = \mathbb{R}$，集合 $A = \{x \mid x^2 - 3x + 2 \leq 0\}$，$B = \{x \mid x > 1\}$，求 $A \cap (\complement_U B)$。
+**题目：** 已知全集 $U = \mathbb{R}$，集合 $A = \{x \mid x^2 - 3x + 2 \leq 0\}$，$ B = \{x \mid x > 1\}$，求 $A \cap (\complement_U B)$。
 
 **解答：**
 
@@ -4444,7 +4444,7 @@ $$
 
 1. 解方程 $2x^2 - 7x + 3 = 0$，并验证韦达定理
 2. 等差数列 $\{a_n\}$ 中，$S_{10} = 100$，求 $a_1 + a_{10}$
-3. 已知 $A = \{1, 2, 3, 4\}$，$B = \{2, 4, 6, 8\}$，求 $A \cup B$ 和 $A \cap B$
+3. 已知 $A = \{1, 2, 3, 4\}$，$ B = \{2, 4, 6, 8\}$，求 $A \cup B$ 和 $A \cap B$
 
 ### 例题4：等比数列
 
@@ -4537,7 +4537,7 @@ $$
 **关键公式：**
 
 - 等差数列：$a_n = a_1 + (n-1)d$，$S_n = \frac{n(a_1 + a_n)}{2} = na_1 + \frac{n(n-1)}{2}d$
-- 等比数列：$a_n = a_1 q^{n-1}$，$S_n = \frac{a_1(1-q^n)}{1-q}$（$q \neq 1$）
+- 等比数列：$a_n = a_1 q^{n-1}$，$ S_n = \frac{a_1(1-q^n)}{1-q}$（$q \neq 1$）
 
 ## 更多典型例题
 
@@ -4600,7 +4600,7 @@ $$
 
 ### 例题9：集合与不等式的综合
 
-**题目：** 已知集合 $A = \{x \mid x^2 - 2x - 3 < 0\}$，$B = \{x \mid x > a\}$。若 $A \subseteq B$，求实数 $a$ 的取值范围。
+**题目：** 已知集合 $A = \{x \mid x^2 - 2x - 3 < 0\}$，$ B = \{x \mid x > a\}$。若 $A \subseteq B$，求实数 $a$ 的取值范围。
 
 **解答：**
 
@@ -4616,7 +4616,7 @@ $$
 
 步骤3：要使 $A$ 中所有元素都大于 $a$，需 $a \leq -1$。
 
-步骤4：当 $a = -1$ 时，$B = (-1, +\infty)$，$A = (-1, 3) \subseteq B$ 成立。
+步骤4：当 $a = -1$ 时，$B = (-1, +\infty)$，$ A = (-1, 3) \subseteq B$ 成立。
 
 **答案：** $a \leq -1$，即 $a \in (-\infty, -1]$
 
@@ -5358,7 +5358,7 @@ $$
 
 ### 例题9：向量在解析几何中的应用
 
-**题目：** 已知椭圆 $\dfrac{x^2}{4} + \dfrac{y^2}{3} = 1$，点 $P$ 为椭圆上一点，$A(-2, 0)$，$B(2, 0)$。求 $\vec{PA} \cdot \vec{PB}$ 的取值范围。
+**题目：** 已知椭圆 $\dfrac{x^2}{4} + \dfrac{y^2}{3} = 1$，点 $P$ 为椭圆上一点，$A(-2, 0)$，$ B(2, 0)$。求 $\vec{PA} \cdot \vec{PB}$ 的取值范围。
 
 **解答：**
 
@@ -5415,7 +5415,7 @@ $$
 
 **解答：**
 
-步骤1：设 $A(x_1, y_1)$，$B(x_2, y_2)$，中点 $P(x_0, y_0)$
+步骤1：设 $A(x_1, y_1)$，$ B(x_2, y_2)$，中点 $P(x_0, y_0)$
 
 步骤2：由 $y_1^2 = 4x_1$，$y_2^2 = 4x_2$，两式相减：$y_1^2 - y_2^2 = 4(x_1 - x_2)$
 
@@ -5439,7 +5439,7 @@ $$
 
 步骤1：建立空间直角坐标系，设正方体棱长为 $2$
 
-步骤2：$A_1(2, 0, 2)$，$E(2, 2, 1)$，$\overrightarrow{A_1E} = (0, 2, -1)$
+步骤2：$A_1(2, 0, 2)$，$ E(2, 2, 1)$，$\overrightarrow{A_1E} = (0, 2, -1)$
 
 步骤3：平面 $ABCD$ 的法向量为 $\vec{n} = (0, 0, 1)$
 
@@ -5574,7 +5574,7 @@ URL: https://gaokao.wyattau.com/physics/electricity/
 
 **库仑定律：** $F = k\frac{q_1 q_2}{r^2}$（$k = 9 \times 10^9\,\text{N·m}^2/\text{C}^2$）
 
-**电场强度：** $E = \frac{F}{q}$（点电荷：$E = k\frac{Q}{r^2}$）
+**电场强度：** $E = \frac{F}{q}$（点电荷：$ E = k\frac{Q}{r^2}$）
 
 **电势：** $\varphi = \frac{E_p}{q}$
 
@@ -5798,7 +5798,7 @@ $$
 I_2 = \frac{U_{12}}{R_2} = \frac{24/7}{6} = \frac{4}{7} \approx 0.57\,\text{A}
 $$
 
-**答案：** $I_1 = \dfrac{8}{7}\,\text{A}$，$I_2 = \dfrac{4}{7}\,\text{A}$，$I_3 = \dfrac{12}{7}\,\text{A}$
+**答案：** $I_1 = \dfrac{8}{7}\,\text{A}$，$ I_2 = \dfrac{4}{7}\,\text{A}$，$ I_3 = \dfrac{12}{7}\,\text{A}$
 
 **考试技巧：** 电路动态分析的基本思路是"局部→整体→局部"：先分析局部电阻变化，再分析总电阻、总电流变化，最后分析各部分电压和电流的变化。
 
@@ -5893,7 +5893,7 @@ $$
 
 步骤3：电量 $Q = CU$，$C$ 减小，$U$ 不变，故 $Q$ 减小
 
-步骤4：电场强度 $E = \dfrac{U}{d}$，$U$ 不变，$d$ 增大，故 $E$ 减小
+步骤4：电场强度 $E = \dfrac{U}{d}$，$ U$ 不变，$d$ 增大，故 $E$ 减小
 
 步骤5：板间电势差 $U$ 不变
 
@@ -6372,7 +6372,7 @@ $$
 
 步骤4：周期：$T = \dfrac{2\pi R}{v} = \dfrac{2\pi R}{\sqrt{gR}} = 2\pi\sqrt{\dfrac{R}{g}}$
 
-步骤5：代入 $g = 10\,\text{m/s}^2$，$R = 6.4 \times 10^6\,\text{m}$：$v \approx 7.9\,\text{km/s}$，$T \approx 5080\,\text{s} \approx 84.7\,\text{min}$
+步骤5：代入 $g = 10\,\text{m/s}^2$，$R = 6.4 \times 10^6\,\text{m}$：$v \approx 7.9\,\text{km/s}$，$ T \approx 5080\,\text{s} \approx 84.7\,\text{min}$
 
 **答案：** 近地卫星环绕速度为 $\sqrt{gR}$，周期为 $2\pi\sqrt{\dfrac{R}{g}}$
 
@@ -6657,7 +6657,7 @@ $$
 = \frac{E_{k1}\nu_1 - E_{k2}\nu_1 - E_{k1}\nu_1 + E_{k1}\nu_2}{\nu_1 - \nu_2} = \frac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}
 $$
 
-**答案：** $h = \dfrac{E_{k1} - E_{k2}}{\nu_1 - \nu_2}$，$W_0 = \dfrac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}$
+**答案：** $h = \dfrac{E_{k1} - E_{k2}}{\nu_1 - \nu_2}$，$ W_0 = \dfrac{E_{k1}\nu_2 - E_{k2}\nu_1}{\nu_1 - \nu_2}$
 
 ## 深入理解
 
@@ -6745,7 +6745,7 @@ $$
 = \frac{e\nu_1 U_1 - e\nu_1 U_2 - eU_1 \nu_1 + eU_1 \nu_2}{\nu_1 - \nu_2} = \frac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}
 $$
 
-**答案：** $h = \dfrac{e(U_1 - U_2)}{\nu_1 - \nu_2}$，$W_0 = \dfrac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}$
+**答案：** $h = \dfrac{e(U_1 - U_2)}{\nu_1 - \nu_2}$，$ W_0 = \dfrac{e(U_1 \nu_2 - U_2 \nu_1)}{\nu_1 - \nu_2}$
 
 **常见错误：** 遏止电压对应的是光电子的最大初动能，即 $eU_c = E_k$。不同频率的光照射同一金属，逸出功相同。
 
@@ -6825,9 +6825,9 @@ $$
 
 步骤4：旋转 $90°$ 后，夹角变为 $60° + 90° = 150°$ 或 $|60° - 90°| = 30°$
 
-步骤5：若夹角为 $30°$：$I' = \dfrac{I_0}{2}\cos^2 30° = \dfrac{I_0}{2} \times \dfrac{3}{4} = \dfrac{3I_0}{8}$
+步骤5：若夹角为 $30°$：$ I' = \dfrac{I_0}{2}\cos^2 30° = \dfrac{I_0}{2} \times \dfrac{3}{4} = \dfrac{3I_0}{8}$
 
-步骤6：若夹角为 $150°$：$I' = \dfrac{I_0}{2}\cos^2 150° = \dfrac{I_0}{2} \times \dfrac{3}{4} = \dfrac{3I_0}{8}$
+步骤6：若夹角为 $150°$：$ I' = \dfrac{I_0}{2}\cos^2 150° = \dfrac{I_0}{2} \times \dfrac{3}{4} = \dfrac{3I_0}{8}$
 
 **答案：** 旋转后的光强为 $\dfrac{3I_0}{8}$
 

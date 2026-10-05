@@ -46,7 +46,7 @@ Wave properties, refraction, diffraction, interference, sound, and the electroma
 
 ### Electricity
 
-Static electricity, circuits, Ohm"s law, electromagnetism, and semiconductor devices.
+Static electricity, circuits, Ohm's law, electromagnetism, and semiconductor devices.
 
 → **[Full notes](/physics/3-electricity/3_electricity/)**
 

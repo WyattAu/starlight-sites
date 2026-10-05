@@ -395,7 +395,7 @@ Is the error truly exceptional (should rarely happen)?
 | Criterion               | Exceptions                        | `std::expected`                 | Error Codes                    |
 | :---------------------- | :-------------------------------- | :------------------------------ | :----------------------------- |
 | Normal-path overhead    | ~0 (no branch)                    | 1 branch (check `has_value()`)  | 1 branch + compare             |
-| Error-path overhead     | ~5-20 $\mu$S (unwind)             | 0 (direct branch)               | 0 (direct return)              |
+| Error-path overhead     | ~5-20 $\mu$ S (unwind)             | 0 (direct branch)               | 0 (direct return)              |
 | Code clarity            | High (separate happy/error paths) | Medium (explicit checks)        | Low (pervasive error checks)   |
 | Forgetting to handle    | Compiler warns on uncaught        | UB if `value()` called on error | Easy to forget to check return |
 | Composability           | Implicit (stack unwinding)        | Monadic chains (`and_then`)     | Manual propagation             |

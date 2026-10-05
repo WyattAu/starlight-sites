@@ -356,7 +356,7 @@ $$
 
 步骤4：周期：$T = \dfrac{2\pi R}{v} = \dfrac{2\pi R}{\sqrt{gR}} = 2\pi\sqrt{\dfrac{R}{g}}$
 
-步骤5：代入 $g = 10\,\text{m/s}^2$，$R = 6.4 \times 10^6\,\text{m}$：$v \approx 7.9\,\text{km/s}$，$T \approx 5080\,\text{s} \approx 84.7\,\text{min}$
+步骤5：代入 $g = 10\,\text{m/s}^2$，$R = 6.4 \times 10^6\,\text{m}$：$v \approx 7.9\,\text{km/s}$，$ T \approx 5080\,\text{s} \approx 84.7\,\text{min}$
 
 **答案：** 近地卫星环绕速度为 $\sqrt{gR}$，周期为 $2\pi\sqrt{\dfrac{R}{g}}$
 

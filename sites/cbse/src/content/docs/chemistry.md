@@ -56,7 +56,7 @@ and Organic Chemistry (28 marks).
 | Magnetic | $m_l$ | $-l, \ldots, 0, \ldots, l$ | Orbital orientation |
 | Spin | $m_s$ | $+1/2, -1/2$ | Electron spin |
 
-**Electronic configurations** follow the Aufbau principle, Hund"s rule, and Pauli exclusion principle.
+**Electronic configurations** follow the Aufbau principle, Hund's rule, and Pauli exclusion principle.
 
 **Exceptions:** $\text{Cr} = [\text{Ar}]\,3d^5\,4s^1$; $\text{Cu} = [\text{Ar}]\,3d^{10}\,4s^1$ (half-filled and
 fully-filled $d$-subshells are more stable).
@@ -300,7 +300,7 @@ Crystal field splitting energy $\Delta_o$. Weak field (high spin) vs. strong fie
 3. Name and number substituents alphabetically (ignoring prefixes like di-, tri-).
 4. For functional groups, assign the principal functional group the lowest number; name others as prefixes.
 
-**Functional group priority** (highest to lowest for suffix): $-$COOH $>$ $-$CHO $>$ $-$C=O $>$ $-$OH $>$ $-$NH_2 $>$ $>$ C=C $>$ $-$C≡C.
+**Functional group priority** (highest to lowest for suffix): $-$ COOH $>$ $-$ CHO $>$ $-$ C=O $>$ $-$ OH $>$ $-$ NH_2 $>$ $>$ C=C $>$ $-$ C≡C.
 
 ### 3.2 Hydrocarbons
 
@@ -315,7 +315,7 @@ alkenes but in two steps), acetylide formation.
 
 **Aromatic hydrocarbons:** Benzene ring with delocalised $\pi$-electrons (6$\pi$). Electrophilic aromatic
 substitution: nitration, sulphonation, halogenation, Friedel-Crafts alkylation/acylation. Activating
-groups ($-$OH, $-$NH$_2$, $-$CH$_3$) and deactivating groups ($-$NO$_2$, $-$COOH, $-$CHO).
+groups ($-$ OH, $-$ NH$_2$, $-$ CH$_3$) and deactivating groups ($-$ NO$_2$, $-$ COOH, $-$ CHO).
 
 ### 3.3 Halogen Derivatives
 
@@ -330,10 +330,10 @@ groups ($-$OH, $-$NH$_2$, $-$CH$_3$) and deactivating groups ($-$NO$_2$, $-$COOH
 
 ### 3.4 Oxygen-Containing Compounds
 
-**Alcohols ($-$OH):** Hydrogen bonding, soluble in water. Oxidation: $1° \to$ aldehyde $\to$ carboxylic acid;
+**Alcohols ($-$ OH):** Hydrogen bonding, soluble in water. Oxidation: $1° \to$ aldehyde $\to$ carboxylic acid;
 $2° \to$ ketone; $3°$ resistant. Dehydration: forms alkenes (conc. H$_2$SO$_4$, 170°C).
 
-**Phenols:** Aromatic $-$OH. More acidic than alcohols due to resonance stabilisation of phenoxide ion.
+**Phenols:** Aromatic $-$ OH. More acidic than alcohols due to resonance stabilisation of phenoxide ion.
 Reactions: electrophilic substitution (ortho-para directing), Kolbe's reaction, Reimer-Tiemann reaction.
 
 **Ethers:** $\text{R-O-R}'$. Relatively inert. Williamson's synthesis: $\text{R-X} + \text{NaOR}' \to \text{R-O-R}'$.
@@ -346,12 +346,12 @@ NH$_3$ derivatives). Aldol condensation, Cannizzaro reaction, Clemmensen reducti
 
 ### 3.5 Nitrogen-Containing Compounds
 
-**Amines ($-$NH$_2$):** Classified as $1°$, $2°$, $3°$ (and quaternary ammonium salts). Basic nature due to
+**Amines ($-$ NH$_2$):** Classified as $1°$, $2°$, $3°$ (and quaternary ammonium salts). Basic nature due to
 lone pair on N. Order of basicity in gas phase: $3° > 2° > 1° > \text{NH}_3$. In aqueous solution:
 $2° > 3° > 1° > \text{NH}_3$ (steric + solvation effects). Carbylamine reaction (isocyanide test) for $1°$ amines.
 
 **Diazonium salts:** $\text{ArN}_2^+\text{Cl}^-$ formed by nitrous acid with aromatic $1°$ amines. Used for
-Sandmeyer reactions to introduce $-$Cl, $-$Br, $-$CN, $-$OH groups on the aromatic ring.
+Sandmeyer reactions to introduce $-$ Cl, $-$ Br, $-$ CN, $-$ OH groups on the aromatic ring.
 
 ### 3.6 Polymers
 
@@ -368,7 +368,7 @@ Sandmeyer reactions to introduce $-$Cl, $-$Br, $-$CN, $-$OH groups on the aromat
 **Carbohydrates:** Polyhydroxy aldehydes/ketones. Classified as monosaccharides (glucose, fructose),
 disaccharides (sucrose, lactose, maltose), polysaccharides (starch, cellulose, glycogen).
 
-**Proteins:** Polymers of amino acids joined by peptide bonds ($-$CO$-$NH$-$). Primary, secondary ($\alpha$-helix,
+**Proteins:** Polymers of amino acids joined by peptide bonds ($-$ CO$-$NH$-$). Primary, secondary ($\alpha$-helix,
 $\beta$-pleated sheet), tertiary, and quaternary structure. Denaturation: loss of biological activity due to
 disruption of secondary/tertiary structure.
 

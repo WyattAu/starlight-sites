@@ -24,7 +24,7 @@ categories:
 CPython is the reference implementation of Python, written in C. It is the most widely used
 Implementation and the one most people mean when they say "Python." Understanding its architecture
 Is essential for performance tuning, debugging segfaults in C extensions, and reasoning about
-Python"s memory and concurrency behavior.
+Python's memory and concurrency behavior.
 
 The execution pipeline in CPython is:
 

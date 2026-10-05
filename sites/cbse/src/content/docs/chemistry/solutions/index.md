@@ -90,7 +90,7 @@ $$
 \Delta T_b = i \cdot K_b \cdot m = 2 \times 0.52 \times 0.5 = 0.52 \text{ K}
 $$
 
-Boiling point = $100 + 0.52 = 100.52^\circ$C
+Boiling point = $100 + 0.52 = 100.52^\circ$ C
 
 **Common mistake:** Forgetting the van't Hoff factor for electrolytes. Using $i = 1$ gives $\Delta T_b = 0.26$ K, which is wrong.
 
@@ -127,7 +127,7 @@ $$
 \Delta T_f = i \cdot K_f \cdot m = 3 \times 1.86 \times 1.0 = 5.58 \text{ K}
 $$
 
-Freezing point = $0 - 5.58 = -5.58^\circ$C
+Freezing point = $0 - 5.58 = -5.58^\circ$ C
 
 **Common mistake:** Using $i = 2$ instead of $i = 3$ for CaCl$_2$. The van't Hoff factor equals the number of ions produced per formula unit.
 

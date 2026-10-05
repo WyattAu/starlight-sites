@@ -367,7 +367,7 @@ $Q$ has the same form as $K$ but uses current (non-equilibrium) concentrations.
 | $Q = K$    | System is at equilibrium     |
 | $Q \gt K$  | Reaction proceeds in reverse |
 
-## Le Chatelier"s Principle (CED Unit 7)
+## Le Chatelier's Principle (CED Unit 7)
 
 If a stress is applied to a system at equilibrium, the system shifts to counteract the stress.
 
@@ -512,7 +512,7 @@ $$
 Q_{sp} = (0.00050)(0.0010)^2 = 5.0 \times 10^{-10}
 $$
 
-Since $Q_{sp} = 5.0 \times 10^{-10} \lt K_{sp} = 1.7 \times 10^{-5}$No precipitate forms.
+Since $Q_{sp} = 5.0 \times 10^{-10} \lt K_{sp} = 1.7 \times 10^{-5}$ No precipitate forms.
 
 ### Worked Example: $K_{sp}$ Calculation from Solubility
 
@@ -636,7 +636,7 @@ This matches the experimental rate law with $k = k_2 K$.
 
 ## Practice Questions
 
-1. For a first-order reaction with $k = 0.050 \mathrm{ s^{-1}$How long does it take for the
+1. For a first-order reaction with $k = 0.050 \mathrm{ s^{-1}$ How long does it take for the
    concentration to decrease from $0.80 \mathrm{ M$ to $0.20 \mathrm{ M$?
 
 2. The following data were collected for the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$:
@@ -663,7 +663,7 @@ Determine the rate law and rate constant.
 4. Explain how Le Chatelier's principle applies when the volume of the container is decreased for
    the reaction $\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$.
 
-5. For a reaction with $\Delta H = -92 \mathrm{ kJ/mol$What happens to $K$ when the temperature
+5. For a reaction with $\Delta H = -92 \mathrm{ kJ/mol$ What happens to $K$ when the temperature
    increases from $298 \mathrm{ K$ to $400 \mathrm{ K$?
 
 6. Calculate the molar solubility of $\mathrm{PbSO_4$ in pure water and in
@@ -697,7 +697,7 @@ Determine the rate law and rate constant.
 
 13. The decomposition of $\mathrm{HI$ is second order with a rate constant of
     $1.6 \times 10^{-3} \mathrm{ M^{-1}\mathrm{s^{-1}$ at $700 \mathrm{ K$. If the initial
-    concentration of $\mathrm{HI$ is $0.200 \mathrm{ M$How long does it take for the concentration
+    concentration of $\mathrm{HI$ is $0.200 \mathrm{ M$ How long does it take for the concentration
     to decrease to $0.050 \mathrm{ M$?
 
 14. A catalyst lowers the activation energy of a reaction from $85 \mathrm{ kJ/mol$ to
@@ -725,7 +725,7 @@ Determine the rate law and rate constant.
 
 20. For the reaction $\mathrm{N_2\mathrm{O_4(g) \rightleftharpoons 2\mathrm{NO_2(g)$ $K_c = 0.600$
     at $340 \mathrm{ K$. If $1.00 \mathrm{ atm$ of $\mathrm{N_2\mathrm{O_4$ is placed in a container
-    at $340 \mathrm{ K$Find the equilibrium partial pressures and the percentage dissociation.
+    at $340 \mathrm{ K$ Find the equilibrium partial pressures and the percentage dissociation.
 
 21. Calculate the pH of a saturated solution of $\mathrm{Mg(OH)_2$. $K_{sp} = 5.6 \times 10^{-12}$.
 
@@ -737,7 +737,7 @@ Determine the rate law and rate constant.
 <details>
 <summary>Question 1: Reaction order determination from initial rates</summary>
 
-For the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$The following initial rate data were
+For the reaction $\mathrm{A + \mathrm{B \to \mathrm{C$ The following initial rate data were
 Collected:
 
 | $[\mathrm{A]$ (M) | $[\mathrm{B]$ (M) | Initial Rate (M/s) |
@@ -809,7 +809,7 @@ Percentage dissociation: $\frac{1.018}{2.00} \times 100 = 50.9\%$.
 <summary>Question 3: Le Chatelier's principle with pressure and temperature</summary>
 
 For the exothermic reaction
-$\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$Predict the effect on the
+$\mathrm{N_2(g) + 3\mathrm{H_2(g) \rightleftharpoons 2\mathrm{NH_3(g)$ Predict the effect on the
 Equilibrium yield of $\mathrm{NH_3$ when (a) total pressure is increased, (b) temperature is
 Increased, (c) a catalyst is added, and (d) $\mathrm{Ar(g)$ is added at constant volume.
 
@@ -868,7 +868,7 @@ $$
 E_a = \frac{4.947 \times 8.314}{0.000499} = \frac{41.13}{0.000499} = 82,400 \mathrm{ J/mol = 82.4 \mathrm{ kJ/mol
 $$
 
-For the pre-exponential factor $A$Using $k = Ae^{-E_a/RT}$ at $298 \mathrm{ K$:
+For the pre-exponential factor $A$ Using $k = Ae^{-E_a/RT}$ at $298 \mathrm{ K$:
 
 $$
 3.46 \times 10^{-5} = A \cdot e^{-82400/(8.314 \times 298)} = A \cdot e^{-33.28}
@@ -909,7 +909,7 @@ Assuming $2s \ll 0.10$: $1.7 \times 10^{-5} = s \times (0.10)^2 = 0.01s$
 $s = 1.7 \times 10^{-3} \mathrm{ M$.
 
 The common ion effect reduces the solubility from $1.62 \times 10^{-2} \mathrm{ M$ to
-$1.7 \times 10^{-3} \mathrm{ M$Approximately a 10-fold decrease.
+$1.7 \times 10^{-3} \mathrm{ M$ Approximately a 10-fold decrease.
 
 </details>
 

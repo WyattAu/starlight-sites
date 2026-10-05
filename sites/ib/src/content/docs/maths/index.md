@@ -57,7 +57,7 @@ pitfalls, and exam-style problems.
 - **[Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/)**, Sequences, series,
   binomial theorem, and proof by induction
 - **[Complex Numbers](/maths/1-number-and-algebra/2_complex-numbers/)**, Complex arithmetic, polar form,
-  and De Moivre"s theorem
+  and De Moivre's theorem
 - **[Complex Numbers (Overview)](/maths/1-number-and-algebra/2_complex-numbers/)**, Complex arithmetic,
   polar form, De Moivre's theorem, and roots of unity
 

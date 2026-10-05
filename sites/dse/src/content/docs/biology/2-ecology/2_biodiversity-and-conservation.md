@@ -138,9 +138,9 @@ Community B: 10 species, but one species has 91 individuals and the other 9 have
 Both communities have the same species richness (10), but Community A has higher species evenness
 And therefore higher overall species diversity.
 
-### Simpson"s Diversity Index
+### Simpson's Diversity Index
 
-Simpson"s Diversity Index (D) is a quantitative measure of biodiversity that takes both species
+Simpson's Diversity Index (D) is a quantitative measure of biodiversity that takes both species
 Richness and species evenness into account.
 
 $$

@@ -68,7 +68,7 @@ rate Is mutually beneficial.
 **Question:** The exchange rate between USD and HKD is 1 USD $=$ 7.8 HKD. A smartphone costs $\$600$
 USD in the US and $\$5200$ HKD in Hong Kong. (a) Calculate the Hong Kong price of the US phone in
 HKD. (b) Is the smartphone cheaper in the US or Hong Kong? (c) If the HKD appreciates to 1 USD $=$
-7.0 HKD, recalculate and explain the effect on Hong Kong"s exports. (d) Explain the concept of
+7.0 HKD, recalculate and explain the effect on Hong Kong's exports. (d) Explain the concept of
 Purchasing power parity (PPP).
 
 **Solution:**
@@ -203,9 +203,9 @@ Policy argument.
 
 ### IT-3: Balance of Payments and National Income (with National Income)
 
-**Question:** An economy has the following BOP data (in billions): Exports of goods $= 300$Imports
-Of goods $= 400$Exports of services $= 150$Imports of services $= 100$Net primary income $= -50$Net
-secondary income $= 20$Financial account surplus $= 80$. (a) Calculate the current Account balance.
+**Question:** An economy has the following BOP data (in billions): Exports of goods $= 300$ Imports
+Of goods $= 400$ Exports of services $= 150$ Imports of services $= 100$ Net primary income $= -50$ Net
+secondary income $= 20$ Financial account surplus $= 80$. (a) Calculate the current Account balance.
 (b) Calculate the capital and financial account balance. (c) Verify the BOP Identity. (d) Explain
 how a persistent current account deficit relates to national savings and Investment identity.
 
@@ -224,7 +224,7 @@ $= 0$. $-80 + 0 + 80 + 0 = 0$. The identity holds.
 
 A current account deficit $(X \lt M)$ means the country is spending more on imports than it earns
 From exports. This must be financed by: (1) foreign borrowing (financial account surplus), or (2)
-Running down foreign reserves. Equivalently, $S - I \lt 0$Meaning domestic investment exceeds
+Running down foreign reserves. Equivalently, $S - I \lt 0$ Meaning domestic investment exceeds
 Domestic saving. The country is importing capital to finance investment that exceeds domestic
 Savings. This is sustainable if the borrowed funds are invested productively (generating future
 Export capacity), but unsustainable if used for consumption.
@@ -462,10 +462,10 @@ _Arguments that FTAs complement multilateralism:_
 ### EQ-5: Balance of Payments and Exchange Rate Determination
 
 **Question:** An economy has the following BOP data (in billions of USD): Merchandise exports
-$= 250$Merchandise imports $= 350$Services exports $= 180$Services imports $= 120$Primary income
-receipts $= 60$Primary income payments $= 100$Secondary income receipts $= 20$Secondary income
-payments $= 10$Direct investment inflows $= 80$Portfolio investment inflows $= 50$Portfolio
-investment outflows $= 30$Reserve assets change $= -20$. (a) Construct the full BOP accounts and
+$= 250$ Merchandise imports $= 350$ Services exports $= 180$ Services imports $= 120$ Primary income
+receipts $= 60$ Primary income payments $= 100$ Secondary income receipts $= 20$ Secondary income
+payments $= 10$ Direct investment inflows $= 80$ Portfolio investment inflows $= 50$ Portfolio
+investment outflows $= 30$ Reserve assets change $= -20$. (a) Construct the full BOP accounts and
 verify the identity. (b) Calculate the current account, capital account, and financial account
 balances. (c) Is the country accumulating or losing foreign reserves? (d) Explain the relationship
 between the current account and the capital/financial account.
@@ -502,7 +502,7 @@ holds.
 (b) Current account $= -70$ billion (deficit). Capital account $= 0$. Financial account (excluding
 reserves) $= 90$. Reserve assets $= -20$ (accumulation).
 
-(c) The reserve assets change is $-20$Meaning the central bank is **accumulating** $\$20$ billion in
+(c) The reserve assets change is $-20$ Meaning the central bank is **accumulating** $\$20$ billion in
 foreign exchange reserves. (A negative sign in the BOP convention means an increase in reserve
 assets.)
 

@@ -75,7 +75,7 @@ Tokens:  <TYPE, "int"> <ID, "x"> <OP, "="> <INT_LIT, "42"> <OP, "+"> <ID, "y"> <
 
 ### 2.3 Finite Automata for Lexing
 
-Build a DFA from token regexes using Thompson"s construction + subset construction. The DFA accepts
+Build a DFA from token regexes using Thompson's construction + subset construction. The DFA accepts
 the longest matching prefix (maximal munch).
 
 ```

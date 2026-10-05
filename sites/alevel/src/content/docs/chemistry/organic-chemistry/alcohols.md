@@ -161,7 +161,7 @@ $$
 
 2. Loss of a proton ($\mathrm{H}^+$) from an adjacent carbon, forming the C=C double bond.
 
-When multiple alkenes are possible, Zaitsev"s rule applies: the more substituted alkene
+When multiple alkenes are possible, Zaitsev's rule applies: the more substituted alkene
 Predominates.
 
 **Worked Example.** Dehydration of butan-2-ol:
@@ -209,7 +209,7 @@ Ethanoic acid + ethanol $\rightleftharpoons$ ethyl ethanoate + water.
 Alcohols are poor substrates for direct nucleophilic substitution because $-\mathrm{OH}$ is a poor
 Leaving group. However, the hydroxyl group can be converted into a better leaving group:
 
-**Protonation:** In acidic conditions, $-\mathrm{OH}$ is protonated to $-\mathrm{OH}_2^+$Making
+**Protonation:** In acidic conditions, $-\mathrm{OH}$ is protonated to $-\mathrm{OH}_2^+$ Making
 Water the leaving group. This allows substitution to proceed.
 
 $$
@@ -241,7 +241,7 @@ functional class. The following summary shows the key transformations:
 | Aldehyde                | Distillation with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ (primary alcohol only) |
 | Carboxylic acid         | Reflux with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ (primary alcohol only)       |
 | Ketone                  | Reflux with acidified $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ (secondary alcohol)          |
-| Halogenoalkane          | $\mathrm{PBr}_3$, $\mathrm{SOCl}_2$Or conc. $\mathrm{HBr}$                                 |
+| Halogenoalkane          | $\mathrm{PBr}_3$, $\mathrm{SOCl}_2$ Or conc. $\mathrm{HBr}$                                 |
 | Ester                   | Carboxylic acid + concentrated $\mathrm{H}_2\mathrm{SO}_4$                                 |
 | Ether                   | Williamson ether synthesis (deprotonation with Na, then $\mathrm{R}'\mathrm{Br}$)          |
 
@@ -262,7 +262,7 @@ $$
 \mathrm{CH}_2=\mathrm{CHCH}_2\mathrm{CH}_3 + \mathrm{HBr} \xrightarrow{\text{peroxides}} \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3
 $$
 
-Step 2: Substitution to alcohol (aqueous $\mathrm{NaOH}$SN2):
+Step 2: Substitution to alcohol (aqueous $\mathrm{NaOH}$ SN2):
 
 $$
 \mathrm{BrCH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{NaOH} \to \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3
@@ -819,7 +819,7 @@ the role of the acid catalyst.
 - Protonation:
   $\mathrm{CH}_3\mathrm{CH}(\mathrm{OH})\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{H}^+ \to \mathrm{CH}_3\mathrm{CH}(\mathrm{OH}_2^+)\mathrm{CH}_2\mathrm{CH}_3$
   (1 mark). The acid catalyst protonates the $-\mathrm{OH}$ group, converting it to
-  $-\mathrm{OH}_2^+$A good leaving group.
+  $-\mathrm{OH}_2^+$ A good leaving group.
 - Loss of water (rate-determining step): Formation of a secondary carbocation (1 mark).
 - Deprotonation: Loss of a proton from an adjacent carbon, forming the C=C double bond (1 mark).
 - Zaitsev's rule: The major product is but-2-ene (more substituted alkene) rather than but-1-ene (1

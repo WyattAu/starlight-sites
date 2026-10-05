@@ -39,12 +39,12 @@ $$
 J = \frac{I}{A}
 $$
 
-The current density is a vector: $\vec{J} = nq\vec{v}_d$Where $n$ is the charge carrier density and
+The current density is a vector: $\vec{J} = nq\vec{v}_d$ Where $n$ is the charge carrier density and
 $\vec{v}_d$ is the drift velocity.
 
 ### Microscopic View of Current
 
-In a conductor with $n$ charge carriers per unit volume, each with charge $q$Moving with drift
+In a conductor with $n$ charge carriers per unit volume, each with charge $q$ Moving with drift
 velocity $v_d$:
 
 $$
@@ -54,7 +54,7 @@ $$
 The drift velocity is very small (on the order of mm/s), even though the signal propagates at Nearly
 the speed of light.
 
-## Resistance and Ohm"s Law
+## Resistance and Ohm's Law
 
 Ohm's law (for ohmic materials):
 
@@ -176,7 +176,7 @@ Exhibits exponential charging and discharging.
 
 ### Charging a Capacitor
 
-With the switch closed at $t = 0$Apply KVL to the loop:
+With the switch closed at $t = 0$ Apply KVL to the loop:
 
 $$
 \mathcal{E} - IR - \frac{Q}{C} = 0
@@ -216,7 +216,7 @@ $$
 
 ### Discharging a Capacitor
 
-With the battery removed and the capacitor initially charged to $Q_0$KVL gives:
+With the battery removed and the capacitor initially charged to $Q_0$ KVL gives:
 
 $$
 -IR - \frac{Q}{C} = 0 \implies R\frac{dQ}{dt} + \frac{Q}{C} = 0
@@ -315,8 +315,8 @@ $$
 - **Voltmeter:** Measures potential difference. Connected in parallel. Ideal voltmeter has infinite
   resistance.
 
-A real ammeter has small resistance $R_A$Which slightly increases the total resistance of the
-circuit. A real voltmeter has finite resistance $R_V$Which draws a small current and slightly
+A real ammeter has small resistance $R_A$ Which slightly increases the total resistance of the
+circuit. A real voltmeter has finite resistance $R_V$ Which draws a small current and slightly
 reduces the Voltage across the measured component.
 
 ## Intuition
@@ -344,7 +344,7 @@ Circuits are **networks of energy transfer**, charges gain energy from batteries
    When in doubt, redraw the circuit.
 4. **Forgetting that the time constant determines the rate, not the final values.** $\tau = RC$
    controls how fast the capacitor charges or discharges. The final charge $Q_{\max} = C\mathcal{E}$
-   depends only on $C$ and $\mathcal{E}$Not on $R$.
+   depends only on $C$ and $\mathcal{E}$ Not on $R$.
 5. **Assuming current through an open switch or no current through a capacitor at steady state.** At
    steady state (DC), a fully charged capacitor acts as an open circuit (no current through it), and
    an inductor acts as a short circuit.
@@ -379,7 +379,7 @@ Circuits are **networks of energy transfer**, charges gain energy from batteries
    after 3 s, and (c) the time for the charge to drop to $10\,\mu\text{C$.
 
 6. In an RC charging circuit, the capacitor reaches 90% of its maximum charge in 5 s. If the
-   capacitance is $20\,\mu\text{F$Find the resistance.
+   capacitance is $20\,\mu\text{F$ Find the resistance.
 
 <details>
 <summary>Question 7: AP Exam-Style -- RC circuit with a switch</summary>
@@ -397,7 +397,7 @@ $R_1$.
 <details>
 <summary>Answer</summary>
 
-(a) At $t = 0$The capacitor is uncharged ($V_C = 0$), so it acts as a short circuit. $R_2$ is in
+(a) At $t = 0$ The capacitor is uncharged ($V_C = 0$), so it acts as a short circuit. $R_2$ is in
 Parallel with a short circuit, so all current flows through the capacitor branch. The equivalent
 Resistance seen by the battery is just $R_1 = 10\,\text{k\Omega$.
 

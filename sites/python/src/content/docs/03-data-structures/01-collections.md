@@ -817,7 +817,7 @@ Grows with the number of elements.
 - **`list`**: General-purpose, heterogeneous data. Use when you need to store objects of different
   types or when the list is small.
 - **`array.array`**: Homogeneous numeric data where memory efficiency matters but you do not need
-  NumPy"s vectorized operations.
+  NumPy's vectorized operations.
 - **`numpy.ndarray`**: Large-scale numerical computation. NumPy provides vectorized operations,
   broadcasting, and linear algebra that `array` does not.
 

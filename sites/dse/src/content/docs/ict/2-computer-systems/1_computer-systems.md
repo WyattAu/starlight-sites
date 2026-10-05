@@ -597,7 +597,7 @@ Sound is an analogue wave that must be converted to digital form via **sampling*
 Accurate representation of the analogue signal. Common values: 8-bit (telephone quality), 16-bit
 (CD), 24-bit (studio recording).
 
-**Nyquist theorem:** To accurately capture a sound with maximum frequency $f_{\max}$The sampling
+**Nyquist theorem:** To accurately capture a sound with maximum frequency $f_{\max}$ The sampling
 Rate must be at least $2f_{\max}$. Since human hearing ranges up to approximately $20\mathrm{ kHz}$
 The CD sampling rate of $44\,100\mathrm{ Hz}$ is sufficient (Nyquist frequency =
 $22\,050\mathrm{ Hz}$).

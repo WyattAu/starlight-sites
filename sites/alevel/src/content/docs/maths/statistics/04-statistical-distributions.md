@@ -308,7 +308,7 @@ bursts, the Poisson model is not appropriate.
 
 ### 4.7 Poisson approximation to the Binomial
 
-**Practical rule.** When $n \gt 50$ and $p \lt 0.1$We may approximate $B(n, p)$ by
+**Practical rule.** When $n \gt 50$ and $p \lt 0.1$ We may approximate $B(n, p)$ by
 $\mathrm{Po}(\lambda)$ where $\lambda = np$.
 
 **Justification.** The theoretical result in Section 4.2 shows that as $n \to \infty$ and $p \to 0$
@@ -359,7 +359,7 @@ $$
 E(Y) = \sum (ax_i + b)\,p_i = a\sum x_i\,p_i + b\sum p_i = aE(X) + b \cdot 1 = aE(X) + b \quad \blacksquare
 $$
 
-The key step is $\sum p_i = 1$Since the probabilities sum to 1.
+The key step is $\sum p_i = 1$ Since the probabilities sum to 1.
 
 ### 6.3 Effect on variance
 
@@ -387,7 +387,7 @@ Measured in **squared units** of the original variable.
 
 ### 6.4 Effect on standard deviation
 
-Since $\mathrm{Var}(Y) = a^2\mathrm{Var}(X)$Taking square roots gives:
+Since $\mathrm{Var}(Y) = a^2\mathrm{Var}(X)$ Taking square roots gives:
 
 $$
 \mathrm{SD}(Y) = |a|\,\mathrm{SD}(X)
@@ -571,7 +571,7 @@ $P(X + Y = 6) = \dfrac{e^{-8}(8)^6}{6!} = \dfrac{e^{-8} \times 262144}{720} \app
 
 <details>
 <summary>Problem 11</summary>
-Starting from the definition $E(X) = \sum_{k=0}^{n} k\binom{n}{k}p^k(1-p)^{n-k}$Derive $E(X) = np$ using the identity $k\binom{n}{k} = n\binom{n-1}{k-1}$ and the binomial theorem.
+Starting from the definition $E(X) = \sum_{k=0}^{n} k\binom{n}{k}p^k(1-p)^{n-k}$ Derive $E(X) = np$ using the identity $k\binom{n}{k} = n\binom{n-1}{k-1}$ and the binomial theorem.
 </details>
 
 <details>
@@ -656,7 +656,7 @@ Section 6.
 
 <details>
 <summary>Problem 15</summary>
-Starting from $E(X(X-1)) = \sum_{k=0}^{n} k(k-1)\binom{n}{k}p^k(1-p)^{n-k}$Derive $\mathrm{Var}(X) = np(1-p)$ for $X \sim B(n,p)$.
+Starting from $E(X(X-1)) = \sum_{k=0}^{n} k(k-1)\binom{n}{k}p^k(1-p)^{n-k}$ Derive $\mathrm{Var}(X) = np(1-p)$ for $X \sim B(n,p)$.
 </details>
 
 <details>

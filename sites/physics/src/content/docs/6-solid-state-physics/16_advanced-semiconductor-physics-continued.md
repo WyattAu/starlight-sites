@@ -33,7 +33,7 @@ Klitzing constant.
 
 - Occurs when the filling factor $\nu = n_{2D}h/(eB)$ is an integer
 - At these plateaux, the longitudinal resistance $R_{xx} = 0$ (dissipationless transport)
-- The quantisation is exact to better than 1 part in $10^{10}$Providing the resistance standard
+- The quantisation is exact to better than 1 part in $10^{10}$ Providing the resistance standard
 
 **Fractional Quantum Hall Effect (FQHE)** (Tsui, Stormer, Gossard, 1982):
 
@@ -41,7 +41,7 @@ Klitzing constant.
 - Arises from electron--electron correlations (Laughlin wavefunction)
 - Described by Chern--Simons topological field theory
 
-**Composite fermions:** At $\nu = 1/2$The FQHE electrons bind two flux quanta to become "composite fermions" that see zero effective field. The FQHE of electrons maps to the IQHE of composite
+**Composite fermions:** At $\nu = 1/2$ The FQHE electrons bind two flux quanta to become "composite fermions" that see zero effective field. The FQHE of electrons maps to the IQHE of composite
 fermions, elegantly explaining the observed sequence of fractions.
 
 ### 16.2 Mesoscopic Physics
@@ -50,11 +50,11 @@ Mesoscopic systems are intermediate in size between microscopic (atomic) and mac
 length scales:
 
 - **Phase coherence length** $L_\phi$: distance over which the electron maintains phase coherence (
-  $1$--$10\,\mu$M at low $T$)
+  $1$--$10\,\mu$ M at low $T$)
 - **Mean free path** $\ell$: distance between elastic scattering events
 - **Thermal length** $L_T = \hbar v_F/(k_BT)$
 
-When the sample size $L < L_\phi$Quantum interference effects become observable:
+When the sample size $L < L_\phi$ Quantum interference effects become observable:
 
 - **Aharonov--Bohm oscillations:** Periodic oscillations in magnetoresistance as $B$ varies, with
   period $\Delta B = \Phi_0/A$ where $A$ is the area enclosed by the paths.
@@ -107,7 +107,7 @@ $$
 \hbar\omega_c = \hbar\frac{eB}{m^*} = \frac{1.055 \times 10^{-34} \times 1.6 \times 10^{-19} \times 10}{0.067 \times 9.11 \times 10^{-31}} = \frac{1.688 \times 10^{-33}}{6.10 \times 10^{-32}} = 0.0277\,\text{eV} = 27.7\,\text{meV}
 $$
 
-For IQHE plateaux to be resolved: $k_BT \ll \hbar\omega_c$I.e., $T \ll 27.7/0.0862 \approx 321$ K.
+For IQHE plateaux to be resolved: $k_BT \ll \hbar\omega_c$ I.e., $T \ll 27.7/0.0862 \approx 321$ K.
 Experiments are done at $T < 4$ K.
 
 </details>
@@ -173,7 +173,7 @@ flowchart TD
 ## Summary
 
 - Crystal structure: Bravais lattices, reciprocal lattice, Miller indices.
-- Bragg"s law: $2d\sin\theta = n\lambda$; determines crystal structure from diffraction patterns.
+- Bragg's law: $2d\sin\theta = n\lambda$; determines crystal structure from diffraction patterns.
 - Band theory: metals (partially filled bands), semiconductors (small gap), insulators (large gap).
 - Effective mass: $m^* = \hbar^2/(d^2E/dk^2)$; describes carrier response to external fields.
 - IQHE: Hall resistance quantised as $R_{xy} = h/(ne^2)$; filling factor $\nu = n_{2D}h/(eB)$.

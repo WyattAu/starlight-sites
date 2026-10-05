@@ -73,7 +73,7 @@ halide, the stability of the carbocation makes $S_N1$ competitive with $S_N2$.
 }
 </script>
 
-### UT-2: E1 vs E2 Elimination and Zaitsev"s Rule
+### UT-2: E1 vs E2 Elimination and Zaitsev's Rule
 
 **Question:** When 2-bromo-3-methylbutane is treated with a strong base (NaOEt in ethanol), two
 elimination products are possible. Draw both products, identify the major product using Zaitsev's
@@ -166,10 +166,10 @@ Oxidation number changes:
 
 In toluene: the methyl carbon has oxidation state approximately $-3$ (as in $\text{CH}_3-$). In
 benzoic acid: the carboxyl carbon has oxidation state $+3$ (two bonds to O at $-2$ each, one bond to
-C at $0$One bond to O at $0$ using average: $0 + 0 + (-2) + (-2) + 3 = -1$; actually for
+C at $0$ One bond to O at $0$ using average: $0 + 0 + (-2) + (-2) + 3 = -1$; actually for
 $-\text{COOH}$: the carbon is bonded to one C ($0$), one $=\text{O}$ ($-2 \times 2 = -4$) and one
 $-\text{O}^-$ ($-1 \times 1 = -1$); sum $= -5$ but with the C--C bond and corrections: $+3$). The
-change is from $-3$ to $+3$A 6-electron oxidation.
+change is from $-3$ to $+3$ A 6-electron oxidation.
 
 Direct oxidation works because the benzylic position (carbon adjacent to the benzene ring) is
 activated. The benzene ring stabilises the intermediate benzylic radicals and cations through
@@ -241,7 +241,7 @@ Substrate: $(R)$-2-bromobutane, $\text{CH}_3-\text{CH}(\text{Br})-\text{CH}_2-\t
 
 In the $S_N2$ transition state, the nucleophile ($\text{CN}^-$) approaches from the back side
 (opposite the leaving group $\text{Br}^-$) along the axis of the $sp^3$ orbital containing the C--Br
-bond. The carbon is partially bonded to both $\text{CN}$ and $\text{Br}$With the three other
+bond. The carbon is partially bonded to both $\text{CN}$ and $\text{Br}$ With the three other
 substituents in a trigonal planar arrangement:
 
 $$

@@ -75,7 +75,7 @@ polymerase cannot initiate synthesis without a primer.
 (b) **Meselson-Stahl experiment**:
 
 1. **Stage 1**: _E. Coli_ bacteria were grown for many generations in a medium containing the heavy
-   isotope $^{15}\text{N}$. All of the bacterial DNA incorporated $^{15}\text{N}$Making it "heavy"
+   isotope $^{15}\text{N}$. All of the bacterial DNA incorporated $^{15}\text{N}$ Making it "heavy"
    DNA.
 2. **Stage 2**: The bacteria were transferred to a medium containing the light isotope
    $^{14}\text{N}$ and allowed to replicate for one generation. DNA was extracted and analysed by
@@ -195,7 +195,7 @@ Phenotypes:
 Expected phenotypic ratio: **9 purple : 7 white**
 
 (d) **Dominance** refers to the relationship between alleles of a **single gene**, one allele masks
-the expression of another allele at the same gene locus (e.g., in a heterozygote $Aa$The dominant
+the expression of another allele at the same gene locus (e.g., in a heterozygote $Aa$ The dominant
 allele $A$ masks the recessive allele $a$). **Epistasis** refers to the interaction between **two or
 more different genes**, the allele of one gene masks or modifies the expression of alleles at a
 different gene locus. Epistasis is an inter-gene interaction, whereas dominance is an intra-gene

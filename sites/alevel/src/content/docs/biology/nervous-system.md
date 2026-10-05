@@ -125,14 +125,14 @@ E_{\mathrm{Na}} = \frac{8.314 \times 310}{1 \times 96485} \ln\frac{145}{12} = 0.
 $$
 
 The actual resting potential ($-70\ \mathrm{mV}$) lies between $E_{\mathrm{K}}$ and
-$E_{\mathrm{Na}}$Weighted by the relative permeabilities.
+$E_{\mathrm{Na}}$ Weighted by the relative permeabilities.
 
 ## 3. Action Potentials
 
 ### 3.1 Depolarisation and the All-or-Nothing Principle
 
 An action potential is a rapid reversal of the membrane potential from approximately
-$-70\ \mathrm{mV}$ to approximately $+40\ \mathrm{mV}$Followed by a return to the resting potential.
+$-70\ \mathrm{mV}$ to approximately $+40\ \mathrm{mV}$ Followed by a return to the resting potential.
 
 **Stages of the action potential:**
 
@@ -141,7 +141,7 @@ $-70\ \mathrm{mV}$ to approximately $+40\ \mathrm{mV}$Followed by a return to th
    negative interior and by the higher external concentration). The membrane potential rapidly
    depolarises from $-70\ \mathrm{mV}$ to $+40\ \mathrm{mV}$.
 
-2. **Repolarisation**: at approximately $+40\ \mathrm{mV}$The voltage-gated $\mathrm{Na^+}$ channels
+2. **Repolarisation**: at approximately $+40\ \mathrm{mV}$ The voltage-gated $\mathrm{Na^+}$ channels
    close and voltage-gated $\mathrm{K^+}$ channels open. $\mathrm{K^+}$ ions rush out of the axon
    down their concentration gradient, carrying positive charge out and restoring the negative
    interior.
@@ -398,7 +398,7 @@ intensity of the stimulus.
 | ---------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | Mechanoreceptors | Pressure, vibration, sound                                                | Skin, inner ear (cochlea)                                       |
 | Thermoreceptors  | Temperature changes                                                       | Skin, hypothalamus                                              |
-| Chemoreceptors   | Chemical concentration (e.g., $\mathrm{O_2}$, $\mathrm{CO_2}$Glucose, pH) | Carotid bodies, aortic bodies, taste buds, olfactory epithelium |
+| Chemoreceptors   | Chemical concentration (e.g., $\mathrm{O_2}$, $\mathrm{CO_2}$ Glucose, pH) | Carotid bodies, aortic bodies, taste buds, olfactory epithelium |
 | Photoreceptors   | Light                                                                     | Retina (rods and cones)                                         |
 | Nociceptors      | Pain (tissue damage)                                                      | Skin, joints, internal organs                                   |
 | Proprioceptors   | Body position, limb movement                                              | Muscles, tendons, joints                                        |
@@ -524,7 +524,7 @@ rate:
 
 **Chemoreceptors** in the **aortic body** and **carotid body** detect changes in blood chemistry:
 
-- Low $p\mathrm{O_2}$High $p\mathrm{CO_2}$Or low pH (high $\mathrm{H^+}$ concentration): detected by
+- Low $p\mathrm{O_2}$ High $p\mathrm{CO_2}$ Or low pH (high $\mathrm{H^+}$ concentration): detected by
   chemoreceptors, which send impulses to the cardiovascular centre. The centre increases sympathetic
   stimulation and decreases parasympathetic stimulation, increasing heart rate to increase blood
   flow to the lungs for gas exchange.
@@ -725,7 +725,7 @@ The refractory period has critical functional consequences:
    propagate in one direction only -- from the cell body towards the axon terminals.
 
 2. **Frequency coding**: the refractory period limits the maximum frequency at which action
-   potentials can fire. If the absolute refractory period is approximately $1\ \mathrm{ms}$The
+   potentials can fire. If the absolute refractory period is approximately $1\ \mathrm{ms}$ The
    maximum firing rate is approximately $1000$ action potentials per second. In practice, the
    relative refractory period extends the minimum interval between action potentials, reducing the
    maximum rate further.
@@ -827,7 +827,7 @@ The retina contains two types of photoreceptor:
 - Responsible for vision in low light (scotopic vision).
 - Approximately 120 million per eye, concentrated in the periphery.
 - Contain the pigment **rhodopsin** (composed of retinal and opsin).
-- Sensitive to a broad range of wavelengths (peak at approximately $500\ \mathrm{nm}$Blue-green
+- Sensitive to a broad range of wavelengths (peak at approximately $500\ \mathrm{nm}$ Blue-green
   light).
 - Low spatial resolution (many rods converge onto a single bipolar cell via convergence).
 - Cannot distinguish colour (only one type of photopigment).
@@ -1056,7 +1056,7 @@ injury (e.g., stroke rehabilitation).
 | -------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 | Sensitivity    | High (function well in low light)                                                          | Low (require bright light)                                                                                                |
 | Visual acuity  | Low (many rods share a single ganglion cell, so signals are pooled)                        | High (each cone connects to its own ganglion cell via a bipolar cell, so signals are separate)                            |
-| Colour vision  | No (only one type of rhodopsin pigment, maximally sensitive at $\approx 500\ \mathrm{nm}$) | Yes (three types: S-cones $\approx 420\ \mathrm{nm}$M-cones $\approx 534\ \mathrm{nm}$L-cones $\approx 564\ \mathrm{nm}$) |
+| Colour vision  | No (only one type of rhodopsin pigment, maximally sensitive at $\approx 500\ \mathrm{nm}$) | Yes (three types: S-cones $\approx 420\ \mathrm{nm}$ M-cones $\approx 534\ \mathrm{nm}$ L-cones $\approx 564\ \mathrm{nm}$) |
 | Distribution   | Concentrated in the periphery of the retina; absent from the fovea                         | Concentrated in the fovea; sparse in the periphery                                                                        |
 | Response speed | Slow                                                                                       | Fast                                                                                                                      |
 | Number         | $\approx 120$ million per eye                                                              | $\approx 6$ million per eye                                                                                               |
@@ -1433,7 +1433,7 @@ difficulty with coordination and balance.
 | --------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------- |
 | Mechanoreceptor | Mechanical deformation (pressure, stretch, vibration)               | Skin, inner ear, muscles                                    | Pacinian corpuscle, hair cells in cochlea     |
 | Thermoreceptor  | Temperature change                                                  | Skin, hypothalamus                                          | Warm and cold receptors in dermis             |
-| Chemoreceptor   | Chemical concentration ($\mathrm{O_2}$, $\mathrm{CO_2}$Glucose, pH) | Carotid body, aortic body, taste buds, olfactory epithelium | Carotid body (detects blood $p\mathrm{CO_2}$) |
+| Chemoreceptor   | Chemical concentration ($\mathrm{O_2}$, $\mathrm{CO_2}$ Glucose, pH) | Carotid body, aortic body, taste buds, olfactory epithelium | Carotid body (detects blood $p\mathrm{CO_2}$) |
 | Photoreceptor   | Light intensity (rods) and wavelength (cones)                       | Retina                                                      | Rods and cones                                |
 | Baroreceptor    | Blood pressure change                                               | Aortic arch, carotid sinus                                  | Aortic baroreceptors                          |
 
@@ -1857,7 +1857,7 @@ $$
 For $\mathrm{K^+}$: $E_K \approx -90\ \mathrm{mV}$; for $\mathrm{Na^+}$:
 $E_{Na} \approx +60\ \mathrm{mV}$.
 
-The resting potential ($-70\ \mathrm{mV}$) is closer to $E_K$ than to $E_{Na}$Reflecting the greater
+The resting potential ($-70\ \mathrm{mV}$) is closer to $E_K$ than to $E_{Na}$ Reflecting the greater
 permeability to $\mathrm{K^+}$.
 
 ### 32.2 Action Potential Phases
@@ -2266,7 +2266,7 @@ so no light is detected.
 | Pathology   | Inflammatory demyelination; scleroses (scar tissue) form where myelin has been destroyed                                                                      |
 | Symptoms    | Vision problems (optic neuritis); muscle weakness, numbness, tingling; fatigue; cognitive changes; problems with coordination and balance                     |
 | Progression | Relapsing-remitting (most common form): episodes of worsening (relapses) followed by periods of recovery (remissions)                                         |
-| Treatment   | No cure; disease-modifying therapies (e.g., interferon-$\beta$Natalizumab, fingolimod) reduce relapse rate; corticosteroids for acute relapses; physiotherapy |
+| Treatment   | No cure; disease-modifying therapies (e.g., interferon-$\beta$ Natalizumab, fingolimod) reduce relapse rate; corticosteroids for acute relapses; physiotherapy |
 
 ### 46.2 Parkinson's Disease
 

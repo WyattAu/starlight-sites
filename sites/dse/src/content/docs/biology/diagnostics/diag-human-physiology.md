@@ -130,15 +130,15 @@ marks]
    state).
 2. This change **increases the affinity** of the remaining three haem groups for oxygen, making it
    easier for subsequent oxygen molecules to bind.
-3. At low $pO_{2}$The curve rises slowly (binding of the first oxygen is difficult). In the middle
+3. At low $pO_{2}$ The curve rises slowly (binding of the first oxygen is difficult). In the middle
    range, the curve rises steeply (cooperative binding makes additional oxygen uptake rapid). At
-   high $pO_{2}$The curve flattens as haemoglobin approaches full saturation.
+   high $pO_{2}$ The curve flattens as haemoglobin approaches full saturation.
 
 (b) Fetal haemoglobin has a higher affinity for oxygen, meaning it binds oxygen more readily at a
 given $pO_{2}$. This is essential because the $pO_{2}$ in the maternal blood in the placenta is
 relatively **low** (oxygen has already been partially used by the mother"s tissues). The higher
 affinity of HbF allows it to **effectively load oxygen** from the maternal blood even at this lower
-$pO_{2}$Ensuring the fetus receives an adequate oxygen supply. At the same $pO_{2}$HbF has a higher
+$pO_{2}$ Ensuring the fetus receives an adequate oxygen supply. At the same $pO_{2}$ HbF has a higher
 percentage saturation than HbA.
 
 (c) **Mechanism of the Bohr effect**: During exercise, respiring tissues produce more **carbon
@@ -148,7 +148,7 @@ increases the concentration of $H^{+}$ ions (lowering pH). The increased $H^{+}$
 increased $CO_{2}$ partial pressure cause haemoglobin to change its shape, **reducing its affinity
 for oxygen** and shifting the dissociation curve to the right.
 
-**Significance**: The rightward shift means that at any given tissue $pO_{2}$Haemoglobin releases
+**Significance**: The rightward shift means that at any given tissue $pO_{2}$ Haemoglobin releases
 **more oxygen** to the tissues. During exercise, muscles have a higher oxygen demand. The Bohr
 effect ensures that haemoglobin unloads oxygen more readily in the actively respiring muscles,
 meeting their increased metabolic requirements.
@@ -301,7 +301,7 @@ to volume ratio. [3 marks]
 
 1. **Extremely thin diffusion pathway**: The alveolar wall is only one cell thick (squamous
    epithelium), and the capillary wall is also one cell thick. The total diffusion distance is very
-   short (approximately 1 $\mu$M), allowing rapid diffusion of gases.
+   short (approximately 1 $\mu$ M), allowing rapid diffusion of gases.
 
 2. **Large surface area**: The millions of alveoli provide a very large total surface area
    (approximately 70 m$^{2}$) for gas exchange, increasing the rate of diffusion.

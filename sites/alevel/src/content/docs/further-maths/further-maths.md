@@ -56,7 +56,7 @@ Science at university.
 The further pure core extends A Level mathematics into territory that is essential for university
 STEM courses:
 
-- **Complex numbers**, Argand diagrams, De Moivre"s theorem, roots of unity, exponential form
+- **Complex numbers**, Argand diagrams, De Moivre's theorem, roots of unity, exponential form
   $e^{i\theta}$
 - **Matrices**, determinants, inverses, transformations in 2D and 3D, eigenvalues (AQA)
 - **Further algebra**, roots of polynomial equations, partial fractions with irreducible quadratics

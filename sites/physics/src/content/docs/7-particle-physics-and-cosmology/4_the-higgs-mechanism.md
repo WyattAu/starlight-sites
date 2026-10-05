@@ -83,7 +83,7 @@ $$
 V = \underbrace{\frac{\mu^2 v^2}{2} + \frac{\lambda v^4}{4}}_{\mathrm{constant} + \underbrace{(\mu^2 v + \lambda v^3)}_{= 0}\,h + \underbrace{\left(\frac{\mu^2}{2} + \frac{3\lambda v^2}{2}\right)}_{m_h^2/2}\,h^2 + \cdots}
 $$
 
-Using $v^2 = -\mu^2/\lambda$The coefficient of $h$ vanishes (as required at the minimum) And:
+Using $v^2 = -\mu^2/\lambda$ The coefficient of $h$ vanishes (as required at the minimum) And:
 
 $$
 m_h^2 = \mu^2 + 3\lambda v^2 = -\lambda v^2 + 3\lambda v^2 = 2\lambda v^2
@@ -130,13 +130,13 @@ $$
 \lvert D_\mu\langle\phi\rangle_0\rvert^2 = \frac{v^2}{8}\left[g^2(W^1_\mu)^2 + g^2(W^2_\mu)^2 + (gW^3_\mu - g'B_\mu)^2\right]
 $$
 
-Identifying $W^\pm_\mu = (W^1_\mu \mp iW^2_\mu)/\sqrt{2}$The first two terms give:
+Identifying $W^\pm_\mu = (W^1_\mu \mp iW^2_\mu)/\sqrt{2}$ The first two terms give:
 
 $$
 \frac{1}{2}\left(\frac{gv}{2}\right)^2 W^+_\mu W^{-\mu} \implies m_W = \frac{gv}{2}
 $$
 
-The last term, after the rotation to $Z^0$ and $A$Gives:
+The last term, after the rotation to $Z^0$ and $A$ Gives:
 
 $$
 m_Z = \frac{v}{2}\sqrt{g^2 + g'^2}, \quad m_\gamma = 0 \quad \blacksquare

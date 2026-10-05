@@ -114,7 +114,7 @@ Let $R$ be a relation schema.
 - **Primary key:** One of the candidate keys, chosen by the designer.
 - **Foreign key:** An attribute (or set) $FK$ in relation $R_1$ that references the primary key $PK$
   of relation $R_2$. Enforces referential integrity: every value of $FK$ must appear as a value of
-  $PK$ in $R_2$Or be `NULL`.
+  $PK$ in $R_2$ Or be `NULL`.
 
 **Example.** `Student(ID, Name, Email)`. `ID` is a candidate key (unique). If `Email` is also
 unique, It is another candidate key. One is chosen as the primary key.
@@ -159,10 +159,10 @@ $$
 **Equi-join** $R \bowtie_{R.A = S.B} S$: A theta join where $\theta$ is an equality on specific
 Attributes. Keeps both join columns.
 
-**Left outer join** $R \bowtie_{\mathrm{left} S}$: All tuples from $R$Matched with $S$ where
+**Left outer join** $R \bowtie_{\mathrm{left} S}$: All tuples from $R$ Matched with $S$ where
 possible; `NULL`-padded otherwise.
 
-**Right outer join** $R \bowtie_{\mathrm{right} S}$: All tuples from $S$Matched with $R$.
+**Right outer join** $R \bowtie_{\mathrm{right} S}$: All tuples from $S$ Matched with $R$.
 
 **Full outer join** $R \bowtie_{\mathrm{full} S}$: All tuples from both $R$ and $S$.
 
@@ -275,7 +275,7 @@ $$
 $$
 
 **Safety.** A calculus expression is **safe** if it yields a finite relation. The expression
-$\\{t \mid \lnot(t \in R)\\}$ is unsafe (it includes every tuple not in $R$An infinite set). We
+$\\{t \mid \lnot(t \in R)\\}$ is unsafe (it includes every tuple not in $R$ An infinite set). We
 Restrict variables to domains of the relations appearing in the query.
 
 **Theorem 2.2 (Codd).** Relational algebra and relational calculus (both tuple and domain) are
@@ -323,7 +323,7 @@ _Proof._ Immediate from the commutativity of logical conjunction
 **Rule 3 (Selection pushdown through cross product).** If $\theta$ involves only attributes of $R$
 Then $\sigma_{\theta}(R \times S) \equiv \sigma_{\theta}(R) \times S$.
 
-_Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$The condition $\theta$ depends only on
+_Proof._ For each pair $(r, s)$ with $r \in R$ and $s \in S$ The condition $\theta$ depends only on
 $r$. Filtering $(r, s)$ by $\theta$ on $R \times S$ is equivalent to first filtering $R$ by $\theta$
 And then forming the cross product, since $s$ does not affect the result of $\theta$. $\blacksquare$
 
@@ -753,7 +753,7 @@ Candidate key.
 A **partial dependency** is $A \to B$ where $A$ is a proper subset of a candidate key and $B$ is
 Non-prime.
 
-**Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$Either $X$ is a
+**Third Normal Form (3NF).** In 2NF, and for every non-trivial FD $X \to A$ in $R$ Either $X$ is a
 Superkey or $A$ is a prime attribute.
 
 A **prime attribute** is an attribute that belongs to some candidate key.
@@ -797,7 +797,7 @@ Preserves dependencies if the **closure** of $\bigcup_{i=1}^{k} F_i^+$ (where $F
 restriction Of $F$ to $R_i$) equals $F^+$. In practice, we check that every FD in a minimal cover of
 $F$ can be Tested within a single $R_i$.
 
-Dependency preservation is important for **efficient constraint checking**: when updating $R_i$The
+Dependency preservation is important for **efficient constraint checking**: when updating $R_i$ The
 DBMS can verify relevant FDs locally without joining all decomposed relations.
 
 ### 4.4 Normalisation Examples
@@ -868,7 +868,7 @@ $R_2$ So it is dropped. $ED \to A$ holds. Also, $A \to B$ involves $B$ not in $R
 Check for implied FDs: $A \to B$ in $R$ implies $AC \to BC$ (augmentation), so $AC \to E$ in $R$
 (since $BC \to E$). But $AC$ is not a superkey of $R_2$... Wait, let us recheck.
 
-Actually, from $BC \to E$ and the fact that $B$ is not in $R_2$We cannot directly use $BC \to E$ In
+Actually, from $BC \to E$ and the fact that $B$ is not in $R_2$ We cannot directly use $BC \to E$ In
 $R_2$. We should compute the projection of $F$ onto $R_2$:
 $F_2 = \\{ED \to A, A \to \varnothing\\}$. So the only non-trivial FD in $R_2$ is $ED \to A$. Is
 $ED$ a superkey of $R_2$? $ED^+ = \\{E, D, A\\} \neq
@@ -876,11 +876,11 @@ $ED$ a superkey of $R_2$? $ED^+ = \\{E, D, A\\} \neq
 a superkey of $R_2$.
 
 Hmm, we need to be more careful. Let us check if $C$ is determined by $ED$ in the original $R$.
-$ED^+$ in $R = \\{E, D, A, B\\}$Which does not include $C$. So $C$ is not determined.
+$ED^+$ in $R = \\{E, D, A, B\\}$ Which does not include $C$. So $C$ is not determined.
 
 This means $R_2 = \\{A, C, D, E\\}$ has no non-trivial FDs that hold (other than keys determining
 all Attributes). Check: candidate keys of $R_2$ must be superkeys. Since $ED \to A$ holds but $ED$
-does Not determine $C$We need $EDC$ as a key: $EDC^+ = \\{E, D, C, A, B\\} = R$ (all of $R$). So in
+does Not determine $C$ We need $EDC$ as a key: $EDC^+ = \\{E, D, C, A, B\\} = R$ (all of $R$). So in
 $R_2$, $EDC$ is a candidate key (since it determines all attributes of $R_2$: $EDC \to A$ and
 $A \to
 \varnothing$ in $R_2$, so $EDC^+ = \\{A, C, D, E\\}$). $R_2$ is in BCNF since the only
@@ -888,7 +888,7 @@ non-trivial FD is $ED \to A$ and we need to check if $ED$ is a superkey of $R_2$
 $ED^+ \cap R_2 = \\{A, D, E\\}
 \neq R_2$, $ED$ is not a superkey.
 
-But wait -- there are no other non-trivial FDs in $R_2$. The only one is $ED \to A$Which violates
+But wait -- there are no other non-trivial FDs in $R_2$. The only one is $ED \to A$ Which violates
 BCNF. Decompose: $R_{2a} = \\{E, D, A\\}$ and
 $R_{2b} = \\{A, C, D, E\\} \setminus \\{E, D, A\\} =
 \\{C\\}$.
@@ -923,7 +923,7 @@ another non-prime attribute.
 ### 4.5 Multivalued Dependencies and 4NF
 
 A **multivalued dependency (MVD)** $X \twoheadrightarrow Y$ holds on relation $R$ if for any two
-Tuples $t_1, t_2 \in R$ with $t_1[X] = t_2[X]$There exists a tuple $t_3 \in R$ such that:
+Tuples $t_1, t_2 \in R$ with $t_1[X] = t_2[X]$ There exists a tuple $t_3 \in R$ such that:
 
 - $t_3[X] = t_1[X]$
 - $t_3[Y] = t_1[Y]$
@@ -1031,7 +1031,7 @@ Keys per internal node (order $m = 3$).
 
 **Insert 20.** Leaf: $[10, 20]$
 
-**Insert 5.** Leaf would be $[5, 10, 20]$ -- overflow (max 2 keys). Split: left leaf $[5]$Right Leaf
+**Insert 5.** Leaf would be $[5, 10, 20]$ -- overflow (max 2 keys). Split: left leaf $[5]$ Right Leaf
 $[10, 20]$. Push median (10) to new internal node.
 
 ```
@@ -1088,7 +1088,7 @@ Root: [15]
 
 Now delete 15. Leaf $[10, 15]$ becomes $[10]$. No underflow. Internal node key 15 changes to 10. But
 wait -- the internal node $[10]$ would need to distinguish between leaves $[5]$ and $[10]$. Since
-the left child contains keys $\lt 10$ and the right child contains keys $\geq 10$This Is still
+the left child contains keys $\lt 10$ and the right child contains keys $\geq 10$ This Is still
 correct.
 
 Now delete 10 from the left subtree's right leaf. Leaf becomes empty -- underflow.
@@ -1121,10 +1121,10 @@ Average lookup: $O(1)$ under uniform hashing. No support for range queries.
 
 1. **Separate chaining:** Each bucket contains a linked list of entries. Lookup requires traversing
    the chain. Average chain length under uniform hashing is $n / B$.
-2. **Open addressing (linear probing):** If bucket $h(k)$ is full, try $h(k)+1$, $h(k)+2$Etc. (mod
+2. **Open addressing (linear probing):** If bucket $h(k)$ is full, try $h(k)+1$, $h(k)+2$ Etc. (mod
    $B$). Prone to **primary clustering**: consecutive occupied slots increase the average probe
    length.
-3. **Open addressing (quadratic probing):** Try $h(k) + 1^2, h(k) + 2^2, h(k) + 3^2$Etc. Reduces
+3. **Open addressing (quadratic probing):** Try $h(k) + 1^2, h(k) + 2^2, h(k) + 3^2$ Etc. Reduces
    clustering but may not probe all buckets.
 4. **Open addressing (double hashing):** Use a second hash function $h_2$: probe sequence is
    $h(k) + i \cdot h_2(k)$ for $i = 0, 1, 2, \ldots$. Minimises clustering.
@@ -1154,7 +1154,7 @@ split. Simpler than extendible hashing but may have slightly higher overflow pro
 ### 5.3 Bitmap Indexes
 
 A **bitmap index** creates one bitmap per distinct value of an attribute. For a table with $n$ rows
-And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$Store $k$ bitmaps of $n$ bits each, where
+And attribute $A$ with values $\\{v_1, \ldots, v_k\\}$ Store $k$ bitmaps of $n$ bits each, where
 Bitmap $i$ has a 1 in position $j$ if row $j$ has $A = v_i$.
 
 **Use case:** Low-cardinality columns (gender, status, country). Bitmap indexes support fast bitwise
@@ -1267,9 +1267,9 @@ Of an acyclic graph gives a serial order equivalent to the schedule. $\blacksqua
 **View serialisability.** A schedule $S$ is view-serialisable if it is **view-equivalent** to a
 Serial schedule $S'$. View equivalence requires:
 
-1. **Initial read:** If $T_i$ reads the initial value of $Q$ in $S$It does so in $S'$.
-2. **Updated read:** If $T_i$ reads the value of $Q$ written by $T_j$ in $S$It does so in $S'$.
-3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$It does so in $S'$.
+1. **Initial read:** If $T_i$ reads the initial value of $Q$ in $S$ It does so in $S'$.
+2. **Updated read:** If $T_i$ reads the value of $Q$ written by $T_j$ in $S$ It does so in $S'$.
+3. **Final write:** If $T_i$ performs the final write of $Q$ in $S$ It does so in $S'$.
 
 Every conflict-serialisable schedule is view-serialisable, but the converse does not hold. Testing
 For view serialisability is NP-complete.
@@ -1325,8 +1325,8 @@ which corresponds to a serial schedule. $\blacksquare$
 **Timestamp Ordering (TO).** Each transaction receives a timestamp $TS(T)$. For conflicting
 Operations:
 
-- $T_i$ reads $Q$: if $Q$ was last written by $T_j$ with $TS(T_j) \gt TS(T_i)$Abort $T_i$.
-- $T_i$ writes $Q$: if $Q$ was last read by $T_j$ with $TS(T_j) \gt TS(T_i)$Abort $T_i$.
+- $T_i$ reads $Q$: if $Q$ was last written by $T_j$ with $TS(T_j) \gt TS(T_i)$ Abort $T_i$.
+- $T_i$ writes $Q$: if $Q$ was last read by $T_j$ with $TS(T_j) \gt TS(T_i)$ Abort $T_i$.
 
 No deadlocks (no waiting), but may abort transactions unnecessarily.
 
@@ -1339,7 +1339,7 @@ No deadlocks (no waiting), but may abort transactions unnecessarily.
    restart.
 
 **Forward validation:** Check against committed transactions. For each data item $Q$ read by
-$T_i$Verify that the transaction that last wrote $Q$ committed before $T_i$'s read phase began.
+$T_i$ Verify that the transaction that last wrote $Q$ committed before $T_i$'s read phase began.
 **Backward validation:** Check against active transactions.
 
 OCC performs well when conflicts are rare but degrades under high contention (many restarts).
@@ -1349,8 +1349,8 @@ OCC performs well when conflicts are rare but degrades under high contention (ma
 
 **Scenario:** Two transactions $T_1$ and $T_2$ both read and update account balances.
 
-- $T_1$: Read $A = 100$Read $B = 200$Write $A = 150$Write $B = 150$ (transfer 50 from $B$ to $A$).
-- $T_2$: Read $A = 100$Write $A = 75$ (withdraw 25).
+- $T_1$: Read $A = 100$ Read $B = 200$ Write $A = 150$ Write $B = 150$ (transfer 50 from $B$ to $A$).
+- $T_2$: Read $A = 100$ Write $A = 75$ (withdraw 25).
 
 **Execution:**
 
@@ -1470,7 +1470,7 @@ Dominates.
 **Catalog statistics:** Table cardinality ($n$), attribute value cardinality, number of distinct
 Values, histogram of value distribution, index information.
 
-**Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$The selectivity is approximately
+**Selectivity estimation.** For a predicate $\sigma_{A = v}(R)$ The selectivity is approximately
 $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
 | Predicate type              | Selectivity estimate                             |
@@ -1482,7 +1482,7 @@ $1 / V(A, R)$ where $V(A, R)$ is the number of distinct values of $A$ in $R$.
 
 ### 7.3 Join Algorithms
 
-**Nested-loop join.** For each tuple in $R$Scan all of $S$.
+**Nested-loop join.** For each tuple in $R$ Scan all of $S$.
 
 $$
 \mathrm{Cost} = n_R \cdot n_S \mathrm{ page} accesses (worst case)
@@ -1514,7 +1514,7 @@ $$
 
 Best for equi-joins when one relation fits in memory.
 
-**Index nested-loop join.** For each tuple in $R$Use an index on $S$ to find matching tuples.
+**Index nested-loop join.** For each tuple in $R$ Use an index on $S$ to find matching tuples.
 
 $$
 \mathrm{Cost} = n_R \cdot (\mathrm{index} lookup cost)
@@ -1788,7 +1788,7 @@ visibility Of updates.
 **Write:** Client writes value $v$. Primary sends write to all 5 replicas. At least 3 acknowledge
 ($W = 3$). Write is considered successful.
 
-**Read:** Client reads from 3 replicas ($R = 3$). Since $W + R \gt N$Any read quorum overlaps With
+**Read:** Client reads from 3 replicas ($R = 3$). Since $W + R \gt N$ Any read quorum overlaps With
 the write quorum, so the reader is guaranteed to see at least one replica with the latest Value. The
 reader returns the most recent version among the 3 responses.
 

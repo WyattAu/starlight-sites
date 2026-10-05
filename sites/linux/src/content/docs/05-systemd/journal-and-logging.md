@@ -40,7 +40,7 @@ flowchart LR
 | syslog()         | Traditional syslog calls                    |
 | Audit events     | Kernel audit subsystem                      |
 | /dev/kmsg        | Kernel log device                           |
-| Internal journal | Journal"s own diagnostic messages           |
+| Internal journal | Journal's own diagnostic messages           |
 
 ### Storage Modes
 

@@ -331,7 +331,7 @@ Exports. Small open economies with mobile capital are particularly vulnerable.
 
 **Numerical example:**
 
-An economy has MPC $= 0.75$MPM $= 0.2$ And a 1 percentage point increase in $r$ reduces Investment by
+An economy has MPC $= 0.75$ MPM $= 0.2$ And a 1 percentage point increase in $r$ reduces Investment by
 USD 2 billion. The government increases spending by USD 10 billion.
 
 Closed-economy multiplier: $\frac{1}{1 - \text{MPC}} = \frac{1}{0.25} = 4$.

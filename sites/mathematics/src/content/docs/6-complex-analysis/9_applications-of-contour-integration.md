@@ -33,7 +33,7 @@ $$
 Where the sum is over poles in the upper half-plane.
 
 _Proof._ Integrate $f(z)$ over the semicircular contour $\gamma_R$ consisting of $[-R, R]$ on the
-Real axis and the semicircle $|z| = R$ in the upper half-plane. As $R \to \infty$The integral over
+Real axis and the semicircle $|z| = R$ in the upper half-plane. As $R \to \infty$ The integral over
 The semicircle vanishes (since $|f(z)| \leq M/R^2$ and the length is $\pi R$). $\blacksquare$
 
 ### 9.3 Worked Example
@@ -50,7 +50,7 @@ $\int_{-\infty}^{\infty} \frac{dx}{x^2 + 1} = 2\pi i \cdot \frac{1}{2i} = \pi$. 
 
 ### 9.4 Integrals Involving Trigonometric Functions
 
-For integrals of the form $\int_0^{2\pi} R(\cos\theta, \sin\theta)\, d\theta$Substitute
+For integrals of the form $\int_0^{2\pi} R(\cos\theta, \sin\theta)\, d\theta$ Substitute
 $z = e^{i\theta}$ So $dz = iz\, d\theta$, $\cos\theta = \frac{z + z^{-1}}{2}$
 $\sin\theta = \frac{z - z^{-1}}{2i}$.
 
@@ -75,7 +75,7 @@ $\mathrm{Res}\left(\frac{1}{z^2 + 4z + 1}, z_1\right) = \frac{1}{2\sqrt{3}}$.
 $\int_0^{2\pi} \frac{d\theta}{2 + \cos\theta} = \frac{2}{i} \cdot 2\pi i \cdot \frac{1}{2\sqrt{3}} = \frac{2\pi}{\sqrt{3}}$.
 $\blacksquare$
 
-### 9.6 Jordan"s Lemma
+### 9.6 Jordan's Lemma
 
 **Theorem 9.2 (Jordan's Lemma).** If $f(z) \to 0$ uniformly as $|z| \to \infty$ in the upper
 Half-plane and $a \gt 0$ Then

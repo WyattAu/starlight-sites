@@ -56,7 +56,7 @@ Are exported, because the `export` keyword applies to the translation unit's int
 
 ### Proof: Header Units Eliminate Redundant Parsing
 
-Consider a project with TUs $T_1, T_2, \ldots, T_n$Each including header $H$. Let $P(H)$ denote The
+Consider a project with TUs $T_1, T_2, \ldots, T_n$ Each including header $H$. Let $P(H)$ denote The
 cost of parsing $H$ and $S(H)$ the cost of serializing its semantic interface.
 
 **`#include` model:** Each TU independently preprocesses and parses $H$. Total cost:

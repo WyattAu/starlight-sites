@@ -102,7 +102,7 @@ $$
 
 The pH is **unchanged** because both the acid and conjugate base concentrations are halved by
 dilution, so their ratio remains the same. The Henderson-Hasselbalch equation shows pH depends only
-on the ratio $[\text{A}^-]/[\text{HA}]$Which is unaffected by dilution.
+on the ratio $[\text{A}^-]/[\text{HA}]$ Which is unaffected by dilution.
 
 (c) Moles in $90.0\,\text{cm}^3$ of buffer:
 
@@ -249,11 +249,11 @@ $$
 \text{pH} = -\log(5.48 \times 10^{-12}) = 11.26
 $$
 
-(c) The student"s statement is **incorrect**. At $50\,^\circ\text{C}$A neutral solution has pH
+(c) The student"s statement is **incorrect**. At $50\,^\circ\text{C}$ A neutral solution has pH
 $6.63$ (as calculated in part a). The pH value of 7 is only neutral at $25\,^\circ\text{C}$ (where
-$K_w = 1.00 \times 10^{-14}$). Neutrality is defined by $[\text{H}^+] = [\text{OH}^-]$Not by pH
-$= 7$. At $50\,^\circ\text{C}$A pH of 7 actually represents a **slightly alkaline** solution because
-$[\text{H}^+] = 10^{-7} \lt 2.341 \times 10^{-7} = \sqrt{K_w}$Meaning
+$K_w = 1.00 \times 10^{-14}$). Neutrality is defined by $[\text{H}^+] = [\text{OH}^-]$ Not by pH
+$= 7$. At $50\,^\circ\text{C}$ A pH of 7 actually represents a **slightly alkaline** solution because
+$[\text{H}^+] = 10^{-7} \lt 2.341 \times 10^{-7} = \sqrt{K_w}$ Meaning
 $[\text{OH}^-] \gt [\text{H}^+]$.
 
 ## Integration Tests
@@ -276,7 +276,7 @@ equivalence points and two half-equivalence points.
 
 **Solution:**
 
-(a) Since $K_{a1} \gg K_{a2}$The first dissociation dominates:
+(a) Since $K_{a1} \gg K_{a2}$ The first dissociation dominates:
 
 $$
 [\text{H}^+] \approx \sqrt{K_{a1} \times [\text{H}_2\text{CO}_3]} = \sqrt{4.30 \times 10^{-7} \times 0.0500} = \sqrt{2.15 \times 10^{-8}} = 1.466 \times 10^{-4}\,\text{mol dm}^{-3}
@@ -534,7 +534,7 @@ PH change: $4.06 - 4.46 = -0.40\,\mathrm{pH}$ units.
 For comparison, adding the same amount of $\mathrm{HCl}$ to $100\,\mathrm{cm}^3$ of pure water would
 give:
 
-$[\mathrm{H}^+] = 0.0050/0.100 = 0.0500\,\mathrm{mol\,dm^{-3}}$PH $= 1.30$
+$[\mathrm{H}^+] = 0.0050/0.100 = 0.0500\,\mathrm{mol\,dm^{-3}}$ PH $= 1.30$
 
 The buffer limits the pH change to $0.40$ units, compared to a change of $5.70$ units for pure water
 (1 mark).
@@ -565,7 +565,7 @@ Solution is **basic** (1 mark).
 
 (d) $\mathrm{NaHCO}_3$: $\mathrm{HCO}_3^-$ can act as both an acid and a base (amphoteric). It is
 the conjugate base of $\mathrm{H}_2\mathrm{CO}_3$ (weak acid) and the conjugate acid of
-$\mathrm{CO}_3^{2-}$ (weak base). Since $K_a(\mathrm{HCO}_3^-) < K_b(\mathrm{HCO}_3^-)$The basic
+$\mathrm{CO}_3^{2-}$ (weak base). Since $K_a(\mathrm{HCO}_3^-) < K_b(\mathrm{HCO}_3^-)$ The basic
 character predominates and the solution is **slightly basic**, pH $\approx 8.3$ (1 mark).
 
 ## Common Mistakes

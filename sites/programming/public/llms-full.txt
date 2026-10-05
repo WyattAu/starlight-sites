@@ -3614,7 +3614,7 @@ Duration is either ordered or unordered." For variables in different translation
 Classifies initialization as **unordered** unless the variable has a constant initializer or is an
 Inline variable.
 
-Formally, let $v_1$ be defined in $TU_1$ and $v_2$ be defined in $TU_2$Where $v_2$'s initializer
+Formally, let $v_1$ be defined in $TU_1$ and $v_2$ be defined in $TU_2$ Where $v_2$'s initializer
 Depends on $v_1$. The standard does not require $TU_1$'s initialization to complete before $TU_2$'s
 Initialization begins. The implementation is free to order them in any way, and this ordering may
 Change between compiler versions, link orders, or optimization levels.
@@ -4853,7 +4853,7 @@ Are exported, because the `export` keyword applies to the translation unit's int
 
 ### Proof: Header Units Eliminate Redundant Parsing
 
-Consider a project with TUs $T_1, T_2, \ldots, T_n$Each including header $H$. Let $P(H)$ denote The
+Consider a project with TUs $T_1, T_2, \ldots, T_n$ Each including header $H$. Let $P(H)$ denote The
 cost of parsing $H$ and $S(H)$ the cost of serializing its semantic interface.
 
 **`#include` model:** Each TU independently preprocesses and parses $H$. Total cost:
@@ -9289,14 +9289,14 @@ Writes per thread.
 1. Let `var_a` and `var_b` reside on the same cache line $L$ And let thread $T_1$ write to `var_a`
    while thread $T_2$ writes to `var_b`.
 2. Initially, both threads may hold $L$ in **Shared** state (after the first read).
-3. When $T_1$ writes to `var_a`The cache controller issues an RFO for $L$Invalidating $T_2$'s copy.
+3. When $T_1$ writes to `var_a`The cache controller issues an RFO for $L$ Invalidating $T_2$'s copy.
    $T_1$'s line transitions to **Modified**.
 4. When $T_2$ writes to `var_b`Its copy is **Invalid** (due to step 3), so it incurs an L1 miss.
    $T_2$ issues an RFO, invalidating $T_1$'s copy. $T_2$'s line transitions to **Modified**.
 5. Step 3 and step 4 alternate for every write, producing a **ping-pong** pattern.
 6. Each ping-pong costs ~40-100ns (inter-core coherence latency), versus ~1-4ns for an L1 hit.
 7. For $n$ writes per thread, total coherence cost is
-   $\Theta(n \times \mathrm{coherence\_latency)$Versus $\Theta(n \times \mathrm{L1\_latency)$
+   $\Theta(n \times \mathrm{coherence\_latency)$ Versus $\Theta(n \times \mathrm{L1\_latency)$
    without false sharing.
 8. The speedup from eliminating false sharing is
    $\frac{\mathrm{coherence\_latency}{\mathrm{L1\_latency} \approx 10\mathrm{x\mathrm{--100\mathrm{x$.
@@ -12061,12 +12061,12 @@ Coroutine-to-coroutine chaining prevents unbounded stack growth.
 
 **Proof:**
 
-1. Consider a chain of $n$ coroutines: $C_1 \to C_2 \to \ldots \to C_n$Where each coroutine
+1. Consider a chain of $n$ coroutines: $C_1 \to C_2 \to \ldots \to C_n$ Where each coroutine
    `co_await`S the next.
-2. **Without symmetric transfer:** When $C_1$ `co_await`S $C_2$The `await_suspend` of $C_2$ calls
+2. **Without symmetric transfer:** When $C_1$ `co_await`S $C_2$ The `await_suspend` of $C_2$ calls
    `C_1.resume()` inside $C_2$'s suspension handler. This is a regular function call, which grows
    the call stack by one frame. For $n$ coroutines, the stack grows by $\mathcal{O}(n)$ frames. For
-   unbounded $n$This causes stack overflow.
+   unbounded $n$ This causes stack overflow.
 3. **With symmetric transfer:** When $C_1$ `co_await`S $C_2$`await_suspend` returns the handle of
    $C_2$. The compiler generates a tail call from $C_1$'s resume trampoline to $C_2$'s resume
    trampoline. A tail call reuses the current stack frame, so the stack depth is $\mathcal{O}(1)$.
@@ -12879,7 +12879,7 @@ The shared state transitions through these phases:
 ## Limitations: No Composability
 
 The primary limitation of `std::future` is **lack of composability** [N4950 §33.6.4]. Unlike
-JavaScript `Promise.then()` or Rust"s `Future`C++ `std::future`:
+JavaScript `Promise.then()` or Rust's `Future`C++ `std::future`:
 
 - Has no `.then()` method for chaining.
 - Cannot be combined with `when_all` or `when_any` from the standard library.
@@ -14444,7 +14444,7 @@ Such that [N4950 §31.7.5]:
    last write to $x$ in $T$.
 
 The C++ memory model guarantees that all `memory_order_seq_cst` operations participate in a single
-Total order $S$Called the **modification order**, which is consistent with all happens-before
+Total order $S$ Called the **modification order**, which is consistent with all happens-before
 Relationships.
 
 ## Concrete Example: Reordering Bug
@@ -17080,7 +17080,7 @@ Threads, which cooperative scheduling does not create.
 
 | Property            | Thread-Based                | Cooperative Coroutines        |
 | :------------------ | :-------------------------- | :---------------------------- |
-| Context switch cost | ~1-10 $\mu$S (kernel)       | ~10-100 ns (user-space)       |
+| Context switch cost | ~1-10 $\mu$ S (kernel)       | ~10-100 ns (user-space)       |
 | Stack size per task | ~1-8 MB                     | ~100-1000 bytes (frame)       |
 | Data race risk      | High (preemptive)           | Low (cooperative)             |
 | Deadlock risk       | Possible                    | Possible (less likely)        |
@@ -19639,7 +19639,7 @@ cmake -S . -B build \
 #### GCC
 
 - ccache works transparently with GCC.
-- GCC"s `-fprofile-generate` / `-fprofile-use` (PGO) is **not** cacheable by ccache because the
+- GCC's `-fprofile-generate` / `-fprofile-use` (PGO) is **not** cacheable by ccache because the
   output depends on runtime profile data, not just source inputs.
 
 #### Clang
@@ -24260,7 +24260,7 @@ The following table lists target triples commonly encountered in cross-compilati
 | FreeRTOS ARM Cortex-M7      | `arm-none-eabi`         | Bare metal (same triple, different `-mcpu`) |
 | Embedded RISC-V             | `riscv64-unknown-elf`   | Bare metal RISC-V                           |
 
-### Clang"s `-target` Flag
+### Clang's `-target` Flag
 
 Clang uses a unified driver model. Instead of requiring a separate prefixed binary for each target,
 Clang accepts a `-target` flag that dynamically selects the code generator:
@@ -30371,14 +30371,14 @@ A build system must satisfy two invariants for correctness:
    before the edge executes.
 2. **No redundant work:** A target is rebuilt only if at least one of its inputs has changed.
 
-Ninja"s DAG-based scheduling satisfies both invariants by construction:
+Ninja's DAG-based scheduling satisfies both invariants by construction:
 
 **Invariant 1 (Dependency completeness):** Ninja performs a topological sort of the DAG before
 Execution. A topological sort of a DAG produces a linear ordering where every node appears after all
 Its predecessors. When Ninja executes edges in this order, every input is guaranteed to be available
 Before the edge that consumes it runs.
 
-Formally, for every edge $e: (I_1, I_2, \ldots, I_n) \to O$The topological sort ensures that
+Formally, for every edge $e: (I_1, I_2, \ldots, I_n) \to O$ The topological sort ensures that
 $I_1, I_2, \ldots, I_n$ all precede $O$ in the execution order. This is a theorem of graph theory:
 Topological orderings exist for all DAGs and only for DAGs. If the dependency graph contained a
 Cycle, no topological ordering would exist, and Ninja would correctly report a cycle error.
@@ -38727,7 +38727,7 @@ Is the error truly exceptional (should rarely happen)?
 | Criterion               | Exceptions                        | `std::expected`                 | Error Codes                    |
 | :---------------------- | :-------------------------------- | :------------------------------ | :----------------------------- |
 | Normal-path overhead    | ~0 (no branch)                    | 1 branch (check `has_value()`)  | 1 branch + compare             |
-| Error-path overhead     | ~5-20 $\mu$S (unwind)             | 0 (direct branch)               | 0 (direct return)              |
+| Error-path overhead     | ~5-20 $\mu$ S (unwind)             | 0 (direct branch)               | 0 (direct return)              |
 | Code clarity            | High (separate happy/error paths) | Medium (explicit checks)        | Low (pervasive error checks)   |
 | Forgetting to handle    | Compiler warns on uncaught        | UB if `value()` called on error | Easy to forget to check return |
 | Composability           | Implicit (stack unwinding)        | Monadic chains (`and_then`)     | Manual propagation             |
@@ -41669,11 +41669,11 @@ Implicit conversion sequences required. A function $f_1$ is a better match than 
 
 ### Formal Statement of the Viable Function Selection
 
-Let $C$ be the candidate set from name lookup. For each candidate $c \in C$Let $n_c$ be the number
+Let $C$ be the candidate set from name lookup. For each candidate $c \in C$ Let $n_c$ be the number
 Of parameters of $c$ And let $k$ be the number of arguments in the call. Candidate $c$ is viable if
 And only if all of the following hold:
 
-1. $n_c = k$Or $c$ has a trailing parameter pack and $n_c \le k$Or $c$ is variadic and $n_c \le k$.
+1. $n_c = k$ Or $c$ has a trailing parameter pack and $n_c \le k$ Or $c$ is variadic and $n_c \le k$.
 2. For each argument $a_i$ (where $1 \le i \le k$), there exists an implicit conversion sequence
    converting $a_i$ to the type of the $i$-th parameter of $c$.
 
@@ -42184,7 +42184,7 @@ Argument and no worse for any argument, then $f_1$ is selected.
 
 **Proof:**
 
-1. Let $k$ be the number of arguments. For each argument $i \in \{1, \ldots, k\}$Let
+1. Let $k$ be the number of arguments. For each argument $i \in \{1, \ldots, k\}$ Let
    $\mathrm{ICS_{f_1}(i)$ and $\mathrm{ICS_{f_2}(i)$ be the implicit conversion sequences for $f_1$
    and $f_2$ respectively.
 
@@ -45038,7 +45038,7 @@ Devirtualization.
 Compiler can prove the dynamic type of the object at compile time.
 
 The C++ Standard does not define devirtualization -- it is a pure optimization. However, the
-Standard"s type system and specifiers provide the information compilers need to perform it.
+Standard's type system and specifiers provide the information compilers need to perform it.
 
 Devirtualization is important because virtual dispatch prevents several critical optimizations:
 
@@ -53431,7 +53431,7 @@ linked above.
 
 ## Related Topics
 
-- [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/), Rust"s compile-time ownership model as an alternative to C++ manual resource management.
+- [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/), Rust's compile-time ownership model as an alternative to C++ manual resource management.
 - [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/), When Rust's safety guarantees are deliberately bypassed.
 
 ## Intuition
@@ -57041,7 +57041,7 @@ Count so it cannot deallocate while the object is alive. Formally:
 
 - **Object lifetime:** The managed object exists if and only if $s \gt 0$.
 - **Deleter invocation:** When $s$ transitions from 1 to 0, the deleter is invoked.
-- **Control block deallocation:** When both $s = 0$ and $w = 0$The control block memory is freed
+- **Control block deallocation:** When both $s = 0$ and $w = 0$ The control block memory is freed
  via the stored allocator (or `operator delete` by default).
 
 This two-phase destruction is critical: the object dies first (when strong owners vanish), but the
@@ -61748,7 +61748,7 @@ inserting to pre-allocate buckets and avoid all intermediate rehashes [N4950 §2
 
 **6. Using `std::unordered_map` when you need range queries:** `std::unordered_map` provides no
 Ordering guarantee. Operations like `lower_bound``upper_bound`And `equal_range` in the ordered Sense
-are not available. If you need to iterate over all keys in a range $[lo, hi]$Use `std::map` Instead.
+are not available. If you need to iterate over all keys in a range $[lo, hi]$ Use `std::map` Instead.
 
 **7. Erasing while iterating with `operator[]`:** In `std::map`The pattern `m.erase(m[key])` first
 Default-inserts `key` (via `operator[]`) and then immediately erases it, causing a redundant
@@ -67262,7 +67262,7 @@ PRNG.
 
 6. **Floating-point distribution bounds:** `std::uniform_real_distribution&lt;double>(0.0, 1.0)`
    produces values in $[0.0, 1.0)$, the upper bound is exclusive. If you need a closed interval
-   $[0.0, 1.0]$Use `std::uniform_real_distribution&lt;double>(0.0, std::nextafter(1.0, 2.0))`.
+   $[0.0, 1.0]$ Use `std::uniform_real_distribution&lt;double>(0.0, std::nextafter(1.0, 2.0))`.
 
 ## Common Pitfalls
 
@@ -69043,7 +69043,7 @@ The library provides three main operations:
 | `std::regex_replace(str, regex, fmt)` | Replaces all matches with a formatted string              |
 
 :::caution
-GCC"s libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
+GCC's libstdc++, which uses a backtracking NFA engine). For production use with untrusted input,
 Consider:
 
 - **CTRE** (Compile-Time Regular Expressions): header-only, uses CTAD and template metaprogramming
@@ -69716,7 +69716,7 @@ Libc++, MSVC) use a factor of $\times 2$ (geometric growth).
 We prove that geometric growth with factor $\alpha \gt 1$ yields amortized $O(1)$ per `push_back`.
 
 **Theorem.** Starting from an empty vector, inserting $n$ elements by `push_back` with geometric
-Growth factor $\alpha$ incurs total element-copy cost $O(n)$Hence amortized $O(1)$ per insertion.
+Growth factor $\alpha$ incurs total element-copy cost $O(n)$ Hence amortized $O(1)$ per insertion.
 
 **Proof.** Let $c_k$ denote the capacity after the $k$-th reallocation, with $c_0 = 1$. Then
 $c_k = \lceil \alpha^k \rceil$. The total number of element copies across all reallocations is the
@@ -69726,15 +69726,15 @@ $$
 C(n) = \sum_{k=0}^{\lceil \log_\alpha n \rceil} c_k \leq \sum_{k=0}^{\lceil \log_\alpha n \rceil} \alpha^k = \frac{\alpha^{\lceil \log_\alpha n \rceil + 1} - 1}{\alpha - 1} \leq \frac{\alpha \cdot n}{\alpha - 1}
 $$
 
-For $\alpha = 2$This gives $C(n) \leq 2n$ So total copies are at most $2n$ for $n$ insertions,
+For $\alpha = 2$ This gives $C(n) \leq 2n$ So total copies are at most $2n$ for $n$ insertions,
 Yielding amortized cost of 2 element copies per insertion.
 
-For $\alpha = 1.5$We get $C(n) \leq 3n$. Each insertion is still amortized $O(1)$ But the Constant is
+For $\alpha = 1.5$ We get $C(n) \leq 3n$. Each insertion is still amortized $O(1)$ But the Constant is
 slightly worse. QED.
 
 #### Why 1.5x Can Be Preferred Over 2x
 
-Although both factors give amortized $O(1)$The choice of growth factor affects **peak memory
+Although both factors give amortized $O(1)$ The choice of growth factor affects **peak memory
 Usage**. Consider a vector that just reallocated from capacity $c$ to capacity $\alpha c$. Before
 The old buffer is freed, the vector temporarily holds $\alpha c$ bytes of allocated (but unused)
 Memory. The **peak allocated memory** at this point is $c + \alpha c = c(1 + \alpha)$.
@@ -69743,14 +69743,14 @@ For $\alpha = 2$: peak = $3c$ (the old buffer plus the new buffer of size $2c$).
 Peak = $2.5c$.
 
 More critically, a factor of exactly 2 can lead to the allocator being unable to reuse freed memory.
-When the vector grows from $c$ to $2c$The old block of size $c$ is freed. On the next reallocation
-From $2c$ to $4c$The old block of size $2c$ is freed. If the heap allocator places blocks
+When the vector grows from $c$ to $2c$ The old block of size $c$ is freed. On the next reallocation
+From $2c$ to $4c$ The old block of size $2c$ is freed. If the heap allocator places blocks
 Contiguously, the freed block of size $c$ or $2c$ may be too small to hold the next allocation of
-$4c$Forcing the allocator to find a completely new region. With $\alpha = 1.5$The old block of Size
+$4c$ Forcing the allocator to find a completely new region. With $\alpha = 1.5$ The old block of Size
 $c$ is freed when growing to $1.5c$ And the next reallocation needs $2.25c$. Because
-$c + 1.5c = 2.5c \gt 2.25c$The previously freed space can sometimes be reused.
+$c + 1.5c = 2.5c \gt 2.25c$ The previously freed space can sometimes be reused.
 
-This is why some production allocators (e.g., Facebook"s folly `fbvector`) use a factor of 1.5.
+This is why some production allocators (e.g., Facebook's folly `fbvector`) use a factor of 1.5.
 
 ```cpp
 #include <vector>
@@ -73385,7 +73385,7 @@ Clean, readable overloading based on concept constraints.
 ## Partial Ordering of Constraints
 
 The C++ standard defines a **partial ordering** on constraints called **subsumption** [N4950
-§13.5.4]. Given two constraints $P$ and $Q$We say $P$ **subsumes** $Q$ (written $P \succeq Q$) if
+§13.5.4]. Given two constraints $P$ and $Q$ We say $P$ **subsumes** $Q$ (written $P \succeq Q$) if
 $P$ is at least as restrictive as $Q$ --- meaning that every set of template arguments satisfying
 $P$ also satisfies $Q$.
 
@@ -73410,7 +73410,7 @@ Determining subsumption between constraint conjunctions and disjunctions are [N4
 ## Proof: Partially-Ordered Overloads Are Preferred
 
 **Claim:** When two viable function templates have constraints $P$ and $Q$ And $P$ subsumes $Q$ but
-$Q$ does not subsume $P$The overload with constraint $P$ is unambiguously preferred.
+$Q$ does not subsume $P$ The overload with constraint $P$ is unambiguously preferred.
 
 **Proof:**
 
@@ -75477,7 +75477,7 @@ Dependent calls benefit from Phase 2 lookup.
 
 ### Formal Model of Two-Phase Lookup
 
-The two-phase model can be understood as a pair of environments, $\lt E_1, E_2 \gt$Where $E_1$ is
+The two-phase model can be understood as a pair of environments, $\lt E_1, E_2 \gt$ Where $E_1$ is
 The definition-time environment and $E_2$ is the instantiation-time environment. Name resolution
 Proceeds as follows:
 
@@ -75490,8 +75490,8 @@ Proceeds as follows:
    environments). For unqualified dependent function calls, also perform ADL using the associated
    namespaces and classes of the argument types.
 
-3. If any non-dependent name fails to resolve in $E_1$The program is ill-formed. If any dependent
-   name fails to resolve in $E_1 \cup E_2$The program is ill-formed at the point of instantiation.
+3. If any non-dependent name fails to resolve in $E_1$ The program is ill-formed. If any dependent
+   name fails to resolve in $E_1 \cup E_2$ The program is ill-formed at the point of instantiation.
 
 This model ensures that template definitions can be checked for basic correctness at definition time
 (catching typos in non-dependent names early), while template instantiations can find names declared
@@ -77430,10 +77430,10 @@ This can be proved by induction on the pack size $n$.
 **Base case** ($n = 1$): The fold `(e_1 op ...)` evaluates to `e_1`. This is Right-associative (no
 operator application).
 
-**Inductive step:** Assume the expansion holds for a pack of size $n$Producing:
+**Inductive step:** Assume the expansion holds for a pack of size $n$ Producing:
 $e_1 \oplus (e_2 \oplus (\ldots \oplus e_n))$.
 
-For a pack of size $n + 1$The Standard specifies that the first element is the left operand of the
+For a pack of size $n + 1$ The Standard specifies that the first element is the left operand of the
 Operator, and the remaining elements form the right operand via a nested fold:
 $e_1 \oplus (\mathrm{fold of  (e_2, \ldots, e_{n+1}))$.
 
@@ -77621,7 +77621,7 @@ The behavior of fold expressions with empty packs depends on the operator [N4950
 | All others | **Ill-formed**                | Must use binary fold with init   |
 
 The identity element rule follows from the mathematical definition: for an operator $\oplus$ with
-Identity element $e$Folding an empty sequence yields $e$. The logical operators `&&` and `||` have
+Identity element $e$ Folding an empty sequence yields $e$. The logical operators `&&` and `||` have
 Well-defined identity elements (`true` and `false` respectively), and the comma operator has the
 Identity element `void()` (a no-op expression).
 
@@ -81481,7 +81481,7 @@ The partial ordering algorithm [N4950 S13.7.5.5/2] works by **synthetic substitu
 1. Given two partial specializations $A$ and $B$ that both match a given set of template arguments,
    the compiler attempts to determine which is "more specialized."
 
-2. To test whether $A$ is at least as specialized as $B$The compiler replaces each template
+2. To test whether $A$ is at least as specialized as $B$ The compiler replaces each template
    parameter of $A$ with a **unique synthetic type** and checks whether the resulting pattern
    matches $B$. If it does, $A$ is at least as specialized as $B$.
 
@@ -81548,7 +81548,7 @@ struct Ambig<T* const> {};     // matches: T = const int
 Type $U$: we get `const U*`. Does this match $B$ (`T* const`)? Yes, with $T = \mathrm{const
 U$. Now
 Replace `T` in $B$ with a unique type $V$: we get `V* const`. Does this match $A$ (`const T*`)? Yes,
-With $T = V \mathrm{ const$. Since $A$ matches $B$ **and** $B$ matches $A$Neither is strictly More
+With $T = V \mathrm{ const$. Since $A$ matches $B$ **and** $B$ matches $A$ Neither is strictly More
 specialized. The program is ill-formed.
 
 The fix is to provide a disambiguating specialization that is strictly more specialized than both:
@@ -89359,9 +89359,9 @@ Is undefined behavior.
 
 1. By [N4950 §7.6.6.6], if an expression `e` points to element $x[i]$ of an array object `x` with
    $n$ elements, the expressions `e + j` and `e - j` point to (respectively) element $x[i + j]$ and
-   $x[i - j]$Provided $0 \le i + j \le n$.
+   $x[i - j]$ Provided $0 \le i + j \le n$.
 
-2. When $i + j = n$The pointer points "one past the last element." The Standard explicitly permits
+2. When $i + j = n$ The pointer points "one past the last element." The Standard explicitly permits
    this pointer value. The constraint $0 \le i + j \le n$ (note the inclusive upper bound) is the
    formal statement of the one-past-the-end rule.
 

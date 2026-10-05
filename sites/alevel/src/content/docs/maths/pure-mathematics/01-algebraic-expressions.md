@@ -69,7 +69,7 @@ $\sqrt{a} = a^{1/2}$.
 **Rationalising the denominator.** If a fraction has a surd in the denominator, we multiply
 Numerator and denominator by the surd (or its conjugate) to eliminate it.
 
-For a denominator of the form $\sqrt{a}$Multiply by $\frac{\sqrt{a}}{\sqrt{a}}$:
+For a denominator of the form $\sqrt{a}$ Multiply by $\frac{\sqrt{a}}{\sqrt{a}}$:
 
 $$
 \begin{aligned}
@@ -77,7 +77,7 @@ $$
 \end{aligned}
 $$
 
-For a denominator of the form $a + b\sqrt{c}$Multiply by the _conjugate_ $a - b\sqrt{c}$:
+For a denominator of the form $a + b\sqrt{c}$ Multiply by the _conjugate_ $a - b\sqrt{c}$:
 
 $$
 \begin{aligned}
@@ -105,10 +105,10 @@ P^2 &= 2q^2
 \end{aligned}
 $$
 
-Since $p^2 = 2q^2$We have that $p^2$ is even. A standard result (proved below) tells us that if
+Since $p^2 = 2q^2$ We have that $p^2$ is even. A standard result (proved below) tells us that if
 $p^2$ is even, then $p$ is even. So $p = 2k$ for some integer $k$.
 
-Substituting: $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$Hence $q^2 = 2k^2$.
+Substituting: $(2k)^2 = 2q^2$ So $4k^2 = 2q^2$ Hence $q^2 = 2k^2$.
 
 By the same argument, $q^2$ is even, so $q$ is even. But this contradicts $\gcd(p, q) = 1$ since
 Both $p$ and $q$ are divisible by 2. Therefore our assumption was false, and $\sqrt{2}$ is
@@ -117,17 +117,17 @@ Irrational. $\blacksquare$
 _Lemma._ If $p^2$ is even, then $p$ is even.
 
 _Proof._ The contrapositive: if $p$ is odd, then $p^2$ is odd. If $p = 2k + 1$ Then
-$p^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$Which is odd. $\blacksquare$
+$p^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$ Which is odd. $\blacksquare$
 
 _Intuition._ This proof exploits the structure of divisibility: the number 2 has a unique prime
 Factorisation, and squaring preserves parity. The contradiction arises because $2$ "forces" factors
-Of 2 into both $p$ and $q$Making the fraction reducible.
+Of 2 into both $p$ and $q$ Making the fraction reducible.
 
 <hr />
 
 ## 2. Indices (Exponent Laws)
 
-**Definition.** For $a > 0$ and $n \in \mathbb{Z}^+$We define
+**Definition.** For $a > 0$ and $n \in \mathbb{Z}^+$ We define
 $a^n = \underbrace{a \times a \times \cdots \times a}_{n \mathrm{ times}}$. We extend this
 Definition as follows:
 
@@ -249,15 +249,15 @@ $$
 
 Where $\deg(r) < \deg(g)$ or $r(x) = 0$.
 
-_Intuition._ This is exactly analogous to integer division: $47 = 5 \times 9 + 2$Where
+_Intuition._ This is exactly analogous to integer division: $47 = 5 \times 9 + 2$ Where
 $0 \leq 2 < 5$. In polynomials, the "size" ordering is replaced by degree, and the remainder must
 Have smaller degree than the divisor.
 
 ### 4.2 Why Polynomial Division Mirrors Integer Long Division
 
 The structural analogy is deep. Both are instances of a _Euclidean domain_, an algebraic structure
-Where we can perform division with remainder. In $\mathbb{Z}$The "degree" is the absolute value; In
-$\mathbb{R}[x]$The degree is the polynomial degree. The algorithm is the same: at each step,
+Where we can perform division with remainder. In $\mathbb{Z}$ The "degree" is the absolute value; In
+$\mathbb{R}[x]$ The degree is the polynomial degree. The algorithm is the same: at each step,
 Eliminate the leading term.
 
 <hr />
@@ -266,10 +266,10 @@ Eliminate the leading term.
 
 ### 5.1 The Remainder Theorem
 
-**Theorem (Remainder Theorem).** If a polynomial $f(x)$ is divided by $(x - a)$The remainder is
+**Theorem (Remainder Theorem).** If a polynomial $f(x)$ is divided by $(x - a)$ The remainder is
 $f(a)$.
 
-_Proof._ By the division algorithm, $f(x) = (x - a) \cdot q(x) + r$Where $r$ is a constant (since
+_Proof._ By the division algorithm, $f(x) = (x - a) \cdot q(x) + r$ Where $r$ is a constant (since
 $\deg(r) < \deg(x - a) = 1$).
 
 Substituting $x = a$:
@@ -280,7 +280,7 @@ F(a) &= (a - a) \cdot q(a) + r = 0 \cdot q(a) + r = r \quad \blacksquare
 \end{aligned}
 $$
 
-_Intuition._ When you plug in $x = a$The $(x - a)$ factor vanishes, leaving only the remainder. The
+_Intuition._ When you plug in $x = a$ The $(x - a)$ factor vanishes, leaving only the remainder. The
 remainder is the "leftover" that doesn"t contain the factor $(x - a)$.
 
 ### 5.2 The Factor Theorem
@@ -293,10 +293,10 @@ _Proof._
 $f(a) = (a - a) \cdot q(a) = 0$.
 
 ($\Leftarrow$) If $f(a) = 0$ Then by the Remainder Theorem, the remainder upon division by $(x - a)$
-is $f(a) = 0$. So $f(x) = (x - a) \cdot q(x)$Meaning $(x - a)$ is a factor. $\blacksquare$
+is $f(a) = 0$. So $f(x) = (x - a) \cdot q(x)$ Meaning $(x - a)$ is a factor. $\blacksquare$
 
 _Intuition._ The Factor Theorem connects algebra (polynomials) to geometry (roots on the $x$-axis).
-A root $x = a$ means the graph crosses the $x$-axis at $a$Which means $(x - a)$ must divide the
+A root $x = a$ means the graph crosses the $x$-axis at $a$ Which means $(x - a)$ must divide the
 Polynomial.
 
 <details>
@@ -487,7 +487,7 @@ $$
 
 <hr />
 
-**Problem 7.** Given $f(x) = x^4 - x^3 - 7x^2 + x + 6$Show that $(x - 1)$, $(x + 1)$ And $(x - 3)$
+**Problem 7.** Given $f(x) = x^4 - x^3 - 7x^2 + x + 6$ Show that $(x - 1)$, $(x + 1)$ And $(x - 3)$
 are all factors, and hence factorise $f(x)$ completely.
 
 <details>
@@ -534,7 +534,7 @@ P^2 &= 3q^2
 \end{aligned}
 $$
 
-So $3 \mid p^2$Which means $3 \mid p$ (since 3 is prime). Write $p = 3k$:
+So $3 \mid p^2$ Which means $3 \mid p$ (since 3 is prime). Write $p = 3k$:
 
 $$
 \begin{aligned}
@@ -543,7 +543,7 @@ Q^2 &= 3k^2
 \end{aligned}
 $$
 
-So $3 \mid q^2$Hence $3 \mid q$. But $\gcd(p, q) = 1$ and both are divisible by 3, contradiction.
+So $3 \mid q^2$ Hence $3 \mid q$. But $\gcd(p, q) = 1$ and both are divisible by 3, contradiction.
 $\blacksquare$
 
 </details>
@@ -563,7 +563,7 @@ $-x^2 \div x = -x$. Multiply: $-x(x + 2) = -x^2 - 2x$. Subtract: $-8x + 8$.
 
 $-8x \div x = -8$. Multiply: $-8(x + 2) = -8x - 16$. Subtract: $24$.
 
-Quotient: $3x^2 - x - 8$Remainder: $24$.
+Quotient: $3x^2 - x - 8$ Remainder: $24$.
 
 Verification:
 $(x + 2)(3x^2 - x - 8) + 24 = 3x^3 - x^2 - 8x + 6x^2 - 2x - 16 + 24 = 3x^3 + 5x^2 - 10x + 8$ ✓
@@ -595,7 +595,7 @@ Discriminant: $\Delta = 9 - 20 = -11 < 0$. No real solutions.
 <hr />
 
 **Problem 11.** Given that $x^3 + ax^2 + bx + c$ is exactly divisible by $(x - 1)^2$ and leaves
-Remainder $12$ when divided by $(x + 2)$Find $a$, $b$ And $c$.
+Remainder $12$ when divided by $(x + 2)$ Find $a$, $b$ And $c$.
 
 <details>
 <summary>Solution</summary>

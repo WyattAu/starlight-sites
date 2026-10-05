@@ -82,7 +82,7 @@ $\mathbf{M}^{-1} = \frac{1}{13}\begin{pmatrix} 1 & -2 & 6 \\ 6 & 1 & -3 \\ -2 & 
 (c)
 $\mathbf{x} = \mathbf{M}^{-1}\begin{pmatrix} 5 \\ 7 \\ 4 \end{pmatrix} = \frac{1}{13}\begin{pmatrix} 5 - 14 + 24 \\ 30 + 7 - 12 \\ -10 + 28 + 4 \end{pmatrix} = \frac{1}{13}\begin{pmatrix} 15 \\ 25 \\ 22 \end{pmatrix}$.
 
-(d) If $\det(\mathbf{M}) = 0$The matrix is **singular** (non-invertible). This means: the rows (and
+(d) If $\det(\mathbf{M}) = 0$ The matrix is **singular** (non-invertible). This means: the rows (and
 columns) are linearly dependent, the matrix does not have full rank, the system
 $\mathbf{M}\mathbf{x} = \mathbf{b}$ has either no solution or infinitely many solutions (depending
 on $\mathbf{b}$), and the corresponding linear transformation collapses the space into a lower
@@ -187,7 +187,7 @@ $\mathbf{x} = \mathbf{A}^{-1}\begin{pmatrix} 4 \\ 9 \\ 5 \end{pmatrix} = \begin{
 $x = 10$$y = -1$$z = -4$. Verification: $10 - 2 - 4 = 4 \checkmark$; $20 + 1 - 12 = 9 \checkmark$;
 $10 - 1 - 4 = 5 \checkmark$.
 
-(d) If $\det(\mathbf{A}) = 0$The matrix is singular and $\mathbf{A}^{-1}$ does not exist. This means
+(d) If $\det(\mathbf{A}) = 0$ The matrix is singular and $\mathbf{A}^{-1}$ does not exist. This means
 the three equations are linearly dependent. The system has either no unique solution: either no
 solution (inconsistent) or infinitely many solutions.
 
@@ -219,10 +219,10 @@ $\mathbf{x}(t) = 2e^{3t}\begin{pmatrix} 1 \\ 1 \end{pmatrix} + e^{t}\begin{pmatr
 (c)
 $\mathbf{x}(1) = \begin{pmatrix} 2e^3 + e \\ 2e^3 - e \end{pmatrix} = \begin{pmatrix} 2(20.086) + 2.718 \\ 2(20.086) - 2.718 \end{pmatrix} = \begin{pmatrix} 42.89 \\ 37.45 \end{pmatrix}$.
 
-(d) As $t \to \infty$The term $e^{3t}$ dominates (both eigenvalues are positive). Both $x$ and $y$
+(d) As $t \to \infty$ The term $e^{3t}$ dominates (both eigenvalues are positive). Both $x$ and $y$
 grow exponentially, with $x \approx 2e^{3t}$ and $y \approx 2e^{3t}$. The solution diverges away
 from the origin -- the origin is an **unstable node**. The ratio $x/y \to 1$ as
-$t \to \infty$Meaning the trajectory approaches the direction of the eigenvector
+$t \to \infty$ Meaning the trajectory approaches the direction of the eigenvector
 $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 ## Common Mistakes

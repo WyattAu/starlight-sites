@@ -188,7 +188,7 @@ Through , while large or charged molecules require transport proteins.
 Movement of molecules from a region of higher concentration to a region of lower concentration,
 Directly through the phospholipid bilayer.
 
-- Only for small, non-polar molecules (e.g., $\mathrm{O}_2$, $\mathrm{CO}_2$Lipid-soluble
+- Only for small, non-polar molecules (e.g., $\mathrm{O}_2$, $\mathrm{CO}_2$ Lipid-soluble
   substances)
 - Net movement stops at equilibrium (dynamic equilibrium)
 - Rate depends on: concentration gradient, temperature, surface area, distance
@@ -293,7 +293,7 @@ General formula: $\mathrm{C}_x(\mathrm{H}_2\mathrm{O})_y$
 
 **Tests for carbohydrates:**
 
-- **Benedict"s test:** Reducing sugars (e.g., glucose) produce a brick-red precipitate when heated
+- **Benedict's test:** Reducing sugars (e.g., glucose) produce a brick-red precipitate when heated
   with Benedict's reagent
 - **Iodine test:** Starch turns blue-black
 
@@ -438,8 +438,8 @@ Conditions.
 
 ### Worked Example 1
 
-An enzyme has an optimum temperature of $40^\circ\mathrm{C}$. At $20^\circ\mathrm{C}$The reaction
-Rate is $0.3$ units/s. At $40^\circ\mathrm{C}$The rate is $1.2$ units/s. Calculate the Q10
+An enzyme has an optimum temperature of $40^\circ\mathrm{C}$. At $20^\circ\mathrm{C}$ The reaction
+Rate is $0.3$ units/s. At $40^\circ\mathrm{C}$ The rate is $1.2$ units/s. Calculate the Q10
 (temperature coefficient).
 
 $$
@@ -1667,7 +1667,7 @@ If you get this wrong, revise: Cellular Respiration in Detail
 | Location             | Cytoplasm (glycolysis) + mitochondria (link reaction, Krebs cycle, oxidative phosphorylation) | Cytoplasm only (glycolysis only)                                 |
 | Oxygen               | Required (final electron acceptor)                                                            | Not required                                                     |
 | Substrates           | Glucose                                                                                       | Glucose                                                          |
-| Products             | $\mathrm{CO}_2$, $\mathrm{H}_2\mathrm{O}$ATP (30-32)                                          | Lactate, ATP (2)                                                 |
+| Products             | $\mathrm{CO}_2$, $\mathrm{H}_2\mathrm{O}$ ATP (30-32)                                          | Lactate, ATP (2)                                                 |
 | ATP yield            | Approximately 30-32 ATP per glucose                                                           | 2 ATP per glucose                                                |
 | NAD$^+$ regeneration | Via oxidative phosphorylation (electron transport chain)                                      | Via conversion of pyruvate to lactate (NADH oxidised to NAD$^+$) |
 
@@ -1746,7 +1746,7 @@ require energy. Unlike simple diffusion, it requires specific carrier proteins o
 | Saturation            | No (rate increases with concentration indefinitely) | Yes (rate plateaus when all proteins are occupied)                                 |
 | Energy required       | No                                                  | No                                                                                 |
 | Direction             | Down concentration gradient                         | Down concentration gradient                                                        |
-| Molecules transported | $\mathrm{O}_2$$\mathrm{CO}_2$Small lipids, water    | Glucose (via GLUT transporters), amino acids, ions ($\mathrm{Na}^+$$\mathrm{K}^+$) |
+| Molecules transported | $\mathrm{O}_2$$\mathrm{CO}_2$ Small lipids, water    | Glucose (via GLUT transporters), amino acids, ions ($\mathrm{Na}^+$$\mathrm{K}^+$) |
 
 **Channel proteins:**
 

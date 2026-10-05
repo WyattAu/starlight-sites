@@ -132,9 +132,9 @@ perfectly reconstructed from samples taken at a rate of at least $2H$ samples pe
 _Proof._ Let $x(t)$ be a signal with Fourier transform $X(f)$ such that $X(f) = 0$ for
 $\lvert f \rvert \gt H$. Sampling at rate $f_s$ produces
 $x_s(t) = x(t) \cdot \sum_{n=-\infty}^{\infty} \delta(t - nT_s)$ Where $T_s = 1/f_s$. In the
-frequency domain, $X_s(f) = f_s \sum_{k=-\infty}^{\infty} X(f - kf_s)$. When $f_s \geq 2H$The
+frequency domain, $X_s(f) = f_s \sum_{k=-\infty}^{\infty} X(f - kf_s)$. When $f_s \geq 2H$ The
 spectral copies do not overlap, and $x(t)$ can be recovered by an ideal Lowpass filter with cutoff
-$H$. When $f_s \lt 2H$Aliasing occurs and perfect recovery is Impossible. $\blacksquare$
+$H$. When $f_s \lt 2H$ Aliasing occurs and perfect recovery is Impossible. $\blacksquare$
 
 - **Shannon capacity:** For a noisy channel with signal-to-noise ratio $\mathrm{SNR}$:
 
@@ -161,7 +161,7 @@ $C = 3100 \times \log_2(3163) \approx 34860$ bps.
 A noiseless channel has a bandwidth of 4000 Hz. How many signal levels are needed to achieve a data
 Rate of 56000 bps?
 
-Using Nyquist"s formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V$$
+Using Nyquist's formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V$$
 $$\log_2 V = \frac{56000}{8000} = 7$$ $$V = 2^7 = 128$$
 
 **Answer:** 128 signal levels are required.
@@ -428,9 +428,9 @@ remainder 0, Confirming no error.
 
 **ALOHA.** Transmit whenever ready; if collision, wait random time and retransmit.
 
-- **Pure ALOHA:** Throughput $S = G e^{-2G}$Maximum at $G = 0.5$:
+- **Pure ALOHA:** Throughput $S = G e^{-2G}$ Maximum at $G = 0.5$:
   $S_{\max} = 1/(2e) \approx 18.4\%$.
-- **Slotted ALOHA:** Time divided into slots; transmit at slot boundary. $S = G e^{-G}$Maximum at
+- **Slotted ALOHA:** Time divided into slots; transmit at slot boundary. $S = G e^{-G}$ Maximum at
   $G = 1$: $S_{\max} = 1/e \approx 36.8\%$.
 
 **CSMA (Carrier Sense Multiple Access).** Listen before transmitting.
@@ -450,7 +450,7 @@ simultaneously; If collision detected, send jam signal and wait random backoff.
 
 **CSMA/CD collision analysis.** The sender must still be transmitting when a collision signal
 returns From the farthest point on the network. The worst-case round-trip propagation time is
-$2\tau$Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
+$2\tau$ Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
 $2 \times 10^8$ m/s in copper). The minimum frame size is therefore:
 
 $$
@@ -642,7 +642,7 @@ $$
 <details>
 <summary>Worked Example: Switching Latency Comparison</summary>
 
-A 1500-byte frame traverses 3 store-and-forward switches on 1 Gbps links. Each link has 5 $\mu$S
+A 1500-byte frame traverses 3 store-and-forward switches on 1 Gbps links. Each link has 5 $\mu$ S
 Propagation delay.
 
 **Store-and-forward:**
@@ -657,7 +657,7 @@ $$
 \mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}
 $$
 
-**Answer:** Cut-through saves approximately 23.8 $\mu$S (47% reduction) for this scenario, but it
+**Answer:** Cut-through saves approximately 23.8 $\mu$ S (47% reduction) for this scenario, but it
 Cannot detect corrupted frames before forwarding them.
 
 </details>
@@ -831,7 +831,7 @@ Routers exchange vectors with neighbours periodically.
 
 **Count-to-infinity example.** Routers A, B, C in a line with cost 1 each. If link A-B fails:
 
-1. B sets $d_B(A) = \infty$Advertises to C.
+1. B sets $d_B(A) = \infty$ Advertises to C.
 2. C still has $d_C(A) = 2$ via B, advertises $d_C(A) = 2$ to B.
 3. B sets $d_B(A) = 3$ via C. C then sets $d_C(A) = 4$. This continues.
 
@@ -928,16 +928,16 @@ D ---6--- E ---3--- F
 **Initialisation.** Set $d(A) = 0$, $d(\mathrm{all}\;others) = \infty$. Unvisited =
 $\{A, B, C, D, E, F\}$.
 
-**Visit A** ($d = 0$). Neighbours: B (cost 3), D (cost 4). Update: $d(B) = 3$Prev$(B) = A$.
-$d(D) = 4$Prev$(D) = A$.
+**Visit A** ($d = 0$). Neighbours: B (cost 3), D (cost 4). Update: $d(B) = 3$ Prev$(B) = A$.
+$d(D) = 4$ Prev$(D) = A$.
 
-**Visit B** ($d = 3$Smallest unvisited). Neighbours: A (skip), C (3 + 2 = 5), E (3 + 1 = 4). Update:
-$d(C) = 5$Prev$(C) = B$. $d(E) = 4$Prev$(E) = B$.
+**Visit B** ($d = 3$ Smallest unvisited). Neighbours: A (skip), C (3 + 2 = 5), E (3 + 1 = 4). Update:
+$d(C) = 5$ Prev$(C) = B$. $d(E) = 4$ Prev$(E) = B$.
 
 **Visit D** ($d = 4$). Neighbours: A (skip), E (4 + 6 = 10, worse than 4). No updates.
 
 **Visit E** ($d = 4$). Neighbours: B (skip), D (skip), F (4 + 3 = 7). Update:
-$d(F) = 7$Prev$(F) = E$.
+$d(F) = 7$ Prev$(F) = E$.
 
 **Visit C** ($d = 5$). Neighbours: B (skip), F (5 + 5 = 10, worse than 7). No updates.
 
@@ -1066,7 +1066,7 @@ to inform the sender exactly which blocks have arrived, avoiding unnecessary Ret
 
 **Window scaling.** The TCP window field is 16 bits (max 65,535 bytes), insufficient for high-BDP
 Paths. The window scale option shifts the window left by $S$ bits, allowing windows up to
-$2^{16+S-1}$ bytes (maximum $S = 14$Yielding a 1 GiB window).
+$2^{16+S-1}$ bytes (maximum $S = 14$ Yielding a 1 GiB window).
 
 ### 5.4 TCP vs UDP Comparison
 
@@ -1158,7 +1158,7 @@ TCP adapts its sending rate based on perceived network congestion.
 **Slow start.** `cwnd = 1` MSS. Double `cwnd` per ACK (exponential growth). Until `cwnd` reaches
 `ssthresh` or loss occurs.
 
-**Congestion avoidance.** When $\mathrm{cwnd} \geq \mathrm{ssthresh}$Increase `cwnd` by
+**Congestion avoidance.** When $\mathrm{cwnd} \geq \mathrm{ssthresh}$ Increase `cwnd` by
 $\mathrm{MSS} \times (\mathrm{MSS} / \mathrm{cwnd})$ per ACK (linear growth, approximately 1 MSS Per
 RTT).
 
@@ -1251,7 +1251,7 @@ The ACK could correspond To either the original or the retransmission (retransmi
 <details>
 <summary>Worked Example: RTT Estimation</summary>
 
-Given: $\alpha = 1/8$, $\beta = 1/4$Initial $\mathrm{RTT_s} = 0$, $\mathrm{RTT_d} = 0$. Measured
+Given: $\alpha = 1/8$, $\beta = 1/4$ Initial $\mathrm{RTT_s} = 0$, $\mathrm{RTT_d} = 0$. Measured
 RTTs: 220 ms, 240 ms, 230 ms, 260 ms, 250 ms.
 
 **After measurement 1 (220 ms):**
@@ -1508,8 +1508,8 @@ Model with authentication and encryption).
 - **Throughput:** Actual data rate achieved, less than bandwidth due to protocol overhead,
   congestion, and errors.
 
-- **Latency components:** Propagation delay ($d / c$Where $d$ is distance), transmission delay
-  ($L / R$Where $L$ is frame length, $R$ is rate), queuing delay, processing delay.
+- **Latency components:** Propagation delay ($d / c$ Where $d$ is distance), transmission delay
+  ($L / R$ Where $L$ is frame length, $R$ is rate), queuing delay, processing delay.
 
 - **Jitter:** Variation in packet arrival times. Critical for real-time applications (VoIP, video).
   Measured as the standard deviation of delay.
@@ -1579,8 +1579,8 @@ Key (for decryption/signing). The public key can be freely distributed.
 Channel without prior shared key.
 
 1. Public parameters: prime $p$ and generator $g$.
-2. Alice picks secret $a$Sends $A = g^a \bmod p$.
-3. Bob picks secret $b$Sends $B = g^b \bmod p$.
+2. Alice picks secret $a$ Sends $A = g^a \bmod p$.
+3. Bob picks secret $b$ Sends $B = g^b \bmod p$.
 4. Shared secret: $s = B^a \bmod p = g^{ab} \bmod p = A^b \bmod p$.
 
 An eavesdropper who sees $g$, $p$, $A$, $B$ cannot compute $g^{ab}$ without solving the discrete

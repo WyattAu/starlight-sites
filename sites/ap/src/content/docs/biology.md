@@ -30,7 +30,7 @@ information transfer, and systems interactions.
 
 ### Water Properties
 
-Water"s polarity gives it unique properties essential for life:
+Water's polarity gives it unique properties essential for life:
 
 1. **Cohesion and adhesion:** Hydrogen bonds between water molecules (cohesion) and between water
    and other surfaces (adhesion) enable capillary action and the transpiration stream in plants.

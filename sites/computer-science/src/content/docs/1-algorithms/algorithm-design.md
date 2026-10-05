@@ -78,7 +78,7 @@ PARTITION(A, l, r):
 
 **Not stable.** In-place (no extra memory beyond recursion stack).
 
-### 1.4 Strassen"s Matrix Multiplication
+### 1.4 Strassen's Matrix Multiplication
 
 Multiply two $n \times n$ matrices faster than the naive $O(n^3)$.
 

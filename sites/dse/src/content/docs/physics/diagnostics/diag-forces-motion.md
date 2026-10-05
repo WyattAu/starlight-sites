@@ -35,7 +35,7 @@ flowchart TD
 
 A book of mass $2$ kg rests on a table. The table is on the floor of a lift that is accelerating
 upward at $3 \text{ m s}^{-2}$. (a) Draw free-body diagrams for the book and the table separately.
-(b) Identify which forces form Newton"s third law pairs. (c) Calculate the normal force the table
+(b) Identify which forces form Newton's third law pairs. (c) Calculate the normal force the table
 exerts on the book, and the normal force the floor exerts on the table (table mass $= 8$ kg).
 
 **Solution:**
@@ -324,7 +324,7 @@ tension in each half of the string in terms of $m$$\omega$$g$ And $L$.
 **Solution:**
 
 Let the mass be at the midpoint M. The string forms two segments AM and BM, each of length $L$.
-Since AB $= L$Triangle ABM is equilateral, so the angle each string makes with the vertical is
+Since AB $= L$ Triangle ABM is equilateral, so the angle each string makes with the vertical is
 $30°$.
 
 **Geometry check:** In the equilateral triangle, each side is $L$ And the height of the mass below AB

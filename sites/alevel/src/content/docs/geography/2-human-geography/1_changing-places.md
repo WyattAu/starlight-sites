@@ -107,7 +107,7 @@ Places are represented through various media:
 - **Photography and media**: News coverage, social media, tourism marketing, powerful but selective
 - **Personal accounts**: Interviews, diaries, oral histories, rich in detail but subjective
 
-Doreen Massey"s concept of a **global sense of place** argues that places are not fixed or bounded
+Doreen Massey's concept of a **global sense of place** argues that places are not fixed or bounded
 but are constantly being constructed through connections to other places, flows of people, money,
 ideas, and goods.
 

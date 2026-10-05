@@ -39,7 +39,7 @@ Ensure full mastery of Further Pure 1 before proceeding.
 
 ## 1. Further Complex Numbers
 
-### 1.1 Euler"s Relation
+### 1.1 Euler's Relation
 
 Euler's relation connects the exponential and trigonometric functions:
 

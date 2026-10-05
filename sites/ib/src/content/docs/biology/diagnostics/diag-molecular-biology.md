@@ -295,7 +295,7 @@ stabilises the T-state.
 
 The combined effect: at lower pH and higher $\text{CO}_2$ (as found in actively respiring tissues),
 the oxygen dissociation curve shifts to the right. At any given partial pressure of
-$\text{O}_2$Haemoglobin releases more $\text{O}_2$. This ensures that oxygen delivery is matched to
+$\text{O}_2$ Haemoglobin releases more $\text{O}_2$. This ensures that oxygen delivery is matched to
 metabolic demand -- tissues that are respiring most actively receive the most oxygen.
 
 ## Cross-References

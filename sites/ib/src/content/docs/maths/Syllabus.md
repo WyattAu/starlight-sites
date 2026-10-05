@@ -29,7 +29,7 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 |                                   | Geometric Sequences                          | SL & HL | Sequences with a constant common ratio; finding the nth term.                                                                   | `u_n = u_1 r^{n-1}`                                                                                                                                                   |                                                    |                                                                                 |                                  |                                |                     |     |
 |                                   | Geometric Series                             | SL & HL | Finite and infinite geometric series; convergence conditions for infinite series.                                               | `S_n = u_1(1 - r^n)/(1 - r)`; `S_inf = u_1/(1 - r)` for `| r                                                  | < 1`                                                                            |                                  |                                |                     |     |
 |                                   | Sigma Notation                               | SL & HL | Using summation notation to express and evaluate series; rules for manipulating sums.                                           | `\sum_{r=1}^n u_r`; `\sum_{r=1}^n k = kn`; `\sum_{r=1}^n (a_r + b_r) = \sum a_r + \sum b_r`                                                                           |                                                    |                                                                                 |                                  |                                |                     |     |
-|                                   | The Binomial Theorem                         | SL & HL | Expansion of `(a + b)^n` using binomial coefficients; Pascal"s triangle and the relationship to combinations.                   | `(a+b)^n = \sum_{r=0}^n \binom{n}{r} a^{n-r} b^r`; `\binom{n}{r} = n! / (r!(n-r)!)`                                                                                   |                                                    |                                                                                 |                                  |                                |                     |     |
+|                                   | The Binomial Theorem                         | SL & HL | Expansion of `(a + b)^n` using binomial coefficients; Pascal's triangle and the relationship to combinations.                   | `(a+b)^n = \sum_{r=0}^n \binom{n}{r} a^{n-r} b^r`; `\binom{n}{r} = n! / (r!(n-r)!)`                                                                                   |                                                    |                                                                                 |                                  |                                |                     |     |
 |                                   | Applications of the Binomial Theorem         | SL & HL | Finding specific terms in a binomial expansion without fully expanding.                                                         | General term: `T_{r+1} = \binom{n}{r} a^{n-r} b^r`                                                                                                                    |                                                    |                                                                                 |                                  |                                |                     |     |
 |                                   | Compound Interest                            | SL & HL | Calculating the future value of an investment or loan with compounding.                                                         | `FV = PV(1 + r)^n` where `r` is the rate per period and `n` is the number of periods                                                                                  |                                                    |                                                                                 |                                  |                                |                     |     |
 |                                   | Compound Depreciation                        | SL & HL | Calculating the depreciated value of an asset over time.                                                                        | `FV = PV(1 - r)^n`                                                                                                                                                    |                                                    |                                                                                 |                                  |                                |                     |     |
@@ -216,8 +216,8 @@ Geometric sequence exceeds the sum of the first $n$ terms of the arithmetic sequ
 - **Geometric sum:** $T_n = \dfrac{2(2^n - 1)}{2 - 1} = 2(2^n - 1) = 2^{n+1} - 2$
 - We need $2^{n+1} - 2 \gt \dfrac{n(3n + 7)}{2}$.
 - Testing values:
-- $n = 4$: geometric $= 30$Arithmetic $= \dfrac{4(19)}{2} = 38$. Geometric is smaller.
-- $n = 5$: geometric $= 62$Arithmetic $= \dfrac{5(22)}{2} = 55$. Geometric exceeds arithmetic.
+- $n = 4$: geometric $= 30$ Arithmetic $= \dfrac{4(19)}{2} = 38$. Geometric is smaller.
+- $n = 5$: geometric $= 62$ Arithmetic $= \dfrac{5(22)}{2} = 55$. Geometric exceeds arithmetic.
 - **Answer:** $n = 5$
 
 </details>
@@ -356,7 +356,7 @@ $x = 2$.
 
 ### Worked Example: Volume of Revolution (Topic 5, HL)
 
-Find the volume generated when the region bounded by $y = \sqrt{x}$The $x$-axis, and $x = 4$ is
+Find the volume generated when the region bounded by $y = \sqrt{x}$ The $x$-axis, and $x = 4$ is
 Rotated $360$ degrees about the $x$-axis.
 
 <details>
@@ -442,7 +442,7 @@ Manipulation.
 <details>
 <summary>Solution</summary>
 
-- $u_1 = 8$$r = 4/8 = 0.5$. Since $|r| \lt 1$The sum converges.
+- $u_1 = 8$$r = 4/8 = 0.5$. Since $|r| \lt 1$ The sum converges.
 - $S_\infty = \dfrac{8}{1 - 0.5} = 16$
 
 If you get this wrong, revise: Sum to infinity of geometric series (Topic 1).
@@ -454,7 +454,7 @@ If you get this wrong, revise: Sum to infinity of geometric series (Topic 1).
 <details>
 <summary>Solution</summary>
 
-- General term: $\dbinom{8}{r}(-3x)^r$. For $x^4$Need $r = 4$.
+- General term: $\dbinom{8}{r}(-3x)^r$. For $x^4$ Need $r = 4$.
 - $\dbinom{8}{4}(-3)^4 = 70 \times 81 = 5670$
 
 If you get this wrong, revise: Binomial theorem, finding specific coefficients (Topic 1).

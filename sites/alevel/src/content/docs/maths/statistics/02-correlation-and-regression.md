@@ -36,7 +36,7 @@ flowchart TD
 | Board      | Paper   | Notes                               |
 | ---------- | ------- | ----------------------------------- |
 | AQA        | Paper 1 | PMCC, regression lines              |
-| Edexcel    | P1      | Includes Spearman"s rank            |
+| Edexcel    | P1      | Includes Spearman's rank            |
 | OCR (A)    | Paper 1 | Similar                             |
 | CIE (9709) | P1, P6  | Correlation and regression in P1/P6 |
 
@@ -50,7 +50,7 @@ Must be able to interpret these and understand their limitations.
 
 ### 1.1 Definition
 
-**Definition.** For bivariate data $(x_1,y_1),\ldots,(x_n,y_n)$The PMCC is
+**Definition.** For bivariate data $(x_1,y_1),\ldots,(x_n,y_n)$ The PMCC is
 
 $$
 r = \frac{S_{xy}}{\sqrt{S_{xx}\,S_{yy}}}
@@ -265,7 +265,7 @@ Is why it is essential to inspect scatter plots alongside numerical summaries.
 
 **Example.** In a study of height vs. Salary across 50 people, most data shows weak positive
 Correlation ($r \approx 0.2$). If one NBA player earning millions is included, the PMCC may jump to
-$r \approx 0.6$Giving a misleading impression. In such cases, Spearman's rank is more robust Because
+$r \approx 0.6$ Giving a misleading impression. In such cases, Spearman's rank is more robust Because
 ranking reduces the disproportionate influence of extreme values.
 
 ### 5.6 Dangers of Extrapolation
@@ -299,7 +299,7 @@ Then:
 Coding **does not change** the PMCC or Spearman's rank correlation coefficient.
 
 **Why?** PMCC is based on standardised quantities. Coding $x \mapsto u = (x-p)/q$ is a linear
-Transformation (shift by $p$Scale by $1/q$), and $r$ is invariant under linear transformations of
+Transformation (shift by $p$ Scale by $1/q$), and $r$ is invariant under linear transformations of
 Either variable. Similarly, Spearman's uses ranks, which are unaffected by any monotonic
 Transformation including linear coding.
 
@@ -441,7 +441,7 @@ Correlation does not imply causation. Both ice cream sales and drowning deaths a
 
 <details>
 <summary>Problem 7</summary>
-Given $S_{xx} = 80$$S_{yy} = 200$ And $S_{xy} = 100$Find $r$$b$ (gradient of $y$ on $x$), and the proportion of variance in $y$ explained by $x$.
+Given $S_{xx} = 80$$S_{yy} = 200$ And $S_{xy} = 100$ Find $r$$b$ (gradient of $y$ on $x$), and the proportion of variance in $y$ explained by $x$.
 </details>
 
 <details>
@@ -484,7 +484,7 @@ A residual plot shows a clear U-shaped pattern. What does this suggest about the
 
 A U-shaped residual plot indicates the relationship between the variables is **non-linear** (likely
 Quadratic). The linear regression model is inappropriate because it fails to capture the curvature.
-A more appropriate approach would be to fit a quadratic model $y = a + bx + cx^2$Or to apply a
+A more appropriate approach would be to fit a quadratic model $y = a + bx + cx^2$ Or to apply a
 Transformation (e.g., taking logarithms) to linearise the relationship.
 
 **If you get this wrong, revise:** [Residual Plots](#54-residual-plots), Section 5.4.
@@ -500,8 +500,8 @@ Two datasets have the same PMCC of $r = 0.85$. Dataset A has $n = 10$ observatio
 <summary>Solution 10</summary>
 
 With a larger sample size, the PMCC is estimated more precisely (smaller standard error). For
-$n = 10$The PMCC must exceed approximately 0.632 to be significant at the 5% level (two-tailed). For
-$n = 100$The threshold is approximately 0.197. While both datasets show the same correlation,
+$n = 10$ The PMCC must exceed approximately 0.632 to be significant at the 5% level (two-tailed). For
+$n = 100$ The threshold is approximately 0.197. While both datasets show the same correlation,
 Dataset B provides far stronger statistical evidence because random fluctuations are much less
 Likely to produce $r = 0.85$ with 100 observations.
 
@@ -634,9 +634,9 @@ A dataset of 15 observations has regression line $y = 5 + 2x$ with $\bar{x} = 10
 <details>
 <summary>Solution 14</summary>
 
-The point $(25, 70)$ has $x = 25$Which is far from $\bar{x} = 10$ So it has **high leverage**. Its
+The point $(25, 70)$ has $x = 25$ Which is far from $\bar{x} = 10$ So it has **high leverage**. Its
 predicted $y$-value from the current line would be $\hat{y} = 5 + 2(25) = 55$ But the actual Value is
-$70$. The residual is $70 - 55 = 15$Which is positive and large.
+$70$. The residual is $70 - 55 = 15$ Which is positive and large.
 
 (a) Since the point lies above the regression line and has high leverage, it will **increase** the
 Gradient (pull the line upward at the right side).

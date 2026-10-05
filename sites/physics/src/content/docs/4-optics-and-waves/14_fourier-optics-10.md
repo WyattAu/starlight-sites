@@ -49,13 +49,13 @@ the Fourier transform. $\blacksquare$
 ### 10.2 Convolution Theorem for Diffraction
 
 **Theorem 10.2 (Convolution theorem).** If an aperture function is the convolution
-$t = t_1 * t_2$The diffraction pattern is the product of the individual diffraction patterns:
+$t = t_1 * t_2$ The diffraction pattern is the product of the individual diffraction patterns:
 
 $$
 \mathcal{F}\{t_1 * t_2\} = \mathcal{F}\{t_1\} \cdot \mathcal{F}\{t_2\}
 $$
 
-**Corollary.** If an aperture is the product $t = t_1 \cdot t_2$The diffraction pattern is the
+**Corollary.** If an aperture is the product $t = t_1 \cdot t_2$ The diffraction pattern is the
 convolution of the individual patterns:
 
 $$
@@ -132,7 +132,7 @@ $$
 I(\theta) = I_0\left(\frac{2J_1(\alpha)}{\alpha}\right)^2
 $$
 
-This is the **Airy pattern**. The first zero occurs at $\alpha = 3.832$Giving the angular radius of
+This is the **Airy pattern**. The first zero occurs at $\alpha = 3.832$ Giving the angular radius of
 the first dark ring:
 
 $$

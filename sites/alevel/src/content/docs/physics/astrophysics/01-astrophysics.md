@@ -71,7 +71,7 @@ Distant stars. This apparent angular displacement is called **stellar parallax**
 ### Proof of the Parallax Formula
 
 Consider a nearby star at distance $d$ from the Sun. As Earth moves from one side of its orbit to
-The other (separation $2\;\mathrm{AU}$), the star appears to shift by an angle $2p$Where $p$ is The
+The other (separation $2\;\mathrm{AU}$), the star appears to shift by an angle $2p$ Where $p$ is The
 **parallax angle** measured in arcseconds.
 
 For small angles, $\tan p \approx p$ (in radians):
@@ -166,7 +166,7 @@ $$
 
 Where $\sigma = 5.67 \times 10^{-8}$ W m$^{-2}$ K$^{-4}$ is the **Stefan-Boltzmann constant**.
 
-For a star of radius $r$ and surface temperature $T$The total luminosity is:
+For a star of radius $r$ and surface temperature $T$ The total luminosity is:
 
 $$
 \boxed{L = 4\pi r^2 \sigma T^4}
@@ -480,7 +480,7 @@ Key properties:
 - **Temperature:** $T \approx 2.725$ K (the radiation has been redshifted by a factor of $\sim 1100$
   since emission)
 - **Spectrum:** a near-perfect black body curve peaking in the microwave region
-- **Isotropy:** uniform to one part in $10^5$With tiny anisotropies that are the seeds of large-
+- **Isotropy:** uniform to one part in $10^5$ With tiny anisotropies that are the seeds of large-
   scale structure formation
 
 Using Wien's law to find the peak wavelength:
@@ -495,7 +495,7 @@ Wavelength of 7.35 cm by Penzias and Wilson.
 ### Expansion of the Universe
 
 The expansion of the universe is not galaxies moving through space, but rather the expansion of
-Space itself. This is described by the **scale factor** $a(t)$Where $a = 1$ today. As the universe
+Space itself. This is described by the **scale factor** $a(t)$ Where $a = 1$ today. As the universe
 Expands, photon wavelengths are stretched, producing cosmological redshift:
 
 $$
@@ -592,7 +592,7 @@ Observed radiation, and $D$ is the diameter of the aperture.
 
 ### Proof of the Rayleigh Criterion
 
-For a circular aperture of diameter $D$The diffraction pattern is an Airy disk. The angular Position
+For a circular aperture of diameter $D$ The diffraction pattern is an Airy disk. The angular Position
 of the first minimum is given by:
 
 $$
@@ -625,7 +625,7 @@ Large telescopes serve two fundamental purposes:
    $$
 
 2. **Resolving power** --- proportional to $1/D$. A larger aperture gives smaller minimum angular
-   resolution $\theta$Allowing finer detail to be distinguished.
+   resolution $\theta$ Allowing finer detail to be distinguished.
 
 These are the two fundamental reasons why astronomers continually push for larger telescopes.
 

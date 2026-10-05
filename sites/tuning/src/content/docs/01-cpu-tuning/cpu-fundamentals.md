@@ -23,7 +23,7 @@ Or more of these mechanisms.
 
 ### Instruction Pipeline
 
-Every x86 instruction passes through a series of pipeline stages. Intel"s Golden Cove (12th Gen
+Every x86 instruction passes through a series of pipeline stages. Intel's Golden Cove (12th Gen
 P-core) has a pipeline depth of approximately 19 stages; AMD's Zen 4 is roughly 16 stages. Pipeline
 Depth is a fundamental trade-off:
 
@@ -47,30 +47,30 @@ graph LR
 
 The front-end fetches instruction bytes from the L1 instruction cache ( 32 KB, 8-way set Associative
 on Intel, 64 KB on AMD Zen 4). The decoder translates x86 CISC instructions into Internal micro-ops
-($\mu$Ops). Intel CPUs can decode up to 6 instructions per cycle; AMD Zen 4 can Decode up to 6 as
-well. Instructions that decode to more than one $\mu$Op (complex instructions like `ENTER`String
+($\mu$ Ops). Intel CPUs can decode up to 6 instructions per cycle; AMD Zen 4 can Decode up to 6 as
+well. Instructions that decode to more than one $\mu$ Op (complex instructions like `ENTER`String
 operations, or instructions with memory operands using complex addressing modes) Consume more
 decoder bandwidth.
 
-The micro-op cache (MSB on Intel, OP cache on AMD) caches already-decoded $\mu$Ops, bypassing the
-Legacy decoder entirely. On Intel 12th Gen, the micro-op cache can deliver up to 8 $\mu$Ops per
+The micro-op cache (MSB on Intel, OP cache on AMD) caches already-decoded $\mu$ Ops, bypassing the
+Legacy decoder entirely. On Intel 12th Gen, the micro-op cache can deliver up to 8 $\mu$ Ops per
 Cycle, compared to 6 from the legacy decoder. Code that fits in the micro-op cache executes faster
 Because it avoids the decode bottleneck.
 
 ### Out-of-Order Execution
 
-After decode, $\mu$Ops enter the reorder buffer (ROB). The ROB tracks the program order of all
-In-flight $\mu$Ops while allowing the execution units to process them in any order dictated by data
+After decode, $\mu$ Ops enter the reorder buffer (ROB). The ROB tracks the program order of all
+In-flight $\mu$ Ops while allowing the execution units to process them in any order dictated by data
 Dependencies and resource availability.
 
 Key components:
 
-- **Reservation Stations:** Hold $\mu$Ops waiting for their operands to become available. When all
-  operands are ready, the $\mu$Op is dispatched to an execution port.
+- **Reservation Stations:** Hold $\mu$ Ops waiting for their operands to become available. When all
+  operands are ready, the $\mu$ Op is dispatched to an execution port.
 - **Register Renaming:** Eliminates false dependencies (Write-After-Write, Write-After-Read) by
   mapping architectural registers (e.g., `RAX`) to physical registers. Intel Golden Cove has ~280
   physical integer registers; AMD Zen 4 has 160.
-- **Reorder Buffer:** Tracks in-flight $\mu$Ops and ensures they retire in program order. Intel
+- **Reorder Buffer:** Tracks in-flight $\mu$ Ops and ensures they retire in program order. Intel
   Golden Cove ROB size is 512 entries; AMD Zen 4 is 416.
 
 The out-of-order window size (determined by ROB size, scheduler entries, and load/store queue depth)
@@ -96,7 +96,7 @@ Can perform significantly worse than expected.
 
 ### Superscalar Execution
 
-Modern CPUs have multiple execution ports that can process $\mu$Ops in parallel. Intel Golden Cove
+Modern CPUs have multiple execution ports that can process $\mu$ Ops in parallel. Intel Golden Cove
 Has 12 execution ports:
 
 | Ports | Function                         |
@@ -115,7 +115,7 @@ Has 12 execution ports:
 | 11    | Load (AGU)                       |
 
 AMD Zen 4 has 10 execution ports with a different allocation. The key takeaway for tuning is that
-Your code (or the compiler's output) must have enough independent $\mu$Ops to fill these ports. If
+Your code (or the compiler's output) must have enough independent $\mu$ Ops to fill these ports. If
 Every instruction depends on the previous one (a long dependency chain), most ports sit idle.
 
 ---
@@ -246,10 +246,10 @@ Deeper C-states:
 | State     | Description                      | Exit Latency    | Power Savings |
 | --------- | -------------------------------- | --------------- | ------------- |
 | C0        | Active execution                 | 0               | None          |
-| C1        | Halt, clock gated                | ~1 $\mu$S       | Minimal       |
-| C1E       | Enhanced halt, voltage reduced   | ~1–2 $\mu$S     | Moderate      |
-| C3        | Sleep, L1/L2 cache flushed       | ~50 $\mu$S      | Significant   |
-| C6        | Deep power down, core state lost | ~100–200 $\mu$S | Very high     |
+| C1        | Halt, clock gated                | ~1 $\mu$ S       | Minimal       |
+| C1E       | Enhanced halt, voltage reduced   | ~1–2 $\mu$ S     | Moderate      |
+| C3        | Sleep, L1/L2 cache flushed       | ~50 $\mu$ S      | Significant   |
+| C6        | Deep power down, core state lost | ~100–200 $\mu$ S | Very high     |
 | C8/C9/C10 | Package-level idle               | ~1–2 ms         | Maximum       |
 
 Deeper C-states save more power but have higher exit latencies. For latency-sensitive workloads

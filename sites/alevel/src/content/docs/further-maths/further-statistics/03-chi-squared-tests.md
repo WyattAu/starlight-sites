@@ -70,7 +70,7 @@ Follows a **chi-squared distribution** with $k$ degrees of freedom, written $\ch
 - It is positively skewed, becoming more symmetric as $k$ increases
 - $E(\chi^2_k) = k$
 - $\mathrm{Var}(\chi^2_k) = 2k$
-- As $k \to \infty$The distribution approaches a normal distribution $N(k, 2k)$
+- As $k \to \infty$ The distribution approaches a normal distribution $N(k, 2k)$
 - The distribution is additive: if $X \sim \chi^2_a$ and $Y \sim \chi^2_b$ are independent, then
   $X + Y \sim \chi^2_{a+b}$
 
@@ -204,7 +204,7 @@ Two categorical variables.
 
 ### 3.3 Expected frequencies
 
-For a contingency table with entries $O_{ij}$ (row $i$Column $j$), the expected frequency is:
+For a contingency table with entries $O_{ij}$ (row $i$ Column $j$), the expected frequency is:
 
 $$
 \boxed{E_{ij} = \frac{(\mathrm{row } i \mathrm{ total}) \times (\mathrm{column } j \mathrm{ total})}{\mathrm{grand total}}}
@@ -667,8 +667,8 @@ $$
 | Distribution fitted              | Parameters estimated | $\nu$ formula |
 | -------------------------------- | -------------------- | ------------- |
 | Uniform (known)                  | 0                    | $n - 1$       |
-| Binomial (known $n$Known $p$)    | 0                    | $n - 1$       |
-| Binomial (known $n$Estimate $p$) | 1                    | $n - 2$       |
+| Binomial (known $n$ Known $p$)    | 0                    | $n - 1$       |
+| Binomial (known $n$ Estimate $p$) | 1                    | $n - 2$       |
 | Poisson (estimate $\lambda$)     | 1                    | $n - 2$       |
 | Normal (estimate $\mu$$\sigma$)  | 2                    | $n - 3$       |
 
@@ -735,7 +735,7 @@ Observed vs expected frequencies to understand the nature of any discrepancy.
 The fundamental connection: if $X \sim \chi^2_1$ (1 degree of freedom), then $X = Z^2$ where
 $Z \sim N(0,1)$.
 
-This means $\sqrt{\chi^2_1} \sim |Z|$I.e., the square root of a chi-squared statistic with 1
+This means $\sqrt{\chi^2_1} \sim |Z|$ I.e., the square root of a chi-squared statistic with 1
 Df follows a half-normal distribution.
 
 ### 9.2 $2 \times 2$ tables and the normal approximation
@@ -817,7 +817,7 @@ $\nu = 5$. Critical value: $\chi^2_{0.05,\,5} = 11.07$.
 
 $7.0 \lt 11.07$: **do not reject** $H_0$.
 
-Contributions: face 1 contributes $144/40 = 3.6$Face 6 contributes $100/40 = 2.5$. These two faces
+Contributions: face 1 contributes $144/40 = 3.6$ Face 6 contributes $100/40 = 2.5$. These two faces
 Account for $6.1$ out of $7.0$ (87% of the statistic).
 
 </details>
@@ -1141,7 +1141,7 @@ $10.87 > 3.84$: **reject** $H_0$. Significant association between region and tea
 
 | Pitfall                                                           | Correct Approach                                                                                         |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Using observed frequencies instead of expected in the denominator | $\chi^2 = \sum \dfrac{(O-E)^2}{E}$Not $\sum \dfrac{(O-E)^2}{O}$                                          |
+| Using observed frequencies instead of expected in the denominator | $\chi^2 = \sum \dfrac{(O-E)^2}{E}$ Not $\sum \dfrac{(O-E)^2}{O}$                                          |
 | Forgetting to merge classes with $E < 5$                          | Always check expected frequencies first; merge adjacent classes                                          |
 | Miscounting degrees of freedom                                    | $\nu = (r-1)(c-1)$ for independence; $\nu = k - 1 - m$ for goodness-of-fit with $m$ estimated parameters |
 | Applying Yates' correction to tables larger than 2×2              | Yates' correction is only for 2×2 contingency tables                                                     |
@@ -1346,7 +1346,7 @@ Key properties:
 
 ### 14.2 Chi-squared confidence intervals for variance
 
-For a sample of size $n$ from $N(\mu, \sigma^2)$The quantity
+For a sample of size $n$ from $N(\mu, \sigma^2)$ The quantity
 $\dfrac{(n-1)s^2}{\sigma^2} \sim \chi^2_{n-1}$.
 
 A $95\%$ confidence interval for $\sigma^2$ is:
@@ -1401,7 +1401,7 @@ The power of the test.
 <details>
 <summary>Solution</summary>
 
-Merging reduces the number of classes $k$Which reduces $\nu = k - 1 - m$. Fewer degrees of freedom
+Merging reduces the number of classes $k$ Which reduces $\nu = k - 1 - m$. Fewer degrees of freedom
 Means the critical value is lower, making it easier to reject $H_0$ But merging also discards
 Information about the differences between the merged classes. If the true deviation from $H_0$ is in
 The merged classes, the test loses the ability to detect it, reducing power.
@@ -1441,7 +1441,7 @@ A normal distribution.
 ### 16.1 The chi-squared distribution properties
 
 - $\chi^2_\nu$ is the distribution of $\sum_{i=1}^\nu Z_i^2$ where $Z_i \sim N(0,1)$ i.i.d.
-- Mean $= \nu$Variance $= 2\nu$
+- Mean $= \nu$ Variance $= 2\nu$
 - For large $\nu$: $\chi^2_\nu \approx N(\nu, 2\nu)$ (by CLT)
 - Additivity: $\chi^2_a + \chi^2_b = \chi^2_{a+b}$ (independent)
 
@@ -1491,7 +1491,7 @@ Values with $|r_i| > 2$ indicate significant deviations.
 
 ### Question 16
 
-In a $\chi^2$ goodness-of-fit test with 8 classes, 1 parameter estimated, and $\chi^2 = 11.3$Find
+In a $\chi^2$ goodness-of-fit test with 8 classes, 1 parameter estimated, and $\chi^2 = 11.3$ Find
 The approximate $p$-value.
 
 <details>

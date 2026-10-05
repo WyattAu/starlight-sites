@@ -24,7 +24,7 @@ document.
 | ------------------------------------------------------- | ------------------ |
 | Subgroup Criterion                                      | Theorem 2.1        |
 | Every subgroup of a cyclic group is cyclic              | Theorem 2.4        |
-| Lagrange"s Theorem                                      | Theorem 3.3        |
+| Lagrange's Theorem                                      | Theorem 3.3        |
 | Fermat's Little Theorem                                 | Corollary 3.5      |
 | Index 2 subgroups are normal                            | Corollary 3.7      |
 | First Isomorphism Theorem                               | Theorem 5.3        |

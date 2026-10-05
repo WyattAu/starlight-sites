@@ -364,17 +364,17 @@ $$
 $$
 
 - When $\mathrm{H}^+$ ions are added (acid): they combine with $\mathrm{HCO}_3^-$ to form
-  $\mathrm{H}_2\mathrm{CO}_3$Which dissociates into $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$.
+  $\mathrm{H}_2\mathrm{CO}_3$ Which dissociates into $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$.
   The $\mathrm{CO}_2$ is exhaled by the lungs.
 - When $\mathrm{H}^+$ ions are removed (alkali): $\mathrm{H}_2\mathrm{CO}_3$ dissociates to release
-  more $\mathrm{H}^+$Restoring pH.
+  more $\mathrm{H}^+$ Restoring pH.
 
 **Haemoglobin as a buffer:**
 
 - Haemoglobin can bind $\mathrm{H}^+$ ions, acting as a buffer against acidification.
 - In the tissues: $\mathrm{CO}_2$ diffuses into red blood cells and is converted to
   $\mathrm{HCO}_3^-$ and $\mathrm{H}^+$ by carbonic anhydrase. Haemoglobin binds the
-  $\mathrm{H}^+$Preventing a large pH drop.
+  $\mathrm{H}^+$ Preventing a large pH drop.
 - In the lungs: the reaction reverses; $\mathrm{H}^+$ is released, combines with
   $\mathrm{HCO}_3^-$ And $\mathrm{CO}_2$ is exhaled.
 

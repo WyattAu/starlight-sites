@@ -109,7 +109,7 @@ $\frac{d^2y}{dx^2} = \frac{6/3 + 2}{8/(-3\sqrt{3})} = -\frac{3\sqrt{3}}{2} \lt 0
 
 (d) At $t = 2$: $x = 5$, $y = 6$. $\frac{dy}{dx} = \frac{12-1}{4} = \frac{11}{4}$.
 
-Normal gradient $= -\frac{4}{11}$. Equation: $y - 6 = -\frac{4}{11}(x - 5)$I.e.,
+Normal gradient $= -\frac{4}{11}$. Equation: $y - 6 = -\frac{4}{11}(x - 5)$ I.e.,
 $11y - 66 = -4x + 20$ So $4x + 11y = 86$.
 
 ---

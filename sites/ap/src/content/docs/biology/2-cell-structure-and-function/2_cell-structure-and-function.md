@@ -33,7 +33,7 @@ categories:
 | Nucleus                   | No (nucleoid region) | Yes, membrane-bound              |
 | Membrane-bound organelles | No                   | Yes                              |
 | DNA                       | Circular, single     | Linear, in chromosomes           |
-| Size                      | 0.1 -- 5 $\mu$M      | 10 -- 100 $\mu$M                 |
+| Size                      | 0.1 -- 5 $\mu$ M      | 10 -- 100 $\mu$ M                 |
 | Ribosomes                 | 70S (smaller)        | 80S (larger)                     |
 | Cell division             | Binary fission       | Mitosis, meiosis                 |
 | Examples                  | Bacteria, Archaea    | Plants, animals, fungi, protists |
@@ -41,13 +41,13 @@ categories:
 **Worked Example: Distinguishing prokaryotic and eukaryotic features.**
 
 A student examines a cell under a microscope and observes: no visible nucleus, a cell wall, and
-Ribosomes. The cell is approximately 2 $\mu$M in diameter.
+Ribosomes. The cell is approximately 2 $\mu$ M in diameter.
 
 Since there is no membrane-bound nucleus, this is a prokaryotic cell. Both prokaryotes and
 Eukaryotes can have cell walls (plant cell walls are made of cellulose; bacterial cell walls are
-Made of peptidoglycan), so the presence of a cell wall is not diagnostic. The small size (2 $\mu$M)
-Is consistent with a prokaryotic cell (prokaryotes are 0.1--5 $\mu$M, while eukaryotes are 10--100
-$\mu$M).
+Made of peptidoglycan), so the presence of a cell wall is not diagnostic. The small size (2 $\mu$ M)
+Is consistent with a prokaryotic cell (prokaryotes are 0.1--5 $\mu$ M, while eukaryotes are 10--100
+$\mu$ M).
 
 ## The Cell Membrane (CED Unit 2)
 
@@ -223,7 +223,7 @@ Eukaryotic cells.
 
 1. **Transduction:** The signal is relayed and amplified through a signal transduction pathway.
 
-- Often involves **second messengers** (cAMP, $\mathrm{Ca^{2+}$, $\mathrm{IP_3$DAG).
+- Often involves **second messengers** (cAMP, $\mathrm{Ca^{2+}$, $\mathrm{IP_3$ DAG).
 - **Protein kinases** phosphorylate target proteins, activating or deactivating them.
 - **Protein phosphatases** remove phosphate groups, reversing kinase action.
 - **Cascades** amplify the signal (one activated kinase activates many downstream targets).
@@ -398,7 +398,7 @@ Receptors in the cytoplasm or nucleus.
 Understanding the nuances of membrane transport is critical. Here is a more detailed analysis of
 Each mechanism:
 
-**Simple diffusion:** Small, nonpolar molecules (e.g., $\mathrm{O_2$, $\mathrm{CO_2$Steroid Hormones)
+**Simple diffusion:** Small, nonpolar molecules (e.g., $\mathrm{O_2$, $\mathrm{CO_2$ Steroid Hormones)
 diffuse directly through the phospholipid bilayer. The rate depends on the concentration Gradient,
 temperature, and the surface area of the membrane. No energy or transport protein is Required.
 
@@ -607,14 +607,14 @@ $$
 
 **Worked Example:** A mitochondrion measures 8 mm in an electron micrograph at
 $\times$10,000.
-Actual size $= 8 / 10,000 = 0.0008$ mm $= 0.8$ $\mu$M. This is within the expected
-Range (0.5--10 $\mu$M).
+Actual size $= 8 / 10,000 = 0.0008$ mm $= 0.8$ $\mu$ M. This is within the expected
+Range (0.5--10 $\mu$ M).
 
 **Worked Example: Converting between units for magnification calculations.**
 
-A cell appears 4.5 cm wide in a light micrograph. The actual cell width is 30 $\mu$M.
+A cell appears 4.5 cm wide in a light micrograph. The actual cell width is 30 $\mu$ M.
 
-Convert to the same units: 4.5 cm $= 45$ mm $= 45,000$ $\mu$M.
+Convert to the same units: 4.5 cm $= 45$ mm $= 45,000$ $\mu$ M.
 
 Magnification $= 45,000 / 30 = \times 1,500$.
 

@@ -927,7 +927,7 @@ The resting potential of approximately -70 mV is established by three factors:
    carrying positive charge out and making the inside more negative.
 
 3. **Low $\mathrm{Na}^+$ permeability** means that despite the strong inward concentration gradient
-   for $\mathrm{Na}^+$Very little $\mathrm{Na}^+$ enters the cell at rest, so the outward
+   for $\mathrm{Na}^+$ Very little $\mathrm{Na}^+$ enters the cell at rest, so the outward
    $\mathrm{K}^+$ diffusion is not counteracted.
 
 The resting potential is maintained because the $\mathrm{Na}^+/\mathrm{K}^+$ pump continuously

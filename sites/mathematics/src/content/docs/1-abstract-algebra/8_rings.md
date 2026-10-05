@@ -84,7 +84,7 @@ inverse of $a + b\sqrt{2}$ (with $a, b$ not both zero) is $\frac{a - b\sqrt{2}}{
 **Example.** For any prime $p$, $\mathbb{Z}/p\mathbb{Z}$ is a field with $p$ elements, denoted
 $\mathbb{F}_p$.
 
-**Proposition 8.5.** In a finite integral domain $R$Every non-zero element is a unit. Hence every
+**Proposition 8.5.** In a finite integral domain $R$ Every non-zero element is a unit. Hence every
 finite Integral domain is a field.
 
 _Proof._ Let $a \in R$ with $a \neq 0$. The map $\phi : R \to R$ given by $\phi(x) = ax$ is
@@ -161,8 +161,8 @@ zero divisors.
 <details>
 <summary>Solution</summary>
 
-_Solution._ In $R$We have $x^2 = x$. Every element can be written as $[a + bx]$ where
-$a, b \in \mathbb{Z}$ Since higher powers reduce: $x^2 = x$, $x^3 = x^2 = x$Etc.
+_Solution._ In $R$ We have $x^2 = x$. Every element can be written as $[a + bx]$ where
+$a, b \in \mathbb{Z}$ Since higher powers reduce: $x^2 = x$, $x^3 = x^2 = x$ Etc.
 
 $R$ has zero divisors: $[x][x - 1] = [x^2 - x] = [0]$ But $[x] \neq [0]$ and $[x - 1] \neq [0]$. So
 $R$ is not an integral domain.

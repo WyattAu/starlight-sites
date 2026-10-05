@@ -330,7 +330,7 @@ $P(\text{Physics} \mid \text{Chemistry}) = \frac{P(\text{Physics} \cap \text{Che
 > | --- | --- | --- | --- | --- | --- |
 > | $y$ | 45  | 55  | 60  | 75  | 85  |
 >
-> (a) Calculate Pearson"s product-moment correlation coefficient $r$. [3 marks] (b) Comment on the
+> (a) Calculate Pearson's product-moment correlation coefficient $r$. [3 marks] (b) Comment on the
 > strength and direction of the correlation. [1 mark]
 
 **Mark Scheme:**

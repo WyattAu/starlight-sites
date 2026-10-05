@@ -59,13 +59,13 @@ $$
 
 (b) At the first face (angle of incidence $i_1 = 40^\circ$):
 
-By Snell"s law: $\sin i_1 = n \sin r_1$
+By Snell's law: $\sin i_1 = n \sin r_1$
 
 $$\sin 40^\circ = 1.52 \sin r_1 \Rightarrow \sin r_1 = 0.6428/1.52 = 0.4229$$ $$r_1 = 25.03^\circ$$
 
 Angle of incidence at the second face: $i_2 = 60^\circ - r_1 = 60 - 25.03 = 34.97^\circ$
 
-Since $34.97^\circ \lt 41.1^\circ = \theta_c$Total internal reflection does **not** occur.
+Since $34.97^\circ \lt 41.1^\circ = \theta_c$ Total internal reflection does **not** occur.
 
 Angle of emergence: $n\sin i_2 = \sin e$
 
@@ -192,7 +192,7 @@ $$
 (b) For near-normal incidence, the apparent depth of an object in a medium of refractive index $n_1$
 viewed from a medium of refractive index $n_2$ is $d_{\text{apparent}} = d \times n_2/n_1$.
 
-The light path is: glass ($n_g = 1.52$Thickness $d_g = 3.0\,\text{cm}$) $\to$ liquid ($n_l = 1.40$)
+The light path is: glass ($n_g = 1.52$ Thickness $d_g = 3.0\,\text{cm}$) $\to$ liquid ($n_l = 1.40$)
 $\to$ air ($n_a = 1.00$).
 
 For the glass block viewed from air through the intervening liquid, the apparent thickness is:
@@ -252,7 +252,7 @@ formed by the two radii).
 
 Critical angle: $\theta_c = \sin^{-1}(1/1.50) = 41.1^\circ$
 
-Since $i_2 = 23.6^\circ \lt \theta_c$TIR does **not** occur.
+Since $i_2 = 23.6^\circ \lt \theta_c$ TIR does **not** occur.
 
 (c) At the second surface: $n\sin i_2 = \sin e_2$
 
@@ -265,8 +265,8 @@ $$
 \delta = (i_1 - r_1) + (e_2 - i_2) = (36.9 - 23.6) + (36.9 - 23.6) = 26.6^\circ
 $$
 
-For TIR to occur: $r_1 \ge \theta_c = 41.1^\circ$Which requires $i_1$ such that
-$\sin i_1 \ge 1.50 \times \sin 41.1^\circ = 1.50 \times 0.657 = 0.986$I.e. $i_1 \ge 80.4^\circ$ or
+For TIR to occur: $r_1 \ge \theta_c = 41.1^\circ$ Which requires $i_1$ such that
+$\sin i_1 \ge 1.50 \times \sin 41.1^\circ = 1.50 \times 0.657 = 0.986$ I.e. $i_1 \ge 80.4^\circ$ or
 $h \ge 9.86\,\text{cm}$. Only rays very close to the edge undergo TIR.
 
 ---
@@ -292,7 +292,7 @@ A laser source couples $5.0\,\text{mW}$ of optical power into the fibre.
 (b) The fibre has a numerical aperture of 0.22 and core diameter $62.5\,\mu\text{m}$. Calculate the
 maximum acceptance angle and the solid angle of acceptance.
 
-(c) If the fibre is bent to a radius of curvature of $5.0\,\text{cm}$Estimate whether significant
+(c) If the fibre is bent to a radius of curvature of $5.0\,\text{cm}$ Estimate whether significant
 power loss occurs due to bending.
 
 **Solution:**
@@ -322,7 +322,7 @@ Without the wavelength, we can estimate: for typical telecom fibres, bend losses
 below $R \approx 10$--$30\,\text{mm}$ for single-mode fibres. For multimode fibres with larger
 cores, the critical radius is smaller.
 
-At $R = 5.0\,\text{cm} = 50\,\text{mm}$A multimode fibre of $62.5\,\mu\text{m}$ core diameter would
+At $R = 5.0\,\text{cm} = 50\,\text{mm}$ A multimode fibre of $62.5\,\mu\text{m}$ core diameter would
 experience minimal bending loss. However, tight bends at $5\,\text{mm}$ radius would cause
 significant loss.
 
@@ -367,11 +367,11 @@ $$
 (b) At normal incidence on the short face, the light enters undeviated ($r_1 = 0$). It hits the
 hypotenuse at $45^\circ$ angle of incidence.
 
-Since $45^\circ \gt 40.2^\circ = \theta_c$TIR occurs. The ray is reflected through $90^\circ$.
+Since $45^\circ \gt 40.2^\circ = \theta_c$ TIR occurs. The ray is reflected through $90^\circ$.
 
 (c) Let the angle of incidence on the short face be $i$.
 
-By Snell's law: $\sin i = n\sin r$Where $r$ is the angle of refraction.
+By Snell's law: $\sin i = n\sin r$ Where $r$ is the angle of refraction.
 
 The ray hits the hypotenuse at angle $i_2 = 45^\circ - r$.
 

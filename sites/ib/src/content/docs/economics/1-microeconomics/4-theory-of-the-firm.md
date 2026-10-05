@@ -101,7 +101,7 @@ Firms from entering the market.
 
 **Inefficiencies of monopoly:**
 
-- **Allocative inefficiency**: $P > \mathrm{MC}$Meaning the value consumers place on the last unit
+- **Allocative inefficiency**: $P > \mathrm{MC}$ Meaning the value consumers place on the last unit
   exceeds the cost of producing it. Too little is produced relative to the social optimum
 - **Productive inefficiency**: the monopolist does not produce at the minimum of ATC
 - **Deadweight loss**: the loss of consumer and producer surplus due to reduced output and higher
@@ -299,7 +299,7 @@ $$
 \frac{d\pi}{dQ} = \frac{d\mathrm{TR}}{dQ} - \frac{d\mathrm{TC}}{dQ} = \mathrm{MR} - \mathrm{MC} = 0
 $$
 
-**Second-order condition:** $\frac{d^2\pi}{dQ^2} < 0$Meaning MC must be rising at the point where MR
+**Second-order condition:** $\frac{d^2\pi}{dQ^2} < 0$ Meaning MC must be rising at the point where MR
 $=$ MC (MC cuts MR from below).
 
 - If $\mathrm{MR} > \mathrm{MC}$: producing an additional unit adds more to revenue than to cost, so
@@ -447,7 +447,7 @@ units of labour.
 In the Cournot model (1838), each firm independently chooses its output quantity, taking the rival's
 Output as given. Firms choose quantities simultaneously.
 
-**Setup:** Two firms (1 and 2) produce a homogeneous good with market demand $P = a - bQ$Where
+**Setup:** Two firms (1 and 2) produce a homogeneous good with market demand $P = a - bQ$ Where
 $Q = q_1 + q_2$. Each firm has constant marginal cost $c$.
 
 **Firm 1's profit:**
@@ -500,7 +500,7 @@ given. Firms set prices simultaneously.
 
 **Result with homogeneous goods:** the Nash equilibrium is both firms setting $P = MC = c$.
 
-If $P_1 > P_2 = c$Firm 1 sells nothing. If $P_1 < P_2$Firm 1 captures the entire market. Each firm
+If $P_1 > P_2 = c$ Firm 1 sells nothing. If $P_1 < P_2$ Firm 1 captures the entire market. Each firm
 has an incentive to undercut the other until price equals marginal cost. This is known as The
 **Bertrand paradox**: just two firms are sufficient to achieve the perfectly competitive outcome
 When products are homogeneous and firms compete on price.
@@ -542,7 +542,7 @@ q_1^* = \frac{a - c}{2b}, \quad q_2^* = \frac{a - c}{4b}
 $$
 
 **First-mover advantage:** the Stackelberg leader produces twice as much as the follower and earns
-Higher profit. Total output is $Q^* = \frac{3(a-c)}{4b}$Which exceeds Cournot output but is Still
+Higher profit. Total output is $Q^* = \frac{3(a-c)}{4b}$ Which exceeds Cournot output but is Still
 less than competitive output. This demonstrates the value of commitment and strategic Leadership.
 
 ### Kinked Demand Curve: Formal Analysis
@@ -667,7 +667,7 @@ $$
 \text{Total} = 8 + 6 + 4 + 4 = \text{USD 22}
 $$
 
-Average price per ticket $= 22/4 = \text{USD 5.50$Which is less than the single-ticket price of USD
+Average price per ticket $= 22/4 = \text{USD 5.50$ Which is less than the single-ticket price of USD
 8.}$
 
 ### Third-Degree Price Discrimination
@@ -679,7 +679,7 @@ charges Each group a different price.
 
 **Mathematical derivation:**
 
-For each market segment $i$The monopolist maximises:
+For each market segment $i$ The monopolist maximises:
 
 $$
 \pi_i = P_i(Q_i) \cdot Q_i - C(Q_1 + Q_2 + \cdots + Q_n)
@@ -810,7 +810,7 @@ A monopsony is a market with a single buyer of a factor of production ( labour).
 faces an upward-sloping supply curve for labour and must pay a higher wage to attract Additional
 workers.
 
-If the labour supply curve is $w = a + bL$The total cost of labour is:
+If the labour supply curve is $w = a + bL$ The total cost of labour is:
 
 $$
 \mathrm{TC}_L = w \cdot L = (a + bL) \cdot L = aL + bL^2
@@ -895,7 +895,7 @@ And the price of $Y$ is $P_Y = 5$.
 
 (a) Find the optimal consumption bundle.
 
-(b) If the price of $X$ rises to $P_X = 20$Find the new optimal bundle.
+(b) If the price of $X$ rises to $P_X = 20$ Find the new optimal bundle.
 
 (c) Decompose the change in $X$ consumption into substitution and income effects.
 
@@ -932,7 +932,7 @@ power)
 
 **Total effect:** $-2.93 + (-2.07) = -5$ (from 10 to 5)
 
-Both effects reduce consumption of $X$Confirming it is a normal good.
+Both effects reduce consumption of $X$ Confirming it is a normal good.
 
 </details>
 
@@ -1064,14 +1064,14 @@ $\mathrm{DWL} = \frac{1}{2} \times (30 - 20) \times (13.33 - 10) = \frac{1}{2} \
 
 (c) With minimum wage $w_{\min} = 22$:
 
-For $L \leq 12$ (where supply wage $= 22$), the $\mathrm{MRC}$ is constant at $22$. For $L > 12$The
+For $L \leq 12$ (where supply wage $= 22$), the $\mathrm{MRC}$ is constant at $22$. For $L > 12$ The
 firm must pay above $22$ to attract more workers.
 
 The firm now faces: $\mathrm{MRC} = 22$ for $L \leq 12$.
 
 $\mathrm{MRP}_L = 22 \implies 50 - 2L = 22 \implies 2L = 28 \implies L = 14$.
 
-But at $L = 14$The supply wage would be $10 + 14 = 24 > 22$ So the firm must pay $24$ for The 14th
+But at $L = 14$ The supply wage would be $10 + 14 = 24 > 22$ So the firm must pay $24$ for The 14th
 worker. The $\mathrm{MRC}$ jumps at $L = 12$.
 
 For $L > 12$: $\mathrm{MRC}_L = 10 + 2L$ (back to the original supply curve).
@@ -1081,7 +1081,7 @@ $w = \max(22, 10 + 14) = 24$ for the 14th worker. But the minimum wage is only b
 $L = 12$.
 
 More precisely, the firm faces $\mathrm{MRC} = 22$ for the first 12 workers. The $\mathrm{MRP}$ At
-$L = 12$ is $50 - 24 = 26 > 22$ So the firm wants to hire more. For $L > 12$The $\mathrm{MRC}$
+$L = 12$ is $50 - 24 = 26 > 22$ So the firm wants to hire more. For $L > 12$ The $\mathrm{MRC}$
 reverts to $10 + 2L$.
 
 Setting $50 - 2L = 10 + 2L \implies L = 10$ But this is at the original equilibrium. The firm Hires
@@ -1089,7 +1089,7 @@ where the horizontal portion of MRC (at 22) intersects MRP:
 
 $50 - 2L = 22 \implies L = 14$
 
-Since $14 > 12$The firm must check whether the 13th and 14th workers have $\mathrm{MRC} > 22$. At
+Since $14 > 12$ The firm must check whether the 13th and 14th workers have $\mathrm{MRC} > 22$. At
 $L = 13$: $\mathrm{MRC} = 10 + 2(13) = 36 > \mathrm{MRP}_{L=13} = 50 - 26 = 24$. So the Firm will
 not hire the 13th worker.
 
@@ -1143,7 +1143,7 @@ $\mathrm{DWL} = \frac{1}{2}(65 - 60)(40 - 35) + \frac{1}{2}(65 - 60)(45 - 40) = 
 Total welfare change $= -187.5 + 212.5 - 650 = -625$. The net welfare loss including government
 Spending is `USD 625`.
 
-(c) Subsidy of $s = 10$: new supply is $Q_s = P - 20 + 10$Or $P = Q_s + 10$. The supply curve Shifts
+(c) Subsidy of $s = 10$: new supply is $Q_s = P - 20 + 10$ Or $P = Q_s + 10$. The supply curve Shifts
 down.
 
 In demand-supply form: $Q_d = 100 - P$$P = Q_s + 10$ So $Q_s = P - 10$.
@@ -1184,7 +1184,7 @@ natural monopoly). The threat of potential entry constrains the behaviour of the
 ### The Contestable Market Outcome
 
 Even a monopoly in a perfectly contestable market will set $P = \text{AC}$ (average cost pricing)
-And produce at the efficient scale. If $P > \text{AC}$Potential entrants can profitably enter, Drive
+And produce at the efficient scale. If $P > \text{AC}$ Potential entrants can profitably enter, Drive
 the price down to AC, and earn zero economic profit.
 
 $$
@@ -1201,7 +1201,7 @@ Economic profit.
 | Price          | $P > \text{MC}$, $P > \text{AC}$            | $P = \text{AC} > \text{MC}$                                                          |
 | Output         | $Q < Q_{\text{efficient}}$                | Higher than unregulated monopoly                                                     |
 | Profit         | $\pi > 0$                                 | $\pi = 0$                                                                            |
-| Efficiency     | Allocatively and productively inefficient | Productively efficient ($P = \text{AC}$), allocatively inefficient ($P > \text{MC}$) |
+| Efficiency     | Allocatively and productively inefficient | Productively efficient ($P = \text{AC}$), allocatively inefficient ($ P > \text{MC}$) |
 | X-inefficiency | Likely (no competitive pressure)          | Unlikely (threat of entry disciplines the firm)                                      |
 
 ### Limitations of Contestable Market Theory
@@ -1391,7 +1391,7 @@ This indicates high inequality.
 
 The top 10% earn nearly 5 times the combined income of the bottom 40%.
 
-(c) After redistribution: bottom quintile $= 3 + 5 = 8\%$Top quintile $= 53 - 5 = 48\%$.
+(c) After redistribution: bottom quintile $= 3 + 5 = 8\%$ Top quintile $= 53 - 5 = 48\%$.
 
 New cumulative shares:
 
@@ -1630,7 +1630,7 @@ Examples: electricity distribution, water supply, rail networks, telecommunicati
    allocatively inefficient ($P > \text{MC}$). No subsidy required
 
 3. **Price cap regulation ($P \leq P_{\text{cap}}$):** the regulator sets a maximum price, often
-   using the formula $P_{\text{cap}} = P_{\text{RPI}} - X$Where RPI is the retail price index
+   using the formula $P_{\text{cap}} = P_{\text{RPI}} - X$ Where RPI is the retail price index
    (inflation) and $X$ is an efficiency factor. This incentivises cost reduction (the firm keeps the
    difference between actual costs and the cap)
 
@@ -1813,7 +1813,7 @@ only avid golfers. This is the classic exclusion result: the firm excludes Low-d
 extract more surplus from high-demand consumers.
 
 **Note:** this assumes type B golfers will not join at $F = 1012.5$. Since their maximum Willingness
-to pay is $\text{CS}_B$ at $p = 5$: $\frac{1}{2}(25)(25) = 312.5$Which is less Than 1012.5, they
+to pay is $\text{CS}_B$ at $p = 5$: $\frac{1}{2}(25)(25) = 312.5$ Which is less Than 1012.5, they
 will not join. The exclusion is self-selecting.
 
 </details>

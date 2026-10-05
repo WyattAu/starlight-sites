@@ -67,7 +67,7 @@ $$
 S_n = a_n + (a_n - d) + (a_n - 2d) + \cdots + a_1
 $$
 
-Adding: $2S_n = n(a_1 + a_n)$Hence $S_n = \dfrac{n}{2}(a_1 + a_n)$.
+Adding: $2S_n = n(a_1 + a_n)$ Hence $S_n = \dfrac{n}{2}(a_1 + a_n)$.
 
 **Example.** Find the sum of the first 50 positive odd numbers.
 
@@ -127,13 +127,13 @@ $$
 
 ### Sum of an Infinite Geometric Series
 
-If $|r| \lt 1$The infinite geometric series converges:
+If $|r| \lt 1$ The infinite geometric series converges:
 
 $$
 S_{\infty} = \sum_{n=1}^{\infty} a_1 r^{n-1} = \frac{a_1}{1 - r}
 $$
 
-If $|r| \ge 1$The series diverges.
+If $|r| \ge 1$ The series diverges.
 
 **Example.** Express $0.\overline{7}$ as a fraction.
 
@@ -215,7 +215,7 @@ $$
 
 If $\displaystyle\lim_{n \to \infty} a_n \ne 0$ Then $\displaystyle\sum a_n$ diverges.
 
-**Caution.** If $\lim_{n \to \infty} a_n = 0$The series **may or may not** converge. The harmonic
+**Caution.** If $\lim_{n \to \infty} a_n = 0$ The series **may or may not** converge. The harmonic
 series $\sum \dfrac{1}{n}$ diverges despite its terms tending to zero.
 
 ### Comparison Test
@@ -388,7 +388,7 @@ $$
 
 **Example.** Find the Maclaurin series of $x^2 e^x$.
 
-Since $e^x = \displaystyle\sum_{n=0}^{\infty} \frac{x^n}{n!}$Multiplying by $x^2$:
+Since $e^x = \displaystyle\sum_{n=0}^{\infty} \frac{x^n}{n!}$ Multiplying by $x^2$:
 
 $$
 x^2 e^x = \sum_{n=0}^{\infty} \frac{x^{n+2}}{n!} = x^2 + x^3 + \frac{x^4}{2!} + \frac{x^5}{3!} + \cdots
@@ -461,7 +461,7 @@ $$
 |R_3(0.5)| \le \frac{e^{0.5} \cdot (0.5)^4}{24} \approx \frac{1.649 \cdot 0.0625}{24} \approx 0.0043
 $$
 
-Actual error: $|1.64872 - 1.64583| \approx 0.0029$Which is within the bound.
+Actual error: $|1.64872 - 1.64583| \approx 0.0029$ Which is within the bound.
 
 ---
 
@@ -516,7 +516,7 @@ $n \in \mathbb{Z}^+$.
 
 **Example.** Prove that $3^n - 1$ is divisible by $2$ for all $n \in \mathbb{N}$.
 
-**Base case** ($n = 0$): $3^0 - 1 = 0$Which is divisible by $2$. True.
+**Base case** ($n = 0$): $3^0 - 1 = 0$ Which is divisible by $2$. True.
 
 **Inductive hypothesis:** $3^k - 1 = 2m$ for some $m \in \mathbb{Z}$.
 
@@ -575,7 +575,7 @@ $$
 L = \lim_{n \to \infty} \frac{(n+1)! / 10^{n+1}}{n! / 10^n} = \lim_{n \to \infty} \frac{(n+1)! \cdot 10^n}{n! \cdot 10^{n+1}} = \lim_{n \to \infty} \frac{n+1}{10} = \infty
 $$
 
-Since $L \gt 1$The series diverges by the ratio test.
+Since $L \gt 1$ The series diverges by the ratio test.
 
 </details>
 
@@ -611,7 +611,7 @@ $$
 = 0.5 - 0.041667 + 0.003125 - 0.000186 \approx 0.4613
 $$
 
-The actual value of the error function at $0.5$ gives approximately $0.4613$Confirming the accuracy
+The actual value of the error function at $0.5$ gives approximately $0.4613$ Confirming the accuracy
 Of this approximation.
 
 </details>
@@ -706,7 +706,7 @@ $$
 |R_2(0.2)| \le \frac{2 \cdot (0.2)^3}{6} = \frac{2 \cdot 0.008}{6} \approx 0.00267
 $$
 
-Actual error: $|0.1823 - 0.18| = 0.0023$Which is within the bound.
+Actual error: $|0.1823 - 0.18| = 0.0023$ Which is within the bound.
 
 </details>
 
@@ -734,14 +734,14 @@ A sequence is a list of numbers marching toward a destination. Some sequences ma
    $S_{\infty} = \dfrac{a_1}{1 - r}$ is valid **only** when $|r| \lt 1$. For $|r| \ge 1$ the series
    diverges and the formula is meaningless.
 
-3. **Computing the wrong term number.** The $n$-th term of a geometric sequence is $a_1 r^{n-1}$Not
-   $a_1 r^n$. Similarly, the $n$-th term of an arithmetic sequence is $a_1 + (n-1)d$Not $a_1 + nd$.
+3. **Computing the wrong term number.** The $n$-th term of a geometric sequence is $a_1 r^{n-1}$ Not
+   $a_1 r^n$. Similarly, the $n$-th term of an arithmetic sequence is $a_1 + (n-1)d$ Not $a_1 + nd$.
 
 4. **Using the ratio test when $L = 1$.** The ratio test is inconclusive when $L = 1$. The series
    $\sum \dfrac{1}{n}$ diverges and $\sum \dfrac{1}{n^2}$ converges, yet both give $L = 1$.
 
 5. **Weak base case in induction.** The base case must match the claim. If the statement starts at
-   $n = 1$Proving it for $n = 0$ is not sufficient unless the domain is specified to include $0$.
+   $n = 1$ Proving it for $n = 0$ is not sufficient unless the domain is specified to include $0$.
 
 6. **Neglecting the alternating sign in the general binomial expansion.** When $n$ is not a positive
    integer, the series is infinite and the sign of each coefficient depends on the value of $n$.

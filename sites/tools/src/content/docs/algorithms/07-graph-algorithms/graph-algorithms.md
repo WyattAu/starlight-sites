@@ -190,7 +190,7 @@ def floyd_warshall(n, edges):
 - The graph is dense ($E \approx V^2$), where $O(V^3)$ is competitive with $V$ runs of Dijkstra
 - You need to handle negative edges
 
-For sparse graphs with large $V$Run Dijkstra from each vertex: $O(V(V+E)\log V)$ which is
+For sparse graphs with large $V$ Run Dijkstra from each vertex: $O(V(V+E)\log V)$ which is
 $O(V^2 \log V)$ for sparse graphs, much better than $O(V^3)$.
 
 ### A\* Search
@@ -248,7 +248,7 @@ $h(v) \le \mathrm{actual distance from  v
 | Road networks        | Euclidean or precomputed lower bound | If well-chosen |
 
 A*with an admissible heuristic is optimal. If the heuristic is not admissible, A* may find a
-Suboptimal path but will be faster. If $h(v) = 0$ for all $v$A\* degrades to Dijkstra.
+Suboptimal path but will be faster. If $h(v) = 0$ for all $v$ A\* degrades to Dijkstra.
 
 ## Minimum Spanning Trees
 
@@ -350,7 +350,7 @@ def prim(n, graph):
 :::
 
 :::note
-At $O(E + V \log V)$. For sparse graphs ($E \approx V$), Kruskal's is simpler and equally fast.
+At $O(E + V \log V)$. For sparse graphs ($ E \approx V$), Kruskal's is simpler and equally fast.
 
 ## Strong Connectivity
 
@@ -638,7 +638,7 @@ Uses at most $\Delta + 1$ colors, and for most graphs, $\Delta$ colors.
 ## Travelling Salesman Problem (TSP)
 
 Given a complete graph with weighted edges, find the Hamiltonian cycle of minimum total weight. TSP
-Is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$Feasible for $n \le 20$).
+Is NP-hard; exact solutions use bitmask DP ($O(2^n \cdot n^2)$ Feasible for $n \le 20$).
 
 ### Approximation Algorithms
 
@@ -736,7 +736,7 @@ sufficiently large sentinel value or handle infinity explicitly.
 
 Without path compression, Kruskal's Union-Find operations degrade to $O(\log n)$ each, giving
 $O(E \log V + E \log V) = O(E \log V)$ total. With path compression and union by rank, it drops to
-$O(E \cdot \alpha(V))$Which is effectively $O(E)$. Always use both optimisations.
+$O(E \cdot \alpha(V))$ Which is effectively $O(E)$. Always use both optimisations.
 
 ### 4. A\* with Inadmissible Heuristic
 

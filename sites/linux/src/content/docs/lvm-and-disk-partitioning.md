@@ -98,7 +98,7 @@ GPT disk layout:
 ```
 
 :::note
-disks, and GPT"s backup table provides redundancy against corruption at the start of the Disk.
+disks, and GPT's backup table provides redundancy against corruption at the start of the Disk.
 
 ### Sector Size
 

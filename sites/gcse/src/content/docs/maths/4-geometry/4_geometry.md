@@ -79,7 +79,7 @@ $180 + 180(n - 3) = 180(n - 2)^{\circ}$. $\blacksquare$
 | Co-interior (allied) angles (U-angles) | Sum to $180^{\circ}$ |
 
 **Worked Example.** In the diagram, line $AB$ is parallel to line $CD$. A transversal intersects
-$AB$ at $E$ and $CD$ at $F$. If $\angle AEF = 65^{\circ}$Find all the other angles at $E$ and $F$.
+$AB$ at $E$ and $CD$ at $F$. If $\angle AEF = 65^{\circ}$ Find all the other angles at $E$ and $F$.
 
 $\angle AEF = \angle EFD = 65^{\circ}$ (alternate angles).
 
@@ -165,7 +165,7 @@ $$
 ### 1.4 Bearings
 
 A **bearing** is an angle measured clockwise from north, always given as a three-figure number (e.g.
-$045^{\circ}$Not $45^{\circ}$).
+$045^{\circ}$ Not $45^{\circ}$).
 
 **Worked Example.** A ship sails from port $A$ on a bearing of $070^{\circ}$ for 80 km to point $B$.
 It then sails on a bearing of $150^{\circ}$ for 60 km to point $C$. Find the bearing of $C$ from
@@ -208,7 +208,7 @@ a^2 + b^2 = c^2
 $$
 
 **Proof (area-based).** Consider a square of side $(a + b)$. Place four identical right-angled
-Triangles inside, each with legs $a$ and $b$Arranged so that their hypotenuses form a smaller Square
+Triangles inside, each with legs $a$ and $b$ Arranged so that their hypotenuses form a smaller Square
 of side $c$ in the centre.
 
 The area of the large square equals the area of the four triangles plus the area of the inner
@@ -234,7 +234,7 @@ $$h^2 + 6^2 = 10^2$$ $$h^2 = 100 - 36 = 64$$ $$h = 8 \mathrm{ m$$
 **Worked Example (Higher Tier).** Is a triangle with sides 7 cm, 11 cm, and 13 cm acute,
 Right-angled, or obtuse?
 
-$7^2 + 11^2 = 49 + 121 = 170$. Since $170 \gt 13^2 = 169$The triangle is acute (the angle opposite
+$7^2 + 11^2 = 49 + 121 = 170$. Since $170 \gt 13^2 = 169$ The triangle is acute (the angle opposite
 The longest side is less than $90^{\circ}$).
 
 **Test for triangle type:**
@@ -304,7 +304,7 @@ $$
 Used when you know: an angle and its opposite side, plus one other angle or side.
 
 **Proof sketch.** Drop an altitude from $C$ to $AB$. In the two right-angled triangles formed,
-Express the height as both $b \sin A$ and $a \sin B$. Setting equal: $b \sin A = a \sin B$Giving
+Express the height as both $b \sin A$ and $a \sin B$. Setting equal: $b \sin A = a \sin B$ Giving
 $\frac{a}{\sin A} = \frac{b}{\sin B}$. $\blacksquare$
 
 **Worked Example (Higher Tier).** In $\triangle ABC$, $a = 10$ cm, $A = 45^{\circ}$
@@ -590,7 +590,7 @@ $$
 \overrightarrow{AB} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}, \qquad \overrightarrow{BC} = \begin{pmatrix} 6 \\ 4 \end{pmatrix}
 $$
 
-Since $\overrightarrow{AB} = \overrightarrow{BC}$The vectors are parallel and share point $B$ So $A$,
+Since $\overrightarrow{AB} = \overrightarrow{BC}$ The vectors are parallel and share point $B$ So $A$,
 $B$, $C$ are collinear. $\blacksquare$
 
 ### 5.3 Column Vectors in Geometry
@@ -603,7 +603,7 @@ The **midpoint** $M$ of $AB$ has position vector $\frac{1}{2}(\mathbf{a} + \math
 
 **Worked Example (Higher Tier).** Point $P$ divides the line segment $AB$ in the ratio $2 : 3$. If
 $\overrightarrow{OA} = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$ and
-$\overrightarrow{OB} = \begin{pmatrix} 11 \\ 9 \end{pmatrix}$Find $\overrightarrow{OP}$.
+$\overrightarrow{OB} = \begin{pmatrix} 11 \\ 9 \end{pmatrix}$ Find $\overrightarrow{OP}$.
 
 $$
 \overrightarrow{OP} = \overrightarrow{OA} + \frac{2}{5}\overrightarrow{AB} = \begin{pmatrix} 1 \\ 4 \end{pmatrix} + \frac{2}{5}\begin{pmatrix} 10 \\ 5 \end{pmatrix} = \begin{pmatrix} 1 \\ 4 \end{pmatrix} + \begin{pmatrix} 4 \\ 2 \end{pmatrix} = \begin{pmatrix} 5 \\ 6 \end{pmatrix}
@@ -692,7 +692,7 @@ On $A$'s side of the perpendicular bisector of $AB$. The shaded region is the in
 
 ### 8.1 3D Pythagoras and Trigonometry
 
-For a cuboid with dimensions $a, b, c$The longest diagonal is:
+For a cuboid with dimensions $a, b, c$ The longest diagonal is:
 
 $$
 d = \sqrt{a^2 + b^2 + c^2}
@@ -738,7 +738,7 @@ Height: $h = \sqrt{6^2 - (3\sqrt{2})^2} = \sqrt{36 - 18} = \sqrt{18} = 3\sqrt{2}
   equidistant from both endpoints.
 - **Using the wrong scale factor for area or volume.** Area uses the square of the length scale
   factor; volume uses the cube.
-- **Calculating the exterior angle incorrectly.** The exterior angle is $\frac{360}{n}$Not
+- **Calculating the exterior angle incorrectly.** The exterior angle is $\frac{360}{n}$ Not
   $\frac{180}{n}$.
 
 ## Practice Questions
@@ -754,7 +754,7 @@ Height: $h = \sqrt{6^2 - (3\sqrt{2})^2} = \sqrt{36 - 18} = \sqrt{18} = 3\sqrt{2}
 
 5. Point $P$ divides the line segment $AB$ in the ratio $2 : 3$. If
    $\overrightarrow{OA} = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$ and
-   $\overrightarrow{OB} = \begin{pmatrix} 11 \\ 9 \end{pmatrix}$Find $\overrightarrow{OP}$.
+   $\overrightarrow{OB} = \begin{pmatrix} 11 \\ 9 \end{pmatrix}$ Find $\overrightarrow{OP}$.
 
 6. Two similar cones have heights in the ratio $3 : 5$. The volume of the smaller cone is 108
    cm$^3$. Find the volume of the larger cone.

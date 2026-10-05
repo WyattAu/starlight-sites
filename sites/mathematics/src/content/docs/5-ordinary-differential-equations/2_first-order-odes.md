@@ -30,7 +30,7 @@ Integrating both sides: $\int \frac{dy}{h(y)} = \int g(x)\, dx + C$.
 **Example.** Solve $\frac{dy}{dx} = xy$.
 
 Separating: $\frac{dy}{y} = x\, dx$. Integrating: $\ln|y| = \frac{x^2}{2} + C$. Thus
-$y = Ce^{x^2/2}$ where $C \neq 0$Plus the trivial solution $y = 0$.
+$y = Ce^{x^2/2}$ where $C \neq 0$ Plus the trivial solution $y = 0$.
 
 ### 2.2 Linear First-Order Equations
 
@@ -77,7 +77,7 @@ $\frac{\partial \Psi}{\partial y} = N$ And the solution is $\Psi(x, y) = C$.
 $M\, dx + N\, dy = 0$ is exact if and only if $M_y = N_x$.
 
 _Proof._ If exact, $M = \Psi_x$ and $N = \Psi_y$ So $M_y = \Psi_{xy} = \Psi_{yx} = N_x$ by Clairaut.
-Conversely, if $M_y = N_x$Define
+Conversely, if $M_y = N_x$ Define
 $\Psi(x, y) = \int_{x_0}^x M(t, y)\, dt + \int_{y_0}^y N(x_0, s)\, ds$. Then $\Psi_x = M(x, y)$ and
 $\Psi_y = \int_{x_0}^x M_y(t, y)\, dt + N(x_0, y) = \int_{x_0}^x N_x(t, y)\, dt + N(x_0, y) = N(x, y) - N(x_0, y) + N(x_0, y) = N(x, y)$.
 $\blacksquare$
@@ -96,7 +96,7 @@ Solution: $x^2 y + 3x - y = C$. $\blacksquare$
 
 ### 2.6 Integrating Factors for Non-Exact Equations
 
-If $M_y \neq N_x$One can sometimes find an **integrating factor** $\mu(x, y)$ such that
+If $M_y \neq N_x$ One can sometimes find an **integrating factor** $\mu(x, y)$ such that
 $(\mu M)_y = (\mu N)_x$.
 
 **Case 1:** If $\frac{M_y - N_x}{N}$ depends only on $x$ Then
@@ -122,7 +122,7 @@ $$
 **Example.** Solve $y' + y = y^2 e^x$.
 
 Here $n = 2$ So set $v = y^{-1}$. Then $v' = -y^{-2}y'$ And the equation becomes $v' - v = -e^x$.
-Integrating factor: $e^{-x}$. So $(v e^{-x})' = -1$Giving $ve^{-x} = -x + C$, $v = -xe^x + Ce^x$ And
+Integrating factor: $e^{-x}$. So $(v e^{-x})' = -1$ Giving $ve^{-x} = -x + C$, $v = -xe^x + Ce^x$ And
 $y = 1/(C - x)e^x$.
 
 ### 2.8 Existence and Uniqueness
@@ -141,7 +141,7 @@ Several substitutions reduce specific equations to separable or linear form:
 ### 2.10 Homogeneous Equations
 
 An ODE of the form $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$ is called **homogeneous** (not to be
-Confused with the linearity sense). The substitution $v = y/x$I.e., $y = vx$Gives $y' = v + xv'$ So
+Confused with the linearity sense). The substitution $v = y/x$ I.e., $y = vx$ Gives $y' = v + xv'$ So
 the equation becomes:
 
 $$
@@ -162,7 +162,7 @@ $F(v) = \frac{1 + v^2}{v}$.
 
 Set $y = vx$: $v + xv' = \frac{1 + v^2}{v} = v + \frac{1}{v}$.
 
-So $xv' = \frac{1}{v}$Giving $v\, dv = \frac{dx}{x}$.
+So $xv' = \frac{1}{v}$ Giving $v\, dv = \frac{dx}{x}$.
 
 Integrating: $\frac{v^2}{2} = \ln|x| + C$. Since $v = y/x$:
 
@@ -260,7 +260,7 @@ At $t = 30$: $Q(30) = 20e^{-0.9} \approx 20 \cdot 0.4066 \approx 8.13$ kg. $\bla
 
 _Solution._ $M = 3xy + 2y^2$, $N = x^2 + 2xy$.
 
-$M_y = 3x + 4y$, $N_x = 2x + 2y$. Since $M_y \neq N_x$Not exact.
+$M_y = 3x + 4y$, $N_x = 2x + 2y$. Since $M_y \neq N_x$ Not exact.
 
 Check Case 1:
 $\frac{M_y - N_x}{N} = \frac{x + 2y}{x^2 + 2xy} = \frac{x + 2y}{x(x + 2y)} = \frac{1}{x}$.
@@ -283,7 +283,7 @@ Solution: $x^3y + x^2y^2 = C$. $\blacksquare$
 
 ### 2.16 Orthogonal Trajectories
 
-Given a one-parameter family of curves $F(x, y, C) = 0$The **orthogonal trajectories** are curves
+Given a one-parameter family of curves $F(x, y, C) = 0$ The **orthogonal trajectories** are curves
 That intersect every member of the family at right angles. To find them:
 
 1. Find the differential equation $\frac{dy}{dx} = f(x, y)$ of the given family.
@@ -296,7 +296,7 @@ $\frac{dy}{dx} = 2Cx = \frac{2y}{x}$.
 
 Orthogonal trajectories satisfy $\frac{dy}{dx} = -\frac{x}{2y}$.
 
-Separating: $2y\, dy = -x\, dx$. Integrating: $y^2 = -\frac{x^2}{2} + C$Or
+Separating: $2y\, dy = -x\, dx$. Integrating: $y^2 = -\frac{x^2}{2} + C$ Or
 $\frac{x^2}{2} + y^2 = C$. These are ellipses.
 
 ### 2.17 Common Pitfalls for First-Order ODEs

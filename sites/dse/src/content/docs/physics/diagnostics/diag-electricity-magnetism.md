@@ -29,13 +29,13 @@ flowchart TD
 
 ## Unit Tests
 
-### UT-1: Faraday"s Law with Changing Area
+### UT-1: Faraday's Law with Changing Area
 
 **Question:**
 
 A rectangular coil of $200$ turns, width $0.05$ m and length $0.08$ m, is positioned with its plane
 perpendicular to a uniform magnetic field of $0.4$ T. The coil is pulled out of the field in $0.02$
-s. Find the average EMF induced. If the coil resistance is $5$ $\Omega$Find the average current and
+s. Find the average EMF induced. If the coil resistance is $5$ $\Omega$ Find the average current and
 the total charge that flows.
 
 **Solution:**

@@ -56,7 +56,7 @@ pitfalls, and exam-style problems.
 
 - **[Kinematics](/physics/1-space-time-and-motion/1_kinematics/)**, Motion, velocity, acceleration,
   projectiles, and kinematics equations
-- **[Dynamics and Newton"s Laws](/physics/1-space-time-and-motion/2_dynamics/)**, Newton's laws, friction,
+- **[Dynamics and Newton's Laws](/physics/1-space-time-and-motion/2_dynamics/)**, Newton's laws, friction,
   momentum, impulse, and work-energy
 - **[Energy and Conservation](/physics/1-space-time-and-motion/3_energy/)**, Kinetic energy, potential
   energy, conservation of energy, and power

@@ -31,7 +31,7 @@ $$
 mgR = mgR\cos\theta + \frac{1}{2}mR^2\dot{\theta}^2 \implies \dot{\theta}^2 = \frac{2g(1 - \cos\theta)}{R}
 $$
 
-Newton"s second law in the radial direction:
+Newton's second law in the radial direction:
 
 $$
 mg\cos\theta - N = mR\dot{\theta}^2 = 2mg(1 - \cos\theta)
@@ -124,7 +124,7 @@ coordinates).
 
 ### Problem 4
 
-For the double pendulum with $m_1 = m_2 = m$ and $l_1 = l_2 = l$Find the Lagrangian and verify the
+For the double pendulum with $m_1 = m_2 = m$ and $l_1 = l_2 = l$ Find the Lagrangian and verify the
 equations of motion in the small-angle limit reduce to coupled harmonic oscillators.
 
 <details>
@@ -158,7 +158,7 @@ $$
 $$
 
 The secular equation gives $\omega_1^2 = (2-\sqrt{2})g/l$ and
-$\omega_2^2 = (2+\sqrt{2})g/l$Confirming coupled harmonic oscillators.
+$\omega_2^2 = (2+\sqrt{2})g/l$ Confirming coupled harmonic oscillators.
 
 **If you get this wrong, revise:** Section 3.5 (double pendulum), Section 7.1 (small oscillations).
 
@@ -230,7 +230,7 @@ dependence of the period of oscillation on the amplitude $A$.
 <summary>Solution</summary>
 
 The Lagrangian is $L = \frac{1}{2}m\dot{x}^2 - V_0\lvert x/a\rvert^n$. For oscillation with
-amplitude $A$The energy is $E = V_0(A/a)^n$.
+amplitude $A$ The energy is $E = V_0(A/a)^n$.
 
 By dimensional analysis, the period $T$ can only depend on $m$, $V_0$, $a$, $n$ And $A$. Writing
 $[T] = [m]^\alpha [V_0]^\beta [a]^\gamma [A]^\delta$ and noting $[V_0] = ML^2T^{-2}$:
@@ -247,7 +247,7 @@ T \propto \sqrt{m/V_0}\, a^\gamma A^\delta \quad \mathrm{with} \quad -1 - \gamma
 $$
 
 Since $n$ is dimensionless, we need $\delta = n\gamma$ (to make $A/a$ appear with power $n$ in the
-energy). Then $-1 - \gamma(1 + n) = 0$Giving $\gamma = -1/(1+n)$, $\delta = -n/(1+n)$.
+energy). Then $-1 - \gamma(1 + n) = 0$ Giving $\gamma = -1/(1+n)$, $\delta = -n/(1+n)$.
 
 $$
 T \propto A^{-n/(1+n)} = \frac{1}{A^{n/(1+n)}}
@@ -267,7 +267,7 @@ Using $E = V_0(A/a)^n$ and $\langle T \rangle = \frac{n}{n+2}E \propto A^n$. The
 as $v_{\mathrm{rms} \propto A^{n/2}}$. The period is
 $T \propto A/v_{\mathrm{rms} \propto A^{1-n/2} = A^{-(n-2)/2} = A^{-n/(n+2)} \cdot A^{\cdot}}$.
 
-Actually, the cleanest result from dimensional analysis is $T \propto A^{1 - n/2}$Giving
+Actually, the cleanest result from dimensional analysis is $T \propto A^{1 - n/2}$ Giving
 $T \propto A^{-1/2}$ for $n = 3$ (cubic potential).
 
 **If you get this wrong, revise:** Section 1.6 (energy conservation), Section 3.1 (Lagrangian).
@@ -276,7 +276,7 @@ $T \propto A^{-1/2}$ for $n = 3$ (cubic potential).
 
 ### Problem 8
 
-Find the Hamiltonian for a charged particle (mass $m$Charge $q$) in an electromagnetic field with
+Find the Hamiltonian for a charged particle (mass $m$ Charge $q$) in an electromagnetic field with
 vector potential $\mathbf{A}$ and scalar potential $\phi$.
 
 <details>
@@ -348,7 +348,7 @@ $$
 Trying $\lambda = 2$: $216 - 54 = 162 \neq 0$. Trying $\lambda = 11$:
 $(-3)^3 - 54 + 3(-3)(9) = -27 - 54 - 81 = -162 \neq 0$.
 
-The eigenvalues are $\lambda_1 = 2$ (with eigenvector $(1,1,1)$The body diagonal) and
+The eigenvalues are $\lambda_1 = 2$ (with eigenvector $(1,1,1)$ The body diagonal) and
 $\lambda_{2,3} = 11$ (degenerate, in the plane perpendicular to the body diagonal).
 
 Principal moments: $I_1 = Ma^2/6$, $I_2 = I_3 = 11Ma^2/12$.
@@ -508,7 +508,7 @@ of variables to reduce it to quadratures.
 <details>
 <summary>Solution</summary>
 
-In spherical coordinates $(r, \theta, \phi)$The Hamiltonian is:
+In spherical coordinates $(r, \theta, \phi)$ The Hamiltonian is:
 
 $$
 H = \frac{1}{2m}\left(p_r^2 + \frac{p_\theta^2}{r^2} + \frac{p_\phi^2}{r^2\sin^2\theta}\right) + V(r)
@@ -687,11 +687,11 @@ finite number of oscillations for all energies.)
 
 We sketch the key steps of the .../1-number-and-algebra/3_proof-and-logic.
 
-**Step 1: Orbit equation.** From the Binet equation $u'' + u = -\frac{m}{l^2 u^2}V'(1/u)$Write
+**Step 1: Orbit equation.** From the Binet equation $u'' + u = -\frac{m}{l^2 u^2}V'(1/u)$ Write
 $V'(1/u) = -f(u)/u^2$ where $f(u)$ is the force law. The orbit equation becomes $u'' + u = J(u)$
 where $J(u) = \frac{m}{l^2}f(1/u)/u^2$... Actually let me use the standard approach.
 
-For a nearly circular orbit at radius $r_0$Write $u = u_0 + x$ where $u_0 = 1/r_0$ and $x$ is small.
+For a nearly circular orbit at radius $r_0$ Write $u = u_0 + x$ where $u_0 = 1/r_0$ and $x$ is small.
 Linearising the Binet equation:
 
 $$
@@ -718,7 +718,7 @@ be a rational multiple of $\pi$.
 
 **Step 3: Only two possibilities.** For the orbit to be closed (not just the apsidal angle to be
 rational, but the orbit to close for all initial conditions), a deeper analysis shows only $n = -1$
-($V \propto -1/r$Kepler) and $n = 2$ ($V \propto r^2$Harmonic oscillator) work. For $n = -1$:
+($V \propto -1/r$ Kepler) and $n = 2$ ($V \propto r^2$ Harmonic oscillator) work. For $n = -1$:
 $\beta^2 = 4$, $\beta = 2$, $\Delta\phi = \pi/2$ (ellipse closes after 2 oscillations, 4 quadrants).
 For $n = 2$: $\beta^2 = 1$, $\beta = 1$, $\Delta\phi = \pi$ (ellipse closes after 1 oscillation, 2
 half-turns).

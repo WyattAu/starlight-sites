@@ -51,7 +51,7 @@ given by $v = 6t - t^2 - 5$.
 obtains a positive answer. The student then claims this integral equals the total distance.
 Calculate the percentage error in the student"s answer.
 
-[Difficulty: hard. Tests whether the student identifies direction changes from $v = 0$Splits the
+[Difficulty: hard. Tests whether the student identifies direction changes from $v = 0$ Splits the
 integral accordingly, and takes absolute values of each segment to find total distance rather than
 displacement.]
 
@@ -70,7 +70,7 @@ For $1 \lt t \lt 5$: test $t = 3$, $v = 18 - 9 - 5 = 4 \gt 0$ (moving in positiv
 For $t \gt 5$: test $t = 6$, $v = 36 - 36 - 5 = -5 \lt 0$ (moving in negative direction).
 
 The particle reverses direction at $t = 1$ and $t = 5$. Total distance requires integrating
-$\lvert v \rvert$Which means splitting at the turning points and taking the magnitude of each
+$\lvert v \rvert$ Which means splitting at the turning points and taking the magnitude of each
 segment.
 
 $$
@@ -136,7 +136,7 @@ angle of $25°$ above the horizontal. Take $g = 9.8$ m/s$^2$.
 **(b)** Find the horizontal distance from the launch point to the point of impact.
 
 **(c)** A student sets up the problem with upwards as positive and writes the vertical equation as
-$s = ut - \frac{1}{2}gt^2$Using $s = -80$ (below the launch point) and $u = 30\sin 25°$. Show that
+$s = ut - \frac{1}{2}gt^2$ Using $s = -80$ (below the launch point) and $u = 30\sin 25°$. Show that
 this gives the same quadratic as taking downwards as positive.
 
 **(d)** Find the speed and direction of motion at the instant of impact.
@@ -207,7 +207,7 @@ Angle below horizontal $= \arctan\!\left(\frac{41.51}{27.19}\right) \approx 56.8
 **Question:**
 
 A particle moves in a straight line. Its acceleration $a$ m/s$^2$ is related to its displacement $s$
-metres from a fixed point $O$ by $a = 12 - 3s$. When $s = 0$The particle has velocity $v = 2$ m/s.
+metres from a fixed point $O$ by $a = 12 - 3s$. When $s = 0$ The particle has velocity $v = 2$ m/s.
 
 **(a)** Find an expression for $v^2$ in terms of $s$.
 
@@ -263,7 +263,7 @@ $$
 s = \frac{24 + \sqrt{576 + 48}}{6} = \frac{24 + \sqrt{624}}{6} = \frac{24 + 4\sqrt{39}}{6} = \frac{12 + 2\sqrt{39}}{3} \approx 8.16 \text{ m}
 $$
 
-(The negative root gives $s \lt 0$Which corresponds to the particle having passed through $O$ in the
+(The negative root gives $s \lt 0$ Which corresponds to the particle having passed through $O$ in the
 opposite direction -- not relevant for the first turning point.)
 
 **(c)** The approach via $a = v\,\frac{dv}{ds}$ works because it reduces the problem to a
@@ -338,7 +338,7 @@ $$
 D^2 = (8t)^2 + (10 + 4t - 4.9t^2)^2 = 64t^2 + (10 + 4t - 4.9t^2)^2
 $$
 
-To minimise $D$We minimise $D^2$. Setting $\frac{d(D^2)}{dt} = 0$:
+To minimise $D$ We minimise $D^2$. Setting $\frac{d(D^2)}{dt} = 0$:
 
 $$
 \frac{d(D^2)}{dt} = 128t + 2(10 + 4t - 4.9t^2)(4 - 9.8t) = 0
@@ -576,7 +576,7 @@ $$
 
 $\frac{da}{dt} = 6t - 12 = 0 \implies t = 2$.
 
-$\frac{d^2a}{dt^2} = 6 \gt 0$Confirming a minimum of acceleration at $t = 2$.
+$\frac{d^2a}{dt^2} = 6 \gt 0$ Confirming a minimum of acceleration at $t = 2$.
 
 Since $\frac{da}{dt} = 6t - 12$ and the coefficient of $t$ is positive, the acceleration has a
 minimum (not maximum) at $t = 2$. The acceleration decreases for $0 \lt t \lt 2$ and increases for
@@ -591,7 +591,7 @@ the particle is **speeding up** at $t = 5$.
 
 Note: the question asks about the rate of change of **speed** (a scalar), not velocity. Speed
 increases when $v$ and $a$ have the same sign, and decreases when they have opposite signs. At
-$t = 5$Both are positive, so the particle is speeding up.
+$t = 5$ Both are positive, so the particle is speeding up.
 
 ## See Also
 

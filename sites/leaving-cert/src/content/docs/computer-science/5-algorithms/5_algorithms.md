@@ -594,7 +594,7 @@ def mystery(n):
 | 4   | 2     | False      | 6     |
 | 5   | 1     | False      | 6     |
 
-The function computes the sum of proper divisors. $1 + 2 + 3 = 6$. Since $6 = 6$The number 6 is A
+The function computes the sum of proper divisors. $1 + 2 + 3 = 6$. Since $6 = 6$ The number 6 is A
 **perfect number**.
 
 ## Additional Practice Questions
@@ -693,7 +693,7 @@ otherwise.
 
 **Proof.** The loop examines every index from 0 to len(arr)-1.
 
-- If `target` is at index $k$: the loop reaches index $k$Finds `arr[k] == target`And returns $k$.
+- If `target` is at index $k$: the loop reaches index $k$ Finds `arr[k] == target`And returns $k$.
 - If `target` is not in the array: no index satisfies `arr[i] == target`So the loop completes
   without returning, and the function returns -1.
 
@@ -708,7 +708,7 @@ the End of the array.
 
 Base case ($k=0$): Before any passes, 0 elements are sorted. True.
 
-Inductive step: Assume after $k$ passes, the $k$ largest elements are sorted. In pass $k+1$Adjacent
+Inductive step: Assume after $k$ passes, the $k$ largest elements are sorted. In pass $k+1$ Adjacent
 Pairs are compared and swapped if out of order. The largest unsorted element "bubbles up" to
 position $n - k - 1$ (one position left of the previously sorted elements). After this pass, $k+1$
 elements Are sorted.

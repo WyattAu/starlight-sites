@@ -33,7 +33,7 @@ Dimensions:
 
 ## Theoretical Frameworks
 
-### Ravenstein"s Laws of Migration (1885)
+### Ravenstein's Laws of Migration (1885)
 
 Ernest Georg Ravenstein, based on an analysis of census data from the United Kingdom, formulated
 Several "laws" of migration that remain influential:
