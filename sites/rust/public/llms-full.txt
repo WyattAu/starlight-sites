@@ -2937,47 +2937,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 ## See also
 
 - [Interior Mutability](/02-ownership-borrowing/interior-mutability/)
@@ -3925,7 +3884,7 @@ takes_short(long);  // OK, 'static can be shortened to 'a
 `&'a mut T` is invariant in `'a`. You cannot substitute a longer-lived `&'long mut T` where a
 `&'short mut T` is expected. This prevents soundness issues where a mutable reference to a
 Shorter-lived value could be used to write a longer-lived reference, extending its lifetime beyond
-Its valid scope.
+its valid scope.
 
 ```rust
 fn takes_short_mut<'a>(r: &'a mut i32) {}
@@ -7027,7 +6986,7 @@ fn process_order(order_id: u64) -> Result<Order> {
 ```
 
 Each `.context()` call adds a layer to the error chain, making it easy to trace the error back to
-Its origin:
+its origin:
 
 ```
 Error: payment processing failed for order 42
@@ -10810,7 +10769,7 @@ data.par_iter().enumerate().for_each(|(i, &x)| {
 ```
 
 Rayon uses a work-stealing scheduler: each thread has a local deque of tasks. When a thread finishes
-Its work, it steals tasks from other threads' deques. This provides automatic load balancing without
+its work, it steals tasks from other threads' deques. This provides automatic load balancing without
 Central coordination.
 
 ### Async Mutex (tokio)
@@ -10879,7 +10838,7 @@ unsafe impl Sync for MyType {}
 
 :::danger
 Automatic analysis is wrong and that your type is actually safe to send/share across threads. If
-Your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
+your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
 Thread safety (e.g., when using platform-specific synchronization primitives that the compiler
 cannot see).
 
@@ -13025,52 +12984,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 ---
 
 ## Flashcards Rust Basics
@@ -13115,94 +13028,6 @@ Rust achieves memory safety without a garbage collector through its ownership sy
 
 - **[Site Home](../../):** Main landing page for rust notes.
 - **Practice:** Practice problems for revision.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## Detailed Content
 
@@ -15566,7 +15391,7 @@ let (query, params) = sql!("SELECT * FROM users WHERE id = $1 AND name = $2", us
 
 :::caution
 Validate parameter bindings at compile time, and generate type-safe code. Libraries like `sqlx` with
-Its `query!` macro provide this level of sophistication.
+its `query!` macro provide this level of sophistication.
 
 ## The `syn` and `quote` Ecosystem
 

@@ -63,6 +63,9 @@ jobs:
       - name: Prose damage lint (content)
         run: python3 scripts/fix-prose-damage.py --check
 
+      - name: Duplicate section collapse gate (content)
+        run: node --max-old-space-size=1024 scripts/fix-duplicate-blocks.mjs --check
+
       - name: No-emoji lint (code, docs, config)
         run: node scripts/lint-no-emoji.js
 

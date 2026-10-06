@@ -634,28 +634,6 @@ categories:
 }
 </script>
 
-## University Physics Practice Test, 30 Challenging Problems
-
-This practice test covers 30 problems across four major domains of university physics: Classical Mechanics, Thermodynamics, Electromagnetism, and Quantum Mechanics. Each problem requires multi-step reasoning and the application of fundamental principles. Work through the problems with pen and paper before checking the solutions.
-
-## Instructions
-
-- **Time limit:** 90 minutes (3 minutes per problem)
-- **Format:** Problem-solving, show all working
-- **Marking:** 1 mark per problem, 30 marks total
-- **Conditions:** Attempt without notes. Show all steps in your solutions.
-- **After the test:** Check the solutions at the bottom. Study the derivations for any problems you got wrong.
-
-| Domain | Problems | Marks |
-| --- | --- | --- |
-| Classical Mechanics | P1–P8 | 8 |
-| Thermodynamics | P9–P15 | 7 |
-| Electromagnetism | P16–P22 | 7 |
-| Quantum Mechanics | P23–P30 | 8 |
-| **Total** | **30** | **30** |
-
----
-
 ## Classical Mechanics (P1–P8)
 
 ### P1, Lagrangian Mechanics

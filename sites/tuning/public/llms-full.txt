@@ -119,7 +119,7 @@ has 12 execution ports:
 | 11    | Load (AGU)                       |
 
 AMD Zen 4 has 10 execution ports with a different allocation. The key takeaway for tuning is that
-Your code (or the compiler's output) must have enough independent $\mu$ Ops to fill these ports. If
+your code (or the compiler's output) must have enough independent $\mu$ Ops to fill these ports. If
 every instruction depends on the previous one (a long dependency chain), most ports sit idle.
 
 ---
@@ -692,7 +692,7 @@ SMT may be unacceptable.
 
 CPU microcode updates can change power management behavior, fix errata, and even adjust boost
 Algorithms. After a microcode update (delivered via BIOS/UEFI or Linux firmware package), re-test
-Your tuning settings. A stable overclock or undervolt may become unstable after a microcode update.
+your tuning settings. A stable overclock or undervolt may become unstable after a microcode update.
 
 ### Measuring Frequency with the Wrong Tool
 
@@ -4050,7 +4050,7 @@ P(\mathrm{error in array) = 1 - (1 - UBER)^{N_{drives} \times N_{reads}}
 $$
 
 This is why ZFS checksumming is essential, it detects and corrects these errors that would
-Otherwise cause silent data corruption.
+otherwise cause silent data corruption.
 
 ### Wear Leveling Depth
 
@@ -6420,52 +6420,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 ---
 
 ## Glossary
@@ -7206,7 +7160,7 @@ Variance.
 Undervolting is the most compelling reason to tune for laptops and small-form-factor builds. A 100
 MV reduction on a 65 W CPU can shave 8–12 W off the package power, which translates directly to
 Longer battery life, lower fan noise, and a cooler chassis. On desktops, the same reduction means
-Your cooling solution lasts longer and your power bill is marginally lower.
+your cooling solution lasts longer and your power bill is marginally lower.
 
 ### Noise Reduction
 
@@ -7527,75 +7481,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - [Tuning](./)
 - [About This Site](/about/)
 - [Introduction to Hardware Tuning](/intro/)
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 
 ## Detailed Content

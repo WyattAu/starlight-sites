@@ -4765,7 +4765,7 @@ an `ANALYZE`Or after a version upgrade.
 ### Using DISTINCT as a Substitute for Proper Joins
 
 `SELECT DISTINCT` to remove duplicates caused by an incorrect join is a performance anti-pattern. If
-Your join produces duplicates, the join condition or the schema is wrong. Fix the root cause.
+your join produces duplicates, the join condition or the schema is wrong. Fix the root cause.
 
 ### Forgetting That COUNT(column) Skips NULLs
 
@@ -6625,7 +6625,7 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-04-01';
 ### Partition-Wise Joins
 
 PostgreSQL 11+ supports partition-wise joins, where the optimizer joins matching partitions directly
-Instead of joining entire partitioned tables:
+instead of joining entire partitioned tables:
 
 ```sql
 -- Enable partition-wise joins
@@ -7307,7 +7307,7 @@ lock. Know your isolation level.
 ### Advisory Lock Leaks
 
 Session-level advisory locks persist until the session ends or the lock is explicitly released. If
-Your application crashes or the connection pool drops the connection, the lock is automatically
+your application crashes or the connection pool drops the connection, the lock is automatically
 Released when the TCP connection closes. However, with PgBouncer in session mode, a recycled
 Connection may still hold a lock from a previous session. Use transaction-level advisory locks
 (`pg_advisory_xact_lock`) for automatic cleanup.
@@ -9112,7 +9112,7 @@ Service Architecture with Polyglot Persistence:
 Replication configuration, monitoring, upgrade path, and failure modes. Before introducing a new
 Database technology, ensure your team has the expertise to operate it in production. The cost of
 Operating 5 different databases often exceeds the cost of operating one database that handles 80% of
-Your use cases adequately.
+your use cases adequately.
 
 ## Intuition
 
@@ -9217,7 +9217,7 @@ Garbage (tombstones in OR-Set).
 ### LSM Trees (Log-Structured Merge Trees)
 
 Most NoSQL databases that are write-optimised (Cassandra, RocksDB, LevelDB, HBase) use LSM trees
-Instead of B-trees. LSM trees batch writes in memory and flush to disk in sorted runs, which
+instead of B-trees. LSM trees batch writes in memory and flush to disk in sorted runs, which
 Dramatically reduces write amplification.
 
 **Write path:**
@@ -13921,52 +13921,6 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Databases](./)
 - [Complete Database Design Study Guide](/hub/)
 - [Introduction to Databases](/intro/)
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 
 ## Detailed Content

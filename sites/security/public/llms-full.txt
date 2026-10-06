@@ -65,18 +65,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -1906,7 +1894,7 @@ openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt \
 
 :::caution
 Explicitly trusted. Never use self-signed certificates in production for public-facing services. Use
-Them only for internal services where you control the trust store.
+them only for internal services where you control the trust store.
 
 ## ACME Protocol
 
@@ -2491,7 +2479,7 @@ openssl x509 -in cert.pem -noout -text | grep -A1 "Subject Alternative Name"
 ### Disabling TLS 1.0/1.1 Too Early
 
 While TLS 1.0 and 1.1 are deprecated (RFC 8996), some legacy clients still require them. Disable
-Them only after auditing client requirements. PCI DSS 3.2.1 mandated disabling TLS 1.0 by June 2018
+them only after auditing client requirements. PCI DSS 3.2.1 mandated disabling TLS 1.0 by June 2018
 and TLS 1.1 by June 2019.
 
 ## Summary
@@ -3178,7 +3166,7 @@ Validate redirect URIs against an exact-match allowlist (no wildcards, no open r
 
 Accepting any algorithm in the JWT header, or not explicitly specifying the expected algorithm
 during validation, enables the algorithm confusion attack. Always specify `algorithms=["RS256"]` (or
-Your expected algorithm) explicitly.
+your expected algorithm) explicitly.
 
 ### Pitfall 7: Session Fixation
 
@@ -3992,7 +3980,7 @@ def list_users():
 
 Always validate the `iss` claim against a known list of trusted issuers. If your API accepts tokens
 from `https://auth.example.com` but also accepts tokens from any issuer, an attacker can create
-Their own authorization server and issue tokens with arbitrary claims.
+their own authorization server and issue tokens with arbitrary claims.
 
 ## Summary
 
@@ -4759,18 +4747,6 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
 
 ## Study Tips
 
@@ -9313,7 +9289,7 @@ with legal guidance.
 Not every incident is a catastrophic breach, but every incident is an opportunity to improve. A
 Phishing email that reached an inbox reveals a gap in email filtering. A successful brute-force
 Attempt on SSH reveals a need for key-based authentication. Small incidents are free lessons, treat
-Them as such.
+them as such.
 
 ### Pitfall 8: Not Preserving Volatile Evidence
 
@@ -9582,7 +9558,7 @@ You always own the responsibility for:
 ## Identity and Access Management (IAM)
 
 IAM is the foundational security control in cloud environments. It determines who can do what to
-Which resources.
+which resources.
 
 ### Core Concepts
 
@@ -10144,7 +10120,7 @@ Default to allow all outbound traffic. Always review and harden defaults.
 ### Not Enabling Logging
 
 Without CloudTrail, Azure Activity Logs, or GCP Audit Logs, you have no visibility into who is doing
-What in your environment. After a breach, you will not be able to determine the scope or timeline of
+what in your environment. After a breach, you will not be able to determine the scope or timeline of
 the attack.
 
 ### Cross-Account Trust Misconfiguration
@@ -10504,18 +10480,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -10583,18 +10547,6 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
 
 ## Study Tips
 
@@ -11869,18 +11821,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -12924,7 +12864,7 @@ Full logging of all privileged actions.
 **Email Security** addresses the primary initial access vector for many attacks. Domain-based
 Message Authentication, Reporting, and Conformance (DMARC) prevents email spoofing by aligning the
 Sender's domain with the domain in the email's From header. Sender Policy Framework (SPF) specifies
-Which mail servers are authorized to send email for a domain. DomainKeys Identified Mail (DKIM) adds
+which mail servers are authorized to send email for a domain. DomainKeys Identified Mail (DKIM) adds
 A cryptographic signature to outbound email. Email filtering sandboxes analyze attachments and URLs
 in incoming messages, blocking malicious content before it reaches the user's inbox. Security
 Awareness training reduces the effectiveness of phishing attacks by teaching users to recognize
@@ -13068,52 +13008,6 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Security](./)
 - [Complete Cybersecurity Study Guide](/hub/)
 - [Introduction to Security](/intro/)
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 
 ## Detailed Content
@@ -17202,18 +17096,6 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
 
 ## Study Tips
 

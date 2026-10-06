@@ -1867,7 +1867,7 @@ Environment requires it.
 ## SMB3 Encryption Configuration
 
 SMB3 encryption protects data in transit between client and server. TrueNAS supports SMB3 encryption
-Which can be enabled globally or per-share. Encrypted SMB traffic adds CPU overhead ( 10-25%
+which can be enabled globally or per-share. Encrypted SMB traffic adds CPU overhead ( 10-25%
 depending on the cipher used) but eliminates the need for separate VPN tunnels for data Protection.
 
 ### Enabling SMB3 Encryption Globally
@@ -2305,7 +2305,7 @@ zfs list -t snapshot -S used -o name,used | head -20
 
 Snapshots can be destroyed to reclaim space, but you cannot destroy an individual snapshot if it has
 Clones. Destroy all clones first, or use `zfs destroy -R` to recursively destroy a snapshot and all
-Its dependents.
+its dependents.
 
 ```bash
 # Destroy a specific snapshot
@@ -6421,7 +6421,7 @@ Write volume.
 ### Optimizing Recordsize Per Dataset
 
 The `recordsize` property controls the maximum block size ZFS uses for files. Matching recordsize to
-Your workload's typical I/O size is critical:
+your workload's typical I/O size is critical:
 
 | Workload                 | Recommended recordsize | Rationale                                               |
 | ------------------------ | ---------------------- | ------------------------------------------------------- |
@@ -6672,52 +6672,6 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [TrueNAS](./)
 - [Introduction to TrueNAS](/intro/)
 - [TrueNAS Practice](/practice-truenas/)
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 
 ## Detailed Content
@@ -7792,75 +7746,6 @@ import PracticeProblem from "@components/PracticeProblem";
 
 - **[Site Home](../../):** Main landing page for truenas notes.
 - **Practice:** Practice problems for revision.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 
 ## Detailed Content

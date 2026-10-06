@@ -115,14 +115,44 @@ python3 scripts/fix-prose-damage.py --approve reviewed.txt # apply it
 
 Reviewing the list is the work; the repair is then exact and repeatable.
 
-## 6. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
+## 6. Duplicate section collapse (`scripts/fix-duplicate-blocks.mjs --check`)
+
+The content generator emitted its scaffolding block several times on one
+page, byte for byte:
+
+```
+## Detailed Content
+This topic covers the fundamental principles ...
+### Core Concepts
+Understanding these core concepts is essential ...
+```
+
+with an empty body under every heading. That cost three things: the TOC
+listed each section twice, Starlight disambiguated the duplicate anchors
+with a numeric suffix so a `#core-concepts` link silently landed on the
+second copy, and the page promised content it never delivered.
+
+This is the one damage class here that is mechanically fixable with *zero*
+information loss — byte-identical blocks, first occurrence kept. The
+comparison is deliberately strict (trailing whitespace only), and blocks
+under 90 characters are left alone because a short repeat may be
+deliberate. Deduplication is scoped to the enclosing heading, because two
+sections under *different* parents are not interchangeable even when their
+bodies match.
+
+3,691 redundant blocks across 840 files. 12 unit tests pin what must survive:
+a block differing by one character, a repeated short section, headings
+inside code fences or frontmatter, and identical sections under different
+parents.
+
+## 7. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
 
 Generates the AI-crawler-facing site indexes: a network root
 (`sites/main/public/llms.txt`) and one per site. `--check` fails when the
 committed files are stale relative to content. Regenerate with
 `node scripts/generate-llms-txt.js`.
 
-## 7. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
+## 8. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
 
 Parses markdown and `href=` links network-wide (14,000+ internal links),
 resolving each against the page index with browser semantics:

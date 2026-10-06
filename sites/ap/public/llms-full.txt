@@ -121,52 +121,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 ---
 
 ## Ap Computer Science A
@@ -2819,40 +2773,6 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 This introduction provides comprehensive coverage of Ap content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
 
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
@@ -3569,98 +3489,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 ---
 
 ## Practice Calculus Ab
@@ -3746,52 +3574,6 @@ Differential equations describe how quantities change in relation to each other.
 - **[Limits and Continuity](/maths/1-limits-and-continuity/1_limits-and-continuity/):** The foundation of all calculus, limits, continuity, and L'Hopital's rule.
 - **[Derivatives](/maths/2-derivatives/2_derivatives/):** Differentiation rules, chain rule, and applications.
 - **[Integrals](/maths/3-integrals/3_integrals/):** FTC, u-substitution, and area under curves.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 
 ## Detailed Content
@@ -5340,7 +5122,7 @@ Programmed cell death, critical for development and homeostasis. Key regulators:
 7. Glucose is released into the blood, raising blood glucose levels.
 
 This pathway amplifies the signal: one epinephrine molecule can activate many G-proteins, each of
-Which produces many cAMP molecules, each of which activates many PKA enzymes.
+which produces many cAMP molecules, each of which activates many PKA enzymes.
 
 ### Receptor Tyrosine Kinases (RTKs)
 
@@ -5605,7 +5387,7 @@ Considered semi-autonomous organelles (they have their own DNA and replicate ind
 **Worked Example: Tracing a lysosomal enzyme.**
 
 A lysosomal enzyme (a hydrolytic enzyme) is synthesised in the same way as a secretory protein, but
-Instead of being secreted, it is tagged with a mannose-6-phosphate marker in the Golgi apparatus.
+instead of being secreted, it is tagged with a mannose-6-phosphate marker in the Golgi apparatus.
 This marker is recognised by receptors on the Golgi membrane, and the enzyme is packaged into
 Vesicles that fuse with lysosomes. Without this tagging system, the enzyme would be secreted from
 the cell. This demonstrates how the Golgi apparatus sorts proteins to different destinations.
@@ -7401,7 +7183,7 @@ between cysteine residues). The tertiary structure determines the protein's func
 
 **Quaternary structure:** The assembly of two or more polypeptide subunits into a functional
 Protein. Example: haemoglobin has four subunits (two alpha and two beta chains). Each subunit has
-Its own tertiary structure, and the subunits interact to form the quaternary structure.
+its own tertiary structure, and the subunits interact to form the quaternary structure.
 
 **Worked Example: Effect of pH on protein structure.**
 
@@ -7432,7 +7214,7 @@ The ability of carbon to form four bonds allows the construction of an enormous 
 Molecules. For example, a chain of just 20 carbon atoms can be arranged in over 300,000 different
 Structural isomers. This diversity is the foundation of the complexity of biological molecules
 (proteins, nucleic acids, carbohydrates, and lipids), each with specific structures that determine
-Their functions.
+their functions.
 
 ## Review: Nucleic Acid Structure and Replication
 
@@ -7894,48 +7676,6 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
-## Overview
-
-This diagnostic assessment provides comprehensive coverage of Ap content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Additional Notes
 
 This content is regularly updated to reflect the latest specification changes and examination patterns. Check back for new practice questions and worked examples.
@@ -7945,69 +7685,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Chemistry of Life](/biology/1-chemistry-of-life/1_chemistry-of-life/):** The molecular foundations of biology, water, macromolecules, and enzymes.
 - **[Cell Structure](/biology/2-cell-structure-and-function/2_cell-structure-and-function/):** Prokaryotic vs eukaryotic cells, membrane transport, and organelles.
 - **[Cellular Energetics](/biology/3-cellular-energetics/3_cellular-energetics/):** Cellular respiration, photosynthesis, and enzyme kinetics.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 
 ## Advanced Content
@@ -8434,8 +8111,8 @@ to genes on different chromosomes.
 
 **Crossing over and recombination:** During Prophase I of meiosis, homologous chromosomes pair up
 And exchange segments at chiasmata. Crossing over can separate linked genes if it occurs between
-Them. The probability of crossing over between two genes is proportional to the distance between
-Them: genes that are farther apart are more likely to be separated by crossing over.
+them. The probability of crossing over between two genes is proportional to the distance between
+them: genes that are farther apart are more likely to be separated by crossing over.
 
 **Recombination frequency:** The percentage of offspring that are recombinant (have a non-parental
 Combination of alleles).
@@ -9038,22 +8715,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -9097,22 +8758,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -9190,22 +8835,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -9266,22 +8895,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -9325,22 +8938,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -10538,111 +10135,6 @@ Step 6: $1.92 < 3.84$, so we **fail to reject** the null hypothesis. The data ar
 - **[Chemistry of Life](/biology/1-chemistry-of-life/1_chemistry-of-life/):** Water, macromolecules, and enzyme fundamentals.
 - **[Cell Structure](/biology/2-cell-structure-and-function/2_cell-structure-and-function/):** Cell organelles, membrane transport, and surface-area-to-volume ratio.
 - **[Heredity](/biology/4-heredity/4_heredity/):** Mendelian genetics, Punnett squares, and chi-square tests.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 
 ## Advanced Content
@@ -12545,48 +12037,6 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
-## Overview
-
-This diagnostic assessment provides comprehensive coverage of Ap content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Additional Notes
 
 This content is regularly updated to reflect the latest specification changes and examination patterns. Check back for new practice questions and worked examples.
@@ -12596,69 +12046,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Atomic Structure](/chemistry/1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity/):** Quantum numbers, electron configurations, and periodic trends.
 - **[Bonding](/chemistry/2-bonding-and-intermolecular-forces/2_bonding-and-intermolecular-forces/):** Lewis structures, VSEPR theory, and intermolecular forces.
 - **[Stoichiometry](/chemistry/3-stoichiometry/3_stoichiometry/):** Moles, limiting reagents, and solution chemistry.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 
 ## Advanced Content
@@ -12741,22 +12128,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -12800,22 +12171,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -12893,22 +12248,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -12969,22 +12308,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -13028,22 +12351,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -14250,174 +13557,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Stoichiometry
@@ -15465,7 +14604,7 @@ $$
 $$
 
 Standard conditions: $1 \mathrm{ atm$, $298 \mathrm{ K$ ($25^\circ\mathrm{C$), pure substances in
-Their most stable form. By convention, $\Delta H_f^\circ = 0$ for elements in their standard state.
+their most stable form. By convention, $\Delta H_f^\circ = 0$ for elements in their standard state.
 
 The standard state of an element is its most stable form at $1 \mathrm{ atm$ and
 $25^\circ\mathrm{C$: e.g., $\mathrm{O_2(g)$ Not $\mathrm{O_3(g)$ or $\mathrm{O_2(l)$;
@@ -16410,7 +15549,7 @@ public static void insertionSort(int[] arr) {
 
 **Intuition.** Imagine sorting a hand of playing cards. You hold the first card in your left hand
 (sorted). You pick up the next card with your right hand and insert it into the correct position in
-Your left hand by shifting larger cards to the right.
+your left hand by shifting larger cards to the right.
 
 **Why insertion sort is $O(n^2)$ in the worst case.** If the array is in reverse order, each new
 Element must be shifted all the way to the front. The $i$-th element requires up to $i$ shifts, so
@@ -20310,48 +19449,6 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
-## Overview
-
-This diagnostic assessment provides comprehensive coverage of Ap content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Additional Notes
 
 This content is regularly updated to reflect the latest specification changes and examination patterns. Check back for new practice questions and worked examples.
@@ -20361,69 +19458,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking/):** Abstraction, decomposition, and pattern recognition.
 - **[Algorithms](/computer-science/3-algorithms-and-programming/3_algorithms-and-programming/):** Sorting, searching, and algorithm efficiency.
 - **[Data Analysis](/computer-science/4-data-analysis/4_data-analysis/):** Data processing, visualisation, and interpretation.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 
 ## Advanced Content
@@ -20506,21 +19540,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 ## See also
 
 - [AP Computer Science A](/ap-computer-science-a/)
@@ -20586,21 +19605,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 ## See also
 
 - [AP Computer Science A](/ap-computer-science-a/)
@@ -20666,21 +19670,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 ## See also
 
 - [AP Computer Science A](/ap-computer-science-a/)
@@ -20746,21 +19735,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 ## See also
 
 - [AP Computer Science A](/ap-computer-science-a/)
@@ -20826,21 +19800,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 ## See also
 
 - [AP Computer Science A](/ap-computer-science-a/)
@@ -21630,7 +20589,7 @@ Poor due to inconsistent packet arrival times.
 
 The Key Reinstallation Attack (KRACK) exploits a vulnerability in the 4-way handshake. By
 Manipulating and replaying handshake messages, an attacker can force the reuse of a nonce, allowing
-Them to decrypt packets and inject data.
+them to decrypt packets and inject data.
 
 **Mitigation:** Upgrade to WPA3, which uses Simultaneous Authentication of Equals (SAE) and is
 Immune to KRACK.
@@ -21997,174 +20956,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking/):** Abstraction, decomposition, and algorithm design.
 - **[Algorithms](/computer-science/3-algorithms-and-programming/3_algorithms-and-programming/):** Sorting, searching, and procedural abstraction.
 - **[Networks](/computer-science/5-networks-and-the-internet/5_networks-and-the-internet/):** DNS, TCP/IP, and internet protocols.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 
 ## Advanced Content
@@ -22771,48 +21562,6 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
-## Overview
-
-This diagnostic assessment provides comprehensive coverage of Ap content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Additional Notes
 
 This content is regularly updated to reflect the latest specification changes and examination patterns. Check back for new practice questions and worked examples.
@@ -22822,48 +21571,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Rhetorical Analysis](/english/1-rhetorical-analysis/1_rhetorical-analysis/):** Analysing how authors use language to persuade.
 - **[Argument](/english/2-argument/2_argument/):** Building and evaluating evidence-based arguments.
 - **[Synthesis](/english/3-synthesis/3_synthesis/):** Combining multiple sources into a coherent essay.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 
 ## Advanced Content
@@ -22946,22 +21653,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -23005,22 +21696,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -23098,22 +21773,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -23157,22 +21816,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -24037,48 +22680,6 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
-## Overview
-
-This diagnostic assessment provides comprehensive coverage of Ap content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Additional Notes
 
 This content is regularly updated to reflect the latest specification changes and examination patterns. Check back for new practice questions and worked examples.
@@ -24088,69 +22689,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Periods 1-2](/history/1-periods-1-2/1_period-1-2/):** Colonial era, Revolution, and the early Republic.
 - **[Periods 3-4](/history/2-periods-3-4/2_periods-3-4/):** Expansion, Civil War, and Reconstruction.
 - **[Period 5](/history/3-period-5/3_period-5/):** Industrialisation and the Gilded Age.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 
 ## Advanced Content
@@ -25570,174 +24108,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Periods 1-2](/history/1-periods-1-2/1_period-1-2/):** Colonial era, Revolution, and the early Republic.
 - **[Period 5](/history/3-period-5/3_period-5/):** Industrialisation, the Gilded Age, and the Progressive Era.
 - **[Period 7](/history/5-period-7/5_period-7/):** Cold War, civil rights, and modern America.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 
 ## Advanced Content
@@ -29559,7 +27929,7 @@ $$
 $$
 
 The term $\frac{Q}{V}$ is the current concentration in the tank, so $\frac{r_o}{V}Q$ is the rate at
-Which substance leaves.
+which substance leaves.
 :::
 
 :::note[Example]
@@ -33796,48 +32166,6 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
-## Overview
-
-This diagnostic assessment provides comprehensive coverage of Ap content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Additional Notes
 
 This content is regularly updated to reflect the latest specification changes and examination patterns. Check back for new practice questions and worked examples.
@@ -34634,22 +32962,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -34693,22 +33005,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -34786,22 +33082,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -34845,22 +33125,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -34938,22 +33202,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -34997,22 +33245,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -35090,22 +33322,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ---
 
 ## Index
@@ -35149,22 +33365,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 
 ## Overview
@@ -35800,7 +34000,7 @@ Downstream distance: $d = 3 \times 25 = 75 \mathrm{ m$.
 ### Crossing the River Perpendicular to the Bank
 
 To land directly across the river, the boat must angle upstream so that the downstream component of
-Its velocity relative to the water cancels the river current. If the boat has speed $v_b$ and the
+its velocity relative to the water cancels the river current. If the boat has speed $v_b$ and the
 River flows at $v_r$:
 
 $$
@@ -39928,7 +38128,7 @@ the contact point (instantaneously at rest).
 ### Pitfall 8: Forgetting Units in Moment of Inertia
 
 Moment of inertia has units of $\mathrm{kg\cdot\mathrm{m^2$. A common error is to use centimetres
-Instead of metres when calculating $I = mr^2$ Giving answers that are off by a factor of $10^4$.
+instead of metres when calculating $I = mr^2$ Giving answers that are off by a factor of $10^4$.
 Always convert to SI units before calculating.
 
 ## Additional Practice Problems
@@ -40965,7 +39165,7 @@ In horsepower: $735/746 = 0.985 \mathrm{ hp$.
 
 A block of mass $m$ starts from rest at height $h$ on a frictionless track and enters a circular
 Loop of radius $R$. What is the minimum value of $h$ for the block to complete the loop? Express
-Your answer in terms of $R$.
+your answer in terms of $R$.
 
 </details>
 
@@ -41097,48 +39297,6 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
-## Overview
-
-This diagnostic assessment provides comprehensive coverage of Ap content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
-
-## Content Structure
-
-This page includes:
-
-- **Key Definitions**: Precise explanations of essential concepts
-- **Core Concepts**: Detailed treatment of fundamental principles
-- **Worked Examples**: Step-by-step solutions demonstrating application
-- **Practice Questions**: Examination-style questions with mark schemes
-- **Common Pitfalls**: Frequent errors and how to avoid them
-- **Exam Tips**: Strategies for maximising marks
-
-## How to Use This Content
-
-1. Read through the introductory material to establish context
-2. Study the definitions and core concepts carefully
-3. Work through the worked examples, following each step
-4. Attempt the practice questions independently
-5. Review your answers against the provided solutions
-6. Note any areas requiring further revision
-
-## Key Concepts
-
-- Foundational definitions and terminology
-- Application of principles to examination contexts
-- Connections to related topics within the specification
-- Assessment objective alignment
-
-## Revision Strategies
-
-- **Active Recall**: Test yourself on the material rather than passively re-reading
-- **Spaced Repetition**: Review this content at increasing intervals
-- **Interleaving**: Mix this topic with others during study sessions
-- **Elaborative Interrogation**: Ask yourself why each concept works
-
-## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Additional Notes
 
 This content is regularly updated to reflect the latest specification changes and examination patterns. Check back for new practice questions and worked examples.
@@ -41148,69 +39306,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Exploring Data](/statistics/1-exploring-data/1_exploring-data/):** Descriptive statistics, distributions, and graphical displays.
 - **[Probability](/statistics/3-probability/3_probability/):** Random variables, distributions, and the Central Limit Theorem.
 - **[Statistical Inference](/statistics/4-statistical-inference/4_statistical-inference/):** Confidence intervals, hypothesis tests, and significance.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 
 ## Advanced Content

@@ -65,18 +65,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -130,7 +118,7 @@ Reference models are not academic exercises. They provide:
 The end-to-end principle (RFC 8890, originally articulated by Saltzer, Reed, and Clark in 1984) is
 Arguably the most important design principle of the Internet. It states that functions placed at the
 Lower levels of a system may be redundant or of little value when compared to the cost of providing
-Them at the higher levels.
+them at the higher levels.
 
 In practical terms: reliability, security, and ordering should be implemented at the endpoints (the
 Application), not in the network. The network"s job is to deliver packets as quickly and efficiently
@@ -841,7 +829,7 @@ into multiple broadcast domains. Routers separate broadcast domains entirely.
 ### VLANs and Layer 2 Segmentation
 
 VLANs (Virtual LANs, IEEE 802.1Q) divide a physical switch into multiple logical switches, each with
-Its own broadcast domain. VLANs add a 4-byte tag to the Ethernet frame:
+its own broadcast domain. VLANs add a 4-byte tag to the Ethernet frame:
 
 ```
 +-------------------+---------+-------------------+
@@ -2857,18 +2845,6 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
 
 ## Study Tips
 
@@ -8241,7 +8217,7 @@ Values in a way that leaks information.
 ### Server Push
 
 HTTP/2 allows the server to proactively send resources to the client before the client requests
-Them. The server sends a PUSH_PROMISE frame that includes the request headers for the pushed
+them. The server sends a PUSH_PROMISE frame that includes the request headers for the pushed
 Resource. The client can reject pushed resources with a RST_STREAM frame.
 
 ```
@@ -8359,7 +8335,7 @@ because HTTP/1.1's multiple TCP connections provide independent loss recovery.
 ### Overview
 
 HTTP/3 (RFC 9114) replaces TCP with QUIC as the transport layer. QUIC runs over UDP and implements
-Its own reliability, congestion control, and flow control. The key advantage: QUIC handles loss
+its own reliability, congestion control, and flow control. The key advantage: QUIC handles loss
 Recovery per-stream, so a lost packet on one stream does not block other streams.
 
 ### QUIC as Transport
@@ -9103,18 +9079,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -9634,7 +9598,7 @@ Unlimited messages, which can overwhelm the server if not rate-limited.
 ### Redis Pub/Sub
 
 When running multiple backend instances, messages must be broadcast to all relevant connections
-Regardless of which backend holds the connection. Redis pub/sub provides the message distribution
+regardless of which backend holds the connection. Redis pub/sub provides the message distribution
 Backbone.
 
 ```
@@ -10041,7 +10005,7 @@ URL: https://networking.wyattau.com/06-tls/tls/
 Transport Layer Security (TLS) provides encryption, authentication, and integrity for data
 Transmitted over a network. TLS is the successor to Secure Sockets Layer (SSL), which was developed
 by Netscape in the mid-1990s. SSL 3.0 (1996) was the last SSL version; TLS 1.0 (1999, RFC 2246) was
-Its successor. All SSL versions are now considered insecure and deprecated.
+its successor. All SSL versions are now considered insecure and deprecated.
 
 TLS operates between the transport layer and the application layer, encrypting application data
 (HTTP, SMTP, IMAP, etc.) before it is sent over the network.
@@ -14028,18 +13992,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -14812,7 +14764,7 @@ Countermeasures:
 An MTU mismatch between two devices on the same path causes black holes for large packets. If a
 Switch is configured with an MTU of 9000 (jumbo frames) but the endpoint is at 1500, the endpoint
 Sends packets that the switch can forward, but intermediate devices with 1500-byte MTU may drop
-Them. If ICMP is blocked, Path MTU Discovery fails and the connection stalls.
+them. If ICMP is blocked, Path MTU Discovery fails and the connection stalls.
 
 ### VLAN 1 as Native VLAN
 
@@ -15176,18 +15128,6 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
 
 ## Study Tips
 
@@ -17518,18 +17458,6 @@ This section provides comprehensive study materials and resources. Content is or
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
@@ -17631,52 +17559,6 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Networking](./)
 - [BGP and Routing Protocols](/bgp-and-routing-protocols/)
 - [Complete Computer Networking Study Guide](/hub/)
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 
 ## Detailed Content
@@ -17854,7 +17736,7 @@ A summary route (or aggregate route) represents multiple more-specific routes wi
 This reduces the size of the routing table.
 
 For example, if you have 10.1.0.0/24, 10.1.1.0/24, 10.1.2.0/24, and 10.1.3.0/24, you can summarize
-Them as 10.1.0.0/22:
+them as 10.1.0.0/22:
 
 ```
 ip route 10.1.0.0 255.255.252.0 10.0.0.2

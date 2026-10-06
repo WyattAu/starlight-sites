@@ -498,10 +498,6 @@ flowchart TD
 
 Democracy is like a house with many rooms -- economic stability, institutional trust, and leadership are all load-bearing walls. When the economy crumbles (Weimar hyperinflation, the Great Depression), the other walls must hold. The USA survived because its constitutional framework, democratic traditions, and Roosevelt's leadership provided redundancy. Weimar failed because its proportional representation fragmented parliament while Article 48 gave the executive authoritarian powers, creating a structural trap. Spain lacked the democratic traditions and middle-class consensus needed to absorb shocks. The key insight is that democracy is not a default state -- it requires active maintenance through institutions, leadership, and economic foundations.
 
-## Intuition
-
-Democracy is like a house with many rooms -- economic stability, institutional trust, and leadership are all load-bearing walls. When the economy crumbles (Weimar hyperinflation, the Great Depression), the other walls must hold. The USA survived because its constitutional framework, democratic traditions, and Roosevelt's leadership provided redundancy. Weimar failed because its proportional representation fragmented parliament while Article 48 gave the executive authoritarian powers, creating a structural trap. Spain lacked the democratic traditions and middle-class consensus needed to absorb shocks. The key insight is that democracy is not a default state -- it requires active maintenance through institutions, leadership, and economic foundations.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
