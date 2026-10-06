@@ -355,7 +355,7 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{M}^{y+}]^x[\mathrm{A}^{x-}]^y
+K_{sp} = [\mathrm{M}^{y+}]^x[\mathrm{A}^{x-}]^y
 $$
 
 $K_{sp}$ is the equilibrium constant for the dissolution of a solid. It is temperature-dependent.
@@ -383,7 +383,7 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s^2
+K_{sp} = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s^2
 $$
 
 $$
@@ -403,7 +403,7 @@ Adding a common ion **decreases** the solubility of a sparingly soluble salt.
 Calculate the solubility of $\mathrm{AgCl}$ in $0.10\mathrm{ M}$ $\mathrm{NaCl}$.
 
 $$
-K_`\{sp}` = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s \times 0.10
+K_{sp} = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s \times 0.10
 $$
 
 $$

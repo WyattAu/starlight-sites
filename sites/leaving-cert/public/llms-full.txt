@@ -18300,7 +18300,7 @@ $$
 $$
 
 $$
-= \left(\frac\{\sqrt\{2\}\}\{2\} + \frac\{\sqrt\{2\}\}\{2\} - 0 - 1\right) + \left(0 - 1 + \frac\{\sqrt\{2\}\}\{2\} + \frac\{\sqrt\{2\}\}\{2\}\right)
+= \left(\frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2} - 0 - 1\right) + \left(0 - 1 + \frac{\sqrt{2}}{2} + \frac{\sqrt{2}}{2}\right)
 $$
 
 $$

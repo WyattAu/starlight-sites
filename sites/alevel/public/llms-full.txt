@@ -178778,13 +178778,13 @@ This gives an equation in $x$ that can often be solved algebraically.
 **Example.** Solve $3^{2x+1} = 5^{x-2}$.
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 (2x+1)\ln 3 &= (x-2)\ln 5 \\
 2x\ln 3 + \ln 3 &= x\ln 5 - 2\ln 5 \\
 2x\ln 3 - x\ln 5 &= -2\ln 5 - \ln 3 \\
 X(2\ln 3 - \ln 5) &= -(2\ln 5 + \ln 3) \\
-X &= \frac\{2\ln 5 + \ln 3\}\{\ln 5 - 2\ln 3\}
-\end\{aligned\}
+X &= \frac{2\ln 5 + \ln 3}{\ln 5 - 2\ln 3}
+\end{aligned}
 $$
 
 ### 7.3 Equations reducible to quadratic form
@@ -194545,9 +194545,9 @@ $a(x - p)^2 + q$ for some $p, q \in \mathbb{R}$.
 _Proof._ Factor out $a$ from the first two terms:
 
 $$
-\begin\{aligned\}
-Ax^2 + bx + c &= a\left(x^2 + \frac\{b\}\{a\}x\right) + c
-\end\{aligned\}
+\begin{aligned}
+Ax^2 + bx + c &= a\left(x^2 + \frac{b}{a}x\right) + c
+\end{aligned}
 $$
 
 We seek to express $x^2 + \frac{b}{a}x$ as a perfect square plus a constant. Recall that:
@@ -194559,19 +194559,19 @@ $$
 We need $2d = \frac{b}{a}$ So $d = \frac{b}{2a}$. Then:
 
 $$
-\begin\{aligned\}
-X^2 + \frac\{b\}\{a\}x &= \left(x + \frac\{b\}\{2a\}\right)^2 - \frac\{b^2\}\{4a^2\}
-\end\{aligned\}
+\begin{aligned}
+X^2 + \frac{b}{a}x &= \left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a^2}
+\end{aligned}
 $$
 
 Substituting back:
 
 $$
-\begin\{aligned\}
-Ax^2 + bx + c &= a\left[\left(x + \frac\{b\}\{2a\}\right)^2 - \frac\{b^2\}\{4a^2\}\right] + c \\
-&= a\left(x + \frac\{b\}\{2a\}\right)^2 - \frac\{b^2\}\{4a\} + c \\
-&= a\left(x + \frac\{b\}\{2a\}\right)^2 + \frac\{4ac - b^2\}\{4a\}
-\end\{aligned\}
+\begin{aligned}
+Ax^2 + bx + c &= a\left[\left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a^2}\right] + c \\
+&= a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a} + c \\
+&= a\left(x + \frac{b}{2a}\right)^2 + \frac{4ac - b^2}{4a}
+\end{aligned}
 $$
 
 Setting $p = -\frac{b}{2a}$ and $q = \frac{4ac - b^2}{4a}$ We have $ax^2 + bx + c = a(x - p)^2 + q$.
@@ -194592,12 +194592,12 @@ $$
 Write $2x^2 - 12x + 22$ in completed square form.
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 2x^2 - 12x + 22 &= 2(x^2 - 6x) + 22 \\
 &= 2\left[(x - 3)^2 - 9\right] + 22 \\
 &= 2(x - 3)^2 - 18 + 22 \\
 &= 2(x - 3)^2 + 4
-\end\{aligned\}
+\end{aligned}
 $$
 
 The vertex is $(3, 4)$ And since the coefficient of $(x-3)^2$ is positive, the minimum value is $4$.
@@ -194617,15 +194617,15 @@ $$
 _Proof._ We derive this by completing the square on $ax^2 + bx + c = 0$.
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 Ax^2 + bx + c &= 0 \\
-X^2 + \frac\{b\}\{a\}x &= -\frac\{c\}\{a\} \\
-\left(x + \frac\{b\}\{2a\}\right)^2 - \frac\{b^2\}\{4a^2\} &= -\frac\{c\}\{a\} \\
-\left(x + \frac\{b\}\{2a\}\right)^2 &= \frac\{b^2\}\{4a^2\} - \frac\{c\}\{a\} \\
-\left(x + \frac\{b\}\{2a\}\right)^2 &= \frac\{b^2 - 4ac\}\{4a^2\} \\
-X + \frac\{b\}\{2a\} &= \pm\frac\{\sqrt\{b^2 - 4ac\}\}\{2a\} \\
-X &= \frac\{-b \pm \sqrt\{b^2 - 4ac\}\}\{2a\} \quad \blacksquare
-\end\{aligned\}
+X^2 + \frac{b}{a}x &= -\frac{c}{a} \\
+\left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a^2} &= -\frac{c}{a} \\
+\left(x + \frac{b}{2a}\right)^2 &= \frac{b^2}{4a^2} - \frac{c}{a} \\
+\left(x + \frac{b}{2a}\right)^2 &= \frac{b^2 - 4ac}{4a^2} \\
+X + \frac{b}{2a} &= \pm\frac{\sqrt{b^2 - 4ac}}{2a} \\
+X &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \quad \blacksquare
+\end{aligned}
 $$
 
 _Intuition._ The quadratic formula is nothing more than completing the square in fully symbolic
@@ -194675,11 +194675,11 @@ $x = \frac{-b \pm \sqrt{\Delta}}{2a}$.
 Find the set of values of $k$ for which $x^2 + 4x + k = 0$ has two distinct real roots.
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 \Delta &= 16 - 4k > 0 \\
 16 - 4k &> 0 \\
 K &< 4
-\end\{aligned\}
+\end{aligned}
 $$
 
 </details>
@@ -194826,13 +194826,13 @@ $$
 Solve $\frac{x + 1}{x - 2} \leq 3$.
 
 $$
-\begin\{aligned\}
-\frac\{x + 1\}\{x - 2\} - 3 &\leq 0 \\
-\frac\{x + 1 - 3(x - 2)\}\{x - 2\} &\leq 0 \\
-\frac\{x + 1 - 3x + 6\}\{x - 2\} &\leq 0 \\
-\frac\{-2x + 7\}\{x - 2\} &\leq 0 \\
-\frac\{2x - 7\}\{x - 2\} &\geq 0
-\end\{aligned\}
+\begin{aligned}
+\frac{x + 1}{x - 2} - 3 &\leq 0 \\
+\frac{x + 1 - 3(x - 2)}{x - 2} &\leq 0 \\
+\frac{x + 1 - 3x + 6}{x - 2} &\leq 0 \\
+\frac{-2x + 7}{x - 2} &\leq 0 \\
+\frac{2x - 7}{x - 2} &\geq 0
+\end{aligned}
 $$
 
 Critical values: $x = \frac{7}{2}$ (numerator zero) and $x = 2$ (denominator zero, undefined).
@@ -194914,19 +194914,19 @@ into the quadratic.
 **Example.** Solve simultaneously:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 Y &= 2x + 1 \\
 Y &= x^2 + x - 3
-\end\{aligned\}
+\end{aligned}
 $$
 
 Setting them equal:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 2x + 1 &= x^2 + x - 3 \\
 X^2 - x - 4 &= 0
-\end\{aligned\}
+\end{aligned}
 $$
 
 $$
@@ -195266,12 +195266,12 @@ and the value of $x$ at which it occurs.
 <details>
 <summary>Solution</summary>
 $$
-\begin\{aligned\}
+\begin{aligned}
 3x^2 - 12x + 7 &= 3(x^2 - 4x) + 7 \\
 &= 3\left[(x - 2)^2 - 4\right] + 7 \\
 &= 3(x - 2)^2 - 12 + 7 \\
 &= 3(x - 2)^2 - 5
-\end\{aligned\}
+\end{aligned}
 $$
 
 Minimum value is $-5$ Occurring at $x = 2$.
@@ -195286,9 +195286,9 @@ Minimum value is $-5$ Occurring at $x = 2$.
 <details>
 <summary>Solution</summary>
 $$
-\begin\{aligned\}
-X &= \frac\{-5 \pm \sqrt\{25 + 32\}\}\{4\} = \frac\{-5 \pm \sqrt\{57\}\}\{4\}
-\end\{aligned\}
+\begin{aligned}
+X &= \frac{-5 \pm \sqrt{25 + 32}}{4} = \frac{-5 \pm \sqrt{57}}{4}
+\end{aligned}
 $$
 </details>
 <b>If you get this wrong, revise:</b> [Quadratic formula](#3-the-quadratic-formula)
@@ -195302,10 +195302,10 @@ $$
 We need $\Delta \geq 0$:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 36 - 16k &\geq 0 \\
-K &\leq \frac\{36\}\{16\} = \frac\{9\}\{4\}
-\end\{aligned\}
+K &\leq \frac{36}{16} = \frac{9}{4}
+\end{aligned}
 $$
 
 Note: $k \neq 0$ (otherwise it's not quadratic). If $k = 0$ The equation $-6x + 4 = 0$ still has a
@@ -195343,12 +195343,12 @@ In set notation: $x \in (-\infty, -2) \cup (5, \infty)$.
 Substitute $y = x - 1$ into $x^2 + (x-1)^2 = 13$:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 X^2 + x^2 - 2x + 1 &= 13 \\
 2x^2 - 2x - 12 &= 0 \\
 X^2 - x - 6 &= 0 \\
 (x - 3)(x + 2) &= 0
-\end\{aligned\}
+\end{aligned}
 $$
 
 $x = 3$: $y = 2$. Point: $(3, 2)$.
@@ -195370,11 +195370,11 @@ In completed square form: $f(x) = p(x - 2)^2 - 5$.
 Since $f(0) = 7$:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 P(0 - 2)^2 - 5 &= 7 \\
 4p &= 12 \\
 P &= 3
-\end\{aligned\}
+\end{aligned}
 $$
 
 So $f(x) = 3(x - 2)^2 - 5 = 3(x^2 - 4x + 4) - 5 = 3x^2 - 12x + 7$.
@@ -195451,11 +195451,11 @@ Value of $k$.
 <details>
 <summary>Solution</summary>
 $$
-\begin\{aligned\}
+\begin{aligned}
 \Delta &= (2k)^2 - 4(1)(k^2 + 1) \\
 &= 4k^2 - 4k^2 - 4 \\
 &= -4 < 0
-\end\{aligned\}
+\end{aligned}
 $$
 
 Since $\Delta = -4 < 0$ for all $k \in \mathbb{R}$ There are no real roots. $\blacksquare$
@@ -198755,10 +198755,10 @@ $$
 _Proof._
 
 $$
-\begin\{aligned\}
-\tan(A + B) &= \frac\{\sin(A + B)\}\{\cos(A + B)\} \\
-&= \frac\{\sin A \cos B + \cos A \sin B\}\{\cos A \cos B - \sin A \sin B\}
-\end\{aligned\}
+\begin{aligned}
+\tan(A + B) &= \frac{\sin(A + B)}{\cos(A + B)} \\
+&= \frac{\sin A \cos B + \cos A \sin B}{\cos A \cos B - \sin A \sin B}
+\end{aligned}
 $$
 
 Divide numerator and denominator by $\cos A \cos B$:
@@ -198772,11 +198772,11 @@ $$
 **Theorem.**
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 \sin(A - B) &= \sin A \cos B - \cos A \sin B \\
 \cos(A - B) &= \cos A \cos B + \sin A \sin B \\
-\tan(A - B) &= \frac\{\tan A - \tan B\}\{1 + \tan A \tan B\}
-\end\{aligned\}
+\tan(A - B) &= \frac{\tan A - \tan B}{1 + \tan A \tan B}
+\end{aligned}
 $$
 
 _Proof._ Replace $B$ with $-B$ in the sum formulas, using $\sin(-B) = -\sin B$ and
@@ -198789,11 +198789,11 @@ $\cos(-B) = \cos B$. $\blacksquare$
 Setting $A = B$ in the compound angle formulas:
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 \sin 2A &= 2\sin A \cos A \\
 \cos 2A &= \cos^2 A - \sin^2 A \\
-\tan 2A &= \frac\{2\tan A\}\{1 - \tan^2 A\}
-\end\{aligned\}
+\tan 2A &= \frac{2\tan A}{1 - \tan^2 A}
+\end{aligned}
 $$
 
 **Theorem.** Three equivalent forms of $\cos 2A$:
@@ -198827,11 +198827,11 @@ Integration.
 ### 5.2 Key Solutions
 
 $$
-\begin\{aligned\}
-\sin\theta = a &\implies \theta = \arcsin(a) + 2n\pi \mathrm\{ or \} \pi - \arcsin(a) + 2n\pi \\
+\begin{aligned}
+\sin\theta = a &\implies \theta = \arcsin(a) + 2n\pi \mathrm{ or } \pi - \arcsin(a) + 2n\pi \\
 \cos\theta = a &\implies \theta = \pm\arccos(a) + 2n\pi \\
 \tan\theta = a &\implies \theta = \arctan(a) + n\pi
-\end\{aligned\}
+\end{aligned}
 $$
 
 <details>
@@ -198872,11 +198872,11 @@ Solutions: $\theta = 0, \frac{\pi}{3}, \frac{5\pi}{3}$.
 **Theorem.** For small $\theta$ (in radians):
 
 $$
-\begin\{aligned\}
-\sin\theta &\approx \theta - \frac\{\theta^3\}\{6\} \\
-\cos\theta &\approx 1 - \frac\{\theta^2\}\{2\} \\
-\tan\theta &\approx \theta + \frac\{\theta^3\}\{3\}
-\end\{aligned\}
+\begin{aligned}
+\sin\theta &\approx \theta - \frac{\theta^3}{6} \\
+\cos\theta &\approx 1 - \frac{\theta^2}{2} \\
+\tan\theta &\approx \theta + \frac{\theta^3}{3}
+\end{aligned}
 $$
 
 These follow from the Maclaurin series expansions (see [Differentiation](/maths/pure-mathematics/10-differentiation/)).
@@ -199139,12 +199139,12 @@ Bottom by the conjugate $a \mp b$ to produce a difference of squares.
 Prove that $\cot A + \tan A = \dfrac{2}{\sin 2A}$.
 
 $$
-\begin\{aligned\}
-\cot A + \tan A &= \frac\{\cos A\}\{\sin A\} + \frac\{\sin A\}\{\cos A\} \\
-&= \frac\{\cos^2 A + \sin^2 A\}\{\sin A \cos A\} \\
-&= \frac\{1\}\{\sin A \cos A\} \\
-&= \frac\{2\}\{2\sin A \cos A\} = \frac\{2\}\{\sin 2A\} \quad \blacksquare
-\end\{aligned\}
+\begin{aligned}
+\cot A + \tan A &= \frac{\cos A}{\sin A} + \frac{\sin A}{\cos A} \\
+&= \frac{\cos^2 A + \sin^2 A}{\sin A \cos A} \\
+&= \frac{1}{\sin A \cos A} \\
+&= \frac{2}{2\sin A \cos A} = \frac{2}{\sin 2A} \quad \blacksquare
+\end{aligned}
 $$
 
 </details>
@@ -199154,14 +199154,14 @@ $$
 Prove that $\sin 3A = 3\sin A - 4\sin^3 A$.
 
 $$
-\begin\{aligned\}
+\begin{aligned}
 \sin 3A &= \sin(2A + A) \\
 &= \sin 2A \cos A + \cos 2A \sin A \\
 &= 2\sin A \cos^2 A + (1 - 2\sin^2 A)\sin A \\
 &= 2\sin A(1 - \sin^2 A) + \sin A - 2\sin^3 A \\
 &= 2\sin A - 2\sin^3 A + \sin A - 2\sin^3 A \\
 &= 3\sin A - 4\sin^3 A \quad \blacksquare
-\end\{aligned\}
+\end{aligned}
 $$
 
 </details>
@@ -199173,13 +199173,13 @@ Prove that $\dfrac{1}{\sec A + \tan A} = \sec A - \tan A$.
 Multiply numerator and denominator by $\sec A - \tan A$:
 
 $$
-\begin\{aligned\}
-\frac\{1\}\{\sec A + \tan A\} \cdot \frac\{\sec A - \tan A\}\{\sec A - \tan A\}
-&= \frac\{\sec A - \tan A\}\{\sec^2 A - \tan^2 A\} \\
-&= \frac\{\sec A - \tan A\}\{1 + \tan^2 A - \tan^2 A\} \\
-&= \frac\{\sec A - \tan A\}\{1\} \\
+\begin{aligned}
+\frac{1}{\sec A + \tan A} \cdot \frac{\sec A - \tan A}{\sec A - \tan A}
+&= \frac{\sec A - \tan A}{\sec^2 A - \tan^2 A} \\
+&= \frac{\sec A - \tan A}{1 + \tan^2 A - \tan^2 A} \\
+&= \frac{\sec A - \tan A}{1} \\
 &= \sec A - \tan A \quad \blacksquare
-\end\{aligned\}
+\end{aligned}
 $$
 
 Where we used $\sec^2 A = 1 + \tan^2 A$ so that $\sec^2 A - \tan^2 A = 1$.
@@ -199193,13 +199193,13 @@ Prove that $\dfrac{\cos 2A}{1 + \sin 2A} = \dfrac{\cos A - \sin A}{\cos A + \sin
 Working from the LHS:
 
 $$
-\begin\{aligned\}
-\frac\{\cos 2A\}\{1 + \sin 2A\}
-&= \frac\{\cos^2 A - \sin^2 A\}\{1 + 2\sin A \cos A\} \\
-&= \frac\{(\cos A - \sin A)(\cos A + \sin A)\}\{\cos^2 A + 2\sin A\cos A + \sin^2 A\} \\
-&= \frac\{(\cos A - \sin A)(\cos A + \sin A)\}\{(\cos A + \sin A)^2\} \\
-&= \frac\{\cos A - \sin A\}\{\cos A + \sin A\} \quad \blacksquare
-\end\{aligned\}
+\begin{aligned}
+\frac{\cos 2A}{1 + \sin 2A}
+&= \frac{\cos^2 A - \sin^2 A}{1 + 2\sin A \cos A} \\
+&= \frac{(\cos A - \sin A)(\cos A + \sin A)}{\cos^2 A + 2\sin A\cos A + \sin^2 A} \\
+&= \frac{(\cos A - \sin A)(\cos A + \sin A)}{(\cos A + \sin A)^2} \\
+&= \frac{\cos A - \sin A}{\cos A + \sin A} \quad \blacksquare
+\end{aligned}
 $$
 
 </details>
@@ -199259,11 +199259,11 @@ $y = 2\sin\!\left(-\frac{\pi}{3}\right) = -\sqrt{3} \approx -1.73$. </details> <
 <details>
 <summary>Solution</summary>
 $$
-\begin\{aligned\}
-\frac\{\sin 2\theta\}\{1 + \cos 2\theta\} &= \frac\{2\sin\theta\cos\theta\}\{1 + (2\cos^2\theta - 1)\} \\
-&= \frac\{2\sin\theta\cos\theta\}\{2\cos^2\theta\} \\
-&= \frac\{\sin\theta\}\{\cos\theta\} = \tan\theta \quad \blacksquare
-\end\{aligned\}
+\begin{aligned}
+\frac{\sin 2\theta}{1 + \cos 2\theta} &= \frac{2\sin\theta\cos\theta}{1 + (2\cos^2\theta - 1)} \\
+&= \frac{2\sin\theta\cos\theta}{2\cos^2\theta} \\
+&= \frac{\sin\theta}{\cos\theta} = \tan\theta \quad \blacksquare
+\end{aligned}
 $$
 </details>
 <b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)
@@ -199341,11 +199341,11 @@ $$
 <details>
 <summary>Solution</summary>
 $$
-\begin\{aligned\}
-\frac\{1 - \cos 2\theta\}\{\sin 2\theta\} &= \frac\{1 - (1 - 2\sin^2\theta)\}\{2\sin\theta\cos\theta\} \\
-&= \frac\{2\sin^2\theta\}\{2\sin\theta\cos\theta\} \\
-&= \frac\{\sin\theta\}\{\cos\theta\} = \tan\theta \quad \blacksquare
-\end\{aligned\}
+\begin{aligned}
+\frac{1 - \cos 2\theta}{\sin 2\theta} &= \frac{1 - (1 - 2\sin^2\theta)}{2\sin\theta\cos\theta} \\
+&= \frac{2\sin^2\theta}{2\sin\theta\cos\theta} \\
+&= \frac{\sin\theta}{\cos\theta} = \tan\theta \quad \blacksquare
+\end{aligned}
 $$
 </details>
 <b>If you get this wrong, revise:</b> [Double angle formulas](#4-double-angle-formulas)
@@ -199420,13 +199420,13 @@ $\dfrac{1 + \sin 2A}{\cos 2A} = \tan\!\left(A + \dfrac{\pi}{4}\right)$.
 Working from the LHS:
 
 $$
-\begin\{aligned\}
-\frac\{1 + \sin 2A\}\{\cos 2A\}
-&= \frac\{1 + 2\sin A \cos A\}\{\cos^2 A - \sin^2 A\} \\
-&= \frac\{\sin^2 A + 2\sin A \cos A + \cos^2 A\}\{(\cos A - \sin A)(\cos A + \sin A)\} \\
-&= \frac\{(\sin A + \cos A)^2\}\{(\cos A - \sin A)(\cos A + \sin A)\} \\
-&= \frac\{\sin A + \cos A\}\{\cos A - \sin A\}
-\end\{aligned\}
+\begin{aligned}
+\frac{1 + \sin 2A}{\cos 2A}
+&= \frac{1 + 2\sin A \cos A}{\cos^2 A - \sin^2 A} \\
+&= \frac{\sin^2 A + 2\sin A \cos A + \cos^2 A}{(\cos A - \sin A)(\cos A + \sin A)} \\
+&= \frac{(\sin A + \cos A)^2}{(\cos A - \sin A)(\cos A + \sin A)} \\
+&= \frac{\sin A + \cos A}{\cos A - \sin A}
+\end{aligned}
 $$
 
 Dividing numerator and denominator by $\cos A$:
@@ -199530,14 +199530,14 @@ $\dfrac{\sin 3A}{\sin A} - \dfrac{\cos 3A}{\cos A} = 2$.
 <details>
 <summary>Solution</summary>
 $$
-\begin\{aligned\}
-\frac\{\sin 3A\}\{\sin A\} - \frac\{\cos 3A\}\{\cos A\}
-&= \frac\{\sin 3A \cos A - \cos 3A \sin A\}\{\sin A \cos A\} \\
-&= \frac\{\sin(3A - A)\}\{\sin A \cos A\} \\
-&= \frac\{\sin 2A\}\{\sin A \cos A\} \\
-&= \frac\{2\sin A \cos A\}\{\sin A \cos A\} \\
+\begin{aligned}
+\frac{\sin 3A}{\sin A} - \frac{\cos 3A}{\cos A}
+&= \frac{\sin 3A \cos A - \cos 3A \sin A}{\sin A \cos A} \\
+&= \frac{\sin(3A - A)}{\sin A \cos A} \\
+&= \frac{\sin 2A}{\sin A \cos A} \\
+&= \frac{2\sin A \cos A}{\sin A \cos A} \\
 &= 2 \quad \blacksquare
-\end\{aligned\}
+\end{aligned}
 $$
 
 </details>
@@ -199587,15 +199587,15 @@ Solutions: $\theta = \frac{\pi}{2}$ or $\theta = \frac{11\pi}{6}$.
 Using $\sec^2 A = 1 + \tan^2 A$:
 
 $$
-\begin\{aligned\}
-\frac\{1 - \tan^2 A\}\{1 + \tan^2 A\}
-&= \frac\{1 - \tan^2 A\}\{\sec^2 A\} \\
+\begin{aligned}
+\frac{1 - \tan^2 A}{1 + \tan^2 A}
+&= \frac{1 - \tan^2 A}{\sec^2 A} \\
 &= (1 - \tan^2 A)\cos^2 A \\
 &= \cos^2 A - \tan^2 A \cos^2 A \\
-&= \cos^2 A - \frac\{\sin^2 A\}\{\cos^2 A\} \cdot \cos^2 A \\
+&= \cos^2 A - \frac{\sin^2 A}{\cos^2 A} \cdot \cos^2 A \\
 &= \cos^2 A - \sin^2 A \\
 &= \cos 2A \quad \blacksquare
-\end\{aligned\}
+\end{aligned}
 $$
 
 </details>
@@ -222555,13 +222555,13 @@ We eliminate $t$ between Equations 1 and 3. From Equation 1: $t = \frac{v - u}{a
 into Equation 3:
 
 $$
-\begin\{aligned\}
-S &= u\left(\frac\{v - u\}\{a\}\right) + \frac\{1\}\{2\}a\left(\frac\{v - u\}\{a\}\right)^2 \\[4pt]
-S &= \frac\{u(v - u)\}\{a\} + \frac\{(v - u)^2\}\{2a\} \\[4pt]
+\begin{aligned}
+S &= u\left(\frac{v - u}{a}\right) + \frac{1}{2}a\left(\frac{v - u}{a}\right)^2 \\[4pt]
+S &= \frac{u(v - u)}{a} + \frac{(v - u)^2}{2a} \\[4pt]
 2as &= 2u(v - u) + (v - u)^2 \\[4pt]
 2as &= 2uv - 2u^2 + v^2 - 2uv + u^2 \\[4pt]
 2as &= v^2 - u^2
-\end\{aligned\}
+\end{aligned}
 $$
 
 $$
@@ -222699,10 +222699,10 @@ $$
 Substituting $t$ from the horizontal equation:
 
 $$
-\begin\{aligned\}
-Y &= v_0\sin\theta \left(\frac\{x\}\{v_0\cos\theta\}\right) - \frac\{1\}\{2\}g\left(\frac\{x\}\{v_0\cos\theta\}\right)^2 \\[4pt]
-Y &= x\tan\theta - \frac\{gx^2\}\{2v_0^2\cos^2\theta\}
-\end\{aligned\}
+\begin{aligned}
+Y &= v_0\sin\theta \left(\frac{x}{v_0\cos\theta}\right) - \frac{1}{2}g\left(\frac{x}{v_0\cos\theta}\right)^2 \\[4pt]
+Y &= x\tan\theta - \frac{gx^2}{2v_0^2\cos^2\theta}
+\end{aligned}
 $$
 
 This is the equation of a **parabola**, a direct consequence of constant horizontal velocity

@@ -28022,7 +28022,7 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{M}^{y+}]^x[\mathrm{A}^{x-}]^y
+K_{sp} = [\mathrm{M}^{y+}]^x[\mathrm{A}^{x-}]^y
 $$
 
 $K_{sp}$ is the equilibrium constant for the dissolution of a solid. It is temperature-dependent.
@@ -28050,7 +28050,7 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s^2
+K_{sp} = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s^2
 $$
 
 $$
@@ -28070,7 +28070,7 @@ Adding a common ion **decreases** the solubility of a sparingly soluble salt.
 Calculate the solubility of $\mathrm{AgCl}$ in $0.10\mathrm{ M}$ $\mathrm{NaCl}$.
 
 $$
-K_`\{sp}` = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s \times 0.10
+K_{sp} = [\mathrm{Ag}^+][\mathrm{Cl}^-] = s \times 0.10
 $$
 
 $$
@@ -39553,7 +39553,7 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b
+K_{sp} = [\mathrm{M}^{b+}]^a[\mathrm{X}^{a-}]^b
 $$
 
 ### Common $K_{sp}$ Values
@@ -39931,7 +39931,7 @@ $$
 $$
 
 $$
-K_`\{sp}` = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = (1.4 \times 10^{-3})(2.8 \times 10^{-3})^2 = (1.4 \times 10^{-3})(7.84 \times 10^{-6})
+K_{sp} = [\mathrm{Pb}^{2+}][\mathrm{I}^-]^2 = (1.4 \times 10^{-3})(2.8 \times 10^{-3})^2 = (1.4 \times 10^{-3})(7.84 \times 10^{-6})
 $$
 
 $$
@@ -120449,7 +120449,7 @@ $$
 The point $(-1, \sqrt{3})$ lies in the second quadrant, so:
 
 $$
-\theta = \pi - \arctan\frac\{\sqrt\{3\}\}\{1\} = \pi - \frac\{\pi\}\{3\} = \frac\{2\pi\}\{3\}
+\theta = \pi - \arctan\frac{\sqrt{3}}{1} = \pi - \frac{\pi}{3} = \frac{2\pi}{3}
 $$
 
 Therefore $z = 2\left(\cos\frac{2\pi}{3} + i\sin\frac{2\pi}{3}\right)$.
@@ -126574,13 +126574,13 @@ $$
 ### Constant Multiple Rule
 
 $$
-\frac\{d\}`\{dx}`[cf(x)] = c \cdot f'(x)
+\frac{d\}\{dx}[cf(x)] = c \cdot f'(x)
 $$
 
 ### Sum and Difference Rule
 
 $$
-\frac\{d\}`\{dx}`[f(x) \pm g(x)] = f'(x) \pm g'(x)
+\frac{d\}\{dx}[f(x) \pm g(x)] = f'(x) \pm g'(x)
 $$
 
 ### The Product Rule
@@ -126750,7 +126750,7 @@ We have $\dfrac{dy}{dx} = -\dfrac{x}{y}$.
 Differentiate with respect to $x$:
 
 $$
-\frac\{d^2y\}\{dx^2\} = -\frac\{y \cdot 1 - x \cdot \frac`\{dy}, \{dx}`\}\{y^2\}
+\frac{d^2y\}\{dx^2\} = -\frac{y \cdot 1 - x \cdot \\\{dy}, \{dx}\}\{y^2\}
 $$
 
 Substitute $\dfrac{dy}{dx} = -\dfrac{x}{y}$:
@@ -133636,13 +133636,13 @@ Matrix. When the dimensions are equal ($m = n$), the matrix is called **square**
 **Addition.** If $A, B \in \mathcal{M}_{m \times n}(\mathbb{R})$ Then $A + B$ is defined Entry-wise:
 
 $$
-(A + B)_`\{ij}` = a_`\{ij}` + b_`\{ij}`
+(A + B)_{ij} = a_{ij} + b_{ij}
 $$
 
 **Scalar multiplication.** For $k \in \mathbb{R}$ and $A \in \mathcal{M}_{m \times n}(\mathbb{R})$:
 
 $$
-(kA)_`\{ij}` = k \cdot a_`\{ij}`
+(kA)_{ij} = k \cdot a_{ij}
 $$
 
 These operations satisfy the following axioms (making $\mathcal{M}_{m \times n}(\mathbb{R})$ a
@@ -133661,7 +133661,7 @@ If $A$ is $m \times p$ and $B$ is $p \times n$ Then the product $C = AB$ is an $
 whose entries are:
 
 $$
-C_`\{ij}` = \sum_{k=1}^{p} a_`\{ik}` b_`\{kj}`
+C_{ij} = \sum_{k=1}^{p} a_{ik} b_{kj}
 $$
 
 This is the **dot product** of the $i$-th row of $A$ with the $j$-th column of $B$. The inner
@@ -133702,7 +133702,7 @@ The **transpose** of $A \in \mathcal{M}_{m \times n}(\mathbb{R})$ Written $A^T$ 
 matrix obtained by interchanging rows and columns:
 
 $$
-(A^T)_`\{ij}` = a_`\{ji}`
+(A^T)_{ij} = a_{ji}
 $$
 
 **Properties of the transpose:**
@@ -144803,7 +144803,7 @@ Where $O_i$ are observed frequencies and $E_i$ are expected frequencies.
 **Expected frequency**:
 
 $$
-E_`\{ij}` = \frac{(\mathrm{row } i \mathrm{ total}) \times (\mathrm{column } j \mathrm{ total})}{\mathrm{grand total}}
+E_{ij} = \frac{(\mathrm{row } i \mathrm{ total}) \times (\mathrm{column } j \mathrm{ total})}{\mathrm{grand total}}
 $$
 
 **Degrees of freedom**: $\nu = (r-1)(c-1)$ where $r$ is the number of rows and $c$ is the number of
@@ -146052,9 +146052,9 @@ $$
 ### Right-Angle Definitions
 
 $$
-\sin \theta = \frac\{\mathrm\{opposite\}\}\{\mathrm\{hypotenuse\}\}, \quad
-\cos \theta = \frac\{\mathrm\{adjacent\}\}\{\mathrm\{hypotenuse\}\}, \quad
-\tan \theta = \frac\{\mathrm\{opposite\}\}\{\mathrm\{adjacent\}\} = \frac\{\sin \theta\}\{\cos \theta\}
+\sin \theta = \frac{\mathrm{opposite}}{\mathrm{hypotenuse}}, \quad
+\cos \theta = \frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}, \quad
+\tan \theta = \frac{\mathrm{opposite}}{\mathrm{adjacent}} = \frac{\sin \theta}{\cos \theta}
 $$
 
 ### Reciprocal Trigonometric Functions
@@ -146367,7 +146367,7 @@ $$
 **Solution:**
 
 $$
-B = \frac\{8\sin 30^\{\circ\}\}\{\sin 45^\{\circ\}\} = \frac\{4\}\{\frac\{\sqrt\{2\}\}\{2\}\} = 4\sqrt\{2\} \approx 5.66 \mathrm\{ cm\}
+B = \frac{8\sin 30^{\circ}}{\sin 45^{\circ}} = \frac{4}\{\frac{\sqrt{2}}{2}\} = 4\sqrt{2} \approx 5.66 \mathrm{ cm}
 $$
 
 ### Worked Example: Cosine Rule
@@ -146557,7 +146557,7 @@ $$
 $$
 
 $$
-\sin^2 x = \frac\{3\}\{4\} \implies \sin x = \pm\frac\{\sqrt\{3\}\}\{2\}
+\sin^2 x = \frac{3}{4} \implies \sin x = \pm\frac{\sqrt{3}}{2}
 $$
 
 Since $\sin x \gt 0$ in quadrants I and II, and $\sin x \lt 0$ in quadrants III and IV:
@@ -146865,7 +146865,7 @@ R = \sqrt\{1^2 + (\sqrt\{3\})^2\} = \sqrt\{1 + 3\} = 2
 $$
 
 $$
-\tan\alpha = \frac\{\sqrt\{3\}\}\{1\} = \sqrt\{3\} \implies \alpha = \frac\{\pi\}\{3\}
+\tan\alpha = \frac{\sqrt{3}}{1} = \sqrt{3} \implies \alpha = \frac{\pi}{3}
 $$
 
 So $\sin x + \sqrt{3}\cos x = 2\sin\left(x + \frac{\pi}{3}\right)$.
@@ -148602,7 +148602,7 @@ The work function of sodium is $2.28\mathrm{ eV}$. Find the maximum kinetic ener
 when light of wavelength $400\mathrm{ nm}$ is incident.
 
 $$
-E_\{\mathrm\{photon\}\} = \frac`\{hc}`\{\lambda\} = \frac\{1240\mathrm\{ eV\}\cdot\mathrm\{nm\}\}\{400\mathrm\{ nm\}\} = 3.10\mathrm\{ eV\}
+E_{\mathrm\{photon\}\} = \frac\{hc}\{\lambda\} = \frac\{1240\mathrm{ eV}\cdot\mathrm{nm}\}\{400\mathrm\{ nm\}\} = 3.10\mathrm\{ eV\}
 $$
 
 $$
@@ -149064,7 +149064,7 @@ The electric field $\vec{E}$ at a point in space is defined as the electrostatic
 Positive test charge placed at that point:
 
 $$
-\vec\{E\} = \frac\{\vec\{F\}\}\{q\}
+\vec{E} = \frac{\vec{F}}{q}
 $$
 
 The SI unit is $\mathrm{V m}^{-1}$ (equivalent to $\mathrm{N C}^{-1}$). For a point charge $Q$ The
@@ -149164,7 +149164,7 @@ $$
 The deflection angle upon exiting the field region is:
 
 $$
-\tan\theta = \frac\{v_y\}\{v_x\} = \frac`\{qEL}`\{mv^2\}
+\tan\theta = \frac{v_y\}\{v_x\} = \\\{qEL}\{mv^2\}
 $$
 
 Where $L$ is the length of the plates.
@@ -156887,7 +156887,7 @@ with friction, applied forces, and different masses to see how they affect motio
 The net force acting on an object equals the rate of change of momentum:
 
 $$
-\vec\{F\}_\{\mathrm\{net\}\} = \frac\{d\vec\{p\}\}`\{dt}`
+\vec\{F\}_{\mathrm\{net\}\} = \frac\{d\vec{p}\}\{dt}
 $$
 
 For constant mass:
@@ -157115,7 +157115,7 @@ Momentum is a vector quantity with SI unit $\mathrm{kg} \cdot \mathrm{m/s}$.
 ### Newton's Second Law (Momentum Form)
 
 $$
-\vec\{F\}_\{\mathrm\{net\}\} = \frac\{d\vec\{p\}\}`\{dt}`
+\vec\{F\}_{\mathrm\{net\}\} = \frac\{d\vec{p}\}\{dt}
 $$
 
 ### Impulse
@@ -157230,13 +157230,13 @@ SI unit: watt ($\mathrm W$), where $1\mathrm{ W} = 1\mathrm{ J/s}$.
 ### Efficiency
 
 $$
-\mathrm\{Efficiency\} = \frac\{\mathrm\{useful energy output\}\}\{\mathrm\{total energy input\}\} \times 100\%
+\mathrm{Efficiency} = \frac{\mathrm{useful energy output}}{\mathrm{total energy input}} \times 100\%
 $$
 
 Alternatively:
 
 $$
-\mathrm\{Efficiency\} = \frac\{\mathrm\{useful power output\}\}\{\mathrm\{total power input\}\} \times 100\%
+\mathrm{Efficiency} = \frac{\mathrm{useful power output}}{\mathrm{total power input}} \times 100\%
 $$
 </Aside>
 
@@ -158997,7 +158997,7 @@ increases with $v^2$ so the maximum speed would be lower.
 ### Definition
 
 $$
-\mathrm\{Efficiency\} = \frac\{\mathrm\{useful energy output\}\}\{\mathrm\{total energy input\}\} \times 100\%
+\mathrm{Efficiency} = \frac{\mathrm{useful energy output}}{\mathrm{total energy input}} \times 100\%
 $$
 
 ### Energy Degradation
@@ -159133,7 +159133,7 @@ A pump lifts $500\mathrm{ kg}$ of water per minute from a well $15\mathrm{ m}$ d
 Efficiency of 65%. Find the power input to the pump.
 
 $$
-P_\{\mathrm\{useful\}\} = \frac`\{mgh}`\{t\} = \frac\{500 \times 9.81 \times 15\}\{60\} = 1226\mathrm\{ W\}
+P_{\mathrm\{useful\}\} = \frac\{mgh}\{t\} = \frac\{500 \times 9.81 \times 15\}\{60\} = 1226\mathrm\{ W\}
 $$
 
 $$
@@ -159162,7 +159162,7 @@ $$
 **(b)** Find the total mechanical energy.
 
 $$
-E_\{\mathrm\{total\}\} = E_k + E_p = \frac\{1\}\{2\}mv^2 - \frac`\{GMm}`\{r\} = \frac\{1\}\{2\}m\frac`\{GM}`\{r\} - \frac`\{GMm}`\{r\} = -\frac`\{GMm}`\{2r\}
+E_{\mathrm{total\}\} = E_k + E_p = \frac{1\}\{2\}mv^2 - \\\{GMm}\{r\} = \frac{1\}\{2\}m\\\{GM}\{r\} - \\\{GMm}\{r\} = -\\\{GMm}\{2r\}
 $$
 
 $$
@@ -163639,7 +163639,7 @@ showing the velocity components.
 The velocity of object `A` relative to object `B`:
 
 $$
-\vec\{v\}_`\{AB}` = \vec\{v\}_A - \vec\{v\}_B
+\vec\{v\}_{AB} = \vec\{v\}_A - \vec\{v\}_B
 $$
 
 ### Applications

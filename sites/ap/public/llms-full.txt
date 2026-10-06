@@ -38564,7 +38564,7 @@ engine provides constant power, what is that power?
 **Energy method:**
 
 $$
-P = \frac\{W\}\{t\} = \frac\{\Delta K\}\{t\} = \frac\{\frac\{1\}\{2\}(1200)(25)^2\}\{8.0\} = \frac\{375000\}\{8.0\} = 46875 \mathrm\{ W \approx 46.9 \mathrm\{ kW
+P = \frac{W}{t} = \frac{\Delta K}{t} = \frac{\frac{1}{2}(1200)(25)^2}{8.0} = \frac{375000}{8.0} = 46875 \mathrm\{ W \approx 46.9 \mathrm\{ kW
 $$
 </Aside>
 

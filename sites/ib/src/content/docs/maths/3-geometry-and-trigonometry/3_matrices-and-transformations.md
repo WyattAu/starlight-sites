@@ -57,13 +57,13 @@ Matrix. When the dimensions are equal ($m = n$), the matrix is called **square**
 **Addition.** If $A, B \in \mathcal{M}_{m \times n}(\mathbb{R})$ Then $A + B$ is defined Entry-wise:
 
 $$
-(A + B)_`\{ij}` = a_`\{ij}` + b_`\{ij}`
+(A + B)_{ij} = a_{ij} + b_{ij}
 $$
 
 **Scalar multiplication.** For $k \in \mathbb{R}$ and $A \in \mathcal{M}_{m \times n}(\mathbb{R})$:
 
 $$
-(kA)_`\{ij}` = k \cdot a_`\{ij}`
+(kA)_{ij} = k \cdot a_{ij}
 $$
 
 These operations satisfy the following axioms (making $\mathcal{M}_{m \times n}(\mathbb{R})$ a
@@ -82,7 +82,7 @@ If $A$ is $m \times p$ and $B$ is $p \times n$ Then the product $C = AB$ is an $
 whose entries are:
 
 $$
-C_`\{ij}` = \sum_{k=1}^{p} a_`\{ik}` b_`\{kj}`
+C_{ij} = \sum_{k=1}^{p} a_{ik} b_{kj}
 $$
 
 This is the **dot product** of the $i$-th row of $A$ with the $j$-th column of $B$. The inner
@@ -123,7 +123,7 @@ The **transpose** of $A \in \mathcal{M}_{m \times n}(\mathbb{R})$ Written $A^T$ 
 matrix obtained by interchanging rows and columns:
 
 $$
-(A^T)_`\{ij}` = a_`\{ji}`
+(A^T)_{ij} = a_{ji}
 $$
 
 **Properties of the transpose:**

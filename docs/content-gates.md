@@ -145,14 +145,47 @@ a block differing by one character, a repeated short section, headings
 inside code fences or frontmatter, and identical sections under different
 parents.
 
-## 7. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
+## 7. LaTeX parseability (`scripts/fix-latex-braces.mjs --check`)
+
+A normalisation pass escaped braces to stop MDX reading them as JSX
+expressions, doubled some backslashes, and injected backticks. The live
+pages showed the result — KaTeX emits `ParseError` markup instead of the
+formula:
+
+```
+ParseError: No such environment: ` at position 7: \begin`\{aligned}`
+ParseError: Expected 'EOF', got '}' at position 15: E = \frac`\{kQ}`\{r^2\}
+```
+
+Every candidate repair is **verified by rendering both the original and the
+repaired maths with KaTeX**: the change is written only when the original
+fails to parse and the repair succeeds. A false positive is impossible by
+construction, and a change to KaTeX's grammar cannot silently turn a correct
+formula into a broken one.
+
+Crucially the rule is *not* "escaped braces are bad". `\{A, B\}` is valid
+KaTeX rendering a literal brace — correct set notation — and rewriting it
+would delete the visible braces from the page. The defects are narrower: an
+even-length backslash run before a brace (`\\{`, a line break plus a group),
+an escaped brace where LaTeX *requires* a group (`\frac\{a\}\{b\}`), an
+escaped script argument (`e^\{6k\}`), and a backtick next to a brace.
+`\left\{` and `\right\}` are excluded, since escaping there is correct.
+
+The gate fails only on *repairable* damage. Maths KaTeX still cannot parse
+after every rule has been applied is reported as an advisory count, because
+those need structural work rather than a regex — a markdown table swallowed
+into `$$ ... $$`, or a stripped closing brace such as
+`\mathrm{H_2\mathrm{CO_3`. **379 spans across 33 files remain**, and they are
+author work, not tooling work.
+
+## 8. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
 
 Generates the AI-crawler-facing site indexes: a network root
 (`sites/main/public/llms.txt`) and one per site. `--check` fails when the
 committed files are stale relative to content. Regenerate with
 `node scripts/generate-llms-txt.js`.
 
-## 8. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
+## 9. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
 
 Parses markdown and `href=` links network-wide (14,000+ internal links),
 resolving each against the page index with browser semantics:
