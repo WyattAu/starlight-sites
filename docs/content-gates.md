@@ -195,11 +195,25 @@ at the end, so a row short by one does not merely gain an empty cell — every
 value shifts a column left and lands under the wrong heading. Silent, and
 worse than looking broken. **504 rows in 40 files** remain.
 
-The advisory class is reported rather than repaired because the repair needs
-to know *which* column went missing, and the corpus contains both shapes: a
-leading `(a)` label column that the data rows omit, and rows genuinely short
-at the back. GFM's own padding puts the empty cell in the wrong place for the
-first shape, so copying it would silently misalign the table.
+The advisory class is reported rather than repaired, and the reason is worth
+recording precisely, because the obvious heuristic was tried and is wrong.
+Grouping short rows by whether the delta is consistent gives 277 rows: 220
+with an ordinary first-column header (`Example`, `Country`, `Class`), 53 with
+a marker first column (`(a)`, `Step`), and 4 mixed. The 53 look decidable —
+insert an empty leading cell — but reading the source shows otherwise. That
+table is the OSI model:
+
+```
+| (a) | Layer        | Name                                    | Primary Function |
+| 7   | Application  | Provides network services directly to users |
+```
+
+`7`→`(a)` and `Application`→`Layer` line up, but "Provides network services"
+now sits under **Name**, where HTTP, TCP and IP belong. The entire Name column
+is absent. Any repair that pads a cell yields a table that renders cleanly and
+states something false, which is worse than one that visibly does not line up.
+These rows are **missing content**, so this is an editorial backlog of
+substance rather than a formatting bug.
 
 Cell counts ignore escaped pipes (`\|`), pipes inside inline maths, and pipes
 inside code spans, since none of those split cells. `$$ ... $$` blocks are
