@@ -17,6 +17,43 @@ tags:
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define the joint CDF of $(X, Y)$.
+- Does knowing the marginal distributions of $X$ and $Y$ determine the joint
+  distribution of $(X, Y)$?
+- Define covariance. What does $\operatorname{Cov}(X, Y) = 0$ tell you?
+- Define independence of two random variables.
+- Is the sum of two independent normal random variables always normal?
+
+## Motivation: marginals do not determine the joint
+
+The single most important fact on this page is that **the marginal distributions
+of $X$ and $Y$ do not determine the joint distribution**. Knowing everything
+about $X$ and everything about $Y$ tells you nothing about how they move
+together.
+
+That is not a technicality; it is the entire subject of dependence. The joint
+distribution is extra information, and covariance and correlation are attempts
+to summarise one aspect of it.
+
+**Worked example (the canonical counterexample).** Let $X$ be standard normal
+and let $Y = X$ with probability $\frac12$ and $Y = -X$ with probability
+$\frac12$, independently of $X$'s value. Then $Y$ is also standard normal, so
+$X$ and $Y$ have identical marginals. But $(X, Y)$ and $(X, -X)$ are completely
+different joint distributions: one is concentrated on the diagonal, the other on
+the anti-diagonal.
+
+The marginals are the same. The dependence is opposite. **Anything you want to
+know about how $X$ and $Y$ relate requires the joint distribution**, and no
+marginal summary can substitute.
+
+That is the reason correlation is not causation, and it is the reason two
+portfolios with identical marginal return distributions can have completely
+different risk.
+
 ### 3.1 Joint Distribution Functions
 
 **Definition.** The **joint CDF** of $(X, Y)$ is $F_{X,Y}(x, y) = P(X \leq x, Y \leq y)$.
@@ -130,6 +167,64 @@ f_Z(z) = \int_{-\infty}^{\infty} f_X(z - y)\, f_Y(y)\, dy = \int_{-\infty}^{\inf
 $$
 
 For moment generating functions: $M_Z(t) = M_X(t)\, M_Y(t)$.
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Marginals determine the joint | no | $Y = X$ versus $Y = -X$ with $X$ standard normal |
+| $\operatorname{Cov}(X,Y) = 0$ implies independence | no | $X$ uniform on $[-1,1]$, $Y = X^2$: covariance is exactly 0, but $Y$ is a function of $X$ |
+| Correlation measures dependence strength | no | Anscombe's quartet: four datasets with identical correlation 0.816 and completely different shapes |
+| The sum of two normals is normal | no | unless they are *jointly* normal (bivariate normal) |
+| Independence is symmetric in marginals | yes | it is, but only because it is defined on the product measure |
+
+**Uncorrelated does not mean independent.** The $Y = X^2$ example is the one to
+remember: $Y$ is completely determined by $X$, yet the covariance is zero by
+symmetry. Correlation measures *linear* dependence only, and it is blind to
+every other kind.
+
+**Anscombe's quartet** makes the same point visually. Four datasets with the
+same means, the same variances, the same correlation and the same fitted line --
+one linear, one curved, one with an outlier driving everything, one with a
+vertical line. Summary statistics are not a substitute for looking at the data.
+
+## Why the bivariate normal is special
+
+The normal is the one family where the counterexamples stop. For a bivariate
+normal:
+
+- uncorrelated **implies** independent
+- the marginals are normal
+- the sum of the two is normal
+- the conditional expectation $E[Y \mid X]$ is linear in $X$
+
+Every one of those is false in general, and every one is true for the bivariate
+normal. That is why the normal is the distribution statistical methods are built
+around -- not because data is normal, but because theorems are provable.
+
+## Interleaving problems
+
+Mix these with material from [Random
+Variables](/8-probability-and-statistics/2_random-variables/), [Limit
+Theorems](/8-probability-and-statistics/4_limit-theorems/) and [Measure
+Theory](/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension/).
+
+1. (Probability.) Show that if $X$ and $Y$ are independent then
+   $\operatorname{Cov}(X, Y) = 0$, and give the counterexample showing the
+   converse fails.
+2. (Probability.) Show $\operatorname{Var}(X + Y) = \operatorname{Var}(X) +
+   \operatorname{Var}(Y) + 2\operatorname{Cov}(X, Y)$, and deduce the variance
+   of a sum of independent variables.
+3. (Probability.) Show that the bivariate normal with correlation $
+ho$ has
+   conditional mean $\mu_Y + 
+ho rac{\sigma_Y}{\sigma_X}(x - \mu_X)$, and
+   explain why this is the regression line.
+4. (Limit theorems.) Use the CLT and the delta method to find the asymptotic
+   distribution of the sample correlation coefficient.
+5. (Measure theory.) Show that if $X$ and $Y$ are independent then the joint
+   measure is the product measure, and that Fubini's theorem is what lets you
+   compute $E[X + Y]$ by iterated integrals.
 
 ### 3.8 Practice Problems
 
