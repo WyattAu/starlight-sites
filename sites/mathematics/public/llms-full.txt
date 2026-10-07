@@ -18382,6 +18382,42 @@ URL: https://mathematics.wyattau.com/3-real-analysis/3_series/
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What does it mean for $\sum a_n$ to converge?
+- State the ratio test. When is it inconclusive?
+- What is the difference between absolute and conditional convergence?
+- Does $\sum 1/n$ converge? Does $\sum (-1)^n/n$?
+- Is the sum of a conditionally convergent series independent of the order of
+  the terms?
+
+Check your answers against the text. The last prompt is the one most people
+answer wrongly, and the answer is the most surprising result on this page.
+
+## Motivation: three questions that look the same and are not
+
+- Does $\sum_{n=1}^{\infty} 1/n$ converge?
+- Does $\sum_{n=1}^{\infty} 1/n^2$ converge?
+- Does $\sum_{n=1}^{\infty} (-1)^n/n$ converge?
+
+The first diverges. The second converges to $\pi^2/6$. The third converges to
+$\ln 2$ -- and if you rearrange its terms you can make it converge to *any real
+number you like*.
+
+Three series whose terms all tend to zero, with three different behaviours. The
+whole of this page is the machinery for telling them apart, and the machinery
+matters: a series is the discrete analogue of an integral, power series are how
+functions are computed, and Fourier series are how signals are analysed. Getting
+the convergence tests right is the price of entry to all of that.
+
+**The paradox to hold onto.** Adding infinitely many positive terms can give a
+finite answer ($1/2 + 1/4 + 1/8 + \cdots = 1$), and adding infinitely many terms
+that tend to zero can give an infinite answer ($1 + 1/2 + 1/3 + \cdots$).
+"Tends to zero" is necessary and not sufficient, and the reason is the
+*accumulated total*, not the individual terms.
+
 ### 3.1 Definitions and Convergence
 
 A **series** $\sum_{n=1}^{\infty} a_n$ converges if the sequence of partial sums
@@ -18598,7 +18634,49 @@ _If you get this wrong, revise:_ Section 3.5 (Cauchy Condensation Test).
 
 </details>
 
-### 3.8 Common Mistakes
+## Counterexamples worth knowing by name
+
+| Series | Converges? | Absolutely? | Test that decides it |
+| ------ | ---------- | ----------- | -------------------- |
+| $\sum 1/n$ | no | no | $p$-series with $p = 1$ |
+| $\sum 1/n^2$ | yes | yes | $p$-series with $p = 2$; sum $= \pi^2/6$ |
+| $\sum (-1)^{n+1}/n$ | yes | **no** | alternating series test |
+| $\sum 1/(n \ln n)$ | **no** | no | Cauchy condensation |
+| $\sum n/2^n$ | yes | yes | ratio test |
+| $\sum (-1)^n$ | no | no | terms do not tend to zero |
+
+**The Cauchy condensation test** is the underused one, and it is the fastest way
+to settle the $p$-series. It says $\sum a_n$ (positive, decreasing) converges
+exactly when $\sum 2^k a_{2^k}$ does. Applying it to $\sum 1/n^p$ gives
+$\sum 2^k / 2^{kp} = \sum 2^{k(1-p)}$, a geometric series in $2^{1-p}$ -- which
+converges exactly when $p > 1$. One line, no integral comparison.
+
+## The Riemann rearrangement theorem, made concrete
+
+Take the alternating harmonic series $\sum (-1)^{n+1}/n = \ln 2 \approx
+0.693$. Its positive terms are $1, 1/3, 1/5, \dots$ with divergent sum, and its
+negative terms are $-1/2, -1/4, -1/6, \dots$ with divergent sum.
+
+To make it sum to $1.5$ instead: take positive terms until the partial sum
+exceeds $1.5$ ($1 + 1/3 + 1/5 = 1.533$), then negative terms until it drops
+below ($-1/2$ gives $1.033$), then positive again, and so on. The oscillations
+shrink because the terms tend to zero, so the rearranged series converges -- to
+$1.5$ rather than $\ln 2$.
+
+**Why this matters beyond the puzzle.** Conditional convergence means the sum
+depends on the *order*, so it is not a property of the terms at all. Any
+computation involving such a series must fix an order. Numerically, summing a
+conditionally convergent series in floating point gives order-dependent answers,
+which is a real source of error in signal processing and numerical PDE.
+
+Absolutely convergent series have no such problem: every rearrangement converges
+to the same sum, because the positive and negative parts each converge.
+
+> **Exercise.** Show that the positive terms of a conditionally convergent
+> series have divergent sum, and likewise the negative terms. *(Hint: if both
+> converged, the series would converge absolutely.)*
+
+## Common Mistakes
 
 
 ```mermaid
