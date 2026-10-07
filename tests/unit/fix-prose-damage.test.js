@@ -9,18 +9,34 @@
  * Run: node --test tests/unit/fix-prose-damage.test.js
  */
 
-const { describe, it } = require('node:test')
+const { after, describe, it } = require('node:test')
 const assert = require('node:assert')
 const fs = require('node:fs')
 const os = require('node:os')
 const path = require('node:path')
 const { execFileSync } = require('node:child_process')
 
+// Temp fixtures are removed after the suite. os.tmpdir() is a tmpfs on CI and
+// on this machine, and leaked mkdtemp directories accumulate until unrelated
+// suites fail with ENOSPC.
+const FIXTURE_DIRS = []
+
+after(() => {
+  for (const dir of FIXTURE_DIRS) {
+    try {
+      fs.rmSync(dir, { recursive: true, force: true })
+    } catch {
+      // Best effort: a leftover temp dir must never fail the suite.
+    }
+  }
+})
+
 const REPO = path.resolve(__dirname, '..', '..')
 const SCRIPT = path.join(REPO, 'scripts', 'fix-prose-damage.py')
 
 function fixture(content) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'prose-fixture-'))
+  FIXTURE_DIRS.push(dir)
   const file = path.join(dir, 'page.md')
   fs.writeFileSync(file, content, 'utf8')
   return file
@@ -227,6 +243,7 @@ describe('fix-prose-damage: wrapped lines wrongly capitalised', () => {
 describe('fix-prose-damage: approved word list', () => {
   it('repairs an approved content word at a wrap point', () => {
     const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'prose-approve-'))
+    FIXTURE_DIRS.push(dir)
     const list = path.join(dir, 'approve.txt')
     fs.writeFileSync(list, '# comment\nSame\n\n', 'utf8')
     const file = path.join(dir, 'page.md')
@@ -237,6 +254,7 @@ describe('fix-prose-damage: approved word list', () => {
 
   it('leaves words outside the approved list alone', () => {
     const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'prose-approve-'))
+    FIXTURE_DIRS.push(dir)
     const list = path.join(dir, 'approve.txt')
     fs.writeFileSync(list, 'Same\n', 'utf8')
     const file = path.join(dir, 'page.md')
@@ -251,6 +269,7 @@ describe('fix-prose-damage: approved word list', () => {
 
   it('ignores comments and non-words in the list', () => {
     const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'prose-approve-'))
+    FIXTURE_DIRS.push(dir)
     const list = path.join(dir, 'approve.txt')
     fs.writeFileSync(list, '# Same\nSame  # trailing\n2bad\n', 'utf8')
     const file = path.join(dir, 'page.md')

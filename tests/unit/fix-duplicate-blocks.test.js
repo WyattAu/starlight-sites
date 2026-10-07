@@ -11,13 +11,29 @@ const assert = require('node:assert')
 const fs = require('node:fs')
 const os = require('node:os')
 const path = require('node:path')
-const { describe, it } = require('node:test')
+const { after, describe, it } = require('node:test')
+
+// Temp fixtures are removed after the suite. os.tmpdir() is a tmpfs on CI and
+// on this machine, and leaked mkdtemp directories accumulate until unrelated
+// suites fail with ENOSPC.
+const FIXTURE_DIRS = []
+
+after(() => {
+  for (const dir of FIXTURE_DIRS) {
+    try {
+      fs.rmSync(dir, { recursive: true, force: true })
+    } catch {
+      // Best effort: a leftover temp dir must never fail the suite.
+    }
+  }
+})
 
 const REPO = path.resolve(__dirname, '..', '..')
 const SCRIPT = path.join(REPO, 'scripts', 'fix-duplicate-blocks.mjs')
 
 function repair(content) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'dupblock-'))
+  FIXTURE_DIRS.push(dir)
   const file = path.join(dir, 'page.md')
   fs.writeFileSync(file, content, 'utf8')
   execFileSync('node', [SCRIPT, file], { encoding: 'utf8' })
@@ -26,6 +42,7 @@ function repair(content) {
 
 function check(content) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'dupblock-'))
+  FIXTURE_DIRS.push(dir)
   const file = path.join(dir, 'page.md')
   fs.writeFileSync(file, content, 'utf8')
   try {
