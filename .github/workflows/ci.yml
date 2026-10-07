@@ -129,7 +129,7 @@ jobs:
         # Lychee is intentionally non-blocking: external links are subject
         # to third-party uptime and rate-limiting, neither of which should
         # gate a release. The .lycheeignore file excludes known flaky URLs.
-        uses: lychee/lychee-action@v2
+        uses: lycheeverse/lychee-action@v2.9.0
         with:
           args: "--exclude-path node_modules --exclude-file .lycheeignore --no-progress sites/*/src/content/docs/**/*.md sites/*/src/content/docs/**/*.mdx"
           fail: false
