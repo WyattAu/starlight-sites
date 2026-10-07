@@ -352,24 +352,45 @@ jobs:
         # A 200 on the site URL can be served by a stale production build.
         # A content-hashed asset from THIS build's dist can only exist on
         # the new deployment -- 404 means the deploy did not promote.
+        #
+        # 429 is handled separately. It is Cloudflare throttling the check
+        # itself: re-running a deploy that just wrote to the same zone hits the
+        # rate limit, and polling every 15 s makes it worse. Back off harder on
+        # 429; fail at once on 404, which is the definitive stale-deployment
+        # signal.
         run: |
           asset=$(grep -oE '/_astro/[A-Za-z0-9._-]+\.(css|js)' sites/${{ matrix.site }}/dist/index.html | head -1)
           if [ -z "$asset" ]; then
             echo "::warning::No hashed asset found in dist/index.html -- skipping freshness check"
             exit 0
           fi
-          deadline=$(( $(date +%s) + 240 ))
+          deadline=$(( $(date +%s) + 300 ))
           code="000"
+          saw404=false
           while [ "$(date +%s)" -lt "$deadline" ]; do
             code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${{ matrix.url }}$asset" 2>/dev/null || echo "000")
             [ "$code" = "200" ] && break
+            if [ "$code" = "404" ]; then
+              saw404=true
+              break
+            fi
+            if [ "$code" = "429" ]; then
+              echo "  rate limited (429) -- backing off 45 s"
+              sleep 45
+              continue
+            fi
             sleep 15
           done
-          if [ "$code" != "200" ]; then
-            echo "::error::Freshness check failed: $asset -> $code (stale deployment?)"
-            exit 1
+          if [ "$code" = "200" ]; then
+            echo "Freshness verified: $asset -> 200"
+            exit 0
           fi
-          echo "Freshness verified: $asset -> 200"
+          if [ "$saw404" = "true" ]; then
+            echo "::error::Freshness check failed: $asset -> 404 (stale deployment)"
+          else
+            echo "::warning::Freshness check inconclusive: $asset -> $code after retries (likely throttling, not a stale deploy)"
+          fi
+          exit 1
 
       - name: Summary
         if: always()
