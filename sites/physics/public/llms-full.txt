@@ -5232,7 +5232,7 @@ ergodic — common in statistical mechanics reasoning — is unjustified.
   — symmetries and integrals of motion
 - [Nonlinear Dynamics and Chaos](/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/)
   — the dissipative counterpart
-- [How to Use These Notes](/how-to-use/) — the method
+- [How to Use These Notes](https://mathematics.wyattau.com/how-to-use/) — the method
 
 ## Thermal-Physics
 

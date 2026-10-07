@@ -11936,7 +11936,7 @@ unbounded and the parameter space is not locally identifiable.
 
 ## See Also
 
-- [Probability and Statistics](/8-probability-and-statistics/1_probability-spaces-and-random-variables/)
+- [Probability and Statistics](/8-probability-and-statistics/1_probability-spaces/)
   — the Tier-F probability background
 - [Measure Theory](/10-measure-theory/2_measures/) — the integral the
   posterior is defined with
