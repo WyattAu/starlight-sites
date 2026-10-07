@@ -6711,7 +6711,7 @@ URL: https://mathematics.wyattau.com/10-measure-theory/10_summary-of-key-results
 </script>
 
 | Theorem                | Conditions                                | Conclusion                               |
-| ---------------------- | ----------------------------------------- | ---------------------------------------- | --------------- | ------------------------ |
+| ---------------------- | ----------------------------------------- | ---------------------------------------- |
 | Monotone Convergence   | $0 \leq f_n \nearrow f$                   | $\lim \int f_n = \int f$                 |
 | Fatou's Lemma          | $f_n \geq 0$                              | $\int \liminf f_n \leq \liminf \int f_n$ |
 | Dominated Convergence  | $f_n \to f$, $                            | f_n                                      | \leq g \in L^1$ | $\lim \int f_n = \int f$ |
@@ -37763,7 +37763,7 @@ computationally infeasible in sufficiently large groups.
 ## 9. Summary
 
 | Concept                         | Key Idea                                                                                   |
-| ------------------------------- | ------------------------------------------------------------------------------------------ | --- | ----------- | --------------------- | ----------------------------------------------------------------- | ---------------------- | --- |
+| ------------------------------- | ------------------------------------------------------------------------------------------ |
 | Group                           | Set + associative binary operation with identity and inverses                              |
 | Abelian group                   | Group with commutative operation                                                           |
 | Subgroup                        | Subset closed under the group operation and inverses                                       |

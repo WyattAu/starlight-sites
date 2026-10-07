@@ -72571,7 +72571,7 @@ Path, contradiction. $\square$
 ### Common Heuristics
 
 | Problem      | Heuristic                      | Admissible? |
-| ------------ | ------------------------------ | ----------- | --- | --------- | --- | --- |
+| ------------ | ------------------------------ | ----------- |
 | Grid (4-dir) | Manhattan distance: $          | x_1 - x_2   | +   | y_1 - y_2 | $   | Yes |
 | Grid (8-dir) | Chebyshev distance: $\max(     | dx          | ,   | dy        | )$  | Yes |
 | Euclidean    | Straight-line distance         | Yes         |
@@ -122612,7 +122612,7 @@ $\blacksquare$
 ## 9. Common Pitfalls
 
 | Pitfall                                                           | Correct Approach                                                                                             |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------- | --- | --- | --- | --- | --- | --- | ---------------------------------------- | --- | ---- | --- | --- | --- | --- |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Forgetting that $\arg(z)$ is measured from the positive real axis | $\arg(z)$ is the angle anticlockwise from the positive $x$-axis, range $(-\pi, \pi]$ or $[0, 2\pi)$          |
 | Confusing $                                                       | z-w                                                                                                          | $ with $ | z   | -   | w   | $   | $   | z-w | $ is the distance between $z$ and $w$; $ | z-w | \neq | z   | -   | w   | $   |
 | Missing roots when solving $z^n = w$                              | There are always exactly $n$ distinct roots; check your $k$ values cover $0$ to $n-1$                        |
@@ -122722,7 +122722,7 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 ## 12. Key Results Summary
 
 | Result                        | Formula                                                   |
-| ----------------------------- | --------------------------------------------------------- | --- | -------------------------------- | --- | --- |
+| ----------------------------- | --------------------------------------------------------- |
 | Modulus                       | $                                                         | z   | = \sqrt{a^2+b^2}$ for $z = a+bi$ |
 | Argument                      | $\arg(z) = \arctan(b/a)$ (adjusting for quadrant)         |
 | Euler's formula               | $e^{i\theta} = \cos\theta+i\sin\theta$                    |
@@ -130261,7 +130261,7 @@ Integration by parts is the reverse of the product rule, allowing you to transfe
 ## 9. Common Pitfalls
 
 | Pitfall                                                                         | Correct Approach                                                                             |
-| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------- | ----------------------------------------------- |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Forgetting the chain rule when differentiating composite inverse trig functions | Always write $\dfrac{d}{dx}\!\left[\arcsin(u)\right] = \dfrac{u'}{\sqrt{1-u^2}}$ |
 | Using $\ln                                                                      | x                                                                                            | $ before checking if the integral is improper | Check for discontinuities in the interval first |
 | Forgetting $+C$ on every antiderivative                                         | Every indefinite integral needs an arbitrary constant                                        |
@@ -130450,7 +130450,7 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 ### 12.3 Recognising standard integral forms
 
 | Form                                                          | Result                    |
-| ------------------------------------------------------------- | ------------------------- | ---- | ---- |
+| ------------------------------------------------------------- | ------------------------- |
 | $\displaystyle\int \frac{f'(x)}{f(x)}\,dx$                    | $\ln                      | f(x) | + C$ |
 | $\displaystyle\int \frac{f'(x)}{\sqrt{f(x)}}\,dx$ | $2\sqrt{f(x)} + C$        |
 | $\displaystyle\int f(x) \cdot f'(x)\,dx$                      | $\dfrac{[f(x)]^2}{2} + C$ |
@@ -132161,7 +132161,7 @@ $t' = t\cosh\phi - x\sinh\phi/c$, $x' = x\cosh\phi - ct\sinh\phi$.
 ### 16.3 Inverse hyperbolic functions in logarithmic form
 
 | Function                   | Logarithmic Form                                               | Domain         |
-| -------------------------- | -------------------------------------------------------------- | -------------- | --- | ---- |
+| -------------------------- | -------------------------------------------------------------- | -------------- |
 | $\operatorname{arsinh}\,x$ | $\ln(x+\sqrt{x^2+1})$                                          | all real $x$   |
 | $\operatorname{arcosh}\,x$ | $\ln(x+\sqrt{x^2-1})$                                          | $x \geq 1$     |
 | $\operatorname{artanh}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{1+x}{1-x}\right)$               | $              | x   | < 1$ |
@@ -132838,7 +132838,7 @@ $$
 ## 6. Summary of Key Results
 
 | Function  | Definition                             | Inverse                             |
-| --------- | -------------------------------------- | ----------------------------------- | --- | --- |
+| --------- | -------------------------------------- | ----------------------------------- |
 | $\sinh x$ | $\dfrac{e^x-e^{-x}}{2}$                | $\ln(x+\sqrt{x^2+1})$               |
 | $\cosh x$ | $\dfrac{e^x+e^{-x}}{2}$                | $\ln(x+\sqrt{x^2-1}),\ x\geq 1$     |
 | $\tanh x$ | $\dfrac{\sinh x}{\cosh x}$ | $\dfrac{1}{2}\ln\dfrac{1+x}{1-x},\  | x   | <1$ |
@@ -134452,7 +134452,7 @@ $|x| < 1$ Integrate term by term.
 ### 2.7 Summary table
 
 | Function    | Maclaurin Series                                                  | Valid for       |
-| ----------- | ----------------------------------------------------------------- | --------------- | --- | ------- |
+| ----------- | ----------------------------------------------------------------- | --------------- |
 | $e^x$       | $\displaystyle\sum_{n=0}^{\infty}\frac{x^n}{n!}$                  | all $x$         |
 | $\sin x$    | $\displaystyle\sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{(2n+1)!}$ | all $x$         |
 | $\cos x$    | $\displaystyle\sum_{n=0}^{\infty}\frac{(-1)^n x^{2n}}{(2n)!}$     | all $x$         |
@@ -136695,7 +136695,7 @@ Cayley--Hamilton connects matrices to polynomial algebra. See
 ## 12. Key Results Summary
 
 | Result               | Formula/Condition                                                           |
-| -------------------- | --------------------------------------------------------------------------- | ---------------- | ------------------------------------ |
+| -------------------- | --------------------------------------------------------------------------- |
 | Invertibility        | $\mathbf{A}$ is invertible $\iff$ $\det(\mathbf{A}) \neq 0$                 |
 | $(\mathbf{AB})^{-1}$ | $\mathbf{B}^{-1}\mathbf{A}^{-1}$                                            |
 | $(\mathbf{AB})^T$    | $\mathbf{B}^T\mathbf{A}^T$                                                  |
@@ -143152,7 +143152,7 @@ between any point on each line onto this perpendicular direction.
 ## 10. Key Results Summary
 
 | Quantity              | Formula                                                                                                |
-| --------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | -------- | -------------------------------- | ----------- |
+| --------------------- | ------------------------------------------------------------------------------------------------------ |
 | Dot product           | $\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3 =                                                | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta$ |
 | Cross product         | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ |
 | Line                  | $\mathbf{r} = \mathbf{a} + \lambda\mathbf{d}$                                                          |
@@ -143787,7 +143787,7 @@ Representations of curves.
 ## 15. Key Results Summary
 
 | Result                   | Formula                                                                                                                       |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | -------- | -------------------------------- | ---------------------------------- | ------------- | ----- |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
 | Scalar product           | $\mathbf{a}\cdot\mathbf{b} =                                                                                                  | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta = a_1b_1+a_2b_2+a_3b_3$ |
 | Vector product           | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$                        |
 | Scalar triple product    | $[\mathbf{a},\mathbf{b},\mathbf{c}] = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c}) = \det(\mathbf{a}\;\mathbf{b}\;\mathbf{c})$ |
@@ -184615,7 +184615,7 @@ $$
 ### 3.2 Summary table
 
 | $f(x)$              | $\int f(x)\,dx$            |
-| ------------------- | -------------------------- | --- | ---- |
+| ------------------- | -------------------------- |
 | $x^n$ ($n \neq -1$) | $\dfrac{x^{n+1}}{n+1} + C$ |
 | $1/x$               | $\ln                       | x   | + C$ |
 | $e^{kx}$            | $\dfrac{1}{k}e^{kx} + C$   |

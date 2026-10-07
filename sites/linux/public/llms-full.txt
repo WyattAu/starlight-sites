@@ -3049,7 +3049,7 @@ with different capabilities and syntax.
 ### BRE vs ERE vs PCRE
 
 | Flavor | Engine          | Activator          | Metacharacters Require Escape | Lookaround |
-| ------ | --------------- | ------------------ | ----------------------------- | ---------- | --- |
+| ------ | --------------- | ------------------ | ----------------------------- | ---------- |
 | BRE    | POSIX `grep`    | Default            | `+`?`{``                      |`(`)`      | No  |
 | ERE    | POSIX `grep -E` | `grep -E``egrep`   | None                          | No         |
 | PCRE   | Perl-compatible | `grep -P``ripgrep` | None                          | Yes        |

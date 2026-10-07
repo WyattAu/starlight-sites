@@ -73569,7 +73569,7 @@ A country's nominal data and CPI are:
 (a)
 
 | Year | Real GDP ($bn)    | Real GDP per capita ($) |
-| ---- | ----------------- | ----------------------- |
+| ---- | ----------------- |
 | 2015 | 800/1.00 = 800.0  | 800,000/40 = 20,000     |
 | 2018 | 1000/1.15 = 869.6 | 869,600/42 = 20,705     |
 | 2021 | 1200/1.30 = 923.1 | 923,100/45 = 20,513     |
@@ -119226,7 +119226,7 @@ $P(\text{Physics} \mid \text{Chemistry}) = \frac{P(\text{Physics} \cap \text{Che
 ✓
 
 | Part | Marks | Key Method                                 |
-| ---- | ----- | ------------------------------------------ | ------------------------ |
+| ---- | ----- | ------------------------------------------ |
 |,    | 3     | Apply conditional probability formula $P(A | B) = P(A \cap B) / P(B)$ |
 
 `medium`3 marks total
@@ -128819,7 +128819,7 @@ $$
 ### Common Antiderivatives
 
 | $f(x)$                     | $\int f(x)\,dx$                              |
-| -------------------------- | -------------------------------------------- | ------ | ---- |
+| -------------------------- | -------------------------------------------- |
 | $k$                        | $kx + C$                                     |        |      |
 | $x^n$                      | $\dfrac{x^{n+1}}{n+1} + C \quad (n \neq -1)$ |        |      |
 | $\dfrac{1}{x}$             | $\ln                                         | x      | + C$ |
@@ -131162,7 +131162,7 @@ $$
 ### Standard Integrals
 
 | $f(x)$                      | $\displaystyle\int f(x)\,dx$            |
-| :-------------------------- | :-------------------------------------- | --- | ---- |
+| --------------------------- | --------------------------------------- |
 | $x^n$                       | $\dfrac{x^{n+1}}{n+1} + C, \; n \ne -1$ |     |      |
 | $\dfrac{1}{x}$              | $\ln                                    | x   | + C$ |
 | $e^x$                       | $e^x + C$                               |     |      |
@@ -132228,7 +132228,7 @@ Since the cases cover all possibilities, $Q$ holds unconditionally.
 Non-negative reals.
 
 | Case | $x$  | $y$  | $xy$  | $    | xy               | $   | $   | x   | \,  | y   | $   |
-| ---- | ---- | ---- | ----- | ---- | ---------------- | --- | --- | --- | --- | --- | --- |
+| ---- | ---- | ---- | ----- | ---- | ---------------- |
 | 1    | $a$  | $b$  | $ab$  | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
 | 2    | $a$  | $-b$ | $-ab$ | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
 | 3    | $-a$ | $b$  | $-ab$ | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
@@ -134779,7 +134779,7 @@ flowchart TD
 ## Summary of Key Results
 
 | Concept                         | Formula / Result                                                                            |
-| :------------------------------ | :------------------------------------------------------------------------------------------ | ------- | --- |
+| ------------------------------- | ------------------------------------------------------------------------------------------- |
 | $2 \times 2$ determinant        | $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$                                |         |     |
 | $2 \times 2$ inverse            | $A^{-1} = \dfrac{1}{\det(A)}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$                 |         |     |
 | $3 \times 3$ inverse            | $A^{-1} = \dfrac{1}{\det(A)}\mathrm{adj}(A)$                                                |         |     |
@@ -142736,7 +142736,7 @@ $$
 ### Conditions for Convergence
 
 | Condition | Behaviour                     |
-| --------- | ----------------------------- | ------ | ------------------------------- |
+| --------- | ----------------------------- |
 | $         | r                             | \lt 1$ | Converges to $\dfrac{u_1}{1-r}$ |
 | $r = 1$   | Diverges (grows linearly)     |        |                                 |
 | $r = -1$  | Oscillates, does not converge |        |                                 |
@@ -143190,7 +143190,7 @@ flowchart TD
 ## Summary
 
 | Topic                  | Key Formula                                                   |
-| ---------------------- | ------------------------------------------------------------- | --- | ------ |
+| ---------------------- | ------------------------------------------------------------- |
 | Arithmetic $n$-th term | $u_n = u_1 + (n-1)d$                                          |     |        |
 | Arithmetic sum         | $S_n = \dfrac{n}{2}[2u_1 + (n-1)d]$                           |     |        |
 | Geometric $n$-th term  | $u_n = u_1 r^{n-1}$                                           |     |        |
@@ -144602,7 +144602,7 @@ $$
 ### Strength Guidelines
 
 | $            | r        | $   | Strength |
-| ------------ | -------- | --- | -------- |
+| ------------ | -------- |
 | $0.0$--$0.3$ | Weak     |     |          |
 | $0.3$--$0.7$ | Moderate |     |          |
 | $0.7$--$1.0$ | Strong   |     |          |
@@ -145000,7 +145000,7 @@ means.
 If every data value is transformed by $y_i = ax_i + b$:
 
 | Statistic               | Original    | Transformed                                      |
-| ----------------------- | ----------- | ------------------------------------------------ | --- | ------------ |
+| ----------------------- | ----------- | ------------------------------------------------ |
 | Mean                    | $\bar{x}$   | $a\bar{x} + b$                                   |     |              |
 | Standard deviation      | $s_x$       | $                                                | a   | s_x$         |
 | Variance                | $s_x^2$     | $a^2 s_x^2$                                      |     |              |
@@ -145359,7 +145359,7 @@ This is based on the IB Mathematics: Analysis and Approaches syllabus (first ass
 The IB Mathematics AA syllabus is structured like a journey from concrete to abstract. Number and Algebra provides the computational foundation. Functions introduce the idea of transformation and mapping. Trigonometry extends algebra into circular and periodic phenomena. Calculus reveals how to measure change and accumulation. Statistics and Probability quantify uncertainty. Vectors and Matrices describe spatial relationships and linear transformations. The syllabus mirrors how mathematical thought evolved historically, from solving practical problems to abstract reasoning.
 
 | Topic                             | Subtopic                                     | Level   | Key Understanding                                                                                                               | Relevant Equations & Identities                                                                                                                                       |
-| :-------------------------------- | :------------------------------------------- | :------ | :------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------- | ------------------------------ | ------------------- | --- |
+| --------------------------------- | -------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **1. Number and Algebra**         | Arithmetic Sequences                         | SL & HL | Sequences with a constant common difference; finding the nth term and the sum of the first n terms.                             | `u_n = u_1 + (n-1)d`                                                                                                                                                  |                                                    |                                                                                 |                                  |                                |                     |     |
 |                                   | Arithmetic Series                            | SL & HL | Sum formulae for arithmetic series in terms of first term, last term, common difference, and number of terms.                   | `S_n = (n/2)(2u_1 + (n-1)d) = (n/2)(u_1 + u_n)`                                                                                                                       |                                                    |                                                                                 |                                  |                                |                     |     |
 |                                   | Geometric Sequences                          | SL & HL | Sequences with a constant common ratio; finding the nth term.                                                                   | `u_n = u_1 r^{n-1}`                                                                                                                                                   |                                                    |                                                                                 |                                  |                                |                     |     |
@@ -157816,7 +157816,53 @@ $$
 \end`\{aligned}`
 $$
 
-<img src="/img/physics/CoulombsLaw.png" alt="Coulombs_law" width="416" height="101" loading="lazy" />
+<figure class="coulomb-diagram">
+  <svg
+    viewBox="0 0 416 108"
+    role="img"
+    aria-label="Two positive point charges separated by a distance r exerting equal and opposite Coulomb forces on each other"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <defs>
+      <marker id="arrow-head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor" />
+      </marker>
+    </defs>
+
+    <line x1="112" y1="54" x2="304" y2="54" stroke="currentColor" strokeWidth="1.5" strokeDasharray="5 4" opacity="0.55" />
+    <text x="208" y="46" textAnchor="middle" fontSize="13" fill="currentColor" opacity="0.75">
+      r
+    </text>
+
+    <circle cx="92" cy="54" r="15" fill="none" stroke="currentColor" strokeWidth="2" />
+    <text x="92" y="59" textAnchor="middle" fontSize="14" fill="currentColor">
+      q1
+    </text>
+
+    <circle cx="324" cy="54" r="15" fill="none" stroke="currentColor" strokeWidth="2" />
+    <text x="324" y="59" textAnchor="middle" fontSize="14" fill="currentColor">
+      q2
+    </text>
+
+    <line x1="112" y1="30" x2="300" y2="30" stroke="currentColor" strokeWidth="2" markerEnd="url(#arrow-head)" />
+    <text x="206" y="24" textAnchor="middle" fontSize="13" fill="currentColor">
+      F12
+    </text>
+
+    <line x1="304" y1="80" x2="116" y2="80" stroke="currentColor" strokeWidth="2" markerEnd="url(#arrow-head)" />
+    <text x="210" y="96" textAnchor="middle" fontSize="13" fill="currentColor">
+      F21 = -F12
+    </text>
+
+    <text x="208" y="104" textAnchor="middle" fontSize="12" fill="currentColor" opacity="0.7">
+      Like charges repel: each force points away from the other charge
+    </text>
+  </svg>
+  <figcaption>
+    Coulomb's law. Two point charges exert forces of equal magnitude and
+    opposite direction, each directed along the line joining them.
+  </figcaption>
+</figure>
 </Aside>
 
 Where the constant $k$ is named Coulomb's constant and is equal to:
@@ -159236,7 +159282,7 @@ friction from the total mechanical energy.
 For two masses $M$ and $m$ separated by distance $r$ The total energy determines the type of orbit:
 
 | Total Energy $E$ | Orbit Type                    |
-| ---------------- | ----------------------------- | --- | --- | --- | ------------------ |
+| ---------------- | ----------------------------- |
 | $E \lt 0$ (and $ | E                             | \lt | E_p | $)  | Bound (elliptical) |
 | $E = 0$          | Parabolic (escape trajectory) |     |     |     |                    |
 | $E \gt 0$        | Hyperbolic (unbound)          |     |     |     |                    |

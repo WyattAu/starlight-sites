@@ -17372,7 +17372,7 @@ For $a < 0$ Add $\pi$ to get the correct quadrant.
 **Quadrant check for the argument:**
 
 | Quadrant | $a$   | $b$   | $\arg(z)$             |
-| -------- | ----- | ----- | --------------------- | --- | --- |
+| -------- | ----- | ----- | --------------------- |
 | I        | $> 0$ | $> 0$ | $\arctan(b/a)$        |
 | II       | $< 0$ | $> 0$ | $\pi - \arctan(b/     | a   | )$  |
 | III      | $< 0$ | $< 0$ | $-\pi + \arctan(b/a)$ |
@@ -18211,7 +18211,7 @@ $$
 ### Standard Integrals (OL/HL)
 
 | Function      | Integral                  |
-| ------------- | ------------------------- | --- | ---- |
+| ------------- | ------------------------- |
 | $x^n$         | $\frac{x^{n+1}}{n+1} + C$ |
 | $e^x$         | $e^x + C$                 |
 | $\frac{1}{x}$ | $\ln                      | x   | + C$ |
@@ -20130,7 +20130,7 @@ $a \lt m/n \lt b$.
 ### Notation (OL/HL)
 
 | Symbol            | Meaning                                        |
-| ----------------- | ---------------------------------------------- | --- | ------------------ |
+| ----------------- | ---------------------------------------------- |
 | $\in$             | Is an element of                               |
 | $\subset$         | Is a subset of                                 |
 | $\cup$            | Union                                          |
@@ -21118,7 +21118,7 @@ $$
 These concepts are frequently confused:
 
 | Property            | Independent                                 | Mutually Exclusive |
-| ------------------- | ------------------------------------------- | ------------------ | ---- | ------- |
+| ------------------- | ------------------------------------------- | ------------------ |
 | Definition          | $P(A \cap B) = P(A)P(B)$                    | $P(A \cap B) = 0$  |
 | Meaning             | Occurrence of one does not affect the other | Cannot both occur  |
 | If $P(A), P(B) > 0$ | $P(A                                        | B) = P(A)$         | $P(A | B) = 0$ |

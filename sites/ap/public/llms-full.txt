@@ -28933,7 +28933,7 @@ Where $C$ is the constant of integration.
 ### Basic Integration Rules
 
 | Function $f(x)$          | Antiderivative $F(x)$     |
-| ------------------------ | ------------------------- | --- | ---- |
+| ------------------------ | ------------------------- |
 | $x^n$ ($n \ne -1$)       | $\frac{x^{n+1}}{n+1} + C$ |
 | $\frac{1}{x}$            | $\ln                      | x   | + C$ |
 | $e^x$                    | $e^x + C$                 |
@@ -30746,7 +30746,7 @@ Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
 ### Common Sequences
 
 | Sequence                               | Convergence | Limit   |
-| -------------------------------------- | ----------- | ------- | --------- | --- |
+| -------------------------------------- | ----------- | ------- |
 | $a_n = \frac{1}{n}$                    | Converges   | $0$     |
 | $a_n = r^n$ ($                         | r           | \lt 1$) | Converges | $0$ |
 | $a_n = r^n$ ($                         | r           | \ge 1$) | Diverges  | --  |
