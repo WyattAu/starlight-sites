@@ -306,7 +306,7 @@ $P(\text{Physics} \mid \text{Chemistry}) = \frac{P(\text{Physics} \cap \text{Che
 ✓
 
 | Part | Marks | Key Method                                 |
-| ---- | ----- | ------------------------------------------ | ------------------------ |
+| ---- | ----- | ------------------------------------------ |
 |,    | 3     | Apply conditional probability formula $P(A | B) = P(A \cap B) / P(B)$ |
 
 `medium`3 marks total

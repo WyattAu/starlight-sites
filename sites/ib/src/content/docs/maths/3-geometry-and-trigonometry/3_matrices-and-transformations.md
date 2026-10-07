@@ -1200,7 +1200,7 @@ flowchart TD
 ## Summary of Key Results
 
 | Concept                         | Formula / Result                                                                            |
-| :------------------------------ | :------------------------------------------------------------------------------------------ | ------- | --- |
+| ------------------------------- | ------------------------------------------------------------------------------------------- |
 | $2 \times 2$ determinant        | $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$                                |         |     |
 | $2 \times 2$ inverse            | $A^{-1} = \dfrac{1}{\det(A)}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$                 |         |     |
 | $3 \times 3$ inverse            | $A^{-1} = \dfrac{1}{\det(A)}\mathrm{adj}(A)$                                                |         |     |

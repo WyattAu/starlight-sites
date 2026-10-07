@@ -306,7 +306,7 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 ### Key Rules
 
 | Rule                                               | Description                      |
-| -------------------------------------------------- | -------------------------------- | --- | --- |
+| -------------------------------------------------- | -------------------------------- |
 | `@typescript-eslint/no-explicit-any`               | Disallow `any` type              |
 | `@typescript-eslint/no-unused-vars`                | Disallow unused variables        |
 | `@typescript-eslint/explicit-function-return-type` | Require explicit return types    |

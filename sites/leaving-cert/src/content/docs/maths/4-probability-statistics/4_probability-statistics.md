@@ -236,7 +236,7 @@ $$
 These concepts are frequently confused:
 
 | Property            | Independent                                 | Mutually Exclusive |
-| ------------------- | ------------------------------------------- | ------------------ | ---- | ------- |
+| ------------------- | ------------------------------------------- | ------------------ |
 | Definition          | $P(A \cap B) = P(A)P(B)$                    | $P(A \cap B) = 0$  |
 | Meaning             | Occurrence of one does not affect the other | Cannot both occur  |
 | If $P(A), P(B) > 0$ | $P(A                                        | B) = P(A)$         | $P(A | B) = 0$ |

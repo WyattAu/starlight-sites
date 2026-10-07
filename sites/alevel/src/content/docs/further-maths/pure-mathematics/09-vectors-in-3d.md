@@ -460,7 +460,7 @@ between any point on each line onto this perpendicular direction.
 ## 10. Key Results Summary
 
 | Quantity              | Formula                                                                                                |
-| --------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | -------- | -------------------------------- | ----------- |
+| --------------------- | ------------------------------------------------------------------------------------------------------ |
 | Dot product           | $\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3 =                                                | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta$ |
 | Cross product         | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ |
 | Line                  | $\mathbf{r} = \mathbf{a} + \lambda\mathbf{d}$                                                          |
@@ -1095,7 +1095,7 @@ Representations of curves.
 ## 15. Key Results Summary
 
 | Result                   | Formula                                                                                                                       |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | -------- | -------------------------------- | ---------------------------------- | ------------- | ----- |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
 | Scalar product           | $\mathbf{a}\cdot\mathbf{b} =                                                                                                  | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta = a_1b_1+a_2b_2+a_3b_3$ |
 | Vector product           | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$                        |
 | Scalar triple product    | $[\mathbf{a},\mathbf{b},\mathbf{c}] = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c}) = \det(\mathbf{a}\;\mathbf{b}\;\mathbf{c})$ |

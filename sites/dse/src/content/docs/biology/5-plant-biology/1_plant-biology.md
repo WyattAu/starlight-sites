@@ -1290,7 +1290,7 @@ Photoperiodism is the response of a plant to the relative lengths of light and d
 use photoperiod to determine the appropriate time to flower.
 
 | Plant Type         | Critical Photoperiod             | Flowering Response                                                                                                   |
-| ------------------ | -------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| ------------------ | -------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | Long-day plants    | Short nights (< critical period) | Flower when the NIGHT length is below a critical value; require MORE than a certain number of hours of light per day | Spinach, lettuce, radish, wheat             |
 | Short-day plants   | Long nights (> critical period)  | Flower when the NIGHT length exceeds a critical value; require LESS than a certain number of hours of light per day  | Chrysanthemum, poinsettia, strawberry, rice |
 | Day-neutral plants | No critical photoperiod          | Flower regardless of day length; other factors (temperature, plant age) trigger flowering                            | Tomato, cucumber, maize, cotton             |

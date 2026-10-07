@@ -639,7 +639,7 @@ async function safeFetch(url: string): AsyncResult<Response, NetworkError> {
 These three concepts are often conflated but have distinct meanings in TypeScript:
 
 | Concept           | Type       | Meaning                                |
-| ----------------- | ---------- | -------------------------------------- | ------------------------------ |
+| ----------------- | ---------- | -------------------------------------- |
 | Optional property | `prop?: T` | Property may be absent from the object |
 | Nullable          | `T         | null`                                  | Value may be explicitly `null` |
 | Undefined         | `T         | undefined`                             | Value may be `undefined`       |

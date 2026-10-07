@@ -56,7 +56,7 @@ Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
 ### Common Sequences
 
 | Sequence                               | Convergence | Limit   |
-| -------------------------------------- | ----------- | ------- | --------- | --- |
+| -------------------------------------- | ----------- | ------- |
 | $a_n = \frac{1}{n}$                    | Converges   | $0$     |
 | $a_n = r^n$ ($                         | r           | \lt 1$) | Converges | $0$ |
 | $a_n = r^n$ ($                         | r           | \ge 1$) | Diverges  | --  |

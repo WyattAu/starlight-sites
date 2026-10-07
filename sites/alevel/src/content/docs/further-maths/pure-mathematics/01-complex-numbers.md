@@ -1040,7 +1040,7 @@ $\blacksquare$
 ## 9. Common Pitfalls
 
 | Pitfall                                                           | Correct Approach                                                                                             |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------- | --- | --- | --- | --- | --- | --- | ---------------------------------------- | --- | ---- | --- | --- | --- | --- |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Forgetting that $\arg(z)$ is measured from the positive real axis | $\arg(z)$ is the angle anticlockwise from the positive $x$-axis, range $(-\pi, \pi]$ or $[0, 2\pi)$          |
 | Confusing $                                                       | z-w                                                                                                          | $ with $ | z   | -   | w   | $   | $   | z-w | $ is the distance between $z$ and $w$; $ | z-w | \neq | z   | -   | w   | $   |
 | Missing roots when solving $z^n = w$                              | There are always exactly $n$ distinct roots; check your $k$ values cover $0$ to $n-1$                        |
@@ -1150,7 +1150,7 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 ## 12. Key Results Summary
 
 | Result                        | Formula                                                   |
-| ----------------------------- | --------------------------------------------------------- | --- | -------------------------------- | --- | --- |
+| ----------------------------- | --------------------------------------------------------- |
 | Modulus                       | $                                                         | z   | = \sqrt{a^2+b^2}$ for $z = a+bi$ |
 | Argument                      | $\arg(z) = \arctan(b/a)$ (adjusting for quadrant)         |
 | Euler's formula               | $e^{i\theta} = \cos\theta+i\sin\theta$                    |

@@ -101,7 +101,7 @@ The choice of loss function encodes assumptions about the data-generating proces
 prediction errors:
 
 | Loss Function | Formula                              | Sensitivity          | Use Case                       |
-| ------------- | ------------------------------------ | -------------------- | ------------------------------ | ------------------ | -------------------------- |
+| ------------- | ------------------------------------ | -------------------- | ------------------------------ |
 | Squared (L2)  | $\sum (y_n - \hat{y}_n)^2$           | High to outliers     | Gaussian noise assumption      |
 | Absolute (L1) | $\sum                                | y_n - \hat{y}\_n     | $                              | Robust to outliers | Laplacian noise assumption |
 | Huber         | Hybrid L1/L2 with threshold $\delta$ | Tunable              | Balanced robustness/smoothness |

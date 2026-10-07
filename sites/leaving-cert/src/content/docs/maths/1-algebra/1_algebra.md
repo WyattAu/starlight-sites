@@ -354,7 +354,7 @@ For $a < 0$ Add $\pi$ to get the correct quadrant.
 **Quadrant check for the argument:**
 
 | Quadrant | $a$   | $b$   | $\arg(z)$             |
-| -------- | ----- | ----- | --------------------- | --- | --- |
+| -------- | ----- | ----- | --------------------- |
 | I        | $> 0$ | $> 0$ | $\arctan(b/a)$        |
 | II       | $< 0$ | $> 0$ | $\pi - \arctan(b/     | a   | )$  |
 | III      | $< 0$ | $< 0$ | $-\pi + \arctan(b/a)$ |

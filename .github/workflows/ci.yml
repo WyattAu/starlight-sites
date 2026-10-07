@@ -69,6 +69,9 @@ jobs:
       - name: LaTeX parseability gate (content)
         run: node --max-old-space-size=2048 scripts/fix-latex-braces.mjs --check
 
+      - name: Table shape gate (content)
+        run: node --max-old-space-size=2048 scripts/lint-tables.mjs --check
+
       - name: No-emoji lint (code, docs, config)
         run: node scripts/lint-no-emoji.js
 

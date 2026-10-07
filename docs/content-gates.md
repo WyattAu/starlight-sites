@@ -178,14 +178,42 @@ into `$$ ... $$`, or a stripped closing brace such as
 `\mathrm{H_2\mathrm{CO_3`. **379 spans across 33 files remain**, and they are
 author work, not tooling work.
 
-## 8. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
+## 8. Table shape lint (`scripts/lint-tables.mjs --check`)
+
+A markdown table looks correct in source whether or not it renders as one,
+and two defects have very different severity.
+
+**Severe, repaired, and blocking.** The delimiter row (`| --- | --- |`) does
+not have the same cell count as the header. GFM requires an exact match, so
+the block stops being a table and renders as literal pipe-delimited text —
+the page shows `| --- | --- |` where a table should be. A delimiter row
+carries no content, so resizing it to the header's width cannot lose
+information; 45 tables across 40 files were not rendering as tables at all.
+
+**Advisory.** A data row has a different cell count than the header. GFM pads
+at the end, so a row short by one does not merely gain an empty cell — every
+value shifts a column left and lands under the wrong heading. Silent, and
+worse than looking broken. **504 rows in 40 files** remain.
+
+The advisory class is reported rather than repaired because the repair needs
+to know *which* column went missing, and the corpus contains both shapes: a
+leading `(a)` label column that the data rows omit, and rows genuinely short
+at the back. GFM's own padding puts the empty cell in the wrong place for the
+first shape, so copying it would silently misalign the table.
+
+Cell counts ignore escaped pipes (`\|`), pipes inside inline maths, and pipes
+inside code spans, since none of those split cells. `$$ ... $$` blocks are
+skipped entirely: the `table-in-math` damage class emits a `| --- | --- |` row
+inside maths, and counting it as a delimiter produced 45 false severe reports.
+
+## 9. llms.txt freshness (`scripts/generate-llms-txt.js --check`)
 
 Generates the AI-crawler-facing site indexes: a network root
 (`sites/main/public/llms.txt`) and one per site. `--check` fails when the
 committed files are stale relative to content. Regenerate with
 `node scripts/generate-llms-txt.js`.
 
-## 9. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
+## 10. Link graph analysis (`scripts/lint-link-graph.js`, advisory)
 
 Parses markdown and `href=` links network-wide (14,000+ internal links),
 resolving each against the page index with browser semantics:

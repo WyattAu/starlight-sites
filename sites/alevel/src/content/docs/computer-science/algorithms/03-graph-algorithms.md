@@ -92,7 +92,7 @@ Path, contradiction. $\square$
 ### Common Heuristics
 
 | Problem      | Heuristic                      | Admissible? |
-| ------------ | ------------------------------ | ----------- | --- | --------- | --- | --- |
+| ------------ | ------------------------------ | ----------- |
 | Grid (4-dir) | Manhattan distance: $          | x_1 - x_2   | +   | y_1 - y_2 | $   | Yes |
 | Grid (8-dir) | Chebyshev distance: $\max(     | dx          | ,   | dy        | )$  | Yes |
 | Euclidean    | Straight-line distance         | Yes         |

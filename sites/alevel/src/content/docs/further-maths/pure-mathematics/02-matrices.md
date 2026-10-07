@@ -1119,7 +1119,7 @@ Cayley--Hamilton connects matrices to polynomial algebra. See
 ## 12. Key Results Summary
 
 | Result               | Formula/Condition                                                           |
-| -------------------- | --------------------------------------------------------------------------- | ---------------- | ------------------------------------ |
+| -------------------- | --------------------------------------------------------------------------- |
 | Invertibility        | $\mathbf{A}$ is invertible $\iff$ $\det(\mathbf{A}) \neq 0$                 |
 | $(\mathbf{AB})^{-1}$ | $\mathbf{B}^{-1}\mathbf{A}^{-1}$                                            |
 | $(\mathbf{AB})^T$    | $\mathbf{B}^T\mathbf{A}^T$                                                  |

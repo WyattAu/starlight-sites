@@ -1657,7 +1657,7 @@ contamination of cultures and protect the operator from potentially pathogenic o
 ### Growing Microorganisms in Culture
 
 | Component             | Description                                                                                                                                 |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | Culture medium        | Contains nutrients required for microbial growth (carbohydrates, nitrogen source, minerals, vitamins)                                       |
 | Agar                  | A polysaccharide derived from seaweed; used as a solidifying agent in culture media; melts at ~85 degrees C and solidifies at ~42 degrees C |
 | Nutrient broth        | Liquid culture medium; used for growing large numbers of bacteria in suspension                                                             |

@@ -653,7 +653,7 @@ computationally infeasible in sufficiently large groups.
 ## 9. Summary
 
 | Concept                         | Key Idea                                                                                   |
-| ------------------------------- | ------------------------------------------------------------------------------------------ | --- | ----------- | --------------------- | ----------------------------------------------------------------- | ---------------------- | --- |
+| ------------------------------- | ------------------------------------------------------------------------------------------ |
 | Group                           | Set + associative binary operation with identity and inverses                              |
 | Abelian group                   | Group with commutative operation                                                           |
 | Subgroup                        | Subset closed under the group operation and inverses                                       |

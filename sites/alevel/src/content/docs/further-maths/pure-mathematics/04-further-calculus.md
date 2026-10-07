@@ -947,7 +947,7 @@ Integration by parts is the reverse of the product rule, allowing you to transfe
 ## 9. Common Pitfalls
 
 | Pitfall                                                                         | Correct Approach                                                                             |
-| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------- | ----------------------------------------------- |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Forgetting the chain rule when differentiating composite inverse trig functions | Always write $\dfrac{d}{dx}\!\left[\arcsin(u)\right] = \dfrac{u'}{\sqrt{1-u^2}}$ |
 | Using $\ln                                                                      | x                                                                                            | $ before checking if the integral is improper | Check for discontinuities in the interval first |
 | Forgetting $+C$ on every antiderivative                                         | Every indefinite integral needs an arbitrary constant                                        |
@@ -1136,7 +1136,7 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 ### 12.3 Recognising standard integral forms
 
 | Form                                                          | Result                    |
-| ------------------------------------------------------------- | ------------------------- | ---- | ---- |
+| ------------------------------------------------------------- | ------------------------- |
 | $\displaystyle\int \frac{f'(x)}{f(x)}\,dx$                    | $\ln                      | f(x) | + C$ |
 | $\displaystyle\int \frac{f'(x)}{\sqrt{f(x)}}\,dx$ | $2\sqrt{f(x)} + C$        |
 | $\displaystyle\int f(x) \cdot f'(x)\,dx$                      | $\dfrac{[f(x)]^2}{2} + C$ |

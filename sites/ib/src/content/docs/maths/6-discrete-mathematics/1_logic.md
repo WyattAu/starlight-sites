@@ -528,7 +528,7 @@ Since the cases cover all possibilities, $Q$ holds unconditionally.
 Non-negative reals.
 
 | Case | $x$  | $y$  | $xy$  | $    | xy               | $   | $   | x   | \,  | y   | $   |
-| ---- | ---- | ---- | ----- | ---- | ---------------- | --- | --- | --- | --- | --- | --- |
+| ---- | ---- | ---- | ----- | ---- | ---------------- |
 | 1    | $a$  | $b$  | $ab$  | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
 | 2    | $a$  | $-b$ | $-ab$ | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
 | 3    | $-a$ | $b$  | $-ab$ | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |

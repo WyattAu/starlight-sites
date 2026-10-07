@@ -1277,7 +1277,7 @@ $t' = t\cosh\phi - x\sinh\phi/c$, $x' = x\cosh\phi - ct\sinh\phi$.
 ### 16.3 Inverse hyperbolic functions in logarithmic form
 
 | Function                   | Logarithmic Form                                               | Domain         |
-| -------------------------- | -------------------------------------------------------------- | -------------- | --- | ---- |
+| -------------------------- | -------------------------------------------------------------- | -------------- |
 | $\operatorname{arsinh}\,x$ | $\ln(x+\sqrt{x^2+1})$                                          | all real $x$   |
 | $\operatorname{arcosh}\,x$ | $\ln(x+\sqrt{x^2-1})$                                          | $x \geq 1$     |
 | $\operatorname{artanh}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{1+x}{1-x}\right)$               | $              | x   | < 1$ |

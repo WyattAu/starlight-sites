@@ -20,7 +20,7 @@ description: "Study notes for Summary of Key Results | Mathematics with worked e
 </script>
 
 | Theorem                | Conditions                                | Conclusion                               |
-| ---------------------- | ----------------------------------------- | ---------------------------------------- | --------------- | ------------------------ |
+| ---------------------- | ----------------------------------------- | ---------------------------------------- |
 | Monotone Convergence   | $0 \leq f_n \nearrow f$                   | $\lim \int f_n = \int f$                 |
 | Fatou's Lemma          | $f_n \geq 0$                              | $\int \liminf f_n \leq \liminf \int f_n$ |
 | Dominated Convergence  | $f_n \to f$, $                            | f_n                                      | \leq g \in L^1$ | $\lim \int f_n = \int f$ |
