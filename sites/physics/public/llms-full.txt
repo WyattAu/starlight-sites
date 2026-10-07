@@ -817,6 +817,42 @@ URL: https://physics.wyattau.com/1-classical-mechanics/4_hamiltonian-mechanics/
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory before reading.
+
+- Write down the Legendre transform. Why does it need the Hessian of $L$ to be
+  non-singular?
+- State Hamilton's equations. How many first-order equations do they give for
+  $n$ degrees of freedom?
+- State Liouville's theorem, and say what it rules out for Hamiltonian systems.
+- Write down the fundamental Poisson brackets.
+- What is a constant of motion in terms of the Poisson bracket with $H$?
+
+## Motivation: why switch from the Lagrangian
+
+The Lagrangian gives $n$ second-order equations in the coordinates. Hamilton's
+formulation rewrites them as $2n$ first-order equations in the coordinates
+*and* their conjugate momenta, treating $(q, p)$ as independent variables.
+
+That looks like no gain at all -- more variables, same information. What it
+buys is a different geometry:
+
+- **Phase space is the natural home.** A state of the system is a point
+  $(q, p)$, not a path. Initial-value problems become: start here, follow the
+  flow.
+- **First order is what ODE theory wants.** Existence, uniqueness and numerical
+  integration are all theorems about first-order systems.
+- **Conserved quantities become geometry.** A cyclic coordinate makes $p_j$
+  constant, so the flow is confined to a level surface of $p_j$. Conservation
+  laws turn into constraints on where the orbit can go.
+- **The transformation to quantum mechanics runs through it.** The Poisson
+  bracket is the classical object whose deformation gives the commutator.
+
+The Lagrangian is the better formulation for solving a specific problem
+quickly; the Hamiltonian is the better one for understanding the structure of
+the solution space.
+
 ### 4.1 Generalised Momentum
 
 The **generalised momentum** conjugate to $q_j$ is
@@ -937,8 +973,40 @@ Hamiltonian mechanics lives in **phase space**: the $2n$-dimensional space with 
 $(q_1, \ldots, q_n, p_1, \ldots, p_n)$. Each point in phase space represents a complete state of the
 System (positions and momenta).
 
-A **phase portrait** is the collection of trajectories in phase space. For a 1D harmonic oscillator,
-the trajectories are ellipses in the $(x, p)$ plane.
+A **phase portrait** is the collection of trajectories in phase space. For a
+1D harmonic oscillator the trajectories are ellipses in the $(x, p)$ plane, and
+that single picture carries the physics in four representations at once.
+
+**The same oscillator, four ways.**
+
+*In words.* Energy sloshes between kinetic and potential. When the mass is at
+maximum displacement it is momentarily at rest; when it passes through the
+centre it is moving fastest.
+
+*As equations.* $H = \frac{p^2}{2m} + \frac{1}{2}kx^2 = E$ on each orbit, with
+$\dot x = p/m$ and $\dot p = -kx$.
+
+*As a picture.* Concentric ellipses in the $(x, p)$ plane:
+
+```text
+     p
+     ^        .......
+     |     ...       ...
+     |   .             .
+     |  .      +        .      each ellipse is one energy
+     |   .             .       E = H on the curve
+     |     ...       ...
+     |        .......
+     +----------------------> x
+```
+
+*As a statement about area.* The area enclosed by an orbit is $2\pi E/\omega$,
+so energy sets the area. Liouville's theorem says a bundle of such orbits keeps
+its total area as it deforms.
+
+The picture also explains why the origin is called a *centre*: orbits circle it
+but never approach it, so it is stable without being attracting. An attracting
+fixed point would require the area to shrink, which Liouville forbids.
 
 ### 4.7 Liouville's Theorem
 
@@ -1046,7 +1114,38 @@ $$
 \{q_j, q_k\} = 0, \quad \{p_j, p_k\} = 0, \quad \{q_j, p_k\} = \delta_{jk}
 $$
 
-### 4.9 The Hamilton-Jacobi Equation
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| The Hamiltonian always equals $T + V$ | no | a charged particle in an EM field, or any rheonomic constraint: $H = \sum p_j\dot q_j - L$ comes from the Legendre transform, not from $T + V$ |
+| The Legendre transform always exists | no | $L$ must be convex in $\dot q$; for a relativistic particle near $v = c$ the Hessian degenerates |
+| A Hamiltonian system always reaches equilibrium | no | Liouville forbids attractors entirely |
+| Every conserved quantity comes from a symmetry of $q$ | no | momentum can be conserved with no obvious coordinate symmetry |
+| Poisson brackets are invariant under any coordinate change | no | only under *canonical* transformations |
+
+The relativistic row is the one to remember. It shows that the Legendre
+transform is a hypothesis about the Lagrangian, not a formality, and that the
+transform breaks exactly where the physics becomes singular.
+
+## Interleaving problems
+
+Mix these with material from Lagrangian mechanics, Noether's theorem and the
+statistical mechanics module.
+
+1. (Lagrangian.) Show that the Legendre transform is an involution: applying it
+   twice returns the original Lagrangian. Where is convexity used?
+2. (Noether.) For a particle in a central potential, show that rotational
+   symmetry gives $\{L_z, H\} = 0$ and hence $L_z$ is conserved.
+3. (Statistical mechanics.) Show that the microcanonical measure on the energy
+   surface $H = E$ is invariant under the flow, using Liouville's theorem.
+4. (Symplectic structure.) Show that the Poisson bracket can be written
+   $\{f, g\} = \omega(X_f, X_g)$ where $\omega$ is the symplectic form.
+5. (Hamilton-Jacobi.) Show that if $S(q, \alpha, t)$ is a complete integral
+   depending on constants $\alpha$, then the $p = \partial S/\partial q$ and
+   $\beta = \partial S/\partial \alpha$ are constant along solutions.
+
+## Hamilton-Jacobi Equation
 
 **Definition.** Hamilton's principal function $S(q, t)$ is the action evaluated along the classical
 path from $(q_0, t_0)$ to $(q, t)$.
