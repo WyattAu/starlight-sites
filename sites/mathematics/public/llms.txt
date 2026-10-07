@@ -76,6 +76,10 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [The Gauss Bonnet Theorem](https://mathematics.wyattau.com/12-differential-geometry/8_the-gauss-bonnet-theorem/)
 - [Vector Fields And Flows](https://mathematics.wyattau.com/12-differential-geometry/3_vector-fields-and-flows/)
 
+## Graduate-Analysis
+
+- [Spectral Theory Of Self Adjoint Operators](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/)
+
 ## Linear-Algebra
 
 - [Eigenvalues And Eigenvectors](https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
@@ -207,6 +211,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Complex Analysis](https://mathematics.wyattau.com/complex-analysis/)
 - [Differential Equations](https://mathematics.wyattau.com/differential-equations/)
 - [Glossary](https://mathematics.wyattau.com/glossary/)
+- [How To Use](https://mathematics.wyattau.com/how-to-use/)
 - [Hub](https://mathematics.wyattau.com/hub/)
 - [Index](https://mathematics.wyattau.com/)
 - [Intro](https://mathematics.wyattau.com/intro/)
