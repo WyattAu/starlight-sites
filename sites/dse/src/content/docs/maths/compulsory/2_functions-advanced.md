@@ -174,7 +174,7 @@ Given $y = f(x)$:
 
 | Transformation | Effect on Graph                                               |
 | -------------- | ------------------------------------------------------------- |
-| $y = f(x) + c$ | Vertical shift up by $c$ ($c \gt 0$) or down ($c \lt 0$)      |     |                                     |
+| $y = f(x) + c$ | Vertical shift up by $c$ ($c \gt 0$) or down ($c \lt 0$) |
 | $y = f(x - h)$ | Horizontal shift right by $h$ ($h \gt 0$) or left ($h \lt 0$) |     |                                     |
 | $y = af(x)$    | Vertical stretch by factor $                                  \| a   \| $; reflect in $x$-axis if $a \lt 0$ |
 | $y = f(kx)$    | Horizontal stretch by factor $1/                              \| k   \| $; reflect in $y$-axis if $k \lt 0$ |

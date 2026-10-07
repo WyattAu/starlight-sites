@@ -336,10 +336,10 @@ flowchart TD
 
 | Topic                   | Key Formula                                                   |
 | ----------------------- | ------------------------------------------------------------- |
-| Distance                | $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$                    |                                                  |                      |
+| Distance | $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$ |
 | Midpoint                | $M = \left(\dfrac{x_1 + x_2}{2}, \dfrac{y_1 + y_2}{2}\right)$ |                                                  |                      |
 | Point to line           | $d = \dfrac{                                                  \| Ax_0 + By_0 + C                                  \| }{\sqrt{A^2 + B^2}}$ |
-| Circle (standard)       | $(x - a)^2 + (y - b)^2 = r^2$                                 |                                                  |                      |
+| Circle (standard) | $(x - a)^2 + (y - b)^2 = r^2$ |
 | Tangent at $(x_1, y_1)$ | $x_1 x + y_1 y = r^2$ (for circle at origin)                  |                                                  |                      |
 | Triangle area           | $\dfrac{1}{2}                                                 \| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \| $                    |
 

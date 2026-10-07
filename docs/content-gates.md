@@ -215,6 +215,12 @@ states something false, which is worse than one that visibly does not line up.
 These rows are **missing content**, so this is an editorial backlog of
 substance rather than a formatting bug.
 
+The mirror case is different. 227 rows are *over*-wide, and 145 of those are
+one file -- the IB maths syllabus -- whose rows carry six or seven **trailing
+empty cells**. Nothing is missing, so truncating cannot invent anything, and
+GFM was already discarding those cells on render. That repair is mechanical
+and is applied; the short rows are not.
+
 Cell counts ignore escaped pipes (`\|`), pipes inside inline maths, and pipes
 inside code spans, since none of those split cells. `$$ ... $$` blocks are
 skipped entirely: the `table-in-math` damage class emits a `| --- | --- |` row

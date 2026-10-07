@@ -78,10 +78,11 @@ function resizeDelimiter(line, width) {
 let severe = 0
 let advisory = 0
 let escapedRows = 0
+let trimmedRows = 0
 const escapedFiles = new Set()
 const severeFiles = new Set()
 const advisoryFiles = new Set()
-const samples = { severe: [], advisory: [], escaped: [] }
+const samples = { severe: [], advisory: [], escaped: [], trimmed: [] }
 
 for (const file of targets) {
   const lines = readFileSync(file, 'utf8').split('\n')
@@ -143,6 +144,33 @@ for (const file of targets) {
         break
       }
     }
+    // Trailing empty cells are generator padding, and GFM truncates them on
+    // render, so removing them cannot change the output -- unlike trimming
+    // cells that hold content. Applied before the pipe escape so a row that is
+    // only over-wide because of padding is cleaned rather than left malformed.
+    if (header !== null && width > header && !DELIM.test(s)) {
+      const parts = s
+        .slice(1, -1)
+        .split('|')
+        .map(c => c.trim())
+      const excess = parts.slice(header)
+      if (excess.length > 0 && excess.every(c => c === '')) {
+        const kept = parts.slice(0, header)
+        let rebuilt = `| ${kept.join(' | ')} |`
+        while (rebuilt.split('|').length - 2 < header) rebuilt = rebuilt.replace(/\|$/, '| |')
+        out[i] = rebuilt
+        touched = true
+        trimmedRows++
+        if (samples.trimmed.length < 10) {
+          samples.trimmed.push(
+            `${file.replace('sites/', '').replace('/src/content/docs', '')}:${i + 1}  ${width} -> ${header}`,
+          )
+        }
+        i++
+        continue
+      }
+    }
+
     if (header !== null && !DELIM.test(s) && (width > header || hasBarePipeInMath)) {
       const escaped = s.replace(/\$[^$]*\$/g, m => m.replace(/(?<!\\)\|/g, '\\|'))
       if (cells(escaped) === header) {
@@ -203,6 +231,7 @@ console.log(
 for (const s of samples.severe) console.log(`  severe   ${s}`)
 for (const s of samples.advisory) console.log(`  advisory ${s}`)
 for (const s of samples.escaped) console.log(`  escaped  ${s}`)
+for (const s of samples.trimmed) console.log(`  trimmed  ${s}`)
 
 if (check && severe > 0) {
   console.error('Run: node scripts/lint-tables.mjs')

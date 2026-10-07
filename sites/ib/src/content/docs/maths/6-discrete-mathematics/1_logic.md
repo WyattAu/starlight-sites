@@ -529,9 +529,9 @@ Non-negative reals.
 
 | Case | $x$  | $y$  | $xy$  | $    | xy               | $   | $   | x   | \,  | y   | $   |
 | ---- | ---- | ---- | ----- | ---- | ---------------- |
-| 1    | $a$  | $b$  | $ab$  | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
+| 1 | $a$ | $b$ | $ab$ | $ab$ | $a \cdot b = ab$ |
 | 2    | $a$  | $-b$ | $-ab$ | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
-| 3    | $-a$ | $b$  | $-ab$ | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
+| 3 | $-a$ | $b$ | $-ab$ | $ab$ | $a \cdot b = ab$ |
 | 4    | $-a$ | $-b$ | $ab$  | $ab$ | $a \cdot b = ab$ |     |     |     |     |     |     |
 
 In all four cases $|xy| = |x|\,|y|$. $\square$

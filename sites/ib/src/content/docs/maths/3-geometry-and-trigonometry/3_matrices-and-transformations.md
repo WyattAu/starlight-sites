@@ -1201,16 +1201,16 @@ flowchart TD
 
 | Concept                         | Formula / Result                                                                            |
 | ------------------------------- | ------------------------------------------------------------------------------------------- |
-| $2 \times 2$ determinant        | $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$                                |         |     |
+| $2 \times 2$ determinant | $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$ |
 | $2 \times 2$ inverse            | $A^{-1} = \dfrac{1}{\det(A)}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$                 |         |     |
-| $3 \times 3$ inverse            | $A^{-1} = \dfrac{1}{\det(A)}\mathrm{adj}(A)$                                                |         |     |
+| $3 \times 3$ inverse | $A^{-1} = \dfrac{1}{\det(A)}\mathrm{adj}(A)$ |
 | Characteristic equation (2x2)   | $\lambda^2 - \mathrm{tr}(A)\lambda + \det(A) = 0$                                           |         |     |
-| Diagonalisation                 | $A = PDP^{-1}$ Where $D = \mathrm{diag}(\lambda_1, \ldots, \lambda_n)$                       |         |     |
+| Diagonalisation | $A = PDP^{-1}$ Where $D = \mathrm{diag}(\lambda_1, \ldots, \lambda_n)$ |
 | Matrix powers                   | $A^k = PD^kP^{-1}$                                                                          |         |     |
 | Area scale factor               | $                                                                                           \| \det(M) \| $   |
-| Rotation by $\theta$            | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$         |         |     |
+| Rotation by $\theta$ | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$ |
 | Reflection in $y = x\tan\theta$ | $\begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}$ |         |     |
-| Cramer's rule                   | $x_i = \det(A_i)/\det(A)$                                                                   |         |     |
+| Cramer's rule | $x_i = \det(A_i)/\det(A)$ |
 | Steady state of Markov chain    | $\mathbf{s}P = \mathbf{s}$$\sum s_i = 1$                                                    |         |     |
 
 <details>
