@@ -35142,6 +35142,46 @@ URL: https://mathematics.wyattau.com/8-probability-and-statistics/2_random-varia
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What does it mean for $X : \Omega \to \mathbb{R}$ to be a random variable?
+  Which part is the "random" part?
+- State three properties of a cumulative distribution function.
+- What is the difference between a discrete and a continuous random variable?
+- Name a distribution that is neither.
+- What is a moment generating function, and what is it for?
+
+Check your answers against the text. The first prompt is the one most people
+answer wrongly -- the randomness is in $\Omega$ and $P$, not in $X$.
+
+## Motivation: a random variable is not random
+
+The name is a historical accident, and it causes real confusion. A random
+variable is a **deterministic function** from the sample space to the real
+numbers. Nothing about it is random.
+
+The randomness lives in the *outcome*: roll a die and you get a number, and the
+number is whatever the physics gave you. The function $X$ is the bookkeeping
+that turns the outcome into a quantity you care about. If the outcome is
+$\omega = $ "rolled a four", then $X(\omega) = 4$ is certain once $\omega$ is
+known -- it is $\omega$ that was uncertain.
+
+**Why measurability is the definition.** Writing $P(X \le x)$ is shorthand for
+$P(\{\omega : X(\omega) \le x\})$, and that set has to be in
+$\mathcal{F}$ or the probability is undefined. So $X$ must be *measurable*:
+preimages of Borel sets must be events. That single requirement is the whole
+definition, and it is not technicality for its own sake -- it is what stops you
+asking probability questions about sets that cannot be measured (recall the
+Vitali set from [Probability
+Spaces](/8-probability-and-statistics/1_probability-spaces/)).
+
+**Why this matters for what follows.** Everything on this page -- distribution
+functions, densities, moments -- is a statement about the *pushforward* of $P$
+by $X$. A random variable transports probability from the sample space onto the
+real line, and the CDF records where it landed.
+
 ### 2.1 Definition and Distribution Functions
 
 **Definition.** A **random variable** is a measurable function $X : \Omega \to \mathbb{R}$. The
@@ -35299,7 +35339,31 @@ $M \sim \mathrm{Exp}(\lambda)$. $\blacksquare$
 
 </details>
 
-### 2.10 Common Mistakes
+## Counterexamples worth knowing by name
+
+| Distribution | CDF | Density? | MGF near 0? | The point |
+| ------------ | --- | -------- | ----------- | --------- |
+| Bernoulli | step | no (atoms) | yes | the discrete case |
+| Normal | smooth | yes, $e^{-x^2/2}$ | yes | the continuous case everyone knows |
+| Cantor | continuous | **no** | **diverges** | neither discrete nor continuous |
+| Cauchy | smooth | yes, $\frac{1}{\pi(1+x^2)}$ | **no** | a density with no moments |
+| $\delta_0$ (point mass) | step at 0 | no | yes | degenerate but legal |
+
+**The Cantor distribution is the one to remember.** Take $X$ uniform on the
+Cantor set: its CDF is the Cantor function, which is continuous everywhere and
+constant on the complement of the Cantor set. So $X$ is *not* discrete -- it
+takes uncountably many values -- and *not* continuous -- there is no density
+with respect to Lebesgue measure. It is singular, and it is the reason the
+discrete/continuous dichotomy is a simplification rather than a theorem.
+
+**The Cauchy is the one that bites in practice.** It has a perfectly good
+density, so it is a legitimate continuous random variable, and its moment
+generating function does not exist in any neighbourhood of zero because the
+moments themselves are infinite. Any argument that starts "take the MGF of..."
+silently assumes the moments exist. That assumption fails for the most famous
+heavy-tailed distribution in statistics.
+
+## Common Mistakes
 
 **Mistake 1: Confusing $P(A|B)$ with $P(B|A)$.**
 The conditional probability $P(A|B) = P(A \cap B)/P(B)$ is not the same as $P(B|A) = P(A \cap B)/P(A)$. These are equal only when $P(A) = P(B)$. A common error is to assume that if $P(A|B)$ is high, then $P(B|A)$ is also high. This is the basis of the prosecutor's fallacy.
