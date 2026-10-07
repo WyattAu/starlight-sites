@@ -144,7 +144,7 @@ for (const file of targets) {
       }
     }
     if (header !== null && !DELIM.test(s) && (width > header || hasBarePipeInMath)) {
-      const escaped = s.replace(/\$[^$]*\$/g, (m) => m.replace(/(?<!\\)\|/g, '\\\|'))
+      const escaped = s.replace(/\$[^$]*\$/g, m => m.replace(/(?<!\\)\|/g, '\\|'))
       if (cells(escaped) === header) {
         out[i] = escaped
         touched = true

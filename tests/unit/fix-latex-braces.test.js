@@ -64,7 +64,7 @@ const display = (...body) => ['$$', ...body, '$$', ''].join('\n')
 describe('fix-latex-braces: repairs what KaTeX rejects', () => {
   it('unescapes an environment name', () => {
     const out = repair(
-      display(String.raw`\begin\{aligned\}`, String.raw`y &= 1`, String.raw`\end\{aligned\}`),
+      display(String.raw`\begin\{aligned\}`, 'y &= 1', String.raw`\end\{aligned\}`),
     )
     assert.match(out, /\\begin\{aligned\}/)
     assert.match(out, /\\end\{aligned\}/)
@@ -135,7 +135,8 @@ describe('fix-latex-braces: must not touch correct maths', () => {
   })
 
   it('leaves a shell template alone', () => {
-    const src = 'pass `${sourceDir}` on the command line, not $\\frac\\{1\\}\\{2\\}$.\n'
+    const src =
+      'pass `' + '$' + '{sourceDir}' + '`' + ' on the command line, not $\\frac\\{1\\}\\{2\\}$.\n'
     assert.equal(repair(src), src)
   })
 })

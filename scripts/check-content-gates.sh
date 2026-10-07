@@ -30,6 +30,11 @@ run () {
   fi
 }
 
+# Biome runs on the whole repo, not just content, but it is in the deploy gate
+# so it belongs here: a formatting error in a test file fails the rollout as
+# surely as a content defect does.
+run 'biome'                   bunx biome check .
+
 run 'aside directives'        node scripts/lint-asides.js
 run 'mdx parse'               node --max-old-space-size=2048 scripts/lint-mdx-parse.js
 run 'display math delimiters' node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
