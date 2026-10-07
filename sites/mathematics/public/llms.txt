@@ -80,6 +80,10 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 - [Spectral Theory Of Self Adjoint Operators](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/)
 
+## Graduate-Statistics
+
+- [Posterior Asymptotics And Bernstein Von Mises](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)
+
 ## Linear-Algebra
 
 - [Eigenvalues And Eigenvectors](https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors/)

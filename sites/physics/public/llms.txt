@@ -22,6 +22,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Rigid Body Dynamics](https://physics.wyattau.com/1-classical-mechanics/8_rigid-body-dynamics/)
 - [Rigid Body Dynamics Advanced Topics](https://physics.wyattau.com/1-classical-mechanics/10_rigid-body-dynamics-advanced-topics/)
 - [Small Oscillations And Normal Modes](https://physics.wyattau.com/1-classical-mechanics/7_small-oscillations-and-normal-modes/)
+- [Symplectic Structure And Kam Theory](https://physics.wyattau.com/1-classical-mechanics/16_symplectic-structure-and-kam-theory/)
 
 ## Thermal-Physics
 
