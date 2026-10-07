@@ -2699,6 +2699,40 @@ URL: https://physics.wyattau.com/1-classical-mechanics/5_noether-s-theorem-and-c
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory before reading.
+
+- State Noether's theorem in one sentence.
+- Which symmetry gives conservation of momentum? Of angular momentum? Of energy?
+- What does "up to a boundary term" mean in the statement?
+- Is Noether's theorem about symmetries of the equations, or of the Lagrangian?
+
+## Motivation: the dictionary between symmetry and conservation
+
+Before Noether (1918), conservation laws were empirical facts, each proved
+separately: momentum conservation from Newton's third law, energy conservation
+from the work-energy theorem, angular momentum from central forces. Nothing
+connected them.
+
+Noether's theorem says they are all the same phenomenon. A continuous symmetry
+of the action produces a conserved quantity, and each familiar conservation law
+is the conserved quantity for one particular symmetry:
+
+| Symmetry of the Lagrangian | Conserved quantity |
+| -------------------------- | ------------------ |
+| translation in $x$         | linear momentum $p_x$ |
+| translation in $t$         | energy $H$ |
+| rotation about $z$         | angular momentum $L_z$ |
+| Galilean boost             | centre-of-mass motion |
+
+Reading the table backwards is the useful direction. If you can *guess* a
+symmetry, you get a conservation law without solving anything. That is how
+conserved quantities are found in particle physics, where the Lagrangian is
+written down from symmetry requirements rather than from forces -- and it is why
+Emmy Noether's theorem is arguably the most important result in theoretical
+physics.
+
 ### 5.1 Statement of Noether's Theorem
 
 **Theorem 5.1 (Noether's Theorem).** For every continuous symmetry of the action, there is a
@@ -2890,6 +2924,75 @@ The conserved quantity $Q = \sum_j p_j \delta q_j - F$ is not the same as the in
 
 **Mistake 3: Applying Noether's theorem to systems with explicit time dependence in the Lagrangian**
 When the Lagrangian depends explicitly on time, the action is not invariant under time translations, so energy is not conserved. The quantity $h = \sum_j p_j \dot{q}_j - L$ is still well-defined but is not conserved. Students often assume $h$ is always the energy, but it only equals the conserved energy when $\partial L/\partial t = 0$.
+
+## The Galilean boost: a conservation law that surprises people
+
+Boost symmetry is the case where the naive statement is wrong, and it is worth
+working through.
+
+A free particle has $L = \frac12 m \dot x^2$, which is *not* invariant under a
+Galilean boost $x \to x + vt$: the kinetic energy picks up
+$m v \dot x + \frac12 m v^2 t$. But those extra terms are a total time
+derivative, $\frac{d}{dt}(m v x + \frac12 m v^2 t)$, and Noether's theorem is
+stated "up to a boundary term" exactly for this reason.
+
+The conserved quantity is then
+
+$$
+Q = m\dot x - m v,
+$$
+
+which is the momentum in the boosted frame. The boost symmetry gives
+conservation of *the velocity of the centre of mass*, not a new independent
+quantity. Getting this wrong -- expecting a new conserved quantity from every
+transformation -- is the standard error.
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Discrete symmetries give conserved quantities | no | parity is a symmetry of electromagnetism but nothing is conserved by it |
+| Every conserved quantity comes from a symmetry of $q$ | no | momentum can be conserved with no obvious coordinate symmetry |
+| Symmetry of the *equations* is enough | no | the theorem needs symmetry of the *action* |
+| Noether's theorem applies to dissipative systems | no | friction is not derivable from a Lagrangian |
+
+The first row is the one most often asserted wrongly. It is *continuous*
+symmetries only, because the proof differentiates with respect to the
+transformation parameter. Parity is a symmetry and charge conjugation is a
+symmetry, and neither produces a Noether current.
+
+## Where the theorem is used at research level
+
+- **Particle physics.** The Standard Model Lagrangian is written down by
+  requiring invariance under $SU(3) \times SU(2) \times U(1)$. Each gauge
+  symmetry gives a conserved current, and the associated charges are electric
+  charge, weak isospin and colour.
+- **General relativity.** Killing vectors of a spacetime metric play the role of
+  symmetry generators; a Killing vector gives a conserved quantity along
+  geodesics, which is how energy and angular momentum are defined for orbits
+  around a black hole.
+- **Integrable systems.** The solitons of the Korteweg-de Vries equation carry
+  infinitely many conserved quantities, each from a symmetry of a Lax pair --
+  the reason that equation is exactly solvable.
+
+## Interleaving problems
+
+Mix these with material from Lagrangian mechanics, Hamiltonian mechanics and
+the symplectic structure page.
+
+1. (Lagrangian.) Show that for a central potential $V(r)$ the Lagrangian is
+   invariant under rotations, and recover conservation of $L_z$ from Noether's
+   theorem.
+2. (Hamiltonian.) Show that if $G$ generates a symmetry then $\{G, H\} = 0$,
+   connecting the Poisson-bracket statement of conservation to Noether's.
+3. (Relativity.) Show that the Lagrangian of a free relativistic particle,
+   $L = -mc^2\sqrt{1 - v^2/c^2}$, is invariant under Lorentz boosts up to a
+   boundary term, and identify the conserved quantity.
+4. (Fields.) For a complex scalar field with $L = |\partial\phi|^2 - m^2|\phi|^2$,
+   show that invariance under $\phi \to e^{i\alpha}\phi$ gives a conserved
+   current $j^\mu$, and compute the charge.
+5. (Symplectic structure.) Show that a symmetry generated by $G$ preserves the
+   symplectic form, connecting Noether's theorem to the geometry of phase space.
 
 ## Cross-References
 
