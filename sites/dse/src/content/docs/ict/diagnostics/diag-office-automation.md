@@ -209,9 +209,9 @@ each). Recommend an appropriate method and justify.
 
 | (a)             | Aspect                                                                           | Cloud Collaborative                                                                    | File Sharing (Email) |
 | --------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------- |
-| Version control | Automatic version history; real-time changes tracked per user                    | Manual (Save As, naming conventions); easy to overwrite; multiple conflicting versions |
-| Concurrency     | Multiple users edit simultaneously; real-time collaboration; conflict resolution | Sequential only; one person at a time; merge conflicts                                 |
-| Security        | Data stored on third-party servers; access controlled by service provider        | Data in transit (email) and at rest (local); controlled by sender's security practices |
+|  | Version control | Automatic version history; real-time changes tracked per user                    | Manual (Save As, naming conventions); easy to overwrite; multiple conflicting versions |
+|  | Concurrency     | Multiple users edit simultaneously; real-time collaboration; conflict resolution | Sequential only; one person at a time; merge conflicts                                 |
+|  | Security        | Data stored on third-party servers; access controlled by service provider        | Data in transit (email) and at rest (local); controlled by sender's security practices |
 
 (b) Three risks: (1) **Data jurisdiction:** Data may be stored in servers located in other
 countries, subject to foreign data protection laws and government access requests. (2) **Data

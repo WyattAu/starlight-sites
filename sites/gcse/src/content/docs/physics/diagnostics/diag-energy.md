@@ -177,10 +177,10 @@ $A = \pi r^2$). (d) Explain why no energy resource is completely free of environ
 
 | (a)                  | Aspect                                                           | Solar                                              | Wind |
 | -------------------- | ---------------------------------------------------------------- | -------------------------------------------------- | ---- |
-| Type                 | Renewable (electromagnetic radiation)                            | Renewable (kinetic energy of air)                  |
-| Reliability          | Intermittent (day/night, weather dependent)                      | Intermittent (variable wind speeds)                |
-| Environmental impact | Land use, manufacturing (mining for silicon), disposal of panels | Visual impact, noise, bird/bat mortality, land use |
-| Typical output       | 200--400 W per panel (residential)                               | 2--5 MW per turbine (utility scale)                |
+|  | Type                 | Renewable (electromagnetic radiation)                            | Renewable (kinetic energy of air)                  |
+|  | Reliability          | Intermittent (day/night, weather dependent)                      | Intermittent (variable wind speeds)                |
+|  | Environmental impact | Land use, manufacturing (mining for silicon), disposal of panels | Visual impact, noise, bird/bat mortality, land use |
+|  | Typical output       | 200--400 W per panel (residential)                               | 2--5 MW per turbine (utility scale)                |
 
 (b) Power
 $= \text{irradiance \times \text{area \times \text{efficiency = 800 \times 10 \times 0.18 = 1440$ W

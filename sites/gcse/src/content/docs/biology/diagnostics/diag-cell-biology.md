@@ -36,13 +36,13 @@ structures.
 
 | (b)               | Feature                   | Animal Cell                          | Plant Cell |
 | ----------------- | ------------------------- | ------------------------------------ | ---------- |
-| Cell wall         | Absent                    | Present (made of cellulose)          |
-| Chloroplasts      | Absent                    | Present (for photosynthesis)         |
-| Permanent vacuole | Small, temporary (if any) | Large, central, filled with cell sap |
-| Shape             | Irregular, flexible       | Fixed, rectangular                   |
-| Nucleus           | Present                   | Present                              |
-| Mitochondria      | Present                   | Present                              |
-| Cell membrane     | Present                   | Present (inside cell wall)           |
+|  | Cell wall         | Absent                    | Present (made of cellulose)          |
+|  | Chloroplasts      | Absent                    | Present (for photosynthesis)         |
+|  | Permanent vacuole | Small, temporary (if any) | Large, central, filled with cell sap |
+|  | Shape             | Irregular, flexible       | Fixed, rectangular                   |
+|  | Nucleus           | Present                   | Present                              |
+|  | Mitochondria      | Present                   | Present                              |
+|  | Cell membrane     | Present                   | Present (inside cell wall)           |
 
 (c) **Mitochondria:** Site of aerobic respiration, where glucose and oxygen are converted to ATP
 (energy). They have a double membrane with folds (cristae) to increase surface area for the chemical

@@ -65,10 +65,10 @@ O$_2$ consumed $=$ CO$_2$ produced $= 360$ L/hour.
 
 | (c)       | Feature                     | Aerobic                 | Anaerobic (animal)      | Anaerobic (yeast) |
 | --------- | --------------------------- | ----------------------- | ----------------------- | ----------------- |
-| ATP yield | High (~38 ATP per glucose)  | Low (2 ATP per glucose) | Low (2 ATP per glucose) |
-| Oxygen    | Required                    | Not required            | Not required            |
-| Products  | CO$_2$ + H$_2$O             | Lactic acid             | Ethanol + CO$_2$        |
-| Speed     | Slower (complete breakdown) | Faster (quick energy)   | Slower than aerobic     |
+|  | ATP yield | High (~38 ATP per glucose)  | Low (2 ATP per glucose) | Low (2 ATP per glucose) |
+|  | Oxygen    | Required                    | Not required            | Not required            |
+|  | Products  | CO$_2$ + H$_2$O             | Lactic acid             | Ethanol + CO$_2$        |
+|  | Speed     | Slower (complete breakdown) | Faster (quick energy)   | Slower than aerobic     |
 
 (d) In **bread-making**, yeast undergoes anaerobic respiration (fermentation), producing CO$_2$ gas.
 The CO$_2$ gets trapped in the dough, causing it to rise (leavening). The ethanol evaporates during

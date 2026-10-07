@@ -8282,10 +8282,10 @@ O$_2$ consumed $=$ CO$_2$ produced $= 360$ L/hour.
 
 | (c)       | Feature                     | Aerobic                 | Anaerobic (animal)      | Anaerobic (yeast) |
 | --------- | --------------------------- | ----------------------- | ----------------------- | ----------------- |
-| ATP yield | High (~38 ATP per glucose)  | Low (2 ATP per glucose) | Low (2 ATP per glucose) |
-| Oxygen    | Required                    | Not required            | Not required            |
-| Products  | CO$_2$ + H$_2$O             | Lactic acid             | Ethanol + CO$_2$        |
-| Speed     | Slower (complete breakdown) | Faster (quick energy)   | Slower than aerobic     |
+|  | ATP yield | High (~38 ATP per glucose)  | Low (2 ATP per glucose) | Low (2 ATP per glucose) |
+|  | Oxygen    | Required                    | Not required            | Not required            |
+|  | Products  | CO$_2$ + H$_2$O             | Lactic acid             | Ethanol + CO$_2$        |
+|  | Speed     | Slower (complete breakdown) | Faster (quick energy)   | Slower than aerobic     |
 
 (d) In **bread-making**, yeast undergoes anaerobic respiration (fermentation), producing CO$_2$ gas.
 The CO$_2$ gets trapped in the dough, causing it to rise (leavening). The ethanol evaporates during
@@ -8511,13 +8511,13 @@ structures.
 
 | (b)               | Feature                   | Animal Cell                          | Plant Cell |
 | ----------------- | ------------------------- | ------------------------------------ | ---------- |
-| Cell wall         | Absent                    | Present (made of cellulose)          |
-| Chloroplasts      | Absent                    | Present (for photosynthesis)         |
-| Permanent vacuole | Small, temporary (if any) | Large, central, filled with cell sap |
-| Shape             | Irregular, flexible       | Fixed, rectangular                   |
-| Nucleus           | Present                   | Present                              |
-| Mitochondria      | Present                   | Present                              |
-| Cell membrane     | Present                   | Present (inside cell wall)           |
+|  | Cell wall         | Absent                    | Present (made of cellulose)          |
+|  | Chloroplasts      | Absent                    | Present (for photosynthesis)         |
+|  | Permanent vacuole | Small, temporary (if any) | Large, central, filled with cell sap |
+|  | Shape             | Irregular, flexible       | Fixed, rectangular                   |
+|  | Nucleus           | Present                   | Present                              |
+|  | Mitochondria      | Present                   | Present                              |
+|  | Cell membrane     | Present                   | Present (inside cell wall)           |
 
 (c) **Mitochondria:** Site of aerobic respiration, where glucose and oxygen are converted to ATP
 (energy). They have a double membrane with folds (cristae) to increase surface area for the chemical
@@ -36507,10 +36507,10 @@ $A = \pi r^2$). (d) Explain why no energy resource is completely free of environ
 
 | (a)                  | Aspect                                                           | Solar                                              | Wind |
 | -------------------- | ---------------------------------------------------------------- | -------------------------------------------------- | ---- |
-| Type                 | Renewable (electromagnetic radiation)                            | Renewable (kinetic energy of air)                  |
-| Reliability          | Intermittent (day/night, weather dependent)                      | Intermittent (variable wind speeds)                |
-| Environmental impact | Land use, manufacturing (mining for silicon), disposal of panels | Visual impact, noise, bird/bat mortality, land use |
-| Typical output       | 200--400 W per panel (residential)                               | 2--5 MW per turbine (utility scale)                |
+|  | Type                 | Renewable (electromagnetic radiation)                            | Renewable (kinetic energy of air)                  |
+|  | Reliability          | Intermittent (day/night, weather dependent)                      | Intermittent (variable wind speeds)                |
+|  | Environmental impact | Land use, manufacturing (mining for silicon), disposal of panels | Visual impact, noise, bird/bat mortality, land use |
+|  | Typical output       | 200--400 W per panel (residential)                               | 2--5 MW per turbine (utility scale)                |
 
 (b) Power
 $= \text{irradiance \times \text{area \times \text{efficiency = 800 \times 10 \times 0.18 = 1440$ W

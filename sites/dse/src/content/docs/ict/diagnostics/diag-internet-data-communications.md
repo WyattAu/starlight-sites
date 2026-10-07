@@ -40,13 +40,13 @@ down to the physical layer.
 
 | (a) | Layer        | Name                                                               | Primary Function |
 | --- | ------------ | ------------------------------------------------------------------ | ---------------- |
-| 7   | Application  | Provides network services directly to user applications            |
-| 6   | Presentation | Data formatting, encryption, compression, character encoding       |
-| 5   | Session      | Establishes, manages, and terminates sessions between applications |
-| 4   | Transport    | End-to-end reliable (TCP) or unreliable (UDP) data delivery        |
-| 3   | Network      | Logical addressing (IP) and routing between networks               |
-| 2   | Data Link    | Framing, MAC addressing, error detection (node-to-node delivery)   |
-| 1   | Physical     | Physical transmission of raw bits over a medium                    |
+|  | 7   | Application  | Provides network services directly to user applications            |
+|  | 6   | Presentation | Data formatting, encryption, compression, character encoding       |
+|  | 5   | Session      | Establishes, manages, and terminates sessions between applications |
+|  | 4   | Transport    | End-to-end reliable (TCP) or unreliable (UDP) data delivery        |
+|  | 3   | Network      | Logical addressing (IP) and routing between networks               |
+|  | 2   | Data Link    | Framing, MAC addressing, error detection (node-to-node delivery)   |
+|  | 1   | Physical     | Physical transmission of raw bits over a medium                    |
 
 (b) HTTP: Layer 7 (Application). TCP: Layer 4 (Transport). IP: Layer 3 (Network). Ethernet: Layer 2
 (Data Link) and Layer 1 (Physical). MAC address: Layer 2 (Data Link). Router: Layer 3 (Network).
@@ -77,9 +77,9 @@ switch.
 
 | (a)      | Topology                                                   | Cost                                                                               | Fault Tolerance                                      | Scalability |
 | -------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------- | ----------- |
-| **Star** | Medium (requires central switch/hub and individual cables) | High (one cable failure affects only one node; central device failure affects all) | Good (easy to add/remove nodes)                      |
-| **Bus**  | Low (single backbone cable, simple)                        | Low (single cable failure brings down the entire network)                          | Poor (adding nodes disrupts the network)             |
-| **Mesh** | High (many cables or wireless links)                       | Very high (multiple paths between nodes; single failure does not disconnect)       | Complex (adding nodes requires many new connections) |
+|  | **Star** | Medium (requires central switch/hub and individual cables) | High (one cable failure affects only one node; central device failure affects all) | Good (easy to add/remove nodes)                      |
+|  | **Bus**  | Low (single backbone cable, simple)                        | Low (single cable failure brings down the entire network)                          | Poor (adding nodes disrupts the network)             |
+|  | **Mesh** | High (many cables or wireless links)                       | Very high (multiple paths between nodes; single failure does not disconnect)       | Complex (adding nodes requires many new connections) |
 
 (b) Star network: 8 cables (one from each computer to the central switch). If one cable fails, only
 **1 computer** is affected (the one connected by that cable). All other 7 computers continue to
@@ -235,9 +235,9 @@ customers and how to mitigate each.
 
 | (a)                | Standard  | Max Speed             | Frequency                                                                                                                 | Key Improvements |
 | ------------------ | --------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| 802.11n (Wi-Fi 4)  | 600 Mbps  | 2.4 GHz, 5 GHz        | MIMO (multiple antennas), wider channels                                                                                  |
-| 802.11ac (Wi-Fi 5) | 6.93 Gbps | 5 GHz                 | MU-MIMO (multi-user), wider 160 MHz channels, 256-QAM                                                                     |
-| 802.11ax (Wi-Fi 6) | 9.6 Gbps  | 2.4 GHz, 5 GHz, 6 GHz | OFDMA (orthogonal frequency division multiple access), target wake time (power saving), BSS coloring (dense environments) |
+|  | 802.11n (Wi-Fi 4)  | 600 Mbps  | 2.4 GHz, 5 GHz        | MIMO (multiple antennas), wider channels                                                                                  |
+|  | 802.11ac (Wi-Fi 5) | 6.93 Gbps | 5 GHz                 | MU-MIMO (multi-user), wider 160 MHz channels, 256-QAM                                                                     |
+|  | 802.11ax (Wi-Fi 6) | 9.6 Gbps  | 2.4 GHz, 5 GHz, 6 GHz | OFDMA (orthogonal frequency division multiple access), target wake time (power saving), BSS coloring (dense environments) |
 
 (b) WPA3 improvements over WPA2:
 
