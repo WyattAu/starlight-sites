@@ -42860,7 +42860,7 @@ prediction errors:
 | Loss Function | Formula                              | Sensitivity          | Use Case                       |
 | ------------- | ------------------------------------ | -------------------- | ------------------------------ |
 | Squared (L2)  | $\sum (y_n - \hat{y}_n)^2$           | High to outliers     | Gaussian noise assumption      |
-| Absolute (L1) | $\sum                                | y_n - \hat{y}\_n     | $                              | Robust to outliers | Laplacian noise assumption |
+| Absolute (L1) | $\sum                                \| y_n - \hat{y}\_n     \| $                              | Robust to outliers | Laplacian noise assumption |
 | Huber         | Hybrid L1/L2 with threshold $\delta$ | Tunable              | Balanced robustness/smoothness |
 | Cross-entropy | $-\sum y_n \log \hat{y}_n$           | N/A (classification) | Probabilistic classification   |
 

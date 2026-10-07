@@ -657,13 +657,13 @@ computationally infeasible in sufficiently large groups.
 | Group                           | Set + associative binary operation with identity and inverses                              |
 | Abelian group                   | Group with commutative operation                                                           |
 | Subgroup                        | Subset closed under the group operation and inverses                                       |
-| Lagrange's theorem              | $                                                                                          | H   | $ divides $ | G                     | $ for $H \leq G$                                                  |
+| Lagrange's theorem              | $                                                                                          \| H   \| $ divides $ \| G                     \| $ for $H \leq G$                                                  |
 | Coset                           | $aH = \{ah : h \in H\}$; partitions $G$ into equal-size subsets                            |
 | Normal subgroup                 | $aha^{-1} \in H$ for all $a \in G, h \in H$                                                |
 | Quotient group                  | $G/N$ inherits group structure when $N \triangleleft G$                                    |
 | Conjugacy class                 | Equivalence class under $a \sim gag^{-1}$                                                  |
-| Class equation                  | $                                                                                          | G   | =           | Z(G)                  | + \sum [G : C_G(g_i)]$; proves $p$-groups have non-trivial centre |
-| Group action                    | $G$ acts on $X$ with orbit-stabiliser $                                                    | G   | =           | \operatorname{Orb}(x) | \cdot                                                             | \operatorname{Stab}(x) | $   |
+| Class equation                  | $                                                                                          \| G   \| =           \| Z(G)                  \| + \sum [G : C_G(g_i)]$; proves $p$-groups have non-trivial centre |
+| Group action                    | $G$ acts on $X$ with orbit-stabiliser $                                                    \| G   \| =           \| \operatorname{Orb}(x) \| \cdot                                                             \| \operatorname{Stab}(x) \| $   |
 | Homomorphism                    | $\phi(ab) = \phi(a)\phi(b)$; kernel is normal, image is a subgroup                         |
 | First isomorphism theorem       | $G/\ker(\phi) \cong \operatorname{im}(\phi)$                                               |
 | Cayley's theorem                | Every group embeds into a symmetric group                                                  |

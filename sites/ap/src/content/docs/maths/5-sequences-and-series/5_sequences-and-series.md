@@ -58,8 +58,8 @@ Monotone decreasing sequence that is not bounded below diverges to $-\infty$.
 | Sequence                               | Convergence | Limit   |
 | -------------------------------------- | ----------- | ------- |
 | $a_n = \frac{1}{n}$                    | Converges   | $0$     |
-| $a_n = r^n$ ($                         | r           | \lt 1$) | Converges | $0$ |
-| $a_n = r^n$ ($                         | r           | \ge 1$) | Diverges  | --  |
+| $a_n = r^n$ ($                         \| r           \| \lt 1$) | Converges | $0$ |
+| $a_n = r^n$ ($                         \| r           \| \ge 1$) | Diverges  | --  |
 | $a_n = \left(1 + \frac{1}{n}\right)^n$ | Converges   | $e$     |
 | $a_n = \frac{n!}{n^n}$                 | Converges   | $0$     |
 | $a_n = (-1)^n$                         | Diverges    | --      |

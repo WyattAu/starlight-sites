@@ -23,7 +23,7 @@ description: "Study notes for Summary of Key Results | Mathematics with worked e
 | ---------------------- | ----------------------------------------- | ---------------------------------------- |
 | Monotone Convergence   | $0 \leq f_n \nearrow f$                   | $\lim \int f_n = \int f$                 |
 | Fatou's Lemma          | $f_n \geq 0$                              | $\int \liminf f_n \leq \liminf \int f_n$ |
-| Dominated Convergence  | $f_n \to f$, $                            | f_n                                      | \leq g \in L^1$ | $\lim \int f_n = \int f$ |
+| Dominated Convergence  | $f_n \to f$, $                            \| f_n                                      \| \leq g \in L^1$ | $\lim \int f_n = \int f$ |
 | Holder's Inequality    | $f \in L^p$, $g \in L^q$, $1/p + 1/q = 1$ | $\|fg\|_1 \leq \|f\|_p \|g\|_q$          |
 | Minkowski's Inequality | $f, g \in L^p$                            | $\|f + g\|_p \leq \|f\|_p + \|g\|_p$     |
 | Fubini                 | $f \in L^1(\mu \times \nu)$               | Iterated integrals equal double integral |
@@ -149,23 +149,23 @@ the Radon-Nikodym theorem connects measures via densities.
 | Measure | Countably additive set function | Lebesgue measure, counting measure |
 | Measurable function | Preimage of Borel set is measurable | Continuous functions, indicator functions |
 | Almost everywhere | Property holds except on a null set | $f = g$ a.e. |
-| $L^p$ space | $\{f : \int | f | ^p < \infty\}$ modulo a.e. equality | $L^1$, $L^2$, $L^\infty$ |
+| $L^p$ space | $\{f : \int \| f \| ^p < \infty\}$ modulo a.e. equality | $L^1$, $L^2$, $L^\infty$ |
 
 ### Quick Reference: Convergence Modes
 
 | Mode of convergence | Definition | Relation to others |
 | -------------------- | ----------- | ------------------- |
 | Pointwise a.e. | $f_n(x) \to f(x)$ for almost every $x$ | Weakest |
-| Uniform | $\sup_x | f_n(x) - f(x) | \to 0$ | Implies pointwise |
+| Uniform | $\sup_x \| f_n(x) - f(x) \| \to 0$ | Implies pointwise |
 | $L^p$ | $\|f_n - f\|_p \to 0$ | Implies convergence in measure |
-| In measure | $\mu\{ | f_n - f | > \varepsilon\} \to 0$ | Has a subsequence converging a.e. |
+| In measure | $\mu\{ \| f_n - f \| > \varepsilon\} \to 0$ | Has a subsequence converging a.e. |
 | Weak $L^p$ | $\int f_n g \to \int f g$ for all $g \in L^q$ | Weakest of the $L^p$ modes |
 
 ### Key Inequalities
 
 | Inequality | Statement | Use case |
 | ----------- | ----------- | ---------- |
-| Chebyshev | $\mu( | f | \geq t) \leq \|f\|_p^p / t^p$ | Markov-type bounds |
+| Chebyshev | $\mu( \| f \| \geq t) \leq \|f\|_p^p / t^p$ | Markov-type bounds |
 | Young | $ab \leq a^p/p + b^q/q$ | Proving H\"older |
 | H\"older | $\|fg\|_1 \leq \|f\|_p \|g\|_q$ | Duality of $L^p$ spaces |
 | Minkowski | $\|f+g\|_p \leq \|f\|_p + \|g\|_p$ | Triangle inequality |

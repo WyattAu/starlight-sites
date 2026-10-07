@@ -1207,7 +1207,7 @@ flowchart TD
 | Characteristic equation (2x2)   | $\lambda^2 - \mathrm{tr}(A)\lambda + \det(A) = 0$                                           |         |     |
 | Diagonalisation                 | $A = PDP^{-1}$ Where $D = \mathrm{diag}(\lambda_1, \ldots, \lambda_n)$                       |         |     |
 | Matrix powers                   | $A^k = PD^kP^{-1}$                                                                          |         |     |
-| Area scale factor               | $                                                                                           | \det(M) | $   |
+| Area scale factor               | $                                                                                           \| \det(M) \| $   |
 | Rotation by $\theta$            | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$         |         |     |
 | Reflection in $y = x\tan\theta$ | $\begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}$ |         |     |
 | Cramer's rule                   | $x_i = \det(A_i)/\det(A)$                                                                   |         |     |

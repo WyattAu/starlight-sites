@@ -949,7 +949,7 @@ Integration by parts is the reverse of the product rule, allowing you to transfe
 | Pitfall                                                                         | Correct Approach                                                                             |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Forgetting the chain rule when differentiating composite inverse trig functions | Always write $\dfrac{d}{dx}\!\left[\arcsin(u)\right] = \dfrac{u'}{\sqrt{1-u^2}}$ |
-| Using $\ln                                                                      | x                                                                                            | $ before checking if the integral is improper | Check for discontinuities in the interval first |
+| Using $\ln                                                                      \| x                                                                                            \| $ before checking if the integral is improper | Check for discontinuities in the interval first |
 | Forgetting $+C$ on every antiderivative                                         | Every indefinite integral needs an arbitrary constant                                        |
 | Applying reduction formulae without checking the base case                      | Always state $I_0$ or $I_1$ explicitly                                                       |
 | Confusing $\dfrac{d^n y}{dx^n}$ notation with $\left(\dfrac{dy}{dx}\right)^n$   | $\dfrac{d^n y}{dx^n}$ is the $n$-th derivative, not the $n$-th power                         |
@@ -1137,7 +1137,7 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 
 | Form                                                          | Result                    |
 | ------------------------------------------------------------- | ------------------------- |
-| $\displaystyle\int \frac{f'(x)}{f(x)}\,dx$                    | $\ln                      | f(x) | + C$ |
+| $\displaystyle\int \frac{f'(x)}{f(x)}\,dx$                    | $\ln                      \| f(x) \| + C$ |
 | $\displaystyle\int \frac{f'(x)}{\sqrt{f(x)}}\,dx$ | $2\sqrt{f(x)} + C$        |
 | $\displaystyle\int f(x) \cdot f'(x)\,dx$                      | $\dfrac{[f(x)]^2}{2} + C$ |
 

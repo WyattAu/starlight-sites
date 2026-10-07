@@ -135,7 +135,7 @@ $a \lt m/n \lt b$.
 | $\cap$            | Intersection                                   |
 | $A"$ or $\bar{A}$ | Complement of $A$                              |
 | $\emptyset$       | Empty set                                      |
-| $                 | A                                              | $   | Cardinality of $A$ |
+| $                 \| A                                              \| $   | Cardinality of $A$ |
 | $A \setminus B$   | $A$ minus $B$ (elements in $A$ but not in $B$) |
 
 **Subset vs. Proper subset.** $A \subset B$ allows $A = B$. $A \subsetneq B$ requires $A \neq B$.

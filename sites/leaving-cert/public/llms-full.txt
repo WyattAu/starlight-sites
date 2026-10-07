@@ -17374,7 +17374,7 @@ For $a < 0$ Add $\pi$ to get the correct quadrant.
 | Quadrant | $a$   | $b$   | $\arg(z)$             |
 | -------- | ----- | ----- | --------------------- |
 | I        | $> 0$ | $> 0$ | $\arctan(b/a)$        |
-| II       | $< 0$ | $> 0$ | $\pi - \arctan(b/     | a   | )$  |
+| II       | $< 0$ | $> 0$ | $\pi - \arctan(b/     \| a   \| )$  |
 | III      | $< 0$ | $< 0$ | $-\pi + \arctan(b/a)$ |
 | IV       | $> 0$ | $< 0$ | $-\arctan(b/a)$       |
 
@@ -18214,7 +18214,7 @@ $$
 | ------------- | ------------------------- |
 | $x^n$         | $\frac{x^{n+1}}{n+1} + C$ |
 | $e^x$         | $e^x + C$                 |
-| $\frac{1}{x}$ | $\ln                      | x   | + C$ |
+| $\frac{1}{x}$ | $\ln                      \| x   \| + C$ |
 | $\cos x$      | $\sin x + C$              |
 | $\sin x$      | $-\cos x + C$             |
 | $\sec^2 x$    | $\tan x + C$              |
@@ -20137,7 +20137,7 @@ $a \lt m/n \lt b$.
 | $\cap$            | Intersection                                   |
 | $A"$ or $\bar{A}$ | Complement of $A$                              |
 | $\emptyset$       | Empty set                                      |
-| $                 | A                                              | $   | Cardinality of $A$ |
+| $                 \| A                                              \| $   | Cardinality of $A$ |
 | $A \setminus B$   | $A$ minus $B$ (elements in $A$ but not in $B$) |
 
 **Subset vs. Proper subset.** $A \subset B$ allows $A = B$. $A \subsetneq B$ requires $A \neq B$.
@@ -21121,7 +21121,7 @@ These concepts are frequently confused:
 | ------------------- | ------------------------------------------- | ------------------ |
 | Definition          | $P(A \cap B) = P(A)P(B)$                    | $P(A \cap B) = 0$  |
 | Meaning             | Occurrence of one does not affect the other | Cannot both occur  |
-| If $P(A), P(B) > 0$ | $P(A                                        | B) = P(A)$         | $P(A | B) = 0$ |
+| If $P(A), P(B) > 0$ | $P(A                                        \| B) = P(A)$         | $P(A \| B) = 0$ |
 
 **Important:** If two events with positive probability are mutually exclusive, they cannot be
 Independent (since $P(A \cap B) = 0 \neq P(A)P(B)$ when both probabilities are positive).

@@ -150,7 +150,7 @@ flowchart TD
 | Homomorphism | $\phi(ab) = \phi(a)\phi(b)$ | $\det: GL(n,\mathbb{R}) \to \mathbb{R}^\times$ |
 | Kernel | $\{g \in G : \phi(g) = e\}$ | $SL(n,\mathbb{R}) \trianglelefteq GL(n,\mathbb{R})$ |
 | Group action | $G \times X \to X$ compatible with group op | $S_n$ acting on $\{1,\ldots,n\}$ |
-| Orbit | $G \cdot x = \{gx : g \in G\}$ | Size divides $ | G | $ |
+| Orbit | $G \cdot x = \{gx : g \in G\}$ | Size divides $ \| G \| $ |
 | Stabilizer | $G_x = \{g \in G : gx = x\}$ | Subgroup of $G$ |
 
 ### Ring and Field Theory Quick Reference

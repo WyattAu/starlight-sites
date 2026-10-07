@@ -77,9 +77,11 @@ function resizeDelimiter(line, width) {
 
 let severe = 0
 let advisory = 0
+let escapedRows = 0
+const escapedFiles = new Set()
 const severeFiles = new Set()
 const advisoryFiles = new Set()
-const samples = { severe: [], advisory: [] }
+const samples = { severe: [], advisory: [], escaped: [] }
 
 for (const file of targets) {
   const lines = readFileSync(file, 'utf8').split('\n')
@@ -120,6 +122,42 @@ for (const file of targets) {
     }
 
     const width = cells(line)
+
+    // An over-wide row is usually a table cell whose maths contains an
+    // unescaped pipe: `$\ln|x|$` splits into three cells at the two pipes,
+    // and a fragment beginning with `<` is then read by MDX as a JSX element,
+    // which fails the whole site's build. Escaping pipes inside the maths
+    // spans is the repair, and it is only applied when it makes the row match
+    // the header exactly -- so a genuinely over-wide row is left alone.
+    // The trigger is not `width > header`. `cells()` strips pipes inside maths
+    // so that it counts *logical* cells, but MDX splits on *physical* pipes --
+    // the two disagree exactly when this defect is present, which means the row
+    // can look well-formed here while still failing the build. So the trigger is
+    // an over-wide row, or any row whose maths contains a bare pipe.
+    // Tested per span rather than on the whole line: `[^$]*` between two spans
+    // can span a cell boundary, which would flag every multi-cell row.
+    let hasBarePipeInMath = false
+    for (const span of s.match(/\$[^$]*\$/g) ?? []) {
+      if (span.includes('|')) {
+        hasBarePipeInMath = true
+        break
+      }
+    }
+    if (header !== null && !DELIM.test(s) && (width > header || hasBarePipeInMath)) {
+      const escaped = s.replace(/\$[^$]*\$/g, (m) => m.replace(/(?<!\\)\|/g, '\\\|'))
+      if (cells(escaped) === header) {
+        out[i] = escaped
+        touched = true
+        escapedRows++
+        escapedFiles.add(file)
+        if (samples.escaped.length < 12) {
+          samples.escaped.push(
+            `${file.replace('sites/', '').replace('/src/content/docs', '')}:${i + 1}  ${width} -> ${header}  ${s.slice(0, 52)}`,
+          )
+        }
+      }
+      continue
+    }
 
     // Header row: the first row of a table, immediately followed by a
     // delimiter row.
@@ -164,6 +202,7 @@ console.log(
 )
 for (const s of samples.severe) console.log(`  severe   ${s}`)
 for (const s of samples.advisory) console.log(`  advisory ${s}`)
+for (const s of samples.escaped) console.log(`  escaped  ${s}`)
 
 if (check && severe > 0) {
   console.error('Run: node scripts/lint-tables.mjs')

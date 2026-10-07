@@ -239,7 +239,7 @@ These concepts are frequently confused:
 | ------------------- | ------------------------------------------- | ------------------ |
 | Definition          | $P(A \cap B) = P(A)P(B)$                    | $P(A \cap B) = 0$  |
 | Meaning             | Occurrence of one does not affect the other | Cannot both occur  |
-| If $P(A), P(B) > 0$ | $P(A                                        | B) = P(A)$         | $P(A | B) = 0$ |
+| If $P(A), P(B) > 0$ | $P(A                                        \| B) = P(A)$         | $P(A \| B) = 0$ |
 
 **Important:** If two events with positive probability are mutually exclusive, they cannot be
 Independent (since $P(A \cap B) = 0 \neq P(A)P(B)$ when both probabilities are positive).

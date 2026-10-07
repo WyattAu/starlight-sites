@@ -72572,8 +72572,8 @@ Path, contradiction. $\square$
 
 | Problem      | Heuristic                      | Admissible? |
 | ------------ | ------------------------------ | ----------- |
-| Grid (4-dir) | Manhattan distance: $          | x_1 - x_2   | +   | y_1 - y_2 | $   | Yes |
-| Grid (8-dir) | Chebyshev distance: $\max(     | dx          | ,   | dy        | )$  | Yes |
+| Grid (4-dir) | Manhattan distance: $          \| x_1 - x_2   \| +   \| y_1 - y_2 \| $   | Yes |
+| Grid (8-dir) | Chebyshev distance: $\max(     \| dx          \| ,   \| dy        \| )$  | Yes |
 | Euclidean    | Straight-line distance         | Yes         |
 | General      | MST cost to goal (precomputed) | Yes         |
 
@@ -122614,7 +122614,7 @@ $\blacksquare$
 | Pitfall                                                           | Correct Approach                                                                                             |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Forgetting that $\arg(z)$ is measured from the positive real axis | $\arg(z)$ is the angle anticlockwise from the positive $x$-axis, range $(-\pi, \pi]$ or $[0, 2\pi)$          |
-| Confusing $                                                       | z-w                                                                                                          | $ with $ | z   | -   | w   | $   | $   | z-w | $ is the distance between $z$ and $w$; $ | z-w | \neq | z   | -   | w   | $   |
+| Confusing $                                                       \| z-w                                                                                                          \| $ with $ \| z   \| -   \| w   \| $   | $   \| z-w \| $ is the distance between $z$ and $w$; $ \| z-w \| \neq \| z   \| -   \| w   \| $   |
 | Missing roots when solving $z^n = w$                              | There are always exactly $n$ distinct roots; check your $k$ values cover $0$ to $n-1$                        |
 | Incorrectly applying de Moivre to non-integer powers              | De Moivre's theorem $(\cos\theta + i\sin\theta)^n = \cos n\theta + i\sin n\theta$ holds for integer $n$ only |
 
@@ -122723,13 +122723,13 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 
 | Result                        | Formula                                                   |
 | ----------------------------- | --------------------------------------------------------- |
-| Modulus                       | $                                                         | z   | = \sqrt{a^2+b^2}$ for $z = a+bi$ |
+| Modulus                       | $                                                         \| z   \| = \sqrt{a^2+b^2}$ for $z = a+bi$ |
 | Argument                      | $\arg(z) = \arctan(b/a)$ (adjusting for quadrant)         |
 | Euler's formula               | $e^{i\theta} = \cos\theta+i\sin\theta$                    |
 | De Moivre                     | $(\cos\theta+i\sin\theta)^n = \cos n\theta+i\sin n\theta$ |
 | $n$-th roots of unity         | $z_k = e^{2\pi ik/n}$, $k = 0, \ldots, n-1$               |
-| Locus: circle                 | $                                                         | z-a | =r$                              |
-| Locus: perpendicular bisector | $                                                         | z-a | =                                | z-b | $   |
+| Locus: circle                 | $                                                         \| z-a \| =r$                              |
+| Locus: perpendicular bisector | $                                                         \| z-a \| =                                \| z-b \| $   |
 | Locus: half-line              | $\arg(z-a) = \theta$                                      |
 
 ---
@@ -130263,7 +130263,7 @@ Integration by parts is the reverse of the product rule, allowing you to transfe
 | Pitfall                                                                         | Correct Approach                                                                             |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Forgetting the chain rule when differentiating composite inverse trig functions | Always write $\dfrac{d}{dx}\!\left[\arcsin(u)\right] = \dfrac{u'}{\sqrt{1-u^2}}$ |
-| Using $\ln                                                                      | x                                                                                            | $ before checking if the integral is improper | Check for discontinuities in the interval first |
+| Using $\ln                                                                      \| x                                                                                            \| $ before checking if the integral is improper | Check for discontinuities in the interval first |
 | Forgetting $+C$ on every antiderivative                                         | Every indefinite integral needs an arbitrary constant                                        |
 | Applying reduction formulae without checking the base case                      | Always state $I_0$ or $I_1$ explicitly                                                       |
 | Confusing $\dfrac{d^n y}{dx^n}$ notation with $\left(\dfrac{dy}{dx}\right)^n$   | $\dfrac{d^n y}{dx^n}$ is the $n$-th derivative, not the $n$-th power                         |
@@ -130451,7 +130451,7 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 
 | Form                                                          | Result                    |
 | ------------------------------------------------------------- | ------------------------- |
-| $\displaystyle\int \frac{f'(x)}{f(x)}\,dx$                    | $\ln                      | f(x) | + C$ |
+| $\displaystyle\int \frac{f'(x)}{f(x)}\,dx$                    | $\ln                      \| f(x) \| + C$ |
 | $\displaystyle\int \frac{f'(x)}{\sqrt{f(x)}}\,dx$ | $2\sqrt{f(x)} + C$        |
 | $\displaystyle\int f(x) \cdot f'(x)\,dx$                      | $\dfrac{[f(x)]^2}{2} + C$ |
 
@@ -132164,8 +132164,8 @@ $t' = t\cosh\phi - x\sinh\phi/c$, $x' = x\cosh\phi - ct\sinh\phi$.
 | -------------------------- | -------------------------------------------------------------- | -------------- |
 | $\operatorname{arsinh}\,x$ | $\ln(x+\sqrt{x^2+1})$                                          | all real $x$   |
 | $\operatorname{arcosh}\,x$ | $\ln(x+\sqrt{x^2-1})$                                          | $x \geq 1$     |
-| $\operatorname{artanh}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{1+x}{1-x}\right)$               | $              | x   | < 1$ |
-| $\operatorname{arcoth}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{x+1}{x-1}\right)$               | $              | x   | > 1$ |
+| $\operatorname{artanh}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{1+x}{1-x}\right)$               | $              \| x   \| < 1$ |
+| $\operatorname{arcoth}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{x+1}{x-1}\right)$               | $              \| x   \| > 1$ |
 | $\operatorname{arsech}\,x$ | $\ln\!\left(\dfrac{1+\sqrt{1-x^2}}{x}\right)$      | $0 < x \leq 1$ |
 | $\operatorname{arcsch}\,x$ | $\ln\!\left(\dfrac{1}{x}+\sqrt{\dfrac{1}{x^2}+1}\right)$ | $x \neq 0$     |
 
@@ -132841,7 +132841,7 @@ $$
 | --------- | -------------------------------------- | ----------------------------------- |
 | $\sinh x$ | $\dfrac{e^x-e^{-x}}{2}$                | $\ln(x+\sqrt{x^2+1})$               |
 | $\cosh x$ | $\dfrac{e^x+e^{-x}}{2}$                | $\ln(x+\sqrt{x^2-1}),\ x\geq 1$     |
-| $\tanh x$ | $\dfrac{\sinh x}{\cosh x}$ | $\dfrac{1}{2}\ln\dfrac{1+x}{1-x},\  | x   | <1$ |
+| $\tanh x$ | $\dfrac{\sinh x}{\cosh x}$ | $\dfrac{1}{2}\ln\dfrac{1+x}{1-x},\  \| x   \| <1$ |
 
 | Derivative                                                              | Integral                                                                     |
 | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -134457,8 +134457,8 @@ $|x| < 1$ Integrate term by term.
 | $\sin x$    | $\displaystyle\sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{(2n+1)!}$ | all $x$         |
 | $\cos x$    | $\displaystyle\sum_{n=0}^{\infty}\frac{(-1)^n x^{2n}}{(2n)!}$     | all $x$         |
 | $\ln(1+x)$  | $\displaystyle\sum_{n=1}^{\infty}\frac{(-1)^{n-1}x^n}{n}$         | $-1 < x \leq 1$ |
-| $(1+x)^n$   | $\displaystyle\sum_{k=0}^{\infty}\binom{n}{k}x^k$                 | $               | x   | < 1$    |
-| $\arctan x$ | $\displaystyle\sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{2n+1}$    | $               | x   | \leq 1$ |
+| $(1+x)^n$   | $\displaystyle\sum_{k=0}^{\infty}\binom{n}{k}x^k$                 | $               \| x   \| < 1$    |
+| $\arctan x$ | $\displaystyle\sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{2n+1}$    | $               \| x   \| \leq 1$ |
 
 <hr />
 
@@ -136703,7 +136703,7 @@ Cayley--Hamilton connects matrices to polynomial algebra. See
 | Trace of product     | $\text{tr}(\mathbf{AB}) = \text{tr}(\mathbf{BA})$                           |
 | Cayley--Hamilton     | $\mathbf{A}$ satisfies its own characteristic equation                      |
 | Diagonalisability    | All eigenvalues must have geometric multiplicity $=$ algebraic multiplicity |
-| Area scaling         | $                                                                           | \det(\mathbf{T}) | \times$ original area $=$ image area |
+| Area scaling         | $                                                                           \| \det(\mathbf{T}) \| \times$ original area $=$ image area |
 
 ---
 
@@ -143153,14 +143153,14 @@ between any point on each line onto this perpendicular direction.
 
 | Quantity              | Formula                                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------------------ |
-| Dot product           | $\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3 =                                                | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta$ |
+| Dot product           | $\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3 =                                                \| \mathbf{a}                                                           \|          \| \mathbf{b}                       \| \cos\theta$ |
 | Cross product         | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ |
 | Line                  | $\mathbf{r} = \mathbf{a} + \lambda\mathbf{d}$                                                          |
 | Plane (vector)        | $\mathbf{r}\cdot\mathbf{n} = d$                                                                        |
 | Plane (Cartesian)     | $ax + by + cz = d$                                                                                     |
-| Point-plane distance  | $D = \dfrac{                                                                                        | \mathbf{p}\cdot\mathbf{n} - d                                        | }{ | \mathbf{n}                       | }$       |
-| Parallelepiped volume | $V =                                                                                                   | \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})                          | $        |
-| Skew line distance    | $D = \dfrac{                                                                                        | (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) | }{ | \mathbf{d}\_1\times\mathbf{d}\_2 | }$       |
+| Point-plane distance  | $D = \dfrac{                                                                                        \| \mathbf{p}\cdot\mathbf{n} - d                                        \| }{ \| \mathbf{n}                       \| }$       |
+| Parallelepiped volume | $V =                                                                                                   \| \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})                          \| $        |
+| Skew line distance    | $D = \dfrac{                                                                                        \| (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) \| }{ \| \mathbf{d}\_1\times\mathbf{d}\_2 \| }$       |
 
 <hr />
 
@@ -143788,15 +143788,15 @@ Representations of curves.
 
 | Result                   | Formula                                                                                                                       |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| Scalar product           | $\mathbf{a}\cdot\mathbf{b} =                                                                                                  | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta = a_1b_1+a_2b_2+a_3b_3$ |
+| Scalar product           | $\mathbf{a}\cdot\mathbf{b} =                                                                                                  \| \mathbf{a}                                                           \|          \| \mathbf{b}                       \| \cos\theta = a_1b_1+a_2b_2+a_3b_3$ |
 | Vector product           | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$                        |
 | Scalar triple product    | $[\mathbf{a},\mathbf{b},\mathbf{c}] = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c}) = \det(\mathbf{a}\;\mathbf{b}\;\mathbf{c})$ |
-| Distance: point to plane | $D = \dfrac{                                                                                                               | \mathbf{a}\cdot\mathbf{n} - d                                        | }{ | \mathbf{n}                       | }$                              |
-| Distance: skew lines     | $D = \dfrac{                                                                                                               | (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) | }{ | \mathbf{d}\_1\times\mathbf{d}\_2 | }$                              |
-| Angle: line to plane     | $\sin\phi = \dfrac{                                                                                                        | \mathbf{d}\cdot\mathbf{n}                                            | }{ | \mathbf{d}                       |                                    | \mathbf{n}    | }$ |
-| Angle: two planes        | $\cos\theta = \dfrac{                                                                                                      | \mathbf{n}\_1\cdot\mathbf{n}\_2                                      | }{ | \mathbf{n}\_1                    |                                    | \mathbf{n}\_2 | }$ |
-| Volume of tetrahedron    | $V = \dfrac{1}{6}                                                                                                             | [\mathbf{a},\mathbf{b},\mathbf{c}]                                   | $        |
-| Reflection in plane      | $P' = P - 2D\hat{\mathbf{n}}$ where $D = \dfrac{P\cdot\mathbf{n}-d}{                                                 | \mathbf{n}                                                           | }$    |
+| Distance: point to plane | $D = \dfrac{                                                                                                               \| \mathbf{a}\cdot\mathbf{n} - d                                        \| }{ \| \mathbf{n}                       \| }$                              |
+| Distance: skew lines     | $D = \dfrac{                                                                                                               \| (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) \| }{ \| \mathbf{d}\_1\times\mathbf{d}\_2 \| }$                              |
+| Angle: line to plane     | $\sin\phi = \dfrac{                                                                                                        \| \mathbf{d}\cdot\mathbf{n}                                            \| }{ \| \mathbf{d}                       \|                                    \| \mathbf{n}    \| }$ |
+| Angle: two planes        | $\cos\theta = \dfrac{                                                                                                      \| \mathbf{n}\_1\cdot\mathbf{n}\_2                                      \| }{ \| \mathbf{n}\_1                    \|                                    \| \mathbf{n}\_2 \| }$ |
+| Volume of tetrahedron    | $V = \dfrac{1}{6}                                                                                                             \| [\mathbf{a},\mathbf{b},\mathbf{c}]                                   \| $        |
+| Reflection in plane      | $P' = P - 2D\hat{\mathbf{n}}$ where $D = \dfrac{P\cdot\mathbf{n}-d}{                                                 \| \mathbf{n}                                                           \| }$    |
 
 ---
 
@@ -184616,7 +184616,7 @@ $$
 | $f(x)$              | $\int f(x)\,dx$            |
 | ------------------- | -------------------------- |
 | $x^n$ ($n \neq -1$) | $\dfrac{x^{n+1}}{n+1} + C$ |
-| $1/x$               | $\ln                       | x   | + C$ |
+| $1/x$               | $\ln                       \| x   \| + C$ |
 | $e^{kx}$            | $\dfrac{1}{k}e^{kx} + C$   |
 | $\cos x$            | $\sin x + C$               |
 | $\sin x$            | $-\cos x + C$              |

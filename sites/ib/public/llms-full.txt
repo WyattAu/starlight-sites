@@ -119227,7 +119227,7 @@ $P(\text{Physics} \mid \text{Chemistry}) = \frac{P(\text{Physics} \cap \text{Che
 
 | Part | Marks | Key Method                                 |
 | ---- | ----- | ------------------------------------------ |
-|,    | 3     | Apply conditional probability formula $P(A | B) = P(A \cap B) / P(B)$ |
+|,    | 3     | Apply conditional probability formula $P(A \| B) = P(A \cap B) / P(B)$ |
 
 `medium`3 marks total
 
@@ -128822,7 +128822,7 @@ $$
 | -------------------------- | -------------------------------------------- |
 | $k$                        | $kx + C$                                     |        |      |
 | $x^n$                      | $\dfrac{x^{n+1}}{n+1} + C \quad (n \neq -1)$ |        |      |
-| $\dfrac{1}{x}$             | $\ln                                         | x      | + C$ |
+| $\dfrac{1}{x}$             | $\ln                                         \| x      \| + C$ |
 | $e^x$                      | $e^x + C$                                    |        |      |
 | $a^x$                      | $\dfrac{a^x}{\ln a} + C$                     |        |      |
 | $\sin x$                   | $-\cos x + C$                                |        |      |
@@ -128831,8 +128831,8 @@ $$
 | $\csc^2 x$                 | $-\cot x + C$                                |        |      |
 | $\sec x \tan x$            | $\sec x + C$                                 |        |      |
 | $\csc x \cot x$            | $-\csc x + C$                                |        |      |
-| $\tan x$                   | $\ln                                         | \sec x | + C$ |
-| $\cot x$                   | $\ln                                         | \sin x | + C$ |
+| $\tan x$                   | $\ln                                         \| \sec x \| + C$ |
+| $\cot x$                   | $\ln                                         \| \sin x \| + C$ |
 | $\frac{1}{\sqrt{1 - x^2}}$ | $\arcsin x + C$                              |        |      |
 | $\frac{1}{1 + x^2}$        | $\arctan x + C$                              |        |      |
 
@@ -131164,7 +131164,7 @@ $$
 | $f(x)$                      | $\displaystyle\int f(x)\,dx$            |
 | --------------------------- | --------------------------------------- |
 | $x^n$                       | $\dfrac{x^{n+1}}{n+1} + C, \; n \ne -1$ |     |      |
-| $\dfrac{1}{x}$              | $\ln                                    | x   | + C$ |
+| $\dfrac{1}{x}$              | $\ln                                    \| x   \| + C$ |
 | $e^x$                       | $e^x + C$                               |     |      |
 | $\sin x$                    | $-\cos x + C$                           |     |      |
 | $\cos x$                    | $\sin x + C$                            |     |      |
@@ -134786,7 +134786,7 @@ flowchart TD
 | Characteristic equation (2x2)   | $\lambda^2 - \mathrm{tr}(A)\lambda + \det(A) = 0$                                           |         |     |
 | Diagonalisation                 | $A = PDP^{-1}$ Where $D = \mathrm{diag}(\lambda_1, \ldots, \lambda_n)$                       |         |     |
 | Matrix powers                   | $A^k = PD^kP^{-1}$                                                                          |         |     |
-| Area scale factor               | $                                                                                           | \det(M) | $   |
+| Area scale factor               | $                                                                                           \| \det(M) \| $   |
 | Rotation by $\theta$            | $\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$         |         |     |
 | Reflection in $y = x\tan\theta$ | $\begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}$ |         |     |
 | Cramer's rule                   | $x_i = \det(A_i)/\det(A)$                                                                   |         |     |
@@ -142737,10 +142737,10 @@ $$
 
 | Condition | Behaviour                     |
 | --------- | ----------------------------- |
-| $         | r                             | \lt 1$ | Converges to $\dfrac{u_1}{1-r}$ |
+| $         \| r                             \| \lt 1$ | Converges to $\dfrac{u_1}{1-r}$ |
 | $r = 1$   | Diverges (grows linearly)     |        |                                 |
 | $r = -1$  | Oscillates, does not converge |        |                                 |
-| $         | r                             | \gt 1$ | Diverges (grows exponentially)  |
+| $         \| r                             \| \gt 1$ | Diverges (grows exponentially)  |
 
 ---
 
@@ -143195,7 +143195,7 @@ flowchart TD
 | Arithmetic sum         | $S_n = \dfrac{n}{2}[2u_1 + (n-1)d]$                           |     |        |
 | Geometric $n$-th term  | $u_n = u_1 r^{n-1}$                                           |     |        |
 | Geometric sum          | $S_n = \dfrac{u_1(1-r^n)}{1-r}$                               |     |        |
-| Sum to infinity        | $S_{\infty} = \dfrac{u_1}{1-r}$ for $                         | r   | \lt 1$ |
+| Sum to infinity        | $S_{\infty} = \dfrac{u_1}{1-r}$ for $                         \| r   \| \lt 1$ |
 | Binomial theorem       | $(a+b)^n = \displaystyle\sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^k$ |     |        |
 | Sigma of $i$           | $\displaystyle\sum_{i=1}^{n}i = \dfrac{n(n+1)}{2}$            |     |        |
 | Sigma of $i^2$         | $\displaystyle\sum_{i=1}^{n}i^2 = \dfrac{n(n+1)(2n+1)}{6}$    |     |        |
@@ -145002,10 +145002,10 @@ If every data value is transformed by $y_i = ax_i + b$:
 | Statistic               | Original    | Transformed                                      |
 | ----------------------- | ----------- | ------------------------------------------------ |
 | Mean                    | $\bar{x}$   | $a\bar{x} + b$                                   |     |              |
-| Standard deviation      | $s_x$       | $                                                | a   | s_x$         |
+| Standard deviation      | $s_x$       | $                                                \| a   \| s_x$         |
 | Variance                | $s_x^2$     | $a^2 s_x^2$                                      |     |              |
 | Median                  | $Q_2$       | $aQ_2 + b$                                       |     |              |
-| IQR                     | $Q_3 - Q_1$ | $                                                | a   | (Q_3 - Q_1)$ |
+| IQR                     | $Q_3 - Q_1$ | $                                                \| a   \| (Q_3 - Q_1)$ |
 | Correlation coefficient | $r$         | $r$ (unchanged if $a \gt 0$ Negated if $a \lt 0$) |     |              |
 
 ### Standardised Scores (z-scores)
@@ -159283,7 +159283,7 @@ For two masses $M$ and $m$ separated by distance $r$ The total energy determines
 
 | Total Energy $E$ | Orbit Type                    |
 | ---------------- | ----------------------------- |
-| $E \lt 0$ (and $ | E                             | \lt | E_p | $)  | Bound (elliptical) |
+| $E \lt 0$ (and $ \| E                             \| \lt \| E_p \| $)  | Bound (elliptical) |
 | $E = 0$          | Parabolic (escape trajectory) |     |     |     |                    |
 | $E \gt 0$        | Hyperbolic (unbound)          |     |     |     |                    |
 

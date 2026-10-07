@@ -111,8 +111,8 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | Operator | Action on $f$ / $\omega$ | In coordinates |
 |----------|--------------------------|----------------|
 | Gradient $\nabla f$ | Vector field dual to $df$ | $(\nabla f)^i = g^{ij}\partial_j f$ |
-| Divergence $\nabla \cdot X$ | $\mathcal{L}_X dV = (\nabla \cdot X) dV$ | $\nabla \cdot X = \frac{1}{\sqrt{|g|}}\partial_i(\sqrt{|g|} X^i)$ |
-| Laplacian $\Delta f$ | $\nabla \cdot \nabla f$ | $\Delta f = \frac{1}{\sqrt{|g|}}\partial_i(g^{ij}\sqrt{|g|}\partial_j f)$ |
+| Divergence $\nabla \cdot X$ | $\mathcal{L}_X dV = (\nabla \cdot X) dV$ | $\nabla \cdot X = \frac{1}{\sqrt{\|g\|}}\partial_i(\sqrt{\|g\|} X^i)$ |
+| Laplacian $\Delta f$ | $\nabla \cdot \nabla f$ | $\Delta f = \frac{1}{\sqrt{\|g\|}}\partial_i(g^{ij}\sqrt{\|g\|}\partial_j f)$ |
 | Curl $(\nabla \times X)$ | $(\star dX^\flat)^\sharp$ | Depends on dimension; in $\mathbb{R}^3$, $(\nabla \times X)^i = \epsilon^{ijk}\partial_j X_k$ |
 
 ### Important Identities

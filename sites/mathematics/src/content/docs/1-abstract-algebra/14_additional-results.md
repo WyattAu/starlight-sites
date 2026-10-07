@@ -127,9 +127,9 @@ Taking all products, the six abelian groups of order 72 are:
 
 | Result | Statement | Application |
 | --- | --- | --- |
-| Cauchy's Theorem | $p \mid | G | \implies$ element of order $p$ exists | Existence of elements of prime order |
+| Cauchy's Theorem | $p \mid \| G \| \implies$ element of order $p$ exists | Existence of elements of prime order |
 | Sylow's Theorems | Subgroups of order $p^k$ exist and are conjugate | Structure of finite groups |
-| Class Equation | $ | G | = | Z(G) | + \sum [G:C_G(x_i)]$ | Centre of $p$-groups is non-trivial |
+| Class Equation | $ \| G \| = \| Z(G) \| + \sum [G:C_G(x_i)]$ | Centre of $p$-groups is non-trivial |
 | Structure Theorem | Finitely generated abelian $\cong \mathbb{Z}^r \times$ cyclic groups | Classification of abelian groups |
 | Simplicity of $A_n$ | $A_n$ is simple for $n \geq 5$ | Impossibility of quintic formula |
 

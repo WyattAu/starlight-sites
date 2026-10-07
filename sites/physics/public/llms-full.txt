@@ -27807,10 +27807,10 @@ $A_{3d \to 2p} \sim 6.4 \times 10^7$ s$^{-1}$.
 
 | Formula | Name | Application |
 |---------|------|-------------|
-| $\Gamma_{i\to f} = \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f)$ | Fermi's Golden Rule | Transition rate to continuum |
+| $\Gamma_{i\to f} = \frac{2\pi}{\hbar}\|\langle f\|\hat{V}\|i\rangle\|^2\rho(E_f)$ | Fermi's Golden Rule | Transition rate to continuum |
 | $\Delta l = \pm 1$, $\Delta m = 0, \pm 1$ | E1 selection rules | Electric dipole transitions |
 | $A_{21} = \frac{\hbar\omega^3}{\pi^2 c^3}B_{21}$ | Einstein relation | Connects spontaneous/stimulated rates |
-| $|c_f|^2 = \frac{|\langle f|\hat{V}|i\rangle|^2}{\hbar^2}\frac{\sin^2[(\omega_{fi}-\omega)t/2]}{(\omega_{fi}-\omega)^2/4}$ | Rabi formula | Transition probability for discrete states |
+| $\|c_f\|^2 = \frac{\|\langle f\|\hat{V}\|i\rangle\|^2}{\hbar^2}\frac{\sin^2[(\omega_{fi}-\omega)t/2]}{(\omega_{fi}-\omega)^2/4}$ | Rabi formula | Transition probability for discrete states |
 
 ### Common Pitfalls
 

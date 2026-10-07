@@ -1042,7 +1042,7 @@ $\blacksquare$
 | Pitfall                                                           | Correct Approach                                                                                             |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Forgetting that $\arg(z)$ is measured from the positive real axis | $\arg(z)$ is the angle anticlockwise from the positive $x$-axis, range $(-\pi, \pi]$ or $[0, 2\pi)$          |
-| Confusing $                                                       | z-w                                                                                                          | $ with $ | z   | -   | w   | $   | $   | z-w | $ is the distance between $z$ and $w$; $ | z-w | \neq | z   | -   | w   | $   |
+| Confusing $                                                       \| z-w                                                                                                          \| $ with $ \| z   \| -   \| w   \| $   | $   \| z-w \| $ is the distance between $z$ and $w$; $ \| z-w \| \neq \| z   \| -   \| w   \| $   |
 | Missing roots when solving $z^n = w$                              | There are always exactly $n$ distinct roots; check your $k$ values cover $0$ to $n-1$                        |
 | Incorrectly applying de Moivre to non-integer powers              | De Moivre's theorem $(\cos\theta + i\sin\theta)^n = \cos n\theta + i\sin n\theta$ holds for integer $n$ only |
 
@@ -1151,13 +1151,13 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 
 | Result                        | Formula                                                   |
 | ----------------------------- | --------------------------------------------------------- |
-| Modulus                       | $                                                         | z   | = \sqrt{a^2+b^2}$ for $z = a+bi$ |
+| Modulus                       | $                                                         \| z   \| = \sqrt{a^2+b^2}$ for $z = a+bi$ |
 | Argument                      | $\arg(z) = \arctan(b/a)$ (adjusting for quadrant)         |
 | Euler's formula               | $e^{i\theta} = \cos\theta+i\sin\theta$                    |
 | De Moivre                     | $(\cos\theta+i\sin\theta)^n = \cos n\theta+i\sin n\theta$ |
 | $n$-th roots of unity         | $z_k = e^{2\pi ik/n}$, $k = 0, \ldots, n-1$               |
-| Locus: circle                 | $                                                         | z-a | =r$                              |
-| Locus: perpendicular bisector | $                                                         | z-a | =                                | z-b | $   |
+| Locus: circle                 | $                                                         \| z-a \| =r$                              |
+| Locus: perpendicular bisector | $                                                         \| z-a \| =                                \| z-b \| $   |
 | Locus: half-line              | $\arg(z-a) = \theta$                                      |
 
 ---

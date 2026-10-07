@@ -1280,8 +1280,8 @@ $t' = t\cosh\phi - x\sinh\phi/c$, $x' = x\cosh\phi - ct\sinh\phi$.
 | -------------------------- | -------------------------------------------------------------- | -------------- |
 | $\operatorname{arsinh}\,x$ | $\ln(x+\sqrt{x^2+1})$                                          | all real $x$   |
 | $\operatorname{arcosh}\,x$ | $\ln(x+\sqrt{x^2-1})$                                          | $x \geq 1$     |
-| $\operatorname{artanh}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{1+x}{1-x}\right)$               | $              | x   | < 1$ |
-| $\operatorname{arcoth}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{x+1}{x-1}\right)$               | $              | x   | > 1$ |
+| $\operatorname{artanh}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{1+x}{1-x}\right)$               | $              \| x   \| < 1$ |
+| $\operatorname{arcoth}\,x$ | $\dfrac{1}{2}\ln\!\left(\dfrac{x+1}{x-1}\right)$               | $              \| x   \| > 1$ |
 | $\operatorname{arsech}\,x$ | $\ln\!\left(\dfrac{1+\sqrt{1-x^2}}{x}\right)$      | $0 < x \leq 1$ |
 | $\operatorname{arcsch}\,x$ | $\ln\!\left(\dfrac{1}{x}+\sqrt{\dfrac{1}{x^2}+1}\right)$ | $x \neq 0$     |
 

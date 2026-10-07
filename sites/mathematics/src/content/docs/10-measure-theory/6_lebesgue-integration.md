@@ -135,7 +135,7 @@ $\blacksquare$
 | ------------------ | ----------------------------------------------- | -------------------------------------------------------------- | ----------------------------------- |
 | MCT (Levi)         | $f_n \nearrow f$ pointwise, $f_n \geq 0$        | $\int f_n \to \int f$                                          | Foundation for all limit theorems   |
 | Fatou's lemma      | $f_n \geq 0$ measurable                         | $\int \liminf f_n \leq \liminf \int f_n$                       | Works without convergence           |
-| DCT                | $f_n \to f$ a.e., $|f_n| \leq g \in L^1$       | $\int f_n \to \int f$                                          | Most widely used limit theorem      |
+| DCT                | $f_n \to f$ a.e., $\|f_n\| \leq g \in L^1$       | $\int f_n \to \int f$                                          | Most widely used limit theorem      |
 | Markov's inequality| $f \geq 0$ meas., $a > 0$                       | $\mu(\{f \geq a\}) \leq \frac{1}{a}\int f$                    | Bounds tail probabilities           |
 
 The three convergence theorems are related: DCT follows from Fatou, and Fatou follows from MCT. Together they form the backbone of Lebesgue integration theory.
@@ -166,7 +166,7 @@ The key advantage is that the Lebesgue integral can handle functions with wild d
 | -------------------- | ----------------------------------------------------------------------- | -------------------------------- |
 | Simple function      | $\sum a_i \chi_{A_i}$ with $a_i \geq 0$, $\{A_i\}$ disjoint             | $\int = \sum a_i \mu(A_i)$       |
 | Non-negative meas.   | $\sup\{\int s : 0 \leq s \leq f,\ s\text{ simple}\}$                    | MCT applies                      |
-| General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int|f| < \infty$ |
+| General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int\|f\| < \infty$ |
 
 
 ```mermaid

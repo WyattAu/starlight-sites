@@ -186,8 +186,8 @@ operators (Spectral).
 | ---------- | --------------------- | ---------- |
 | Norm | $\|T_n - T\| \to 0$ | Strongest; uniform approximation |
 | Strong (SOT) | $\|T_n x - Tx\| \to 0$ for each $x$ | Pointwise convergence |
-| Weak (WOT) | $ | \langle (T_n - T)x, y \rangle | \to 0$ for all $x, y$ | Weakest useful topology |
-| Weak\* | $ | x^*(T_n - T) | \to 0$ for $x^*\in X^*$ | Banach-Alaoglu compactness |
+| Weak (WOT) | $ \| \langle (T_n - T)x, y \rangle \| \to 0$ for all $x, y$ | Weakest useful topology |
+| Weak\* | $ \| x^*(T_n - T) \| \to 0$ for $x^*\in X^*$ | Banach-Alaoglu compactness |
 
 ### Spectral Theory Reference
 

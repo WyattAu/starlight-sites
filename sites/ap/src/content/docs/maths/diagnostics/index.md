@@ -185,12 +185,12 @@ A **sequence** is an ordered list of numbers $\{a_n\}_{n=1}^{\infty}$. A **serie
 
 | Test | When to Use | Result |
 |------|-------------|--------|
-| Geometric series | $\sum ar^n$ | Converges if $|r| < 1$, sum $= \frac{a}{1-r}$ |
+| Geometric series | $\sum ar^n$ | Converges if $\|r\| < 1$, sum $= \frac{a}{1-r}$ |
 | p-series | $\sum \frac{1}{n^p}$ | Converges if $p > 1$ |
 | Divergence test | Any series | If $\lim_{n \to \infty} a_n \neq 0$, series diverges |
 | Integral test | Positive, decreasing $f$ with $a_n = f(n)$ | Series converges iff integral converges |
 | Comparison test | Compare with known series | If $0 \leq a_n \leq b_n$ and $\sum b_n$ converges, then $\sum a_n$ converges |
-| Ratio test | Factorials, exponentials | If $\lim \left|\frac{a_{n+1}}{a_n}\right| = L$: converges if $L < 1$, diverges if $L > 1$ |
+| Ratio test | Factorials, exponentials | If $\lim \left\|\frac{a_{n+1}}{a_n}\right\| = L$: converges if $L < 1$, diverges if $L > 1$ |
 | Alternating series | $\sum (-1)^n b_n$ with $b_n > 0$ | Converges if $b_n$ is decreasing and $\lim b_n = 0$ |
 
 **Taylor series:** The Taylor series of $f$ centred at $a$ is:

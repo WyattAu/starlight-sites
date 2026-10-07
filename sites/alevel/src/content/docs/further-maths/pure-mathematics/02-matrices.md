@@ -1127,7 +1127,7 @@ Cayley--Hamilton connects matrices to polynomial algebra. See
 | Trace of product     | $\text{tr}(\mathbf{AB}) = \text{tr}(\mathbf{BA})$                           |
 | Cayley--Hamilton     | $\mathbf{A}$ satisfies its own characteristic equation                      |
 | Diagonalisability    | All eigenvalues must have geometric multiplicity $=$ algebraic multiplicity |
-| Area scaling         | $                                                                           | \det(\mathbf{T}) | \times$ original area $=$ image area |
+| Area scaling         | $                                                                           \| \det(\mathbf{T}) \| \times$ original area $=$ image area |
 
 ---
 

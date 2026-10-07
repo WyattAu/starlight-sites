@@ -164,7 +164,7 @@ Computing $R^\theta_{\phi\theta\phi}$ gives $-\sin^2\theta$, so $K = R^\theta_{\
 | Christoffel symbols | $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})$ |
 | Geodesic equation | $\ddot\gamma^k + \Gamma^k_{ij} \dot\gamma^i \dot\gamma^j = 0$ |
 | Riemann curvature | $R^\ell_{ijk} = \partial_i\Gamma^\ell_{jk} - \partial_j\Gamma^\ell_{ik} + \Gamma^m_{jk}\Gamma^\ell_{im} - \Gamma^m_{ik}\Gamma^\ell_{jm}$ |
-| Sectional curvature | $K(\Pi) = \langle R(v,w)w,v\rangle / ( | v | ^2 | w | ^2 - \langle v,w\rangle^2)$ |
+| Sectional curvature | $K(\Pi) = \langle R(v,w)w,v\rangle / ( \| v \| ^2 \| w \| ^2 - \langle v,w\rangle^2)$ |
 | Ricci curvature | $R_{ij} = R^k_{ikj}$ |
 | Scalar curvature | $S = g^{ij}R_{ij}$ |
 

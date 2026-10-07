@@ -461,14 +461,14 @@ between any point on each line onto this perpendicular direction.
 
 | Quantity              | Formula                                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------------------ |
-| Dot product           | $\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3 =                                                | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta$ |
+| Dot product           | $\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3 =                                                \| \mathbf{a}                                                           \|          \| \mathbf{b}                       \| \cos\theta$ |
 | Cross product         | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$ |
 | Line                  | $\mathbf{r} = \mathbf{a} + \lambda\mathbf{d}$                                                          |
 | Plane (vector)        | $\mathbf{r}\cdot\mathbf{n} = d$                                                                        |
 | Plane (Cartesian)     | $ax + by + cz = d$                                                                                     |
-| Point-plane distance  | $D = \dfrac{                                                                                        | \mathbf{p}\cdot\mathbf{n} - d                                        | }{ | \mathbf{n}                       | }$       |
-| Parallelepiped volume | $V =                                                                                                   | \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})                          | $        |
-| Skew line distance    | $D = \dfrac{                                                                                        | (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) | }{ | \mathbf{d}\_1\times\mathbf{d}\_2 | }$       |
+| Point-plane distance  | $D = \dfrac{                                                                                        \| \mathbf{p}\cdot\mathbf{n} - d                                        \| }{ \| \mathbf{n}                       \| }$       |
+| Parallelepiped volume | $V =                                                                                                   \| \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c})                          \| $        |
+| Skew line distance    | $D = \dfrac{                                                                                        \| (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) \| }{ \| \mathbf{d}\_1\times\mathbf{d}\_2 \| }$       |
 
 <hr />
 
@@ -1096,15 +1096,15 @@ Representations of curves.
 
 | Result                   | Formula                                                                                                                       |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| Scalar product           | $\mathbf{a}\cdot\mathbf{b} =                                                                                                  | \mathbf{a}                                                           |          | \mathbf{b}                       | \cos\theta = a_1b_1+a_2b_2+a_3b_3$ |
+| Scalar product           | $\mathbf{a}\cdot\mathbf{b} =                                                                                                  \| \mathbf{a}                                                           \|          \| \mathbf{b}                       \| \cos\theta = a_1b_1+a_2b_2+a_3b_3$ |
 | Vector product           | $\mathbf{a}\times\mathbf{b} = \begin{pmatrix}a_2b_3-a_3b_2\\a_3b_1-a_1b_3\\a_1b_2-a_2b_1\end{pmatrix}$                        |
 | Scalar triple product    | $[\mathbf{a},\mathbf{b},\mathbf{c}] = \mathbf{a}\cdot(\mathbf{b}\times\mathbf{c}) = \det(\mathbf{a}\;\mathbf{b}\;\mathbf{c})$ |
-| Distance: point to plane | $D = \dfrac{                                                                                                               | \mathbf{a}\cdot\mathbf{n} - d                                        | }{ | \mathbf{n}                       | }$                              |
-| Distance: skew lines     | $D = \dfrac{                                                                                                               | (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) | }{ | \mathbf{d}\_1\times\mathbf{d}\_2 | }$                              |
-| Angle: line to plane     | $\sin\phi = \dfrac{                                                                                                        | \mathbf{d}\cdot\mathbf{n}                                            | }{ | \mathbf{d}                       |                                    | \mathbf{n}    | }$ |
-| Angle: two planes        | $\cos\theta = \dfrac{                                                                                                      | \mathbf{n}\_1\cdot\mathbf{n}\_2                                      | }{ | \mathbf{n}\_1                    |                                    | \mathbf{n}\_2 | }$ |
-| Volume of tetrahedron    | $V = \dfrac{1}{6}                                                                                                             | [\mathbf{a},\mathbf{b},\mathbf{c}]                                   | $        |
-| Reflection in plane      | $P' = P - 2D\hat{\mathbf{n}}$ where $D = \dfrac{P\cdot\mathbf{n}-d}{                                                 | \mathbf{n}                                                           | }$    |
+| Distance: point to plane | $D = \dfrac{                                                                                                               \| \mathbf{a}\cdot\mathbf{n} - d                                        \| }{ \| \mathbf{n}                       \| }$                              |
+| Distance: skew lines     | $D = \dfrac{                                                                                                               \| (\mathbf{a}\_2-\mathbf{a}\_1)\cdot(\mathbf{d}\_1\times\mathbf{d}\_2) \| }{ \| \mathbf{d}\_1\times\mathbf{d}\_2 \| }$                              |
+| Angle: line to plane     | $\sin\phi = \dfrac{                                                                                                        \| \mathbf{d}\cdot\mathbf{n}                                            \| }{ \| \mathbf{d}                       \|                                    \| \mathbf{n}    \| }$ |
+| Angle: two planes        | $\cos\theta = \dfrac{                                                                                                      \| \mathbf{n}\_1\cdot\mathbf{n}\_2                                      \| }{ \| \mathbf{n}\_1                    \|                                    \| \mathbf{n}\_2 \| }$ |
+| Volume of tetrahedron    | $V = \dfrac{1}{6}                                                                                                             \| [\mathbf{a},\mathbf{b},\mathbf{c}]                                   \| $        |
+| Reflection in plane      | $P' = P - 2D\hat{\mathbf{n}}$ where $D = \dfrac{P\cdot\mathbf{n}-d}{                                                 \| \mathbf{n}                                                           \| }$    |
 
 ---
 

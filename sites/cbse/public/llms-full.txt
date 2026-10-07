@@ -10562,7 +10562,7 @@ $$
 
 | Quantity | Formula | Unit |
 | --- | --- | --- |
-| Coulomb's law | $F = k\frac{ | q_1 q_2 | }{r^2}$ | N |
+| Coulomb's law | $F = k\frac{ \| q_1 q_2 \| }{r^2}$ | N |
 | Electric field (point charge) | $E = k\frac{q}{r^2}$ | N/C or V/m |
 | Electric potential (point charge) | $V = k\frac{q}{r}$ | V |
 | Capacitance (parallel plate) | $C = \frac{\varepsilon_0 A}{d}$ | F |

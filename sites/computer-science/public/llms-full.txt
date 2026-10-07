@@ -19733,7 +19733,7 @@ This is a **thesis** (not a theorem), it cannot be proven because "algorithmic p
 | Language | Decidable? | Algorithm |
 | --------------------------------------------- | ---------- | ------------------------------------- |
 | $A_{\text{DFA}} = \{(B, w) : B \text{ accepts } w\}$ | Yes | Simulate DFA on $w$ |
-| $A_{\text{CFG}} = \{(G, w) : G \text{ generates } w\}$ | Yes | CYK algorithm, $O(n^3 | G | )$ |
+| $A_{\text{CFG}} = \{(G, w) : G \text{ generates } w\}$ | Yes | CYK algorithm, $O(n^3 \| G \| )$ |
 | $E_{\text{DFA}} = \{A : L(A) = \emptyset\}$ | Yes | Check reachable accepting states |
 | $EQ_{\text{DFA}} = \{A, B : L(A) = L(B)\}$ | Yes | Check $\overline{L(A \Delta B)}$ for non-emptiness |
 | $A_{\text{TM}} = \{(M, w) : M \text{ accepts } w\}$ | **No** | Diagonalization proof |

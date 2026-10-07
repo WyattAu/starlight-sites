@@ -129,9 +129,9 @@ Taking all products, the six abelian groups of order 72 are:
 
 | Result | Statement | Application |
 | --- | --- | --- |
-| Cauchy's Theorem | $p \mid | G | \implies$ element of order $p$ exists | Existence of elements of prime order |
+| Cauchy's Theorem | $p \mid \| G \| \implies$ element of order $p$ exists | Existence of elements of prime order |
 | Sylow's Theorems | Subgroups of order $p^k$ exist and are conjugate | Structure of finite groups |
-| Class Equation | $ | G | = | Z(G) | + \sum [G:C_G(x_i)]$ | Centre of $p$-groups is non-trivial |
+| Class Equation | $ \| G \| = \| Z(G) \| + \sum [G:C_G(x_i)]$ | Centre of $p$-groups is non-trivial |
 | Structure Theorem | Finitely generated abelian $\cong \mathbb{Z}^r \times$ cyclic groups | Classification of abelian groups |
 | Simplicity of $A_n$ | $A_n$ is simple for $n \geq 5$ | Impossibility of quintic formula |
 
@@ -4086,7 +4086,7 @@ flowchart TD
 | Homomorphism | $\phi(ab) = \phi(a)\phi(b)$ | $\det: GL(n,\mathbb{R}) \to \mathbb{R}^\times$ |
 | Kernel | $\{g \in G : \phi(g) = e\}$ | $SL(n,\mathbb{R}) \trianglelefteq GL(n,\mathbb{R})$ |
 | Group action | $G \times X \to X$ compatible with group op | $S_n$ acting on $\{1,\ldots,n\}$ |
-| Orbit | $G \cdot x = \{gx : g \in G\}$ | Size divides $ | G | $ |
+| Orbit | $G \cdot x = \{gx : g \in G\}$ | Size divides $ \| G \| $ |
 | Stabilizer | $G_x = \{g \in G : gx = x\}$ | Subgroup of $G$ |
 
 ### Ring and Field Theory Quick Reference
@@ -5281,7 +5281,7 @@ $\blacksquare$
 | ------------------ | ----------------------------------------------- | -------------------------------------------------------------- | ----------------------------------- |
 | MCT (Levi)         | $f_n \nearrow f$ pointwise, $f_n \geq 0$        | $\int f_n \to \int f$                                          | Foundation for all limit theorems   |
 | Fatou's lemma      | $f_n \geq 0$ measurable                         | $\int \liminf f_n \leq \liminf \int f_n$                       | Works without convergence           |
-| DCT                | $f_n \to f$ a.e., $|f_n| \leq g \in L^1$       | $\int f_n \to \int f$                                          | Most widely used limit theorem      |
+| DCT                | $f_n \to f$ a.e., $\|f_n\| \leq g \in L^1$       | $\int f_n \to \int f$                                          | Most widely used limit theorem      |
 | Markov's inequality| $f \geq 0$ meas., $a > 0$                       | $\mu(\{f \geq a\}) \leq \frac{1}{a}\int f$                    | Bounds tail probabilities           |
 
 The three convergence theorems are related: DCT follows from Fatou, and Fatou follows from MCT. Together they form the backbone of Lebesgue integration theory.
@@ -5312,7 +5312,7 @@ The key advantage is that the Lebesgue integral can handle functions with wild d
 | -------------------- | ----------------------------------------------------------------------- | -------------------------------- |
 | Simple function      | $\sum a_i \chi_{A_i}$ with $a_i \geq 0$, $\{A_i\}$ disjoint             | $\int = \sum a_i \mu(A_i)$       |
 | Non-negative meas.   | $\sup\{\int s : 0 \leq s \leq f,\ s\text{ simple}\}$                    | MCT applies                      |
-| General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int|f| < \infty$ |
+| General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int\|f\| < \infty$ |
 
 
 ```mermaid
@@ -6714,7 +6714,7 @@ URL: https://mathematics.wyattau.com/10-measure-theory/10_summary-of-key-results
 | ---------------------- | ----------------------------------------- | ---------------------------------------- |
 | Monotone Convergence   | $0 \leq f_n \nearrow f$                   | $\lim \int f_n = \int f$                 |
 | Fatou's Lemma          | $f_n \geq 0$                              | $\int \liminf f_n \leq \liminf \int f_n$ |
-| Dominated Convergence  | $f_n \to f$, $                            | f_n                                      | \leq g \in L^1$ | $\lim \int f_n = \int f$ |
+| Dominated Convergence  | $f_n \to f$, $                            \| f_n                                      \| \leq g \in L^1$ | $\lim \int f_n = \int f$ |
 | Holder's Inequality    | $f \in L^p$, $g \in L^q$, $1/p + 1/q = 1$ | $\|fg\|_1 \leq \|f\|_p \|g\|_q$          |
 | Minkowski's Inequality | $f, g \in L^p$                            | $\|f + g\|_p \leq \|f\|_p + \|g\|_p$     |
 | Fubini                 | $f \in L^1(\mu \times \nu)$               | Iterated integrals equal double integral |
@@ -6840,23 +6840,23 @@ the Radon-Nikodym theorem connects measures via densities.
 | Measure | Countably additive set function | Lebesgue measure, counting measure |
 | Measurable function | Preimage of Borel set is measurable | Continuous functions, indicator functions |
 | Almost everywhere | Property holds except on a null set | $f = g$ a.e. |
-| $L^p$ space | $\{f : \int | f | ^p < \infty\}$ modulo a.e. equality | $L^1$, $L^2$, $L^\infty$ |
+| $L^p$ space | $\{f : \int \| f \| ^p < \infty\}$ modulo a.e. equality | $L^1$, $L^2$, $L^\infty$ |
 
 ### Quick Reference: Convergence Modes
 
 | Mode of convergence | Definition | Relation to others |
 | -------------------- | ----------- | ------------------- |
 | Pointwise a.e. | $f_n(x) \to f(x)$ for almost every $x$ | Weakest |
-| Uniform | $\sup_x | f_n(x) - f(x) | \to 0$ | Implies pointwise |
+| Uniform | $\sup_x \| f_n(x) - f(x) \| \to 0$ | Implies pointwise |
 | $L^p$ | $\|f_n - f\|_p \to 0$ | Implies convergence in measure |
-| In measure | $\mu\{ | f_n - f | > \varepsilon\} \to 0$ | Has a subsequence converging a.e. |
+| In measure | $\mu\{ \| f_n - f \| > \varepsilon\} \to 0$ | Has a subsequence converging a.e. |
 | Weak $L^p$ | $\int f_n g \to \int f g$ for all $g \in L^q$ | Weakest of the $L^p$ modes |
 
 ### Key Inequalities
 
 | Inequality | Statement | Use case |
 | ----------- | ----------- | ---------- |
-| Chebyshev | $\mu( | f | \geq t) \leq \|f\|_p^p / t^p$ | Markov-type bounds |
+| Chebyshev | $\mu( \| f \| \geq t) \leq \|f\|_p^p / t^p$ | Markov-type bounds |
 | Young | $ab \leq a^p/p + b^q/q$ | Proving H\"older |
 | H\"older | $\|fg\|_1 \leq \|f\|_p \|g\|_q$ | Duality of $L^p$ spaces |
 | Minkowski | $\|f+g\|_p \leq \|f\|_p + \|g\|_p$ | Triangle inequality |
@@ -8560,8 +8560,8 @@ operators (Spectral).
 | ---------- | --------------------- | ---------- |
 | Norm | $\|T_n - T\| \to 0$ | Strongest; uniform approximation |
 | Strong (SOT) | $\|T_n x - Tx\| \to 0$ for each $x$ | Pointwise convergence |
-| Weak (WOT) | $ | \langle (T_n - T)x, y \rangle | \to 0$ for all $x, y$ | Weakest useful topology |
-| Weak\* | $ | x^*(T_n - T) | \to 0$ for $x^*\in X^*$ | Banach-Alaoglu compactness |
+| Weak (WOT) | $ \| \langle (T_n - T)x, y \rangle \| \to 0$ for all $x, y$ | Weakest useful topology |
+| Weak\* | $ \| x^*(T_n - T) \| \to 0$ for $x^*\in X^*$ | Banach-Alaoglu compactness |
 
 ### Spectral Theory Reference
 
@@ -10327,7 +10327,7 @@ Computing $R^\theta_{\phi\theta\phi}$ gives $-\sin^2\theta$, so $K = R^\theta_{\
 | Christoffel symbols | $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})$ |
 | Geodesic equation | $\ddot\gamma^k + \Gamma^k_{ij} \dot\gamma^i \dot\gamma^j = 0$ |
 | Riemann curvature | $R^\ell_{ijk} = \partial_i\Gamma^\ell_{jk} - \partial_j\Gamma^\ell_{ik} + \Gamma^m_{jk}\Gamma^\ell_{im} - \Gamma^m_{ik}\Gamma^\ell_{jm}$ |
-| Sectional curvature | $K(\Pi) = \langle R(v,w)w,v\rangle / ( | v | ^2 | w | ^2 - \langle v,w\rangle^2)$ |
+| Sectional curvature | $K(\Pi) = \langle R(v,w)w,v\rangle / ( \| v \| ^2 \| w \| ^2 - \langle v,w\rangle^2)$ |
 | Ricci curvature | $R_{ij} = R^k_{ikj}$ |
 | Scalar curvature | $S = g^{ij}R_{ij}$ |
 
@@ -10707,8 +10707,8 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | Operator | Action on $f$ / $\omega$ | In coordinates |
 |----------|--------------------------|----------------|
 | Gradient $\nabla f$ | Vector field dual to $df$ | $(\nabla f)^i = g^{ij}\partial_j f$ |
-| Divergence $\nabla \cdot X$ | $\mathcal{L}_X dV = (\nabla \cdot X) dV$ | $\nabla \cdot X = \frac{1}{\sqrt{|g|}}\partial_i(\sqrt{|g|} X^i)$ |
-| Laplacian $\Delta f$ | $\nabla \cdot \nabla f$ | $\Delta f = \frac{1}{\sqrt{|g|}}\partial_i(g^{ij}\sqrt{|g|}\partial_j f)$ |
+| Divergence $\nabla \cdot X$ | $\mathcal{L}_X dV = (\nabla \cdot X) dV$ | $\nabla \cdot X = \frac{1}{\sqrt{\|g\|}}\partial_i(\sqrt{\|g\|} X^i)$ |
+| Laplacian $\Delta f$ | $\nabla \cdot \nabla f$ | $\Delta f = \frac{1}{\sqrt{\|g\|}}\partial_i(g^{ij}\sqrt{\|g\|}\partial_j f)$ |
 | Curl $(\nabla \times X)$ | $(\star dX^\flat)^\sharp$ | Depends on dimension; in $\mathbb{R}^3$, $(\nabla \times X)^i = \epsilon^{ijk}\partial_j X_k$ |
 
 ### Important Identities
@@ -22182,7 +22182,7 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 | --- | --- |
 | Fourier coefficients | $a_n = \frac{1}{\pi}\int_{-\pi}^{\pi} f(x)\cos(nx)\,dx$ |
 | Convergence (Dirichlet) | Converges to $f(x)$ where continuous, average at jumps |
-| Parseval's identity | $\frac{1}{\pi}\int_{-\pi}^{\pi} | f(x) | ^2\,dx = \frac{a_0^2}{2} + \sum(a_n^2+b_n^2)$ |
+| Parseval's identity | $\frac{1}{\pi}\int_{-\pi}^{\pi} \| f(x) \| ^2\,dx = \frac{a_0^2}{2} + \sum(a_n^2+b_n^2)$ |
 | Complex form | $c_n = \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)e^{-inx}\,dx$ |
 | Sine series (odd ext.) | $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\,dx$ |
 | Cosine series (even ext.) | $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\,dx$ |
@@ -27209,7 +27209,7 @@ to the boundary (no penetration condition). $\blacksquare$
 | Property | Statement |
 | -------- | --------- |
 | Angle preservation | Conformal maps preserve angles between intersecting curves |
-| Local linearisation | Near $z_0$, $f$ acts as rotation by $\arg f'(z_0)$ and scaling by $ | f'(z_0) | $ |
+| Local linearisation | Near $z_0$, $f$ acts as rotation by $\arg f'(z_0)$ and scaling by $ \| f'(z_0) \| $ |
 | Circle preservation | Möbius transformations map circles and lines to circles and lines |
 | Cross-ratio invariance | $(Tz_1, Tz_2, Tz_3, Tz_4) = (z_1, z_2, z_3, z_4)$ for any Möbius $T$ |
 | Riemann mapping | Any directly connected domain (≠ $\mathbb{C}$) is conformally equivalent to $\mathbb{D}$ |
@@ -37767,13 +37767,13 @@ computationally infeasible in sufficiently large groups.
 | Group                           | Set + associative binary operation with identity and inverses                              |
 | Abelian group                   | Group with commutative operation                                                           |
 | Subgroup                        | Subset closed under the group operation and inverses                                       |
-| Lagrange's theorem              | $                                                                                          | H   | $ divides $ | G                     | $ for $H \leq G$                                                  |
+| Lagrange's theorem              | $                                                                                          \| H   \| $ divides $ \| G                     \| $ for $H \leq G$                                                  |
 | Coset                           | $aH = \{ah : h \in H\}$; partitions $G$ into equal-size subsets                            |
 | Normal subgroup                 | $aha^{-1} \in H$ for all $a \in G, h \in H$                                                |
 | Quotient group                  | $G/N$ inherits group structure when $N \triangleleft G$                                    |
 | Conjugacy class                 | Equivalence class under $a \sim gag^{-1}$                                                  |
-| Class equation                  | $                                                                                          | G   | =           | Z(G)                  | + \sum [G : C_G(g_i)]$; proves $p$-groups have non-trivial centre |
-| Group action                    | $G$ acts on $X$ with orbit-stabiliser $                                                    | G   | =           | \operatorname{Orb}(x) | \cdot                                                             | \operatorname{Stab}(x) | $   |
+| Class equation                  | $                                                                                          \| G   \| =           \| Z(G)                  \| + \sum [G : C_G(g_i)]$; proves $p$-groups have non-trivial centre |
+| Group action                    | $G$ acts on $X$ with orbit-stabiliser $                                                    \| G   \| =           \| \operatorname{Orb}(x) \| \cdot                                                             \| \operatorname{Stab}(x) \| $   |
 | Homomorphism                    | $\phi(ab) = \phi(a)\phi(b)$; kernel is normal, image is a subgroup                         |
 | First isomorphism theorem       | $G/\ker(\phi) \cong \operatorname{im}(\phi)$                                               |
 | Cayley's theorem                | Every group embeds into a symmetric group                                                  |
