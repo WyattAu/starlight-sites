@@ -5369,8 +5369,8 @@ Mitochondria are the sites of aerobic respiration, where glucose is oxidised to 
 
 At very high temperatures, enzymes stop working because:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | They are used up in the reaction |
 | B | They are permanently denatured |
 | C | Their concentration decreases |
@@ -5388,8 +5388,8 @@ High temperatures break the hydrogen bonds that maintain the enzyme's three-dime
 
 The word equation for photosynthesis is:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Glucose + Oxygen → Carbon dioxide + Water |
 | B | Carbon dioxide + Water → Glucose + Oxygen |
 | C | Glucose + Water → Carbon dioxide + Oxygen |
@@ -5407,8 +5407,8 @@ Photosynthesis uses carbon dioxide and water, powered by light energy, to produc
 
 A person with the genotype $RR$ for a gene will:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Show the recessive phenotype |
 | B | Be a carrier of the recessive allele |
 | C | Show the dominant phenotype |
@@ -5426,8 +5426,8 @@ $RR$ means the individual has two copies of the dominant allele. They will show 
 
 Which of the following is a producer in a food chain?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Rabbit |
 | B | Grass |
 | C | Fox |
@@ -5445,8 +5445,8 @@ Producers are organisms that make their own food, typically through photosynthes
 
 The function of red blood cells is to:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Fight infection |
 | B | Carry oxygen around the body |
 | C | Carry electrical signals |
@@ -5464,8 +5464,8 @@ Red blood cells contain haemoglobin, which binds to oxygen in the lungs and rele
 
 The kidney plays a key role in homeostasis by:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Regulating body temperature |
 | B | Filtering blood and removing waste |
 | C | Producing hormones for growth |
@@ -5483,8 +5483,8 @@ The kidneys filter the blood to remove urea and excess water, producing urine. T
 
 Darwin's theory of natural selection explains how:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Organisms change their traits during their lifetime |
 | B | Organisms with advantageous traits are more likely to survive and reproduce |
 | C | All species were created at the same time |
@@ -5502,8 +5502,8 @@ Natural selection states that individuals with traits better suited to their env
 
 The role of xylem in plants is to:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Transport sugars from the leaves |
 | B | Transport water and minerals from the roots |
 | C | Carry out photosynthesis |
@@ -5521,8 +5521,8 @@ Xylem tissue transports water and dissolved minerals from the roots to the rest 
 
 Which of the following is a non-communicable disease?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Measles |
 | B | Malaria |
 | C | Type 2 diabetes |
@@ -5542,8 +5542,8 @@ Non-communicable diseases cannot be spread from person to person. Type 2 diabete
 
 The atomic number of an element represents the number of:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Neutrons in the nucleus |
 | B | Protons in the nucleus |
 | C | Electrons in the outer shell |
@@ -5561,8 +5561,8 @@ The atomic number is the number of protons in the nucleus. The mass number is th
 
 Elements in the same group of the periodic table have:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | The same number of electron shells |
 | B | The same number of outer (valence) electrons |
 | C | The same atomic mass |
@@ -5580,8 +5580,8 @@ Elements in the same group have the same number of outer electrons, which gives 
 
 Covalent bonds are formed by:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Transferring electrons from one atom to another |
 | B | Sharing electrons between atoms |
 | C | Attraction between opposite ions |
@@ -5599,8 +5599,8 @@ Covalent bonds involve the sharing of electron pairs between atoms. Ionic bonds 
 
 Which type of reaction occurs when an acid reacts with a metal?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Neutralisation |
 | B | Thermal decomposition |
 | C | Displacement |
@@ -5618,8 +5618,8 @@ Acid + metal → salt + hydrogen. This is an acid-base reaction (neutralisation)
 
 Exothermic reactions:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Absorb energy from the surroundings |
 | B | Have products with higher energy than reactants |
 | C | Release energy to the surroundings |
@@ -5637,8 +5637,8 @@ Exothermic reactions release energy to the surroundings, usually as heat. The te
 
 Le Chatelier's principle states that if a change is made to a system at equilibrium:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | The system stops reacting |
 | B | The system shifts to increase the change |
 | C | The system shifts to oppose the change |
@@ -5656,8 +5656,8 @@ Le Chatelier's principle states that a system at equilibrium will adjust to part
 
 A solution with a pH of 1 is:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Strongly alkaline |
 | B | Neutral |
 | C | Weakly acidic |
@@ -5675,8 +5675,8 @@ pH 0–3 is strongly acidic, 4–6 is weakly acidic, 7 is neutral, 8–11 is wea
 
 The general formula for alkanes is:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | $C_nH_{2n}$ |
 | B | $C_nH_{2n+2}$ |
 | C | $C_nH_{2n-2}$ |
@@ -5694,8 +5694,8 @@ Alkanes are saturated hydrocarbons with the general formula $C_nH_{2n+2}$. They 
 
 During the electrolysis of brine (sodium chloride solution), the product at the cathode is:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Chlorine |
 | B | Oxygen |
 | C | Hydrogen |
@@ -5713,8 +5713,8 @@ At the cathode (negative electrode), hydrogen ions are reduced to form hydrogen 
 
 Which gas makes up the largest percentage of Earth's atmosphere?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Oxygen |
 | B | Carbon dioxide |
 | C | Nitrogen |
@@ -5734,8 +5734,8 @@ Earth's atmosphere is approximately 78% nitrogen, 21% oxygen, 0.9% argon, and 0.
 
 A car travels at a constant velocity on a straight road. The resultant force on the car is:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Equal to the driving force |
 | B | Zero |
 | C | Equal to the frictional force |
@@ -5753,8 +5753,8 @@ By Newton's first law, an object moving at constant velocity has zero resultant 
 
 The unit of energy is:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Watt |
 | B | Joule |
 | C | Newton |
@@ -5772,8 +5772,8 @@ The joule (J) is the SI unit of energy. The watt (W) measures power, the newton 
 
 Sound waves are:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Transverse waves |
 | B | Longitudinal waves |
 | C | Electromagnetic waves |
@@ -5791,8 +5791,8 @@ Sound waves are longitudinal waves, the particles vibrate parallel to the direct
 
 In a series circuit with two resistors of 3 Ω and 6 Ω connected to a 12 V supply, what is the current?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | 2 A |
 | B | 4 A |
 | C | 6 A |
@@ -5816,8 +5816,8 @@ Total resistance in series = $R_1 + R_2 = 3 + 6 = 9 \text{ Ω}$. By Ohm's law: $
 
 Which of the following will NOT increase the strength of an electromagnet?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Increasing the current |
 | B | Adding more turns of wire |
 | C | Using a soft iron core |
@@ -5835,8 +5835,8 @@ Steel retains its magnetism when the current is switched off, making it unsuitab
 
 Which energy resource is non-renewable?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Solar |
 | B | Wind |
 | C | Natural gas |
@@ -5854,8 +5854,8 @@ Natural gas is a fossil fuel and therefore non-renewable, it takes millions of y
 
 A car accelerates from rest to 30 m/s in 10 s. What is the acceleration?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | 0.3 m/s² |
 | B | 3 m/s² |
 | C | 30 m/s² |
@@ -5873,8 +5873,8 @@ $a = \frac{v - u}{t} = \frac{30 - 0}{10} = 3 \text{ m/s}^2$.
 
 In nuclear fusion, two light nuclei combine to form:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | A heavier nucleus and radiation |
 | B | Two lighter nuclei |
 | C | A neutron and a proton |
@@ -5892,8 +5892,8 @@ Nuclear fusion combines two light nuclei to form a heavier nucleus, releasing en
 
 The specific heat capacity of water is $4200 \text{ J kg}^{-1} \text{°C}^{-1}$. How much energy is needed to raise the temperature of 2 kg of water by 10°C?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | 8,400 J |
 | B | 42,000 J |
 | C | 84,000 J |
@@ -5911,8 +5911,8 @@ $E = mc\Delta T = 2 \times 4200 \times 10 = 84{,}000 \text{ J}$.
 
 A ray of light passes from air into glass. The angle of refraction is:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Greater than the angle of incidence |
 | B | Equal to the angle of incidence |
 | C | Less than the angle of incidence |
@@ -5932,8 +5932,8 @@ When light passes from a less dense medium (air) to a more dense medium (glass),
 
 What is 15% of 200?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | 15 |
 | B | 30 |
 | C | 45 |
@@ -5951,8 +5951,8 @@ $15\% \text{ of } 200 = 0.15 \times 200 = 30$.
 
 A recipe uses flour, sugar, and butter in the ratio 3:1:2. If 600 g of flour is used, what is the total mass of all three ingredients?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | 800 g |
 | B | 1,000 g |
 | C | 1,200 g |
@@ -5976,8 +5976,8 @@ Ratio 3:1:2 means 6 parts total. If 3 parts (flour) = 600 g, then 1 part = 200 g
 
 Solve $5x - 3 = 2x + 9$.
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | $x = 2$ |
 | B | $x = 4$ |
 | C | $x = 6$ |
@@ -5995,8 +5995,8 @@ $5x - 2x = 9 + 3 \Rightarrow 3x = 12 \Rightarrow x = 4$.
 
 What is the area of a circle with radius 7 cm? (Take $\pi = \frac{22}{7}$)
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | 44 cm² |
 | B | 77 cm² |
 | C | 154 cm² |
@@ -6014,8 +6014,8 @@ $A = \pi r^2 = \frac{22}{7} \times 7^2 = \frac{22}{7} \times 49 = 22 \times 7 = 
 
 Two fair six-sided dice are rolled. What is the probability that the total is 7?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | $\frac{1}{12}$ |
 | B | $\frac{1}{6}$ |
 | C | $\frac{7}{36}$ |
@@ -6033,8 +6033,8 @@ There are 36 possible outcomes. Favourable outcomes: (1,6), (2,5), (3,4), (4,3),
 
 A shop sells a jacket for £80 after a 20% discount. What was the original price?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | £64 |
 | B | £96 |
 | C | £100 |
@@ -6052,8 +6052,8 @@ If the sale price is 80% of the original: $0.8x = 80$, so $x = 80 \div 0.8 = £1
 
 The median of the data set $\{3, 7, 1, 9, 5\}$ is:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | 3 |
 | B | 5 |
 | C | 7 |
@@ -6071,8 +6071,8 @@ Ordered: 1, 3, **5**, 7, 9. The middle value is 5.
 
 What is the next term in the sequence 2, 6, 18, 54, ...?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | 72 |
 | B | 108 |
 | C | 162 |
@@ -6090,8 +6090,8 @@ Each term is multiplied by 3: $2 \times 3 = 6$, $6 \times 3 = 18$, $18 \times 3 
 
 What is the midpoint of the line segment joining $(2, 4)$ and $(8, 10)$?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | $(5, 7)$ |
 | B | $(6, 6)$ |
 | C | $(10, 14)$ |
@@ -6109,8 +6109,8 @@ Midpoint = $\left(\frac{2+8}{2}, \frac{4+10}{2}\right) = \left(\frac{10}{2}, \fr
 
 Simplify $\sqrt{50}$.
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | $5\sqrt{2}$ |
 | B | $10\sqrt{5}$ |
 | C | $25\sqrt{2}$ |
@@ -6130,8 +6130,8 @@ $\sqrt{50} = \sqrt{25 \times 2} = \sqrt{25} \times \sqrt{2} = 5\sqrt{2}$.
 
 In a literary text, what is a "metaphor"?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | A comparison using "like" or "as" |
 | B | A direct comparison stating one thing is another |
 | C | An exaggeration for effect |
@@ -6149,8 +6149,8 @@ A metaphor states that one thing IS another thing (e.g., "the world is a stage")
 
 What is the purpose of using short, simple sentences in a narrative?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | To create a formal tone |
 | B | To build tension or create urgency |
 | C | To provide detailed descriptions |
@@ -6168,8 +6168,8 @@ Short, simple sentences create a sense of urgency and tension. They force the re
 
 In poetry, what is a "stanza"?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | A single line of poetry |
 | B | A group of lines forming a unit, like a paragraph |
 | C | The rhythm of the poem |
@@ -6187,8 +6187,8 @@ A stanza is a group of lines forming a unit within a poem, similar to a paragrap
 
 In a persuasive essay, what does the technique of "rule of three" involve?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | Writing exactly three paragraphs |
 | B | Using groups of three ideas or words for emphasis |
 | C | Listing three sources |
@@ -6206,8 +6206,8 @@ The rule of three is a writing principle where ideas presented in threes are mor
 
 Which sentence is written in the passive voice?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | The student completed the homework. |
 | B | The homework was completed by the student. |
 | C | The student is working on the homework. |
@@ -6225,8 +6225,8 @@ The passive voice places the object before the verb and uses a form of "be" + pa
 
 In Shakespeare's plays, a "soliloquy" is:
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | A conversation between two characters |
 | B | A speech delivered by a character alone on stage, revealing their thoughts |
 | C | A song performed by the chorus |
@@ -6244,8 +6244,8 @@ A soliloquy is a dramatic device where a character speaks their thoughts aloud w
 
 What is a "narrative arc"?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | The physical shape of the story on a page |
 | B | The structure of a story from beginning through rising action, climax, and resolution |
 | C | A decorative element in book design |
@@ -6263,8 +6263,8 @@ A narrative arc (or story arc) describes the overall structure of a narrative: e
 
 What is the purpose of a counter-argument in persuasive writing?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | To prove the opposing view is correct |
 | B | To acknowledge and refute opposing views, strengthening the writer's position |
 | C | To confuse the reader |
@@ -6282,8 +6282,8 @@ A counter-argument acknowledges the opposing viewpoint before refuting it. This 
 
 What does it mean to analyse the "tone" of a text?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | To count the number of words |
 | B | To identify the writer's attitude or feeling towards the subject |
 | C | To describe the physical layout of the text |
@@ -6301,8 +6301,8 @@ Tone refers to the writer's attitude toward the subject or audience. It can be f
 
 Which sentence uses the apostrophe correctly?
 
-| # | Option | Mark |
-| --- | --- | --- |
+| # | Option |
+| - | ------ |
 | A | The dog wagged it's tail. |
 | B | The children's toys were scattered. |
 | C | The teacher's are meeting today. |

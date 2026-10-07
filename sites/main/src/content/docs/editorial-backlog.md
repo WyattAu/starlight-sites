@@ -28,12 +28,18 @@ column left and lands under the wrong heading.
 consistent gives 277 rows: 220 with an ordinary first-column header, 53 with
 a marker first column (`(a)`, `Step`), and 4 mixed. The 53 look decidable —
 insert an empty leading cell — but the source says otherwise. That table is
-the OSI model:
+the OSI model, whose source reads:
 
-| (a) | Layer        | Name                                    | Primary Function |
-| --- | ------------ | --------------------------------------- | ---------------- |
-| 7   | Application  | Provides network services directly to users |
+```markdown
+| (a) | Layer        | Name                | Primary Function                 |
+| --- | ------------ | ------------------- | -------------------------------- |
+| 7   | Application  | Provides network services directly to user applications |
+```
 
+Four header cells, three data cells, so GFM pads the row at the end. The
+columns line up as `(a)`/`7`, `Layer`/`Application`, and then
+"Provides network services directly to user applications" sits under **Name**,
+with **Primary Function** empty.
 `7` and `Application` line up with `(a)` and `Layer`, so "Provides network
 services" now sits under **Name**, where HTTP, TCP and IP belong. The Name
 column is simply absent from every row. Padding a cell produces a table that

@@ -9288,12 +9288,12 @@ $$
 
 From the exact differentials of thermodynamic potentials:
 
-| Potential         | Differential                                             | Maxwell Relation |
-| ----------------- | -------------------------------------------------------- | ---------------- |
-| $dU = TdS - PdV$  | $(\partial T/\partial V)_S = -(\partial P/\partial S)_V$ |
-| $dH = TdS + VdP$  | $(\partial T/\partial P)_S = (\partial V/\partial S)_P$  |
-| $dF = -SdT - PdV$ | $(\partial S/\partial V)_T = (\partial P/\partial T)_V$  |
-| $dG = -SdT + VdP$ | $(\partial S/\partial P)_T = -(\partial V/\partial T)_P$ |
+| Potential | Differential     | Maxwell Relation                                        |
+| --------- | ---------------- | ------------------------------------------------------- |
+| $U(S,V)$  | $dU = TdS - PdV$ | $\left(\dfrac{\partial T}{\partial V}\right)_S = -\left(\dfrac{\partial P}{\partial S}\right)_V$ |
+| $H(S,P)$  | $dH = TdS + VdP$ | $\left(\dfrac{\partial T}{\partial P}\right)_S = +\left(\dfrac{\partial V}{\partial S}\right)_P$ |
+| $F(T,V)$  | $dF = -SdT - PdV$ | $\left(\dfrac{\partial S}{\partial V}\right)_T = \left(\dfrac{\partial P}{\partial T}\right)_V$ |
+| $G(T,P)$  | $dG = -SdT + VdP$ | $\left(\dfrac{\partial S}{\partial P}\right)_T = -\left(\dfrac{\partial V}{\partial T}\right)_P$ |
 
 ### 17.3 Jacobian Formalism
 
