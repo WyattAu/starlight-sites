@@ -1,11 +1,13 @@
 ---
-
 date: 2026-07-23T21:57:32+01:00
 title: "Sequences and Limits"
+description: "Sequences and limits in real analysis: the epsilon–N definition and why it has that shape, uniqueness, the algebra of limits, the monotone convergence theorem, Cauchy sequences and Bolzano–Weierstrass — with worked examples, counterexamples and recall prompts. Tier U."
 tags:
   - Mathematics
   - University
-description: 'A sequence in to a limit if for Every There exists such that Comprehensive educational content coverage with definitions and practice problems.'
+  - Real Analysis
+categories:
+  - Mathematics
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -13,322 +15,274 @@ description: 'A sequence in to a limit if for Every There exists such that Compr
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "2_sequences And Limits", "url": "https://mathematics.wyattau.com/3-real-analysis/2_sequences-and-limits"}]
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "Sequences and Limits", "url": "https://mathematics.wyattau.com/3-real-analysis/sequences-and-limits"}]
 }
 </script>
 
-### 2.1 Convergence
+## Sequences and Limits
 
-A sequence $(a_n)_{n=1}^{\infty}$ in $\mathbb{R}$ **converges** to a limit $L \in \mathbb{R}$ if for
-every $\varepsilon > 0$ There exists $N \in \mathbb{N}$ such that
+**Tier: U (Undergraduate).** Builds on [The Real Number
+System](/3-real-analysis/1_the-real-number-system/). Everything later —
+continuity, differentiability, integration, and the whole of measure theory —
+is built by changing the words in this page's definitions while keeping the
+skeleton.
+
+## Recall prompts
+
+Attempt these from memory *before* reading. Getting them wrong is the point:
+the failure is what makes the rest stick.
+
+- Define what it means for $a_n \to L$, using only quantifiers.
+- Why is the limit unique?
+- Is every convergent sequence bounded? Is every bounded sequence convergent?
+- What is a Cauchy sequence, and does every Cauchy sequence in $\mathbb{Q}$
+  converge?
+- State Bolzano–Weierstrass.
+
+Check your answers against the text. Every one you missed is a section to read
+twice.
+
+## Motivation: why this definition and not another one
+
+" $a_n$ gets close to $L$" is not mathematics, because *close* is not a number.
+The first attempt is: for every $\varepsilon > 0$, $|a_n - L| < \varepsilon$. But
+that is false for every sequence — $|a_n - L|$ is never exactly zero, so it is
+less than $\varepsilon$ only *eventually*.
+
+That "eventually" is the whole idea. The definition says the terms get and stay
+arbitrarily close, and it does so by making you, the prover, supply an $N$ for
+each $\varepsilon$ your adversary hands you. The adversary picks a tolerance;
+you must meet it.
+
+**Worked example 1 (the adversary, played honestly).** Show $a_n = 1/n \to 0$.
+
+*Step 1.* The adversary names $\varepsilon > 0$.
+
+*Step 2.* We must find $N$ with $|1/n - 0| < \varepsilon$ for $n \ge N$. Since
+$|1/n| = 1/n$, we need $1/n < \varepsilon$, i.e. $n > 1/\varepsilon$.
+
+*Step 3.* Choose $N = \lceil 1/\varepsilon \rceil + 1$. Then $n \ge N$ gives
+$n > 1/\varepsilon$, so $|1/n| < \varepsilon$. $\blacksquare$
+
+**Worked example 2 (the same three steps, harder algebra).** Show $a_n = \frac{3n^2 + 2}{n^2 + 1} \to 3$.
+
+*Step 1.* Adversary gives $\varepsilon > 0$.
+
+*Step 2.* Bound the error without solving exactly:
 
 $$
-|a_n - L| \lt \varepsilon \quad \mathrm{for\ all\ } n \geq N
+\left|\frac{3n^2+2}{n^2+1} - 3\right| = \left|\frac{2 - 3}{n^2+1}\right| = \frac{1}{n^2+1} < \frac{1}{n^2} \le \frac{1}{n}.
 $$
 
-We write $a_n \to L$ or $\lim_{n \to \infty} a_n = L$. A sequence that does not converge is said to
-**diverge**.
+*Step 3.* Choose $N = \lceil 1/\varepsilon \rceil + 1$. $\blacksquare$
 
-**Proposition 2.1 (Uniqueness of Limits).** If $(a_n)$ converges, its limit is unique.
+Notice the technique: we did **not** solve $1/(n^2+1) < \varepsilon$ exactly. We
+overestimated and then solved the easier bound. An overestimate is fine — the
+definition only asks you to make the error small, not to make it small
+optimally.
 
-_Proof._ Suppose $a_n \to L$ and $a_n \to M$ with $L \neq M$. Let $\varepsilon = |L - M|/2 > 0$.
-There Exists $N_1$ such that $|a_n - L| \lt \varepsilon$ for $n \geq N_1$ And $N_2$ such that
-$|a_n - M| \lt \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
+**Completion problem.** Show $a_n = \frac{\sin n}{n} \to 0$ by filling in the
+missing step: $|\sin n / n| \le \_\_\_$, so choose $N = \_\_\_$.
+
+## The definition, and what each part is for
+
+**Definition (F).** A sequence $(a_n)$ **converges** to $L \in \mathbb{R}$ if
+for every $\varepsilon > 0$ there exists $N \in \mathbb{N}$ such that
 
 $$
-|L - M| \leq |a_n - L| + |a_n - M| \lt 2\varepsilon = |L - M|
+|a_n - L| < \varepsilon \quad \text{for all } n \ge N.
 $$
 
-A contradiction. $\blacksquare$
+We write $a_n \to L$. A sequence that does not converge **diverges**.
+
+Each clause earns its place:
+
+- **for every $\varepsilon > 0$** — arbitrarily close, not just close. Delete it
+  and $a_n = 1/n$ "converges" to $0.1$.
+- **there exists $N$** — the $\varepsilon$ is allowed to depend on nothing; the
+  $N$ may depend on $\varepsilon$. Swapping those quantifiers defines a
+  different (and stronger) statement.
+- **for all $n \ge N$** — *stays* close. Delete it and $a_n = n + (-1)^n$
+  "converges" infinitely often.
+- **$|a_n - L| < \varepsilon$** — the metric. Replacing this is how analysis is
+  generalised: to $\mathbb{R}^k$ (Euclidean distance), to functions (sup norm),
+  and to measure theory (convergence in measure).
+
+## Uniqueness, and boundedness
+
+**Proposition 2.1 (Uniqueness of Limits).** If $(a_n)$ converges, its limit is
+unique.
+
+*Proof.* Suppose $a_n \to L$ and $a_n \to M$ with $L \ne M$. Let $\varepsilon =
+|L - M|/2 > 0$. There is $N_1$ with $|a_n - L| < \varepsilon$ for $n \ge N_1$,
+and $N_2$ with $|a_n - M| < \varepsilon$ for $n \ge N_2$. For $n \ge \max(N_1,
+N_2)$,
+
+$$
+|L - M| \le |a_n - L| + |a_n - M| < 2\varepsilon = |L - M|,
+$$
+
+a contradiction. $\blacksquare$
+
+**The key idea.** Two distinct numbers are separated by a fixed gap, and a
+convergent sequence is eventually inside *any* gap around its limit. It cannot
+be inside two disjoint gaps at once. This "two balls around distinct points are
+disjoint" move is the reason uniqueness holds in every metric space, and it is
+the reason it fails when the topology is not Hausdorff.
 
 **Proposition 2.2.** Every convergent sequence is bounded.
 
-_Proof._ Let $a_n \to L$. Taking $\varepsilon = 1$ There exists $N$ such that $|a_n - L| \lt 1$ for
-all $n \geq N$. Then $|a_n| \leq |L| + 1$ for $n \geq N$. Let
-$M = \max\{|a_1|, |a_2|, \ldots, |a_{N-1}|, |L| + 1\}$. Then $|a_n| \leq M$ for all $n$.
-$\blacksquare$
+*Proof.* Taking $\varepsilon = 1$ there is $N$ with $|a_n - L| < 1$ for $n \ge
+N$, so $|a_n| \le |L| + 1$ for $n \ge N$. Let $M = \max\{|a_1|, \dots,
+|a_{N-1}|, |L| + 1\}$. $\blacksquare$
 
-### 2.2 Convergence Theorems
+**Counterexample.** $a_n = n$ is unbounded and diverges — so boundedness is
+*implied by* convergence. The converse is false: $a_n = (-1)^n$ is bounded and
+diverges, since the subsequences $a_{2k} = 1$ and $a_{2k+1} = -1$ converge to
+different limits.
 
-**Theorem 2.1 (Algebra of Limits).** If $a_n \to L$ and $b_n \to M$ Then:
+## The convergence theorems
+
+**Theorem 2.1 (Algebra of Limits).** If $a_n \to L$ and $b_n \to M$ then
 
 1. $a_n + b_n \to L + M$
 2. $a_n b_n \to LM$
-3. $a_n / b_n \to L/M$ (provided $M \neq 0$ and $b_n \neq 0$ for all $n$)
+3. $a_n / b_n \to L/M$, provided $M \ne 0$ and $b_n \ne 0$ for all $n$.
 
-**Theorem 2.2 (Squeeze Theorem).** If $a_n \leq b_n \leq c_n$ for all $n$ and $a_n \to L$
-$c_n \to L$ Then $b_n \to L$.
+**Theorem 2.2 (Squeeze Theorem).** If $a_n \le b_n \le c_n$ eventually and
+$a_n \to L$, $c_n \to L$, then $b_n \to L$.
 
-**Theorem 2.3 (Monotone Convergence Theorem).** Every bounded monotone sequence in $\mathbb{R}$
-converges. Specifically:
+The squeeze theorem is the working analyst's favourite tool: it converts a hard
+estimate into an easy one by sandwiching the unknown between two known limits.
+Worked example 2 above used exactly this idea.
 
-- Every bounded increasing sequence converges to its supremum.
-- Every bounded decreasing sequence converges to its infimum.
+**Theorem 2.3 (Monotone Convergence Theorem).** Every bounded monotone sequence
+in $\mathbb{R}$ converges — to its supremum if increasing, its infimum if
+decreasing.
 
-_Proof._ Let $(a_n)$ be bounded and increasing. By the completeness axiom,
-$s = \sup\{a_n : n \in \mathbb{N}\}$ exists. Let $\varepsilon > 0$. By the approximation property,
-There exists $N$ such that $s - \varepsilon \lt a_N \leq s$. Since $(a_n)$ is increasing,
-$a_n \geq a_N > s - \varepsilon$ for all $n \geq N$. Also $a_n \leq s$ for all $n$. Hence
-$|a_n - s| \lt \varepsilon$ for all $n \geq N$. $\blacksquare$
+*Proof.* Let $(a_n)$ be bounded and increasing. By completeness,
+$s = \sup\{a_n\}$ exists. Given $\varepsilon > 0$, the approximation property
+gives $N$ with $s - \varepsilon < a_N \le s$. Since $(a_n)$ increases,
+$a_n \ge a_N > s - \varepsilon$ for $n \ge N$, while $a_n \le s$ throughout.
+So $|a_n - s| < \varepsilon$. $\blacksquare$
 
-### 2.3 Cauchy Sequences
+**Why this theorem is the most important on the page.** Its proof uses
+*completeness* — the existence of suprema — and nothing else. That is the
+property separating $\mathbb{R}$ from $\mathbb{Q}$, and it is the engine behind
+every existence theorem in analysis: the intermediate value theorem, the
+extreme value theorem, Riemann integrability, and the convergence of Fourier
+series all trace back to it.
 
-A sequence $(a_n)$ is a **Cauchy sequence** if for every $\varepsilon > 0$ There exists
-$N \in
-\mathbb{N}$ such that
+**Counterexample.** In $\mathbb{Q}$, the sequence $a_n = (1 + 1/n)^n$ is
+increasing and bounded above (by 3, say), but its limit is $e \notin
+\mathbb{Q}$. Bounded and monotone, yet not convergent. Completeness is exactly
+what was missing.
 
-$$
-|a_n - a_m| \lt \varepsilon \quad \mathrm{for\ all\ } m, n \geq N
-$$
+## Cauchy sequences
+
+**Definition.** $(a_n)$ is **Cauchy** if for every $\varepsilon > 0$ there
+exists $N$ such that $|a_n - a_m| < \varepsilon$ for all $m, n \ge N$.
+
+The definition replaces "close to a limit" with "close to each other" — a
+statement you can verify *without knowing the limit*. That is what makes it
+useful for proving things exist.
 
 **Theorem 2.4.** Every convergent sequence is Cauchy.
 
-_Proof._ Let $a_n \to L$. Given $\varepsilon > 0$ Choose $N$ such that $|a_n - L| \lt \varepsilon/2$
-for all $n \geq N$. Then for $m, n \geq N$:
-$|a_n - a_m| \leq |a_n - L| + |a_m - L| \lt \varepsilon$. $\blacksquare$
+*Proof.* Given $\varepsilon > 0$, choose $N$ with $|a_n - L| < \varepsilon/2$
+for $n \ge N$. Then for $m, n \ge N$,
+$|a_n - a_m| \le |a_n - L| + |a_m - L| < \varepsilon$. $\blacksquare$
 
-**Theorem 2.5 (Cauchy Completeness of $\mathbb{R}$).** Every Cauchy sequence in $\mathbb{R}$
-converges.
+**Theorem 2.5 (Cauchy Completeness of $\mathbb{R}$).** Every Cauchy sequence in
+$\mathbb{R}$ converges.
 
-_Proof._ Let $(a_n)$ be Cauchy. First, $(a_n)$ is bounded: choose $N$ with $|a_n - a_m| \lt 1$ for
-$m, n \geq N$. Then $|a_n| \leq |a_N| + 1$ for $n \geq N$. By the Bolzano-Weierstrass theorem
-(Theorem 2.6 below), $(a_n)$ has a convergent subsequence $(a_{n_k}) \to L$. We show $a_n \to L$.
-
-Given $\varepsilon > 0$ Choose $N_1$ so that $|a_n - a_m| \lt \varepsilon/2$ for $m, n \geq N_1$ And
-$K$ so that $|a_{n_k} - L| \lt \varepsilon/2$ for $k \geq K$. For $n \geq N_1$ Choose $k \geq K$ with
-$n_k \geq N_1$ (possible since $n_k \to \infty$). Then
+*Proof.* A Cauchy sequence is bounded, so by Bolzano–Weierstrass it has a
+convergent subsequence $a_{n_k} \to L$. Given $\varepsilon > 0$, choose $N_1$
+with $|a_n - a_m| < \varepsilon/2$ for $m,n \ge N_1$, and $K$ with
+$|a_{n_k} - L| < \varepsilon/2$ for $k \ge K$. For $n \ge N_1$ pick $k \ge K$
+with $n_k \ge N_1$. Then
 
 $$
-|a_n - L| \leq |a_n - a_{n_k}| + |a_{n_k} - L| \lt \varepsilon/2 + \varepsilon/2 = \varepsilon
+|a_n - L| \le |a_n - a_{n_k}| + |a_{n_k} - L| < \frac{\varepsilon}{2} + \frac{\varepsilon}{2} = \varepsilon.
+\qquad \blacksquare
 $$
 
-$\blacksquare$
-
-### 2.4 Subsequences
-
-A **subsequence** of $(a_n)$ is a sequence $(a_{n_k})_{k=1}^{\infty}$ where
-$n_1 \lt n_2 \lt n_3 \lt \cdots$.
-
-**Proposition 2.3.** If $a_n \to L$ Then every subsequence $(a_{n_k}) \to L$.
-
-**Proposition 2.4.** If $(a_n)$ has two subsequences converging to different limits, then $(a_n)$
-diverges.
-
-### 2.5 The Bolzano-Weierstrass Theorem
-
-**Theorem 2.6 (Bolzano-Weierstrass).** Every bounded sequence in $\mathbb{R}$ has a convergent
-subsequence.
-
-_Proof._ Let $(a_n)$ be bounded, so $a_n \in [A, B]$ for all $n$. Set $I_0 = [A, B]$. Bisect $I_0$
-into $[A, (A+B)/2]$ and $[(A+B)/2, B]$. At least one contains infinitely many terms of $(a_n)$; call
-it $I_1$. Having constructed $I_k = [l_k, r_k]$ Bisect it and select $I_{k+1}$ as the half containing
-Infinitely many terms of $(a_n)$.
-
-This produces a nested sequence of closed intervals
-$I_0 \supseteq I_1 \supseteq I_2 \supseteq \cdots$ With $\mathrm{length}(I_k) = (B - A)/2^k \to 0$.
-By the **Nested Interval Property** (which follows From completeness),
-$\bigcap_{k=0}^{\infty} I_k = \{c\}$ for some $c \in [A, B]$.
-
-Construct the subsequence inductively: pick $n_1$ with $a_{n_1} \in I_1$. Having chosen
-$n_1 \lt n_2 \lt \cdots \lt n_{k-1}$ Pick $n_k > n_{k-1}$ with $a_{n_k} \in I_k$ (possible since
-$I_k$ contains infinitely many terms). Then $a_{n_k} \in I_k$ for all $k$ So
-$|a_{n_k} - c| \leq \mathrm{length}(I_k) \to 0$. Hence $a_{n_k} \to c$. $\blacksquare$
-
-### 2.6 Limit Superior and Limit Inferior
-
-Let $(a_n)$ be a bounded sequence. Define:
-
-$$
-\limsup_{n \to \infty} a_n = \inf_{n \geq 1} \sup_{k \geq n} a_k, \qquad \liminf_{n \to \infty} a_n = \sup_{n \geq 1} \inf_{k \geq n} a_k
-$$
-
-**Proposition 2.5.** For every bounded sequence $(a_n)$:
-$$
-\liminf_{n \to \infty} a_n \leq \limsup_{n \to \infty} a_n
-$$
-
-_Proof._ For any $n$, $\inf_{k \geq n} a_k \leq a_n \leq \sup_{k \geq n} a_n$. Taking supremum over
-$n$ on the left: $\liminf a_n \leq \sup_{k \geq n} a_k$ for every $n$. Taking infimum over $n$ on
-the right gives $\liminf a_n \leq \limsup a_n$. $\blacksquare$
-
-**Proposition 2.6.** $(a_n)$ converges if and only if $\liminf a_n = \limsup a_n$ In which case the
-Common value equals $\lim a_n$.
-
-_Proof._ If $a_n \to L$ Then for every $\varepsilon > 0$ There exists $N$ such that
-$L - \varepsilon \lt a_n \lt L + \varepsilon$ for $n \geq N$. Hence
-$\sup_{k \geq n} a_k \leq L + \varepsilon$ For $n \geq N$ So $\limsup a_n \leq L + \varepsilon$.
-Since $\varepsilon > 0$ is arbitrary, $\limsup a_n \leq L$. Similarly $\liminf a_n \geq L$. Combined
-with Proposition 2.5, $\liminf a_n = \limsup a_n = L$.
-
-Conversely, if $\liminf a_n = \limsup a_n = L$ Then for every $\varepsilon > 0$ There exists $N_1$
-with $\sup_{k \geq n} a_k \lt L + \varepsilon$ for $n \geq N_1$ And $N_2$ with
-$\inf_{k \geq n} a_k > L - \varepsilon$ for $n \geq N_2$. For $n \geq \max(N_1, N_2)$:
-$L - \varepsilon \lt a_n \lt L + \varepsilon$ So $a_n \to L$. $\blacksquare$
-
-**Proposition 2.7.** $\limsup a_n$ is the largest subsequential limit of $(a_n)$ And $\liminf a_n$ Is
-the smallest.
-
-_Proof._ Let $L^* = \limsup a_n = \inf_n \sup_{k \geq n} a_k$. Define $s_n = \sup_{k \geq n} a_k$.
-Then $(s_n)$ is decreasing and $s_n \to L^*$. For each $n$ Choose $k_n \geq n$ with
-$a_{k_n} > s_n - 1/n$. Then $a_{k_n} \to L^*$ (by squeeze), producing a subsequence converging to
-$L^*$.
-
-If $L > L^*$ were a subsequential limit, choose a subsequence $a_{n_j} \to L$. For large $j$:
-$a_{n_j} > (L + L^*)/2 > L^*$. But $a_{n_j} \leq s_{n_j}$ for all $j$ And $s_{n_j} \to L^*$ So
-$a_{n_j} \leq s_{n_j} \lt (L + L^*)/2$ for large $j$ A contradiction. $\blacksquare$
-
-**Proposition 2.8 (Algebra of $\limsup$/$\liminf$).** If $(a_n)$ and $(b_n)$ are bounded sequences:
-
-1. $\limsup(a_n + b_n) \leq \limsup a_n + \limsup b_n$
-2. $\liminf(a_n + b_n) \geq \liminf a_n + \liminf b_n$
-3. If $a_n \geq 0$ and $b_n \geq 0$: $\limsup(a_n b_n) \leq (\limsup a_n)(\limsup b_n)$
-
-_Remark._ Equality in (1) does not hold . For example, $a_n = (-1)^n$ and $b_n = (-1)^{n+1}$ Give
-$a_n + b_n = 0$ So $\limsup(a_n + b_n) = 0 \lt 1 + 1 = \limsup a_n + \limsup b_n$.
-
-**Proposition 2.9.** A sequence $(a_n)$ is convergent if and only if it is Cauchy, if and only if
-$\limsup a_n = \liminf a_n$.
-
-<details>
-<summary>Worked Example: Compute $\limsup$ and $\liminf$ of $a_n = (-1)^n \cdot \frac{n}{n+1}$</summary>
-
-_Solution._ The sequence is $-1/2, 2/3, -3/4, 4/5, -5/6, \ldots$
-
-The even subsequence is $a_{2k} = \frac{2k}{2k+1} \to 1$. The odd subsequence is
-$a_{2k-1} = -\frac{2k-1}{2k} \to -1$.
-
-No subsequence can have a limit greater than $1$ (since $a_n \leq n/(n+1) \lt 1$ for even $n$ And
-$a_n \lt 0$ for odd $n$). Similarly, no subsequence can have a limit less than $-1$.
-
-Therefore $\limsup_{n \to \infty} a_n = 1$ and $\liminf_{n \to \infty} a_n = -1$. Since
-$\limsup \neq \liminf$ The sequence diverges. $\blacksquare$
-
-</details>
-
-### 2.7 Worked Examples
-
-**Problem.** Prove that $\lim_{n \to \infty} \frac{n}{n+1} = 1$.
-
-_Solution._ Let $\varepsilon > 0$. We need $\left|\frac{n}{n+1} - 1\right| \lt \varepsilon$ i.e.,
-$\frac{1}{n+1} \lt \varepsilon$ i.e., $n > \frac{1}{\varepsilon} - 1$. Choose
-$N = \lceil \frac{1}{\varepsilon} \rceil$. Then for $n \geq N$: $n \geq \frac{1}{\varepsilon}$ so
-$n+1 > \frac{1}{\varepsilon}$ so $\frac{1}{n+1} \lt \varepsilon$. $\blacksquare$
-
-### 2.8 Intuition: What Does Convergence Really Mean?
-
-The epsilon-delta (or epsilon-N) definition of convergence captures the idea that a sequence
-"eventually stays arbitrarily close to its limit." The formal definition says: for every tolerance
-$\varepsilon > 0$, there is a point $N$ in the sequence after which all terms are within $\varepsilon$
-of the limit $L$.
-
-Think of it as a challenge game. Your opponent picks a tolerance $\varepsilon$ (say, $\varepsilon =
-0.001$). You must find a point $N$ in the sequence such that every term after $N$ is within $0.001$
-of $L$. If you can always win this game, no matter how small the tolerance, the sequence converges
-to $L$.
-
-The key insight is that convergence is about **tail behavior**. The first million terms of a
-sequence are irrelevant; only the terms with $n \geq N$ matter. This is why the sequence
-$1000, 1000, 1000, \ldots, 1000, 1 + 1/n, 1 + 1/(n+1), \ldots$ (with a million 1000s followed by
-$1 + 1/n$) converges to 1, even though many early terms are far from 1.
-
-**Divergence** means the sequence fails to settle near any single value. The sequence
-$(-1)^n = -1, 1, -1, 1, \ldots$ diverges because it oscillates between $-1$ and $1$ and never
-stays near a single limit. No matter what $L$ you claim is the limit, the tolerance game fails:
-for $\varepsilon = 0.5$, there is no $N$ such that all terms after $N$ are within $0.5$ of $L$.
-
-**Connection to calculus.** The limit of a function, $\lim_{x \to a} f(x) = L$, is defined
-analogously: for every $\varepsilon > 0$, there exists $\delta > 0$ such that
-$0 < |x - a| < \delta$ implies $|f(x) - L| < \varepsilon$. The structure is identical; only the
-quantifiers change (from "there exists $N$ for all $n \geq N$" to "there exists $\delta$ for all
-$x$ with $0 < |x - a| < \delta$").
-
-<details>
-<summary>Worked Example: $\varepsilon$-$N$ proof that $\lim_{n \to \infty} \frac{3n + 1}{n + 2} = 3$</summary>
-
-_Solution._ Let $\varepsilon > 0$. We compute:
-
-$$
-\left|\frac{3n+1}{n+2} - 3\right| = \left|\frac{3n+1 - 3(n+2)}{n+2}\right| = \left|\frac{-5}{n+2}\right| = \frac{5}{n+2}
-$$
-
-We need $\frac{5}{n+2} \lt \varepsilon$ i.e., $n + 2 > 5/\varepsilon$ i.e., $n > 5/\varepsilon - 2$.
-Choose $N = \lceil 5/\varepsilon \rceil$. Then for $n \geq N$:
-
-$$
-\left|\frac{3n+1}{n+2} - 3\right| = \frac{5}{n+2} \leq \frac{5}{N+2} \leq \frac{5}{5/\varepsilon} = \varepsilon
-$$
-
-$\blacksquare$
-
-</details>
-
-<details>
-<summary>Worked Example: Show $(a_n)$ with $a_1 = \sqrt{2}$, $a_{n+1} = \sqrt{2 + a_n}$ converges</summary>
-
-_Solution._ **Step 1:** $(a_n)$ is bounded above by $2$. By induction: $a_1 = \sqrt{2} \leq 2$. If
-$a_n \leq 2$ then $a_{n+1} = \sqrt{2 + a_n} \leq \sqrt{2 + 2} = 2$.
-
-**Step 2:** $(a_n)$ is increasing. We have $a_1 = \sqrt{2} \approx 1.414$ and
-$a_2 = \sqrt{2 + \sqrt{2}} \approx 1.848$. Assume $a_n \leq a_{n+1}$. Then
-$a_{n+1} = \sqrt{2 + a_n} \leq \sqrt{2 + a_{n+1}} = a_{n+2}$.
-
-**Step 3:** By the Monotone Convergence Theorem, $(a_n)$ converges. Let $L = \lim a_n$. Taking
-limits in $a_{n+1} = \sqrt{2 + a_n}$: $L = \sqrt{2 + L}$ so $L^2 = 2 + L$ giving $L^2 - L - 2 = 0$ so
-$(L-2)(L+1) = 0$. Since $a_n \geq \sqrt{2} > 0$ for all $n$, $L \geq 0$ so $L = 2$. $\blacksquare$
-
-</details>
-
-### 2.9 Worked Example: Divergence by Subsequence
-
-**Problem.** Prove that $a_n = (-1)^n$ diverges.
-
-<details>
-<summary>Solution</summary>
-
-Suppose for contradiction that $a_n \to L$. Then every subsequence must also converge to $L$. The
-even subsequence $a_{2k} = (-1)^{2k} = 1 \to 1$, so $L = 1$. The odd subsequence
-$a_{2k-1} = (-1)^{2k-1} = -1 \to -1$, so $L = -1$. But $1 \neq -1$, a contradiction. Therefore
-$a_n$ diverges.
-
-**Alternative approach using limsup/liminf:** $\limsup a_n = 1$ and $\liminf a_n = -1$. Since
-$\limsup \neq \liminf$, the sequence diverges by Proposition 2.9. $\blacksquare$
-
-</details>
-
-:::caution
-**Common Pitfall:** Do not confuse $\limsup$ and $\liminf$ with $\sup$ and $\inf$ of the range
-$\{a_n : n \in \mathbb{N}\}$. The $\limsup$ depends on the _tail_ behavior of the sequence. For
-example, $a_n = (-1)^n$ has $\limsup = 1$ and $\liminf = -1$, but $\sup\{a_n\} = 1$ and
-$\inf\{a_n\} = -1$ happen to agree in this case. However, for $a_n = 1/n$, $\sup = 1$ but
-$\limsup = 0$.
-:::
-
-
-```mermaid
-flowchart TD
-    A[2_Sequences And Limits] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
-## Cross-References
-
-- **[Series](/3-real-analysis/3_series/)**: The convergence of series is defined through partial sums, making sequence convergence the foundation for all series theory.
-- **[Sequences and Series of Functions](/3-real-analysis/7_sequences-and-series-of-functions/)**: Pointwise and uniform convergence of function sequences extend the real-number convergence concepts to function spaces.
-- **[Metric Spaces](/9-topology/7_metric-spaces/)**: The epsilon-N definition of convergence generalises to metric spaces, where completeness and compactness play analogous roles.
-- **[Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)**: Convergence of random variables (almost surely, in probability, in distribution) builds on the sequence convergence framework.
-
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
-- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
-- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
-
-## Common Mistakes
-
-- **Confusing $\limsup$ and $\liminf$ with $\sup$ and $\inf$ of the range:** The supremum of the range $\{a_n\}$ is the largest value ever attained; $\limsup$ depends on the tail behaviour. For $a_n = 1/n$, $\sup = 1$ but $\limsup = 0$.
-- **Assuming every bounded sequence converges:** Boundedness is necessary but not sufficient. $a_n = (-1)^n$ is bounded but diverges because the even and odd subsequences converge to different limits.
-- **Forgetting that a Cauchy sequence in $\mathbb{Q}$ may not converge in $\mathbb{Q}$:** Completeness of $\mathbb{R}$ guarantees Cauchy sequences converge. In $\mathbb{Q}$, the sequence of rational approximations to $\sqrt{2}$ is Cauchy but has no limit in $\mathbb{Q}$.
-- **Using $|a_n - L| < \varepsilon$ for all $n$ instead of for $n > N$:** The definition of convergence requires that the inequality holds only eventually (for all $n > N$), not for every term from the start.
+**Why this matters.** A space in which Cauchy sequences converge is called
+*complete*. Completeness of $\mathbb{R}$ is what makes Newton's method, fixed
+point iteration, power series and the fundamental theorem of calculus work. In
+functional analysis the same property defines a Banach space, and in that
+setting Picard iteration gives existence and uniqueness of solutions to ODEs.
+
+## Subsequences and Bolzano–Weierstrass
+
+A **subsequence** of $(a_n)$ is $(a_{n_k})$ with $n_1 < n_2 < \cdots$.
+
+**Proposition 2.3.** If $a_n \to L$ then every subsequence $a_{n_k} \to L$.
+
+**Proposition 2.4.** If $(a_n)$ has two subsequences converging to different
+limits, then $(a_n)$ diverges.
+
+**Theorem 2.6 (Bolzano–Weierstrass).** Every bounded sequence in $\mathbb{R}$
+has a convergent subsequence.
+
+The proof idea is a *bisection argument*: split a bounded interval in half, at
+least one half contains infinitely many terms, keep that half, and repeat. The
+midpoints converge; choosing one term from each nested interval gives a
+convergent subsequence. Bolzano–Weierstrass is used to prove Theorem 2.5, and
+it is the reason every continuous function on a closed bounded interval is
+bounded and attains its bounds.
+
+## Counterexamples worth knowing by name
+
+| Sequence | Bounded? | Monotone? | Cauchy? | Convergent? |
+| -------- | -------- | --------- | ------- | ----------- |
+| $a_n = (-1)^n$ | yes | no | no | no |
+| $a_n = 1/n$ | yes | yes | yes | yes |
+| $a_n = n$ | no | yes | no | no |
+| $a_n = (1+1/n)^n$ in $\mathbb{Q}$ | yes | yes | yes | **no** |
+| $a_n = \sin n$ | yes | no | no | no |
+
+The fourth row is the one to remember. It is a sequence of rationals, Cauchy in
+$\mathbb{Q}$, with no rational limit — and it is the reason $\mathbb{R}$ has to
+be constructed as a completion rather than assumed.
+
+## Common pitfalls
+
+| Pitfall | Why it happens | Fix |
+| ------- | -------------- | --- |
+| "Converges to $\varepsilon$" | Reading $\varepsilon$ as a target | $\varepsilon$ is the tolerance, chosen by the adversary; $N$ is yours |
+| Solving the inequality exactly | Believing the bound must be tight | Any overestimate that tends to 0 is fine |
+| Writing "$N$ depends on $n$" | Quantifier swap | $N$ may depend on $\varepsilon$, never on $n$ |
+| $|a_n - L| < \varepsilon$ for some $n$ | Forgetting "for all $n \ge N$" | The closeness must persist |
+| Assuming bounded implies convergent | $(-1)^n$ is the counterexample | Bounded + monotone is the theorem |
+
+## Interleaving problems
+
+Mix these with problems from [The Real Number
+System](/3-real-analysis/1_the-real-number-system/) and [Series](/3-real-analysis/3_series/)
+— deciding *which* tool to use is the part blocked practice never trains.
+
+1. Show $a_n = \sqrt{n^2 + n} - n \to \tfrac12$, by rationalising and then
+   bounding.
+2. Show that if $a_n > 0$ and $a_{n+1}/a_n \to L < 1$ then $a_n \to 0$.
+   *(Hint: compare with a geometric sequence — this is the ratio test in
+   disguise.)*
+3. Show a sequence with $|a_{n+1} - a_n| \le 2^{-n}$ is Cauchy, and deduce it
+   converges. *(This is how most existence proofs in analysis actually run.)*
+4. Give a sequence $(a_n)$ with no convergent subsequence. What property of
+   $\mathbb{R}$ did you use?
+5. Show that if every subsequence of $(a_n)$ has a further subsequence
+   converging to $L$, then $a_n \to L$. *(This "subsequence of subsequence"
+   argument is used constantly in probability.)*
+
+## See Also
+
+- [The Real Number System](/3-real-analysis/1_the-real-number-system/) —
+  completeness, the engine behind this page
+- [Series](/3-real-analysis/3_series/) — sequences of partial sums
+- [Continuity](/3-real-analysis/4_continuity/) — the same definition, one
+  abstraction up
+- [Measure Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/)
+  — where convergence gets harder and more useful
+- [How to Use These Notes](/how-to-use/) — the method, and why recall prompts
+  come first
