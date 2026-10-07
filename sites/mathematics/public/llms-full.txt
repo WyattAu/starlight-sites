@@ -16079,6 +16079,46 @@ URL: https://mathematics.wyattau.com/3-real-analysis/5_differentiability/
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define the derivative as a limit. What kind of limit is it?
+- State the mean value theorem. What are its hypotheses, and which one is
+  load-bearing?
+- Is every continuous function differentiable? Is every differentiable function
+  continuous?
+- Can a derivative be discontinuous?
+- State Taylor's theorem with the Lagrange form of the remainder.
+
+Check your answers against the text. Prompt 4 is the one most people answer
+wrongly, and Darboux's theorem is the reason the right answer is surprising.
+
+## Motivation: the derivative is a linear map, not a slope
+
+"Slope of the tangent line" is how differentiation is introduced, and it is a
+useful lie. The honest definition is:
+
+> $f$ is differentiable at $a$ if there is a number $f'(a)$ with
+> $f(a + h) = f(a) + f'(a) h + o(h)$.
+
+That is: $f$ is differentiable at $a$ exactly when it can be approximated near
+$a$ by an **affine function**, with error smaller than linear. The number
+$f'(a)$ is the slope of that affine approximation.
+
+Reading it this way does three things the slope picture cannot:
+
+- It generalises to $\mathbb{R}^n$, where the derivative is a *linear map*
+  (the Jacobian) and there is no single slope.
+- It makes the mean value theorem obvious: if the function is affine on average,
+  some point must have the affine slope.
+- It explains why differentiability is stronger than continuity. Continuity says
+  $f(a+h) - f(a) \to 0$; differentiability says the difference is *linear* in
+  $h$. Linear is much stronger.
+
+The counterexamples on this page are the reason the distinction has to be made
+carefully rather than assumed.
+
 ### 5.1 The Derivative
 
 **Definition.** $f : (a,b) \to \mathbb{R}$ is **differentiable at** $c \in (a,b)$ if the limit
@@ -16363,7 +16403,49 @@ The derivative is most deeply understood not as a "slope" but as the best linear
 
 This perspective explains why the chain rule works as it does. If f is locally linear near g(x) and g is locally linear near a, then their composition is locally linear near a, and the slopes multiply. It also explains why not every continuous function is differentiable: f(x)=|x| is continuous at 0 but has no single linear approximation there -- the left and right slopes disagree. The Mean Value Theorem says that the instantaneous linear approximation (the derivative) must at some point match the average rate of change over an interval. Taylor's theorem extends this: the derivative is the first-order term in a polynomial approximation, and the remainder controls how well that approximation works.
 
-### 5.8a Geometric Meaning of the MVT
+## Counterexamples worth knowing by name
+
+| Function | Continuous? | Differentiable? | What it shows |
+| -------- | ----------- | --------------- | ------------- |
+| $\|x\|$ at $0$ | yes | no | a corner: left and right derivatives differ |
+| $x^2 \sin(1/x^2)$, $f(0)=0$ | yes | yes at 0, $f'(0)=0$ | the derivative exists but is *unbounded* near 0 |
+| Weierstrass $W(x)$ | yes everywhere | **nowhere** | continuity does not imply differentiability, on an uncountable set |
+| $f(x) = x^{1/3}$ at $0$ | yes | no | a vertical tangent is not a derivative |
+| $f(x) = \begin{cases} x^2 & x \in \mathbb{Q} \\ 0 & \text{else} \end{cases}$ | continuous only at 0 | differentiable at 0 with $f'(0)=0$ | differentiability can hold at an isolated point of continuity |
+
+**Darboux's theorem** says that even though derivatives need not be continuous,
+they satisfy the intermediate value property: if $f'(a) < c < f'(b)$ then
+$f'(x) = c$ for some $x$ between $a$ and $b$. So a derivative cannot jump. It
+can, however, be discontinuous -- $x^2\sin(1/x^2)$ is the standard example --
+which is why derivatives form a strictly smaller class than continuous
+functions, and why "the derivative of a differentiable function is continuous"
+is false.
+
+**Why Weierstrass matters beyond the puzzle.** It shows that continuity alone
+gives no control over oscillation at the infinitesimal scale. Any argument that
+assumes a continuous function has a derivative "somewhere" on an interval needs
+more hypotheses -- and the mean value theorem supplies exactly that.
+
+## Interleaving problems
+
+Mix these with material from [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/), [Continuity](/3-real-analysis/4_continuity/)
+and [Riemann Integration](/3-real-analysis/6_riemann-integration/).
+
+1. (Limits.) Show $f(x) = |x|$ is not differentiable at $0$, by computing the
+   left and right limits of the difference quotient.
+2. (Continuity.) Show that if $f$ is differentiable on $[a,b]$ with
+   $f'(a) = f'(b)$, there is a point where $f'(c) = 0$ -- this is Rolle's
+   theorem, and the MVT is its generalisation.
+3. (Integration.) Use the MVT to show that if $f' \ge 0$ on $[a,b]$ then $f$ is
+   increasing, and deduce that a function with $f' = 0$ everywhere is constant.
+4. (Taylor.) Show that $\sin x = x - x^3/6 + o(x^4)$ and use it to compute
+   $\lim_{x \to 0} \frac{\sin x - x}{x^3}$.
+5. (Darboux.) Show that $f'(x) = 2x \sin(1/x) - \cos(1/x)$ for $x 
+e 0$,
+   $f'(0) = 0$ has the intermediate value property but is discontinuous at $0$.
+
+## 5.8a Geometric Meaning of the MVT
 
 The Mean Value Theorem says: for a smooth curve connecting two points, there is a point on the
 curve where the tangent line is parallel to the chord (secant line) connecting the endpoints.
