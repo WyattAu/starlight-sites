@@ -17320,6 +17320,39 @@ URL: https://mathematics.wyattau.com/3-real-analysis/6_riemann-integration/
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define the upper and lower sums of a bounded function with respect to a
+  partition.
+- What does it mean for $f$ to be Riemann integrable?
+- Is every continuous function on $[a,b]$ Riemann integrable?
+- Is Dirichlet's function Riemann integrable on $[0,1]$? Why not?
+- State the two parts of the fundamental theorem of calculus.
+
+Check your answers against the text. The Dirichlet question is the one that
+motivates everything in [measure
+theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/).
+
+## Motivation: what does "area" mean, precisely?
+
+Everyone knows the area of a rectangle. The Riemann integral is the attempt to
+extend that to curved regions by slicing into rectangles and taking a limit.
+
+The definition has to be careful about *which* rectangles, and it is here that
+the subject makes its first real demand. There are two obvious approaches:
+approximate from above with rectangles that contain the region, or from below
+with rectangles contained in it. If the two agree, that common value is the
+integral. If they do not, the region has no area in this sense -- and finding
+out *which* functions are integrable turns out to be the interesting question.
+
+That question is answered by the Lebesgue criterion: a bounded function on
+$[a,b]$ is Riemann integrable exactly when its discontinuities form a set of
+measure zero. The criterion is the bridge to [measure
+theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/), and it
+explains the counterexamples on this page in one line.
+
 ### 6.1 Definition
 
 Let $f : [a,b] \to \mathbb{R}$ be bounded. A **partition** of $[a,b]$ is a finite set
@@ -17641,6 +17674,51 @@ Evaluating: $\lim_{b \to \infty} [-(b+1)e^{-b}] - \lim_{a \to 0^+} [-(a+1)e^{-a}
 So $\int_0^{\infty} x e^{-x}\, dx = 1$. This equals $\Gamma(2) = 1! = 1$. $\blacksquare$
 
 </details>
+
+## Counterexamples worth knowing by name
+
+| Function | Bounded? | Riemann integrable on $[0,1]$? | Why |
+| -------- | -------- | ------------------------------ | --- |
+| $f(x) = x$ | yes | yes | continuous |
+| $f(x) = \mathbf{1}_{x \in \mathbb{Q}}$ (Dirichlet) | yes | **no** | discontinuous everywhere |
+| $t(x)$ (Thomae) | yes | **yes**, integral $0$ | discontinuous only on $\mathbb{Q}$, which has measure zero |
+| $f(x) = 1/x$ | no | improper only | unbounded at $0$ |
+| $f(x) = \sin(1/x)$ | yes | yes | one discontinuity |
+
+**Why Dirichlet fails and Thomae succeeds.** Every upper sum for Dirichlet's
+function is $1$ (every interval contains a rational) and every lower sum is $0$
+(every interval contains an irrational), so the upper and lower integrals differ
+by $1$. For Thomae, the discontinuities are the rationals -- countable, hence of
+measure zero -- so the upper and lower sums converge to the same value.
+
+That is the Lebesgue criterion in action, and it is the reason the Riemann
+integral had to be replaced. A function that is $1$ on a dense set and $0$ on
+another dense set *ought* to have integral $0$ if the first set is small, and
+Riemann's integral cannot say so.
+
+**The improper integral is a different object.** $\int_0^1 \frac{1}{\sqrt x}
+dx = 2$ even though $1/\sqrt x$ is unbounded. The "integral" there is defined
+as a limit of proper integrals, not as an upper/lower sum, and the two notions
+agree only when the proper integral exists.
+
+## Interleaving problems
+
+Mix these with material from [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/), [Continuity](/3-real-analysis/4_continuity/)
+and [Measure Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/).
+
+1. (Sequences.) Show that $f(x) = x$ is integrable by computing the upper and
+   lower sums for the uniform partition and taking the limit.
+2. (Continuity.) Show that a continuous function on $[a,b]$ is uniformly
+   continuous, and use that to prove it is Riemann integrable.
+3. (Measure theory.) Show that a countable set has measure zero, and deduce that
+   a bounded function with finitely many discontinuities is integrable.
+4. (Measure theory.) Show Thomae's function and Dirichlet's function have the
+   same set of discontinuities as each other's *complement*, and explain why one
+   is integrable and the other is not.
+5. (Probability.) Let $X$ be uniform on $[0,1]$. Show that
+   $P(\text{Dirichlet}(X) = 1) = 0$, and explain why Dirichlet's function is
+   Riemann integrable in the Lebesgue sense with integral $0$.
 
 ### 6.7 Common Mistakes
 
