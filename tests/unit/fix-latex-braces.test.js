@@ -70,6 +70,34 @@ describe('fix-latex-braces: repairs what KaTeX rejects', () => {
     assert.match(out, /\\end\{aligned\}/)
   })
 
+  it('removes a markdown delimiter row swallowed into an environment block', () => {
+    // The row is markdown, and markdown never renders a table inside `$$`, so
+    // it cannot have been intended as mathematics. KaTeX *does* parse it --
+    // `|` and `-` are valid maths -- so this class is judged on the repaired
+    // block still parsing, not on the original failing.
+    const src = display(
+      String.raw`\begin{aligned}`,
+      String.raw`|ab| &= |a| \cdot |b| \\`,
+      '| --- | --- | --- | --- | --- | --- |',
+      String.raw`|a + b| &\leq |a| + |b| \\`,
+      String.raw`|x| &= \sqrt{x^2}`,
+      String.raw`\end{aligned}`,
+    )
+    const out = repair(src)
+    assert.doesNotMatch(out, /\| --- \|/)
+    assert.match(out, /\\begin\{aligned\}/)
+    assert.match(out, /\\end\{aligned\}/)
+    // Exactly one \end: an earlier version blanked the removed slot and left
+    // the original terminator behind, duplicating it.
+    assert.equal(out.match(/\\end\{aligned\}/g).length, 1)
+  })
+
+  it('leaves a pipe row alone outside an environment', () => {
+    // No `\begin`/`\end`, so the row could be part of a formula.
+    const src = display('| a | + | b | = | c |')
+    assert.equal(repair(src), src)
+  })
+
   it('reduces a doubled backslash before a brace', () => {
     const out = repair('the set $A$ is $\\\\{1, 2, 3\\}$ here.\n')
     assert.match(out, /\\\{1, 2, 3\\}/)

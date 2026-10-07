@@ -212,8 +212,44 @@ function repairTex(tex) {
   }
   if (out !== beforeBC) kinds.add('script-group')
 
+  // Trim a trailing blank line introduced by removing a swallowed table row,
+  // so the repaired block does not leave a gap before the closing fence.
+  const trimmed = out.replace(/\n+$/, '')
+  if (trimmed !== out) out = trimmed
+
   if (out === tex) return null
   return { tex: out, kinds: [...kinds] }
+}
+
+/**
+ * Drop markdown delimiter rows that were swallowed into a maths fence.
+ *
+ *     $$
+ *     \begin{aligned}
+ *     |ab| &= |a| \cdot |b| \\
+ *     | --- | --- | --- | --- | --- | --- |
+ *     |a + b| &\leq |a| + |b| \\
+ *     \end{aligned}
+ *     $$
+ *
+ * The row is markdown, and markdown does not render a table inside `$$`, so
+ * it can never have been intended as mathematics. Inside an aligned
+ * environment the surrounding rows already carry `\\` separators, so the
+ * correct repair is to delete it -- not to interpret it as a table, which is
+ * what it superficially resembles.
+ *
+ * Guarded on the block containing `\begin` or `\end`, so a bare display
+ * formula that happens to contain a pipe row is left alone. KaTeX still has
+ * the last word: the removal is only kept if the repaired block parses.
+ */
+const MD_DELIMITER_ROW = /^\s*\|[\s:|-]*-[\s:|-]*\|[\s:|-]*$/
+const ENV_COMMAND = /\\(?:begin|end)\b/
+
+function dropSwallowedTableRows(body) {
+  if (!body.some(l => MD_DELIMITER_ROW.test(l))) return null
+  if (!body.some(l => ENV_COMMAND.test(l))) return null
+  const kept = body.filter(l => !MD_DELIMITER_ROW.test(l))
+  return kept.length === body.length ? null : kept
 }
 
 /** Math spans in a line: the whole line inside a display fence, or inline spans. */
@@ -289,6 +325,7 @@ for (const file of targets) {
   const out = [...lines]
   let inFence = false
   let touched = false
+  const removals = []
   const sink = kinds => {
     for (const k of kinds) kindCounts.set(k, (kindCounts.get(k) ?? 0) + 1)
   }
@@ -314,30 +351,69 @@ for (const file of targets) {
       }
       if (j >= lines.length) continue // unterminated; leave alone
       const tex = body.join('\n')
-      const fixed = repairTex(tex)
-      if (fixed) {
+
+      // Try the structural repair first: a markdown delimiter row inside an
+      // environment block is spurious, and removing it may be all that is
+      // needed before the brace rules apply.
+      const structural = dropSwallowedTableRows(body)
+      const candidates = []
+      if (structural) {
+        const stripped = structural.join('\n')
+        const repaired = repairTex(stripped)
+        candidates.push({
+          tex: repaired ? repaired.tex : stripped,
+          kinds: repaired ? [...repaired.kinds, 'table-row-in-math'] : ['table-row-in-math'],
+        })
+      }
+      const repairedDirect = repairTex(tex)
+      if (repairedDirect) candidates.push(repairedDirect)
+
+      for (const candidate of candidates) {
+        // The structural class is judged differently. A markdown delimiter row
+        // inside `$$` is wrong whether or not KaTeX can parse it -- and KaTeX
+        // *can*, since `|` and `-` are valid maths. So "the original must fail
+        // to parse" does not apply, and requiring it made the repair
+        // unreachable. What is verified instead is that the repaired block
+        // still parses, so removing the row cannot break anything.
+        const isStructural = candidate.kinds.includes('table-row-in-math')
         const before = renderMode(tex, true)
-        if (before !== null) {
-          const after = renderMode(fixed.tex, true)
-          if (after === null) {
-            const fixedLines = fixed.tex.split('\n')
-            for (let k = 0; k < body.length; k++) out[i + 1 + k] = fixedLines[k] ?? ''
-            sink(fixed.kinds)
-            repairs++
-            touched = true
-          } else {
-            rejected++
-            if (show) {
-              console.log(`\n--- ${file.split('/')[1]}:${i + 1} still fails after repair`)
-              console.log(`  before: ${before.slice(0, 120)}`)
-              console.log(`  after : ${after.slice(0, 120)}`)
-              console.log(`  tex   : ${fixed.tex.replace(/\n/g, ' \\n ').slice(0, 220)}`)
-            }
-            if (rejectedSamples.length < 12) {
-              rejectedSamples.push(`${file.split('/')[1]}:${i + 1}  ${before.slice(0, 88)}`)
-            }
+        if (!isStructural && before === null) break // already parses: leave alone
+        const after = renderMode(candidate.tex, true)
+        if (after !== null) {
+          rejected++
+          if (show) {
+            console.log(`\n--- ${file.split('/')[1]}:${i + 1} still fails after repair`)
+            console.log(
+              `  before: ${before === null ? '(parses, but structurally wrong)' : before.slice(0, 120)}`,
+            )
+            console.log(`  after : ${after.slice(0, 120)}`)
           }
+          if (rejectedSamples.length < 12) {
+            rejectedSamples.push(
+              `${file.split('/')[1]}:${i + 1}  ${before === null ? 'structural' : before.slice(0, 80)}`,
+            )
+          }
+          continue
         }
+        // Write the repaired lines. When the structural repair removed rows,
+        // record the removal instead of blanking the slots: blanking leaves a
+        // visible gap before the closing fence, and splicing shifts indices
+        // that the rest of this file's scan depends on. Removals are applied
+        // after the loop, highest index first.
+        const fixedLines = candidate.tex.split('\n')
+        for (let k = 0; k < fixedLines.length; k++) out[i + 1 + k] = fixedLines[k]
+        if (fixedLines.length < body.length) {
+          removals.push({ at: i + 1 + fixedLines.length, count: body.length - fixedLines.length })
+        }
+        sink(candidate.kinds)
+        repairs++
+        touched = true
+        break
+      }
+
+      if (touched && structural) {
+        i = j
+        continue
       }
       i = j
       continue
@@ -353,7 +429,11 @@ for (const file of targets) {
   if (touched) {
     changedFiles++
     offenders.push(file)
-    if (!check) writeFileSync(file, out.join('\n'))
+    if (!check) {
+      removals.sort((a, b) => b.at - a.at)
+      for (const r of removals) out.splice(r.at, r.count)
+      writeFileSync(file, out.join('\n'))
+    }
   }
 }
 
