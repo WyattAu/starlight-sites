@@ -15652,6 +15652,42 @@ URL: https://mathematics.wyattau.com/3-real-analysis/4_continuity/
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define continuity at a point, using quantifiers.
+- What are the three types of discontinuity?
+- State the intermediate value theorem. What does "closed, bounded" buy?
+- What is the difference between continuity and uniform continuity?
+- Is there a function that is continuous everywhere but differentiable nowhere?
+
+Check your answers against the text. The last prompt is the one most people
+answer wrongly -- and the answer is the most important result on this page.
+
+## Motivation: the intuitive definition fails
+
+The intuitive definition -- "you can draw it without lifting your pen" -- is
+nearly right, and it is worth knowing exactly how it is wrong. Three functions
+destroy it.
+
+**Dirichlet's function** $D(x) = 1$ if $x \in \mathbb{Q}$, $0$ otherwise, is
+discontinuous *everywhere*. Its graph cannot be drawn at all.
+
+**Thomae's function** $t(x) = 1/q$ if $x = p/q$ in lowest terms, $0$ if $x$ is
+irrational, is continuous at every irrational and discontinuous at every
+rational. Its graph looks like a firework; the pen is lifted infinitely often.
+
+**Weierstrass' function** $W(x) = \sum_{n=0}^{\infty} a^n \cos(b^n \pi x)$
+(with $0 < a < 1$, $b$ odd, $ab > 1 + 3\pi/2$) is continuous *everywhere* and
+differentiable *nowhere*. It can be drawn without lifting the pen, and yet it
+has no tangent anywhere.
+
+So "drawn without lifting the pen" is neither necessary (Dirichlet) nor
+sufficient (Weierstrass) for what continuity actually means. The
+$\varepsilon$-$\delta$ definition is not pedantry; it is the only definition
+that survives these examples.
+
 ### 4.1 Limits of Functions
 
 Let $f : D \to \mathbb{R}$ where $D \subseteq \mathbb{R}$. We say $\lim_{x \to a} f(x) = L$ if for
@@ -15935,6 +15971,50 @@ The following table summarizes the key counterexamples in the theory of continui
 | $f(x) = x\sin(1/x)$ | $[0, 1]$ | Yes | Yes | Extension to $0$ is continuous; compact domain |
 
 **The pattern:** A continuous function on a bounded interval fails to be uniformly continuous if and only if it can oscillate arbitrarily fast near some point (in standard practice a boundary point where the function is not defined, or a point where the derivative is unbounded). On closed, bounded intervals, this cannot happen because the function is bounded and the interval is compact.
+
+**Three counterexamples that break the intuition.**
+
+| Function | Continuous at | Differentiable at | What it shows |
+| -------- | ------------- | ----------------- | ------------- |
+| $D(x) = \mathbf{1}_{x \in \mathbb{Q}}$ | **nowhere** | nowhere | "Everywhere" is achievable in the wrong direction |
+| $t(x) = 1/q$ for $x = p/q$, $0$ for irrational | every irrational | nowhere | Continuity is a *pointwise* property and can be wildly non-uniform |
+| $W(x) = \sum a^n \cos(b^n \pi x)$ | **everywhere** | **nowhere** | Continuity does not imply differentiability |
+
+Thomae's function deserves a closer look, because the proof is instructive.
+Given $\varepsilon > 0$ and an irrational $x_0$, only finitely many rationals
+$p/q$ have $1/q \ge \varepsilon$ -- namely those with $q \le 1/\varepsilon$.
+Choose $\delta$ avoiding that finite set. Then every $x$ within $\delta$ of
+$x_0$ has either $t(x) = 0$ (irrational) or $t(x) = 1/q < \varepsilon$.
+
+That argument uses compactness twice, and it is the reason the function works on
+a bounded interval. It is also the reason Thomae's function is Riemann
+integrable with integral zero -- a fact that becomes the Lebesgue criterion in
+[measure theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/).
+
+Weierstrass' function is why "continuous" does not license "has a gradient" in
+any downstream argument. Every theorem about differentiable functions needs
+differentiability as a hypothesis, and this is the example that forces it.
+
+## Interleaving problems
+
+Mix these with material from [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/), [Measure
+Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) and
+[Probability Spaces](/8-probability-and-statistics/1_probability-spaces/).
+
+1. (Sequences.) Show $D(x)$ is discontinuous everywhere using the sequential
+   criterion, taking $x_n \to x$ rational and $y_n \to x$ irrational.
+2. (Sequences.) Show $t(x)$ is discontinuous at every rational $p/q$, by taking
+   a sequence of irrationals converging to $p/q$.
+3. (Measure theory.) Show Thomae's function is Riemann integrable on $[0,1]$
+   with integral zero, using the fact that its discontinuities have measure
+   zero.
+4. (Probability.) Let $X$ be uniform on $[0,1]$. Show
+   $P(\lim_{n}\mathbf{1}_{X_n \in \mathbb{Q}} = D(X)) = 0$ is false for any
+   sequence -- connecting Dirichlet's function to almost-sure convergence.
+5. (Differentiability.) Show that if $f$ is differentiable at $x_0$ then $f$ is
+   continuous at $x_0$, and explain why Weierstrass' function does not
+   contradict this.
 
 ### 4.9 Common Pitfalls
 
