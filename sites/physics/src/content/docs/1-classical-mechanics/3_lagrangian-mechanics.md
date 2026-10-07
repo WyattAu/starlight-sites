@@ -5,7 +5,7 @@ title: "Lagrangian Mechanics"
 tags:
   - Physics
   - University
-description: "Lagrangian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+description: "Lagrangian mechanics: generalised coordinates, the Euler-Lagrange equation from d'Alembert's principle and from Hamilton's principle, cyclic coordinates and conserved momenta, with the pendulum, double pendulum, Atwood machine and rotating hoop worked in full. Tier U."
 ---
 sources:
   - text: "Goldstein, H., Poole, C., & Safko, J. (2002). Classical Mechanics (3rd ed.). Addison Wesley."
@@ -19,6 +19,41 @@ sources:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "3_lagrangian Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics/3_lagrangian-mechanics"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory before reading.
+
+- Write down the Euler-Lagrange equation. Which term is the "generalised momentum"?
+- What does $L = T - V$ assume about the forces and the constraints?
+- State Hamilton's principle. Is the action minimised or only stationary?
+- What is a cyclic coordinate, and what is conserved when you have one?
+- For a bead on a rotating hoop, when does a new stable equilibrium appear?
+
+## Motivation: why not just use $F = ma$
+
+Newton's second law is a vector equation. For a system of $N$ particles in
+three dimensions that is $3N$ coupled second-order equations, and the forces of
+constraint -- normal forces, tension, the normal reaction of a rail -- all
+appear in them. Most of the effort in a Newtonian solution goes into computing
+forces you do not care about, only to eliminate them at the end.
+
+The Lagrangian formulation removes them at the outset by working in
+**generalised coordinates**: the smallest set of numbers that specifies the
+configuration once the constraints are accounted for. A bead constrained to a
+hoop needs one number, not three. A double pendulum needs two, not six.
+
+The price is that the equations become second-order in the generalised
+coordinates with no explicit force bookkeeping. The reward is threefold:
+
+- The constraint forces never appear.
+- The choice of coordinates is free, so you pick the ones that make the problem
+  easy.
+- Symmetries become visible, and by Noether's theorem each one hands you a
+  conserved quantity for nothing.
+
+The structure of the whole subject is a single scalar function -- the
+Lagrangian -- plus one equation.
 
 ### 3.1 The Lagrangian
 
@@ -424,15 +459,37 @@ $$
 $\blacksquare$
 
 
-```mermaid
-flowchart TD
-    A[3_Lagrangian Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
+The clearest single picture of what the formalism buys is the rotating hoop of
+worked example 3.7, whose equilibria bifurcate as the hoop speeds up.
+
+```text
+   stable equilibria of the bead
+   versus rotation rate omega
+
+   theta_eq
+    pi |                 *  *  *
+       |              *
+    pi/2             *
+      |            *
+      0 *-------*            <- bottom stays stable below
+      +-------------------------------- omega
+                 g/sqrt(R)      omega^2 R > g
 ```
+
+Below $\omega^2 R = g$ the only equilibrium is the bottom of the hoop. Above
+it, the bottom becomes unstable and two new stable equilibria appear at
+$\cos\theta = g/(R\omega^2)$ -- a pitchfork bifurcation, and the same
+mechanism that keeps a rider upright on a rotating fairground cylinder.
+
+Multiple representations of the same fact, for the same system:
+
+- **Words.** Spin the hoop fast enough and the bead prefers a position off the
+  bottom.
+- **Equation.** $\ddot\theta = \sin\theta(\omega^2\cos\theta - g/R)$.
+- **Equilibria.** $\sin\theta = 0$ always; $\cos\theta = g/(R\omega^2)$ when
+  $\omega^2 R > g$.
+- **Stability.** The second derivative of the effective potential changes sign
+  at $\omega^2 R = g$, which is why the bottom turns over.
 
 ## Intuition
 
@@ -443,6 +500,42 @@ The Lagrangian formulation is like giving nature a GPS route planner. Instead of
 (rheonomic constraint), $h$ is Conserved but $h \neq T + V$. Always check whether the system is
 natural before identifying $h$ With the total energy.
 :::
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| $L = T - V$ always gives correct equations | no | a charged particle in an electromagnetic field needs $L = T - q\phi + q\,\mathbf{v}\cdot\mathbf{A}$ |
+| $h$ always equals $T + V$ | no | the rotating hoop: rheonomic constraints make $h \neq T + V$ |
+| The action is minimised | no | it is stationary; a saddle point is enough |
+| Constraint forces appear in the equations | no | they are eliminated by generalised coordinates |
+| Cyclic coordinates always exist | no | the double pendulum has none |
+
+The electromagnetic Lagrangian is the one to remember. It shows that $T - V$ is
+not the definition of a Lagrangian but a special case, and that the general
+object is whatever scalar makes the action stationary.
+
+## Interleaving problems
+
+Mix these with material from the generalised coordinates page, Noether's
+theorem, and the ODE module -- selecting the method is the part blocked
+practice never trains.
+
+1. (Constraints.) A particle slides on a sphere of radius $R$ under gravity.
+   Write the Lagrangian, show the constraint is holonomic, and eliminate it.
+   At what angle does the particle leave the sphere?
+2. (Noether.) Show that translational symmetry of $L$ implies conservation of
+   total momentum, and rotational symmetry implies conservation of angular
+   momentum, using $\frac{d}{dt}\left(\sum_j \dot q_j \frac{\partial L}{\partial \dot q_j}
+   - L\right)$ for the generator of the symmetry.
+3. (ODEs.) Linearise the double pendulum equations about the equilibrium
+   $\theta_1 = \theta_2 = 0$, find the normal mode frequencies, and show they
+   reduce to $\sqrt{g/l}$ and $\sqrt{2g/l}$ when the two bobs are identical.
+4. (Calculus of variations.) Show that the shortest path between two points on
+   a cylinder is a helix, by writing the arc length as an action and applying
+   the Euler-Lagrange equation.
+5. (Energy.) For the rotating hoop, compute $h$, show it is conserved, and show
+   explicitly that $h \neq T + V$.
 
 ## Cross-References
 
