@@ -438,12 +438,9 @@ Five-act structure follows this pattern:
 | -------------------- | ------------------------------------------------------------------------------------ |
 | Act 1                | **Exposition.** Introduction of characters, setting, and the central conflict.       |
 | Act 2                | **Rising action.** Development of the conflict; complications and obstacles.         |
-| Act 3                | **Climax.** The turning point of the play. In tragedy, this is often the point of no |
-| return.              |
-| Act 4                | **Falling action.** The consequences of the climax unfold. In tragedy, the hero's    |
-| decline accelerates. |
-| Act 5                | **Resolution.** The conclusion: in tragedy, death; in comedy, marriage and           |
-| reconciliation.      |
+| Act 3 | **Climax.** The turning point of the play. In tragedy, this is often the point of no return. |
+| Act 4 | **Falling action.** The consequences of the climax unfold. In tragedy, the hero's decline accelerates. |
+| Act 5 | **Resolution.** The conclusion: in tragedy, death; in comedy, marriage and reconciliation. |
 
 Students should be able to identify the structural function of any given scene within this framework
 and to explain how Shakespeare uses structure to shape the audience's experience.
