@@ -211,8 +211,8 @@ framework.
 ## Interleaving problems
 
 Mix these with material from [Abstract
-Algebra](/1-abstract-algebra/1_groups-and-subgroups/), [Linear
-Algebra](/2-linear-algebra/1_vector-spaces-and-linear-maps/), [Spectral
+Algebra](/1-abstract-algebra/1_groups/), [Linear
+Algebra](/2-linear-algebra/1_vectors-and-vector-spaces/), [Spectral
 Theory](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/) and
 [Measure Theory](/10-measure-theory/2_measures/).
 
@@ -231,7 +231,7 @@ Theory](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/) and
 
 ## See Also
 
-- [Groups and Subgroups](/1-abstract-algebra/1_groups-and-subgroups/) — the
+- [Groups and Subgroups](/1-abstract-algebra/1_groups/) — the
   group theory background
 - [Field Theory](/1-abstract-algebra/12_field-theory/) — where the
   characteristic comes from

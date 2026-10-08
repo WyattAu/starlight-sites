@@ -78,6 +78,23 @@ Work through the Mathematics sections in order, starting with Abstract Algebra a
 
 ---
 
+## The Rigour Ladder
+
+Sections are marked so you can see how deep a given page goes. A fresh
+undergraduate should read every F and U on a topic, then the A sections of the
+topics they intend to specialise in.
+
+| Mark | Meaning |
+| ---- | ------- |
+| **F** Foundation | Definitions and first examples. Assumed later. |
+| **U** Undergraduate | The standard degree-level treatment, with proofs. |
+| **A** Advanced | Graduate-level: the machinery needed for research. |
+| **R** Research | Open problems, recent results, and where the machinery fails. |
+
+See [How to Use These Notes](/how-to-use/) for the method behind the notes:
+worked examples before problem solving, retrieval practice, spacing and
+interleaving.
+
 ## Prerequisite Map
 
 Mathematics is cumulative. Each subject builds on the ones before it. The following map shows the dependencies, study the listed prerequisites before attempting a subject.
@@ -248,6 +265,31 @@ Complex analysis studies functions of a complex variable. The central result, di
 
 - [Common Pitfalls](/6-complex-analysis/14_common-pitfalls/)
 - [Problem Set](/6-complex-analysis/15_problem-set/)
+
+---
+
+## Graduate and Research Tier
+
+These modules assume the undergraduate treatment and go further: they are the
+bridge from a completed degree into research-level material. Each one states
+which undergraduate topics it builds on, and the recall prompts at the top of
+each page tell you quickly whether you are ready.
+
+Read [How to Use These Notes](/how-to-use/) first. It explains the method these
+pages are built on -- worked examples before problem solving, retrieval
+practice, spacing, and the rigour ladder.
+
+| Module | Subject | Builds on | Tier |
+| ------ | ------- | --------- | ---- |
+| [Spectral Theory of Self-Adjoint Operators](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/) | Functional Analysis | Banach and Hilbert spaces, measure theory, real analysis | A |
+| [Stochastic Calculus: Ito Integration](/14-graduate-stochastic-analysis/1_ito-integration-and-formula/) | Probability | Probability spaces, measure theory, real analysis, functional analysis | R |
+| [Posterior Asymptotics and Bernstein-von Mises](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/) | Statistics | Probability, measure theory, point estimation | R |
+| [Representation Theory of Finite Groups](/15-graduate-representation-theory/1_representation-theory-of-finite-groups/) | Algebra | Group theory, linear algebra | A-R |
+| [Ricci Flow and Geometrisation](/16-graduate-geometry/1_ricci-flow-and-geometrisation/) | Geometry | Riemannian geometry, curvature, geodesics, PDE | R |
+
+Each module carries recall prompts, counterexamples by name, an interleaving
+problem set that reaches into earlier modules, and a section on where the
+subject's research frontier currently is.
 
 ---
 
