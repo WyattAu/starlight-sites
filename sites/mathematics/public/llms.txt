@@ -92,6 +92,10 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 - [Representation Theory Of Finite Groups](https://mathematics.wyattau.com/15-graduate-representation-theory/1_representation-theory-of-finite-groups/)
 
+## Graduate-Geometry
+
+- [Ricci Flow And Geometrisation](https://mathematics.wyattau.com/16-graduate-geometry/1_ricci-flow-and-geometrisation/)
+
 ## Linear-Algebra
 
 - [Eigenvalues And Eigenvectors](https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
