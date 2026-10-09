@@ -18862,6 +18862,48 @@ URL: https://mathematics.wyattau.com/3-real-analysis/7_sequences-and-series-of-f
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define pointwise convergence of $(f_n)$ to $f$.
+- Define uniform convergence. What exactly changes in the quantifiers?
+- If each $f_n$ is continuous and $f_n \to f$ pointwise, is $f$ continuous?
+- State the Weierstrass M-test.
+- Can you always differentiate a power series term by term?
+
+Check your answers against the text. Prompt 3 is the one that motivates the
+entire page, and the answer is the reason uniform convergence exists at all.
+
+## Motivation: when can you swap a limit with something else?
+
+Almost every theorem in analysis is a statement that two operations commute:
+the limit of a sum is the sum of the limits, the integral of a limit is the
+limit of the integral, the derivative of a limit is the limit of the derivative.
+
+For sequences of *numbers* those commutations need very little. For sequences
+of *functions* they need uniform convergence, and the reason is visible in one
+example.
+
+**Worked example (the motivating counterexample).** Let $f_n(x) = x^n$ on
+$[0,1]$. Each $f_n$ is continuous (a polynomial), and $f_n \to f$ pointwise
+where
+
+$$
+f(x) = \begin{cases} 0 & 0 \le x < 1 \\ 1 & x = 1 \end{cases}
+$$
+
+So a limit of continuous functions need not be continuous. The continuity is
+lost at exactly one point, and that point is where the convergence is slowest:
+near $x = 1$, the terms $x^n$ take a long time to become small, so for a given
+$\varepsilon$ the required $N$ grows without bound as $x \to 1$.
+
+**Uniform convergence is the condition that prevents this.** It requires one
+$N$ to work for *every* $x$ simultaneously, which rules out the slow spot.
+
+> **Exercise.** Show $f_n(x) = x^n$ does *not* converge uniformly to $f$ on
+> $[0,1]$, by showing $\sup_{x \in [0,1]} |f_n(x) - f(x)| = 1$ for every $n$.
+
 ### 7.1 Pointwise Convergence
 
 Let $(f_n)$ be a sequence of functions defined on a set $E \subseteq \mathbb{R}$.
@@ -19120,6 +19162,63 @@ derivatives_ (not the original Sequence) is required, as stated in Theorem 7.4. 
 Weierstrass M-Test applies only to series Of functions, not sequences; for sequences, one must
 verify the uniform Cauchy criterion directly.
 :::
+
+## Counterexamples worth knowing by name
+
+| Statement | True? | Counterexample |
+| --------- | ----- | -------------- |
+| A pointwise limit of continuous functions is continuous | no | $f_n(x) = x^n$ on $[0,1]$ |
+| Pointwise convergence lets you swap limit and integral | no | $f_n(x) = n x (1-x^2)^n$ on $[0,1]$: $\int f_n \to 0$ but $\int \lim f_n = \lim f_n(\tfrac12) = \tfrac12$ |
+| Pointwise convergence lets you swap limit and derivative | no | $f_n(x) = \frac{\sin nx}{\sqrt n}$: $f_n \to 0$ uniformly, but $f_n'(0) = \sqrt n \to \infty$ |
+| A power series converges at its endpoints | no | $\sum x^n$ converges on $(-1,1)$ only |
+| A uniformly convergent series of differentiable functions is differentiable | no | $\sum \frac{\sin(n^2x)}{n^2}$ converges uniformly but is nowhere differentiable (Weierstrass' construction) |
+
+The integral counterexample is the one to work through: each $f_n$ has integral
+$\tfrac{1}{2(n+1)} \to 0$, but the pointwise limit is $1$ at $x = \tfrac12$
+and $0$ elsewhere, so $\int \lim f_n = \tfrac12$. The limit and the integral
+do not commute, and the reason is that the convergence is not uniform. That is
+the calculation that motivated Lebesgue's integral, where much weaker
+conditions suffice.
+
+## The Weierstrass M-test, and what it does not give you
+
+**Theorem (U, Weierstrass M-test).** If $|f_n(x)| \le M_n$ for all $x$ and
+$\sum M_n$ converges, then $\sum f_n$ converges uniformly and absolutely.
+
+The M-test is the workhorse: it is how power series, Fourier series and most
+series of functions are proved uniformly convergent. But it gives *uniform
+convergence only*, and each of the three commutations needs its own theorem:
+
+| Operation | Needs | Theorem |
+| --------- | ----- | ------- |
+| $f_n \to f \implies f$ continuous | uniform convergence of continuous $f_n$ | the uniform limit theorem |
+| $\lim \int f_n = \int \lim f_n$ | uniform convergence | the interchange theorem |
+| $\lim f_n' = (\lim f_n)'$ | uniform convergence of $f_n'$, and $f_n(x_0)$ converging at one point | the differentiation theorem |
+
+The differentiation row is the strongest hypothesis of the three, and the
+counterexample above shows why: uniform convergence of $f_n$ alone is not
+enough.
+
+## Interleaving problems
+
+Mix these with material from [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/), [Continuity](/3-real-analysis/4_continuity/),
+[Differentiability](/3-real-analysis/5_differentiability/), [Riemann
+Integration](/3-real-analysis/6_riemann-integration/) and [Stochastic
+Calculus](/14-graduate-stochastic-analysis/1_ito-integration-and-formula/).
+
+1. (Sequences.) Show $f_n(x) = \frac{nx}{1+n^2x^2}$ converges pointwise to $0$
+   on $\mathbb{R}$ but not uniformly, by computing $\sup_x |f_n(x)|$.
+2. (Continuity.) Show $f_n(x) = \frac{1}{1+x^n}$ converges uniformly on
+   $[0, \tfrac12]$ but only pointwise on $[0,1]$, and identify the limit.
+3. (Integration.) Show $\lim_n \int_0^1 f_n = \int_0^1 \lim_n f_n$ for
+   $f_n(x) = n x e^{-nx^2}$, and explain why the interchange theorem does not
+   apply.
+4. (Differentiability.) Show the series $\sum \frac{\cos(nx)}{n^2}$ converges
+   uniformly, and determine where the sum is differentiable.
+5. (Stochastic calculus.) Show that Brownian scaling $W_{ct} \sim \sqrt c\,
+   W_t$ is a statement about the *non-uniformity* of a limit, connecting to the
+   idea that the convergence rate depends on the scale you look at.
 
 ## Common Mistakes
 
