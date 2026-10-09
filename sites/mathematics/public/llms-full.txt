@@ -19618,15 +19618,49 @@ URL: https://mathematics.wyattau.com/3-real-analysis/1_the-real-number-system/
 </script>
 
 
-```mermaid
-flowchart TD
-    A[1_The Real Number System] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- State the completeness axiom (least upper bound property).
+- What is a supremum? How does it differ from a maximum?
+- State the Archimedean property.
+- Give a Cauchy sequence in $\mathbb{Q}$ that does not converge in
+  $\mathbb{Q}$.
+- Name three statements equivalent to completeness.
+
+Check your answers against the text. Prompt 4 is the one that shows
+completeness is a property $\mathbb{Q}$ does not have, which is what makes it
+worth stating.
+
+## Motivation: what is missing from the rationals
+
+The rationals are a field. They are ordered. They are dense: between any two
+rationals there is another. And yet calculus does not work on them.
+
+The reason is a single missing property, and it is visible in one construction.
+Let $a_n = (1 + 1/n)^n$. This sequence is increasing and bounded above by 3, so
+it *ought* to converge. Its limit is $e \approx 2.71828$, which is irrational.
+Working entirely inside $\mathbb{Q}$, the sequence is increasing, bounded, and
+converges to nothing.
+
+**The completeness axiom** is the statement that this cannot happen in
+$\mathbb{R}$: every non-empty set bounded above has a least upper bound. That
+single axiom is what separates $\mathbb{R}$ from $\mathbb{Q}$, and it is the
+engine behind every existence theorem on this site -- the intermediate value
+theorem, the extreme value theorem, the monotone convergence theorem, the
+convergence of Newton's method, and the Riemann integral.
+
+This page states the axiom, derives the properties that follow, and constructs
+$\mathbb{R}$ from $\mathbb{Q}$ by Dedekind cuts so that the axiom is not
+merely asserted.
+
+> **Exercise.** Show that $\sqrt{2} \notin \mathbb{Q}$ by contradiction: if
+> $\sqrt 2 = p/q$ in lowest terms, then $p$ and $q$ are both even. Deduce that
+> the set $\{x \in \mathbb{Q} : x^2 < 2\}$ has no least upper bound in
+> $\mathbb{Q}$.
+
+### 1.1 Field Axioms
 
 ## Prerequisites
 
@@ -19865,7 +19899,50 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 - **The completeness axiom is specific to $\mathbb{R}$.** In $\mathbb{Q}$, the set
   $\{x \in \mathbb{Q} : x^2 < 2\}$ is bounded above but has no supremum in $\mathbb{Q}$ (since
   $\sqrt{2} \notin \mathbb{Q}$).
-:::## Cross-References
+:::## Counterexamples worth knowing by name
+
+| Statement in $\mathbb{Q}$ | True? | Counterexample |
+| -------------------------- | ----- | -------------- |
+| Every non-empty bounded set has a supremum | no | $\{x : x^2 < 2\}$ |
+| Every Cauchy sequence converges | no | $(1+1/n)^n \to e$ |
+| $\sqrt 2$ exists | no | $p/q$ in lowest terms forces both even |
+| Between any two distinct points there is a rational | yes | density of $\mathbb{Q}$ -- this $\mathbb{Q}$ *does* have |
+| A bounded monotone sequence converges | no | $(1+1/n)^n$ again |
+
+The density row is the one that surprises people: $\mathbb{Q}$ is dense, so
+"no gaps you can see" is not what completeness means. The gaps are not
+*visible* as missing points between others; they are visible only as limits of
+Cauchy sequences that fail to arrive. That is why the completeness axiom has to
+be stated in terms of suprema rather than density.
+
+**The equivalences of completeness.** The following are equivalent in an
+ordered field: (a) every non-empty bounded set has a supremum; (b) every
+Cauchy sequence converges; (c) every bounded monotone sequence converges;
+(d) the intermediate value theorem holds for every continuous function. Proving
+the equivalences is the cleanest way to see that completeness is one idea with
+four faces, and [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/) uses (a) and (b) while
+[Continuity](/3-real-analysis/4_continuity/) uses (d).
+
+## Interleaving problems
+
+Mix these with material from [Sequences and
+Limits](/3-real-analysis/2_sequences-and-limits/), [Series](/3-real-analysis/3_series/)
+and [Continuity](/3-real-analysis/4_continuity/).
+
+1. (Suprema.) Find $\sup\{x \in \mathbb{Q} : x^2 < 2\}$ in $\mathbb{R}$,
+   and prove it is the supremum using $x^2 < 2 \implies x < \sqrt 2$.
+2. (Archimedean.) Show that for every real $x$ there is an integer $n$ with $n
+   > x$, and deduce that $1/n \to 0$.
+3. (Completeness.) Show that the intersection of the nested intervals
+   $[n, \infty)$ is empty, and explain why this does not contradict the nested
+   interval property (which requires bounded intervals).
+4. (Dedekind cuts.) Show that the cut $\{x \in \mathbb{Q} : x^2 < 2\}$ is a
+   valid Dedekind cut, and that it corresponds to an irrational.
+5. (Equivalences.) Show that the monotone convergence theorem implies the
+   existence of suprema, giving one direction of the equivalence.
+
+## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
