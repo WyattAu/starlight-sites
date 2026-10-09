@@ -73,6 +73,19 @@ These notes follow the standard undergraduate physics curriculum: from Newtonian
 
 ---
 
+## The Rigour Ladder
+
+Sections are marked so you can see how deep a given page goes. A fresh
+undergraduate should read every F and U on a topic, then the A sections of the
+topics they intend to specialise in.
+
+| Mark | Meaning |
+| ---- | ------- |
+| **F** Foundation | Definitions and first examples. Assumed later. |
+| **U** Undergraduate | The standard degree-level treatment, with proofs. |
+| **A** Advanced | Graduate-level: the machinery needed for research. |
+| **R** Research | Open problems, recent results, and where the machinery fails. |
+
 ## Recommended Study Order
 
 Physics is deeply cumulative. The following order reflects the mathematical and conceptual dependencies between topics. Deviate from it only if your course requires it.
@@ -322,6 +335,29 @@ Particle physics identifies the fundamental building blocks of matter and the fo
 - [Problem Set](/7-particle-physics-and-cosmology/10_problem-set/)
 
 ---
+
+## Graduate and Research Tier
+
+The classical mechanics track continues past the undergraduate treatment into
+research-level material. These pages assume the mechanics and Hamiltonian
+content above and go further:
+
+| Module | Builds on | Tier |
+| ------ | --------- | ---- |
+| [Symplectic Structure and KAM Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/) | Hamiltonian mechanics, Noether's theorem | R |
+
+Covers the symplectic form, Liouville's theorem, integrable systems and
+action-angle variables, the KAM theorem and the Diophantine condition on
+surviving frequencies, Arnold diffusion, and the open questions: whether the
+solar system is actually stable, and KAM for infinite-dimensional systems.
+
+The mathematics site carries the wider research tier: [spectral
+theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/),
+[stochastic calculus](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-integration-and-formula/),
+[representation theory](https://mathematics.wyattau.com/15-graduate-representation-theory/1_representation-theory-of-finite-groups/),
+[Ricci flow](https://mathematics.wyattau.com/16-graduate-geometry/1_ricci-flow-and-geometrisation/)
+and [posterior
+asymptotics](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/).
 
 ## Diagnostics
 
