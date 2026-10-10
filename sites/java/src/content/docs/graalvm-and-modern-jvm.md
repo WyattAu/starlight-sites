@@ -1502,7 +1502,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-:::## Cross-References
+## Cross-References
 
 - **[Site Home](../../):** Main landing page for Java notes.
 - **[Java Basics](/flashcards-java-basics/):** Fundamental Java concepts including types and control flow.

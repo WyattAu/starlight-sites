@@ -299,7 +299,7 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 - **The completeness axiom is specific to $\mathbb{R}$.** In $\mathbb{Q}$, the set
   $\{x \in \mathbb{Q} : x^2 < 2\}$ is bounded above but has no supremum in $\mathbb{Q}$ (since
   $\sqrt{2} \notin \mathbb{Q}$).
-:::## Counterexamples worth knowing by name
+## Counterexamples worth knowing by name
 
 | Statement in $\mathbb{Q}$ | True? | Counterexample |
 | -------------------------- | ----- | -------------- |

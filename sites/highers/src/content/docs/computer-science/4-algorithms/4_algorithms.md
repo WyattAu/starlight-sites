@@ -802,7 +802,7 @@ practical implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-:::## Cross-References
+## Cross-References
 
 - **[Site Home](/):** Main landing page for Higher notes.
 - **[Biology](/biology/):** Biology notes covering cell biology and ecology.

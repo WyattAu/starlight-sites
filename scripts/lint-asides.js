@@ -10,6 +10,10 @@
  *      whole block leaks as literal text on the page
  *   3. Indented openers (asides inside list items parse unreliably)
  *   4. Cramped fences: content on the same line as ::: opener/closer
+ *   5. Stray fences: ::: glued to anything that is not a valid aside type,
+ *      e.g. `:::## Cross-References`. The fence closes nothing, so the
+ *      heading renders as literal text -- silently, and on a page that looks
+ *      fine in review because everything else on it is correct.
  *
  * Directives inside fenced code blocks are ignored. Exit 1 on any
  * violation.
@@ -65,6 +69,17 @@ function lintFile(rel, lines) {
       violations.push(`${rel}:${i + 1} text on the ::: opener line -- directive renders literally`)
     }
 
+    // A ::: glued to trailing content that is not a valid aside type closes
+    // nothing and is not an opener. `:::## Cross-References` is the shape that
+    // shipped: it matches none of the rules above, so the heading never
+    // renders as a heading and nothing else on the page looks wrong.
+    const stray = /^:::+\s*(\S+)/.exec(line)
+    if (stray && !/^(danger|note|tip|caution|aside)\b/.test(stray[1])) {
+      violations.push(
+        `${rel}:${i + 1} stray ::: fence glued to "${line.slice(3).trim().slice(0, 40)}" -- closes nothing, and the heading renders as literal text`,
+      )
+    }
+
     if (open) {
       // Raw HTML inside an aside defeats directive parsing in .mdx (the
       // whole block leaks as literal text). In .md it renders, so only
@@ -84,18 +99,33 @@ function lintFile(rel, lines) {
   }
 }
 
-for (const site of fs.readdirSync(SITES_DIR)) {
-  const docs = path.join(SITES_DIR, site, 'src', 'content', 'docs')
-  if (!fs.existsSync(docs)) continue
-  for (const file of walkMdFiles(docs)) {
-    const rel = path.relative(ROOT, file)
-    let text
-    try {
-      text = fs.readFileSync(file, 'utf8')
-    } catch {
-      continue
+// Roots are optional so tests can point the lint at a fixture tree; the whole
+// network is scanned by default.
+const roots = process.argv.slice(2)
+const SITES_DIRS = roots.length ? roots.map(r => path.resolve(ROOT, r)) : [SITES_DIR]
+
+for (const sitesDir of SITES_DIRS) {
+  if (!fs.existsSync(sitesDir)) continue
+  // A root may be the sites/ directory, or a single site's docs directory.
+  const isSiteRoot = fs.existsSync(path.join(sitesDir, 'src', 'content', 'docs'))
+  const siteEntries = isSiteRoot
+    ? [{ name: path.basename(sitesDir), isDirectory: () => true }]
+    : fs.readdirSync(sitesDir, { withFileTypes: true })
+
+  for (const site of siteEntries) {
+    if (!site.isDirectory()) continue
+    const docs = path.join(sitesDir, site.name, 'src', 'content', 'docs')
+    if (!fs.existsSync(docs)) continue
+    for (const file of walkMdFiles(docs)) {
+      const rel = path.relative(ROOT, file)
+      let text
+      try {
+        text = fs.readFileSync(file, 'utf8')
+      } catch {
+        continue
+      }
+      lintFile(rel, text.split('\n'))
     }
-    lintFile(rel, text.split('\n'))
   }
 }
 
