@@ -247,9 +247,46 @@ being burned down by the `--fix` mode, which rewrites broken links whose
 correct target verifiably exists in the page index. Flip to blocking
 (remove `continue-on-error`) once the residue is hand-curated.
 
+## 11. Deploy base ref (`tests/unit/deploy-base-ref.test.js`)
+
+Not a content gate, but the same principle applied to the deploy pipeline
+itself, and the highest-consequence instance of it found so far.
+
+`.github/workflows/deploy.yml` decides which of the 45 sites get rolled out by
+diffing `HEAD` against `last-good-deploy`, the tag `mark-good` moves after a
+fully successful deploy. The intent is that a run only rebuilds what is
+actually stale.
+
+It shipped pointing at `refs/remotes/origin/last-good-deploy`. **That ref
+never exists.** `actions/checkout` fetches tags into `refs/tags/*` and creates
+no remote-tracking ref for them. The `git rev-parse --verify --quiet` guard
+exits non-zero, which is exactly what `--quiet` is for, so the miss was
+swallowed and execution fell through to `github.event.before`.
+
+So the branch that implements the design had never run. Every rollout was
+diffing only the single latest push. The visible consequence is specific: when
+a push supersedes an earlier queued run, every site change from the superseded
+commit is silently excluded from the rollout, and the run still reports
+success. It cost one rebuilt page — `3-real-analysis/1_the-real-number-system`,
+where the commit's deploy was cancelled in the queue and its content never
+went live, while the next run went green having deployed physics only.
+
+Three changes, because the fix alone would not have caught the recurrence:
+
+- The ref is now `refs/tags/${LAST_GOOD_TAG}`, which is the ref that exists.
+- The tag is fetched explicitly first. `mark-good` force-moves it on every
+  successful deploy, so a checkout that raced a tag move holds a stale value.
+- The `event.before` fallback now emits a `::warning::` and the resolved base
+  is logged. A silent fallback is indistinguishable from a working one, which
+  is why this defect survived review in the first place.
+
+The `last-good-deploy` tag was moved back to `ed632f6d0` — the last commit at
+which mathematics was genuinely rolled out — so the stranded content is
+re-selected rather than written off.
+
 ## Historical context
 
-Two distinct causes, and they matter because the second one is invisible in
+Three distinct causes, and they matter because only the first is visible in
 review.
 
 **The 2026-09 em-dash normalization pass** (`d97d0439d`) rewrote every
@@ -265,8 +302,14 @@ only wrong *in the rendered page*: the markdown reads perfectly, and nobody
 had opened a chemistry or physics page and looked at the formulas until
 2026-10.
 
+**The 2026-10 deploy base ref** (`tests/unit/deploy-base-ref.test.js`) is a
+third, and it is the one that hides most completely: a shell guard that quietly
+falls through looks exactly like one that works. It cost a page, and the only
+reason it surfaced at all was an unrelated manual spot-check of live content.
+A pipeline defect is still a defect that no tool was watching.
+
 That is the general lesson worth recording. A defect that no tool in the
 pipeline can see is not a defect the pipeline will ever catch, so each one
 that turns up needs a gate as well as a fix. The display-math gate
-(20,495 blocks) and the prose-damage gates (9,000+ lines) are both retired
-this way rather than left to be rediscovered.
+(20,495 blocks), the prose-damage gates (9,000+ lines) and the deploy base ref
+are all retired this way rather than left to be rediscovered.

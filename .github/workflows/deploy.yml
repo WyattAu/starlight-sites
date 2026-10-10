@@ -38,6 +38,13 @@ jobs:
           # last-good-deploy tag.
           fetch-depth: 0
 
+      - name: Fetch the last-good-deploy tag
+        # actions/checkout places tags at refs/tags/*, never at
+        # refs/remotes/origin/*. The tag is also force-moved by mark-good on
+        # every successful deploy, so a checkout that raced a tag move can hold
+        # a stale value. Fetch it explicitly before resolving the diff base.
+        run: git fetch --force --no-tags origin "refs/tags/${LAST_GOOD_TAG}:refs/tags/${LAST_GOOD_TAG}"
+
       - name: Derive canary and rollout matrices from sites/ directory
         id: sites
         run: |
@@ -50,13 +57,22 @@ jobs:
         run: |
           # Compare against the last successfully deployed commit so a
           # sequence of pushes each only rebuilds what is still stale.
-          BASE="refs/remotes/origin/last-good-deploy"
+          #
+          # The ref MUST be refs/tags/<name>. actions/checkout puts tags in
+          # refs/tags/*, not refs/remotes/origin/*, so a refs/remotes/origin/*
+          # ref silently fails to resolve and drops through to event.before --
+          # which makes the filter diff only the single latest push. Any commit
+          # superseded by a later push is then never rolled out, while the run
+          # still reports success. tests/unit/deploy-base-ref.test.js pins this.
+          BASE="refs/tags/${LAST_GOOD_TAG}"
           if git rev-parse --verify --quiet "$BASE" > /dev/null 2>&1; then
             BASE=$(git rev-parse "$BASE")
           elif [ -n "${{ github.event.before }}" ]; then
             BASE="${{ github.event.before }}"
+            echo "::warning::last-good-deploy tag unavailable; falling back to event.before ($BASE). Sites changed by superseded commits may not be rolled out."
           else
             BASE=""
+            echo "::warning::No last-good-deploy tag and no event.before; deploying every site."
           fi
 
           if [ -z "$BASE" ] || ! git cat-file -e "$BASE" 2>/dev/null; then
@@ -66,6 +82,7 @@ jobs:
             exit 0
           fi
 
+          echo "Diff base: $BASE ($(git log -1 --format=%s "$BASE" 2>/dev/null || echo unknown))"
           git diff --name-only "$BASE" "${{ github.sha }}" -- sites/ shared/ scripts/ search-api/ fixtures/ package.json bun.lock .github/workflows/deploy.yml > /tmp/changed-paths.txt || true
           echo "Changed paths: $(wc -l < /tmp/changed-paths.txt)"
           node scripts/list-sites.js --changed-from-file /tmp/changed-paths.txt > /tmp/changed-sites.json
