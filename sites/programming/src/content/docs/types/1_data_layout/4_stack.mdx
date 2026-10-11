@@ -101,7 +101,7 @@ If `user_input` is 32 bytes long:
 2. Bytes 16-23 overwrite other local variables or the Saved RBP.
 3. **Bytes 24-31 overwrite the Return Address.**
 
-When `vulnerable_function` executes `ret`The CPU pops the corrupted Return Address into `RIP`. If
+When `vulnerable_function` executes `ret`. The CPU pops the corrupted Return Address into `RIP`. If
 the attacker crafts this address to point to malicious code (Shellcode) or existing library
 Functions (Return Oriented Programming - ROP), they gain control of the process.
 
@@ -142,8 +142,8 @@ This makes it difficult for an attacker to predict the address of their shellcod
 Newer CPUs (Intel Tiger Lake+, AMD Zen 3+) support **Control-flow Enforcement Technology (CET)**.
 
 - The CPU maintains a second, hidden stack solely for Return Addresses.
-- On `call`The return address is pushed to _both_ the main stack and shadow stack.
-- On `ret`The CPU compares the two. If they differ (due to main stack corruption), a hardware
+- On `call`. The return address is pushed to _both_ the main stack and shadow stack.
+- On `ret`. The CPU compares the two. If they differ (due to main stack corruption), a hardware
   exception is raised.
 
 ## 5. C++23 Safety Strategies

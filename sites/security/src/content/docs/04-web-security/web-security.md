@@ -243,7 +243,7 @@ user = User.query.filter_by(username=username, password_hash=hash).first()
 
 **Additional defenses:**
 
-- **Least privilege**: Application database user should not have `DROP``ALTER`Or `GRANT` permissions
+- **Least privilege**: Application database user should not have `DROP`, `ALTER` or `GRANT` permissions
 - **Allowlist input validation**: For known-format inputs (integers, UUIDs), validate format before
   querying
 - **WAF**: Web Application Firewall can block common injection patterns (but is not a substitute for
@@ -523,7 +523,7 @@ console.log(user.isAdmin); // true
 ### Prevention
 
 - Use `Object.create(null)` for objects that should not have prototypes
-- Validate and sanitize JSON input, reject keys like `__proto__``constructor``prototype`
+- Validate and sanitize JSON input, reject keys like `__proto__`, `constructor`, `prototype`
 - Use safe deep merge libraries that block prototype pollution
 - Freeze prototypes: `Object.freeze(Object.prototype)`
 
@@ -633,7 +633,7 @@ mvn org.owasp:dependency-check-maven:check
 
 ### Dependency Management Best Practices
 
-1. **Pin dependencies**: Use lockfiles (`package-lock.json``poetry.lock``go.sum``Cargo.lock`) to
+1. **Pin dependencies**: Use lockfiles (`package-lock.json`, `poetry.lock`, `go.sum`, `Cargo.lock`) to
    ensure reproducible builds
 2. **Automate scanning**: Integrate vulnerability scanning into CI/CD pipeline
 3. **Minimize dependencies**: Fewer dependencies = smaller attack surface
@@ -686,7 +686,7 @@ Client-side check. Always validate on the server, regardless of what the client 
 ### Pitfall 2: Ignoring Security Headers
 
 Many web applications run without security headers. Adding `X-Content-Type-Options: nosniff`
-`X-Frame-Options: DENY``Strict-Transport-Security`And a reasonable CSP takes minutes and Provides
+`X-Frame-Options: DENY`, `Strict-Transport-Security` and a reasonable CSP takes minutes and Provides
 meaningful protection against common attacks.
 
 ### Pitfall 3: Using string concatenation for SQL

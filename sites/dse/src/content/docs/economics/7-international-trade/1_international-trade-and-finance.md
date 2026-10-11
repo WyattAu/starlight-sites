@@ -1220,7 +1220,7 @@ Secondary income: `30 - 50 = -20`.
 
 Current account = `-200 + 100 + 40 - 20 = -80` (deficit of USD 80 billion).
 
-(b) `CA + FA = 0` (approximately). `-80 + 40 + (-R) = 0`So `R = -40`.
+(b) `CA + FA = 0` (approximately). `-80 + 40 + (-R) = 0`. So `R = -40`.
 
 Reserves **decrease** by USD 40 billion (negative means reserves fall).
 
@@ -1267,13 +1267,13 @@ needed For depreciation to improve the trade balance?
 <details>
 <summary>Solution</summary>
 
-(a) Sum = `|0.4| + |0.9| = 1.3`. Since `1.3 \gt 1`The Marshall-Lerner condition **holds**.
+(a) Sum = `|0.4| + |0.9| = 1.3`. Since `1.3 \gt 1`. The Marshall-Lerner condition **holds**.
 
 (b) Even though the ML condition holds, the trade balance may **worsen in the short run** due to the
 J-curve effect (quantities adjust slowly, price effect dominates initially). In the long run,
 quantities Adjust and the trade balance improves.
 
-(c) We need `|0.4| + |e_M| \gt 1`So `|e_M| \gt 0.6`. The import elasticity must exceed 0.6.
+(c) We need `|0.4| + |e_M| \gt 1`. So `|e_M| \gt 0.6`. The import elasticity must exceed 0.6.
 
 </details>
 

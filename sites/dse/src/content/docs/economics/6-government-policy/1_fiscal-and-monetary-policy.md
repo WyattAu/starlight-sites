@@ -168,7 +168,7 @@ $$
 \Delta Y = -\mathrm{MPC} \times k \times \Delta T
 $$
 
-A tax cut of `Delta T` increases disposable income by `Delta T`But only `MPC x Delta T` is spent
+A tax cut of `Delta T` increases disposable income by `Delta T`. But only `MPC x Delta T` is spent
 (the rest is saved). This initial spending is then multiplied. The tax multiplier is always smaller
 than the spending multiplier (in absolute value) because part of the tax cut is saved, not spent.
 

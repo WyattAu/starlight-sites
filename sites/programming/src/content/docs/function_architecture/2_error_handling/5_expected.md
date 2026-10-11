@@ -93,10 +93,10 @@ Has no hidden control flow, and has zero overhead compared to error codes.
 
 **Proof:**
 
-1. `std::expected<T, E>` is a sum type (tagged union) that is either `T` or `E`Never both and never
+1. `std::expected<T, E>` is a sum type (tagged union) that is either `T` or `E`. Never both and never
    neither [N4950 §19.8].
 2. The discriminant is stored inline alongside the value or error. The size of `std::expected<T, E>`
-   is at most `sizeof(T) + sizeof(E) + padding`Which is bounded and known at compile time.
+   is at most `sizeof(T) + sizeof(E) + padding`. Which is bounded and known at compile time.
 3. `has_value()` is a simple discriminant check. It compiles to a single branch instruction.
 4. `value()` and `error()` are unchecked accessors. They compile to a direct read with no
    branching. Calling `value()` when an error is held is undefined behavior (analogous to
@@ -133,7 +133,7 @@ std::expected<int, Err> ok()     { return 42; }                          // valu
 std::expected<int, Err> fail()   { return std::unexpected{Err::Bad}; }   // error
 ```
 
-Without `std::unexpected`The constructor would be ambiguous when `T` and `E` are the same type
+Without `std::unexpected`. The constructor would be ambiguous when `T` and `E` are the same type
 (e.g., `std::expected<int, int>`). The wrapper resolves this ambiguity [N4950 §19.8].
 
 ### `value_or` and Default Fallbacks
@@ -593,7 +593,7 @@ Wrappers that handle errors internally rather than propagating them from destruc
 
 ## Intuition
 
-**`std::expected` is like a result that might be an error:** When you call a function that returns `expected<T, E>`you get either a value of type `T` (success) or an error of type `E` (failure). It's like a box that's either labeled "success" with the result inside, or "failure" with the error inside. The monadic operations (`and_then``transform``or_else`) let you chain operations without manually checking for errors, like a pipeline that automatically short-circuits if any step fails.
+**`std::expected` is like a result that might be an error:** When you call a function that returns `expected<T, E>`you get either a value of type `T` (success) or an error of type `E` (failure). It's like a box that's either labeled "success" with the result inside, or "failure" with the error inside. The monadic operations (`and_then`, `transform`, `or_else`) let you chain operations without manually checking for errors, like a pipeline that automatically short-circuits if any step fails.
 
 **Why it matters:** `std::expected` is the modern C++ approach to error handling that avoids exceptions. It combines the type safety of `optional` with the error information of exceptions. Unlike exceptions, it's visible in the function signature, you can see from the return type that a function might fail. The monadic operations make error handling composable, not repetitive.
 

@@ -98,7 +98,7 @@ Several constraints on this grammar are important:
 1. A concept is implicitly `constexpr` --- the compiler evaluates it at compile time. You cannot
    declare a concept that depends on runtime values.
 
-2. A concept cannot be `virtual``explicit``friend`Or have storage class specifiers. It is a purely
+2. A concept cannot be `virtual`, `explicit`, `friend` or have storage class specifiers. It is a purely
    compile-time entity.
 
 3. A concept is not a type. You cannot use it as a type argument, return type, or variable type. It
@@ -107,7 +107,7 @@ Several constraints on this grammar are important:
 
 ## Proof: Concepts Are Compile-Time Boolean Predicates
 
-**Claim:** A concept `C<T>` is a compile-time predicate --- for any type `T``C<T>` evaluates to
+**Claim:** A concept `C<T>` is a compile-time predicate --- for any type `T`, `C<T>` evaluates to
 Either `true` or `false` during compilation, and the evaluation has no runtime side effects.
 
 **Proof:**
@@ -441,12 +441,12 @@ std::ranges::range<R>               (has begin() and end())
 ```
 
 This hierarchy is designed so that subsumption works correctly: a `forward_iterator` subsumes an
-`input_iterator`Enabling clean overload sets based on iterator category.
+`input_iterator`. Enabling clean overload sets based on iterator category.
 
 ## SFINAE vs Concepts: A Detailed Comparison
 
 Before C++20, template constraints were expressed using SFINAE (Substitution Failure Is Not An
-Error) with techniques like `std::enable_if``std::void_t`And `decltype`. Concepts provide a Cleaner,
+Error) with techniques like `std::enable_if`, `std::void_t` and `decltype`. Concepts provide a Cleaner,
 more expressive, and more composable alternative.
 
 | Aspect                  | SFINAE (`enable_if`)                                         | Concepts                                    |
@@ -895,7 +895,7 @@ They do not appear in the concept's template parameter list and cannot be refere
 Requires-expression. This is a common source of confusion when mixing `requires`-clauses and
 `requires`-expressions.
 
-**8. Concepts evaluate to `bool`Not to types:** You cannot use a concept in a context that expects A
+**8. Concepts evaluate to `bool`. Not to types:** You cannot use a concept in a context that expects A
 type. `std::vector<Addable>` is ill-formed; you must write `std::vector<Addable auto>` or use a
 Constrained template parameter.
 

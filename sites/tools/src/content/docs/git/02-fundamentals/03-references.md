@@ -22,7 +22,7 @@ categories:
 
 ## Intuition
 
-**Name tags for commits:** References are like name tags stuck on specific commits, without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main``HEAD`and `v1.0` to navigate the commit graph.
+**Name tags for commits:** References are like name tags stuck on specific commits, without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main`, `HEAD`and `v1.0` to navigate the commit graph.
 
 **Why it matters:** Without references, you would need to remember 40-character SHA-1 hashes to do anything in Git. References make the history navigable and enable workflows like feature branches and releases.
 
@@ -34,7 +34,7 @@ A reference (or "ref") is a named pointer to a Git object, almost always a commi
 what make Git's object graph navigable. Without them, commits would exist as isolated objects with
 no way to find them (except by hash).
 
-References are stored as plain text files under `.git/refs/`Each containing a 40-character SHA-1
+References are stored as plain text files under `.git/refs/`. Each containing a 40-character SHA-1
 Hash:
 
 ```
@@ -156,7 +156,7 @@ the distinction between lightweight and annotated tags.
 
 Remote-tracking references are stored at `.git/refs/remotes/<remote>/<branch>` and represent the
 State of branches on a remote repository as of the last `git fetch`. They are updated automatically
-by `git fetch` and `git pull`But **never** by local commits.
+by `git fetch` and `git pull`. But **never** by local commits.
 
 ```bash
 # Show remote-tracking branches
@@ -264,8 +264,8 @@ a3f2b1c0 HEAD@{3}: commit: Initial commit
 
 ### Reflog as a Safety Net
 
-The reflog is your primary recovery mechanism. Even after `git reset --hard``git rebase`Or
-`git commit --amend`The old commits are still in the object store and reachable via the reflog:
+The reflog is your primary recovery mechanism. Even after `git reset --hard`, `git rebase` or
+`git commit --amend`. The old commits are still in the object store and reachable via the reflog:
 
 ```bash
 # View the reflog for HEAD
@@ -322,7 +322,7 @@ File.
 
 ## Reference Resolution Order
 
-When you pass a name to Git (e.g., `main``origin/main``HEAD~3`), it resolves it through a Defined
+When you pass a name to Git (e.g., `main`, `origin/main`, `HEAD~3`), it resolves it through a Defined
 search order:
 
 ```mermaid

@@ -150,7 +150,7 @@ Parameter type that is the intersection of all members.
 
 **Common Pitfall:** `UnionToIntersection` does not handle cases where union members share property
 Names with different types. The intersection of `{ a: string }` and `{ a: number }` produces
-`{ a: never }`Not `{ a: string } & { a: number }`.
+`{ a: never }`. Not `{ a: string } & { a: number }`.
 
 ## Branded Types / Opaque Types
 
@@ -929,7 +929,7 @@ $\blacksquare$
   automatic for naked type parameters.
 - Mapped types: `{ [K in keyof T]: F<T[K]> }` transform all properties; `as` clauses filter and
   remap keys.
-- Template literal types: `` `${A}-${B}` `` create string types from unions, enabling type-safe
+- Template literal types: `` ``, ``${A}-${B}``, `` `` create string types from unions, enabling type-safe
   string manipulation.
 - Branded types encode semantic distinctions (e.g., `UserId` vs `OrderId`) without runtime cost.
 - Recursive type aliases (TypeScript 4.1+) enable deep utility types like `DeepReadonly`,

@@ -50,7 +50,7 @@ they correspond to the wrong architecture. The **Sysroot** is a directory struct
 Root (`/`) of the Target system, containing:
 
 - **Target Headers:** Kernel headers and Standard Library headers (glibc/musl).
-- **Target Libraries:** Pre-compiled shared objects (`.so``.dll`) and static archives (`.a` `.lib`)
+- **Target Libraries:** Pre-compiled shared objects (`.so`, `.dll`) and static archives (`.a` `.lib`)
   for the target architecture.
 
 ### 3. The Binutils
@@ -98,12 +98,12 @@ clang++ -target x86_64-w64-mingw32 --sysroot=/usr/x86_64-w64-mingw32 main.cpp
 ```
 
 This is fundamentally different from GCC, which requires a separate binary for each target
-(`aarch64-linux-gnu-g++``x86_64-w64-mingw32-g++`). Clang's approach simplifies CI/CD pipelines
+(`aarch64-linux-gnu-g++`, `x86_64-w64-mingw32-g++`). Clang's approach simplifies CI/CD pipelines
 because a single Clang installation can target any architecture.
 
 ## CMake Toolchain Files
 
-In modern C++, passing dozens of compiler flags (`--sysroot``-target`) via the command line is
+In modern C++, passing dozens of compiler flags (`--sysroot`, `-target`) via the command line is
 Fragile and unmaintainable. The industry standard is the **CMake Toolchain File**.
 
 A toolchain file is a CMake script ( ending in `.cmake`) that presets compilation variables Before

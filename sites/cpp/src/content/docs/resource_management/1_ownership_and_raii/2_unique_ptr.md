@@ -610,7 +610,7 @@ are transferring ownership to another mechanism (e.g., a C API that takes owners
 
 ### Using `unique_ptr` with Arrays Incorrectly
 
-`unique_ptr<T>` (singular) calls `delete`Not `delete[]`. Using it with array-allocated memory is
+`unique_ptr<T>` (singular) calls `delete`. Not `delete[]`. Using it with array-allocated memory is
 Undefined behavior:
 
 ```cpp

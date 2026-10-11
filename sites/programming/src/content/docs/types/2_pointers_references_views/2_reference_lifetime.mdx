@@ -253,7 +253,7 @@ void scope_trap() \{
 \}
 ```
 
-In `scope_trap`The C++ Standard dictates that the temporary `Wrapper` is destroyed at the end of The
+In `scope_trap`. The C++ Standard dictates that the temporary `Wrapper` is destroyed at the end of The
 full expression. The lifetime extension applies to the result of `.val` (which is an `int`), but
 that `int` resides inside the `Wrapper`. When `Wrapper` dies, the `int` dies.
 

@@ -183,7 +183,7 @@ pick e5f6a7b Update tests
 
 ### Rebase Actions
 
-#### `pick`Use Commit As-Is
+#### `pick`. Use Commit As-Is
 
 The default action. The commit is replayed onto the new base without modification.
 
@@ -235,7 +235,7 @@ commit before merging. This keeps the history clean and meaningful.
 
 #### `fixup`Squash Without Editing
 
-Like `squash`But discards the commit message of the squashed commit. The combined commit retains
+Like `squash`. But discards the commit message of the squashed commit. The combined commit retains
 only the message of the previous commit. This is faster when you have many small commits to fold in:
 
 ```
@@ -353,7 +353,7 @@ For most teams, a hybrid approach works best:
   rebase.
 - **Merging into `main`**: Use `git merge --no-ff` to create a merge commit (preserves branch
   topology).
-- **Shared branches** (`develop``staging`): Never rebase. Always merge.
+- **Shared branches** (`develop`, `staging`): Never rebase. Always merge.
 - **Personal branches**: Rebase freely, no one else is affected.
 
 ```bash

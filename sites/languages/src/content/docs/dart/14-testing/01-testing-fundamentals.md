@@ -534,7 +534,7 @@ when a test is doing too much in one phase.
 
 ### Test Organization
 
-Mirror the source structure. If `lib/src/orders/order_service.dart` contains `OrderService`The Test
+Mirror the source structure. If `lib/src/orders/order_service.dart` contains `OrderService`. The Test
 lives at `test/src/orders/order_service_test.dart`. This is not just convention, it makes
 Navigation trivial when the directory tree is the same in both `lib/` and `test/`.
 
@@ -762,7 +762,7 @@ Larger projects where generated mocks provide stronger type guarantees and bette
 
 ### Testing Future-Returning Functions
 
-A test body can be `async`. The test runner `await`S the returned Future:
+A test body can be `async`. The test runner `await`s the returned Future:
 
 ```dart
 test('fetches data from API', () async {

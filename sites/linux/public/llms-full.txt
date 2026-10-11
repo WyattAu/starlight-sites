@@ -771,7 +771,7 @@ false
 :::
 
 :::caution
-`pipefail`The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
+`pipefail`. The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
 `ERR` trap in complex pipelines, explicit error checking is more reliable.
 
 ## Signal Handling
@@ -1241,10 +1241,10 @@ GNU coreutils is the package that provides the fundamental file, shell, and text
 Utilities on virtually every Linux distribution. These utilities implement the POSIX specifications
 and extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
 
-- **File utilities**: `ls``cp``mv``rm``ln``chmod``chown``touch``mkdir``rmdir` `stat``du``df``sync`
-- **Text utilities**: `cat``head``tail``sort``uniq``tr``cut``paste``join``wc` `nl``fmt``fold``pr`
-- **Shell utilities**: `echo``printf``date``tee``basename``dirname``sleep``true`
-  `false``test``expr``yes``timeout`
+- **File utilities**: `ls`, `cp`, `mv`, `rm`, `ln`, `chmod`, `chown`, `touch`, `mkdir`, `rmdir` `stat`, `du`, `df`, `sync`
+- **Text utilities**: `cat`, `head`, `tail`, `sort`, `uniq`, `tr`, `cut`, `paste`, `join`, `wc` `nl`, `fmt`, `fold`, `pr`
+- **Shell utilities**: `echo`, `printf`, `date`, `tee`, `basename`, `dirname`, `sleep`, `true`
+  `false`, `test`, `expr`, `yes`, `timeout`
 
 ## Text Processing Pipeline Patterns
 
@@ -1470,7 +1470,7 @@ awk 'FNR==1 {print "=== " FILENAME " ==="} {print}' *.log
 awk '{print | "sort -rn"}' unsorted.txt
 ```
 
-### `sort``uniq``wc``cut``tr`
+### `sort`, `uniq`, `wc`, `cut`, `tr`
 
 These utilities form the backbone of text processing pipelines:
 
@@ -1990,7 +1990,7 @@ chown --reference=ref_file target_file
 
 ### Pitfall: `grep` Returning Non-Zero on No Matches
 
-In scripts, `grep` returns exit code 1 when no lines match. With `set -e`This terminates the Script:
+In scripts, `grep` returns exit code 1 when no lines match. With `set -e`. This terminates the Script:
 
 ```bash
 # WRONG, exits script if no matches
@@ -2107,7 +2107,7 @@ true | xargs -r echo
 
 ### Pitfall: `sort -h` Availability
 
-The `-h` flag (human-numeric sort, handling `K``M``G` suffixes) is a GNU extension. It is not
+The `-h` flag (human-numeric sort, handling `K`, `M`, `G` suffixes) is a GNU extension. It is not
 Available on BSD/macOS `sort`. On those systems, convert sizes to bytes first or use `numfmt`.
 
 ## Summary
@@ -2160,8 +2160,8 @@ URL: https://linux.wyattau.com/01-cli-fundamentals/shell-basics/
 ## Shell Invocation
 
 A shell is both an **interactive command interpreter** and a **scripting language interpreter**.
-When you open a terminal emulator, it spawns a shell process, `bash``zsh`Or `dash`. When you run a
-script with `./script.sh`The shebang line determines which interpreter processes The file.
+When you open a terminal emulator, it spawns a shell process, `bash`, `zsh` or `dash`. When you run a
+script with `./script.sh`. The shebang line determines which interpreter processes The file.
 
 ### Interactive vs Non-Interactive
 
@@ -2177,7 +2177,7 @@ script with `./script.sh`The shebang line determines which interpreter processes
 The shell"s startup sequence differs depending on whether it is a **login shell** or a **non-login
 Shell**:
 
-- **Login shell**: Sourced on first login (SSH, `su -``login`). Reads `/etc/profile`Then
+- **Login shell**: Sourced on first login (SSH, `su -`, `login`). Reads `/etc/profile`. Then
   `~/.bash_profile` or `~/.bash_login` or `~/.profile` (first one found).
 - **Non-login interactive shell**: Reads `~/.bashrc`.
 - **Non-login non-interactive shell**: Inherits exported environment variables. Does not read
@@ -2220,7 +2220,7 @@ Writing for known-bash environments, use bash features deliberately.
 | `&\>\&2` redirection   | No       | Yes                         |
 
 On Debian and Ubuntu, `/bin/sh` is `dash`a minimal POSIX shell that is significantly faster than
-Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`Not
+Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`. Not
 `#!/bin/sh`.
 
 ## Command Structure
@@ -2238,12 +2238,12 @@ The shell performs the following steps before executing a command:
 2. **Alias expansion**: Replace aliases (only in interactive shells, and not for the first word in
    certain contexts).
 3. **Brace expansion**: Expand `{a,b,c}` patterns.
-4. **Tilde expansion**: Replace `~` with `$HOME``~user` with user's home directory.
-5. **Parameter expansion**: Expand `$VAR``${VAR}``${VAR:-default}`Etc.
-6. **Command substitution**: Execute `$(cmd)` or `` `Cmd` `` and replace with stdout.
+4. **Tilde expansion**: Replace `~` with `$HOME`, `~user` with user's home directory.
+5. **Parameter expansion**: Expand `$VAR`, `${VAR}`, `${VAR:-default}`. Etc.
+6. **Command substitution**: Execute `$(cmd)` or `` ``, ``Cmd``, `` `` and replace with stdout.
 7. **Arithmetic expansion**: Evaluate `$((expression))`.
 8. **Word splitting**: Split results on `IFS` (except in contexts where it is suppressed).
-9. **Pathname expansion (globbing)**: Expand `*``?``[...]` patterns.
+9. **Pathname expansion (globbing)**: Expand `*`, `?`, `[...]` patterns.
 10. **Quote removal**: Remove quoting characters that are not part of expansions.
 11. **Redirection**: Set up I/O redirections.
 12. **Command execution**: Execute the command using the resolved path.
@@ -2653,7 +2653,7 @@ Direct command (`./script.sh`):
 ```
 
 The `env` form is preferred for languages that may be installed in different locations
-(`/usr/bin/bash``/usr/local/bin/bash``/opt/homebrew/bin/bash`). The kernel only allows one Argument
+(`/usr/bin/bash`, `/usr/local/bin/bash`, `/opt/homebrew/bin/bash`). The kernel only allows one Argument
 on the shebang line, so `#!/usr/bin/bash -e` works but `#!/usr/bin/env bash -e` does not, `bash -e`
 is treated as a single argument to `env`.
 
@@ -2941,7 +2941,7 @@ done < file.txt
 ### Pitfall: `#!/bin/sh` with Bash Features
 
 Scripts using `[[`Arrays, `(( ))`Or `local` must use `#!/bin/bash`. On Debian/Ubuntu, `/bin/sh` Is
-`dash`Which does not support these. The script will fail with syntax errors that are hard to
+`dash`. Which does not support these. The script will fail with syntax errors that are hard to
 Diagnose because the error messages come from dash, not bash.
 
 ### Pitfall: Unquoted Variable Expansion in `[ ]`
@@ -2991,7 +2991,7 @@ printf '%-20s %5d\n' "filename" 42
 printf 'Error: %s (code %d)\n' "$msg" "$code"
 ```
 
-`printf` interprets C-style format specifiers (`%s``%d``%f``%x``%o`) and is the recommended Way to
+`printf` interprets C-style format specifiers (`%s`, `%d`, `%f`, `%x`, `%o`) and is the recommended Way to
 produce formatted output in shell scripts.
 
 ## Summary
@@ -4964,7 +4964,7 @@ URL: https://linux.wyattau.com/02-file-systems/filesystems-and-mounting/
 ## Virtual File System (VFS) Layer
 
 The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file
-System types simultaneously. Application code calls `open(2)``read(2)``write(2)`And `stat(2)`
+System types simultaneously. Application code calls `open(2)`, `read(2)`, `write(2)` and `stat(2)`
 Without knowing whether the underlying storage uses ext4, XFS, Btrfs, NFS, or a pseudo-filesystem
 like procfs.
 
@@ -5646,7 +5646,7 @@ Source code repositories, smaller block sizes reduce wasted space.
 
 ### Pitfall: Mounting Without `nofail` on Removable Drives
 
-If an `/etc/fstab` entry for a USB drive or network share does not include `nofail`The system will
+If an `/etc/fstab` entry for a USB drive or network share does not include `nofail`. The system will
 Drop to emergency shell on boot when the device is absent:
 
 ```text
@@ -5659,7 +5659,7 @@ Drop to emergency shell on boot when the device is absent:
 
 ### Pitfall: Running `fsck` on a Mounted File System
 
-Never run `fsck` (or `e2fsck``xfs_repair`) on a mounted file system. This can cause severe
+Never run `fsck` (or `e2fsck`, `xfs_repair`) on a mounted file system. This can cause severe
 Corruption. Always unmount first, or run from a live system.
 
 ### Pitfall: ext4 `inode exhaustion`
@@ -7636,7 +7636,7 @@ Virtual address space, file descriptors, and execution context. The kernel manag
 A `task_struct` (in `include/linux/sched.h`), which tracks PID, state, scheduling priority, open
 Files, signal handlers, and more.
 
-### Creating Processes: `fork``exec``wait`
+### Creating Processes: `fork`, `exec`, `wait`
 
 The POSIX process creation model consists of three operations:
 
@@ -7696,7 +7696,7 @@ perror("execve");
 exit(1);
 ```
 
-Variants of `exec`: `execl``execlp``execle``execv``execvp``execvpe`they differ in how Arguments
+Variants of `exec`: `execl`, `execlp`, `execle`, `execv`, `execvp`, `execvpe`they differ in how Arguments
 and environment are passed.
 
 #### `wait(2)` / `waitpid(2)`
@@ -7887,11 +7887,11 @@ sigaction(SIGTERM, &amp;sa, NULL);
 ```
 
 **Signal-safe functions**: Only async-signal-safe functions may be called from within a signal
-Handler. Calling non-signal-safe functions (like `printf``malloc``free`) from a handler is Undefined
+Handler. Calling non-signal-safe functions (like `printf`, `malloc`, `free`) from a handler is Undefined
 behavior if the handler interrupts one of those functions in the main program.
 
-Signal-safe functions include: `write``read``_exit``kill``sigaction``sigprocmask`
-`sigaddset``sigemptyset``sigfillset`.
+Signal-safe functions include: `write`, `read`, `_exit`, `kill`, `sigaction`, `sigprocmask`
+`sigaddset`, `sigemptyset`, `sigfillset`.
 
 ```c
 // CORRECT signal handler
@@ -8293,7 +8293,7 @@ ltrace -e strlen,strcpy ./myprogram
 ### Pitfall: `SIGKILL` Cannot Be Caught
 
 `SIGKILL` (9) and `SIGSTOP` (19) cannot be caught, blocked, or ignored. If a process does not
-Respond to `SIGKILL`It is almost certainly in the **D state** (uninterruptible sleep), waiting for
+Respond to `SIGKILL`. It is almost certainly in the **D state** (uninterruptible sleep), waiting for
 Kernel resources that will never become available.
 
 ```bash
@@ -8306,7 +8306,7 @@ cat /proc/$PID/stack    # kernel stack trace (requires CONFIG_STACKTRACE)
 
 ### Pitfall: `waitpid` and Signal Races
 
-If a child terminates before the parent calls `waitpid`The child becomes a zombie. If the parent
+If a child terminates before the parent calls `waitpid`. The child becomes a zombie. If the parent
 Terminates before the child, the child is reparented to PID 1. In neither case is the exit status
 Lost, but zombies accumulate if the parent never waits:
 
@@ -10370,7 +10370,7 @@ URL: https://linux.wyattau.com/04-networking/linux-networking/
 
 ## Network Interface Management (iproute2)
 
-The `iproute2` suite has replaced the legacy `net-tools` (`ifconfig``route``netstat`) as the
+The `iproute2` suite has replaced the legacy `net-tools` (`ifconfig`, `route`, `netstat`) as the
 Standard Linux network management toolset. It provides a consistent interface for managing
 Interfaces, addresses, routes, tunnels, and policies.
 
@@ -10610,7 +10610,7 @@ dig +dnssec example.com
 ## Netfilter Framework
 
 Netfilter is the kernel-level packet filtering framework that provides hooks at five points in the
-Networking stack. It is the foundation for `iptables``nftables`And connection tracking.
+Networking stack. It is the foundation for `iptables`, `nftables` and connection tracking.
 
 ### Netfilter Hooks
 
@@ -11188,7 +11188,7 @@ iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
 ### Pitfall: Loopback Not Allowed
 
-If `INPUT` policy is `DROP`You must explicitly allow loopback traffic. Many local services (MySQL,
+If `INPUT` policy is `DROP`. You must explicitly allow loopback traffic. Many local services (MySQL,
 PostgreSQL, web servers) communicate over the loopback interface:
 
 ```bash
@@ -13030,7 +13030,7 @@ Journal. This means:
 
 `EnvironmentFile` reads a file of `KEY=VALUE` pairs. It does **not** perform shell variable
 Expansion. If you need expansion, use `ExecStart` with a shell wrapper or use `${VARIABLE}` in
-`ExecStart` (systemd performs its own expansion for `%i``%n`Etc.):
+`ExecStart` (systemd performs its own expansion for `%i`, `%n`. Etc.):
 
 ```ini
 # This works, systemd expands %n, %i, %f, etc.
@@ -13946,7 +13946,7 @@ setenforce 1    # enforcing
 ### Pitfall: Password Hashes in /etc/passwd
 
 Historically, `/etc/passwd` contained password hashes. Modern systems store hashes in `/etc/shadow`
-(readable only by root). If you see a hash in `/etc/passwd`The system is misconfigured:
+(readable only by root). If you see a hash in `/etc/passwd`. The system is misconfigured:
 
 ```bash
 # Check: second field should be 'x'
@@ -15947,7 +15947,7 @@ sudo apt update
 sudo -u www-data whoami
 ```
 
-**Daemon**: A background process that runs without user interaction, providing system services (e.g., `sshd``nginx``systemd`).
+**Daemon**: A background process that runs without user interaction, providing system services (e.g., `sshd`, `nginx`, `systemd`).
 
 **Service**: A daemon managed by the init system (systemd), which can be started, stopped, and enabled at boot.
 
@@ -19172,7 +19172,7 @@ Correct order. Never run `lvreduce` without `--resizefs` unless you know exactly
 
 ### Forgetting to Resize the Filesystem After Extending the LV
 
-After extending an LV with `lvextend`The filesystem does not automatically grow to fill the new
+After extending an LV with `lvextend`. The filesystem does not automatically grow to fill the new
 Space. You must explicitly resize the filesystem.
 
 ```bash
@@ -19228,7 +19228,7 @@ Block mappings.
 
 ### Forgetting to Reload Partition Table
 
-After modifying partition tables with `fdisk``parted`Or `sgdisk`The kernel does not always Detect
+After modifying partition tables with `fdisk`, `parted` or `sgdisk`. The kernel does not always Detect
 the changes automatically.
 
 ```bash

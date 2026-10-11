@@ -18,7 +18,7 @@ categories: ["java"]
 ## Records (JEP 395, Java 16)
 
 A record is a transparent carrier for immutable data. The compiler generates the constructor, field
-Accessors, `equals``hashCode`And `toString` from a single declaration. This eliminates the Single
+Accessors, `equals`, `hashCode` and `toString` from a single declaration. This eliminates the Single
 largest source of boilerplate in Java: the dumb data class.
 
 ### Syntax and Basic Usage
@@ -33,7 +33,7 @@ p.y();  // 4.0
 System.out.println(p);  // Point[x=3.0, y=4.0]
 ```
 
-The record components (`x``y`) are declared in the state space of the class. The compiler Generates
+The record components (`x`, `y`) are declared in the state space of the class. The compiler Generates
 a `final` private field for each component, a public accessor method with the same name (no `get`
 prefix), and a canonical constructor that assigns each parameter to its corresponding Field. The
 accessor is a method, not a field access -- this distinction matters for binary Compatibility and
@@ -41,7 +41,7 @@ for frameworks that rely on JavaBeans conventions.
 
 ### The Generated Methods
 
-For `record Point(double x, double y)`The compiler generates:
+For `record Point(double x, double y)`. The compiler generates:
 
 ```java
 public final class Point extends java.lang.Record {
@@ -559,7 +559,7 @@ String json = """
 
 The closing `"""` determines the indentation. The compiler removes the common leading whitespace
 from all lines based on the position of the closing delimiter. In the example above, the content is
-Indented 4 spaces relative to the closing `"""`So 4 spaces are stripped from every line.
+Indented 4 spaces relative to the closing `"""`. So 4 spaces are stripped from every line.
 
 ### Escaping Rules
 

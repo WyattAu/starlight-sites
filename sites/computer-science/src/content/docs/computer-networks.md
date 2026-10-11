@@ -310,7 +310,7 @@ The data link layer receives a bit stream and divides it into manageable **frame
 2. **Flag bytes:** Special flag byte (`0x7E` for HDLC) marks start/end. Byte stuffing with escape
    byte (`0x7D`) prevents ambiguity.
 3. **Bit-oriented flags:** Flag pattern `01111110`. Bit stuffing: insert `0` after five consecutive
-   `1`S in the data.
+   `1`s in the data.
 4. **Clock-based:** Manchester encoding provides self-clocking and frame boundaries.
 
 ### 3.2 Error Detection and Correction
@@ -810,7 +810,7 @@ Entries, ARP inspection, and dynamic ARP protection (DAI).
 ### 4.5 NAT
 
 **Network Address Translation** maps private addresses (RFC 1918: `10.0.0.0/8`
-`172.16.0.0/12``192.168.0.0/16`) to public addresses.
+`172.16.0.0/12`, `192.168.0.0/16`) to public addresses.
 
 - **Static NAT:** One-to-one mapping.
 - **Dynamic NAT:** Pool of public addresses assigned on demand.
@@ -870,7 +870,7 @@ Route to A goes through A).
 Destination, not just the distance.
 
 - **eBGP:** Between different ASes. **iBGP:** Within the same AS.
-- **Attributes:** `AS_PATH` (loop prevention), `NEXT_HOP``LOCAL_PREF` (exit preference), `MED`
+- **Attributes:** `AS_PATH` (loop prevention), `NEXT_HOP`, `LOCAL_PREF` (exit preference), `MED`
   (entry preference), origin type.
 - **Decision process:** Highest `LOCAL_PREF`Shortest `AS_PATH`Lowest origin, lowest `MED` eBGP over
   iBGP, lowest IGP cost to `NEXT_HOP`Lowest router ID.
@@ -886,7 +886,7 @@ AS 65003 rejects any route containing its own AS number (loop prevention).
 
 **BGP attributes in detail:**
 
-- **Well-known mandatory:** `AS_PATH``NEXT_HOP``ORIGIN` (IGP $\lt$ EGP $\lt$ Incomplete).
+- **Well-known mandatory:** `AS_PATH`, `NEXT_HOP`, `ORIGIN` (IGP $\lt$ EGP $\lt$ Incomplete).
 - **Well-known discretionary:** `LOCAL_PREF` (not sent to eBGP peers; influences outbound traffic).
 - **Optional transitive:** `COMMUNITY` (tag routes for policy), `MP_REACH_NLRI` (IPv6/VPNv4).
 - **Optional non-transitive:** `MED` (suggestion to neighbour about preferred entry point; lower is
@@ -1294,7 +1294,7 @@ The smoothed RTT converges toward the true average (~240 ms) and the RTO stabili
 
 DNS translates domain names to IP addresses. Hierarchical, distributed database.
 
-**Domain hierarchy:** Root (`.`) $\to$ TLD (`com``org``net`) $\to$ second-level (`example.com`)
+**Domain hierarchy:** Root (`.`) $\to$ TLD (`com`, `org`, `net`) $\to$ second-level (`example.com`)
 $\to$ subdomain (`www.example.com`).
 
 **Record types:**
@@ -1413,7 +1413,7 @@ Pre-installed in the browser/OS trust store.
 ### 6.4 Email Protocols
 
 **SMTP (Simple Mail Transfer Protocol).** Push protocol for sending email (TCP port 25/587). Uses a
-Command-response dialogue: `HELO`/`EHLO``MAIL FROM``RCPT TO``DATA``QUIT`. Supports extensions For
+Command-response dialogue: `HELO`/`EHLO`, `MAIL FROM`, `RCPT TO`, `DATA`, `QUIT`. Supports extensions For
 authentication (`AUTH`) and encryption (`STARTTLS`).
 
 **SMTP session example:**
@@ -1768,7 +1768,7 @@ Rate limiting, connection throttling.
     each.
 
 11. **Route aggregation.** Aggregate the following routes into the most specific supernet:
-    `198.51.100.0/24``198.51.101.0/24``198.51.102.0/24``198.51.103.0/24`.
+    `198.51.100.0/24`, `198.51.101.0/24`, `198.51.102.0/24`, `198.51.103.0/24`.
 
 12. **IPv6 addressing.** Expand the IPv6 address `2001:db8::1` to its full 128-bit form. How many
     /64 subnets does a /56 prefix provide? How many /128 addresses per /64?

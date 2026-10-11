@@ -37,7 +37,7 @@ The full sequence when Python encounters `class Foo(Base, metaclass=Meta):` is:
    namespace mapping (by default, an empty `dict`). This namespace is where all assignments and
    function definitions in the class body will be stored.
 4. The class body is executed as a code block, using the namespace from step 3 as the local
-   namespace. Every `def`Every assignment, every expression at the top level of the class body runs
+   namespace. Every `def`. Every assignment, every expression at the top level of the class body runs
    right now.
 5. The resulting namespace dict, along with the class name and base classes, is passed to the
    metaclass's `__new__` and `__init__` methods to construct and initialize the class object.
@@ -199,7 +199,7 @@ whether the class defines the required abstract methods.
 
 `__prepare__` is called before the class body is executed. It receives the class name and base
 Classes and must return a mapping object that will serve as the namespace for the class body. The
-Default implementation returns a plain `dict`But you can return an `OrderedDict` (or any mapping) To
+Default implementation returns a plain `dict`. But you can return an `OrderedDict` (or any mapping) To
 control the order in which attributes are recorded.
 
 ```python

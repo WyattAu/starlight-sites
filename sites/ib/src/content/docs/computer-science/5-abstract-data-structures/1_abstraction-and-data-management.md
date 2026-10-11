@@ -47,11 +47,11 @@ Be borrowed by one Member at a time. A Book has a title, author, ISBN, and avail
 Member has a name, member ID, and a list of current loans.
 
 **Physical model:** The Book entity is stored in a MySQL table with columns
-`book_id INT PRIMARY KEY AUTO_INCREMENT``title VARCHAR(200) NOT NULL`
-`author VARCHAR(100) NOT NULL``isbn VARCHAR(13) UNIQUE``is_available BOOLEAN DEFAULT TRUE`. The
+`book_id INT PRIMARY KEY AUTO_INCREMENT`, `title VARCHAR(200) NOT NULL`
+`author VARCHAR(100) NOT NULL`, `isbn VARCHAR(13) UNIQUE`, `is_available BOOLEAN DEFAULT TRUE`. The
 Member entity is stored in a MySQL table with columns `member_id INT PRIMARY KEY AUTO_INCREMENT`
 `name VARCHAR(100) NOT NULL`. The loan relationship is stored in a junction table `loan` with
-Columns `loan_id``book_id FOREIGN KEY`And `member_id FOREIGN KEY`.
+Columns `loan_id`, `book_id FOREIGN KEY` and `member_id FOREIGN KEY`.
 
 The conceptual model describes the domain. The physical model describes the implementation. A good
 Design separates them so that the physical implementation can change (e.g., migrating from MySQL to
@@ -677,7 +677,7 @@ External code must use to interact with a service.
 | Database API | Protocol for interacting with a database                      | JDBC (Java), SQLite API     |
 
 **API abstraction:** The caller of an API does not need to know how the API is implemented. When you
-Call `requests.get(url)`You do not need to know how the HTTP protocol is implemented at the socket
+Call `requests.get(url)`. You do not need to know how the HTTP protocol is implemented at the socket
 Level. The API abstracts away the complexity.
 
 ## Top-Down Design and Stepwise Refinement
@@ -910,7 +910,7 @@ Area: 100
 ```
 
 The `getAreaDescription()` method is defined in `Shape` and calls `area()`. Because `area()` is
-Overridden in both `Rectangle` and `Circle`The correct version is called for each object at Runtime.
+Overridden in both `Rectangle` and `Circle`. The correct version is called for each object at Runtime.
 This is **runtime polymorphism** (also called dynamic dispatch or late binding).
 
 ### Worked Example: Tracing Polymorphic Behavior
@@ -1243,7 +1243,7 @@ abstraction**. Give one example of each in the context of a restaurant managemen
 <summary>Solution</summary>
 
 **Data abstraction** hides the internal representation of data and exposes only the operations that
-Can be performed on it. Example: a `Menu` class that provides `addItem()``removeItem()`And
+Can be performed on it. Example: a `Menu` class that provides `addItem()`, `removeItem()` and
 `findItem(name)` methods while hiding whether items are stored in an array, linked list, or
 database.
 
@@ -1258,7 +1258,7 @@ abstraction Hides _algorithmic logic_.
 </details>
 
 **Problem 2.** A stack is implemented using a dynamic array. Initially the stack is empty. Trace the
-Stack after each operation: `push(10)``push(20)``push(30)``pop()``push(40)``peek()` `pop()``pop()`.
+Stack after each operation: `push(10)`, `push(20)`, `push(30)`, `pop()`, `push(40)`, `peek()` `pop()`, `pop()`.
 State the value returned by each `pop()` and `peek()` call.
 
 <details>
@@ -1299,8 +1299,8 @@ the Rooms cease to exist as meaningful entities in the system.
 
 **Problem 4.** A `Queue` ADT has the following specification: `enqueue(item)` adds to the rear,
 `dequeue()` removes from the front, `isEmpty()` returns whether the queue is empty. Starting with an
-Empty queue, trace the queue after: `enqueue("A")``enqueue("B")``enqueue("C")``dequeue()`
-`enqueue("D")``dequeue()`. What is the final state of the queue?
+Empty queue, trace the queue after: `enqueue("A")`, `enqueue("B")`, `enqueue("C")`, `dequeue()`
+`enqueue("D")`, `dequeue()`. What is the final state of the queue?
 
 <details>
 <summary>Solution</summary>
@@ -1426,7 +1426,7 @@ Objects of a subclass without altering the correctness of the program.
 A `Square` inheriting from `Rectangle` violates LSP because a square has the invariant that width
 must equal height. If `Rectangle` has `setWidth(w)` and `setHeight(h)`And `Square` overrides
 `setWidth(w)` to also set height to w, then code calling `setWidth(5)` followed by `setHeight(10)`
-Expects the area to be 50 on a `Rectangle`But on a `Square` it would be 100. The `Square` cannot Be
+Expects the area to be 50 on a `Rectangle`. But on a `Square` it would be 100. The `Square` cannot Be
 substituted for `Rectangle` because it behaves differently. The correct design is to have both
 Inherit from an abstract `Shape` class instead.
 
@@ -1448,7 +1448,7 @@ a Contract that unrelated classes can fulfill, or when a class already extends a
 need Additional polymorphic behavior.
 
 **Example:** `Vehicle` is an abstract class: vehicles share common state (registration, make) and
-Behavior (getDetails). `Electric` is an interface: unrelated classes like `Car``Bus`And `Scooter`
+Behavior (getDetails). `Electric` is an interface: unrelated classes like `Car`, `Bus` and `Scooter`
 Can all be electric, but they do not share a common electric-vehicle superclass.
 
 </details>
@@ -1506,7 +1506,7 @@ PROCEDURE atm()
 END PROCEDURE
 ```
 
-Sub-procedures `authenticateUser``checkBalance``withdrawCash``depositCash`And `changePIN` each Have
+Sub-procedures `authenticateUser`, `checkBalance`, `withdrawCash`, `depositCash` and `changePIN` each Have
 a single responsibility. Each can be developed and modified independently.
 
 </details>
@@ -1525,7 +1525,7 @@ Identify the normalization issues and convert this to 3NF.
 <details>
 <summary>Solution</summary>
 
-**Issues:** Partial dependencies (2NF) -- `studentName` depends only on `studentID``courseName` and
+**Issues:** Partial dependencies (2NF) -- `studentName` depends only on `studentID`, `courseName` and
 `credits` depend only on `courseCode`. Transitive dependency (3NF) -- `courseName` depends on
 `courseCode`. Update, insertion, and deletion anomalies result.
 
@@ -1579,7 +1579,7 @@ This follows the open-closed principle: open for extension, closed for modificat
 
 </details>
 
-**Problem 14.** A developer creates a `List` ADT with operations `add(item)``remove(index)`
+**Problem 14.** A developer creates a `List` ADT with operations `add(item)`, `remove(index)`
 `get(index)`And `size()`. The initial implementation uses a dynamic array. Later, the developer
 Switches to a doubly-linked list because the application frequently inserts and removes elements at
 Arbitrary positions. Explain what changes are needed in (a) the ADT specification, and (b) the code
@@ -1631,7 +1631,7 @@ Enrollment (PK: studentID + subjectCode, enrollmentGrade).
 
 The `teacherID` foreign key in `Subject` enforces that each subject has exactly one teacher. The
 `Enrollment` table resolves the M:N relationship between `Student` and `Subject` and stores the
-`enrollmentGrade`Which is an attribute of the relationship itself.
+`enrollmentGrade`. Which is an attribute of the relationship itself.
 
 </details>
 

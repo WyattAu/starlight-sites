@@ -63,7 +63,7 @@ In the graph above:
 
 - `main` points to commit `F`.
 - `feature` points to commit `E`.
-- Commits `A``B``C` are shared by both branches, no duplication.
+- Commits `A`, `B`, `C` are shared by both branches, no duplication.
 - Commit `D` and `E` are only reachable from `feature`.
 - Commit `F` is only reachable from `main`.
 

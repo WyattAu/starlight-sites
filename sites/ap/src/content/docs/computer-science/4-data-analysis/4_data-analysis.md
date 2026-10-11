@@ -663,7 +663,7 @@ Real-world data is often messy and requires cleaning before analysis:
    original.
 5. **Not handling empty arrays or null inputs.**
 6. **Confusing row and column indices in 2D arrays.** `grid[row][col]`.
-7. **Integer division in Java.** `5 / 2` equals `2`Not `2.5`. Cast to `double`.
+7. **Integer division in Java.** `5 / 2` equals `2`. Not `2.5`. Cast to `double`.
 8. **Confusing `substring` parameters across languages.** Java `substring(1, 4)` returns chars at
    indices 1, 2, 3.
 

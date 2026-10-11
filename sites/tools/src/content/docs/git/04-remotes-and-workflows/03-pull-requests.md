@@ -170,11 +170,11 @@ When reviewing a PR, focus on:
 
 Configure GitHub to require certain checks before a PR can be merged:
 
-1. **Tests**: `npm test``cargo test``pytest`Etc.
-2. **Linting**: `eslint``clang-tidy``flake8`Etc.
-3. **Type checking**: `tsc --noEmit``mypy`Etc.
-4. **Build**: `npm run build``cargo build`Etc.
-5. **Security**: `npm audit``snyk test`Etc.
+1. **Tests**: `npm test`, `cargo test`, `pytest`. Etc.
+2. **Linting**: `eslint`, `clang-tidy`, `flake8`. Etc.
+3. **Type checking**: `tsc --noEmit`, `mypy`. Etc.
+4. **Build**: `npm run build`, `cargo build`. Etc.
+5. **Security**: `npm audit`, `snyk test`. Etc.
 
 ### Branch Protection Rules
 

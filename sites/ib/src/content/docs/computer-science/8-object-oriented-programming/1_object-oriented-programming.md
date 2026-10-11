@@ -645,7 +645,7 @@ void selectionSort(int[] arr) {
 
 ## IB Exam Tips for JETS
 
-1. **Know the access modifiers:** Understand when to use `public``private`And `protected`. Most
+1. **Know the access modifiers:** Understand when to use `public`, `private` and `protected`. Most
    attributes should be `private`; most methods should be `public`.
 
 2. **Constructors come first:** In JETS convention, constructors are placed as the first method in a

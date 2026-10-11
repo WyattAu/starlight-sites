@@ -217,7 +217,7 @@ $$
 Solving for the radius $r$:
 
 $$
-R = \frac`\{mv}``\{qB}`
+R = \frac`\{mv}`, `\{qB}`
 $$
 
 This is one of the most important results in this topic. Key observations:
@@ -375,7 +375,7 @@ $$
    their velocity) and follow a semicircular path. The radius of the path depends on the mass:
 
 $$
-R = \frac`\{mv}``\{qB}`
+R = \frac`\{mv}`, `\{qB}`
 $$
 
 1. **Detection:** Ions of different masses hit the detector at different positions. Since $v$ is the

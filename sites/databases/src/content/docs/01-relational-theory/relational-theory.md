@@ -78,7 +78,7 @@ A mathematical relation is a **set** of tuples, which means:
 ### Domains
 
 A domain defines the set of valid values for an attribute. SQL data types (`INTEGER`
-`VARCHAR(255)``DATE`) are a coarse approximation of domains. A true domain would include
+`VARCHAR(255)`, `DATE`) are a coarse approximation of domains. A true domain would include
 Constraints:
 
 ```sql
@@ -618,7 +618,7 @@ Codd's rules are like the principles of good governance. They define what a rela
 A natural key like email address or national ID number may seem appealing, but it creates problems
 when the value changes (requiring cascading updates across all referencing tables) or when the
 Domain is not truly unique (two people share an email during a migration). Surrogate keys
-(`BIGSERIAL``UUID`) are stable, never change, and simplify joins.
+(`BIGSERIAL`, `UUID`) are stable, never change, and simplify joins.
 
 ### Over-Normalising
 
@@ -739,7 +739,7 @@ Relational algebra with some relational calculus influences.
 
 The universal relation assumption states that all attributes have globally unique names and that any
 Attribute can be related to any other. This assumption underlies many visual query tools and some
-ORM systems, but it does not hold in practice. Attributes named `id``name`Or `type` appear in Many
+ORM systems, but it does not hold in practice. Attributes named `id`, `name` or `type` appear in Many
 tables with completely different semantics.
 
 Implication: always qualify column names with their table (or alias) in queries, and use descriptive

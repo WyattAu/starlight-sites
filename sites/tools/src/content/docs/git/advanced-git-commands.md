@@ -25,7 +25,7 @@ Repository integrity, and multi-tree management.
 
 ## Intuition
 
-**Power tools for Git experts:** Advanced Git commands are like power tools in a workshop, you do not need them every day, but when you do, they save hours of manual work. Commands like `git bisect``git stash`and `git worktree` solve specific problems that basic Git cannot handle efficiently.
+**Power tools for Git experts:** Advanced Git commands are like power tools in a workshop, you do not need them every day, but when you do, they save hours of manual work. Commands like `git bisect`, `git stash`and `git worktree` solve specific problems that basic Git cannot handle efficiently.
 
 **Why it matters:** These commands solve real-world problems, `git bisect` finds the exact commit that introduced a bug in minutes instead of hours, `git stash` lets you context-switch without losing work, and `git worktree` lets you work on multiple branches simultaneously.
 
@@ -911,7 +911,7 @@ image.png: binary: set
 :::
 
 :::caution
-Line endings. After adding or modifying `.gitattributes`You must re-normalize existing files:
+Line endings. After adding or modifying `.gitattributes`. You must re-normalize existing files:
 
 ```bash
 # Renormalize all files according to new .gitattributes
@@ -1205,7 +1205,7 @@ Incomplete changes.
 
 **Definition.** A linked worktree is a separate directory tree that shares the same object database,
 Refs, and configuration as the main repository. Each worktree has its own working directory, index
-(staging area), and `HEAD`But all write operations go to the same `.git` directory.
+(staging area), and `HEAD`. But all write operations go to the same `.git` directory.
 
 ### Basic Syntax
 
@@ -1384,7 +1384,7 @@ up. The branch that was checked out in the deleted worktree may remain locked un
 ### Overview
 
 The reflog records every movement of branch tips and HEAD. It is Git's primary recovery mechanism
-for operations that seem destructive, such as `git reset --hard``git rebase`Or `git commit --amend`.
+for operations that seem destructive, such as `git reset --hard`, `git rebase` or `git commit --amend`.
 
 ### Basic Syntax
 
@@ -2213,7 +2213,7 @@ Explicitly run `git submodule update --init --recursive` after pulling. Configur
 git config submodule.recurse true
 ```
 
-This makes `git pull``git checkout`And `git switch` also update submodules recursively.
+This makes `git pull`, `git checkout` and `git switch` also update submodules recursively.
 
 ### Worktree and Branch Conflicts
 

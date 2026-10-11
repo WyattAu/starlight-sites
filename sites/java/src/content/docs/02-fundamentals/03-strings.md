@@ -25,7 +25,7 @@ description: "is the most used class in the Java platform. It is Implements And 
 ### Immutability
 
 Once constructed, a `String` object cannot be modified. Every "mutating" operation, `substring`
-`concat``replace``toUpperCase``trim`returns a **new** `String` object. The original remains
+`concat`, `replace`, `toUpperCase`, `trim`returns a **new** `String` object. The original remains
 Unchanged. This is not a suggestion; the `String` class has no public mutating methods, and the
 Backing `byte[]` (the `value` field) is private.
 
@@ -329,7 +329,7 @@ emoji.codePoints().forEach(cp -> {
 ```
 
 :::caution
-Pairs. Use `codePoints()``codePointAt()`Or iterate with `Character.isHighSurrogate` checks.
+Pairs. Use `codePoints()`, `codePointAt()` or iterate with `Character.isHighSurrogate` checks.
 :::
 
 ## Regular Expressions

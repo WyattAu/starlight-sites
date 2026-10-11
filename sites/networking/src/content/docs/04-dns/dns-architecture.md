@@ -49,7 +49,7 @@ the TLD and accept registrations from registrars. Examples:
 
 - Verisign operates `.com` and `.net`
 - PIR operates `.org`
-- Google Registry operates `.dev``.app``.page`
+- Google Registry operates `.dev`, `.app`, `.page`
 - Nominet operates `.uk`
 
 The registry does not interact with end users. The registrar communicates with the registry on
@@ -740,7 +740,7 @@ kdig @https://dns.google example.com +https
 
 :::caution
 Content filtering. Users can configure their browsers to use an external DoH resolver (e.g.,
-`dns.google``cloudflare-dns.com`), making it impossible for IT to enforce DNS-based policies. Some
+`dns.google`, `cloudflare-dns.com`), making it impossible for IT to enforce DNS-based policies. Some
 Enterprises block DoH at the firewall to maintain control.
 
 ## DNS Performance Tuning

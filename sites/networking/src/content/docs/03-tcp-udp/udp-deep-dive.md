@@ -250,7 +250,7 @@ ping -b 192.168.1.255
 ### Subnet Broadcast
 
 Every subnet has a broadcast address: the last address in the subnet (all host bits set to 1). For
-`10.0.0.0/24`The broadcast is `10.0.0.255`. For `10.0.0.0/23`The broadcast is `10.0.1.255`.
+`10.0.0.0/24`. The broadcast is `10.0.0.255`. For `10.0.0.0/23`. The broadcast is `10.0.1.255`.
 
 :::caution
 `net.ipv4.icmp_echo_ignore_broadcasts=1`. Do not rely on ping to test broadcast reachability.

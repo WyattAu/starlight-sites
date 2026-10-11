@@ -292,7 +292,7 @@ Feedback. Which methodology is most appropriate and why?
 
 </details>
 
-**Problem 3.** Draw a UML class diagram for a library system with classes `Library``Book`
+**Problem 3.** Draw a UML class diagram for a library system with classes `Library`, `Book`
 `Member`And `Loan`. Show appropriate relationships and key attributes/methods.
 
 <details>

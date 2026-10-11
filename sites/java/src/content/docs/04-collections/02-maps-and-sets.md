@@ -50,7 +50,7 @@ public interface Map<K, V> {
 ### `HashMap`
 
 The default general-purpose map. Uses an array of buckets (linked lists, converted to balanced trees
-when a bucket exceeds 8 entries, JDK 8+). Provides O(1) average-case for `put``get``remove` And
+when a bucket exceeds 8 entries, JDK 8+). Provides O(1) average-case for `put`, `get`, `remove` And
 `containsKey`.
 
 ```java
@@ -124,7 +124,7 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
 ### `TreeMap`
 
 A `NavigableMap` implementation backed by a red-black tree. Keys are sorted by natural order or by a
-`Comparator` provided at construction. Provides O(log n) for `put``get``remove`And range Operations.
+`Comparator` provided at construction. Provides O(log n) for `put`, `get`, `remove` and range Operations.
 
 ```java
 // Natural ordering
@@ -197,7 +197,7 @@ ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();
 
 ## Map Methods in Depth
 
-### `computeIfAbsent``computeIfPresent``compute``merge`
+### `computeIfAbsent`, `computeIfPresent`, `compute`, `merge`
 
 These methods (added in JDK 8) provide atomic compound operations that eliminate the check-then-act
 Race condition:
@@ -248,7 +248,7 @@ Behavior: `add` returns `false` if the element already exists.
 ### `HashSet`
 
 Backed by a `HashMap` (each `Set` entry is stored as a key in the underlying `HashMap` with a dummy
-Value). Provides O(1) average-case `add``contains`And `remove`. Does not maintain insertion Order.
+Value). Provides O(1) average-case `add`, `contains` and `remove`. Does not maintain insertion Order.
 
 ```java
 Set<String> names = new HashSet<>();
@@ -261,7 +261,7 @@ System.out.println(names.contains("Alice")); // true
 ### `TreeSet`
 
 A `NavigableSet` backed by a `TreeMap`. Maintains elements in sorted order (natural or
-`Comparator`). O(log n) for `add``contains`And `remove`.
+`Comparator`). O(log n) for `add`, `contains` and `remove`.
 
 ```java
 Set<Integer> numbers = new TreeSet<>();
@@ -349,10 +349,10 @@ symmetricDiff.removeAll(temp); // [1, 2, 6, 7]
 
 ## `equals` and `hashCode` Contract
 
-The contract between `equals` and `hashCode` is critical for `HashSet``HashMap`And `Hashtable`. The
+The contract between `equals` and `hashCode` is critical for `HashSet`, `HashMap` and `Hashtable`. The
 contract (from `Object.hashCode()` Javadoc):
 
-1. If two objects are equal according to `equals`They **must** have the same hash code.
+1. If two objects are equal according to `equals`. They **must** have the same hash code.
 2. If two objects have the same hash code, they are **not required** to be equal.
 3. If `equals` is called multiple times on the same object, it must consistently return the same
    result (unless the object is modified).
@@ -765,7 +765,7 @@ TreeMap<List<String>, String> treeMap2 = new TreeMap<>(
 
 ### Composite Key with Records
 
-When you need a compound key for a `HashMap`Use a record (or a properly implemented class with
+When you need a compound key for a `HashMap`. Use a record (or a properly implemented class with
 `equals` and `hashCode`):
 
 ```java

@@ -72,8 +72,8 @@ TrueNAS offers two approaches to SMB permissions:
 
 1. **SMB Dataset Permissions (simplified):** Set via the SMB share configuration. Options include:
 
-- `DEFAULT`Use the dataset"s Unix permissions
-- `RESTRICTED`Only the owner can access
+- `DEFAULT`. Use the dataset"s Unix permissions
+- `RESTRICTED`. Only the owner can access
 - `BUILTIN_ADMINISTRATORS`Windows admin group gets full access
 - `BUILTIN_USERS`Windows users group gets read access
 
@@ -680,7 +680,7 @@ Protection** → **Snapshot Tasks** → **Add**.
 
 For user home directories:
 
-1. Create a dataset per user: `tank/homes/alice``tank/homes/bob`.
+1. Create a dataset per user: `tank/homes/alice`, `tank/homes/bob`.
 2. Create an SMB share for each home directory or use the `homes` share type.
 3. Set permissions so each user can only access their own home directory.
 4. Enable shadow copies for file recovery.

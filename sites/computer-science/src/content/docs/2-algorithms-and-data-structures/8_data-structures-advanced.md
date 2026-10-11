@@ -1559,7 +1559,7 @@ Actually the segment tree stores each heavy path. To go from 6 to 8:
 - 8 to LCA = 1: segments on the path from 8 to 1.
 
 This example is simplified. In practice, HLD requires careful implementation of the
-`decompose``query`And `update` functions.
+`decompose`, `query` and `update` functions.
 
 </details>
 

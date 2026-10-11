@@ -385,7 +385,7 @@ Not all traits can be used as trait objects. A trait is **object safe** if:
 1. It does not have any associated `const` or `fn` items with type parameters, generic methods, or
    methods that return `Self` (except `&Self`/`&mut Self`).
 2. It does not have any associated `type` that uses `Self` in non-trivial ways.
-3. All methods have a receiver (`&self``&mut self`Or `self`). No associated functions.
+3. All methods have a receiver (`&self`, `&mut self` or `self`). No associated functions.
 
 ```rust
 // Object-safe
@@ -501,7 +501,7 @@ Types where all fields are `Copy`. Types with destructors (`Drop`) cannot be `Co
 
 ### `Clone`
 
-`Clone` explicitly defines how to create a deep copy. Unlike `Copy``Clone` may involve heap
+`Clone` explicitly defines how to create a deep copy. Unlike `Copy`, `Clone` may involve heap
 Allocation or other non-trivial operations.
 
 ### `Sized`
@@ -771,7 +771,7 @@ impl<T> DerefMut for Wrapper<T> {
 }
 ```
 
-By implementing `Deref` and `DerefMut`The `Wrapper` type gains access to all `Vec<T>` methods
+By implementing `Deref` and `DerefMut`. The `Wrapper` type gains access to all `Vec<T>` methods
 through deref coercion. This means you get custom behavior (`display_all`) plus all of `Vec<T>`'s
 Methods.
 
@@ -892,7 +892,7 @@ Wizard::fly(&person);              // Wizard::fly
 
 ## Common Pitfalls
 
-1. **Implementing `Clone` without considering `Copy`.** If all fields are `Copy`You should also
+1. **Implementing `Clone` without considering `Copy`.** If all fields are `Copy`. You should also
    derive `Copy`. Forgetting `Copy` on a type that could be `Copy` forces callers to clone
    explicitly, which is unnecessary overhead and a code smell.
 

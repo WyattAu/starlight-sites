@@ -64,11 +64,11 @@ graph TD
 - **Root zone (`.`):** The top of the hierarchy. Managed by ICANN. Operated by 13 logical root
   server networks (A through M), implemented as anycast clusters with over 1,700 server instances
   worldwide.
-- **Top-Level Domains (TLDs):** Directly below the root. Includes generic TLDs (`.com``.org`
-  `.net``.dev`) and country-code TLDs (`.uk``.de``.jp``.au`).
+- **Top-Level Domains (TLDs):** Directly below the root. Includes generic TLDs (`.com`, `.org`
+  `.net`, `.dev`) and country-code TLDs (`.uk`, `.de`, `.jp`, `.au`).
 - **Second-Level Domains (SLDs):** Registered by organizations and individuals (e.g., `example.com`
   `google.com`).
-- **Subdomains:** Delegated by the SLD owner (e.g., `www.example.com``api.example.com`
+- **Subdomains:** Delegated by the SLD owner (e.g., `www.example.com`, `api.example.com`
   `us-east-1.api.example.com`).
 
 ### FQDN (Fully Qualified Domain Name)
@@ -108,7 +108,7 @@ Tokyo likely reaches a different physical server than from New York.
 ### TLD Name Servers
 
 Authoritative for their TLD. The `.com` TLD servers know which name servers are authoritative for
-`example.com``google.com`Etc. They do not know the IP addresses -- they only know which servers To
+`example.com`, `google.com`. Etc. They do not know the IP addresses -- they only know which servers To
 ask next.
 
 ### Authoritative Name Servers
@@ -126,14 +126,14 @@ Authoritative name servers are further divided:
 ### Recursive (Caching) Name Servers
 
 Perform the full resolution process on behalf of a client. When your laptop resolves
-`www.example.com`It sends the query to a recursive resolver (configured via DHCP or manually). The
+`www.example.com`. It sends the query to a recursive resolver (configured via DHCP or manually). The
 Resolver walks the DNS hierarchy from the root down to the authoritative server, caching responses
 along the way.
 
 Common recursive resolvers:
 
-- **Google Public DNS:** `8.8.8.8``8.8.4.4`
-- **Cloudflare DNS:** `1.1.1.1``1.0.0.1`
+- **Google Public DNS:** `8.8.8.8`, `8.8.4.4`
+- **Cloudflare DNS:** `1.1.1.1`, `1.0.0.1`
 - **Quad9:** `9.9.9.9`
 - **ISP resolvers:** Provided by your ISP, via DHCP
 
@@ -247,7 +247,7 @@ Geographic coordinates.
 
 ## DNS Resolution Process
 
-When an application needs to resolve `www.example.com`The recursive resolver performs the Following
+When an application needs to resolve `www.example.com`. The recursive resolver performs the Following
 steps:
 
 ```mermaid
@@ -281,7 +281,7 @@ sequenceDiagram
 ### CNAME Chasing
 
 When a query returns a CNAME, the resolver follows the chain. For `www.example.com` CNAME to
-`example.com`The resolver queries `example.com` A. If `example.com` is also a CNAME (to
+`example.com`. The resolver queries `example.com` A. If `example.com` is also a CNAME (to
 `lb.example.cloudprovider.com`), the resolver follows that too. Most resolvers limit CNAME chain
 Depth to prevent infinite loops.
 
@@ -292,7 +292,7 @@ Hierarchy from root to authoritative server. Caching happens at three levels:
 
 1. **Browser cache:** Chrome, Firefox, and Safari cache DNS responses. Chrome caches for 60 seconds
    regardless of TTL.
-2. **Operating system cache:** The OS resolver (`systemd-resolved``nscd``mDNSResponder`) caches
+2. **Operating system cache:** The OS resolver (`systemd-resolved`, `nscd`, `mDNSResponder`) caches
    responses for the TTL specified in the DNS response.
 3. **Recursive resolver cache:** The recursive resolver (8.8.8.8, your ISP's resolver) caches
    responses for the TTL specified in the DNS response.
@@ -631,7 +631,7 @@ Each resource record in the Answer, Authority, or Additional section has this fo
 DNS names in the wire format use a compression scheme to reduce message size. Instead of repeating
 the full domain name, a pointer (2 bytes, starting with 0b11) references a previous occurrence of
 the name in the message. For example, if the question asks for `www.example.com` and the answer is a
-CNAME pointing to `example.com`The CNAME target can reference the suffix from the question.
+CNAME pointing to `example.com`. The CNAME target can reference the suffix from the question.
 
 This compression is why DNS responses are much smaller than they would be without it. It Is also why
 parsing DNS messages requires following pointer references, which adds complexity to DNS Client
@@ -812,8 +812,8 @@ CoreDNS is the default DNS server in Kubernetes (since v1.11). It is configured 
 Common CoreDNS issues:
 
 - **DNS resolution delays (5 seconds).** This is caused by the fallback DNS search path. When a pod
-  looks up `my-service`CoreDNS first tries `my-service.default.svc.cluster.local`Then
-  `my-service.svc.cluster.local`Then `my-service.cluster.local`Then `my-service`. If none exist, the
+  looks up `my-service`CoreDNS first tries `my-service.default.svc.cluster.local`. Then
+  `my-service.svc.cluster.local`. Then `my-service.cluster.local`. Then `my-service`. If none exist, the
   5-second delay is the timeout for the last search domain. Fix by using FQDNs or reducing `ndots`
   in the resolv.conf.
 - **CoreDNS CPU/memory exhaustion.** In large clusters with many DNS queries, CoreDNS can become a

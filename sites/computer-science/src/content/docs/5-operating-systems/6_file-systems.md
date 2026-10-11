@@ -23,7 +23,7 @@ A **file** is a named collection of related data on secondary storage.
 
 **File attributes:** Name, identifier (inode number), type, location, size, protection, timestamps.
 
-**File operations:** `create``delete``open``close``read``write``seek``truncate`.
+**File operations:** `create`, `delete`, `open`, `close`, `read`, `write`, `seek`, `truncate`.
 
 **Access methods:**
 

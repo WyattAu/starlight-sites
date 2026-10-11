@@ -21,7 +21,7 @@ categories:
 
 ## Sequence Containers Memory Models
 
-The C++ standard library provides three primary sequence containers: `std::vector``std::deque` And
+The C++ standard library provides three primary sequence containers: `std::vector`, `std::deque` And
 `std::list`. Each uses a different memory model with distinct trade-offs in terms of random Access,
 insertion/deletion performance, cache locality, and iterator invalidation guarantees. This Section
 covers their internal structure, growth strategies, and practical usage patterns.
@@ -108,7 +108,7 @@ int main() {
 
 ### Growth Factor and Amortized O(1) push_back
 
-When `push_back` is called and `size() == capacity()`The vector must **reallocate**: allocate a New,
+When `push_back` is called and `size() == capacity()`. The vector must **reallocate**: allocate a New,
 larger block, move or copy elements into it, and deallocate the old block. The standard does Not
 mandate a specific growth factor [N4950 §22.3.11.5], but most major implementations (libstdc++,
 Libc++, MSVC) use a factor of $\times 2$ (geometric growth).
@@ -250,7 +250,7 @@ Stable iterators.
 ### `std::deque`: Segment-Based Memory, No Reallocation
 
 `std::deque` (double-ended queue) is a sequence container that supports $O(1)$ insertion and
-Deletion at both the beginning and the end [N4950 §22.3.8]. Unlike `std::vector``std::deque` is Not
+Deletion at both the beginning and the end [N4950 §22.3.8]. Unlike `std::vector`, `std::deque` is Not
 guaranteed to store elements contiguously. Typical implementations use a **map of fixed-size
 Blocks** (segments):
 
@@ -360,7 +360,7 @@ On 64-bit systems, the per-node overhead is 16 bytes (two pointers) plus any ali
 bytes of padding to 8-byte alignment. This is a 6x overhead compared to storing `int` Values in a
 `std::vector`.
 
-The most distinctive operation is `splice`Which transfers elements between lists in $O(1)$ time
+The most distinctive operation is `splice`. Which transfers elements between lists in $O(1)$ time
 **without copying or moving elements** [N4950 §22.3.9.5]. This is a pointer manipulation, not a
 Copy:
 
@@ -399,7 +399,7 @@ Now refer to the same elements within the destination container [N4950 §22.3.9.
 
 `std::array` is a fixed-size container that wraps a C-style array with the standard container
 Interface [N4950 §22.3.7]. It has no heap allocation, no dynamic growth, and zero overhead compared
-to a raw array. Since C++17, all member functions of `std::array` are `constexpr`Enabling
+to a raw array. Since C++17, all member functions of `std::array` are `constexpr`. Enabling
 Compile-time computation.
 
 ```cpp
@@ -518,7 +518,7 @@ int main() {
 ```
 
 The proxy reference (`std::vector&lt;bool>::reference`) is a library-defined class that overloads
-`operator bool``operator=`And `operator~`. This causes problems with generic code that assumes `T&`
+`operator bool`, `operator=` and `operator~`. This causes problems with generic code that assumes `T&`
 semantics from `operator[]` [N4950 §22.3.11.2]. Specifically, `std::vector&lt;bool>` does not
 Satisfy the container requirements in [N4950 §22.2] because its elements are not addressable.
 
@@ -584,7 +584,7 @@ int main() {
 }
 ```
 
-Note: If `T`'s move constructor is `noexcept`The vector will use move instead of copy during
+Note: If `T`'s move constructor is `noexcept`. The vector will use move instead of copy during
 Reallocation, which is both faster and less likely to throw. This is why `noexcept` move
 Constructors are critical for performance-critical types stored in vectors.
 
@@ -647,7 +647,7 @@ Or use the C++20 erase-if idiom: `std::erase_if(v, [](int x) { return x == targe
 
 **3. Using `deque` for random-access-heavy workloads.** `std::deque` has $O(1)$ random access, but
 each access requires a map lookup plus a block dereference. For workloads dominated by `operator[]`
-Or `at()``std::vector` is 2-5x faster due to single-pointer indirection and prefetcher Friendliness.
+Or `at()`, `std::vector` is 2-5x faster due to single-pointer indirection and prefetcher Friendliness.
 Only use `deque` when `push_front` is a frequent operation.
 
 **4. Assuming `vector::data()` is null-terminated.** `data()` returns a pointer to contiguous

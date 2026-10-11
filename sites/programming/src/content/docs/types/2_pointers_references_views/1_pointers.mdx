@@ -28,7 +28,7 @@ the underlying type.
 
 ### The Arithmetic Formula
 
-Given a pointer `T* ptr`The operation `ptr + N` resolves to:
+Given a pointer `T* ptr`. The operation `ptr + N` resolves to:
 
 $$
 \mathrm\{Address_\{new\} = \mathrm\{Address_\{old\} + (N \times \mathrm\{sizeof(T))
@@ -146,7 +146,7 @@ Is undefined behavior.
 
 1. By [N4950 §7.6.6.6], pointer addition is well-defined only when the result points to an element
    of the array or one past the last element.
-2. `arr + 6` points to two past the last element of `int arr[5]`Which violates the constraint
+2. `arr + 6` points to two past the last element of `int arr[5]`. Which violates the constraint
    $i + j \le n$ (since $0 + 6 = 6 \gt 5$).
 3. The Standard states that computing such a pointer value is undefined behavior. QED.
 
@@ -604,7 +604,7 @@ Compile-time type punning facility that is guaranteed correct.
 
 ## 7. Alignment and Pointers
 
-Every type `T` has an alignment requirement, `alignof(T)`Which is a power-of-two integer. A Pointer
+Every type `T` has an alignment requirement, `alignof(T)`. Which is a power-of-two integer. A Pointer
 `T*` is guaranteed to point to an address that is a multiple of `alignof(T)` [N4950 §7.7.2].
 
 ### Alignment Requirements by Type

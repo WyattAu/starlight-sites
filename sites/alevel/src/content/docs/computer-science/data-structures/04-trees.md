@@ -133,7 +133,7 @@ _Base case._ Inserting into an empty tree creates a single-node tree, which sati
 property.
 
 _Inductive step._ Assume `bst_insert(root.left, key)` (or `root.right`) returns a valid BST. If
-`key < root.key`The new node is inserted in the left subtree. By the inductive hypothesis, the Left
+`key < root.key`. The new node is inserted in the left subtree. By the inductive hypothesis, the Left
 subtree is a valid BST, and all its keys are less than `root.key` (by the original BST property And
 because `key < root.key`). Similarly for the right subtree. The root's key remains between all Left
 and right keys. Hence the full tree is a valid BST. $\square$

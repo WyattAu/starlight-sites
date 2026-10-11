@@ -75,7 +75,7 @@ Subsumption ordering.
 
 :::note
 Types that behave like built-in values: they can be copied, default-constructed, and compared for
-Equality. `int``double`And `std::string` are all `std::regular`. `std::unique_ptr` is `std::movable`
+Equality. `int`, `double` and `std::string` are all `std::regular`. `std::unique_ptr` is `std::movable`
 but not `std::regular` (not copyable). `std::mutex` is neither `std::movable` nor `std::copyable`.
 These concepts are the vocabulary types of generic programming.
 :::
@@ -226,7 +226,7 @@ C++20 also provides sentinel concepts for range-based iteration:
 
 ## Code Example: `std::totally_ordered` for Custom Types
 
-The `std::totally_ordered` concept [N4950 §18.4.5] requires that `<``>``<=``>=` all define a Total
+The `std::totally_ordered` concept [N4950 §18.4.5] requires that `<`, `>`, `<=`, `>=` all define a Total
 order on the type. The easiest way to satisfy this concept is to define `operator<=>` (the Spaceship
 operator, C++20) [N4950 §7.6.8]:
 
@@ -282,7 +282,7 @@ true
 ```
 
 The default `operator<=>` performs lexicographic comparison on the data members in declaration order
-[N4950 §7.6.8]. Because `int` already supports `<=>`The compiler generates the full comparison
+[N4950 §7.6.8]. Because `int` already supports `<=>`. The compiler generates the full comparison
 Operator suite for `Version`Satisfying `std::totally_ordered`.
 
 ### Three-Way Comparison Categories

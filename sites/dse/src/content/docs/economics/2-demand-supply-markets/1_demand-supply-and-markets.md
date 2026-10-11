@@ -1113,13 +1113,13 @@ what Happens to equilibrium quantity? What about price?
 
 ### Details
 
-(a) `150 - 3P = 2P - 30``180 = 5P``P = 36`. `Q = 150 - 108 = 42`.
+(a) `150 - 3P = 2P - 30`, `180 = 5P`, `P = 36`. `Q = 150 - 108 = 42`.
 
-(b) `210 - 3P = 2P - 30``240 = 5P``P = 48`. `Q = 210 - 144 = 66`.
+(b) `210 - 3P = 2P - 30`, `240 = 5P`, `P = 48`. `Q = 210 - 144 = 66`.
 
 Price rises from 36 to 48; quantity rises from 42 to 66.
 
-(c) New supply: `Q_S = 2P + 30`. `210 - 3P = 2P + 30``180 = 5P``P = 36`. `Q = 210 - 108 = 102`.
+(c) New supply: `Q_S = 2P + 30`. `210 - 3P = 2P + 30`, `180 = 5P`, `P = 36`. `Q = 210 - 108 = 102`.
 
 Quantity rises (42 to 102), but price returns to 36. When both curves shift right by the same
 Amount, price is unchanged and quantity increases.
@@ -1177,7 +1177,7 @@ Units, price in USD hundred).
 
 <summary>Solution</summary>
 
-(a) `500 - 2P = 100 + 3P``400 = 5P``P = 80` (hundred). `Q = 500 - 160 = 340`.
+(a) `500 - 2P = 100 + 3P`, `400 = 5P`, `P = 80` (hundred). `Q = 500 - 160 = 340`.
 
 (b) At `P = 40`: `Q_D = 500 - 80 = 420`. `Q_S = 100 + 120 = 220`. Shortage = `420 - 220 = 200`
 units.
@@ -1198,9 +1198,9 @@ Burden on consumers and producers. (d) Who bears more of the tax burden and why?
 
 <summary>Solution</summary>
 
-(a) `300 - 5P = 4P - 60``360 = 9P``P = 40`. `Q = 300 - 200 = 100`.
+(a) `300 - 5P = 4P - 60`, `360 = 9P`, `P = 40`. `Q = 300 - 200 = 100`.
 
-(b) Supply shifts: `Q_S = 4(P-6) - 60 = 4P - 84`. `300 - 5P = 4P - 84``384 = 9P``P = 42.67`
+(b) Supply shifts: `Q_S = 4(P-6) - 60 = 4P - 84`. `300 - 5P = 4P - 84`, `384 = 9P`, `P = 42.67`
 (consumers pay). Producers receive `42.67 - 6 = 36.67`. `Q = 300 - 213.3 = 86.67`.
 
 (c) Consumer burden per unit = `42.67 - 40 = 2.67`. Producer burden per unit = `40 - 36.67 = 3.33`.
@@ -1243,9 +1243,9 @@ the subsidy cost the government? (d) Who benefits more from the subsidy -- consu
 
 <summary>Solution</summary>
 
-(a) `200 - 2P = 3P - 80``280 = 5P``P = 56`. `Q = 200 - 112 = 88`.
+(a) `200 - 2P = 3P - 80`, `280 = 5P`, `P = 56`. `Q = 200 - 112 = 88`.
 
-(b) Supply shifts down: `Q_S = 3(P+5) - 80 = 3P - 65`. `200 - 2P = 3P - 65``265 = 5P``P = 53`
+(b) Supply shifts down: `Q_S = 3(P+5) - 80 = 3P - 65`. `200 - 2P = 3P - 65`, `265 = 5P`, `P = 53`
 (consumers pay). Producers receive `53 + 5 = 58`. `Q = 200 - 106 = 94`.
 
 (c) Government cost = `5 \times 94 = 470`.
@@ -1266,9 +1266,9 @@ A factory producing chemicals has `MPC = 10 + Q`. The marginal external cost is 
 
 <summary>Solution</summary>
 
-(a) Market: `10 + Q = 60 - Q``2Q = 50``Q = 25`. `P = 35`.
+(a) Market: `10 + Q = 60 - Q`, `2Q = 50`, `Q = 25`. `P = 35`.
 
-(b) Social optimum: `MSC = MPC + MEC = 10 + Q + 8 = 18 + Q`. `18 + Q = 60 - Q``2Q = 42``Q = 21`.
+(b) Social optimum: `MSC = MPC + MEC = 10 + Q + 8 = 18 + Q`. `18 + Q = 60 - Q`, `2Q = 42`, `Q = 21`.
 `P = 39` (price consumers pay). Producers receive `39 - 8 = 31`.
 
 (c) DWL = `0.5 \times 8 \times (25 - 21) = 0.5 \times 8 \times 4 = 16`.

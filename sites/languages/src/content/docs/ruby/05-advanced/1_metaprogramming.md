@@ -966,8 +966,8 @@ emp.job_title  # => "Engineer"
 
 ## Common Mistakes
 
-**Monkey patching core classes globally:** Adding methods to `String``Array`or `Integer` affects the entire program and can cause unexpected conflicts with gems. Use refinements instead to limit scope.
+**Monkey patching core classes globally:** Adding methods to `String`, `Array`or `Integer` affects the entire program and can cause unexpected conflicts with gems. Use refinements instead to limit scope.
 
-**Forgetting to define `respond_to_missing?`:** If you override `method_missing` but not `respond_to_missing?``respond_to?` returns `false` for methods your proxy handles, breaking duck typing.
+**Forgetting to define `respond_to_missing?`:** If you override `method_missing` but not `respond_to_missing?`, `respond_to?` returns `false` for methods your proxy handles, breaking duck typing.
 
-**Using `eval` with user input:** `eval` executes arbitrary Ruby code, creating a critical security vulnerability. Use `send``public_send`or `define_method` instead for dynamic dispatch.
+**Using `eval` with user input:** `eval` executes arbitrary Ruby code, creating a critical security vulnerability. Use `send`, `public_send`or `define_method` instead for dynamic dispatch.

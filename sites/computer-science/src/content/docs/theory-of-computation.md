@@ -82,7 +82,7 @@ complexity class.
 
 - $L_6 = \{a^n b^n : n \geq 0\}$, matching counts of two symbols.
 - $L_7 = \{w w^R : w \in \{0,1\}^*\}$, even-length palindromes.
-- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`S and `b`S.
+- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`s and `b`s.
 
 **Decidable but not context-free:**
 
@@ -205,7 +205,7 @@ States: $q_0$ (start), $q_1$ (have seen a `0`), $q_2$ (accept, have seen `01`).
 | $q_1$ | $\emptyset$        | $\{q_2\}$          |
 | $q_2$ | $\{q_1\}$          | $\emptyset$        |
 
-Accept: $\{q_2\}$. The NFA is nondeterministic because from $q_0$ on input `0`It can either stay In
+Accept: $\{q_2\}$. The NFA is nondeterministic because from $q_0$ on input `0`. It can either stay In
 $q_0$ or move to $q_1$.
 
 </details>
@@ -262,7 +262,7 @@ The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$ And $\{q_1, q_2\}$ are unre
 **Examples:**
 
 - $(0 \cup 1)^* 00 (0 \cup 1)^*$: strings containing `00`.
-- $1^* 01^* 01^*$: strings with exactly two `0`S.
+- $1^* 01^* 01^*$: strings with exactly two `0`s.
 - $(0 \cup 1)^*$: all strings over $\{0, 1\}$.
 - $\emptyset$: the empty language.
 
@@ -431,7 +431,7 @@ Decomposition $w = xyz$ satisfying (1) and (2) has some $i$ with $xy^iz \notin L
 **Example.** $L = \{0^n 1^n : n \geq 0\}$ is not regular.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
+$|xy| \leq p$ So $y$ consists only of `0`s. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
 (since $p - k \neq p$). Contradiction. $\blacksquare$
 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.
@@ -544,9 +544,9 @@ $$
 
 The variable $S$ generates the $a^i b^i$ part, and $T$ generates the $a^k c^k$ part. Since
 $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$ The total number Of
-`b`S and `c`S equals the total number of `a`S.
+`b`s and `c`s equals the total number of `a`s.
 
-**Example.** CFG for strings with equal numbers of `0`S and `1`S:
+**Example.** CFG for strings with equal numbers of `0`s and `1`s:
 
 $$
 S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon
@@ -792,10 +792,10 @@ $\blacksquare$
 _Proof._ Assume pumping length $p$. Let $w = a^p b^p c^p$. Since $|vxy| \leq p$ The substring $vxy$
 cannot span all three letter types. Case analysis:
 
-- If $vxy$ is within the `a`S or `b`S or `c`S: pumping changes only one count, breaking the
+- If $vxy$ is within the `a`s or `b`s or `c`s: pumping changes only one count, breaking the
   equality.
-- If $vxy$ spans `a`S and `b`S: pumping changes the `a` and `b` counts but not `c`Breaking equality.
-- If $vxy$ spans `b`S and `c`S: analogous.
+- If $vxy$ spans `a`s and `b`s: pumping changes the `a` and `b` counts but not `c`Breaking equality.
+- If $vxy$ spans `b`s and `c`s: analogous.
 
 In all cases, $uv^2xy^2z \notin L$. $\blacksquare$
 
@@ -988,11 +988,11 @@ $M = (Q, \{0, 1\}, \{0, 1, \mathrm{x, \sqcup\}, \delta, q_0, q_{\mathrm{accept},
 
 **Key transitions:**
 
-1. In $q_0$ Read `0`: write `x`Move right, go to $q_1$. (Cross off a `0`.)
+1. In $q_0$ Read `0`: write `x`. Move right, go to $q_1$. (Cross off a `0`.)
 2. In $q_0$ Read `1`: reject. (A `1` before any `0`.)
 3. In $q_0$ Read $\sqcup$: accept. (Nothing left.)
-4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`S.)
-5. In $q_1$ Read `1`: write `x`Move left, go to $q_2$. (Cross off a `1`.)
+4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`s.)
+5. In $q_1$ Read `1`: write `x`. Move left, go to $q_2$. (Cross off a `1`.)
 6. In $q_1$ Read $\sqcup$: reject. (No `1` to match.)
 7. In $q_2$ Read `0` or `x`: move left, stay in $q_2$. (Scan back.)
 8. In $q_2$ Read $\sqcup$: move right, go to $q_0$. (Return to start.)

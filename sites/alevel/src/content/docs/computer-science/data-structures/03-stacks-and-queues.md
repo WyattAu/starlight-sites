@@ -74,7 +74,7 @@ class ArrayStack:
 **Theorem.** All stack operations run in $O(1)$ time with an array-based implementation.
 
 **Proof.** `push` and `pop` each perform one index update and one array access, both $O(1)$.
-`peek``isEmpty`And `size` each inspect a single variable. $\square$
+`peek`, `isEmpty` and `size` each inspect a single variable. $\square$
 
 ### Linked List-Based Implementation
 
@@ -387,7 +387,7 @@ Dequeued in priority order (highest first, or lowest first).
 ## Problem Set
 
 **Problem 1.** A stack initially contains `[10, 20, 30]` (30 on top). After the operations
-`push(40)``pop()``push(50)``pop()``pop()`What is on the stack?
+`push(40)`, `pop()`, `push(50)`, `pop()`, `pop()`What is on the stack?
 
 <details>
 <summary>Answer</summary>
@@ -405,7 +405,7 @@ Stack: `[10, 20]` (20 on top)
 </details>
 
 **Problem 2.** A queue initially contains `[10, 20, 30]` (front = 10). After `enqueue(40)`
-`dequeue()``enqueue(50)``dequeue()`What remains?
+`dequeue()`, `enqueue(50)`, `dequeue()`What remains?
 
 <details>
 <summary>Answer</summary>
@@ -448,7 +448,7 @@ Algorithm.
 <details>
 <summary>Answer</summary>
 
-Precedence: `*` > `+``-`
+Precedence: `*` > `+`, `-`
 
 | Token | Output            | Stack | Action                                  |
 | ----- | ----------------- | ----- | --------------------------------------- |
@@ -480,7 +480,7 @@ The end, the stack must be empty.
 Are balanced.
 
 (_If_) Suppose the parentheses are balanced. Then every `)` matches a previous `(`. By the
-Well-formedness of balanced parentheses, when we encounter a `)`There is always a matching `(` on
+Well-formedness of balanced parentheses, when we encounter a `)`. There is always a matching `(` on
 the stack (otherwise the prefix would have more `)` than `(`Contradicting balance). At the end, All
 `(` have been matched, so the stack is empty.
 
@@ -540,8 +540,8 @@ order. A queue would undo the **oldest** action first, which is not the desired 
 </details>
 
 **Problem 8.** A circular queue has capacity 5. Show the state of the queue (front, rear, size, and
-Array contents) after each operation: `enqueue(1)``enqueue(2)``dequeue()``enqueue(3)`
-`enqueue(4)``enqueue(5)``dequeue()``enqueue(6)`.
+Array contents) after each operation: `enqueue(1)`, `enqueue(2)`, `dequeue()`, `enqueue(3)`
+`enqueue(4)`, `enqueue(5)`, `dequeue()`, `enqueue(6)`.
 
 <details>
 <summary>Answer</summary>
@@ -615,7 +615,7 @@ For revision on complexity analysis, see
 ## Problems
 
 **Problem 1.** A stack is initially empty. Perform the following operations in order and show the
-Stack contents after each: `push(5)``push(12)``push(3)``pop()``push(8)``pop()``pop()` `push(1)`.
+Stack contents after each: `push(5)`, `push(12)`, `push(3)`, `pop()`, `push(8)`, `pop()`, `pop()` `push(1)`.
 What are the values returned by each `pop()` operation?
 
 <details>
@@ -677,7 +677,7 @@ Final stack: **`[2, 7, 8]`** (8 on top).
 </details>
 
 **Problem 3.** A queue initially contains `[5, 10, 15, 20]` (front = 5). Perform `dequeue()`
-`enqueue(25)``dequeue()``enqueue(30)``dequeue()`. What remains in the queue?
+`enqueue(25)`, `dequeue()`, `enqueue(30)`, `dequeue()`. What remains in the queue?
 
 <details>
 <summary>Hint</summary>
@@ -703,8 +703,8 @@ Final queue: **`[20, 25, 30]`** (front = 20).
 </details>
 
 **Problem 4.** A circular queue has capacity 4. Trace the following operations, showing `front`
-`rear``size`And the array contents after each step: `enqueue(7)``enqueue(3)``enqueue(9)`
-`dequeue()``dequeue()``enqueue(5)``enqueue(1)``enqueue(8)`. What happens on the last Operation?
+`rear`, `size` and the array contents after each step: `enqueue(7)`, `enqueue(3)`, `enqueue(9)`
+`dequeue()`, `dequeue()`, `enqueue(5)`, `enqueue(1)`, `enqueue(8)`. What happens on the last Operation?
 
 <details>
 <summary>Hint</summary>
@@ -729,7 +729,7 @@ when `size == capacity`.
 | enqueue(8) | 2     | 2    | 4    | [5, 1, 9, 8]       |
 
 The last operation (`enqueue(8)`) succeeds. The queue is now **full** (size = capacity = 4). The
-`rear` wraps around: $(1 + 1) \% 4 = 2$. Note that `rear` now equals `front`But the queue is not
+`rear` wraps around: $(1 + 1) \% 4 = 2$. Note that `rear` now equals `front`. But the queue is not
 Empty, we use the `size` variable to distinguish full from empty.
 
 </details>
@@ -782,7 +782,7 @@ Consider how many elements need to be moved when dequeuing from the front of a n
 <summary>Answer</summary>
 
 - `enqueue`: $O(1)$, add element at index `rear`Increment `rear`.
-- `dequeue`: $O(n)$, remove element at index `front`Then shift elements `front+1` through `rear-1`
+- `dequeue`: $O(n)$, remove element at index `front`. Then shift elements `front+1` through `rear-1`
   one position left.
 
 **Why inefficient:** After dequeuing, every remaining element must be shifted. For a queue of $n$
@@ -868,7 +868,7 @@ Stack top is `(` but closing bracket is `}`**mismatch** â†’ **not balanced**. âœ
 </details>
 
 **Problem 9.** Write pseudocode for the `dequeue` operation of a circular array queue. The queue has
-Variables `_data[]``_front``_size`And `_capacity`. Include error handling for an empty queue.
+Variables `_data[]`, `_front`, `_size` and `_capacity`. Include error handling for an empty queue.
 
 <details>
 <summary>Hint</summary>

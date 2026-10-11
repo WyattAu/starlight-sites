@@ -815,7 +815,7 @@ involve kernel transitions and data copying).
 **Signal handling issues:**
 
 1. **Reentrancy:** Only async-signal-safe functions can be called from signal handlers (e.g.,
-   `write``_exit``sigaction`). Functions like `malloc``printf`And `strerror` are NOT
+   `write`, `_exit`, `sigaction`). Functions like `malloc`, `printf` and `strerror` are NOT
    async-signal-safe.
 2. **Race conditions:** A signal may arrive between checking a condition and acting on it.
 3. **Signal masking:** `sigprocmask()` blocks specific signals during critical sections.
@@ -991,7 +991,7 @@ Only the pages that are actually touched are read from disk (demand paging). For
 takes 1 GB of virtual address space but only $n/4096$ pages of physical memory (where $n$ is the
 number of pages touched).
 
-With `read()`/`write()`We would need a buffer, read each page into the buffer, modify it, and write
+With `read()`/`write()`. We would need a buffer, read each page into the buffer, modify it, and write
 it back. This involves an extra copy (kernel buffer to user buffer).
 
 </details>

@@ -82,7 +82,7 @@ function explicit(x: number): number {
 }
 ```
 
-If the implementation later changes to return a `string`The explicit annotation produces a compile
+If the implementation later changes to return a `string`. The explicit annotation produces a compile
 Error, whereas inference would silently accept the change.
 
 ## Optional and Default Parameters
@@ -131,8 +131,8 @@ function a(x?: number): void {}
 function b(x: number = 0): void {}
 ```
 
-Both functions can be called with zero arguments. The difference: in `a`The type of `x` within the
-Body is `number | undefined`; in `b`The type of `x` is `number` (the default ensures it is always
+Both functions can be called with zero arguments. The difference: in `a`. The type of `x` within the
+Body is `number | undefined`; in `b`. The type of `x` is `number` (the default ensures it is always
 Defined).
 
 ## Rest Parameters
@@ -508,7 +508,7 @@ const strings = [1, 'two', 3, 'four', 5];
 const onlyStrings = strings.filter((s): s is string => typeof s === 'string');
 ```
 
-The type of `onlyStrings` is `string[]`Not `(string | number)[]`.
+The type of `onlyStrings` is `string[]`. Not `(string | number)[]`.
 
 ### Curried Functions
 
@@ -566,7 +566,7 @@ function format(x: string | number): string | number {
 }
 ```
 
-This is correct. But if the implementation returns only `string`It does not satisfy the `number`
+This is correct. But if the implementation returns only `string`. It does not satisfy the `number`
 Overload.
 
 ### Pitfall 2: Forgetting to Annotate `this`

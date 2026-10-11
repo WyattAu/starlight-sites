@@ -23,7 +23,7 @@ categories:
 
 Smart pointers eliminate many classes of resource bugs, but misuse still leads to leaks, undefined
 Behavior, and performance regressions. This section covers the most common pitfalls encountered when
-Working with `std::unique_ptr``std::shared_ptr`And raw `new`/`delete`Then dives into custom Deleter
+Working with `std::unique_ptr`, `std::shared_ptr` and raw `new`/`delete`. Then dives into custom Deleter
 patterns and their implications.
 
 ## 5.1 Raw `new`/`delete` vs Smart Pointers
@@ -339,7 +339,7 @@ void aligned_allocation() {
 ```
 
 For `std::shared_ptr`Array semantics are handled differently. The default deleter calls `delete` Not
-`delete[]`So you **must** provide an array-aware deleter when managing arrays:
+`delete[]`. So you **must** provide an array-aware deleter when managing arrays:
 
 ```cpp
 #include <memory>
@@ -432,7 +432,7 @@ despite having no members.
 
 ## 5.7 `shared_ptr` with Custom Deleters and Control Block Layout
 
-Unlike `std::unique_ptr``std::shared_ptr` **type-erases** its deleter. The deleter is stored in The
+Unlike `std::unique_ptr`, `std::shared_ptr` **type-erases** its deleter. The deleter is stored in The
 control block, not in the `shared_ptr` object itself. This means:
 
 - `sizeof(std::shared_ptr<T>)` is always 16 bytes on x86_64 (two pointers), regardless of the
@@ -460,7 +460,7 @@ void shared_with_custom_deleter() {
 }
 ```
 
-When using `std::make_shared`The control block and the managed object are allocated in a single Heap
+When using `std::make_shared`. The control block and the managed object are allocated in a single Heap
 allocation (one `new` call). When providing a custom deleter, the compiler cannot use `make_shared`
 - it must perform a separate allocation for the control block and the managed object:
 
@@ -525,7 +525,7 @@ Custom allocators interact with smart pointer custom deleters in important ways.
 
 When a container uses a custom allocator, elements are allocated and deallocated through that
 Allocator. If you extract a raw pointer from a container element and wrap it in a smart pointer, the
-Default deleter will call `delete`Which bypasses the allocator, a mismatch that causes undefined
+Default deleter will call `delete`. Which bypasses the allocator, a mismatch that causes undefined
 Behavior:
 
 ```cpp
@@ -571,7 +571,7 @@ Wrappers, or use `std::pmr` resources [N4950 S23.12].
 ## 5.10 Type Erasure: How `shared_ptr` Stores Deleters
 
 `std::shared_ptr` uses type erasure to store the deleter in the control block, decoupling the
-Deleter type from the `shared_ptr` type. This is fundamentally different from `unique_ptr`Where The
+Deleter type from the `shared_ptr` type. This is fundamentally different from `unique_ptr`. Where The
 deleter is a template parameter.
 
 ### Implementation Sketch
@@ -616,7 +616,7 @@ struct ControlBlockImpl : ControlBlockBase {
 **Consequences of type erasure:**
 
 1. **Uniform `shared_ptr` type:** `shared_ptr&lt;int&gt;` is the same type regardless of whether it
-   uses `delete``free`Or a custom lambda as its deleter. Two `shared_ptr` instances with different
+   uses `delete`, `free` or a custom lambda as its deleter. Two `shared_ptr` instances with different
    deleters can share ownership.
 
 2. **Virtual dispatch overhead:** The deleter invocation goes through a virtual function call. This
@@ -627,7 +627,7 @@ struct ControlBlockImpl : ControlBlockBase {
    corruption.
 
 4. **Heap allocation for the deleter:** The deleter (and its captured state) are allocated in the
-   control block on the heap. This adds allocation overhead compared to `unique_ptr`Which stores the
+   control block on the heap. This adds allocation overhead compared to `unique_ptr`. Which stores the
    deleter inline.
 
 ## 5.11 Custom Deleters: `unique_ptr` vs `shared_ptr` Trade-offs
@@ -721,7 +721,7 @@ int main() {
 Provides `operator[]` and `get()`. This is a deliberate type-safety feature: it prevents accidental
 Use of array pointers as object pointers.
 
-For `shared_ptr`The default deleter always calls `delete`Never `delete[]`. You must explicitly Pass
+For `shared_ptr`. The default deleter always calls `delete`. Never `delete[]`. You must explicitly Pass
 `std::default_delete&lt;T[]&gt;()` for arrays:
 
 ```cpp
@@ -775,14 +775,14 @@ Smart pointers are safety nets, but misuse still creates holes. Raw new followed
 ## Common Pitfalls
 
 **Using `delete` instead of `delete[]` for arrays.** The default `std::shared_ptr` deleter calls
-`delete`Not `delete[]`. If you construct `std::shared_ptr<T>(new T[n])`The deleter invokes Undefined
+`delete`. Not `delete[]`. If you construct `std::shared_ptr<T>(new T[n])`. The deleter invokes Undefined
 behavior. Always pass `std::default_delete<T[]>()` as the deleter, or use `std::unique_ptr<T[]>`
 which has the correct default.
 
 **Custom deleter exceptions.** If a custom deleter throws, the behavior depends on the smart pointer
 Type. For `unique_ptr`Throwing in the deleter causes `std::terminate` during stack unwinding (if The
 destructor is called during exception handling) or direct propagation (if called normally). For
-`shared_ptr`The behavior is similarly dangerous. **Custom deleters must be `noexcept`.**
+`shared_ptr`. The behavior is similarly dangerous. **Custom deleters must be `noexcept`.**
 
 **Function pointer deleter overhead.** A function pointer deleter adds 8 bytes to `unique_ptr` on
 X86_64. If the deleter is stateless, prefer a functor (zero overhead via EBO) or a captureless
@@ -802,8 +802,8 @@ the size overhead or use a lambda instead.
 Refers to, the deleter will dereference a dangling reference when it runs. Always capture by value
 or use a stateless lambda.
 
-**Mixing allocation/deallocation mechanisms.** If an object is allocated with `malloc`The deleter
-Must call `free`Not `delete`. If allocated with a custom allocator, the deleter must use the same
+**Mixing allocation/deallocation mechanisms.** If an object is allocated with `malloc`. The deleter
+Must call `free`. Not `delete`. If allocated with a custom allocator, the deleter must use the same
 Allocator's deallocation function. Mismatches cause undefined behavior and are notoriously difficult
 to debug.
 

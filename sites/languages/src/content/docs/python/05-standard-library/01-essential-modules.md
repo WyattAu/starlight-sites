@@ -42,9 +42,9 @@ The argument for `pathlib` is not aesthetic preference. It is about **composabil
    type (`PosixPath` or `WindowsPath`) whose semantics are visible in the type.
 
 3. **Uniform access to filesystem operations.** `os.path` only handles path manipulation. Actual I/O
-   (reading, writing, stat, mkdir, glob) requires importing `os``shutil``glob``stat`And others.
-   `Path` objects carry methods for all of these: `.read_text()``.write_text()`
-   `.stat()``.mkdir()``.glob()``.rename()``.unlink()`.
+   (reading, writing, stat, mkdir, glob) requires importing `os`, `shutil`, `glob`, `stat` and others.
+   `Path` objects carry methods for all of these: `.read_text()`, `.write_text()`
+   `.stat()`, `.mkdir()`, `.glob()`, `.rename()`, `.unlink()`.
 
 4. **Cross-platform correctness.** `os.path` relies on the host operating system to determine
    separator behavior. `pathlib` exposes `PurePosixPath` and `PureWindowsPath` for explicit control
@@ -72,10 +72,10 @@ print(config_file.stem)           # 'settings'
 `pathlib` does not cover everything in the `os` module. The following still require `os` directly:
 
 - `os.environ`: environment variables (`pathlib` has no equivalent).
-- `os.chdir()``os.getcwd()`: changing and querying the current working directory.
+- `os.chdir()`, `os.getcwd()`: changing and querying the current working directory.
 - `os.walk()`: recursive directory traversal (though `Path.rglob()` covers most use cases).
-- `os.umask()``os.getuid()``os.setsid()`: low-level process and permission operations.
-- `os.path.expandvars()``os.path.expanduser()`: shell variable expansion (note: `Path` does expand
+- `os.umask()`, `os.getuid()`, `os.setsid()`: low-level process and permission operations.
+- `os.path.expandvars()`, `os.path.expanduser()`: shell variable expansion (note: `Path` does expand
   `~` in constructors but not `$VAR`).
 
 ```python
@@ -191,7 +191,7 @@ This is occasionally useful for reloading modules during development or for test
 
 ### `sys.exit()`
 
-`sys.exit()` raises `SystemExit`Which the interpreter catches at the top level to terminate the
+`sys.exit()` raises `SystemExit`. Which the interpreter catches at the top level to terminate the
 Process with the given exit code. Because it is an exception, it can be caught and handled --
 `finally` blocks and context managers still execute.
 
@@ -230,7 +230,7 @@ is `json.loads()` (from string) and `json.load()` (from file object).
 ### Custom Encoders and Decoders
 
 The `default` parameter of `json.dumps()` is a function called for objects that are not natively
-Serializable (i.e., not `dict``list``str``int``float``bool`Or `None`).
+Serializable (i.e., not `dict`, `list`, `str`, `int`, `float`, `bool` or `None`).
 
 ```python
 from datetime import datetime, date
@@ -321,7 +321,7 @@ print(match.groups())  # ('alice', 'example', 'com')
 ```
 
 Always use raw strings (`r'...'`) for regex patterns. Without the raw prefix, `\b` is interpreted as
-A backspace character, and `\d``\w``\s` are interpreted as escape sequences (some of which are Valid
+A backspace character, and `\d`, `\w`, `\s` are interpreted as escape sequences (some of which are Valid
 in Python strings, producing the wrong character in the regex).
 
 ### Named Groups and Non-Capturing Groups
@@ -364,7 +364,7 @@ re.findall(r'^\w+', text, re.MULTILINE | re.IGNORECASE)
 
 :::danger
 Unicode case folding is complex. If you are matching ASCII-only identifiers, use `re.ASCII` (or
-`re.A`) alongside `re.IGNORECASE` to constrain `\w``\b``\d`And `\s` to ASCII ranges.
+`re.A`) alongside `re.IGNORECASE` to constrain `\w`, `\b`, `\d` and `\s` to ASCII ranges.
 
 ### `re.sub()` with a Callable
 
@@ -401,7 +401,7 @@ print(cube(3))    # 27
 ```
 
 `partial` is particularly useful for adapting function signatures to fit APIs that expect a specific
-Callable form, such as `map``sorted`Or callback interfaces.
+Callable form, such as `map`, `sorted` or callback interfaces.
 
 ```python
 from functools import partial
@@ -483,8 +483,8 @@ the dispatch key.
 
 ### `functools.wraps`
 
-`wraps` is a decorator factory that copies metadata (`__name__``__doc__``__module__`
-`__annotations__``__dict__`) from the wrapped function to the wrapper function. Without it, every
+`wraps` is a decorator factory that copies metadata (`__name__`, `__doc__`, `__module__`
+`__annotations__`, `__dict__`) from the wrapped function to the wrapper function. Without it, every
 Decorated function appears as `wrapper` in tracebacks, `help()`And `sphinx` documentation.
 
 ```python
@@ -527,7 +527,7 @@ list(chain([1, 2], [3, 4], [5]))  # [1, 2, 3, 4, 5]
 list(chain.from_iterable([[1, 2], [3, 4], [5]]))  # [1, 2, 3, 4, 5]
 ```
 
-### `product``permutations``combinations`
+### `product`, `permutations`, `combinations`
 
 These functions generate elements from the Cartesian product and combinatorial selections of input
 Iterables.
@@ -572,7 +572,7 @@ for key, group in groupby(data, key=lambda x: x[1]):
 The groups are iterators that are consumed as you iterate over them. If you need to revisit a group,
 Convert it to a list first.
 
-### `islice``filterfalse``accumulate`
+### `islice`, `filterfalse`, `accumulate`
 
 ```python
 from itertools import islice, filterfalse, accumulate
@@ -674,7 +674,7 @@ class FileHandle:
 print(isinstance(FileHandle(), Closeable))  # True
 ```
 
-### `TypeAlias``ParamSpec`And `Concatenate`
+### `TypeAlias`, `ParamSpec` and `Concatenate`
 
 ```python
 from typing import TypeAlias, ParamSpec, Concatenate, Callable
@@ -787,7 +787,7 @@ Use `slots=True` -- mixing slotted and non-slotted dataclasses in an inheritance
 ### Why `IntEnum` Over Raw Constants
 
 Raw integer constants have no type identity. If two modules define `STATUS_OK = 0` and
-`ERROR_NONE = 0`They are indistinguishable -- they are both `int` with value `0`. This causes Silent
+`ERROR_NONE = 0`. They are indistinguishable -- they are both `int` with value `0`. This causes Silent
 bugs in comparisons and makes debugging harder because log messages show bare integers.
 
 `IntEnum` members are both integers and enum members. They compare equal to their integer values
@@ -856,7 +856,7 @@ cannot control.
 
 The `logging` module solves all of these problems:
 
-1. **Severity levels** (`DEBUG``INFO``WARNING``ERROR``CRITICAL`) allow you to control verbosity
+1. **Severity levels** (`DEBUG`, `INFO`, `WARNING`, `ERROR`, `CRITICAL`) allow you to control verbosity
    without changing code.
 2. **Loggers are hierarchical.** A logger named `"myapp.db"` inherits configuration from `"myapp"`.
    Libraries use loggers named after their module (`__name__`), and the application configures them
@@ -991,7 +991,7 @@ logger.addHandler(logging.NullHandler())
 
 ## `datetime`: Dates and Times
 
-### `date``time``datetime``timedelta`
+### `date`, `time`, `datetime`, `timedelta`
 
 The `datetime` module provides four core types for temporal data. They are deliberately separate
 because not every temporal concept needs all components.
@@ -1112,7 +1112,7 @@ while current <= end:
 ```
 
 For more complex date arithmetic (business days, holidays, recurrence rules), the third-party
-`dateutil` library extends `datetime` with `relativedelta``rrule`And flexible parsing.
+`dateutil` library extends `datetime` with `relativedelta`, `rrule` and flexible parsing.
 
 ## Common Pitfalls
 

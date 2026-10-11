@@ -52,7 +52,7 @@ Cheaper.
 
 Git has several properties that make collision attacks harder than generic SHA-1 collisions:
 
-1. **Object headers**: Git hashes `"<type> <size>\0<content>"`Not raw content. An attacker must
+1. **Object headers**: Git hashes `"<type> <size>\0<content>"`. Not raw content. An attacker must
    collide the full header+content.
 2. **Detect checks**: `git fsck` detects objects whose hash does not match their content.
 3. **Collision detection**: Git includes collision detection code that detects SHAttered-style

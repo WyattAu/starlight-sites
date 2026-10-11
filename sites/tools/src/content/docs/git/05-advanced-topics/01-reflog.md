@@ -27,7 +27,7 @@ flowchart TD
 The **reflog** (reference log) is Git's built-in safety net. It records every change to the HEAD
 reference and to each branch reference, creating a chronological audit trail of all movements in the
 repository. Even after operations that appear destructive,
-`git reset --hard``git rebase``git commit --amend`the reflog retains a record of where the
+`git reset --hard`, `git rebase`, `git commit --amend`the reflog retains a record of where the
 references were before.
 
 Think of the reflog as Git's **undo history**. While `git log` shows the commit history (the DAG),

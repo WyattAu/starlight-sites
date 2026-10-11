@@ -213,7 +213,7 @@ Brute-force attacks on weak passphrases more expensive.
 | 1000000    | ~400 ms                       | High-security environments |
 
 :::caution
-Set `pbkdf2iters=1000000`Every boot (or key load) will take an additional ~400 ms per dataset. This
+Set `pbkdf2iters=1000000`. Every boot (or key load) will take an additional ~400 ms per dataset. This
 property only applies to `keyformat=passphrase`. It has no effect on `hex` or `raw` key Formats,
 which use the raw key material directly.
 :::
@@ -1222,7 +1222,7 @@ TrueNAS SCALE provides a graphical interface for creating and managing encrypted
 3. In the dataset creation dialog:
 
 - **Encryption:** Select `AES-256-GCM` (or your preferred algorithm).
-- **Key Format:** Choose `Passphrase``Hex`Or `Raw`.
+- **Key Format:** Choose `Passphrase`, `Hex` or `Raw`.
 - **Key Location:** For passphrase, leave as `Prompt`. For hex/raw, provide the file path.
 - **PBKDF2 Iterations:** Leave at default (350000) or increase for stronger passphrases.
 
@@ -1324,7 +1324,7 @@ This is the most catastrophic pitfall. There is no recovery mechanism. The data 
 
 If a key file is deleted and no backup exists:
 
-- If `keyformat=passphrase`Use `zfs change-key` to switch to passphrase mode (you need the original
+- If `keyformat=passphrase`. Use `zfs change-key` to switch to passphrase mode (you need the original
   passphrase to do this).
 - If `keyformat=raw` or `hex` with no passphrase backup, the data is lost.
 

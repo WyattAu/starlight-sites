@@ -42,7 +42,7 @@ import json as json_module
 Each form does something subtly different at the namespace level:
 
 1. `import os` binds the module object to the name `os` in the current namespace. The module"s
-   attributes are accessed as `os.path``os.environ`Etc. No names from inside `os` are injected into
+   attributes are accessed as `os.path`, `os.environ`. Etc. No names from inside `os` are injected into
    the current scope.
 
 2. `from os.path import join` first imports `os.path` (which necessarily imports `os` as a
@@ -112,7 +112,7 @@ the following order (first match wins):
 1. The directory containing the script being run (or the current directory if running interactively
    or with `-c`). This is **not** `os.getcwd()` in all cases -- it is the directory of the
    entry-point script as resolved by the OS. This is why running `python subdir/myscript.py` adds
-   `subdir/` to `sys.path`Not the project root.
+   `subdir/` to `sys.path`. Not the project root.
 
 2. `PYTHONPATH` environment variable. If set, its value is split on `os.pathsep` (colon on Unix,
    semicolon on Windows) and each path is appended.
@@ -189,8 +189,8 @@ def show_metadata():
 ```
 
 **`__name__`** is the most important module attribute. It contains the fully qualified name of the
-Module as known to the import system. When a file is run directly with `python utils.py``__name__`
-Is set to the string `'__main__'`. When imported as `from myproject import utils``__name__` is
+Module as known to the import system. When a file is run directly with `python utils.py`, `__name__`
+Is set to the string `'__main__'`. When imported as `from myproject import utils`, `__name__` is
 `'myproject.utils'`.
 
 This distinction is the basis for the idiomatic test guard:
@@ -211,9 +211,9 @@ Points to the original `.py` source. For modules loaded from zip files or other 
 Sources, `__file__` may be a synthetic path or `None`. For namespace packages, `__file__` is `None`.
 
 **`__package__`** is the parent package name. For a top-level module (not inside any package), it is
-`None`. For `mypackage.submodule``__package__` is `'mypackage'`. For `mypackage.subpkg.module`
+`None`. For `mypackage.submodule`, `__package__` is `'mypackage'`. For `mypackage.subpkg.module`
 `__package__` is `'mypackage.subpkg'`. This attribute is critical for relative import resolution:
-When a module uses `from . import sibling`The import system resolves the dot by looking at
+When a module uses `from . import sibling`. The import system resolves the dot by looking at
 `__package__`.
 
 **`__doc__`** is the module's docstring -- the first string literal in the module body, if any. It
@@ -254,7 +254,7 @@ mypackage/
         utils.py
 ```
 
-When you write `import mypackage.submodule`The import system:
+When you write `import mypackage.submodule`. The import system:
 
 1. Finds `mypackage/` on `sys.path` (because it contains `__init__.py`).
 2. Imports `mypackage` (executes `mypackage/__init__.py`).
@@ -262,7 +262,7 @@ When you write `import mypackage.submodule`The import system:
 4. Imports `mypackage.submodule` (executes `mypackage/submodule.py`).
 5. Sets the attribute `submodule` on the `mypackage` module object.
 
-Step 5 is crucial: after `import mypackage.submodule`You can access the submodule as
+Step 5 is crucial: after `import mypackage.submodule`. You can access the submodule as
 `mypackage.submodule`. The `mypackage.__init__.py` does not need to explicitly import the submodule
 for this to work -- the import machinery does it automatically.
 
@@ -277,7 +277,7 @@ The `__init__.py` file serves several purposes:
    package is imported. This includes setting up package-level state, configuring logging, or
    importing submodules.
 
-3. **Defines the package's public API.** By importing specific names in `__init__.py`You control
+3. **Defines the package's public API.** By importing specific names in `__init__.py`. You control
    what users see when they `from mypackage import something`.
 
 4. **Sets `__all__`** to control `from mypackage import *` behavior.
@@ -309,7 +309,7 @@ Consider this scenario:
     module_b.py
 ```
 
-If both `/opt/app` and `/usr/local/lib` are on `sys.path`Then `import namespace_pkg.module_a` Loads
+If both `/opt/app` and `/usr/local/lib` are on `sys.path`. Then `import namespace_pkg.module_a` Loads
 from the first directory, and `import namespace_pkg.module_b` loads from the second. Both are
 Recognized as part of the same package `namespace_pkg`.
 
@@ -346,7 +346,7 @@ class PublicClass:
     pass
 ```
 
-When another module does `from mymodule import *`Only `public_func` and `PublicClass` are bound. The
+When another module does `from mymodule import *`. Only `public_func` and `PublicClass` are bound. The
 `_internal_helper` function is excluded despite being a module-level name.
 
 `__all__` also serves as documentation: it tells readers (and tools like linters and IDEs) which
@@ -397,7 +397,7 @@ The number of dots indicates how many levels up to go:
 - `...` means the grandparent package (two directories up).
 
 Relative imports are resolved using the `__package__` attribute of the importing module. When Python
-Encounters `from . import sibling` in `mypackage/subpkg/module.py`It looks at `__package__`Which Is
+Encounters `from . import sibling` in `mypackage/subpkg/module.py`. It looks at `__package__`. Which Is
 `'mypackage.subpkg'`And resolves the import as `mypackage.subpkg.sibling`.
 
 ### Implicit Relative Imports (Removed in Python 3)
@@ -430,7 +430,7 @@ Module. To import a sibling within the same package, you must use an explicit re
 
 ### Relative Imports in `__main__`
 
-When you run a file directly with `python path/to/file.py`The `__package__` attribute is set to
+When you run a file directly with `python path/to/file.py`. The `__package__` attribute is set to
 `None`And `__name__` is set to `'__main__'`. This means any relative import in that file will Raise
 `ImportError: attempted relative import with no known parent package`. This is by design -- The file
 is being run as a standalone script, not as part of a package.
@@ -456,9 +456,9 @@ module_a.py imports module_b.py
 module_b.py imports module_a.py
 ```
 
-This creates a chicken-and-egg problem. When Python starts importing `module_a`It begins executing
-`module_a`'s code. When it hits `import module_b`It starts executing `module_b`. When `module_b`
-Hits `import module_a`It looks in `sys.modules` and finds `module_a` -- but `module_a` is only
+This creates a chicken-and-egg problem. When Python starts importing `module_a`. It begins executing
+`module_a`'s code. When it hits `import module_b`. It starts executing `module_b`. When `module_b`
+Hits `import module_a`. It looks in `sys.modules` and finds `module_a` -- but `module_a` is only
 Partially initialized. Its top-level code has not finished executing, so the names that `module_b`
 Expects to find in `module_a` may not exist yet. This manifests as
 `AttributeError: partially initialized module 'module_a' has no attribute 'SomeClass'`.
@@ -513,7 +513,7 @@ def process(data):
 
 This works because the import statement is not executed until `process()` is called. By that time,
 `module_b` has already been fully imported (or will be imported on demand, and since `module_a` is
-Already in `sys.modules`The cycle does not cause a partial initialization problem).
+Already in `sys.modules`. The cycle does not cause a partial initialization problem).
 
 The trade-off is that every call to `process()` executes the import statement. In CPython, the
 Import machinery checks `sys.modules` first and returns the cached module object in O(1), so the
@@ -597,9 +597,9 @@ __all__ = ["Engine", "Pipeline", "validate", "sanitize",
 ```
 
 Users can then write `from mypackage import Engine` instead of `from mypackage.core import Engine`.
-The internal structure (`core``utils``config`) becomes an implementation detail.
+The internal structure (`core`, `utils`, `config`) becomes an implementation detail.
 
-When using `from .module import func as func`The `as func` is not redundant -- it ensures that the
+When using `from .module import func as func`. The `as func` is not redundant -- it ensures that the
 Name bound in `__init__.py` is exactly `func` regardless of what it was called in the source module.
 This is defensive programming that protects against future renames in submodules.
 
@@ -608,11 +608,11 @@ This is defensive programming that protects against future renames in submodules
 `__all__` serves a dual purpose in `__init__.py`:
 
 1. It controls `from package import *` (though wildcard imports are generally discouraged).
-2. It documents the public API. Tools like `pylint``pyright`And IDEs use `__all__` to determine
+2. It documents the public API. Tools like `pylint`, `pyright` and IDEs use `__all__` to determine
    which names are public vs. Internal.
 
-Without `__all__`The public API is implicitly "everything that does not start with `_`." With
-`__all__`It is explicitly "only these names." The explicit version is strictly better because it
+Without `__all__`. The public API is implicitly "everything that does not start with `_`." With
+`__all__`. It is explicitly "only these names." The explicit version is strictly better because it
 Prevents accidental public exposure of helper names.
 
 ### Hiding Imports with `del`
@@ -709,7 +709,7 @@ Importing the local copy instead of the installed copy.**
 
 Consider the flat layout. When you run `python -m pytest` from the project root, the project root
 Directory is added to `sys.path`. This means `import mypackage` resolves to the local directory
-`./mypackage/`Not to the installed copy in site-packages. This has two consequences:
+`./mypackage/`. Not to the installed copy in site-packages. This has two consequences:
 
 1. **Missing installed dependencies.** If `mypackage` depends on other packages that are installed
    in site-packages, those are still on `sys.path` and will be found. But if `mypackage` has C
@@ -717,12 +717,12 @@ Directory is added to `sys.path`. This means `import mypackage` resolves to the 
    copy.
 
 2. **Shadowing installed packages.** If you have a package installed system-wide named `mypackage`
-   and a local directory also named `mypackage`The local one wins because the project root is
+   and a local directory also named `mypackage`. The local one wins because the project root is
    earlier in `sys.path`. This means you are testing the local (uninstalled) code, which may not
    match what users actually get when they install your package.
 
 The src layout prevents this by moving the package out of the project root. When `python -m pytest`
-Runs from the project root, `./src/` is on `sys.path`But `import mypackage` will fail unless you
+Runs from the project root, `./src/` is on `sys.path`. But `import mypackage` will fail unless you
 have done `pip install -e .` (which installs a `.egg-link` pointing to `src/mypackage/`). This
 Forces you to install the package properly, which catches configuration errors in `pyproject.toml`
 And `setup.cfg`.
@@ -771,7 +771,7 @@ include = ["mypackage*"]
 
 PEP 621 (standardized in Python 3.10+ and supported by setuptools, hatch, flit, poetry) defines the
 `[project]` table as the standard way to declare metadata. The build-backend-specific configuration
-(`[tool.setuptools.packages.find]``[tool.hatch.build.targets.wheel]`Etc.) is still needed to Control
+(`[tool.setuptools.packages.find]`, `[tool.hatch.build.targets.wheel]`. Etc.) is still needed to Control
 which files are included in the distribution.
 
 ## Dynamic Imports
@@ -903,7 +903,7 @@ from mypackage.cli import main
 main()
 ```
 
-The entry point name (`myapp`) becomes the command name. The value is `module:function`Where
+The entry point name (`myapp`) becomes the command name. The value is `module:function`. Where
 `module` is the fully qualified module name and `function` is the callable to invoke.
 
 ### `gui_scripts`
@@ -982,7 +982,7 @@ Automatically without any registration code in the application -- the metadata i
 
 ### Shadowing Standard Library Modules
 
-If you name a local file `random.py``logging.py`Or any other stdlib module name, your file will
+If you name a local file `random.py`, `logging.py` or any other stdlib module name, your file will
 Shadow the standard library module in `sys.path`. This causes bizarre errors where importing the
 Stdlib module loads your file instead:
 
@@ -995,8 +995,8 @@ import random
 random.randint(1, 10)  # AttributeError: module 'random' has no attribute 'randint'
 ```
 
-Never name files after stdlib modules. This includes common names like `collections.py``json.py`
-`email.py``types.py``builtins.py`And `test.py`.
+Never name files after stdlib modules. This includes common names like `collections.py`, `json.py`
+`email.py`, `types.py`, `builtins.py` and `test.py`.
 
 ### `__name__` vs `__package__` Confusion
 
@@ -1009,7 +1009,7 @@ print(__name__)    # 'mypackage.subpkg.module'
 print(__package__) # 'mypackage.subpkg'
 ```
 
-Relative imports use `__package__`Not `__name__`. If `__package__` is `None` (which happens when a
+Relative imports use `__package__`. Not `__name__`. If `__package__` is `None` (which happens when a
 File is run directly), relative imports fail.
 
 ### Mutable Module-Level State
@@ -1072,7 +1072,7 @@ Path is searched first, but be aware that this can shadow installed packages.
 
 ### Namespace Package `__init__.py` Conflicts
 
-If a directory contains `__init__.py`It is a regular package, not a namespace package. If you Later
+If a directory contains `__init__.py`. It is a regular package, not a namespace package. If you Later
 add another directory with the same package name to `sys.path` expecting namespace package
 Semantics, it will not work -- the first directory's `__init__.py` takes precedence. To convert a
 Regular package to a namespace package, you must remove the `__init__.py` from all directories that

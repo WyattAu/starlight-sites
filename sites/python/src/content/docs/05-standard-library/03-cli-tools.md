@@ -29,7 +29,7 @@ are coerced, how errors are surfaced,matters when your tool runs in production, 
 Windows terminals with broken encodings, or under `set -e` where non-zero exits kill the entire
 Script.
 
-This file covers the full spectrum: from raw `sys.argv` access through `argparse``click``typer`
+This file covers the full spectrum: from raw `sys.argv` access through `argparse`, `click`, `typer`
 Entry point configuration, layered config, and rich output. Every section explains not just _how_,
 But _why_ the mechanism exists and where it breaks.
 
@@ -55,9 +55,9 @@ if __name__ == "__main__":
 ```
 
 **Index 0 is always the script name.** This is the path as the OS resolved it,not necessarily how
-The user invoked it. If the user runs `python ./scripts/build.py``sys.argv[0]` is
-`./scripts/build.py`. If they run `python -m mypackage``sys.argv[0]` is the path to the resolved
-Module file. If the interpreter is invoked with `-c``sys.argv[0]` is `'-c'`.
+The user invoked it. If the user runs `python ./scripts/build.py`, `sys.argv[0]` is
+`./scripts/build.py`. If they run `python -m mypackage`, `sys.argv[0]` is the path to the resolved
+Module file. If the interpreter is invoked with `-c`, `sys.argv[0]` is `'-c'`.
 
 **Why `sys.argv` still matters even when you use argparse/click/typer:** Every higher-level parser
 Consumes `sys.argv[1:]` (or a slice you provide). Understanding the raw list is essential for
@@ -66,7 +66,7 @@ Expansion, or a wrapper script that injects extra positional arguments.
 
 **Limitations:**
 
-- No type coercion. Everything is a string. `sys.argv[1]` is `"42"`Not `42`.
+- No type coercion. Everything is a string. `sys.argv[1]` is `"42"`. Not `42`.
 - No help generation. You write it yourself or your users read source.
 - No flag handling. `-v` and `--verbose` are just positional strings you must manually detect.
 - No validation. Bounds checking, enum membership, file existence,all manual.
@@ -107,7 +107,7 @@ Key constructor parameters:
 - `parents`: accepts a list of `ArgumentParser` instances whose arguments are copied in,useful for
   shared argument sets across subcommands.
 - `argument_default`: sets a global default for all arguments that don't specify their own.
-- `exit_on_error`: (3.9+) if `False``parse_args()` raises `ArgumentError` instead of calling
+- `exit_on_error`: (3.9+) if `False`, `parse_args()` raises `ArgumentError` instead of calling
   `sys.exit()`. Essential for library code that parses args without terminating the process.
 - `fromfile_prefix_chars`: e.g. `@` allows `@args.txt` to read arguments from a file. Useful for
   circumventing shell argument length limits.
@@ -154,7 +154,7 @@ parser.add_argument("--log-level", choices=["DEBUG", "INFO", "WARNING", "ERROR"]
 ```
 
 `type` accepts any callable that takes a string and returns a value. This means you can pass
-`pathlib.Path``int`A custom enum constructor, or a validation function:
+`pathlib.Path`, `int`A custom enum constructor, or a validation function:
 
 ```python
 def positive_int(value: str) -> int:
@@ -166,7 +166,7 @@ def positive_int(value: str) -> int:
 parser.add_argument("--workers", type=positive_int, default=4)
 ```
 
-`choices` does a membership check after type coercion. If `type=int` and `choices=[1, 2, 4]`The
+`choices` does a membership check after type coercion. If `type=int` and `choices=[1, 2, 4]`. The
 String `"1"` is coerced to `1` and then checked against the list. If the value fails coercion, the
 Type error fires first.
 
@@ -203,7 +203,7 @@ group.add_argument("--delete", action="store_true", help="Delete the resource")
 group.add_argument("--update", action="store_true", help="Update the resource")
 ```
 
-Exactly one of `--create``--delete`Or `--update` must be provided. If none or more than one is
+Exactly one of `--create`, `--delete` or `--update` must be provided. If none or more than one is
 given, argparse exits with an error message.
 
 ### Subparsers
@@ -373,7 +373,7 @@ Critical for CI pipelines where ANSI escape codes corrupt log files.
 ### Why click is more ergonomic than argparse
 
 1. **No boilerplate.** The function signature IS the CLI spec. In argparse, you define the parser,
-   add arguments, parse, then manually unpack `args.x``args.y``args.z` into local variables or pass
+   add arguments, parse, then manually unpack `args.x`, `args.y`, `args.z` into local variables or pass
    the namespace object around.
 2. **Composable.** Groups and commands are separate functions that can be defined in different
    modules and registered at import time. Argparse subparsers require all definitions in one place
@@ -569,7 +569,7 @@ if __name__ == "__main__":
 
 **Why `python -m` matters:** It ensures the package is on `sys.path` correctly. Running
 `python path/to/mypackage/__main__.py` directly may fail because the parent directory is not on
-`sys.path`So sibling packages cannot be imported. `python -m` resolves this by adding the current
+`sys.path`. So sibling packages cannot be imported. `python -m` resolves this by adding the current
 Directory (or the appropriate search path) to `sys.path` and then locating the package.
 
 ### The `if __name__ == "__main__":` Pattern
@@ -696,7 +696,7 @@ experimental = ["graphql", "websockets"]
 ```
 
 `tomllib` is read-only (it parses TOML). For writing TOML, use `tomli_w` or similar third-party
-Libraries. For Python < 3.11, use `tomli` (API-compatible backport: `pip install tomli`Then
+Libraries. For Python < 3.11, use `tomli` (API-compatible backport: `pip install tomli`. Then
 `import tomli as tomllib`).
 
 ### JSON
@@ -724,7 +724,7 @@ with open("config.yaml") as f:
 ```
 
 YAML supports comments, multi-line strings, anchors/aliases, and has a flexible syntax. **Always use
-`yaml.safe_load()`Never `yaml.load()`.** `yaml.load()` can execute arbitrary Python code via
+`yaml.safe_load()`. Never `yaml.load()`.** `yaml.load()` can execute arbitrary Python code via
 `!!python/object/apply:` tags. This is a well-known remote code execution vector.
 
 YAML's flexibility is also its danger. The spec is large and ambiguous. Different YAML parsers
@@ -1078,7 +1078,7 @@ parser.add_argument("--verbose", action="store_true")
 parser.add_argument("--verbose", action="store_false")  # CONFLICT: same dest, different action
 ```
 
-This does not work as expected. Both flags write to `args.verbose`But one sets it `True` and the
+This does not work as expected. Both flags write to `args.verbose`. But one sets it `True` and the
 other `False`. The last one to appear on the command line wins, which is confusing.
 
 The fix in argparse 3.9+:
@@ -1135,7 +1135,7 @@ Type annotations in typer earn their value,they reject bad input before your fun
 
 ### Assuming stdout Is a Terminal
 
-In CI pipelines, `docker run``cron` jobs, and IDE terminals, stdout may not be a TTY. Progress Bars
+In CI pipelines, `docker run`, `cron` jobs, and IDE terminals, stdout may not be a TTY. Progress Bars
 that write ANSI escape codes to a non-TTY produce garbled output in log files. Both click and Rich
 detect `isatty()` and degrade gracefully, but custom escape code output must check explicitly:
 

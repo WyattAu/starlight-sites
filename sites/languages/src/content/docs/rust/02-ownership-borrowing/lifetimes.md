@@ -30,7 +30,7 @@ fn dangle() -> &String {
 }
 ```
 
-The compiler rejects this because `s` is dropped at the end of `dangle`But the function promises To
+The compiler rejects this because `s` is dropped at the end of `dangle`. But the function promises To
 return a reference. The returned reference would point to freed memory. Lifetimes are the Mechanism
 by which the compiler tracks and enforces this constraint.
 
@@ -247,7 +247,7 @@ fn foo(x: &str) -> (&str, &str)  →  fn foo<'a>(x: &'a str) -> (&'a str, &'a st
 
 ### Rule 3: `&self` or `&mut self` Lifetime
 
-If there are multiple input lifetime parameters but one of them is `&self` or `&mut self`The
+If there are multiple input lifetime parameters but one of them is `&self` or `&mut self`. The
 Lifetime of `self` is assigned to all output parameters:
 
 ```rust
@@ -319,7 +319,7 @@ for writing correct generic code.
 
 ### Covariance
 
-`&'a T` is covariant in `'a`. If `'long: "short`Then `&''long T` can be used where `&"short T` is
+`&'a T` is covariant in `'a`. If `'long: "short`. Then `&''long T` can be used where `&"short T` is
 Expected. This is safe because a longer-lived reference is a subtype of a shorter-lived one when you
 only read through it:
 
@@ -332,7 +332,7 @@ takes_short(long);  // OK, 'static can be shortened to 'a
 
 ### Contravariance
 
-Function types are contravariant in their argument lifetimes. If `'short: "long`Then a function
+Function types are contravariant in their argument lifetimes. If `'short: "long`. Then a function
 Expecting a `''long` reference can be used where a function expecting a `"short` reference is needed:
 
 ```rust
@@ -375,7 +375,7 @@ let r: &'static mut i32 = unsafe { &mut *Box::into_raw(Box::new(x)) };
 ### Variance and Unsafe Code
 
 Violating variance assumptions in unsafe code causes undefined behavior. If you store a `&'long T`
-In a position that the compiler believes holds a `&'short T`The short reference may be used after
+In a position that the compiler believes holds a `&'short T`. The short reference may be used after
 the long reference's referent is freed:
 
 ```rust
@@ -410,7 +410,7 @@ where
 apply(|s| s);
 ```
 
-The closure must work with any lifetime `'a`Not just a specific one. This is more restrictive than
+The closure must work with any lifetime `'a`. Not just a specific one. This is more restrictive than
 Specifying a single lifetime because the closure cannot capture references with a specific lifetime.
 
 ### HRTBs with Trait Objects
@@ -453,7 +453,7 @@ fn subtyping_example() {
 ```
 
 The compiler performs subtyping during borrow checking. If a function expects `&'a T` and you pass
-`&'b T` where `'b: "a`The compiler accepts it because a longer-lived reference satisfies a
+`&'b T` where `'b: "a`. The compiler accepts it because a longer-lived reference satisfies a
 Shorter-lived requirement.
 
 ## Common Lifetime Patterns
@@ -784,7 +784,7 @@ fn get_wrapper<''a, T: "a>(data: &'a T) -> Wrapper<'a, T> {
 ```
 
 When `T` contains references, the compiler must ensure those references are valid for the lifetime
-`'a`. Without `T: "a`The compiler cannot verify this:
+`'a`. Without `T: "a`. The compiler cannot verify this:
 
 ```rust
 struct RefWrapper<''a, T: "a> {
@@ -899,7 +899,7 @@ assert!(matches!(owned, Cow::Owned(_)));
 ```
 
 `Cow<'a, str>` is either `&'a str` (borrowed, no allocation) or `String` (owned, allocated). The
-Lifetime `'a` applies only to the borrowed variant. When the function returns `Cow::Borrowed`No
+Lifetime `'a` applies only to the borrowed variant. When the function returns `Cow::Borrowed`. No
 Allocation occurs.
 
 ## Lifetimes in Async Contexts

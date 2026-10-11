@@ -37,8 +37,8 @@ flowchart TD
 ### UT-1: OOP Principles and Encapsulation
 
 **Question:** Design a class hierarchy for a library system with a base class `Item` and derived
-classes `Book``DVD`And `Magazine`. The `Item` class should have private attributes
-`title``item_id`And `is_available`. Include: (a) a constructor, (b) getter and setter methods
+classes `Book`, `DVD` and `Magazine`. The `Item` class should have private attributes
+`title`, `item_id` and `is_available`. Include: (a) a constructor, (b) getter and setter methods
 demonstrating encapsulation, (c) an abstract method `calculate_late_fee(days)` that each derived
 class implements differently. Show how polymorphism is used to process a list of mixed items.
 
@@ -117,7 +117,7 @@ for item in items:
     print(f"{item.get_title()}: late fee for 5 days = {item.calculate_late_fee(5)}")
 ```
 
-Encapsulation is demonstrated by: (1) private attributes (`__title``__item_id``__is_available`)
+Encapsulation is demonstrated by: (1) private attributes (`__title`, `__item_id`, `__is_available`)
 accessible only through getter/setter methods, (2) the setter validates input before modifying
 state, (3) `borrow()` and `return_item()` methods control state transitions.
 
@@ -230,7 +230,7 @@ foreign keys. (c) Explain what anomalies are eliminated at each stage.
 - **2NF violation:** Partial dependencies exist. `CustomerName` and `CustomerCity` depend only on
   part of a composite key. If we use `(OrderID, Product)` as the composite key, `CustomerName` and
   `CustomerCity` depend only on `OrderID` (partial dependency). Also, `Price` depends only on
-  `Product`Not on the full composite key.
+  `Product`. Not on the full composite key.
 - **3NF violation:** Transitive dependencies exist. `CustomerCity` depends on `CustomerName`
   (transitively through `CustomerName`).
 
@@ -248,7 +248,7 @@ Product(Product, Price) PK: Product
 
 **3NF tables:** Check for transitive dependencies in each 2NF table.
 
-Customer(OrderID, CustomerName, CustomerCity): `CustomerCity` depends on `CustomerName`Not on
+Customer(OrderID, CustomerName, CustomerCity): `CustomerCity` depends on `CustomerName`. Not on
 `OrderID`. This is a transitive dependency. Split into:
 
 CustomerOrder(OrderID, CustomerID) PK: OrderID, FK: CustomerID references Customer
@@ -373,7 +373,7 @@ class StudentRecordManager:
 ### IT-2: SQL and Programming Integration (with Relational Databases)
 
 **Question:** A school database has tables:
-`Student(student_id, name, form_group)``Subject(subject_id, subject_name, teacher)``Enrolment(student_id, subject_id, grade)`.
+`Student(student_id, name, form_group)`, `Subject(subject_id, subject_name, teacher)`, `Enrolment(student_id, subject_id, grade)`.
 Write Python code using parameterised queries to: (a) enrol a student in a subject, (b) update a
 student's grade, (c) generate a report showing each student's average grade. Explain why
 parameterised queries are essential for security.

@@ -22,7 +22,7 @@ categories:
 
 C++20 introduced the three-way comparison operator `<=>` (the "spaceship operator") as a unified
 Mechanism for defining all relational comparisons in a single declaration. Combined with
-`= default`It dramatically reduces boilerplate for comparable types.
+`= default`. It dramatically reduces boilerplate for comparable types.
 
 ## 5.1 Three-Way Comparison [N4950 §11.4.5.4]
 
@@ -45,10 +45,10 @@ Expected.
 
 ## 5.2 Default Comparisons with `= default`
 
-When you write `auto operator<=>(const T&) const = default;`The compiler generates the `<=>`
+When you write `auto operator<=>(const T&) const = default;`. The compiler generates the `<=>`
 Operator by lexicographically comparing each non-static data member in declaration order [N4950
-§11.4.5.4]. Furthermore, if `<=>` is defaulted and returns `std::strong_ordering`The compiler also
-Synthesizes the six relational operators: `==``!=``<``>``<=``>=`.
+§11.4.5.4]. Furthermore, if `<=>` is defaulted and returns `std::strong_ordering`. The compiler also
+Synthesizes the six relational operators: `==`, `!=`, `<`, `>`, `<=`, `>=`.
 
 ```cpp
 #include <compare>
@@ -192,8 +192,8 @@ Comparison that avoids allocation.
 
 ## 5.5 Auto-Generation of Comparison Operators
 
-When `operator<=>` is defaulted and returns `std::strong_ordering`The compiler **automatically
-Synthesizes** all six relational operators: `==``!=``<``>``<=``>=` [N4950 §11.4.5.4]. The
+When `operator<=>` is defaulted and returns `std::strong_ordering`. The compiler **automatically
+Synthesizes** all six relational operators: `==`, `!=`, `<`, `>`, `<=`, `>=` [N4950 §11.4.5.4]. The
 Synthesized operators use the `<=>` result and `==` for equality.
 
 ### When Synthesis Does Not Occur
@@ -257,7 +257,7 @@ The three comparison category types form a hierarchy with different guarantees:
 
 ### `std::strong_ordering`
 
-A **total ordering** where equivalent values are fully substitutable. If `a == b`Then `f(a) == f(b)`
+A **total ordering** where equivalent values are fully substitutable. If `a == b`. Then `f(a) == f(b)`
 for all operations `f`.
 
 **Use when:** The type has natural, unambiguous ordering (integers, strings, version numbers).
@@ -530,13 +530,13 @@ The spaceship operator <=> is a three-way comparison that returns a category tel
 ## Common Pitfalls
 
 - **Defaulting `<=>` on types with `bool` and floating-point members.** `bool` uses
-  `strong_ordering`But `double` uses `partial_ordering`. When mixed in a struct, the defaulted `<=>`
+  `strong_ordering`. But `double` uses `partial_ordering`. When mixed in a struct, the defaulted `<=>`
   returns `partial_ordering` (the weakest category among the members).
 - **Using `<=>` with `std::optional` members.** `std::optional` has a defaulted `<=>` that returns
   `partial_ordering` when the value type has `partial_ordering`. Be aware of the propagation.
 - **Defining `operator==` separately from `<=>`.** If you define both, they must agree. If they
   disagree, `std::set` and `std::map` will behave inconsistently.
-- **Forgetting `<compare>` header.** `std::strong_ordering``std::weak_ordering`And
+- **Forgetting `<compare>` header.** `std::strong_ordering`, `std::weak_ordering` and
   `std::partial_ordering` are defined in `<compare>`. Forgetting to include it causes compilation
   errors.
 

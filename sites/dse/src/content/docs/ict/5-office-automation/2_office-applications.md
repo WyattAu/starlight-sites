@@ -70,7 +70,7 @@ VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
 A product catalogue in `E1:H20` with columns: ProductCode (E), ProductName (F), Category (G), Price
 (H).
 
-In cell `A1`The user enters a product code. In `B1`Display the product name. In `C1`Display the
+In cell `A1`. The user enters a product code. In `B1`Display the product name. In `C1`Display the
 Price.
 
 ```python
@@ -78,7 +78,7 @@ B1: =VLOOKUP(A1, $E$1:$H$20, 2, FALSE)
 C1: =VLOOKUP(A1, $E$1:$H$20, 4, FALSE)
 ```
 
-If `A1` contains `P105`The formula searches column E for `P105`Finds it, and returns the value From
+If `A1` contains `P105`. The formula searches column E for `P105`Finds it, and returns the value From
 column 2 (F) for the product name and column 4 (H) for the price.
 
 If the product code is not found, both formulas return `#N/A`.

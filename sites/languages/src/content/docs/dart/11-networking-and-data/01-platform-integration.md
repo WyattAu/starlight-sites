@@ -33,12 +33,12 @@ Bidirectional communication: Dart can invoke native methods and receive results,
 Send messages or streams of events back to Dart.
 
 The platform channel architecture uses a message-passing model. Data is serialized using a standard
-Codec ( the `StandardMethodCodec`Which supports null, booleans, numbers, strings, byte Buffers,
+Codec ( the `StandardMethodCodec`. Which supports null, booleans, numbers, strings, byte Buffers,
 lists, and maps), transmitted across the platform channel, and deserialized on the other Side. This
 serialization/deserialization is handled automatically for standard types.
 
-Most common use cases are covered by existing Flutter packages (`camera``geolocator`
-`shared_preferences``url_launcher`Etc.). Platform channels are needed when:
+Most common use cases are covered by existing Flutter packages (`camera`, `geolocator`
+`shared_preferences`, `url_launcher`. Etc.). Platform channels are needed when:
 
 - No suitable plugin exists for the native API you need.
 - You need to integrate with a proprietary native SDK.
@@ -127,7 +127,7 @@ Platform checks are necessary for several reasons:
 - **Permission models**: Android and iOS have different permission request flows. Android uses a
   runtime permission model, while iOS requires `Info.plist` entries with usage descriptions.
 - **File system layout**: Android and iOS store app data in different directory structures. Android
-  uses `/data/data/<package>/`While iOS uses the sandbox's `Documents/` and `Library/` directories.
+  uses `/data/data/<package>/`. While iOS uses the sandbox's `Documents/` and `Library/` directories.
 
 ### kIsWeb
 
@@ -504,7 +504,7 @@ class SensorStreamHandler: NSObject, FlutterStreamHandler {
 
 ### EventChannel Lifecycle
 
-When Dart calls `receiveBroadcastStream()`The channel sends a "listen" signal to the native side,
+When Dart calls `receiveBroadcastStream()`. The channel sends a "listen" signal to the native side,
 Triggering `onListen`. The native side should start producing events and pushing them through
 `EventSink.success()`. When all Dart listeners are cancelled (via `StreamSubscription.cancel()`),
 The channel sends a "cancel" signal, triggering `onCancel`. The native side should clean up
@@ -580,7 +580,7 @@ Use `BasicMessageChannel` when:
 
 Use `MethodChannel` when:
 
-- You have distinct named operations (e.g., `getBatteryLevel``openCamera`).
+- You have distinct named operations (e.g., `getBatteryLevel`, `openCamera`).
 - You need structured error handling with error codes.
 - You want the method-call semantics that `MethodChannel` provides.
 
@@ -869,7 +869,7 @@ setMethodCallHandler { call, result ->
 
 ### Backpressure
 
-If you send many messages in rapid succession via `MethodChannel`The platform channel does not
+If you send many messages in rapid succession via `MethodChannel`. The platform channel does not
 Provide built-in backpressure. Each `invokeMethod` call creates a pending message. If the native
 Side cannot keep up, messages queue up in memory. For high-frequency data (sensor data, video
 Frames), use `EventChannel` instead, which is designed for streaming.

@@ -164,7 +164,7 @@ $\overline{C}$ And the OR of the other terms is $B + A = A + B$ So $F = (A + B) 
 ### Three-Variable Truth Tables
 
 A three-variable expression has $2^3 = 8$ rows. The convention is to list combinations in binary
-Counting order. For variables `A``B``C`:
+Counting order. For variables `A`, `B`, `C`:
 
 | `A` | `B` | `C` | `A` AND `B` AND `C` | `A` OR `B` OR `C` |
 | --- | --- | --- | ------------------- | ----------------- |
@@ -180,7 +180,7 @@ Counting order. For variables `A``B``C`:
 ### Four-Variable Truth Tables
 
 A four-variable expression has $2^4 = 16$ rows. The standard ordering assigns the leftmost variable
-as the most significant bit. For variables `A``B``C``D`:
+as the most significant bit. For variables `A`, `B`, `C`, `D`:
 
 | `A` | `B` | `C` | `D` | `A` AND `B` AND `C` AND `D` | `A` OR `B` OR `C` OR `D` |
 | --- | --- | --- | --- | --------------------------- | ------------------------ |
@@ -565,7 +565,7 @@ $m_2 = \overline{A}B\overline{C}$$m_5 = A\overline{B}C$$m_6 = AB\overline{C}$$m_
 
 - Group 1: Cells $(0,00)$ and $(0,01)$ -- adjacent horizontally. These are
   $\overline{A}\overline{B}\overline{C}$ and $\overline{A}\overline{B}C$. The variable that changes
-  is `C`So eliminate it: $\overline{A}\overline{B}$.
+  is `C`. So eliminate it: $\overline{A}\overline{B}$.
 - Group 2: Cells $(1,01)$$(1,11)$$(1,10)$ -- all three in row `A`=1. But $(1,01)$ and $(1,11)$ are
   adjacent, and $(1,11)$ and $(1,10)$ are adjacent. Group $(1,11)$ and $(1,10)$: these are $ABC$ and
   $AB\overline{C}$ Eliminating `C`: $AB$.
@@ -756,7 +756,7 @@ Don't care conditions arise when certain input combinations can never occur or w
 for certain inputs is irrelevant. In K-maps, don't cares are marked with `X` and can be treated as
 either 0 or 1, whichever produces a simpler expression.
 
-**Worked example:** A circuit has inputs `A``B``C` where the input combination `A = 1, B = 1, C = 1`
+**Worked example:** A circuit has inputs `A`, `B`, `C` where the input combination `A = 1, B = 1, C = 1`
 is impossible. The required outputs for the other 7 combinations are:
 
 | `A` | `B` | `C` | `F` |
@@ -841,7 +841,7 @@ Trace the circuit from inputs to outputs:
 2. Work from left to right (inputs to outputs).
 3. The final gate output is the overall expression.
 
-**Worked example:** A circuit has inputs `A``B``C`. An AND gate takes `A` and `B`. An OR gate Takes
+**Worked example:** A circuit has inputs `A`, `B`, `C`. An AND gate takes `A` and `B`. An OR gate Takes
 the AND gate output and `C`. The final expression is $(A \cdot B) + C$.
 
 ## Half Adder and Full Adder

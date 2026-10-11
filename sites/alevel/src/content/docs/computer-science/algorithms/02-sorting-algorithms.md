@@ -247,7 +247,7 @@ def partition(A, low, high):
 
 ### Correctness Proof
 
-**Theorem.** After `partition(A, low, high)`The pivot is at its final sorted position, all Elements
+**Theorem.** After `partition(A, low, high)`. The pivot is at its final sorted position, all Elements
 to its left are $\lt $ pivot, and all elements to its right are $\geq$ pivot.
 
 **Proof.** The variable `i` tracks the boundary between elements

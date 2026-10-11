@@ -38,7 +38,7 @@ I/O [N4950 §30.4]. A stream buffer manages two character buffers:
 
 The stream buffer is responsible for the actual transfer of characters between these in-memory
 Buffers and the external device (file, console, string, network socket). The high-level stream
-Classes (`std::istream``std::ostream`) are thin wrappers that perform formatting and parsing, then
+Classes (`std::istream`, `std::ostream`) are thin wrappers that perform formatting and parsing, then
 Delegate the actual I/O to their associated stream buffer.
 
 ```
@@ -78,7 +78,7 @@ The standard stream buffer operations [N4950 §30.4.4] are:
 The library provides three concrete stream buffer types [N4950 §30.4.2]:
 
 **`std::basic_stringbuf&lt;CharT>`**, reads from and writes to a `std::basic_string`. Used by
-`std::istringstream``std::ostringstream`And `std::stringstream`. The buffer stores characters
+`std::istringstream`, `std::ostringstream` and `std::stringstream`. The buffer stores characters
 Directly in a dynamically managed string, so no external device is involved [N4950 §30.4.2.3].
 
 **`std::basic_filebuf&lt;CharT>`**, reads from and writes to a file. Used by `std::ifstream`
@@ -86,7 +86,7 @@ Directly in a dynamically managed string, so no external device is involved [N49
 C++ semantics (RAII, locale awareness, codecvt for character set conversion) [N4950 §30.4.2.4].
 
 **`std::basic_spanbuf&lt;CharT>`** (C++23), reads from and writes to a contiguous sequence of
-Characters described by a `std::span`. Unlike `stringbuf`It does not own the underlying storage.
+Characters described by a `std::span`. Unlike `stringbuf`. It does not own the underlying storage.
 This enables zero-copy I/O into pre-allocated buffers, which is critical in embedded systems and
 High-performance networking where allocation is forbidden [N4950 §30.4.2.5].
 
@@ -177,7 +177,7 @@ void locale_facet_demo() {
 
 :::note
 `""` locale (empty string) selects the user's preferred locale from environment variables (`LC_ALL`
-`LC_NUMERIC``LANG`). Be aware that locale-sensitive operations are **not** thread-safe in the
+`LC_NUMERIC`, `LANG`). Be aware that locale-sensitive operations are **not** thread-safe in the
 Standard: `std::locale::global()` modifies a global variable and is not safe to call concurrently
 [N4950 §30.3.1.3].
 :::
@@ -275,7 +275,7 @@ the output format. For thread-safe logging, wrap the `sputn` call in a mutex.
 
 ### Connecting Stream Buffers to Streams
 
-A stream (`std::istream``std::ostream`) does not own its stream buffer. You can redirect a stream To
+A stream (`std::istream`, `std::ostream`) does not own its stream buffer. You can redirect a stream To
 a different buffer at any time using `rdbuf()`:
 
 ```cpp
@@ -426,7 +426,7 @@ Critical.
 
 ### `std::ios::sync_with_stdio`
 
-`std::ios::sync_with_stdio(false)` decouples C++ streams from C stdio (`printf``scanf``fread`
+`std::ios::sync_with_stdio(false)` decouples C++ streams from C stdio (`printf`, `scanf`, `fread`
 `fwrite`) [N4950 §30.4.5.1]. By default, C++ streams are synchronized with C stdio to allow
 Interleaved use, which incurs a performance penalty.
 
@@ -599,10 +599,10 @@ void stream_state_demo() {
 
 2. **Returning EOF from `underflow()` incorrectly:** `underflow()` should return the next character
    (as an `int`) or `traits_type::eof()` if the source is exhausted. It should **not** advance
-   `gptr`. If you advance `gptr` in `underflow()`The first character will be silently skipped.
+   `gptr`. If you advance `gptr` in `underflow()`. The first character will be silently skipped.
 
 3. **Using `std::cout` and `printf` interchangeably without `sync_with_stdio`:** After calling
-   `sync_with_stdio(false)`The C++ and C I/O buffers are independent. Output may appear out of order
+   `sync_with_stdio(false)`. The C++ and C I/O buffers are independent. Output may appear out of order
    or be lost. Either stay synchronized (the default) or use only one I/O system.
 
 4. **`rdbuf()` ownership:** `std::cout.rdbuf(new_buf)` does **not** delete the old buffer. It
@@ -632,7 +632,7 @@ void stream_state_demo() {
 
 ## Intuition
 
-**Stream buffers are like water pipes:** The stream (`std::cout``std::ifstream`) is like the faucet, you turn it on and water flows. The stream buffer is like the pipe behind the wall, it actually carries the water from the source to the faucet. You rarely interact with stream buffers directly, but they're doing all the work. A custom stream buffer is like installing a water filter, the water still flows through the same faucet, but the pipe behind the wall processes it differently.
+**Stream buffers are like water pipes:** The stream (`std::cout`, `std::ifstream`) is like the faucet, you turn it on and water flows. The stream buffer is like the pipe behind the wall, it actually carries the water from the source to the faucet. You rarely interact with stream buffers directly, but they're doing all the work. A custom stream buffer is like installing a water filter, the water still flows through the same faucet, but the pipe behind the wall processes it differently.
 
 **Why it matters:** Stream buffers separate the interface (stream operations like `<<` and `>>`) from the implementation (where the data actually comes from or goes to). This lets you redirect `std::cout` to a file, a network socket, or a custom buffer without changing any code that writes to `std::cout`. It's the Strategy pattern applied to I/O.
 

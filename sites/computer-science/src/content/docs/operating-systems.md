@@ -396,8 +396,8 @@ shmdt(shm_ptr);
 **Pipes.** Unidirectional data channel. `pipe()` creates a pipe; `fork()` inherits file descriptors.
 Named pipes (`mkfifo`) allow unrelated processes to communicate.
 
-**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM``SIGKILL`
-`SIGSEGV``SIGCHLD`.
+**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM`, `SIGKILL`
+`SIGSEGV`, `SIGCHLD`.
 
 ## 3. Synchronisation
 
@@ -1197,7 +1197,7 @@ Share physical frames (marked read-only). On a write to a shared page, a fault t
 just that page.
 
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
-- If the child immediately calls `exec()`No copies are ever made.
+- If the child immediately calls `exec()`. No copies are ever made.
 
 ## 6. File Systems
 
@@ -1207,7 +1207,7 @@ A **file** is a named collection of related data on secondary storage.
 
 **File attributes:** Name, identifier (inode number), type, location, size, protection, timestamps.
 
-**File operations:** `create``delete``open``close``read``write``seek``truncate`.
+**File operations:** `create`, `delete`, `open`, `close`, `read`, `write`, `seek`, `truncate`.
 
 **Access methods:**
 
@@ -1456,7 +1456,7 @@ User application
   reordering by the OS.
 
 **Driver loading.** Most modern OSes support loadable kernel modules (LKMs): drivers loaded at
-Runtime without rebooting. On Linux: `insmod``modprobe`. This allows third-party hardware support
+Runtime without rebooting. On Linux: `insmod`, `modprobe`. This allows third-party hardware support
 without kernel recompilation.
 
 ### 7.3 I/O Scheduling
@@ -1548,7 +1548,7 @@ OSes.
 **Challenges:**
 
 - **Instruction emulation:** Sensitive instructions must be trapped and emulated. On x86, `IN`
-  `OUT``HLT``CLI``STI`And `MOV` to/from control registers are sensitive.
+  `OUT`, `HLT`, `CLI`, `STI` and `MOV` to/from control registers are sensitive.
 - **Memory virtualization:** The VMM maintains **shadow page tables** mapping guest virtual to host
   physical addresses. Hardware support: Extended Page Tables (EPT, Intel) and Nested Page Tables
   (NPT, AMD).
@@ -2189,7 +2189,7 @@ gaining control of execution when the function returns.
 - **ASLR:** Randomises the stack base address, so the attacker cannot predict where `buffer` (and
   therefore the shellcode) will be in memory.
 - **DEP (W\^X):** Marks the stack as non-executable. Even if the attacker overwrites the return
-  address to point to the shellcode in `buffer`The CPU will fault when trying to execute it.
+  address to point to the shellcode in `buffer`. The CPU will fault when trying to execute it.
 - **CFI:** Verifies that the return address points to a valid call site. A crafted address injected
 by the overflow would fail the CFI check.
 

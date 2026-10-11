@@ -21,7 +21,7 @@ categories:
 
 ## Program Entry
 
-When the project creates an executable, the entry point of the project is located in `main()`Where
+When the project creates an executable, the entry point of the project is located in `main()`. Where
 the default is given as:
 
 ```dart
@@ -43,7 +43,7 @@ void runApp(Widget app) {
 ```
 
 - `WidgetsFlutterBinding.ensureInitialized();` creates the binders required (`GestureBinding`
-  `RendererBinding``SchedulerBinding``WidgetsBinding`)
+  `RendererBinding`, `SchedulerBinding`, `WidgetsBinding`)
 - This `binding` is pass into `_runWidget`
 - The widget (app) passed in will be wrapped with a `View` widget, this widget will now be the root
   widget and be rendered through the `RendererBinding`
@@ -167,7 +167,7 @@ bool truthy = 'hello';    // ERROR: Dart has no truthy/falsy coercion
 ```
 
 Dart does **not** have implicit boolean coercion. Unlike JavaScript or Python, only `true` and
-`false` are valid boolean values. Conditions in `if``while`And `?:` must evaluate to `bool`.
+`false` are valid boolean values. Conditions in `if`, `while` and `?:` must evaluate to `bool`.
 
 ### Lists
 
@@ -428,7 +428,7 @@ final age = 20;
 final status = age >= 18 ? 'adult' : "minor'';
 ```
 
-Remember: Dart has no truthy/falsy. The condition in `?:``if``while` must be `bool`. You cannot
+Remember: Dart has no truthy/falsy. The condition in `?:`, `if`, `while` must be `bool`. You cannot
 Write `final status = name ? "exists' : 'missing';`that is a compile error.
 
 ## Intuition
@@ -446,7 +446,7 @@ Write `final status = name ? "exists' : 'missing';`that is a compile error.
 - **Confusing `final` with immutable**: `final` means the reference cannot change. The object itself
   is still mutable. Use `const` for compile-time constants, or use immutable collections from
   `package:collection` / `package:built_collection` for deep immutability.
-- **Overusing `!` (null assertion)**: Every `!` is a potential crash. Prefer `?.``??`Or explicit
+- **Overusing `!` (null assertion)**: Every `!` is a potential crash. Prefer `?.`, `??` or explicit
   null checks. Use `!` only when the null state is provably impossible (e.g., after an `is` check).
 - **Forgetting that Dart has no truthy coercion**: `if (list)` does not check if the list is
   non-empty. Use `if (list.isNotEmpty)`. `if (value)` does not check if value is non-zero. Use

@@ -866,7 +866,7 @@ Program: Assign grades based on score (A: &gt;= 80, B: &gt;= 60, C: &gt;= 40, F:
    (for writes) or resource leaks (files remaining locked).
 
 9. **Integer division truncation:** In many languages, dividing two integers produces an integer
-   result (truncated). `7 / 2` gives `3`Not `3.5`. Use floating-point division when a decimal result
+   result (truncated). `7 / 2` gives `3`. Not `3.5`. Use floating-point division when a decimal result
    is needed.
 
 10. **Scope of variables:** Local variables inside a function are not accessible outside the

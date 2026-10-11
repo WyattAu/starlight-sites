@@ -46,7 +46,7 @@ across nodes.
 
 - **Phase 1 (Voting):** The coordinator sends a `PREPARE` message to all participants. Each
   participant writes its changes to a local log, votes `YES` (ready to commit) or `NO` (abort).
-- **Phase 2 (Decision):** If all participants voted `YES`The coordinator sends `COMMIT`; otherwise
+- **Phase 2 (Decision):** If all participants voted `YES`. The coordinator sends `COMMIT`; otherwise
   it sends `ABORT`. Participants apply the decision and acknowledge.
 
 **Theorem 9.1.** 2PC guarantees atomicity of distributed transactions if no participant crashes
@@ -67,7 +67,7 @@ Model:
 2. **PreCommit:** If all `YES`Coordinator sends `PRE-COMMIT`. Participants acknowledge.
 3. **DoCommit:** Coordinator sends `COMMIT`. Participants commit and acknowledge.
 
-If the coordinator crashes after `PRE-COMMIT`Any participant can contact others to determine the
+If the coordinator crashes after `PRE-COMMIT`. Any participant can contact others to determine the
 Outcome (since at least one participant must have received `PRE-COMMIT` and can coordinate).
 
 **Limitation of 3PC:** Assumes reliable communication (no lost messages), which is unrealistic in

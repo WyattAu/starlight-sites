@@ -43,7 +43,7 @@ With time:
 
 $$
 \begin`\{aligned}`
- v = \frac`\{ds}``\{dt}`
+ v = \frac`\{ds}`, `\{dt}`
 \end`\{aligned}`
 $$
 
@@ -54,7 +54,7 @@ Time:
 
 $$
 \begin`\{aligned}`
- a = \frac`\{dv}``\{dt}`
+ a = \frac`\{dv}`, `\{dt}`
 \end`\{aligned}`
 $$
 

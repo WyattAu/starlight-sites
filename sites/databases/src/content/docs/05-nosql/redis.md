@@ -748,7 +748,7 @@ Messaging.
 
 ### Blocking Commands Without Timeouts
 
-`BLPOP``BRPOP``XREADGROUP BLOCK`And `BRPOPLPUSH` without timeouts block the connection Indefinitely.
+`BLPOP`, `BRPOP`, `XREADGROUP BLOCK` and `BRPOPLPUSH` without timeouts block the connection Indefinitely.
 Always specify a timeout:
 
 ```bash

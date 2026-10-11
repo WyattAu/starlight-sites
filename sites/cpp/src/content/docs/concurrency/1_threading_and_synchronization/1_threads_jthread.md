@@ -382,7 +382,7 @@ void race_condition_demo() {
 ```
 
 :::caution
-thread accesses it, the Copy is safe. However, if you explicitly pass `std::ref` or `std::cref`You
+thread accesses it, the Copy is safe. However, if you explicitly pass `std::ref` or `std::cref`. You
 bypass this protection And must ensure the referenced object outlives the thread.
 :::
 
@@ -467,7 +467,7 @@ void stop_callback_demo() {
 
 :::caution
 the `stop_callback` Object outlives the expected stop request. The callback itself is invoked
-synchronously from the Thread that calls `request_stop()`Not from the worker thread.
+synchronously from the Thread that calls `request_stop()`. Not from the worker thread.
 :::
 
 ## Thread Stack Size
@@ -537,7 +537,7 @@ void constructor_variants() {
 ## Common Pitfalls
 
 1. **Destroying a joinable `std::thread`:** This calls `std::terminate()`. Always join or detach
-   before destruction. This is the primary motivation for using `std::jthread`Which joins
+   before destruction. This is the primary motivation for using `std::jthread`. Which joins
    automatically.
 
 2. **Detaching threads with references to locals:** A detached thread that references local
@@ -546,7 +546,7 @@ void constructor_variants() {
 
 3. **Calling `request_stop()` after `jthread` is joined:** `request_stop()` is safe to call at any
    time, it is a no-op if the stop has already been requested. The `jthread` destructor calls
-   `request_stop()` followed by `join()`So the stop is always requested before joining.
+   `request_stop()` followed by `join()`. So the stop is always requested before joining.
 
 4. **`stop_token` is not a cancellation mechanism:** `stop_token` implements cooperative
    cancellation, the worker must periodically check `stop_requested()`. If the worker blocks

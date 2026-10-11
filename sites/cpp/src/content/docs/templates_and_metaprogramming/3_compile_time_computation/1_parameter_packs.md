@@ -217,7 +217,7 @@ int main() {
 ## `sizeof...` Operator
 
 `sizeof...(pack)` returns the number of elements in a parameter pack as a `std::size_t` [N4950
-§8.3.3]. It is a constant expression usable in `if constexpr``static_assert`And template
+§8.3.3]. It is a constant expression usable in `if constexpr`, `static_assert` and template
 Metaprogramming. It works on both type packs and non-type packs.
 
 ```cpp

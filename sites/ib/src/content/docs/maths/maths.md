@@ -571,7 +571,7 @@ $S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$
 
 1. **Wrong mode (radians vs degrees).** Most IB questions assume radians unless stated otherwise.
    Check your calculator mode before every exam.
-2. **Missing brackets.** $\dfrac{1}{2x}$ on a calculator requires `1/(2x)`Not `1/2x` (which the
+2. **Missing brackets.** $\dfrac{1}{2x}$ on a calculator requires `1/(2x)`. Not `1/2x` (which the
    calculator reads as $\dfrac{1}{2} \cdot x$).
 3. **Not using exact values when required.** If a question asks for an exact answer, do not use the
    GDC to give a decimal approximation.

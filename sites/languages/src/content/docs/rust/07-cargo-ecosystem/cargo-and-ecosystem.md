@@ -204,7 +204,7 @@ shared = { version = "1", features = ["feature-x"] }
 shared = { version = "1", features = ["feature-y"] }
 ```
 
-In a workspace depending on both `crate-a` and `crate-b``shared` will have both `feature-x` and
+In a workspace depending on both `crate-a` and `crate-b`, `shared` will have both `feature-x` and
 `feature-y` enabled. If `feature-y` has heavy dependencies, `crate-a` users pay the cost even though
 they only requested `feature-x`.
 

@@ -37,7 +37,7 @@ tags: [glossary]
 
 **Contributor License Agreement (CLA)**: A legal agreement contributors sign granting the project maintainer rights to relicense their contributions.
 
-**SPDX Identifier**: A standardised short string identifying a license (e.g., `MIT``Apache-2.0``GPL-3.0-only`), used in package metadata.
+**SPDX Identifier**: A standardised short string identifying a license (e.g., `MIT`, `Apache-2.0`, `GPL-3.0-only`), used in package metadata.
 
 ## Further Resources
 

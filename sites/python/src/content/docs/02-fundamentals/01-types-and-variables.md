@@ -55,7 +55,7 @@ Type declarations is a genuine barrier. Dynamic typing enables:
 
 - Rapid prototyping without ceremony
 - Highly polymorphic code (duck typing)
-- Metaprogramming and runtime introspection via `getattr``setattr``dir`And `type`
+- Metaprogramming and runtime introspection via `getattr`, `setattr`, `dir` and `type`
 
 The trade-off is that errors a compiler would catch in statically-typed languages surface at
 Runtime. Python mitigates this with extensive testing culture and, since Python 3.5, optional static
@@ -69,14 +69,14 @@ Implicit coercion. The principle is that **surprising implicit behavior is more 
 Explicit errors**.
 
 :::note
-Subclass of `int`So `True + 1 == 2`. Numeric towers allow `int + float` because the `int` is
+Subclass of `int`. So `True + 1 == 2`. Numeric towers allow `int + float` because the `int` is
 Promoted to `float`. These are the result of deliberate subtype relationships, not general-purpose
 Coercion rules.
 
 ## Type Hierarchy
 
 Every object in Python is an instance of `object`. The built-in types form a hierarchy rooted at
-`object`With `int``str`And others as direct or indirect subclasses.
+`object`. With `int`, `str` and others as direct or indirect subclasses.
 
 ```mermaid
 classDiagram
@@ -184,7 +184,7 @@ classDiagram
 
 This hierarchy has immediate consequences. Because `bool` is a subclass of `int`
 `isinstance(True, int)` returns `True`. Because `type` is a subclass of `object`And `object` is an
-Instance of `type`The relationship is circular -- this is the metaclass mechanism.
+Instance of `type`. The relationship is circular -- this is the metaclass mechanism.
 
 ## Numeric Types
 
@@ -472,7 +472,7 @@ Handle edge cases (empty strings, prefix longer than string) correctly.
 
 ## Booleans
 
-`bool` is a subclass of `int`. There are exactly two instances: `True` and `False`Which are the
+`bool` is a subclass of `int`. There are exactly two instances: `True` and `False`. Which are the
 Integer values 1 and 0 respectively.
 
 ```python
@@ -483,7 +483,7 @@ print(sum([True, False, True])) # 2
 
 ### Truthiness
 
-In boolean contexts (`if``while``and``or``not``bool()`), Python applies a well-defined set Of rules
+In boolean contexts (`if`, `while`, `and`, `or`, `not`, `bool()`), Python applies a well-defined set Of rules
 to determine the truth value of any object:
 
 | Value                     | Truth Value | Reason                                           |
@@ -560,7 +560,7 @@ result = value or 0                  # compute_default() is NOT called
 ## `None` and `NoneType`
 
 `None` is the singleton instance of `NoneType`. It represents the absence of a value -- Python's
-Equivalent of `null``nil`Or `NoneType` in other languages.
+Equivalent of `null`, `nil` or `NoneType` in other languages.
 
 ```python
 print(type(None))    # <class 'NoneType'>
@@ -588,7 +588,7 @@ if x == None:
 ```
 
 Using `is None` rather than `== None` is important because a custom class can override `__eq__` to
-Return `True` when compared to `None`Which would be semantically incorrect. The `is` operator Cannot
+Return `True` when compared to `None`. Which would be semantically incorrect. The `is` operator Cannot
 be overridden.
 
 ### Default Argument Pitfall
@@ -642,7 +642,7 @@ optional: str | None = None
 
 ### The `typing` Module and Modern Alternatives
 
-Since Python 3.9, built-in collections (`list``dict``set``tuple`) can be used directly in type
+Since Python 3.9, built-in collections (`list`, `dict`, `set`, `tuple`) can be used directly in type
 Annotations, replacing the `typing` module equivalents:
 
 ```python
@@ -828,9 +828,9 @@ Type checkers are best-effort static analysis tools. They have inherent limitati
 
 1. **No runtime enforcement.** Type hints are annotations, not constraints. `mypy` catches errors at
    development time, but a misconfigured CI pipeline means errors can reach production.
-2. **`Any` is infectious.** Once a value has type `Any`It propagates through the entire call graph,
+2. **`Any` is infectious.** Once a value has type `Any`. It propagates through the entire call graph,
    effectively disabling type checking for anything that touches it.
-3. **Dynamically dispatched code is hard to type.** `getattr``__getattr__`And `**kwargs` defeat
+3. **Dynamically dispatched code is hard to type.** `getattr`, `__getattr__` and `**kwargs` defeat
    static analysis.
 4. **Generics are erased at runtime.** `list[str]` and `list[int]` are both `list` at runtime.
    `isinstance(x, list[str])` raises a `TypeError`.
@@ -885,7 +885,7 @@ print(tail)   # 5
 
 ### Augmented Assignment
 
-Augmented assignment operators (`+=``-=``*=`Etc.) are syntactic sugar, but they are not always
+Augmented assignment operators (`+=`, `-=`, `*=`. Etc.) are syntactic sugar, but they are not always
 Equivalent to the expanded form. The key difference is that `x += y` calls `__iadd__` if it exists,
 Which allows in-place modification:
 
@@ -899,7 +899,7 @@ a = a + [5]  # calls list.__add__, creates a new list
 print(a is b)  # False -- new object
 ```
 
-For immutable types (`int``str``tuple`), there is no `__iadd__`So `+=` is equivalent to `= +` -- it
+For immutable types (`int`, `str`, `tuple`), there is no `__iadd__`. So `+=` is equivalent to `= +` -- it
 always creates a new object.
 
 ### Scope: LEGB Rule
@@ -909,7 +909,7 @@ Python resolves names using the **LEGB rule**, searching namespaces in this orde
 1. **L**ocal -- the current function
 2. **E**nclosing -- enclosing functions (for nested functions)
 3. **G**lobal -- the module-level namespace
-4. **B**uilt-in -- the `builtins` module (`print``len``range`Etc.)
+4. **B**uilt-in -- the `builtins` module (`print`, `len`, `range`. Etc.)
 
 ```python
 x = "global"

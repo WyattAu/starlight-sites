@@ -846,7 +846,7 @@ def stoer_wagner(n, adj):
 
 ### 1. Confusing `tin` and `low` in Bridge Finding
 
-The condition for a bridge is `low[u] > tin[v]` (strictly greater). If you use `>=`You will
+The condition for a bridge is `low[u] > tin[v]` (strictly greater). If you use `>=`. You will
 Incorrectly classify back edges as bridges. The key distinction: `low[u] == tin[v]` means there is a
 Back edge from the subtree of `u` to `v` (or an ancestor of `v`), which means the edge `(v, u)` is
 NOT a bridge.

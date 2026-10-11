@@ -21,7 +21,7 @@ categories:
 
 ## Access Control and Friendship
 
-C++ provides fine-grained access control through `public``protected`And `private` specifiers, Plus
+C++ provides fine-grained access control through `public`, `protected` and `private` specifiers, Plus
 the `friend` mechanism for granting selective access to non-members. Access control is enforced
 Entirely at compile time with zero runtime cost.
 
@@ -131,7 +131,7 @@ non-public members. The key properties are:
    class. The nominated entity receives access; no reciprocal access is implied.
 2. **Not transitive.** If `A` declares `B` as a friend, and `B` declares `C` as a friend, `C` does
    **not** have access to `A`'s private members.
-3. **Not inherited.** If `A` declares `B` as a friend, and `C` inherits from `B``C` does **not**
+3. **Not inherited.** If `A` declares `B` as a friend, and `C` inherits from `B`, `C` does **not**
    have access to `A`'s private members.
 4. **Friendship is not a membership declaration.** A friend function is not a member of the class.
    It does not have a `this` pointer and is not found by name lookup within the class scope (unless
@@ -193,13 +193,13 @@ int main() {
 By [N4950 S14.3.2], a friend of a class `C` is a function or class that is granted access to the
 non-public members of `C`. The proof that friendship is not transitive follows from the definition:
 The access check in [N4950 S14.3] examines whether the entity attempting access is a friend of the
-Class being accessed. If `A` grants friendship to `B`And `B` grants friendship to `C`The access
+Class being accessed. If `A` grants friendship to `B`And `B` grants friendship to `C`. The access
 Check for `C` accessing `A`'s private members examines whether `C` is a friend of `A`. Since `C` is
 not declared as a friend of `A`Access is denied.
 
 Similarly, inheritance is irrelevant to friendship: [N4950 S14.3] specifies that "a member of a
 Derived class... Has no special access to members of a base class" except through the normal access
-Specifiers. Since `C` inherits from `B`And `B` is a friend of `A``C` is not a friend of `A` by The
+Specifiers. Since `C` inherits from `B`And `B` is a friend of `A`, `C` is not a friend of `A` by The
 same argument.
 
 ## 2.4 Friend Classes and Member Functions
@@ -499,7 +499,7 @@ Eliminating the need for runtime dispatch.
 
 Proof sketch: By [N4950 S11.7.4], a class marked `final` "shall not appear as a base class." If the
 Compiler sees a call `obj.f()` where `obj` has static type `FinalClass` and `FinalClass` is marked
-`final`Then the dynamic type of `obj` is necessarily `FinalClass` (no derived class can exist).
+`final`. Then the dynamic type of `obj` is necessarily `FinalClass` (no derived class can exist).
 Therefore, the virtual dispatch resolves statically to `FinalClass::f`And the compiler can emit a
 Direct call.
 
@@ -626,7 +626,7 @@ Access control is the lock system on a class's doors. Public is the lobby anyone
 ## Common Pitfalls
 
 - **Assuming friendship is transitive or inherited.** If `A` declares `B` as a friend, and `C`
-  inherits from `B``C` does **not** have access to `A`'s private members. Each class controls its
+  inherits from `B`, `C` does **not** have access to `A`'s private members. Each class controls its
   own friendship independently.
 - **Using `protected` data members.** While syntactically legal, `protected` data members break
   encapsulation because any derived class can modify them directly without the base class's
@@ -653,7 +653,7 @@ Access control is the lock system on a class's doors. Public is the lobby anyone
 ## 2.14 Access Control and In-Class Member Functions
 
 Access control applies uniformly to all member functions, including those defined inside the class
-Body. A member function defined inside the class body is implicitly `inline`But this does not Affect
+Body. A member function defined inside the class body is implicitly `inline`. But this does not Affect
 its access to private members of the same class:
 
 ```cpp

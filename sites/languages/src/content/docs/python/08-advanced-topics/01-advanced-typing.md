@@ -125,7 +125,7 @@ set_verbosity("verbose")  # type error: not in the literal set
 ```
 
 `Literal` accepts strings, bytes, integers, booleans, `None`And enum values. At the type-system
-Level, `Literal["foo"]` is a subtype of `str``Literal[42]` is a subtype of `int`And `Literal[True]`
+Level, `Literal["foo"]` is a subtype of `str`, `Literal[42]` is a subtype of `int`And `Literal[True]`
 is a subtype of `bool`. The type checker treats each literal value as a distinct Type.
 
 ```python
@@ -159,7 +159,7 @@ def handle_status(status: Literal["open", "closed", "pending"]) -> str:
 ```
 
 This is not just syntactic sugar over `str`. The type checker knows that after the `"open"` case,
-`status` is typed as `Literal["open"]`Not `str`. This enables downstream type-safe behavior.
+`status` is typed as `Literal["open"]`. Not `str`. This enables downstream type-safe behavior.
 
 ### `LiteralString` (Python 3.11+)
 
@@ -185,7 +185,7 @@ query("SELECT * FROM " + "users")         # OK -- literal + literal = LiteralStr
 
 ### Use Cases
 
-- **Status enums without `Enum`:** When you don't need the full machinery of `enum.Enum``Literal`
+- **Status enums without `Enum`:** When you don't need the full machinery of `enum.Enum`, `Literal`
   types provide the same safety with less boilerplate.
 - **API versioning:** `def api_call(version: Literal["v1", "v2"]) -> Response` ensures callers pass
   a known version string.
@@ -470,7 +470,7 @@ Followed by whatever parameters the original function accepted."
 
 - **Decorators:** Any decorator that wraps a function and returns a wrapper. `ParamSpec` ensures the
   type checker knows the wrapper accepts the same arguments as the original.
-- **Higher-order functions:** Functions that accept callbacks, like `map``filter``sorted(key=)` or
+- **Higher-order functions:** Functions that accept callbacks, like `map`, `filter`, `sorted(key=)` or
   retry decorators.
 - **Dependency injection frameworks:** When the framework needs to accept a user-defined function
   and inject additional parameters at call time.
@@ -478,7 +478,7 @@ Followed by whatever parameters the original function accepted."
 ## TypeGuard and TypeIs
 
 `TypeGuard` and `TypeIs` are special forms for user-defined type narrowing functions. They let you
-Tell the type checker "if this function returns `True`The argument is of type `T`."
+Tell the type checker "if this function returns `True`. The argument is of type `T`."
 
 ### `TypeGuard` (Python 3.10+)
 
@@ -574,7 +574,7 @@ b = FancyBuilder()
 result = b.set_name("test").set_style("fancy")  # type error!
 ```
 
-The type error occurs because `set_name` is annotated to return `Builder`Not `FancyBuilder`. The
+The type error occurs because `set_name` is annotated to return `Builder`. Not `FancyBuilder`. The
 Type checker sees `Builder.set_name(...) -> Builder`And `Builder` has no `set_style` method.
 
 ### Python 3.11+: `typing.Self`
@@ -797,7 +797,7 @@ def process(value: str | None) -> str:
     return value              # value is narrowed to str
 ```
 
-Note: use `is None` / `is not None`Not `== None`. Some type checkers do not narrow on `== None`
+Note: use `is None` / `is not None`. Not `== None`. Some type checkers do not narrow on `== None`
 Because `__eq__` can be overridden to return arbitrary results. `is None` checks identity and cannot
 be overridden.
 
@@ -835,7 +835,7 @@ def process(value: object) -> int:
 ```
 
 `assert` triggers narrowing just like `if`. Type checkers treat `assert isinstance(x, T)` as a
-Narrowing guard. Note that `assert` can be disabled at runtime with `python -O`So do not rely on It
+Narrowing guard. Note that `assert` can be disabled at runtime with `python -O`. So do not rely on It
 for correctness -- only for type narrowing and development-time checks.
 
 **Literal matching:**
@@ -934,7 +934,7 @@ class Shelter(Generic[T]):
         return self._animals[0]
 ```
 
-Inside `Shelter[T]``T` is known to be `Animal` or a subclass, so you can call `.speak()` on any `T`
+Inside `Shelter[T]`, `T` is known to be `Animal` or a subclass, so you can call `.speak()` on any `T`
 value.
 
 ### `__class_getitem__`
@@ -1037,7 +1037,7 @@ Annotations but no implementation.
 ### Discovery
 
 Type checkers look for `.pyi` files using the same module resolution mechanism as Python's import
-System. For a module `foo.bar`The type checker looks for:
+System. For a module `foo.bar`. The type checker looks for:
 
 1. `foo/bar.pyi` (stub file in the package directory)
 2. `foo/bar.py` (regular Python file, with inline annotations)
@@ -1121,7 +1121,7 @@ def len(obj: bytearray) -> int: ...
    get string representations instead of actual type objects. Always use `typing.get_type_hints()`
    to resolve annotations when `from __future__ import annotations` is active.
 
-8. **Type-checking only the happy path.** If your function returns `int | None`The type checker will
+8. **Type-checking only the happy path.** If your function returns `int | None`. The type checker will
    require you to handle the `None` case before using the value as an `int`. Do not work around this
    with `cast(int, result)` or `assert result is not None` without understanding the consequences.
    Let the type checker force you to handle edge cases -- that is its job.
@@ -1136,7 +1136,7 @@ def len(obj: bytearray) -> int: ...
     never be matched. Always order overloads from most specific to most general.
 
 11. **`TypeGuard` vs `TypeIs` confusion.** `TypeGuard` does not narrow in the `False` branch. If you
-    write a function that checks `isinstance(x, str)` and return `TypeGuard[str]`The type checker
+    write a function that checks `isinstance(x, str)` and return `TypeGuard[str]`. The type checker
     will narrow to `str` in the `True` branch but leave it as the original type in the `False`
     branch. Use `TypeIs` when you need narrowing in both branches and the narrowed type is a subtype
     of the input.

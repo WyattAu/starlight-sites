@@ -94,7 +94,7 @@ void processList(List<int> items) {
 ### The `catch (e)` Anti-Pattern
 
 Catching bare `catch (e)` without specifying a type will catch **both** `Exception` and `Error`.
-This is almost always wrong. It swallows `StackOverflowError``OutOfMemoryError`And other signals
+This is almost always wrong. It swallows `StackOverflowError`, `OutOfMemoryError` and other signals
 that the program is in an unrecoverable state. Always prefer `on Exception catch (e)` if you intend
 to handle runtime failures, and let `Error` propagate to the top-level handler.
 
@@ -236,7 +236,7 @@ class UserParseException implements Exception {
    request URLs).
 3. **Chain exceptions**. Include the original cause so the full chain of failure is inspectable.
 4. **Implement `toString()`**. The default `Exception.toString()` returns
-   `"Instance of 'MyException'"`Which is useless in logs. Always override it with a meaningful
+   `"Instance of 'MyException'"`. Which is useless in logs. Always override it with a meaningful
    message.
 
 ### Exception Hierarchies for Domains
@@ -397,7 +397,7 @@ Reporters.
 
 ### Chain.forTrace() (package:stack_trace)
 
-The `stack_trace` package (from the `async` meta-package) provides `Chain.forTrace()`Which parses A
+The `stack_trace` package (from the `async` meta-package) provides `Chain.forTrace()`. Which parses A
 raw `StackTrace` into a `Chain` of `Frame` objects. This enables programmatic inspection:
 
 ```dart
@@ -425,9 +425,9 @@ A Dart stack trace frame has the format:
 
 - `#0` is the throw site (innermost frame).
 - Higher numbers are callers further up the stack.
-- `dart:core``dart:async``dart:isolate` frames are VM-internal, skip these when debugging.
+- `dart:core`, `dart:async`, `dart:isolate` frames are VM-internal, skip these when debugging.
 - `package:your_app/` frames are your application code, start here.
-- `package:http/``package:flutter/` frames are third-party, the bug may be in how you called them,
+- `package:http/`, `package:flutter/` frames are third-party, the bug may be in how you called them,
   not in the library itself.
 
 ## Error Handling in Async
@@ -577,7 +577,7 @@ final safeStream = riskyStream.handleError(
 );
 ```
 
-Like `catchError` on `Future`The `test` parameter restricts which errors are handled.
+Like `catchError` on `Future`. The `test` parameter restricts which errors are handled.
 
 ### transformError()
 
@@ -736,7 +736,7 @@ result.match(
 );
 ```
 
-`fpdart` provides `Either``Option``TaskEither` (async Either), `IO` (synchronous side effects), And
+`fpdart` provides `Either`, `Option`, `TaskEither` (async Either), `IO` (synchronous side effects), And
 a full suite of functional programming primitives. `dartz` is the older, more established
 Alternative with similar capabilities.
 

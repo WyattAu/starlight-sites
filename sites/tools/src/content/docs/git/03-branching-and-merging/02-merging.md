@@ -186,7 +186,7 @@ The `ort` ("Ostensibly Recursive's Twin") strategy is a from-scratch rewrite of 
 Strategy. It produces identical merge results but with significant improvements:
 
 - **Performance**: $2\times$–$10\times$ faster on large repositories (Chromium, Android).
-- **Conflict markers**: Clearer conflict markers with section headers (`<<<<<<< HEAD``=======`
+- **Conflict markers**: Clearer conflict markers with section headers (`<<<<<<< HEAD`, `=======`
   `>>>>>>> branch`).
 - **Rename detection**: More accurate rename detection.
 - **Memory usage**: Lower peak memory consumption.

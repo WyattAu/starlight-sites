@@ -93,13 +93,13 @@ Client                                          Server
 ### HPACK Header Compression
 
 HTTP/1.1 sends headers as plain text, repeated on every request. For a typical page load with 30-100
-Requests, headers like `User-Agent``Accept``Cookie`And `Accept-Encoding` are sent dozens of Times,
+Requests, headers like `User-Agent`, `Accept`, `Cookie` and `Accept-Encoding` are sent dozens of Times,
 each time consuming hundreds of bytes.
 
 HPACK (RFC 7541) compresses headers using three techniques:
 
 1. **Static table:** 61 predefined common header field/value pairs (e.g., `:method: GET`
-   `:path: /``accept-encoding: gzip, deflate`)
+   `:path: /`, `accept-encoding: gzip, deflate`)
 2. **Dynamic table:** Header fields sent in previous messages are cached and referenced by index
    number
 3. **Huffman coding:** Literal header values are encoded using Huffman coding, which reduces common

@@ -21,7 +21,7 @@ categories:
 
 ## Futures, Promises, and Async Flows
 
-This section covers `std::future<T>``std::promise<T>``std::async` launch policies, the
+This section covers `std::future<T>`, `std::promise<T>`, `std::async` launch policies, the
 Future/promise pair as a basic async primitive, composability limitations, async file reading,
 Parallel computation with `std::async`Cancellation via `std::stop_token` integration, and Exception
 propagation through coroutines.
@@ -31,10 +31,10 @@ propagation through coroutines.
 `std::future<T>` [N4950 §33.6.4] is a synchronization primitive that provides access to a result
 that will be available in the future. The caller can:
 
-- **Block** on the result with `get()`Which waits until the result is ready and then moves or copies
+- **Block** on the result with `get()`. Which waits until the result is ready and then moves or copies
   it.
-- **Wait** with `wait()`Which blocks until the result is ready.
-- **Poll** with `wait_for(duration)` or `wait_until(time_point)`Which return the readiness status
+- **Wait** with `wait()`. Which blocks until the result is ready.
+- **Poll** with `wait_for(duration)` or `wait_until(time_point)`. Which return the readiness status
   without blocking indefinitely.
 
 `std::future` is **move-only**, it cannot be copied. After `get()` is called, the future is
@@ -371,7 +371,7 @@ int main() {
 If `unhandled_exception()` does not store the exception and instead rethrows it, the behavior
 Depends on context [N4950 §8.5.3]:
 
-- If the coroutine has not yet reached `final_suspend`The exception propagates out of `resume()`.
+- If the coroutine has not yet reached `final_suspend`. The exception propagates out of `resume()`.
 - If the coroutine has no caller waiting (e.g., it was detached), `std::terminate()` is called.
 
 :::caution

@@ -201,7 +201,7 @@ pedia\r\n
 \r\n
 ```
 
-Each chunk starts with its size in hexadecimal, followed by `\r\n`The data, and `\r\n`. A Zero-size
+Each chunk starts with its size in hexadecimal, followed by `\r\n`. The data, and `\r\n`. A Zero-size
 chunk terminates the transfer.
 
 ### HTTP/1.1 Limitations
@@ -273,8 +273,8 @@ sequenceDiagram
 HTTP/1.1 sends headers as uncompressed ASCII text, repeating the same headers on every request.
 HPACK (RFC 7541) compresses headers using:
 
-1. **Static table:** 61 pre-defined common header fields (e.g., `:method: GET``:path: /`
-   `user-agent``accept-encoding`).
+1. **Static table:** 61 pre-defined common header fields (e.g., `:method: GET`, `:path: /`
+   `user-agent`, `accept-encoding`).
 2. **Dynamic table:** Previously sent headers are stored in a FIFO buffer and referenced by index.
 3. **Huffman coding:** String values are encoded using Huffman coding for additional compression.
 

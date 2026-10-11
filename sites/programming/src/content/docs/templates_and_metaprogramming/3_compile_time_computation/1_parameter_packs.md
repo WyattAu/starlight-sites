@@ -217,7 +217,7 @@ int main() {
 ## `sizeof...` Operator
 
 `sizeof...(pack)` returns the number of elements in a parameter pack as a `std::size_t` [N4950
-§8.3.3]. It is a constant expression usable in `if constexpr``static_assert`And template
+§8.3.3]. It is a constant expression usable in `if constexpr`, `static_assert` and template
 Metaprogramming. It works on both type packs and non-type packs.
 
 ```cpp
@@ -454,7 +454,7 @@ int main() {
 
 **Parameter packs are like a bag of types:** Instead of writing separate template parameters for each type (`T1, T2, T3`), you pack them all into one bag (`Types...`). It's like the difference between carrying three separate grocery bags and one big bag with everything inside. The `...` syntax expands the pack, `Types...` becomes `T1, T2, T3`. You can access individual elements with `std::tuple_element`iterate with fold expressions, or use `sizeof...(Types)` to count them.
 
-**Why it matters:** Parameter packs enable variadic templates, functions and classes that accept any number of arguments. This is the foundation of `std::make_unique``std::tuple``std::variant`and many other modern C++ features. Without parameter packs, you'd need to write separate overloads for each number of arguments (like the old `printf` approach).
+**Why it matters:** Parameter packs enable variadic templates, functions and classes that accept any number of arguments. This is the foundation of `std::make_unique`, `std::tuple`, `std::variant`and many other modern C++ features. Without parameter packs, you'd need to write separate overloads for each number of arguments (like the old `printf` approach).
 
 **The key insight:** Parameter packs expand at compile time, the compiler generates separate code for each element in the pack, which is why variadic templates are zero-cost abstractions.
 

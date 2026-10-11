@@ -460,8 +460,8 @@ Give concrete examples of code patterns that exhibit each type of locality.
 Repeatedly. After the first access loads it into cache, subsequent accesses hit the cache.
 Similarly, the instruction bytes of the loop body are fetched from cache after the first iteration.
 
-**Spatial locality:** When accessing `array[i]`The cache loads a block (cache line) containing
-`array[i]` and several adjacent elements. Subsequent accesses to `array[i+1]``array[i+2]`Etc., Are
+**Spatial locality:** When accessing `array[i]`. The cache loads a block (cache line) containing
+`array[i]` and several adjacent elements. Subsequent accesses to `array[i+1]`, `array[i+2]`. Etc., Are
 cache hits because they are in the same cache line.
 
 </details>

@@ -472,10 +472,10 @@ int main() {
 Not all ranges algorithms accept projections. The following algorithms operate on elements directly
 and do not have a projection parameter:
 
-- `std::ranges::copy``std::ranges::move``std::ranges::swap_ranges`
-- `std::ranges::fill``std::ranges::generate``std::ranges::iota`
-- `std::ranges::reverse``std::ranges::rotate`
-- `std::ranges::partition``std::ranges::stable_partition`
+- `std::ranges::copy`, `std::ranges::move`, `std::ranges::swap_ranges`
+- `std::ranges::fill`, `std::ranges::generate`, `std::ranges::iota`
+- `std::ranges::reverse`, `std::ranges::rotate`
+- `std::ranges::partition`, `std::ranges::stable_partition`
 
 For these algorithms, use `std::views::transform` as a preprocessing step instead.
 

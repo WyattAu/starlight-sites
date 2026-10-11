@@ -130,7 +130,7 @@ let bob = Person {
 // bob.name == "Bob", bob.age == 30, bob.email == Some("alice@example.com")
 ```
 
-Struct update syntax moves the remaining fields. After `..alice`The `alice` binding can no longer Be
+Struct update syntax moves the remaining fields. After `..alice`. The `alice` binding can no longer Be
 used in its entirety (it is partially moved), but individual `Copy` fields remain accessible.
 
 ### Struct Layout and `#[repr]`
@@ -423,7 +423,7 @@ fn color_to_rgb(c: Color) -> (u8, u8, u8) {
 }
 ```
 
-The compiler verifies that every variant is handled. If you add a new variant to `Color`Every
+The compiler verifies that every variant is handled. If you add a new variant to `Color`. Every
 `match` on `Color` will produce a compile error until updated. This is exhaustive pattern matching.
 
 ### Match Ergonomics (Rust 2021+)
@@ -483,7 +483,7 @@ match v {
 assert_eq!(v, vec![1, 2, 3, 4]);
 ```
 
-#### `@`At Bindings
+#### `@`. At Bindings
 
 The `@` operator binds a value to a name while also testing it against a pattern:
 

@@ -26,7 +26,7 @@ Tests (syntax); rather, it defines how to _execute_ them.
 CTest operates on a simple protocol:
 
 1. It invokes an executable.
-2. If the executable returns Exit Code `0`The test **PASSED**.
+2. If the executable returns Exit Code `0`. The test **PASSED**.
 3. If the executable returns non-zero, segfaults, or times out, the test **FAILED**.
 
 While one could manually write a C++ program with `assert()`Professional development requires
@@ -84,7 +84,7 @@ gtest_discover_tests(UnitTests)
 
 ### Discovery Mechanics (`gtest_discover_tests`)
 
-Legacy CMake used `add_test()`Which treated the entire `UnitTests` executable as a single test. This
+Legacy CMake used `add_test()`. Which treated the entire `UnitTests` executable as a single test. This
 is undesirable because a crash in test #1 prevents running test #100.
 
 `gtest_discover_tests`:
@@ -329,7 +329,7 @@ INSTANTIATE_TEST_SUITE_P(
 );
 ```
 
-With `gtest_discover_tests`Each instantiation appears as a separate test in CTest:
+With `gtest_discover_tests`. Each instantiation appears as a separate test in CTest:
 `PrimeNumbers/PrimeTest.ReturnsCorrectResult/0, PrimeNumbers/PrimeTest.ReturnsCorrectResult/1` Etc.
 
 ## CMake Test Properties

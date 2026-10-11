@@ -401,7 +401,7 @@ assert_eq!(std::mem::size_of::<Benchmark>(), 0);
 ### PhantomData
 
 `PhantomData<T>` is a zero-sized type that makes the compiler behave as if the struct contains a
-`T`Even though it does not. This is useful for variance and drop check annotations:
+`T`. Even though it does not. This is useful for variance and drop check annotations:
 
 ```rust
 use std::marker::PhantomData;
@@ -459,7 +459,7 @@ let p2 = Point { y: 5.0, ..p1 };
 // p2.x == 1.0, p2.y == 5.0, p2.z == 3.0
 ```
 
-Struct update syntax moves the remaining fields. After `..p1``p1` is partially moved:
+Struct update syntax moves the remaining fields. After `..p1`, `p1` is partially moved:
 
 ```rust
 let p1 = Point { x: 1.0, y: 2.0, z: 3.0 };

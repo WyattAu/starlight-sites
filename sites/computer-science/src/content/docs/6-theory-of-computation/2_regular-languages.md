@@ -108,7 +108,7 @@ States: $q_0$ (start), $q_1$ (have seen a `0`), $q_2$ (accept, have seen `01`).
 | $q_1$ | $\emptyset$        | $\{q_2\}$          |
 | $q_2$ | $\{q_1\}$          | $\emptyset$        |
 
-Accept: $\{q_2\}$. The NFA is nondeterministic because from $q_0$ on input `0`It can either stay In
+Accept: $\{q_2\}$. The NFA is nondeterministic because from $q_0$ on input `0`. It can either stay In
 $q_0$ or move to $q_1$.
 
 </details>
@@ -165,7 +165,7 @@ The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$ And $\{q_1, q_2\}$ are unre
 **Examples:**
 
 - $(0 \cup 1)^* 00 (0 \cup 1)^*$: strings containing `00`.
-- $1^* 01^* 01^*$: strings with exactly two `0`S.
+- $1^* 01^* 01^*$: strings with exactly two `0`s.
 - $(0 \cup 1)^*$: all strings over $\{0, 1\}$.
 - $\emptyset$: the empty language.
 
@@ -334,7 +334,7 @@ Decomposition $w = xyz$ satisfying (1) and (2) has some $i$ with $xy^iz \notin L
 **Example.** $L = \{0^n 1^n : n \geq 0\}$ is not regular.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
+$|xy| \leq p$ So $y$ consists only of `0`s. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
 (since $p - k \neq p$). Contradiction. $\blacksquare$
 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.

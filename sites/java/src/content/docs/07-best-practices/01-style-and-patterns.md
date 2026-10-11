@@ -25,7 +25,7 @@ Preferences; they carry semantic weight that the compiler, runtime, and human re
 
 Package names are all lowercase, with components separated by dots. No underscores, no mixed case.
 The reverse domain name convention (`com.example.project`) remains the standard, though many
-Open-source projects use shorter forms (`org.apache.commons``io.netty`).
+Open-source projects use shorter forms (`org.apache.commons`, `io.netty`).
 
 ```java
 package com.example.project.domain;       // domain layer
@@ -54,7 +54,7 @@ public class RuntimeException extends Exception { }
 
 Abstract classes sometimes carry the `Abstract` prefix, and exception classes carry the `Exception`
 Suffix. Utility classes (classes with only static methods) should be named for what they _provide_,
-Not that they are utilities: `Collections`Not `CollectionUtils`.
+Not that they are utilities: `Collections`. Not `CollectionUtils`.
 
 ### Methods
 
@@ -68,7 +68,7 @@ public boolean isAuthenticated() { }
 public static <T> List<T> unmodifiableList(List<? extends T> list) { }
 ```
 
-Boolean-returning methods conventionally begin with `is``has``can``should`Or `will`. Accessors for
+Boolean-returning methods conventionally begin with `is`, `has`, `can`, `should` or `will`. Accessors for
 non-boolean fields use the `get` prefix; mutators use `set`. These conventions are Required for
 JavaBeans property introspection and are relied upon by frameworks like Spring, Jackson, and JPA.
 
@@ -174,7 +174,7 @@ com.example.project/
 Feature-first packaging has a significant advantage for projects of any non-trivial size: it
 Localizes changes. When a requirement changes for the "user" domain, all the files you need to
 Modify are in a single package. In layer-first packaging, a change to `User` might require edits
-across `controller/``service/``repository/`And `model/` -- four separate directories that are Far
+across `controller/`, `service/`, `repository/` and `model/` -- four separate directories that are Far
 apart in the tree.
 
 :::tip
@@ -215,7 +215,7 @@ Compile code, run tests, and package artifacts, but they differ fundamentally in
 #### Maven: Convention Over Configuration
 
 Maven uses a declarative XML-based build lifecycle. A Maven project has a rigidly defined directory
-Structure and a fixed set of lifecycle phases (`compile``test``package``install``deploy`). The
+Structure and a fixed set of lifecycle phases (`compile`, `test`, `package`, `install`, `deploy`). The
 `pom.xml` declares what the project is and what on; the _how_ is handled by plugins Bound to
 lifecycle phases.
 
@@ -327,7 +327,7 @@ configurations.all {
 }
 ```
 
-Use dependency analysis tools (`mvn dependency:tree``gradle dependencies`) regularly to audit your
+Use dependency analysis tools (`mvn dependency:tree`, `gradle dependencies`) regularly to audit your
 Dependency graph. Undesired transitive dependencies are a source of security vulnerabilities and
 Classpath conflicts.
 
@@ -374,7 +374,7 @@ class UserServiceTest {
 }
 ```
 
-The lifecycle annotations `@BeforeEach``@AfterEach``@BeforeAll`And `@AfterAll` control setup And
+The lifecycle annotations `@BeforeEach`, `@AfterEach`, `@BeforeAll` and `@AfterAll` control setup And
 teardown. `@BeforeAll` methods must be `static` unless the test class is annotated with
 `@TestInstance(Lifecycle.PER_CLASS)`.
 
@@ -396,7 +396,7 @@ assertAll(                                  // grouped assertions
 ```
 
 Grouped assertions with `assertAll` are critical: without them, the first failed assertion aborts
-the test and you only learn about one problem per run. With `assertAll`All assertions execute and
+the test and you only learn about one problem per run. With `assertAll`. All assertions execute and
 you see every failure in a single pass.
 
 ### Parameterized Tests
@@ -435,7 +435,7 @@ class EmailValidatorTest {
 }
 ```
 
-`@MethodSource` accepts a factory method that returns a `Stream``Collection``Iterator`Or array Of
+`@MethodSource` accepts a factory method that returns a `Stream`, `Collection`, `Iterator` or array Of
 arguments. This is the most flexible parameterization strategy because the data source can be any
 Method, including one that reads from a file or generates values programmatically.
 
@@ -545,7 +545,7 @@ public class PaymentService {
 
 The `{}` parameterized formatting is the critical difference. SLF4J defers string concatenation to
 the logging framework, which first checks whether the log level is enabled. If `INFO` is disabled,
-The string concatenation never occurs. With JUL or `System.out.println`The concatenation happens
+The string concatenation never occurs. With JUL or `System.out.println`. The concatenation happens
 Unconditionally, wasting CPU cycles and allocating objects that are immediately discarded.
 
 ```xml
@@ -971,8 +971,8 @@ public record User(Long id, String email, String name, Instant createdAt) {
 }
 ```
 
-A record automatically generates: a canonical constructor, accessor methods (`email()`Not
-`getEmail()`), `equals``hashCode`And `toString`. The compact constructor syntax
+A record automatically generates: a canonical constructor, accessor methods (`email()`. Not
+`getEmail()`), `equals`, `hashCode` and `toString`. The compact constructor syntax
 (`public User { ... }`) allows validation without declaring fields or assigning parameters.
 
 Records cannot extend other classes (they implicitly extend `java.lang.Record`), and their fields
@@ -995,7 +995,7 @@ public record Triangle(double base, double height) implements Shape { }
 
 The `permits` clause lists exactly which classes can implement the sealed interface. These permitted
 Subclasses must be in the same module (if the sealed class is in a named module) or the same package
-(if in the unnamed module). Each permitted subclass must be declared `final``sealed`Or `non-sealed`.
+(if in the unnamed module). Each permitted subclass must be declared `final`, `sealed` or `non-sealed`.
 
 ### Pattern Matching for `instanceof`
 
@@ -1208,9 +1208,9 @@ public class InstrumentedSet<E> extends ForwardingSet<E> {
 }
 ```
 
-In the inheritance version, `addAll` calls `super.addAll()`Which in `HashSet` internally iterates
+In the inheritance version, `addAll` calls `super.addAll()`. Which in `HashSet` internally iterates
 and calls `add()` -- our overridden `add()`. So each element is counted twice. The composition
-Version delegates to the wrapped set, which calls its own `add()`Not the forwarding set's `add()`.
+Version delegates to the wrapped set, which calls its own `add()`. Not the forwarding set's `add()`.
 The count is correct.
 
 ### Minimize Accessibility

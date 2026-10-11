@@ -536,8 +536,8 @@ A function accepts dates in the format `DD/MM/YYYY` where the year must be betwe
 
 ### Worked Example: Test Cases for a Stack with Fixed Size
 
-A stack has a maximum capacity of 5 elements. Operations: `push(item)``pop()``peek()`
-`is_empty()``is_full()`.
+A stack has a maximum capacity of 5 elements. Operations: `push(item)`, `pop()`, `peek()`
+`is_empty()`, `is_full()`.
 
 | Test case            | Input                          | Expected output             |
 | -------------------- | ------------------------------ | --------------------------- |

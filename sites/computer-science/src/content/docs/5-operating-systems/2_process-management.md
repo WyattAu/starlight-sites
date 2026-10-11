@@ -349,8 +349,8 @@ shmdt(shm_ptr);
 **Pipes.** Unidirectional data channel. `pipe()` creates a pipe; `fork()` inherits file descriptors.
 Named pipes (`mkfifo`) allow unrelated processes to communicate.
 
-**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM``SIGKILL`
-`SIGSEGV``SIGCHLD`.
+**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM`, `SIGKILL`
+`SIGSEGV`, `SIGCHLD`.
 
 ## See Also
 

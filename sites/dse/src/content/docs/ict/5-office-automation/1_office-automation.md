@@ -40,7 +40,7 @@ SQL are covered in depth in
 ## Spreadsheet Concepts
 
 A spreadsheet organises data into a grid of cells, identified by column letters and row numbers
-(e.g., `A1``B5``D12`). Each cell can contain a constant value (number, text, date) or a formula That
+(e.g., `A1`, `B5`, `D12`). Each cell can contain a constant value (number, text, date) or a formula That
 calculates a result.
 
 ### Cell References
@@ -54,7 +54,7 @@ calculates a result.
 <details>
 <summary>Worked Example: Relative, Absolute, and Mixed References</summary>
 
-In cell `C2`Enter `=A2*B2`. Copy this formula to `C3``C4``C5`.
+In cell `C2`Enter `=A2*B2`. Copy this formula to `C3`, `C4`, `C5`.
 
 Because the references are relative, they adjust:
 
@@ -67,7 +67,7 @@ Because the references are relative, they adjust:
 This is correct for calculating row-by-row products.
 
 Now suppose `B1` contains a tax rate of 0.15, and you want to calculate tax for each row. In `D2`
-Enter `=C2*$B$1`. Copy to `D3``D4``D5`.
+Enter `=C2*$B$1`. Copy to `D3`, `D4`, `D5`.
 
 Because `$B$1` is absolute:
 
@@ -696,7 +696,7 @@ Enabling macros in downloaded documents.
    cell (like a tax rate) gives wrong results after copying, check for missing `$` signs.
 
 2. **VLOOKUP column index:** The column index in `VLOOKUP` is relative to the table array, NOT the
-   worksheet column. If your table starts in column `E` and you want the value in column `G`The
+   worksheet column. If your table starts in column `E` and you want the value in column `G`. The
    index is 3 (not 7).
 
 3. **VLOOKUP left-to-right only:** VLOOKUP can only search the leftmost column of a table. If you
@@ -774,7 +774,7 @@ Answer:
 (c) `=IF(F2>=80, "A", IF(F2>=60, "B", "C"))`
 
 (d) Because the references in `=SUM(B2:D2)` are relative, copying to E3 changes them to
-`=SUM(B3:D3)`Which calculates the total for Bob: 72 + 65 + 88 = 225.
+`=SUM(B3:D3)`. Which calculates the total for Bob: 72 + 65 + 88 = 225.
 
 </details>
 
@@ -868,7 +868,7 @@ Answer.
 Answer:
 
 (a) Steps: (1) Create a salary slip template in Word with merge fields for `<<Name>>`
-`<<Department>>``<<Salary>>``<<Deductions>>`And `<<Net Pay>>`. (2) Set the Excel spreadsheet As the
+`<<Department>>`, `<<Salary>>`, `<<Deductions>>` and `<<Net Pay>>`. (2) Set the Excel spreadsheet As the
 data source. (3) Insert merge fields at the appropriate positions in the template. (4) Preview the
 merged results. (5) Merge to produce individual salary slips or a single document with Page breaks
 between slips.

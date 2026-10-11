@@ -66,7 +66,7 @@ END FUNCTION
 Time complexity: $O(n)$. For 1024 elements, worst case is 1024 comparisons. Binary search is
 exponentially faster for sorted data.
 
-(d) Binary search relies on the property that if `array[mid] < target`The target must be in the
+(d) Binary search relies on the property that if `array[mid] < target`. The target must be in the
 right half (since the array is sorted). In an unsorted array, the target could be anywhere
 regardless of the mid-value comparison, so the divide-and-conquer strategy does not work.
 

@@ -76,7 +76,7 @@ src/tests/
 src/utils/
 ```
 
-After `git sparse-checkout init --cone`The working tree is emptied except for the directories you
+After `git sparse-checkout init --cone`. The working tree is emptied except for the directories you
 Explicitly include. The `.git` directory retains all objects and refs, only the working tree is
 Filtered.
 
@@ -203,7 +203,7 @@ Receiving objects: 100% (3000/3000), done.  # Much smaller!
 ```
 
 The initial download includes all commit objects and tree objects (directory structures) but no file
-Content. When you run `git log``git diff``git status`Or `git show`Git transparently fetches The
+Content. When you run `git log`, `git diff`, `git status` or `git show`Git transparently fetches The
 blobs it needs:
 
 ```bash

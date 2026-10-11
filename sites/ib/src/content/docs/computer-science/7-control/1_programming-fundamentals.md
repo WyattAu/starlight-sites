@@ -169,7 +169,7 @@ Relational operators always produce a BOOLEAN result. They can be applied to num
 NOT a AND b OR c
 ```
 
-This is evaluated as `((NOT a) AND b) OR c`Not `NOT (a AND (b OR c))`. Use parentheses to make
+This is evaluated as `((NOT a) AND b) OR c`. Not `NOT (a AND (b OR c))`. Use parentheses to make
 Intent explicit.
 
 ### Assignment Operator
@@ -566,7 +566,7 @@ OUTPUT num  // Outputs 11 (changed)
 ```
 
 The `REF` keyword in IB pseudocode indicates pass by reference. The parameter `x` is an alias for
-`num`So changing `x` changes `num`.
+`num`. So changing `x` changes `num`.
 
 ### Comparison
 
@@ -620,7 +620,7 @@ OUTPUT x, y
 | `b`      | --          | 10               | --         |
 | `temp`   | --          | 10               | --         |
 
-Inside `swapByValue`: outputs 20, 10. After call: `x = 10``y = 20` (unchanged).
+Inside `swapByValue`: outputs 20, 10. After call: `x = 10`, `y = 20` (unchanged).
 
 **`swapByRef(x, y)` call:**
 
@@ -631,7 +631,7 @@ Inside `swapByValue`: outputs 20, 10. After call: `x = 10``y = 20` (unchanged).
 | `a`      | --          | 20 (alias for x) | --         |
 | `b`      | --          | 10 (alias for y) | --         |
 
-Inside `swapByRef`: outputs 20, 10. After call: `x = 20``y = 10` (swapped!).
+Inside `swapByRef`: outputs 20, 10. After call: `x = 20`, `y = 10` (swapped!).
 
 **Complete output sequence:** 20, 10, 10, 20, 20, 10, 20, 10
 
@@ -684,7 +684,7 @@ END FUNCTION
 ```
 
 This naive recursive Fibonacci has exponential time complexity $O(2^n)$ because each call spawns two
-Sub-calls. The call tree for `fibonacci(5)` has 15 calls total. For `fibonacci(40)`There are over
+Sub-calls. The call tree for `fibonacci(5)` has 15 calls total. For `fibonacci(40)`. There are over
 300 million calls. This demonstrates why recursion must be used carefully -- memoization or an
 Iterative approach is required for practical Fibonacci computation.
 
@@ -740,7 +740,7 @@ Result: **10**
 This function computes the sum $1 + 2 + 3 + 4 = 10$. It is equivalent to the formula
 $n(n+1)/2 = 4 \times 5 / 2 = 10$.
 
-The recursive case reduces the problem: `mystery(4)` needs `mystery(3)`Which needs `mystery(2)`
+The recursive case reduces the problem: `mystery(4)` needs `mystery(3)`. Which needs `mystery(2)`
 Which needs `mystery(1)`. The base case stops the recursion. Each return value propagates back up
 the call stack.
 
@@ -749,7 +749,7 @@ the call stack.
 ### Common Pitfalls: Recursion
 
 - **No base case or unreachable base case:** Without a valid base case, recursion is infinite. For
-  `factorial(n)` with `n = -1`The base case `n \lt{}= 1` is never reached because the recursive call
+  `factorial(n)` with `n = -1`. The base case `n \lt{}= 1` is never reached because the recursive call
   uses `n - 1`Making the argument more negative each time.
 - **Stack overflow:** Each recursive call adds a frame to the call stack. For deep recursion (e.g.,
   naive `fibonacci(1000)`), the stack exceeds available memory. Prefer iteration for problems
@@ -893,7 +893,7 @@ The IB defines a specific pseudocode standard. Key elements:
 
 **Variable assignment:** `variable ← expression`
 
-**Input/output:** `INPUT variable``OUTPUT expression`
+**Input/output:** `INPUT variable`, `OUTPUT expression`
 
 **Selection:** `IF ... THEN ... ELSE IF ... ELSE ... END IF`
 
@@ -909,7 +909,7 @@ The IB defines a specific pseudocode standard. Key elements:
 
 **Functions:** `FUNCTION name(params) RETURNS type ... END FUNCTION`
 
-**Arrays:** Zero-indexed, `arr[i]``matrix[i, j]`
+**Arrays:** Zero-indexed, `arr[i]`, `matrix[i, j]`
 
 **Comments:** Use `//` for single-line comments.
 
@@ -1229,7 +1229,7 @@ END LOOP
 **Recursion:**
 
 - Missing base case, causing infinite recursion and stack overflow.
-- Base case that is never reached, e.g., `factorial(-1)` calls `factorial(-2)`Which calls
+- Base case that is never reached, e.g., `factorial(-1)` calls `factorial(-2)`. Which calls
   `factorial(-3)`And so on indefinitely.
 - Excessive recursion depth for problems that could be solved iteratively, leading to performance
   degradation.
@@ -1301,7 +1301,7 @@ Addition/subtraction):
 
 </details>
 
-**Q3.** Given `a ← TRUE``b ← FALSE``c ← TRUE`Evaluate each expression: (a) `NOT a AND b` (b)
+**Q3.** Given `a ← TRUE`, `b ← FALSE`, `c ← TRUE`Evaluate each expression: (a) `NOT a AND b` (b)
 `a OR b AND c` (c) `NOT (a OR b) XOR c` (d) `(a AND b) OR (NOT b AND c)`
 
 <details>
@@ -1601,7 +1601,7 @@ END FUNCTION
 
 </details>
 
-**Q12.** Trace the following pseudocode and state the final values of `a``b`And `c`:
+**Q12.** Trace the following pseudocode and state the final values of `a`, `b` and `c`:
 
 ```python
 PROCEDURE modify(REF x, y, REF z)
@@ -1631,7 +1631,7 @@ OUTPUT a, b, c
 
 Final values: **a = 8, b = 3, c = 18**
 
-`x` (REF to `a`) and `z` (REF to `c`) are aliases, so changes persist. `y` is a copy of `b`So
+`x` (REF to `a`) and `z` (REF to `c`) are aliases, so changes persist. `y` is a copy of `b`. So
 Changes to `y` do not affect `b`.
 
 **Revision:** Parameter Passing, By Value, By Reference

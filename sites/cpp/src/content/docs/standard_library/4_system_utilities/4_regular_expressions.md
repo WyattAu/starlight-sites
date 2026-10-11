@@ -27,7 +27,7 @@ Regular expressions are a mini-language for pattern matching in text. `std::rege
 
 `std::regex` (C++11) provides regular expression matching, searching, and replacement using the
 ECMAScript regex grammar by default. This section covers the three main operations (`regex_match`
-`regex_search``regex_replace`), capture groups with `std::smatch`Practical patterns like email
+`regex_search`, `regex_replace`), capture groups with `std::smatch`Practical patterns like email
 Validation, and performance considerations including catastrophic backtracking.
 
 ### Overview
@@ -80,7 +80,7 @@ void regex_match_search_demo() {
 Capture groups [N4950 §30.9.2]:
 
 - `smatch[0]`: The entire match.
-- `smatch[1]``smatch[2]`...: Capture groups in order of their opening parentheses.
+- `smatch[1]`, `smatch[2]`...: Capture groups in order of their opening parentheses.
 - `smatch.prefix()`: The text before the match.
 - `smatch.suffix()`: The text after the match.
 
@@ -507,7 +507,7 @@ but still lack guaranteed linear-time matching.
 ### 2. Forgetting to Anchor Patterns with `regex_match`
 
 `std::regex_match` requires the **entire** string to match. If you forget to anchor your pattern
-with `^` and `$`You may get unexpected results with `regex_search`:
+with `^` and `$`. You may get unexpected results with `regex_search`:
 
 ```cpp
 #include <iostream>
@@ -528,7 +528,7 @@ int main() {
 
 ### 3. Escaping Special Characters in Replacement Strings
 
-In replacement strings passed to `std::regex_replace`The `$` character has special meaning. To
+In replacement strings passed to `std::regex_replace`. The `$` character has special meaning. To
 insert a literal `$`, use `$, $`. The matched text is `$&`, capture groups are `$1` through `$9`:
 
 ```cpp

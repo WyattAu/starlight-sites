@@ -21,8 +21,8 @@ categories:
 
 ## Atomic Operations and Lock-Free Programming
 
-This section covers `std::atomic<T>``std::atomic_ref<T>`The full set of atomic operations,
-`std::atomic_flag`The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a
+This section covers `std::atomic<T>`, `std::atomic_ref<T>`. The full set of atomic operations,
+`std::atomic_flag`. The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a
 Lock-free stack implementation, and a spinlock using `std::atomic_flag`.
 
 ## `std::atomic<T>`
@@ -33,7 +33,7 @@ Threads.
 
 The standard specifies which types `T` may be [N4950 §31.7.1]:
 
-- **Scalar types**: `bool``char``int``float``pointer types`Etc.
+- **Scalar types**: `bool`, `char`, `int`, `float`, `pointer types`. Etc.
 - **copyable types**: Any copyable type (C++17 and later), though not all operations may be
   available.
 
@@ -86,7 +86,7 @@ int main() {
 ```
 
 :::caution
-`alignof(std::atomic<T>)`. For many types this is the same as `alignof(T)`But for types smaller Than
+`alignof(std::atomic<T>)`. For many types this is the same as `alignof(T)`. But for types smaller Than
 the platform's native word size, `alignof(std::atomic<T>)` may be larger.
 :::
 
@@ -352,7 +352,7 @@ void memory_order_overview() {
 
 :::caution
 ordering correctly is Extremely complex and was found to have specification issues. Do not use
-`memory_order_consume`Use `memory_order_acquire` instead.
+`memory_order_consume`. Use `memory_order_acquire` instead.
 :::
 
 ## `compare_exchange` in Detail
@@ -425,7 +425,7 @@ if (ptr.compare_exchange_weak(
 
 ## `std::atomic_wait` and `std::atomic_notify` (C++20)
 
-C++20 introduced `wait()``notify_one()`And `notify_all()` on `std::atomic` objects [N4950 §31.7.2].
+C++20 introduced `wait()`, `notify_one()` and `notify_all()` on `std::atomic` objects [N4950 §31.7.2].
 These provide an efficient waiting mechanism that does not spin, the OS puts the thread To sleep
 until notification arrives:
 
@@ -489,7 +489,7 @@ void pointer_atomic_demo() {
 
 ## `std::atomic&lt;bool&gt;` as a Flag
 
-`std::atomic&lt;bool&gt;` is the general-purpose atomic boolean. Unlike `std::atomic_flag`It may Use
+`std::atomic&lt;bool&gt;` is the general-purpose atomic boolean. Unlike `std::atomic_flag`. It may Use
 a lock internally if the platform cannot implement it lock-free:
 
 ```cpp

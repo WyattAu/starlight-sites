@@ -243,7 +243,7 @@ int main() \{
 \}
 ```
 
-These are `constexpr`Enabling compile-time capacity planning for containers that require
+These are `constexpr`. Enabling compile-time capacity planning for containers that require
 Power-of-two bucket counts.
 
 ### `std::countl_one` and `std::countr_one`
@@ -287,7 +287,7 @@ if constexpr (std::endian::native == std::endian::little) \{
 
 ### Manipulation (`std::byteswap`)
 
-C++23 introduces `std::byteswap`Enabling zero-overhead byte reversal [N4950 §23.16.8].
+C++23 introduces `std::byteswap`. Enabling zero-overhead byte reversal [N4950 §23.16.8].
 
 **Use Case:** Parsing a Network Packet (Network Byte Order is **Big Endian**).
 
@@ -319,7 +319,7 @@ void process_packet(PacketHeader h) \{
 
 When using `std::bit_cast` to interpret multi-byte values read from a byte stream, the result
 Depends on the host endianness. If you read 4 bytes `[0x01, 0x02, 0x03, 0x04]` into a `uint32_t` via
-`bit_cast`The result differs between little-endian and big-endian hosts:
+`bit_cast`. The result differs between little-endian and big-endian hosts:
 
 ```cpp
 #include <bit>

@@ -45,9 +45,9 @@ Registers are exhausted, remaining arguments are pushed onto the stack.
 Each argument type is classified according to the System V ABI classification rules (SysV ABI
 §3.2.3):
 
-1. If the type is `__int128`The eightbyte containing the lower 64 bits is INTEGER, and the eightbyte
+1. If the type is `__int128`. The eightbyte containing the lower 64 bits is INTEGER, and the eightbyte
    containing the upper 64 bits is INTEGER.
-2. If the type is `__m256` or `__m512`All eightbytes are SSE.
+2. If the type is `__m256` or `__m512`. All eightbytes are SSE.
 3. If the type is a structure or array, recursively classify each eightbyte (8-byte chunk).
 4. If the type is smaller than 8 bytes and fits in a register, classify the whole type.
 5. If any eightbyte is classified differently from the others, or if the type exceeds 2 eightbytes
@@ -133,7 +133,7 @@ extern "C" __m128 add_vec4(__m128 a, __m128 b) {
 ```
 
 SIMD types smaller than or equal to 16 bytes are classified as SSE and passed/returned in XMM
-Registers. Types larger than 16 bytes (`__m256``__m512`) are classified as MEMORY on the System V
+Registers. Types larger than 16 bytes (`__m256`, `__m512`) are classified as MEMORY on the System V
 ABI, despite fitting in YMM/ZMM registers, the ABI has not been updated to reflect AVX/AVX-512
 Register passing.
 
@@ -173,10 +173,10 @@ Instruction.
 1. By SysV ABI §3.2.2, "The end of the input argument area shall be aligned on a 16 (32 or 64, if
    `__m256` or `__m512` is passed on stack) byte boundary. In other words, the value (%rsp + 8) is
    always a multiple of 16 when control is transferred to the function entry point."
-2. The `CALL` instruction pushes an 8-byte return address. Before the `CALL``RSP` must be 16-byte
+2. The `CALL` instruction pushes an 8-byte return address. Before the `CALL`, `RSP` must be 16-byte
    aligned: `RSP ≡ 0 (mod 16)`.
-3. After `CALL``RSP' = RSP - 8`So `RSP' ≡ 8 (mod 16)`.
-4. This alignment is required because many SSE instructions (`movaps``movdqa`) generate a `#GP`
+3. After `CALL`, `RSP' = RSP - 8`. So `RSP' ≡ 8 (mod 16)`.
+4. This alignment is required because many SSE instructions (`movaps`, `movdqa`) generate a `#GP`
    (General Protection fault) on unaligned operands. QED.
 
 ```cpp
@@ -288,7 +288,7 @@ Consider a function `void f(int a, int b, int c, int c, int d, int e, int f, int
 1. Under System V, the caller places arguments in RDI, RSI, RDX, RCX, R8, R9 (first six), then
    pushes `g` onto the stack.
 2. Under Microsoft x64, the caller places arguments in RCX, RDX, R8, R9 (first four), then pushes
-   `e``f``g` onto the stack after allocating 32 bytes of shadow space.
+   `e`, `f`, `g` onto the stack after allocating 32 bytes of shadow space.
 3. If the caller uses System V and the callee uses Microsoft x64: the callee reads `a` from RCX
    (which holds the System V fourth argument `d`), `b` from RDX (which holds the System V third
    argument `c`), etc. All arguments are shifted and corrupted. QED.
@@ -513,10 +513,10 @@ extern "C" long takes_seven(long a, long b, long c, long d,
 
 1. By the Intel SDM, `movaps` requires a 16-byte aligned memory operand. If the effective address is
    not divisible by 16, a `#GP` (General Protection) exception is generated.
-2. After `CALL``RSP ≡ 8 (mod 16)`. If the callee stores a local variable at `[rsp]` and then loads
-   it with `movaps`The address is 8 mod 16, fault.
+2. After `CALL`, `RSP ≡ 8 (mod 16)`. If the callee stores a local variable at `[rsp]` and then loads
+   it with `movaps`. The address is 8 mod 16, fault.
 3. The prologue must adjust RSP by at least 8 bytes to restore 16-byte alignment: `sub rsp, 8` (or
-   `push rbp`Which subtracts 8). QED.
+   `push rbp`. Which subtracts 8). QED.
 
 :::caution
 Alignment). If you see a `SIGSEGV` inside a function that uses SIMD, check for stack misalignment.
@@ -572,7 +572,7 @@ MEMORY:
 
 1. **INTEGER:** Integer types, pointers, and structures containing only INTEGER-classified
    eightbytes.
-2. **SSE:** Floating-point and SIMD types (`__m128``__m256`), and structures containing only
+2. **SSE:** Floating-point and SIMD types (`__m128`, `__m256`), and structures containing only
    SSE-classified eightbytes.
 3. **MEMORY:** The structure is passed on the stack if it exceeds 16 bytes, contains both INTEGER
    and SSE eightbytes (mixed classification), or has misaligned fields.
@@ -675,7 +675,7 @@ Cost. NRVO is not guaranteed (the compiler may decline it if there are multiple 
 Different named variables), but RVO for prvalues is mandatory since C++17.
 
 Note that C++ compilers on x86-64 generally ignore 32-bit-specific calling convention attributes
-(`__cdecl``__stdcall``__fastcall`), they either warn or silently treat them as the platform ABI.
+(`__cdecl`, `__stdcall`, `__fastcall`), they either warn or silently treat them as the platform ABI.
 These attributes are only meaningful on x86-32 where multiple calling conventions coexisted.
 
 ## 2.12 Variadic Functions and the ABI

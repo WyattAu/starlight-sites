@@ -30,7 +30,7 @@ format specification grammar, argument IDs, alignment, sign, width, precision, T
 ### `std::format` --- Overview
 
 `std::format` (C++20) is a type-safe formatting function that uses a format string to produce a
-`std::string` [N4950 §22.14.6]. Unlike `printf`It checks argument types at compile time. Unlike
+`std::string` [N4950 §22.14.6]. Unlike `printf`. It checks argument types at compile time. Unlike
 Iostreams, it uses a concise, composable format specification syntax.
 
 ```cpp
@@ -260,7 +260,7 @@ Functions and NTTPs (non-type template parameters).
    incompatible (e.g., `{:d}` for a `double` argument), the constructor fails to compile with a
    diagnostic.
 
-4. Because the constructor is `consteval`Any failure produces a compile-time error, not a runtime
+4. Because the constructor is `consteval`. Any failure produces a compile-time error, not a runtime
    exception. This is a structural guarantee: no runtime path can bypass the check. QED.
 
 ```cpp
@@ -314,7 +314,7 @@ Error messages (stderr is unbuffered) or protect stdout with a mutex.
 
 ### Custom Type Formatter
 
-To make a user-defined type work with `std::format`You must specialize `std::formatter&lt;T>` for
+To make a user-defined type work with `std::format`. You must specialize `std::formatter&lt;T>` for
 your type [N4950 §22.14.6.3]. The specialization must be placed in the `std` namespace and provide:
 
 1. A `parse()` method that parses the format specification (everything after `:`).
@@ -450,7 +450,7 @@ int main() {
 :::tip
 To the standard format specification parsing logic. If your custom type needs to support the full
 Standard specification set (width, fill, alignment), parse the standard spec first with the base
-Class's `parse()`Then check for your custom specifiers.
+Class's `parse()`. Then check for your custom specifiers.
 :::
 
 :::caution
@@ -687,7 +687,7 @@ int main() {
 
 ### Common Pitfalls
 
-- **Mixing argument ID modes:** You cannot mix automatic (`{}`) and manual (`{0}``{1}`) argument IDs
+- **Mixing argument ID modes:** You cannot mix automatic (`{}`) and manual (`{0}`, `{1}`) argument IDs
   in the same format string. Doing so is a compile-time error [N4950 §22.14.6.2]. Pick one mode per
   format string.
 

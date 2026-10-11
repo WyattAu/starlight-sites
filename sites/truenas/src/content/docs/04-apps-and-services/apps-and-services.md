@@ -92,7 +92,7 @@ The open-source alternative.
 **TrueNAS configuration:**
 
 1. Install Plex or Jellyfin from the app catalog.
-2. Create a dataset for media: `tank/media/movies``tank/media/tv``tank/media/music`.
+2. Create a dataset for media: `tank/media/movies`, `tank/media/tv`, `tank/media/music`.
 3. Configure storage mounts in the app settings to point to the media datasets.
 4. Set the container's PUID/PGID to match the user that owns the media files.
 5. For hardware transcoding (Plex Pass), configure GPU passthrough.

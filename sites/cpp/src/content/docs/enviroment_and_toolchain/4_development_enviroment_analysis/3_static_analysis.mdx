@@ -504,7 +504,7 @@ Recommendations:
 | OOP57-CPP | `cert-oop57-cpp` | Copy constructor missing |
 | OOP58-CPP | `cert-oop58-cpp` | Move constructor missing |
 Enabling `cert-*` in CI is a low-cost way to catch common vulnerability patterns. Many of these
-Checks are also covered by `bugprone-*` and `cppcoreguidelines-*`So the overlap is intentional,
+Checks are also covered by `bugprone-*` and `cppcoreguidelines-*`. So the overlap is intentional,
 CERT rules provide a formal security justification for checks you might already have enabled.
 
 ## 12. False Positive Management at Scale
@@ -519,7 +519,7 @@ them prevents the suppression mechanism from becoming a liability:
    reason: `// NOLINT(bugprone-narrowing-conversion): intentional truncation for wire format`.
 3. **Disable at project level:** Warnings that are overwhelmingly false positives for the entire
    codebase (e.g., `cppcoreguidelines-avoid-magic-numbers` in a numerical library). Disable in
-   `.clang-tidy`Not per-line.
+   `.clang-tidy`. Not per-line.
 4. **File-level suppression:** For legacy files that cannot be fixed without a major refactor, use
    `// NOLINTBEGIN` / `// NOLINTEND` blocks.
 

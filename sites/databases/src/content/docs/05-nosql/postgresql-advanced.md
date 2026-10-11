@@ -737,7 +737,7 @@ Start.
 ### Extension Version Mismatches
 
 Extensions must be compatible with the PostgreSQL major version. After a major version upgrade,
-Extensions must be upgraded too (often automatically by `pg_upgrade`But not always). Check with
+Extensions must be upgraded too (often automatically by `pg_upgrade`. But not always). Check with
 `SELECT * FROM pg_available_extension_versions`.
 
 ### FDW Query Performance
@@ -748,7 +748,7 @@ Accessed remote data, consider materializing it.
 
 ### RLS Policies Blocking the Table Owner
 
-By default, the table owner bypasses RLS. If you set `FORCE ROW LEVEL SECURITY`The owner is also
+By default, the table owner bypasses RLS. If you set `FORCE ROW LEVEL SECURITY`. The owner is also
 Subject to RLS policies. This can break administrative queries if the owner's RLS context is not set
 Correctly.
 

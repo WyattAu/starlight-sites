@@ -96,7 +96,7 @@ int main() {
 }
 ```
 
-### `std::sort``std::for_each`And `std::reduce` with Parallel Policies
+### `std::sort`, `std::for_each` and `std::reduce` with Parallel Policies
 
 Several standard algorithms accept execution policies [N4950 §25.7]:
 
@@ -172,7 +172,7 @@ int main() {
 ### Data Races in Parallel Algorithms
 
 :::caution
-Uses `std::execution::par`The user-provided function objects may be called concurrently from
+Uses `std::execution::par`. The user-provided function objects may be called concurrently from
 Multiple threads. The standard imposes specific requirements [N4950 §25.5.1]:
 
 1. The function object must not modify elements of the input range (unless the algorithm is
@@ -397,7 +397,7 @@ Acquire in one lane would deadlock the others.
 
 ### Interaction with Standard Allocators
 
-Parallel algorithms that modify elements in-place (e.g., `std::sort``std::transform`) do not
+Parallel algorithms that modify elements in-place (e.g., `std::sort`, `std::transform`) do not
 Allocate through user-provided allocators. However, the internal thread management of the parallel
 Execution engine may allocate through the default allocator for thread-local storage or task
 Scheduling data structures [N4950 §25.5.1].
@@ -540,7 +540,7 @@ The key distinction:
   but not _how_ to parallelize. The standard library implementation chooses the partitioning
   strategy, grain size, and thread count. This is declarative and portable but gives less control.
 
-- **Task parallelism** (`std::thread``std::async`): The programmer explicitly defines parallel tasks
+- **Task parallelism** (`std::thread`, `std::async`): The programmer explicitly defines parallel tasks
   and their dependencies. This is imperative and gives full control over synchronization, load
   balancing, and resource usage, but is more error-prone.
 
@@ -602,7 +602,7 @@ int main() {
 
 ### Parallelism with Standard Allocators
 
-When a parallel algorithm modifies elements in-place (e.g., `std::sort``std::transform`), the
+When a parallel algorithm modifies elements in-place (e.g., `std::sort`, `std::transform`), the
 Element access function runs on multiple threads simultaneously. If the function constructs
 Temporary objects, those temporaries use the default allocator (`operator new`). The parallel
 Algorithm's internal thread pool management also uses the default allocator for thread-local

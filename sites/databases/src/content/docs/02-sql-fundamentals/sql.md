@@ -278,7 +278,7 @@ WHERE (salary > 100000 OR department_id = 1) AND hire_date >= '2022-01-01'
 
 :::caution
 `WHERE column = NULL` never matches any rows. Use `IS NULL` and `IS NOT NULL`. Similarly,
-`NULL AND TRUE` is `NULL``NULL OR FALSE` is `NULL`And `NOT NULL` is `NULL`. This three-valued Logic
+`NULL AND TRUE` is `NULL`, `NULL OR FALSE` is `NULL`And `NOT NULL` is `NULL`. This three-valued Logic
 is the single greatest source of SQL bugs.
 
 ### ORDER BY
@@ -533,7 +533,7 @@ MAX(column)       -- maximum non-NULL value
 :::
 
 :::note
-Treat NULL as zero, use `AVG(COALESCE(salary, 0))`But understand that this changes the semantics:
+Treat NULL as zero, use `AVG(COALESCE(salary, 0))`. But understand that this changes the semantics:
 NULL means "unknown," not "zero."
 
 ### GROUP BY
@@ -592,7 +592,7 @@ GROUP BY CUBE (region, channel, product_line);
 ## Window Functions
 
 Window functions perform a calculation across a set of table rows related to the current row. Unlike
-Aggregate functions with `GROUP BY`They do not collapse rows -- every input row produces an output
+Aggregate functions with `GROUP BY`. They do not collapse rows -- every input row produces an output
 Row.
 
 ### Syntax
@@ -669,7 +669,7 @@ FROM employees;
 :::
 
 :::caution
-`RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`Which includes all peers (rows with the same
+`RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`. Which includes all peers (rows with the same
 ORDER BY value). This means `SUM(amount) OVER (ORDER BY date)` gives a running total that includes
 all rows with the same date. Use `ROWS` instead of `RANGE` if you want strict positional framing.
 
@@ -829,7 +829,7 @@ Joins are like matching puzzle pieces. An inner join finds only the pieces that 
 ### Off-by-One Errors with BETWEEN
 
 `BETWEEN` is inclusive on both ends: `WHERE date BETWEEN '2024-01-01' AND '2024-01-31'` includes
-both endpoints. If `date` is a `TIMESTAMPTZ``BETWEEN '2024-01-01' AND '2024-01-31'` actually means
+both endpoints. If `date` is a `TIMESTAMPTZ`, `BETWEEN '2024-01-01' AND '2024-01-31'` actually means
 up to `2024-01-31 00:00:00`Excluding all timestamps on January 31st after midnight. Use
 `WHERE date >= '2024-01-01' AND date &lt; '2024-02-01'` for date-range comparisons with timestamps.
 

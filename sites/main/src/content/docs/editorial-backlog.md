@@ -136,3 +136,42 @@ Audited and found to be **zero** defects. Every apparent `[H^+][OH^-]` is
 LaTeX subscript or chemical concentration notation inside a maths span, not a
 markdown link. Recorded here because the audit looked like it had found 712
 broken links, and the distinction is worth not re-deriving.
+
+## 8. Glued code spans: ambiguous capitals (1,194 occurrences)
+
+Line-wrapping damage ate the separator between a closed code span and the
+word after it. The mechanical cases are repaired and gated
+(`scripts/fix-glued-code-spans.py`); what remains needs a human.
+
+Two shapes were repaired automatically, 3,864 spans across 655 files:
+
+- **Eaten list separators.** A run of code spans written back to back with no
+  `, ` between them collapses into a single span that contains a backtick,
+  which can only mean several spans were meant. Repaired to a proper
+  comma-separated list. Certain, so mechanical.
+- **Eaten sentence boundaries.** A closed code span running straight into a
+  capitalised word with no full stop or space between them. Only the
+  separator is inserted; the capital is left as written, because a word like
+  *Then* after a span begins a new sentence and lowercasing it would be a
+  second, unjustified edit.
+
+**Why the rest is not mechanical.** A capital after a closing backtick is a
+sentence boundary for some words and a proper noun or identifier for others.
+A person's initials want `. Ed`; a pluralised span wants `s` with no space; and
+a list of types wants ` and ` rather than `. And`. The script repairs only a
+closed list of unambiguous sentence openers and reports the rest.
+
+Current worklist, by frequency: `And` (244), `Or` (91), `Python` (20), `Git`
+(14), `Ed` (10), `CPM` (10), `An` (9), `Explicit` (9), `Preventing` (8),
+`Regardless` (8), `That` (8), `Sub` (8).
+
+Most of the `And`/`Or` residue is a list continuation that R4 could not prove:
+it repairs ` and ` only when the span it just split was itself a comma
+list, because outside that context the lost mark could equally have been
+`. And`. Widening that needs either a corpus pass to establish the
+distribution or human approval per site.
+
+**Resolution path.** Run the worklist per site with
+`python3 scripts/fix-glued-code-spans.py --worklist --approve <word>` for the
+words a human confirms, exactly as the capitalisation worklist is handled. The
+count is printed on every gate run, so it cannot rot unnoticed.

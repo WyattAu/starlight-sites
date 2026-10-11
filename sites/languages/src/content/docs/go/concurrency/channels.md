@@ -353,7 +353,7 @@ Client disconnects, the context is cancelled, propagating to all goroutines hand
 
 ## Common Pitfalls
 
-1. **Forgetting to call the cancel function.** `WithCancel``WithTimeout`And `WithDeadline` return a
+1. **Forgetting to call the cancel function.** `WithCancel`, `WithTimeout` and `WithDeadline` return a
    cancel function that must be called to release resources. Use `defer cancel()`.
 
 2. **Not propagating context through function calls.** If a function starts goroutines, accept a

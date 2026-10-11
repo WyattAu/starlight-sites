@@ -120,7 +120,7 @@ Separate stack. This is a deliberate design decision with important trade-offs.
 | Composability                | Requires explicit chaining of coroutines        | composable via call stack                          |
 
 The key limitation of stackless coroutines is that **you cannot suspend in a function called by the
-Coroutine unless that function is itself a coroutine**. If a regular function calls `co_await`It Is
+Coroutine unless that function is itself a coroutine**. If a regular function calls `co_await`. It Is
 a compile error, `co_await` can only appear in a coroutine body [N4950 §9.5.4].
 
 ```cpp
@@ -324,7 +324,7 @@ There are two guaranteed elision scenarios where the compiler **may not** alloca
 [N4950 §9.5.4]:
 
 1. **Guaranteed elision when the coroutine is in the final suspend point and the return object holds
-   the coroutine handle.** If `final_suspend` returns `std::suspend_never`The compiler may destroy
+   the coroutine handle.** If `final_suspend` returns `std::suspend_never`. The compiler may destroy
    the frame immediately upon return.
 
 2. **When the coroutine result is prvalue and the promise's `get_return_object` returns a handle
@@ -523,7 +523,7 @@ Key members of `std::coroutine_handle<P>` [N4950 §21.4.4]:
 ### Handle Nullability and Validity
 
 A default-constructed `coroutine_handle` is a **null handle**, it does not refer to any frame. The
-Following operations are undefined on a null handle: `resume()``destroy()``promise()`And `done()`.
+Following operations are undefined on a null handle: `resume()`, `destroy()`, `promise()` and `done()`.
 Always check `operator bool()` before calling these.
 
 A handle becomes **invalid** after `destroy()` is called. Using an invalid handle is undefined
@@ -537,7 +537,7 @@ Calling `destroy()` on a handle triggers:
 2. Destruction of the promise object.
 3. Deallocation of the frame memory (via the matching `operator delete`).
 
-After `destroy()`The handle becomes **invalid**, using it is undefined behavior [N4950 §21.4.4]. If
+After `destroy()`. The handle becomes **invalid**, using it is undefined behavior [N4950 §21.4.4]. If
 `destroy()` is never called and no other mechanism cleans up, the frame leaks.
 
 :::tip
@@ -651,16 +651,16 @@ Coroutine-to-coroutine chaining prevents unbounded stack growth.
 **Proof:**
 
 1. Consider a chain of $n$ coroutines: $C_1 \to C_2 \to \ldots \to C_n$ Where each coroutine
-   `co_await`S the next.
-2. **Without symmetric transfer:** When $C_1$ `co_await`S $C_2$ The `await_suspend` of $C_2$ calls
+   `co_await`s the next.
+2. **Without symmetric transfer:** When $C_1$ `co_await`s $C_2$ The `await_suspend` of $C_2$ calls
    `C_1.resume()` inside $C_2$'s suspension handler. This is a regular function call, which grows
    the call stack by one frame. For $n$ coroutines, the stack grows by $\mathcal{O}(n)$ frames. For
    unbounded $n$ This causes stack overflow.
-3. **With symmetric transfer:** When $C_1$ `co_await`S $C_2$`await_suspend` returns the handle of
+3. **With symmetric transfer:** When $C_1$ `co_await`s $C_2$`await_suspend` returns the handle of
    $C_2$. The compiler generates a tail call from $C_1$'s resume trampoline to $C_2$'s resume
    trampoline. A tail call reuses the current stack frame, so the stack depth is $\mathcal{O}(1)$.
 4. The C++ standard guarantees [N4950 §9.5.4] that when `await_suspend` returns a
-   `coroutine_handle`The resumption is performed by returning the handle to the language runtime,
+   `coroutine_handle`. The resumption is performed by returning the handle to the language runtime,
    which then calls `resume()` on it. This is equivalent to a tail call.
 5. Therefore, symmetric transfer bounds stack growth to $\mathcal{O}(1)$.
 

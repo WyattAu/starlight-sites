@@ -605,7 +605,7 @@ GoRoute(
 ### Typed Path Parameters
 
 `go_router` provides typed extraction utilities. While `pathParameters` always returns
-`Map<String, String>`You should parse to the expected type:
+`Map<String, String>`. You should parse to the expected type:
 
 ```dart
 GoRoute(
@@ -1332,7 +1332,7 @@ Always validate parameters in a `redirect` function before reaching the builder.
 If a redirect function returns a path that itself triggers a redirect, GoRouter detects the loop
 after approximately 5 iterations and throws. Common causes:
 
-- The login redirect sends the user to `/`Which redirects back to `/login` because the user is not
+- The login redirect sends the user to `/`. Which redirects back to `/login` because the user is not
   yet authenticated (race condition with async auth state).
 - Two routes redirect to each other.
 
@@ -1344,8 +1344,8 @@ A user who just logged in may still see the login screen.
 
 ### Using `Navigator.of(context)` Directly with GoRouter
 
-When using GoRouter, avoid mixing Navigator 1.0 calls (`Navigator.push``Navigator.pop`) with
-GoRouter calls (`context.go``context.push`). They operate on different stacks and can cause
+When using GoRouter, avoid mixing Navigator 1.0 calls (`Navigator.push`, `Navigator.pop`) with
+GoRouter calls (`context.go`, `context.push`). They operate on different stacks and can cause
 Inconsistent behavior. Always use GoRouter's API for page-level navigation.
 
 ### Not Using `GlobalKey<NavigatorState>` for Deep Links

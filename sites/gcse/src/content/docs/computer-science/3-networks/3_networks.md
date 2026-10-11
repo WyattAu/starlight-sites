@@ -331,7 +331,7 @@ Vastly larger address space, ensuring enough addresses for the foreseeable futur
 
 **IPv6 address shortening rules:**
 
-- Leading zeros within each group can be omitted: `0001` becomes `1``0db8` becomes `db8`.
+- Leading zeros within each group can be omitted: `0001` becomes `1`, `0db8` becomes `db8`.
 - Consecutive groups of all zeros can be replaced with `::` (only once per address).
 
 Example: `2001:0db8:0000:0000:0000:0000:0000:0001` becomes `2001:db8::1`.

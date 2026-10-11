@@ -58,7 +58,7 @@ data Color = Red | Green | Blue
 ```
 
 The `deriving` clause works by generating boilerplate code at compile time. It is available for
-these standard type classes: `Eq``Ord``Enum``Bounded``Show``Read`.
+these standard type classes: `Eq`, `Ord`, `Enum`, `Bounded`, `Show`, `Read`.
 
 ## Show and Read
 

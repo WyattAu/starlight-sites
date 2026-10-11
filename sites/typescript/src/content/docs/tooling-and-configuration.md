@@ -119,7 +119,7 @@ const a: Config = {};
 const b: Config = { host: undefined };
 ```
 
-Under `exactOptionalPropertyTypes`The second line is an error. To explicitly allow `undefined`
+Under `exactOptionalPropertyTypes`. The second line is an error. To explicitly allow `undefined`
 Declare the property as `host?: string | undefined`.
 
 ## Module Resolution Strategies
@@ -481,7 +481,7 @@ declare module 'another-untyped' {
 }
 ```
 
-This configuration uses `h` instead of `React.createElement`Which is the convention for Preact.
+This configuration uses `h` instead of `React.createElement`. Which is the convention for Preact.
 
 ## New Features (TypeScript 5.0+)
 
@@ -503,7 +503,7 @@ const debug: boolean = config.debug;
 ```
 
 Without `satisfies`Assigning to `Record<string, string | number | boolean>` would widen the Property
-types. With `satisfies`The literal types are preserved while still validating against the Broader
+types. With `satisfies`. The literal types are preserved while still validating against the Broader
 type.
 
 ### `satisfies` vs Type Annotation
@@ -535,7 +535,7 @@ function createRoute<const T extends string[]>(path: `/${string}`, params: T): v
 createRoute('/users/:id', ['id'] as const);
 ```
 
-Without `const` on the type parameter, `T` would be inferred as `string[]`. With `const``T` is
+Without `const` on the type parameter, `T` would be inferred as `string[]`. With `const`, `T` is
 Inferred as `readonly ["id"]`.
 
 ### Decorator Metadata (TypeScript 5.2+)

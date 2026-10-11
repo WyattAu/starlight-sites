@@ -170,7 +170,7 @@ Just the type-punning sites.
 
 ## 3. Permitted Type Punning Techniques
 
-### 3.1 `memcpy`The Portable Baseline
+### 3.1 `memcpy`. The Portable Baseline
 
 Since C++14, `memcpy` is the Standard-blessed mechanism for type punning. [N4950 S6.9]/2 states that
 Copying an object's representation via `memcpy` into an array of `unsigned char` (or `std::byte`)
@@ -194,7 +194,7 @@ float bits_to_float(uint32_t bits) \{
 \}
 ```
 
-**Why this works:** `memcpy` operates on `void*` / `const void*`Which are explicitly excluded from
+**Why this works:** `memcpy` operates on `void*` / `const void*`. Which are explicitly excluded from
 The aliasing restrictions. Furthermore, every major optimizer at `-O2` and above recognizes the
 `memcpy` pattern for small, known-size copies and emits a single register move, **zero runtime
 Overhead**.
@@ -231,12 +231,12 @@ Works on all platforms, and (c) produces zero-overhead code at `-O2`.
 - `reinterpret_cast` punning: UB per [N4950 S6.9.2.1]/11.
 - Union-based punning: Well-defined in C++ (see Section 3.3), but not `constexpr`And some compilers
   issue warnings. The lifetime rules for non-active union members are subtle.
-- `std::bit_cast`: Well-defined and `constexpr`But requires C++20. Not available in C++14/17.
+- `std::bit_cast`: Well-defined and `constexpr`. But requires C++20. Not available in C++14/17.
 
 Therefore, for C++14/17 code, `memcpy` is the unique method that satisfies all three criteria. For
 C++20 code, `std::bit_cast` is equally portable and adds `constexpr` support. QED.
 
-### 3.2 `std::bit_cast`The C++20 Solution
+### 3.2 `std::bit_cast`. The C++20 Solution
 
 `std::bit_cast<T>(U)` in `<bit>` performs a bitwise copy from an object of type `U` to an object of
 Type `T`Returning the result by value. It is a `constexpr` function.
@@ -533,7 +533,7 @@ static_assert(!std::has_unique_object_representations_v<short>); // may have pad
 
 When type-punning between types that have different padding layouts, the padding bits are preserved
 by `memcpy` and `std::bit_cast`. This is generally harmless when punning between types of the same
-Size (e.g., `float` and `uint32_t`Which both have no padding on typical platforms), but it can Cause
+Size (e.g., `float` and `uint32_t`. Which both have no padding on typical platforms), but it can Cause
 issues when punning between types with different padding:
 
 ```cpp
@@ -749,7 +749,7 @@ or `std::byte`.
 ### Pitfall 4: Endianness in Cross-Platform Punning
 
 `std::bit_cast` and `memcpy` preserve the **byte order** of the source. If you pun a `float` to
-`uint32_t`The result depends on the target platform's endianness. For portable wire formats, Always
+`uint32_t`. The result depends on the target platform's endianness. For portable wire formats, Always
 use explicit byte extraction:
 
 ```cpp
@@ -788,7 +788,7 @@ std::memcpy(&i, &f, sizeof(f));  // Only copies 4 bytes into an 8-byte variable
 
 ### Pitfall 6: Type Punning and `constexpr`
 
-Prior to C++20, `memcpy` is not `constexpr`So type punning cannot be done at compile time. In C++20,
+Prior to C++20, `memcpy` is not `constexpr`. So type punning cannot be done at compile time. In C++20,
 `std::bit_cast` is `constexpr`And `memcpy` is conditionally `constexpr` for Copyable types. If you
 need compile-time punning in C++17, your options are limited to manual bit Manipulation:
 

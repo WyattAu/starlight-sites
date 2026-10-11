@@ -58,11 +58,11 @@ Entirely via source compilation.
 
 ### 1. System Package Managers (The "Distro" Model)
 
-- **Tools:** `apt``pacman``brew``choco`.
-- **Mechanism:** Libraries are installed globally into system paths (`/usr/lib``/usr/include`).
+- **Tools:** `apt`, `pacman`, `brew`, `choco`.
+- **Mechanism:** Libraries are installed globally into system paths (`/usr/lib`, `/usr/include`).
 - **Architecture:**
 - **Pre-built Binaries:** The package maintainer decides the compiler and flags.
-- **Shared Linkage:** provides shared objects (`.so``.dll`) linked dynamically.
+- **Shared Linkage:** provides shared objects (`.so`, `.dll`) linked dynamically.
 - **Critical Drawbacks:**
 - **ABI Mismatch:** The system library might use `libstdc++` while you wish to use `libc++`.
 - **Version Locking:** You are restricted to the version provided by the OS repository (often
@@ -274,7 +274,7 @@ Vcpkg uses its own constraint syntax:
 }
 ```
 
-Supported operators: `version>=``version>``version<=``version<``version=`. Combined with the
+Supported operators: `version>=`, `version>`, `version<=`, `version<`, `version=`. Combined with the
 Baseline mechanism, this allows upgrading specific packages while keeping the rest of the ecosystem
 Frozen.
 
@@ -380,8 +380,8 @@ Linker errors or runtime undefined behavior (segfaults).
 C++ Package managers must perform **SAT (Boolean Satisfiability) Solving** to find a single version
 of `JsonLib` that satisfies the constraints of both `LibA` and `LibB`.
 
-- If `LibA` requires `JsonLib >= 1.0` and `LibB` requires `JsonLib >= 2.0`The solver selects `2.0`.
-- If `LibA` requires `JsonLib < 2.0` and `LibB` requires `JsonLib >= 2.0`The build **must fail**
+- If `LibA` requires `JsonLib >= 1.0` and `LibB` requires `JsonLib >= 2.0`. The solver selects `2.0`.
+- If `LibA` requires `JsonLib < 2.0` and `LibB` requires `JsonLib >= 2.0`. The build **must fail**
   before compilation begins.
 
 This is a fundamental advantage of SAT-based resolution over greedy approaches: the solver can prove
@@ -479,7 +479,7 @@ Interface, catching common packaging errors and potential tampering.
   implementations (libstdc++ vs libc++) are binary-incompatible even if they use the same compiler
   version.
 - **Not committing the lockfile:** A lockfile that is not in version control provides no
-  reproducibility guarantee. Always commit `vcpkg.json``conan.lock`Or equivalent to the repository.
+  reproducibility guarantee. Always commit `vcpkg.json`, `conan.lock` or equivalent to the repository.
 - **Overriding dependencies without understanding the cascade:** Using vcpkg overrides or Conan
   `requires` to force a specific version of a transitive dependency may break the dependency that
   originally required it. Always verify that the override satisfies all constraints.
@@ -501,7 +501,7 @@ The package manager must ensure that:
 
 1. `fmt 10.1.0` is built with the same compiler flags as `spdlog 2.1.0` and `my-app`.
 2. `fmt 10.1.0` is built exactly once and shared by all consumers.
-3. If `spdlog` were updated to `2.2.0` which requires `fmt >= 10.2.0`The resolver would either
+3. If `spdlog` were updated to `2.2.0` which requires `fmt >= 10.2.0`. The resolver would either
    upgrade `fmt` to `10.2.0` (satisfying both constraints) or report a conflict if `10.2.0` is not
    available.
 
@@ -621,7 +621,7 @@ Pre-built artifact instead of rebuilding from source.
 The cache key is a hash of:
 
 1. Source code content (Git SHA of the dependency).
-2. Compiler version and flags (`-std=c++23``-O2``-fPIC`).
+2. Compiler version and flags (`-std=c++23`, `-O2`, `-fPIC`).
 3. Platform triplet (os-arch-compiler-runtime).
 4. CMake toolchain file content.
 5. Dependency's own dependencies (transitive cache key).

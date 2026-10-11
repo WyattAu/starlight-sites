@@ -433,7 +433,7 @@ for n, factors in results.items():
 `concurrent.futures` is almost always preferable to raw thread/process management because:
 
 - It manages the pool lifecycle (creation, reuse, cleanup).
-- It provides `Future` objects with `.result()``.exception()``.cancel()`And `.add_done_callback()`.
+- It provides `Future` objects with `.result()`, `.exception()`, `.cancel()` and `.add_done_callback()`.
 - It integrates with `as_completed()` for processing results as they arrive.
 - The context manager (`with` statement) ensures clean shutdown.
 
@@ -569,8 +569,8 @@ async def main():
 asyncio.run(main())
 ```
 
-Without `create_task()`You would have to `await countdown("A", 3)` and then
-`await countdown("B", 3)`Which would run them sequentially. `create_task()` enables concurrent
+Without `create_task()`. You would have to `await countdown("A", 3)` and then
+`await countdown("B", 3)`. Which would run them sequentially. `create_task()` enables concurrent
 Execution.
 
 ### `asyncio.gather()`
@@ -866,7 +866,7 @@ flowchart TD
 
 1. **Start with `asyncio`** if your workload is primarily I/O-bound (HTTP requests, database
    queries, WebSocket connections). It scales to thousands of concurrent operations with minimal
-   memory overhead. The `aiohttp``asyncpg``aioredis`And `httpx` libraries provide async interfaces
+   memory overhead. The `aiohttp`, `asyncpg`, `aioredis` and `httpx` libraries provide async interfaces
    for most common I/O operations.
 
 2. **Use `threading`** when you need to call blocking synchronous code from an async program (via

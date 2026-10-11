@@ -25,7 +25,7 @@ To bridge this gap, C++20/23 introduces two architectural mechanisms:
 ## 1. What Header Units Solve
 
 In the traditional `#include` model, every translation unit that includes a header re-parses the
-Entire header text. For large headers like `&lt;vector&gt;` or `&lt;windows.h&gt;`This can mean
+Entire header text. For large headers like `&lt;vector&gt;` or `&lt;windows.h&gt;`. This can mean
 Parsing tens of thousands of lines for every TU. The preprocessor performs textual inclusion, macro
 Expansion, and conditional compilation independently for each TU.
 
@@ -40,7 +40,7 @@ Guarantees:
 ### Formal Basis
 
 The C++ Standard defines a header unit as a synthesized module unit whose module-name is the header
-File's textual representation [N4950 S15.2]. When the compiler encounters `import "foo.h";`It
+File's textual representation [N4950 S15.2]. When the compiler encounters `import "foo.h";`. It
 Constructs a module unit conceptually equivalent to:
 
 ```cpp
@@ -137,7 +137,7 @@ Module but not part of its interface).
    implementation, but they are not **exported** to consumers of `Network` unless explicitly
    re-exported.
 2. **Macro Hygiene:** Macros defined in the GMF are visible inside the module. However, when a
-   consumer writes `import Network;`They **do not** inherit these macros. This prevents the "macro
+   consumer writes `import Network;`. They **do not** inherit these macros. This prevents the "macro
    pollution" common in header-based development.
 
 ### Proof: GMF Prevents Macro Pollution
@@ -159,7 +159,7 @@ GMF [N4950 S15.1 p5], and macros are not entities that participate in module exp
 
 ### Syntax
 
-Instead of `#include "header.h"`The syntax is `import "header.h";` (or `import &lt;header&gt;;`).
+Instead of `#include "header.h"`. The syntax is `import "header.h";` (or `import &lt;header&gt;;`).
 
 ```cpp
 // src/main.cpp
@@ -221,7 +221,7 @@ struct Widget \{
 \};
 ```
 
-With `#include`If TU-A includes `widget.h` with `#define EXTRA_FIELD` before the include, and TU-B
+With `#include`. If TU-A includes `widget.h` with `#define EXTRA_FIELD` before the include, and TU-B
 Includes it without that define, the two TUs may see different definitions of `Widget`. This
 Violates the ODR [N4950 S6.3], but the violation is undetectable at compile time because each TU
 Compiles independently.
@@ -240,7 +240,7 @@ Header units use the header's path as their identity:
 - `import "utils/helpers.h";` refers to the file `utils/helpers.h` relative to the include paths.
 
 The build system must locate the header using the same search rules as `#include` (system include
-Paths for `&lt;&gt;`Then user include paths for `""`).
+Paths for `&lt;&gt;`. Then user include paths for `""`).
 
 ### Naming in the BMI
 
@@ -372,7 +372,7 @@ import "data.h";         // data.h was compiled WITHOUT CUSTOM_ALLOC
 ```
 
 The `import "data.h"` loads a pre-built BMI that was compiled without `CUSTOM_ALLOC` in scope. If
-`data.h` conditionally includes `alloc.h` or depends on `CUSTOM_ALLOC`The imported version may
+`data.h` conditionally includes `alloc.h` or depends on `CUSTOM_ALLOC`. The imported version may
 Differ from what a textual `#include` would produce. This discrepancy is silent and dangerous.
 
 ## 7. Macro Export in Header Units
@@ -461,7 +461,7 @@ Converted to header units:
 #include <sys/socket.h>
 ```
 
-With `#include`The textual inclusion order is preserved. With `import`Each header unit is Compiled
+With `#include`. The textual inclusion order is preserved. With `import`. Each header unit is Compiled
 independently, and the order of `import` directives may not replicate the textual order Semantics.
 
 ### Conditional Compilation
@@ -539,7 +539,7 @@ clang++ -std=c++23 --precompile -DDEBUG=1 -x c++-header config.h -o config_debug
 clang++ -std=c++23 --precompile -x c++-header config.h -o config_release.h.pcm
 ```
 
-If a TU compiled with `-DDEBUG=1` imports `config.h`The build system must locate and load the
+If a TU compiled with `-DDEBUG=1` imports `config.h`. The build system must locate and load the
 `config_debug.h.pcm` BMI, not the release variant. Build systems like CMake track this through the
 P1689 scanning protocol, but the **dependency scanner must be aware of the compile flags** to select
 the correct BMI. This is why header units increase build system complexity significantly compared to

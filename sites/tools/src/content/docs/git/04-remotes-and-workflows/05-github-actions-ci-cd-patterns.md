@@ -64,7 +64,7 @@ Cleanup.
 
 The [Actions Marketplace](https://github.com/marketplace?type=actions) provides community-maintained
 and official actions. First-party actions live under the `actions/` organization (e.g.,
-`actions/checkout@v4``actions/cache@v4``actions/upload-artifact@v4`). Third-party actions should Be
+`actions/checkout@v4`, `actions/cache@v4`, `actions/upload-artifact@v4`). Third-party actions should Be
 audited for supply-chain security before adoption.
 
 ---
@@ -770,7 +770,7 @@ this:
 1. Navigate to **Settings &gt; Branches &gt; Branch protection rules**
 2. Select the target branch (e.g., `main`)
 3. Enable **Require status checks to pass before merging**
-4. Add the job names as required checks (e.g., `lint``test``security`)
+4. Add the job names as required checks (e.g., `lint`, `test`, `security`)
 
 Jobs must have unique names across the workflow for status checks to identify them correctly.
 
@@ -1256,7 +1256,7 @@ Approves. Reviewers must have write access to the repository.
 Branch protection can require specific workflow jobs to pass. Combine this with environment
 Protection for defense-in-depth:
 
-1. **Branch protection**: requires `test``lint`And `security` jobs to pass
+1. **Branch protection**: requires `test`, `lint` and `security` jobs to pass
 2. **Environment protection**: requires manual approval for the `production` environment
 
 ### Wait Timer
@@ -1274,7 +1274,7 @@ Deployment protection can be combined with branch restrictions to ensure only sp
 Deploy to an environment:
 
 1. **Settings &gt; Environments &gt; production &gt; Deployment branches and tags**
-2. Select "Selected branches and tags" and choose the allowed branches (e.g., `main``release/*`)
+2. Select "Selected branches and tags" and choose the allowed branches (e.g., `main`, `release/*`)
 
 ### Deployment Protection with OIDC
 
@@ -1472,7 +1472,7 @@ Pull requests from forks run in the context of the fork, which means:
 - `write` permissions on `GITHUB_TOKEN` are silently downgraded to `read`
 
 If a workflow must access secrets on fork PRs, use a separate workflow triggered by
-`pull_request_target`Which runs in the context of the base repository. However, this introduces a
+`pull_request_target`. Which runs in the context of the base repository. However, this introduces a
 Security risk: an untrusted fork can exfiltrate secrets by modifying the checked-out code. Always
 Pin the checkout ref explicitly:
 
@@ -1496,7 +1496,7 @@ Building a container image from a Dockerfile without running it).
 
 ### Mutable Checkout Ref on pull_request_target
 
-When using `pull_request_target`The default checkout is the base branch, not the PR head. To check
+When using `pull_request_target`. The default checkout is the base branch, not the PR head. To check
 out the PR head:
 
 ```yaml

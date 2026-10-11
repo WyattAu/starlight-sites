@@ -36,7 +36,7 @@ Git aborts the operation, this is the entire enforcement mechanism.
 Hooks are divided into two categories based on where they execute:
 
 **Client-side hooks** run on the local machine performing the Git operation. They are triggered by
-Commands like `git commit``git push``git checkout`And `git rebase`. Client-side hooks cannot Be
+Commands like `git commit`, `git push`, `git checkout` and `git rebase`. Client-side hooks cannot Be
 enforced remotely, a user with filesystem access can always bypass them with `--no-verify`. Their
 purpose is **convenience and local policy**, not security.
 
@@ -101,7 +101,7 @@ error: failed to push some refs to 'origin'
 hint: Updates were rejected because the pre-push hook exited with error code 1.
 ```
 
-Post-hooks (`post-commit``post-receive`Etc.) are informational. If a post-hook fails, Git prints A
+Post-hooks (`post-commit`, `post-receive`. Etc.) are informational. If a post-hook fails, Git prints A
 warning but does **not** abort the operation, the commit or push has already succeeded.
 
 ## Client-Side Hooks
@@ -264,7 +264,7 @@ fi
 
 ### post-checkout
 
-This hook fires after `git checkout``git switch`Or `git clone`. It receives the previous HEAD, The
+This hook fires after `git checkout`, `git switch` or `git clone`. It receives the previous HEAD, The
 new HEAD, and a flag indicating whether it was a branch checkout (1) or a file checkout (0):
 
 ```bash
@@ -398,7 +398,7 @@ exit 0
 ### update
 
 The `update` hook runs **once per ref** being updated. It receives three arguments: the ref name,
-The old SHA, and the new SHA. Unlike `pre-receive`This hook can reject individual refs without
+The old SHA, and the new SHA. Unlike `pre-receive`. This hook can reject individual refs without
 Rejecting the entire push:
 
 ```bash
@@ -459,7 +459,7 @@ echo "Running pre-commit checks..."
 exit 0
 ```
 
-The shebang line matters. If you write `#!/bin/bash`The hook will fail on systems where bash is Not
+The shebang line matters. If you write `#!/bin/bash`. The hook will fail on systems where bash is Not
 at `/bin/bash` (Alpine Linux, for example). Use `#!/usr/bin/env bash` for portability.
 
 ### Python Scripts
@@ -548,7 +548,7 @@ Repository and the operation in progress:
 | `GIT_REFLOG_ACTION`   | All hooks       | The operation being performed               |
 
 **Important**: the `PATH` environment variable in hooks is often minimal. If your hook invokes tools
-Like `eslint``shellcheck`Or custom binaries, they may not be found. Either use absolute paths or
+Like `eslint`, `shellcheck` or custom binaries, they may not be found. Either use absolute paths or
 Explicitly set `PATH` at the top of your hook:
 
 ```bash
@@ -761,7 +761,7 @@ repos:
 ```
 
 The `language` field determines how the hook is executed. `system` runs the entry directly on the
-Host. Other options include `python``node``docker`And `docker_image` for sandboxed execution.
+Host. Other options include `python`, `node`, `docker` and `docker_image` for sandboxed execution.
 
 ## Hook Debugging
 
@@ -866,19 +866,19 @@ $ chmod +x .githooks/pre-commit
 
 ### PATH Differences in Hooks
 
-Hooks run with a minimal `PATH`. Tools installed in `~/.local/bin``~/go/bin`Or via `nvm` may not Be
+Hooks run with a minimal `PATH`. Tools installed in `~/.local/bin`, `~/go/bin` or via `nvm` may not Be
 found. Always explicitly set `PATH` or use absolute paths to tools in your hook scripts.
 
 ### pre-commit Sees Staged Content, Not Working Tree
 
 If you edit a file after staging it, the hook inspects the **staged** version. This causes confusion
-when developers run `git add file.py`Then fix a lint error, then commit, the hook still sees the
+when developers run `git add file.py`. Then fix a lint error, then commit, the hook still sees the
 Old staged content. Run `git add` again after fixing.
 
 ### Hooks Do Not Apply to Amended Commits by Default
 
 `git commit --amend` does trigger `pre-commit` and `commit-msg` hooks, but the `prepare-commit-msg`
-Hook receives `COMMIT_SOURCE=commit`Which is the same as a new commit. If your hook tries to Inject
+Hook receives `COMMIT_SOURCE=commit`. Which is the same as a new commit. If your hook tries to Inject
 a ticket number based on the branch, it may double-inject on amend. Check for the amend case:
 
 ```bash
@@ -908,7 +908,7 @@ Hooks that scan every staged file can be slow in large repositories. Mitigate th
 1. Using glob patterns to limit which files each hook processes
 2. Running hooks in parallel (Lefthook does this automatically)
 3. Caching results (the `pre-commit` framework caches hook results and skips unchanged files)
-4. Only running expensive checks (full test suites) on `pre-push`Not `pre-commit`
+4. Only running expensive checks (full test suites) on `pre-push`. Not `pre-commit`
 
 ### Windows Line Endings in Hooks
 

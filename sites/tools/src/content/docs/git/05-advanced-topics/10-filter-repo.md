@@ -22,7 +22,7 @@ Filter-repo is a tool for rewriting Git history that replaces the deprecated and
 ## What filter-repo Is
 
 `git-filter-repo` is a Python-based tool for rewriting Git repository history. It is the modern,
-Recommended replacement for `git filter-branch`Which has been deprecated since Git 2.24 (December
+Recommended replacement for `git filter-branch`. Which has been deprecated since Git 2.24 (December
 2019). `git-filter-repo` was written by Elijah Newren, a Git core contributor, and addresses the
 Fundamental design flaws of `filter-branch`.
 
@@ -140,7 +140,7 @@ $ git filter-repo --path-glob '*.pem' --invert-paths
 ```
 
 The `--invert-paths` flag inverts the selection: `--path X --invert-paths` means "keep everything
-except X." Without `--invert-paths``--path X` means "keep only X."
+except X." Without `--invert-paths`, `--path X` means "keep only X."
 
 After removing files, commits that become empty (they only touched the removed files) are also
 Removed. This is the desired behavior, but it can be surprising if you expected those Commits to
@@ -286,7 +286,7 @@ EOF
 
 ### Replacement References
 
-In regex replacements, `\1``\2`Etc. Reference captured groups:
+In regex replacements, `\1`, `\2`. Etc. Reference captured groups:
 
 ```
 # Mask the password but keep the username and host
@@ -633,7 +633,7 @@ $ git verify-commit HEAD
 error: no signature found
 ```
 
-If `commit.gpgsign = true`You can re-sign all commits during the rewrite using a callback, but This
+If `commit.gpgsign = true`. You can re-sign all commits during the rewrite using a callback, but This
 is complex and not recommended for most use cases.
 
 ### CI/CD Build Caches
@@ -671,7 +671,7 @@ $ cd /tmp/repo-clean
 $ git filter-repo --path secret.key --invert-paths
 ```
 
-If you must run on an existing clone, use `--force`But understand the risks:
+If you must run on an existing clone, use `--force`. But understand the risks:
 
 ```bash
 git filter-repo --path secret.key --invert-paths --force
@@ -692,7 +692,7 @@ $ git filter-repo --replace-text /tmp/expressions.txt
 
 ### Not Verifying the Result
 
-After running `filter-repo`Always verify that:
+After running `filter-repo`. Always verify that:
 
 - The secret is completely removed from all history
 - The repository builds and tests pass

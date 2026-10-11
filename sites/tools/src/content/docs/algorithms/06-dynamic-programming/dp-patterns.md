@@ -210,7 +210,7 @@ def matrix_chain_order(p):
 
 ### Burst Balloons
 
-Given `nums`Where `nums[i]` is the value of the $i$-th balloon, bursting balloon $i$ yields
+Given `nums`. Where `nums[i]` is the value of the $i$-th balloon, bursting balloon $i$ yields
 `nums[left] * nums[i] * nums[right]` coins where `left` and `right` are the adjacent unburst
 Balloons. Maximise total coins.
 
@@ -790,7 +790,7 @@ the locally optimal choice always lead to the globally optimal solution?
 
 ### 1. Wrong Iteration Order
 
-The fill order must respect the dependency: if `dp[i]` depends on `dp[j]`Then `j` must be computed
+The fill order must respect the dependency: if `dp[i]` depends on `dp[j]`. Then `j` must be computed
 before `i`. For interval DP, always iterate by increasing interval length. For 1D DP, verify whether
 Forward or backward iteration is needed (0/1 knapsack needs backward, unbounded needs forward).
 

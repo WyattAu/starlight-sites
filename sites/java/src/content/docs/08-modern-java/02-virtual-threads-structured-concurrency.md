@@ -485,14 +485,14 @@ your codebase for `synchronized` blocks that contain I/O operations and replace 
 
 ### `ThreadLocal` in Virtual Thread Per-Task Executors
 
-In a `newVirtualThreadPerTaskExecutor`Each task runs on a new virtual thread. If you set a
+In a `newVirtualThreadPerTaskExecutor`. Each task runs on a new virtual thread. If you set a
 `ThreadLocal` in one task, it is not visible in another. If you set it in a parent and fork child
 Tasks, the children inherit it, but the memory overhead is proportional to the number of virtual
 Threads. Prefer `ScopedValue`.
 
 ### Structured Concurrency Is Not Auto-Closeable on Errors
 
-`StructuredTaskScope` implements `AutoCloseable`But closing the scope does not automatically throw
+`StructuredTaskScope` implements `AutoCloseable`. But closing the scope does not automatically throw
 Exceptions. You must call `throwIfFailed()` explicitly after `join()`:
 
 ```java
@@ -654,7 +654,7 @@ public class RaceScope&lt;T&gt; extends StructuredTaskScope&lt;T&gt; {
 
 ### Traditional Thread Dumps
 
-A traditional thread dump (`jstack``kill -3`Or `Thread.getAllStackTraces()`) shows platform Threads.
+A traditional thread dump (`jstack`, `kill -3` or `Thread.getAllStackTraces()`) shows platform Threads.
 With virtual threads, a thread dump also shows virtual threads but in a different format:
 
 ```bash
@@ -834,7 +834,7 @@ public UserData fetchUserData(String userId) throws Exception {
 ## See Also
 
 - [Concurrency](/06-concurrency/01-concurrency/) -- traditional concurrency primitives,
-  `ReentrantLock``CompletableFuture`
+  `ReentrantLock`, `CompletableFuture`
 - [Collections Framework](/04-collections/01-collections-framework/) -- thread-safe collections
   for concurrent access
 - [Records, Sealed Classes, and Pattern Matching](/08-modern-java/01-records-sealed-patterns/)

@@ -22,7 +22,7 @@ Virtual address space, file descriptors, and execution context. The kernel manag
 A `task_struct` (in `include/linux/sched.h`), which tracks PID, state, scheduling priority, open
 Files, signal handlers, and more.
 
-### Creating Processes: `fork``exec``wait`
+### Creating Processes: `fork`, `exec`, `wait`
 
 The POSIX process creation model consists of three operations:
 
@@ -82,7 +82,7 @@ perror("execve");
 exit(1);
 ```
 
-Variants of `exec`: `execl``execlp``execle``execv``execvp``execvpe`they differ in how Arguments
+Variants of `exec`: `execl`, `execlp`, `execle`, `execv`, `execvp`, `execvpe`they differ in how Arguments
 and environment are passed.
 
 #### `wait(2)` / `waitpid(2)`
@@ -273,11 +273,11 @@ sigaction(SIGTERM, &amp;sa, NULL);
 ```
 
 **Signal-safe functions**: Only async-signal-safe functions may be called from within a signal
-Handler. Calling non-signal-safe functions (like `printf``malloc``free`) from a handler is Undefined
+Handler. Calling non-signal-safe functions (like `printf`, `malloc`, `free`) from a handler is Undefined
 behavior if the handler interrupts one of those functions in the main program.
 
-Signal-safe functions include: `write``read``_exit``kill``sigaction``sigprocmask`
-`sigaddset``sigemptyset``sigfillset`.
+Signal-safe functions include: `write`, `read`, `_exit`, `kill`, `sigaction`, `sigprocmask`
+`sigaddset`, `sigemptyset`, `sigfillset`.
 
 ```c
 // CORRECT signal handler
@@ -679,7 +679,7 @@ ltrace -e strlen,strcpy ./myprogram
 ### Pitfall: `SIGKILL` Cannot Be Caught
 
 `SIGKILL` (9) and `SIGSTOP` (19) cannot be caught, blocked, or ignored. If a process does not
-Respond to `SIGKILL`It is almost certainly in the **D state** (uninterruptible sleep), waiting for
+Respond to `SIGKILL`. It is almost certainly in the **D state** (uninterruptible sleep), waiting for
 Kernel resources that will never become available.
 
 ```bash
@@ -692,7 +692,7 @@ cat /proc/$PID/stack    # kernel stack trace (requires CONFIG_STACKTRACE)
 
 ### Pitfall: `waitpid` and Signal Races
 
-If a child terminates before the parent calls `waitpid`The child becomes a zombie. If the parent
+If a child terminates before the parent calls `waitpid`. The child becomes a zombie. If the parent
 Terminates before the child, the child is reparented to PID 1. In neither case is the exit status
 Lost, but zombies accumulate if the parent never waits:
 

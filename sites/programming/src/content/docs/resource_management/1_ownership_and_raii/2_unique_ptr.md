@@ -614,7 +614,7 @@ std::unique_ptr is a single-owner smart pointer -- like a house key that only on
 
 ### Using `unique_ptr` with Arrays Incorrectly
 
-`unique_ptr<T>` (singular) calls `delete`Not `delete[]`. Using it with array-allocated memory is
+`unique_ptr<T>` (singular) calls `delete`. Not `delete[]`. Using it with array-allocated memory is
 Undefined behavior:
 
 ```cpp

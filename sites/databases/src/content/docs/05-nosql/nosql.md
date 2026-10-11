@@ -270,7 +270,7 @@ redis-cli --cluster create \
 :::
 
 :::caution
-Atomically update `user:123:profile` and `user:123:settings`They must have the same hash tag Prefix
+Atomically update `user:123:profile` and `user:123:settings`. They must have the same hash tag Prefix
 (`{user:123}`). Operations like `MGET` on keys with different hash tags will fail with a `CROSSSLOT`
 error.
 

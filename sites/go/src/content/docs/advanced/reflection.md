@@ -62,9 +62,9 @@ fmt.Println(t.Name()) // MyInt
 fmt.Println(t.Kind()) // int
 ```
 
-`Kind` is one of: `Bool``Int``Int8``Int16``Int32``Int64``Uint``Uint8``Uint16`
-`Uint32``Uint64``Float32``Float64``Complex64``Complex128``String``Array``Slice`
-`Map``Chan``Func``Interface``Struct``Ptr``UnsafePointer`.
+`Kind` is one of: `Bool`, `Int`, `Int8`, `Int16`, `Int32`, `Int64`, `Uint`, `Uint8`, `Uint16`
+`Uint32`, `Uint64`, `Float32`, `Float64`, `Complex64`, `Complex128`, `String`, `Array`, `Slice`
+`Map`, `Chan`, `Func`, `Interface`, `Struct`, `Ptr`, `UnsafePointer`.
 
 ## Modifying Values
 

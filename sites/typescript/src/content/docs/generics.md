@@ -60,7 +60,7 @@ function first<T>(array: T[]): T | undefined {
 const x = first([1, 2, 3]);
 ```
 
-Here, `T` is inferred as `number`So `x` has type `number | undefined`.
+Here, `T` is inferred as `number`. So `x` has type `number | undefined`.
 
 When inference is insufficient (e.g., when the type parameter appears only in the return type),
 Explicit type arguments may be provided:
@@ -370,7 +370,7 @@ type Result = ToArray<string | number>;
 type Result = string[] | number[];
 ```
 
-The distribution rule: `ToArray<string | number>` becomes `ToArray<string> | ToArray<number>`Which
+The distribution rule: `ToArray<string | number>` becomes `ToArray<string> | ToArray<number>`. Which
 Resolves to `string[] | number[]`.
 
 To prevent distribution, wrap `T` in a tuple:
@@ -494,7 +494,7 @@ const general: Handler = specific;
 ```
 
 This is a compile error under `strictFunctionTypes`. A function that expects `Error` cannot safely
-Receive a function that only handles `TypeError`Because the general handler might be called with
+Receive a function that only handles `TypeError`. Because the general handler might be called with
 `RangeError`.
 
 ### Bivariance

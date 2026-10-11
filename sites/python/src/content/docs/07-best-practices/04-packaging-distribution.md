@@ -125,7 +125,7 @@ branch = true
 ```
 
 :::note
-Scattered across `setup.py``setup.cfg`And `setup.cfg`/`pyproject.toml`. The new standard
+Scattered across `setup.py`, `setup.cfg` and `setup.cfg`/`pyproject.toml`. The new standard
 Consolidates everything into one file.
 :::
 

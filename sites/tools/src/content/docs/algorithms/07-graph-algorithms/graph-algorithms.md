@@ -728,7 +728,7 @@ Processed vertex. Use Bellman-Ford for graphs with negative weights.
 ### 2. Floyd-Warshall Infinity Overflow
 
 In Floyd-Warshall, the relaxation step is `dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])`.
-If `dist[i][k]` or `dist[k][j]` is `inf`The sum becomes `inf`Which is correct. But if your `inf` Is
+If `dist[i][k]` or `dist[k][j]` is `inf`. The sum becomes `inf`. Which is correct. But if your `inf` Is
 not large enough (e.g., `float('inf') / 2 + float('inf') / 2`), you may get incorrect results. Use a
 sufficiently large sentinel value or handle infinity explicitly.
 

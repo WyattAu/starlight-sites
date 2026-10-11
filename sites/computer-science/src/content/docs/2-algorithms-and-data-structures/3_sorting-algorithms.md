@@ -37,7 +37,7 @@ $b = 2$, $f(n) = O(n) = O(n^{\log_b a})$ So $T(n) = O(n \log n)$. $\blacksquare$
 
 **Theorem 3.2.** Merge sort is stable and requires $O(n)$ auxiliary space.
 
-_Proof of stability._ In `Merge`When elements from the left and right halves are equal, we always
+_Proof of stability._ In `Merge`. When elements from the left and right halves are equal, we always
 take from the left half first. This preserves the relative order of equal elements. $\blacksquare$
 
 **Theorem 3.3 (Correctness of Merge).** The `Merge` procedure produces a sorted array from two

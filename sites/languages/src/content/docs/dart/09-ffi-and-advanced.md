@@ -62,8 +62,8 @@ List<String?> mixed = ['a', null]; // non-nullable list, elements can be null
 List<String>? maybeNames = null;   // nullable list reference
 ```
 
-**Definition.** The nullability hierarchy: `Never` is a subtype of `Null`Which is a subtype of Every
-`T`Which is a subtype of `T?`Which is a subtype of `Object?`. `Object` is the supertype of All
+**Definition.** The nullability hierarchy: `Never` is a subtype of `Null`. Which is a subtype of Every
+`T`. Which is a subtype of `T?`. Which is a subtype of `Object?`. `Object` is the supertype of All
 non-nullable types. `Object?` is the top type.
 
 ```
@@ -245,7 +245,7 @@ class Lazy {
 
 #### Null-Aware Access (`?.`)
 
-Returns `null` if the receiver is `null`Otherwise accesses the member.
+Returns `null` if the receiver is `null`. Otherwise accesses the member.
 
 ```dart
 String? name;
@@ -459,7 +459,7 @@ Available on the web (use WASM interop instead).
 
 ### Dynamic Library Loading
 
-The entry point for FFI is `DynamicLibrary`Which represents a loaded shared library.
+The entry point for FFI is `DynamicLibrary`. Which represents a loaded shared library.
 
 ```dart
 import 'dart:ffi';
@@ -507,7 +507,7 @@ void main() {
 ```
 
 The two typedefs must agree on parameter and return types. The C typedef uses FFI native types
-(`Int32``Double``Pointer`Etc.). The Dart typedef uses Dart types (`int``double`Etc.). The
+(`Int32`, `Double`, `Pointer`. Etc.). The Dart typedef uses Dart types (`int`, `double`. Etc.). The
 `lookupFunction` call bridges the two.
 
 ### Primitive Types Mapping
@@ -569,7 +569,7 @@ for (var i = 0; i < 10; i++) {
 malloc.free(array);
 ```
 
-The `malloc` and `calloc` functions are from `package:ffi`Which provides convenience wrappers Around
+The `malloc` and `calloc` functions are from `package:ffi`. Which provides convenience wrappers Around
 `dart:ffi`'s allocation functions.
 
 #### Pointer Arithmetic
@@ -615,7 +615,7 @@ int addViaFfi(int a, int b) {
 ### Structs
 
 **Definition.** An FFI struct is a Dart class that extends `Struct` and maps to a C `struct` in
-Memory. Fields are declared using `@Int32()``@Double()``@Pointer()`And other annotations. The Struct
+Memory. Fields are declared using `@Int32()`, `@Double()`, `@Pointer()` and other annotations. The Struct
 layout in memory matches the C layout.
 
 ```dart
@@ -1219,7 +1219,7 @@ void main() {
 ```
 
 `package:web` provides typed bindings for all Web APIs (DOM, Fetch, WebSocket, etc.). These bindings
-Use Dart's JS interop types (`JSObject``JSString``JSArray`Etc.) rather than Dart's native Types.
+Use Dart's JS interop types (`JSObject`, `JSString`, `JSArray`. Etc.) rather than Dart's native Types.
 
 ### Performance Characteristics
 
@@ -1515,7 +1515,7 @@ bool isNotString(Object value) => switch (value) {
 ### FFI Memory Leaks
 
 The most common FFI bug is forgetting to free native memory. Dart's garbage collector does not track
-Native allocations. Every `malloc``calloc`And `toNativeUtf8` must have a corresponding free.
+Native allocations. Every `malloc`, `calloc` and `toNativeUtf8` must have a corresponding free.
 
 ```dart
 // LEAK: native string never freed
@@ -1607,7 +1607,7 @@ print((name ?? '').length);
 ### Isolate Message Ordering
 
 Messages sent from a single `SendPort` to a single `ReceivePort` are delivered in order. But
-Messages sent from different `SendPort`S to the same `ReceivePort` may interleave.
+Messages sent from different `SendPort`s to the same `ReceivePort` may interleave.
 
 ```dart
 // Isolate A sends: M1, M2, M3
@@ -1700,8 +1700,8 @@ void worker(SendPort sendPort) {
 ```
 
 Not all Dart objects can be sent between isolates. Sendable objects include: primitives, `String`
-`List` and `Map` of sendable elements, `SendPort``TransferableTypedData`And `Capability`. Non-
-Sendable objects include: closures, `Socket``HttpClient``File``Isolate`And most `dart:io` Types.
+`List` and `Map` of sendable elements, `SendPort`, `TransferableTypedData` and `Capability`. Non-
+Sendable objects include: closures, `Socket`, `HttpClient`, `File`, `Isolate` and most `dart:io` Types.
 
 ```mermaid
 flowchart TD

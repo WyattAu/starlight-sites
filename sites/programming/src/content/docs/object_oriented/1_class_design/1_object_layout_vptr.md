@@ -497,7 +497,7 @@ int main() {
 ## 1.9 Virtual Destructors and Object Destruction
 
 When deleting an object through a base class pointer, the destructor must be virtual to ensure the
-Derived destructor runs. Without `virtual`Only the base destructor runs, causing resource leaks And
+Derived destructor runs. Without `virtual`. Only the base destructor runs, causing resource leaks And
 Undefined Behavior.
 
 ```cpp
@@ -578,9 +578,9 @@ int main() {
 
 1. **Static type analysis:** If the object is allocated locally and never escapes (no pointers to it
    are stored), the compiler can track its exact type.
-2. **`final` on the class:** If the class is `final`No further derivation is possible, so the
+2. **`final` on the class:** If the class is `final`. No further derivation is possible, so the
    dynamic type is always the static type.
-3. **`final` on the method:** If the virtual function is `final`No override exists, so the compiler
+3. **`final` on the method:** If the virtual function is `final`. No override exists, so the compiler
    can use the static type's vtable entry.
 4. **Speculative devirtualization:** At `-O2`/`-O3`Compilers may emit speculative direct calls
    guarded by a type check (comparing the vptr against the expected vtable).

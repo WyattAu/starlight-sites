@@ -21,8 +21,8 @@ categories:
 
 ## Mutexes, Shared Locks, and Deadlock Prevention
 
-This section covers `std::mutex``std::recursive_mutex``std::timed_mutex`RAII lock wrappers
-(`std::lock_guard``std::scoped_lock`), reader-writer locks (`std::shared_mutex`), the four Coffman
+This section covers `std::mutex`, `std::recursive_mutex`, `std::timed_mutex`RAII lock wrappers
+(`std::lock_guard`, `std::scoped_lock`), reader-writer locks (`std::shared_mutex`), the four Coffman
 Deadlock conditions, and deadlock prevention strategies.
 
 ## `std::mutex`
@@ -267,7 +267,7 @@ int main() {
 `std::unique_lock` [N4950 §31.4.4.3] provides more flexibility than `std::lock_guard`:
 
 - **Deferred locking:** Construct without acquiring the lock (`std::defer_lock`).
-- **Timed locking:** `try_lock_for()``try_lock_until()`.
+- **Timed locking:** `try_lock_for()`, `try_lock_until()`.
 - **Manual unlock/lock:** Can be unlocked and re-locked during its lifetime.
 - **Movable:** Can be returned from functions (unlike `std::lock_guard` in C++14).
 
@@ -341,7 +341,7 @@ when reads are frequent and writes are infrequent.
 
 A naive reader-writer lock implementation can suffer from **writer starvation**: if readers
 Continuously acquire shared locks, a waiting writer may never get exclusive access. The C++ standard
-does not mandate a specific policy for `std::shared_mutex`But POSIX `pthread_rwlock_t`
+does not mandate a specific policy for `std::shared_mutex`. But POSIX `pthread_rwlock_t`
 Implementations implement a "writer-preferring" policy on modern Linux kernels (glibc 2.26+).
 
 ### Reader-Writer Lock Overhead

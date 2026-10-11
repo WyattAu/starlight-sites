@@ -97,7 +97,7 @@ suspend fun fetchAllData(): Data {
 
 `launch` vs `async`:
 
-- `launch`: returns `Job`No result value. Use for side effects.
+- `launch`: returns `Job`. No result value. Use for side effects.
 - `async`: returns `Deferred<T>`Produces a result. Use for concurrent computations.
 
 ### runBlocking
@@ -333,7 +333,7 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 - \*\* Using `GlobalScope`. It creates unbound coroutines that outlive the application scope, making
   cancellation and lifecycle management impossible. Always use structured concurrency with explicit
   scopes.
-- \*\* Collecting multiple flows sequentially. Use `combine``merge`Or `zip` to compose flows
+- \*\* Collecting multiple flows sequentially. Use `combine`, `merge` or `zip` to compose flows
   concurrently.
 
 ## Intuition

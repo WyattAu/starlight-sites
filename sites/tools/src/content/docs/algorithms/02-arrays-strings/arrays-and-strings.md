@@ -33,7 +33,7 @@ Single instruction: load from `base + i * element_size`.
 ### Memory Layout and Cache Behaviour
 
 Arrays have excellent spatial locality: accessing `arr[i]` loads the entire cache line ( 64 Bytes)
-into L1 cache, so accessing `arr[i+1]``arr[i+2]`Etc. Hits cache. This is why a linear Scan through
+into L1 cache, so accessing `arr[i+1]`, `arr[i+2]`. Etc. Hits cache. This is why a linear Scan through
 an array is 10-100x faster than following pointers through a linked list, Even though both are
 $O(n)$ in theory.
 
@@ -846,7 +846,7 @@ def majority_element(arr):
 Sliding window problems are rife with off-by-one errors. The most common: confusing "exclusive upper
 Bound" with "inclusive upper bound." Decide on a convention (Python-style `[left, right)` is
 Recommended) and stick to it consistently. The number of elements in the window is always
-`right - left`Never `right - left + 1`.
+`right - left`. Never `right - left + 1`.
 
 ### 2. Integer Overflow in Rolling Hashes
 
@@ -859,7 +859,7 @@ Independent hash functions to reduce collision probability.
 
 Empty arrays, single-element arrays, arrays with all identical elements, and arrays where no valid
 Pair exists are all edge cases that two-pointer solutions must handle. Test your solution with `[]`
-`[1]``[1, 1, 1, 1]`And a case where no solution exists.
+`[1]`, `[1, 1, 1, 1]` and a case where no solution exists.
 
 ### 4. Treating Strings as Arrays of Bytes
 

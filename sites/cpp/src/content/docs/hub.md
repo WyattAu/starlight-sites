@@ -185,7 +185,7 @@ The C++ Standard Library provides containers, algorithms, iterators, and utiliti
 
 **`std::unordered_map`** provides O(1) average-case lookup by key. Use it when you do not need ordered iteration. For small maps (fewer than ~20 elements), a linear scan of `std::vector<std::pair<K,V>>` can be faster due to cache locality.
 
-**Ranges** (C++20) provide a composable, lazy pipeline for processing sequences of elements. Instead of writing loops, you chain range adaptors like `filter``transform`and `take`. This makes code more expressive and often more efficient.
+**Ranges** (C++20) provide a composable, lazy pipeline for processing sequences of elements. Instead of writing loops, you chain range adaptors like `filter`, `transform`and `take`. This makes code more expressive and often more efficient.
 
 ---
 
@@ -309,7 +309,7 @@ C++ is a superset of C with additional features: classes, templates, the standar
 
 ### How important is understanding the standard library?
 
-Very. The standard library provides the containers, algorithms, and utilities that make C++ productive. Learning `std::vector``std::map``std::string`and the algorithms library is more valuable than learning obscure language features.
+Very. The standard library provides the containers, algorithms, and utilities that make C++ productive. Learning `std::vector`, `std::map`, `std::string`and the algorithms library is more valuable than learning obscure language features.
 
 ### What is RAII and why does it matter?
 
@@ -317,7 +317,7 @@ RAII (Resource Acquisition Is Initialization) is the C++ idiom where resources a
 
 ### Should I use raw pointers or smart pointers?
 
-Use smart pointers (`std::unique_ptr``std::shared_ptr`) for owning pointers. Use raw pointers only for non-owning observation, when you need to refer to an object without managing its lifetime. This convention makes ownership semantics explicit and prevents most memory management bugs.
+Use smart pointers (`std::unique_ptr`, `std::shared_ptr`) for owning pointers. Use raw pointers only for non-owning observation, when you need to refer to an object without managing its lifetime. This convention makes ownership semantics explicit and prevents most memory management bugs.
 
 ---
 

@@ -155,7 +155,7 @@ Management exception-safe.
 
 ### Stack Unwinding Walkthrough
 
-Consider a call stack: `main()` calls `outer()`Which calls `middle()`Which calls `inner()`. When
+Consider a call stack: `main()` calls `outer()`. Which calls `middle()`. Which calls `inner()`. When
 `inner()` throws:
 
 ```
@@ -176,7 +176,7 @@ The unwinder performs the following steps:
    personality function identifies cleanup code (destructor calls for local variables) and the
    unwinder executes those cleanups. D. The frame is popped, and the unwinder moves to the next
    frame.
-4. When a matching `catch` is found in `main()`The unwinder sets the instruction pointer to the
+4. When a matching `catch` is found in `main()`. The unwinder sets the instruction pointer to the
    catch clause's entry point and transfers control.
 
 ```cpp
@@ -243,7 +243,7 @@ Runtime overhead compared to equivalent code without exception handling.
 **Proof:**
 
 1. The compiler generates exception handling information (LSDA and unwind tables) as **static data**
-   in read-only sections of the binary (`.eh_frame``.gcc_except_table`). These tables are not loaded
+   in read-only sections of the binary (`.eh_frame`, `.gcc_except_table`). These tables are not loaded
    into registers or cache during normal execution.
 2. The generated machine code for the normal path contains **no instructions** that reference the
    exception tables. There are no conditional branches to check for pending exceptions, no global
@@ -498,7 +498,7 @@ Function throws anyway, `std::terminate()` is called immediately without stack u
    code for temporaries created in the calling function. This can eliminate branches and reduce
    register pressure.
 3. **Enables `std::move` in containers:** `std::vector::push_back` uses `noexcept` to decide between
-   copy and move during reallocation. If the element's move constructor is `noexcept`The vector
+   copy and move during reallocation. If the element's move constructor is `noexcept`. The vector
    moves elements; otherwise, it copies them.
 
 ```cpp
@@ -671,7 +671,7 @@ to provide a custom `__cxa_pure_virtual` and `__cxa_throw` implementation even w
 
 Catching by value slices the exception object and invokes an extra copy constructor. Always catch by
 Reference (`const T&` or `T&`) to preserve the dynamic type and avoid unnecessary copies. The only
-Exception is `catch (...)`Which cannot specify a type.
+Exception is `catch (...)`. Which cannot specify a type.
 
 ### 5. Exception Specifications (Deprecated)
 

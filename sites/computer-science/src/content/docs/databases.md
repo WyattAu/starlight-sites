@@ -186,7 +186,7 @@ $$
 **Query:** Find the names of students who have enrolled in every course offered by the CS
 department.
 
-**Schema:** `Student(sid, name, dept)``Course(cid, title, dept)``Takes(sid, cid, semester)`.
+**Schema:** `Student(sid, name, dept)`, `Course(cid, title, dept)`, `Takes(sid, cid, semester)`.
 
 **Step 1.** Get CS course IDs:
 
@@ -413,7 +413,7 @@ WHERE E.Grade IN ('A', 'A-')
 ORDER BY S.GPA DESC;
 ```
 
-**Aggregate functions:** `COUNT``SUM``AVG``MIN``MAX`.
+**Aggregate functions:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
 
 ```sql
 SELECT Dept, COUNT(*) AS NumStudents, AVG(GPA) AS AvgGPA
@@ -492,8 +492,8 @@ FROM Student;
 
 **`RANK()` vs. `DENSE_RANK()`:** `RANK()` leaves gaps after ties; `DENSE_RANK()` does not.
 
-**Other window functions:** `ROW_NUMBER()``LEAD()``FIRST_VALUE()``LAST_VALUE()`
-`NTILE(n)``SUM() OVER(...)``COUNT() OVER(...)`.
+**Other window functions:** `ROW_NUMBER()`, `LEAD()`, `FIRST_VALUE()`, `LAST_VALUE()`
+`NTILE(n)`, `SUM() OVER(...)`, `COUNT() OVER(...)`.
 
 <details>
 <summary>Worked Example 3.1: Running Totals and Percentiles</summary>
@@ -535,7 +535,7 @@ FROM Student GROUP BY Dept;
 ```
 
 Views are virtual tables. **Updatable views** (single-table, no aggregation) allow `INSERT`
-`UPDATE``DELETE` through the view. **Materialised views** store the result physically and must be
+`UPDATE`, `DELETE` through the view. **Materialised views** store the result physically and must be
 Refreshed.
 
 ### 3.8 Recursive Common Table Expressions
@@ -612,7 +612,7 @@ Attacker to manipulate the query structure.
 cursor.execute(f"SELECT * FROM Student WHERE name = '{user_input}'")
 ```
 
-If `user_input` is `' OR '1'='1`The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
+If `user_input` is `' OR '1'='1`. The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
 Returning all rows.
 
 **Types of SQL injection:**
@@ -665,7 +665,7 @@ counts, And execution time.
 
 **Common optimisation guidelines:**
 
-- **Create appropriate indexes** on columns used in `WHERE``JOIN``ORDER BY`And `GROUP BY` clauses.
+- **Create appropriate indexes** on columns used in `WHERE`, `JOIN`, `ORDER BY` and `GROUP BY` clauses.
 - **Avoid `SELECT *`**; retrieve only the columns needed.
 - **Avoid N+1 queries:** Fetching related data row-by-row instead of with a single join or batch
   query.
@@ -1672,7 +1672,7 @@ across nodes.
 
 - **Phase 1 (Voting):** The coordinator sends a `PREPARE` message to all participants. Each
   participant writes its changes to a local log, votes `YES` (ready to commit) or `NO` (abort).
-- **Phase 2 (Decision):** If all participants voted `YES`The coordinator sends `COMMIT`; otherwise
+- **Phase 2 (Decision):** If all participants voted `YES`. The coordinator sends `COMMIT`; otherwise
   it sends `ABORT`. Participants apply the decision and acknowledge.
 
 **Theorem 9.1.** 2PC guarantees atomicity of distributed transactions if no participant crashes
@@ -1693,7 +1693,7 @@ Model:
 2. **PreCommit:** If all `YES`Coordinator sends `PRE-COMMIT`. Participants acknowledge.
 3. **DoCommit:** Coordinator sends `COMMIT`. Participants commit and acknowledge.
 
-If the coordinator crashes after `PRE-COMMIT`Any participant can contact others to determine the
+If the coordinator crashes after `PRE-COMMIT`. Any participant can contact others to determine the
 Outcome (since at least one participant must have received `PRE-COMMIT` and can coordinate).
 
 **Limitation of 3PC:** Assumes reliable communication (no lost messages), which is unrealistic in
@@ -1830,7 +1830,7 @@ reader returns the most recent version among the 3 responses.
 **Problems 8--10:** SQL
 
 1. Write a recursive SQL query that computes the total cost of all parts (direct and indirect)
-   required to assemble product `P100`Given a `BOM(parent_part, child_part, quantity)` table.
+   required to assemble product `P100`. Given a `BOM(parent_part, child_part, quantity)` table.
 
 2. Write a SQL query that, for each department, returns the student with the highest GPA, their GPA,
    and the difference between their GPA and the department average. Use window functions only (no

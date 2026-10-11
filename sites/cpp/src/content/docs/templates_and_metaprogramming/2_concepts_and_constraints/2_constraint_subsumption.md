@@ -176,9 +176,9 @@ template<typename U>
 concept IsInt2 = std::is_same_v<U, int>;
 ```
 
-When comparing `IsInt1<T>` and `IsInt2<T>`The compiler maps `T` (from the first concept) to `T`
+When comparing `IsInt1<T>` and `IsInt2<T>`. The compiler maps `T` (from the first concept) to `T`
 (from the second concept) and then compares the expression trees. Both reduce to
-`std::is_same_v<T, int>`So they are structurally identical and subsume each other.
+`std::is_same_v<T, int>`. So they are structurally identical and subsume each other.
 
 But consider:
 
@@ -293,8 +293,8 @@ template integral: 42
 ```
 
 The rule is: when both a non-template and a template are viable, the non-template is preferred if
-and only if the argument conversions are equally good [N4950 §13.10.3.2]. For `process(42)`Both Are
-exact matches, so the non-template wins. For `process(42L)`The template is an exact match
+and only if the argument conversions are equally good [N4950 §13.10.3.2]. For `process(42)`. Both Are
+exact matches, so the non-template wins. For `process(42L)`. The template is an exact match
 (`T = long`) while the non-template requires a narrowing conversion (`long` to `int`), so the
 Template wins.
 
@@ -491,7 +491,7 @@ The compiler normalizes constraints into a set of **atomic constraints** before 
 Subsumption. An atomic constraint is an expression that cannot be decomposed further into
 Conjunctions or disjunctions [N4950 §13.5.4.1].
 
-For `Sortable = Container && RandomAccess && TotallyOrdered`The atomic constraints are:
+For `Sortable = Container && RandomAccess && TotallyOrdered`. The atomic constraints are:
 
 1. `Container<T>` (itself a normalized set of atomic constraints from its definition)
 2. `std::random_access_iterator<decltype(C::begin())>`
@@ -680,9 +680,9 @@ int main() {
 }
 ```
 
-The subsumption chain is: `PreciseNumber` $\succ$ `ExactNumber` $\succ$ `Number`. For `double`All
-Three are viable, and `PreciseNumber` is the most constrained. For `int`Only `Number` and
-`ExactNumber` are viable, and `ExactNumber` is more constrained. For `unsigned int`Only `Number` Is
+The subsumption chain is: `PreciseNumber` $\succ$ `ExactNumber` $\succ$ `Number`. For `double`. All
+Three are viable, and `PreciseNumber` is the most constrained. For `int`. Only `Number` and
+`ExactNumber` are viable, and `ExactNumber` is more constrained. For `unsigned int`. Only `Number` Is
 viable.
 
 ### Example 2: Incomparable Constraints (Ambiguity)
@@ -764,7 +764,7 @@ int main() {
 
 This is counterintuitive. Even though `A<T>` is "more restrictive" than `B<T>` (every integral type
 is either integral or floating-point), the subsumption check is **structural**, not semantic. The
-Normalized form of `B<T>` is `std::integral<T> || std::floating_point<T>`Which is a **disjunction**.
+Normalized form of `B<T>` is `std::integral<T> || std::floating_point<T>`. Which is a **disjunction**.
 The conjunction rule for subsumption does not apply to disjunctions.
 
 **The fix:** Write the refinement explicitly:
@@ -783,7 +783,7 @@ concept A = B<T> && std::integral<T>;
 // Still ambiguous!
 ```
 
-The fundamental issue is that **disjunction breaks subsumption**. When a concept uses `||`It Creates
+The fundamental issue is that **disjunction breaks subsumption**. When a concept uses `||`. It Creates
 multiple disjuncts, and the subsumption rules do not handle the case where one constraint's Conjunct
 is a subset of another constraint's disjunct.
 

@@ -957,7 +957,7 @@ type B = FirstChar<string>;
 type B = string;
 ```
 
-The conditional type evaluates to `string` because `string` satisfies `` `${infer C}${infer _}` ``
+The conditional type evaluates to `string` because `string` satisfies `` ``, ``${infer C}${infer _}``, `` ``
 with both inferences being `string`.
 
 ### Pitfall 5: `readonly` Array Covariance Breaks Mutability

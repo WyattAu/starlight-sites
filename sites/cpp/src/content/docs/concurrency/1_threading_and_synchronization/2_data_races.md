@@ -308,7 +308,7 @@ Prefer lock-free data structures for high-contention scenarios.
 ## Relaxed Memory Ordering
 
 `std::atomic` supports multiple memory orderings [N4950 §6.9.4.2]. The default is
-`memory_order_seq_cst`Which provides the strongest guarantees but also the highest overhead. Weaker
+`memory_order_seq_cst`. Which provides the strongest guarantees but also the highest overhead. Weaker
 orderings can be used when full sequential consistency is not required.
 
 ### `memory_order_relaxed`
@@ -401,7 +401,7 @@ public:
 Config* Config::instance_ = nullptr;
 ```
 
-Two threads calling `Config::get()` simultaneously can both see `instance_ == nullptr`Both Allocate
+Two threads calling `Config::get()` simultaneously can both see `instance_ == nullptr`. Both Allocate
 a `Config`And both write to `instance_`. This is a data race on `instance_` and also Causes a memory
 leak (one of the two allocations is overwritten and never freed).
 

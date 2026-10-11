@@ -23,7 +23,7 @@ categories:
 
 `std::chrono` (C++11) provides types and functions for representing and manipulating time values.
 The library uses the type system to prevent accidental mixing of time units. C++20 extended it with
-Calendar types (`year``month``day``year_month_day`) and timezone support (`zoned_time`). This
+Calendar types (`year`, `month`, `day`, `year_month_day`) and timezone support (`zoned_time`). This
 Section covers clocks, durations, elapsed time measurement, calendar operations, and time point
 Formatting.
 
@@ -114,7 +114,7 @@ void duration_arithmetic() {
 ```
 
 :::note
-`std::chrono::floor&lt;D>()``std::chrono::ceil&lt;D>()`Or `std::chrono::round&lt;D>()` (C++17) For
+`std::chrono::floor&lt;D>()`, `std::chrono::ceil&lt;D>()` or `std::chrono::round&lt;D>()` (C++17) For
 rounding conversions. These are declared in `<chrono>` [N4950 §29.5.4].
 :::
 
@@ -586,11 +586,11 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
    timeouts.
 
 2. **Mixing `duration_cast` with `round`/`floor`/`ceil`:** `duration_cast` truncates towards zero.
-   For a duration of `-1500ms``duration_cast<seconds>(-1500ms)` yields `-1s`Not `-2s`. Use
+   For a duration of `-1500ms`, `duration_cast<seconds>(-1500ms)` yields `-1s`. Not `-2s`. Use
    `floor<seconds>(-1500ms)` for `-2s`.
 
 3. **Integer overflow in duration arithmetic:** Durations use the `Rep` type for storage. If `Rep`
-   is `int32_t` and you compute `1000000s * 1000`The result overflows. Use `int64_t` durations (the
+   is `int32_t` and you compute `1000000s * 1000`. The result overflows. Use `int64_t` durations (the
    default for standard typedefs) or check bounds.
 
 4. **Timezone database not available:** On some minimal Linux containers or embedded systems, the
@@ -598,7 +598,7 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
    Always wrap timezone operations in try-catch.
 
 5. **`high_resolution_clock` may be `system_clock`:** The standard allows `high_resolution_clock` to
-   alias either `system_clock` or `steady_clock`. If it aliases `system_clock`It is not monotonic
+   alias either `system_clock` or `steady_clock`. If it aliases `system_clock`. It is not monotonic
    and is unsuitable for measuring elapsed time. Check `is_steady` at runtime.
 
 6. **Ignoring `clock_cast` for inter-clock conversions:** C++20 provides `std::chrono::clock_cast`

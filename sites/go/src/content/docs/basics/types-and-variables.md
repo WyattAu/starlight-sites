@@ -98,7 +98,7 @@ fmt.Println(!b) // false
 ## String Type
 
 Strings are immutable sequences of UTF-8 bytes. They are not null-terminated and their length is
-Stored explicitly. The zero value is `""`Not `nil`.
+Stored explicitly. The zero value is `""`. Not `nil`.
 
 ```go
 s := "hello"
@@ -308,7 +308,7 @@ type Rune = int32
 1. **Using `==` to compare floats.** IEEE 754 makes exact equality unreliable. Use an epsilon
    comparison: `math.Abs(a-b) < epsilon`.
 
-2. **String indexing yields bytes.** `s[i]` returns a `byte`Not a `rune`. For multi-byte UTF-8, this
+2. **String indexing yields bytes.** `s[i]` returns a `byte`. Not a `rune`. For multi-byte UTF-8, this
    can split a character. Use `for i, r := range s` for rune iteration.
 
 3. **Assuming `int` is 64-bit.** On 32-bit systems, `int` is 32 bits. Use `int64` explicitly when
@@ -318,7 +318,7 @@ type Rune = int32
    one. Use `=` for assignment to an existing variable.
 
 5. **`nil` slices vs empty slices.** A `nil` slice has length and capacity 0 but is not equal to an
-   empty slice (`[]int{}`). JSON marshaling treats them differently: `nil` becomes `null``[]int{}`
+   empty slice (`[]int{}`). JSON marshaling treats them differently: `nil` becomes `null`, `[]int{}`
    becomes `[]`.
 
 6. **Integer overflow is silent.** Unlike Rust (debug panics) or Python (arbitrary precision), Go

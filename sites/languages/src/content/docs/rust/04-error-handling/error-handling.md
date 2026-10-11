@@ -37,7 +37,7 @@ Common panic sources:
 - `unwrap()` on `None` or `Err`
 - Array index out of bounds
 - Integer overflow in debug mode
-- `assert!``assert_eq!``assert_ne!` failures
+- `assert!`, `assert_eq!`, `assert_ne!` failures
 - Calling `panic!` directly
 - Division by zero
 
@@ -125,7 +125,7 @@ x.and_then(|n| {
 ```
 
 `map` transforms the inner value if `Some`Passes through `None`. `and_then` (also known as `flatMap`
-or `bind`) chains operations that may fail, if the first operation returns `None`The Entire chain
+or `bind`) chains operations that may fail, if the first operation returns `None`. The Entire chain
 short-circuits.
 
 ### `unwrap_or` and `unwrap_or_else`
@@ -159,7 +159,7 @@ let r: Result<i32, String> = y.ok_or_else(|| {
 });
 ```
 
-### `filter``zip``unzip`
+### `filter`, `zip`, `unzip`
 
 ```rust
 let x: Option<i32> = Some(5);
@@ -175,7 +175,7 @@ let (first, second): (Option<i32>, Option<i32>) = pair.unzip();
 // first == Some(1), second == Some(2)
 ```
 
-### `is_some``is_none``as_ref``as_mut`
+### `is_some`, `is_none`, `as_ref`, `as_mut`
 
 ```rust
 let x: Option<String> = Some("hello".to_string());
@@ -192,7 +192,7 @@ for mutable borrows.
 
 ### Iterating Over `Option`
 
-`Option` implements `IntoIterator`So you can use it in `for` loops:
+`Option` implements `IntoIterator`. So you can use it in `for` loops:
 
 ```rust
 let x: Option<i32> = Some(5);
@@ -237,7 +237,7 @@ let result = parse("abc").and_then(validate); // Err("not a number")
 let result = parse("-5").and_then(validate); // Err("negative")
 ```
 
-### `unwrap_or``unwrap_or_else`
+### `unwrap_or`, `unwrap_or_else`
 
 ```rust
 let r: Result<i32, &str> = Err("failed");
@@ -304,7 +304,7 @@ fn read_config(path: &str) -> Result<Config, Box<dyn std::error::Error>> {
 
 ### `?` with `Option`
 
-The `?` operator also works with `Option`. In a function returning `Option<T>``?` propagates `None`:
+The `?` operator also works with `Option`. In a function returning `Option<T>`, `?` propagates `None`:
 
 ```rust
 fn first_even(nums: &[i32]) -> Option<i32> {
@@ -316,7 +316,7 @@ fn first_even(nums: &[i32]) -> Option<i32> {
 ### `?` and `From` Trait Conversion
 
 The `?` operator automatically converts errors using the `From` trait. If the function returns
-`Result<T, E>`Then `?` on a `Result<T2, E2>` will call `E2::from(e)` to convert the error, Provided
+`Result<T, E>`. Then `?` on a `Result<T2, E2>` will call `E2::from(e)` to convert the error, Provided
 `impl From<E2> for E` exists:
 
 ```rust
@@ -334,7 +334,7 @@ fn read_file_boxed(path: &str) -> Result<String, Box<dyn std::error::Error>> {
 }
 ```
 
-The conversion chain: `io::Error` implements `Into<Box<dyn std::error::Error>>`So `?` can convert
+The conversion chain: `io::Error` implements `Into<Box<dyn std::error::Error>>`. So `?` can convert
 `io::Error` into `Box<dyn Error>` automatically.
 
 ### Early Return with `?` in `main`
@@ -843,7 +843,7 @@ fn handle_error(err: &dyn Error) {
 
 9. **Panicking in library code.** Libraries should never panic on expected failure modes. Panics are
    for bugs (internal invariant violations). If a library function receives invalid input, it should
-   return `Err`Not panic. The one exception is `debug_assert!` which is compiled out in release
+   return `Err`. Not panic. The one exception is `debug_assert!` which is compiled out in release
    mode.
 
 10. **Using `match` instead of `?` for error propagation.** Writing explicit `match` blocks for

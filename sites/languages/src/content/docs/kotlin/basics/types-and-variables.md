@@ -78,8 +78,8 @@ val doubleVal: Double = intVal.toDouble()
 // val bad: Long = intVal  // compile error
 ```
 
-The `toXxx()` methods exist on all numeric types: `toByte()``toShort()``toInt()``toLong()`
-`toFloat()``toDouble()``toChar()`.
+The `toXxx()` methods exist on all numeric types: `toByte()`, `toShort()`, `toInt()`, `toLong()`
+`toFloat()`, `toDouble()`, `toChar()`.
 
 ## Type Inference
 

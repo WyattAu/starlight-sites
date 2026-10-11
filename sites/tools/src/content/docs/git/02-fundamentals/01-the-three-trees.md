@@ -32,7 +32,7 @@ overloaded in Git terminology, see [Git Objects](/git/02-fundamentals/02-git-obj
    graph of objects.
 
 Almost every Git command is a transformation between these three trees. Understanding this model
-makes Git's behavior predictable, even for commands that appear confusing (like `git checkout`Which
+makes Git's behavior predictable, even for commands that appear confusing (like `git checkout`. Which
 can mean different things depending on context).
 
 ```mermaid
@@ -139,7 +139,7 @@ contains:
   SHA-1 hashes.
 - **References** (`.git/refs/`): Named pointers to commits, branches, tags, HEAD.
 - **Configuration** (`.git/config`): Repository-local settings.
-- **Various metadata**: `description``info/exclude``hooks/`Etc.
+- **Various metadata**: `description`, `info/exclude`, `hooks/`. Etc.
 
 The repository is the **authoritative source of truth** for the project's history. The working
 directory and index are derived from it; they are caches that can be reconstructed at any time.

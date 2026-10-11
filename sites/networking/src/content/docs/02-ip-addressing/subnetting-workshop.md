@@ -115,8 +115,8 @@ also uses `/31` for network equipment links per RFC 6164.
 ### Verifying with a Shortcut
 
 For the octet where the boundary falls, the "magic number" is $256 - \mathrm{mask\_octet$. For
-`/26`The mask in the fourth octet is `192`So the magic number is $256 - 192 = 64$. Subnets start At
-multiples of 64: `.0``.64``.128``.192`. Our IP `.75` falls in the `.64` subnet.
+`/26`. The mask in the fourth octet is `192`. So the magic number is $256 - 192 = 64$. Subnets start At
+multiples of 64: `.0`, `.64`, `.128`, `.192`. Our IP `.75` falls in the `.64` subnet.
 
 This shortcut works because the boundary octet always has a value that is a power of 2 (or 256 minus
 A power of 2).
@@ -125,7 +125,7 @@ A power of 2).
 
 ### Why Classful Is Wasteful
 
-Classful addressing (fixed `/8``/16``/24`) wastes enormous amounts of address space. Consider an
+Classful addressing (fixed `/8`, `/16`, `/24`) wastes enormous amounts of address space. Consider an
 Organization with these requirements:
 
 | Segment    | Hosts Needed |
@@ -137,8 +137,8 @@ Organization with these requirements:
 | Management | 10           |
 
 With classful addressing, you need one `/24` (254 hosts) for the datacenter (wastes 54), three more
-`/24`S for the offices and management (wastes hundreds more), and four `/24`S for WAN links (wastes
-252 each). That is 8 `/24`S for a problem that needs far fewer addresses.
+`/24`s for the offices and management (wastes hundreds more), and four `/24`s for WAN links (wastes
+252 each). That is 8 `/24`s for a problem that needs far fewer addresses.
 
 VLSM allows you to use different subnet masks for different segments, matching each mask to the
 Actual host requirement.
@@ -239,9 +239,9 @@ And broadcast address?
 **Solution:**
 
 Mask `255.255.255.224` = `/27`. Magic number = $256 - 224 = 32$. Subnets start at multiples of 32:
-`.0``.32``.64``.96``.128``.160``.192``.224`.
+`.0`, `.32`, `.64`, `.96`, `.128`, `.160`, `.192`, `.224`.
 
-`.150` falls between `.128` and `.160`So:
+`.150` falls between `.128` and `.160`. So:
 
 ```
 Network:    172.16.5.128
@@ -312,7 +312,7 @@ Advertisement. This reduces routing table size and hides topology changes.
 
 ### Method
 
-**Problem:** Summarize `192.168.16.0/24``192.168.17.0/24``192.168.18.0/24`And `192.168.19.0/24`.
+**Problem:** Summarize `192.168.16.0/24`, `192.168.17.0/24`, `192.168.18.0/24` and `192.168.19.0/24`.
 
 **Step 1:** Convert the third octets to binary:
 
@@ -350,13 +350,13 @@ This covers `192.168.16.0` through `192.168.19.255`.
 ### Verifying the Summary
 
 The summary `192.168.16.0/22` covers addresses from `192.168.16.0` to `192.168.19.255`. The range is
-$2^{10} = 1024$ addresses (4 `/24`S).
+$2^{10} = 1024$ addresses (4 `/24`s).
 
-To verify: the network address is the first address, and the broadcast is the last. For `/22`The
+To verify: the network address is the first address, and the broadcast is the last. For `/22`. The
 Third octet magic number is $256 - 252 = 4$ (mask = `11111100` = 252). Subnets start at multiples of
-4 in the third octet: `.0``.4``.8`..., `.16``.20`...
+4 in the third octet: `.0`, `.4`, `.8`..., `.16`, `.20`...
 
-Our summary starts at `.16` and covers `.16``.17``.18``.19` -- correct.
+Our summary starts at `.16` and covers `.16`, `.17`, `.18`, `.19` -- correct.
 
 ### Longest Prefix Match
 
@@ -368,8 +368,8 @@ Rule. For example:
 192.168.17.0/24  via Router B
 ```
 
-Traffic to `192.168.17.5` matches both routes, but `/24` is longer (more specific) than `/22`So The
-router sends it via Router B. Traffic to `192.168.18.5` only matches `/22`So it goes via Router A.
+Traffic to `192.168.17.5` matches both routes, but `/24` is longer (more specific) than `/22`. So The
+router sends it via Router B. Traffic to `192.168.18.5` only matches `/22`. So it goes via Router A.
 :::
 
 :::note
@@ -380,7 +380,7 @@ Multi-Path) load balancing is used.
 ### When Summarization Fails
 
 Summarization only works when the networks being summarized are contiguous and aligned to the
-Summary boundary. If you have `192.168.16.0/24` and `192.168.20.0/24`You cannot create a single
+Summary boundary. If you have `192.168.16.0/24` and `192.168.20.0/24`. You cannot create a single
 Clean summary because the range 17-19 is missing. Attempting to summarize to `/21`
 (`192.168.16.0/21`) would include addresses you do not control, potentially creating a black hole.
 
@@ -456,7 +456,7 @@ Anything. This matches `172.16.4.0/22` exactly.
 ### Subnetting a /48
 
 The standard enterprise IPv6 allocation from a RIR (Regional Internet Registry) is a `/48`. The RFC
-6177 recommendation is to give each site a `/48`. Within a site, you subnet the `/48` into `/64`S
+6177 recommendation is to give each site a `/48`. Within a site, you subnet the `/48` into `/64`s
 for individual LAN segments.
 
 A `/48` gives you $2^{16} = 65536$ possible `/64` subnets. That is not a typo. You will not run out.
@@ -609,13 +609,13 @@ Last host:  10.150.75.222
 
 **Q:** How many usable subnets does `172.16.0.0/21` create from `172.16.0.0/16`?
 
-**A:** The original prefix is `/16`The new prefix is `/21`. Subnet bits = $21 - 16 = 5$. Number of
+**A:** The original prefix is `/16`. The new prefix is `/21`. Subnet bits = $21 - 16 = 5$. Number of
 Subnets = $2^5 = 32$. Each subnet has $32 - 21 = 11$ host bits, giving $2^{11} - 2 = 2046$ usable
 Hosts.
 
 ### Problem 3
 
-**Q:** You need to summarize `10.1.0.0/16``10.2.0.0/16``10.3.0.0/16`And `10.4.0.0/16`. What is The
+**Q:** You need to summarize `10.1.0.0/16`, `10.2.0.0/16`, `10.3.0.0/16` and `10.4.0.0/16`. What is The
 summary?
 
 **A:** Convert second octets to binary:
@@ -647,7 +647,7 @@ Routes or accept the over-summarization.
 :::
 
 :::caution
-A single prefix without including `10.0``10.5``10.6`And `10.7`. If the question requires an Exact
+A single prefix without including `10.0`, `10.5`, `10.6` and `10.7`. If the question requires an Exact
 summary, the answer is: it cannot be done with a single prefix.
 
 ### Problem 4
@@ -800,7 +800,7 @@ docker run --network my-network --ip 172.18.0.11 redis
 ```
 
 Default Docker networks use `172.17.0.0/16` (bridge), and each additional custom network gets the
-Next available `/16` from `172.18.0.0/16``172.19.0.0/16`Etc. Be aware of potential overlap with Your
+Next available `/16` from `172.18.0.0/16`, `172.19.0.0/16`. Etc. Be aware of potential overlap with Your
 existing infrastructure when choosing Docker subnets.
 
 ### Kubernetes Networking

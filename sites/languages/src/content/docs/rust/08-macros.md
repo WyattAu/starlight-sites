@@ -299,7 +299,7 @@ macro_rules! println {
 }
 ```
 
-The key insight is that `println!` delegates to `format_args!`Which is a built-in compiler macro
+The key insight is that `println!` delegates to `format_args!`. Which is a built-in compiler macro
 that parses the format string at compile time and validates the arguments. The `$($arg:tt)*` pattern
 Captures everything as token trees and passes them through to `format_args!`.
 
@@ -358,7 +358,7 @@ macro_rules! my_assert {
 
 :::note
 Definition appears. This means a macro defined in a submodule is accessible as
-`my_crate::my_assert!`Not `my_crate::submodule::my_assert!`. This is a historical design decision
+`my_crate::my_assert!`. Not `my_crate::submodule::my_assert!`. This is a historical design decision
 that has no prospect of changing.
 
 ### Scoping Rules
@@ -510,7 +510,7 @@ my_macros = { path = "../my_macros" }
 ### Dependencies
 
 - **`proc-macro2`**: A wrapper around the compiler's `proc_macro::TokenStream` that implements
-  `Clone``Debug`And other standard traits. Use `proc_macro2::TokenStream` everywhere in your code;
+  `Clone`, `Debug` and other standard traits. Use `proc_macro2::TokenStream` everywhere in your code;
   convert to/from `proc_macro::TokenStream` only at the entry point.
 
 - **`syn`**: A complete Rust parser. Parses `TokenStream` into typed AST nodes ( structs, functions,
@@ -957,7 +957,7 @@ fn get_user(id: u32) -> String {
 ### Definition
 
 **Definition.** A function-like procedural macro is invoked with `macro_name!(tokens)` syntax and
-Replaces the entire invocation with the generated code. Unlike `macro_rules!`It has full access to
+Replaces the entire invocation with the generated code. Unlike `macro_rules!`. It has full access to
 the token stream and can parse it with `syn`.
 
 ### Implementation Pattern
@@ -1550,7 +1550,7 @@ Names that include parts of the input.
    `#[macro_use] extern crate` syntax is deprecated in edition 2021.
 
 3. **Hygiene violations in proc macros.** Procedural macros are not hygienic for local variables. If
-   your proc macro generates a variable named `x`It can shadow a variable `x` at the call site. Use
+   your proc macro generates a variable named `x`. It can shadow a variable `x` at the call site. Use
    unique names (prefixed with `__` or using `paste!`) to avoid collisions.
 
 4. **Pattern matching order in `macro_rules!`.** Arms are matched top-to-bottom. A more specific
@@ -1571,7 +1571,7 @@ Names that include parts of the input.
    specific tokens. This makes errors much easier to debug.
 
 8. **Proc macro crates cannot export regular items.** A crate with `proc-macro = true` can only
-   export proc-macro functions (`#[proc_macro]``#[proc_macro_derive]``#[proc_macro_attribute]`). Any
+   export proc-macro functions (`#[proc_macro]`, `#[proc_macro_derive]`, `#[proc_macro_attribute]`). Any
    non-macro exports will cause a compile error. Put shared types and helper functions in a separate
    crate and depend on it from both the proc-macro crate and the consumer.
 

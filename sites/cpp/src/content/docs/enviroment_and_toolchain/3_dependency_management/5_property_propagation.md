@@ -34,7 +34,7 @@ Scopes.
 
 ## The Visibility Scopes
 
-When declaring properties (`target_include_directories``target_compile_definitions`) or Dependencies
+When declaring properties (`target_include_directories`, `target_compile_definitions`) or Dependencies
 (`target_link_libraries`), CMake requires a scope keyword.
 
 ### 1. PRIVATE (Encapsulation)
@@ -62,11 +62,11 @@ When declaring properties (`target_include_directories``target_compile_definitio
 - **Semantics:** The property is required for **both** building the target and by consumers.
 - **Mechanism:** Populates both the build properties and the `INTERFACE_` properties.
 - **Use Case:** Public API dependencies. If `LibA` includes `<fmt/core.h>` in its public header
-  `liba.h`Then any consumer of `LibA` must also have access to `fmt`'s include path.
+  `liba.h`. Then any consumer of `LibA` must also have access to `fmt`'s include path.
 
 ### Proof of Property Propagation Rules
 
-**Claim:** When target `B` links against target `A` with scope `S`The `INTERFACE_` properties of `A`
+**Claim:** When target `B` links against target `A` with scope `S`. The `INTERFACE_` properties of `A`
 propagate to `B` if and only if `S` is `PUBLIC` or `INTERFACE`.
 
 **Proof:**
@@ -158,7 +158,7 @@ the propagation behavior for each.
 
 ### Key Observations
 
-1. **Not all properties propagate.** `target_sources``target_precompile_headers`And position
+1. **Not all properties propagate.** `target_sources`, `target_precompile_headers` and position
    independent code settings are always `PRIVATE` and cannot be made transitive.
 2. **Include directories and compile definitions are the most commonly propagated properties.**
    These are the properties that directly affect whether a consumer can compile against a library.
@@ -210,7 +210,7 @@ target_include_directories(JsonLib INTERFACE include/)
 
 ### Pattern 3: Interface Alias for Installed Packages
 
-When consuming an installed package via `find_package`You can create an interface target to
+When consuming an installed package via `find_package`. You can create an interface target to
 Standardize the consumption:
 
 ```cmake
@@ -247,7 +247,7 @@ target_include_directories(CoreSystem PUBLIC
 
 During development, the build tree has a different directory layout than the install tree. Consider
 A library `Core` with headers in `Core/include/`. During an in-tree build, the include path is
-`/path/to/project/Core/include`. After installation with `DESTINATION include`The path is
+`/path/to/project/Core/include`. After installation with `DESTINATION include`. The path is
 `/usr/local/include`.
 
 If you write:
@@ -360,7 +360,7 @@ should be `PRIVATE`.
 
 ### Compile Options
 
-Compiler flags (`-Wall``-O2``/W4`) propagate similarly.
+Compiler flags (`-Wall`, `-O2`, `/W4`) propagate similarly.
 
 ```cmake
 add_library(Physics src/physics.cpp)
@@ -419,7 +419,7 @@ App (static)
 
 **Total binary size contribution from transitive deps:** ~2.35MB (OpenSSL dominates).
 
-If `OpenSSL::SSL` were changed to `PRIVATE` on `Network`The binary would shrink by ~2MB, but
+If `OpenSSL::SSL` were changed to `PRIVATE` on `Network`. The binary would shrink by ~2MB, but
 `Server` could no longer expose OpenSSL types in its public headers.
 
 ### Measuring Transitive Dependency Size
@@ -626,7 +626,7 @@ Dependency, but all of the linked target's own transitive usage requirements.
    directories are not propagated. If any header in the target's public interface includes the
    header-only library's headers, consumers will fail to compile.
 3. **Mismatched `INTERFACE` and `PUBLIC` in installed packages:** When exporting a CMake package via
-   `install(EXPORT ...)`The `PUBLIC` and `INTERFACE` properties must be correctly specified. If a
+   `install(EXPORT ...)`. The `PUBLIC` and `INTERFACE` properties must be correctly specified. If a
    dependency is `PUBLIC` in the build tree but not exported in the install tree, installed
    consumers will get linker errors.
 4. **`SYSTEM` include directories:** Using `SYSTEM` on your own project's headers (not third-party)
@@ -639,7 +639,7 @@ Dependency, but all of the linked target's own transitive usage requirements.
    detects a cycle and errors. This indicates a design flaw: the two libraries should be merged or
    the dependency should be made PRIVATE on at least one side.
 7. **Forgetting that `target_link_libraries` propagates more than just linking.** When you write
-   `target_link_libraries(MyLib PUBLIC OtherLib)`You are not just adding a linker dependency. You
+   `target_link_libraries(MyLib PUBLIC OtherLib)`. You are not just adding a linker dependency. You
    are also propagating all of `OtherLib`'s include directories, compile definitions, compile
    options, and link options to every consumer of `MyLib`. This can cause unexpected side effects
    like inheriting warning suppression flags or optimization flags from transitive dependencies.
@@ -684,7 +684,7 @@ add_custom_target(debug_props
 ### Common Diagnostic Patterns
 
 1. **"Cannot find -lfoo" at link time:** The library is linked with `PUBLIC` but the include
-   directory is `PRIVATE`So the consumer cannot find the headers. Or the library is linked as
+   directory is `PRIVATE`. So the consumer cannot find the headers. Or the library is linked as
    `PRIVATE` but the consumer's header includes it.
 2. **"Undeclared identifier" in consumer:** A `PUBLIC` include directory is missing. The dependency
    is linked but its include paths are not propagated.

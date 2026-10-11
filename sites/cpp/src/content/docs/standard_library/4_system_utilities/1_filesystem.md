@@ -42,8 +42,8 @@ Separators (`/` vs `\`), permissions models, and file metadata are normalized in
 Interface.
 
 :::note
-`opendir``readdir``unlink`Etc.). On Windows, it uses the Win32 API (`CreateFileW`
-`FindFirstFileW`Etc.). The interface is the same on both platforms, but some features are only
+`opendir`, `readdir`, `unlink`. Etc.). On Windows, it uses the Win32 API (`CreateFileW`
+`FindFirstFileW`. Etc.). The interface is the same on both platforms, but some features are only
 Available on one (e.g., file permissions are more expressive on POSIX).
 :::
 
@@ -296,7 +296,7 @@ void file_operations_demo(const fs::path& work_dir) {
 
 :::caution
 Confirmation. Never call it with a path derived from untrusted user input without validation. Unlike
-`rm -rf`There is no "trash" or "undo" mechanism.
+`rm -rf`. There is no "trash" or "undo" mechanism.
 :::
 
 ## See Also

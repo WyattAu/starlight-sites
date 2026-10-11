@@ -527,7 +527,7 @@ gaining control of execution when the function returns.
 - **ASLR:** Randomises the stack base address, so the attacker cannot predict where `buffer` (and
   therefore the shellcode) will be in memory.
 - **DEP (W\^X):** Marks the stack as non-executable. Even if the attacker overwrites the return
-  address to point to the shellcode in `buffer`The CPU will fault when trying to execute it.
+  address to point to the shellcode in `buffer`. The CPU will fault when trying to execute it.
 - **CFI:** Verifies that the return address points to a valid call site. A crafted address injected
 by the overflow would fail the CFI check.
 

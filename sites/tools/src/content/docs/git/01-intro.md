@@ -34,7 +34,7 @@ Proprietary license for BitKeeper was revoked. The design constraints of the Lin
 Shaped Git's architecture.
 
 :::note
-Here (e.g., `git switch``git restore`Sparse checkout) are unavailable in older versions.
+Here (e.g., `git switch`, `git restore`Sparse checkout) are unavailable in older versions.
 
 ## Design Philosophy
 
@@ -46,7 +46,7 @@ Workflow:
 Every repository clone contains the **complete object database**, every commit, every tree, every
 Blob. This means:
 
-- **Offline operation**: `git log``git diff``git blame``git show` all work without network access.
+- **Offline operation**: `git log`, `git diff`, `git blame`, `git show` all work without network access.
   You can commit, branch, and merge entirely offline.
 - **Speed**: Local operations read from the filesystem, not the network. `git log` on a cold
   repository scans the local object store.
@@ -92,7 +92,7 @@ plus header**. This means:
 
 ### 4. Nearly Every Operation is Local
 
-With the exception of `git fetch``git pull``git push``git clone`And `git ls-remote`Every Git
+With the exception of `git fetch`, `git pull`, `git push`, `git clone` and `git ls-remote`. Every Git
 operation works on local data. This was a hard requirement for the Linux kernel workflow, where
 Contributors on dial-up connections needed to work efficiently.
 

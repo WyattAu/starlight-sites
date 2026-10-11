@@ -561,7 +561,7 @@ Step 3: Broadcast address (all host bits = 1):
 
 Broadcast: `10.150.79.255`
 
-Step 4: Usable range: `10.150.64.1``10.150.79.254`
+Step 4: Usable range: `10.150.64.1`, `10.150.79.254`
 
 Hosts per subnet: $2^{12} - 2 = 4094$
 
@@ -679,7 +679,7 @@ Supporting at least 200 hosts. Determine a suitable subnet mask and verify the r
 
 Subnets needed: 100. Borrowing bits: $2^6 = 64$ (not enough), $2^7 = 128$ (enough). Borrow 7 bits.
 
-New mask: `/16 + 7 = /23``255.255.254.0`
+New mask: `/16 + 7 = /23`, `255.255.254.0`
 
 Hosts per subnet: $2^{32-23} - 2 = 2^9 - 2 = 510$ (meets the 200 host requirement).
 

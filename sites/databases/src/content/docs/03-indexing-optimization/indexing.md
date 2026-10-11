@@ -203,7 +203,7 @@ SELECT * FROM employees WHERE salary > 100000;
 The general rule for ordering columns in a composite index:
 
 1. **Equality columns first** -- columns used with `=` go before range columns
-2. **Range columns after equality** -- columns used with `>``<``BETWEEN``LIKE` come after
+2. **Range columns after equality** -- columns used with `>`, `<`, `BETWEEN`, `LIKE` come after
 3. **Most selective columns first** among equality columns (reduces the search space faster)
 
 ```sql

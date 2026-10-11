@@ -111,9 +111,9 @@ Dependencies, plugins, and build configuration.
 
 **Coordinate system:** Every Maven artifact is identified by three coordinates:
 
-- **`groupId`**, the reverse domain name (`com.example``org.apache.commons`).
-- **`artifactId`**, the project or library name (`my-app``commons-lang3`).
-- **`version`**, semantic version (`1.0.0``2.3.1-SNAPSHOT`).
+- **`groupId`**, the reverse domain name (`com.example`, `org.apache.commons`).
+- **`artifactId`**, the project or library name (`my-app`, `commons-lang3`).
+- **`version`**, semantic version (`1.0.0`, `2.3.1-SNAPSHOT`).
 
 ### Lifecycle Phases
 
@@ -618,7 +618,7 @@ mvn dependency:tree -Dverbose | grep "conflict"
 ./gradlew dependencies --configuration runtimeClasspath
 ```
 
-**Symptoms:** `NoSuchMethodError``ClassNotFoundException``NoClassDefFoundError` at runtime. These
+**Symptoms:** `NoSuchMethodError`, `ClassNotFoundException`, `NoClassDefFoundError` at runtime. These
 occur when multiple versions of the same library are on the classpath.
 
 **Fix:** Use `dependencyManagement` (Maven) or `constraints`/BOM (Gradle) to force a single version
@@ -660,7 +660,7 @@ Your CI to clean the local Maven repository before building.
 
 ### Not Using a Dependency BOM
 
-Without a BOM or `dependencyManagement`Each dependency version must be declared individually,
+Without a BOM or `dependencyManagement`. Each dependency version must be declared individually,
 Leading to version mismatches between related libraries:
 
 ```xml
@@ -982,7 +982,7 @@ gradle wrapper --gradle-version=8.5
 ```
 
 The wrapper downloads the specified Gradle distribution to `~/.gradle/wrapper/dists/`. Check
-`gradlew``gradlew.bat`And `gradle/wrapper/gradle-wrapper.properties` into version control.
+`gradlew`, `gradlew.bat` and `gradle/wrapper/gradle-wrapper.properties` into version control.
 
 :::caution
 Different developers (and CI agents) may have different versions installed, leading to "works on my

@@ -84,7 +84,7 @@ java -XX:TieredStopAtLevel=1 MyApp
 ### Method Invocation Counters
 
 Each method has an invocation counter. Each time the method is called (via `invokevirtual`
-`invokeinterface``invokestatic`Or `invokespecial`), the counter increments. When the counter Crosses
+`invokeinterface`, `invokestatic` or `invokespecial`), the counter increments. When the counter Crosses
 the compilation threshold, the method is queued for compilation.
 
 ```bash

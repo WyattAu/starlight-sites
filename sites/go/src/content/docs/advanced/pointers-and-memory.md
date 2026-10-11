@@ -225,7 +225,7 @@ s := unsafe.String(&b[0], len(b)) // []byte to string without allocation
 2. Never store a `uintptr` where the GC can see it. The GC treats `uintptr` as an integer, not a
    pointer, and may collect the underlying object.
 
-3. `unsafe.Pointer` rules: a `T1` can be converted to `unsafe.Pointer`Which can be converted to
+3. `unsafe.Pointer` rules: a `T1` can be converted to `unsafe.Pointer`. Which can be converted to
    `T2`. This allows arbitrary pointer type conversion.
 
 ```go

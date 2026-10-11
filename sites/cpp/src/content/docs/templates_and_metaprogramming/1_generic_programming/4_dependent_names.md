@@ -73,7 +73,7 @@ int main() {
 ```
 
 :::caution
-Access members of the base class. Without `this->`The name is non-dependent and looked up at Phase
+Access members of the base class. Without `this->`. The name is non-dependent and looked up at Phase
 1, where the base class members are invisible. This is the single most common two-phase lookup bug
 [N4950 S13.8.3].
 :::
@@ -83,10 +83,10 @@ Access members of the base class. Without `this->`The name is non-dependent and 
 The standard defines precisely when a name is dependent [N4950 S13.8.3/1]. A name is dependent if
 any of the following hold:
 
-1. **A qualified-id whose qualifier is dependent.** `T::member``TT&lt;Args&gt;::type`Etc.
+1. **A qualified-id whose qualifier is dependent.** `T::member`, `TT&lt;Args&gt;::type`. Etc.
 2. **An unqualified name in a function call** where at least one argument has a dependent type. This
    triggers ADL at Phase 2.
-3. **A name used in a type-specifier** where the type is dependent: `sizeof(T)``alignof(T)`
+3. **A name used in a type-specifier** where the type is dependent: `sizeof(T)`, `alignof(T)`
    `decltype(expr)` where `expr` is type-dependent.
 4. **A name used in a `new`-expression** or `delete`-expression where the type is dependent.
 5. **A `throw`-expression** where the thrown type is dependent.
@@ -255,7 +255,7 @@ int main() {
 ### Why `typename` Is Needed: A Parsing Argument
 
 The need for `typename` arises from a fundamental ambiguity in the C++ grammar. Consider the
-Expression `T::foo * x` inside a template. Without `typename`The compiler must decide whether this
+Expression `T::foo * x` inside a template. Without `typename`. The compiler must decide whether this
 is:
 
 1. A declaration of a pointer variable named `x` of type `T::foo` (if `T::foo` is a type).
@@ -377,7 +377,7 @@ Ambiguity. Consider `obj.foo&lt;int&gt;(42)` inside a template where `obj` has d
 The compiler must decide whether this is:
 
 1. A call to a template member function `obj.foo&lt;int&gt;` with argument `42`.
-2. A comparison `(obj.foo) &lt; int &gt; (42)`Which parses as `(obj.foo) &lt; (int &gt; 42)`.
+2. A comparison `(obj.foo) &lt; int &gt; (42)`. Which parses as `(obj.foo) &lt; (int &gt; 42)`.
 
 Without the `template` keyword, the parser defaults to interpretation (2) because it does not know
 that `foo` is a template at Phase 1 [N4950 S13.8.3/2]. The `template` keyword explicitly tells the
@@ -517,7 +517,7 @@ int main() {
 ### ADL and Operators
 
 ADL is the mechanism that allows operator overloading to work with template types. When you write
-`a + b` inside a template where `a` and `b` have dependent type `T`The lookup for `operator+` is
+`a + b` inside a template where `a` and `b` have dependent type `T`. The lookup for `operator+` is
 Deferred to Phase 2 via ADL. This is how `std::cout &lt;&lt; "hello"` works: the `&lt;&lt;` operator
 is found via ADL in the namespace of `std::cout` (which is `std`).
 
@@ -799,7 +799,7 @@ Dependent names are names that depend on a template parameter, and the compiler 
    defaults to assuming such names are non-types, which leads to confusing parse errors.
 
 3. **Forgetting `template` for dependent template members.** When calling a template member function
-   through a dependent object, use `obj.template func&lt;Args&gt;()`. Without `template`The `&lt;`
+   through a dependent object, use `obj.template func&lt;Args&gt;()`. Without `template`. The `&lt;`
    is parsed as a comparison operator.
 
 4. **Assuming Phase 2 finds non-ADL names.** Only dependent names and ADL-dependent calls are

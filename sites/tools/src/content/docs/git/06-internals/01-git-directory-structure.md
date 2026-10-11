@@ -128,7 +128,7 @@ Unnamed repository; edit this file "description' to name the repository.
 
 ### info/exclude
 
-Local gitignore rules that are **not shared** with other developers (unlike `.gitignore`Which is
+Local gitignore rules that are **not shared** with other developers (unlike `.gitignore`. Which is
 tracked):
 
 ```bash

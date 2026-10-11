@@ -924,13 +924,13 @@ $$
 The arc length of a curve $y = f(x)$ from $x = a$ to $x = b$:
 
 $$
-L = \int_a^b \sqrt{1 + \left(\frac`\{dy}``\{dx}`\right)^2}\,dx
+L = \int_a^b \sqrt{1 + \left(\frac`\{dy}`, `\{dx}`\right)^2}\,dx
 $$
 
 For a parametric curve $(x(t), y(t))$ from $t = t_1$ to $t = t_2$:
 
 $$
-L = \int_{t_1}^{t_2} \sqrt{\left(\frac`\{dx}``\{dt}`\right)^2 + \left(\frac`\{dy}``\{dt}`\right)^2}\,dt
+L = \int_{t_1}^{t_2} \sqrt{\left(\frac`\{dx}`, `\{dt}`\right)^2 + \left(\frac`\{dy}`, `\{dt}`\right)^2}\,dt
 $$
 :::
 
@@ -938,15 +938,15 @@ $$
 Find the arc length of $y = \dfrac{x^3}{6} + \dfrac{1}{2x}$ from $x = 1$ to $x = 3$.
 
 $$
-\frac`\{dy}``\{dx}` = \frac{x^2}{2} - \frac{1}{2x^2}
+\frac`\{dy}`, `\{dx}` = \frac{x^2}{2} - \frac{1}{2x^2}
 $$
 
 $$
-\left(\frac`\{dy}``\{dx}`\right)^2 = \frac{x^4}{4} - \frac{1}{2} + \frac{1}{4x^4}
+\left(\frac`\{dy}`, `\{dx}`\right)^2 = \frac{x^4}{4} - \frac{1}{2} + \frac{1}{4x^4}
 $$
 
 $$
-1 + \left(\frac`\{dy}``\{dx}`\right)^2 = \frac{x^4}{4} + \frac{1}{2} + \frac{1}{4x^4} = \left(\frac{x^2}{2} + \frac{1}{2x^2}\right)^2
+1 + \left(\frac`\{dy}`, `\{dx}`\right)^2 = \frac{x^4}{4} + \frac{1}{2} + \frac{1}{4x^4} = \left(\frac{x^2}{2} + \frac{1}{2x^2}\right)^2
 $$
 
 $$

@@ -133,7 +133,7 @@ int main() {
 
 C++20 introduced the **sentinel** concept [N4950 §25.3.5]. A sentinel is a type that can be compared
 with an iterator to determine the end of a range, but is **not itself an iterator**. The key
-Interface is `std::sentinel_for&lt;S, I>`Which requires that `S` and `I` be comparable with `==` And
+Interface is `std::sentinel_for&lt;S, I>`. Which requires that `S` and `I` be comparable with `==` And
 `!=` [N4950 §25.3.5.2].
 
 ```cpp
@@ -309,7 +309,7 @@ reallocation across insertions. The amortized cost of `push_back` is O(1), but a
 ### Unordered Container Invalidation on Rehash
 
 `std::unordered_map` and `std::unordered_set` store elements in a hash table. When the load factor
-Exceeds `max_load_factor()`The container **rehashes**: it allocates a new bucket array and
+Exceeds `max_load_factor()`. The container **rehashes**: it allocates a new bucket array and
 Re-inserts all elements. During rehash, all iterators are invalidated because elements are moved to
 Different buckets.
 
@@ -399,7 +399,7 @@ int main() {
 ### Proxy Iterators
 
 Some containers use **proxy iterators** where `*it` returns a proxy object instead of a reference to
-the actual element. The canonical example is `std::vector<bool>`Which stores bits packed into Words.
+the actual element. The canonical example is `std::vector<bool>`. Which stores bits packed into Words.
 Dereferencing its iterator returns a temporary proxy object, not a `bool&`:
 
 ```cpp
@@ -426,7 +426,7 @@ int main() {
 ```
 
 Proxy iterators complicate generic code because they violate the assumption that `*it` returns a
-Reference. C++20 ranges handle this correctly via `std::ranges::range_reference_t`Which returns The
+Reference. C++20 ranges handle this correctly via `std::ranges::range_reference_t`. Which returns The
 proxy type rather than requiring a true reference.
 
 ### Const Iterators vs Non-Const Iterators

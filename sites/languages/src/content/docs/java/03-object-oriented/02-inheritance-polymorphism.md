@@ -79,7 +79,7 @@ public class Dog extends Animal {
 
 - The method must have the same name, return type, and parameter list.
 - The access level cannot be more restrictive (can widen, not narrow).
-- Cannot override `static``final`Or `private` methods (static methods are hidden, not overridden).
+- Cannot override `static`, `final` or `private` methods (static methods are hidden, not overridden).
 - Cannot throw checked exceptions that are broader than the superclass method"s exceptions (can
   narrow, not widen).
 
@@ -690,7 +690,7 @@ public non-sealed class Multiply extends Expr {
 
 - The permitted subclasses must be in the same module (if the sealed class is in a named module) or
   the same package (if in the unnamed module).
-- Permitted subclasses must use one of: `final``sealed`Or `non-sealed`.
+- Permitted subclasses must use one of: `final`, `sealed` or `non-sealed`.
 - The sealed class and its permitted subclasses must co-compile (or be in the same compilation
   unit).
 

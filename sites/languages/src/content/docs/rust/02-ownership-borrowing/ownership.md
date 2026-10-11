@@ -78,7 +78,7 @@ println!("{} {}", p1.x, p2.y);  // OK
 Types that cannot be `Copy`:
 
 - Any type with a `Drop` implementation (destructor)
-- Any type containing a heap pointer (`String``Vec``Box`)
+- Any type containing a heap pointer (`String`, `Vec`, `Box`)
 - Any type containing a mutable reference (`&mut T`)
 
 ### Partial Moves
@@ -272,7 +272,7 @@ fn foo(x: &str) -> &str    →  fn foo<'a>(x: &'a str) -> &'a str
 ```
 
 **Rule 3:** If there are multiple input lifetime parameters but one of them is `&self` or
-`&mut self`The lifetime of `self` is assigned to all output parameters.
+`&mut self`. The lifetime of `self` is assigned to all output parameters.
 
 ```rust
 impl Foo {
@@ -482,7 +482,7 @@ assert_eq!(Rc::strong_count(&a), 3);
 println!("{}", a);  // OK, all three bindings are valid
 ```
 
-When the last `Rc` is dropped, the inner value is deallocated. `Rc` is not `Send` or `Sync`So the
+When the last `Rc` is dropped, the inner value is deallocated. `Rc` is not `Send` or `Sync`. So the
 Compiler prevents sharing it between threads.
 
 ### `Rc` with `RefCell`

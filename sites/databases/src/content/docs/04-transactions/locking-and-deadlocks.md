@@ -69,7 +69,7 @@ but allow concurrent access to other rows in the same table.
 
 ### Implicit Row Locks
 
-Every `UPDATE``DELETE`Or `SELECT FOR UPDATE/SHARE` acquires a row-level lock. These are Implemented
+Every `UPDATE`, `DELETE` or `SELECT FOR UPDATE/SHARE` acquires a row-level lock. These are Implemented
 as transaction-level locks -- they are held until the transaction commits or rolls back.
 
 ```sql
@@ -612,8 +612,8 @@ SET lock_timeout = '10s';
 
 ### Forgetting That FOR UPDATE Blocks Concurrent Reads in REPEATABLE READ
 
-In `REPEATABLE READ``SELECT ... FOR UPDATE` blocks if another transaction has modified the row (even
-if committed). In `READ COMMITTED``SELECT ... FOR UPDATE` re-evaluates the row after Acquiring the
+In `REPEATABLE READ`, `SELECT ... FOR UPDATE` blocks if another transaction has modified the row (even
+if committed). In `READ COMMITTED`, `SELECT ... FOR UPDATE` re-evaluates the row after Acquiring the
 lock. Know your isolation level.
 
 ### Advisory Lock Leaks
@@ -632,9 +632,9 @@ Backoff in every transaction that acquires locks.
 
 ### Long Transactions Holding Row Locks
 
-A transaction that opens with `BEGIN`Then makes an HTTP call or waits for user input while holding
+A transaction that opens with `BEGIN`. Then makes an HTTP call or waits for user input while holding
 Row locks, blocks all other transactions that need those rows. Minimize transaction duration: do all
-Read-only work before `BEGIN`Then lock and modify within the transaction.
+Read-only work before `BEGIN`. Then lock and modify within the transaction.
 
 ### Using LOCK TABLE When Row Locks Suffice
 
@@ -804,7 +804,7 @@ max_standby_streaming_delay = 30s
 hot_standby_feedback = on
 ```
 
-With `hot_standby_feedback = on`The replica sends information about long-running queries back to The
+With `hot_standby_feedback = on`. The replica sends information about long-running queries back to The
 primary, which delays vacuum of rows that are still visible on the replica. This reduces Replication
 conflicts but may cause table bloat on the primary.
 

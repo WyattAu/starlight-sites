@@ -126,7 +126,7 @@ Large-scale systems often require dependencies not present in the public Microso
 Proprietary internal libraries or forks of open-source projects. **Registry Federation** allows a
 Project to compose dependencies from multiple disparate sources transparently.
 
-This is configured via `vcpkg-configuration.json`Which sits alongside the manifest.
+This is configured via `vcpkg-configuration.json`. Which sits alongside the manifest.
 
 ### The Registry Model
 
@@ -242,7 +242,7 @@ Graph. If `Lib A` needs `fmt 9.0` and `Lib B` needs `fmt 10.0`Vcpkg calculates a
 
 ### 4.2 Triplet-Based ABI Control
 
-Vcpkg uses **Triplets** (e.g., `x64-windows-static``arm64-linux`) to define the build Configuration
+Vcpkg uses **Triplets** (e.g., `x64-windows-static`, `arm64-linux`) to define the build Configuration
 for all dependencies. This allows an architect to switch the entire dependency tree From Dynamic
 Linking to Static Linking, or change the CRT linkage, by modifying a single variable
 (`VCPKG_TARGET_TRIPLET`).
@@ -250,7 +250,7 @@ Linking to Static Linking, or change the CRT linkage, by modifying a single vari
 ### 4.3 Source-Based Provenance
 
 Because vcpkg builds from source (unless Binary Caching is active), the resulting binaries are
-Guaranteed to use the exact compiler flags (`-O3``-fsanitize=address`) of the parent project,
+Guaranteed to use the exact compiler flags (`-O3`, `-fsanitize=address`) of the parent project,
 Ensuring complete binary compatibility.
 
 ## 5. Manifest Mode vs. Classic Mode
@@ -482,7 +482,7 @@ $env:VCPKG_BINARY_SOURCES="clear;nuget,https://artifactory.example.com/nuget/vcp
 
 ### How It Works
 
-1. After building a package, vcpkg zips the artifacts (`include/``lib/``bin/`).
+1. After building a package, vcpkg zips the artifacts (`include/`, `lib/`, `bin/`).
 2. It packages the zip as a NuGet package with the ABI hash as the version.
 3. It pushes the package to the configured NuGet feed.
 4. On subsequent builds, vcpkg queries the feed for a matching ABI hash before compiling.

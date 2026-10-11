@@ -187,7 +187,7 @@ Molecules) deviate more from ideal behaviour.
 ### Compressibility Factor
 
 $$
-Z = \frac`\{PV}``\{nRT}`
+Z = \frac`\{PV}`, `\{nRT}`
 $$
 
 - $Z = 1$: ideal gas
@@ -490,7 +490,7 @@ Convert all quantities to SI units:
 Using $R = 8.314\mathrm{ J/(mol \cdot K)}$ (SI units):
 
 $$
-N = \frac`\{PV}``\{RT}` = \frac{98\,500 \times 2.500 \times 10^{-4}}{8.314 \times 298} = \frac{24.63}{2477.6} = 0.00994\mathrm{ mol}
+N = \frac`\{PV}`, `\{RT}` = \frac{98\,500 \times 2.500 \times 10^{-4}}{8.314 \times 298} = \frac{24.63}{2477.6} = 0.00994\mathrm{ mol}
 $$
 
 Alternatively, using $R = 8.314 \times 10^{-2}\mathrm{ L \cdot kPa/(mol \cdot K)}$ and keeping $V$

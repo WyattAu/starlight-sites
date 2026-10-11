@@ -124,7 +124,7 @@ the damage from any single vulnerability.
 1. Fork a child process before performing any privileged operations.
 2. Drop all capabilities in the parent (monitor) using `prctl(PR_CAP_AMBIENT, PR_CAP_AMBIENT_DROP_ALL)`.
 3. Restrict IPC to a minimal set of verified message types.
-4. Use `seccomp` filters in the monitor to block dangerous syscalls (e.g., `execve``mount`).
+4. Use `seccomp` filters in the monitor to block dangerous syscalls (e.g., `execve`, `mount`).
 
 **Common privilege separation violations:**
 

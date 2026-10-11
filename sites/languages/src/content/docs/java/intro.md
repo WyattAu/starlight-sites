@@ -33,11 +33,11 @@ specific course, please refer to the IB Computer Science notes on this site for 
 
 ### Standard Library
 
-- **Collections Framework**, `List` (`ArrayList``LinkedList`), `Set` (`HashSet``TreeSet`),
-  `Map` (`HashMap``TreeMap`); choosing the right collection
-- **Streams API**, functional-style operations on collections: `filter``map``reduce``collect`
+- **Collections Framework**, `List` (`ArrayList`, `LinkedList`), `Set` (`HashSet`, `TreeSet`),
+  `Map` (`HashMap`, `TreeMap`); choosing the right collection
+- **Streams API**, functional-style operations on collections: `filter`, `map`, `reduce`, `collect`
 - **I/O**, byte streams, character streams, buffered I/O, NIO
-- **Concurrency**, `Thread``Runnable``ExecutorService``synchronized``java.util.concurrent`
+- **Concurrency**, `Thread`, `Runnable`, `ExecutorService`, `synchronized`, `java.util.concurrent`
 
 ### Best Practices
 

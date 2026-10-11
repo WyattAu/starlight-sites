@@ -17,9 +17,9 @@ description: "Descriptors are the mechanism behind And the entire Attribute acce
 
 ## Descriptor Protocol
 
-Descriptors are the mechanism behind `property``classmethod``staticmethod`And the entire Attribute
+Descriptors are the mechanism behind `property`, `classmethod`, `staticmethod` and the entire Attribute
 access system in Python. A descriptor is any object that implements at least one of
-`__get__``__set__`Or `__delete__`.
+`__get__`, `__set__` or `__delete__`.
 
 ### Data vs Non-Data Descriptors
 
@@ -349,7 +349,7 @@ have many instances.
 
 ### **slots** Rules
 
-1. **All parent classes must also use `__slots__`**. If a parent has `__dict__`The child will too,
+1. **All parent classes must also use `__slots__`**. If a parent has `__dict__`. The child will too,
    negating the benefit.
 2. **`__slots__` is inherited**. A child class gets the parent's slots plus its own.
 3. **You cannot add attributes not in `__slots__`**. This is the whole point.
@@ -503,7 +503,7 @@ print(dir(client))  # Shows only public attributes and methods
 ### functools.total_ordering
 
 `@total_ordering` fills in the remaining comparison methods when you define `__eq__` and one of
-`__lt__``__le__``__gt__`Or `__ge__`:
+`__lt__`, `__le__`, `__gt__` or `__ge__`:
 
 ```python
 from functools import total_ordering

@@ -178,7 +178,7 @@ Entries, ARP inspection, and dynamic ARP protection (DAI).
 ### 4.5 NAT
 
 **Network Address Translation** maps private addresses (RFC 1918: `10.0.0.0/8`
-`172.16.0.0/12``192.168.0.0/16`) to public addresses.
+`172.16.0.0/12`, `192.168.0.0/16`) to public addresses.
 
 - **Static NAT:** One-to-one mapping.
 - **Dynamic NAT:** Pool of public addresses assigned on demand.
@@ -238,7 +238,7 @@ Route to A goes through A).
 Destination, not just the distance.
 
 - **eBGP:** Between different ASes. **iBGP:** Within the same AS.
-- **Attributes:** `AS_PATH` (loop prevention), `NEXT_HOP``LOCAL_PREF` (exit preference), `MED`
+- **Attributes:** `AS_PATH` (loop prevention), `NEXT_HOP`, `LOCAL_PREF` (exit preference), `MED`
   (entry preference), origin type.
 - **Decision process:** Highest `LOCAL_PREF`Shortest `AS_PATH`Lowest origin, lowest `MED` eBGP over
   iBGP, lowest IGP cost to `NEXT_HOP`Lowest router ID.
@@ -254,7 +254,7 @@ AS 65003 rejects any route containing its own AS number (loop prevention).
 
 **BGP attributes in detail:**
 
-- **Well-known mandatory:** `AS_PATH``NEXT_HOP``ORIGIN` (IGP $\lt$ EGP $\lt$ Incomplete).
+- **Well-known mandatory:** `AS_PATH`, `NEXT_HOP`, `ORIGIN` (IGP $\lt$ EGP $\lt$ Incomplete).
 - **Well-known discretionary:** `LOCAL_PREF` (not sent to eBGP peers; influences outbound traffic).
 - **Optional transitive:** `COMMUNITY` (tag routes for policy), `MP_REACH_NLRI` (IPv6/VPNv4).
 - **Optional non-transitive:** `MED` (suggestion to neighbour about preferred entry point; lower is

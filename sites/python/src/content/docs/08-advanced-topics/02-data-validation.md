@@ -152,14 +152,14 @@ print(c.timeout) # 30.5  (str -> float)
 ```
 
 Coercion rules are extensive. Strings that look like numbers are converted to `int` or `float`.
-Strings that look like booleans (`"true"``"false"``"1"``"0"``"yes"``"no"`) are converted To `bool`.
+Strings that look like booleans (`"true"`, `"false"`, `"1"`, `"0"`, `"yes"`, `"no"`) are converted To `bool`.
 Strings that look like ISO 8601 dates/datetimes are converted to `date`/`datetime` Objects. Lists
 and dicts are recursively validated. The full coercion logic lives in pydantic-core And is
 well-documented in the Pydantic docs.
 
 ### Validation Errors
 
-When validation fails, Pydantic raises `ValidationError`Which carries structured information about
+When validation fails, Pydantic raises `ValidationError`. Which carries structured information about
 every problem found in the input.
 
 ```python
@@ -181,7 +181,7 @@ except ValidationError as e:
 
 Each error in `e.errors()` is a dict with these keys:
 
-- `type` -- a machine-readable error code (e.g., `"int_parsing"``"string_too_short"``"missing"`)
+- `type` -- a machine-readable error code (e.g., `"int_parsing"`, `"string_too_short"`, `"missing"`)
 - `loc` -- a tuple indicating the path to the offending field (e.g., `('id',)`
   `('address', 'city')`)
 - `msg` -- a human-readable error message
@@ -321,7 +321,7 @@ class User(BaseModel):
 
 The `info` argument is a `ValidationInfo` object. Its `data` attribute contains a dict of fields
 that have already been validated (in declaration order). This enables cross-field validation:
-Checking that `password_confirm` equals `password`That `end_date` is after `start_date`Etc.
+Checking that `password_confirm` equals `password`That `end_date` is after `start_date`. Etc.
 
 Note that `info.data` only contains fields declared **before** the current field. If you need to
 Validate a field against one declared after it, use a model validator instead.
@@ -672,7 +672,7 @@ Schemas, configuration objects, domain entities. `BaseModel` is the default choi
 Complete feature set.
 
 Use `@pydantic.dataclass` when you need to interoperate with code that expects standard dataclasses
-(e.g., `dataclasses.asdict()``dataclasses.fields()`), when you want value-based equality and Hashing
+(e.g., `dataclasses.asdict()`, `dataclasses.fields()`), when you want value-based equality and Hashing
 without implementing `__eq__` and `__hash__`Or when you are working within a codebase that Already
 uses dataclasses extensively and you want to add validation without changing the overall
 Architecture.
@@ -703,8 +703,8 @@ print(json.dumps(schema, indent=2))
 ```
 
 The output is a complete JSON Schema document that encodes all type information, constraints,
-Defaults, descriptions, and examples. Field constraints like `min_length``pattern`And `ge`/`le` Are
-translated to their JSON Schema equivalents (`minLength``pattern``minimum`/`maximum`).
+Defaults, descriptions, and examples. Field constraints like `min_length`, `pattern` and `ge`/`le` Are
+translated to their JSON Schema equivalents (`minLength`, `pattern`, `minimum`/`maximum`).
 
 ### Schema for API Documentation
 
@@ -786,7 +786,7 @@ class AppConfig(BaseSettings):
     model_config = SettingsConfigDict(env_prefix="APP_")
 ```
 
-With `env_prefix="APP_"`The field `database_url` maps to `APP_DATABASE_URL`.
+With `env_prefix="APP_"`. The field `database_url` maps to `APP_DATABASE_URL`.
 
 ### Nested Delimiters
 
@@ -835,7 +835,7 @@ class AppConfig(BaseSettings):
 
 Attrs is a data class library that predates Pydantic and takes a fundamentally different approach.
 It focuses on reducing the boilerplate of writing classes (automatically generating `__init__`
-`__repr__``__eq__``__hash__`) with optional validation via composable validator functions.
+`__repr__`, `__eq__`, `__hash__`) with optional validation via composable validator functions.
 
 ```bash
 pip install attrs
@@ -858,7 +858,7 @@ class Server:
             raise ValueError(f"Port must be 1-65535, got {value}")
 ```
 
-`@attr.define` generates a class with `__init__``__repr__``__eq__`And `__hash__`. The
+`@attr.define` generates a class with `__init__`, `__repr__`, `__eq__` and `__hash__`. The
 `@attribute.validator` decorator attaches a validation function that runs when the attribute is set.
 
 ### Frozen Instances
@@ -934,7 +934,7 @@ except ValidationError as e:
 
 `load()` deserializes and validates. `dump()` serializes. The schema definition is separate from the
 Python class -- you can have multiple schemas for the same class (e.g., `UserCreateSchema`
-`UserUpdateSchema``UserPublicSchema`).
+`UserUpdateSchema`, `UserPublicSchema`).
 
 ### Nested Schemas
 
@@ -1005,7 +1005,7 @@ on it makes your code fragile if you ever migrate away from Pydantic. Always use
 
 ### Ordering of Field Validators
 
-Validators run in field declaration order. If field `b` depends on field `a``a` must be declared
+Validators run in field declaration order. If field `b` depends on field `a`, `a` must be declared
 First. Otherwise, `info.data` in `b`"s validator will not contain `a`. If you cannot reorder fields
 (for whatever reason), use `@model_validator(mode="after")` instead.
 
@@ -1054,7 +1054,7 @@ StrictUser(name="Alice", age=30)  # ValidationError: Extra inputs are not permit
 
 Use `extra="forbid"` in API schemas to catch typos and protocol mismatches early. A caller sending
 `user_name` instead of `name` with `extra="ignore"` would silently lose the data. With
-`extra="forbid"`The error is immediate and clear.
+`extra="forbid"`. The error is immediate and clear.
 
 ### BaseSettings Must Import from pydantic-settings
 
@@ -1106,7 +1106,7 @@ Expected format.
 
 ### marshmallow Schemas Are Not Type-Annotated
 
-Marshmallow's `Schema` class uses instance attributes (`fields.String()``fields.Integer()`) rather
+Marshmallow's `Schema` class uses instance attributes (`fields.String()`, `fields.Integer()`) rather
 than Python type annotations. This means mypy cannot infer the shape of `schema.load(data)` -- it
 will type it as `dict[str, Any]`. Pydantic's type-annotated models integrate with mypy out of the
 Box, giving you static type checking for free. If type safety is a priority, this is a significant

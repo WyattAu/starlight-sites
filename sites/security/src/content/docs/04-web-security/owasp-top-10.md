@@ -663,7 +663,7 @@ SSRF. Use a comprehensive testing methodology that covers all 10 categories.
 
 ### Ignoring Security Headers
 
-Missing security headers (`X-Content-Type-Options``X-Frame-Options``CSP``HSTS`) provides no Defense
+Missing security headers (`X-Content-Type-Options`, `X-Frame-Options`, `CSP`, `HSTS`) provides no Defense
 against client-side attacks. Add them to every response.
 
 ### Not Keeping Dependencies Updated

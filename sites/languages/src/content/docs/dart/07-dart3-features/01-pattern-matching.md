@@ -88,7 +88,7 @@ Declaration produces a hard error. An irrefutable pattern in a switch case is al
 ## Logical Patterns
 
 Logical patterns combine other patterns using boolean logic. They are the pattern-matching
-Equivalent of `||``&&`And relational operators.
+Equivalent of `||`, `&&` and relational operators.
 
 ### Or Patterns (`||`)
 
@@ -155,7 +155,7 @@ Bound variables.
 
 ### Relational Patterns
 
-Relational patterns use `==``!=``<``>``<=``>=` to compare the matched value against a Constant.
+Relational patterns use `==`, `!=`, `<`, `>`, `<=`, `>=` to compare the matched value against a Constant.
 These are not general-purpose, the right-hand side must be a compile-time constant.
 
 ```dart
@@ -201,7 +201,7 @@ String categorize(int score) => switch (score) {
 ## Cast Patterns
 
 The cast pattern (`as`) performs a type cast and binds the result. This is the pattern-matching
-Equivalent of `as`But with the safety of a runtime check embedded in the pattern itself.
+Equivalent of `as`. But with the safety of a runtime check embedded in the pattern itself.
 
 ### Basic Cast Pattern
 
@@ -240,7 +240,7 @@ if (value case var s as String) {
 The difference matters. The type test pattern (`String s`) only matches if the value is already a
 `String`. The cast pattern (`var s as String`) attempts to cast, if the value is a subtype of
 `String` (which is impossible since `String` is sealed), it succeeds; otherwise it throws. In
-Practice, for sealed types like `String`They behave identically. The cast pattern becomes relevant
+Practice, for sealed types like `String`. They behave identically. The cast pattern becomes relevant
 with custom type hierarchies where implicit upcasts exist.
 
 ### Cast Pattern with Null Safety

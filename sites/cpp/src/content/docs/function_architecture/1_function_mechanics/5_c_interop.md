@@ -137,7 +137,7 @@ extern "C" void throwing_c_function() noexcept(false);  // explicitly non-noexce
 ## 5.2 Calling C from C++
 
 The standard C library headers are wrapped with `extern "C"` by the C++ standard library headers.
-When you `#include <cstring>`The declarations are automatically given C linkage. For your own C
+When you `#include <cstring>`. The declarations are automatically given C linkage. For your own C
 Libraries, use `extern "C"`:
 
 ```cpp
@@ -216,7 +216,7 @@ int main() {
 ### Memory Ownership Across the Boundary
 
 When a C function returns a heap-allocated pointer, the C++ caller must know how to free it. If the
-C library uses `malloc`The C++ code must use `free` (not `delete`):
+C library uses `malloc`. The C++ code must use `free` (not `delete`):
 
 ```cpp
 extern "C" {
@@ -377,7 +377,7 @@ struct Base { virtual void foo() const; };
 template<typename T> const T& max(const T&, const T&);
 ```
 
-With `extern "C"`All of these become `add`Losing the type information. This is why Overloading is
+With `extern "C"`. All of these become `add`Losing the type information. This is why Overloading is
 not possible within `extern "C"` blocks.
 
 ```cpp
@@ -424,7 +424,7 @@ When passing data across a C/C++ boundary, ensure that:
 1. **Structs are POD** (Plain Old Data) or `standard-layout`: no virtual functions, no base classes
    with virtual functions, no non-static data members of reference type, all non-static data members
    have the same access control.
-2. **Fixed-width types are used** (`int32_t`Not `int`).
+2. **Fixed-width types are used** (`int32_t`. Not `int`).
 3. **No padding surprises**: use `static_assert` and `offsetof` to verify layout, or `#pragma pack`
    / `alignas` to control it.
 4. **No C++ exceptions cross the boundary**: exceptions thrown in C++ code called from C unwind
@@ -444,7 +444,7 @@ C++ on the same platform.
    alignment requirement, and the alignment of the struct is the maximum alignment of its members.
 3. C struct layout follows the same rules (ISO C 6.2.5p20, 6.7.2.1p15): each member is placed at an
    offset satisfying its alignment, with padding inserted as needed.
-4. Since both C and C++ use the same alignment rules for fundamental types (`int``double`Etc.) on
+4. Since both C and C++ use the same alignment rules for fundamental types (`int`, `double`. Etc.) on
    the same platform, the resulting layout is byte-for-byte identical. QED.
 
 ### What Breaks Layout Compatibility
@@ -509,7 +509,7 @@ Rationale.
 
 ## 5.6 Dynamic Library Loading with `dlfcn.h`
 
-POSIX systems provide `dlopen``dlsym``dlclose`And `dlerror` for loading shared libraries at Runtime.
+POSIX systems provide `dlopen`, `dlsym`, `dlclose` and `dlerror` for loading shared libraries at Runtime.
 This enables plugin architectures and runtime code loading.
 
 ```cpp
@@ -593,7 +593,7 @@ Unpredictable points. For plugin loading, prefer `RTLD_NOW`.
 
 ### Windows Equivalent: `LoadLibrary` and `GetProcAddress`
 
-On Windows, the equivalent functions are `LoadLibraryA`/`LoadLibraryW``GetProcAddress`And
+On Windows, the equivalent functions are `LoadLibraryA`/`LoadLibraryW`, `GetProcAddress` and
 `FreeLibrary`. The pattern is identical but the API is different:
 
 ```cpp
@@ -699,7 +699,7 @@ This cast is safe. But it is technically undefined behavior by the Standard.
    undefined behavior. Always wrap C++ entry points with `try`/`catch(...)`.
 
 2. **Differing `size_t` between 32-bit and 64-bit code**: If a 32-bit C library passes a
-   pointer-sized value through an `int`It will truncate on 64-bit systems.
+   pointer-sized value through an `int`. It will truncate on 64-bit systems.
 
 3. **Differing struct packing**: MSVC defaults to 8-byte alignment; GCC defaults to natural
    alignment. Use explicit packing or fixed-width types.

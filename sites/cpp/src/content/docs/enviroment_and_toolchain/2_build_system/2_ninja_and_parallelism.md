@@ -324,7 +324,7 @@ Ninja guarantees correct incremental builds by tracking:
 
 1. **File modification timestamps.** Ninja rebuilds a target if any of its inputs are newer than the
    output.
-2. **Compiler-emitted dependencies.** When a source file `#include`S a header, the compiler records
+2. **Compiler-emitted dependencies.** When a source file `#include`s a header, the compiler records
    this dependency in a `.d` file. Ninja reads these `.d` files and integrates them into the graph.
 3. **Command strings.** If the command used to build a target changes (e.g., different compiler
    flags), Ninja rebuilds the target even if the input file timestamps are unchanged.
@@ -373,7 +373,7 @@ rule link
 build app.exe: link obj1.obj obj2.obj obj3.obj ... obj100.obj
 ```
 
-Ninja writes the arguments to `$out.rsp`Then passes `@CMakeFiles/$out.rsp` to the linker. This
+Ninja writes the arguments to `$out.rsp`. Then passes `@CMakeFiles/$out.rsp` to the linker. This
 Avoids the command-line length limit entirely.
 
 ### Pools
@@ -459,7 +459,7 @@ Despite Ninja's speed advantages, there are cases where GNU Make is more appropr
 3. **Cross-platform compatibility on obscure systems.** Make has been ported to more platforms than
    Ninja.
 4. **Dependency on Make-specific features.** If your build process relies on GNU Make extensions
-   like `$(eval)``$(shell)`Or `$(file)`Migrating to Ninja requires significant effort.
+   like `$(eval)`, `$(shell)` or `$(file)`Migrating to Ninja requires significant effort.
 
 ## Ninja's Limitations
 
@@ -526,7 +526,7 @@ build run_tests: CUSTOM_COMMAND test_binary
   pool = console
 ```
 
-When CMake generates `build.ninja`It assigns the `console` pool to targets like `RUN_TESTS` and
+When CMake generates `build.ninja`. It assigns the `console` pool to targets like `RUN_TESTS` and
 Custom commands that the user invokes directly. This means `ctest` output appears in real time
 rather than being buffered and displayed only on failure.
 
@@ -535,7 +535,7 @@ rather than being buffered and displayed only on failure.
 Ninja supports **dynamic dependencies** via the `dyndep` feature, which allows a build edge to
 Declare that its dependencies are determined at build time rather than at configuration time.
 
-This is critical for **C++20 modules**: when a source file `import`S a module, the dependency on the
+This is critical for **C++20 modules**: when a source file `import`s a module, the dependency on the
 Module's BMI cannot be known at CMake configuration time. The `dyndep` mechanism allows the build
 Tool to report the dependency after the BMI has been generated.
 

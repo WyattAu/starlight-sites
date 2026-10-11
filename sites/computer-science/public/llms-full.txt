@@ -9611,7 +9611,7 @@ Actually the segment tree stores each heavy path. To go from 6 to 8:
 - 8 to LCA = 1: segments on the path from 8 to 1.
 
 This example is simplified. In practice, HLD requires careful implementation of the
-`decompose``query`And `update` functions.
+`decompose`, `query` and `update` functions.
 
 </details>
 
@@ -11961,7 +11961,7 @@ $b = 2$, $f(n) = O(n) = O(n^{\log_b a})$ So $T(n) = O(n \log n)$. $\blacksquare$
 
 **Theorem 3.2.** Merge sort is stable and requires $O(n)$ auxiliary space.
 
-_Proof of stability._ In `Merge`When elements from the left and right halves are equal, we always
+_Proof of stability._ In `Merge`. When elements from the left and right halves are equal, we always
 take from the left half first. This preserves the relative order of equal elements. $\blacksquare$
 
 **Theorem 3.3 (Correctness of Merge).** The `Merge` procedure produces a sorted array from two
@@ -15370,7 +15370,7 @@ URL: https://computer-science.wyattau.com/3-computer-networks/6_application-laye
 
 DNS translates domain names to IP addresses. Hierarchical, distributed database.
 
-**Domain hierarchy:** Root (`.`) $\to$ TLD (`com``org``net`) $\to$ second-level (`example.com`)
+**Domain hierarchy:** Root (`.`) $\to$ TLD (`com`, `org`, `net`) $\to$ second-level (`example.com`)
 $\to$ subdomain (`www.example.com`).
 
 **Record types:**
@@ -15489,7 +15489,7 @@ Pre-installed in the browser/OS trust store.
 ### 6.4 Email Protocols
 
 **SMTP (Simple Mail Transfer Protocol).** Push protocol for sending email (TCP port 25/587). Uses a
-Command-response dialogue: `HELO`/`EHLO``MAIL FROM``RCPT TO``DATA``QUIT`. Supports extensions For
+Command-response dialogue: `HELO`/`EHLO`, `MAIL FROM`, `RCPT TO`, `DATA`, `QUIT`. Supports extensions For
 authentication (`AUTH`) and encryption (`STARTTLS`).
 
 **SMTP session example:**
@@ -17071,7 +17071,7 @@ The data link layer receives a bit stream and divides it into manageable **frame
 2. **Flag bytes:** Special flag byte (`0x7E` for HDLC) marks start/end. Byte stuffing with escape
    byte (`0x7D`) prevents ambiguity.
 3. **Bit-oriented flags:** Flag pattern `01111110`. Bit stuffing: insert `0` after five consecutive
-   `1`S in the data.
+   `1`s in the data.
 4. **Clock-based:** Manchester encoding provides self-clocking and frame boundaries.
 
 ### 3.2 Error Detection and Correction
@@ -17816,7 +17816,7 @@ Entries, ARP inspection, and dynamic ARP protection (DAI).
 ### 4.5 NAT
 
 **Network Address Translation** maps private addresses (RFC 1918: `10.0.0.0/8`
-`172.16.0.0/12``192.168.0.0/16`) to public addresses.
+`172.16.0.0/12`, `192.168.0.0/16`) to public addresses.
 
 - **Static NAT:** One-to-one mapping.
 - **Dynamic NAT:** Pool of public addresses assigned on demand.
@@ -17876,7 +17876,7 @@ Route to A goes through A).
 Destination, not just the distance.
 
 - **eBGP:** Between different ASes. **iBGP:** Within the same AS.
-- **Attributes:** `AS_PATH` (loop prevention), `NEXT_HOP``LOCAL_PREF` (exit preference), `MED`
+- **Attributes:** `AS_PATH` (loop prevention), `NEXT_HOP`, `LOCAL_PREF` (exit preference), `MED`
   (entry preference), origin type.
 - **Decision process:** Highest `LOCAL_PREF`Shortest `AS_PATH`Lowest origin, lowest `MED` eBGP over
   iBGP, lowest IGP cost to `NEXT_HOP`Lowest router ID.
@@ -17892,7 +17892,7 @@ AS 65003 rejects any route containing its own AS number (loop prevention).
 
 **BGP attributes in detail:**
 
-- **Well-known mandatory:** `AS_PATH``NEXT_HOP``ORIGIN` (IGP $\lt$ EGP $\lt$ Incomplete).
+- **Well-known mandatory:** `AS_PATH`, `NEXT_HOP`, `ORIGIN` (IGP $\lt$ EGP $\lt$ Incomplete).
 - **Well-known discretionary:** `LOCAL_PREF` (not sent to eBGP peers; influences outbound traffic).
 - **Optional transitive:** `COMMUNITY` (tag routes for policy), `MP_REACH_NLRI` (IPv6/VPNv4).
 - **Optional non-transitive:** `MED` (suggestion to neighbour about preferred entry point; lower is
@@ -18813,7 +18813,7 @@ URL: https://computer-science.wyattau.com/3-computer-networks/8_problem-set/
     each.
 
 11. **Route aggregation.** Aggregate the following routes into the most specific supernet:
-    `198.51.100.0/24``198.51.101.0/24``198.51.102.0/24``198.51.103.0/24`.
+    `198.51.100.0/24`, `198.51.101.0/24`, `198.51.102.0/24`, `198.51.103.0/24`.
 
 12. **IPv6 addressing.** Expand the IPv6 address `2001:db8::1` to its full 128-bit form. How many
     /64 subnets does a /56 prefix provide? How many /128 addresses per /64?
@@ -24043,7 +24043,7 @@ across nodes.
 
 - **Phase 1 (Voting):** The coordinator sends a `PREPARE` message to all participants. Each
   participant writes its changes to a local log, votes `YES` (ready to commit) or `NO` (abort).
-- **Phase 2 (Decision):** If all participants voted `YES`The coordinator sends `COMMIT`; otherwise
+- **Phase 2 (Decision):** If all participants voted `YES`. The coordinator sends `COMMIT`; otherwise
   it sends `ABORT`. Participants apply the decision and acknowledge.
 
 **Theorem 9.1.** 2PC guarantees atomicity of distributed transactions if no participant crashes
@@ -24064,7 +24064,7 @@ Model:
 2. **PreCommit:** If all `YES`Coordinator sends `PRE-COMMIT`. Participants acknowledge.
 3. **DoCommit:** Coordinator sends `COMMIT`. Participants commit and acknowledge.
 
-If the coordinator crashes after `PRE-COMMIT`Any participant can contact others to determine the
+If the coordinator crashes after `PRE-COMMIT`. Any participant can contact others to determine the
 Outcome (since at least one participant must have received `PRE-COMMIT` and can coordinate).
 
 **Limitation of 3PC:** Assumes reliable communication (no lost messages), which is unrealistic in
@@ -25866,7 +25866,7 @@ URL: https://computer-science.wyattau.com/4-databases/10_problem-set/
 **Problems 8--10:** SQL
 
 1. Write a recursive SQL query that computes the total cost of all parts (direct and indirect)
-   required to assemble product `P100`Given a `BOM(parent_part, child_part, quantity)` table.
+   required to assemble product `P100`. Given a `BOM(parent_part, child_part, quantity)` table.
 
 2. Write a SQL query that, for each department, returns the student with the highest GPA, their GPA,
    and the difference between their GPA and the department average. Use window functions only (no
@@ -26322,7 +26322,7 @@ $$
 **Query:** Find the names of students who have enrolled in every course offered by the CS
 department.
 
-**Schema:** `Student(sid, name, dept)``Course(cid, title, dept)``Takes(sid, cid, semester)`.
+**Schema:** `Student(sid, name, dept)`, `Course(cid, title, dept)`, `Takes(sid, cid, semester)`.
 
 **Step 1.** Get CS course IDs:
 
@@ -26590,7 +26590,7 @@ WHERE E.Grade IN ('A', 'A-')
 ORDER BY S.GPA DESC;
 ```
 
-**Aggregate functions:** `COUNT``SUM``AVG``MIN``MAX`.
+**Aggregate functions:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
 
 ```sql
 SELECT Dept, COUNT(*) AS NumStudents, AVG(GPA) AS AvgGPA
@@ -26669,8 +26669,8 @@ FROM Student;
 
 **`RANK()` vs. `DENSE_RANK()`:** `RANK()` leaves gaps after ties; `DENSE_RANK()` does not.
 
-**Other window functions:** `ROW_NUMBER()``LEAD()``FIRST_VALUE()``LAST_VALUE()`
-`NTILE(n)``SUM() OVER(...)``COUNT() OVER(...)`.
+**Other window functions:** `ROW_NUMBER()`, `LEAD()`, `FIRST_VALUE()`, `LAST_VALUE()`
+`NTILE(n)`, `SUM() OVER(...)`, `COUNT() OVER(...)`.
 
 <details>
 <summary>Worked Example 3.1: Running Totals and Percentiles</summary>
@@ -26712,7 +26712,7 @@ FROM Student GROUP BY Dept;
 ```
 
 Views are virtual tables. **Updatable views** (single-table, no aggregation) allow `INSERT`
-`UPDATE``DELETE` through the view. **Materialised views** store the result physically and must be
+`UPDATE`, `DELETE` through the view. **Materialised views** store the result physically and must be
 Refreshed.
 
 ### 3.8 Recursive Common Table Expressions
@@ -26789,7 +26789,7 @@ Attacker to manipulate the query structure.
 cursor.execute(f"SELECT * FROM Student WHERE name = '{user_input}'")
 ```
 
-If `user_input` is `' OR '1'='1`The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
+If `user_input` is `' OR '1'='1`. The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
 Returning all rows.
 
 **Types of SQL injection:**
@@ -26841,7 +26841,7 @@ counts, And execution time.
 
 **Common optimisation guidelines:**
 
-- **Create appropriate indexes** on columns used in `WHERE``JOIN``ORDER BY`And `GROUP BY` clauses.
+- **Create appropriate indexes** on columns used in `WHERE`, `JOIN`, `ORDER BY` and `GROUP BY` clauses.
 - **Avoid `SELECT *`**; retrieve only the columns needed.
 - **Avoid N+1 queries:** Fetching related data row-by-row instead of with a single join or batch
   query.
@@ -27475,7 +27475,7 @@ A **file** is a named collection of related data on secondary storage.
 
 **File attributes:** Name, identifier (inode number), type, location, size, protection, timestamps.
 
-**File operations:** `create``delete``open``close``read``write``seek``truncate`.
+**File operations:** `create`, `delete`, `open`, `close`, `read`, `write`, `seek`, `truncate`.
 
 **Access methods:**
 
@@ -27864,7 +27864,7 @@ User application
   reordering by the OS.
 
 **Driver loading.** Most modern OSes support loadable kernel modules (LKMs): drivers loaded at
-Runtime without rebooting. On Linux: `insmod``modprobe`. This allows third-party hardware support
+Runtime without rebooting. On Linux: `insmod`, `modprobe`. This allows third-party hardware support
 without kernel recompilation.
 
 ### 7.3 I/O Scheduling
@@ -28710,7 +28710,7 @@ Share physical frames (marked read-only). On a write to a shared page, a fault t
 just that page.
 
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
-- If the child immediately calls `exec()`No copies are ever made.
+- If the child immediately calls `exec()`. No copies are ever made.
 :::
 
 ## Cross-References
@@ -29543,7 +29543,7 @@ involve kernel transitions and data copying).
 **Signal handling issues:**
 
 1. **Reentrancy:** Only async-signal-safe functions can be called from signal handlers (e.g.,
-   `write``_exit``sigaction`). Functions like `malloc``printf`And `strerror` are NOT
+   `write`, `_exit`, `sigaction`). Functions like `malloc`, `printf` and `strerror` are NOT
    async-signal-safe.
 2. **Race conditions:** A signal may arrive between checking a condition and acting on it.
 3. **Signal masking:** `sigprocmask()` blocks specific signals during critical sections.
@@ -29719,7 +29719,7 @@ Only the pages that are actually touched are read from disk (demand paging). For
 takes 1 GB of virtual address space but only $n/4096$ pages of physical memory (where $n$ is the
 number of pages touched).
 
-With `read()`/`write()`We would need a buffer, read each page into the buffer, modify it, and write
+With `read()`/`write()`. We would need a buffer, read each page into the buffer, modify it, and write
 it back. This involves an extra copy (kernel buffer to user buffer).
 
 </details>
@@ -30745,7 +30745,7 @@ gaining control of execution when the function returns.
 - **ASLR:** Randomises the stack base address, so the attacker cannot predict where `buffer` (and
   therefore the shellcode) will be in memory.
 - **DEP (W\^X):** Marks the stack as non-executable. Even if the attacker overwrites the return
-  address to point to the shellcode in `buffer`The CPU will fault when trying to execute it.
+  address to point to the shellcode in `buffer`. The CPU will fault when trying to execute it.
 - **CFI:** Verifies that the return address points to a valid call site. A crafted address injected
 by the overflow would fail the CFI check.
 
@@ -31170,8 +31170,8 @@ shmdt(shm_ptr);
 **Pipes.** Unidirectional data channel. `pipe()` creates a pipe; `fork()` inherits file descriptors.
 Named pipes (`mkfifo`) allow unrelated processes to communicate.
 
-**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM``SIGKILL`
-`SIGSEGV``SIGCHLD`.
+**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM`, `SIGKILL`
+`SIGSEGV`, `SIGCHLD`.
 
 ## See Also
 
@@ -31311,7 +31311,7 @@ the damage from any single vulnerability.
 1. Fork a child process before performing any privileged operations.
 2. Drop all capabilities in the parent (monitor) using `prctl(PR_CAP_AMBIENT, PR_CAP_AMBIENT_DROP_ALL)`.
 3. Restrict IPC to a minimal set of verified message types.
-4. Use `seccomp` filters in the monitor to block dangerous syscalls (e.g., `execve``mount`).
+4. Use `seccomp` filters in the monitor to block dangerous syscalls (e.g., `execve`, `mount`).
 
 **Common privilege separation violations:**
 
@@ -31683,7 +31683,7 @@ OSes.
 **Challenges:**
 
 - **Instruction emulation:** Sensitive instructions must be trapped and emulated. On x86, `IN`
-  `OUT``HLT``CLI``STI`And `MOV` to/from control registers are sensitive.
+  `OUT`, `HLT`, `CLI`, `STI` and `MOV` to/from control registers are sensitive.
 - **Memory virtualization:** The VMM maintains **shadow page tables** mapping guest virtual to host
   physical addresses. Hardware support: Extended Page Tables (EPT, Intel) and Nested Page Tables
   (NPT, AMD).
@@ -32399,9 +32399,9 @@ $$
 
 The variable $S$ generates the $a^i b^i$ part, and $T$ generates the $a^k c^k$ part. Since
 $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$ The total number Of
-`b`S and `c`S equals the total number of `a`S.
+`b`s and `c`s equals the total number of `a`s.
 
-**Example.** CFG for strings with equal numbers of `0`S and `1`S:
+**Example.** CFG for strings with equal numbers of `0`s and `1`s:
 
 $$
 S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon
@@ -32647,10 +32647,10 @@ $\blacksquare$
 _Proof._ Assume pumping length $p$. Let $w = a^p b^p c^p$. Since $|vxy| \leq p$ The substring $vxy$
 cannot span all three letter types. Case analysis:
 
-- If $vxy$ is within the `a`S or `b`S or `c`S: pumping changes only one count, breaking the
+- If $vxy$ is within the `a`s or `b`s or `c`s: pumping changes only one count, breaking the
   equality.
-- If $vxy$ spans `a`S and `b`S: pumping changes the `a` and `b` counts but not `c`Breaking equality.
-- If $vxy$ spans `b`S and `c`S: analogous.
+- If $vxy$ spans `a`s and `b`s: pumping changes the `a` and `b` counts but not `c`Breaking equality.
+- If $vxy$ spans `b`s and `c`s: analogous.
 
 In all cases, $uv^2xy^2z \notin L$. $\blacksquare$
 
@@ -33319,7 +33319,7 @@ complexity class.
 
 - $L_6 = \{a^n b^n : n \geq 0\}$, matching counts of two symbols.
 - $L_7 = \{w w^R : w \in \{0,1\}^*\}$, even-length palindromes.
-- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`S and `b`S.
+- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`s and `b`s.
 
 **Decidable but not context-free:**
 
@@ -33811,7 +33811,7 @@ States: $q_0$ (start), $q_1$ (have seen a `0`), $q_2$ (accept, have seen `01`).
 | $q_1$ | $\emptyset$        | $\{q_2\}$          |
 | $q_2$ | $\{q_1\}$          | $\emptyset$        |
 
-Accept: $\{q_2\}$. The NFA is nondeterministic because from $q_0$ on input `0`It can either stay In
+Accept: $\{q_2\}$. The NFA is nondeterministic because from $q_0$ on input `0`. It can either stay In
 $q_0$ or move to $q_1$.
 
 </details>
@@ -33868,7 +33868,7 @@ The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$ And $\{q_1, q_2\}$ are unre
 **Examples:**
 
 - $(0 \cup 1)^* 00 (0 \cup 1)^*$: strings containing `00`.
-- $1^* 01^* 01^*$: strings with exactly two `0`S.
+- $1^* 01^* 01^*$: strings with exactly two `0`s.
 - $(0 \cup 1)^*$: all strings over $\{0, 1\}$.
 - $\emptyset$: the empty language.
 
@@ -34037,7 +34037,7 @@ Decomposition $w = xyz$ satisfying (1) and (2) has some $i$ with $xy^iz \notin L
 **Example.** $L = \{0^n 1^n : n \geq 0\}$ is not regular.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
+$|xy| \leq p$ So $y$ consists only of `0`s. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
 (since $p - k \neq p$). Contradiction. $\blacksquare$
 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.
@@ -34270,11 +34270,11 @@ $M = (Q, \{0, 1\}, \{0, 1, \mathrm{x, \sqcup\}, \delta, q_0, q_{\mathrm{accept},
 
 **Key transitions:**
 
-1. In $q_0$ Read `0`: write `x`Move right, go to $q_1$. (Cross off a `0`.)
+1. In $q_0$ Read `0`: write `x`. Move right, go to $q_1$. (Cross off a `0`.)
 2. In $q_0$ Read `1`: reject. (A `1` before any `0`.)
 3. In $q_0$ Read $\sqcup$: accept. (Nothing left.)
-4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`S.)
-5. In $q_1$ Read `1`: write `x`Move left, go to $q_2$. (Cross off a `1`.)
+4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`s.)
+5. In $q_1$ Read `1`: write `x`. Move left, go to $q_2$. (Cross off a `1`.)
 6. In $q_1$ Read $\sqcup$: reject. (No `1` to match.)
 7. In $q_2$ Read `0` or `x`: move left, stay in $q_2$. (Scan back.)
 8. In $q_2$ Read $\sqcup$: move right, go to $q_0$. (Return to start.)
@@ -35345,7 +35345,7 @@ $b = 2$, $f(n) = O(n) = O(n^{\log_b a})$ So $T(n) = O(n \log n)$. $\blacksquare$
 
 **Theorem 3.2.** Merge sort is stable and requires $O(n)$ auxiliary space.
 
-_Proof of stability._ In `Merge`When elements from the left and right halves are equal, we always
+_Proof of stability._ In `Merge`. When elements from the left and right halves are equal, we always
 take from the left half first. This preserves the relative order of equal elements. $\blacksquare$
 
 **Theorem 3.3 (Correctness of Merge).** The `Merge` procedure produces a sorted array from two
@@ -37183,7 +37183,7 @@ The data link layer receives a bit stream and divides it into manageable **frame
 2. **Flag bytes:** Special flag byte (`0x7E` for HDLC) marks start/end. Byte stuffing with escape
    byte (`0x7D`) prevents ambiguity.
 3. **Bit-oriented flags:** Flag pattern `01111110`. Bit stuffing: insert `0` after five consecutive
-   `1`S in the data.
+   `1`s in the data.
 4. **Clock-based:** Manchester encoding provides self-clocking and frame boundaries.
 
 ### 3.2 Error Detection and Correction
@@ -37683,7 +37683,7 @@ Entries, ARP inspection, and dynamic ARP protection (DAI).
 ### 4.5 NAT
 
 **Network Address Translation** maps private addresses (RFC 1918: `10.0.0.0/8`
-`172.16.0.0/12``192.168.0.0/16`) to public addresses.
+`172.16.0.0/12`, `192.168.0.0/16`) to public addresses.
 
 - **Static NAT:** One-to-one mapping.
 - **Dynamic NAT:** Pool of public addresses assigned on demand.
@@ -37743,7 +37743,7 @@ Route to A goes through A).
 Destination, not just the distance.
 
 - **eBGP:** Between different ASes. **iBGP:** Within the same AS.
-- **Attributes:** `AS_PATH` (loop prevention), `NEXT_HOP``LOCAL_PREF` (exit preference), `MED`
+- **Attributes:** `AS_PATH` (loop prevention), `NEXT_HOP`, `LOCAL_PREF` (exit preference), `MED`
   (entry preference), origin type.
 - **Decision process:** Highest `LOCAL_PREF`Shortest `AS_PATH`Lowest origin, lowest `MED` eBGP over
   iBGP, lowest IGP cost to `NEXT_HOP`Lowest router ID.
@@ -37759,7 +37759,7 @@ AS 65003 rejects any route containing its own AS number (loop prevention).
 
 **BGP attributes in detail:**
 
-- **Well-known mandatory:** `AS_PATH``NEXT_HOP``ORIGIN` (IGP $\lt$ EGP $\lt$ Incomplete).
+- **Well-known mandatory:** `AS_PATH`, `NEXT_HOP`, `ORIGIN` (IGP $\lt$ EGP $\lt$ Incomplete).
 - **Well-known discretionary:** `LOCAL_PREF` (not sent to eBGP peers; influences outbound traffic).
 - **Optional transitive:** `COMMUNITY` (tag routes for policy), `MP_REACH_NLRI` (IPv6/VPNv4).
 - **Optional non-transitive:** `MED` (suggestion to neighbour about preferred entry point; lower is
@@ -38167,7 +38167,7 @@ The smoothed RTT converges toward the true average (~240 ms) and the RTO stabili
 
 DNS translates domain names to IP addresses. Hierarchical, distributed database.
 
-**Domain hierarchy:** Root (`.`) $\to$ TLD (`com``org``net`) $\to$ second-level (`example.com`)
+**Domain hierarchy:** Root (`.`) $\to$ TLD (`com`, `org`, `net`) $\to$ second-level (`example.com`)
 $\to$ subdomain (`www.example.com`).
 
 **Record types:**
@@ -38286,7 +38286,7 @@ Pre-installed in the browser/OS trust store.
 ### 6.4 Email Protocols
 
 **SMTP (Simple Mail Transfer Protocol).** Push protocol for sending email (TCP port 25/587). Uses a
-Command-response dialogue: `HELO`/`EHLO``MAIL FROM``RCPT TO``DATA``QUIT`. Supports extensions For
+Command-response dialogue: `HELO`/`EHLO`, `MAIL FROM`, `RCPT TO`, `DATA`, `QUIT`. Supports extensions For
 authentication (`AUTH`) and encryption (`STARTTLS`).
 
 **SMTP session example:**
@@ -38641,7 +38641,7 @@ Rate limiting, connection throttling.
     each.
 
 11. **Route aggregation.** Aggregate the following routes into the most specific supernet:
-    `198.51.100.0/24``198.51.101.0/24``198.51.102.0/24``198.51.103.0/24`.
+    `198.51.100.0/24`, `198.51.101.0/24`, `198.51.102.0/24`, `198.51.103.0/24`.
 
 12. **IPv6 addressing.** Expand the IPv6 address `2001:db8::1` to its full 128-bit form. How many
     /64 subnets does a /56 prefix provide? How many /128 addresses per /64?
@@ -38993,7 +38993,7 @@ $$
 **Query:** Find the names of students who have enrolled in every course offered by the CS
 department.
 
-**Schema:** `Student(sid, name, dept)``Course(cid, title, dept)``Takes(sid, cid, semester)`.
+**Schema:** `Student(sid, name, dept)`, `Course(cid, title, dept)`, `Takes(sid, cid, semester)`.
 
 **Step 1.** Get CS course IDs:
 
@@ -39220,7 +39220,7 @@ WHERE E.Grade IN ('A', 'A-')
 ORDER BY S.GPA DESC;
 ```
 
-**Aggregate functions:** `COUNT``SUM``AVG``MIN``MAX`.
+**Aggregate functions:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
 
 ```sql
 SELECT Dept, COUNT(*) AS NumStudents, AVG(GPA) AS AvgGPA
@@ -39299,8 +39299,8 @@ FROM Student;
 
 **`RANK()` vs. `DENSE_RANK()`:** `RANK()` leaves gaps after ties; `DENSE_RANK()` does not.
 
-**Other window functions:** `ROW_NUMBER()``LEAD()``FIRST_VALUE()``LAST_VALUE()`
-`NTILE(n)``SUM() OVER(...)``COUNT() OVER(...)`.
+**Other window functions:** `ROW_NUMBER()`, `LEAD()`, `FIRST_VALUE()`, `LAST_VALUE()`
+`NTILE(n)`, `SUM() OVER(...)`, `COUNT() OVER(...)`.
 
 <details>
 <summary>Worked Example 3.1: Running Totals and Percentiles</summary>
@@ -39342,7 +39342,7 @@ FROM Student GROUP BY Dept;
 ```
 
 Views are virtual tables. **Updatable views** (single-table, no aggregation) allow `INSERT`
-`UPDATE``DELETE` through the view. **Materialised views** store the result physically and must be
+`UPDATE`, `DELETE` through the view. **Materialised views** store the result physically and must be
 Refreshed.
 
 ### 3.8 Recursive Common Table Expressions
@@ -39419,7 +39419,7 @@ Attacker to manipulate the query structure.
 cursor.execute(f"SELECT * FROM Student WHERE name = '{user_input}'")
 ```
 
-If `user_input` is `' OR '1'='1`The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
+If `user_input` is `' OR '1'='1`. The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
 Returning all rows.
 
 **Types of SQL injection:**
@@ -39472,7 +39472,7 @@ counts, And execution time.
 
 **Common optimisation guidelines:**
 
-- **Create appropriate indexes** on columns used in `WHERE``JOIN``ORDER BY`And `GROUP BY` clauses.
+- **Create appropriate indexes** on columns used in `WHERE`, `JOIN`, `ORDER BY` and `GROUP BY` clauses.
 - **Avoid `SELECT *`**; retrieve only the columns needed.
 - **Avoid N+1 queries:** Fetching related data row-by-row instead of with a single join or batch
   query.
@@ -40479,7 +40479,7 @@ across nodes.
 
 - **Phase 1 (Voting):** The coordinator sends a `PREPARE` message to all participants. Each
   participant writes its changes to a local log, votes `YES` (ready to commit) or `NO` (abort).
-- **Phase 2 (Decision):** If all participants voted `YES`The coordinator sends `COMMIT`; otherwise
+- **Phase 2 (Decision):** If all participants voted `YES`. The coordinator sends `COMMIT`; otherwise
   it sends `ABORT`. Participants apply the decision and acknowledge.
 
 **Theorem 9.1.** 2PC guarantees atomicity of distributed transactions if no participant crashes
@@ -40500,7 +40500,7 @@ Model:
 2. **PreCommit:** If all `YES`Coordinator sends `PRE-COMMIT`. Participants acknowledge.
 3. **DoCommit:** Coordinator sends `COMMIT`. Participants commit and acknowledge.
 
-If the coordinator crashes after `PRE-COMMIT`Any participant can contact others to determine the
+If the coordinator crashes after `PRE-COMMIT`. Any participant can contact others to determine the
 Outcome (since at least one participant must have received `PRE-COMMIT` and can coordinate).
 
 **Limitation of 3PC:** Assumes reliable communication (no lost messages), which is unrealistic in
@@ -40637,7 +40637,7 @@ reader returns the most recent version among the 3 responses.
 **Problems 8--10:** SQL
 
 1. Write a recursive SQL query that computes the total cost of all parts (direct and indirect)
-   required to assemble product `P100`Given a `BOM(parent_part, child_part, quantity)` table.
+   required to assemble product `P100`. Given a `BOM(parent_part, child_part, quantity)` table.
 
 2. Write a SQL query that, for each department, returns the student with the highest GPA, their GPA,
    and the difference between their GPA and the department average. Use window functions only (no
@@ -43881,8 +43881,8 @@ shmdt(shm_ptr);
 **Pipes.** Unidirectional data channel. `pipe()` creates a pipe; `fork()` inherits file descriptors.
 Named pipes (`mkfifo`) allow unrelated processes to communicate.
 
-**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM``SIGKILL`
-`SIGSEGV``SIGCHLD`.
+**Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM`, `SIGKILL`
+`SIGSEGV`, `SIGCHLD`.
 
 ## 3. Synchronisation
 
@@ -44682,7 +44682,7 @@ Share physical frames (marked read-only). On a write to a shared page, a fault t
 just that page.
 
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
-- If the child immediately calls `exec()`No copies are ever made.
+- If the child immediately calls `exec()`. No copies are ever made.
 
 ## 6. File Systems
 
@@ -44692,7 +44692,7 @@ A **file** is a named collection of related data on secondary storage.
 
 **File attributes:** Name, identifier (inode number), type, location, size, protection, timestamps.
 
-**File operations:** `create``delete``open``close``read``write``seek``truncate`.
+**File operations:** `create`, `delete`, `open`, `close`, `read`, `write`, `seek`, `truncate`.
 
 **Access methods:**
 
@@ -44941,7 +44941,7 @@ User application
   reordering by the OS.
 
 **Driver loading.** Most modern OSes support loadable kernel modules (LKMs): drivers loaded at
-Runtime without rebooting. On Linux: `insmod``modprobe`. This allows third-party hardware support
+Runtime without rebooting. On Linux: `insmod`, `modprobe`. This allows third-party hardware support
 without kernel recompilation.
 
 ### 7.3 I/O Scheduling
@@ -45033,7 +45033,7 @@ OSes.
 **Challenges:**
 
 - **Instruction emulation:** Sensitive instructions must be trapped and emulated. On x86, `IN`
-  `OUT``HLT``CLI``STI`And `MOV` to/from control registers are sensitive.
+  `OUT`, `HLT`, `CLI`, `STI` and `MOV` to/from control registers are sensitive.
 - **Memory virtualization:** The VMM maintains **shadow page tables** mapping guest virtual to host
   physical addresses. Hardware support: Extended Page Tables (EPT, Intel) and Nested Page Tables
   (NPT, AMD).
@@ -45674,7 +45674,7 @@ gaining control of execution when the function returns.
 - **ASLR:** Randomises the stack base address, so the attacker cannot predict where `buffer` (and
   therefore the shellcode) will be in memory.
 - **DEP (W\^X):** Marks the stack as non-executable. Even if the attacker overwrites the return
-  address to point to the shellcode in `buffer`The CPU will fault when trying to execute it.
+  address to point to the shellcode in `buffer`. The CPU will fault when trying to execute it.
 - **CFI:** Verifies that the return address points to a valid call site. A crafted address injected
 by the overflow would fail the CFI check.
 
@@ -46654,7 +46654,7 @@ complexity class.
 
 - $L_6 = \{a^n b^n : n \geq 0\}$, matching counts of two symbols.
 - $L_7 = \{w w^R : w \in \{0,1\}^*\}$, even-length palindromes.
-- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`S and `b`S.
+- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`s and `b`s.
 
 **Decidable but not context-free:**
 
@@ -46777,7 +46777,7 @@ States: $q_0$ (start), $q_1$ (have seen a `0`), $q_2$ (accept, have seen `01`).
 | $q_1$ | $\emptyset$        | $\{q_2\}$          |
 | $q_2$ | $\{q_1\}$          | $\emptyset$        |
 
-Accept: $\{q_2\}$. The NFA is nondeterministic because from $q_0$ on input `0`It can either stay In
+Accept: $\{q_2\}$. The NFA is nondeterministic because from $q_0$ on input `0`. It can either stay In
 $q_0$ or move to $q_1$.
 
 </details>
@@ -46834,7 +46834,7 @@ The DFA has 3 reachable states. $\{q_1\}$, $\{q_2\}$ And $\{q_1, q_2\}$ are unre
 **Examples:**
 
 - $(0 \cup 1)^* 00 (0 \cup 1)^*$: strings containing `00`.
-- $1^* 01^* 01^*$: strings with exactly two `0`S.
+- $1^* 01^* 01^*$: strings with exactly two `0`s.
 - $(0 \cup 1)^*$: all strings over $\{0, 1\}$.
 - $\emptyset$: the empty language.
 
@@ -47003,7 +47003,7 @@ Decomposition $w = xyz$ satisfying (1) and (2) has some $i$ with $xy^iz \notin L
 **Example.** $L = \{0^n 1^n : n \geq 0\}$ is not regular.
 
 _Proof._ Assume $L$ is regular with pumping length $p$. Let $w = 0^p 1^p \in L$. By (2),
-$|xy| \leq p$ So $y$ consists only of `0`S. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
+$|xy| \leq p$ So $y$ consists only of `0`s. Let $|y| = k \gt 0$. Then $xy^0 z = 0^{p-k} 1^p \notin L$
 (since $p - k \neq p$). Contradiction. $\blacksquare$
 
 **Example.** $L = \{ww : w \in \{0,1\}^*\}$ is not regular.
@@ -47116,9 +47116,9 @@ $$
 
 The variable $S$ generates the $a^i b^i$ part, and $T$ generates the $a^k c^k$ part. Since
 $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$ The total number Of
-`b`S and `c`S equals the total number of `a`S.
+`b`s and `c`s equals the total number of `a`s.
 
-**Example.** CFG for strings with equal numbers of `0`S and `1`S:
+**Example.** CFG for strings with equal numbers of `0`s and `1`s:
 
 $$
 S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon
@@ -47364,10 +47364,10 @@ $\blacksquare$
 _Proof._ Assume pumping length $p$. Let $w = a^p b^p c^p$. Since $|vxy| \leq p$ The substring $vxy$
 cannot span all three letter types. Case analysis:
 
-- If $vxy$ is within the `a`S or `b`S or `c`S: pumping changes only one count, breaking the
+- If $vxy$ is within the `a`s or `b`s or `c`s: pumping changes only one count, breaking the
   equality.
-- If $vxy$ spans `a`S and `b`S: pumping changes the `a` and `b` counts but not `c`Breaking equality.
-- If $vxy$ spans `b`S and `c`S: analogous.
+- If $vxy$ spans `a`s and `b`s: pumping changes the `a` and `b` counts but not `c`Breaking equality.
+- If $vxy$ spans `b`s and `c`s: analogous.
 
 In all cases, $uv^2xy^2z \notin L$. $\blacksquare$
 
@@ -47560,11 +47560,11 @@ $M = (Q, \{0, 1\}, \{0, 1, \mathrm{x, \sqcup\}, \delta, q_0, q_{\mathrm{accept},
 
 **Key transitions:**
 
-1. In $q_0$ Read `0`: write `x`Move right, go to $q_1$. (Cross off a `0`.)
+1. In $q_0$ Read `0`: write `x`. Move right, go to $q_1$. (Cross off a `0`.)
 2. In $q_0$ Read `1`: reject. (A `1` before any `0`.)
 3. In $q_0$ Read $\sqcup$: accept. (Nothing left.)
-4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`S.)
-5. In $q_1$ Read `1`: write `x`Move left, go to $q_2$. (Cross off a `1`.)
+4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`s.)
+5. In $q_1$ Read `1`: write `x`. Move left, go to $q_2$. (Cross off a `1`.)
 6. In $q_1$ Read $\sqcup$: reject. (No `1` to match.)
 7. In $q_2$ Read `0` or `x`: move left, stay in $q_2$. (Scan back.)
 8. In $q_2$ Read $\sqcup$: move right, go to $q_0$. (Return to start.)

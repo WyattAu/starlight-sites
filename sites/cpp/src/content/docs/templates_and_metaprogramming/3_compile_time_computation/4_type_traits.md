@@ -586,7 +586,7 @@ transformed: [2] [5] [hello!]
 
 :::note
 Expression** [N4950 §7.5.6] that expands the comma operator over the parameter pack `Is`. This is
-the idiomatic way to iterate over a tuple at compile time. Without `index_sequence`There is no way
+the idiomatic way to iterate over a tuple at compile time. Without `index_sequence`. There is no way
 to iterate over a tuple's elements in a generic function, because tuples do not have a
 Runtime-iterable interface.
 :::

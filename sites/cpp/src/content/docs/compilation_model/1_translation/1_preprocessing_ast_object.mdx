@@ -450,7 +450,7 @@ c++filt _ZN4math3addEii
 ### LLVM IR Structure
 
 LLVM IR is a typed, SSA-based assembly language. Every value is computed exactly once and assigned
-to a register (`%0, %1`Etc.). This makes dataflow analysis trivial for the optimizer.
+to a register (`%0, %1`. Etc.). This makes dataflow analysis trivial for the optimizer.
 
 ```cpp
 // sum.cpp
@@ -475,7 +475,7 @@ Key IR concepts visible in the output:
 | Basic block  | `entry:, for.body:, for.end:`                         |
 | PHI node     | `%total.0 = phi i32 [ 0, %entry ], [ %1, %for.body ]` |
 | Branch       | `br i1 %cmp, label %for.body, label %for.end`         |
-At `-O2`The optimizer may recognize this as a closed-form formula and emit a multiplication Instead
+At `-O2`. The optimizer may recognize this as a closed-form formula and emit a multiplication Instead
 of a loop:
 
 ```llvm

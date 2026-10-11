@@ -134,7 +134,7 @@ After pass 2: [27, 3, 9, 38, 10, 43, 82].
 ### UT-3: Binary Search Trace
 
 **Question:** The sorted array is: [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Perform a binary search
-for the value 23. Show the values of `low``high``mid`And the comparison at each step. How many
+for the value 23. Show the values of `low`, `high`, `mid` and the comparison at each step. How many
 comparisons are needed? State the maximum number of comparisons for binary search on an array of
 size $n$.
 

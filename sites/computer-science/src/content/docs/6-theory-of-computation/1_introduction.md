@@ -69,7 +69,7 @@ complexity class.
 
 - $L_6 = \{a^n b^n : n \geq 0\}$, matching counts of two symbols.
 - $L_7 = \{w w^R : w \in \{0,1\}^*\}$, even-length palindromes.
-- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`S and `b`S.
+- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`s and `b`s.
 
 **Decidable but not context-free:**
 

@@ -18,7 +18,7 @@ description: "The Virtual File System layer is the kernel abstraction that allow
 ## Virtual File System (VFS) Layer
 
 The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file
-System types simultaneously. Application code calls `open(2)``read(2)``write(2)`And `stat(2)`
+System types simultaneously. Application code calls `open(2)`, `read(2)`, `write(2)` and `stat(2)`
 Without knowing whether the underlying storage uses ext4, XFS, Btrfs, NFS, or a pseudo-filesystem
 like procfs.
 
@@ -700,7 +700,7 @@ Source code repositories, smaller block sizes reduce wasted space.
 
 ### Pitfall: Mounting Without `nofail` on Removable Drives
 
-If an `/etc/fstab` entry for a USB drive or network share does not include `nofail`The system will
+If an `/etc/fstab` entry for a USB drive or network share does not include `nofail`. The system will
 Drop to emergency shell on boot when the device is absent:
 
 ```text
@@ -713,7 +713,7 @@ Drop to emergency shell on boot when the device is absent:
 
 ### Pitfall: Running `fsck` on a Mounted File System
 
-Never run `fsck` (or `e2fsck``xfs_repair`) on a mounted file system. This can cause severe
+Never run `fsck` (or `e2fsck`, `xfs_repair`) on a mounted file system. This can cause severe
 Corruption. Always unmount first, or run from a live system.
 
 ### Pitfall: ext4 `inode exhaustion`

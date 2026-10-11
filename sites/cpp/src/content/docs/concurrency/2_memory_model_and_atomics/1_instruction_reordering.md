@@ -82,7 +82,7 @@ if (reg == 0) {
 }
 ```
 
-This is a legal single-threaded optimization. If `flag` is not `volatile` or `std::atomic`The
+This is a legal single-threaded optimization. If `flag` is not `volatile` or `std::atomic`. The
 Compiler assumes no other agent modifies it.
 
 **Speculative hoisting:** Loads may be hoisted above branches:

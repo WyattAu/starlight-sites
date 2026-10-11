@@ -49,7 +49,7 @@ Devirtualization is important because virtual dispatch prevents several critical
 A compiler may devirtualize when it can prove that the dynamic type equals the static type:
 
 1. **The object has a known final type.** If the class is marked `final` or the function is marked
-   `final`The compiler knows there is no override.
+   `final`. The compiler knows there is no override.
 2. **The static type is exact.** When calling a virtual function on a local variable (not through a
    pointer or reference), the compiler knows the exact type.
 3. **Speculative devirtualization.** The compiler may emit a type check at runtime (using the vptr
@@ -61,20 +61,20 @@ A compiler may devirtualize when it can prove that the dynamic type equals the s
 By [N4950 S13.3.2], the dynamic type of an object is the most-derived type of the object. The
 Compiler can prove the dynamic type in the following cases:
 
-**Case 1: Local variable of exact type.** If `D d;` is a local variable of type `D`The dynamic Type
+**Case 1: Local variable of exact type.** If `D d;` is a local variable of type `D`. The dynamic Type
 of `d` is `D`. No pointer or reference to a base class is involved, so the static type equals The
 dynamic type. The compiler emits a direct call to `D::f`.
 
 **Case 2: `final` class.** If `D` is marked `final` [N4950 S11.7.4], no class can derive from `D`.
-If the compiler sees a call `d.f()` where `d` has static type `D`The dynamic type must be `D` (it
+If the compiler sees a call `d.f()` where `d` has static type `D`. The dynamic type must be `D` (it
 cannot be a more-derived type). Therefore, `D::f` is the only possible target.
 
-**Case 3: `final` virtual function.** If `D::f` is marked `final`No derived class can override `f`.
-If the compiler can prove the dynamic type is `D` or a type derived from `D`The call resolves To
+**Case 3: `final` virtual function.** If `D::f` is marked `final`. No derived class can override `f`.
+If the compiler can prove the dynamic type is `D` or a type derived from `D`. The call resolves To
 `D::f` regardless of the actual derived type. This is less powerful than a `final` class but Still
 useful.
 
-**Case 4: Type propagation through assignments.** If `D d; B& ref = d; ref.f();`The compiler can
+**Case 4: Type propagation through assignments.** If `D d; B& ref = d; ref.f();`. The compiler can
 Track that `ref` is an alias for `d` and prove that the dynamic type is `D`. This requires the
 Compiler to perform alias analysis.
 
@@ -118,7 +118,7 @@ int main() {
 ## 3.3 `final` as a Devirtualization Hint
 
 The `final` specifier provides the strongest guarantee to the compiler. When a class or virtual
-Function is marked `final`The compiler can prove that no further override exists:
+Function is marked `final`. The compiler can prove that no further override exists:
 
 ```cpp
 #include <iostream>
@@ -552,7 +552,7 @@ int main() {
 }
 ```
 
-Compile with `-O3` and compare. With `Derived` marked `final`The compiler may eliminate the Virtual
+Compile with `-O3` and compare. With `Derived` marked `final`. The compiler may eliminate the Virtual
 dispatch in `bench_devirtualized`Yielding a measurable speedup ( 1.2x--2x).
 
 ## 3.11 Devirtualization and `std::function`
@@ -635,7 +635,7 @@ Devirtualization by providing safety guarantees for the fallback path.
 ## 3.14 Devirtualization of Virtual Calls on `this`
 
 A common pattern is calling a virtual function on `this` within a member function. If the class is
-`final`Or if the function is `final`The compiler can devirtualize the self-call:
+`final`Or if the function is `final`. The compiler can devirtualize the self-call:
 
 ```cpp
 #include <cstdio>
@@ -661,7 +661,7 @@ int main() {
 }
 ```
 
-Without `final`The compiler may still devirtualize if it can prove that no further derived class
+Without `final`. The compiler may still devirtualize if it can prove that no further derived class
 Exists (e.g., the class definition is visible and no derived classes are defined in the same
 Translation unit).
 
@@ -690,7 +690,7 @@ int main() {
 }
 ```
 
-At `-O2`Both GCC and Clang devirtualize this call because the template instantiation Provides the
+At `-O2`. Both GCC and Clang devirtualize this call because the template instantiation Provides the
 full type definition.
 
 ## 3.16 Checking Devirtualization with Compiler Reports

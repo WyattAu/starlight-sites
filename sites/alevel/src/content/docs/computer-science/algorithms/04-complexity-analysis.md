@@ -622,7 +622,7 @@ Each integer occupies $O(1)$ space, and the list overhead is also $O(1)$ per ele
 
 **Space complexity: $O(n^2)$.**
 
-The dominant factor is the total number of stored values ($2n^2$). The variable `i`The `row`
+The dominant factor is the total number of stored values ($2n^2$). The variable `i`. The `row`
 Reference, and the loop overhead all use $O(1)$ additional space and are negligible compared to the
 Matrix itself.
 

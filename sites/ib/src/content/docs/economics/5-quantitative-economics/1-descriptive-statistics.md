@@ -517,7 +517,7 @@ $$
 
 Where $k_G = \frac{1}{1 - \mathrm{MPC}}$ (government spending multiplier) and
 $k_T =
-\frac{-\mathrm`\`\{MPC}``}{1 - \mathrm`\`\{MPC}``}$ (tax multiplier, which is negative because
+\frac{-\mathrm`\`\{MPC}``}{1 - \mathrm``, ``\``, ``\{MPC}``}$ (tax multiplier, which is negative because
 higher taxes Reduce disposable income and consumption).
 
 $$

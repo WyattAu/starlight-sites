@@ -466,7 +466,7 @@ Iterative reverse algorithm. Show the state after each iteration.
 <details>
 <summary>Answer</summary>
 
-Initial: `prev = None``current = [1] → [2] → [3] → [4] → None`
+Initial: `prev = None`, `current = [1] → [2] → [3] → [4] → None`
 
 | Iteration | prev            | current         | next_node |
 | --------- | --------------- | --------------- | --------- |

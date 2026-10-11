@@ -179,7 +179,7 @@ $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{accept}, q_{reject})$ where:
 **Algorithm:**
 
 1. If tape is empty, accept
-2. Find the leftmost `a`Replace with `X`Move right to find the leftmost `b`Replace with `X`
+2. Find the leftmost `a`Replace with `X`. Move right to find the leftmost `b`Replace with `X`
 3. Return to the leftmost remaining `a`
 4. Repeat until no `a` remains
 5. If only `X`'s and blanks remain, accept; otherwise reject
@@ -388,7 +388,7 @@ The substring "11".
 <details>
 <summary>Answer</summary>
 
-Any such string is a sequence of blocks, where each block is either `0``10`Or `1` (but the last `1`
+Any such string is a sequence of blocks, where each block is either `0`, `10` or `1` (but the last `1`
 must not be followed by another `1`).
 
 Regular expression: `(0|10)*(1|ε)`
@@ -469,7 +469,7 @@ The same forwards and backwards).
 - $q_a$ reads blank: move left → $q_{check0}$
 - $q_{check0}$ reads `0`: write blank, move left → $q_{return}$ (match!)
 - $q_{check0}$ reads `1`: reject (mismatch!)
-- $q_{return}$ reads `0``1`: move left
+- $q_{return}$ reads `0`, `1`: move left
 - $q_{return}$ reads blank: move right → $q_0$
 
 This TM halts on all inputs (always reaches accept or reject), so the language of palindromes is

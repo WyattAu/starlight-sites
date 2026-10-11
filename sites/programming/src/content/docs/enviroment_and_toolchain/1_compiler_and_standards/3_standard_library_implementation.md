@@ -20,7 +20,7 @@ categories:
 </script>
 
 In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers
-like `<vector>``<iostream>`) are distinct entities. While the ISO C++ standard defines the
+like `<vector>`, `<iostream>`) are distinct entities. While the ISO C++ standard defines the
 _interface_ and _behavior_ of the library, the actual code is provided by a specific **Standard
 Library Implementation**.
 
@@ -134,8 +134,8 @@ namespace std {
 ```
 
 :::danger
-`B.exe` is compiled with `_GLIBCXX_USE_CXX11_ABI=1`The linker will fail with "Undefined Reference To
-`std::string`" because the application is looking for `std::__cxx11::string`But the library Provides
+`B.exe` is compiled with `_GLIBCXX_USE_CXX11_ABI=1`. The linker will fail with "Undefined Reference To
+`std::string`" because the application is looking for `std::__cxx11::string`. But the library Provides
 `std::string`.
 :::
 
@@ -173,14 +173,14 @@ Library.
 Most of the standard library is implemented entirely in headers. These include:
 
 - All type traits (`<type_traits>`)
-- Algorithms (`<algorithm>``<numeric>`)
+- Algorithms (`<algorithm>`, `<numeric>`)
 - Iterators (`<iterator>`)
 - Memory utilities (`<memory>`)
-- Container adaptors (`<queue>``<stack>`)
-- Most containers (`<vector>``<map>``<unordered_map>``<string_view>`)
-- `<format>``<print>` (C++20/23)
-- `<ranges>``<concepts>` (C++20)
-- `<expected>``<flat_map>``<mdspan>` (C++23)
+- Container adaptors (`<queue>`, `<stack>`)
+- Most containers (`<vector>`, `<map>`, `<unordered_map>`, `<string_view>`)
+- `<format>`, `<print>` (C++20/23)
+- `<ranges>`, `<concepts>` (C++20)
+- `<expected>`, `<flat_map>`, `<mdspan>` (C++23)
 
 These are "header-only" in the sense that the implementation is entirely in headers, but they are
 **not** standalone headers -- they depend on other internal headers and the linked runtime library.

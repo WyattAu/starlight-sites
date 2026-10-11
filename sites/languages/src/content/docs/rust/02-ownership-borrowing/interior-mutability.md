@@ -27,11 +27,11 @@ Needs to change in response to operations that only have a shared reference avai
 Mutability resolves this by moving the mutation check from compile time to runtime (for
 Single-threaded types) or by using synchronization primitives (for multi-threaded types).
 
-## `UnsafeCell<T>`The Primitive
+## `UnsafeCell<T>`. The Primitive
 
 `UnsafeCell<T>` is the foundation of all interior mutability in Rust. It is the only type in the
 Standard library that allows you to obtain a mutable reference to its interior through a shared
-Reference. All other interior mutability types (`Cell``RefCell``Mutex``RwLock`) are built on Top of
+Reference. All other interior mutability types (`Cell`, `RefCell`, `Mutex`, `RwLock`) are built on Top of
 `UnsafeCell`.
 
 ```rust
@@ -67,8 +67,8 @@ the aliasing invariant. Violating this is undefined behavior.
 ### Why `UnsafeCell` Exists
 
 The compiler assumes that `&T` never allows mutation. `UnsafeCell` is the escape hatch that tells
-the compiler "I will manage the aliasing rules myself." Without `UnsafeCell`It would be impossible
-to implement `Cell``RefCell``Mutex`Or any other interior mutability type.
+the compiler "I will manage the aliasing rules myself." Without `UnsafeCell`. It would be impossible
+to implement `Cell`, `RefCell`, `Mutex` or any other interior mutability type.
 
 ### `UnsafeCell` and `Sync`
 
@@ -126,7 +126,7 @@ assert_eq!(counter.get(), 43);
 
 ### `Cell` with Non-Copy Types
 
-`Cell` works with non-`Copy` types for `set``replace`And `take`But not `get`:
+`Cell` works with non-`Copy` types for `set`, `replace` and `take`. But not `get`:
 
 ```rust
 use std::cell::Cell;
@@ -582,7 +582,7 @@ where
 ### `Cell` Overhead
 
 `Cell` has zero runtime overhead. All operations compile to direct memory access. The value is
-Stored inline within the `Cell`Which itself has the same size as `T`.
+Stored inline within the `Cell`. Which itself has the same size as `T`.
 
 ```rust
 assert_eq!(std::mem::size_of::<Cell<u64>>(), 8);
@@ -625,7 +625,7 @@ Use `Cell<T>` when:
 
 Use `RefCell<T>` when:
 
-- `T` is not `Copy` (e.g., `String``Vec`Custom structs)
+- `T` is not `Copy` (e.g., `String`, `Vec`Custom structs)
 - You need to borrow the interior value (read or write) through a guard
 - You need dynamic borrow checking with error handling
 
@@ -642,7 +642,7 @@ Use `Mutex<T>` when:
    the error, or restructure your code to avoid overlapping borrows.
 
 2. **Using `RefCell` across threads.** `RefCell` is not `Send` or `Sync`. The compiler prevents
-   cross-thread use, but if you bypass this with `unsafe`You will have data races. Use `Mutex` or
+   cross-thread use, but if you bypass this with `unsafe`. You will have data races. Use `Mutex` or
    `RwLock` for multi-threaded interior mutability.
 
 3. **Holding `Ref` guards too long.** A `Ref` or `RefMut` guard keeps the borrow active until it is
@@ -666,7 +666,7 @@ Use `Mutex<T>` when:
    manually. Prefer `Cell` or `RefCell` unless you are building a custom synchronization primitive.
 
 8. **Overusing interior mutability.** Interior mutability should be a deliberate design choice, not
-   a default. If you find yourself wrapping everything in `RefCell`Consider restructuring your
+   a default. If you find yourself wrapping everything in `RefCell`. Consider restructuring your
    ownership model. Interior mutability hides mutation from the type system, making code harder to
    reason about.
 
@@ -807,9 +807,9 @@ assert_eq!(counter.get(), 2);
 across threads when `T: Copy`And concurrent `get` and `set` operations are safe because `Cell` uses
 interior mutability, `get` copies the value out and `set` replaces it in a single Operation.
 
-### `Arc<RefCell<T>>`Not Thread-Safe
+### `Arc<RefCell<T>>`. Not Thread-Safe
 
-`RefCell` is not `Sync`So `Arc<RefCell<T>>` cannot be shared across threads:
+`RefCell` is not `Sync`. So `Arc<RefCell<T>>` cannot be shared across threads:
 
 ```rust
 use std::sync::Arc;

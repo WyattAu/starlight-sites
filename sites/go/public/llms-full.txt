@@ -499,7 +499,7 @@ Go has a focused set of types: primitives, arrays, slices, maps, and structs. Th
 
 **Maps** are hash tables with a simple API. Accessing a missing key returns the zero value, use the comma-ok idiom (`value, ok := m[key]`) to distinguish between a zero value and a missing key. Maps are not safe for concurrent use without synchronization.
 
-**Struct tags** provide metadata for struct fields, commonly used for JSON encoding/decoding, database mapping, and validation. Tags are key-value pairs in backtick strings: `` `json:"name,omitempty"` ``.
+**Struct tags** provide metadata for struct fields, commonly used for JSON encoding/decoding, database mapping, and validation. Tags are key-value pairs in backtick strings: `` ``, ``json:"name,omitempty"``, `` ``.
 
 ---
 
@@ -583,7 +583,7 @@ Go handles errors with return values, not exceptions. Every function that can fa
 
 **Error wrapping** with `fmt.Errorf("doing thing: %w", err)` adds context to errors while preserving the original. `errors.Is` and `errors.as` unwrap error chains to check for specific error types. This enables structured error handling without exceptions.
 
-**Sentinel errors** are predefined error values that callers check with `errors.Is`. They represent specific failure conditions: `sql.ErrNoRows``io.EOF`or custom package-level errors.
+**Sentinel errors** are predefined error values that callers check with `errors.Is`. They represent specific failure conditions: `sql.ErrNoRows`, `io.EOF`or custom package-level errors.
 
 ---
 
@@ -654,7 +654,7 @@ Go uses Go Modules for dependency management. The `go.mod` file declares the mod
 
 ### Is Go good for large codebases?
 
-Yes. Go was designed for large codebases with many contributors. Its simplicity, explicit error handling, and strong tooling (`go fmt``go vet``go test`) make it easy to maintain consistency across large teams. The language enforces a single style, reducing code review friction.
+Yes. Go was designed for large codebases with many contributors. Its simplicity, explicit error handling, and strong tooling (`go fmt`, `go vet`, `go test`) make it easy to maintain consistency across large teams. The language enforces a single style, reducing code review friction.
 
 ---
 
@@ -2468,10 +2468,10 @@ myproject/
 
 ### Package Naming Conventions
 
-- Lowercase, single word: `http``json``strings`
+- Lowercase, single word: `http`, `json`, `strings`
 - No underscores or mixed case
 - The directory name matches the package name
-- Avoid repetition: `pkg/utils/utils.go` -> the package is `utils`Not `utilsutils`
+- Avoid repetition: `pkg/utils/utils.go` -> the package is `utils`. Not `utilsutils`
 
 ### Import Paths
 
@@ -3448,7 +3448,7 @@ s := unsafe.String(&b[0], len(b)) // []byte to string without allocation
 2. Never store a `uintptr` where the GC can see it. The GC treats `uintptr` as an integer, not a
    pointer, and may collect the underlying object.
 
-3. `unsafe.Pointer` rules: a `T1` can be converted to `unsafe.Pointer`Which can be converted to
+3. `unsafe.Pointer` rules: a `T1` can be converted to `unsafe.Pointer`. Which can be converted to
    `T2`. This allows arbitrary pointer type conversion.
 
 ```go
@@ -3595,9 +3595,9 @@ fmt.Println(t.Name()) // MyInt
 fmt.Println(t.Kind()) // int
 ```
 
-`Kind` is one of: `Bool``Int``Int8``Int16``Int32``Int64``Uint``Uint8``Uint16`
-`Uint32``Uint64``Float32``Float64``Complex64``Complex128``String``Array``Slice`
-`Map``Chan``Func``Interface``Struct``Ptr``UnsafePointer`.
+`Kind` is one of: `Bool`, `Int`, `Int8`, `Int16`, `Int32`, `Int64`, `Uint`, `Uint8`, `Uint16`
+`Uint32`, `Uint64`, `Float32`, `Float64`, `Complex64`, `Complex128`, `String`, `Array`, `Slice`
+`Map`, `Chan`, `Func`, `Interface`, `Struct`, `Ptr`, `UnsafePointer`.
 
 ## Modifying Values
 
@@ -4451,7 +4451,7 @@ emptySlice := []int{}    // not nil, len=0, cap=0
 madeSlice := make([]int, 0) // not nil, len=0, cap=0
 ```
 
-The difference matters for JSON marshaling: `nil` marshals to `null`While `[]int{}` marshals to
+The difference matters for JSON marshaling: `nil` marshals to `null`. While `[]int{}` marshals to
 `[]`. For most other purposes, they are interchangeable.
 
 ## Maps
@@ -4784,7 +4784,7 @@ case 4:
 
 ## For Loops
 
-Go has exactly one looping construct: `for`. There is no `while`No `do-while`No `loop`.
+Go has exactly one looping construct: `for`. There is no `while`. No `do-while`. No `loop`.
 
 ### Classic For
 
@@ -4906,7 +4906,7 @@ for _, p := range items {
 
 ## Break and Continue
 
-`break` exits the innermost `for``switch`Or `select`. `continue` skips to the next iteration of The
+`break` exits the innermost `for`, `switch` or `select`. `continue` skips to the next iteration of The
 innermost `for` loop.
 
 ### Labeled Break
@@ -4965,7 +4965,7 @@ invalid:
 }
 ```
 
-`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for``if`Functions).
+`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for`, `if`Functions).
 
 ## Defer
 
@@ -5553,7 +5553,7 @@ fmt.Println(!b) // false
 ## String Type
 
 Strings are immutable sequences of UTF-8 bytes. They are not null-terminated and their length is
-Stored explicitly. The zero value is `""`Not `nil`.
+Stored explicitly. The zero value is `""`. Not `nil`.
 
 ```go
 s := "hello"
@@ -5763,7 +5763,7 @@ type Rune = int32
 1. **Using `==` to compare floats.** IEEE 754 makes exact equality unreliable. Use an epsilon
    comparison: `math.Abs(a-b) < epsilon`.
 
-2. **String indexing yields bytes.** `s[i]` returns a `byte`Not a `rune`. For multi-byte UTF-8, this
+2. **String indexing yields bytes.** `s[i]` returns a `byte`. Not a `rune`. For multi-byte UTF-8, this
    can split a character. Use `for i, r := range s` for rune iteration.
 
 3. **Assuming `int` is 64-bit.** On 32-bit systems, `int` is 32 bits. Use `int64` explicitly when
@@ -5773,7 +5773,7 @@ type Rune = int32
    one. Use `=` for assignment to an existing variable.
 
 5. **`nil` slices vs empty slices.** A `nil` slice has length and capacity 0 but is not equal to an
-   empty slice (`[]int{}`). JSON marshaling treats them differently: `nil` becomes `null``[]int{}`
+   empty slice (`[]int{}`). JSON marshaling treats them differently: `nil` becomes `null`, `[]int{}`
    becomes `[]`.
 
 6. **Integer overflow is silent.** Unlike Rust (debug panics) or Python (arbitrary precision), Go
@@ -6165,7 +6165,7 @@ Client disconnects, the context is cancelled, propagating to all goroutines hand
 
 ## Common Pitfalls
 
-1. **Forgetting to call the cancel function.** `WithCancel``WithTimeout`And `WithDeadline` return a
+1. **Forgetting to call the cancel function.** `WithCancel`, `WithTimeout` and `WithDeadline` return a
    cancel function that must be called to release resources. Use `defer cancel()`.
 
 2. **Not propagating context through function calls.** If a function starts goroutines, accept a
@@ -6404,7 +6404,7 @@ Vice versa). Use `Lock`/`Unlock` for writes.
 ### When to Use RWMutex vs Mutex
 
 Use `RWMutex` when reads significantly outnumber writes and the read critical section is not short.
-The overhead of `RWMutex` is higher than `Mutex`So if reads are rare or the Critical section is a
+The overhead of `RWMutex` is higher than `Mutex`. So if reads are rare or the Critical section is a
 single field read, `Mutex` may be faster.
 
 ## sync.Once
@@ -6533,7 +6533,7 @@ Use directional channels in function signatures to make the intended usage expli
    is ready. If no receiver exists, the goroutine blocks forever.
 
 5. **Copying a Mutex after use.** `sync.Mutex` must not be copied after first use. The same applies
-   to `sync.RWMutex``sync.WaitGroup``sync.Cond`And `sync.Pool`. Use pointers.
+   to `sync.RWMutex`, `sync.WaitGroup`, `sync.Cond` and `sync.Pool`. Use pointers.
 
 6. **Using goroutines without synchronization.** Starting a goroutine and not waiting for it or
    communicating with it via a channel leads to data races. Use `sync.WaitGroup` or channels to
@@ -7502,7 +7502,7 @@ func Sum[T Number](nums []T) T {
 }
 ```
 
-The `~` token means "the underlying type must be." A type `MyInt int` has underlying type `int`So It
+The `~` token means "the underlying type must be." A type `MyInt int` has underlying type `int`. So It
 satisfies `~int`.
 
 ### Methods in Constraints
@@ -7815,7 +7815,7 @@ type ReadWriteCloser interface {
 }
 ```
 
-`ReadWriteCloser` requires all methods from `Reader``Writer`And `Closer`.
+`ReadWriteCloser` requires all methods from `Reader`, `Writer` and `Closer`.
 
 ## The Empty Interface
 
@@ -7958,7 +7958,7 @@ var s Speaker = p // type is *Dog, value is nil
 fmt.Println(s == nil) // false!
 ```
 
-This is a common source of bugs. The interface is not nil because its type is `*Dog`Even though The
+This is a common source of bugs. The interface is not nil because its type is `*Dog`. Even though The
 value is nil. Calling a method on it works (the receiver is nil inside the method), but Comparing
 the interface to `nil` does not detect it.
 
@@ -8939,7 +8939,7 @@ slog.Info("user logged in", "username", username, "ip", ip)
    services, wrap the handler with a buffered writer or use an async handler to avoid blocking.
 
 7. **Using math/rand/v1.** The old `math/rand` package requires manual seeding and is deprecated.
-   Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN``rand.N`and other
+   Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN`, `rand.N`and other
    improvements.
 
 ```mermaid
@@ -9555,7 +9555,7 @@ Downstream operations.
    as the second argument registers routes on the global `http.DefaultServeMux`. Any package can
    Register routes on it. Use `http.NewServeMux()` to create an isolated router.
 
-4. **No timeouts on the server.** Without `ReadTimeout``WriteTimeout`and `IdleTimeout`a single
+4. **No timeouts on the server.** Without `ReadTimeout`, `WriteTimeout`and `IdleTimeout`a single
    Slow client can hold a goroutine forever. Always configure timeouts in production.
 
 5. **Blocking in handlers.** Handlers run in their own goroutines, but blocking calls (e.g.,

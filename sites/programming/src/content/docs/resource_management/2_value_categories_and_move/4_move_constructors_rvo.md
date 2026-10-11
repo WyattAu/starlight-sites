@@ -346,7 +346,7 @@ pointer swaps and integer assignments, none of which can throw.
 ## 6.3 `noexcept` on Move Operations
 
 Marking move constructors and move assignment operators `noexcept` is **critical** for performance.
-Standard library containers (e.g., `std::vector``std::unordered_map`) use `noexcept` move Operations
+Standard library containers (e.g., `std::vector`, `std::unordered_map`) use `noexcept` move Operations
 to provide the **strong exception guarantee** during reallocation. If the move Constructor is not
 `noexcept`Containers fall back to copying, negating the benefit of move Semantics [N4950
 S16.4.5.2.6].
@@ -420,10 +420,10 @@ Member function. The interaction between these rules produces the "Rule of Five"
 Key observations from this table:
 
 1. **Declaring a destructor suppresses implicit move operations.** This is the most common surprise.
-   If you write `~T() { ... }`The compiler will not generate a move constructor or move assignment
+   If you write `~T() { ... }`. The compiler will not generate a move constructor or move assignment
    operator, even if all members are movable. Move requests will silently fall back to copy.
 
-2. **Declaring a copy constructor suppresses everything else.** If you write `T(const T&)`The
+2. **Declaring a copy constructor suppresses everything else.** If you write `T(const T&)`. The
    compiler generates no move operations and no copy assignment operator.
 
 3. **Declaring a move constructor deletes the copy operations.** The rationale is that if you
@@ -627,7 +627,7 @@ Move semantics are like handing someone the keys to your car instead of buying t
 
 ## Common Pitfalls
 
-A move constructor takes `T&&`Which is an rvalue reference, not a forwarding reference. This means
+A move constructor takes `T&&`. Which is an rvalue reference, not a forwarding reference. This means
 it can only accept rvalues. If you need a constructor that can accept both lvalues and rvalues with
 Perfect forwarding, you use a variadic template:
 
@@ -795,7 +795,7 @@ After swap:  a.size=2000, b.size=1000
 ```
 
 :::tip
-Individual members. This ensures that if a member type has a custom `swap`It is found via ADL, While
+Individual members. This ensures that if a member type has a custom `swap`. It is found via ADL, While
 falling back to `std::swap` for types that do not.
 :::
 
@@ -910,7 +910,7 @@ Over `std::function` if copyability is not required. This avoids the internal he
 
 ## Common Pitfalls
 
-- **Moving from const objects:** `std::move(const T&)` returns `const T&&`Which binds to a copy
+- **Moving from const objects:** `std::move(const T&)` returns `const T&&`. Which binds to a copy
   constructor (not move constructor). The move is silently downgraded to a copy. If you see this in
   a code review, the object should not be `const` in the first place.
 - **Using moved-from objects:** After a move, the source object is in a valid but unspecified state.

@@ -242,7 +242,7 @@ fun findFirstEvenLambda(list: List<Int>): Int? {
 }
 ```
 
-In practice, prefer using `firstOrNull``find`Or other standard library functions over manual
+In practice, prefer using `firstOrNull`, `find` or other standard library functions over manual
 Iteration with labeled returns.
 
 ### Implicit Labels
@@ -260,7 +260,7 @@ fun foo() {
 
 ## try/catch as Expression
 
-Like `if` and `when``try/catch` is an expression in Kotlin.
+Like `if` and `when`, `try/catch` is an expression in Kotlin.
 
 ```kotlin
 val result: Int = try {

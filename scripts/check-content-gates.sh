@@ -39,6 +39,7 @@ run 'aside directives'        node scripts/lint-asides.js
 run 'mdx parse'               node --max-old-space-size=2048 scripts/lint-mdx-parse.js
 run 'display math delimiters' node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
 run 'prose damage'            python3 scripts/fix-prose-damage.py --check
+run 'glued code spans'        python3 scripts/fix-glued-code-spans.py --check
 run 'duplicate sections'      node --max-old-space-size=1024 scripts/fix-duplicate-blocks.mjs --check
 run 'latex parseability'      node --max-old-space-size=2048 scripts/fix-latex-braces.mjs --check
 run 'table shape'             node --max-old-space-size=2048 scripts/lint-tables.mjs --check

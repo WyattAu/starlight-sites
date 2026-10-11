@@ -718,7 +718,7 @@ Copyleft obligations:
   files for the non-LGPL portions and a mechanism for the user to re-link
 
 **Dynamic linking:** The library code is loaded at runtime from a separate shared object (`.so`
-`.dll``.dylib`). The executable and the library remain separate files. The legal status is Debated:
+`.dll`, `.dylib`). The executable and the library remain separate files. The legal status is Debated:
 
 - **FSF position (for GPL):** Dynamic linking to a GPL library creates a derivative work, triggering
   copyleft obligations for the entire application. This is the FSF's interpretation, but it has
@@ -819,15 +819,15 @@ your dependency tree and to identify compliance risks before they become legal p
 - **SPDX (Software Package Data Exchange)**, a standard format (ISO/IEC 5962:2021) for
   communicating software bill of materials (SBOM) and license information. The SPDX License List at
   spdx.org/licenses/ provides canonical, standardized identifiers for every known license. These
-  identifiers can be used in `package.json``Cargo.toml``pyproject.toml`And other package manifests.
+  identifiers can be used in `package.json`, `Cargo.toml`, `pyproject.toml` and other package manifests.
 - **FOSSA, Snyk, Black Duck**, commercial dependency scanning tools that provide license compliance
   reports, vulnerability scanning, and SBOM generation.
 
 **Manual approaches:**
 
 - Check the `LICENSE` file in each dependency's source repository
-- Review package manifest files for license metadata (`license` field in `package.json``license`
-  field in `Cargo.toml``license` field in `go.mod`)
+- Review package manifest files for license metadata (`license` field in `package.json`, `license`
+  field in `Cargo.toml`, `license` field in `go.mod`)
 - Cross-reference with the SPDX License List to ensure the declared license matches the actual
   license text
 
@@ -921,7 +921,7 @@ A condition of the license grant. Failing to include license notices in your shi
 your downstream recipients do not have a valid license to use the software, and you are committing
 Copyright infringement. In practice, your binary distribution must include a `LICENSE` file, a
 `NOTICE` file (for Apache 2.0), or equivalent documentation containing all applicable license texts
-and copyright notices. Automate this, tools like `licensee``go-licenses`And `pip-licenses` can
+and copyright notices. Automate this, tools like `licensee`, `go-licenses` and `pip-licenses` can
 Generate license notice bundles for your distribution.
 
 ## Further Reading

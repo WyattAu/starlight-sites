@@ -1048,7 +1048,7 @@ Expected surplus unconditional: $0.512 \times 200 = \$102.40$.
 
 A village of 100 households is considering contributing to a new well that costs `USD 10,000`. Each
 household values the well at `USD 200`. The village leader proposes that each household Contributes
-`USD 100`With the government covering the remaining `USD 0` (since $100 \times 100 = 10,000$).
+`USD 100`. With the government covering the remaining `USD 0` (since $100 \times 100 = 10,000$).
 
 (a) Is this project socially efficient? Explain.
 

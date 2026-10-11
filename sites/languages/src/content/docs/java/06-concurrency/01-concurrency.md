@@ -299,7 +299,7 @@ public class ReentrantExample {
    when it becomes available. A thread that has been waiting the longest may starve indefinitely
    while new threads repeatedly acquire the lock.
 
-2. **No try-lock.** If a thread calls `synchronized`It blocks indefinitely until the lock is
+2. **No try-lock.** If a thread calls `synchronized`. It blocks indefinitely until the lock is
    available. There is no way to attempt acquisition with a timeout, which makes it impossible to
    implement deadlock-avoidance strategies.
 
@@ -403,7 +403,7 @@ public class VolatileCounter {
 }
 ```
 
-Two threads calling `increment()` simultaneously can both read `count = 0`Both increment to `1`And
+Two threads calling `increment()` simultaneously can both read `count = 0`. Both increment to `1`And
 both write `1`Losing one increment. For atomic compound operations, use `AtomicInteger` or
 `synchronized`.
 
@@ -648,7 +648,7 @@ graph LR
 ### ConcurrentHashMap
 
 `ConcurrentHashMap` is a hash table that supports full concurrency of retrievals and high expected
-concurrency for updates. Unlike `Hashtable` or `Collections.synchronizedMap()`It does not lock the
+concurrency for updates. Unlike `Hashtable` or `Collections.synchronizedMap()`. It does not lock the
 entire map for writes. Instead, it uses a **striped lock** strategy (JDK 7: lock striping with 16
 segments; JDK 8+: CAS on individual bucket nodes).
 
@@ -1027,7 +1027,7 @@ reusable version, use `CyclicBarrier`.
 ### CyclicBarrier
 
 A `CyclicBarrier` allows a set of threads to all wait for each other to reach a common barrier
-point. Unlike `CountDownLatch`It is reusable after all waiting threads are released.
+point. Unlike `CountDownLatch`. It is reusable after all waiting threads are released.
 
 ```java
 // MapReduce-style parallel computation
@@ -1138,7 +1138,7 @@ try {
 ```
 
 :::caution
-`ReentrantLock``Semaphore``CountDownLatch`And all other `java.util.concurrent` synchronizers do NOT
+`ReentrantLock`, `Semaphore`, `CountDownLatch` and all other `java.util.concurrent` synchronizers do NOT
 cause pinning. The JDK team has been progressively replacing internal uses of `synchronized` with
 `ReentrantLock` to eliminate pinning in the JDK itself. In JDK 24+, pinning from `synchronized` is
 being addressed through async monitor enter/exit, but for JDK 21-23, you must be aware of it.

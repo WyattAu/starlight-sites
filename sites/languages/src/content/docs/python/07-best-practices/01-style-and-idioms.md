@@ -98,7 +98,7 @@ The distinction between `_private` and `__mangled` is worth understanding precis
 Leading underscore is a convention that signals "this is an implementation detail, don't use it from
 outside the class." It is not enforced by the interpreter -- any code can access `_private`
 Attributes freely. A double leading underscore triggers name mangling: the interpreter rewrites
-`__name` to `_ClassName__name`Which makes it harder (but not impossible) to accidentally access From
+`__name` to `_ClassName__name`. Which makes it harder (but not impossible) to accidentally access From
 subclasses.
 
 ### Line Length and Formatting
@@ -299,7 +299,7 @@ to `typeshed`.
 
 A virtual environment is an isolated Python installation directory that contains its own interpreter
 Executable and its own `site-packages` directory. Without virtual environments, every project on a
-System shares the same global `site-packages`Which means installing a package for one project can
+System shares the same global `site-packages`. Which means installing a package for one project can
 Break another project that depends on a different version of the same package.
 
 ```bash
@@ -368,7 +368,7 @@ Requirements. It provides no mechanism for managing development vs production de
 
 PEP 517 and PEP 621 established `pyproject.toml` as the single source of truth for project metadata,
 Build configuration, dependency specification, and tool configuration. It replaces the fragmented
-Ecosystem of `setup.py``setup.cfg``requirements.txt``tox.ini``.flake8``.mypy.ini`And `.isort.cfg`
+Ecosystem of `setup.py`, `setup.cfg`, `requirements.txt`, `tox.ini`, `.flake8`, `.mypy.ini` and `.isort.cfg`
 with one file.
 
 ```toml
@@ -431,15 +431,15 @@ addopts = "-v --tb=short"
 
 `setup.py` has several fundamental problems:
 
-1. **Execution at import time.** `setup.py` is executed by running `python setup.py`Which means
+1. **Execution at import time.** `setup.py` is executed by running `python setup.py`. Which means
    arbitrary code runs during package inspection. This makes it impossible to safely determine a
    package's metadata without executing potentially malicious code. PEP 517 solved this by defining
    a standard interface where the build frontend tells the build backend what to do via subprocess
    calls, rather than executing the project's code directly.
 
 2. **Scattered configuration.** Before `pyproject.toml`Project metadata lived in `setup.py` or
-   `setup.cfg`Tool configuration lived in `.flake8``.mypy.ini``.isort.cfg``tox.ini`
-   `pytest.ini``MANIFEST.in`And `pyproject.toml` (for build system). A single project could have ten
+   `setup.cfg`Tool configuration lived in `.flake8`, `.mypy.ini`, `.isort.cfg`, `tox.ini`
+   `pytest.ini`, `MANIFEST.in` and `pyproject.toml` (for build system). A single project could have ten
    or more configuration files. `pyproject.toml` consolidates all tool configuration under
    `[tool.*]` sections.
 
@@ -502,9 +502,9 @@ Installed version. If you have `requests` installed globally and also have a fil
 Extremely confusing import errors, especially when the shadowing only happens during testing
 (because test runners often add the project root to `sys.path`).
 
-The `src` layout prevents this entirely. The project root is on `sys.path`But there is no
+The `src` layout prevents this entirely. The project root is on `sys.path`. But there is no
 `myproject/` directory at the root -- it is nested inside `src/`. The only way to import `myproject`
-Is through the installed package entry in `site-packages`Which points to `src/myproject/` via a
+Is through the installed package entry in `site-packages`. Which points to `src/myproject/` via a
 `.pth` file or symlink. This guarantees that imports are always resolved through the installed
 Package, exactly as they would be in production.
 
@@ -554,7 +554,7 @@ myproject/
 ### Why pytest Over unittest
 
 The standard library `unittest` framework uses class-based test organization with verbose assertion
-Methods (`self.assertEqual``self.assertTrue``self.assertRaises`). `pytest` uses plain functions With
+Methods (`self.assertEqual`, `self.assertTrue`, `self.assertRaises`). `pytest` uses plain functions With
 native `assert` statements and provides powerful features like parametrized tests, fixtures, And
 plugin-based discovery -- all without requiring inheritance from a test base class.
 
@@ -746,7 +746,7 @@ And dozens of flake8 plugins) with a single Rust binary. The practical advantage
    these out of the box, selectable via rule codes.
 
 3. **Unified configuration.** `ruff` is configured entirely through `pyproject.toml`. There is no
-   separate `.flake8``.isort.cfg`Or `pyproject.toml` `[tool.black]` section. One tool, one
+   separate `.flake8`, `.isort.cfg` or `pyproject.toml` `[tool.black]` section. One tool, one
    configuration block.
 
 4. **Built-in formatting.** `ruff format` is compatible with Black's formatting style (and can be
@@ -1275,10 +1275,10 @@ this:
 1. **Editor integration.** Your editor runs `ruff` on save for instant linting and formatting
    feedback. It runs `pyright` or `mypy` in the background for type checking.
 
-2. **Pre-commit hooks.** `pre-commit` runs `ruff check --fix``ruff format``mypy`And `pytest` before
+2. **Pre-commit hooks.** `pre-commit` runs `ruff check --fix`, `ruff format`, `mypy` and `pytest` before
    every commit, preventing violations from entering the repository.
 
-3. **CI pipeline.** GitHub Actions runs the full suite: `ruff check``ruff format --check``mypy`
+3. **CI pipeline.** GitHub Actions runs the full suite: `ruff check`, `ruff format --check`, `mypy`
    `pytest --cov`And any integration tests. The pipeline fails if any step fails.
 
 4. **Dependency management.** Dependencies are declared in `pyproject.toml` and locked in `uv.lock`

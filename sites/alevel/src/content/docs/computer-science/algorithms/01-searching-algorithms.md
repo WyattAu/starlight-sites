@@ -100,7 +100,7 @@ not present.
 **Invariant:** At the start of each loop iteration, if $x$ exists in $A$ Then
 $x \in A[\mathrm{low}..\mathrm{high}]$.
 
-**Base case.** Initially, `low = 0` and `high = n-1`So
+**Base case.** Initially, `low = 0` and `high = n-1`. So
 $A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$ The invariant holds.
 
 **Maintenance.** Three cases:
@@ -113,7 +113,7 @@ $A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$ The invariant hol
    $x \notin A[\mathrm{mid}..n-1]$. Setting `high = mid - 1` restricts the search to
    $A[\mathrm{low}..\mathrm{mid}-1]$. If $x$ was in the old range, it is in the new range.
 
-**Termination.** The loop terminates when `low > high`Meaning $A[\mathrm{low}..\mathrm{high}]$ is
+**Termination.** The loop terminates when `low > high`. Meaning $A[\mathrm{low}..\mathrm{high}]$ is
 Empty. By the invariant, $x \notin A$. Return $-1$. ✓
 
 $\square$
@@ -390,8 +390,8 @@ In Python, `/` produces a float, and using a float as an array index raises a `T
 Languages like C/Java, `int mid = (low + high) / 2` truncates toward zero, which works correctly for
 Positive values but is technically implementation-dependent.
 
-The more serious bug is **integer overflow**: if `low + high > INT_MAX`The sum overflows. The
-Correct form is `mid = low + (high - low) / 2`Which cannot overflow since `high - low` is always
+The more serious bug is **integer overflow**: if `low + high > INT_MAX`. The sum overflows. The
+Correct form is `mid = low + (high - low) / 2`. Which cannot overflow since `high - low` is always
 non-negative and less than `INT_MAX`.
 
 For revision on sorting, see

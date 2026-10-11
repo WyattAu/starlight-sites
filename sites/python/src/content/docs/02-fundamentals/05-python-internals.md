@@ -111,7 +111,7 @@ Machine instruction, while a Python `int` addition involves:
 9. Set the result's `ob_refcnt` to 1.
 10. Decrement the reference count of both operands.
 
-The `ob_type` pointer enables dynamic dispatch. When Python evaluates `a + b`It follows `a.ob_type`
+The `ob_type` pointer enables dynamic dispatch. When Python evaluates `a + b`. It follows `a.ob_type`
 to the type object, then looks up the `tp_as_number->nb_add` slot to find the addition Function.
 This is a two-level indirection per operation. The `tp_slots` mechanism is how Python's Data model
 (dunder methods) maps to C function pointers.
@@ -120,8 +120,8 @@ This is a two-level indirection per operation. The `tp_slots` mechanism is how P
 
 The type object is itself a `PyObject` (with its own reference count and type pointer -- the type of
 A type is `type`And the type of `type` is `type`). It additionally contains a large struct with
-Function pointers for every operation the object supports: `tp_repr``tp_hash``tp_call`
-`tp_iternext``tp_as_sequence``tp_as_mapping`And dozens more. These slots are the C-level Equivalent
+Function pointers for every operation the object supports: `tp_repr`, `tp_hash`, `tp_call`
+`tp_iternext`, `tp_as_sequence`, `tp_as_mapping` and dozens more. These slots are the C-level Equivalent
 of dunder methods.
 
 ## Reference Counting
@@ -233,8 +233,8 @@ because they can contain references to mutable objects, even though the tuple it
 ### `__del__` and the Finalizer Problem
 
 Objects with `__del__` methods complicate garbage collection. The GC cannot safely break a cycle
-that includes objects with `__del__`Because breaking the cycle requires deallocating at least one
-Object, which triggers `__del__`Which might access other objects in the cycle that have already Been
+that includes objects with `__del__`. Because breaking the cycle requires deallocating at least one
+Object, which triggers `__del__`. Which might access other objects in the cycle that have already Been
 deallocated.
 
 In CPython 3.4+, the GC handles this by placing such objects in a list (`gc.garbage`) and reporting
@@ -430,7 +430,7 @@ Key attributes:
 - `co_varnames`: Names of local variables (including parameters).
 - `co_argcount`: Number of positional arguments (excluding `*args`).
 - `co_consts`: Tuple of constants used in the function (literal values loaded by `LOAD_CONST`).
-- `co_names`: Names of global variables and attributes (used by `LOAD_GLOBAL``LOAD_ATTR`).
+- `co_names`: Names of global variables and attributes (used by `LOAD_GLOBAL`, `LOAD_ATTR`).
 - `co_freevars`: Names of free variables (variables from enclosing scopes, used by closures).
 - `co_cellvars`: Names of cell variables (local variables referenced by nested functions).
 
@@ -505,7 +505,7 @@ Strings that are NOT automatically interned:
 
 1. Strings created at runtime via concatenation, formatting, or `str()`.
 2. Strings read from files, network, or user input.
-3. Strings created by `str.join()``str.replace()`Or other string methods.
+3. Strings created by `str.join()`, `str.replace()` or other string methods.
 
 ```python
 a = "hello"
@@ -736,7 +736,7 @@ Contend for the GIL simultaneously.
 
 The GIL is released (and later re-acquired) during:
 
-1. **I/O operations:** `open()``read()``write()``socket.recv()``socket.send()`And all other blocking
+1. **I/O operations:** `open()`, `read()`, `write()`, `socket.recv()`, `socket.send()` and all other blocking
    I/O. The C extension performing the I/O releases the GIL before the blocking call and re-acquires
    it after.
 2. **`time.sleep()`:** Explicitly releases the GIL.
@@ -744,7 +744,7 @@ The GIL is released (and later re-acquired) during:
    `Py_END_ALLOW_THREADS` macros. NumPy, Pandas, and similar libraries do this for CPU-intensive
    computation.
 4. **Blocking C library calls:** `ctypes` calls to C functions release the GIL by default.
-5. **`subprocess``threading``multiprocessing` primitives:** Wait operations on locks, events,
+5. **`subprocess`, `threading`, `multiprocessing` primitives:** Wait operations on locks, events,
    queues, and semaphores release the GIL.
 
 ### Why Removing the GIL Is Hard

@@ -180,7 +180,7 @@ void shared_ptr_ownership() {
 }
 ```
 
-### `std::string``std::vector``std::fstream`
+### `std::string`, `std::vector`, `std::fstream`
 
 Standard containers and file streams are RAII types. They acquire resources (memory, file
 Descriptors) in their constructors and release them in their destructors [N4950 §22.3, §23.3,
@@ -267,7 +267,7 @@ private:
 ```
 
 :::note
-The moved-from `Socket` has `fd_ == -1`So its destructor is a no-op. This is the standard pattern
+The moved-from `Socket` has `fd_ == -1`. So its destructor is a no-op. This is the standard pattern
 for move-only RAII types that wrap non-copyable OS resources [N4950 §11.4.7].
 :::
 
@@ -438,7 +438,7 @@ Convention.
 ## 1.10 RAII Rule of Thumb
 
 **Every resource acquisition should be wrapped in an RAII type.** If you write a raw call to `new`
-`malloc``fopen``socket``pthread_mutex_lock``lock``mmap`Or any other resource acquisition Function,
+`malloc`, `fopen`, `socket`, `pthread_mutex_lock`, `lock`, `mmap` or any other resource acquisition Function,
 ask yourself: "What releases this resource, and when?" If the answer is "a manual call Later in the
 function," you have a potential leak.
 
@@ -473,7 +473,7 @@ public:
 ```
 
 **Forgetting virtual destructors in polymorphic hierarchies.** If you delete a derived object
-Through a base pointer and the base class destructor is not `virtual`Only the base destructor runs,
+Through a base pointer and the base class destructor is not `virtual`. Only the base destructor runs,
 the derived destructor is never called, and derived resources leak [N4950 §11.4.7]:
 
 ```cpp
@@ -496,7 +496,7 @@ void leak() {
 ```
 
 **Using `new`/`delete` directly instead of smart pointers.** Raw `new`/`delete` pairs are not
-Exception-safe. If an exception occurs between `new` and `delete`The memory is leaked. Always use
+Exception-safe. If an exception occurs between `new` and `delete`. The memory is leaked. Always use
 `std::make_unique` or `std::make_shared`:
 
 ```cpp

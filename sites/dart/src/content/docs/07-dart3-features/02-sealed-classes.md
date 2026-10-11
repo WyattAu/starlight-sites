@@ -281,7 +281,7 @@ T unwrapOr&lt;T&gt;(Result&lt;T&gt; result, T defaultValue) => switch (result) {
 };
 ```
 
-No `default` case. If you add `class Pending&lt;T&gt; extends Result&lt;T&gt;`Every switch on
+No `default` case. If you add `class Pending&lt;T&gt; extends Result&lt;T&gt;`. Every switch on
 `Result&lt;T&gt;` fails to compile until you handle `Pending`.
 
 ### Switch Expression vs Switch Statement

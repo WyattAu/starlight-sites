@@ -46,7 +46,7 @@ categories:
 ### Collections
 
 - Use collection `if`/`for`/`spreads` for concise code.
-- Prefer `.map()``.where()`And `.fold()` over manual loops where appropriate.
+- Prefer `.map()`, `.where()` and `.fold()` over manual loops where appropriate.
 
 ### Error Handling
 
@@ -70,7 +70,7 @@ categories:
 - Use `freezed` for immutable models and unions.
 - Serialize JSON with `json_serializable`.
 - Use `MethodChannel` for native integrations (Kotlin/Swift).
-- Organize layers into `data``domain`And `presentation`.
+- Organize layers into `data`, `domain` and `presentation`.
 
 ### Widget Optimizations
 
@@ -79,12 +79,12 @@ categories:
 - Avoid `Opacity` for animations; prefer `AnimatedOpacity` or `Transform`.
 - Use `ListView.builder` (or `CustomScrollView`) for infinite/large lists (lazy loading).
 - Extract expensive computations from `build()` methods.
-- Use `Key`S (e.g., `ValueKey``UniqueKey`) when modifying collections of stateful widgets.
+- Use `Key`s (e.g., `ValueKey`, `UniqueKey`) when modifying collections of stateful widgets.
 - Use `precacheImage` for images loaded on-demand.
 
 ### UI/UX Considerations
 
-- Use `LayoutBuilder``MediaQuery`Or `SafeArea`.
+- Use `LayoutBuilder`, `MediaQuery` or `SafeArea`.
 - Test on multiple screen sizes (e.g., using `DevicePreview`).
 - Add semantic labels (`Semantics` widget), use `ExcludeSemantics` where needed.
 - Support dynamic text sizing (`TextScaler`).
@@ -97,9 +97,9 @@ categories:
 
 - Test performance in profile mode (`flutter run --profile`).
 - Use DevTools to check for jank, memory leaks, and CPU usage.
-- Dispose controllers (`ScrollController``TextEditingController`) and subscriptions.
+- Dispose controllers (`ScrollController`, `TextEditingController`) and subscriptions.
 - Use `const` widgets to reduce garbage collection.
-- Minimize `ClipPath``Opacity`And `ShaderMask` usages in animations.
+- Minimize `ClipPath`, `Opacity` and `ShaderMask` usages in animations.
 - Prefer `CustomPaint` for complex UIs over deep widget trees.
 - Compress images (use `.webp` format).
 - Cache images with `cached_network_image`.

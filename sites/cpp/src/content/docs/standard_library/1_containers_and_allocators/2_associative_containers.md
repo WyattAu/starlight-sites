@@ -21,9 +21,9 @@ categories:
 
 ## Associative and Unordered Containers (Maps, Sets)
 
-C++ provides two families of associative containers: **ordered** containers (`std::map``std::set`)
+C++ provides two families of associative containers: **ordered** containers (`std::map`, `std::set`)
 Backed by balanced binary search trees with $O(\log n)$ operations, and **unordered** containers
-(`std::unordered_map``std::unordered_set`) backed by hash tables with $O(1)$ average-case
+(`std::unordered_map`, `std::unordered_set`) backed by hash tables with $O(1)$ average-case
 Operations. This section covers their internal structure, performance characteristics, hash function
 Requirements, and guidance on choosing between them.
 
@@ -35,7 +35,7 @@ Requires:
 
 - $O(\log n)$ insertion, deletion, and lookup [N4950 §22.4.4.1 Table 83]
 - In-order traversal yields sorted keys
-- Keys are unique (`std::map``std::set`) or may be duplicated (`std::multimap``std::multiset`)
+- Keys are unique (`std::map`, `std::set`) or may be duplicated (`std::multimap`, `std::multiset`)
 
 A red-black tree is a self-balancing binary search tree with the following properties [N4950
 §22.4.4.1]:
@@ -190,8 +190,8 @@ $$
 \mathrm{avg\_chain\_length = \frac{\mathrm{size()}{\mathrm{bucket\_count()} = \mathrm{load\_factor
 $$
 
-With default `max_load_factor = 1.0`The average chain length is kept below 1.0, meaning most Lookups
-require at most one equality comparison. When the load factor exceeds `max_load_factor`The Container
+With default `max_load_factor = 1.0`. The average chain length is kept below 1.0, meaning most Lookups
+require at most one equality comparison. When the load factor exceeds `max_load_factor`. The Container
 **rehashes**: allocates a new bucket array ( $2\times$ the old count), recomputes Bucket indices for
 all elements, and deallocates the old array. This is $O(n)$ but occurs Infrequently.
 
@@ -240,8 +240,8 @@ The hash function `H` used by `std::unordered_map` and `std::unordered_set` must
 §22.5.3.2]:
 
 1. `H` is a function object whose return type is `std::size_t`
-2. If `h1(k1) == h2(k2)` and `k1 == k2`Then `h1(k1) == h2(k2)` must hold for the same key
-3. If `k1 == k2`Then `H(k1) == H(k2)` must hold
+2. If `h1(k1) == h2(k2)` and `k1 == k2`. Then `h1(k1) == h2(k2)` must hold for the same key
+3. If `k1 == k2`. Then `H(k1) == H(k2)` must hold
 4. `H` must not throw exceptions
 
 The default hash `std::hash&lt;T>` is specialized for all arithmetic types, `std::string`
@@ -403,9 +403,9 @@ Collision attacks, or use `std::map` for guaranteed $O(\log n)$ worst-case.
 
 ### `std::map` Heterogeneous Lookup (C++14)
 
-By default, `std::map::find``std::map::count`And `std::map::lower_bound` accept `const Key&` and
+By default, `std::map::find`, `std::map::count` and `std::map::lower_bound` accept `const Key&` and
 Require an exact key type match. If you want to look up a `std::string` key using a
-`std::string_view` without constructing a temporary `std::string`You need a **transparent
+`std::string_view` without constructing a temporary `std::string`. You need a **transparent
 Comparator** [N4950 §22.4.4.1]. The standard library provides `std::less&lt;void>` (C++14), which
 Enables heterogeneous lookup when used as the comparator:
 
@@ -440,7 +440,7 @@ Temporary `std::string` from the `std::string_view`Incurring a heap allocation. 
 Lookup, the comparison `sv &lt; "hello"` and `"hello" &lt; sv` are both valid via
 `std::string::operator&lt;` accepting `std::string_view` [N4950 §23.4.5.2.2].
 
-The same transparent comparator technique applies to `std::set``std::multimap`And `std::multiset`.
+The same transparent comparator technique applies to `std::set`, `std::multimap` and `std::multiset`.
 
 ### Node Extraction and Insertion: `extract` / `insert` (C++17)
 
@@ -496,7 +496,7 @@ dst: delta echo(20)
 
 This API is critical for performance-sensitive code that needs to transfer elements between maps
 (such as sharding or repartitioning), because the alternative, erase from one map, then emplace
-into another, involves a redundant deallocation and allocation. With `extract`/`insert`The node's
+into another, involves a redundant deallocation and allocation. With `extract`/`insert`. The node's
 Heap memory is reparented [N4950 §22.4.4.4].
 
 ### Red-Black Tree Node Structure
@@ -513,7 +513,7 @@ is at least 32 bytes:
   (plus color bit, alignment padding, and sizeof(V) for map)
 ```
 
-For `std::map<std::string, int>`Each node costs approximately 48-64 bytes: 24 bytes of tree
+For `std::map<std::string, int>`. Each node costs approximately 48-64 bytes: 24 bytes of tree
 Pointers + `sizeof(std::string)` (32 bytes) + `sizeof(int)` (4 bytes) + alignment padding. The
 Default-constructed empty `std::map` has zero heap allocation; the first `insert` allocates the root
 Node.
@@ -534,7 +534,7 @@ Table 83]:
 This is a consequence of the node-based structure: inserting a new node allocates a new heap block
 that does not affect existing nodes. Erasing a node only frees that specific block.
 
-For `std::unordered_map`The rules are stricter: **rehashing** invalidates all iterators, pointers,
+For `std::unordered_map`. The rules are stricter: **rehashing** invalidates all iterators, pointers,
 And references because elements are moved to new bucket locations [N4950 §22.5.5 Table 89].
 
 ### `std::unordered_map` Heterogeneous Lookup (C++20)
@@ -585,7 +585,7 @@ int main() {
 ```
 
 The `is_transparent` typedef signals to the container that the hash and equality functions accept
-Heterogeneous types. This enables `find``count``contains`And `equal_range` to work with any Type
+Heterogeneous types. This enables `find`, `count`, `contains` and `equal_range` to work with any Type
 that is comparable to `Key` and hashable.
 
 ### Exception Safety of Associative Container Operations
@@ -600,7 +600,7 @@ The standard provides the following guarantees [N4950 §22.4.4.4]:
 - **`swap`**: Never throws (pointer swap only).
 - **`clear`**: Never throws.
 
-For `std::unordered_map``rehash` provides the basic guarantee: if an exception occurs during
+For `std::unordered_map`, `rehash` provides the basic guarantee: if an exception occurs during
 Rehashing (e.g., hash computation throws), the container is in a valid but unspecified state [N4950
 §22.5.5.3].
 
@@ -629,15 +629,15 @@ that all hash to the same bucket, degrading $O(1)$ lookup to $O(n)$. In security
 For guaranteed $O(\log n)$ worst-case.
 
 **5. Forgetting to `reserve()` on `unordered_map`:** The default initial bucket count is small ( 1
-or a platform-specific minimum). Without `reserve()`The first few inserts trigger Repeated
+or a platform-specific minimum). Without `reserve()`. The first few inserts trigger Repeated
 rehashing, each costing $O(n)$. For a map expected to hold $n$ elements, call `m.reserve(n)` before
 inserting to pre-allocate buckets and avoid all intermediate rehashes [N4950 §22.5.5.3].
 
 **6. Using `std::unordered_map` when you need range queries:** `std::unordered_map` provides no
-Ordering guarantee. Operations like `lower_bound``upper_bound`And `equal_range` in the ordered Sense
+Ordering guarantee. Operations like `lower_bound`, `upper_bound` and `equal_range` in the ordered Sense
 are not available. If you need to iterate over all keys in a range $[lo, hi]$ Use `std::map` Instead.
 
-**7. Erasing while iterating with `operator[]`:** In `std::map`The pattern `m.erase(m[key])` first
+**7. Erasing while iterating with `operator[]`:** In `std::map`. The pattern `m.erase(m[key])` first
 Default-inserts `key` (via `operator[]`) and then immediately erases it, causing a redundant
 Allocation and deallocation. Use `m.erase(m.find(key))` instead, which only erases if the key
 Exists.

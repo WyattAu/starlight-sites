@@ -22,7 +22,7 @@ categories:
 ## Compare-and-Swap (CAS) Loops
 
 This section covers the CAS loop pattern, the difference between `compare_exchange_weak` and
-`compare_exchange_strong`When weak CAS is preferable, linearizability of CAS-based data Structures,
+`compare_exchange_strong`. When weak CAS is preferable, linearizability of CAS-based data Structures,
 a lock-free reference counting implementation, and common CAS loop idioms.
 
 ## CAS Loop Pattern
@@ -319,7 +319,7 @@ The push operation uses a **read-modify-write** CAS loop: load the current head,
 `next` to it, then atomically swap the head if it hasn't changed. The `memory_order_release` on
 Success ensures that the new node's data is visible to other threads that acquire the head.
 
-The pop operation uses a **remove** CAS loop: load the current head, read its `next`Then Atomically
+The pop operation uses a **remove** CAS loop: load the current head, read its `next`. Then Atomically
 set the head to `next` if the head hasn't changed. On success, the popped node is Returned as a
 `unique_ptr`Transferring ownership to the caller and ensuring the node is eventually Freed.
 
@@ -705,7 +705,7 @@ the head swings, so it can never be recycled and re-inserted. The tail pointer m
   does not perform a store, so `release` semantics are meaningless. Use `memory_order_acquire` or
   `memory_order_relaxed` for the failure case.
 - **Forgetting that `compare_exchange` updates `expected` on failure.** If you compute `desired`
-  based on `expected` before the CAS and then retry without recomputing `desired`You'll retry with a
+  based on `expected` before the CAS and then retry without recomputing `desired`. You'll retry with a
   stale computation. Always recompute `desired` inside the loop after a failed CAS.
 - **ABA problem in long-running CAS loops.** If a CAS loop can be preempted for a long time, another
   thread may modify and then restore the observed value, causing the CAS to succeed incorrectly. Use
@@ -722,7 +722,7 @@ the head swings, so it can never be recycled and re-inserted. The tail pointer m
 
 **Example 1: Stack operations**
 
-Trace the following operations on an empty stack: `push(5)``push(3)``pop()``push(8)``pop()`
+Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`, `push(8)`, `pop()`
 `pop()`.
 
 **Solution:**

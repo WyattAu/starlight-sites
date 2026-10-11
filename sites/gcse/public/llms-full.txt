@@ -23511,7 +23511,7 @@ An **algorithm** is a step-by-step procedure for solving a problem. In computer 
 
 **Control structures:**
 - **Sequence**, Instructions executed one after another
-- **Selection**, `if``elif`/`else`choose which path to take based on a condition
+- **Selection**, `if`, `elif`/`else`choose which path to take based on a condition
 - **Iteration**, `for` loop (count-controlled), `while` loop (condition-controlled)
 
 **Functions:**
@@ -24105,7 +24105,7 @@ Vastly larger address space, ensuring enough addresses for the foreseeable futur
 
 **IPv6 address shortening rules:**
 
-- Leading zeros within each group can be omitted: `0001` becomes `1``0db8` becomes `db8`.
+- Leading zeros within each group can be omitted: `0001` becomes `1`, `0db8` becomes `db8`.
 - Consecutive groups of all zeros can be replaced with `::` (only once per address).
 
 Example: `2001:0db8:0000:0000:0000:0000:0000:0001` becomes `2001:db8::1`.
@@ -24794,8 +24794,8 @@ else:
 ```
 
 **Nested IF pitfall.** In the example above, the inner `if score >= 70` only executes when
-`score >= 50`. If `score = 80`The output is "Grade A". If `score = 60`The output is "Grade C". If
-`score = 40`The output is "Fail". Think carefully about the nesting order to avoid unreachable
+`score >= 50`. If `score = 80`. The output is "Grade A". If `score = 60`. The output is "Grade C". If
+`score = 40`. The output is "Fail". Think carefully about the nesting order to avoid unreachable
 Branches.
 
 **CASE / SELECT statements (pseudocode):**
@@ -24982,7 +24982,7 @@ student["age"] = 16
 ```
 
 Records are useful because they group related data. Instead of having separate variables
-`student_name``student_age``student_form`A record keeps them together logically.
+`student_name`, `student_age`, `student_form`A record keeps them together logically.
 
 ## 3. Subprograms
 
@@ -25091,7 +25091,7 @@ print(factorial(5))  # 120
 
 - 4 _3_ 2 _factorial(1) = 5_ 4 _3_ 2 _1_ factorial(0) = 5 _4_ 3 _2_ 1 \* 1 = 120.
 
-**The call stack.** Each recursive call adds a new frame to the call stack. For `factorial(5)`The
+**The call stack.** Each recursive call adds a new frame to the call stack. For `factorial(5)`. The
 Stack grows to 6 frames before the base case is reached. Then the frames are unwound as each call
 Returns. If there is no base case, the stack grows until memory is exhausted, causing a
 **StackOverflowError**.

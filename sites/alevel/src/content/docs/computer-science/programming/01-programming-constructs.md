@@ -425,8 +425,8 @@ print(x)
 
 Output: `10`
 
-Explanation: Python passes the integer `10` by object reference. Inside `modify``x = 20` rebinds The
-local parameter `x` to a new integer object `20`. This does not affect the global `x`Which Remains
+Explanation: Python passes the integer `10` by object reference. Inside `modify`, `x = 20` rebinds The
+local parameter `x` to a new integer object `20`. This does not affect the global `x`. Which Remains
 `10`. Integers are immutable in Python, so there is no way to modify the original value Through the
 parameter.
 

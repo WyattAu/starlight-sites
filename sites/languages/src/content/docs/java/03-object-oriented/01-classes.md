@@ -116,7 +116,7 @@ public class Person {
 
 `this(...)` calls another constructor in the **same class**. `super(...)` calls a constructor in the
 **direct superclass**. Both must be the **first statement** in a constructor body. If you omit
-`super(...)`The compiler inserts `super()` (no-arg superclass constructor) automatically.
+`super(...)`. The compiler inserts `super()` (no-arg superclass constructor) automatically.
 
 ```java
 public class Employee extends Person {
@@ -139,7 +139,7 @@ public class Employee extends Person {
 }
 ```
 
-The constructor chaining order at runtime is: the most-derived constructor calls `super()`Which
+The constructor chaining order at runtime is: the most-derived constructor calls `super()`. Which
 Calls its superclass constructor, all the way up to `Object()`. Then initialization proceeds
 Top-down -- `Object`'s instance initializer runs first, then each subclass's field initializers and
 Initializer blocks, finally the body of each constructor completes bottom-up.
@@ -361,7 +361,7 @@ public final class String {
 }
 ```
 
-Other common `final` classes: `Integer``Long``Double``StringBuilder``java.time.LocalDate`.
+Other common `final` classes: `Integer`, `Long`, `Double`, `StringBuilder`, `java.time.LocalDate`.
 
 ### Final Methods
 
@@ -554,14 +554,14 @@ Predicate<String> isValid = isNotEmpty.and(s -> s.length() <= 255);
 
 The `@FunctionalInterface` annotation is optional but causes the compiler to verify that the
 Interface has exactly one abstract method. Standard functional interfaces in `java.util.function`:
-`Function<T,R>``Consumer<T>``Supplier<T>``Predicate<T>``BiFunction<T,U,R>`
-`UnaryOperator<T>``BinaryOperator<T>`.
+`Function<T,R>`, `Consumer<T>`, `Supplier<T>`, `Predicate<T>`, `BiFunction<T,U,R>`
+`UnaryOperator<T>`, `BinaryOperator<T>`.
 
 ### Design Decision: Why Interfaces Got Default Methods
 
 Before Java 8, adding a method to a public interface broke every existing implementation. This made
-Interface evolution practically impossible for widely-used interfaces like `Collection``List`And
-`Map`. When the Streams API was added in Java 8, methods like `stream()``forEach()`And
+Interface evolution practically impossible for widely-used interfaces like `Collection`, `List` and
+`Map`. When the Streams API was added in Java 8, methods like `stream()`, `forEach()` and
 `spliterator()` needed to be added to `Collection`. Without default methods, every single
 `Collection` implementation in every library on Earth would have to be updated and recompiled.
 
@@ -802,7 +802,7 @@ graph TD
 
 ### Liskov Substitution Principle (LSP)
 
-The Liskov Substitution Principle states that if `S` is a subtype of `T`Then objects of type `T` May
+The Liskov Substitution Principle states that if `S` is a subtype of `T`. Then objects of type `T` May
 be replaced with objects of type `S` without altering any of the desirable properties of the
 Program.
 
@@ -940,14 +940,14 @@ Dog clone = original.copy();  // returns Dog, not Animal
 
 ## Object Methods
 
-Every class inherits from `java.lang.Object`Which defines methods that every object has.
+Every class inherits from `java.lang.Object`. Which defines methods that every object has.
 Understanding and correctly implementing these methods is essential for writing correct Java
 Programs.
 
 ### toString()
 
 Returns a string representation of the object. The default implementation returns
-`getClass().getName() + "@" + Integer.toHexString(hashCode())`Which is rarely useful.
+`getClass().getName() + "@" + Integer.toHexString(hashCode())`. Which is rarely useful.
 
 ```java
 public class Person {
@@ -970,7 +970,7 @@ public class Person {
 
 ### Design Decision: Why the equals/hashCode Contract Exists
 
-The contract exists because hash-based collections (`HashMap``HashSet``Hashtable`) depend on two
+The contract exists because hash-based collections (`HashMap`, `HashSet`, `Hashtable`) depend on two
 Invariants:
 
 1. **If two objects are equal, they MUST have the same hash code.** If this is violated, equal
@@ -979,23 +979,23 @@ Invariants:
 2. **If two objects have the same hash code, they need NOT be equal.** This is a normal collision
    that hash tables handle correctly via linear probing or chaining.
 
-If you override `equals()` without overriding `hashCode()`You break invariant 1. Objects that your
-`equals()` says are equal will have different hash codes (from `Object.hashCode()`Which is based on
+If you override `equals()` without overriding `hashCode()`. You break invariant 1. Objects that your
+`equals()` says are equal will have different hash codes (from `Object.hashCode()`. Which is based on
 memory address), causing them to be placed in different buckets. A `HashSet` Would then contain
 duplicates, and a `HashMap` would fail to find keys.
 
 The contract, as defined in `Object.hashCode()`:
 
-- If two objects are equal according to `equals(Object)`Then calling `hashCode()` on each must
+- If two objects are equal according to `equals(Object)`. Then calling `hashCode()` on each must
   produce the same integer result.
-- If two objects are unequal according to `equals(Object)`It is NOT required that they produce
+- If two objects are unequal according to `equals(Object)`. It is NOT required that they produce
   distinct hash codes. However, distinct hash codes improve hash table performance.
 
 The contract for `equals(Object)`As defined in `Object.equals()`:
 
 - **Reflexive**: `x.equals(x)` must return `true`.
 - **Symmetric**: `x.equals(y)` must return the same result as `y.equals(x)`.
-- **Transitive**: if `x.equals(y)` and `y.equals(z)`Then `x.equals(z)`.
+- **Transitive**: if `x.equals(y)` and `y.equals(z)`. Then `x.equals(z)`.
 - **Consistent**: multiple invocations of `x.equals(y)` must consistently return `true` or `false`
   provided neither object is modified.
 - `x.equals(null)` must return `false`.
@@ -1039,7 +1039,7 @@ public int hashCode() {
 ```
 
 :::caution
-state in a way that changes `equals()` or `hashCode()`The collection will behave incorrectly. The
+state in a way that changes `equals()` or `hashCode()`. The collection will behave incorrectly. The
 object may become "lost" in the wrong bucket. Always use immutable objects as hash keys, or Ensure
 that fields used in `equals()`/`hashCode()` are never modified after insertion.
 :::
@@ -1466,7 +1466,7 @@ graph TD
 
 6. **Generics provide compile-time type safety through type erasure.** The JVM does not know about
    generic types at runtime -- it sees raw types. This design was chosen for backward compatibility
-   with pre-generics Java code. The cost is that you cannot use `new T()``instanceof T`Or create
+   with pre-generics Java code. The cost is that you cannot use `new T()`, `instanceof T` or create
    arrays of generic types.
 
 ## Common Pitfalls

@@ -511,7 +511,7 @@ Animations.
 | Interactivity | Yes (supports CSS and JavaScript)        |
 | Best for      | Logos, icons, diagrams, charts           |
 
-SVG describes images using XML elements: `<circle>``<rect>``<path>``<polygon>`Etc. Each Element has
+SVG describes images using XML elements: `<circle>`, `<rect>`, `<path>`, `<polygon>`. Etc. Each Element has
 attributes for position, size, colour, and style.
 
 #### BMP (Bitmap)
@@ -926,7 +926,7 @@ Even.
 | 0000000 | 0            | 0          | 00000000    |
 | 1111111 | 7            | 1          | 11111111    |
 
-**Error detection:** If the received byte `10110010` is received as `10110110`The number of 1s is 5
+**Error detection:** If the received byte `10110010` is received as `10110110`. The number of 1s is 5
 (odd), which violates even parity. An error is detected.
 
 **Limitation:** Parity can detect an odd number of bit errors but cannot detect an even number of
@@ -944,7 +944,7 @@ Intersection of the row and column where parity fails.
 <details>
 <summary>Worked Example: Two-Dimensional Parity</summary>
 
-Data: `1011``0110``1100``0011`
+Data: `1011`, `0110`, `1100`, `0011`
 
 Arrange in grid with row and column parity:
 
@@ -990,11 +990,11 @@ Checks if the total matches.
 <details>
 <summary>Worked Example: Simple Checksum</summary>
 
-Data: `200``150``75``180``45`
+Data: `200`, `150`, `75`, `180`, `45`
 
 Checksum = $(200 + 150 + 75 + 180 + 45) \mod 256 = 650 \mod 256 = 138$
 
-Transmitted: `200``150``75``180``45``138`
+Transmitted: `200`, `150`, `75`, `180`, `45`, `138`
 
 Receiver computes: $(200 + 150 + 75 + 180 + 45 + 138) \mod 256 = 788 \mod 256 = 20$
 
@@ -1218,7 +1218,7 @@ Answer:
 
 (a) U+005A = $01011010_2$. This is in range U+0000 -- U+007F (1 byte). UTF-8: `01011010` = `5A` hex.
 
-(b) First byte `C3` = $11000011$. This starts with `110`So it is a 2-byte sequence.
+(b) First byte `C3` = $11000011$. This starts with `110`. So it is a 2-byte sequence.
 
 Second byte `A9` = $10101001$. This starts with `10`Confirming it is a continuation byte.
 
@@ -1229,8 +1229,8 @@ Code point: $00011\ 101001 = 000011101001_2 = 0x0E9 = 233_{10} = U+00E9$
 
 U+00E9 is the character 'e' with acute accent: e-acute.
 
-(c) UTF-8 is self-synchronising because: (1) the leading byte's pattern (`0``110``1110` `11110`)
-determines the character length; (2) continuation bytes always start with `10`So a reader Can
+(c) UTF-8 is self-synchronising because: (1) the leading byte's pattern (`0`, `110`, `1110` `11110`)
+determines the character length; (2) continuation bytes always start with `10`. So a reader Can
 identify the start of any character by scanning forward. This means if a byte is corrupted or Lost,
 the decoder can resynchronise at the next valid character boundary, rather than corrupting all
 Subsequent text.

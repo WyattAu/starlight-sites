@@ -221,7 +221,7 @@ public class Main {
 
 **Correct: B** (index 1)
 
-Without overriding `equals` and `hashCode``FileKey` uses the default `Object` implementations, `equals` compares references, and `hashCode` is based on memory address. `k1` and `k2` are different objects, so `k2` is not equal to `k1`. `map.get(k2)` returns `null` because no matching key is found.
+Without overriding `equals` and `hashCode`, `FileKey` uses the default `Object` implementations, `equals` compares references, and `hashCode` is based on memory address. `k1` and `k2` are different objects, so `k2` is not equal to `k1`. `map.get(k2)` returns `null` because no matching key is found.
 
 `medium`1 mark
 
@@ -451,7 +451,7 @@ public class Main {
 
 **Correct: C** (index 2)
 
-`Collections.unmodifiableList` returns a wrapper that delegates to the original list but throws `UnsupportedOperationException` for any mutating operation (`add``remove``set`). The compiler cannot prevent this because `List` declares these methods, the error occurs at runtime.
+`Collections.unmodifiableList` returns a wrapper that delegates to the original list but throws `UnsupportedOperationException` for any mutating operation (`add`, `remove`, `set`). The compiler cannot prevent this because `List` declares these methods, the error occurs at runtime.
 
 `medium`1 mark
 
@@ -1055,7 +1055,7 @@ The inner try throws an `IOException`. The catch block wraps it in an `AppExcept
 ## Tips for Using This Practice Test
 
 1. **Trace code by hand.** Follow each variable through the method call stack. Do not guess.
-2. **Know the Collections contracts.** Understanding `equals`/`hashCode``Comparable`and iterator semantics is essential.
+2. **Know the Collections contracts.** Understanding `equals`/`hashCode`, `Comparable`and iterator semantics is essential.
 3. **Understand the "why".** Java design decisions (generics type erasure, checked exceptions, virtual threads) have clear rationale. Understanding the motivation makes the rules easier to remember.
 4. **Practise concurrency mentally.** Visualise thread interleavings to identify race conditions and deadlocks.
 5. **Retake after one week.** Java has many subtle rules, spaced repetition is essential for retaining the details.

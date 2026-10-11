@@ -134,7 +134,7 @@ case 4:
 
 ## For Loops
 
-Go has exactly one looping construct: `for`. There is no `while`No `do-while`No `loop`.
+Go has exactly one looping construct: `for`. There is no `while`. No `do-while`. No `loop`.
 
 ### Classic For
 
@@ -256,7 +256,7 @@ for _, p := range items {
 
 ## Break and Continue
 
-`break` exits the innermost `for``switch`Or `select`. `continue` skips to the next iteration of The
+`break` exits the innermost `for`, `switch` or `select`. `continue` skips to the next iteration of The
 innermost `for` loop.
 
 ### Labeled Break
@@ -315,7 +315,7 @@ invalid:
 }
 ```
 
-`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for``if`Functions).
+`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for`, `if`Functions).
 
 ## Defer
 
@@ -370,7 +370,7 @@ Functions execute.
 
 ## Intuition
 
-**Control flow is a choose-your-own-adventure book:** Every `if``switch`and `for` is a decision point where the program picks a path. Go's design, mandatory braces, auto-breaking switch cases, `defer` running on the way out, is like giving the reader guardrails so they never accidentally skip a page or re-read one twice.
+**Control flow is a choose-your-own-adventure book:** Every `if`, `switch`and `for` is a decision point where the program picks a path. Go's design, mandatory braces, auto-breaking switch cases, `defer` running on the way out, is like giving the reader guardrails so they never accidentally skip a page or re-read one twice.
 
 **Why it matters:** The `defer` statement is like a sticky note you leave on your desk: "when you leave the office, do this before you go." It guarantees cleanup happens exactly once, in reverse order, no matter how the function exits, even on panic.
 

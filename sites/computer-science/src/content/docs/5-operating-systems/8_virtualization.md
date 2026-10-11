@@ -60,7 +60,7 @@ OSes.
 **Challenges:**
 
 - **Instruction emulation:** Sensitive instructions must be trapped and emulated. On x86, `IN`
-  `OUT``HLT``CLI``STI`And `MOV` to/from control registers are sensitive.
+  `OUT`, `HLT`, `CLI`, `STI` and `MOV` to/from control registers are sensitive.
 - **Memory virtualization:** The VMM maintains **shadow page tables** mapping guest virtual to host
   physical addresses. Hardware support: Extended Page Tables (EPT, Intel) and Nested Page Tables
   (NPT, AMD).

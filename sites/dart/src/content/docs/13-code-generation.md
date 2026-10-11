@@ -28,12 +28,12 @@ Repetitive code (serialization, equality, copyWith), and ensures consistency bet
 their derived code.
 
 The Dart ecosystem relies on the `build_runner` package as the foundation for all code generation
-Workflows. Packages like `freezed``json_serializable``injectable``retrofit`And `auto_route` All use
+Workflows. Packages like `freezed`, `json_serializable`, `injectable`, `retrofit` and `auto_route` All use
 `build_runner` under the hood.
 
 ### Why Code Generation
 
-1. **Boilerplate reduction**: `copyWith``==``hashCode``toString``fromJson`/`toJson` are generated,
+1. **Boilerplate reduction**: `copyWith`, `==`, `hashCode`, `toString`, `fromJson`/`toJson` are generated,
    not hand-written
 2. **Consistency**: generated code is always in sync with the model. Change a field, regenerate,
    and serialization updates
@@ -197,7 +197,7 @@ global_options:
 
 ## freezed
 
-`freezed` generates immutable data classes with `copyWith``==``hashCode``toString`And union Type
+`freezed` generates immutable data classes with `copyWith`, `==`, `hashCode`, `toString` and union Type
 support using Dart sealed classes.
 
 ### Basic Usage
@@ -920,7 +920,7 @@ jobs:
 
 ### Generated Files Not in VCS but Needed for Compilation
 
-When generated files are in `.gitignore`Every developer and CI runner must generate them before
+When generated files are in `.gitignore`. Every developer and CI runner must generate them before
 Compilation. This means:
 
 ```bash
@@ -1012,7 +1012,7 @@ dart run build_runner clean && dart run build_runner build --delete-conflicting-
 
 ### build_runner Version Mismatches
 
-Using incompatible versions of `build_runner``source_gen`And builder packages (e.g., `freezed`
+Using incompatible versions of `build_runner`, `source_gen` and builder packages (e.g., `freezed`
 `json_serializable`) causes cryptic errors:
 
 ```

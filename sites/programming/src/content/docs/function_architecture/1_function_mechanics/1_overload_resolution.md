@@ -60,7 +60,7 @@ The ADL rule is the reason `std::cout << "hello"` works: the left operand has ty
 Contribution). ADL adds the namespace `std` to the search set, where `operator<<` is found.
 
 :::note
-Call to `operator<<``operator==`Or a custom swap function would require explicit namespace
+Call to `operator<<`, `operator==` or a custom swap function would require explicit namespace
 Qualification, breaking generic programming.
 :::
 
@@ -74,7 +74,7 @@ Set:
 - The type of each base class.
 - The type of each member of the class.
 
-The fundamental types (`int``double``bool`Etc.) and types whose associated namespaces are the Global
+The fundamental types (`int`, `double`, `bool`. Etc.) and types whose associated namespaces are the Global
 namespace contribute no additional search scope.
 
 ```cpp
@@ -297,13 +297,13 @@ int main() {
 
 ### Proof: Integral Promotion Beats Integral Conversion
 
-**Claim:** When the argument is of an integral type that promotes to `int`The promotion to `int` Is
+**Claim:** When the argument is of an integral type that promotes to `int`. The promotion to `int` Is
 preferred over any integral conversion.
 
 **Proof:**
 
-1. By [N4950 §7.3.7], integral promotion applies to types `bool``char``signed char`
-   `unsigned char``short``unsigned short`And their bit-field equivalents. These types are promoted
+1. By [N4950 §7.3.7], integral promotion applies to types `bool`, `char`, `signed char`
+   `unsigned char`, `short`, `unsigned short` and their bit-field equivalents. These types are promoted
    to `int` (or `unsigned int` if `int` cannot represent all values).
 
 2. By [N4950 §12.4.3.2.2], a promotion is a distinct rank that is strictly better than a standard
@@ -871,7 +871,7 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
 ## Common Pitfalls
 
 - **Ambiguous overloads with mixed types.** `f(short, long)` vs `f(long, short)` called as `f(1, 1)`
-  is ambiguous because both arguments are `int`Which converts equally well to `short` (truncation)
+  is ambiguous because both arguments are `int`. Which converts equally well to `short` (truncation)
   or `long` (promotion). Use explicit casts or provide an `f(int, int)` overload.
 - **Surprising `bool` conversions.** `bool` is an integral type. `f(bool)` is a viable candidate for
   `f(42)` via the boolean conversion (`42 → true`). This can cause surprising overload selection.
@@ -884,7 +884,7 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
   call time. You cannot pass an overloaded function name directly to `std::function` without
   disambiguation.
 - **`nullptr` overload resolution.** `f(int)` and `f(int*)` called with `f(nullptr)` selects
-  `f(int*)` because `nullptr` has type `std::nullptr_t`Which converts to any pointer type but not to
+  `f(int*)` because `nullptr` has type `std::nullptr_t`. Which converts to any pointer type but not to
   `int`. However, `f(0)` selects `f(int)` because `0` is an `int` literal.
 - **Access control is not a filter.** A private member function can "win" overload resolution,
   causing a hard error. The compiler will not fall back to a less-preferred public overload. Always

@@ -294,7 +294,7 @@ void sum(List<? extends Number> numbers) {
 }
 ```
 
-The key insight: `List<? extends Number>` could be `List<Integer>``List<Double>`Or `List<Number>`.
+The key insight: `List<? extends Number>` could be `List<Integer>`, `List<Double>` or `List<Number>`.
 The compiler cannot safely allow an `add` because the actual list type is unknown.
 
 ### Lower-Bounded Wildcard (`? super T`)
@@ -610,8 +610,8 @@ public <T> T[] toArray(T[] array) {
 
 A **reified** type is one that retains its full type information at runtime. In Java:
 
-- Primitive types are reified: `int.class``double.class` exist at runtime.
-- Regular class types are reified: `String.class``List.class` exist at runtime.
+- Primitive types are reified: `int.class`, `double.class` exist at runtime.
+- Regular class types are reified: `String.class`, `List.class` exist at runtime.
 - **Generic type parameters are NOT reified**: `List<String>.class` does not exist. At runtime,
   `List<String>` and `List<Integer>` are both just `List`.
 

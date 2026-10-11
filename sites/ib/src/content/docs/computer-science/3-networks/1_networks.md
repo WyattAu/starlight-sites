@@ -631,7 +631,7 @@ Write the network address, first usable address, and broadcast address for the f
 A) We need $2^n \ge 10$. With $n = 4$, $2^4 = 16 \ge 10$. Minimum subnet bits: 4. B) Original
 Prefix: `/24`. New prefix: `/24 + 4 = /28`. Subnet mask: `255.255.255.240`. C) Remaining host bits:
 $8 - 4 = 4$. Usable hosts: $2^4 - 2 = 14$ per subnet. D) Block size: $256 - 240 = 16$. First subnet:
-Network = `192.168.10.0`First usable = `192.168.10.1`Broadcast = `192.168.10.15`.
+Network = `192.168.10.0`. First usable = `192.168.10.1`Broadcast = `192.168.10.15`.
 
 </details>
 

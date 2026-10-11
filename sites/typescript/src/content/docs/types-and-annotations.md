@@ -44,7 +44,7 @@ const uid: symbol = Symbol('uid');
 const huge: bigint = 9007199254740993n;
 ```
 
-## The `any``unknown``never`And `void` Types
+## The `any`, `unknown`, `never` and `void` Types
 
 These four types have precise and distinct semantics. Confusion between them is a common source of
 Bugs.
@@ -113,7 +113,7 @@ function area(shape: Shape): number {
 }
 ```
 
-If a new variant is later added to `Shape` without updating the `switch`The assignment to
+If a new variant is later added to `Shape` without updating the `switch`. The assignment to
 `_exhaustive: never` will produce a compile-time error, since the new variant is not assignable to
 `never`.
 
@@ -136,7 +136,7 @@ Settings but should not be used there.
 ### `undefined` (the type)
 
 The type `undefined` has exactly one inhabitant: the runtime value `undefined`. Under
-`strictNullChecks`It is assignable only to `undefined``any`And `unknown`.
+`strictNullChecks`. It is assignable only to `undefined`, `any` and `unknown`.
 
 ```ts
 let x: undefined = undefined;
@@ -290,7 +290,7 @@ function double(value: string | number): string | number {
 ```
 
 The `typeof` operator narrows to the corresponding TypeScript type. It recognises `"string"`
-`"number"``"boolean"``"symbol"``"bigint"``"undefined"``"object"`And `"function"`.
+`"number"`, `"boolean"`, `"symbol"`, `"bigint"`, `"undefined"`, `"object"` and `"function"`.
 
 ### `instanceof` Narrowing
 
@@ -336,7 +336,7 @@ function unwrap<T, E>(result: Result<T, E>): T {
 }
 ```
 
-The compiler recognises that after the `if` check narrows `result.status` to `"success"`The type Of
+The compiler recognises that after the `if` check narrows `result.status` to `"success"`. The type Of
 `result` is narrowed to `{ status: "success"; data: T }`Making `result.data` accessible.
 
 ### Equality Narrowing
@@ -363,7 +363,7 @@ function process(value: string | null | undefined): string {
 }
 ```
 
-Falsy values (`null``undefined``""``0``NaN``false`) narrow the type to their falsy Constituent.
+Falsy values (`null`, `undefined`, `""`, `0`, `NaN`, `false`) narrow the type to their falsy Constituent.
 
 ## Literal Types
 
@@ -539,14 +539,14 @@ const value: string | null = null;
 const result = value ?? 'default';
 ```
 
-This operator is distinct from `||` because it does not treat `0``""``false`Or `NaN` as falsy:
+This operator is distinct from `||` because it does not treat `0`, `""`, `false` or `NaN` as falsy:
 
 ```ts
 const count: number | null = 0;
 const total = count ?? 10;
 ```
 
-Here, `total` is `0`Because `0` is not nullish. With `||``total` would be `10`.
+Here, `total` is `0`. Because `0` is not nullish. With `||`, `total` would be `10`.
 
 ### Combining Both
 
@@ -571,7 +571,7 @@ let s = 'hello';
 let b = true;
 ```
 
-Here, `x` is inferred as `number``s` as `string``b` as `boolean`. The inferred type is the
+Here, `x` is inferred as `number`, `s` as `string`, `b` as `boolean`. The inferred type is the
 **widest** type that matches the initialiser.
 
 ### `let` vs `const` Inference
@@ -589,7 +589,7 @@ With `const`TypeScript infers the literal type:
 const x = 'hello';
 ```
 
-Here, the type of `x` is the literal type `"hello"`Not `string`. This is because `const`
+Here, the type of `x` is the literal type `"hello"`. Not `string`. This is because `const`
 Declarations cannot be reassigned, so the compiler can safely narrow to the literal.
 
 ### Best Common Type
@@ -656,8 +656,8 @@ const config = {
 } as const;
 ```
 
-Without `as const`The type of `config` is `{ host: string; port: number; debug: boolean }`. With
-`as const`The type is `{ readonly host: "localhost"; readonly port: 3000; readonly debug: false }`.
+Without `as const`. The type of `config` is `{ host: string; port: number; debug: boolean }`. With
+`as const`. The type is `{ readonly host: "localhost"; readonly port: 3000; readonly debug: false }`.
 
 This is particularly useful for defining constant objects where the literal values carry semantic
 Meaning:
@@ -689,7 +689,7 @@ The type of `directions` is `readonly ["north", "south", "east", "west"]`.
 
 ## Type Predicates and User-Defined Type Guards
 
-Built-in narrowing (`typeof``instanceof``in`) covers many common cases. For more complex Predicates,
+Built-in narrowing (`typeof`, `instanceof`, `in`) covers many common cases. For more complex Predicates,
 TypeScript provides **user-defined type guards** via type predicates.
 
 ### Type Predicate Syntax
@@ -772,7 +772,7 @@ Union types are like a Swiss Army knife. A variable typed as string | number can
 
 ### Pitfall 1: Using `any` as a Escape Hatch
 
-`any` bypasses the type checker entirely. If a function accepts `any`The caller receives no Guidance
+`any` bypasses the type checker entirely. If a function accepts `any`. The caller receives no Guidance
 on what to pass, and the callee receives no guarantees about what it receives. Prefer `unknown` with
 narrowing.
 
@@ -810,7 +810,7 @@ const settings = {
 };
 ```
 
-The type of `settings.theme` is `string`Not `"dark"`. To preserve the literal type, use `as const`
+The type of `settings.theme` is `string`. Not `"dark"`. To preserve the literal type, use `as const`
 Or annotate the variable:
 
 ```ts

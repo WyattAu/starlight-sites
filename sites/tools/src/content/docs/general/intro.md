@@ -99,7 +99,7 @@ docs_general-notes/
 ### Adding a New Page
 
 1. Create the `.md` or `.mdx` file in the appropriate subdirectory.
-2. Add frontmatter with at minimum `title``date`And `slug`.
+2. Add frontmatter with at minimum `title`, `date` and `slug`.
 3. Assign relevant `tags` and `categories`.
 4. Set `sidebar_position` to control placement relative to siblings.
 5. Run `npm run build` locally to verify there are no build errors before committing.

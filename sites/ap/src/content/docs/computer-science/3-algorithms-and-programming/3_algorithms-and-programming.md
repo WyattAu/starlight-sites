@@ -219,15 +219,15 @@ Requires the array to be sorted. Worst case: $O(\log n)$ comparisons.
 
 ### Proof of Binary Search Correctness (Invariant)
 
-**Loop invariant:** If `target` exists in `arr`Then `arr[low] <= target <= arr[high]` at the start
+**Loop invariant:** If `target` exists in `arr`. Then `arr[low] <= target <= arr[high]` at the start
 Of each iteration.
 
-**Initialization:** Before the first iteration, `low = 0` and `high = n - 1`So the invariant Holds.
+**Initialization:** Before the first iteration, `low = 0` and `high = n - 1`. So the invariant Holds.
 
-**Maintenance:** If `arr[mid] < target`We set `low = mid + 1`. Since the array is sorted and
-`arr[mid] < target``target` must be in `arr[mid+1..high]`. Similarly for the other case.
+**Maintenance:** If `arr[mid] < target`. We set `low = mid + 1`. Since the array is sorted and
+`arr[mid] < target`, `target` must be in `arr[mid+1..high]`. Similarly for the other case.
 
-**Termination:** The loop terminates when `low > high`Meaning the search space is empty. Since the
+**Termination:** The loop terminates when `low > high`. Meaning the search space is empty. Since the
 Invariant guarantees the target would be in `[low, high]` if it existed, the target is not in the
 Array.
 
@@ -798,7 +798,7 @@ times for each outer iteration. Total: $O(n \log n)$.
 <details>
 <summary>Question 2: Binary search trace</summary>
 
-Trace binary search on `[2, 5, 8, 12, 16, 23, 38]` searching for `7`. Show `low``high`And `mid` at
+Trace binary search on `[2, 5, 8, 12, 16, 23, 38]` searching for `7`. Show `low`, `high` and `mid` at
 each step.
 
 </details>

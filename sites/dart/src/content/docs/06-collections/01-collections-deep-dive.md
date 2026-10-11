@@ -158,7 +158,7 @@ final csv = [1, 2, 3].join(', '); // '1, 2, 3'
 
 ### Lazy vs Eager Evaluation
 
-This is critical for performance. Methods like `map``where``expand``takeWhile``skipWhile` `cast`And
+This is critical for performance. Methods like `map`, `where`, `expand`, `takeWhile`, `skipWhile` `cast`And
 `skip`/`take` return **lazy** iterables. No work happens until you consume the iterable.
 
 ```dart
@@ -358,7 +358,7 @@ set.removeAll({2, 6}); // {3, 4, 5}
 set.retainAll({3, 4}); // {3, 4}
 ```
 
-`add` returns `bool``true` if the element was added (not already present), `false` if it was
+`add` returns `bool`, `true` if the element was added (not already present), `false` if it was
 Already in the set. This is useful for deduplication logic:
 
 ```dart
@@ -404,7 +404,7 @@ final found = users.lookup(query); // Returns the actual object in the set
 
 ### HashSet vs LinkedHashSet vs SplayTreeSet
 
-The default `Set()` constructor returns a `LinkedHashSet`Which preserves insertion order and
+The default `Set()` constructor returns a `LinkedHashSet`. Which preserves insertion order and
 Provides O(1) amortized operations.
 
 ```dart
@@ -437,8 +437,8 @@ print(splay.toList()); // [1, 2, 3], always sorted
 
 ### Custom Equality via operator== and hashCode
 
-For custom objects in a `Set`You **must** override both `operator==` and `hashCode`. The contract:
-If `a == b`Then `a.hashCode == b.hashCode`. The reverse is not required (hash collisions are
+For custom objects in a `Set`. You **must** override both `operator==` and `hashCode`. The contract:
+If `a == b`. Then `a.hashCode == b.hashCode`. The reverse is not required (hash collisions are
 Allowed).
 
 ```dart
@@ -459,12 +459,12 @@ final set = <UserId>{UserId('abc'), UserId('def')};
 print(set.contains(UserId('abc'))); // true, custom equality works
 ```
 
-If you only override `==` without `hashCode`The set will use the default `Object.hashCode`
+If you only override `==` without `hashCode`. The set will use the default `Object.hashCode`
 (identity-based), and `contains` will fail to find logically equal objects.
 
 ## Map
 
-A `Map<K, V>` maps keys to values. The default implementation is `LinkedHashMap`Which preserves
+A `Map<K, V>` maps keys to values. The default implementation is `LinkedHashMap`. Which preserves
 Insertion order.
 
 ### Constructors
@@ -570,7 +570,7 @@ Note: this returns a lazy `Map`the transformation is applied on access.
 
 ### Iteration Order
 
-The default `Map()` and `{}` literal create a `LinkedHashMap`Which guarantees insertion order for
+The default `Map()` and `{}` literal create a `LinkedHashMap`. Which guarantees insertion order for
 Iteration. This is a language guarantee, not an implementation detail.
 
 ```dart
@@ -586,7 +586,7 @@ If you need sorted iteration, wrap the keys: `map.keys.toList()..sort()` or use 
 
 ### Custom Key Types
 
-Like `Set``Map` keys rely on `operator==` and `hashCode`. The same contract applies: equal keys Must
+Like `Set`, `Map` keys rely on `operator==` and `hashCode`. The same contract applies: equal keys Must
 have equal hash codes.
 
 ```dart

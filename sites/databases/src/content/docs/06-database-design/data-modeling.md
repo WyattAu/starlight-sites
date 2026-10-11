@@ -485,7 +485,7 @@ DELETE FROM users WHERE user_id = 42;
 | Referential | FK constraints still apply       | CASCADE removes dependents |
 
 :::caution
-`alice@example.com`You cannot create a new user with the same email unless you modify the unique
+`alice@example.com`. You cannot create a new user with the same email unless you modify the unique
 Constraint. Solutions: use a partial unique index, append a suffix on deletion, or add `deleted_at`
 To the unique constraint.
 
@@ -739,7 +739,7 @@ Paths, insert new paths) in a transaction.
 ### Soft Delete with Unique Constraints
 
 Soft-deleting a row does not remove it from unique constraint enforcement. If you soft-delete user
-`alice@example.com`You cannot create a new user with that email. Use a partial unique index:
+`alice@example.com`. You cannot create a new user with that email. Use a partial unique index:
 
 ```sql
 CREATE UNIQUE INDEX idx_users_email_active ON users (email)

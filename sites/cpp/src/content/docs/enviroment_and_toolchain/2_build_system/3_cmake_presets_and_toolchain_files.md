@@ -23,7 +23,7 @@ A major challenge in C++ systems engineering is **Build Reproducibility**. A dev
 Developer on Windows, and a CI/CD agent should all generate the build environment using the exact
 Same logic.
 
-Reliance on "magic" shell scripts (`build.sh``configure.bat`) or lengthy command-line arguments is
+Reliance on "magic" shell scripts (`build.sh`, `configure.bat`) or lengthy command-line arguments is
 an anti-pattern. Modern CMake resolves this through two architectural components:
 
 1. **Toolchain Files:** Define **WHAT** tools are used (Compilers, Sysroot, Target Architecture).
@@ -485,7 +485,7 @@ For large projects, presets can be split across multiple files using the `includ
 }
 ```
 
-The included files must have `"version"` and `"configurePresets"` (or `"buildPresets"`Etc.) at the
+The included files must have `"version"` and `"configurePresets"` (or `"buildPresets"`. Etc.) at the
 Top level. Included presets are merged into the including file's namespace.
 
 ## Architectural Best Practices
@@ -532,7 +532,7 @@ Include `${presetName}` in the `binaryDir`:
 
 ### 2. Toolchain File Path in User Presets
 
-If a user preset overrides `CMAKE_TOOLCHAIN_FILE` via `cacheVariables`It takes precedence over the
+If a user preset overrides `CMAKE_TOOLCHAIN_FILE` via `cacheVariables`. It takes precedence over the
 Shared preset's `toolchainFile` field. This is correct behavior but can be confusing. Use
 `toolchainFile` in the user preset instead of `cacheVariables` for clarity.
 

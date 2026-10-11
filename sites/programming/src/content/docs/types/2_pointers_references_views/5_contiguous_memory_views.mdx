@@ -216,7 +216,7 @@ uint32_t crc32(std::span<const std::byte> data) \{
 
 ### The Array Decay Problem (Revisited)
 
-When a C array is passed to a function taking `T*`The size is lost. `std::span` preserves it:
+When a C array is passed to a function taking `T*`. The size is lost. `std::span` preserves it:
 
 ```cpp
 // Legacy: size lost
@@ -320,7 +320,7 @@ void process_rgb(std::span<uint8_t, 3> pixel);
 
 ### Why Not Templates?
 
-Before `std::span`The common approach was:
+Before `std::span`. The common approach was:
 
 ```cpp
 template<typename Container>

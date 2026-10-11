@@ -64,7 +64,7 @@ def compute():
 ```
 
 `breakpoint()` is not syntax, it is a built-in function that calls `sys.breakpointhook()`. By
-Default, `sys.breakpointhook` is set to `pdb.set_trace()`But the crucial difference is that it is
+Default, `sys.breakpointhook` is set to `pdb.set_trace()`. But the crucial difference is that it is
 _configurable_. You can set `PYTHONBREAKPOINT=0` in the environment to make all `breakpoint()` calls
 no-ops in production. You can set `PYTHONBREAKPOINT=ipdb.set_trace` to redirect all breakpoints to
 `ipdb` without changing a single line of code. This is a systems-level concern: your instrumentation
@@ -141,7 +141,7 @@ Time line 42 is reached. If the condition is false, execution continues without 
 Why does this matter? Consider a loop processing 10 million records. You know the bug manifests when
 A record's `status` field is `'FAILED'` and its `retry_count` exceeds 3. Without a conditional
 Breakpoint, you would have to hit `c` thousands of times. With
-`b 87, status == 'FAILED' and retry_count > 3`You stop exactly where the bug manifests.
+`b 87, status == 'FAILED' and retry_count > 3`. You stop exactly where the bug manifests.
 
 ### Temporary Breakpoints
 
@@ -180,7 +180,7 @@ Automatically every time the breakpoint is hit:
 > end
 ```
 
-This attaches three commands to breakpoint 1: print `request_data`Print `response_status`Then
+This attaches three commands to breakpoint 1: print `request_data`Print `response_status`. Then
 Continue. The `end` keyword terminates the command list. This is a crude but effective form of
 Watchpoint. You can automate data collection during long runs without manually interacting with the
 Debugger.
@@ -268,9 +268,9 @@ Key fields and their semantics:
 - `program`: The script to run. `${file}` expands to the currently active file.
 - `console`: `"integratedTerminal"` runs in the VS Code terminal. `"internalConsole"` runs in the
   debug console (no stdin support).
-- `justMyCode`: When `true`The debugger skips library code. Under the hood, this sets
+- `justMyCode`: When `true`. The debugger skips library code. Under the hood, this sets
   `step_over_pylib` in the debug adapter, which filters frames based on whether they belong to
-  site-packages or the standard library. When `false`You step into everything.
+  site-packages or the standard library. When `false`. You step into everything.
 
 Watch expressions in VS Code are evaluated in the current frame's context on every pause. They are
 not free, each watch expression requires the debug adapter to serialize the result back to the IDE
@@ -335,7 +335,7 @@ On your local machine, configure VS Code to attach:
 The `pathMappings` field is critical. The remote process has its own filesystem paths. The local IDE
 has different paths. `pathMappings` tells the debug adapter how to translate between them. If you
 Set a breakpoint in `/home/user/project/main.py` locally but the remote process loaded
-`/app/main.py`The path mapping ensures the breakpoint lands in the right place.
+`/app/main.py`. The path mapping ensures the breakpoint lands in the right place.
 
 ### Attaching to a Running Process
 
@@ -446,7 +446,7 @@ Handlers determine where log messages go. The standard library provides:
 - `StreamHandler`: Writes to a stream (defaults to `sys.stderr`).
 - `FileHandler`: Writes to a file. Opens the file in append mode.
 - `RotatingFileHandler`: Writes to a file with rotation. When the file reaches a specified size, it
-  is rotated (renamed with a `.1``.2`Etc. Suffix) and a new file is created.
+  is rotated (renamed with a `.1`, `.2`. Etc. Suffix) and a new file is created.
 - `TimedRotatingFileHandler`: Rotates based on time intervals (hourly, daily, weekly).
 
 ```python
@@ -601,7 +601,7 @@ ValueError: invalid literal for int() with base 10: "not a number''
 ```
 
 If you use bare `raise` inside an `except` block, Python sets `__context__` automatically (implicit
-Chaining). If you use `raise ... from None`You suppress the chain entirely:
+Chaining). If you use `raise ... from None`. You suppress the chain entirely:
 
 ```python
 try:
@@ -614,7 +614,7 @@ This produces a clean traceback with no mention of the original `ValueError`. Us
 the original exception is an implementation detail that would confuse the user or operator.
 
 The `__cause__` and `__context__` attributes are set by the interpreter. `__suppress_context__` is
-Set to `True` when you use `from e` or `from None`Which tells the traceback formatter to prefer
+Set to `True` when you use `from e` or `from None`. Which tells the traceback formatter to prefer
 `__cause__` over `__context__`. You almost never need to manipulate these attributes directly, the
 `raise ... from` syntax handles everything.
 
@@ -669,7 +669,7 @@ The programmatic API gives you fine-grained control:
 
 ### What cProfile Actually Measures
 
-CProfile uses `sys.setprofile()`Not `sys.settrace()`. `setprofile` fires on function call and Return
+CProfile uses `sys.setprofile()`. Not `sys.settrace()`. `setprofile` fires on function call and Return
 events only (not on every line). On each call, cProfile records a timestamp. On each return, It
 computes the elapsed time. This means:
 
@@ -931,7 +931,7 @@ Internal data structures to reconstruct the call stack.
 
 ### Why py-spy Exists
 
-`cProfile``line_profiler`And `memory_profiler` all require you to modify your code (adding
+`cProfile`, `line_profiler` and `memory_profiler` all require you to modify your code (adding
 Decorators, importing modules) or run your program under a wrapper (`python -m cProfile`). This is
 Unacceptable for profiling production services because:
 
@@ -981,7 +981,7 @@ Bars at the bottom, those are the functions where most CPU time is spent.
    bytecode.
 
 This is why py-spy requires no instrumentation. It is an external observer reading internal data
-Structures. The overhead is limited to the cost of reading `/proc/<pid>/mem`Which is a kernel
+Structures. The overhead is limited to the cost of reading `/proc/<pid>/mem`. Which is a kernel
 Operation that does not disturb the target process.
 
 ### Limitations
@@ -1051,8 +1051,8 @@ The list comprehension `[x * 2 for x in range(10000000)]` allocates a list with 
 (approximately 80 MiB on 64-bit CPython). The generator expression
 `(x * 2 for x in range(10000000))` produces one value at a time, using O(1) memory.
 
-This applies to any function that accepts an iterable: `any()``all()``max()``min()`
-`sorted()``list()``tuple()``set()``dict()`. All of these can consume generators. Only pass a List
+This applies to any function that accepts an iterable: `any()`, `all()`, `max()`, `min()`
+`sorted()`, `list()`, `tuple()`, `set()`, `dict()`. All of these can consume generators. Only pass a List
 when you need random access or multiple iterations over the same data.
 
 ### Global Variable Lookups
@@ -1078,7 +1078,7 @@ def compute(values):
 
 In CPython, local variable access uses the `LOAD_FAST` bytecode instruction, which indexes directly
 into the frame's `fastlocals` array. This is an array lookup, O(1) with very low constant factor.
-Global variable access uses `LOAD_GLOBAL`Which performs a dictionary lookup in the module's
+Global variable access uses `LOAD_GLOBAL`. Which performs a dictionary lookup in the module's
 `__dict__`. Dictionary lookup involves hash computation, comparison, and potential collision
 Resolution. For a hot loop, the difference is measurable.
 
@@ -1153,16 +1153,16 @@ class Point:
         self.y = y
 ```
 
-Without `__slots__`Each instance has a `__dict__` (a Python dictionary) that stores its Attributes.
+Without `__slots__`. Each instance has a `__dict__` (a Python dictionary) that stores its Attributes.
 A `__dict__` has significant overhead: the dict object itself, the hash table, the hash Array. For
 objects with a small, fixed set of attributes, this overhead can exceed the data stored.
 
 With `__slots__`Python allocates a fixed-size descriptor array for the declared attributes. There Is
-no `__dict__`No hash table, no dynamic attribute creation. Each instance is smaller and Attribute
+no `__dict__`. No hash table, no dynamic attribute creation. Each instance is smaller and Attribute
 access is faster (descriptor lookup vs dictionary lookup).
 
 The memory savings are significant at scale. An instance with `__slots__` uses approximately 48
-Bytes on 64-bit CPython. Without `__slots__`The same instance uses approximately 200+ bytes
+Bytes on 64-bit CPython. Without `__slots__`. The same instance uses approximately 200+ bytes
 (depending on the number of attributes). If you are creating millions of instances, the difference
 is hundreds of megabytes.
 

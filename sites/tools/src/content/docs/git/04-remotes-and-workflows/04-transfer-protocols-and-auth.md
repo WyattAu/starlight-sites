@@ -827,7 +827,7 @@ $ git config --global credential.helper cache
 
 ### Committing SSH Private Keys to a Repository
 
-The private key file (`id_ed25519``id_rsa`) must never be committed. It provides full access to
+The private key file (`id_ed25519`, `id_rsa`) must never be committed. It provides full access to
 every service where the public key is registered.
 
 ```bash
@@ -859,7 +859,7 @@ $ git config --global credential.helper 'cache --timeout=900'
 
 ### Hardcoding Tokens in CI/CD Configuration Files
 
-Storing tokens directly in `.github/workflows/*.yml``.gitlab-ci.yml`Or `Jenkinsfile` is a Security
+Storing tokens directly in `.github/workflows/*.yml`, `.gitlab-ci.yml` or `Jenkinsfile` is a Security
 risk. Use the platform's secret management:
 
 ```bash

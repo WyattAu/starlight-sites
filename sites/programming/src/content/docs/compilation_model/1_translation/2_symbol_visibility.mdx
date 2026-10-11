@@ -111,7 +111,7 @@ If `header.h` contains a function definition:
 void log(const char* msg) \{ ... \} // Violation if included in multiple .cpp files
 ```
 
-If included in `A.cpp` and `B.cpp`The linker sees two symbols named `log`.
+If included in `A.cpp` and `B.cpp`. The linker sees two symbols named `log`.
 
 - Without `inline`: Linker Error (Multiple Definition).
 - With `inline`: The linker picks one definition and discards the rest. It trusts that they are
@@ -318,7 +318,7 @@ The compiler and linker cooperate: each TU emits a definition, and the linker pi
 all be identical). The `inline` keyword tells the linker "multiple definitions are expected; merge
 them."
 Without `inline`A static member defined in a header would cause "multiple definition" errors when
-Included in multiple TUs (unless it was `const` or `constexpr`Which already had special ODR
+Included in multiple TUs (unless it was `const` or `constexpr`. Which already had special ODR
 Exemptions)
 ---
 
@@ -477,7 +477,7 @@ struct Point \{
 ```
 
 If `a.cpp` and `b.cpp` are linked together and share a `Point` object through external linkage, one
-TU treats the first 8 bytes as `x` and the second 8 bytes as `y`While the other TU interprets them
+TU treats the first 8 bytes as `x` and the second 8 bytes as `y`. While the other TU interprets them
 in reverse order. The linker sees a single symbol `Point` and sees no error. This is **undefined
 Behavior** and manifests as corrupted floating-point values or subtle numerical errors.
 **Mitigation strategies:**

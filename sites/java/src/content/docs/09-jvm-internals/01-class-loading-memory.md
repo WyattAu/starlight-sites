@@ -63,7 +63,7 @@ Loaders has been restructured. The platform class loader loads platform modules 
 ### Application Class Loader
 
 The application class loader loads classes from the classpath: directories and JARs specified by
-`-cp``-classpath`Or the `CLASSPATH` environment variable. It is also the default class loader For
+`-cp`, `-classpath` or the `CLASSPATH` environment variable. It is also the default class loader For
 `ClassLoader.getSystemClassLoader()`.
 
 ### Custom Class Loaders

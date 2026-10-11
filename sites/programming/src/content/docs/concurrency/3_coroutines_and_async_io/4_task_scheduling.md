@@ -797,7 +797,7 @@ struct CancellableAwaiter {
 ```
 
 When `await_ready()` returns `true` (stop requested), the coroutine skips suspension and the loop
-Condition exits. When it returns `false`The coroutine suspends normally and resumes when the
+Condition exits. When it returns `false`. The coroutine suspends normally and resumes when the
 Scheduler decides, at which point the loop checks the stop token again. This pattern is cooperative:
 The coroutine must reach a cancellation point to observe the request. Long-running non-suspending
 Computation cannot be cancelled until it reaches the next `co_await`.
@@ -813,7 +813,7 @@ Computation cannot be cancelled until it reaches the next `co_await`.
 ## Common Pitfalls
 
 - **Forgetting to `resume()` after `suspend_always`.** If a coroutine suspends with `suspend_always`
-  and no scheduler ever calls `resume()`The coroutine leaks, its frame is never destroyed. Always
+  and no scheduler ever calls `resume()`. The coroutine leaks, its frame is never destroyed. Always
   pair lazy coroutines with a scheduler or manual resume loop.
 - **Symmetric transfer vs direct resume.** Using `handle.resume()` inside `await_suspend` can cause
   stack overflow on deep coroutine chains. Use symmetric transfer (`return handle;`) when the

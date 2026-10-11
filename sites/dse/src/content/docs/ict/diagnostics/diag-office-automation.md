@@ -43,7 +43,7 @@ to the new position. Copying `=A1` from B2 to C2 changes it to `=B1`.
 
 **Absolute reference** (e.g., `$A$1`): The reference does not change when copied. Used when
 referring to a fixed cell like a tax rate or conversion factor. Example: `=B2*$D$1` copies correctly
-as `=B3*$D$1``=B4*$D$1`Always multiplying by the value in D1.
+as `=B3*$D$1`, `=B4*$D$1`. Always multiplying by the value in D1.
 
 ### UT-2: Spreadsheet Data Analysis
 
@@ -161,7 +161,7 @@ merge to generate individualised report cards.
 (c) Overall $= 85 \times 0.6 + 72 \times 0.3 + 90 \times 0.1 = 51 + 21.6 + 9 = 81.6$.
 
 (d) **Mail merge:** The word processor template contains merge fields (e.g.,
-`<<StudentName>>``<<MathsGrade>>``<<OverallGrade>>`). The data source (spreadsheet or database
+`<<StudentName>>`, `<<MathsGrade>>`, `<<OverallGrade>>`). The data source (spreadsheet or database
 export) contains one row per student with columns matching the merge fields. During the merge, the
 word processor replaces each merge field with the corresponding value from the current data row,
 producing one document per student. This automates what would otherwise be a tedious manual process

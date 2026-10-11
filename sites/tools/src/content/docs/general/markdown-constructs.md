@@ -176,7 +176,7 @@ Renders as ~~This text is struck through.~~
 
 ### Inline Code
 
-`` `Backticks` `` for inline code. For template syntax or generics, escape angle brackets outside
+`` ``, ``Backticks``, `` `` for inline code. For template syntax or generics, escape angle brackets outside
 Code blocks: use `std::vector&lt;int&gt;` in prose.
 
 ### Fenced Code Blocks
@@ -198,8 +198,8 @@ Int main() {
 ```
 ````
 
-Supported languages include `python``cpp``java``dart``javascript``typescript``bash`
-`json``yaml``sql`And many more.
+Supported languages include `python`, `cpp`, `java`, `dart`, `javascript`, `typescript`, `bash`
+`json`, `yaml`, `sql` and many more.
 
 ### Line Highlighting
 
@@ -332,8 +332,8 @@ Graph TD
 ```
 ````
 
-Supported diagram types include `graph``sequenceDiagram``classDiagram``stateDiagram`
-`erDiagram``gantt``pie`And `flowchart`.
+Supported diagram types include `graph`, `sequenceDiagram`, `classDiagram`, `stateDiagram`
+`erDiagram`, `gantt`, `pie` and `flowchart`.
 
 This site adds a hover zoom effect on Mermaid SVGs via `src/css/custom.css`:
 

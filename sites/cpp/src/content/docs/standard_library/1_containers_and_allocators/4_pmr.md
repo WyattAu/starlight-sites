@@ -21,11 +21,11 @@ categories:
 
 ## Polymorphic Memory Resources (PMR) and Monotonic Buffers
 
-C++17 introduced **polymorphic memory resources** (PMR) in `&lt;memory_resource>`Enabling Containers
+C++17 introduced **polymorphic memory resources** (PMR) in `&lt;memory_resource>`. Enabling Containers
 to use different allocation strategies without changing their type. PMR decouples the Allocation
 strategy from the container, supporting patterns like arena allocation, pool allocation, And
 dependency injection of memory resources. This section covers the `memory_resource` abstraction,
-`monotonic_buffer_resource``unsynchronized_pool_resource`And practical integration patterns.
+`monotonic_buffer_resource`, `unsynchronized_pool_resource` and practical integration patterns.
 
 ### `std::pmr::memory_resource`: The Polymorphic Allocator Interface
 

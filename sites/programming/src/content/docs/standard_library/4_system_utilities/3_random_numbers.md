@@ -302,7 +302,7 @@ Values in pairs, so the distribution object may cache one value internally for e
 ### Engine State, Serialization, and Reproducibility
 
 Every random number engine maintains internal state that determines the next value in the sequence.
-For `std::mt19937`The state is 624 × 32-bit words (2496 bytes). This state can be saved and Restored
+For `std::mt19937`. The state is 624 × 32-bit words (2496 bytes). This state can be saved and Restored
 using the `<<` and `>>` operators, enabling deterministic replay:
 
 ```cpp

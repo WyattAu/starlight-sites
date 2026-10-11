@@ -105,7 +105,7 @@ print(type(data["created"]))  # <class 'datetime.datetime'>
 ```
 
 :::note
-`int``float``bool`And `None`. Everything else requires custom encoding.
+`int`, `float`, `bool` and `None`. Everything else requires custom encoding.
 :::
 
 ### JSON Performance

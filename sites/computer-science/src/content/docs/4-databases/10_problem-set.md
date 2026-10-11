@@ -47,7 +47,7 @@ description: "UNIVERSITY Computing notes: Problem Set. Comprehensive study mater
 **Problems 8--10:** SQL
 
 1. Write a recursive SQL query that computes the total cost of all parts (direct and indirect)
-   required to assemble product `P100`Given a `BOM(parent_part, child_part, quantity)` table.
+   required to assemble product `P100`. Given a `BOM(parent_part, child_part, quantity)` table.
 
 2. Write a SQL query that, for each department, returns the student with the highest GPA, their GPA,
    and the difference between their GPA and the department average. Use window functions only (no

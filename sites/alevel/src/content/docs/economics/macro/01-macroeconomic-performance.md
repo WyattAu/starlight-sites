@@ -601,7 +601,7 @@ The Phillips curve relationship has been far less stable in practice than theory
   supply-driven (cost-push) rather than demand-driven.
 
 :::note
-concept of Hysteresis and how it relates to the Phillips curve (if unemployment rises above `u*``u*`
+concept of Hysteresis and how it relates to the Phillips curve (if unemployment rises above `u*`, `u*`
 itself May rise, shifting the LRPC right). CIE (9708) may present a data-response question showing
 Inflation and unemployment data and ask students to interpret it using Phillips curve theory. OCR
 has examined the role of supply shocks in causing stagflation and the breakdown of the simple

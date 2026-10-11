@@ -77,7 +77,7 @@ $\therefore$ The output is deterministic given the same pinned versions and buil
 $\blacksquare$
 
 **Limitations:** This proof assumes pinned tags (immutable references). If a branch name is used as
-`GIT_TAG`The resolved commit may differ between machines at different times, breaking
+`GIT_TAG`. The resolved commit may differ between machines at different times, breaking
 Reproducibility. Always pin to tags or commit SHAs.
 
 ## Bootstrapping (Zero-Dependency Setup)
@@ -243,9 +243,9 @@ Rebuild the application, and test fixes without modifying the project's dependen
 CPM.cmake is a single-file CMake script (approximately 2000 lines) that wraps `FetchContent`. When
 `CPMAddPackage` is called, it performs the following steps:
 
-1. **Parse arguments:** Extract `NAME``GITHUB_REPOSITORY``GIT_TAG``VERSION``OPTIONS`Etc.
+1. **Parse arguments:** Extract `NAME`, `GITHUB_REPOSITORY`, `GIT_TAG`, `VERSION`, `OPTIONS`. Etc.
 2. **Compute cache key:** Generate a deterministic key from `NAME` + version/tag. If `VERSION` is
-   specified but not `GIT_TAG`CPM tries common tag prefixes (`v``V`No prefix) to map the version to
+   specified but not `GIT_TAG`CPM tries common tag prefixes (`v`, `V`. No prefix) to map the version to
    a Git tag.
 3. **Check local cache:** Look in `CPM_SOURCE_CACHE/<name>/<version>` and in
    `${CMAKE_BINARY_DIR}/_deps/<name>-<hash>/`.
@@ -255,7 +255,7 @@ CPM.cmake is a single-file CMake script (approximately 2000 lines) that wraps `F
    configuration.
 6. **Integrate:** Call `add_subdirectory()` on the fetched source, adding all targets to the main
    build graph.
-7. **Return target names:** Set `<name>_ADDED``<name>_SOURCE_DIR`And `<name>_BINARY_DIR` variables
+7. **Return target names:** Set `<name>_ADDED`, `<name>_SOURCE_DIR` and `<name>_BINARY_DIR` variables
    for the caller.
 
 ### Lock Mechanism
@@ -321,7 +321,7 @@ warning but does **not** automatically resolve it. The first version wins.
 Resolution strategies:
 
 1. **Manually pin a compatible version:** Declare `fmt 10.1.0` at the project root before including
-   `lib-a` and `lib-b`So both subdirectories see the same version.
+   `lib-a` and `lib-b`. So both subdirectories see the same version.
 2. **Use a CPM override variable:** `CPM_fmt_VERSION=10.1.0` overrides all `fmt` version requests.
 3. **Migrate to Conan/vcpkg:** These tools have SAT-based solvers that can find a compatible version
    automatically.
@@ -413,7 +413,7 @@ CPMAddPackage(
 )
 ```
 
-CPM attempts common tag prefixes (`v``V`Or no prefix) when resolving versions.
+CPM attempts common tag prefixes (`v`, `V` or no prefix) when resolving versions.
 
 ## CPMAddPackage Options Reference
 
@@ -630,7 +630,7 @@ CPMAddPackage(
 4. **No lockfile means no guaranteed reproducibility:** Unlike vcpkg (baseline) or Conan (lockfile),
    CPM has no mechanism to guarantee that two machines resolve the same versions. Pin every
    dependency to a tag or SHA.
-5. **Dependency builds with wrong flags:** Because CPM uses `add_subdirectory`The dependency's
+5. **Dependency builds with wrong flags:** Because CPM uses `add_subdirectory`. The dependency's
    `CMakeLists.txt` can modify global CMake state (e.g., `add_compile_options` without target
    scope). This can inject unwanted flags into your build. Always review dependency CMakeLists for
    global state mutations.
@@ -654,7 +654,7 @@ cmake -S . -B build \
     -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
 ```
 
-With `ccache`The first build compiles all dependencies from source (normal time). Subsequent clean
+With `ccache`. The first build compiles all dependencies from source (normal time). Subsequent clean
 Builds reuse cached object files, reducing the build time from minutes to seconds for most
 Dependencies.
 

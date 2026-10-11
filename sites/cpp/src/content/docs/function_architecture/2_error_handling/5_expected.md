@@ -93,10 +93,10 @@ Has no hidden control flow, and has zero overhead compared to error codes.
 
 **Proof:**
 
-1. `std::expected<T, E>` is a sum type (tagged union) that is either `T` or `E`Never both and never
+1. `std::expected<T, E>` is a sum type (tagged union) that is either `T` or `E`. Never both and never
    neither [N4950 §19.8].
 2. The discriminant is stored inline alongside the value or error. The size of `std::expected<T, E>`
-   is at most `sizeof(T) + sizeof(E) + padding`Which is bounded and known at compile time.
+   is at most `sizeof(T) + sizeof(E) + padding`. Which is bounded and known at compile time.
 3. `has_value()` is a simple discriminant check. It compiles to a single branch instruction.
 4. `value()` and `error()` are unchecked accessors. They compile to a direct read with no
    branching. Calling `value()` when an error is held is undefined behavior (analogous to
@@ -133,7 +133,7 @@ std::expected<int, Err> ok()     { return 42; }                          // valu
 std::expected<int, Err> fail()   { return std::unexpected{Err::Bad}; }   // error
 ```
 
-Without `std::unexpected`The constructor would be ambiguous when `T` and `E` are the same type
+Without `std::unexpected`. The constructor would be ambiguous when `T` and `E` are the same type
 (e.g., `std::expected<int, int>`). The wrapper resolves this ambiguity [N4950 §19.8].
 
 ### `value_or` and Default Fallbacks

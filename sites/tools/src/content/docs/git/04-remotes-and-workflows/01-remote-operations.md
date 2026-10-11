@@ -193,7 +193,7 @@ $ git config --global pull.rebase true
 
 ### Why `--rebase` is Better
 
-Without `--rebase``git pull` creates a merge commit for every pull, cluttering the history:
+Without `--rebase`, `git pull` creates a merge commit for every pull, cluttering the history:
 
 ```mermaid
 gitGraph
@@ -365,7 +365,7 @@ The clone creates:
 ## Remote-Tracking Branches
 
 Remote-tracking branches (e.g., `origin/main`) are local references that represent the state of a
-remote branch as of the last `git fetch`. They are updated automatically by `fetch` and `pull`But
+remote branch as of the last `git fetch`. They are updated automatically by `fetch` and `pull`. But
 **never by local commits**.
 
 ```mermaid

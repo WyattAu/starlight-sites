@@ -11950,7 +11950,7 @@ Focusing on the essential features of a problem while ignoring irrelevant detail
 Lights, while ignoring the colour of the cars or the brand.
 
 **Example (HL):** In object-oriented programming, a `Vehicle` class abstracts common properties
-(wheels, speed, colour) while `Car``Bicycle`And `Truck` inherit and specialise these properties.
+(wheels, speed, colour) while `Car`, `Bicycle` and `Truck` inherit and specialise these properties.
 
 ### Algorithm Design (OL/HL)
 
@@ -12572,7 +12572,7 @@ otherwise.
 **Proof.** The loop examines every index from 0 to len(arr)-1.
 
 - If `target` is at index $k$: the loop reaches index $k$ Finds `arr[k] == target`And returns $k$.
-- If `target` is not in the array: no index satisfies `arr[i] == target`So the loop completes
+- If `target` is not in the array: no index satisfies `arr[i] == target`. So the loop completes
   without returning, and the function returns -1.
 
 Both cases are correct. $lacksquare$
@@ -13019,9 +13019,9 @@ SELECT * FROM Students
 WHERE Grade = 'HL';
 ```
 
-**Comparison operators:** `=``&lt;&gt;``&lt;``&gt;``&lt;=``&gt;=`.
+**Comparison operators:** `=`, `&lt;&gt;`, `&lt;`, `&gt;`, `&lt;=`, `&gt;=`.
 
-**Logical operators:** `AND``OR``NOT`.
+**Logical operators:** `AND`, `OR`, `NOT`.
 
 **Pattern matching:**
 
@@ -16708,7 +16708,7 @@ def gcd(a, b):
 print(gcd(48, 18))  # 6
 ```
 
-**Proof of termination.** At each recursive call, `b` becomes `a % b`Which is strictly less than
+**Proof of termination.** At each recursive call, `b` becomes `a % b`. Which is strictly less than
 `b`. Since `b` is a non-negative integer that decreases, it must eventually reach 0, triggering the
 Base case. $lacksquare$
 

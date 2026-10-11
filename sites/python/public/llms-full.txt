@@ -143,7 +143,7 @@ The design was driven by several considerations:
    switch would be redundant.
 
 2. **Algebraic data types are increasingly common.** Python codebases increasingly use
-   `dataclasses``NamedTuple`And `TypedDict` to model structured data. Pattern matching provides a
+   `dataclasses`, `NamedTuple` and `TypedDict` to model structured data. Pattern matching provides a
    natural way to destructure these types.
 
 3. **No fall-through.** Fall-through is the most error-prone feature of C's `switch`. Every `case`
@@ -272,7 +272,7 @@ flowchart TD
 
 :::note
 the `match` block is skipped entirely -- it does not raise an error. This differs from Rust's
-`match`Which requires exhaustiveness at compile time.
+`match`. Which requires exhaustiveness at compile time.
 
 ## Loops
 
@@ -331,7 +331,7 @@ print(5 in range(1000000))    # True, instant check
 print(len(range(1000000)))    # 1000000
 ```
 
-`range` objects implement the sequence protocol (`__contains__``__len__``__getitem__`) with $O(1)$
+`range` objects implement the sequence protocol (`__contains__`, `__len__`, `__getitem__`) with $O(1)$
 membership testing. `x in range(n)` does not iterate through the range -- it computes the Answer
 directly.
 
@@ -452,7 +452,7 @@ def converge_pi(target_error: float = 1e-5) -> float:
 (server main loops, event loops), an accidental infinite loop freezes the program. Always ensure
 there is a reachable termination condition.
 
-### `break``continue`And Loop `else`
+### `break`, `continue` and Loop `else`
 
 Python loops support `break` (exit the loop immediately), `continue` (skip to the next iteration),
 And an `else` clause that executes only when the loop completes without hitting `break`.
@@ -1184,7 +1184,7 @@ print(apply(str.upper, "hello"))  # 'HELLO'
 print(apply(len, [1, 2, 3]))      # 3
 ```
 
-This is how `sorted``map``filter``min``max`And many other built-ins work. The `key` Parameter of
+This is how `sorted`, `map`, `filter`, `min`, `max` and many other built-ins work. The `key` Parameter of
 `sorted` is a function object; `map` and `filter` take function objects as their first Argument.
 
 ### Returning from Functions
@@ -1222,7 +1222,7 @@ This is a closure, covered in detail below.
 - Multiple statements in the body
 - Docstrings
 - Type annotations
-- Multiple expressions and control flow (`if``for``try``with`)
+- Multiple expressions and control flow (`if`, `for`, `try`, `with`)
 - Tuple unpacking in parameters
 - Keyword-only and positional-only parameters
 - `*args` and `**kwargs`
@@ -1248,7 +1248,7 @@ def process_data(
 
 `lambda` creates an anonymous function with a **single expression** as its body. The expression's
 Value is the return value. That is the entire body -- no statements, no assignments, no loops, no
-`try`No `return` (the return is implicit).
+`try`. No `return` (the return is implicit).
 
 ```python
 add = lambda x, y: x + y
@@ -1263,7 +1263,7 @@ def add(x, y):
 
 1. **Single expression only.** You cannot write `lambda x: if x > 0: x else: -x`. Use a conditional
    expression instead: `lambda x: x if x > 0 else -x`.
-2. **No statements.** No `for``while``try``with``assert``import``global``nonlocal`.
+2. **No statements.** No `for`, `while`, `try`, `with`, `assert`, `import`, `global`, `nonlocal`.
 3. **No annotations.** `lambda x: int -> x` is a syntax error.
 4. **No docstring.** A `lambda`'s `__doc__` is always `None`.
 5. **No assignment.** `lambda x: (y := x + 1)` works in Python 3.8+ via the walrus operator, but
@@ -1316,7 +1316,7 @@ for f in funcs:
     print(f())  # 4, 4, 4, 4, 4
 ```
 
-All five lambdas reference the **same** variable `i`Which is `4` by the time the loop finishes. The
+All five lambdas reference the **same** variable `i`. Which is `4` by the time the loop finishes. The
 fix is to bind the value with a default argument:
 
 ```python
@@ -1457,7 +1457,7 @@ print(counter())  # 2
 print(counter())  # 3
 ```
 
-Without `nonlocal count`The line `count += 1` would raise `UnboundLocalError` because Python sees
+Without `nonlocal count`. The line `count += 1` would raise `UnboundLocalError` because Python sees
 the assignment and treats `count` as local throughout the entire function body -- including the read
 on the right side of `+=`.
 
@@ -1611,9 +1611,9 @@ Namespace.
 
 ### `functools.wraps` -- Why It Matters
 
-Without `@functools.wraps(func)`The wrapper function's metadata replaces the original function's
+Without `@functools.wraps(func)`. The wrapper function's metadata replaces the original function's
 Metadata. This breaks introspection, debugging, documentation tools, and anything that relies on
-`__name__``__doc__``__module__``__qualname__`Or `__wrapped__`.
+`__name__`, `__doc__`, `__module__`, `__qualname__` or `__wrapped__`.
 
 ```python
 def broken_timer(func):
@@ -1634,7 +1634,7 @@ print(important_function.__name__)  # 'wrapper' -- not 'important_function'
 print(important_function.__doc__)   # None -- the docstring is lost
 ```
 
-With `@functools.wraps(func)`The wrapper function's metadata is replaced with the original
+With `@functools.wraps(func)`. The wrapper function's metadata is replaced with the original
 Function's metadata:
 
 ```python
@@ -1680,7 +1680,7 @@ process = log_calls(timer(validate_input(process)))
 **Decoration order (bottom-up):** `validate_input` is applied first, wrapping `process`. Then
 `timer` wraps the result of that. Then `log_calls` wraps the result of that.
 
-**Execution order (top-down):** When you call `process(42)``log_calls`'s wrapper runs first (it is
+**Execution order (top-down):** When you call `process(42)`, `log_calls`'s wrapper runs first (it is
 The outermost layer). Inside it, `timer`'s wrapper runs. Inside that, `validate_input`'s wrapper
 Runs. Finally, the original `process` runs. The return value propagates back out through each layer.
 
@@ -1789,9 +1789,9 @@ def with_args():
 ```
 
 When `@rate_limit` is used without parentheses, Python calls `rate_limit(no_args)`. The function
-Object is passed as `_func`And since it is not `None`We immediately return `decorator(_func)`. When
+Object is passed as `_func`And since it is not `None`. We immediately return `decorator(_func)`. When
 `@rate_limit(requests_per_second=5.0)` is used, Python calls
-`rate_limit(requests_per_second=5.0)``_func` defaults to `None`And we return `decorator` to be
+`rate_limit(requests_per_second=5.0)`, `_func` defaults to `None`And we return `decorator` to be
 Applied by the `@` syntax.
 
 ## Class-Based Decorators
@@ -2091,7 +2091,7 @@ class Temperature:
         self.celsius = (value - 32) * 5 / 9  # reuses celsius setter for validation
 ```
 
-Properties are descriptors -- they are objects with `__get__``__set__`And/or `__delete__` Methods.
+Properties are descriptors -- they are objects with `__get__`, `__set__` and/or `__delete__` Methods.
 The `@property` decorator creates a `property` object (an instance of `property`) and Assigns it as
 a class attribute. When you access `instance.celsius`Python's descriptor protocol Invokes
 `property.__get__`.
@@ -2168,8 +2168,8 @@ Attributes. Also, `@cached_property` does not have a size limit or eviction poli
 
 ### `@functools.total_ordering`
 
-`@total_ordering` automatically generates the remaining rich comparison methods (`__lt__``__le__`
-`__gt__``__ge__`) from `__eq__` and one other comparison method.
+`@total_ordering` automatically generates the remaining rich comparison methods (`__lt__`, `__le__`
+`__gt__`, `__ge__`) from `__eq__` and one other comparison method.
 
 ```python
 import functools
@@ -2202,8 +2202,8 @@ Comparisons. For hot paths, implement all six methods explicitly.
 
 ### `@dataclass`
 
-`@dataclass` (Python 3.7+) automatically generates `__init__``__repr__``__eq__`And optionally
-`__hash__``__lt__``__str__`And more from class-level type annotations.
+`@dataclass` (Python 3.7+) automatically generates `__init__`, `__repr__`, `__eq__` and optionally
+`__hash__`, `__lt__`, `__str__` and more from class-level type annotations.
 
 ```python
 from dataclasses import dataclass, field
@@ -2276,13 +2276,13 @@ functools.WRAPPER_UPDATES = (
 ```
 
 - **`WRAPPER_ASSIGNMENTS`:** These attributes are **replaced** (assigned by name). The wrapper's
-  `__name__` becomes the wrapped function's `__name__`Etc. If the wrapped function does not have one
+  `__name__` becomes the wrapped function's `__name__`. Etc. If the wrapped function does not have one
   of these attributes, the wrapper's attribute is deleted (via `delattr`).
 - **`WRAPPER_UPDATES`:** These attributes are **merged** (updated). The wrapper's `__dict__` is
-  updated with the wrapped function's `__dict__`Meaning any custom attributes set on the original
+  updated with the wrapped function's `__dict__`. Meaning any custom attributes set on the original
   function are available on the wrapper.
 
-Additionally, `update_wrapper` sets `wrapper.__wrapped__ = wrapped`Which provides a direct Reference
+Additionally, `update_wrapper` sets `wrapper.__wrapped__ = wrapped`. Which provides a direct Reference
 to the original function.
 
 ### Full Mechanism
@@ -2311,9 +2311,9 @@ print(example.__wrapped__)       # <function example at 0x...>
 
 ### Why Omitting It Breaks Things
 
-Without `functools.wraps`The following tools and patterns break:
+Without `functools.wraps`. The following tools and patterns break:
 
-**1. Debugging and tracebacks.** The wrapper's `__name__` is `wrapper`Which appears in tracebacks
+**1. Debugging and tracebacks.** The wrapper's `__name__` is `wrapper`. Which appears in tracebacks
 instead of the original function name. When you have multiple decorators, every traceback shows
 `wrapper` and you cannot tell which function actually failed.
 
@@ -2321,12 +2321,12 @@ instead of the original function name. When you have multiple decorators, every 
 Documentation. A decorator without `wraps` produces documentation that shows the wrapper's (empty)
 Docstring and no type information.
 
-**3. `inspect.signature`.** Without `__wrapped__``inspect.signature()` falls back to the wrapper's
+**3. `inspect.signature`.** Without `__wrapped__`, `inspect.signature()` falls back to the wrapper's
 Signature (`(*args, **kwargs)`), which tells you nothing about the actual parameters. With
-`__wrapped__``inspect.signature()` follows the chain to the original function.
+`__wrapped__`, `inspect.signature()` follows the chain to the original function.
 
-**4. `help()`.** The built-in `help()` function reads `__doc__``__name__`And `__signature__`.
-Without `wraps``help(example)` shows an empty or misleading result.
+**4. `help()`.** The built-in `help()` function reads `__doc__`, `__name__` and `__signature__`.
+Without `wraps`, `help(example)` shows an empty or misleading result.
 
 **5. Pickling.** Functions are pickled by qualified name. If the wrapper's `__module__` and
 `__qualname__` do not match the original function's, unpickling may fail.
@@ -2344,9 +2344,9 @@ all will see the final value. Fix it with default argument binding or a factory 
 
 ### Forgetting `functools.wraps`
 
-Without `@functools.wraps(func)`The decorated function loses its `__name__``__doc__`
-`__module__``__qualname__``__annotations__`And `__wrapped__`. This breaks tracebacks, Documentation,
-introspection, `help()``inspect.signature()`And pickling. **Always use `functools.wraps` in
+Without `@functools.wraps(func)`. The decorated function loses its `__name__`, `__doc__`
+`__module__`, `__qualname__`, `__annotations__` and `__wrapped__`. This breaks tracebacks, Documentation,
+introspection, `help()`, `inspect.signature()` and pickling. **Always use `functools.wraps` in
 production decorators.** There is no good reason to omit it.
 
 ### Decorator Order Matters
@@ -2462,7 +2462,7 @@ that the state is global and shared.
 ### Decorating Methods
 
 When you decorate a method, the wrapper function receives the instance (`self`) as the first
-Argument. This is handled automatically by `*args`But you need to be aware of it if the decorator
+Argument. This is handled automatically by `*args`. But you need to be aware of it if the decorator
 does anything with the arguments:
 
 ```python
@@ -2492,7 +2492,7 @@ Case, you must be explicit about extracting `self` from `args[0]`.
 A more subtle issue: if you use a class-based decorator on a method, the `__call__` method does
 **not** receive `self` (the instance of the decorated class) in the same way. The descriptor
 Protocol complicates things. A class-based decorator that works on both functions and methods needs
-to return a function from `__call__`Not implement the call directly:
+to return a function from `__call__`. Not implement the call directly:
 
 ```python
 class MethodAwareDecorator:
@@ -2512,8 +2512,8 @@ class MethodAwareDecorator:
 ```
 
 The `__get__` method makes the decorator a **descriptor**. When the decorated method is accessed on
-an instance (`instance.method`), Python calls `__get__(instance, type)`Which returns a partial
-Function with the instance pre-bound. Without `__get__`The class-based decorator would not work
+an instance (`instance.method`), Python calls `__get__(instance, type)`. Which returns a partial
+Function with the instance pre-bound. Without `__get__`. The class-based decorator would not work
 Correctly on methods -- `self` would be missing from the argument list.
 
 ### Debugging Decorated Functions
@@ -2676,7 +2676,7 @@ The implications are significant:
    loops.
 
 2. **`StopIteration` is caught at the `for` level**, not inside your code. If you manually call
-   `next()` inside a loop body and catch `StopIteration`You will swallow the loop's own termination
+   `next()` inside a loop body and catch `StopIteration`. You will swallow the loop's own termination
    signal. This is a real bug pattern -- see Common Pitfalls.
 
 3. **`break` does not call `close()` on the iterator.** Only `generator.close()` exists for
@@ -2828,10 +2828,10 @@ Function.
 
 ### The StopIteration Contract
 
-`StopIteration` inherits directly from `Exception`Not `BaseException`. This means it can be caught
+`StopIteration` inherits directly from `Exception`. Not `BaseException`. This means it can be caught
 by bare `except Exception:` clauses, which is a source of subtle bugs. PEP 479 (Python 3.7+)
 Addresses the related issue of `StopIteration` leaking from generator internals -- now, if a
-Generator raises `StopIteration`It is automatically converted to `RuntimeError`.
+Generator raises `StopIteration`. It is automatically converted to `RuntimeError`.
 
 ```python
 def broken_generator():
@@ -2845,7 +2845,7 @@ or function exit handle it.
 
 ### Iterator Exhaustion
 
-Once an iterator raises `StopIteration`It is exhausted. Subsequent calls to `next()` will raise
+Once an iterator raises `StopIteration`. It is exhausted. Subsequent calls to `next()` will raise
 `StopIteration` again immediately:
 
 ```python
@@ -2981,7 +2981,7 @@ does not support indexing, `len()`Or multiple passes.
 Use a generator expression when:
 
 - The sequence is large or infinite
-- You only need to consume the values once (e.g., passing to `sum()``max()``any()`)
+- You only need to consume the values once (e.g., passing to `sum()`, `max()`, `any()`)
 - You are chaining transformations (the intermediate results don't need to exist simultaneously)
 
 Use a list comprehension when:
@@ -3102,7 +3102,7 @@ What this means in practice:
    generator.
 
 3. **`throw()` exceptions are forwarded to the sub-generator.** If the caller does
-   `gen.throw(ValueError)`The sub-generator receives the exception at its current yield point.
+   `gen.throw(ValueError)`. The sub-generator receives the exception at its current yield point.
 
 4. **`close()` is forwarded.** Calling `gen.close()` calls `subgen.close()`.
 
@@ -3168,7 +3168,7 @@ print(list(flatten(data)))  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ### Coroutine Heritage
 
 Generators in Python predate `async`/`await` by over a decade. Before PEP 492 (Python 3.5),
-Generators were the only mechanism for coroutine-like behavior. The `send()``throw()`And `close()`
+Generators were the only mechanism for coroutine-like behavior. The `send()`, `throw()` and `close()`
 methods on generator objects exist because generators were originally designed to serve as
 Coroutines.
 
@@ -3258,7 +3258,7 @@ print(result)           # ['c']
 ### `close()` for Cleanup
 
 `gen.close()` causes a `GeneratorExit` exception to be raised at the current `yield` point. If the
-Generator catches `GeneratorExit`It must re-raise it (or raise `StopIteration`) -- it is not Allowed
+Generator catches `GeneratorExit`. It must re-raise it (or raise `StopIteration`) -- it is not Allowed
 to yield another value. This is the mechanism that `with` statements and `for` loops use to Clean up
 generators when they are abandoned:
 
@@ -3714,9 +3714,9 @@ gen = (x for x in range(5))
 t = tuple(gen)  # (0, 1, 2, 3, 4)
 ```
 
-`iter(lst)` returns a `list_iterator`Which is not a generator object but satisfies the same Iterator
+`iter(lst)` returns a `list_iterator`. Which is not a generator object but satisfies the same Iterator
 protocol. The distinction is rarely important in practice, but it matters for `isinstance` Checks:
-`isinstance(iter([]), collections.abc.Generator)` returns `False`While
+`isinstance(iter([]), collections.abc.Generator)` returns `False`. While
 `isinstance((x for x in []), collections.abc.Generator)` returns `True`.
 
 ### When Generators Are Inappropriate
@@ -3779,7 +3779,7 @@ print(list(gen2))  # [0, 1, 2, 3, 4]
 
 ### `return value` Semantics in Generators
 
-The return value of a generator is stored in `StopIteration.value`Which is inaccessible through
+The return value of a generator is stored in `StopIteration.value`. Which is inaccessible through
 Normal iteration:
 
 ```python
@@ -3847,7 +3847,7 @@ print(gen.send("hello"))  # "inner: received hello"  -- went to inner, NOT outer
 print(next(gen))          # "outer: inner returned None"  (inner's return value was None)
 ```
 
-The `send("hello")` value is received by the `yield` expression inside `inner()`Not by the
+The `send("hello")` value is received by the `yield` expression inside `inner()`. Not by the
 `yield from` in `outer()`. The delegating generator is completely transparent during the delegation
 -- it suspends and lets the sub-generator interact directly with the caller.
 
@@ -4079,7 +4079,7 @@ import json as json_module
 Each form does something subtly different at the namespace level:
 
 1. `import os` binds the module object to the name `os` in the current namespace. The module"s
-   attributes are accessed as `os.path``os.environ`Etc. No names from inside `os` are injected into
+   attributes are accessed as `os.path`, `os.environ`. Etc. No names from inside `os` are injected into
    the current scope.
 
 2. `from os.path import join` first imports `os.path` (which necessarily imports `os` as a
@@ -4149,7 +4149,7 @@ the following order (first match wins):
 1. The directory containing the script being run (or the current directory if running interactively
    or with `-c`). This is **not** `os.getcwd()` in all cases -- it is the directory of the
    entry-point script as resolved by the OS. This is why running `python subdir/myscript.py` adds
-   `subdir/` to `sys.path`Not the project root.
+   `subdir/` to `sys.path`. Not the project root.
 
 2. `PYTHONPATH` environment variable. If set, its value is split on `os.pathsep` (colon on Unix,
    semicolon on Windows) and each path is appended.
@@ -4226,8 +4226,8 @@ def show_metadata():
 ```
 
 **`__name__`** is the most important module attribute. It contains the fully qualified name of the
-Module as known to the import system. When a file is run directly with `python utils.py``__name__`
-Is set to the string `'__main__'`. When imported as `from myproject import utils``__name__` is
+Module as known to the import system. When a file is run directly with `python utils.py`, `__name__`
+Is set to the string `'__main__'`. When imported as `from myproject import utils`, `__name__` is
 `'myproject.utils'`.
 
 This distinction is the basis for the idiomatic test guard:
@@ -4248,9 +4248,9 @@ Points to the original `.py` source. For modules loaded from zip files or other 
 Sources, `__file__` may be a synthetic path or `None`. For namespace packages, `__file__` is `None`.
 
 **`__package__`** is the parent package name. For a top-level module (not inside any package), it is
-`None`. For `mypackage.submodule``__package__` is `'mypackage'`. For `mypackage.subpkg.module`
+`None`. For `mypackage.submodule`, `__package__` is `'mypackage'`. For `mypackage.subpkg.module`
 `__package__` is `'mypackage.subpkg'`. This attribute is critical for relative import resolution:
-When a module uses `from . import sibling`The import system resolves the dot by looking at
+When a module uses `from . import sibling`. The import system resolves the dot by looking at
 `__package__`.
 
 **`__doc__`** is the module's docstring -- the first string literal in the module body, if any. It
@@ -4291,7 +4291,7 @@ mypackage/
         utils.py
 ```
 
-When you write `import mypackage.submodule`The import system:
+When you write `import mypackage.submodule`. The import system:
 
 1. Finds `mypackage/` on `sys.path` (because it contains `__init__.py`).
 2. Imports `mypackage` (executes `mypackage/__init__.py`).
@@ -4299,7 +4299,7 @@ When you write `import mypackage.submodule`The import system:
 4. Imports `mypackage.submodule` (executes `mypackage/submodule.py`).
 5. Sets the attribute `submodule` on the `mypackage` module object.
 
-Step 5 is crucial: after `import mypackage.submodule`You can access the submodule as
+Step 5 is crucial: after `import mypackage.submodule`. You can access the submodule as
 `mypackage.submodule`. The `mypackage.__init__.py` does not need to explicitly import the submodule
 for this to work -- the import machinery does it automatically.
 
@@ -4314,7 +4314,7 @@ The `__init__.py` file serves several purposes:
    package is imported. This includes setting up package-level state, configuring logging, or
    importing submodules.
 
-3. **Defines the package's public API.** By importing specific names in `__init__.py`You control
+3. **Defines the package's public API.** By importing specific names in `__init__.py`. You control
    what users see when they `from mypackage import something`.
 
 4. **Sets `__all__`** to control `from mypackage import *` behavior.
@@ -4346,7 +4346,7 @@ Consider this scenario:
     module_b.py
 ```
 
-If both `/opt/app` and `/usr/local/lib` are on `sys.path`Then `import namespace_pkg.module_a` Loads
+If both `/opt/app` and `/usr/local/lib` are on `sys.path`. Then `import namespace_pkg.module_a` Loads
 from the first directory, and `import namespace_pkg.module_b` loads from the second. Both are
 Recognized as part of the same package `namespace_pkg`.
 
@@ -4383,7 +4383,7 @@ class PublicClass:
     pass
 ```
 
-When another module does `from mymodule import *`Only `public_func` and `PublicClass` are bound. The
+When another module does `from mymodule import *`. Only `public_func` and `PublicClass` are bound. The
 `_internal_helper` function is excluded despite being a module-level name.
 
 `__all__` also serves as documentation: it tells readers (and tools like linters and IDEs) which
@@ -4434,7 +4434,7 @@ The number of dots indicates how many levels up to go:
 - `...` means the grandparent package (two directories up).
 
 Relative imports are resolved using the `__package__` attribute of the importing module. When Python
-Encounters `from . import sibling` in `mypackage/subpkg/module.py`It looks at `__package__`Which Is
+Encounters `from . import sibling` in `mypackage/subpkg/module.py`. It looks at `__package__`. Which Is
 `'mypackage.subpkg'`And resolves the import as `mypackage.subpkg.sibling`.
 
 ### Implicit Relative Imports (Removed in Python 3)
@@ -4467,7 +4467,7 @@ Module. To import a sibling within the same package, you must use an explicit re
 
 ### Relative Imports in `__main__`
 
-When you run a file directly with `python path/to/file.py`The `__package__` attribute is set to
+When you run a file directly with `python path/to/file.py`. The `__package__` attribute is set to
 `None`And `__name__` is set to `'__main__'`. This means any relative import in that file will Raise
 `ImportError: attempted relative import with no known parent package`. This is by design -- The file
 is being run as a standalone script, not as part of a package.
@@ -4493,9 +4493,9 @@ module_a.py imports module_b.py
 module_b.py imports module_a.py
 ```
 
-This creates a chicken-and-egg problem. When Python starts importing `module_a`It begins executing
-`module_a`'s code. When it hits `import module_b`It starts executing `module_b`. When `module_b`
-Hits `import module_a`It looks in `sys.modules` and finds `module_a` -- but `module_a` is only
+This creates a chicken-and-egg problem. When Python starts importing `module_a`. It begins executing
+`module_a`'s code. When it hits `import module_b`. It starts executing `module_b`. When `module_b`
+Hits `import module_a`. It looks in `sys.modules` and finds `module_a` -- but `module_a` is only
 Partially initialized. Its top-level code has not finished executing, so the names that `module_b`
 Expects to find in `module_a` may not exist yet. This manifests as
 `AttributeError: partially initialized module 'module_a' has no attribute 'SomeClass'`.
@@ -4550,7 +4550,7 @@ def process(data):
 
 This works because the import statement is not executed until `process()` is called. By that time,
 `module_b` has already been fully imported (or will be imported on demand, and since `module_a` is
-Already in `sys.modules`The cycle does not cause a partial initialization problem).
+Already in `sys.modules`. The cycle does not cause a partial initialization problem).
 
 The trade-off is that every call to `process()` executes the import statement. In CPython, the
 Import machinery checks `sys.modules` first and returns the cached module object in O(1), so the
@@ -4634,9 +4634,9 @@ __all__ = ["Engine", "Pipeline", "validate", "sanitize",
 ```
 
 Users can then write `from mypackage import Engine` instead of `from mypackage.core import Engine`.
-The internal structure (`core``utils``config`) becomes an implementation detail.
+The internal structure (`core`, `utils`, `config`) becomes an implementation detail.
 
-When using `from .module import func as func`The `as func` is not redundant -- it ensures that the
+When using `from .module import func as func`. The `as func` is not redundant -- it ensures that the
 Name bound in `__init__.py` is exactly `func` regardless of what it was called in the source module.
 This is defensive programming that protects against future renames in submodules.
 
@@ -4645,11 +4645,11 @@ This is defensive programming that protects against future renames in submodules
 `__all__` serves a dual purpose in `__init__.py`:
 
 1. It controls `from package import *` (though wildcard imports are generally discouraged).
-2. It documents the public API. Tools like `pylint``pyright`And IDEs use `__all__` to determine
+2. It documents the public API. Tools like `pylint`, `pyright` and IDEs use `__all__` to determine
    which names are public vs. Internal.
 
-Without `__all__`The public API is implicitly "everything that does not start with `_`." With
-`__all__`It is explicitly "only these names." The explicit version is strictly better because it
+Without `__all__`. The public API is implicitly "everything that does not start with `_`." With
+`__all__`. It is explicitly "only these names." The explicit version is strictly better because it
 Prevents accidental public exposure of helper names.
 
 ### Hiding Imports with `del`
@@ -4746,7 +4746,7 @@ Importing the local copy instead of the installed copy.**
 
 Consider the flat layout. When you run `python -m pytest` from the project root, the project root
 Directory is added to `sys.path`. This means `import mypackage` resolves to the local directory
-`./mypackage/`Not to the installed copy in site-packages. This has two consequences:
+`./mypackage/`. Not to the installed copy in site-packages. This has two consequences:
 
 1. **Missing installed dependencies.** If `mypackage` depends on other packages that are installed
    in site-packages, those are still on `sys.path` and will be found. But if `mypackage` has C
@@ -4754,12 +4754,12 @@ Directory is added to `sys.path`. This means `import mypackage` resolves to the 
    copy.
 
 2. **Shadowing installed packages.** If you have a package installed system-wide named `mypackage`
-   and a local directory also named `mypackage`The local one wins because the project root is
+   and a local directory also named `mypackage`. The local one wins because the project root is
    earlier in `sys.path`. This means you are testing the local (uninstalled) code, which may not
    match what users actually get when they install your package.
 
 The src layout prevents this by moving the package out of the project root. When `python -m pytest`
-Runs from the project root, `./src/` is on `sys.path`But `import mypackage` will fail unless you
+Runs from the project root, `./src/` is on `sys.path`. But `import mypackage` will fail unless you
 have done `pip install -e .` (which installs a `.egg-link` pointing to `src/mypackage/`). This
 Forces you to install the package properly, which catches configuration errors in `pyproject.toml`
 And `setup.cfg`.
@@ -4808,7 +4808,7 @@ include = ["mypackage*"]
 
 PEP 621 (standardized in Python 3.10+ and supported by setuptools, hatch, flit, poetry) defines the
 `[project]` table as the standard way to declare metadata. The build-backend-specific configuration
-(`[tool.setuptools.packages.find]``[tool.hatch.build.targets.wheel]`Etc.) is still needed to Control
+(`[tool.setuptools.packages.find]`, `[tool.hatch.build.targets.wheel]`. Etc.) is still needed to Control
 which files are included in the distribution.
 
 ## Dynamic Imports
@@ -4940,7 +4940,7 @@ from mypackage.cli import main
 main()
 ```
 
-The entry point name (`myapp`) becomes the command name. The value is `module:function`Where
+The entry point name (`myapp`) becomes the command name. The value is `module:function`. Where
 `module` is the fully qualified module name and `function` is the callable to invoke.
 
 ### `gui_scripts`
@@ -5019,7 +5019,7 @@ Automatically without any registration code in the application -- the metadata i
 
 ### Shadowing Standard Library Modules
 
-If you name a local file `random.py``logging.py`Or any other stdlib module name, your file will
+If you name a local file `random.py`, `logging.py` or any other stdlib module name, your file will
 Shadow the standard library module in `sys.path`. This causes bizarre errors where importing the
 Stdlib module loads your file instead:
 
@@ -5032,8 +5032,8 @@ import random
 random.randint(1, 10)  # AttributeError: module 'random' has no attribute 'randint'
 ```
 
-Never name files after stdlib modules. This includes common names like `collections.py``json.py`
-`email.py``types.py``builtins.py`And `test.py`.
+Never name files after stdlib modules. This includes common names like `collections.py`, `json.py`
+`email.py`, `types.py`, `builtins.py` and `test.py`.
 
 ### `__name__` vs `__package__` Confusion
 
@@ -5046,7 +5046,7 @@ print(__name__)    # 'mypackage.subpkg.module'
 print(__package__) # 'mypackage.subpkg'
 ```
 
-Relative imports use `__package__`Not `__name__`. If `__package__` is `None` (which happens when a
+Relative imports use `__package__`. Not `__name__`. If `__package__` is `None` (which happens when a
 File is run directly), relative imports fail.
 
 ### Mutable Module-Level State
@@ -5109,7 +5109,7 @@ Path is searched first, but be aware that this can shadow installed packages.
 
 ### Namespace Package `__init__.py` Conflicts
 
-If a directory contains `__init__.py`It is a regular package, not a namespace package. If you Later
+If a directory contains `__init__.py`. It is a regular package, not a namespace package. If you Later
 add another directory with the same package name to `sys.path` expecting namespace package
 Semantics, it will not work -- the first directory's `__init__.py` takes precedence. To convert a
 Regular package to a namespace package, you must remove the `__init__.py` from all directories that
@@ -5296,7 +5296,7 @@ Machine instruction, while a Python `int` addition involves:
 9. Set the result's `ob_refcnt` to 1.
 10. Decrement the reference count of both operands.
 
-The `ob_type` pointer enables dynamic dispatch. When Python evaluates `a + b`It follows `a.ob_type`
+The `ob_type` pointer enables dynamic dispatch. When Python evaluates `a + b`. It follows `a.ob_type`
 to the type object, then looks up the `tp_as_number->nb_add` slot to find the addition Function.
 This is a two-level indirection per operation. The `tp_slots` mechanism is how Python's Data model
 (dunder methods) maps to C function pointers.
@@ -5305,8 +5305,8 @@ This is a two-level indirection per operation. The `tp_slots` mechanism is how P
 
 The type object is itself a `PyObject` (with its own reference count and type pointer -- the type of
 A type is `type`And the type of `type` is `type`). It additionally contains a large struct with
-Function pointers for every operation the object supports: `tp_repr``tp_hash``tp_call`
-`tp_iternext``tp_as_sequence``tp_as_mapping`And dozens more. These slots are the C-level Equivalent
+Function pointers for every operation the object supports: `tp_repr`, `tp_hash`, `tp_call`
+`tp_iternext`, `tp_as_sequence`, `tp_as_mapping` and dozens more. These slots are the C-level Equivalent
 of dunder methods.
 
 ## Reference Counting
@@ -5418,8 +5418,8 @@ because they can contain references to mutable objects, even though the tuple it
 ### `__del__` and the Finalizer Problem
 
 Objects with `__del__` methods complicate garbage collection. The GC cannot safely break a cycle
-that includes objects with `__del__`Because breaking the cycle requires deallocating at least one
-Object, which triggers `__del__`Which might access other objects in the cycle that have already Been
+that includes objects with `__del__`. Because breaking the cycle requires deallocating at least one
+Object, which triggers `__del__`. Which might access other objects in the cycle that have already Been
 deallocated.
 
 In CPython 3.4+, the GC handles this by placing such objects in a list (`gc.garbage`) and reporting
@@ -5615,7 +5615,7 @@ Key attributes:
 - `co_varnames`: Names of local variables (including parameters).
 - `co_argcount`: Number of positional arguments (excluding `*args`).
 - `co_consts`: Tuple of constants used in the function (literal values loaded by `LOAD_CONST`).
-- `co_names`: Names of global variables and attributes (used by `LOAD_GLOBAL``LOAD_ATTR`).
+- `co_names`: Names of global variables and attributes (used by `LOAD_GLOBAL`, `LOAD_ATTR`).
 - `co_freevars`: Names of free variables (variables from enclosing scopes, used by closures).
 - `co_cellvars`: Names of cell variables (local variables referenced by nested functions).
 
@@ -5690,7 +5690,7 @@ Strings that are NOT automatically interned:
 
 1. Strings created at runtime via concatenation, formatting, or `str()`.
 2. Strings read from files, network, or user input.
-3. Strings created by `str.join()``str.replace()`Or other string methods.
+3. Strings created by `str.join()`, `str.replace()` or other string methods.
 
 ```python
 a = "hello"
@@ -5921,7 +5921,7 @@ Contend for the GIL simultaneously.
 
 The GIL is released (and later re-acquired) during:
 
-1. **I/O operations:** `open()``read()``write()``socket.recv()``socket.send()`And all other blocking
+1. **I/O operations:** `open()`, `read()`, `write()`, `socket.recv()`, `socket.send()` and all other blocking
    I/O. The C extension performing the I/O releases the GIL before the blocking call and re-acquires
    it after.
 2. **`time.sleep()`:** Explicitly releases the GIL.
@@ -5929,7 +5929,7 @@ The GIL is released (and later re-acquired) during:
    `Py_END_ALLOW_THREADS` macros. NumPy, Pandas, and similar libraries do this for CPU-intensive
    computation.
 4. **Blocking C library calls:** `ctypes` calls to C functions release the GIL by default.
-5. **`subprocess``threading``multiprocessing` primitives:** Wait operations on locks, events,
+5. **`subprocess`, `threading`, `multiprocessing` primitives:** Wait operations on locks, events,
    queues, and semaphores release the GIL.
 
 ### Why Removing the GIL Is Hard
@@ -6136,7 +6136,7 @@ Type declarations is a genuine barrier. Dynamic typing enables:
 
 - Rapid prototyping without ceremony
 - Highly polymorphic code (duck typing)
-- Metaprogramming and runtime introspection via `getattr``setattr``dir`And `type`
+- Metaprogramming and runtime introspection via `getattr`, `setattr`, `dir` and `type`
 
 The trade-off is that errors a compiler would catch in statically-typed languages surface at
 Runtime. Python mitigates this with extensive testing culture and, since Python 3.5, optional static
@@ -6150,14 +6150,14 @@ Implicit coercion. The principle is that **surprising implicit behavior is more 
 Explicit errors**.
 
 :::note
-Subclass of `int`So `True + 1 == 2`. Numeric towers allow `int + float` because the `int` is
+Subclass of `int`. So `True + 1 == 2`. Numeric towers allow `int + float` because the `int` is
 Promoted to `float`. These are the result of deliberate subtype relationships, not general-purpose
 Coercion rules.
 
 ## Type Hierarchy
 
 Every object in Python is an instance of `object`. The built-in types form a hierarchy rooted at
-`object`With `int``str`And others as direct or indirect subclasses.
+`object`. With `int`, `str` and others as direct or indirect subclasses.
 
 ```mermaid
 classDiagram
@@ -6265,7 +6265,7 @@ classDiagram
 
 This hierarchy has immediate consequences. Because `bool` is a subclass of `int`
 `isinstance(True, int)` returns `True`. Because `type` is a subclass of `object`And `object` is an
-Instance of `type`The relationship is circular -- this is the metaclass mechanism.
+Instance of `type`. The relationship is circular -- this is the metaclass mechanism.
 
 ## Numeric Types
 
@@ -6553,7 +6553,7 @@ Handle edge cases (empty strings, prefix longer than string) correctly.
 
 ## Booleans
 
-`bool` is a subclass of `int`. There are exactly two instances: `True` and `False`Which are the
+`bool` is a subclass of `int`. There are exactly two instances: `True` and `False`. Which are the
 Integer values 1 and 0 respectively.
 
 ```python
@@ -6564,7 +6564,7 @@ print(sum([True, False, True])) # 2
 
 ### Truthiness
 
-In boolean contexts (`if``while``and``or``not``bool()`), Python applies a well-defined set Of rules
+In boolean contexts (`if`, `while`, `and`, `or`, `not`, `bool()`), Python applies a well-defined set Of rules
 to determine the truth value of any object:
 
 | Value                     | Truth Value | Reason                                           |
@@ -6641,7 +6641,7 @@ result = value or 0                  # compute_default() is NOT called
 ## `None` and `NoneType`
 
 `None` is the singleton instance of `NoneType`. It represents the absence of a value -- Python's
-Equivalent of `null``nil`Or `NoneType` in other languages.
+Equivalent of `null`, `nil` or `NoneType` in other languages.
 
 ```python
 print(type(None))    # <class 'NoneType'>
@@ -6669,7 +6669,7 @@ if x == None:
 ```
 
 Using `is None` rather than `== None` is important because a custom class can override `__eq__` to
-Return `True` when compared to `None`Which would be semantically incorrect. The `is` operator Cannot
+Return `True` when compared to `None`. Which would be semantically incorrect. The `is` operator Cannot
 be overridden.
 
 ### Default Argument Pitfall
@@ -6723,7 +6723,7 @@ optional: str | None = None
 
 ### The `typing` Module and Modern Alternatives
 
-Since Python 3.9, built-in collections (`list``dict``set``tuple`) can be used directly in type
+Since Python 3.9, built-in collections (`list`, `dict`, `set`, `tuple`) can be used directly in type
 Annotations, replacing the `typing` module equivalents:
 
 ```python
@@ -6909,9 +6909,9 @@ Type checkers are best-effort static analysis tools. They have inherent limitati
 
 1. **No runtime enforcement.** Type hints are annotations, not constraints. `mypy` catches errors at
    development time, but a misconfigured CI pipeline means errors can reach production.
-2. **`Any` is infectious.** Once a value has type `Any`It propagates through the entire call graph,
+2. **`Any` is infectious.** Once a value has type `Any`. It propagates through the entire call graph,
    effectively disabling type checking for anything that touches it.
-3. **Dynamically dispatched code is hard to type.** `getattr``__getattr__`And `**kwargs` defeat
+3. **Dynamically dispatched code is hard to type.** `getattr`, `__getattr__` and `**kwargs` defeat
    static analysis.
 4. **Generics are erased at runtime.** `list[str]` and `list[int]` are both `list` at runtime.
    `isinstance(x, list[str])` raises a `TypeError`.
@@ -6966,7 +6966,7 @@ print(tail)   # 5
 
 ### Augmented Assignment
 
-Augmented assignment operators (`+=``-=``*=`Etc.) are syntactic sugar, but they are not always
+Augmented assignment operators (`+=`, `-=`, `*=`. Etc.) are syntactic sugar, but they are not always
 Equivalent to the expanded form. The key difference is that `x += y` calls `__iadd__` if it exists,
 Which allows in-place modification:
 
@@ -6980,7 +6980,7 @@ a = a + [5]  # calls list.__add__, creates a new list
 print(a is b)  # False -- new object
 ```
 
-For immutable types (`int``str``tuple`), there is no `__iadd__`So `+=` is equivalent to `= +` -- it
+For immutable types (`int`, `str`, `tuple`), there is no `__iadd__`. So `+=` is equivalent to `= +` -- it
 always creates a new object.
 
 ### Scope: LEGB Rule
@@ -6990,7 +6990,7 @@ Python resolves names using the **LEGB rule**, searching namespaces in this orde
 1. **L**ocal -- the current function
 2. **E**nclosing -- enclosing functions (for nested functions)
 3. **G**lobal -- the module-level namespace
-4. **B**uilt-in -- the `builtins` module (`print``len``range`Etc.)
+4. **B**uilt-in -- the `builtins` module (`print`, `len`, `range`. Etc.)
 
 ```python
 x = "global"
@@ -7428,7 +7428,7 @@ When you look up `d[key]`CPython performs these steps:
    step 5.
 5. If the hashes match, compare the actual keys with `key == dk_entries[idx].key`. If they match,
    return the value. If not, go to step 6.
-6. **Linear probing:** Check position `i+1``i+2`Etc. (wrapping around) until finding `DKIX_EMPTY`
+6. **Linear probing:** Check position `i+1`, `i+2`. Etc. (wrapping around) until finding `DKIX_EMPTY`
    (not found) or a matching entry.
 
 ```python
@@ -7454,7 +7454,7 @@ for i in range(20):
 
 The hash table maintains two thresholds:
 
-- **2/3 full.** When `dk_nentries / dk_size > 2/3`The table is resized. A new table of 2x or 4x the
+- **2/3 full.** When `dk_nentries / dk_size > 2/3`. The table is resized. A new table of 2x or 4x the
   size is allocated, and all entries are reinserted. This is expensive (O(n)) but occurs
   infrequently due to geometric growth.
 - **1/12 used.** When the table is mostly empty after deletions, it is shrunk to reduce memory
@@ -7479,7 +7479,7 @@ Mitigate this.
 
 ### Dict Views
 
-The `.keys()``.values()`And `.items()` methods return **view objects** -- lightweight wrappers That
+The `.keys()`, `.values()` and `.items()` methods return **view objects** -- lightweight wrappers That
 reflect the current state of the dictionary without copying data.
 
 ```python
@@ -7713,7 +7713,7 @@ nested["user1"]["page_views"] = 42
 nested["user1"]["clicks"] = 7
 ```
 
-The default factory is called with **no arguments**, so `list``int``set`And `dict` all work
+The default factory is called with **no arguments**, so `list`, `int`, `set` and `dict` all work
 Directly. For custom defaults, use a lambda or a named function.
 :::
 
@@ -8247,7 +8247,7 @@ for i in range(100):
 Before Python 3.6, dicts stored entries in a single sparse array. This wasted memory because most
 Slots were empty. The compact dict design splits the structure into:
 
-- An **indices array**, a sparse array of `int8``int16``int32`Or `int64` indices (sized based on
+- An **indices array**, a sparse array of `int8`, `int16`, `int32` or `int64` indices (sized based on
   table size).
 - A **dense entries array**, a compact array of `(hash, key, value)` triples.
 
@@ -8517,7 +8517,7 @@ ChainMap is ideal for layered configuration systems: defaults, environment varia
 per-request overrides.
 
 :::caution
-Layer, access it via `config.maps[0]``config.maps[1]`Etc.
+Layer, access it via `config.maps[0]`, `config.maps[1]`. Etc.
 :::
 
 ```python
@@ -8640,8 +8640,8 @@ print(d["CONTENT-TYPE"])  # application/json
 print(list(d.keys()))      # ["Content-Type']
 ```
 
-By inheriting from `MutableMapping`We get `get``keys``values``items``pop``clear`
-`update``setdefault`And `__contains__` for free.
+By inheriting from `MutableMapping`. We get `get`, `keys`, `values`, `items`, `pop`, `clear`
+`update`, `setdefault` and `__contains__` for free.
 
 ## UserDict, UserList, UserString
 
@@ -8976,7 +8976,7 @@ print(a)  # {1, 2, 3}
 print(c)  # {2, 3}
 ```
 
-Use the augmented assignment operators (`|=``&=``-=``^=`) for in-place modifications to avoid
+Use the augmented assignment operators (`|=`, `&=`, `-=`, `^=`) for in-place modifications to avoid
 Unnecessary allocations.
 
 ### 7. Defaultdict Can Hide Bugs
@@ -9316,7 +9316,7 @@ class Temperature:
 ```
 
 Under the hood, `@property` creates a **descriptor** (discussed later) that intercepts attribute
-Access on the class. The property object has `fget``fset`And `fdel` attributes corresponding to The
+Access on the class. The property object has `fget`, `fset` and `fdel` attributes corresponding to The
 getter, setter, and deleter functions.
 
 ```python
@@ -9545,7 +9545,7 @@ This ordering ensures that mixin methods can override or wrap the primary class'
 :::
 
 :::danger
-Class does not account for cooperative initialization. If you use mixins with `__init__`Every Class
+Class does not account for cooperative initialization. If you use mixins with `__init__`. Every Class
 in the hierarchy must use `super().__init__()` and accept `*args, **kwargs` to pass through
 Arguments it does not need.
 
@@ -9630,7 +9630,7 @@ class Closeable(ABC):
 ```
 
 With this hook, any class that defines a `close` method is considered a virtual subclass of
-`Closeable`Even without inheriting from it. This enables structural typing alongside the nominal
+`Closeable`. Even without inheriting from it. This enables structural typing alongside the nominal
 Typing of traditional inheritance.
 
 ## Dunder Methods
@@ -9681,7 +9681,7 @@ Fallback.
 
 :::danger
 And unusable in sets or as dict keys. If you need hashability, you must define `__hash__`
-Explicitly. The invariant is: if `a == b`Then `hash(a) == hash(b)`. Violating this causes silent
+Explicitly. The invariant is: if `a == b`. Then `hash(a) == hash(b)`. Violating this causes silent
 Data corruption in sets and dicts.
 
 ### Container Protocol
@@ -9725,7 +9725,7 @@ print(triple(5))  # 15
 ```
 
 `__call__` makes instances behave like functions. This pattern is used extensively:
-`functools.partial``threading.Thread` (which calls the target function), and many decorator
+`functools.partial`, `threading.Thread` (which calls the target function), and many decorator
 Implementations rely on `__call__`.
 
 ### Context Managers
@@ -9754,12 +9754,12 @@ with Timer("query"):
 
 `__enter__` is called when the `with` block is entered. Its return value is bound to the variable
 after `as`. `__exit__` is called when the block exits, whether normally or via exception. If
-`__exit__` returns `True`The exception is suppressed. The `contextlib` module provides
+`__exit__` returns `True`. The exception is suppressed. The `contextlib` module provides
 `@contextmanager` for simpler cases where a function-based approach is cleaner.
 
 ## Dataclasses
 
-The `@dataclass` decorator (Python 3.7+) automates the generation of `__init__``__repr__`And
+The `@dataclass` decorator (Python 3.7+) automates the generation of `__init__`, `__repr__` and
 `__eq__` based on class-level type annotations. It eliminates boilerplate for classes that are
 Primarily containers for data.
 
@@ -9894,7 +9894,7 @@ g.age = 20
 ## Descriptors
 
 Descriptors are the underlying mechanism that makes properties, class methods, static methods, and
-`super()` work. A descriptor is any object that implements at least one of `__get__``__set__`Or
+`super()` work. A descriptor is any object that implements at least one of `__get__`, `__set__` or
 `__delete__`.
 
 - **Data descriptor:** defines `__get__` and at least one of `__set__` or `__delete__`. Data
@@ -9984,7 +9984,7 @@ When you write `obj.method()`Python:
 
 1. Looks up `method` on `type(obj)`.
 2. Finds a function (a non-data descriptor).
-3. Calls `function.__get__(obj, type(obj))`Which returns a bound method.
+3. Calls `function.__get__(obj, type(obj))`. Which returns a bound method.
 4. Calls the bound method with the arguments you provided.
 
 This is the complete explanation for why `self` is necessary: the descriptor protocol supplies the
@@ -10019,7 +10019,7 @@ class Property:
         return self
 ```
 
-Because `property` defines `__set__`It is a data descriptor and takes priority over instance
+Because `property` defines `__set__`. It is a data descriptor and takes priority over instance
 `__dict__`. This is why you cannot bypass a property setter by assigning directly to an instance
 Attribute -- the descriptor intercepts the assignment.
 
@@ -10144,9 +10144,9 @@ URL: https://python.wyattau.com/04-object-oriented/03-descriptors/
 
 ## Descriptor Protocol
 
-Descriptors are the mechanism behind `property``classmethod``staticmethod`And the entire Attribute
+Descriptors are the mechanism behind `property`, `classmethod`, `staticmethod` and the entire Attribute
 access system in Python. A descriptor is any object that implements at least one of
-`__get__``__set__`Or `__delete__`.
+`__get__`, `__set__` or `__delete__`.
 
 ### Data vs Non-Data Descriptors
 
@@ -10476,7 +10476,7 @@ have many instances.
 
 ### **slots** Rules
 
-1. **All parent classes must also use `__slots__`**. If a parent has `__dict__`The child will too,
+1. **All parent classes must also use `__slots__`**. If a parent has `__dict__`. The child will too,
    negating the benefit.
 2. **`__slots__` is inherited**. A child class gets the parent's slots plus its own.
 3. **You cannot add attributes not in `__slots__`**. This is the whole point.
@@ -10630,7 +10630,7 @@ print(dir(client))  # Shows only public attributes and methods
 ### functools.total_ordering
 
 `@total_ordering` fills in the remaining comparison methods when you define `__eq__` and one of
-`__lt__``__le__``__gt__`Or `__ge__`:
+`__lt__`, `__le__`, `__gt__` or `__ge__`:
 
 ```python
 from functools import total_ordering
@@ -11108,7 +11108,7 @@ The full sequence when Python encounters `class Foo(Base, metaclass=Meta):` is:
    namespace mapping (by default, an empty `dict`). This namespace is where all assignments and
    function definitions in the class body will be stored.
 4. The class body is executed as a code block, using the namespace from step 3 as the local
-   namespace. Every `def`Every assignment, every expression at the top level of the class body runs
+   namespace. Every `def`. Every assignment, every expression at the top level of the class body runs
    right now.
 5. The resulting namespace dict, along with the class name and base classes, is passed to the
    metaclass's `__new__` and `__init__` methods to construct and initialize the class object.
@@ -11270,7 +11270,7 @@ whether the class defines the required abstract methods.
 
 `__prepare__` is called before the class body is executed. It receives the class name and base
 Classes and must return a mapping object that will serve as the namespace for the class body. The
-Default implementation returns a plain `dict`But you can return an `OrderedDict` (or any mapping) To
+Default implementation returns a plain `dict`. But you can return an `OrderedDict` (or any mapping) To
 control the order in which attributes are recorded.
 
 ```python
@@ -12024,7 +12024,7 @@ are coerced, how errors are surfaced,matters when your tool runs in production, 
 Windows terminals with broken encodings, or under `set -e` where non-zero exits kill the entire
 Script.
 
-This file covers the full spectrum: from raw `sys.argv` access through `argparse``click``typer`
+This file covers the full spectrum: from raw `sys.argv` access through `argparse`, `click`, `typer`
 Entry point configuration, layered config, and rich output. Every section explains not just _how_,
 But _why_ the mechanism exists and where it breaks.
 
@@ -12050,9 +12050,9 @@ if __name__ == "__main__":
 ```
 
 **Index 0 is always the script name.** This is the path as the OS resolved it,not necessarily how
-The user invoked it. If the user runs `python ./scripts/build.py``sys.argv[0]` is
-`./scripts/build.py`. If they run `python -m mypackage``sys.argv[0]` is the path to the resolved
-Module file. If the interpreter is invoked with `-c``sys.argv[0]` is `'-c'`.
+The user invoked it. If the user runs `python ./scripts/build.py`, `sys.argv[0]` is
+`./scripts/build.py`. If they run `python -m mypackage`, `sys.argv[0]` is the path to the resolved
+Module file. If the interpreter is invoked with `-c`, `sys.argv[0]` is `'-c'`.
 
 **Why `sys.argv` still matters even when you use argparse/click/typer:** Every higher-level parser
 Consumes `sys.argv[1:]` (or a slice you provide). Understanding the raw list is essential for
@@ -12061,7 +12061,7 @@ Expansion, or a wrapper script that injects extra positional arguments.
 
 **Limitations:**
 
-- No type coercion. Everything is a string. `sys.argv[1]` is `"42"`Not `42`.
+- No type coercion. Everything is a string. `sys.argv[1]` is `"42"`. Not `42`.
 - No help generation. You write it yourself or your users read source.
 - No flag handling. `-v` and `--verbose` are just positional strings you must manually detect.
 - No validation. Bounds checking, enum membership, file existence,all manual.
@@ -12102,7 +12102,7 @@ Key constructor parameters:
 - `parents`: accepts a list of `ArgumentParser` instances whose arguments are copied in,useful for
   shared argument sets across subcommands.
 - `argument_default`: sets a global default for all arguments that don't specify their own.
-- `exit_on_error`: (3.9+) if `False``parse_args()` raises `ArgumentError` instead of calling
+- `exit_on_error`: (3.9+) if `False`, `parse_args()` raises `ArgumentError` instead of calling
   `sys.exit()`. Essential for library code that parses args without terminating the process.
 - `fromfile_prefix_chars`: e.g. `@` allows `@args.txt` to read arguments from a file. Useful for
   circumventing shell argument length limits.
@@ -12149,7 +12149,7 @@ parser.add_argument("--log-level", choices=["DEBUG", "INFO", "WARNING", "ERROR"]
 ```
 
 `type` accepts any callable that takes a string and returns a value. This means you can pass
-`pathlib.Path``int`A custom enum constructor, or a validation function:
+`pathlib.Path`, `int`A custom enum constructor, or a validation function:
 
 ```python
 def positive_int(value: str) -> int:
@@ -12161,7 +12161,7 @@ def positive_int(value: str) -> int:
 parser.add_argument("--workers", type=positive_int, default=4)
 ```
 
-`choices` does a membership check after type coercion. If `type=int` and `choices=[1, 2, 4]`The
+`choices` does a membership check after type coercion. If `type=int` and `choices=[1, 2, 4]`. The
 String `"1"` is coerced to `1` and then checked against the list. If the value fails coercion, the
 Type error fires first.
 
@@ -12198,7 +12198,7 @@ group.add_argument("--delete", action="store_true", help="Delete the resource")
 group.add_argument("--update", action="store_true", help="Update the resource")
 ```
 
-Exactly one of `--create``--delete`Or `--update` must be provided. If none or more than one is
+Exactly one of `--create`, `--delete` or `--update` must be provided. If none or more than one is
 given, argparse exits with an error message.
 
 ### Subparsers
@@ -12368,7 +12368,7 @@ Critical for CI pipelines where ANSI escape codes corrupt log files.
 ### Why click is more ergonomic than argparse
 
 1. **No boilerplate.** The function signature IS the CLI spec. In argparse, you define the parser,
-   add arguments, parse, then manually unpack `args.x``args.y``args.z` into local variables or pass
+   add arguments, parse, then manually unpack `args.x`, `args.y`, `args.z` into local variables or pass
    the namespace object around.
 2. **Composable.** Groups and commands are separate functions that can be defined in different
    modules and registered at import time. Argparse subparsers require all definitions in one place
@@ -12564,7 +12564,7 @@ if __name__ == "__main__":
 
 **Why `python -m` matters:** It ensures the package is on `sys.path` correctly. Running
 `python path/to/mypackage/__main__.py` directly may fail because the parent directory is not on
-`sys.path`So sibling packages cannot be imported. `python -m` resolves this by adding the current
+`sys.path`. So sibling packages cannot be imported. `python -m` resolves this by adding the current
 Directory (or the appropriate search path) to `sys.path` and then locating the package.
 
 ### The `if __name__ == "__main__":` Pattern
@@ -12691,7 +12691,7 @@ experimental = ["graphql", "websockets"]
 ```
 
 `tomllib` is read-only (it parses TOML). For writing TOML, use `tomli_w` or similar third-party
-Libraries. For Python < 3.11, use `tomli` (API-compatible backport: `pip install tomli`Then
+Libraries. For Python < 3.11, use `tomli` (API-compatible backport: `pip install tomli`. Then
 `import tomli as tomllib`).
 
 ### JSON
@@ -12719,7 +12719,7 @@ with open("config.yaml") as f:
 ```
 
 YAML supports comments, multi-line strings, anchors/aliases, and has a flexible syntax. **Always use
-`yaml.safe_load()`Never `yaml.load()`.** `yaml.load()` can execute arbitrary Python code via
+`yaml.safe_load()`. Never `yaml.load()`.** `yaml.load()` can execute arbitrary Python code via
 `!!python/object/apply:` tags. This is a well-known remote code execution vector.
 
 YAML's flexibility is also its danger. The spec is large and ambiguous. Different YAML parsers
@@ -13073,7 +13073,7 @@ parser.add_argument("--verbose", action="store_true")
 parser.add_argument("--verbose", action="store_false")  # CONFLICT: same dest, different action
 ```
 
-This does not work as expected. Both flags write to `args.verbose`But one sets it `True` and the
+This does not work as expected. Both flags write to `args.verbose`. But one sets it `True` and the
 other `False`. The last one to appear on the command line wins, which is confusing.
 
 The fix in argparse 3.9+:
@@ -13130,7 +13130,7 @@ Type annotations in typer earn their value,they reject bad input before your fun
 
 ### Assuming stdout Is a Terminal
 
-In CI pipelines, `docker run``cron` jobs, and IDE terminals, stdout may not be a TTY. Progress Bars
+In CI pipelines, `docker run`, `cron` jobs, and IDE terminals, stdout may not be a TTY. Progress Bars
 that write ANSI escape codes to a non-TTY produce garbled output in log files. Both click and Rich
 detect `isatty()` and degrade gracefully, but custom escape code output must check explicitly:
 
@@ -13505,7 +13505,7 @@ if __name__ == "__main__":
 ```
 
 :::caution
-Parent process memory (copy-on-write). On Windows, it uses `spawn()`Which re-imports the module.
+Parent process memory (copy-on-write). On Windows, it uses `spawn()`. Which re-imports the module.
 Always protect entry points with `if __name__ == "__main__"` to avoid infinite recursion on Windows.
 :::
 
@@ -14220,9 +14220,9 @@ The argument for `pathlib` is not aesthetic preference. It is about **composabil
    type (`PosixPath` or `WindowsPath`) whose semantics are visible in the type.
 
 3. **Uniform access to filesystem operations.** `os.path` only handles path manipulation. Actual I/O
-   (reading, writing, stat, mkdir, glob) requires importing `os``shutil``glob``stat`And others.
-   `Path` objects carry methods for all of these: `.read_text()``.write_text()`
-   `.stat()``.mkdir()``.glob()``.rename()``.unlink()`.
+   (reading, writing, stat, mkdir, glob) requires importing `os`, `shutil`, `glob`, `stat` and others.
+   `Path` objects carry methods for all of these: `.read_text()`, `.write_text()`
+   `.stat()`, `.mkdir()`, `.glob()`, `.rename()`, `.unlink()`.
 
 4. **Cross-platform correctness.** `os.path` relies on the host operating system to determine
    separator behavior. `pathlib` exposes `PurePosixPath` and `PureWindowsPath` for explicit control
@@ -14250,10 +14250,10 @@ print(config_file.stem)           # 'settings'
 `pathlib` does not cover everything in the `os` module. The following still require `os` directly:
 
 - `os.environ`: environment variables (`pathlib` has no equivalent).
-- `os.chdir()``os.getcwd()`: changing and querying the current working directory.
+- `os.chdir()`, `os.getcwd()`: changing and querying the current working directory.
 - `os.walk()`: recursive directory traversal (though `Path.rglob()` covers most use cases).
-- `os.umask()``os.getuid()``os.setsid()`: low-level process and permission operations.
-- `os.path.expandvars()``os.path.expanduser()`: shell variable expansion (note: `Path` does expand
+- `os.umask()`, `os.getuid()`, `os.setsid()`: low-level process and permission operations.
+- `os.path.expandvars()`, `os.path.expanduser()`: shell variable expansion (note: `Path` does expand
   `~` in constructors but not `$VAR`).
 
 ```python
@@ -14369,7 +14369,7 @@ This is occasionally useful for reloading modules during development or for test
 
 ### `sys.exit()`
 
-`sys.exit()` raises `SystemExit`Which the interpreter catches at the top level to terminate the
+`sys.exit()` raises `SystemExit`. Which the interpreter catches at the top level to terminate the
 Process with the given exit code. Because it is an exception, it can be caught and handled --
 `finally` blocks and context managers still execute.
 
@@ -14408,7 +14408,7 @@ is `json.loads()` (from string) and `json.load()` (from file object).
 ### Custom Encoders and Decoders
 
 The `default` parameter of `json.dumps()` is a function called for objects that are not natively
-Serializable (i.e., not `dict``list``str``int``float``bool`Or `None`).
+Serializable (i.e., not `dict`, `list`, `str`, `int`, `float`, `bool` or `None`).
 
 ```python
 from datetime import datetime, date
@@ -14499,7 +14499,7 @@ print(match.groups())  # ('alice', 'example', 'com')
 ```
 
 Always use raw strings (`r'...'`) for regex patterns. Without the raw prefix, `\b` is interpreted as
-A backspace character, and `\d``\w``\s` are interpreted as escape sequences (some of which are Valid
+A backspace character, and `\d`, `\w`, `\s` are interpreted as escape sequences (some of which are Valid
 in Python strings, producing the wrong character in the regex).
 
 ### Named Groups and Non-Capturing Groups
@@ -14542,7 +14542,7 @@ re.findall(r'^\w+', text, re.MULTILINE | re.IGNORECASE)
 
 :::danger
 Unicode case folding is complex. If you are matching ASCII-only identifiers, use `re.ASCII` (or
-`re.A`) alongside `re.IGNORECASE` to constrain `\w``\b``\d`And `\s` to ASCII ranges.
+`re.A`) alongside `re.IGNORECASE` to constrain `\w`, `\b`, `\d` and `\s` to ASCII ranges.
 
 ### `re.sub()` with a Callable
 
@@ -14579,7 +14579,7 @@ print(cube(3))    # 27
 ```
 
 `partial` is particularly useful for adapting function signatures to fit APIs that expect a specific
-Callable form, such as `map``sorted`Or callback interfaces.
+Callable form, such as `map`, `sorted` or callback interfaces.
 
 ```python
 from functools import partial
@@ -14661,8 +14661,8 @@ the dispatch key.
 
 ### `functools.wraps`
 
-`wraps` is a decorator factory that copies metadata (`__name__``__doc__``__module__`
-`__annotations__``__dict__`) from the wrapped function to the wrapper function. Without it, every
+`wraps` is a decorator factory that copies metadata (`__name__`, `__doc__`, `__module__`
+`__annotations__`, `__dict__`) from the wrapped function to the wrapper function. Without it, every
 Decorated function appears as `wrapper` in tracebacks, `help()`And `sphinx` documentation.
 
 ```python
@@ -14705,7 +14705,7 @@ list(chain([1, 2], [3, 4], [5]))  # [1, 2, 3, 4, 5]
 list(chain.from_iterable([[1, 2], [3, 4], [5]]))  # [1, 2, 3, 4, 5]
 ```
 
-### `product``permutations``combinations`
+### `product`, `permutations`, `combinations`
 
 These functions generate elements from the Cartesian product and combinatorial selections of input
 Iterables.
@@ -14750,7 +14750,7 @@ for key, group in groupby(data, key=lambda x: x[1]):
 The groups are iterators that are consumed as you iterate over them. If you need to revisit a group,
 Convert it to a list first.
 
-### `islice``filterfalse``accumulate`
+### `islice`, `filterfalse`, `accumulate`
 
 ```python
 from itertools import islice, filterfalse, accumulate
@@ -14852,7 +14852,7 @@ class FileHandle:
 print(isinstance(FileHandle(), Closeable))  # True
 ```
 
-### `TypeAlias``ParamSpec`And `Concatenate`
+### `TypeAlias`, `ParamSpec` and `Concatenate`
 
 ```python
 from typing import TypeAlias, ParamSpec, Concatenate, Callable
@@ -14965,7 +14965,7 @@ Use `slots=True` -- mixing slotted and non-slotted dataclasses in an inheritance
 ### Why `IntEnum` Over Raw Constants
 
 Raw integer constants have no type identity. If two modules define `STATUS_OK = 0` and
-`ERROR_NONE = 0`They are indistinguishable -- they are both `int` with value `0`. This causes Silent
+`ERROR_NONE = 0`. They are indistinguishable -- they are both `int` with value `0`. This causes Silent
 bugs in comparisons and makes debugging harder because log messages show bare integers.
 
 `IntEnum` members are both integers and enum members. They compare equal to their integer values
@@ -15034,7 +15034,7 @@ cannot control.
 
 The `logging` module solves all of these problems:
 
-1. **Severity levels** (`DEBUG``INFO``WARNING``ERROR``CRITICAL`) allow you to control verbosity
+1. **Severity levels** (`DEBUG`, `INFO`, `WARNING`, `ERROR`, `CRITICAL`) allow you to control verbosity
    without changing code.
 2. **Loggers are hierarchical.** A logger named `"myapp.db"` inherits configuration from `"myapp"`.
    Libraries use loggers named after their module (`__name__`), and the application configures them
@@ -15169,7 +15169,7 @@ logger.addHandler(logging.NullHandler())
 
 ## `datetime`: Dates and Times
 
-### `date``time``datetime``timedelta`
+### `date`, `time`, `datetime`, `timedelta`
 
 The `datetime` module provides four core types for temporal data. They are deliberately separate
 because not every temporal concept needs all components.
@@ -15290,7 +15290,7 @@ while current <= end:
 ```
 
 For more complex date arithmetic (business days, holidays, recurrence rules), the third-party
-`dateutil` library extends `datetime` with `relativedelta``rrule`And flexible parsing.
+`dateutil` library extends `datetime` with `relativedelta`, `rrule` and flexible parsing.
 
 ## Common Pitfalls
 
@@ -15435,7 +15435,7 @@ Encodings include:
   byte).
 - `utf-16`: 2 or 4 bytes per character. May include a BOM (Byte Order Mark: `U+FEFF`) at the start.
   Files without a BOM are ambiguous in byte order. Rarely used for general text files.
-- `utf-16-le``utf-16-be`: Explicit endianness variants of UTF-16 without BOM.
+- `utf-16-le`, `utf-16-be`: Explicit endianness variants of UTF-16 without BOM.
 - `latin-1` / `iso-8859-1`: Single-byte encoding covering the first 256 Unicode code points. Every
   byte in `latin-1` is valid, so decoding never fails -- but the decoded text may be garbage if the
   file is not actually Latin-1.
@@ -15459,7 +15459,7 @@ Controls how encoding/decoding errors are handled:
 
 The `surrogateescape` error handler is essential for handling filenames on Unix systems. Unix
 Filenames are arbitrary byte sequences (except `/` and `\0`), and they may not be valid UTF-8. When
-Python lists directory entries using `os.listdir()`It uses `surrogateescape` to decode the raw Bytes
+Python lists directory entries using `os.listdir()`. It uses `surrogateescape` to decode the raw Bytes
 into `str` objects. The resulting strings may contain surrogate code points, which are not Valid
 Unicode but can be round-tripped back to the original bytes by encoding with `surrogateescape`.
 
@@ -15498,7 +15498,7 @@ Parameters in Python's I/O system.
 By default (`newline=None`), Python performs **universal newline translation** on input and
 **platform-native newline writing** on output:
 
-- On read: `\n``\r\n`And `\r` are all translated to `\n`.
+- On read: `\n`, `\r\n` and `\r` are all translated to `\n`.
 - On write: `\n` is translated to the platform's line separator (`\n` on Unix, `\r\n` on Windows).
 
 | `newline` value     | Read behavior                          | Write behavior                              |
@@ -15520,7 +15520,7 @@ as-is. Use this when you need to preserve the exact byte content of newlines.
 ### The `closefd` Parameter
 
 When `closefd=True` (the default), closing the file object also closes the underlying file
-Descriptor. When `closefd=False`The file descriptor is not closed when the file object is closed.
+Descriptor. When `closefd=False`. The file descriptor is not closed when the file object is closed.
 This is only relevant when passing an existing file descriptor (integer) instead of a file path:
 
 ```python
@@ -15560,18 +15560,18 @@ finally:
 ```
 
 The `__enter__` method returns the file object itself (which is why `as f` gives you the same
-Object). The `__exit__` method calls `f.close()`Which flushes the write buffer and releases the File
+Object). The `__exit__` method calls `f.close()`. Which flushes the write buffer and releases the File
 descriptor back to the OS.
 
 ### Why You Must Always Use Context Managers for Files
 
-1. **Exception safety.** Without `with`Any exception between `open()` and `close()` leaks the file
+1. **Exception safety.** Without `with`. Any exception between `open()` and `close()` leaks the file
    descriptor. In a long-running process, leaked file descriptors accumulate until the process hits
    the OS limit ( 1024 or 65536 per process) and starts getting
    `OSError: [Errno 24] Too many open files`.
 
 2. **Buffer flushing.** `close()` flushes the write buffer. Without `close()`Data in the buffer may
-   never reach disk. The garbage collector will eventually call `close()`But the timing is
+   never reach disk. The garbage collector will eventually call `close()`. But the timing is
    nondeterministic -- it could be seconds or minutes later, and data could be lost if the process
    crashes.
 
@@ -15592,7 +15592,7 @@ The context manager protocol consists of two methods:
 - `__exit__(self, exc_type, exc_value, traceback)`: Called when the `with` block exits, whether
   normally or due to an exception. If an exception occurred, the three arguments are the exception
   type, value, and traceback. If no exception occurred, all three are `None`. If `__exit__` returns
-  `True`The exception is suppressed.
+  `True`. The exception is suppressed.
 
 For file objects, `__exit__` always calls `self.close()` and returns `None` (exceptions propagate).
 It does not suppress exceptions.
@@ -15661,7 +15661,7 @@ In binary mode:
 - Writing accepts `bytes` (or `bytearray`Or `memoryview`) objects. No encoding is performed.
 - No newline translation occurs. You get the raw bytes exactly as stored on disk.
 - `seek()` and `tell()` operate on byte positions. You can seek to any byte offset.
-- The `encoding``errors`And `newline` parameters are not accepted and will raise `ValueError`.
+- The `encoding`, `errors` and `newline` parameters are not accepted and will raise `ValueError`.
 
 ### When to Use Each
 
@@ -15877,7 +15877,7 @@ When you call `f.write("data")`:
 
 Understanding this two-level buffering is critical for:
 
-- **Data loss scenarios.** If the process crashes after `f.write()` but before `f.flush()`The data
+- **Data loss scenarios.** If the process crashes after `f.write()` but before `f.flush()`. The data
   is in Python's buffer and is lost. If the process crashes after `f.flush()` but before the OS
   writes to disk, the data is in the OS page cache and is also lost (unless the disk has a
   battery-backed write cache).
@@ -15892,7 +15892,7 @@ that performs I/O has a corresponding `open()`-based implementation under the ho
 
 ### `Path.open()`
 
-Equivalent to the built-in `open()`But the path is implicit:
+Equivalent to the built-in `open()`. But the path is implicit:
 
 ```python
 from pathlib import Path
@@ -15954,9 +15954,9 @@ Path("mydir/subdir").mkdir(parents=True, exist_ok=True)
 
 `parents=True` creates all intermediate directories (like `mkdir -p`). `exist_ok=True` suppresses
 `FileExistsError` if the directory already exists (but raises if the path exists as a file, not a
-Directory). Without `exist_ok=True``mkdir()` raises `FileExistsError` if the directory exists.
+Directory). Without `exist_ok=True`, `mkdir()` raises `FileExistsError` if the directory exists.
 
-### `Path.exists()``Path.is_file()``Path.is_dir()`
+### `Path.exists()`, `Path.is_file()`, `Path.is_dir()`
 
 ```python
 from pathlib import Path
@@ -16050,7 +16050,7 @@ Use cases:
   necessarily faster than list-join for all cases).
 - Providing a file-like interface to string data.
 
-`io.StringIO` only works with `str`. If you need to work with `bytes`Use `io.BytesIO`.
+`io.StringIO` only works with `str`. If you need to work with `bytes`. Use `io.BytesIO`.
 
 ### `io.BytesIO`
 
@@ -16093,10 +16093,10 @@ buffered = io.BufferedReader(raw, buffer_size=65536)
 data = buffered.read(1024)
 ```
 
-`BufferedReader` provides `read()``read1()` (unbuffered read of up to n bytes), `readinto()`
+`BufferedReader` provides `read()`, `read1()` (unbuffered read of up to n bytes), `readinto()`
 `peek()` (read without advancing the position), and `readline()`.
 
-`BufferedWriter` provides `write()``flush()`And internal buffer management.
+`BufferedWriter` provides `write()`, `flush()` and internal buffer management.
 
 ### `io.TextIOWrapper`
 
@@ -16112,7 +16112,7 @@ text = io.TextIOWrapper(buffered, encoding="utf-8", newline="\n")
 content = text.read()
 ```
 
-When you call `open("file.txt", "r", encoding="utf-8")`The returned object is an instance of
+When you call `open("file.txt", "r", encoding="utf-8")`. The returned object is an instance of
 `io.TextIOWrapper` that wraps a `io.BufferedReader` that wraps a `io.FileIO`.
 
 You can detach the underlying binary stream from a `TextIOWrapper` using `f.detach()`. This removes
@@ -16148,7 +16148,7 @@ Key parameters:
 - `suffix`: File extension. Useful for tools that inspect the extension.
 - `prefix`: Filename prefix for identification.
 - `dir`: Directory where the file is created. Defaults to the platform's temp directory.
-- `delete`: If `True` (default), the file is deleted when closed. If `False`The file persists.
+- `delete`: If `True` (default), the file is deleted when closed. If `False`. The file persists.
 
 **Critical limitation on Windows:** By default, `NamedTemporaryFile` opens the file with an
 Exclusive lock that prevents other processes from opening it. This means you cannot pass the
@@ -16411,7 +16411,7 @@ with open("file.txt", "w", encoding="utf-8") as f:
     f.write("café")
 ```
 
-On Windows, the default encoding is `cp1252`Which cannot encode characters outside the Latin-1 Range
+On Windows, the default encoding is `cp1252`. Which cannot encode characters outside the Latin-1 Range
 (e.g., CJK characters, emoji, many mathematical symbols). Writing such characters with the Default
 encoding raises `UnicodeEncodeError`. Always specify `encoding="utf-8"`.
 
@@ -16520,7 +16520,7 @@ print(n)  # 5, not "hello"
 
 ### Mixing Read and Write in `+` Mode
 
-In `r+``w+`And `a+` modes, the file supports both reading and writing. However, the read and Write
+In `r+`, `w+` and `a+` modes, the file supports both reading and writing. However, the read and Write
 pointers are shared. After writing, you must seek or flush before reading. After reading, you Must
 seek before writing (because the read position may be in the middle of the file, and writing at That
 position would overwrite data without moving the write pointer to the end).
@@ -16532,14 +16532,14 @@ with open("file.txt", "r+", encoding="utf-8") as f:
     f.write(content.upper())
 ```
 
-Without the `f.seek(0)`The write would occur at the end of the file (where the read pointer
+Without the `f.seek(0)`. The write would occur at the end of the file (where the read pointer
 Stopped), not at the beginning.
 
 ### Using `pathlib` Methods Without Error Handling
 
 `Path.read_text()` raises `FileNotFoundError` if the file does not exist, `PermissionError` if
 Access is denied, and `UnicodeDecodeError` if the file content is not valid in the specified
-Encoding. These are the same errors as `open()`But the one-liner syntax makes it tempting to skip
+Encoding. These are the same errors as `open()`. But the one-liner syntax makes it tempting to skip
 Error handling:
 
 ```python
@@ -16782,7 +16782,7 @@ print(type(data["created"]))  # <class 'datetime.datetime'>
 ```
 
 :::note
-`int``float``bool`And `None`. Everything else requires custom encoding.
+`int`, `float`, `bool` and `None`. Everything else requires custom encoding.
 :::
 
 ### JSON Performance
@@ -18088,7 +18088,7 @@ for n, factors in results.items():
 `concurrent.futures` is almost always preferable to raw thread/process management because:
 
 - It manages the pool lifecycle (creation, reuse, cleanup).
-- It provides `Future` objects with `.result()``.exception()``.cancel()`And `.add_done_callback()`.
+- It provides `Future` objects with `.result()`, `.exception()`, `.cancel()` and `.add_done_callback()`.
 - It integrates with `as_completed()` for processing results as they arrive.
 - The context manager (`with` statement) ensures clean shutdown.
 
@@ -18224,8 +18224,8 @@ async def main():
 asyncio.run(main())
 ```
 
-Without `create_task()`You would have to `await countdown("A", 3)` and then
-`await countdown("B", 3)`Which would run them sequentially. `create_task()` enables concurrent
+Without `create_task()`. You would have to `await countdown("A", 3)` and then
+`await countdown("B", 3)`. Which would run them sequentially. `create_task()` enables concurrent
 Execution.
 
 ### `asyncio.gather()`
@@ -18521,7 +18521,7 @@ flowchart TD
 
 1. **Start with `asyncio`** if your workload is primarily I/O-bound (HTTP requests, database
    queries, WebSocket connections). It scales to thousands of concurrent operations with minimal
-   memory overhead. The `aiohttp``asyncpg``aioredis`And `httpx` libraries provide async interfaces
+   memory overhead. The `aiohttp`, `asyncpg`, `aioredis` and `httpx` libraries provide async interfaces
    for most common I/O operations.
 
 2. **Use `threading`** when you need to call blocking synchronous code from an async program (via
@@ -18749,7 +18749,7 @@ def compute():
 ```
 
 `breakpoint()` is not syntax, it is a built-in function that calls `sys.breakpointhook()`. By
-Default, `sys.breakpointhook` is set to `pdb.set_trace()`But the crucial difference is that it is
+Default, `sys.breakpointhook` is set to `pdb.set_trace()`. But the crucial difference is that it is
 _configurable_. You can set `PYTHONBREAKPOINT=0` in the environment to make all `breakpoint()` calls
 no-ops in production. You can set `PYTHONBREAKPOINT=ipdb.set_trace` to redirect all breakpoints to
 `ipdb` without changing a single line of code. This is a systems-level concern: your instrumentation
@@ -18826,7 +18826,7 @@ Time line 42 is reached. If the condition is false, execution continues without 
 Why does this matter? Consider a loop processing 10 million records. You know the bug manifests when
 A record's `status` field is `'FAILED'` and its `retry_count` exceeds 3. Without a conditional
 Breakpoint, you would have to hit `c` thousands of times. With
-`b 87, status == 'FAILED' and retry_count > 3`You stop exactly where the bug manifests.
+`b 87, status == 'FAILED' and retry_count > 3`. You stop exactly where the bug manifests.
 
 ### Temporary Breakpoints
 
@@ -18865,7 +18865,7 @@ Automatically every time the breakpoint is hit:
 > end
 ```
 
-This attaches three commands to breakpoint 1: print `request_data`Print `response_status`Then
+This attaches three commands to breakpoint 1: print `request_data`Print `response_status`. Then
 Continue. The `end` keyword terminates the command list. This is a crude but effective form of
 Watchpoint. You can automate data collection during long runs without manually interacting with the
 Debugger.
@@ -18953,9 +18953,9 @@ Key fields and their semantics:
 - `program`: The script to run. `${file}` expands to the currently active file.
 - `console`: `"integratedTerminal"` runs in the VS Code terminal. `"internalConsole"` runs in the
   debug console (no stdin support).
-- `justMyCode`: When `true`The debugger skips library code. Under the hood, this sets
+- `justMyCode`: When `true`. The debugger skips library code. Under the hood, this sets
   `step_over_pylib` in the debug adapter, which filters frames based on whether they belong to
-  site-packages or the standard library. When `false`You step into everything.
+  site-packages or the standard library. When `false`. You step into everything.
 
 Watch expressions in VS Code are evaluated in the current frame's context on every pause. They are
 not free, each watch expression requires the debug adapter to serialize the result back to the IDE
@@ -19020,7 +19020,7 @@ On your local machine, configure VS Code to attach:
 The `pathMappings` field is critical. The remote process has its own filesystem paths. The local IDE
 has different paths. `pathMappings` tells the debug adapter how to translate between them. If you
 Set a breakpoint in `/home/user/project/main.py` locally but the remote process loaded
-`/app/main.py`The path mapping ensures the breakpoint lands in the right place.
+`/app/main.py`. The path mapping ensures the breakpoint lands in the right place.
 
 ### Attaching to a Running Process
 
@@ -19131,7 +19131,7 @@ Handlers determine where log messages go. The standard library provides:
 - `StreamHandler`: Writes to a stream (defaults to `sys.stderr`).
 - `FileHandler`: Writes to a file. Opens the file in append mode.
 - `RotatingFileHandler`: Writes to a file with rotation. When the file reaches a specified size, it
-  is rotated (renamed with a `.1``.2`Etc. Suffix) and a new file is created.
+  is rotated (renamed with a `.1`, `.2`. Etc. Suffix) and a new file is created.
 - `TimedRotatingFileHandler`: Rotates based on time intervals (hourly, daily, weekly).
 
 ```python
@@ -19286,7 +19286,7 @@ ValueError: invalid literal for int() with base 10: "not a number''
 ```
 
 If you use bare `raise` inside an `except` block, Python sets `__context__` automatically (implicit
-Chaining). If you use `raise ... from None`You suppress the chain entirely:
+Chaining). If you use `raise ... from None`. You suppress the chain entirely:
 
 ```python
 try:
@@ -19299,7 +19299,7 @@ This produces a clean traceback with no mention of the original `ValueError`. Us
 the original exception is an implementation detail that would confuse the user or operator.
 
 The `__cause__` and `__context__` attributes are set by the interpreter. `__suppress_context__` is
-Set to `True` when you use `from e` or `from None`Which tells the traceback formatter to prefer
+Set to `True` when you use `from e` or `from None`. Which tells the traceback formatter to prefer
 `__cause__` over `__context__`. You almost never need to manipulate these attributes directly, the
 `raise ... from` syntax handles everything.
 
@@ -19354,7 +19354,7 @@ The programmatic API gives you fine-grained control:
 
 ### What cProfile Actually Measures
 
-CProfile uses `sys.setprofile()`Not `sys.settrace()`. `setprofile` fires on function call and Return
+CProfile uses `sys.setprofile()`. Not `sys.settrace()`. `setprofile` fires on function call and Return
 events only (not on every line). On each call, cProfile records a timestamp. On each return, It
 computes the elapsed time. This means:
 
@@ -19616,7 +19616,7 @@ Internal data structures to reconstruct the call stack.
 
 ### Why py-spy Exists
 
-`cProfile``line_profiler`And `memory_profiler` all require you to modify your code (adding
+`cProfile`, `line_profiler` and `memory_profiler` all require you to modify your code (adding
 Decorators, importing modules) or run your program under a wrapper (`python -m cProfile`). This is
 Unacceptable for profiling production services because:
 
@@ -19666,7 +19666,7 @@ Bars at the bottom, those are the functions where most CPU time is spent.
    bytecode.
 
 This is why py-spy requires no instrumentation. It is an external observer reading internal data
-Structures. The overhead is limited to the cost of reading `/proc/<pid>/mem`Which is a kernel
+Structures. The overhead is limited to the cost of reading `/proc/<pid>/mem`. Which is a kernel
 Operation that does not disturb the target process.
 
 ### Limitations
@@ -19736,8 +19736,8 @@ The list comprehension `[x * 2 for x in range(10000000)]` allocates a list with 
 (approximately 80 MiB on 64-bit CPython). The generator expression
 `(x * 2 for x in range(10000000))` produces one value at a time, using O(1) memory.
 
-This applies to any function that accepts an iterable: `any()``all()``max()``min()`
-`sorted()``list()``tuple()``set()``dict()`. All of these can consume generators. Only pass a List
+This applies to any function that accepts an iterable: `any()`, `all()`, `max()`, `min()`
+`sorted()`, `list()`, `tuple()`, `set()`, `dict()`. All of these can consume generators. Only pass a List
 when you need random access or multiple iterations over the same data.
 
 ### Global Variable Lookups
@@ -19763,7 +19763,7 @@ def compute(values):
 
 In CPython, local variable access uses the `LOAD_FAST` bytecode instruction, which indexes directly
 into the frame's `fastlocals` array. This is an array lookup, O(1) with very low constant factor.
-Global variable access uses `LOAD_GLOBAL`Which performs a dictionary lookup in the module's
+Global variable access uses `LOAD_GLOBAL`. Which performs a dictionary lookup in the module's
 `__dict__`. Dictionary lookup involves hash computation, comparison, and potential collision
 Resolution. For a hot loop, the difference is measurable.
 
@@ -19838,16 +19838,16 @@ class Point:
         self.y = y
 ```
 
-Without `__slots__`Each instance has a `__dict__` (a Python dictionary) that stores its Attributes.
+Without `__slots__`. Each instance has a `__dict__` (a Python dictionary) that stores its Attributes.
 A `__dict__` has significant overhead: the dict object itself, the hash table, the hash Array. For
 objects with a small, fixed set of attributes, this overhead can exceed the data stored.
 
 With `__slots__`Python allocates a fixed-size descriptor array for the declared attributes. There Is
-no `__dict__`No hash table, no dynamic attribute creation. Each instance is smaller and Attribute
+no `__dict__`. No hash table, no dynamic attribute creation. Each instance is smaller and Attribute
 access is faster (descriptor lookup vs dictionary lookup).
 
 The memory savings are significant at scale. An instance with `__slots__` uses approximately 48
-Bytes on 64-bit CPython. Without `__slots__`The same instance uses approximately 200+ bytes
+Bytes on 64-bit CPython. Without `__slots__`. The same instance uses approximately 200+ bytes
 (depending on the number of attributes). If you are creating millions of instances, the difference
 is hundreds of megabytes.
 
@@ -21075,7 +21075,7 @@ branch = true
 ```
 
 :::note
-Scattered across `setup.py``setup.cfg`And `setup.cfg`/`pyproject.toml`. The new standard
+Scattered across `setup.py`, `setup.cfg` and `setup.cfg`/`pyproject.toml`. The new standard
 Consolidates everything into one file.
 :::
 
@@ -22072,7 +22072,7 @@ The distinction between `_private` and `__mangled` is worth understanding precis
 Leading underscore is a convention that signals "this is an implementation detail, don't use it from
 outside the class." It is not enforced by the interpreter -- any code can access `_private`
 Attributes freely. A double leading underscore triggers name mangling: the interpreter rewrites
-`__name` to `_ClassName__name`Which makes it harder (but not impossible) to accidentally access From
+`__name` to `_ClassName__name`. Which makes it harder (but not impossible) to accidentally access From
 subclasses.
 
 ### Line Length and Formatting
@@ -22273,7 +22273,7 @@ to `typeshed`.
 
 A virtual environment is an isolated Python installation directory that contains its own interpreter
 Executable and its own `site-packages` directory. Without virtual environments, every project on a
-System shares the same global `site-packages`Which means installing a package for one project can
+System shares the same global `site-packages`. Which means installing a package for one project can
 Break another project that depends on a different version of the same package.
 
 ```bash
@@ -22342,7 +22342,7 @@ Requirements. It provides no mechanism for managing development vs production de
 
 PEP 517 and PEP 621 established `pyproject.toml` as the single source of truth for project metadata,
 Build configuration, dependency specification, and tool configuration. It replaces the fragmented
-Ecosystem of `setup.py``setup.cfg``requirements.txt``tox.ini``.flake8``.mypy.ini`And `.isort.cfg`
+Ecosystem of `setup.py`, `setup.cfg`, `requirements.txt`, `tox.ini`, `.flake8`, `.mypy.ini` and `.isort.cfg`
 with one file.
 
 ```toml
@@ -22405,15 +22405,15 @@ addopts = "-v --tb=short"
 
 `setup.py` has several fundamental problems:
 
-1. **Execution at import time.** `setup.py` is executed by running `python setup.py`Which means
+1. **Execution at import time.** `setup.py` is executed by running `python setup.py`. Which means
    arbitrary code runs during package inspection. This makes it impossible to safely determine a
    package's metadata without executing potentially malicious code. PEP 517 solved this by defining
    a standard interface where the build frontend tells the build backend what to do via subprocess
    calls, rather than executing the project's code directly.
 
 2. **Scattered configuration.** Before `pyproject.toml`Project metadata lived in `setup.py` or
-   `setup.cfg`Tool configuration lived in `.flake8``.mypy.ini``.isort.cfg``tox.ini`
-   `pytest.ini``MANIFEST.in`And `pyproject.toml` (for build system). A single project could have ten
+   `setup.cfg`Tool configuration lived in `.flake8`, `.mypy.ini`, `.isort.cfg`, `tox.ini`
+   `pytest.ini`, `MANIFEST.in` and `pyproject.toml` (for build system). A single project could have ten
    or more configuration files. `pyproject.toml` consolidates all tool configuration under
    `[tool.*]` sections.
 
@@ -22476,9 +22476,9 @@ Installed version. If you have `requests` installed globally and also have a fil
 Extremely confusing import errors, especially when the shadowing only happens during testing
 (because test runners often add the project root to `sys.path`).
 
-The `src` layout prevents this entirely. The project root is on `sys.path`But there is no
+The `src` layout prevents this entirely. The project root is on `sys.path`. But there is no
 `myproject/` directory at the root -- it is nested inside `src/`. The only way to import `myproject`
-Is through the installed package entry in `site-packages`Which points to `src/myproject/` via a
+Is through the installed package entry in `site-packages`. Which points to `src/myproject/` via a
 `.pth` file or symlink. This guarantees that imports are always resolved through the installed
 Package, exactly as they would be in production.
 
@@ -22528,7 +22528,7 @@ myproject/
 ### Why pytest Over unittest
 
 The standard library `unittest` framework uses class-based test organization with verbose assertion
-Methods (`self.assertEqual``self.assertTrue``self.assertRaises`). `pytest` uses plain functions With
+Methods (`self.assertEqual`, `self.assertTrue`, `self.assertRaises`). `pytest` uses plain functions With
 native `assert` statements and provides powerful features like parametrized tests, fixtures, And
 plugin-based discovery -- all without requiring inheritance from a test base class.
 
@@ -22720,7 +22720,7 @@ And dozens of flake8 plugins) with a single Rust binary. The practical advantage
    these out of the box, selectable via rule codes.
 
 3. **Unified configuration.** `ruff` is configured entirely through `pyproject.toml`. There is no
-   separate `.flake8``.isort.cfg`Or `pyproject.toml` `[tool.black]` section. One tool, one
+   separate `.flake8`, `.isort.cfg` or `pyproject.toml` `[tool.black]` section. One tool, one
    configuration block.
 
 4. **Built-in formatting.** `ruff format` is compatible with Black's formatting style (and can be
@@ -23249,10 +23249,10 @@ this:
 1. **Editor integration.** Your editor runs `ruff` on save for instant linting and formatting
    feedback. It runs `pyright` or `mypy` in the background for type checking.
 
-2. **Pre-commit hooks.** `pre-commit` runs `ruff check --fix``ruff format``mypy`And `pytest` before
+2. **Pre-commit hooks.** `pre-commit` runs `ruff check --fix`, `ruff format`, `mypy` and `pytest` before
    every commit, preventing violations from entering the repository.
 
-3. **CI pipeline.** GitHub Actions runs the full suite: `ruff check``ruff format --check``mypy`
+3. **CI pipeline.** GitHub Actions runs the full suite: `ruff check`, `ruff format --check`, `mypy`
    `pytest --cov`And any integration tests. The pipeline fails if any step fails.
 
 4. **Dependency management.** Dependencies are declared in `pyproject.toml` and locked in `uv.lock`
@@ -23458,7 +23458,7 @@ set_verbosity("verbose")  # type error: not in the literal set
 ```
 
 `Literal` accepts strings, bytes, integers, booleans, `None`And enum values. At the type-system
-Level, `Literal["foo"]` is a subtype of `str``Literal[42]` is a subtype of `int`And `Literal[True]`
+Level, `Literal["foo"]` is a subtype of `str`, `Literal[42]` is a subtype of `int`And `Literal[True]`
 is a subtype of `bool`. The type checker treats each literal value as a distinct Type.
 
 ```python
@@ -23492,7 +23492,7 @@ def handle_status(status: Literal["open", "closed", "pending"]) -> str:
 ```
 
 This is not just syntactic sugar over `str`. The type checker knows that after the `"open"` case,
-`status` is typed as `Literal["open"]`Not `str`. This enables downstream type-safe behavior.
+`status` is typed as `Literal["open"]`. Not `str`. This enables downstream type-safe behavior.
 
 ### `LiteralString` (Python 3.11+)
 
@@ -23518,7 +23518,7 @@ query("SELECT * FROM " + "users")         # OK -- literal + literal = LiteralStr
 
 ### Use Cases
 
-- **Status enums without `Enum`:** When you don't need the full machinery of `enum.Enum``Literal`
+- **Status enums without `Enum`:** When you don't need the full machinery of `enum.Enum`, `Literal`
   types provide the same safety with less boilerplate.
 - **API versioning:** `def api_call(version: Literal["v1", "v2"]) -> Response` ensures callers pass
   a known version string.
@@ -23803,7 +23803,7 @@ Followed by whatever parameters the original function accepted."
 
 - **Decorators:** Any decorator that wraps a function and returns a wrapper. `ParamSpec` ensures the
   type checker knows the wrapper accepts the same arguments as the original.
-- **Higher-order functions:** Functions that accept callbacks, like `map``filter``sorted(key=)` or
+- **Higher-order functions:** Functions that accept callbacks, like `map`, `filter`, `sorted(key=)` or
   retry decorators.
 - **Dependency injection frameworks:** When the framework needs to accept a user-defined function
   and inject additional parameters at call time.
@@ -23811,7 +23811,7 @@ Followed by whatever parameters the original function accepted."
 ## TypeGuard and TypeIs
 
 `TypeGuard` and `TypeIs` are special forms for user-defined type narrowing functions. They let you
-Tell the type checker "if this function returns `True`The argument is of type `T`."
+Tell the type checker "if this function returns `True`. The argument is of type `T`."
 
 ### `TypeGuard` (Python 3.10+)
 
@@ -23907,7 +23907,7 @@ b = FancyBuilder()
 result = b.set_name("test").set_style("fancy")  # type error!
 ```
 
-The type error occurs because `set_name` is annotated to return `Builder`Not `FancyBuilder`. The
+The type error occurs because `set_name` is annotated to return `Builder`. Not `FancyBuilder`. The
 Type checker sees `Builder.set_name(...) -> Builder`And `Builder` has no `set_style` method.
 
 ### Python 3.11+: `typing.Self`
@@ -24130,7 +24130,7 @@ def process(value: str | None) -> str:
     return value              # value is narrowed to str
 ```
 
-Note: use `is None` / `is not None`Not `== None`. Some type checkers do not narrow on `== None`
+Note: use `is None` / `is not None`. Not `== None`. Some type checkers do not narrow on `== None`
 Because `__eq__` can be overridden to return arbitrary results. `is None` checks identity and cannot
 be overridden.
 
@@ -24168,7 +24168,7 @@ def process(value: object) -> int:
 ```
 
 `assert` triggers narrowing just like `if`. Type checkers treat `assert isinstance(x, T)` as a
-Narrowing guard. Note that `assert` can be disabled at runtime with `python -O`So do not rely on It
+Narrowing guard. Note that `assert` can be disabled at runtime with `python -O`. So do not rely on It
 for correctness -- only for type narrowing and development-time checks.
 
 **Literal matching:**
@@ -24267,7 +24267,7 @@ class Shelter(Generic[T]):
         return self._animals[0]
 ```
 
-Inside `Shelter[T]``T` is known to be `Animal` or a subclass, so you can call `.speak()` on any `T`
+Inside `Shelter[T]`, `T` is known to be `Animal` or a subclass, so you can call `.speak()` on any `T`
 value.
 
 ### `__class_getitem__`
@@ -24370,7 +24370,7 @@ Annotations but no implementation.
 ### Discovery
 
 Type checkers look for `.pyi` files using the same module resolution mechanism as Python's import
-System. For a module `foo.bar`The type checker looks for:
+System. For a module `foo.bar`. The type checker looks for:
 
 1. `foo/bar.pyi` (stub file in the package directory)
 2. `foo/bar.py` (regular Python file, with inline annotations)
@@ -24454,7 +24454,7 @@ def len(obj: bytearray) -> int: ...
    get string representations instead of actual type objects. Always use `typing.get_type_hints()`
    to resolve annotations when `from __future__ import annotations` is active.
 
-8. **Type-checking only the happy path.** If your function returns `int | None`The type checker will
+8. **Type-checking only the happy path.** If your function returns `int | None`. The type checker will
    require you to handle the `None` case before using the value as an `int`. Do not work around this
    with `cast(int, result)` or `assert result is not None` without understanding the consequences.
    Let the type checker force you to handle edge cases -- that is its job.
@@ -24469,7 +24469,7 @@ def len(obj: bytearray) -> int: ...
     never be matched. Always order overloads from most specific to most general.
 
 11. **`TypeGuard` vs `TypeIs` confusion.** `TypeGuard` does not narrow in the `False` branch. If you
-    write a function that checks `isinstance(x, str)` and return `TypeGuard[str]`The type checker
+    write a function that checks `isinstance(x, str)` and return `TypeGuard[str]`. The type checker
     will narrow to `str` in the `True` branch but leave it as the original type in the `False`
     branch. Use `TypeIs` when you need narrowing in both branches and the narrowed type is a subtype
     of the input.
@@ -25673,14 +25673,14 @@ print(c.timeout) # 30.5  (str -> float)
 ```
 
 Coercion rules are extensive. Strings that look like numbers are converted to `int` or `float`.
-Strings that look like booleans (`"true"``"false"``"1"``"0"``"yes"``"no"`) are converted To `bool`.
+Strings that look like booleans (`"true"`, `"false"`, `"1"`, `"0"`, `"yes"`, `"no"`) are converted To `bool`.
 Strings that look like ISO 8601 dates/datetimes are converted to `date`/`datetime` Objects. Lists
 and dicts are recursively validated. The full coercion logic lives in pydantic-core And is
 well-documented in the Pydantic docs.
 
 ### Validation Errors
 
-When validation fails, Pydantic raises `ValidationError`Which carries structured information about
+When validation fails, Pydantic raises `ValidationError`. Which carries structured information about
 every problem found in the input.
 
 ```python
@@ -25702,7 +25702,7 @@ except ValidationError as e:
 
 Each error in `e.errors()` is a dict with these keys:
 
-- `type` -- a machine-readable error code (e.g., `"int_parsing"``"string_too_short"``"missing"`)
+- `type` -- a machine-readable error code (e.g., `"int_parsing"`, `"string_too_short"`, `"missing"`)
 - `loc` -- a tuple indicating the path to the offending field (e.g., `('id',)`
   `('address', 'city')`)
 - `msg` -- a human-readable error message
@@ -25842,7 +25842,7 @@ class User(BaseModel):
 
 The `info` argument is a `ValidationInfo` object. Its `data` attribute contains a dict of fields
 that have already been validated (in declaration order). This enables cross-field validation:
-Checking that `password_confirm` equals `password`That `end_date` is after `start_date`Etc.
+Checking that `password_confirm` equals `password`That `end_date` is after `start_date`. Etc.
 
 Note that `info.data` only contains fields declared **before** the current field. If you need to
 Validate a field against one declared after it, use a model validator instead.
@@ -26193,7 +26193,7 @@ Schemas, configuration objects, domain entities. `BaseModel` is the default choi
 Complete feature set.
 
 Use `@pydantic.dataclass` when you need to interoperate with code that expects standard dataclasses
-(e.g., `dataclasses.asdict()``dataclasses.fields()`), when you want value-based equality and Hashing
+(e.g., `dataclasses.asdict()`, `dataclasses.fields()`), when you want value-based equality and Hashing
 without implementing `__eq__` and `__hash__`Or when you are working within a codebase that Already
 uses dataclasses extensively and you want to add validation without changing the overall
 Architecture.
@@ -26224,8 +26224,8 @@ print(json.dumps(schema, indent=2))
 ```
 
 The output is a complete JSON Schema document that encodes all type information, constraints,
-Defaults, descriptions, and examples. Field constraints like `min_length``pattern`And `ge`/`le` Are
-translated to their JSON Schema equivalents (`minLength``pattern``minimum`/`maximum`).
+Defaults, descriptions, and examples. Field constraints like `min_length`, `pattern` and `ge`/`le` Are
+translated to their JSON Schema equivalents (`minLength`, `pattern`, `minimum`/`maximum`).
 
 ### Schema for API Documentation
 
@@ -26307,7 +26307,7 @@ class AppConfig(BaseSettings):
     model_config = SettingsConfigDict(env_prefix="APP_")
 ```
 
-With `env_prefix="APP_"`The field `database_url` maps to `APP_DATABASE_URL`.
+With `env_prefix="APP_"`. The field `database_url` maps to `APP_DATABASE_URL`.
 
 ### Nested Delimiters
 
@@ -26356,7 +26356,7 @@ class AppConfig(BaseSettings):
 
 Attrs is a data class library that predates Pydantic and takes a fundamentally different approach.
 It focuses on reducing the boilerplate of writing classes (automatically generating `__init__`
-`__repr__``__eq__``__hash__`) with optional validation via composable validator functions.
+`__repr__`, `__eq__`, `__hash__`) with optional validation via composable validator functions.
 
 ```bash
 pip install attrs
@@ -26379,7 +26379,7 @@ class Server:
             raise ValueError(f"Port must be 1-65535, got {value}")
 ```
 
-`@attr.define` generates a class with `__init__``__repr__``__eq__`And `__hash__`. The
+`@attr.define` generates a class with `__init__`, `__repr__`, `__eq__` and `__hash__`. The
 `@attribute.validator` decorator attaches a validation function that runs when the attribute is set.
 
 ### Frozen Instances
@@ -26455,7 +26455,7 @@ except ValidationError as e:
 
 `load()` deserializes and validates. `dump()` serializes. The schema definition is separate from the
 Python class -- you can have multiple schemas for the same class (e.g., `UserCreateSchema`
-`UserUpdateSchema``UserPublicSchema`).
+`UserUpdateSchema`, `UserPublicSchema`).
 
 ### Nested Schemas
 
@@ -26526,7 +26526,7 @@ on it makes your code fragile if you ever migrate away from Pydantic. Always use
 
 ### Ordering of Field Validators
 
-Validators run in field declaration order. If field `b` depends on field `a``a` must be declared
+Validators run in field declaration order. If field `b` depends on field `a`, `a` must be declared
 First. Otherwise, `info.data` in `b`"s validator will not contain `a`. If you cannot reorder fields
 (for whatever reason), use `@model_validator(mode="after")` instead.
 
@@ -26575,7 +26575,7 @@ StrictUser(name="Alice", age=30)  # ValidationError: Extra inputs are not permit
 
 Use `extra="forbid"` in API schemas to catch typos and protocol mismatches early. A caller sending
 `user_name` instead of `name` with `extra="ignore"` would silently lose the data. With
-`extra="forbid"`The error is immediate and clear.
+`extra="forbid"`. The error is immediate and clear.
 
 ### BaseSettings Must Import from pydantic-settings
 
@@ -26627,7 +26627,7 @@ Expected format.
 
 ### marshmallow Schemas Are Not Type-Annotated
 
-Marshmallow's `Schema` class uses instance attributes (`fields.String()``fields.Integer()`) rather
+Marshmallow's `Schema` class uses instance attributes (`fields.String()`, `fields.Integer()`) rather
 than Python type annotations. This means mypy cannot infer the shape of `schema.load(data)` -- it
 will type it as `dict[str, Any]`. Pydantic's type-annotated models integrate with mypy out of the
 Box, giving you static type checking for free. If type safety is a priority, this is a significant
@@ -28223,7 +28223,7 @@ class Circle:
         self._radius = value
 ```
 
-**Dataclass**: A class decorator that automatically generates special methods like `__init__``__repr__`and `__eq__` (Python 3.7+).
+**Dataclass**: A class decorator that automatically generates special methods like `__init__`, `__repr__`and `__eq__` (Python 3.7+).
 
 ```python
 from dataclasses import dataclass
@@ -28334,7 +28334,7 @@ now = datetime.now()
 formatted = now.strftime("%Y-%m-%d %H:%M:%S")
 ```
 
-**collections Module**: Provides specialized container types like `Counter``defaultdict``deque`and `namedtuple`.
+**collections Module**: Provides specialized container types like `Counter`, `defaultdict`, `deque`and `namedtuple`.
 
 ```python
 from collections import Counter, defaultdict
@@ -28355,7 +28355,7 @@ combos = itertools.combinations([1, 2, 3], 2)
 
 **Context Manager Protocol**: The `__enter__` and `__exit__` methods that enable objects to work with the `with` statement.
 
-**Descriptor Protocol**: The `__get__``__set__`and `__delete__` methods that enable attribute access customization.
+**Descriptor Protocol**: The `__get__`, `__set__`and `__delete__` methods that enable attribute access customization.
 
 **Metaclass**: A class that defines how other classes are constructed, with `type` being the default metaclass.
 
@@ -28545,7 +28545,7 @@ Python supports object-oriented programming through classes, inheritance, and pr
 
 **Duck typing** means "if it walks like a duck and quacks like a duck, it is a duck." Python does not check types, it checks whether an object has the methods and attributes you use. This makes Python extremely flexible but requires clear documentation and testing.
 
-**Special methods** (also called dunder methods) define how objects behave with Python's built-in operations. `__len__` defines the result of `len()``__getitem__` defines indexing with `[]`and `__eq__` defines equality with `==`. Implementing these methods makes your classes integrate naturally with Python's syntax.
+**Special methods** (also called dunder methods) define how objects behave with Python's built-in operations. `__len__` defines the result of `len()`, `__getitem__` defines indexing with `[]`and `__eq__` defines equality with `==`. Implementing these methods makes your classes integrate naturally with Python's syntax.
 
 **Metaclasses** control how classes are created. They are rarely needed in application code but are essential for understanding frameworks like Django ORM, SQLAlchemy, and Pydantic. A metaclass intercepts class definition and can modify the class before it is created.
 
@@ -28567,7 +28567,7 @@ Python's standard library is one of its greatest strengths. It provides modules 
 
 **`pathlib`** provides an object-oriented interface to the file system. Instead of manipulating strings with `os.path.join`you use `Path` objects with `/` operators: `path / "subdir" / "file.txt"`. It is more readable and less error-prone.
 
-**`itertools`** provides iterator building blocks, `chain``groupby``product``combinations``permutations`and more. These functions enable elegant, memory-efficient data processing pipelines.
+**`itertools`** provides iterator building blocks, `chain`, `groupby`, `product`, `combinations`, `permutations`and more. These functions enable elegant, memory-efficient data processing pipelines.
 
 **`functools`** provides higher-order functions, `lru_cache` for memoization, `partial` for partial function application, `reduce` for cumulative operations, and `total_ordering` for generating comparison methods.
 
@@ -28608,7 +28608,7 @@ Writing correct Python code is not enough, you must write code that is readable,
 
 **EAFP over LBYL**: Python prefers "Easier to Ask Forgiveness than Permission" (try/except) over "Look Before You Leap" (if checks). This is more Pythonic and often more efficient because it avoids redundant checks.
 
-**Virtual environments** isolate project dependencies. Always use a virtual environment (or conda environment) to avoid dependency conflicts between projects. Tools like `venv``poetry`and `uv` manage environments automatically.
+**Virtual environments** isolate project dependencies. Always use a virtual environment (or conda environment) to avoid dependency conflicts between projects. Tools like `venv`, `poetry`and `uv` manage environments automatically.
 
 ---
 
@@ -28699,7 +28699,7 @@ For web development, learn FastAPI (modern, async, type-hinted) or Django (batte
 
 ### How do I manage dependencies?
 
-Use a virtual environment for each project. Tools like `poetry``uv`or `pip-tools` manage dependencies and lock versions. Never install packages globally, it leads to dependency conflicts.
+Use a virtual environment for each project. Tools like `poetry`, `uv`or `pip-tools` manage dependencies and lock versions. Never install packages globally, it leads to dependency conflicts.
 
 ---
 
@@ -28834,23 +28834,23 @@ systems programming.
 
 ### Core Language
 
-- **Data types and structures**, `int``float``str``bool``list``tuple``dict``set`;
+- **Data types and structures**, `int`, `float`, `str`, `bool`, `list`, `tuple`, `dict`, `set`;
   mutability and immutability
-- **Control flow**, `if`/`elif`/`else``for` loops (iterable-based), `while``break`/`continue`
+- **Control flow**, `if`/`elif`/`else`, `for` loops (iterable-based), `while`, `break`/`continue`
   comprehensions (list, dict, set, generator)
 - **Functions**, positional and keyword arguments, `*args`/`**kwargs`default arguments, lambdas,
   decorators, closures
 - **Classes and OOP**, classes, instances, `__init__`methods, class methods, static methods,
   inheritance, `super()`, dunder methods, dataclasses
-- **Modules and packages**, `import``from ... import``__name__ == "__main__"`package
+- **Modules and packages**, `import`, `from ... import`, `__name__ == "__main__"`package
   structure, `pyproject.toml`
 
 ### Standard Library
 
-- **`collections`**, `defaultdict``Counter``OrderedDict``namedtuple``deque`
-- **`itertools`**, `chain``product``permutations``combinations``groupby`
+- **`collections`**, `defaultdict`, `Counter`, `OrderedDict`, `namedtuple`, `deque`
+- **`itertools`**, `chain`, `product`, `permutations`, `combinations`, `groupby`
 - **`pathlib`**, modern path handling; prefer over `os.path`
-- **`typing`**, type hints, `Optional``Union``Generic``Protocol``Callable`
+- **`typing`**, type hints, `Optional`, `Union`, `Generic`, `Protocol`, `Callable`
 - **`dataclasses`**, `@dataclass` for boilerplate-free class definitions
 - **`asyncio`**, async/await, coroutines, event loops, `asyncio.gather`
 
@@ -28861,7 +28861,7 @@ systems programming.
 - **Error handling**, prefer specific exceptions; use `try`/`except`/`else`/`finally`; avoid bare
   `except`
 - **Testing**, `pytest` fixtures, parametrised tests, mocking with `unittest.mock`
-- **Virtual environments**, `venv``uv``poetry`; always isolate project dependencies
+- **Virtual environments**, `venv`, `uv`, `poetry`; always isolate project dependencies
 
 ## Code Examples
 
@@ -30367,7 +30367,7 @@ print(result)
 
 **Correct: B** (index 1)
 
-`chain` concatenates iterables into a single iterator. `chain(a, b, c)` produces elements from `a`then `b`then `c` in sequence. Converting to a list gives `[1, 2, 3, 4, 5]`. Unlike `flatMap``chain` does not flatten nested structures.
+`chain` concatenates iterables into a single iterator. `chain(a, b, c)` produces elements from `a`then `b`then `c` in sequence. Converting to a list gives `[1, 2, 3, 4, 5]`. Unlike `flatMap`, `chain` does not flatten nested structures.
 
 `easy`1 mark
 

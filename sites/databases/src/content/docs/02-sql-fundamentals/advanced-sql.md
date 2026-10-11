@@ -38,7 +38,7 @@ Set of rows visible to the function.
 ### Framing Clauses
 
 The frame clause defines the subset of rows within the partition that the function sees. It is only
-Meaningful when `ORDER BY` is present (without `ORDER BY`The default frame is the entire Partition).
+Meaningful when `ORDER BY` is present (without `ORDER BY`. The default frame is the entire Partition).
 
 ```sql
 -- Frame boundaries
@@ -353,7 +353,7 @@ CROSS JOIN LATERAL (
 ) t;
 ```
 
-Without `LATERAL`The subquery cannot reference `c.customer_id`. A correlated subquery in `SELECT`
+Without `LATERAL`. The subquery cannot reference `c.customer_id`. A correlated subquery in `SELECT`
 Can only return one column and one row; `LATERAL` lifts both restrictions.
 
 ### LATERAL with LEFT JOIN
@@ -1136,7 +1136,7 @@ SELECT * FROM orders WHERE status >= 'shipped';
 :::
 
 :::caution
-`ALTER TYPE ... ADD VALUE`Which cannot run inside a transaction in PostgreSQL 12+. Renaming or
+`ALTER TYPE ... ADD VALUE`. Which cannot run inside a transaction in PostgreSQL 12+. Renaming or
 Removing values is not straightforward. For rapidly changing sets of states, use a lookup table with
 A foreign key constraint instead.
 

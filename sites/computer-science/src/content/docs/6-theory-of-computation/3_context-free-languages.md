@@ -73,9 +73,9 @@ $$
 
 The variable $S$ generates the $a^i b^i$ part, and $T$ generates the $a^k c^k$ part. Since
 $S \Rightarrow^* a^i S b^i \Rightarrow a^i T b^i \Rightarrow^* a^{i+k} c^k b^i$ The total number Of
-`b`S and `c`S equals the total number of `a`S.
+`b`s and `c`s equals the total number of `a`s.
 
-**Example.** CFG for strings with equal numbers of `0`S and `1`S:
+**Example.** CFG for strings with equal numbers of `0`s and `1`s:
 
 $$
 S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon
@@ -321,10 +321,10 @@ $\blacksquare$
 _Proof._ Assume pumping length $p$. Let $w = a^p b^p c^p$. Since $|vxy| \leq p$ The substring $vxy$
 cannot span all three letter types. Case analysis:
 
-- If $vxy$ is within the `a`S or `b`S or `c`S: pumping changes only one count, breaking the
+- If $vxy$ is within the `a`s or `b`s or `c`s: pumping changes only one count, breaking the
   equality.
-- If $vxy$ spans `a`S and `b`S: pumping changes the `a` and `b` counts but not `c`Breaking equality.
-- If $vxy$ spans `b`S and `c`S: analogous.
+- If $vxy$ spans `a`s and `b`s: pumping changes the `a` and `b` counts but not `c`Breaking equality.
+- If $vxy$ spans `b`s and `c`s: analogous.
 
 In all cases, $uv^2xy^2z \notin L$. $\blacksquare$
 

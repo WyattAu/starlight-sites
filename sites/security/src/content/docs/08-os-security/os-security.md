@@ -87,7 +87,7 @@ bantime = 3600
 - **findtime:** Time window in seconds (600 = 10 minutes).
 - **bantime:** Duration of the ban in seconds (3600 = 1 hour).
 
-For production servers, consider more aggressive settings: `maxretry = 2``bantime = 86400`.
+For production servers, consider more aggressive settings: `maxretry = 2`, `bantime = 86400`.
 
 ### File Permissions
 
@@ -170,7 +170,7 @@ admin:x:1000:1000:Admin User:/home/admin:/bin/bash
 Fields: `username:x:UID:GID:comment:home_dir:shell`
 
 The `x` in the password field means the password hash is stored in `/etc/shadow`. If the password
-Field contains anything other than `x`The account has a password stored directly in `/etc/passwd`
+Field contains anything other than `x`. The account has a password stored directly in `/etc/passwd`
 Which is a security issue (passwd is world-readable).
 
 #### /etc/shadow
@@ -553,7 +553,7 @@ Malicious binary runs instead.
 echo $PATH
 ```
 
-**Defense:** Ensure system PATH directories (`/usr/bin``/bin``/usr/sbin``/sbin`) are owned by Root
+**Defense:** Ensure system PATH directories (`/usr/bin`, `/bin`, `/usr/sbin`, `/sbin`) are owned by Root
 and not writable by non-root users. Never put `.` (current directory) in PATH.
 
 ### Shared Library Injection (LD_PRELOAD)
@@ -584,7 +584,7 @@ Modern sudo versions).
 **Defense:**
 
 - Ensure `env_reset` is set in sudoers (default in most distributions).
-- Ensure `env_keep` does not include `LD_PRELOAD``LD_LIBRARY_PATH`Or similar.
+- Ensure `env_keep` does not include `LD_PRELOAD`, `LD_LIBRARY_PATH` or similar.
 - Use `Defaults secure_path` in sudoers to set a fixed PATH.
 
 ## Logging and Auditing
@@ -829,7 +829,7 @@ echo 100000 > /sys/fs/cgroup/cpu/limited/cpu.max
 
 Seccomp (Secure Computing Mode) restricts the system calls a process can make. There are two modes:
 
-- **Strict mode:** Allows only `read``write``_exit`And `sigreturn`. Too restrictive for most
+- **Strict mode:** Allows only `read`, `write`, `_exit` and `sigreturn`. Too restrictive for most
   applications.
 - **Filter mode (BPF):** Allows specifying a whitelist of permitted system calls using BPF programs.
 
@@ -980,7 +980,7 @@ Automated patching with a reboot window is the minimum. For critical systems, us
 ### Shared Library Path Issues
 
 Leaving `LD_LIBRARY_PATH` or `LD_PRELOAD` in sudoers `env_keep` allows privilege escalation through
-Shared library injection. Modern sudo defaults to `env_reset`But always verify.
+Shared library injection. Modern sudo defaults to `env_reset`. But always verify.
 
 ## Practice Problems
 
@@ -1046,7 +1046,7 @@ What is the problem, and how do you fix it?
 <details>
 <summary>Answer</summary>
 
-The SELinux context is `default_t`Which Apache (running as `httpd_t`) is not allowed to read. Web
+The SELinux context is `default_t`. Which Apache (running as `httpd_t`) is not allowed to read. Web
 Content should have the `httpd_sys_content_t` context.
 
 Fix:
@@ -1101,10 +1101,10 @@ touch archive.tar
 sudo tar cf archive.tar --use-compress-program=shell.sh *
 ```
 
-When `tar` processes the filename `--use-compress-program=shell.sh`It treats it as an option and
+When `tar` processes the filename `--use-compress-program=shell.sh`. It treats it as an option and
 Executes `shell.sh` as the compression program, which runs `/bin/bash -p` as root.
 
-**Defense:** Never allow `sudo` access to `tar``cp``find``vim``less``awk`Or any Interactive/editor
+**Defense:** Never allow `sudo` access to `tar`, `cp`, `find`, `vim`, `less`, `awk` or any Interactive/editor
 command. If archiving is needed, create a wrapper script that validates inputs And only allows
 operations on specific paths.
 
@@ -1162,7 +1162,7 @@ Identify the security issues and provide the corrected values.
    source IP addresses in incoming packets, facilitating DDoS reflection attacks. **Fix:**
    `net.ipv4.conf.all.rp_filter = 1`.
 
-4. **`kernel.dmesg_restrict = 0`:** Any user can read the kernel ring buffer via `dmesg`Which may
+4. **`kernel.dmesg_restrict = 0`:** Any user can read the kernel ring buffer via `dmesg`. Which may
    contain sensitive information (kernel addresses, module loading, error messages). **Fix:**
    `kernel.dmesg_restrict = 1`.
 

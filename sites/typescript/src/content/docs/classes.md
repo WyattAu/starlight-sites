@@ -46,7 +46,7 @@ class Point {
 }
 ```
 
-Under `strictPropertyInitialization`The compiler verifies that all declared fields are assigned in
+Under `strictPropertyInitialization`. The compiler verifies that all declared fields are assigned in
 the constructor or have a definite assignment assertion (`!`):
 
 ```ts
@@ -72,7 +72,7 @@ Even though the constructor does not assign it.
 
 ### Access Modifiers
 
-TypeScript supports three access modifiers: `public``private`And `protected`.
+TypeScript supports three access modifiers: `public`, `private` and `protected`.
 
 | Modifier    | Accessibility                                            |
 | ----------- | -------------------------------------------------------- |
@@ -183,7 +183,7 @@ class Point {
 }
 ```
 
-Parameter properties can use any combination of modifiers: `public``private``protected` `readonly`.
+Parameter properties can use any combination of modifiers: `public`, `private`, `protected` `readonly`.
 
 ## Abstract Classes and Abstract Methods
 
@@ -677,7 +677,7 @@ getUser(userId);
 getUser(orderId);
 ```
 
-The last call is a compile error because `OrderId` is not assignable to `UserId`Even though both Are
+The last call is a compile error because `OrderId` is not assignable to `UserId`. Even though both Are
 branded `string` types.
 
 ### Private Fields and Structural Typing

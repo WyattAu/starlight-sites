@@ -150,11 +150,11 @@ Key changes in Rust 2024:
 
 - **Fighting the borrow checker.** New Rustaceans often try to write C-style code with aliasing
   mutable references. The solution is almost always to restructure your data ownership, not to add
-  `clone()`. Interior mutability types (`Cell``RefCell``Mutex`) exist precisely for cases where you
+  `clone()`. Interior mutability types (`Cell`, `RefCell`, `Mutex`) exist precisely for cases where you
   need shared mutation.
 - **Ignoring clippy warnings.** Clippy catches real bugs. Run `cargo clippy -- -W clippy::all` and
   fix every warning before shipping.
-- **Overusing `unsafe`.** If you find yourself wrapping large blocks in `unsafe`You are likely
+- **Overusing `unsafe`.** If you find yourself wrapping large blocks in `unsafe`. You are likely
   working against the language. Re-examine your data structure design.
 
 ## Related Topics

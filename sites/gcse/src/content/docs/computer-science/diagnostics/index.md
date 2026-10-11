@@ -155,7 +155,7 @@ An **algorithm** is a step-by-step procedure for solving a problem. In computer 
 
 **Control structures:**
 - **Sequence**, Instructions executed one after another
-- **Selection**, `if``elif`/`else`choose which path to take based on a condition
+- **Selection**, `if`, `elif`/`else`choose which path to take based on a condition
 - **Iteration**, `for` loop (count-controlled), `while` loop (condition-controlled)
 
 **Functions:**

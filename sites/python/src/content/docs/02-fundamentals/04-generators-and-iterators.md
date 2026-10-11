@@ -86,7 +86,7 @@ The implications are significant:
    loops.
 
 2. **`StopIteration` is caught at the `for` level**, not inside your code. If you manually call
-   `next()` inside a loop body and catch `StopIteration`You will swallow the loop's own termination
+   `next()` inside a loop body and catch `StopIteration`. You will swallow the loop's own termination
    signal. This is a real bug pattern -- see Common Pitfalls.
 
 3. **`break` does not call `close()` on the iterator.** Only `generator.close()` exists for
@@ -238,10 +238,10 @@ Function.
 
 ### The StopIteration Contract
 
-`StopIteration` inherits directly from `Exception`Not `BaseException`. This means it can be caught
+`StopIteration` inherits directly from `Exception`. Not `BaseException`. This means it can be caught
 by bare `except Exception:` clauses, which is a source of subtle bugs. PEP 479 (Python 3.7+)
 Addresses the related issue of `StopIteration` leaking from generator internals -- now, if a
-Generator raises `StopIteration`It is automatically converted to `RuntimeError`.
+Generator raises `StopIteration`. It is automatically converted to `RuntimeError`.
 
 ```python
 def broken_generator():
@@ -255,7 +255,7 @@ or function exit handle it.
 
 ### Iterator Exhaustion
 
-Once an iterator raises `StopIteration`It is exhausted. Subsequent calls to `next()` will raise
+Once an iterator raises `StopIteration`. It is exhausted. Subsequent calls to `next()` will raise
 `StopIteration` again immediately:
 
 ```python
@@ -391,7 +391,7 @@ does not support indexing, `len()`Or multiple passes.
 Use a generator expression when:
 
 - The sequence is large or infinite
-- You only need to consume the values once (e.g., passing to `sum()``max()``any()`)
+- You only need to consume the values once (e.g., passing to `sum()`, `max()`, `any()`)
 - You are chaining transformations (the intermediate results don't need to exist simultaneously)
 
 Use a list comprehension when:
@@ -512,7 +512,7 @@ What this means in practice:
    generator.
 
 3. **`throw()` exceptions are forwarded to the sub-generator.** If the caller does
-   `gen.throw(ValueError)`The sub-generator receives the exception at its current yield point.
+   `gen.throw(ValueError)`. The sub-generator receives the exception at its current yield point.
 
 4. **`close()` is forwarded.** Calling `gen.close()` calls `subgen.close()`.
 
@@ -578,7 +578,7 @@ print(list(flatten(data)))  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ### Coroutine Heritage
 
 Generators in Python predate `async`/`await` by over a decade. Before PEP 492 (Python 3.5),
-Generators were the only mechanism for coroutine-like behavior. The `send()``throw()`And `close()`
+Generators were the only mechanism for coroutine-like behavior. The `send()`, `throw()` and `close()`
 methods on generator objects exist because generators were originally designed to serve as
 Coroutines.
 
@@ -668,7 +668,7 @@ print(result)           # ['c']
 ### `close()` for Cleanup
 
 `gen.close()` causes a `GeneratorExit` exception to be raised at the current `yield` point. If the
-Generator catches `GeneratorExit`It must re-raise it (or raise `StopIteration`) -- it is not Allowed
+Generator catches `GeneratorExit`. It must re-raise it (or raise `StopIteration`) -- it is not Allowed
 to yield another value. This is the mechanism that `with` statements and `for` loops use to Clean up
 generators when they are abandoned:
 
@@ -1124,9 +1124,9 @@ gen = (x for x in range(5))
 t = tuple(gen)  # (0, 1, 2, 3, 4)
 ```
 
-`iter(lst)` returns a `list_iterator`Which is not a generator object but satisfies the same Iterator
+`iter(lst)` returns a `list_iterator`. Which is not a generator object but satisfies the same Iterator
 protocol. The distinction is rarely important in practice, but it matters for `isinstance` Checks:
-`isinstance(iter([]), collections.abc.Generator)` returns `False`While
+`isinstance(iter([]), collections.abc.Generator)` returns `False`. While
 `isinstance((x for x in []), collections.abc.Generator)` returns `True`.
 
 ### When Generators Are Inappropriate
@@ -1189,7 +1189,7 @@ print(list(gen2))  # [0, 1, 2, 3, 4]
 
 ### `return value` Semantics in Generators
 
-The return value of a generator is stored in `StopIteration.value`Which is inaccessible through
+The return value of a generator is stored in `StopIteration.value`. Which is inaccessible through
 Normal iteration:
 
 ```python
@@ -1257,7 +1257,7 @@ print(gen.send("hello"))  # "inner: received hello"  -- went to inner, NOT outer
 print(next(gen))          # "outer: inner returned None"  (inner's return value was None)
 ```
 
-The `send("hello")` value is received by the `yield` expression inside `inner()`Not by the
+The `send("hello")` value is received by the `yield` expression inside `inner()`. Not by the
 `yield from` in `outer()`. The delegating generator is completely transparent during the delegation
 -- it suspends and lets the sub-generator interact directly with the caller.
 

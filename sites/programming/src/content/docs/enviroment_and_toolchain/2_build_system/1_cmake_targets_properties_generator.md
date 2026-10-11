@@ -20,7 +20,7 @@ categories:
 </script>
 
 Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g.,
-`include_directories``add_definitions`). This approach prevents modularity and leaks compilation
+`include_directories`, `add_definitions`). This approach prevents modularity and leaks compilation
 Flags across unrelated parts of a project.
 
 **Modern CMake** (3.0+) is strictly **Target-Centric**. It models the build process as a directed
@@ -279,7 +279,7 @@ target_link_libraries(App PRIVATE MyCompany::MyLib)
 1. **Encapsulation:** Consumers never need to know whether `MyLib` is static or shared. The
    `CMakeLists.txt` can change from `STATIC` to `SHARED` without modifying any consumer.
 2. **Namespace convention:** Using `Namespace::Target` follows the same convention as `find_package`
-   exported targets (e.g., `fmt::fmt``Boost::system`), providing a uniform interface.
+   exported targets (e.g., `fmt::fmt`, `Boost::system`), providing a uniform interface.
 3. **Subdirectory isolation:** If `MyLib` is defined in a subdirectory, targets outside that
    subdirectory cannot reference it directly (by name) unless an alias is created in the parent
    scope.
@@ -455,7 +455,7 @@ target_link_options(Engine PRIVATE
 
 ## Transitive Dependency Resolution Rules
 
-When target `A` links to target `B`The build properties propagate according to strict rules:
+When target `A` links to target `B`. The build properties propagate according to strict rules:
 
 ```
 A links PRIVATE B:
@@ -491,7 +491,7 @@ The result:
 - `Engine` sees `FMT_HEADER_ONLY` when compiling its sources.
 - `App` sees `FMT_HEADER_ONLY` when compiling its sources (because `Engine` propagated it as
   PUBLIC).
-- If a consumer links `App`They do **not** see `FMT_HEADER_ONLY` (because `App` linked `Engine` as
+- If a consumer links `App`. They do **not** see `FMT_HEADER_ONLY` (because `App` linked `Engine` as
   PRIVATE).
 
 ### PRIVATE vs. INTERFACE Dependencies for Implementation Details

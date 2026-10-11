@@ -92,7 +92,7 @@ Date:   Mon Jun 2 10:00:00 2025 +0000
  create mode 100644 vendor/lib/Makefile
 ```
 
-With `--squash`The framework creates a single merge commit whose tree contains the subtree files.
+With `--squash`. The framework creates a single merge commit whose tree contains the subtree files.
 The synthetic commit message records the upstream commit SHA that was squashed. This is critical,
 It is the bookmark that `git subtree pull` uses to find the starting point for the next pull.
 
@@ -102,7 +102,7 @@ It is the bookmark that `git subtree pull` uses to find the starting point for t
 git subtree add --prefix=vendor/lib https://github.com/org/library.git main
 ```
 
-Without `--squash`Every upstream commit is replayed as a separate commit in the parent repository.
+Without `--squash`. Every upstream commit is replayed as a separate commit in the parent repository.
 The commit messages are preserved, and `git log` shows the full interleaved history:
 
 ```bash
@@ -340,7 +340,7 @@ Used when you have made changes to the subtree locally and want to push them ups
 $ git subtree split --prefix=vendor/lib --rejoin -b lib-only
 ```
 
-After `--rejoin`The current branch has a new merge commit that ties the split history back to the
+After `--rejoin`. The current branch has a new merge commit that ties the split history back to the
 Parent. This enables subsequent `git subtree push` operations to find the correct starting point.
 
 ### Limitations of Split
@@ -521,9 +521,9 @@ Conflict, edit the files, stage them, commit. But the experience is worse than a
 because:
 
 - The conflict markers appear in files you may not fully understand (they are upstream code).
-- If you used `--squash`The conflict is between your local changes and a squash commit containing
+- If you used `--squash`. The conflict is between your local changes and a squash commit containing
   all upstream changes since the last pull. This can be a large diff.
-- If you did not use `--squash`The conflict is between your local changes and individual upstream
+- If you did not use `--squash`. The conflict is between your local changes and individual upstream
   commits, which can be easier to resolve incrementally.
 
 ### Large Repository Bloat
@@ -580,7 +580,7 @@ Want.
 
 ### Subtree Commands Are Slow for Large Prefixes
 
-`git subtree add``pull`And `push` all involve `git fetch``git read-tree`And `git merge`. For Large
+`git subtree add`, `pull` and `push` all involve `git fetch`, `git read-tree` and `git merge`. For Large
 subtrees (thousands of files), these operations can be slow. The framework does not support Partial
 subtree operations, you always operate on the entire prefix. If performance is a concern And the
 upstream is large, submodules may be a better choice.

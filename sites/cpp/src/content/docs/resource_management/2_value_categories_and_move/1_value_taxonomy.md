@@ -256,7 +256,7 @@ to:
 
 - Non-const lvalues are the only expressions that bind to non-const lvalue references (`T&`).
 - All rvalues (xvalues and prvalues) bind to rvalue references (`T&&`).
-- All expressions bind to `const T&`Which is why const lvalue references are the most permissive
+- All expressions bind to `const T&`. Which is why const lvalue references are the most permissive
   binding target.
 
 ## 3.2 `decltype` Behavior for Each Category
@@ -340,7 +340,7 @@ More concisely: **only `T&& &&` collapses to `T&&`; all other combinations colla
 
 Reference collapsing is the mechanism that enables **perfect forwarding** through `std::forward`.
 When a forwarding reference `T&&` receives an lvalue, `T` is deduced as `U&`And `T&&` becomes
-`U& &&`Which collapses to `U&`. When it receives an rvalue, `T` is deduced as `U`And `T&&` is `U&&`.
+`U& &&`. Which collapses to `U&`. When it receives an rvalue, `T` is deduced as `U`And `T&&` is `U&&`.
 
 ```cpp
 #include <type_traits>
@@ -619,7 +619,7 @@ Expanding the definition step by step for a call `std::move(x)` where `x` is an 
 `int`:
 
 1. **Template argument deduction:** `T` is deduced as `int&` (because `x` is an lvalue and the
-   parameter is `T&&`Which is a forwarding reference in this context).
+   parameter is `T&&`. Which is a forwarding reference in this context).
 2. **Remove reference:** `remove_reference_t&lt;int&amp;&gt;` = `int`.
 3. **Return type:** `int&&`.
 4. **Parameter type:** `T&&` = `int& &&` which collapses to `int&`.
@@ -631,7 +631,7 @@ No resources are transferred. The cast changes the value category from lvalue to
 allows overload resolution to select rvalue-reference overloads (move constructors, move Assignment
 operators).
 
-**Why this matters:** After `std::move(x)`The value of `x` is still valid but unspecified. The
+**Why this matters:** After `std::move(x)`. The value of `x` is still valid but unspecified. The
 Actual "move" happens in the move constructor or move assignment operator that receives the xvalue.
 `std::move` is therefore a misnomer, it should be called `std::rvalue_cast` or `std::as_rvalue`.
 The name is historical.
@@ -687,7 +687,7 @@ a.name after move ctor:
 ## 3.8 `decltype(auto)` and Perfect Forwarding
 
 `decltype(auto)` is a C++14 feature that uses the `decltype` rules to deduce the return type of a
-Function. Combined with `auto&&` parameters and `std::forward`It enables perfect forwarding of
+Function. Combined with `auto&&` parameters and `std::forward`. It enables perfect forwarding of
 Return types.
 
 ### `decltype(auto)` Rules
@@ -828,7 +828,7 @@ S obj = make_s();  // C++17: prvalue is directly materialized into obj (zero cop
 
 ## Common Pitfalls
 
-- **Using `std::move` on a `const` object.** `std::move(const T&)` returns `const T&&`Which binds to
+- **Using `std::move` on a `const` object.** `std::move(const T&)` returns `const T&&`. Which binds to
   copy constructors (not move constructors). The object cannot actually be moved from.
 
 - **Using `std::move` on a return value.** `return std::move(local);` prevents NRVO and forces a
@@ -843,16 +843,16 @@ S obj = make_s();  // C++17: prvalue is directly materialized into obj (zero cop
   Prvalues do not exist as objects until materialized (C++17+).
 
 - **Assuming `auto&&` is always a forwarding reference.** In a range-for loop, `auto&&` is a
-  forwarding reference. But in a simple declaration like `auto&& x = expr;``auto` may be deduced as
+  forwarding reference. But in a simple declaration like `auto&& x = expr;`, `auto` may be deduced as
   a concrete type, making `auto&&` a plain rvalue reference. For example, `auto&& x = 42;` deduces
-  `auto` as `int`So `x` has type `int&&`.
+  `auto` as `int`. So `x` has type `int&&`.
 
 - **Using `decltype(auto)` with parenthesized return.** `decltype(auto) f() { return (x); }` returns
-  a reference to `x`Not a copy. If `x` is a local variable, this is a dangling reference. Always use
+  a reference to `x`. Not a copy. If `x` is a local variable, this is a dangling reference. Always use
   `return x;` (no parentheses) for by-value returns.
 
 - **Overloading on rvalue references for forwarding.** If you write both `void f(T&&)` and
-  `void f(const T&)`The rvalue reference overload is preferred for non-const rvalues. But this is
+  `void f(const T&)`. The rvalue reference overload is preferred for non-const rvalues. But this is
   not forwarding, it only accepts rvalues. Use a template with a forwarding reference if you need
   to accept both lvalues and rvalues with a single overload.
 

@@ -29,7 +29,7 @@ Resource leak, a double-free, or use-after-free, all of which are undefined beha
 This part covers four tightly coupled topics:
 
 1. **Ownership and RAII (Module 10):** The idiomatic C++ mechanism that binds resource lifetime to
-   scope. Covers `std::unique_ptr``std::shared_ptr``std::weak_ptr`And custom deleters.
+   scope. Covers `std::unique_ptr`, `std::shared_ptr`, `std::weak_ptr` and custom deleters.
 
 2. **Value Categories and Move Semantics (Module 11):** The type system machinery that enables
    efficient transfer of resources between scopes without copying. Covers lvalues, rvalues, move
@@ -38,7 +38,7 @@ This part covers four tightly coupled topics:
 3. **Function Architecture (Module 12):** How ownership interacts with function boundaries. Parameter passing, return values, lambdas, and C FFI.
 
 4. **Error Handling (Module 13):** Exception safety guarantees, `noexcept`And the modern algebraic
-   alternatives (`std::expected``std::variant`).
+   alternatives (`std::expected`, `std::variant`).
 
 :::note
 Allocation (Module 3.5), pointers (Module 3.6), and class basics (Module 9). Exception mechanics are
@@ -156,7 +156,7 @@ handling completes the picture with robust failure modes.
 
 ### Move vs Copy Decision Tree
 
-1. Is the type cheap to copy (e.g., `int``span`)? → Copy by value.
+1. Is the type cheap to copy (e.g., `int`, `span`)? → Copy by value.
 2. Is ownership being transferred? → `std::move` into a `unique_ptr`.
 3. Is the argument only read? → Pass by `const&`.
 4. Is the argument stored? → Pass by value and move internally (`T param` then

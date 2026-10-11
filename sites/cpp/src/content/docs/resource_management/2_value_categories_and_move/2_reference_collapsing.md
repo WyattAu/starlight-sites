@@ -23,8 +23,8 @@ categories:
 
 Reference collapsing is the template mechanism that enables a single function template to accept
 both lvalues and rvalues while preserving their original value category. Combined with
-`std::forward`This enables **perfect forwarding**, the foundation behind `std::make_unique`
-`std::make_shared``emplace_back`And virtually every factory function in the standard library.
+`std::forward`. This enables **perfect forwarding**, the foundation behind `std::make_unique`
+`std::make_shared`, `emplace_back` and virtually every factory function in the standard library.
 
 ## 3.1 The Rules
 
@@ -92,7 +92,7 @@ void collapsing_demo() {
 
 :::note
 (Section 4). Without collapsing, a `T&&` parameter could not bind to lvalues, the deduction would
-Always produce `T&&`Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
+Always produce `T&&`. Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
 Lvalue is passed, making perfect forwarding possible.
 :::
 
@@ -100,13 +100,13 @@ Lvalue is passed, making perfect forwarding possible.
 
 The syntax `T&&` has two distinct meanings depending on context:
 
-1. **Rvalue reference:** `void f(int&& x)``T` is a concrete type, not deduced. This function
+1. **Rvalue reference:** `void f(int&& x)`, `T` is a concrete type, not deduced. This function
    accepts **only rvalues**.
-2. **Forwarding reference (universal reference):** `template<typename T> void f(T&& x)``T` is a
+2. **Forwarding reference (universal reference):** `template<typename T> void f(T&& x)`, `T` is a
    deduced template parameter. This function accepts **both lvalues and rvalues**.
 
 The critical distinction is whether `T` is being **deduced** [N4950 §13.3.2.3]. If `T` appears in a
-`template<typename T>` parameter list and is used as `T&&`It is a forwarding reference. Otherwise,
+`template<typename T>` parameter list and is used as `T&&`. It is a forwarding reference. Otherwise,
 It is a plain rvalue reference.
 
 ```cpp
@@ -173,9 +173,9 @@ requires that `T` be a freshly deduced, unconstrained type parameter.
 `std::forward<T>(x)` casts `x` to `T&&`. Combined with reference collapsing, this preserves the
 Original value category of the argument:
 
-- If the caller passed an **lvalue**, `T` was deduced as `U&`So `T&&` collapses to `U&`
+- If the caller passed an **lvalue**, `T` was deduced as `U&`. So `T&&` collapses to `U&`
   `std::forward` returns an lvalue reference.
-- If the caller passed an **rvalue**, `T` was deduced as `U`So `T&&` is `U&&``std::forward`
+- If the caller passed an **rvalue**, `T` was deduced as `U`. So `T&&` is `U&&`, `std::forward`
   returns an rvalue reference.
 
 ```cpp
@@ -613,7 +613,7 @@ struct SafeWidget {
 };
 ```
 
-## 5.7 `std::forward` vs `std::move`When to Use Which
+## 5.7 `std::forward` vs `std::move`. When to Use Which
 
 | Situation                         | Use                  | Reason                                     |
 | :-------------------------------- | :------------------- | :----------------------------------------- |
@@ -660,7 +660,7 @@ void move_vs_forward() {
    equivalent to `std::forward<remove_reference_t<decltype(x)>>(x)`. But `std::forward<T>(x)`
    requires `T` to be the **deduced** template parameter from a forwarding reference. If you call
    `std::forward<int>(x)` where `x` is an lvalue, you get an rvalue reference, this is effectively
-   `std::move`Not forwarding. The distinction matters only for correctness of intent.
+   `std::move`. Not forwarding. The distinction matters only for correctness of intent.
 
 2. **Using `std::forward` more than once on the same object:** `std::forward` does not move the
    object, it casts it. But the _recipient_ of the cast may move from it. If you forward the same

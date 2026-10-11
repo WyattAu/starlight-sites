@@ -141,11 +141,11 @@ $M = (Q, \{0, 1\}, \{0, 1, \mathrm{x, \sqcup\}, \delta, q_0, q_{\mathrm{accept},
 
 **Key transitions:**
 
-1. In $q_0$ Read `0`: write `x`Move right, go to $q_1$. (Cross off a `0`.)
+1. In $q_0$ Read `0`: write `x`. Move right, go to $q_1$. (Cross off a `0`.)
 2. In $q_0$ Read `1`: reject. (A `1` before any `0`.)
 3. In $q_0$ Read $\sqcup$: accept. (Nothing left.)
-4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`S.)
-5. In $q_1$ Read `1`: write `x`Move left, go to $q_2$. (Cross off a `1`.)
+4. In $q_1$ Read `0`: move right, stay in $q_1$. (Skip remaining `0`s.)
+5. In $q_1$ Read `1`: write `x`. Move left, go to $q_2$. (Cross off a `1`.)
 6. In $q_1$ Read $\sqcup$: reject. (No `1` to match.)
 7. In $q_2$ Read `0` or `x`: move left, stay in $q_2$. (Scan back.)
 8. In $q_2$ Read $\sqcup$: move right, go to $q_0$. (Return to start.)

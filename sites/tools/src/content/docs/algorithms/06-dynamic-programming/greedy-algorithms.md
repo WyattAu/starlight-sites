@@ -201,7 +201,7 @@ def fractional_knapsack(weights, values, capacity):
 
 ### Why Greedy Fails for 0/1 Knapsack
 
-Consider items with (value, weight): `(60, 10)``(100, 20)``(120, 30)` with capacity 50.
+Consider items with (value, weight): `(60, 10)`, `(100, 20)`, `(120, 30)` with capacity 50.
 
 - Greedy by ratio: take item 1 (60/10 = 6), item 2 (100/20 = 5), item 3 (120/30 = 4). Total: 60 +
   100 = 160, weight 30. Cannot add item 3 (weight 30 > remaining 20).

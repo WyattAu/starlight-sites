@@ -539,7 +539,7 @@ cursor.execute(
 )
 ```
 
-1. **Input validation:** Reject characters that have no legitimate purpose (e.g., `;``'``--` `/*`)
+1. **Input validation:** Reject characters that have no legitimate purpose (e.g., `;`, `'`, `--` `/*`)
 
 2. **Least privilege:** The application's database account should only have permissions for the
    operations it needs (SELECT, INSERT, not DROP, ALTER)
@@ -599,7 +599,7 @@ Can generate a 4000-byte response, providing a ~66x amplification factor.
 <summary>Answer</summary>
 
 Rule 1: Source matches `10.0.0.0/24` (yes, `10.0.0.5` is in this range), destination matches
-`192.168.1.10`But port 80 does not match port 22. Rule 1 does not apply.
+`192.168.1.10`. But port 80 does not match port 22. Rule 1 does not apply.
 
 Rule 2: Source is "Any" (matches), destination matches `192.168.1.10`Port 80 matches port 80. Rule 2
 applies, **Allow**.

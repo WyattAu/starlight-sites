@@ -440,7 +440,7 @@ For revision on searching, see
 ## Problems
 
 **Problem 1.** A character array `C` has base address 3000 and stores lowercase letters. Each
-Character occupies 1 byte. What are the addresses of `C[0]``C[4]`And `C[12]`? If `C` is declared
+Character occupies 1 byte. What are the addresses of `C[0]`, `C[4]` and `C[12]`? If `C` is declared
 with size 10, what happens when you access `C[12]`?
 
 <details>
@@ -627,7 +627,7 @@ Column 2.
 <details>
 <summary>Hint</summary>
 
-Row 1 is `M[1][0]` through `M[1][3]`. Column 2 is `M[0][2]``M[1][2]``M[2][2]`.
+Row 1 is `M[1][0]` through `M[1][3]`. Column 2 is `M[0][2]`, `M[1][2]`, `M[2][2]`.
 
 </details>
 

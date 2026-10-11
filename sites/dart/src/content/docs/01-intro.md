@@ -151,8 +151,8 @@ void main() {
 
 This is a complete Dart program. Let's dissect it:
 
-- **`void`**, The return type. `main()` returns nothing. Dart supports `void``int``double`
-  `bool``String``Null`And user-defined types. `void` is a special type indicating no value.
+- **`void`**, The return type. `main()` returns nothing. Dart supports `void`, `int`, `double`
+  `bool`, `String`, `Null` and user-defined types. `void` is a special type indicating no value.
 - **`main()`**, The entry point. The Dart VM looks for a top-level function named `main`. It can
   optionally accept `List<String> args` for command-line arguments.
 - **`print()`**, A top-level function from `dart:core` (implicitly imported). Writes to stdout with
@@ -280,12 +280,12 @@ The GC runs concurrently with the mutator (application code) for old-space colle
 Pause times are under 1ms even for large heaps. This is a practical advantage over JVM's
 Stop-the-world GC pauses.
 
-You have no direct control over GC. There is no `System.gc()`No `free()`No `autoreleasepool`. The GC
+You have no direct control over GC. There is no `System.gc()`. No `free()`. No `autoreleasepool`. The GC
 is tuned for low-latency UI applications, which means it favors pause time over throughput.
 
 ## Asynchronous Programming
 
-Dart's async model is based on `Future` and `Stream`With `async`/`await` syntax sugar.
+Dart's async model is based on `Future` and `Stream`. With `async`/`await` syntax sugar.
 
 ```dart
 Future&lt;String&gt; fetchData() async {

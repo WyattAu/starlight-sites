@@ -93,7 +93,7 @@ int main() {
 ### Proof: CRTP Achieves Static Dispatch
 
 Let `Base&lt;Derived&gt;` be a CRTP base, and let `Derived` inherit from `Base&lt;Derived&gt;`. When
-`Base&lt;Derived&gt;::f()` calls `static_cast&lt;const Derived\&>(*this).g()`The following occurs:
+`Base&lt;Derived&gt;::f()` calls `static_cast&lt;const Derived\&>(*this).g()`. The following occurs:
 
 1. `*this` has static type `Base&lt;Derived&gt;`. The `static_cast` to `const Derived\&` is valid
    because `Derived` inherits from `Base&lt;Derived&gt;` [N4950 S7.6.2.9].
@@ -169,8 +169,8 @@ How it works:
 
 - The syntax `this const Self& self` declares an **explicit object parameter**. The compiler deduces
   `Self` from the type of the object on which the member function is called.
-- When `p.print()` is called, `Self` is deduced as `Point`So `self` is `const Point&`.
-- When `c.print()` is called, `Self` is deduced as `Circle`So `self` is `const Circle&`.
+- When `p.print()` is called, `Self` is deduced as `Point`. So `self` is `const Point&`.
+- When `c.print()` is called, `Self` is deduced as `Circle`. So `self` is `const Circle&`.
 - The base class can call `self.to_string()` directly -- no `static_cast` needed.
 
 ### Formal Semantics [N4950 S11.4.8.3]
@@ -562,7 +562,7 @@ int main() {
 }
 ```
 
-This works because `Self` deduces to `AuditEntry`Which inherits from both `Named` and `Timestamped`.
+This works because `Self` deduces to `AuditEntry`. Which inherits from both `Named` and `Timestamped`.
 The `self` parameter is a reference to the complete `AuditEntry` object, so access to `name_` and
 `timestamp_` is valid. With CRTP, this would require `static_cast<Derived*>(this)` and Explicit
 knowledge of the derived class's inheritance chain.

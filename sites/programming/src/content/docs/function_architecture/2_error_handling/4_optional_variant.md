@@ -623,7 +623,7 @@ std::optional is a box that may or may not contain a value, like a treasure ches
 ## Common Pitfalls
 
 - **Using `*opt` without checking.** Dereferencing an empty `std::optional` is undefined behavior.
-  Always use `has_value()``value_or()`Or `std::get_if`.
+  Always use `has_value()`, `value_or()` or `std::get_if`.
 - **Storing references in `std::optional`.** `std::optional<T&>` is valid since C++23 but has
   different semantics from `std::optional<T>`. Before C++23, use
   `std::optional<std::reference_wrapper<T>>`.

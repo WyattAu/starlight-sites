@@ -51,7 +51,7 @@ description: "1. A noiseless channel has bandwidth 8000 Hz. What is the maximum 
     each.
 
 11. **Route aggregation.** Aggregate the following routes into the most specific supernet:
-    `198.51.100.0/24``198.51.101.0/24``198.51.102.0/24``198.51.103.0/24`.
+    `198.51.100.0/24`, `198.51.101.0/24`, `198.51.102.0/24`, `198.51.103.0/24`.
 
 12. **IPv6 addressing.** Expand the IPv6 address `2001:db8::1` to its full 128-bit form. How many
     /64 subnets does a /56 prefix provide? How many /128 addresses per /64?

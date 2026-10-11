@@ -291,7 +291,7 @@ $ git commit -S ABCDEF1234567890 -m "feat: add user authentication"
 ```
 
 The `-S` flag (capital S, for "Sign") tells Git to attach a cryptographic signature to the commit.
-Without `-S`The commit is unsigned.
+Without `-S`. The commit is unsigned.
 
 ### Automatic Signing
 

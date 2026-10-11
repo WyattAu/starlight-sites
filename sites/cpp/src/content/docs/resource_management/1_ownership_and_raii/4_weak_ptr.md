@@ -33,7 +33,7 @@ Count** in the control block [N4950 S20.11.3].
 
 ## 4.2 The `lock()` Method
 
-To access the object through a `weak_ptr`You must call `lock()`Which returns a `shared_ptr`. If The
+To access the object through a `weak_ptr`. You must call `lock()`. Which returns a `shared_ptr`. If The
 object has already been destroyed, `lock()` returns an empty `shared_ptr`:
 
 ```cpp
@@ -313,7 +313,7 @@ struct Node {
 };
 ```
 
-The problem: inside `add_child`We need a `shared_ptr` to `this` to set `child->parent`. But `this`
+The problem: inside `add_child`. We need a `shared_ptr` to `this` to set `child->parent`. But `this`
 Is a raw pointer. Constructing a `shared_ptr` from `this` would create a **second** control block,
 Leading to double-free.
 
@@ -593,7 +593,7 @@ without providing additional safety in this case.
    performance-critical code, raw pointers are faster.
 
 3. **When the object is not managed by `shared_ptr`.** `weak_ptr` can only observe objects owned by
-   `shared_ptr`. If the object is stack-allocated or owned by `unique_ptr`Use raw pointers.
+   `shared_ptr`. If the object is stack-allocated or owned by `unique_ptr`. Use raw pointers.
 
 4. **As a universal replacement for raw pointers.** `weak_ptr` does not replace all non-owning
    pointer use cases. It is specifically for the "I need to observe an object whose lifetime I don't
@@ -608,7 +608,7 @@ without providing additional safety in this case.
 `weak_ptr` has specific thread safety guarantees [N4950 S20.11.3.6]:
 
 - **Distinct instances:** All operations on different `weak_ptr` objects observing the same managed
-  object are safe to call concurrently, including `lock()``reset()``expired()`And copy/move
+  object are safe to call concurrently, including `lock()`, `reset()`, `expired()` and copy/move
   operations.
 - **`lock()` is atomic:** It atomically checks the strong count and increments it if nonzero. This
   is the only race-free way to access the managed object from multiple threads.
@@ -686,7 +686,7 @@ int main() {
 }
 ```
 
-`std::owner_less` also enables heterogeneous comparison between `weak_ptr` and `shared_ptr`So you
+`std::owner_less` also enables heterogeneous comparison between `weak_ptr` and `shared_ptr`. So you
 can look up a `shared_ptr` key in a `set` of `weak_ptr` entries (or vice versa) without converting.
 This is useful for registration/unregistration patterns where the subject holds `weak_ptr` observers
 but lookups are done with `shared_ptr`.
@@ -813,7 +813,7 @@ Game engines, and database connection pools.
 1. The managed object is destroyed when `strong_count` reaches 0 [N4950 S20.11.3.5]. This is the
    sole condition for object destruction.
 
-2. `weak_ptr` operations modify only `weak_count`Never `strong_count`:
+2. `weak_ptr` operations modify only `weak_count`. Never `strong_count`:
 
 - `weak_ptr` constructor from `shared_ptr`: increments `weak_count` only.
 - `weak_ptr` destructor: decrements `weak_count` only.
@@ -830,12 +830,12 @@ Destroyed) depends only on the sequence of `shared_ptr` copies, moves, and destr
 Removing `weak_ptr` instances to this sequence does not change the destruction time.
 
 **Corollary:** `weak_ptr::lock()` can _temporarily_ extend the lifetime (because it returns a
-`shared_ptr`Which increments `strong_count`), but the `weak_ptr` itself does not. The caller
+`shared_ptr`. Which increments `strong_count`), but the `weak_ptr` itself does not. The caller
 Controls whether the returned `shared_ptr` is kept alive.
 
 ## 4.14 `weak_ptr` and `enable_shared_from_this` Interaction
 
-When a class inherits from `std::enable_shared_from_this&lt;T&gt;`The internal mechanism stores a
+When a class inherits from `std::enable_shared_from_this&lt;T&gt;`. The internal mechanism stores a
 `weak_ptr` in the base class. This has subtle implications:
 
 ```cpp

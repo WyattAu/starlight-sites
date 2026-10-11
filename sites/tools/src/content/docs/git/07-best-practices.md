@@ -166,8 +166,8 @@ credentials.json
 
 ### What NOT to Ignore
 
-- Configuration files that others need (`.eslintrc.json``tsconfig.json`).
-- Lockfiles (`package-lock.json``yarn.lock``Cargo.lock`).
+- Configuration files that others need (`.eslintrc.json`, `tsconfig.json`).
+- Lockfiles (`package-lock.json`, `yarn.lock`, `Cargo.lock`).
 - `.gitignore` itself.
 
 ### Global `.gitignore`

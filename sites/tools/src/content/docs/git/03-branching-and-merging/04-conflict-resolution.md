@@ -208,7 +208,7 @@ package-lock.json merge=ours
 
 This is particularly useful for:
 
-- **Lockfiles** (`package-lock.json``yarn.lock`): Always keep one version to avoid corruption.
+- **Lockfiles** (`package-lock.json`, `yarn.lock`): Always keep one version to avoid corruption.
 - **Generated files**: Use the generating tool to produce the correct output.
 
 ## Handling Specific Conflict Types

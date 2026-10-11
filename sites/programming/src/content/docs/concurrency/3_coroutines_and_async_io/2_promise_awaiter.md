@@ -50,7 +50,7 @@ The expression `co_await expr` is transformed by the compiler into a sequence of
 
 1. If `expr` has an `operator co_await` member or non-member overload, the result of
    `expr.operator co_await()` (or `operator co_await(expr)`) is the awaiter.
-2. Otherwise, if the promise type has `await_transform`Then `promise.await_transform(expr)` is
+2. Otherwise, if the promise type has `await_transform`. Then `promise.await_transform(expr)` is
    called, and the result is the awaiter.
 3. Otherwise, `expr` itself is the awaiter.
 
@@ -62,7 +62,7 @@ Calls [N4950 §9.5.4.3].
 **Proof:**
 
 1. The compiler first resolves the awaiter through the lookup chain defined above (operator
-   `co_await``await_transform`Or identity).
+   `co_await`, `await_transform` or identity).
 2. Let the resolved awaiter be `a`. The compiler generates code equivalent to:
 
    ```cpp
@@ -121,7 +121,7 @@ The three methods that an awaiter must provide [N4950 §9.5.4.3]:
 The return type of `await_suspend` is critical [N4950 §9.5.4.3]:
 
 - **`void`**: the coroutine is suspended; control returns to the caller.
-- **`bool`**: if `true`The coroutine is suspended; if `false`It resumes immediately.
+- **`bool`**: if `true`. The coroutine is suspended; if `false`. It resumes immediately.
 - **`coroutine_handle<Z>`**: the coroutine is suspended, and the returned handle is resumed
   (symmetric transfer).
 
@@ -205,7 +205,7 @@ int main() {
 
 ## `await_transform` for Custom Suspension Behavior
 
-If the promise type defines `await_transform`Every `co_await expr` first passes through it [N4950
+If the promise type defines `await_transform`. Every `co_await expr` first passes through it [N4950
 §9.5.4.3]. This allows the promise to intercept and transform any awaitable into a custom awaiter,
 Enabling library-level control over suspension semantics:
 
@@ -307,7 +307,7 @@ The promise type communicates values back to the caller through two distinct cha
 - **`co_return expr`** calls `promise.return_value(expr)` (or `promise.return_void()` if no value)
   and transitions the coroutine to the final suspend point.
 
-A promise type must define **either** `return_value` or `return_void`But not both. If the Coroutine
+A promise type must define **either** `return_value` or `return_void`. But not both. If the Coroutine
 uses `co_return;` (no value), `return_void` must be present.
 
 ```cpp
@@ -441,12 +441,12 @@ int main() {
 
 :::caution
 Final suspend point. Calling `handle.destroy()` afterward on a dangling handle is **undefined
-Behavior**. If `final_suspend` returns `std::suspend_always`You **must** eventually call
+Behavior**. If `final_suspend` returns `std::suspend_always`. You **must** eventually call
 `handle.destroy()` or the frame leaks.
 
 ## Symmetric Transfer and `await_suspend` Returning a Handle
 
-When `await_suspend` returns a `coroutine_handle<Z>`The calling coroutine is suspended and the
+When `await_suspend` returns a `coroutine_handle<Z>`. The calling coroutine is suspended and the
 Returned handle is resumed immediately, without unwinding the stack back to the caller. This is
 **symmetric transfer** [N4950 §9.5.4.3]. It is the foundational mechanism for building coroutine
 Chains without stack overflow:
@@ -628,7 +628,7 @@ int main() {
 
 ### Exception Propagation Through Coroutine Chains
 
-When coroutine A `co_await`S coroutine B, and B throws, the exception propagates through B's
+When coroutine A `co_await`s coroutine B, and B throws, the exception propagates through B's
 `unhandled_exception()` to A's `await_resume()`. This is analogous to exception propagation through
 Regular function calls, but the mechanism is explicit: the promise captures the exception, and the
 Awaiter rethrows it.
@@ -745,7 +745,7 @@ Frame leaks. Always pair handle creation with a destruction guarantee (RAII wrap
 `.destroy()` in the destructor of the return type).
 
 **2. Accessing the promise after `final_suspend` with `suspend_never`:** If `final_suspend` returns
-`std::suspend_never`The frame (including the promise) is destroyed at the final suspend point. Any
+`std::suspend_never`. The frame (including the promise) is destroyed at the final suspend point. Any
 Access to `handle.promise()` afterward is undefined behavior.
 
 **3. Exception propagation:** If an exception escapes the coroutine body, `unhandled_exception()` is
@@ -753,7 +753,7 @@ Called on the promise. The default behavior (inheriting from `std::exception_ptr
 Capture the exception. If `unhandled_exception` does nothing, the exception is silently swallowed.
 Always either rethrow, store, or terminate in `unhandled_exception`.
 
-**4. `await_transform` hides the original type:** When the promise defines `await_transform`Every
+**4. `await_transform` hides the original type:** When the promise defines `await_transform`. Every
 `co_await` expression passes through it. If you intend to `co_await` a type that does not match any
 `await_transform` overload, the compiler will error, the raw expression is never used as the
 Awaiter. Provide a generic fallback `template&lt;typename T&gt; auto await_transform(T&& t)` to

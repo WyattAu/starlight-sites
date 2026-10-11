@@ -22,7 +22,7 @@ categories:
 ## Virtual Functions and Dispatch Tables (vtables)
 
 Virtual functions are the foundation of runtime polymorphism in C++. When a member function is
-Declared `virtual`The call is resolved at runtime based on the object"s dynamic type through the
+Declared `virtual`. The call is resolved at runtime based on the object"s dynamic type through the
 Vtable dispatch mechanism. This section covers the `virtual` keyword, the vptr/vtable ABI, dispatch
 Costs, and the `final`/`override` specifiers.
 
@@ -95,7 +95,7 @@ The mechanism works as follows:
    (the vptr) to its class's vtable. The vptr is set by the constructor.
 
 3. **Dispatch is a two-step indirect call:** When a virtual function `f` is called through a pointer
-   `p`The compiler emits code equivalent to `(*p->vptr[offset_of_f])(p)`. This is a single indirect
+   `p`. The compiler emits code equivalent to `(*p->vptr[offset_of_f])(p)`. This is a single indirect
    function call.
 
 $$
@@ -580,7 +580,7 @@ C object:
   offset 24:  c_val
 ```
 
-When calling `fb()` through a `B*`The compiler generates a **thunk** -- a small code stub that
+When calling `fb()` through a `B*`. The compiler generates a **thunk** -- a small code stub that
 Adjusts the `this` pointer by the offset between the `B` subobject and the `C` complete object
 before jumping to `C::fb`. This thunk is stored in `B`'s vtable within `C`'s vtable structure.
 
@@ -592,7 +592,7 @@ C::B::vtable for fb:
 ```
 
 The thunk ensures that `C::fb` receives a pointer to the start of the `C` object (not the `B`
-Subobject), so that `C::fb` can access `a_val``b_val`And `c_val` correctly.
+Subobject), so that `C::fb` can access `a_val`, `b_val` and `c_val` correctly.
 
 ## 1.10 Virtual Inheritance and vtable Complications
 

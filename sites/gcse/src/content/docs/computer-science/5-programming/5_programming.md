@@ -115,8 +115,8 @@ else:
 ```
 
 **Nested IF pitfall.** In the example above, the inner `if score >= 70` only executes when
-`score >= 50`. If `score = 80`The output is "Grade A". If `score = 60`The output is "Grade C". If
-`score = 40`The output is "Fail". Think carefully about the nesting order to avoid unreachable
+`score >= 50`. If `score = 80`. The output is "Grade A". If `score = 60`. The output is "Grade C". If
+`score = 40`. The output is "Fail". Think carefully about the nesting order to avoid unreachable
 Branches.
 
 **CASE / SELECT statements (pseudocode):**
@@ -303,7 +303,7 @@ student["age"] = 16
 ```
 
 Records are useful because they group related data. Instead of having separate variables
-`student_name``student_age``student_form`A record keeps them together logically.
+`student_name`, `student_age`, `student_form`A record keeps them together logically.
 
 ## 3. Subprograms
 
@@ -412,7 +412,7 @@ print(factorial(5))  # 120
 
 - 4 _3_ 2 _factorial(1) = 5_ 4 _3_ 2 _1_ factorial(0) = 5 _4_ 3 _2_ 1 \* 1 = 120.
 
-**The call stack.** Each recursive call adds a new frame to the call stack. For `factorial(5)`The
+**The call stack.** Each recursive call adds a new frame to the call stack. For `factorial(5)`. The
 Stack grows to 6 frames before the base case is reached. Then the frames are unwound as each call
 Returns. If there is no base case, the stack grows until memory is exhausted, causing a
 **StackOverflowError**.

@@ -136,7 +136,7 @@ arr[0] ← 5
 matrix[i, j] ← i + j
 ```
 
-**String operations** use functions like `LENGTH()``SUBSTRING()`And concatenation with `+`:
+**String operations** use functions like `LENGTH()`, `SUBSTRING()` and concatenation with `+`:
 
 ```python
 len ← LENGTH(name)
@@ -190,7 +190,7 @@ FUNCTION sumToN(n) RETURNS INTEGER
 END FUNCTION
 ```
 
-With input `n = 4`The trace table is:
+With input `n = 4`. The trace table is:
 
 | Step | i   | n   | total | i `$\le$` n |
 | ---- | --- | --- | ----- | ----------- |
@@ -292,7 +292,7 @@ FUNCTION linearSearch(arr, target) RETURNS INTEGER
 END FUNCTION
 ```
 
-**Trace with `arr = [7, 3, 9, 1, 5]``target = 9`:**
+**Trace with `arr = [7, 3, 9, 1, 5]`, `target = 9`:**
 
 | Step | i   | arr[i] | arr[i] = target | Action   |
 | ---- | --- | ------ | --------------- | -------- |
@@ -316,7 +316,7 @@ Large datasets.
 **Worked Example: Counting occurrences with linear search**
 
 Modify linear search to count how many times a target value appears in an array. Trace with
-`arr = [3, 7, 3, 1, 3, 9]``target = 3`.
+`arr = [3, 7, 3, 1, 3, 9]`, `target = 3`.
 
 <details>
 <summary>Solution</summary>
@@ -386,7 +386,7 @@ END FUNCTION
 **Precondition:** The array must be sorted in ascending order. If the array is not sorted, binary
 Search will produce incorrect results. This is a critical distinction from linear search.
 
-**Trace with `arr = [1, 3, 5, 7, 9, 11, 13]``target = 7`:**
+**Trace with `arr = [1, 3, 5, 7, 9, 11, 13]`, `target = 7`:**
 
 | Step | low | high | mid | arr[mid] | Comparison | Action   |
 | ---- | --- | ---- | --- | -------- | ---------- | -------- |
@@ -408,7 +408,7 @@ And `target = 4` (not present):
 | 3    | 2   | 2    | 2   | 5        | 5 `&gt;` 4      | high = 1  |
 | 4    | 2   | 1    | --  | --       | low `&gt;` high | Return -1 |
 
-When `low` exceeds `high`The search space is empty and the target is confirmed absent.
+When `low` exceeds `high`. The search space is empty and the target is confirmed absent.
 
 **Time complexity:** Each iteration halves the search space. After $k$ iterations, the remaining
 Search space has size $\frac{n}{2^k}$. The search terminates when $\frac{n}{2^k} \lt 1$ I.e.,
@@ -645,7 +645,7 @@ No swaps in pass 4, so the algorithm terminates.
   performs $\frac{n(n-1)}{2}$ comparisons even on an already-sorted array. The IB pseudocode
   includes this optimization, and exam questions often ask about its effect on the best-case
   complexity (changing it from $O(n^2)$ to $O(n)$).
-- **Confusing the loop bound:** The inner loop compares `arr[i]` with `arr[i + 1]`So `i` must stop
+- **Confusing the loop bound:** The inner loop compares `arr[i]` with `arr[i + 1]`. So `i` must stop
   at `n - 2` (not `n - 1`), otherwise `arr[i + 1]` would be out of bounds on the last iteration.
 - **Miscounting passes:** Each pass places one more element in its final position at the end of the
   array. After pass $k$ The last $k$ elements are sorted. The inner loop range should shrink
@@ -781,8 +781,8 @@ shifts.
 
 Detailed trace for pass 4 (key = 3):
 
-- j = 3: `arr[3] = 5 > 3`So shift: `arr[4] = 5`J becomes 2. Array: `[1, 2, 4, 5, 5]`
-- j = 2: `arr[2] = 4 > 3`So shift: `arr[3] = 4`J becomes 1. Array: `[1, 2, 4, 4, 5]`
+- j = 3: `arr[3] = 5 > 3`. So shift: `arr[4] = 5`J becomes 2. Array: `[1, 2, 4, 5, 5]`
+- j = 2: `arr[2] = 4 > 3`. So shift: `arr[3] = 4`J becomes 1. Array: `[1, 2, 4, 4, 5]`
 - j = 1: `arr[1] = 2 < 3`Loop exits. Place key: `arr[2] = 3`. Array: `[1, 2, 3, 4, 5]`
 
 **Totals:** Comparisons: $1 + 1 + 1 + 3 = 6$. Shifts: $0 + 0 + 0 + 2 = 2$.
@@ -1439,7 +1439,7 @@ Speeds (e.g., keyboard input buffered for the CPU to process).
 **Worked Example: Circular queue operations**
 
 A circular queue (array size 5) has front = 0, rear = 2, count = 3, with items `[A, B, C, _, _]`.
-Perform: `dequeue()``enqueue(D)``enqueue(E)`. Show the state after each operation.
+Perform: `dequeue()`, `enqueue(D)`, `enqueue(E)`. Show the state after each operation.
 
 <details>
 <summary>Solution</summary>
@@ -2148,7 +2148,7 @@ Essence of **encapsulation** and **information hiding**.
 
 The implementation can be changed without affecting code that uses the ADT, as long as the interface
 Remains the same. A stack might be implemented with an array, a linked list, or even a dynamic
-Array, but the `push``pop`And `peek` operations remain the same from the caller's perspective.
+Array, but the `push`, `pop` and `peek` operations remain the same from the caller's perspective.
 
 ADTs reduce complexity by hiding implementation details. A programmer using a stack does not need to
 Know how memory is managed or how pointers are updated.
@@ -2240,14 +2240,14 @@ From other modules. Only the essential interface is exposed. This principle has 
 
 **Protection against invalid states:** If the internal array of a stack is private, external code
 Cannot corrupt it by directly modifying array elements. All modifications go through `push` and
-`pop`Which maintain the stack invariant.
+`pop`. Which maintain the stack invariant.
 
 **Reduced coupling:** Modules that use a stack depend only on its interface, not its implementation.
 Changing the implementation (e.g., from array to linked list) does not require changes to the client
 Code.
 
 **Simplified reasoning:** A programmer using a stack only needs to understand the LIFO semantics of
-`push` and `pop`Not the memory management details of the underlying array or linked list.
+`push` and `pop`. Not the memory management details of the underlying array or linked list.
 
 **Enhanced maintainability:** Bugs in the implementation can be fixed without affecting other parts
 Of the system. The implementation can be optimized (e.g., switching to a more efficient algorithm)
@@ -2260,7 +2260,7 @@ Interface available to external code.
 **Worked Example: Implementing a Stack ADT with a linked list**
 
 Implement the Stack ADT using a singly linked list instead of an array. Write IB pseudocode for
-`push``pop``peek`And `isEmpty`.
+`push`, `pop`, `peek` and `isEmpty`.
 
 <details>
 <summary>Solution</summary>
@@ -2588,7 +2588,7 @@ _If you get this wrong, revise: [Stacks](#stacks)_
 ### Problem 12: Queue Simulation
 
 A queue initially contains `[A, B, C]` (front = A). Perform:
-`dequeue()``enqueue(D)``enqueue(E)``dequeue()``enqueue(F)`. Show the queue after each operation.
+`dequeue()`, `enqueue(D)`, `enqueue(E)`, `dequeue()`, `enqueue(F)`. Show the queue after each operation.
 
 <details>
 <summary>Solution</summary>

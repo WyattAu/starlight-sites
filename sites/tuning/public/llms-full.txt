@@ -705,7 +705,7 @@ the actual average frequency over a period, not the instantaneous value reported
 
 TDP (Thermal Design Power) is a marketing metric, not a power consumption limit. An Intel CPU with a
 125 W TDP can draw 200–250 W during multi-core boost (PL2 window). Always monitor actual Power draw
-with `turbostat``RAPL`Or HWiNFO64 rather than relying on TDP specifications.
+with `turbostat`, `RAPL` or HWiNFO64 rather than relying on TDP specifications.
 
 ### Applying Desktop Tuning to Servers
 

@@ -359,7 +359,7 @@ When you look up `d[key]`CPython performs these steps:
    step 5.
 5. If the hashes match, compare the actual keys with `key == dk_entries[idx].key`. If they match,
    return the value. If not, go to step 6.
-6. **Linear probing:** Check position `i+1``i+2`Etc. (wrapping around) until finding `DKIX_EMPTY`
+6. **Linear probing:** Check position `i+1`, `i+2`. Etc. (wrapping around) until finding `DKIX_EMPTY`
    (not found) or a matching entry.
 
 ```python
@@ -385,7 +385,7 @@ for i in range(20):
 
 The hash table maintains two thresholds:
 
-- **2/3 full.** When `dk_nentries / dk_size > 2/3`The table is resized. A new table of 2x or 4x the
+- **2/3 full.** When `dk_nentries / dk_size > 2/3`. The table is resized. A new table of 2x or 4x the
   size is allocated, and all entries are reinserted. This is expensive (O(n)) but occurs
   infrequently due to geometric growth.
 - **1/12 used.** When the table is mostly empty after deletions, it is shrunk to reduce memory
@@ -410,7 +410,7 @@ Mitigate this.
 
 ### Dict Views
 
-The `.keys()``.values()`And `.items()` methods return **view objects** -- lightweight wrappers That
+The `.keys()`, `.values()` and `.items()` methods return **view objects** -- lightweight wrappers That
 reflect the current state of the dictionary without copying data.
 
 ```python
@@ -644,7 +644,7 @@ nested["user1"]["page_views"] = 42
 nested["user1"]["clicks"] = 7
 ```
 
-The default factory is called with **no arguments**, so `list``int``set`And `dict` all work
+The default factory is called with **no arguments**, so `list`, `int`, `set` and `dict` all work
 Directly. For custom defaults, use a lambda or a named function.
 :::
 

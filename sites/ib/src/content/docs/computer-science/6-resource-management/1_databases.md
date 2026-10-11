@@ -302,7 +302,7 @@ A functional dependency $X \rightarrow Y$ means that the value of attribute $Y$ 
 Determined by the value of attribute $X$. If two rows have the same value for $X$ They must have The
 same value for $Y$.
 
-**Example:** In a table with `{studentID, name, dateOfBirth}`The dependency studentID $\rightarrow$
+**Example:** In a table with `{studentID, name, dateOfBirth}`. The dependency studentID $\rightarrow$
 name holds because each student has exactly one name.
 
 **Partial dependency:** $X \rightarrow Y$ where $X$ is a proper subset of a candidate key. This
@@ -506,7 +506,7 @@ Single attribute, not composite), there cannot be partial dependencies. The tabl
 
 - `rentalID` $\rightarrow$ `customerName` $\rightarrow$ `customerEmail`: customerEmail depends on
   customerName (transitive)
-- `rentalID` $\rightarrow$ `movieTitle` $\rightarrow$ `genre``dailyRate`: genre and dailyRate depend
+- `rentalID` $\rightarrow$ `movieTitle` $\rightarrow$ `genre`, `dailyRate`: genre and dailyRate depend
   on movieTitle (transitive)
 
 **Decompose into 4 tables:**
@@ -650,8 +650,8 @@ FROM Student
 WHERE gpa >= 3.5 AND enrollmentYear = 2023;
 ```
 
-**Comparison operators in WHERE:** `=``<>``<``>``$\le$``$\ge$``BETWEEN``LIKE``IN`
-`IS NULL``IS NOT NULL`.
+**Comparison operators in WHERE:** `=`, `<>`, `<`, `>`, `$\le$`, `$\ge$`, `BETWEEN`, `LIKE`, `IN`
+`IS NULL`, `IS NOT NULL`.
 
 **ORDER BY:**
 
@@ -1865,7 +1865,7 @@ _If you get this wrong, revise: [Big Data](#big-data)_
 
 ### Problem 13: Correlated Subquery
 
-A company has an Employee table with columns `empID``name``salary`And `departmentID`. Write a Query
+A company has an Employee table with columns `empID`, `name`, `salary` and `departmentID`. Write a Query
 that finds employees who earn more than the average salary in their own department. Explain why This
 requires a correlated subquery.
 

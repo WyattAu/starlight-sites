@@ -1754,7 +1754,7 @@ Correct order. Never run `lvreduce` without `--resizefs` unless you know exactly
 
 ### Forgetting to Resize the Filesystem After Extending the LV
 
-After extending an LV with `lvextend`The filesystem does not automatically grow to fill the new
+After extending an LV with `lvextend`. The filesystem does not automatically grow to fill the new
 Space. You must explicitly resize the filesystem.
 
 ```bash
@@ -1810,7 +1810,7 @@ Block mappings.
 
 ### Forgetting to Reload Partition Table
 
-After modifying partition tables with `fdisk``parted`Or `sgdisk`The kernel does not always Detect
+After modifying partition tables with `fdisk`, `parted` or `sgdisk`. The kernel does not always Detect
 the changes automatically.
 
 ```bash

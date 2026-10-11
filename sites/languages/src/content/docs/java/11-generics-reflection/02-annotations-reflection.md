@@ -146,7 +146,7 @@ it makes intent explicit and catches accidental additions.
 ### Other Built-in Annotations
 
 - `@SafeVarargs` (JDK 7), suppresses heap pollution warnings on varargs methods/constructors. Must
-  be on `final``static`Or `private` methods (or constructors). Applying it on non-final instance
+  be on `final`, `static` or `private` methods (or constructors). Applying it on non-final instance
   methods is a compile error (JDK 9+).
 - `@Native` (JDK 8), marks a `static final` field as a constant that may be referenced from native
   code. The field must be initialized to a compile-time constant.
@@ -304,7 +304,7 @@ public @interface Config {
 
 Allowed return types for annotation elements:
 
-- All primitives (`int``long``boolean`Etc.)
+- All primitives (`int`, `long`, `boolean`. Etc.)
 - `String`
 - `Class<?>` (or `Class<? extends SomeType>`)
 - Enums
@@ -605,7 +605,7 @@ Limitations:
 
 - Only works with **interfaces**, not concrete classes. For class-based proxying, use CGLIB or
   ByteBuddy.
-- `equals``hashCode`And `toString` are also dispatched to the handler (default implementations in
+- `equals`, `hashCode` and `toString` are also dispatched to the handler (default implementations in
   `Proxy`).
 - The proxy object is an instance of `java.lang.reflect.Proxy` and all specified interfaces.
 
@@ -616,7 +616,7 @@ Doubles, and access control (permission checks before method execution).
 
 ### Proxy Class Caching
 
-JDK proxies cache generated proxy classes (named `$Proxy0``$Proxy1`Etc.). Set
+JDK proxies cache generated proxy classes (named `$Proxy0`, `$Proxy1`. Etc.). Set
 `sun.misc.ProxyGenerator.saveGeneratedFiles=true` to write generated proxy class files to disk for
 Debugging.
 
@@ -871,7 +871,7 @@ List<String> list = (List<String>) field.get(obj);
 ```
 
 The cast succeeds at runtime because erasure reduces it to `(List)`. If the field actually contains
-A `List<Integer>`You get a `ClassCastException` later when accessing elements, not at the cast Site.
+A `List<Integer>`. You get a `ClassCastException` later when accessing elements, not at the cast Site.
 
 ### Primitive Type Handling
 
@@ -892,7 +892,7 @@ Method m2 = clazz.getMethod("process", int.class);
 
 ### Proxy Equals and hashCode
 
-JDK dynamic proxies delegate `equals``hashCode`And `toString` to the `InvocationHandler`. Always
+JDK dynamic proxies delegate `equals`, `hashCode` and `toString` to the `InvocationHandler`. Always
 Handle these methods in your handler if proxy identity semantics matter:
 
 ```java

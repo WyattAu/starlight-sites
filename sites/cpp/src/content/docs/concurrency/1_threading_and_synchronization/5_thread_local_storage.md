@@ -84,7 +84,7 @@ before the variable's first odr-use [N4950 §6.7.3].
 
 ### `thread_local` at Class Scope
 
-When a `static` class member is declared `thread_local`Each thread gets its own copy of that Static
+When a `static` class member is declared `thread_local`. Each thread gets its own copy of that Static
 member. The member is shared across all instances of the class _within the same thread_:
 
 ```cpp
@@ -118,7 +118,7 @@ int main() {
 ## `std::this_thread::get_id()`
 
 `std::this_thread::get_id()` [N4950 §31.4.4.1.6] returns a unique identifier for the current thread.
-The return type is `std::thread::id`Which is a lightweight, copyable, and comparable type [N4950
+The return type is `std::thread::id`. Which is a lightweight, copyable, and comparable type [N4950
 §31.4.4.1.5].
 
 ```cpp
@@ -371,7 +371,7 @@ The standard guarantees thread-safe initialization for both `static` locals [N49
 `thread_local` variables. The compiler generates a guard variable with atomic operations to ensure
 that if two threads race to initialize the same `thread_local` instance (within the same thread's
 Execution, which cannot happen for `thread_local`), exactly one initialization occurs. For
-Function-local `static`This matters because multiple threads can call the function concurrently.
+Function-local `static`. This matters because multiple threads can call the function concurrently.
 
 ### Dynamic Initialization with `thread_local` and `static` Combined
 
@@ -518,7 +518,7 @@ Same thread, then `B` is destroyed before `A`.
    in the order of their definitions.
 2. [N4950 §6.7.3] states that destruction of thread-local variables occurs "in the reverse order of
    construction."
-3. If `A` is constructed before `B`Then by (2), `B` is destroyed before `A`.
+3. If `A` is constructed before `B`. Then by (2), `B` is destroyed before `A`.
 
 $\square$
 
@@ -527,7 +527,7 @@ $\square$
 The standard does **not** guarantee initialization order of `thread_local` variables across
 Translation units. This is the same problem as the static initialization order fiasco, but per
 Thread. If `thread_local` variable `A` in `a.cpp` is initialized before `thread_local` variable `B`
-In `b.cpp`The behavior is unspecified [N4950 §6.7.3]:
+In `b.cpp`. The behavior is unspecified [N4950 §6.7.3]:
 
 ```cpp
 // a.cpp
@@ -562,7 +562,7 @@ Threads, it terminates the process.
 
 ## Interaction with Dynamic Loading (`dlopen`)
 
-When a shared library is loaded via `dlopen`Any `thread_local` variables defined in that library
+When a shared library is loaded via `dlopen`. Any `thread_local` variables defined in that library
 must be initialized for threads that already exist. The implementation uses `__tls_get_addr` for
 General Dynamic TLS model to handle this:
 
@@ -634,7 +634,7 @@ Exits. If the process exits before detached threads complete, the destructors ma
 
 ### TLS and `fork()`
 
-After `fork()`Only the calling thread survives. `thread_local` variables in other threads are not
+After `fork()`. Only the calling thread survives. `thread_local` variables in other threads are not
 Copied to the child process. The child process has only the forking thread's TLS state. Accessing
 TLS variables that were initialized by other threads (before `fork`) may lead to stale or
 Inconsistent state.

@@ -213,7 +213,7 @@ class TemperatureSlider extends StatelessWidget {
 ### How updateShouldNotify Controls Rebuilds
 
 `updateShouldNotify` determines whether descendants that depend on this `InheritedWidget` should be
-Rebuilt. If it returns `false`No descendant is notified. If it returns `true`Every widget that
+Rebuilt. If it returns `false`. No descendant is notified. If it returns `true`. Every widget that
 Called `of()` is rebuilt.
 
 This is the granularity mechanism, you control which state changes trigger rebuilds by what you
@@ -232,14 +232,14 @@ bool updateShouldNotify(AppState oldWidget) {
 ### Limitations of InheritedWidget
 
 1. **No built-in mutation API**, `InheritedWidget` is immutable. To change its data, you must wrap
-   it in a `StatefulWidget` that calls `setState`Then provide a new `InheritedWidget` with updated
+   it in a `StatefulWidget` that calls `setState`. Then provide a new `InheritedWidget` with updated
    data. This is the boilerplate that `Provider` eliminates.
 2. **No notification granularity**. When `updateShouldNotify` returns `true`**all** dependents
    rebuild, not just the ones that care about the changed field.
 3. **No lifecycle management**, `InheritedWidget` does not dispose resources. You must handle
    disposal in the wrapping `StatefulWidget`.
 4. **Verbose**. Every piece of shared state requires a custom `InheritedWidget` subclass with
-   `of()``updateShouldNotify`And a wrapping `StatefulWidget`.
+   `of()`, `updateShouldNotify` and a wrapping `StatefulWidget`.
 
 ## Provider
 
@@ -401,7 +401,7 @@ MultiProvider(
    the state directly, bypassing any validation logic.
 4. **No dependency injection for non-ChangeNotifier types**, `Provider` works best with
    `ChangeNotifier`. For plain objects, services, or repositories, you need separate provider types
-   (`Provider``FutureProvider``StreamProvider`).
+   (`Provider`, `FutureProvider`, `StreamProvider`).
 5. **BuildContext dependency**, `context.read()` and `context.watch()` require `BuildContext` which
    means state access is tied to the widget tree. You cannot access state outside of widgets (e.g.,
    in a domain service or route guard).
@@ -1295,7 +1295,7 @@ class AuthState extends Equatable {
 }
 ```
 
-Without proper `props`The BLoC will skip emitting identical states even when the fields differ,
+Without proper `props`. The BLoC will skip emitting identical states even when the fields differ,
 Because `Equatable` considers them equal.
 
 ### 10. Premature Abstraction

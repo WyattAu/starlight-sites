@@ -25,7 +25,7 @@ Critical.
 - **Compiler Caching (ccache/sccache):** Accelerates the compilation of _your_ source code by
   hashing translation units. It operates at the object file (`.o`) level.
 - **Binary Package Caching (vcpkg/Conan):** Accelerates the acquisition of _dependencies_ by storing
-  pre-compiled libraries. It operates at the package level (`.lib``.dll`Headers).
+  pre-compiled libraries. It operates at the package level (`.lib`, `.dll`Headers).
 
 Without binary caching, a Clean Build of a project involving heavy dependencies (e.g., Qt, LLVM,
 Boost, Folly) entails compiling millions of lines of C++ code, often taking hours. With binary
@@ -193,7 +193,7 @@ the compilation of your own source code by memoizing translation unit compilatio
 
 ### How Compiler Caches Work
 
-A compiler cache intercepts invocations of the compiler (`gcc``clang``cl.exe`) and computes a **hash
+A compiler cache intercepts invocations of the compiler (`gcc`, `clang`, `cl.exe`) and computes a **hash
 key** from all inputs that affect the output object file. If a matching key exists in the Cache, the
 cached `.o` file is returned instead of invoking the compiler.
 
@@ -444,7 +444,7 @@ This combined approach can reduce a 45-minute CI build to under 2 minutes for in
 1. **Forgetting to set `CMAKE_CXX_COMPILER_LAUNCHER`:** Without this, CMake invokes the compiler
    directly, bypassing the cache entirely. Verify with `ccache -s` that the "called" counter
    increases.
-2. **Cache poisoning with instrumented builds:** Running `sanitize``coverage`Or `debug` builds
+2. **Cache poisoning with instrumented builds:** Running `sanitize`, `coverage` or `debug` builds
    populates the cache with instrumented `.o` files. Subsequent release builds may accidentally use
    these. Use separate cache directories or clear the cache between build types.
 3. **Ignoring the cache size limit:** If the cache reaches its maximum size, ccache uses an LRU

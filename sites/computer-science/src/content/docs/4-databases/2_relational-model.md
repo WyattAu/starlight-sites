@@ -114,7 +114,7 @@ $$
 **Query:** Find the names of students who have enrolled in every course offered by the CS
 department.
 
-**Schema:** `Student(sid, name, dept)``Course(cid, title, dept)``Takes(sid, cid, semester)`.
+**Schema:** `Student(sid, name, dept)`, `Course(cid, title, dept)`, `Takes(sid, cid, semester)`.
 
 **Step 1.** Get CS course IDs:
 

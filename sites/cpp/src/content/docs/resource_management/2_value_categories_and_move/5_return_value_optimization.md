@@ -74,7 +74,7 @@ Direct construction of `T` in the caller's storage. No temporary object is creat
    destination object [N4950 S8.4.4].
 4. "Directly initializes" means the constructor for `T` is invoked with the destination object's
    storage as the `this` pointer. There is no intermediate temporary.
-5. In a function `T f() { return T{args}; }`The prvalue `T{args}` directly initializes the **result
+5. In a function `T f() { return T{args}; }`. The prvalue `T{args}` directly initializes the **result
    object** of the function call expression [N4950 S8.4.4]/1.
 6. The result object is the object in the caller's storage that the function call initializes.
 7. Therefore, exactly one `T(args)` constructor call occurs, directly in the caller's storage. QED.
@@ -172,7 +172,7 @@ int main() {
 }
 ```
 
-With `-O2`Output:
+With `-O2`. Output:
 
 ```
 NRVO (in standard practice elided at -O2):
@@ -180,7 +180,7 @@ NRVO (in standard practice elided at -O2):
   ~Widget(99)
 ```
 
-With `-fno-elide-constructors`Output:
+With `-fno-elide-constructors`. Output:
 
 ```
 NRVO (in standard practice elided at -O2):
@@ -439,7 +439,7 @@ Good (NRVO or implicit move):
 
 NRVO works by constructing the named local variable directly in the return slot. For this to work,
 The compiler must be able to prove that every use of the local variable can be redirected to the
-Return slot. When you write `return std::move(local)`The return expression is no longer the named
+Return slot. When you write `return std::move(local)`. The return expression is no longer the named
 Variable `local`it is an xvalue produced by `std::move(local)`. The compiler can no longer prove
 that the local variable and the return expression refer to the same object, so NRVO is inhibited.
 
@@ -624,7 +624,7 @@ has a different layout than the `Base` object. The compiler must construct the f
 
 ## 8.8 RVO and `std::optional`
 
-When returning a prvalue wrapped in `std::optional`The prvalue is constructed inside the Optional's
+When returning a prvalue wrapped in `std::optional`. The prvalue is constructed inside the Optional's
 storage. This is also guaranteed elision:
 
 ```cpp
@@ -764,7 +764,7 @@ int main() {
 On some platforms, the ABI imposes constraints on copy elision that go beyond what the Standard
 Requires. For example:
 
-- **Return value registers:** On x86_64, small -copyable types (e.g., `int``double` small structs)
+- **Return value registers:** On x86_64, small -copyable types (e.g., `int`, `double` small structs)
   are returned in registers, not via the hidden return slot pointer. For these types, RVO is
   irrelevant, there is no memory location to elide into.
 

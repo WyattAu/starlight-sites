@@ -209,7 +209,7 @@ a:hover {
 1. Inline styles (`style=""`)
 2. ID selectors (`#id`)
 3. Class selectors (`.class`), attribute selectors, pseudo-classes
-4. Element selectors (`p``div`)
+4. Element selectors (`p`, `div`)
 5. Universal selector (`*`)
 
 **Box Model:** Every element is a box with content, padding, border, and margin.
@@ -677,7 +677,7 @@ See the examples integrated throughout the sections above.
 
 ## Common Pitfalls
 
-1. **Semantic HTML:** Use `nav``main``section``article` instead of generic `div` elements. This
+1. **Semantic HTML:** Use `nav`, `main`, `section`, `article` instead of generic `div` elements. This
    improves accessibility and SEO.
 
 2. **Box model confusion:** Remember that `width` in the standard box model does NOT include padding
@@ -695,8 +695,8 @@ See the examples integrated throughout the sections above.
 6. **CSS specificity conflicts.** Inline styles override external CSS. Use specificity rules to
    predict which styles apply.
 
-7. **Forgetting to close HTML tags.** Some elements (like `img``br``input`) are self-closing. Others
-   (like `div``p`) must be explicitly closed.
+7. **Forgetting to close HTML tags.** Some elements (like `img`, `br`, `input`) are self-closing. Others
+   (like `div`, `p`) must be explicitly closed.
 
 ---
 
@@ -743,7 +743,7 @@ See the examples integrated throughout the sections above.
 
 12. Explain what the Same-Origin Policy is and why it is important for web security.
 
-13. Write HTML that includes a semantic structure with `header``nav``main``article`And `footer`
+13. Write HTML that includes a semantic structure with `header`, `nav`, `main`, `article` and `footer`
     elements.
 
 14. Explain the difference between client-side and server-side validation. Why should both be used?

@@ -200,7 +200,7 @@ const [user, setUser] = useState<User | null>(null);
 const [data, setData] = useState<ApiResponse | undefined>(undefined);
 ```
 
-**Common Pitfall:** Using `useState(null)` without a type parameter produces `useState<null>`Which
+**Common Pitfall:** Using `useState(null)` without a type parameter produces `useState<null>`. Which
 Means the state can only ever be `null`. Always provide the union type:
 `useState<Type | null>(null)`.
 
@@ -503,7 +503,7 @@ function useConfig() {
 }
 ```
 
-When a default value is provided, `useContext` never returns `null`So the null-check in the hook Is
+When a default value is provided, `useContext` never returns `null`. So the null-check in the hook Is
 unnecessary. However, this approach is less type-safe because the default value may not match the
 Actual provider value.
 
@@ -779,7 +779,7 @@ Using `MouseEvent` instead of `React.MouseEvent` causes type errors:
 const handleClick = (e: MouseEvent) => {};
 ```
 
-This types `e` as the native DOM `MouseEvent`Not React's synthetic event. Use
+This types `e` as the native DOM `MouseEvent`. Not React's synthetic event. Use
 `React.MouseEvent<HTMLButtonElement>`.
 
 ### Pitfall 2: `useRef` for DOM Elements Without `null` Initial Value
@@ -788,7 +788,7 @@ This types `e` as the native DOM `MouseEvent`Not React's synthetic event. Use
 const ref = useRef<HTMLDivElement>();
 ```
 
-This creates `MutableRefObject<HTMLDivElement | undefined>`Which is not compatible with JSX `ref`
+This creates `MutableRefObject<HTMLDivElement | undefined>`. Which is not compatible with JSX `ref`
 Props that expect `Ref<HTMLDivElement>`. Always initialise DOM refs with `null`:
 
 ```tsx
@@ -797,7 +797,7 @@ const ref = useRef<HTMLDivElement>(null);
 
 ### Pitfall 3: Missing Exhaustive Checks in Reducers
 
-When using `useReducer`Always add a default case that returns the current state or calls
+When using `useReducer`. Always add a default case that returns the current state or calls
 `assertNever` to ensure new action types are handled:
 
 ```tsx

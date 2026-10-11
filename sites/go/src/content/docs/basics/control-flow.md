@@ -134,7 +134,7 @@ case 4:
 
 ## For Loops
 
-Go has exactly one looping construct: `for`. There is no `while`No `do-while`No `loop`.
+Go has exactly one looping construct: `for`. There is no `while`. No `do-while`. No `loop`.
 
 ### Classic For
 
@@ -256,7 +256,7 @@ for _, p := range items {
 
 ## Break and Continue
 
-`break` exits the innermost `for``switch`Or `select`. `continue` skips to the next iteration of The
+`break` exits the innermost `for`, `switch` or `select`. `continue` skips to the next iteration of The
 innermost `for` loop.
 
 ### Labeled Break
@@ -315,7 +315,7 @@ invalid:
 }
 ```
 
-`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for``if`Functions).
+`goto` is rarely used in idiomatic Go. Prefer structured control flow (`for`, `if`Functions).
 
 ## Defer
 

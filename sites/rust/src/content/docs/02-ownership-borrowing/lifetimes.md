@@ -41,7 +41,7 @@ fn dangle() -> &String {
 }
 ```
 
-The compiler rejects this because `s` is dropped at the end of `dangle`But the function promises To
+The compiler rejects this because `s` is dropped at the end of `dangle`. But the function promises To
 return a reference. The returned reference would point to freed memory. Lifetimes are the Mechanism
 by which the compiler tracks and enforces this constraint.
 

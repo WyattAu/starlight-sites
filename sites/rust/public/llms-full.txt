@@ -351,7 +351,7 @@ the entries.
 
 ### `break`
 
-Exits the current loop immediately. In a `loop``break` can return a value:
+Exits the current loop immediately. In a `loop`, `break` can return a value:
 
 ```rust
 let mut i = 0;
@@ -475,7 +475,7 @@ fn parse_or_default(s: &str) -> u64 {
 }
 ```
 
-The `else` block can contain `return``break``continue``panic!`Or another diverging Expression. It
+The `else` block can contain `return`, `break`, `continue`, `panic!` or another diverging Expression. It
 cannot be a non-diverging block.
 
 ### `while let`
@@ -1008,7 +1008,7 @@ not appear in production code.
 
 ## Common Pitfalls
 
-1. **Using `if` without braces.** Rust requires braces around the body of `if``else``while`And
+1. **Using `if` without braces.** Rust requires braces around the body of `if`, `else`, `while` and
    `for`. Unlike C, `if (x) return;` is invalid, you must write `if x { return; }`.
 
 2. **Forgetting `match` exhaustiveness.** Adding a new enum variant without updating all `match`
@@ -1229,8 +1229,8 @@ let x: bool = true;
 assert_eq!(std::mem::size_of::<bool>(), 1);
 ```
 
-`bool` implements `Copy``Clone``Debug``Display`And the bitwise operators (`!``&``|` `^`) via the
-`BitAnd``BitOr``BitXor``Not` traits.
+`bool` implements `Copy`, `Clone`, `Debug`, `Display` and the bitwise operators (`!`, `&`, `|` `^`) via the
+`BitAnd`, `BitOr`, `BitXor`, `Not` traits.
 
 ## Character Type
 
@@ -1445,7 +1445,7 @@ Types:
 | `&str`   | Borrowed  | Anywhere (stack, heap, static) | 16 bytes (ptr + len)                 | No       |
 
 `String` is a `Vec<u8>` guaranteed to hold valid UTF-8. `&str` is a slice of UTF-8 bytes. Every
-`String` can be dereferenced to `&str`But not vice versa.
+`String` can be dereferenced to `&str`. But not vice versa.
 
 ```rust
 let s: String = String::from("hello");
@@ -1670,7 +1670,7 @@ static GREETING: &str = "hello";
 - Has a single memory address for the entire program
 - Lives for `'static` lifetime
 - Must be `Sync` (accessible from multiple threads)
-- Can be mutated with interior mutability (`AtomicUsize``Mutex``OnceLock`)
+- Can be mutated with interior mutability (`AtomicUsize`, `Mutex`, `OnceLock`)
 
 ```rust
 use std::sync::atomic::{AtomicUsize, Ordering};
@@ -1683,7 +1683,7 @@ fn increment() {
 ```
 
 :::caution
-Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or `OnceLock` Instead.
+Requires `unsafe` blocks to access. Prefer `static` with `Mutex`, `AtomicUsize` or `OnceLock` Instead.
 :::
 
 ## Type Aliases
@@ -1853,7 +1853,7 @@ let y: Result<u8, _> = 256u32.try_into(); // Err(TryFromIntError)
 
 ## Raw Pointers
 
-Raw pointers (`*const T``*mut T`) exist but are restricted to `unsafe` blocks:
+Raw pointers (`*const T`, `*mut T`) exist but are restricted to `unsafe` blocks:
 
 ```rust
 let x = 42;
@@ -1875,10 +1875,10 @@ Necessary for FFI and for implementing safe abstractions over unsafe memory oper
 All primitive types are in the prelude and are always in scope. You do not need to import them. The
 Following is an approximate list of commonly used prelude items (see the
 [standard library prelude](https://doc.rust-lang.org/std/prelude/index.html) for the authoritative
-List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
-`AsRef``AsMut``From``Into``IntoIterator``Fn``FnMut``FnOnce``Send``Sync``Unpin`
-`Sized``Debug``Display``Iterator``Extend``PartialEq``PartialOrd``Eq``Ord``Hash`
-`Default``ToString``println``eprintln``format``vec``drop`.
+List): `Option`, `Result`, `Vec`, `String`, `Box`, `Drop`, `Clone`, `Copy`, `Deref`, `DerefMut`
+`AsRef`, `AsMut`, `From`, `Into`, `IntoIterator`, `Fn`, `FnMut`, `FnOnce`, `Send`, `Sync`, `Unpin`
+`Sized`, `Debug`, `Display`, `Iterator`, `Extend`, `PartialEq`, `PartialOrd`, `Eq`, `Ord`, `Hash`
+`Default`, `ToString`, `println`, `eprintln`, `format`, `vec`, `drop`.
 
 ## Common Pitfalls
 
@@ -1891,7 +1891,7 @@ List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
    literals without allocation.
 
 3. **Integer overflow in release mode.** The compiler does not check for overflow in release builds.
-   Use `wrapping_*``saturating_*``checked_*`Or `overflowing_*` methods explicitly when overflow is
+   Use `wrapping_*`, `saturating_*`, `checked_*` or `overflowing_*` methods explicitly when overflow is
    possible and wrapping is not desired.
 
 4. **Floating-point equality.** Never use `==` to compare floats for equality. Use an epsilon
@@ -2013,11 +2013,11 @@ Needs to change in response to operations that only have a shared reference avai
 Mutability resolves this by moving the mutation check from compile time to runtime (for
 Single-threaded types) or by using synchronization primitives (for multi-threaded types).
 
-## `UnsafeCell<T>`The Primitive
+## `UnsafeCell<T>`. The Primitive
 
 `UnsafeCell<T>` is the foundation of all interior mutability in Rust. It is the only type in the
 Standard library that allows you to obtain a mutable reference to its interior through a shared
-Reference. All other interior mutability types (`Cell``RefCell``Mutex``RwLock`) are built on Top of
+Reference. All other interior mutability types (`Cell`, `RefCell`, `Mutex`, `RwLock`) are built on Top of
 `UnsafeCell`.
 
 ```rust
@@ -2053,8 +2053,8 @@ the aliasing invariant. Violating this is undefined behavior.
 ### Why `UnsafeCell` Exists
 
 The compiler assumes that `&T` never allows mutation. `UnsafeCell` is the escape hatch that tells
-the compiler "I will manage the aliasing rules myself." Without `UnsafeCell`It would be impossible
-to implement `Cell``RefCell``Mutex`Or any other interior mutability type.
+the compiler "I will manage the aliasing rules myself." Without `UnsafeCell`. It would be impossible
+to implement `Cell`, `RefCell`, `Mutex` or any other interior mutability type.
 
 ### `UnsafeCell` and `Sync`
 
@@ -2112,7 +2112,7 @@ assert_eq!(counter.get(), 43);
 
 ### `Cell` with Non-Copy Types
 
-`Cell` works with non-`Copy` types for `set``replace`And `take`But not `get`:
+`Cell` works with non-`Copy` types for `set`, `replace` and `take`. But not `get`:
 
 ```rust
 use std::cell::Cell;
@@ -2568,7 +2568,7 @@ where
 ### `Cell` Overhead
 
 `Cell` has zero runtime overhead. All operations compile to direct memory access. The value is
-Stored inline within the `Cell`Which itself has the same size as `T`.
+Stored inline within the `Cell`. Which itself has the same size as `T`.
 
 ```rust
 assert_eq!(std::mem::size_of::<Cell<u64>>(), 8);
@@ -2611,7 +2611,7 @@ Use `Cell<T>` when:
 
 Use `RefCell<T>` when:
 
-- `T` is not `Copy` (e.g., `String``Vec`Custom structs)
+- `T` is not `Copy` (e.g., `String`, `Vec`Custom structs)
 - You need to borrow the interior value (read or write) through a guard
 - You need dynamic borrow checking with error handling
 
@@ -2628,7 +2628,7 @@ Use `Mutex<T>` when:
    the error, or restructure your code to avoid overlapping borrows.
 
 2. **Using `RefCell` across threads.** `RefCell` is not `Send` or `Sync`. The compiler prevents
-   cross-thread use, but if you bypass this with `unsafe`You will have data races. Use `Mutex` or
+   cross-thread use, but if you bypass this with `unsafe`. You will have data races. Use `Mutex` or
    `RwLock` for multi-threaded interior mutability.
 
 3. **Holding `Ref` guards too long.** A `Ref` or `RefMut` guard keeps the borrow active until it is
@@ -2652,7 +2652,7 @@ Use `Mutex<T>` when:
    manually. Prefer `Cell` or `RefCell` unless you are building a custom synchronization primitive.
 
 8. **Overusing interior mutability.** Interior mutability should be a deliberate design choice, not
-   a default. If you find yourself wrapping everything in `RefCell`Consider restructuring your
+   a default. If you find yourself wrapping everything in `RefCell`. Consider restructuring your
    ownership model. Interior mutability hides mutation from the type system, making code harder to
    reason about.
 
@@ -2833,7 +2833,7 @@ fn dangle() -> &String {
 }
 ```
 
-The compiler rejects this because `s` is dropped at the end of `dangle`But the function promises To
+The compiler rejects this because `s` is dropped at the end of `dangle`. But the function promises To
 return a reference. The returned reference would point to freed memory. Lifetimes are the Mechanism
 by which the compiler tracks and enforces this constraint.
 
@@ -3020,7 +3020,7 @@ println!("{} {}", p1.x, p2.y);  // OK
 Types that cannot be `Copy`:
 
 - Any type with a `Drop` implementation (destructor)
-- Any type containing a heap pointer (`String``Vec``Box`)
+- Any type containing a heap pointer (`String`, `Vec`, `Box`)
 - Any type containing a mutable reference (`&mut T`)
 
 ### Partial Moves
@@ -3214,7 +3214,7 @@ fn foo(x: &str) -> &str    →  fn foo<'a>(x: &'a str) -> &'a str
 ```
 
 **Rule 3:** If there are multiple input lifetime parameters but one of them is `&self` or
-`&mut self`The lifetime of `self` is assigned to all output parameters.
+`&mut self`. The lifetime of `self` is assigned to all output parameters.
 
 ```rust
 impl Foo {
@@ -3424,7 +3424,7 @@ assert_eq!(Rc::strong_count(&a), 3);
 println!("{}", a);  // OK, all three bindings are valid
 ```
 
-When the last `Rc` is dropped, the inner value is deallocated. `Rc` is not `Send` or `Sync`So the
+When the last `Rc` is dropped, the inner value is deallocated. `Rc` is not `Send` or `Sync`. So the
 Compiler prevents sharing it between threads.
 
 ### `Rc` with `RefCell`
@@ -4357,7 +4357,7 @@ assert_eq!(std::mem::size_of::<Benchmark>(), 0);
 ### PhantomData
 
 `PhantomData<T>` is a zero-sized type that makes the compiler behave as if the struct contains a
-`T`Even though it does not. This is useful for variance and drop check annotations:
+`T`. Even though it does not. This is useful for variance and drop check annotations:
 
 ```rust
 use std::marker::PhantomData;
@@ -4415,7 +4415,7 @@ let p2 = Point { y: 5.0, ..p1 };
 // p2.x == 1.0, p2.y == 5.0, p2.z == 3.0
 ```
 
-Struct update syntax moves the remaining fields. After `..p1``p1` is partially moved:
+Struct update syntax moves the remaining fields. After `..p1`, `p1` is partially moved:
 
 ```rust
 let p1 = Point { x: 1.0, y: 2.0, z: 3.0 };
@@ -4557,7 +4557,7 @@ let bob = Person {
 // bob.name == "Bob", bob.age == 30, bob.email == Some("alice@example.com")
 ```
 
-Struct update syntax moves the remaining fields. After `..alice`The `alice` binding can no longer Be
+Struct update syntax moves the remaining fields. After `..alice`. The `alice` binding can no longer Be
 used in its entirety (it is partially moved), but individual `Copy` fields remain accessible.
 
 ### Struct Layout and `#[repr]`
@@ -4850,7 +4850,7 @@ fn color_to_rgb(c: Color) -> (u8, u8, u8) {
 }
 ```
 
-The compiler verifies that every variant is handled. If you add a new variant to `Color`Every
+The compiler verifies that every variant is handled. If you add a new variant to `Color`. Every
 `match` on `Color` will produce a compile error until updated. This is exhaustive pattern matching.
 
 ### Match Ergonomics (Rust 2021+)
@@ -4910,7 +4910,7 @@ match v {
 assert_eq!(v, vec![1, 2, 3, 4]);
 ```
 
-#### `@`At Bindings
+#### `@`. At Bindings
 
 The `@` operator binds a value to a name while also testing it against a pattern:
 
@@ -5152,7 +5152,7 @@ Common panic sources:
 - `unwrap()` on `None` or `Err`
 - Array index out of bounds
 - Integer overflow in debug mode
-- `assert!``assert_eq!``assert_ne!` failures
+- `assert!`, `assert_eq!`, `assert_ne!` failures
 - Calling `panic!` directly
 - Division by zero
 
@@ -5240,7 +5240,7 @@ x.and_then(|n| {
 ```
 
 `map` transforms the inner value if `Some`Passes through `None`. `and_then` (also known as `flatMap`
-or `bind`) chains operations that may fail, if the first operation returns `None`The Entire chain
+or `bind`) chains operations that may fail, if the first operation returns `None`. The Entire chain
 short-circuits.
 
 ### `unwrap_or` and `unwrap_or_else`
@@ -5274,7 +5274,7 @@ let r: Result<i32, String> = y.ok_or_else(|| {
 });
 ```
 
-### `filter``zip``unzip`
+### `filter`, `zip`, `unzip`
 
 ```rust
 let x: Option<i32> = Some(5);
@@ -5290,7 +5290,7 @@ let (first, second): (Option<i32>, Option<i32>) = pair.unzip();
 // first == Some(1), second == Some(2)
 ```
 
-### `is_some``is_none``as_ref``as_mut`
+### `is_some`, `is_none`, `as_ref`, `as_mut`
 
 ```rust
 let x: Option<String> = Some("hello".to_string());
@@ -5307,7 +5307,7 @@ for mutable borrows.
 
 ### Iterating Over `Option`
 
-`Option` implements `IntoIterator`So you can use it in `for` loops:
+`Option` implements `IntoIterator`. So you can use it in `for` loops:
 
 ```rust
 let x: Option<i32> = Some(5);
@@ -5352,7 +5352,7 @@ let result = parse("abc").and_then(validate); // Err("not a number")
 let result = parse("-5").and_then(validate); // Err("negative")
 ```
 
-### `unwrap_or``unwrap_or_else`
+### `unwrap_or`, `unwrap_or_else`
 
 ```rust
 let r: Result<i32, &str> = Err("failed");
@@ -5419,7 +5419,7 @@ fn read_config(path: &str) -> Result<Config, Box<dyn std::error::Error>> {
 
 ### `?` with `Option`
 
-The `?` operator also works with `Option`. In a function returning `Option<T>``?` propagates `None`:
+The `?` operator also works with `Option`. In a function returning `Option<T>`, `?` propagates `None`:
 
 ```rust
 fn first_even(nums: &[i32]) -> Option<i32> {
@@ -5431,7 +5431,7 @@ fn first_even(nums: &[i32]) -> Option<i32> {
 ### `?` and `From` Trait Conversion
 
 The `?` operator automatically converts errors using the `From` trait. If the function returns
-`Result<T, E>`Then `?` on a `Result<T2, E2>` will call `E2::from(e)` to convert the error, Provided
+`Result<T, E>`. Then `?` on a `Result<T2, E2>` will call `E2::from(e)` to convert the error, Provided
 `impl From<E2> for E` exists:
 
 ```rust
@@ -5449,7 +5449,7 @@ fn read_file_boxed(path: &str) -> Result<String, Box<dyn std::error::Error>> {
 }
 ```
 
-The conversion chain: `io::Error` implements `Into<Box<dyn std::error::Error>>`So `?` can convert
+The conversion chain: `io::Error` implements `Into<Box<dyn std::error::Error>>`. So `?` can convert
 `io::Error` into `Box<dyn Error>` automatically.
 
 ### Early Return with `?` in `main`
@@ -5958,7 +5958,7 @@ fn handle_error(err: &dyn Error) {
 
 9. **Panicking in library code.** Libraries should never panic on expected failure modes. Panics are
    for bugs (internal invariant violations). If a library function receives invalid input, it should
-   return `Err`Not panic. The one exception is `debug_assert!` which is compiled out in release
+   return `Err`. Not panic. The one exception is `debug_assert!` which is compiled out in release
    mode.
 
 10. **Using `match` instead of `?` for error propagation.** Writing explicit `match` blocks for
@@ -7434,7 +7434,7 @@ Not all traits can be used as trait objects. A trait is **object safe** if:
 1. It does not have any associated `const` or `fn` items with type parameters, generic methods, or
    methods that return `Self` (except `&Self`/`&mut Self`).
 2. It does not have any associated `type` that uses `Self` in non-trivial ways.
-3. All methods have a receiver (`&self``&mut self`Or `self`). No associated functions.
+3. All methods have a receiver (`&self`, `&mut self` or `self`). No associated functions.
 
 ```rust
 // Object-safe
@@ -7550,7 +7550,7 @@ Types where all fields are `Copy`. Types with destructors (`Drop`) cannot be `Co
 
 ### `Clone`
 
-`Clone` explicitly defines how to create a deep copy. Unlike `Copy``Clone` may involve heap
+`Clone` explicitly defines how to create a deep copy. Unlike `Copy`, `Clone` may involve heap
 Allocation or other non-trivial operations.
 
 ### `Sized`
@@ -7820,7 +7820,7 @@ impl<T> DerefMut for Wrapper<T> {
 }
 ```
 
-By implementing `Deref` and `DerefMut`The `Wrapper` type gains access to all `Vec<T>` methods
+By implementing `Deref` and `DerefMut`. The `Wrapper` type gains access to all `Vec<T>` methods
 through deref coercion. This means you get custom behavior (`display_all`) plus all of `Vec<T>`'s
 Methods.
 
@@ -7941,7 +7941,7 @@ Wizard::fly(&person);              // Wizard::fly
 
 ## Common Pitfalls
 
-1. **Implementing `Clone` without considering `Copy`.** If all fields are `Copy`You should also
+1. **Implementing `Clone` without considering `Copy`.** If all fields are `Copy`. You should also
    derive `Copy`. Forgetting `Copy` on a type that could be `Copy` forces callers to clone
    explicitly, which is unnecessary overhead and a code smell.
 
@@ -8049,12 +8049,12 @@ pub enum Poll<T> {
 
 A future does not do anything on its own. It must be polled by an executor. Each call to `poll`
 Either returns `Ready(value)` if the computation is complete, or `Pending` if it needs more time.
-When returning `Pending`The future registers the current `Waker` with the reactor, so the executor
+When returning `Pending`. The future registers the current `Waker` with the reactor, so the executor
 Knows to poll it again when progress can be made.
 
 ### `Context` and `Waker`
 
-`Context` provides access to the `Waker`Which is used to notify the executor that a future should Be
+`Context` provides access to the `Waker`. Which is used to notify the executor that a future should Be
 polled again:
 
 ```rust
@@ -8068,8 +8068,8 @@ impl Waker {
 }
 ```
 
-When a future returns `Pending`The executor records that the future is waiting. When the Underlying
-I/O operation completes (e.g., a socket becomes readable), the reactor calls `waker.wake()`Which
+When a future returns `Pending`. The executor records that the future is waiting. When the Underlying
+I/O operation completes (e.g., a socket becomes readable), the reactor calls `waker.wake()`. Which
 schedules the future for re-polling.
 
 ### Polling Model
@@ -8368,7 +8368,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 ### Drop-Based Cancellation
 
 In Rust, dropping a future cancels it. There is no explicit cancellation token, if you drop the
-`JoinHandle`The task continues running but its result is ignored:
+`JoinHandle`. The task continues running but its result is ignored:
 
 ```rust
 let handle = tokio::spawn(async {
@@ -8636,7 +8636,7 @@ Common non-`Send` types:
 
 ## Common Pitfalls
 
-1. **Blocking the async executor.** Calling `std::thread::sleep``std::fs::read_to_string`Or any
+1. **Blocking the async executor.** Calling `std::thread::sleep`, `std::fs::read_to_string` or any
    blocking operation inside an async task blocks the entire OS thread. Use `tokio::time::sleep`
    `tokio::fs`Or `tokio::task::spawn_blocking`.
 
@@ -9918,7 +9918,7 @@ async fn graceful_shutdown() {
 
 ### When to Use Shared State
 
-- Simple flags or counters (use `AtomicBool``AtomicUsize`)
+- Simple flags or counters (use `AtomicBool`, `AtomicUsize`)
 - Configuration that changes infrequently (use `Arc<RwLock<T>>` or `watch`)
 - Data structures that need coordinated access (use `Arc<Mutex<T>>`)
 
@@ -10035,7 +10035,7 @@ handle.join().unwrap();
 // s is no longer valid here, it was moved
 ```
 
-Without `move`The closure would attempt to borrow `s`But the borrow checker cannot guarantee That
+Without `move`. The closure would attempt to borrow `s`. But the borrow checker cannot guarantee That
 the spawned thread will not outlive `s` (the thread might run after `s` is dropped).
 
 ### Thread Return Values
@@ -10844,9 +10844,9 @@ cannot see).
 
 ## Common Pitfalls
 
-1. **Blocking the async executor.** Calling `std::thread::sleep``std::fs::read_to_string`Or any
+1. **Blocking the async executor.** Calling `std::thread::sleep`, `std::fs::read_to_string` or any
    blocking operation inside an async task blocks the entire OS thread. All other tasks on that
-   thread are stalled. Use `tokio::time::sleep``tokio::fs`Or `spawn_blocking`.
+   thread are stalled. Use `tokio::time::sleep`, `tokio::fs` or `spawn_blocking`.
 
 2. **Holding a `std::sync::Mutex` across `.await`.** This blocks the thread even while the future is
    suspended. Either use `tokio::sync::Mutex` or restructure the code to drop the lock before
@@ -10876,7 +10876,7 @@ cannot see).
    Ignoring this error silently swallows panics, which may indicate serious bugs. Always check join
    results or use a supervision mechanism.
 
-9. **Using `Rc` in async code.** `Rc` is not `Send`So any future capturing an `Rc` cannot be spawned
+9. **Using `Rc` in async code.** `Rc` is not `Send`. So any future capturing an `Rc` cannot be spawned
    on tokio. Use `Arc` instead. This is one of the most common async Rust compilation errors.
 
 10. **`select!` dropping futures.** When `select!` completes, all non-selected branches are dropped.
@@ -11148,7 +11148,7 @@ shared = { version = "1", features = ["feature-x"] }
 shared = { version = "1", features = ["feature-y"] }
 ```
 
-In a workspace depending on both `crate-a` and `crate-b``shared` will have both `feature-x` and
+In a workspace depending on both `crate-a` and `crate-b`, `shared` will have both `feature-x` and
 `feature-y` enabled. If `feature-y` has heavy dependencies, `crate-a` users pay the cost even though
 they only requested `feature-x`.
 
@@ -12485,7 +12485,7 @@ Exercises edge cases that hand-written tests may miss.
 
 1. **FFI**. Calling C functions or exposing Rust functions to C
 2. **Performance-critical code**. After profiling shows a bottleneck
-3. **Implementing safe abstractions**, `Vec``String``Box` are all implemented with `unsafe`
+3. **Implementing safe abstractions**, `Vec`, `String`, `Box` are all implemented with `unsafe`
 4. **Interfacing with hardware**. Memory-mapped I/O, raw device access
 5. **Custom allocators**. Implementing `GlobalAlloc`
 
@@ -12520,7 +12520,7 @@ Exercises edge cases that hand-written tests may miss.
    behavior that may not manifest in normal testing.
 
 7. **Over-large `unsafe` blocks.** Keep `unsafe` blocks as small as possible. Each block should
-   contain exactly the operations that require `unsafe`With clear comments explaining why they are
+   contain exactly the operations that require `unsafe`. With clear comments explaining why they are
    safe.
 
 8. **Assuming layout.** Unless `#[repr(C)]` is specified, the compiler may reorder struct fields and
@@ -14290,11 +14290,11 @@ Key changes in Rust 2024:
 
 - **Fighting the borrow checker.** New Rustaceans often try to write C-style code with aliasing
   mutable references. The solution is almost always to restructure your data ownership, not to add
-  `clone()`. Interior mutability types (`Cell``RefCell``Mutex`) exist precisely for cases where you
+  `clone()`. Interior mutability types (`Cell`, `RefCell`, `Mutex`) exist precisely for cases where you
   need shared mutation.
 - **Ignoring clippy warnings.** Clippy catches real bugs. Run `cargo clippy -- -W clippy::all` and
   fix every warning before shipping.
-- **Overusing `unsafe`.** If you find yourself wrapping large blocks in `unsafe`You are likely
+- **Overusing `unsafe`.** If you find yourself wrapping large blocks in `unsafe`. You are likely
   working against the language. Re-examine your data structure design.
 
 ## Related Topics
@@ -14604,7 +14604,7 @@ macro_rules! println {
 }
 ```
 
-The key insight is that `println!` delegates to `format_args!`Which is a built-in compiler macro
+The key insight is that `println!` delegates to `format_args!`. Which is a built-in compiler macro
 that parses the format string at compile time and validates the arguments. The `$($arg:tt)*` pattern
 Captures everything as token trees and passes them through to `format_args!`.
 
@@ -14663,7 +14663,7 @@ macro_rules! my_assert {
 
 :::note
 Definition appears. This means a macro defined in a submodule is accessible as
-`my_crate::my_assert!`Not `my_crate::submodule::my_assert!`. This is a historical design decision
+`my_crate::my_assert!`. Not `my_crate::submodule::my_assert!`. This is a historical design decision
 that has no prospect of changing.
 
 ### Scoping Rules
@@ -14815,7 +14815,7 @@ my_macros = { path = "../my_macros" }
 ### Dependencies
 
 - **`proc-macro2`**: A wrapper around the compiler's `proc_macro::TokenStream` that implements
-  `Clone``Debug`And other standard traits. Use `proc_macro2::TokenStream` everywhere in your code;
+  `Clone`, `Debug` and other standard traits. Use `proc_macro2::TokenStream` everywhere in your code;
   convert to/from `proc_macro::TokenStream` only at the entry point.
 
 - **`syn`**: A complete Rust parser. Parses `TokenStream` into typed AST nodes ( structs, functions,
@@ -15262,7 +15262,7 @@ fn get_user(id: u32) -> String {
 ### Definition
 
 **Definition.** A function-like procedural macro is invoked with `macro_name!(tokens)` syntax and
-Replaces the entire invocation with the generated code. Unlike `macro_rules!`It has full access to
+Replaces the entire invocation with the generated code. Unlike `macro_rules!`. It has full access to
 the token stream and can parse it with `syn`.
 
 ### Implementation Pattern
@@ -15855,7 +15855,7 @@ Names that include parts of the input.
    `#[macro_use] extern crate` syntax is deprecated in edition 2021.
 
 3. **Hygiene violations in proc macros.** Procedural macros are not hygienic for local variables. If
-   your proc macro generates a variable named `x`It can shadow a variable `x` at the call site. Use
+   your proc macro generates a variable named `x`. It can shadow a variable `x` at the call site. Use
    unique names (prefixed with `__` or using `paste!`) to avoid collisions.
 
 4. **Pattern matching order in `macro_rules!`.** Arms are matched top-to-bottom. A more specific
@@ -15876,7 +15876,7 @@ Names that include parts of the input.
    specific tokens. This makes errors much easier to debug.
 
 8. **Proc macro crates cannot export regular items.** A crate with `proc-macro = true` can only
-   export proc-macro functions (`#[proc_macro]``#[proc_macro_derive]``#[proc_macro_attribute]`). Any
+   export proc-macro functions (`#[proc_macro]`, `#[proc_macro_derive]`, `#[proc_macro_attribute]`). Any
    non-macro exports will cause a compile error. Put shared types and helper functions in a separate
    crate and depend on it from both the proc-macro crate and the consumer.
 

@@ -32,9 +32,9 @@ by the operator symbol. The following constraints apply [N4950 S14.5.1]:
 
 - You cannot invent new operators (`operator**` is ill-formed).
 - You cannot change the arity, precedence, or associativity of an operator.
-- The operators `.``.*``::``?:`And `sizeof` cannot be overloaded.
+- The operators `.`, `.*`, `::`, `?:` and `sizeof` cannot be overloaded.
 - At least one operand must be of class or enumeration type [N4950 S14.5.1].
-- `operator()``operator[]``operator->`And `operator->*` must be non-static member functions [N4950
+- `operator()`, `operator[]`, `operator->` and `operator->*` must be non-static member functions [N4950
   S14.5.4].
 
 ### Complete List of Overloadable Operators
@@ -85,12 +85,12 @@ $$
 
 1. Name lookup finds the candidate functions: member `Int::operator+` and non-member `operator+`.
 2. If only a member overload exists, the left operand must undergo implicit conversion to `Int`.
-3. If the constructor is `explicit`The implicit conversion is not permitted [N4950 S11.4.5.2].
+3. If the constructor is `explicit`. The implicit conversion is not permitted [N4950 S11.4.5.2].
 4. Therefore, the expression `3 + Int(2)` would fail if only a member overload exists.
 5. A non-member overload `operator+(int, const Int\&)` is found by ordinary name lookup. The right
    operand matches directly; the left operand requires no conversion for the `int` parameter.
 
-This is why symmetric operators like `==``+``*` should be implemented as non-members (often
+This is why symmetric operators like `==`, `+`, `*` should be implemented as non-members (often
 non-member friends), so that expressions like `2 + vec` work alongside `vec + 2`.
 
 ```cpp
@@ -354,8 +354,8 @@ int main() {
 
 ## 4.6 Increment and Decrement: Prefix vs Postfix
 
-The prefix increment/decrement (`++obj``--obj`) modifies the object and returns a reference to it.
-The postfix increment/decrement (`obj++``obj--`) returns a copy of the original value before
+The prefix increment/decrement (`++obj`, `--obj`) modifies the object and returns a reference to it.
+The postfix increment/decrement (`obj++`, `obj--`) returns a copy of the original value before
 Modification [N4950 S14.5.5].
 
 The postfix form is distinguished by a dummy `int` parameter:
@@ -396,7 +396,7 @@ int main() {
 
 The stream operators `operator&lt;&lt;` and `operator&gt;&gt;` must be implemented as **non-member
 non-friend functions** (or non-member friends when accessing private state) because the left operand
-is `std::ostream`/`std::istream`Which you cannot modify [N4950 S30.4.2]:
+is `std::ostream`/`std::istream`. Which you cannot modify [N4950 S30.4.2]:
 
 ```cpp
 #include <iostream>
@@ -492,8 +492,8 @@ int main() {
 ```
 
 The `explicit` specifier on a conversion operator prevents it from participating in implicit
-Conversions **except** in contextual boolean conversions (conditions in `if``while``for``!`
-`\&\&``\|\|`And the ternary operator) [N4950 S11.4.5.2]. This is why `explicit operator bool()` Is
+Conversions **except** in contextual boolean conversions (conditions in `if`, `while`, `for`, `!`
+`\&\&`, `\|\|` and the ternary operator) [N4950 S11.4.5.2]. This is why `explicit operator bool()` Is
 the standard pattern for making objects conditionally testable without enabling surprising Implicit
 conversions to `int` or `double`.
 
@@ -530,8 +530,8 @@ int main() {
 ## 4.9 The Spaceship Operator (`operator<=>`) and Automatic Rewrites
 
 C++20 introduced the three-way comparison operator `operator\&lt;=\&gt;` [N4950 S7.6.8]. When a
-Class defines `operator\&lt;=\&gt;` as defaulted, the compiler automatically generates `==``!=`
-`\&lt;``\&lt;=``\&gt;`And `\&gt;=` by rewiring to the spaceship operator. The return type Determines
+Class defines `operator\&lt;=\&gt;` as defaulted, the compiler automatically generates `==`, `!=`
+`\&lt;`, `\&lt;=`, `\&gt;` and `\&gt;=` by rewiring to the spaceship operator. The return type Determines
 the comparison category:
 
 | Return type             | Category         | Meaning                            |
@@ -671,7 +671,7 @@ public:
 
 ### Rule of Zero
 
-If the class holds only RAII members (`std::vector``std::string``std::unique_ptr`
+If the class holds only RAII members (`std::vector`, `std::string`, `std::unique_ptr`
 `std::shared_ptr`), do **not** declare any special member functions. The compiler-generated defaults
 are correct:
 
@@ -696,7 +696,7 @@ Smart pointers overload several operators to mimic raw pointer behavior:
 - `operator*`: dereferences to the managed object.
 - `operator->`: member access through the managed object.
 - `operator bool` (explicit): contextual conversion to check for null.
-- `operator==``operator!=` (C++20): comparison with `nullptr`.
+- `operator==`, `operator!=` (C++20): comparison with `nullptr`.
 
 ```cpp
 #include <iostream>
@@ -740,7 +740,7 @@ Overloading these operators.
 
 **2. Returning by value from `operator+`:** Binary arithmetic operators should return a new object
 by value (not by reference). Returning a reference to a temporary is undefined behavior. The
-Compound assignment operators (`+=``-=`) should return `*this` by reference.
+Compound assignment operators (`+=`, `-=`) should return `*this` by reference.
 
 **3. `operator[]` bounds checking:** The Standard `operator[]` for `std::vector` and `std::map` does
 **not** perform bounds checking -- undefined behavior on out-of-range access. Use `at()` for checked
@@ -750,7 +750,7 @@ Access, or implement bounds checking in your own `operator[]`.
 and an implicit conversion operator, overload resolution can become ambiguous. Mark one or both as
 `explicit` to resolve the ambiguity.
 
-**5. Forgetting to return `*this` from compound assignment:** `operator+=``operator-=`Etc. Must
+**5. Forgetting to return `*this` from compound assignment:** `operator+=`, `operator-=`. Etc. Must
 Return `*this` by reference. Forgetting the return statement causes the operators to return `void`
 Breaking chaining (`a += b += c` fails).
 

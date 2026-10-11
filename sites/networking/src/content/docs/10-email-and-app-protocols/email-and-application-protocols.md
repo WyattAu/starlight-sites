@@ -135,8 +135,8 @@ Common multipart subtypes:
 
 **Base64 Encoding**
 
-Base64 (RFC 4648) encodes binary data as ASCII text using a 64-character alphabet (`A–Z``a–z`
-`0–9``+``/`) with `=` padding. Each group of 3 bytes maps to 4 ASCII characters, producing a 33%
+Base64 (RFC 4648) encodes binary data as ASCII text using a 64-character alphabet (`A–Z`, `a–z`
+`0–9`, `+`, `/`) with `=` padding. Each group of 3 bytes maps to 4 ASCII characters, producing a 33%
 Size overhead. Base64 is specified via the `Content-Transfer-Encoding: base64` header. For text that
 is mostly ASCII but contains some non-ASCII characters, `quoted-printable` encoding is more
 Efficient because it encodes only non-printable and non-ASCII bytes using `=XX` hex notation.
@@ -266,7 +266,7 @@ S: 221 2.0.0 Bye
 
 - `QUIT`: Terminates the session.
 
-- `RSET`: Resets the current mail transaction, discarding any `MAIL FROM``RCPT TO`And `DATA` state
+- `RSET`: Resets the current mail transaction, discarding any `MAIL FROM`, `RCPT TO` and `DATA` state
   without closing the connection.
 
 - `VRFY`: Verifies that a mailbox name is valid (often disabled on production servers to prevent
@@ -305,7 +305,7 @@ Message after receiving the entire body due to size limits.
 
 `PIPELINING` allows the client to send multiple commands without waiting for each response. This
 Reduces round-trip latency, especially over high-latency links. A pipelining client might send
-`MAIL FROM``RCPT TO` (for all recipients), and `DATA` in rapid succession, then read all Responses.
+`MAIL FROM`, `RCPT TO` (for all recipients), and `DATA` in rapid succession, then read all Responses.
 The client must be prepared to handle errors from any command and roll back accordingly. For
 example, if the first `RCPT TO` is rejected but the second is accepted, the client should not Send
 the `DATA` body since at least one recipient was rejected.
@@ -430,7 +430,7 @@ Downloaded and stored locally.
 
 IMAP mailboxes are hierarchical containers for messages, analogous to directories in a filesystem.
 The hierarchy separator is configurable per server (commonly `/` or `.`). Special mailboxes include
-`INBOX` (the required primary mailbox), and implementations provide `Drafts``Sent` `Trash`And
+`INBOX` (the required primary mailbox), and implementations provide `Drafts`, `Sent` `Trash`And
 `Junk`. The `LIST` command enumerates mailboxes, and `LSUB` lists subscribed mailboxes. Mailboxes
 can be shared between users with ACL-based permissions.
 
@@ -458,12 +458,12 @@ IMAP defines system flags that convey message state:
 | `\Recent`   | Message arrived since the last session (session-only flag). |
 
 Servers may also support custom keywords (user-defined flags) for additional categorization. These
-Keywords are prefixed with `$` by convention (e.g., `$Junk``$NonJunk``$Phishing`).
+Keywords are prefixed with `$` by convention (e.g., `$Junk`, `$NonJunk`, `$Phishing`).
 
 ### IMAP Commands
 
 IMAP uses tagged commands: each client command is prefixed with an arbitrary tag ( an Incrementing
-string like `A001``A002`), and the server's response includes the same tag. Untagged Responses (`*`)
+string like `A001`, `A002`), and the server's response includes the same tag. Untagged Responses (`*`)
 convey unsolicited data or status updates.
 
 ```
@@ -514,7 +514,7 @@ S: A006 OK IDLE terminated
 
 - `FETCH message-set data-items`: Retrieves message content or metadata. The message set can be a
   single number, a range (`1:100`), a comma-separated list, or UID references (e.g., `UID 100:200`).
-  Data items include `FLAGS``ENVELOPE``BODYSTRUCTURE``BODY[section]``BODY[section]` with partial
+  Data items include `FLAGS`, `ENVELOPE`, `BODYSTRUCTURE`, `BODY[section]`, `BODY[section]` with partial
   offsets (e.g., `BODY[1]` for the first MIME part), `BODY.PEEK[section]` (fetches without setting
   `\Seen`), `RFC822.SIZE`And `INTERNALDATE`.
 
@@ -531,8 +531,8 @@ S: A006 OK IDLE terminated
   minutes, to stay below the 30-minute TCP keepalive threshold).
 
 - `SEARCH criteria`: Searches messages in the selected mailbox based on criteria such as `FROM`
-  `SUBJECT``SINCE``BEFORE``LARGER``SMALLER``UNSEEN``DELETED``FLAGGED``ALL`And logical operators
-  (`AND``OR``NOT`). The server returns matching sequence numbers or UIDs if the `UID` variant is
+  `SUBJECT`, `SINCE`, `BEFORE`, `LARGER`, `SMALLER`, `UNSEEN`, `DELETED`, `FLAGGED`, `ALL` and logical operators
+  (`AND`, `OR`, `NOT`). The server returns matching sequence numbers or UIDs if the `UID` variant is
   used.
 
 - `COPY message-set mailbox`: Copies messages to another mailbox. Not atomic with respect to flag
@@ -545,7 +545,7 @@ S: A006 OK IDLE terminated
   (`*` matches across hierarchy separators, `%` matches within a single level). `RLIST` returns
   listing extensions (RFC 5258).
 
-- `CREATE mailbox``DELETE mailbox``RENAME old new`: Manage mailbox creation, deletion, and renaming.
+- `CREATE mailbox`, `DELETE mailbox`, `RENAME old new`: Manage mailbox creation, deletion, and renaming.
 
 ### IMAP Extensions
 
@@ -589,7 +589,7 @@ S: A006 OK IDLE terminated
 
 - **CONDSTORE (RFC 7162)**: Stores a modification sequence number (mod-sequence) for each flag
   change, enabling clients to detect changes since their last checkpoint efficiently. Combined with
-  `FETCH (CHANGEDSINCE modseq)`The client receives only messages that have been modified.
+  `FETCH (CHANGEDSINCE modseq)`. The client receives only messages that have been modified.
 
 - **OBJECTID (RFC 8474)**: Assigns server-generated, globally unique object identifiers to mailboxes
   and messages, independent of UIDs and UIDVALIDITY, for robust synchronization.
@@ -613,8 +613,8 @@ POP3 supports two primary usage modes:
 
 **Download-and-Delete (default)**
 
-After the client retrieves messages with `RETR`It issues `DELE` to mark messages for deletion. When
-the client sends `QUIT`The server permanently removes all marked messages. This is the Traditional
+After the client retrieves messages with `RETR`. It issues `DELE` to mark messages for deletion. When
+the client sends `QUIT`. The server permanently removes all marked messages. This is the Traditional
 POP3 model where the server acts as a temporary holding area. Once the client downloads The messages
 and the server deletes them, the server has no record of the messages.
 
@@ -655,7 +655,7 @@ S: +OK POP3 server signing off (maildrop empty)
 
 - `USER username`: Initiates authentication with the plaintext username.
 
-- `PASS password`: Sends the plaintext password. Combined with `USER`This forms the `USER/PASS`
+- `PASS password`: Sends the plaintext password. Combined with `USER`. This forms the `USER/PASS`
   authentication mechanism. The `APOP` command provides an alternative using MD5 digest
   authentication: the server provides a timestamp in its greeting, and the client computes
   `MD5(timestamp + shared-secret)`. Note that MD5 is now considered cryptographically weak.
@@ -688,7 +688,7 @@ S: +OK POP3 server signing off (maildrop empty)
 ### POP3 Extensions
 
 - **CAPA (RFC 2449)**: Returns a list of server capabilities, similar to SMTP's `EHLO` response.
-  Capabilities include `TOP``USER``SASL``RESP-CODES``LOGIN-DELAY``PIPELINE``EXPIRE` `UIDL`And
+  Capabilities include `TOP`, `USER`, `SASL`, `RESP-CODES`, `LOGIN-DELAY`, `PIPELINE`, `EXPIRE` `UIDL`And
   `STLS`.
 
 - **UIDL (RFC 1939)**: Returns a unique identifier listing for each message. The unique-id is a hash
@@ -699,7 +699,7 @@ S: +OK POP3 server signing off (maildrop empty)
   issued before authentication.
 
 - **SASL (RFC 5034)**: Supports SASL authentication mechanisms beyond `USER/PASS` and `APOP`
-  including `PLAIN``CRAM-MD5`And `SCRAM-SHA-1`.
+  including `PLAIN`, `CRAM-MD5` and `SCRAM-SHA-1`.
 
 ### POP3 Limitations Compared to IMAP
 
@@ -868,7 +868,7 @@ Specifies which attributes are required and which are optional.
   two equality tests. `(|(uid=jdoe)(uid=asmith))` is an OR. `(!(uid=admin))` is a NOT. Substring
   filters use `cn=John*` and presence filters use `objectClass=*`.
 
-- `ADD``MODIFY``DELETE`: Insert, update, or remove directory entries. `MODIFY` supports add,
+- `ADD`, `MODIFY`, `DELETE`: Insert, update, or remove directory entries. `MODIFY` supports add,
   replace, and delete operations on individual attributes within an entry.
 
 - `COMPARE`: Tests whether an entry contains a specific attribute value without returning the entry
@@ -883,7 +883,7 @@ The LDAP schema defines the structure of directory entries through object classe
 Types. Object classes define required and optional attributes. Common object classes include
 `inetOrgPerson` (organizational person with email, phone, title), `organizationalUnit` (`ou`), and
 `groupOfNames` (group membership). Attribute syntaxes include `DirectoryString` (UTF-8 text),
-`Integer``GeneralizedTime` (for timestamps), `OctetString` (binary data), and `DN` (distinguished
+`Integer`, `GeneralizedTime` (for timestamps), `OctetString` (binary data), and `DN` (distinguished
 Name reference). Schema rules enforce structural, auxiliary, and abstract class inheritance.
 
 **Performance and Indexing**
@@ -944,8 +944,8 @@ And historically used UDP or TCP on port 2049. NFSv4 uses TCP exclusively.
 **NFSv4 Features**
 
 NFSv4 represents a major redesign of the protocol. Key features include stateful operation (file
-Locking via `LOCK``LOCKU` operations, open delegation where the server grants a client exclusive Or
-shared access rights), a single port (2049) and single protocol (no separate `mountd``statd` `lockd`
+Locking via `LOCK`, `LOCKU` operations, open delegation where the server grants a client exclusive Or
+shared access rights), a single port (2049) and single protocol (no separate `mountd`, `statd` `lockd`
 daemons required), strong security with mandatory `RPCSEC_GSS` using Kerberos v5, Firewall-friendly
 operation (all traffic on one TCP port), compound procedures (batch multiple RPC Operations into a
 single request via `COMPOUND`), internationalization (UTF-8 filenames via `UTF8` Attribute), and
@@ -1034,8 +1034,8 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
 **Key Fields**
 
 - `v`: DKIM version (always `1`).
-- `a`: Signing algorithm (`rsa-sha256``ed25519-sha256`).
-- `c`: Canonicalization for header and body (`simple``relaxed`).
+- `a`: Signing algorithm (`rsa-sha256`, `ed25519-sha256`).
+- `c`: Canonicalization for header and body (`simple`, `relaxed`).
 - `d`: The signing domain.
 - `s`: The selector used to look up the public key in DNS.
 - `h`: Signed header fields, listed in the order signed.

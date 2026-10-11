@@ -337,7 +337,7 @@ $ git rebase --onto HEAD a3f2b1c^ a3f2b1c
 ```
 
 But rebase operates on the entire state of the branch. If you are on `main` and want one commit from
-`feature``git rebase --onto` requires you to specify the correct base and range, which is more
+`feature`, `git rebase --onto` requires you to specify the correct base and range, which is more
 Error-prone than a simple cherry-pick.
 
 ## Dangers of Cherry-Pick

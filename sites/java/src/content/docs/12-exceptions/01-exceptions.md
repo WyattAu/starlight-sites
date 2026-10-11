@@ -49,10 +49,10 @@ Throwable
 And `Exception` is the first critical decision point:
 
 - **`Error`**: JVM-level failures. Application code should almost never catch these. If you catch
-  `OutOfMemoryError`You are guessing about JVM state invariants that may no longer hold.
+  `OutOfMemoryError`. You are guessing about JVM state invariants that may no longer hold.
 - **`Exception`**: Application-level failures. This is where you design error handling.
 
-Within `Exception`The `RuntimeException` subclass marks **unchecked** exceptions, the compiler Does
+Within `Exception`. The `RuntimeException` subclass marks **unchecked** exceptions, the compiler Does
 not force you to declare or handle them. Everything else is **checked**.
 
 ### When to Use Checked vs Unchecked
@@ -426,7 +426,7 @@ Choose fail-safe only when partial results are meaningful and the cost of failur
 - **Compiler-enforced documentation**: The method signature tells you what can go wrong without
   reading implementation
 - **Handling is mandatory**: Callers cannot accidentally ignore error conditions
-- **Appropriate for recoverable conditions**: `IOException``SQLException` are conditions a
+- **Appropriate for recoverable conditions**: `IOException`, `SQLException` are conditions a
   well-written program should handle
 
 ### Arguments Against Checked Exceptions
@@ -477,7 +477,7 @@ public sealed interface Result<T> {
 
 ### Checked Exceptions in Lambdas
 
-The standard functional interfaces (`Function``Supplier`Etc.) do not declare checked exceptions.
+The standard functional interfaces (`Function`, `Supplier`. Etc.) do not declare checked exceptions.
 Workarounds:
 
 **Utility wrapper:**
@@ -529,7 +529,7 @@ Call in a try-catch would add noise without safety.
 ### Exception Creation Cost
 
 Creating an exception is expensive because `Throwable` captures the stack trace by calling
-`Throwable.fillInStackTrace()`Which walks the stack via `StackTraceElement`:
+`Throwable.fillInStackTrace()`. Which walks the stack via `StackTraceElement`:
 
 ```java
 // Benchmark: exception creation vs simple object creation

@@ -193,8 +193,8 @@ class Button : Clickable, Focusable {
 
 ## Data Classes
 
-Data classes are designed to hold data. The compiler generates `equals()``hashCode()`
-`toString()``componentN()` functions, and a `copy()` method.
+Data classes are designed to hold data. The compiler generates `equals()`, `hashCode()`
+`toString()`, `componentN()` functions, and a `copy()` method.
 
 ```kotlin
 data class User(
@@ -218,7 +218,7 @@ println(user)  // User(id=1, name=Alice, email=alice@example.com, active=true)
 
 - The primary constructor must have at least one parameter.
 - All primary constructor parameters must be `val` or `var`.
-- Data classes cannot be `open``abstract``inner`Or `sealed`.
+- Data classes cannot be `open`, `abstract`, `inner` or `sealed`.
 - The generated `equals()` compares all primary constructor properties structurally.
 
 ### Copy Semantics

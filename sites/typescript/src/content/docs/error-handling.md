@@ -82,7 +82,7 @@ function area(shape: Shape): number {
 ```
 
 If a new variant is added to `Shape` (e.g., `{ kind: "pentagon"; ... }`) without updating the
-`switch`The assignment `_exhaustive: never` produces a compile error because the new variant is Not
+`switch`. The assignment `_exhaustive: never` produces a compile error because the new variant is Not
 assignable to `never`.
 
 ## `unknown` vs `any`
@@ -163,7 +163,7 @@ JavaScript provides several built-in error classes, all of which TypeScript type
 | `URIError`       | Invalid URI operation      |
 | `EvalError`      | Error in `eval()` (legacy) |
 
-All built-in error classes inherit from `Error`Which provides the `message``name`And `stack`
+All built-in error classes inherit from `Error`. Which provides the `message`, `name` and `stack`
 Properties.
 
 ### Custom Error Classes
@@ -247,7 +247,7 @@ function handleAppError(error: AppError): void {
 ```
 
 **Common Pitfall:** When extending `Error`Call `super(message)` in the constructor and set
-`this.name`. Without `super()`The `message` property is not initialised. Without `this.name`
+`this.name`. Without `super()`. The `message` property is not initialised. Without `this.name`
 `instanceof` checks still work, but `error.name` defaults to `"Error"`.
 
 ## `try`/`catch`/`finally` Typing
@@ -506,7 +506,7 @@ function processAction(action: Action): void {
 }
 ```
 
-If a new variant is added to `Action`The `assertNever` call produces a compile error because the New
+If a new variant is added to `Action`. The `assertNever` call produces a compile error because the New
 variant is not assignable to `never`.
 
 ## Result Type Pattern
@@ -661,7 +661,7 @@ const a: Config = {};
 const b: Config = { host: "localhost' };
 ```
 
-Under `exactOptionalPropertyTypes``const c: Config = { host: undefined }` is an error.
+Under `exactOptionalPropertyTypes`, `const c: Config = { host: undefined }` is an error.
 
 ### Null vs Undefined
 
@@ -703,7 +703,7 @@ function applySettings(settings: Settings): void {
 ```
 
 `??` treats only `null` and `undefined` as nullish, making it the correct operator for default
-Values when `0``""`Or `false` are valid values.
+Values when `0`, `""` or `false` are valid values.
 
 ## Intuition
 
@@ -737,7 +737,7 @@ throw { code: 500 };
 ```
 
 This is legal JavaScript but makes error handling fragile. Always throw `Error` instances (or
-Subclasses) to ensure consistent `message``name`And `stack` properties.
+Subclasses) to ensure consistent `message`, `name` and `stack` properties.
 
 ### Pitfall 3: Swallowed Errors
 

@@ -580,7 +580,7 @@ Downstream operations.
    as the second argument registers routes on the global `http.DefaultServeMux`. Any package can
    Register routes on it. Use `http.NewServeMux()` to create an isolated router.
 
-4. **No timeouts on the server.** Without `ReadTimeout``WriteTimeout`and `IdleTimeout`a single
+4. **No timeouts on the server.** Without `ReadTimeout`, `WriteTimeout`and `IdleTimeout`a single
    Slow client can hold a goroutine forever. Always configure timeouts in production.
 
 5. **Blocking in handlers.** Handlers run in their own goroutines, but blocking calls (e.g.,

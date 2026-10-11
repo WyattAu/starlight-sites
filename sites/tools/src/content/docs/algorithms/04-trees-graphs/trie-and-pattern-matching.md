@@ -646,8 +646,8 @@ def kmp_search(text, pattern):
 
 ### Correctness Proof Sketch
 
-The key invariant: after processing `text[i]`The variable `j` equals the length of the longest
-Prefix of `pattern` that is a suffix of `text[0:i+1]`. When `j == m`We have found a complete match
+The key invariant: after processing `text[i]`. The variable `j` equals the length of the longest
+Prefix of `pattern` that is a suffix of `text[0:i+1]`. When `j == m`. We have found a complete match
 Ending at position `i`. The failure function ensures that we never backtrack in the text, each
 Character of the text is examined at most once, giving $O(n)$ time for the search phase plus $O(m)$
 for preprocessing.

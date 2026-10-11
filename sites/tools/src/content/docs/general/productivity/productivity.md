@@ -29,7 +29,7 @@ The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) 
 
 **Implementation for developers:**
 
-- Use a terminal timer: `pomotodo``tomato`Or `tmux` timer plugin
+- Use a terminal timer: `pomotodo`, `tomato` or `tmux` timer plugin
 - During a pomodoro: code, debug, write tests, read documentation. One task.
 - During a break: stand up, stretch, look away from the screen. Do not context-switch to a different
   task.

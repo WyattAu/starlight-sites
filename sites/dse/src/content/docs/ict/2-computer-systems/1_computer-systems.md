@@ -426,7 +426,7 @@ Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
 
 :::caution
 Exam Tip BCD is different from pure binary. The decimal number 15 in pure binary is
-`1111`But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
+`1111`. But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
 Patterns (1010--1111 are invalid) but is useful for displays and financial calculations where each
 Decimal digit must be preserved exactly.
 :::

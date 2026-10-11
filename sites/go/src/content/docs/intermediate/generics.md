@@ -115,7 +115,7 @@ func Sum[T Number](nums []T) T {
 }
 ```
 
-The `~` token means "the underlying type must be." A type `MyInt int` has underlying type `int`So It
+The `~` token means "the underlying type must be." A type `MyInt int` has underlying type `int`. So It
 satisfies `~int`.
 
 ### Methods in Constraints

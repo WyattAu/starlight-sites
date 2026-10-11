@@ -32,7 +32,7 @@ dev_dependencies:
   test: ^1.25.0
 ```
 
-The core API consists of three functions: `test``group`and `expect`.
+The core API consists of three functions: `test`, `group`and `expect`.
 
 ```dart
 import "package:test/test.dart';
@@ -93,7 +93,7 @@ void main() {
 ### Matchers
 
 The `expect` function pairs a value with a matcher. Matchers are composable, they can be nested,
-combined with `allOf``anyOf`and negated with `isNot`.
+combined with `allOf`, `anyOf`and negated with `isNot`.
 
 ```dart
 import 'package:test/test.dart';
@@ -293,7 +293,7 @@ await tester.pumpAndSettle(); // Wait for all animations to complete
 
 ### Testing Async Widgets
 
-Widgets that depend on `FutureBuilder``StreamBuilder`or async initialization require explicit
+Widgets that depend on `FutureBuilder`, `StreamBuilder`or async initialization require explicit
 pumping to advance through loading states.
 
 ```dart

@@ -139,8 +139,8 @@ let x: bool = true;
 assert_eq!(std::mem::size_of::<bool>(), 1);
 ```
 
-`bool` implements `Copy``Clone``Debug``Display`And the bitwise operators (`!``&``|` `^`) via the
-`BitAnd``BitOr``BitXor``Not` traits.
+`bool` implements `Copy`, `Clone`, `Debug`, `Display` and the bitwise operators (`!`, `&`, `|` `^`) via the
+`BitAnd`, `BitOr`, `BitXor`, `Not` traits.
 
 ## Character Type
 
@@ -355,7 +355,7 @@ Types:
 | `&str`   | Borrowed  | Anywhere (stack, heap, static) | 16 bytes (ptr + len)                 | No       |
 
 `String` is a `Vec<u8>` guaranteed to hold valid UTF-8. `&str` is a slice of UTF-8 bytes. Every
-`String` can be dereferenced to `&str`But not vice versa.
+`String` can be dereferenced to `&str`. But not vice versa.
 
 ```rust
 let s: String = String::from("hello");
@@ -580,7 +580,7 @@ static GREETING: &str = "hello";
 - Has a single memory address for the entire program
 - Lives for `'static` lifetime
 - Must be `Sync` (accessible from multiple threads)
-- Can be mutated with interior mutability (`AtomicUsize``Mutex``OnceLock`)
+- Can be mutated with interior mutability (`AtomicUsize`, `Mutex`, `OnceLock`)
 
 ```rust
 use std::sync::atomic::{AtomicUsize, Ordering};
@@ -593,7 +593,7 @@ fn increment() {
 ```
 
 :::caution
-Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or `OnceLock` Instead.
+Requires `unsafe` blocks to access. Prefer `static` with `Mutex`, `AtomicUsize` or `OnceLock` Instead.
 :::
 
 ## Type Aliases
@@ -763,7 +763,7 @@ let y: Result<u8, _> = 256u32.try_into(); // Err(TryFromIntError)
 
 ## Raw Pointers
 
-Raw pointers (`*const T``*mut T`) exist but are restricted to `unsafe` blocks:
+Raw pointers (`*const T`, `*mut T`) exist but are restricted to `unsafe` blocks:
 
 ```rust
 let x = 42;
@@ -785,10 +785,10 @@ Necessary for FFI and for implementing safe abstractions over unsafe memory oper
 All primitive types are in the prelude and are always in scope. You do not need to import them. The
 Following is an approximate list of commonly used prelude items (see the
 [standard library prelude](https://doc.rust-lang.org/std/prelude/index.html) for the authoritative
-List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
-`AsRef``AsMut``From``Into``IntoIterator``Fn``FnMut``FnOnce``Send``Sync``Unpin`
-`Sized``Debug``Display``Iterator``Extend``PartialEq``PartialOrd``Eq``Ord``Hash`
-`Default``ToString``println``eprintln``format``vec``drop`.
+List): `Option`, `Result`, `Vec`, `String`, `Box`, `Drop`, `Clone`, `Copy`, `Deref`, `DerefMut`
+`AsRef`, `AsMut`, `From`, `Into`, `IntoIterator`, `Fn`, `FnMut`, `FnOnce`, `Send`, `Sync`, `Unpin`
+`Sized`, `Debug`, `Display`, `Iterator`, `Extend`, `PartialEq`, `PartialOrd`, `Eq`, `Ord`, `Hash`
+`Default`, `ToString`, `println`, `eprintln`, `format`, `vec`, `drop`.
 
 ## Common Pitfalls
 
@@ -801,7 +801,7 @@ List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
    literals without allocation.
 
 3. **Integer overflow in release mode.** The compiler does not check for overflow in release builds.
-   Use `wrapping_*``saturating_*``checked_*`Or `overflowing_*` methods explicitly when overflow is
+   Use `wrapping_*`, `saturating_*`, `checked_*` or `overflowing_*` methods explicitly when overflow is
    possible and wrapping is not desired.
 
 4. **Floating-point equality.** Never use `==` to compare floats for equality. Use an epsilon

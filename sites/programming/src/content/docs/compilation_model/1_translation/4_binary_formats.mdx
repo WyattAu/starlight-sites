@@ -531,7 +531,7 @@ Executable itself. MSVC always generates a `.pdb` in debug builds and optionally
 - **Assuming `.bss` is "free."** While `.bss` costs nothing on disk, it consumes virtual memory at
   runtime. A 1GB `.bss` array will cause the OS to commit 1GB of zeroed pages (physical memory or
   swap). This is especially problematic on memory-constrained embedded systems.
-- **Forgetting that `const` globals go to `.rodata`Not `.data`.** A `const` global initialized to a
+- **Forgetting that `const` globals go to `.rodata`. Not `.data`.** A `const` global initialized to a
   non-zero value does not increase `.data` size -- it increases `.rodata` size. However, if you take
   a pointer to a `const` global and cast away constness, modifying it through that pointer will
   trigger a segfault (`.rodata` is mapped read-only).

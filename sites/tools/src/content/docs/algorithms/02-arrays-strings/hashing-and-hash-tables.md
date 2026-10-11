@@ -873,7 +873,7 @@ Representation:
 - **Separate chaining** (). The standard does not mandate a specific collision resolution strategy.
 - **Load factor**: 1.0 by default (`max_load_factor()`).
 - **Bucket count**: power-of-two in libstdc++ (GCC), but not required by the standard.
-- **Rehash policy**: `rehash(n)` sets the bucket count to at least `n``reserve(n)` sets it to
+- **Rehash policy**: `rehash(n)` sets the bucket count to at least `n`, `reserve(n)` sets it to
   accommodate `n` elements without rehashing.
 
 ## Resize and Rehashing
@@ -920,9 +920,9 @@ Long chains (Java 8+).
 
 ### 3. Forgetting to Override Both `__hash__` and `__eq__`
 
-In Python, if you override `__eq__` without overriding `__hash__`The class becomes unhashable. If
+In Python, if you override `__eq__` without overriding `__hash__`. The class becomes unhashable. If
 you override `__hash__` without overriding `__eq__`Objects that compare equal may hash to Different
-values. Both must be consistent: if `a == b`Then `hash(a) == hash(b)`.
+values. Both must be consistent: if `a == b`. Then `hash(a) == hash(b)`.
 
 ### 4. Integer Overflow in Hash Computation
 

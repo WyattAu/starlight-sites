@@ -239,13 +239,13 @@ Consider a managed object of size $N$ bytes on x86_64:
 | `shared_ptr(new T)` | 2                | $16 + 8 + N$ (separate) | 2 allocs, 2 frees     | No: control block freed independently |
 | `allocate_shared`   | 1                | Implementation-defined  | 1 alloc, 1 free       | Yes: full block held                  |
 
-The "weak_ptr delay" column is the critical tradeoff. With `make_shared`The object memory and the
+The "weak_ptr delay" column is the critical tradeoff. With `make_shared`. The object memory and the
 32-byte control block are in a single allocation. Even after `strong_count` reaches 0 and the object
 is destroyed, the allocator cannot return the memory to the OS until `weak_count` also reaches 0.
-For a 1 MiB object with a single long-lived `weak_ptr`This means 1 MiB + 32 bytes of memory is Held
+For a 1 MiB object with a single long-lived `weak_ptr`. This means 1 MiB + 32 bytes of memory is Held
 hostage.
 
-With `shared_ptr(new T)`The object memory (8-byte header + N bytes) is returned to the allocator
+With `shared_ptr(new T)`. The object memory (8-byte header + N bytes) is returned to the allocator
 Immediately when `strong_count` reaches 0. The 32-byte control block remains, but it is tiny
 Compared to the object.
 
@@ -331,7 +331,7 @@ Access to the managed object.
    block), not the _resource access_ (the pointed-to object).
 
 **Formal restatement:** If thread A holds a `shared_ptr&lt;T&gt;` and thread B holds a copy of the
-Same `shared_ptr&lt;T&gt;`Then:
+Same `shared_ptr&lt;T&gt;`. Then:
 
 - Concurrent `shared_ptr` copies/destructions are well-defined (atomic control block access).
 - Concurrent `p-&gt;method()` calls are a data race unless `T::method()` is internally synchronized
@@ -356,7 +356,7 @@ Sequentially-consistent operations. The implications:
   memory barrier.
 
 :::note
-For increment and `memory_order_acq_rel` for decrement instead of `seq_cst`Which is valid because
+For increment and `memory_order_acq_rel` for decrement instead of `seq_cst`. Which is valid because
 the standard only requires that the control block operations do not race with each other. The
 Stronger `seq_cst` default is a conservative choice that implementations may relax.
 :::
@@ -751,7 +751,7 @@ int main() {
 4. **Thread safety misunderstanding.** The control block is thread-safe, but the pointed-to object
    is NOT. Use `std::mutex` or `std::atomic` to protect the object itself.
 
-5. **`make_shared` delays memory release.** With `make_shared`The object and control block share one
+5. **`make_shared` delays memory release.** With `make_shared`. The object and control block share one
    allocation. The memory cannot be freed until all `weak_ptr` references are gone.
 
 6. **Using `shared_ptr` for ownership that is actually exclusive.** If only one owner exists at any

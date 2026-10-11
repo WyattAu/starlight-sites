@@ -1106,7 +1106,7 @@ Password twice to confirm it was typed correctly).
 <details>
 <summary>Question 1: Trace Table</summary>
 
-Trace the following algorithm with inputs `A = 5``B = 3`.
+Trace the following algorithm with inputs `A = 5`, `B = 3`.
 
 ```python
 BEGIN

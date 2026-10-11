@@ -75,7 +75,7 @@ WHERE E.Grade IN ('A', 'A-')
 ORDER BY S.GPA DESC;
 ```
 
-**Aggregate functions:** `COUNT``SUM``AVG``MIN``MAX`.
+**Aggregate functions:** `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
 
 ```sql
 SELECT Dept, COUNT(*) AS NumStudents, AVG(GPA) AS AvgGPA
@@ -154,8 +154,8 @@ FROM Student;
 
 **`RANK()` vs. `DENSE_RANK()`:** `RANK()` leaves gaps after ties; `DENSE_RANK()` does not.
 
-**Other window functions:** `ROW_NUMBER()``LEAD()``FIRST_VALUE()``LAST_VALUE()`
-`NTILE(n)``SUM() OVER(...)``COUNT() OVER(...)`.
+**Other window functions:** `ROW_NUMBER()`, `LEAD()`, `FIRST_VALUE()`, `LAST_VALUE()`
+`NTILE(n)`, `SUM() OVER(...)`, `COUNT() OVER(...)`.
 
 <details>
 <summary>Worked Example 3.1: Running Totals and Percentiles</summary>
@@ -197,7 +197,7 @@ FROM Student GROUP BY Dept;
 ```
 
 Views are virtual tables. **Updatable views** (single-table, no aggregation) allow `INSERT`
-`UPDATE``DELETE` through the view. **Materialised views** store the result physically and must be
+`UPDATE`, `DELETE` through the view. **Materialised views** store the result physically and must be
 Refreshed.
 
 ### 3.8 Recursive Common Table Expressions
@@ -274,7 +274,7 @@ Attacker to manipulate the query structure.
 cursor.execute(f"SELECT * FROM Student WHERE name = '{user_input}'")
 ```
 
-If `user_input` is `' OR '1'='1`The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
+If `user_input` is `' OR '1'='1`. The query becomes `SELECT * FROM Student WHERE name = '' OR '1'='1'`
 Returning all rows.
 
 **Types of SQL injection:**
@@ -326,7 +326,7 @@ counts, And execution time.
 
 **Common optimisation guidelines:**
 
-- **Create appropriate indexes** on columns used in `WHERE``JOIN``ORDER BY`And `GROUP BY` clauses.
+- **Create appropriate indexes** on columns used in `WHERE`, `JOIN`, `ORDER BY` and `GROUP BY` clauses.
 - **Avoid `SELECT *`**; retrieve only the columns needed.
 - **Avoid N+1 queries:** Fetching related data row-by-row instead of with a single join or batch
   query.

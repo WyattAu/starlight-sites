@@ -17,7 +17,7 @@ description: "The suite has replaced the legacy () as the Standard Linux network
 
 ## Network Interface Management (iproute2)
 
-The `iproute2` suite has replaced the legacy `net-tools` (`ifconfig``route``netstat`) as the
+The `iproute2` suite has replaced the legacy `net-tools` (`ifconfig`, `route`, `netstat`) as the
 Standard Linux network management toolset. It provides a consistent interface for managing
 Interfaces, addresses, routes, tunnels, and policies.
 
@@ -257,7 +257,7 @@ dig +dnssec example.com
 ## Netfilter Framework
 
 Netfilter is the kernel-level packet filtering framework that provides hooks at five points in the
-Networking stack. It is the foundation for `iptables``nftables`And connection tracking.
+Networking stack. It is the foundation for `iptables`, `nftables` and connection tracking.
 
 ### Netfilter Hooks
 
@@ -835,7 +835,7 @@ iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
 ### Pitfall: Loopback Not Allowed
 
-If `INPUT` policy is `DROP`You must explicitly allow loopback traffic. Many local services (MySQL,
+If `INPUT` policy is `DROP`. You must explicitly allow loopback traffic. Many local services (MySQL,
 PostgreSQL, web servers) communicate over the loopback interface:
 
 ```bash

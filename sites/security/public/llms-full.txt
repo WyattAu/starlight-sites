@@ -2628,7 +2628,7 @@ they contradict many traditional policies.
 
 **Do Not:**
 
-- Force periodic password rotation (leads to predictable patterns: `Password1!``Password2!`...)
+- Force periodic password rotation (leads to predictable patterns: `Password1!`, `Password2!`...)
 - Require composition rules (uppercase + lowercase + digit + special character, users just
   capitalize the first letter and add `1!`)
 - Require passwords to be changed after a breach unless compromise is confirmed
@@ -5416,7 +5416,7 @@ SSRF. Use a comprehensive testing methodology that covers all 10 categories.
 
 ### Ignoring Security Headers
 
-Missing security headers (`X-Content-Type-Options``X-Frame-Options``CSP``HSTS`) provides no Defense
+Missing security headers (`X-Content-Type-Options`, `X-Frame-Options`, `CSP`, `HSTS`) provides no Defense
 against client-side attacks. Add them to every response.
 
 ### Not Keeping Dependencies Updated
@@ -5725,7 +5725,7 @@ user = User.query.filter_by(username=username, password_hash=hash).first()
 
 **Additional defenses:**
 
-- **Least privilege**: Application database user should not have `DROP``ALTER`Or `GRANT` permissions
+- **Least privilege**: Application database user should not have `DROP`, `ALTER` or `GRANT` permissions
 - **Allowlist input validation**: For known-format inputs (integers, UUIDs), validate format before
   querying
 - **WAF**: Web Application Firewall can block common injection patterns (but is not a substitute for
@@ -6005,7 +6005,7 @@ console.log(user.isAdmin); // true
 ### Prevention
 
 - Use `Object.create(null)` for objects that should not have prototypes
-- Validate and sanitize JSON input, reject keys like `__proto__``constructor``prototype`
+- Validate and sanitize JSON input, reject keys like `__proto__`, `constructor`, `prototype`
 - Use safe deep merge libraries that block prototype pollution
 - Freeze prototypes: `Object.freeze(Object.prototype)`
 
@@ -6115,7 +6115,7 @@ mvn org.owasp:dependency-check-maven:check
 
 ### Dependency Management Best Practices
 
-1. **Pin dependencies**: Use lockfiles (`package-lock.json``poetry.lock``go.sum``Cargo.lock`) to
+1. **Pin dependencies**: Use lockfiles (`package-lock.json`, `poetry.lock`, `go.sum`, `Cargo.lock`) to
    ensure reproducible builds
 2. **Automate scanning**: Integrate vulnerability scanning into CI/CD pipeline
 3. **Minimize dependencies**: Fewer dependencies = smaller attack surface
@@ -6168,7 +6168,7 @@ Client-side check. Always validate on the server, regardless of what the client 
 ### Pitfall 2: Ignoring Security Headers
 
 Many web applications run without security headers. Adding `X-Content-Type-Options: nosniff`
-`X-Frame-Options: DENY``Strict-Transport-Security`And a reasonable CSP takes minutes and Provides
+`X-Frame-Options: DENY`, `Strict-Transport-Security` and a reasonable CSP takes minutes and Provides
 meaningful protection against common attacks.
 
 ### Pitfall 3: Using string concatenation for SQL
@@ -9730,7 +9730,7 @@ Azure RBAC defines permissions at the resource, resource group, or subscription 
 
 - **Built-in roles:** Owner, Contributor, Reader, User Access Administrator, and many
   service-specific roles (e.g., Storage Blob Data Contributor).
-- **Custom roles:** JSON-defined roles with `actions``notActions``dataActions`And
+- **Custom roles:** JSON-defined roles with `actions`, `notActions`, `dataActions` and
   `assignableScopes`.
 - **Key principle:** Use the most restrictive built-in role, and create custom roles only when
   necessary.
@@ -9938,15 +9938,15 @@ Misconfigured.
 
 Key security controls:
 
-1. **Minimal base image.** Use `scratch``alpine`Or `distroless` images. Do not install unnecessary
+1. **Minimal base image.** Use `scratch`, `alpine` or `distroless` images. Do not install unnecessary
    packages.
 2. **Run as non-root.** The default Dockerfile `USER root` is dangerous. Always create a non-root
    user and use `USER <username>`.
 3. **Read-only filesystem.** Use `--read-only` flag to prevent runtime modifications to the
    filesystem.
 4. **Drop capabilities.** Use `--cap-drop ALL` and add only the specific capabilities needed
-   (`--cap-add NET_BIND_SERVICE`For example).
-5. **Resource limits.** Set CPU and memory limits (`--cpus``--memory`) to prevent resource
+   (`--cap-add NET_BIND_SERVICE`. For example).
+5. **Resource limits.** Set CPU and memory limits (`--cpus`, `--memory`) to prevent resource
    exhaustion.
 6. **Network isolation.** Use user-defined bridge networks instead of the default bridge. Use
    network policies to restrict inter-container communication.
@@ -10184,7 +10184,7 @@ The user attempts to access `s3://prod-data/secret/report.pdf`. Is the access gr
 
 Policy B explicitly denies access to `prod-data/secret/*`. The resource
 `prod-data/secret/report.pdf` matches this path. Even though Policy A allows access to
-`prod-data/*`The explicit deny in Policy B takes precedence. Access is denied.
+`prod-data/*`. The explicit deny in Policy B takes precedence. Access is denied.
 
 </details>
 
@@ -10246,8 +10246,8 @@ An attacker gains code execution inside the container. What can they do?
 <details>
 <summary>Answer</summary>
 
-With `--privileged`The container has full access to all host devices (equivalent to `--cap-add ALL`
-plus access to all `/dev` devices). Combined with `-v /:/host-root`Which mounts The host's root
+With `--privileged`. The container has full access to all host devices (equivalent to `--cap-add ALL`
+plus access to all `/dev` devices). Combined with `-v /:/host-root`. Which mounts The host's root
 filesystem into the container, the attacker can:
 
 1. **Modify host files:** Write to `/host-root/etc/shadow` to add a backdoor user, or modify
@@ -10637,7 +10637,7 @@ bantime = 3600
 - **findtime:** Time window in seconds (600 = 10 minutes).
 - **bantime:** Duration of the ban in seconds (3600 = 1 hour).
 
-For production servers, consider more aggressive settings: `maxretry = 2``bantime = 86400`.
+For production servers, consider more aggressive settings: `maxretry = 2`, `bantime = 86400`.
 
 ### File Permissions
 
@@ -10720,7 +10720,7 @@ admin:x:1000:1000:Admin User:/home/admin:/bin/bash
 Fields: `username:x:UID:GID:comment:home_dir:shell`
 
 The `x` in the password field means the password hash is stored in `/etc/shadow`. If the password
-Field contains anything other than `x`The account has a password stored directly in `/etc/passwd`
+Field contains anything other than `x`. The account has a password stored directly in `/etc/passwd`
 Which is a security issue (passwd is world-readable).
 
 #### /etc/shadow
@@ -11103,7 +11103,7 @@ Malicious binary runs instead.
 echo $PATH
 ```
 
-**Defense:** Ensure system PATH directories (`/usr/bin``/bin``/usr/sbin``/sbin`) are owned by Root
+**Defense:** Ensure system PATH directories (`/usr/bin`, `/bin`, `/usr/sbin`, `/sbin`) are owned by Root
 and not writable by non-root users. Never put `.` (current directory) in PATH.
 
 ### Shared Library Injection (LD_PRELOAD)
@@ -11134,7 +11134,7 @@ Modern sudo versions).
 **Defense:**
 
 - Ensure `env_reset` is set in sudoers (default in most distributions).
-- Ensure `env_keep` does not include `LD_PRELOAD``LD_LIBRARY_PATH`Or similar.
+- Ensure `env_keep` does not include `LD_PRELOAD`, `LD_LIBRARY_PATH` or similar.
 - Use `Defaults secure_path` in sudoers to set a fixed PATH.
 
 ## Logging and Auditing
@@ -11379,7 +11379,7 @@ echo 100000 > /sys/fs/cgroup/cpu/limited/cpu.max
 
 Seccomp (Secure Computing Mode) restricts the system calls a process can make. There are two modes:
 
-- **Strict mode:** Allows only `read``write``_exit`And `sigreturn`. Too restrictive for most
+- **Strict mode:** Allows only `read`, `write`, `_exit` and `sigreturn`. Too restrictive for most
   applications.
 - **Filter mode (BPF):** Allows specifying a whitelist of permitted system calls using BPF programs.
 
@@ -11530,7 +11530,7 @@ Automated patching with a reboot window is the minimum. For critical systems, us
 ### Shared Library Path Issues
 
 Leaving `LD_LIBRARY_PATH` or `LD_PRELOAD` in sudoers `env_keep` allows privilege escalation through
-Shared library injection. Modern sudo defaults to `env_reset`But always verify.
+Shared library injection. Modern sudo defaults to `env_reset`. But always verify.
 
 ## Practice Problems
 
@@ -11596,7 +11596,7 @@ What is the problem, and how do you fix it?
 <details>
 <summary>Answer</summary>
 
-The SELinux context is `default_t`Which Apache (running as `httpd_t`) is not allowed to read. Web
+The SELinux context is `default_t`. Which Apache (running as `httpd_t`) is not allowed to read. Web
 Content should have the `httpd_sys_content_t` context.
 
 Fix:
@@ -11651,10 +11651,10 @@ touch archive.tar
 sudo tar cf archive.tar --use-compress-program=shell.sh *
 ```
 
-When `tar` processes the filename `--use-compress-program=shell.sh`It treats it as an option and
+When `tar` processes the filename `--use-compress-program=shell.sh`. It treats it as an option and
 Executes `shell.sh` as the compression program, which runs `/bin/bash -p` as root.
 
-**Defense:** Never allow `sudo` access to `tar``cp``find``vim``less``awk`Or any Interactive/editor
+**Defense:** Never allow `sudo` access to `tar`, `cp`, `find`, `vim`, `less`, `awk` or any Interactive/editor
 command. If archiving is needed, create a wrapper script that validates inputs And only allows
 operations on specific paths.
 
@@ -11712,7 +11712,7 @@ Identify the security issues and provide the corrected values.
    source IP addresses in incoming packets, facilitating DDoS reflection attacks. **Fix:**
    `net.ipv4.conf.all.rp_filter = 1`.
 
-4. **`kernel.dmesg_restrict = 0`:** Any user can read the kernel ring buffer via `dmesg`Which may
+4. **`kernel.dmesg_restrict = 0`:** Any user can read the kernel ring buffer via `dmesg`. Which may
    contain sensitive information (kernel addresses, module loading, error messages). **Fix:**
    `kernel.dmesg_restrict = 1`.
 
@@ -12113,14 +12113,14 @@ Invoked, no debugger is present (a debugger would intercept the exception first)
 **Anti-VM** techniques fingerprint the execution environment to detect virtualization. CPUID with
 Leaf 0x1 returns a hypervisor-present bit in ECX bit 31. Checking for VMware-specific registry keys
 (`HKLM\SOFTWARE\VMware, Inc.\VMware Tools`), MAC address prefixes (00:0C:29, 00:50:56 for VMware;
-08:00:27 for VirtualBox), or driver files (`vmmouse.sys``vboxguest.sys`) reveals the VM. Hardware
+08:00:27 for VirtualBox), or driver files (`vmmouse.sys`, `vboxguest.sys`) reveals the VM. Hardware
 Fingerprinting examines the CPU vendor string, number of reported cores, and available memory
 against expected values. Malware may also check for artifacts of VM snapshot tools, debugger
 Breakpoints, or monitoring drivers.
 
 **Anti-sandbox** techniques detect automated analysis environments. Sandbox evasion includes
 Checking the uptime (`GetTickCount` less than 30 minutes suggests a fresh VM), the username (`user`
-`sandbox``malware` are common sandbox usernames), the computer name, the number of processors
+`sandbox`, `malware` are common sandbox usernames), the computer name, the number of processors
 (sandboxes often run with 1-2 cores), and the available disk space. Delayed execution (sleeping for
 Minutes or hours) causes the sandbox to time out before the malicious payload activates. Mouse
 Movement detection via `GetCursorPos` in a loop identifies headless environments where no user
@@ -12152,7 +12152,7 @@ Mechanisms exist, and advanced malware implements several in parallel for redund
 **Registry Run Keys** are the most common persistence mechanism on Windows. Malware adds a value to
 `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run` or the `HKCU` equivalent, pointing to its
 Executable. More subtle locations include `RunOnce` (executed once and then deleted), `RunServices`
-`RunServicesOnce`And the `Winlogon` keys (`Shell``Userinit`). The `Image File Execution Options`
+`RunServicesOnce`And the `Winlogon` keys (`Shell`, `Userinit`). The `Image File Execution Options`
 Registry key
 (`HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\&lt;executable&gt;`)
 With a `Debugger` value causes Windows to launch the specified debugger whenever the target
@@ -12188,7 +12188,7 @@ most file integrity checking tools.
 
 **Pass-the-Hash** attacks reuse the NTLM hash of a user's password to authenticate to remote systems
 Without knowing the plaintext password. The attacker obtains the hash from memory (via Mimikatz or
-LSASS dump) or from the SAM database. The hash is then used with tools like `psexec``wmic`Or the
+LSASS dump) or from the SAM database. The hash is then used with tools like `psexec`, `wmic` or the
 Impacket library's `smbexec` to authenticate to SMB services on remote machines. Kerberos
 Authentication mitigates this by using tickets rather than password hashes, but NTLM fallback may
 Still be available.
@@ -12354,7 +12354,7 @@ Immediate value (1, 2, 4, or 8 bytes). Understanding this encoding is essential 
 Hand-crafted assembly or shellcode that may not follow compiler-generated patterns.
 
 Control flow reconstruction identifies the program's structure by tracing jumps and calls.
-Conditional jumps (`je``jne``jg``jl`Etc.) encode if-else and loop structures. `call` Instructions
+Conditional jumps (`je`, `jne`, `jg`, `jl`. Etc.) encode if-else and loop structures. `call` Instructions
 mark function boundaries and return points. `ret` instructions indicate function Epilogues. Indirect
 jumps (`jmp rax`) are used for switch statements, virtual function calls, and Obfuscation (jump
 tables, computed gotos). Identifying and resolving indirect jumps is critical for Building an
@@ -12418,12 +12418,12 @@ Profile without requiring code-level understanding.
 **File system monitoring** tracks created, modified, moved, and deleted files. Of particular
 Interest are dropped files (secondary payloads), modified system files, and files in unusual
 Locations. File system changes are monitored through Windows API hooks (on `CreateFile`
-`WriteFile``DeleteFile`) or through filesystem filter drivers for kernel-level monitoring.
+`WriteFile`, `DeleteFile`) or through filesystem filter drivers for kernel-level monitoring.
 
 **Registry monitoring** captures modifications to the Windows registry, including new keys and
 Values, modifications to existing values, and key deletions. Registry changes reveal persistence
 Mechanisms, configuration modifications, and system settings manipulation. Monitoring is performed
-through API hooks on `RegSetValueEx``RegCreateKeyEx``RegDeleteValue`And related functions.
+through API hooks on `RegSetValueEx`, `RegCreateKeyEx`, `RegDeleteValue` and related functions.
 
 **Process monitoring** tracks process creation and termination, DLL loading, thread creation, and
 Memory allocation. Process relationships (parent-child) reveal the malware's execution chain.
@@ -12434,7 +12434,7 @@ Memory.
 **Network monitoring** captures DNS queries, HTTP(S) requests, TCP/UDP connections, and data
 Exfiltration. Network behavior reveals C2 communication patterns, data theft, and propagation
 Attempts. Monitoring is performed through network interface tapping or by hooking socket-related
-APIs (`connect``send``recv``WSASend``WSARecv`).
+APIs (`connect`, `send`, `recv`, `WSASend`, `WSARecv`).
 
 ### Memory Analysis
 
@@ -12502,18 +12502,18 @@ Though certificate pinning implemented by the malware may prevent this.
 ### Assembly Language Basics (x86-64)
 
 X86-64 architecture extends the 32-bit x86 ISA with 64-bit registers, a larger address space, and
-Additional registers. The 16 general-purpose registers are `RAX``RBX``RCX``RDX``RSI``RDI`
-`RBP``RSP`And `R8` through `R15`. The lower 32 bits are accessible as `EAX``EBX`Etc., and The lower
-16 and 8 bits have their own names (`AX``AH``AL`). `RIP` is the instruction pointer, And `RFLAGS`
+Additional registers. The 16 general-purpose registers are `RAX`, `RBX`, `RCX`, `RDX`, `RSI`, `RDI`
+`RBP`, `RSP` and `R8` through `R15`. The lower 32 bits are accessible as `EAX`, `EBX`. Etc., and The lower
+16 and 8 bits have their own names (`AX`, `AH`, `AL`). `RIP` is the instruction pointer, And `RFLAGS`
 contains status flags (zero flag, carry flag, sign flag, etc.).
 
-The instruction set includes data movement (`mov``lea``push``pop`), arithmetic (`add``sub`
-`mul``div``inc``dec``neg`), bitwise operations (`and``or``xor``not``shl``shr`), Comparison
-(`cmp``test`), control flow (`jmp``je``jne``call``ret`), and memory operations. `lea` (Load
+The instruction set includes data movement (`mov`, `lea`, `push`, `pop`), arithmetic (`add`, `sub`
+`mul`, `div`, `inc`, `dec`, `neg`), bitwise operations (`and`, `or`, `xor`, `not`, `shl`, `shr`), Comparison
+(`cmp`, `test`), control flow (`jmp`, `je`, `jne`, `call`, `ret`), and memory operations. `lea` (Load
 Effective Address) computes an address without accessing memory, commonly used for Arithmetic:
 `lea rax, [rbx + rcx*4 + 0x10]` computes `rbx + rcx*4 + 16` and stores the result in `rax`.
 
-Memory operands use the format `[base + index*scale + displacement]`Where base and index are
+Memory operands use the format `[base + index*scale + displacement]`. Where base and index are
 Registers, scale is 1, 2, 4, or 8, and displacement is a 32-bit signed constant. This addressing
 Mode supports array access, structure field access, and stack variable access.
 
@@ -12532,10 +12532,10 @@ because only the caller knows how many arguments were passed.
 once in the callee rather than at every call site.
 
 **Microsoft x64 Calling Convention** (used in 64-bit Windows): the first four arguments are passed
-In `RCX``RDX``R8``R9` (for integer and pointer types); additional arguments are pushed onto The
+In `RCX`, `RDX`, `R8`, `R9` (for integer and pointer types); additional arguments are pushed onto The
 stack right-to-left. The caller allocates 32 bytes of shadow space on the stack before the call
 (even if fewer than four arguments are passed), which the callee can use to spill register
-Arguments. `RAX` holds the return value. Registers `RBX``RBP``RDI``RSI``RSP``R12`-`R15` Are
+Arguments. `RAX` holds the return value. Registers `RBX`, `RBP`, `RDI`, `RSI`, `RSP`, `R12`-`R15` Are
 non-volatile (callee-saved); all others are volatile (caller-saved). Stack alignment must be
 Maintained at 16-byte boundaries before a `call` instruction.
 
@@ -12597,7 +12597,7 @@ Which contains the 256-byte substitution box beginning with bytes
 `0x63, 0x7c, 0x77, 0x7b, 0xf2, 0x6b, 0x6f, 0xc5, 0x30, 0x01, 0x67, 0x2b, 0xfe, 0xd7, 0xab, 0x76`.
 The inverse S-box is also commonly present. AES operations include SubBytes (S-box lookup),
 ShiftRows (byte rotation), MixColumns (Galois field multiplication in GF(2^8)), and AddRoundKey (XOR
-with round key). AES-NI instructions (`aesenc``aesdec``aeskeygenassist`) indicate
+with round key). AES-NI instructions (`aesenc`, `aesdec`, `aeskeygenassist`) indicate
 Hardware-accelerated AES, which is common in modern ransomware.
 
 **RC4** implementations are identifiable by the Key Scheduling Algorithm (KSA), which initializes a
@@ -12697,7 +12697,7 @@ For case-insensitive matching, `wide` for UTF-16LE matching (common in Windows m
 For whole-word matching, and `base64` for Base64-encoded content. Regular expressions use
 `$regex_id = /pattern/regex_modifiers`. The `condition` section is a boolean expression combining
 String matches, file property checks, and mathematical comparisons using logical operators (`and`
-`or``not`), arithmetic operators, and functions like `filesize()``uint16(offset)`
+`or`, `not`), arithmetic operators, and functions like `filesize()`, `uint16(offset)`
 `entropy(section_index)`And `pe.imphash()`.
 
 </details>

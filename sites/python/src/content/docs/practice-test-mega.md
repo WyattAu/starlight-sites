@@ -724,7 +724,7 @@ print(result)
 
 **Correct: B** (index 1)
 
-`chain` concatenates iterables into a single iterator. `chain(a, b, c)` produces elements from `a`then `b`then `c` in sequence. Converting to a list gives `[1, 2, 3, 4, 5]`. Unlike `flatMap``chain` does not flatten nested structures.
+`chain` concatenates iterables into a single iterator. `chain(a, b, c)` produces elements from `a`then `b`then `c` in sequence. Converting to a list gives `[1, 2, 3, 4, 5]`. Unlike `flatMap`, `chain` does not flatten nested structures.
 
 `easy`1 mark
 

@@ -274,7 +274,7 @@ class Button @JvmOverloads constructor(
 )
 ```
 
-Generates three constructors accessible from Java: `Button(String)``Button(String, int)`
+Generates three constructors accessible from Java: `Button(String)`, `Button(String, int)`
 `Button(String, int, int)`.
 
 ### @Throws for Checked Exceptions
@@ -320,11 +320,11 @@ Interfaces for compatibility.
 - \*\* Ignoring platform types. Always annotate Java APIs with nullability annotations when both
   Java and Kotlin code share the codebase. Unannotated Java APIs create a null safety gap.
 - \*\* Forgetting `@JvmStatic` on companion object members. Without it, Java callers must use
-  `ClassName.Companion.method()`Which is awkward.
+  `ClassName.Companion.method()`. Which is awkward.
 - \*\* Forgetting `@JvmOverloads` for constructors and methods with default parameters. Java cannot
   use Kotlin default parameters.
 - \*\* Assuming Kotlin's read-only collections are immutable when accessed from Java. Java sees
-  `kotlin.collections.List` as `java.util.List`So it can call `add()``remove()`Etc. Use
+  `kotlin.collections.List` as `java.util.List`. So it can call `add()`, `remove()`. Etc. Use
   `Collections.unmodifiableList()` or Kotlinx immutable collections for true immutability.
 - \*\* Using Kotlin extension functions from Java. Extension functions compile to static methods, so
   Java callers must call them explicitly: `ExtensionKt.functionName(receiver, args)`.

@@ -387,7 +387,7 @@ int main() {
 
 ### Capturing `this` in Member Functions
 
-When a lambda is created inside a member function and captures `this`It holds a raw pointer to the
+When a lambda is created inside a member function and captures `this`. It holds a raw pointer to the
 Object. If the object is destroyed before the lambda executes, the pointer dangles:
 
 ```cpp
@@ -582,7 +582,7 @@ int main() {
 
 ## 3.7 Lambda in Unevaluated Contexts
 
-Lambdas can appear in unevaluated contexts (`decltype``sizeof``noexcept``requires`), but with
+Lambdas can appear in unevaluated contexts (`decltype`, `sizeof`, `noexcept`, `requires`), but with
 Limitations:
 
 ```cpp
@@ -665,7 +665,7 @@ int main() {
 
 ### Pitfall 3: Overcapturing with `[=]` and `[&]`
 
-Default captures (`[=]``[&]`) capture everything that is used, which can inadvertently capture
+Default captures (`[=]`, `[&]`) capture everything that is used, which can inadvertently capture
 Pointers, references to local variables, or `this`:
 
 ```cpp

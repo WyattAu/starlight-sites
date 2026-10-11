@@ -361,7 +361,7 @@ only atomic values, and there are no repeating groups.
 - Every cell contains exactly one value (no lists, arrays, sets, or nested relations)
 - Each row is uniquely identifiable (there must be a primary key)
 - All entries in a column are of the same type (same domain)
-- No repeating columns (e.g., `phone1``phone2``phone3` -- these violate the spirit of 1NF)
+- No repeating columns (e.g., `phone1`, `phone2`, `phone3` -- these violate the spirit of 1NF)
 
 ```text
 Violates 1NF (repeating group):

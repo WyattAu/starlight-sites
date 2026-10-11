@@ -767,7 +767,7 @@ false
 :::
 
 :::caution
-`pipefail`The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
+`pipefail`. The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
 `ERR` trap in complex pipelines, explicit error checking is more reliable.
 
 ## Signal Handling

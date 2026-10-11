@@ -38,10 +38,10 @@ myproject/
 
 ### Package Naming Conventions
 
-- Lowercase, single word: `http``json``strings`
+- Lowercase, single word: `http`, `json`, `strings`
 - No underscores or mixed case
 - The directory name matches the package name
-- Avoid repetition: `pkg/utils/utils.go` -> the package is `utils`Not `utilsutils`
+- Avoid repetition: `pkg/utils/utils.go` -> the package is `utils`. Not `utilsutils`
 
 ### Import Paths
 

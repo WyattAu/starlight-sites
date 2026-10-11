@@ -478,7 +478,7 @@ In code: Aggregation passes in existing objects. Composition creates objects int
 
 </details>
 
-**Problem 6.** Implement an abstract class `DataStructure` with abstract methods `insert``delete`
+**Problem 6.** Implement an abstract class `DataStructure` with abstract methods `insert`, `delete`
 And `search`. Then implement it as a `Stack`.
 
 <details>
@@ -602,7 +602,7 @@ Base classes are searched for methods. For `D(B, C)`:
 1. `D` itself → no `greet`
 2. `B` → has `greet`Returns "B"
 
-The MRO is D → B → C → A → object. Since `B` has `greet`The search stops there.
+The MRO is D → B → C → A → object. Since `B` has `greet`. The search stops there.
 
 </details>
 
@@ -623,7 +623,7 @@ Same base class:
     D
 ```
 
-If both `B` and `C` override a method from `A`Which version does `D` inherit?
+If both `B` and `C` override a method from `A`. Which version does `D` inherit?
 
 Python resolves this using **C3 Linearization**, which produces a deterministic, monotonically
 Increasing order. For `D(B, C)`:
@@ -638,7 +638,7 @@ Languages like C++ resolve this differently (requiring explicit disambiguation).
 
 </details>
 
-**Problem 10.** Design a library system with classes for `Book``Member`And `Library`. Use
+**Problem 10.** Design a library system with classes for `Book`, `Member` and `Library`. Use
 Encapsulation appropriately. Include methods for borrowing and returning books.
 
 <details>

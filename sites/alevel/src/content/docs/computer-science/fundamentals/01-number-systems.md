@@ -438,7 +438,7 @@ With ASCII.
 
 $20AC_{16} = 0010\ 0000\ 1010\ 1100_2$
 
-This falls in the range `U+0800`–`U+FFFF`So it uses 3 bytes: `1110xxxx 10xxxxxx 10xxxxxx`.
+This falls in the range `U+0800`–`U+FFFF`. So it uses 3 bytes: `1110xxxx 10xxxxxx 10xxxxxx`.
 
 Fill in the bits from the code point:
 

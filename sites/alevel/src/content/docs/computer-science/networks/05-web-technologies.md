@@ -223,7 +223,7 @@ box-sizing: border-box;
 }
 ```
 
-**Viewport units** (`vw``vh`) scale relative to the browser window:
+**Viewport units** (`vw`, `vh`) scale relative to the browser window:
 
 ```css
 .hero {
@@ -271,7 +271,7 @@ button.addEventListener('click', () => {
 });
 ```
 
-Common events: `click``keydown``keyup``mouseover``submit``load``change`.
+Common events: `click`, `keydown`, `keyup`, `mouseover`, `submit`, `load`, `change`.
 
 ### Client-Side vs Server-Side Validation
 
@@ -528,7 +528,7 @@ Structure for indexing.
 
 </details>
 
-**Problem 3.** An element has `width: 200px``padding: 20px``border: 5px solid black`And
+**Problem 3.** An element has `width: 200px`, `padding: 20px`, `border: 5px solid black` and
 `margin: 15px`. Calculate total space for both `content-box` and `border-box`.
 
 <details>
@@ -589,7 +589,7 @@ User input; use CSP headers.
 Encoding. Victim must click the link. **Prevent:** encode all user-supplied data in responses.
 
 **DOM-based XSS:** Entirely client-side. JavaScript reads user input and inserts it via `innerHTML`
-Unsafely. **Prevent:** use `textContent``createElement()`And `appendChild()`.
+Unsafely. **Prevent:** use `textContent`, `createElement()` and `appendChild()`.
 
 **General:** Content Security Policy, `HttpOnly` cookies, input validation, output encoding.
 

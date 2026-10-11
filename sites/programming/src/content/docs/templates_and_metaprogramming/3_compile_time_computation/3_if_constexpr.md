@@ -41,8 +41,8 @@ if constexpr ( condition ) statement else statement
 ```
 
 The condition must be a **converted constant expression of type `bool`** [N4950 §7.7]. If the
-Condition is `true`The discarded statement (if present) is the `else` branch. If the condition is
-`false`The discarded statement is the `then` branch.
+Condition is `true`. The discarded statement (if present) is the `else` branch. If the condition is
+`false`. The discarded statement is the `then` branch.
 
 The critical difference from `if`:
 
@@ -95,7 +95,7 @@ A **discarded statement** is the branch of an `if constexpr` that is not taken [
 Rules for discarded statements are:
 
 1. The discarded statement is not instantiated --- its contents are not checked for validity.
-2. A `return``break`Or `continue` in a discarded statement has no effect.
+2. A `return`, `break` or `continue` in a discarded statement has no effect.
 3. Labels in a discarded statement are still defined and can be the target of `goto` (though this is
    extremely poor practice).
 4. A discarded `constexpr if` within a template is only evaluated if it is in the taken branch.
@@ -139,7 +139,7 @@ But a taken branch with a side effect does execute at runtime.
 ## Type-Safe `to_string` with `if constexpr`
 
 Before `if constexpr`Writing a type-safe string conversion function required either specialization
-or SFINAE. With `if constexpr`The implementation is straightforward:
+or SFINAE. With `if constexpr`. The implementation is straightforward:
 
 ```cpp
 #include <iostream>
@@ -466,7 +466,7 @@ Timeout: 30s
 Updated max connections: 200
 ```
 
-The difference between `const``constexpr`And `constinit`:
+The difference between `const`, `constexpr` and `constinit`:
 
 | Specifier   | Compile-Time Init     | Runtime Modifiable | Implies `const` |
 | ----------- | --------------------- | ------------------ | --------------- |

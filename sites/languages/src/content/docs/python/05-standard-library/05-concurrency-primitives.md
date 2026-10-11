@@ -293,7 +293,7 @@ if __name__ == "__main__":
 ```
 
 :::caution
-Parent process memory (copy-on-write). On Windows, it uses `spawn()`Which re-imports the module.
+Parent process memory (copy-on-write). On Windows, it uses `spawn()`. Which re-imports the module.
 Always protect entry points with `if __name__ == "__main__"` to avoid infinite recursion on Windows.
 :::
 

@@ -550,7 +550,7 @@ std::formatter specialisation is like teaching std::format how to print your cus
   format string parsing errors.
 - **Throwing from `parse` for valid specifiers.** Only throw `std::format_error` for genuinely
   invalid specifiers. Valid specifiers should be consumed silently.
-- **Not handling empty format specifiers.** When the format string is `{:}`The `parse` function is
+- **Not handling empty format specifiers.** When the format string is `{:}`. The `parse` function is
   called with `ctx.begin() == ctx.end()` (before the `}`). Always handle this case.
 - **Format specifiers in `std::formatter` for `std::optional`.** C++23 provides a built-in formatter
   for `std::optional<T>` that delegates to `T`'s formatter. Do not specialize `std::formatter` for

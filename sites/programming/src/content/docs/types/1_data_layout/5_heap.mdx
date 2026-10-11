@@ -11,7 +11,7 @@ categories:
 
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
-When a C++ program executes `new int` or `std::vector::push_back`It requests "Dynamic Storage
+When a C++ program executes `new int` or `std::vector::push_back`. It requests "Dynamic Storage
 Duration." Unlike the stack, which is managed by a simple pointer increment/decrement instruction,
 The Heap requires complex interaction with the Operating System Kernel.
 
@@ -81,7 +81,7 @@ Granular control over the Reserve/Commit states.
    physical RAM.
 2. **`VirtualAlloc(MEM_COMMIT)`**: Backs specific pages within that range with RAM.
 
-This mechanism is essentially equivalent to `mmap`But the explicit separation of Reserve/Commit
+This mechanism is essentially equivalent to `mmap`. But the explicit separation of Reserve/Commit
 Allows high-performance structures like "Vector implementation with separate capacity/size" to avoid
 Wasting RAM on unused capacity.
 
@@ -629,7 +629,7 @@ The heap is the Wild West of memory, vast and untamed, where any object can live
 
 7. **Allocator propagation bugs with stateful allocators.** When a container uses a stateful
    allocator (e.g., PMR), copy assignment, move assignment, and swap must handle the allocator
-   correctly. The propagation traits (`propagate_on_container_copy_assignment`Etc.) determine
+   correctly. The propagation traits (`propagate_on_container_copy_assignment`. Etc.) determine
    whether the allocator is copied, moved, or swapped with the container. Getting these wrong causes
    containers to deallocate memory with the wrong allocator.
 

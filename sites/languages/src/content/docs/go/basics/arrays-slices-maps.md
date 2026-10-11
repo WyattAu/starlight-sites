@@ -186,7 +186,7 @@ emptySlice := []int{}    // not nil, len=0, cap=0
 madeSlice := make([]int, 0) // not nil, len=0, cap=0
 ```
 
-The difference matters for JSON marshaling: `nil` marshals to `null`While `[]int{}` marshals to
+The difference matters for JSON marshaling: `nil` marshals to `null`. While `[]int{}` marshals to
 `[]`. For most other purposes, they are interchangeable.
 
 ## Maps

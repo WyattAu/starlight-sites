@@ -83,7 +83,7 @@ int main() {
 ```
 
 :::tip
-(e.g., `int``double``std::string`). Provide explicit instantiation definitions in a single `.cpp`
+(e.g., `int`, `double`, `std::string`). Provide explicit instantiation definitions in a single `.cpp`
 file. This reduces compilation time and binary size without sacrificing the flexibility of
 Templates.
 :::
@@ -130,7 +130,7 @@ whose member functions are called --- the call site emits a reference, not a def
 ## Proof: Explicit Instantiation Definition Prevents Implicit Instantiation
 
 **Claim:** When a translation unit contains an explicit instantiation definition for
-`template-name<Args>`The compiler will not generate a separate implicit instantiation for the same
+`template-name<Args>`. The compiler will not generate a separate implicit instantiation for the same
 `template-name<Args>` within that translation unit, even if the template is used.
 
 **Proof sketch by contradiction:**
@@ -178,11 +178,11 @@ Translation unit:
 For templates with deep instantiation hierarchies (e.g., a
 `std::vector<std::map<std::string, std::vector<double>>>`), step 3 alone requires instantiating
 Dozens of internal templates: the allocator, the pair, the tree node, the iterator, the reverse
-Iterator, and so on. If 50 translation units all use the same `std::vector<int>`The compiler Repeats
+Iterator, and so on. If 50 translation units all use the same `std::vector<int>`. The compiler Repeats
 all five steps 50 times.
 
 `extern template` eliminates this redundancy. When a translation unit sees
-`extern template class std::vector<int>;`The compiler:
+`extern template class std::vector<int>;`. The compiler:
 
 - Still **parses** the template definition (needed for overload resolution and concept checking).
 - Skips **steps 3--5** for that specific instantiation.
@@ -277,8 +277,8 @@ public:
 #endif // HEAVY_UTILS_H
 ```
 
-Without `extern template`Every translation unit that includes this header and instantiates
-`DataProcessor<double>` must compile all member functions. With `extern template`Only one
+Without `extern template`. Every translation unit that includes this header and instantiates
+`DataProcessor<double>` must compile all member functions. With `extern template`. Only one
 Translation unit does the heavy lifting:
 
 ```cpp
@@ -327,13 +327,13 @@ Definition of each member function, each static data member, and each member cla
 §13.9.2/2].
 
 **ODR violation scenario: multiple explicit instantiation definitions.** If two translation units
-Both contain `template class Foo<int>;`The program violates the ODR --- there are two definitions Of
+Both contain `template class Foo<int>;`. The program violates the ODR --- there are two definitions Of
 every entity in `Foo<int>`. The linker may or may not detect this ( on whether the Linker performs
 strict ODR checking or merges identical symbols), but the behavior is Undefined.
 
 **ODR violation scenario: explicit instantiation definition + implicit instantiation.** If one
 Translation unit contains `template class Foo<int>;` and another translation unit (without an
-`extern template` declaration) implicitly instantiates `Foo<int>`The result is the same ODR
+`extern template` declaration) implicitly instantiates `Foo<int>`. The result is the same ODR
 Violation as above. The `extern template` declaration is the mechanism that prevents this.
 
 **ODR-safe pattern:**
@@ -360,7 +360,7 @@ template class Foo<double>;
 This pattern is ODR-safe because:
 
 - `foo.cpp` is the **only** translation unit with the explicit instantiation definitions.
-- Every other translation unit includes `foo.h`Which contains `extern template` declarations that
+- Every other translation unit includes `foo.h`. Which contains `extern template` declarations that
   suppress implicit instantiation.
 - The linker resolves the external references from the consuming TUs to the definitions in
   `foo.cpp`.
@@ -694,7 +694,7 @@ See the `extern` declaration while others do not. This can lead to ODR violation
 Linker errors. Keep the `extern` declarations and explicit definitions in sync.
 
 **Multiple explicit instantiation definitions across translation units.** If two `.cpp` files both
-Contain `template class Foo<int>;`The program has undefined behavior [N4950 §13.9.2/2]. The linker
+Contain `template class Foo<int>;`. The program has undefined behavior [N4950 §13.9.2/2]. The linker
 may merge them silently, emit a multiple-definition error, or produce incorrect code. There must be
 Exactly one explicit instantiation definition per instantiation.
 
@@ -745,7 +745,7 @@ int main() {
 }
 ```
 
-The specialization for `const char*` uses `strcmp` instead of `operator>`Which is essential Because
+The specialization for `const char*` uses `strcmp` instead of `operator>`. Which is essential Because
 `operator>` on raw pointers compares addresses, not lexicographic order. You cannot achieve This
 behavior change with explicit instantiation alone.
 

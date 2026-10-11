@@ -792,7 +792,7 @@ setenforce 1    # enforcing
 ### Pitfall: Password Hashes in /etc/passwd
 
 Historically, `/etc/passwd` contained password hashes. Modern systems store hashes in `/etc/shadow`
-(readable only by root). If you see a hash in `/etc/passwd`The system is misconfigured:
+(readable only by root). If you see a hash in `/etc/passwd`. The system is misconfigured:
 
 ```bash
 # Check: second field should be 'x'

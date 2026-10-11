@@ -61,7 +61,7 @@ The expression `co_await expr` is transformed by the compiler into a sequence of
 
 1. If `expr` has an `operator co_await` member or non-member overload, the result of
    `expr.operator co_await()` (or `operator co_await(expr)`) is the awaiter.
-2. Otherwise, if the promise type has `await_transform`Then `promise.await_transform(expr)` is
+2. Otherwise, if the promise type has `await_transform`. Then `promise.await_transform(expr)` is
    called, and the result is the awaiter.
 3. Otherwise, `expr` itself is the awaiter.
 
@@ -73,7 +73,7 @@ Calls [N4950 §9.5.4.3].
 **Proof:**
 
 1. The compiler first resolves the awaiter through the lookup chain defined above (operator
-   `co_await``await_transform`Or identity).
+   `co_await`, `await_transform` or identity).
 2. Let the resolved awaiter be `a`. The compiler generates code equivalent to:
 
    ```cpp
@@ -132,7 +132,7 @@ The three methods that an awaiter must provide [N4950 §9.5.4.3]:
 The return type of `await_suspend` is critical [N4950 §9.5.4.3]:
 
 - **`void`**: the coroutine is suspended; control returns to the caller.
-- **`bool`**: if `true`The coroutine is suspended; if `false`It resumes immediately.
+- **`bool`**: if `true`. The coroutine is suspended; if `false`. It resumes immediately.
 - **`coroutine_handle<Z>`**: the coroutine is suspended, and the returned handle is resumed
   (symmetric transfer).
 
@@ -216,7 +216,7 @@ int main() {
 
 ## `await_transform` for Custom Suspension Behavior
 
-If the promise type defines `await_transform`Every `co_await expr` first passes through it [N4950
+If the promise type defines `await_transform`. Every `co_await expr` first passes through it [N4950
 §9.5.4.3]. This allows the promise to intercept and transform any awaitable into a custom awaiter,
 Enabling library-level control over suspension semantics:
 
@@ -318,7 +318,7 @@ The promise type communicates values back to the caller through two distinct cha
 - **`co_return expr`** calls `promise.return_value(expr)` (or `promise.return_void()` if no value)
   and transitions the coroutine to the final suspend point.
 
-A promise type must define **either** `return_value` or `return_void`But not both. If the Coroutine
+A promise type must define **either** `return_value` or `return_void`. But not both. If the Coroutine
 uses `co_return;` (no value), `return_void` must be present.
 
 ```cpp

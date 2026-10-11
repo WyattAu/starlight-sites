@@ -133,7 +133,7 @@ int main() {
 
 C++20 introduced the **sentinel** concept [N4950 §25.3.5]. A sentinel is a type that can be compared
 with an iterator to determine the end of a range, but is **not itself an iterator**. The key
-Interface is `std::sentinel_for&lt;S, I>`Which requires that `S` and `I` be comparable with `==` And
+Interface is `std::sentinel_for&lt;S, I>`. Which requires that `S` and `I` be comparable with `==` And
 `!=` [N4950 §25.3.5.2].
 
 ```cpp
@@ -309,7 +309,7 @@ reallocation across insertions. The amortized cost of `push_back` is O(1), but a
 ### Unordered Container Invalidation on Rehash
 
 `std::unordered_map` and `std::unordered_set` store elements in a hash table. When the load factor
-Exceeds `max_load_factor()`The container **rehashes**: it allocates a new bucket array and
+Exceeds `max_load_factor()`. The container **rehashes**: it allocates a new bucket array and
 Re-inserts all elements. During rehash, all iterators are invalidated because elements are moved to
 Different buckets.
 
@@ -399,7 +399,7 @@ int main() {
 ### Proxy Iterators
 
 Some containers use **proxy iterators** where `*it` returns a proxy object instead of a reference to
-the actual element. The canonical example is `std::vector<bool>`Which stores bits packed into Words.
+the actual element. The canonical example is `std::vector<bool>`. Which stores bits packed into Words.
 Dereferencing its iterator returns a temporary proxy object, not a `bool&`:
 
 ```cpp
@@ -426,7 +426,7 @@ int main() {
 ```
 
 Proxy iterators complicate generic code because they violate the assumption that `*it` returns a
-Reference. C++20 ranges handle this correctly via `std::ranges::range_reference_t`Which returns The
+Reference. C++20 ranges handle this correctly via `std::ranges::range_reference_t`. Which returns The
 proxy type rather than requiring a true reference.
 
 ### Const Iterators vs Non-Const Iterators
@@ -459,9 +459,9 @@ int main() {
 
 ## Intuition
 
-**Iterators are like remote controls for containers:** A remote control lets you access TV channels (elements) without knowing how the TV works internally. An iterator does the same thing for containers, it provides a uniform interface (`++``*``->`) to access elements regardless of whether the container is a vector, list, or map. The iterator categories (input, forward, bidirectional, random access) are like remote control features, some let you go forward only, some let you go backward, and some let you jump to any channel instantly.
+**Iterators are like remote controls for containers:** A remote control lets you access TV channels (elements) without knowing how the TV works internally. An iterator does the same thing for containers, it provides a uniform interface (`++`, `*`, `->`) to access elements regardless of whether the container is a vector, list, or map. The iterator categories (input, forward, bidirectional, random access) are like remote control features, some let you go forward only, some let you go backward, and some let you jump to any channel instantly.
 
-**Why it matters:** Iterators are the bridge between algorithms and containers. Algorithms operate on iterator ranges, not containers directly. This means the same algorithm (`std::sort``std::find`) works with any container that provides the right iterator category. Understanding iterator categories is essential for writing generic code and for knowing which algorithms work with which containers.
+**Why it matters:** Iterators are the bridge between algorithms and containers. Algorithms operate on iterator ranges, not containers directly. This means the same algorithm (`std::sort`, `std::find`) works with any container that provides the right iterator category. Understanding iterator categories is essential for writing generic code and for knowing which algorithms work with which containers.
 
 **The key insight:** Iterator categories determine which algorithms work, `std::sort` requires random access iterators, so it works with `std::vector` but not `std::list`.
 

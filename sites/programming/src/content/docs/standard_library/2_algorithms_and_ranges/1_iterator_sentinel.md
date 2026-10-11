@@ -36,7 +36,7 @@ A range that is not necessarily an iterator.
 
 The key distinction from the traditional iterator-pair model:
 
-- **Traditional (C++17)**: A range is defined by a pair of iterators `[begin, end)`Both of the same
+- **Traditional (C++17)**: A range is defined by a pair of iterators `[begin, end)`. Both of the same
   type `I`.
 - **C++20**: A range is defined by an iterator `begin` and a sentinel `end`Potentially of different
   types `I` and `S` where `std::sentinel_for&lt;S, I>` holds [N4950 §25.3.5.2].
@@ -215,7 +215,7 @@ Ranges, it avoids computing the end pointer from a base + count.
 
 ## Iterator Concepts Hierarchy
 
-C++20 replaced the legacy iterator category tags (`std::input_iterator_tag`Etc.) with a hierarchy Of
+C++20 replaced the legacy iterator category tags (`std::input_iterator_tag`. Etc.) with a hierarchy Of
 concepts [N4950 §25.3.4]. Understanding this hierarchy is essential for implementing custom
 Sentinels and ranges.
 
@@ -322,7 +322,7 @@ Iteration terminates as soon as the condition is met.
 
 ## Range-For Loop Desugaring
 
-The range-for loop in C++20 is desugared to use `std::ranges::begin` and `std::ranges::end`Which
+The range-for loop in C++20 is desugared to use `std::ranges::begin` and `std::ranges::end`. Which
 Support iterator-sentinel pairs [N4950 §9.5.5].
 
 ### C++17 Desugaring (Iterator Pair)
@@ -396,7 +396,7 @@ without.
 
 ### Sized Ranges
 
-A **sized range** models `std::sized_range`Meaning `ranges::size(r)` is available in O(1) time
+A **sized range** models `std::sized_range`. Meaning `ranges::size(r)` is available in O(1) time
 [N4950 §25.3.6]. For standard containers, this is implemented via a stored size counter or By
 computing `end() - begin()` for random-access iterators.
 
@@ -516,8 +516,8 @@ This is identical in cost to a hand-written counted loop.
 ### Sentinel-Eligible Algorithm Optimizations
 
 The standard library algorithms are aware of sentinel types. When an algorithm receives
-`unreachable_sentinel`It can eliminate bounds-checking branches in inner loops. When it receives a
-`default_sentinel`It can use count-based loop termination instead of pointer comparison.
+`unreachable_sentinel`. It can eliminate bounds-checking branches in inner loops. When it receives a
+`default_sentinel`. It can use count-based loop termination instead of pointer comparison.
 
 ## `std::ranges::subrange` Details
 

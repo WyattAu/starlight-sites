@@ -70,7 +70,7 @@ type ReadWriteCloser interface {
 }
 ```
 
-`ReadWriteCloser` requires all methods from `Reader``Writer`And `Closer`.
+`ReadWriteCloser` requires all methods from `Reader`, `Writer` and `Closer`.
 
 ## The Empty Interface
 
@@ -213,7 +213,7 @@ var s Speaker = p // type is *Dog, value is nil
 fmt.Println(s == nil) // false!
 ```
 
-This is a common source of bugs. The interface is not nil because its type is `*Dog`Even though The
+This is a common source of bugs. The interface is not nil because its type is `*Dog`. Even though The
 value is nil. Calling a method on it works (the receiver is nil inside the method), but Comparing
 the interface to `nil` does not detect it.
 

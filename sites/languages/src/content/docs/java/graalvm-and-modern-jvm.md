@@ -1117,7 +1117,7 @@ Valhalla has been in development for over a decade. As of JDK 23:
 
 - **Value classes**: Preview in recent builds. Syntax may change.
 - **Generic specialization**: Not yet implemented. This is the hardest part of Valhalla.
-- **Migration**: Existing wrapper types (`Integer``Long`Etc.) will eventually be migrated to value
+- **Migration**: Existing wrapper types (`Integer`, `Long`. Etc.) will eventually be migrated to value
   classes, but this is a long-term goal that requires full generic specialization.
 
 ## Practical Setup
@@ -1449,7 +1449,7 @@ Need additional configuration.
 
 #### Linux
 
-- Native image requires `glibc-devel``zlib-devel`And `libstdc++-static` on most distributions.
+- Native image requires `glibc-devel`, `zlib-devel` and `libstdc++-static` on most distributions.
 - The FFM API uses `dlopen`/`dlsym` for symbol lookup. Library paths follow `LD_LIBRARY_PATH`.
 
 #### macOS

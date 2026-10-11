@@ -259,7 +259,7 @@ Real-time systems (no unpredictable latency on first function call).
 ## 3. Deduplication (COMDAT Folding)
 
 C++ templates pose a unique challenge. If `std::vector<int>::push_back` is instantiated in `A.cpp`
-And `B.cpp`Both object files contain the machine code for that function. Naively linking them Would
+And `B.cpp`. Both object files contain the machine code for that function. Naively linking them Would
 result in a "Multiple Definition" error.
 
 ### COMDAT Sections
@@ -533,7 +533,7 @@ Line.
 
 ### Step 4: Check Name Mangling Compatibility
 
-If the symbol is defined in a C library but declared in C++ code without `extern "C"`The C++
+If the symbol is defined in a C library but declared in C++ code without `extern "C"`. The C++
 Compiler will emit a mangled name while the library exports an unmangled name.
 
 ```cpp
@@ -620,7 +620,7 @@ the library, it records which version of each symbol it was linked against. At r
 Linker verifies that the requested version is available.
 
 This allows the library to introduce new symbols (in `VERS_2.0`) without breaking existing programs
-that depend on `VERS_1.0` symbols. If a symbol is removed or changed in `VERS_2.0`The dynamic Linker
+that depend on `VERS_1.0` symbols. If a symbol is removed or changed in `VERS_2.0`. The dynamic Linker
 detects the version mismatch and reports an error rather than silently producing incorrect Behavior.
 
 ### Version Script for Hiding Symbols

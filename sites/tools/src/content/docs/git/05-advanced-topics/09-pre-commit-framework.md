@@ -208,9 +208,9 @@ hooks:
     types: [json]
 ```
 
-Common file types: `file``symlink``directory``text``binary``python``ruby``javascript`
-`jsx``typescript``tsx``shell``yaml``json``toml``xml``html``css``markdown`
-`dockerfile``c``cpp``go``rust``java`.
+Common file types: `file`, `symlink`, `directory`, `text`, `binary`, `python`, `ruby`, `javascript`
+`jsx`, `typescript`, `tsx`, `shell`, `yaml`, `json`, `toml`, `xml`, `html`, `css`, `markdown`
+`dockerfile`, `c`, `cpp`, `go`, `rust`, `java`.
 
 ### Stages
 
@@ -481,7 +481,7 @@ repos:
 
 A hook is any executable that:
 
-1. Receives filenames as arguments (when `pass_filenames: true`Which is the default).
+1. Receives filenames as arguments (when `pass_filenames: true`. Which is the default).
 2. Reads from stdin if it needs to process piped content.
 3. Exits with code 0 on success, non-zero on failure.
 4. Prints diagnostics to stdout or stderr (stderr is preferred for error messages).
@@ -948,7 +948,7 @@ Mirror repo's release page and compare with the upstream release before pinning 
 ### Multiple Hooks Modifying the Same File
 
 When two hooks both modify the same file (e.g., `black` reformats and `isort` reorders imports), the
-Order matters. If `isort` runs after `black`It may reformat in a way that `black` would change. The
+Order matters. If `isort` runs after `black`. It may reformat in a way that `black` would change. The
 framework runs hooks in the order they appear in the configuration. Order your hooks so that the
 Last modifier is the one whose output is canonical:
 
@@ -975,7 +975,7 @@ chmod +x scripts/check-no-debug.sh
 
 ### The `exclude` Pattern Applies to the Full File Path
 
-When you write `exclude: 'vendor/'`It matches the full path relative to the repository root, not
+When you write `exclude: 'vendor/'`. It matches the full path relative to the repository root, not
 just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
 `pre-commit run --verbose` to see which files are being passed to each hook.
 

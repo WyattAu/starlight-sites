@@ -42,7 +42,7 @@ The data link layer receives a bit stream and divides it into manageable **frame
 2. **Flag bytes:** Special flag byte (`0x7E` for HDLC) marks start/end. Byte stuffing with escape
    byte (`0x7D`) prevents ambiguity.
 3. **Bit-oriented flags:** Flag pattern `01111110`. Bit stuffing: insert `0` after five consecutive
-   `1`S in the data.
+   `1`s in the data.
 4. **Clock-based:** Manchester encoding provides self-clocking and frame boundaries.
 
 ### 3.2 Error Detection and Correction

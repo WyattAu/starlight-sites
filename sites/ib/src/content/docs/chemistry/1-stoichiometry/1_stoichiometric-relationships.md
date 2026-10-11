@@ -677,13 +677,13 @@ Helium diffuses about 2.83 times faster than oxygen.
 #### Molar Mass of a Gas
 
 $$
-M = \frac`\{mRT}``\{PV}`
+M = \frac`\{mRT}`, `\{PV}`
 $$
 
 #### Density of a Gas
 
 $$
-\rho = \frac`\{PM}``\{RT}`
+\rho = \frac`\{PM}`, `\{RT}`
 $$
 :::
 

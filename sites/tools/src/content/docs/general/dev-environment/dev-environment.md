@@ -20,7 +20,7 @@ description: "Study notes for Development Environment Setup with worked examples
 
 **Why it matters:** The tools you use daily have an outsized impact on your productivity. A fast terminal, a well-configured editor, and efficient shell aliases can save hours per week compared to slow, unconfigured defaults.
 
-**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode, this is not just cosmetic; it enables tools like `bat``fzf`and `neovim` to display syntax highlighting and special characters correctly.
+**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode, this is not just cosmetic; it enables tools like `bat`, `fzf`and `neovim` to display syntax highlighting and special characters correctly.
 
 ## Terminal Emulators
 
@@ -560,13 +560,13 @@ nix develop  # Enter the development shell
 - **Homebrew** is the standard package manager: `brew install tmux neovim ripgrep`
 - **Xcode Command Line Tools** required for many builds: `xcode-select --install`
 - **Path differences:** Homebrew installs to `/opt/homebrew` (Apple Silicon) or `/usr/local` (Intel)
-- **BSD utilities:** macOS ships BSD versions of `sed``grep``awk`Etc. Install GNU versions via
-  Homebrew (`gsed``ggrep`) for compatibility with Linux.
+- **BSD utilities:** macOS ships BSD versions of `sed`, `grep`, `awk`. Etc. Install GNU versions via
+  Homebrew (`gsed`, `ggrep`) for compatibility with Linux.
 
 ### Linux Specifics
 
 - **Package manager varies by distro:** `apt` (Debian/Ubuntu), `dnf` (Fedora), `pacman` (Arch)
-- **Systemd** manages services: `systemctl``journalctl`
+- **Systemd** manages services: `systemctl`, `journalctl`
 - **AppArmor/SELinux** may restrict terminal and editor capabilities
 - **Wayland vs X11** affects clipboard integration, screen sharing, and terminal behavior
 

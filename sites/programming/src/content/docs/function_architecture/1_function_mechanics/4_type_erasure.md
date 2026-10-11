@@ -236,7 +236,7 @@ int main() {
 
 `std::function` requires its stored callable to be copyable. This is a problem for callables that
 Own move-only resources (e.g., `std::unique_ptr`File handles). C++23 introduces
-`std::move_only_function<R(Args...)>`Which is a move-only callable wrapper.
+`std::move_only_function<R(Args...)>`. Which is a move-only callable wrapper.
 
 ```cpp
 #include <functional>

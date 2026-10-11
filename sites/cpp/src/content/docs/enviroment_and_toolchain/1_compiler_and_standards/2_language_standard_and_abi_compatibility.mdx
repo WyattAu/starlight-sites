@@ -583,7 +583,7 @@ namespace std \{
 
 When `_GLIBCXX_USE_CXX11_ABI=1, basic_string` is defined inside `std::__cxx11`. The mangled name For
 `std::string` becomes `_ZNSt7__cxx11basic_stringIcSt11char_traitsIcESaIcEE` (includes the `__cxx11`
-tag). When `_GLIBCXX_USE_CXX11_ABI=0`The `basic_string` definition is placed directly in `std`And
+tag). When `_GLIBCXX_USE_CXX11_ABI=0`. The `basic_string` definition is placed directly in `std`And
 the mangled name omits the `__cxx11` component.
 
 The linker treats these as entirely different symbols. An object file compiled with ABI=0 references
@@ -594,7 +594,7 @@ Qualifier. The linker reports "undefined reference" because it cannot find a mat
 ### Practical Implications
 
 1. **Never mix ABI versions in the same binary.** If one library was compiled with
-   `_GLIBCXX_USE_CXX11_ABI=0` and another with `=1`The linker sees two distinct `std::string` types
+   `_GLIBCXX_USE_CXX11_ABI=0` and another with `=1`. The linker sees two distinct `std::string` types
    and will report "undefined reference" or "multiple definition" errors.
 2. **System libraries are compiled with the distro's default ABI.** On Ubuntu 22.04, system
    libraries use ABI=1. Recompiling your own code with ABI=0 and linking against system `.so` files

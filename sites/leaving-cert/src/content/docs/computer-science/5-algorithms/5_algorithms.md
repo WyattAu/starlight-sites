@@ -72,7 +72,7 @@ Focusing on the essential features of a problem while ignoring irrelevant detail
 Lights, while ignoring the colour of the cars or the brand.
 
 **Example (HL):** In object-oriented programming, a `Vehicle` class abstracts common properties
-(wheels, speed, colour) while `Car``Bicycle`And `Truck` inherit and specialise these properties.
+(wheels, speed, colour) while `Car`, `Bicycle` and `Truck` inherit and specialise these properties.
 
 ### Algorithm Design (OL/HL)
 
@@ -694,7 +694,7 @@ otherwise.
 **Proof.** The loop examines every index from 0 to len(arr)-1.
 
 - If `target` is at index $k$: the loop reaches index $k$ Finds `arr[k] == target`And returns $k$.
-- If `target` is not in the array: no index satisfies `arr[i] == target`So the loop completes
+- If `target` is not in the array: no index satisfies `arr[i] == target`. So the loop completes
   without returning, and the function returns -1.
 
 Both cases are correct. $lacksquare$

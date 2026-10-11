@@ -128,7 +128,7 @@ Apply the four pillars of computational thinking to design a smart home temperat
 Thermostat: compare current temperature to target, and take action based on the difference. This is
 the same pattern used in cruise control, autopilot, and other feedback control systems.
 
-**Abstraction:** Create a `Thermostat` class with methods like `setTarget(temp)``getCurrentTemp()`
+**Abstraction:** Create a `Thermostat` class with methods like `setTarget(temp)`, `getCurrentTemp()`
 And `isActionNeeded()`. The user interacts with the interface (setting a desired temperature)
 without Needing to know about sensor calibration, HVAC wiring, or control algorithms.
 
@@ -155,13 +155,13 @@ to create models that capture what is important while ignoring irrelevant comple
 
 1. **Hardware level**: Logic gates, registers, memory cells
 2. **Machine code level**: Binary instructions executed by the CPU
-3. **Assembly language**: Human-readable representations of machine code (e.g., `MOV``ADD`)
+3. **Assembly language**: Human-readable representations of machine code (e.g., `MOV`, `ADD`)
 4. **High-level language**: Python, Java, C++. Closer to human language
 5. **Application level**: The software users interact with
 
 **Example**: When using a `list` in Python, you do not need to know how memory is allocated, how
 Pointers work, or how the data is stored physically. The abstraction hides these details and
-Provides a simple interface: `append()``remove()``sort()`.
+Provides a simple interface: `append()`, `remove()`, `sort()`.
 
 ### Algorithm Design
 
@@ -399,7 +399,7 @@ Efficient for lookup but inefficient for frequent insertions/deletions.
 ### Stacks
 
 - Last In, First Out (LIFO) structure
-- Operations: `push(item)``pop()``peek()``isEmpty()`
+- Operations: `push(item)`, `pop()`, `peek()`, `isEmpty()`
 - Applications: undo/redo functionality, expression evaluation, function call management (call
   stack)
 
@@ -428,7 +428,7 @@ class Stack:
 ### Queues
 
 - First In, First Out (FIFO) structure
-- Operations: `enqueue(item)``dequeue()``front()``isEmpty()`
+- Operations: `enqueue(item)`, `dequeue()`, `front()`, `isEmpty()`
 - Applications: print spooling, task scheduling, breadth-first search
 
 ```python
@@ -768,8 +768,8 @@ If you get this wrong, revise: [Selection Sort](#sorting-algorithms)
 }
 </script>
 
-**Problem 5:** A stack has the following operations performed on it in order: `push(3)``push(7)`
-`push(1)``pop()``push(9)``push(4)``pop()``pop()``peek()`. What values are returned by Each `pop()`
+**Problem 5:** A stack has the following operations performed on it in order: `push(3)`, `push(7)`
+`push(1)`, `pop()`, `push(9)`, `push(4)`, `pop()`, `pop()`, `peek()`. What values are returned by Each `pop()`
 and `peek()` call, and what is the final state of the stack?
 
 <details>
@@ -804,8 +804,8 @@ If you get this wrong, revise: [Stacks](#stacks)
 }
 </script>
 
-**Problem 6:** A queue has the following operations: `enqueue("red")``enqueue("blue")`
-`enqueue("green")``dequeue()``enqueue("yellow")``dequeue()``enqueue("purple")`. What does The queue
+**Problem 6:** A queue has the following operations: `enqueue("red")`, `enqueue("blue")`
+`enqueue("green")`, `dequeue()`, `enqueue("yellow")`, `dequeue()`, `enqueue("purple")`. What does The queue
 contain after all operations?
 
 <details>

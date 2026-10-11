@@ -181,7 +181,7 @@ Stream<String> parallel = names.parallelStream();    // parallel stream
 
 ### Primitive Specializations
 
-`IntStream``LongStream`And `DoubleStream` avoid the overhead of boxing and unboxing. Each provides
+`IntStream`, `LongStream` and `DoubleStream` avoid the overhead of boxing and unboxing. Each provides
 range generation, summary statistics, and specialized reduction operations.
 
 ```java
@@ -898,7 +898,7 @@ long count = largeList.parallelStream()
     .count();
 ```
 
-**3. Poor sources for splitting.** `LinkedList``Stream.iterate()`And `BufferedReader.lines()` are
+**3. Poor sources for splitting.** `LinkedList`, `Stream.iterate()` and `BufferedReader.lines()` are
 inherently sequential and cannot be efficiently split. Parallelizing them often makes things slower
 due to the splitting overhead.
 
@@ -936,7 +936,7 @@ pervasive use of `null` as a sentinel.
 
 `Optional` exists to make the **presence or absence of a value explicit at the type level**. Before
 `Optional`API methods returned `null` to indicate "no result," and callers had to remember to check
-for null. This was the source of countless `NullPointerException`S. `Optional` forces the caller to
+for null. This was the source of countless `NullPointerException`s. `Optional` forces the caller to
 explicitly handle both cases.
 
 However, `Optional` was **not designed** for every use case. Brian Goetz (Java language architect)
@@ -981,7 +981,7 @@ String result4 = opt.orElseThrow(() -> new IllegalArgumentException("not found")
 :::
 
 :::danger
-always evaluates `defaultValue`Even if the `Optional` is present. `orElseGet(supplier)` only invokes
+always evaluates `defaultValue`. Even if the `Optional` is present. `orElseGet(supplier)` only invokes
 the supplier when the `Optional` is empty.
 
 ```java
@@ -1030,7 +1030,7 @@ opt.ifPresent(value -> System.out.println("Value: " + value));
 
 :::caution
 (`if (x != null) { x.foo() }`) and negates the purpose of `Optional`. Prefer
-`ifPresent()``map()``flatMap()``filter()`Or the `orElse*` family.
+`ifPresent()`, `map()`, `flatMap()`, `filter()` or the `orElse*` family.
 
 ```java
 // ANTI-PATTERN -- isPresent + get

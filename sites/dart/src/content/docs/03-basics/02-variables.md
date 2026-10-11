@@ -118,7 +118,7 @@ const int number = 22;
 ### Nullable specifier
 
 Variables are required to be defined at declaration by default, to enable the option for the
-Variable to be `null`The `?` specifier should be used:
+Variable to be `null`. The `?` specifier should be used:
 
 ```dart
 String? text;
@@ -199,13 +199,13 @@ Platforms, but is limited to 53-bit precision when compiled to JavaScript. `doub
 :::
 
 :::note
-`abs()``floor()`Etc. Note that `num``double``int` cannot be extended.
+`abs()`, `floor()`. Etc. Note that `num`, `double`, `int` cannot be extended.
 :::
 
 #### String Literals
 
-Only one String type exists in Dart, `String`Which holds a sequence of characters specify in UTF-16
-code. Within String declarations `""``${ \\ expression }` can be declared, and any Expression that
+Only one String type exists in Dart, `String`. Which holds a sequence of characters specify in UTF-16
+code. Within String declarations `""`, `${ \\ expression }` can be declared, and any Expression that
 can evaluates to String can be placed within. A raw `String` can be created with Declarator `r`
 infront of the string:
 
@@ -449,7 +449,7 @@ a.difference(b);    // {1, 2}
 
 #### Maps
 
-A `Map` is a key-value store. Like `Set`It uses hash-based lookup with $O(1)$ average complexity.
+A `Map` is a key-value store. Like `Set`. It uses hash-based lookup with $O(1)$ average complexity.
 
 ```dart
 // Literal

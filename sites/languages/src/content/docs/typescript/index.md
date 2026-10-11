@@ -68,7 +68,7 @@ TypeScript provides several basic types that map to JavaScript's runtime types:
 TypeScript supports all JavaScript primitive types with dedicated type keywords:
 
 - `string`Text values. Example: `let name: string = "Alice";`
-- `number`All numeric values (integers and floats). Example: `let age: number = 25;`
+- `number`. All numeric values (integers and floats). Example: `let age: number = 25;`
 - `boolean`True or false. Example: `let active: boolean = true;`
 - `null` and `undefined`Absence of value. Example: `let x: null = null;`
 - `bigint`Arbitrary-precision integers. Example: `let big: bigint = 100n;`
@@ -88,8 +88,8 @@ Readonly arrays are useful for representing immutable data. Methods like `push`,
 
 Tuples are fixed-length arrays where each position has a specific type. They are useful for representing structured data with a known shape:
 
-- `[string, number]`First element is a string, second is a number
-- `[string, number?]`Second element is optional
+- `[string, number]`. First element is a string, second is a number
+- `[string, number?]`. Second element is optional
 - `[string, ...number[]]`A string followed by any number of numbers
 
 Tuples are commonly used as return types for functions that return multiple values, or as elements in data structures where the position of each element carries meaning.
@@ -171,7 +171,7 @@ A generic function accepts a type parameter (conventionally `T`) that is determi
 
 You can constrain generic types to objects with specific properties using the `extends` keyword:
 
-- `function getLength<T extends { length: number }>(x: T): number { return x.length; }`Only accepts types with a `length` property
+- `function getLength<T extends { length: number }>(x: T): number { return x.length; }`. Only accepts types with a `length` property
 
 ### Generic Classes and Interfaces
 
@@ -257,12 +257,12 @@ The key principle is to make error states explicit in the type system rather tha
 
 The TypeScript configuration file controls how the compiler processes your code. Key options include:
 
-- `target`The JavaScript version to emit (ES5, ES2015, ES2020, ESNext)
-- `module`The module system (CommonJS, ESNext, NodeNext)
+- `target`. The JavaScript version to emit (ES5, ES2015, ES2020, ESNext)
+- `module`. The module system (CommonJS, ESNext, NodeNext)
 - `strict`Enables all strict type-checking options
-- `outDir`The output directory for compiled files
-- `rootDir`The root directory of source files
-- `include` and `exclude`Which files to compile
+- `outDir`. The output directory for compiled files
+- `rootDir`. The root directory of source files
+- `include` and `exclude`. Which files to compile
 
 ### Compiler Options
 
@@ -291,7 +291,7 @@ TypeScript and React work together to provide type-safe component development:
 
 3. **Use the type inference**, TypeScript can often infer types from usage. You do not always need explicit annotations. Let the compiler do the work when the type is obvious.
 
-4. **Learn the utility types**, `Partial``Required``Pick``Omit``Record``Exclude``Extract`these save you from writing repetitive type definitions.
+4. **Learn the utility types**, `Partial`, `Required`, `Pick`, `Omit`, `Record`, `Exclude`, `Extract`these save you from writing repetitive type definitions.
 
 5. **Read error messages carefully**, TypeScript error messages are descriptive and often tell you exactly what is wrong. Learn to parse them.
 

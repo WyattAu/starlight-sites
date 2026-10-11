@@ -347,7 +347,7 @@ the entries.
 
 ### `break`
 
-Exits the current loop immediately. In a `loop``break` can return a value:
+Exits the current loop immediately. In a `loop`, `break` can return a value:
 
 ```rust
 let mut i = 0;
@@ -471,7 +471,7 @@ fn parse_or_default(s: &str) -> u64 {
 }
 ```
 
-The `else` block can contain `return``break``continue``panic!`Or another diverging Expression. It
+The `else` block can contain `return`, `break`, `continue`, `panic!` or another diverging Expression. It
 cannot be a non-diverging block.
 
 ### `while let`
@@ -1004,7 +1004,7 @@ not appear in production code.
 
 ## Common Pitfalls
 
-1. **Using `if` without braces.** Rust requires braces around the body of `if``else``while`And
+1. **Using `if` without braces.** Rust requires braces around the body of `if`, `else`, `while` and
    `for`. Unlike C, `if (x) return;` is invalid, you must write `if x { return; }`.
 
 2. **Forgetting `match` exhaustiveness.** Adding a new enum variant without updating all `match`

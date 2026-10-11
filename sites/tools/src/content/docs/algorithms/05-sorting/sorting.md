@@ -156,7 +156,7 @@ def _merge(left, right):
 ```
 
 **Stability:** Merge sort is stable because when elements are equal, the element from the left half
-Is chosen first (`left[i] <= right[j]` uses `<=`Not `\lt{}`). This preserves the original relative
+Is chosen first (`left[i] <= right[j]` uses `<=`. Not `\lt{}`). This preserves the original relative
 Order.
 
 ### Quicksort

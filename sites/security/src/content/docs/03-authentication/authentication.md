@@ -116,7 +116,7 @@ they contradict many traditional policies.
 
 **Do Not:**
 
-- Force periodic password rotation (leads to predictable patterns: `Password1!``Password2!`...)
+- Force periodic password rotation (leads to predictable patterns: `Password1!`, `Password2!`...)
 - Require composition rules (uppercase + lowercase + digit + special character, users just
   capitalize the first letter and add `1!`)
 - Require passwords to be changed after a breach unless compromise is confirmed

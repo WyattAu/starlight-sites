@@ -380,7 +380,7 @@ Syntactic sugar for static function calls. This means they cannot be used polymo
 
 **Why it matters:** Single inheritance keeps the hierarchy simple, mixins prevent the "diamond problem," and implicit interfaces mean you can write test doubles for any class without designing for testability upfront.
 
-**The key insight:** Dart's three mechanisms (`extends``implements``with`) map to three distinct relationships: is-a, has-contract, and has-capability, choose the right one for each design problem.
+**The key insight:** Dart's three mechanisms (`extends`, `implements`, `with`) map to three distinct relationships: is-a, has-contract, and has-capability, choose the right one for each design problem.
 
 ## Common Pitfalls
 

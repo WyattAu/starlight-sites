@@ -297,7 +297,7 @@ $$
 \mathrm{Total Width} = \mathrm{margin-left} + \mathrm{border-left} + \mathrm{padding-left} + \mathrm{width} + \mathrm{padding-right} + \mathrm{border-right} + \mathrm{margin-right}
 $$
 
-With `box-sizing: border-box`The `width` property includes content, padding, and border:
+With `box-sizing: border-box`. The `width` property includes content, padding, and border:
 
 $$
 \mathrm{Total Width} = \mathrm{margin-left} + \mathrm{width} + \mathrm{margin-right}
@@ -672,7 +672,7 @@ scores.sort(function (a, b) {
 1. **Choose a domain name:** Select a name that is memorable, relevant, and available.
 2. **Check availability:** Use a domain registrar"s search tool to verify the name is not already
    registered.
-3. **Choose a TLD:** Select the appropriate top-level domain (`.com``.org``.edu``.hk`Etc.).
+3. **Choose a TLD:** Select the appropriate top-level domain (`.com`, `.org`, `.edu`, `.hk`. Etc.).
 4. **Register with a registrar:** Use an accredited registrar (e.g., GoDaddy, Namecheap, HKDNR for
    `.hk` domains).
 5. **Provide registrant information:** Name, contact details, administrative and technical contacts.
@@ -1016,8 +1016,8 @@ Answer:
 (c) `box-sizing: border-box` makes the `width` and `height` properties include the content area,
 Padding, and border. Without it (the default `content-box`), `width` applies only to the content,
 And padding and border are added on top, making the total element wider than specified. This
-Commonly causes layout issues when elements exceed their container. With `border-box`If you set
-`width: 250px`The total rendered width including padding and border will be exactly 250px, making
+Commonly causes layout issues when elements exceed their container. With `border-box`. If you set
+`width: 250px`. The total rendered width including padding and border will be exactly 250px, making
 Layout calculations predictable. Many developers apply `* { box-sizing: border-box; }` globally.
 
 </details>

@@ -151,7 +151,7 @@ void check_endianness() \{
 ```
 
 To allow this godbolt iframe to showcase the endianness between x86_64 gcc and powerpc gcc, right
-Click on the print and select `reveal linked code`This will direct you to the correct location in
+Click on the print and select `reveal linked code`. This will direct you to the correct location in
 Asm.
 
 <div className="godbolt-container">
@@ -521,7 +521,7 @@ Fundamental types are the alphabet of the machine, each one maps directly to a r
 ## Common Pitfalls
 
 - **Using `int` or `long` for binary protocol fields.** The size of `int` and `long` varies across
-  platforms. Always use `<cstdint>` fixed-width types (`uint32_t, int64_t`Etc.) for network
+  platforms. Always use `<cstdint>` fixed-width types (`uint32_t, int64_t`. Etc.) for network
   protocols, file formats, and shared memory structures.
 - **Signed integer overflow UB.** The compiler assumes signed overflow never happens and optimizes
   based on this assumption. Use `-fsanitize=signed-integer-overflow` during testing to catch these

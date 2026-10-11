@@ -487,7 +487,7 @@ int main() {
 
 ### 3. Conditional `noexcept` and Undefined Behavior
 
-When writing conditional `noexcept`The condition must accurately reflect whether the function can
+When writing conditional `noexcept`. The condition must accurately reflect whether the function can
 Throw. If the condition evaluates to `true` but the function actually throws, `std::terminate()` is
 Called. If the condition evaluates to `false` when the function cannot throw, you lose the
 Optimization benefit but correctness is preserved:

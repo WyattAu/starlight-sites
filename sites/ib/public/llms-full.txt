@@ -37809,7 +37809,7 @@ $$
 Dividing both sides by $-nF$:
 
 $$
-\boxed{E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac`\{RT}``\{nF}`\ln Q}
+\boxed{E_{\mathrm{cell}} = E^\circ_{\mathrm{cell}} - \frac`\{RT}`, `\{nF}`\ln Q}
 $$
 
 This is the **Nernst equation**. At $298\mathrm{ K}$ Substituting $R = 8.314\mathrm{ J/(mol K)}$
@@ -37865,11 +37865,11 @@ At equilibrium, $\Delta G = 0$ So $E_{\mathrm{cell}} = 0$ and $Q = K$ (the equil
 Substituting into the Nernst equation:
 
 $$
-0 = E^\circ_{\mathrm{cell}} - \frac`\{RT}``\{nF}`\ln K
+0 = E^\circ_{\mathrm{cell}} - \frac`\{RT}`, `\{nF}`\ln K
 $$
 
 $$
-E^\circ_{\mathrm{cell}} = \frac`\{RT}``\{nF}`\ln K = \frac{0.0592}{n}\log_{10} K \quad \mathrm{at } 298\mathrm{ K}
+E^\circ_{\mathrm{cell}} = \frac`\{RT}`, `\{nF}`\ln K = \frac{0.0592}{n}\log_{10} K \quad \mathrm{at } 298\mathrm{ K}
 $$
 
 **Definition.** At equilibrium, the cell potential is zero. The standard cell potential directly
@@ -37957,7 +37957,7 @@ $$
 $$
 
 $$
-\boxed{E^\circ_{\mathrm{cell}} = \frac`\{RT}``\{nF}`\ln K}
+\boxed{E^\circ_{\mathrm{cell}} = \frac`\{RT}`, `\{nF}`\ln K}
 $$
 
 At $298\mathrm{ K}$:
@@ -47270,7 +47270,7 @@ Value, the stronger the reducing agent.
 For non-standard conditions, the cell potential is given by the Nernst equation:
 
 $$
-E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac`\{RT}``\{nF}`\ln Q
+E_{\mathrm{cell}} = E_{\mathrm{cell}}^\circ - \frac`\{RT}`, `\{nF}`\ln Q
 $$
 
 At $298\mathrm{ K}$ This simplifies to:
@@ -47298,7 +47298,7 @@ $$
 At equilibrium, $E_{\mathrm{cell}} = 0$ and $\Delta G = 0$ So:
 
 $$
-E_{\mathrm{cell}}^\circ = \frac`\{RT}``\{nF}`\ln K = \frac{0.0592}{n}\log K
+E_{\mathrm{cell}}^\circ = \frac`\{RT}`, `\{nF}`\ln K = \frac{0.0592}{n}\log K
 $$
 :::
 
@@ -49551,7 +49551,7 @@ Molecules) deviate more from ideal behaviour.
 ### Compressibility Factor
 
 $$
-Z = \frac`\{PV}``\{nRT}`
+Z = \frac`\{PV}`, `\{nRT}`
 $$
 
 - $Z = 1$: ideal gas
@@ -49854,7 +49854,7 @@ Convert all quantities to SI units:
 Using $R = 8.314\mathrm{ J/(mol \cdot K)}$ (SI units):
 
 $$
-N = \frac`\{PV}``\{RT}` = \frac{98\,500 \times 2.500 \times 10^{-4}}{8.314 \times 298} = \frac{24.63}{2477.6} = 0.00994\mathrm{ mol}
+N = \frac`\{PV}`, `\{RT}` = \frac{98\,500 \times 2.500 \times 10^{-4}}{8.314 \times 298} = \frac{24.63}{2477.6} = 0.00994\mathrm{ mol}
 $$
 
 Alternatively, using $R = 8.314 \times 10^{-2}\mathrm{ L \cdot kPa/(mol \cdot K)}$ and keeping $V$
@@ -51103,13 +51103,13 @@ Helium diffuses about 2.83 times faster than oxygen.
 #### Molar Mass of a Gas
 
 $$
-M = \frac`\{mRT}``\{PV}`
+M = \frac`\{mRT}`, `\{PV}`
 $$
 
 #### Density of a Gas
 
 $$
-\rho = \frac`\{PM}``\{RT}`
+\rho = \frac`\{PM}`, `\{RT}`
 $$
 :::
 
@@ -52821,11 +52821,11 @@ Be borrowed by one Member at a time. A Book has a title, author, ISBN, and avail
 Member has a name, member ID, and a list of current loans.
 
 **Physical model:** The Book entity is stored in a MySQL table with columns
-`book_id INT PRIMARY KEY AUTO_INCREMENT``title VARCHAR(200) NOT NULL`
-`author VARCHAR(100) NOT NULL``isbn VARCHAR(13) UNIQUE``is_available BOOLEAN DEFAULT TRUE`. The
+`book_id INT PRIMARY KEY AUTO_INCREMENT`, `title VARCHAR(200) NOT NULL`
+`author VARCHAR(100) NOT NULL`, `isbn VARCHAR(13) UNIQUE`, `is_available BOOLEAN DEFAULT TRUE`. The
 Member entity is stored in a MySQL table with columns `member_id INT PRIMARY KEY AUTO_INCREMENT`
 `name VARCHAR(100) NOT NULL`. The loan relationship is stored in a junction table `loan` with
-Columns `loan_id``book_id FOREIGN KEY`And `member_id FOREIGN KEY`.
+Columns `loan_id`, `book_id FOREIGN KEY` and `member_id FOREIGN KEY`.
 
 The conceptual model describes the domain. The physical model describes the implementation. A good
 Design separates them so that the physical implementation can change (e.g., migrating from MySQL to
@@ -53451,7 +53451,7 @@ External code must use to interact with a service.
 | Database API | Protocol for interacting with a database                      | JDBC (Java), SQLite API     |
 
 **API abstraction:** The caller of an API does not need to know how the API is implemented. When you
-Call `requests.get(url)`You do not need to know how the HTTP protocol is implemented at the socket
+Call `requests.get(url)`. You do not need to know how the HTTP protocol is implemented at the socket
 Level. The API abstracts away the complexity.
 
 ## Top-Down Design and Stepwise Refinement
@@ -53684,7 +53684,7 @@ Area: 100
 ```
 
 The `getAreaDescription()` method is defined in `Shape` and calls `area()`. Because `area()` is
-Overridden in both `Rectangle` and `Circle`The correct version is called for each object at Runtime.
+Overridden in both `Rectangle` and `Circle`. The correct version is called for each object at Runtime.
 This is **runtime polymorphism** (also called dynamic dispatch or late binding).
 
 ### Worked Example: Tracing Polymorphic Behavior
@@ -54017,7 +54017,7 @@ abstraction**. Give one example of each in the context of a restaurant managemen
 <summary>Solution</summary>
 
 **Data abstraction** hides the internal representation of data and exposes only the operations that
-Can be performed on it. Example: a `Menu` class that provides `addItem()``removeItem()`And
+Can be performed on it. Example: a `Menu` class that provides `addItem()`, `removeItem()` and
 `findItem(name)` methods while hiding whether items are stored in an array, linked list, or
 database.
 
@@ -54032,7 +54032,7 @@ abstraction Hides _algorithmic logic_.
 </details>
 
 **Problem 2.** A stack is implemented using a dynamic array. Initially the stack is empty. Trace the
-Stack after each operation: `push(10)``push(20)``push(30)``pop()``push(40)``peek()` `pop()``pop()`.
+Stack after each operation: `push(10)`, `push(20)`, `push(30)`, `pop()`, `push(40)`, `peek()` `pop()`, `pop()`.
 State the value returned by each `pop()` and `peek()` call.
 
 <details>
@@ -54073,8 +54073,8 @@ the Rooms cease to exist as meaningful entities in the system.
 
 **Problem 4.** A `Queue` ADT has the following specification: `enqueue(item)` adds to the rear,
 `dequeue()` removes from the front, `isEmpty()` returns whether the queue is empty. Starting with an
-Empty queue, trace the queue after: `enqueue("A")``enqueue("B")``enqueue("C")``dequeue()`
-`enqueue("D")``dequeue()`. What is the final state of the queue?
+Empty queue, trace the queue after: `enqueue("A")`, `enqueue("B")`, `enqueue("C")`, `dequeue()`
+`enqueue("D")`, `dequeue()`. What is the final state of the queue?
 
 <details>
 <summary>Solution</summary>
@@ -54200,7 +54200,7 @@ Objects of a subclass without altering the correctness of the program.
 A `Square` inheriting from `Rectangle` violates LSP because a square has the invariant that width
 must equal height. If `Rectangle` has `setWidth(w)` and `setHeight(h)`And `Square` overrides
 `setWidth(w)` to also set height to w, then code calling `setWidth(5)` followed by `setHeight(10)`
-Expects the area to be 50 on a `Rectangle`But on a `Square` it would be 100. The `Square` cannot Be
+Expects the area to be 50 on a `Rectangle`. But on a `Square` it would be 100. The `Square` cannot Be
 substituted for `Rectangle` because it behaves differently. The correct design is to have both
 Inherit from an abstract `Shape` class instead.
 
@@ -54222,7 +54222,7 @@ a Contract that unrelated classes can fulfill, or when a class already extends a
 need Additional polymorphic behavior.
 
 **Example:** `Vehicle` is an abstract class: vehicles share common state (registration, make) and
-Behavior (getDetails). `Electric` is an interface: unrelated classes like `Car``Bus`And `Scooter`
+Behavior (getDetails). `Electric` is an interface: unrelated classes like `Car`, `Bus` and `Scooter`
 Can all be electric, but they do not share a common electric-vehicle superclass.
 
 </details>
@@ -54280,7 +54280,7 @@ PROCEDURE atm()
 END PROCEDURE
 ```
 
-Sub-procedures `authenticateUser``checkBalance``withdrawCash``depositCash`And `changePIN` each Have
+Sub-procedures `authenticateUser`, `checkBalance`, `withdrawCash`, `depositCash` and `changePIN` each Have
 a single responsibility. Each can be developed and modified independently.
 
 </details>
@@ -54299,7 +54299,7 @@ Identify the normalization issues and convert this to 3NF.
 <details>
 <summary>Solution</summary>
 
-**Issues:** Partial dependencies (2NF) -- `studentName` depends only on `studentID``courseName` and
+**Issues:** Partial dependencies (2NF) -- `studentName` depends only on `studentID`, `courseName` and
 `credits` depend only on `courseCode`. Transitive dependency (3NF) -- `courseName` depends on
 `courseCode`. Update, insertion, and deletion anomalies result.
 
@@ -54353,7 +54353,7 @@ This follows the open-closed principle: open for extension, closed for modificat
 
 </details>
 
-**Problem 14.** A developer creates a `List` ADT with operations `add(item)``remove(index)`
+**Problem 14.** A developer creates a `List` ADT with operations `add(item)`, `remove(index)`
 `get(index)`And `size()`. The initial implementation uses a dynamic array. Later, the developer
 Switches to a doubly-linked list because the application frequently inserts and removes elements at
 Arbitrary positions. Explain what changes are needed in (a) the ADT specification, and (b) the code
@@ -54405,7 +54405,7 @@ Enrollment (PK: studentID + subjectCode, enrollmentGrade).
 
 The `teacherID` foreign key in `Subject` enforces that each subject has exactly one teacher. The
 `Enrollment` table resolves the M:N relationship between `Student` and `Subject` and stores the
-`enrollmentGrade`Which is an attribute of the relationship itself.
+`enrollmentGrade`. Which is an attribute of the relationship itself.
 
 </details>
 
@@ -54611,7 +54611,7 @@ arr[0] ← 5
 matrix[i, j] ← i + j
 ```
 
-**String operations** use functions like `LENGTH()``SUBSTRING()`And concatenation with `+`:
+**String operations** use functions like `LENGTH()`, `SUBSTRING()` and concatenation with `+`:
 
 ```python
 len ← LENGTH(name)
@@ -54665,7 +54665,7 @@ FUNCTION sumToN(n) RETURNS INTEGER
 END FUNCTION
 ```
 
-With input `n = 4`The trace table is:
+With input `n = 4`. The trace table is:
 
 | Step | i   | n   | total | i `$\le$` n |
 | ---- | --- | --- | ----- | ----------- |
@@ -54767,7 +54767,7 @@ FUNCTION linearSearch(arr, target) RETURNS INTEGER
 END FUNCTION
 ```
 
-**Trace with `arr = [7, 3, 9, 1, 5]``target = 9`:**
+**Trace with `arr = [7, 3, 9, 1, 5]`, `target = 9`:**
 
 | Step | i   | arr[i] | arr[i] = target | Action   |
 | ---- | --- | ------ | --------------- | -------- |
@@ -54791,7 +54791,7 @@ Large datasets.
 **Worked Example: Counting occurrences with linear search**
 
 Modify linear search to count how many times a target value appears in an array. Trace with
-`arr = [3, 7, 3, 1, 3, 9]``target = 3`.
+`arr = [3, 7, 3, 1, 3, 9]`, `target = 3`.
 
 <details>
 <summary>Solution</summary>
@@ -54861,7 +54861,7 @@ END FUNCTION
 **Precondition:** The array must be sorted in ascending order. If the array is not sorted, binary
 Search will produce incorrect results. This is a critical distinction from linear search.
 
-**Trace with `arr = [1, 3, 5, 7, 9, 11, 13]``target = 7`:**
+**Trace with `arr = [1, 3, 5, 7, 9, 11, 13]`, `target = 7`:**
 
 | Step | low | high | mid | arr[mid] | Comparison | Action   |
 | ---- | --- | ---- | --- | -------- | ---------- | -------- |
@@ -54883,7 +54883,7 @@ And `target = 4` (not present):
 | 3    | 2   | 2    | 2   | 5        | 5 `&gt;` 4      | high = 1  |
 | 4    | 2   | 1    | --  | --       | low `&gt;` high | Return -1 |
 
-When `low` exceeds `high`The search space is empty and the target is confirmed absent.
+When `low` exceeds `high`. The search space is empty and the target is confirmed absent.
 
 **Time complexity:** Each iteration halves the search space. After $k$ iterations, the remaining
 Search space has size $\frac{n}{2^k}$. The search terminates when $\frac{n}{2^k} \lt 1$ I.e.,
@@ -55120,7 +55120,7 @@ No swaps in pass 4, so the algorithm terminates.
   performs $\frac{n(n-1)}{2}$ comparisons even on an already-sorted array. The IB pseudocode
   includes this optimization, and exam questions often ask about its effect on the best-case
   complexity (changing it from $O(n^2)$ to $O(n)$).
-- **Confusing the loop bound:** The inner loop compares `arr[i]` with `arr[i + 1]`So `i` must stop
+- **Confusing the loop bound:** The inner loop compares `arr[i]` with `arr[i + 1]`. So `i` must stop
   at `n - 2` (not `n - 1`), otherwise `arr[i + 1]` would be out of bounds on the last iteration.
 - **Miscounting passes:** Each pass places one more element in its final position at the end of the
   array. After pass $k$ The last $k$ elements are sorted. The inner loop range should shrink
@@ -55256,8 +55256,8 @@ shifts.
 
 Detailed trace for pass 4 (key = 3):
 
-- j = 3: `arr[3] = 5 > 3`So shift: `arr[4] = 5`J becomes 2. Array: `[1, 2, 4, 5, 5]`
-- j = 2: `arr[2] = 4 > 3`So shift: `arr[3] = 4`J becomes 1. Array: `[1, 2, 4, 4, 5]`
+- j = 3: `arr[3] = 5 > 3`. So shift: `arr[4] = 5`J becomes 2. Array: `[1, 2, 4, 5, 5]`
+- j = 2: `arr[2] = 4 > 3`. So shift: `arr[3] = 4`J becomes 1. Array: `[1, 2, 4, 4, 5]`
 - j = 1: `arr[1] = 2 < 3`Loop exits. Place key: `arr[2] = 3`. Array: `[1, 2, 3, 4, 5]`
 
 **Totals:** Comparisons: $1 + 1 + 1 + 3 = 6$. Shifts: $0 + 0 + 0 + 2 = 2$.
@@ -55914,7 +55914,7 @@ Speeds (e.g., keyboard input buffered for the CPU to process).
 **Worked Example: Circular queue operations**
 
 A circular queue (array size 5) has front = 0, rear = 2, count = 3, with items `[A, B, C, _, _]`.
-Perform: `dequeue()``enqueue(D)``enqueue(E)`. Show the state after each operation.
+Perform: `dequeue()`, `enqueue(D)`, `enqueue(E)`. Show the state after each operation.
 
 <details>
 <summary>Solution</summary>
@@ -56623,7 +56623,7 @@ Essence of **encapsulation** and **information hiding**.
 
 The implementation can be changed without affecting code that uses the ADT, as long as the interface
 Remains the same. A stack might be implemented with an array, a linked list, or even a dynamic
-Array, but the `push``pop`And `peek` operations remain the same from the caller's perspective.
+Array, but the `push`, `pop` and `peek` operations remain the same from the caller's perspective.
 
 ADTs reduce complexity by hiding implementation details. A programmer using a stack does not need to
 Know how memory is managed or how pointers are updated.
@@ -56715,14 +56715,14 @@ From other modules. Only the essential interface is exposed. This principle has 
 
 **Protection against invalid states:** If the internal array of a stack is private, external code
 Cannot corrupt it by directly modifying array elements. All modifications go through `push` and
-`pop`Which maintain the stack invariant.
+`pop`. Which maintain the stack invariant.
 
 **Reduced coupling:** Modules that use a stack depend only on its interface, not its implementation.
 Changing the implementation (e.g., from array to linked list) does not require changes to the client
 Code.
 
 **Simplified reasoning:** A programmer using a stack only needs to understand the LIFO semantics of
-`push` and `pop`Not the memory management details of the underlying array or linked list.
+`push` and `pop`. Not the memory management details of the underlying array or linked list.
 
 **Enhanced maintainability:** Bugs in the implementation can be fixed without affecting other parts
 Of the system. The implementation can be optimized (e.g., switching to a more efficient algorithm)
@@ -56735,7 +56735,7 @@ Interface available to external code.
 **Worked Example: Implementing a Stack ADT with a linked list**
 
 Implement the Stack ADT using a singly linked list instead of an array. Write IB pseudocode for
-`push``pop``peek`And `isEmpty`.
+`push`, `pop`, `peek` and `isEmpty`.
 
 <details>
 <summary>Solution</summary>
@@ -57063,7 +57063,7 @@ _If you get this wrong, revise: [Stacks](#stacks)_
 ### Problem 12: Queue Simulation
 
 A queue initially contains `[A, B, C]` (front = A). Perform:
-`dequeue()``enqueue(D)``enqueue(E)``dequeue()``enqueue(F)`. Show the queue after each operation.
+`dequeue()`, `enqueue(D)`, `enqueue(E)`, `dequeue()`, `enqueue(F)`. Show the queue after each operation.
 
 <details>
 <summary>Solution</summary>
@@ -57888,7 +57888,7 @@ $\overline{C}$ And the OR of the other terms is $B + A = A + B$ So $F = (A + B) 
 ### Three-Variable Truth Tables
 
 A three-variable expression has $2^3 = 8$ rows. The convention is to list combinations in binary
-Counting order. For variables `A``B``C`:
+Counting order. For variables `A`, `B`, `C`:
 
 | `A` | `B` | `C` | `A` AND `B` AND `C` | `A` OR `B` OR `C` |
 | --- | --- | --- | ------------------- | ----------------- |
@@ -57904,7 +57904,7 @@ Counting order. For variables `A``B``C`:
 ### Four-Variable Truth Tables
 
 A four-variable expression has $2^4 = 16$ rows. The standard ordering assigns the leftmost variable
-as the most significant bit. For variables `A``B``C``D`:
+as the most significant bit. For variables `A`, `B`, `C`, `D`:
 
 | `A` | `B` | `C` | `D` | `A` AND `B` AND `C` AND `D` | `A` OR `B` OR `C` OR `D` |
 | --- | --- | --- | --- | --------------------------- | ------------------------ |
@@ -58289,7 +58289,7 @@ $m_2 = \overline{A}B\overline{C}$$m_5 = A\overline{B}C$$m_6 = AB\overline{C}$$m_
 
 - Group 1: Cells $(0,00)$ and $(0,01)$ -- adjacent horizontally. These are
   $\overline{A}\overline{B}\overline{C}$ and $\overline{A}\overline{B}C$. The variable that changes
-  is `C`So eliminate it: $\overline{A}\overline{B}$.
+  is `C`. So eliminate it: $\overline{A}\overline{B}$.
 - Group 2: Cells $(1,01)$$(1,11)$$(1,10)$ -- all three in row `A`=1. But $(1,01)$ and $(1,11)$ are
   adjacent, and $(1,11)$ and $(1,10)$ are adjacent. Group $(1,11)$ and $(1,10)$: these are $ABC$ and
   $AB\overline{C}$ Eliminating `C`: $AB$.
@@ -58480,7 +58480,7 @@ Don't care conditions arise when certain input combinations can never occur or w
 for certain inputs is irrelevant. In K-maps, don't cares are marked with `X` and can be treated as
 either 0 or 1, whichever produces a simpler expression.
 
-**Worked example:** A circuit has inputs `A``B``C` where the input combination `A = 1, B = 1, C = 1`
+**Worked example:** A circuit has inputs `A`, `B`, `C` where the input combination `A = 1, B = 1, C = 1`
 is impossible. The required outputs for the other 7 combinations are:
 
 | `A` | `B` | `C` | `F` |
@@ -58565,7 +58565,7 @@ Trace the circuit from inputs to outputs:
 2. Work from left to right (inputs to outputs).
 3. The final gate output is the overall expression.
 
-**Worked example:** A circuit has inputs `A``B``C`. An AND gate takes `A` and `B`. An OR gate Takes
+**Worked example:** A circuit has inputs `A`, `B`, `C`. An AND gate takes `A` and `B`. An OR gate Takes
 the AND gate output and `C`. The final expression is $(A \cdot B) + C$.
 
 ## Half Adder and Full Adder
@@ -60312,7 +60312,7 @@ Apply the four pillars of computational thinking to design a smart home temperat
 Thermostat: compare current temperature to target, and take action based on the difference. This is
 the same pattern used in cruise control, autopilot, and other feedback control systems.
 
-**Abstraction:** Create a `Thermostat` class with methods like `setTarget(temp)``getCurrentTemp()`
+**Abstraction:** Create a `Thermostat` class with methods like `setTarget(temp)`, `getCurrentTemp()`
 And `isActionNeeded()`. The user interacts with the interface (setting a desired temperature)
 without Needing to know about sensor calibration, HVAC wiring, or control algorithms.
 
@@ -60339,13 +60339,13 @@ to create models that capture what is important while ignoring irrelevant comple
 
 1. **Hardware level**: Logic gates, registers, memory cells
 2. **Machine code level**: Binary instructions executed by the CPU
-3. **Assembly language**: Human-readable representations of machine code (e.g., `MOV``ADD`)
+3. **Assembly language**: Human-readable representations of machine code (e.g., `MOV`, `ADD`)
 4. **High-level language**: Python, Java, C++. Closer to human language
 5. **Application level**: The software users interact with
 
 **Example**: When using a `list` in Python, you do not need to know how memory is allocated, how
 Pointers work, or how the data is stored physically. The abstraction hides these details and
-Provides a simple interface: `append()``remove()``sort()`.
+Provides a simple interface: `append()`, `remove()`, `sort()`.
 
 ### Algorithm Design
 
@@ -60583,7 +60583,7 @@ Efficient for lookup but inefficient for frequent insertions/deletions.
 ### Stacks
 
 - Last In, First Out (LIFO) structure
-- Operations: `push(item)``pop()``peek()``isEmpty()`
+- Operations: `push(item)`, `pop()`, `peek()`, `isEmpty()`
 - Applications: undo/redo functionality, expression evaluation, function call management (call
   stack)
 
@@ -60612,7 +60612,7 @@ class Stack:
 ### Queues
 
 - First In, First Out (FIFO) structure
-- Operations: `enqueue(item)``dequeue()``front()``isEmpty()`
+- Operations: `enqueue(item)`, `dequeue()`, `front()`, `isEmpty()`
 - Applications: print spooling, task scheduling, breadth-first search
 
 ```python
@@ -60952,8 +60952,8 @@ If you get this wrong, revise: [Selection Sort](#sorting-algorithms)
 }
 </script>
 
-**Problem 5:** A stack has the following operations performed on it in order: `push(3)``push(7)`
-`push(1)``pop()``push(9)``push(4)``pop()``pop()``peek()`. What values are returned by Each `pop()`
+**Problem 5:** A stack has the following operations performed on it in order: `push(3)`, `push(7)`
+`push(1)`, `pop()`, `push(9)`, `push(4)`, `pop()`, `pop()`, `peek()`. What values are returned by Each `pop()`
 and `peek()` call, and what is the final state of the stack?
 
 <details>
@@ -60988,8 +60988,8 @@ If you get this wrong, revise: [Stacks](#stacks)
 }
 </script>
 
-**Problem 6:** A queue has the following operations: `enqueue("red")``enqueue("blue")`
-`enqueue("green")``dequeue()``enqueue("yellow")``dequeue()``enqueue("purple")`. What does The queue
+**Problem 6:** A queue has the following operations: `enqueue("red")`, `enqueue("blue")`
+`enqueue("green")`, `dequeue()`, `enqueue("yellow")`, `dequeue()`, `enqueue("purple")`. What does The queue
 contain after all operations?
 
 <details>
@@ -61596,7 +61596,7 @@ A functional dependency $X \rightarrow Y$ means that the value of attribute $Y$ 
 Determined by the value of attribute $X$. If two rows have the same value for $X$ They must have The
 same value for $Y$.
 
-**Example:** In a table with `{studentID, name, dateOfBirth}`The dependency studentID $\rightarrow$
+**Example:** In a table with `{studentID, name, dateOfBirth}`. The dependency studentID $\rightarrow$
 name holds because each student has exactly one name.
 
 **Partial dependency:** $X \rightarrow Y$ where $X$ is a proper subset of a candidate key. This
@@ -61800,7 +61800,7 @@ Single attribute, not composite), there cannot be partial dependencies. The tabl
 
 - `rentalID` $\rightarrow$ `customerName` $\rightarrow$ `customerEmail`: customerEmail depends on
   customerName (transitive)
-- `rentalID` $\rightarrow$ `movieTitle` $\rightarrow$ `genre``dailyRate`: genre and dailyRate depend
+- `rentalID` $\rightarrow$ `movieTitle` $\rightarrow$ `genre`, `dailyRate`: genre and dailyRate depend
   on movieTitle (transitive)
 
 **Decompose into 4 tables:**
@@ -61944,8 +61944,8 @@ FROM Student
 WHERE gpa >= 3.5 AND enrollmentYear = 2023;
 ```
 
-**Comparison operators in WHERE:** `=``<>``<``>``$\le$``$\ge$``BETWEEN``LIKE``IN`
-`IS NULL``IS NOT NULL`.
+**Comparison operators in WHERE:** `=`, `<>`, `<`, `>`, `$\le$`, `$\ge$`, `BETWEEN`, `LIKE`, `IN`
+`IS NULL`, `IS NOT NULL`.
 
 **ORDER BY:**
 
@@ -63159,7 +63159,7 @@ _If you get this wrong, revise: [Big Data](#big-data)_
 
 ### Problem 13: Correlated Subquery
 
-A company has an Employee table with columns `empID``name``salary`And `departmentID`. Write a Query
+A company has an Employee table with columns `empID`, `name`, `salary` and `departmentID`. Write a Query
 that finds employees who earn more than the average salary in their own department. Explain why This
 requires a correlated subquery.
 
@@ -64989,7 +64989,7 @@ Write the network address, first usable address, and broadcast address for the f
 A) We need $2^n \ge 10$. With $n = 4$, $2^4 = 16 \ge 10$. Minimum subnet bits: 4. B) Original
 Prefix: `/24`. New prefix: `/24 + 4 = /28`. Subnet mask: `255.255.255.240`. C) Remaining host bits:
 $8 - 4 = 4$. Usable hosts: $2^4 - 2 = 14$ per subnet. D) Block size: $256 - 240 = 16$. First subnet:
-Network = `192.168.10.0`First usable = `192.168.10.1`Broadcast = `192.168.10.15`.
+Network = `192.168.10.0`. First usable = `192.168.10.1`Broadcast = `192.168.10.15`.
 
 </details>
 
@@ -65799,7 +65799,7 @@ void selectionSort(int[] arr) {
 
 ## IB Exam Tips for JETS
 
-1. **Know the access modifiers:** Understand when to use `public``private`And `protected`. Most
+1. **Know the access modifiers:** Understand when to use `public`, `private` and `protected`. Most
    attributes should be `private`; most methods should be `public`.
 
 2. **Constructors come first:** In JETS convention, constructors are placed as the first method in a
@@ -66186,7 +66186,7 @@ Relational operators always produce a BOOLEAN result. They can be applied to num
 NOT a AND b OR c
 ```
 
-This is evaluated as `((NOT a) AND b) OR c`Not `NOT (a AND (b OR c))`. Use parentheses to make
+This is evaluated as `((NOT a) AND b) OR c`. Not `NOT (a AND (b OR c))`. Use parentheses to make
 Intent explicit.
 
 ### Assignment Operator
@@ -66583,7 +66583,7 @@ OUTPUT num  // Outputs 11 (changed)
 ```
 
 The `REF` keyword in IB pseudocode indicates pass by reference. The parameter `x` is an alias for
-`num`So changing `x` changes `num`.
+`num`. So changing `x` changes `num`.
 
 ### Comparison
 
@@ -66637,7 +66637,7 @@ OUTPUT x, y
 | `b`      | --          | 10               | --         |
 | `temp`   | --          | 10               | --         |
 
-Inside `swapByValue`: outputs 20, 10. After call: `x = 10``y = 20` (unchanged).
+Inside `swapByValue`: outputs 20, 10. After call: `x = 10`, `y = 20` (unchanged).
 
 **`swapByRef(x, y)` call:**
 
@@ -66648,7 +66648,7 @@ Inside `swapByValue`: outputs 20, 10. After call: `x = 10``y = 20` (unchanged).
 | `a`      | --          | 20 (alias for x) | --         |
 | `b`      | --          | 10 (alias for y) | --         |
 
-Inside `swapByRef`: outputs 20, 10. After call: `x = 20``y = 10` (swapped!).
+Inside `swapByRef`: outputs 20, 10. After call: `x = 20`, `y = 10` (swapped!).
 
 **Complete output sequence:** 20, 10, 10, 20, 20, 10, 20, 10
 
@@ -66701,7 +66701,7 @@ END FUNCTION
 ```
 
 This naive recursive Fibonacci has exponential time complexity $O(2^n)$ because each call spawns two
-Sub-calls. The call tree for `fibonacci(5)` has 15 calls total. For `fibonacci(40)`There are over
+Sub-calls. The call tree for `fibonacci(5)` has 15 calls total. For `fibonacci(40)`. There are over
 300 million calls. This demonstrates why recursion must be used carefully -- memoization or an
 Iterative approach is required for practical Fibonacci computation.
 
@@ -66757,7 +66757,7 @@ Result: **10**
 This function computes the sum $1 + 2 + 3 + 4 = 10$. It is equivalent to the formula
 $n(n+1)/2 = 4 \times 5 / 2 = 10$.
 
-The recursive case reduces the problem: `mystery(4)` needs `mystery(3)`Which needs `mystery(2)`
+The recursive case reduces the problem: `mystery(4)` needs `mystery(3)`. Which needs `mystery(2)`
 Which needs `mystery(1)`. The base case stops the recursion. Each return value propagates back up
 the call stack.
 
@@ -66766,7 +66766,7 @@ the call stack.
 ### Common Pitfalls: Recursion
 
 - **No base case or unreachable base case:** Without a valid base case, recursion is infinite. For
-  `factorial(n)` with `n = -1`The base case `n \lt{}= 1` is never reached because the recursive call
+  `factorial(n)` with `n = -1`. The base case `n \lt{}= 1` is never reached because the recursive call
   uses `n - 1`Making the argument more negative each time.
 - **Stack overflow:** Each recursive call adds a frame to the call stack. For deep recursion (e.g.,
   naive `fibonacci(1000)`), the stack exceeds available memory. Prefer iteration for problems
@@ -66910,7 +66910,7 @@ The IB defines a specific pseudocode standard. Key elements:
 
 **Variable assignment:** `variable ← expression`
 
-**Input/output:** `INPUT variable``OUTPUT expression`
+**Input/output:** `INPUT variable`, `OUTPUT expression`
 
 **Selection:** `IF ... THEN ... ELSE IF ... ELSE ... END IF`
 
@@ -66926,7 +66926,7 @@ The IB defines a specific pseudocode standard. Key elements:
 
 **Functions:** `FUNCTION name(params) RETURNS type ... END FUNCTION`
 
-**Arrays:** Zero-indexed, `arr[i]``matrix[i, j]`
+**Arrays:** Zero-indexed, `arr[i]`, `matrix[i, j]`
 
 **Comments:** Use `//` for single-line comments.
 
@@ -67246,7 +67246,7 @@ END LOOP
 **Recursion:**
 
 - Missing base case, causing infinite recursion and stack overflow.
-- Base case that is never reached, e.g., `factorial(-1)` calls `factorial(-2)`Which calls
+- Base case that is never reached, e.g., `factorial(-1)` calls `factorial(-2)`. Which calls
   `factorial(-3)`And so on indefinitely.
 - Excessive recursion depth for problems that could be solved iteratively, leading to performance
   degradation.
@@ -67318,7 +67318,7 @@ Addition/subtraction):
 
 </details>
 
-**Q3.** Given `a ← TRUE``b ← FALSE``c ← TRUE`Evaluate each expression: (a) `NOT a AND b` (b)
+**Q3.** Given `a ← TRUE`, `b ← FALSE`, `c ← TRUE`Evaluate each expression: (a) `NOT a AND b` (b)
 `a OR b AND c` (c) `NOT (a OR b) XOR c` (d) `(a AND b) OR (NOT b AND c)`
 
 <details>
@@ -67618,7 +67618,7 @@ END FUNCTION
 
 </details>
 
-**Q12.** Trace the following pseudocode and state the final values of `a``b`And `c`:
+**Q12.** Trace the following pseudocode and state the final values of `a`, `b` and `c`:
 
 ```python
 PROCEDURE modify(REF x, y, REF z)
@@ -67648,7 +67648,7 @@ OUTPUT a, b, c
 
 Final values: **a = 8, b = 3, c = 18**
 
-`x` (REF to `a`) and `z` (REF to `c`) are aliases, so changes persist. `y` is a copy of `b`So
+`x` (REF to `a`) and `z` (REF to `c`) are aliases, so changes persist. `y` is a copy of `b`. So
 Changes to `y` do not affect `b`.
 
 **Revision:** Parameter Passing, By Value, By Reference
@@ -72018,7 +72018,7 @@ $$
 
 Where $k_G = \frac{1}{1 - \mathrm{MPC}}$ (government spending multiplier) and
 $k_T =
-\frac{-\mathrm`\`\{MPC}``}{1 - \mathrm`\`\{MPC}``}$ (tax multiplier, which is negative because
+\frac{-\mathrm`\`\{MPC}``}{1 - \mathrm``, ``\``, ``\{MPC}``}$ (tax multiplier, which is negative because
 higher taxes Reduce disposable income and consumption).
 
 $$
@@ -76850,7 +76850,7 @@ Expected surplus unconditional: $0.512 \times 200 = \$102.40$.
 
 A village of 100 households is considering contributing to a new well that costs `USD 10,000`. Each
 household values the well at `USD 200`. The village leader proposes that each household Contributes
-`USD 100`With the government covering the remaining `USD 0` (since $100 \times 100 = 10,000$).
+`USD 100`. With the government covering the remaining `USD 0` (since $100 \times 100 = 10,000$).
 
 (a) Is this project socially efficient? Explain.
 
@@ -118464,7 +118464,7 @@ Structural constraints (military unpreparedness, public opinion, economic crisis
 Misguided, belief that negotiated concessions could satisfy German grievances.
 
 However, Taylor's minimisation of Hitler's ideological radicalism has not withstood scrutiny. The
-Evidence from `Mein Kampf`The Second Book, the `Hossbach Memorandum`And Hitler's numerous Speeches
+Evidence from `Mein Kampf`. The Second Book, the `Hossbach Memorandum`And Hitler's numerous Speeches
 and conversations makes clear that his aims went far beyond conventional revision of Versailles. The
 concept of `Lebensraum` implied the conquest, colonisation, and racial reordering of Eastern Europe
 -- a programme that could only be achieved through war. Taylor's treatment of this Evidence was
@@ -130645,13 +130645,13 @@ $$
 The arc length of a curve $y = f(x)$ from $x = a$ to $x = b$:
 
 $$
-L = \int_a^b \sqrt{1 + \left(\frac`\{dy}``\{dx}`\right)^2}\,dx
+L = \int_a^b \sqrt{1 + \left(\frac`\{dy}`, `\{dx}`\right)^2}\,dx
 $$
 
 For a parametric curve $(x(t), y(t))$ from $t = t_1$ to $t = t_2$:
 
 $$
-L = \int_{t_1}^{t_2} \sqrt{\left(\frac`\{dx}``\{dt}`\right)^2 + \left(\frac`\{dy}``\{dt}`\right)^2}\,dt
+L = \int_{t_1}^{t_2} \sqrt{\left(\frac`\{dx}`, `\{dt}`\right)^2 + \left(\frac`\{dy}`, `\{dt}`\right)^2}\,dt
 $$
 :::
 
@@ -130659,15 +130659,15 @@ $$
 Find the arc length of $y = \dfrac{x^3}{6} + \dfrac{1}{2x}$ from $x = 1$ to $x = 3$.
 
 $$
-\frac`\{dy}``\{dx}` = \frac{x^2}{2} - \frac{1}{2x^2}
+\frac`\{dy}`, `\{dx}` = \frac{x^2}{2} - \frac{1}{2x^2}
 $$
 
 $$
-\left(\frac`\{dy}``\{dx}`\right)^2 = \frac{x^4}{4} - \frac{1}{2} + \frac{1}{4x^4}
+\left(\frac`\{dy}`, `\{dx}`\right)^2 = \frac{x^4}{4} - \frac{1}{2} + \frac{1}{4x^4}
 $$
 
 $$
-1 + \left(\frac`\{dy}``\{dx}`\right)^2 = \frac{x^4}{4} + \frac{1}{2} + \frac{1}{4x^4} = \left(\frac{x^2}{2} + \frac{1}{2x^2}\right)^2
+1 + \left(\frac`\{dy}`, `\{dx}`\right)^2 = \frac{x^4}{4} + \frac{1}{2} + \frac{1}{4x^4} = \left(\frac{x^2}{2} + \frac{1}{2x^2}\right)^2
 $$
 
 $$
@@ -133206,7 +133206,7 @@ $S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$
 
 1. **Wrong mode (radians vs degrees).** Most IB questions assume radians unless stated otherwise.
    Check your calculator mode before every exam.
-2. **Missing brackets.** $\dfrac{1}{2x}$ on a calculator requires `1/(2x)`Not `1/2x` (which the
+2. **Missing brackets.** $\dfrac{1}{2x}$ on a calculator requires `1/(2x)`. Not `1/2x` (which the
    calculator reads as $\dfrac{1}{2} \cdot x$).
 3. **Not using exact values when required.** If a question asks for an exact answer, do not use the
    GDC to give a decimal approximation.
@@ -160013,7 +160013,7 @@ With time:
 
 $$
 \begin`\{aligned}`
- v = \frac`\{ds}``\{dt}`
+ v = \frac`\{ds}`, `\{dt}`
 \end`\{aligned}`
 $$
 
@@ -160024,7 +160024,7 @@ Time:
 
 $$
 \begin`\{aligned}`
- a = \frac`\{dv}``\{dt}`
+ a = \frac`\{dv}`, `\{dt}`
 \end`\{aligned}`
 $$
 
@@ -164340,7 +164340,7 @@ $$
 Solving for the radius $r$:
 
 $$
-R = \frac`\{mv}``\{qB}`
+R = \frac`\{mv}`, `\{qB}`
 $$
 
 This is one of the most important results in this topic. Key observations:
@@ -164498,7 +164498,7 @@ $$
    their velocity) and follow a semicircular path. The radius of the path depends on the mass:
 
 $$
-R = \frac`\{mv}``\{qB}`
+R = \frac`\{mv}`, `\{qB}`
 $$
 
 1. **Detection:** Ions of different masses hit the detector at different positions. Since $v$ is the

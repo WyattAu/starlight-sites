@@ -64,7 +64,7 @@ Behaviour is controlled by `tsconfig.json` at the project root. Key compiler opt
 - **`strict`** -- enables all strict type-checking options.
 - **`target`** -- the ECMAScript version for emitted JavaScript.
 - **`module`** -- the module system for emitted code (CommonJS, ESNext, etc.).
-- **`moduleResolution`** -- the strategy for resolving module imports (`node``bundler` `classic`).
+- **`moduleResolution`** -- the strategy for resolving module imports (`node`, `bundler` `classic`).
 - **`noEmit`** -- type-check without producing output files.
 
 ### Configuration (`tsconfig.json`)
@@ -98,7 +98,7 @@ This course is organised into the following modules, each with its own dedicated
 6. **Advanced Patterns** -- recursive types, branded types, builder patterns, variadic tuples.
 7. **Tooling and Configuration** -- `tsconfig.json`Project references, ESLint integration.
 8. **TypeScript with React** -- component typing, hooks, context, refs.
-9. **Error Handling** -- `never``unknown`Assert functions, Result types.
+9. **Error Handling** -- `never`, `unknown`Assert functions, Result types.
 
 Each module contains rigorous definitions, compile-ready code examples, comparison tables, and
 Common-pitfall warnings. Cross-references between modules are provided where topics are

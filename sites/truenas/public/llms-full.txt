@@ -1181,8 +1181,8 @@ TrueNAS offers two approaches to SMB permissions:
 
 1. **SMB Dataset Permissions (simplified):** Set via the SMB share configuration. Options include:
 
-- `DEFAULT`Use the dataset"s Unix permissions
-- `RESTRICTED`Only the owner can access
+- `DEFAULT`. Use the dataset"s Unix permissions
+- `RESTRICTED`. Only the owner can access
 - `BUILTIN_ADMINISTRATORS`Windows admin group gets full access
 - `BUILTIN_USERS`Windows users group gets read access
 
@@ -1789,7 +1789,7 @@ Protection** → **Snapshot Tasks** → **Add**.
 
 For user home directories:
 
-1. Create a dataset per user: `tank/homes/alice``tank/homes/bob`.
+1. Create a dataset per user: `tank/homes/alice`, `tank/homes/bob`.
 2. Create an SMB share for each home directory or use the `homes` share type.
 3. Set permissions so each user can only access their own home directory.
 4. Enable shadow copies for file recovery.
@@ -3464,7 +3464,7 @@ The open-source alternative.
 **TrueNAS configuration:**
 
 1. Install Plex or Jellyfin from the app catalog.
-2. Create a dataset for media: `tank/media/movies``tank/media/tv``tank/media/music`.
+2. Create a dataset for media: `tank/media/movies`, `tank/media/tv`, `tank/media/music`.
 3. Configure storage mounts in the app settings to point to the media datasets.
 4. Set the container's PUID/PGID to match the user that owns the media files.
 5. For hardware transcoding (Plex Pass), configure GPU passthrough.
@@ -7976,7 +7976,7 @@ Brute-force attacks on weak passphrases more expensive.
 | 1000000    | ~400 ms                       | High-security environments |
 
 :::caution
-Set `pbkdf2iters=1000000`Every boot (or key load) will take an additional ~400 ms per dataset. This
+Set `pbkdf2iters=1000000`. Every boot (or key load) will take an additional ~400 ms per dataset. This
 property only applies to `keyformat=passphrase`. It has no effect on `hex` or `raw` key Formats,
 which use the raw key material directly.
 :::
@@ -8985,7 +8985,7 @@ TrueNAS SCALE provides a graphical interface for creating and managing encrypted
 3. In the dataset creation dialog:
 
 - **Encryption:** Select `AES-256-GCM` (or your preferred algorithm).
-- **Key Format:** Choose `Passphrase``Hex`Or `Raw`.
+- **Key Format:** Choose `Passphrase`, `Hex` or `Raw`.
 - **Key Location:** For passphrase, leave as `Prompt`. For hex/raw, provide the file path.
 - **PBKDF2 Iterations:** Leave at default (350000) or increase for stronger passphrases.
 
@@ -9087,7 +9087,7 @@ This is the most catastrophic pitfall. There is no recovery mechanism. The data 
 
 If a key file is deleted and no backup exists:
 
-- If `keyformat=passphrase`Use `zfs change-key` to switch to passphrase mode (you need the original
+- If `keyformat=passphrase`. Use `zfs change-key` to switch to passphrase mode (you need the original
   passphrase to do this).
 - If `keyformat=raw` or `hex` with no passphrase backup, the data is lost.
 

@@ -40,14 +40,14 @@ Accurate and convenience is limited, therefore I recommend using a
 ## Physical Devices
 
 Android devices can be use for running builds by enabling `USB debugging` from
-`Android developer settings`This is done by:
+`Android developer settings`. This is done by:
 
 1. Open settings and navigate to About Phone
 2. Tab on the build number 7 times until a confirmation message appear
 3. Then enter Developer Options and enable `USB debugging`
 4. Plug the phone into the computer with USB connection
 
-Now when selecting VSCode/command-palette/`Flutter: Select Device`The identifier of the phone will
+Now when selecting VSCode/command-palette/`Flutter: Select Device`. The identifier of the phone will
 Appear.
 
 

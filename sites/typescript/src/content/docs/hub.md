@@ -131,7 +131,7 @@ Generics enable you to write code that works with any type while preserving type
 
 **Generic constraints**, `function getProperty<T, K extends keyof T>(obj: T, key: K): T[K]` constrains K to be a key of T. This provides type-safe property access while maintaining generality.
 
-**Utility type generics**, Most utility types are generic: `Partial<T>``Required<T>``Pick<T, K>``Omit<T, K>`. Understanding how generics work is essential for using these types effectively.
+**Utility type generics**, Most utility types are generic: `Partial<T>`, `Required<T>`, `Pick<T, K>`, `Omit<T, K>`. Understanding how generics work is essential for using these types effectively.
 
 ---
 

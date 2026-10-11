@@ -69,7 +69,7 @@ class MyListenable extends Listenable {
 }
 ```
 
-With `interface`You prevent this:
+With `interface`. You prevent this:
 
 ```dart
 interface class Listenable {
@@ -147,7 +147,7 @@ class Square implements Shape {
 ### Why `base` Exists
 
 The `base` modifier solves the **fragile base class problem**. When a class is designed for
-Inheritance, its methods may rely on internal invariants. If a user `implement`S the class
+Inheritance, its methods may rely on internal invariants. If a user `implement`s the class
 (providing their own implementations of all methods), those invariants can be violated.
 
 Consider:
@@ -273,7 +273,7 @@ interface class Hashable {
 
 ### `interface` with Default Implementations
 
-An `interface class` can have concrete methods. External code cannot access them via `extends`But
+An `interface class` can have concrete methods. External code cannot access them via `extends`. But
 they are available to subtypes within the same library:
 
 ```dart
@@ -310,7 +310,7 @@ interface mixin Disposable {
 
 ## `final`
 
-Prevents **all** subtyping outside the library. No `extends`No `implements`No `with`. The class Is a
+Prevents **all** subtyping outside the library. No `extends`. No `implements`. No `with`. The class Is a
 leaf, it cannot be a supertype of anything defined outside its library.
 
 ### Syntax and Semantics
@@ -340,7 +340,7 @@ Extended.
 
 Common use cases:
 
-1. **Value objects**: Classes that represent data with identity semantics (like `Uri``Duration`).
+1. **Value objects**: Classes that represent data with identity semantics (like `Uri`, `Duration`).
 2. **Configuration objects**: Classes whose entire purpose is to hold configuration.
 3. **Internal implementation details**: Classes that are public but should not be subclassed.
 
@@ -361,7 +361,7 @@ final class UserId {
 
 ### `final` Propagation
 
-Unlike `base``final` does **not** propagate. A class that extends a `final` class (within the same
+Unlike `base`, `final` does **not** propagate. A class that extends a `final` class (within the same
 Library) is not itself `final`:
 
 ```dart
@@ -379,7 +379,7 @@ class ExternalDerived extends Derived {} // OK
 ```
 
 This is a deliberate design choice. The `final` restriction applies to the class itself, not to its
-Subtypes. If you want the entire hierarchy to be `final`You must mark each class.
+Subtypes. If you want the entire hierarchy to be `final`. You must mark each class.
 
 ### `final mixin class`
 
@@ -510,7 +510,7 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 | `final`        | Yes      | No     | No          | N/A     | Yes     |
 | `mixin`        | Yes      | Yes    | Yes         | Yes     | N/A     |
 
-`sealed` can combine with `base``interface``final`And `mixin` (e.g., `sealed interface`
+`sealed` can combine with `base`, `interface`, `final` and `mixin` (e.g., `sealed interface`
 `sealed mixin class`). These combinations restrict subtypes to the same library while also applying
 the additional modifier's semantics.
 
@@ -700,7 +700,7 @@ final class Configuration {
 For library authors, the recommended migration order:
 
 1. **Start with `base`**: Most classes designed for inheritance should be `base`. This is the least
-   disruptive change, users who `implement` must switch to `extends`But the behavioral change is
+   disruptive change, users who `implement` must switch to `extends`. But the behavioral change is
    minimal.
 
 2. **Add `interface` to contracts**: Classes that are pure interfaces (no implementation worth
@@ -767,7 +767,7 @@ final class Parent {}
 final class Child extends Parent {}
 ```
 
-### 4. `sealed` Classes Cannot Be `base``interface`Or `final`
+### 4. `sealed` Classes Cannot Be `base`, `interface` or `final`
 
 ```dart
 // COMPILE ERROR, sealed is already maximally restrictive
@@ -798,7 +798,7 @@ class Other extends Object with WithState {} // ERROR
 ```
 
 The restriction is per-use: if the `mixin class` is used as a mixin, it cannot have a parameterized
-Constructor. If used via `extends`The constructor is available.
+Constructor. If used via `extends`. The constructor is available.
 
 ### 6. Abstract Classes with Modifiers
 
@@ -842,7 +842,7 @@ class MyBuilder implements Builder {
 
 `implements` does not inherit constructors. The implementing class must declare its own
 Constructors. This is not specific to `interface`it has always been true for `implements`. But
-with `interface`It is the only option.
+with `interface`. It is the only option.
 
 ### 8. Modifiers and `part` Files
 
@@ -894,7 +894,7 @@ abstract interface class Handler {} // Abstract AND interface
 abstract final class Config {} // Abstract AND final, cannot be instantiated or subclassed externally
 ```
 
-The only redundant combination is `abstract sealed``sealed` already implies `abstract`.
+The only redundant combination is `abstract sealed`, `sealed` already implies `abstract`.
 
 ### 11. Enums and Modifiers
 

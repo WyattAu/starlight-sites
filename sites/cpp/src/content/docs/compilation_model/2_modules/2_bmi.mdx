@@ -558,7 +558,7 @@ Implications:
 ## 9. BMI and Template Instantiation Boundaries
 
 A critical subtlety of BMI design is where template instantiation occurs. When Module B imports
-Module A, and Module A exports a template `foo<T>`The BMI for Module A must contain enough
+Module A, and Module A exports a template `foo<T>`. The BMI for Module A must contain enough
 Information for Module B to instantiate `foo<int>` if needed. This means:
 
 - **The full template definition** must be present in the BMI, not just the declaration.

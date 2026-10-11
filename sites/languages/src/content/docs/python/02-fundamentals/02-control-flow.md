@@ -143,7 +143,7 @@ The design was driven by several considerations:
    switch would be redundant.
 
 2. **Algebraic data types are increasingly common.** Python codebases increasingly use
-   `dataclasses``NamedTuple`And `TypedDict` to model structured data. Pattern matching provides a
+   `dataclasses`, `NamedTuple` and `TypedDict` to model structured data. Pattern matching provides a
    natural way to destructure these types.
 
 3. **No fall-through.** Fall-through is the most error-prone feature of C's `switch`. Every `case`
@@ -272,7 +272,7 @@ flowchart TD
 
 :::note
 the `match` block is skipped entirely -- it does not raise an error. This differs from Rust's
-`match`Which requires exhaustiveness at compile time.
+`match`. Which requires exhaustiveness at compile time.
 
 ## Loops
 
@@ -331,7 +331,7 @@ print(5 in range(1000000))    # True, instant check
 print(len(range(1000000)))    # 1000000
 ```
 
-`range` objects implement the sequence protocol (`__contains__``__len__``__getitem__`) with $O(1)$
+`range` objects implement the sequence protocol (`__contains__`, `__len__`, `__getitem__`) with $O(1)$
 membership testing. `x in range(n)` does not iterate through the range -- it computes the Answer
 directly.
 
@@ -452,7 +452,7 @@ def converge_pi(target_error: float = 1e-5) -> float:
 (server main loops, event loops), an accidental infinite loop freezes the program. Always ensure
 there is a reachable termination condition.
 
-### `break``continue`And Loop `else`
+### `break`, `continue` and Loop `else`
 
 Python loops support `break` (exit the loop immediately), `continue` (skip to the next iteration),
 And an `else` clause that executes only when the loop completes without hitting `break`.

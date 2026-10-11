@@ -18,8 +18,8 @@ description: "A shell is both an and a . When you open a terminal emulator, it s
 ## Shell Invocation
 
 A shell is both an **interactive command interpreter** and a **scripting language interpreter**.
-When you open a terminal emulator, it spawns a shell process, `bash``zsh`Or `dash`. When you run a
-script with `./script.sh`The shebang line determines which interpreter processes The file.
+When you open a terminal emulator, it spawns a shell process, `bash`, `zsh` or `dash`. When you run a
+script with `./script.sh`. The shebang line determines which interpreter processes The file.
 
 ### Interactive vs Non-Interactive
 
@@ -35,7 +35,7 @@ script with `./script.sh`The shebang line determines which interpreter processes
 The shell"s startup sequence differs depending on whether it is a **login shell** or a **non-login
 Shell**:
 
-- **Login shell**: Sourced on first login (SSH, `su -``login`). Reads `/etc/profile`Then
+- **Login shell**: Sourced on first login (SSH, `su -`, `login`). Reads `/etc/profile`. Then
   `~/.bash_profile` or `~/.bash_login` or `~/.profile` (first one found).
 - **Non-login interactive shell**: Reads `~/.bashrc`.
 - **Non-login non-interactive shell**: Inherits exported environment variables. Does not read
@@ -78,7 +78,7 @@ Writing for known-bash environments, use bash features deliberately.
 | `&\>\&2` redirection   | No       | Yes                         |
 
 On Debian and Ubuntu, `/bin/sh` is `dash`a minimal POSIX shell that is significantly faster than
-Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`Not
+Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`. Not
 `#!/bin/sh`.
 
 ## Command Structure
@@ -96,12 +96,12 @@ The shell performs the following steps before executing a command:
 2. **Alias expansion**: Replace aliases (only in interactive shells, and not for the first word in
    certain contexts).
 3. **Brace expansion**: Expand `{a,b,c}` patterns.
-4. **Tilde expansion**: Replace `~` with `$HOME``~user` with user's home directory.
-5. **Parameter expansion**: Expand `$VAR``${VAR}``${VAR:-default}`Etc.
-6. **Command substitution**: Execute `$(cmd)` or `` `Cmd` `` and replace with stdout.
+4. **Tilde expansion**: Replace `~` with `$HOME`, `~user` with user's home directory.
+5. **Parameter expansion**: Expand `$VAR`, `${VAR}`, `${VAR:-default}`. Etc.
+6. **Command substitution**: Execute `$(cmd)` or `` ``, ``Cmd``, `` `` and replace with stdout.
 7. **Arithmetic expansion**: Evaluate `$((expression))`.
 8. **Word splitting**: Split results on `IFS` (except in contexts where it is suppressed).
-9. **Pathname expansion (globbing)**: Expand `*``?``[...]` patterns.
+9. **Pathname expansion (globbing)**: Expand `*`, `?`, `[...]` patterns.
 10. **Quote removal**: Remove quoting characters that are not part of expansions.
 11. **Redirection**: Set up I/O redirections.
 12. **Command execution**: Execute the command using the resolved path.
@@ -511,7 +511,7 @@ Direct command (`./script.sh`):
 ```
 
 The `env` form is preferred for languages that may be installed in different locations
-(`/usr/bin/bash``/usr/local/bin/bash``/opt/homebrew/bin/bash`). The kernel only allows one Argument
+(`/usr/bin/bash`, `/usr/local/bin/bash`, `/opt/homebrew/bin/bash`). The kernel only allows one Argument
 on the shebang line, so `#!/usr/bin/bash -e` works but `#!/usr/bin/env bash -e` does not, `bash -e`
 is treated as a single argument to `env`.
 
@@ -799,7 +799,7 @@ done < file.txt
 ### Pitfall: `#!/bin/sh` with Bash Features
 
 Scripts using `[[`Arrays, `(( ))`Or `local` must use `#!/bin/bash`. On Debian/Ubuntu, `/bin/sh` Is
-`dash`Which does not support these. The script will fail with syntax errors that are hard to
+`dash`. Which does not support these. The script will fail with syntax errors that are hard to
 Diagnose because the error messages come from dash, not bash.
 
 ### Pitfall: Unquoted Variable Expansion in `[ ]`
@@ -849,7 +849,7 @@ printf '%-20s %5d\n' "filename" 42
 printf 'Error: %s (code %d)\n' "$msg" "$code"
 ```
 
-`printf` interprets C-style format specifiers (`%s``%d``%f``%x``%o`) and is the recommended Way to
+`printf` interprets C-style format specifiers (`%s`, `%d`, `%f`, `%x`, `%o`) and is the recommended Way to
 produce formatted output in shell scripts.
 
 ## Summary

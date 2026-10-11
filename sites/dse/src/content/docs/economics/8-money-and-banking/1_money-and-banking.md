@@ -1200,7 +1200,7 @@ of the Loan?
 
 (a) Approximate: `r = 4\% - 6\% = -2\%`.
 
-Exact: `(1 + r) = 1.04/1.06 = 0.9811`So `r = -1.89\%`.
+Exact: `(1 + r) = 1.04/1.06 = 0.9811`. So `r = -1.89\%`.
 
 (b) **Borrowers benefit.** They repay loans in money that is worth less than when they borrowed. The
 Real value of their debt falls.

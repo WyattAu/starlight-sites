@@ -128,7 +128,7 @@ print(apply(str.upper, "hello"))  # 'HELLO'
 print(apply(len, [1, 2, 3]))      # 3
 ```
 
-This is how `sorted``map``filter``min``max`And many other built-ins work. The `key` Parameter of
+This is how `sorted`, `map`, `filter`, `min`, `max` and many other built-ins work. The `key` Parameter of
 `sorted` is a function object; `map` and `filter` take function objects as their first Argument.
 
 ### Returning from Functions
@@ -166,7 +166,7 @@ This is a closure, covered in detail below.
 - Multiple statements in the body
 - Docstrings
 - Type annotations
-- Multiple expressions and control flow (`if``for``try``with`)
+- Multiple expressions and control flow (`if`, `for`, `try`, `with`)
 - Tuple unpacking in parameters
 - Keyword-only and positional-only parameters
 - `*args` and `**kwargs`
@@ -192,7 +192,7 @@ def process_data(
 
 `lambda` creates an anonymous function with a **single expression** as its body. The expression's
 Value is the return value. That is the entire body -- no statements, no assignments, no loops, no
-`try`No `return` (the return is implicit).
+`try`. No `return` (the return is implicit).
 
 ```python
 add = lambda x, y: x + y
@@ -207,7 +207,7 @@ def add(x, y):
 
 1. **Single expression only.** You cannot write `lambda x: if x > 0: x else: -x`. Use a conditional
    expression instead: `lambda x: x if x > 0 else -x`.
-2. **No statements.** No `for``while``try``with``assert``import``global``nonlocal`.
+2. **No statements.** No `for`, `while`, `try`, `with`, `assert`, `import`, `global`, `nonlocal`.
 3. **No annotations.** `lambda x: int -> x` is a syntax error.
 4. **No docstring.** A `lambda`'s `__doc__` is always `None`.
 5. **No assignment.** `lambda x: (y := x + 1)` works in Python 3.8+ via the walrus operator, but
@@ -260,7 +260,7 @@ for f in funcs:
     print(f())  # 4, 4, 4, 4, 4
 ```
 
-All five lambdas reference the **same** variable `i`Which is `4` by the time the loop finishes. The
+All five lambdas reference the **same** variable `i`. Which is `4` by the time the loop finishes. The
 fix is to bind the value with a default argument:
 
 ```python
@@ -401,7 +401,7 @@ print(counter())  # 2
 print(counter())  # 3
 ```
 
-Without `nonlocal count`The line `count += 1` would raise `UnboundLocalError` because Python sees
+Without `nonlocal count`. The line `count += 1` would raise `UnboundLocalError` because Python sees
 the assignment and treats `count` as local throughout the entire function body -- including the read
 on the right side of `+=`.
 
@@ -555,9 +555,9 @@ Namespace.
 
 ### `functools.wraps` -- Why It Matters
 
-Without `@functools.wraps(func)`The wrapper function's metadata replaces the original function's
+Without `@functools.wraps(func)`. The wrapper function's metadata replaces the original function's
 Metadata. This breaks introspection, debugging, documentation tools, and anything that relies on
-`__name__``__doc__``__module__``__qualname__`Or `__wrapped__`.
+`__name__`, `__doc__`, `__module__`, `__qualname__` or `__wrapped__`.
 
 ```python
 def broken_timer(func):
@@ -578,7 +578,7 @@ print(important_function.__name__)  # 'wrapper' -- not 'important_function'
 print(important_function.__doc__)   # None -- the docstring is lost
 ```
 
-With `@functools.wraps(func)`The wrapper function's metadata is replaced with the original
+With `@functools.wraps(func)`. The wrapper function's metadata is replaced with the original
 Function's metadata:
 
 ```python
@@ -624,7 +624,7 @@ process = log_calls(timer(validate_input(process)))
 **Decoration order (bottom-up):** `validate_input` is applied first, wrapping `process`. Then
 `timer` wraps the result of that. Then `log_calls` wraps the result of that.
 
-**Execution order (top-down):** When you call `process(42)``log_calls`'s wrapper runs first (it is
+**Execution order (top-down):** When you call `process(42)`, `log_calls`'s wrapper runs first (it is
 The outermost layer). Inside it, `timer`'s wrapper runs. Inside that, `validate_input`'s wrapper
 Runs. Finally, the original `process` runs. The return value propagates back out through each layer.
 
@@ -733,9 +733,9 @@ def with_args():
 ```
 
 When `@rate_limit` is used without parentheses, Python calls `rate_limit(no_args)`. The function
-Object is passed as `_func`And since it is not `None`We immediately return `decorator(_func)`. When
+Object is passed as `_func`And since it is not `None`. We immediately return `decorator(_func)`. When
 `@rate_limit(requests_per_second=5.0)` is used, Python calls
-`rate_limit(requests_per_second=5.0)``_func` defaults to `None`And we return `decorator` to be
+`rate_limit(requests_per_second=5.0)`, `_func` defaults to `None`And we return `decorator` to be
 Applied by the `@` syntax.
 
 ## Class-Based Decorators
@@ -1035,7 +1035,7 @@ class Temperature:
         self.celsius = (value - 32) * 5 / 9  # reuses celsius setter for validation
 ```
 
-Properties are descriptors -- they are objects with `__get__``__set__`And/or `__delete__` Methods.
+Properties are descriptors -- they are objects with `__get__`, `__set__` and/or `__delete__` Methods.
 The `@property` decorator creates a `property` object (an instance of `property`) and Assigns it as
 a class attribute. When you access `instance.celsius`Python's descriptor protocol Invokes
 `property.__get__`.
@@ -1112,8 +1112,8 @@ Attributes. Also, `@cached_property` does not have a size limit or eviction poli
 
 ### `@functools.total_ordering`
 
-`@total_ordering` automatically generates the remaining rich comparison methods (`__lt__``__le__`
-`__gt__``__ge__`) from `__eq__` and one other comparison method.
+`@total_ordering` automatically generates the remaining rich comparison methods (`__lt__`, `__le__`
+`__gt__`, `__ge__`) from `__eq__` and one other comparison method.
 
 ```python
 import functools
@@ -1146,8 +1146,8 @@ Comparisons. For hot paths, implement all six methods explicitly.
 
 ### `@dataclass`
 
-`@dataclass` (Python 3.7+) automatically generates `__init__``__repr__``__eq__`And optionally
-`__hash__``__lt__``__str__`And more from class-level type annotations.
+`@dataclass` (Python 3.7+) automatically generates `__init__`, `__repr__`, `__eq__` and optionally
+`__hash__`, `__lt__`, `__str__` and more from class-level type annotations.
 
 ```python
 from dataclasses import dataclass, field
@@ -1220,13 +1220,13 @@ functools.WRAPPER_UPDATES = (
 ```
 
 - **`WRAPPER_ASSIGNMENTS`:** These attributes are **replaced** (assigned by name). The wrapper's
-  `__name__` becomes the wrapped function's `__name__`Etc. If the wrapped function does not have one
+  `__name__` becomes the wrapped function's `__name__`. Etc. If the wrapped function does not have one
   of these attributes, the wrapper's attribute is deleted (via `delattr`).
 - **`WRAPPER_UPDATES`:** These attributes are **merged** (updated). The wrapper's `__dict__` is
-  updated with the wrapped function's `__dict__`Meaning any custom attributes set on the original
+  updated with the wrapped function's `__dict__`. Meaning any custom attributes set on the original
   function are available on the wrapper.
 
-Additionally, `update_wrapper` sets `wrapper.__wrapped__ = wrapped`Which provides a direct Reference
+Additionally, `update_wrapper` sets `wrapper.__wrapped__ = wrapped`. Which provides a direct Reference
 to the original function.
 
 ### Full Mechanism
@@ -1255,9 +1255,9 @@ print(example.__wrapped__)       # <function example at 0x...>
 
 ### Why Omitting It Breaks Things
 
-Without `functools.wraps`The following tools and patterns break:
+Without `functools.wraps`. The following tools and patterns break:
 
-**1. Debugging and tracebacks.** The wrapper's `__name__` is `wrapper`Which appears in tracebacks
+**1. Debugging and tracebacks.** The wrapper's `__name__` is `wrapper`. Which appears in tracebacks
 instead of the original function name. When you have multiple decorators, every traceback shows
 `wrapper` and you cannot tell which function actually failed.
 
@@ -1265,12 +1265,12 @@ instead of the original function name. When you have multiple decorators, every 
 Documentation. A decorator without `wraps` produces documentation that shows the wrapper's (empty)
 Docstring and no type information.
 
-**3. `inspect.signature`.** Without `__wrapped__``inspect.signature()` falls back to the wrapper's
+**3. `inspect.signature`.** Without `__wrapped__`, `inspect.signature()` falls back to the wrapper's
 Signature (`(*args, **kwargs)`), which tells you nothing about the actual parameters. With
-`__wrapped__``inspect.signature()` follows the chain to the original function.
+`__wrapped__`, `inspect.signature()` follows the chain to the original function.
 
-**4. `help()`.** The built-in `help()` function reads `__doc__``__name__`And `__signature__`.
-Without `wraps``help(example)` shows an empty or misleading result.
+**4. `help()`.** The built-in `help()` function reads `__doc__`, `__name__` and `__signature__`.
+Without `wraps`, `help(example)` shows an empty or misleading result.
 
 **5. Pickling.** Functions are pickled by qualified name. If the wrapper's `__module__` and
 `__qualname__` do not match the original function's, unpickling may fail.
@@ -1288,9 +1288,9 @@ all will see the final value. Fix it with default argument binding or a factory 
 
 ### Forgetting `functools.wraps`
 
-Without `@functools.wraps(func)`The decorated function loses its `__name__``__doc__`
-`__module__``__qualname__``__annotations__`And `__wrapped__`. This breaks tracebacks, Documentation,
-introspection, `help()``inspect.signature()`And pickling. **Always use `functools.wraps` in
+Without `@functools.wraps(func)`. The decorated function loses its `__name__`, `__doc__`
+`__module__`, `__qualname__`, `__annotations__` and `__wrapped__`. This breaks tracebacks, Documentation,
+introspection, `help()`, `inspect.signature()` and pickling. **Always use `functools.wraps` in
 production decorators.** There is no good reason to omit it.
 
 ### Decorator Order Matters
@@ -1406,7 +1406,7 @@ that the state is global and shared.
 ### Decorating Methods
 
 When you decorate a method, the wrapper function receives the instance (`self`) as the first
-Argument. This is handled automatically by `*args`But you need to be aware of it if the decorator
+Argument. This is handled automatically by `*args`. But you need to be aware of it if the decorator
 does anything with the arguments:
 
 ```python
@@ -1436,7 +1436,7 @@ Case, you must be explicit about extracting `self` from `args[0]`.
 A more subtle issue: if you use a class-based decorator on a method, the `__call__` method does
 **not** receive `self` (the instance of the decorated class) in the same way. The descriptor
 Protocol complicates things. A class-based decorator that works on both functions and methods needs
-to return a function from `__call__`Not implement the call directly:
+to return a function from `__call__`. Not implement the call directly:
 
 ```python
 class MethodAwareDecorator:
@@ -1456,8 +1456,8 @@ class MethodAwareDecorator:
 ```
 
 The `__get__` method makes the decorator a **descriptor**. When the decorated method is accessed on
-an instance (`instance.method`), Python calls `__get__(instance, type)`Which returns a partial
-Function with the instance pre-bound. Without `__get__`The class-based decorator would not work
+an instance (`instance.method`), Python calls `__get__(instance, type)`. Which returns a partial
+Function with the instance pre-bound. Without `__get__`. The class-based decorator would not work
 Correctly on methods -- `self` would be missing from the argument list.
 
 ### Debugging Decorated Functions

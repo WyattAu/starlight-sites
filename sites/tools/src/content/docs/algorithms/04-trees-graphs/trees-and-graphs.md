@@ -306,7 +306,7 @@ def is_valid_bst(root):
 
 :::caution
 Insufficient, the BST property requires that **all** values in the left subtree are less than
-`node.val`Not just the immediate left child. A node with value 5, left child with value 1, and
+`node.val`. Not just the immediate left child. A node with value 5, left child with value 1, and
 Left-left grandchild with value 6 fails the BST property but passes the naive check.
 
 ## AVL Trees

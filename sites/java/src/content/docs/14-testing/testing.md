@@ -561,7 +561,7 @@ void expiredSubscriptionDeniesAccess() {
 
 ### Test Fixtures
 
-Shared test data and setup using `@BeforeAll``@BeforeEach`Or test utility classes:
+Shared test data and setup using `@BeforeAll`, `@BeforeEach` or test utility classes:
 
 ```java
 class OrderProcessorTest {

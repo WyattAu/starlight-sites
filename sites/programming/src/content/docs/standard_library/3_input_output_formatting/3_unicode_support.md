@@ -507,7 +507,7 @@ UTF-8 is byte-order-independent, so a UTF-8 BOM is unnecessary. However, some to
 Notepad) prepend a UTF-8 BOM when saving. This can cause problems:
 
 1. **Shell scripts:** A BOM at the start of a script causes `#!/bin/sh` to fail because the shebang
-   line becomes `\xEF\xBB\xBF#!/bin/sh`Which the kernel does not recognize.
+   line becomes `\xEF\xBB\xBF#!/bin/sh`. Which the kernel does not recognize.
 2. **String comparison:** If one string has a BOM and another does not, byte comparison fails.
 3. **File concatenation:** Concatenating files with and without BOMs produces a BOM in the middle of
    the output.
@@ -541,7 +541,7 @@ void strip_bom_demo(const std::filesystem::path& path) {
 
 ### Platform Encoding Quirks
 
-The relationship between `char``char8_t`And the execution encoding is subtle and Platform-dependent:
+The relationship between `char`, `char8_t` and the execution encoding is subtle and Platform-dependent:
 
 - **On POSIX (Linux, macOS):** The execution character set is UTF-8. `char` strings (`"..."`) are
   UTF-8 by convention. `std::cout` writes raw bytes to the terminal, which interprets them as UTF-8.

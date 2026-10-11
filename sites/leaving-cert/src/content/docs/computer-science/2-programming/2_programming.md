@@ -493,7 +493,7 @@ def gcd(a, b):
 print(gcd(48, 18))  # 6
 ```
 
-**Proof of termination.** At each recursive call, `b` becomes `a % b`Which is strictly less than
+**Proof of termination.** At each recursive call, `b` becomes `a % b`. Which is strictly less than
 `b`. Since `b` is a non-negative integer that decreases, it must eventually reach 0, triggering the
 Base case. $lacksquare$
 

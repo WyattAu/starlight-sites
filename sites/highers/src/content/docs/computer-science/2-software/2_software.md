@@ -457,7 +457,7 @@ Boundaries: 0, 1, 9, 10, 11, 49, 50, 51. Test values at and on either side of ea
 | Low coupling  | Yes       | Changes in one module have less impact |
 
 **Worked Example.** A class `CustomerManager` handles customer data, sends emails, and generates
-Reports. This has low cohesion. Refactor by splitting into `CustomerData``EmailService`And
+Reports. This has low cohesion. Refactor by splitting into `CustomerData`, `EmailService` and
 `ReportGenerator`.
 
 ### Sequence Diagrams
@@ -776,7 +776,7 @@ See the examples integrated throughout the sections above.
 9. Explain the difference between functional and imperative programming paradigms. Give an example
    where each would be more appropriate.
 
-10. Write a Python class `LinkedList` with methods `append``delete`And `search`. What is the time
+10. Write a Python class `LinkedList` with methods `append`, `delete` and `search`. What is the time
     complexity of each operation?
 
 11. Write a Python function that validates a password according to the following rules: at least 8

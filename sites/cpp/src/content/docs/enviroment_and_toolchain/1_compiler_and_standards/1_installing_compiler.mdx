@@ -609,7 +609,7 @@ Libraries causes linker errors.
 
 ### Pitfall 6: Forgetting `-stdlib=libc++abi` with `-stdlib=libc++`
 
-On Linux, when using Clang with `libc++`You must also link `libc++abi` for exception handling and
+On Linux, when using Clang with `libc++`. You must also link `libc++abi` for exception handling and
 Runtime type information support. Omitting it produces linker errors for `__cxa_begin_catch` and
 `__gxx_personality_v0`:
 

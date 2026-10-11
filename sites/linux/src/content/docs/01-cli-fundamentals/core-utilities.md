@@ -21,10 +21,10 @@ GNU coreutils is the package that provides the fundamental file, shell, and text
 Utilities on virtually every Linux distribution. These utilities implement the POSIX specifications
 and extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
 
-- **File utilities**: `ls``cp``mv``rm``ln``chmod``chown``touch``mkdir``rmdir` `stat``du``df``sync`
-- **Text utilities**: `cat``head``tail``sort``uniq``tr``cut``paste``join``wc` `nl``fmt``fold``pr`
-- **Shell utilities**: `echo``printf``date``tee``basename``dirname``sleep``true`
-  `false``test``expr``yes``timeout`
+- **File utilities**: `ls`, `cp`, `mv`, `rm`, `ln`, `chmod`, `chown`, `touch`, `mkdir`, `rmdir` `stat`, `du`, `df`, `sync`
+- **Text utilities**: `cat`, `head`, `tail`, `sort`, `uniq`, `tr`, `cut`, `paste`, `join`, `wc` `nl`, `fmt`, `fold`, `pr`
+- **Shell utilities**: `echo`, `printf`, `date`, `tee`, `basename`, `dirname`, `sleep`, `true`
+  `false`, `test`, `expr`, `yes`, `timeout`
 
 ## Text Processing Pipeline Patterns
 
@@ -250,7 +250,7 @@ awk 'FNR==1 {print "=== " FILENAME " ==="} {print}' *.log
 awk '{print | "sort -rn"}' unsorted.txt
 ```
 
-### `sort``uniq``wc``cut``tr`
+### `sort`, `uniq`, `wc`, `cut`, `tr`
 
 These utilities form the backbone of text processing pipelines:
 
@@ -770,7 +770,7 @@ chown --reference=ref_file target_file
 
 ### Pitfall: `grep` Returning Non-Zero on No Matches
 
-In scripts, `grep` returns exit code 1 when no lines match. With `set -e`This terminates the Script:
+In scripts, `grep` returns exit code 1 when no lines match. With `set -e`. This terminates the Script:
 
 ```bash
 # WRONG, exits script if no matches
@@ -887,7 +887,7 @@ true | xargs -r echo
 
 ### Pitfall: `sort -h` Availability
 
-The `-h` flag (human-numeric sort, handling `K``M``G` suffixes) is a GNU extension. It is not
+The `-h` flag (human-numeric sort, handling `K`, `M`, `G` suffixes) is a GNU extension. It is not
 Available on BSD/macOS `sort`. On those systems, convert sizes to bytes first or use `numfmt`.
 
 ## Summary

@@ -58,7 +58,7 @@ handle.join().unwrap();
 // s is no longer valid here, it was moved
 ```
 
-Without `move`The closure would attempt to borrow `s`But the borrow checker cannot guarantee That
+Without `move`. The closure would attempt to borrow `s`. But the borrow checker cannot guarantee That
 the spawned thread will not outlive `s` (the thread might run after `s` is dropped).
 
 ### Thread Return Values
@@ -867,9 +867,9 @@ cannot see).
 
 ## Common Pitfalls
 
-1. **Blocking the async executor.** Calling `std::thread::sleep``std::fs::read_to_string`Or any
+1. **Blocking the async executor.** Calling `std::thread::sleep`, `std::fs::read_to_string` or any
    blocking operation inside an async task blocks the entire OS thread. All other tasks on that
-   thread are stalled. Use `tokio::time::sleep``tokio::fs`Or `spawn_blocking`.
+   thread are stalled. Use `tokio::time::sleep`, `tokio::fs` or `spawn_blocking`.
 
 2. **Holding a `std::sync::Mutex` across `.await`.** This blocks the thread even while the future is
    suspended. Either use `tokio::sync::Mutex` or restructure the code to drop the lock before
@@ -899,7 +899,7 @@ cannot see).
    Ignoring this error silently swallows panics, which may indicate serious bugs. Always check join
    results or use a supervision mechanism.
 
-9. **Using `Rc` in async code.** `Rc` is not `Send`So any future capturing an `Rc` cannot be spawned
+9. **Using `Rc` in async code.** `Rc` is not `Send`. So any future capturing an `Rc` cannot be spawned
    on tokio. Use `Arc` instead. This is one of the most common async Rust compilation errors.
 
 10. **`select!` dropping futures.** When `select!` completes, all non-selected branches are dropped.

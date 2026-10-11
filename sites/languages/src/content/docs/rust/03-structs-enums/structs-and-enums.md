@@ -119,7 +119,7 @@ let bob = Person {
 // bob.name == "Bob", bob.age == 30, bob.email == Some("alice@example.com")
 ```
 
-Struct update syntax moves the remaining fields. After `..alice`The `alice` binding can no longer Be
+Struct update syntax moves the remaining fields. After `..alice`. The `alice` binding can no longer Be
 used in its entirety (it is partially moved), but individual `Copy` fields remain accessible.
 
 ### Struct Layout and `#[repr]`
@@ -412,7 +412,7 @@ fn color_to_rgb(c: Color) -> (u8, u8, u8) {
 }
 ```
 
-The compiler verifies that every variant is handled. If you add a new variant to `Color`Every
+The compiler verifies that every variant is handled. If you add a new variant to `Color`. Every
 `match` on `Color` will produce a compile error until updated. This is exhaustive pattern matching.
 
 ### Match Ergonomics (Rust 2021+)
@@ -472,7 +472,7 @@ match v {
 assert_eq!(v, vec![1, 2, 3, 4]);
 ```
 
-#### `@`At Bindings
+#### `@`. At Bindings
 
 The `@` operator binds a value to a name while also testing it against a pattern:
 
@@ -679,7 +679,7 @@ because `f64` does not implement `Ord`. Use a custom implementation or wrap the 
 ### Custom Derive
 
 You can implement custom derive macros. The `derive` crate ecosystem includes `serde::Serialize`
-`serde::Deserialize``thiserror::Error`And many more. These work by procedural macro expansion at
+`serde::Deserialize`, `thiserror::Error` and many more. These work by procedural macro expansion at
 Compile time.
 
 ## The Newtype Pattern
@@ -887,7 +887,7 @@ let opt: Option<i32> = res.ok(); // Some(42)
    adding `ref`Pay attention, it is telling you that a move would occur otherwise.
 
 4. **Using `unwrap()` in production code.** `unwrap()` panics on `None`/`Err`. Panics are for
-   unrecoverable programming errors (bugs), not for expected failure modes. Use `?``unwrap_or`
+   unrecoverable programming errors (bugs), not for expected failure modes. Use `?`, `unwrap_or`
    `unwrap_or_else`Or pattern matching for expected failures.
 
 5. **Enum size explosion.** An enum's size is the size of its largest variant plus the discriminant,
@@ -897,14 +897,14 @@ let opt: Option<i32> = res.ok(); // Some(42)
 
 6. **Deriving traits on enums with non-unit variants.** `#[derive(PartialEq)]` compares variant
    discriminants first, then compares the inner data. For structs, it compares field-by-field. If
-   your type contains `f64`You cannot derive `Eq` or `Ord` because `f64` does not implement them.
+   your type contains `f64`. You cannot derive `Eq` or `Ord` because `f64` does not implement them.
 
 7. **Not using `if let`/`let-else` when appropriate.** A `match` with a single non-trivial arm and a
    `_ =>` catch-all is less readable than an `if let` or `let-else`. Use `match` when you need
    exhaustive handling; use `if let`/`let-else` for focused pattern extraction.
 
 8. **Overusing `Option` for boolean semantics.** `Option<bool>` has three states: `None`
-   `Some(true)``Some(false)`. If you need three states, use an enum instead, it is clearer and
+   `Some(true)`, `Some(false)`. If you need three states, use an enum instead, it is clearer and
    self-documenting.
 
 9. **Pattern binding shadowing.** In match arms, the binding name shadows any outer binding with the

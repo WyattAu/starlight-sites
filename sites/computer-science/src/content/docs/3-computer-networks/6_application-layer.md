@@ -21,7 +21,7 @@ description: "DNS translates domain names to IP addresses. Hierarchical, distrib
 
 DNS translates domain names to IP addresses. Hierarchical, distributed database.
 
-**Domain hierarchy:** Root (`.`) $\to$ TLD (`com``org``net`) $\to$ second-level (`example.com`)
+**Domain hierarchy:** Root (`.`) $\to$ TLD (`com`, `org`, `net`) $\to$ second-level (`example.com`)
 $\to$ subdomain (`www.example.com`).
 
 **Record types:**
@@ -140,7 +140,7 @@ Pre-installed in the browser/OS trust store.
 ### 6.4 Email Protocols
 
 **SMTP (Simple Mail Transfer Protocol).** Push protocol for sending email (TCP port 25/587). Uses a
-Command-response dialogue: `HELO`/`EHLO``MAIL FROM``RCPT TO``DATA``QUIT`. Supports extensions For
+Command-response dialogue: `HELO`/`EHLO`, `MAIL FROM`, `RCPT TO`, `DATA`, `QUIT`. Supports extensions For
 authentication (`AUTH`) and encryption (`STARTTLS`).
 
 **SMTP session example:**

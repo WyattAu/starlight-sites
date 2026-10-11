@@ -186,7 +186,7 @@ must always produce the same tree hash.
 :::
 
 :::caution
-means `src` sorts as `src/`Which places it before `src-file` but after `src0`. This detail matters
+means `src` sorts as `src/`. Which places it before `src-file` but after `src0`. This detail matters
 if you are manually constructing tree objects.
 
 ## Commits
@@ -240,7 +240,7 @@ In this graph:
 - `A` is the **root commit** (no parent).
 - `B` and `E` are **linear commits** (one parent each).
 - `F` is a **merge commit** (parents: `E` and `D`).
-- `main` points to `G``feature` points to `D`.
+- `main` points to `G`, `feature` points to `D`.
 
 ### Author vs Committer
 

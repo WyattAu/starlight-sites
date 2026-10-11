@@ -953,7 +953,7 @@ async fn graceful_shutdown() {
 
 ### When to Use Shared State
 
-- Simple flags or counters (use `AtomicBool``AtomicUsize`)
+- Simple flags or counters (use `AtomicBool`, `AtomicUsize`)
 - Configuration that changes infrequently (use `Arc<RwLock<T>>` or `watch`)
 - Data structures that need coordinated access (use `Arc<Mutex<T>>`)
 

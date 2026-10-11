@@ -89,10 +89,10 @@ areas from inside out: **content** (text, images), **padding** (space between co
 elements. Increasing padding makes the element larger; increasing margin pushes other elements away.
 
 (d) **Block-level elements** occupy the full width available and start on a new line. Examples:
-`<p>``<div>``<h1>`--`<h6>``<ul>``<section>`.
+`<p>`, `<div>`, `<h1>`--`<h6>`, `<ul>`, `<section>`.
 
 **Inline elements** only occupy as much width as necessary and do not start a new line. Examples:
-`<span>``<a>``<strong>``<em>``<img>`.
+`<span>`, `<a>`, `<strong>`, `<em>`, `<img>`.
 
 ### UT-2: Multimedia File Formats
 

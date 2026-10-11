@@ -281,7 +281,7 @@ Unspecified permutation.
 
 ### Strong Guarantee with Move-Only Types
 
-Move-only types (e.g., `std::unique_ptr``std::thread`) cannot be copied, so the classic
+Move-only types (e.g., `std::unique_ptr`, `std::thread`) cannot be copied, so the classic
 Copy-and-swap idiom does not apply directly. For these types, you must use alternative strategies:
 
 ```cpp
@@ -391,7 +391,7 @@ int main() {
 ### Class Invariants After Basic Guarantee
 
 "Valid state" means all class invariants hold. This does not mean the state is predictable or useful
-- only that you can call `begin()``end()``size()`And the destructor without causing undefined
+- only that you can call `begin()`, `end()`, `size()` and the destructor without causing undefined
 Behavior:
 
 ```cpp
@@ -580,7 +580,7 @@ will clean up normally. This provides the strong guarantee.
 
 When `operator new` fails, it throws `std::bad_alloc` by default. This is correct behavior, the
 Strong guarantee relies on allocation failure being signaled via exception. Using
-`new(std::nothrow)` silently returns `nullptr`Which converts an exceptional condition into a logic
+`new(std::nothrow)` silently returns `nullptr`. Which converts an exceptional condition into a logic
 Error that must be checked manually. Prefer the throwing version.
 
 ### Pitfall 4: Self-Assignment in Strong-Guarantee Code

@@ -256,7 +256,7 @@ int main() {
 // Possible output: r1=0, r2=0 (surprising but valid with acquire/release)
 ```
 
-With `memory_order_seq_cst`The outcome `r1==0 && r2==0` is impossible because the total order on
+With `memory_order_seq_cst`. The outcome `r1==0 && r2==0` is impossible because the total order on
 `seq_cst` operations prevents it. The seq_cst total order ensures that either Thread 1's store to
 `x` happens before Thread 2's store to `y`Or vice versa, and in either case, the other thread's Load
 sees the store.
@@ -382,7 +382,7 @@ Models:
 **ARMv8 (Weakly Ordered):**
 
 - No reordering guarantees by default.
-- All ordering must be explicitly requested via `LDAR``STLR`Or `DMB` instructions.
+- All ordering must be explicitly requested via `LDAR`, `STLR` or `DMB` instructions.
 - `LDAR` provides load-acquire semantics.
 - `STLR` provides store-release semantics.
 - `DMB ISH` provides a full barrier.

@@ -297,7 +297,7 @@ int main() {
 
 The **Rule of Zero** states that classes that do not directly manage resources should not declare
 any special member functions. Instead, they should compose resource-owning standard library types
-(`std::string``std::vector``std::unique_ptr``std::shared_ptr`) which handle their own resource
+(`std::string`, `std::vector`, `std::unique_ptr`, `std::shared_ptr`) which handle their own resource
 Management correctly [N4950 §11.4.5.3]:
 
 ```cpp

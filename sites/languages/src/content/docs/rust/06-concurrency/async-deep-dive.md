@@ -33,12 +33,12 @@ pub enum Poll<T> {
 
 A future does not do anything on its own. It must be polled by an executor. Each call to `poll`
 Either returns `Ready(value)` if the computation is complete, or `Pending` if it needs more time.
-When returning `Pending`The future registers the current `Waker` with the reactor, so the executor
+When returning `Pending`. The future registers the current `Waker` with the reactor, so the executor
 Knows to poll it again when progress can be made.
 
 ### `Context` and `Waker`
 
-`Context` provides access to the `Waker`Which is used to notify the executor that a future should Be
+`Context` provides access to the `Waker`. Which is used to notify the executor that a future should Be
 polled again:
 
 ```rust
@@ -52,8 +52,8 @@ impl Waker {
 }
 ```
 
-When a future returns `Pending`The executor records that the future is waiting. When the Underlying
-I/O operation completes (e.g., a socket becomes readable), the reactor calls `waker.wake()`Which
+When a future returns `Pending`. The executor records that the future is waiting. When the Underlying
+I/O operation completes (e.g., a socket becomes readable), the reactor calls `waker.wake()`. Which
 schedules the future for re-polling.
 
 ### Polling Model
@@ -352,7 +352,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 ### Drop-Based Cancellation
 
 In Rust, dropping a future cancels it. There is no explicit cancellation token, if you drop the
-`JoinHandle`The task continues running but its result is ignored:
+`JoinHandle`. The task continues running but its result is ignored:
 
 ```rust
 let handle = tokio::spawn(async {
@@ -620,7 +620,7 @@ Common non-`Send` types:
 
 ## Common Pitfalls
 
-1. **Blocking the async executor.** Calling `std::thread::sleep``std::fs::read_to_string`Or any
+1. **Blocking the async executor.** Calling `std::thread::sleep`, `std::fs::read_to_string` or any
    blocking operation inside an async task blocks the entire OS thread. Use `tokio::time::sleep`
    `tokio::fs`Or `tokio::task::spawn_blocking`.
 

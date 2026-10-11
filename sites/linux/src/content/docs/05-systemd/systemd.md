@@ -807,7 +807,7 @@ Journal. This means:
 
 `EnvironmentFile` reads a file of `KEY=VALUE` pairs. It does **not** perform shell variable
 Expansion. If you need expansion, use `ExecStart` with a shell wrapper or use `${VARIABLE}` in
-`ExecStart` (systemd performs its own expansion for `%i``%n`Etc.):
+`ExecStart` (systemd performs its own expansion for `%i`, `%n`. Etc.):
 
 ```ini
 # This works, systemd expands %n, %i, %f, etc.

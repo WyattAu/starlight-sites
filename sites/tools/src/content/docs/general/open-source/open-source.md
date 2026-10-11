@@ -119,7 +119,7 @@ Criteria for selecting a project to contribute to:
    reading implementation code.
 2. **Use `git log --follow`** to understand the history of a file. The commit messages explain why
    changes were made.
-3. **Use the project"s search tools.** `grep -r``rg`Or the IDE's "Find in Files" to locate where a
+3. **Use the project"s search tools.** `grep -r`, `rg` or the IDE's "Find in Files" to locate where a
    function is defined and used.
 4. **Draw diagrams.** Sketch the component relationships, data flow, or call graph on paper. This
    forces you to understand the structure.
@@ -206,7 +206,7 @@ Follow the project's convention (check CONTRIBUTING). Common formats:
 <footer>
 ```
 
-Types: `feat``fix``docs``style``refactor``perf``test``build``ci``chore`
+Types: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`
 
 Example:
 
@@ -544,7 +544,7 @@ A welcoming project culture is critical for first-time contributors:
 Start with the highest-level abstraction and work down:
 
 1. **README.md:** What does the project do? How is it structured?
-2. **Entry point:** Where does execution begin? (`main()``index.js``app.py`)
+2. **Entry point:** Where does execution begin? (`main()`, `index.js`, `app.py`)
 3. **Configuration:** What are the default settings? What can be configured?
 4. **Core module:** What is the central abstraction or data structure?
 5. **Plugin/extension points:** How is the system extended?

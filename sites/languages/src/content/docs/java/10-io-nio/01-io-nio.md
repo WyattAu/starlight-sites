@@ -50,8 +50,8 @@ OutputStream (abstract)
 └── PipedOutputStream, writes to a PipedInputStream (inter-thread)
 ```
 
-The core contract is minimal: `read()` (one byte), `read(byte[])``read(byte[], off, len)` for Input,
-and `write(int)``write(byte[])``write(byte[], off, len)` for output. The single-byte Methods are
+The core contract is minimal: `read()` (one byte), `read(byte[])`, `read(byte[], off, len)` for Input,
+and `write(int)`, `write(byte[])`, `write(byte[], off, len)` for output. The single-byte Methods are
 slow; use the bulk methods or wrap with a buffered stream.
 
 ```java
@@ -80,8 +80,8 @@ try (DataInputStream dis = new DataInputStream(
 ```
 
 The `FilterInputStream`/`FilterOutputStream` classes themselves are mostly pass-through; the
-Interesting behavior is in their subclasses (`BufferedInputStream``DataInputStream`
-`PushbackInputStream`Etc.).
+Interesting behavior is in their subclasses (`BufferedInputStream`, `DataInputStream`
+`PushbackInputStream`. Etc.).
 
 ### Reader and Writer Hierarchy
 
@@ -153,7 +153,7 @@ try (var in = new BufferedInputStream(new FileInputStream("large.bin"));
 
 `BufferedWriter.newLine()` writes the platform-dependent line separator. `BufferedReader.readLine()`
 Strips the line terminator and returns `null` at end-of-stream. If you need to distinguish between
-`\n``\r\n`And `\r`Use character-level reading instead. `BufferedReader` also exposes `lines()` Which
+`\n`, `\r\n` and `\r`. Use character-level reading instead. `BufferedReader` also exposes `lines()` Which
 returns a `Stream&lt;String&gt;`.
 
 ### File I/O Patterns with try-with-resources
@@ -293,7 +293,7 @@ Single JVM or integrating with legacy APIs.
 ## NIO.2 (java.nio.file), The Path API
 
 NIO.2, introduced in JDK 7 (JSR 203), is a modern file API that addresses the deficiencies of
-`java.io.File`. The core types are `Path``Paths`And `Files`.
+`java.io.File`. The core types are `Path`, `Paths` and `Files`.
 
 ### Path vs File Comparison
 
@@ -445,7 +445,7 @@ Files.walkFileTree(dir, new SimpleFileVisitor<>() {
 
 ### File Attributes and Permissions
 
-NIO.2 provides a rich attribute API through `Files.getAttribute()``Files.readAttributes()`And The
+NIO.2 provides a rich attribute API through `Files.getAttribute()`, `Files.readAttributes()` and The
 `BasicFileAttributes` interface.
 
 ```java
@@ -760,7 +760,7 @@ Mapped byte buffers caveats:
 ### SocketChannel and ServerSocketChannel
 
 `SocketChannel` and `ServerSocketChannel` provide non-blocking TCP I/O. In non-blocking mode,
-`connect()``accept()``read()`And `write()` return immediately if they cannot complete; use a
+`connect()`, `accept()`, `read()` and `write()` return immediately if they cannot complete; use a
 `Selector` to determine readiness.
 
 ```java
@@ -801,7 +801,7 @@ try (ServerSocketChannel server = ServerSocketChannel.open()) {
 The polling loop above is inefficient. The proper pattern is to use a `Selector` (see next section).
 
 **Common Pitfall:** `write()` may write fewer bytes than the buffer contains; call `write()` again
-With the remaining bytes. Call `configureBlocking(false)` _before_ `connect()`Not after.
+With the remaining bytes. Call `configureBlocking(false)` _before_ `connect()`. Not after.
 
 ### Selector and SelectionKey (Reactor Pattern)
 
@@ -864,7 +864,7 @@ try (Selector selector = Selector.open();
 Key concepts:
 
 - **interestOps()**, the operations you registered for (modifiable at any time).
-- **readyOps()**, the operations currently ready (checked by `isAcceptable()``isReadable()` etc.).
+- **readyOps()**, the operations currently ready (checked by `isAcceptable()`, `isReadable()` etc.).
 - **attachment()**, arbitrary per-connection state (e.g., an output buffer).
 
 **Common Pitfalls:**

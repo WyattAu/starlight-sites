@@ -63834,7 +63834,7 @@ For revision on searching, see
 ## Problems
 
 **Problem 1.** A character array `C` has base address 3000 and stores lowercase letters. Each
-Character occupies 1 byte. What are the addresses of `C[0]``C[4]`And `C[12]`? If `C` is declared
+Character occupies 1 byte. What are the addresses of `C[0]`, `C[4]` and `C[12]`? If `C` is declared
 with size 10, what happens when you access `C[12]`?
 
 <details>
@@ -64021,7 +64021,7 @@ Column 2.
 <details>
 <summary>Hint</summary>
 
-Row 1 is `M[1][0]` through `M[1][3]`. Column 2 is `M[0][2]``M[1][2]``M[2][2]`.
+Row 1 is `M[1][0]` through `M[1][3]`. Column 2 is `M[0][2]`, `M[1][2]`, `M[2][2]`.
 
 </details>
 
@@ -64383,7 +64383,7 @@ $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{accept}, q_{reject})$ where:
 **Algorithm:**
 
 1. If tape is empty, accept
-2. Find the leftmost `a`Replace with `X`Move right to find the leftmost `b`Replace with `X`
+2. Find the leftmost `a`Replace with `X`. Move right to find the leftmost `b`Replace with `X`
 3. Return to the leftmost remaining `a`
 4. Repeat until no `a` remains
 5. If only `X`'s and blanks remain, accept; otherwise reject
@@ -64592,7 +64592,7 @@ The substring "11".
 <details>
 <summary>Answer</summary>
 
-Any such string is a sequence of blocks, where each block is either `0``10`Or `1` (but the last `1`
+Any such string is a sequence of blocks, where each block is either `0`, `10` or `1` (but the last `1`
 must not be followed by another `1`).
 
 Regular expression: `(0|10)*(1|ε)`
@@ -64673,7 +64673,7 @@ The same forwards and backwards).
 - $q_a$ reads blank: move left → $q_{check0}$
 - $q_{check0}$ reads `0`: write blank, move left → $q_{return}$ (match!)
 - $q_{check0}$ reads `1`: reject (mismatch!)
-- $q_{return}$ reads `0``1`: move left
+- $q_{return}$ reads `0`, `1`: move left
 - $q_{return}$ reads blank: move right → $q_0$
 
 This TM halts on all inputs (always reaches accept or reject), so the language of palindromes is
@@ -66332,7 +66332,7 @@ Each integer occupies $O(1)$ space, and the list overhead is also $O(1)$ per ele
 
 **Space complexity: $O(n^2)$.**
 
-The dominant factor is the total number of stored values ($2n^2$). The variable `i`The `row`
+The dominant factor is the total number of stored values ($2n^2$). The variable `i`. The `row`
 Reference, and the loop overhead all use $O(1)$ additional space and are negligible compared to the
 Matrix itself.
 
@@ -67061,8 +67061,8 @@ Give concrete examples of code patterns that exhibit each type of locality.
 Repeatedly. After the first access loads it into cache, subsequent accesses hit the cache.
 Similarly, the instruction bytes of the loop body are fetched from cache after the first iteration.
 
-**Spatial locality:** When accessing `array[i]`The cache loads a block (cache line) containing
-`array[i]` and several adjacent elements. Subsequent accesses to `array[i+1]``array[i+2]`Etc., Are
+**Spatial locality:** When accessing `array[i]`. The cache loads a block (cache line) containing
+`array[i]` and several adjacent elements. Subsequent accesses to `array[i+1]`, `array[i+2]`. Etc., Are
 cache hits because they are in the same cache line.
 
 </details>
@@ -68165,7 +68165,7 @@ After pass 2: [27, 3, 9, 38, 10, 43, 82].
 ### UT-3: Binary Search Trace
 
 **Question:** The sorted array is: [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Perform a binary search
-for the value 23. Show the values of `low``high``mid`And the comparison at each step. How many
+for the value 23. Show the values of `low`, `high`, `mid` and the comparison at each step. How many
 comparisons are needed? State the maximum number of comparisons for binary search on an array of
 size $n$.
 
@@ -69470,8 +69470,8 @@ flowchart TD
 ### UT-1: OOP Principles and Encapsulation
 
 **Question:** Design a class hierarchy for a library system with a base class `Item` and derived
-classes `Book``DVD`And `Magazine`. The `Item` class should have private attributes
-`title``item_id`And `is_available`. Include: (a) a constructor, (b) getter and setter methods
+classes `Book`, `DVD` and `Magazine`. The `Item` class should have private attributes
+`title`, `item_id` and `is_available`. Include: (a) a constructor, (b) getter and setter methods
 demonstrating encapsulation, (c) an abstract method `calculate_late_fee(days)` that each derived
 class implements differently. Show how polymorphism is used to process a list of mixed items.
 
@@ -69550,7 +69550,7 @@ for item in items:
     print(f"{item.get_title()}: late fee for 5 days = {item.calculate_late_fee(5)}")
 ```
 
-Encapsulation is demonstrated by: (1) private attributes (`__title``__item_id``__is_available`)
+Encapsulation is demonstrated by: (1) private attributes (`__title`, `__item_id`, `__is_available`)
 accessible only through getter/setter methods, (2) the setter validates input before modifying
 state, (3) `borrow()` and `return_item()` methods control state transitions.
 
@@ -69663,7 +69663,7 @@ foreign keys. (c) Explain what anomalies are eliminated at each stage.
 - **2NF violation:** Partial dependencies exist. `CustomerName` and `CustomerCity` depend only on
   part of a composite key. If we use `(OrderID, Product)` as the composite key, `CustomerName` and
   `CustomerCity` depend only on `OrderID` (partial dependency). Also, `Price` depends only on
-  `Product`Not on the full composite key.
+  `Product`. Not on the full composite key.
 - **3NF violation:** Transitive dependencies exist. `CustomerCity` depends on `CustomerName`
   (transitively through `CustomerName`).
 
@@ -69681,7 +69681,7 @@ Product(Product, Price) PK: Product
 
 **3NF tables:** Check for transitive dependencies in each 2NF table.
 
-Customer(OrderID, CustomerName, CustomerCity): `CustomerCity` depends on `CustomerName`Not on
+Customer(OrderID, CustomerName, CustomerCity): `CustomerCity` depends on `CustomerName`. Not on
 `OrderID`. This is a transitive dependency. Split into:
 
 CustomerOrder(OrderID, CustomerID) PK: OrderID, FK: CustomerID references Customer
@@ -69806,7 +69806,7 @@ class StudentRecordManager:
 ### IT-2: SQL and Programming Integration (with Relational Databases)
 
 **Question:** A school database has tables:
-`Student(student_id, name, form_group)``Subject(subject_id, subject_name, teacher)``Enrolment(student_id, subject_id, grade)`.
+`Student(student_id, name, form_group)`, `Subject(subject_id, subject_name, teacher)`, `Enrolment(student_id, subject_id, grade)`.
 Write Python code using parameterised queries to: (a) enrol a student in a subject, (b) update a
 student's grade, (c) generate a report showing each student's average grade. Explain why
 parameterised queries are essential for security.
@@ -70076,7 +70076,7 @@ expression without negation.
 
 (a) Strings starting with `01`: `01(0|1)*`
 
-This matches: `01``010``011``0101``0110`Etc. The `(0|1)*` allows any binary sequence (including
+This matches: `01`, `010`, `011`, `0101`, `0110`. Etc. The `(0|1)*` allows any binary sequence (including
 empty) after the initial `01`.
 
 (b) Strings of length exactly 3 with at least one `1`:
@@ -70148,7 +70148,7 @@ head starts at the rightmost bit (LSB):
 
 Tape: `1 1 0 _` with head on `0` (the LSB).
 
-Step 1: State q0, read `0`. Write `1`Move R, go to q*accept. Tape: `1 1 1 *`. Head on `\_`.
+Step 1: State q0, read `0`. Write `1`. Move R, go to q*accept. Tape: `1 1 1 *`. Head on `\_`.
 
 The machine halts. Result: `111` (LSB first) $= 111_2 = 7_{10}$.
 
@@ -70162,10 +70162,10 @@ Let me retrace with the correct initial tape. The tape stores `110` (LSB first) 
 
 Tape: `[1] [1] [0] [_]` with head on position 0 (the LSB, which is `1`).
 
-Step 1: State q0, read `1`. Write `0`Move L, stay in q0. Tape: `[0] [1] [0] [_]`. Head moves left to
+Step 1: State q0, read `1`. Write `0`. Move L, stay in q0. Tape: `[0] [1] [0] [_]`. Head moves left to
 position -1.
 
-Step 2: State q0, read `_`. Write `1`Move R, go to q*accept. Tape: `[1] [0] [1] [0] [*]`. Head on
+Step 2: State q0, read `_`. Write `1`. Move R, go to q*accept. Tape: `[1] [0] [1] [0] [*]`. Head on
 position 0.
 
 Result: `101` (LSB first) $= 1 \times 2^0 + 0 \times 2^1 + 1 \times 2^2 = 1 + 0 + 4 = 5$.
@@ -70179,7 +70179,7 @@ Tape: `_ [1] [1] [0] _`
 
 If the head starts at `0` (position 3):
 
-Step 1: q0, read `0`. Write `1`Move R, q*accept. Tape: `* [1] [1] [1] \_`. Result: `111` (MSB first)
+Step 1: q0, read `0`. Write `1`. Move R, q*accept. Tape: `* [1] [1] [1] \_`. Result: `111` (MSB first)
 $= 7$.
 
 But this is MSB first, not LSB first. In MSB first: `011` $= 3$. Adding 1: `100` $= 4$.
@@ -70188,11 +70188,11 @@ The issue is my initial interpretation. Let me use MSB first:
 
 `011` with head on the LSB (rightmost `1`):
 
-Step 1: q0, read `1`. Write `0`Move L. Tape: `0 1 0`. Head on the middle `1`.
+Step 1: q0, read `1`. Write `0`. Move L. Tape: `0 1 0`. Head on the middle `1`.
 
-Step 2: q0, read `1`. Write `0`Move L. Tape: `0 0 0`. Head on the `0`.
+Step 2: q0, read `1`. Write `0`. Move L. Tape: `0 0 0`. Head on the `0`.
 
-Step 3: q0, read `0`. Write `1`Move R, q_accept. Tape: `1 0 0`. Head on `0`.
+Step 3: q0, read `0`. Write `1`. Move R, q_accept. Tape: `1 0 0`. Head on `0`.
 
 Result: `100` $= 4$. Correct!
 
@@ -70204,7 +70204,7 @@ The Turing machine correctly adds 1 to the binary number `011` ($= 3$), producin
 
 **Question:** Write a Python function that simulates the FSM from UT-1 (accepts binary strings with
 even number of 0s). Then, write a regular expression that matches the same language. Use both to
-test the strings `""``"0"``"00"``"101"``"1110"``"01010"`. Compare the time complexity of the FSM
+test the strings `""`, `"0"`, `"00"`, `"101"`, `"1110"`, `"01010"`. Compare the time complexity of the FSM
 approach vs the regex approach for an input of length $n$.
 
 **Solution:**
@@ -75542,12 +75542,12 @@ with defined relationships, and on **SQL** as the language for manipulating that
 
 ### SQL
 
-- **DDL (Data Definition Language)**, `CREATE TABLE``ALTER TABLE``DROP TABLE` with constraints
-  (`PRIMARY KEY``FOREIGN KEY``NOT NULL``UNIQUE``CHECK`)
-- **DML (Data Manipulation Language)**, `SELECT``INSERT``UPDATE``DELETE`
-- **Queries**, `WHERE``ORDER BY``GROUP BY``HAVING`aggregate functions (`COUNT``SUM`
-  `AVG``MIN``MAX`)
-- **Joins**, `INNER JOIN``LEFT JOIN``RIGHT JOIN`; understanding what rows each returns
+- **DDL (Data Definition Language)**, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE` with constraints
+  (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`, `CHECK`)
+- **DML (Data Manipulation Language)**, `SELECT`, `INSERT`, `UPDATE`, `DELETE`
+- **Queries**, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`aggregate functions (`COUNT`, `SUM`
+  `AVG`, `MIN`, `MAX`)
+- **Joins**, `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`; understanding what rows each returns
 - **Subqueries**, nested `SELECT` statements
 
 ### Transaction Processing
@@ -76273,7 +76273,7 @@ for A-Level, with a focus on writing clear, correct, and maintainable code.
 ### Programming Constructs
 
 - **Sequence, selection, iteration**, the three fundamental control structures
-- **Conditional statements**, `IF...THEN...ELSE``CASE`/`SWITCH`
+- **Conditional statements**, `IF...THEN...ELSE`, `CASE`/`SWITCH`
 - **Loops**, `FOR` (count-controlled), `WHILE` (condition-controlled), `DO...UNTIL` (post-tested)
 - **Nested constructs**, combining selection and iteration for complex logic
 
@@ -78736,7 +78736,7 @@ Iterative reverse algorithm. Show the state after each iteration.
 <details>
 <summary>Answer</summary>
 
-Initial: `prev = None``current = [1] → [2] → [3] → [4] → None`
+Initial: `prev = None`, `current = [1] → [2] → [3] → [4] → None`
 
 | Iteration | prev            | current         | next_node |
 | --------- | --------------- | --------------- | --------- |
@@ -79722,7 +79722,7 @@ Step 3: Broadcast address (all host bits = 1):
 
 Broadcast: `10.150.79.255`
 
-Step 4: Usable range: `10.150.64.1``10.150.79.254`
+Step 4: Usable range: `10.150.64.1`, `10.150.79.254`
 
 Hosts per subnet: $2^{12} - 2 = 4094$
 
@@ -79840,7 +79840,7 @@ Supporting at least 200 hosts. Determine a suitable subnet mask and verify the r
 
 Subnets needed: 100. Borrowing bits: $2^6 = 64$ (not enough), $2^7 = 128$ (enough). Borrow 7 bits.
 
-New mask: `/16 + 7 = /23``255.255.254.0`
+New mask: `/16 + 7 = /23`, `255.255.254.0`
 
 Hosts per subnet: $2^{32-23} - 2 = 2^9 - 2 = 510$ (meets the 200 host requirement).
 
@@ -80491,7 +80491,7 @@ cursor.execute(
 )
 ```
 
-1. **Input validation:** Reject characters that have no legitimate purpose (e.g., `;``'``--` `/*`)
+1. **Input validation:** Reject characters that have no legitimate purpose (e.g., `;`, `'`, `--` `/*`)
 
 2. **Least privilege:** The application's database account should only have permissions for the
    operations it needs (SELECT, INSERT, not DROP, ALTER)
@@ -80551,7 +80551,7 @@ Can generate a 4000-byte response, providing a ~66x amplification factor.
 <summary>Answer</summary>
 
 Rule 1: Source matches `10.0.0.0/24` (yes, `10.0.0.5` is in this range), destination matches
-`192.168.1.10`But port 80 does not match port 22. Rule 1 does not apply.
+`192.168.1.10`. But port 80 does not match port 22. Rule 1 does not apply.
 
 Rule 2: Source is "Any" (matches), destination matches `192.168.1.10`Port 80 matches port 80. Rule 2
 applies, **Allow**.
@@ -81103,7 +81103,7 @@ With ASCII.
 
 $20AC_{16} = 0010\ 0000\ 1010\ 1100_2$
 
-This falls in the range `U+0800`–`U+FFFF`So it uses 3 bytes: `1110xxxx 10xxxxxx 10xxxxxx`.
+This falls in the range `U+0800`–`U+FFFF`. So it uses 3 bytes: `1110xxxx 10xxxxxx 10xxxxxx`.
 
 Fill in the bits from the code point:
 
@@ -81884,7 +81884,7 @@ In code: Aggregation passes in existing objects. Composition creates objects int
 
 </details>
 
-**Problem 6.** Implement an abstract class `DataStructure` with abstract methods `insert``delete`
+**Problem 6.** Implement an abstract class `DataStructure` with abstract methods `insert`, `delete`
 And `search`. Then implement it as a `Stack`.
 
 <details>
@@ -82008,7 +82008,7 @@ Base classes are searched for methods. For `D(B, C)`:
 1. `D` itself → no `greet`
 2. `B` → has `greet`Returns "B"
 
-The MRO is D → B → C → A → object. Since `B` has `greet`The search stops there.
+The MRO is D → B → C → A → object. Since `B` has `greet`. The search stops there.
 
 </details>
 
@@ -82029,7 +82029,7 @@ Same base class:
     D
 ```
 
-If both `B` and `C` override a method from `A`Which version does `D` inherit?
+If both `B` and `C` override a method from `A`. Which version does `D` inherit?
 
 Python resolves this using **C3 Linearization**, which produces a deterministic, monotonically
 Increasing order. For `D(B, C)`:
@@ -82044,7 +82044,7 @@ Languages like C++ resolve this differently (requiring explicit disambiguation).
 
 </details>
 
-**Problem 10.** Design a library system with classes for `Book``Member`And `Library`. Use
+**Problem 10.** Design a library system with classes for `Book`, `Member` and `Library`. Use
 Encapsulation appropriately. Include methods for borrowing and returning books.
 
 <details>
@@ -83515,8 +83515,8 @@ print(x)
 
 Output: `10`
 
-Explanation: Python passes the integer `10` by object reference. Inside `modify``x = 20` rebinds The
-local parameter `x` to a new integer object `20`. This does not affect the global `x`Which Remains
+Explanation: Python passes the integer `10` by object reference. Inside `modify`, `x = 20` rebinds The
+local parameter `x` to a new integer object `20`. This does not affect the global `x`. Which Remains
 `10`. Integers are immutable in Python, so there is no way to modify the original value Through the
 parameter.
 
@@ -85355,7 +85355,7 @@ not present.
 **Invariant:** At the start of each loop iteration, if $x$ exists in $A$ Then
 $x \in A[\mathrm{low}..\mathrm{high}]$.
 
-**Base case.** Initially, `low = 0` and `high = n-1`So
+**Base case.** Initially, `low = 0` and `high = n-1`. So
 $A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$ The invariant holds.
 
 **Maintenance.** Three cases:
@@ -85368,7 +85368,7 @@ $A[\mathrm{low}..\mathrm{high}] = A[0..n-1] = A$. If $x \in A$ The invariant hol
    $x \notin A[\mathrm{mid}..n-1]$. Setting `high = mid - 1` restricts the search to
    $A[\mathrm{low}..\mathrm{mid}-1]$. If $x$ was in the old range, it is in the new range.
 
-**Termination.** The loop terminates when `low > high`Meaning $A[\mathrm{low}..\mathrm{high}]$ is
+**Termination.** The loop terminates when `low > high`. Meaning $A[\mathrm{low}..\mathrm{high}]$ is
 Empty. By the invariant, $x \notin A$. Return $-1$. ✓
 
 $\square$
@@ -85645,8 +85645,8 @@ In Python, `/` produces a float, and using a float as an array index raises a `T
 Languages like C/Java, `int mid = (low + high) / 2` truncates toward zero, which works correctly for
 Positive values but is technically implementation-dependent.
 
-The more serious bug is **integer overflow**: if `low + high > INT_MAX`The sum overflows. The
-Correct form is `mid = low + (high - low) / 2`Which cannot overflow since `high - low` is always
+The more serious bug is **integer overflow**: if `low + high > INT_MAX`. The sum overflows. The
+Correct form is `mid = low + (high - low) / 2`. Which cannot overflow since `high - low` is always
 non-negative and less than `INT_MAX`.
 
 For revision on sorting, see
@@ -86315,7 +86315,7 @@ Feedback. Which methodology is most appropriate and why?
 
 </details>
 
-**Problem 3.** Draw a UML class diagram for a library system with classes `Library``Book`
+**Problem 3.** Draw a UML class diagram for a library system with classes `Library`, `Book`
 `Member`And `Loan`. Show appropriate relationships and key attributes/methods.
 
 <details>
@@ -87019,7 +87019,7 @@ def partition(A, low, high):
 
 ### Correctness Proof
 
-**Theorem.** After `partition(A, low, high)`The pivot is at its final sorted position, all Elements
+**Theorem.** After `partition(A, low, high)`. The pivot is at its final sorted position, all Elements
 to its left are $\lt $ pivot, and all elements to its right are $\geq$ pivot.
 
 **Proof.** The variable `i` tracks the boundary between elements
@@ -87452,7 +87452,7 @@ class ArrayStack:
 **Theorem.** All stack operations run in $O(1)$ time with an array-based implementation.
 
 **Proof.** `push` and `pop` each perform one index update and one array access, both $O(1)$.
-`peek``isEmpty`And `size` each inspect a single variable. $\square$
+`peek`, `isEmpty` and `size` each inspect a single variable. $\square$
 
 ### Linked List-Based Implementation
 
@@ -87765,7 +87765,7 @@ Dequeued in priority order (highest first, or lowest first).
 ## Problem Set
 
 **Problem 1.** A stack initially contains `[10, 20, 30]` (30 on top). After the operations
-`push(40)``pop()``push(50)``pop()``pop()`What is on the stack?
+`push(40)`, `pop()`, `push(50)`, `pop()`, `pop()`What is on the stack?
 
 <details>
 <summary>Answer</summary>
@@ -87783,7 +87783,7 @@ Stack: `[10, 20]` (20 on top)
 </details>
 
 **Problem 2.** A queue initially contains `[10, 20, 30]` (front = 10). After `enqueue(40)`
-`dequeue()``enqueue(50)``dequeue()`What remains?
+`dequeue()`, `enqueue(50)`, `dequeue()`What remains?
 
 <details>
 <summary>Answer</summary>
@@ -87826,7 +87826,7 @@ Algorithm.
 <details>
 <summary>Answer</summary>
 
-Precedence: `*` > `+``-`
+Precedence: `*` > `+`, `-`
 
 | Token | Output            | Stack | Action                                  |
 | ----- | ----------------- | ----- | --------------------------------------- |
@@ -87858,7 +87858,7 @@ The end, the stack must be empty.
 Are balanced.
 
 (_If_) Suppose the parentheses are balanced. Then every `)` matches a previous `(`. By the
-Well-formedness of balanced parentheses, when we encounter a `)`There is always a matching `(` on
+Well-formedness of balanced parentheses, when we encounter a `)`. There is always a matching `(` on
 the stack (otherwise the prefix would have more `)` than `(`Contradicting balance). At the end, All
 `(` have been matched, so the stack is empty.
 
@@ -87918,8 +87918,8 @@ order. A queue would undo the **oldest** action first, which is not the desired 
 </details>
 
 **Problem 8.** A circular queue has capacity 5. Show the state of the queue (front, rear, size, and
-Array contents) after each operation: `enqueue(1)``enqueue(2)``dequeue()``enqueue(3)`
-`enqueue(4)``enqueue(5)``dequeue()``enqueue(6)`.
+Array contents) after each operation: `enqueue(1)`, `enqueue(2)`, `dequeue()`, `enqueue(3)`
+`enqueue(4)`, `enqueue(5)`, `dequeue()`, `enqueue(6)`.
 
 <details>
 <summary>Answer</summary>
@@ -87993,7 +87993,7 @@ For revision on complexity analysis, see
 ## Problems
 
 **Problem 1.** A stack is initially empty. Perform the following operations in order and show the
-Stack contents after each: `push(5)``push(12)``push(3)``pop()``push(8)``pop()``pop()` `push(1)`.
+Stack contents after each: `push(5)`, `push(12)`, `push(3)`, `pop()`, `push(8)`, `pop()`, `pop()` `push(1)`.
 What are the values returned by each `pop()` operation?
 
 <details>
@@ -88055,7 +88055,7 @@ Final stack: **`[2, 7, 8]`** (8 on top).
 </details>
 
 **Problem 3.** A queue initially contains `[5, 10, 15, 20]` (front = 5). Perform `dequeue()`
-`enqueue(25)``dequeue()``enqueue(30)``dequeue()`. What remains in the queue?
+`enqueue(25)`, `dequeue()`, `enqueue(30)`, `dequeue()`. What remains in the queue?
 
 <details>
 <summary>Hint</summary>
@@ -88081,8 +88081,8 @@ Final queue: **`[20, 25, 30]`** (front = 20).
 </details>
 
 **Problem 4.** A circular queue has capacity 4. Trace the following operations, showing `front`
-`rear``size`And the array contents after each step: `enqueue(7)``enqueue(3)``enqueue(9)`
-`dequeue()``dequeue()``enqueue(5)``enqueue(1)``enqueue(8)`. What happens on the last Operation?
+`rear`, `size` and the array contents after each step: `enqueue(7)`, `enqueue(3)`, `enqueue(9)`
+`dequeue()`, `dequeue()`, `enqueue(5)`, `enqueue(1)`, `enqueue(8)`. What happens on the last Operation?
 
 <details>
 <summary>Hint</summary>
@@ -88107,7 +88107,7 @@ when `size == capacity`.
 | enqueue(8) | 2     | 2    | 4    | [5, 1, 9, 8]       |
 
 The last operation (`enqueue(8)`) succeeds. The queue is now **full** (size = capacity = 4). The
-`rear` wraps around: $(1 + 1) \% 4 = 2$. Note that `rear` now equals `front`But the queue is not
+`rear` wraps around: $(1 + 1) \% 4 = 2$. Note that `rear` now equals `front`. But the queue is not
 Empty, we use the `size` variable to distinguish full from empty.
 
 </details>
@@ -88160,7 +88160,7 @@ Consider how many elements need to be moved when dequeuing from the front of a n
 <summary>Answer</summary>
 
 - `enqueue`: $O(1)$, add element at index `rear`Increment `rear`.
-- `dequeue`: $O(n)$, remove element at index `front`Then shift elements `front+1` through `rear-1`
+- `dequeue`: $O(n)$, remove element at index `front`. Then shift elements `front+1` through `rear-1`
   one position left.
 
 **Why inefficient:** After dequeuing, every remaining element must be shifted. For a queue of $n$
@@ -88246,7 +88246,7 @@ Stack top is `(` but closing bracket is `}`**mismatch** → **not balanced**. �
 </details>
 
 **Problem 9.** Write pseudocode for the `dequeue` operation of a circular array queue. The queue has
-Variables `_data[]``_front``_size`And `_capacity`. Include error handling for an empty queue.
+Variables `_data[]`, `_front`, `_size` and `_capacity`. Include error handling for an empty queue.
 
 <details>
 <summary>Hint</summary>
@@ -88908,8 +88908,8 @@ A function accepts dates in the format `DD/MM/YYYY` where the year must be betwe
 
 ### Worked Example: Test Cases for a Stack with Fixed Size
 
-A stack has a maximum capacity of 5 elements. Operations: `push(item)``pop()``peek()`
-`is_empty()``is_full()`.
+A stack has a maximum capacity of 5 elements. Operations: `push(item)`, `pop()`, `peek()`
+`is_empty()`, `is_full()`.
 
 | Test case            | Input                          | Expected output             |
 | -------------------- | ------------------------------ | --------------------------- |
@@ -89383,7 +89383,7 @@ _Base case._ Inserting into an empty tree creates a single-node tree, which sati
 property.
 
 _Inductive step._ Assume `bst_insert(root.left, key)` (or `root.right`) returns a valid BST. If
-`key < root.key`The new node is inserted in the left subtree. By the inductive hypothesis, the Left
+`key < root.key`. The new node is inserted in the left subtree. By the inductive hypothesis, the Left
 subtree is a valid BST, and all its keys are less than `root.key` (by the original BST property And
 because `key < root.key`). Similarly for the right subtree. The root's key remains between all Left
 and right keys. Hence the full tree is a valid BST. $\square$
@@ -90516,7 +90516,7 @@ box-sizing: border-box;
 }
 ```
 
-**Viewport units** (`vw``vh`) scale relative to the browser window:
+**Viewport units** (`vw`, `vh`) scale relative to the browser window:
 
 ```css
 .hero {
@@ -90564,7 +90564,7 @@ button.addEventListener('click', () => {
 });
 ```
 
-Common events: `click``keydown``keyup``mouseover``submit``load``change`.
+Common events: `click`, `keydown`, `keyup`, `mouseover`, `submit`, `load`, `change`.
 
 ### Client-Side vs Server-Side Validation
 
@@ -90821,7 +90821,7 @@ Structure for indexing.
 
 </details>
 
-**Problem 3.** An element has `width: 200px``padding: 20px``border: 5px solid black`And
+**Problem 3.** An element has `width: 200px`, `padding: 20px`, `border: 5px solid black` and
 `margin: 15px`. Calculate total space for both `content-box` and `border-box`.
 
 <details>
@@ -90882,7 +90882,7 @@ User input; use CSP headers.
 Encoding. Victim must click the link. **Prevent:** encode all user-supplied data in responses.
 
 **DOM-based XSS:** Entirely client-side. JavaScript reads user input and inserts it via `innerHTML`
-Unsafely. **Prevent:** use `textContent``createElement()`And `appendChild()`.
+Unsafely. **Prevent:** use `textContent`, `createElement()` and `appendChild()`.
 
 **General:** Content Security Policy, `HttpOnly` cookies, input validation, output encoding.
 
@@ -101970,7 +101970,7 @@ The Phillips curve relationship has been far less stable in practice than theory
   supply-driven (cost-push) rather than demand-driven.
 
 :::note
-concept of Hysteresis and how it relates to the Phillips curve (if unemployment rises above `u*``u*`
+concept of Hysteresis and how it relates to the Phillips curve (if unemployment rises above `u*`, `u*`
 itself May rise, shifting the LRPC right). CIE (9708) may present a data-response question showing
 Inflation and unemployment data and ask students to interpret it using Phillips curve theory. OCR
 has examined the role of supply shocks in causing stagflation and the breakdown of the simple
@@ -103168,7 +103168,7 @@ The global financial crisis provides the clearest real-world illustration of the
 Keynesian-monetarist debate in action:
 
 1. **Monetary response**: The Bank of England cut the base rate from 5.25% (October 2008) to 0.5%
-   (March 2009), the lowest in the `` `{BoE}` ``'s 315-year history. When this proved insufficient
+   (March 2009), the lowest in the `` ``, ``{BoE}``, `` ``'s 315-year history. When this proved insufficient
    (ZLB), it launched QE in March 2009, purchasing GBP 75 billion of government bonds initially,
    eventually reaching GBP 875 billion by 2021.
 
@@ -103411,7 +103411,7 @@ Effect depends on the relative strength of each.
 
 :::note
 Effectiveness of policy mixes. Edexcel Paper 3 expects discussion of policy conflicts and
-Trade-offs. OCR may ask about the role of the Treasury and `` `{BoE}` `` in coordinating policy. CIE
+Trade-offs. OCR may ask about the role of the Treasury and `` ``, ``{BoE}``, `` `` in coordinating policy. CIE
 Paper 4 frequently asks students to assess whether government intervention can achieve multiple
 Macroeconomic objectives simultaneously.
 :::
@@ -103536,7 +103536,7 @@ Macroeconomic objectives: economic growth, price stability, low unemployment, ba
 Equilibrium. Brexit effects: (1) **Growth**: the OBR estimated Brexit would reduce long-run
 Productivity by 4%, this shifts LRAS left, reducing trend growth. UK GDP growth averaged 1.4%
 (2017–2019) vs. 2.1% (2013–2016). (2) **Inflation**: the 15% sterling depreciation (2016) increased
-Import prices, contributing to inflation peaking at 3.1% in 2017. The `` `{BoE}` `` responded by
+Import prices, contributing to inflation peaking at 3.1% in 2017. The `` ``, ``{BoE}``, `` `` responded by
 Raising rates, creating a trade-off with growth. (3) **Employment**: unemployment fell to 3.5%
 (2022), a 50-year low, partly because reduced EU migration tightened the labour market. However,
 Labour shortages in key sectors (NHS, agriculture, hospitality) represent a supply constraint. (4)
@@ -103567,7 +103567,7 @@ Bank's announcement effect. If the public's expectations formation process chang
 between policy and expectations is unreliable. (4) **Counterargument**: some relationships have
 Proved relatively stable. The Phillips curve, despite shifting, still shows a short-run trade-off.
 The Taylor Rule, while not followed mechanically, still provides a useful benchmark for the
-`` `{BoE}` ``'s rate decisions. Overall: the Lucas critique remains highly relevant, it reminds us
+`` ``, ``{BoE}``, `` ``'s rate decisions. Overall: the Lucas critique remains highly relevant, it reminds us
 that the unprecedented scale of QE means historical evidence may be an unreliable guide to its
 Effects, particularly regarding inflation and the exit strategy.
 </details>
@@ -103578,15 +103578,15 @@ Primary monetary policy framework for the Bank of England.
 <details>
 <summary>Hint</summary>
 Case for NGDP targeting: (1) **Automatic stabiliser**: NGDP targeting would have led to a more
-Accommodative response after the 2008 crisis and during COVID, the `` `{BoE}` `` would not have
+Accommodative response after the 2008 crisis and during COVID, the `` ``, ``{BoE}``, `` `` would not have
 Tightened prematurely as inflation rose due to supply shocks. (2) **Handles supply shocks better**:
 The 2021–2023 inflation was partly cost-push (energy, supply chains). Under NGDP targeting, the
-`` `{BoE}` `` would have accommodated more inflation (since real GDP was falling), reducing the
+`` ``, ``{BoE}``, `` `` would have accommodated more inflation (since real GDP was falling), reducing the
 Depth of the recession. (3) **Simplicity**: a single target for the growth of total nominal income
 is arguably easier to communicate than an inflation target. (4) **Financial stability**: by not
 Overtightening after supply shocks, NGDP targeting may reduce the risk of triggering a financial
 Crisis. Case against: (1) **Measurement problems**: GDP data is revised frequently and with long
-Lags (3–6 months). The `` `{BoE}` `` might be targeting an incorrect number. Inflation data, by
+Lags (3–6 months). The `` ``, ``{BoE}``, `` `` might be targeting an incorrect number. Inflation data, by
 Contrast, is available monthly with less revision. (2) **No precedent**: no major central bank has
 Adopted NGDP targeting, so there is no real-world evidence of its effectiveness. (3) **Legitimacy**:
 NGDP targeting could be seen as "giving up on price stability", the public may resist a framework

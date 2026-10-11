@@ -72,7 +72,7 @@ if (reg == 0) {
 }
 ```
 
-This is a legal single-threaded optimization. If `flag` is not `volatile` or `std::atomic`The
+This is a legal single-threaded optimization. If `flag` is not `volatile` or `std::atomic`. The
 Compiler assumes no other agent modifies it.
 
 **Speculative hoisting:** Loads may be hoisted above branches:
@@ -397,7 +397,7 @@ Guaranteeing that `data = 42` is visible when `ready` is observed as `true`.
 
 ## `volatile` vs. `atomic` vs. `mutex`
 
-A common source of confusion is the relationship between `volatile``std::atomic`And `std::mutex`:
+A common source of confusion is the relationship between `volatile`, `std::atomic` and `std::mutex`:
 
 | Feature                 | `volatile`                         | `std::atomic`                         | `std::mutex`                    |
 | :---------------------- | :--------------------------------- | :------------------------------------ | :------------------------------ |
@@ -598,7 +598,7 @@ Store buffer while the load from `y` executes, reading the stale value. The same
 **ARM/POWER answer: Yes.** Weakly ordered architectures allow even more reorderings. The stores may
 Be observed in any order by the other core.
 
-**Sequentially consistent answer: No.** Under `memory_order_seq_cst`At least one load must see the
+**Sequentially consistent answer: No.** Under `memory_order_seq_cst`. At least one load must see the
 Other core's store.
 
 ```cpp
@@ -642,7 +642,7 @@ int main() {
 ```
 
 On x86, this will observe `r1=0 && r2=0` approximately 0-5% of the time (due to store buffer drain
-Latency). On ARM, the percentage can be significantly higher. With `memory_order_seq_cst`The count
+Latency). On ARM, the percentage can be significantly higher. With `memory_order_seq_cst`. The count
 Drops to exactly zero.
 
 ## Proof: Data Races Are Undefined Behavior

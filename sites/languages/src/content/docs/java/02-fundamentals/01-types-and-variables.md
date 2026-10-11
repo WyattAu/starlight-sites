@@ -44,7 +44,7 @@ Operand stack. Local variables of primitive type are stored directly on the stac
 Locals store a pointer to the heap. Stack memory is automatically reclaimed when a method returns.
 
 **Heap**, All objects and arrays are allocated on the heap. This includes `String` objects, wrapper
-Instances (`Integer``Double`), and user-defined class instances. The heap is shared across all
+Instances (`Integer`, `Double`), and user-defined class instances. The heap is shared across all
 Threads and managed by the garbage collector. Heap allocations are relatively expensive compared to
 Stack allocations.
 
@@ -102,7 +102,7 @@ Floating-point types and IEEE 754 conformance.
 
 ### Integral Types
 
-Java's integral types are **two's complement** signed integers. The `byte``short``int`And `long`
+Java's integral types are **two's complement** signed integers. The `byte`, `short`, `int` and `long`
 types use two's complement representation, meaning the most significant bit is the sign bit. The
 `char` type is the only unsigned integral type, it represents a UTF-16 code unit.
 
@@ -196,12 +196,12 @@ String s = new String("hello");
 ```
 
 Reference types include: classes, interfaces, arrays, enums, annotations, and (since Java 14
-Preview) records. All reference variables can be `null`Meaning they point to no object.
+Preview) records. All reference variables can be `null`. Meaning they point to no object.
 
 ## Autoboxing and Unboxing
 
 Autoboxing is the automatic conversion from a primitive type to its corresponding wrapper class.
-Unboxing is the reverse. The compiler inserts calls to `Integer.valueOf()``Integer.intValue()` Etc.
+Unboxing is the reverse. The compiler inserts calls to `Integer.valueOf()`, `Integer.intValue()` Etc.
 
 ```java
 // Explicit boxing (pre-Java 5)
@@ -263,7 +263,7 @@ for (long i = 0; i < 1_000_000; i++) {
 Autoboxing was introduced to reduce verbosity, but it creates a false impression that primitives and
 Wrappers are interchangeable. They are not. The key problems are:
 
-1. **`NullPointerException` from unboxing null**: Unboxing a `null` reference throws `NPE`With no
+1. **`NullPointerException` from unboxing null**: Unboxing a `null` reference throws `NPE`. With no
    explicit null check in your source code.
 
 ```java
@@ -313,7 +313,7 @@ The `String` class is declared `final` and its internal `value` array is stored 
 
 ### Design Decision: Why String Is Immutable
 
-1. **Security**: String arguments are passed to `ClassLoader``FileInputStream``Runtime.exec()` JDBC
+1. **Security**: String arguments are passed to `ClassLoader`, `FileInputStream`, `Runtime.exec()` JDBC
    drivers, and many other sensitive APIs. Immutability prevents a caller from modifying the string
    after passing it, closing a class of security vulnerabilities.
 
@@ -567,7 +567,7 @@ Surprising.
 
 ### Explicit Casting (Narrowing)
 
-Narrowing conversions (e.g., `long` to `int``double` to `float`) may lose information and require An
+Narrowing conversions (e.g., `long` to `int`, `double` to `float`) may lose information and require An
 explicit cast. The compiler enforces this to prevent accidental data loss.
 
 ```java
@@ -682,7 +682,7 @@ if (obj instanceof String s && !s.isEmpty()) {
 ```
 
 :::note
-Semantics. If `obj instanceof String s` is `false`The right side of `&&` is never evaluated, so `s`
+Semantics. If `obj instanceof String s` is `false`. The right side of `&&` is never evaluated, so `s`
 cannot be used unsafely. The compiler verifies this using a concept called "flow analysis."
 :::
 

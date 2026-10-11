@@ -50100,13 +50100,13 @@ what Happens to equilibrium quantity? What about price?
 
 ### Details
 
-(a) `150 - 3P = 2P - 30``180 = 5P``P = 36`. `Q = 150 - 108 = 42`.
+(a) `150 - 3P = 2P - 30`, `180 = 5P`, `P = 36`. `Q = 150 - 108 = 42`.
 
-(b) `210 - 3P = 2P - 30``240 = 5P``P = 48`. `Q = 210 - 144 = 66`.
+(b) `210 - 3P = 2P - 30`, `240 = 5P`, `P = 48`. `Q = 210 - 144 = 66`.
 
 Price rises from 36 to 48; quantity rises from 42 to 66.
 
-(c) New supply: `Q_S = 2P + 30`. `210 - 3P = 2P + 30``180 = 5P``P = 36`. `Q = 210 - 108 = 102`.
+(c) New supply: `Q_S = 2P + 30`. `210 - 3P = 2P + 30`, `180 = 5P`, `P = 36`. `Q = 210 - 108 = 102`.
 
 Quantity rises (42 to 102), but price returns to 36. When both curves shift right by the same
 Amount, price is unchanged and quantity increases.
@@ -50164,7 +50164,7 @@ Units, price in USD hundred).
 
 <summary>Solution</summary>
 
-(a) `500 - 2P = 100 + 3P``400 = 5P``P = 80` (hundred). `Q = 500 - 160 = 340`.
+(a) `500 - 2P = 100 + 3P`, `400 = 5P`, `P = 80` (hundred). `Q = 500 - 160 = 340`.
 
 (b) At `P = 40`: `Q_D = 500 - 80 = 420`. `Q_S = 100 + 120 = 220`. Shortage = `420 - 220 = 200`
 units.
@@ -50185,9 +50185,9 @@ Burden on consumers and producers. (d) Who bears more of the tax burden and why?
 
 <summary>Solution</summary>
 
-(a) `300 - 5P = 4P - 60``360 = 9P``P = 40`. `Q = 300 - 200 = 100`.
+(a) `300 - 5P = 4P - 60`, `360 = 9P`, `P = 40`. `Q = 300 - 200 = 100`.
 
-(b) Supply shifts: `Q_S = 4(P-6) - 60 = 4P - 84`. `300 - 5P = 4P - 84``384 = 9P``P = 42.67`
+(b) Supply shifts: `Q_S = 4(P-6) - 60 = 4P - 84`. `300 - 5P = 4P - 84`, `384 = 9P`, `P = 42.67`
 (consumers pay). Producers receive `42.67 - 6 = 36.67`. `Q = 300 - 213.3 = 86.67`.
 
 (c) Consumer burden per unit = `42.67 - 40 = 2.67`. Producer burden per unit = `40 - 36.67 = 3.33`.
@@ -50230,9 +50230,9 @@ the subsidy cost the government? (d) Who benefits more from the subsidy -- consu
 
 <summary>Solution</summary>
 
-(a) `200 - 2P = 3P - 80``280 = 5P``P = 56`. `Q = 200 - 112 = 88`.
+(a) `200 - 2P = 3P - 80`, `280 = 5P`, `P = 56`. `Q = 200 - 112 = 88`.
 
-(b) Supply shifts down: `Q_S = 3(P+5) - 80 = 3P - 65`. `200 - 2P = 3P - 65``265 = 5P``P = 53`
+(b) Supply shifts down: `Q_S = 3(P+5) - 80 = 3P - 65`. `200 - 2P = 3P - 65`, `265 = 5P`, `P = 53`
 (consumers pay). Producers receive `53 + 5 = 58`. `Q = 200 - 106 = 94`.
 
 (c) Government cost = `5 \times 94 = 470`.
@@ -50253,9 +50253,9 @@ A factory producing chemicals has `MPC = 10 + Q`. The marginal external cost is 
 
 <summary>Solution</summary>
 
-(a) Market: `10 + Q = 60 - Q``2Q = 50``Q = 25`. `P = 35`.
+(a) Market: `10 + Q = 60 - Q`, `2Q = 50`, `Q = 25`. `P = 35`.
 
-(b) Social optimum: `MSC = MPC + MEC = 10 + Q + 8 = 18 + Q`. `18 + Q = 60 - Q``2Q = 42``Q = 21`.
+(b) Social optimum: `MSC = MPC + MEC = 10 + Q + 8 = 18 + Q`. `18 + Q = 60 - Q`, `2Q = 42`, `Q = 21`.
 `P = 39` (price consumers pay). Producers receive `39 - 8 = 31`.
 
 (c) DWL = `0.5 \times 8 \times (25 - 21) = 0.5 \times 8 \times 4 = 16`.
@@ -55781,7 +55781,7 @@ $$
 \Delta Y = -\mathrm{MPC} \times k \times \Delta T
 $$
 
-A tax cut of `Delta T` increases disposable income by `Delta T`But only `MPC x Delta T` is spent
+A tax cut of `Delta T` increases disposable income by `Delta T`. But only `MPC x Delta T` is spent
 (the rest is saved). This initial spending is then multiplied. The tax multiplier is always smaller
 than the spending multiplier (in absolute value) because part of the tax cut is saved, not spent.
 
@@ -59288,7 +59288,7 @@ Secondary income: `30 - 50 = -20`.
 
 Current account = `-200 + 100 + 40 - 20 = -80` (deficit of USD 80 billion).
 
-(b) `CA + FA = 0` (approximately). `-80 + 40 + (-R) = 0`So `R = -40`.
+(b) `CA + FA = 0` (approximately). `-80 + 40 + (-R) = 0`. So `R = -40`.
 
 Reserves **decrease** by USD 40 billion (negative means reserves fall).
 
@@ -59335,13 +59335,13 @@ needed For depreciation to improve the trade balance?
 <details>
 <summary>Solution</summary>
 
-(a) Sum = `|0.4| + |0.9| = 1.3`. Since `1.3 \gt 1`The Marshall-Lerner condition **holds**.
+(a) Sum = `|0.4| + |0.9| = 1.3`. Since `1.3 \gt 1`. The Marshall-Lerner condition **holds**.
 
 (b) Even though the ML condition holds, the trade balance may **worsen in the short run** due to the
 J-curve effect (quantities adjust slowly, price effect dominates initially). In the long run,
 quantities Adjust and the trade balance improves.
 
-(c) We need `|0.4| + |e_M| \gt 1`So `|e_M| \gt 0.6`. The import elasticity must exceed 0.6.
+(c) We need `|0.4| + |e_M| \gt 1`. So `|e_M| \gt 0.6`. The import elasticity must exceed 0.6.
 
 </details>
 
@@ -59877,7 +59877,7 @@ Downstream residents and harms fisheries. This external cost is not borne by the
 Supply curve reflects only MPC, not MSC.
 
 **Result:** The market produces where `MPB = MPC` (market equilibrium). The socially optimal output
-Is where `MSB = MSC`. Since `MSC \gt MPC`The market equilibrium output is greater than the Socially
+Is where `MSB = MSC`. Since `MSC \gt MPC`. The market equilibrium output is greater than the Socially
 optimal output. The market **over-produces** the good.
 
 ### Diagram Description: Negative Externality of Production
@@ -59955,7 +59955,7 @@ does not capture this external benefit in revenue, so produces less than the soc
 Quantity.
 
 **Result:** The market **under-produces** the good because `MSB \gt MPB`. The socially optimal
-Output is where `MSB = MSC`But the market produces where `MPB = MPC`Which is less than the Social
+Output is where `MSB = MSC`. But the market produces where `MPB = MPC`. Which is less than the Social
 optimum.
 
 ### Positive Externality of Consumption
@@ -60030,11 +60030,11 @@ Level.
 A factory's MPC is given by `P = 20 + 0.5Q`. The marginal external cost is `MEC = 10`. Demand is
 `P = 80 - Q`.
 
-Without the tax, market equilibrium: `20 + 0.5Q = 80 - Q`So `1.5Q = 60``Q = 40``P = 40`.
+Without the tax, market equilibrium: `20 + 0.5Q = 80 - Q`. So `1.5Q = 60`, `Q = 40`, `P = 40`.
 
 With a Pigouvian tax of `MEC = 10` per unit, the supply curve shifts up: `P = 30 + 0.5Q`.
 
-New equilibrium: `30 + 0.5Q = 80 - Q`So `1.5Q = 50``Q = 33.33``P = 46.67`.
+New equilibrium: `30 + 0.5Q = 80 - Q`. So `1.5Q = 50`, `Q = 33.33`, `P = 46.67`.
 
 The tax reduces output from 40 to 33.33 (closer to the social optimum). Tax revenue =
 `10 x 33.33 = 333.3`.
@@ -60044,9 +60044,9 @@ The tax reduces output from 40 to 33.33 (closer to the social optimum). Tax reve
 
 A chemical plant has `MPC = 15 + Q` and `MEC = 12`. Demand: `P = 90 - Q`.
 
-Market equilibrium: `15 + Q = 90 - Q``Q^* = 37.5``P^* = 52.5`.
+Market equilibrium: `15 + Q = 90 - Q`, `Q^* = 37.5`, `P^* = 52.5`.
 
-Social optimum: `MSC = 15 + Q + 12 = 27 + Q`. Set `27 + Q = 90 - Q``Q_{opt} = 31.5`.
+Social optimum: `MSC = 15 + Q + 12 = 27 + Q`. Set `27 + Q = 90 - Q`, `Q_{opt} = 31.5`.
 
 Price consumers pay = `90 - 31.5 = 58.5`. Price producers receive = `15 + 31.5 = 46.5`.
 
@@ -60094,14 +60094,14 @@ the socially optimal level.
 The private demand for university education is `P = 50 - 0.1Q` (MPB). The marginal external benefit
 is `MEB = 15`. The supply (MPC = MSC for simplicity) is `P = 10 + 0.1Q`.
 
-Without subsidy: `50 - 0.1Q = 10 + 0.1Q`So `0.2Q = 40``Q = 200`.
+Without subsidy: `50 - 0.1Q = 10 + 0.1Q`. So `0.2Q = 40`, `Q = 200`.
 
 Social optimum: `MSB = 50 - 0.1Q + 15 = 65 - 0.1Q`. Set `MSB = MSC`: `65 - 0.1Q = 10 + 0.1Q`
-`0.2Q = 55``Q = 275`.
+`0.2Q = 55`, `Q = 275`.
 
 A subsidy of `MEB = 15` per student shifts the demand curve up: `P = 65 - 0.1Q`.
 
-New equilibrium: `65 - 0.1Q = 10 + 0.1Q``Q = 275`. The subsidy achieves the social optimum.
+New equilibrium: `65 - 0.1Q = 10 + 0.1Q`, `Q = 275`. The subsidy achieves the social optimum.
 
 Government cost = `15 x 275 = 4,125`.
 
@@ -60111,9 +60111,9 @@ Government cost = `15 x 275 = 4,125`.
 
 Private demand for flu shots: `P = 30 - 0.1Q` (MPB). `MEB = 8`. Supply: `P = 4 + 0.1Q`.
 
-Market equilibrium: `30 - 0.1Q = 4 + 0.1Q``Q = 130`.
+Market equilibrium: `30 - 0.1Q = 4 + 0.1Q`, `Q = 130`.
 
-Social optimum: `MSB = 38 - 0.1Q`. Set `MSB = MSC`: `38 - 0.1Q = 4 + 0.1Q``Q_{opt} = 170`.
+Social optimum: `MSB = 38 - 0.1Q`. Set `MSB = MSC`: `38 - 0.1Q = 4 + 0.1Q`, `Q_{opt} = 170`.
 
 Subsidy = `MEB = 8` per vaccination. Government cost = `8 \times 170 = 1,360`.
 
@@ -60502,12 +60502,12 @@ Demand is `P = 50 - Q`.
 (a) Find the market equilibrium output and price. (b) Find the socially optimal output and price.
 (c) Calculate the deadweight loss. (d) What per-unit tax would achieve the social optimum?
 
-(a) Market equilibrium (no tax): `MPC = MPB`: `10 + 0.5Q = 50 - Q``1.5Q = 40``Q* = 26.67`
+(a) Market equilibrium (no tax): `MPC = MPB`: `10 + 0.5Q = 50 - Q`, `1.5Q = 40`, `Q* = 26.67`
 `P* = 23.33`.
 
 (b) Social optimum: `MSC = MSB`. `MSC = MPC + MEC = 10 + 0.5Q + 5 = 15 + 0.5Q`. `MSB = 50 - Q`.
 
-`15 + 0.5Q = 50 - Q``1.5Q = 35``Q_opt = 23.33`.
+`15 + 0.5Q = 50 - Q`, `1.5Q = 35`, `Q_opt = 23.33`.
 
 Price consumers pay: `P = 50 - 23.33 = 26.67`.
 
@@ -60530,11 +60530,11 @@ The demand for flu vaccinations is `P = 40 - 0.2Q` (MPB). The marginal external 
 (a) Find the market equilibrium output. (b) Find the socially optimal output. (c) Calculate the
 Deadweight loss. (d) What per-unit subsidy would achieve the social optimum?
 
-(a) Market equilibrium: `MPB = MPC`: `40 - 0.2Q = 5 + 0.1Q``0.3Q = 35``Q = 116.67`.
+(a) Market equilibrium: `MPB = MPC`: `40 - 0.2Q = 5 + 0.1Q`, `0.3Q = 35`, `Q = 116.67`.
 
 (b) Social optimum: `MSB = MSC`. `MSB = MPB + MEB = 40 - 0.2Q + 10 = 50 - 0.2Q`. `MSC = 5 + 0.1Q`.
 
-`50 - 0.2Q = 5 + 0.1Q``0.3Q = 45``Q_opt = 150`.
+`50 - 0.2Q = 5 + 0.1Q`, `0.3Q = 45`, `Q_opt = 150`.
 
 (c) DWL = `0.5 x MEB x (Q_opt - Q) = 0.5 x 10 x (150 - 116.67) = 0.5 x 10 x 33.33 = 166.67`.
 
@@ -60637,11 +60637,11 @@ Total cost = `525 + 600 = 1,125`.
 
 (b) At the cost-minimising allocation, `MAC_A = MAC_B = permit price`.
 
-`20 + 2Q_A = 10 + 4Q_B`. And `Q_A + Q_B = 30`So `Q_B = 30 - Q_A`.
+`20 + 2Q_A = 10 + 4Q_B`. And `Q_A + Q_B = 30`. So `Q_B = 30 - Q_A`.
 
 `20 + 2Q_A = 10 + 4(30 - Q_A) = 10 + 120 - 4Q_A = 130 - 4Q_A`.
 
-`6Q_A = 110``Q_A = 18.33``Q_B = 11.67`.
+`6Q_A = 110`, `Q_A = 18.33`, `Q_B = 11.67`.
 
 Permit price = `20 + 2(18.33) = 56.67`.
 
@@ -60835,10 +60835,10 @@ intervention.
 
 ### Details
 
-(a) Market: `MPB = MPC`: `20 - 0.02Q = 2 + 0.01Q``0.03Q = 18``Q = 600`. `P = 8`.
+(a) Market: `MPB = MPC`: `20 - 0.02Q = 2 + 0.01Q`, `0.03Q = 18`, `Q = 600`. `P = 8`.
 
 (b) Social optimum: `MSB = MPB - MEC = 20 - 0.02Q - 6 = 14 - 0.02Q`. Set `MSB = MSC`:
-`14 - 0.02Q = 2 + 0.01Q``0.03Q = 12``Q = 400`.
+`14 - 0.02Q = 2 + 0.01Q`, `0.03Q = 12`, `Q = 400`.
 
 (c) Tax = `MEC = 6` per pack of cigarettes.
 
@@ -60862,7 +60862,7 @@ Village fund it?
 <details>
 <summary>Solution</summary>
 
-(a) Total benefit = `500 \times 60 = 30,000`. Cost = `25,000`. Since `30,000 \gt 25,000`It IS
+(a) Total benefit = `500 \times 60 = 30,000`. Cost = `25,000`. Since `30,000 \gt 25,000`. It IS
 Efficient (NPV = 5,000 \gt 0).
 
 (b) No -- street lighting is a **public good** (non-excludable, non-rivalrous). The free-rider
@@ -60870,7 +60870,7 @@ problem Means each resident hopes others will pay while they enjoy the benefit f
 provision will Under-provide or not provide at all.
 
 (c) The village government should build the system and fund it through compulsory taxation. Each
-Resident can be taxed `25,000/500 = 50`Which is less than their valuation (60). Everyone is better
+Resident can be taxed `25,000/500 = 50`. Which is less than their valuation (60). Everyone is better
 off.
 
 If you get this wrong, revise: [Public Goods](#public-goods)
@@ -60951,8 +60951,8 @@ the Cost-minimising allocation. (c) How much does trading save?
 (a) Cost of A: `30(12) + 3(144)/2 = 360 + 216 = 576`. Cost of B:
 `10(12) + 5(144)/2 = 120 + 360 = 480`. Total = `576 + 480 = 1,056`.
 
-(b) Cost minimisation: `MAC_A = MAC_B`: `30 + 3Q_A = 10 + 5Q_B`And `Q_A + Q_B = 24`So
-`Q_B = 24 - Q_A`. `30 + 3Q_A = 10 + 5(24 - Q_A) = 130 - 5Q_A`. `8Q_A = 100``Q_A = 12.5``Q_B = 11.5`.
+(b) Cost minimisation: `MAC_A = MAC_B`: `30 + 3Q_A = 10 + 5Q_B`And `Q_A + Q_B = 24`. So
+`Q_B = 24 - Q_A`. `30 + 3Q_A = 10 + 5(24 - Q_A) = 130 - 5Q_A`. `8Q_A = 100`, `Q_A = 12.5`, `Q_B = 11.5`.
 Permit price = `30 + 3(12.5) = 67.5`.
 
 Cost of A: `30(12.5) + 3(156.25)/2 = 375 + 234.4 = 609.4`. Cost of B:
@@ -61367,8 +61367,8 @@ The continuum of market structures runs from perfect competition (maximum compet
 | Information       | Perfect                  | Good                     | Imperfect                       | Imperfect                     |
 | Examples          | Agricultural commodities | Restaurants, hair salons | Automobiles, smartphones        | CLP Power (HK electricity)    |
 
-This file assumes familiarity with cost curves (`TC``ATC``AVC``MC`) and revenue curves (`TR`
-`AR``MR`) from
+This file assumes familiarity with cost curves (`TC`, `ATC`, `AVC`, `MC`) and revenue curves (`TR`
+`AR`, `MR`) from
 [../2-demand-supply-markets/1_demand-supply-and-markets](/economics/2-demand-supply-markets/1_demand-supply-and-markets/).
 
 ---
@@ -61395,7 +61395,7 @@ Interactions are:
   marginal returns).
 - `MC` intersects `AVC` at the minimum of `AVC`.
 - `MC` intersects `ATC` at the minimum of `ATC`.
-- When `MC \lt AVC``AVC` is falling. When `MC \gt AVC``AVC` is rising. The same logic holds for `MC`
+- When `MC \lt AVC`, `AVC` is falling. When `MC \gt AVC`, `AVC` is rising. The same logic holds for `MC`
   relative to `ATC`.
 
 ### Revenue Under Different Market Structures
@@ -61471,7 +61471,7 @@ In the short run, the number of firms is fixed. Each firm maximises profit by pr
 | `P \gt AVC` | Firm continues producing                |
 
 Diagram description: The `MC` curve intersects the horizontal `P = MR = AR` line at output `Q*`. At
-`Q*`The `ATC` curve lies below the price line. The rectangular area between the `ATC` curve and The
+`Q*`. The `ATC` curve lies below the price line. The rectangular area between the `ATC` curve and The
 price line, from 0 to `Q*`Represents supernormal profit.
 
 <details>
@@ -61481,19 +61481,19 @@ A perfectly competitive firm has `TC = 200 + 20Q + 2Q^2`. The market price is `P
 
 `MC = dTC/dQ = 20 + 4Q`
 
-Set `P = MC`: `60 = 20 + 4Q`So `Q = 10`.
+Set `P = MC`: `60 = 20 + 4Q`. So `Q = 10`.
 
 `ATC = 200/10 + 20 + 2(10) = 20 + 20 + 20 = 60`.
 
-Since `P = ATC = 60`The firm earns **normal profit** only.
+Since `P = ATC = 60`. The firm earns **normal profit** only.
 
 Now suppose the market price rises to `P = 80`:
 
-Set `P = MC`: `80 = 20 + 4Q`So `Q = 15`.
+Set `P = MC`: `80 = 20 + 4Q`. So `Q = 15`.
 
 `ATC = 200/15 + 20 + 2(15) = 13.33 + 20 + 30 = 63.33`.
 
-Since `P = 80 \gt ATC = 63.33`The firm earns **supernormal profit**.
+Since `P = 80 \gt ATC = 63.33`. The firm earns **supernormal profit**.
 
 Supernormal profit per unit = `80 - 63.33 = 16.67`
 
@@ -61519,7 +61519,7 @@ Cost (including implicit costs), so economic profit is zero but accounting profi
 | `ATC \gt P \gt AVC` | Firm makes a loss but continues producing in the short run |
 | `P \lt AVC`         | Firm shuts down (shutdown point)                           |
 
-The firm continues to produce at a loss in the short run as long as `P \gt AVC`Because producing
+The firm continues to produce at a loss in the short run as long as `P \gt AVC`. Because producing
 Covers all variable costs and contributes some revenue toward fixed costs. If the firm shut down, it
 would still have to pay fixed costs but earn zero revenue. Producing is less bad than shutting down.
 
@@ -61536,23 +61536,23 @@ Fixed cost.
 
 A perfectly competitive firm has `TC = 500 + 30Q + Q^2`.
 
-`TVC = 30Q + Q^2``TFC = 500`.
+`TVC = 30Q + Q^2`, `TFC = 500`.
 
-`AVC = 30 + Q``MC = 30 + 2Q`.
+`AVC = 30 + Q`, `MC = 30 + 2Q`.
 
 Minimum `AVC` occurs as `Q` approaches 0: `min AVC = 30`.
 
 Shutdown price = 30.
 
-At `P = 25`: Since `P = 25 \lt AVC_{\min} = 30`The firm **shuts down**. Loss = TFC = 500.
+At `P = 25`: Since `P = 25 \lt AVC_{\min} = 30`. The firm **shuts down**. Loss = TFC = 500.
 
-At `P = 40`: Set `P = MC`: `40 = 30 + 2Q``Q = 5`.
+At `P = 40`: Set `P = MC`: `40 = 30 + 2Q`, `Q = 5`.
 
 `ATC = 500/5 + 30 + 5 = 100 + 35 = 135`.
 
 Loss = `5 \times (40 - 135) = 5 \times (-95) = -475`.
 
-If the firm shuts down instead, loss = TFC = 500. Since `-475 \gt -500`The firm should **continue
+If the firm shuts down instead, loss = TFC = 500. Since `-475 \gt -500`. The firm should **continue
 Producing** -- losing 475 is better than losing 500.
 
 The firm covers `AVC = 30 + 5 = 35` per unit and contributes `40 - 35 = 5` per unit toward fixed
@@ -61604,7 +61604,7 @@ At long-run equilibrium:
               Q*
 ```
 
-The firm produces `Q*` where `P = MC`. At `Q*``ATC` is at its minimum, so `P = ATC` and economic
+The firm produces `Q*` where `P = MC`. At `Q*`, `ATC` is at its minimum, so `P = ATC` and economic
 Profit is zero.
 
 ### Industry Supply Curve in the Short Run
@@ -61713,7 +61713,7 @@ Quantity where `AR` intersects it.
 
 ### Profit Maximisation
 
-The monopolist produces where `MR = MC`Then charges the price read off the `AR` (demand) curve at
+The monopolist produces where `MR = MC`. Then charges the price read off the `AR` (demand) curve at
 that quantity.
 
 $$
@@ -61739,7 +61739,7 @@ A monopolist faces demand `P = 120 - Q` and has `TC = 100 + 10Q + 2Q^2`.
 
 `TR = 120Q - Q^2`. `MR = 120 - 2Q`. `MC = 10 + 4Q`.
 
-Set `MR = MC`: `120 - 2Q = 10 + 4Q`So `6Q = 110``Q_m = 18.33`.
+Set `MR = MC`: `120 - 2Q = 10 + 4Q`. So `6Q = 110`, `Q_m = 18.33`.
 
 `P_m = 120 - 18.33 = 101.67`.
 
@@ -61785,11 +61785,11 @@ It is a pure loss to society.
        Qm       Qc
 ```
 
-- `Pm`: Monopoly price (where `MR = MC`Then read up to `AR`)
+- `Pm`: Monopoly price (where `MR = MC`. Then read up to `AR`)
 - `Qm`: Monopoly quantity (where `MR = MC`)
 - `Pc`: Competitive price (where `Demand = MC`)
 - `Qc`: Competitive quantity
-- DWL is the triangle with vertices at `(Qm, Pm)``(Qc, Pc)`And `(Qm, MC(Qm))`
+- DWL is the triangle with vertices at `(Qm, Pm)`, `(Qc, Pc)` and `(Qm, MC(Qm))`
 
 ### Comparison: Monopoly vs Perfect Competition
 
@@ -61997,19 +61997,19 @@ A monopolistically competitive firm has demand `P = 60 - Q` and `TC = 50 + 10Q +
 
 `MR = 60 - 2Q`. `MC = 10 + Q`.
 
-Set `MR = MC`: `60 - 2Q = 10 + Q``3Q = 50``Q^* = 16.67`.
+Set `MR = MC`: `60 - 2Q = 10 + Q`, `3Q = 50`, `Q^* = 16.67`.
 
 `P = 60 - 16.67 = 43.33`.
 
 `ATC = 50/16.67 + 10 + 0.5(16.67) = 3.0 + 10 + 8.33 = 21.33`.
 
-Since `P = 43.33 \gt ATC = 21.33`The firm earns supernormal profit in the short run.
+Since `P = 43.33 \gt ATC = 21.33`. The firm earns supernormal profit in the short run.
 
-To find `ATC_{\min}`: `MC = ATC` means `10 + Q = 50/Q + 10 + 0.5Q`So `0.5Q = 50/Q``Q^2 = 100`
+To find `ATC_{\min}`: `MC = ATC` means `10 + Q = 50/Q + 10 + 0.5Q`. So `0.5Q = 50/Q`, `Q^2 = 100`
 `Q_{ATC_{\min}} = 10`.
 
 Excess capacity = `10 - 16.67` -- wait, `16.67 \gt 10` here, which suggests the firm produces beyond
-the minimum ATC. This is because at `Q = 16.67`The firm has supernormal profit. In the long run,
+the minimum ATC. This is because at `Q = 16.67`. The firm has supernormal profit. In the long run,
 entry Would shift demand left until `P = ATC` at a `Q` less than 10, creating excess capacity.
 
 </details>
@@ -62187,7 +62187,7 @@ Changes price first, and other firms follow. The leading firm is not necessarily
 
 ### Productive Efficiency
 
-Productive efficiency requires production at the minimum point of `ATC`Where `MC = ATC`.
+Productive efficiency requires production at the minimum point of `ATC`. Where `MC = ATC`.
 
 | Structure                | Productive Efficiency                        | Reason                                                     |
 | ------------------------ | -------------------------------------------- | ---------------------------------------------------------- |
@@ -62198,7 +62198,7 @@ Productive efficiency requires production at the minimum point of `ATC`Where `MC
 
 ### Allocative Efficiency
 
-Allocative efficiency requires `P = MC`Meaning the price consumers pay reflects the marginal cost Of
+Allocative efficiency requires `P = MC`. Meaning the price consumers pay reflects the marginal cost Of
 production.
 
 | Structure                | Allocative Efficiency | Reason                                                  |
@@ -62301,7 +62301,7 @@ with one firm but perfectly contestable conditions.
 ## Common Pitfalls
 
 1. **Stating that a monopolist charges the highest possible price:** A monopolist maximises profit
-   where `MR = MC`Not at the highest price the demand curve allows. Charging the highest price would
+   where `MR = MC`. Not at the highest price the demand curve allows. Charging the highest price would
    result in near-zero sales and negligible revenue.
 
 2. **Confusing normal profit with zero accounting profit:** Normal profit is zero economic profit.
@@ -62319,7 +62319,7 @@ with one firm but perfectly contestable conditions.
    down if `P \lt AVC` (it stops producing but still pays fixed costs). In the long run, a firm
    exits if `P \lt ATC` (it cannot cover all costs and leaves the industry permanently).
 
-5. **Misidentifying the shutdown point:** The shutdown point is where `P = minimum AVC`NOT where
+5. **Misidentifying the shutdown point:** The shutdown point is where `P = minimum AVC`. NOT where
    `P = minimum ATC`. A firm continues to produce at a loss as long as `P \gt AVC` because it covers
    variable costs and contributes to fixed costs.
 
@@ -62376,7 +62376,7 @@ A perfectly competitive firm has the following cost data:
 
 The market price is USD 40 per unit.
 
-(a) Calculate `MC``ATC``AVC`And `AFC` at each output level. (b) What is the profit- maximising
+(a) Calculate `MC`, `ATC`, `AVC` and `AFC` at each output level. (b) What is the profit- maximising
 Output? (c) Calculate the profit at that output. (d) Will the firm produce or shut down in the short
 Run? Explain. (e) If the market price falls to USD 25, what will the firm do?
 
@@ -62386,21 +62386,21 @@ Run? Explain. (e) If the market price falls to USD 25, what will the firm do?
 | 260 | 50 | 43.3 | 35.0 | 8.3 | | 7 | 320 | 60 | 45.7 | 38.6 | 7.1 |
 
 (b) The firm produces where `P = MC`. At `P = 40`: `MC = 40` at `Q = 1` and `Q = 5`. To determine
-which, check: at `Q = 1``MR = 40 \gt MC = 40` is borderline (producing the first unit is Profitable
-since `P \gt AVC`). At `Q = 5``MR = 40 = MC`. For `Q = 6``MC = 50 \gt MR = 40`So The firm should NOT
+which, check: at `Q = 1`, `MR = 40 \gt MC = 40` is borderline (producing the first unit is Profitable
+since `P \gt AVC`). At `Q = 5`, `MR = 40 = MC`. For `Q = 6`, `MC = 50 \gt MR = 40`. So The firm should NOT
 produce the 6th unit. The profit-maximising output is `Q = 5`.
 
 (c) At `Q = 5`: `TR = 5 \times 40 = 200`. `TC = 210`. Profit = `200 - 210 = -10`. The firm makes a
 Loss of USD 10.
 
-(d) The firm will continue to produce. At `Q = 5``P = 40 \gt AVC = 32`. The firm covers all Variable
+(d) The firm will continue to produce. At `Q = 5`, `P = 40 \gt AVC = 32`. The firm covers all Variable
 costs (USD 160) and contributes USD 40 toward fixed costs (USD 50). If it shut down, it Would lose
 the entire fixed cost of USD 50. By producing, it loses only USD 10.
 
 (e) At `P = 25`: Check where `P = MC`. `MC = 25` falls between `Q = 2` (`MC = 30`) and `Q = 3`
-(`MC = 20`). At `Q = 2``MC = 30 \gt P = 25`So the firm should not produce the 2nd unit. At
-`Q = 1``MC = 40 \gt P = 25`So the firm should not produce the 1st unit. But check shutdown: `AVC` at
-`Q = 1` is 40. Since `P = 25 \lt AVC = 40`The firm should shut down. Loss = TFC = USD 50.
+(`MC = 20`). At `Q = 2`, `MC = 30 \gt P = 25`. So the firm should not produce the 2nd unit. At
+`Q = 1`, `MC = 40 \gt P = 25`. So the firm should not produce the 1st unit. But check shutdown: `AVC` at
+`Q = 1` is 40. Since `P = 25 \lt AVC = 40`. The firm should shut down. Loss = TFC = USD 50.
 
 </details>
 
@@ -62434,13 +62434,13 @@ Set `MR = MC`: `100 - 4Q = 20 + 2Q`
 
 Profit = `977.3 - 494.3 = 483.0`
 
-(c) Under perfect competition, `P = MC`: `100 - 2Q = 20 + 2Q`So `80 = 4Q``Q = 20``P = 60`.
+(c) Under perfect competition, `P = MC`: `100 - 2Q = 20 + 2Q`. So `80 = 4Q`, `Q = 20`, `P = 60`.
 
 `MC` at `Q = 13.33` = `20 + 2(13.33) = 46.67`
 
 `DWL = 0.5 \times (73.33 - 46.67) \times (20 - 13.33) = 0.5 \times 26.67 \times 6.67 = 88.9`
 
-(d) As calculated above: `Q_c = 20``P_c = 60`.
+(d) As calculated above: `Q_c = 20`, `P_c = 60`.
 
 </details>
 
@@ -62461,15 +62461,15 @@ Total profit. (c) Compare total output and profit under both scenarios.
 
 (a) Without price discrimination, aggregate demand: `Q = Q_A + Q_S`
 
-From `P_A = 30 - 0.5Q_A`So `Q_A = 60 - 2P` (for `P \le 30`)
+From `P_A = 30 - 0.5Q_A`. So `Q_A = 60 - 2P` (for `P \le 30`)
 
-From `P_S = 20 - 0.5Q_S`So `Q_S = 40 - 2P` (for `P \le 20`)
+From `P_S = 20 - 0.5Q_S`. So `Q_S = 40 - 2P` (for `P \le 20`)
 
-For `P \le 20`: `Q = (60 - 2P) + (40 - 2P) = 100 - 4P`So `P = 25 - 0.25Q`
+For `P \le 20`: `Q = (60 - 2P) + (40 - 2P) = 100 - 4P`. So `P = 25 - 0.25Q`
 
-For `20 \lt P \le 30`: `Q = 60 - 2P`So `P = 30 - 0.5Q`
+For `20 \lt P \le 30`: `Q = 60 - 2P`. So `P = 30 - 0.5Q`
 
-At `P = 20``Q = 100 - 80 = 20` (from combined demand) or `Q = 60 - 40 = 20` (adults only).
+At `P = 20`, `Q = 100 - 80 = 20` (from combined demand) or `Q = 60 - 40 = 20` (adults only).
 
 Since `P = 25 - 0.25Q` applies for `P \le 20`I.e., `Q \ge 20`:
 
@@ -62477,13 +62477,13 @@ Since `P = 25 - 0.25Q` applies for `P \le 20`I.e., `Q \ge 20`:
 
 `MR = 25 - 0.5Q`
 
-Set `MR = MC = 4`: `25 - 0.5Q = 4``0.5Q = 21``Q = 42`
+Set `MR = MC = 4`: `25 - 0.5Q = 4`, `0.5Q = 21`, `Q = 42`
 
 `P = 25 - 0.25(42) = 25 - 10.5 = 14.5`
 
-Since `P = 14.5 \le 20`The combined demand is correct.
+Since `P = 14.5 \le 20`. The combined demand is correct.
 
-`Q_A = 60 - 2(14.5) = 31``Q_S = 40 - 2(14.5) = 11`
+`Q_A = 60 - 2(14.5) = 31`, `Q_S = 40 - 2(14.5) = 11`
 
 `TR = 14.5 \times 42 = 609`
 
@@ -62493,9 +62493,9 @@ Profit = `609 - 168 = 441`
 
 (b) With third-degree price discrimination:
 
-Adults: `MR_A = 30 - Q_A`. Set `MR_A = MC = 4`: `30 - Q_A = 4``Q_A = 26`. `P_A = 30 - 0.5(26) = 17`.
+Adults: `MR_A = 30 - Q_A`. Set `MR_A = MC = 4`: `30 - Q_A = 4`, `Q_A = 26`. `P_A = 30 - 0.5(26) = 17`.
 
-Students: `MR_S = 20 - Q_S`. Set `MR_S = MC = 4`: `20 - Q_S = 4``Q_S = 16`.
+Students: `MR_S = 20 - Q_S`. Set `MR_S = MC = 4`: `20 - Q_S = 4`, `Q_S = 16`.
 `P_S = 20 - 0.5(16) = 12`.
 
 Total `Q = 26 + 16 = 42`
@@ -62524,7 +62524,7 @@ What is the firm's output, price, and excess capacity?
 
 (a) `TR = 80Q - 2Q^2`. `MR = 80 - 4Q`. `MC = 10 + 2Q`.
 
-Set `MR = MC`: `80 - 4Q = 10 + 2Q``70 = 6Q``Q = 11.67`.
+Set `MR = MC`: `80 - 4Q = 10 + 2Q`, `70 = 6Q`, `Q = 11.67`.
 
 `P = 80 - 2(11.67) = 56.67`.
 
@@ -62536,7 +62536,7 @@ Profit = `661.3 - 352.8 = 308.5`. Supernormal profit.
 
 New demand: `P = a - 2Q`. `TR = aQ - 2Q^2`. `MR = a - 4Q`. `MC = 10 + 2Q`.
 
-Set `MR = MC`: `a - 4Q = 10 + 2Q`So `Q = (a - 10) / 6`.
+Set `MR = MC`: `a - 4Q = 10 + 2Q`. So `Q = (a - 10) / 6`.
 
 At this `Q`: `P = a - 2 \times (a - 10) / 6 = a - (a - 10) / 3 = (3a - a + 10) / 3 = (2a + 10) / 3`.
 
@@ -62559,7 +62559,7 @@ So `a \approx 49.1`.
 
 (c) At `a \approx 49.1`: `Q = (49.1 - 10) / 6 = 6.52`.
 
-`ATC_min` occurs where `MC = ATC`: `10 + 2Q = 100/Q + 10 + Q`So `Q = 100/Q``Q^2 = 100` `Q = 10`.
+`ATC_min` occurs where `MC = ATC`: `10 + 2Q = 100/Q + 10 + Q`. So `Q = 100/Q`, `Q^2 = 100` `Q = 10`.
 
 Excess capacity = `10 - 6.52 = 3.48` units.
 
@@ -62578,17 +62578,17 @@ Regulates the firm to earn zero economic profit (`P = ATC`), find the output and
 
 (a) `MR = 50 - 4Q`. `MC = 10`.
 
-Set `MR = MC`: `50 - 4Q = 10``Q = 10`. `P = 50 - 2(10) = 30`.
+Set `MR = MC`: `50 - 4Q = 10`, `Q = 10`. `P = 50 - 2(10) = 30`.
 
 `TR = 300`. `TC = 200 + 100 = 300`. Profit = 0. (In this case, the monopolist earns normal profit at
 the profit-maximising output.)
 
-(b) At allocative efficiency: `P = MC`: `50 - 2Q = 10``Q = 20``P = 10`.
+(b) At allocative efficiency: `P = MC`: `50 - 2Q = 10`, `Q = 20`, `P = 10`.
 
 `MC` at `Q = 10` is `10`.
 `DWL = 0.5 \times (30 - 10) \times (20 - 10) = 0.5 \times 20 \times 10 = 100`.
 
-(c) Allocative efficiency: `Q = 20``P = 10`.
+(c) Allocative efficiency: `Q = 20`, `P = 10`.
 
 `TR = 200`. `TC = 200 + 200 = 400`. Loss = `200 - 400 = -200`.
 
@@ -62658,32 +62658,32 @@ Structures.
 
 `MC = 10 + Q`. `ATC = 100/Q + 10 + 0.5Q`.
 
-`ATC_min`: `d(ATC)/dQ = -100/Q^2 + 0.5 = 0`So `Q^2 = 200``Q = 14.14`.
+`ATC_min`: `d(ATC)/dQ = -100/Q^2 + 0.5 = 0`. So `Q^2 = 200`, `Q = 14.14`.
 
 `ATC_min = 100/14.14 + 10 + 0.5(14.14) = 7.07 + 10 + 7.07 = 24.14`.
 
 `MC` at `Q = 14.14` = `10 + 14.14 = 24.14`. So `P = 24.14`.
 
-Market demand at `P = 24.14`: `24.14 = 120 - Q``Q = 95.86`.
+Market demand at `P = 24.14`: `24.14 = 120 - Q`, `Q = 95.86`.
 
 Number of firms = `95.86 / 14.14 = 6.78` (approximately 7 firms).
 
 (b) Monopoly: `MR = 120 - 2Q`. `MC = 10 + Q`.
 
-Set `MR = MC`: `120 - 2Q = 10 + Q``Q = 36.67`. `P = 120 - 36.67 = 83.33`.
+Set `MR = MC`: `120 - 2Q = 10 + Q`, `Q = 36.67`. `P = 120 - 36.67 = 83.33`.
 
 `TR = 83.33 \times 36.67 = 3055.4`.
 `TC = 100 + 10(36.67) + 0.5(36.67)^2 = 100 + 366.7 + 672.2 = 1138.9`.
 
 Profit = `3055.4 - 1138.9 = 1916.5`.
 
-(c) Competitive output: `P = MC`: `120 - Q = 10 + Q``Q = 55``P = 65`.
+(c) Competitive output: `P = MC`: `120 - Q = 10 + Q`, `Q = 55`, `P = 65`.
 
 Wait, let me recalculate. Under perfect competition with many firms, the industry supply curve is
 the horizontal sum of individual `MC` curves. For `n` firms, each with `MC = 10 + q_i`:
-`P = 10 + q_i`So `q_i = P - 10`. Total supply: `Q = n(P - 10)`.
+`P = 10 + q_i`. So `q_i = P - 10`. Total supply: `Q = n(P - 10)`.
 
-Market equilibrium: `120 - Q = P` and `Q = n(P - 10)`So `120 - n(P - 10) = P`.
+Market equilibrium: `120 - Q = P` and `Q = n(P - 10)`. So `120 - n(P - 10) = P`.
 
 In the long run, `P = ATC_min = 24.14` as calculated above.
 
@@ -62707,7 +62707,7 @@ A large portion of consumer surplus as producer surplus (supernormal profit).
 
 A perfectly competitive firm has `TVC = 5Q^2` and `TFC = 200`.
 
-(a) Derive the `AVC``MC`And `ATC` functions. (b) At what price does the firm shut down? (c) Derive
+(a) Derive the `AVC`, `MC` and `ATC` functions. (b) At what price does the firm shut down? (c) Derive
 the firm's short-run supply function. (d) If the market price is USD 30, how much does the Firm
 produce?
 
@@ -62715,13 +62715,13 @@ produce?
 
 (b) Shutdown occurs at `P = min AVC`. `AVC = 5Q` is minimised as `Q` approaches 0. The minimum `AVC`
 Is 0 (at `Q = 0`). However, this is a special case because `AVC` starts at 0 and increases linearly.
-The shutdown price is technically `P = 0`Meaning the firm will produce at any positive price. In
+The shutdown price is technically `P = 0`. Meaning the firm will produce at any positive price. In
 Practice, the firm will produce as long as `P \gt 0`.
 
 A more realistic interpretation: the firm produces at any price above `P = 0` because `AVC` is
 Increasing from 0. The supply function is valid for all positive prices.
 
-(c) The firm produces where `P = MC` (as long as `P \ge AVC`): `P = 10Q`So `Q = P/10`.
+(c) The firm produces where `P = MC` (as long as `P \ge AVC`): `P = 10Q`. So `Q = P/10`.
 
 For `P \gt 0`: `Q = P/10`.
 
@@ -62781,7 +62781,7 @@ Exit? What will the long-run equilibrium price be?
 <details>
 <summary>Solution</summary>
 
-(a) `MC = 5 + 2Q`. Set `P = MC`: `30 = 5 + 2Q``Q = 12.5`.
+(a) `MC = 5 + 2Q`. Set `P = MC`: `30 = 5 + 2Q`, `Q = 12.5`.
 
 `ATC = 100/12.5 + 5 + 12.5 = 8 + 5 + 12.5 = 25.5`.
 
@@ -62792,7 +62792,7 @@ The firm earns supernormal profit.
 (b) Supernormal profit attracts entry. New firms enter, increasing industry supply, which drives the
 Price down. Entry continues until `P = ATC_{\min}`.
 
-`ATC_{\min}`: `MC = ATC` means `5 + 2Q = 100/Q + 5 + Q`So `Q = 100/Q``Q^2 = 100``Q = 10`.
+`ATC_{\min}`: `MC = ATC` means `5 + 2Q = 100/Q + 5 + Q`. So `Q = 100/Q`, `Q^2 = 100`, `Q = 10`.
 
 `ATC_{\min} = 100/10 + 5 + 10 = 25`.
 
@@ -62814,9 +62814,9 @@ A monopolist faces demand `P = 80 - 0.5Q` and has `TC = 40 + 10Q`.
 
 (a) `TR = 80Q - 0.5Q^2`. `MR = 80 - Q`. `MC = 10`.
 
-Set `MR = MC`: `80 - Q = 10``Q_m = 70`. `P_m = 80 - 35 = 45`.
+Set `MR = MC`: `80 - Q = 10`, `Q_m = 70`. `P_m = 80 - 35 = 45`.
 
-(b) Competitive: `P = MC`: `80 - 0.5Q = 10``0.5Q = 70``Q_c = 140`. `P_c = 10`.
+(b) Competitive: `P = MC`: `80 - 0.5Q = 10`, `0.5Q = 70`, `Q_c = 140`. `P_c = 10`.
 
 (c) `MC` at `Q_m = 70` is 10.
 
@@ -62838,11 +62838,11 @@ Demand?
 <details>
 <summary>Solution</summary>
 
-(a) Without discrimination, we need aggregate demand. `Q_A = 50 - P``Q_S = 30 - P`.
+(a) Without discrimination, we need aggregate demand. `Q_A = 50 - P`, `Q_S = 30 - P`.
 
-For `P \le 30`: `Q = 80 - 2P`So `P = 40 - 0.5Q``MR = 40 - Q`.
+For `P \le 30`: `Q = 80 - 2P`. So `P = 40 - 0.5Q`, `MR = 40 - Q`.
 
-Set `MR = MC`: `40 - Q = 5``Q = 35`. `P = 40 - 17.5 = 22.5`.
+Set `MR = MC`: `40 - Q = 5`, `Q = 35`. `P = 40 - 17.5 = 22.5`.
 
 `TR = 22.5 \times 35 = 787.5`. `TC = 5 \times 35 = 175`. Profit = 612.5.
 
@@ -62902,18 +62902,18 @@ increases From 20 to 30, will the firm change its price? Explain.
 <details>
 <summary>Solution</summary>
 
-(a) Above the kink: at `P = 50``50 = 60 - 0.5Q``Q = 20`. Below the kink: at `P = 50`
-`50 = 70 - Q``Q = 20`. Both segments meet at `(Q, P) = (20, 50)`. The kink is at `Q^* = 20`.
+(a) Above the kink: at `P = 50`, `50 = 60 - 0.5Q`, `Q = 20`. Below the kink: at `P = 50`
+`50 = 70 - Q`, `Q = 20`. Both segments meet at `(Q, P) = (20, 50)`. The kink is at `Q^* = 20`.
 
-(b) Above the kink: `P = 60 - 0.5Q``TR = 60Q - 0.5Q^2``MR = 60 - Q`. At `Q = 20`: `MR = 40`.
+(b) Above the kink: `P = 60 - 0.5Q`, `TR = 60Q - 0.5Q^2`, `MR = 60 - Q`. At `Q = 20`: `MR = 40`.
 
-Below the kink: `P = 70 - Q``TR = 70Q - Q^2``MR = 70 - 2Q`. At `Q = 20`: `MR = 30`.
+Below the kink: `P = 70 - Q`, `TR = 70Q - Q^2`, `MR = 70 - 2Q`. At `Q = 20`: `MR = 30`.
 
 The `MR` gap is from 30 to 40 at `Q = 20`.
 
 (c) As long as `MC` stays between 30 and 40, the profit-maximising output and price do not change.
 Since `MC = 20` is below the gap and `MC = 30` is at the bottom of the gap, the firm continues to
-produce at `Q = 20``P = 50`. This illustrates **price rigidity** under the kinked demand curve
+produce at `Q = 20`, `P = 50`. This illustrates **price rigidity** under the kinked demand curve
 model.
 
 </details>
@@ -62930,11 +62930,11 @@ Find output, price, and profit/loss. (c) If the government forces `P = ATC`Find 
 <details>
 <summary>Solution</summary>
 
-(a) `MR = 45 - Q`. `MC = 5`. Set `MR = MC`: `45 - Q = 5``Q = 40`. `P = 45 - 20 = 25`.
+(a) `MR = 45 - Q`. `MC = 5`. Set `MR = MC`: `45 - Q = 5`, `Q = 40`. `P = 45 - 20 = 25`.
 
 `TR = 25 \times 40 = 1000`. `TC = 300 + 200 = 500`. Profit = 500.
 
-(b) Allocative efficiency: `P = MC`: `45 - 0.5Q = 5``Q = 80`. `P = 5`.
+(b) Allocative efficiency: `P = MC`: `45 - 0.5Q = 5`, `Q = 80`. `P = 5`.
 
 `TR = 400`. `TC = 300 + 400 = 700`. Loss = -300. The government must subsidise the firm.
 
@@ -62963,7 +62963,7 @@ Scenarios.
 <details>
 <summary>Solution</summary>
 
-(a) Unregulated: `MR = 20 - 2Q`. `MC = 2`. Set `MR = MC`: `20 - 2Q = 2``Q = 9`. `P = 11`.
+(a) Unregulated: `MR = 20 - 2Q`. `MC = 2`. Set `MR = MC`: `20 - 2Q = 2`, `Q = 9`. `P = 11`.
 
 (b) If the market is perfectly contestable, the threat of entry forces the firm to charge `P = ATC`
 (normal profit) to avoid attracting entrants. `ATC = 200/Q + 2`.
@@ -62974,7 +62974,7 @@ No real solution exists. The firm can always undercut any potential entrant beca
 lower (due to economies of scale). However, contestable market theory predicts the firm will charge
 the Lowest price consistent with zero economic profit for a potential entrant. The potential
 entrant's cost Is also `TC = 200 + 2Q` (same technology, no sunk costs), so the threat of entry
-forces `P` down Towards `MC = 2`The competitive price. At `P = 2``Q = 18`.
+forces `P` down Towards `MC = 2`. The competitive price. At `P = 2`, `Q = 18`.
 
 (c) Unregulated monopoly: `Q = 9`. Contestable market: `Q = 18`. Contestability doubles output and
 Halves the price, approaching the competitive outcome despite there being only one firm.
@@ -64660,7 +64660,7 @@ of the Loan?
 
 (a) Approximate: `r = 4\% - 6\% = -2\%`.
 
-Exact: `(1 + r) = 1.04/1.06 = 0.9811`So `r = -1.89\%`.
+Exact: `(1 + r) = 1.04/1.06 = 0.9811`. So `r = -1.89\%`.
 
 (b) **Borrowers benefit.** They repay loans in money that is worth less than when they borrowed. The
 Real value of their debt falls.
@@ -72524,7 +72524,7 @@ Each decimal digit (0--9) is represented by its 4-bit binary equivalent.
 
 :::caution
 Exam Tip BCD is different from pure binary. The decimal number 15 in pure binary is
-`1111`But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
+`1111`. But in BCD it is `0001 0101` (each decimal digit encoded separately). BCD wastes some bit
 Patterns (1010--1111 are invalid) but is useful for displays and financial calculations where each
 Decimal digit must be preserved exactly.
 :::
@@ -74552,7 +74552,7 @@ Animations.
 | Interactivity | Yes (supports CSS and JavaScript)        |
 | Best for      | Logos, icons, diagrams, charts           |
 
-SVG describes images using XML elements: `<circle>``<rect>``<path>``<polygon>`Etc. Each Element has
+SVG describes images using XML elements: `<circle>`, `<rect>`, `<path>`, `<polygon>`. Etc. Each Element has
 attributes for position, size, colour, and style.
 
 #### BMP (Bitmap)
@@ -74967,7 +74967,7 @@ Even.
 | 0000000 | 0            | 0          | 00000000    |
 | 1111111 | 7            | 1          | 11111111    |
 
-**Error detection:** If the received byte `10110010` is received as `10110110`The number of 1s is 5
+**Error detection:** If the received byte `10110010` is received as `10110110`. The number of 1s is 5
 (odd), which violates even parity. An error is detected.
 
 **Limitation:** Parity can detect an odd number of bit errors but cannot detect an even number of
@@ -74985,7 +74985,7 @@ Intersection of the row and column where parity fails.
 <details>
 <summary>Worked Example: Two-Dimensional Parity</summary>
 
-Data: `1011``0110``1100``0011`
+Data: `1011`, `0110`, `1100`, `0011`
 
 Arrange in grid with row and column parity:
 
@@ -75031,11 +75031,11 @@ Checks if the total matches.
 <details>
 <summary>Worked Example: Simple Checksum</summary>
 
-Data: `200``150``75``180``45`
+Data: `200`, `150`, `75`, `180`, `45`
 
 Checksum = $(200 + 150 + 75 + 180 + 45) \mod 256 = 650 \mod 256 = 138$
 
-Transmitted: `200``150``75``180``45``138`
+Transmitted: `200`, `150`, `75`, `180`, `45`, `138`
 
 Receiver computes: $(200 + 150 + 75 + 180 + 45 + 138) \mod 256 = 788 \mod 256 = 20$
 
@@ -75259,7 +75259,7 @@ Answer:
 
 (a) U+005A = $01011010_2$. This is in range U+0000 -- U+007F (1 byte). UTF-8: `01011010` = `5A` hex.
 
-(b) First byte `C3` = $11000011$. This starts with `110`So it is a 2-byte sequence.
+(b) First byte `C3` = $11000011$. This starts with `110`. So it is a 2-byte sequence.
 
 Second byte `A9` = $10101001$. This starts with `10`Confirming it is a continuation byte.
 
@@ -75270,8 +75270,8 @@ Code point: $00011\ 101001 = 000011101001_2 = 0x0E9 = 233_{10} = U+00E9$
 
 U+00E9 is the character 'e' with acute accent: e-acute.
 
-(c) UTF-8 is self-synchronising because: (1) the leading byte's pattern (`0``110``1110` `11110`)
-determines the character length; (2) continuation bytes always start with `10`So a reader Can
+(c) UTF-8 is self-synchronising because: (1) the leading byte's pattern (`0`, `110`, `1110` `11110`)
+determines the character length; (2) continuation bytes always start with `10`. So a reader Can
 identify the start of any character by scanning forward. This means if a byte is corrupted or Lost,
 the decoder can resynchronise at the next valid character boundary, rather than corrupting all
 Subsequent text.
@@ -76679,7 +76679,7 @@ to the new position. Copying `=A1` from B2 to C2 changes it to `=B1`.
 
 **Absolute reference** (e.g., `$A$1`): The reference does not change when copied. Used when
 referring to a fixed cell like a tax rate or conversion factor. Example: `=B2*$D$1` copies correctly
-as `=B3*$D$1``=B4*$D$1`Always multiplying by the value in D1.
+as `=B3*$D$1`, `=B4*$D$1`. Always multiplying by the value in D1.
 
 ### UT-2: Spreadsheet Data Analysis
 
@@ -76797,7 +76797,7 @@ merge to generate individualised report cards.
 (c) Overall $= 85 \times 0.6 + 72 \times 0.3 + 90 \times 0.1 = 51 + 21.6 + 9 = 81.6$.
 
 (d) **Mail merge:** The word processor template contains merge fields (e.g.,
-`<<StudentName>>``<<MathsGrade>>``<<OverallGrade>>`). The data source (spreadsheet or database
+`<<StudentName>>`, `<<MathsGrade>>`, `<<OverallGrade>>`). The data source (spreadsheet or database
 export) contains one row per student with columns matching the merge fields. During the merge, the
 word processor replaces each merge field with the corresponding value from the current data row,
 producing one document per student. This automates what would otherwise be a tedious manual process
@@ -76948,7 +76948,7 @@ END FUNCTION
 Time complexity: $O(n)$. For 1024 elements, worst case is 1024 comparisons. Binary search is
 exponentially faster for sorted data.
 
-(d) Binary search relies on the property that if `array[mid] < target`The target must be in the
+(d) Binary search relies on the property that if `array[mid] < target`. The target must be in the
 right half (since the array is sorted). In an unsorted array, the target could be anywhere
 regardless of the mid-value comparison, so the divide-and-conquer strategy does not work.
 
@@ -77329,10 +77329,10 @@ areas from inside out: **content** (text, images), **padding** (space between co
 elements. Increasing padding makes the element larger; increasing margin pushes other elements away.
 
 (d) **Block-level elements** occupy the full width available and start on a new line. Examples:
-`<p>``<div>``<h1>`--`<h6>``<ul>``<section>`.
+`<p>`, `<div>`, `<h1>`--`<h6>`, `<ul>`, `<section>`.
 
 **Inline elements** only occupy as much width as necessary and do not start a new line. Examples:
-`<span>``<a>``<strong>``<em>``<img>`.
+`<span>`, `<a>`, `<strong>`, `<em>`, `<img>`.
 
 ### UT-2: Multimedia File Formats
 
@@ -78429,7 +78429,7 @@ Fundamental principle of web development.
 Special addresses:
 
 - `127.0.0.1` -- loopback (localhost)
-- `10.0.0.0/8``172.16.0.0/12``192.168.0.0/16` -- private address ranges (not routable on the
+- `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16` -- private address ranges (not routable on the
   internet)
 - `255.255.255.255` -- broadcast address
 
@@ -78937,7 +78937,7 @@ Answer:
 3. The resolver checks its own cache. If not found: (a) The resolver queries a **root name server**,
    which returns the IP address of the **.hk TLD server**. (b) The resolver queries the **.hk TLD
    server**, which returns the IP address of the **authoritative name server** for `hkeaa.edu.hk`.
-   (c) The resolver queries the **authoritative name server** for `hkeaa.edu.hk`Which returns the IP
+   (c) The resolver queries the **authoritative name server** for `hkeaa.edu.hk`. Which returns the IP
    address of `www.hkeaa.edu.hk`.
 4. The resolver returns the IP address to the browser.
 5. The browser caches the result and establishes a TCP connection to the web server at that IP
@@ -80282,7 +80282,7 @@ VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
 A product catalogue in `E1:H20` with columns: ProductCode (E), ProductName (F), Category (G), Price
 (H).
 
-In cell `A1`The user enters a product code. In `B1`Display the product name. In `C1`Display the
+In cell `A1`. The user enters a product code. In `B1`Display the product name. In `C1`Display the
 Price.
 
 ```python
@@ -80290,7 +80290,7 @@ B1: =VLOOKUP(A1, $E$1:$H$20, 2, FALSE)
 C1: =VLOOKUP(A1, $E$1:$H$20, 4, FALSE)
 ```
 
-If `A1` contains `P105`The formula searches column E for `P105`Finds it, and returns the value From
+If `A1` contains `P105`. The formula searches column E for `P105`Finds it, and returns the value From
 column 2 (F) for the product name and column 4 (H) for the price.
 
 If the product code is not found, both formulas return `#N/A`.
@@ -81435,7 +81435,7 @@ SQL are covered in depth in
 ## Spreadsheet Concepts
 
 A spreadsheet organises data into a grid of cells, identified by column letters and row numbers
-(e.g., `A1``B5``D12`). Each cell can contain a constant value (number, text, date) or a formula That
+(e.g., `A1`, `B5`, `D12`). Each cell can contain a constant value (number, text, date) or a formula That
 calculates a result.
 
 ### Cell References
@@ -81449,7 +81449,7 @@ calculates a result.
 <details>
 <summary>Worked Example: Relative, Absolute, and Mixed References</summary>
 
-In cell `C2`Enter `=A2*B2`. Copy this formula to `C3``C4``C5`.
+In cell `C2`Enter `=A2*B2`. Copy this formula to `C3`, `C4`, `C5`.
 
 Because the references are relative, they adjust:
 
@@ -81462,7 +81462,7 @@ Because the references are relative, they adjust:
 This is correct for calculating row-by-row products.
 
 Now suppose `B1` contains a tax rate of 0.15, and you want to calculate tax for each row. In `D2`
-Enter `=C2*$B$1`. Copy to `D3``D4``D5`.
+Enter `=C2*$B$1`. Copy to `D3`, `D4`, `D5`.
 
 Because `$B$1` is absolute:
 
@@ -82091,7 +82091,7 @@ Enabling macros in downloaded documents.
    cell (like a tax rate) gives wrong results after copying, check for missing `$` signs.
 
 2. **VLOOKUP column index:** The column index in `VLOOKUP` is relative to the table array, NOT the
-   worksheet column. If your table starts in column `E` and you want the value in column `G`The
+   worksheet column. If your table starts in column `E` and you want the value in column `G`. The
    index is 3 (not 7).
 
 3. **VLOOKUP left-to-right only:** VLOOKUP can only search the leftmost column of a table. If you
@@ -82169,7 +82169,7 @@ Answer:
 (c) `=IF(F2>=80, "A", IF(F2>=60, "B", "C"))`
 
 (d) Because the references in `=SUM(B2:D2)` are relative, copying to E3 changes them to
-`=SUM(B3:D3)`Which calculates the total for Bob: 72 + 65 + 88 = 225.
+`=SUM(B3:D3)`. Which calculates the total for Bob: 72 + 65 + 88 = 225.
 
 </details>
 
@@ -82263,7 +82263,7 @@ Answer.
 Answer:
 
 (a) Steps: (1) Create a salary slip template in Word with merge fields for `<<Name>>`
-`<<Department>>``<<Salary>>``<<Deductions>>`And `<<Net Pay>>`. (2) Set the Excel spreadsheet As the
+`<<Department>>`, `<<Salary>>`, `<<Deductions>>` and `<<Net Pay>>`. (2) Set the Excel spreadsheet As the
 data source. (3) Insert merge fields at the appropriate positions in the template. (4) Preview the
 merged results. (5) Merge to produce individual salary slips or a single document with Page breaks
 between slips.
@@ -83552,7 +83552,7 @@ Password twice to confirm it was typed correctly).
 <details>
 <summary>Question 1: Trace Table</summary>
 
-Trace the following algorithm with inputs `A = 5``B = 3`.
+Trace the following algorithm with inputs `A = 5`, `B = 3`.
 
 ```python
 BEGIN
@@ -84765,7 +84765,7 @@ Program: Assign grades based on score (A: &gt;= 80, B: &gt;= 60, C: &gt;= 40, F:
    (for writes) or resource leaks (files remaining locked).
 
 9. **Integer division truncation:** In many languages, dividing two integers produces an integer
-   result (truncated). `7 / 2` gives `3`Not `3.5`. Use floating-point division when a decimal result
+   result (truncated). `7 / 2` gives `3`. Not `3.5`. Use floating-point division when a decimal result
    is needed.
 
 10. **Scope of variables:** Local variables inside a function are not accessible outside the
@@ -86282,7 +86282,7 @@ $$
 \mathrm{Total Width} = \mathrm{margin-left} + \mathrm{border-left} + \mathrm{padding-left} + \mathrm{width} + \mathrm{padding-right} + \mathrm{border-right} + \mathrm{margin-right}
 $$
 
-With `box-sizing: border-box`The `width` property includes content, padding, and border:
+With `box-sizing: border-box`. The `width` property includes content, padding, and border:
 
 $$
 \mathrm{Total Width} = \mathrm{margin-left} + \mathrm{width} + \mathrm{margin-right}
@@ -86657,7 +86657,7 @@ scores.sort(function (a, b) {
 1. **Choose a domain name:** Select a name that is memorable, relevant, and available.
 2. **Check availability:** Use a domain registrar"s search tool to verify the name is not already
    registered.
-3. **Choose a TLD:** Select the appropriate top-level domain (`.com``.org``.edu``.hk`Etc.).
+3. **Choose a TLD:** Select the appropriate top-level domain (`.com`, `.org`, `.edu`, `.hk`. Etc.).
 4. **Register with a registrar:** Use an accredited registrar (e.g., GoDaddy, Namecheap, HKDNR for
    `.hk` domains).
 5. **Provide registrant information:** Name, contact details, administrative and technical contacts.
@@ -87001,8 +87001,8 @@ Answer:
 (c) `box-sizing: border-box` makes the `width` and `height` properties include the content area,
 Padding, and border. Without it (the default `content-box`), `width` applies only to the content,
 And padding and border are added on top, making the total element wider than specified. This
-Commonly causes layout issues when elements exceed their container. With `border-box`If you set
-`width: 250px`The total rendered width including padding and border will be exactly 250px, making
+Commonly causes layout issues when elements exceed their container. With `border-box`. If you set
+`width: 250px`. The total rendered width including padding and border will be exactly 250px, making
 Layout calculations predictable. Many developers apply `* { box-sizing: border-box; }` globally.
 
 </details>
@@ -123441,7 +123441,7 @@ The SI unit of force is the newton (N), where $1 \mathrm{ N} = 1 \mathrm{ kg}\cd
 
 ### Third Law
 
-If body `A` exerts a force on body `B`Then body `B` exerts an equal and opposite force on body `A`:
+If body `A` exerts a force on body `B`. Then body `B` exerts an equal and opposite force on body `A`:
 
 $$
 \vec{F}_{AB} = -\vec{F}_{BA}
@@ -129773,7 +129773,7 @@ $$
 F = ma
 $$
 
-**Third Law:** If body `A` exerts a force on body `B`Then body `B` exerts an equal and opposite
+**Third Law:** If body `A` exerts a force on body `B`. Then body `B` exerts an equal and opposite
 Force on body `A`.
 
 $$

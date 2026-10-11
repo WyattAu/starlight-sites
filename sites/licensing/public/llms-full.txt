@@ -1134,7 +1134,7 @@ URL: https://licensing.wyattau.com/glossary/
 
 **Contributor License Agreement (CLA)**: A legal agreement contributors sign granting the project maintainer rights to relicense their contributions.
 
-**SPDX Identifier**: A standardised short string identifying a license (e.g., `MIT``Apache-2.0``GPL-3.0-only`), used in package metadata.
+**SPDX Identifier**: A standardised short string identifying a license (e.g., `MIT`, `Apache-2.0`, `GPL-3.0-only`), used in package metadata.
 
 ## Further Resources
 
@@ -1855,7 +1855,7 @@ Technically, no, the code is copyrighted by default. But without a license, no o
 
 ### How do I check the licenses of my dependencies?
 
-Use license scanning tools: FOSSology, LicenseFinder, FOSSA, or Snyk. Most package managers have license information built in (`npm licenses``pip show``cargo metadata`). CI/CD pipelines can automate this checking.
+Use license scanning tools: FOSSology, LicenseFinder, FOSSA, or Snyk. Most package managers have license information built in (`npm licenses`, `pip show`, `cargo metadata`). CI/CD pipelines can automate this checking.
 
 ---
 

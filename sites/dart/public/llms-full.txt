@@ -40,14 +40,14 @@ Accurate and convenience is limited, therefore I recommend using a
 ## Physical Devices
 
 Android devices can be use for running builds by enabling `USB debugging` from
-`Android developer settings`This is done by:
+`Android developer settings`. This is done by:
 
 1. Open settings and navigate to About Phone
 2. Tab on the build number 7 times until a confirmation message appear
 3. Then enter Developer Options and enable `USB debugging`
 4. Plug the phone into the computer with USB connection
 
-Now when selecting VSCode/command-palette/`Flutter: Select Device`The identifier of the phone will
+Now when selecting VSCode/command-palette/`Flutter: Select Device`. The identifier of the phone will
 Appear.
 
 
@@ -383,7 +383,7 @@ cd my_cli
 dart run
 ```
 
-This creates a minimal console application with a `pubspec.yaml``bin/`And `test/` directory.
+This creates a minimal console application with a `pubspec.yaml`, `bin/` and `test/` directory.
 
 ### Flutter application
 
@@ -393,8 +393,8 @@ cd my_app
 flutter run
 ```
 
-This creates a full Flutter project with platform-specific directories (`android/``ios/``web/`
-`macos/``linux/``windows/`).
+This creates a full Flutter project with platform-specific directories (`android/`, `ios/`, `web/`
+`macos/`, `linux/`, `windows/`).
 
 ### Project structure after `dart create -t console`
 
@@ -438,7 +438,7 @@ Android Studio.
 
 ### Configuring environment variables
 
-Add these to your shell profile (`~/.bashrc``~/.zshrc`Etc.):
+Add these to your shell profile (`~/.bashrc`, `~/.zshrc`. Etc.):
 
 ```bash
 export ANDROID_HOME=$HOME/Android/Sdk
@@ -660,7 +660,7 @@ flowchart TD
 
 ## Program Entry
 
-When the project creates an executable, the entry point of the project is located in `main()`Where
+When the project creates an executable, the entry point of the project is located in `main()`. Where
 the default is given as:
 
 ```dart
@@ -911,7 +911,7 @@ const int number = 22;
 ### Nullable specifier
 
 Variables are required to be defined at declaration by default, to enable the option for the
-Variable to be `null`The `?` specifier should be used:
+Variable to be `null`. The `?` specifier should be used:
 
 ```dart
 String? text;
@@ -992,13 +992,13 @@ Platforms, but is limited to 53-bit precision when compiled to JavaScript. `doub
 :::
 
 :::note
-`abs()``floor()`Etc. Note that `num``double``int` cannot be extended.
+`abs()`, `floor()`. Etc. Note that `num`, `double`, `int` cannot be extended.
 :::
 
 #### String Literals
 
-Only one String type exists in Dart, `String`Which holds a sequence of characters specify in UTF-16
-code. Within String declarations `""``${ \\ expression }` can be declared, and any Expression that
+Only one String type exists in Dart, `String`. Which holds a sequence of characters specify in UTF-16
+code. Within String declarations `""`, `${ \\ expression }` can be declared, and any Expression that
 can evaluates to String can be placed within. A raw `String` can be created with Declarator `r`
 infront of the string:
 
@@ -1242,7 +1242,7 @@ a.difference(b);    // {1, 2}
 
 #### Maps
 
-A `Map` is a key-value store. Like `Set`It uses hash-based lookup with $O(1)$ average complexity.
+A `Map` is a key-value store. Like `Set`. It uses hash-based lookup with $O(1)$ average complexity.
 
 ```dart
 // Literal
@@ -2208,7 +2208,7 @@ final csv = [1, 2, 3].join(', '); // '1, 2, 3'
 
 ### Lazy vs Eager Evaluation
 
-This is critical for performance. Methods like `map``where``expand``takeWhile``skipWhile` `cast`And
+This is critical for performance. Methods like `map`, `where`, `expand`, `takeWhile`, `skipWhile` `cast`And
 `skip`/`take` return **lazy** iterables. No work happens until you consume the iterable.
 
 ```dart
@@ -2408,7 +2408,7 @@ set.removeAll({2, 6}); // {3, 4, 5}
 set.retainAll({3, 4}); // {3, 4}
 ```
 
-`add` returns `bool``true` if the element was added (not already present), `false` if it was
+`add` returns `bool`, `true` if the element was added (not already present), `false` if it was
 Already in the set. This is useful for deduplication logic:
 
 ```dart
@@ -2454,7 +2454,7 @@ final found = users.lookup(query); // Returns the actual object in the set
 
 ### HashSet vs LinkedHashSet vs SplayTreeSet
 
-The default `Set()` constructor returns a `LinkedHashSet`Which preserves insertion order and
+The default `Set()` constructor returns a `LinkedHashSet`. Which preserves insertion order and
 Provides O(1) amortized operations.
 
 ```dart
@@ -2487,8 +2487,8 @@ print(splay.toList()); // [1, 2, 3], always sorted
 
 ### Custom Equality via operator== and hashCode
 
-For custom objects in a `Set`You **must** override both `operator==` and `hashCode`. The contract:
-If `a == b`Then `a.hashCode == b.hashCode`. The reverse is not required (hash collisions are
+For custom objects in a `Set`. You **must** override both `operator==` and `hashCode`. The contract:
+If `a == b`. Then `a.hashCode == b.hashCode`. The reverse is not required (hash collisions are
 Allowed).
 
 ```dart
@@ -2509,12 +2509,12 @@ final set = <UserId>{UserId('abc'), UserId('def')};
 print(set.contains(UserId('abc'))); // true, custom equality works
 ```
 
-If you only override `==` without `hashCode`The set will use the default `Object.hashCode`
+If you only override `==` without `hashCode`. The set will use the default `Object.hashCode`
 (identity-based), and `contains` will fail to find logically equal objects.
 
 ## Map
 
-A `Map<K, V>` maps keys to values. The default implementation is `LinkedHashMap`Which preserves
+A `Map<K, V>` maps keys to values. The default implementation is `LinkedHashMap`. Which preserves
 Insertion order.
 
 ### Constructors
@@ -2620,7 +2620,7 @@ Note: this returns a lazy `Map`the transformation is applied on access.
 
 ### Iteration Order
 
-The default `Map()` and `{}` literal create a `LinkedHashMap`Which guarantees insertion order for
+The default `Map()` and `{}` literal create a `LinkedHashMap`. Which guarantees insertion order for
 Iteration. This is a language guarantee, not an implementation detail.
 
 ```dart
@@ -2636,7 +2636,7 @@ If you need sorted iteration, wrap the keys: `map.keys.toList()..sort()` or use 
 
 ### Custom Key Types
 
-Like `Set``Map` keys rely on `operator==` and `hashCode`. The same contract applies: equal keys Must
+Like `Set`, `Map` keys rely on `operator==` and `hashCode`. The same contract applies: equal keys Must
 have equal hash codes.
 
 ```dart
@@ -3200,7 +3200,7 @@ class MyListenable extends Listenable {
 }
 ```
 
-With `interface`You prevent this:
+With `interface`. You prevent this:
 
 ```dart
 interface class Listenable {
@@ -3278,7 +3278,7 @@ class Square implements Shape {
 ### Why `base` Exists
 
 The `base` modifier solves the **fragile base class problem**. When a class is designed for
-Inheritance, its methods may rely on internal invariants. If a user `implement`S the class
+Inheritance, its methods may rely on internal invariants. If a user `implement`s the class
 (providing their own implementations of all methods), those invariants can be violated.
 
 Consider:
@@ -3404,7 +3404,7 @@ interface class Hashable {
 
 ### `interface` with Default Implementations
 
-An `interface class` can have concrete methods. External code cannot access them via `extends`But
+An `interface class` can have concrete methods. External code cannot access them via `extends`. But
 they are available to subtypes within the same library:
 
 ```dart
@@ -3441,7 +3441,7 @@ interface mixin Disposable {
 
 ## `final`
 
-Prevents **all** subtyping outside the library. No `extends`No `implements`No `with`. The class Is a
+Prevents **all** subtyping outside the library. No `extends`. No `implements`. No `with`. The class Is a
 leaf, it cannot be a supertype of anything defined outside its library.
 
 ### Syntax and Semantics
@@ -3471,7 +3471,7 @@ Extended.
 
 Common use cases:
 
-1. **Value objects**: Classes that represent data with identity semantics (like `Uri``Duration`).
+1. **Value objects**: Classes that represent data with identity semantics (like `Uri`, `Duration`).
 2. **Configuration objects**: Classes whose entire purpose is to hold configuration.
 3. **Internal implementation details**: Classes that are public but should not be subclassed.
 
@@ -3492,7 +3492,7 @@ final class UserId {
 
 ### `final` Propagation
 
-Unlike `base``final` does **not** propagate. A class that extends a `final` class (within the same
+Unlike `base`, `final` does **not** propagate. A class that extends a `final` class (within the same
 Library) is not itself `final`:
 
 ```dart
@@ -3510,7 +3510,7 @@ class ExternalDerived extends Derived {} // OK
 ```
 
 This is a deliberate design choice. The `final` restriction applies to the class itself, not to its
-Subtypes. If you want the entire hierarchy to be `final`You must mark each class.
+Subtypes. If you want the entire hierarchy to be `final`. You must mark each class.
 
 ### `final mixin class`
 
@@ -3641,7 +3641,7 @@ Class modifiers can be combined to express precise contracts. Not all combinatio
 | `final`        | Yes      | No     | No          | N/A     | Yes     |
 | `mixin`        | Yes      | Yes    | Yes         | Yes     | N/A     |
 
-`sealed` can combine with `base``interface``final`And `mixin` (e.g., `sealed interface`
+`sealed` can combine with `base`, `interface`, `final` and `mixin` (e.g., `sealed interface`
 `sealed mixin class`). These combinations restrict subtypes to the same library while also applying
 the additional modifier's semantics.
 
@@ -3831,7 +3831,7 @@ final class Configuration {
 For library authors, the recommended migration order:
 
 1. **Start with `base`**: Most classes designed for inheritance should be `base`. This is the least
-   disruptive change, users who `implement` must switch to `extends`But the behavioral change is
+   disruptive change, users who `implement` must switch to `extends`. But the behavioral change is
    minimal.
 
 2. **Add `interface` to contracts**: Classes that are pure interfaces (no implementation worth
@@ -3898,7 +3898,7 @@ final class Parent {}
 final class Child extends Parent {}
 ```
 
-### 4. `sealed` Classes Cannot Be `base``interface`Or `final`
+### 4. `sealed` Classes Cannot Be `base`, `interface` or `final`
 
 ```dart
 // COMPILE ERROR, sealed is already maximally restrictive
@@ -3929,7 +3929,7 @@ class Other extends Object with WithState {} // ERROR
 ```
 
 The restriction is per-use: if the `mixin class` is used as a mixin, it cannot have a parameterized
-Constructor. If used via `extends`The constructor is available.
+Constructor. If used via `extends`. The constructor is available.
 
 ### 6. Abstract Classes with Modifiers
 
@@ -3973,7 +3973,7 @@ class MyBuilder implements Builder {
 
 `implements` does not inherit constructors. The implementing class must declare its own
 Constructors. This is not specific to `interface`it has always been true for `implements`. But
-with `interface`It is the only option.
+with `interface`. It is the only option.
 
 ### 8. Modifiers and `part` Files
 
@@ -4025,7 +4025,7 @@ abstract interface class Handler {} // Abstract AND interface
 abstract final class Config {} // Abstract AND final, cannot be instantiated or subclassed externally
 ```
 
-The only redundant combination is `abstract sealed``sealed` already implies `abstract`.
+The only redundant combination is `abstract sealed`, `sealed` already implies `abstract`.
 
 ### 11. Enums and Modifiers
 
@@ -4184,7 +4184,7 @@ Declaration produces a hard error. An irrefutable pattern in a switch case is al
 ## Logical Patterns
 
 Logical patterns combine other patterns using boolean logic. They are the pattern-matching
-Equivalent of `||``&&`And relational operators.
+Equivalent of `||`, `&&` and relational operators.
 
 ### Or Patterns (`||`)
 
@@ -4251,7 +4251,7 @@ Bound variables.
 
 ### Relational Patterns
 
-Relational patterns use `==``!=``<``>``<=``>=` to compare the matched value against a Constant.
+Relational patterns use `==`, `!=`, `<`, `>`, `<=`, `>=` to compare the matched value against a Constant.
 These are not general-purpose, the right-hand side must be a compile-time constant.
 
 ```dart
@@ -4297,7 +4297,7 @@ String categorize(int score) => switch (score) {
 ## Cast Patterns
 
 The cast pattern (`as`) performs a type cast and binds the result. This is the pattern-matching
-Equivalent of `as`But with the safety of a runtime check embedded in the pattern itself.
+Equivalent of `as`. But with the safety of a runtime check embedded in the pattern itself.
 
 ### Basic Cast Pattern
 
@@ -4336,7 +4336,7 @@ if (value case var s as String) {
 The difference matters. The type test pattern (`String s`) only matches if the value is already a
 `String`. The cast pattern (`var s as String`) attempts to cast, if the value is a subtype of
 `String` (which is impossible since `String` is sealed), it succeeds; otherwise it throws. In
-Practice, for sealed types like `String`They behave identically. The cast pattern becomes relevant
+Practice, for sealed types like `String`. They behave identically. The cast pattern becomes relevant
 with custom type hierarchies where implicit upcasts exist.
 
 ### Cast Pattern with Null Safety
@@ -5583,7 +5583,7 @@ T unwrapOr&lt;T&gt;(Result&lt;T&gt; result, T defaultValue) => switch (result) {
 };
 ```
 
-No `default` case. If you add `class Pending&lt;T&gt; extends Result&lt;T&gt;`Every switch on
+No `default` case. If you add `class Pending&lt;T&gt; extends Result&lt;T&gt;`. Every switch on
 `Result&lt;T&gt;` fails to compile until you handle `Pending`.
 
 ### Switch Expression vs Switch Statement
@@ -7034,7 +7034,7 @@ GoRoute(
 ### Typed Path Parameters
 
 `go_router` provides typed extraction utilities. While `pathParameters` always returns
-`Map<String, String>`You should parse to the expected type:
+`Map<String, String>`. You should parse to the expected type:
 
 ```dart
 GoRoute(
@@ -7761,7 +7761,7 @@ Always validate parameters in a `redirect` function before reaching the builder.
 If a redirect function returns a path that itself triggers a redirect, GoRouter detects the loop
 after approximately 5 iterations and throws. Common causes:
 
-- The login redirect sends the user to `/`Which redirects back to `/login` because the user is not
+- The login redirect sends the user to `/`. Which redirects back to `/login` because the user is not
   yet authenticated (race condition with async auth state).
 - Two routes redirect to each other.
 
@@ -7773,8 +7773,8 @@ A user who just logged in may still see the login screen.
 
 ### Using `Navigator.of(context)` Directly with GoRouter
 
-When using GoRouter, avoid mixing Navigator 1.0 calls (`Navigator.push``Navigator.pop`) with
-GoRouter calls (`context.go``context.push`). They operate on different stacks and can cause
+When using GoRouter, avoid mixing Navigator 1.0 calls (`Navigator.push`, `Navigator.pop`) with
+GoRouter calls (`context.go`, `context.push`). They operate on different stacks and can cause
 Inconsistent behavior. Always use GoRouter's API for page-level navigation.
 
 ### Not Using `GlobalKey<NavigatorState>` for Deep Links
@@ -7871,7 +7871,7 @@ what the UI should look like for a given state, and the framework diffs that des
 Current tree and applies the minimal set of changes. A **widget** is the immutable data structure
 that carries that description.
 
-A widget is a **blueprint**, not a visual element. When you write `const Text('hello')`You have
+A widget is a **blueprint**, not a visual element. When you write `const Text('hello')`. You have
 Created a configuration object that says "render the string 'hello' with default typography." The
 Framework then instantiates an `Element` from that widget, and that Element may in turn create a
 `RenderObject` that actually performs layout, hit-testing, and painting.
@@ -7884,13 +7884,13 @@ The critical mental model:
 | `Element`      | Tree node that manages lifecycle, holds state | Mutable (internal) |
 | `RenderObject` | Layout, painting, hit-testing                 | Mutable (internal) |
 
-When you call `setState()`The framework marks the owning `Element` as dirty. On the next frame, The
+When you call `setState()`. The framework marks the owning `Element` as dirty. On the next frame, The
 framework calls `build()` on that Element, which produces a **new** Widget tree. The framework Then
 reconciles the new widget tree against the old one at the Element level, reusing Elements where
 Possible and destroying/recreating them where the widget type or key changes.
 
 This reconciliation is why widget identity matters. If you return a widget of the same `runtimeType`
-And `key` from `build()`The framework reuses the existing Element. If either changes, the old
+And `key` from `build()`. The framework reuses the existing Element. If either changes, the old
 Element is unmounted and a new one is created. This is the foundational reason why `const`
 Constructors, keys, and widget splitting all affect performance.
 
@@ -7909,7 +7909,7 @@ RenderObject tree (persistent, handles layout/paint/hit-test)
 The Widget tree exists only as a momentary configuration snapshot. The Element tree is the actual
 Persistent tree that the framework walks during layout and paint. The RenderObject tree is a subset
 of the Element tree (only elements that need layout/paint create RenderObjects; structural elements
-like `Column``Builder`Or `InheritedWidget` do not).
+like `Column`, `Builder` or `InheritedWidget` do not).
 
 ## 2. Widget Types
 
@@ -8010,7 +8010,7 @@ of space in the layout without the AppBar needing to measure itself during the l
 
 ### const Widgets
 
-When a widget constructor is invoked with `const`The Dart VM canonicalizes the instance at compile
+When a widget constructor is invoked with `const`. The Dart VM canonicalizes the instance at compile
 Time. Every `const SizedBox(height: 8)` in your codebase resolves to the **same object identity** in
 Memory. This means the framework can skip the entire `==` / `runtimeType` check during
 Reconciliation, it performs a pointer identity check, which is O(1) and branch-predictor friendly.
@@ -8018,13 +8018,13 @@ Reconciliation, it performs a pointer identity check, which is O(1) and branch-p
 ## 3. BuildContext
 
 `BuildContext` is not a class you instantiate. It is an **abstract interface** implemented by
-`Element`. When you receive a `BuildContext` inside `build()`You are holding a handle to the
+`Element`. When you receive a `BuildContext` inside `build()`. You are holding a handle to the
 `Element` that owns the widget currently being built. This handle represents that element's position
 in the tree.
 
 ### What BuildContext Provides
 
-- **Ancestor lookups**: `Theme.of(context)``MediaQuery.of(context)``Navigator.of(context)`all
+- **Ancestor lookups**: `Theme.of(context)`, `MediaQuery.of(context)`, `Navigator.of(context)`all
   walk up the Element tree to find the nearest `InheritedWidget` of the target type.
 - **Dependency registration**: `dependOnInheritedWidgetOfExactType` both looks up the ancestor and
   registers the current element as a dependent, so the element rebuilds when the inherited widget
@@ -8035,7 +8035,7 @@ in the tree.
 ### Why You Cannot Store BuildContext
 
 `BuildContext` is valid only while the Element is active in the tree. After `deactivate()` or
-`dispose()`The context is no longer valid. If you store a context and use it in an async gap (e.g.,
+`dispose()`. The context is no longer valid. If you store a context and use it in an async gap (e.g.,
 after `await`), the element may have been unmounted, causing a `debugWidgetBuilder` assertion Or, in
 release mode, silent corruption.
 
@@ -8073,7 +8073,7 @@ Element in the tree. Once `dispose()` is called, `mounted` becomes `false` and n
 ### lookup for InheritedWidget
 
 In Flutter 3.10+, `context.lookup<T>()` provides a non-depended-upon lookup of the nearest ancestor
-of type `T` in the Element tree. Unlike `dependOnInheritedWidgetOfExactType`This does **not**
+of type `T` in the Element tree. Unlike `dependOnInheritedWidgetOfExactType`. This does **not**
 Register a dependency, meaning the calling element will **not** rebuild when the ancestor changes.
 Use this when you need to read a value once without subscribing to updates.
 
@@ -8097,13 +8097,13 @@ Widget removed from tree
 Element unmounted (no dispose hook)
 ```
 
-There is no `initState``dispose`Or `didUpdateWidget`. The `build()` method is called every time The
+There is no `initState`, `dispose` or `didUpdateWidget`. The `build()` method is called every time The
 parent provides a new widget configuration with different constructor arguments (or the Framework
 cannot prove equivalence via `==`).
 
 ### const Constructors for Optimization
 
-If you can construct a `StatelessWidget` with `const`The framework can skip the reconciliation Step
+If you can construct a `StatelessWidget` with `const`. The framework can skip the reconciliation Step
 entirely when the same const instance appears in consecutive builds. This is because pointer
 Identity (`identical(oldWidget, newWidget)`) is checked first, before any `runtimeType` or `==`
 Comparison.
@@ -8129,7 +8129,7 @@ Use `StatelessWidget` when:
 - The widget does not own any mutable resources (controllers, animations, timers).
 - The widget reads data from ancestors via `BuildContext` but does not modify them.
 
-If you find yourself wanting an `initState` or `dispose`You need a `StatefulWidget`.
+If you find yourself wanting an `initState` or `dispose`. You need a `StatefulWidget`.
 
 ## 5. StatefulWidget Lifecycle
 
@@ -8172,7 +8172,7 @@ A new `StatefulWidget` instance.
 Called exactly once, immediately after the `State` object is created and before the first `build()`.
 This is where you:
 
-- Initialize controllers (`TextEditingController``AnimationController``ScrollController`).
+- Initialize controllers (`TextEditingController`, `AnimationController`, `ScrollController`).
 - Subscribe to streams or notification listeners.
 - Set up timers.
 - Perform one-time computations.
@@ -8184,7 +8184,7 @@ been registered as a dependency. Use `didChangeDependencies()` for that.
 
 Called immediately after `initState()` and subsequently whenever a dependency obtained via
 `BuildContext` changes. A "dependency" is an `InheritedWidget` that was looked up using
-`dependOnInheritedWidgetOfExactType` (which is what `Theme.of``MediaQuery.of`Etc. Do Internally).
+`dependOnInheritedWidgetOfExactType` (which is what `Theme.of`, `MediaQuery.of`. Etc. Do Internally).
 
 ```dart
 @override
@@ -8199,7 +8199,7 @@ But will not be triggered again unless you later register a dependency.
 
 ### build()
 
-Called after `initState()``didChangeDependencies()`And after every `setState()`. Must return a
+Called after `initState()`, `didChangeDependencies()` and after every `setState()`. Must return a
 Widget. Should be a pure function of `this.state` and `this.widget` (and any inherited data). Must
 not have side effects, do not call `setState()` inside `build()`.
 
@@ -8237,13 +8237,13 @@ Resources:
 - Cancel timers (`_timer.cancel()`).
 - Remove listeners.
 
-After `dispose()``mounted` is `false`. You must not call `setState()` after `dispose()`.
+After `dispose()`, `mounted` is `false`. You must not call `setState()` after `dispose()`.
 
 ## 6. SetState
 
 ### How setState Works
 
-When you call `setState()`The following occurs:
+When you call `setState()`. The following occurs:
 
 1. The callback is executed synchronously (state is mutated immediately).
 2. The framework calls `markNeedsBuild()` on the owning `Element`.
@@ -8277,7 +8277,7 @@ Widget build(BuildContext context) {
 }
 ```
 
-This causes an infinite loop because `setState()` triggers `build()`Which calls `setState()` Again.
+This causes an infinite loop because `setState()` triggers `build()`. Which calls `setState()` Again.
 
 **setState callback vs imperative state changes:**
 
@@ -8295,7 +8295,7 @@ Future<void> _fetch() async {
 ### State Object Identity
 
 The `State` object associated with a `StatefulWidget` persists across parent rebuilds. When the
-Parent rebuilds and constructs a new `MyWidget(foo: 2)` to replace `MyWidget(foo: 1)`The framework
+Parent rebuilds and constructs a new `MyWidget(foo: 2)` to replace `MyWidget(foo: 1)`. The framework
 Reuses the existing `State` object and calls `didUpdateWidget`. The `State` object is only discarded
 if the `Element` is removed from the tree or if the widget's `runtimeType` or `key` changes.
 
@@ -8404,7 +8404,7 @@ assert(identical(a, b)); // true, same object
 ```
 
 For Flutter's reconciliation, `identical(oldWidget, newWidget)` is the cheapest possible check. When
-it returns `true`The framework skips the entire update process, no `didUpdateWidget`No `build()`
+it returns `true`. The framework skips the entire update process, no `didUpdateWidget`. No `build()`
 call on the child.
 
 ### When to Use const
@@ -8412,7 +8412,7 @@ call on the child.
 Use `const` on every widget constructor where all arguments are compile-time constants. This
 Includes:
 
-- `const SizedBox()``const EdgeInsets.all(16)``const EdgeInsets.symmetric(horizontal: 16)`
+- `const SizedBox()`, `const EdgeInsets.all(16)`, `const EdgeInsets.symmetric(horizontal: 16)`
 - `const Text('static string')` (only when the string is a literal)
 - `const Color(0xFF000000)`
 - `const Duration(seconds: 1)`
@@ -8428,10 +8428,10 @@ Do not use `const` when arguments are runtime values:
 The performance impact of `const` is measurable but often overstated for leaf widgets. The primary
 Benefit is reducing GC pressure (fewer short-lived widget objects) and skipping reconciliation work.
 In deeply nested lists or frequently rebuilt subtrees, `const` on leaf widgets (like `SizedBox`
-`Padding``Divider`) can meaningfully reduce frame build time.
+`Padding`, `Divider`) can meaningfully reduce frame build time.
 
 However, `const` does not eliminate rebuilds of the parent. If a `StatefulWidget` calls
-`setState()`Its `build()` runs regardless of whether the returned children are `const`. The Benefit
+`setState()`. Its `build()` runs regardless of whether the returned children are `const`. The Benefit
 is that the framework can cheaply determine that those children haven't changed and skip Their
 subtree reconciliation.
 
@@ -8486,9 +8486,9 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 
 ### Container Internals
 
-`Container` is a composite widget that wraps multiple other widgets. When you set `color`It uses a
-`DecoratedBox` with a `BoxDecoration(color: ...)`. When you set `padding`It wraps the child in a
-`Padding`. When you set both `margin` and `padding`It wraps in `Padding(margin: ...)` then
+`Container` is a composite widget that wraps multiple other widgets. When you set `color`. It uses a
+`DecoratedBox` with a `BoxDecoration(color: ...)`. When you set `padding`. It wraps the child in a
+`Padding`. When you set both `margin` and `padding`. It wraps in `Padding(margin: ...)` then
 `DecoratedBox(padding: ...)`. If you only need one property, prefer the specific widget (e.g.,
 `Padding` instead of `Container(padding: ...)` with no other properties) to avoid unnecessary
 Nesting.
@@ -8557,8 +8557,8 @@ Position in the child list:
 
 `InheritedElement` overrides `notifyClients()` to iterate over its registered dependents (stored in
 `_dependents`A map of `Element → Object?`). When an `InheritedWidget`'s `updateShouldNotify` Returns
-`true`The `InheritedElement` calls `notifyClients`Which marks each dependent element as Dirty. This
-is the mechanism by which `Theme.of(context)``Provider.of(context)`And similar APIs Trigger targeted
+`true`. The `InheritedElement` calls `notifyClients`. Which marks each dependent element as Dirty. This
+is the mechanism by which `Theme.of(context)`, `Provider.of(context)` and similar APIs Trigger targeted
 rebuilds.
 
 ### Why This Matters for Debugging
@@ -8579,7 +8579,7 @@ rebuilds.
 ### Storing BuildContext
 
 As discussed in Section 3, storing `BuildContext` beyond the synchronous scope of a method is
-Unsafe. After `deactivate()`The context is no longer valid. Always check `mounted` before using a
+Unsafe. After `deactivate()`. The context is no longer valid. Always check `mounted` before using a
 Context captured in a closure or async continuation.
 
 ```dart
@@ -8631,7 +8631,7 @@ can change independently (e.g., an animation tick, a timer, user input), use `St
 
 ### Key Placement in Lists
 
-When using `ListView``Column`Or `Row` with a list of children of the same type, omitting keys Causes
+When using `ListView`, `Column` or `Row` with a list of children of the same type, omitting keys Causes
 the framework to match children by position. This works fine for static lists but breaks when Items
 are added, removed, or reordered:
 
@@ -8685,8 +8685,8 @@ class _MyState extends State<MyWidget> {
 }
 ```
 
-1. **Missing const constructors**: Without `const`Every rebuild creates new widget instances,
-   forcing the framework to do full reconciliation. With `const`The framework can skip
+1. **Missing const constructors**: Without `const`. Every rebuild creates new widget instances,
+   forcing the framework to do full reconciliation. With `const`. The framework can skip
    reconciliation via pointer identity.
 
 2. **Over-depending on InheritedWidgets**: If a widget calls `Theme.of(context)` inside `build()`
@@ -8751,7 +8751,7 @@ void didChangeDependencies() {
 ```
 
 Note that in modern Flutter (2.3+), this restriction is somewhat relaxed, you can use `context` in
-`initState()` for non-dependent lookups, but `Theme.of``MediaQuery.of`Etc. Still fail because They
+`initState()` for non-dependent lookups, but `Theme.of`, `MediaQuery.of`. Etc. Still fail because They
 internally call `dependOnInheritedWidgetOfExactType`.
 
 ## Intuition
@@ -9010,7 +9010,7 @@ class TemperatureSlider extends StatelessWidget {
 ### How updateShouldNotify Controls Rebuilds
 
 `updateShouldNotify` determines whether descendants that depend on this `InheritedWidget` should be
-Rebuilt. If it returns `false`No descendant is notified. If it returns `true`Every widget that
+Rebuilt. If it returns `false`. No descendant is notified. If it returns `true`. Every widget that
 Called `of()` is rebuilt.
 
 This is the granularity mechanism, you control which state changes trigger rebuilds by what you
@@ -9029,14 +9029,14 @@ bool updateShouldNotify(AppState oldWidget) {
 ### Limitations of InheritedWidget
 
 1. **No built-in mutation API**, `InheritedWidget` is immutable. To change its data, you must wrap
-   it in a `StatefulWidget` that calls `setState`Then provide a new `InheritedWidget` with updated
+   it in a `StatefulWidget` that calls `setState`. Then provide a new `InheritedWidget` with updated
    data. This is the boilerplate that `Provider` eliminates.
 2. **No notification granularity**. When `updateShouldNotify` returns `true`**all** dependents
    rebuild, not just the ones that care about the changed field.
 3. **No lifecycle management**, `InheritedWidget` does not dispose resources. You must handle
    disposal in the wrapping `StatefulWidget`.
 4. **Verbose**. Every piece of shared state requires a custom `InheritedWidget` subclass with
-   `of()``updateShouldNotify`And a wrapping `StatefulWidget`.
+   `of()`, `updateShouldNotify` and a wrapping `StatefulWidget`.
 
 ## Provider
 
@@ -9198,7 +9198,7 @@ MultiProvider(
    the state directly, bypassing any validation logic.
 4. **No dependency injection for non-ChangeNotifier types**, `Provider` works best with
    `ChangeNotifier`. For plain objects, services, or repositories, you need separate provider types
-   (`Provider``FutureProvider``StreamProvider`).
+   (`Provider`, `FutureProvider`, `StreamProvider`).
 5. **BuildContext dependency**, `context.read()` and `context.watch()` require `BuildContext` which
    means state access is tied to the widget tree. You cannot access state outside of widgets (e.g.,
    in a domain service or route guard).
@@ -10084,7 +10084,7 @@ class AuthState extends Equatable {
 }
 ```
 
-Without proper `props`The BLoC will skip emitting identical states even when the fields differ,
+Without proper `props`. The BLoC will skip emitting identical states even when the fields differ,
 Because `Equatable` considers them equal.
 
 ### 10. Premature Abstraction
@@ -10233,12 +10233,12 @@ Bidirectional communication: Dart can invoke native methods and receive results,
 Send messages or streams of events back to Dart.
 
 The platform channel architecture uses a message-passing model. Data is serialized using a standard
-Codec ( the `StandardMethodCodec`Which supports null, booleans, numbers, strings, byte Buffers,
+Codec ( the `StandardMethodCodec`. Which supports null, booleans, numbers, strings, byte Buffers,
 lists, and maps), transmitted across the platform channel, and deserialized on the other Side. This
 serialization/deserialization is handled automatically for standard types.
 
-Most common use cases are covered by existing Flutter packages (`camera``geolocator`
-`shared_preferences``url_launcher`Etc.). Platform channels are needed when:
+Most common use cases are covered by existing Flutter packages (`camera`, `geolocator`
+`shared_preferences`, `url_launcher`. Etc.). Platform channels are needed when:
 
 - No suitable plugin exists for the native API you need.
 - You need to integrate with a proprietary native SDK.
@@ -10327,7 +10327,7 @@ Platform checks are necessary for several reasons:
 - **Permission models**: Android and iOS have different permission request flows. Android uses a
   runtime permission model, while iOS requires `Info.plist` entries with usage descriptions.
 - **File system layout**: Android and iOS store app data in different directory structures. Android
-  uses `/data/data/<package>/`While iOS uses the sandbox's `Documents/` and `Library/` directories.
+  uses `/data/data/<package>/`. While iOS uses the sandbox's `Documents/` and `Library/` directories.
 
 ### kIsWeb
 
@@ -10704,7 +10704,7 @@ class SensorStreamHandler: NSObject, FlutterStreamHandler {
 
 ### EventChannel Lifecycle
 
-When Dart calls `receiveBroadcastStream()`The channel sends a "listen" signal to the native side,
+When Dart calls `receiveBroadcastStream()`. The channel sends a "listen" signal to the native side,
 Triggering `onListen`. The native side should start producing events and pushing them through
 `EventSink.success()`. When all Dart listeners are cancelled (via `StreamSubscription.cancel()`),
 The channel sends a "cancel" signal, triggering `onCancel`. The native side should clean up
@@ -10780,7 +10780,7 @@ Use `BasicMessageChannel` when:
 
 Use `MethodChannel` when:
 
-- You have distinct named operations (e.g., `getBatteryLevel``openCamera`).
+- You have distinct named operations (e.g., `getBatteryLevel`, `openCamera`).
 - You need structured error handling with error codes.
 - You want the method-call semantics that `MethodChannel` provides.
 
@@ -11069,7 +11069,7 @@ setMethodCallHandler { call, result ->
 
 ### Backpressure
 
-If you send many messages in rapid succession via `MethodChannel`The platform channel does not
+If you send many messages in rapid succession via `MethodChannel`. The platform channel does not
 Provide built-in backpressure. Each `invokeMethod` call creates a pending message. If the native
 Side cannot keep up, messages queue up in memory. For high-frequency data (sensor data, video
 Frames), use `EventChannel` instead, which is designed for streaming.
@@ -12083,7 +12083,7 @@ when a test is doing too much in one phase.
 
 ### Test Organization
 
-Mirror the source structure. If `lib/src/orders/order_service.dart` contains `OrderService`The Test
+Mirror the source structure. If `lib/src/orders/order_service.dart` contains `OrderService`. The Test
 lives at `test/src/orders/order_service_test.dart`. This is not just convention, it makes
 Navigation trivial when the directory tree is the same in both `lib/` and `test/`.
 
@@ -12311,7 +12311,7 @@ Larger projects where generated mocks provide stronger type guarantees and bette
 
 ### Testing Future-Returning Functions
 
-A test body can be `async`. The test runner `await`S the returned Future:
+A test body can be `async`. The test runner `await`s the returned Future:
 
 ```dart
 test('fetches data from API', () async {
@@ -13153,7 +13153,7 @@ URL: https://dart.wyattau.com/04-best-practices/
 ### Collections
 
 - Use collection `if`/`for`/`spreads` for concise code.
-- Prefer `.map()``.where()`And `.fold()` over manual loops where appropriate.
+- Prefer `.map()`, `.where()` and `.fold()` over manual loops where appropriate.
 
 ### Error Handling
 
@@ -13177,7 +13177,7 @@ URL: https://dart.wyattau.com/04-best-practices/
 - Use `freezed` for immutable models and unions.
 - Serialize JSON with `json_serializable`.
 - Use `MethodChannel` for native integrations (Kotlin/Swift).
-- Organize layers into `data``domain`And `presentation`.
+- Organize layers into `data`, `domain` and `presentation`.
 
 ### Widget Optimizations
 
@@ -13186,12 +13186,12 @@ URL: https://dart.wyattau.com/04-best-practices/
 - Avoid `Opacity` for animations; prefer `AnimatedOpacity` or `Transform`.
 - Use `ListView.builder` (or `CustomScrollView`) for infinite/large lists (lazy loading).
 - Extract expensive computations from `build()` methods.
-- Use `Key`S (e.g., `ValueKey``UniqueKey`) when modifying collections of stateful widgets.
+- Use `Key`s (e.g., `ValueKey`, `UniqueKey`) when modifying collections of stateful widgets.
 - Use `precacheImage` for images loaded on-demand.
 
 ### UI/UX Considerations
 
-- Use `LayoutBuilder``MediaQuery`Or `SafeArea`.
+- Use `LayoutBuilder`, `MediaQuery` or `SafeArea`.
 - Test on multiple screen sizes (e.g., using `DevicePreview`).
 - Add semantic labels (`Semantics` widget), use `ExcludeSemantics` where needed.
 - Support dynamic text sizing (`TextScaler`).
@@ -13204,9 +13204,9 @@ URL: https://dart.wyattau.com/04-best-practices/
 
 - Test performance in profile mode (`flutter run --profile`).
 - Use DevTools to check for jank, memory leaks, and CPU usage.
-- Dispose controllers (`ScrollController``TextEditingController`) and subscriptions.
+- Dispose controllers (`ScrollController`, `TextEditingController`) and subscriptions.
 - Use `const` widgets to reduce garbage collection.
-- Minimize `ClipPath``Opacity`And `ShaderMask` usages in animations.
+- Minimize `ClipPath`, `Opacity` and `ShaderMask` usages in animations.
 - Prefer `CustomPaint` for complex UIs over deep widget trees.
 - Compress images (use `.webp` format).
 - Cache images with `cached_network_image`.
@@ -13295,12 +13295,12 @@ Repetitive code (serialization, equality, copyWith), and ensures consistency bet
 their derived code.
 
 The Dart ecosystem relies on the `build_runner` package as the foundation for all code generation
-Workflows. Packages like `freezed``json_serializable``injectable``retrofit`And `auto_route` All use
+Workflows. Packages like `freezed`, `json_serializable`, `injectable`, `retrofit` and `auto_route` All use
 `build_runner` under the hood.
 
 ### Why Code Generation
 
-1. **Boilerplate reduction**: `copyWith``==``hashCode``toString``fromJson`/`toJson` are generated,
+1. **Boilerplate reduction**: `copyWith`, `==`, `hashCode`, `toString`, `fromJson`/`toJson` are generated,
    not hand-written
 2. **Consistency**: generated code is always in sync with the model. Change a field, regenerate,
    and serialization updates
@@ -13464,7 +13464,7 @@ global_options:
 
 ## freezed
 
-`freezed` generates immutable data classes with `copyWith``==``hashCode``toString`And union Type
+`freezed` generates immutable data classes with `copyWith`, `==`, `hashCode`, `toString` and union Type
 support using Dart sealed classes.
 
 ### Basic Usage
@@ -14187,7 +14187,7 @@ jobs:
 
 ### Generated Files Not in VCS but Needed for Compilation
 
-When generated files are in `.gitignore`Every developer and CI runner must generate them before
+When generated files are in `.gitignore`. Every developer and CI runner must generate them before
 Compilation. This means:
 
 ```bash
@@ -14279,7 +14279,7 @@ dart run build_runner clean && dart run build_runner build --delete-conflicting-
 
 ### build_runner Version Mismatches
 
-Using incompatible versions of `build_runner``source_gen`And builder packages (e.g., `freezed`
+Using incompatible versions of `build_runner`, `source_gen` and builder packages (e.g., `freezed`
 `json_serializable`) causes cryptic errors:
 
 ```
@@ -15787,7 +15787,7 @@ void processList(List<int> items) {
 ### The `catch (e)` Anti-Pattern
 
 Catching bare `catch (e)` without specifying a type will catch **both** `Exception` and `Error`.
-This is almost always wrong. It swallows `StackOverflowError``OutOfMemoryError`And other signals
+This is almost always wrong. It swallows `StackOverflowError`, `OutOfMemoryError` and other signals
 that the program is in an unrecoverable state. Always prefer `on Exception catch (e)` if you intend
 to handle runtime failures, and let `Error` propagate to the top-level handler.
 
@@ -15929,7 +15929,7 @@ class UserParseException implements Exception {
    request URLs).
 3. **Chain exceptions**. Include the original cause so the full chain of failure is inspectable.
 4. **Implement `toString()`**. The default `Exception.toString()` returns
-   `"Instance of 'MyException'"`Which is useless in logs. Always override it with a meaningful
+   `"Instance of 'MyException'"`. Which is useless in logs. Always override it with a meaningful
    message.
 
 ### Exception Hierarchies for Domains
@@ -16090,7 +16090,7 @@ Reporters.
 
 ### Chain.forTrace() (package:stack_trace)
 
-The `stack_trace` package (from the `async` meta-package) provides `Chain.forTrace()`Which parses A
+The `stack_trace` package (from the `async` meta-package) provides `Chain.forTrace()`. Which parses A
 raw `StackTrace` into a `Chain` of `Frame` objects. This enables programmatic inspection:
 
 ```dart
@@ -16118,9 +16118,9 @@ A Dart stack trace frame has the format:
 
 - `#0` is the throw site (innermost frame).
 - Higher numbers are callers further up the stack.
-- `dart:core``dart:async``dart:isolate` frames are VM-internal, skip these when debugging.
+- `dart:core`, `dart:async`, `dart:isolate` frames are VM-internal, skip these when debugging.
 - `package:your_app/` frames are your application code, start here.
-- `package:http/``package:flutter/` frames are third-party, the bug may be in how you called them,
+- `package:http/`, `package:flutter/` frames are third-party, the bug may be in how you called them,
   not in the library itself.
 
 ## Error Handling in Async
@@ -16270,7 +16270,7 @@ final safeStream = riskyStream.handleError(
 );
 ```
 
-Like `catchError` on `Future`The `test` parameter restricts which errors are handled.
+Like `catchError` on `Future`. The `test` parameter restricts which errors are handled.
 
 ### transformError()
 
@@ -16429,7 +16429,7 @@ result.match(
 );
 ```
 
-`fpdart` provides `Either``Option``TaskEither` (async Either), `IO` (synchronous side effects), And
+`fpdart` provides `Either`, `Option`, `TaskEither` (async Either), `IO` (synchronous side effects), And
 a full suite of functional programming primitives. `dartz` is the older, more established
 Alternative with similar capabilities.
 
@@ -16871,8 +16871,8 @@ List<String?> mixed = ['a', null]; // non-nullable list, elements can be null
 List<String>? maybeNames = null;   // nullable list reference
 ```
 
-**Definition.** The nullability hierarchy: `Never` is a subtype of `Null`Which is a subtype of Every
-`T`Which is a subtype of `T?`Which is a subtype of `Object?`. `Object` is the supertype of All
+**Definition.** The nullability hierarchy: `Never` is a subtype of `Null`. Which is a subtype of Every
+`T`. Which is a subtype of `T?`. Which is a subtype of `Object?`. `Object` is the supertype of All
 non-nullable types. `Object?` is the top type.
 
 ```
@@ -17054,7 +17054,7 @@ class Lazy {
 
 #### Null-Aware Access (`?.`)
 
-Returns `null` if the receiver is `null`Otherwise accesses the member.
+Returns `null` if the receiver is `null`. Otherwise accesses the member.
 
 ```dart
 String? name;
@@ -17268,7 +17268,7 @@ Available on the web (use WASM interop instead).
 
 ### Dynamic Library Loading
 
-The entry point for FFI is `DynamicLibrary`Which represents a loaded shared library.
+The entry point for FFI is `DynamicLibrary`. Which represents a loaded shared library.
 
 ```dart
 import 'dart:ffi';
@@ -17316,7 +17316,7 @@ void main() {
 ```
 
 The two typedefs must agree on parameter and return types. The C typedef uses FFI native types
-(`Int32``Double``Pointer`Etc.). The Dart typedef uses Dart types (`int``double`Etc.). The
+(`Int32`, `Double`, `Pointer`. Etc.). The Dart typedef uses Dart types (`int`, `double`. Etc.). The
 `lookupFunction` call bridges the two.
 
 ### Primitive Types Mapping
@@ -17378,7 +17378,7 @@ for (var i = 0; i < 10; i++) {
 malloc.free(array);
 ```
 
-The `malloc` and `calloc` functions are from `package:ffi`Which provides convenience wrappers Around
+The `malloc` and `calloc` functions are from `package:ffi`. Which provides convenience wrappers Around
 `dart:ffi`'s allocation functions.
 
 #### Pointer Arithmetic
@@ -17424,7 +17424,7 @@ int addViaFfi(int a, int b) {
 ### Structs
 
 **Definition.** An FFI struct is a Dart class that extends `Struct` and maps to a C `struct` in
-Memory. Fields are declared using `@Int32()``@Double()``@Pointer()`And other annotations. The Struct
+Memory. Fields are declared using `@Int32()`, `@Double()`, `@Pointer()` and other annotations. The Struct
 layout in memory matches the C layout.
 
 ```dart
@@ -18028,7 +18028,7 @@ void main() {
 ```
 
 `package:web` provides typed bindings for all Web APIs (DOM, Fetch, WebSocket, etc.). These bindings
-Use Dart's JS interop types (`JSObject``JSString``JSArray`Etc.) rather than Dart's native Types.
+Use Dart's JS interop types (`JSObject`, `JSString`, `JSArray`. Etc.) rather than Dart's native Types.
 
 ### Performance Characteristics
 
@@ -18316,7 +18316,7 @@ bool isNotString(Object value) => switch (value) {
 ### FFI Memory Leaks
 
 The most common FFI bug is forgetting to free native memory. Dart's garbage collector does not track
-Native allocations. Every `malloc``calloc`And `toNativeUtf8` must have a corresponding free.
+Native allocations. Every `malloc`, `calloc` and `toNativeUtf8` must have a corresponding free.
 
 ```dart
 // LEAK: native string never freed
@@ -18408,7 +18408,7 @@ print((name ?? '').length);
 ### Isolate Message Ordering
 
 Messages sent from a single `SendPort` to a single `ReceivePort` are delivered in order. But
-Messages sent from different `SendPort`S to the same `ReceivePort` may interleave.
+Messages sent from different `SendPort`s to the same `ReceivePort` may interleave.
 
 ```dart
 // Isolate A sends: M1, M2, M3
@@ -18501,8 +18501,8 @@ void worker(SendPort sendPort) {
 ```
 
 Not all Dart objects can be sent between isolates. Sendable objects include: primitives, `String`
-`List` and `Map` of sendable elements, `SendPort``TransferableTypedData`And `Capability`. Non-
-Sendable objects include: closures, `Socket``HttpClient``File``Isolate`And most `dart:io` Types.
+`List` and `Map` of sendable elements, `SendPort`, `TransferableTypedData` and `Capability`. Non-
+Sendable objects include: closures, `Socket`, `HttpClient`, `File`, `Isolate` and most `dart:io` Types.
 
 ```mermaid
 flowchart TD
@@ -18998,7 +18998,7 @@ Dart provides built-in support for asynchronous programming with Futures, async/
 
 **Futures** represent a pending result. `async/await` provides synchronous-looking syntax for asynchronous operations. The `await` keyword pauses execution until the Future completes. `try/catch` handles errors in async functions.
 
-**Streams** deliver asynchronous sequences of values. A Stream can be listened to with `.listen()`. Stream operators (`map``filter``transform`) process events. Streams are used for real-time data: WebSocket messages, sensor readings, and user input.
+**Streams** deliver asynchronous sequences of values. A Stream can be listened to with `.listen()`. Stream operators (`map`, `filter`, `transform`) process events. Streams are used for real-time data: WebSocket messages, sensor readings, and user input.
 
 **Isolates** provide concurrent execution without shared memory. Each isolate has its own memory and event loop. Communication between isolates uses message passing. Isolates prevent data races and enable parallel computation on multiple cores.
 
@@ -19042,7 +19042,7 @@ Flutter's widget system is the foundation of every UI. Widgets are divided into 
 
 **StatelessWidget** is immutable. It takes configuration through its constructor and returns a widget tree in `build()`. Use StatelessWidget for UI that does not change, labels, icons, and decorative elements.
 
-**StatefulWidget** has mutable state managed by a `State` object. The `setState()` method triggers a rebuild. The lifecycle includes `initState()``build()``dispose()`and `didUpdateWidget()`. Use StatefulWidget for UI that responds to user input, data changes, or animations.
+**StatefulWidget** has mutable state managed by a `State` object. The `setState()` method triggers a rebuild. The lifecycle includes `initState()`, `build()`, `dispose()`and `didUpdateWidget()`. Use StatefulWidget for UI that responds to user input, data changes, or animations.
 
 **Layout widgets** control how children are positioned. `Row` and `Column` arrange children horizontally and vertically. `Stack` layers children on top of each other. `Flex` provides flexible layout with expanded and flexible widgets.
 
@@ -19397,8 +19397,8 @@ void main() {
 
 This is a complete Dart program. Let's dissect it:
 
-- **`void`**, The return type. `main()` returns nothing. Dart supports `void``int``double`
-  `bool``String``Null`And user-defined types. `void` is a special type indicating no value.
+- **`void`**, The return type. `main()` returns nothing. Dart supports `void`, `int`, `double`
+  `bool`, `String`, `Null` and user-defined types. `void` is a special type indicating no value.
 - **`main()`**, The entry point. The Dart VM looks for a top-level function named `main`. It can
   optionally accept `List<String> args` for command-line arguments.
 - **`print()`**, A top-level function from `dart:core` (implicitly imported). Writes to stdout with
@@ -19526,12 +19526,12 @@ The GC runs concurrently with the mutator (application code) for old-space colle
 Pause times are under 1ms even for large heaps. This is a practical advantage over JVM's
 Stop-the-world GC pauses.
 
-You have no direct control over GC. There is no `System.gc()`No `free()`No `autoreleasepool`. The GC
+You have no direct control over GC. There is no `System.gc()`. No `free()`. No `autoreleasepool`. The GC
 is tuned for low-latency UI applications, which means it favors pause time over throughput.
 
 ## Asynchronous Programming
 
-Dart's async model is based on `Future` and `Stream`With `async`/`await` syntax sugar.
+Dart's async model is based on `Future` and `Stream`. With `async`/`await` syntax sugar.
 
 ```dart
 Future&lt;String&gt; fetchData() async {
@@ -20423,7 +20423,7 @@ dev_dependencies:
   test: ^1.25.0
 ```
 
-The core API consists of three functions: `test``group`and `expect`.
+The core API consists of three functions: `test`, `group`and `expect`.
 
 ```dart
 import "package:test/test.dart';
@@ -20484,7 +20484,7 @@ void main() {
 ### Matchers
 
 The `expect` function pairs a value with a matcher. Matchers are composable, they can be nested,
-combined with `allOf``anyOf`and negated with `isNot`.
+combined with `allOf`, `anyOf`and negated with `isNot`.
 
 ```dart
 import 'package:test/test.dart';
@@ -20684,7 +20684,7 @@ await tester.pumpAndSettle(); // Wait for all animations to complete
 
 ### Testing Async Widgets
 
-Widgets that depend on `FutureBuilder``StreamBuilder`or async initialization require explicit
+Widgets that depend on `FutureBuilder`, `StreamBuilder`or async initialization require explicit
 pumping to advance through loading states.
 
 ```dart

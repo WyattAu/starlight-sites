@@ -115,7 +115,7 @@ expression without negation.
 
 (a) Strings starting with `01`: `01(0|1)*`
 
-This matches: `01``010``011``0101``0110`Etc. The `(0|1)*` allows any binary sequence (including
+This matches: `01`, `010`, `011`, `0101`, `0110`. Etc. The `(0|1)*` allows any binary sequence (including
 empty) after the initial `01`.
 
 (b) Strings of length exactly 3 with at least one `1`:
@@ -187,7 +187,7 @@ head starts at the rightmost bit (LSB):
 
 Tape: `1 1 0 _` with head on `0` (the LSB).
 
-Step 1: State q0, read `0`. Write `1`Move R, go to q*accept. Tape: `1 1 1 *`. Head on `\_`.
+Step 1: State q0, read `0`. Write `1`. Move R, go to q*accept. Tape: `1 1 1 *`. Head on `\_`.
 
 The machine halts. Result: `111` (LSB first) $= 111_2 = 7_{10}$.
 
@@ -201,10 +201,10 @@ Let me retrace with the correct initial tape. The tape stores `110` (LSB first) 
 
 Tape: `[1] [1] [0] [_]` with head on position 0 (the LSB, which is `1`).
 
-Step 1: State q0, read `1`. Write `0`Move L, stay in q0. Tape: `[0] [1] [0] [_]`. Head moves left to
+Step 1: State q0, read `1`. Write `0`. Move L, stay in q0. Tape: `[0] [1] [0] [_]`. Head moves left to
 position -1.
 
-Step 2: State q0, read `_`. Write `1`Move R, go to q*accept. Tape: `[1] [0] [1] [0] [*]`. Head on
+Step 2: State q0, read `_`. Write `1`. Move R, go to q*accept. Tape: `[1] [0] [1] [0] [*]`. Head on
 position 0.
 
 Result: `101` (LSB first) $= 1 \times 2^0 + 0 \times 2^1 + 1 \times 2^2 = 1 + 0 + 4 = 5$.
@@ -218,7 +218,7 @@ Tape: `_ [1] [1] [0] _`
 
 If the head starts at `0` (position 3):
 
-Step 1: q0, read `0`. Write `1`Move R, q*accept. Tape: `* [1] [1] [1] \_`. Result: `111` (MSB first)
+Step 1: q0, read `0`. Write `1`. Move R, q*accept. Tape: `* [1] [1] [1] \_`. Result: `111` (MSB first)
 $= 7$.
 
 But this is MSB first, not LSB first. In MSB first: `011` $= 3$. Adding 1: `100` $= 4$.
@@ -227,11 +227,11 @@ The issue is my initial interpretation. Let me use MSB first:
 
 `011` with head on the LSB (rightmost `1`):
 
-Step 1: q0, read `1`. Write `0`Move L. Tape: `0 1 0`. Head on the middle `1`.
+Step 1: q0, read `1`. Write `0`. Move L. Tape: `0 1 0`. Head on the middle `1`.
 
-Step 2: q0, read `1`. Write `0`Move L. Tape: `0 0 0`. Head on the `0`.
+Step 2: q0, read `1`. Write `0`. Move L. Tape: `0 0 0`. Head on the `0`.
 
-Step 3: q0, read `0`. Write `1`Move R, q_accept. Tape: `1 0 0`. Head on `0`.
+Step 3: q0, read `0`. Write `1`. Move R, q_accept. Tape: `1 0 0`. Head on `0`.
 
 Result: `100` $= 4$. Correct!
 
@@ -243,7 +243,7 @@ The Turing machine correctly adds 1 to the binary number `011` ($= 3$), producin
 
 **Question:** Write a Python function that simulates the FSM from UT-1 (accepts binary strings with
 even number of 0s). Then, write a regular expression that matches the same language. Use both to
-test the strings `""``"0"``"00"``"101"``"1110"``"01010"`. Compare the time complexity of the FSM
+test the strings `""`, `"0"`, `"00"`, `"101"`, `"1110"`, `"01010"`. Compare the time complexity of the FSM
 approach vs the regex approach for an input of length $n$.
 
 **Solution:**

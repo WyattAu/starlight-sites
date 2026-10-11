@@ -283,7 +283,7 @@ Buffer b3 = \{"hello"\}; // data = "hello\0\0...\0", length = 0 (!)
                         // length is zero because the second initializer is missing
 ```
 
-The `b3` case is especially dangerous: the string fills `data`But `length` is zero-initialized
+The `b3` case is especially dangerous: the string fills `data`. But `length` is zero-initialized
 because no initializer was provided for it. This is not what you'd expect from a C-style struct
 Initialization.
 
@@ -546,7 +546,7 @@ S s\{.b = expr_using_a(), .a = 1\};
 ```
 
 Wait -- actually, the values are associated with their designators. The initialization order is
-Declaration order: `a` is initialized first with value `1`Then `b` with `expr_using_a()`. The C++
+Declaration order: `a` is initialized first with value `1`. Then `b` with `expr_using_a()`. The C++
 Standard requires that initializers are applied in declaration order regardless of designator order
 [N4950 §9.4.5.4].
 

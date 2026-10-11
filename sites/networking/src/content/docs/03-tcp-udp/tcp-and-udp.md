@@ -385,7 +385,7 @@ Mechanism:
 
 - The **receive window** (`rwnd`) is advertised by the receiver in every ACK. It indicates how many
   bytes the receiver is willing to accept beyond the last acknowledged byte.
-- If `rwnd = 0`The sender must stop sending data. The sender sends a zero-window probe (1 byte)
+- If `rwnd = 0`. The sender must stop sending data. The sender sends a zero-window probe (1 byte)
   periodically to check if the window has reopened.
 - The sender never has more than `rwnd` bytes unacknowledged in the network.
 

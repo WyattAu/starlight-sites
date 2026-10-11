@@ -623,7 +623,7 @@ CI automatically builds and tests code every time a change is pushed to the repo
 **CI pipeline stages:**
 
 1. **Checkout**, pull the latest code
-2. **Install dependencies**, `npm install``pip install``cargo build`
+2. **Install dependencies**, `npm install`, `pip install`, `cargo build`
 3. **Lint**, check code style and catch common errors
 4. **Build**, compile or bundle the application
 5. **Test**, run unit, integration, and E2E tests
@@ -811,7 +811,7 @@ Developer productivity is about managing attention, not just time.
 
 - Learn shell scripting (bash, zsh)
 - Master keyboard shortcuts in your terminal
-- Use tools like `fzf``ripgrep`and `fd` for fast file searching
+- Use tools like `fzf`, `ripgrep`and `fd` for fast file searching
 - Customise your shell prompt for context (git branch, exit status)
 
 ### Editor Mastery
@@ -3422,7 +3422,7 @@ def stoer_wagner(n, adj):
 
 ### 1. Confusing `tin` and `low` in Bridge Finding
 
-The condition for a bridge is `low[u] > tin[v]` (strictly greater). If you use `>=`You will
+The condition for a bridge is `low[u] > tin[v]` (strictly greater). If you use `>=`. You will
 Incorrectly classify back edges as bridges. The key distinction: `low[u] == tin[v]` means there is a
 Back edge from the subtree of `u` to `v` (or an ancestor of `v`), which means the edge `(v, u)` is
 NOT a bridge.
@@ -3607,7 +3607,7 @@ Single instruction: load from `base + i * element_size`.
 ### Memory Layout and Cache Behaviour
 
 Arrays have excellent spatial locality: accessing `arr[i]` loads the entire cache line ( 64 Bytes)
-into L1 cache, so accessing `arr[i+1]``arr[i+2]`Etc. Hits cache. This is why a linear Scan through
+into L1 cache, so accessing `arr[i+1]`, `arr[i+2]`. Etc. Hits cache. This is why a linear Scan through
 an array is 10-100x faster than following pointers through a linked list, Even though both are
 $O(n)$ in theory.
 
@@ -4420,7 +4420,7 @@ def majority_element(arr):
 Sliding window problems are rife with off-by-one errors. The most common: confusing "exclusive upper
 Bound" with "inclusive upper bound." Decide on a convention (Python-style `[left, right)` is
 Recommended) and stick to it consistently. The number of elements in the window is always
-`right - left`Never `right - left + 1`.
+`right - left`. Never `right - left + 1`.
 
 ### 2. Integer Overflow in Rolling Hashes
 
@@ -4433,7 +4433,7 @@ Independent hash functions to reduce collision probability.
 
 Empty arrays, single-element arrays, arrays with all identical elements, and arrays where no valid
 Pair exists are all edge cases that two-pointer solutions must handle. Test your solution with `[]`
-`[1]``[1, 1, 1, 1]`And a case where no solution exists.
+`[1]`, `[1, 1, 1, 1]` and a case where no solution exists.
 
 ### 4. Treating Strings as Arrays of Bytes
 
@@ -6477,7 +6477,7 @@ Actually spent. In production systems, use both:
 
 1. **Benchmark with representative data:** Synthetic benchmarks miss cache effects, branch
    prediction patterns, and I/O behaviour. Use production traces or realistic synthetic data.
-2. **Profile before optimising:** Use `cProfile``perf`Or `VTune` to identify the actual bottleneck.
+2. **Profile before optimising:** Use `cProfile`, `perf` or `VTune` to identify the actual bottleneck.
    The bottleneck is often not where you expect it.
 3. **Measure, don't guess:** A single cache miss (100 ns) is worth ~300 integer operations. An L1
    cache hit (1 ns) is 100x faster than a main memory access (100 ns). These differences dwarf the
@@ -7705,7 +7705,7 @@ def matrix_chain_order(p):
 
 ### Burst Balloons
 
-Given `nums`Where `nums[i]` is the value of the $i$-th balloon, bursting balloon $i$ yields
+Given `nums`. Where `nums[i]` is the value of the $i$-th balloon, bursting balloon $i$ yields
 `nums[left] * nums[i] * nums[right]` coins where `left` and `right` are the adjacent unburst
 Balloons. Maximise total coins.
 
@@ -8285,7 +8285,7 @@ the locally optimal choice always lead to the globally optimal solution?
 
 ### 1. Wrong Iteration Order
 
-The fill order must respect the dependency: if `dp[i]` depends on `dp[j]`Then `j` must be computed
+The fill order must respect the dependency: if `dp[i]` depends on `dp[j]`. Then `j` must be computed
 before `i`. For interval DP, always iterate by increasing interval length. For 1D DP, verify whether
 Forward or backward iteration is needed (0/1 knapsack needs backward, unbounded needs forward).
 
@@ -10097,7 +10097,7 @@ Processed vertex. Use Bellman-Ford for graphs with negative weights.
 ### 2. Floyd-Warshall Infinity Overflow
 
 In Floyd-Warshall, the relaxation step is `dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])`.
-If `dist[i][k]` or `dist[k][j]` is `inf`The sum becomes `inf`Which is correct. But if your `inf` Is
+If `dist[i][k]` or `dist[k][j]` is `inf`. The sum becomes `inf`. Which is correct. But if your `inf` Is
 not large enough (e.g., `float('inf') / 2 + float('inf') / 2`), you may get incorrect results. Use a
 sufficiently large sentinel value or handle infinity explicitly.
 
@@ -10615,7 +10615,7 @@ def fractional_knapsack(weights, values, capacity):
 
 ### Why Greedy Fails for 0/1 Knapsack
 
-Consider items with (value, weight): `(60, 10)``(100, 20)``(120, 30)` with capacity 50.
+Consider items with (value, weight): `(60, 10)`, `(100, 20)`, `(120, 30)` with capacity 50.
 
 - Greedy by ratio: take item 1 (60/10 = 6), item 2 (100/20 = 5), item 3 (120/30 = 4). Total: 60 +
   100 = 160, weight 30. Cannot add item 3 (weight 30 > remaining 20).
@@ -11874,7 +11874,7 @@ Representation:
 - **Separate chaining** (). The standard does not mandate a specific collision resolution strategy.
 - **Load factor**: 1.0 by default (`max_load_factor()`).
 - **Bucket count**: power-of-two in libstdc++ (GCC), but not required by the standard.
-- **Rehash policy**: `rehash(n)` sets the bucket count to at least `n``reserve(n)` sets it to
+- **Rehash policy**: `rehash(n)` sets the bucket count to at least `n`, `reserve(n)` sets it to
   accommodate `n` elements without rehashing.
 
 ## Resize and Rehashing
@@ -11921,9 +11921,9 @@ Long chains (Java 8+).
 
 ### 3. Forgetting to Override Both `__hash__` and `__eq__`
 
-In Python, if you override `__eq__` without overriding `__hash__`The class becomes unhashable. If
+In Python, if you override `__eq__` without overriding `__hash__`. The class becomes unhashable. If
 you override `__hash__` without overriding `__eq__`Objects that compare equal may hash to Different
-values. Both must be consistent: if `a == b`Then `hash(a) == hash(b)`.
+values. Both must be consistent: if `a == b`. Then `hash(a) == hash(b)`.
 
 ### 4. Integer Overflow in Hash Computation
 
@@ -13150,7 +13150,7 @@ def _merge(left, right):
 ```
 
 **Stability:** Merge sort is stable because when elements are equal, the element from the left half
-Is chosen first (`left[i] <= right[j]` uses `<=`Not `\lt{}`). This preserves the original relative
+Is chosen first (`left[i] <= right[j]` uses `<=`. Not `\lt{}`). This preserves the original relative
 Order.
 
 ### Quicksort
@@ -14271,7 +14271,7 @@ def is_valid_bst(root):
 
 :::caution
 Insufficient, the BST property requires that **all** values in the left subtree are less than
-`node.val`Not just the immediate left child. A node with value 5, left child with value 1, and
+`node.val`. Not just the immediate left child. A node with value 5, left child with value 1, and
 Left-left grandchild with value 6 fails the BST property but passes the naive check.
 
 ## AVL Trees
@@ -15574,8 +15574,8 @@ def kmp_search(text, pattern):
 
 ### Correctness Proof Sketch
 
-The key invariant: after processing `text[i]`The variable `j` equals the length of the longest
-Prefix of `pattern` that is a suffix of `text[0:i+1]`. When `j == m`We have found a complete match
+The key invariant: after processing `text[i]`. The variable `j` equals the length of the longest
+Prefix of `pattern` that is a suffix of `text[0:i+1]`. When `j == m`. We have found a complete match
 Ending at position `i`. The failure function ensures that we never backtrack in the text, each
 Character of the text is examined at most once, giving $O(n)$ time for the search phase plus $O(m)$
 for preprocessing.
@@ -17502,7 +17502,7 @@ URL: https://tools.wyattau.com/general/dev-environment/dev-environment/
 
 **Why it matters:** The tools you use daily have an outsized impact on your productivity. A fast terminal, a well-configured editor, and efficient shell aliases can save hours per week compared to slow, unconfigured defaults.
 
-**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode, this is not just cosmetic; it enables tools like `bat``fzf`and `neovim` to display syntax highlighting and special characters correctly.
+**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode, this is not just cosmetic; it enables tools like `bat`, `fzf`and `neovim` to display syntax highlighting and special characters correctly.
 
 ## Terminal Emulators
 
@@ -18042,13 +18042,13 @@ nix develop  # Enter the development shell
 - **Homebrew** is the standard package manager: `brew install tmux neovim ripgrep`
 - **Xcode Command Line Tools** required for many builds: `xcode-select --install`
 - **Path differences:** Homebrew installs to `/opt/homebrew` (Apple Silicon) or `/usr/local` (Intel)
-- **BSD utilities:** macOS ships BSD versions of `sed``grep``awk`Etc. Install GNU versions via
-  Homebrew (`gsed``ggrep`) for compatibility with Linux.
+- **BSD utilities:** macOS ships BSD versions of `sed`, `grep`, `awk`. Etc. Install GNU versions via
+  Homebrew (`gsed`, `ggrep`) for compatibility with Linux.
 
 ### Linux Specifics
 
 - **Package manager varies by distro:** `apt` (Debian/Ubuntu), `dnf` (Fedora), `pacman` (Arch)
-- **Systemd** manages services: `systemctl``journalctl`
+- **Systemd** manages services: `systemctl`, `journalctl`
 - **AppArmor/SELinux** may restrict terminal and editor capabilities
 - **Wayland vs X11** affects clipboard integration, screen sharing, and terminal behavior
 
@@ -18930,7 +18930,7 @@ docs_general-notes/
 ### Adding a New Page
 
 1. Create the `.md` or `.mdx` file in the appropriate subdirectory.
-2. Add frontmatter with at minimum `title``date`And `slug`.
+2. Add frontmatter with at minimum `title`, `date` and `slug`.
 3. Assign relevant `tags` and `categories`.
 4. Set `sidebar_position` to control placement relative to siblings.
 5. Run `npm run build` locally to verify there are no build errors before committing.
@@ -19331,7 +19331,7 @@ Criteria for selecting a project to contribute to:
    reading implementation code.
 2. **Use `git log --follow`** to understand the history of a file. The commit messages explain why
    changes were made.
-3. **Use the project"s search tools.** `grep -r``rg`Or the IDE's "Find in Files" to locate where a
+3. **Use the project"s search tools.** `grep -r`, `rg` or the IDE's "Find in Files" to locate where a
    function is defined and used.
 4. **Draw diagrams.** Sketch the component relationships, data flow, or call graph on paper. This
    forces you to understand the structure.
@@ -19418,7 +19418,7 @@ Follow the project's convention (check CONTRIBUTING). Common formats:
 <footer>
 ```
 
-Types: `feat``fix``docs``style``refactor``perf``test``build``ci``chore`
+Types: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`
 
 Example:
 
@@ -19756,7 +19756,7 @@ A welcoming project culture is critical for first-time contributors:
 Start with the highest-level abstraction and work down:
 
 1. **README.md:** What does the project do? How is it structured?
-2. **Entry point:** Where does execution begin? (`main()``index.js``app.py`)
+2. **Entry point:** Where does execution begin? (`main()`, `index.js`, `app.py`)
 3. **Configuration:** What are the default settings? What can be configured?
 4. **Core module:** What is the central abstraction or data structure?
 5. **Plugin/extension points:** How is the system extended?
@@ -20274,7 +20274,7 @@ The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) 
 
 **Implementation for developers:**
 
-- Use a terminal timer: `pomotodo``tomato`Or `tmux` timer plugin
+- Use a terminal timer: `pomotodo`, `tomato` or `tmux` timer plugin
 - During a pomodoro: code, debug, write tests, read documentation. One task.
 - During a break: stand up, stretch, look away from the screen. Do not context-switch to a different
   task.
@@ -21507,7 +21507,7 @@ Renders as ~~This text is struck through.~~
 
 ### Inline Code
 
-`` `Backticks` `` for inline code. For template syntax or generics, escape angle brackets outside
+`` ``, ``Backticks``, `` `` for inline code. For template syntax or generics, escape angle brackets outside
 Code blocks: use `std::vector&lt;int&gt;` in prose.
 
 ### Fenced Code Blocks
@@ -21529,8 +21529,8 @@ Int main() {
 ```
 ````
 
-Supported languages include `python``cpp``java``dart``javascript``typescript``bash`
-`json``yaml``sql`And many more.
+Supported languages include `python`, `cpp`, `java`, `dart`, `javascript`, `typescript`, `bash`
+`json`, `yaml`, `sql` and many more.
 
 ### Line Highlighting
 
@@ -21663,8 +21663,8 @@ Graph TD
 ```
 ````
 
-Supported diagram types include `graph``sequenceDiagram``classDiagram``stateDiagram`
-`erDiagram``gantt``pie`And `flowchart`.
+Supported diagram types include `graph`, `sequenceDiagram`, `classDiagram`, `stateDiagram`
+`erDiagram`, `gantt`, `pie` and `flowchart`.
 
 This site adds a hover zoom effect on Mermaid SVGs via `src/css/custom.css`:
 
@@ -21883,7 +21883,7 @@ Repository integrity, and multi-tree management.
 
 ## Intuition
 
-**Power tools for Git experts:** Advanced Git commands are like power tools in a workshop, you do not need them every day, but when you do, they save hours of manual work. Commands like `git bisect``git stash`and `git worktree` solve specific problems that basic Git cannot handle efficiently.
+**Power tools for Git experts:** Advanced Git commands are like power tools in a workshop, you do not need them every day, but when you do, they save hours of manual work. Commands like `git bisect`, `git stash`and `git worktree` solve specific problems that basic Git cannot handle efficiently.
 
 **Why it matters:** These commands solve real-world problems, `git bisect` finds the exact commit that introduced a bug in minutes instead of hours, `git stash` lets you context-switch without losing work, and `git worktree` lets you work on multiple branches simultaneously.
 
@@ -22769,7 +22769,7 @@ image.png: binary: set
 :::
 
 :::caution
-Line endings. After adding or modifying `.gitattributes`You must re-normalize existing files:
+Line endings. After adding or modifying `.gitattributes`. You must re-normalize existing files:
 
 ```bash
 # Renormalize all files according to new .gitattributes
@@ -23063,7 +23063,7 @@ Incomplete changes.
 
 **Definition.** A linked worktree is a separate directory tree that shares the same object database,
 Refs, and configuration as the main repository. Each worktree has its own working directory, index
-(staging area), and `HEAD`But all write operations go to the same `.git` directory.
+(staging area), and `HEAD`. But all write operations go to the same `.git` directory.
 
 ### Basic Syntax
 
@@ -23242,7 +23242,7 @@ up. The branch that was checked out in the deleted worktree may remain locked un
 ### Overview
 
 The reflog records every movement of branch tips and HEAD. It is Git's primary recovery mechanism
-for operations that seem destructive, such as `git reset --hard``git rebase`Or `git commit --amend`.
+for operations that seem destructive, such as `git reset --hard`, `git rebase` or `git commit --amend`.
 
 ### Basic Syntax
 
@@ -24071,7 +24071,7 @@ Explicitly run `git submodule update --init --recursive` after pulling. Configur
 git config submodule.recurse true
 ```
 
-This makes `git pull``git checkout`And `git switch` also update submodules recursively.
+This makes `git pull`, `git checkout` and `git switch` also update submodules recursively.
 
 ### Worktree and Branch Conflicts
 
@@ -24459,8 +24459,8 @@ credentials.json
 
 ### What NOT to Ignore
 
-- Configuration files that others need (`.eslintrc.json``tsconfig.json`).
-- Lockfiles (`package-lock.json``yarn.lock``Cargo.lock`).
+- Configuration files that others need (`.eslintrc.json`, `tsconfig.json`).
+- Lockfiles (`package-lock.json`, `yarn.lock`, `Cargo.lock`).
 - `.gitignore` itself.
 
 ### Global `.gitignore`
@@ -24839,7 +24839,7 @@ In the graph above:
 
 - `main` points to commit `F`.
 - `feature` points to commit `E`.
-- Commits `A``B``C` are shared by both branches, no duplication.
+- Commits `A`, `B`, `C` are shared by both branches, no duplication.
 - Commit `D` and `E` are only reachable from `feature`.
 - Commit `F` is only reachable from `main`.
 
@@ -25479,7 +25479,7 @@ $ git rebase --onto HEAD a3f2b1c^ a3f2b1c
 ```
 
 But rebase operates on the entire state of the branch. If you are on `main` and want one commit from
-`feature``git rebase --onto` requires you to specify the correct base and range, which is more
+`feature`, `git rebase --onto` requires you to specify the correct base and range, which is more
 Error-prone than a simple cherry-pick.
 
 ## Dangers of Cherry-Pick
@@ -26160,7 +26160,7 @@ $ git commit -S ABCDEF1234567890 -m "feat: add user authentication"
 ```
 
 The `-S` flag (capital S, for "Sign") tells Git to attach a cryptographic signature to the commit.
-Without `-S`The commit is unsigned.
+Without `-S`. The commit is unsigned.
 
 ### Automatic Signing
 
@@ -26981,7 +26981,7 @@ package-lock.json merge=ours
 
 This is particularly useful for:
 
-- **Lockfiles** (`package-lock.json``yarn.lock`): Always keep one version to avoid corruption.
+- **Lockfiles** (`package-lock.json`, `yarn.lock`): Always keep one version to avoid corruption.
 - **Generated files**: Use the generating tool to produce the correct output.
 
 ## Handling Specific Conflict Types
@@ -27163,7 +27163,7 @@ Filter-repo is a tool for rewriting Git history that replaces the deprecated and
 ## What filter-repo Is
 
 `git-filter-repo` is a Python-based tool for rewriting Git repository history. It is the modern,
-Recommended replacement for `git filter-branch`Which has been deprecated since Git 2.24 (December
+Recommended replacement for `git filter-branch`. Which has been deprecated since Git 2.24 (December
 2019). `git-filter-repo` was written by Elijah Newren, a Git core contributor, and addresses the
 Fundamental design flaws of `filter-branch`.
 
@@ -27281,7 +27281,7 @@ $ git filter-repo --path-glob '*.pem' --invert-paths
 ```
 
 The `--invert-paths` flag inverts the selection: `--path X --invert-paths` means "keep everything
-except X." Without `--invert-paths``--path X` means "keep only X."
+except X." Without `--invert-paths`, `--path X` means "keep only X."
 
 After removing files, commits that become empty (they only touched the removed files) are also
 Removed. This is the desired behavior, but it can be surprising if you expected those Commits to
@@ -27427,7 +27427,7 @@ EOF
 
 ### Replacement References
 
-In regex replacements, `\1``\2`Etc. Reference captured groups:
+In regex replacements, `\1`, `\2`. Etc. Reference captured groups:
 
 ```
 # Mask the password but keep the username and host
@@ -27774,7 +27774,7 @@ $ git verify-commit HEAD
 error: no signature found
 ```
 
-If `commit.gpgsign = true`You can re-sign all commits during the rewrite using a callback, but This
+If `commit.gpgsign = true`. You can re-sign all commits during the rewrite using a callback, but This
 is complex and not recommended for most use cases.
 
 ### CI/CD Build Caches
@@ -27812,7 +27812,7 @@ $ cd /tmp/repo-clean
 $ git filter-repo --path secret.key --invert-paths
 ```
 
-If you must run on an existing clone, use `--force`But understand the risks:
+If you must run on an existing clone, use `--force`. But understand the risks:
 
 ```bash
 git filter-repo --path secret.key --invert-paths --force
@@ -27833,7 +27833,7 @@ $ git filter-repo --replace-text /tmp/expressions.txt
 
 ### Not Verifying the Result
 
-After running `filter-repo`Always verify that:
+After running `filter-repo`. Always verify that:
 
 - The secret is completely removed from all history
 - The repository builds and tests pass
@@ -28093,7 +28093,7 @@ Unnamed repository; edit this file "description' to name the repository.
 
 ### info/exclude
 
-Local gitignore rules that are **not shared** with other developers (unlike `.gitignore`Which is
+Local gitignore rules that are **not shared** with other developers (unlike `.gitignore`. Which is
 tracked):
 
 ```bash
@@ -28411,7 +28411,7 @@ must always produce the same tree hash.
 :::
 
 :::caution
-means `src` sorts as `src/`Which places it before `src-file` but after `src0`. This detail matters
+means `src` sorts as `src/`. Which places it before `src-file` but after `src0`. This detail matters
 if you are manually constructing tree objects.
 
 ## Commits
@@ -28465,7 +28465,7 @@ In this graph:
 - `A` is the **root commit** (no parent).
 - `B` and `E` are **linear commits** (one parent each).
 - `F` is a **merge commit** (parents: `E` and `D`).
-- `main` points to `G``feature` points to `D`.
+- `main` points to `G`, `feature` points to `D`.
 
 ### Author vs Committer
 
@@ -28906,7 +28906,7 @@ Cleanup.
 
 The [Actions Marketplace](https://github.com/marketplace?type=actions) provides community-maintained
 and official actions. First-party actions live under the `actions/` organization (e.g.,
-`actions/checkout@v4``actions/cache@v4``actions/upload-artifact@v4`). Third-party actions should Be
+`actions/checkout@v4`, `actions/cache@v4`, `actions/upload-artifact@v4`). Third-party actions should Be
 audited for supply-chain security before adoption.
 
 ---
@@ -29612,7 +29612,7 @@ this:
 1. Navigate to **Settings &gt; Branches &gt; Branch protection rules**
 2. Select the target branch (e.g., `main`)
 3. Enable **Require status checks to pass before merging**
-4. Add the job names as required checks (e.g., `lint``test``security`)
+4. Add the job names as required checks (e.g., `lint`, `test`, `security`)
 
 Jobs must have unique names across the workflow for status checks to identify them correctly.
 
@@ -30098,7 +30098,7 @@ Approves. Reviewers must have write access to the repository.
 Branch protection can require specific workflow jobs to pass. Combine this with environment
 Protection for defense-in-depth:
 
-1. **Branch protection**: requires `test``lint`And `security` jobs to pass
+1. **Branch protection**: requires `test`, `lint` and `security` jobs to pass
 2. **Environment protection**: requires manual approval for the `production` environment
 
 ### Wait Timer
@@ -30116,7 +30116,7 @@ Deployment protection can be combined with branch restrictions to ensure only sp
 Deploy to an environment:
 
 1. **Settings &gt; Environments &gt; production &gt; Deployment branches and tags**
-2. Select "Selected branches and tags" and choose the allowed branches (e.g., `main``release/*`)
+2. Select "Selected branches and tags" and choose the allowed branches (e.g., `main`, `release/*`)
 
 ### Deployment Protection with OIDC
 
@@ -30314,7 +30314,7 @@ Pull requests from forks run in the context of the fork, which means:
 - `write` permissions on `GITHUB_TOKEN` are silently downgraded to `read`
 
 If a workflow must access secrets on fork PRs, use a separate workflow triggered by
-`pull_request_target`Which runs in the context of the base repository. However, this introduces a
+`pull_request_target`. Which runs in the context of the base repository. However, this introduces a
 Security risk: an untrusted fork can exfiltrate secrets by modifying the checked-out code. Always
 Pin the checkout ref explicitly:
 
@@ -30338,7 +30338,7 @@ Building a container image from a Dockerfile without running it).
 
 ### Mutable Checkout Ref on pull_request_target
 
-When using `pull_request_target`The default checkout is the base branch, not the PR head. To check
+When using `pull_request_target`. The default checkout is the base branch, not the PR head. To check
 out the PR head:
 
 ```yaml
@@ -30434,7 +30434,7 @@ Cheaper.
 
 Git has several properties that make collision attacks harder than generic SHA-1 collisions:
 
-1. **Object headers**: Git hashes `"<type> <size>\0<content>"`Not raw content. An attacker must
+1. **Object headers**: Git hashes `"<type> <size>\0<content>"`. Not raw content. An attacker must
    collide the full header+content.
 2. **Detect checks**: `git fsck` detects objects whose hash does not match their content.
 3. **Collision detection**: Git includes collision detection code that detects SHAttered-style
@@ -30622,7 +30622,7 @@ Git aborts the operation, this is the entire enforcement mechanism.
 Hooks are divided into two categories based on where they execute:
 
 **Client-side hooks** run on the local machine performing the Git operation. They are triggered by
-Commands like `git commit``git push``git checkout`And `git rebase`. Client-side hooks cannot Be
+Commands like `git commit`, `git push`, `git checkout` and `git rebase`. Client-side hooks cannot Be
 enforced remotely, a user with filesystem access can always bypass them with `--no-verify`. Their
 purpose is **convenience and local policy**, not security.
 
@@ -30687,7 +30687,7 @@ error: failed to push some refs to 'origin'
 hint: Updates were rejected because the pre-push hook exited with error code 1.
 ```
 
-Post-hooks (`post-commit``post-receive`Etc.) are informational. If a post-hook fails, Git prints A
+Post-hooks (`post-commit`, `post-receive`. Etc.) are informational. If a post-hook fails, Git prints A
 warning but does **not** abort the operation, the commit or push has already succeeded.
 
 ## Client-Side Hooks
@@ -30850,7 +30850,7 @@ fi
 
 ### post-checkout
 
-This hook fires after `git checkout``git switch`Or `git clone`. It receives the previous HEAD, The
+This hook fires after `git checkout`, `git switch` or `git clone`. It receives the previous HEAD, The
 new HEAD, and a flag indicating whether it was a branch checkout (1) or a file checkout (0):
 
 ```bash
@@ -30984,7 +30984,7 @@ exit 0
 ### update
 
 The `update` hook runs **once per ref** being updated. It receives three arguments: the ref name,
-The old SHA, and the new SHA. Unlike `pre-receive`This hook can reject individual refs without
+The old SHA, and the new SHA. Unlike `pre-receive`. This hook can reject individual refs without
 Rejecting the entire push:
 
 ```bash
@@ -31045,7 +31045,7 @@ echo "Running pre-commit checks..."
 exit 0
 ```
 
-The shebang line matters. If you write `#!/bin/bash`The hook will fail on systems where bash is Not
+The shebang line matters. If you write `#!/bin/bash`. The hook will fail on systems where bash is Not
 at `/bin/bash` (Alpine Linux, for example). Use `#!/usr/bin/env bash` for portability.
 
 ### Python Scripts
@@ -31134,7 +31134,7 @@ Repository and the operation in progress:
 | `GIT_REFLOG_ACTION`   | All hooks       | The operation being performed               |
 
 **Important**: the `PATH` environment variable in hooks is often minimal. If your hook invokes tools
-Like `eslint``shellcheck`Or custom binaries, they may not be found. Either use absolute paths or
+Like `eslint`, `shellcheck` or custom binaries, they may not be found. Either use absolute paths or
 Explicitly set `PATH` at the top of your hook:
 
 ```bash
@@ -31347,7 +31347,7 @@ repos:
 ```
 
 The `language` field determines how the hook is executed. `system` runs the entry directly on the
-Host. Other options include `python``node``docker`And `docker_image` for sandboxed execution.
+Host. Other options include `python`, `node`, `docker` and `docker_image` for sandboxed execution.
 
 ## Hook Debugging
 
@@ -31452,19 +31452,19 @@ $ chmod +x .githooks/pre-commit
 
 ### PATH Differences in Hooks
 
-Hooks run with a minimal `PATH`. Tools installed in `~/.local/bin``~/go/bin`Or via `nvm` may not Be
+Hooks run with a minimal `PATH`. Tools installed in `~/.local/bin`, `~/go/bin` or via `nvm` may not Be
 found. Always explicitly set `PATH` or use absolute paths to tools in your hook scripts.
 
 ### pre-commit Sees Staged Content, Not Working Tree
 
 If you edit a file after staging it, the hook inspects the **staged** version. This causes confusion
-when developers run `git add file.py`Then fix a lint error, then commit, the hook still sees the
+when developers run `git add file.py`. Then fix a lint error, then commit, the hook still sees the
 Old staged content. Run `git add` again after fixing.
 
 ### Hooks Do Not Apply to Amended Commits by Default
 
 `git commit --amend` does trigger `pre-commit` and `commit-msg` hooks, but the `prepare-commit-msg`
-Hook receives `COMMIT_SOURCE=commit`Which is the same as a new commit. If your hook tries to Inject
+Hook receives `COMMIT_SOURCE=commit`. Which is the same as a new commit. If your hook tries to Inject
 a ticket number based on the branch, it may double-inject on amend. Check for the amend case:
 
 ```bash
@@ -31494,7 +31494,7 @@ Hooks that scan every staged file can be slow in large repositories. Mitigate th
 1. Using glob patterns to limit which files each hook processes
 2. Running hooks in parallel (Lefthook does this automatically)
 3. Caching results (the `pre-commit` framework caches hook results and skips unchanged files)
-4. Only running expensive checks (full test suites) on `pre-push`Not `pre-commit`
+4. Only running expensive checks (full test suites) on `pre-push`. Not `pre-commit`
 
 ### Windows Line Endings in Hooks
 
@@ -31692,7 +31692,7 @@ Proprietary license for BitKeeper was revoked. The design constraints of the Lin
 Shaped Git's architecture.
 
 :::note
-Here (e.g., `git switch``git restore`Sparse checkout) are unavailable in older versions.
+Here (e.g., `git switch`, `git restore`Sparse checkout) are unavailable in older versions.
 
 ## Design Philosophy
 
@@ -31704,7 +31704,7 @@ Workflow:
 Every repository clone contains the **complete object database**, every commit, every tree, every
 Blob. This means:
 
-- **Offline operation**: `git log``git diff``git blame``git show` all work without network access.
+- **Offline operation**: `git log`, `git diff`, `git blame`, `git show` all work without network access.
   You can commit, branch, and merge entirely offline.
 - **Speed**: Local operations read from the filesystem, not the network. `git log` on a cold
   repository scans the local object store.
@@ -31750,7 +31750,7 @@ plus header**. This means:
 
 ### 4. Nearly Every Operation is Local
 
-With the exception of `git fetch``git pull``git push``git clone`And `git ls-remote`Every Git
+With the exception of `git fetch`, `git pull`, `git push`, `git clone` and `git ls-remote`. Every Git
 operation works on local data. This was a hard requirement for the Linux kernel workflow, where
 Contributors on dial-up connections needed to work efficiently.
 
@@ -32090,7 +32090,7 @@ The `ort` ("Ostensibly Recursive's Twin") strategy is a from-scratch rewrite of 
 Strategy. It produces identical merge results but with significant improvements:
 
 - **Performance**: $2\times$–$10\times$ faster on large repositories (Chromium, Android).
-- **Conflict markers**: Clearer conflict markers with section headers (`<<<<<<< HEAD``=======`
+- **Conflict markers**: Clearer conflict markers with section headers (`<<<<<<< HEAD`, `=======`
   `>>>>>>> branch`).
 - **Rename detection**: More accurate rename detection.
 - **Memory usage**: Lower peak memory consumption.
@@ -32667,9 +32667,9 @@ hooks:
     types: [json]
 ```
 
-Common file types: `file``symlink``directory``text``binary``python``ruby``javascript`
-`jsx``typescript``tsx``shell``yaml``json``toml``xml``html``css``markdown`
-`dockerfile``c``cpp``go``rust``java`.
+Common file types: `file`, `symlink`, `directory`, `text`, `binary`, `python`, `ruby`, `javascript`
+`jsx`, `typescript`, `tsx`, `shell`, `yaml`, `json`, `toml`, `xml`, `html`, `css`, `markdown`
+`dockerfile`, `c`, `cpp`, `go`, `rust`, `java`.
 
 ### Stages
 
@@ -32940,7 +32940,7 @@ repos:
 
 A hook is any executable that:
 
-1. Receives filenames as arguments (when `pass_filenames: true`Which is the default).
+1. Receives filenames as arguments (when `pass_filenames: true`. Which is the default).
 2. Reads from stdin if it needs to process piped content.
 3. Exits with code 0 on success, non-zero on failure.
 4. Prints diagnostics to stdout or stderr (stderr is preferred for error messages).
@@ -33407,7 +33407,7 @@ Mirror repo's release page and compare with the upstream release before pinning 
 ### Multiple Hooks Modifying the Same File
 
 When two hooks both modify the same file (e.g., `black` reformats and `isort` reorders imports), the
-Order matters. If `isort` runs after `black`It may reformat in a way that `black` would change. The
+Order matters. If `isort` runs after `black`. It may reformat in a way that `black` would change. The
 framework runs hooks in the order they appear in the configuration. Order your hooks so that the
 Last modifier is the one whose output is canonical:
 
@@ -33434,7 +33434,7 @@ chmod +x scripts/check-no-debug.sh
 
 ### The `exclude` Pattern Applies to the Full File Path
 
-When you write `exclude: 'vendor/'`It matches the full path relative to the repository root, not
+When you write `exclude: 'vendor/'`. It matches the full path relative to the repository root, not
 just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
 `pre-commit run --verbose` to see which files are being passed to each hook.
 
@@ -33639,11 +33639,11 @@ When reviewing a PR, focus on:
 
 Configure GitHub to require certain checks before a PR can be merged:
 
-1. **Tests**: `npm test``cargo test``pytest`Etc.
-2. **Linting**: `eslint``clang-tidy``flake8`Etc.
-3. **Type checking**: `tsc --noEmit``mypy`Etc.
-4. **Build**: `npm run build``cargo build`Etc.
-5. **Security**: `npm audit``snyk test`Etc.
+1. **Tests**: `npm test`, `cargo test`, `pytest`. Etc.
+2. **Linting**: `eslint`, `clang-tidy`, `flake8`. Etc.
+3. **Type checking**: `tsc --noEmit`, `mypy`. Etc.
+4. **Build**: `npm run build`, `cargo build`. Etc.
+5. **Security**: `npm audit`, `snyk test`. Etc.
 
 ### Branch Protection Rules
 
@@ -33927,7 +33927,7 @@ pick e5f6a7b Update tests
 
 ### Rebase Actions
 
-#### `pick`Use Commit As-Is
+#### `pick`. Use Commit As-Is
 
 The default action. The commit is replayed onto the new base without modification.
 
@@ -33979,7 +33979,7 @@ commit before merging. This keeps the history clean and meaningful.
 
 #### `fixup`Squash Without Editing
 
-Like `squash`But discards the commit message of the squashed commit. The combined commit retains
+Like `squash`. But discards the commit message of the squashed commit. The combined commit retains
 only the message of the previous commit. This is faster when you have many small commits to fold in:
 
 ```
@@ -34097,7 +34097,7 @@ For most teams, a hybrid approach works best:
   rebase.
 - **Merging into `main`**: Use `git merge --no-ff` to create a merge commit (preserves branch
   topology).
-- **Shared branches** (`develop``staging`): Never rebase. Always merge.
+- **Shared branches** (`develop`, `staging`): Never rebase. Always merge.
 - **Personal branches**: Rebase freely, no one else is affected.
 
 ```bash
@@ -34201,7 +34201,7 @@ URL: https://tools.wyattau.com/git/02-fundamentals/03-references/
 
 ## Intuition
 
-**Name tags for commits:** References are like name tags stuck on specific commits, without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main``HEAD`and `v1.0` to navigate the commit graph.
+**Name tags for commits:** References are like name tags stuck on specific commits, without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main`, `HEAD`and `v1.0` to navigate the commit graph.
 
 **Why it matters:** Without references, you would need to remember 40-character SHA-1 hashes to do anything in Git. References make the history navigable and enable workflows like feature branches and releases.
 
@@ -34213,7 +34213,7 @@ A reference (or "ref") is a named pointer to a Git object, almost always a commi
 what make Git's object graph navigable. Without them, commits would exist as isolated objects with
 no way to find them (except by hash).
 
-References are stored as plain text files under `.git/refs/`Each containing a 40-character SHA-1
+References are stored as plain text files under `.git/refs/`. Each containing a 40-character SHA-1
 Hash:
 
 ```
@@ -34335,7 +34335,7 @@ the distinction between lightweight and annotated tags.
 
 Remote-tracking references are stored at `.git/refs/remotes/<remote>/<branch>` and represent the
 State of branches on a remote repository as of the last `git fetch`. They are updated automatically
-by `git fetch` and `git pull`But **never** by local commits.
+by `git fetch` and `git pull`. But **never** by local commits.
 
 ```bash
 # Show remote-tracking branches
@@ -34443,8 +34443,8 @@ a3f2b1c0 HEAD@{3}: commit: Initial commit
 
 ### Reflog as a Safety Net
 
-The reflog is your primary recovery mechanism. Even after `git reset --hard``git rebase`Or
-`git commit --amend`The old commits are still in the object store and reachable via the reflog:
+The reflog is your primary recovery mechanism. Even after `git reset --hard`, `git rebase` or
+`git commit --amend`. The old commits are still in the object store and reachable via the reflog:
 
 ```bash
 # View the reflog for HEAD
@@ -34501,7 +34501,7 @@ File.
 
 ## Reference Resolution Order
 
-When you pass a name to Git (e.g., `main``origin/main``HEAD~3`), it resolves it through a Defined
+When you pass a name to Git (e.g., `main`, `origin/main`, `HEAD~3`), it resolves it through a Defined
 search order:
 
 ```mermaid
@@ -34578,7 +34578,7 @@ flowchart TD
 The **reflog** (reference log) is Git's built-in safety net. It records every change to the HEAD
 reference and to each branch reference, creating a chronological audit trail of all movements in the
 repository. Even after operations that appear destructive,
-`git reset --hard``git rebase``git commit --amend`the reflog retains a record of where the
+`git reset --hard`, `git rebase`, `git commit --amend`the reflog retains a record of where the
 references were before.
 
 Think of the reflog as Git's **undo history**. While `git log` shows the commit history (the DAG),
@@ -34934,7 +34934,7 @@ $ git config --global pull.rebase true
 
 ### Why `--rebase` is Better
 
-Without `--rebase``git pull` creates a merge commit for every pull, cluttering the history:
+Without `--rebase`, `git pull` creates a merge commit for every pull, cluttering the history:
 
 ```mermaid
 gitGraph
@@ -35106,7 +35106,7 @@ The clone creates:
 ## Remote-Tracking Branches
 
 Remote-tracking branches (e.g., `origin/main`) are local references that represent the state of a
-remote branch as of the last `git fetch`. They are updated automatically by `fetch` and `pull`But
+remote branch as of the last `git fetch`. They are updated automatically by `fetch` and `pull`. But
 **never by local commits**.
 
 ```mermaid
@@ -35488,7 +35488,7 @@ src/tests/
 src/utils/
 ```
 
-After `git sparse-checkout init --cone`The working tree is emptied except for the directories you
+After `git sparse-checkout init --cone`. The working tree is emptied except for the directories you
 Explicitly include. The `.git` directory retains all objects and refs, only the working tree is
 Filtered.
 
@@ -35615,7 +35615,7 @@ Receiving objects: 100% (3000/3000), done.  # Much smaller!
 ```
 
 The initial download includes all commit objects and tree objects (directory structures) but no file
-Content. When you run `git log``git diff``git status`Or `git show`Git transparently fetches The
+Content. When you run `git log`, `git diff`, `git status` or `git show`Git transparently fetches The
 blobs it needs:
 
 ```bash
@@ -36621,7 +36621,7 @@ Date:   Mon Jun 2 10:00:00 2025 +0000
  create mode 100644 vendor/lib/Makefile
 ```
 
-With `--squash`The framework creates a single merge commit whose tree contains the subtree files.
+With `--squash`. The framework creates a single merge commit whose tree contains the subtree files.
 The synthetic commit message records the upstream commit SHA that was squashed. This is critical,
 It is the bookmark that `git subtree pull` uses to find the starting point for the next pull.
 
@@ -36631,7 +36631,7 @@ It is the bookmark that `git subtree pull` uses to find the starting point for t
 git subtree add --prefix=vendor/lib https://github.com/org/library.git main
 ```
 
-Without `--squash`Every upstream commit is replayed as a separate commit in the parent repository.
+Without `--squash`. Every upstream commit is replayed as a separate commit in the parent repository.
 The commit messages are preserved, and `git log` shows the full interleaved history:
 
 ```bash
@@ -36869,7 +36869,7 @@ Used when you have made changes to the subtree locally and want to push them ups
 $ git subtree split --prefix=vendor/lib --rejoin -b lib-only
 ```
 
-After `--rejoin`The current branch has a new merge commit that ties the split history back to the
+After `--rejoin`. The current branch has a new merge commit that ties the split history back to the
 Parent. This enables subsequent `git subtree push` operations to find the correct starting point.
 
 ### Limitations of Split
@@ -37050,9 +37050,9 @@ Conflict, edit the files, stage them, commit. But the experience is worse than a
 because:
 
 - The conflict markers appear in files you may not fully understand (they are upstream code).
-- If you used `--squash`The conflict is between your local changes and a squash commit containing
+- If you used `--squash`. The conflict is between your local changes and a squash commit containing
   all upstream changes since the last pull. This can be a large diff.
-- If you did not use `--squash`The conflict is between your local changes and individual upstream
+- If you did not use `--squash`. The conflict is between your local changes and individual upstream
   commits, which can be easier to resolve incrementally.
 
 ### Large Repository Bloat
@@ -37109,7 +37109,7 @@ Want.
 
 ### Subtree Commands Are Slow for Large Prefixes
 
-`git subtree add``pull`And `push` all involve `git fetch``git read-tree`And `git merge`. For Large
+`git subtree add`, `pull` and `push` all involve `git fetch`, `git read-tree` and `git merge`. For Large
 subtrees (thousands of files), these operations can be slow. The framework does not support Partial
 subtree operations, you always operate on the entire prefix. If performance is a concern And the
 upstream is large, submodules may be a better choice.
@@ -37199,7 +37199,7 @@ overloaded in Git terminology, see [Git Objects](/git/02-fundamentals/02-git-obj
    graph of objects.
 
 Almost every Git command is a transformation between these three trees. Understanding this model
-makes Git's behavior predictable, even for commands that appear confusing (like `git checkout`Which
+makes Git's behavior predictable, even for commands that appear confusing (like `git checkout`. Which
 can mean different things depending on context).
 
 ```mermaid
@@ -37306,7 +37306,7 @@ contains:
   SHA-1 hashes.
 - **References** (`.git/refs/`): Named pointers to commits, branches, tags, HEAD.
 - **Configuration** (`.git/config`): Repository-local settings.
-- **Various metadata**: `description``info/exclude``hooks/`Etc.
+- **Various metadata**: `description`, `info/exclude`, `hooks/`. Etc.
 
 The repository is the **authoritative source of truth** for the project's history. The working
 directory and index are derived from it; they are caches that can be reconstructed at any time.
@@ -38320,7 +38320,7 @@ $ git config --global credential.helper cache
 
 ### Committing SSH Private Keys to a Repository
 
-The private key file (`id_ed25519``id_rsa`) must never be committed. It provides full access to
+The private key file (`id_ed25519`, `id_rsa`) must never be committed. It provides full access to
 every service where the public key is registered.
 
 ```bash
@@ -38352,7 +38352,7 @@ $ git config --global credential.helper 'cache --timeout=900'
 
 ### Hardcoding Tokens in CI/CD Configuration Files
 
-Storing tokens directly in `.github/workflows/*.yml``.gitlab-ci.yml`Or `Jenkinsfile` is a Security
+Storing tokens directly in `.github/workflows/*.yml`, `.gitlab-ci.yml` or `Jenkinsfile` is a Security
 risk. Use the platform's secret management:
 
 ```bash
@@ -40094,7 +40094,7 @@ Copyleft obligations:
   files for the non-LGPL portions and a mechanism for the user to re-link
 
 **Dynamic linking:** The library code is loaded at runtime from a separate shared object (`.so`
-`.dll``.dylib`). The executable and the library remain separate files. The legal status is Debated:
+`.dll`, `.dylib`). The executable and the library remain separate files. The legal status is Debated:
 
 - **FSF position (for GPL):** Dynamic linking to a GPL library creates a derivative work, triggering
   copyleft obligations for the entire application. This is the FSF's interpretation, but it has
@@ -40195,15 +40195,15 @@ your dependency tree and to identify compliance risks before they become legal p
 - **SPDX (Software Package Data Exchange)**, a standard format (ISO/IEC 5962:2021) for
   communicating software bill of materials (SBOM) and license information. The SPDX License List at
   spdx.org/licenses/ provides canonical, standardized identifiers for every known license. These
-  identifiers can be used in `package.json``Cargo.toml``pyproject.toml`And other package manifests.
+  identifiers can be used in `package.json`, `Cargo.toml`, `pyproject.toml` and other package manifests.
 - **FOSSA, Snyk, Black Duck**, commercial dependency scanning tools that provide license compliance
   reports, vulnerability scanning, and SBOM generation.
 
 **Manual approaches:**
 
 - Check the `LICENSE` file in each dependency's source repository
-- Review package manifest files for license metadata (`license` field in `package.json``license`
-  field in `Cargo.toml``license` field in `go.mod`)
+- Review package manifest files for license metadata (`license` field in `package.json`, `license`
+  field in `Cargo.toml`, `license` field in `go.mod`)
 - Cross-reference with the SPDX License List to ensure the declared license matches the actual
   license text
 
@@ -40297,7 +40297,7 @@ A condition of the license grant. Failing to include license notices in your shi
 your downstream recipients do not have a valid license to use the software, and you are committing
 Copyright infringement. In practice, your binary distribution must include a `LICENSE` file, a
 `NOTICE` file (for Apache 2.0), or equivalent documentation containing all applicable license texts
-and copyright notices. Automate this, tools like `licensee``go-licenses`And `pip-licenses` can
+and copyright notices. Automate this, tools like `licensee`, `go-licenses` and `pip-licenses` can
 Generate license notice bundles for your distribution.
 
 ## Further Reading

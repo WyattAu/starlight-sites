@@ -62,7 +62,7 @@ Arbitrarily many adaptors without paying any cost until you actually consume the
 #### Proof That Views Are Lazy
 
 **Theorem.** For a range adaptor pipeline
-`source | views::filter(pred) | views::transform(f) | views::take(n)`No element evaluation occurs At
+`source | views::filter(pred) | views::transform(f) | views::take(n)`. No element evaluation occurs At
 pipeline construction time; all computation is deferred to iteration.
 
 **Proof.** We reason about the implementation model mandated by the standard [N4950 §26.5.2].
@@ -436,7 +436,7 @@ int main() {
 ```
 
 The key rule: **a view must not outlive the range it references**. This is analogous to the rule for
-References and pointers. Owning ranges (`std::vector``std::string`) are safe as sources; temporary
+References and pointers. Owning ranges (`std::vector`, `std::string`) are safe as sources; temporary
 Ranges created inline are dangerous because their lifetime ends at the semicolon.
 
 ### Borrowed Ranges and the `borrowed_range` Concept
@@ -674,12 +674,12 @@ int main() {
 ```
 
 Each adaptor (e.g., `std::views::filter(pred)`) returns a closure type that stores `pred`. When
-Piped with `|`The closure's `operator()` is called with the range, producing the view. This design
+Piped with `|`. The closure's `operator()` is called with the range, producing the view. This design
 Allows adaptors to be named, stored, composed, and reused independently of any specific range --- a
 Form of partial application at the type level.
 
 The type-erased composition is achieved through `operator|` overloads. Given a range `r` and a
-Closure `c``r | c` is equivalent to `c(r)`. Given two closures `c1` and `c2``c1 | c2` produces a New
+Closure `c`, `r | c` is equivalent to `c(r)`. Given two closures `c1` and `c2`, `c1 | c2` produces a New
 closure that, when applied to a range `r`Evaluates as `c2(c1(r))` --- function composition in The
 standard mathematical sense [N4950 §26.5.2].
 

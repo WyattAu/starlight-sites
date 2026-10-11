@@ -19,7 +19,7 @@ Strings but creates unnecessary overhead when strings are passed between functio
 Inspected without modification.
 
 C++17 introduced `std::string_view` to solve this problem: a non-owning, lightweight reference to
-Contiguous character data. This module covers the ownership model of `std::string`The mechanics of
+Contiguous character data. This module covers the ownership model of `std::string`. The mechanics of
 Small String Optimization (SSO), and the lifetime hazards inherent in using non-owning views.
 
 ## 1. `std::string` Ownership Model
@@ -221,7 +221,7 @@ std::string_view filename = path.substr(path.rfind('/') + 1);
 // filename == "app", points into 'path' storage
 ```
 
-This is the primary performance advantage over `std::string::substr`Which returns a new
+This is the primary performance advantage over `std::string::substr`. Which returns a new
 `std::string` and always allocates.
 
 ## 4. Lifetime Dangers: Dangling References
@@ -690,7 +690,7 @@ void danger() \{
 
 ### Pitfall 9: `string_view` Comparison Semantics
 
-`string_view` comparison uses `char_traits::compare`Which compares character-by-character. This is
+`string_view` comparison uses `char_traits::compare`. Which compares character-by-character. This is
 Correct for ASCII and UTF-8 byte equality but does **not** perform Unicode-aware comparison (e.g.,
 Case folding, normalization, locale-dependent ordering):
 

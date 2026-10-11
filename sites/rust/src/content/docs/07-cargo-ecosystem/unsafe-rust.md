@@ -562,7 +562,7 @@ Exercises edge cases that hand-written tests may miss.
 
 1. **FFI**. Calling C functions or exposing Rust functions to C
 2. **Performance-critical code**. After profiling shows a bottleneck
-3. **Implementing safe abstractions**, `Vec``String``Box` are all implemented with `unsafe`
+3. **Implementing safe abstractions**, `Vec`, `String`, `Box` are all implemented with `unsafe`
 4. **Interfacing with hardware**. Memory-mapped I/O, raw device access
 5. **Custom allocators**. Implementing `GlobalAlloc`
 
@@ -597,7 +597,7 @@ Exercises edge cases that hand-written tests may miss.
    behavior that may not manifest in normal testing.
 
 7. **Over-large `unsafe` blocks.** Keep `unsafe` blocks as small as possible. Each block should
-   contain exactly the operations that require `unsafe`With clear comments explaining why they are
+   contain exactly the operations that require `unsafe`. With clear comments explaining why they are
    safe.
 
 8. **Assuming layout.** Unless `#[repr(C)]` is specified, the compiler may reorder struct fields and

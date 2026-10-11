@@ -41,14 +41,14 @@ Key operations:
 
 ### How `wait()` Works Internally
 
-When a thread calls `wait(lock)`The following sequence occurs:
+When a thread calls `wait(lock)`. The following sequence occurs:
 
 1. The thread atomically releases the mutex and blocks.
 2. When notified (or spuriously woken), the thread re-acquires the mutex before returning.
 3. The atomicity of "release mutex + block" is critical. Without it, a notification sent between
    the mutex release and the block would be lost.
 
-On Linux, `std::condition_variable` is implemented using `pthread_cond_t`Which uses the Futex system
+On Linux, `std::condition_variable` is implemented using `pthread_cond_t`. Which uses the Futex system
 call. The mutex is released atomically with the futex wait via `pthread_cond_wait` Which internally
 calls `futex_wait` with the mutex address as part of the wait queue.
 
@@ -225,7 +225,7 @@ int main() {
 The predicate version of `wait_for` returns `true` if the predicate became `true` before the
 Timeout, and `false` if the timeout expired (regardless of whether the predicate is true at that
 Point). Without the predicate, `wait_for` returns `cv_status::no_timeout` if notified or
-`cv_status::timeout` if the timeout expired, spurious wakeups return `no_timeout`Which is another
+`cv_status::timeout` if the timeout expired, spurious wakeups return `no_timeout`. Which is another
 Reason to always use the predicate version.
 
 ## Producer-Consumer with Condition Variable

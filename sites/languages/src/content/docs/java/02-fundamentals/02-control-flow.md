@@ -112,8 +112,8 @@ The fall-through behavior is **intentional** and documented in
 Grouping multiple cases that share the same logic (as shown for days 6 and 7 above). However,
 Accidental fall-through is one of the most common sources of bugs in Java code.
 
-The supported types for traditional switch are: `byte``short``char``int`Their wrapper Classes
-(`Byte``Short``Character``Integer`), `String` (since Java 7), and enums (since Java 5).
+The supported types for traditional switch are: `byte`, `short`, `char`, `int`. Their wrapper Classes
+(`Byte`, `Short`, `Character`, `Integer`), `String` (since Java 7), and enums (since Java 5).
 
 :::danger
 Declared in one `case` scope leak into subsequent cases, and the entire construct is
@@ -342,7 +342,7 @@ Loop body must run before the condition can be evaluated (e.g., reading input be
 
 ### Unlabeled break and continue
 
-`break` exits the innermost enclosing `switch``for``while`Or `do-while` statement. `continue` Skips
+`break` exits the innermost enclosing `switch`, `for`, `while` or `do-while` statement. `continue` Skips
 to the next iteration of the innermost enclosing loop.
 
 ```java
@@ -402,7 +402,7 @@ Loop and switch statements can be the target of `break`And only loops can be the
 ### The Exception Hierarchy
 
 Java's exception system is rooted at `java.lang.Throwable`. The hierarchy divides into two main
-Branches: `Error` and `Exception`With the latter further subdivided into checked and unchecked
+Branches: `Error` and `Exception`. With the latter further subdivided into checked and unchecked
 Exceptions.
 
 ```mermaid
@@ -458,7 +458,7 @@ Cause (for chaining). Only instances of `Throwable` (or subclasses) can be throw
 Caught by `catch`.
 
 **Error** -- Represents serious problems that applications should not attempt to catch. These
-indicate JVM-level failures: `OutOfMemoryError``StackOverflowError` `NoClassDefFoundError`. Catching
+indicate JVM-level failures: `OutOfMemoryError`, `StackOverflowError` `NoClassDefFoundError`. Catching
 `Error` is almost always wrong -- if the JVM is out of memory, There is no safe way to continue.
 
 **Exception** -- Represents conditions that a reasonable application might want to catch and recover
@@ -466,7 +466,7 @@ From. `Exception` is the superclass of all checked exceptions.
 
 **RuntimeException** -- The superclass of all unchecked exceptions. These represent programming
 Errors (logic bugs) that the programmer could have prevented: `NullPointerException`
-`IllegalArgumentException``IndexOutOfBoundsException``ClassCastException`.
+`IllegalArgumentException`, `IndexOutOfBoundsException`, `ClassCastException`.
 
 ### Checked vs Unchecked Exceptions
 
@@ -499,7 +499,7 @@ Checked exceptions were introduced in Java 1.0 based on a design philosophy that
 Handling is part of a method's contract**, just like its parameter types and return type. The
 Rationale was:
 
-1. **API contracts should be explicit**. If a method can fail with `IOException`The caller must be
+1. **API contracts should be explicit**. If a method can fail with `IOException`. The caller must be
    aware of this and decide how to handle it. Checked exceptions make failure modes visible in the
    method signature, analogous to how return types make success modes visible.
 
@@ -755,7 +755,7 @@ try {
 
 The `getCause()` method returns the wrapped exception. `printStackTrace()` prints the entire causal
 Chain. When creating a chained exception, always pass the cause to the constructor -- do not rely on
-`initCause()`Which can only be called once.
+`initCause()`. Which can only be called once.
 
 ### The throws Clause
 
@@ -880,7 +880,7 @@ validation.
 
 Varargs ([JLS §8.4.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.4.1))
 Allow a method to accept a variable number of arguments. The syntax `Type... name` is syntactic
-Sugar for `Type[] name`With the compiler handling array creation at the call site.
+Sugar for `Type[] name`. With the compiler handling array creation at the call site.
 
 ```java
 // Varargs method declaration
@@ -1023,7 +1023,7 @@ String example = """
 ```
 
 :::note
-To a `String` literal with `\n``\t`And `\"` escape sequences. Text blocks are primarily Syntactic
+To a `String` literal with `\n`, `\t` and `\"` escape sequences. Text blocks are primarily Syntactic
 convenience -- they do not introduce a new type.
 :::
 

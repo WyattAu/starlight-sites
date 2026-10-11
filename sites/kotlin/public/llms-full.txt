@@ -239,7 +239,7 @@ URL: https://kotlin.wyattau.com/glossary/
 
 ## Data Types
 
-**Data Class**: A class that automatically generates `equals()``hashCode()``toString()``copy()`and destructuring functions from constructor parameters.
+**Data Class**: A class that automatically generates `equals()`, `hashCode()`, `toString()`, `copy()`and destructuring functions from constructor parameters.
 
 ```kotlin
 data class User(val name: String, val age: Int)
@@ -306,7 +306,7 @@ fun greet(name: String, greeting: String = "Hello") = "$greeting, $name!"
 
 **Function Type**: Represents a function signature: `(Int, Int) -> Int` for a function taking two Ints and returning an Int.
 
-**Scope Functions**: `let``run``apply``also`and `with` provide concise object operations with different return values and context references.
+**Scope Functions**: `let`, `run`, `apply`, `also`and `with` provide concise object operations with different return values and context references.
 
 **Trailing Lambda**: When the last parameter is a lambda, it can be written outside the parentheses: `list.map { it * 2 }`.
 
@@ -330,7 +330,7 @@ fun greet(name: String, greeting: String = "Hello") = "$greeting, $name!"
 
 **Structured Concurrency**: Coroutines launched in a scope are completed before the scope is cancelled, preventing leaked coroutines.
 
-**Flow**: A cold asynchronous stream that produces values on demand, supporting operators like `map``filter`and `combine`.
+**Flow**: A cold asynchronous stream that produces values on demand, supporting operators like `map`, `filter`and `combine`.
 
 **Dispatcher**: Determines which thread pool a coroutine runs on: `Dispatchers.Main` for UI, `Dispatchers.IO` for I/O, `Dispatchers.Default` for CPU work.
 
@@ -518,7 +518,7 @@ Kotlin treats functions as first-class citizens. You can pass functions as argum
 
 **Higher-order functions** accept functions as parameters or return functions. They are the foundation of Kotlin's functional style, `list.map { it.toUpperCase() }` transforms each element using a lambda.
 
-**Scope functions** (`let``run``apply``also``with`) provide concise ways to work with objects. Each returns a different value and binds `this` or `it` differently. Use `apply` for object configuration, `let` for null checks and transformations, and `also` for side effects.
+**Scope functions** (`let`, `run`, `apply`, `also`, `with`) provide concise ways to work with objects. Each returns a different value and binds `this` or `it` differently. Use `apply` for object configuration, `let` for null checks and transformations, and `also` for side effects.
 
 **Sequences** enable lazy evaluation for collections. Instead of creating intermediate lists for each transformation, sequences process elements one at a time. This reduces memory allocation and improves performance for large data sets.
 
@@ -542,7 +542,7 @@ Coroutines are Kotlin's solution to asynchronous and concurrent programming. The
 
 **Structured concurrency** ensures that coroutines launched in a scope are completed before the scope is cancelled. This prevents leaked coroutines and simplifies lifecycle management. Use `viewModelScope` in Android and `CoroutineScope` in backend applications.
 
-**Flow** is Kotlin's cold asynchronous stream. It produces values on demand and supports backpressure. Operators like `map``filter``transform`and `combine` enable composable data pipelines.
+**Flow** is Kotlin's cold asynchronous stream. It produces values on demand and supports backpressure. Operators like `map`, `filter`, `transform`and `combine` enable composable data pipelines.
 
 ---
 
@@ -582,7 +582,7 @@ Kotlin and Spring Boot integrate seamlessly. Spring Boot provides first-class Ko
 
 ### Key Concepts
 
-**Kotlin data classes** integrate naturally with JPA entities and DTOs. Spring Data JPA can generate queries from method names on repository interfaces, and Kotlin data classes provide concise entity definitions with automatic `equals()``hashCode()`and `copy()`.
+**Kotlin data classes** integrate naturally with JPA entities and DTOs. Spring Data JPA can generate queries from method names on repository interfaces, and Kotlin data classes provide concise entity definitions with automatic `equals()`, `hashCode()`and `copy()`.
 
 **MockK** is a mocking library designed for Kotlin. It supports mocking final classes (which Java mocking libraries cannot), provides a Kotlin-idiomatic DSL, and integrates with Spring's test context.
 
@@ -654,7 +654,7 @@ Absolutely. Kotlin with Spring Boot is a popular combination for backend develop
 
 ### How do I manage Kotlin dependencies?
 
-Use Gradle with Kotlin DSL. It is the recommended build system for Kotlin projects. Define dependencies in `build.gradle.kts` using the `implementation``testImplementation`and `kapt`/`ksp` configurations. The Kotlin Multiplatform plugin handles shared code across platforms.
+Use Gradle with Kotlin DSL. It is the recommended build system for Kotlin projects. Define dependencies in `build.gradle.kts` using the `implementation`, `testImplementation`and `kapt`/`ksp` configurations. The Kotlin Multiplatform plugin handles shared code across platforms.
 
 ---
 
@@ -1174,7 +1174,7 @@ the explanation.
 
 ### Null Safety
 
-<PracticeProblem client:only="solid-js" question={`What is the type of the expression \`val x: String? = null; val y = x?.length ?: "default"\`?`} options={['Int?','String','Any','Int']} correctAnswer={1} explanation={`The safe call \`x?.length\` returns \`Int?\` (null if x is null). The elvis operator \`?:\` provides \`"default"\` (a String) as the fallback. Since one branch produces \`Int\` and the other produces \`String\`, the compiler resolves the common supertype as \`Any\`. If both sides had the same type, the result would be that type.`} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={`What is the type of the expression \`val x: String? = null; val y = x?.length ?: "default"\`?`} options={['Int?','String','Any','Int']} correctAnswer={1} explanation={`The safe call \`x?.length\` returns \`Int?\` (null if x is null). The elvis operator \`?:\` provides \`"default"\` (a String) as the fallback. Since one branch produces \`Int\` and the other produces \`String\`, the compiler resolves the common supertype as \`. Any\`. If both sides had the same type, the result would be that type.`} difficulty="medium"  />
 
 ---
 
@@ -1627,7 +1627,7 @@ class Button @JvmOverloads constructor(
 )
 ```
 
-Generates three constructors accessible from Java: `Button(String)``Button(String, int)`
+Generates three constructors accessible from Java: `Button(String)`, `Button(String, int)`
 `Button(String, int, int)`.
 
 ### @Throws for Checked Exceptions
@@ -1673,11 +1673,11 @@ Interfaces for compatibility.
 - \*\* Ignoring platform types. Always annotate Java APIs with nullability annotations when both
   Java and Kotlin code share the codebase. Unannotated Java APIs create a null safety gap.
 - \*\* Forgetting `@JvmStatic` on companion object members. Without it, Java callers must use
-  `ClassName.Companion.method()`Which is awkward.
+  `ClassName.Companion.method()`. Which is awkward.
 - \*\* Forgetting `@JvmOverloads` for constructors and methods with default parameters. Java cannot
   use Kotlin default parameters.
 - \*\* Assuming Kotlin's read-only collections are immutable when accessed from Java. Java sees
-  `kotlin.collections.List` as `java.util.List`So it can call `add()``remove()`Etc. Use
+  `kotlin.collections.List` as `java.util.List`. So it can call `add()`, `remove()`. Etc. Use
   `Collections.unmodifiableList()` or Kotlinx immutable collections for true immutability.
 - \*\* Using Kotlin extension functions from Java. Extension functions compile to static methods, so
   Java callers must call them explicitly: `ExtensionKt.functionName(receiver, args)`.
@@ -2588,7 +2588,7 @@ class UserServiceTest {
 
 ### Assertion Libraries
 
-Kotlin provides its own assertion functions via `kotlin-test`Which work with any test framework.
+Kotlin provides its own assertion functions via `kotlin-test`. Which work with any test framework.
 
 ```kotlin
 import kotlin.test.assertEquals
@@ -3209,8 +3209,8 @@ class Button : Clickable, Focusable {
 
 ## Data Classes
 
-Data classes are designed to hold data. The compiler generates `equals()``hashCode()`
-`toString()``componentN()` functions, and a `copy()` method.
+Data classes are designed to hold data. The compiler generates `equals()`, `hashCode()`
+`toString()`, `componentN()` functions, and a `copy()` method.
 
 ```kotlin
 data class User(
@@ -3234,7 +3234,7 @@ println(user)  // User(id=1, name=Alice, email=alice@example.com, active=true)
 
 - The primary constructor must have at least one parameter.
 - All primary constructor parameters must be `val` or `var`.
-- Data classes cannot be `open``abstract``inner`Or `sealed`.
+- Data classes cannot be `open`, `abstract`, `inner` or `sealed`.
 - The generated `equals()` compares all primary constructor properties structurally.
 
 ### Copy Semantics
@@ -3683,7 +3683,7 @@ fun findFirstEvenLambda(list: List<Int>): Int? {
 }
 ```
 
-In practice, prefer using `firstOrNull``find`Or other standard library functions over manual
+In practice, prefer using `firstOrNull`, `find` or other standard library functions over manual
 Iteration with labeled returns.
 
 ### Implicit Labels
@@ -3701,7 +3701,7 @@ fun foo() {
 
 ## try/catch as Expression
 
-Like `if` and `when``try/catch` is an expression in Kotlin.
+Like `if` and `when`, `try/catch` is an expression in Kotlin.
 
 ```kotlin
 val result: Int = try {
@@ -4244,8 +4244,8 @@ val doubleVal: Double = intVal.toDouble()
 // val bad: Long = intVal  // compile error
 ```
 
-The `toXxx()` methods exist on all numeric types: `toByte()``toShort()``toInt()``toLong()`
-`toFloat()``toDouble()``toChar()`.
+The `toXxx()` methods exist on all numeric types: `toByte()`, `toShort()`, `toInt()`, `toLong()`
+`toFloat()`, `toDouble()`, `toChar()`.
 
 ## Type Inference
 
@@ -4776,7 +4776,7 @@ list.asSequence().filter { ... }.map { ... }.take(5)
 ### When to Use Sequences
 
 - \*\* Use sequences when the collection is large and you have multiple chained operations.
-- \*\* Use sequences when you need only a subset of the result (e.g., `first``take`).
+- \*\* Use sequences when you need only a subset of the result (e.g., `first`, `take`).
 - \*\* Use lists when the collection is small or you need to transform the entire collection.
 
 ### Sequence Creation
@@ -4935,7 +4935,7 @@ suspend fun fetchAllData(): Data {
 
 `launch` vs `async`:
 
-- `launch`: returns `Job`No result value. Use for side effects.
+- `launch`: returns `Job`. No result value. Use for side effects.
 - `async`: returns `Deferred<T>`Produces a result. Use for concurrent computations.
 
 ### runBlocking
@@ -5171,7 +5171,7 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 - \*\* Using `GlobalScope`. It creates unbound coroutines that outlive the application scope, making
   cancellation and lifecycle management impossible. Always use structured concurrency with explicit
   scopes.
-- \*\* Collecting multiple flows sequentially. Use `combine``merge`Or `zip` to compose flows
+- \*\* Collecting multiple flows sequentially. Use `combine`, `merge` or `zip` to compose flows
   concurrently.
 
 
@@ -6530,7 +6530,7 @@ at runtime in Kotlin.
 ## Common Pitfalls
 
 - \*\* Confusing `out` and `in` variance. Remember: producers are `out`Consumers are `in`. If a
-  class both produces and consumes `T`It must be invariant.
+  class both produces and consumes `T`. It must be invariant.
 - \*\* Using star projection when you actually need the type. Star projection treats the type as
   unknown, which means you can read as `Any?` but cannot write. If you need the specific type, pass
   the type parameter explicitly.
@@ -6653,7 +6653,7 @@ URL: https://kotlin.wyattau.com/intermediate/scope-functions/
 ## Introduction
 
 Scope functions execute a block of code within the context of an object. Kotlin provides five
-built-in scope functions (`let``apply``run``also``with`) and one coroutine-specific function
+built-in scope functions (`let`, `apply`, `run`, `also`, `with`) and one coroutine-specific function
 (`withContext`). They differ in two dimensions: whether the block receives the object as `this`
 (receiver) or as `it` (argument), and what the block returns (the object itself or the block"s
 result).
@@ -6914,7 +6914,7 @@ used only when thread or context changes are needed.
 Use the following decision process:
 
 - **Do you need to return the object itself?** Use `apply` or `also`.
-- **Do you need to return the block result?** Use `let``run`or `with`.
+- **Do you need to return the block result?** Use `let`, `run`or `with`.
 - **Do you prefer `this` or `it` context?** Use `this` for frequent member access, `it` when you
   want to shadow the outer scope or keep the lambda short.
 

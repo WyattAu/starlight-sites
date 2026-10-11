@@ -323,7 +323,7 @@ Fundamental principle of web development.
 Special addresses:
 
 - `127.0.0.1` -- loopback (localhost)
-- `10.0.0.0/8``172.16.0.0/12``192.168.0.0/16` -- private address ranges (not routable on the
+- `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16` -- private address ranges (not routable on the
   internet)
 - `255.255.255.255` -- broadcast address
 
@@ -831,7 +831,7 @@ Answer:
 3. The resolver checks its own cache. If not found: (a) The resolver queries a **root name server**,
    which returns the IP address of the **.hk TLD server**. (b) The resolver queries the **.hk TLD
    server**, which returns the IP address of the **authoritative name server** for `hkeaa.edu.hk`.
-   (c) The resolver queries the **authoritative name server** for `hkeaa.edu.hk`Which returns the IP
+   (c) The resolver queries the **authoritative name server** for `hkeaa.edu.hk`. Which returns the IP
    address of `www.hkeaa.edu.hk`.
 4. The resolver returns the IP address to the browser.
 5. The browser caches the result and establishes a TCP connection to the web server at that IP

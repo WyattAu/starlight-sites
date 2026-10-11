@@ -967,7 +967,7 @@ Structural constraints (military unpreparedness, public opinion, economic crisis
 Misguided, belief that negotiated concessions could satisfy German grievances.
 
 However, Taylor's minimisation of Hitler's ideological radicalism has not withstood scrutiny. The
-Evidence from `Mein Kampf`The Second Book, the `Hossbach Memorandum`And Hitler's numerous Speeches
+Evidence from `Mein Kampf`. The Second Book, the `Hossbach Memorandum`And Hitler's numerous Speeches
 and conversations makes clear that his aims went far beyond conventional revision of Versailles. The
 concept of `Lebensraum` implied the conquest, colonisation, and racial reordering of Eastern Europe
 -- a programme that could only be achieved through war. Taylor's treatment of this Evidence was

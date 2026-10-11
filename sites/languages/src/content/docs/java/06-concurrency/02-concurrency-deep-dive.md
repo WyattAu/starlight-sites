@@ -201,7 +201,7 @@ public class Point {
 }
 ```
 
-`StampedLock` is not reentrant. Each call to `writeLock``readLock`Or `tryOptimisticRead` returns A
+`StampedLock` is not reentrant. Each call to `writeLock`, `readLock` or `tryOptimisticRead` returns A
 `long` stamp that must be used to unlock. This is a deliberate design choice, the lack of
 Reentrancy prevents certain deadlock patterns and allows the optimistic read mechanism.
 
@@ -271,7 +271,7 @@ Condition queues are FIFO; a non-fair lock's condition queues may allow barging.
 
 ## Atomic Operations
 
-### `AtomicInteger``AtomicLong``AtomicReference`
+### `AtomicInteger`, `AtomicLong`, `AtomicReference`
 
 The atomic classes use CPU-level compare-and-swap (CAS) instructions to provide lock-free,
 Thread-safe operations on single variables.
@@ -652,7 +652,7 @@ public class UserIdContext {
 ### Memory Leak Pitfalls
 
 `ThreadLocal` values are stored in each thread's `ThreadLocalMap`. If a thread is long-lived (e.g.,
-A web server worker thread in a thread pool), and you do not call `remove()`The value will remain In
+A web server worker thread in a thread pool), and you do not call `remove()`. The value will remain In
 memory for the lifetime of the thread. This is the most common `ThreadLocal` leak.
 
 ```java
@@ -762,7 +762,7 @@ for (int i = 0; i &lt; 10_000; i++) {
 
 `virtualPool.close(); // waits for all tasks`
 
-Virtual threads can use `synchronized`But it pins the carrier thread (the underlying platform
+Virtual threads can use `synchronized`. But it pins the carrier thread (the underlying platform
 Thread) for the duration of the synchronized block. If many virtual threads are pinned
 Simultaneously, the carrier thread pool can be exhausted. Use `ReentrantLock` instead of
 `synchronized` in code that will run on virtual threads.

@@ -254,7 +254,7 @@ Azure RBAC defines permissions at the resource, resource group, or subscription 
 
 - **Built-in roles:** Owner, Contributor, Reader, User Access Administrator, and many
   service-specific roles (e.g., Storage Blob Data Contributor).
-- **Custom roles:** JSON-defined roles with `actions``notActions``dataActions`And
+- **Custom roles:** JSON-defined roles with `actions`, `notActions`, `dataActions` and
   `assignableScopes`.
 - **Key principle:** Use the most restrictive built-in role, and create custom roles only when
   necessary.
@@ -462,15 +462,15 @@ Misconfigured.
 
 Key security controls:
 
-1. **Minimal base image.** Use `scratch``alpine`Or `distroless` images. Do not install unnecessary
+1. **Minimal base image.** Use `scratch`, `alpine` or `distroless` images. Do not install unnecessary
    packages.
 2. **Run as non-root.** The default Dockerfile `USER root` is dangerous. Always create a non-root
    user and use `USER <username>`.
 3. **Read-only filesystem.** Use `--read-only` flag to prevent runtime modifications to the
    filesystem.
 4. **Drop capabilities.** Use `--cap-drop ALL` and add only the specific capabilities needed
-   (`--cap-add NET_BIND_SERVICE`For example).
-5. **Resource limits.** Set CPU and memory limits (`--cpus``--memory`) to prevent resource
+   (`--cap-add NET_BIND_SERVICE`. For example).
+5. **Resource limits.** Set CPU and memory limits (`--cpus`, `--memory`) to prevent resource
    exhaustion.
 6. **Network isolation.** Use user-defined bridge networks instead of the default bridge. Use
    network policies to restrict inter-container communication.
@@ -708,7 +708,7 @@ The user attempts to access `s3://prod-data/secret/report.pdf`. Is the access gr
 
 Policy B explicitly denies access to `prod-data/secret/*`. The resource
 `prod-data/secret/report.pdf` matches this path. Even though Policy A allows access to
-`prod-data/*`The explicit deny in Policy B takes precedence. Access is denied.
+`prod-data/*`. The explicit deny in Policy B takes precedence. Access is denied.
 
 </details>
 
@@ -770,8 +770,8 @@ An attacker gains code execution inside the container. What can they do?
 <details>
 <summary>Answer</summary>
 
-With `--privileged`The container has full access to all host devices (equivalent to `--cap-add ALL`
-plus access to all `/dev` devices). Combined with `-v /:/host-root`Which mounts The host's root
+With `--privileged`. The container has full access to all host devices (equivalent to `--cap-add ALL`
+plus access to all `/dev` devices). Combined with `-v /:/host-root`. Which mounts The host's root
 filesystem into the container, the attacker can:
 
 1. **Modify host files:** Write to `/host-root/etc/shadow` to add a backdoor user, or modify

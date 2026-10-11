@@ -182,10 +182,10 @@ For an empty pack `()`:
 
 ### Choosing Between Left and Right Folds
 
-For **associative and commutative** operators (`+``*``&&``||``&amp;``|`), left and right Folds
+For **associative and commutative** operators (`+`, `*`, `&&`, `||`, `&amp;`, `|`), left and right Folds
 produce the same result. The choice is a matter of taste.
 
-For **non-associative** operators (`-``/``%``&lt;&lt;``&gt;&gt;`), the fold direction Matters and
+For **non-associative** operators (`-`, `/`, `%`, `&lt;&lt;`, `&gt;&gt;`), the fold direction Matters and
 produces different results:
 
 ```cpp
@@ -458,9 +458,9 @@ int main() {
 
 **Rationale for the three exceptions:** The Standard specifies identity elements only for `&&`
 `||`And `,` because these are the only operators where the identity element is unambiguous and
-Type-independent. For `+`The identity element depends on the type (`0` for integers, `""` for
-Strings, `0.0` for doubles), so the Standard cannot choose one. For `*`The identity element is
-`1`But again, the type is unknown. The programmer must provide the initial value explicitly via a
+Type-independent. For `+`. The identity element depends on the type (`0` for integers, `""` for
+Strings, `0.0` for doubles), so the Standard cannot choose one. For `*`. The identity element is
+`1`. But again, the type is unknown. The programmer must provide the initial value explicitly via a
 Binary fold.
 
 ## Fold with Comma Operator
@@ -507,12 +507,12 @@ int main() {
 
 **Note on comma operator semantics:** The comma operator has a sequencing guarantee --- the left
 Operand is fully evaluated before the right operand [N4950 §7.6.1]. This means that in a unary right
-Fold `(expr1, (expr2, (expr3, ...)))`The expressions are evaluated in order $e_1, e_2, e_3, \ldots$
+Fold `(expr1, (expr2, (expr3, ...)))`. The expressions are evaluated in order $e_1, e_2, e_3, \ldots$
 from left to right (the innermost expression is evaluated first within each Pair, but the tree
 structure ensures left-to-right sequencing for the comma operator specifically).
 
 **Important caveat:** Do not confuse the comma operator fold with function argument lists. In
-`func(args...)`The `args...` is a pack expansion, not a fold expression. The comma in a function
+`func(args...)`. The `args...` is a pack expansion, not a fold expression. The comma in a function
 Call separates arguments; it is not the comma operator. The fold `(f(args), ...)` applies the comma
 Operator to evaluate `f(args)` for each `args` element.
 
@@ -560,7 +560,7 @@ int main() {
 
 ### Short-Circuit Evaluation in Folds
 
-The fold `(... && args)` evaluates left to right and short-circuits: if any element is `false`The
+The fold `(... && args)` evaluates left to right and short-circuits: if any element is `false`. The
 Remaining elements are not evaluated. Similarly, `(... || args)` short-circuits on the first `true`
 Element. This means that in a runtime fold, side effects after the short-circuit point are not
 Executed.
@@ -863,10 +863,10 @@ int main() {
 ## Common Pitfalls
 
 1. **Empty packs with non-identity operators.** A unary fold over `+` with an empty pack is
-   ill-formed. Always use a binary fold with an initial value (`0` for `+``1` for `*`) if the pack
+   ill-formed. Always use a binary fold with an initial value (`0` for `+`, `1` for `*`) if the pack
    might be empty.
 
-2. **Non-associative operators.** Left and right folds over `-``/`Or `%` produce different results.
+2. **Non-associative operators.** Left and right folds over `-`, `/` or `%` produce different results.
    Be explicit about which fold direction you intend. For subtraction, a left fold `(... - args)`
    computes $((a - b) - c)$ (conventional left-to-right), while a right fold `(args - ...)` computes
    $a - (b - c)$ (alternating signs).
@@ -894,7 +894,7 @@ int main() {
    parentheses when it contains operators.
 
 8. **Binary fold with `&&` and `||` on empty packs.** While `(... && args)` on an empty pack yields
-   `true``(true && ... && args)` on an empty pack yields `true` (the init value). These agree, but
+   `true`, `(true && ... && args)` on an empty pack yields `true` (the init value). These agree, but
    `(false && ... && args)` on an empty pack yields `false`. Choose the init value carefully to
    match the intended semantics.
 

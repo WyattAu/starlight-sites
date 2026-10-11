@@ -81,7 +81,7 @@ class UserServiceTest {
 
 ### Assertion Libraries
 
-Kotlin provides its own assertion functions via `kotlin-test`Which work with any test framework.
+Kotlin provides its own assertion functions via `kotlin-test`. Which work with any test framework.
 
 ```kotlin
 import kotlin.test.assertEquals

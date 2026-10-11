@@ -260,7 +260,7 @@ class Temperature:
 ```
 
 Under the hood, `@property` creates a **descriptor** (discussed later) that intercepts attribute
-Access on the class. The property object has `fget``fset`And `fdel` attributes corresponding to The
+Access on the class. The property object has `fget`, `fset` and `fdel` attributes corresponding to The
 getter, setter, and deleter functions.
 
 ```python
@@ -489,7 +489,7 @@ This ordering ensures that mixin methods can override or wrap the primary class'
 :::
 
 :::danger
-Class does not account for cooperative initialization. If you use mixins with `__init__`Every Class
+Class does not account for cooperative initialization. If you use mixins with `__init__`. Every Class
 in the hierarchy must use `super().__init__()` and accept `*args, **kwargs` to pass through
 Arguments it does not need.
 
@@ -574,7 +574,7 @@ class Closeable(ABC):
 ```
 
 With this hook, any class that defines a `close` method is considered a virtual subclass of
-`Closeable`Even without inheriting from it. This enables structural typing alongside the nominal
+`Closeable`. Even without inheriting from it. This enables structural typing alongside the nominal
 Typing of traditional inheritance.
 
 ## Dunder Methods
@@ -625,7 +625,7 @@ Fallback.
 
 :::danger
 And unusable in sets or as dict keys. If you need hashability, you must define `__hash__`
-Explicitly. The invariant is: if `a == b`Then `hash(a) == hash(b)`. Violating this causes silent
+Explicitly. The invariant is: if `a == b`. Then `hash(a) == hash(b)`. Violating this causes silent
 Data corruption in sets and dicts.
 
 ### Container Protocol
@@ -669,7 +669,7 @@ print(triple(5))  # 15
 ```
 
 `__call__` makes instances behave like functions. This pattern is used extensively:
-`functools.partial``threading.Thread` (which calls the target function), and many decorator
+`functools.partial`, `threading.Thread` (which calls the target function), and many decorator
 Implementations rely on `__call__`.
 
 ### Context Managers
@@ -698,12 +698,12 @@ with Timer("query"):
 
 `__enter__` is called when the `with` block is entered. Its return value is bound to the variable
 after `as`. `__exit__` is called when the block exits, whether normally or via exception. If
-`__exit__` returns `True`The exception is suppressed. The `contextlib` module provides
+`__exit__` returns `True`. The exception is suppressed. The `contextlib` module provides
 `@contextmanager` for simpler cases where a function-based approach is cleaner.
 
 ## Dataclasses
 
-The `@dataclass` decorator (Python 3.7+) automates the generation of `__init__``__repr__`And
+The `@dataclass` decorator (Python 3.7+) automates the generation of `__init__`, `__repr__` and
 `__eq__` based on class-level type annotations. It eliminates boilerplate for classes that are
 Primarily containers for data.
 
@@ -838,7 +838,7 @@ g.age = 20
 ## Descriptors
 
 Descriptors are the underlying mechanism that makes properties, class methods, static methods, and
-`super()` work. A descriptor is any object that implements at least one of `__get__``__set__`Or
+`super()` work. A descriptor is any object that implements at least one of `__get__`, `__set__` or
 `__delete__`.
 
 - **Data descriptor:** defines `__get__` and at least one of `__set__` or `__delete__`. Data
@@ -928,7 +928,7 @@ When you write `obj.method()`Python:
 
 1. Looks up `method` on `type(obj)`.
 2. Finds a function (a non-data descriptor).
-3. Calls `function.__get__(obj, type(obj))`Which returns a bound method.
+3. Calls `function.__get__(obj, type(obj))`. Which returns a bound method.
 4. Calls the bound method with the arguments you provided.
 
 This is the complete explanation for why `self` is necessary: the descriptor protocol supplies the
@@ -963,7 +963,7 @@ class Property:
         return self
 ```
 
-Because `property` defines `__set__`It is a data descriptor and takes priority over instance
+Because `property` defines `__set__`. It is a data descriptor and takes priority over instance
 `__dict__`. This is why you cannot bypass a property setter by assigning directly to an instance
 Attribute -- the descriptor intercepts the assignment.
 

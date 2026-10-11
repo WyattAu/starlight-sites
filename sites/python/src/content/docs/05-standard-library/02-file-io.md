@@ -90,7 +90,7 @@ Encodings include:
   byte).
 - `utf-16`: 2 or 4 bytes per character. May include a BOM (Byte Order Mark: `U+FEFF`) at the start.
   Files without a BOM are ambiguous in byte order. Rarely used for general text files.
-- `utf-16-le``utf-16-be`: Explicit endianness variants of UTF-16 without BOM.
+- `utf-16-le`, `utf-16-be`: Explicit endianness variants of UTF-16 without BOM.
 - `latin-1` / `iso-8859-1`: Single-byte encoding covering the first 256 Unicode code points. Every
   byte in `latin-1` is valid, so decoding never fails -- but the decoded text may be garbage if the
   file is not actually Latin-1.
@@ -114,7 +114,7 @@ Controls how encoding/decoding errors are handled:
 
 The `surrogateescape` error handler is essential for handling filenames on Unix systems. Unix
 Filenames are arbitrary byte sequences (except `/` and `\0`), and they may not be valid UTF-8. When
-Python lists directory entries using `os.listdir()`It uses `surrogateescape` to decode the raw Bytes
+Python lists directory entries using `os.listdir()`. It uses `surrogateescape` to decode the raw Bytes
 into `str` objects. The resulting strings may contain surrogate code points, which are not Valid
 Unicode but can be round-tripped back to the original bytes by encoding with `surrogateescape`.
 
@@ -153,7 +153,7 @@ Parameters in Python's I/O system.
 By default (`newline=None`), Python performs **universal newline translation** on input and
 **platform-native newline writing** on output:
 
-- On read: `\n``\r\n`And `\r` are all translated to `\n`.
+- On read: `\n`, `\r\n` and `\r` are all translated to `\n`.
 - On write: `\n` is translated to the platform's line separator (`\n` on Unix, `\r\n` on Windows).
 
 | `newline` value     | Read behavior                          | Write behavior                              |
@@ -175,7 +175,7 @@ as-is. Use this when you need to preserve the exact byte content of newlines.
 ### The `closefd` Parameter
 
 When `closefd=True` (the default), closing the file object also closes the underlying file
-Descriptor. When `closefd=False`The file descriptor is not closed when the file object is closed.
+Descriptor. When `closefd=False`. The file descriptor is not closed when the file object is closed.
 This is only relevant when passing an existing file descriptor (integer) instead of a file path:
 
 ```python
@@ -215,18 +215,18 @@ finally:
 ```
 
 The `__enter__` method returns the file object itself (which is why `as f` gives you the same
-Object). The `__exit__` method calls `f.close()`Which flushes the write buffer and releases the File
+Object). The `__exit__` method calls `f.close()`. Which flushes the write buffer and releases the File
 descriptor back to the OS.
 
 ### Why You Must Always Use Context Managers for Files
 
-1. **Exception safety.** Without `with`Any exception between `open()` and `close()` leaks the file
+1. **Exception safety.** Without `with`. Any exception between `open()` and `close()` leaks the file
    descriptor. In a long-running process, leaked file descriptors accumulate until the process hits
    the OS limit ( 1024 or 65536 per process) and starts getting
    `OSError: [Errno 24] Too many open files`.
 
 2. **Buffer flushing.** `close()` flushes the write buffer. Without `close()`Data in the buffer may
-   never reach disk. The garbage collector will eventually call `close()`But the timing is
+   never reach disk. The garbage collector will eventually call `close()`. But the timing is
    nondeterministic -- it could be seconds or minutes later, and data could be lost if the process
    crashes.
 
@@ -247,7 +247,7 @@ The context manager protocol consists of two methods:
 - `__exit__(self, exc_type, exc_value, traceback)`: Called when the `with` block exits, whether
   normally or due to an exception. If an exception occurred, the three arguments are the exception
   type, value, and traceback. If no exception occurred, all three are `None`. If `__exit__` returns
-  `True`The exception is suppressed.
+  `True`. The exception is suppressed.
 
 For file objects, `__exit__` always calls `self.close()` and returns `None` (exceptions propagate).
 It does not suppress exceptions.
@@ -316,7 +316,7 @@ In binary mode:
 - Writing accepts `bytes` (or `bytearray`Or `memoryview`) objects. No encoding is performed.
 - No newline translation occurs. You get the raw bytes exactly as stored on disk.
 - `seek()` and `tell()` operate on byte positions. You can seek to any byte offset.
-- The `encoding``errors`And `newline` parameters are not accepted and will raise `ValueError`.
+- The `encoding`, `errors` and `newline` parameters are not accepted and will raise `ValueError`.
 
 ### When to Use Each
 
@@ -532,7 +532,7 @@ When you call `f.write("data")`:
 
 Understanding this two-level buffering is critical for:
 
-- **Data loss scenarios.** If the process crashes after `f.write()` but before `f.flush()`The data
+- **Data loss scenarios.** If the process crashes after `f.write()` but before `f.flush()`. The data
   is in Python's buffer and is lost. If the process crashes after `f.flush()` but before the OS
   writes to disk, the data is in the OS page cache and is also lost (unless the disk has a
   battery-backed write cache).
@@ -547,7 +547,7 @@ that performs I/O has a corresponding `open()`-based implementation under the ho
 
 ### `Path.open()`
 
-Equivalent to the built-in `open()`But the path is implicit:
+Equivalent to the built-in `open()`. But the path is implicit:
 
 ```python
 from pathlib import Path
@@ -609,9 +609,9 @@ Path("mydir/subdir").mkdir(parents=True, exist_ok=True)
 
 `parents=True` creates all intermediate directories (like `mkdir -p`). `exist_ok=True` suppresses
 `FileExistsError` if the directory already exists (but raises if the path exists as a file, not a
-Directory). Without `exist_ok=True``mkdir()` raises `FileExistsError` if the directory exists.
+Directory). Without `exist_ok=True`, `mkdir()` raises `FileExistsError` if the directory exists.
 
-### `Path.exists()``Path.is_file()``Path.is_dir()`
+### `Path.exists()`, `Path.is_file()`, `Path.is_dir()`
 
 ```python
 from pathlib import Path
@@ -705,7 +705,7 @@ Use cases:
   necessarily faster than list-join for all cases).
 - Providing a file-like interface to string data.
 
-`io.StringIO` only works with `str`. If you need to work with `bytes`Use `io.BytesIO`.
+`io.StringIO` only works with `str`. If you need to work with `bytes`. Use `io.BytesIO`.
 
 ### `io.BytesIO`
 
@@ -748,10 +748,10 @@ buffered = io.BufferedReader(raw, buffer_size=65536)
 data = buffered.read(1024)
 ```
 
-`BufferedReader` provides `read()``read1()` (unbuffered read of up to n bytes), `readinto()`
+`BufferedReader` provides `read()`, `read1()` (unbuffered read of up to n bytes), `readinto()`
 `peek()` (read without advancing the position), and `readline()`.
 
-`BufferedWriter` provides `write()``flush()`And internal buffer management.
+`BufferedWriter` provides `write()`, `flush()` and internal buffer management.
 
 ### `io.TextIOWrapper`
 
@@ -767,7 +767,7 @@ text = io.TextIOWrapper(buffered, encoding="utf-8", newline="\n")
 content = text.read()
 ```
 
-When you call `open("file.txt", "r", encoding="utf-8")`The returned object is an instance of
+When you call `open("file.txt", "r", encoding="utf-8")`. The returned object is an instance of
 `io.TextIOWrapper` that wraps a `io.BufferedReader` that wraps a `io.FileIO`.
 
 You can detach the underlying binary stream from a `TextIOWrapper` using `f.detach()`. This removes
@@ -803,7 +803,7 @@ Key parameters:
 - `suffix`: File extension. Useful for tools that inspect the extension.
 - `prefix`: Filename prefix for identification.
 - `dir`: Directory where the file is created. Defaults to the platform's temp directory.
-- `delete`: If `True` (default), the file is deleted when closed. If `False`The file persists.
+- `delete`: If `True` (default), the file is deleted when closed. If `False`. The file persists.
 
 **Critical limitation on Windows:** By default, `NamedTemporaryFile` opens the file with an
 Exclusive lock that prevents other processes from opening it. This means you cannot pass the
@@ -1066,7 +1066,7 @@ with open("file.txt", "w", encoding="utf-8") as f:
     f.write("café")
 ```
 
-On Windows, the default encoding is `cp1252`Which cannot encode characters outside the Latin-1 Range
+On Windows, the default encoding is `cp1252`. Which cannot encode characters outside the Latin-1 Range
 (e.g., CJK characters, emoji, many mathematical symbols). Writing such characters with the Default
 encoding raises `UnicodeEncodeError`. Always specify `encoding="utf-8"`.
 
@@ -1175,7 +1175,7 @@ print(n)  # 5, not "hello"
 
 ### Mixing Read and Write in `+` Mode
 
-In `r+``w+`And `a+` modes, the file supports both reading and writing. However, the read and Write
+In `r+`, `w+` and `a+` modes, the file supports both reading and writing. However, the read and Write
 pointers are shared. After writing, you must seek or flush before reading. After reading, you Must
 seek before writing (because the read position may be in the middle of the file, and writing at That
 position would overwrite data without moving the write pointer to the end).
@@ -1187,14 +1187,14 @@ with open("file.txt", "r+", encoding="utf-8") as f:
     f.write(content.upper())
 ```
 
-Without the `f.seek(0)`The write would occur at the end of the file (where the read pointer
+Without the `f.seek(0)`. The write would occur at the end of the file (where the read pointer
 Stopped), not at the beginning.
 
 ### Using `pathlib` Methods Without Error Handling
 
 `Path.read_text()` raises `FileNotFoundError` if the file does not exist, `PermissionError` if
 Access is denied, and `UnicodeDecodeError` if the file content is not valid in the specified
-Encoding. These are the same errors as `open()`But the one-liner syntax makes it tempting to skip
+Encoding. These are the same errors as `open()`. But the one-liner syntax makes it tempting to skip
 Error handling:
 
 ```python

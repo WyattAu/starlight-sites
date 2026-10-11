@@ -70,8 +70,8 @@ int main() {
 ```
 
 The compiler performs **monomorphization**: for each unique set of template arguments used, it
-Generates a separate copy of the template code. If you call `max_of<int>``max_of<double>`And
-`max_of<std::string>`The compiler produces three distinct functions. This is a form of Compile-time
+Generates a separate copy of the template code. If you call `max_of<int>`, `max_of<double>` and
+`max_of<std::string>`. The compiler produces three distinct functions. This is a form of Compile-time
 polymorphism --- there is no virtual dispatch, no vtable, and (when inlined) no call Overhead at
 all.
 
@@ -510,7 +510,7 @@ Compilers use one of two strategies for template instantiation [N4950 S13.9]:
   this approach with incremental compilation.
 
 The greedy approach means that if 50 translation units all include `#include <vector>` and use
-`std::vector<int>`All 50 TUs compile the full `std::vector<int>` implementation. The linker picks
+`std::vector<int>`. All 50 TUs compile the full `std::vector<int>` implementation. The linker picks
 one copy via COMDAT/weak linkage. Compilation time scales linearly with the number of TUs and the
 Complexity of the templates they use.
 
@@ -570,7 +570,7 @@ Key implementation details:
    provided all TUs see the same template definition.
 
 2. **Strong linkage for explicit instantiations.** An explicit instantiation definition emits a
-   strong (global) symbol. If two TUs both contain `template class Foo&lt;int&gt;;`The linker
+   strong (global) symbol. If two TUs both contain `template class Foo&lt;int&gt;;`. The linker
    reports a duplicate symbol error. This is by design: explicit instantiation is a promise that
    this TU provides the canonical definition.
 

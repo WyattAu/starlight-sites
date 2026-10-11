@@ -176,7 +176,7 @@ Channels are bidirectional, a `FileChannel` can both read and write.
 ### `FileChannel`
 
 `FileChannel` provides random access to files. It is obtained from `FileInputStream`
-`FileOutputStream``RandomAccessFile`Or `FileChannel.open()`.
+`FileOutputStream`, `RandomAccessFile` or `FileChannel.open()`.
 
 ```java
 // From FileInputStream (read-only)
@@ -314,7 +314,7 @@ A `SelectionKey` represents the registration of a channel with a selector. It co
 
 - The channel being monitored.
 - The selector it is registered with.
-- The set of operations of interest (`OP_ACCEPT``OP_CONNECT``OP_READ``OP_WRITE`).
+- The set of operations of interest (`OP_ACCEPT`, `OP_CONNECT`, `OP_READ`, `OP_WRITE`).
 - The set of operations that are ready.
 - An attachment (arbitrary object).
 

@@ -178,7 +178,7 @@ end
 
 **Send**: Calls a method by name: `object.send(:method_name, args)`.
 
-**Reflection**: Examining the structure and behavior of objects at runtime: `object.class``object.methods`.
+**Reflection**: Examining the structure and behavior of objects at runtime: `object.class`, `object.methods`.
 
 **DSL (Domain-Specific Language)**: Using Ruby's metaprogramming to create expressive, domain-specific syntax.
 

@@ -397,7 +397,7 @@ According to the linker script. The merging algorithm is deterministic:
 3. Sections are concatenated in the order they are encountered.
 **Theorem:** The order of input object files on the link command line determines the order of
 Functions in the `.text` section of the final binary.
-**Proof:** Consider two object files, `a.o` and `b.o`Each containing a `.text` section. The linker
+**Proof:** Consider two object files, `a.o` and `b.o`. Each containing a `.text` section. The linker
 Script contains `.text : { *(.text*) }`. The `*(.text*)` pattern matches all `.text` sections from
 all input files. The linker iterates over input files in command-line order. For each file, it
 Appends the matched sections to the output `.text` section. Therefore, `a.o`'s `.text` precedes
@@ -628,7 +628,7 @@ clang++ -mcmodel=large ...
   sections that must not be garbage-collected (like interrupt vector tables), the linker may remove
   them. Always use `KEEP(*(.isr_vector))` or equivalent for critical sections.
 - **Circular dependencies between static libraries.** If library `A` depends on `B` and `B` depends
-  on `A`The linker cannot resolve symbols in a single pass. Solutions: (1) merge the libraries, (2)
+  on `A`. The linker cannot resolve symbols in a single pass. Solutions: (1) merge the libraries, (2)
   use `--start-group` / `--end-group` to enable multiple passes, or (3) refactor to eliminate the
   circular dependency.
 

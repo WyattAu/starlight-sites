@@ -273,9 +273,9 @@ SELECT * FROM Students
 WHERE Grade = 'HL';
 ```
 
-**Comparison operators:** `=``&lt;&gt;``&lt;``&gt;``&lt;=``&gt;=`.
+**Comparison operators:** `=`, `&lt;&gt;`, `&lt;`, `&gt;`, `&lt;=`, `&gt;=`.
 
-**Logical operators:** `AND``OR``NOT`.
+**Logical operators:** `AND`, `OR`, `NOT`.
 
 **Pattern matching:**
 

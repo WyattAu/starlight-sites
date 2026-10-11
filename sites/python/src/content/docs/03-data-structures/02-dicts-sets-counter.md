@@ -107,7 +107,7 @@ for i in range(100):
 Before Python 3.6, dicts stored entries in a single sparse array. This wasted memory because most
 Slots were empty. The compact dict design splits the structure into:
 
-- An **indices array**, a sparse array of `int8``int16``int32`Or `int64` indices (sized based on
+- An **indices array**, a sparse array of `int8`, `int16`, `int32` or `int64` indices (sized based on
   table size).
 - A **dense entries array**, a compact array of `(hash, key, value)` triples.
 
@@ -377,7 +377,7 @@ ChainMap is ideal for layered configuration systems: defaults, environment varia
 per-request overrides.
 
 :::caution
-Layer, access it via `config.maps[0]``config.maps[1]`Etc.
+Layer, access it via `config.maps[0]`, `config.maps[1]`. Etc.
 :::
 
 ```python
@@ -500,8 +500,8 @@ print(d["CONTENT-TYPE"])  # application/json
 print(list(d.keys()))      # ["Content-Type']
 ```
 
-By inheriting from `MutableMapping`We get `get``keys``values``items``pop``clear`
-`update``setdefault`And `__contains__` for free.
+By inheriting from `MutableMapping`. We get `get`, `keys`, `values`, `items`, `pop`, `clear`
+`update`, `setdefault` and `__contains__` for free.
 
 ## UserDict, UserList, UserString
 
@@ -836,7 +836,7 @@ print(a)  # {1, 2, 3}
 print(c)  # {2, 3}
 ```
 
-Use the augmented assignment operators (`|=``&=``-=``^=`) for in-place modifications to avoid
+Use the augmented assignment operators (`|=`, `&=`, `-=`, `^=`) for in-place modifications to avoid
 Unnecessary allocations.
 
 ### 7. Defaultdict Can Hide Bugs

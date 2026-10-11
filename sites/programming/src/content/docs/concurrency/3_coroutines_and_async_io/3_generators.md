@@ -20,7 +20,7 @@ categories:
 
 ## Generators (`std::generator<T>`) and Synchronous Yielding
 
-This section covers C++23's `std::generator<T>``co_yield` as syntactic sugar, lazy evaluation
+This section covers C++23's `std::generator<T>`, `co_yield` as syntactic sugar, lazy evaluation
 Semantics, a comparison with Python generators, and a complete Fibonacci generator example with
 Composable pipeline operations.
 
@@ -163,7 +163,7 @@ Sum: 4613732
 ```
 
 :::tip
-`std::views::filter``std::views::transform`Etc. However, be aware that range adaptors are eager On
+`std::views::filter`, `std::views::transform`. Etc. However, be aware that range adaptors are eager On
 the iteration step, each `++it` call on the adapted view will advance the underlying generator By
 one element.
 :::
@@ -198,8 +198,8 @@ When `co_yield expr` is executed, the coroutine:
 1. Evaluates `expr` and passes it to `promise.yield_value(expr)`.
 2. The promise stores the value (by reference, copy, or move depending on the signature).
 3. `yield_value` returns a suspend-awaiter ( `std::suspend_always`), suspending the coroutine.
-4. The caller advances the generator's iterator via `++it`Which resumes the coroutine.
-5. Execution continues after the `co_yield` until the next `co_yield``co_return`Or end of scope.
+4. The caller advances the generator's iterator via `++it`. Which resumes the coroutine.
+5. Execution continues after the `co_yield` until the next `co_yield`, `co_return` or end of scope.
 
 ```cpp
 #include <generator>

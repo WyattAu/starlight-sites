@@ -321,11 +321,11 @@ int main() {
 
 Understanding the ownership model is critical for correct range usage:
 
-- **Non-owning ranges** (views): `std::string_view``std::span``std::ranges::ref_view`
+- **Non-owning ranges** (views): `std::string_view`, `std::span`, `std::ranges::ref_view`
   `std::ranges::filter_view`. These hold pointers or references into storage owned by another
   object. They are lightweight ($O(1)$ copy) but must not outlive the underlying data.
 
-- **Owning ranges** (containers): `std::vector``std::string``std::deque``std::list`. These own their
+- **Owning ranges** (containers): `std::vector`, `std::string`, `std::deque`, `std::list`. These own their
   element storage and manage its lifetime. Copying an owning range copies all elements ($O(n)$).
   Moving an owning range transfers ownership ($O(1)$).
 
@@ -652,14 +652,14 @@ Not a `borrowed_range` and `source` is a temporary (prvalue).
 2. A range adaptor view `V` holds a reference or iterator into its source range. The view does not
    own the source and does not extend its lifetime.
 
-3. If the source is a temporary, its lifetime ends at the semicolon. The view `V`Which is an lvalue
+3. If the source is a temporary, its lifetime ends at the semicolon. The view `V`. Which is an lvalue
    (bound to a named variable or returned from a function), outlives the source.
 
 4. After the source is destroyed, the view holds a dangling reference/iterator. Dereferencing it is
    undefined behavior per [N4950 §6.7.7.2].
 
-5. Exception: if the view is a `borrowed_range`It copies the source data (or the source has no
-   backing storage), so it does not borrow. Examples: `string_view``span``iota_view`.
+5. Exception: if the view is a `borrowed_range`. It copies the source data (or the source has no
+   backing storage), so it does not borrow. Examples: `string_view`, `span`, `iota_view`.
 
 QED. This is why `std::ranges::dangling` exists: the standard library detects this pattern at
 Compile time for many common cases and returns `dangling` instead of a real iterator, preventing

@@ -238,7 +238,7 @@ cd my_cli
 dart run
 ```
 
-This creates a minimal console application with a `pubspec.yaml``bin/`And `test/` directory.
+This creates a minimal console application with a `pubspec.yaml`, `bin/` and `test/` directory.
 
 ### Flutter application
 
@@ -248,8 +248,8 @@ cd my_app
 flutter run
 ```
 
-This creates a full Flutter project with platform-specific directories (`android/``ios/``web/`
-`macos/``linux/``windows/`).
+This creates a full Flutter project with platform-specific directories (`android/`, `ios/`, `web/`
+`macos/`, `linux/`, `windows/`).
 
 ### Project structure after `dart create -t console`
 
@@ -301,7 +301,7 @@ Android Studio.
 
 ### Configuring environment variables
 
-Add these to your shell profile (`~/.bashrc``~/.zshrc`Etc.):
+Add these to your shell profile (`~/.bashrc`, `~/.zshrc`. Etc.):
 
 ```bash
 export ANDROID_HOME=$HOME/Android/Sdk

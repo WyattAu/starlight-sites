@@ -79,7 +79,7 @@ Downstream residents and harms fisheries. This external cost is not borne by the
 Supply curve reflects only MPC, not MSC.
 
 **Result:** The market produces where `MPB = MPC` (market equilibrium). The socially optimal output
-Is where `MSB = MSC`. Since `MSC \gt MPC`The market equilibrium output is greater than the Socially
+Is where `MSB = MSC`. Since `MSC \gt MPC`. The market equilibrium output is greater than the Socially
 optimal output. The market **over-produces** the good.
 
 ### Diagram Description: Negative Externality of Production
@@ -157,7 +157,7 @@ does not capture this external benefit in revenue, so produces less than the soc
 Quantity.
 
 **Result:** The market **under-produces** the good because `MSB \gt MPB`. The socially optimal
-Output is where `MSB = MSC`But the market produces where `MPB = MPC`Which is less than the Social
+Output is where `MSB = MSC`. But the market produces where `MPB = MPC`. Which is less than the Social
 optimum.
 
 ### Positive Externality of Consumption
@@ -232,11 +232,11 @@ Level.
 A factory's MPC is given by `P = 20 + 0.5Q`. The marginal external cost is `MEC = 10`. Demand is
 `P = 80 - Q`.
 
-Without the tax, market equilibrium: `20 + 0.5Q = 80 - Q`So `1.5Q = 60``Q = 40``P = 40`.
+Without the tax, market equilibrium: `20 + 0.5Q = 80 - Q`. So `1.5Q = 60`, `Q = 40`, `P = 40`.
 
 With a Pigouvian tax of `MEC = 10` per unit, the supply curve shifts up: `P = 30 + 0.5Q`.
 
-New equilibrium: `30 + 0.5Q = 80 - Q`So `1.5Q = 50``Q = 33.33``P = 46.67`.
+New equilibrium: `30 + 0.5Q = 80 - Q`. So `1.5Q = 50`, `Q = 33.33`, `P = 46.67`.
 
 The tax reduces output from 40 to 33.33 (closer to the social optimum). Tax revenue =
 `10 x 33.33 = 333.3`.
@@ -246,9 +246,9 @@ The tax reduces output from 40 to 33.33 (closer to the social optimum). Tax reve
 
 A chemical plant has `MPC = 15 + Q` and `MEC = 12`. Demand: `P = 90 - Q`.
 
-Market equilibrium: `15 + Q = 90 - Q``Q^* = 37.5``P^* = 52.5`.
+Market equilibrium: `15 + Q = 90 - Q`, `Q^* = 37.5`, `P^* = 52.5`.
 
-Social optimum: `MSC = 15 + Q + 12 = 27 + Q`. Set `27 + Q = 90 - Q``Q_{opt} = 31.5`.
+Social optimum: `MSC = 15 + Q + 12 = 27 + Q`. Set `27 + Q = 90 - Q`, `Q_{opt} = 31.5`.
 
 Price consumers pay = `90 - 31.5 = 58.5`. Price producers receive = `15 + 31.5 = 46.5`.
 
@@ -296,14 +296,14 @@ the socially optimal level.
 The private demand for university education is `P = 50 - 0.1Q` (MPB). The marginal external benefit
 is `MEB = 15`. The supply (MPC = MSC for simplicity) is `P = 10 + 0.1Q`.
 
-Without subsidy: `50 - 0.1Q = 10 + 0.1Q`So `0.2Q = 40``Q = 200`.
+Without subsidy: `50 - 0.1Q = 10 + 0.1Q`. So `0.2Q = 40`, `Q = 200`.
 
 Social optimum: `MSB = 50 - 0.1Q + 15 = 65 - 0.1Q`. Set `MSB = MSC`: `65 - 0.1Q = 10 + 0.1Q`
-`0.2Q = 55``Q = 275`.
+`0.2Q = 55`, `Q = 275`.
 
 A subsidy of `MEB = 15` per student shifts the demand curve up: `P = 65 - 0.1Q`.
 
-New equilibrium: `65 - 0.1Q = 10 + 0.1Q``Q = 275`. The subsidy achieves the social optimum.
+New equilibrium: `65 - 0.1Q = 10 + 0.1Q`, `Q = 275`. The subsidy achieves the social optimum.
 
 Government cost = `15 x 275 = 4,125`.
 
@@ -313,9 +313,9 @@ Government cost = `15 x 275 = 4,125`.
 
 Private demand for flu shots: `P = 30 - 0.1Q` (MPB). `MEB = 8`. Supply: `P = 4 + 0.1Q`.
 
-Market equilibrium: `30 - 0.1Q = 4 + 0.1Q``Q = 130`.
+Market equilibrium: `30 - 0.1Q = 4 + 0.1Q`, `Q = 130`.
 
-Social optimum: `MSB = 38 - 0.1Q`. Set `MSB = MSC`: `38 - 0.1Q = 4 + 0.1Q``Q_{opt} = 170`.
+Social optimum: `MSB = 38 - 0.1Q`. Set `MSB = MSC`: `38 - 0.1Q = 4 + 0.1Q`, `Q_{opt} = 170`.
 
 Subsidy = `MEB = 8` per vaccination. Government cost = `8 \times 170 = 1,360`.
 
@@ -704,12 +704,12 @@ Demand is `P = 50 - Q`.
 (a) Find the market equilibrium output and price. (b) Find the socially optimal output and price.
 (c) Calculate the deadweight loss. (d) What per-unit tax would achieve the social optimum?
 
-(a) Market equilibrium (no tax): `MPC = MPB`: `10 + 0.5Q = 50 - Q``1.5Q = 40``Q* = 26.67`
+(a) Market equilibrium (no tax): `MPC = MPB`: `10 + 0.5Q = 50 - Q`, `1.5Q = 40`, `Q* = 26.67`
 `P* = 23.33`.
 
 (b) Social optimum: `MSC = MSB`. `MSC = MPC + MEC = 10 + 0.5Q + 5 = 15 + 0.5Q`. `MSB = 50 - Q`.
 
-`15 + 0.5Q = 50 - Q``1.5Q = 35``Q_opt = 23.33`.
+`15 + 0.5Q = 50 - Q`, `1.5Q = 35`, `Q_opt = 23.33`.
 
 Price consumers pay: `P = 50 - 23.33 = 26.67`.
 
@@ -732,11 +732,11 @@ The demand for flu vaccinations is `P = 40 - 0.2Q` (MPB). The marginal external 
 (a) Find the market equilibrium output. (b) Find the socially optimal output. (c) Calculate the
 Deadweight loss. (d) What per-unit subsidy would achieve the social optimum?
 
-(a) Market equilibrium: `MPB = MPC`: `40 - 0.2Q = 5 + 0.1Q``0.3Q = 35``Q = 116.67`.
+(a) Market equilibrium: `MPB = MPC`: `40 - 0.2Q = 5 + 0.1Q`, `0.3Q = 35`, `Q = 116.67`.
 
 (b) Social optimum: `MSB = MSC`. `MSB = MPB + MEB = 40 - 0.2Q + 10 = 50 - 0.2Q`. `MSC = 5 + 0.1Q`.
 
-`50 - 0.2Q = 5 + 0.1Q``0.3Q = 45``Q_opt = 150`.
+`50 - 0.2Q = 5 + 0.1Q`, `0.3Q = 45`, `Q_opt = 150`.
 
 (c) DWL = `0.5 x MEB x (Q_opt - Q) = 0.5 x 10 x (150 - 116.67) = 0.5 x 10 x 33.33 = 166.67`.
 
@@ -839,11 +839,11 @@ Total cost = `525 + 600 = 1,125`.
 
 (b) At the cost-minimising allocation, `MAC_A = MAC_B = permit price`.
 
-`20 + 2Q_A = 10 + 4Q_B`. And `Q_A + Q_B = 30`So `Q_B = 30 - Q_A`.
+`20 + 2Q_A = 10 + 4Q_B`. And `Q_A + Q_B = 30`. So `Q_B = 30 - Q_A`.
 
 `20 + 2Q_A = 10 + 4(30 - Q_A) = 10 + 120 - 4Q_A = 130 - 4Q_A`.
 
-`6Q_A = 110``Q_A = 18.33``Q_B = 11.67`.
+`6Q_A = 110`, `Q_A = 18.33`, `Q_B = 11.67`.
 
 Permit price = `20 + 2(18.33) = 56.67`.
 
@@ -1037,10 +1037,10 @@ intervention.
 
 ### Details
 
-(a) Market: `MPB = MPC`: `20 - 0.02Q = 2 + 0.01Q``0.03Q = 18``Q = 600`. `P = 8`.
+(a) Market: `MPB = MPC`: `20 - 0.02Q = 2 + 0.01Q`, `0.03Q = 18`, `Q = 600`. `P = 8`.
 
 (b) Social optimum: `MSB = MPB - MEC = 20 - 0.02Q - 6 = 14 - 0.02Q`. Set `MSB = MSC`:
-`14 - 0.02Q = 2 + 0.01Q``0.03Q = 12``Q = 400`.
+`14 - 0.02Q = 2 + 0.01Q`, `0.03Q = 12`, `Q = 400`.
 
 (c) Tax = `MEC = 6` per pack of cigarettes.
 
@@ -1064,7 +1064,7 @@ Village fund it?
 <details>
 <summary>Solution</summary>
 
-(a) Total benefit = `500 \times 60 = 30,000`. Cost = `25,000`. Since `30,000 \gt 25,000`It IS
+(a) Total benefit = `500 \times 60 = 30,000`. Cost = `25,000`. Since `30,000 \gt 25,000`. It IS
 Efficient (NPV = 5,000 \gt 0).
 
 (b) No -- street lighting is a **public good** (non-excludable, non-rivalrous). The free-rider
@@ -1072,7 +1072,7 @@ problem Means each resident hopes others will pay while they enjoy the benefit f
 provision will Under-provide or not provide at all.
 
 (c) The village government should build the system and fund it through compulsory taxation. Each
-Resident can be taxed `25,000/500 = 50`Which is less than their valuation (60). Everyone is better
+Resident can be taxed `25,000/500 = 50`. Which is less than their valuation (60). Everyone is better
 off.
 
 If you get this wrong, revise: [Public Goods](#public-goods)
@@ -1153,8 +1153,8 @@ the Cost-minimising allocation. (c) How much does trading save?
 (a) Cost of A: `30(12) + 3(144)/2 = 360 + 216 = 576`. Cost of B:
 `10(12) + 5(144)/2 = 120 + 360 = 480`. Total = `576 + 480 = 1,056`.
 
-(b) Cost minimisation: `MAC_A = MAC_B`: `30 + 3Q_A = 10 + 5Q_B`And `Q_A + Q_B = 24`So
-`Q_B = 24 - Q_A`. `30 + 3Q_A = 10 + 5(24 - Q_A) = 130 - 5Q_A`. `8Q_A = 100``Q_A = 12.5``Q_B = 11.5`.
+(b) Cost minimisation: `MAC_A = MAC_B`: `30 + 3Q_A = 10 + 5Q_B`And `Q_A + Q_B = 24`. So
+`Q_B = 24 - Q_A`. `30 + 3Q_A = 10 + 5(24 - Q_A) = 130 - 5Q_A`. `8Q_A = 100`, `Q_A = 12.5`, `Q_B = 11.5`.
 Permit price = `30 + 3(12.5) = 67.5`.
 
 Cost of A: `30(12.5) + 3(156.25)/2 = 375 + 234.4 = 609.4`. Cost of B:

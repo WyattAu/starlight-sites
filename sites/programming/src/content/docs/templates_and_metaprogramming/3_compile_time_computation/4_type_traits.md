@@ -586,7 +586,7 @@ transformed: [2] [5] [hello!]
 
 :::note
 Expression** [N4950 §7.5.6] that expands the comma operator over the parameter pack `Is`. This is
-the idiomatic way to iterate over a tuple at compile time. Without `index_sequence`There is no way
+the idiomatic way to iterate over a tuple at compile time. Without `index_sequence`. There is no way
 to iterate over a tuple's elements in a generic function, because tuples do not have a
 Runtime-iterable interface.
 :::
@@ -946,7 +946,7 @@ Introspected).
 
 ## Intuition
 
-**Type traits are like a checklist for types:** Instead of asking "is this type an integer?" at runtime, you ask at compile time: `std::is_integral_v<T>`. It's like having a checklist that the compiler fills out for each type, `std::is_integral<int>::value` is `true``std::is_integral<double>::value` is `false`. Type traits are the building blocks of template metaprogramming, they let you make decisions at compile time based on type properties.
+**Type traits are like a checklist for types:** Instead of asking "is this type an integer?" at runtime, you ask at compile time: `std::is_integral_v<T>`. It's like having a checklist that the compiler fills out for each type, `std::is_integral<int>::value` is `true`, `std::is_integral<double>::value` is `false`. Type traits are the building blocks of template metaprogramming, they let you make decisions at compile time based on type properties.
 
 **Why it matters:** Type traits are essential for writing generic code that behaves differently for different types. Instead of writing separate functions for `int` and `double`you write one function that checks `std::is_integral_v<T>` at compile time. They're also the foundation of concepts, `if constexpr`and SFINAE, all of which rely on compile-time type queries.
 

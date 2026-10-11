@@ -830,7 +830,7 @@ Actually spent. In production systems, use both:
 
 1. **Benchmark with representative data:** Synthetic benchmarks miss cache effects, branch
    prediction patterns, and I/O behaviour. Use production traces or realistic synthetic data.
-2. **Profile before optimising:** Use `cProfile``perf`Or `VTune` to identify the actual bottleneck.
+2. **Profile before optimising:** Use `cProfile`, `perf` or `VTune` to identify the actual bottleneck.
    The bottleneck is often not where you expect it.
 3. **Measure, don't guess:** A single cache miss (100 ns) is worth ~300 integer operations. An L1
    cache hit (1 ns) is 100x faster than a main memory access (100 ns). These differences dwarf the

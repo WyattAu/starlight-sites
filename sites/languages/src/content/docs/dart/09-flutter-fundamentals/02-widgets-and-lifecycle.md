@@ -27,7 +27,7 @@ what the UI should look like for a given state, and the framework diffs that des
 Current tree and applies the minimal set of changes. A **widget** is the immutable data structure
 that carries that description.
 
-A widget is a **blueprint**, not a visual element. When you write `const Text('hello')`You have
+A widget is a **blueprint**, not a visual element. When you write `const Text('hello')`. You have
 Created a configuration object that says "render the string 'hello' with default typography." The
 Framework then instantiates an `Element` from that widget, and that Element may in turn create a
 `RenderObject` that actually performs layout, hit-testing, and painting.
@@ -40,13 +40,13 @@ The critical mental model:
 | `Element`      | Tree node that manages lifecycle, holds state | Mutable (internal) |
 | `RenderObject` | Layout, painting, hit-testing                 | Mutable (internal) |
 
-When you call `setState()`The framework marks the owning `Element` as dirty. On the next frame, The
+When you call `setState()`. The framework marks the owning `Element` as dirty. On the next frame, The
 framework calls `build()` on that Element, which produces a **new** Widget tree. The framework Then
 reconciles the new widget tree against the old one at the Element level, reusing Elements where
 Possible and destroying/recreating them where the widget type or key changes.
 
 This reconciliation is why widget identity matters. If you return a widget of the same `runtimeType`
-And `key` from `build()`The framework reuses the existing Element. If either changes, the old
+And `key` from `build()`. The framework reuses the existing Element. If either changes, the old
 Element is unmounted and a new one is created. This is the foundational reason why `const`
 Constructors, keys, and widget splitting all affect performance.
 
@@ -65,7 +65,7 @@ RenderObject tree (persistent, handles layout/paint/hit-test)
 The Widget tree exists only as a momentary configuration snapshot. The Element tree is the actual
 Persistent tree that the framework walks during layout and paint. The RenderObject tree is a subset
 of the Element tree (only elements that need layout/paint create RenderObjects; structural elements
-like `Column``Builder`Or `InheritedWidget` do not).
+like `Column`, `Builder` or `InheritedWidget` do not).
 
 ## 2. Widget Types
 
@@ -166,7 +166,7 @@ of space in the layout without the AppBar needing to measure itself during the l
 
 ### const Widgets
 
-When a widget constructor is invoked with `const`The Dart VM canonicalizes the instance at compile
+When a widget constructor is invoked with `const`. The Dart VM canonicalizes the instance at compile
 Time. Every `const SizedBox(height: 8)` in your codebase resolves to the **same object identity** in
 Memory. This means the framework can skip the entire `==` / `runtimeType` check during
 Reconciliation, it performs a pointer identity check, which is O(1) and branch-predictor friendly.
@@ -174,13 +174,13 @@ Reconciliation, it performs a pointer identity check, which is O(1) and branch-p
 ## 3. BuildContext
 
 `BuildContext` is not a class you instantiate. It is an **abstract interface** implemented by
-`Element`. When you receive a `BuildContext` inside `build()`You are holding a handle to the
+`Element`. When you receive a `BuildContext` inside `build()`. You are holding a handle to the
 `Element` that owns the widget currently being built. This handle represents that element's position
 in the tree.
 
 ### What BuildContext Provides
 
-- **Ancestor lookups**: `Theme.of(context)``MediaQuery.of(context)``Navigator.of(context)`all
+- **Ancestor lookups**: `Theme.of(context)`, `MediaQuery.of(context)`, `Navigator.of(context)`all
   walk up the Element tree to find the nearest `InheritedWidget` of the target type.
 - **Dependency registration**: `dependOnInheritedWidgetOfExactType` both looks up the ancestor and
   registers the current element as a dependent, so the element rebuilds when the inherited widget
@@ -191,7 +191,7 @@ in the tree.
 ### Why You Cannot Store BuildContext
 
 `BuildContext` is valid only while the Element is active in the tree. After `deactivate()` or
-`dispose()`The context is no longer valid. If you store a context and use it in an async gap (e.g.,
+`dispose()`. The context is no longer valid. If you store a context and use it in an async gap (e.g.,
 after `await`), the element may have been unmounted, causing a `debugWidgetBuilder` assertion Or, in
 release mode, silent corruption.
 
@@ -229,7 +229,7 @@ Element in the tree. Once `dispose()` is called, `mounted` becomes `false` and n
 ### lookup for InheritedWidget
 
 In Flutter 3.10+, `context.lookup<T>()` provides a non-depended-upon lookup of the nearest ancestor
-of type `T` in the Element tree. Unlike `dependOnInheritedWidgetOfExactType`This does **not**
+of type `T` in the Element tree. Unlike `dependOnInheritedWidgetOfExactType`. This does **not**
 Register a dependency, meaning the calling element will **not** rebuild when the ancestor changes.
 Use this when you need to read a value once without subscribing to updates.
 
@@ -253,13 +253,13 @@ Widget removed from tree
 Element unmounted (no dispose hook)
 ```
 
-There is no `initState``dispose`Or `didUpdateWidget`. The `build()` method is called every time The
+There is no `initState`, `dispose` or `didUpdateWidget`. The `build()` method is called every time The
 parent provides a new widget configuration with different constructor arguments (or the Framework
 cannot prove equivalence via `==`).
 
 ### const Constructors for Optimization
 
-If you can construct a `StatelessWidget` with `const`The framework can skip the reconciliation Step
+If you can construct a `StatelessWidget` with `const`. The framework can skip the reconciliation Step
 entirely when the same const instance appears in consecutive builds. This is because pointer
 Identity (`identical(oldWidget, newWidget)`) is checked first, before any `runtimeType` or `==`
 Comparison.
@@ -285,7 +285,7 @@ Use `StatelessWidget` when:
 - The widget does not own any mutable resources (controllers, animations, timers).
 - The widget reads data from ancestors via `BuildContext` but does not modify them.
 
-If you find yourself wanting an `initState` or `dispose`You need a `StatefulWidget`.
+If you find yourself wanting an `initState` or `dispose`. You need a `StatefulWidget`.
 
 ## 5. StatefulWidget Lifecycle
 
@@ -328,7 +328,7 @@ A new `StatefulWidget` instance.
 Called exactly once, immediately after the `State` object is created and before the first `build()`.
 This is where you:
 
-- Initialize controllers (`TextEditingController``AnimationController``ScrollController`).
+- Initialize controllers (`TextEditingController`, `AnimationController`, `ScrollController`).
 - Subscribe to streams or notification listeners.
 - Set up timers.
 - Perform one-time computations.
@@ -340,7 +340,7 @@ been registered as a dependency. Use `didChangeDependencies()` for that.
 
 Called immediately after `initState()` and subsequently whenever a dependency obtained via
 `BuildContext` changes. A "dependency" is an `InheritedWidget` that was looked up using
-`dependOnInheritedWidgetOfExactType` (which is what `Theme.of``MediaQuery.of`Etc. Do Internally).
+`dependOnInheritedWidgetOfExactType` (which is what `Theme.of`, `MediaQuery.of`. Etc. Do Internally).
 
 ```dart
 @override
@@ -355,7 +355,7 @@ But will not be triggered again unless you later register a dependency.
 
 ### build()
 
-Called after `initState()``didChangeDependencies()`And after every `setState()`. Must return a
+Called after `initState()`, `didChangeDependencies()` and after every `setState()`. Must return a
 Widget. Should be a pure function of `this.state` and `this.widget` (and any inherited data). Must
 not have side effects, do not call `setState()` inside `build()`.
 
@@ -393,13 +393,13 @@ Resources:
 - Cancel timers (`_timer.cancel()`).
 - Remove listeners.
 
-After `dispose()``mounted` is `false`. You must not call `setState()` after `dispose()`.
+After `dispose()`, `mounted` is `false`. You must not call `setState()` after `dispose()`.
 
 ## 6. SetState
 
 ### How setState Works
 
-When you call `setState()`The following occurs:
+When you call `setState()`. The following occurs:
 
 1. The callback is executed synchronously (state is mutated immediately).
 2. The framework calls `markNeedsBuild()` on the owning `Element`.
@@ -433,7 +433,7 @@ Widget build(BuildContext context) {
 }
 ```
 
-This causes an infinite loop because `setState()` triggers `build()`Which calls `setState()` Again.
+This causes an infinite loop because `setState()` triggers `build()`. Which calls `setState()` Again.
 
 **setState callback vs imperative state changes:**
 
@@ -451,7 +451,7 @@ Future<void> _fetch() async {
 ### State Object Identity
 
 The `State` object associated with a `StatefulWidget` persists across parent rebuilds. When the
-Parent rebuilds and constructs a new `MyWidget(foo: 2)` to replace `MyWidget(foo: 1)`The framework
+Parent rebuilds and constructs a new `MyWidget(foo: 2)` to replace `MyWidget(foo: 1)`. The framework
 Reuses the existing `State` object and calls `didUpdateWidget`. The `State` object is only discarded
 if the `Element` is removed from the tree or if the widget's `runtimeType` or `key` changes.
 
@@ -560,7 +560,7 @@ assert(identical(a, b)); // true, same object
 ```
 
 For Flutter's reconciliation, `identical(oldWidget, newWidget)` is the cheapest possible check. When
-it returns `true`The framework skips the entire update process, no `didUpdateWidget`No `build()`
+it returns `true`. The framework skips the entire update process, no `didUpdateWidget`. No `build()`
 call on the child.
 
 ### When to Use const
@@ -568,7 +568,7 @@ call on the child.
 Use `const` on every widget constructor where all arguments are compile-time constants. This
 Includes:
 
-- `const SizedBox()``const EdgeInsets.all(16)``const EdgeInsets.symmetric(horizontal: 16)`
+- `const SizedBox()`, `const EdgeInsets.all(16)`, `const EdgeInsets.symmetric(horizontal: 16)`
 - `const Text('static string')` (only when the string is a literal)
 - `const Color(0xFF000000)`
 - `const Duration(seconds: 1)`
@@ -584,10 +584,10 @@ Do not use `const` when arguments are runtime values:
 The performance impact of `const` is measurable but often overstated for leaf widgets. The primary
 Benefit is reducing GC pressure (fewer short-lived widget objects) and skipping reconciliation work.
 In deeply nested lists or frequently rebuilt subtrees, `const` on leaf widgets (like `SizedBox`
-`Padding``Divider`) can meaningfully reduce frame build time.
+`Padding`, `Divider`) can meaningfully reduce frame build time.
 
 However, `const` does not eliminate rebuilds of the parent. If a `StatefulWidget` calls
-`setState()`Its `build()` runs regardless of whether the returned children are `const`. The Benefit
+`setState()`. Its `build()` runs regardless of whether the returned children are `const`. The Benefit
 is that the framework can cheaply determine that those children haven't changed and skip Their
 subtree reconciliation.
 
@@ -642,9 +642,9 @@ If the key is not const (e.g., `ValueKey(dynamicValue)`), the constructor cannot
 
 ### Container Internals
 
-`Container` is a composite widget that wraps multiple other widgets. When you set `color`It uses a
-`DecoratedBox` with a `BoxDecoration(color: ...)`. When you set `padding`It wraps the child in a
-`Padding`. When you set both `margin` and `padding`It wraps in `Padding(margin: ...)` then
+`Container` is a composite widget that wraps multiple other widgets. When you set `color`. It uses a
+`DecoratedBox` with a `BoxDecoration(color: ...)`. When you set `padding`. It wraps the child in a
+`Padding`. When you set both `margin` and `padding`. It wraps in `Padding(margin: ...)` then
 `DecoratedBox(padding: ...)`. If you only need one property, prefer the specific widget (e.g.,
 `Padding` instead of `Container(padding: ...)` with no other properties) to avoid unnecessary
 Nesting.
@@ -713,8 +713,8 @@ Position in the child list:
 
 `InheritedElement` overrides `notifyClients()` to iterate over its registered dependents (stored in
 `_dependents`A map of `Element → Object?`). When an `InheritedWidget`'s `updateShouldNotify` Returns
-`true`The `InheritedElement` calls `notifyClients`Which marks each dependent element as Dirty. This
-is the mechanism by which `Theme.of(context)``Provider.of(context)`And similar APIs Trigger targeted
+`true`. The `InheritedElement` calls `notifyClients`. Which marks each dependent element as Dirty. This
+is the mechanism by which `Theme.of(context)`, `Provider.of(context)` and similar APIs Trigger targeted
 rebuilds.
 
 ### Why This Matters for Debugging
@@ -735,7 +735,7 @@ rebuilds.
 ### Storing BuildContext
 
 As discussed in Section 3, storing `BuildContext` beyond the synchronous scope of a method is
-Unsafe. After `deactivate()`The context is no longer valid. Always check `mounted` before using a
+Unsafe. After `deactivate()`. The context is no longer valid. Always check `mounted` before using a
 Context captured in a closure or async continuation.
 
 ```dart
@@ -787,7 +787,7 @@ can change independently (e.g., an animation tick, a timer, user input), use `St
 
 ### Key Placement in Lists
 
-When using `ListView``Column`Or `Row` with a list of children of the same type, omitting keys Causes
+When using `ListView`, `Column` or `Row` with a list of children of the same type, omitting keys Causes
 the framework to match children by position. This works fine for static lists but breaks when Items
 are added, removed, or reordered:
 
@@ -841,8 +841,8 @@ class _MyState extends State<MyWidget> {
 }
 ```
 
-1. **Missing const constructors**: Without `const`Every rebuild creates new widget instances,
-   forcing the framework to do full reconciliation. With `const`The framework can skip
+1. **Missing const constructors**: Without `const`. Every rebuild creates new widget instances,
+   forcing the framework to do full reconciliation. With `const`. The framework can skip
    reconciliation via pointer identity.
 
 2. **Over-depending on InheritedWidgets**: If a widget calls `Theme.of(context)` inside `build()`
@@ -907,7 +907,7 @@ void didChangeDependencies() {
 ```
 
 Note that in modern Flutter (2.3+), this restriction is somewhat relaxed, you can use `context` in
-`initState()` for non-dependent lookups, but `Theme.of``MediaQuery.of`Etc. Still fail because They
+`initState()` for non-dependent lookups, but `Theme.of`, `MediaQuery.of`. Etc. Still fail because They
 internally call `dependOnInheritedWidgetOfExactType`.
 
 ## Intuition

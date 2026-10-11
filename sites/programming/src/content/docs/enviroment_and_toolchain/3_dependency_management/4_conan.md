@@ -35,7 +35,7 @@ When a project requests a dependency (e.g., `fmt/10.1.0`), Conan computes a SHA-
 ID) based on the input configuration:
 
 1. **Settings:** Global project configuration (OS, Arch, Compiler Version, C++ Standard).
-2. **Options:** Package-specific configuration (Shared/Static, `fPIC``with_ssl`).
+2. **Options:** Package-specific configuration (Shared/Static, `fPIC`, `with_ssl`).
 3. **Requirements:** Version of transitive dependencies.
 
 ### Resolution Logic
@@ -57,8 +57,8 @@ $$
 \mathrm{PackageID = \mathrm{SHA1(\mathrm{settings \| \mathrm{options \| \mathrm{requires)
 $$
 
-Where `settings` is a sorted dictionary of `os``arch``compiler``compiler.version`
-`compiler.libcxx``build_type`Etc. The `options` dictionary is package-specific. The `requires` List
+Where `settings` is a sorted dictionary of `os`, `arch`, `compiler`, `compiler.version`
+`compiler.libcxx`, `build_type`. Etc. The `options` dictionary is package-specific. The `requires` List
 captures transitive dependency versions.
 
 **Theorem:** Two machines with identical profiles and identical dependency version constraints will
@@ -385,7 +385,7 @@ The `package_info()` method is critical: it defines what consumers see when they
 `find_package(mylib)`. It specifies:
 
 - **`self.cpp_info.libs`**: Library files to link (without prefix/suffix).
-- **`self.cpp_info.system_libs`**: System libraries (e.g., `pthread``dl``ws2_32`).
+- **`self.cpp_info.system_libs`**: System libraries (e.g., `pthread`, `dl`, `ws2_32`).
 - **`self.cpp_info.defines`**: Preprocessor definitions consumers should inherit.
 - **`self.cpp_info.cxxflags`**: Compiler flags to propagate.
 - **`self.cpp_info.bindirs` / `includedirs`**: Search paths for binaries and headers.
@@ -750,7 +750,7 @@ class HeaderOnlyLibConan(ConanFile):
         self.cpp_info.libdirs = []
 ```
 
-The key technique is `self.info.clear()` in `package_id()`Which tells Conan that all compiler
+The key technique is `self.info.clear()` in `package_id()`. Which tells Conan that all compiler
 Settings produce the same package (since there is no binary). This means only one package is ever
 Cached, regardless of the consumer's profile.
 

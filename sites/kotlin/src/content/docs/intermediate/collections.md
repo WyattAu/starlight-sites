@@ -285,7 +285,7 @@ list.asSequence().filter { ... }.map { ... }.take(5)
 ### When to Use Sequences
 
 - \*\* Use sequences when the collection is large and you have multiple chained operations.
-- \*\* Use sequences when you need only a subset of the result (e.g., `first``take`).
+- \*\* Use sequences when you need only a subset of the result (e.g., `first`, `take`).
 - \*\* Use lists when the collection is small or you need to transform the entire collection.
 
 ### Sequence Creation

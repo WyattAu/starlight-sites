@@ -323,7 +323,7 @@ The global financial crisis provides the clearest real-world illustration of the
 Keynesian-monetarist debate in action:
 
 1. **Monetary response**: The Bank of England cut the base rate from 5.25% (October 2008) to 0.5%
-   (March 2009), the lowest in the `` `{BoE}` ``'s 315-year history. When this proved insufficient
+   (March 2009), the lowest in the `` ``, ``{BoE}``, `` ``'s 315-year history. When this proved insufficient
    (ZLB), it launched QE in March 2009, purchasing GBP 75 billion of government bonds initially,
    eventually reaching GBP 875 billion by 2021.
 
@@ -566,7 +566,7 @@ Effect depends on the relative strength of each.
 
 :::note
 Effectiveness of policy mixes. Edexcel Paper 3 expects discussion of policy conflicts and
-Trade-offs. OCR may ask about the role of the Treasury and `` `{BoE}` `` in coordinating policy. CIE
+Trade-offs. OCR may ask about the role of the Treasury and `` ``, ``{BoE}``, `` `` in coordinating policy. CIE
 Paper 4 frequently asks students to assess whether government intervention can achieve multiple
 Macroeconomic objectives simultaneously.
 :::
@@ -691,7 +691,7 @@ Macroeconomic objectives: economic growth, price stability, low unemployment, ba
 Equilibrium. Brexit effects: (1) **Growth**: the OBR estimated Brexit would reduce long-run
 Productivity by 4%, this shifts LRAS left, reducing trend growth. UK GDP growth averaged 1.4%
 (2017–2019) vs. 2.1% (2013–2016). (2) **Inflation**: the 15% sterling depreciation (2016) increased
-Import prices, contributing to inflation peaking at 3.1% in 2017. The `` `{BoE}` `` responded by
+Import prices, contributing to inflation peaking at 3.1% in 2017. The `` ``, ``{BoE}``, `` `` responded by
 Raising rates, creating a trade-off with growth. (3) **Employment**: unemployment fell to 3.5%
 (2022), a 50-year low, partly because reduced EU migration tightened the labour market. However,
 Labour shortages in key sectors (NHS, agriculture, hospitality) represent a supply constraint. (4)
@@ -722,7 +722,7 @@ Bank's announcement effect. If the public's expectations formation process chang
 between policy and expectations is unreliable. (4) **Counterargument**: some relationships have
 Proved relatively stable. The Phillips curve, despite shifting, still shows a short-run trade-off.
 The Taylor Rule, while not followed mechanically, still provides a useful benchmark for the
-`` `{BoE}` ``'s rate decisions. Overall: the Lucas critique remains highly relevant, it reminds us
+`` ``, ``{BoE}``, `` ``'s rate decisions. Overall: the Lucas critique remains highly relevant, it reminds us
 that the unprecedented scale of QE means historical evidence may be an unreliable guide to its
 Effects, particularly regarding inflation and the exit strategy.
 </details>
@@ -733,15 +733,15 @@ Primary monetary policy framework for the Bank of England.
 <details>
 <summary>Hint</summary>
 Case for NGDP targeting: (1) **Automatic stabiliser**: NGDP targeting would have led to a more
-Accommodative response after the 2008 crisis and during COVID, the `` `{BoE}` `` would not have
+Accommodative response after the 2008 crisis and during COVID, the `` ``, ``{BoE}``, `` `` would not have
 Tightened prematurely as inflation rose due to supply shocks. (2) **Handles supply shocks better**:
 The 2021–2023 inflation was partly cost-push (energy, supply chains). Under NGDP targeting, the
-`` `{BoE}` `` would have accommodated more inflation (since real GDP was falling), reducing the
+`` ``, ``{BoE}``, `` `` would have accommodated more inflation (since real GDP was falling), reducing the
 Depth of the recession. (3) **Simplicity**: a single target for the growth of total nominal income
 is arguably easier to communicate than an inflation target. (4) **Financial stability**: by not
 Overtightening after supply shocks, NGDP targeting may reduce the risk of triggering a financial
 Crisis. Case against: (1) **Measurement problems**: GDP data is revised frequently and with long
-Lags (3–6 months). The `` `{BoE}` `` might be targeting an incorrect number. Inflation data, by
+Lags (3–6 months). The `` ``, ``{BoE}``, `` `` might be targeting an incorrect number. Inflation data, by
 Contrast, is available monthly with less revision. (2) **No precedent**: no major central bank has
 Adopted NGDP targeting, so there is no real-world evidence of its effectiveness. (3) **Legitimacy**:
 NGDP targeting could be seen as "giving up on price stability", the public may resist a framework
