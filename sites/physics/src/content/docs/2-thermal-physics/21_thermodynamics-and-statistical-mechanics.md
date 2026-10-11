@@ -1,7 +1,7 @@
 ---
 
 title: Thermodynamics and Statistical Mechanics
-description: "If system is in thermal equilibrium with system And is in thermal Equilibrium with system Then is in thermal equilibrium with ."
+description: "Thermodynamics and statistical mechanics: the four laws, thermodynamic potentials and the Legendre transform that interrelates them, Maxwell relations and their thermodynamic meaning, phase transitions and the Ehrenfest classification, Boltzmann distribution, partition functions, the Ising model and the thermodynamic limit, fluctuation-dissipation, blackbody radiation, kinetic theory, and nonequilibrium thermodynamics. With recall prompts, counterexamples by name, worked examples and interleaving problems. Tier U-A."
 date: 2026-04-24T00:00:00.000Z
 tags:
   - Physics
@@ -20,6 +20,41 @@ import Citations from '@components/Citations.astro'
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "21_thermodynamics And Statistical Mechanics", "url": "https://physics.wyattau.com/2-thermal-physics/21_thermodynamics-and-statistical-mechanics"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- State the zeroth law and say what it is actually for.
+- Write the four laws of thermodynamics in your own words.
+- Define enthalpy, Helmholtz free energy and Gibbs free energy. Which one is
+  the natural potential at constant temperature and pressure, and why?
+- State one Maxwell relation. What thermodynamic identity does it express?
+- What is the Boltzmann distribution, and what assumption does it make about
+  the system?
+- Why does entropy *increase* in an isolated system? In terms of what?
+
+Check your answers against the text. The last prompt is the one the whole
+subject rests on, and the naive answer -- "because disorder increases" -- is
+the one worth catching before you read, because the correct answer is sharper.
+
+## Motivation: why a second law is needed at all
+
+The first law is bookkeeping: energy is conserved. Conservation laws of that
+kind are common, and on their own they are satisfied by a universe in which a
+cup of tea cools by spontaneously absorbing heat from the air, or a gas that
+mixes and then unmixes. Nothing in the first law forbids either.
+
+So thermodynamics needs a *direction*. The second law supplies one, and it is
+the only place in classical physics where an arrow of time enters from
+observation rather than from the equations. Every other law in mechanics is
+reversible in time; Newton's laws do not distinguish running forwards from
+running backwards. The second law is the exception, and it is an empirical
+statement about what actually happens.
+
+The cost of that direction is a quantity that increases monotonically in an
+isolated system. That quantity is entropy, and the second law is the
+statement that it exists.
 
 ## 1. The Laws of Thermodynamics
 
@@ -2545,7 +2580,7 @@ This is not an optional correction, it is required by quantum mechanics (indisti
 Identical particles) and ensures that entropy is extensive.
 :::
 
-## 13. Nonequilibrium Thermodynamics
+## 18. Nonequilibrium Thermodynamics
 
 ### 13.1 Entropy Production and the Second Law
 
@@ -2649,7 +2684,7 @@ $$
 
 </details>
 
-## 14. Kinetic Theory in Detail
+## 19. Kinetic Theory in Detail
 
 ### 14.1 Maxwell--Boltzmann Distribution
 
@@ -2743,7 +2778,7 @@ This is the basis for isotope separation by gaseous diffusion.
 
 </details>
 
-## 15. Information Theory and Statistical Mechanics
+## 20. Information Theory and Statistical Mechanics
 
 ### 15.1 Shannon Entropy
 
@@ -2955,7 +2990,7 @@ the equilibrium state, as expected.
 
 </details>
 
-## 16. Statistical Mechanics of Interacting Systems
+## 21. Statistical Mechanics of Interacting Systems
 
 ### 16.1 The Ising Model Revisited
 
@@ -3150,6 +3185,84 @@ import { Citation } from "@components/Citations.astro"
   {title="Statistical Mechanics", author="Pathria", year="2017", type="book"},
   {title="An Introduction to Thermal Physics", author="Schroeder", year="2021", type="book"},
 ]} />
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Energy conservation implies heat flows from hot to cold | no | all four laws together forbid it; a cup of tea cooling does not violate the first law, it violates the second |
+| Entropy always increases | no | it is non-decreasing; it is constant in an idealised reversible process, and it decreases in an open system |
+| A reversible process is one that happens slowly | no | slowness is neither necessary nor sufficient; a frictionless piston moving slowly is near-reversible, a violently stirred bath is not |
+| The second law holds in every corner of the universe | no | fluctuations can decrease entropy locally over short times, at a cost elsewhere; this is Gibbs fluctuation theorem territory |
+| Two systems in thermal contact are at the same temperature | not always | only if thermal equilibrium is actually reached; the zeroth law is what makes that statement well posed |
+| Every isolated system reaches equilibrium | no in practice | some systems are metastable or kinetically trapped; glasses are the standard example |
+| $dS = \delta Q/T$ for any process | no | only for reversible paths; the entropy change of a state function is path independent, the heat is not |
+| Phase transitions are first order | no | the critical point is second order, and third-order and higher transitions exist |
+| The canonical and microcanonical ensembles give the same answer | no | they agree only in the thermodynamic limit; finite systems differ, and the difference is measurable |
+
+The first row is the one worth internalising: every one of the four laws is
+consistent with the others in isolation, and the second law cannot be derived
+from the first three. That is why it has to be *stated* rather than proved.
+
+The last row is the one that most often surprises people at research level.
+For a system of $N$ particles the ensembles agree to leading order in $N$ but
+differ at order $1/N$, and that difference is the entire basis of
+fluctuation theorems and of numerical work on finite systems.
+
+## Where the research frontier is
+
+- **Fluctuation theorems.** The second law holds on average, not
+  instance by instance. Jarzynski's equality and the Crooks relation turn
+  that asymmetry into an exact, measurable statement about the distribution of
+  work done on a system driven out of equilibrium.
+- **Nonequilibrium steady states.** Linear response gives the fluctuation-
+  dissipation theorem; away from equilibrium there is a fluctuating
+  hydrodynamic theory, and its consistency conditions are still being worked
+  out.
+- **Thermodynamic geometry.** Taking Fisher information as a Riemannian metric
+  on parameter space gives a natural curvature tensor. It is not the Levi-
+  Civita curvature -- the relation between them is subtle and still studied --
+  so treating thermodynamic and geometric curvature as the same object is a
+  common and instructive mistake.
+- **Phase transitions and criticality.** Renormalisation group methods and
+  the study of non-universal behaviour at critical points remain active, with
+  much of the current work on quantum criticality and on systems far from
+  equilibrium.
+- **Information thermodynamics.** Landauerer's principle gives the work cost
+  of erasing a bit, but the tension between information as physical and
+  information as abstract is unresolved in its general form.
+
+## Interleaving problems
+
+Mix these with material from [Lagrangian
+Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/),
+[Microcanonical Ensemble](/2-thermal-physics/14_microcanonical-ensemble/),
+[Stochastic
+Calculus](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-integration-and-formula/)
+and [Spectral
+Theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/).
+
+1. (Microcanonical.) Show that the equipartition theorem gives
+   $\langle K \rangle = \tfrac{d}{2}Nk_BT$ for $d$ degrees of freedom, and
+   explain why each quadratic degree of freedom contributes exactly
+   $\tfrac{1}{2}k_BT$ regardless of its coefficient.
+2. (Lagrangian.) Derive Hamilton's equations from the canonical partition
+   function $Z$, and identify which step requires the result to be an extensive
+   logarithm.
+3. (Stochastic analysis.) The Langevin equation is a deterministic force law
+   plus Brownian noise. Write it in the Itô and Stratonovich conventions,
+   explain why the two differ, and say which one the overdamped limit of
+   physical Brownian motion actually satisfies.
+4. (Spectral theory.) The Boltzmann operator on $L^2$ has a continuous
+   spectrum whose spectral measures are the occupation numbers. Show the
+   connection to the spectral theorem for self-adjoint operators, and say what
+   the gap in the spectrum means for the equilibrium state.
+5. (Linear algebra.) Compute the partition function of a two-level system
+   directly and via the trace of an explicit $2 \times 2$ matrix, and check
+   the two agree. This is the same identity the spectral-theoretic route uses.
+6. (Research.) The second law constrains *typical* behaviour; fluctuation
+   theorems constrain the tails. Formulate a version of the second law that
+   survives at $N = 1$, and say what it costs in strength.
 
 ## Cross-References
 
