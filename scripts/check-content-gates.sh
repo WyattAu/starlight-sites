@@ -51,6 +51,7 @@ run 'no emoji'                node scripts/lint-no-emoji.js
 run 'hand-wave detection'     node scripts/lint-handwaves.js
 run 'latex corruption'        node scripts/lint-latex.js
 run 'forward references'      node scripts/lint-forward-refs.js
+run 'cross-site links'        node scripts/lint-cross-site-links.js --advisory
 run 'shared-asset integrity'  node scripts/sync-shared.mjs --check
 
 echo

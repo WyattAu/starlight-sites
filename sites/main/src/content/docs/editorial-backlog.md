@@ -176,7 +176,7 @@ distribution or human approval per site.
 words a human confirms, exactly as the capitalisation worklist is handled. The
 count is printed on every gate run, so it cannot rot unnoticed.
 
-## 9. Dead absolute cross-zone links (gate gap)
+## 9. Dead cross-zone links (1,517 of 3,361)
 
 `lint-link-graph.js` validates internal `/path/` links against the content
 collections. It does **not** validate absolute URLs to other zones, so a link
@@ -199,8 +199,37 @@ fast, and probing every zone in one pass is exactly what triggered Cloudflare
 error 1027 (free-tier daily request limit) earlier in this project. A naive
 "HEAD every external link" gate would take the network down.
 
-**Resolution path.** The check belongs in the rollout path, not the gate: after
-a site deploys, its own outbound links can be verified against the other
-zones' live index, one site at a time, with the 429 backoff the freshness check
-already implements. Until that exists, these links are verified by hand when a
-page that carries them is edited -- which is how this one was found.
+**The check now exists, and it does not use the network.**
+`scripts/lint-cross-site-links.js` enumerates each site's routes from its own
+content tree and resolves every absolute cross-zone link locally. All 46 sites
+live in this repository and each declares its domain in `astro.config.mjs`, so
+nothing needs to be fetched. That matters independently of speed: probing
+every zone over HTTP is what previously hit Cloudflare error 1027 on the free
+tier, and a gate must not be able to take the network down.
+
+Measured: **1,517 dead of 3,361** cross-zone links. Precision was verified
+against production rather than against the script's own intent -- 14 sampled
+findings, all confirmed 404, zero false positives. Two false-positive classes
+were found and fixed that way, both of which would have made the gate
+unusable:
+
+- `https://sat.wyattau.com/hub` returns 200, because Astro redirects a missing
+  trailing slash. Comparing raw route strings reported every such link dead.
+- `chemistry/index.md` was being turned into `/chemistry/index/` instead of
+  `/chemistry/`, so every section landing page in the network looked missing.
+  One sample that returned 200 in production exposed it.
+
+The largest remaining class is the historical `/docs/<topic>` shape, written
+before the collections were split into numbered subject directories.
+
+**Why the gate is advisory for now.** The check is reliable, but 1,517 dead
+links are already in the tree, and choosing the correct replacement for each is
+an editorial call -- a dead link to `physics/docs/thermodynamics` has several
+defensible targets and picking wrong is worse than leaving it. The gate
+reports on every run and a test asserts the count cannot grow, which is the
+same treatment the capitalisation worklist gets. It becomes blocking when the
+backlog is worked down.
+
+**Resolution path.** Work the count down per site, highest-traffic sites
+first. The check makes the remaining set exact and ordered, so progress is
+measurable rather than estimated.
