@@ -87,6 +87,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 ## Graduate-Stochastic-Analysis
 
 - [Ito Integration And Formula](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-integration-and-formula/)
+- [Stochastic Pdes And Regularity Structures](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/2_stochastic-pdes-and-regularity-structures/)
 
 ## Graduate-Representation-Theory
 

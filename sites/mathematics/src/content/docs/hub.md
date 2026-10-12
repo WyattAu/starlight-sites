@@ -283,6 +283,7 @@ practice, spacing, and the rigour ladder.
 | ------ | ------- | --------- | ---- |
 | [Spectral Theory of Self-Adjoint Operators](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/) | Functional Analysis | Banach and Hilbert spaces, measure theory, real analysis | A |
 | [Stochastic Calculus: Ito Integration](/14-graduate-stochastic-analysis/1_ito-integration-and-formula/) | Probability | Probability spaces, measure theory, real analysis, functional analysis | R |
+| [Stochastic PDEs and Regularity Structures](/14-graduate-stochastic-analysis/2_stochastic-pdes-and-regularity-structures/) | Stochastic Analysis | Itô integration, measure theory, functional analysis | R |
 | [Posterior Asymptotics and Bernstein-von Mises](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/) | Statistics | Probability, measure theory, point estimation | R |
 | [Representation Theory of Finite Groups](/15-graduate-representation-theory/1_representation-theory-of-finite-groups/) | Algebra | Group theory, linear algebra | A-R |
 | [Ricci Flow and Geometrisation](/16-graduate-geometry/1_ricci-flow-and-geometrisation/) | Geometry | Riemannian geometry, curvature, geodesics, PDE | R |
