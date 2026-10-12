@@ -175,3 +175,32 @@ distribution or human approval per site.
 `python3 scripts/fix-glued-code-spans.py --worklist --approve <word>` for the
 words a human confirms, exactly as the capitalisation worklist is handled. The
 count is printed on every gate run, so it cannot rot unnoticed.
+
+## 9. Dead absolute cross-zone links (gate gap)
+
+`lint-link-graph.js` validates internal `/path/` links against the content
+collections. It does **not** validate absolute URLs to other zones, so a link
+to another site can be dead indefinitely without any gate noticing.
+
+Found by hand on the quantum postulates page, where three of four
+cross-references were 404:
+
+- `mathematics.wyattau.com/docs/calculus` -- 404
+- `mathematics.wyattau.com/docs/linear-algebra` -- 404
+- `computer-science.wyattau.com/docs/quantum-computing` -- 404
+
+All three are now replaced with working slugs. The pattern is consistent:
+these were written as `/docs/<topic>` early on, before the collections were
+split into numbered subject directories.
+
+**Why it is not gated.** Checking absolute URLs means issuing network requests
+during the gate run. That runs into two real constraints: the gate must stay
+fast, and probing every zone in one pass is exactly what triggered Cloudflare
+error 1027 (free-tier daily request limit) earlier in this project. A naive
+"HEAD every external link" gate would take the network down.
+
+**Resolution path.** The check belongs in the rollout path, not the gate: after
+a site deploys, its own outbound links can be verified against the other
+zones' live index, one site at a time, with the 429 backoff the freshness check
+already implements. Until that exists, these links are verified by hand when a
+page that carries them is edited -- which is how this one was found.
