@@ -233,3 +233,38 @@ backlog is worked down.
 **Resolution path.** Work the count down per site, highest-traffic sites
 first. The check makes the remaining set exact and ordered, so progress is
 measurable rather than estimated.
+
+## 10. Four `sites/main` content pages are not publicly reachable
+
+`wyattsnotes.wyattau.com` returns the identical 31,200-byte landing page for
+**every** path, including 200 responses:
+
+| Path | Status | Body |
+| ---- | ------ | ---- |
+| `/` | 200 | landing page |
+| `/about/` | 200 | landing page |
+| `/cross-references/` | 200 | landing page |
+| `/hub/` | 200 | landing page |
+| `/editorial-backlog/` | 200 | landing page |
+
+So `sites/main/src/content/docs/` -- `about.md`, `cross-references.md`,
+`editorial-backlog.md`, `hub.md` -- is built but never served. The response
+comes from a Worker rather than a static asset (`server: cloudflare`,
+`access-control-allow-origin: *`), and there is no `_redirects` file in
+`sites/main/public/`.
+
+**Scope.** `main` is not in the rollout matrix; it is deployed only by the
+`deploy-landing` job, which publishes `sites/main/dist` to the Cloudflare
+Pages project `wyattsnotes`. All 88 cross-site links to this host point at
+`/`, so nothing in the network links into the dead routes, and the landing
+page itself links to no content route. The impact is unreachable content
+rather than broken navigation.
+
+**Not yet determined.** Whether the Worker intercepts every request or Pages
+is serving a fallback for unmatched paths cannot be told from outside, and
+guessing would be worse than recording it. What is needed is either the
+Worker route configuration or a `wrangler` log for the zone.
+
+**Why it is recorded.** The editorial backlog is itself one of the four
+unreachable pages. A quality record that nobody can open is not doing its job,
+and the four pages are content that was written to be read.
