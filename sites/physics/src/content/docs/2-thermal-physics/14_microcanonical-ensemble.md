@@ -258,5 +258,5 @@ For indistinguishable particles, the phase space volume must be divided by $N!$ 
 - **[The Grand Canonical Ensemble](/2-thermal-physics/3_the-grand-canonical-ensemble/)**: The grand canonical ensemble further extends the framework to systems that exchange both energy and particles with a reservoir.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

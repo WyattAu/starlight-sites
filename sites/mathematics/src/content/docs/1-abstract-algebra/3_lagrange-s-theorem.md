@@ -230,5 +230,5 @@ flowchart TD
 - [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/) -- Lagrange's theorem limits the possible subgroup structure used in classifying small-order groups.
 - [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/) -- The common pitfalls section warns against assuming the converse of Lagrange's theorem and confusing index with order.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

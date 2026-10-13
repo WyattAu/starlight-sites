@@ -405,5 +405,5 @@ flowchart TD
 - **[Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)**: The Laplace variable $s$ is complex, and poles and zeros in the complex plane determine system behaviour.
 - **[Systems of ODEs](/5-ordinary-differential-equations/4_systems-of-odes/)**: The Laplace transform extends logically to systems of ODEs, converting coupled differential equations into algebraic systems.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

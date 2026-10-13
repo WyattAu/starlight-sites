@@ -596,7 +596,7 @@ Statistical mechanics bridges the gap between individual atoms and the bulk prop
 | Solid-State Chemistry    | WyattsNotes | [View](/3-inorganic-chemistry/solid-state-chemistry/)              |
 | Statistical Mechanics, MIT 8.044 | MIT OCW | [View](https://ocw.mit.edu/courses/8-044-statistical-physics-i-spring-2013/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)

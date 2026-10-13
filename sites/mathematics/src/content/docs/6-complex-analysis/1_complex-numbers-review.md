@@ -279,7 +279,7 @@ The argument $\arg(z)$ is multi-valued: if $\theta$ is an argument, then so is $
 - **[Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)**: Euler's formula connects complex exponentials to trigonometric functions used in Fourier analysis.
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform extends to complex analysis through the Bromwich integral and residue calculus.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

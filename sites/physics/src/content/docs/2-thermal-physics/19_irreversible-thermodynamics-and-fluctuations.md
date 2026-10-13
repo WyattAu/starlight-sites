@@ -199,7 +199,7 @@ $\blacksquare$
 - [The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/) -- Phonon thermal conductivity in the Debye model is an irreversible transport process governed by the same fluctuation principles.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

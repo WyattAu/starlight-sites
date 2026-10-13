@@ -1106,7 +1106,7 @@ Gaseous particles and thus disorder.
 in solution, increasing disorder.
 
 For the A-Level treatment of this topic, see
-[Thermodynamics & Energetics](https://alevel.wyattau.com/docs/chemistry/thermodynamics).
+[Thermodynamics & Energetics](https://alevel.wyattau.com/chemistry/thermodynamics/).
 
 </details>
 
@@ -1128,8 +1128,8 @@ For the A-Level treatment of this topic, see
 | Topic                        | Site    | Link                                                                                               |
 | ---------------------------- | ------- | -------------------------------------------------------------------------------------------------- |
 | [Thermodynamics (Chemistry)] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/thermodynamics)                   |
-| [Thermodynamics (Chemistry)] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/5-energetics/1_thermochemistry)                    |
-| [Thermodynamics (Chemistry)] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/3-chemical-kinetics-and-energetics/2_energetics) |
+| [Thermodynamics (Chemistry)] | IB      | [View](https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry/)                    |
+| [Thermodynamics (Chemistry)] | DSE     | [View](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics/) |
 
 ## Worked Examples
 

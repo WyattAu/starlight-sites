@@ -141,7 +141,7 @@ Lasers produce coherent light through stimulated emission, where an incoming pho
 - [Fourier Optics](/4-optics-and-waves/19_fourier-optics-15/) -- Gaussian beam optics and the Abbe limit relate laser beam quality to diffraction-limited resolution.
 - [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/) -- The wave equation and Poynting vector provide the electromagnetic foundation for laser cavity mode analysis.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Problems (Additional)

@@ -1635,8 +1635,8 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
 | Topic            | Site    | Link                                                                                              |
 | ---------------- | ------- | ------------------------------------------------------------------------------------------------- |
 | [Nervous System] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/nervous-system)                    |
-| [Nervous System] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/8-nervous-system-and-immunology/1_nervous-system)   |
-| [Nervous System] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/7-nervous-system-and-immunology/1_nervous-system) |
+| [Nervous System] | IB      | [View](https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system/)   |
+| [Nervous System] | DSE     | [View](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system/) |
 
 ## Supplementary: Muscle Contraction in Detail (HL Extension)
 

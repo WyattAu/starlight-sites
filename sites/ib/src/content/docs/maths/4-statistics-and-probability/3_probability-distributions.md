@@ -1553,9 +1553,9 @@ Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moder
 
 ## Related Content at Other Levels
 
-- **A-Level Probability:** [Mathematics](https://alevel.wyattau.com/docs/maths/maths)
+- **A-Level Probability:** [Mathematics](https://alevel.wyattau.com/maths/maths/)
 - **DSE Probability:**
-  [Probability](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)
+  [Probability](https://dse.wyattau.com/maths/compulsory/11_probability/)
 - **University Probability and Statistics:**
   [Probability and Statistics](https://mathematics.wyattau.com/)
 
@@ -1608,7 +1608,7 @@ $$
 | Topic                       | Site    | Link                                                                                                       |
 | --------------------------- | ------- | ---------------------------------------------------------------------------------------------------------- |
 | [Statistical Distributions] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/04-statistical-distributions) |
-| [Statistical Distributions] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/3_probability-distributions)      |
+| [Statistical Distributions] | IB      | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions/)      |
 
 ## See Also
 

@@ -169,8 +169,8 @@ only polynomials with even constant term, so $1 \notin I$. Thus $I$ is not princ
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- The worked examples use Euclidean division and factorisation arguments that depend on the ring classifications in this chapter.
 - [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/) -- The pitfalls section warns against confusing irreducibility with primality and assuming PIDs are always Euclidean.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content

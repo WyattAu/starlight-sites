@@ -1042,7 +1042,7 @@ self-marking and building a personal test matrix.
 | Topic             | Site    | Link                                                                                              |
 | ----------------- | ------- | ------------------------------------------------------------------------------------------------- |
 | [Circular Motion] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/06-circular-motion) |
-| [Circular Motion] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/4_rotational-motion)        |
+| [Circular Motion] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion/)        |
 
 ## Worked Examples
 

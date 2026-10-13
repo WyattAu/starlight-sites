@@ -424,7 +424,7 @@ Spectroscopy is like reading the barcode of a molecule. Each spectroscopic techn
 | Quantum Chemistry        | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)                  |
 | Organic Spectroscopy, MIT 5.33 | MIT OCW | [View](https://ocw.mit.edu/courses/5-33-advanced-chemical-experimentation-fall-2003/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)

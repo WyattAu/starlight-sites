@@ -190,10 +190,10 @@ $(\ell^p)^{**} \cong \ell^p$ via the natural embedding.
 - **[Inner Product Spaces and Hilbert Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)**: Specialises the normed space theory to spaces where the norm comes from an inner product, enabling orthogonal projections.
 - **[Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)**: Develops the theory of continuous linear maps between normed spaces, building on the dual space concept.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid

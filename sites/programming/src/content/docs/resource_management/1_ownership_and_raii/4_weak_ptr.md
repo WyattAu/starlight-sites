@@ -926,7 +926,7 @@ A weak_ptr is a non-owning observer, like a security camera that watches a share
 - [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ```mermaid
 flowchart TD

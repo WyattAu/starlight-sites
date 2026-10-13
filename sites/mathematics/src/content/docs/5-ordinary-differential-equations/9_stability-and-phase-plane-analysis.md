@@ -202,7 +202,7 @@ flowchart TD
 - **[First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)**: Phase plane methods reduce systems to qualitative analysis when first-order methods like separation of variables are unavailable.
 - **[Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)**: The Jacobian matrix and its eigenvalues, computed using partial derivatives, determine local stability.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

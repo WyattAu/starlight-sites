@@ -203,7 +203,7 @@ The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contributi
 - **[Superconductivity](/6-solid-state-physics/7_superconductivity/)**: Represents the extreme limit where scattering vanishes entirely, producing zero resistivity below the critical temperature.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

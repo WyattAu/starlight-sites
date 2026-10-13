@@ -123,5 +123,5 @@ Abstract algebra distils the essence of arithmetic into algebraic structures. A 
 - **Number Theory:** Group theory in modular arithmetic; (Z/nZ)* is a group under multiplication.
 - **Topology:** Topological groups and algebraic topology; group theory underpins homology groups.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

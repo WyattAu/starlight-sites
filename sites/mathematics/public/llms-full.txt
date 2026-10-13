@@ -331,8 +331,8 @@ Beyond order 12, the classification continues to grow in complexity:
 - [Group Actions](/1-abstract-algebra/6_group-actions/) -- Conjugacy class analysis and semidirect product constructions rely on the group action framework.
 - [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- Lagrange's theorem constrains possible subgroup orders, which is essential for the classification arguments.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -522,10 +522,10 @@ The pitfalls in abstract algebra arise from treating algebraic structures as if 
 - [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- Assuming the converse of Lagrange's theorem and confusing index with order are common group-theory mistakes.
 - [The Sylow Theorems](/1-abstract-algebra/7_the-sylow-theorems/) -- Miscounting Sylow subgroups and forgetting the congruence conditions are pitfalls that arise from incomplete application of Sylow theory.
 - [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/) -- Confusing irreducibles with primes and assuming every PID is Euclidean are ring-theory errors covered in this chapter.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -693,8 +693,8 @@ only polynomials with even constant term, so $1 \notin I$. Thus $I$ is not princ
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- The worked examples use Euclidean division and factorisation arguments that depend on the ring classifications in this chapter.
 - [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/) -- The pitfalls section warns against confusing irreducibility with primality and assuming PIDs are always Euclidean.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -910,7 +910,7 @@ flowchart TD
 - **[Ideals and Quotient Rings](/1-abstract-algebra/9_ideals-and-quotient-rings/)**: Quotienting a polynomial ring by an irreducible ideal yields a field, the fundamental construction of field extensions.
 - **[Number Theory](/number-theory/)**: Number theory uses finite fields and field extensions in the study of Diophantine equations and cryptography.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -1614,7 +1614,7 @@ flowchart TD
 - **[Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/)**: Lagrange's theorem constrains the order of subgroups based on the order of the group.
 - **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)**: Homomorphisms preserve group structure and lead to the isomorphism theorems.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -2116,8 +2116,8 @@ flowchart TD
 - **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)**: The kernel of a ring homomorphism is always an ideal, enabling the ring isomorphism theorem.
 - **[Field Theory](/1-abstract-algebra/12_field-theory/)**: Quotienting a polynomial ring by an irreducible ideal produces a field extension.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -2258,7 +2258,7 @@ Abstract algebra distils the essence of arithmetic into algebraic structures. A 
 - **Number Theory:** Group theory in modular arithmetic; (Z/nZ)* is a group under multiplication.
 - **Topology:** Topological groups and algebraic topology; group theory underpins homology groups.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -2488,8 +2488,8 @@ flowchart TD
 - [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/) -- Lagrange's theorem limits the possible subgroup structure used in classifying small-order groups.
 - [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/) -- The common pitfalls section warns against assuming the converse of Lagrange's theorem and confusing index with order.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -2655,7 +2655,7 @@ flowchart TD
 - **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)**: The first isomorphism theorem shows that every quotient group arises from a homomorphism.
 - **[Groups](/1-abstract-algebra/1_groups/)**: The group axioms underpin the construction of normal subgroups and quotient groups.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ## Advanced Content
@@ -2842,8 +2842,8 @@ By Eisenstein with $p = 2$: $2 \mid 0, 4, 2$ but $2 \nmid 1$ (leading coefficien
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- Several worked examples apply irreducibility criteria and division algorithms developed in this chapter.
 - [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/) -- The common pitfalls section addresses frequent errors in applying Eisenstein's criterion and checking irreducibility.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -3519,10 +3519,10 @@ Groups of order $p^2$ (for prime $p$) are always abelian, but groups of order $p
 - **[Field Theory](/1-abstract-algebra/12_field-theory/)**: The field extension problems in this set build on irreducibility and algebraic closure.
 - **[Sylow Theorems](/1-abstract-algebra/7_the-sylow-theorems/)**: Problems on group classification rely on Sylow analysis for determining subgroup structure.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ### Challenge Problems
 
@@ -3724,10 +3724,10 @@ flowchart TD
 - **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)**: Ring homomorphisms preserve both addition and multiplication, generalising group homomorphisms.
 - **[Field Theory](/1-abstract-algebra/12_field-theory/)**: Fields are commutative rings in which every nonzero element has a multiplicative inverse.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -3915,8 +3915,8 @@ A coset $gH$ is a set of elements, not a group (unless $H$ is normal). The quoti
 - **[Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/)**: Lagrange's theorem shows the order of a subgroup divides the order of the group.
 - **[Normal Subgroups and Quotient Groups](/1-abstract-algebra/4_normal-subgroups-and-quotient-groups/)**: Normal subgroups are those for which the quotient group construction is well-defined.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -4067,8 +4067,8 @@ flowchart TD
 | Linear Algebra                 | WyattsNotes | [View](/linear-algebra/)       |
 | Abstract Algebra, Harvard 122 | Harvard     | [View](https://people.math.harvard.edu/~elkies/M122.html) |
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Key Relationships
 
@@ -4729,10 +4729,10 @@ and integration when differentiating under the integral to compute moments.
 - **[$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)**: The integrability conditions in Fubini's theorem connect to the $L^1$ norm and the broader theory of function spaces.
 - **[Radon-Nikodym Derivative and Lebesgue Decomposition](/10-measure-theory/9_radon-nikodym-derivative-and-lebesgue-decomposition/)**: Uses the measure-theoretic foundations that make product measures and iterated integrals well-defined.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -4905,8 +4905,8 @@ Pointwise convergence does not imply convergence in $L^p$ without a dominating f
 - **Functional Analysis:** L^p spaces and operator theory built on measure.
 - **Probability and Statistics:** Measure-theoretic probability foundations.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -5087,10 +5087,10 @@ Weak $L^p$ spaces are larger than $L^p$: $L^p \subseteq L^{p,\infty}$ with $\|f\
 - **[Normed Spaces and Banach Spaces](/11-functional-analysis/1_normed-spaces-and-banach-spaces/)**: Places $L^p$ spaces in the broader framework of Banach space theory, where they serve as fundamental examples.
 - **[Inner Product Spaces and Hilbert Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)**: Specialises the theory to $L^2$, where the inner product structure enables orthogonal projections and spectral theory.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid
@@ -5331,8 +5331,8 @@ flowchart TD
 - **[Sigma-Algebras and Measurable Spaces](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/)**: Measurable functions and their integrals are defined with respect to a sigma-algebra on the domain.
 - **[Riemann Integration](/3-real-analysis/6_riemann-integration/)**: Every Riemann integrable function is Lebesgue integrable, but the Lebesgue integral handles a strictly larger class of functions.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -5515,10 +5515,10 @@ $n$, $m(C) \leq \lim_{n\to\infty} (2/3)^n = 0$. $\blacksquare$
 - **[Measurable Functions](/10-measure-theory/5_measurable-functions/)**: Defines functions that are compatible with the measurable set structure, forming the basis for Lebesgue integration.
 - **[Radon-Nikodym Derivative and Lebesgue Decomposition](/10-measure-theory/9_radon-nikodym-derivative-and-lebesgue-decomposition/)**: Uses the decomposition of measures into absolutely continuous and singular parts, concepts rooted in the measurability theory here.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -5839,10 +5839,10 @@ flowchart TD
 - **[$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)**: Defines Banach spaces of measurable functions with finite $p$-norm, relying on Lebesgue measure constructed via the Caratheodory extension.
 - **[Radon-Nikodym Derivative and Lebesgue Decomposition](/10-measure-theory/9_radon-nikodym-derivative-and-lebesgue-decomposition/)**: Uses absolute continuity and decomposition concepts that depend on the measure theory developed here.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -5997,8 +5997,8 @@ $\mu(A_n) \to \mu(A)$. This is continuity from above.
 - **[$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)**: Defines function spaces using measurable functions with finite $p$-norms, directly building on the convergence modes studied here.
 - **[Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)**: Applies measurability of functions on product spaces to justify interchanging the order of integration.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ```mermaid
 flowchart TD
@@ -6256,10 +6256,10 @@ A collection of sets closed under finite unions and complements is an algebra, n
 - **[Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)**: The Lebesgue integral is defined using measures and is essential for the convergence theorems of integration theory.
 - **[Riemann Integration](/3-real-analysis/6_riemann-integration/)**: Lebesgue's criterion characterises Riemann integrability in terms of the measure of the discontinuity set.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -6495,10 +6495,10 @@ $\nu = m + \delta_0$ with $m \ll m$ and $\delta_0 \perp m$. $\blacksquare$
 - **[Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)**: Establishes the $\sigma$-algebra of measurable sets needed for the decomposition of measures.
 - **[Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)**: Product measures and integration techniques used in applications of the Radon-Nikodym derivative.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -6686,10 +6686,10 @@ The Borel sigma-algebra is foundational for modern probability theory. Kolmogoro
 - **[Measures](/10-measure-theory/2_measures/)**: Measures are countably additive set functions defined on sigma-algebras, assigning sizes to measurable sets.
 - **[Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)**: Lebesgue integration is built on measures defined on sigma-algebras, generalising the Riemann integral.
 - **[Continuity](/3-real-analysis/4_continuity/)**: Continuous functions generate Borel sigma-algebras, and continuity is a measurable property.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -6879,10 +6879,10 @@ flowchart TD
 - **[Measurable Functions](/10-measure-theory/5_measurable-functions/)**: Defines the function classes to which the convergence theorems and inequalities apply.
 - **[$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)**: Provides the Banach space framework where Hölder and Minkowski inequalities govern the geometry.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -7071,10 +7071,10 @@ The **kernel** $k(x, y) = \langle k_x, k_y \rangle$ is a positive definite funct
 - **[Compact Operators](/11-functional-analysis/5_compact-operators/)**: The Fredholm alternative for compact operators is applied to solve integral equations arising in physics.
 - **[Weak and Weak* Convergence](/11-functional-analysis/6_weak-and-weak-convergence/)**: Weak compactness is essential for extracting convergent subsequences in the calculus of variations and PDE theory.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -7271,10 +7271,10 @@ $(1, 1, 1, \ldots)$), $J$ is not surjective, so $c_0$ is not reflexive.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)**: Presents the Hahn-Banach, open mapping, and closed graph theorems that govern the behaviour of bounded operators between Banach spaces.
 - **[Compact Operators](/11-functional-analysis/5_compact-operators/)**: Studies a subclass of bounded operators with finite-dimensional-like properties, crucial for spectral theory.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid
@@ -7419,10 +7419,10 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)**: The bounded inverse theorem and closed graph theorem are used in the Fredholm alternative for compact operators.
 - **[Weak and Weak* Convergence](/11-functional-analysis/6_weak-and-weak-convergence/)**: Compact operators map weakly convergent sequences to strongly convergent sequences, linking these two modes of convergence.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -7752,10 +7752,10 @@ Functional analysis developed from concrete problems in integral equations, quan
 - [Lasers](https://physics.wyattau.com/4-optics-and-waves/9_lasers/) -- Quantum optics and laser physics rely on Hilbert space formalism and spectral theory developed by von Neumann and others discussed here.
 - [Special Relativity and Electromagnetism](https://physics.wyattau.com/3-electromagnetism/7_special-relativity-and-electromagnetism/) -- The Lorentz group and its representations are studied using the functional-analytic framework described in this chapter.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -7875,10 +7875,10 @@ The dual of $L^p(\mu)$ is $L^q(\mu)$ where $1/p + 1/q = 1$, but this fails for $
 - **Real Analysis:** Foundational analysis extended by functional analysis.
 - **Measure Theory:** L^p spaces and measure-theoretic foundations.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -7993,7 +7993,7 @@ product.
 - **[Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)**: Develops the theory of continuous linear maps on Hilbert spaces, where the adjoint operator plays a central role.
 - **[Compact Operators](/11-functional-analysis/5_compact-operators/)**: Uses the spectral theorem for compact self-adjoint operators on Hilbert spaces to decompose operators via orthonormal bases.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
@@ -8260,10 +8260,10 @@ $(\ell^p)^{**} \cong \ell^p$ via the natural embedding.
 - **[Inner Product Spaces and Hilbert Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)**: Specialises the normed space theory to spaces where the norm comes from an inner product, enabling orthogonal projections.
 - **[Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)**: Develops the theory of continuous linear maps between normed spaces, building on the dual space concept.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid
@@ -8590,10 +8590,10 @@ flowchart TD
 - [Electromagnetic Waves](https://physics.wyattau.com/3-electromagnetism/5_electromagnetic-waves/) -- The spectral theorem underpins the mode decomposition of electromagnetic fields in cavities and waveguides.
 - [Ising Model and Mean-Field Theory](https://physics.wyattau.com/2-thermal-physics/12_ising-model-and-mean-field-theory/) -- Transfer matrix methods use operator theory to compute partition functions in statistical mechanics.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 
@@ -8768,10 +8768,10 @@ Prove that if $x_n \to 0$ and $Tx_n \to y$ implies $y = 0$, then $T$ is bounded.
 - **[Compact Operators](/11-functional-analysis/5_compact-operators/)**: Applies the Fredholm alternative, which relies on the bounded inverse theorem established here.
 - **[Weak and Weak* Convergence](/11-functional-analysis/6_weak-and-weak-convergence/)**: Uses the Banach-Alaoglu theorem, a consequence of Hahn-Banach, to establish weak* compactness of the dual unit ball.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid
@@ -8932,10 +8932,10 @@ $f_n \rightharpoonup 0$. Note that $\|f_n\|_2 = \sqrt{\pi}$, so $f_n$ does not c
 - **[Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)**: Bounded operators are weakly continuous, and compact operators upgrade weak convergence to strong convergence.
 - **[Compact Operators](/11-functional-analysis/5_compact-operators/)**: Compact operators map weakly convergent sequences to strongly convergent sequences, connecting the two convergence modes.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid
@@ -9165,10 +9165,10 @@ uses Calabi-Yau manifolds, and manifold learning algorithms exploit geometry for
 - **[The Gauss-Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/)**: Relates total Gaussian curvature to the Euler characteristic, explaining cartographic constraints and serving as a prototype for index theorems.
 - **[Tangent Spaces and Tangent Bundles](/12-differential-geometry/2_tangent-spaces-and-tangent-bundles/)**: Provides the tangent bundle and connection theory needed to formulate geodesics as a rule relativity and gauge fields.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -9381,10 +9381,10 @@ Einstein with $\mathrm{Ric} = (n-1)\kappa\, g$.
 - **[The Gauss-Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/)**: Connects the total Gaussian curvature of a surface to its Euler characteristic, a deep link between local geometry and global topology.
 - **[Applications](/12-differential-geometry/9_applications/)**: Applies curvature concepts to general relativity, gauge theory, and minimal surfaces.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ### 7.14 Common Mistakes
 
@@ -9620,10 +9620,10 @@ The identity $d^2 = 0$ becomes $\nabla \times (\nabla f) = 0$ and $\nabla \cdot 
 - **[Riemannian Geometry](/12-differential-geometry/5_riemannian-geometry/)**: The Hodge star operator on differential forms uses the Riemannian metric to relate $k$-forms to $(n-k)$-forms.
 - **[Curvature](/12-differential-geometry/7_curvature/)**: The curvature tensor can be expressed using differential forms and the exterior derivative.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -9949,10 +9949,10 @@ Geodesics are the straightest possible paths on a curved surface. On a flat plan
 - [Electromagnetic Waves](https://physics.wyattau.com/3-electromagnetism/5_electromagnetic-waves/) -- The wave equation in curved spacetime uses geodesic deviation to describe tidal forces as a rule relativity.
 - [Special Relativity and Electromagnetism](https://physics.wyattau.com/3-electromagnetism/7_special-relativity-and-electromagnetism/) -- Minkowski spacetime is a flat Lorentzian manifold whose geodesics are the worldlines of free particles.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -10069,10 +10069,10 @@ The pushforward $df_p : T_pM \to T_{f(p)}N$ maps between tangent spaces of *diff
 
 ## See Also
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Study Tips
 
@@ -10352,10 +10352,10 @@ A Riemannian metric is like a flexible, position-dependent ruler laid across spa
 - **[Differential Forms](/12-differential-geometry/4_differential-forms/)**: The Levi-Civita connection and curvature can be expressed using differential forms and the exterior derivative.
 - **[Geodesics](/12-differential-geometry/6_geodesics/)**: Geodesics are curves on a Riemannian manifold that locally minimise length, determined by the Christoffel symbols of the metric.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 
@@ -10593,10 +10593,10 @@ flowchart TD
 - **[Riemannian Geometry](/12-differential-geometry/5_riemannian-geometry/)**: A Riemannian metric assigns an inner product to each tangent space of a smooth manifold.
 - **[Vector Fields and Flows](/12-differential-geometry/3_vector-fields-and-flows/)**: Vector fields assign a tangent vector to each point of a manifold and generate flows via integral curves.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -10794,10 +10794,10 @@ Differential geometry studies curved spaces by doing calculus on them. A manifol
 - [Key Theorems in Functional Analysis](/11-functional-analysis/9_summary-of-key-theorems/) -- The spectral theorem and compact operator theory underpin the analytical methods used in differential geometry.
 - [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- Group-theoretic structures appear in the study of Lie groups and symmetry of manifolds.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -10967,10 +10967,10 @@ $p$-$v$-plane. Thus $T_p S^2 \cong p^\perp$. $\blacksquare$
 - **[The Gauss-Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/)**: Relates the integral of Gaussian curvature over a surface to its Euler characteristic, a topological invariant of the tangent bundle.
 - **[Applications](/12-differential-geometry/9_applications/)**: Uses tangent spaces and vector fields to model geodesics as a rule relativity and configuration spaces in robotics.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 
@@ -11191,10 +11191,10 @@ giving $\mathrm{Area} = \pi$. $\blacksquare$
 - **[Applications](/12-differential-geometry/9_applications/)**: Uses the Gauss-Bonnet theorem to explain cartographic constraints and as a special case of the Atiyah-Singer index theorem.
 - **[Tangent Spaces and Tangent Bundles](/12-differential-geometry/2_tangent-spaces-and-tangent-bundles/)**: Provides the tangent bundle structure needed to define curvature and geodesics on surfaces.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid
@@ -11424,10 +11424,10 @@ A vector field assigns a direction and magnitude to every point of a manifold, l
 - [Group Actions](/1-abstract-algebra/6_group-actions/) -- Lie groups act on manifolds by diffeomorphisms, generalising the group action framework to continuous symmetry.
 - [Key Theorems in Functional Analysis](/11-functional-analysis/9_summary-of-key-theorems/) -- The Hahn-Banach and spectral theorems provide the functional-analytic foundations for studying infinite-dimensional spaces of vector fields.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Graduate-Analysis
 
@@ -13335,7 +13335,7 @@ flowchart TD
 - **[Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)**: The spectral theorem for symmetric matrices guarantees an orthonormal basis of eigenvectors.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -13533,7 +13533,7 @@ The column space of $A$ consists of all vectors $A\mathbf{x}$, while the null sp
 - **Real Analysis:** Metric spaces and convergence.
 - **Multivariable Calculus:** Applications of linear algebra in calculus.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -13853,7 +13853,7 @@ flowchart TD
 - **[Singular Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/)**: The SVD decomposes a matrix using orthonormal bases derived from inner products on $A^T A$ and $AA^T$.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -14209,7 +14209,7 @@ flowchart TD
 - **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: The solution space of a homogeneous system is a subspace whose dimension is determined by rank-nullity.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -14852,7 +14852,7 @@ flowchart TD
 - **[Singular Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/)**: The SVD factorises any matrix using its singular values, generalising the eigendecomposition.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -15491,10 +15491,10 @@ flowchart TD
 | Multivariable Calculus     | WyattsNotes | [View](/multivariable-calculus/)           |
 | Linear Algebra, MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -15849,7 +15849,7 @@ flowchart TD
 - **[Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)**: The SVD uses orthonormal bases derived from inner products on the column and row spaces of a matrix.
 - **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: The pseudoinverse derived from the SVD provides minimum-norm least squares solutions to inconsistent linear systems.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -16243,7 +16243,7 @@ flowchart TD
 }
 </script>
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ---
@@ -16593,7 +16593,7 @@ flowchart TD
 - **[Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)**: Basis and dimension are defined in terms of linear independence and span of vector space elements.
 - **[Matrices](/2-linear-algebra/3_matrices/)**: Matrices represent linear transformations between finite-dimensional vector spaces.
 - **[Linear Transformations](/2-linear-algebra/6_linear-transformations/)**: Linear transformations are maps between vector spaces that preserve linear structure.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ## Real-Analysis
@@ -17022,8 +17022,8 @@ flowchart TD
 - **[Differentiability](/3-real-analysis/5_differentiability/)**: Differentiability implies continuity, but the converse is false; the relationship between these concepts is explored via the mean value theorem.
 - **[Riemann Integration](/3-real-analysis/6_riemann-integration/)**: Continuous functions on closed intervals are Riemann integrable, and the Heine-Cantor theorem guarantees uniform continuity on compact domains.
 - **[Sigma-Algebras and Measurable Spaces](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/)**: Continuity is defined in terms of open sets, which generate the Borel sigma-algebra used in measure theory.
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -17494,8 +17494,8 @@ flowchart TD
 - **[Continuity](/3-real-analysis/4_continuity/)**: Differentiability implies continuity, and the mean value theorem connects local derivative behaviour to global function properties.
 - **[Riemann Integration](/3-real-analysis/6_riemann-integration/)**: The fundamental theorem of calculus links differentiation and integration, with the Riemann integral defined via limits of Riemann sums.
 - **[Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)**: Lebesgue integration generalises the Riemann integral and handles a broader class of functions with discontinuities.
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -17703,8 +17703,8 @@ Many proofs in real analysis implicitly rely on the Archimedean property (for an
 - **Multivariable Calculus:** Extensions to several variables.
 - **Measure Theory:** Lebesgue integration extending Riemann integration.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -18345,8 +18345,8 @@ flowchart TD
 | Differential Equations     | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/)          |
 | Real Analysis, MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -18814,10 +18814,10 @@ flowchart TD
 - **[Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)**: Lebesgue integration generalises Riemann integration and handles functions with more complex discontinuity patterns.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -19491,8 +19491,8 @@ When applying the ratio or root test, students find $R$ but assume the series co
 - **[Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)**: Taylor series convergence and analyticity connect real analysis to the partial derivative computations in multivariable calculus.
 - **[Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)**: Fourier series are function series whose convergence properties are analysed using the uniform convergence theory developed here.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid
@@ -19851,10 +19851,10 @@ The Riemann rearrangement theorem states that any conditionally convergent serie
 - **[Sequences and Series of Functions](/3-real-analysis/7_sequences-and-series-of-functions/)**: The convergence tests for numerical series extend to function series through the Weierstrass M-test and uniform convergence.
 - **[Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)**: Complex series and power series in the complex plane extend the convergence theory to two dimensions.
 - **[Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)**: Fourier series are infinite series of trigonometric functions whose convergence depends on the tests developed in this chapter.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -20202,10 +20202,10 @@ and [Continuity](/3-real-analysis/4_continuity/).
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -20595,10 +20595,10 @@ flowchart TD
 - **[Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)**: Surface integrals and flux integrals are computed using the normal vector and the tools of vector calculus.
 - **[Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)**: Surface area and surface integrals are evaluated as double integrals using the parametrisation and the cross product.
 - **[Curvature and Torsion](/4-multivariable-calculus/5_curves-and-surfaces/)**: The Frenet-Serret formulas describe how the tangent, normal, and binormal vectors move along a curve.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -20807,10 +20807,10 @@ Setting $\nabla f = \mathbf{0}$ is necessary but not sufficient. The Hessian mat
 - **Real Analysis:** Foundational analysis for multivariable calculus.
 - **Ordinary Differential Equations:** Systems of ODEs using multivariable calculus.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -21225,10 +21225,10 @@ flowchart TD
 - **[Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)**: Surface integrals and flux integrals extend multiple integrals to curved surfaces in three dimensions.
 - **[Optimization](/4-multivariable-calculus/4_optimization/)**: Multiple integrals are used to compute volumes and averages needed in constrained optimisation problems.
 - **[Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)**: Surface area and surface integrals are computed using parametrisations and the cross product of partial derivatives.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -21522,10 +21522,10 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
 - **[Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)**: Lagrange multipliers use the geometric relationship between gradients and tangent spaces, which is formalised in the study of conservative fields.
 - **[Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)**: The extreme value theorem and convergence of iterative optimisation methods rely on completeness and compactness from real analysis.
 - **[Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)**: Computing volumes and moments over constraint surfaces uses the multiple integration techniques developed in this chapter.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -21955,10 +21955,10 @@ flowchart TD
 - **[Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)**: The gradient, divergence, and curl are built from partial derivatives and form the core operators of vector calculus.
 - **[Optimization](/4-multivariable-calculus/4_optimization/)**: Critical points are found by setting partial derivatives to zero, and the Hessian matrix of second partials determines their nature.
 - **[Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)**: Tangent vectors and normal vectors to surfaces are computed using partial derivatives of parametrisations.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -22721,10 +22721,10 @@ flowchart TD
 | Differential Equations             | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/)                   |
 | Multivariable Calculus, MIT 18.02 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -23222,10 +23222,10 @@ flowchart TD
 - **[Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)**: Line integrals and surface integrals require parametrisation of curves and surfaces using the tools from this chapter.
 - **[Optimization](/4-multivariable-calculus/4_optimization/)**: Conservative vector fields and potential functions connect to the theory of exact differentials and constrained optimisation.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ### 3.9 Intuition: What Do Curl, Divergence, and the Integral Theorems Mean?
 
@@ -23454,10 +23454,10 @@ Differential equations are the language of change. Every pitfall in this file re
 - **[Stability and Phase Plane Analysis](/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/)**: Non-hyperbolic critical points and incorrect linearisation are common mistakes in stability analysis.
 - **[Series Solutions](/5-ordinary-differential-equations/6_series-solutions/)**: Confusing ordinary and regular singular points leads to incorrect application of the Frobenius method.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -23858,8 +23858,8 @@ flowchart TD
 - **[Second-Order Linear ODEs](/5-ordinary-differential-equations/3_second-order-linear-odes/)**: Reduction of order converts certain second-order equations to first-order, linking these two chapters.
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform provides an alternative algebraic method for solving linear first-order ODEs with initial conditions.
 - **[Stability and Phase Plane Analysis](/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/)**: Equilibria and their stability for first-order autonomous ODEs form the foundation for phase plane analysis.
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -24126,10 +24126,10 @@ flowchart TD
 - **[Sequences and Series of Functions](/3-real-analysis/7_sequences-and-series-of-functions/)**: Convergence of Fourier series relies on uniform convergence theory and the Weierstrass M-test.
 - **[Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)**: Euler's formula converts between real and complex forms of the Fourier series.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -24262,10 +24262,10 @@ Differential equations describe how systems evolve, from planetary orbits to pop
 - **Linear Algebra:** Systems of linear ODEs using eigenvalues; matrix exponentials solve linear systems.
 - **Complex Analysis:** Contour integration for solving ODEs; the Laplace transform uses complex analysis.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -24417,8 +24417,8 @@ Differential equations describe how things change. An ODE relates a function to 
 - **[Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)**: The heat, wave, and Laplace equations are canonical PDEs that extend the ODE framework to multiple variables.
 - **[Stability and Phase Plane Analysis](/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/)**: Classifying ODEs by linearity and homogeneity determines which stability analysis techniques apply.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Advanced Content
 
@@ -24770,10 +24770,10 @@ Partial differential equations extend ODEs to functions of multiple variables, d
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform can solve the heat equation in the time variable, converting the PDE to an ODE.
 - **[Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)**: The gradient, divergence, and curl operators appearing in PDE formulations are central concepts in vector calculus.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -25177,8 +25177,8 @@ flowchart TD
 - **[Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)**: The Laplace variable $s$ is complex, and poles and zeros in the complex plane determine system behaviour.
 - **[Systems of ODEs](/5-ordinary-differential-equations/4_systems-of-odes/)**: The Laplace transform extends logically to systems of ODEs, converting coupled differential equations into algebraic systems.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -25781,13 +25781,13 @@ flowchart TD
 | Topic                    | Site       | Link                                                                                                                  |
 | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Differential Equations] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations) |
-| [Differential Equations] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/5_differential-equations)                                      |
+| [Differential Equations] | IB         | [View](https://ib.wyattau.com/maths/5-calculus/5_differential-equations/)                                      |
 | [Differential Equations] | University | [View](https://mathematics.wyattau.com/)    |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## See Also
 
@@ -26573,8 +26573,8 @@ Bessel functions of the first kind $J_\nu(x)$ are analytic at $x = 0$, while Bes
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform provides an alternative to series methods for solving ODEs with initial conditions.
 - **[Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)**: The Frobenius method involves analysing singularities in the complex plane to determine convergence of series solutions.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -26796,10 +26796,10 @@ flowchart TD
 - **[First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)**: Phase plane methods reduce systems to qualitative analysis when first-order methods like separation of variables are unavailable.
 - **[Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)**: The Jacobian matrix and its eigenvalues, computed using partial derivatives, determine local stability.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -27257,8 +27257,8 @@ flowchart TD
 - **[Liouville's Theorem](/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle/)**: Liouville's theorem characterizes entire functions and is used in proving uniqueness of analytic continuation.
 - **[Complex Functions and Analyticity](/6-complex-analysis/2_complex-functions-and-analyticity/)**: Analyticity is the essential property that enables continuation beyond the original domain.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -27462,8 +27462,8 @@ Contour integration exploits the fact that analytic functions have path-independ
 - **[Complex Integration](/6-complex-analysis/4_complex-integration/)**: Contour integration techniques form the foundation for evaluating real integrals.
 - **[Conformal Mappings](/6-complex-analysis/10_conformal-mappings/)**: Conformal mappings can transform difficult integrals into simpler ones that are easier to evaluate.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -27676,10 +27676,10 @@ The argument principle counts zeros and poles of a function by tracking how much
 - **[Liouville's Theorem](/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle/)**: Liouville's theorem characterizes bounded entire functions and is used to prove the fundamental theorem of algebra.
 - **[Conformal Mappings](/6-complex-analysis/10_conformal-mappings/)**: The argument principle helps count zeros and poles in conformal mapping problems.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -27856,8 +27856,8 @@ Cauchy's integral formula says the value of an analytic function inside a contou
 - **[Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)**: The integral formula leads to power series representations of analytic functions.
 - **[Liouville's Theorem](/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle/)**: Liouville's theorem follows from Cauchy's estimates and characterizes bounded entire functions.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -28072,8 +28072,8 @@ Cauchy's theorem says the integral of an analytic function around a closed conto
 - **[Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)**: The integral formula extends Cauchy's theorem to express function values via boundary integrals.
 - **[Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: The residue theorem computes integrals by summing contributions from singularities inside contours.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -28269,8 +28269,8 @@ The pitfalls in complex analysis stem from the deceptive similarity between real
 - **[Complex Functions and Analyticity](/6-complex-analysis/2_complex-functions-and-analyticity/)**: Analytic functions are infinitely differentiable and satisfy the Cauchy-Riemann equations.
 - **[Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)**: Cauchy's theorem requires analyticity on a directly connected domain for the integral to vanish.
 - **[Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: The residue theorem computes contour integrals by summing contributions from singularities.
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -28468,8 +28468,8 @@ A complex function maps the plane to the plane, but requiring differentiability 
 - **[Cauchy-Riemann Equations](/6-complex-analysis/3_the-cauchy-riemann-equations/)**: The Cauchy-Riemann equations are necessary and sufficient conditions for analyticity.
 - **[Complex Integration](/6-complex-analysis/4_complex-integration/)**: Integration of analytic functions leads to powerful results like Cauchy's integral theorem.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -28682,8 +28682,8 @@ flowchart TD
 - **[Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)**: The integral formula expresses the value of an analytic function at interior points via boundary integrals.
 - **[Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: The residue theorem computes contour integrals by summing contributions from singularities.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -28961,10 +28961,10 @@ The argument $\arg(z)$ is multi-valued: if $\theta$ is an argument, then so is $
 - **[Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)**: Euler's formula connects complex exponentials to trigonometric functions used in Fourier analysis.
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform extends to complex analysis through the Bromwich integral and residue calculus.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -29176,8 +29176,8 @@ The cross-ratio $(z_1, z_2, z_3, z_4)$ is invariant under Möbius transformation
 - **[Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)**: Conformal mappings transform difficult integrals into simpler ones that are easier to evaluate.
 - **[Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)**: The argument principle counts zeros and poles using the change in argument along contours.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -29369,10 +29369,10 @@ Complex analysis studies functions of a complex variable, where the single requi
 - **Number Theory:** Analytic number theory using complex analysis; the Riemann zeta function is a central object.
 - **ODEs:** Contour integration for solving ODEs; the Laplace transform uses complex analysis.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -29571,8 +29571,8 @@ Liouville's theorem states that bounded entire functions must be constant, which
 - **[Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)**: Power series representations reveal the local behavior of analytic functions near singularities.
 - **[Conformal Mappings](/6-complex-analysis/10_conformal-mappings/)**: The Riemann mapping theorem uses maximum modulus principles to establish conformal equivalences.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -30145,11 +30145,11 @@ flowchart TD
 | Topic             | Site       | Link                                                                                                           |
 | ----------------- | ---------- | -------------------------------------------------------------------------------------------------------------- |
 | [Complex Numbers] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/01-complex-numbers) |
-| [Complex Numbers] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/1-number-and-algebra/2_complex-numbers)                            |
+| [Complex Numbers] | IB         | [View](https://ib.wyattau.com/maths/1-number-and-algebra/2_complex-numbers/)                            |
 | [Complex Numbers] | University | [View](https://mathematics.wyattau.com/)                  |
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## See Also
 
@@ -30362,8 +30362,8 @@ The residue at a pole of order $m$ is given by $\mathrm{Res}(f, z_0) = \frac{1}{
 - **[Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)**: Cauchy's theorem for multiply connected domains leads to the residue theorem.
 - **[Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)**: The residue theorem is applied to evaluate real integrals and solve physics problems.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -30567,8 +30567,8 @@ Every analytic function can be expanded as a power series, like a polynomial of 
 - **[Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: Laurent series reveal the structure of singularities and enable residue computation.
 - **[Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)**: Laurent series can extend functions beyond their original domain through analytic continuation.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -30790,8 +30790,8 @@ The Cauchy-Riemann equations are the complex analogue of requiring a function to
 - **[Complex Integration](/6-complex-analysis/4_complex-integration/)**: Cauchy's integral theorem relies on the Cauchy-Riemann equations for its proof.
 - **[Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)**: Analytic functions can be represented as power series, which follows from the Cauchy-Riemann equations.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -32827,8 +32827,8 @@ Probability Theory is the mathematics of uncertainty. Imagine you have a coin th
 
 ## See Also
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -33155,10 +33155,10 @@ Joint distributions describe how two or more random variables vary together. Ind
 - **[Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)**: Probability spaces provide the measure-theoretic foundation for defining joint distributions.
 - **[Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)**: The central limit theorem extends to sums of independent random variables with different distributions.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -36196,10 +36196,10 @@ flowchart TD
 | Real Analysis                         | WyattsNotes | [View](/real-analysis/)              |
 | Probability, Harvard Stat 110        | Harvard     | [View](https://stat110.com/)                                    |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -36710,10 +36710,10 @@ flowchart TD
 - **[Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)**: Joint distributions describe the behavior of multiple random variables simultaneously.
 - **[Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)**: The central limit theorem shows that sums of random variables converge to normal distributions.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -36842,14 +36842,14 @@ flowchart TD
 | Topic         | Site       | Link                                                                                               |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------- |
 | [Probability] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/03-probability)       |
-| [Probability] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/1_probability)            |
-| [Probability] | DSE        | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)                           |
+| [Probability] | IB         | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/)            |
+| [Probability] | DSE        | [View](https://dse.wyattau.com/maths/compulsory/11_probability/)                           |
 | [Probability] | University | [View](https://mathematics.wyattau.com/) |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -37087,10 +37087,10 @@ Think of a set as a region of space with fuzzy edges. The interior is the core w
 - **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)**: The boundary operator in algebraic topology generalises the topological boundary concept to higher dimensions.
 - **[Common Pitfalls](/9-topology/10_common-pitfalls/)**: Confusing open with closed and misunderstanding closure under infinite operations are frequent errors.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -37289,10 +37289,10 @@ The pitfalls in topology arise from a single source: intuition from Euclidean sp
 - **[Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)**: Several pitfalls involve misunderstanding the relationship between open, closed, and clopen sets.
 - **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)**: The distinction between homotopy equivalence and homeomorphism is a frequent source of confusion.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -37497,10 +37497,10 @@ flowchart TD
 - **[Connectedness](/9-topology/6_connectedness/)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
 - **[Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)**: Continuous functions preserve compactness, and homeomorphisms preserve all topological properties.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -37686,10 +37686,10 @@ flowchart TD
 - **[Topological Spaces](/9-topology/2_topological-spaces/)**: Topological spaces provide the framework for defining connectedness through separation properties.
 - **[Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)**: Continuous functions preserve connectedness, and homeomorphisms preserve all topological invariants.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -37985,7 +37985,7 @@ Topology is the study of properties preserved under continuous deformation. Imag
 - **Abstract Algebra:** Topological groups and algebraic topology; group theory underpins homology and fundamental groups.
 - **Differential Geometry:** Smooth manifolds as topological spaces; differential geometry adds calculus to topology.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 Keep practising and reviewing to master this topic.
@@ -38139,10 +38139,10 @@ Algebraic topology translates geometric questions into algebra. A loop that cann
 - **[Separation Axioms](/9-topology/8_separation-axioms/)**: The separation axioms determine which topological spaces have well-behaved fundamental groups and classification results.
 - **[Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)**: The notion of convergence underpins the definition of homotopy and the fundamental group.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content
@@ -38366,10 +38366,10 @@ Homeomorphism preserves topological properties but not geometric ones. A coffee 
 - **[Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)**: Continuous functions and homeomorphisms are fundamental morphisms in topology.
 - **[Topological Spaces](/9-topology/2_topological-spaces/)**: Detailed study of topological space definitions, bases, and subspace topologies.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -38554,10 +38554,10 @@ flowchart TD
 - **[Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)**: Convergence of sequences in metric spaces generalises the real-number convergence studied in analysis.
 - **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)**: Completeness and compactness of metric spaces are prerequisites for understanding covering spaces and fundamental groups.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -38768,10 +38768,10 @@ A $T_1$ space need not be $T_2$. The cofinite topology on an infinite set is $T_
 - **[Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)**: Separation axioms formalise how well points and closed sets can be separated by open sets.
 - **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)**: Compact Hausdorff spaces are normal, which is essential for proving results about covering spaces and quotient maps.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -38975,10 +38975,10 @@ Tychonoff's theorem guarantees that products of compact spaces are compact, and 
 | ---------------- | ----------------------------------------------------- |
 | Abstract Algebra | [View](/abstract-algebra/) |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -39129,10 +39129,10 @@ $\blacksquare$
 - **[Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)**: Continuous functions between topological spaces preserve structure without requiring metrics.
 - **[Compactness](/9-topology/5_compactness/)**: Compactness is a key property of topological spaces related to finite subcovers and sequential convergence.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -40021,10 +40021,10 @@ length 2. Order = lcm(3, 2) = 6. The element (1 2 3)(4 5)^6 = identity.
 | -------- | --------------------------------------------- |
 | Topology | [View](/9-topology/1_introduction-to-topology/) |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -42178,8 +42178,8 @@ flowchart TD
 | Differential Equations       | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/)                              |
 | Complex Analysis, MIT 18.04 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-fall-2003/) |
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -44909,10 +44909,10 @@ import { Citation } from "@components/Citations.astro"
 | Differential Equations, MIT 18.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/) |
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -45875,10 +45875,10 @@ Mathematics is cumulative, each topic builds on previous ones. If you encounter 
 - **[Linear Algebra](/linear-algebra/)**: Vector spaces and linear maps are used throughout mathematics, physics, and engineering.
 - **[Topology](/9-topology/1_introduction-to-topology/)**: Topological spaces generalise notions of closeness and continuity beyond metric spaces.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 
@@ -48664,10 +48664,10 @@ import { Citation } from "@components/Citations.astro"
 | Real Analysis              | WyattsNotes | [View](/real-analysis/)                    |
 | Linear Algebra, MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -51248,10 +51248,10 @@ flowchart TD
 | Multivariable Calculus, MIT 18.02 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) |
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ---
 
@@ -51533,10 +51533,10 @@ Mathematics is the art of precise abstraction. Each subject in this collection s
 
 ## See Also
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -53211,8 +53211,8 @@ flowchart TD
 | Differential Equations         | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/)     |
 | Probability, Harvard Stat 110 | Harvard     | [View](https://stat110.com/)                                    |
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -55880,10 +55880,10 @@ flowchart TD
 | Differential Equations      | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/) |
 | Statistics, Stanford CS229 | Stanford    | [View](https://cs229.stanford.edu/)                         |
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
@@ -58258,10 +58258,10 @@ Real analysis is the art of making calculus rigorous. The central idea is that l
 | Real Analysis, MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Demos
 
@@ -58799,7 +58799,7 @@ flowchart TD
 - **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: Several diagnostic questions involve solving linear systems and understanding solution structure.
 - **[Linear Transformations](/2-linear-algebra/6_linear-transformations/)**: Questions on kernel and image draw on the theory of linear maps between vector spaces.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ## Common Mistakes

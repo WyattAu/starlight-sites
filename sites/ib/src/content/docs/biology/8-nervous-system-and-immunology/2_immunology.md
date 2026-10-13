@@ -1782,8 +1782,8 @@ Antibodies; it is mediated by sensitised T cells.
 | Topic        | Site    | Link                                                                                          |
 | ------------ | ------- | --------------------------------------------------------------------------------------------- |
 | [Immunology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/immunology)                    |
-| [Immunology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/8-nervous-system-and-immunology/2_immunology)   |
-| [Immunology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/7-nervous-system-and-immunology/2_immunology) |
+| [Immunology] | IB      | [View](https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology/)   |
+| [Immunology] | DSE     | [View](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology/) |
 
 ## Supplementary: Antibody Diversity -- V(D)J Recombination (HL Extension)
 

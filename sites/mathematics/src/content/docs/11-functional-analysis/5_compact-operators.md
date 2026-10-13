@@ -95,10 +95,10 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)**: The bounded inverse theorem and closed graph theorem are used in the Fredholm alternative for compact operators.
 - **[Weak and Weak* Convergence](/11-functional-analysis/6_weak-and-weak-convergence/)**: Compact operators map weakly convergent sequences to strongly convergent sequences, linking these two modes of convergence.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 

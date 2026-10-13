@@ -1889,7 +1889,7 @@ flowchart TD
 | Topic             | Site       | Link                                                                                                                 |
 | ----------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | [Data Structures] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/data-structures/01-arrays-and-records)       |
-| [Data Structures] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/5-abstract-data-structures/1_abstraction-and-data-management) |
+| [Data Structures] | IB         | [View](https://ib.wyattau.com/computer-science/5-abstract-data-structures/1_abstraction-and-data-management/) |
 | [Data Structures] | University | [View](https://computer-science.wyattau.com/)    |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

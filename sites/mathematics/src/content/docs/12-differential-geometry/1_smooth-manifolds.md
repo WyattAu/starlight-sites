@@ -207,7 +207,7 @@ flowchart TD
 - **[Riemannian Geometry](/12-differential-geometry/5_riemannian-geometry/)**: A Riemannian metric assigns an inner product to each tangent space of a smooth manifold.
 - **[Vector Fields and Flows](/12-differential-geometry/3_vector-fields-and-flows/)**: Vector fields assign a tangent vector to each point of a manifold and generate flows via integral curves.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

@@ -1133,8 +1133,8 @@ $$
 | Topic                  | Site    | Link                                                                                    |
 | ---------------------- | ------- | --------------------------------------------------------------------------------------- |
 | [Chemical Equilibrium] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/equilibrium)           |
-| [Chemical Equilibrium] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/7-equilibrium/1_equilibrium)            |
-| [Chemical Equilibrium] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/4-equilibrium/1_chemical-equilibrium) |
+| [Chemical Equilibrium] | IB      | [View](https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium/)            |
+| [Chemical Equilibrium] | DSE     | [View](https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium/) |
 
 ## Worked Examples
 

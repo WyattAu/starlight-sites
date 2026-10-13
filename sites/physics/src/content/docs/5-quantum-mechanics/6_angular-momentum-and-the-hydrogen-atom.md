@@ -331,7 +331,7 @@ Angular momentum in quantum mechanics is like a spinning top that can only point
 - **[Scattering Theory](/5-quantum-mechanics/13_scattering-theory/)**: Scattering theory applies angular momentum techniques to analyze particle collisions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

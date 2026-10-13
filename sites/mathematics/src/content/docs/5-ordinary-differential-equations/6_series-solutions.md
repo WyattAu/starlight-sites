@@ -204,8 +204,8 @@ Bessel functions of the first kind $J_\nu(x)$ are analytic at $x = 0$, while Bes
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform provides an alternative to series methods for solving ODEs with initial conditions.
 - **[Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)**: The Frobenius method involves analysing singularities in the complex plane to determine convergence of series solutions.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content

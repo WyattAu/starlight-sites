@@ -1620,7 +1620,7 @@ which has multiple Isoforms with different adhesive properties.
 | Topic               | Site    | Link                                                                              |
 | ------------------- | ------- | --------------------------------------------------------------------------------- |
 | [Advanced Genetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/genetics-advanced) |
-| [Advanced Genetics] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/3-genetics/2_genetics-advanced)     |
+| [Advanced Genetics] | IB      | [View](https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced/)     |
 
 ## Supplementary: Genetic Engineering Applications (HL Extension)
 

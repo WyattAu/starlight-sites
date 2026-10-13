@@ -131,8 +131,8 @@ flowchart TD
 | Linear Algebra                 | WyattsNotes | [View](/linear-algebra/)       |
 | Abstract Algebra, Harvard 122 | Harvard     | [View](https://people.math.harvard.edu/~elkies/M122.html) |
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Key Relationships
 

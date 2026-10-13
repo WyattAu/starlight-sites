@@ -666,7 +666,7 @@ CMake presets define reusable build configurations (debug, release, sanitizer bu
 - [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Dependency presets
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## See Also
 

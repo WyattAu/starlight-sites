@@ -157,7 +157,7 @@ The Josephson effects are the basis for SQUIDs, voltage standards, and supercond
 - **[Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)**: Develops the Ginzburg-Landau phenomenological theory and Abrikosov vortex physics beyond the basic BCS framework.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

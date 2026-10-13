@@ -600,7 +600,7 @@ Quantum chemistry reveals that electrons do not orbit nuclei like planets around
 | Quantum Mechanics        | WyattsNotes | [View](https://physics.wyattau.com/5-quantum-mechanics/16_flashcards-quantum-mechanics/)                    |
 | Quantum Chemistry, MIT 5.61 | MIT OCW | [View](https://ocw.mit.edu/courses/5-61-physical-chemistry-fall-2013/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)

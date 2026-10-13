@@ -799,4 +799,4 @@ Cross-compilation lets you build code for a different architecture than your dev
 - [[enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism]] - Parallel cross-compilation
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)

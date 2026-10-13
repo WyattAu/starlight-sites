@@ -116,7 +116,7 @@ product.
 - **[Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)**: Develops the theory of continuous linear maps on Hilbert spaces, where the adjoint operator plays a central role.
 - **[Compact Operators](/11-functional-analysis/5_compact-operators/)**: Uses the spectral theorem for compact self-adjoint operators on Hilbert spaces to decompose operators via orthonormal bases.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

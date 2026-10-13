@@ -936,7 +936,7 @@ self-marking and building a personal test matrix.
 | Topic                 | Site    | Link                                                                                                            |
 | --------------------- | ------- | --------------------------------------------------------------------------------------------------------------- |
 | [Coordinate Geometry] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/04-coordinates-and-geometry) |
-| [Coordinate Geometry] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/9_coordinate-geometry)                                 |
+| [Coordinate Geometry] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry/)                                 |
 
 ## DSE Exam Technique
 
@@ -1318,7 +1318,7 @@ $\blacksquare$
   A-Level |
   [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/04-coordinates-and-geometry)
   | | [Coordinate Geometry] | DSE |
-  [View](https://dse.wyattau.com/docs/dse/maths/compulsory/9_coordinate-geometry) |
+  [View](https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry/) |
 :::
 
 ## Intuition

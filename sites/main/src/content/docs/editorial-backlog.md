@@ -176,7 +176,7 @@ distribution or human approval per site.
 words a human confirms, exactly as the capitalisation worklist is handled. The
 count is printed on every gate run, so it cannot rot unnoticed.
 
-## 9. Dead cross-zone links (1,517 of 3,361)
+## 9. Dead cross-zone links (48 distinct, 818 occurrences)
 
 `lint-link-graph.js` validates internal `/path/` links against the content
 collections. It does **not** validate absolute URLs to other zones, so a link
@@ -207,11 +207,11 @@ nothing needs to be fetched. That matters independently of speed: probing
 every zone over HTTP is what previously hit Cloudflare error 1027 on the free
 tier, and a gate must not be able to take the network down.
 
-Measured: **1,517 dead of 3,361** cross-zone links. Precision was verified
-against production rather than against the script's own intent -- 14 sampled
-findings, all confirmed 404, zero false positives. Two false-positive classes
-were found and fixed that way, both of which would have made the gate
-unusable:
+Measured: of 3,361 cross-zone link occurrences, **187 were distinct dead
+links**. Precision was verified against production rather than against the
+script's own intent -- 14 sampled findings, all confirmed 404, zero false
+positives. Two false-positive classes were found and fixed that way, both of
+which would have made the gate unusable:
 
 - `https://sat.wyattau.com/hub` returns 200, because Astro redirects a missing
   trailing slash. Comparing raw route strings reported every such link dead.
@@ -219,20 +219,38 @@ unusable:
   `/chemistry/`, so every section landing page in the network looked missing.
   One sample that returned 200 in production exposed it.
 
-The largest remaining class is the historical `/docs/<topic>` shape, written
-before the collections were split into numbered subject directories.
+**Half of it was provably repairable, and was.**
+`scripts/fix-cross-site-docs-prefix.py` repairs the historical `/docs/...`
+shape left by the collection split, under a rule that adds information with
+certainty rather than guessing:
 
-**Why the gate is advisory for now.** The check is reliable, but 1,517 dead
-links are already in the tree, and choosing the correct replacement for each is
-an editorial call -- a dead link to `physics/docs/thermodynamics` has several
-defensible targets and picking wrong is worse than leaving it. The gate
-reports on every run and a test asserts the count cannot grow, which is the
-same treatment the capitalisation worklist gets. It becomes blocking when the
-backlog is worked down.
+- drop the stale `/docs` prefix, and a redundant copy of the site slug, when
+  the remaining path is a route that exists -- the full intended path survives,
+  so the link names exactly one real page;
+- restore the numeric directory prefix the subject split introduced
+  (`classical-mechanics` -> `1-classical-mechanics`), matched against exact
+  top-level directory names.
 
-**Resolution path.** Work the count down per site, highest-traffic sites
-first. The check makes the remaining set exact and ordered, so progress is
-measurable rather than estimated.
+**699 occurrences across 388 files repaired, taking distinct dead links from
+187 to 48.** Every repaired target was checked live: `/2-thermal-physics/`,
+`/5-quantum-mechanics/`, `/2-linear-algebra/` and `/1-classical-mechanics/`
+all return 200.
+
+**What is left is genuinely editorial.** 48 distinct links, concentrated on
+alevel (29), programming (5) and computer-science (4). These are the
+`/docs/<subject>` shape where the subject gained a descriptive prefix as well
+as a number -- `mathematics/docs/calculus` could mean any calculus page, and
+`physics/docs/statistical-mechanics` names a page that does not exist on the
+physics site. Picking a target means knowing which page the author meant.
+
+**Why the link gate stays advisory.** The check is reliable, but those 48 need
+a human. It reports on every run and a test asserts the count cannot grow,
+which is the same treatment the capitalisation worklist gets. It becomes
+blocking when the backlog reaches zero.
+
+**Resolution path.** Work the 48 per site, alevel first. The check makes the
+remaining set exact and ordered, so progress is measurable rather than
+estimated.
 
 ## 10. Four `sites/main` content pages are not publicly reachable
 

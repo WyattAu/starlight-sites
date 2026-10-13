@@ -810,9 +810,9 @@ $a = \frac{5}{7}g\sin\theta$.
 
 ## Related Content at Other Levels
 
-- **A-Level Mechanics:** [Physics](https://alevel.wyattau.com/docs/physics/physics)
+- **A-Level Mechanics:** [Physics](https://alevel.wyattau.com/physics/physics/)
 - **DSE Forces and Motion:**
-  [Forces and Motion](https://dse.wyattau.com/docs/dse/physics/1-mechanics)
+  [Forces and Motion](https://dse.wyattau.com/physics/1-mechanics/)
 
 ## Intuition
 
@@ -849,7 +849,7 @@ and past paper questions, is essential for success in examinations.
 | Topic      | Site    | Link                                                                                         |
 | ---------- | ------- | -------------------------------------------------------------------------------------------- |
 | [Momentum] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/05-momentum)   |
-| [Momentum] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/5_forces-and-momentum) |
+| [Momentum] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum/) |
 
 ## Worked Examples
 

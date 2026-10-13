@@ -521,5 +521,5 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 | Solid-State Physics      | WyattsNotes | [View](https://physics.wyattau.com/6-solid-state-physics/17_practice-solid-state-physics/)                  |
 | Solid-State Chemistry, MIT 3.091 | MIT OCW | [View](https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

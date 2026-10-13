@@ -369,6 +369,6 @@ The superposition principle applies only to linear media. In non-linear optics (
 - **[Electrodynamics](/3-electromagnetism/4_electrodynamics/)**: Electrodynamics provides the foundation for understanding how changing electric and magnetic fields propagate as waves.
 - **[Interference](/4-optics-and-waves/3_interference/)**: The superposition of wave solutions to the wave equation produces interference patterns used in Young's double slit and Fabry-Perot interferometers.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

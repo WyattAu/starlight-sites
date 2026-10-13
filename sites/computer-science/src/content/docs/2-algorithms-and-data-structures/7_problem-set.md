@@ -188,7 +188,7 @@ TSP cost (since optimal TSP minus one edge is a spanning tree).
 
 | Topic                                       | Site       | Link                                                                                                                    |
 | ------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/4-computational-thinking/2_algorithms-and-data-structures)       |
+| [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)       |
 | [Algorithms and Data Structures (Advanced)] | University | [View](https://computer-science.wyattau.com/) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

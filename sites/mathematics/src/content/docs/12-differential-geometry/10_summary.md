@@ -198,9 +198,9 @@ Differential geometry studies curved spaces by doing calculus on them. A manifol
 - [Key Theorems in Functional Analysis](/11-functional-analysis/9_summary-of-key-theorems/) -- The spectral theorem and compact operator theory underpin the analytical methods used in differential geometry.
 - [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- Group-theoretic structures appear in the study of Lie groups and symmetry of manifolds.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

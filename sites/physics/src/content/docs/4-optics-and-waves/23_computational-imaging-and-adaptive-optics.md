@@ -106,11 +106,11 @@ flowchart TD
 | Topic                   | Site       | Link                                                                                                                   |
 | ----------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------- |
 | [Refraction and Optics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/waves/03-refraction-and-total-internal-reflection) |
-| [Refraction and Optics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/2-waves/2_waves-and-optics)                                            |
+| [Refraction and Optics] | DSE        | [View](https://dse.wyattau.com/physics/2-waves/2_waves-and-optics/)                                            |
 | [Refraction and Optics] | University | [View](https://physics.wyattau.com/) |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 
 ### 19.3 Key Relationships
 

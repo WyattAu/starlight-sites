@@ -286,6 +286,6 @@ Scattering theory extracts information about forces by firing particles at targe
 - **[Time-Dependent Perturbation Theory](/5-quantum-mechanics/12_time-dependent-perturbation-theory/)**: Fermi's Golden Rule from time-dependent perturbation theory underlies transition rates in scattering.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

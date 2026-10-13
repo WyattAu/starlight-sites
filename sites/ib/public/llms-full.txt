@@ -4718,8 +4718,8 @@ activation Of new transcription factors and the silencing of genes for alternati
 | Topic          | Site    | Link                                                                                            |
 | -------------- | ------- | ----------------------------------------------------------------------------------------------- |
 | [Cell Biology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/cells)                           |
-| [Cell Biology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/1-cell-biology/1_cell-biology)                    |
-| [Cell Biology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/1-cell-biology/1_cell-biology-and-biochemistry) |
+| [Cell Biology] | IB      | [View](https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology/)                    |
+| [Cell Biology] | DSE     | [View](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/) |
 
 ## Supplementary: Membrane Structure and Transport in Detail (HL Extension)
 
@@ -8473,8 +8473,8 @@ consequences, and evaluate One conservation strategy.
 | Topic     | Site    | Link                                                                    |
 | --------- | ------- | ----------------------------------------------------------------------- |
 | [Ecology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/ecology) |
-| [Ecology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/4-ecology/1_ecology)      |
-| [Ecology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/2-ecology/1_ecology)    |
+| [Ecology] | IB      | [View](https://ib.wyattau.com/biology/4-ecology/1_ecology/)      |
+| [Ecology] | DSE     | [View](https://dse.wyattau.com/biology/2-ecology/1_ecology/)    |
 
 ## Supplementary: Biomes in Detail (HL Extension)
 
@@ -10342,10 +10342,10 @@ and underlying genetic basis:
 | Topic                           | Site    | Link                                                                                                  |
 | ------------------------------- | ------- | ----------------------------------------------------------------------------------------------------- |
 | [Biodiversity and Conservation] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/biodiversity-classification-evolution) |
-| [Biodiversity and Conservation] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/5-evolution-and-biodiversity/1_evolution)               |
-| [Biodiversity and Conservation] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/2-ecology/2_biodiversity-and-conservation)            |
-| [Evolution]                     | IB      | [View](https://ib.wyattau.com/docs/ib/biology/5-evolution-and-biodiversity/1_evolution)               |
-| [Evolution]                     | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/6-evolution/1_evolution)                              |
+| [Biodiversity and Conservation] | IB      | [View](https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution/)               |
+| [Biodiversity and Conservation] | DSE     | [View](https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation/)            |
+| [Evolution]                     | IB      | [View](https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution/)               |
+| [Evolution]                     | DSE     | [View](https://dse.wyattau.com/biology/6-evolution/1_evolution/)                              |
 
 ## Supplementary: Molecular Clocks and Phylogenetics (HL Extension)
 
@@ -12340,8 +12340,8 @@ Consumer rights and practical implications.
 | Topic      | Site    | Link                                                                             |
 | ---------- | ------- | -------------------------------------------------------------------------------- |
 | [Genetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/genetics-and-dna) |
-| [Genetics] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/3-genetics/1_genetics)             |
-| [Genetics] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/3-genetics/1_genetics)           |
+| [Genetics] | IB      | [View](https://ib.wyattau.com/biology/3-genetics/1_genetics/)             |
+| [Genetics] | DSE     | [View](https://dse.wyattau.com/biology/3-genetics/1_genetics/)           |
 
 ## Supplementary: Meiosis in Detail (HL Extension)
 
@@ -14233,7 +14233,7 @@ which has multiple Isoforms with different adhesive properties.
 | Topic               | Site    | Link                                                                              |
 | ------------------- | ------- | --------------------------------------------------------------------------------- |
 | [Advanced Genetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/genetics-advanced) |
-| [Advanced Genetics] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/3-genetics/2_genetics-advanced)     |
+| [Advanced Genetics] | IB      | [View](https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced/)     |
 
 ## Supplementary: Genetic Engineering Applications (HL Extension)
 
@@ -16134,8 +16134,8 @@ the presence and absence Of ADH.
 | Topic              | Site    | Link                                                                                   |
 | ------------------ | ------- | -------------------------------------------------------------------------------------- |
 | [Human Physiology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/homeostasis)            |
-| [Human Physiology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/6-human-physiology/1_human-physiology)   |
-| [Human Physiology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/4-human-physiology/1_human-physiology) |
+| [Human Physiology] | IB      | [View](https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology/)   |
+| [Human Physiology] | DSE     | [View](https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology/) |
 
 ## Supplementary: Endocrine System in Detail (HL Extension)
 
@@ -18072,8 +18072,8 @@ Antibodies; it is mediated by sensitised T cells.
 | Topic        | Site    | Link                                                                                          |
 | ------------ | ------- | --------------------------------------------------------------------------------------------- |
 | [Immunology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/immunology)                    |
-| [Immunology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/8-nervous-system-and-immunology/2_immunology)   |
-| [Immunology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/7-nervous-system-and-immunology/2_immunology) |
+| [Immunology] | IB      | [View](https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology/)   |
+| [Immunology] | DSE     | [View](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology/) |
 
 ## Supplementary: Antibody Diversity -- V(D)J Recombination (HL Extension)
 
@@ -18939,8 +18939,8 @@ pitfalls, and exam-style problems.
 
 ## Related Content
 
-- **A-Level Biology:** [A-Level Biology](https://alevel.wyattau.com/docs/biology)
-- **DSE Biology:** [DSE Biology](https://dse.wyattau.com/docs/dse/biology)
+- **A-Level Biology:** [A-Level Biology](https://alevel.wyattau.com/biology/)
+- **DSE Biology:** [DSE Biology](https://dse.wyattau.com/biology/)
 
 ## Common Pitfalls
 
@@ -22487,7 +22487,7 @@ microorganisms (bacteria, protozoa) in their digestive tracts that produce cellu
 | Topic               | Site    | Link                                                                                   |
 | ------------------- | ------- | -------------------------------------------------------------------------------------- |
 | [Molecular Biology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/biological-molecules)   |
-| [Molecular Biology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/2-molecular-biology/1_molecular-biology) |
+| [Molecular Biology] | IB      | [View](https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology/) |
 
 ## Supplementary: Molecular Biology Techniques (HL Extension)
 
@@ -24232,8 +24232,8 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
 | Topic            | Site    | Link                                                                                              |
 | ---------------- | ------- | ------------------------------------------------------------------------------------------------- |
 | [Nervous System] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/nervous-system)                    |
-| [Nervous System] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/8-nervous-system-and-immunology/1_nervous-system)   |
-| [Nervous System] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/7-nervous-system-and-immunology/1_nervous-system) |
+| [Nervous System] | IB      | [View](https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system/)   |
+| [Nervous System] | DSE     | [View](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system/) |
 
 ## Supplementary: Muscle Contraction in Detail (HL Extension)
 
@@ -26228,8 +26228,8 @@ adaptations, Including the role of specific hormones and osmoprotectants.
 
 | Topic           | Site | Link                                                                             |
 | --------------- | ---- | -------------------------------------------------------------------------------- |
-| [Plant Biology] | IB   | [View](https://ib.wyattau.com/docs/ib/biology/7-plant-biology/1_plant-biology)   |
-| [Plant Biology] | DSE  | [View](https://dse.wyattau.com/docs/dse/biology/5-plant-biology/1_plant-biology) |
+| [Plant Biology] | IB   | [View](https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology/)   |
+| [Plant Biology] | DSE  | [View](https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology/) |
 
 ## Supplementary: Plant Hormones in Detail (HL Extension)
 
@@ -27620,9 +27620,9 @@ Note: The second and third dissociations contribute negligible H$^+$ since $K_{a
 ## Related Content at Other Levels
 
 - **A-Level Acids, Bases & Buffers:**
-  [Acids, Bases & Buffers](https://alevel.wyattau.com/docs/chemistry/acids-bases)
+  [Acids, Bases & Buffers](https://alevel.wyattau.com/chemistry/acids-bases/)
 - **DSE Acids, Bases, and Salts:**
-  [Acids, Bases, and Salts](https://dse.wyattau.com/docs/dse/chemistry/5-acids-bases)
+  [Acids, Bases, and Salts](https://dse.wyattau.com/chemistry/5-acids-bases/)
 
 ```mermaid
 flowchart TD
@@ -27655,8 +27655,8 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | Topic             | Site    | Link                                                                                                |
 | ----------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Acids and Bases] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/acids-bases)                       |
-| [Acids and Bases] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/8-acids-and-bases/1_acids-and-bases)                |
-| [Acids and Bases] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry) |
+| [Acids and Bases] | IB      | [View](https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases/)                |
+| [Acids and Bases] | DSE     | [View](https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/) |
 
 ## Worked Examples
 
@@ -30326,7 +30326,7 @@ $$
 This corresponds to the cyan line in the Balmer series (visible region).
 
 For the A-Level treatment of this topic, see
-[Atomic Structure & Periodicity](https://alevel.wyattau.com/docs/chemistry/atomic-structure).
+[Atomic Structure & Periodicity](https://alevel.wyattau.com/chemistry/atomic-structure/).
 
 </details>
 
@@ -31239,8 +31239,8 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | Topic              | Site    | Link                                                                                                             |
 | ------------------ | ------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Atomic Structure] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/atomic-structure)                               |
-| [Atomic Structure] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/2-atomic-structure/1_atomic-theory)                              |
-| [Atomic Structure] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding) |
+| [Atomic Structure] | IB      | [View](https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory/)                              |
+| [Atomic Structure] | DSE     | [View](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/) |
 :::
 
 ---
@@ -32615,7 +32615,7 @@ $120^\circ$ And the entire molecule is planar. The C=C double bond consists of o
 pi bond. The pi bond restricts rotation about the C=C bond.
 
 For the A-Level treatment of this topic, see
-[Bonding & Structure](https://alevel.wyattau.com/docs/chemistry/bonding-and-structure).
+[Bonding & Structure](https://alevel.wyattau.com/chemistry/bonding-and-structure/).
 
 </details>
 
@@ -32645,8 +32645,8 @@ For the A-Level treatment of this topic, see
 | Topic              | Site    | Link                                                                                                             |
 | ------------------ | ------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Chemical Bonding] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/bonding-and-structure)                          |
-| [Chemical Bonding] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/4-chemical-bonding/1_chemical-bonding)                           |
-| [Chemical Bonding] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding) |
+| [Chemical Bonding] | IB      | [View](https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding/)                           |
+| [Chemical Bonding] | DSE     | [View](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/) |
 
 ## Worked Examples
 
@@ -34986,7 +34986,7 @@ $$
 - **A-Level Kinetics:**
   [Chemical Kinetics](https://alevel.wyattau.com/docs/chemistry/chemical-kinetics)
 - **DSE Rate of Reaction:**
-  [Rate of Reaction and Energetics](https://dse.wyattau.com/docs/dse/chemistry/3-chemical-kinetics-and-energetics)
+  [Rate of Reaction and Energetics](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/)
 
 ## Common Pitfalls
 
@@ -35007,8 +35007,8 @@ $$
 | Topic               | Site    | Link                                                                                                      |
 | ------------------- | ------- | --------------------------------------------------------------------------------------------------------- |
 | [Chemical Kinetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/kinetics)                                |
-| [Chemical Kinetics] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/6-kinetics/1_chemical-kinetics)                           |
-| [Chemical Kinetics] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics) |
+| [Chemical Kinetics] | IB      | [View](https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics/)                           |
+| [Chemical Kinetics] | DSE     | [View](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/) |
 
 ## Worked Examples
 
@@ -39004,8 +39004,8 @@ $$
 | Topic              | Site    | Link                                                                                                         |
 | ------------------ | ------- | ------------------------------------------------------------------------------------------------------------ |
 | [Electrochemistry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/electrochemistry)                           |
-| [Electrochemistry] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/9-redox/3_electrochemistry)                                  |
-| [Electrochemistry] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry) |
+| [Electrochemistry] | IB      | [View](https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry/)                                  |
+| [Electrochemistry] | DSE     | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
 
 ## Worked Examples
 
@@ -40179,8 +40179,8 @@ $$
 | Topic                  | Site    | Link                                                                                    |
 | ---------------------- | ------- | --------------------------------------------------------------------------------------- |
 | [Chemical Equilibrium] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/equilibrium)           |
-| [Chemical Equilibrium] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/7-equilibrium/1_equilibrium)            |
-| [Chemical Equilibrium] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/4-equilibrium/1_chemical-equilibrium) |
+| [Chemical Equilibrium] | IB      | [View](https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium/)            |
+| [Chemical Equilibrium] | DSE     | [View](https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium/) |
 
 ## Worked Examples
 
@@ -41798,8 +41798,8 @@ Uncertainty, significant figures, error propagation, graphical analysis, and spe
 
 ## Related Content
 
-- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/docs/chemistry)
-- **DSE Chemistry:** [DSE Chemistry](https://dse.wyattau.com/docs/dse/chemistry)
+- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/chemistry/)
+- **DSE Chemistry:** [DSE Chemistry](https://dse.wyattau.com/chemistry/)
 - **University Chemistry:** [University Chemistry](https://chemistry.wyattau.com/)
 
 ## Common Pitfalls
@@ -42879,7 +42879,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | Topic                             | Site    | Link                                                                                                                  |
 | --------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Measurement and Data Processing] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/quantitative-chemistry)                              |
-| [Measurement and Data Processing] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing) |
+| [Measurement and Data Processing] | IB      | [View](https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing/) |
 :::
 
 ---
@@ -43998,9 +43998,9 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 ## Related Content at Other Levels
 
 - **A-Level Organic Chemistry:**
-  [Organic Chemistry](https://alevel.wyattau.com/docs/chemistry/organic-chemistry)
+  [Organic Chemistry](https://alevel.wyattau.com/chemistry/organic-chemistry/)
 - **DSE Carbon Chemistry:**
-  [Carbon Chemistry](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry)
+  [Carbon Chemistry](https://dse.wyattau.com/chemistry/7-organic-chemistry/)
 
 ## Common Pitfalls
 
@@ -44026,8 +44026,8 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 | Topic               | Site    | Link                                                                                             |
 | ------------------- | ------- | ------------------------------------------------------------------------------------------------ |
 | [Organic Chemistry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/organic-chemistry/introduction) |
-| [Organic Chemistry] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/10-organic-chemistry/1_organic-chemistry)        |
-| [Organic Chemistry] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry/1_organic-chemistry)       |
+| [Organic Chemistry] | IB      | [View](https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry/)        |
+| [Organic Chemistry] | DSE     | [View](https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry/)       |
 
 ## Worked Examples
 
@@ -44954,8 +44954,8 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 | Topic                        | Site | Link                                                                                               |
 | ---------------------------- | ---- | -------------------------------------------------------------------------------------------------- |
-| [Advanced Organic Chemistry] | IB   | [View](https://ib.wyattau.com/docs/ib/chemistry/10-organic-chemistry/2_organic-chemistry-advanced) |
-| [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry/2_carbon-chemistry)          |
+| [Advanced Organic Chemistry] | IB   | [View](https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced/) |
+| [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry/)          |
 :::
 
 ---
@@ -49318,9 +49318,9 @@ the OH$^-$ at the cathode is consumed by this acid.
 ## Related Content at Other Levels
 
 - **A-Level Redox and Electrochemistry:**
-  [Electrochemistry](https://alevel.wyattau.com/docs/chemistry/electrochemistry)
+  [Electrochemistry](https://alevel.wyattau.com/chemistry/electrochemistry/)
 - **DSE Redox and Electrochemistry:**
-  [Redox and Electrochemistry](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry)
+  [Redox and Electrochemistry](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/)
 
 ```mermaid
 flowchart TD
@@ -49352,8 +49352,8 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 | Topic             | Site | Link                                                                                                         |
 | ----------------- | ---- | ------------------------------------------------------------------------------------------------------------ |
-| [Redox Reactions] | IB   | [View](https://ib.wyattau.com/docs/ib/chemistry/9-redox/1_redox-reactions)                                   |
-| [Redox Reactions] | DSE  | [View](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry) |
+| [Redox Reactions] | IB   | [View](https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions/)                                   |
+| [Redox Reactions] | DSE  | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
 
 ## Worked Examples
 
@@ -51597,7 +51597,7 @@ $$
 Formula: $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$ (Epsom salt)
 
 For the A-Level treatment of this topic, see
-[Quantitative Chemistry](https://alevel.wyattau.com/docs/chemistry/quantitative-chemistry).
+[Quantitative Chemistry](https://alevel.wyattau.com/chemistry/quantitative-chemistry/).
 
 </details>
 
@@ -51618,8 +51618,8 @@ For the A-Level treatment of this topic, see
 | Topic           | Site    | Link                                                                                                |
 | --------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Stoichiometry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/quantitative-chemistry)            |
-| [Stoichiometry] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/1-stoichiometry/1_stoichiometric-relationships)     |
-| [Stoichiometry] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry) |
+| [Stoichiometry] | IB      | [View](https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships/)     |
+| [Stoichiometry] | DSE     | [View](https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/) |
 
 ## Worked Examples
 
@@ -52740,7 +52740,7 @@ Gaseous particles and thus disorder.
 in solution, increasing disorder.
 
 For the A-Level treatment of this topic, see
-[Thermodynamics & Energetics](https://alevel.wyattau.com/docs/chemistry/thermodynamics).
+[Thermodynamics & Energetics](https://alevel.wyattau.com/chemistry/thermodynamics/).
 
 </details>
 
@@ -52762,8 +52762,8 @@ For the A-Level treatment of this topic, see
 | Topic                        | Site    | Link                                                                                               |
 | ---------------------------- | ------- | -------------------------------------------------------------------------------------------------- |
 | [Thermodynamics (Chemistry)] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/thermodynamics)                   |
-| [Thermodynamics (Chemistry)] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/5-energetics/1_thermochemistry)                    |
-| [Thermodynamics (Chemistry)] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/3-chemical-kinetics-and-energetics/2_energetics) |
+| [Thermodynamics (Chemistry)] | IB      | [View](https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry/)                    |
+| [Thermodynamics (Chemistry)] | DSE     | [View](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics/) |
 
 ## Worked Examples
 
@@ -54441,7 +54441,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 | Topic             | Site       | Link                                                                                                                 |
 | ----------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | [Data Structures] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/data-structures/01-arrays-and-records)       |
-| [Data Structures] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/5-abstract-data-structures/1_abstraction-and-data-management) |
+| [Data Structures] | IB         | [View](https://ib.wyattau.com/computer-science/5-abstract-data-structures/1_abstraction-and-data-management/) |
 | [Data Structures] | University | [View](https://computer-science.wyattau.com/)    |
 
 ---
@@ -57270,7 +57270,7 @@ _If you get this wrong, revise: [Queues](#queues) and
 ## Related Content at Other Levels
 
 - **A-Level Algorithms:**
-  [Computer Science](https://alevel.wyattau.com/docs/computer-science/computer-science)
+  [Computer Science](https://alevel.wyattau.com/computer-science/computer-science/)
 - **Computer Science Algorithms:**
   [Algorithms and Data Structures](https://computer-science.wyattau.com/)
 
@@ -57291,7 +57291,7 @@ _If you get this wrong, revise: [Queues](#queues) and
 
 | Topic                                       | Site       | Link                                                                                                                    |
 | ------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/4-computational-thinking/2_algorithms-and-data-structures)       |
+| [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)       |
 | [Algorithms and Data Structures (Advanced)] | University | [View](https://computer-science.wyattau.com/) |
 
 ```mermaid
@@ -59301,7 +59301,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 | Topic           | Site    | Link                                                                                                     |
 | --------------- | ------- | -------------------------------------------------------------------------------------------------------- |
 | [Boolean Logic] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/03-boolean-algebra) |
-| [Boolean Logic] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/4-computational-thinking/1_boolean-logic)         |
+| [Boolean Logic] | IB      | [View](https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic/)         |
 
 ## Worked Examples
 
@@ -60171,8 +60171,8 @@ programming, and requires both theoretical knowledge and hands-on practice.
 | Topic                   | Site    | Link                                                                                                           |
 | ----------------------- | ------- | -------------------------------------------------------------------------------------------------------------- |
 | [Computer Architecture] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/04-computer-architecture) |
-| [Computer Architecture] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/2-computer-organization/1_computer-organization)        |
-| [Computer Architecture] | DSE     | [View](https://dse.wyattau.com/docs/dse/ict/2-computer-systems/1_computer-systems)                             |
+| [Computer Architecture] | IB      | [View](https://ib.wyattau.com/computer-science/2-computer-organization/1_computer-organization/)        |
+| [Computer Architecture] | DSE     | [View](https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems/)                             |
 
 ## Worked Examples
 
@@ -63327,9 +63327,9 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
 ## Related Content at Other Levels
 
 - **A-Level Databases:**
-  [Computer Science](https://alevel.wyattau.com/docs/computer-science/computer-science)
+  [Computer Science](https://alevel.wyattau.com/computer-science/computer-science/)
 - **DSE Programming and Databases:**
-  [Programming and Databases](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases)
+  [Programming and Databases](https://dse.wyattau.com/ict/3-programming-and-databases/)
 - **Computer Science Databases:**
   [Database Systems](https://computer-science.wyattau.com/)
 
@@ -63338,8 +63338,8 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
 | Topic       | Site       | Link                                                                                                       |
 | ----------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Databases] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/databases/01-relational-databases) |
-| [Databases] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/6-resource-management/1_databases)                  |
-| [Databases] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases/3_data-management)                 |
+| [Databases] | IB         | [View](https://ib.wyattau.com/computer-science/6-resource-management/1_databases/)                  |
+| [Databases] | DSE        | [View](https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management/)                 |
 | [Databases] | University | [View](https://computer-science.wyattau.com/)                              |
 
 ## Worked Examples
@@ -64255,7 +64255,7 @@ Sorting, searching, linked lists, stacks, queues, trees, and graphs
 ## Related Content
 
 - **A-Level Computer Science:**
-  [A-Level Computer Science](https://alevel.wyattau.com/docs/computer-science)
+  [A-Level Computer Science](https://alevel.wyattau.com/computer-science/)
 - **DSE Computer Science:**
   [DSE Computer Science](https://dse.wyattau.com/docs/dse/computer-science)
 - **University Computer Science:**
@@ -65127,8 +65127,8 @@ Encryption with the speed of symmetric encryption.
 | Topic      | Site       | Link                                                                                                      |
 | ---------- | ---------- | --------------------------------------------------------------------------------------------------------- |
 | [Networks] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/networks/01-network-fundamentals) |
-| [Networks] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/3-networks/1_networks)                             |
-| [Networks] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/4-networking-and-internet/1_internet-and-data-communications) |
+| [Networks] | IB         | [View](https://ib.wyattau.com/computer-science/3-networks/1_networks/)                             |
+| [Networks] | DSE        | [View](https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications/) |
 | [Networks] | University | [View](https://computer-science.wyattau.com/)             |
 
 
@@ -65838,7 +65838,7 @@ void selectionSort(int[] arr) {
 | Topic                         | Site    | Link                                                                                                                |
 | ----------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
 | [Object-Oriented Programming] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/programming/02-object-oriented-programming) |
-| [Object-Oriented Programming] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/8-object-oriented-programming/1_object-oriented-programming) |
+| [Object-Oriented Programming] | IB      | [View](https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming/) |
 
 
 ```mermaid
@@ -67805,8 +67805,8 @@ END IF
 | Topic                    | Site    | Link                                                                                                           |
 | ------------------------ | ------- | -------------------------------------------------------------------------------------------------------------- |
 | [Programming Constructs] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/programming/01-programming-constructs) |
-| [Programming Constructs] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/7-control/1_programming-fundamentals)                   |
-| [Programming Constructs] | DSE     | [View](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases/1_programming-fundamentals)            |
+| [Programming Constructs] | IB      | [View](https://ib.wyattau.com/computer-science/7-control/1_programming-fundamentals/)                   |
+| [Programming Constructs] | DSE     | [View](https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals/)            |
 
 
 ```mermaid
@@ -120789,7 +120789,7 @@ and building a personal test matrix.
 | Topic             | Site       | Link                                                                                                           |
 | ----------------- | ---------- | -------------------------------------------------------------------------------------------------------------- |
 | [Complex Numbers] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/01-complex-numbers) |
-| [Complex Numbers] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/1-number-and-algebra/2_complex-numbers)                            |
+| [Complex Numbers] | IB         | [View](https://ib.wyattau.com/maths/1-number-and-algebra/2_complex-numbers/)                            |
 | [Complex Numbers] | University | [View](https://mathematics.wyattau.com/)                  |
 </Aside>
 
@@ -126389,7 +126389,7 @@ and building a personal test matrix.
 | Topic                    | Site       | Link                                                                                                                  |
 | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Differential Equations] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations) |
-| [Differential Equations] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/5_differential-equations)                                      |
+| [Differential Equations] | IB         | [View](https://ib.wyattau.com/maths/5-calculus/5_differential-equations/)                                      |
 | [Differential Equations] | University | [View](https://mathematics.wyattau.com/)    |
 
 ```mermaid
@@ -126419,7 +126419,7 @@ Regular practice with a variety of question types is essential to build fluency 
 applying these mathematical techniques. | [Differential Equations] | A-Level |
 [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations)
 | | [Differential Equations] | IB |
-[View](https://ib.wyattau.com/docs/ib/maths/5-calculus/5_differential-equations) | | [Differential
+[View](https://ib.wyattau.com/maths/5-calculus/5_differential-equations/) | | [Differential
 Equations] | University |
 [View](https://mathematics.wyattau.com/)
 |
@@ -127308,7 +127308,7 @@ Differentiation asks a deceptively simple question: how fast is something changi
 | Topic             | Site    | Link                                                                                                   |
 | ----------------- | ------- | ------------------------------------------------------------------------------------------------------ |
 | [Differentiation] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/10-differentiation) |
-| [Differentiation] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/2_differentiation)                              |
+| [Differentiation] | IB      | [View](https://ib.wyattau.com/maths/5-calculus/2_differentiation/)                              |
 
 ## Worked Examples
 
@@ -128459,8 +128459,8 @@ Functions are machines that take an input and produce an output -- like a coffee
 | Topic       | Site    | Link                                                                                             |
 | ----------- | ------- | ------------------------------------------------------------------------------------------------ |
 | [Functions] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/05-functions) |
-| [Functions] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/2-functions/1_functions)                             |
-| [Functions] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/1_functions)                            |
+| [Functions] | IB      | [View](https://ib.wyattau.com/maths/2-functions/1_functions/)                             |
+| [Functions] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/1_functions/)                            |
 
 ## Worked Examples
 
@@ -128688,8 +128688,8 @@ Matrix operations, determinants, inverses, solving systems, and eigenvalues
 
 ## Related Content
 
-- **A-Level Maths:** [A-Level Maths](https://alevel.wyattau.com/docs/maths)
-- **DSE Maths:** [DSE Maths](https://dse.wyattau.com/docs/dse/maths)
+- **A-Level Maths:** [A-Level Maths](https://alevel.wyattau.com/maths/)
+- **DSE Maths:** [DSE Maths](https://dse.wyattau.com/maths/)
 - **University Maths:** [University Maths](https://mathematics.wyattau.com/)
 
 ## Intuition
@@ -129677,7 +129677,7 @@ $$
 | Topic         | Site    | Link                                                                                               |
 | ------------- | ------- | -------------------------------------------------------------------------------------------------- |
 | [Integration] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/11-integration) |
-| [Integration] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/4_integration)                              |
+| [Integration] | IB      | [View](https://ib.wyattau.com/maths/5-calculus/4_integration/)                              |
 
 ## Intuition
 
@@ -131663,7 +131663,7 @@ $\displaystyle\int_0^1 \frac{x\,dx}{x^2 + 4} = \frac{1}{2}\int_4^5 \frac{du}{u} 
 ## Related Content at Other Levels
 
 - **A-Level Differentiation and Integration:**
-  [Mathematics](https://alevel.wyattau.com/docs/maths/maths)
+  [Mathematics](https://alevel.wyattau.com/maths/maths/)
 - **University Calculus:**
   [Multivariable Calculus](https://mathematics.wyattau.com/)
 
@@ -135226,7 +135226,7 @@ A matrix is a machine that transforms space. It stretches, rotates, reflects, an
 | Topic      | Site    | Link                                                                                                    |
 | ---------- | ------- | ------------------------------------------------------------------------------------------------------- |
 | [Matrices] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/02-matrices) |
-| [Matrices] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/3-geometry-and-trigonometry/3_matrices-and-transformations) |
+| [Matrices] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations/) |
 
 ## Worked Examples
 
@@ -139430,8 +139430,8 @@ and building a personal test matrix.
 | Topic         | Site       | Link                                                                                               |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------- |
 | [Probability] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/03-probability)       |
-| [Probability] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/1_probability)            |
-| [Probability] | DSE        | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)                           |
+| [Probability] | IB         | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/)            |
+| [Probability] | DSE        | [View](https://dse.wyattau.com/maths/compulsory/11_probability/)                           |
 | [Probability] | University | [View](https://mathematics.wyattau.com/) |
 
 ## Worked Examples
@@ -141024,9 +141024,9 @@ Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moder
 
 ## Related Content at Other Levels
 
-- **A-Level Probability:** [Mathematics](https://alevel.wyattau.com/docs/maths/maths)
+- **A-Level Probability:** [Mathematics](https://alevel.wyattau.com/maths/maths/)
 - **DSE Probability:**
-  [Probability](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)
+  [Probability](https://dse.wyattau.com/maths/compulsory/11_probability/)
 - **University Probability and Statistics:**
   [Probability and Statistics](https://mathematics.wyattau.com/)
 
@@ -141079,7 +141079,7 @@ $$
 | Topic                       | Site    | Link                                                                                                       |
 | --------------------------- | ------- | ---------------------------------------------------------------------------------------------------------- |
 | [Statistical Distributions] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/04-statistical-distributions) |
-| [Statistical Distributions] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/3_probability-distributions)      |
+| [Statistical Distributions] | IB      | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions/)      |
 
 ## See Also
 
@@ -142544,7 +142544,7 @@ flowchart TD
 | Topic             | Site    | Link                                                                                         |
 | ----------------- | ------- | -------------------------------------------------------------------------------------------- |
 | [Proof and Logic] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/13-proof) |
-| [Proof and Logic] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/1-number-and-algebra/3_proof-and-logic)          |
+| [Proof and Logic] | IB      | [View](https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic/)          |
 
 ## See Also
 
@@ -143426,8 +143426,8 @@ A sequence is a list of numbers following a rule, like steps on a staircase. Ari
 | Topic                  | Site    | Link                                                                                                        |
 | ---------------------- | ------- | ----------------------------------------------------------------------------------------------------------- |
 | [Sequences and Series] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/06-sequences-and-series) |
-| [Sequences and Series] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/2-functions/2_sequences-and-series)                             |
-| [Sequences and Series] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/6_sequences-and-series)                            |
+| [Sequences and Series] | IB      | [View](https://ib.wyattau.com/maths/2-functions/2_sequences-and-series/)                             |
+| [Sequences and Series] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/6_sequences-and-series/)                            |
 
 ## Worked Examples
 
@@ -145321,8 +145321,8 @@ Statistics is the science of making decisions under uncertainty. The mean tells 
 
 | Topic        | Site | Link                                                                                   |
 | ------------ | ---- | -------------------------------------------------------------------------------------- |
-| [Statistics] | IB   | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/2_statistics) |
-| [Statistics] | DSE  | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/12_dispersion)                |
+| [Statistics] | IB   | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics/) |
+| [Statistics] | DSE  | [View](https://dse.wyattau.com/maths/compulsory/12_dispersion/)                |
 
 ## Worked Examples
 
@@ -146910,9 +146910,9 @@ $$
 
 ## Related Content at Other Levels
 
-- **A-Level Trigonometry:** [Mathematics](https://alevel.wyattau.com/docs/maths/maths)
+- **A-Level Trigonometry:** [Mathematics](https://alevel.wyattau.com/maths/maths/)
 - **DSE Trigonometry:**
-  [Trigonometry](https://dse.wyattau.com/docs/dse/maths/compulsory/10_trigonometry)
+  [Trigonometry](https://dse.wyattau.com/maths/compulsory/10_trigonometry/)
 
 ---
 
@@ -146962,8 +146962,8 @@ Trigonometry is the mathematics of rotation and waves. The unit circle is a cloc
 | Topic          | Site    | Link                                                                                                |
 | -------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Trigonometry] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/08-trigonometry) |
-| [Trigonometry] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/3-geometry-and-trigonometry/1_trigonometry)             |
-| [Trigonometry] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/10_trigonometry)                           |
+| [Trigonometry] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/1_trigonometry/)             |
+| [Trigonometry] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/10_trigonometry/)                           |
 
 ## Worked Examples
 
@@ -147803,7 +147803,7 @@ applying these mathematical techniques.
 | Topic     | Site    | Link                                                                                           |
 | --------- | ------- | ---------------------------------------------------------------------------------------------- |
 | [Vectors] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/12-vectors) |
-| [Vectors] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/3-geometry-and-trigonometry/2_vectors)             |
+| [Vectors] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors/)             |
 
 ## Worked Examples
 
@@ -150666,9 +150666,9 @@ Current when first switched on (cold) than during normal operation.
 
 ## Related Content at Other Levels
 
-- **A-Level Electricity:** [Physics](https://alevel.wyattau.com/docs/physics/physics)
+- **A-Level Electricity:** [Physics](https://alevel.wyattau.com/physics/physics/)
 - **DSE Electrical Circuits:**
-  [Electrical Circuits](https://dse.wyattau.com/docs/dse/physics/3-electricity-and-magnetism)
+  [Electrical Circuits](https://dse.wyattau.com/physics/3-electricity-and-magnetism/)
 
 ---
 
@@ -150723,8 +150723,8 @@ flowchart TD
 | Topic         | Site    | Link                                                                                                       |
 | ------------- | ------- | ---------------------------------------------------------------------------------------------------------- |
 | [Electricity] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/electricity/01-current-and-resistance) |
-| [Electricity] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/6_current-electricity)        |
-| [Electricity] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/3-electricity-and-magnetism/1_electrical-circuits)         |
+| [Electricity] | IB      | [View](https://ib.wyattau.com/physics/2-particulate-nature-of-matter/6_current-electricity/)        |
+| [Electricity] | DSE     | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/1_electrical-circuits/)         |
 
 ## See Also
 
@@ -157763,8 +157763,8 @@ self-marking and building a personal test matrix.
 | Topic                 | Site    | Link                                                                                       |
 | --------------------- | ------- | ------------------------------------------------------------------------------------------ |
 | [Forces and Dynamics] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/03-dynamics) |
-| [Forces and Dynamics] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/2_dynamics)          |
-| [Forces and Dynamics] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/1-mechanics/2_mechanics-depth)             |
+| [Forces and Dynamics] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/2_dynamics/)          |
+| [Forces and Dynamics] | DSE     | [View](https://dse.wyattau.com/physics/1-mechanics/2_mechanics-depth/)             |
 
 ## Worked Examples
 
@@ -158583,7 +158583,7 @@ Equilibrium.
 
 ## Related Content at Other Levels
 
-- **A-Level Fields:** [Physics](https://alevel.wyattau.com/docs/physics/physics)
+- **A-Level Fields:** [Physics](https://alevel.wyattau.com/physics/physics/)
 
 ---
 
@@ -158629,10 +158629,10 @@ and past paper questions, is essential for success in examinations.
 | Topic             | Site    | Link                                                                                                     |
 | ----------------- | ------- | -------------------------------------------------------------------------------------------------------- |
 | [Electric Fields] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/01-electric-fields)           |
-| [Electric Fields] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/2_electric-and-magnetic-fields)                   |
+| [Electric Fields] | IB      | [View](https://ib.wyattau.com/physics/4-fields/2_electric-and-magnetic-fields/)                   |
 | [Magnetic Fields] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/02-magnetic-fields)           |
-| [Magnetic Fields] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/2_electric-and-magnetic-fields)                   |
-| [Magnetic Fields] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/3-electricity-and-magnetism/2_electricity-and-magnetism) |
+| [Magnetic Fields] | IB      | [View](https://ib.wyattau.com/physics/4-fields/2_electric-and-magnetic-fields/)                   |
+| [Magnetic Fields] | DSE     | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/2_electricity-and-magnetism/) |
 
 ## Worked Examples
 
@@ -159510,8 +159510,8 @@ self-marking and building a personal test matrix.
 | Topic             | Site    | Link                                                                                                |
 | ----------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Energy and Work] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/04-work-energy-power) |
-| [Energy and Work] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/3_energy)                     |
-| [Energy and Work] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/1-mechanics/3_energy-and-work)                      |
+| [Energy and Work] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/3_energy/)                     |
+| [Energy and Work] | DSE     | [View](https://dse.wyattau.com/physics/1-mechanics/3_energy-and-work/)                      |
 
 ## Worked Examples
 
@@ -160780,9 +160780,9 @@ $a = \frac{5}{7}g\sin\theta$.
 
 ## Related Content at Other Levels
 
-- **A-Level Mechanics:** [Physics](https://alevel.wyattau.com/docs/physics/physics)
+- **A-Level Mechanics:** [Physics](https://alevel.wyattau.com/physics/physics/)
 - **DSE Forces and Motion:**
-  [Forces and Motion](https://dse.wyattau.com/docs/dse/physics/1-mechanics)
+  [Forces and Motion](https://dse.wyattau.com/physics/1-mechanics/)
 
 ## Intuition
 
@@ -160819,7 +160819,7 @@ and past paper questions, is essential for success in examinations.
 | Topic      | Site    | Link                                                                                         |
 | ---------- | ------- | -------------------------------------------------------------------------------------------- |
 | [Momentum] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/05-momentum)   |
-| [Momentum] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/5_forces-and-momentum) |
+| [Momentum] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum/) |
 
 ## Worked Examples
 
@@ -161752,7 +161752,7 @@ and past paper questions, is essential for success in examinations.
 | Topic                  | Site    | Link                                                                                                   |
 | ---------------------- | ------- | ------------------------------------------------------------------------------------------------------ |
 | [Gravitational Fields] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/08-gravitational-fields) |
-| [Gravitational Fields] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/1_gravitational-fields)                         |
+| [Gravitational Fields] | IB      | [View](https://ib.wyattau.com/physics/4-fields/1_gravitational-fields/)                         |
 </Aside>
 
 ## Intuition
@@ -162178,8 +162178,8 @@ Photoelectric effect, photon model, de Broglie wavelength, energy levels, and sp
 
 ## Related Content
 
-- **A-Level Physics:** [A-Level Physics](https://alevel.wyattau.com/docs/physics)
-- **DSE Physics:** [DSE Physics](https://dse.wyattau.com/docs/dse/physics)
+- **A-Level Physics:** [A-Level Physics](https://alevel.wyattau.com/physics/)
+- **DSE Physics:** [DSE Physics](https://dse.wyattau.com/physics/)
 - **University Physics:** [University Physics](https://physics.wyattau.com/)
 
 ## Common Pitfalls
@@ -163147,8 +163147,8 @@ self-marking and building a personal test matrix.
 | Topic              | Site       | Link                                                                                                          |
 | ------------------ | ---------- | ------------------------------------------------------------------------------------------------------------- |
 | [Electromagnetism] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/03-electromagnetism-unification)   |
-| [Electromagnetism] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/4_induction)                                           |
-| [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism) |
+| [Electromagnetism] | IB         | [View](https://ib.wyattau.com/physics/4-fields/4_induction/)                                           |
+| [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/) |
 | [Electromagnetism] | University | [View](https://physics.wyattau.com/)                     |
 
 ---
@@ -164099,8 +164099,8 @@ self-marking and building a personal test matrix.
 | Topic                  | Site    | Link                                                                                         |
 | ---------------------- | ------- | -------------------------------------------------------------------------------------------- |
 | [Kinematics (Physics)] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/02-kinematics) |
-| [Kinematics (Physics)] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/1_kinematics)          |
-| [Kinematics (Physics)] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/1-mechanics/1_forces-and-motion)             |
+| [Kinematics (Physics)] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/1_kinematics/)          |
+| [Kinematics (Physics)] | DSE     | [View](https://dse.wyattau.com/physics/1-mechanics/1_forces-and-motion/)             |
 
 ## Worked Examples
 
@@ -168398,10 +168398,10 @@ Approximately $3.2\,\mathrm{kg}$ of $^{235}\mathrm{U}$ is consumed per day.
 | Topic             | Site       | Link                                                                                                       |
 | ----------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Nuclear Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/01-radioactivity)      |
-| [Nuclear Physics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics) |
-| [Nuclear Physics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/5-nuclear-physics/1_nuclear-physics)                       |
+| [Nuclear Physics] | IB         | [View](https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/) |
+| [Nuclear Physics] | DSE        | [View](https://dse.wyattau.com/physics/5-nuclear-physics/1_nuclear-physics/)                       |
 | [Quantum Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/nuclear-physics/03-quantum-physics)    |
-| [Quantum Physics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics) |
+| [Quantum Physics] | IB         | [View](https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/) |
 | [Quantum Physics] | University | [View](https://physics.wyattau.com/)                |
 
 
@@ -169477,7 +169477,7 @@ self-marking and building a personal test matrix.
 | Topic             | Site    | Link                                                                                              |
 | ----------------- | ------- | ------------------------------------------------------------------------------------------------- |
 | [Circular Motion] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/06-circular-motion) |
-| [Circular Motion] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/4_rotational-motion)        |
+| [Circular Motion] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion/)        |
 
 ## Worked Examples
 
@@ -170336,7 +170336,7 @@ self-marking and building a personal test matrix.
 | Topic                  | Site    | Link                                                                                           |
 | ---------------------- | ------- | ---------------------------------------------------------------------------------------------- |
 | [Oscillations and SHM] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/07-oscillations) |
-| [Oscillations and SHM] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/3-wave-behaviour/1_simple-harmonic-motion)       |
+| [Oscillations and SHM] | IB      | [View](https://ib.wyattau.com/physics/3-wave-behaviour/1_simple-harmonic-motion/)       |
 
 ---
 
@@ -171613,9 +171613,9 @@ Efficiency, and this engine does not.
 
 ## Related Content at Other Levels
 
-- **A-Level Thermal Physics:** [Physics](https://alevel.wyattau.com/docs/physics/physics)
+- **A-Level Thermal Physics:** [Physics](https://alevel.wyattau.com/physics/physics/)
 - **DSE Heat and Gases:**
-  [Heat and Gases](https://dse.wyattau.com/docs/dse/physics/4-thermal-physics)
+  [Heat and Gases](https://dse.wyattau.com/physics/4-thermal-physics/)
 
 ---
 
@@ -171661,11 +171661,11 @@ and past paper questions, is essential for success in examinations.
 | Topic             | Site       | Link                                                                                                             |
 | ----------------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Thermal Physics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/01-thermal-properties)       |
-| [Thermal Physics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/1_thermodynamics)                   |
-| [Thermal Physics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/4-thermal-physics/1_heat-and-gases)                              |
+| [Thermal Physics] | IB         | [View](https://ib.wyattau.com/physics/2-particulate-nature-of-matter/1_thermodynamics/)                   |
+| [Thermal Physics] | DSE        | [View](https://dse.wyattau.com/physics/4-thermal-physics/1_heat-and-gases/)                              |
 | [Thermal Physics] | University | [View](https://physics.wyattau.com/)                          |
 | [Thermodynamics]  | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/02-thermodynamics)           |
-| [Thermodynamics]  | IB         | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/1_thermodynamics)                   |
+| [Thermodynamics]  | IB         | [View](https://ib.wyattau.com/physics/2-particulate-nature-of-matter/1_thermodynamics/)                   |
 | [Thermodynamics]  | University | [View](https://physics.wyattau.com/) |
 
 ## Worked Examples
@@ -172276,8 +172276,8 @@ Single-slit diffraction envelope.
 
 ## Related Content at Other Levels
 
-- **A-Level Waves:** [Physics](https://alevel.wyattau.com/docs/physics/physics)
-- **DSE Waves and Sound:** [Waves and Sound](https://dse.wyattau.com/docs/dse/physics/2-waves)
+- **A-Level Waves:** [Physics](https://alevel.wyattau.com/physics/physics/)
+- **DSE Waves and Sound:** [Waves and Sound](https://dse.wyattau.com/physics/2-waves/)
 - **University Wave Physics:**
   [Optics and Wave Physics](https://physics.wyattau.com/)
 
@@ -172307,7 +172307,7 @@ Wave phenomena reveal the wave nature of light and sound. Diffraction gratings p
 | Topic                            | Site    | Link                                                                                                         |
 | -------------------------------- | ------- | ------------------------------------------------------------------------------------------------------------ |
 | [Superposition and Interference] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/waves/02-superposition-and-interference) |
-| [Superposition and Interference] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/3-wave-behaviour/4_wave-phenomena)                             |
+| [Superposition and Interference] | IB      | [View](https://ib.wyattau.com/physics/3-wave-behaviour/4_wave-phenomena/)                             |
 
 ```mermaid
 flowchart TD
@@ -173200,8 +173200,8 @@ Wave properties describe how disturbances travel through space. The fundamental 
 | Topic             | Site    | Link                                                                                          |
 | ----------------- | ------- | --------------------------------------------------------------------------------------------- |
 | [Wave Properties] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/waves/01-wave-properties) |
-| [Wave Properties] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/3-wave-behaviour/2_wave-properties)             |
-| [Wave Properties] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/2-waves/1_waves-and-sound)                    |
+| [Wave Properties] | IB      | [View](https://ib.wyattau.com/physics/3-wave-behaviour/2_wave-properties/)             |
+| [Wave Properties] | DSE     | [View](https://dse.wyattau.com/physics/2-waves/1_waves-and-sound/)                    |
 
 ## Worked Examples
 

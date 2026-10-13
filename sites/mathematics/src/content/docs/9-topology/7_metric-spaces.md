@@ -185,7 +185,7 @@ flowchart TD
 - **[Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)**: Convergence of sequences in metric spaces generalises the real-number convergence studied in analysis.
 - **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)**: Completeness and compactness of metric spaces are prerequisites for understanding covering spaces and fundamental groups.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

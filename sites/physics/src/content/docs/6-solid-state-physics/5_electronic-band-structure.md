@@ -442,7 +442,7 @@ Band structure is like a highway system for electrons. In free space, electrons 
 - **[Topological Insulators and Semimetals](/6-solid-state-physics/13_topological-insulators-and-semimetals/)**: Extends band theory to include topological invariants that classify insulating and semimetallic phases.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ### 5.12 Common Mistakes

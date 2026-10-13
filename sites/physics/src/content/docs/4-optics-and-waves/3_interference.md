@@ -298,5 +298,5 @@ Interference can occur with a single source split and recombined (as in Young's 
 - **[Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)**: Electromagnetic waves obey Maxwell's equations, and interference patterns are observed in their superposition.
 - **[Coherence Theory](/4-optics-and-waves/8_coherence/)**: Coherence theory explains the conditions under which stable interference patterns can be observed.
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

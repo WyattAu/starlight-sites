@@ -1171,7 +1171,7 @@ $$
 Formula: $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}$ (Epsom salt)
 
 For the A-Level treatment of this topic, see
-[Quantitative Chemistry](https://alevel.wyattau.com/docs/chemistry/quantitative-chemistry).
+[Quantitative Chemistry](https://alevel.wyattau.com/chemistry/quantitative-chemistry/).
 
 </details>
 
@@ -1192,8 +1192,8 @@ For the A-Level treatment of this topic, see
 | Topic           | Site    | Link                                                                                                |
 | --------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Stoichiometry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/quantitative-chemistry)            |
-| [Stoichiometry] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/1-stoichiometry/1_stoichiometric-relationships)     |
-| [Stoichiometry] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry) |
+| [Stoichiometry] | IB      | [View](https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships/)     |
+| [Stoichiometry] | DSE     | [View](https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/) |
 
 ## Worked Examples
 

@@ -503,5 +503,5 @@ Synthetic chemistry is like molecular LEGO: you start with simple, available bui
 | Spectroscopy             | WyattsNotes | [View](/2-organic-chemistry/spectroscopy/)                       |
 | Organic Synthesis, MIT 5.34 | MIT OCW | [View](https://ocw.mit.edu/courses/5-34-advanced-organic-chemistry-spring-2003/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

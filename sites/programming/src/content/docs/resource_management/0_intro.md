@@ -190,4 +190,4 @@ Resource management is the central challenge in C++ programming: who owns a reso
 - [Value Taxonomy](/resource_management/2_value_categories_and_move/1_value_taxonomy/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)

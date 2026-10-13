@@ -380,7 +380,7 @@ flowchart TD
 - **[Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)**: Surface integrals and flux integrals are computed using the normal vector and the tools of vector calculus.
 - **[Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)**: Surface area and surface integrals are evaluated as double integrals using the parametrisation and the cross product.
 - **[Curvature and Torsion](/4-multivariable-calculus/5_curves-and-surfaces/)**: The Frenet-Serret formulas describe how the tangent, normal, and binormal vectors move along a curve.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

@@ -774,7 +774,7 @@ Static initialization order problem entirely.
 - [Type Erasure](/function_architecture/1_function_mechanics/4_type_erasure/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ```mermaid
 flowchart TD

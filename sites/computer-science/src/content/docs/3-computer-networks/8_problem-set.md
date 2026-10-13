@@ -199,8 +199,8 @@ flowchart TD
 | Topic      | Site       | Link                                                                                                      |
 | ---------- | ---------- | --------------------------------------------------------------------------------------------------------- |
 | [Networks] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/networks/01-network-fundamentals) |
-| [Networks] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/3-networks/1_networks)                             |
-| [Networks] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/4-networking-and-internet/1_internet-and-data-communications) |
+| [Networks] | IB         | [View](https://ib.wyattau.com/computer-science/3-networks/1_networks/)                             |
+| [Networks] | DSE        | [View](https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications/) |
 | [Networks] | University | [View](https://computer-science.wyattau.com/)             |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

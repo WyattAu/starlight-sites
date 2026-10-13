@@ -1585,8 +1585,8 @@ activation Of new transcription factors and the silencing of genes for alternati
 | Topic          | Site    | Link                                                                                            |
 | -------------- | ------- | ----------------------------------------------------------------------------------------------- |
 | [Cell Biology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/cells)                           |
-| [Cell Biology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/1-cell-biology/1_cell-biology)                    |
-| [Cell Biology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/1-cell-biology/1_cell-biology-and-biochemistry) |
+| [Cell Biology] | IB      | [View](https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology/)                    |
+| [Cell Biology] | DSE     | [View](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/) |
 
 ## Supplementary: Membrane Structure and Transport in Detail (HL Extension)
 

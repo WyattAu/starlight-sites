@@ -177,7 +177,7 @@ Working through quantum mechanics problems builds physical intuition about the c
 - **[Operators and Observables](/5-quantum-mechanics/4_operators-and-observables/)**: Operators represent physical observables and their properties are tested in these problems.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

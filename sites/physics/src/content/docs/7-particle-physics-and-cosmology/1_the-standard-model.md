@@ -268,6 +268,6 @@ Some particles are their own antiparticles (such as the photon, $Z^0$, and $\pi^
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: The coupling constants of the Standard Model depend on the energy scale through the renormalisation group.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

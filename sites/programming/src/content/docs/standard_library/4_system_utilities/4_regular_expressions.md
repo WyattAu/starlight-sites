@@ -567,7 +567,7 @@ Index `-1`.
 - [Chrono Library](/standard_library/4_system_utilities/2_chrono/)
 - [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
 
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ```mermaid
 flowchart TD

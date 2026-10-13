@@ -318,7 +318,7 @@ the symplectic structure page.
 - **[Central Force Problems](/1-classical-mechanics/6_central-force-problems/)**: Central potentials exhibit rotational symmetry, leading to angular momentum conservation via Noether's theorem.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 
 
 ## Advanced Content

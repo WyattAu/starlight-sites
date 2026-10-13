@@ -909,4 +909,4 @@ Conan is a decentralized C++ package manager with a large community-maintained r
 - [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Binary package distribution
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)

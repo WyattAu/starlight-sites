@@ -432,5 +432,5 @@ flowchart TD
 - **[Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)**: The spectral theorem for symmetric matrices guarantees an orthonormal basis of eigenvectors.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

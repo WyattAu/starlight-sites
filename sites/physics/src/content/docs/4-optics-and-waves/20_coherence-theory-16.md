@@ -182,7 +182,7 @@ Coherence theory bridges the gap between perfectly monochromatic waves and reali
 - [Common Pitfalls in Optics](/4-optics-and-waves/18_common-pitfalls/) -- Confusing temporal and spatial coherence and misidentifying coherence length are among the most common errors in optics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 
 
 ## Advanced Content

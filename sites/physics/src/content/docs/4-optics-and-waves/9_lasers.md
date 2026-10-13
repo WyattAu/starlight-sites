@@ -216,5 +216,5 @@ The spontaneous emission factor $\beta$ distributes a small fraction of spontane
 - [Nonlinear Optics](/4-optics-and-waves/22_nonlinear-optics/) -- High peak powers from mode-locked and Q-switched lasers drive the nonlinear optical effects treated in that chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -197,7 +197,7 @@ flowchart TD
 - **[Liouville's Theorem](/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle/)**: Liouville's theorem characterizes entire functions and is used in proving uniqueness of analytic continuation.
 - **[Complex Functions and Analyticity](/6-complex-analysis/2_complex-functions-and-analyticity/)**: Analyticity is the essential property that enables continuation beyond the original domain.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

@@ -1241,7 +1241,7 @@ $$
 - **A-Level Kinetics:**
   [Chemical Kinetics](https://alevel.wyattau.com/docs/chemistry/chemical-kinetics)
 - **DSE Rate of Reaction:**
-  [Rate of Reaction and Energetics](https://dse.wyattau.com/docs/dse/chemistry/3-chemical-kinetics-and-energetics)
+  [Rate of Reaction and Energetics](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/)
 
 ## Common Pitfalls
 
@@ -1262,8 +1262,8 @@ $$
 | Topic               | Site    | Link                                                                                                      |
 | ------------------- | ------- | --------------------------------------------------------------------------------------------------------- |
 | [Chemical Kinetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/kinetics)                                |
-| [Chemical Kinetics] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/6-kinetics/1_chemical-kinetics)                           |
-| [Chemical Kinetics] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics) |
+| [Chemical Kinetics] | IB      | [View](https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics/)                           |
+| [Chemical Kinetics] | DSE     | [View](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/) |
 
 ## Worked Examples
 

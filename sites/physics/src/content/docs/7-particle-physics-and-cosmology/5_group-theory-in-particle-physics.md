@@ -313,6 +313,6 @@ All observable hadrons are colour singlets (colour-neutral). This is a consequen
 - **[The Higgs Mechanism](/7-particle-physics-and-cosmology/4_the-higgs-mechanism/)**: The electroweak symmetry breaking pattern is determined by the SU(2) x U(1) group structure.
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: The beta functions of the gauge couplings depend on the group-theoretic factors of SU(3), SU(2), and U(1).
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

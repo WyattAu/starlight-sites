@@ -52,6 +52,7 @@ run 'hand-wave detection'     node scripts/lint-handwaves.js
 run 'latex corruption'        node scripts/lint-latex.js
 run 'forward references'      node scripts/lint-forward-refs.js
 run 'cross-site links'        node scripts/lint-cross-site-links.js --advisory
+run 'cross-site docs prefix'  python3 scripts/fix-cross-site-docs-prefix.py --check
 run 'shared-asset integrity'  node scripts/sync-shared.mjs --check
 
 echo

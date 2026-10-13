@@ -393,8 +393,8 @@ When applying the ratio or root test, students find $R$ but assume the series co
 - **[Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)**: Taylor series convergence and analyticity connect real analysis to the partial derivative computations in multivariable calculus.
 - **[Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)**: Fourier series are function series whose convergence properties are analysed using the uniform convergence theory developed here.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid

@@ -92,8 +92,8 @@ revision and drill practice.
 
 ## Related Content
 
-- **IB Mathematics:** [IB Mathematics](https://ib.wyattau.com/docs/maths)
-- **A-Level Mathematics:** [A-Level Maths](https://alevel.wyattau.com/docs/maths)
+- **IB Mathematics:** [IB Mathematics](https://ib.wyattau.com/maths/)
+- **A-Level Mathematics:** [A-Level Maths](https://alevel.wyattau.com/maths/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.

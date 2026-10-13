@@ -234,4 +234,4 @@ The Higgs mechanism in particle physics is a relativistic generalisation of the 
 - **[Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)**: Extensions to the Higgs sector, such as supersymmetry and two-Higgs-doublet models, address the hierarchy problem.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)

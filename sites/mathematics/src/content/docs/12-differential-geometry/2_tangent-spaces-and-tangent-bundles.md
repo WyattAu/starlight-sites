@@ -169,10 +169,10 @@ $p$-$v$-plane. Thus $T_p S^2 \cong p^\perp$. $\blacksquare$
 - **[The Gauss-Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/)**: Relates the integral of Gaussian curvature over a surface to its Euler characteristic, a topological invariant of the tangent bundle.
 - **[Applications](/12-differential-geometry/9_applications/)**: Uses tangent spaces and vector fields to model geodesics as a rule relativity and configuration spaces in robotics.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 

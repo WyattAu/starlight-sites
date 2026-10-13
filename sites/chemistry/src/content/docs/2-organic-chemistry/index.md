@@ -125,7 +125,7 @@ In nucleophilic acyl substitution, the leaving group is the group that departs f
 - **[Inorganic Chemistry](../3-inorganic-chemistry/):** Explores coordination chemistry and main group chemistry that complements organic synthesis.
 - **[Reaction Mechanisms](/2-organic-chemistry/reaction-mechanisms/):** Detailed notes on $S_N1$, $S_N2$, E1, and E2 mechanisms.
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)

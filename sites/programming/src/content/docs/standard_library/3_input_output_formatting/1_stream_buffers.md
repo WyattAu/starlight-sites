@@ -303,7 +303,7 @@ State.
 - [Type-Safe Formatting](/standard_library/3_input_output_formatting/2_type_safe_formatting/)
 - [Unicode Support](/standard_library/3_input_output_formatting/3_unicode_support/)
 
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ### Put Area and Get Area Pointer Model
 

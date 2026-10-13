@@ -110,12 +110,12 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 | Topic              | Site       | Link                                                                                                          |
 | ------------------ | ---------- | ------------------------------------------------------------------------------------------------------------- |
 | [Electromagnetism] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/03-electromagnetism-unification)   |
-| [Electromagnetism] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/4_induction)                                           |
-| [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism) |
+| [Electromagnetism] | IB         | [View](https://ib.wyattau.com/physics/4-fields/4_induction/)                                           |
+| [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/) |
 | [Electromagnetism] | University | [View](https://physics.wyattau.com/) |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ### 13.3 Key Relationships

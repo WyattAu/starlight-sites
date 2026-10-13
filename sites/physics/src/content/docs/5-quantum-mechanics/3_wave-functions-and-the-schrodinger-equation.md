@@ -416,7 +416,7 @@ The Schrodinger equation is the quantum version of Newton's second law: it tells
 - **[One-Dimensional Problems](/5-quantum-mechanics/5_one-dimensional-problems/)**: The infinite square well and other 1D problems illustrate the application of the Schrodinger equation.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

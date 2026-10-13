@@ -122,8 +122,8 @@ Uncertainty, significant figures, error propagation, graphical analysis, and spe
 
 ## Related Content
 
-- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/docs/chemistry)
-- **DSE Chemistry:** [DSE Chemistry](https://dse.wyattau.com/docs/dse/chemistry)
+- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/chemistry/)
+- **DSE Chemistry:** [DSE Chemistry](https://dse.wyattau.com/chemistry/)
 - **University Chemistry:** [University Chemistry](https://chemistry.wyattau.com/)
 
 ## Common Pitfalls

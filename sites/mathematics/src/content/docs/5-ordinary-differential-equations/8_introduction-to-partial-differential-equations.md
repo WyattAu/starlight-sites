@@ -333,7 +333,7 @@ Partial differential equations extend ODEs to functions of multiple variables, d
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform can solve the heat equation in the time variable, converting the PDE to an ODE.
 - **[Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)**: The gradient, divergence, and curl operators appearing in PDE formulations are central concepts in vector calculus.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

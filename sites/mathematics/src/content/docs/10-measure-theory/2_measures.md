@@ -198,9 +198,9 @@ A collection of sets closed under finite unions and complements is an algebra, n
 - **[Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)**: The Lebesgue integral is defined using measures and is essential for the convergence theorems of integration theory.
 - **[Riemann Integration](/3-real-analysis/6_riemann-integration/)**: Lebesgue's criterion characterises Riemann integrability in terms of the measure of the discontinuity set.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

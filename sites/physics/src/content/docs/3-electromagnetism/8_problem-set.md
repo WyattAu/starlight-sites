@@ -660,7 +660,7 @@ Maxwell's equations are the four laws that govern all classical electromagnetic 
 - **[Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)**: Wave propagation problems in this set build directly on the wave equation derived from Maxwell's equations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
 ## Common Mistakes

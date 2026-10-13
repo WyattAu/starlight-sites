@@ -160,9 +160,9 @@ describe('lint-cross-site-links.js on this repository', () => {
     })()
     const m = /Found (\d+) dead cross-site link\(s\)/.exec(stdout + stderr)
     assert.ok(m, `unexpected output: ${stdout}${stderr}`)
-    // The known, tracked backlog must not grow. A route-derivation regression
+    // The known, tracked backlog must not grow (818 after the /docs prefix repair). A route-derivation regression
     // shows up as a larger number rather than as a failing deploy, since the
     // gate is advisory while the backlog is worked down.
-    assert.ok(Number(m[1]) <= 1517, `dead cross-site links grew to ${m[1]}; expected <= 1517`)
+    assert.ok(Number(m[1]) <= 818, `dead cross-site links grew to ${m[1]}; expected <= 818`)
   })
 })

@@ -1577,7 +1577,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 | Topic           | Site    | Link                                                                                                     |
 | --------------- | ------- | -------------------------------------------------------------------------------------------------------- |
 | [Boolean Logic] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/03-boolean-algebra) |
-| [Boolean Logic] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/4-computational-thinking/1_boolean-logic)         |
+| [Boolean Logic] | IB      | [View](https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic/)         |
 
 ## Worked Examples
 

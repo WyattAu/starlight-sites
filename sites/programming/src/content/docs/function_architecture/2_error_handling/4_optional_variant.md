@@ -215,7 +215,7 @@ int main() {
 - [Monadic Error Handling, std::expected](/function_architecture/2_error_handling/5_expected/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ## 4.5 `std::optional` API Deep Dive
 

@@ -196,5 +196,5 @@ flowchart TD
 - **[Ideals and Quotient Rings](/1-abstract-algebra/9_ideals-and-quotient-rings/)**: Quotienting a polynomial ring by an irreducible ideal yields a field, the fundamental construction of field extensions.
 - **[Number Theory](/number-theory/)**: Number theory uses finite fields and field extensions in the study of Diophantine equations and cryptography.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -487,11 +487,11 @@ flowchart TD
 | Topic             | Site       | Link                                                                                                           |
 | ----------------- | ---------- | -------------------------------------------------------------------------------------------------------------- |
 | [Complex Numbers] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/01-complex-numbers) |
-| [Complex Numbers] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/1-number-and-algebra/2_complex-numbers)                            |
+| [Complex Numbers] | IB         | [View](https://ib.wyattau.com/maths/1-number-and-algebra/2_complex-numbers/)                            |
 | [Complex Numbers] | University | [View](https://mathematics.wyattau.com/)                  |
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## See Also
 

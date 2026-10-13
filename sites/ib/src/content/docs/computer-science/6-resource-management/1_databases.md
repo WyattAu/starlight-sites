@@ -2033,9 +2033,9 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
 ## Related Content at Other Levels
 
 - **A-Level Databases:**
-  [Computer Science](https://alevel.wyattau.com/docs/computer-science/computer-science)
+  [Computer Science](https://alevel.wyattau.com/computer-science/computer-science/)
 - **DSE Programming and Databases:**
-  [Programming and Databases](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases)
+  [Programming and Databases](https://dse.wyattau.com/ict/3-programming-and-databases/)
 - **Computer Science Databases:**
   [Database Systems](https://computer-science.wyattau.com/)
 
@@ -2044,8 +2044,8 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
 | Topic       | Site       | Link                                                                                                       |
 | ----------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | [Databases] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/databases/01-relational-databases) |
-| [Databases] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/6-resource-management/1_databases)                  |
-| [Databases] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases/3_data-management)                 |
+| [Databases] | IB         | [View](https://ib.wyattau.com/computer-science/6-resource-management/1_databases/)                  |
+| [Databases] | DSE        | [View](https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management/)                 |
 | [Databases] | University | [View](https://computer-science.wyattau.com/)                              |
 
 ## Worked Examples

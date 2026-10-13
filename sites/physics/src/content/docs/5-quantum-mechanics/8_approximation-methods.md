@@ -294,7 +294,7 @@ Approximation methods tackle quantum problems that cannot be solved exactly. Per
 - **[Variational Methods](/5-quantum-mechanics/11_variational-methods/)**: The variational principle provides a systematic approach to estimating ground state energies.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes

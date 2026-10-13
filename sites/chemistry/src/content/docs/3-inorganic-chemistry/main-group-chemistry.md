@@ -454,5 +454,5 @@ Main-group chemistry encompasses the s-block and p-block elements, which togethe
 | Solid-State Chemistry    | WyattsNotes | [View](/3-inorganic-chemistry/solid-state-chemistry/)              |
 | Main-Group Chemistry, MIT 5.04 | MIT OCW | [View](https://ocw.mit.edu/courses/5-04-principles-of-inorganic-chemistry-ii-fall-2008/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

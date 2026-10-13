@@ -328,4 +328,4 @@ The parallel axis theorem for the inertia tensor is $I_{jk}' = I_{jk}^{(\mathrm{
 - **[Noether's Theorem](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)**: Rotational symmetry leads to angular momentum conservation, which is fundamental to rigid body motion.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)

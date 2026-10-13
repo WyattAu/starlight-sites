@@ -272,9 +272,9 @@ flowchart TD
 - **[Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)**: Joint distributions describe the behavior of multiple random variables simultaneously.
 - **[Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)**: The central limit theorem shows that sums of random variables converge to normal distributions.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

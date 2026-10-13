@@ -1667,10 +1667,10 @@ and underlying genetic basis:
 | Topic                           | Site    | Link                                                                                                  |
 | ------------------------------- | ------- | ----------------------------------------------------------------------------------------------------- |
 | [Biodiversity and Conservation] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/biodiversity-classification-evolution) |
-| [Biodiversity and Conservation] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/5-evolution-and-biodiversity/1_evolution)               |
-| [Biodiversity and Conservation] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/2-ecology/2_biodiversity-and-conservation)            |
-| [Evolution]                     | IB      | [View](https://ib.wyattau.com/docs/ib/biology/5-evolution-and-biodiversity/1_evolution)               |
-| [Evolution]                     | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/6-evolution/1_evolution)                              |
+| [Biodiversity and Conservation] | IB      | [View](https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution/)               |
+| [Biodiversity and Conservation] | DSE     | [View](https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation/)            |
+| [Evolution]                     | IB      | [View](https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution/)               |
+| [Evolution]                     | DSE     | [View](https://dse.wyattau.com/biology/6-evolution/1_evolution/)                              |
 
 ## Supplementary: Molecular Clocks and Phylogenetics (HL Extension)
 

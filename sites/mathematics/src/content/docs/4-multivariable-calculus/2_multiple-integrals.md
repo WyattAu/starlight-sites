@@ -414,7 +414,7 @@ flowchart TD
 - **[Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)**: Surface integrals and flux integrals extend multiple integrals to curved surfaces in three dimensions.
 - **[Optimization](/4-multivariable-calculus/4_optimization/)**: Multiple integrals are used to compute volumes and averages needed in constrained optimisation problems.
 - **[Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)**: Surface area and surface integrals are computed using parametrisations and the cross product of partial derivatives.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

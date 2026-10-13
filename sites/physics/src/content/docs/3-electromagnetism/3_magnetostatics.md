@@ -315,5 +315,5 @@ In linear magnetic materials, $\mathbf{B} = \mu \mathbf{H}$, so they are paralle
 - **[Electrodynamics](/3-electromagnetism/4_electrodynamics/)**: Electrodynamics extends magnetostatics to include time-varying fields and induction effects.
 - **[Solid State Physics: Electronic Band Structure](/6-solid-state-physics/5_electronic-band-structure/)**: Magnetic properties of materials arise from electron band structure and exchange interactions.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

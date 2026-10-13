@@ -178,7 +178,7 @@ The pitfalls in topology arise from a single source: intuition from Euclidean sp
 - **[Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)**: Several pitfalls involve misunderstanding the relationship between open, closed, and clopen sets.
 - **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)**: The distinction between homotopy equivalence and homeomorphism is a frequent source of confusion.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

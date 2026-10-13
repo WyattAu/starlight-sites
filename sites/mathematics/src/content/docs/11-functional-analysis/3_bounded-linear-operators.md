@@ -149,10 +149,10 @@ $(1, 1, 1, \ldots)$), $J$ is not surjective, so $c_0$ is not reflexive.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)**: Presents the Hahn-Banach, open mapping, and closed graph theorems that govern the behaviour of bounded operators between Banach spaces.
 - **[Compact Operators](/11-functional-analysis/5_compact-operators/)**: Studies a subclass of bounded operators with finite-dimensional-like properties, crucial for spectral theory.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid

@@ -402,5 +402,5 @@ flowchart TD
 - **[Second-Order Linear ODEs](/5-ordinary-differential-equations/3_second-order-linear-odes/)**: Reduction of order converts certain second-order equations to first-order, linking these two chapters.
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: The Laplace transform provides an alternative algebraic method for solving linear first-order ODEs with initial conditions.
 - **[Stability and Phase Plane Analysis](/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/)**: Equilibria and their stability for first-order autonomous ODEs form the foundation for phase plane analysis.
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

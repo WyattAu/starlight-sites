@@ -214,5 +214,5 @@ flowchart TD
 - **[Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)**: The integral formula expresses the value of an analytic function at interior points via boundary integrals.
 - **[Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: The residue theorem computes contour integrals by summing contributions from singularities.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

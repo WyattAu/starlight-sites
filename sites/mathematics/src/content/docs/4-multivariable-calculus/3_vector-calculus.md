@@ -499,10 +499,10 @@ flowchart TD
 - **[Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)**: Line integrals and surface integrals require parametrisation of curves and surfaces using the tools from this chapter.
 - **[Optimization](/4-multivariable-calculus/4_optimization/)**: Conservative vector fields and potential functions connect to the theory of exact differentials and constrained optimisation.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ### 3.9 Intuition: What Do Curl, Divergence, and the Integral Theorems Mean?
 

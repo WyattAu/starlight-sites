@@ -915,6 +915,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 | Topic                        | Site | Link                                                                                               |
 | ---------------------------- | ---- | -------------------------------------------------------------------------------------------------- |
-| [Advanced Organic Chemistry] | IB   | [View](https://ib.wyattau.com/docs/ib/chemistry/10-organic-chemistry/2_organic-chemistry-advanced) |
-| [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry/2_carbon-chemistry)          |
+| [Advanced Organic Chemistry] | IB   | [View](https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced/) |
+| [Advanced Organic Chemistry] | DSE  | [View](https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry/)          |
 :::

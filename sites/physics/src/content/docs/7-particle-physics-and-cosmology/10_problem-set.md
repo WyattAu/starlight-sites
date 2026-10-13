@@ -171,7 +171,7 @@ Particle physics seeks the fundamental building blocks of matter and the forces 
 - **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: Problems on the QCD running coupling and unification require understanding beta functions and the renormalisation group.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 
 ## Common Mistakes
 

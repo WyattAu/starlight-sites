@@ -1679,7 +1679,7 @@ microorganisms (bacteria, protozoa) in their digestive tracts that produce cellu
 | Topic               | Site    | Link                                                                                   |
 | ------------------- | ------- | -------------------------------------------------------------------------------------- |
 | [Molecular Biology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/biological-molecules)   |
-| [Molecular Biology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/2-molecular-biology/1_molecular-biology) |
+| [Molecular Biology] | IB      | [View](https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology/) |
 
 ## Supplementary: Molecular Biology Techniques (HL Extension)
 

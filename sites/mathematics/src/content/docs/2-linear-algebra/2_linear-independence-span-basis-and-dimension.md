@@ -356,5 +356,5 @@ flowchart TD
 - **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: The solution space of a homogeneous system is a subspace whose dimension is determined by rank-nullity.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

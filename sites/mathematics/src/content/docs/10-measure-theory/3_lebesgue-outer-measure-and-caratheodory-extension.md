@@ -273,9 +273,9 @@ flowchart TD
 - **[$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)**: Defines Banach spaces of measurable functions with finite $p$-norm, relying on Lebesgue measure constructed via the Caratheodory extension.
 - **[Radon-Nikodym Derivative and Lebesgue Decomposition](/10-measure-theory/9_radon-nikodym-derivative-and-lebesgue-decomposition/)**: Uses absolute continuity and decomposition concepts that depend on the measure theory developed here.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

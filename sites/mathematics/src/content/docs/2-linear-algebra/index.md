@@ -124,5 +124,5 @@ The column space of $A$ consists of all vectors $A\mathbf{x}$, while the null sp
 - **Real Analysis:** Metric spaces and convergence.
 - **Multivariable Calculus:** Applications of linear algebra in calculus.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

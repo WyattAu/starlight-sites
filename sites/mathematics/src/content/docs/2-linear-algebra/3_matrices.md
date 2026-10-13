@@ -401,5 +401,5 @@ flowchart TD
 - **[Singular Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/)**: The SVD factorises any matrix using its singular values, generalising the eigendecomposition.
 :::
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

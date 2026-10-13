@@ -1726,8 +1726,8 @@ the presence and absence Of ADH.
 | Topic              | Site    | Link                                                                                   |
 | ------------------ | ------- | -------------------------------------------------------------------------------------- |
 | [Human Physiology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/homeostasis)            |
-| [Human Physiology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/6-human-physiology/1_human-physiology)   |
-| [Human Physiology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/4-human-physiology/1_human-physiology) |
+| [Human Physiology] | IB      | [View](https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology/)   |
+| [Human Physiology] | DSE     | [View](https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology/) |
 
 ## Supplementary: Endocrine System in Detail (HL Extension)
 

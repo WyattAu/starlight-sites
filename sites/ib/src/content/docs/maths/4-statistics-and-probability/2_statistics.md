@@ -1041,8 +1041,8 @@ Statistics is the science of making decisions under uncertainty. The mean tells 
 
 | Topic        | Site | Link                                                                                   |
 | ------------ | ---- | -------------------------------------------------------------------------------------- |
-| [Statistics] | IB   | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/2_statistics) |
-| [Statistics] | DSE  | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/12_dispersion)                |
+| [Statistics] | IB   | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics/) |
+| [Statistics] | DSE  | [View](https://dse.wyattau.com/maths/compulsory/12_dispersion/)                |
 
 ## Worked Examples
 

@@ -136,10 +136,10 @@ $f_n \rightharpoonup 0$. Note that $\|f_n\|_2 = \sqrt{\pi}$, so $f_n$ does not c
 - **[Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)**: Bounded operators are weakly continuous, and compact operators upgrade weak convergence to strong convergence.
 - **[Compact Operators](/11-functional-analysis/5_compact-operators/)**: Compact operators map weakly convergent sequences to strongly convergent sequences, connecting the two convergence modes.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid

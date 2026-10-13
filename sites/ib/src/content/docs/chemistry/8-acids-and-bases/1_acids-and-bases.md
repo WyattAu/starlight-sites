@@ -1122,9 +1122,9 @@ Note: The second and third dissociations contribute negligible H$^+$ since $K_{a
 ## Related Content at Other Levels
 
 - **A-Level Acids, Bases & Buffers:**
-  [Acids, Bases & Buffers](https://alevel.wyattau.com/docs/chemistry/acids-bases)
+  [Acids, Bases & Buffers](https://alevel.wyattau.com/chemistry/acids-bases/)
 - **DSE Acids, Bases, and Salts:**
-  [Acids, Bases, and Salts](https://dse.wyattau.com/docs/dse/chemistry/5-acids-bases)
+  [Acids, Bases, and Salts](https://dse.wyattau.com/chemistry/5-acids-bases/)
 
 ```mermaid
 flowchart TD
@@ -1157,8 +1157,8 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 | Topic             | Site    | Link                                                                                                |
 | ----------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Acids and Bases] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/acids-bases)                       |
-| [Acids and Bases] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/8-acids-and-bases/1_acids-and-bases)                |
-| [Acids and Bases] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry) |
+| [Acids and Bases] | IB      | [View](https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases/)                |
+| [Acids and Bases] | DSE     | [View](https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/) |
 
 ## Worked Examples
 

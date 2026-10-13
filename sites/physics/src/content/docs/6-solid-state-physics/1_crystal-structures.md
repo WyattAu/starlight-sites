@@ -289,4 +289,4 @@ Real crystals contain defects (point defects, dislocations, grain boundaries) th
 - **[Lattice Vibrations and Phonons](/6-solid-state-physics/4_lattice-vibrations-and-phonons/)**: The phonon dispersion relations depend on the lattice geometry and interatomic forces.
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: The crystal structure determines the band structure and electronic properties of semiconductors.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)

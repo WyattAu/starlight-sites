@@ -189,10 +189,10 @@ A Riemannian metric is like a flexible, position-dependent ruler laid across spa
 - **[Differential Forms](/12-differential-geometry/4_differential-forms/)**: The Levi-Civita connection and curvature can be expressed using differential forms and the exterior derivative.
 - **[Geodesics](/12-differential-geometry/6_geodesics/)**: Geodesics are curves on a Riemannian manifold that locally minimise length, determined by the Christoffel symbols of the metric.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 

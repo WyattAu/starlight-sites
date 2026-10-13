@@ -202,7 +202,7 @@ Identical particles are truly indistinguishable, not just similar. Swapping two 
 - **[Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)**: Perturbation theory and variational methods are essential for solving many-body quantum problems.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

@@ -72,10 +72,10 @@ Mathematics is cumulative, each topic builds on previous ones. If you encounter 
 - **[Linear Algebra](/linear-algebra/)**: Vector spaces and linear maps are used throughout mathematics, physics, and engineering.
 - **[Topology](/9-topology/1_introduction-to-topology/)**: Topological spaces generalise notions of closeness and continuity beyond metric spaces.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 

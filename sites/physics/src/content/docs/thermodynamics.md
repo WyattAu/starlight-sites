@@ -724,7 +724,7 @@ Thermodynamics describes how energy flows and transforms without tracking indivi
 | Stanford Statistical Mechanics | [View](https://web.stanford.edu/~peastwood/statmech/)                       |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

@@ -163,7 +163,7 @@ Linear optics assumes the medium's response is proportional to the applied field
 - [Fourier Optics](/4-optics-and-waves/19_fourier-optics-15/) -- Spatial filtering and beam propagation in nonlinear media use the Fourier transform relationship between near and far fields.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

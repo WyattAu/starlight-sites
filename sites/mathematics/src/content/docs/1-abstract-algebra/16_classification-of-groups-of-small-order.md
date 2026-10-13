@@ -151,8 +151,8 @@ Beyond order 12, the classification continues to grow in complexity:
 - [Group Actions](/1-abstract-algebra/6_group-actions/) -- Conjugacy class analysis and semidirect product constructions rely on the group action framework.
 - [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- Lagrange's theorem constrains possible subgroup orders, which is essential for the classification arguments.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content

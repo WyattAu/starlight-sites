@@ -684,7 +684,7 @@ void selectionSort(int[] arr) {
 | Topic                         | Site    | Link                                                                                                                |
 | ----------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
 | [Object-Oriented Programming] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/programming/02-object-oriented-programming) |
-| [Object-Oriented Programming] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/8-object-oriented-programming/1_object-oriented-programming) |
+| [Object-Oriented Programming] | IB      | [View](https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming/) |
 
 
 ```mermaid

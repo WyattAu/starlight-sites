@@ -118,8 +118,8 @@ through to advanced topics.
 
 ## Related Content
 
-- **IB Chemistry:** [IB Chemistry](https://ib.wyattau.com/docs/chemistry)
-- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/docs/chemistry)
+- **IB Chemistry:** [IB Chemistry](https://ib.wyattau.com/chemistry/)
+- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/chemistry/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.

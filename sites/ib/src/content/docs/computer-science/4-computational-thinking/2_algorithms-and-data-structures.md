@@ -2795,7 +2795,7 @@ _If you get this wrong, revise: [Queues](#queues) and
 ## Related Content at Other Levels
 
 - **A-Level Algorithms:**
-  [Computer Science](https://alevel.wyattau.com/docs/computer-science/computer-science)
+  [Computer Science](https://alevel.wyattau.com/computer-science/computer-science/)
 - **Computer Science Algorithms:**
   [Algorithms and Data Structures](https://computer-science.wyattau.com/)
 
@@ -2816,7 +2816,7 @@ _If you get this wrong, revise: [Queues](#queues) and
 
 | Topic                                       | Site       | Link                                                                                                                    |
 | ------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/docs/ib/computer-science/4-computational-thinking/2_algorithms-and-data-structures)       |
+| [Algorithms and Data Structures (Advanced)] | IB         | [View](https://ib.wyattau.com/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)       |
 | [Algorithms and Data Structures (Advanced)] | University | [View](https://computer-science.wyattau.com/) |
 
 ```mermaid

@@ -3269,11 +3269,11 @@ Theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-o
 | Topic            | Site       | Link                                                                                                             |
 | ---------------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Thermodynamics] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/thermal-physics/02-thermodynamics)           |
-| [Thermodynamics] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/1_thermodynamics)                   |
+| [Thermodynamics] | IB         | [View](https://ib.wyattau.com/physics/2-particulate-nature-of-matter/1_thermodynamics/)                   |
 | [Thermodynamics] | University | [View](https://physics.wyattau.com/) |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

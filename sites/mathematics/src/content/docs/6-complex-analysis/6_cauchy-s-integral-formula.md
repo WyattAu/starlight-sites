@@ -178,8 +178,8 @@ Cauchy's integral formula says the value of an analytic function inside a contou
 - **[Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)**: The integral formula leads to power series representations of analytic functions.
 - **[Liouville's Theorem](/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle/)**: Liouville's theorem follows from Cauchy's estimates and characterizes bounded entire functions.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content

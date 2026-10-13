@@ -1637,7 +1637,7 @@ $$
 This corresponds to the cyan line in the Balmer series (visible region).
 
 For the A-Level treatment of this topic, see
-[Atomic Structure & Periodicity](https://alevel.wyattau.com/docs/chemistry/atomic-structure).
+[Atomic Structure & Periodicity](https://alevel.wyattau.com/chemistry/atomic-structure/).
 
 </details>
 

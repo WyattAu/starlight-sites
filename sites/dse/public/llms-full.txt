@@ -6337,8 +6337,8 @@ $\blacksquare$
 | Topic          | Site    | Link                                                                                            |
 | -------------- | ------- | ----------------------------------------------------------------------------------------------- |
 | [Cell Biology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/cells)                           |
-| [Cell Biology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/1-cell-biology/1_cell-biology)                    |
-| [Cell Biology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/1-cell-biology/1_cell-biology-and-biochemistry) |
+| [Cell Biology] | IB      | [View](https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology/)                    |
+| [Cell Biology] | DSE     | [View](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/) |
 
 From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 
@@ -12484,8 +12484,8 @@ phosphates), leading to excessive algal growth.
 | Topic     | Site    | Link                                                                    |
 | --------- | ------- | ----------------------------------------------------------------------- |
 | [Ecology] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/ecology) |
-| [Ecology] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/4-ecology/1_ecology)      |
-| [Ecology] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/2-ecology/1_ecology)    |
+| [Ecology] | IB      | [View](https://ib.wyattau.com/biology/4-ecology/1_ecology/)      |
+| [Ecology] | DSE     | [View](https://dse.wyattau.com/biology/2-ecology/1_ecology/)    |
 :::
 
 ## See Also
@@ -42786,8 +42786,8 @@ through to advanced topics.
 
 ## Related Content
 
-- **IB Chemistry:** [IB Chemistry](https://ib.wyattau.com/docs/chemistry)
-- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/docs/chemistry)
+- **IB Chemistry:** [IB Chemistry](https://ib.wyattau.com/chemistry/)
+- **A-Level Chemistry:** [A-Level Chemistry](https://alevel.wyattau.com/chemistry/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
@@ -47305,14 +47305,14 @@ $\blacksquare$
 | Topic              | Site    | Link                                                                                                         |
 | ------------------ | ------- | ------------------------------------------------------------------------------------------------------------ |
 | [Electrochemistry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/electrochemistry)                           |
-| [Electrochemistry] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/9-redox/3_electrochemistry)                                  |
-| [Electrochemistry] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry) |
-| [Redox Reactions]  | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/9-redox/1_redox-reactions)                                   |
+| [Electrochemistry] | IB      | [View](https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry/)                                  |
+| [Electrochemistry] | DSE     | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
+| [Redox Reactions]  | IB      | [View](https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions/)                                   |
 
 $$
 
 $$
-| [Redox Reactions]  | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry) |
+| [Redox Reactions]  | DSE     | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
 
 ## See Also
 
@@ -57977,8 +57977,8 @@ curriculum structure.
 
 ## Related Content
 
-- **IB Economics:** [IB Economics](https://ib.wyattau.com/docs/economics)
-- **A-Level Economics:** [A-Level Economics](https://alevel.wyattau.com/docs/economics)
+- **IB Economics:** [IB Economics](https://ib.wyattau.com/economics/)
+- **A-Level Economics:** [A-Level Economics](https://alevel.wyattau.com/economics/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
@@ -78001,9 +78001,9 @@ HKEAA curriculum structure.
 ## Related Content
 
 - **IB Computer Science:**
-  [IB Computer Science](https://ib.wyattau.com/docs/computer-science)
+  [IB Computer Science](https://ib.wyattau.com/computer-science/)
 - **A-Level Computer Science:**
-  [A-Level Computer Science](https://alevel.wyattau.com/docs/computer-science)
+  [A-Level Computer Science](https://alevel.wyattau.com/computer-science/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
@@ -88120,7 +88120,7 @@ self-marking and building a personal test matrix.
 | Topic                 | Site    | Link                                                                                                            |
 | --------------------- | ------- | --------------------------------------------------------------------------------------------------------------- |
 | [Coordinate Geometry] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/04-coordinates-and-geometry) |
-| [Coordinate Geometry] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/9_coordinate-geometry)                                 |
+| [Coordinate Geometry] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry/)                                 |
 
 ## DSE Exam Technique
 
@@ -88502,7 +88502,7 @@ $\blacksquare$
   A-Level |
   [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/04-coordinates-and-geometry)
   | | [Coordinate Geometry] | DSE |
-  [View](https://dse.wyattau.com/docs/dse/maths/compulsory/9_coordinate-geometry) |
+  [View](https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry/) |
 :::
 
 ## Intuition
@@ -99912,8 +99912,8 @@ $\blacksquare$
 
 | Topic        | Site | Link                                                                                   |
 | ------------ | ---- | -------------------------------------------------------------------------------------- |
-| [Statistics] | IB   | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/2_statistics) |
-| [Statistics] | DSE  | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/12_dispersion)                |
+| [Statistics] | IB   | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics/) |
+| [Statistics] | DSE  | [View](https://dse.wyattau.com/maths/compulsory/12_dispersion/)                |
 :::
 
 ## Intuition
@@ -103388,8 +103388,8 @@ revision and drill practice.
 
 ## Related Content
 
-- **IB Mathematics:** [IB Mathematics](https://ib.wyattau.com/docs/maths)
-- **A-Level Mathematics:** [A-Level Maths](https://alevel.wyattau.com/docs/maths)
+- **IB Mathematics:** [IB Mathematics](https://ib.wyattau.com/maths/)
+- **A-Level Mathematics:** [A-Level Maths](https://alevel.wyattau.com/maths/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
@@ -104402,7 +104402,7 @@ $\blacksquare$
 | Topic                        | Site    | Link                                                                                                              |
 | ---------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
 | [Equations and Inequalities] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/03-equations-and-inequalities) |
-| [Equations and Inequalities] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/5_inequalities)                                          |
+| [Equations and Inequalities] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/5_inequalities/)                                          |
 
 ======= 3. Misreading the question, particularly with "hence' vs 'hence or otherwise', the former
 requires using previous work.
@@ -105444,7 +105444,7 @@ $\blacksquare$
 | Topic                         | Site    | Link                                                                                                               |
 | ----------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------ |
 | [Exponentials and Logarithms] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/09-exponentials-and-logarithms) |
-| [Exponentials and Logarithms] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/7_logarithmics)                                           |
+| [Exponentials and Logarithms] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/7_logarithmics/)                                           |
 </Aside>
 
 ---
@@ -109727,8 +109727,8 @@ $\blacksquare$
 | Topic         | Site       | Link                                                                                               |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------- |
 | [Probability] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/statistics/03-probability)       |
-| [Probability] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/4-statistics-and-probability/1_probability)            |
-| [Probability] | DSE        | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/11_probability)                           |
+| [Probability] | IB         | [View](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/)            |
+| [Probability] | DSE        | [View](https://dse.wyattau.com/maths/compulsory/11_probability/)                           |
 | [Probability] | University | [View](https://mathematics.wyattau.com/) |
 
 ======= 3. Confusing the domain and range of functions, or not considering restrictions (e.g.,
@@ -110451,7 +110451,7 @@ For the A-Level treatment of this topic, see
 | Topic                 | Site    | Link                                                                                              |
 | --------------------- | ------- | ------------------------------------------------------------------------------------------------- |
 | [Quadratic Equations] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/02-quadratics) |
-| [Quadratic Equations] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/3_quadratics)                            |
+| [Quadratic Equations] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/3_quadratics/)                            |
 
 ## DSE Exam Technique
 
@@ -110801,7 +110801,7 @@ $\blacksquare$
   | [Quadratic Equations] | A-Level |
   [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/02-quadratics)
   | | [Quadratic Equations] | DSE |
-  [View](https://dse.wyattau.com/docs/dse/maths/compulsory/3_quadratics) |
+  [View](https://dse.wyattau.com/maths/compulsory/3_quadratics/) |
 </Aside>
 
 ---
@@ -112662,8 +112662,8 @@ $\blacksquare$
 | Topic          | Site    | Link                                                                                                |
 | -------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Trigonometry] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/08-trigonometry) |
-| [Trigonometry] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/3-geometry-and-trigonometry/1_trigonometry)             |
-| [Trigonometry] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/10_trigonometry)                           |
+| [Trigonometry] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/1_trigonometry/)             |
+| [Trigonometry] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/10_trigonometry/)                           |
 
 ======= 3. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong
 way around.
@@ -119827,8 +119827,8 @@ $\blacksquare$
 | Topic         | Site    | Link                                                                                                       |
 | ------------- | ------- | ---------------------------------------------------------------------------------------------------------- |
 | [Electricity] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/electricity/01-current-and-resistance) |
-| [Electricity] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/2-particulate-nature-of-matter/6_current-electricity)        |
-| [Electricity] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/3-electricity-and-magnetism/1_electrical-circuits)         |
+| [Electricity] | IB      | [View](https://ib.wyattau.com/physics/2-particulate-nature-of-matter/6_current-electricity/)        |
+| [Electricity] | DSE     | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/1_electrical-circuits/)         |
 </Aside>
 
 ## Intuition
@@ -123318,8 +123318,8 @@ $\blacksquare$
 | Topic             | Site    | Link                                                                                                |
 | ----------------- | ------- | --------------------------------------------------------------------------------------------------- |
 | [Energy and Work] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/04-work-energy-power) |
-| [Energy and Work] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/3_energy)                     |
-| [Energy and Work] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/1-mechanics/3_energy-and-work)                      |
+| [Energy and Work] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/3_energy/)                     |
+| [Energy and Work] | DSE     | [View](https://dse.wyattau.com/physics/1-mechanics/3_energy-and-work/)                      |
 </Aside>
 
 ## Intuition
@@ -124956,8 +124956,8 @@ $\blacksquare$
 | Topic                  | Site    | Link                                                                                         |
 | ---------------------- | ------- | -------------------------------------------------------------------------------------------- |
 | [Kinematics (Physics)] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/02-kinematics) |
-| [Kinematics (Physics)] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/1-space-time-and-motion/1_kinematics)          |
-| [Kinematics (Physics)] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/1-mechanics/1_forces-and-motion)             |
+| [Kinematics (Physics)] | IB      | [View](https://ib.wyattau.com/physics/1-space-time-and-motion/1_kinematics/)          |
+| [Kinematics (Physics)] | DSE     | [View](https://dse.wyattau.com/physics/1-mechanics/1_forces-and-motion/)             |
 </Aside>
 
 ## Intuition
@@ -127685,8 +127685,8 @@ efficient revision.
 
 ## Related Content
 
-- **IB Physics:** [IB Physics](https://ib.wyattau.com/docs/physics)
-- **A-Level Physics:** [A-Level Physics](https://alevel.wyattau.com/docs/physics)
+- **IB Physics:** [IB Physics](https://ib.wyattau.com/physics/)
+- **A-Level Physics:** [A-Level Physics](https://alevel.wyattau.com/physics/)
 
 Topics with substantial overlap with IB/A-Level content are noted in individual pages where
 applicable.
@@ -129429,8 +129429,8 @@ $\blacksquare$
 | Topic              | Site       | Link                                                                                                          |
 | ------------------ | ---------- | ------------------------------------------------------------------------------------------------------------- |
 | [Electromagnetism] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/fields/03-electromagnetism-unification)   |
-| [Electromagnetism] | IB         | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/4_induction)                                           |
-| [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism) |
+| [Electromagnetism] | IB         | [View](https://ib.wyattau.com/physics/4-fields/4_induction/)                                           |
+| [Electromagnetism] | DSE        | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/) |
 | [Electromagnetism] | University | [View](https://physics.wyattau.com/)                     |
 
 $$
@@ -138642,8 +138642,8 @@ $\blacksquare$
 | Topic             | Site    | Link                                                                                          |
 | ----------------- | ------- | --------------------------------------------------------------------------------------------- |
 | [Wave Properties] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/waves/01-wave-properties) |
-| [Wave Properties] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/3-wave-behaviour/2_wave-properties)             |
-| [Wave Properties] | DSE     | [View](https://dse.wyattau.com/docs/dse/physics/2-waves/1_waves-and-sound)                    |
+| [Wave Properties] | IB      | [View](https://ib.wyattau.com/physics/3-wave-behaviour/2_wave-properties/)             |
+| [Wave Properties] | DSE     | [View](https://dse.wyattau.com/physics/2-waves/1_waves-and-sound/)                    |
 </Aside>
 
 ## Intuition

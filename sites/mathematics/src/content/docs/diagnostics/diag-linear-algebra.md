@@ -253,7 +253,7 @@ flowchart TD
 - **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: Several diagnostic questions involve solving linear systems and understanding solution structure.
 - **[Linear Transformations](/2-linear-algebra/6_linear-transformations/)**: Questions on kernel and image draw on the theory of linear maps between vector spaces.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 ## Common Mistakes

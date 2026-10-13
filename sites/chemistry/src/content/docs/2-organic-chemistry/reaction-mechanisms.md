@@ -489,5 +489,5 @@ Organic reaction mechanisms are the step-by-step choreography of bond breaking a
 | Spectroscopy                 | WyattsNotes | [View](/2-organic-chemistry/spectroscopy/)                         |
 | Organic Chemistry, MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
 
-- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

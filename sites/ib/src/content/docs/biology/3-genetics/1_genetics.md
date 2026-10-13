@@ -1574,8 +1574,8 @@ Consumer rights and practical implications.
 | Topic      | Site    | Link                                                                             |
 | ---------- | ------- | -------------------------------------------------------------------------------- |
 | [Genetics] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/biology/genetics-and-dna) |
-| [Genetics] | IB      | [View](https://ib.wyattau.com/docs/ib/biology/3-genetics/1_genetics)             |
-| [Genetics] | DSE     | [View](https://dse.wyattau.com/docs/dse/biology/3-genetics/1_genetics)           |
+| [Genetics] | IB      | [View](https://ib.wyattau.com/biology/3-genetics/1_genetics/)             |
+| [Genetics] | DSE     | [View](https://dse.wyattau.com/biology/3-genetics/1_genetics/)           |
 
 ## Supplementary: Meiosis in Detail (HL Extension)
 

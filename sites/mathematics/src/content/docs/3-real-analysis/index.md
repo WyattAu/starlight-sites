@@ -137,5 +137,5 @@ Many proofs in real analysis implicitly rely on the Archimedean property (for an
 - **Multivariable Calculus:** Extensions to several variables.
 - **Measure Theory:** Lebesgue integration extending Riemann integration.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

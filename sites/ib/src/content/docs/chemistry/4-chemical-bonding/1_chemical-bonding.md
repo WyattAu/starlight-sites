@@ -1376,7 +1376,7 @@ $120^\circ$ And the entire molecule is planar. The C=C double bond consists of o
 pi bond. The pi bond restricts rotation about the C=C bond.
 
 For the A-Level treatment of this topic, see
-[Bonding & Structure](https://alevel.wyattau.com/docs/chemistry/bonding-and-structure).
+[Bonding & Structure](https://alevel.wyattau.com/chemistry/bonding-and-structure/).
 
 </details>
 
@@ -1406,8 +1406,8 @@ For the A-Level treatment of this topic, see
 | Topic              | Site    | Link                                                                                                             |
 | ------------------ | ------- | ---------------------------------------------------------------------------------------------------------------- |
 | [Chemical Bonding] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/bonding-and-structure)                          |
-| [Chemical Bonding] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/4-chemical-bonding/1_chemical-bonding)                           |
-| [Chemical Bonding] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding) |
+| [Chemical Bonding] | IB      | [View](https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding/)                           |
+| [Chemical Bonding] | DSE     | [View](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/) |
 
 ## Worked Examples
 

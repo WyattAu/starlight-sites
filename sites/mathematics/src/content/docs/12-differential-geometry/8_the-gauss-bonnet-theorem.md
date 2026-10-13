@@ -167,10 +167,10 @@ giving $\mathrm{Area} = \pi$. $\blacksquare$
 - **[Applications](/12-differential-geometry/9_applications/)**: Uses the Gauss-Bonnet theorem to explain cartographic constraints and as a special case of the Atiyah-Singer index theorem.
 - **[Tangent Spaces and Tangent Bundles](/12-differential-geometry/2_tangent-spaces-and-tangent-bundles/)**: Provides the tangent bundle structure needed to define curvature and geodesics on surfaces.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid

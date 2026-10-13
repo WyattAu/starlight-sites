@@ -296,7 +296,7 @@ A system update.
 - [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
 - [Regular Expressions](/standard_library/4_system_utilities/4_regular_expressions/)
 
-- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
 ### Clock Precision and `is_steady`
 

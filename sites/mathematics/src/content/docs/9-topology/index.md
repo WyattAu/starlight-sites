@@ -114,7 +114,7 @@ Topology is the study of properties preserved under continuous deformation. Imag
 - **Abstract Algebra:** Topological groups and algebraic topology; group theory underpins homology and fundamental groups.
 - **Differential Geometry:** Smooth manifolds as topological spaces; differential geometry adds calculus to topology.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
 Keep practising and reviewing to master this topic.

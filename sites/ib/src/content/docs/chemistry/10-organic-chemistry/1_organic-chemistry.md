@@ -1118,9 +1118,9 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 ## Related Content at Other Levels
 
 - **A-Level Organic Chemistry:**
-  [Organic Chemistry](https://alevel.wyattau.com/docs/chemistry/organic-chemistry)
+  [Organic Chemistry](https://alevel.wyattau.com/chemistry/organic-chemistry/)
 - **DSE Carbon Chemistry:**
-  [Carbon Chemistry](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry)
+  [Carbon Chemistry](https://dse.wyattau.com/chemistry/7-organic-chemistry/)
 
 ## Common Pitfalls
 
@@ -1146,8 +1146,8 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 | Topic               | Site    | Link                                                                                             |
 | ------------------- | ------- | ------------------------------------------------------------------------------------------------ |
 | [Organic Chemistry] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/chemistry/organic-chemistry/introduction) |
-| [Organic Chemistry] | IB      | [View](https://ib.wyattau.com/docs/ib/chemistry/10-organic-chemistry/1_organic-chemistry)        |
-| [Organic Chemistry] | DSE     | [View](https://dse.wyattau.com/docs/dse/chemistry/7-organic-chemistry/1_organic-chemistry)       |
+| [Organic Chemistry] | IB      | [View](https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry/)        |
+| [Organic Chemistry] | DSE     | [View](https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry/)       |
 
 ## Worked Examples
 

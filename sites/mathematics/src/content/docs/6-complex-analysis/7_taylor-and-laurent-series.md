@@ -205,8 +205,8 @@ Every analytic function can be expanded as a power series, like a polynomial of 
 - **[Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: Laurent series reveal the structure of singularities and enable residue computation.
 - **[Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)**: Laurent series can extend functions beyond their original domain through analytic continuation.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ## Advanced Content

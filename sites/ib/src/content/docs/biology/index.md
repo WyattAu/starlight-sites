@@ -101,8 +101,8 @@ pitfalls, and exam-style problems.
 
 ## Related Content
 
-- **A-Level Biology:** [A-Level Biology](https://alevel.wyattau.com/docs/biology)
-- **DSE Biology:** [DSE Biology](https://dse.wyattau.com/docs/dse/biology)
+- **A-Level Biology:** [A-Level Biology](https://alevel.wyattau.com/biology/)
+- **DSE Biology:** [DSE Biology](https://dse.wyattau.com/biology/)
 
 ## Common Pitfalls
 

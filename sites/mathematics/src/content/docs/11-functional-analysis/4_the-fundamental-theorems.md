@@ -169,10 +169,10 @@ Prove that if $x_n \to 0$ and $Tx_n \to y$ implies $y = 0$, then $T$ is bounded.
 - **[Compact Operators](/11-functional-analysis/5_compact-operators/)**: Applies the Fredholm alternative, which relies on the bounded inverse theorem established here.
 - **[Weak and Weak* Convergence](/11-functional-analysis/6_weak-and-weak-convergence/)**: Uses the Banach-Alaoglu theorem, a consequence of Hahn-Banach, to establish weak* compactness of the dual unit ball.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 
 ```mermaid

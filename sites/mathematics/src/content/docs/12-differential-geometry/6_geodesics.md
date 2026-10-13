@@ -232,7 +232,7 @@ Geodesics are the straightest possible paths on a curved surface. On a flat plan
 - [Electromagnetic Waves](https://physics.wyattau.com/3-electromagnetism/5_electromagnetic-waves/) -- The wave equation in curved spacetime uses geodesic deviation to describe tidal forces as a rule relativity.
 - [Special Relativity and Electromagnetism](https://physics.wyattau.com/3-electromagnetism/7_special-relativity-and-electromagnetism/) -- Minkowski spacetime is a flat Lorentzian manifold whose geodesics are the worldlines of free particles.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

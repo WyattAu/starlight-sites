@@ -252,4 +252,4 @@ Bragg diffraction peaks occur when the scattering vector $\mathbf{G}$ is a recip
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Electronic band structures are computed in the Brillouin zone of the reciprocal lattice.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)

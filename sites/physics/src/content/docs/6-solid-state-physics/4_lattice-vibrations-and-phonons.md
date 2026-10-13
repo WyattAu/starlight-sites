@@ -315,6 +315,6 @@ Phonons are confined to the Brillouin zone and have frequencies bounded by the m
 - **[Diffraction](/6-solid-state-physics/3_diffraction/)**: Inelastic neutron scattering measures phonon dispersion relations using the same diffraction framework.
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: Phonon scattering limits carrier mobility and affects thermal conductivity in semiconductor materials.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

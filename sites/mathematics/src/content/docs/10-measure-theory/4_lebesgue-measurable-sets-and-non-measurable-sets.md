@@ -147,10 +147,10 @@ $n$, $m(C) \leq \lim_{n\to\infty} (2/3)^n = 0$. $\blacksquare$
 - **[Measurable Functions](/10-measure-theory/5_measurable-functions/)**: Defines functions that are compatible with the measurable set structure, forming the basis for Lebesgue integration.
 - **[Radon-Nikodym Derivative and Lebesgue Decomposition](/10-measure-theory/9_radon-nikodym-derivative-and-lebesgue-decomposition/)**: Uses the decomposition of measures into absolutely continuous and singular parts, concepts rooted in the measurability theory here.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 

@@ -350,5 +350,5 @@ flowchart TD
 - **[Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)**: Basis and dimension are defined in terms of linear independence and span of vector space elements.
 - **[Matrices](/2-linear-algebra/3_matrices/)**: Matrices represent linear transformations between finite-dimensional vector spaces.
 - **[Linear Transformations](/2-linear-algebra/6_linear-transformations/)**: Linear transformations are maps between vector spaces that preserve linear structure.
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

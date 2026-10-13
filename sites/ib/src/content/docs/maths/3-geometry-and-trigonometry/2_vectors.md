@@ -830,7 +830,7 @@ applying these mathematical techniques.
 | Topic     | Site    | Link                                                                                           |
 | --------- | ------- | ---------------------------------------------------------------------------------------------- |
 | [Vectors] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/12-vectors) |
-| [Vectors] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/3-geometry-and-trigonometry/2_vectors)             |
+| [Vectors] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors/)             |
 
 ## Worked Examples
 

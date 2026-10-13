@@ -213,7 +213,7 @@ The cross-ratio $(z_1, z_2, z_3, z_4)$ is invariant under Möbius transformation
 - **[Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)**: Conformal mappings transform difficult integrals into simpler ones that are easier to evaluate.
 - **[Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)**: The argument principle counts zeros and poles using the change in argument along contours.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

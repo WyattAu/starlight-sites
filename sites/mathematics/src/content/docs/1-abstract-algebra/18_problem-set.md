@@ -579,9 +579,9 @@ Groups of order $p^2$ (for prime $p$) are always abelian, but groups of order $p
 - **[Field Theory](/1-abstract-algebra/12_field-theory/)**: The field extension problems in this set build on irreducibility and algebraic closure.
 - **[Sylow Theorems](/1-abstract-algebra/7_the-sylow-theorems/)**: Problems on group classification rely on Sylow analysis for determining subgroup structure.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ### Challenge Problems

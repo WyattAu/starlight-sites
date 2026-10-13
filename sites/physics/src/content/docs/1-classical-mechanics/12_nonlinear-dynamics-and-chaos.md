@@ -246,4 +246,4 @@ Nonlinear dynamics reveals that deterministic systems can produce unpredictable 
 - **[Small Oscillations and Normal Modes](/1-classical-mechanics/7_small-oscillations-and-normal-modes/)**: Linear stability analysis near equilibrium points provides the foundation for understanding chaotic behavior.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)

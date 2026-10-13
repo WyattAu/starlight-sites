@@ -196,7 +196,7 @@ A vector field assigns a direction and magnitude to every point of a manifold, l
 - [Group Actions](/1-abstract-algebra/6_group-actions/) -- Lie groups act on manifolds by diffeomorphisms, generalising the group action framework to continuous symmetry.
 - [Key Theorems in Functional Analysis](/11-functional-analysis/9_summary-of-key-theorems/) -- The Hahn-Banach and spectral theorems provide the functional-analytic foundations for studying infinite-dimensional spaces of vector fields.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)

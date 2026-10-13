@@ -356,5 +356,5 @@ flowchart TD
 - **[Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)**: The SVD uses orthonormal bases derived from inner products on the column and row spaces of a matrix.
 - **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: The pseudoinverse derived from the SVD provides minimum-norm least squares solutions to inconsistent linear systems.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

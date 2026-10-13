@@ -660,5 +660,5 @@ A universe with no boundary can be finite or infinite. For example, a closed uni
 - **[Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)**: Dark matter halos, the Sachs-Wolfe effect, and topological defects extend the basic cosmological framework.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

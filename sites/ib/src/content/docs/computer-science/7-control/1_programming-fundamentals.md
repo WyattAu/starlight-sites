@@ -1788,8 +1788,8 @@ END IF
 | Topic                    | Site    | Link                                                                                                           |
 | ------------------------ | ------- | -------------------------------------------------------------------------------------------------------------- |
 | [Programming Constructs] | A-Level | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/programming/01-programming-constructs) |
-| [Programming Constructs] | IB      | [View](https://ib.wyattau.com/docs/ib/computer-science/7-control/1_programming-fundamentals)                   |
-| [Programming Constructs] | DSE     | [View](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases/1_programming-fundamentals)            |
+| [Programming Constructs] | IB      | [View](https://ib.wyattau.com/computer-science/7-control/1_programming-fundamentals/)                   |
+| [Programming Constructs] | DSE     | [View](https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals/)            |
 
 
 ```mermaid

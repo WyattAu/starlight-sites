@@ -1647,7 +1647,7 @@ A matrix is a machine that transforms space. It stretches, rotates, reflects, an
 | Topic      | Site    | Link                                                                                                    |
 | ---------- | ------- | ------------------------------------------------------------------------------------------------------- |
 | [Matrices] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/02-matrices) |
-| [Matrices] | IB      | [View](https://ib.wyattau.com/docs/ib/maths/3-geometry-and-trigonometry/3_matrices-and-transformations) |
+| [Matrices] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations/) |
 
 ## Worked Examples
 

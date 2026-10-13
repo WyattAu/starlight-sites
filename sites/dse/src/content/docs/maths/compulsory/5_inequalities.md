@@ -930,7 +930,7 @@ $\blacksquare$
 | Topic                        | Site    | Link                                                                                                              |
 | ---------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
 | [Equations and Inequalities] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/maths/pure-mathematics/03-equations-and-inequalities) |
-| [Equations and Inequalities] | DSE     | [View](https://dse.wyattau.com/docs/dse/maths/compulsory/5_inequalities)                                          |
+| [Equations and Inequalities] | DSE     | [View](https://dse.wyattau.com/maths/compulsory/5_inequalities/)                                          |
 
 ======= 3. Misreading the question, particularly with "hence' vs 'hence or otherwise', the former
 requires using previous work.

@@ -98,7 +98,7 @@ Sorting, searching, linked lists, stacks, queues, trees, and graphs
 ## Related Content
 
 - **A-Level Computer Science:**
-  [A-Level Computer Science](https://alevel.wyattau.com/docs/computer-science)
+  [A-Level Computer Science](https://alevel.wyattau.com/computer-science/)
 - **DSE Computer Science:**
   [DSE Computer Science](https://dse.wyattau.com/docs/dse/computer-science)
 - **University Computer Science:**

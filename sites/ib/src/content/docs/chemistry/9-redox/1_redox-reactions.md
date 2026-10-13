@@ -1106,9 +1106,9 @@ the OH$^-$ at the cathode is consumed by this acid.
 ## Related Content at Other Levels
 
 - **A-Level Redox and Electrochemistry:**
-  [Electrochemistry](https://alevel.wyattau.com/docs/chemistry/electrochemistry)
+  [Electrochemistry](https://alevel.wyattau.com/chemistry/electrochemistry/)
 - **DSE Redox and Electrochemistry:**
-  [Redox and Electrochemistry](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry)
+  [Redox and Electrochemistry](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/)
 
 ```mermaid
 flowchart TD
@@ -1140,8 +1140,8 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 | Topic             | Site | Link                                                                                                         |
 | ----------------- | ---- | ------------------------------------------------------------------------------------------------------------ |
-| [Redox Reactions] | IB   | [View](https://ib.wyattau.com/docs/ib/chemistry/9-redox/1_redox-reactions)                                   |
-| [Redox Reactions] | DSE  | [View](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry) |
+| [Redox Reactions] | IB   | [View](https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions/)                                   |
+| [Redox Reactions] | DSE  | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
 
 ## Worked Examples
 

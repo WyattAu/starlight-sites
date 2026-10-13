@@ -119,8 +119,8 @@ Matrix operations, determinants, inverses, solving systems, and eigenvalues
 
 ## Related Content
 
-- **A-Level Maths:** [A-Level Maths](https://alevel.wyattau.com/docs/maths)
-- **DSE Maths:** [DSE Maths](https://dse.wyattau.com/docs/dse/maths)
+- **A-Level Maths:** [A-Level Maths](https://alevel.wyattau.com/maths/)
+- **DSE Maths:** [DSE Maths](https://dse.wyattau.com/maths/)
 - **University Maths:** [University Maths](https://mathematics.wyattau.com/)
 
 ## Intuition

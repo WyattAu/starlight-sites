@@ -207,7 +207,7 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 - **[Rigid Body Dynamics](/1-classical-mechanics/8_rigid-body-dynamics/)**: Rigid body rotations exhibit normal modes that describe small oscillations about equilibrium orientations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 

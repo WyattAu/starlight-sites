@@ -184,6 +184,6 @@ Thermodynamic pitfalls arise from confusing mathematical formalism with physical
 - **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: The first-order versus continuous distinction is developed quantitatively in the phase transitions chapter.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

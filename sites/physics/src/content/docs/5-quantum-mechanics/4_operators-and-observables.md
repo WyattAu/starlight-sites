@@ -278,5 +278,5 @@ Quantum operators are the machinery that extracts measurable information from a 
 - **[Spin](/5-quantum-mechanics/7_spin/)**: Spin operators illustrate the algebraic properties of angular momentum in quantum mechanics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

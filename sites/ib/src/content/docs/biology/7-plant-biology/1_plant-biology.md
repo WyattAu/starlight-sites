@@ -1706,8 +1706,8 @@ adaptations, Including the role of specific hormones and osmoprotectants.
 
 | Topic           | Site | Link                                                                             |
 | --------------- | ---- | -------------------------------------------------------------------------------- |
-| [Plant Biology] | IB   | [View](https://ib.wyattau.com/docs/ib/biology/7-plant-biology/1_plant-biology)   |
-| [Plant Biology] | DSE  | [View](https://dse.wyattau.com/docs/dse/biology/5-plant-biology/1_plant-biology) |
+| [Plant Biology] | IB   | [View](https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology/)   |
+| [Plant Biology] | DSE  | [View](https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology/) |
 
 ## Supplementary: Plant Hormones in Detail (HL Extension)
 

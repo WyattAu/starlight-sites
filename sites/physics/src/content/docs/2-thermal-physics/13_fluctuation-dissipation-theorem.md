@@ -201,7 +201,7 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 - **[Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)**: Confusing response functions with fluctuation quantities is a frequent error addressed in both sections.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 

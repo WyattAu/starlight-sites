@@ -216,10 +216,10 @@ flowchart TD
 - [Electromagnetic Waves](https://physics.wyattau.com/3-electromagnetism/5_electromagnetic-waves/) -- The spectral theorem underpins the mode decomposition of electromagnetic fields in cavities and waveguides.
 - [Ising Model and Mean-Field Theory](https://physics.wyattau.com/2-thermal-physics/12_ising-model-and-mean-field-theory/) -- Transfer matrix methods use operator theory to compute partition functions in statistical mechanics.
 
-- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
 ## Common Mistakes
 

@@ -200,5 +200,5 @@ Liouville's theorem states that bounded entire functions must be constant, which
 - **[Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)**: Power series representations reveal the local behavior of analytic functions near singularities.
 - **[Conformal Mappings](/6-complex-analysis/10_conformal-mappings/)**: The Riemann mapping theorem uses maximum modulus principles to establish conformal equivalences.
 
-- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
-- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
