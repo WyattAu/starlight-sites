@@ -377,16 +377,6 @@ $$
 $$
 :::
 
-```mermaid
-flowchart TD
-    A[5_Rotational Motion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Rotational motion is the **mirror image of linear motion**, every linear concept has a rotational analogue. Replace $x$ with $\theta$, $v$ with $\omega$, $a$ with $\alpha$, $m$ with $I$, and $F$ with $\tau$. The equations are identical in form. This isn't a coincidence, it reflects the fact that rotation is one-dimensional motion in the angular coordinate.

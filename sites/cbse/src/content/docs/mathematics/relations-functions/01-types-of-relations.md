@@ -18,17 +18,6 @@ description: "Study notes for Types of relations with worked examples, practice 
 
 A relation $R$ from a set $A$ to a set $B$ is a subset of the Cartesian product $A \times B$. If $(a, b) \in R$, we write $aRb$ and say "$a$ is related to $b$ by $R$."
 
-
-```mermaid
-flowchart TD
-    A[01 Types Of Relations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 ### Definition and Notation
@@ -186,23 +175,3 @@ Relations are rules that connect elements from one set to another. A relation on
 - **Forgetting that transitivity requires checking all triples:** Transitivity is not just about adjacent pairs. You must verify that for every $(a, b) \in R$ and $(b, c) \in R$, the pair $(a, c)$ is also in $R$.
 - **Confusing equivalence relations with partial orders:** Equivalence relations are reflexive, symmetric, and transitive. Partial orders are reflexive, antisymmetric, and transitive. Symmetry and antisymmetry are mutually exclusive (except for equality).
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

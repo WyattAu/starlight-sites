@@ -11,7 +11,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -20,17 +19,6 @@ import Citations from '@components/Citations.astro'
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "03 Basics", "url": "https://dart.wyattau.com/03-basics"}, {"name": "01 Entrypoint", "url": "https://dart.wyattau.com/03-basics/01-entrypoint"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[01 Entrypoint] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Program Entry
 
@@ -151,23 +139,3 @@ the `args` parameter, and should contain the primary application logic.
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) - Function syntax and closures
 - [Variables and Types](/03-basics/02-variables/) - Type system deep dive
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

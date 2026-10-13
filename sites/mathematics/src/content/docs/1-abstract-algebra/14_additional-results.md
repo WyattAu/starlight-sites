@@ -133,17 +133,6 @@ Taking all products, the six abelian groups of order 72 are:
 | Structure Theorem | Finitely generated abelian $\cong \mathbb{Z}^r \times$ cyclic groups | Classification of abelian groups |
 | Simplicity of $A_n$ | $A_n$ is simple for $n \geq 5$ | Impossibility of quintic formula |
 
-
-```mermaid
-flowchart TD
-    A[14_Additional Results] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Galois Theory Fundamentals](/1-abstract-algebra/13_galois-theory-fundamentals/)**: Uses group-theoretic results such as solvability and the structure of symmetric groups to determine which polynomials are solvable by radicals.
@@ -160,23 +149,3 @@ Cauchy's theorem tells us that primes leave fingerprints in group structure: if 
 - Assuming the classification of finite simple groups applies to infinite groups.
 - Mixing up the partitions of exponents when applying the Structure Theorem (e.g., $\mathbb{Z}/8\mathbb{Z}$ vs $\mathbb{Z}/4\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ are both order 8 but non-isomorphic).
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

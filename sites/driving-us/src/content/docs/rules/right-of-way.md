@@ -10,17 +10,6 @@ categories:
   - driving-us
 ---
 
-
-```mermaid
-flowchart TD
-    A[Right Of Way] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Overview
 
 Right-of-way rules determine who goes first at intersections, crosswalks, and
@@ -131,23 +120,3 @@ when clear.
 - [Signs](/signs/regulatory-signs/) - Stop and yield signs
 - [Safe Driving Tips](/safe-driving/defensive-driving/) - Defensive driving
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

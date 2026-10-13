@@ -252,16 +252,6 @@ git rebase -i HEAD~5
 
 ```markdown
 
-```mermaid
-flowchart TD
-    A[Open Source] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Brief description of what this PR does and why.

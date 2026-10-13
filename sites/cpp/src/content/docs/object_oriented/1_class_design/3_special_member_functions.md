@@ -671,16 +671,6 @@ int main() {
 - [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
 - [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
 
-```mermaid
-flowchart TD
-    A[3_Special_Member_Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to special member function

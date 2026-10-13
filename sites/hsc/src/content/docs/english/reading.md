@@ -18,17 +18,6 @@ description: "Study notes for Reading with worked examples, practice problems, a
 
 HSC english study notes - Reading
 
-
-```mermaid
-flowchart TD
-    A[Reading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 ### Close Reading Techniques
@@ -206,23 +195,3 @@ HSC examiners reward essays that acknowledge complexity and alternative readings
 - [Mechanics](/physics/mechanics/) -- Scientific literacy and comprehension skills transfer to interpreting physics problems and experimental reports.
 - [Intro](/intro/) -- Understanding the HSC assessment structure helps focus reading strategies on exam-relevant skills.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

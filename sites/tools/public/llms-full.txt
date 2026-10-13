@@ -424,16 +424,6 @@ URL: https://tools.wyattau.com/hub/
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Software development is not just about writing code, it is about writing code that works, that is maintainable, and that ships reliably. The tools you use determine how effectively you can write, test, debug, and deploy software. A developer who masters their tools can produce in hours what takes others days.
@@ -1087,16 +1077,6 @@ Approach these notes by first understanding the fundamentals of each tool, then 
 
 ## Kubernetes Docker
 URL: https://tools.wyattau.com/kubernetes-docker/
-
-```mermaid
-flowchart TD
-    A[Kubernetes Docker] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Introduction to Containers
 
@@ -4459,16 +4439,6 @@ Arbitrary precision, but in C/C++/Java, use `long long`/`long`).
 In sliding window problems, "at most k distinct elements" requires shrinking the window when the
 Count exceeds $k$ While "exactly k distinct elements" requires maintaining two windows (one for at
 most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
-
-```mermaid
-flowchart TD
-    A[Arrays And Strings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -8331,17 +8301,6 @@ In game theory DP, the standard formulation computes the value that the current 
 Guarantee. A common mistake is to assume both players play optimally for the same objective. In
 Zero-sum games, player 1 maximises while player 2 minimises. Getting this wrong inverts the result.
 
-
-```mermaid
-flowchart TD
-    A[Dp Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dynamic programming patterns, including underlying theory,
@@ -9330,16 +9289,6 @@ DP is applicable when a problem has these characteristics:
 - The problem requires an exact sequence, not just a value (reconstruction may be needed)
 - Greedy works (the greedy choice property holds)
 - The problem is on a tree/graph with no obvious DP state (may need tree/graph-specific techniques)
-
-```mermaid
-flowchart TD
-    A[Dynamic Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -10375,16 +10324,6 @@ def two_sat(n_vars, clauses):
 The key theorem: a 2-SAT formula is satisfiable if and only if no variable and its negation are in
 the same strongly connected component. This gives a linear-time algorithm for a problem that is
 NP-hard for 3-SAT.
-
-```mermaid
-flowchart TD
-    A[Graph Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -11957,16 +11896,6 @@ Use a bloom filter for membership testing (set membership), count-min sketch for
 Estimation, and HyperLogLog for cardinality estimation. Each is optimised for a different query type
 and cannot substitute for another.
 
-```mermaid
-flowchart TD
-    A[Hashing And Hash Tables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of hashing and hash tables, including underlying theory,
@@ -12130,27 +12059,6 @@ Algorithms are step-by-step recipes for solving problems. The key question is ef
 - [Complexity Analysis](/algorithms/01-complexity-analysis/complexity-analysis/)
 - [Arrays and Strings](/algorithms/02-arrays-strings/arrays-and-strings/)
 - [Sorting](/algorithms/05-sorting/sorting/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -12956,16 +12864,6 @@ Standard binary heaps do not support efficient decrease-key operations (common i
 Algorithm). The workaround, insert a new entry and ignore stale entries, works but increases the
 Heap size. For algorithms that require frequent decrease-key, a Fibonacci heap provides $O(1)$
 Amortised decrease-key, but has large constant factors and is rarely used in practice.
-
-```mermaid
-flowchart TD
-    A[Linked Lists Stacks Queues] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -15934,17 +15832,6 @@ URL: https://tools.wyattau.com/diagnostics/diag-algorithms/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Testing your algorithmic knowledge:** Diagnostic tests are like a mechanic checkup for your understanding, they quickly reveal which concepts you have mastered and which need more work, so you can focus your study time effectively.
@@ -16206,17 +16093,6 @@ deeply and do not stretch into pain.
 
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
-
-
-```mermaid
-flowchart TD
-    A[Alleviate Back Pain] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -17434,16 +17310,6 @@ with lower-fat starting materials to avoid scorching.
 4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
-```mermaid
-flowchart TD
-    A[Crafting Gheex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -17461,26 +17327,6 @@ linked above.
 - **[Markdown Constructs](/general/markdown-constructs/):** Reference guide for Markdown syntax used in these example pages.
 - **[Testing: Markdown Constructs](/general/testing/markdown-constructs/):** Interactive testing of Markdown constructs and formatting.
 - **[Alleviate Back Pain](/general/examples/alleviate-back-pain/):** Another example page demonstrating Markdown formatting and content structure.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -18399,16 +18245,6 @@ build:
     fi
 ```
 
-```mermaid
-flowchart TD
-    A[Dev Environment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the geographical processes and issues related to development environment setup,
@@ -18797,16 +18633,6 @@ https://dartpad.dev/embed-inline.html?id=<gist-id>&split=<ratio>&theme=<dark|lig
 Note that Dartpad's theme does not inherit from the parent page. It must be set explicitly in the
 URL. If the site supports dark mode toggling, the Dartpad theme will not switch dynamically without
 JavaScript intervention.
-
-```mermaid
-flowchart TD
-    A[Iframe Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -19463,16 +19289,6 @@ git rebase -i HEAD~5
 ### PR Description Template
 
 ```markdown
-
-```mermaid
-flowchart TD
-    A[Open Source] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -24196,16 +24012,6 @@ The `binary` merge driver marks the file as unmergeable, and Git will keep which
 last modified (based on the merge strategy). This avoids generating conflict markers in binary
 Files.
 
-```mermaid
-flowchart TD
-    A[Advanced Git Commands] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of advanced git commands, including underlying theory, practical
@@ -24754,27 +24560,6 @@ The `run` command will:
 2. Run the script.
 3. Mark the commit as `bad` if the script exits non-zero, `good` if it exits zero.
 4. Continue until the range is narrowed to one commit.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -25821,17 +25606,6 @@ Cherry-pick does not. If you cherry-pick a fix to main, notify the team, especia
 the original commit, who may not realize their fix is being applied elsewhere and may re-merge the
 Same changes.
 
-
-```mermaid
-flowchart TD
-    A[06 Cherry Pick] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of cherry-pick, including underlying theory, practical
@@ -26730,17 +26504,6 @@ Public key to GitHub. For SSH signing, the key must be added as a "Signing Key" 
 If you have multiple Git identities (work and personal), ensure each identity has its own signing
 Key and that you configure `user.signingkey` correctly per repository. A commit signed with your
 Personal key will not verify against your work email on GitHub's work organization, and vice versa.
-
-
-```mermaid
-flowchart TD
-    A[08 Commit Signing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -27922,17 +27685,6 @@ After rewriting history, any CI/CD pipelines that reference specific commit SHAs
 - Release notes that reference commit SHAs
 - Issue tracker links that reference commits
 
-
-```mermaid
-flowchart TD
-    A[10 Filter Repo] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of filter-repo (history rewriting), including underlying theory,
@@ -27984,17 +27736,6 @@ URL: https://tools.wyattau.com/git/06-internals/01-git-directory-structure/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "06 Internals", "url": "https://tools.wyattau.com/git/06-internals"}, {"name": "01 Git Directory Structure", "url": "https://tools.wyattau.com/git/06-internals/01-git-directory-structure"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[01 Git Directory Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## The `.git` Directory
 
@@ -28783,17 +28524,6 @@ PROTOCOL = https
 Traefik automatically sets `X-Forwarded-For` and `X-Forwarded-Proto` headers. If Gitea shows
 incorrect redirect URLs, verify these headers are passed through correctly.
 
-
-```mermaid
-flowchart TD
-    A[Gitea On Truenas] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -28821,27 +28551,6 @@ linked above.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) covers the standard Git remote commands used to interact with a self-hosted Gitea instance.
 - [Workflows](/git/04-remotes-and-workflows/02-workflows/) defines team collaboration patterns that a Gitea server enables for self-hosted teams.
 - [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/) describes the code review process that Gitea supports natively.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -30351,17 +30060,6 @@ out the PR head:
 This is safe only when the subsequent steps do not execute arbitrary code from the PR (e.g., running
 A static analysis tool on the source code, not running the source code itself).
 
-
-```mermaid
-flowchart TD
-    A[05 Github Actions Ci Cd Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of github actions ci/cd patterns, including underlying theory,
@@ -30555,17 +30253,6 @@ outside the object store and tracks only a pointer.
 
 4. Misinterpreting graphs by confusing the independent and dependent variables or reading scales
    incorrectly.
-
-
-```mermaid
-flowchart TD
-    A[03 Hash Algorithm] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -31508,17 +31195,6 @@ git config core.autocrlf input
 
 Or configure your text editor to save files in `.githooks/` with LF line endings.
 
-
-```mermaid
-flowchart TD
-    A[07 Hooks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of git hooks, including underlying theory, practical
@@ -32438,27 +32114,6 @@ $ git gc
 # Prune ALL unreachable objects immediately
 $ git gc --prune=now
 ```
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -33438,17 +33093,6 @@ When you write `exclude: 'vendor/'`. It matches the full path relative to the re
 just the filename. Use `^vendor/` to anchor to the start, or test your patterns with
 `pre-commit run --verbose` to see which files are being passed to each hook.
 
-
-```mermaid
-flowchart TD
-    A[09 Pre Commit Framework] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of the pre-commit framework, including underlying theory,
@@ -33536,16 +33180,6 @@ A good PR description answers:
 Template:
 
 ```markdown
-
-```mermaid
-flowchart TD
-    A[03 Pull Requests] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -34563,16 +34197,6 @@ linked above.
 ## Reflog
 URL: https://tools.wyattau.com/git/05-advanced-topics/01-reflog/
 
-```mermaid
-flowchart TD
-    A[01 Reflog] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## What is the Reflog
 
 The **reflog** (reference log) is Git's built-in safety net. It records every change to the HEAD
@@ -35373,17 +34997,6 @@ Force-pushing to shared branches disrupts all collaborators. Before rewriting hi
 - Ask collaborators to rebase their work onto the new history afterward.
 - For truly sensitive data (credentials, tokens), consider rotating the leaked secrets entirely
   rather than relying solely on history removal, since forks and clones may retain the data.
-
-
-```mermaid
-flowchart TD
-    A[Remove Commit History] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -36231,17 +35844,6 @@ On Git 2.37+, `--cone` is the default, so `git sparse-checkout init` and
 Recommended for documentation and compatibility with older Git versions (where it is silently
 Accepted but not the default).
 
-
-```mermaid
-flowchart TD
-    A[11 Sparse Checkout And Partial Clone] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of sparse checkout and partial clone, including underlying
@@ -36293,17 +35895,6 @@ URL: https://tools.wyattau.com/git/05-advanced-topics/02-stash/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "05 Advanced Topics", "url": "https://tools.wyattau.com/git/05-advanced-topics"}, {"name": "02 Stash", "url": "https://tools.wyattau.com/git/05-advanced-topics/02-stash"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[02 Stash] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## What is Stash
 
@@ -36383,27 +35974,6 @@ git stash pop
 - [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/) - Basic Git commands
 - [Git Branching](/git/03-branching-and-merging/01-branching/) - Branch management
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Submodules
@@ -36417,17 +35987,6 @@ URL: https://tools.wyattau.com/git/05-advanced-topics/04-submodules/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "05 Advanced Topics", "url": "https://tools.wyattau.com/git/05-advanced-topics"}, {"name": "04 Submodules", "url": "https://tools.wyattau.com/git/05-advanced-topics/04-submodules"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[04 Submodules] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## What Are Submodules
 
@@ -36508,27 +36067,6 @@ $ git clone --recurse-submodules https://github.com/user/project.git
 # Initialize submodules after cloning
 $ git submodule update --init --recursive
 ```
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -37133,17 +36671,6 @@ $ git subtree add --prefix=vendor\lib --squash https://github.com/org/library.gi
 
 # CORRECT: always use forward slashes
 $ git subtree add --prefix=vendor/lib --squash https://github.com/org/library.git main
-```
-
-
-```mermaid
-flowchart TD
-    A[12 Subtrees] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -38422,17 +37949,6 @@ Host bastion.trusted-company.com
 
 If you need SSH agent forwarding (e.g., to access a Git server behind a bastion), use it only on
 Bastion hosts you control and trust.
-
-
-```mermaid
-flowchart TD
-    A[04 Transfer Protocols And Auth] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -40312,17 +39828,6 @@ Generate license notice bundles for your distribution.
   Free Software Foundation's guidance on choosing a license
 - [OSI Approved Licenses](https://opensource.org/licenses), the definitive list of OSI-approved
   open-source licenses and the Open Source Definition
-
-
-```mermaid
-flowchart TD
-    A[Software Licensing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -42497,16 +42002,6 @@ $\mathcal{M}$.
 4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
-```mermaid
-flowchart TD
-    A[2_Definitions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -42961,17 +42456,6 @@ statistical convenience.
 
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
-
-
-```mermaid
-flowchart TD
-    A[1_Supervised_Learning] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

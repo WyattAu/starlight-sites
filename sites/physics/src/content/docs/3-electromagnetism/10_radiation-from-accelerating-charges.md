@@ -200,38 +200,7 @@ The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is neglig
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-```mermaid
-flowchart TD
-    A[10_Radiation From Accelerating Charges] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Radiation is how accelerating charges shed energy. The Larmor formula shows that power radiated is proportional to the square of acceleration, so rapidly changing charges radiate intensely. The toroidal radiation pattern means antennas radiate maximally perpendicular to their axis, like a doughnut of energy. Synchrotron radiation becomes directional at relativistic speeds because the radiation cone narrows, like a lighthouse beam. Bremsstrahlung produces a continuous X-ray spectrum because the deceleration is随机. The radiation reaction force is the charge feeling its own field, a subtle effect that becomes important in extreme environments.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

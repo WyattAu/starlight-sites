@@ -906,17 +906,6 @@ $$
 \text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30
 $$
 
-
-```mermaid
-flowchart TD
-    A[8_Organic Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the key concepts of Organic Chemistry for GCSE Chemistry. Focus on understanding

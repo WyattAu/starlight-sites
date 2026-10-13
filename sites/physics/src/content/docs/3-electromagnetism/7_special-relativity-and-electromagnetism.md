@@ -193,17 +193,6 @@ These invariants classify electromagnetic fields:
 - If $c^2 B^2 \gt E^2$ There exists a frame where $\mathbf{E} = \mathbf{0}$ (purely magnetic).
 - If $\mathbf{E} \cdot \mathbf{B} = 0$ and $E = cB$ The field is a null field (electromagnetic wave).
 
-
-```mermaid
-flowchart TD
-    A[7_Special Relativity And Electromagnetism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Special relativity and electromagnetism are two aspects of the same theory. Electric and magnetic fields are not separate entities but components of a single electromagnetic field tensor. What one observer calls a pure electric field, another moving observer may see as a mixture of electric and magnetic fields. The invariants classify field configurations: if the electric field dominates in some frame, you can always find a frame where the magnetic field vanishes. Light emerges as the unique null field where E equals cB, making electromagnetism inherently relativistic.
@@ -222,23 +211,3 @@ Special relativity and electromagnetism are two aspects of the same theory. Elec
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

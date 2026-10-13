@@ -538,17 +538,6 @@ TSP_RECURSE(cost, path, visited, curr, curr_cost, best):
 **Problem:** Given a set of coin denominations {1, 3, 4} and a target amount of 6, find the minimum number of coins. Does the greedy approach work?
 **Solution:** Greedy: take largest coin first: 4 + 1 + 1 = 3 coins. Optimal: 3 + 3 = 2 coins. Greedy fails here because the coin denominations are not canonical. Dynamic programming: dp[0]=0, dp[1]=1, dp[2]=2, dp[3]=1, dp[4]=1, dp[5]=2, dp[6]=2. Optimal solution: 2 coins (two 3s).
 
-
-```mermaid
-flowchart TD
-    A[Algorithm Design] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Divide and conquer** splits problems into independent subproblems: merge sort, quicksort, Strassen. The Master theorem solves recurrences of the form $T(n) = aT(n/b) + f(n)$.
@@ -972,17 +961,6 @@ Some problems cannot be approximated within any constant factor unless P = NP.
 
 **Problem:** Prove that 3-SAT is NP-hard by reducing from SAT.
 **Solution:** Given a CNF formula phi, transform each clause into a set of exactly 3 literals. For clauses with 1 literal (l), replace with (l OR x OR NOT x) where x is a new variable. For clauses with 2 literals (l1 OR l2), replace with (l1 OR l2 OR x) AND (l1 OR l2 OR NOT x). This produces an equisatisfiable 3-CNF formula in polynomial time. Therefore, 3-SAT is NP-hard. Since 3-SAT is in NP, it is NP-complete.
-
-
-```mermaid
-flowchart TD
-    A[Complexity Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -1651,17 +1629,6 @@ h(k) = k mod 7. **Solution:** h(10)=3, h(22)=1, h(31)=3, h(4)=4, h(15)=1, h(28)=
 [28]. Slot 1: [22, 15]. Slot 3: [10, 31, 17]. Slot 4: [4]. Slots 2, 5, 6: empty. Load factor = 7/7
 = 1. Average search time with chaining = O(1 + alpha) = O(2).
 
-
-```mermaid
-flowchart TD
-    A[Data Structures] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Arrays** give $O(1)$ random access; **linked lists** give $O(1)$ insert/delete at known
@@ -1747,27 +1714,6 @@ Algorithms are **step-by-step procedures for solving problems**. The key insight
 - **[Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/):** Amortised analysis and complexity classes beyond basic algorithm design.
 - **[Dynamic Programming](/2-algorithms-and-data-structures/5_dynamic-programming/):** Memoisation and tabulation patterns covered in the algorithms flashcards.
 - **Discrete Mathematics:** Mathematical foundations for algorithm analysis and graph theory.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -2297,17 +2243,6 @@ Process A: remove edges to B, C. Queue: [B, C]. Process B: remove edge to D (in-
 Process C: remove edge to D (in-degree D becomes 0). Queue: [D]. Process D: remove edge to E. Queue:
 [E]. Process E. Topological order: A, B, C, D, E (or A, C, B, D, E -- both valid).
 
-
-```mermaid
-flowchart TD
-    A[Graph Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **BFS** finds shortest paths in unweighted graphs; **DFS** explores depth-first and enables
@@ -2481,26 +2416,11 @@ and the Master theorem. Select an option to check your answer and view the expla
 
 ## Divide and Conquer and the Master Theorem
 
-
-
-
 ## Dynamic Programming and Greedy Algorithms
-
-
-
-
-
-
-
 
 ---
 
 ## Additional Algorithm Design Questions
-
-
-
-
-
 
 ## Common Mistakes
 
@@ -2515,27 +2435,6 @@ and the Master theorem. Select an option to check your answer and view the expla
 - [Algorithms](./)
 - [Algorithm Design](/1-algorithms/algorithm-design/)
 - [University CS Practice: Algorithms](/1-algorithms/practice-algorithms/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -2638,18 +2537,9 @@ $$
 
 ## Algorithm Design Paradigms and Complexity
 
-
-
-
 ## Divide and Conquer and Dynamic Programming
 
-
-
-
 ## Greedy Algorithms and Amortized Analysis
-
-
-
 
 ## Common Mistakes
 
@@ -2664,27 +2554,6 @@ $$
 - [Algorithms](./)
 - [University CS Flashcards: Algorithms](/1-algorithms/flashcards-algorithms/)
 - [Graph Algorithms](/1-algorithms/graph-algorithms/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -2710,26 +2579,11 @@ reductions, Cook's theorem, and approximation algorithms. Select an option to ch
 
 ## Asymptotic Notation and Complexity Classes
 
-
-
-
-
-
 ## Approximation Algorithms and Hardness
-
-
-
-
-
 
 ---
 
 ## Additional Complexity Theory Questions
-
-
-
-
-
 
 ## Common Mistakes
 
@@ -2744,27 +2598,6 @@ reductions, Cook's theorem, and approximation algorithms. Select an option to ch
 - [Algorithms](./)
 - [Complexity Theory](/1-algorithms/complexity-theory/)
 - [Algorithm Design -- Practice Problems](/1-algorithms/practice-algorithm-design/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -2925,26 +2758,11 @@ root
 
 ## Hash Tables and Tries
 
-
-
-
-
 ## Trees, Heaps, and Amortized Analysis
-
-
-
-
-
-
 
 ---
 
 ## Additional Data Structures Questions
-
-
-
-
-
 
 ## Common Mistakes
 
@@ -2959,27 +2777,6 @@ root
 - [Algorithms](./)
 - [Data Structures](/1-algorithms/data-structures/)
 - [Algorithm Design -- Practice Problems](/1-algorithms/practice-algorithm-design/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Discrete-Mathematics
 
@@ -3275,17 +3072,6 @@ few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$ So there are 4 ways to m
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[4_Combinatorics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Combinatorics counts and structures discrete objects. Permutations arrange objects in order. Combinations select objects without order. The pigeonhole principle guarantees duplicates when distributing more items than containers. These counting techniques appear in algorithm analysis (how many operations?), probability (what's the likelihood?), and cryptography (how many possible keys?). Generating functions encode counting sequences as algebraic expressions.
@@ -3388,27 +3174,6 @@ Discrete mathematics is the **language of computer science**, it provides the to
 - **[Algorithms](/2-algorithms-and-data-structures/10_flashcards-algorithms-and-data-structures/):** Algorithm design techniques build on discrete math foundations.
 - **[Theory of Computation](/3-theory/flashcards-theory/):** Automata theory and complexity classes use formal languages from discrete math.
 - **[Databases](/4-databases/13_flashcards-databases/):** Relational databases are based on set theory and relations from discrete math.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -3774,16 +3539,6 @@ Flow along them. When capacities are integers, each augmentation increases the f
 Guaranteeing termination.
 :::
 
-```mermaid
-flowchart TD
-    A[5_Graph Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Graph theory studies networks of vertices connected by edges. Paths, cycles, and connectivity describe graph structure. Trees are connected acyclic graphs, fundamental for hierarchies and search. Planar graphs can be drawn without edge crossings. Graph coloring assigns labels satisfying constraints, modeling scheduling and resource allocation. Euler and Hamiltonian paths visit edges or vertices exactly once, connecting to classic optimization problems.
@@ -3962,18 +3717,9 @@ the explanation.
 
 ### Propositional Logic and Set Theory
 
-
-
-
-
 ### Relations, Combinatorics, and Proof Techniques
 
-
-
-
-
 ### Graph Theory
-
 
 ## Common Mistakes
 
@@ -3988,27 +3734,6 @@ the explanation.
 - **[Discrete Mathematics Flashcards](/1-discrete-mathematics/8_flashcards-discrete-mathematics/):** Interactive flashcards covering the same discrete math concepts.
 - **Algorithms:** Algorithm design techniques that apply graph theory from discrete math.
 - **Mathematics:** University-level mathematics including graph theory and combinatorics.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -4369,17 +4094,6 @@ $\blacksquare$
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[7_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Logic: propositions, truth tables, quantifiers; implication, contrapositive, converse.
@@ -4585,17 +4299,6 @@ Gives $m$ as a sum of distinct powers of 2, contradicting $m \in S$. Therefore $
 $\blacksquare$
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[3_Proof Techniques] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -4965,16 +4668,6 @@ it is true under _some_ Assignment; it is _valid_ (a tautology) if true under _a
 Checking validity is Co-NP-complete, not NP-complete.
 :::
 
-```mermaid
-flowchart TD
-    A[1_Propositional And Predicate Logic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Logic is the foundation of mathematical reasoning and computer science. Propositional logic deals with truth values and connectives (AND, OR, NOT, IMPLIES). Predicate logic adds quantifiers (FOR ALL, EXISTS) to reason about properties of objects. Boolean algebra provides the mathematical framework for digital circuits. Understanding logic helps you write precise specifications and verify program correctness.
@@ -5221,16 +4914,6 @@ $$
   Akra--Bazzi method should be used Instead.
 :::
 
-```mermaid
-flowchart TD
-    A[6_Recurrence Relations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Recurrence relations define sequences where each term depends on previous terms. They logically arise in divide-and-conquer algorithms (binary search: T(n) = T(n/2) + O(1)). Solving recurrences via substitution, recursion trees, or the Master theorem determines algorithm time complexity. Linear recurrences with constant coefficients have closed-form solutions using characteristic equations, connecting discrete math to continuous analysis.
@@ -5443,17 +5126,6 @@ Then $s \in [0, 1)$ and $s$ differs from $r_i$ in the $i$-th decimal place for e
 $s \notin \\{r_1, r_2, \ldots\\}$ Contradicting the assumption that the list was complete. Therefore
 $\mathbb{R}$ is uncountable. $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[2_Sets Relations And Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Sets are unordered collections of distinct elements. Relations connect elements from different sets, with properties like reflexivity, symmetry, and transitivity. Functions are special relations where each input maps to exactly one output. These concepts underpin database theory (relations), type systems (functions), and abstract algebra (groups, rings). Understanding set operations (union, intersection, complement) is essential for query languages and logic.
@@ -5494,16 +5166,6 @@ URL: https://computer-science.wyattau.com/2-algorithms-and-data-structures/6_adv
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "6_advanced Topics", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/6_advanced-topics"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[6_Advanced Topics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -5904,17 +5566,6 @@ URL: https://computer-science.wyattau.com/2-algorithms-and-data-structures/1_alg
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[1_Algorithm Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Algorithm analysis measures how an algorithm's resource requirements grow with input size, independent of hardware. Big-O notation provides an upper bound on growth rate, like saying a car's top speed is at most 120 mph regardless of road conditions. The limit rule gives a practical shortcut: compare growth rates by taking the ratio as the input grows. Asymptotic notation is transitive because bounding one function by another creates a chain of bounds. The key insight is that constants and lower-order terms become irrelevant for large inputs.
@@ -6234,17 +5885,6 @@ URL: https://computer-science.wyattau.com/2-algorithms-and-data-structures/1_alg
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[1_Algorithm_Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Algorithm analysis determines efficiency without implementation. Asymptotic notation (O, Omega, Theta) describes growth rates. Amortized analysis averages cost over operations. Space-time trade-offs balance memory against speed. The Master theorem solves divide-and-conquer recurrences. These techniques let you compare algorithms objectively and predict performance at scale.
@@ -6309,27 +5949,6 @@ O(n!). Amortised analysis captures average-case behaviour over a sequence of
 operations. Space-time trade-offs allow choosing between memory and speed.
 Understanding these concepts is essential for selecting the right algorithm
 and data structure for a given problem.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -10232,17 +9851,6 @@ exists. The number of piles equals the LIS length.
 </details>
 :::
 
-
-```mermaid
-flowchart TD
-    A[5_Dynamic Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Dynamic programming is solving complex problems by breaking them into overlapping subproblems. Think of it as a filing cabinet: instead of recalculating the same answer repeatedly, you store it and look it up later. The key insight is optimal substructure: the optimal solution to a problem contains optimal solutions to its subproblems. Memoisation (top-down) caches results of recursive calls, while tabulation (bottom-up) fills a table iteratively. DP is powerful but requires recognising the right subproblem decomposition.
@@ -10337,27 +9945,6 @@ Data structures are **organised ways to store and access data**. The choice of d
 - **[Dynamic Programming](/2-algorithms-and-data-structures/5_dynamic-programming/):** Memoisation and tabulation patterns tested in the flashcards.
 - **[Discrete Mathematics](/1-discrete-mathematics/8_flashcards-discrete-mathematics/):** Graph theory and combinatorics underpin algorithm design.
 - **[Theory of Computation](/3-theory/flashcards-theory/):** Complexity classes classify algorithm efficiency.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -10896,16 +10483,6 @@ for sparse graphs ($E \ll V^2$). For example, BFS with an adjacency matrix takes
 adjacency lists takes $O(V + E)$.
 :::
 
-```mermaid
-flowchart TD
-    A[2_Fundamental Data Structures] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Fundamental data structures include arrays, linked lists, stacks, queues, hash tables, and trees. Each excels at different operations: stacks for LIFO access, queues for FIFO processing, hash tables for O(1) lookup, trees for sorted data. Understanding these building blocks lets you compose complex data structures and select the right one for your access patterns.
@@ -10947,17 +10524,6 @@ URL: https://computer-science.wyattau.com/2-algorithms-and-data-structures/4_gra
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "4_graph Algorithms", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/4_graph-algorithms"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[4_Graph Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -11612,19 +11178,9 @@ the explanation.
 
 ### Complexity Analysis and Sorting
 
-
-
-
-
 ### Data Structures
 
-
-
-
-
 ### Dynamic Programming and Graph Algorithms
-
-
 
 ## Cross-References
 
@@ -11639,27 +11195,6 @@ the explanation.
 **Forgetting that hash table worst-case is O(n):** Average case is O(1) with good hashing. But if all keys collide, performance degrades to O(n). Always consider worst-case.
 
 **Mixing up BFS with DFS traversal order:** BFS explores level by level (queue). DFS explores depth-first (stack/recursion). They visit nodes in different orders.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -11680,55 +11215,19 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## Sorting and Searching
 
-
-
-
-
 ## Trees and Hash Tables
 
-
-
-
-
 ## Complexity Analysis and Advanced Topics
-
-
 
 ---
 
 ## Additional Algorithms and Data Structures Questions
-
-
-
-
-
 
 ## See Also
 
 - [Algorithms and Data Structures](./)
 - [Algorithms and Data Structures Practice (Interactive)](/2-algorithms-and-data-structures/11_practice-algorithms-and-data-structures/)
 - [University Computing Flashcards: Algorithms and Data Structures](/2-algorithms-and-data-structures/10_flashcards-algorithms-and-data-structures/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -11857,17 +11356,6 @@ collision, slot 5. $h(15)=1$: collision, slot 2. $h(28)=0$: slot 0. $h(17)=3$: c
 5, 6.
 
 $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[7_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -12187,17 +11675,6 @@ and cannot sort arbitrary objects.
 | Counting Sort | $O(n + k)$    | $O(n + k)$    | $O(n + k)$    | $O(n + k)$  | Yes    |
 | Radix Sort    | $O(d(n+b))$   | $O(d(n+b))$   | $O(d(n+b))$   | $O(n + b)$  | Yes    |
 :::
-
-
-```mermaid
-flowchart TD
-    A[3_Sorting Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -12772,17 +12249,6 @@ partial). No partial dependencies (since AB is the key). Transitive dependencies
 violate 3NF (D and E do not depend on the key directly, only through C). Decompose into R1(A, B, C),
 R2(C, D), R3(D, E). All are in 3NF. Lossless join is guaranteed because R1 intersection R2 = {C} is
 a candidate key for R2.
-
-
-```mermaid
-flowchart TD
-    A[Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -13378,17 +12844,6 @@ V_old with ballot 7. Since the proposer has a majority quorum ({1,2,3} or {2,3,4
 least two acceptors returned V_old, the proposer issues Accept messages with ballot 10 and value
 V_old. Once a majority accepts, V_old is chosen.
 
-
-```mermaid
-flowchart TD
-    A[Distributed Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **CAP theorem:** Distributed systems trade consistency for availability during partitions (PACELC
@@ -13488,27 +12943,6 @@ Computer systems are about **how hardware and software cooperate** to execute pr
 - **Operating Systems:** Process management, memory, and synchronisation covered in systems; OS implements the abstractions.
 - **Databases:** Transaction management and concurrency control in systems context; databases depend on OS for I/O and memory.
 - **[Theory of Computation](/3-theory/flashcards-theory/):** Computability limits affect what systems can and cannot do automatically.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -14192,17 +13626,6 @@ ACK (ack=y+1). The SYN flag requests connection establishment and carries the in
 number. The SYN-ACK acknowledges the client's SYN and provides the server’s initial sequence number.
 The final ACK acknowledges the server's SYN. After this exchange, both sides have established their
 sequence numbers and the connection is established for full-duplex data transfer.
-
-
-```mermaid
-flowchart TD
-    A[Networking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -14926,16 +14349,6 @@ be satisfied: Available + P2 alloc = (3,3,2)+(2,0,0) = (5,3,2). Then P4: (5,3,2)
 Then P1: (7,4,3)+(0,1,0)=(7,5,3). Then P3: (7,5,3)+(3,0,2)=(10,5,5). Then P5. Safe sequence: P2, P4,
 P1, P3, P5.
 
-```mermaid
-flowchart TD
-    A[Operating Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Processes** are heavyweight units with separate address spaces; **threads** are lightweight and
@@ -14990,16 +14403,7 @@ strategies, and query optimization. Select an option to check your answer and vi
 
 ## SQL and Normalization
 
-
-
-
-
-
 ## Indexing, Transactions, and Query Optimization
-
-
-
-
 
 ## Common Mistakes
 
@@ -15013,27 +14417,6 @@ strategies, and query optimization. Select an option to check your answer and vi
 
 - **Databases:** Relational model, normalisation, and query optimisation.
 - **[Databases Practice](/4-databases/14_practice-databases/):** Auto-graded problems testing database concepts.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -15065,26 +14448,11 @@ strategies, fault tolerance, and logical clocks. Select an option to check your 
 
 ## CAP Theorem and Consistency Models
 
-
-
-
-
 ## Consensus, Replication, and Fault Tolerance
-
-
-
-
-
-
 
 ---
 
 ## Additional Distributed Systems Questions
-
-
-
-
-
 
 ## Common Mistakes
 
@@ -15099,27 +14467,6 @@ strategies, fault tolerance, and logical clocks. Select an option to check your 
 - [Systems](./)
 - [Distributed Systems](/2-systems/distributed-systems/)
 - [Operating Systems -- Practice Problems](/2-systems/practice-operating-systems/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -15145,25 +14492,11 @@ DNS, HTTP, and error detection. Select an option to check your answer and view t
 
 ## Network Models and Physical/Data Link Layers
 
-
-
-
-
-
 ## Network Layer, Transport Layer, and Application Layer
-
-
-
-
-
 
 ---
 
 ## Additional Networking Questions
-
-
-
-
 
 ## Common Mistakes
 
@@ -15177,27 +14510,6 @@ DNS, HTTP, and error detection. Select an option to check your answer and view t
 
 - **Computer Networks:** OSI/TCP-IP models and network layer protocols.
 - **[Computer Networks Practice](/3-computer-networks/11_practice-computer-networks/):** Auto-graded problems testing networking concepts.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -15229,16 +14541,7 @@ virtual memory. Select an option to check your answer and view the explanation.
 
 ## Process Scheduling and Synchronization
 
-
-
-
-
-
 ## Memory Management and Virtual Memory
-
-
-
-
 
 ## Common Mistakes
 
@@ -15252,27 +14555,6 @@ virtual memory. Select an option to check your answer and view the explanation.
 
 - **Operating Systems:** Process management, synchronisation, and deadlocks.
 - **[Operating Systems Flashcards](/5-operating-systems/12_flashcards-operating-systems/):** Interactive flashcards covering OS concepts.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -15298,17 +14580,9 @@ kernel, and virtual memory. Select an option to check your answer and view the e
 
 ## Database Theory and Distributed Systems
 
-
-
-
-
 ## Networking and Operating Systems
 
-
-
-
 ## Virtual Memory and File Systems
-
 
 ## Common Mistakes
 
@@ -15322,27 +14596,6 @@ kernel, and virtual memory. Select an option to check your answer and view the e
 
 - **Operating Systems:** File systems and I/O management.
 - **Databases:** Storage engines that build on file system abstractions.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -15601,17 +14854,6 @@ per second. $\blacksquare$
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
 formalised in RFC 7766.
 :::
-
-
-```mermaid
-flowchart TD
-    A[6_Application Layer] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -17046,17 +16288,6 @@ URL: https://computer-science.wyattau.com/3-computer-networks/3_data-link-layer/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[3_Data Link Layer] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The data link layer transforms unreliable physical transmission into reliable frame delivery between adjacent nodes. Framing marks where each message begins and ends in the continuous bit stream. Error detection uses redundant bits to catch corruption, while error correction like Hamming codes can fix single-bit errors automatically. MAC addresses provide local addressing, and protocols like CSMA/CD manage shared access to the physical medium. The layer bridges the gap between raw signals and structured data.
@@ -17493,27 +16724,6 @@ Computer networks are about **how data travels between machines**. The internet 
 - **Systems:** Computer architecture and systems that networking builds upon.
 - **[Network Security](/3-computer-networks/7_network-security/):** TLS, encryption, and authentication protocols.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Index
@@ -17654,17 +16864,6 @@ URL: https://computer-science.wyattau.com/3-computer-networks/4_network-layer/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "4_network Layer", "url": "https://computer-science.wyattau.com/3-computer-networks/4_network-layer"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[4_Network Layer] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -18161,17 +17360,6 @@ Consider an HTTP request traversing three networks: the client LAN (Ethernet), a
 
 At each hop, only the relevant layer headers are processed. The HTTP payload is untouched from client to server.
 
-
-```mermaid
-flowchart TD
-    A[1_Network Models] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Network models are the organisational charts of data communication. The OSI model separates concerns into seven layers, each with a specific job. Think of it as a relay race: each layer passes the baton (data) to the next, adding its own header (instructions). The TCP/IP model is the practical version used on the internet. Encapsulation is the key concept: each layer wraps the data from the layer above, like nesting dolls. Understanding layers helps you debug: a cable problem is Layer 1, an IP issue is Layer 3, and a web bug is Layer 7.
@@ -18181,27 +17369,6 @@ Network models are the organisational charts of data communication. The OSI mode
 - [Physical Layer](/3-computer-networks/2_physical-layer/)
 - [Network Layer](/3-computer-networks/4_network-layer/)
 - [Transport Layer](/3-computer-networks/5_transport-layer/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -18423,17 +17590,6 @@ The server's connection table. Defences: SYN cookies (encode state in the initia
 Rate limiting, connection throttling.
 :::
 
-
-```mermaid
-flowchart TD
-    A[7_Network Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Network security is a layered defense strategy: encryption hides the message, authentication proves who sent it, and integrity checks verify nothing was tampered with in transit. TLS is the locked envelope that ensures your credit card number arrives intact and unreadable to anyone who intercepts it. The key insight is that security is not a single feature but a chain of mechanisms, and the chain is only as strong as its weakest link, like a fence with a gate that anyone can walk through.
@@ -18468,17 +17624,6 @@ URL: https://computer-science.wyattau.com/3-computer-networks/2_physical-layer/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "2_physical Layer", "url": "https://computer-science.wyattau.com/3-computer-networks/2_physical-layer"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[2_Physical Layer] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -18717,18 +17862,9 @@ the explanation.
 
 ### OSI/TCP-IP Layers and Encapsulation
 
-
-
-
 ### Subnetting and IP Addressing
 
-
-
-
 ### Transport, Routing, and Security
-
-
-
 
 ## Common Mistakes
 
@@ -18743,27 +17879,6 @@ the explanation.
 - **[Computer Networks Flashcards](/3-computer-networks/10_flashcards-computer-networks/):** Interactive flashcards covering networking concepts.
 - **[Data Link Layer](/3-computer-networks/3_data-link-layer/):** Physical and data link layer protocols.
 - **[Network Security](/3-computer-networks/7_network-security/):** Encryption and authentication protocols.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -18937,17 +18052,6 @@ sends ACK (ack = y + 1). Connection established.
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[8_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - OSI and TCP/IP models; each layer has specific functions and protocols.
@@ -18987,17 +18091,6 @@ URL: https://computer-science.wyattau.com/3-computer-networks/5_transport-layer/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "5_transport Layer", "url": "https://computer-science.wyattau.com/3-computer-networks/5_transport-layer"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[5_Transport Layer] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -19812,16 +18905,6 @@ A property is **non-trivial** if it holds for some TMs and not for others.
 **Problem:** Write a CFG that generates the language L = {a^n b^n c^n : n >= 1}.
 **Solution:** S -> aBC. B -> aBB (this ensures more a's push B’s onto the middle). C -> cD. D -> cDD (this ensures more c's match). B -> b (terminal). D -> d (terminal). Wait -- this generates a^n b^n c^m which is wrong. The language a^n b^n c^n is not context-free (proven by the pumping lemma for CFLs). No CFG exists for this language. This is a common exam trick question.
 
-```mermaid
-flowchart TD
-    A[Automata And Formal Languages] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **DFA** and **NFA** recognize the same **regular languages**, convertible via subset construction.
@@ -20568,16 +19651,6 @@ c - d; t3 = t1_ t2; x = t3. The three-address code uses temporary variables t1, 
 instruction has at most one operator on the right side. A basic block contains these four
 instructions in sequence.
 
-```mermaid
-flowchart TD
-    A[Compilers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Lexical analysis** converts source to tokens using regex and finite automata.
@@ -21162,16 +20235,6 @@ ML-KEM_DECAP(sk, c):
 **Problem:** Alice and Bob agree on prime p=23 and generator g=5. Alice chooses private a=6, Bob chooses private b=15. Calculate their shared secret.
 **Solution:** Alice sends A = g^a mod p = 5^6 mod 23 = 15625 mod 23 = 8. Bob sends B = g^b mod p = 5^15 mod 23. 5^2=2, 5^4=4, 5^8=16, 5^15=16*4*2*5 mod 23 = 640 mod 23 = 19. Shared secret (Alice): B^a mod p = 19^6 mod 23 = 47045881 mod 23 = 2. Shared secret (Bob): A^b mod p = 8^15 mod 23 = 2. Both compute the same shared secret: 2.
 
-```mermaid
-flowchart TD
-    A[Cryptography] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Symmetric encryption** (AES) is efficient for bulk data; block cipher modes (CBC, CTR, GCM) add security properties.
@@ -21273,27 +20336,6 @@ The theory of computation asks: **what can and cannot be computed, and how effic
 - **[Discrete Mathematics](/1-discrete-mathematics/8_flashcards-discrete-mathematics/):** Logic, sets, and graph theory provide the mathematical foundations for theory of computation.
 - **[Algorithms](/2-algorithms-and-data-structures/10_flashcards-algorithms-and-data-structures/):** Algorithm analysis connects to complexity classes; P and NP classify algorithm efficiency.
 - **[Operating Systems](/5-operating-systems/12_flashcards-operating-systems/):** Computability limits affect what operating systems can and cannot do automatically.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -22069,17 +21111,6 @@ using k=3. **Solution:** Distances: to (1,1)=sqrt(2)=1.41 (A), to (1,3)=sqrt(2)=
 on tie-breaking; any combination of 3 points yields either 2A+1B or 2B+1A. The point (2,2) lies
 equidistant from all training data, so the classification is ambiguous.
 
-
-```mermaid
-flowchart TD
-    A[Machine Learning Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Linear regression** (OLS, gradient descent) predicts continuous targets; **logistic regression**
@@ -22135,53 +21166,17 @@ grammars, pushdown automata, and Turing machines. Select an option to check your
 
 ## Finite Automata and Regular Languages
 
-
-
-
-
 ## Context-Free Languages and Turing Machines
-
-
-
-
-
-
 
 ---
 
 ## Additional Automata and Formal Languages Questions
-
-
-
-
-
 
 ## See Also
 
 - [Theory](./)
 - [Compilers -- Practice Problems](/3-theory/practice-compilers/)
 - [Cryptography -- Practice Problems](/3-theory/practice-cryptography/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -22207,25 +21202,11 @@ representations, optimization, and code generation. Select an option to check yo
 
 ## Lexical Analysis and Parsing
 
-
-
-
-
-
 ## Intermediate Representations, Optimization, and Code Generation
-
-
-
-
-
 
 ---
 
 ## Additional Compiler Questions
-
-
-
-
 
 ## Common Mistakes
 
@@ -22239,27 +21220,6 @@ representations, optimization, and code generation. Select an option to check yo
 
 - **Theory of Computation:** Automata and formal languages underlying compiler design.
 - **Algorithms:** Graph colouring algorithms used in register allocation.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -22291,26 +21251,11 @@ signatures, key exchange, and post-quantum cryptography. Select an option to che
 
 ## Symmetric Encryption and Block Cipher Modes
 
-
-
-
-
 ## Asymmetric Encryption, Hash Functions, and Key Exchange
-
-
-
-
-
-
 
 ---
 
 ## Additional Cryptography Questions
-
-
-
-
-
 
 ## Common Mistakes
 
@@ -22325,27 +21270,6 @@ signatures, key exchange, and post-quantum cryptography. Select an option to che
 - [Theory](./)
 - [Cryptography](/3-theory/cryptography/)
 - [Automata and Formal Languages -- Practice Problems](/3-theory/practice-automata/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -22372,43 +21296,12 @@ your answer.
 
 ## Supervised Learning and Model Fundamentals
 
-
-
-
-
-
 ## Regularization, Evaluation, and Bias-Variance
-
-
-
-
-
 
 ## Cross-References
 
 - **Algorithms:** Optimisation algorithms used in machine learning.
 - **Discrete Mathematics:** Mathematical foundations for statistical learning theory.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -22532,46 +21425,16 @@ Step 5 (Optimisation): Constant fold if `b` or `2` are known, or strength reduct
 
 ## Automata Theory and Formal Languages
 
-
-
-
 ## Compiler Design
-
-
 
 ## Cryptography
 
-
-
 ## Machine Learning Fundamentals
-
-
 
 ## Cross-References
 
 - **[Machine Learning Practice](/3-theory/practice-machine-learning/):** Auto-graded problems testing ML concepts.
 - **Algorithms:** Optimisation algorithms used in machine learning.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -24169,17 +23032,6 @@ reader returns the most recent version among the 3 responses.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[9_Distributed Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A distributed database is like a library with multiple branches, each branch has some books, and they need to coordinate to serve readers. Replication is making copies of books at every branch so that if one burns down, the books survive. Sharding is splitting the encyclopedia so each branch holds a different letter, no single branch has everything, but together they cover the whole alphabet. The hard part is keeping copies in sync when branches are far apart and connections are slow. Consistency models are the rules about how quickly changes at one branch show up at others, from "instantly everywhere" to "eventually, probably."
@@ -24273,27 +23125,6 @@ Databases are about **organising, storing, and retrieving data efficiently and r
 - **[Theory of Computation](/3-theory/flashcards-theory/):** Formal languages underlying query languages; relational algebra is formal.
 - **[Operating Systems](/5-operating-systems/12_flashcards-operating-systems/):** OS provides file systems and concurrency primitives used by databases.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Further Reading
@@ -24378,17 +23209,6 @@ Read Committed, can T2 see an inconsistent state?
 **Solution.** Yes: T2 could read A after T1 debits it but before T1 credits B. The total appears
 reduced by $100. This is a non-repeatable read. At Repeatable Read, T2 would see consistent
 snapshot but may still see phantoms (rows appearing/disappearing in range queries). $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[11_Further Reading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -25244,27 +24064,6 @@ A database is a organised collection of data designed for efficient retrieval. T
 - [SQL](/4-databases/3_sql/)
 - [Normalisation](/4-databases/4_normalisation/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Normalisation
@@ -25538,17 +24337,6 @@ Both are in 4NF (the determining attribute `Course` is a candidate key in each).
 </details>
 :::
 
-
-```mermaid
-flowchart TD
-    A[4_Normalisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Normalization is the process of breaking a large, messy table into smaller, well-organized tables to eliminate redundancy and prevent update anomalies. Think of it as decluttering a closet: instead of stuffing everything into one drawer, you separate shirts, pants, and socks into their own compartments. Each normal form is a rule that says "if your data looks like this, split it further," the way a good filing system has categories within categories. The trade-off is that more tables mean more JOINs at query time, like having to visit multiple shelves to assemble an outfit.
@@ -25699,16 +24487,6 @@ choice for strongly Structured data with complex queries and transactional requi
 | Join support | None | None | Native | None |
 | Best for | Content mgmt | Caching | Relations | Time-series |
 
-```mermaid
-flowchart TD
-    A[8_Nosql Overview] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 NoSQL databases are like different types of filing cabinets. Document stores are folders with loose papers, each document can have a different structure. Key-value stores are like coat check tickets, you give a key and get back whatever you stored. Column-family stores are like spreadsheets where each row can have different columns. Graph databases are like mind maps, where relationships are first-class citizens. The CAP theorem is the law of physics for distributed systems, you can only pick two out of three: Consistency (everyone sees the same data), Availability (everyone can always read and write), and Partition tolerance (the system survives network failures). Since network partitions are unavoidable, you must choose between consistency and availability during a partition.
@@ -25729,26 +24507,6 @@ NoSQL databases are like different types of filing cabinets. Document stores are
 4. **Ignoring schema design in document stores.** Embedding vs. referencing is a critical design decision. Embedding all related data in a single document leads to unbounded document growth and update anomalies. Referencing requires additional queries but keeps documents bounded and updates localised.
 
 5. **Overlooking tunable consistency.** Many NoSQL systems (e.g., Cassandra, DynamoDB) offer tunable consistency levels per operation. Using strong consistency everywhere negates the availability benefits, while using eventual consistency everywhere risks stale reads. Choose the consistency level appropriate for each operation.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -25774,18 +24532,9 @@ the explanation.
 
 ### Relational Algebra and SQL
 
-
-
-
-
 ### Normalization and Transaction Isolation
 
-
-
-
 ### Indexing and Query Optimization
-
-
 
 ## Common Mistakes
 
@@ -25800,27 +24549,6 @@ the explanation.
 - **[Databases Flashcards](/4-databases/13_flashcards-databases/):** Interactive flashcards covering database concepts.
 - **[Indexing](/4-databases/5_indexing/):** B-tree and hash index structures.
 - **[Normalisation](/4-databases/4_normalisation/):** Schema design and functional dependencies.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -25982,17 +24710,6 @@ writes.
 of replicas respond. Mitigation: use ALL for critical reads. MongoDB uses primary replica reads by
 default; stale reads occur during failover if reads are allowed on secondaries. Mitigation: use
 `"readPreference": "primary"` for consistency-critical queries.
-
-
-```mermaid
-flowchart TD
-    A[10_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -26167,17 +24884,6 @@ selectivity $\approx 1/20 = 0.05$. Assuming independence: combined selectivity $
 | Index-only scan        | Covered query                       | Avoids table access               |
 | Materialised view      | Expensive aggregations              | Precomputes results               |
 
-
-```mermaid
-flowchart TD
-    A[7_Query Optimisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Query optimisation is the difference between a librarian who checks every shelf and one who uses the card catalogue. The query planner examines your SQL and figures out the fastest way to execute it, which index to use, which table to scan first, how to join efficiently. Execution plans are the map of this journey, showing each step and its estimated cost. Without optimisation, a simple join could scan billions of rows; with it, the database finds the answer in milliseconds. The optimizer uses statistics about your data to make educated guesses, which is why stale statistics can lead to terrible performance.
@@ -26189,27 +24895,6 @@ Query optimisation is the difference between a librarian who checks every shelf 
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -26488,17 +25173,6 @@ Attributes needed for the join, performing the join on projected versions of $R$
 Same join result, from which $L_1$ is then projected. $\blacksquare$
 
 These rules form the foundation of heuristic query optimisation (see Section 7).
-
-
-```mermaid
-flowchart TD
-    A[2_Relational Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -26894,16 +25568,6 @@ Use nested-loop index joins to find matching enrolments and students, avoiding f
 </details>
 :::
 
-```mermaid
-flowchart TD
-    A[3_Sql] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 SQL is the language of asking questions of data. A SELECT statement is a question: "Give me all employees in the sales department who earned more than $50,000 last year." JOINs are the way you combine information from multiple tables, like cross-referencing a phone book with an address book. The ORDER BY clause sorts your results, GROUP BY organizes them into categories, and HAVING filters those categories, the way a librarian might sort books by genre, count how many are in each genre, and then show you only genres with more than 100 books.
@@ -27175,17 +25839,6 @@ The **buffer pool** caches frequently accessed disk pages in memory. Replacement
 LRU, Clock, and variants. PostgreSQL uses a Clock sweep algorithm; MySQL InnoDB uses an LRU variant
 with a Midpoint insertion strategy to avoid scan pollution.
 
-
-```mermaid
-flowchart TD
-    A[6_Transaction Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Transaction management guarantees that database operations follow the ACID properties: Atomicity (all or nothing), Consistency (rules are never violated), Isolation (concurrent transactions do not interfere), and Durability (committed data survives crashes). Think of a transaction as a contract: either all terms are fulfilled or none are, and no partial agreement is acceptable. The two-phase commit protocol is like a wedding ceremony: everyone prepares, then either everyone says "I do" simultaneously or the ceremony is called off.
@@ -27224,17 +25877,6 @@ URL: https://computer-science.wyattau.com/5-operating-systems/4_deadlocks/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "4_deadlocks", "url": "https://computer-science.wyattau.com/5-operating-systems/4_deadlocks"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[4_Deadlocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -27687,17 +26329,6 @@ Modifying the kernel. The FUSE kernel module routes VFS operations to a user-spa
 **Journaling vs. `fsck`.** Journaling eliminates the need for full `fsck` after a crash. Only the
 Journal needs to be replayed, which takes seconds instead of hours for large file systems.
 
-
-```mermaid
-flowchart TD
-    A[6_File Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A file system is the librarian of storage, it keeps track of which bytes belong to which file and where they live on disk. Inodes are the index cards that describe each file, they hold metadata but not the actual data, which lives in data blocks pointed to by the inode. Directories are special files that map names to inode numbers, like a phone book mapping names to phone numbers. Journaling is the file system's diary, it writes down what it plans to do before doing it, so if the power fails mid-operation, it can finish or roll back safely. Fragmentation is like a jigsaw puzzle with pieces scattered across the table, the file exists but its parts are spread out, making reading slower.
@@ -27790,27 +26421,6 @@ An operating system is **the layer between hardware and applications**, it manag
 - **Systems:** Computer architecture and hardware systems; OS implements the abstractions.
 - **Databases:** Transaction management and concurrency control; databases depend on OS primitives.
 - **[Algorithms](/2-algorithms-and-data-structures/10_flashcards-algorithms-and-data-structures/):** Scheduling and page replacement algorithms use algorithm design techniques.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -27944,17 +26554,6 @@ Transfer, interrupting the CPU only when complete.
 - Mixing up **virtual** and **physical** addresses when programming DMA controllers. The DMA
   controller operates on physical addresses.
 
-
-```mermaid
-flowchart TD
-    A[7_I O Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 I/O systems are the nervous system connecting the CPU to the outside world. Polling is like checking the mailbox every minute, simple but wasteful. Interrupts are like a doorbell, the device signals when it needs attention, and the CPU drops what it is doing to respond. DMA is like hiring a delivery service, the device transfers data directly to memory without bothering the CPU for every byte. Buffering is the waiting room, data is collected in a holding area before being processed in bulk, smoothing out the mismatch between fast producers and slow consumers.
@@ -27967,27 +26566,6 @@ I/O systems are the nervous system connecting the CPU to the outside world. Poll
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -28283,27 +26861,6 @@ An operating system is the government of a computer: it manages resources (CPU t
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Memory Management
@@ -28317,16 +26874,6 @@ URL: https://computer-science.wyattau.com/5-operating-systems/5_memory-managemen
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "5_memory Management", "url": "https://computer-science.wyattau.com/5-operating-systems/5_memory-management"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[5_Memory Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -30172,19 +28719,9 @@ the explanation.
 
 ### Process and CPU Scheduling
 
-
-
-
-
 ### Memory Management
 
-
-
-
 ### Synchronization and File Systems
-
-
-
 
 ## Common Mistakes
 
@@ -30199,27 +28736,6 @@ the explanation.
 - [Operating Systems](./)
 - [Introduction to Operating Systems](/5-operating-systems/1_introduction-to-operating-systems/)
 - [Operating Systems (Advanced)](/5-operating-systems/11_operating-systems-advanced/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -30789,17 +29305,6 @@ forms a cycle (circular wait), so there is a deadlock.
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[10_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Process management: scheduling algorithms (FCFS, SJF, Round Robin), deadlock (conditions,
@@ -30837,17 +29342,6 @@ URL: https://computer-science.wyattau.com/5-operating-systems/2_process-manageme
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "2_process Management", "url": "https://computer-science.wyattau.com/5-operating-systems/2_process-management"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[2_Process Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -31333,16 +29827,6 @@ the damage from any single vulnerability.
 | Privilege separation | Limits damage from compromised components | Full system compromise | Complexity; IPC design errors |
 | Least privilege | Reduces attack surface | Unauthorised access | Requires careful capability analysis |
 
-```mermaid
-flowchart TD
-    A[9_Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Operating system security is the bouncer, the lock, and the surveillance camera all in one. Authentication is checking your ID at the door, are you who you claim to be? Authorisation is checking your ticket, are you allowed in this room? The protection ring model is like concentric castle walls, the kernel lives in the innermost ring with maximum privilege, and user programs live in outer rings with limited access. Buffer overflow attacks are like pouring more water into a glass than it can hold, the excess spills into adjacent memory, and a clever attacker can make it spill in a way that executes their code. Defence means building taller glasses and checking the pour.
@@ -31600,17 +30084,6 @@ condition variables. Spurious Wakeups can cause `pthread_cond_wait()` to return 
 condition being signalled. The loop Re-checks the condition after every wakeup.
 :::
 
-
-```mermaid
-flowchart TD
-    A[3_Synchronisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Synchronisation is the art of preventing chaos when multiple threads share resources. A mutex is a key to a bathroom, only one person can hold it at a time. A semaphore is a count of available parking spaces, multiple cars can park, but once the lot is full, new arrivals must wait. A condition variable is like a waiting room buzzer, you wait until someone signals that the resource is ready. The dining philosophers problem illustrates the deadlock danger: if each philosopher picks up their left fork first and waits for the right, everyone starves. Solutions involve breaking the symmetry, making one philosopher pick up forks in a different order.
@@ -31639,16 +30112,6 @@ URL: https://computer-science.wyattau.com/5-operating-systems/8_virtualization/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "8_virtualization", "url": "https://computer-science.wyattau.com/5-operating-systems/8_virtualization"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[8_Virtualization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## See Also
 
@@ -31781,26 +30244,6 @@ $512 + 20 \times 261 \approx 5.73$ GB RAM. Containers use 63% less RAM in this s
 higher density on the same hardware. However, if instances run untrusted workloads, VMs provide
 stronger isolation. $\blacksquare$
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## Theory-Of-Computation
 
 ---
@@ -31816,16 +30259,6 @@ URL: https://computer-science.wyattau.com/6-theory-of-computation/6_complexity-t
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "6 Theory Of Computation", "url": "https://computer-science.wyattau.com/6-theory-of-computation"}, {"name": "6_complexity Theory", "url": "https://computer-science.wyattau.com/6-theory-of-computation/6_complexity-theory"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[6_Complexity Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -32343,17 +30776,6 @@ URL: https://computer-science.wyattau.com/6-theory-of-computation/3_context-free
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[3_Context Free Languages] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Context-free languages extend regular languages by adding **memory through a stack**. This enables matching nested structures: balanced parentheses, matching begin/end blocks in programming languages, and arithmetic expressions. A pushdown automaton is essentially a finite automaton with a stack, it can count, but only one thing at a time.
@@ -32767,16 +31189,6 @@ URL: https://computer-science.wyattau.com/6-theory-of-computation/5_decidability
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[5_Decidability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Decidability asks: **can an algorithm give a definitive yes/no answer for every input?** Some problems are fundamentally undecidable, no amount of cleverness or computing power can solve them for all cases. The halting problem is the canonical example: you cannot write a program that determines whether an arbitrary program will halt or loop forever.
@@ -33102,27 +31514,6 @@ The theory of computation explores **the fundamental limits of what can be compu
 - **Algorithms:** Algorithm design and complexity analysis.
 - **Discrete Mathematics:** Mathematical foundations for formal languages.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Index
@@ -33404,27 +31795,6 @@ Theory of computation asks: what can computers do, and how efficiently? The hier
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Practice Theory Of Computation
@@ -33441,19 +31811,9 @@ the explanation.
 
 ### Automata and Regular Languages
 
-
-
-
-
 ### Context-Free Grammars and Turing Machines
 
-
-
-
-
 ### Complexity Classes
-
-
 
 ## Common Mistakes
 
@@ -33468,27 +31828,6 @@ the explanation.
 - [Theory of Computation](./)
 - [University Computing Flashcards: Theory of Computation](/6-theory-of-computation/8_flashcards-theory-of-computation/)
 - [Complexity Theory](/6-theory-of-computation/6_complexity-theory/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -33670,17 +32009,6 @@ $p - k \neq p$). Contradiction.
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[7_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Chomsky hierarchy: regular $\subset$ context-free $\subset$ context-sensitive $\subset$
@@ -33719,16 +32047,6 @@ URL: https://computer-science.wyattau.com/6-theory-of-computation/2_regular-lang
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "6 Theory Of Computation", "url": "https://computer-science.wyattau.com/6-theory-of-computation"}, {"name": "2_regular Languages", "url": "https://computer-science.wyattau.com/6-theory-of-computation/2_regular-languages"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[2_Regular Languages] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -34145,17 +32463,6 @@ URL: https://computer-science.wyattau.com/6-theory-of-computation/4_turing-machi
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "6 Theory Of Computation", "url": "https://computer-science.wyattau.com/6-theory-of-computation"}, {"name": "4_turing Machines", "url": "https://computer-science.wyattau.com/6-theory-of-computation/4_turing-machines"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[4_Turing Machines] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -42944,16 +41251,6 @@ URL: https://computer-science.wyattau.com/glossary/
 
 ## Hub
 URL: https://computer-science.wyattau.com/hub/
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Complete Computer Science Study Guide
 

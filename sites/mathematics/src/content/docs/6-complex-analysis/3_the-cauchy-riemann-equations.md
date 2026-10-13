@@ -181,17 +181,6 @@ Analyticity requires differentiability in a neighborhood, not just at a point. A
 **Mistake 5: Forgetting to check that partial derivatives are continuous.**
 The sufficiency condition for the Cauchy-Riemann equations requires that the partial derivatives $u_x, u_y, v_x, v_y$ be continuous in a neighborhood. If the partial derivatives are not continuous, the function may not be differentiable even if the Cauchy-Riemann equations hold. Always verify continuity of partial derivatives.
 
-
-```mermaid
-flowchart TD
-    A[3_The Cauchy Riemann Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Cauchy-Riemann equations are the complex analogue of requiring a function to have the same derivative regardless of direction. In the real world, partial derivatives in x and y can be chosen independently, but complex differentiability forces them to be coupled. This coupling means the real part u and imaginary part v are harmonic conjugates, each satisfying Laplace's equation. Think of a fluid flow: u might represent pressure and v the velocity potential, and the Cauchy-Riemann equations ensure the flow is irrotational and incompressible simultaneously.
@@ -205,23 +194,3 @@ The Cauchy-Riemann equations are the complex analogue of requiring a function to
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

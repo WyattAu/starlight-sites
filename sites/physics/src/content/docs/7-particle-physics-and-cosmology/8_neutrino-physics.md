@@ -159,17 +159,6 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 - **Dirac vs. Majorana nature:** Are neutrinos their own antiparticles? Neutrinoless double-beta decay ($0\nu\beta\beta$) experiments search for this; a positive signal would prove the Majorana nature and fix the absolute mass scale.
 - **Absolute mass scale:** Oscillations only measure mass-squared differences. KATRIN measures the electron neutrino mass via tritium beta decay, currently constraining $m_{\nu_e} < 0.8$ eV.
 
-
-```mermaid
-flowchart TD
-    A[8_Neutrino Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Neutrinos are the most mysterious particles in the Standard Model: nearly massless, electrically neutral, and interacting only through the weak force. They come in three flavors, and neutrino oscillations proved they have mass by showing flavors transform into each other during flight. This discovery shattered the Standard Model as originally formulated. Neutrino masses are so tiny that their origin may differ from other particles, possibly involving heavy right-handed neutrinos at energy scales far beyond accelerator reach. Understanding neutrino masses and mixing could explain why the universe contains more matter than antimatter.
@@ -184,23 +173,3 @@ Neutrinos are the most mysterious particles in the Standard Model: nearly massle
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

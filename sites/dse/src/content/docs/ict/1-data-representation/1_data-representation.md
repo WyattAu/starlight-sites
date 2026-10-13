@@ -1432,17 +1432,6 @@ $$
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[1_Data Representation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 including key principles and practical applications.

@@ -196,17 +196,6 @@ The negative sign indicates the image is inverted.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-```mermaid
-flowchart TD
-    A[6_Geometric Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Geometric optics treats light as rays that travel in straight lines and bend when they cross between materials. Snell's law is nature minimizing travel time: light bends at an interface because it travels at different speeds in different media, just as a lifeguard running on sand and swimming in water takes a path that minimizes total rescue time. Total internal reflection is like a one-way mirror: light coming from the dense side at a shallow enough angle cannot escape and bounces back perfectly, which is how fiber optic cables trap and guide light over kilometers. A lens is like a carefully shaped hill that redirects rays to converge at a focal point. The thin lens equation is directly counting how much bending each surface contributes. Mirrors work the same way but with reflection instead of refraction.
@@ -222,23 +211,3 @@ A real image is formed by converging rays and can be projected onto a screen. A 
 **Mistake 3: Misidentifying the direction of total internal reflection**
 Total internal reflection occurs only when light travels from a denser medium to a rarer medium ($n_1 > n_2$) at an angle greater than the critical angle. It does not occur in the opposite direction. Students sometimes apply the critical angle formula regardless of the direction of propagation, which gives incorrect results.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

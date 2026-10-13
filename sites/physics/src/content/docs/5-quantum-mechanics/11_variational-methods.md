@@ -155,17 +155,6 @@ for typical parameters ($V_0 = 10$ eV, $a = 2$ Å, $m = m_e$) gives $\beta_{\tex
 and $E \approx -6.2$ eV, compared to the exact value $-7.0$ eV. The Gaussian trial function cannot
 capture the exponential decay outside the well, leading to a 12% error. $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[11_Variational Methods] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The variational principle states that any trial wavefunction gives an energy estimate that is always greater than or equal to the true ground state energy. This transforms finding the ground state into an optimization problem: minimize the energy over a family of trial functions. The better the trial function, the closer the estimate. This method is exact in the limit of a complete basis set, but even simple trial functions give remarkably accurate results. It is the foundation of quantum chemistry calculations, where clever choices of trial wavefunctions and basis sets balance accuracy against computational cost.
@@ -181,23 +170,3 @@ The variational principle states that any trial wavefunction gives an energy est
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -125,17 +125,6 @@ $\sqrt{\langle x^2 \rangle} \approx 0.94$ $\mu$ M.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[13_Fluctuation Dissipation Theorem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The fluctuation-dissipation theorem reveals a profound link between how a system wobbles on its own and how it resists being pushed. A resistor at thermal equilibrium has voltage noise because charge carriers jitter randomly; the same microscopic collisions that cause this noise also produce electrical resistance. The theorem quantifies this: the power spectrum of spontaneous fluctuations is proportional to the dissipative part of the response function, with temperature as the bridge. A stiff spring that resists displacement strongly also fluctuates less. A particle in a viscous fluid diffuses slowly because the same drag that slows it also heats it. This deep connection means you can learn about a system's dissipation just by watching it fluctuate at equilibrium, without ever applying an external force.
@@ -205,23 +194,3 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

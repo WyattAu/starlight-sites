@@ -1846,16 +1846,6 @@ Understanding immutability's performance characteristics:
 4. **Caching**: Results of pure functions can be safely cached
 5. **Testing**: No setup/teardown needed for state mutation
 
-```mermaid
-flowchart TD
-    A[1_Basics And Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Elixir's type system is simple but powerful. The combination of basic types (atoms, tuples, lists,
@@ -2744,16 +2734,6 @@ rescue
 end
 ```
 
-```mermaid
-flowchart TD
-    A[1_Functions And Modules] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Functions and modules are the organizational backbone of Elixir:
@@ -3619,16 +3599,6 @@ defmodule TaskManager.Supervisor do
 end
 ```
 
-```mermaid
-flowchart TD
-    A[1_Concurrency Otp] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Elixir's concurrency model is built on lightweight processes, message passing, and the OTP
@@ -4389,16 +4359,6 @@ Protocol.consolidate(Size, [List, Map, Tuple])
 
 Consolidation is the default in production builds. It eliminates the dispatch overhead of looking up
 implementations at runtime.
-
-```mermaid
-flowchart TD
-    A[1_Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5356,16 +5316,6 @@ Trade-offs:
 - Test runtimes are longer
 - Complex dependency graphs between sub-apps
 
-```mermaid
-flowchart TD
-    A[2_Testing And Deployment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Elixir provides a comprehensive testing and deployment story:
@@ -5808,16 +5758,6 @@ URL: https://elixir.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 

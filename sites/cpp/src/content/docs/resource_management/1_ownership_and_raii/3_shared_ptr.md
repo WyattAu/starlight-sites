@@ -777,16 +777,6 @@ int main() {
 - [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
 - [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/) :::
 
-```mermaid
-flowchart TD
-    A[3_Shared_Ptr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to shared ownership

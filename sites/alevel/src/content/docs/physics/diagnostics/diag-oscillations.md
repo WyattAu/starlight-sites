@@ -423,17 +423,6 @@ $$
 The period increases when the tube is tilted because the effective restoring acceleration is
 reduced.
 
-
-```mermaid
-flowchart TD
-    A[Diag Oscillations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Oscillations are everywhere in nature:** From pendulums to sound waves to electrons in atoms, oscillatory motion is one of nature's fundamental behaviours. Understanding oscillations explains music, electronics, and structural engineering.

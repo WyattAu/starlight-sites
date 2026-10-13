@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Summary of Key Theorems"
 tags:
@@ -197,17 +196,6 @@ operators (Spectral).
 | Unitary | $\sigma \subseteq S^1$ (unit circle) | $\|U\| = 1$, $U^* = U^{-1}$ |
 | Normal | $\|T\| = r(T)$ (spectral radius) | Spectral theorem applies |
 | Bounded self-adjoint | $\sigma \subseteq \mathbb{R}$ | $\sup\sigma = \|T\|$ if $T \geq 0$ |
-
-
-```mermaid
-flowchart TD
-    A[9_Summary Of Key Theorems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 

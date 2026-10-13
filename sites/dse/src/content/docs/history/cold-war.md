@@ -13,17 +13,6 @@ description: "Origins of the Cold War, containment doctrine, Korean War, Vietnam
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Cold War] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Origins of the Cold War
 
 The Cold War emerged from the ideological incompatibility between the United States and the Soviet Union and their competing visions for the post-war international order. The alliance between the two powers during World War II was always one of convenience against a common enemy, and fundamental disagreements over the future of Europe became apparent before the war's end.
@@ -112,23 +101,3 @@ The Cold War was a staring contest between two superpowers, each pointing nuclea
 - [The Chinese Revolution](/history/chinese-revolution/)
 - [Decolonisation and the Path to 1997](/history/decolonisation/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

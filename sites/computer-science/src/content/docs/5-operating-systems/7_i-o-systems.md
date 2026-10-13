@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "I/O Systems"
 tags:
@@ -134,17 +133,6 @@ Transfer, interrupting the CPU only when complete.
 - Mixing up **virtual** and **physical** addresses when programming DMA controllers. The DMA
   controller operates on physical addresses.
 
-
-```mermaid
-flowchart TD
-    A[7_I O Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 I/O systems are the nervous system connecting the CPU to the outside world. Polling is like checking the mailbox every minute, simple but wasteful. Interrupts are like a doorbell, the device signals when it needs attention, and the CPU drops what it is doing to respond. DMA is like hiring a delivery service, the device transfers data directly to memory without bothering the CPU for every byte. Buffering is the waiting room, data is collected in a holding area before being processed in bulk, smoothing out the mismatch between fast producers and slow consumers.
@@ -158,23 +146,3 @@ I/O systems are the nervous system connecting the CPU to the outside world. Poll
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

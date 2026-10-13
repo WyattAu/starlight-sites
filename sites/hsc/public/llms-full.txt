@@ -392,17 +392,6 @@ URL: https://hsc.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The Higher School Certificate (HSC) is the qualification earned by students in New South Wales, Australia, upon completing secondary school. The HSC is administered by NESA (NSW Education Standards Authority) and is the primary pathway to university admissions in Australia. Physics and Mathematics are among the most challenging and high-value HSC subjects, they develop analytical thinking, problem-solving skills, and the quantitative foundation for university STEM courses.
@@ -1137,17 +1126,6 @@ URL: https://hsc.wyattau.com/chemistry/inorganic/
 
 HSC chemistry study notes - Inorganic
 
-
-```mermaid
-flowchart TD
-    A[Inorganic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 ### Periodic Trends
@@ -1481,17 +1459,6 @@ URL: https://hsc.wyattau.com/chemistry/organic/
 ## Organic
 
 HSC chemistry study notes - Organic
-
-
-```mermaid
-flowchart TD
-    A[Organic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -1983,17 +1950,6 @@ URL: https://hsc.wyattau.com/diagnostics/diag-mathematics/
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Mathematics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
-
-```mermaid
-flowchart TD
-    A[Diag Mathematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Mathematics is the tool for quantitative reasoning:** From algebra to calculus, mathematics provides systematic methods for solving problems involving numbers, patterns, and change. Each topic builds on previous ones to create a powerful problem-solving toolkit.
@@ -2244,17 +2200,6 @@ URL: https://hsc.wyattau.com/diagnostics/diag-physics/
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Physics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
-
-```mermaid
-flowchart TD
-    A[Diag Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Physics describes the fundamental rules of the universe:** From motion to electricity to quantum phenomena, physics provides mathematical models that predict how the natural world behaves. It is the most quantitative of the sciences.
@@ -2361,17 +2306,6 @@ URL: https://hsc.wyattau.com/english/reading/
 ## Reading
 
 HSC english study notes - Reading
-
-
-```mermaid
-flowchart TD
-    A[Reading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -2550,27 +2484,6 @@ HSC examiners reward essays that acknowledge complexity and alternative readings
 - [Mechanics](/physics/mechanics/) -- Scientific literacy and comprehension skills transfer to interpreting physics problems and experimental reports.
 - [Intro](/intro/) -- Understanding the HSC assessment structure helps focus reading strategies on exam-relevant skills.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Writing
@@ -2588,17 +2501,6 @@ URL: https://hsc.wyattau.com/english/writing/
 ## Writing
 
 HSC english study notes - Writing
-
-
-```mermaid
-flowchart TD
-    A[Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -2783,27 +2685,6 @@ The different modes of writing, creative, persuasive, analytical, are really jus
 
 For HSC English specifically, the marking criteria reward precision and sophistication. A Band 6 response doesn't just identify techniques, it explains how they create meaning in context. The difference between "the author uses metaphor" and "the author's extended metaphor of decay mirrors the protagonist's psychological deterioration" is the difference between describing and analysing. Train yourself to close the loop: every observation about technique must connect back to theme, character, or the composer's purpose.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## Mathematics
 
 ---
@@ -2823,17 +2704,6 @@ URL: https://hsc.wyattau.com/mathematics/algebra/
 ## Algebra
 
 HSC mathematics study notes - Algebra
-
-
-```mermaid
-flowchart TD
-    A[Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -3248,17 +3118,6 @@ URL: https://hsc.wyattau.com/mathematics/calculus/
 ## Calculus
 
 HSC mathematics study notes - Calculus
-
-
-```mermaid
-flowchart TD
-    A[Calculus] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -3785,17 +3644,6 @@ URL: https://hsc.wyattau.com/physics/mechanics/
 
 HSC physics study notes - Mechanics
 
-
-```mermaid
-flowchart TD
-    A[Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 ### Kinematics
@@ -4107,17 +3955,6 @@ URL: https://hsc.wyattau.com/physics/waves/
 ## Waves
 
 HSC physics study notes - Waves
-
-
-```mermaid
-flowchart TD
-    A[Waves] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 

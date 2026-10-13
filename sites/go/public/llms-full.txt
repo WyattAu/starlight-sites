@@ -430,16 +430,6 @@ URL: https://go.wyattau.com/hub/
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Go was designed at Google to solve real-world engineering problems: large codebases, many contributors, and the need for fast compilation and reliable deployment. Its simplicity is deliberate, a small language with a powerful standard library and excellent tooling. Go's concurrency model, based on goroutines and channels, makes it natural to write concurrent programs without the complexity of traditional threading models.
@@ -2335,17 +2325,6 @@ go test -tags=integration ./...
    `t.Cleanup` runs after the test and all its subtests finish, making it the correct choice for
    resource teardown.
 
-
-```mermaid
-flowchart TD
-    A[Architecture] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of Go project architecture, including underlying theory,
@@ -2712,17 +2691,6 @@ CI with restricted internet).
 
 7. **Forgetting `go.work sync`.** After adding modules to a workspace, run `go work sync` to update
    `go.mod` files with workspace-relevant information.
-
-
-```mermaid
-flowchart TD
-    A[Modules And Packages] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -3190,17 +3158,6 @@ client := &http.Client{
    `ListenAndServeTLS`. Do not configure HTTP/2 via `h2` package separately unless you have a
    specific reason.
 
-
-```mermaid
-flowchart TD
-    A[Networking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - `net.Dial` / `net.Listen` handle TCP; `net.DialUDP` handles UDP. Always set deadlines.
@@ -3494,17 +3451,6 @@ Pointers can also be compared to `nil`.
 
 6. **Not checking escape analysis output.** When performance matters, run `go build -gcflags="-m"`
    and verify that hot-path variables are not unnecessarily escaping to the heap.
-
-
-```mermaid
-flowchart TD
-    A[Pointers And Memory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -3809,17 +3755,6 @@ as alternatives.
 
 7. **Ignoring `CanAddr` and `CanSet`.** Not all `reflect.Value` objects are addressable or settable.
    Always check before attempting modification.
-
-
-```mermaid
-flowchart TD
-    A[Reflection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -4229,17 +4164,6 @@ fi
    production. Prefer thin wrappers around real dependencies and integration tests for critical
    paths.
 
-
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - `go test ./...` runs all tests; `*_test.go` files are excluded from production builds.
@@ -4611,17 +4535,6 @@ Structs containing slices or maps are not comparable.
 
 6. **Struct embedding is not inheritance.** There is no `super` call, no method overriding in the
    OOP sense. Embedding is composition with syntactic sugar for field/method promotion.
-
-
-```mermaid
-flowchart TD
-    A[Arrays Slices Maps] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5046,17 +4959,6 @@ Fix: pass as an argument `go func(val int) { ... }(v)`.
 3. **Range copies values.** Modifying the range variable does not modify the original element. Use
    index-based access for mutations.
 
-
-```mermaid
-flowchart TD
-    A[Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of control flow, including underlying theory, practical
@@ -5417,17 +5319,6 @@ Key rules:
 6. **Comparing function values.** Function values are comparable but comparison only returns true
    for identical function instances. Two closures with identical bodies are not equal.
 
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key
@@ -5779,17 +5670,6 @@ type Rune = int32
 6. **Integer overflow is silent.** Unlike Rust (debug panics) or Python (arbitrary precision), Go
    wraps on overflow without any runtime error. Use `math/bits` or explicit checks when overflow is
    a concern.
-
-
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -6188,17 +6068,6 @@ Client disconnects, the context is cancelled, propagating to all goroutines hand
 7. **Race conditions with `select`.** If multiple cases are ready, `select` chooses uniformly at
    random. Do not assume a preferred order.
 
-
-```mermaid
-flowchart TD
-    A[Channels] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of channels and concurrency patterns, including underlying
@@ -6541,17 +6410,6 @@ Use directional channels in function signatures to make the intended usage expli
 
 7. **Deadlock with RWMutex.** A goroutine holding `RLock` cannot upgrade to `Lock` -- it must
    release `RLock` first. Attempting to call `Lock()` while holding `RLock()` deadlocks.
-
-
-```mermaid
-flowchart TD
-    A[Goroutines] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -7010,17 +6868,6 @@ g.Go(func() error {
 2. **Leaking goroutines with errgroup.** If `g.Go` panics, `g.Wait` re-panics. Always recover or
    return errors from goroutines rather than panicking.
 
-
-```mermaid
-flowchart TD
-    A[Race Conditions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of race conditions and data races in Go, including underlying
@@ -7352,17 +7199,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 7. **String-based error matching.** Using `strings.Contains(err.Error(), "not found")` is fragile.
    Use sentinel errors or custom error types with `errors.Is`/`errors.As`.
-
-
-```mermaid
-flowchart TD
-    A[Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -7711,17 +7547,6 @@ Specialization of the generic function or type. There is no boxing or type erasu
 5. **Generic type assertion ambiguity.** When type parameters appear in the same signature position
    as concrete types, inference may fail. Specify type arguments explicitly in such cases.
 
-
-```mermaid
-flowchart TD
-    A[Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical
@@ -8037,17 +7862,6 @@ fmt.Println(IPAddr{127, 0, 0, 1}) // 127.0.0.1
 
 5. **Empty interface in slices.** `[]any` is a common pattern but loses type safety. Since Go 1.18,
    prefer generics: `[]T` where `T` is a type parameter.
-
-
-```mermaid
-flowchart TD
-    A[Interfaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -8475,17 +8289,6 @@ func (t *Time) UnmarshalJSON(data []byte) error {
 
 8. **Not checking scanner errors.** After a `scanner.Scan()` loop, always check `scanner.Err()`. The
    loop may exit due to an I/O error, not just `io.EOF`.
-
-
-```mermaid
-flowchart TD
-    A[Io] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -8941,16 +8744,6 @@ slog.Info("user logged in", "username", username, "ip", ip)
 7. **Using math/rand/v1.** The old `math/rand` package requires manual seeding and is deprecated.
    Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN`, `rand.N`and other
    improvements.
-
-```mermaid
-flowchart TD
-    A[Math Sort Log] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -9568,16 +9361,6 @@ Downstream operations.
 7. **Not checking request body errors.** `r.Body` is a stream. If the client disconnects
    mid-request, Reading from `r.Body` returns an error. Always check errors from `r.Body` reads.
 
-```mermaid
-flowchart TD
-    A[Net Http] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of Go's net/http package, including underlying theory, practical
@@ -9925,16 +9708,6 @@ t1.Equal(t2)  // true
 ```go
 loc, _ := time.LoadLocation("America/New_York")
 t, _ := time.ParseInLocation("2006-01-02 15:04", "2026-05-30 14:30", loc)
-```
-
-```mermaid
-flowchart TD
-    A[Strings And Time] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary

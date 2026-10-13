@@ -171,17 +171,6 @@ Precision tests of the Standard Model are like checking a clock against atomic t
   due to relative motion. **Fix:** For distant galaxies, cosmological redshift dominates;
   $z \approx H_0 d/c$ for small $z$.
 
-
-```mermaid
-flowchart TD
-    A[13_Precision Tests Of The Standard Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Standard Model: quarks, leptons, gauge bosons, Higgs boson; four fundamental forces.
@@ -206,23 +195,3 @@ flowchart TD
 - [The Standard Model](/7-particle-physics-and-cosmology/1_the-standard-model/)
 - [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

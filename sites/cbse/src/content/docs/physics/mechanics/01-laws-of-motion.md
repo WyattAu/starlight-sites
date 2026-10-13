@@ -198,17 +198,6 @@ $$
 2. A block slides down a frictionless incline of angle $45^\circ$. Find the acceleration.
 3. Two masses of 4 kg and 6 kg are connected over a frictionless pulley. Find the acceleration and tension.
 
-
-```mermaid
-flowchart TD
-    A[01 Laws Of Motion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Newton's laws are about prediction, not explanation:** The first law tells you what happens when nothing is pushing. The second law tells you how hard things accelerate when you push them. The third law tells you that every push comes with a push-back. Together, they form a complete framework for predicting motion, from a ball rolling down a hill to a planet orbiting a star.
@@ -237,23 +226,3 @@ On an inclined plane at angle $\theta$, the component of weight along the inclin
 - [Rotational Motion](/physics/mechanics/03-rotational-motion/) -- Newton's second law extends to rotational dynamics through torque and angular acceleration.
 - Gravitation -- Gravitational force is an application of Newton's law of universal gravitation combined with the second law.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

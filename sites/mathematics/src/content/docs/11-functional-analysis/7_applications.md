@@ -186,17 +186,6 @@ The **kernel** $k(x, y) = \langle k_x, k_y \rangle$ is a positive definite funct
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-
-```mermaid
-flowchart TD
-    A[7_Applications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Functional analysis provides the language and machinery for solving differential equations, signal processing, and machine learning. In PDE theory, weak solutions are obtained by projecting onto finite-dimensional subspaces via the Galerkin method, with existence guaranteed by the Lax-Milgram theorem. The Fourier transform decomposes signals into frequencies, and the sampling theorem connects continuous signals to their discrete representations. In quantum mechanics, states live in Hilbert space and observables are self-adjoint operators whose spectral decompositions determine measurement outcomes. In machine learning, reproducing kernel Hilbert spaces provide the mathematical framework for support vector machines and Gaussian processes, where inner products encode similarity between data points.
@@ -212,23 +201,3 @@ A weak solution satisfies the PDE in a distributional sense, while a strong solu
 **Mistake 3: Forgetting that compactness is essential for extracting convergent subsequences**
 In the direct method of calculus of variations, one needs a minimizing sequence, weak lower semicontinuity of the functional, and weak compactness of the domain. Students frequently try to extract a strongly convergent subsequence from a bounded sequence, which fails in infinite dimensions. Weak compactness (via reflexivity) and then using the compactness of certain operators is the correct approach.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

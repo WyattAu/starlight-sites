@@ -443,17 +443,6 @@ Enzymes provide extremely high enantioselectivity under mild conditions:
    enantioselectivity directly; the auxiliary must be removed. **Fix:** Choose between auxiliary,
    catalyst, or resolution based on the specific system.
 
-
-```mermaid
-flowchart TD
-    A[Synthesis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Retrosynthetic analysis:** TM $\Rightarrow$ precursors via disconnections; identify synthons and

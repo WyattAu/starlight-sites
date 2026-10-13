@@ -764,17 +764,6 @@ the built-in comma operator but not for the overloaded version. This is almost a
 - [The Spaceship Operator](/object_oriented/1_class_design/5_spaceship_operator/)
 - [Object Layout and the vptr](/object_oriented/1_class_design/1_object_layout_vptr/)
 
-
-```mermaid
-flowchart TD
-    A[4_Operator_Overloading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to operator overloading, including

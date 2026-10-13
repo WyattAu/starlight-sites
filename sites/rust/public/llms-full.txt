@@ -1990,17 +1990,6 @@ URL: https://rust.wyattau.com/02-ownership-borrowing/interior-mutability/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Interior Mutability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## The Shared Reference Contract
 
 Rust's borrowing rules state that a shared reference (`&T`) is immutable, you cannot modify the
@@ -2807,17 +2796,6 @@ URL: https://rust.wyattau.com/02-ownership-borrowing/lifetimes/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Lifetimes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why Lifetimes Exist
 
 Rust's borrow checker must ensure that every reference is valid for its entire use. Without lifetime
@@ -2915,27 +2893,6 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 let s: &'static str = "hello";
 let s: &str = "hello";  // &'static is inferred for literals
 ```
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -3971,16 +3928,6 @@ URL: https://rust.wyattau.com/03-structs-enums/advanced-patterns/
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Advanced Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Newtype Pattern
 
 The newtype pattern wraps an existing type in a tuple struct, creating a distinct type with the same
@@ -4441,17 +4388,6 @@ URL: https://rust.wyattau.com/03-structs-enums/structs-and-enums/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "03 Structs Enums", "url": "https://rust.wyattau.com/03-structs-enums"}, {"name": "Structs And Enums", "url": "https://rust.wyattau.com/03-structs-enums/structs-and-enums"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Structs And Enums] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Structs
 
@@ -11901,16 +11837,6 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
-```mermaid
-flowchart TD
-    A[Cargo And Ecosystem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Cargo is Rust's project manager, build system, and dependency registry rolled into one. Think of it as a chef who handles the recipe (Cargo.toml), the ingredients (dependencies from crates.io), and the cooking (compilation). The manifest file tells Cargo what to build, what dependencies to fetch, and how to optimise the output. Workspaces let you organise related crates in a monorepo, and profiles control the trade-off between compilation speed and runtime performance. Cargo is the toolchain that makes Rust's ecosystem cohesive and productive.
@@ -13785,16 +13711,6 @@ URL: https://rust.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 

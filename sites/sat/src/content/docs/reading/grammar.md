@@ -14,17 +14,6 @@ description: "Study notes for Grammar with worked examples, practice problems, a
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Grammar] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Grammar
 
 SAT reading study notes - Grammar
@@ -134,23 +123,3 @@ Grammar is the infrastructure of communication, like the electrical wiring in a 
 - [Writing Language](/writing/language/) -- The writing and language section tests the same grammar concepts applied to editing and revising passages.
 - [Writing Essay](/writing/essay/) -- Correct grammar usage is essential for constructing clear and effective evidence-based essays.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

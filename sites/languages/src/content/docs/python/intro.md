@@ -131,25 +131,6 @@ Python is the language of readability: code that looks like English pseudocode a
 - [Data Structures](https://kotlin.wyattau.com/intermediate/collections/)
 - [Object-Oriented Programming](https://java.wyattau.com/03-object-oriented/01-classes/)
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 ## See also
 
 - [Introduction to Dart & Flutter](/dart/01-intro/)

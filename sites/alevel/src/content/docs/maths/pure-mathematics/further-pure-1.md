@@ -1,6 +1,5 @@
 ---
 
-
 title: "Further Pure Mathematics 1"
 description: "Study notes for Further Pure Mathematics 1 | A-Level with worked examples and practice questions."
 ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,"
@@ -505,17 +504,6 @@ Further Pure 1 extends familiar algebra into the complex plane and beyond. Compl
   $A^{-1}\mathbf{b}$, not $\mathbf{b}A^{-1}$.
 - **Wrong polar area formula:** Use $\frac{1}{2}\int r^2\,d\theta$, not $\int r\,d\theta$. The extra
   $r/2$ factor is frequently missed.
-
-
-```mermaid
-flowchart TD
-    A[Further Pure 1] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

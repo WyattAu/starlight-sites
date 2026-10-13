@@ -556,16 +556,6 @@ Mechanism that propagates through entire async computation graphs. Until P2300 i
 Manual `stop_token` integration as shown above is the recommended approach.
 :::
 
-```mermaid
-flowchart TD
-    A[5_Futures_Promises] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 | Concept                          | Standard Reference | Key Feature                                          |

@@ -182,17 +182,6 @@ When substituting $z = e^{i\theta}$, the integral $\int_0^{2\pi} R(\cos\theta, \
 **Mistake 5: Assuming that the integral over the semicircular arc vanishes.**
 The integral over the semicircular arc vanishes only if the integrand decays sufficiently fast. For rational functions, the condition $\deg(Q) \geq \deg(P) + 2$ ensures this. For other integrands, check the decay explicitly using the ML inequality or Jordan's lemma.
 
-
-```mermaid
-flowchart TD
-    A[9_Applications Of Contour Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Contour integration exploits the fact that analytic functions have path-independent integrals, so deforming a contour does not change the answer as long as you avoid singularities. This turns difficult real integrals into easier complex ones. The residue theorem packages this: the integral around a closed contour equals 2 pi i times the sum of residues inside. Residues are like gravitational sources in a field: they determine the circulation of the integral around them. This technique computes integrals that are impossible by elementary methods, from Gaussian integrals to sums involving trigonometric functions.
@@ -206,23 +195,3 @@ Contour integration exploits the fact that analytic functions have path-independ
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

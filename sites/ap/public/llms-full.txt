@@ -156,17 +156,6 @@ AP Computer Science A is a college-level course that introduces students to comp
 
 ---
 
-
-```mermaid
-flowchart TD
-    A[Ap Computer Science A] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Java Fundamentals
 
 ### Primitive Types
@@ -672,17 +661,6 @@ AP Computer Science Principles introduces students to the foundational concepts 
 | Impact of Computing | 10-15% | Beneficial/harmful effects, digital divide |
 
 ---
-
-
-```mermaid
-flowchart TD
-    A[Ap Computer Science Principles] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Digital Information
 
@@ -1647,17 +1625,6 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
-
-```mermaid
-flowchart TD
-    A[Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Living systems maintain order through energy flow and information transfer. Cells convert nutrients into usable energy, genes encode the instructions for building proteins, and organisms interact through predator-prey relationships, competition, and cooperation. Understanding biology reveals the elegant solutions evolution has produced for the challenges of survival and reproduction.
@@ -2132,17 +2099,6 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
-
-```mermaid
-flowchart TD
-    A[Calculus Ab] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Mathematics provides the language for describing patterns, relationships, and change. Functions transform inputs to outputs like machines, calculus measures how things change and accumulate, and probability quantifies uncertainty. The power of mathematics lies in its ability to model real-world situations abstractly, allowing us to solve problems and make predictions across science, engineering, and everyday life.
@@ -2375,16 +2331,6 @@ URL: https://ap.wyattau.com/glossary/
 
 ## Hub
 URL: https://ap.wyattau.com/hub/
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Complete AP Course Guide, All Subjects
 
@@ -3373,17 +3319,6 @@ weights qualitative explanations alongside quantitative solutions.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
-```mermaid
-flowchart TD
-    A[Physics 1] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -5742,17 +5677,6 @@ genetic variation.
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
 
-
-```mermaid
-flowchart TD
-    A[2_Cell Structure And Function] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Behind every scientific discovery and technological innovation lies mathematics. Functions model relationships between variables, statistics reveals patterns in data, and logic ensures rigorous reasoning. Mathematics teaches us to think precisely, solve systematically, and communicate evidently - skills that are valuable far beyond the classroom.
@@ -6639,17 +6563,6 @@ Describe the roles of photosystems I and II in the light-dependent reactions of 
 - **Photosystem I (PSI):** Absorbs light at $700\,\text{nm}$ (P700). Electrons from PSII (via the
   electron transport chain) are re-energised. These electrons are passed to NADP$^+$ along with
   $\text{H}^+$ ions to form NADPH.
-
-
-```mermaid
-flowchart TD
-    A[3_Cellular Energetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -7550,17 +7463,6 @@ Spontaneously re-form in the correct positions without chaperone proteins.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[1_Chemistry Of Life] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential chemistry of chemistry of life, including key reactions, underlying
@@ -7685,27 +7587,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Chemistry of Life](/biology/1-chemistry-of-life/1_chemistry-of-life/):** The molecular foundations of biology, water, macromolecules, and enzymes.
 - **[Cell Structure](/biology/2-cell-structure-and-function/2_cell-structure-and-function/):** Prokaryotic vs eukaryotic cells, membrane transport, and organelles.
 - **[Cellular Energetics](/biology/3-cellular-energetics/3_cellular-energetics/):** Cellular respiration, photosynthesis, and enzyme kinetics.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -8634,17 +8515,6 @@ Punnett square:
 | t   | Tt  | tt  |
 
 Phenotypic ratio: **1 tall : 1 dwarf** (or 50% tall, 50% dwarf)
-
-
-```mermaid
-flowchart TD
-    A[4_Heredity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -9977,16 +9847,6 @@ combination of barriers makes gene flow between the species extremely unlikely.
 
 </details>
 
-```mermaid
-flowchart TD
-    A[5_Natural Selection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the biological principles of natural selection, including key concepts,
@@ -10135,27 +9995,6 @@ Step 6: $1.92 < 3.84$, so we **fail to reject** the null hypothesis. The data ar
 - **[Chemistry of Life](/biology/1-chemistry-of-life/1_chemistry-of-life/):** Water, macromolecules, and enzyme fundamentals.
 - **[Cell Structure](/biology/2-cell-structure-and-function/2_cell-structure-and-function/):** Cell organelles, membrane transport, and surface-area-to-volume ratio.
 - **[Heredity](/biology/4-heredity/4_heredity/):** Mendelian genetics, Punnett squares, and chi-square tests.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Chemistry
 
@@ -10763,16 +10602,6 @@ Which is higher in energy and more effectively shielded than the s subshell of G
 The decrease from Group 15 to Group 16 occurs because the Group 16 electron pairs with another
 Electron in the same p orbital, creating electron-electron repulsion (pairing energy) that offsets
 the increase in $Z_{\mathrm{eff}$.
-
-```mermaid
-flowchart TD
-    A[1_Atomic Structure And Periodicity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table: Periodic Trends Explained
 
@@ -11641,16 +11470,6 @@ The C-O bond in methanol is polar covalent with approximately 18% ionic characte
 This table shows that hydrogen bonding produces dramatically higher boiling points than Other IMF
 types for similar molar masses.
 
-```mermaid
-flowchart TD
-    A[2_Bonding And Intermolecular Forces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Types of Chemical Bonds Compared
 
 | Property                     | Ionic              | Nonpolar Covalent     | Polar Covalent  | Metallic                |
@@ -12046,27 +11865,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Atomic Structure](/chemistry/1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity/):** Quantum numbers, electron configurations, and periodic trends.
 - **[Bonding](/chemistry/2-bonding-and-intermolecular-forces/2_bonding-and-intermolecular-forces/):** Lewis structures, VSEPR theory, and intermolecular forces.
 - **[Stoichiometry](/chemistry/3-stoichiometry/3_stoichiometry/):** Moles, limiting reagents, and solution chemistry.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -13052,16 +12850,6 @@ $s_0 = \sqrt{1.7 \times 10^{-10}} = 1.3 \times 10^{-5} \mathrm{ M$.
 
 The common ion effect reduces solubility by a factor of about 7,600.
 
-```mermaid
-flowchart TD
-    A[5_Kinetics And Equilibrium] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Rate Laws
 
 | Order | Integrated Law                            | Half-Life            | Units of $k$                   | Linear Plot             |
@@ -13535,27 +13323,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Atomic Structure](/chemistry/1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity/):** Electron configurations and periodic trends.
 - **[Bonding](/chemistry/2-bonding-and-intermolecular-forces/2_bonding-and-intermolecular-forces/):** Lewis structures and intermolecular forces.
 - **[Thermodynamics](/chemistry/4-thermodynamics/4_thermodynamics/):** Enthalpy, Hess's law, and thermochemical calculations.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -14172,16 +13939,6 @@ Complete ionic:
 $\mathrm{Pb^{2+}(aq) + 2\mathrm{NO_3^-(aq) + 2\mathrm{K^+(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s) + 2\mathrm{K^+(aq) + 2\mathrm{NO_3^-(aq)$
 
 Net ionic: $\mathrm{Pb^{2+}(aq) + 2\mathrm{I^-(aq) \to \mathrm{PbI_2(s)$
-
-```mermaid
-flowchart TD
-    A[3_Stoichiometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table: Solubility Rules Quick Reference
 
@@ -15064,16 +14821,6 @@ $$
 
 $\Delta G \lt 0$ So the reaction is spontaneous under these conditions. The high pressure of
 Reactants and low pressure of product drive the reaction forward.
-
-```mermaid
-flowchart TD
-    A[4_Thermodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table: Thermodynamic Quantities
 
@@ -16307,16 +16054,6 @@ Using $C(n) = 2C(n/2) + n - 1$: $C(1)=0$$C(2)=1$$C(4)=5$$C(8)=17$. Maximum 17 co
 
 </details>
 
-```mermaid
-flowchart TD
-    A[3_Algorithms And Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of algorithms and programming, including underlying theory,
@@ -17370,16 +17107,6 @@ maximum.
 
 </details>
 
-```mermaid
-flowchart TD
-    A[1_Computational Thinking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of computational thinking, including underlying theory,
@@ -18360,16 +18087,6 @@ NOT operations.
 
 </details>
 
-```mermaid
-flowchart TD
-    A[2_Computing Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of computing systems, including underlying theory, practical
@@ -19324,16 +19041,6 @@ metadata before sharing photos online.
 
 </details>
 
-```mermaid
-flowchart TD
-    A[4_Data Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of data analysis, including underlying theory, practical
@@ -19458,27 +19165,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking/):** Abstraction, decomposition, and pattern recognition.
 - **[Algorithms](/computer-science/3-algorithms-and-programming/3_algorithms-and-programming/):** Sorting, searching, and algorithm efficiency.
 - **[Data Analysis](/computer-science/4-data-analysis/4_data-analysis/):** Data processing, visualisation, and interpretation.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -20848,17 +20534,6 @@ Two defences:
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[5_Networks And The Internet] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of networks and the internet, including underlying theory,
@@ -20956,27 +20631,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking/):** Abstraction, decomposition, and algorithm design.
 - **[Algorithms](/computer-science/3-algorithms-and-programming/3_algorithms-and-programming/):** Sorting, searching, and procedural abstraction.
 - **[Networks](/computer-science/5-networks-and-the-internet/5_networks-and-the-internet/):** DNS, TCP/IP, and internet protocols.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## English
 
@@ -21196,17 +20850,6 @@ democratic process."
 - Relying entirely on personal anecdote without broader evidence
 - Committing logical fallacies in your own argument
 - Using absolutes ("always," "never") that undermine credibility
-
-
-```mermaid
-flowchart TD
-    A[2_Argument] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -21437,17 +21080,6 @@ Strong passages operate on multiple levels simultaneously. A passage may:
 3. Explain how each strategy serves the author's purpose and affects the audience
 4. Organise by analytical point (not by chronological order)
 
-
-```mermaid
-flowchart TD
-    A[4_Close Reading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Close reading is about **what the text actually says and how it says it**, not what you think it means or what the author intended. Every word, every punctuation mark, every structural choice is evidence. The goal is to build an interpretation from specific textual details.
@@ -21571,27 +21203,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Rhetorical Analysis](/english/1-rhetorical-analysis/1_rhetorical-analysis/):** Analysing how authors use language to persuade.
 - **[Argument](/english/2-argument/2_argument/):** Building and evaluating evidence-based arguments.
 - **[Synthesis](/english/3-synthesis/3_synthesis/):** Combining multiple sources into a coherent essay.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -22332,17 +21943,6 @@ Authors structure their arguments using recognisable organisational patterns:
 - Confusing the author's tone with the reader's emotional response (mood)
 - Over-identifying devices at the expense of depth
 
-
-```mermaid
-flowchart TD
-    A[1_Rhetorical Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Reading and writing are fundamental to intellectual development. Literature exposes us to diverse perspectives, develops empathy, and hones critical thinking. Analysing texts teaches us to identify arguments, evaluate evidence, and construct coherent interpretations. These skills are essential for academic success, professional communication, and informed citizenship in a complex world.
@@ -22556,17 +22156,6 @@ of each body paragraph because it demonstrates your thinking.
   trends are consistent with broader national data from Source B, strengthening the overall
   argument."
 
-
-```mermaid
-flowchart TD
-    A[3_Synthesis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Synthesis is about **weaving multiple sources into a coherent argument**, not just summarising them side by side. The key skill is evaluating which sources support, complicate, or contradict your thesis, then selecting the strongest combination.
@@ -22689,27 +22278,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Periods 1-2](/history/1-periods-1-2/1_period-1-2/):** Colonial era, Revolution, and the early Republic.
 - **[Periods 3-4](/history/2-periods-3-4/2_periods-3-4/):** Expansion, Civil War, and Reconstruction.
 - **[Period 5](/history/3-period-5/3_period-5/):** Industrialisation and the Gilded Age.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -23065,17 +22633,6 @@ Encomienda system, Columbian Exchange, headright system, House of Burgesses, May
 Puritan, Quaker, mercantilism, Navigation Acts, Middle Passage, Great Awakening, Stono Rebellion,
 Bacon's Rebellion, King Philip's War, triangular trade, chattel slavery
 
-
-```mermaid
-flowchart TD
-    A[1_Period 1 2] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Periods 1-2 (1491-1754) establish the **foundations of American diversity**. Before European contact, the Americas contained hundreds of distinct societies with different economies, governance systems, and cultures. European colonisation didn't create a single "American" society, it created a collision of multiple worlds.
@@ -23279,17 +22836,6 @@ Manifest Destiny, Wilmot Proviso, Compromise of 1850, Kansas-Nebraska Act, Dred 
 Emancipation Proclamation, Gettysburg, Anaconda Plan, 13th Amendment, 14th Amendment, 15th
 Amendment, Sharecropping, Freedmen's Bureau, Compromise of 1877, Ku Klux Klan, Radical
 Reconstruction
-
-
-```mermaid
-flowchart TD
-    A[3_Period 5] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -23519,17 +23065,6 @@ Horizontal integration, vertical integration, Gilded Age, Social Darwinism, Gosp
 Homestead Act, Dawes Act, Populist Party, Wounded Knee, Yellow journalism, Platt Amendment,
 Anti-Imperialist League, Sherman Antitrust Act, AFL, Tammany Hall, Ellis Island, Chinese Exclusion
 Act, Pendleton Act, Cross of Gold speech, Free Silver
-
-
-```mermaid
-flowchart TD
-    A[4_Period 6] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -23806,17 +23341,6 @@ Harlem Renaissance, Great Depression, New Deal, Social Security Act, Pearl Harbo
 Project, Truman Doctrine, Marshall Plan, NATO, McCarthyism, Brown v. Board, Civil Rights Act,
 Vietnam War, Watergate, Reagan Revolution, September 11
 
-
-```mermaid
-flowchart TD
-    A[5_Period 7] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Period 7 (1890-1945) encompasses **Progressivism, two world wars, the Great Depression, and the New Deal**, a half-century of crisis and reform that transformed the role of the federal government in American life.
@@ -24022,17 +23546,6 @@ Paris 1783, Articles of Confederation, Shays' Rebellion, Great Compromise, Three
 Federalist Papers, Bill of Rights, Alien and Sedition Acts, Louisiana Purchase, Marbury v. Madison,
 War of 1812, Market Revolution, Trail of Tears, Nullification Crisis
 
-
-```mermaid
-flowchart TD
-    A[2_Periods 3 4] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Periods 3-4 (1754-1848) cover the **creation of the American republic**, from the imperial crisis through the Revolution, the Constitution, and the early national period. The central question is: how do you create a stable democratic government from scratch?
@@ -24108,27 +23621,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Periods 1-2](/history/1-periods-1-2/1_period-1-2/):** Colonial era, Revolution, and the early Republic.
 - **[Period 5](/history/3-period-5/3_period-5/):** Industrialisation, the Gilded Age, and the Progressive Era.
 - **[Period 7](/history/5-period-7/5_period-7/):** Cold War, civil rights, and modern America.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Maths
 
@@ -25063,16 +24555,6 @@ with other AP Calculus topics to test synthesis under exam conditions.
 See for instructions
 on self-marking and building a personal test matrix.
 
-```mermaid
-flowchart TD
-    A[2_Derivativesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to derivatives, including key
@@ -25466,17 +24948,6 @@ functions of $x$ rather than $x$ itself. The correct formula is:
 $$
 \frac{d}{dx}\int_{a(x)}^{b(x)} f(t)\,dt = f(b(x)) \cdot b'(x) - f(a(x)) \cdot a'(x)
 $$
-
-
-```mermaid
-flowchart TD
-    A[Diag Derivatives] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -25913,17 +25384,6 @@ $y = 0$. So $y(t) \to 0$ as $t \to -\infty$.
 $y_0 \leq 0$: $y(t)$ does not approach $2$.
 
 Answer: $y_0 \in (0, 2]$.
-
-
-```mermaid
-flowchart TD
-    A[Diag Differential Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -26373,17 +25833,6 @@ to slope $-2$), $f$ is continuous at $x = 2$ ($f(2^-) = 4 = f(2^+)$). By FTC par
 continuous at $x = 2$, $F$ is differentiable at $x = 2$ with $F'(2) = f(2) = 4$. Integration
 "smooths" the corner: $F$ is continuously differentiable even though $f$ is not.
 
-
-```mermaid
-flowchart TD
-    A[Diag Integrals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -26804,17 +26253,6 @@ $$
 
 Therefore $\displaystyle\lim_{x \to \infty} x \cdot G(x) = 0$.
 
-
-```mermaid
-flowchart TD
-    A[Diag Limits Continuity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -27198,17 +26636,6 @@ $$
 Setting $100N^{-0.01} \lt 0.001$: $N^{-0.01} \lt 0.00001$ So $N^{0.01} > 100000$ Giving
 $N > 100000^{100}$. Still impractical. The series $\sum \frac{1}{n(\ln n)^p}$ converges very slowly
 for $p$ near $1$.
-
-
-```mermaid
-flowchart TD
-    A[Diag Sequences Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -28363,16 +27790,6 @@ Differential Equations with other AP Calculus topics to test synthesis under exa
 See for instructions
 on self-marking and building a personal test matrix.
 :::
-
-```mermaid
-flowchart TD
-    A[4_Differential Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -29709,16 +29126,6 @@ See for instructions
 on self-marking and building a personal test matrix.
 </Aside>
 
-```mermaid
-flowchart TD
-    A[3_Integralsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to integrals, including key
@@ -30648,16 +30055,6 @@ Continuity with other AP Calculus topics to test synthesis under exam conditions
 See for instructions
 on self-marking and building a personal test matrix.
 
-```mermaid
-flowchart TD
-    A[1_Limits And Continuity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to limits and continuity,
@@ -31534,16 +30931,6 @@ See for instructions
 on self-marking and building a personal test matrix.
 :::
 
-```mermaid
-flowchart TD
-    A[5_Sequences And Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to sequences and series,
@@ -32042,16 +31429,6 @@ Verification: $W_{\text{battery} = W_R + U_{\text{cap} = 2.5 + 2.5 = 5.0\,\text{
 Conserved.
 
 </details>
-
-```mermaid
-flowchart TD
-    A[7_Circuits] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -32862,16 +32239,6 @@ V = \frac{1}{4\pi\epsilon_0}\int \frac{dq}{R} = \frac{Q}{4\pi\epsilon_0 R}
 $$
 
 </details>
-
-```mermaid
-flowchart TD
-    A[6_Electrostatics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -34193,16 +33560,6 @@ $$
 x(t) = 27 + 27(t - 3)
 $$
 
-```mermaid
-flowchart TD
-    A[1_Kinematicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Kinematic Equations
 
 | Equation                            | Missing Variable | Best Used When                                      |
@@ -35300,16 +34657,6 @@ $$
 
 </details>
 
-```mermaid
-flowchart TD
-    A[8_Magnetism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of magnetism, including the key equations, experimental
@@ -35684,16 +35031,6 @@ Where $m_0$ is the initial mass and $m_f$ is the final mass.
 Rockets do not "push against" the air or the ground. They work by conservation of momentum: the
 Rocket expels mass backward, and the rocket moves forward. The expelled gas carries momentum in one
 Direction, and the rocket acquires equal and opposite momentum. This works equally well in a vacuum.
-
-```mermaid
-flowchart TD
-    A[4_Momentum And Impulsex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -36683,16 +36020,6 @@ Newton showed that any orbit under an inverse-square gravitational force is a co
 Trajectories (total energy zero) are parabolas. Unbound trajectories (total energy positive) are
 Hyperbolas. Circular orbits are a special case of elliptical orbits with eccentricity zero.
 
-```mermaid
-flowchart TD
-    A[2_Newtons Lawsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Newton's laws answer the question **why do objects move the way they do?** The key insight is that forces cause _changes_ in motion, not motion itself. An object moving at constant velocity needs no net force, it's the _acceleration_ that requires a force.
@@ -37665,16 +36992,6 @@ $$
 $$
 :::
 
-```mermaid
-flowchart TD
-    A[5_Rotational Motion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Rotational motion is the **mirror image of linear motion**, every linear concept has a rotational analogue. Replace $x$ with $\theta$, $v$ with $\omega$, $a$ with $\alpha$, $m$ with $I$, and $F$ with $\tau$. The equations are identical in form. This isn't a coincidence, it reflects the fact that rotation is one-dimensional motion in the angular coordinate.
@@ -38631,16 +37948,6 @@ Proportional to $m$ So the mass cancels. A ping-pong ball and a spacecraft need 
 Velocity from the same point. This is a consequence of the equivalence of gravitational and inertial
 Mass.
 
-```mermaid
-flowchart TD
-    A[3_Work Energy Powerx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Work, energy, and power provide a **scalar alternative to vector-based force analysis**. Instead of tracking forces and accelerations, you track energy, a single number that captures the state of the system. The work-energy theorem is the bridge: net work done on an object equals its change in kinetic energy.
@@ -39307,27 +38614,6 @@ This content is regularly updated to reflect the latest specification changes an
 - **[Probability](/statistics/3-probability/3_probability/):** Random variables, distributions, and the Central Limit Theorem.
 - **[Statistical Inference](/statistics/4-statistical-inference/4_statistical-inference/):** Confidence intervals, hypothesis tests, and significance.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Exploring Data
@@ -39541,17 +38827,6 @@ Applying a **nonlinear transformation** (e.g., log, square root):
 
 - Can change the shape of the distribution
 - Often used to make skewed data more symmetric
-
-
-```mermaid
-flowchart TD
-    A[1_Exploring Data] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -40077,17 +39352,6 @@ $$
 
 Approximately normal when $np \geq 10$ and $n(1-p) \geq 10$.
 
-
-```mermaid
-flowchart TD
-    A[3_Probability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Probability is the **mathematics of uncertainty**, it quantifies how likely events are and provides the foundation for statistical inference. The key insight is that probability statements are about *long-run frequencies*, not single events.
@@ -40320,17 +39584,6 @@ $$
 t = \frac{b_1 - 0}{SE_{b_1}} \quad \text{with } df = n - 2
 $$
 
-
-```mermaid
-flowchart TD
-    A[5_Regression] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Regression analysis is about **quantifying the relationship between two quantitative variables** and using it for prediction. The key insight is that the least-squares regression line minimises the sum of squared residuals, the vertical distances between the data points and the line.
@@ -40528,17 +39781,6 @@ receives.
 An observed effect is **statistically significant** if it is unlikely to have occurred by chance
 alone. On the AP exam, "statistically significant" means that the observed difference
 between groups is larger than what would be expected from random variation.
-
-
-```mermaid
-flowchart TD
-    A[2_Sampling And Experimentation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -40783,17 +40025,6 @@ t = \frac{b_1 - 0}{SE_{b_1}}
 $$
 
 $df = n - 2$
-
-
-```mermaid
-flowchart TD
-    A[4_Statistical Inference] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

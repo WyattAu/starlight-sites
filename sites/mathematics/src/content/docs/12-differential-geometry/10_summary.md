@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Summary"
 tags:
@@ -175,17 +174,6 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | String theory | Calabi-Yau 3-fold | Ricci-flat Kähler metric moduli |
 | Computer vision | Shape space | Geodesic distances for shape matching |
 | Robotics | Configuration space $C$ | Motion planning via geodesics in $C$ |
-
-
-```mermaid
-flowchart TD
-    A[10_Summary] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

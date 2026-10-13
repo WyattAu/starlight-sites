@@ -11,17 +11,6 @@ categories:
   - language-tests
 ---
 
-
-```mermaid
-flowchart TD
-    A[A1 Beginner] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Overview
 
 CEFR Level A1 is the lowest level of the Common European Framework of Reference
@@ -133,23 +122,3 @@ See you soon, Marie"
 - [A2 Elementary](/cefr-levels/a2-elementary/) - Next level
 - Practice Tests - Test your knowledge
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

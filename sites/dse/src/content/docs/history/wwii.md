@@ -13,17 +13,6 @@ description: "Causes and course of WWII in the Pacific and China, the Second Sin
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Wwii] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Origins of the Pacific War
 
 The Pacific War emerged from decades of Japanese imperial expansion and escalating tensions with Western powers. Japan's modernisation following the Meiji Restoration (1868) produced a militaristic state that sought raw materials and markets across East Asia. The invasion of Manchuria in 1931 and the establishment of the puppet state Manchukuo signalled Japan's intention to build a self-sufficient empire.
@@ -113,23 +102,3 @@ The Pacific War was a collision between an industrialising Japan seeking resourc
 
 **Underestimating the significance of the Battle of Hong Kong:** It was one of the earliest Allied defeats, showing that Britain could not defend its Asian colonies. This influenced post-war decolonisation.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -19,17 +19,6 @@ URL: https://dart.wyattau.com/02-setup/02-dev-enviroment/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[02 Dev Enviroment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Virtual Devices
 
 Virtual devices can be created by opening the command-palette and selecting
@@ -49,7 +38,6 @@ Android devices can be use for running builds by enabling `USB debugging` from
 
 Now when selecting VSCode/command-palette/`Flutter: Select Device`. The identifier of the phone will
 Appear.
-
 
 ## IDE Setup
 
@@ -128,27 +116,6 @@ get` to manage dependencies and `dart analyze` to catch issues early.
 - [Introduction to Dart](/01-intro/) - Language overview
 - [Entry Point](/03-basics/01-entrypoint/) - The main() function
 - [Variables and Types](/03-basics/02-variables/) - Type system
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -585,17 +552,6 @@ dart pub global deactivate fvm
 rm -rf ~/.fvm
 ```
 
-
-```mermaid
-flowchart TD
-    A[01 Installation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of installation, including underlying theory, practical
@@ -637,7 +593,6 @@ URL: https://dart.wyattau.com/03-basics/01-entrypoint/
 
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -646,17 +601,6 @@ import Citations from '@components/Citations.astro'
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "03 Basics", "url": "https://dart.wyattau.com/03-basics"}, {"name": "01 Entrypoint", "url": "https://dart.wyattau.com/03-basics/01-entrypoint"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[01 Entrypoint] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Program Entry
 
@@ -777,27 +721,6 @@ the `args` parameter, and should contain the primary application logic.
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) - Function syntax and closures
 - [Variables and Types](/03-basics/02-variables/) - Type system deep dive
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Variables
@@ -811,16 +734,6 @@ URL: https://dart.wyattau.com/03-basics/02-variables/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "03 Basics", "url": "https://dart.wyattau.com/03-basics"}, {"name": "02 Variables", "url": "https://dart.wyattau.com/03-basics/02-variables"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[02 Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Specifiers
 
@@ -3093,16 +3006,6 @@ map.containsKey('nonexistent'); // false, the key does not exist
 This ambiguity is inherent to any map type that allows null values. Always use `containsKey()` when
 you need to distinguish between "key absent" and "key present with null value."
 
-```mermaid
-flowchart TD
-    A[01 Collections Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of collections deep dive, including underlying theory, practical
@@ -4058,17 +3961,6 @@ class TestApiClient extends ApiClient {
 
 `final` only restricts external code. Within the same library, you can extend `final` classes. This
 is useful for test doubles and internal implementation variants.
-
-
-```mermaid
-flowchart TD
-    A[03 Class Modifiers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5266,16 +5158,6 @@ if (map case {1: var one}) {
 // if (map case {'1': var one}) { } // ERROR, String key for int-keyed map
 ```
 
-```mermaid
-flowchart TD
-    A[01 Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of pattern matching, including underlying theory, practical
@@ -6389,17 +6271,6 @@ Event fromJson(Map&lt;String, dynamic&gt; json) => switch (json['type']) {
 The `switch` on the discriminator string is not exhaustive (strings are not sealed), so you need
 `default` here. This is the one place where sealed class exhaustiveness does not apply, at the
 Serialization boundary where types are erased.
-
-
-```mermaid
-flowchart TD
-    A[02 Sealed Classes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -7806,17 +7677,6 @@ Navigator's state. If you need to preserve each tab's navigation history, use
 When building custom pages, always provide a unique `key` ( `state.pageKey`). Without a Stable key,
 Flutter may not properly animate transitions or may incorrectly reuse page state.
 
-
-```mermaid
-flowchart TD
-    A[01 Navigation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of navigation, including underlying theory, practical
@@ -8761,17 +8621,6 @@ internally call `dependOnInheritedWidgetOfExactType`.
 **Why it matters:** Understanding the widget model and lifecycle is essential for building responsive, performant Flutter apps that update correctly when data changes.
 
 **The key insight:** Flutter's "everything is a widget" philosophy means complex UIs are built by nesting simple widgets, mastering composition is the key to Flutter mastery.
-
-
-```mermaid
-flowchart TD
-    A[02 Widgets And Lifecycle] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -10093,17 +9942,6 @@ Do not create a BLoC, notifier, or provider for a feature that is a single scree
 `setState` is the correct tool for that. Premature abstraction adds complexity without benefit.
 Abstract when the state is shared across screens, when the logic is complex enough to test in
 Isolation, or when multiple widgets need to react to the same state change.
-
-
-```mermaid
-flowchart TD
-    A[01 State Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -11509,17 +11347,6 @@ Functionality. The Flutter ecosystem has thousands of plugins covering most comm
 and maintaining custom platform channels across Android, iOS, macOS, Windows, and Linux is a
 Significant maintenance burden. Use Pigeon if you must write custom channels to reduce the
 Boilerplate and type-safety risks.
-
-
-```mermaid
-flowchart TD
-    A[01 Platform Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -12951,17 +12778,6 @@ Everyone ignores, at which point the golden test has zero value. Run
 than one with 100% coverage and weak assertions. Coverage measures execution, not correctness. Use
 it as a floor, not a ceiling, and supplement it with code review of assertion quality.
 
-
-```mermaid
-flowchart TD
-    A[01 Testing Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of testing fundamentals, including underlying theory, practical
@@ -14389,16 +14205,6 @@ class User with _$User {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[13 Code Generation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of code generation, including underlying theory, practical
@@ -15655,17 +15461,6 @@ and how they're resolved. Pick one primary approach and be consistent. If using 
 Riverpod providers for all Flutter-specific dependencies and reserve `get_it` for non-Flutter Dart
 Services if needed.
 
-
-```mermaid
-flowchart TD
-    A[12 Dependency Injection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dependency injection, including underlying theory, practical
@@ -16771,17 +16566,6 @@ void writeLog(String message) async {
 
 Alternatively, use the `using` pattern from `package:resource` or Dart's `Resource` class (Dart
 3.3+) for scope-bound resource management.
-
-
-```mermaid
-flowchart TD
-    A[08 Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -18504,16 +18288,6 @@ Not all Dart objects can be sent between isolates. Sendable objects include: pri
 `List` and `Map` of sendable elements, `SendPort`, `TransferableTypedData` and `Capability`. Non-
 Sendable objects include: closures, `Socket`, `HttpClient`, `File`, `Isolate` and most `dart:io` Types.
 
-```mermaid
-flowchart TD
-    A[09 Ffi And Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of ffi and advanced topics, including underlying theory,
@@ -18909,16 +18683,6 @@ URL: https://dart.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -21140,16 +20904,6 @@ testWidgets('navigates to detail on tap', (tester) async {
 7. **Coverage without quality.** A high coverage number from low-quality tests provides a false
    sense of security. A single well-structured test that exercises a real edge case is worth more
    than ten tests that assert nothing meaningful.
-
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

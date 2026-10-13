@@ -191,17 +191,6 @@ $\blacksquare$
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[8_Coherence] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Coherence is the predictability of a wave's phase over time and space. A laser maintains phase relationships for microseconds, allowing interference over meters. A light bulb's atoms emit independently, so phases randomize in femtoseconds, limiting coherence to micrometers. The coherence length is the maximum path difference where interference fringes remain visible, like the distance over which two runners stay in step. Spatial coherence depends on source size: a point source is perfectly coherent across space, while an extended source like the sun has limited spatial coherence. The van Cittert-Zernike theorem connects source angular size to coherence area.
@@ -225,23 +214,3 @@ The van Cittert-Zernike theorem shows that even an extended incoherent source pr
 
 Coherence is the predictability of a wave's phase over time and space. A laser maintains phase relationships for microseconds, allowing interference over meters. A light bulb's atoms emit independently, so phases randomize in femtoseconds, limiting coherence to micrometers. The coherence length is the maximum path difference where interference fringes remain visible, like the distance over which two runners stay in step. Spatial coherence depends on source size: a point source is perfectly coherent across space, while an extended source like the sun has limited spatial coherence. The van Cittert-Zernike theorem connects source angular size to coherence area.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

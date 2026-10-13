@@ -563,16 +563,6 @@ int main() {
 - [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
 - [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
 
-```mermaid
-flowchart TD
-    A[3_Noexcept] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to the noexcept specifier,

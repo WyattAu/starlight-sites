@@ -135,17 +135,6 @@ Taking all products, the six abelian groups of order 72 are:
 | Structure Theorem | Finitely generated abelian $\cong \mathbb{Z}^r \times$ cyclic groups | Classification of abelian groups |
 | Simplicity of $A_n$ | $A_n$ is simple for $n \geq 5$ | Impossibility of quintic formula |
 
-
-```mermaid
-flowchart TD
-    A[14_Additional Results] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Galois Theory Fundamentals](/1-abstract-algebra/13_galois-theory-fundamentals/)**: Uses group-theoretic results such as solvability and the structure of symmetric groups to determine which polynomials are solvable by radicals.
@@ -161,27 +150,6 @@ Cauchy's theorem tells us that primes leave fingerprints in group structure: if 
 - Forgetting that the Structure Theorem requires the group to be both finitely generated and abelian.
 - Assuming the classification of finite simple groups applies to infinite groups.
 - Mixing up the partitions of exponents when applying the Structure Theorem (e.g., $\mathbb{Z}/8\mathbb{Z}$ vs $\mathbb{Z}/4\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ are both order 8 but non-isomorphic).
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -267,16 +235,6 @@ classification is straightforward, But non-abelian cases require careful analysi
 semidirect products.
 :::
 
-```mermaid
-flowchart TD
-    A[16_Classification Of Groups Of Small Order] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Classifying small groups is like cataloguing all possible symmetries of objects with a given number of elements. Prime-order groups are always cyclic, reflecting the rigidity imposed by Lagrange's theorem. Groups of order p-squared are always abelian because the centre is large enough to force commutativity. The fascinating cases begin at order 8, where non-abelian groups like the dihedral group D4 and the quaternion group Q8 appear. The number of groups grows explosively: 5 at order 8, 14 at order 16, 51 at order 32. This combinatorial explosion reveals that symmetry becomes exponentially richer as systems grow.
@@ -333,27 +291,6 @@ Beyond order 12, the classification continues to grow in complexity:
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -502,16 +439,6 @@ order of $1$ in the additive group is $n$, while in the multiplicative group of 
 the order of $1$ is $1$ (since $1$ is the identity).
 :::
 
-```mermaid
-flowchart TD
-    A[17_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The pitfalls in abstract algebra arise from treating algebraic structures as if they were sets with extra labels rather than as systems governed by axioms. Normality is not automatic, quotients collapse information irreversibly, and irreducibility depends on the coefficient field. The deepest error is forgetting that structure is relational: a subgroup is normal only relative to the ambient group, a polynomial is irreducible only over a specific field, and a ring map need not preserve multiplicative identity. Every counterexample here is a lesson in checking that the hypotheses match the theorem.
@@ -632,17 +559,6 @@ $$
 \mathrm{Fields} \subset \mathrm{Euclidean\ domains} \subset \mathrm{PIDs} \subset \mathrm{UFDs} \subset \mathrm{Integral\ domains}
 $$
 
-
-```mermaid
-flowchart TD
-    A[11_Euclidean Domains Pids And Ufds] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The hierarchy Euclidean domain, PID, UFD captures a fundamental question: how well does division work in a ring? A Euclidean domain lets you divide with remainder, like the integers, and this guarantees every ideal is principal and every element factors uniquely. A PID drops the division algorithm but keeps the consequence: every ideal is generated by a single element. A UFD only requires unique factorisation into irreducibles, the weakest condition that still gives meaningful arithmetic. The classic failure, Z[square root of -5], shows that without unique factorisation, even basic number theory breaks down.
@@ -695,27 +611,6 @@ only polynomials with even constant term, so $1 \notin I$. Thus $I$ is not princ
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -893,17 +788,6 @@ An element $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] < \inf
 **Mistake 3: Forgetting that finite fields have characteristic $p$**
 Every finite field has order $p^n$ for some prime $p$ and integer $n \geq 1$. Students sometimes attempt to construct a finite field of order $6$ or $10$, which is impossible since these are not prime powers. The characteristic of any finite field is prime, and the multiplicative group is cyclic.
 
-
-```mermaid
-flowchart TD
-    A[12_Field Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Rings](/1-abstract-algebra/8_rings/)**: Fields are special commutative rings where every nonzero element is a unit.
@@ -961,27 +845,6 @@ Abstract algebra distils the essence of arithmetic into algebraic structures. A 
 - **Linear Algebra:** Vector spaces as modules over fields; linear algebra uses field theory.
 - **Number Theory:** Algebraic structures in number theory; modular arithmetic uses group and ring structures.
 - **Topology:** Topological groups and algebraic topology; group theory underpins homology groups.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -1123,17 +986,6 @@ Therefore $\mathrm{Gal}(E/\mathbb{Q}) \cong D_4$ (dihedral group of order $8$). 
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[13_Galois Theory Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Additional Results](/1-abstract-algebra/14_additional-results/)**: Extends the group theory toolkit with Cauchy's theorem and the structure theorem for abelian groups, which underpin the classification of Galois groups.
@@ -1145,27 +997,6 @@ Galois theory reveals the deep connection between field extensions and group the
 ## Common Pitfalls
 
 - **Splitting field degree vs.\ polynomial degree.** The degree $[E:\mathbb{Q}]$ of a splitting field is not always equal to the degree of the polynomial; it equals the order of the Galois group, which can be larger (e.g.\ $x^3-2$ has degree 3 but $[E:\mathbb{Q}]=6$).
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -1305,17 +1136,6 @@ has the form $g^k z$ for some $k \in \mathbb{Z}$ and $z \in Z(G)$. For any two s
 $(g^{k_1}z_1)(g^{k_2}z_2) = g^{k_1+k_2}z_1z_2 = g^{k_2+k_1}z_2z_1 = (g^{k_2}z_2)(g^{k_1}z_1)$ So $G$
 is abelian, contradicting $|Z(G)| = p$. Thus $|Z(G)| = p^2$ and $G$ is abelian. $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[6_Group Actions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Group actions describe how symmetry groups interact with sets. A group acts on a set by assigning to each group element a permutation of the set, subject to compatibility conditions. The orbit of an element is the set of all positions reachable by the group action, while the stabiliser is the subgroup that fixes that element. The orbit-stabilizer theorem links these quantities: the size of the orbit equals the index of the stabiliser, relating local symmetry to global structure. Burnside's lemma counts orbits by averaging fixed points, turning a potentially difficult enumeration into a manageable computation. These tools appear throughout mathematics, from counting colourings of objects to classifying crystal structures.
@@ -1335,27 +1155,6 @@ Group actions describe how symmetry groups interact with sets. A group acts on a
 - [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- The orbit-stabilizer theorem is a generalisation of Lagrange's theorem applied to group actions.
 - [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/) -- Group actions on conjugacy classes and Sylow subgroups drive the classification of small-order groups.
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- Several worked examples apply orbit-stabilizer and Burnside's lemma to concrete counting problems.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -1596,17 +1395,6 @@ $d$ of $n$. The converse of Lagrange's theorem is false. For example, $A_4$ has 
 subgroup of order $6$. However, every subgroup of a _cyclic_ group of order $n$ has order dividing
 $n$ And for each divisor There is exactly one such subgroup.
 :::
-
-
-```mermaid
-flowchart TD
-    A[1_Groups] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -1932,17 +1720,6 @@ The image $\mathrm{im}(\phi)$ is a subgroup of the codomain $H$, but it need not
 **Mistake 3: Applying isomorphism theorems to non-normal subgroups**
 The first isomorphism theorem requires $\ker(\phi) \trianglelefteq G$, which is guaranteed. However, the second and third isomorphism theorems require the relevant subgroups to be normal. For example, $H/(H \cap N) \cong HN/N$ requires $N \trianglelefteq G$. Applying these theorems without normality leads to incorrect conclusions.
 
-
-```mermaid
-flowchart TD
-    A[5_Homomorphisms And Isomorphism Theorems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Groups](/1-abstract-algebra/1_groups/)**: Groups are the structures that homomorphisms map between while preserving the group operation.
@@ -2099,17 +1876,6 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 - **Error-correcting codes:** Polynomial rings over finite fields and quotient constructions underpin Reed-Solomon and BCH codes.
 - **Algebraic geometry:** The correspondence between ideals of $k[x_1, \ldots, x_n]$ and algebraic varieties (Hilbert's Nullstellensatz) generalises the prime/maximal ideal classification.
 
-
-```mermaid
-flowchart TD
-    A[9_Ideals And Quotient Rings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Rings](/1-abstract-algebra/8_rings/)**: Rings provide the ambient structure in which ideals and quotient rings are defined.
@@ -2118,27 +1884,6 @@ flowchart TD
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -2471,16 +2216,6 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 - **Coding theory:** The structure of cosets of subgroups in finite groups is used in linear codes and syndrome decoding.
 - **Computational group theory:** Lagrange's Theorem bounds the search space when testing subgroup membership; the index determines the number of coset representatives needed.
 
-```mermaid
-flowchart TD
-    A[3_Lagrange S Theorem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - [Group Actions](/1-abstract-algebra/6_group-actions/) -- The orbit-stabilizer theorem generalises Lagrange's theorem to group actions, linking subgroup indices to orbit sizes.
@@ -2639,16 +2374,6 @@ The quotient group $G/N$ collapses all elements of $N$ to the identity, creating
 | Center $Z(G)$ | Commutes with everything | Always a normal subgroup |
 | Commutator subgroup $[G,G]$ | Generated by $g_1 g_2 g_1^{-1} g_2^{-1}$ | Always normal; $G/[G,G]$ is abelian |
 
-```mermaid
-flowchart TD
-    A[4_Normal Subgroups And Quotient Groups] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/)**: Lagrange's theorem constrains the index of a normal subgroup and the order of the quotient group.
@@ -2657,26 +2382,6 @@ flowchart TD
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -2792,17 +2497,6 @@ Thus $f$ has no factor of degree $1$ or $2$ So $f$ is irreducible in $\mathbb{Q}
 - If $R$ is a PID, then $R[x]$ is a UFD but generally not a PID.
 - The degree map $\deg : F[x] \setminus \{0\} \to \mathbb{N}$ is a Euclidean valuation.
 
-
-```mermaid
-flowchart TD
-    A[10_Polynomial Rings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Polynomial rings extend arithmetic to algebraic structures. The ring F[x] consists of formal sums of powers of x with coefficients in a field, and it inherits the familiar operations of addition and multiplication. The division algorithm allows you to divide one polynomial by another, producing a quotient and remainder, just as with integers. This makes polynomial rings Euclidean domains, where unique factorisation into irreducibles holds. Eisenstein's criterion provides a practical test for irreducibility: if a prime divides all coefficients except the leading one, and its square does not divide the constant term, the polynomial is irreducible. Polynomial rings are fundamental to coding theory, cryptography, and algebraic geometry.
@@ -2845,27 +2539,6 @@ By Eisenstein with $p = 2$: $2 \mid 0, 4, 2$ but $2 \nmid 1$ (leading coefficien
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Practice Abstract Algebra
@@ -2890,23 +2563,13 @@ the explanation.
 
 ### Groups and Subgroups
 
-
-
-
-
 ---
 
 ### Homomorphisms and Rings
 
-
-
-
-
 ---
 
 ### Fields and Group Actions
-
-
 
 ## Common Mistakes
 
@@ -2921,27 +2584,6 @@ the explanation.
 - [Abstract Algebra](./)
 - [University Maths Flashcards: Abstract Algebra](/1-abstract-algebra/20_flashcards-abstract-algebra/)
 - [Groups](/1-abstract-algebra/1_groups/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -3486,17 +3128,6 @@ $\mathbb{F}_{p^m} \subseteq \mathbb{F}_{p^n}$ If and only if $m$ divides $n$. $\
 
 _If you get this wrong, revise: Section 12.4, Theorem 12.5; Section 12.6._
 
-
-```mermaid
-flowchart TD
-    A[18_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Abstract algebra is the study of symmetry made precise. Groups capture the structure of symmetries, rings capture the structure of arithmetic, and fields combine both. The Sylow theorems exploit prime factorisation to pin down the internal structure of finite groups, much like prime factorisation reveals the building blocks of integers. Galois theory connects field extensions to group theory, explaining why polynomial equations of degree five or higher cannot be solved by radicals. The recurring theme is that quotient structures collapse information in controlled ways, revealing hidden patterns.
@@ -3707,17 +3338,6 @@ A zero divisor $a$ satisfies $ab = 0$ for some nonzero $b$, while a unit $a$ sat
 **Mistake 3: Assuming all rings have a multiplicative identity**
 The definition of a ring does not require a multiplicative identity $1$. Some authors include $1$ in the definition (called "rings with unity"), while others do not. When working with rings without unity, statements about units and the cancellation law may fail. Always check whether the ring is assumed to have unity.
 
-
-```mermaid
-flowchart TD
-    A[8_Rings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Ideals and Quotient Rings](/1-abstract-algebra/9_ideals-and-quotient-rings/)**: Ideals are the ring-theoretic analogue of normal subgroups and enable quotient ring constructions.
@@ -3883,17 +3503,6 @@ Transpositions), we have $S_n = \langle \sigma, \tau \rangle$. $\blacksquare$
 
 ### 2.8 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[2_Subgroups] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A subgroup is a subset of a group that is itself a group under the same operation. The subgroup criterion, $ab^{-1} \in H$ for all $a, b \in H$, packages closure, identity, and inverses into one condition. The cyclic subgroup generated by an element $g$ consists of all powers of $g$: it is the smallest subgroup containing $g$, like the orbit of a single rotation. Lagrange's theorem says the size of any subgroup divides the size of the whole group, which severely limits the possible subgroup structures. Normal subgroups are the ones that are compatible with coset multiplication, enabling quotient groups, the algebraic analogue of factoring out by a symmetry.
@@ -3917,27 +3526,6 @@ A coset $gH$ is a set of elements, not a group (unless $H$ is normal). The quoti
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -4038,17 +3626,6 @@ $|G|$. The index $[G : H] = |G|/|H| = 3$, and the cosets are $H$, $(13)H = \{(13
 $(23)H = \{(23), (123)\}$.
 
 $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[19_Summary Of Key Results] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -4256,17 +3833,6 @@ $n_p = 1$ Forcing a normal Sylow subgroup and contradicting simplicity. $\blacks
 
 ### 7.8 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[7_The Sylow Theorems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Sylow theorems are the crown jewels of finite group theory. They guarantee the existence of subgroups of prime-power order (Sylow $p$-subgroups) and constrain how many there can be. Think of a group's order as having prime "layers", the Sylow theorems say each layer contains a subgroup that fills it completely. The counting constraints $n_p \equiv 1 \pmod{p}$ and $n_p \mid m$ are surprisingly powerful: often $n_p$ is forced to be $1$, meaning the Sylow subgroup is unique and therefore normal. This lets you decompose a group as a product of its Sylow subgroups, reducing classification problems to studying groups of prime-power order.
@@ -4350,17 +3916,6 @@ The Galois group is generated by:
 
 With $\tau\sigma\tau^{-1} = \sigma^{-1}$ We get $\mathrm{Gal}(E/\mathbb{Q}) \cong D_8$ (the dihedral
 Group of order 8). $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[15_Worked Examples] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -4459,27 +4014,6 @@ These are the only two possibilities, so there are exactly two groups of order $
 - [Polynomial Rings](/1-abstract-algebra/10_polynomial-rings/) -- The ring-theoretic examples rely on irreducibility criteria and Euclidean division developed in this chapter.
 - [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/) -- The chain of implications between ring types underpins the factorisation arguments in the worked examples.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## Measure-Theory
 
 ---
@@ -4530,27 +4064,6 @@ Measure theory generalises the concept of "size", length, area, volume, to abstr
 - **Functional Analysis:** L^p spaces and Banach space theory; measure theory provides the integration foundation.
 - **Probability and Statistics:** Measure-theoretic probability foundations; probability is a normalised measure.
 - **Real Analysis:** Riemann integration is a special case of Lebesgue integration for continuous functions.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -4736,17 +4249,6 @@ and integration when differentiating under the integral to compute moments.
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-
-```mermaid
-flowchart TD
-    A[8_Fubini And Tonelli Theorems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Fubini and Tonelli theorems justify the interchange of the order of integration for functions of multiple variables. Tonelli's theorem applies to non-negative functions and requires no integrability assumption: you can always swap the order of integration for non-negative measurable functions. Fubini's theorem applies to integrable functions and concludes that the iterated integrals are equal and finite. The key physical intuition is that integrating over a product space can be done one variable at a time, like summing rows then columns of a matrix. The cautionary example of functions with different iterated integrals shows that integrability is essential: without it, the order of integration can matter.
@@ -4763,27 +4265,6 @@ The Fubini and Tonelli theorems justify the interchange of the order of integrat
 
 3. **Non-measurable sections.** If $f$ is not product-measurable, the sections $f(x, \cdot)$ may
    fail to be measurable, making iterated integrals ill-defined.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -5092,17 +4573,6 @@ Weak $L^p$ spaces are larger than $L^p$: $L^p \subseteq L^{p,\infty}$ with $\|f\
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-```mermaid
-flowchart TD
-    A[7_L P Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 $L^p$ spaces formalise the idea of "how big" a function is by integrating its $p$-th power. The $L^2$ space is the familiar Hilbert space of square-integrable functions, the setting for Fourier analysis and quantum mechanics. For $p \neq 2$, there is no inner product, only the norm. The key trade-off: larger $p$ penalises peaks more harshly, so $L^\infty$ measures the essential supremum (the worst-case value). Minkowski's inequality is the triangle inequality for these spaces, and Hölder's inequality controls how products of functions behave. The Riesz-Fischer theorem, $L^p$ is complete, is what makes integration theory work: Cauchy sequences of functions actually converge to a function.
@@ -5127,27 +4597,6 @@ Conversely, $\|f\|_p \leq M\,\mu(X)^{1/p}$, so $\limsup_{p\to\infty} \|f\|_p \le
 $\blacksquare$
 
 </details>
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -5314,17 +4763,6 @@ The key advantage is that the Lebesgue integral can handle functions with wild d
 | Non-negative meas.   | $\sup\{\int s : 0 \leq s \leq f,\ s\text{ simple}\}$                    | MCT applies                      |
 | General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int\|f\| < \infty$ |
 
-
-```mermaid
-flowchart TD
-    A[6_Lebesgue Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Measures](/10-measure-theory/2_measures/)**: Lebesgue integration is built on measure theory, with the integral defined as a supremum over simple functions.
@@ -5349,27 +4787,6 @@ $$
 We can verify directly: $\int_0^\pi \sin(nx)\, dx = [-\cos(nx)/n]_0^\pi = (1 - (-1)^n)/n$, so the integral is $0$ for even $n$ and $2/n^2$ for odd $n$, both vanishing as $n\to\infty$.
 
 $\blacksquare$
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -5522,17 +4939,6 @@ $n$, $m(C) \leq \lim_{n\to\infty} (2/3)^n = 0$. $\blacksquare$
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-
-```mermaid
-flowchart TD
-    A[4_Lebesgue Measurable Sets And Non Measurable Sets] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Lebesgue measurability determines which sets can be assigned a consistent "size." The outer measure covers any set with intervals from above, but only measurable sets satisfy the property that their size equals the sizes of their pieces added together. The Vitali construction shows that not all sets are measurable: using the axiom of Choice, you can build a set that is so irregular that no consistent measure can be assigned. The Cantor set shows the opposite extreme, an uncountable set with measure zero, demonstrating that measure and cardinality are unrelated. Lebesgue measurability is the sweet spot: large enough to include all Borel sets and null sets, but small enough to avoid pathological constructions.
@@ -5547,27 +4953,6 @@ Every Borel set is Lebesgue measurable, but not vice versa. The Cantor set is Bo
 
 **Mistake 3: Assuming outer measure is additive**
 Outer measure $m^*$ is subadditive ($m^*(\bigcup A_n) \leq \sum m^*(A_n)$) but not additive. For disjoint non-measurable sets, outer measure can fail to be additive. Additivity holds only for measurable sets. The Vitali construction exploits this failure: the outer measure of the union of translates of $V$ is bounded, but the sum of outer measures is not.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -5821,17 +5206,6 @@ The Lebesgue outer measure and Caratheodory extension theorem provide the founda
 - **Vitali (1905):** Proved the existence of non-measurable sets using the Axiom of Choice.
 - **Banach (1923):** Showed that a translation-invariant, finitely additive measure on all subsets of $\mathbb{R}$ exists if we drop countable additivity (using a weaker form of the Axiom of Choice).
 
-
-```mermaid
-flowchart TD
-    A[3_Lebesgue Outer Measure And Caratheodory Extension] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)**: Further exploration of which subsets of $\mathbb{R}$ are measurable and the structure of the $\sigma$-algebra of measurable sets.
@@ -6000,16 +5374,6 @@ $\mu(A_n) \to \mu(A)$. This is continuity from above.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-```mermaid
-flowchart TD
-    A[5_Measurable Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Measurable functions are the functions that play nicely with measure theory, they are built from simple functions by taking limits. Simple functions (finite linear combinations of indicator functions) are the "pixels" of measurable functions, approximating any function from below. The Borel $\sigma$-algebra is generated by open sets, ensuring that limits of measurable functions remain measurable. The layer cake representation decomposes a function into horizontal slices: the integral equals the integral of the measures of the superlevel sets. This viewpoint converts questions about functions into questions about sets, which is often easier. Convergence in measure is weaker than pointwise convergence but more robust for passing to limits.
@@ -6040,26 +5404,6 @@ Egorov's theorem states that pointwise a.e.\ convergence implies uniform converg
 
 **Mistake 3: Assuming that measurable functions are continuous or have nice properties**
 Measurable functions can be highly discontinuous -- in fact, a function is measurable if and only if it is a pointwise limit of simple functions. Students sometimes assume measurability implies continuity or boundedness, which is false. The indicator function of the rationals is measurable but discontinuous everywhere.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -6224,17 +5568,6 @@ $\blacksquare$
 
 ### 2.9 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[2_Measures] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A measure assigns a "size" to sets in a way that is consistent under subdivision. The three axioms, non-negativity, the measure of the empty set is zero, and countable additivity for disjoint sets, capture the idea that the whole equals the sum of its parts, even when there are infinitely many. Lebesgue measure on the real line generalises length: intervals get their usual length, and more complicated sets are measured by covering them with intervals. The Cantor set illustrates the subtlety: it is uncountable yet has measure zero, showing that cardinality and measure are independent notions. The $\sigma$-algebra determines which sets are measurable, a technical but essential requirement for consistency.
@@ -6287,23 +5620,13 @@ answer, submit, and review the explanation.
 
 ### Fundamentals
 
-
-
-
-
 ---
 
 ### Integration
 
-
-
-
-
 ---
 
 ### L^p Spaces
-
-
 
 ## Common Mistakes
 
@@ -6318,27 +5641,6 @@ answer, submit, and review the explanation.
 - [Measure Theory](./)
 - [University Maths Flashcards: Measure Theory](/10-measure-theory/11_flashcards-measure-theory/)
 - [Sigma-Algebras and Measurable Spaces](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -6502,17 +5804,6 @@ $\nu = m + \delta_0$ with $m \ll m$ and $\delta_0 \perp m$. $\blacksquare$
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-
-```mermaid
-flowchart TD
-    A[9_Radon Nikodym Derivative And Lebesgue Decomposition] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Radon-Nikodym derivative generalises the concept of a density function. If one measure is absolutely continuous with respect to another, meaning it assigns zero to every set that the reference measure does, then the Radon-Nikodym theorem guarantees the existence of a derivative function that converts one measure into the other via integration. This is analogous to the fundamental theorem of calculus: just as differentiation recovers a function from its integral, the Radon-Nikodym derivative recovers the density from a measure. The Lebesgue decomposition theorem shows that any measure can be uniquely split into an absolutely continuous part and a singular part, like decomposing a signal into a smooth component and a spike.
@@ -6615,16 +5906,6 @@ intervals of the form $(a, \infty)$ with $a \in \mathbb{R}$.
 | $\sigma$-algebra       | Yes                        | Yes                           |
 | Monotone class         | No (only monotone limits)  | No (only countable increasing unions) |
 | Dynkin system ($\lambda$-system) | No (only disjoint unions) | No (only countable disjoint unions) |
-
-```mermaid
-flowchart TD
-    A[1_Sigma Algebras And Measurable Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -6862,17 +6143,6 @@ the Radon-Nikodym theorem connects measures via densities.
 | Minkowski | $\|f+g\|_p \leq \|f\|_p + \|g\|_p$ | Triangle inequality |
 | Jensen | $\phi(\int f) \leq \int \phi(f)$ for convex $\phi$ | Entropy inequalities |
 
-
-```mermaid
-flowchart TD
-    A[10_Summary Of Key Results] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Lebesgue Outer Measure and Caratheodory Extension](/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension/)**: The foundational construction of Lebesgue measure upon which all these results depend.
@@ -7078,17 +6348,6 @@ The **kernel** $k(x, y) = \langle k_x, k_y \rangle$ is a positive definite funct
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-
-```mermaid
-flowchart TD
-    A[7_Applications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Functional analysis provides the language and machinery for solving differential equations, signal processing, and machine learning. In PDE theory, weak solutions are obtained by projecting onto finite-dimensional subspaces via the Galerkin method, with existence guaranteed by the Lax-Milgram theorem. The Fourier transform decomposes signals into frequencies, and the sampling theorem connects continuous signals to their discrete representations. In quantum mechanics, states live in Hilbert space and observables are self-adjoint operators whose spectral decompositions determine measurement outcomes. In machine learning, reproducing kernel Hilbert spaces provide the mathematical framework for support vector machines and Gaussian processes, where inner products encode similarity between data points.
@@ -7103,27 +6362,6 @@ A weak solution satisfies the PDE in a distributional sense, while a strong solu
 
 **Mistake 3: Forgetting that compactness is essential for extracting convergent subsequences**
 In the direct method of calculus of variations, one needs a minimizing sequence, weak lower semicontinuity of the functional, and weak compactness of the domain. Students frequently try to extract a strongly convergent subsequence from a bounded sequence, which fails in infinite dimensions. Weak compactness (via reflexivity) and then using the compactness of certain operators is the correct approach.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -7276,17 +6514,6 @@ $(1, 1, 1, \ldots)$), $J$ is not surjective, so $c_0$ is not reflexive.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-```mermaid
-flowchart TD
-    A[3_Bounded Linear Operators] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Bounded linear operators are the continuous linear maps between normed spaces, they do not blow up small inputs into large outputs. The operator norm measures the maximum stretching factor. The open mapping theorem says that surjective bounded operators between Banach spaces are automatically open maps, which implies the bounded inverse theorem: an invertible bounded operator has a bounded inverse. The closed graph theorem provides a practical test: a linear operator is bounded if and only if its graph is closed. These three results, open mapping, bounded inverse, and closed graph, are the fundamental theorems of functional analysis, guaranteeing that well-behaved operators behave as expected.
@@ -7305,27 +6532,6 @@ $(Tf_n)(x) = x \cdot nx^{n-1} = nx^n$, so $\|Tf_n\|_\infty = n$.
 Since $\|Tf_n\|/\|f_n\| = n \to \infty$ as $n \to \infty$, the operator $T$ is unbounded. $\blacksquare$
 
 </details>
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -7426,16 +6632,6 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-```mermaid
-flowchart TD
-    A[5_Compact Operators] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Compact operators are the infinite-dimensional analogue of finite matrices. In finite dimensions, the unit ball is compact and every bounded operator maps it to a relatively compact set. In infinite dimensions this fails, and compact operators are precisely those that restore this finite-dimensional behaviour: they squeeze the unit ball into a nearly finite-dimensional image. The spectral theorem for compact self-adjoint operators decomposes them as weighted sums of rank-one projections, with eigenvalues decaying to zero. The Fredholm alternative then says that for compact operators, solving a linear equation reduces to a finite-dimensional problem: either the homogeneous equation has only the trivial solution, or it has a finite-dimensional space of solutions.
@@ -7487,26 +6683,6 @@ $\max_n |\lambda_n| = \|T\|$ by the spectral radius formula for self-adjoint ope
 - **Signal processing:** The Karhunen-Loeve transform uses the spectral decomposition of compact
   covariance operators to find optimal bases for signal representation and compression (PCA).
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Flashcards Functional Analysis
@@ -7555,27 +6731,6 @@ Functional analysis is linear algebra in infinite dimensions, vector spaces of f
 - **Linear Algebra:** Vector spaces and inner products; functional analysis extends these to infinite dimensions.
 - **Measure Theory:** L^p spaces built on measure-theoretic foundations; integration defines the norms.
 - **Real Analysis:** Convergence, continuity, and completeness underpin Banach and Hilbert space theory.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -7718,17 +6873,6 @@ Distributions and their connection to functional analysis:
 
 The evolution of functional analysis demonstrates how abstract mathematical frameworks can
 unify diverse areas and provide powerful tools for applications across physics and engineering.
-
-
-```mermaid
-flowchart TD
-    A[8_Historical Context] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -7998,17 +7142,6 @@ product.
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-
-```mermaid
-flowchart TD
-    A[2_Inner Product Spaces And Hilbert Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Inner product spaces generalise the dot product to abstract vector spaces, enabling notions of angle and orthogonality. An inner product measures how aligned two vectors are, with zero indicating perpendicularity. The Cauchy-Schwarz inequality bounds this alignment, and the parallelogram law characterises exactly which norms arise from inner products. Hilbert spaces are complete inner product spaces, and the Riesz representation theorem guarantees that every continuous linear functional on a Hilbert space is itself given by an inner product. This self-referential structure, where a space is isometrically isomorphic to its dual, is what makes Hilbert spaces the natural home for quantum states, Fourier series, and least-squares approximation.
@@ -8051,27 +7184,6 @@ The constant function $h(x) = c$ satisfies $\langle f, h\rangle = c\int_0^1 f = 
 Conversely, if $g \in M^\perp$, write $g = \bar{g} + c$ where $\bar{g} \in M$ and $c = \int_0^1 g$.
 Then $0 = \langle \bar{g}, g\rangle = \|\bar{g}\|^2 + c\int \bar{g} = \|\bar{g}\|^2$, so $\bar{g}=0$
 and $g$ is constant. Hence $M^\perp$ is the 1-dimensional space of constant functions. $\blacksquare$
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -8265,17 +7377,6 @@ $(\ell^p)^{**} \cong \ell^p$ via the natural embedding.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-```mermaid
-flowchart TD
-    A[1_Normed Spaces And Banach Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Functional analysis extends linear algebra to infinite dimensions. A normed space is a vector space where you can measure the "size" of vectors, and a Banach space is one where Cauchy sequences converge, the space has no "holes." Think of it as doing linear algebra with functions instead of finite arrays. The dual space contains all continuous linear functionals: machines that take in a vector and return a number. Boundedness and continuity coincide for linear maps, a fact that fails in nonlinear settings. The key challenge of infinite dimensions is that bounded sequences need not have convergent subsequences, compactness becomes a rare and precious property, requiring special conditions like reflexivity.
@@ -8315,16 +7416,9 @@ the explanation.
 
 ### Banach and Hilbert Spaces
 
-
-
-
-
 ---
 
 ### Fundamental Theorems
-
-
-
 
 ## Common Mistakes
 
@@ -8337,8 +7431,6 @@ the explanation.
 ---
 
 ### Compact Operators and Spectral Theory
-
-
 
 ## Common Mistakes
 
@@ -8354,27 +7446,6 @@ the explanation.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -8572,17 +7643,6 @@ operators (Spectral).
 | Normal | $\|T\| = r(T)$ (spectral radius) | Spectral theorem applies |
 | Bounded self-adjoint | $\sigma \subseteq \mathbb{R}$ | $\sup\sigma = \|T\|$ if $T \geq 0$ |
 
-
-```mermaid
-flowchart TD
-    A[9_Summary Of Key Theorems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - [Historical Context of Functional Analysis](/11-functional-analysis/8_historical-context/) -- The historical development of Hilbert spaces and operator theory provides context for the theorems summarised here.
@@ -8773,17 +7833,6 @@ Prove that if $x_n \to 0$ and $Tx_n \to y$ implies $y = 0$, then $T$ is bounded.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-```mermaid
-flowchart TD
-    A[4_The Fundamental Theorems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The fundamental theorems of functional analysis establish the basic infrastructure of infinite-dimensional analysis. Hahn-Banach says you can always extend a bounded linear functional from a subspace to the whole space without losing control of its norm, ensuring the dual space is rich enough to separate points. The open mapping theorem states that surjective bounded operators between Banach spaces are automatically open, meaning approximate solutions to linear equations can be upgraded to exact ones. The uniform boundedness principle says that if a family of operators is pointwise bounded, it is uniformly bounded. These theorems all rely on the Baire category theorem, which captures the idea that complete spaces are too large to be filled by countably many thin sets.
@@ -8937,17 +7986,6 @@ $f_n \rightharpoonup 0$. Note that $\|f_n\|_2 = \sqrt{\pi}$, so $f_n$ does not c
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-```mermaid
-flowchart TD
-    A[6_Weak And Weak Convergence] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Weak convergence generalises the idea of convergence beyond the strong topology. In infinite dimensions, bounded sequences need not converge in norm, but they may converge weakly: a sequence converges weakly if every continuous linear functional applied to it produces a convergent sequence of numbers. This is a weaker requirement, like asking whether all measurements stabilise rather than whether the object itself stabilises. The Banach-Alaoglu theorem guarantees that bounded sets in dual spaces are weak-star compact, providing the existence of convergent subsequences. Weak convergence is the natural mode of convergence in the calculus of variations and in PDE theory, where direct methods extract weakly convergent subsequences from minimising sequences.
@@ -8967,27 +8005,6 @@ If $x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$ (uniform boundedness 
 4. Show that $L^\infty([0,1])$ is not reflexive by finding a bounded sequence with no weakly
    convergent subsequence.
 5. Let $T : X \to Y$ be compact. Prove that if $x_n \rightharpoonup 0$, then $T x_n \to 0$.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Differential-Geometry
 
@@ -9121,17 +8138,6 @@ low-dimensional embedding.
 
 **t-SNE and UMAP** use local neighbourhood information to construct embeddings that preserve
 the local geometry of the data manifold, revealing clustering and topological structure.
-
-
-```mermaid
-flowchart TD
-    A[9_Applications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -9388,17 +8394,6 @@ Einstein with $\mathrm{Ric} = (n-1)\kappa\, g$.
 
 ### 7.14 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[7_Curvature] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Curvature measures how much a space bends. For a surface embedded in $\mathbb{R}^3$, Gaussian curvature is intrinsic, it can be measured by inhabitants of the surface without reference to the ambient space (Gauss's Theorema Egregium). Positive curvature means the surface curves like a sphere; negative curvature means it curves like a saddle; zero curvature means it is locally flat. The Riemann tensor captures the full curvature information in higher dimensions, encoding how parallel transport around a loop rotates a vector. The Gauss-Bonnet theorem is a deep bridge between local geometry and global topology: the total curvature of a compact surface equals $2\pi$ times its Euler characteristic.
@@ -9582,17 +8577,6 @@ The product rule for the exterior derivative is $d(\alpha \wedge \beta) = d\alph
 **Mistake 3: Assuming $d^2 = 0$ means every closed form is exact on any manifold**
 The Poincare lemma guarantees that closed forms are exact only on contractible (or star-shaped) domains. On manifolds with nontrivial topology like $S^1$ or $S^2$, there exist closed forms that are not exact. For example, the angular form $d\theta$ on $S^1$ is closed but not exact.
 
-
-```mermaid
-flowchart TD
-    A[4_Differential Forms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Differential forms are the natural objects to integrate on manifolds. A 0-form is a function, a 1-form is something you integrate along a curve (like work done by a force), a 2-form is something you integrate over a surface (like flux), and a 3-form is something you integrate over a volume. The exterior derivative $d$ increases the degree by one and encodes differentiation: $df$ is the gradient, $d$ of a 1-form is the curl, and $d$ of a 2-form is the divergence. The fundamental identity $d^2 = 0$ unifies the vector calculus identities $\nabla \times \nabla f = 0$ and $\nabla \cdot (\nabla \times \mathbf{F}) = 0$. Stokes' theorem generalises the fundamental theorem of calculus to manifolds.
@@ -9624,27 +8608,6 @@ The identity $d^2 = 0$ becomes $\nabla \times (\nabla f) = 0$ and $\nabla \cdot 
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -9692,27 +8655,6 @@ Differential geometry studies the geometry of curved spaces using calculus. A ma
 - **Multivariable Calculus:** Partial derivatives and vector calculus on manifolds; forms generalise vector calculus.
 - **Topology:** Topological spaces underlying smooth manifolds; smoothness is a topological property.
 - **Abstract Algebra:** Lie groups are smooth manifolds with group structure.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -9927,17 +8869,6 @@ curvature, no two points are conjugate.
 **Problem 8.** Show that the geodesic flow on the unit tangent bundle of a compact Riemannian
 manifold is a Hamiltonian flow with respect to the natural symplectic structure.
 
-
-```mermaid
-flowchart TD
-    A[6_Geodesics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Geodesics are the straightest possible paths on a curved surface. On a flat plane, they are straight lines; on a sphere, they are great circles. The key insight is that a geodesic has zero acceleration as measured along the surface, it does not turn left or right relative to the surface geometry. The exponential map sends a tangent vector to the point you reach by following the geodesic in that direction for unit time, providing local coordinates that straighten out the geometry near a point. On negatively curved surfaces, geodesics diverge rapidly, while on positively curved surfaces they converge, this is why parallel geodesics on a sphere eventually meet.
@@ -10108,8 +9039,6 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"Which of the following is NOT required for a topological space $M$ to be a topological manifold?"} options={[ '$M$ must be compact', '$M$ must be Hausdorff', '$M$ must be second countable', '$M$ must be locally Euclidean', ]} correctAnswer={0} explanation={"A topological manifold must be (1) Hausdorff, (2) second countable, and (3) locally Euclidean. Compactness is NOT required. Many important manifolds are non-compact, including $\mathbb{R}^n$ itself, any open subset of $\mathbb{R}^n$, and the cotangent bundle of any compact manifold."} difficulty="easy"  />
 
-
-
 <PracticeProblem client:only="solid-js" question={"If $[X, Y] = 0$ for smooth vector fields $X$ and $Y$ on $M$, what can you conclude about their flows?"} options={[ 'The flows commute: $\\Phi_t^X \\circ \\Phi_s^Y = \\Phi_s^Y \\circ \\Phi_t^X$ wherever defined', '$X$ and $Y$ are linearly dependent', '$X$ and $Y$ have no integral curves', 'The Lie derivative $\\mathcal{L}_X Y$ is nonzero', ]} correctAnswer={0} explanation={"The Lie bracket $[X, Y]$ measures the non-commutativity of the flows of $X$ and $Y$. If $[X, Y] = 0$, the flows commute: $\Phi_t^X \circ \Phi_s^Y(p) = \Phi_s^Y \circ \Phi_t^X(p)$ wherever both sides are defined. The converse is also true for complete flows. Vanishing Lie bracket means $Y$ is invariant under the flow of $X$: $\mathcal{L}_X Y = 0$."} difficulty="medium"  />
 
 ---
@@ -10126,7 +9055,6 @@ the explanation.
 
 ### Riemannian Geometry and Curvature
 
-
 <PracticeProblem client:only="solid-js" question={"Which of the following is NOT a symmetry of the Riemann curvature tensor $R_{ijkl}$?"} options={[ '$ R_{ijkl} = R_{ikjl}$', '$ R_{ijkl} = -R_{jikl}$', '$ R_{ijkl} = -R_{ijlk}$', '$ R_{ijkl} = R_{klij}$', ]} correctAnswer={0} explanation={"The Riemann tensor satisfies: (1) $R_{ijkl} = -R_{jikl}$ (anti-symmetry in first pair), (2) $R_{ijkl} = -R_{ijlk}$ (anti-symmetry in second pair), (3) $R_{ijkl} = R_{klij}$ (pair interchange), and (4) the first Bianchi identity. It does NOT satisfy $R_{ijkl} = R_{ikjl}$ as a rule (swapping the second and third indices is not a symmetry)."} difficulty="hard"  />
 
 ## Common Mistakes
@@ -10137,34 +9065,12 @@ the explanation.
 
 **Misidentifying symmetries of the Riemann curvature tensor:** The Riemann tensor $R_{ijkl}$ satisfies $R_{ijkl} = -R_{jikl}$, $R_{ijkl} = -R_{ijlk}$, and $R_{ijkl} = R_{klij}$, but it does NOT satisfy $R_{ijkl} = R_{ikjl}$. Swapping the second and third indices (interior swap) is not a symmetry. Misidentifying symmetries leads to incorrect simplifications in curvature computations.
 
-
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -10331,17 +9237,6 @@ Computing $R^\theta_{\phi\theta\phi}$ gives $-\sin^2\theta$, so $K = R^\theta_{\
 | Ricci curvature | $R_{ij} = R^k_{ikj}$ |
 | Scalar curvature | $S = g^{ij}R_{ij}$ |
 
-
-```mermaid
-flowchart TD
-    A[5_Riemannian Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A Riemannian metric is like a flexible, position-dependent ruler laid across space. At each point, it tells you how to measure distances and angles, and it varies smoothly from place to place. The Christoffel symbols encode how this ruler changes as you move, telling you how to transport vectors without rotating them unnecessarily. Geodesics are the paths that a freely falling particle would follow, the straightest lines possible in curved space. The Riemann curvature tensor captures the failure of parallel transport around small loops: if you carry a vector around a closed path, it may return rotated, and the amount of rotation measures the curvature. Sectional curvature specialises this to planes, Ricci curvature averages over directions, and scalar curvature compresses everything into a single number at each point.
@@ -10367,27 +9262,6 @@ The formula $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partia
 
 **Mistake 3: Assuming vanishing Riemann curvature implies flatness in coordinates**
 A manifold with zero Riemann curvature is *locally* isometric to Euclidean space, but the coordinate expressions for the metric may still look complicated. The vanishing of curvature is a coordinate-independent statement. In non-normal coordinates, the Christoffel symbols need not vanish even when $R = 0$.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -10576,17 +9450,6 @@ An embedded submanifold has the subspace topology, while an immersed submanifold
 **Mistake 3: Forgetting that partitions of unity are necessary for gluing local constructions**
 Local objects like Riemannian metrics or differential forms can be defined on each chart, but gluing them into a global object requires a partition of unity. Without it, there is no canonical way to combine local data that agree on overlaps. Partitions of unity always exist on smooth manifolds, which is a key reason smoothness is assumed.
 
-
-```mermaid
-flowchart TD
-    A[1_Smooth Manifolds] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Differential Forms](/12-differential-geometry/4_differential-forms/)**: Differential forms are sections of exterior powers of the cotangent bundle on a smooth manifold.
@@ -10771,17 +9634,6 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | String theory | Calabi-Yau 3-fold | Ricci-flat Kähler metric moduli |
 | Computer vision | Shape space | Geodesic distances for shape matching |
 | Robotics | Configuration space $C$ | Motion planning via geodesics in $C$ |
-
-
-```mermaid
-flowchart TD
-    A[10_Summary] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -10983,17 +9835,6 @@ The chain rule states $d(g \circ f)_p = dg_{f(p)} \circ df_p$, where the differe
 **Mistake 3: Forgetting that tangent bundle components transform contravariantly**
 Under a coordinate change $y = y(x)$, the components of a tangent vector transform as $\tilde{v}^j = v^i \partial y^j/\partial x^i$, using the Jacobian matrix. Students often mistakenly apply the inverse Jacobian, which would give covariant (covector) transformation, not contravariant.
 
-
-```mermaid
-flowchart TD
-    A[2_Tangent Spaces And Tangent Bundles] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The tangent space at a point on a manifold is the collection of all possible velocities of curves passing through that point, it is the "flat approximation" to the curved space at that point. On a sphere, the tangent space at the north pole is the horizontal plane touching the sphere there. The tangent bundle glues together all tangent spaces into a single space, giving a manifold a way to talk about directions and velocities globally. A differential form is a machine that takes a tangent vector and returns a number, consistently across all points. The exterior derivative of a form measures how the form changes, it is the infinitesimal version of Stokes' theorem.
@@ -11005,27 +9846,6 @@ The tangent space at a point on a manifold is the collection of all possible vel
 3. Show that $d(fg)_p = f(p) dg_p + g(p) df_p$.
 4. Prove that $T(S^1)$ is diffeomorphic to $S^1 \times \mathbb{R}$.
 5. Show that if $M$ is an $n$-dimensional manifold, then $TM$ is a $2n$-dimensional manifold.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -11195,17 +10015,6 @@ giving $\mathrm{Area} = \pi$. $\blacksquare$
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-```mermaid
-flowchart TD
-    A[8_The Gauss Bonnet Theorem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -11380,17 +10189,6 @@ $$
 
 So $[X, Y] = -x \partial/\partial x + y \partial/\partial y$. The flows are: $\Phi_t^X(x,y) = (x+yt, y)$
 (shear), $\Phi_s^Y(x,y) = (x, y+xs)$ (shear). These do not commute. $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[3_Vector Fields And Flows] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -13318,16 +12116,6 @@ $\blacksquare$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[5_Eigenvalues And Eigenvectors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Matrices](/2-linear-algebra/3_matrices/)**: The characteristic polynomial whose roots are eigenvalues is defined via the determinant of $A - \lambda I$.
@@ -13386,27 +12174,6 @@ Linear algebra studies vector spaces and linear maps between them. A vector spac
 - **Abstract Algebra:** Algebraic structures underlying vector spaces; vector spaces are modules over fields.
 - **Multivariable Calculus:** Linear algebra in multivariable contexts; Hessians and Jacobians are matrices.
 - **Functional Analysis:** Infinite-dimensional vector spaces extending linear algebra to function spaces.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -13836,16 +12603,6 @@ The Cauchy-Schwarz inequality is the foundation: it says the "correlation" betwe
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[7_Inner Product Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)**: The spectral theorem for symmetric matrices guarantees an orthonormal eigenbasis, which is an inner product space concept.
@@ -14192,16 +12949,6 @@ $\blacksquare$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[2_Linear Independence Span Basis And Dimension] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Vectors and Vector Spaces](/2-linear-algebra/1_vectors-and-vector-spaces/)**: Linear independence, span, and basis are fundamental properties of vector spaces.
@@ -14436,17 +13183,6 @@ If $\ker(T) = \{\mathbf{0}\}$, then $T$ is injective, but it need not be surject
 
 **Mistake 3: Misapplying the rank-nullity theorem**
 The rank-nullity theorem states $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = \dim(V)$. Students often confuse $\dim(V)$ with $\dim(W)$ or forget that the theorem applies to the domain dimension. The image lives in $W$ but its dimension is bounded by $\min(\dim(V), \dim(W))$, not by $\dim(W)$ alone.
-
-
-```mermaid
-flowchart TD
-    A[6_Linear Transformationsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -14835,16 +13571,6 @@ factor of 57. $\blacksquare$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[3_Matrices] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)**: Eigenvalues are the roots of the characteristic polynomial defined via determinants.
@@ -14929,27 +13655,6 @@ the explanation.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -15462,17 +14167,6 @@ $(A - 2I)v = 0 \implies \begin{pmatrix} 2 & 1 \\ 2 & 1 \end{pmatrix}v = 0 \impli
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[9_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - A matrix is invertible iff $\det(A) \neq 0$; equivalent to having linearly independent
@@ -15831,17 +14525,6 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
 - **The SVD and eigendecomposition are different decompositions.** The SVD always exists for any
   matrix, but the eigendecomposition requires the matrix to be square. Even for symmetric matrices,
   the singular values are $|\lambda_i|$ Not $\lambda_i$.
-
-
-```mermaid
-flowchart TD
-    A[8_Singular Value Decomposition] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -16215,17 +14898,6 @@ Gaussian elimination is the systematic process of untangling a web of simultaneo
 
 The deeper insight is that row reduction preserves the solution space while simplifying its description. The row echelon form makes the structure of the solution set transparent: pivot columns identify the dependent variables, free columns identify the independent degrees of freedom, and the rank tells you the dimension of the solution space. This is why the same technique extends to function spaces and operator theory, where infinite-dimensional systems of equations arise logically.
 
-
-```mermaid
-flowchart TD
-    A[4_Systems Of Linear Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Matrices](/2-linear-algebra/3_matrices/)**: The coefficient matrix of a linear system determines its solvability via rank and determinant.
@@ -16577,16 +15249,6 @@ The connection to function spaces is where the abstraction pays off most. In qua
 :::tip[Research Connections]
 Vector spaces are the foundation of quantum computing: qubits exist in a 2-dimensional complex vector space, and quantum gates are unitary linear transformations. Google's quantum supremacy experiment (2019, Sycamore processor) demonstrated a computation in a 53-qubit vector space that would take classical supercomputers ~10,000 years. Current research includes: quantum error correction (surface codes on stabiliser codes), topological quantum computing (Majorana fermions), and the intersection of linear algebra with machine learning (neural network weight spaces, kernel methods, dimensionality reduction via SVD/PCA).
 :::
-
-```mermaid
-flowchart TD
-    A[1_Vectors And Vector Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -17005,17 +15667,6 @@ Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) and
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "4_continuity", "url": "https://mathematics.wyattau.com/3-real-analysis/4_continuity"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[4_Continuity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -17478,17 +16129,6 @@ $\blacksquare$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[5_Differentiability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Continuity](/3-real-analysis/4_continuity/)**: Differentiability implies continuity, and the mean value theorem connects local derivative behaviour to global function properties.
@@ -17543,27 +16183,6 @@ Real analysis is where calculus gets rigorous, every epsilon, every delta, every
 - **Multivariable Calculus:** Extensions to several variables; partial derivatives require real analysis foundations.
 - **Measure Theory:** Lebesgue integration extending Riemann integration; measures generalise length and area.
 - **Topology:** Topological spaces generalise convergence and continuity beyond metric spaces.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -17730,23 +16349,13 @@ the explanation.
 
 ### Sequences and Convergence
 
-
-
-
-
 ---
 
 ### Limits, Continuity, and Differentiation
 
-
-
-
 ---
 
 ### Integration
-
-
-
 
 ## Common Mistakes
 
@@ -17762,27 +16371,6 @@ the explanation.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -18314,17 +16902,6 @@ $\sup(S) = 1 \in S$ (this is also the maximum). $\inf(S) = 0 \notin S$.
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[8_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - $\mathbb{R}$ is a complete ordered field; the completeness axiom guarantees $\sup(S)$ exists for
@@ -18796,16 +17373,6 @@ integral. A common error is Applying the FTC directly to improper integrals with
 limit. Also, conditional Convergence of improper integrals behaves differently from absolute
 convergence: rearranging the "terms" (subintervals) of a conditionally convergent improper integral
 can change its value.
-
-```mermaid
-flowchart TD
-    A[6_Riemann Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -19494,17 +18061,6 @@ When applying the ratio or root test, students find $R$ but assume the series co
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-```mermaid
-flowchart TD
-    A[7_Sequences And Series Of Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A sequence of functions converges pointwise if each point eventually stabilises, but this is too weak to preserve analytical properties, the limit of continuous functions can be discontinuous. Uniform convergence demands that all points stabilise simultaneously: given any tolerance, there is a single $N$ beyond which every point in the domain is within that tolerance. Think of it as the difference between each person eventually sitting down (pointwise) versus everyone sitting down at the same command (uniform). Power series are the paradigmatic example: within their radius of convergence, they converge uniformly on compact sets, which justifies term-by-term differentiation and integration.
@@ -19818,17 +18374,6 @@ to the same sum, because the positive and negative parts each converge.
 > converged, the series would converge absolutely.)*
 
 ## Common Mistakes
-
-
-```mermaid
-flowchart TD
-    A[3_Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -20578,17 +19123,6 @@ $\blacksquare$
   (scalar), while flux uses $\mathbf{r}_u \times \mathbf{r}_v$ (vector, oriented).
 :::
 
-
-```mermaid
-flowchart TD
-    A[5_Curves And Surfaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)**: Tangent vectors and normal vectors to surfaces are computed using partial derivatives of the parametrisation.
@@ -20648,27 +19182,6 @@ Multivariable calculus extends single-variable calculus to functions of several 
 - **Linear Algebra:** Jacobians and Hessians as matrices; gradients are vector quantities.
 - **Ordinary Differential Equations:** Systems of ODEs use multivariable calculus; vector fields are multivariable functions.
 - **Differential Geometry:** Manifolds extend multivariable calculus to curved spaces.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -21208,17 +19721,6 @@ The key to setting up multiple integrals is describing the region correctly. Typ
   the bounds. The new bounds may require splitting the integral into multiple pieces.
 :::
 
-
-```mermaid
-flowchart TD
-    A[2_Multiple Integrals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)**: The Jacobian determinant in change of variables is computed from partial derivatives of the coordinate transformation.
@@ -21484,17 +19986,6 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
 </details>
 
 ### 4.7 Common Pitfalls
-
-
-```mermaid
-flowchart TD
-    A[4_Optimization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -21938,17 +20429,6 @@ The key subtlety in multivariable calculus is that knowing all partial derivativ
   $\mathbf{v}$ Divide by $\lVert \mathbf{v} \rVert$ first.
 :::
 
-
-```mermaid
-flowchart TD
-    A[1_Partial Derivatives] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)**: Partial derivatives and multiple integrals are linked by the fundamental theorem of calculus in higher dimensions.
@@ -21984,23 +20464,13 @@ the explanation.
 
 ### Partial Derivatives and Chain Rule
 
-
-
-
 ---
 
 ### Multiple Integrals
 
-
-
-
 ---
 
 ### Vector Calculus
-
-
-
-
 
 ## Common Mistakes
 
@@ -22016,27 +20486,6 @@ the explanation.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -22691,17 +21140,6 @@ $\int_0^1 \int_0^2 xy \, dy\, dx = \int_0^1 x \left[\frac{y^2}{2}\right]_0^2 dx 
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[6_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Partial derivatives: treat other variables as constants; chain rule for multivariable functions.
@@ -23204,17 +21642,6 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
   planar curves, right-hand rule for surfaces). The divergence theorem requires the outward normal.
   Reversing orientation changes the sign of the result.
 
-
-```mermaid
-flowchart TD
-    A[3_Vector Calculus] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)**: The gradient, curl, and divergence are differential operators defined using partial derivatives.
@@ -23432,16 +21859,6 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
   of the complementary solution (transient) and particular solution (steady-state). When studying
   long-term behaviour, focus on the particular solution, but remember that the transient may be
   significant at early times.
-
-```mermaid
-flowchart TD
-    A[10_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -23842,16 +22259,6 @@ $K$. The inflection point occurs at $P = K/2$, where the growth rate is maximal.
 
 </details>
 
-```mermaid
-flowchart TD
-    A[2_First Order Odes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)**: First-order ODEs are classified as separable, linear, exact, or Bernoulli as part of the broader ODE taxonomy.
@@ -23907,27 +22314,6 @@ ODEs describe how quantities change in relation to their current state, they're 
 - **Multivariable Calculus:** Vector fields and gradients used in ODE systems; systems of ODEs require multivariable calculus.
 - **Complex Analysis:** Contour integration for inverse Laplace transforms and solving linear ODEs.
 - **Linear Algebra:** Systems of linear ODEs use eigenvalues and matrix exponentials.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -24108,17 +22494,6 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 | Sine series (odd ext.) | $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\,dx$ |
 | Cosine series (even ext.) | $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\,dx$ |
 
-
-```mermaid
-flowchart TD
-    A[7_Fourier Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: Both Fourier and Laplace transforms decompose functions into frequency components, but Fourier series handle periodic functions while Laplace handles transient signals.
@@ -24130,27 +22505,6 @@ flowchart TD
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -24419,26 +22773,6 @@ Differential equations describe how things change. An ODE relates a function to 
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -25160,16 +23494,6 @@ uniformly Cauchy on some interval $[x_0 - h, x_0 + h]$ Hence converges uniformly
 $\phi$. Passing to the limit in the integral equation shows $\phi$ satisfies the ODE. Uniqueness
 follows From the **Gronwall inequality** applied to the difference of two solutions.
 
-```mermaid
-flowchart TD
-    A[5_Laplace Transforms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Second-Order Linear ODEs](/5-ordinary-differential-equations/3_second-order-linear-odes/)**: The Laplace transform converts the characteristic equation approach into algebraic manipulation in the frequency domain.
@@ -25204,23 +23528,13 @@ the explanation.
 
 ### First-Order ODEs
 
-
-
-
 ---
 
 ### Second-Order Linear ODEs
 
-
-
-
-
 ---
 
 ### Systems, Laplace Transforms, and Series Solutions
-
-
-
 
 ## Common Mistakes
 
@@ -25236,27 +23550,6 @@ the explanation.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -25757,17 +24050,6 @@ Ordinary differential equations describe how quantities evolve, and each method 
 - **Confusing order and degree.** Order: highest derivative present. Degree: power of the highest
   derivative after removing radicals and fractions. **Fix:** $y'' + 3y' + 2y = 0$: order 2,
   degree 1.
-
-
-```mermaid
-flowchart TD
-    A[11_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -26341,16 +24623,6 @@ $y = c_1 e^{2x} + c_2 e^{-2x} - \frac{(x+2)e^x}{9}$. $\blacksquare$
 </details>
 </Aside>
 
-```mermaid
-flowchart TD
-    A[3_Second Order Linear Odesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)**: The integrating factor method and substitution techniques for first-order ODEs are prerequisites for understanding variation of parameters.
@@ -26534,17 +24806,6 @@ $\blacksquare$
 
 ### 6.7 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[6_Series Solutions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 When an ODE has no elementary closed-form solution, power series methods let you build a solution term by term. At an ordinary point, you can expand the solution as a Taylor series and substitute into the ODE to find recurrence relations for the coefficients. At a regular singular point, the solution may have a factor of $x^r$ multiplied by a power series, the Frobenius method. The indicial equation determines the possible exponents $r$. Bessel functions, Legendre polynomials, and other special functions all arise from this process. The radius of convergence is determined by the distance to the nearest singular point of the ODE, linking local analyticity to global solution behaviour.
@@ -26575,27 +24836,6 @@ Bessel functions of the first kind $J_\nu(x)$ are analytic at $x = 0$, while Bes
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -26777,17 +25017,6 @@ Critical points can be isolated or form a continuum (e.g., a line of critical po
 
 **Mistake 5: Confusing the phase plane with the phase portrait.**
 The phase plane is the coordinate space $(x, y)$, while the phase portrait is the collection of trajectories in the phase plane. Do not confuse the two; the phase portrait includes the trajectories, not just the coordinate axes.
-
-
-```mermaid
-flowchart TD
-    A[9_Stability And Phase Plane Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -27028,17 +25257,6 @@ $\blacksquare$
 
 ### 4.11 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[4_Systems Of Odesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Systems of ODEs describe how multiple quantities evolve together, each potentially influencing the others. A linear system $\mathbf{x}' = A\mathbf{x}$ decomposes along the eigenvectors of $A$: each eigenvector defines a natural direction of motion, and its eigenvalue determines whether the solution grows, decays, or oscillates along that direction. The matrix exponential $e^{At}$ is the fundamental object, it maps initial conditions to solutions at time $t$. When eigenvalues are complex, the solution spirals; when real and negative, it decays toward the origin; when real and positive, it explodes. The trace-determinant plane classifies all 2D linear systems into nodes, saddles, spirals, and centres.
@@ -27240,17 +25458,6 @@ The identity theorem requires that the functions be analytic. If $f$ and $g$ are
 **Mistake 5: Forgetting that analytic continuation may introduce singularities.**
 When analytically continuing a function to a larger domain, new singularities may appear. For example, the Gamma function is analytic for $\mathrm{Re}(z) > 0$, but its analytic continuation to $\mathbb{C}$ has poles at $z = 0, -1, -2, \dots$. Always check for singularities in the extended domain.
 
-
-```mermaid
-flowchart TD
-    A[13_Analytic Continuation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)**: Power series provide local representations that can be analytically continued to larger domains.
@@ -27441,17 +25648,6 @@ When substituting $z = e^{i\theta}$, the integral $\int_0^{2\pi} R(\cos\theta, \
 **Mistake 5: Assuming that the integral over the semicircular arc vanishes.**
 The integral over the semicircular arc vanishes only if the integrand decays sufficiently fast. For rational functions, the condition $\deg(Q) \geq \deg(P) + 2$ ensures this. For other integrands, check the decay explicitly using the ML inequality or Jordan's lemma.
 
-
-```mermaid
-flowchart TD
-    A[9_Applications Of Contour Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Contour integration exploits the fact that analytic functions have path-independent integrals, so deforming a contour does not change the answer as long as you avoid singularities. This turns difficult real integrals into easier complex ones. The residue theorem packages this: the integral around a closed contour equals 2 pi i times the sum of residues inside. Residues are like gravitational sources in a field: they determine the circulation of the integral around them. This technique computes integrals that are impossible by elementary methods, from Gaussian integrals to sums involving trigonometric functions.
@@ -27464,27 +25660,6 @@ Contour integration exploits the fact that analytic functions have path-independ
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -27655,17 +25830,6 @@ The argument principle requires that $f$ has no zeros or poles on the contour $\
 **Mistake 5: Misapplying Rouché's theorem to non-analytic functions.**
 Rouché's theorem requires that $f$ and $g$ be analytic inside and on the contour. If either function is not analytic, the theorem does not apply. Always verify analyticity before using Rouché's theorem.
 
-
-```mermaid
-flowchart TD
-    A[12_Argument Principle And Rouch S Theorem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The argument principle counts zeros and poles of a function by tracking how much its image winds around the origin as you traverse a contour. Imagine walking around a lake and counting how many times the shoreline loops around you: each loop corresponds to a zero inside. Rouche's theorem turns this into a practical tool: if two functions are close enough on a boundary, they have the same number of zeros inside. This is like checking whether two magnets have the same strength by measuring their pull at the boundary. It is used to locate roots of polynomials and eigenvalues of matrices.
@@ -27835,17 +25999,6 @@ $= \frac{\pi i e^{-2}}{2} - \frac{\pi i e^2}{2} + 2\pi i e^2 = \frac{\pi i e^{-2
 - Confusing the orientation: the contour must be positively oriented (counterclockwise).
 - Neglecting to check that $f$ is analytic **on and inside** $\gamma$, not just on $\gamma$.
 
-
-```mermaid
-flowchart TD
-    A[6_Cauchy S Integral Formula] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Cauchy's integral formula says the value of an analytic function inside a contour is completely determined by its values on the contour itself. This is extraordinary: the interior is enslaved to the boundary. Imagine knowing the temperature along the edge of a drum skin and being able to compute the temperature at any interior point. The formula works because analytic functions cannot have local extrema, so information propagates inward from the boundary. The derivative formula extends this: not just the function but all its derivatives are recoverable from boundary data, making complex analysis a boundary theory.
@@ -27858,27 +26011,6 @@ Cauchy's integral formula says the value of an analytic function inside a contou
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -28051,17 +26183,6 @@ Hence $\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = \frac{\pi}{\sqrt{2}}$.
 - **Signal processing:** The Laplace and Fourier transforms rely on contour integration techniques derived from Cauchy's theorem.
 - **Number theory:** Contour integrals related to the Riemann zeta function use Cauchy's theorem to establish properties of prime number distribution.
 
-
-```mermaid
-flowchart TD
-    A[5_Cauchy S Theorem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Cauchy's theorem says the integral of an analytic function around a closed contour is zero, provided the function is analytic everywhere inside. This is the complex analogue of a conservative force field in physics: going in a circle returns you to the same potential. The intuition is that analytic functions have no sources or sinks inside the domain, so there is nothing to create a net circulation. Deforming the contour does not change the integral as long as you avoid singularities. This theorem is the foundation for the residue theorem and the entire edifice of complex integration.
@@ -28076,27 +26197,6 @@ Cauchy's theorem says the integral of an analytic function around a closed conto
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -28249,16 +26349,6 @@ The antiderivative must be single-valued. For $1/z$ on $\mathbb{C}\setminus\{0\}
 "antiderivative" $\log z$ is multi-valued, so $\oint dz/z = 2\pi i$ despite $1/z$ being
 analytic on the punctured plane.
 :::
-
-```mermaid
-flowchart TD
-    A[14_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -28446,17 +26536,6 @@ The Cauchy-Riemann equations are necessary but not sufficient for analyticity. E
 
 **Mistake 5: Forgetting that analytic functions are infinitely differentiable.**
 If $f$ is analytic on a domain $D$, then $f$ is infinitely differentiable on $D$. This is a powerful property that does not hold for real-differentiable functions. Do not assume that an analytic function has only finitely many derivatives.
-
-
-```mermaid
-flowchart TD
-    A[2_Complex Functions And Analyticity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -28664,17 +26743,6 @@ The ML inequality states that $|\int_\gamma f(z)\, dz| \leq ML$, where $M$ is an
 
 **Mistake 5: Confusing the parameterization of a contour.**
 The value of the contour integral does not depend on the parameterization of the contour, only on the path traced out. However, different parameterizations can lead to different expressions for the integral. Always ensure that the parameterization is correct and that $\gamma'(t)$ is computed properly.
-
-
-```mermaid
-flowchart TD
-    A[4_Complex Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -28922,17 +26990,6 @@ ratio $\omega$.
 
 ### 1.10 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[1_Complex Numbers Review] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Complex numbers solve the problem that $x^2 = -1$ has no real solution: we directly declare that $i$ exists and build the algebra on top of it. The key insight is that complex numbers are two-dimensional, each one is a point in the plane, not a point on a line. Addition is vector addition; multiplication combines scaling and rotation. The modulus measures distance from the origin, and the argument measures angle. Polar form $re^{i\theta}$ makes multiplication natural: multiply the magnitudes and add the angles. Euler's formula $e^{i\theta} = \cos\theta + i\sin\theta$ bridges exponential and trigonometric functions, revealing that complex exponentials trace circles.
@@ -29138,17 +27195,6 @@ to the boundary (no penetration condition). $\blacksquare$
 
 ### 10.9 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[10_Conformal Mappings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Conformal mappings are angle-preserving transformations of the complex plane. A holomorphic function with non-zero derivative acts locally as a rotation plus a scaling, it preserves the shape of infinitesimal figures while possibly changing their size and orientation. This makes conformal maps the natural language for problems involving fluid flow, electrostatics, and heat conduction, where the geometry of the domain can be simplified by mapping it to a simpler shape. Möbius transformations are the building blocks: they map circles to circles and are determined by where they send three points. The Riemann mapping theorem guarantees that any directly connected domain (except the whole plane) can be conformally mapped to the unit disk.
@@ -29227,27 +27273,6 @@ Complex analysis studies functions of complex numbers, and the surprise is how m
 - **Real Analysis:** Foundational analysis extended to complex numbers; continuity and limits are shared concepts.
 - **Number Theory:** Complex analysis in analytic number theory (e.g., prime number theorem via zeta function).
 - **ODEs:** Contour integration for solving ODEs and inverse Laplace transforms.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -29550,17 +27575,6 @@ The Schwarz lemma applies only to analytic functions $f: \mathbb{D} \to \mathbb{
 **Mistake 5: Forgetting that Liouville's theorem is used to prove the fundamental theorem of algebra.**
 Liouville's theorem is a key tool in proving that every non-constant polynomial has a root in $\mathbb{C}$. If you forget this connection, you may miss elegant proofs of existence results. Always consider Liouville's theorem when dealing with entire functions and their properties.
 
-
-```mermaid
-flowchart TD
-    A[11_Liouville S Theorem And The Maximum Modulus Principle] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Liouville's theorem states that bounded entire functions must be constant, which sounds abstract but has profound consequences. Think of an analytic function as a rubber sheet that cannot buckle: if it is bounded everywhere, it cannot grow in any direction, so it must be flat. The maximum modulus principle says the maximum of an analytic function occurs on the boundary, not the interior, because analytic functions cannot have local maxima. This is like heat flow: the hottest point on a plate cannot be in the middle if heat is flowing freely. Together these results force rigidity on analytic functions.
@@ -29610,7 +27624,6 @@ the explanation.
 
 ### Complex Integration and Residue Theory
 
-
 <PracticeProblem client:only="solid-js" question={"Find the residue of $f(z) = \\dfrac{e^z}{(z-1)^2(z+2)}$ at $z = 1$."} options={['$\\dfrac{e}{3}$', '$\\dfrac{2e}{9}$', '$\\dfrac{e}{9}$', '$\\dfrac{2e}{3}$']} correctAnswer={1} explanation={"The pole at $z = 1$ is of order 2. The residue formula gives $\\operatorname{Res}(f, 1) = \\lim_{z \\to 1} \\frac{d}{dz}\\left[\\frac{e^z}{z+2}\\right]$. By the quotient rule this is $\\frac{e^z(z+2) - e^z}{(z+2)^2}$ evaluated at $z = 1$: $\\frac{e \\cdot 3 - e}{9} = \\frac{2e}{9}$."} difficulty="medium" />
 
 <PracticeProblem client:only="solid-js" question={"Using the residue theorem, evaluate $\\displaystyle\\int_0^{2\\pi} \\frac{d\\theta}{5 + 4\\cos\\theta}$."} options={['$\\dfrac{2\\pi}{3}$', '$\\dfrac{\\pi}{3}$', '$\\dfrac{2\\pi}{5}$', '$\\pi$']} correctAnswer={0} explanation={"Substitute $z = e^{i\\theta}$, so $d\\theta = dz/(iz)$ and $\\cos\\theta = (z + z^{-1})/2$. The integral becomes $\\frac{1}{i}\\oint_{|z|=1} \\frac{dz}{2z^2 + 5z + 2}$. The poles inside the unit circle are at $z = -1/2$; the residue there gives $\\frac{2\\pi}{\\sqrt{5^2 - 4^2}} = \\frac{2\\pi}{3}$."} difficulty="hard" />
@@ -29639,27 +27652,6 @@ the explanation.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -30121,17 +28113,6 @@ Complex analysis is the study of functions that respect the geometry of the comp
 - **Cauchy's theorem conditions.** The function must be analytic on and inside the contour. **Fix:**
   If the function has singularities inside the contour, use the residue theorem instead.
 
-
-```mermaid
-flowchart TD
-    A[15_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Cauchy-Riemann equations: $u_x = v_y$, $u_y = -v_x$; necessary condition for analyticity.
@@ -30323,17 +28304,6 @@ $\int_\gamma \frac{dz}{z^4 + 1} = 2\pi i \cdot 0 = 0$. $\blacksquare$
 </details>
 
 ### 8.8 Common Mistakes
-
-
-```mermaid
-flowchart TD
-    A[8_Singularities And Residue Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -30546,17 +28516,6 @@ $\int_{|z|=R} f\, dz = 2\pi i \sum_{\mathrm{finite} \mathrm{Res}(f, z_k)}$.
 But $\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f\, dz$ So the sum is zero.
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[7_Taylor And Laurent Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Every analytic function can be expanded as a power series, like a polynomial of infinite degree. This is possible because analyticity is so restrictive that the function is completely determined by its behavior at a single point. Taylor series capture the function near a point of analyticity. Laurent series extend this to functions with singularities, adding negative powers that encode the residue. The residue is like a local fingerprint of the singularity: it measures how much the function winds around that point, connecting local algebraic data to global topological information about contours.
@@ -30569,27 +28528,6 @@ Every analytic function can be expanded as a power series, like a polynomial of 
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -30769,17 +28707,6 @@ Analyticity requires differentiability in a neighborhood, not just at a point. A
 **Mistake 5: Forgetting to check that partial derivatives are continuous.**
 The sufficiency condition for the Cauchy-Riemann equations requires that the partial derivatives $u_x, u_y, v_x, v_y$ be continuous in a neighborhood. If the partial derivatives are not continuous, the function may not be differentiable even if the Cauchy-Riemann equations hold. Always verify continuity of partial derivatives.
 
-
-```mermaid
-flowchart TD
-    A[3_The Cauchy Riemann Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Cauchy-Riemann equations are the complex analogue of requiring a function to have the same derivative regardless of direction. In the real world, partial derivatives in x and y can be chosen independently, but complex differentiability forces them to be coupled. This coupling means the real part u and imaginary part v are harmonic conjugates, each satisfying Laplace's equation. Think of a fluid flow: u might represent pressure and v the velocity potential, and the Cauchy-Riemann equations ensure the flow is irrotational and incompressible simultaneously.
@@ -30792,27 +28719,6 @@ The Cauchy-Riemann equations are the complex analogue of requiring a function to
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Number-Theory
 
@@ -31754,27 +29660,6 @@ Number theory studies the properties of integers, the simplest objects in mathem
 - **Complex Analysis:** Analytic number theory uses complex analysis (e.g., Riemann zeta function).
 - **Linear Algebra:** Matrix methods in number theory (e.g., lattice reduction).
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## See also
 
 - [University Maths Flashcards: Measure Theory](/10-measure-theory/11_flashcards-measure-theory/)
@@ -32117,22 +30002,13 @@ the explanation.
 
 ### Divisibility and Primes
 
-
-
-
-
 ---
 
 ### Modular Arithmetic and Quadratic Reciprocity
 
-
-
-
-
 ---
 
 ### Diophantine Equations and Advanced Topics
-
 
 ## Common Mistakes
 
@@ -32142,34 +30018,12 @@ the explanation.
 
 **Misapplying the Chinese Remainder Theorem to non-coprime moduli:** CRT requires the moduli to be pairwise coprime. For $x \equiv 2 \pmod{4}$ and $x \equiv 1 \pmod{6}$, you cannot directly combine them because $\gcd(4, 6) = 2 \neq 1$. Check consistency first: $2 \equiv 1 \pmod{2}$ must hold, which it does not, so no solution exists.
 
-
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -32700,27 +30554,6 @@ Probability theory provides the mathematical framework for quantifying uncertain
 - **Real Analysis:** Convergence theorems used in probability; expectation is a Lebesgue integral.
 - **Linear Algebra:** Multivariate distributions use covariance matrices and quadratic forms.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## See also
 
 - [University Maths Flashcards: Abstract Algebra](/1-abstract-algebra/20_flashcards-abstract-algebra/)
@@ -33134,17 +30967,6 @@ The correlation coefficient $\rho(X, Y)$ measures the strength of the linear rel
 **Mistake 5: Assuming that linear regression is appropriate for nonlinear relationships.**
 Linear regression fits a straight line to the data, but if the relationship between $X$ and $Y$ is nonlinear, the regression line may be misleading. Always check the scatterplot and consider nonlinear models if the relationship appears curved.
 
-
-```mermaid
-flowchart TD
-    A[3_Joint Distributions And Independence] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Joint distributions describe how two or more random variables vary together. Independence means knowing one variable tells you nothing about the other, which mathematically factorizes the joint distribution into a product. Dependence creates structure: positive correlation means variables tend to move together, negative correlation means they move oppositely. The marginal distribution is what you see when you ignore one variable, like looking at a 3D landscape from above. Conditional distributions slice the joint distribution along one variable, revealing how the other behaves given specific information. These concepts form the backbone of statistical modeling.
@@ -33496,14 +31318,9 @@ the explanation.
 
 ### Probability Spaces and Random Variables
 
-
-
-
-
 ---
 
 ### Limit Theorems and Estimation
-
 
 <PracticeProblem client:only="solid-js" question={"Let $X_1, \\ldots, X_n$ be i.i.d. $\\operatorname{Uniform}(0, \\theta)$. What is the maximum likelihood estimator of $\\theta$?"} options={[ '$\\hat{\\theta} = \\max(X_1, \\ldots, X_n)$', '$\\hat{\\theta} = 2\\bar{X}$', '$\\hat{\\theta} = \\bar{X}$', '$\\hat{\\theta} = \\min(X_1, \\ldots, X_n)$', ]} correctAnswer={0} explanation={"The likelihood is $L(\\theta) = \\prod_{i=1}^n \\frac{1}{\\theta} \\cdot \\mathbf{1}_{[0,\\theta]}(x_i) = \\theta^{-n}$ if $\\max(x_i) \\leq \\theta$ and 0 otherwise. To maximize: we want $\\theta$ as small as possible while $\\theta \\geq \\max(x_i)$. Therefore $\\hat{\\theta}_{\\text{MLE}} = \\max(X_1, \\ldots, X_n)$. Note this MLE is biased; the unbiased estimator is $\\hat{\\theta} = \\frac{n+1}{n}\\max(X_1, \\ldots, X_n)$."} difficulty="medium"  />
 
@@ -33533,27 +31350,6 @@ the explanation.
 - **[Linear Algebra](/linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -36693,17 +34489,6 @@ $E[XY] = E[X]E[Y]$ holds only when $X$ and $Y$ are independent (or uncorrelated)
 **Mistake 5: Forgetting that variance is not linear.**
 $\mathrm{Var}(aX + b) = a^2 \mathrm{Var}(X)$, not $a \mathrm{Var}(X) + b$. The variance of a sum is $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y) + 2\mathrm{Cov}(X, Y)$. If $X$ and $Y$ are independent, then $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$, but this does not hold as a rule.
 
-
-```mermaid
-flowchart TD
-    A[2_Random Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)**: Probability spaces provide the foundational framework for defining random variables and their distributions.
@@ -37065,17 +34850,6 @@ In the language of closure: the closure of the polynomials in the sup-norm topol
 | $\partial A$ | $\partial A = \partial(X \setminus A)$ | $\partial(A \cup B) \subseteq \partial A \cup \partial B$ | $\partial(A \cap B) \subseteq \partial A \cup \partial B$ |
 | Dense | $\overline{A} = X$ | $A$ intersects every nonempty open set | $A^c$ has empty interior |
 
-
-```mermaid
-flowchart TD
-    A[3_Closed Sets Closure Interior And Boundary] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Think of a set as a region of space with fuzzy edges. The interior is the core where you can move freely in any direction. The closure adds back all the limit points that were arbitrarily close. The boundary is the fuzzy edge itself, where every neighborhood contains both points inside and outside the set. Dense sets are like scattered dust that gets arbitrarily close to every point, even though the dust itself has no interior. These operations form a dual pair: closure and interior are negations of each other when applied to complements, reflecting the fundamental symmetry between open and closed sets.
@@ -37091,27 +34865,6 @@ Think of a set as a region of space with fuzzy edges. The interior is the core w
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -37267,16 +35020,6 @@ infinitely often, contradicting continuity. $\blacksquare$
     compactification $X^* = X \cup \{\infty\}$ is Hausdorff if and only if $X$ is locally compact
     and Hausdorff. For example, the one-point compactification of $\mathbb{Q}$ is not Hausdorff
     because $\mathbb{Q}$ is not locally compact.
-
-```mermaid
-flowchart TD
-    A[10_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -37480,17 +35223,6 @@ Tychonoff's theorem states that the product of any collection of compact spaces 
 **Mistake 5: Confusing local compactness with compactness.**
 A space is locally compact if every point has a compact neighbourhood, but this does not imply that the space itself is compact. For example, $\mathbb{R}$ is locally compact (every point has a compact neighbourhood) but not compact (it is not bounded). Local compactness is a weaker condition than compactness.
 
-
-```mermaid
-flowchart TD
-    A[5_Compactness] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Topological Spaces](/9-topology/2_topological-spaces/)**: Topological spaces provide the framework for defining compactness through open covers.
@@ -37669,17 +35401,6 @@ A set $A$ is disconnected if it can be written as $A = (U \cap A) \cup (V \cap A
 **Mistake 5: Confusing total disconnectedness with disconnectedness.**
 A space is totally disconnected if its only connected subsets are singletons. A space can be disconnected without being totally disconnected. For example, $[0, 1] \cup [2, 3]$ is disconnected but not totally disconnected, since $[0, 1]$ and $[2, 3]$ are connected subsets.
 
-
-```mermaid
-flowchart TD
-    A[6_Connectedness] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Compactness](/9-topology/5_compactness/)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
@@ -37857,17 +35578,6 @@ Only homeomorphisms preserve all topological properties. A continuous map need n
 
 **Mistake 5: Misapplying the pasting lemma.**
 The pasting lemma requires that the two pieces agree on their intersection and that both pieces are either both closed or both open. If one piece is closed and the other is open, or if they disagree on the intersection, the resulting function may not be continuous.
-
-
-```mermaid
-flowchart TD
-    A[4_Continuity And Homeomorphisms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -38143,27 +35853,6 @@ Algebraic topology translates geometric questions into algebra. A loop that cann
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -38536,17 +36225,6 @@ A complete metric space need not be compact; compactness requires both completen
 **Mistake 3: Forgetting that contractions require a uniform contraction constant**
 The Banach fixed-point theorem requires $d(f(x), f(y)) \leq c \cdot d(x, y)$ for a fixed $c < 1$ and all $x, y$. A map satisfying $d(f(x), f(y)) < d(x, y)$ for all $x \neq y$ (strictly contractive but without a uniform constant) need not have a fixed point. For example, $f(x) = x + 1/x$ on $(1, \infty)$ is strictly contractive but has no fixed point.
 
-
-```mermaid
-flowchart TD
-    A[7_Metric Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)**: The metric topology induces open and closed sets whose properties are studied using closure and interior operations.
@@ -38730,17 +36408,6 @@ $\Delta = \{(x, x) : x \in X\}$ is closed in $X \times X$.
 
 ### 8.16 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[8_Separation Axioms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Separation axioms measure how well a topological space distinguishes points and sets. $T_0$ means any two points can be separated by an open set containing one but not the other. $T_1$ means each point is closed (singletons are closed sets). $T_2$ (Hausdorff) means any two distinct points have disjoint neighbourhoods, you can draw a wall between them. Higher axioms ($T_3$, $T_4$) separate points from closed sets and closed sets from each other with open neighbourhoods. The hierarchy matters because compactness, convergence, and uniqueness of limits all depend on having enough separation. Without Hausdorff, limits are not unique and compact sets need not be closed.
@@ -38909,17 +36576,6 @@ $\tilde\gamma(1)$ is an integer (the winding number), and this defines the isomo
 | $T_3$ | Regular | $T_1$ + closed set and point separated by open sets | $\mathbb{R}$ standard |
 | $T_4$ | Normal | $T_1$ + disjoint closed sets separated by open sets | $\mathbb{R}$ standard |
 | $T_{3\frac12}$ | Tychonoff | $T_1$ + continuous function separates point from closed set | $\mathbb{R}$ standard |
-
-
-```mermaid
-flowchart TD
-    A[11_Summary] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -39136,16 +36792,6 @@ $\blacksquare$
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-```mermaid
-flowchart TD
-    A[2_Topological Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A topological space is what you get when you strip away all the structure you're used to, distances, angles, coordinates, and keep only the idea of "closeness." The only thing you're allowed to know is which points are near which other points, encoded by the collection of open sets. Think of it like a city where you can't measure distances but you can ask "is this neighbourhood near that neighbourhood?" The three axioms (empty set and whole space are open, arbitrary unions are open, finite intersections are open) are the minimum rules that make the concept of "nearness" behave consistently. Without them, you can't even define what it means for a function to be continuous.
@@ -39153,26 +36799,6 @@ A topological space is what you get when you strip away all the structure you're
 The beauty of topology is that it captures the properties of space that survive continuous deformation, stretching, bending, twisting, but not tearing or gluing. A coffee mug and a donut are "the same" topologically because you can smoothly deform one into the other; both have one hole. The discrete topology (every subset is open) is the finest possible, it distinguishes every point from every other point. The indiscrete topology (only the whole space and empty set are open) is the coarsest, it can't distinguish any points at all. Most interesting topologies live somewhere between these extremes, and the standard topology on the real line is what makes calculus work: a function is continuous exactly when it preserves the open-set structure.
 
 The real power of topological spaces is that they let you define continuity without mentioning numbers or distances. A function is continuous if the preimage of every open set is open, that's it. This simple definition works in settings far beyond Euclidean space: function spaces, quantum state spaces, the space of shapes in computer vision, the space of probability distributions in machine learning. Whenever you need to talk about convergence, continuity, or "sameness" in an abstract setting, topology provides the language. It's the most general framework for understanding the structure of mathematical spaces.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Overview
 
@@ -39983,17 +37609,6 @@ computationally infeasible in sufficiently large groups.
 | Solvability                     | Polynomial solvable by radicals $\Leftrightarrow$ Galois group is solvable                 |
 | Abel–Ruffini                    | General quintic (degree $\geq 5$) is not solvable by radicals                              |
 | Fermat's little theorem         | $a^{p-1} \equiv 1 \pmod{p}$; consequence of Lagrange’s theorem                             |
-
-
-```mermaid
-flowchart TD
-    A[Abstract Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -45305,17 +42920,6 @@ URL: https://mathematics.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -51402,17 +49006,6 @@ Verification: $1260 / 252 = 5$ and $1260 / 105 = 12$ Both integers. $\blacksquar
   the extended Euclidean algorithm for RSA key generation.
 - **Diophantine equations:** The linear Diophantine equation $ax + by = c$ has integer solutions iff
   $\gcd(a,b) \mid c$, and the solutions are parameterised by the lcm-related step size.
-
-
-```mermaid
-flowchart TD
-    A[Number Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -58525,27 +56118,6 @@ Each widget is compiled from Rust to WebAssembly using `wasm-pack`. The Rust cod
 
 **Forgetting that WASM runs in a sandboxed environment:** WASM modules cannot access the file system, network, or browser APIs directly. All I/O must go through JavaScript imports defined in the `bindgen` configuration. Trying to use `std::fs` or `reqwest` directly will fail at runtime.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## Diagnostics
 
 ---
@@ -58756,17 +56328,6 @@ URL: https://mathematics.wyattau.com/diagnostics/diag-linear-algebra/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Linear Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

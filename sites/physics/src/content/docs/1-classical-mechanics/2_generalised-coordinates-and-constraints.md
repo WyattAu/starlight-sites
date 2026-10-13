@@ -180,17 +180,6 @@ $$
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[2_Generalised Coordinates And Constraints] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Generalised coordinates are the minimum number of independent parameters needed to describe a system's configuration. A pendulum needs only one angle, not two Cartesian coordinates. Constraints are the rules that reduce the degrees of freedom, like a bead confined to a wire. Holonomic constraints can be written as equations, making them mathematically tractable. D'Alembert's principle extends virtual work to dynamics by treating inertia as a fictitious force. This insight leads directly to Lagrangian mechanics, where constraint forces disappear entirely because they do no virtual work.
@@ -214,23 +203,3 @@ D'Alembert's principle requires that constraint forces do no virtual work. This 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

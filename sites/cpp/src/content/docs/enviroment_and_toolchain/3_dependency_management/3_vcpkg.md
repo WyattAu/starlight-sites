@@ -731,17 +731,6 @@ export VCPKG_ROOT=/opt/vcpkg
 - [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/) -- How vcpkg-integrated libraries propagate
   build properties
 
-
-```mermaid
-flowchart TD
-    A[3_Vcpkg] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to vcpkg, including key principles

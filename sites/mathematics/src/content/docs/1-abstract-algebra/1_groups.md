@@ -243,17 +243,6 @@ subgroup of order $6$. However, every subgroup of a _cyclic_ group of order $n$ 
 $n$ And for each divisor There is exactly one such subgroup.
 :::
 
-
-```mermaid
-flowchart TD
-    A[1_Groups] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Subgroups](/1-abstract-algebra/2_subgroups/)**: Subgroups are subsets of a group that inherit the group structure.

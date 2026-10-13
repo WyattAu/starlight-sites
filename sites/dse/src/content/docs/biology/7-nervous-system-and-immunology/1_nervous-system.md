@@ -1235,16 +1235,6 @@ LTP is the cellular basis of learning and memory:
 - Synaptic transmission is always in one direction: presynaptic $\rightarrow$ postsynaptic (because
   only the presynaptic terminal has synaptic vesicles containing neurotransmitter)
 
-```mermaid
-flowchart TD
-    A[1_Nervous System] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 experimental evidence, and real-world applications.

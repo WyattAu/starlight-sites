@@ -223,17 +223,6 @@ $\blacksquare$
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[6_Central Force Problemsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Central force problems describe motion under forces that point toward or away from a fixed center. The key insight is that angular momentum is conserved, confining motion to a plane. The effective potential combines the real potential with the centrifugal barrier, creating an energy landscape that determines the orbit shape. For attractive inverse-square forces, the orbits are conic sections: circles, ellipses, parabolas, or hyperbolas. Rutherford scattering shows how alpha particles deflected by the Coulomb force reveal the atomic nucleus. The orbit equation transforms the problem from tracking position versus time to tracking the trajectory shape directly, eliminating time as a variable.
@@ -253,27 +242,6 @@ The semi-latus rectum $p = l^2/(mk)$ determines the shape of the orbit, while th
 
 - **[Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)**: The Lagrangian formulation provides the effective potential analysis for central force problems.
 - **[Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)**: The Hamiltonian formalism gives the total energy and phase space representation of central force orbits.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -432,17 +400,6 @@ $\blacksquare$
   non-holonomic constraints require Lagrange multipliers. **Fix:** For holonomic constraints,
   express the system in terms of independent generalised coordinates.
 
-
-```mermaid
-flowchart TD
-    A[13_Classical Field Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Newton's laws (vector approach) vs Lagrangian mechanics (scalar, energy-based approach).
@@ -467,27 +424,6 @@ Classical field theory extends mechanics from particles to continuous media. A f
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -549,27 +485,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 **Confusing conservative and non-conservative forces:** conservative forces (gravity, springs) have potential energy functions; non-conservative forces (friction, air resistance) do not. Energy conservation only applies to conservative systems.
 
 **Forgetting that the Lagrangian is not unique:** adding a total time derivative dF(q,t)/dt to L does not change the equations of motion. Different Lagrangians can describe the same physics.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -748,17 +663,6 @@ $$
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[2_Generalised Coordinates And Constraints] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Generalised coordinates are the minimum number of independent parameters needed to describe a system's configuration. A pendulum needs only one angle, not two Cartesian coordinates. Constraints are the rules that reduce the degrees of freedom, like a bead confined to a wire. Holonomic constraints can be written as equations, making them mathematically tractable. D'Alembert's principle extends virtual work to dynamics by treating inertia as a fictitious force. This insight leads directly to Lagrangian mechanics, where constraint forces disappear entirely because they do no virtual work.
@@ -781,27 +685,6 @@ D'Alembert's principle requires that constraint forces do no virtual work. This 
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -1236,17 +1119,6 @@ $\blacksquare$
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[4_Hamiltonian Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Hamiltonian mechanics is like switching from a video recording of motion to a snapshot of all possible states. While the Lagrangian tracks positions and velocities over time, the Hamiltonian lives in phase space where every point represents a complete snapshot of where something is and how fast it is going. Hamilton's equations are beautifully symmetric: the rate of change of position depends on how energy changes with momentum, and the rate of change of momentum depends on how energy changes with position. Liouville's theorem tells us that if you paint a region of phase space, its volume stays the same as it flows around like incompressible paint. This is why statistical mechanics works: the phase space volume that encodes all possible states of a system is preserved under time evolution.
@@ -1502,17 +1374,6 @@ Hamiltonian depends linearly on $J$, giving constant frequency. For anharmonic o
 is non-linear and the frequency depends on amplitude.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[11_Hamiltonian Mechanics Advanced Topics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -2666,16 +2527,6 @@ Kinetic friction opposes the direction of motion relative to the surface, not th
 **Mistake 3: Forgetting that Newton's third law pairs act on different objects**
 The action-reaction pair in Newton's third law always acts on different objects. If object A exerts a force on object B, then object B exerts an equal and opposite force on object A. These forces do not cancel because they act on different bodies. A frequent mistake is adding action-reaction forces together and concluding the net force is zero.
 
-```mermaid
-flowchart TD
-    A[1_Newtonian Mechanics Review] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/)**: The first law of thermodynamics extends conservation of energy to include heat transfer, building on mechanical energy conservation.
@@ -2879,17 +2730,6 @@ This is the energy function, which equals $T + V$ for natural systems. $\blacksq
 | Rotation about $z$  | $\phi \to \phi + \epsilon$ | Angular momentum $L_z$ |
 | Galilean boost      | $x \to x + \epsilon t$     | Centre-of-mass motion  |
 
-
-```mermaid
-flowchart TD
-    A[5_Noether S Theorem And Conservation Laws] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Noether's theorem is the universe's most elegant bookkeeping principle. Every symmetry you can identify is a guarantee that something is conserved. If the laws of physics are the same here as they are on the other side of the room, then linear momentum is conserved. If the laws are the same now as they were yesterday, then energy is conserved. If the laws do not care which way you point your coordinate axes, then angular momentum is conserved. Think of it like a conservation bank: every symmetry deposits a conserved quantity that you can withdraw later to solve problems. The deep insight is that conservation laws are not separate accidents of nature but consequences of the underlying symmetry structure. When you discover a new symmetry, you automatically gain a new conservation law.
@@ -3001,27 +2841,6 @@ the symplectic structure page.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -3242,17 +3061,6 @@ The original coordinate: $x = X + Pt/m = x_0 + v_0 t$ (uniform motion). $\checkm
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[12_Nonlinear Dynamics And Chaos] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Nonlinear dynamics reveals that deterministic systems can produce unpredictable behavior. In linear systems, small changes in initial conditions lead to small changes in outcomes. In chaotic systems, nearby trajectories diverge exponentially, making long-term prediction impossible despite perfect knowledge of the governing equations. The Lyapunov exponent quantifies this sensitivity: a positive exponent means chaos. Strange attractors are the geometric structures that chaotic trajectories settle onto, having fractal dimension. Poincare sections reduce continuous trajectories to discrete maps, revealing hidden order. The key insight is that chaos is not randomness but rather deterministic complexity, arising from the stretching and folding of phase space.
@@ -3338,27 +3146,6 @@ the explanation.
 
 - **[Site Home](../../):** Main landing page for physics notes.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -4093,17 +3880,6 @@ Bertrand's theorem).
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[9_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Classical mechanics is the foundation of physics: it describes how objects move under forces. Newton's second law, F equals ma, is the starting point, but the deeper principles are conservation laws. Energy conservation says the total stays constant when forces are conservative; momentum conservation says the centre of mass moves as if all external forces acted on a single particle; angular momentum conservation explains why planets orbit in ellipses. Lagrangian and Hamiltonian mechanics reformulate these ideas in terms of energy rather than force, revealing symmetries that lead directly to conservation laws via Noether's theorem.
@@ -4374,17 +4150,6 @@ rate --- the faster the wheel spins, the slower it precesses.
 $\blacksquare$
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[8_Rigid Body Dynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -4676,17 +4441,6 @@ steady precession and topples.
   axis spontaneously flips 180° periodically, visible in microgravity. This confirms the
   instability of intermediate-axis rotation predicted by Euler's equations.
 
-
-```mermaid
-flowchart TD
-    A[10_Rigid Body Dynamics Advanced Topics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Rigid body dynamics describes how extended objects rotate, where the distribution of mass matters as much as the total mass. The moment of inertia generalizes mass to rotation, depending on how far the mass is distributed from the axis. Euler's equations govern free rotation: a body spinning about its fastest or slowest axis is stable, but rotation about the intermediate axis is unstable, causing the Dzhanibekov flipping effect. A spinning top precesses because gravity exerts a torque that changes the angular momentum direction without changing its magnitude. Nutation adds a wobble on top of precession, arising from the competition between gravitational torque and gyroscopic stiffness.
@@ -4884,17 +4638,6 @@ The corresponding normal modes are:
 - Misidentifying degenerate modes: when $\omega_\alpha = \omega_\beta$, any linear combination of the corresponding eigenvectors is also a normal mode.
 - Assuming that small oscillation analysis captures the full dynamics; it only describes motion near equilibrium and breaks down for large amplitudes.
 
-
-```mermaid
-flowchart TD
-    A[7_Small Oscillations And Normal Modes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Normal modes are like the natural hum of a system. When you pluck a guitar string, it vibrates at specific frequencies determined by its length and tension. Push a swing at just the right moment and it builds up; push at the wrong frequency and it barely moves. Small oscillation analysis decomposes any complex motion near equilibrium into these natural frequencies. Think of coupled pendulums: energy sloshes back and forth between them like water in connected tanks, creating the beat phenomenon. Each normal mode is a pattern where every part of the system moves in phase with the same frequency. The secular equation is like tuning a radio: it tells you exactly which frequencies the system can sustain. Any motion is just a superposition of these natural frequencies, like a chord on a piano is a superposition of individual notes.
@@ -4918,27 +4661,6 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -5414,17 +5136,6 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 | Phase transition | BEC at $T_c$ | No phase transition |
 | High-$T$ limit | Maxwell--Boltzmann | Maxwell--Boltzmann |
 
-
-```mermaid
-flowchart TD
-    A[5_Bose Einstein Condensation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic atoms are cooled below a critical temperature, their thermal de Broglie wavelengths overlap, and a macroscopic fraction collapses into the single lowest-energy quantum state. Unlike a classical gas, where particles are distinguishable and distribute across energies, bosons are indistinguishable and happily occupy the same state. The condensate fraction grows as temperature drops, like snow accumulating on the ground. BEC is a purely statistical phenomenon requiring no interparticle interactions, making it a textbook example of phase transition driven solely by quantum mechanics.
@@ -5439,27 +5150,6 @@ Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic at
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -5689,17 +5379,6 @@ The Maxwell-Boltzmann distribution is the classical limit valid only when $n\lam
 **Mistake 3: Misapplying the equipartition theorem**
 The equipartition theorem assigns $\frac{1}{2}k_B T$ per quadratic degree of freedom, but it fails at low temperatures when quantum effects freeze out degrees of freedom. For example, the vibrational mode of a diatomic molecule at room temperature may not contribute $\frac{1}{2}k_B T$ if $\hbar\omega \gg k_B T$. Always check whether the classical limit applies before using equipartition.
 
-
-```mermaid
-flowchart TD
-    A[7_Classical Limit And The Maxwell Boltzmann Distribution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Maxwell-Boltzmann distribution is what quantum statistics looks like when particles are far apart and quantum effects are negligible. At high temperatures or low densities, the thermal de Broglie wavelength shrinks below the inter-particle spacing, and the distinction between bosons and fermions vanishes. The speed distribution reflects a tug-of-war between energy and entropy: the Boltzmann factor suppresses high energies, while the density of states favours them. The most probable speed is lower than the mean, which is lower than the RMS, because the distribution is asymmetric with a tail toward higher speeds.
@@ -5873,17 +5552,6 @@ is a key signature of a Fermi liquid. $\blacksquare$
   expansion shows that $\mu$ decreases quadratically with $T$, not linearly. Assuming
   $\mu = \varepsilon_F$ at all temperatures leads to errors in the electronic heat capacity
   calculation.
-
-
-```mermaid
-flowchart TD
-    A[8_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -6081,17 +5749,6 @@ The chemical potential decreases by only about $2.4 \times 10^{-4}\%$, confirmin
 
 $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[4_Fermi Gas At Finite Temperature] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A Fermi gas at finite temperature is like a theatre filling up with picky patrons. At absolute zero, every seat up to the Fermi energy is occupied, and the Fermi sea is perfectly flat. As temperature rises, only those electrons near the Fermi surface can be thermally excited, because the Pauli exclusion principle blocks transitions to already-occupied states. This is why the electronic specific heat is linear in temperature rather than following the classical equipartition theorem. The Sommerfeld expansion captures this by showing that thermal effects are confined to a narrow window of width kT around the Fermi energy. At ordinary temperatures in metals, only about one in a thousand conduction electrons participates in thermal physics.
@@ -6114,27 +5771,6 @@ A Fermi gas at finite temperature is like a theatre filling up with picky patron
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "4_fermi Gas At Finite Temperature", "url": "https://physics.wyattau.com/2-thermal-physics/4_fermi-gas-at-finite-temperature"}]
 }
 </script>
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -6258,17 +5894,6 @@ $\sqrt{\langle x^2 \rangle} \approx 0.94$ $\mu$ M.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[13_Fluctuation Dissipation Theorem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The fluctuation-dissipation theorem reveals a profound link between how a system wobbles on its own and how it resists being pushed. A resistor at thermal equilibrium has voltage noise because charge carriers jitter randomly; the same microscopic collisions that cause this noise also produce electrical resistance. The theorem quantifies this: the power spectrum of spontaneous fluctuations is proportional to the dissipative part of the response function, with temperature as the bridge. A stiff spring that resists displacement strongly also fluctuates less. A particle in a viscous fluid diffuses slowly because the same drag that slows it also heats it. This deep connection means you can learn about a system's dissipation just by watching it fluctuate at equilibrium, without ever applying an external force.
@@ -6337,27 +5962,6 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -6653,17 +6257,6 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 | Jarzynski equality      | Non-equilibrium     | Any driving protocol   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$ |
 | Crooks theorem          | Non-equilibrium     | Forward/reverse pairs  | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$     |
 
-
-```mermaid
-flowchart TD
-    A[19_Irreversible Thermodynamics And Fluctuations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Irreversible thermodynamics describes systems that are driven away from equilibrium and eventually settle into a steady state. The Onsager relations reveal a deep symmetry: the way a temperature gradient drives particle flow is mathematically related to how a concentration gradient drives heat flow. Entropy production is always positive in irreversible processes, providing an arrow of time. Fluctuation theorems extend these ideas to small systems where thermal noise dominates, showing that entropy-decreasing fluctuations are possible but exponentially unlikely. These frameworks connect microscopic randomness to macroscopic irreversibility, explaining why heat flows from hot to cold and why perpetual motion machines are impossible.
@@ -6696,27 +6289,6 @@ $\blacksquare$
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -6925,17 +6497,6 @@ critical point.
 
 **Neural networks.** The Hopfield model of associative memory is formally equivalent to an Ising
 model with random couplings, where stored memories correspond to ground states.
-
-
-```mermaid
-flowchart TD
-    A[12_Ising Model And Mean Field Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -7146,17 +6707,6 @@ The susceptibility above $T_c$: $\chi = 1/a = 1/[0.5(T - 400)]$. At $T = 500$ K,
 
 The specific heat jump at $T_c$: $\Delta C = T_c a_0^2/(2b) = 400 \times 0.25/(4) = 25$.
 
-
-```mermaid
-flowchart TD
-    A[11_Landau Theory Of Phase Transitions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Landau theory is a mathematical framework for understanding how systems choose between ordered and disordered states. The order parameter tracks the degree of ordering, like magnetization in a magnet. Above the critical temperature, thermal fluctuations destroy order. Below it, the free energy landscape develops two minima, and the system must choose one, breaking symmetry. The theory is powerful because it makes few assumptions about microscopic details, capturing universal features of continuous phase transitions through simple polynomial expansions.
@@ -7169,27 +6719,6 @@ Landau theory is a mathematical framework for understanding how systems choose b
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -7413,17 +6942,6 @@ The relative fluctuation $\sqrt{\langle (\Delta E)^2 \rangle}/\langle E \rangle 
 | Chemical potential | $\mu = -T\,\partial S/\partial N$ |
 | Sackur-Tetrode (ideal gas) | $S = Nk_B[\ln(V/N) + \frac{3}{2}\ln(4\pi m E/(3Nh^2)) + \frac{5}{2}]$ |
 
-
-```mermaid
-flowchart TD
-    A[14_Microcanonical Ensemble] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The microcanonical ensemble describes an isolated system with fixed energy, volume, and particle number. The central idea is that all accessible microstates are equally probable, and the number of these microstates determines the entropy through Boltzmann's formula. Temperature emerges as the rate of change of entropy with energy: adding energy to a system with many available microstates raises the entropy slowly, giving a high temperature. The entropy is maximized at equilibrium because that is the macrostate compatible with the most microstates. For an ideal gas, the Sackur-Tetrode equation shows that entropy increases with volume and energy, capturing the logarithmic counting of phase space volumes.
@@ -7633,17 +7151,6 @@ At $T = 374.15$ K (1 K above boiling), $P \approx 1.013 \times 10^5 + 1.35 \time
 - **Cryogenics:** The lambda transition in helium-4 determines the properties of superfluid helium used in low-temperature experiments.
 - **Food industry:** Controlling phase transitions (freezing, melting, crystallisation) determines texture and shelf life of food products.
 
-
-```mermaid
-flowchart TD
-    A[10_Phase Transitions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Phase transitions are sudden rearrangements of matter's structure. First-order transitions like boiling involve latent heat because energy goes into breaking bonds rather than raising temperature. The Clausius-Clapeyron equation links the boiling point's pressure sensitivity to the volume change during vaporization. At the critical point, the distinction between liquid and gas vanishes because thermal fluctuations overcome both attractions and repulsions. Critical exponents describe how physical quantities diverge near this point, and their universality reflects that wildly different systems share the same mathematical structure near criticality.
@@ -7658,27 +7165,6 @@ Phase transitions are sudden rearrangements of matter's structure. First-order t
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -7751,27 +7237,6 @@ fundamentals (partition functions, Boltzmann distribution).
 
 - **[Site Home](../../):** Main landing page for physics notes.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -8068,17 +7533,6 @@ thermal energy $k_B T$ is comparable to $\varepsilon$. $\blacksquare$
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[9_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Thermal physics connects the microscopic world of individual particles to the macroscopic world of temperature, pressure, and entropy. The partition function is the central object: it encodes all thermodynamic information about a system by summing Boltzmann weights over every possible state. From it, one can derive free energies, equations of state, and response functions. The key insight is that entropy counts the number of microstates consistent with a macrostate, and equilibrium corresponds to the macrostate with the most microstates.
@@ -8289,17 +7743,6 @@ integrates to the Stefan--Boltzmann law: $u = aT^4$ where $a = \pi^2 k_B^4/(15\h
 
 **Phonons** are quantised lattice vibrations, also bosons with $\mu = 0$. At low $T$:
 $C_V \propto T^3$ (Debye model), consistent with the experimental $T^3$ law for insulators.
-
-
-```mermaid
-flowchart TD
-    A[18_Quantum Statistical Mechanics Advanced Topics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -8551,17 +7994,6 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 | Sommerfeld expansion | $C_V \propto T/T_F$ | Linear specific heat at low $T$ |
 | Condensate fraction | $N_0/N = 1 - (T/T_c)^{3/2}$ | Order parameter for BEC |
 
-
-```mermaid
-flowchart TD
-    A[15_Quantum Statistics In Detail] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Quantum statistics is the story of two fundamentally different types of matter. Fermions, governed by the Pauli exclusion principle, refuse to share quantum states, creating a Fermi sea that fills up like a stadium seating chart. Bosons, by contrast, are social particles that pile into the same state, leading to Bose-Einstein condensation when cooled. At high temperatures both distributions merge into the classical Maxwell-Boltzmann form because quantum identity becomes irrelevant when particles are far apart. The Fermi energy sets the scale of electron behaviour in metals, while the BEC critical temperature marks the onset of macroscopic quantum coherence.
@@ -8611,27 +8043,6 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -8888,17 +8299,6 @@ already accounts for this via the $1/N!$ factor in the partition function. $\bla
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[2_Statistical Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Statistical mechanics bridges the microscopic world of individual atoms to the macroscopic world we touch and feel. Think of it as the universe's census: you cannot track every molecule in a gas, but you can count how many microscopic arrangements produce the same temperature and pressure. The partition function is like a grand accounting ledger that tallies every possible microstate, weighted by its probability. The Boltzmann distribution tells us that nature is lazy about energy: low-energy states are much more probable than high-energy ones, but at higher temperatures, the system can afford to explore more states. The equipartition theorem is like splitting energy equally among all available ways to store it. Entropy measures how many microscopic configurations are consistent with what you observe, and it always increases because there are overwhelmingly more ways to be disordered than ordered.
@@ -9122,17 +8522,6 @@ atoms). Compute the specific heat of diamond at 100 K, 300 K, and 500 K using th
 
 **Problem 6.** Show that in the low-temperature limit, the Debye model gives
 $U = \frac{3\pi^4}{5} Nk_B T (T/\theta_D)^3$ by evaluating the integral $\int_0^\infty x^3/(e^x - 1)\, dx = \pi^4/15$.
-
-
-```mermaid
-flowchart TD
-    A[16_The Debye Model Of Solids] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -9358,41 +8747,9 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 - **Chemical equilibrium:** Reactions in solution are described in the grand canonical ensemble, where the chemical potentials of reactants and products are fixed by the reservoir.
 - **Monte Carlo simulations:** Grand canonical Monte Carlo (GCMC) simulations insert and delete particles to sample the grand canonical distribution, used extensively in studies of porous materials and fluid adsorption.
 
-
-```mermaid
-flowchart TD
-    A[3_The Grand Canonical Ensemble] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The grand canonical ensemble is the most flexible statistical framework because it allows both energy and particle number to fluctuate. The chemical potential acts like a price for adding particles: if it is low, particles flow in; if high, they flow out. The fugacity is the exponential of this price, weighting different particle numbers. For quantum gases, the grand partition function logically produces Fermi-Dirac and Bose-Einstein statistics from the same formalism, with the only difference being whether states can be occupied once or many times.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -9573,17 +8930,6 @@ This gives the mean field critical exponent $\gamma = 1$. $\blacksquare$
   generalise the 1D result to higher dimensions.
 - Critical exponents are universal (depend only on dimension and symmetry), not on lattice details.
 
-
-```mermaid
-flowchart TD
-    A[6_The Ising Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Ising model is the simplest system showing how local interactions create global order. Each spin copies its neighbors' tendency, and below the critical temperature this copying wins, creating spontaneous magnetization. Mean-field theory averages over neighbors, ignoring fluctuations that become important near the critical point. The 1D model has no phase transition because any domain wall costs only finite energy. In 2D, Onsager's exact solution shows a phase transition exists. Critical exponents are universal because near the critical point, the correlation length diverges, making microscopic details irrelevant.
@@ -9608,27 +8954,6 @@ The Ising model is the simplest system showing how local interactions create glo
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -9816,17 +9141,6 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "1_the Laws Of Thermodynamics", "url": "https://physics.wyattau.com/2-thermal-physics/1_the-laws-of-thermodynamics"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[1_The Laws Of Thermodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 
@@ -10199,17 +9513,6 @@ non-interacting particles.
 to $\epsilon_F$. There are no particle number fluctuations: $\langle(\Delta N)^2\rangle = 0$.
 Physically, this is because adding or removing a particle costs a finite energy $\epsilon_F$ So the
 chemical potential is infinitely sharp.
-
-
-```mermaid
-flowchart TD
-    A[17_Thermodynamic Response Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -13653,17 +12956,6 @@ Per bit: $2.87 \times 10^{-21}$ J = $2.87$ zJ. DRAM capacitors use $\sim 4$ fJ/b
 
 This enormous gap demonstrates that current computing is limited not by thermodynamics but by engineering constraints (capacitive charging, leakage, noise margins). $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[20_Thermodynamics Of Information Processing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Landauer's principle reveals that information is physical: erasing a bit must dissipate at least kT ln 2 of heat because erasure reduces the entropy of the information-bearing system, and the second law demands compensation in the environment. Maxwell's demon fails because acquiring and erasing information about particles costs energy that exactly cancels the apparent entropy decrease. The vast gap between the Landauer limit and current CMOS technology shows that modern computing is limited by engineering, not by fundamental physics. Reversible computing aims to close this gap by never erasing information during computation.
@@ -13687,27 +12979,6 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 - [Thermal Physics](./)
 - [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/)
 - [Phase Transitions](/2-thermal-physics/10_phase-transitions/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Electromagnetism
 
@@ -13987,17 +13258,6 @@ dipole ($D = 1.5$).
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-```mermaid
-flowchart TD
-    A[11_Advanced Electrodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Antenna theory describes how oscillating currents generate electromagnetic radiation. A half-wave dipole has a current distribution shaped like a half-sine wave along its length, producing a radiation pattern that is doughnut-shaped with maximum intensity broadside to the antenna. The radiation resistance quantifies how efficiently the antenna converts input power into radiated power. The key physical picture is that the accelerating charges in the antenna create time-varying electric and magnetic fields that detach from the antenna and propagate outward as a self-sustaining electromagnetic wave. The impedance matching between the antenna and the transmission line determines how much power is reflected versus radiated.
@@ -14201,17 +13461,6 @@ $$
 L = \frac{\mu_0 N^2 A}{\ell}
 $$
 
-
-```mermaid
-flowchart TD
-    A[4_Electrodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Electrodynamics is the physics of how changing fields create each other. Faraday's law says a changing magnetic field whips up an electric field like stirring tea creates a whirlpool. The displacement current is Maxwell's brilliant addition: a changing electric field produces a magnetic field just as a real current does, which is what allows electromagnetic waves to propagate through empty space. Lenz's law is nature's stubbornness: when you try to change the magnetic flux through a loop, the loop fights back by inducing a current that opposes the change. This is why a magnet falling through a copper pipe slows down even though copper is not magnetic. Self-inductance is like electrical inertia: an inductor resists changes in current the way a massive object resists changes in velocity. The energy stored in an inductor's magnetic field is like the kinetic energy of a moving mass.
@@ -14236,27 +13485,6 @@ Faraday's law $\nabla \times \mathbf{E} = -\partial\mathbf{B}/\partial t$ applie
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -14590,17 +13818,6 @@ $$
 $\blacksquare$
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[5_Electromagnetic Waves] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -14995,17 +14212,6 @@ Dielectric. $\blacksquare$
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[2_Electrostaticsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Electrostatics studies how stationary charges create electric fields and potentials. Gauss's law is a bookkeeping tool: the total flux through any closed surface equals the enclosed charge divided by the permittivity, regardless of surface shape. This makes symmetric problems trivial to solve. The potential is like a topographic map of electrical height, where charges sit on hills. The uniqueness theorem guarantees that any solution satisfying the boundary conditions is the only solution, so clever guesses like the method of images are valid. Dielectrics respond to external fields by polarising, creating bound charges that partially cancel the applied field.
@@ -15095,27 +14301,6 @@ import { flashcards1, flashcards2, flashcards3 } from '@/data/flashcards/physics
 **Confusing electric flux with electric field:** Electric flux is the integral of E · dA over a surface; electric field is a vector at a point. Gauss's law relates flux to charge, not field to charge directly.
 
 **Forgetting the displacement current:** Maxwell's correction to Ampere's law (∂E/∂t term) is essential for electromagnetic waves. Without it, the theory predicts no wave solutions.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -15528,17 +14713,6 @@ Features:
 For soft ferromagnets (iron, nickel), $H_c$ is small and the hysteresis loop is narrow. For hard
 ferromagnets (permanent magnets), $H_c$ is large.
 
-
-```mermaid
-flowchart TD
-    A[3_Magnetostatics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Magnetic fields are the universe's way of pushing things sideways. Unlike electric fields that push along the field line, magnetic forces always act perpendicular to motion, which means they can change the direction of a moving charge but never its speed. The Biot-Savart law is like measuring the magnetic footprint of every tiny current element and adding them up. Ampere's law is the magnetic equivalent of Gauss's law: draw a loop around a current, and the magnetic field integrated along that loop tells you how much current passes through. The vector potential is a mathematical shortcut that simplifies calculations, even though it is not directly measurable. Ferromagnetism is like a crowd of tiny compass needles that all want to point the same way: once aligned, they stay aligned even after the external field is removed, which is why permanent magnets exist.
@@ -15897,17 +15071,6 @@ The original Ampere's law $\nabla \times \mathbf{B} = \mu_0 \mathbf{J}$ is incon
 **Mistake 3: Confusing integral and differential forms**
 The integral form of Gauss's law $\oint \mathbf{E} \cdot d\mathbf{A} = Q_{\text{enc}}/\varepsilon_0$ applies to specific symmetric configurations, while the differential form $\nabla \cdot \mathbf{E} = \rho/\varepsilon_0$ is the general statement. Students often apply the integral form without verifying that the symmetry assumptions (spherical, cylindrical, or planar) are satisfied.
 
-
-```mermaid
-flowchart TD
-    A[1_Maxwell S Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Magnetostatics](/3-electromagnetism/3_magnetostatics/)**: Magnetostatics is the static limit of Maxwell's equations where time derivatives vanish, describing steady currents and magnetic fields.
@@ -15997,17 +15160,6 @@ $\blacksquare$
   $\vec{D} = \varepsilon_0\vec{E} + \vec{P}$; $\vec{H} = \vec{B}/\mu_0 - \vec{M}$. **Fix:** In
   vacuum: $\vec{D} = \varepsilon_0\vec{E}$, $\vec{H} = \vec{B}/\mu_0$.
 
-
-```mermaid
-flowchart TD
-    A[13_Plasma Physics Brief Overview] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Maxwell's equations: Gauss’s law, Gauss's law for magnetism, Faraday’s law, Ampère-Maxwell law.
@@ -16090,27 +15242,6 @@ $\blacksquare$
 - [Electromagnetism](./)
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/)
 - [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -16317,17 +15448,6 @@ $$
 $$
 :::
 
-
-```mermaid
-flowchart TD
-    A[6_Potentials And Gauge Transformations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Gauge symmetry is the idea that potentials are not unique but the fields they produce are. Like choosing different coordinate systems to describe the same physical situation, gauge transformations change the mathematical description without changing the physics. The Coulomb gauge makes the vector potential divergence-free, useful for static magnetic fields. The Lorenz gauge simplifies the wave equations, making radiation problems tractable. The Liénard-Wiechert potentials show that fields from a moving charge are retarded, meaning we see the charge where it was when the light left it, not where it is now.
@@ -16348,27 +15468,6 @@ Gauge symmetry is the idea that potentials are not unique but the fields they pr
 - **Confusing retarded time with actual time:** The Liénard-Wiechert potentials depend on the charge's position at the retarded time $t_r = t - R/c$, not at the present time. Using the current position gives incorrect fields for moving charges.
 - **Assuming gauge transformations change physical fields:** Gauge transformations change the potentials $(\Phi, \mathbf{A})$ but leave the electric and magnetic fields $(\mathbf{E}, \mathbf{B})$ unchanged. If your calculation gives different fields after a gauge transformation, you have made an error.
 - **Neglecting the radiation field when computing force on a charge:** The $1/R$ radiation field falls off more slowly than the $1/R^2$ velocity field. At large distances, only the radiation field matters, but at short distances the velocity field dominates.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -16571,27 +15670,6 @@ D. 0.30 W/m^2
 - [Electromagnetism](./)
 - [Electromagnetism Flashcards](/3-electromagnetism/14_flashcards-electromagnetism/)
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -17268,17 +16346,6 @@ _Cross-reference:_ Section 7.4, Section 1.1.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[8_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Maxwell's equations are the four laws that govern all classical electromagnetic phenomena. Gauss's law says electric charges create field lines that spread outward; the magnetostatic version says magnetic field lines always close on themselves. Faraday's law and the Ampere-Maxwell law describe how changing fields create each other: a changing magnetic field produces an electric field and vice versa. This mutual regeneration is what allows electromagnetic waves to propagate through empty space, carrying energy and momentum without any medium.
@@ -17498,41 +16565,9 @@ The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is neglig
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-```mermaid
-flowchart TD
-    A[10_Radiation From Accelerating Charges] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Radiation is how accelerating charges shed energy. The Larmor formula shows that power radiated is proportional to the square of acceleration, so rapidly changing charges radiate intensely. The toroidal radiation pattern means antennas radiate maximally perpendicular to their axis, like a doughnut of energy. Synchrotron radiation becomes directional at relativistic speeds because the radiation cone narrows, like a lighthouse beam. Bremsstrahlung produces a continuous X-ray spectrum because the deceleration is随机. The radiation reaction force is the charge feeling its own field, a subtle effect that becomes important in extreme environments.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -17724,17 +16759,6 @@ These invariants classify electromagnetic fields:
 - If $c^2 B^2 \gt E^2$ There exists a frame where $\mathbf{E} = \mathbf{0}$ (purely magnetic).
 - If $\mathbf{E} \cdot \mathbf{B} = 0$ and $E = cB$ The field is a null field (electromagnetic wave).
 
-
-```mermaid
-flowchart TD
-    A[7_Special Relativity And Electromagnetism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Special relativity and electromagnetism are two aspects of the same theory. Electric and magnetic fields are not separate entities but components of a single electromagnetic field tensor. What one observer calls a pure electric field, another moving observer may see as a mixture of electric and magnetic fields. The invariants classify field configurations: if the electric field dominates in some frame, you can always find a frame where the magnetic field vanishes. Light emerges as the unique null field where E equals cB, making electromagnetism inherently relativistic.
@@ -17752,27 +16776,6 @@ Special relativity and electromagnetism are two aspects of the same theory. Elec
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -17861,17 +16864,6 @@ charge quantisation condition $eg = n\hbar/2$.
 | Force density         | $\rho\mathbf{E} + \mathbf{J}\times\mathbf{B}$ | $f^\mu = F^{\mu\nu}J_\nu$ |
 | Energy-momentum       | $u = \frac{1}{2}(\varepsilon_0 E^2 + B^2/\mu_0)$, $\mathbf{S}$ | $T^{\mu\nu}$ |
 
-
-```mermaid
-flowchart TD
-    A[12_Special Relativity And Electromagnetism 12] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Special relativity and electromagnetism are inseparable: Maxwell's equations are already relativistically correct, and the electric and magnetic fields are merely different aspects of a single electromagnetic field tensor. What one observer calls a pure electric field, a moving observer sees as a mixture of electric and magnetic components. The field tensor $F^{\mu\nu}$ packages all six field components into a single mathematical object that transforms cleanly under Lorentz boosts. The Lorentz force law becomes a compact four-vector equation, and the conservation of energy-momentum extends to include field contributions. The key physical picture is that electricity and magnetism are not separate forces but different faces of the same relativistic coin, unified by the geometry of spacetime.
@@ -17954,27 +16946,6 @@ width $\sim 1/\gamma$ around the plane perpendicular to the motion. This is the 
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -18175,41 +17146,9 @@ TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inser
 - **Fibre optics:** Although optical fibres are dielectric waveguides rather than metallic, the same concepts of modes, cutoff, and dispersion apply.
 - **Radar systems:** Waveguide components (bends, twists, directional couplers) route microwave signals between the transmitter, antenna, and receiver with minimal loss.
 
-
-```mermaid
-flowchart TD
-    A[9_Waveguides And Cavities] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A waveguide is a metallic pipe that channels electromagnetic waves like a flute channels sound. The cutoff frequency acts like a minimum note: waves below this frequency cannot propagate and decay exponentially. Phase velocity exceeding c is not a paradox because it carries no information; the group velocity, which does, stays below c. Cavities are like organ pipes for microwaves, resonating at specific frequencies determined by their dimensions. The quality factor measures how long a cavity rings, like how long a bell sustains its tone after being struck.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Optics-And-Waves
 
@@ -18401,17 +17340,6 @@ $\blacksquare$
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[8_Coherence] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Coherence is the predictability of a wave's phase over time and space. A laser maintains phase relationships for microseconds, allowing interference over meters. A light bulb's atoms emit independently, so phases randomize in femtoseconds, limiting coherence to micrometers. The coherence length is the maximum path difference where interference fringes remain visible, like the distance over which two runners stay in step. Spatial coherence depends on source size: a point source is perfectly coherent across space, while an extended source like the sun has limited spatial coherence. The van Cittert-Zernike theorem connects source angular size to coherence area.
@@ -18434,27 +17362,6 @@ The coherence time $\tau_c \approx 1/\Delta\nu$ characterises how long the field
 The van Cittert-Zernike theorem shows that even an extended incoherent source produces spatially coherent light over a finite area $A_c \approx \lambda^2/\Omega$. The coherence area increases as the source becomes more compact. Students sometimes think only lasers or point sources produce spatially coherent light, when in fact any source produces some degree of spatial coherence over sufficiently small transverse distances.
 
 Coherence is the predictability of a wave's phase over time and space. A laser maintains phase relationships for microseconds, allowing interference over meters. A light bulb's atoms emit independently, so phases randomize in femtoseconds, limiting coherence to micrometers. The coherence length is the maximum path difference where interference fringes remain visible, like the distance over which two runners stay in step. Spatial coherence depends on source size: a point source is perfectly coherent across space, while an extended source like the sun has limited spatial coherence. The van Cittert-Zernike theorem connects source angular size to coherence area.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -18656,17 +17563,6 @@ antibunching), $g^{(2)}(0) < 1$.
 0.01 arcseconds at $\lambda = 550$ nm. Compute the fringe visibility and determine whether the
 fringes are observable.
 
-
-```mermaid
-flowchart TD
-    A[15_Coherence Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Coherence measures how predictable phase relationships are between different points on a wave. Temporal coherence tells you how long you can trust the phase before it wanders randomly, like how long a tuning fork stays in tune. Spatial coherence tells you how far apart two points can be while maintaining a fixed phase relationship. The van Cittert-Zernike theorem connects source size to coherence: a smaller source produces more coherent light. Thermal light has short coherence because atoms emit independently, while laser light has long coherence because the photons are in phase. The Wiener-Khinchin theorem links coherence time to spectral width.
@@ -18850,17 +17746,6 @@ $\pi w d/(\lambda D) = \pi \times 2\times10^{-4} \times 5\times10^{-4} / (5.5\ti
 $= \pi \times 10^{-7} / (2.75\times10^{-7}) = \pi \times 0.364 = 1.143$ rad. $|\gamma| = |\sin(1.143)/1.143| = 0.81/1.143 = 0.709$.
 Fringe visibility $V = 0.71$ (71%). $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[20_Coherence Theory 16] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Coherence theory bridges the gap between perfectly monochromatic waves and reality. Temporal coherence measures how long a wave maintains predictable phase, like how long a singer holds a steady note. Spatial coherence measures how correlated the phase is across different points, like how synchronised a crowd of clappers is. The van Cittert-Zernike theorem is the central insight: even an incoherent source produces spatial coherence over a finite area, and the coherence width is inversely proportional to source size. This is why starlight, despite originating from an incoherent source, can produce interference fringes.
@@ -18873,27 +17758,6 @@ Coherence theory bridges the gap between perfectly monochromatic waves and reali
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -19049,17 +17913,6 @@ and coherence place fundamental limits on imaging and interference systems.
   the area by a factor of 4 (two stops), requiring four times the exposure time. The f-number
   also affects diffraction: the Airy disk diameter scales as $2.44\lambda N$.
 
-
-```mermaid
-flowchart TD
-    A[18_Common Pitfalls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and Fresnel diffraction differ because waves remember their curvature differently at different distances. Phase determines interference, not intensity, so tracking optical path length is essential. Brewster's angle works because reflected p-polarized light vanishes when the refracted ray is perpendicular to the reflected ray. Coherence determines whether interference fringes appear at all. The f-number trades light gathering against resolution because smaller apertures diffract more, setting a fundamental limit on image sharpness.
@@ -19153,17 +18006,6 @@ Computational imaging combines optical hardware with algorithmic processing to o
   math). Fresnel: near-field. **Fix:** Fraunhofer: $a \sin\theta = n\lambda$. Fresnel: requires
   Fresnel integrals or numerical methods.
 
-
-```mermaid
-flowchart TD
-    A[23_Computational Imaging And Adaptive Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Phase velocity: $v_p = \omega/k$. Group velocity: $v_g = d\omega/dk$; energy/information travels
@@ -19240,27 +18082,6 @@ $\blacksquare$
 - [Optics and Wave Physics](./)
 - [The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)
 - [Fresnel Equations](/4-optics-and-waves/10_fresnel-equations/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -19454,17 +18275,6 @@ $$
 
 The $\cos^2$ term gives interference fringes at $\sin\theta = m\lambda/d$ for integer $m$. The
 fringe spacing in the small-angle limit is $\Delta y = \lambda R / d$ at distance $R$. $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[16_Detailed Diffraction Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -19791,17 +18601,6 @@ $d/a = 3$ as the ratio for missing orders.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[4_Diffraction] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Diffraction arises because every point on a wavefront acts as a new source of spherical wavelets. When light passes through a slit, these wavelets interfere, creating bright and dark regions. A narrower slit relative to the wavelength produces a wider spread, because the wavelets have more opportunity to spread sideways. The Fourier transform of the aperture function gives the far-field pattern directly, linking the shape of the opening to the light distribution. A circular aperture produces the Airy disk pattern, setting the fundamental resolution limit of telescopes. The deeper message is that confinement in one direction produces spreading in another.
@@ -20026,41 +18825,9 @@ The Abbe number $V_d = (n_d - 1)/(n_F - n_C)$ measures how much a material dispe
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-```mermaid
-flowchart TD
-    A[11_Dispersion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Dispersion occurs when different frequencies of light travel at different speeds through a medium. This is why prisms split white light into colors and why glass fibers spread out short pulses. The refractive index depends on frequency because the medium's electrons respond differently to different driving frequencies. Normal dispersion means higher frequencies see a higher refractive index and travel slower. Near absorption resonances, anomalous dispersion occurs. Group velocity describes how fast a pulse envelope travels, while phase velocity describes individual wave crests. In dispersive media, these can differ dramatically, even exceeding the speed of light without violating causality.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -20370,17 +19137,6 @@ m$^{-1}$.
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-```mermaid
-flowchart TD
-    A[2_Electromagnetic Waves] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Total internal reflection occurs when light tries to pass from a denser medium to a less dense medium at too steep an angle. Instead of refracting, the light bounces back completely, with an evanescent wave that decays exponentially into the less dense medium. This evanescent field is real but carries no net energy away from the interface. The critical angle depends only on the ratio of refractive indices. This principle underpins fiber optic communication, where light is trapped inside a glass core by repeated total internal reflections, traveling long distances with minimal loss. The penetration depth of the evanescent wave can be tuned by changing the angle of incidence.
@@ -20577,17 +19333,6 @@ needed to pass spatial frequencies up to 50 cycles/mm?
 *Solution.* Frequency $f_x = u/(\lambda f)$, so $u = f_x \lambda f = 50 \times 10^3 \times 500 \times
 10^{-9} \times 0.2 = 5$ mm. A circular aperture of radius $a = 5$ mm passes all frequencies
 $f_x \leq 50$ cycles/mm. $\blacksquare$
-
-
-```mermaid
-flowchart TD
-    A[7_Fourier Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -20831,41 +19576,9 @@ The pattern is a product of two sinc$^2$ functions. The first zero along $u$ occ
 - **[Fourier Optics](/4-optics-and-waves/7_fourier-optics/)**: Develops the 4f imaging system, optical transfer function, and spatial filtering applications that build on the Fourier transform framework.
 - **[Coherence](/4-optics-and-waves/15_coherence-theory/)**: The coherence properties of the source determine whether the Fourier transform relationship between aperture and far-field pattern is valid.
 
-
-```mermaid
-flowchart TD
-    A[14_Fourier Optics 10] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Fourier optics reveals that diffraction is fundamentally a frequency decomposition. When light passes through an aperture, the far-field pattern is the spatial frequency content of that aperture shape. A narrow slit has broad frequency content, producing a wide diffraction pattern. The convolution theorem explains why grating patterns combine: multiplying apertures convolves their patterns. This is why a double-slit produces interference fringes modulated by the single-slit envelope. The lens performs a physical Fourier transform, converting spatial information into angular information at its focal plane.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -21016,17 +19729,6 @@ The resolving power: $R = mN = m \times 5$.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[19_Fourier Optics 15] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Fourier optics reveals that every lens is a frequency analyser. When light passes through an aperture, the far-field pattern is the spatial Fourier transform of the aperture shape. A lens placed at the focal plane physically computes this transform, placing each spatial frequency at a specific point. This means spatial filtering is directly blocking or attenuating frequency components at the Fourier plane. The Abbe theory shows that resolution is fundamentally limited by how many diffraction orders the lens can collect, establishing that optical systems are bandpass filters for spatial information.
@@ -21038,27 +19740,6 @@ Fourier optics reveals that every lens is a frequency analyser. When light passe
 - [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/) -- The wave equation and diffraction theory provide the physical foundation for the Fourier transform interpretation of lens systems.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -21268,17 +19949,6 @@ $$
 
 Both polarisations have $R = 1$ at the critical angle, and the transmitted wave propagates exactly
 along the interface with no energy flow into the second medium.
-
-
-```mermaid
-flowchart TD
-    A[10_Fresnel Equations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -21501,17 +20171,6 @@ The negative sign indicates the image is inverted.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-```mermaid
-flowchart TD
-    A[6_Geometric Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Geometric optics treats light as rays that travel in straight lines and bend when they cross between materials. Snell's law is nature minimizing travel time: light bends at an interface because it travels at different speeds in different media, just as a lifeguard running on sand and swimming in water takes a path that minimizes total rescue time. Total internal reflection is like a one-way mirror: light coming from the dense side at a shallow enough angle cannot escape and bounces back perfectly, which is how fiber optic cables trap and guide light over kilometers. A lens is like a carefully shaped hill that redirects rays to converge at a focal point. The thin lens equation is directly counting how much bending each surface contributes. Mirrors work the same way but with reflection instead of refraction.
@@ -21526,27 +20185,6 @@ A real image is formed by converging rays and can be projected onto a screen. A 
 
 **Mistake 3: Misidentifying the direction of total internal reflection**
 Total internal reflection occurs only when light travels from a denser medium to a rarer medium ($n_1 > n_2$) at an angle greater than the critical angle. It does not occur in the opposite direction. Students sometimes apply the critical angle formula regardless of the direction of propagation, which gives incorrect results.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -21952,17 +20590,6 @@ $\delta\lambda = \lambda/\mathcal{R} = 500/1.19 \times 10^5 = 4.20 \times 10^{-3
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[3_Interference] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Interference occurs when two or more coherent waves overlap and their amplitudes add, producing regions of constructive and destructive combination. The path difference between the waves determines whether peaks align with peaks (bright) or peaks align with troughs (dark). Young's double slit demonstrates that light from a single source, split and recombined, produces a fringe pattern whose spacing depends on wavelength and geometry. A Fabry-Perot etalon uses multiple reflections between parallel mirrors to create extremely narrow transmission peaks, acting like a spectral magnifying glass. The finesse quantifies how sharp these peaks are, determined by how reflective the mirrors are.
@@ -22168,17 +20795,6 @@ Compute the irradiance (power/area) and determine the laser class.
 **Problem 6.** A Q-switched Nd:YAG laser produces 10 ns pulses with 100 mJ pulse energy at 10 Hz.
 Calculate the peak power, average power, and photon energy at 1064 nm.
 
-
-```mermaid
-flowchart TD
-    A[9_Lasers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A laser works by making light copy itself through stimulated emission. Population inversion is the key: more atoms must be in the excited state than the ground state, which thermal equilibrium forbids. This is like having more people running uphill than downhill. The optical cavity provides feedback, allowing light to pass through the gain medium multiple times. Gaussian beams are the natural modes because diffraction spreads light, and the beam waist balances this spreading. The coherence of laser light comes from all photons being in the same quantum state.
@@ -22320,17 +20936,6 @@ the waist contribution, valid for $z \gg z_R$).
    $s$-polarised, not the transmitted beam. The transmitted beam has reduced $s$-component and
    becomes partially $p$-polarised. Complete polarisation of the transmitted beam requires many
    interfaces (pile-of-plates polariser).
-
-
-```mermaid
-flowchart TD
-    A[21_Lasers 17] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -22547,17 +21152,6 @@ $$
 | $\chi^{(3)}$ | Two-photon absorption | Microscopy, lithography | All media |
 | $\chi^{(3)}$ | Self-focusing | Filamentation, damage | All media ($n_2 > 0$) |
 
-
-```mermaid
-flowchart TD
-    A[22_Nonlinear Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Linear optics assumes the medium's response is proportional to the applied field, but at high intensities, nonlinear effects emerge. The second-order nonlinearity generates harmonics at twice the frequency, used in green laser pointers. Third-order effects include self-focusing, where a beam modifies the refractive index and collapses under its own intensity. Phase matching ensures that nonlinear contributions add constructively over the interaction length. Four-wave mixing and parametric amplification enable optical frequency conversion and amplification. These effects are weak at ordinary light levels but become dominant in focused laser beams, opening applications from frequency doubling to optical computing.
@@ -22572,27 +21166,6 @@ Linear optics assumes the medium's response is proportional to the applied field
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -22765,41 +21338,9 @@ The value $2.405$ is the first zero of $J_0$, which determines the cutoff of the
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-```mermaid
-flowchart TD
-    A[12_Optical Fibres] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Optical fibers guide light through total internal reflection, trapping it in a core surrounded by cladding with a lower refractive index. The critical angle determines the cone of acceptance: light entering within this cone is guided, while light at steeper angles escapes. Multimode fibers allow many paths, causing pulse spreading as different modes travel different distances. Single-mode fibers restrict light to one path, eliminating this dispersion and enabling long-distance communication. The cladding is not just protective but essential for guiding, and the fiber's bending radius determines how much light leaks out.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -22988,41 +21529,9 @@ The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-```mermaid
-flowchart TD
-    A[17_Polarisation In Detail] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Polarisation describes the direction in which light's electric field oscillates. Unpolarised light has random orientations, but passing it through a polariser selects one direction. Malus's law gives the intensity after a second polariser as proportional to the cosine squared of the angle between them. Birefringent materials split light into two polarisation components that travel at different speeds, creating phase shifts. Circular polarisation occurs when two orthogonal linear components have a quarter-cycle phase difference. Polarisation is used in LCD screens, 3D cinema, and stress analysis, where birefringent patterns reveal mechanical strain.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -23254,17 +21763,6 @@ along $\hat{\mathbf{y}}$. $\blacksquare$
 This explains why the sky is polarised at $90°$ from the sun and why polarising sunglasses reduce
 Glare from horizontal surfaces (Brewster's angle reflection from road/water).
 
-
-```mermaid
-flowchart TD
-    A[5_Polarization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Polarization describes the orientation of a light wave's electric field oscillation. Unpolarised light has field vectors pointing randomly, while linearly polarised light oscillates in a single plane. Malus's law reveals that intensity drops as the cosine squared of the angle because only the component along the axis gets through. Brewster's angle is where reflected light becomes completely polarised because the reflected and refracted rays are perpendicular. Birefringent materials split light into two components that travel at different speeds, which is how wave plates convert between linear and circular polarisation. Faraday rotation is non-reciprocal, enabling optical isolators.
@@ -23362,27 +21860,6 @@ modern optics (laser fundamentals, interferometry).
 
 - **[Site Home](../../):** Main landing page for physics notes.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -23608,17 +22085,6 @@ $M = A - s'C = 1 - (-15)(1/60) = 1 + 1/4 = 5/4 = 1.25$ (upright, slightly magnif
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "13_problem Set", "url": "https://physics.wyattau.com/4-optics-and-waves/13_problem-set"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[13_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -23977,16 +22443,6 @@ equal to the signal velocity In regions of weak, normal dispersion. Near absorpt
 $v_g$ can exceed $c$ or become Negative, this does not violate causality, since the true signal
 velocity (front velocity) never Exceeds $c$.
 
-```mermaid
-flowchart TD
-    A[1_The Wave Equation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Waves are disturbances that travel without the medium itself moving. Throw a stone into a pond and the ripples spread outward, but the water molecules mostly bob up and down. The wave equation captures this essential behavior: the second time derivative equals a constant times the second spatial derivative, meaning the acceleration of any point is proportional to how different its neighbors are from it. Standing waves are like a dance where two identical waves moving in opposite directions create a pattern of fixed nodes and oscillating antinodes. A guitar string vibrates this way: the ends cannot move, so only certain frequencies fit. Group velocity is how fast information or energy travels, while phase velocity is how fast individual crests move. In dispersive media, these differ, which is why ocean waves can have crests moving faster than the overall wave front.
@@ -24321,17 +22777,6 @@ $n$. Relativistic corrections (spin-orbit coupling, Darwin term, kinetic energy 
 these Into fine structure multiplets, removing the $l$-degeneracy. The fine structure shift is of
 order $\alpha^2 E_n$ where $\alpha \approx 1/137$ is the fine structure constant.
 
-
-```mermaid
-flowchart TD
-    A[6_Angular Momentum And The Hydrogen Atom] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Angular momentum in quantum mechanics is like a spinning top that can only point in certain discrete directions. The ladder operators are like climbing stairs: you can raise or lower the magnetic quantum number one step at a time, but you cannot stop between steps. The hydrogen atom is nature's simplest atom and the hydrogen of quantum mechanics: the electron orbits the nucleus not in fixed paths but in probability clouds shaped like dumbbells, clovers, and spheres. The quantum numbers are like an address: n tells you the floor (energy), l tells you the room shape (angular momentum), and m tells you the orientation. The energy depends only on n, which is a hidden symmetry of the Coulomb potential. The selection rules are like dance rules: the electron can only jump between certain states, which is why hydrogen emits only specific colors of light.
@@ -24626,17 +23071,6 @@ theory.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[8_Approximation Methods] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Approximation methods tackle quantum problems that cannot be solved exactly. Perturbation theory treats a complicated Hamiltonian as a simple known part plus a small correction, then systematically calculates how the correction shifts energy levels and wavefunctions. The key assumption is that the correction is small compared to the energy spacing of the unperturbed system. The variational method provides an upper bound on the ground state energy by testing trial wavefunctions and minimizing the expectation value. WKB approximates the wavefunction as a locally oscillating function whose wavelength varies with position, working best when the potential changes slowly compared to the wavelength. These methods turn intractable problems into calculable ones.
@@ -24749,17 +23183,6 @@ shell structure, no chemical bonding).
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[15_Density Functional Theory Conceptual Overview] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Worked Examples
 
 ### Example 1: Infinite square well
@@ -24826,27 +23249,6 @@ Density functional theory replaces the complicated many-body wavefunction with t
 - **Hohenberg--Kohn mapping.** The external potential $V_{\text{ext}}(\mathbf{r})$ is a unique functional of the ground-state density $n(\mathbf{r})$ (up to a constant), so all ground-state properties are functionals of $n$ alone.
 - **Kohn--Sham self-consistency.** The effective potential $V_{\text{eff}}[n]$ depends on $n(\mathbf{r})$, which is built from the Kohn--Sham orbitals that are themselves solutions of the equations with $V_{\text{eff}}[n]$. This requires iterative self-consistent solution.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Flashcards Quantum Mechanics
@@ -24895,27 +23297,6 @@ Quantum mechanics describes physics at atomic and subatomic scales, where partic
 - **Classical Mechanics:** Classical limit of quantum mechanics; the correspondence principle connects quantum to classical.
 - **Particle Physics:** Quantum field theory and particle physics; quantum mechanics is the foundation.
 - **Thermal Physics:** Statistical mechanics uses quantum theory to explain thermodynamic properties.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -25172,17 +23553,6 @@ De Broglie relation $\lambda = h/p$ was subsequently confirmed for neutrons, ato
 Wavelength of molecules exceeding 25,000 atomic mass units was demonstrated, pushing the boundary Of
 quantum mechanics to the macroscopic regime.
 
-
-```mermaid
-flowchart TD
-    A[1_Historical Motivation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Classical physics broke down when it tried to explain the very small. The ultraviolet catastrophe predicted infinite energy from heated objects. The photoelectric effect showed light behaves like packets of energy proportional to frequency, not brightness. Compton scattering proved these packets carry momentum. And electrons produced diffraction patterns like waves. The unifying insight is that nature is quantised at the smallest scales: energy, momentum, and matter all come in discrete portions. Wave-particle duality is not a contradiction but a description of how quantum entities behave depending on how we observe them.
@@ -25388,17 +23758,6 @@ $$
 
 The total energy is $E_1 + E_1 + E_2 = 6\pi^2\hbar^2/(2mL^2)$. The exchange splitting between the two possible spin configurations (total $S = 1/2$) depends on the exchange integral $K_{12}$ between the $n = 1$ and $n = 2$ states.
 
-
-```mermaid
-flowchart TD
-    A[10_Identical Particles And Exchange Symmetry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Identical particles are truly indistinguishable, not just similar. Swapping two electrons must give the same physics, which forces their wavefunction to be antisymmetric. This creates the exchange interaction, an effective force arising purely from symmetry, not from any physical interaction. The Pauli exclusion principle is a consequence: two fermions cannot occupy the same state because the antisymmetric wavefunction would vanish. Bosons, with symmetric wavefunctions, crowd together instead. This explains why electrons fill up energy levels in atoms, why white dwarfs resist collapse, and why laser light is coherent.
@@ -25413,27 +23772,6 @@ Identical particles are truly indistinguishable, not just similar. Swapping two 
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -26017,16 +24355,6 @@ Depends exponentially on the tip-surface distance: $I \propto e^{-2\kappa d}$. T
 Resolution imaging of surfaces, as a change in distance of $0.1$ nm changes the current by a factor
 of about 10.
 
-```mermaid
-flowchart TD
-    A[5_One Dimensional Problems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 One-dimensional quantum problems are the laboratory where quantum weirdness becomes visible. The infinite square well is like a ball bouncing in a perfectly elastic box: the standing waves that fit inside determine the allowed energies, and the zero-point energy means the ball can never be perfectly still. The harmonic oscillator is the quantum version of a pendulum: the ladder operators let you climb up and down the energy ladder one rung at a time, and each rung costs exactly one quantum of energy. The delta function potential is an infinitely sharp spike that still manages to bind a particle, showing that even an infinitely narrow potential can trap a quantum state. Quantum tunneling is the most dramatic departure from classical physics: a particle can pass through a barrier it classically cannot climb over, like a ball rolling through a wall. The thinner and lower the barrier, the more likely the tunnel, which is how nuclear decay and scanning tunneling microscopes work.
@@ -26292,17 +24620,6 @@ These are equal superpositions of the $S_z$ eigenstates. Note that measuring $S_
 Definite $S_z$ gives probabilistic outcomes, and vice versa.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[4_Operators And Observables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -26678,27 +24995,6 @@ the explanation.
 - [Quantum Mechanics Flashcards](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)
 - [quantum mechanics ii](/5-quantum-mechanics/18_quantum-mechanics-ii/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Problem Set
@@ -26850,17 +25146,6 @@ ground state: $|\langle \phi_1 | \psi_1 \rangle|^2 = (8\sqrt{2}/(3\pi))^2 \appro
 and $\rho^2 = \rho$.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[9_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -27812,17 +26097,6 @@ of hydrogen-like sodium (Z*eff = 11). **Solution:** The spin-orbit coupling ener
 alpha^2 _E_n / n^3, which gives the D-line splitting observed in the sodium spectrum (589.0 nm and
 589.6 nm).
 
-
-```mermaid
-flowchart TD
-    A[18_Quantum Mechanics Ii] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Perturbation theory is like adding small corrections to a solution you already know. If you know how a hydrogen atom behaves, an external electric field is a small kick that shifts its energy levels. The Stark effect splits levels because the field breaks the atom's symmetry, like pushing a swinging pendulum off-center. The Zeeman effect does the same with magnetic fields, aligning electron spins like compass needles. Spin-orbit coupling is the electron's own magnetic field interacting with its orbital motion, creating fine structure. These effects reveal the quantum world's sensitivity to symmetry breaking.
@@ -28093,17 +26367,6 @@ As $k \to 0$: $a_s \to \pm\infty$ (diverges), changing sign as the bound state a
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[13_Scattering Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Scattering theory extracts information about forces by firing particles at targets and analyzing how they deflect. The differential cross-section tells you the probability of scattering into a given solid angle, and it is directly measurable. For a central potential, the scattering amplitude is decomposed into partial waves, each corresponding to a specific angular momentum. The scattering length characterizes low-energy scattering and diverges when a new bound state appears, signaling a resonance. The optical theorem connects the total cross-section to the forward scattering amplitude, reflecting the fact that particles removed from the forward beam must go somewhere. Partial wave analysis turns a complex three-dimensional scattering problem into a sum of one-dimensional problems.
@@ -28354,17 +26617,6 @@ $$
 For $\theta = 90°$ (i.e., measuring $S_x$): $P = 1/2$.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[7_Spin] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -28647,17 +26899,6 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 | Two-photon | No parity constraint | $A \propto I^2$ | Depends on intensity |
 | Forbidden (all channels) | None allowed | $A = 0$ | Metastable if no decay path |
 
-
-```mermaid
-flowchart TD
-    A[12_Time Dependent Perturbation Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Time-dependent perturbation theory treats external influences as small disturbances to a quantum system. When a system is subjected to a time-varying field, transitions between energy levels become possible. The transition rate depends on how much the perturbation overlaps with the initial and final states, measured by matrix elements. Fermi's golden rule packages this into a simple formula: the transition rate is proportional to the square of the matrix element times the density of final states. This explains atomic transitions, photon absorption, and spontaneous emission, forming the basis of spectroscopy and laser physics.
@@ -28672,27 +26913,6 @@ Time-dependent perturbation theory treats external influences as small disturban
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -28846,17 +27066,6 @@ for typical parameters ($V_0 = 10$ eV, $a = 2$ Å, $m = m_e$) gives $\beta_{\tex
 and $E \approx -6.2$ eV, compared to the exact value $-7.0$ eV. The Gaussian trial function cannot
 capture the exponential decay outside the well, leading to a 12% error. $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[11_Variational Methods] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The variational principle states that any trial wavefunction gives an energy estimate that is always greater than or equal to the true ground state energy. This transforms finding the ground state into an optimization problem: minimize the energy over a family of trial functions. The better the trial function, the closer the estimate. This method is exact in the limit of a complete basis set, but even simple trial functions give remarkably accurate results. It is the foundation of quantum chemistry calculations, where clever choices of trial wavefunctions and basis sets balance accuracy against computational cost.
@@ -28871,27 +27080,6 @@ The variational principle states that any trial wavefunction gives an energy est
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -29284,17 +27472,6 @@ $$
 In the long-time limit, this reduces to Fermi's Golden Rule with the replacement
 $V_{fi} \to \langle f|\hat{V}_1|i\rangle$.
 
-
-```mermaid
-flowchart TD
-    A[3_Wave Functions And The Schrodinger Equation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Schrodinger equation is the quantum version of Newton's second law: it tells you how a quantum state evolves in time. The wave function is like a ghostly cloud that describes where a particle might be found, with the square of its height giving the probability. A particle in a box is like a vibrating string fixed at both ends: only certain wavelengths fit, so only certain energies are allowed. The zero-point energy is the quantum version of the jitterbug: you cannot pin a particle down completely because the uncertainty principle demands it keep moving. Probability current is like water flow: the continuity equation ensures that probability is never created or destroyed, only moved around. Unitarity guarantees that quantum mechanics is reversible: if you run time backward, you recover the initial state, just like rewinding a video.
@@ -29501,17 +27678,6 @@ Solving: $E_0 \approx \left(\frac{3\pi\hbar}{8} \frac{\Gamma(1/4)^2}{\sqrt{\pi}}
 The exact result is $E_0 = 1.060 \hbar \sqrt{\alpha/m} a^2$, so WKB is within 4% for the ground
 state and improves for higher $n$. $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[14_Wkb Approximation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 WKB is the semiclassical bridge between classical and quantum mechanics. When the potential changes slowly compared to the wavelength, the wavefunction behaves like a classical particle with a locally varying momentum. The amplitude adjusts to conserve probability current, getting larger where the particle moves slowly. At turning points where the classical kinetic energy vanishes, the wavefunction transitions from oscillating to decaying, like a wave approaching a cliff. The Bohr-Sommerfeld quantization condition says the phase accumulated over one complete orbit must be a multiple of pi, like a standing wave on a string.
@@ -29526,27 +27692,6 @@ WKB is the semiclassical bridge between classical and quantum mechanics. When th
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Solid-State-Physics
 
@@ -29861,17 +28006,6 @@ $$
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[15_Advanced Semiconductor Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Advanced semiconductor physics goes beyond the simple pn junction to describe how devices actually work. The depletion region at a junction is like a stretched rubber band: the electric field stores energy and pushes carriers apart until the diffusion and drift forces balance. Breakdown occurs when the field becomes strong enough to ionize atoms, creating an avalanche of carriers. The Hall effect reveals the type and density of charge carriers by measuring a transverse voltage in a magnetic field. Heterostructures stack different semiconductors to create quantum wells that confine electrons in two dimensions, enabling high-mobility transistors and quantum devices. The quantum Hall effect shows that resistance can be quantized exactly, independent of material details.
@@ -30045,17 +28179,6 @@ $\blacksquare$
   voltage generated per unit temperature difference; thermal conductivity $\kappa$ measures heat
   flow. They appear together in the figure of merit $ZT = S^2\sigma T/\kappa$ but are independent
   transport properties.
-
-
-```mermaid
-flowchart TD
-    A[16_Advanced Semiconductor Physics Continued] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -30328,17 +28451,6 @@ critical current density $J_c$ (determined by vortex pinning) is the key enginee
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-```mermaid
-flowchart TD
-    A[12_Advanced Topics In Superconductivity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Superconductivity is the complete disappearance of electrical resistance below a critical temperature. Electrons pair up into Cooper pairs through lattice vibrations, forming a macroscopic quantum state that flows without scattering. Type I superconductors expel all magnetic flux (Meissner effect), while Type II superconductors allow flux to penetrate in quantized vortices. The Ginzburg-Landau theory describes the superconducting order parameter as a complex field whose magnitude squared gives the density of superconducting electrons. The coherence length and penetration depth compete: when the penetration depth exceeds the coherence length, the material becomes Type II. Josephson junctions exploit the phase sensitivity of the supercurrent to create ultra-sensitive magnetometers and voltage standards.
@@ -30603,17 +28715,6 @@ $h^2+k^2+l^2$ values (3, 4, 8, 11, 12, ...) is characteristic of FCC.
 </details>
 :::
 
-
-```mermaid
-flowchart TD
-    A[1_Crystal Structures] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Crystal structures are nature's way of packing atoms as efficiently as possible. A crystal is like a three-dimensional wallpaper pattern extended infinitely: the lattice provides the repeating framework and the basis tells you what goes at each point. The 14 Bravais lattices are the only ways to arrange points with translational symmetry in three dimensions. Close-packing structures like FCC and HCP achieve about 74 percent filling, which is the maximum possible for identical spheres, like stacking oranges at a grocery store. Miller indices are like an architect's blueprint for specifying which wall of the crystal you are looking at. The Wigner-Seitz cell is the region of space closest to a given lattice point, creating a tile that fills all of space when repeated. X-ray diffraction works because the wavelength of X-rays matches the spacing between atomic planes, so the crystal acts as a three-dimensional diffraction grating.
@@ -30830,17 +28931,6 @@ MX is $n_S = N e^{-E_S/(2k_B T)}$, where $E_S$ is the energy to create a cation-
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 
-
-```mermaid
-flowchart TD
-    A[9_Defects In Crystals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Crystal defects are breaks in the perfect periodicity of a lattice, and they profoundly influence material properties. Vacancies are missing atoms that allow diffusion and enable doping in semiconductors. Dislocations are line defects whose motion enables plastic deformation, explaining why metals are ductile rather than brittle. The Burgers vector characterizes the magnitude and direction of the lattice distortion. Grain boundaries separate regions of different crystal orientation and act as barriers to dislocation motion, which is why fine-grained metals are stronger. Point defects change the local electron density, creating energy levels in the band gap that can trap or release carriers.
@@ -31056,17 +29146,6 @@ The Ewald sphere is a sphere in reciprocal space with radius $k = 2\pi/\lambda$,
 
 **Mistake 5: Assuming that powder diffraction gives single-crystal information.**
 Powder diffraction averages over all orientations of crystallites, producing rings rather than spots. Single-crystal diffraction gives more detailed information about the crystal structure. Do not assume that powder diffraction gives the same information as single-crystal diffraction.
-
-
-```mermaid
-flowchart TD
-    A[3_Diffraction] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -31497,17 +29576,6 @@ DFT accurately predicts structural properties (lattice constants, elastic consta
 Frequencies within a few percent) but is less reliable for band gaps (LDA underestimates By
 30--50\%) and strongly correlated systems (e.g., transition metal oxides).
 :::
-
-
-```mermaid
-flowchart TD
-    A[5_Electronic Band Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -31946,17 +30014,6 @@ Time-of-flight and triple-axis spectrometers are the primary instruments used. N
 has provided definitive measurements of phonon dispersions in virtually all important crystals.
 :::
 
-
-```mermaid
-flowchart TD
-    A[4_Lattice Vibrations And Phonons] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Phonons are quantized vibrations of atoms in a crystal lattice, much like photons are quantized light waves. When atoms in a crystal are displaced from their equilibrium positions, the restoring forces create collective oscillations that propagate through the lattice as waves. The acoustic branch corresponds to atoms moving in phase, producing sound waves, while the optical branch has atoms in adjacent cells moving out of phase, which can interact with light. Phonons carry thermal energy through the lattice, and their density of states determines the specific heat at low temperatures. The Brillouin zone boundary acts as a mirror for phonon wavevectors, limiting the range of distinct vibration modes.
@@ -32230,17 +30287,6 @@ interaction is a Consequence of the Coulomb repulsion combined with the antisymm
 wave function (Pauli principle), and is $10$--$100$ meV.
 :::
 
-
-```mermaid
-flowchart TD
-    A[10_Magnetism In Solids] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Magnetism in solids arises from the alignment of electron spins and orbital angular momenta. Diamagnetism is universal: every material develops a weak opposing magnetization when placed in a magnetic field, like a spring pushing back. Paramagnetism requires unpaired electrons whose spins can align with the field, overcoming thermal randomness. Ferromagnetism occurs when exchange interactions lock neighboring spins into parallel alignment, creating spontaneous magnetization below the Curie temperature. Antiferromagnetism has neighboring spins pointing opposite, canceling out. Ferrimagnetism has unequal opposing spins, producing a net magnetization. The exchange interaction is purely quantum mechanical, arising from the overlap of electron wavefunctions and the Pauli exclusion principle.
@@ -32426,17 +30472,6 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 - Neglecting that the Kondo effect requires a magnetic impurity in a non-magnetic host; in a magnetic host the physics is different.
 - Confusing the Mott insulator (driven by electron correlations) with a band insulator (driven by filled bands and a band gap).
 
-
-```mermaid
-flowchart TD
-    A[14_Many Body Physics In Solids] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Many-body physics studies how enormous numbers of interacting particles produce emergent phenomena. In a metal, electrons interact via Coulomb forces, but the collective behavior is described by quasiparticles with modified mass and lifetime. The electron gas behaves like a nearly free Fermi liquid, with interactions creating a sea of virtual excitations. Phonons are collective vibrations that behave as particles, mediating interactions between electrons. This framework explains superconductivity, magnetism, and the metal-insulator transition. The key insight is that complex many-body problems can often be mapped to simpler single-particle problems with renormalized parameters.
@@ -32452,27 +30487,6 @@ Many-body physics studies how enormous numbers of interacting particles produce 
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -32538,27 +30552,6 @@ the explanation.
 
 - **[Site Home](../../):** Main landing page for physics notes.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -32711,17 +30704,6 @@ When $\nu$ is integer, the Fermi level lies in a gap, longitudinal resistivity
 $\rho_{xx} = 0$, and $\sigma_{xy} = \nu e^2/h$.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[11_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -32955,17 +30937,6 @@ The intensity $I \propto \lvert S\rvert^2$:
   $f_{\mathrm{Na} \approx f_{\mathrm{Cl}}}$ at high scattering angles where form factors converge)
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[2_Reciprocal Lattice] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -33228,17 +31199,6 @@ Threshold voltage $V_T$ depends on the oxide thickness, doping, and work functio
 AlGaAs/GaAs) to create a two-dimensional electron gas (2DEG) with very high mobility. Heterojunction
 Bipolar transistors (HBTs) use a wide-gap emitter to improve injection efficiency.
 
-
-```mermaid
-flowchart TD
-    A[6_Semiconductors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Semiconductors are materials with a small band gap that allows their conductivity to be tuned by doping, temperature, or light. Pure silicon has all its electrons locked in bonds at absolute zero, but thermal energy or doping can promote electrons into the conduction band, leaving behind mobile holes. Doping with donor atoms adds extra electrons, while acceptor atoms create additional holes. The pn junction is the fundamental building block of electronics: at the junction, electrons and holes diffuse and recombine, creating a depletion region that acts as a one-way valve for current. This rectifying behavior enables diodes, transistors, and solar cells.
@@ -33430,41 +31390,9 @@ The Josephson effects are the basis for SQUIDs, voltage standards, and supercond
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-```mermaid
-flowchart TD
-    A[7_Superconductivity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Superconductivity is the complete disappearance of electrical resistance below a critical temperature. Electrons form Cooper pairs through interactions with the crystal lattice, and these pairs condense into a single quantum state that flows without scattering. The Meissner effect expels magnetic fields from the superconductor, creating the levitation effect. The BCS theory explains conventional superconductors, but high-temperature superconductors remain poorly understood, with theories involving spin fluctuations and stripe phases. The critical temperature record keeps rising, bringing us closer to room-temperature superconductivity, which would revolutionize power transmission and computing.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -33624,41 +31552,9 @@ of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicat
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-```mermaid
-flowchart TD
-    A[13_Topological Insulators And Semimetals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Topological insulators are materials that are insulating in the bulk but conducting on the surface, with guaranteed edge states that cannot be removed by disorder. The topology is a mathematical property of the electronic wavefunctions, analogous to the shape of a doughnut being different from a sphere. These surface states are protected by time-reversal symmetry and carry spin-polarized currents. Topological semimetals extend this idea, featuring band crossings that form points or lines in momentum space. These materials are platforms for exotic physics, including Majorana fermions that could serve as qubits for topological quantum computing.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -33863,17 +31759,6 @@ The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contributi
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
-
-
-```mermaid
-flowchart TD
-    A[8_Transport Properties] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -34205,17 +32090,6 @@ confirming that colour forces are screened in the QGP and quarkonium states are 
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[12_Advanced Topics In Cosmology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Sachs-Wolfe effect is gravitational redshift in action: photons climbing out of potential wells lose energy and appear cooler. The integrated version accumulates this effect along the entire line of sight, like a traveler collecting tolls on a long journey. Dark matter halos follow the NFW profile because gravity pulls matter inward while expansion stretches it outward, creating a characteristic density shape. Primordial nucleosynthesis produced light elements in the first few minutes when the universe was hot enough for nuclear fusion but too hot for nuclei to survive long.
@@ -34455,17 +32329,6 @@ ps$^{-1}$Because $|V_{ts}| > |V_{td}|$.
 | $V_{cb}$ and $V_{ub}$ determination | Semileptonic $B$ decays | Belle II, LHCb |
 | Oscillation frequency search | High-$p_T$ $b$-jets produce $B$ mesons that oscillate | LHCb, CMS |
 
-
-```mermaid
-flowchart TD
-    A[11_Advanced Topics In Particle Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Advanced particle physics explores the frontier where the Standard Model meets unknown territory. Grand unified theories attempt to merge the strong, weak, and electromagnetic forces into a single framework, predicting proton decay that experiments have not yet observed. Supersymmetry proposes a partner particle for every known particle, potentially solving the hierarchy problem and providing dark matter candidates. String theory replaces point particles with vibrating strings, requiring extra dimensions. These ideas are mathematically elegant but experimentally elusive, representing our best guesses at physics beyond the Standard Model.
@@ -34651,17 +32514,6 @@ Several experiments are probing physics beyond the Standard Model:
 | CMB-S4                   | Atacama/South Pole | CMB $B$-mode polarisation               |
 | Euclid                   | Space telescope    | Dark energy, modified gravity           |
 | Future Circular Collider | CERN (proposed)    | Precision Higgs, new physics at 100 TeV |
-
-
-```mermaid
-flowchart TD
-    A[9_Beyond The Standard Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -35312,17 +33164,6 @@ involved.
 | 13.8 Gyr       | 2.725 K        | Present day                           |
 :::
 
-
-```mermaid
-flowchart TD
-    A[7_Big Bang Cosmology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Big Bang was not an explosion in space but the expansion of space itself. Every galaxy is receding because the fabric between them stretches, like dots on an inflating balloon moving apart. The Friedmann equation is Newton's second law applied to the universe's expansion: gravity decelerates expansion while dark energy accelerates it. The critical density is the tipping point between eternal expansion and eventual collapse. The Hubble parameter measures how fast space is stretching right now. The universe's geometry depends on whether its density exceeds, equals, or falls below the critical value.
@@ -35527,17 +33368,6 @@ satisfies $\partial_\mu j^\mu = 0$, yielding a conserved charge $Q = \int j^0\,d
 Discrete symmetries ($P$, $C$, $T$) do not arise from Noether's theorem but are still powerful
 Constraints. The **CPT theorem** states that any Lorentz-invariant local quantum field theory is
 Invariant under the combined transformation $CPT$.
-
-
-```mermaid
-flowchart TD
-    A[2_Conservation Laws And Symmetries] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -35802,17 +33632,6 @@ divergences) with **renormalization** (the physical procedure of redefining para
 Regularisation is a Temporary scaffold; renormalization is the essential step that yields finite,
 physical predictions.
 :::
-
-
-```mermaid
-flowchart TD
-    A[3_Feynman Diagrams] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -36106,17 +33925,6 @@ the chiral anomaly ($\eta'$ is not a pure octet state but mixes With the singlet
 $\eta$-$\eta'$ mixing complicates the mass formula significantly.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[5_Group Theory In Particle Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -36431,17 +34239,6 @@ of approximately half the expected upward-going $\nu_\mu$ flux.
 - **Dirac vs. Majorana nature:** Are neutrinos their own antiparticles? Neutrinoless double-beta decay ($0\nu\beta\beta$) experiments search for this; a positive signal would prove the Majorana nature and fix the absolute mass scale.
 - **Absolute mass scale:** Oscillations only measure mass-squared differences. KATRIN measures the electron neutrino mass via tritium beta decay, currently constraining $m_{\nu_e} < 0.8$ eV.
 
-
-```mermaid
-flowchart TD
-    A[8_Neutrino Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Neutrinos are the most mysterious particles in the Standard Model: nearly massless, electrically neutral, and interacting only through the weak force. They come in three flavors, and neutrino oscillations proved they have mass by showing flavors transform into each other during flight. This discovery shattered the Standard Model as originally formulated. Neutrino masses are so tiny that their origin may differ from other particles, possibly involving heavy right-handed neutrinos at energy scales far beyond accelerator reach. Understanding neutrino masses and mixing could explain why the universe contains more matter than antimatter.
@@ -36455,27 +34252,6 @@ Neutrinos are the most mysterious particles in the Standard Model: nearly massle
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -36537,27 +34313,6 @@ the explanation.
 
 - **[Site Home](../../):** Main landing page for physics notes.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -36733,17 +34488,6 @@ Precision tests of the Standard Model are like checking a clock against atomic t
   due to relative motion. **Fix:** For distant galaxies, cosmological redshift dominates;
   $z \approx H_0 d/c$ for small $z$.
 
-
-```mermaid
-flowchart TD
-    A[13_Precision Tests Of The Standard Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Standard Model: quarks, leptons, gauge bosons, Higgs boson; four fundamental forces.
@@ -36767,27 +34511,6 @@ flowchart TD
 - [Particle Physics and Cosmology](./)
 - [The Standard Model](/7-particle-physics-and-cosmology/1_the-standard-model/)
 - [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -36933,17 +34656,6 @@ point. In the MSSM, the beta coefficients change to $(33/5, 1, -3)$, and the cou
 $M_U \sim 2\times 10^{16}$ GeV, providing indirect evidence for supersymmetry.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[10_Problem Set] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -37135,16 +34847,6 @@ The coupling decreases from 0.118 to 0.114, consistent with asymptotic freedom. 
 
 </details>
 
-```mermaid
-flowchart TD
-    A[6_Running Coupling Constants] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Coupling constants are not truly constant: they change with energy scale through a process called renormalization group running. At low energies, the electromagnetic force appears weak, but at high energies, it strengthens. Meanwhile, the strong force weakens at high energies, a phenomenon called asymptotic freedom. This means that at extremely high energies, all three gauge forces may converge toward similar strengths, suggesting a unified origin. The running is logarithmic, so changes are gradual, but over the vast energy range from atomic to GUT scales, the effect is dramatic. This running is one of the strongest pieces of evidence for grand unification.
@@ -37159,26 +34861,6 @@ Coupling constants are not truly constant: they change with energy scale through
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -37370,17 +35052,6 @@ After gauge fixing (unitary gauge), the four degrees of freedom of the Higgs dou
 The Higgs boson was discovered at the LHC by ATLAS and CMS on July 4, 2012, with $m_H \approx 125$
 GeV/$c^2$. The discovery confirmed the mechanism of electroweak symmetry Breaking and earned the
 2013 Nobel Prize for Englert and Higgs.
-
-
-```mermaid
-flowchart TD
-    A[4_The Higgs Mechanism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -37592,17 +35263,6 @@ $$
 ($+1 = +1 + 0$). This decay proceeds via the weak interaction.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_The Standard Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -38134,17 +35794,6 @@ URL: https://physics.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -39790,17 +37439,6 @@ it increases the internal energy.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Thermodynamics", "url": "https://physics.wyattau.com/thermodynamics"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Thermodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -41496,17 +39134,6 @@ URL: https://physics.wyattau.com/diagnostics/diag-mechanics/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

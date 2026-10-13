@@ -451,17 +451,6 @@ $$
 Real GDP ($1,600$ billion) is lower than nominal GDP ($2,000$ billion), indicating that prices
 have risen by 25% since the base year.
 
-
-```mermaid
-flowchart TD
-    A[1 National Income] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **GDP** measures total output via the expenditure ($C + I + G + NX$), income, and output methods

@@ -7,8 +7,6 @@ tags:
 description: "8 auto-graded practice problems covering Rust ownership, lifetimes, references, and smart pointers. Select an answer, submit, and review the explanation."
 ---
 
-
-
 ## Intuition
 
 **Learning through practice:** Practice problems are like training drills, they help you apply knowledge and identify areas that need more study.
@@ -29,7 +27,6 @@ description: "8 auto-graded practice problems covering Rust ownership, lifetimes
 
 **Answer: A**
 
-
 **Q1. Which of the following will compile without errors?**
 
 A. let x = 5; let y = x; println!(\"\{\}\
@@ -40,7 +37,6 @@ D. let r1 = &mut s; let r2 = &mut s;',
 **Answer: A**
 - Integer types like `i32` implement the `Copy` trait, so `let y = x` copies the value rather than moving it. `x` remains valid and can still be used. `String` and `Vec` do not implement `Copy`, so the other options fail.
 *Difficulty: medium*
-
 
 ---
 
@@ -57,7 +53,6 @@ D. Memory is leaked after the function returns',
 - The lifetime `'a` tells the compiler that the returned reference will be valid for at least as long as the shorter of the two input lifetimes. This means the caller can use the result as long as both input references are still valid.
 *Difficulty: medium*
 
-
 **Q3. Why does `fn first_word(s: &str) -> &str` compile without explicit lifetime annotations?**
 
 A. Lifetime elision rules automatically assign the same lifetime to all references', "Rust doesn\'t check lifetimes for simple functions
@@ -66,7 +61,6 @@ B. It won\'t compile without annotations",
 **Answer: A**
 - Rust has lifetime elision rules. When there is exactly one input lifetime, it is assigned to all output references. So `fn first_word(s: &str) -&gt; &str` is equivalent to `fn first_word&lt;'a&gt;(s: &'a str) -&gt; &'a str`.
 *Difficulty: easy*
-
 
 ---
 
@@ -83,7 +77,6 @@ D. Yes, Rust automatically handles conflicts',
 - Rust's borrowing rules state that you can have any number of immutable references OR exactly one mutable reference, but not both simultaneously. This prevents data races at compile time.
 *Difficulty: easy*
 
-
 **Q5. What is reborrowing in Rust?**
 
 A. Creating a new reference from an existing reference without transferring the original borrow
@@ -94,7 +87,6 @@ D. Casting a mutable reference to an immutable one',
 **Answer: A**
 - Reborrowing occurs when you create a new reference from an existing reference (e.g., `&*x` or passing `&x` where `x` is already `&mut T`). The original borrow remains valid and will be valid again after the reborrow ends.
 *Difficulty: hard*
-
 
 ---
 
@@ -111,7 +103,6 @@ D. There is no difference',
 - `Box&lt;T>` provides single ownership of heap data, only one owner at a time. `Rc&lt;T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc&lt;T>` for shared ownership across threads.
 *Difficulty: medium*
 
-
 **Q7. When should you use `Arc&lt;T>` instead of `Rc&lt;T>`?**
 
 A. When you need to share data across multiple threads
@@ -122,7 +113,6 @@ D. When the data is very small',
 **Answer: A**
 - `Arc&lt;T>` (Atomic Reference Counted) is the thread-safe version of `Rc&lt;T>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex&lt;T>` or `RwLock&lt;T>`.
 *Difficulty: medium*
-
 
 ---
 
@@ -139,7 +129,6 @@ D. push requires exclusive access but v is not mutable',
 - push may cause reallocation of the vector's backing buffer if capacity is exceeded. This would invalidate the pointer `first` points to. Rust prevents this by refusing to allow a mutable borrow (via push) while an immutable reference (first) is still live.
 *Difficulty: hard*
 
-
 ---
 
 ### Lifetimes
@@ -154,7 +143,6 @@ D. fn first_or_default(s: &str) -> &str is invalid',
 **Answer: A**
 - With one input lifetime, elision rules assign that lifetime to all output references. So the explicit form is fn first_or_default&lt;'a&gt;(s: &'a str) -&gt; &'a str, but the compiler handles it automatically.
 *Difficulty: easy*
-
 
 ---
 
@@ -171,7 +159,6 @@ D. dyn Display is unsized, so Box cannot hold it',
 - Box&lt;dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 *usize). Box&lt;i32> is a thin pointer to a single i32 on the heap (1* usize). The fat pointer enables dynamic dispatch at runtime.
 *Difficulty: medium*
 
-
 ---
 
 ### Smart Pointers
@@ -186,7 +173,6 @@ D. Automatic garbage collection',
 **Answer: A**
 - RefCell\&lt;T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box\&lt;T> enforces exclusive ownership with no interior mutability.
 *Difficulty: medium*
-
 
 ---
 
@@ -203,7 +189,6 @@ D. Runtime error: use after free',
 - String does not implement Copy, so moving it into a function transfers ownership. After the move, the original variable is invalid. To use it after the call, you must clone it first, take a reference, or return the value from the function.
 *Difficulty: easy*
 
-
 ---
 
 ### Trait Objects and Generics
@@ -219,7 +204,6 @@ D. impl Trait allows multiple return types',
 - impl Trait hides a specific type known at compile time (static dispatch, monomorphized). dyn Trait uses dynamic dispatch via a fat pointer (vtable). impl Trait cannot return different types from different branches; dyn Trait can return any type implementing the trait.
 *Difficulty: medium*
 
-
 **Q14. Why does `fn first_word(s: &str) -> &str` compile without lifetime annotations?**
 
 A. Lifetime elision rules infer the lifetime automatically
@@ -230,7 +214,6 @@ D. The compiler guesses the lifetime',
 **Answer: A**
 - Lifetime elision rules state that when there is exactly one input lifetime, it is assigned to all output references. So the explicit form fn first_word&lt;'a&gt;(s: &'a str) -&gt; &'a str is automatically inferred.
 *Difficulty: easy*
-
 
 ---
 
@@ -246,7 +229,6 @@ D. Converts Option to Result',
 **Answer: A**
 - if let is a pattern match that handles only one variant. If option_value is Some(x), x is bound to the inner value and the block executes. If it is Nothing, the block is skipped. It is a concise alternative to a full match statement.
 *Difficulty: easy*
-
 
 ## Common Mistakes
 
@@ -267,23 +249,3 @@ D. Converts Option to Result',
 - **Go Basics:** Simpler memory model with garbage collection for comparison.
 - **[Rust Book](https://doc.rust-lang.org/book/):** Official Rust documentation and tutorials.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

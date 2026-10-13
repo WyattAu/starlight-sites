@@ -1,6 +1,5 @@
 ---
 
-
 title: "Networking"
 description: "Study notes for Networking | Computer Science - Wyatt's Notes with worked examples and practice questions."
 ----- | ------------ | --------------------------------- | -------------------------- | | 7 | Application | User"
@@ -552,17 +551,6 @@ ACK (ack=y+1). The SYN flag requests connection establishment and carries the in
 number. The SYN-ACK acknowledges the client's SYN and provides the server’s initial sequence number.
 The final ACK acknowledges the server's SYN. After this exchange, both sides have established their
 sequence numbers and the connection is established for full-duplex data transfer.
-
-
-```mermaid
-flowchart TD
-    A[Networking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

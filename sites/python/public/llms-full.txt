@@ -6066,16 +6066,6 @@ Signal processing), an unexpected GC pause can cause deadline misses. Profile yo
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-```mermaid
-flowchart TD
-    A[05 Python Internals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Python internals are the machinery beneath the syntax. CPython compiles source to bytecode, which the interpreter executes. Names are references to objects, not the objects themselves. The Global Interpreter Lock (GIL) ensures only one thread executes Python bytecode at a time, which simplifies memory management but limits CPU-bound parallelism. Understanding these internals explains why `is` and `==` behave differently, why small integers are cached, and why `del` does not always free memory immediately.
@@ -19962,16 +19952,6 @@ that are immediately discarded (because the log level is likely INFO or above in
 Message passes the log level filter. This is not a micro-optimization, it is the difference between
 A function that runs in 1 second and one that runs in 10 seconds.
 
-```mermaid
-flowchart TD
-    A[02 Debugging And Profiling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of debugging and profiling, including underlying theory,
@@ -20852,16 +20832,6 @@ finally:
         cleanup_that_might_fail()
     except Exception as e:
         logger.error("Cleanup failed: %s", e)
-```
-
-```mermaid
-flowchart TD
-    A[03 Error Handling Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -28445,16 +28415,6 @@ URL: https://python.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 

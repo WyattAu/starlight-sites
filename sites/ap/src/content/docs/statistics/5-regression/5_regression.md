@@ -210,17 +210,6 @@ $$
 t = \frac{b_1 - 0}{SE_{b_1}} \quad \text{with } df = n - 2
 $$
 
-
-```mermaid
-flowchart TD
-    A[5_Regression] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Regression analysis is about **quantifying the relationship between two quantitative variables** and using it for prediction. The key insight is that the least-squares regression line minimises the sum of squared residuals, the vertical distances between the data points and the line.

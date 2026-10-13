@@ -14,17 +14,6 @@ description: "Study notes for Matrix operations with worked examples, practice p
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[01 Matrix Operations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Matrix operations
 
 Study notes for CBSE Class 12 mathematics - Matrix operations.
@@ -168,27 +157,6 @@ A matrix has an inverse only if its determinant is non-zero. Students sometimes 
 - [Matrices](https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices/) -- broader matrix theory and properties
 - [Derivatives](https://ap.wyattau.com/maths/2-derivatives/2_derivatives/) -- calculus foundations
 - [CBSE Physics](https://ib.wyattau.com/physics/physics/) -- vectors and coordinate transformations
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 

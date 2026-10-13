@@ -1779,17 +1779,6 @@ If you get this wrong, revise: [Green GDP and Sustainability](/economics/5-macro
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[1_National Income] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 macroeconomic indicators, including key models, evidence, and policy implications.

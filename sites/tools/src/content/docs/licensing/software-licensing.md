@@ -937,17 +937,6 @@ Generate license notice bundles for your distribution.
 - [OSI Approved Licenses](https://opensource.org/licenses), the definitive list of OSI-approved
   open-source licenses and the Open Source Definition
 
-
-```mermaid
-flowchart TD
-    A[Software Licensing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of software licensing, including underlying theory, practical

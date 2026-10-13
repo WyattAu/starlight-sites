@@ -165,17 +165,6 @@ $\blacksquare$
 
 ### 6.7 Common Mistakes
 
-
-```mermaid
-flowchart TD
-    A[6_Series Solutions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 When an ODE has no elementary closed-form solution, power series methods let you build a solution term by term. At an ordinary point, you can expand the solution as a Taylor series and substitute into the ODE to find recurrence relations for the coefficients. At a regular singular point, the solution may have a factor of $x^r$ multiplied by a power series, the Frobenius method. The indicial equation determines the possible exponents $r$. Bessel functions, Legendre polynomials, and other special functions all arise from this process. The radius of convergence is determined by the distance to the nearest singular point of the ODE, linking local analyticity to global solution behaviour.
@@ -207,23 +196,3 @@ Bessel functions of the first kind $J_\nu(x)$ are analytic at $x = 0$, while Bes
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

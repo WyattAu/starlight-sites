@@ -563,17 +563,6 @@ $$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Probability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A fair and unfair coin:** Probability measures how likely events are, from 0 (impossible) to 1 (certain). Conditional probability narrows the world: "given that it rained, what's the chance the ground is wet?"

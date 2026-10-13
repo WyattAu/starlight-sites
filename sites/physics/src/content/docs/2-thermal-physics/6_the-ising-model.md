@@ -182,17 +182,6 @@ This gives the mean field critical exponent $\gamma = 1$. $\blacksquare$
   generalise the 1D result to higher dimensions.
 - Critical exponents are universal (depend only on dimension and symmetry), not on lattice details.
 
-
-```mermaid
-flowchart TD
-    A[6_The Ising Model] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The Ising model is the simplest system showing how local interactions create global order. Each spin copies its neighbors' tendency, and below the critical temperature this copying wins, creating spontaneous magnetization. Mean-field theory averages over neighbors, ignoring fluctuations that become important near the critical point. The 1D model has no phase transition because any domain wall costs only finite energy. In 2D, Onsager's exact solution shows a phase transition exists. Critical exponents are universal because near the critical point, the correlation length diverges, making microscopic details irrelevant.
@@ -218,23 +207,3 @@ The Ising model is the simplest system showing how local interactions create glo
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Summary"
 tags:
@@ -137,17 +136,6 @@ $\tilde\gamma(1)$ is an integer (the winding number), and this defines the isomo
 | $T_3$ | Regular | $T_1$ + closed set and point separated by open sets | $\mathbb{R}$ standard |
 | $T_4$ | Normal | $T_1$ + disjoint closed sets separated by open sets | $\mathbb{R}$ standard |
 | $T_{3\frac12}$ | Tychonoff | $T_1$ + continuous function separates point from closed set | $\mathbb{R}$ standard |
-
-
-```mermaid
-flowchart TD
-    A[11_Summary] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

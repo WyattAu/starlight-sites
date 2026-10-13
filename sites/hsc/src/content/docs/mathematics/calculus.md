@@ -18,17 +18,6 @@ description: "Study notes for Calculus with worked examples, practice problems, 
 
 HSC mathematics study notes - Calculus
 
-
-```mermaid
-flowchart TD
-    A[Calculus] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 ### Differentiation

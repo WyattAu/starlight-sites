@@ -121,17 +121,6 @@ product.
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-
-```mermaid
-flowchart TD
-    A[2_Inner Product Spaces And Hilbert Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Inner product spaces generalise the dot product to abstract vector spaces, enabling notions of angle and orthogonality. An inner product measures how aligned two vectors are, with zero indicating perpendicularity. The Cauchy-Schwarz inequality bounds this alignment, and the parallelogram law characterises exactly which norms arise from inner products. Hilbert spaces are complete inner product spaces, and the Riesz representation theorem guarantees that every continuous linear functional on a Hilbert space is itself given by an inner product. This self-referential structure, where a space is isometrically isomorphic to its dual, is what makes Hilbert spaces the natural home for quantum states, Fourier series, and least-squares approximation.
@@ -175,23 +164,3 @@ Conversely, if $g \in M^\perp$, write $g = \bar{g} + c$ where $\bar{g} \in M$ an
 Then $0 = \langle \bar{g}, g\rangle = \|\bar{g}\|^2 + c\int \bar{g} = \|\bar{g}\|^2$, so $\bar{g}=0$
 and $g$ is constant. Hence $M^\perp$ is the 1-dimensional space of constant functions. $\blacksquare$
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

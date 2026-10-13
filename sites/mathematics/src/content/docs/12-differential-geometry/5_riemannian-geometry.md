@@ -168,17 +168,6 @@ Computing $R^\theta_{\phi\theta\phi}$ gives $-\sin^2\theta$, so $K = R^\theta_{\
 | Ricci curvature | $R_{ij} = R^k_{ikj}$ |
 | Scalar curvature | $S = g^{ij}R_{ij}$ |
 
-
-```mermaid
-flowchart TD
-    A[5_Riemannian Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A Riemannian metric is like a flexible, position-dependent ruler laid across space. At each point, it tells you how to measure distances and angles, and it varies smoothly from place to place. The Christoffel symbols encode how this ruler changes as you move, telling you how to transport vectors without rotating them unnecessarily. Geodesics are the paths that a freely falling particle would follow, the straightest lines possible in curved space. The Riemann curvature tensor captures the failure of parallel transport around small loops: if you carry a vector around a closed path, it may return rotated, and the amount of rotation measures the curvature. Sectional curvature specialises this to planes, Ricci curvature averages over directions, and scalar curvature compresses everything into a single number at each point.
@@ -205,23 +194,3 @@ The formula $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partia
 **Mistake 3: Assuming vanishing Riemann curvature implies flatness in coordinates**
 A manifold with zero Riemann curvature is *locally* isometric to Euclidean space, but the coordinate expressions for the metric may still look complicated. The vanishing of curvature is a coordinate-independent statement. In non-normal coordinates, the Christoffel symbols need not vanish even when $R = 0$.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

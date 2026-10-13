@@ -141,17 +141,6 @@ $$
 | $\chi^{(3)}$ | Two-photon absorption | Microscopy, lithography | All media |
 | $\chi^{(3)}$ | Self-focusing | Filamentation, damage | All media ($n_2 > 0$) |
 
-
-```mermaid
-flowchart TD
-    A[22_Nonlinear Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Linear optics assumes the medium's response is proportional to the applied field, but at high intensities, nonlinear effects emerge. The second-order nonlinearity generates harmonics at twice the frequency, used in green laser pointers. Third-order effects include self-focusing, where a beam modifies the refractive index and collapses under its own intensity. Phase matching ensures that nonlinear contributions add constructively over the interaction length. Four-wave mixing and parametric amplification enable optical frequency conversion and amplification. These effects are weak at ordinary light levels but become dominant in focused laser beams, opening applications from frequency doubling to optical computing.
@@ -167,23 +156,3 @@ Linear optics assumes the medium's response is proportional to the applied field
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

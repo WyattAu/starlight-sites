@@ -168,17 +168,6 @@ The key advantage is that the Lebesgue integral can handle functions with wild d
 | Non-negative meas.   | $\sup\{\int s : 0 \leq s \leq f,\ s\text{ simple}\}$                    | MCT applies                      |
 | General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int\|f\| < \infty$ |
 
-
-```mermaid
-flowchart TD
-    A[6_Lebesgue Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Measures](/10-measure-theory/2_measures/)**: Lebesgue integration is built on measure theory, with the integral defined as a supremum over simple functions.
@@ -204,23 +193,3 @@ We can verify directly: $\int_0^\pi \sin(nx)\, dx = [-\cos(nx)/n]_0^\pi = (1 - (
 
 $\blacksquare$
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

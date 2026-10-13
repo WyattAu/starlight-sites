@@ -176,17 +176,6 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 | Sine series (odd ext.) | $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\,dx$ |
 | Cosine series (even ext.) | $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\,dx$ |
 
-
-```mermaid
-flowchart TD
-    A[7_Fourier Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)**: Both Fourier and Laplace transforms decompose functions into frequency components, but Fourier series handle periodic functions while Laplace handles transient signals.
@@ -199,23 +188,3 @@ flowchart TD
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

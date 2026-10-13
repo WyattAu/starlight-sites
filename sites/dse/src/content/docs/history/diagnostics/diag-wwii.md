@@ -13,17 +13,6 @@ description: "Diagnostic test notes for dse Diagnostic Test: World War II coveri
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Wwii] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Diagnostic Test: World War II
 
 Answer each question. Check your answers against the key at the end.

@@ -158,17 +158,6 @@ selectivity $\approx 1/20 = 0.05$. Assuming independence: combined selectivity $
 | Index-only scan        | Covered query                       | Avoids table access               |
 | Materialised view      | Expensive aggregations              | Precomputes results               |
 
-
-```mermaid
-flowchart TD
-    A[7_Query Optimisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Query optimisation is the difference between a librarian who checks every shelf and one who uses the card catalogue. The query planner examines your SQL and figures out the fastest way to execute it, which index to use, which table to scan first, how to join efficiently. Execution plans are the map of this journey, showing each step and its estimated cost. Without optimisation, a simple join could scan billions of rows; with it, the database finds the answer in milliseconds. The optimizer uses statistics about your data to make educated guesses, which is why stale statistics can lead to terrible performance.
@@ -181,23 +170,3 @@ Query optimisation is the difference between a librarian who checks every shelf 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

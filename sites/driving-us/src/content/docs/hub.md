@@ -40,17 +40,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The US driving test is administered at the state level, which means requirements, question formats, and pass marks vary depending on where you live. However, the core content is remarkably consistent: every state tests your knowledge of road signs, traffic laws, safe driving practices, and the rules of the road. The written knowledge test (often called the permit test) is the first hurdle, followed by a behind-the-wheel driving test that assesses your practical skills.
@@ -323,7 +312,6 @@ Worked examples demonstrate how to apply the concepts to solve problems.
 
 Consult the recommended textbooks and additional resources.
 
-
 ## Summary
 
 This topic provides comprehensive coverage of the subject matter.
@@ -340,13 +328,11 @@ This topic provides comprehensive coverage of the subject matter.
 2. Complete the practice problems
 3. Explore related topics in other sections
 
-
 ## Practice Tips
 
 - Review this material regularly
 - Apply concepts to real scenarios
 - Connect with related topics
-
 
 ## Key Points
 
@@ -354,18 +340,15 @@ This topic provides comprehensive coverage of the subject matter.
 - Apply concepts to real scenarios
 - Connect with related topics
 
-
 ## Final Notes
 
 - Understanding this topic is important for the driving test
 - Review the key concepts and practice regularly
 - Connect with other driving topics for a complete understanding
 
-
 ## Summary
 
 Review the key concepts and practice regularly to master this topic.
-
 
 ## State Guides
 

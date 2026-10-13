@@ -600,17 +600,6 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 **Problem:** A first-order reaction has a rate constant k = 0.0693 min^-1. What fraction of the reactant remains after 20 minutes?
 **Solution:** t_1/2 = 0.693/0.0693 = 10 min. In 20 minutes, that is 2 half-lives. Fraction remaining = (1/2)^2 = 0.25, or 25%. Alternatively: [A] = [A]_0 e^{-kt} = [A]_0 e^{-0.0693 x 20} = [A]_0 e^{-1.386} = [A]_0 x 0.250.
 
-
-```mermaid
-flowchart TD
-    A[Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 CBSE Chemistry covers three branches. Physical chemistry includes atomic structure, bonding, thermodynamics (delta G = delta H - T delta S), equilibrium (Le Chatelier's principle, Kc, Kp), electrochemistry (Nernst equation), kinetics (first-order rate laws, Arrhenius equation), and solutions (colligative properties). Inorganic chemistry covers periodic trends, s-block and p-block properties, transition metal chemistry (variable oxidation states, coordination compounds, crystal field theory). Organic chemistry covers IUPAC nomenclature, hydrocarbons, halogen derivatives (SN1, SN2, E1, E2), oxygen compounds, nitrogen compounds, polymers, and biomolecules. Key exam skills include balancing equations, arrow-pushing mechanisms, and applying named reactions.
@@ -1067,17 +1056,6 @@ URL: https://cbse.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -2192,17 +2170,6 @@ $$
 **Problem:** A disease affects 1% of a population. A test has 99% sensitivity (true positive rate) and 95% specificity (true negative rate). A person tests positive. What is the probability they actually have the disease?
 **Solution:** Let D = disease, T = positive test. P(D) = 0.01, P(D') = 0.99. P(T|D) = 0.99, P(T|D') = 1 - 0.95 = 0.05. P(T) = P(T|D)P(D) + P(T|D')P(D') = 0.99(0.01) + 0.05(0.99) = 0.0099 + 0.0495 = 0.0594. P(D|T) = P(T|D)P(D)/P(T) = 0.0099/0.0594 = 0.1667 or approximately 16.7%. Despite a positive test, the probability of having the disease is only about 1/6 due to the low prior probability.
 
-
-```mermaid
-flowchart TD
-    A[Maths] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 CBSE Mathematics covers sets and functions, algebra (matrices, determinants, complex numbers, quadratics), calculus (limits, derivatives, integration, applications), coordinate geometry (straight lines, conic sections), trigonometry (identities, equations, inverse functions, properties of triangles), and probability and statistics (measures of central tendency, variance, binomial distribution, Bayes' theorem). The theory paper is 80 marks and the internal assessment is 20 marks. Key exam strategies include showing all working, managing time, memorising NCERT formulas, and practising previous-year papers.
@@ -2753,17 +2720,6 @@ kinetic energy of emitted photoelectrons. (h = 6.63 x 10^-34 J s, c = 3 x 10^8 m
 10^-19 J = 3.11 eV. K_max = E_photon - phi = 3.11 - 2.0 = 1.11 eV. Since K_max > 0, photoelectrons
 are emitted.
 
-
-```mermaid
-flowchart TD
-    A[Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 CBSE Physics covers mechanics (Newton's laws, work-energy, rotational motion, gravitation, fluids),
@@ -3135,17 +3091,6 @@ URL: https://cbse.wyattau.com/chemistry/solutions/01-colligative-properties/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[01 Colligative Properties] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Colligative properties
 
 Study notes for CBSE Class 12 chemistry - Colligative properties.
@@ -3271,27 +3216,6 @@ Colligative properties depend only on how many solute particles you add, not wha
 - **Biomolecules:** Osmotic pressure determines how water moves across cell membranes, directly connecting colligative properties to biology.
 - **Surface Chemistry:** Adsorption and colligative properties both arise from solute-solvent interactions at the molecular level.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## See also
 
 - [Solutions](/chemistry/solutions/)
@@ -3313,17 +3237,6 @@ URL: https://cbse.wyattau.com/chemistry/solid-state/01-crystal-structure/
 ## Crystal structure
 
 Study notes for CBSE Class 12 chemistry - Crystal structure.
-
-
-```mermaid
-flowchart TD
-    A[01 Crystal Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -8759,17 +8672,6 @@ URL: https://cbse.wyattau.com/mathematics/matrices/01-matrix-operations/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[01 Matrix Operations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Matrix operations
 
 Study notes for CBSE Class 12 mathematics - Matrix operations.
@@ -8914,27 +8816,6 @@ A matrix has an inverse only if its determinant is non-zero. Students sometimes 
 - [Derivatives](https://ap.wyattau.com/maths/2-derivatives/2_derivatives/) -- calculus foundations
 - [CBSE Physics](https://ib.wyattau.com/physics/physics/) -- vectors and coordinate transformations
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## See also
 
 - [Matrices](/mathematics/matrices/)
@@ -8956,17 +8837,6 @@ URL: https://cbse.wyattau.com/mathematics/relations-functions/01-types-of-relati
 ## Types of Relations
 
 A relation $R$ from a set $A$ to a set $B$ is a subset of the Cartesian product $A \times B$. If $(a, b) \in R$, we write $aRb$ and say "$a$ is related to $b$ by $R$."
-
-
-```mermaid
-flowchart TD
-    A[01 Types Of Relations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -9125,27 +8995,6 @@ Relations are rules that connect elements from one set to another. A relation on
 - **Forgetting that transitivity requires checking all triples:** Transitivity is not just about adjacent pairs. You must verify that for every $(a, b) \in R$ and $(b, c) \in R$, the pair $(a, c)$ is also in $R$.
 - **Confusing equivalence relations with partial orders:** Equivalence relations are reflexive, symmetric, and transitive. Partial orders are reflexive, antisymmetric, and transitive. Symmetry and antisymmetry are mutually exclusive (except for equality).
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## Physics
 
 ---
@@ -9161,17 +9010,6 @@ URL: https://cbse.wyattau.com/physics/electrostatics/01-electric-charge/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}, {"name": "Electrostatics", "url": "https://cbse.wyattau.com/physics/electrostatics"}, {"name": "01 Electric Charge", "url": "https://cbse.wyattau.com/physics/electrostatics/01-electric-charge"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[01 Electric Charge] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Electric charge
 
@@ -9316,27 +9154,6 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 
 **Confusing the equilibrium position between two charges.** For two like charges, the equilibrium point is between them, closer to the smaller charge. For two unlike charges, the equilibrium point is outside the charges, on the side of the smaller charge (magnitude). Students often place the equilibrium point at the midpoint regardless of charge magnitudes.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Electric Field
@@ -9354,17 +9171,6 @@ URL: https://cbse.wyattau.com/physics/electrostatics/02-electric-field/
 ## Electric field
 
 Study notes for CBSE Class 12 physics - Electric field.
-
-
-```mermaid
-flowchart TD
-    A[02 Electric Field] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -9555,27 +9361,6 @@ In electrostatic equilibrium, the electric field inside a conductor is always ze
 ### Mistake 3: Forgetting that electric field is a vector and must be added as such
 
 When calculating the net electric field from multiple charges, students often add the magnitudes directly instead of resolving into components. Electric field is a vector quantity: $\vec{E}_{net} = \vec{E}_1 + \vec{E}_2 + \ldots$. For two charges, you must find the angle between the field vectors and add components: $E_x = E_1\cos\theta_1 + E_2\cos\theta_2$ and $E_y = E_1\sin\theta_1 + E_2\sin\theta_2$.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -11557,17 +11342,6 @@ $$
 2. A block slides down a frictionless incline of angle $45^\circ$. Find the acceleration.
 3. Two masses of 4 kg and 6 kg are connected over a frictionless pulley. Find the acceleration and tension.
 
-
-```mermaid
-flowchart TD
-    A[01 Laws Of Motion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Newton's laws are about prediction, not explanation:** The first law tells you what happens when nothing is pushing. The second law tells you how hard things accelerate when you push them. The third law tells you that every push comes with a push-back. Together, they form a complete framework for predicting motion, from a ball rolling down a hill to a planet orbiting a star.
@@ -11596,27 +11370,6 @@ On an inclined plane at angle $\theta$, the component of weight along the inclin
 - [Rotational Motion](/physics/mechanics/03-rotational-motion/) -- Newton's second law extends to rotational dynamics through torque and angular acceleration.
 - Gravitation -- Gravitational force is an application of Newton's law of universal gravitation combined with the second law.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Rotational Motion
@@ -11634,17 +11387,6 @@ URL: https://cbse.wyattau.com/physics/mechanics/03-rotational-motion/
 ## Rotational motion
 
 Study notes for CBSE Class 12 physics - Rotational motion.
-
-
-```mermaid
-flowchart TD
-    A[03 Rotational Motion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -11851,27 +11593,6 @@ Angular momentum is conserved only when the net external torque is zero. Student
 - **[Physics](/physics/):** Physics notes covering mechanics and thermodynamics.
 - **Practice:** Practice problems for revision.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Work Energy Power
@@ -11889,17 +11610,6 @@ URL: https://cbse.wyattau.com/physics/mechanics/02-work-energy-power/
 ## Work energy power
 
 Study notes for CBSE Class 12 physics - Work energy power.
-
-
-```mermaid
-flowchart TD
-    A[02 Work Energy Power] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Key Concepts
 
@@ -12109,24 +11819,3 @@ Instantaneous power is $P = \vec{F} \cdot \vec{v}$ (force times velocity at that
 - [Laws of Motion](/physics/mechanics/01-laws-of-motion/) -- The work-energy theorem connects Newton's second law to energy methods, providing an alternative approach to dynamics problems.
 - [Rotational Motion](/physics/mechanics/03-rotational-motion/) -- Rotational kinetic energy and work done by torque extend energy concepts to rotational systems.
 - Electrostatics -- Electric potential energy applies the work-energy framework to charges in electric fields.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

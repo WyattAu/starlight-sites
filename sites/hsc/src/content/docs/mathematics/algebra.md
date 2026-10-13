@@ -18,17 +18,6 @@ description: "Study notes for Algebra with worked examples, practice problems, a
 
 HSC mathematics study notes - Algebra
 
-
-```mermaid
-flowchart TD
-    A[Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 ### Quadratic Equations

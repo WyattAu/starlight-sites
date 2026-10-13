@@ -8,7 +8,6 @@ tags:
 description: "UNIVERSITY Mathematics practice problems: Probability and Statistics Practice (Interactive). Comprehensive study material with definitions, examples,"
 ---
 
-
 import PracticeProblem from "@components/PracticeProblem";
 
 ## Intuition
@@ -28,14 +27,9 @@ the explanation.
 
 ### Probability Spaces and Random Variables
 
-
-
-
-
 ---
 
 ### Limit Theorems and Estimation
-
 
 <PracticeProblem client:only="solid-js" question={"Let $X_1, \\ldots, X_n$ be i.i.d. $\\operatorname{Uniform}(0, \\theta)$. What is the maximum likelihood estimator of $\\theta$?"} options={[ '$\\hat{\\theta} = \\max(X_1, \\ldots, X_n)$', '$\\hat{\\theta} = 2\\bar{X}$', '$\\hat{\\theta} = \\bar{X}$', '$\\hat{\\theta} = \\min(X_1, \\ldots, X_n)$', ]} correctAnswer={0} explanation={"The likelihood is $L(\\theta) = \\prod_{i=1}^n \\frac{1}{\\theta} \\cdot \\mathbf{1}_{[0,\\theta]}(x_i) = \\theta^{-n}$ if $\\max(x_i) \\leq \\theta$ and 0 otherwise. To maximize: we want $\\theta$ as small as possible while $\\theta \\geq \\max(x_i)$. Therefore $\\hat{\\theta}_{\\text{MLE}} = \\max(X_1, \\ldots, X_n)$. Note this MLE is biased; the unbiased estimator is $\\hat{\\theta} = \\frac{n+1}{n}\\max(X_1, \\ldots, X_n)$."} difficulty="medium"  />
 
@@ -66,23 +60,3 @@ the explanation.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

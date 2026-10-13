@@ -182,17 +182,6 @@ $$
 
 Instant noodles are an inferior good ($YED < 0$).
 
-
-```mermaid
-flowchart TD
-    A[2_Elasticity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Price elasticity of demand (PED)** measures how responsive quantity demanded is to a price

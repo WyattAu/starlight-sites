@@ -526,16 +526,6 @@ public:
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[2_Data_Races] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to data races and critical sections,

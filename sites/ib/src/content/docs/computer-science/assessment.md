@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Assessment"
 description: "Study notes for Assessment | IB - Wyatt's Notes with worked examples and practice questions."
@@ -376,17 +375,6 @@ Use this checklist to track your preparation:
 
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
-
-
-```mermaid
-flowchart TD
-    A[Assessment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

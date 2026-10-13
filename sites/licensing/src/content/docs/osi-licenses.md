@@ -377,17 +377,6 @@ not to.
 
 **The key insight:** Copyleft licences (GPL) require derivative works to use the same licence, while permissive licences (MIT, Apache) allow proprietary use, this fundamental distinction shapes the open source ecosystem.
 
-
-```mermaid
-flowchart TD
-    A[Osi Licenses] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Open source licenses exist on a spectrum from permissive (MIT, Apache, BSD, ISC) to copyleft (LGPL,
@@ -432,7 +421,6 @@ Worked examples demonstrate how to apply the concepts to solve problems.
 
 Consult the recommended textbooks and additional resources.
 
-
 ## Summary
 
 This topic provides comprehensive coverage of the subject matter.
@@ -449,13 +437,11 @@ This topic provides comprehensive coverage of the subject matter.
 2. Complete the practice problems
 3. Explore related topics in other sections
 
-
 ## Practice Tips
 
 - Review this material regularly
 - Apply concepts to real scenarios
 - Connect with related topics
-
 
 ## Key Points
 
@@ -463,13 +449,11 @@ This topic provides comprehensive coverage of the subject matter.
 - Apply concepts to real scenarios
 - Connect with related topics
 
-
 ## Final Notes
 
 - Understanding this topic is important for software licensing
 - Review the key concepts and practice regularly
 - Connect with other licensing topics for a complete understanding
-
 
 ## Summary
 

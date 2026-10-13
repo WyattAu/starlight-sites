@@ -87,16 +87,6 @@ classification is straightforward, But non-abelian cases require careful analysi
 semidirect products.
 :::
 
-```mermaid
-flowchart TD
-    A[16_Classification Of Groups Of Small Order] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Classifying small groups is like cataloguing all possible symmetries of objects with a given number of elements. Prime-order groups are always cyclic, reflecting the rigidity imposed by Lagrange's theorem. Groups of order p-squared are always abelian because the centre is large enough to force commutativity. The fascinating cases begin at order 8, where non-abelian groups like the dihedral group D4 and the quaternion group Q8 appear. The number of groups grows explosively: 5 at order 8, 14 at order 16, 51 at order 32. This combinatorial explosion reveals that symmetry becomes exponentially richer as systems grow.
@@ -154,23 +144,3 @@ Beyond order 12, the classification continues to grow in complexity:
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -2759,16 +2759,6 @@ Accordingly.
 :::caution
 In standard networking, but only 251 in AWS (5 reserved, not 2). Always subtract 5, not 2.
 
-```mermaid
-flowchart TD
-    A[Subnetting Workshop] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to subnetting workshop, including
@@ -5321,16 +5311,6 @@ Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumE
 watch -n 1 'cat /proc/net/snmp | grep Udp'
 ```
 
-```mermaid
-flowchart TD
-    A[Udp Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of udp deep dive, including underlying theory, practical
@@ -7049,16 +7029,6 @@ Advertisements.
 # Simple health check with dig
 dig @ns1.example.com example.com SOA +timeout=2 +tries=1
 echo $?    # 0 = success, non-zero = failure
-```
-
-```mermaid
-flowchart TD
-    A[Dns Architecture] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -8988,16 +8958,6 @@ any -> closed -- connection error (GOAWAY)
 A stream in the `closed` state no longer exists on the endpoint. However, the peer may not know the
 Stream is closed if the close frame is lost. The endpoint must be prepared to receive frames for a
 Closed stream for a short time window (the maximum of the idle timeout and 3 RTTs).
-
-```mermaid
-flowchart TD
-    A[Http 2 And 3] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -10941,16 +10901,6 @@ When TLS connections fail, check in this order:
 7. **HSTS:** Check the `Strict-Transport-Security` response header
 8. **Mixed content:** Ensure no HTTP resources are loaded from HTTPS pages
 
-```mermaid
-flowchart TD
-    A[Tls] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of tls, including underlying theory, practical implementation,
@@ -10996,16 +10946,6 @@ URL: https://networking.wyattau.com/06-tls/tls-internals/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "06 Tls", "url": "https://networking.wyattau.com/06-tls"}, {"name": "Tls Internals", "url": "https://networking.wyattau.com/06-tls/tls-internals"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[Tls Internals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Overview
 
@@ -13888,16 +13828,6 @@ When correlating captures from multiple points, ensure all systems are synchroni
 Skew of even 1 second can make correlation impossible for fast interactions. Use `ntpq -p` to verify
 NTP synchronization before starting a multi-point capture.
 
-```mermaid
-flowchart TD
-    A[Traffic Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to traffic analysis, including key
@@ -15025,17 +14955,6 @@ than 1518 bytes.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[Layer2 And Ethernet] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to layer 2 and ethernet, including
@@ -16057,17 +15976,6 @@ Interval (e.g., 50 TUs) would cause more beacon overhead on the channel. A longe
 Opportunities.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[Wireless Networking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -17365,17 +17273,6 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 3. Not practising with past papers or exercises under timed conditions.
 
 4. Ignoring feedback from marked work and failing to address recurring weaknesses.
-
-
-```mermaid
-flowchart TD
-    A[Email And Application Protocols] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -18870,16 +18767,6 @@ interface Serial0/0.1 multipoint
 This is particularly relevant for RIP and EIGRP, which rely on split horizon for loop prevention.
 OSPF and IS-IS are not affected because they are link-state protocols.
 
-```mermaid
-flowchart TD
-    A[Bgp And Routing Protocols] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to bgp and routing protocols,
@@ -19157,17 +19044,6 @@ URL: https://networking.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 

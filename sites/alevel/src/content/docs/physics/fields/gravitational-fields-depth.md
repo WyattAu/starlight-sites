@@ -611,16 +611,6 @@ $$
 
 $\blacksquare$
 
-```mermaid
-flowchart TD
-    A[Gravitational Fields Depth] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Newton's law of gravitation: $F = \frac{GMm}{r^2}$; always attractive.

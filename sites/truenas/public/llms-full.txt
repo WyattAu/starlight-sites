@@ -2164,16 +2164,6 @@ host 10.0.0.10
 # If using /etc/hosts, ensure entries exist on both client and server
 ```
 
-```mermaid
-flowchart TD
-    A[Sharing And Permissions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to sharing and permissions,
@@ -5457,17 +5447,6 @@ tail -30 "$LOG" | awk -F',' '
 3. **Cloud sync archival:** Move cold data to cloud storage.
 4. **Data pruning:** Delete unnecessary snapshots, old logs, and temporary files.
 
-
-```mermaid
-flowchart TD
-    A[Monitoring And Alerting] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to monitoring and alerting,
@@ -6974,17 +6953,6 @@ URL: https://truenas.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -9528,17 +9496,6 @@ URL: https://truenas.wyattau.com/diagnostics/diag-truenas/
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of TrueNAS administration fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
-
-```mermaid
-flowchart TD
-    A[Diag Truenas] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **TrueNAS diagnostics test your understanding of storage systems:** From ZFS concepts to network configuration, TrueNAS administration requires understanding how storage, networking, and permissions interact.
@@ -10083,17 +10040,6 @@ for drive in /dev/sd?; do
 done
 ```
 
-
-```mermaid
-flowchart TD
-    A[Home Server Setup] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to setting up home server, including
@@ -10249,17 +10195,6 @@ networks:
 
 4. Focusing only on content knowledge without developing exam technique and question-answering
    skills.
-
-
-```mermaid
-flowchart TD
-    A[Network Proxy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -10845,17 +10780,6 @@ TLS challenge will fail. Switch to the DNS challenge with your DNS provider (Clo
 Etc.) which requires no inbound ports.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[Traefik] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

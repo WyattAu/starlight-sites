@@ -10,7 +10,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -281,17 +280,6 @@ Type aliases are useful for domain modeling and reducing verbosity in complex ge
   `List<Int?>` are fundamentally different types.
 - \*\* Using `lateinit` for properties that can be initialized in the constructor. If the value is
   known at construction time, pass it as a constructor parameter.
-
-
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

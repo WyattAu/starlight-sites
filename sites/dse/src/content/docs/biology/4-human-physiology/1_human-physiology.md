@@ -1943,17 +1943,6 @@ $$
   excess amino acids and converts the resulting ammonia to urea. The kidneys excrete urea but do not
   produce it\*\* :::
 
-
-```mermaid
-flowchart TD
-    A[1_Human Physiology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 experimental evidence, and real-world applications.

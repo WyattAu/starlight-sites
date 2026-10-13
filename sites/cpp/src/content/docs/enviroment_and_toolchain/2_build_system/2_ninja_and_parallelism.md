@@ -732,17 +732,6 @@ each CMake target to have its own set of rules and variables without polluting t
 - [Build Caching](/enviroment_and_toolchain/2_build_system/4_build_caching/)
 - [Unit Tests](/enviroment_and_toolchain/2_build_system/5_unit_tests/)
 
-
-```mermaid
-flowchart TD
-    A[2_Ninja_And_Parallelism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to ninja build system and

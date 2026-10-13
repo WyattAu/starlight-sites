@@ -763,17 +763,6 @@ Use the following checklist to diagnose cross-compilation failures:
 - [vcpkg](/enviroment_and_toolchain/3_dependency_management/3_vcpkg/) -- Cross-compiling dependencies with triplets
 - [Conan](/enviroment_and_toolchain/3_dependency_management/4_conan/) -- Cross-compilation with Conan profiles
 
-
-```mermaid
-flowchart TD
-    A[4_Crosscompilation_Toolchains] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of cross-compilation toolchains, including underlying theory,

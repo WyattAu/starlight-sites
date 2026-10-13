@@ -1031,16 +1031,6 @@ maximum.
 
 </details>
 
-```mermaid
-flowchart TD
-    A[1_Computational Thinking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of computational thinking, including underlying theory,

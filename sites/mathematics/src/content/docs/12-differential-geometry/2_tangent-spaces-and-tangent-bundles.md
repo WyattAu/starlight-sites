@@ -185,17 +185,6 @@ The chain rule states $d(g \circ f)_p = dg_{f(p)} \circ df_p$, where the differe
 **Mistake 3: Forgetting that tangent bundle components transform contravariantly**
 Under a coordinate change $y = y(x)$, the components of a tangent vector transform as $\tilde{v}^j = v^i \partial y^j/\partial x^i$, using the Jacobian matrix. Students often mistakenly apply the inverse Jacobian, which would give covariant (covector) transformation, not contravariant.
 
-
-```mermaid
-flowchart TD
-    A[2_Tangent Spaces And Tangent Bundles] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 The tangent space at a point on a manifold is the collection of all possible velocities of curves passing through that point, it is the "flat approximation" to the curved space at that point. On a sphere, the tangent space at the north pole is the horizontal plane touching the sphere there. The tangent bundle glues together all tangent spaces into a single space, giving a manifold a way to talk about directions and velocities globally. A differential form is a machine that takes a tangent vector and returns a number, consistently across all points. The exterior derivative of a form measures how the form changes, it is the infinitesimal version of Stokes' theorem.
@@ -208,23 +197,3 @@ The tangent space at a point on a manifold is the collection of all possible vel
 4. Prove that $T(S^1)$ is diffeomorphic to $S^1 \times \mathbb{R}$.
 5. Show that if $M$ is an $n$-dimensional manifold, then $TM$ is a $2n$-dimensional manifold.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

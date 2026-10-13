@@ -542,16 +542,6 @@ URL: https://programming.wyattau.com/hub/
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 C++ is one of the most powerful and complex programming languages in existence. It gives you direct control over memory, performance, and hardware, but that power comes with a steep learning curve. This hub page maps every resource on this site and provides a learning path so you can build competence systematically.
@@ -2600,17 +2590,6 @@ Verifying the publisher's identity and detecting modifications.
 - [Symbol Visibility](/compilation_model/1_translation/2_symbol_visibility/)
 - [The C Runtime (CRT)](/compilation_model/2_modules/4_c_runtime/)
 
-
-```mermaid
-flowchart TD
-    A[4_Binary_Formatsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of binary formats, including underlying theory, practical
@@ -3345,17 +3324,6 @@ Macros require significant refactoring to adopt modules.
 - [C++20/23 Modules Overview](/compilation_model/2_modules/1_cpp_23/)
 - [Linker](/compilation_model/1_translation/3_linker/)
 - [Name Mangling](/compilation_model/1_translation/5_name_mangling/)
-
-
-```mermaid
-flowchart TD
-    A[2_Bmix] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -4119,16 +4087,6 @@ Is a common extension but not standard C++. Portable code should use `std::geten
 - [Binary Module Interfaces (BMI)](/compilation_model/2_modules/2_bmi/)
 - [Header Units](/compilation_model/2_modules/3_header_unit/)
 
-```mermaid
-flowchart TD
-    A[4_C_Runtimex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to the c runtime (crt), including
@@ -4157,17 +4115,6 @@ linked above.
 URL: https://programming.wyattau.com/compilation_model/2_modules/1_cpp_23/
 
 import { Tabs, TabItem } from "@astrojs/starlight/components";
-
-
-```mermaid
-flowchart TD
-    A[1_Cpp_23X] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -5475,17 +5422,6 @@ Experimental support means that header unit-based projects may encounter IDE iss
 - [Linker](/compilation_model/1_translation/3_linker/)
 - [Preprocessing and the AST](/compilation_model/1_translation/1_preprocessing_ast_object/)
 
-
-```mermaid
-flowchart TD
-    A[3_Header_Unitx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to header units, including key
@@ -6360,16 +6296,6 @@ or compile the wrapped TU separately without LTO.
 - [Symbol Visibility](/compilation_model/1_translation/2_symbol_visibility/)
 - [Preprocessing and the AST](/compilation_model/1_translation/1_preprocessing_ast_object/)
 
-```mermaid
-flowchart TD
-    A[3_Linkerx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to linker, including key principles
@@ -7142,16 +7068,6 @@ Symbol table.
 - [Symbol Visibility](/compilation_model/1_translation/2_symbol_visibility/)
 - [Preprocessing and the AST](/compilation_model/1_translation/1_preprocessing_ast_object/)
 
-```mermaid
-flowchart TD
-    A[5_Name_Manglingx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to name mangling, including key
@@ -7731,17 +7647,6 @@ Writing it into the appropriate location in the machine code.
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
 
-
-```mermaid
-flowchart TD
-    A[1_Preprocessing_Ast_Objectx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -8272,16 +8177,6 @@ Behavior** and manifests as corrupted floating-point values or subtle numerical 
 - **Not checking symbol tables after refactoring.** After removing a function or renaming a class,
   check `nm -C libmylib.so` to verify that stale symbols are not being exported. Stale exports
   increase binary size and can confuse consumers who accidentally use deprecated symbols.
-
-```mermaid
-flowchart TD
-    A[2_Symbol_Visibilityx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -8986,16 +8881,6 @@ tag Alongside the pointer, or use hazard pointers.
    other in memory share a cache line ( 64 bytes). Contention on one causes cache invalidation for
    the other, even if they are logically independent. Pad atomics to cache line boundaries to
    prevent this.
-
-```mermaid
-flowchart TD
-    A[3_Atomic_Operations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -9873,16 +9758,6 @@ Eliminating false sharing entirely. The total is computed by summing all shards.
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[2_Cache_Coherency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of cache coherency (mesi) and false sharing, including
@@ -10593,16 +10468,6 @@ the head swings, so it can never be recycled and re-inserted. The tail pointer m
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[5_Cas_Loops] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A CAS loop is like trying to update a shared document without locking it:** You read the current version, make your changes, then check if someone else modified it while you were editing. If they did, you re-read and try again. It's optimistic, you assume no one else is editing, and if you're wrong, you retry. This is faster than locking when contention is low (most of the time you succeed on the first try), but slower when contention is high (you keep retrying).
@@ -11300,16 +11165,6 @@ auto worker_safe = [&b](int id) {
     }
     b.arrive_and_wait();
 };
-```
-
-```mermaid
-flowchart TD
-    A[4_Condition_Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -12106,16 +11961,6 @@ int main() {
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[1_Coroutine_Frames] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of stackless coroutine frames and heap allocation, including
@@ -12658,16 +12503,6 @@ public:
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
-
-```mermaid
-flowchart TD
-    A[2_Data_Races] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -13249,16 +13084,6 @@ Manual `stop_token` integration as shown above is the recommended approach.
 
 **The key insight:** `std::future` is blocking by design, for composable async workflows, use coroutines with custom task types instead.
 
-```mermaid
-flowchart TD
-    A[5_Futures_Promises] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 | Concept                          | Standard Reference | Key Feature                                          |
@@ -13824,16 +13649,6 @@ int main() {
   reference parameter), the referenced object must outlive the generator.
 - **Range adaptor eager materialization.** Some range adaptors (like `std::views::reverse`) may need
   to buffer elements, defeating the lazy evaluation benefit of generators.
-
-```mermaid
-flowchart TD
-    A[3_Generators] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -14723,16 +14538,6 @@ Loop or cache it in a register, without emitting any CPU barrier instructions.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[1_Instruction_Reordering] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of instruction reordering and happens-before, including
@@ -15287,16 +15092,6 @@ Issues like lost updates. A `seq_cst` `fetch_add` is still needed for atomic inc
 // counter.store(old + 1, memory_order_seq_cst);
 // CORRECT: atomic RMW
 // counter.fetch_add(1, memory_order_seq_cst);
-```
-
-```mermaid
-flowchart TD
-    A[4_Memory_Orderings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -16042,16 +15837,6 @@ int main() {
 `std::call_once` guarantees that the callable is invoked exactly once, even if multiple threads call
 `get_expensive()` concurrently. Internally, it uses a combination of atomic flags and a mutex, but
 the fast path (already initialized) is a single atomic load.
-
-```mermaid
-flowchart TD
-    A[3_Mutexes_Deadlocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -16853,17 +16638,6 @@ to subtle bugs where the wrong coroutine is resumed.
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
-
-
-```mermaid
-flowchart TD
-    A[2_Promise_Awaiter] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -17726,17 +17500,6 @@ Computation cannot be cancelled until it reaches the next `co_await`.
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-
-```mermaid
-flowchart TD
-    A[4_Task_Scheduling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to task scheduling and executors,
@@ -18559,16 +18322,6 @@ This pattern provides fast bump-pointer allocation within each thread, completel
 Allocator contention. The trade-off is that individual deallocations are not supported, only bulk
 Deallocation of the entire pool.
 
-```mermaid
-flowchart TD
-    A[5_Thread_Local_Storage] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Synchronization Primitives
 
 | Primitive                 | C++ Standard      | Use Case                 | Reusable |
@@ -19171,16 +18924,6 @@ void constructor_variants() {
    is called. Use `std::promise` to transport exceptions to the joining thread, or catch all
    exceptions inside the thread function and store them.
 
-```mermaid
-flowchart TD
-    A[1_Threads_Jthread] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the key events, causes, and consequences related to thread execution
@@ -19649,17 +19392,6 @@ This combined approach can reduce a 45-minute CI build to under 2 minutes for in
 - [vcpkg](/enviroment_and_toolchain/3_dependency_management/3_vcpkg/), Binary caching configuration for vcpkg
 - [Build Caching](/enviroment_and_toolchain/2_build_system/4_build_caching/), CMake and build-system-level caching
 - [Code Coverage](/enviroment_and_toolchain/2_build_system/6_code_coverage/), Instrumented builds (should not be cached)
-
-
-```mermaid
-flowchart TD
-    A[6_Binary_Caching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -20440,17 +20172,6 @@ non-determinism that will cause cache misses in a distributed environment.
 - [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
 - [Ninja and Parallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
 
-
-```mermaid
-flowchart TD
-    A[4_Build_Cachingx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to build caching, including key
@@ -21041,17 +20762,6 @@ instead. If you target both platforms, use generator-specific presets:
     }
   ]
 }
-```
-
-
-```mermaid
-flowchart TD
-    A[3_Cmake_Presets_And_Toolchain_Files] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -21769,16 +21479,6 @@ target_include_directories(Engine PUBLIC include)
 
 The `target_*` commands handle transitive propagation correctly; `set_target_properties` does not.
 
-```mermaid
-flowchart TD
-    A[1_Cmake_Targets_Properties_Generator] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to cmake targets properties and
@@ -22355,16 +22055,6 @@ endif()
 - [Build Caching](/enviroment_and_toolchain/2_build_system/4_build_caching/), Avoiding cache poisoning with instrumented builds
 - [CMake Targets and Properties](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/), Custom targets for
   coverage automation
-
-```mermaid
-flowchart TD
-    A[6_Code_Coveragex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -23259,17 +22949,6 @@ conan install . -r company --build=missing
 - [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/) -- Lightweight source-based alternative
 - [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/) -- Conan's binary caching architecture
 
-
-```mermaid
-flowchart TD
-    A[4_Conan] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to conan, including key principles
@@ -24010,17 +23689,6 @@ set(CPM_DOWNLOAD_VERSION 0.40.0)
 - [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/) -- How `add_subdirectory` merges build
   properties
 - [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/) -- Why CPM lacks binary caching and how to compensate
-
-
-```mermaid
-flowchart TD
-    A[2_Cpm] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -24808,17 +24476,6 @@ Use the following checklist to diagnose cross-compilation failures:
 - [vcpkg](/enviroment_and_toolchain/3_dependency_management/3_vcpkg/) -- Cross-compiling dependencies with triplets
 - [Conan](/enviroment_and_toolchain/3_dependency_management/4_conan/) -- Cross-compilation with Conan profiles
 
-
-```mermaid
-flowchart TD
-    A[4_Crosscompilation_Toolchains] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of cross-compilation toolchains, including underlying theory,
@@ -25421,17 +25078,6 @@ Debugging.
 If you see `??` in backtraces instead of function names, the binary may be missing `.eh_frame` or
 `.debug_frame` sections. This happens when linking with `-Wl,--strip-all` which removes unwind info.
 Use `--strip-debug` instead, which preserves unwind tables.
-
-
-```mermaid
-flowchart TD
-    A[2_Debuggerx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -26193,17 +25839,6 @@ Dependencies change rarely. Build caching for internal dependencies requires a d
 - [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
 - [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)
 - [Cross-compilation Toolchains](/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains/)
-
-
-```mermaid
-flowchart TD
-    A[1_Dependency_Architectures_Models] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -27610,16 +27245,6 @@ if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
 endif()
 ```
 
-```mermaid
-flowchart TD
-    A[1_Installing_Compilerx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of installing compiler, including underlying theory, practical
@@ -28486,17 +28111,6 @@ Proper include guards. Use `#pragma once` or traditional include guards consiste
 - [Static Analysis](/enviroment_and_toolchain/4_development_enviroment_analysis/3_static_analysis/)
 - [Sanitizers](/enviroment_and_toolchain/4_development_enviroment_analysis/4_sanitizer/)
 
-
-```mermaid
-flowchart TD
-    A[1_Language_Server_Protocol_Configurationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the geographical processes and issues related to language server protocol
@@ -29243,16 +28857,6 @@ When distributing a C++ library that must work across platforms, verify the foll
 - **[Compiler Explorer (godbolt.org)](https://godbolt.org)** -- Online tool for inspecting compiler
   output (assembly, AST, preprocessed source) across multiple compilers. Essential for verifying
   that compiler flags produce the expected code generation.
-
-```mermaid
-flowchart TD
-    A[2_Language_Standard_And_Abi_Compatibilityx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -30044,16 +29648,6 @@ target_link_options(app PRIVATE
 )
 ```
 
-```mermaid
-flowchart TD
-    A[5_Linker_Configurationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of linker configuration, including underlying theory, practical
@@ -30810,17 +30404,6 @@ each CMake target to have its own set of rules and variables without polluting t
 - [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
 - [Build Caching](/enviroment_and_toolchain/2_build_system/4_build_caching/)
 - [Unit Tests](/enviroment_and_toolchain/2_build_system/5_unit_tests/)
-
-
-```mermaid
-flowchart TD
-    A[2_Ninja_And_Parallelism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -31579,16 +31162,6 @@ The following table lists commonly used generator expressions for property propa
 
 **The key insight:** `PUBLIC` propagates to both the target and its consumers, `PRIVATE` only to the target, and `INTERFACE` only to consumers, get this wrong and your dependencies won't compile.
 
-```mermaid
-flowchart TD
-    A[5_Property_Propagation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to property propagation, including
@@ -32178,17 +31751,6 @@ public:
 ASan adds 2x memory overhead (shadow memory) and 2x CPU overhead. TSan adds 5-15x CPU Overhead and
 5-10x memory overhead. Never run sanitizers in production or in performance benchmarks. Use them
 exclusively in development and CI.
-
-
-```mermaid
-flowchart TD
-    A[4_Sanitizerx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -32982,16 +32544,6 @@ extern "C" {
   library for cross-compilation
 - [Linker Configuration](/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration/) -- Linking against the standard library
 
-```mermaid
-flowchart TD
-    A[3_Standard_Library_Implementation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of standard library implementation, including underlying theory,
@@ -33720,16 +33272,6 @@ fi
 - [Language Server Protocol Configuration](/enviroment_and_toolchain/4_development_enviroment_analysis/1_language_server_protocol_configuration/)
 - [Sanitizers](/enviroment_and_toolchain/4_development_enviroment_analysis/4_sanitizer/)
 
-```mermaid
-flowchart TD
-    A[3_Static_Analysisx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the geographical processes and issues related to static analysis, including key
@@ -34338,17 +33880,6 @@ Findable via `LD_LIBRARY_PATH, PATH`Or `CMAKE_INSTALL_RPATH`.
 Catch2 v3 is a compiled library, not header-only. If your project still uses `v2` patterns (e.g.,
 `CATCH_CONFIG_MAIN` without linking `Catch2::Catch2Main`), the build will fail. Update all test
 Targets to link against `Catch2::Catch2WithMain` and remove the `CATCH_CONFIG_MAIN` define.
-
-
-```mermaid
-flowchart TD
-    A[5_Unit_Testsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -35105,17 +34636,6 @@ export VCPKG_ROOT=/opt/vcpkg
 - [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/) -- Detailed binary caching strategies
 - [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/) -- How vcpkg-integrated libraries propagate
   build properties
-
-
-```mermaid
-flowchart TD
-    A[3_Vcpkg] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -35924,16 +35444,6 @@ Static initialization order problem entirely.
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[5_C_Interop] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of c-interop and ffi, including the key equations,
@@ -36707,16 +36217,6 @@ Register arguments must be written to memory before the callee can access them.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[2_Calling_Conventions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of calling conventions and stack management, including
@@ -37439,16 +36939,6 @@ Removed in C++17. `std::terminate` is the only termination handler for exception
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[1_Exception_Abi] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to the itanium exception abi,
@@ -38122,17 +37612,6 @@ their own unwind bookkeeping.
 On MSVC (Windows), exceptions use a different mechanism (table-based with code cookies) that also
 has zero cost on the happy path, but the table format and runtime are different from the Itanium
 ABI.
-
-
-```mermaid
-flowchart TD
-    A[2_Exception_Safety] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -38965,16 +38444,6 @@ int main() {
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[5_Expected] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to monadic error handling,
@@ -39040,26 +38509,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 - **[Types](/types/):** Type system fundamentals.
 - **[Resource Management](/resource_management/):** RAII and smart pointers.
 - **[Templates](/templates_and_metaprogramming/):** Generic programming and metaprogramming.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -39842,16 +39291,6 @@ struct Handler {
 };
 ```
 
-```mermaid
-flowchart TD
-    A[3_Lambdas] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of lambda expressions, capture layouts and closure
@@ -40448,16 +39887,6 @@ int main() {
 - [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
-```mermaid
-flowchart TD
-    A[3_Noexcept] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -41109,17 +40538,6 @@ std::optional is a box that may or may not contain a value, like a treasure ches
 - **Forgetting `std::monostate` for default-constructible variants.** If none of the alternatives is
   default-constructible, use `std::variant<std::monostate, T, U>` to make the variant itself
   default-constructible.
-
-
-```mermaid
-flowchart TD
-    A[4_Optional_Variant] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -42040,16 +41458,6 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
-```mermaid
-flowchart TD
-    A[1_Overload_Resolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -43021,16 +42429,6 @@ Standard containers require copyable elements (unless you use move-only containe
 `std::vector<std::unique_ptr<std::move_only_function<...>>>`). Plan your data structures accordingly
 when using move-only callables.
 
-```mermaid
-flowchart TD
-    A[4_Type_Erasure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of type erasure, function pointers, std::function,
@@ -43859,17 +43257,6 @@ also inherits from `Base`Allowing access to `b.value_` would violate encapsulati
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 
-
-```mermaid
-flowchart TD
-    A[2_Access_Control] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to access control and friendship,
@@ -44602,17 +43989,6 @@ int main() {
     static_assert(len_sq == 25.0);
     std::cout << "length_squared = " << len_sq << "\n";
 }
-```
-
-
-```mermaid
-flowchart TD
-    A[5_Deducing_This_Crtp] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition
@@ -45393,16 +44769,6 @@ Intended effect.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[3_Devirtualization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of devirtualization and final specifiers, including underlying
@@ -45468,27 +44834,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 - **[Types](https://cbse.wyattau.com/mathematics/relations-functions/01-types-of-relations/):** Type system fundamentals.
 - **[Resource Management](../../resource_management/):** RAII and smart pointers.
 - **[Templates](https://kotlin.wyattau.com/advanced/metaprogramming/):** Generic programming and metaprogramming.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -46443,16 +45788,6 @@ Additional vptrs (from multiple inheritance), and virtual base pointers all add 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[2_Inheritance_Slicing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of inheritance, object slicing, and virtual destructors,
@@ -47126,16 +46461,6 @@ struct Combined : EmptyBase<struct A>, EmptyBase<struct B> {
     int data;
 };
 static_assert(sizeof(Combined) == sizeof(int));  // EBO applies for both
-```
-
-```mermaid
-flowchart TD
-    A[1_Object_Layout_Vptr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -47929,16 +47254,6 @@ the built-in comma operator but not for the overloaded version. This is almost a
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
-```mermaid
-flowchart TD
-    A[4_Operator_Overloading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -48750,16 +48065,6 @@ Type tags.
 - [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
 - [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
 
-```mermaid
-flowchart TD
-    A[4_Rtti_Dynamic_Cast] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to rtti, dynamic_cast, and typeid,
@@ -49324,16 +48629,6 @@ int main() {
 - **Forgetting `<compare>` header.** `std::strong_ordering`, `std::weak_ordering` and
   `std::partial_ordering` are defined in `<compare>`. Forgetting to include it causes compilation
   errors.
-
-```mermaid
-flowchart TD
-    A[5_Spaceship_Operator] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -50030,16 +49325,6 @@ int main() {
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[3_Special_Member_Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to special member function
@@ -50617,16 +49902,6 @@ int main() {
 - **Format specifiers in `std::formatter` for `std::optional`.** C++23 provides a built-in formatter
   for `std::optional<T>` that delegates to `T`'s formatter. Do not specialize `std::formatter` for
   `std::optional` yourself unless you have a specific reason.
-
-```mermaid
-flowchart TD
-    A[6_Std_Formatter] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -51387,16 +50662,6 @@ has no data members. This is the fundamental cost of runtime polymorphism.
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
-```mermaid
-flowchart TD
-    A[1_Vtables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -52163,16 +51428,6 @@ Lambda.
 
 **The key insight:** Custom deleters are part of the smart pointer's type, they enable managing non-heap resources (files, sockets, handles) with the same RAII pattern as heap memory.
 
-```mermaid
-flowchart TD
-    A[5_Custom_Deleters] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 | Ownership Model    | Smart Pointer        | Size (x86_64) | Semantics                   | Thread-Safe Refcount |
@@ -52289,26 +51544,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 - **[Types](/types/):** Type system fundamentals.
 - **[Resource Management](/resource_management/):** RAII and smart pointers.
 - **[Templates](/templates_and_metaprogramming/):** Generic programming and metaprogramming.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -53602,16 +52837,6 @@ Over `std::function` if copyability is not required. This avoids the internal he
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[4_Move_Constructors_Rvo] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of move constructors, assignment, swap idiom, including
@@ -54413,16 +53638,6 @@ public:
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[1_Raii_Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to raii patterns, including key
@@ -55138,16 +54353,6 @@ Reference collapsing is the rulebook for what happens when you layer references 
    reference type, you return a reference to a parameter, which may dangle if the caller passed a
    temporary. If `T` is a non-reference type, you return an rvalue reference to a local, which
    always dangles. Return by value instead and let NRVO or move semantics handle it.
-
-```mermaid
-flowchart TD
-    A[2_Reference_Collapsing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -56124,16 +55329,6 @@ is correct.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[5_Return_Value_Optimization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of return value optimization (rvo) and nrvo, including
@@ -56937,16 +56132,6 @@ int main() {
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
-
-```mermaid
-flowchart TD
-    A[3_Shared_Ptr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -57760,16 +56945,6 @@ Temporary materialization is the bridge between abstract recipes and real object
   but `std::move(T{args})` produces an xvalue, forcing materialization and a move. Just write
   `return T{args};`.
 
-```mermaid
-flowchart TD
-    A[3_Temporary_Materialization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of temporary materialization, including underlying theory,
@@ -58470,16 +57645,6 @@ std::unique_ptr<int> make_value_alt() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
-```mermaid
-flowchart TD
-    A[2_Unique_Ptr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -60303,16 +59468,6 @@ A weak_ptr is a non-owning observer, like a security camera that watches a share
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[4_Weak_Ptr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to weak pointers and cyclic
@@ -61101,16 +60256,6 @@ For performance-critical code where ordered iteration is not needed, consider al
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
-```mermaid
-flowchart TD
-    A[2_Associative_Containers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -61742,16 +60887,6 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 
 **The key insight:** chrono encodes time units in the type system, the compiler catches unit mismatches at compile time, eliminating a common source of subtle bugs.
 
-```mermaid
-flowchart TD
-    A[2_Chrono] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -62381,16 +61516,6 @@ void atomic_write(const fs::path& target, std::string_view content) {
 **Why it matters:** The filesystem library eliminates platform-specific code for file operations. Instead of writing `#ifdef _WIN32` blocks, you write `std::filesystem::exists(path)` and it works everywhere. It also provides safe error handling with `std::error_code` instead of exceptions, and supports operations like recursive directory traversal, path manipulation, and file metadata queries.
 
 **The key insight:** `std::filesystem` provides platform-independent file operations, write once, run on any OS.
-
-```mermaid
-flowchart TD
-    A[1_Filesystem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -63210,16 +62335,6 @@ Range is infinite (or at least large enough). If the range is shorter than the a
 You get buffer overread, and unlike with bounds-checked iterators, there is no diagnostic. Use this
 only when you have proven the bounds at a higher level.
 
-```mermaid
-flowchart TD
-    A[1_Iterator_Sentinel] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of iterator-sentinel model, including underlying theory,
@@ -63811,16 +62926,6 @@ int main() {
     std::cout << *it << "\n";  // OK
     return 0;
 }
-```
-
-```mermaid
-flowchart TD
-    A[3_Iterators] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -64645,16 +63750,6 @@ Parallel-capable algorithms.
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
-```mermaid
-flowchart TD
-    A[5_Parallel_Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -65196,16 +64291,6 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
    necessarily tight.
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
-
-```mermaid
-flowchart TD
-    A[4_Pmr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -65795,16 +64880,6 @@ int main() {
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
-
-```mermaid
-flowchart TD
-    A[3_Projections] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -66437,16 +65512,6 @@ PRNG.
 **Why it matters:** The C++ random library replaces the old `rand()`/`srand()` with a modern, type-safe, and statistically sound approach. `rand()` has known flaws (poor distribution, global state, limited range), while the chrono library provides engines with long periods, well-documented distributions, and per-instance state (no global variables).
 
 **The key insight:** The engine produces a deterministic sequence; the distribution transforms it into the statistical distribution you need, don't use `rand()`.
-
-```mermaid
-flowchart TD
-    A[3_Random_Numbers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -67302,17 +66367,6 @@ int main() {
 
 4. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
-
-```mermaid
-flowchart TD
-    A[2_Range_Adaptors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -68141,16 +67195,6 @@ int main() {
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
 
-```mermaid
-flowchart TD
-    A[4_Range_Materialization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -68725,16 +67769,6 @@ Index `-1`.
 - [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
 
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
-
-```mermaid
-flowchart TD
-    A[4_Regular_Expressions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -69545,16 +68579,6 @@ extra indirection adds 2-5 cycles per access compared to vector's single Indirec
 
 6. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-```mermaid
-flowchart TD
-    A[1_Sequence_Containers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -70199,16 +69223,6 @@ void stream_state_demo() {
 **Why it matters:** Stream buffers separate the interface (stream operations like `<<` and `>>`) from the implementation (where the data actually comes from or goes to). This lets you redirect `std::cout` to a file, a network socket, or a custom buffer without changing any code that writes to `std::cout`. It's the Strategy pattern applied to I/O.
 
 **The key insight:** Stream buffers separate I/O interface from implementation, you can redirect `std::cout` to anywhere by replacing its stream buffer.
-
-```mermaid
-flowchart TD
-    A[1_Stream_Buffers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -70957,16 +69971,6 @@ int main() {
 
 **The key insight:** `std::format` parses format strings at compile time, type mismatches are caught before the program runs, eliminating undefined behavior.
 
-```mermaid
-flowchart TD
-    A[2_Type_Safe_Formatting] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -71578,16 +70582,6 @@ The relationship between `char`, `char8_t` and the execution encoding is subtle 
 **Why it matters:** Unicode support is essential for any software that handles international text. Without it, you get garbled text, security vulnerabilities (buffer overflows from incorrect encoding), and broken search functionality. The C++ standard library provides `std::codecvt` and `std::wstring_convert` (deprecated in C++17) for encoding conversions, but the best practice is to use UTF-8 everywhere and convert at the boundaries.
 
 **The key insight:** UTF-8 is the best default encoding, it's backward-compatible with ASCII, uses the fewest bytes for English, and is the de facto standard for the web and modern systems.
-
-```mermaid
-flowchart TD
-    A[3_Unicode_Support] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -72483,16 +71477,6 @@ int main() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
-```mermaid
-flowchart TD
-    A[2_Argument_Deduction] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -73469,17 +72453,6 @@ the previous.
   pattern, not the constraint expression. Do not assume that concept subsumption will select the
   correct class template partial specialization.
 
-
-```mermaid
-flowchart TD
-    A[2_Constraint_Subsumption] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of constraint subsumption and overload resolution, including
@@ -74416,16 +73389,6 @@ Constrained template parameter.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[1_Defining_Concepts] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of defining concepts and requires clauses, including underlying
@@ -75277,16 +74240,6 @@ void good() {
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[4_Dependent_Names] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dependent names and two-phase lookup, including underlying
@@ -76100,16 +75053,6 @@ export template class DataBuffer<double>;
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[5_Explicit_Instantiation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of explicit instantiation and extern templates, including
@@ -76175,26 +75118,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 - **[Types](https://cbse.wyattau.com/mathematics/relations-functions/01-types-of-relations/):** Type system fundamentals.
 - **[Resource Management](../../resource_management/):** RAII and smart pointers.
 - **[Templates](https://kotlin.wyattau.com/advanced/metaprogramming/):** Generic programming and metaprogramming.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -77114,16 +76037,6 @@ int main() {
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[2_Fold_Expressions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of fold expressions and pack expansion, including underlying
@@ -77777,16 +76690,6 @@ key: "key'', value: "value'
 
 4. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
-
-```mermaid
-flowchart TD
-    A[3_If_Constexpr] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -78932,16 +77835,6 @@ public:
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
 
-```mermaid
-flowchart TD
-    A[1_Instantiation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of template instantiation, monomorphization, and code bloat,
@@ -79554,16 +78447,6 @@ int main() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 
-```mermaid
-flowchart TD
-    A[1_Parameter_Packs] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of parameter packs and variadic templates, including underlying
@@ -80153,17 +79036,6 @@ int main() {
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
-
-
-```mermaid
-flowchart TD
-    A[4_Sfinae_Vs_Concepts] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -81050,16 +79922,6 @@ int main() {
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
-```mermaid
-flowchart TD
-    A[3_Specialization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of explicit and partial specialization, including underlying
@@ -81641,16 +80503,6 @@ void process(T val) {
 
 The fix is to place the more specific overload first, since `std::signed_integral<T>` subsumes
 `std::integral<T>` (every signed integral is an integral, but not vice versa).
-
-```mermaid
-flowchart TD
-    A[3_Standard_Concepts] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -82640,16 +81492,6 @@ Introspected).
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
-```mermaid
-flowchart TD
-    A[4_Type_Traits] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -83241,16 +82083,6 @@ S global_s3\{1, 2\};  // zero-initialized, then aggregate init to \{1, 2\}
 - **Module 9.2 (Uniform Initialization)**: Brace init, `initializer_list`And narrowing conversions
 - **Module 9.4 (Constant Expressions)**: `constexpr` aggregates and compile-time initialization
 - **Module 10 (Ownership and RAII)**: RAII and why aggregates with non-trivial members need care
-
-```mermaid
-flowchart TD
-    A[3_Aggregate_Initializationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -83916,16 +82748,6 @@ Never assume the host endianness when serializing data. Always convert to a know
 (network byte order / big endian) before writing to a wire format, and convert back on read.
 `std::byteswap` makes this trivial.
 
-```mermaid
-flowchart TD
-    A[3_Bit_Manipulationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to bit manipulation, including key
@@ -84489,16 +83311,6 @@ struct S2 \{
   construction
 - **Module 10 (Ownership and RAII)**: RAII and constexpr destructors
 - **Module 13 (Error Handling)**: `static_assert` as a compile-time error mechanism
-
-```mermaid
-flowchart TD
-    A[4_Constexpr_Consteval_Constinitx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -85076,16 +83888,6 @@ Policies.
 ## Intuition
 
 A span is a window into memory, it does not own the data, it just looks at it. Think of a span as a book open on a table: you can read any page, but you did not write the book and you cannot burn it. This is useful when you want to pass a piece of an array to a function without copying: instead of handing over a photocopy, you hand over the bookmark. The key danger is that a span becomes a dangling reference if the underlying data is destroyed, like reading from a book that someone has already put back on the shelf and removed. Spans replace the old C pattern of passing a pointer and a size separately, bundling them into one safe package.
-
-```mermaid
-flowchart TD
-    A[5_Contiguous_Memory_Viewsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -85690,17 +84492,6 @@ class Logger \{
 - **Module 10 (Ownership and RAII)**: The RAII pattern built on deterministic destruction
 - **Module 13 (Error Handling)**: Exception safety guarantees and stack unwinding
 
-
-```mermaid
-flowchart TD
-    A[5_Deterministic_Destructionx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to deterministic destruction,
@@ -85774,27 +84565,6 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 - [Types](./)
 - [C++ Types and Resource Management: Practice Problems](/types/practice-types-resources/)
 - [Programming Notes](/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -86333,17 +85103,6 @@ Fundamental types are the alphabet of the machine, each one maps directly to a r
   CPUs. In performance-critical code (audio processing, game physics), consider enabling
   Flush-To-Zero (`_MM_DENORMALS_ZERO_ON`) via compiler flags (`-ffast-math` or `-fno-denormals`) if
   exact gradual underflow is not required.
-
-
-```mermaid
-flowchart TD
-    A[1_Fundamental_Typesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -87099,17 +85858,6 @@ Detection tools:
 - [Pointers](/types/2_pointers_references_views/1_pointers/)
 - [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
 - [Polymorphic Memory Resources (PMR)](/standard_library/1_containers_and_allocators/4_pmr/)
-
-
-```mermaid
-flowchart TD
-    A[5_Heapx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -87913,16 +86661,6 @@ int main() \{
     std::cout << "constructive_interference_size: "
               << std::hardware_constructive_interference_size << "\n";
 \}
-```
-
-```mermaid
-flowchart TD
-    A[2_Layoutx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -88735,17 +87473,6 @@ int* q = p + 1;  // UB: arithmetic on null pointer
 
 A pointer is a street address written on an envelope. It does not contain the letter itself, it tells you where to find it. Pointer arithmetic is like walking down a street: if each house is the same size, adding 1 to the address moves you to the next house. Array decay is when the compiler treats an array as a pointer to its first element, it is like handing someone the address of your house instead of the house itself. Null pointers are addresses that point nowhere, like a street address for a demolished building. Dereferencing a null pointer is walking up to that empty lot and trying to open a door that does not exist.
 
-
-```mermaid
-flowchart TD
-    A[1_Pointersx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to pointers, including key
@@ -88825,27 +87552,6 @@ import { practiceQuestions } from '@/data/flashcards/cpp/practice-types-resource
 - [Types](./)
 - [C++ Flashcards: Type System](/types/flashcards-type-system/)
 - [Programming Notes](/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -89162,7 +87868,6 @@ void usage() \{
     // Mutation
     vec[0].get() = 100; // Modifies 'a'
 
-
     // Reseating (assigning the wrapper changes the pointer, not the value)
     vec[0] = b; // vec[0] now points to 'b'
 \}
@@ -89436,17 +88141,6 @@ int main() \{
     std::cout << x << "\n";  // 100
     return 0;
 \}
-```
-
-
-```mermaid
-flowchart TD
-    A[2_Reference_Lifetimex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -90107,17 +88801,6 @@ Debug builds (`-O0`) allocate more stack space than release builds because:
 A program that runs fine in debug mode may overflow the stack in release mode (or vice versa, though
 less commonly) if stack usage is near the limit.
 
-
-```mermaid
-flowchart TD
-    A[4_Stackx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of stack, including underlying theory, practical implementation,
@@ -90691,16 +89374,6 @@ Use the `nothrow` variant when exceptions are undesirable.
   binding
 - **Module 10 (Ownership and RAII)**: RAII pattern for managing dynamic storage duration
 - **Module 13 (Error Handling)**: Exception safety during object construction and destruction
-
-```mermaid
-flowchart TD
-    A[1_Storage_Durationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -91437,17 +90110,6 @@ int main() \{
 ## Intuition
 
 A string is like a rented apartment, you pay for the space and you can change the furniture, but when you leave, the landlord takes it back. A string_view is like borrowing a book from a library, you can read it but you cannot write in it, and you must return it before the library closes. Small String Optimization is like keeping your keys in your pocket instead of in a locker, for short strings, the data lives inside the string object itself, avoiding a trip to the heap. The trade-off is that string_view is a snapshot: if the original string is modified or destroyed, your view becomes a photograph of a demolished building.
-
-
-```mermaid
-flowchart TD
-    A[4_String_Views_Ssox] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -92300,17 +90962,6 @@ Stores. This is not type punning per se, but it is a consequence of the same rul
 - **`std::bit_cast`**, [N4950 S20.15.5], C++20.
 - **Strict Aliasing**, [N4950 S6.9.2.1]/11.
 
-
-```mermaid
-flowchart TD
-    A[3_Type_Punningx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to type punning and the strict
@@ -92831,17 +91482,6 @@ int a3[3](1, 2, 3);       // ERROR: arrays can't use parenthesized init
   initializers
 - **Module 9.4 (Constant Expressions)**: `constexpr` and `constinit` initialization
 - **Module 10 (Ownership and RAII)**: RAII and initialization of resource-holding objects
-
-
-```mermaid
-flowchart TD
-    A[2_Uniform_Initializationx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

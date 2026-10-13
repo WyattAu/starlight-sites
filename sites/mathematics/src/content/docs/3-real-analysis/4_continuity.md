@@ -411,17 +411,6 @@ Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) and
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[4_Continuity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Differentiability](/3-real-analysis/5_differentiability/)**: Differentiability implies continuity, but the converse is false; the relationship between these concepts is explored via the mean value theorem.

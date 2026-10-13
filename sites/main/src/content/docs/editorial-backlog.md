@@ -286,3 +286,45 @@ Worker route configuration or a `wrangler` log for the zone.
 **Why it is recorded.** The editorial backlog is itself one of the four
 unreachable pages. A quality record that nobody can open is not doing its job,
 and the four pages are content that was written to be read.
+
+## 11. Template filler removed (2,057 files); the content it promised is a real gap
+
+Two classes of template output shipped network-wide, generated rather than
+written. Both have been removed and gated. **The content those sections
+promised is still missing**, and that shortfall is what this item tracks.
+
+**What was removed.**
+
+| Class | Count | What it was |
+| ----- | ----- | ----------- |
+| `## Advanced Content` placeholder sections | 458 | Subsections titled "Derivations and Proofs", "Extended Examples", "Research Connections", "Prerequisites", containing only sentences describing what such content would look like |
+| Filler mermaid diagrams | 1,762 | The same seven-line flowchart on every page, reading "Key Concepts / Core Principles / Practical Applications / Design patterns / Real-world usage", with the page title wired to "Key Concepts" |
+
+Both were pure filler: removing them discards no information, because there
+was none. The damage was that they were not neutral. A reader reaching
+"Derivations and Proofs" was promised a derivation and received a description
+of derivations, which is worse than an absent section because it looks like
+the page has been covered.
+
+**Safety.** The Advanced Content section is removed only when *every*
+non-blank line in it is a heading or one of the exact placeholder sentences, so
+a section holding real content is never touched. Measured: 458 files qualify
+and **zero** files are mixed. The mermaid block is removed only when it
+matches the filler shape exactly after normalising node labels. Measured:
+1,762 blocks share that one shape, and the 343 genuine diagrams in the network
+have different shapes and were all preserved.
+
+**What this does not fix.** The promise was accurate about the gap. 458 pages
+were marked as having advanced derivations, worked examples and research
+connections, and did not. Most of those pages are otherwise substantive --
+the placeholder sat at the end of a real explanation -- but the advanced
+material a template claimed for them was never written.
+
+This is editorial and is not mechanical: writing a derivation for a given page
+requires knowing the subject and the intended level, and no rule can decide
+which page most needs it. The right order is to work down the subject tracks
+that carry the research and flagship treatment, since those pages are the ones
+a reader arriving at the graduate tier will hit.
+
+**Gate.** `scripts/fix-filler-content.py --check` now runs in the preflight, so
+neither class can reappear.

@@ -689,16 +689,6 @@ Removed in C++17. `std::terminate` is the only termination handler for exception
 - [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
 - [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)
 
-```mermaid
-flowchart TD
-    A[1_Exception_Abi] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to the itanium exception abi,

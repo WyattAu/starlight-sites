@@ -154,17 +154,6 @@ $n$, $m(C) \leq \lim_{n\to\infty} (2/3)^n = 0$. $\blacksquare$
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-
-```mermaid
-flowchart TD
-    A[4_Lebesgue Measurable Sets And Non Measurable Sets] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Lebesgue measurability determines which sets can be assigned a consistent "size." The outer measure covers any set with intervals from above, but only measurable sets satisfy the property that their size equals the sizes of their pieces added together. The Vitali construction shows that not all sets are measurable: using the axiom of Choice, you can build a set that is so irregular that no consistent measure can be assigned. The Cantor set shows the opposite extreme, an uncountable set with measure zero, demonstrating that measure and cardinality are unrelated. Lebesgue measurability is the sweet spot: large enough to include all Borel sets and null sets, but small enough to avoid pathological constructions.
@@ -180,23 +169,3 @@ Every Borel set is Lebesgue measurable, but not vice versa. The Cantor set is Bo
 **Mistake 3: Assuming outer measure is additive**
 Outer measure $m^*$ is subadditive ($m^*(\bigcup A_n) \leq \sum m^*(A_n)$) but not additive. For disjoint non-measurable sets, outer measure can fail to be additive. Additivity holds only for measurable sets. The Vitali construction exploits this failure: the outer measure of the union of translates of $V$ is bounded, but the sum of outer measures is not.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

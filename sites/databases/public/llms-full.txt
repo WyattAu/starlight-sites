@@ -7269,16 +7269,6 @@ WHERE account_id = 1 AND balance >= 100;
 -- Check result count: 1 = success, 0 = insufficient funds
 ```
 
-```mermaid
-flowchart TD
-    A[Locking And Deadlocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Locking is like a traffic intersection. When two cars arrive at the same time, one must wait. If both cars wait for the other, neither moves and you have a deadlock. The solution is simple: always follow a consistent rule, such as the car on the right goes first. In databases, this means always accessing tables and rows in the same order, always holding locks for the shortest time possible, and always having a retry strategy when deadlocks occur.
@@ -10474,16 +10464,6 @@ LIMIT 10;
 sub-second lookups on large corpora.
 
 $\blacksquare$
-
-```mermaid
-flowchart TD
-    A[Postgresql Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -14382,17 +14362,6 @@ URL: https://databases.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Databases are the foundation of every application that persists data. Whether you are building a web application, an analytics pipeline, or an embedded system, understanding how databases work, and how to design them well, is a core engineering skill. Poor database design leads to slow queries, data corruption, and maintenance nightmares. Good database design leads to performance, reliability, and maintainability.
@@ -15333,17 +15302,6 @@ URL: https://databases.wyattau.com/diagnostics/diag-databases/
 | 10       | B             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of database fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
-
-
-```mermaid
-flowchart TD
-    A[Diag Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

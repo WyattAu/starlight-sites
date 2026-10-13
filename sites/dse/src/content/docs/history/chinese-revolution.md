@@ -13,17 +13,6 @@ description: "Fall of the Qing Dynasty, warlord era, rise of the CCP and KMT, Lo
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Chinese Revolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Fall of the Qing Dynasty
 
 The Qing Dynasty collapsed in 1911 after two and a half centuries of rule, ending over two thousand years of imperial governance in China. The dynasty's decline resulted from a combination of internal decay and external pressures.
@@ -124,23 +113,3 @@ The Chinese Revolution was a decades-long upheaval that transformed one of the w
 - [The Cold War](/history/cold-war/)
 - [Decolonisation and the Path to 1997](/history/decolonisation/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

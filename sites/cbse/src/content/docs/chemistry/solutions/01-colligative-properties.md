@@ -14,17 +14,6 @@ description: "Study notes for Colligative properties with worked examples, pract
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[01 Colligative Properties] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Colligative properties
 
 Study notes for CBSE Class 12 chemistry - Colligative properties.
@@ -149,27 +138,6 @@ Colligative properties depend only on how many solute particles you add, not wha
 - **Chemical Kinetics:** Solute concentration affects reaction rates, understanding colligative properties deepens your grasp of concentration effects.
 - **Biomolecules:** Osmotic pressure determines how water moves across cell membranes, directly connecting colligative properties to biology.
 - **Surface Chemistry:** Adsorption and colligative properties both arise from solute-solvent interactions at the molecular level.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 

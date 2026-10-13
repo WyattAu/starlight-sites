@@ -865,17 +865,6 @@ conan install . -r company --build=missing
 - [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/) -- Lightweight source-based alternative
 - [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/) -- Conan's binary caching architecture
 
-
-```mermaid
-flowchart TD
-    A[4_Conan] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to conan, including key principles

@@ -509,17 +509,6 @@ banning). Eliminate D (analyses one study, not multiple approaches). B is the mo
 - **Re-reading the entire passage for every question.** Read once with the question in mind. For
   subsequent questions, scan for specific content.
 
-
-```mermaid
-flowchart TD
-    A[Advanced Strategies] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Advanced SAT strategies include time management (two-pass system, benchmark times), process of
@@ -1002,17 +991,6 @@ URL: https://sat.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -1975,17 +1953,6 @@ interface saves time on the exam.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Mathematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5496,17 +5463,6 @@ The SAT tests your ability to identify rhetorical strategies:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Reading And Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The Reading & Writing section tests four core domains: Information and Ideas, Craft and Structure,
@@ -6202,17 +6158,6 @@ D indicates the river has sufficient self-purification capacity.
 - **Describing data without using numbers.** Vague descriptions like "the value increases" are
   insufficient. Reference specific data points to support claims.
 
-
-```mermaid
-flowchart TD
-    A[Science Question Bank] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The SAT science question bank covers experimental design (identifying variables, evaluating methods,
@@ -6244,17 +6189,6 @@ URL: https://sat.wyattau.com/mathematics/algebra/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Algebra", "url": "https://sat.wyattau.com/mathematics/algebra"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Algebra
 
@@ -6383,27 +6317,6 @@ Algebra is the art of solving mysteries by letting unknowns represent clues. Whe
 - [Data Analysis](/mathematics/data-analysis/) -- Statistical formulas and linear models use algebraic manipulation to calculate means, slopes, and correlations.
 - [Reading Comprehension](/reading/comprehension/) -- Interpreting graphs and tables in reading passages requires algebraic reasoning.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Data Analysis
@@ -6417,17 +6330,6 @@ URL: https://sat.wyattau.com/mathematics/data-analysis/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Data Analysis", "url": "https://sat.wyattau.com/mathematics/data-analysis"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Data Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Data analysis
 
@@ -6540,27 +6442,6 @@ Data analysis is the art of finding signal in noise. A dataset is like a crowd o
 - [Geometry](/mathematics/geometry/) -- Probability and data interpretation questions may involve geometric representations such as scatterplots.
 - [Writing Language](/writing/language/) -- Interpreting data in evidence-based writing requires understanding of statistics and data presentation.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Geometry
@@ -6574,17 +6455,6 @@ URL: https://sat.wyattau.com/mathematics/geometry/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Geometry", "url": "https://sat.wyattau.com/mathematics/geometry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Geometry
 
@@ -6702,27 +6572,6 @@ Geometry is the language of shapes and space. Angles are the conversation betwee
 - [Data Analysis](/mathematics/data-analysis/) -- Area and volume calculations appear in data interpretation questions involving real-world contexts.
 - [Reading Comprehension](/reading/comprehension/) -- Visual information in passages such as maps and diagrams requires geometric reasoning.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Index
@@ -6792,17 +6641,6 @@ URL: https://sat.wyattau.com/reading/comprehension/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Comprehension", "url": "https://sat.wyattau.com/reading/comprehension"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Comprehension] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Comprehension
 
@@ -6913,27 +6751,6 @@ Reading comprehension is like being a detective at a crime scene, every sentence
 - [Writing Essay](/writing/essay/) -- Evidence-based essay writing draws on the same analytical skills used in reading comprehension.
 - [Algebra](/mathematics/algebra/) -- Interpreting data and graphs in passages requires algebraic reasoning about trends and relationships.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Grammar
@@ -6947,17 +6764,6 @@ URL: https://sat.wyattau.com/reading/grammar/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Grammar", "url": "https://sat.wyattau.com/reading/grammar"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Grammar] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Grammar
 
@@ -7068,27 +6874,6 @@ Grammar is the infrastructure of communication, like the electrical wiring in a 
 - [Writing Language](/writing/language/) -- The writing and language section tests the same grammar concepts applied to editing and revising passages.
 - [Writing Essay](/writing/essay/) -- Correct grammar usage is essential for constructing clear and effective evidence-based essays.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## Writing
 
 ---
@@ -7104,17 +6889,6 @@ URL: https://sat.wyattau.com/writing/essay/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Essay", "url": "https://sat.wyattau.com/writing/essay"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Essay] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Essay
 
@@ -7225,27 +6999,6 @@ The SAT essay is an argument about an argument, you are analysing how the author
 - [Reading Comprehension](/reading/comprehension/) -- Analysing evidence in reading passages provides practice for constructing evidence-based arguments in essays.
 - [Data Analysis](/mathematics/data-analysis/) -- Using data and statistics as evidence in essays requires understanding of data interpretation.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Language
@@ -7259,17 +7012,6 @@ URL: https://sat.wyattau.com/writing/language/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Language", "url": "https://sat.wyattau.com/writing/language"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Language] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Language
 
@@ -7378,24 +7120,3 @@ Language conventions are the traffic rules of writing, they keep communication f
 - [Grammar](/reading/grammar/) -- The language section tests grammar rules including subject-verb agreement, pronoun clarity, and punctuation.
 - [Essay](/writing/essay/) -- Editing and revising skills transfer directly to constructing well-organised evidence-based essays.
 - [Comprehension](/reading/comprehension/) -- Understanding passage meaning is essential for making effective rhetorical revisions.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

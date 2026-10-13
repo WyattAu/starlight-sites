@@ -736,16 +736,6 @@ has no data members. This is the fundamental cost of runtime polymorphism.
 - [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
 - [Deducing This and CRTP](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
 
-```mermaid
-flowchart TD
-    A[1_Vtables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to virtual functions and vtables,

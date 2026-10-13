@@ -352,17 +352,6 @@ URL: https://dse.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The DSE (Diploma of Secondary Education) is the standardised examination taken by all Hong Kong students at the end of secondary school. It determines university admissions and shapes career pathways. This hub page links every resource on this site, organised by subject, with study plans and exam strategies to help you prepare efficiently.
@@ -3762,16 +3751,6 @@ Higher biodiversity generally leads to greater ecosystem stability:
   count of the number of species. Species diversity (e.g., Simpson's Diversity Index) takes both
   species richness AND evenness (relative abundance of each species) into account\*\* :::
 
-```mermaid
-flowchart TD
-    A[2_Biodiversity And Conservation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 concepts, experimental evidence, and real-world applications.
@@ -4048,17 +4027,6 @@ $$
 
 **Problem:** A cell has 46 chromosomes and undergoes division. After division, each daughter cell has 23 chromosomes. Was this mitosis or meiosis? Explain.
 **Solution:** This was meiosis. Mitosis produces daughter cells with the same chromosome number as the parent (diploid to diploid). The halving from 46 to 23 (diploid to haploid) is characteristic of meiosis, which produces gametes.
-
-
-```mermaid
-flowchart TD
-    A[Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -4696,16 +4664,6 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 **Why it matters:** From diagnosing diseases to understanding genetics, cell biology is the foundation of modern medicine and biotechnology.
 
 **The key insight:** Structure determines function, the shape of a protein determines what it does, and mutations that change shape can cause disease.
-
-```mermaid
-flowchart TD
-    A[1_Cell Biology And Biochemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -6624,17 +6582,6 @@ than a occurring 200-hectare forest because of:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Biodiversity Conservation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Nature's web of life:** Biodiversity is like a tapestry, each species is a thread, and removing threads weakens the whole fabric. Conservation is about protecting the threads that keep ecosystems functional.
@@ -7059,17 +7006,6 @@ than the active site), whereas a competitive inhibitor binds to the **active sit
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Cell Biology Biochemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -7535,17 +7471,6 @@ Denitrifying bacteria reduce the amount of nitrogen available to plants.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Evolution Ecology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Life's grand narrative:** Evolution is like a branching tree, species diverge from common ancestors, adapting to their environments through natural selection. Ecology studies how these species interact.
@@ -8009,17 +7934,6 @@ Probability of $bbS\_$ = $\frac{1}{4} \times \frac{3}{4} = \frac{3}{16}$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Genetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -8554,17 +8468,6 @@ energy.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Human Physiology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A complex machine:** The human body is like a city, the heart is the pump, lungs are air filters, kidneys are water treatment plants, and the brain is city hall. Each organ system keeps the body functioning.
@@ -9007,17 +8910,6 @@ infections, not all pathogens.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Human Reproduction Homeostasis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -9539,17 +9431,6 @@ reduction in crop diversity if only GM varieties are grown.)
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Microorganisms Biotechnology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Invisible allies:** Microorganisms are like tiny factories, bacteria make yogurt and antibiotics, yeasts bake bread and brew beer. Biotechnology harnesses these organisms for human benefit.
@@ -9960,17 +9841,6 @@ death.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Plant Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -11682,16 +11552,6 @@ slow-release fertilisers).
 **Why it matters:** From conservation to climate change, ecology explains how ecosystems function and how human activities affect them.
 
 **The key insight:** Energy flows through ecosystems in one direction (sun → producers → consumers), but nutrients cycle endlessly.
-
-```mermaid
-flowchart TD
-    A[1_Ecology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -13839,17 +13699,6 @@ species, each adapted to a different ecological niche.
 - **The fossil record is incomplete but still provides strong evidence.** The fact that some
   transitional fossils have not been found does not invalidate evolution\*\* :::
 
-
-```mermaid
-flowchart TD
-    A[1_Evolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 experimental evidence, and real-world applications.
@@ -13927,27 +13776,6 @@ Cell biology is like studying a city: each organelle is a building with a specif
 - **[Genetics](https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna/):** Genetics is a major topic; DNA replication and protein synthesis occur in specific organelles.
 - **[Ecology](https://alevel.wyattau.com/biology/ecology/):** Ecology covers environments; cell biology explains how organisms interact with their environment at the cellular level.
 - **[Chemistry](/chemistry/flashcards-atomic-structure/):** Chemical bonding and molecular structure underpin biological molecules and cell function.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -15762,16 +15590,6 @@ PCR is a technique used to amplify a specific region of DNA in vitro (outside a 
   bases in the repeat are the same between individuals; what varies is how many times the repeat
   occurs\*\* :::
 
-```mermaid
-flowchart TD
-    A[1_Genetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 experimental evidence, and real-world applications.
@@ -17050,17 +16868,6 @@ During the fight-or-flight response, the adrenal medulla releases adrenaline, wh
   deficiency or resistance), causing dilute urine. It should not be confused with diabetes mellitus
 - **The renal threshold is the blood glucose concentration at which glucose first appears in the
   urine (~9-10 mmol/L), NOT the normal blood glucose level (~5 mmol/L)** :::
-
-
-```mermaid
-flowchart TD
-    A[3_Homeostasis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -19035,17 +18842,6 @@ $$
   excess amino acids and converts the resulting ammonia to urea. The kidneys excrete urea but do not
   produce it\*\* :::
 
-
-```mermaid
-flowchart TD
-    A[1_Human Physiology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 experimental evidence, and real-world applications.
@@ -21002,16 +20798,6 @@ under 35; decreasing to less than 5% for women over 42).
   CORTEX (not medulla).** The adrenal medulla is stimulated by the sympathetic nervous system
   (fight-or-flight); the adrenal cortex is stimulated by ACTH from the anterior pituitary\*\* :::
 
-```mermaid
-flowchart TD
-    A[2_Human Reproduction And Homeostasis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 key concepts, experimental evidence, and real-world applications.
@@ -22312,16 +22098,6 @@ which process is being described.
 1. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
    > > > > > > > Stashed changes:docs/docs_dse/Biology/immunology.md
-
-```mermaid
-flowchart TD
-    A[2_Immunology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -24787,16 +24563,6 @@ contamination of cultures and protect the operator from potentially pathogenic o
 - **In bioremediation, "in situ" means treating the pollution on-site, NOT in a laboratory or
   bioreactor.** "Ex situ" means removing the contaminated material for treatment elsewhere\*\* :::
 
-```mermaid
-flowchart TD
-    A[2_Microorganisms And Biotechnology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 key concepts, experimental evidence, and real-world applications.
@@ -26059,16 +25825,6 @@ LTP is the cellular basis of learning and memory:
 - GABA is the main inhibitory neurotransmitter, NOT the main excitatory one (that is glutamate)
 - Synaptic transmission is always in one direction: presynaptic $\rightarrow$ postsynaptic (because
   only the presynaptic terminal has synaptic vesicles containing neurotransmitter)
-
-```mermaid
-flowchart TD
-    A[1_Nervous System] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -28104,16 +27860,6 @@ in shortest supply (the **limiting factor**).
 | Root system              | Fibrous root system                          | Tap root system                                   |
 | Examples                 | Grasses, wheat, rice, maize, lilies, orchids | Beans, peas, sunflowers, roses, oak trees, apples |
 
-```mermaid
-flowchart TD
-    A[1_Plant Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 experimental evidence, and real-world applications.
@@ -28258,27 +28004,6 @@ Step 4: Distinguishing features:
 - **[Genetics](https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna/):** Genetics is a major topic; DNA replication and protein synthesis occur in specific organelles.
 - **[Ecology](https://alevel.wyattau.com/biology/ecology/):** Ecology covers environments; cell biology explains how organisms interact with their environment at the cellular level.
 - **[Chemistry](/chemistry/flashcards-atomic-structure/):** Chemical bonding and molecular structure underpin biological molecules.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Chemistry
 
@@ -28989,16 +28714,6 @@ The electrochemical series ranks half-reactions by their standard electrode pote
 **Why it matters:** From stomach acid to blood buffers, acid-base chemistry keeps biological systems alive. Understanding pH helps design medicines, treat water, and control industrial processes.
 
 **The key insight:** Buffers resist pH change by absorbing or releasing protons, they're the body's way of maintaining equilibrium despite constant disturbances.
-
-```mermaid
-flowchart TD
-    A[1_Acids Bases And Electrochemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -30357,16 +30072,6 @@ Examples: steel (Fe + C), brass (Cu + Zn), bronze (Cu + Sn), solder (Sn + Pb)
 
 **The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant, electrons are held more tightly.
 
-```mermaid
-flowchart TD
-    A[1_Atomic Structure And Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table
 
 | Topic                  | Key Concept                             | Example                            |
@@ -31718,17 +31423,6 @@ bonding (polar water molecules attract and separate the ions).
   copper ($[\mathrm{Ar}]\,3d^{10}\,4s^1$) are exceptions to the standard filling order due to the
   stability of half-filled and fully filled d-subshells.
 
-
-```mermaid
-flowchart TD
-    A[Atomic Structure And Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Atomic structure and bonding covers subatomic particles, electron configuration, periodic trends,
@@ -32415,17 +32109,6 @@ Undigested and acts as dietary fibre.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[2_Carbon Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -33831,16 +33514,6 @@ $$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Chemical Equilibrium] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Key Equations
 
 | Equation                                                            | Use                         |
@@ -35059,16 +34732,6 @@ Powdering the solid increases surface area, further increasing the rate.
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Chemical Kinetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Key Equations
 
 | Equation                                        | Use                              |
@@ -35390,17 +35053,6 @@ acid $HCl$) do not undergo hydrolysis. Neither ion affects the $pH$ of the solut
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Acids Bases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -35868,17 +35520,6 @@ electrons closer and making them harder to remove.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Building blocks with rules:** Atoms are like LEGO sets, protons determine the element, electrons determine the chemistry. The periodic table organizes elements by their electron configurations, revealing patterns in reactivity.
@@ -36297,17 +35938,6 @@ exceptionally strong, resulting in a dramatically higher boiling point.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -36753,17 +36383,6 @@ The longest carbon chain has 5 carbons (pentane), with two methyl groups on carb
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Carbon Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Carbon's versatility:** Carbon atoms can chain together in countless ways, like LEGO bricks that snap together to form infinite structures. Alkanes are saturated (full of hydrogen); alkenes have double bonds that can react.
@@ -37199,17 +36818,6 @@ If there were a discrepancy, possible reasons would include:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Electrochemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -37721,17 +37329,6 @@ rise and a less exothermic (less negative) $\Delta H$ value, increasing the erro
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Energetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -38249,17 +37846,6 @@ pressure, volume, or addition of inert gas do not affect the value of the equili
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Equilibrium] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -38796,17 +38382,6 @@ available catalyst surface area, not on $[H_{2}O_{2}]$.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Kinetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Speed vs. possibility:** Kinetics asks "how fast?" while thermodynamics asks "is it possible?", a reaction can be thermodynamically favorable but kinetically frozen (like diamond turning to graphite).
@@ -39334,17 +38909,6 @@ cis-trans isomerism to occur, but-1-ene fails this requirement.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Organic Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -39896,17 +39460,6 @@ $$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Stoichiometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -40934,17 +40487,6 @@ Lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concen
 
 5. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
-
-
-```mermaid
-flowchart TD
-    A[Dse Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -42054,16 +41596,6 @@ $\Delta H = -5.936 / 0.100 = -59.4 \mathrm{ kJ/mol}$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[2_Energetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary of Key Equations
 
 | Equation                                                                                          | Use                                |
@@ -42149,26 +41681,6 @@ Atomic structure is like a building: the nucleus is the foundation (protons + ne
 - **[Equilibrium](https://alevel.wyattau.com/chemistry/equilibrium/):** Equilibrium is tested; understanding electron configuration helps predict reaction tendencies.
 - **[Organic Chemistry](https://alevel.wyattau.com/chemistry/organic-chemistry/):** Organic chemistry is covered; carbon's electron configuration explains its bonding versatility.
 - **[Biology Cell Biology](/biology/flashcards-cell-biology/):** Biological molecules depend on atomic structure for their properties and functions.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -43888,16 +43400,6 @@ Fractions. The correct simplest integer ratio is indeed 8:16:3, giving
 $\mathrm{C}_8\mathrm{H}_{16}\mathrm{O}_3$.
 
 </details>
-
-```mermaid
-flowchart TD
-    A[1_Mole Concept And Stoichiometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -45625,16 +45127,6 @@ Alternatives include:
 
 **The key insight:** Functional groups determine reactivity, an alcohol reacts differently from an alkene because the functional group changes the electron distribution.
 
-```mermaid
-flowchart TD
-    A[1_Organic Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table
 
 | Topic                       | Key Concept                                                  | Example                                        |
@@ -46304,27 +45796,6 @@ Step 4: Therefore, X has 3 valence electrons → Group 13 (III)
 - **[Organic Chemistry](https://alevel.wyattau.com/chemistry/organic-chemistry/):** Organic chemistry is covered; carbon's electron configuration explains its bonding versatility.
 - **[Biology Cell Biology](/biology/flashcards-cell-biology/):** Biological molecules depend on atomic structure for their properties.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Redox And Electrochemistry
@@ -46860,17 +46331,6 @@ At the cathode: $\mathrm{Ag^+} + e^- \to \mathrm{Ag}$ (silver deposits on the ob
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[1_Redox And Electrochemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -48921,17 +48381,6 @@ policy, and international trade.
 
 If you get this wrong, revise: [Opportunity Cost](#opportunity-cost)
 
-
-```mermaid
-flowchart TD
-    A[1_Basic Economic Concepts] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 including key models, evidence, and policy implications.
@@ -49607,16 +49056,6 @@ Loss.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[1_Demand Supply And Markets] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -51006,17 +50445,6 @@ costs less there, even accounting for transport and coordination costs.
    internationally qualified accountants (CPA, ACCA), and proximity to mainland Chinese firms
    seeking international expertise.
 
-
-```mermaid
-flowchart TD
-    A[Diag Basic Economic Concepts] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A seesaw of choices:** Economics is about trade-offs, the PPC shows that producing more of one thing means less of another. Opportunity cost is what you give up, not what you spend.
@@ -51645,17 +51073,6 @@ _Conclusion:_ Land supply is a necessary but insufficient tool for reducing prop
 should be combined with demand-side measures (stamp duties, mortgage restrictions, empty tax) and
 institutional reforms (faster approval processes, anti-land-banking measures) to be effective.
 
-
-```mermaid
-flowchart TD
-    A[Diag Demand Supply Markets] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A tug-of-war between buyers and sellers:** Supply and demand is like a dance, when buyers want more (demand rises), prices go up; when sellers offer more (supply rises), prices go down. Equilibrium is where they meet.
@@ -52161,17 +51578,6 @@ Mundell-Fleming result.
 multiplier of 5: $\Delta M = 5 \times (-50) = -HK\$250$ billion. The money supply contracts by
 HK\$250 billion, reinforcing the contractionary effect of the interest rate increase.
 
-
-```mermaid
-flowchart TD
-    A[Diag Fiscal Monetary Policy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A steering wheel for the economy:** Fiscal policy is the government's tax-and-spend lever; monetary policy is the central bank's interest rate lever. Both aim to steer the economy between overheating and recession.
@@ -52609,17 +52015,6 @@ Running down foreign reserves. Equivalently, $S - I \lt 0$ Meaning domestic inve
 Domestic saving. The country is importing capital to finance investment that exceeds domestic
 Savings. This is sustainable if the borrowed funds are invested productively (generating future
 Export capacity), but unsustainable if used for consumption.
-
-
-```mermaid
-flowchart TD
-    A[Diag International Trade] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -53156,17 +52551,6 @@ The government should tax driving first because the DWL from overconsumption of 
 Is far larger than from factory overproduction (\$61.25). This demonstrates that the government
 should prioritise correcting the largest market failures first when resources are limited.
 
-
-```mermaid
-flowchart TD
-    A[Diag Market Failure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **The invisible hand stumbles:** Market failure is like a game with broken rules, the free market produces too much pollution, too few public goods, or too many monopolies because prices don't reflect the full social cost or benefit.
@@ -53702,17 +53086,6 @@ Surplus. The monopoly restricts output to $Q_m \lt Q_c$ So for the units between
 Consumers' marginal benefit exceeds the marginal cost of production. These mutually beneficial
 Trades do not occur, creating a deadweight loss. The monopoly maximises its own profit rather than
 Total social surplus, leading to an underallocation of resources to this good.
-
-
-```mermaid
-flowchart TD
-    A[Diag Market Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -54273,17 +53646,6 @@ deposits. When confidence collapses (as in a bank run), the system breaks down r
 insurance, central bank lending as lender of last resort, and regulatory oversight all serve to
 maintain this confidence -- they are public goods that the private market would underprovide without
 government intervention.
-
-
-```mermaid
-flowchart TD
-    A[Diag Money Banking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -54884,17 +54246,6 @@ have been produced if those resources had been allocated elsewhere. The 200,000 
 been producing consumer goods, new infrastructure, or education. The construction materials could
 have built new factories or housing. The earthquake forced the country to consume its rebuilding
 capacity on restoring the status quo rather than improving living standards.
-
-
-```mermaid
-flowchart TD
-    A[Diag National Income] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -57154,17 +56505,6 @@ _Limitations:_
 
 If you get this wrong, revise: [Supply-Side Policy](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
-
-```mermaid
-flowchart TD
-    A[1_Fiscal And Monetary Policy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 policy, including key models, evidence, and policy implications.
@@ -57238,26 +56578,6 @@ Macroeconomics is about the economy as a whole, like a doctor examining a patien
 - **[Macroeconomics](/economics/flashcards-macroeconomics/):** Macroeconomics covers indicators, policies, and trade in depth.
 - **[Geography](/geography/flashcards-geography/):** Geographic factors (resource distribution, trade routes, climate) influence macroeconomic outcomes.
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Flashcards Microeconomics
@@ -57304,26 +56624,6 @@ Microeconomics studies individual decision-making: consumers maximising utility,
 - **[Fiscal Policy](/economics/diagnostics/diag-fiscal-monetary-policy/):** Fiscal policy is macro; government intervention in markets connects micro and macro analysis.
 - **[Macroeconomics](/economics/flashcards-macroeconomics/):** Macroeconomics covers indicators, policies, and trade; micro principles underpin macro theory.
 - **[Geography](/geography/flashcards-geography/):** Geographic factors (resource location, transport costs) affect supply, demand, and market structures.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -58720,17 +58020,6 @@ Exceeding 300%. This reflects:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[1_International Trade And Finance] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -61292,17 +60581,6 @@ warranties more valuable for firms that plan to stay in the market.
 
 If you get this wrong, revise: [Information Asymmetry](#information-asymmetry)
 
-
-```mermaid
-flowchart TD
-    A[1_Market Failure And Government Intervention] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 underlying theory, practical implementation, and key applications.
@@ -63427,16 +62705,6 @@ If you get this wrong, revise:
 
 </details>
 
-```mermaid
-flowchart TD
-    A[1_Market Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 theory of the firm, including key models, evidence, and policy implications.
@@ -65235,17 +64503,6 @@ diminishes and may eventually turn negative.
 If you get this wrong, revise: [Financial Development](/economics/8-money-and-banking/1_money-and-banking/)
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_Money And Banking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -67054,17 +66311,6 @@ If you get this wrong, revise: [Green GDP and Sustainability](/economics/5-macro
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[1_National Income] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 macroeconomic indicators, including key models, evidence, and policy implications.
@@ -67203,26 +66449,6 @@ Step 2: Inflation rate = $\frac{CPI_{2024} - CPI_{2020}}{CPI_{2020}} \times 100\
 - **[Macroeconomics](/economics/flashcards-macroeconomics/):** Macroeconomics covers indicators, policies, and trade in depth.
 - **[Geography](/geography/flashcards-geography/):** Geographic factors influence trade patterns and economic development.
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Practice Microeconomics
@@ -67334,27 +66560,6 @@ Step 4: Verify: $PED = \frac{(800-1000)/900}{(60-50)/55} = \frac{-0.222}{0.182} 
 - **[Fiscal Policy](/economics/diagnostics/diag-fiscal-monetary-policy/):** Fiscal policy connects micro (tax incidence) to macro (aggregate demand effects).
 - **[Macroeconomics](/economics/flashcards-macroeconomics/):** Macroeconomics covers the economy-wide effects of microeconomic decisions.
 - **[Geography](/geography/flashcards-geography/):** Geographic factors affect market structures, transport costs, and resource distribution.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Geography
 
@@ -67539,17 +66744,6 @@ Hong Kong's fishing industry has declined significantly since the 1970s-1980s du
 pollution, and urban encroachment. Mariculture in sheltered bays produces fish in floating cages,
 limited by water quality, disease, and typhoon damage. Fishing and mariculture now contribute less
 than 0.1% of GDP and support approximately 10,000 workers.
-
-
-```mermaid
-flowchart TD
-    A[Agriculture] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -67785,17 +66979,6 @@ Hong Kong has adopted several climate adaptation measures:
 - **Building standards:** Revision of design standards for structures to account for increased wind
   loads and rainfall intensity.
 
-
-```mermaid
-flowchart TD
-    A[Climate] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Climate is the personality of a place, it determines what grows, what people wear, and how they build their homes. South China's climate is shaped by the monsoon, which is like a seasonal heartbeat, the land breathes in moisture from the ocean in summer and exhales dry air in winter. Tropical cyclones are nature's heat engines, converting warm ocean water into spinning winds. Climate change is like turning up the thermostat on the entire planet, small changes in average temperature produce big changes in extreme weather. For South China, this means more intense typhoons, rising sea levels, and shifting agricultural zones.
@@ -67852,17 +67035,6 @@ URL: https://dse.wyattau.com/geography/diagnostics/diag-climate/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Climate", "url": "https://dse.wyattau.com/geography/diagnostics/diag-climate"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Climate] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Diagnostic Test: Climate
 
@@ -68227,17 +67399,6 @@ obtaining urban residency permits.)
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Population] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A living snapshot:** Population pyramids are like X-rays of a society, they reveal the age structure, showing whether a country is young and growing, or old and declining. The shape tells the story of birth rates, death rates, and migration.
@@ -68451,17 +67612,6 @@ URL: https://dse.wyattau.com/geography/diagnostics/diag-urbanization/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Urbanization", "url": "https://dse.wyattau.com/geography/diagnostics/diag-urbanization"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Urbanization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Diagnostic Test: Urbanization
 
@@ -68770,17 +67920,6 @@ service-economy skills), income inequality (bifurcation between high-skill, high
 low-wage jobs), spatial redistribution of manufacturing to periphery regions, and economic
 vulnerability to financial crises in service-dominated economies.
 
-
-```mermaid
-flowchart TD
-    A[Economic Development] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Economic development is the process of climbing a ladder, each rung represents higher productivity, better jobs, and more choice. South China's Pearl River Delta went from rice paddies to factory floors to tech hubs in a single generation, which is like watching a caterpillar become a butterfly in fast-forward. The Belt and Road Initiative is China building new roads to new markets, like a shopkeeper expanding to new neighbourhoods. The transition from manufacturing to services is inevitable as economies mature, but the challenge is making sure the workers left behind by factories are picked up by offices, not dropped.
@@ -68870,26 +68009,6 @@ Geography connects people to place. Think of it as understanding why things are 
 - **[Urbanization](/geography/urbanization/):** Urbanisation is studied in depth, including patterns, causes, and consequences of urban growth.
 - **[Climate](/geography/diagnostics/diag-climate/):** Climate affects all geography; understanding climate classification and change is essential for many topics.
 - **[History](/history/flashcards-history/):** Historical events (colonialism, wars, trade) shape geographic patterns of development and population distribution.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -69336,17 +68455,6 @@ The government has sought to attract skilled immigrants through the Top Talent P
 simplified procedures for professionals and entrepreneurs. These policies aim to replenish the
 working-age population and address skills shortages.
 
-
-```mermaid
-flowchart TD
-    A[Population] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Population is the heartbeat of a society, it tells you how young or old a place is, whether it is growing or shrinking, and where people are moving. South China's population story is one of dramatic change: from explosive growth during the Mao era to deliberate slowing under the one-child policy, and now facing the consequences of an ageing population. Migration is the great equaliser, it moves people from places with too few opportunities to places with too many, but it also disrupts communities and creates new tensions. The dependency ratio is the invisible burden, when too few workers support too many retirees, the entire social contract is tested.
@@ -69460,27 +68568,6 @@ geography.
 - **[DSE Economics](/economics/):** Economic geography covers trade, development, and resource allocation.
 - **[DSE Biology](/biology/):** Ecosystems, biodiversity, and environmental biology.
 - **[DSE Mathematics](/maths/):** Statistical analysis of climate data, population trends, and GIS mapping.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -69676,17 +68763,6 @@ consumption, balancing housing needs with environmental protection, and managing
 landfill capacity. The government's Sustainable Development Council has adopted indicators across
 economic, social, and environmental dimensions, though critics argue progress has been limited by
 the dominance of economic growth objectives.
-
-
-```mermaid
-flowchart TD
-    A[Resources] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -69905,17 +68981,6 @@ functions. Urban renewal in Hong Kong faces the challenge of balancing:
 The Kowloon Walled City demolition (1993-1994) represents a major earlier urban renewal project,
 converting a densely packed, unregulated settlement into the Kowloon Walled City Park.
 
-
-```mermaid
-flowchart TD
-    A[Urbanization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Cities as living organisms:** Urbanisation is like a growing tree, cities expand outward (sprawl), sometimes people move back inward (re-urbanisation), and new branches (new towns) relieve pressure on the trunk.
@@ -69975,17 +69040,6 @@ URL: https://dse.wyattau.com/history/chinese-revolution/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Chinese Revolution", "url": "https://dse.wyattau.com/history/chinese-revolution"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Chinese Revolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Fall of the Qing Dynasty
 
@@ -70087,27 +69141,6 @@ The Chinese Revolution was a decades-long upheaval that transformed one of the w
 - [The Cold War](/history/cold-war/)
 - [Decolonisation and the Path to 1997](/history/decolonisation/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Cold War
@@ -70121,17 +69154,6 @@ URL: https://dse.wyattau.com/history/cold-war/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Cold War", "url": "https://dse.wyattau.com/history/cold-war"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Cold War] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Origins of the Cold War
 
@@ -70221,27 +69243,6 @@ The Cold War was a staring contest between two superpowers, each pointing nuclea
 - [The Chinese Revolution](/history/chinese-revolution/)
 - [Decolonisation and the Path to 1997](/history/decolonisation/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Decolonisation
@@ -70255,17 +69256,6 @@ URL: https://dse.wyattau.com/history/decolonisation/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Decolonisation", "url": "https://dse.wyattau.com/history/decolonisation"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Decolonisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Decolonisation After World War II
 
@@ -70398,27 +69388,6 @@ Decolonisation was the process of empires dismantling themselves, sometimes volu
 - [The Chinese Revolution](/history/chinese-revolution/)
 - [The Cold War](/history/cold-war/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Diag Cold War
@@ -70432,17 +69401,6 @@ URL: https://dse.wyattau.com/history/diagnostics/diag-cold-war/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Cold War", "url": "https://dse.wyattau.com/history/diagnostics/diag-cold-war"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Cold War] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Diagnostic Test: Cold War
 
@@ -70864,17 +69822,6 @@ became the model for China's market reforms.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Modern China] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A nation in transformation:** Modern China's history is like a river with many twists, from empire to republic to communist state, each era shaped the next through revolution, war, and reform.
@@ -71082,17 +70029,6 @@ URL: https://dse.wyattau.com/history/diagnostics/diag-wwii/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Wwii] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Diagnostic Test: World War II
 
 Answer each question. Check your answers against the key at the end.
@@ -71243,26 +70179,6 @@ History is about understanding cause and effect across time. Think of events as 
 - **[WWII](/history/diagnostics/diag-wwii/):** WWII is a major topic that connects causes (WWI aftermath) to consequences (Cold War, decolonisation).
 - **[Geography](/geography/flashcards-geography/):** Geography provides context for historical events,resource distribution, strategic locations, and climate affect historical outcomes.
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Imperialism
@@ -71276,17 +70192,6 @@ URL: https://dse.wyattau.com/history/imperialism/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Imperialism", "url": "https://dse.wyattau.com/history/imperialism"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Imperialism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## European Imperialism in Asia
 
@@ -71415,27 +70320,6 @@ European imperialism in Asia was like a game of Monopoly where one player keeps 
 - [History](./)
 - [The Chinese Revolution](/history/chinese-revolution/)
 - [The Cold War](/history/cold-war/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -71817,17 +70701,6 @@ The period after 1997 has been marked by significant political, economic, and so
 
 The post-handover period has seen ongoing debates about Hong Kong's autonomy and its relationship with mainland China.
 
-
-```mermaid
-flowchart TD
-    A[Modern Hk] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Modern Hong Kong is a story of transformation under pressure. The handover was like a relay race where the baton was passed mid-sprint, the runners had different techniques but had to keep the race going. The Basic Law was designed as a bridge between two systems, promising that Hong Kong's way of life would remain unchanged for fifty years. The challenge has been keeping that bridge stable when the two banks it connects are pulling in different directions. Economic development shows how a small territory can punch above its weight by being a gateway between East and West, but this advantage depends on maintaining trust on both sides.
@@ -71853,27 +70726,6 @@ Modern Hong Kong is a story of transformation under pressure. The handover was l
 **Confusing the 1967 riots with a pro-democracy movement:** The 1967 riots were pro-Communist, inspired by the Cultural Revolution. They were not about democracy but about workers' rights and colonial governance. Don't conflate them with later pro-democracy movements.
 
 **Assuming the Basic Law was universally accepted:** The drafting process was contentious, with debates over democratic reform, the pace of elections, and the relationship between the NPCSC and Hong Kong courts. Many provisions were contested.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -71941,27 +70793,6 @@ follow the DSE examination style and cover modern China, the Cold War, and world
 - **[Modern China](/history/diagnostics/diag-modern-china/):** Modern China is tested
 - **[WWII](/history/diagnostics/diag-wwii/):** WWII is a major topic
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Wwii
@@ -71975,17 +70806,6 @@ URL: https://dse.wyattau.com/history/wwii/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Wwii", "url": "https://dse.wyattau.com/history/wwii"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Wwii] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Origins of the Pacific War
 
@@ -72075,27 +70895,6 @@ The Pacific War was a collision between an industrialising Japan seeking resourc
 **Confusing the Second Sino-Japanese War with WWII in Europe:** China was fighting Japan from 1937, two years before war began in Europe. The two conflicts merged when Japan attacked Pearl Harbor, but they had separate origins.
 
 **Underestimating the significance of the Battle of Hong Kong:** It was one of the earliest Allied defeats, showing that Britain could not defend its Asian colonies. This influenced post-war decolonisation.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Ict
 
@@ -73141,16 +71940,6 @@ Following factors are also critical:
 
 </details>
 
-```mermaid
-flowchart TD
-    A[1_Computer Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 systems, including key principles and practical applications.
@@ -74004,17 +72793,6 @@ stated Purpose, and allow users to view, correct, and delete their profile data.
 easy-to-use Privacy dashboard.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[3_Data Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -75473,17 +74251,6 @@ $$
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[1_Data Representation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 including key principles and practical applications.
@@ -75649,17 +74416,6 @@ functionality enables intuitive user interfaces on smartphones and tablets.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Computer Systems", "url": "https://dse.wyattau.com/ict/diagnostics/diag-computer-systems"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Computer Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -75917,17 +74673,6 @@ $= 254,016,000 / 8 = 31,752,000 \text{ bytes} \approx 30.27$ MB.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Data Representation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A universal translator:** Data representation is like translating between languages, the same number 42 can be written as 101010 in binary, 52 in octal, or 2A in hexadecimal. Two's complement lets computers do subtraction by adding.
@@ -76067,17 +74812,6 @@ URL: https://dse.wyattau.com/ict/diagnostics/diag-internet-data-communications/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Internet Data Communications", "url": "https://dse.wyattau.com/ict/diagnostics/diag-internet-data-communications"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Internet Data Communications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Internet and Data Communications, Diagnostic Tests
 
@@ -76475,17 +75209,6 @@ opt out and request deletion.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Network Security Social Implications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A castle and its moat:** Network security is like defending a castle, firewalls are the walls, encryption is the secret code, and authentication checks who's trying to enter. Attackers find new paths, defenders build new walls.
@@ -76752,17 +75475,6 @@ embedded object is always available, even without the source file.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Office Automation", "url": "https://dse.wyattau.com/ict/diagnostics/diag-office-automation"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Office Automation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -77054,17 +75766,6 @@ Subject FK)
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Programming Databases", "url": "https://dse.wyattau.com/ict/diagnostics/diag-programming-databases"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Programming Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -77424,16 +76125,6 @@ impaired users can read content.
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Diag Web Multimedia] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A digital canvas:** Web development is like building with digital LEGO, HTML provides the structure, CSS adds the style, and JavaScript brings it to life. The box model is the invisible frame around every element.
@@ -77785,27 +76476,6 @@ ICT fundamentals are like the anatomy of a computer. Just as a doctor needs to k
 - **[Computer Systems](/ict/diagnostics/diag-computer-systems/):** Computer systems examines hardware components, storage, and processing in the DSE syllabus.
 - **[Programming](/ict/diagnostics/diag-programming-databases/):** Programming and databases test logical thinking and data manipulation skills.
 - **[Networking](https://computer-science.wyattau.com/2-systems/networking/):** Networking extends fundamentals into protocols, topologies, and the Internet.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -79257,16 +77927,6 @@ Internet -- Modem -- Router -- Central Switch
 
 </details>
 
-```mermaid
-flowchart TD
-    A[1_Internet And Data Communications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 communications, including key principles and practical applications.
@@ -80162,17 +78822,6 @@ Criminal offence under Section 18 of the PDPO, carrying penalties including a fi
 The doctor could also face disciplinary action from the medical regulatory body.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_Network Security And Social Implications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -81346,17 +79995,6 @@ because they render more on projectors and screens, especially at larger sizes a
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[2_Office Applications] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 depth, including key principles and practical applications.
@@ -82319,17 +80957,6 @@ to work correctly.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[1_Office Automation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 productivity, including key principles and practical applications.
@@ -82423,27 +81050,6 @@ ICT practice questions test your understanding of how data moves through a syste
 - **[Computer Systems](/ict/diagnostics/diag-computer-systems/):** Computer systems examines hardware components, storage, and processing in the DSE syllabus.
 - **[Programming](/ict/diagnostics/diag-programming-databases/):** Programming and databases test logical thinking and data manipulation skills.
 - **[Networking](https://computer-science.wyattau.com/2-systems/networking/):** Networking extends fundamentals into protocols, topologies, and the Internet.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -83392,16 +81998,6 @@ Verification ensures that data entered matches the original source.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[2_Programming And Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -85043,17 +83639,6 @@ END
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[1_Programming Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 theory, practical implementation, and key applications.
@@ -85935,17 +84520,6 @@ the June payroll on the new system while running May on the old system). Verify 
 and then switch completely. This limits risk without the burden of full parallel running.
 
 </details>
-
-
-```mermaid
-flowchart TD
-    A[1_System Lifecycle] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -87133,17 +85707,6 @@ after POST processing, so the Back button returns to the form, not the POST requ
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[1_Web Development And Multimedia] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 multimedia, including key theories, case studies, and management strategies.
@@ -87504,17 +86067,6 @@ $$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[9_Coordinate Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -89057,17 +87609,6 @@ $$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Combinatorics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A choosing ceremony:** Combinatorics is like picking teams, permutations are when order matters (who's captain vs. who's second), combinations are when it doesn't (just who's on the team). The binomial theorem is like expanding a recipe with optional ingredients.
@@ -89927,17 +88468,6 @@ Equation: $y - 2 = 1(x - 1) \implies y = x + 1$ Or $x - y + 1 = 0$.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Coordinate Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A map and a compass:** Coordinate geometry is like plotting locations on a map, every point has an address (x, y), and lines are roads connecting them. The distance formula is how far you'd walk, and slopes tell you how steep the roads are.
@@ -90782,17 +89312,6 @@ In DSE examinations, Sheppard's correction is generally not required unless expl
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Dispersion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -91672,17 +90191,6 @@ Since $f(a) = f(b) \implies a = b$ The function is **injective**.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A machine with input and output:** A function is like a vending machine, put in a specific item (input), get out a specific snack (output). Composition is chaining machines: the output of one becomes the input of the next. The inverse is the undo button.
@@ -92493,17 +91001,6 @@ $$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Geometries] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -93367,17 +91864,6 @@ $x \in (-\infty,\; -4) \cup \left(\dfrac{3}{2},\; \infty\right)$.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Inequalities] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A balance beam with weights:** Inequalities are like a balance, whatever you add or subtract from both sides keeps it balanced, but multiplying or dividing by a negative flips the scale. The critical values are where the expression equals zero, marking the boundaries.
@@ -94222,17 +92708,6 @@ $$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Logarithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Asking "how many times?":** A logarithm asks "how many times must I multiply this base to get that number?", it's the inverse of exponentiation, like asking "what power gives me this result?"
@@ -95066,17 +93541,6 @@ Maximum is $1$ when $v = 2$ I.e. $x^2 = 2$ So $x = \pm\sqrt{2}$.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Polynomials] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A factory assembly line:** Polynomials are like expressions built from repeated operations, the factor theorem tells you which "ingredients" (factors) go into making the polynomial, and division strips away known factors to find what's left.
@@ -95845,17 +94309,6 @@ $$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Probability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -96710,17 +95163,6 @@ The minimum value approaches $1$ but is never attained.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Quadratics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A ball thrown in the air:** A quadratic traces a parabola, the discriminant tells you how many times it crosses the x-axis (0, 1, or 2 roots), and completing the square reveals the vertex (highest or lowest point).
@@ -97540,17 +95982,6 @@ $$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Sequences Series] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -98386,17 +96817,6 @@ $$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Trigonometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -99853,17 +98273,6 @@ $\sigma^2 = 1.079 \times 400 = 431.6$. $\sigma = \sqrt{431.6} \approx 20.8$.
   $\sigma^2 = \frac{\sum f x^2}{\sum f} - \bar{x}^2$ for grouped data with class midpoints. **Fix:**
   Use midpoints $x$ and frequencies $f$; do not use class boundaries directly.
 
-
-```mermaid
-flowchart TD
-    A[12_Dispersion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Mean $\bar{x} = \frac{\sum x_i}{n}$; variance $\sigma^2 = \frac{\sum(x_i - \bar{x})^2}{n}$;
@@ -99966,27 +98375,6 @@ Mathematics compulsory part is about building a toolkit of techniques. Each form
 - **[Quadratics](/maths/diagnostics/diag-quadratics/):** Quadratics appear in equations, inequalities, coordinate geometry, and word problems throughout the exam.
 - **[Trigonometry](/maths/diagnostics/diag-trigonometry/):** Trigonometry is covered extensively, including identities, equations, and applications in triangles.
 - **[Physics Kinematics](/physics/flashcards-kinematics/):** Kinematics problems directly apply quadratic equations and trigonometric ratios from the compulsory maths syllabus.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -100970,16 +99358,6 @@ $f(-1) = a - b + 5 = 10 \implies a - b = 5 \quad \text{(ii)}$.
 
 $f(x) = 2x^2 - 3x + 5$.
 
-```mermaid
-flowchart TD
-    A[1_Functionsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 key theorems, methods, and problem-solving approaches.
@@ -101266,16 +99644,6 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[2_Functions Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -103269,17 +101637,6 @@ right-angled at $A$.
    using previous work.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/geometries.md
 
-
-```mermaid
-flowchart TD
-    A[8_Geometries] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -104411,17 +102768,6 @@ requires using previous work.
    sides or dividing by variables).
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/inequalities.md
 
-
-```mermaid
-flowchart TD
-    A[5_Inequalities] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -105392,16 +103738,6 @@ Answer: $x = \sqrt{\dfrac{a}{a - 1}}$ for $a > 1$.
   and denominator use the same new base. **Fix:** Write the formula explicitly:
   $\log_a b \cdot \log_c a = \log_c b$.
 
-```mermaid
-flowchart TD
-    A[7_Logarithmicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - $\log_b a = c \Leftrightarrow b^c = a$. Domain of $\log_b x$: $x > 0$, $b > 0$, $b \neq 1$.
@@ -105814,17 +104150,6 @@ $$
 - Errors in substitution for integration by substitution (forgetting to change the limits for
   definite integrals or to convert $dx$ to $du$)
 
-
-```mermaid
-flowchart TD
-    A[1_M1_Algebra And Calculus] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Mathematical thinking is about abstraction and pattern recognition. Numbers, shapes, and equations are tools for modelling reality - from calculating interest to predicting weather. The beauty of mathematics is that once a pattern is discovered, it can be applied universally. This connects algebra, geometry, and calculus into a coherent framework for understanding quantity, space, and change.
@@ -106206,17 +104531,6 @@ $$
 - Forgetting to check the discriminant condition when determining intersection types
 - Errors in the sign when using the translation formula for conics
 
-
-```mermaid
-flowchart TD
-    A[2_M2_Coordinate Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Mathematics is the study of structure, quantity, and change. Algebra provides symbols for unknown quantities, geometry describes spatial relationships, and calculus captures motion and growth. Together, these branches form a powerful toolkit for solving problems that range from calculating areas to predicting population dynamics. Mathematical literacy is essential for science, technology, and informed citizenship.
@@ -106557,17 +104871,6 @@ Hands with at least one ace: $2598960 - 1712304 = 886656$.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[13_Permutations And Combinations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -108508,17 +106811,6 @@ $$
 2. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/polynomials.md
 
-
-```mermaid
-flowchart TD
-    A[4_Polynomials] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -108653,27 +106945,6 @@ Step 4: Answer: $a_1 = 5$, $d = 3$
 - **[Quadratics](/maths/diagnostics/diag-quadratics/):** Quadratics are tested in equations, inequalities, coordinate geometry, and word problems.
 - **[Trigonometry](/maths/diagnostics/diag-trigonometry/):** Trigonometry is covered extensively, including identities and equations in the compulsory syllabus.
 - **[Physics Kinematics](/physics/flashcards-kinematics/):** Kinematics problems directly apply quadratic equations and trigonometric ratios from compulsory maths.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -109737,16 +108008,6 @@ denominator cannot be zero).
 1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/probability.md
 
-```mermaid
-flowchart TD
-    A[11_Probability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -110001,16 +108262,6 @@ $$
 - Using $\alpha + \beta = b/a$ instead of $\alpha + \beta = -b/a$. Note the negative sign.
 
 ---
-
-```mermaid
-flowchart TD
-    A[3_Quadraticsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -111753,16 +110004,6 @@ and Series with other DSE mathematics topics to test synthesis under exam condit
 See for instructions on
 self-marking and building a personal test matrix.
 
-```mermaid
-flowchart TD
-    A[6_Sequences And Seriesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 including key theorems, methods, and problem-solving approaches.
@@ -112671,17 +110912,6 @@ way around.
 1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/trigonometry.md
 
-
-```mermaid
-flowchart TD
-    A[10_Trigonometryx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -112714,17 +110944,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electrical Circuits", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Electrical Circuits] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Electrical Circuits, Diagnostic Tests
 
@@ -113213,17 +111432,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Electricity Magnetism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Electricity and Magnetism, Diagnostic Tests
 
 ## Unit Tests
@@ -113676,17 +111884,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-energy-work/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy Work", "url": "https://dse.wyattau.com/physics/diagnostics/diag-energy-work"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Energy Work] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Energy and Work, Diagnostic Tests
 
@@ -114154,17 +112351,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-forces-motion/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Forces Motion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Forces and Motion, Diagnostic Tests
 
 ## Unit Tests
@@ -114626,17 +112812,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-heat-gases/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Heat Gases", "url": "https://dse.wyattau.com/physics/diagnostics/diag-heat-gases"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Heat Gases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Heat and Gases, Diagnostic Tests
 
@@ -115158,17 +113333,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-mechanics/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Mechanics, Diagnostic Tests
 
 ## Unit Tests
@@ -115621,17 +113785,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Physics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Nuclear Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Nuclear Physics, Diagnostic Tests
 
@@ -116156,17 +114309,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-optics/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Optics, Diagnostic Tests
 
 ## Unit Tests
@@ -116628,17 +114770,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-waves-optics/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Waves Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Waves and Optics, Diagnostic Tests
 
 ## Unit Tests
@@ -117073,17 +115204,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/diag-waves-sound/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Sound", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-sound"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Diag Waves Sound] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Waves and Sound, Diagnostic Tests
 
@@ -118507,17 +116627,6 @@ If you get this wrong, revise: Optics / Curved Mirrors
 4. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
-
-```mermaid
-flowchart TD
-    A[Dse Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -118998,16 +117107,6 @@ The voltmeter draws current and reduces the measured voltage (loading effect).
   circuit includes both external and internal resistances.
 
 ---
-
-```mermaid
-flowchart TD
-    A[1_Electrical Circuitsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -120833,16 +118932,6 @@ $$
 
 ---
 
-```mermaid
-flowchart TD
-    A[2_Electricity And Magnetismx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table
 
 | Topic                     | Key Formula                                          | Key Concept                            |
@@ -122407,16 +120496,6 @@ Total energy: $E_{\mathrm{total}} = mgh = 0.5 \times 9.81 \times 0.201 = 0.986 \
 
 ---
 
-```mermaid
-flowchart TD
-    A[3_Energy And Workx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table
 
 | Topic               | Key Formula                               | Key Concept                        |
@@ -123379,27 +121458,6 @@ Think of kinematics as the "grammar" of motion. Just as grammar tells you how wo
 - **[Electricity](/physics/diagnostics/diag-electrical-circuits/):** Circuit analysis uses similar mathematical techniques (rate of change, area under curves) as kinematics graphs.
 - **[Mathematics Compulsory](/maths/flashcards-compulsory/):** Quadratic equations and trigonometry from maths are directly applied in kinematics problems.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Forces And Motion
@@ -123943,16 +122001,6 @@ $$
   **name** given to the net inward force, not an additional force.
 
 ---
-
-```mermaid
-flowchart TD
-    A[1_Forces And Motionx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -127235,16 +125283,6 @@ $$
 T_f = 22.2^\circ\mathrm{C}
 $$
 
-```mermaid
-flowchart TD
-    A[1_Heat And Gasesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 experimental methods, and applications relevant to the specification.
@@ -128146,17 +126184,6 @@ Total stopping distance $= 12 + 33.3 = 45.3\ \text{m}$.
 - **Forgetting that horizontal velocity is constant:** In projectile motion, there is no horizontal acceleration (air resistance is neglected in DSE). Do not apply $v = u + at$ to the horizontal component.
 - **Confusing speed and velocity:** Speed is a scalar; velocity is a vector. A ball thrown vertically upward has constant acceleration (downward) even at the highest point where its velocity is momentarily zero.
 
-
-```mermaid
-flowchart TD
-    A[Kinematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Kinematics covers the distinction between scalars and vectors, the equations of uniformly accelerated motion (suvat), projectile motion (independent horizontal and vertical components), stopping distance (thinking and braking components), and graphical interpretations of motion (displacement-time and velocity-time graphs). The acceleration due to gravity ($g \approx 9.81\ \mathrm{m\,s^{-2}}$) is constant for free fall near Earth's surface.
@@ -128587,16 +126614,6 @@ Power loss: $P_{\mathrm{loss}} = P_{\mathrm{in}} - P_{\mathrm{out}} = 10.0 - 9.5
 - Confusing magnetic flux density $B$ with magnetic flux $\Phi$. Remember $\Phi = BA\cos\theta$.
 
 ---
-
-```mermaid
-flowchart TD
-    A[3_Magnetism And Electromagnetismx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -130448,16 +128465,6 @@ v = \sqrt{5.97 \times 10^7} = 7727 \mathrm{ m/s}
 $$
 
 ---
-
-```mermaid
-flowchart TD
-    A[2_Mechanics Depthx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -134012,16 +132019,6 @@ substance.
    calculations.
    > > > > > > > Stashed changes:docs/docs_dse/Physics/nuclear-physics.md
 
-```mermaid
-flowchart TD
-    A[1_Nuclear Physicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -134468,16 +132465,6 @@ Light.
   lenses.
 
 ---
-
-```mermaid
-flowchart TD
-    A[3_Opticsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -135675,27 +133662,6 @@ Step 4: Total distance = $25 + 100 + 20 = 145$ m
 - **[Electricity](/physics/diagnostics/diag-electrical-circuits/):** Circuit analysis uses similar mathematical techniques (rate of change, area under curves).
 - **[Mathematics Compulsory](/maths/flashcards-compulsory/):** Quadratic equations and trigonometry are directly applied in kinematics problems.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Waves And Optics
@@ -136211,16 +134177,6 @@ After the first filter (intensity halved): $I_1 = 100 \mathrm{ W/m}^2$
 After the second filter: $I_2 = I_1\cos^2 60^\circ = 100 \times 0.25 = 25 \mathrm{ W/m}^2$
 
 ---
-
-```mermaid
-flowchart TD
-    A[2_Waves And Opticsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 
@@ -137752,16 +135708,6 @@ $$
 - Forgetting that a pipe closed at one end only supports odd harmonics.
 
 ---
-
-```mermaid
-flowchart TD
-    A[1_Waves And Soundx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table
 

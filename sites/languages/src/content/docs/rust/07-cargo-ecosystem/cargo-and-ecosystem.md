@@ -957,16 +957,6 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
-```mermaid
-flowchart TD
-    A[Cargo And Ecosystem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Cargo is Rust's build system and package manager, handling compilation, dependency resolution, and publishing. Crates.io hosts the ecosystem with semantic versioning. Workspaces enable monorepo structures. Cargo features allow conditional compilation, and build scripts handle code generation. The ecosystem's emphasis on small, composable crates means most functionality comes from libraries rather than the standard library, making dependency management a core skill.

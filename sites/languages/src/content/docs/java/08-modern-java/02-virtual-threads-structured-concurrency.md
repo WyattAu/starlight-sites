@@ -850,17 +850,6 @@ public UserData fetchUserData(String userId) throws Exception {
 - [Class Loading and Memory Model](/java/09-jvm-internals/01-class-loading-memory/) -- how the JVM
   manages threads and memory
 
-
-```mermaid
-flowchart TD
-    A[02 Virtual Threads Structured Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of virtual threads and structured concurrency, including

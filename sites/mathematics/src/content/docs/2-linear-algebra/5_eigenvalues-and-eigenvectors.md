@@ -415,16 +415,6 @@ $\blacksquare$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[5_Eigenvalues And Eigenvectors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Matrices](/2-linear-algebra/3_matrices/)**: The characteristic polynomial whose roots are eigenvalues is defined via the determinant of $A - \lambda I$.

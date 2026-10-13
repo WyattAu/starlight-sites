@@ -481,17 +481,6 @@ community pride.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[1_Changing Places] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Places are more than physical spaces, they have subjective meanings, identities, and emotional

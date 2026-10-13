@@ -8,7 +8,6 @@ tags:
 description: "UNIVERSITY Mathematics practice problems: Complex Analysis Practice (Interactive). Comprehensive study material with definitions, examples, and assessment"
 ---
 
-
 import PracticeProblem from "@components/PracticeProblem";
 
 ## Intuition
@@ -40,7 +39,6 @@ the explanation.
 
 ### Complex Integration and Residue Theory
 
-
 <PracticeProblem client:only="solid-js" question={"Find the residue of $f(z) = \\dfrac{e^z}{(z-1)^2(z+2)}$ at $z = 1$."} options={['$\\dfrac{e}{3}$', '$\\dfrac{2e}{9}$', '$\\dfrac{e}{9}$', '$\\dfrac{2e}{3}$']} correctAnswer={1} explanation={"The pole at $z = 1$ is of order 2. The residue formula gives $\\operatorname{Res}(f, 1) = \\lim_{z \\to 1} \\frac{d}{dz}\\left[\\frac{e^z}{z+2}\\right]$. By the quotient rule this is $\\frac{e^z(z+2) - e^z}{(z+2)^2}$ evaluated at $z = 1$: $\\frac{e \\cdot 3 - e}{9} = \\frac{2e}{9}$."} difficulty="medium" />
 
 <PracticeProblem client:only="solid-js" question={"Using the residue theorem, evaluate $\\displaystyle\\int_0^{2\\pi} \\frac{d\\theta}{5 + 4\\cos\\theta}$."} options={['$\\dfrac{2\\pi}{3}$', '$\\dfrac{\\pi}{3}$', '$\\dfrac{2\\pi}{5}$', '$\\pi$']} correctAnswer={0} explanation={"Substitute $z = e^{i\\theta}$, so $d\\theta = dz/(iz)$ and $\\cos\\theta = (z + z^{-1})/2$. The integral becomes $\\frac{1}{i}\\oint_{|z|=1} \\frac{dz}{2z^2 + 5z + 2}$. The poles inside the unit circle are at $z = -1/2$; the residue there gives $\\frac{2\\pi}{\\sqrt{5^2 - 4^2}} = \\frac{2\\pi}{3}$."} difficulty="hard" />
@@ -70,23 +68,3 @@ the explanation.
 - **[Real Analysis](/real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **Practice:** Practice problems for revision.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

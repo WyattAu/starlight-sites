@@ -1199,17 +1199,6 @@ URL: https://civics-tests.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The US civics test is a mandatory part of the naturalisation process for anyone seeking American citizenship. Administered by US Citizenship and Immigration Services (USCIS), the civics test evaluates your knowledge of US history, government, and civic principles. The test is oral: a USCIS officer asks you up to 10 questions from a published list of 100, and you must answer at least 6 correctly to pass.
@@ -2660,16 +2649,6 @@ Good luck with your studies!
 ## Citizenship Process
 URL: https://civics-tests.wyattau.com/us-citizenship/citizenship-process/
 
-```mermaid
-flowchart TD
-    A[Citizenship Process] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Overview
 
 The US naturalisation process allows permanent residents to become US citizens.
@@ -2799,44 +2778,12 @@ materials and practice tests. Focus on questions John finds difficult.
 - [Civics Questions](/us-citizenship/civics-questions/) - Practice all 100 questions
 - [Practice Test](/us-citizenship/practice-test/) - Test your knowledge
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Civics Questions
 URL: https://civics-tests.wyattau.com/us-citizenship/civics-questions/
 
 # US Civics Questions
-
-
-```mermaid
-flowchart TD
-    A[Civics Questions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Overview
 
@@ -2994,44 +2941,12 @@ The US citizenship test includes 100 civics questions. You must answer 6 out of 
 - [US Citizenship English Test](/us-citizenship/english-test/)
 - [Civics and Citizenship Tests](..)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## English Test
 URL: https://civics-tests.wyattau.com/us-citizenship/english-test/
 
 # US Citizenship English Test
-
-
-```mermaid
-flowchart TD
-    A[English Test] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Overview
 
@@ -3161,27 +3076,6 @@ The English test has three parts: speaking, reading, and writing. You must demon
 - [Us Citizenship](./)
 - [US Civics Questions](/us-citizenship/civics-questions/)
 - [Civics and Citizenship Tests](..)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -3387,24 +3281,3 @@ covers all 100 questions organised by category.
 
 - [Civics Questions](/us-citizenship/civics-questions/) - All 100 questions
 - [US Citizenship Process](/us-citizenship/citizenship-process/) - Overview
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

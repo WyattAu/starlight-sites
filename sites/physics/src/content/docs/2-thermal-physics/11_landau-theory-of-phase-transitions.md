@@ -187,17 +187,6 @@ The susceptibility above $T_c$: $\chi = 1/a = 1/[0.5(T - 400)]$. At $T = 500$ K,
 
 The specific heat jump at $T_c$: $\Delta C = T_c a_0^2/(2b) = 400 \times 0.25/(4) = 25$.
 
-
-```mermaid
-flowchart TD
-    A[11_Landau Theory Of Phase Transitions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Landau theory is a mathematical framework for understanding how systems choose between ordered and disordered states. The order parameter tracks the degree of ordering, like magnetization in a magnet. Above the critical temperature, thermal fluctuations destroy order. Below it, the free energy landscape develops two minima, and the system must choose one, breaking symmetry. The theory is powerful because it makes few assumptions about microscopic details, capturing universal features of continuous phase transitions through simple polynomial expansions.
@@ -211,23 +200,3 @@ Landau theory is a mathematical framework for understanding how systems choose b
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -18,17 +18,6 @@ description: "Study notes for Organic with worked examples, practice problems, a
 
 HSC chemistry study notes - Organic
 
-
-```mermaid
-flowchart TD
-    A[Organic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 ### Functional Groups

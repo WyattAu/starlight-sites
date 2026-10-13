@@ -680,16 +680,6 @@ let handler: CompletionHandler = { result in
 }
 ```
 
-```mermaid
-flowchart TD
-    A[1_Variables And Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Swift's type system provides strong safety guarantees through explicit optionals, type inference,

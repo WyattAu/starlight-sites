@@ -826,16 +826,6 @@ Dependent names are names that depend on a template parameter, and the compiler 
 - [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
 - [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
 
-```mermaid
-flowchart TD
-    A[4_Dependent_Names] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dependent names and two-phase lookup, including underlying

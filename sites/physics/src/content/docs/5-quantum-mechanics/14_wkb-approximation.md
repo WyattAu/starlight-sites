@@ -183,17 +183,6 @@ Solving: $E_0 \approx \left(\frac{3\pi\hbar}{8} \frac{\Gamma(1/4)^2}{\sqrt{\pi}}
 The exact result is $E_0 = 1.060 \hbar \sqrt{\alpha/m} a^2$, so WKB is within 4% for the ground
 state and improves for higher $n$. $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[14_Wkb Approximation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 WKB is the semiclassical bridge between classical and quantum mechanics. When the potential changes slowly compared to the wavelength, the wavefunction behaves like a classical particle with a locally varying momentum. The amplitude adjusts to conserve probability current, getting larger where the particle moves slowly. At turning points where the classical kinetic energy vanishes, the wavefunction transitions from oscillating to decaying, like a wave approaching a cliff. The Bohr-Sommerfeld quantization condition says the phase accumulated over one complete orbit must be a multiple of pi, like a standing wave on a string.
@@ -209,23 +198,3 @@ WKB is the semiclassical bridge between classical and quantum mechanics. When th
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

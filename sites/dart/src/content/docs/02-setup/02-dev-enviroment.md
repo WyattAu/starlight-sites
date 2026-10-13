@@ -19,17 +19,6 @@ categories:
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[02 Dev Enviroment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Virtual Devices
 
 Virtual devices can be created by opening the command-palette and selecting
@@ -49,7 +38,6 @@ Android devices can be use for running builds by enabling `USB debugging` from
 
 Now when selecting VSCode/command-palette/`Flutter: Select Device`. The identifier of the phone will
 Appear.
-
 
 ## IDE Setup
 
@@ -129,23 +117,3 @@ get` to manage dependencies and `dart analyze` to catch issues early.
 - [Entry Point](/03-basics/01-entrypoint/) - The main() function
 - [Variables and Types](/03-basics/02-variables/) - Type system
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

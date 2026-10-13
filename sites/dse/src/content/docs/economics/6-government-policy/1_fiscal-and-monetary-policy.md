@@ -1541,17 +1541,6 @@ _Limitations:_
 
 If you get this wrong, revise: [Supply-Side Policy](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
-
-```mermaid
-flowchart TD
-    A[1_Fiscal And Monetary Policy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 policy, including key models, evidence, and policy implications.

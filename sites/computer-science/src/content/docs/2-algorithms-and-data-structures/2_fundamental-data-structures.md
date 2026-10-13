@@ -540,16 +540,6 @@ for sparse graphs ($E \ll V^2$). For example, BFS with an adjacency matrix takes
 adjacency lists takes $O(V + E)$.
 :::
 
-```mermaid
-flowchart TD
-    A[2_Fundamental Data Structures] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Fundamental data structures include arrays, linked lists, stacks, queues, hash tables, and trees. Each excels at different operations: stacks for LIFO access, queues for FIFO processing, hash tables for O(1) lookup, trees for sorted data. Understanding these building blocks lets you compose complex data structures and select the right one for your access patterns.

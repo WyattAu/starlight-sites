@@ -15,17 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
@@ -79,7 +68,6 @@ class Item(ABC):
     def calculate_late_fee(self, days):
         pass
 
-
 class Book(Item):
     def __init__(self, title, item_id, author):
         super().__init__(title, item_id)
@@ -87,7 +75,6 @@ class Book(Item):
 
     def calculate_late_fee(self, days):
         return days * 0.50
-
 
 class DVD(Item):
     def __init__(self, title, item_id, duration):
@@ -97,7 +84,6 @@ class DVD(Item):
     def calculate_late_fee(self, days):
         return days * 1.00
 
-
 class Magazine(Item):
     def __init__(self, title, item_id, issue_number):
         super().__init__(title, item_id)
@@ -105,7 +91,6 @@ class Magazine(Item):
 
     def calculate_late_fee(self, days):
         return days * 0.25
-
 
 items = [
     Book("1984", "B001", "Orwell"),

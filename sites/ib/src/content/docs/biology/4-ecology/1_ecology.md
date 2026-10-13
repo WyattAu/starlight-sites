@@ -1692,17 +1692,6 @@ Beavers (ecosystem engineers that create wetland habitat); elephants (modify sav
 Creating grasslands for other species); figs (keystone resources in tropical forests, providing food
 for many species when other fruits are scarce).
 
-
-```mermaid
-flowchart TD
-    A[1_Ecology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the biological principles of ecology, including key concepts, experimental

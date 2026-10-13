@@ -456,17 +456,6 @@ $\blacksquare$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[5_Differentiability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Continuity](/3-real-analysis/4_continuity/)**: Differentiability implies continuity, and the mean value theorem connects local derivative behaviour to global function properties.

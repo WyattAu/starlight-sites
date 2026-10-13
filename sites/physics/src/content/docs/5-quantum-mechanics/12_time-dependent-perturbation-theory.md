@@ -165,17 +165,6 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 | Two-photon | No parity constraint | $A \propto I^2$ | Depends on intensity |
 | Forbidden (all channels) | None allowed | $A = 0$ | Metastable if no decay path |
 
-
-```mermaid
-flowchart TD
-    A[12_Time Dependent Perturbation Theory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Time-dependent perturbation theory treats external influences as small disturbances to a quantum system. When a system is subjected to a time-varying field, transitions between energy levels become possible. The transition rate depends on how much the perturbation overlaps with the initial and final states, measured by matrix elements. Fermi's golden rule packages this into a simple formula: the transition rate is proportional to the square of the matrix element times the density of final states. This explains atomic transitions, photon absorption, and spontaneous emission, forming the basis of spectroscopy and laser physics.
@@ -191,23 +180,3 @@ Time-dependent perturbation theory treats external influences as small disturban
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

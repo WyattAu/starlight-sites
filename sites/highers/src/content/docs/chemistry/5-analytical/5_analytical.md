@@ -655,17 +655,6 @@ $$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[5_Analytical] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Analytical Techniques
 
 | Technique            | Information obtained        | Sensitivity  | Sample requirement |

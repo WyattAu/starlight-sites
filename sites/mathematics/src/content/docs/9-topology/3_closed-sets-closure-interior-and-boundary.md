@@ -148,17 +148,6 @@ In the language of closure: the closure of the polynomials in the sup-norm topol
 | $\partial A$ | $\partial A = \partial(X \setminus A)$ | $\partial(A \cup B) \subseteq \partial A \cup \partial B$ | $\partial(A \cap B) \subseteq \partial A \cup \partial B$ |
 | Dense | $\overline{A} = X$ | $A$ intersects every nonempty open set | $A^c$ has empty interior |
 
-
-```mermaid
-flowchart TD
-    A[3_Closed Sets Closure Interior And Boundary] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Think of a set as a region of space with fuzzy edges. The interior is the core where you can move freely in any direction. The closure adds back all the limit points that were arbitrarily close. The boundary is the fuzzy edge itself, where every neighborhood contains both points inside and outside the set. Dense sets are like scattered dust that gets arbitrarily close to every point, even though the dust itself has no interior. These operations form a dual pair: closure and interior are negations of each other when applied to complements, reflecting the fundamental symmetry between open and closed sets.
@@ -175,23 +164,3 @@ Think of a set as a region of space with fuzzy edges. The interior is the core w
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

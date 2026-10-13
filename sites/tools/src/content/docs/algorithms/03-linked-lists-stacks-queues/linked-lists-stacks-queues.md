@@ -805,16 +805,6 @@ Algorithm). The workaround, insert a new entry and ignore stale entries, works b
 Heap size. For algorithms that require frequent decrease-key, a Fibonacci heap provides $O(1)$
 Amortised decrease-key, but has large constant factors and is rarely used in practice.
 
-```mermaid
-flowchart TD
-    A[Linked Lists Stacks Queues] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of linked lists, stacks, and queues, including underlying

@@ -141,17 +141,6 @@ $f_n \rightharpoonup 0$. Note that $\|f_n\|_2 = \sqrt{\pi}$, so $f_n$ does not c
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-```mermaid
-flowchart TD
-    A[6_Weak And Weak Convergence] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Weak convergence generalises the idea of convergence beyond the strong topology. In infinite dimensions, bounded sequences need not converge in norm, but they may converge weakly: a sequence converges weakly if every continuous linear functional applied to it produces a convergent sequence of numbers. This is a weaker requirement, like asking whether all measurements stabilise rather than whether the object itself stabilises. The Banach-Alaoglu theorem guarantees that bounded sets in dual spaces are weak-star compact, providing the existence of convergent subsequences. Weak convergence is the natural mode of convergence in the calculus of variations and in PDE theory, where direct methods extract weakly convergent subsequences from minimising sequences.
@@ -172,23 +161,3 @@ If $x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$ (uniform boundedness 
    convergent subsequence.
 5. Let $T : X \to Y$ be compact. Prove that if $x_n \rightharpoonup 0$, then $T x_n \to 0$.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

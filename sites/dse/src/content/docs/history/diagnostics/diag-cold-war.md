@@ -13,17 +13,6 @@ description: "Diagnostic test notes for dse Diagnostic Test: Cold War covering k
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Diag Cold War] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Diagnostic Test: Cold War
 
 Answer each question. Check your answers against the key at the end.

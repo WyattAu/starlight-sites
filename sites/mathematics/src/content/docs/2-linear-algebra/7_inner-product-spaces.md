@@ -303,16 +303,6 @@ The Cauchy-Schwarz inequality is the foundation: it says the "correlation" betwe
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[7_Inner Product Spaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)**: The spectral theorem for symmetric matrices guarantees an orthonormal eigenbasis, which is an inner product space concept.

@@ -127,17 +127,6 @@ Consider an HTTP request traversing three networks: the client LAN (Ethernet), a
 
 At each hop, only the relevant layer headers are processed. The HTTP payload is untouched from client to server.
 
-
-```mermaid
-flowchart TD
-    A[1_Network Models] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Network models are the organisational charts of data communication. The OSI model separates concerns into seven layers, each with a specific job. Think of it as a relay race: each layer passes the baton (data) to the next, adding its own header (instructions). The TCP/IP model is the practical version used on the internet. Encapsulation is the key concept: each layer wraps the data from the layer above, like nesting dolls. Understanding layers helps you debug: a cable problem is Layer 1, an IP issue is Layer 3, and a web bug is Layer 7.
@@ -148,23 +137,3 @@ Network models are the organisational charts of data communication. The OSI mode
 - [Network Layer](/3-computer-networks/4_network-layer/)
 - [Transport Layer](/3-computer-networks/5_transport-layer/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

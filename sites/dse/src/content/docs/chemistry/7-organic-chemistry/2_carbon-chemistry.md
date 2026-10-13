@@ -677,17 +677,6 @@ Undigested and acts as dietary fibre.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[2_Carbon Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table
 
 | Concept              | Key Point                                                          |

@@ -9,17 +9,6 @@ tags:
 
 # A2 Elementary Level
 
-
-```mermaid
-flowchart TD
-    A[A2 Elementary] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Overview
 
 The A2 level is the second level of CEFR. At this level, you can understand sentences and frequently used expressions related to areas of immediate relevance.
@@ -142,23 +131,3 @@ Describe your symptoms to a doctor:
 - [A1 Beginner](/cefr-levels/a1-beginner/)
 - [B1 Intermediate Level](/cefr-levels/b1-intermediate/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

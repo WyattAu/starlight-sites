@@ -634,17 +634,6 @@ URL: https://leaving-cert.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The Leaving Certificate is the state examination taken by students in Ireland at the end of secondary school, typically at age 17–18. It is the primary qualification used for university admissions in Ireland and is recognised by universities across the UK and internationally. Students typically sit 6–7 subjects, with the best 6 counting for their CAO points score.
@@ -1828,17 +1817,6 @@ Production at different light intensities.
 - The plant may deplete the $\mathrm{CO_2$ in the water. Using sodium hydrogen carbonate solution
   ensures $\mathrm{CO_2$ is not limiting.
 
-
-```mermaid
-flowchart TD
-    A[1_Cell] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the biological principles of cell biology, including key concepts, experimental
@@ -2241,17 +2219,6 @@ and starch, volume, pH).
 **Why it matters:** Understanding cell biology explains how organisms grow, heal, fight disease, and respond to their environment. It is the foundation for medicine, genetics, and biotechnology.
 
 **The key insight:** The cell membrane is not a passive wall, it is a dynamic, selectively permeable barrier that actively controls what enters and leaves the cell.
-
-
-```mermaid
-flowchart TD
-    A[Diag Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -3030,17 +2997,6 @@ Phosphates), leading to excessive growth of algae and subsequent oxygen depletio
 - Using phosphate-free detergents.
 - Reducing livestock density near waterways.
 
-
-```mermaid
-flowchart TD
-    A[2_Ecology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the biological principles of ecology, including key concepts, experimental
@@ -3811,17 +3767,6 @@ Early embryonic stages of vertebrates are remarkably similar, suggesting a commo
 Example, all vertebrate embryos have pharyngeal pouches (which develop into gills in fish and into
 Parts of the ear and throat in mammals) and a post-anal tail.
 
-
-```mermaid
-flowchart TD
-    A[3_Genetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the biological principles of genetics and evolution, including key concepts,
@@ -4578,17 +4523,6 @@ The menstrual cycle is controlled by four hormones:
    second half of the cycle. It inhibits FSH and LH production. If the egg is not fertilised, the
    corpus luteum degenerates, progesterone levels drop, and the uterine lining is shed
    (menstruation).
-
-
-```mermaid
-flowchart TD
-    A[5_Human Body] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5699,16 +5633,6 @@ Directions in response to the same gravitational stimulus.
 8. **Root hair cells vs root hairs** -- a root hair is a single extension of one epidermal cell.
    Root hairs are found in the zone of maturation, not the zone of cell division.
 
-```mermaid
-flowchart TD
-    A[4_Plant Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Plant Hormones and Their Effects (HL)
 
 | Hormone       | Promotes                                               | Inhibits                              | Practical use                                                                   |
@@ -5995,27 +5919,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Biology Diagnostic: Cell Biology](/biology/diagnostics/diag-cell-biology/):** Extended diagnostic tests for deeper assessment of cell biology concepts.
 - **[Flashcards: Biology](/flashcards-biology/):** Interactive flashcards for quick revision of key biology terminology and concepts.
 - **[Ecology](/biology/2-ecology/2_ecology/):** Detailed notes on ecological topics including carbon cycles and food chains covered in the practice problems.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Chemistry
 
@@ -6793,17 +6696,6 @@ Partially dissociated.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[4_Acids Bases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table: Acid-Base Concepts
 
@@ -7743,17 +7635,6 @@ And scanning electron microscopy (SEM) are two common types.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[1_Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary: Atomic Structure Key Relationships
 
@@ -8742,17 +8623,6 @@ In reality, all four S-O bonds are equivalent due to resonance.
 5. Explain why ice is less dense than liquid water, referring to hydrogen bonding and the structure
     of the ice lattice.
 
-
-```mermaid
-flowchart TD
-    A[2_Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential chemistry of bonding, including key reactions, underlying theories,
@@ -9140,17 +9010,6 @@ expected properties. The element has not yet been synthesised, so the claim rema
 **Why it matters:** Understanding atomic structure explains the periodic table's organisation, why elements in the same group behave similarly, and how chemical bonds form.
 
 **The key insight:** The periodic table is a map of electron configurations, each row adds a new electron shell, and each column shares the same valence electron arrangement.
-
-
-```mermaid
-flowchart TD
-    A[Diag Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -10427,17 +10286,6 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[5_Organic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Key Organic Reactions
 
 | Reactant                  | Reagent                             | Product               | Reaction type          |
@@ -10858,27 +10706,6 @@ D. Allotropes',
 - [Irish LC Chemistry](./)
 - [Leaving Cert](/)
 - [Atomic Structure](/chemistry/1-atomic-structure/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -11812,17 +11639,6 @@ $$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[3_Stoichiometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Key Stoichiometric Relationships
 
 | Relationship             | Formula                                 | Use                      |
@@ -12708,16 +12524,6 @@ while x > 0:
    2 digits, 1-6 digits).
 8. Explain the difference between backtracking and divide and conquer. Give an example of each.
 
-```mermaid
-flowchart TD
-    A[5_Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of computational thinking, including underlying theory,
@@ -13452,17 +13258,6 @@ Small re-identification risk.
 4. A company stores customer data including names, addresses, purchase history, and payment
     details. Explain which data protection principles apply and how they should be implemented.
 
-
-```mermaid
-flowchart TD
-    A[3_Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A database is like a filing system with superpowers -- it stores data efficiently, enforces consistency, and lets you query it in powerful ways. SQL is the language of questions: SELECT is asking, WHERE is filtering, JOIN is combining, and GROUP BY is summarising. Normalisation is the art of eliminating redundancy -- like making sure every fact is stored in exactly one place so that updating it once updates it everywhere. The trade-off is between clean design (normalised) and fast queries (denormalised). Understanding this trade-off is the key to practical database design.
@@ -13862,17 +13657,6 @@ HDDs remain useful for large-capacity storage where speed is less critical.
 **Why it matters:** Systems knowledge lets you understand how computers actually work, from why programs crash to how networks transmit data to how security vulnerabilities arise.
 
 **The key insight:** The operating system is the mediator between hardware and software, it manages resources, enforces security, and provides the illusion that each program has the computer to itself.
-
-
-```mermaid
-flowchart TD
-    A[Diag Systems] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -14742,17 +14526,6 @@ See the examples integrated throughout the sections above.
     role?
 14. Add the binary numbers 10110110 and 01101101. Show all working including carries.
 15. Draw a truth table for a full adder. Show all eight rows for inputs A, B, and carry-in.
-
-
-```mermaid
-flowchart TD
-    A[1_Hardware] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -16089,17 +15862,6 @@ When 192.168.1.2 sends a request to a web server:
 14. A company has 200 devices on a LAN with subnet mask 255.255.255.0. What is the network address
     and how many host addresses are available?
 
-
-```mermaid
-flowchart TD
-    A[4_Networks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Networking is like a postal system with superpowers -- messages are broken into packets, routed through multiple paths, and reassembled at the destination. The OSI model is the set of rules at each layer: physical (the road), data link (the postal service), network (the address system), transport (the delivery guarantee), session (the conversation manager), presentation (the translator), and application (the letter itself). TCP/IP is the practical implementation of this model. Firewalls are the security checkpoints, encryption is the sealed envelope, and DNS is the address book that converts names to numbers.
@@ -16199,27 +15961,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - [Irish LC Computer Science](./)
 - [Leaving Cert](/)
 - [Hardware](/computer-science/1-hardware/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -16978,17 +16719,6 @@ See the examples integrated throughout the sections above.
 8. Prove that bubble sort correctly sorts an array by showing that after $k$ passes, the $k$ largest
    elements are in their final positions.
 
-
-```mermaid
-flowchart TD
-    A[2_Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of algorithms and programming, including underlying theory,
@@ -17735,17 +17465,6 @@ See the examples integrated throughout the sections above.
 6. Find all complex numbers $z$ satisfying $|z - 2i| = |z + 2|$ and interpret geometrically.
 7. Prove that if a quadratic equation with rational coefficients has one irrational root
     $a + b\sqrt{c}$ (where $b \neq 0$), then $a - b\sqrt{c}$ is also a root.
-
-
-```mermaid
-flowchart TD
-    A[1_Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -18603,16 +18322,6 @@ See the examples integrated throughout the sections above.
 15. Find the volume generated by rotating $y = \frac{1}{x}$ about the $x$-axis from $x = 1$ to
     $x = e$.
 
-```mermaid
-flowchart TD
-    A[2_Calculusx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to calculus, including key
@@ -18993,17 +18702,6 @@ Perimeter $= 2(13 + 5) = 2(18) = 36\,\text{cm}$.
 **Why it matters:** Algebraic skills are essential for science, engineering, finance, and everyday problem-solving. They develop the logical thinking needed for any quantitative career.
 
 **The key insight:** Rearranging equations is not arbitrary manipulation, each step must maintain balance, reflecting the physical or mathematical equality the equation represents.
-
-
-```mermaid
-flowchart TD
-    A[Diag Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -19784,17 +19482,6 @@ See the examples integrated throughout the sections above.
 14. Find the equation of the circle passing through $(1, 0)$$(0, 1)$ And $(2, 3)$.
 15. Determine whether the vectors $\mathbf{i} + \mathbf{j} + \mathbf{k}$
     $2\mathbf{i} - \mathbf{j} + \mathbf{k}$ And $3\mathbf{i} + 4\mathbf{k}$ are coplanar.
-
-
-```mermaid
-flowchart TD
-    A[3_Geometry Trig] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -20781,17 +20468,6 @@ $$
 
 This is an arithmetic sequence with first term $T_1 = 6(1) - 2 = 4$ and common difference $d = 6$.
 
-
-```mermaid
-flowchart TD
-    A[5_Number Sequences] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to number sets and sequences,
@@ -20866,27 +20542,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Calculus](/maths/2-calculus/2_calculus/):** Covers differentiation and integration concepts included in the practice questions.
 - **[Geometry and Trigonometry](/maths/3-geometry-trig/3_geometry-trig/):** Covers circle theorems and trigonometric rules used in the practice problems.
 - **[Probability and Statistics](/maths/4-probability-statistics/4_probability-statistics/):** Detailed notes on probability rules and statistical measures.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -21654,16 +21309,6 @@ $$
 This is why a coin tossed many times gives a proportion of heads close to 0.5, even if short
 Sequences may deviate significantly.
 
-```mermaid
-flowchart TD
-    A[4_Probability Statistics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to probability and statistics,
@@ -22066,17 +21711,6 @@ being more favourable for massive objects.
 **Why it matters:** Mechanics is the foundation of engineering, vehicle safety design, sports science, and structural analysis.
 
 **The key insight:** Free body diagrams are the essential first step, correctly identifying all forces acting on an object determines whether your calculation will be correct.
-
-
-```mermaid
-flowchart TD
-    A[Diag Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -22936,16 +22570,6 @@ Block DC while passing AC signals.
 - **[Light and Waves](/physics/2-waves/2_waves/):** Explores the electromagnetic spectrum and wave properties, linking to electromagnetic induction.
 - **[Heat and Thermodynamics](/physics/4-heat/4_heat/):** Covers energy transfer and thermodynamics, connecting to the energy dissipation in electrical circuits.
 - **[Practice Physics](/physics/practice-physics/):** Interactive practice problems covering electricity, circuits, and other physics topics.
-
-```mermaid
-flowchart TD
-    A[3_Electricityx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -23875,17 +23499,6 @@ See the examples integrated throughout the sections above.
    required?
 10. Derive the expression for the pressure of an ideal gas from kinetic theory, stating your
     assumptions. Show how this leads to $pV = \frac{1}{3}Nm\overline{v^2}$.
-
-
-```mermaid
-flowchart TD
-    A[4_Heat] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -25355,16 +24968,6 @@ Errors:
 - **[Heat and Thermodynamics](/physics/4-heat/4_heat/):** Covers thermal physics and energy transfer, extending the energy conservation principles from mechanics.
 - **[Practice Physics](/physics/practice-physics/):** Interactive practice problems covering mechanics, waves, electricity, and modern physics.
 
-```mermaid
-flowchart TD
-    A[1_Mechanicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Mechanics is the physics of **motion and its causes**. The core idea is Newton's second law: a net force causes acceleration proportional to mass. Everything else, kinematics equations, friction, energy, momentum, circular motion, flows from this single principle combined with careful vector resolution. The most important skill in mechanics is drawing correct free body diagrams: identify the object, draw all forces acting _on_ it, resolve forces into components, and apply $F = ma$ in each direction separately.
@@ -26241,17 +25844,6 @@ See the examples integrated throughout the sections above.
     de Broglie wavelength. Would this electron be suitable for diffraction by a crystal with lattice
     spacing $0.25\mathrm{ nm$? Justify your answer.
 
-
-```mermaid
-flowchart TD
-    A[5_Modern Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of modern physics, including the key equations,
@@ -26352,27 +25944,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Mechanics](/physics/1-mechanics/1_mechanics/):** Detailed notes on kinematics, forces, and energy covered in the practice problems.
 - **[Electricity](/physics/3-electricity/3_electricity/):** Covers circuits and electromagnetic induction included in the practice questions.
 - **[Flashcards: Physics](/flashcards-physics/):** Interactive flashcards for quick revision of key physics terminology.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -26720,17 +26291,6 @@ $$
 - **Astronomy:** redshift of light from distant galaxies indicates they are moving away (Hubble's
   law).
 - **Medical ultrasound:** the Doppler effect is used to measure blood flow velocity.
-
-
-```mermaid
-flowchart TD
-    A[2_Waves] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

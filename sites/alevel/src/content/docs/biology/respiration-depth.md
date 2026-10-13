@@ -2367,16 +2367,6 @@ $$
 
 $\blacksquare$
 
-```mermaid
-flowchart TD
-    A[Respiration Depth] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Aerobic respiration yields approximately 30--32 ATP per glucose: glycolysis (2 net), link reaction

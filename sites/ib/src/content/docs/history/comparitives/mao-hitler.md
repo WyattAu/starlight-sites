@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: Mao and Hitler Authoritarian Regimes
 tags:
@@ -609,17 +608,6 @@ Planning notes:
 
 4. Confusing causes, events, and consequences. Be clear about chronological and causal
    relationships.
-
-
-```mermaid
-flowchart TD
-    A[Mao Hitler] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

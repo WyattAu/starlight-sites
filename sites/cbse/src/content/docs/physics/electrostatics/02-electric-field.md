@@ -18,17 +18,6 @@ description: "Study notes for Electric field with worked examples, practice prob
 
 Study notes for CBSE Class 12 physics - Electric field.
 
-
-```mermaid
-flowchart TD
-    A[02 Electric Field] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Key Concepts
 
 - Electric field due to a point charge: $\vec{E} = k\frac{q}{r^2}\hat{r}$
@@ -219,23 +208,3 @@ In electrostatic equilibrium, the electric field inside a conductor is always ze
 
 When calculating the net electric field from multiple charges, students often add the magnitudes directly instead of resolving into components. Electric field is a vector quantity: $\vec{E}_{net} = \vec{E}_1 + \vec{E}_2 + \ldots$. For two charges, you must find the angle between the field vectors and add components: $E_x = E_1\cos\theta_1 + E_2\cos\theta_2$ and $E_y = E_1\sin\theta_1 + E_2\sin\theta_2$.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

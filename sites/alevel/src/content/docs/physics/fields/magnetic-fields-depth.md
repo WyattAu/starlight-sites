@@ -548,16 +548,6 @@ $$
 
 $\blacksquare$
 
-```mermaid
-flowchart TD
-    A[Magnetic Fields Depth] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Force on a current-carrying conductor: $F = BIl\sin\theta$; maximum when $\theta = 90^\circ$.

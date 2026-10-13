@@ -2757,17 +2757,6 @@ $$
 (infrastructure, climate policy) when there is significant uncertainty. Waiting for better
 Information can be optimal even when the expected NPV is positive.
 
-
-```mermaid
-flowchart TD
-    A[1 Descriptive Statistics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Real vs nominal**: real values are adjusted for price changes; use the GDP deflator or CPI to

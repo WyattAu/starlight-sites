@@ -200,17 +200,6 @@ $$
 L = \frac{\mu_0 N^2 A}{\ell}
 $$
 
-
-```mermaid
-flowchart TD
-    A[4_Electrodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Electrodynamics is the physics of how changing fields create each other. Faraday's law says a changing magnetic field whips up an electric field like stirring tea creates a whirlpool. The displacement current is Maxwell's brilliant addition: a changing electric field produces a magnetic field just as a real current does, which is what allows electromagnetic waves to propagate through empty space. Lenz's law is nature's stubbornness: when you try to change the magnetic flux through a loop, the loop fights back by inducing a current that opposes the change. This is why a magnet falling through a copper pipe slows down even though copper is not magnetic. Self-inductance is like electrical inertia: an inductor resists changes in current the way a massive object resists changes in velocity. The energy stored in an inductor's magnetic field is like the kinetic energy of a moving mass.
@@ -236,23 +225,3 @@ Faraday's law $\nabla \times \mathbf{E} = -\partial\mathbf{B}/\partial t$ applie
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

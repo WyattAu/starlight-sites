@@ -4659,16 +4659,6 @@ Stack traces reveal implementation details (framework, library versions, file pa
 Attackers craft targeted exploits. Return generic error messages in production; log details
 Server-side.
 
-```mermaid
-flowchart TD
-    A[Api Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to api security, including key
@@ -5429,16 +5419,6 @@ Means you are flying blind. Integrate scanning into every pull request and deplo
 OWASP Top 10 is a awareness document, not a compliance checklist. It does not cover all
 Vulnerabilities. Supplement with ASVS (Application Security Verification Standard), threat modeling,
 And regular penetration testing.
-
-```mermaid
-flowchart TD
-    A[Owasp Top 10] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -7841,17 +7821,6 @@ Reduce the MTU on the VPN interface to 1360-1420 and test.
 
 WireGuard private keys must be unique per peer. Reusing keys across servers or clients causes
 Routing conflicts and security vulnerabilities. Generate a new key pair for every peer.
-
-
-```mermaid
-flowchart TD
-    A[Vpn And Tunneling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -10379,17 +10348,6 @@ Access.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[Cloud Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to cloud security, including key
@@ -11718,17 +11676,6 @@ Identify the security issues and provide the corrected values.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[Os Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to os security, including key
@@ -12882,17 +12829,6 @@ Suspicious emails, verify sender identity, and report potential threats.
 4. Presenting a one-sided argument without considering alternative interpretations or
    counter-evidence.
 
-
-```mermaid
-flowchart TD
-    A[Malware Analysis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -13279,17 +13215,6 @@ URL: https://security.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -17004,17 +16929,6 @@ URL: https://security.wyattau.com/diagnostics/diag-security/
 | 10       | B             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of security fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
-
-
-```mermaid
-flowchart TD
-    A[Diag Security] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

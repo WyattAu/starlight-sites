@@ -8,8 +8,6 @@ tags:
 description: "16 auto-graded practice problems covering core IB Maths discrete mathematics content, aligned to the HL syllabus. Select an answer, submit, and review the"
 ---
 
-
-
 ## Intuition
 
 **Discrete mathematics is the mathematics of counting and logic, it deals with distinct, separate values rather than continuous quantities:** Discrete math provides the theoretical foundation for computer science, cryptography, and algorithms
@@ -39,8 +37,6 @@ D. 6
 Show answer, A
 **Answer: A**, A spanning tree on n vertices has n − 1 = 5 edges. The graph has 9 edges, so 9 − 5 = 4 edges must be removed."
 
-
-
 **Q2. For the adjacency matrix of an undirected graph, which statement is always true?**
 
 A. The matrix is symmetric
@@ -53,8 +49,6 @@ D. All entries are non-negative and the matrix is diagonal
 Show answer, A
 **Answer: A**, In an undirected graph, edge (i,j) = edge (j,i), so the adjacency matrix A satisfies A = Aᵀ, meaning it is symmetric. Diagonal entries are zero (no loops assumed) and the matrix is not necessarily diagonal."
 
-
-
 **Q3. Which algorithm is used to find the shortest path between two vertices in a weighted graph?**
 
 A. Kruskal's algorithm','Prim's algorithm
@@ -64,8 +58,6 @@ B. 'Dijkstra's algorithm','The Hungarian algorithm']\) correctAnswer=\(2\) expla
 
 Show answer, C
 **Answer: C**, Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a weighted graph with non-negative weights. Kruskal's and Prim's algorithms are for minimum spanning trees."
-
-
 
 **Q4. A graph has an Eulerian circuit if and only if:**
 
@@ -79,8 +71,6 @@ D. Every vertex has odd degree
 Show answer, A
 **Answer: A**, Euler's theorem: a connected graph has an Eulerian circuit if and only if every vertex has even degree. If exactly two vertices have odd degree, the graph has an Eulerian trail (but not a circuit)."
 
-
-
 **Q5. Use Kruskal's algorithm to find the minimum spanning tree of a graph with edges: AB=3, BC=5, CD=4, AD=6, AC=2, BD=7. What is its total weight?**
 
 A. 14
@@ -92,8 +82,6 @@ D. 11
 
 Show answer, A
 **Answer: A**, Sort edges by weight: AC=2, AB=3, CD=4, BC=5, AD=6, BD=7. Add AC (2). Add AB (3). Add CD (4). Add BC (5): connects B to C, completing the spanning tree with vertices A, B, C, D. Total = 2+3+4+5 = 14."
-
-
 
 **Q6. A Hamiltonian path visits:**
 
@@ -107,8 +95,6 @@ D. Every vertex exactly once
 Show answer, D
 **Answer: D**, A Hamiltonian path visits every vertex of a graph exactly once. This is distinct from an Eulerian path which traverses every edge exactly once."
 
-
-
 **Q7. The handshaking lemma states that the sum of all vertex degrees in a graph equals:**
 
 A. Twice the number of edges
@@ -121,8 +107,6 @@ D. The number of faces
 Show answer, A
 **Answer: A**, The handshaking lemma: Σ deg(v) = 2|E|, where |E| is the number of edges. Each edge contributes 1 to the degree of each of its two endpoints."
 
-
-
 **Q8. The chromatic number of a complete graph K₅ is:**
 
 A. 4
@@ -134,8 +118,6 @@ D. 10
 
 Show answer, C
 **Answer: C**, A complete graph Kₙ has every vertex adjacent to every other vertex, so each vertex needs a unique colour. The chromatic number of K₅ is 5."
-
-
 
 ---
 
@@ -153,8 +135,6 @@ D. If I do not carry an umbrella, then it rains
 Show answer, C
 **Answer: C**, The contrapositive of 'If P then Q' is 'If not Q then not P'. Here: If I do not carry an umbrella (not Q), then it does not rain (not P).
 
-
-
 **Q10. According to De Morgan\\"s laws, ¬(P ∧ Q) is equivalent to:**
 
 A. ¬P ∧ ¬Q
@@ -166,8 +146,6 @@ D. ¬P ∨ ¬Q
 
 Show answer, D
 **Answer: D**, De Morgan's first law: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q. The negation of a conjunction is the disjunction of the negations."
-
-
 
 **Q11. Construct a truth table for (P → Q) ∧ (Q → P). When is this statement true?**
 
@@ -181,8 +159,6 @@ D. Only when P and Q have the same truth value
 Show answer, D
 **Answer: D**, (P → Q) ∧ (Q → P) is the biconditional P ↔ Q. It is true only when P and Q have the same truth value (both true or both false)."
 
-
-
 **Q12. Prove by contradiction that there is no largest prime number.**
 
 A. Show that all integers greater than 1 are composite
@@ -195,8 +171,6 @@ D. Assume a largest prime p exists, then p! + 1 is either prime or divisible by 
 Show answer, D
 **Answer: D**, Assume p is the largest prime. Consider N = p! + 1. N is not divisible by any prime ≤ p (it leaves remainder 1). So N is either prime itself or divisible by a prime > p. Either way, a prime larger than p exists, contradiction."
 
-
-
 **Q13. Which logical connective is represented by the truth table: TT→T, TF→F, FT→T, FF→T?**
 
 A. Conjunction (P ∧ Q)
@@ -208,8 +182,6 @@ D. Biconditional (P ↔ Q)
 
 Show answer, C
 **Answer: C**, The conditional P → Q is false only when P is true and Q is false (TF→F). In all other cases it is true. This matches: TT→T, TF→F, FT→T, FF→T."
-
-
 
 ---
 
@@ -227,8 +199,6 @@ D. 120
 Show answer, D
 **Answer: D**, 5! = 5 × 4 × 3 × 2 × 1 = 120."
 
-
-
 **Q15. How many 3-person committees can be formed from 10 people?**
 
 A. 720
@@ -240,8 +210,6 @@ D. 1000
 
 Show answer, C
 **Answer: C**, This is a combination: C(10,3) = 10!/(3! × 7!) = (10 × 9 × 8)/(3 × 2 × 1) = 120."
-
-
 
 **Q16. A password consists of 4 distinct digits chosen from \(0,1,2,...,9\). How many possible passwords are there?**
 
@@ -255,8 +223,6 @@ D. 720
 Show answer, B
 **Answer: B**, Permutation of 4 from 10: ¹⁰P₄ = 10 × 9 × 8 × 7 = 5040."
 
-
-
 **Q17. How many ways can the letters of the word 'BANANA' be arranged?**
 
 A. 60
@@ -268,8 +234,6 @@ D. 360
 
 Show answer, A
 **Answer: A**, Total letters = 6, with 3 A's and 2 N's. Arrangements = 6!/(3! × 2!) = 720/12 = 60."
-
-
 
 **Q18. By the pigeonhole principle, in any group of 13 people, at least how many share the same birth month?**
 
@@ -283,8 +247,6 @@ D. 13
 Show answer, C
 **Answer: C**, There are 12 months (pigeonholes) and 13 people (pigeons). By the pigeonhole principle, at least ⌈13/12⌉ = 2 people share the same birth month."
 
-
-
 **Q19. Using inclusion-exclusion, in a class of 40 students: 25 study Maths, 20 study Physics, 10 study both. How many study neither?**
 
 A. 5
@@ -296,8 +258,6 @@ D. 0
 
 Show answer, A
 **Answer: A**, |M ∪ P| = |M| + |P| − |M ∩ P| = 25 + 20 − 10 = 35. Neither = 40 − 35 = 5."
-
-
 
 **Q20. How many 4-digit numbers can be formed from \(1,2,3,4,5,6\) if digits can be repeated?**
 
@@ -311,8 +271,6 @@ D. 15
 Show answer, A
 **Answer: A**, Each of the 4 positions can be filled in 6 ways (with repetition). Total = 6⁴ = 1296."
 
-
-
 **Q21. How many bit strings of length 8 contain exactly five 1s?**
 
 A. 8
@@ -324,8 +282,6 @@ D. 336
 
 Show answer, C
 **Answer: C**, Choose 5 positions out of 8 for the 1s: C(8,5) = C(8,3) = 8!/(3!5!) = (8×7×6)/(3×2×1) = 56."
-
-
 
 ---
 
@@ -343,8 +299,6 @@ D. 12
 Show answer, D
 **Answer: D**, Using the Euclidean algorithm: 48 = 1(36) + 12. 36 = 3(12) + 0. So GCD(48,36) = 12."
 
-
-
 **Q23. Find the prime factorisation of 360.**
 
 A. 2² × 3³ × 5
@@ -356,8 +310,6 @@ D. 2³ × 3² × 5
 
 Show answer, D
 **Answer: D**, 360 = 2 × 180 = 2 × 2 × 90 = 2² × 2 × 45 = 2³ × 9 × 5 = 2³ × 3² × 5."
-
-
 
 **Q24. Find 17 mod 5.**
 
@@ -371,8 +323,6 @@ D. 5
 Show answer, A
 **Answer: A**, 17 = 3 × 5 + 2, so 17 mod 5 = 2."
 
-
-
 **Q25. Use the Euclidean algorithm to find GCD(252, 105).**
 
 A. 21
@@ -384,8 +334,6 @@ D. 3
 
 Show answer, A
 **Answer: A**, 252 = 2(105) + 42. 105 = 2(42) + 21. 42 = 2(21) + 0. GCD = 21."
-
-
 
 **Q26. Find the LCM of 12 and 18 using their prime factorisations.**
 
@@ -399,8 +347,6 @@ D. 216
 Show answer, B
 **Answer: B**, 12 = 2² × 3, 18 = 2 × 3². LCM = 2² × 3² = 4 × 9 = 36."
 
-
-
 **Q27. Which of the following numbers is divisible by 9?**
 
 A. 736
@@ -412,8 +358,6 @@ D. 737
 
 Show answer, C
 **Answer: C**, A number is divisible by 9 if the sum of its digits is divisible by 9. 7+3+8 = 18 (divisible by 9). 7+3+6 = 16, 7+3+4 = 14, 7+3+7 = 17. Only 738 works."
-
-
 
 **Q28. Find the multiplicative inverse of 7 modulo 11.**
 
@@ -427,8 +371,6 @@ D. 2
 Show answer, B
 **Answer: B**, We need x such that 7x ≡ 1 (mod 11). Try: 7(8) = 56 = 5(11) + 1, so 7(8) ≡ 1 (mod 11). The inverse is 8."
 
-
-
 **Q29. Using Fermat's Little Theorem, find 3¹⁰ mod 11.**
 
 A. 3
@@ -441,34 +383,11 @@ D. 0
 Show answer, C
 **Answer: C**, Fermat's Little Theorem: if p is prime and gcd(a,p) = 1, then a^(p−1) ≡ 1 (mod p). Here a = 3, p = 11. So 3¹⁰ ≡ 1 (mod 11)."
 
-
-
 ## Cross-References
 
 - **[Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/):** Algebra supports all practice
 - **[Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/):** Functions are tested
 - **[Calculus](https://hsc.wyattau.com/mathematics/calculus/):** Calculus practice covers core techniques
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -501,7 +420,6 @@ D. 6
 - A spanning tree on n vertices has n − 1 = 5 edges. The graph has 9 edges, so 9 − 5 = 4 edges must be removed."
 *Difficulty: medium*
 
-
 **Q2. For the adjacency matrix of an undirected graph, which statement is always true?**
 
 A. The matrix is symmetric
@@ -512,7 +430,6 @@ D. All entries are non-negative and the matrix is diagonal
 **Answer: A**
 - In an undirected graph, edge (i,j) = edge (j,i), so the adjacency matrix A satisfies A = Aᵀ, meaning it is symmetric. Diagonal entries are zero (no loops assumed) and the matrix is not necessarily diagonal."
 *Difficulty: medium*
-
 
 **Q3. Which algorithm is used to find the shortest path between two vertices in a weighted graph?**
 
@@ -535,7 +452,6 @@ D. Every vertex has odd degree
 - Euler's theorem: a connected graph has an Eulerian circuit if and only if every vertex has even degree. If exactly two vertices have odd degree, the graph has an Eulerian trail (but not a circuit)."
 *Difficulty: medium*
 
-
 **Q5. Use Kruskal's algorithm to find the minimum spanning tree of a graph with edges: AB=3, BC=5, CD=4, AD=6, AC=2, BD=7. What is its total weight?**
 
 A. 14
@@ -546,7 +462,6 @@ D. 11
 **Answer: A**
 - Sort edges by weight: AC=2, AB=3, CD=4, BC=5, AD=6, BD=7. Add AC (2). Add AB (3). Add CD (4). Add BC (5): connects B to C, completing the spanning tree with vertices A, B, C, D. Total = 2+3+4+5 = 14."
 *Difficulty: medium*
-
 
 **Q6. A Hamiltonian path visits:**
 
@@ -559,7 +474,6 @@ D. Every vertex exactly once
 - A Hamiltonian path visits every vertex of a graph exactly once. This is distinct from an Eulerian path which traverses every edge exactly once."
 *Difficulty: medium*
 
-
 **Q7. The handshaking lemma states that the sum of all vertex degrees in a graph equals:**
 
 A. Twice the number of edges
@@ -570,7 +484,6 @@ D. The number of faces
 **Answer: A**
 - The handshaking lemma: Σ deg(v) = 2|E|, where |E| is the number of edges. Each edge contributes 1 to the degree of each of its two endpoints."
 *Difficulty: medium*
-
 
 **Q8. The chromatic number of a complete graph K₅ is:**
 
@@ -583,7 +496,6 @@ D. 10
 - A complete graph Kₙ has every vertex adjacent to every other vertex, so each vertex needs a unique colour. The chromatic number of K₅ is 5."
 *Difficulty: medium*
 
-
 **Q9. Which of the following is the contrapositive of 'If it rains, then I carry an umbrella'?**
 
 A. If I carry an umbrella, then it rains
@@ -594,7 +506,6 @@ D. If I do not carry an umbrella, then it rains
 **Answer: C**
 - The contrapositive of 'If P then Q' is 'If not Q then not P'. Here: If I do not carry an umbrella (not Q), then it does not rain (not P).
 *Difficulty: medium*
-
 
 **Q10. According to De Morgan\"s laws, ¬(P ∧ Q) is equivalent to:**
 
@@ -607,7 +518,6 @@ D. ¬P ∨ ¬Q
 - De Morgan's first law: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q. The negation of a conjunction is the disjunction of the negations."
 *Difficulty: medium*
 
-
 **Q11. Construct a truth table for (P → Q) ∧ (Q → P). When is this statement true?**
 
 A. Always true
@@ -618,7 +528,6 @@ D. Only when P and Q have the same truth value
 **Answer: D**
 - (P → Q) ∧ (Q → P) is the biconditional P ↔ Q. It is true only when P and Q have the same truth value (both true or both false)."
 *Difficulty: medium*
-
 
 **Q12. Prove by contradiction that there is no largest prime number.**
 
@@ -631,7 +540,6 @@ D. Assume a largest prime p exists, then p! + 1 is either prime or divisible by 
 - Assume p is the largest prime. Consider N = p! + 1. N is not divisible by any prime ≤ p (it leaves remainder 1). So N is either prime itself or divisible by a prime > p. Either way, a prime larger than p exists, contradiction."
 *Difficulty: medium*
 
-
 **Q13. Which logical connective is represented by the truth table: TT→T, TF→F, FT→T, FF→T?**
 
 A. Conjunction (P ∧ Q)
@@ -642,7 +550,6 @@ D. Biconditional (P ↔ Q)
 **Answer: C**
 - The conditional P → Q is false only when P is true and Q is false (TF→F). In all other cases it is true. This matches: TT→T, TF→F, FT→T, FF→T."
 *Difficulty: medium*
-
 
 **Q14. How many ways can 5 people be arranged in a line?**
 
@@ -655,7 +562,6 @@ D. 120
 - 5! = 5 × 4 × 3 × 2 × 1 = 120."
 *Difficulty: easy*
 
-
 **Q15. How many 3-person committees can be formed from 10 people?**
 
 A. 720
@@ -666,7 +572,6 @@ D. 1000
 **Answer: C**
 - This is a combination: C(10,3) = 10!/(3! × 7!) = (10 × 9 × 8)/(3 × 2 × 1) = 120."
 *Difficulty: medium*
-
 
 **Q16. A password consists of 4 distinct digits chosen from (0,1,2,...,9). How many possible passwords are there?**
 
@@ -679,7 +584,6 @@ D. 720
 - Permutation of 4 from 10: ¹⁰P₄ = 10 × 9 × 8 × 7 = 5040."
 *Difficulty: easy*
 
-
 **Q17. How many ways can the letters of the word 'BANANA' be arranged?**
 
 A. 60
@@ -690,7 +594,6 @@ D. 360
 **Answer: A**
 - Total letters = 6, with 3 A's and 2 N's. Arrangements = 6!/(3! × 2!) = 720/12 = 60."
 *Difficulty: medium*
-
 
 **Q18. By the pigeonhole principle, in any group of 13 people, at least how many share the same birth month?**
 
@@ -703,7 +606,6 @@ D. 13
 - There are 12 months (pigeonholes) and 13 people (pigeons). By the pigeonhole principle, at least ⌈13/12⌉ = 2 people share the same birth month."
 *Difficulty: medium*
 
-
 **Q19. Using inclusion-exclusion, in a class of 40 students: 25 study Maths, 20 study Physics, 10 study both. How many study neither?**
 
 A. 5
@@ -714,7 +616,6 @@ D. 0
 **Answer: A**
 - |M ∪ P| = |M| + |P| − |M ∩ P| = 25 + 20 − 10 = 35. Neither = 40 − 35 = 5."
 *Difficulty: easy*
-
 
 **Q20. How many 4-digit numbers can be formed from (1,2,3,4,5,6) if digits can be repeated?**
 
@@ -727,7 +628,6 @@ D. 15
 - Each of the 4 positions can be filled in 6 ways (with repetition). Total = 6⁴ = 1296."
 *Difficulty: medium*
 
-
 **Q21. How many bit strings of length 8 contain exactly five 1s?**
 
 A. 8
@@ -738,7 +638,6 @@ D. 336
 **Answer: C**
 - Choose 5 positions out of 8 for the 1s: C(8,5) = C(8,3) = 8!/(3!5!) = (8×7×6)/(3×2×1) = 56."
 *Difficulty: medium*
-
 
 **Q22. Find the GCD of 48 and 36.**
 
@@ -751,7 +650,6 @@ D. 12
 - Using the Euclidean algorithm: 48 = 1(36) + 12. 36 = 3(12) + 0. So GCD(48,36) = 12."
 *Difficulty: medium*
 
-
 **Q23. Find the prime factorisation of 360.**
 
 A. 2² × 3³ × 5
@@ -762,7 +660,6 @@ D. 2³ × 3² × 5
 **Answer: D**
 - 360 = 2 × 180 = 2 × 2 × 90 = 2² × 2 × 45 = 2³ × 9 × 5 = 2³ × 3² × 5."
 *Difficulty: easy*
-
 
 **Q24. Find 17 mod 5.**
 
@@ -775,7 +672,6 @@ D. 5
 - 17 = 3 × 5 + 2, so 17 mod 5 = 2."
 *Difficulty: easy*
 
-
 **Q25. Use the Euclidean algorithm to find GCD(252, 105).**
 
 A. 21
@@ -786,7 +682,6 @@ D. 3
 **Answer: A**
 - 252 = 2(105) + 42. 105 = 2(42) + 21. 42 = 2(21) + 0. GCD = 21."
 *Difficulty: easy*
-
 
 **Q26. Find the LCM of 12 and 18 using their prime factorisations.**
 
@@ -799,7 +694,6 @@ D. 216
 - 12 = 2² × 3, 18 = 2 × 3². LCM = 2² × 3² = 4 × 9 = 36."
 *Difficulty: easy*
 
-
 **Q27. Which of the following numbers is divisible by 9?**
 
 A. 736
@@ -811,7 +705,6 @@ D. 737
 - A number is divisible by 9 if the sum of its digits is divisible by 9. 7+3+8 = 18 (divisible by 9). 7+3+6 = 16, 7+3+4 = 14, 7+3+7 = 17. Only 738 works."
 *Difficulty: medium*
 
-
 **Q28. Find the multiplicative inverse of 7 modulo 11.**
 
 A. 5
@@ -822,7 +715,6 @@ D. 2
 **Answer: B**
 - We need x such that 7x ≡ 1 (mod 11). Try: 7(8) = 56 = 5(11) + 1, so 7(8) ≡ 1 (mod 11). The inverse is 8."
 *Difficulty: medium*
-
 
 **Q29. Using Fermat's Little Theorem, find 3¹⁰ mod 11.**
 

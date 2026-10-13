@@ -547,16 +547,6 @@ intermediates. Can measure rate constants up to $\sim 10^{12}$ s$^{-1}$.
    $E_a \approx \Delta^{\ddagger} H^\circ$, but in the gas phase the $RT$ term matters at high
    temperatures.
 
-```mermaid
-flowchart TD
-    A[Chemical Kinetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Rate law:** $v = k[A]^m[B]^n$; order determined experimentally.
@@ -899,7 +889,6 @@ D. $t_\{1/2\} = 1/k$',
 - At half-life: $[A] = [A]_0/2$, so $\ln([A]_0/2) = -kt_\{1/2\} + \ln[A]_0$, giving $-\ln 2 = -kt_\{1/2\}$, thus $t_\{1/2\} = \ln 2/k$. For a first-order reaction, the half-life is independent of the initial concentration. For zero-order: $t_\{1/2\} = [A]_0/2k$ (depends on $[A]_0$). For second-order: $t_\{1/2\} = 1/k[A]_0$.
 *Difficulty: easy*
 
-
 **Q2. A plot of $\\ln[A]$ versus time yields a straight line with slope $-0.0231\\,\\text\{s\}^\{-1\}$. What is the order of the reaction and the rate constant?**
 
 A. First order; $k = 0.0231\\,\\text\{s\}^\{-1\}$
@@ -911,7 +900,6 @@ D. First order; $k = 2.31\\,\\text\{s\}^\{-1\}$',
 - A straight line of $\ln[A]$ vs. time indicates a first-order reaction, since $\ln[A] = -kt + \ln[A]_0$ is linear with slope $-k$. Here $k = 0.0231$ s$^\{-1\}$ and $t_\{1/2\} = 0.693/0.0231 = 30.0$ s. For second-order, a plot of $1/[A]$ vs. time would be linear. For zero-order, $[A]$ vs. time is linear.
 *Difficulty: easy*
 
-
 **Q3. For the reaction $2\\text\{NO\}_2 \\to \\text\{NO\} + \\text\{O\}_2$, the experimental rate law is $v = k[\\text\{NO\}_2]^2$. This suggests the reaction is:**
 
 A. Second order overall and likely bimolecular (but the stoichiometric coefficient does not necessarily equal the order)
@@ -922,7 +910,6 @@ D. Zero order with respect to $\\text\{NO\}_2$',
 **Answer: A**
 - The overall order is 2 (second order in $\text\{NO\}_2$). The rate law is experimentally determined and does not necessarily match the stoichiometric coefficients. A second-order rate law suggests a bimolecular rate-determining step, but the actual mechanism might involve multiple steps with intermediates.
 *Difficulty: medium*
-
 
 **Q4. For a reaction with the experimental rate law $v = k[A]^2[B]$, if the concentration of $A$ is doubled and $B$ is tripled, by what factor does the rate increase?**
 
@@ -945,7 +932,6 @@ D. The rate law is determined by the fastest step',
 - For an elementary (single molecular event) rate-determining step, the rate law directly reflects its molecularity. For example, if the RDS is $\text\{A\} + \text\{B\} \to \text\{products\}$ (bimolecular), the rate law is $v = k[A][B]$. If the RDS involves intermediates, the steady-state approximation or pre-equilibrium approximation may be needed to express the rate law in terms of reactants.
 *Difficulty: medium*
 
-
 **Q6. The steady-state approximation assumes that the concentration of reactive intermediates remains approximately constant during the reaction. Mathematically, this means:**
 
 A. $d[\\text\{intermediate\}]/dt \\approx 0$
@@ -956,7 +942,6 @@ D. $[\\text\{intermediate\}] = [\\text\{products\}]$',
 **Answer: A**
 - The steady-state approximation sets $d[\text\{I\}]/dt = 0$, meaning the rate of formation equals the rate of consumption of the intermediate. This allows expressing $[\text\{I\}]$ in terms of reactant concentrations without solving the full differential equations. It is valid when the intermediate is highly reactive (consumed rapidly after formation), so its concentration remains low and nearly constant.
 *Difficulty: medium*
-
 
 **Q7. The Arrhenius equation $k = A e^\{-E_a/RT\}$ relates the rate constant to temperature. What happens to the rate constant if the temperature increases from 300 K to 310 K for a reaction with $E_a = 50$ kJ/mol?**
 
@@ -969,7 +954,6 @@ D. The rate constant is unchanged',
 - Using the two-point Arrhenius form: $\ln(k_2/k_1) = (E_a/R)(1/T_1 - 1/T_2) = (50000/8.314)(1/300 - 1/310) = 6014 \times 0.0001074 = 0.645$. So $k_2/k_1 = e^\{0.645\} \approx 1.91$, approximately doubling. The common rule of thumb is that the rate roughly doubles for every 10 K temperature increase near room temperature for typical activation energies.
 *Difficulty: medium*
 
-
 **Q8. In enzyme kinetics, the Michaelis-Menten equation $v = \\frac\{V_\{\\max\}[S]\}\{K_M + [S]\}$ gives the reaction velocity. What does $K_M$ represent?**
 
 A. The substrate concentration at which the velocity is half of $V_\{\\max\}$
@@ -980,7 +964,6 @@ D. The minimum substrate concentration for the reaction to proceed',
 **Answer: A**
 - When $[S] = K_M$: $v = V_\{\max\}[S]/(K_M + [S]) = V_\{\max\}/2$. $K_M$ equals $(k_\{-1\} + k_2)/k_1$ for the mechanism $\text\{E\} + \text\{S\} \underset\{k_\{-1\}\}\{\overset\{k_1\}\{\rightleftharpoons\}\} \text\{ES\} \xrightarrow\{k_2\} \text\{E\} + \text\{P\}$. When $k_2 \ll k_\{-1\}$, $K_M \approx K_d$ (dissociation constant). A Lineweaver-Burk plot ($1/v$ vs $1/[S]$) yields $K_M$ from the $x$-intercept.
 *Difficulty: medium*
-
 
 **Q9. A catalyst increases the rate of a chemical reaction. Which of the following is true about the catalyzed vs. uncatalyzed reaction?**
 
@@ -993,7 +976,6 @@ D. The catalyst is consumed in the reaction',
 - A catalyst provides an alternative reaction pathway with lower activation energy $E_a$. It accelerates both forward and reverse reactions equally, so the equilibrium constant $K$ (and thus $\Delta G^\circ$) is unchanged. $\Delta H$ is also unchanged since the answer varies based on only on initial and final states. A true catalyst is not consumed in the reaction.
 *Difficulty: easy*
 
-
 **Q10. For a consecutive reaction $\\text\{A\} \\xrightarrow\{k_1\} \\text\{B\} \\xrightarrow\{k_2\} \\text\{C\}$, under what condition does the concentration of intermediate B reach a maximum?**
 
 A. When $k_1[A] = k_2[B]$, i.e., the rate of formation of B equals the rate of consumption of B
@@ -1004,7 +986,6 @@ D. When $[A] = 0$',
 **Answer: A**
 - B is formed from A ($d[B]/dt = k_1[A] - k_2[B]$) and consumed to give C. B reaches maximum concentration when $d[B]/dt = 0$, i.e., $k_1[A] = k_2[B]$. Before this point, B accumulates ($k_1[A] > k_2[B]$); after, B is consumed faster than formed ($k_2[B] > k_1[A]$). The time of maximum B depends on both rate constants.
 *Difficulty: hard*
-
 
 ## Intuition
 
@@ -1027,27 +1008,6 @@ D. When $[A] = 0$',
 - **[Chemical Kinetics](/1-physical-chemistry/chemical-kinetics/):** Detailed notes on rate laws, reaction mechanisms, and activation energy.
 - **[Thermodynamics](/1-physical-chemistry/thermodynamics/):** Covers Gibbs free energy and spontaneity that complement kinetic analysis.
 - **[Practice Physical Chemistry](/1-physical-chemistry/practice-physical-chemistry/):** Interactive practice problems covering quantum chemistry and statistical mechanics.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -1189,27 +1149,6 @@ $$
 - **[Quantum Chemistry](/1-physical-chemistry/quantum-chemistry/):** Detailed notes on quantum mechanics and molecular orbital theory.
 - **[Statistical Mechanics](/1-physical-chemistry/statistical-mechanics/):** Covers partition functions and thermodynamic properties from microscopic states.
 - **[Practice Chemical Kinetics](/1-physical-chemistry/practice-chemical-kinetics/):** Interactive practice problems covering rate laws and reaction mechanisms.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -1379,27 +1318,6 @@ $$
 - **[Quantum Chemistry](/1-physical-chemistry/quantum-chemistry/):** Detailed notes on quantum mechanics, wave functions, and molecular orbital theory.
 - **[Statistical Mechanics](/1-physical-chemistry/statistical-mechanics/):** Covers partition functions and thermodynamic properties that connect to quantum energy levels.
 - **[Practice Physical Chemistry](/1-physical-chemistry/practice-physical-chemistry/):** Interactive practice problems covering quantum chemistry and statistical mechanics.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -2096,17 +2014,6 @@ where $E_0$ is the true ground state energy. This underpins the Hartree-Fock and
    Hartree-Fock level with frozen orbitals. **Fix:** For DFT, the HOMO energy approximates IP but not
    exactly (Janak's theorem).
 
-
-```mermaid
-flowchart TD
-    A[Quantum Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Schrödinger equation:** $\hat{H}\psi = E\psi$; foundation of quantum chemistry.
@@ -2691,17 +2598,6 @@ leading to critical opalescence.
 7. **Mixing up energy zero-points.** The vibrational partition function depends on where the zero of
    energy is defined. **Fix:** Be consistent; if $U_0$ is the zero-point energy, account for it in
    all thermodynamic functions.
-
-
-```mermaid
-flowchart TD
-    A[Statistical Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -3295,17 +3191,6 @@ $$
    Clausius-Clapeyron equation assumes $V_g \gg V_l$ and ideal gas behavior. **Fix:** Use fugacity
    corrections for high-pressure systems.
 
-
-```mermaid
-flowchart TD
-    A[Thermodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **First Law:** $dU = \delta q + \delta w$; energy conservation.
@@ -3629,27 +3514,6 @@ $$
 - [Reaction Mechanisms -- Practice Problems](/2-organic-chemistry/practice-reaction-mechanisms/)
 - [Spectroscopy and Synthesis -- Practice Problems](/2-organic-chemistry/practice-spectroscopy-synthesis/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Practice Reaction Mechanisms
@@ -3803,27 +3667,6 @@ $$
 - **[Structure and Bonding](/2-organic-chemistry/structure-and-bonding/):** Covers molecular orbital theory and stereochemistry concepts.
 - **[Practice Spectroscopy and Synthesis](/2-organic-chemistry/practice-spectroscopy-synthesis/):** Interactive practice problems covering NMR, IR, and multi-step synthesis.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Practice Spectroscopy Synthesis
@@ -3884,27 +3727,6 @@ retrosynthetic analysis. Select an option to check your answer and view the expl
 - **[Synthesis](/2-organic-chemistry/synthesis/):** Covers multi-step synthesis strategies and protecting group chemistry.
 - **[Practice Reaction Mechanisms](/2-organic-chemistry/practice-reaction-mechanisms/):** Interactive practice problems covering organic reaction mechanisms.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Practice Structure And Bonding
@@ -3964,27 +3786,6 @@ analysis, and aromaticity. Select an option to check your answer and view the ex
 - [Organic Chemistry](./)
 - [Structure and Bonding](/2-organic-chemistry/structure-and-bonding/)
 - [Organic Chemistry -- Practice Problems](/2-organic-chemistry/practice-organic-chemistry/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -4404,17 +4205,6 @@ No regioselectivity; products are in most cases mixtures.
    slightly inverted due to the leaving group partially blocking one face. **Fix:** Use the ion-pair
    model for accurate stereochemical predictions.
 
-
-```mermaid
-flowchart TD
-    A[Reaction Mechanisms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **S$\_\text{N}$2:** Concerted, backside attack, inversion, $v = k[\text{Nu}][\text{RX}]$,
@@ -4833,17 +4623,6 @@ $\blacksquare$
    is needed.
 7. **Wrong degree of unsaturation calculation.** For halogens, add their count to H; for nitrogen,
    subtract. **Fix:** Use DoU $= c + 1 - (h + x - n)/2$ where $x$ = halogens.
-
-
-```mermaid
-flowchart TD
-    A[Spectroscopy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5297,17 +5076,6 @@ important for polar substituents near a reaction center.
 7. **Overcounting $\pi$ electrons in aromatic heterocycles.** The nitrogen lone pair in pyridine
    does not contribute to the $\pi$ system; in pyrrole it does. **Fix:** Check whether the lone pair
    is in a $p$ orbital (contributes) or an sp$^2$ orbital (does not).
-
-
-```mermaid
-flowchart TD
-    A[Structure And Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5809,17 +5577,6 @@ Enzymes provide extremely high enantioselectivity under mild conditions:
    enantioselectivity directly; the auxiliary must be removed. **Fix:** Choose between auxiliary,
    catalyst, or resolution based on the specific system.
 
-
-```mermaid
-flowchart TD
-    A[Synthesis] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Retrosynthetic analysis:** TM $\Rightarrow$ precursors via disconnections; identify synthons and
@@ -6215,17 +5972,6 @@ Trend: Basicity increases down a group; acidity increases across a period.
 7. **Overgeneralizing diagonal relationships.** Li–Mg and Be–Al are the strongest; B–Si is weaker.
    **Fix:** Diagonal relationships are trends, not absolute rules; always consider specific
    chemistry.
-
-
-```mermaid
-flowchart TD
-    A[Atomic Structure And Periodicity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -6690,17 +6436,6 @@ transitions ($\varepsilon \sim 1$–$100$).
    transition metals but fails for heavier metals where orbital contributions are significant.
    **Fix:** Use $\mu_{\text{eff}} = \sqrt{4S(S+1) + L(L+1)}\,\mu_B$ when orbital angular momentum is
    not quenched.
-
-
-```mermaid
-flowchart TD
-    A[Coordination Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -7276,17 +7011,6 @@ S (S$_8$/polymeric), Se (gray/red/black).
 7. **Wrong fluoride bonding model.** Using expanded octets (sp$^3$d$^2$ hybridization) is problematic
    for hypervalent compounds. **Fix:** The 3-center-4-electron model better describes hypervalent bonding.
 
-
-```mermaid
-flowchart TD
-    A[Main Group Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Group 1–2:** s-block metals; reactivity increases down the group; oxides, hydrides, carbonates;
@@ -7362,7 +7086,6 @@ D. 7 orbitals; maximum 14 electrons',
 
 **Answer: A**, The n=3 shell has s (\\\\ell=0, 1 orbital), p (\\\\ell=1, 3 orbitals), and d (\\\\ell=2, 5 orbitals), totaling 9 orbitals. Each orbital holds 2 electrons (Pauli principle), so maximum capacity = 18 electrons. For n: total orbitals = n^2 = 9; max electrons = 2n^2 = 18.
 
-
 **Q2. What is the electron configuration of \\\\text\(Cr\) (atomic number 24) and why does it deviate from the expected [\\\\text\(Ar\)]\\\\,3d^4\\\\,4s^2?**
 
 A. [\\\\text\(Ar\)]\\\\,3d^5\\\\,4s^1: half-filled d subshell provides extra exchange energy stabilization
@@ -7374,7 +7097,6 @@ D. [\\\\text\(Ar\)]\\\\,4s^2\\\\,3d^4: no deviation; the order 4s before 3d is a
 
 **Answer: A**, Cr has [\\\\text\(Ar\)]\\\\,3d^5\\\\,4s^1 instead of [\\\\text\(Ar\)]\\\\,3d^4\\\\,4s^2. The half-filled d^5 configuration (d orbitals each with one electron, maximizing exchange energy) provides extra stability. Similarly, Cu (Z=29) is [\\\\text\(Ar\)]\\\\,3d^\(10\)\\\\,4s^1 (fully filled d). These are the two main exceptions to the Aufbau order in the first transition series.
 
-
 **Q3. The effective nuclear charge Z_\(\\\\text\(eff\)\) experienced by a valence electron in sodium (\\\\text\(Na\)) is approximately:**
 
 A. Z_\(\\\\text\(eff\)\) \\\\approx 2.5 (the 3s electron is partially shielded by 10 inner electrons)
@@ -7385,7 +7107,6 @@ D. Z_\(\\\\text\(eff\)\) = 1 (completely shielded)',
 **Answer: A**
 
 **Answer: A**, Z_\(\\\\text\(eff\)\) = Z - S where S is the shielding constant. For Na 3s: Z = 11, S \\\\approx 8.5 (Slater's rules: the 10 core electrons (1s^22s^22p^6) contribute fully, same-shell electrons partially). So Z_\(\\\\text\(eff\)\) \\\\approx 2.5. This is why valence electrons are loosely held and Na is highly reactive (low ionization energy).
-
 
 **Q4. Which set of four quantum numbers (n, \\\\ell, m_\\\\ell, m_s) is valid for an electron in a 4d orbital?**
 
@@ -7407,7 +7128,6 @@ C. Nitrogen has fewer electrons',
 
 **Answer: A**, N: 2s^2 2p^3 (half-filled p subshell) is stabilized by exchange energy (electrons prefer parallel spins in different orbitals). O: 2s^2 2p^4 has one paired electron in a p orbital, adding electron-electron repulsion. The pairing energy penalty makes O's IE_1 lower than N's. This is an exception to the general trend of increasing IE across a period.
 
-
 ## Periodic Trends and Atomic Properties
 
 **Q6. Moving down Group 17 (the halogens), which trend correctly describes atomic radius, ionization energy, and electronegativity?**
@@ -7421,7 +7141,6 @@ D. All three properties increase',
 
 **Answer: A**, Down Group 17: each successive element adds a principal quantum shell, so atomic radius increases. The increased distance from the nucleus and additional shielding reduce the effective nuclear charge felt by valence electrons, so IE and electronegativity decrease. F (smallest radius, highest IE and EN) > Cl > Br > I > At. This trend is observed for all main groups.
 
-
 **Q7. Lanthanide contraction refers to the gradual decrease in ionic radii across the lanthanide series (La to Lu). This occurs because:**
 
 A. The 4f electrons provide poor shielding of the increasing nuclear charge, causing the outer electrons to be drawn closer
@@ -7432,7 +7151,6 @@ D. The principal quantum number decreases',
 **Answer: A**
 
 **Answer: A**, Across the lanthanides, Z increases by 1 per element while electrons are added to the inner 4f subshell. 4f orbitals are diffuse and provide poor shielding. The increased Z with poor shielding compresses all orbitals (including the outer 6s), causing ionic radii to decrease from La^\(3+\) to Lu^\(3+\). This makes transition metals after the lanthanides (Hf onwards) have similar sizes to their period 5 counterparts.
-
 
 **Q8. Which property of an atom cannot be predicted from the hydrogen wavefunctions alone (requires consideration of electron-electron interactions)?**
 
@@ -7445,7 +7163,6 @@ D. The number of electrons in each subshell',
 
 **Answer: A**, The hydrogen atom is exactly solvable because it has only one electron. For multi-electron atoms, the Schrodinger equation cannot be solved analytically due to electron-electron repulsion. Approximations (Hartree-Fock, density functional theory) are used. Quantum numbers and orbital counts follow from the hydrogen solution, but energy levels depend on Z_\(\\\\text\(eff\)\).
 
-
 **Q9. The electron affinity of fluorine is less negative than that of chlorine. This anomaly is attributed to:**
 
 A. The small size of F causing significant electron-electron repulsion in the compact 2p subshell
@@ -7457,7 +7174,6 @@ D. Fluorine having fewer valence electrons',
 
 **Answer: A**, Electron affinity is the energy released when an atom gains an electron. F has a very compact 2p subshell (no d orbitals); adding an electron causes significant inter-electron repulsion. Cl has a larger 3p subshell that better accommodates the extra electron with less repulsion. Thus \\\\text\(EA\)(\\\\text\(Cl\)) < \\\\text\(EA\)(\\\\text\(F\)) (more negative = more energy released).
 
-
 **Q10. Penetration and shielding effects explain why the 4s orbital is filled before the 3d orbital despite having a higher principal quantum number. Which orbital penetrates closer to the nucleus?**
 
 A. 4s (lower angular momentum \\\\ell=0, no radial nodes, higher probability near nucleus)
@@ -7468,7 +7184,6 @@ D. Neither penetrates the core; they are both outer orbitals',
 **Answer: A**
 
 **Answer: A**, Lower \\\\ell orbitals (s < p < d < f) have less angular momentum and penetrate closer to the nucleus (spend more time near the nucleus). The 4s orbital has no angular nodes (\\\\ell=0) and penetrates through inner shells better than 3d (\\\\ell=2, 2 angular nodes). This gives 4s lower energy than 3d for Z \\\\approx 20, but for higher Z, 3d drops below 4s.
-
 
 ## Intuition
 
@@ -7491,27 +7206,6 @@ D. Neither penetrates the core; they are both outer orbitals',
 - **[Atomic Structure and Periodicity](/3-inorganic-chemistry/atomic-structure-and-periodicity/):** Detailed notes on electron configuration and periodic trends.
 - **[Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/):** Covers transition metal complexes that build on atomic structure concepts.
 - **[Physical Chemistry: Quantum Chemistry](/1-physical-chemistry/quantum-chemistry/):** Quantum mechanical treatment of atomic and molecular orbitals.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -7544,7 +7238,6 @@ D. 7 orbitals; maximum 14 electrons',
 - The n=3 shell has s (\\ell=0, 1 orbital), p (\\ell=1, 3 orbitals), and d (\\ell=2, 5 orbitals), totaling 9 orbitals. Each orbital holds 2 electrons (Pauli principle), so maximum capacity = 18 electrons. For n: total orbitals = n^2 = 9; max electrons = 2n^2 = 18.
 *Difficulty: medium*
 
-
 **Q2. What is the electron configuration of \\text(Cr) (atomic number 24) and why does it deviate from the expected [\\text(Ar)]\\,3d^4\\,4s^2?**
 
 A. The electron configuration of the noble gas core
@@ -7553,7 +7246,6 @@ A. The electron configuration of the noble gas core
 - Cr has [\\text(Ar)]\\,3d^5\\,4s^1 instead of [\\text(Ar)]\\,3d^4\\,4s^2. The half-filled d^5 configuration (d orbitals each with one electron, maximizing exchange energy) provides extra stability. Similarly, Cu (Z=29) is [\\text(Ar)]\\,3d^(10)\\,4s^1 (fully filled d). These are the two main exceptions to the Aufbau order in the first transition series.
 *Difficulty: hard*
 
-
 **Q3. The effective nuclear charge Z_(\\text(eff)) experienced by a valence electron in sodium (\\text(Na)) is approximately:**
 
 A. The effective nuclear charge (approximately 2.5)
@@ -7561,7 +7253,6 @@ A. The effective nuclear charge (approximately 2.5)
 **Answer: A**
 - Z_(\\text(eff)) = Z - S where S is the shielding constant. For Na 3s: Z = 11, S \\approx 8.5 (Slater's rules: the 10 core electrons (1s^22s^22p^6) contribute fully, same-shell electrons partially). So Z_(\\text(eff)) \\approx 2.5. This is why valence electrons are loosely held and Na is highly reactive (low ionization energy).
 *Difficulty: hard*
-
 
 **Q4. The first ionization energy of nitrogen is higher than that of oxygen. This is because:**
 
@@ -7572,7 +7263,6 @@ C. Nitrogen has fewer electrons',
 **Answer: A**
 - N: 2s^2 2p^3 (half-filled p subshell) is stabilized by exchange energy (electrons prefer parallel spins in different orbitals). O: 2s^2 2p^4 has one paired electron in a p orbital, adding electron-electron repulsion. The pairing energy penalty makes O's IE_1 lower than N's. This is an exception to the general trend of increasing IE across a period.
 *Difficulty: hard*
-
 
 **Q5. Moving down Group 17 (the halogens), which trend correctly describes atomic radius, ionization energy, and electronegativity?**
 
@@ -7585,7 +7275,6 @@ D. All three properties increase',
 - Down Group 17: each successive element adds a principal quantum shell, so atomic radius increases. The increased distance from the nucleus and additional shielding reduce the effective nuclear charge felt by valence electrons, so IE and electronegativity decrease. F (smallest radius, highest IE and EN) > Cl > Br > I > At. This trend is observed for all main groups.
 *Difficulty: hard*
 
-
 **Q6. Lanthanide contraction refers to the gradual decrease in ionic radii across the lanthanide series (La to Lu). This occurs because:**
 
 A. The 4f electrons provide poor shielding of the increasing nuclear charge, causing the outer electrons to be drawn closer
@@ -7597,7 +7286,6 @@ D. The principal quantum number decreases',
 - Across the lanthanides, Z increases by 1 per element while electrons are added to the inner 4f subshell. 4f orbitals are diffuse and provide poor shielding. The increased Z with poor shielding compresses all orbitals (including the outer 6s), causing ionic radii to decrease from La^(3+) to Lu^(3+). This makes transition metals after the lanthanides (Hf onwards) have similar sizes to their period 5 counterparts.
 *Difficulty: hard*
 
-
 **Q7. Which property of an atom cannot be predicted from the hydrogen wavefunctions alone (requires consideration of electron-electron interactions)?**
 
 A. The exact energy levels of multi-electron atoms (the hydrogen solution only gives approximate values for Z-effective
@@ -7605,7 +7293,6 @@ A. The exact energy levels of multi-electron atoms (the hydrogen solution only g
 **Answer: A**
 - The hydrogen atom is exactly solvable because it has only one electron. For multi-electron atoms, the Schrodinger equation cannot be solved analytically due to electron-electron repulsion. Approximations (Hartree-Fock, density functional theory) are used. Quantum numbers and orbital counts follow from the hydrogen solution, but energy levels depend on Z_(\\text(eff)).
 *Difficulty: hard*
-
 
 **Q8. The electron affinity of fluorine is less negative than that of chlorine. This anomaly is attributed to:**
 
@@ -7617,7 +7304,6 @@ D. Fluorine having fewer valence electrons',
 **Answer: A**
 - Electron affinity is the energy released when an atom gains an electron. F has a very compact 2p subshell (no d orbitals); adding an electron causes significant inter-electron repulsion. Cl has a larger 3p subshell that better accommodates the extra electron with less repulsion. Thus \\text(EA)(\\text(Cl)) < \\text(EA)(\\text(F)) (more negative = more energy released).
 *Difficulty: hard*
-
 
 **Q9. Penetration and shielding effects explain why the 4s orbital is filled before the 3d orbital despite having a higher principal quantum number. Which orbital penetrates closer to the nucleus?**
 
@@ -7763,27 +7449,6 @@ Octahedral complex with two bidentate ethylenediamine (en) ligands and two chlor
 - [Inorganic Chemistry](./)
 - [Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/)
 - [Inorganic Chemistry -- Practice Problems](/3-inorganic-chemistry/practice-inorganic-chemistry/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -7943,27 +7608,6 @@ All 6 electrons paired in $t_{2g}$ orbitals.
 - [Coordination Chemistry -- Practice Problems](/3-inorganic-chemistry/practice-coordination-chemistry/)
 - [Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Practice Main Group Solid State
@@ -8023,27 +7667,6 @@ and electronic properties of solids. Select an option to check your answer.
 - [Inorganic Chemistry](./)
 - [Main-Group Chemistry](/3-inorganic-chemistry/main-group-chemistry/)
 - [Solid-State Chemistry](/3-inorganic-chemistry/solid-state-chemistry/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -8503,17 +8126,6 @@ Examples:
    bulk properties don't apply to nanomaterials. **Fix:** Use the quantum confinement formula or
    experimental data for nanoparticle-specific properties.
 
-
-```mermaid
-flowchart TD
-    A[Solid State Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - **Crystal structures:** SC (CN=6), BCC (CN=8), FCC/HCP (CN=12); packing fractions 52%, 68%, 74%.
@@ -8894,16 +8506,6 @@ graph TD
 
 ## Hub
 URL: https://chemistry.wyattau.com/hub/
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Complete University Chemistry Study Guide
 

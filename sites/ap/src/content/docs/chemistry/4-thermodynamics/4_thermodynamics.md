@@ -554,16 +554,6 @@ $$
 $\Delta G \lt 0$ So the reaction is spontaneous under these conditions. The high pressure of
 Reactants and low pressure of product drive the reaction forward.
 
-```mermaid
-flowchart TD
-    A[4_Thermodynamics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Thermodynamic Quantities
 
 | Quantity          | Symbol | Units           | State Function? | Zero Reference             |

@@ -68,16 +68,6 @@ Template:
 
 ```markdown
 
-```mermaid
-flowchart TD
-    A[03 Pull Requests] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Brief description of the change.

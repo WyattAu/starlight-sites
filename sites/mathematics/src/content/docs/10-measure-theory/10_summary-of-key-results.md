@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Summary of Key Results"
 tags:
@@ -170,17 +169,6 @@ the Radon-Nikodym theorem connects measures via densities.
 | H\"older | $\|fg\|_1 \leq \|f\|_p \|g\|_q$ | Duality of $L^p$ spaces |
 | Minkowski | $\|f+g\|_p \leq \|f\|_p + \|g\|_p$ | Triangle inequality |
 | Jensen | $\phi(\int f) \leq \int \phi(f)$ for convex $\phi$ | Entropy inequalities |
-
-
-```mermaid
-flowchart TD
-    A[10_Summary Of Key Results] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Cross-References
 

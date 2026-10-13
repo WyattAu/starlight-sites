@@ -947,17 +947,6 @@ $$
 K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{(0.25)^2}{(0.50)(1.50)^3} = \frac{0.0625}{1.6875} \approx 0.0370\,\text{mol}^{-2}\,\text{dm}^6
 $$
 
-
-```mermaid
-flowchart TD
-    A[4_Chemical Changes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the key concepts of Chemical Reactions for GCSE Chemistry. Focus on understanding

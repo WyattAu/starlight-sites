@@ -13,17 +13,6 @@ description: "European imperialism in Asia, the Treaty of Nanking, Unequal Treat
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Imperialism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## European Imperialism in Asia
 
 European imperialism in Asia accelerated dramatically during the nineteenth century, driven by industrialisation, military superiority, and ideological justifications of racial and cultural superiority. The expansion of European power into Asia fundamentally transformed political, economic, and social structures across the continent.
@@ -152,23 +141,3 @@ European imperialism in Asia was like a game of Monopoly where one player keeps 
 - [The Chinese Revolution](/history/chinese-revolution/)
 - [The Cold War](/history/cold-war/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -536,16 +536,6 @@ public:
 - [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)
 - [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
 
-```mermaid
-flowchart TD
-    A[1_Raii_Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to raii patterns, including key

@@ -734,17 +734,6 @@ URL: https://highers.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The Scottish Highers are the qualifications taken by students in Scotland, typically in S5 (the fifth year of secondary school). They are the Scottish equivalent of A-levels and are used for university admissions across the UK and internationally. Highers are structured differently from other UK qualifications, you typically sit 5 Highers in S5 and may take Advanced Highers in S6 for more advanced study.
@@ -1988,17 +1977,6 @@ genetic variation.
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
 
-
-```mermaid
-flowchart TD
-    A[1_Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Biology is the study of living systems at every scale, from molecules to ecosystems. Cells are the fundamental units of life, each one a factory of chemical reactions powered by energy from food or sunlight. Understanding how structures relate to functions, like how the shape of an enzyme determines what it can do, helps you see why organisms work the way they do. The key insight is that all life shares common molecular machinery, from DNA to ATP, which is why studying one organism often reveals principles that apply across all life.
@@ -2376,17 +2354,6 @@ values.
 **Why it matters:** Cell biology underpins medicine (understanding disease), biotechnology (engineering cells for production), and genetics (how DNA is expressed). Without grasping cell structure, advanced biology is impossible.
 
 **The key insight:** The fluid mosaic model explains how cell membranes are both barriers and gatekeepers, fluid enough to allow movement, but structured enough to control what enters and exits.
-
-
-```mermaid
-flowchart TD
-    A[Diag Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -3182,17 +3149,6 @@ own Proteins. When the rabbit dies, decomposer bacteria break down its proteins,
 $\mathrm{NH_3$ Back into the soil. Nitrosomonas converts the $\mathrm{NH_3$ to $\mathrm{NO_2^-$ And
 Nitrobacter Converts $\mathrm{NO_2^-$ to $\mathrm{NO_3^-$. A grass plant absorbs the nitrate through
 its roots.
-
-
-```mermaid
-flowchart TD
-    A[5_Evolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -4040,17 +3996,6 @@ Alleles are maintained in the population. This is also called balanced polymorph
 The heterozygote advantage maintains both the normal and sickle cell alleles in the population. This
 Explains why sickle cell anaemia remains relatively common in malaria-endemic regions despite being
 A severe genetic disorder.
-
-
-```mermaid
-flowchart TD
-    A[4_Genetics Adaptation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5386,17 +5331,6 @@ is exploited in brewing (beer) and baking (bread -- $\mathrm{CO_2$ causes the do
   the cytoplasm.
 :::
 
-
-```mermaid
-flowchart TD
-    A[2_Metabolism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Biology is the study of living systems at every scale, from molecules to ecosystems. Cells are the fundamental units of life, each one a factory of chemical reactions powered by energy from food or sunlight. Understanding how structures relate to functions, like how the shape of an enzyme determines what it can do, helps you see why organisms work the way they do. The key insight is that all life shares common molecular machinery, from DNA to ATP, which is why studying one organism often reveals principles that apply across all life.
@@ -6169,17 +6103,6 @@ genetic variation.
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
 
-
-```mermaid
-flowchart TD
-    A[3_Multicellular] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Biology is the study of living systems at every scale, from molecules to ecosystems. Cells are the fundamental units of life, each one a factory of chemical reactions powered by energy from food or sunlight. Understanding how structures relate to functions, like how the shape of an enzyme determines what it can do, helps you see why organisms work the way they do. The key insight is that all life shares common molecular machinery, from DNA to ATP, which is why studying one organism often reveals principles that apply across all life.
@@ -6254,27 +6177,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Biology](https://gcse.wyattau.com/biology/):** Biology notes covering cell biology and ecology.
 - **[Chemistry](https://alevel.wyattau.com/chemistry/chemistry/):** Chemistry notes covering atomic structure and bonding.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -6821,17 +6723,6 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[3_Acids Bases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table: Acid-Base Concepts
 
@@ -7946,17 +7837,6 @@ $$
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[5_Analytical] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Analytical Techniques
 
 | Technique            | Information obtained        | Sensitivity  | Sample requirement |
@@ -8557,17 +8437,6 @@ lower temperature than would otherwise be possible, but there is a practical low
 **Why it matters:** Chemical reactions govern everything from cooking to combustion, from drug metabolism to battery operation. Predicting reaction outcomes is essential for chemistry, medicine, and engineering.
 
 **The key insight:** Balancing equations is not just bookkeeping, it reflects the physical reality that atoms are conserved, and the coefficients represent the actual mole ratios in which substances react.
-
-
-```mermaid
-flowchart TD
-    A[Diag Chemical Reactions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -9181,17 +9050,6 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[2_Heat Matter] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table: Energetics and Kinetics
 
@@ -11007,17 +10865,6 @@ Carboxylic acid, providing a route to chain-elongated compounds.
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[4_Organic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary Table: Key Organic Reactions
 
 | Reactant          | Reagent                             | Product               | Reaction type             |
@@ -11246,27 +11093,6 @@ D. An absorption at 2500-3000 cm-1 indicates an O-H bond; hydrogen bonding shift
 - [Scottish Highers Chemistry](./)
 - [Highers](/)
 - [Structure Bonding](/chemistry/1-structure-bonding/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -11708,17 +11534,6 @@ Left charge: $-2 + 2 = 0$. Right charge: $2(+3) + 3(-2) = 0$. Balanced.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[1_Structure Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary Table: Oxidation States of Common Elements
 
@@ -13013,17 +12828,6 @@ See the examples integrated throughout the sections above.
 8. Write a Haskell function that takes a list of integers and returns the list sorted in descending
    order, using `sortBy` from `Data.List`.
 
-
-```mermaid
-flowchart TD
-    A[4_Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of algorithms and data structures, including underlying theory,
@@ -13059,17 +12863,6 @@ URL: https://highers.wyattau.com/computer-science/3-databases/3-databases/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3-databases"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[3 Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -13123,27 +12916,6 @@ manipulation and supports ACID transactions for reliability. Normalisation
 dependencies. Understanding entity-relationship modelling, SQL queries, and
 normal forms is essential for designing databases that are efficient, consistent,
 and maintainable.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -13918,17 +13690,6 @@ See the examples integrated throughout the sections above.
 - [Hardware](https://leaving-cert.wyattau.com/computer-science/1-hardware/1_hardware/) explains the storage and processing architecture that determines database performance characteristics.
 - [Algorithms](/computer-science/4-algorithms/4_algorithms/) provides the sorting, searching, and graph algorithms used in database query optimisation.
 
-
-```mermaid
-flowchart TD
-    A[3_Databases] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 A database is like a library with a very strict librarian -- every book has a unique call number (primary key), is filed in a specific section (tables), and the librarian knows exactly where everything is (indexing). Normalisation is the process of organising the library so that each fact is stored in exactly one place -- you do not want the same address written on ten different forms. SQL is the language you use to ask the librarian for information, and joins are how you combine information from different sections to answer complex questions. The trade-off is between normalised design (clean, consistent) and denormalised design (fast, redundant).
@@ -14280,17 +14041,6 @@ will eventually be slower regardless of constant factors.
 **Why it matters:** Algorithm design is the core of computer science. It determines how fast software runs, how much memory it uses, and whether a problem is practically solvable at all.
 
 **The key insight:** Big-O notation describes how an algorithm's time or space requirements grow with input size, understanding this lets you predict performance before writing any code.
-
-
-```mermaid
-flowchart TD
-    A[Diag Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -15104,17 +14854,6 @@ See the examples integrated throughout the sections above.
 
 25. Describe three differences between DRAM and SRAM. State which is used for main memory and which
     for cache, and explain why.
-
-
-```mermaid
-flowchart TD
-    A[1_Hardware] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -16447,17 +16186,6 @@ See the examples integrated throughout the sections above.
 18. Describe three ways to improve the performance of a web page. Include both frontend and backend
     techniques.
 
-
-```mermaid
-flowchart TD
-    A[5_Networks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of web design and development, including underlying theory,
@@ -16664,27 +16392,6 @@ D. WPA2 encryption is used, with SMTP being the protocol that secures client-ser
 - [Scottish Highers Computer Science](./)
 - [Highers](/)
 - [Hardware](/computer-science/1-hardware/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -17520,17 +17227,6 @@ See the examples integrated throughout the sections above.
 
 18. Describe three advantages and two disadvantages of agile development compared to the waterfall
     model.
-
-
-```mermaid
-flowchart TD
-    A[2_Software] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -18369,16 +18065,6 @@ See the examples integrated throughout the sections above.
 
 16. Find the range of values of $k$ for which $x^2 + 2kx + k^2 + 3 = 0$ has no real roots.
 
-```mermaid
-flowchart TD
-    A[1_Algebra Functionsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to algebra and calculus,
@@ -19159,17 +18845,6 @@ See the examples integrated throughout the sections above.
 
 12. Use Maclaurin series to evaluate $\displaystyle\lim_{x \to 0} \frac{1 - \cos x}{x^2}$.
 
-
-```mermaid
-flowchart TD
-    A[3_Calculus] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to further calculus, including
@@ -19558,17 +19233,6 @@ $f(x) = 2x^3 - 3x^2 - x + 4$.
 
 **The key insight:** Functions are machines that transform inputs to outputs, understanding this concept unlocks calculus, statistics, and virtually all applied mathematics.
 
-
-```mermaid
-flowchart TD
-    A[Diag Algebra Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -19821,27 +19485,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Biology](https://gcse.wyattau.com/biology/):** Biology notes covering cell biology and ecology.
 - **[Chemistry](https://alevel.wyattau.com/chemistry/chemistry/):** Chemistry notes covering atomic structure and bonding.
 - **Practice:** Practice problems for revision.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -20628,17 +20271,6 @@ See the examples integrated throughout the sections above.
 
 3. Heights are normally distributed with mean 170 cm and standard deviation 10 cm. Find the height
     that only 5% of people exceed.
-
-
-```mermaid
-flowchart TD
-    A[5_Statistics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -21501,16 +21133,6 @@ See the examples integrated throughout the sections above.
 
 16. Express $\cos 4\theta$ in terms of $\cos\theta$ using double angle formulae.
 
-```mermaid
-flowchart TD
-    A[2_Trigonometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to geometry and trigonometry,
@@ -22309,16 +21931,6 @@ $$2x + y - z = 8$$ $$x - y + 3z = 1$$ $$3x + 2y + z = 11$$
 8. Reflect the point $(2, 5)$ in the line $y = x$ using a matrix method. Verify your answer
     geometrically.
 
-```mermaid
-flowchart TD
-    A[4_Vectors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to vectors and matrices,
@@ -22718,17 +22330,6 @@ friction in the cord reduce the total mechanical energy, producing heat.
 **Why it matters:** Mechanics is the foundation of engineering, architecture, sports science, and vehicle design. Understanding forces and motion lets you predict where a projectile will land and how structures bear loads.
 
 **The key insight:** Newton's second law ($F = ma$) is deceptively simple, applying it correctly requires identifying all forces acting on an object and choosing the right coordinate system.
-
-
-```mermaid
-flowchart TD
-    A[Diag Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -23691,16 +23292,6 @@ The potential difference: $\Delta V = (-5.97 + 6.25) \times 10^7 = 2.8 \times 10
 - [Mechanics](/physics/1-mechanics/1_mechanics/) -- Dynamics extends kinematics by introducing forces that cause the motion described in mechanics.
 - [Electricity](/physics/3-electricity/3_electricity/) -- Gravitational and electric fields share mathematical similarities, connecting dynamics to electrostatics.
 - [Particles and Waves](/physics/4-particles-waves/4_particles-waves/) -- Momentum conservation in particle physics applies the same dynamic principles at the quantum scale.
-
-```mermaid
-flowchart TD
-    A[2_Dynamics Spacex] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -24681,16 +24272,6 @@ the speed of light.
 - [Mechanics](/physics/1-mechanics/1_mechanics/) -- Electric circuits involve energy transfer, connecting electrical power to mechanical work and energy conservation.
 - [Waves and Radiation](/physics/5-waves-radiation/5_waves-radiation/) -- Electromagnetic waves are produced by accelerating charges, linking electricity to wave phenomena.
 - [Dynamics and Space](/physics/2-dynamics-space/2_dynamics-space/) -- Electric and magnetic fields affect the motion of charged particles, connecting electricity to dynamics.
-
-```mermaid
-flowchart TD
-    A[3_Electricityx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -26129,16 +25710,6 @@ Surface with no vertical acceleration.
 - [Waves and Radiation](/physics/5-waves-radiation/5_waves-radiation/) -- Simple harmonic motion in mechanics shares mathematical treatment with wave phenomena.
 - [Algebra and Functions](/maths/1-algebra-functions/1_algebra-functions/) -- Kinematic equations are algebraic relationships between displacement, velocity, and time.
 
-```mermaid
-flowchart TD
-    A[1_Mechanicsx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Mechanics is the study of **why things move the way they do**. At its heart, it rests on Newton's three laws, which connect force, mass, and acceleration into a single framework. The first law tells you that motion persists without force; the second tells you that force changes motion; the third tells you that forces always come in pairs. Everything else in mechanics, friction, energy, momentum, circular motion, is an application of these three principles to specific situations. The key insight is that force is a vector: you must resolve it into components before applying Newton's second law.
@@ -26488,17 +26059,6 @@ $$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "4 Particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves"}, {"name": "4_particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves/4_particles-waves"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[4_Particles Waves] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -26996,27 +26556,6 @@ B. The slit separation is 6.0 x 10 to the power of minus 4 metres (0.60 mm), cal
 - **[Chemistry](https://alevel.wyattau.com/chemistry/chemistry/):** Chemistry notes covering atomic structure and bonding.
 - **Practice:** Practice problems for revision.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -27424,16 +26963,6 @@ Background radiation comes from:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "5 Waves Radiation", "url": "https://highers.wyattau.com/physics/5-waves-radiation"}, {"name": "5_waves Radiation", "url": "https://highers.wyattau.com/physics/5-waves-radiation/5_waves-radiation"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[5_Waves Radiation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

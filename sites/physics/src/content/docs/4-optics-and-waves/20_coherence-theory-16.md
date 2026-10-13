@@ -160,17 +160,6 @@ $\pi w d/(\lambda D) = \pi \times 2\times10^{-4} \times 5\times10^{-4} / (5.5\ti
 $= \pi \times 10^{-7} / (2.75\times10^{-7}) = \pi \times 0.364 = 1.143$ rad. $|\gamma| = |\sin(1.143)/1.143| = 0.81/1.143 = 0.709$.
 Fringe visibility $V = 0.71$ (71%). $\blacksquare$
 
-
-```mermaid
-flowchart TD
-    A[20_Coherence Theory 16] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Coherence theory bridges the gap between perfectly monochromatic waves and reality. Temporal coherence measures how long a wave maintains predictable phase, like how long a singer holds a steady note. Spatial coherence measures how correlated the phase is across different points, like how synchronised a crowd of clappers is. The van Cittert-Zernike theorem is the central insight: even an incoherent source produces spatial coherence over a finite area, and the coherence width is inversely proportional to source size. This is why starlight, despite originating from an incoherent source, can produce interference fringes.
@@ -184,23 +173,3 @@ Coherence theory bridges the gap between perfectly monochromatic waves and reali
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

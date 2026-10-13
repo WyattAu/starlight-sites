@@ -916,16 +916,6 @@ building a personal test matrix.
 - [Trigonometry](/maths/pure-mathematics/08-trigonometry/), The angle between two vectors uses the cosine rule and direction cosines from trigonometry.
 - [Mechanics](https://hsc.wyattau.com/physics/mechanics/), Velocity and acceleration vectors in mechanics are particular applications of the vector concept.
 
-```mermaid
-flowchart TD
-    A[12 Vectors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

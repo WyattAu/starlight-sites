@@ -519,16 +519,6 @@ public:
 - [Mutexes, Shared Locks, and Deadlock Prevention](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
 - [Atomic Operations and Lock-Free Programming](/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
 
-```mermaid
-flowchart TD
-    A[2_Data_Races] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential concepts and techniques related to data races and critical sections,

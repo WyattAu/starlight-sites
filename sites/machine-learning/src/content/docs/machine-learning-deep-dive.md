@@ -4,17 +4,6 @@ title: "Machine Learning Deep Dive"
 description: Comprehensive machine learning guide covering algorithms, neural networks, and practical applications.
 ---
 
-
-```mermaid
-flowchart TD
-    A[Machine Learning Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Introduction to Machine Learning
 
 - What is ML?
@@ -106,7 +95,6 @@ regularisation, and proper evaluation via cross-validation. Deep learning
 extends classical ML with neural networks (CNNs, RNNs, Transformers) for
 unstructured data. Practical ML requires feature engineering, hyperparameter
 tuning, and deployment pipelines (MLOps).
-
 
 ## Detailed Content
 

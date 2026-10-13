@@ -187,17 +187,6 @@ At $T = 374.15$ K (1 K above boiling), $P \approx 1.013 \times 10^5 + 1.35 \time
 - **Cryogenics:** The lambda transition in helium-4 determines the properties of superfluid helium used in low-temperature experiments.
 - **Food industry:** Controlling phase transitions (freezing, melting, crystallisation) determines texture and shelf life of food products.
 
-
-```mermaid
-flowchart TD
-    A[10_Phase Transitions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Phase transitions are sudden rearrangements of matter's structure. First-order transitions like boiling involve latent heat because energy goes into breaking bonds rather than raising temperature. The Clausius-Clapeyron equation links the boiling point's pressure sensitivity to the volume change during vaporization. At the critical point, the distinction between liquid and gas vanishes because thermal fluctuations overcome both attractions and repulsions. Critical exponents describe how physical quantities diverge near this point, and their universality reflects that wildly different systems share the same mathematical structure near criticality.
@@ -213,23 +202,3 @@ Phase transitions are sudden rearrangements of matter's structure. First-order t
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

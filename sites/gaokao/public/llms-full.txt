@@ -411,17 +411,6 @@ URL: https://gaokao.wyattau.com/hub/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 The Gaokao (高考) is the National College Entrance Examination of China, one of the most important and most gruelling examinations in the world. Every June, approximately 12 million students sit for this exam, and their scores determine which universities they can attend. The Gaokao is not merely a test of knowledge; it is a test of endurance, precision, and strategic thinking under extreme pressure.
@@ -1582,17 +1571,6 @@ $$\begin{array}{lccc}
 
 **考试技巧：** 强碱弱酸盐溶液的 $\text{pH}$ 计算，先求水解常数，再利用近似计算求 $[\text{OH}^-]$，最后求 $\text{pH}$。
 
-
-```mermaid
-flowchart TD
-    A[Inorganic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Inorganic chemistry is like learning the periodic table as a map of neighborhoods. Each element lives in a specific neighborhood with specific properties, and elements in the same neighborhood behave similarly. Sodium and potassium are neighbors who both react vigorously with water; fluorine and chlorine are neighbors who both love to steal electrons. Understanding these neighborhood patterns lets you predict behavior without memorizing every individual reaction.
@@ -2008,17 +1986,6 @@ $$
 **答案：** 单体为丙烯腈 $\text{CH}_2=\text{CHCN}$ 和1,3-丁二烯 $\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$
 
 **考试技巧：** 判断高分子化合物单体的方法：①若链节中含有双键，可能是共聚物；②将链节断开，还原双键；③注意1,4-加聚和1,2-加聚的区别。
-
-
-```mermaid
-flowchart TD
-    A[Organic] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -2443,16 +2410,6 @@ D. 苏轼的母亲鼓励他学习范滂
 
 **考试技巧：** 哲理诗的鉴赏要透过表面现象，分析深层含义。注意诗中的关键词和比喻义。
 
-```mermaid
-flowchart TD
-    A[Reading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Reading comprehension on the Gaokao is like being a detective. Each passage is a crime scene full of clues, and you must piece together what the author is really saying. The surface meaning is the obvious evidence, but the deeper meaning is hidden in word choices, sentence structure, and what the author chose not to say. The best readers are the best observers.
@@ -2813,17 +2770,6 @@ URL: https://gaokao.wyattau.com/chinese/writing/
 
 **常见错误：** 记叙文容易写成流水账。要注意细节描写、心理描写和环境描写，使文章生动感人。
 
-
-```mermaid
-flowchart TD
-    A[Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Writing an essay is like building a bridge. The introduction is the foundation that must be solid and well-placed. Each paragraph is a support beam that must connect logically to the next. The conclusion is the capstone that ties everything together. If any beam is weak or poorly placed, the entire structure collapses.
@@ -3089,17 +3035,6 @@ URL: https://gaokao.wyattau.com/diagnostics/diag-mathematics/
 **Step 4:** Retake the diagnostic in 2-3 days to verify improvement. Spaced repetition of diagnostic tests strengthens long-term retention.
 
 **Step 5:** If you consistently score below 6/10, revisit the foundational topics (sets, functions, basic trigonometry) before attempting harder practice problems.
-
-
-```mermaid
-flowchart TD
-    A[Diag Mathematics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -3596,16 +3531,6 @@ D. confusion
 
 **考试技巧：** 词义猜测题要利用上下文线索，特别是同义词、反义词或解释性短语。
 
-```mermaid
-flowchart TD
-    A[Reading] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 English reading comprehension on the Gaokao is like solving a puzzle. Each question asks you to find a specific piece of information in the text, and the challenge is locating it quickly among many sentences. Skimming is like scanning the puzzle box for the right color; scanning is like looking for the specific shape of the piece you need.
@@ -4031,16 +3956,6 @@ Li Hua
 "Tom opened his eyes, stunned by the response. Tears welled up as he stood to bow, his trembling hands now steady with relief and joy. After the show, his music teacher approached him with a warm smile. 'You didn't just play the piano tonight, Tom. You shared your heart with everyone here.' From that day forward, Tom no longer feared the stage. He had discovered that courage was not the absence of fear, but the determination to move forward despite it."
 
 **考试技巧：** 续写中的情感描写要自然真实，通过动作、语言、心理活动等多种方式展现人物情感变化。
-
-```mermaid
-flowchart TD
-    A[Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -4470,17 +4385,6 @@ $$
 
 **考试技巧：** "$\forall$"型命题转化为最值问题，"$\exists$"型命题转化为判别式问题。注意逻辑联结词"且"对应交集，"或"对应并集。
 
-
-```mermaid
-flowchart TD
-    A[Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Algebra is like a balance scale. Whatever you do to one side, you must do to the other to keep it balanced. This is the fundamental principle behind solving equations: you are trying to isolate the variable on one side while keeping the scale balanced. Each operation you perform is like adding or removing weights from both sides.
@@ -4838,17 +4742,6 @@ $$
 **答案：** $g(x) = 2^{x-2} - 1$
 
 **考试技巧：** 函数图像变换遵循"左加右减，上加下减"原则。注意平移是针对 $x$ 还是整个函数。
-
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -5220,17 +5113,6 @@ $$
 **答案：** $A_1E$ 与平面 $ABCD$ 所成角为 $\arcsin\dfrac{\sqrt{5}}{5}$
 
 **考试技巧：** 线面角公式：$\sin\theta = \dfrac{|\vec{v} \cdot \vec{n}|}{|\vec{v}||\vec{n}|}$，其中 $\vec{v}$ 是直线方向向量，$\vec{n}$ 是平面法向量。
-
-
-```mermaid
-flowchart TD
-    A[Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -5676,17 +5558,6 @@ $$
 **答案：** 当 $R = 1\,\Omega$ 时，电源输出功率最大，最大为 $36\,\text{W}$
 
 **考试技巧：** 电源输出功率最大的条件是外电阻等于内阻，即 $R = r$。此时效率为 $50\%$。
-
-
-```mermaid
-flowchart TD
-    A[Electricity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -6142,17 +6013,6 @@ $$
 
 **考试技巧：** 功能关系问题通常选择全过程应用动能定理，可以避免分析中间过程的细节。
 
-
-```mermaid
-flowchart TD
-    A[Mechanics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Mechanics is like understanding how things move and why. Forces are like pushes and pulls: gravity pulls you down, friction slows you down, and normal force pushes back when you stand on a surface. Newton's laws are the rules of the game: every push has an equal and opposite push back.
@@ -6578,17 +6438,6 @@ $$
 **答案：** 旋转后的光强为 $\dfrac{3I_0}{8}$
 
 **考试技巧：** 马吕斯定律：$I = I_0 \cos^2\theta$，其中 $\theta$ 是两偏振片透振方向的夹角。
-
-
-```mermaid
-flowchart TD
-    A[Optics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 

@@ -964,16 +964,6 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 - **Electron configurations and ion formation** → Review
   [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
 
-```mermaid
-flowchart TD
-    A[2_Acids And Bases Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential chemistry of acids and bases (advanced), including key reactions,

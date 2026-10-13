@@ -881,17 +881,6 @@ much energy is available to the fox? Assume 10% energy transfer efficiency. **So
 receives 10% of 10,000 kJ = 1,000 kJ. Fox receives 10% of 1,000 kJ = 100 kJ. The remaining 90% at
 each level is lost through respiration, excretion, and heat.
 
-
-```mermaid
-flowchart TD
-    A[Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 GCSE Biology covers cell biology (structure, organelles, microscopy, mitosis, meiosis, stem cells),
@@ -1664,17 +1653,6 @@ percentage yield. (Mr CaCO3 = 100, Mr CaO = 56) **Solution:** CaCO3 -> CaO + CO2
 10/100 = 0.1 mol. Theoretical moles CaO = 0.1 mol. Theoretical mass = 0.1 x 56 = 5.6 g. Percentage
 yield = (5.0/5.6) x 100 = 89.3%.
 
-
-```mermaid
-flowchart TD
-    A[Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 GCSE Chemistry covers atomic structure (subatomic particles, isotopes, electron configuration),
@@ -2138,17 +2116,6 @@ similarity (both use statistics to support their arguments) and a difference (Te
 forward-looking; Text B is cautionary). For each point, provide evidence from both texts with short
 embedded quotations. Use comparative connectives (similarly, in contrast, whereas, on the other
 hand).
-
-
-```mermaid
-flowchart TD
-    A[English] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -2641,17 +2608,6 @@ URL: https://gcse.wyattau.com/hub/
   "isAccessibleForFree": true
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Why This Guide Exists
 
@@ -3737,17 +3693,6 @@ GCSE Maths is like learning a musical instrument -- you need both theory (formul
 **Problem:** A bag contains 3 red and 2 blue counters. Two counters are drawn without replacement. Find the probability that both are red.
 **Solution:** P(first red) = 3/5. P(second red | first red) = 2/4 = 1/2. P(both red) = 3/5 x 1/2 = 3/10.
 
-
-```mermaid
-flowchart TD
-    A[Maths] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 GCSE Mathematics covers number (fractions, decimals, percentages, ratio, standard form, bounds), algebra (simplifying, expanding, factorising, solving equations, inequalities, sequences, functions, graphs), geometry (angles, circles, Pythagoras, trigonometry, transformations, vectors), and statistics (averages, grouped data, scatter graphs, cumulative frequency, box plots, probability, tree diagrams, conditional probability). Key exam skills include showing all working, reading questions twice to identify exact requirements, estimating answers to check reasonableness, and managing time at roughly one mark per minute.
@@ -4505,17 +4450,6 @@ the answer is £180.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[Maths Question Bank] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5281,17 +5215,6 @@ secondary. The input voltage is 230 V. Calculate the output voltage. **Solution:
 **Problem:** A sample of iodine-131 has an activity of 800 Bq. The half-life of iodine-131 is 8
 days. What will the activity be after 32 days? **Solution:** 32 days / 8 days per half-life = 4
 half-lives. Activity = 800 x (1/2)^4 = 800 x 1/16 = 50 Bq.
-
-
-```mermaid
-flowchart TD
-    A[Physics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -7275,17 +7198,6 @@ Multi-step problems in Bioenergetics often combine two or more concepts. Break t
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[4_Bioenergetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the biological principles of bioenergetics, including key concepts, experimental
@@ -8184,17 +8096,6 @@ Multi-step problems in Cell Biology often combine two or more concepts. Break th
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[1_Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the biological principles of cell biology, including key concepts, experimental
@@ -8445,16 +8346,6 @@ sustain another trophic level.
 
 **The key insight:** Only about 10% of energy transfers between trophic levels, the rest is lost as heat through respiration.
 
-```mermaid
-flowchart TD
-    A[Diag Bioenergetics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -8702,17 +8593,6 @@ have a large SA:V ratio, ensuring efficient exchange. This is why large organism
 **Why it matters:** From understanding diseases to growing organs, cell biology is the foundation of modern medicine and biotechnology.
 
 **The key insight:** Cell size is limited by the surface area to volume ratio, as cells grow, they need more membrane relative to their volume to exchange materials efficiently.
-
-
-```mermaid
-flowchart TD
-    A[Diag Cell Biology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -8990,17 +8870,6 @@ prove causation -- other factors (light, moisture, competition) may also be corr
 **Why it matters:** From conservation to climate change, ecology explains how ecosystems function and how human activities affect them.
 
 **The key insight:** Energy flows through ecosystems in one direction (sun → producers → consumers), but nutrients cycle endlessly.
-
-
-```mermaid
-flowchart TD
-    A[Diag Ecology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -9285,17 +9154,6 @@ with genetic conditions.
 
 **The key insight:** Genes don't work alone, most traits are polygenic (controlled by many genes) and influenced by the environment.
 
-
-```mermaid
-flowchart TD
-    A[Diag Inheritance Variation Evolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -9555,17 +9413,6 @@ to respond to danger (e.g., touching a hot object) before the brain has even reg
 **Why it matters:** Understanding physiology helps you make informed health decisions and explains how lifestyle choices affect your body.
 
 **The key insight:** Homeostasis, the body's ability to maintain internal stability, is the foundation of health. When homeostasis fails, disease occurs.
-
-
-```mermaid
-flowchart TD
-    A[Diag Organisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -10702,17 +10549,6 @@ the appropriate terminology.
 Multi-step problems in Ecology often combine two or more concepts. Break the problem down: identify
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[7_Ecology] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -12225,17 +12061,6 @@ Multi-step problems in Inheritance, Variation, and Evolution often combine two o
 Break the problem down: identify what you need to find, recall the relevant formula or principle,
 substitute values, and state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[6_Inheritance Variation Evolution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the biological principles of inheritance, variation, and evolution, including key
@@ -13134,17 +12959,6 @@ Multi-step problems in Organisation often combine two or more concepts. Break th
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[2_Organisation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the biological principles of organisation, including key concepts, experimental
@@ -13236,27 +13050,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - [GCSE Biology](./)
 - [GCSE](..)
 - [Cell Biology](/biology/1-cell-biology/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -14194,17 +13987,6 @@ Multi-step problems in Atomic Structure often combine two or more concepts. Brea
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[1_Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential chemistry of atomic structure, including key reactions, underlying
@@ -15140,16 +14922,6 @@ the appropriate terminology.
 Multi-step problems in Bonding often combine two or more concepts. Break the problem down: identify
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
-
-```mermaid
-flowchart TD
-    A[2_Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -16119,17 +15891,6 @@ $$
 K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} = \frac{(0.25)^2}{(0.50)(1.50)^3} = \frac{0.0625}{1.6875} \approx 0.0370\,\text{mol}^{-2}\,\text{dm}^6
 $$
 
-
-```mermaid
-flowchart TD
-    A[4_Chemical Changes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the key concepts of Chemical Reactions for GCSE Chemistry. Focus on understanding
@@ -16454,17 +16215,6 @@ periodic table. Its electron configuration is $2, 8, 4$. This can be confirmed: 
 
 **The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant, electrons are held more tightly.
 
-
-```mermaid
-flowchart TD
-    A[Diag Atomic Structure] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -16779,17 +16529,6 @@ layers structural integrity) and weak inter-layer forces (which allow the layers
 
 **The key insight:** Molecular shape (VSEPR) determines polarity, and polarity determines intermolecular forces, chain reaction from atomic scale to macroscopic properties.
 
-
-```mermaid
-flowchart TD
-    A[Diag Chemical Bonding] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -16910,27 +16649,6 @@ This content is regularly updated to reflect the latest specification changes an
 - [GCSE Chemistry](./)
 - [Chemistry Practice (Interactive)](/chemistry/practice-chemistry/)
 - [GCSE](..)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -18377,17 +18095,6 @@ $$
 \text{pH} = -\log_{10}[\text{H}^+] = -\log_{10}(0.050) = 1.30
 $$
 
-
-```mermaid
-flowchart TD
-    A[8_Organic Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the key concepts of Organic Chemistry for GCSE Chemistry. Focus on understanding
@@ -18470,27 +18177,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Atomic Structure](/chemistry/1-atomic-structure/1_atomic-structure/):** Detailed notes on atomic structure and the periodic table.
 - **[Chemical Bonding](/chemistry/2-bonding/2_bonding/):** Covers ionic, covalent, and metallic bonding concepts.
 - **[Quantitative Chemistry](/chemistry/3-quantitative-chemistry/3_quantitative-chemistry/):** Covers balanced equations and molar calculations used in the practice problems.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -19605,17 +19291,6 @@ $$
 m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
 $$
 
-
-```mermaid
-flowchart TD
-    A[3_Quantitative Chemistry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the key concepts of Quantitative Chemistry for GCSE Chemistry. Focus on
@@ -20372,17 +20047,6 @@ Multi-step problems in Algorithms often combine two or more concepts. Break the 
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[4_Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of algorithms, including underlying theory, practical
@@ -20787,17 +20451,6 @@ the data is nearly sorted if an optimised version with an early termination chec
 **Why it matters:** From search engines to social media feeds, algorithms power the digital world. Understanding them helps you think computationally and solve problems efficiently.
 
 **The key insight:** Big O notation measures how algorithms scale, O(n) is linear, O(log n) is logarithmic, and O(n²) is quadratic. The difference matters at scale.
-
-
-```mermaid
-flowchart TD
-    A[Diag Algorithms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -21256,17 +20909,6 @@ double-check the logic of the condition to ensure it can eventually evaluate to 
 
 **The key insight:** Debugging is problem-solving, finding and fixing errors in logic requires patience and systematic testing.
 
-
-```mermaid
-flowchart TD
-    A[Diag Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -21387,27 +21029,6 @@ This content is regularly updated to reflect the latest specification changes an
 - [GCSE Computer Science](./)
 - [Computer Science Practice (Interactive)](/computer-science/practice-computer-science/)
 - [GCSE](/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -22202,17 +21823,6 @@ Multi-step problems in Data Representation often combine two or more concepts. B
 down: identify what you need to find, recall the relevant formula or principle, substitute values,
 and state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[1_Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of data representation, including underlying theory, practical
@@ -22993,17 +22603,6 @@ answer using the appropriate terminology.
 Multi-step problems in Computer Systems often combine two or more concepts. Break the problem down:
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[2_Hardware] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -24561,17 +24160,6 @@ Multi-step problems in Networks often combine two or more concepts. Break the pr
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[3_Networks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of networks, including underlying theory, practical
@@ -24663,27 +24251,6 @@ import PracticeProblem from "@components/PracticeProblem";
 - [GCSE Computer Science](./)
 - [GCSE Computer Science, Diagnostic Test](/computer-science/diagnostic-test/)
 - [GCSE](/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -25417,17 +24984,6 @@ Multi-step problems in Programming often combine two or more concepts. Break the
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[5_Programming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of programming, including underlying theory, practical
@@ -26059,17 +25615,6 @@ Multi-step problems in The 19th-Century Novel often combine two or more concepts
 down: identify what you need to find, recall the relevant formula or principle, substitute values,
 and state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[2_19Th Century Novel] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the analytical frameworks and techniques relevant to the 19th-century novel,
@@ -26489,17 +26034,6 @@ shows the complexity of the issue and still arrives at a clear conclusion.
 
 **The key insight:** The most powerful writing engages the reader's senses, describing what characters see, hear, smell, taste, and feel creates immersive experiences.
 
-
-```mermaid
-flowchart TD
-    A[Diag Creative Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -26899,17 +26433,6 @@ reader to imagine what it might contain.
 
 **The key insight:** Every literary choice (word, structure, character) serves a purpose, the author's craft is as important as the story itself.
 
-
-```mermaid
-flowchart TD
-    A[Diag Reading Fiction] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -27301,17 +26824,6 @@ conclusion rather than a simplistic verdict.
 
 **The key insight:** Every non-fiction text has a purpose, understanding the writer's intent helps you evaluate their arguments more effectively.
 
-
-```mermaid
-flowchart TD
-    A[Diag Reading Nonfiction] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -27434,27 +26946,6 @@ This content is regularly updated to reflect the latest specification changes an
 - [GCSE English Literature](./)
 - [English Practice (Interactive)](/english/practice-english/)
 - [GCSE](..)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -28025,17 +27516,6 @@ tested, and structure your answer using the appropriate terminology.
 Multi-step problems in Essay Writing for GCSE English Literature often combine two or more concepts.
 Break the problem down: identify what you need to find, recall the relevant formula or principle,
 substitute values, and state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[4_Essay Writing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -29137,17 +28617,6 @@ Multi-step problems in Modern Texts and Poetry often combine two or more concept
 down: identify what you need to find, recall the relevant formula or principle, substitute values,
 and state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[3_Modern Texts And Poetry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the analytical frameworks and techniques relevant to modern texts and poetry,
@@ -29323,27 +28792,6 @@ D. Choose the longer text and plan the essay around it, fitting in the shorter t
 - **[Shakespeare](/english/1-shakespeare/1_shakespeare/):** Detailed notes on Shakespearean drama analysis.
 - **[Modern Texts and Poetry](/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry/):** Covers modern literature and poetry analysis.
 - **[Essay Writing](/english/4-essay-writing/4_essay-writing/):** Detailed notes on essay structure and PEEL paragraph technique.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -29973,17 +29421,6 @@ answer using the appropriate terminology.
 Multi-step problems in Shakespeare often combine two or more concepts. Break the problem down:
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[1_Shakespeare] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -30894,16 +30331,6 @@ Multi-step problems in Algebra often combine two or more concepts. Break the pro
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
 
-```mermaid
-flowchart TD
-    A[2_Algebrax] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to algebra, including key
@@ -31119,17 +30546,6 @@ The first company is cheaper for journeys longer than 16 km.
 **Why it matters:** From calculating costs to predicting trends, algebra is the language of patterns and relationships. It lets you solve problems with unknown quantities.
 
 **The key insight:** Equations are statements of equality, solving them means finding the value that makes both sides equal.
-
-
-```mermaid
-flowchart TD
-    A[Diag Algebra] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -31351,17 +30767,6 @@ the question does not specify, assuming same material, the weight ratio equals t
 
 **The key insight:** In circle geometry, the angle at the center is always double the angle at the circumference when subtended by the same arc, this single fact unlocks dozens of problems.
 
-
-```mermaid
-flowchart TD
-    A[Diag Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -31576,17 +30981,6 @@ people.
 
 **The key insight:** Prime numbers are the atoms of arithmetic, every number can be expressed as a unique product of primes.
 
-
-```mermaid
-flowchart TD
-    A[Diag Number] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -31790,17 +31184,6 @@ equalise costs.
 **Why it matters:** From map scales to cooking, ratios and proportions are everywhere. Understanding them helps you scale quantities and compare sizes.
 
 **The key insight:** Cross-multiplication works because it's really multiplying both sides by the product of the denominators, it's a shortcut for maintaining equality.
-
-
-```mermaid
-flowchart TD
-    A[Diag Ratio Proportion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -32074,17 +31457,6 @@ $P(\text{exactly 2 red in 3) = \frac{\binom{15}{2} \times \binom{21}{1}}{\binom{
 **Why it matters:** From polling data to medical research, statistics helps you make sense of information. Understanding statistics helps you evaluate claims and make informed decisions.
 
 **The key insight:** Correlation doesn't imply causation, just because two things happen together doesn't mean one causes the other.
-
-
-```mermaid
-flowchart TD
-    A[Diag Statistics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -33123,17 +32495,6 @@ the appropriate terminology.
 Multi-step problems in Geometry often combine two or more concepts. Break the problem down: identify
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
-
-
-```mermaid
-flowchart TD
-    A[4_Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -34238,16 +33599,6 @@ Multi-step problems in Number often combine two or more concepts. Break the prob
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
 
-```mermaid
-flowchart TD
-    A[1_Number] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to number, including key
@@ -34374,27 +33725,6 @@ Step 2: $\angle AOC = 2 \times 40° = 80°$
 - **[Maths](/maths/):** Detailed notes on number, algebra, geometry, and statistics topics.
 - **[Maths Question Bank](/maths-question-bank/):** Additional practice questions organized by topic.
 - **[Practice Physics](/physics/practice-physics/):** Interactive practice problems covering physics topics that use mathematical skills.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -35233,17 +34563,6 @@ Multi-step problems in Ratio, Proportion, and Rates of Change often combine two 
 Break the problem down: identify what you need to find, recall the relevant formula or principle,
 substitute values, and state your answer with correct units or formatting.
 
-
-```mermaid
-flowchart TD
-    A[3_Ratio Proportion] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to ratio, proportion, and rates
@@ -36074,16 +35393,6 @@ Multi-step problems in Statistics often combine two or more concepts. Break the 
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
 
-```mermaid
-flowchart TD
-    A[6_Statistics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to statistics, including key
@@ -36298,17 +35607,6 @@ voltage, the more sensitive and accurate the temperature sensor.
 **Why it matters:** From lighting homes to powering computers, electricity is the backbone of modern life. Understanding circuits helps you design and troubleshoot electrical systems.
 
 **The key insight:** Power = voltage × current, this tells you how much energy is being used per second.
-
-
-```mermaid
-flowchart TD
-    A[Diag Electricity] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -36538,17 +35836,6 @@ rather than eliminate impact.
 
 **The key insight:** Energy cannot be created or destroyed, it only changes form. This is the first law of thermodynamics.
 
-
-```mermaid
-flowchart TD
-    A[Diag Energy] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -36766,17 +36053,6 @@ of 5 m/s.
 **Why it matters:** From vehicle safety to sports performance, understanding forces helps you design better systems and explain everyday phenomena.
 
 **The key insight:** Net force equals mass times acceleration, if forces are balanced, there's no acceleration.
-
-
-```mermaid
-flowchart TD
-    A[Diag Forces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -37022,17 +36298,6 @@ conservation of energy: mechanical work $\to$ electrical energy $\to$ thermal en
 
 **The key insight:** Moving charges create magnetic fields, and moving magnetic fields create electric currents, electricity and magnetism are two sides of the same coin.
 
-
-```mermaid
-flowchart TD
-    A[Diag Magnetism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -37272,17 +36537,6 @@ appropriate frequencies ( 1--15 MHz depending on the application).
 **Why it matters:** From Wi-Fi to medical imaging, waves are everywhere. Understanding wave behavior helps you design communication systems and explain natural phenomena.
 
 **The key insight:** The speed of light is constant in a vacuum, this fact underpins Einstein's theory of relativity.
-
-
-```mermaid
-flowchart TD
-    A[Diag Waves] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -38525,16 +37779,6 @@ $E = VIt = IR \times I \times t = I^2 Rt = 0.5^2 \times 10 \times 30 = 0.25 \tim
 
 </details>
 
-```mermaid
-flowchart TD
-    A[2_Electricityx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the key concepts of Electricity for GCSE Physics. Focus on understanding the
@@ -39531,16 +38775,6 @@ $$
 a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}
 $$
 
-```mermaid
-flowchart TD
-    A[1_Energyx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the key concepts of Energy for GCSE Physics. Focus on understanding the
@@ -40511,16 +39745,6 @@ $$
 $$
 a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}
 $$
-
-```mermaid
-flowchart TD
-    A[5_Forcesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -42093,16 +41317,6 @@ Multi-step problems in Magnetism and Electromagnetism often combine two or more 
 problem down: identify what you need to find, recall the relevant formula or principle, substitute
 values, and state your answer with correct units or formatting.
 
-```mermaid
-flowchart TD
-    A[7_Magnetismx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the fundamental principles of magnetism and electromagnetism, including the key
@@ -42161,7 +41375,6 @@ D. Energy is stored only as kinetic and gravitational potential energy',
 
 **Answer: A**, The principle of conservation of energy states that the total energy in a closed system remains constant. Energy can be transferred between stores (kinetic, thermal, gravitational potential, elastic potential, chemical, nuclear, and others) but the total amount never changes. Some energy is in most cases dissipated (spread out) to the thermal store of the surroundings, making it less useful but not lost.
 
-
 **Q2. A car of mass 800 kg is travelling at 20 m/s. What is its kinetic energy?**
 
 A. 8,000 J
@@ -42172,7 +41385,6 @@ D. 160,000 J
 **Answer: D**
 
 **Answer: D**, Kinetic energy = 0.5 x mass x velocity^2 = 0.5 x 800 x 20^2 = 0.5 x 800 x 400 = 160,000 J (or 160 kJ). The velocity is squared, which means doubling the speed quadruples the kinetic energy. This is an important concept for understanding vehicle safety and braking distances.
-
 
 ### Electricity
 
@@ -42187,7 +41399,6 @@ D. 15 ohms
 
 **Answer: C**, Using Ohm's law: V = IR, rearranged as R = V/I. R = 12 / 3 = 4 ohms. Ohm's law states that the current through a conductor is directly proportional to the voltage across it, provided the temperature remains constant. This relationship is fundamental to circuit calculations and is represented graphically by a straight line through the origin on a V-I graph.
 
-
 **Q4. Two resistors of 6 ohms and 3 ohms are connected in series. What is the total resistance?**
 
 A. 2 ohms
@@ -42198,7 +41409,6 @@ D. 4 ohms
 **Answer: C**
 
 **Answer: C**, In a series circuit, the total resistance is the sum of the individual resistances: R_total = R1 + R2 = 6 + 3 = 9 ohms. This is because the current has to pass through each resistor one after the other, so they add together. In a parallel circuit, the combined resistance would be less than the smallest individual resistance, which is a key difference.
-
 
 ### Forces
 
@@ -42211,7 +41421,6 @@ B. Gravity pulls the person towards the ground', &quot;The wall exerts friction 
 
 **Answer: A**, Newton's third law states that for every action, there is an equal and opposite reaction. When a person pushes on a wall, the wall pushes back on the person with the same magnitude of force in the opposite direction. These two forces act on different objects (the person and the wall), are the same type of force, and are equal in size but opposite in direction.
 
-
 **Q6. A skydiver jumps from a plane. At what point do they reach terminal velocity?**
 
 A. When the upward air resistance equals the downward force of gravity, so the resultant force is zero
@@ -42222,7 +41431,6 @@ D. When the force of gravity becomes zero at a certain altitude',
 **Answer: A**
 
 **Answer: A**, Terminal velocity is reached when the drag force (air resistance) equals the weight (gravitational force) acting on the falling object. At this point, the resultant force is zero, so the object stops accelerating and falls at a constant speed. Before terminal velocity, weight exceeds drag so the object accelerates. The greater the surface area, the lower the terminal velocity.
-
 
 ### Waves
 
@@ -42237,7 +41445,6 @@ D. 3 m/s
 
 **Answer: C**, The wave equation is: wave speed = frequency x wavelength (v = f x lambda). Substituting: v = 5 x 2 = 10 m/s. This equation applies to all types of waves, including sound waves, light waves, and water waves. If you know any two of the three quantities, you can calculate the third. Rearranging: f = v / lambda or lambda = v / f.
 
-
 **Q8. Which type of electromagnetic radiation has the longest wavelength?**
 
 A. Microwaves
@@ -42248,7 +41455,6 @@ D. Visible light
 **Answer: B**
 
 **Answer: B**, The electromagnetic spectrum is arranged by wavelength from longest to shortest: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays. Radio waves have the longest wavelength (up to several kilometres) and the lowest frequency. Gamma rays have the shortest wavelength and the highest frequency. All electromagnetic waves travel at the same speed in a vacuum (3 x 10^8 m/s).
-
 
 ### Magnetism
 
@@ -42263,7 +41469,6 @@ D. Decrease the voltage across the coil',
 
 **Answer: A**, The strength of an electromagnet can be increased by increasing the current through the coil, increasing the number of turns of wire on the coil, or using a core made of a magnetic material such as soft iron. An iron core concentrates the magnetic field lines, making the electromagnet much stronger. Reversing the current reverses the polarity but does not change the strength.
 
-
 **Q10. In a step-up transformer, which of the following is true?**
 
 A. The voltage in the secondary coil is greater than in the primary coil, and there are more turns on the secondary coil
@@ -42274,7 +41479,6 @@ D. The number of turns on the primary coil is greater than on the secondary coil
 **Answer: A**
 
 **Answer: A**, A step-up transformer increases the voltage from primary to secondary coil. This is achieved by having more turns of wire on the secondary coil than on the primary coil. The relationship is: V_s / V_p = N_s / N_p. Although the voltage increases, the power (approximately) stays the same, so the current in the secondary coil decreases. Step-up transformers are used at power stations to increase voltage for efficient transmission through the National Grid.
-
 
 ## Additional Worked Examples
 
@@ -42356,27 +41560,6 @@ $$
 - **[Maths](/maths/):** Detailed notes on mathematical skills used in physics calculations.
 - **[Practice Maths](/maths/practice-maths/):** Interactive practice problems covering mathematical concepts.
 - **[Chemistry](/chemistry/):** Chemistry notes that share concepts like energy and forces with physics.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -43393,16 +42576,6 @@ Speed $= \mathrm{distance/\mathrm{time = 150/0.44 = 341 \mathrm{ m/s$.
 This is close to the accepted value of approximately $343 \mathrm{ m/s$ at $20^\circ\mathrm{C$.
 
 </details>
-
-```mermaid
-flowchart TD
-    A[6_Wavesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

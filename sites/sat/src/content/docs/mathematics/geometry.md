@@ -14,17 +14,6 @@ description: "Study notes for Geometry with worked examples, practice problems, 
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[Geometry] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Geometry
 
 SAT mathematics study notes - Geometry
@@ -141,23 +130,3 @@ Geometry is the language of shapes and space. Angles are the conversation betwee
 - [Data Analysis](/mathematics/data-analysis/) -- Area and volume calculations appear in data interpretation questions involving real-world contexts.
 - [Reading Comprehension](/reading/comprehension/) -- Visual information in passages such as maps and diagrams requires geometric reasoning.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

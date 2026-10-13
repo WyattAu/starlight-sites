@@ -154,17 +154,6 @@ $(1, 1, 1, \ldots)$), $J$ is not surjective, so $c_0$ is not reflexive.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
-
-```mermaid
-flowchart TD
-    A[3_Bounded Linear Operators] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Bounded linear operators are the continuous linear maps between normed spaces, they do not blow up small inputs into large outputs. The operator norm measures the maximum stretching factor. The open mapping theorem says that surjective bounded operators between Banach spaces are automatically open maps, which implies the bounded inverse theorem: an invertible bounded operator has a bounded inverse. The closed graph theorem provides a practical test: a linear operator is bounded if and only if its graph is closed. These three results, open mapping, bounded inverse, and closed graph, are the fundamental theorems of functional analysis, guaranteeing that well-behaved operators behave as expected.
@@ -184,23 +173,3 @@ Since $\|Tf_n\|/\|f_n\| = n \to \infty$ as $n \to \infty$, the operator $T$ is u
 
 </details>
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

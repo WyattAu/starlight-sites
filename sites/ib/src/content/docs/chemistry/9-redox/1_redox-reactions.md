@@ -1110,16 +1110,6 @@ the OH$^-$ at the cathode is consumed by this acid.
 - **DSE Redox and Electrochemistry:**
   [Redox and Electrochemistry](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/)
 
-```mermaid
-flowchart TD
-    A[1_Redox Reactions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the essential chemistry of redox reactions, including key reactions, underlying

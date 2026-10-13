@@ -224,17 +224,6 @@ $$
 
 Approximately normal when $np \geq 10$ and $n(1-p) \geq 10$.
 
-
-```mermaid
-flowchart TD
-    A[3_Probability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Probability is the **mathematics of uncertainty**, it quantifies how likely events are and provides the foundation for statistical inference. The key insight is that probability statements are about *long-run frequencies*, not single events.

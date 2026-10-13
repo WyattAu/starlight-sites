@@ -9,17 +9,6 @@ tags:
 
 # C1 Advanced Level
 
-
-```mermaid
-flowchart TD
-    A[C1 Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Overview
 
 The C1 level is the fifth level of CEFR. At this level, you can understand a wide range of demanding, longer texts, and recognise implicit meaning.
@@ -124,23 +113,3 @@ Write a formal letter of complaint or inquiry.
 - [A1 Beginner](/cefr-levels/a1-beginner/)
 - [A2 Elementary Level](/cefr-levels/a2-elementary/)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

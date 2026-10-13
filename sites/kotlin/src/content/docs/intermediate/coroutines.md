@@ -336,17 +336,6 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 - \*\* Collecting multiple flows sequentially. Use `combine`, `merge` or `zip` to compose flows
   concurrently.
 
-
-```mermaid
-flowchart TD
-    A[Coroutines] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of coroutines, including underlying theory, practical

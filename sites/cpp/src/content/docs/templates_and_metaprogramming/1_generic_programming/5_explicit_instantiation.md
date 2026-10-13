@@ -789,16 +789,6 @@ export template class DataBuffer<double>;
 - [Template Argument Deduction and CTAD](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
 - [SFINAE and Partial Specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)
 
-```mermaid
-flowchart TD
-    A[5_Explicit_Instantiation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of explicit instantiation and extern templates, including

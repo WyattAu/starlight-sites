@@ -289,16 +289,6 @@ Each language site in the network covers these concepts in depth with worked exa
 ## Hub
 URL: https://languages.wyattau.com/hub/
 
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Programming Language Comparison Guide
 
 Choosing a programming language is one of the most consequential decisions a developer makes. The language you learn shapes how you think about problems, determines which projects you can build, and influences your career trajectory. This guide compares twelve major languages across paradigms, type systems, performance characteristics, and use cases, then provides a decision tree to help you choose the right language for your goals.
@@ -2082,27 +2072,6 @@ linked above.
 - **[Async and Futures](https://dart.wyattau.com/05-async/01-async-and-futures/):** Concurrency best practices including async/await and isolate usage.
 - **[Class Modifiers](https://dart.wyattau.com/07-dart3-features/03-class-modifiers/):** Dart 3 modifier patterns for API boundary enforcement.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Class Modifiers
@@ -3033,17 +3002,6 @@ class TestApiClient extends ApiClient {
 
 `final` only restricts external code. Within the same library, you can extend `final` classes. This
 is useful for test doubles and internal implementation variants.
-
-
-```mermaid
-flowchart TD
-    A[03 Class Modifiers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -4608,16 +4566,6 @@ class User with _$User {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[13 Code Generation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of code generation, including underlying theory, practical
@@ -5691,16 +5639,6 @@ map.containsKey('nonexistent'); // false, the key does not exist
 
 This ambiguity is inherent to any map type that allows null values. Always use `containsKey()` when
 you need to distinguish between "key absent" and "key present with null value."
-
-```mermaid
-flowchart TD
-    A[01 Collections Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -6962,17 +6900,6 @@ and how they're resolved. Pick one primary approach and be consistent. If using 
 Riverpod providers for all Flutter-specific dependencies and reserve `get_it` for non-Flutter Dart
 Services if needed.
 
-
-```mermaid
-flowchart TD
-    A[12 Dependency Injection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dependency injection, including underlying theory, practical
@@ -7351,17 +7278,6 @@ expect(fn(), completion(equals(42)));          // Future completes with value
   included in release builds, but they must be present during development.
 - **Using `flutter run` for benchmarking**: Debug mode has assertions enabled, no optimizations, and
   uses JIT. Always use `--release` or `--profile` for performance measurements.
-
-
-```mermaid
-flowchart TD
-    A[02 Dev Enviroment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -7840,16 +7756,6 @@ Write `final status = name ? "exists' : 'missing';`that is a compile error.
 - **Using `late` without guaranteeing initialization**: `late` defers the runtime check. If you
   access a `late` variable before it is set, you get a `LateInitializationError`. This is a runtime
   crash, not a compile-time error.
-
-```mermaid
-flowchart TD
-    A[01 Entrypoint] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -8962,17 +8868,6 @@ void writeLog(String message) async {
 
 Alternatively, use the `using` pattern from `package:resource` or Dart's `Resource` class (Dart
 3.3+) for scope-bound resource management.
-
-
-```mermaid
-flowchart TD
-    A[08 Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -10700,16 +10595,6 @@ Not all Dart objects can be sent between isolates. Sendable objects include: pri
 `List` and `Map` of sendable elements, `SendPort`, `TransferableTypedData` and `Capability`. Non-
 Sendable objects include: closures, `Socket`, `HttpClient`, `File`, `Isolate` and most `dart:io` Types.
 
-```mermaid
-flowchart TD
-    A[09 Ffi And Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of ffi and advanced topics, including underlying theory,
@@ -10859,27 +10744,6 @@ Dart is a client-optimised language for building apps on any platform, it compil
 - **[Variables](/dart/03-basics/02-variables/):** Type specifiers, null safety, and collection types referenced in the flashcards.
 - **[Async and Futures](/dart/05-async/01-async-and-futures/):** Event loop and concurrency model covered in the async flashcards.
 - **[Classes and Inheritance](/dart/04-object-oriented/01-classes-and-inheritance/):** OOP patterns including mixins and extension methods.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -11989,17 +11853,6 @@ dart pub global deactivate fvm
 rm -rf ~/.fvm
 ```
 
-
-```mermaid
-flowchart TD
-    A[01 Installation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of installation, including underlying theory, practical
@@ -12156,27 +12009,6 @@ development.
 - [Variables and Types](https://dart.wyattau.com/03-basics/02-variables/) - Type system deep dive
 - [Functions](https://dart.wyattau.com/03-basics/03-functions/) - Function syntax and closures
 - [Flutter Fundamentals](https://dart.wyattau.com/09-flutter-fundamentals/01-widgets/) - UI development with Flutter
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -13558,17 +13390,6 @@ Navigator's state. If you need to preserve each tab's navigation history, use
 When building custom pages, always provide a unique `key` ( `state.pageKey`). Without a Stable key,
 Flutter may not properly animate transitions or may incorrectly reuse page state.
 
-
-```mermaid
-flowchart TD
-    A[01 Navigation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of navigation, including underlying theory, practical
@@ -14768,16 +14589,6 @@ if (map case {1: var one}) {
   print(one); // 'one'
 }
 // if (map case {'1': var one}) { } // ERROR, String key for int-keyed map
-```
-
-```mermaid
-flowchart TD
-    A[01 Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -16121,17 +15932,6 @@ and maintaining custom platform channels across Android, iOS, macOS, Windows, an
 Significant maintenance burden. Use Pigeon if you must write custom channels to reduce the
 Boilerplate and type-safety risks.
 
-
-```mermaid
-flowchart TD
-    A[01 Platform Integration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to platform integration,
@@ -17472,17 +17272,6 @@ The `switch` on the discriminator string is not exhaustive (strings are not seal
 `default` here. This is the one place where sealed class exhaustiveness does not apply, at the
 Serialization boundary where types are erased.
 
-
-```mermaid
-flowchart TD
-    A[02 Sealed Classes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of sealed classes, including underlying theory, practical
@@ -18810,17 +18599,6 @@ Do not create a BLoC, notifier, or provider for a feature that is a single scree
 Abstract when the state is shared across screens, when the logic is complex enough to test in
 Isolation, or when multiple widgets need to react to the same state change.
 
-
-```mermaid
-flowchart TD
-    A[01 State Management] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of state management, including underlying theory, practical
@@ -19602,16 +19380,6 @@ testWidgets('navigates to detail on tap', (tester) async {
 7. **Coverage without quality.** A high coverage number from low-quality tests provides a false
    sense of security. A single well-structured test that exercises a real edge case is worth more
    than ten tests that assert nothing meaningful.
-
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -21039,17 +20807,6 @@ Everyone ignores, at which point the golden test has zero value. Run
 than one with 100% coverage and weak assertions. Coverage measures execution, not correctness. Use
 it as a floor, not a ceiling, and supplement it with code review of assertion quality.
 
-
-```mermaid
-flowchart TD
-    A[01 Testing Fundamentals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of testing fundamentals, including underlying theory, practical
@@ -21604,16 +21361,6 @@ Directly.
 
 4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
-
-```mermaid
-flowchart TD
-    A[02 Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -22547,17 +22294,6 @@ internally call `dependOnInheritedWidgetOfExactType`.
 **Why it matters:** Understanding widget lifecycle helps you manage resources efficiently and avoid memory leaks in Flutter apps.
 
 **The key insight:** StatefulWidget has state that can change; StatelessWidget is immutable, choose based on whether the widget needs to update.
-
-
-```mermaid
-flowchart TD
-    A[02 Widgets And Lifecycle] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -23602,16 +23338,6 @@ Understanding immutability's performance characteristics:
 
 **The key insight:** In Elixir, `=` is not assignment, it's a match operator that binds variables only if the structure fits. This single concept powers function dispatch, case expressions, and error handling throughout the language.
 
-```mermaid
-flowchart TD
-    A[1_Basics And Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Elixir's type system is simple but powerful. The combination of basic types (atoms, tuples, lists,
@@ -24478,16 +24204,6 @@ end
 **Why it matters:** OTP transforms concurrency from "manage shared state carefully" to "let things crash and restart from known-good state." This is why Erlang/Elixir systems can run for years without downtime, failures are expected, isolated, and automatically recovered.
 
 **The key insight:** Supervision trees turn failure from a catastrophe into a routine event, each process is disposable, and the system's reliability comes from the restart strategy, not from preventing crashes.
-
-```mermaid
-flowchart TD
-    A[1_Concurrency Otp] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -25401,26 +25117,6 @@ Elixir runs on the Erlang VM (BEAM), designed for building fault-tolerant, distr
 - **[Metaprogramming](https://elixir.wyattau.com/04-advanced/1_metaprogramming/):** Advanced quote/unquote and macro system concepts.
 - **[Haskell Basics](https://haskell.wyattau.com/flashcards-haskell-basics/):** Functional programming patterns compared across languages.
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Functions And Modules
@@ -26276,16 +25972,6 @@ end
 **Why it matters:** The module + struct + protocol pattern gives Elixir ad-hoc polymorphism without class hierarchies. You define behavior once (the protocol) and implement it for each type independently, no need for the types to know about each other.
 
 **The key insight:** In Elixir, you don't need inheritance to share behavior, protocols let any type opt into any interface, and behaviours let any module conform to any contract.
-
-```mermaid
-flowchart TD
-    A[1_Functions And Modules] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -27417,16 +27103,6 @@ implementations at runtime.
 
 **The key insight:** Macros operate on AST (abstract syntax trees), not text. This means they understand code structure, not just string patterns, making them safer and more composable than text-based code generation.
 
-```mermaid
-flowchart TD
-    A[1_Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Elixir's metaprogramming system is powerful but should be used judiciously:
@@ -27512,27 +27188,6 @@ the explanation.
 - **[Elixir Flashcards](https://elixir.wyattau.com/flashcards-elixir-basics/):** Interactive flashcards covering the same core Elixir concepts tested here.
 - **[Basics and Pattern Matching](https://elixir.wyattau.com/01-basics/1_basics-and-pattern-matching/):** Pattern matching and guard clause fundamentals.
 - **[Metaprogramming](https://elixir.wyattau.com/04-advanced/1_metaprogramming/):** Quote/unquote and AST concepts tested in the final practice problem.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -28463,16 +28118,6 @@ Trade-offs:
 
 **The key insight:** Test early, test often, catching bugs early is much cheaper than fixing them in production.
 
-```mermaid
-flowchart TD
-    A[2_Testing And Deployment] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Elixir provides a comprehensive testing and deployment story:
@@ -29064,16 +28709,6 @@ go test -tags=integration ./...
    `t.Cleanup` runs after the test and all its subtests finish, making it the correct choice for
    resource teardown.
 
-```mermaid
-flowchart TD
-    A[Architecture] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of Go project architecture, including underlying theory,
@@ -29451,17 +29086,6 @@ Structs containing slices or maps are not comparable.
 
 6. **Struct embedding is not inheritance.** There is no `super` call, no method overriding in the
    OOP sense. Embedding is composition with syntactic sugar for field/method promotion.
-
-
-```mermaid
-flowchart TD
-    A[Arrays Slices Maps] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -29861,17 +29485,6 @@ Client disconnects, the context is cancelled, propagating to all goroutines hand
 
 7. **Race conditions with `select`.** If multiple cases are ready, `select` chooses uniformly at
    random. Do not assume a preferred order.
-
-
-```mermaid
-flowchart TD
-    A[Channels] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -30300,16 +29913,6 @@ Fix: pass as an argument `go func(val int) { ... }(v)`.
 3. **Range copies values.** Modifying the range variable does not modify the original element. Use
    index-based access for mutations.
 
-```mermaid
-flowchart TD
-    A[Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of control flow, including underlying theory, practical
@@ -30638,17 +30241,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 7. **String-based error matching.** Using `strings.Contains(err.Error(), "not found")` is fragile.
    Use sentinel errors or custom error types with `errors.Is`/`errors.As`.
 
-
-```mermaid
-flowchart TD
-    A[Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical
@@ -30727,26 +30319,6 @@ Go's standard library is remarkably complete, `fmt` handles formatted I/O, `stri
 - **[net/http](https://go.wyattau.com/standard-library/net-http/):** HTTP server and client patterns using the standard library.
 - **[Go Practice](https://go.wyattau.com/practice-basics/):** Auto-graded problems testing core Go concepts alongside standard library usage.
 - **[Rust Basics](/rust/flashcards-rust-basics/):** Ownership model compared to Go's garbage collection.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -31084,17 +30656,6 @@ Key rules:
 
 6. **Comparing function values.** Function values are comparable but comparison only returns true
    for identical function instances. Two closures with identical bodies are not equal.
-
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -31443,17 +31004,6 @@ Specialization of the generic function or type. There is no boxing or type erasu
 5. **Generic type assertion ambiguity.** When type parameters appear in the same signature position
    as concrete types, inference may fail. Specify type arguments explicitly in such cases.
 
-
-```mermaid
-flowchart TD
-    A[Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical
@@ -31800,17 +31350,6 @@ Use directional channels in function signatures to make the intended usage expli
 
 7. **Deadlock with RWMutex.** A goroutine holding `RLock` cannot upgrade to `Lock` -- it must
    release `RLock` first. Attempting to call `Lock()` while holding `RLock()` deadlocks.
-
-
-```mermaid
-flowchart TD
-    A[Goroutines] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -32372,17 +31911,6 @@ fmt.Println(IPAddr{127, 0, 0, 1}) // 127.0.0.1
 
 5. **Empty interface in slices.** `[]any` is a common pattern but loses type safety. Since Go 1.18,
    prefer generics: `[]T` where `T` is a type parameter.
-
-
-```mermaid
-flowchart TD
-    A[Interfaces] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -33083,17 +32611,6 @@ func (t *Time) UnmarshalJSON(data []byte) error {
 8. **Not checking scanner errors.** After a `scanner.Scan()` loop, always check `scanner.Err()`. The
    loop may exit due to an I/O error, not just `io.EOF`.
 
-
-```mermaid
-flowchart TD
-    A[Io] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of standard library i/o, including underlying theory, practical
@@ -33549,16 +33066,6 @@ slog.Info("user logged in", "username", username, "ip", ip)
    Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN`, `rand.N`and other
    improvements.
 
-```mermaid
-flowchart TD
-    A[Math Sort Log] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of the math, sort, and log/slog packages, including underlying
@@ -33872,17 +33379,6 @@ CI with restricted internet).
 
 7. **Forgetting `go.work sync`.** After adding modules to a workspace, run `go work sync` to update
    `go.mod` files with workspace-relevant information.
-
-
-```mermaid
-flowchart TD
-    A[Modules And Packages] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -34500,16 +33996,6 @@ Downstream operations.
 7. **Not checking request body errors.** `r.Body` is a stream. If the client disconnects
    mid-request, Reading from `r.Body` returns an error. Always check errors from `r.Body` reads.
 
-```mermaid
-flowchart TD
-    A[Net Http] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of Go's net/http package, including underlying theory, practical
@@ -34980,17 +34466,6 @@ client := &http.Client{
    `ListenAndServeTLS`. Do not configure HTTP/2 via `h2` package separately unless you have a
    specific reason.
 
-
-```mermaid
-flowchart TD
-    A[Networking] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - `net.Dial` / `net.Listen` handle TCP; `net.DialUDP` handles UDP. Always set deadlines.
@@ -35289,17 +34764,6 @@ Pointers can also be compared to `nil`.
 6. **Not checking escape analysis output.** When performance matters, run `go build -gcflags="-m"`
    and verify that hot-path variables are not unnecessarily escaping to the heap.
 
-
-```mermaid
-flowchart TD
-    A[Pointers And Memory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of pointers and memory, including underlying theory, practical
@@ -35376,26 +34840,6 @@ explanation.
 **Using `select` without a `default` case:** A `select` with no ready cases and no `default` blocks forever. Always include a `default` if you need non-blocking channel operations.
 
 **Ignoring errors from functions that return them:** Go functions return errors explicitly. Forgetting to check `if err != nil` causes silent failures and makes debugging difficult.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## See also
 
@@ -35829,17 +35273,6 @@ g.Go(func() error {
 2. **Leaking goroutines with errgroup.** If `g.Go` panics, `g.Wait` re-panics. Always recover or
    return errors from goroutines rather than panicking.
 
-
-```mermaid
-flowchart TD
-    A[Race Conditions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of race conditions and data races in Go, including underlying
@@ -36149,17 +35582,6 @@ as alternatives.
 
 7. **Ignoring `CanAddr` and `CanSet`.** Not all `reflect.Value` objects are addressable or settable.
    Always check before attempting modification.
-
-
-```mermaid
-flowchart TD
-    A[Reflection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -36508,16 +35930,6 @@ t1.Equal(t2)  // true
 ```go
 loc, _ := time.LoadLocation("America/New_York")
 t, _ := time.ParseInLocation("2006-01-02 15:04", "2026-05-30 14:30", loc)
-```
-
-```mermaid
-flowchart TD
-    A[Strings And Time] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -36932,17 +36344,6 @@ fi
    production. Prefer thin wrappers around real dependencies and integration tests for critical
    paths.
 
-
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - `go test ./...` runs all tests; `*_test.go` files are excluded from production builds.
@@ -37294,17 +36695,6 @@ type Rune = int32
 6. **Integer overflow is silent.** Unlike Rust (debug panics) or Python (arbitrary precision), Go
    wraps on overflow without any runtime error. Use `math/bits` or explicit checks when overflow is
    a concern.
-
-
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -37981,16 +37371,6 @@ data Person = Person
 -- deriveJSON defaultOptions ''Person
 ```
 
-```mermaid
-flowchart TD
-    A[1_Advanced Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Types are equations, not just labels:** In Haskell, algebraic data types are literally algebra, `Maybe Bool` has 3 values (like the equation 1 + 2 = 3), and `Either Bool ()` has 3 values (2 + 1 = 3). This mathematical foundation means you can reason about your type system *arithmetically*. GADTs are like functions that return different types depending on the input, a type-level if-else. Phantom types are invisible stamps that the compiler tracks but the runtime ignores, you can tag a value with `Safe` or `Unsafe` at compile time without any runtime cost.
@@ -38038,17 +37418,6 @@ URL: https://languages.wyattau.com/haskell/05-advanced/2_concurrency/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "05 Advanced", "url": "https://languages.wyattau.com/haskell/05-advanced"}, {"name": "2_concurrency", "url": "https://languages.wyattau.com/haskell/05-advanced/2_concurrency"}]
 }
 </script>
-
-
-```mermaid
-flowchart TD
-    A[2_Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -38779,26 +38148,6 @@ Haskell is a purely functional language where expressions are evaluated lazily (
 - **[Pattern Matching](https://haskell.wyattau.com/02-pattern-matching/1_pattern-matching/):** Structural pattern matching on algebraic data types.
 - **[Monads and Functors](https://haskell.wyattau.com/04-monads/1_monads-and-functors/):** Monad transformers and effect management covered in the flashcards.
 - **[Rust Traits](/rust/flashcards-rust-basics/):** Rust's trait system provides similar type-level abstractions to Haskell's type classes.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -40623,16 +39972,6 @@ associativity = do
 | `[]`       | Non-determinism | Multiple possible results                  |
 | `Identity` | No effect       | The simplest monad, wraps a plain value    |
 
-```mermaid
-flowchart TD
-    A[1_Monads And Functors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **A monad is a conveyor belt in a factory:** Imagine a factory where each station can transform the item on the belt, but the belt itself has special properties. The `Maybe` belt drops items into the void if anything goes wrong, no downstream station ever sees a broken part. The `IO` belt logs every operation, the belt *is* the audit trail. The `State` belt carries a clipboard that accumulates instructions as items move along. `>>=` (bind) is the instruction: "take the item off the belt, run it through this station, and put the result back on."
@@ -41385,16 +40724,6 @@ myReverse = go []
     go acc (x:xs) = go (x : acc) xs
 ```
 
-```mermaid
-flowchart TD
-    A[1_Pattern Matching] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Pattern matching is structural sorting:** Imagine a mailroom where each letter is checked against a template. The `_` wildcard is the "miscellaneous" bin, anything that doesn't fit a specific template goes there. Nested patterns are like checking the envelope, then the letter inside, then the signature, each layer deconstructs further. Case expressions are the decision tree: the compiler generates a fast lookup table from your patterns, checking the most specific ones first.
@@ -41502,27 +40831,6 @@ review the explanation.
 - [Haskell](./)
 - [Haskell Flashcards (Basics)](/haskell/flashcards-haskell-basics/)
 - [Programming Languages](/)
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -42206,16 +41514,6 @@ types that are `Functor` or `Applicative` but not `Monad`:
 
 -- But Functors and Applicatives can exist without Monad
 -- They are more general (less powerful but more widely applicable)
-```
-
-```mermaid
-flowchart TD
-    A[1_Type Classes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition
@@ -43064,16 +42362,6 @@ pairs = zip <*> tail
 -- This is too obscure:
 -- f = ((.).(.)) (+) (*)
 -- Prefer the named version
-```
-
-```mermaid
-flowchart TD
-    A[1_Types And Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Intuition
@@ -44047,17 +43335,6 @@ InvocationHandler handler = (proxy, method, args) -> {
 The module system restricts reflective access to non-exported packages, affecting deep reflection
 into JDK internals (e.g., `sun.misc.Unsafe`) and frameworks that access private members of library
 Classes. The long-term fix is to use public APIs instead of reaching into internals via reflection.
-
-
-```mermaid
-flowchart TD
-    A[02 Annotations Reflection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -45078,16 +44355,6 @@ Different developers (and CI agents) may have different versions installed, lead
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
 through a PR.
 
-```mermaid
-flowchart TD
-    A[Build Tools] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of build tools and dependency management, including underlying
@@ -45613,17 +44880,6 @@ Total: reserved=5000MB, committed=1200MB
 
 This is invaluable for diagnosing native memory leaks, especially in containerized environments
 where the JVM's total memory usage must stay within cgroup limits.
-
-
-```mermaid
-flowchart TD
-    A[01 Class Loading Memory] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -50688,16 +49944,6 @@ Same pool. If the pool is fully utilized, all threads will be blocked waiting, a
 Available to execute the inner tasks. This is called thread pool deadlock or starvation.
 :::
 
-```mermaid
-flowchart TD
-    A[02 Concurrency Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of concurrency deep dive, including underlying theory, practical
@@ -52702,17 +51948,6 @@ When `InterruptedException` is caught, the thread's interrupt flag is **automati
 you do not restore it (via `Thread.currentThread().interrupt()`), the interruption is lost and
 Cooperative cancellation in the caller breaks.
 
-
-```mermaid
-flowchart TD
-    A[01 Exceptions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of exception handling, including underlying theory, practical
@@ -52794,27 +52029,6 @@ Java is a class-based, object-oriented language that runs on the JVM, code compi
 - **[Control Flow](/java/02-fundamentals/02-control-flow/):** If-else, switch, and loop constructs.
 - **[Kotlin Basics](https://kotlin.wyattau.com/flashcards-kotlin-basics/):** Kotlin runs on the JVM and is more concise than Java.
 - **[Go Standard Library](https://go.wyattau.com/flashcards-standard-library/):** Go's approach to concurrency and standard library compared to Java.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -53645,16 +52859,6 @@ linked above.
 - **[Types and Variables](/java/02-fundamentals/01-types-and-variables/):** Object lifecycle and reference types that GC manages.
 - **[Concurrency Deep Dive](/java/06-concurrency/02-concurrency-deep-dive/):** Thread-safe memory access and GC pause impact on concurrent applications.
 - **[I/O and NIO](/java/10-io-nio/01-io-nio/):** Memory-mapped files and direct buffers that bypass the GC-managed heap.
-
-```mermaid
-flowchart TD
-    A[03 Garbage Collection] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -54555,17 +53759,6 @@ public class MyList implements List<String>, List<Integer> {
 
 When extending a generic class, you can fix the type parameter, pass it through, or add constraints
 - but you cannot have conflicting erasures.
-
-
-```mermaid
-flowchart TD
-    A[01 Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -56054,16 +55247,6 @@ Need additional configuration.
 
 - Native image requires Visual Studio Build Tools with the C++ workload.
 - The FFM API uses `LoadLibrary`/`GetProcAddress`. DLLs must be on `PATH`.
-
-```mermaid
-flowchart TD
-    A[Graalvm And Modern Jvm] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -57812,16 +56995,6 @@ public class Stack&lt;E&gt; {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[02 Inheritance Polymorphism] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of inheritance and polymorphism, including underlying theory,
@@ -57970,25 +57143,6 @@ Java is the language of "write once, run anywhere." It compiles to bytecode that
 - [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
 - [Collections Framework](https://java.wyattau.com/04-collections/01-collections-framework/)
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 ## See also
 
 - [Introduction to Dart & Flutter](/dart/01-intro/)
@@ -59014,17 +58168,6 @@ try (FileChannel ch = FileChannel.open(Path.of("data.db"),
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[01 Io Nio] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 **Data highways:** I/O is like a postal system, streams are the roads that data travels on, and NIO uses channels and buffers for faster, more efficient delivery.
@@ -59715,17 +58858,6 @@ Compiled (use `-XX:+PrintCompilation`).
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
-
-```mermaid
-flowchart TD
-    A[02 Jit Compilation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -60688,16 +59820,6 @@ scores.entrySet().stream()
     .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
     .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
 // Bob: 87, Alice: 95
-```
-
-```mermaid
-flowchart TD
-    A[02 Maps And Sets] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -61692,16 +60814,6 @@ private static void processBuffer(ByteBuffer buffer) {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[02 Nio Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of nio deep dive, including underlying theory, practical
@@ -61819,26 +60931,6 @@ the explanation.
 
 **Using `==` to compare strings:** `==` compares object identity, not content. Use `.equals()` or `.compareTo()` for string comparison.
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Practice Oop
@@ -61862,53 +60954,37 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ### Classes
 
-
-
 ---
 
 ### Interfaces
-
-
 
 ---
 
 ### Generics
 
-
-
 ---
 
 ### Collections
-
-
 
 ---
 
 ### Interfaces and Abstract Classes
 
-
-
 ---
 
 ### Enums
-
 
 ---
 
 ### Records and Sealed Classes
 
-
-
 ---
 
 ### Enums and Records
 
-
-
 ---
 
 ### Inheritance and Polymorphism
-
 
 ## Cross-References
 
@@ -61923,27 +60999,6 @@ import PracticeProblem from "@components/PracticeProblem";
 **Using `List<Object>` when you need `List<?>`:** `List<Object>` allows adding any object; `List<?>` is read-only for any specific type. Using the wrong one causes type safety issues.
 
 **Confusing `extends` with `implements` in generics:** `T extends Number` is an upper bound (class or interface); `T implements Comparable` is not valid. Use `extends` for both classes and interfaces in generic bounds.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -62661,17 +61716,6 @@ Always prefer arrow syntax unless you deliberately need fall-through.
   regular classes in production code
 - [Virtual Threads and Structured Concurrency](/java/08-modern-java/02-virtual-threads-structured-concurrency/)
   -- modern concurrency features
-
-
-```mermaid
-flowchart TD
-    A[01 Records Sealed Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -64828,16 +63872,6 @@ List<String> lines = text.lines().collect(Collectors.toList());
 "   ".isEmpty();    // false, contains whitespace characters
 ```
 
-```mermaid
-flowchart TD
-    A[03 Strings] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of strings and text processing, including underlying theory,
@@ -66238,16 +65272,6 @@ Tight.
 4. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-```mermaid
-flowchart TD
-    A[01 Style And Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -67184,16 +66208,6 @@ void shouldWriteToTempFile() throws IOException {
     assertTrue(Files.exists(file));
     // tempDir is automatically cleaned up after the test
 }
-```
-
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -69015,17 +68029,6 @@ public UserData fetchUserData(String userId) throws Exception {
 - [Class Loading and Memory Model](/java/09-jvm-internals/01-class-loading-memory/) -- how the JVM
   manages threads and memory
 
-
-```mermaid
-flowchart TD
-    A[02 Virtual Threads Structured Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of virtual threads and structured concurrency, including
@@ -69436,17 +68439,6 @@ val user = spawn(User)  // User(name=default)
 
 Classes are blueprints for creating objects with shared behavior and state. Kotlin's classes are final by default, encouraging composition over inheritance. Data classes reduce boilerplate for simple data holders, while sealed classes define restricted type hierarchies for exhaustive pattern matching. Companion objects provide a place for factory methods and class-level logic without Java's static keyword. Object declarations create singletons, and class delegation implements interfaces by forwarding to another object.
 
-
-```mermaid
-flowchart TD
-    A[Classes And Objects] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of classes and objects, including underlying theory, practical
@@ -69783,16 +68775,6 @@ val seq4 = generateSequence(seed = 0) { if (it < 100) it + 1 else null }  // 0..
 ## Intuition
 
 Collections are containers for groups of related data. Lists store ordered sequences, sets enforce uniqueness, and maps store key-value pairs. Kotlin's collection hierarchy separates read-only from mutable interfaces, making it clear at the type level whether a collection can be modified. Transformation operations like map, filter, and fold let you express data pipelines declaratively, treating collections as streams to be shaped rather than loops to be managed.
-
-```mermaid
-flowchart TD
-    A[Collections] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -70135,17 +69117,6 @@ val result: String = fail("unreachable")  // type-checks because Nothing is a su
 ## Intuition
 
 Control flow structures determine the order in which code executes. Kotlin treats if, when, and try as expressions that return values, eliminating the need for a ternary operator. The when expression is a powerful pattern matcher that can check ranges, types, and arbitrary conditions. Ranges provide a concise syntax for iteration. Labeled returns allow fine-grained control over lambda execution. These constructs make Kotlin code more declarative and less verbose than traditional imperative styles.
-
-
-```mermaid
-flowchart TD
-    A[Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -70509,17 +69480,6 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 ## Intuition
 
 Coroutines are a way to write asynchronous code that reads like synchronous code. Instead of blocking a thread while waiting for IO, a coroutine suspends and lets other coroutines run, then resumes when the result is ready. Think of coroutines as workers in a restaurant: instead of one waiter standing idle while a dish cooks, they serve other tables and return when the food is ready. Structured concurrency ensures that when the restaurant closes, all workers go home together.
-
-
-```mermaid
-flowchart TD
-    A[Coroutines] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -71108,17 +70068,6 @@ Advanced coroutine patterns are about managing failure and sharing state across 
 4. **Forgetting that flow{} is cold and lazy.** Each collect call re-executes the entire upstream.
    Use shareIn for side-effecting sources.
 
-
-```mermaid
-flowchart TD
-    A[Coroutines Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This document covers advanced coroutine patterns that build on the fundamentals.
@@ -71540,17 +70489,6 @@ fun fetchUserProfile(userId: Long): Result<Profile> {
   `LazyThreadSafetyMode.SYNCHRONIZED` adds synchronization overhead. Use `NONE` when the property is
   only accessed from a single thread (e.g., in an Android Activity or a confined coroutine).
 
-
-```mermaid
-flowchart TD
-    A[Delegation And Result] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers Kotlin delegation patterns and the Result type, including practical applications
@@ -71639,26 +70577,6 @@ Kotlin is a modern JVM language that combines object-oriented and functional pro
 - **[Swift Basics](/swift/flashcards-swift-basics/):** Null safety and protocol-oriented patterns compared across languages.
 - **[Java Basics](https://java.wyattau.com/flashcards-java-basics/):** Kotlin runs on the JVM; understanding Java helps with Kotlin interop.
 - **[Dart Basics](https://dart.wyattau.com/flashcards-dart-basics/):** Null safety and async patterns compared across languages.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -71988,17 +70906,6 @@ fun processUser(user: User) {
   code size and can cause longer compilation times. Reserve `inline` for small, frequently called
   functions where the allocation overhead matters.
 
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key
@@ -72322,17 +71229,6 @@ at runtime in Kotlin.
 ## Intuition
 
 Generics let you write code that works with any type while maintaining type safety. Think of a generic class as a mold that can produce objects of different types depending on what you pour in. Variance controls how subtypes relate: covariant types can only produce values (like a source), contravariant types can only consume values (like a sink), and invariant types do both. Type erasure means generic information disappears at runtime, which is why reified types use inline functions to preserve type information at compile time.
-
-
-```mermaid
-flowchart TD
-    A[Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -72895,17 +71791,6 @@ Interfaces for compatibility.
   `Collections.unmodifiableList()` or Kotlinx immutable collections for true immutability.
 - \*\* Using Kotlin extension functions from Java. Extension functions compile to static methods, so
   Java callers must call them explicitly: `ExtensionKt.functionName(receiver, args)`.
-
-
-```mermaid
-flowchart TD
-    A[Interoperability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -73511,17 +72396,6 @@ val config = Config().invoke {
   runtime. `KClass` for a value class may not behave as expected -- use the underlying type for
   reflection operations.
 
-
-```mermaid
-flowchart TD
-    A[Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of metaprogramming, including underlying theory, practical
@@ -73886,17 +72760,6 @@ prove it covers the null case.
    for non-null initialization. Accessing it before assignment throws
    `UninitializedPropertyAccessException`, not NPE.
 
-
-```mermaid
-flowchart TD
-    A[Null Safety Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 - Non-null types are the default in Kotlin; add `?` to make a type nullable.
@@ -74014,27 +72877,6 @@ the explanation.
 
 **Forgetting that `lazy` properties must be `val`:** `by lazy` only works with read-only `val` properties. Using it with `var` causes a compile error because lazy initialization assumes the value never changes after first access.
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Practice Null Safety
@@ -74103,26 +72945,6 @@ import PracticeProblem from "@components/PracticeProblem";
 **Using `!!` (not-null assertion) unnecessarily:** `!!` converts any nullable type to non-nullable and throws `NullPointerException` if null. Prefer safe calls `?.`elvis `?:`or `let` for safe handling.
 
 **Forgetting that `lazy` is thread-safe by default:** `by lazy` uses synchronized double-checked locking. For single-threaded contexts, pass `LazyThreadSafetyMode.NONE` to avoid unnecessary synchronization overhead.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -74473,17 +73295,6 @@ val server = ServerBuilder()
 - **Confusing `run` (extension) with `run` (non-extension).** The non-extension `run` has no
   receiver and is used as a grouping mechanism. The extension `run` operates on an object and is
   used to compute a result.
-
-
-```mermaid
-flowchart TD
-    A[Scope Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -74983,17 +73794,6 @@ fun `timeout fires after delay`() = runTest {
   which means you may not notice when the code under test calls methods you did not expect. Use
   strict mocks by default and relax only when necessary.
 
-
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of testing, including underlying theory, practical
@@ -75304,17 +74104,6 @@ Type aliases are useful for domain modeling and reducing verbosity in complex ge
 ## Intuition
 
 Kotlin's type system is designed to eliminate null reference errors at compile time. Non-nullable types are the default, and nullable types require explicit handling through safe calls, Elvis operators, or not-null assertions. Type inference lets the compiler deduce types from context, keeping code concise while maintaining safety. Smart casts reduce boilerplate by automatically casting values after a type check. Together, these features make Kotlin's type system both expressive and safe.
-
-
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -76485,17 +75274,6 @@ def len(obj: bytearray) -> int: ...
     including `None`. If you write `T = TypeVar("T")` and use `T` as a parameter type, the caller
     can pass `None` unless you explicitly constrain it. Use `bound=` or explicit constraints if the
     type variable should be restricted.
-
-
-```mermaid
-flowchart TD
-    A[01 Advanced Typing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -79863,16 +78641,6 @@ subparsers = parser.add_subparsers(dest="command", required=True)
 This fails fast with a clear "required: expected at least one argument" message instead of a
 Traceback inside your own code.
 
-```mermaid
-flowchart TD
-    A[03 Cli Tools] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of cli tools, including underlying theory, practical
@@ -81887,16 +80655,6 @@ for t in threads: t.join()
 
 Use a `threading.Lock()` around `print()` calls or use the `logging` module which is thread-safe.
 
-```mermaid
-flowchart TD
-    A[05 Concurrency Primitives] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of concurrency primitives, including underlying theory,
@@ -82773,16 +81531,6 @@ async def get_resource():
 # CORRECT
 async with get_resource():
     pass
-```
-
-```mermaid
-flowchart TD
-    A[03 Context Managers] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -84989,17 +83737,6 @@ Validation is in effect and makes the codebase harder to maintain. Pick one libr
 Validation tool and use it consistently. If you must interoperate (e.g., using attrs for domain
 Objects and Pydantic for API schemas), keep the boundary between them explicit and minimal.
 
-
-```mermaid
-flowchart TD
-    A[02 Data Validation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of data validation, including underlying theory, practical
@@ -86314,16 +85051,6 @@ that are immediately discarded (because the log level is likely INFO or above in
 Message passes the log level filter. This is not a micro-optimization, it is the difference between
 A function that runs in 1 second and one that runs in 10 seconds.
 
-```mermaid
-flowchart TD
-    A[02 Debugging And Profiling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of debugging and profiling, including underlying theory,
@@ -87252,16 +85979,6 @@ print(t.value)  # None, was it set to None or never set?
 # There's no way to tell with property alone. Track state explicitly if needed.
 ```
 
-```mermaid
-flowchart TD
-    A[03 Descriptors] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of descriptors and properties, including underlying theory,
@@ -88151,16 +86868,6 @@ d2 = {}
 Use `defaultdict` when you intentionally want default values. For configuration or structured data
 Access, prefer regular dicts to catch typos early.
 
-```mermaid
-flowchart TD
-    A[02 Dicts Sets Counter] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of dicts, sets, and collections deep dive, including underlying
@@ -89046,16 +87753,6 @@ finally:
         cleanup_that_might_fail()
     except Exception as e:
         logger.error("Cleanup failed: %s", e)
-```
-
-```mermaid
-flowchart TD
-    A[03 Error Handling Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -90208,16 +88905,6 @@ For more complex date arithmetic (business days, holidays, recurrence rules), th
 
 4. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already
    sorted input.
-
-```mermaid
-flowchart TD
-    A[01 Essential Modules] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -91460,17 +90147,6 @@ for p in Path(".").glob("*.py"):
 
 Use `p.is_file(follow_symlinks=False)` if you want to exclude symlinks to files.
 
-
-```mermaid
-flowchart TD
-    A[02 File Io] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of file i/o, including underlying theory, practical
@@ -91551,26 +90227,6 @@ Python is a dynamically typed, interpreted language where everything is an objec
 - **[Python Interactive Practice](https://ib.wyattau.com/mathematics/practice-interactive/):** Advanced practice with async, functional, and advanced patterns.
 - **[Packaging and Distribution](/python/07-best-practices/04-packaging-distribution/):** Package management and distribution best practices.
 - **[Ruby Basics](/ruby/flashcards-ruby-basics/):** Dynamic typing and object-oriented patterns compared across languages.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -93051,16 +91707,6 @@ fully_unwrapped = inspect.unwrap(flaky_operation)
 Those cases, `inspect.unwrap` stops at the first undocumented layer. This is yet another reason to
 Always use `functools.wraps`.
 
-```mermaid
-flowchart TD
-    A[03 Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, closures, and
@@ -94440,16 +93086,6 @@ Consumed.
 For more on `contextlib.contextmanager`See
 [Essential Modules](/python/05-standard-library/01-essential-modules/).
 
-```mermaid
-flowchart TD
-    A[04 Generators And Iterators] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of generators and iterators, including underlying theory,
@@ -95033,25 +93669,6 @@ Python is the language of readability: code that looks like English pseudocode a
 - [Data Structures](https://kotlin.wyattau.com/intermediate/collections/)
 - [Object-Oriented Programming](https://java.wyattau.com/03-object-oriented/01-classes/)
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 ## See also
 
 - [Introduction to Dart & Flutter](/dart/01-intro/)
@@ -95925,16 +94542,6 @@ def add_field(cls):
     cls.extra = MyField()
     MyField.__set_name__(cls.extra, cls, "extra")
     return cls
-```
-
-```mermaid
-flowchart TD
-    A[02 Metaclasses] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -97065,17 +95672,6 @@ Before using `__file__`Or use `getattr(module, '__file__', None)` for defensive 
 
 Modules and packages are Python's organizational system for code. Think of modules as drawers in a filing cabinet, and packages as cabinets with labels. When you import a module, Python searches for it in a specific order, loads it once, and caches it so all importers share the same object. The import system is like a librarian who knows exactly where every book lives and ensures each book is only checked out once per session.
 
-
-```mermaid
-flowchart TD
-    A[06 Modules And Packages] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of modules and packages, including underlying theory, practical
@@ -98085,16 +96681,6 @@ twine check dist/*
 # Also verify the name is available on https://pypi.org
 ```
 
-```mermaid
-flowchart TD
-    A[04 Packaging Distribution] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of packaging and distribution, including underlying theory,
@@ -98422,26 +97008,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 <PracticeProblem client:only="solid-js" question={"What does `list(map(lambda x: x"} options={["[1, 4, 9, 16, 25]", "[0, 1, 4, 9, 16]", "[0, 2, 4, 6, 8]", "[1, 2, 3, 4, 5]"]} correctAnswer={1} explanation={"range(5) produces [0, 1, 2, 3, 4]. Mapping x² gives [0, 1, 4, 9, 16].\""} difficulty="easy" />
 
 <PracticeProblem client:only="solid-js" question={"What is the time complexity of checking membership (`x in lst`) in a Python list?"} options={["O(1)", "O(log n)", "O(n)", "O(n log n)"]} correctAnswer={2} explanation={"Lists use a linear search for membership tests, which is O(n). For O(1) lookups, use a set or dict.\""} difficulty="medium" />
@@ -98748,26 +97314,6 @@ D. It adds type checking to attributes x and y',
 - **[Python Flashcards](/python/flashcards-python-basics/):** Interactive flashcards covering core Python concepts.
 - **[Python Interactive Practice](https://ib.wyattau.com/mathematics/practice-interactive/):** Advanced practice with async and functional patterns.
 - **[Packaging and Distribution](/python/07-best-practices/04-packaging-distribution/):** Package management and distribution best practices.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -99758,16 +98304,6 @@ class User:
         return f"User({self.name!r}, {self.email!r})"
 ```
 
-```mermaid
-flowchart TD
-    A[04 Protocols Dunder Methods] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of protocols and dunder methods, including underlying theory,
@@ -100579,16 +99115,6 @@ Parallelism). Multi-threaded I/O-bound code sees minimal change (I/O already rel
 As of Python 3.13, the free-threaded build is experimental and not recommended for production. Many
 Popular packages (NumPy, Pandas, etc.) do not yet fully support it. The expectation is that by
 Python 3.15-3.16, free-threading will be production-ready and the GIL will be optional by default.
-
-```mermaid
-flowchart TD
-    A[05 Python Internals] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -101617,16 +100143,6 @@ print(d["timestamp"])   # datetime object
 d_json = event.model_dump(mode="json")
 print(d_json["status"])    # "active" (string value)
 print(d_json["timestamp"]) # "2025-01-15T00:00:00" (ISO string)
-```
-
-```mermaid
-flowchart TD
-    A[04 Serialization] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -102979,17 +101495,6 @@ Fixed immediately, not discovered weeks later during code review.
 4. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
 
-
-```mermaid
-flowchart TD
-    A[01 Style And Idioms] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -104010,17 +102515,6 @@ URL: https://languages.wyattau.com/ruby/05-advanced/2_concurrency/
 }
 </script>
 
-
-```mermaid
-flowchart TD
-    A[2_Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Concurrency in Ruby has evolved from green threads through GIL-bound native threads to Ractor-based parallelism. The Global Interpreter Lock ensures only one thread executes Ruby code at a time, meaning CPU-bound tasks do not benefit from threading. However, I/O operations release the GIL, making threads useful for concurrent network requests. Ractors provide true parallelism by isolating objects, and the Fiber Scheduler enables non-blocking I/O without manual callback management.
@@ -104932,16 +103426,6 @@ URL: https://languages.wyattau.com/ruby/02-control-flow/1_control-flow/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "02 Control Flow", "url": "https://languages.wyattau.com/ruby/02-control-flow"}, {"name": "1_control Flow", "url": "https://languages.wyattau.com/ruby/02-control-flow/1_control-flow"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[1_Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -106154,26 +104638,6 @@ Ruby is a language optimised for developer happiness, everything is an object (i
 - **[Elixir Basics](https://elixir.wyattau.com/01-basics/1_basics-and-pattern-matching/):** Functional programming and pattern matching concepts that Ruby also supports.
 - **[Python Basics](/python/flashcards-python-basics/):** Dynamic typing and object-oriented patterns compared across languages.
 
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 ---
 
 ## Index
@@ -106567,16 +105031,6 @@ URL: https://languages.wyattau.com/ruby/05-advanced/1_metaprogramming/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "05 Advanced", "url": "https://languages.wyattau.com/ruby/05-advanced"}, {"name": "1_metaprogramming", "url": "https://languages.wyattau.com/ruby/05-advanced/1_metaprogramming"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[1_Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -107536,16 +105990,6 @@ URL: https://languages.wyattau.com/ruby/03-methods-blocks/1_methods-and-blocks/
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[1_Methods And Blocks] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Methods and blocks are Ruby's building blocks for code organisation. Methods encapsulate reusable logic, and blocks provide closures that capture their surrounding context. The interplay between methods, procs, and lambdas creates a flexible system where behaviour can be passed as data. Blocks enable the iterator pattern that Ruby uses extensively, replacing traditional loops with expressive method calls like `map`, `select`, and `reduce`.
@@ -108453,16 +106897,6 @@ URL: https://languages.wyattau.com/ruby/04-oop/1_oop/
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "04 Oop", "url": "https://languages.wyattau.com/ruby/04-oop"}, {"name": "1_oop", "url": "https://languages.wyattau.com/ruby/04-oop/1_oop"}]
 }
 </script>
-
-```mermaid
-flowchart TD
-    A[1_Oop] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Intuition
 
@@ -109446,26 +107880,6 @@ the explanation.
 **Confusing `super` with `super()`:** `super` passes all arguments to the parent method; `super()` passes none. Using the wrong one causes unexpected argument forwarding or missing argument errors.
 
 **Assuming `return` exits the block:** `return` inside a block exits the enclosing method, not just the block. Use `next` to skip an iteration or `break` to exit the block early.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -111067,16 +109481,6 @@ Integer("abc")     # => ArgumentError
 "hello world 42".scan(/\d+/)    # => ["42"]
 "hello world".scan(/\w+/)      # => ["hello", "world"]
 "key=value".split("=")          # => ["key", "value"]
-```
-
-```mermaid
-flowchart TD
-    A[1_Variables And Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary Table of Core Types
@@ -114154,16 +112558,6 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
-```mermaid
-flowchart TD
-    A[Cargo And Ecosystem] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Cargo is Rust's build system and package manager, handling compilation, dependency resolution, and publishing. Crates.io hosts the ecosystem with semantic versioning. Workspaces enable monorepo structures. Cargo features allow conditional compilation, and build scripts handle code generation. The ecosystem's emphasis on small, composable crates means most functionality comes from libraries rather than the standard library, making dependency management a core skill.
@@ -116102,16 +114496,6 @@ cannot see).
 10. **`select!` dropping futures.** When `select!` completes, all non-selected branches are dropped.
     If you need to retry a branch, you must restructure your code to loop and recreate the future.
     Consider using `tokio::select!` with a loop pattern for repeated selection.
-
-```mermaid
-flowchart TD
-    A[Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -118091,16 +116475,6 @@ fn handle_error(err: &dyn Error) {
     every `Result` is verbose and error-prone. The `?` operator is the idiomatic way to propagate
     errors. Use `match` only when you need to handle specific error variants differently.
 
-```mermaid
-flowchart TD
-    A[Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical
@@ -119216,26 +117590,6 @@ Rust achieves memory safety without a garbage collector through its ownership sy
 - **[Go Concurrency](https://go.wyattau.com/concurrency/channels/):** Channel-based concurrency patterns compared to Rust's ownership model.
 - **[Haskell Types](https://haskell.wyattau.com/01-basics/1_types-and-functions/):** Type system fundamentals that Rust's traits and generics build upon.
 - **[Swift Value Types](/swift/flashcards-swift-basics/):** Value semantics and memory safety without garbage collection.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -123486,16 +121840,6 @@ Names that include parts of the input.
 | `trybuild`              | Test harness for proc macro compile-fail tests             |
 | `insta`                 | Snapshot testing (useful for proc macro output)            |
 
-```mermaid
-flowchart TD
-    A[08 Macros] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of macros, including underlying theory, practical
@@ -124565,7 +122909,6 @@ URL: https://languages.wyattau.com/rust/practice-ownership/
 
 **Answer: A**
 
-
 **Q1. Which of the following will compile without errors?**
 
 A. let x = 5; let y = x; println!(\"\{\}\
@@ -124576,7 +122919,6 @@ D. let r1 = &mut s; let r2 = &mut s;',
 **Answer: A**
 - Integer types like `i32` implement the `Copy` trait, so `let y = x` copies the value rather than moving it. `x` remains valid and can still be used. `String` and `Vec` do not implement `Copy`, so the other options fail.
 *Difficulty: medium*
-
 
 ---
 
@@ -124593,7 +122935,6 @@ D. Memory is leaked after the function returns',
 - The lifetime `'a` tells the compiler that the returned reference will be valid for at least as long as the shorter of the two input lifetimes. This means the caller can use the result as long as both input references are still valid.
 *Difficulty: medium*
 
-
 **Q3. Why does `fn first_word(s: &str) -> &str` compile without explicit lifetime annotations?**
 
 A. Lifetime elision rules automatically assign the same lifetime to all references', "Rust doesn\'t check lifetimes for simple functions
@@ -124602,7 +122943,6 @@ B. It won\'t compile without annotations",
 **Answer: A**
 - Rust has lifetime elision rules. When there is exactly one input lifetime, it is assigned to all output references. So `fn first_word(s: &str) -&gt; &str` is equivalent to `fn first_word&lt;'a&gt;(s: &'a str) -&gt; &'a str`.
 *Difficulty: easy*
-
 
 ---
 
@@ -124619,7 +122959,6 @@ D. Yes, Rust automatically handles conflicts',
 - Rust's borrowing rules state that you can have any number of immutable references OR exactly one mutable reference, but not both simultaneously. This prevents data races at compile time.
 *Difficulty: easy*
 
-
 **Q5. What is reborrowing in Rust?**
 
 A. Creating a new reference from an existing reference without transferring the original borrow
@@ -124630,7 +122969,6 @@ D. Casting a mutable reference to an immutable one',
 **Answer: A**
 - Reborrowing occurs when you create a new reference from an existing reference (e.g., `&*x` or passing `&x` where `x` is already `&mut T`). The original borrow remains valid and will be valid again after the reborrow ends.
 *Difficulty: hard*
-
 
 ---
 
@@ -124647,7 +122985,6 @@ D. There is no difference',
 - `Box&lt;T>` provides single ownership of heap data, only one owner at a time. `Rc&lt;T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc&lt;T>` for shared ownership across threads.
 *Difficulty: medium*
 
-
 **Q7. When should you use `Arc&lt;T>` instead of `Rc&lt;T>`?**
 
 A. When you need to share data across multiple threads
@@ -124658,7 +122995,6 @@ D. When the data is very small',
 **Answer: A**
 - `Arc&lt;T>` (Atomic Reference Counted) is the thread-safe version of `Rc&lt;T>`. It uses atomic operations for reference counting, making it safe to share across threads. Use `Arc` when data needs to be accessed from multiple threads. For interior mutability with Arc, combine with `Mutex&lt;T>` or `RwLock&lt;T>`.
 *Difficulty: medium*
-
 
 ---
 
@@ -124675,7 +123011,6 @@ D. push requires exclusive access but v is not mutable',
 - push may cause reallocation of the vector's backing buffer if capacity is exceeded. This would invalidate the pointer `first` points to. Rust prevents this by refusing to allow a mutable borrow (via push) while an immutable reference (first) is still live.
 *Difficulty: hard*
 
-
 ---
 
 ### Lifetimes
@@ -124690,7 +123025,6 @@ D. fn first_or_default(s: &str) -> &str is invalid',
 **Answer: A**
 - With one input lifetime, elision rules assign that lifetime to all output references. So the explicit form is fn first_or_default&lt;'a&gt;(s: &'a str) -&gt; &'a str, but the compiler handles it automatically.
 *Difficulty: easy*
-
 
 ---
 
@@ -124707,7 +123041,6 @@ D. dyn Display is unsized, so Box cannot hold it',
 - Box&lt;dyn Display> is a fat pointer: it holds both a data pointer and a vtable pointer (2 *usize). Box&lt;i32> is a thin pointer to a single i32 on the heap (1* usize). The fat pointer enables dynamic dispatch at runtime.
 *Difficulty: medium*
 
-
 ---
 
 ### Smart Pointers
@@ -124722,7 +123055,6 @@ D. Automatic garbage collection',
 **Answer: A**
 - RefCell\&lt;T> provides interior mutability: you can modify the inner value even through an immutable reference. It enforces borrow rules at runtime (panics if violated) rather than compile time. Box\&lt;T> enforces exclusive ownership with no interior mutability.
 *Difficulty: medium*
-
 
 ---
 
@@ -124739,7 +123071,6 @@ D. Runtime error: use after free',
 - String does not implement Copy, so moving it into a function transfers ownership. After the move, the original variable is invalid. To use it after the call, you must clone it first, take a reference, or return the value from the function.
 *Difficulty: easy*
 
-
 ---
 
 ### Trait Objects and Generics
@@ -124755,7 +123086,6 @@ D. impl Trait allows multiple return types',
 - impl Trait hides a specific type known at compile time (static dispatch, monomorphized). dyn Trait uses dynamic dispatch via a fat pointer (vtable). impl Trait cannot return different types from different branches; dyn Trait can return any type implementing the trait.
 *Difficulty: medium*
 
-
 **Q14. Why does `fn first_word(s: &str) -> &str` compile without lifetime annotations?**
 
 A. Lifetime elision rules infer the lifetime automatically
@@ -124766,7 +123096,6 @@ D. The compiler guesses the lifetime',
 **Answer: A**
 - Lifetime elision rules state that when there is exactly one input lifetime, it is assigned to all output references. So the explicit form fn first_word&lt;'a&gt;(s: &'a str) -&gt; &'a str is automatically inferred.
 *Difficulty: easy*
-
 
 ---
 
@@ -124782,7 +123111,6 @@ D. Converts Option to Result',
 **Answer: A**
 - if let is a pattern match that handles only one variant. If option_value is Some(x), x is bound to the inner value and the block executes. If it is Nothing, the block is skipped. It is a concise alternative to a full match statement.
 *Difficulty: easy*
-
 
 ## Common Mistakes
 
@@ -124802,27 +123130,6 @@ D. Converts Option to Result',
 - **[C++ Pointers](https://programming.wyattau.com/types/2_pointers_references_views/1_pointers/):** Manual memory management for comparison with Rust\'s ownership model.
 - **Go Basics:** Simpler memory model with garbage collection for comparison.
 - **[Rust Book](https://doc.rust-lang.org/book/):** Official Rust documentation and tutorials.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -124893,27 +123200,6 @@ an answer, submit, and review the explanation.
 **Confusing `Rc` with `Arc` for threading:** `Rc` is not `Send` or `Sync`it cannot be shared across threads. Use `Arc` for multi-threaded shared ownership and `Rc` for single-threaded scenarios.
 
 **Ignoring cancellation safety in `select!`:** Futures that are not cancellation-safe can leave shared state inconsistent when dropped by `select!`. Always use cancellation-safe operations in select branches.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -125838,16 +124124,6 @@ let opt: Option<i32> = res.ok(); // Some(42)
 10. **Enum variants are not types.** You cannot write `fn takes_v4(addr: IpAddr::V4)`. Enum variants
     are not types, they are constructors. Use the full enum type and pattern match inside the
     function body, or use a newtype wrapper around the variant.
-
-```mermaid
-flowchart TD
-    A[Structs And Enums] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -127690,16 +125966,6 @@ List): `Option`, `Result`, `Vec`, `String`, `Box`, `Drop`, `Clone`, `Copy`, `Der
     slower. Use `#[repr(C)]` or `#[repr(align(N))]` when interfacing with C or when alignment
     matters.
 
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of types and variables, including underlying theory, practical
@@ -129428,17 +127694,6 @@ open class PublicClass {
 }
 ```
 
-
-```mermaid
-flowchart TD
-    A[1_Classes And Structs] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Swift's type system separates value types (structs) from reference types (classes), each with
@@ -130174,17 +128429,6 @@ func processLargeDataset(_ data: [DataPoint]) async {
 }
 ```
 
-
-```mermaid
-flowchart TD
-    A[2_Concurrency] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Swift's structured concurrency model provides compile-time safety for asynchronous code.
@@ -130805,17 +129049,6 @@ func decodeUser(from data: Data) -> Result<User, Error> {
 }
 ```
 
-
-```mermaid
-flowchart TD
-    A[1_Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Swift's error handling is explicit and type-safe. Enum-based error types provide structured error
@@ -130896,26 +129129,6 @@ Swift is designed for safety and performance, optionals force you to handle the 
 - **[Kotlin Null Safety](https://kotlin.wyattau.com/advanced/null-safety-deep-dive/):** Optional handling patterns similar to Swift's optionals.
 - **[Dart Introduction](https://typescript.wyattau.com/intro/):** Language comparison including Swift's compilation and concurrency model.
 - **[Rust Ownership](/rust/flashcards-rust-basics/):** Memory safety without garbage collection; Rust uses ownership instead of ARC.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -131604,16 +129817,6 @@ m[0, 1] = 5.0
 print(m[0, 1])  // 5.0
 ```
 
-```mermaid
-flowchart TD
-    A[1_Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Swift functions are first-class values that can be stored, passed, and returned. Closures provide
@@ -132043,26 +130246,6 @@ the explanation.
 - **[Kotlin Basics](https://kotlin.wyattau.com/practice-kotlin-basics/):** Kotlin comparison for JVM/mobile developers.
 - **[Dart Basics](https://dart.wyattau.com/flashcards-dart-basics/):** Flutter/Dart comparison for cross-platform mobile development.
 - **[iOS Development](https://developer.apple.com/swift/):** Official Apple Swift documentation and tutorials.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -133261,16 +131444,6 @@ let handler: CompletionHandler = { result in
 }
 ```
 
-```mermaid
-flowchart TD
-    A[1_Variables And Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 Swift's type system provides strong safety guarantees through explicit optionals, type inference,
@@ -134126,16 +132299,6 @@ function isUSD(value: number): value is USD {
 
 This assertion is true because the brand is erased. For meaningful runtime validation, add Actual
 checks.
-
-```mermaid
-flowchart TD
-    A[Advanced Patterns] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -135272,16 +133435,6 @@ This version is an error because the object literal is directly assigned.
 4. **Forgetting that keyof includes symbol keys.** keyof T returns string | number | symbol for most
    objects. Use keyof T & string for string-only keys.
 
-```mermaid
-flowchart TD
-    A[Advanced Types] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers advanced TypeScript type system features that enable building robust, type-safe
@@ -136095,16 +134248,6 @@ start(): void {
 }
 ```
 
-```mermaid
-flowchart TD
-    A[Classes] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of classes, including underlying theory, practical
@@ -136780,17 +134923,6 @@ Declaration file for module 'X'". Solutions:
 When `isolatedModules` is enabled, const enums cannot be used across files because each file is
 Transpiled independently and the compiler cannot inline values from other files. Use `as const`
 Objects as an alternative.
-
-
-```mermaid
-flowchart TD
-    A[Enums And Modulesx] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -137591,17 +135723,6 @@ Error boundaries in React do not catch errors in:
 Use error boundaries only for rendering errors. For all other error scenarios, use standard
 `try`/`catch` with the Result pattern or assert functions.
 
-
-```mermaid
-flowchart TD
-    A[Error Handling] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of error handling, including underlying theory, practical
@@ -137689,26 +135810,6 @@ TypeScript adds a compile-time type layer on top of JavaScript, the types exist 
 - **[Java Generics](https://kotlin.wyattau.com/intermediate/generics/):** Generic type system concepts that TypeScript adapts for JavaScript.
 - **[Dart Variables](https://dart.wyattau.com/03-basics/02-variables/):** Type system fundamentals compared across languages.
 - **[Rust Traits](/rust/flashcards-rust-basics/):** Rust's trait system provides similar type-level abstractions to TypeScript interfaces.
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -138305,17 +136406,6 @@ Or more concisely:
 
 ```ts
 return data.map((item) => callback?.(item) ?? item);
-```
-
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary
@@ -139071,16 +137161,6 @@ constrained<any>(42);
 
 This compiles despite `42` not being a `string`. The `any` type circumvents the constraint entirely.
 
-```mermaid
-flowchart TD
-    A[Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical
@@ -139528,27 +137608,6 @@ review the explanation.
 **Ignoring exhaustiveness checking in discriminated unions:** Omitting a `never` default case in switch statements means new union members won't trigger compile errors. Always add a `never` assertion to catch missing cases.
 
 **Forgetting that `Readonly` is shallow:** `Readonly<T>` only makes top-level properties readonly. Nested objects remain mutable. Use `ReadonlyDeep` from `type-fest` for deep immutability.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ---
 
@@ -140135,17 +138194,6 @@ Full list of input files without filesystem traversal.
 
 When `isolatedModules` is enabled, declaration files must be careful about re-exports. Re-exporting
 Types and values from the same module can cause issues with some bundlers.
-
-
-```mermaid
-flowchart TD
-    A[Tooling And Configuration] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -141021,17 +139069,6 @@ function process(item: A | B): void {
 }
 ```
 
-
-```mermaid
-flowchart TD
-    A[Types And Annotations] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of types and annotations, including underlying theory, practical
@@ -141200,17 +139237,6 @@ Interdependent.
    `exactOptionalPropertyTypes` for maximum safety.
 6. **Avoid type assertions (`as`)**. Prefer type guards and narrowing. Every `as` is a hole in the
    type system that the compiler cannot verify.
-
-
-```mermaid
-flowchart TD
-    A[Typescript] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -142056,16 +140082,6 @@ interface Bad {
 interface Good {
   children: React.ReactNode;
 }
-```
-
-```mermaid
-flowchart TD
-    A[Typescript With React] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
 ```
 
 ## Summary

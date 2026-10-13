@@ -430,16 +430,6 @@ URL: https://kotlin.wyattau.com/hub/
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[Hub] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Why This Guide Exists
 
 Kotlin is a modern, statically-typed language that runs on the JVM. It addresses many of Java's pain points, null safety, verbosity, and the lack of functional primitives, while maintaining full interoperability with Java. Since Google announced Kotlin as the preferred language for Android development, its adoption has grown rapidly across mobile, backend, and multiplatform projects.
@@ -1682,17 +1672,6 @@ Interfaces for compatibility.
 - \*\* Using Kotlin extension functions from Java. Extension functions compile to static methods, so
   Java callers must call them explicitly: `ExtensionKt.functionName(receiver, args)`.
 
-
-```mermaid
-flowchart TD
-    A[Interoperability] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of java interoperability, including underlying theory, practical
@@ -2098,17 +2077,6 @@ val config = Config().invoke {
   runtime. `KClass` for a value class may not behave as expected -- use the underlying type for
   reflection operations.
 
-
-```mermaid
-flowchart TD
-    A[Metaprogramming] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of metaprogramming, including underlying theory, practical
@@ -2472,17 +2440,6 @@ prove it covers the null case.
 7. **Forgetting that `lateinit` does not make a type nullable.** `lateinit var` bypasses null safety
    for non-null initialization. Accessing it before assignment throws
    `UninitializedPropertyAccessException`, not NPE.
-
-
-```mermaid
-flowchart TD
-    A[Null Safety Deep Dive] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -2976,17 +2933,6 @@ fun `timeout fires after delay`() = runTest {
   which means you may not notice when the code under test calls methods you did not expect. Use
   strict mocks by default and relax only when necessary.
 
-
-```mermaid
-flowchart TD
-    A[Testing] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of testing, including underlying theory, practical
@@ -3403,17 +3349,6 @@ val user = spawn(User)  // User(name=default)
 - \*\* Confusing `object` declarations with anonymous objects. `object` creates a named singleton;
   `object : SomeInterface { ... }` creates an anonymous instance.
 
-
-```mermaid
-flowchart TD
-    A[Classes And Objects] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of classes and objects, including underlying theory, practical
@@ -3754,17 +3689,6 @@ val result: String = fail("unreachable")  // type-checks because Nothing is a su
   restructure with standard library functions.
 - \*\* Creating ranges with `..` that are accidentally empty. `10..1` is empty; use `10 downTo 1`.
 - \*\* Assuming `for (i in range)` mutates `i`. The loop variable is a new `val` on each iteration.
-
-
-```mermaid
-flowchart TD
-    A[Control Flow] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -4125,17 +4049,6 @@ fun processUser(user: User) {
   code size and can cause longer compilation times. Reserve `inline` for small, frequently called
   functions where the allocation overhead matters.
 
-
-```mermaid
-flowchart TD
-    A[Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to functions, including key
@@ -4173,7 +4086,6 @@ Kotlin functions are first-class values that can be passed as parameters, return
 URL: https://kotlin.wyattau.com/basics/types-and-variables/
 
 import Citations from '@components/Citations.astro'
-
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -4445,17 +4357,6 @@ Type aliases are useful for domain modeling and reducing verbosity in complex ge
   `List<Int?>` are fundamentally different types.
 - \*\* Using `lateinit` for properties that can be initialized in the constructor. If the value is
   known at construction time, pass it as a constructor parameter.
-
-
-```mermaid
-flowchart TD
-    A[Types And Variables] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -4800,16 +4701,6 @@ val seq4 = generateSequence(seed = 0) { if (it < 100) it + 1 else null }  // 0..
 - \*\* Assuming read-only collections are immutable. `List<Int>` is a read-only interface; the
   underlying implementation may be mutable. Use `toList()` or `toImmutableList()` (Kotlinx
   Collections) for defensive copies.
-
-```mermaid
-flowchart TD
-    A[Collections] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5173,17 +5064,6 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
   scopes.
 - \*\* Collecting multiple flows sequentially. Use `combine`, `merge` or `zip` to compose flows
   concurrently.
-
-
-```mermaid
-flowchart TD
-    A[Coroutines] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -5774,17 +5654,6 @@ correct order. No delays are needed for StateFlow tests since values update sync
 4. **Forgetting that flow{} is cold and lazy.** Each collect call re-executes the entire upstream.
    Use shareIn for side-effecting sources.
 
-
-```mermaid
-flowchart TD
-    A[Coroutines Advanced] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This document covers advanced coroutine patterns that build on the fundamentals.
@@ -6207,17 +6076,6 @@ fun fetchUserProfile(userId: Long): Result<Profile> {
   `LazyThreadSafetyMode.SYNCHRONIZED` adds synchronization overhead. Use `NONE` when the property is
   only accessed from a single thread (e.g., in an Android Activity or a confined coroutine).
 
-
-```mermaid
-flowchart TD
-    A[Delegation And Result] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers Kotlin delegation patterns and the Result type, including practical applications
@@ -6541,17 +6399,6 @@ at runtime in Kotlin.
   call site during compilation.
 - \*_ Using `List<_>` and then trying to add elements. Star projection makes the list effectively
   read-only for generic types.
-
-
-```mermaid
-flowchart TD
-    A[Generics] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 
@@ -6993,16 +6840,6 @@ val server = ServerBuilder()
 - **Confusing `run` (extension) with `run` (non-extension).** The non-extension `run` has no
   receiver and is used as a grouping mechanism. The extension `run` operates on an object and is
   used to compute a result.
-
-```mermaid
-flowchart TD
-    A[Scope Functions] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
 
 ## Summary
 

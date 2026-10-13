@@ -770,16 +770,6 @@ extern "C" {
   library for cross-compilation
 - [Linker Configuration](/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration/) -- Linking against the standard library
 
-```mermaid
-flowchart TD
-    A[3_Standard_Library_Implementation] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Summary
 
 This topic covers the core concepts of standard library implementation, including underlying theory,

@@ -152,17 +152,6 @@ The resolving power: $R = mN = m \times 5$.
 
 </details>
 
-
-```mermaid
-flowchart TD
-    A[19_Fourier Optics 15] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Intuition
 
 Fourier optics reveals that every lens is a frequency analyser. When light passes through an aperture, the far-field pattern is the spatial Fourier transform of the aperture shape. A lens placed at the focal plane physically computes this transform, placing each spatial frequency at a specific point. This means spatial filtering is directly blocking or attenuating frequency components at the Fourier plane. The Abbe theory shows that resolution is fundamentally limited by how many diffraction orders the lens can collect, establishing that optical systems are bandpass filters for spatial information.
@@ -175,23 +164,3 @@ Fourier optics reveals that every lens is a frequency analyser. When light passe
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.

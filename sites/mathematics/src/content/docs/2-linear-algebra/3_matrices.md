@@ -384,16 +384,6 @@ factor of 57. $\blacksquare$
 }
 </script>
 
-```mermaid
-flowchart TD
-    A[3_Matrices] --> B[Key Concepts]
-    A --> C[Core Principles]
-    A --> D[Practical Applications]
-    B --> E[Fundamental definitions]
-    C --> F[Design patterns]
-    D --> G[Real-world usage]
-```
-
 ## Cross-References
 
 - **[Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)**: Eigenvalues are the roots of the characteristic polynomial defined via determinants.
