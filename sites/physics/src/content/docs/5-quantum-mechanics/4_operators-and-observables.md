@@ -17,6 +17,51 @@ description: "Operators and Observables: comprehensive educational content notes
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What makes an operator an *observable*? Give the two conditions.
+- Compute $[\hat{x}, \hat{p}] = \hat{x}\hat{p} - \hat{p}\hat{x}$ acting on a
+  smooth test function.
+- State the generalised uncertainty principle.
+- Define the expectation value, and say what it is *not*.
+- What is the difference between Hermitian and self-adjoint, in one sentence?
+
+Check your answers against the text. The last prompt is the one that catches
+people, and it is the reason the page exists.
+
+## Motivation: why an observable needs a *domain*
+
+In finite-dimensional linear algebra, a Hermitian matrix is all you need. It
+has real eigenvalues and an orthonormal eigenbasis, so "measure $\hat{A}$"
+means "read off an eigenvalue and its weight" and the probabilities in the Born
+rule have somewhere to live.
+
+Physics is not finite-dimensional. The position operator $\hat{x} = x$ and the
+momentum operator $\hat{p} = -i\hbar\,\mathrm{d}/\mathrm{d}x$ are defined on
+*functions*, and the set of functions on which a differential operator is
+defined is not incidental -- it is part of the operator. Changing the domain
+changes the operator, and can change whether it has real eigenvalues at all.
+
+**This is not a technicality.** The momentum operator on the half-line is
+Hermitian on its natural domain and is not self-adjoint, and self-adjointness
+is what the spectral theorem needs. The spectral theorem is what guarantees a
+complete family of spectral projections, and those projections are what
+"probability of outcome $a$" is defined in terms of. Lose self-adjointness and
+the Born rule has nothing to be a statement about.
+
+So the two conditions are:
+
+- **Hermitian (symmetric):** $\langle\phi, \hat{A}\psi\rangle =
+  \langle \hat{A}\phi, \psi\rangle$ for all $\psi, \phi$ in the domain.
+- **Self-adjoint:** Hermitian *and* the domain equals the domain of
+  $\hat{A}^\dagger$.
+
+On a finite-dimensional space, domains are everything, so the two coincide.
+On a Hilbert space of functions, they need not, and the difference is exactly
+where the interesting physics lives.
+
 ### 4.1 Position and Momentum Operators
 
 In the position representation:
@@ -260,12 +305,93 @@ The Heisenberg uncertainty principle $\sigma_x \sigma_p \geq \hbar/2$ is a prope
 
 Quantum operators are the machinery that extracts measurable information from a quantum state. Each observable, like position or momentum, has an associated operator whose eigenvalues are the possible measurement outcomes. The expectation value of an operator gives the average result over many identical measurements. Commuting operators share eigenstates, meaning both observables can be known simultaneously. Non-commuting operators, like position and momentum, obey an uncertainty relation: measuring one precisely forces the other to become uncertain. This is not a limitation of instruments but a fundamental feature of quantum reality. Spin-half systems illustrate this vividly: measuring spin along one axis gives random results for the orthogonal axis.
 
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Hermitian is the same as self-adjoint | no | $\hat{p} = -i\hbar\,\mathrm{d}/\mathrm{d}x$ on the half-line is Hermitian on its natural domain and admits no self-adjoint extension without a boundary condition added |
+| Every observable has a complete set of eigenstates | no | not for a general Hermitian operator; it is true for self-adjoint ones, and position and momentum have a *continuous* spectrum rather than a countable one |
+| Commuting observables can be measured simultaneously with arbitrary precision | no | commuting self-adjoint operators may have no common eigenbasis; what follows from $[\hat{A},\hat{B}] = 0$ is a *common invariant subspace* |
+| Eigenvalues of an observable are distinct | no | degeneracy is ubiquitous and physical -- spin multiplets and atomic levels -- and is not a defect |
+| The expectation value is the value you will measure | no | it is the mean over many identically prepared systems; a single measurement returns an eigenvalue |
+| The uncertainty principle limits how well instruments can measure | no | it bounds the spread of a *state*, and is attained by minimum-uncertainty Gaussians, so it is not an instrumental error |
+| Every observable has a discrete spectrum | no | $\hat{x}$ and $\hat{p}$ have continuous spectra; the generalised eigenfunctions are distributions, not vectors |
+| An operator is defined by its formula | no | it is defined by its formula *and* its domain; the same formula on different domains is a different operator |
+
+The first row is the one that matters most, and it is also the one that feels
+like pedantry until you meet an example. The last row is its general form and
+is worth internalising: on an infinite-dimensional space, writing the operator
+down is only half the specification.
+
+The third row deserves emphasis. The common statement is "commuting
+observables are simultaneously measurable", and it is a theorem about a
+*common eigenspace* -- which need not be the whole space. Two operators can
+commute and still leave you unable to assign both eigenvalues at once.
+
+## Where the research frontier is
+
+- **Domains in quantum mechanics.** Whether the Hamiltonian admits a
+  self-adjoint extension is a genuine mathematical question with physical
+  answers: boundary conditions at a singular endpoint can make the extension
+  unique, absent, or a family parameterised by an angle, and that angle is
+  the quantum number.
+- **Observables without spectra.** Quantum field theory has no
+  eigenvalues to read. The observable algebra is local and relativistic, and
+  the theory of von Neumann algebras replaces "operator with spectrum" with
+  "local algebra with representations".
+- **Haag's theorem.** Local relativistic observables cannot be unitarily
+  equivalent to the free field ones. It is a rigorous statement that the
+  mathematical frame of canonical quantisation breaks down in QFT, and
+  reconciling it remains open.
+- **Generalised measurement theory.** POVMs generalise projective
+  measurements; whether they describe real apparatus or are a mathematical
+  convenience is still argued.
+- **Black-hole information and observables.** Which operators count as
+  observables inside a black hole, and what algebra they satisfy, is unsettled
+  and empirically constrained.
+
+## Interleaving problems
+
+Mix these with the [postulates](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/),
+[wave
+functions](/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation/),
+[spin](/5-quantum-mechanics/7_spin/), [Linear
+Algebra](https://mathematics.wyattau.com/2-linear-algebra/1_vectors-and-vector-spaces/),
+[Functional
+Analysis](https://mathematics.wyattau.com/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)
+and [Spectral
+Theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/).
+
+1. (Linear algebra.) Prove that a Hermitian operator on a finite-dimensional
+   space has an orthonormal eigenbasis. Identify every step of the proof that
+   fails in infinite dimensions, and say which hypothesis each one used.
+2. (Functional analysis.) State the spectral theorem for self-adjoint
+   operators, and explain why the theorem is false for merely Hermitian ones.
+   Then take the first derivative on $L^2(0,1)$ and determine its adjoint,
+   checking domains rather than formal expressions.
+3. (Wave functions.) Compute $[\hat{x}, \hat{p}]$ acting on a smooth compactly
+   supported function by differentiating, with no appeal to a formula. Then say
+   why the answer is $i\hbar$ rather than the classical commutator $0$, and
+   what that statement means physically.
+4. (Spectral theory.) Show that the spectral measure of $\hat{p}$ is Lebesgue
+   measure, using the Fourier transform: the projectors of $\hat{p}$ are the
+   Fourier projections onto sets. What does it mean that position and momentum
+   have continuous spectral measures rather than countable ones?
+5. (Linear algebra.) Two Hermitian operators commute. Show that every
+   eigenvector of one is an eigenvector of the other *if* the eigenvalues of
+   the first are non-degenerate, and construct a two-dimensional example with
+   degenerate eigenvalues where the conclusion fails.
+6. (Research.) State Haag's theorem in the form that local, covariant,
+   time-ordered algebras cannot be unitarily equivalent to the free-field
+   algebra. Explain what it implies about canonical quantisation, and why it
+   is not regarded as showing QFT is inconsistent.
+
 ## Cross-References
 
 - **[Postulates of Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/)**: The postulates establish that observables are represented by Hermitian operators.
 - **[Wave Functions and the Schrodinger Equation](/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation/)**: Wave functions are the state vectors that operators act upon to extract physical information.
 - **[Spin](/5-quantum-mechanics/7_spin/)**: Spin operators illustrate the algebraic properties of angular momentum in quantum mechanics.
 
-- [Calculus](https://mathematics.wyattau.com/docs/calculus)
-- [Linear Algebra](https://mathematics.wyattau.com/linear-algebra/)
-- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+- [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/1_vectors-and-vector-spaces/)
+- [Hilbert Spaces](https://mathematics.wyattau.com/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)
+- [Bounded Linear Operators](https://mathematics.wyattau.com/11-functional-analysis/3_bounded-linear-operators/)
