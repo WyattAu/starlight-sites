@@ -5,7 +5,7 @@ title: Wave Functions and the Schrodinger Equation
 tags:
   - Physics
   - University
-description: "In the position representation, the state is described by a Where is the probabi Comprehensive educational content coverage with definitions and practice proble"
+description: "Wave functions and the Schrodinger equation: the position representation, normalisation as membership of L-squared, the time-dependent equation as the generator of time translation, separation of variables and the eigenvalue problem, probability current and its conservation, unitarity, the infinite square well, expectation values, and time-dependent perturbation theory. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -16,6 +16,64 @@ description: "In the position representation, the state is described by a Where 
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "3_wave Functions And The Schrodinger Equation", "url": "https://physics.wyattau.com/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What does $\int |\psi(\mathbf{r},t)|^2\,d^3\mathbf{r} = 1$ mean, and what
+  does it say about the function space $\psi$ lives in?
+- Write the time-dependent Schrodinger equation.
+- Why can you separate variables when $V$ does not depend on time?
+- State two properties of energy eigenstates, and say which fact about
+  $\hat{H}$ each one depends on.
+- What is probability current, and what does its integral over space equal?
+
+Check your answers against the text. The second prompt is the one people find
+hardest, because the equation looks like it was *derived* from something. It
+was not, and saying where it comes from is the point of the page.
+
+## Motivation: the equation is not a rule, it is a generator
+
+It is tempting to think of the Schrodinger equation as physics: some equation
+that happens to describe how $\psi$ moves. But it is really a restatement of
+the time-evolution postulate, and once you see that, several puzzles dissolve.
+
+The postulate says time evolution is unitary: $U(t,0)$ is an operator with
+$U^\dagger U = I$. Every unitary operator is an exponential of something
+Hermitian, so write
+
+$$
+U(t) = e^{-i\hat{H}t/\hbar}
+$$
+
+for some Hermitian $\hat{H}$, and $\hbar$ is a choice of units. Acting on
+$\psi$ and differentiating at $t = 0$ gives
+
+$$
+i\hbar\,\frac{\partial \psi}{\partial t} = \hat{H}\psi .
+$$
+
+That *is* the Schrodinger equation, with no appeal to de Broglie, no Planck
+constant appearing from nowhere, and no assumption about trajectories. The
+only input was unitarity.
+
+**Why linearity is the whole ballgame.** The equation is linear in $\psi$, so
+superpositions are solutions whenever their components are. That single fact
+produces interference, which is the experimental phenomenon that forced
+quantum mechanics to be linear in the first place. A nonlinear Schrodinger
+equation would not have interference, and with it gone there is little left
+that is recognisably quantum.
+
+**Why the Hamiltonian looks the way it does.** It is *not* guessed from
+classical mechanics by replacing $p$ with $-i\hbar\partial_x$ -- that is a
+mnemonic for finding the right answer, not a derivation. $\hat{H}$ is whatever
+generates time translation, and we identify it by reproducing two known
+results: free propagation needs $\hat{H} = \hat{p}^2/2m$, and a potential $V$
+must enter additively as $\hat{H} = \hat{p}^2/2m + V(\mathbf{r})$. The
+non-commutativity of $\hat{x}$ and $\hat{p}$ is what forces the operator
+ordering to be fixed, and it is why $\hat{p}^2/2m$ must mean
+$-\hbar^2\nabla^2/2m$ rather than the other way round.
 
 ### 3.1 Wave Functions
 
@@ -36,7 +94,7 @@ $$
 
 ### 3.3 Time-Independent Schrodinger Equation
 
-For time-independent potentials $V(\mathbf{r})$ Separate variables:
+For time-independent potentials $V(\mathbf{r})$, separate variables:
 $\psi(\mathbf{r}, t) = \phi(\mathbf{r}) e^{-iEt/\hbar}$:
 
 $$
@@ -397,6 +455,96 @@ $V_{fi} \to \langle f|\hat{V}_1|i\rangle$.
 ## Intuition
 
 The Schrodinger equation is the quantum version of Newton's second law: it tells you how a quantum state evolves in time. The wave function is like a ghostly cloud that describes where a particle might be found, with the square of its height giving the probability. A particle in a box is like a vibrating string fixed at both ends: only certain wavelengths fit, so only certain energies are allowed. The zero-point energy is the quantum version of the jitterbug: you cannot pin a particle down completely because the uncertainty principle demands it keep moving. Probability current is like water flow: the continuity equation ensures that probability is never created or destroyed, only moved around. Unitarity guarantees that quantum mechanics is reversible: if you run time backward, you recover the initial state, just like rewinding a video.
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| The wave function can be measured | no | $|\psi|^2$ is measurable; $\psi$ itself is not, and multiplying by a global phase leaves every observable unchanged |
+| Every potential has normalisable solutions | no | the free particle $V = 0$ has plane-wave eigenfunctions that are not in $L^2$ at all; physical states are wave packets |
+| A plane wave is a state of a free particle | no | it is not normalisable, so it is not a vector in the Hilbert space; it survives only as a *distribution* used to build packets |
+| The Schrodinger equation is derived from classical mechanics | no | it is the generator of unitary time evolution; quantising Hamilton's equations is a computational technique, not a derivation |
+| Energy eigenstates are the only states | no | any superposition is a state, and it evolves with each component acquiring its own phase $e^{-iE_n t/\hbar}$ |
+| Stationary states have a constant probability density | only for real $V$ | with a time-dependent or complex potential the density moves; and even for real $V$, a superposition of eigenstates is not stationary |
+| Perturbation theory works for any perturbation | no | the expansion is in powers of a small parameter and diverges once the perturbation is comparable to the level spacing |
+| Probability is conserved because the wave function is normalised | no | conservation is a separate theorem: it follows from $\partial_t \rho = -\nabla\cdot \mathbf{j}$ with $\mathbf{j}$ vanishing at infinity |
+
+The first row is the most important, and the global-phase version is worth
+sitting with. Multiply $\psi$ by $e^{i\theta}$ and nothing measurable changes,
+so $\psi$ and $e^{i\theta}\psi$ are the same state. Multiply *one component*
+of a superposition by a phase and everything measurable changes. The phase is
+individually unobservable and collectively decisive -- which is why
+interference is not optional.
+
+The last row is the one that is usually taught as a consequence rather than a
+theorem. Normality is a property of a state at a moment; conservation of
+probability is a statement about the dynamics, and it is exactly what fails
+when the potential is complex.
+
+## Where the research frontier is
+
+- **The many-body Schrodinger equation.** Solving it exactly is exponential in
+  the number of particles, and this is a statement about the problem, not
+  about our algorithms. Quantum Monte Carlo works because the sign problem
+  can be sidestepped for fermions with nodes, at a cost that grows with
+  system size.
+- **Real-time electron dynamics.** For large molecules, propagating the wave
+  function directly (TDCI) is prohibitive, so TDDFT and related approaches
+  propagate an orbital basis instead. The accuracy of those methods near
+  conical intersections and in strong fields is an active question.
+- **Stochastic Schrodinger equations.** Replacing the evolution by a complex
+  noise turns the problem into a diffusion in Hilbert space. Trajectories
+  reproduce the Born statistics for a single outcome, but the time step must
+  shrink with $\sqrt{\mathrm{d}t}$ because of the quadratic variation, which is
+  exactly the Itô correction on the [stochastic calculus
+  page](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-integration-and-formula/).
+- **Discontinuous Galerkin methods.** Error analysis for the Schrodinger
+  equation remains active because the time propagator is skew-Hermitian and
+  not energy-conserving at finite step, which matters for long-time
+  simulations.
+- **Schrodinger operators on graphs and quantum walks.** The spectral
+  structure -- and whether the continuum picture survives -- is still being
+  worked out, with direct consequences for quantum search algorithms.
+- **Tensor networks.** Matrix product states make the many-body problem
+  tractable in one dimension, and the bond dimension needed grows exponentially
+  with entanglement, which is the obstruction being worked around.
+
+## Interleaving problems
+
+Mix these with the [postulates](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/),
+[Hamiltonian
+Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/), [Angular
+Momentum](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/),
+[Linear
+Algebra](https://mathematics.wyattau.com/2-linear-algebra/1_vectors-and-vector-spaces/)
+and [Measure
+Theory](https://mathematics.wyattau.com/10-measure-theory/7_l-p-spaces/).
+
+1. (Postulates.) Starting only from "time evolution is unitary", prove that
+   $U(t) = e^{-i\hat{H}t/\hbar}$, and show that $\hat{H}$ must be Hermitian.
+   Then explain why this makes the Schrodinger equation a *statement about
+   time* rather than a law about particles.
+2. (Linear algebra.) Prove that eigenstates of a Hermitian operator with
+   distinct eigenvalues are orthogonal, by taking the inner product of
+   $\hat{H}\phi_n = E_n\phi_n$ with $\phi_m$ and using
+   $\langle\phi_n, \hat{H}\phi_m\rangle = \langle \hat{H}\phi_n, \phi_m\rangle$.
+   Identify which step fails when the eigenvalues coincide, and what replaces it.
+3. (Measure theory.) Normalisability is the statement that $\psi \in L^2$.
+   Explain why $L^2$ rather than $L^1$ is the right space, and why
+   $\int|\psi|^2 = 1$ fixes the scale of the state rather than adding a
+   constraint. What would go wrong if we used $L^1$?
+4. (Classical mechanics.) Show that $\hat{p} = -i\hbar\partial_x$ and
+   $[\hat{x}, \hat{p}] = i\hbar$ reproduce the canonical Poisson bracket of
+   classical mechanics. Then say precisely why this is a *consistency*
+   requirement and not a derivation of the Schrodinger equation.
+5. (Stochastic analysis.) Write the stochastic Schrodinger equation with a
+   complex noise $dW = dW_1 + i\,dW_2$. Show that unitarity requires the noise
+   to be complex, and explain why a real noise cannot preserve the norm. What
+   does this say about the cost of simulating a wave function stochastically?
+6. (Research.) Derive the Hartree equations from the variational principle and
+   show that the resulting energy is an upper bound on the exact ground-state
+   energy. Then explain why that bound does not converge as the basis is
+   improved -- and what the missing piece is called.
 
 ## Cross-References
 
