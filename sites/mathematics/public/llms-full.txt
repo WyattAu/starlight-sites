@@ -56318,62 +56318,68 @@ sources:
   - text: Spivak - Calculus
 
 
-This section covers essential mathematical techniques and theories. If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
-
 # Diagnostics
 
-**Prerequisites:** Review the prerequisite topics before attempting this section.
+A diagnostic is not a practice paper. It is a set of questions chosen to find
+the *earliest* topic you have a gap in, because that is the one worth repairing
+-- everything after it depends on it.
 
-## Topics
+**How to use one.** Work through it in one sitting, without notes and without
+looking anything up. Mark each question wrong rather than half-right: a
+question you solve by recalling the worked example is not evidence you can
+solve it cold. Then work *up* -- from the lowest-numbered wrong answer
+downwards. The first topic you cannot do at all is your real starting point,
+and the ones you got right below it are secure.
 
-- [Diag Linear Algebra](/diagnostics/diag-linear-algebra/)
+**What a result means.** Every question in a wrong region is expected to fail
+if that region is sound, so a failure there means the gap is above it. A
+pattern of failures spread evenly across the whole paper usually means the
+material has been read but not practised.
 
-## Learning Objectives
+## Why the earliest gap is the one to repair
 
-- Understand the core principles and definitions covered in this section
-- Apply key concepts to solve problems and answer exam-style questions
-- Connect this material to prerequisite topics and related sections
+Mathematics is cumulative in a way that is easy to underestimate. A gap in
+eigenvalues does not stay a gap in eigenvalues: it becomes a gap in linear
+maps, in differential equations, in the spectral theory on the graduate track,
+and eventually in a proof you cannot follow for reasons you cannot name.
 
-## Study Approach
+That is why the instruction above is to work *up* from the lowest wrong answer
+rather than to fix whatever looks most important. A student who repairs the
+eigenvalue gap in an afternoon has unblocked four later topics; a student who
+spends the same afternoon re-reading material they already pass has not.
 
-If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
-Use the cross-references to link related concepts across subjects where applicable.
+The reverse is just as common: a student who stops at the first hard question
+often concludes they are not a mathematician, when in fact one specific topic
+from two years ago was never understood. Diagnostics are useful partly because
+they replace that conclusion with a specific one.
 
-## Key Concepts
+## What these do not measure
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
+- **Speed.** Nothing here is timed. Speed is a consequence of fluency, not an
+  input to it.
+- **Insight.** Every question has a worked method. A question that required
+  invention would tell you about research aptitude, which is not what this is
+  for.
+- **Recall of formulas.** The formulas are the easy part. The diagnostic
+  deliberately spends most of its questions on setting up and justifying, since
+  that is where the gaps actually are.
 
-## Common Mistakes
+If you are preparing for a specific exam rather than auditing foundations, use
+the board's own past papers. This section is for finding out whether the
+groundwork is solid.
 
-- Skipping prerequisite material before attempting this section
-- Not practising problems after reading the theory
-- Failing to connect concepts across different topics
+## Available diagnostics
 
-## Further Reading
+- [Linear Algebra Diagnostic](/diagnostics/diag-linear-algebra/) -- vector
+  spaces, subspaces, bases, rank, eigenvalues and the change of basis. Worth
+  doing before [Linear Algebra](/2-linear-algebra/), because the eigenvalue
+  material there assumes fluency with it.
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
+## Where to go next
 
-
-## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
-Keep practising and reviewing to master this topic.
+If a diagnostic found a gap, repair it before moving on rather than continuing
+and hoping it resolves. The tracks are ordered in the [Study
+Hub](/hub/), which also carries the prerequisite map and the rigour ladder.
 
 ## Zh
 

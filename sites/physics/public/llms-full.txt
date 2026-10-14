@@ -36321,12 +36321,38 @@ Physics is the most fundamental natural science, it seeks to explain the behavio
 - **Thermal Physics**: Thermodynamics, statistical mechanics, and kinetic theory. Thermal physics connects microscopic particle behaviour to macroscopic observables like temperature and pressure. It explains phase transitions, heat engines, and the behaviour of gases.
 - **Optics**: Wave optics, interference, diffraction, and polarisation. Optics describes how light propagates and interacts with matter. Applications include lasers, holography, optical fibres, and imaging systems.
 
+## Tracks and prerequisites
+
+The tracks are ordered by dependency, not by interest. Classical mechanics
+needs calculus; electromagnetism needs vector calculus; thermal physics needs
+the first law and linear algebra; quantum mechanics needs all of the above.
+
+| Track | Needs first | Start here |
+| ----- | ----------- | ---------- |
+| Classical Mechanics | Calculus, vectors | [Newtonian Mechanics Review](/1-classical-mechanics/1_newtonian-mechanics-review/) |
+| Electromagnetism | Vector calculus | [Electromagnetism](/3-electromagnetism/) |
+| Optics and Waves | Oscillations, some EM | [Optics and Waves](/4-optics-and-waves/) |
+| Thermal Physics | Mechanics, linear algebra | [Thermodynamics and Statistical Mechanics](/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/) |
+| Quantum Mechanics | Mechanics, EM, linear algebra | [Postulates of Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/) |
+| Solid State Physics | Quantum mechanics, EM | [Solid State Physics](/6-solid-state-physics/) |
+| Particle Physics and Cosmology | Quantum mechanics, relativity | [Particle Physics and Cosmology](/7-particle-physics-and-cosmology/) |
+
+**Beyond the degree.** [Symplectic Structure and KAM
+Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/) is the
+research tier: it assumes the Lagrangian and Hamiltonian material and continues
+into integrable systems, the KAM theorem, Arnold diffusion and the open question
+of whether the solar system is actually stable. The wider research tier lives on
+the [mathematics
+site](https://mathematics.wyattau.com/hub/): spectral theory, stochastic
+calculus and SPDEs, representation theory, Ricci flow, and posterior asymptotics.
+
 ## Cross-References
 
-- **[Introduction](https://typescript.wyattau.com/intro/)**: Start here for an overview of the physics notes and navigation guidance.
-- **[Classical Mechanics](1-classical-mechanics/14_flashcards-classical-mechanics)**: Newtonian mechanics and conservation laws form the foundation of physics.
-- **[Electromagnetism](https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification/)**: Maxwell's equations describe electric and magnetic fields and their interactions with matter.
-- **[Quantum Mechanics](5-quantum-mechanics/16_flashcards-quantum-mechanics)**: Wave functions and operators describe physics at atomic scales.
+- **[Introduction](/intro/)**: Start here for an overview of the notes and how to navigate them.
+- **[Study Hub](/hub/)**: The full table of contents, prerequisite map and the rigour ladder.
+- **[Classical Mechanics](/1-classical-mechanics/)**: Newtonian mechanics and conservation laws form the foundation of physics.
+- **[Quantum Mechanics](/5-quantum-mechanics/)**: Wave functions and operators describe physics at atomic scales.
+- **[How to Use These Notes](https://mathematics.wyattau.com/how-to-use/)**: The method these pages are built on.
 
 ## Common Mistakes
 
@@ -36337,20 +36363,27 @@ Physics is the most fundamental natural science, it seeks to explain the behavio
 **Neglecting dimensional analysis:** Every valid physics equation must be dimensionally consistent. If units don't balance, the equation is wrong or misapplied.
 
 
-## Overview
+## How to Study Physics
 
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+Physics is not read, it is practised. The order that works:
 
-## Key Topics
+1. **Read the derivation, not the result.** Every page here derives what it
+   states. If you skip to the formula you are learning the formula's history
+   rather than its reason, and you will not be able to rederive it when the
+   problem is unfamiliar.
+2. **Check units before you check answers.** Dimensional analysis catches most
+   errors in seconds and costs nothing. If the units do not balance, stop.
+3. **Do the worked examples with the solution covered.** The point is to find
+   where you stall, not to confirm that you can follow along.
+4. **Use the recall prompts.** Each flagship page opens with questions to
+   answer from memory *before* reading. Retrieval practice is stronger than
+   re-reading, and the failure to recall is the signal that you should read
+   that section rather than skim it.
+5. **Come back at increasing intervals.** Spacing is what converts reading
+   into knowledge.
 
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+The mistakes section above is drawn from what students actually get wrong, and
+is worth reading once before starting a track.
 
 ---
 

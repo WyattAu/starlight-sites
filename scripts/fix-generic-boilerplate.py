@@ -198,7 +198,14 @@ def main() -> int:
         f"{removed_files} file(s) | blocked {len(blocked)} file(s) below minimum"
     )
     if args.report_blocked and blocked:
-        by_site = collections.Counter(p.parts[1] for p, _, _ in blocked)
+        # Find the site by locating the `sites` component. Indexing parts[1]
+        # on an absolute path yields the first directory under root, which
+        # silently attributes every page to the same nonexistent site.
+        def site_of(p: Path) -> str:
+            parts = p.parts
+            return parts[parts.index("sites") + 1] if "sites" in parts else p.parts[1]
+
+        by_site = collections.Counter(site_of(p) for p, _, _ in blocked)
         print("  blocked by site:", ", ".join(f"{k}:{v}" for k, v in by_site.most_common(10)))
         for p, before, after in blocked[:8]:
             print(f"    {p.relative_to(ROOT)}  {before} -> {after}")
