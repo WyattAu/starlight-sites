@@ -698,5 +698,3 @@ Native memory that is not part of the heap. Virtual threads eliminate this probl
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

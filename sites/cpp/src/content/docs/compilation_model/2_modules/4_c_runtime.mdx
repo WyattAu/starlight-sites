@@ -755,9 +755,6 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 The C Runtime (CRT) is the invisible scaffolding that makes a C++ program run. Before your `main` function is called, the CRT has already done significant work: it set up the stack, initialised the heap, processed global constructors (`.init_array`), and set up thread-local storage. When `main` returns, the CRT runs `atexit` handlers, calls static destructors, flushes I/O buffers, and then invokes the OS exit syscall. Understanding this lifecycle is critical because bugs in global constructors, static destructors, or heap initialisation happen _before your code even runs_, and they are notoriously hard to debug.

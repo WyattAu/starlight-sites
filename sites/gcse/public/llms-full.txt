@@ -53,8 +53,6 @@ This site provides comprehensive study materials covering:
 - Computer science
 - Biology
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -79,8 +77,6 @@ KS3 equivalents
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -98,18 +94,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [GCSE Biology Study Guide](/biology/)
 - [GCSE Chemistry Study Guide](/chemistry/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -118,8 +107,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -2184,18 +2171,11 @@ Chemistry is about **understanding what matter is made of and how it transforms*
 - **[Chemistry Diagnostics](/chemistry/diagnostics/diag-atomic-structure/):** Diagnostic tests for atomic structure and bonding.
 - **[Physics Flashcards](/flashcards-physics/):** Interactive flashcards for GCSE physics.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -2204,8 +2184,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -2265,18 +2243,11 @@ Physics is about **understanding how the universe works**, from the smallest par
 - **[Physics Diagnostics](/physics/diagnostics/diag-energy/):** Diagnostic tests for energy, forces, and electricity.
 - **[Chemistry Flashcards](/flashcards-chemistry/):** Interactive flashcards for GCSE chemistry.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -2285,8 +2256,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -3043,14 +3012,7 @@ Understand.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -3096,8 +3058,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Intuition
 
@@ -3794,8 +3754,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Overview
 
 This practice resource provides comprehensive coverage of Gcse content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -4467,9 +4425,6 @@ the answer is £180.
 A question bank is like a diagnostic tool -- each question tests a specific concept, and the pattern of your answers reveals where your understanding is solid and where it has gaps. Multiple-choice questions are particularly useful for revealing misconceptions: the wrong answers are designed to catch common errors. The key to using a question bank effectively is not just getting the right answer but understanding why each wrong answer is wrong. This turns practice from rote repetition into genuine learning.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -8348,14 +8303,7 @@ sustain another trophic level.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -8596,14 +8544,7 @@ have a large SA:V ratio, ensuring efficient exchange. This is why large organism
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -8873,14 +8814,7 @@ prove causation -- other factors (light, moisture, competition) may also be corr
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -9156,14 +9090,7 @@ with genetic conditions.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -9416,14 +9343,7 @@ to respond to danger (e.g., touching a hot object) before the brain has even reg
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -9545,14 +9465,7 @@ Cell Biology (cell division)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -9598,8 +9511,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -11043,14 +10954,7 @@ national curriculum and organised by topic for easy navigation.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -11094,8 +10998,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 
@@ -16217,14 +16119,7 @@ periodic table. Its electron configuration is $2, 8, 4$. This can be confirmed: 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -16531,14 +16426,7 @@ layers structural integrity) and weak inter-layer forces (which allow the layers
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -16628,8 +16516,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Additional Notes
 
@@ -17130,14 +17016,7 @@ mapped to the national curriculum and organised by topic for easy navigation.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -17181,8 +17060,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 
@@ -20060,9 +19937,6 @@ implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## See Also
 
 - [Algorithms](./)
@@ -20454,14 +20328,7 @@ the data is nearly sorted if an optimised version with an early termination chec
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -20911,14 +20778,7 @@ double-check the logic of the condition to ensure it can eventually evaluate to 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -21008,8 +20868,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Additional Notes
 
@@ -21836,9 +21694,6 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
 
 - [Algebra](/maths/2-algebra/2_algebra/) -- Binary and hexadecimal number systems require understanding of base conversion and place value.
@@ -22617,9 +22472,6 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Computer science is about solving problems through computation. Hardware provides the physical foundation, while software provides the instructions that make it useful. Algorithms are step-by-step procedures for solving problems, and data structures organize information for efficient access. Understanding how these layers interact helps you build systems that are not just functional but also fast, reliable, and secure.
@@ -22638,7 +22490,6 @@ URL: https://gcse.wyattau.com/computer-science/1-fundamentals/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Fundamentals, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -22663,8 +22514,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -22673,12 +22522,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -22688,8 +22532,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -22703,7 +22545,6 @@ URL: https://gcse.wyattau.com/computer-science/2-hardware/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. If Hardware feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -22728,8 +22569,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -22738,12 +22577,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -22753,8 +22587,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -22768,7 +22600,6 @@ URL: https://gcse.wyattau.com/computer-science/3-networks/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -22793,8 +22624,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -22803,12 +22632,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -22818,8 +22642,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -22833,7 +22655,6 @@ URL: https://gcse.wyattau.com/computer-science/4-algorithms/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. Work through Algorithms alongside the practice problems for Computer Science, then let the diagnostic tests tell you whether it stuck.
 
@@ -22858,8 +22679,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -22868,12 +22687,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -22883,8 +22697,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -22898,7 +22710,6 @@ URL: https://gcse.wyattau.com/computer-science/5-programming/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. If Programming feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -22923,8 +22734,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -22933,12 +22742,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -22948,8 +22752,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -23048,8 +22850,6 @@ Not all weak areas are equally important or equally easy to improve. Consider:
 Study your weakest areas using the topic notes, then retake the diagnostic to measure improvement.
 
 ## Key Concepts
-
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
 
 ### Systems Architecture
 
@@ -23189,16 +22989,12 @@ Boolean logic is the mathematics of true and false values. It underpins all digi
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 - *GCSE Computer Science for OCR* by Bob Reeves, Comprehensive textbook aligned to the specification
 - *Computer Science: A Concise Introduction* by David Cohen, Clear explanations of fundamental concepts
 - *Hello World! Computer Programming for Kids and Other Beginners* by Warren and Carter Sande, Accessible introduction to programming
 - CS Unplugged (csunplugged.org), Activities for learning computer science without a computer
 
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -23208,8 +23004,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ---
 
@@ -23313,18 +23107,11 @@ mapped to the national curriculum and organised by topic for easy navigation.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 Computer science is like learning the rules of a game where the pieces are logic gates and the board is silicon. Binary is the language of the machine -- everything is ultimately 1s and 0s, and understanding this is the foundation. The CPU's fetch-decode-execute cycle is the heartbeat of computation: it reads an instruction, figures out what to do, does it, and repeats billions of times per second. Algorithms are the recipes, and their efficiency determines whether your program finishes in seconds or hours. The key is to think computationally: break problems into steps, identify patterns, and choose the right tool for the job.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -23368,8 +23155,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ---
 
@@ -24172,9 +23957,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 
@@ -26036,14 +25818,7 @@ shows the complexity of the issue and still arrives at a clear conclusion.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -26435,14 +26210,7 @@ reader to imagine what it might contain.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -26826,14 +26594,7 @@ conclusion rather than a simplistic verdict.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -26925,8 +26686,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Additional Notes
 
@@ -30344,9 +30103,6 @@ theorems, methods, and problem-solving approaches.
 - partial fractions
 - binomial expansion
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
 
 - [Ratio and Proportion](/maths/3-ratio-proportion/3_ratio-proportion/) -- Proportional reasoning and direct proportion are special cases of linear equations.
@@ -30549,14 +30305,7 @@ The first company is cheaper for journeys longer than 16 km.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -30769,14 +30518,7 @@ the question does not specify, assuming same material, the weight ratio equals t
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -30983,14 +30725,7 @@ people.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -31187,14 +30922,7 @@ equalise costs.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -31460,14 +31188,7 @@ $P(\text{exactly 2 red in 3) = \frac{\binom{15}{2} \times \binom{21}{1}}{\binom{
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -31595,14 +31316,7 @@ Geometry (area, perimeter)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -31648,8 +31362,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -32671,14 +32383,7 @@ and organised by topic for easy navigation.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -32732,8 +32437,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ---
 
@@ -34576,9 +34279,6 @@ of change, including key theorems, methods, and problem-solving approaches.
 - partial fractions
 - binomial expansion
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
 
 - [Algebra](/maths/2-algebra/2_algebra/) -- Ratio and proportion problems are often solved using algebraic equations and substitution.
@@ -35406,9 +35106,6 @@ theorems, methods, and problem-solving approaches.
 - correlation and regression
 - sampling methods
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## See Also
 
 - [Statistics](./)
@@ -35610,14 +35307,7 @@ voltage, the more sensitive and accurate the temperature sensor.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -35838,14 +35528,7 @@ rather than eliminate impact.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -36056,14 +35739,7 @@ of 5 m/s.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -36300,14 +35976,7 @@ conservation of energy: mechanical work $\to$ electrical energy $\to$ thermal en
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -36540,14 +36209,7 @@ appropriate frequencies ( 1--15 MHz depending on the application).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -36675,14 +36337,7 @@ Waves (wave properties, speed, frequency)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ### Example: Energy Conservation on a Roller Coaster
 
@@ -36785,8 +36440,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## See Also
 
 - [Diagnostics](./)
@@ -36814,8 +36467,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR A Gateway P4 | WJEC P4
 <PhetSimulation client:only="solid-js" simulationId="circuit-construction-kit-dc" title="Circuit Construction Kit: DC"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## 1. Electrical Circuits
 
@@ -37813,8 +37464,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway P1 | WJEC P1
 <PhetSimulation client:only="solid-js" simulationId="energy-skate-park-basics" title="Energy Skate Park: Basics"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## 1. Energy Stores and Systems
 
@@ -38818,8 +38467,6 @@ import PhetSimulation from "@components/PhetSimulation";
 > **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR A Gateway P2 & P6 | WJEC P2
 <PhetSimulation client:only="solid-js" simulationId="forces-and-motion-basics" title="Forces and Motion: Basics"  />
 
-Explore the simulation above to develop intuition for this topic.
-
 ## 1. Force Diagrams and Vector Quantities
 
 ### 1.1 Scalars and Vectors
@@ -39768,7 +39415,6 @@ URL: https://gcse.wyattau.com/physics/1-energy/
 sources:
   - text: Standard textbook reference
 
-
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read index, attempt the practice problems cold, and only then check the worked solutions.
 
 # Energy
@@ -39792,8 +39438,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -39802,12 +39446,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -39817,8 +39456,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -39897,7 +39534,6 @@ URL: https://gcse.wyattau.com/physics/5-forces/
 sources:
   - text: Standard textbook reference
 
-
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read index, attempt the practice problems cold, and only then check the worked solutions.
 
 # Forces
@@ -39921,8 +39557,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -39931,12 +39565,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -39946,8 +39575,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -39961,7 +39588,6 @@ URL: https://gcse.wyattau.com/physics/6-waves/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -39986,8 +39612,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -39996,12 +39620,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -40011,8 +39630,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -40235,14 +39852,7 @@ curriculum and organised by topic for easy navigation.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -40296,8 +39906,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Key Equations to Remember
 
@@ -40358,8 +39966,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 2 | OCR A Gateway P4 & P7 | WJEC P4
 <PhetSimulation client:only="solid-js" simulationId="faraday-electromagnetic-lab" title="Faraday's Electromagnetic Lab"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## 1. Magnets and Magnetic Fields
 
@@ -41622,8 +41228,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel Paper 1 | OCR A Gateway P3 & P6 | WJEC P3
 <PhetSimulation client:only="solid-js" simulationId="waves-on-a-string" title="Waves on a String"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## 1. Properties of Waves
 

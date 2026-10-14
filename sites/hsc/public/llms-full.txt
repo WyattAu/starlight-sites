@@ -52,8 +52,6 @@ This site provides comprehensive study materials covering:
 - Mathematics
 - Biology
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -78,8 +76,6 @@ Year 10 equivalents
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -97,18 +93,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [HSC Physics Flashcards](/flashcards-physics/)
 - [Complete HSC Study Guide, Physics and Maths](/hub/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -117,8 +106,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -583,8 +570,6 @@ URL: https://hsc.wyattau.com/
 sources:
   - text: Standard textbook reference
 
-
-
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 HSC revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
@@ -631,10 +616,7 @@ The Higher School Certificate is the primary qualification for students completi
 - **[Site Home](../../):** Main landing page for hsc notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -644,8 +626,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ---
 
@@ -839,14 +819,7 @@ solutions.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -879,35 +852,21 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## Algebra
 
-
-
-
 ---
 
 ## Calculus
-
-
-
 
 ---
 
 ## Trigonometry
 
-
-
-
 ---
 
 ## Probability
 
-
-
 ---
 
 ## Statistics
-
-
-
 
 ## Intuition
 
@@ -930,18 +889,11 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Site Home](../../):** Main landing page for hsc notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -950,8 +902,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -968,36 +918,21 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## Mechanics
 
-
-
-
 ---
 
 ## Electricity
-
-
-
 
 ---
 
 ## Waves
 
-
-
-
 ---
 
 ## Nuclear Physics
 
-
-
-
 ---
 
 ## Thermal Physics
-
-
-
 
 ## Intuition
 
@@ -1020,18 +955,11 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Site Home](../../):** Main landing page for hsc notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -1040,8 +968,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## Chemistry
 

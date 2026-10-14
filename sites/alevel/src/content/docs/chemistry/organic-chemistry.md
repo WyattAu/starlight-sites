@@ -926,9 +926,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Organic
 Chemistry with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Organic chemistry is like a vast city of carbon-based molecules, each with unique structures and personalities.**

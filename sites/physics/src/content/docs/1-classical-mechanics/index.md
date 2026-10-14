@@ -55,7 +55,6 @@ graph TD
     C --> D[Energy Methods]
 ```
 
-
 ## Contents
 
 1. [Newtonian Mechanics Review](/1-classical-mechanics/1_newtonian-mechanics-review/)
@@ -95,8 +94,6 @@ University-level classical mechanics notes covering Lagrangian, Hamiltonian, and
 Start with Lagrangian mechanics to build foundational knowledge, then progress to Hamiltonian mechanics and advanced topics. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 

@@ -204,10 +204,6 @@ Strategy is like a game plan in sports. You would not enter a basketball game wi
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 ### Example 1: Cross-Disciplinary Problem -- Algebra and Probability

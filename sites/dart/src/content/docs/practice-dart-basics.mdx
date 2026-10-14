@@ -9,8 +9,6 @@ categories:
   - Dart
 ---
 
-
-
 ## Dart -- Interactive Practice
 
 10 auto-graded practice problems covering core Dart concepts. Select an answer, submit, and review
@@ -31,7 +29,6 @@ D. It compiles successfully',
 - With null safety enabled, all non-nullable variables must be initialized at declaration. `String name;` without an initializer or `late` keyword produces a compilation error. To fix: initialize it (`String name = 'Alice';`), make it nullable (`String? name;`), or defer with `late` (`late String name;`).
 *Difficulty: easy*
 
-
 **Q2. What is the type of `List&lt;int&gt;? numbers = [1, 2, 3];`?**
 
 A. The variable is of type `List&lt;int&gt;?` and currently holds a non-null `List&lt;int&gt;
@@ -43,7 +40,6 @@ D. It is of type `dynamic`',
 - `List&lt;int&gt;?` is a nullable list type. The variable `numbers` can hold either a `List&lt;int&gt;` or `null`. The initializer `[1, 2, 3]` is a valid `List&lt;int&gt;`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null.
 *Difficulty: easy*
 
-
 **Q3. Which Dart collection type guarantees uniqueness of elements?**
 
 A. List
@@ -54,7 +50,6 @@ D. Queue
 **Answer: B**
 - A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `{'a', 'b', 'a'}` becomes `{'a', 'b'}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`).
 *Difficulty: easy*
-
 
 ---
 
@@ -71,7 +66,6 @@ D. Compilation error
 - `Stream.fromIterable` creates a single-subscription stream that emits each element of the iterable as a separate event. The listener multiplies each value by 2: 1*2=2, 2*2=4, 3*2=6. Events are delivered asynchronously but in order for synchronous iterables. After emitting all three, the stream completes.
 *Difficulty: medium*
 
-
 **Q5. Given `Future&lt;String&gt; fetchName() async \{ await Future.delayed(Duration(seconds: 1)); return 'Alice'; \}`, what is the type of `var result = fetchName();`?**
 
 A. String
@@ -82,7 +76,6 @@ D. void
 **Answer: C**
 - Calling an async function without `await` returns the Future immediately without waiting for it to complete. `var result = fetchName();` gives `result` the type `Future&lt;String&gt;`, not `String`. To get the String value, you must `await` it: `var result = await fetchName();` which yields type `String`.
 *Difficulty: medium*
-
 
 ---
 
@@ -99,7 +92,6 @@ D. switch (r) \{ case Result(): ... \}',
 - Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching.
 *Difficulty: medium*
 
-
 **Q7. In Dart 3 records, how do you access the first positional field of `var record = ('Alice', 30);`?**
 
 A. record[0]
@@ -110,7 +102,6 @@ D. record.$1
 **Answer: D**
 - Record positional fields are accessed via `$1`, `$2`, `$3`, etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
 *Difficulty: medium*
-
 
 ---
 
@@ -124,7 +115,6 @@ B. Calls Animal's walk method instead", 'Compilation error: Walker cannot be use
 **Answer: A**
 - Mixins inject their method implementations into the class that uses them. `Person` gains the `walk()` method from `Walker`. If `Person` also defines `walk()`, its own method takes precedence (override). If `Animal` defines `walk()` and `Walker` also defines it, the mixin's linearization order determines which wins -- mixins applied later have higher priority.
 *Difficulty: medium*
-
 
 &lt;PracticeProblem client:only="solid-js" question=\{`Given \`extension on String \{ String get reversed => split('').reversed.join(); \}\`, what does \`"hello".reversed\` return?`\} options=\{['"olleh"', '"hello"', 'Compilation error: String already has reversed', 'null']\} correctAnswer=\{0\} explanation="Extension methods add members to existing types. This extension adds a`reversed` getter to `String`.`split('')` creates `['h','e','l','l','o']`,`.reversed` produces `['o','l','l','e','h']`, and`.join()` yields `'olleh'`. Extensions are resolved at compile time -- if`String` later adds a `reversed` member, the real member takes priority." difficulty="medium"  />
 
@@ -143,7 +133,6 @@ D. Rewrite the project from scratch with null safety from day one',
 - The recommended migration flow: 1) Enable null safety incrementally with `// @dart=2.12` or per-package. 2) Run the migration tool (`dart fix --apply`). 3) Review: add `?` where nulls are intentional, replace `!` with proper null checks, use `late` for fields initialized in `initState` or constructors. 4) Run analysis (`dart analyze`) to find remaining issues. 5) Remove `!` operators one by one -- each removed operator is a safety improvement.
 *Difficulty: hard*
 
-
 **Q10. In a Flutter StatefulWidget, which lifecycle method should you use to initialize data that depends on `BuildContext` or to subscribe to a stream?**
 
 A. the constructor
@@ -154,7 +143,6 @@ D. build
 **Answer: B**
 - `initState()` is called once when the State object is created, before `build()`. It is the correct place to initialize data, subscribe to streams, and set up controllers that depend on `this.context`. Do NOT call `BuildContext`-dependent methods (like `Theme.of(context)`) in `initState` -- use `didChangeDependencies` for those. Clean up subscriptions in `dispose()`.
 *Difficulty: hard*
-
 
 ## Intuition
 
@@ -177,18 +165,11 @@ D. build
 - **[Site Home](../../):** Main landing page for dart notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -197,8 +178,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## See also
 

@@ -836,9 +836,6 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/data-management.md
 
 ## Intuition
@@ -847,5 +844,3 @@ Data management is the art of keeping information organized, accessible, and sec
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

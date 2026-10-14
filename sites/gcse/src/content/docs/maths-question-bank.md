@@ -655,9 +655,6 @@ A question bank is like a diagnostic tool -- each question tests a specific conc
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.

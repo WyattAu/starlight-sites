@@ -51,8 +51,6 @@ This site provides comprehensive study materials covering:
 - Writing
 - Mathematics
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -77,8 +75,6 @@ high school enrolment
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -96,18 +92,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Advanced Strategies](/advanced-strategies/)
 - [SAT Math Advanced Flashcards](/flashcards-math-advanced/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -116,8 +105,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -575,18 +562,11 @@ SAT Math tests your ability to apply mathematical concepts to real-world problem
 - **[Algebra](/mathematics/algebra/):** Algebraic foundations for all SAT math topics.
 - **[Data Analysis](/mathematics/data-analysis/):** Statistics and probability topics tested on the SAT.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -595,8 +575,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -647,18 +625,11 @@ Advanced SAT math covers the most challenging topics that distinguish top scorer
 - **[Algebra](/mathematics/algebra/):** Algebraic foundations for advanced topics.
 - **[Geometry](/mathematics/geometry/):** Coordinate geometry connects algebra and shapes.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -667,8 +638,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -722,18 +691,11 @@ The SAT Reading and Writing section tests your ability to understand, analyse, a
 - **[Reading Comprehension](/reading/comprehension/):** Deep dive into reading strategies and question types.
 - **[Grammar](/reading/grammar/):** Grammar rules tested in the writing section.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -742,8 +704,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -3327,9 +3287,6 @@ The most effective approach to these problems is:
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
@@ -4005,9 +3962,6 @@ text. Eliminate distractors by identifying choices that are unsupported, irrelev
 by the passage.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -5488,9 +5442,6 @@ answer is grounded in the text.
 SAT Reading and Writing tests your ability to understand, analyze, and communicate ideas evidently. Reading is not about speed but about precision: you must identify the author's purpose, tone, and argument structure. Writing questions test whether you can improve clarity and correctness, like an editor who cuts unnecessary words and fixes grammatical errors. The best approach is to read actively, asking yourself "what is the author trying to say?" rather than passively absorbing words.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

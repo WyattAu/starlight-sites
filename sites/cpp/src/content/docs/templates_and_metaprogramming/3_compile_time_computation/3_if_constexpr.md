@@ -627,15 +627,9 @@ key: "key'', value: "value'
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 `if constexpr` is a compile-time if statement that tells the compiler to discard the branch that does not apply, the way a choose-your-own-adventure book skips entire chapters based on your choice. At compile time, only the true branch is instantiated, preventing compilation errors in code that would never execute. This replaces the messy template specialization patterns that were previously needed, like having to write separate booklets for each adventure instead of one book with conditional pages.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

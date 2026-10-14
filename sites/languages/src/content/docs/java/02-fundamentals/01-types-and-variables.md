@@ -929,9 +929,6 @@ The Java type system reflects a series of deliberate tradeoffs:
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Control Flow](/java/02-fundamentals/02-control-flow/):** If-else, switch, and loop constructs that use the types defined here.

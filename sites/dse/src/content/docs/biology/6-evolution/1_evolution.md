@@ -1138,9 +1138,6 @@ has a greater effect in small populations.
 :::tip
 covers evolution topics within the DSE specification.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

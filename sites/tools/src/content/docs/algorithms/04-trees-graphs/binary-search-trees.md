@@ -1135,13 +1135,7 @@ balanced trees, including key theorems, methods, and problem-solving approaches.
 - De Moivre's theorem
 - roots of complex numbers
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

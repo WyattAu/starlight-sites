@@ -1081,9 +1081,6 @@ within the A-Level specification for this topic, each with a full worked solutio
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Chemical
 Kinetics with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Summary
 
 This topic covers the essential chemistry of chemical kinetics, including key reactions, underlying

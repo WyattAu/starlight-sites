@@ -1344,9 +1344,6 @@ The most effective approach to these problems is:
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.

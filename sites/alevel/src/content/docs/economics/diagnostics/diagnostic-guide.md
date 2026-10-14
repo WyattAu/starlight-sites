@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "A-Level Economics -- Diagnostic Guide"
 description: "Study notes for A-Level Economics -- Diagnostic Guide with worked examples and practice questions."
@@ -502,14 +501,7 @@ When time is limited, focus on the highest-yield topics:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 

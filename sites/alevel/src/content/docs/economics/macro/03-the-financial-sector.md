@@ -1228,10 +1228,6 @@ largest component of household wealth.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/) defines GDP, inflation, and unemployment metrics that monetary policy aims to stabilise.

@@ -854,10 +854,6 @@ flowchart TD
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 Range adaptors are like lens filters on a camera: each one modifies the view of the data without changing the underlying data itself. `filter` removes elements you do not want to see, `transform` changes how each element looks, and `take` limits how many you see. Pipelines let you stack these filters, so `data | filter(pred) | transform(f)` reads left to right like a factory assembly line where each station modifies the product before passing it on.

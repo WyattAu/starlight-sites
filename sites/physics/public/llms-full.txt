@@ -1442,7 +1442,6 @@ graph TD
     C --> D[Energy Methods]
 ```
 
-
 ## Contents
 
 1. [Newtonian Mechanics Review](/1-classical-mechanics/1_newtonian-mechanics-review/)
@@ -1482,8 +1481,6 @@ University-level classical mechanics notes covering Lagrangian, Hamiltonian, and
 Start with Lagrangian mechanics to build foundational knowledge, then progress to Hamiltonian mechanics and advanced topics. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -6013,7 +6010,6 @@ graph TD
     S --> Q[Heat Transfer]
 ```
 
-
 ## Contents
 
 1. [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/)
@@ -6060,8 +6056,6 @@ University-level thermal physics notes covering thermodynamics, statistical mech
 Start with the laws of thermodynamics to build foundational knowledge, then progress to statistical mechanics and phase transitions. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -14352,7 +14346,6 @@ graph TD
     W --> L[Light]
 ```
 
-
 ## Contents
 
 1. [Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)
@@ -14392,8 +14385,6 @@ University-level electromagnetism notes covering Maxwell's equations, electrodyn
 Start with Maxwell's equations to understand the foundations, then progress to electrodynamics and relativity. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -20237,7 +20228,6 @@ graph TD
     W --> P[Polarization]
 ```
 
-
 ## Contents
 
 1. [The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)
@@ -20287,8 +20277,6 @@ University-level optics and wave physics notes covering interference, diffractio
 Start with the wave equation to build foundational knowledge, then progress to interference and diffraction. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -23823,7 +23811,6 @@ graph TD
     M --> O[Observable]
 ```
 
-
 ## Contents
 
 1. [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
@@ -23865,8 +23852,6 @@ University-level quantum mechanics notes covering postulates, operators, and app
 Start with the historical motivation to understand the context, then progress to postulates and operators. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -29694,8 +29679,6 @@ Start with crystal structures to build foundational knowledge, then progress to 
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -34041,8 +34024,6 @@ Start with the Standard Model to understand the foundations, then progress to Fe
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -35393,8 +35374,6 @@ This site provides comprehensive study materials covering:
 - Thermal physics
 - Optics
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -35419,8 +35398,6 @@ calculus, linear algebra, differential equations
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -35438,18 +35415,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Physics](./)
 - [Classical Mechanics Flashcards](/classical-mechanics-flashcards/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -35458,8 +35428,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -35738,18 +35706,11 @@ URL: https://physics.wyattau.com/glossary/
 - [Quantum Physics Overview](https://alevel.wyattau.com/physics/nuclear-physics/03-quantum-physics/)
 - [Relativity Introduction](/3-electromagnetism/12_special-relativity-and-electromagnetism-12/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -35758,8 +35719,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -36324,18 +36283,11 @@ Physics describes the fundamental laws governing the universe, from the motion o
 
 **Ignoring sig figs and unit consistency:** Physics answers must have correct significant figures and consistent units. Dropping units mid-calculation leads to dimensional errors.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -36344,8 +36296,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -39185,7 +39135,6 @@ URL: https://physics.wyattau.com/diagnostics/
 sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
-
 This section covers key physical principles, from classical mechanics to modern physics. If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Diagnostics
@@ -39386,17 +39335,12 @@ $\mu_k = \frac{f_k}{N} = \frac{10}{49} \approx 0.204$
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 - *Fundamentals of Physics* by Halliday, Resnick, and Walker, The standard university physics textbook
 - *University Physics* by Young and Freedman, Comprehensive coverage with excellent worked examples
 - *The Feynman Lectures on Physics* by Richard Feynman, Deep conceptual insights from a master physicist
 - *Six Easy Pieces* by Richard Feynman, Accessible introduction to fundamental physics concepts
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -39406,8 +39350,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## Zh
 

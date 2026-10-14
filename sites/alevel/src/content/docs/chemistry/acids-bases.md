@@ -1314,9 +1314,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Acids,
 Bases and Buffers with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Acids and bases are like opposite personalities, one gives protons, the other accepts them, creating balance.**

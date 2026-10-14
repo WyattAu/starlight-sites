@@ -1446,9 +1446,6 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/data-representation.md
 
 ## Intuition
@@ -1456,9 +1453,6 @@ for mastery of this topic.
 Data representation is the translation between human concepts and machine reality. Every photo, song, and text message is ultimately a sequence of binary digits, the way every painting is ultimately a collection of colored dots. The challenge is encoding rich, meaningful information in a format that a machine can store, process, and transmit without losing fidelity. Compression, sampling, and quantization are the tools that make this translation practical, like the shorthand a court reporter uses to capture every word in real time.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

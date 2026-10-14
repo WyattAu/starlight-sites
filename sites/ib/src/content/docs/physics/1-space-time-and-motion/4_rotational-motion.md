@@ -1011,9 +1011,6 @@ questions within the IB specification for this topic, each with a full worked so
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Rotational
 Motion with other physics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Common Pitfalls
 
 1. Rounding intermediate answers too early, which compounds errors in multi-step calculations.

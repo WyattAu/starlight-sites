@@ -1158,9 +1158,6 @@ theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/programming-fundamentals.md
 
 ## Intuition
@@ -1169,5 +1166,3 @@ Programming fundamentals are the grammar of a conversation with a computer. Vari
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

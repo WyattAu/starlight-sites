@@ -703,9 +703,6 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Type Erasure](/function_architecture/1_function_mechanics/4_type_erasure/):** Technique that often uses lambdas to store callable objects.

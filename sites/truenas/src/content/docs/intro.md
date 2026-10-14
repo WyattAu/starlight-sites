@@ -87,18 +87,11 @@ Dedicated NAS, 64 GB recommended).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 TrueNAS is a storage operating system designed to make enterprise-grade storage accessible to home users and small businesses. It is built on ZFS, which provides data integrity, snapshots, and RAID-like protection without the complexity of traditional storage arrays. Think of TrueNAS as a bank vault for your data: it protects against drive failures, accidental deletions, and even ransomware through its snapshot system, while also providing easy access to your files from any device on your network.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -144,8 +137,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Further Resources
 

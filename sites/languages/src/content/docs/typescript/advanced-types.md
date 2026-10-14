@@ -1046,9 +1046,6 @@ abstractions.
 - Utility type patterns: state machine types, AST visitor pattern, and type-safe pub/sub with
   wildcard handlers.
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Advanced types unlock TypeScript's type-level programming capabilities. Conditional types branch on type relationships, distributing over unions when the checked type is a naked parameter. Mapped types transform every property in an object, with key remapping (as) enabling renaming and filtering. Template literal types compose string patterns for type-safe URL routing and CSS values. Variadic tuple types manipulate function parameter lists at the type level, enabling type-safe pipe and compose utilities.

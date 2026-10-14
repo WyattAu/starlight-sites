@@ -570,6 +570,3 @@ Lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concen
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.

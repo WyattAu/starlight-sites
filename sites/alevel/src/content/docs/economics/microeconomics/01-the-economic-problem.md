@@ -1029,10 +1029,6 @@ consumer goods at any given level of capital goods production.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -53,8 +53,6 @@ This site provides comprehensive study materials covering:
 - Computer science
 - Biology
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -79,8 +77,6 @@ GCSE equivalents
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -98,18 +94,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Diagnostics](/biology/diagnostics/)
 - [Biology](/biology/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -118,8 +107,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -3319,14 +3306,7 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -3725,9 +3705,6 @@ Understanding the link between **molecular structure** and **biological function
 A-Level Biology.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -6083,10 +6060,6 @@ vitamin A) in the endosperm of the rice grain. It was developed to address vitam
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [Genetics and DNA](/biology/genetics-and-dna/) -- Understanding DNA structure and replication is essential for grasping how restriction enzymes and vectors work in recombinant DNA technology.
@@ -8160,9 +8133,6 @@ differential centrifugation.
    process is being described.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -11508,14 +11478,7 @@ Each topic file contains **3 unit tests** (single-topic depth) and **3 integrati
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -11561,8 +11524,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -13449,9 +13410,6 @@ within the A-Level specification for this topic, each with a full worked solutio
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Ecology
 with other biology topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## 33. Trophic Levels and Feeding Relationships
 
@@ -15767,14 +15725,7 @@ For oxygen diffusing across the alveolar membrane:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -20291,14 +20242,7 @@ specific positions.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -22643,14 +22587,7 @@ responses (drought, cold, salinity) and seed dormancy.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -25005,14 +24942,7 @@ inactive form.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -25027,7 +24957,6 @@ URL: https://alevel.wyattau.com/biology/diagnostics/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -25056,10 +24985,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -25070,11 +24996,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ```mermaid
 graph TD
@@ -25116,10 +25038,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 - [Practice Cell Biology](/biology/practice-cell-biology/)
 - [Respiration Depth](/biology/respiration-depth/)
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -25130,11 +25049,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.
 
@@ -33841,9 +33756,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Acids,
 Bases and Buffers with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Acids and bases are like opposite personalities, one gives protons, the other accepts them, creating balance.**
@@ -34780,9 +34692,6 @@ hardest questions within the A-Level specification for this topic, each with a f
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Alcohols
 with other chemistry topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Intuition
 
@@ -35756,9 +35665,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Alkanes
 with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
@@ -36663,9 +36569,6 @@ questions within the A-Level specification for this topic, each with a full work
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Alkenes
 with other chemistry topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Intuition
 
@@ -37624,9 +37527,6 @@ hardest questions within the A-Level specification for this topic, each with a f
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Amines with
 other chemistry topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Intuition
 
@@ -38692,9 +38592,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Analytical
 Techniques with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
@@ -39662,9 +39559,6 @@ hardest questions within the A-Level specification for this topic, each with a f
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Arenes with
 other chemistry topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Intuition
 
@@ -40645,9 +40539,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Atomic
 Structure and Periodicity with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Common Pitfalls
 
 1. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.
@@ -41606,9 +41497,6 @@ questions within the A-Level specification for this topic, each with a full work
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Bonding and
 Structure with other chemistry topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Intuition
 
@@ -43560,9 +43448,6 @@ hardest questions within the A-Level specification for this topic, each with a f
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Carbonyl
 Compounds with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
@@ -43984,9 +43869,6 @@ structure before proceeding.
 5. **Using the wrong stoichiometric ratios in calculations.** The mole ratio comes from the balanced equation, not from the question statement. Students sometimes use 1:1 when the actual ratio is different. Always write the balanced equation first.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -51031,14 +50913,7 @@ integration tests.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -52082,9 +51957,6 @@ questions within the A-Level specification for this topic, each with a full work
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Electrochemistry with other chemistry topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Intuition
 
@@ -54072,9 +53944,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Chemical
 Equilibrium with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemical equilibrium is like a busy restaurant, dishes are constantly being prepared and eaten, but the overall number of plates stays the same.**
@@ -55141,9 +55010,6 @@ hardest questions within the A-Level specification for this topic, each with a f
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Halogenoalkanes with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
@@ -55202,10 +55068,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 - [Diag Transition Metals](/chemistry/diagnostics/diag-transition-metals/)
 - [Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -55216,11 +55079,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ```mermaid
 graph TD
@@ -55261,10 +55120,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 - [Thermodynamics](/chemistry/thermodynamics/)
 - [Transition Metals](/chemistry/transition-metals/)
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -55275,11 +55131,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.
 
@@ -55297,7 +55149,6 @@ URL: https://alevel.wyattau.com/chemistry/organic-chemistry/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Use the diagnostic tests to find out whether Organic Chemistry needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -55328,10 +55179,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 Use the diagnostic tests to find out whether Organic Chemistry needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -55342,11 +55190,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ```mermaid
 graph TD
@@ -55362,7 +55206,6 @@ URL: https://alevel.wyattau.com/chemistry/physical-chemistry-extra/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Physical Chemistry Extra feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -55388,8 +55231,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -55398,12 +55239,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -55413,8 +55249,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ```mermaid
 graph TD
@@ -56470,9 +56304,6 @@ questions within the A-Level specification for this topic, each with a full work
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Organic
 Chemistry Introduction with other chemistry topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Worked Examples
 
@@ -57602,9 +57433,6 @@ within the A-Level specification for this topic, each with a full worked solutio
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Chemical
 Kinetics with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Summary
 
 This topic covers the essential chemistry of chemical kinetics, including key reactions, underlying
@@ -58571,9 +58399,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Organic
 Chemistry with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Organic chemistry is like a vast city of carbon-based molecules, each with unique structures and personalities.**
@@ -59140,9 +58965,6 @@ kinetics and equilibrium arguments, or how Le Chatelier's principle relates quan
 changes in $K_c$.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -60385,9 +60207,6 @@ hardest questions within the A-Level specification for this topic, each with a f
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Quantitative Chemistry with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
@@ -61508,9 +61327,6 @@ questions within the A-Level specification for this topic, each with a full work
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Thermodynamics with other chemistry topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Worked Examples
 
@@ -62675,9 +62491,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Transition
 Metals with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Worked Examples
 
 **Example 1: Mole calculation**
@@ -63512,14 +63325,7 @@ the optimal choice.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -64133,14 +63939,7 @@ For revision on algorithms and complexity, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -64972,14 +64771,7 @@ Covered. ✓
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Mistakes
 
@@ -65879,14 +65671,7 @@ Complexity for large inputs.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -66533,14 +66318,7 @@ With 8-bit opcode: $2^8 = 256$ possible opcodes.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -66678,14 +66456,7 @@ When finished, attempt the.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -67246,14 +67017,7 @@ For revision on number representation, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -69686,14 +69450,7 @@ Networks (TCP/IP, addressing, security)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -70355,14 +70112,7 @@ Problem set on that page.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -71495,13 +71245,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -72420,14 +72164,7 @@ which may differ from the MST. These are different optimisation problems with di
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -73111,14 +72848,7 @@ For revision on algorithms, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -74032,14 +73762,7 @@ Available for insertion.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -74190,8 +73913,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -74231,8 +73952,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Common Mistakes
 
@@ -74414,8 +74133,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -74455,8 +74172,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -74606,8 +74321,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -74647,8 +74360,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Common Mistakes
 
@@ -74691,7 +74402,6 @@ URL: https://alevel.wyattau.com/computer-science/diagnostics/
 sources:
   - text: Standard textbook reference
 
-
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
 # Diagnostics
@@ -74719,10 +74429,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 Work through Diagnostics alongside the practice problems for Computer Science, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -74733,11 +74440,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ```mermaid
 graph TD
@@ -74897,8 +74600,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -74939,8 +74640,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## See Also
 
 - [Computer Science](..)
@@ -74961,7 +74660,6 @@ URL: https://alevel.wyattau.com/computer-science/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -74993,10 +74691,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 Use the diagnostic tests to find out whether Computer Science needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -75006,8 +74701,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.
 
@@ -75157,8 +74850,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -75198,8 +74889,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -75355,8 +75044,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -75396,8 +75083,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -75545,8 +75230,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -75586,8 +75269,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -75738,8 +75419,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -75779,8 +75458,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -77238,14 +76915,7 @@ Continuous integration, responsible disclosure of vulnerabilities).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -78126,14 +77796,7 @@ Operation in a busy A&E department.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -78910,9 +78573,6 @@ implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ---
 
 ## Network Security
@@ -79621,9 +79281,6 @@ implementation, and key applications.
 - sorting algorithms (bubble, merge, quick)
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ---
 
@@ -80341,14 +79998,7 @@ Both inputs are negative and the result is negative, so no overflow.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -81077,14 +80727,7 @@ For revision on programming fundamentals, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -81838,14 +81481,7 @@ the same file, and the owner can modify the ACL to add or revoke permissions at 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -84087,14 +83723,7 @@ Example result:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Mistakes
 
@@ -84864,14 +84493,7 @@ Sorted.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -85606,13 +85228,7 @@ practical implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -86207,14 +85823,7 @@ For revision on data structures used in sorting, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -87185,14 +86794,7 @@ Handled, unfair and violating the FIFO service guarantee.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -88056,9 +87658,6 @@ implementation, and key applications.
 - input/output systems
 - operating systems and scheduling
 - interrupts and polling
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 
@@ -89092,14 +88691,7 @@ Height of the tree = **3**.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -89781,10 +89373,6 @@ Boundary.
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -91010,10 +90598,6 @@ the financing method (tax-funded vs debt-funded).
    scenarios.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Cross-References
 
@@ -94277,14 +93861,7 @@ When time is limited, focus on the highest-yield topics:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -95236,14 +94813,7 @@ policies to shift SRAS right (and LRAS right from 500 to a higher level) would a
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -96927,14 +96497,7 @@ When presented with economic data in an exam:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -98361,8 +97924,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Economics content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -98402,8 +97963,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -98563,8 +98122,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Economics content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -98604,8 +98161,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -100018,10 +99573,6 @@ may drive platforms underground or offshore, leaving workers with no protection 
    effectiveness.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Cross-References
 
@@ -101467,10 +101018,6 @@ better on liveability indicators.
    across time.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Cross-References
 
@@ -102950,10 +102497,6 @@ inflation target, triggering a gilt market crisis and forcing a policy reversal.
    scenarios.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Cross-References
 
@@ -104838,10 +104381,6 @@ imbalances were addressed.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/) -- GDP growth and productivity measures are the outcomes that supply-side policies aim to improve.
@@ -105874,10 +105413,6 @@ consumer goods at any given level of capital goods production.
    effectiveness.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ---
 
@@ -107123,10 +106658,6 @@ largest component of household wealth.
 **Economics is the study of choices, how individuals, businesses, and governments allocate scarce resources.**
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Cross-References
 
@@ -111004,7 +110535,6 @@ URL: https://alevel.wyattau.com/english/1-literary-analysis/
 sources:
   - text: Standard textbook reference
 
-
 This section covers literary analysis, language techniques, and critical writing skills. Revision works best in one direction here: read Literary Analysis, attempt the practice problems cold, and only then check the worked solutions.
 
 # Literary Analysis
@@ -111028,8 +110558,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -111038,12 +110566,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -111053,8 +110576,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -111249,7 +110770,6 @@ URL: https://alevel.wyattau.com/english/2-poetry/
 sources:
   - text: Standard textbook reference
 
-
 This section covers literary analysis, language techniques, and critical writing skills. Revision works best in one direction here: read index, attempt the practice problems cold, and only then check the worked solutions.
 
 # Poetry
@@ -111273,8 +110793,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -111283,12 +110801,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -111298,8 +110811,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -111313,7 +110824,6 @@ URL: https://alevel.wyattau.com/english/3-prose/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -111338,8 +110848,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -111348,12 +110856,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -111363,8 +110866,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -111378,7 +110879,6 @@ URL: https://alevel.wyattau.com/english/4-drama/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -111403,8 +110903,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -111413,12 +110911,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -111428,8 +110921,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -111504,7 +110995,6 @@ URL: https://alevel.wyattau.com/english/6-comparative-analysis/
 sources:
   - text: Standard textbook reference
 
-
 This section covers literary analysis, language techniques, and critical writing skills. If Comparative Analysis feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Comparative Analysis
@@ -111528,8 +111018,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -111538,12 +111026,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -111553,8 +111036,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -111689,7 +111170,6 @@ URL: https://alevel.wyattau.com/english/9-pre-1900-poetry/
 sources:
   - text: Standard textbook reference
 
-
 This section covers literary analysis, language techniques, and critical writing skills. Use the diagnostic tests to find out whether Pre 1900 Poetry needs another pass before your exam, rather than revising topics you have already mastered.
 
 # Pre 1900 Poetry
@@ -111713,8 +111193,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -111723,12 +111201,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -111738,8 +111211,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -123359,14 +122830,7 @@ Maclaurin Series
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -128855,14 +128319,7 @@ Mechanics based on your module route.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -131595,7 +131052,6 @@ URL: https://alevel.wyattau.com/further-maths/diagnostics/
 sources:
   - text: Standard textbook reference
 
-
 This section provides study materials and resources for diagnostics. The Further Maths section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Diagnostics
@@ -131626,10 +131082,7 @@ This section provides study materials and resources for diagnostics. The Further
 The Further Maths section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -131639,8 +131092,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ---
 
@@ -131781,8 +131232,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Further Maths content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -131822,8 +131271,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -132002,8 +131449,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## See Also
 
@@ -132243,8 +131688,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 
@@ -133522,9 +132965,6 @@ including key theorems, methods, and problem-solving approaches.
 - polynomial division and the factor theorem
 - partial fractions
 - binomial expansion
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ---
 
@@ -146423,8 +145863,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ---
 
 ## Population And Environment
@@ -149420,8 +148858,6 @@ Each page in this section includes:
 History is not a list of dates to memorize but a conversation between the past and the present. Every historical event is like a stone dropped in a pond, sending ripples forward through time that shape the world you live in now. Learning to read sources is like learning to read body language: what someone chooses to say is important, but what they avoid saying is often more revealing. The skill of a historian is not knowing everything that happened, but knowing which questions to ask about what happened and why the answers matter.
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## See Also
 
@@ -152938,14 +152374,7 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 $$
 
@@ -154094,10 +153523,6 @@ building a personal test matrix.
 - [Trigonometry](/maths/pure-mathematics/08-trigonometry/), Parametric equations of a circle use sine and cosine functions from trigonometry.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -171578,14 +171003,7 @@ Use the revision links under each question to jump directly to the relevant topi
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -172325,10 +171743,6 @@ building a personal test matrix.
    final answer.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -173786,10 +173200,6 @@ building a personal test matrix.
    first.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -176255,10 +175665,6 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -177518,14 +176924,7 @@ Forces are pushes and pulls that change motion. Free body diagrams are like dete
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -178359,14 +177758,7 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -180287,10 +179679,6 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -180799,7 +180187,6 @@ sources:
 - [Diag Trigonometry](/maths/diagnostics/diag-trigonometry/)
 - [Diag Vectors](/maths/diagnostics/diag-vectors/)
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
@@ -180812,8 +180199,6 @@ This section provides comprehensive study materials and resources. Work through 
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ---
 
@@ -181021,8 +180406,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Maths content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -181066,8 +180449,6 @@ This page includes:
 Mechanics is the art of predicting what happens next when objects push, pull, and collide. Think of it as Newton's detective work: every moving object tells a story through its acceleration, and forces are the motives behind that motion. The SUVAT equations are like a travel timetable for objects under constant acceleration, recording where they started, how fast they are going, and when they will arrive. Energy methods offer a shortcut by asking what changed rather than tracing every step. Forces always come in pairs through action and reaction, which is why a swimmer moves forward by pushing water backward.
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -181405,8 +180786,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 
@@ -182117,14 +181496,7 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -183068,14 +182440,7 @@ Kinematics describes motion without considering its causes. The SUVAT equations 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -183895,14 +183260,7 @@ marks are consistently lost.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -184816,14 +184174,7 @@ Moments measure the turning effect of a force about a point, like how pushing a 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -185848,10 +185199,6 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -186830,14 +186177,7 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -187761,14 +187101,7 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -188382,14 +187715,7 @@ statistically significant result.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -188858,14 +188184,7 @@ $$
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -191180,10 +190499,6 @@ Proof is the process of converting mathematical truth into certainty through log
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -192406,10 +191721,6 @@ building a personal test matrix.
    final answer.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -194789,14 +194100,7 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -196295,10 +195599,6 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -197233,14 +196533,7 @@ building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Physics
 
@@ -198193,8 +197486,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="capacitor-lab-basics" title="Capacitor Lab: Basics" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -199311,14 +198602,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -199339,8 +198623,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="gravity-and-orbits" title="Gravity and Orbits" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## 1. Angular Quantities
 
@@ -200210,14 +199492,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -200447,8 +199722,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="resistance-in-a-wire" title="Resistance in a Wire" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -201531,14 +200804,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -201560,8 +200826,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="circuit-construction-kit-dc" title="Circuit Construction Kit: DC" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -202422,14 +201686,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -210909,14 +210166,7 @@ For each topic test (6 questions, max 24 marks):
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -211432,14 +210682,7 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -211474,8 +210717,6 @@ Newton's three laws form the foundation of classical mechanics. They were first 
 _Principia Mathematica_ (1687).
 
 <PhetSimulation client:only="solid-js" simulationId="forces-and-motion-basics" title="Forces and Motion: Basics" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Newton's First Law (Law of Inertia)
 
@@ -212327,10 +211568,6 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -212357,8 +211594,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 <PhetSimulation client:only="solid-js" simulationId="charges-and-fields" title="Charges and Fields" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -213164,14 +212399,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -213772,8 +213000,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 <PhetSimulation client:only="solid-js" simulationId="faraday-electromagnetic-lab" title="Faraday's Electromagnetic Lab" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -214612,14 +213838,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -215358,10 +214577,6 @@ Eliminate human reaction time entirely.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -215551,8 +214766,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 <PhetSimulation client:only="solid-js" simulationId="gravity-and-orbits" title="Gravity and Orbits" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -216300,10 +215513,6 @@ self-marking and building a personal test matrix.
    scenario.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -217097,8 +216306,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Physics content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -217138,8 +216345,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Intuition
 
@@ -217192,7 +216397,6 @@ sources:
 - [Diag Work Energy Power](/physics/diagnostics/diag-work-energy-power/)
 - [Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
@@ -217205,8 +216409,6 @@ This section provides comprehensive study materials and resources. Work through 
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ---
 
@@ -217368,8 +216570,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 
@@ -217534,8 +216734,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Physics content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -217576,8 +216774,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Intuition
 
 The universe operates through fundamental forces and energy transfers. Forces are pushes and pulls that change motion, energy is the currency that drives all processes, and waves transfer energy without transferring matter. These principles connect seemingly different phenomena - from the orbit of planets to the vibration of atoms - under unified explanations that reveal the elegant simplicity underlying nature's complexity.
@@ -217596,7 +216792,6 @@ URL: https://alevel.wyattau.com/physics/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Physics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -217626,10 +216821,7 @@ This section covers key physical principles, from classical mechanics to modern 
 Work through Physics alongside the practice problems for Physics, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -217640,11 +216832,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.
 
@@ -217813,8 +217001,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 
@@ -218048,8 +217234,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Common Mistakes
 
@@ -218340,8 +217524,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Intuition
 
 Physics explores the fundamental rules governing matter, energy, space, and time. At its heart lies the principle that complex phenomena emerge from simple interactions - gravity shapes orbits, electromagnetism binds atoms, and quantum mechanics governs the subatomic realm. Understanding these laws allows us to build technologies from smartphones to spacecraft and to comprehend our place in the cosmos.
@@ -218503,8 +217685,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 
@@ -218685,8 +217865,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Intuition
 
 The universe operates through fundamental forces and energy transfers. Forces are pushes and pulls that change motion, energy is the currency that drives all processes, and waves transfer energy without transferring matter. These principles connect seemingly different phenomena - from the orbit of planets to the vibration of atoms - under unified explanations that reveal the elegant simplicity underlying nature's complexity.
@@ -218844,8 +218022,6 @@ Given and **not** asked for, then use the equation that doesn't contain it.
 - The **area under** a velocity-time graph gives the displacement.
 
 <PhetSimulation client:only="solid-js" simulationId="the-moving-man" title="The Moving Man" />
-
-Explore the simulation above to develop intuition for this topic.
 
 For uniform acceleration, the $v$-$t$ graph is a straight line, and the area is a trapezium.
 
@@ -219552,14 +218728,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -219599,8 +218768,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 <PhetSimulation client:only="solid-js" simulationId="faraday-electromagnetic-lab" title="Faraday's Electromagnetic Lab" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -220575,10 +219742,6 @@ self-marking and building a personal test matrix.
    scenario.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -221892,8 +221055,6 @@ import PhetSimulation from "@components/PhetSimulation";
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP2 | OCR (A) Paper 1 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="collision-lab" title="Collision Lab" />
 
-Explore the simulation above to develop intuition for this topic.
-
 ## Intuition
 
 **Momentum is "how hard it is to stop something":** A bowling ball moving at 5 m/s is harder to stop than a tennis ball at 5 m/s because it has more momentum. Momentum combines mass and velocity, it's the product of both. This is why a slow truck can be more dangerous than a fast car, it has more momentum and needs more force to stop.
@@ -222683,14 +221844,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -222712,8 +221866,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 <PhetSimulation client:only="solid-js" simulationId="nuclear-fission" title="Nuclear Fission" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -223759,14 +222911,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -224277,14 +223422,7 @@ $\lambda t = \ln 16 = 4\ln 2$. $t = 4\ln 2/\lambda = 4t_{1/2} = 4 \times 8.04 = 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -224446,8 +223584,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="masses-and-springs" title="Masses and Springs" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -225234,10 +224370,6 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -225794,10 +224926,6 @@ m). The discrepancy suggests an experimental issue or different scattering geome
    in question.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -226367,10 +225495,6 @@ m). The discrepancy suggests an experimental issue or different scattering geome
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -226514,14 +225638,7 @@ identify gaps.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Mistakes
 
@@ -227430,9 +226547,6 @@ self-marking and building a personal test matrix.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 Physics explores the fundamental rules governing matter, energy, space, and time. At its heart lies the principle that complex phenomena emerge from simple interactions - gravity shapes orbits, electromagnetism binds atoms, and quantum mechanics governs the subatomic realm. Understanding these laws allows us to build technologies from smartphones to spacecraft and to comprehend our place in the cosmos.
@@ -228331,8 +227445,6 @@ Metal surface when electromagnetic radiation of frequency greater than a thresho
 Incident upon it.
 
 <PhetSimulation client:only="solid-js" simulationId="photoelectric" title="Photoelectric Effect" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Observations
 
@@ -229523,10 +228635,6 @@ Duality for molecules composed of 60 carbon atoms.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -229565,8 +228673,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 <PhetSimulation client:only="solid-js" simulationId="alpha-decay" title="Alpha Decay" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -230283,14 +229389,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -230327,8 +229426,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="bending-light" title="Bending Light" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -230948,14 +230045,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -230992,8 +230082,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="wave-interference" title="Wave Interference" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -231782,9 +230870,6 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ---
 
 ## Common Mistakes
@@ -232046,8 +231131,6 @@ CIE: Qualitative and quantitative treatment.
 The temperature of 1 kg of the substance by 1 K:
 
 <PhetSimulation client:only="solid-js" simulationId="energy-forms-and-changes" title="Energy Forms and Changes" />
-
-Explore the simulation above to develop intuition for this topic.
 
 $$
 \boxed{Q = mc\Delta T}
@@ -232761,14 +231844,7 @@ the same energy.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -232804,8 +231880,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="gas-properties" title="Gas Properties" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -233474,14 +232548,7 @@ $\square$
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -233517,8 +232584,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP2 | OCR (A) Paper 2 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="waves-on-a-string" title="Waves on a String" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -234242,14 +233307,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -234286,8 +233344,6 @@ import PhetSimulation from "@components/PhetSimulation";
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP1, CP2 | OCR (A) Paper 1 | CIE P2
 <PhetSimulation client:only="solid-js" simulationId="energy-skate-park-basics" title="Energy Skate Park: Basics" />
-
-Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
@@ -234985,14 +234041,7 @@ self-marking and building a personal test matrix.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -236891,8 +235940,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Additional Notes
 
 This content is regularly updated to reflect the latest specification changes and examination patterns. Check back for new practice questions and worked examples.
@@ -237210,8 +236257,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Intuition
 

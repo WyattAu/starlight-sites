@@ -863,9 +863,6 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Testing is fundamentally about building confidence in code by systematically checking that it behaves as expected. Think of it like proofreading an essay, but with much higher stakes and stricter rules. You are not just checking for typos; you are verifying that every branch of logic produces the correct output for every possible input. The different levels of testing, unit, integration, system, and acceptance, mirror how you might check a building: first each brick, then each wall, then the whole structure, and finally whether it meets the client's needs.

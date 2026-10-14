@@ -863,9 +863,6 @@ theory, practical implementation, and key applications.
 - transaction processing (ACID)
 - NoSQL and distributed databases
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Context managers are like restaurant reservations: you book a table (open a resource), use it for your meal (do your work), and then leave (close the resource) regardless of whether you enjoyed the food or had to rush out because of a fire alarm. The `with` statement guarantees cleanup happens even when exceptions occur, which is why it replaced the error-prone pattern of manually calling close() in finally blocks. A context manager is a promise that no matter what happens inside the block, the mess will be cleaned up.

@@ -909,9 +909,6 @@ including key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
 
 ### Example 1: Dijkstra's Algorithm with Priority Queue

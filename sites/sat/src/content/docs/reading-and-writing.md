@@ -390,5 +390,3 @@ SAT Reading and Writing tests your ability to understand, analyze, and communica
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

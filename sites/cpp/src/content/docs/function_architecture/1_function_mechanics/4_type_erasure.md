@@ -742,9 +742,6 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Lambdas](/function_architecture/1_function_mechanics/3_lambdas/):** Lambda expressions used to implement type-erased callable wrappers.

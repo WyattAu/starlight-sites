@@ -1165,9 +1165,6 @@ communications, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/internet-and-data-communications.md
 
 ## Intuition
@@ -1175,9 +1172,6 @@ for mastery of this topic.
 The internet is a network of networks, like a postal system where every neighborhood has its own mailroom that connects to a central sorting facility. Data travels in packets, each carrying a piece of the message along with its destination address, the way letters carry both the content and the address on the envelope. Protocols like TCP ensure reliable delivery by checking that every packet arrives and requesting retransmission of lost ones, like a careful sender who insists on delivery confirmation.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

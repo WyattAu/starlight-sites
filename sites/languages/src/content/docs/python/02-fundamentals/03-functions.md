@@ -1497,9 +1497,6 @@ decorators, including key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
 
 - [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- Generator functions are a specialised form of closures that produce sequences lazily.
@@ -1508,9 +1505,6 @@ applying these mathematical techniques.
 - [List Comprehensions](https://computer-science.wyattau.com/1-algorithms/data-structures/) -- List comprehensions provide concise syntax for creating lists, while generators extend this to lazy evaluation.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

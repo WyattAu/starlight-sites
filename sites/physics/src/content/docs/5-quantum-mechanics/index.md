@@ -55,7 +55,6 @@ graph TD
     M --> O[Observable]
 ```
 
-
 ## Contents
 
 1. [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
@@ -97,8 +96,6 @@ University-level quantum mechanics notes covering postulates, operators, and app
 Start with the historical motivation to understand the context, then progress to postulates and operators. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 

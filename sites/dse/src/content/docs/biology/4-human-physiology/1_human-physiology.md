@@ -1627,9 +1627,6 @@ questions within the DSE specification for this topic, each with a full worked s
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Human
 Physiology with other biology topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

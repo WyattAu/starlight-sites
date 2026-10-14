@@ -53,8 +53,6 @@ This site provides comprehensive study materials covering:
 - Biology
 - ICT
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -79,8 +77,6 @@ DSE preparation
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -98,18 +94,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Complete DSE Study Guide, Everything You Need to Pass](/hub/)
 - [Cell Biology](/biology/1-cell-biology/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -118,8 +107,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -3393,9 +3380,6 @@ questions within the DSE specification for this topic, each with a full worked s
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Biodiversity and Conservation with other biology topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -5950,9 +5934,6 @@ questions within the DSE specification for this topic, each with a full worked s
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Cell
 Biology and Biochemistry with other biology topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -10169,14 +10150,7 @@ Every diagnostic file contains:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -10222,8 +10196,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -11884,9 +11856,6 @@ questions within the DSE specification for this topic, each with a full worked s
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Evolution
 and Ecology with other biology topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -13488,9 +13457,6 @@ has a greater effect in small populations.
 
 :::tip
 covers evolution topics within the DSE specification.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -15304,9 +15270,6 @@ the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Genetics
 with other biology topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -15610,9 +15573,6 @@ and evaluate experimental evidence critically.
 > > > > > > > Stashed changes:docs/docs_dse/Biology/genetics.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -16649,9 +16609,6 @@ medulla:
   with cooling (they increase evaporation rate)**:::tip Tip Ready to test your understanding of
   **Homeostasis\*\*? Review the
   which covers homeostatic topics within the DSE specification.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -18525,9 +18482,6 @@ questions within the DSE specification for this topic, each with a full worked s
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Human
 Physiology with other biology topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -20569,9 +20523,6 @@ the hardest questions within the DSE specification for this topic, each with a f
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Human
 Reproduction and Homeostasis with other biology topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -20818,9 +20769,6 @@ and evaluate experimental evidence critically.
 > > > > > > > Stashed changes:docs/docs_dse/Biology/human-reproduction-and-homeostasis.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -21705,9 +21653,6 @@ antigens, attacking the body's own tissues.
 :::tip
 which covers immune system topics within the DSE specification.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -22101,10 +22046,6 @@ which process is being described.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -22419,7 +22360,6 @@ URL: https://dse.wyattau.com/biology/6-evolution/
 sources:
   - text: Standard textbook reference
 
-
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Evolution
@@ -22443,8 +22383,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -22453,12 +22391,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -22468,8 +22401,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -25847,9 +25778,6 @@ and evaluate experimental evidence critically.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Nervous System And Immunology](./)
@@ -27503,9 +27431,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Plant
 Biology with other biology topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -27880,9 +27805,6 @@ and evaluate experimental evidence critically.
 > > > > > > > Stashed changes:docs/docs_dse/Biology/plant-biology.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -39862,14 +39784,7 @@ Every diagnostic file contains:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -39915,8 +39830,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -40489,10 +40402,6 @@ Lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concen
    overall charge.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ---
 
@@ -41690,7 +41599,6 @@ URL: https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/
 sources:
   - text: Standard textbook reference
 
-
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Atomic Structure And Bonding
@@ -41714,8 +41622,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -41724,12 +41630,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -41739,8 +41640,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -42008,7 +41907,6 @@ URL: https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/
 sources:
   - text: Standard textbook reference
 
-
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Redox And Electrochemistry, attempt the practice problems cold, and only then check the worked solutions.
 
 # Redox And Electrochemistry
@@ -42032,8 +41930,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -42042,12 +41938,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -42057,8 +41948,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -42134,7 +42023,6 @@ URL: https://dse.wyattau.com/chemistry/diagnostics/
 sources:
   - text: Standard textbook reference
 
-
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Diagnostics
@@ -42166,10 +42054,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -42179,8 +42064,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ---
 
@@ -42341,8 +42224,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Cross-References
 
@@ -48401,9 +48282,6 @@ success in this subject.
 > > > > > > > Stashed changes:docs/docs_dse/Economics/basic-economic-concepts.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -54947,14 +54825,7 @@ solution.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -56526,9 +56397,6 @@ success in this subject.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ---
 
 ## Flashcards Macroeconomics
@@ -56761,7 +56629,6 @@ URL: https://dse.wyattau.com/economics/3-market-structure/
 sources:
   - text: Standard textbook reference
 
-
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
 # Market Structure
@@ -56785,8 +56652,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -56795,12 +56660,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -56810,8 +56670,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -56825,7 +56683,6 @@ URL: https://dse.wyattau.com/economics/4-market-failure/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -56850,8 +56707,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -56860,12 +56715,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -56875,8 +56725,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -56955,7 +56803,6 @@ URL: https://dse.wyattau.com/economics/6-government-policy/
 sources:
   - text: Standard textbook reference
 
-
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
 # Government Policy
@@ -56979,8 +56826,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -56989,12 +56834,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -57004,8 +56844,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -57360,8 +57198,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Cross-References
 
@@ -59081,9 +58917,6 @@ If you get this wrong, revise: [Development Strategies](/economics/7-internation
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Market Failure](/economics/diagnostics/diag-market-failure/):** Market failure is a key topic
@@ -60595,15 +60428,9 @@ underlying theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 > > > > > > > Stashed changes:docs/docs_dse/Economics/market-failure-and-government-intervention.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -62726,9 +62553,6 @@ success in this subject.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ---
 
 ## Money And Banking
@@ -64524,9 +64348,6 @@ success in this subject.
 > > > > > > > Stashed changes:docs/docs_dse/Economics/money-and-banking.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -66334,9 +66155,6 @@ success in this subject.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [Money and Banking](/economics/8-money-and-banking/1_money-and-banking/) -- Money supply and banking systems directly affect the macroeconomic indicators measured here.
@@ -68018,7 +67836,6 @@ URL: https://dse.wyattau.com/geography/
 sources:
   - text: Standard textbook reference
 
-
 This section provides study materials and resources for geography. The Geography section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Geography
@@ -68048,10 +67865,7 @@ This section provides study materials and resources for geography. The Geography
 The Geography section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -68062,11 +67876,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.
 
@@ -70329,7 +70139,6 @@ URL: https://dse.wyattau.com/history/
 sources:
   - text: Standard textbook reference
 
-
 This section provides study materials and resources for history. If History feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # History
@@ -70359,10 +70168,7 @@ This section provides study materials and resources for history. If History feel
 Work through History alongside the practice problems for History, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -70373,11 +70179,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.
 
@@ -71954,9 +71756,6 @@ systems, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/computer-systems.md
 
 ## Intuition
@@ -72808,9 +72607,6 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/data-management.md
 
 ## Intuition
@@ -72818,9 +72614,6 @@ for mastery of this topic.
 Data management is the art of keeping information organized, accessible, and secure. Backup strategies are like fire insurance: you hope you never need them, but when disaster strikes, they are the difference between recovery and total loss. Data compression is the process of finding patterns and storing them more efficiently, the way a good summary captures the essence of a long report without losing critical details.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -74265,9 +74058,6 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/data-representation.md
 
 ## Intuition
@@ -74275,9 +74065,6 @@ for mastery of this topic.
 Data representation is the translation between human concepts and machine reality. Every photo, song, and text message is ultimately a sequence of binary digits, the way every painting is ultimately a collection of colored dots. The challenge is encoding rich, meaningful information in a format that a machine can store, process, and transmit without losing fidelity. Compression, sampling, and quantization are the tools that make this translation practical, like the shorthand a court reporter uses to capture every word in real time.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -76409,14 +76196,7 @@ Programming and Databases (logic, data management)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -76729,8 +76509,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Ict content for the Dse qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -76770,8 +76548,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Intuition
 
@@ -77941,9 +77717,6 @@ communications, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/internet-and-data-communications.md
 
 ## Intuition
@@ -77951,9 +77724,6 @@ for mastery of this topic.
 The internet is a network of networks, like a postal system where every neighborhood has its own mailroom that connects to a central sorting facility. Data travels in packets, each carrying a piece of the message along with its destination address, the way letters carry both the content and the address on the envelope. Protocols like TCP ensure reliable delivery by checking that every packet arrives and requesting retransmission of lost ones, like a careful sender who insists on delivery confirmation.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -78837,15 +78607,9 @@ underlying theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/network-security-and-social-implications.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -80009,15 +79773,9 @@ depth, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/office-applications-depth.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -80971,15 +80729,9 @@ productivity, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/office-automation-and-productivity.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -83653,9 +83405,6 @@ theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/programming-fundamentals.md
 
 ## Intuition
@@ -83663,9 +83412,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Programming fundamentals are the grammar of a conversation with a computer. Variables are labeled boxes where you store information, loops are instructions to repeat a task (like stirring a pot until the soup thickens), and conditionals are decision points where the program forks based on what it finds. The key insight is that every complex program is built from these simple building blocks, the way every novel is built from sentences that follow basic grammar rules.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -84535,15 +84281,9 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 > > > > > > > Stashed changes:docs/docs_dse/ICT/system-lifecycle.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -85728,9 +85468,6 @@ marks in geography assessments.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -86654,9 +86391,6 @@ questions within the DSE specification for this topic, each with a full worked s
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Coordinate
 Geometry with other DSE mathematics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -97307,14 +97041,7 @@ docs/docs_dse/maths/compulsory/
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -97943,9 +97670,6 @@ the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Dispersion
 with other DSE mathematics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -99201,9 +98925,6 @@ the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Functions
 with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 ## DSE Exam Technique
@@ -99369,9 +99090,6 @@ key theorems, methods, and problem-solving approaches.
 - proof and logical reasoning
 - problem-solving strategies
 - applications and modelling
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/functions.md
 </Aside>
@@ -100182,9 +99900,6 @@ the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Functions
 (Advanced) with other DSE mathematics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -101222,9 +100937,6 @@ the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Geometries
 with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -101789,8 +101501,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Maths content for the Dse qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -101830,8 +101540,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ---
 
@@ -102416,9 +102124,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Inequalities with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -102769,10 +102474,6 @@ requires using previous work.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/inequalities.md
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 $$
 
@@ -103472,9 +103173,6 @@ the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Logarithms
 with other DSE mathematics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -106445,9 +106143,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Polynomials
 with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -107945,9 +107640,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Probability
 with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Common Pitfalls
 
 - **Confusing mutually exclusive and independent events.** Mutually exclusive events cannot both
@@ -109007,9 +108699,6 @@ the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Quadratics
 with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Worked Examples
 
 ### Example 1: Finding range using vertex form
@@ -110001,9 +109690,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Sequences
 and Series with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Summary
 
 including key theorems, methods, and problem-solving approaches.
@@ -110017,9 +109703,6 @@ including key theorems, methods, and problem-solving approaches.
 - recurrence relations
 - convergence tests
 - mathematical induction
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/sequences-and-series.md
 
@@ -110835,9 +110518,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Trigonometry with other DSE mathematics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Common Pitfalls
 
 - **Mixing up radians and degrees.** Always check which unit is required; DSE uses radians in
@@ -110913,10 +110593,6 @@ way around.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/trigonometry.md
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 </details>
 
@@ -115792,14 +115468,7 @@ Sum all 10 topic scores (max 240):
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -116629,10 +116298,6 @@ If you get this wrong, revise: Optics / Curved Mirrors
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 Physics reveals that nature follows mathematical laws at every scale. Matter is made of atoms, forces arise from field interactions, and energy is conserved in every transformation. The power of physics lies in its predictive ability - from calculating projectile trajectories to designing particle accelerators. Understanding these principles helps us technology, predict natural phenomena, and appreciate the universe's underlying order.
@@ -117320,9 +116985,6 @@ questions within the DSE specification for this topic, each with a full worked s
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Electrical
 Circuits with other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -120734,9 +120396,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Energy and
 Work with other physics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 ## Derivations
@@ -122270,9 +121929,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Forces and
 Motion with other physics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 ## Derivations
@@ -123774,8 +123430,6 @@ law.
 ## Gas Laws
 
 <PhetSimulation client:only="solid-js" simulationId="gas-properties" title="Gas Properties"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Basic Definitions
 
@@ -125583,7 +125237,6 @@ URL: https://dse.wyattau.com/physics/diagnostics/
 sources:
   - text: Standard textbook reference
 
-
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
 # Diagnostics
@@ -125615,10 +125268,7 @@ This section covers key physical principles, from classical mechanics to modern 
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -125628,8 +125278,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ---
 
@@ -125767,8 +125415,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Physics content for the Dse qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -125808,8 +125454,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Intuition
 
@@ -128255,8 +127899,6 @@ Forward at $4 \mathrm{ m/s}$.
 
 <PhetSimulation client:only="solid-js" simulationId="forces-and-motion-basics" title="Forces and Motion: Basics"  />
 
-Explore the simulation above to develop intuition for this topic.
-
 ### Angular Quantities
 
 | Quantity             | Symbol   | SI Unit   | Relation                      |
@@ -129741,8 +129383,6 @@ How many protons, neutrons, and nucleons are in $\prescript{238}{92}\mathrm U$?
 ## Radioactivity
 
 <PhetSimulation client:only="solid-js" simulationId="alpha-decay" title="Alpha Decay"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Nature of Radioactivity
 
@@ -131574,9 +131214,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Nuclear
 Physics with other physics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 ## Derivations
@@ -132021,10 +131658,6 @@ substance.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [Heat and Gases](/physics/4-thermal-physics/1_heat-and-gases/) -- Kinetic theory of gases connects to nuclear physics through particle behaviour and energy transfer.
@@ -132150,8 +131783,6 @@ Image height: $h_i = 3 \times 4 = 12 \mathrm{ cm}$ Virtual and upright.
 ## Refraction
 
 <PhetSimulation client:only="solid-js" simulationId="bending-light" title="Bending Light"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Snell's Law
 
@@ -132921,9 +132552,6 @@ the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Optics with
 other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 
@@ -135928,9 +135556,6 @@ within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Waves and
 Sound with other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ---
 

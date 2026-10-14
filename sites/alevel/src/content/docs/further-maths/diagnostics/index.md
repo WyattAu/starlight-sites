@@ -9,7 +9,6 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: Standard textbook reference
 
-
 This section provides study materials and resources for diagnostics. The Further Maths section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Diagnostics
@@ -40,10 +39,7 @@ This section provides study materials and resources for diagnostics. The Further
 The Further Maths section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -54,4 +50,3 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

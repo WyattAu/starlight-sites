@@ -1232,9 +1232,6 @@ System.out.println(nullSafeTree);  // [null, Alice]
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [Types and Variables](/java/02-fundamentals/01-types-and-variables/) -- Generics in collections use type parameters to ensure type safety.

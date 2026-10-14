@@ -1219,10 +1219,6 @@ the financing method (tax-funded vs debt-funded).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [The Financial Sector](/economics/macro/03-the-financial-sector/) -- Interest rate changes shift AD through investment, connecting the AD/AS model to monetary policy analysis.

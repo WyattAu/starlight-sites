@@ -856,9 +856,6 @@ of change, including key theorems, methods, and problem-solving approaches.
 - partial fractions
 - binomial expansion
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
 
 - [Algebra](/maths/2-algebra/2_algebra/) -- Ratio and proportion problems are often solved using algebraic equations and substitution.

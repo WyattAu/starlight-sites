@@ -737,9 +737,6 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 Header units bridge two worlds: the old `#include` world where the preprocessor copies text, and the new module world where the compiler imports pre-compiled binary interfaces. A header unit is essentially a header file that has been pre-compiled into a binary module interface (BMI), so instead of re-parsing the header every time it is included, the compiler loads a cached representation. The key insight is that this is a **migration tool**, it lets you incrementally adopt modules without rewriting every header in your project at once.

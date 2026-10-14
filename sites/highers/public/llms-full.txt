@@ -52,8 +52,6 @@ This site provides comprehensive study materials covering:
 - Mathematics
 - Computer science
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -78,8 +76,6 @@ National 5 equivalents
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -97,18 +93,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Scottish Highers Flashcards: Biology](/flashcards-biology/)
 - [Scottish Highers Flashcards: Chemistry](/flashcards-chemistry/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -117,8 +106,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -167,18 +154,11 @@ Biology is the study of life at every scale, from molecular interactions inside 
 - **[Chemistry](https://alevel.wyattau.com/chemistry/chemistry/):** Chemistry notes covering atomic structure and bonding.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -187,8 +167,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -238,18 +216,11 @@ Chemistry explains how atoms bond to form everything around you, the water in yo
 - **[Chemistry](https://alevel.wyattau.com/chemistry/chemistry/):** Chemistry notes covering atomic structure and bonding.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -258,8 +229,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -308,18 +277,11 @@ Computer science is about solving problems systematically, breaking complex task
 - **[Chemistry](https://alevel.wyattau.com/chemistry/chemistry/):** Chemistry notes covering atomic structure and bonding.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -328,8 +290,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## See also
 
@@ -384,18 +344,11 @@ Higher Mathematics builds on algebra and introduces the language of change (calc
 - [Scottish Highers Flashcards: Biology](/flashcards-biology/)
 - [Scottish Highers Flashcards: Chemistry](/flashcards-chemistry/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -404,8 +357,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -454,18 +405,11 @@ Physics describes how the universe works through mathematical laws. Mechanics te
 - **[Chemistry](https://alevel.wyattau.com/chemistry/chemistry/):** Chemistry notes covering atomic structure and bonding.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -474,8 +418,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## See also
 
@@ -1120,18 +1062,11 @@ Refer to the most recent SQA documentation for the definitive syllabus and asses
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 Scottish Highers are like the foundation course of a university degree compressed into two years -- they test not just knowledge but the ability to think independently, manage your own learning, and perform under examination pressure. The SQA system values both breadth (across subjects) and depth (within each subject). Understanding the assessment structure -- what is examined, how it is weighted, and what the examiner is looking for -- is as important as understanding the content itself. The most successful students treat revision as a systematic process, not a last-minute panic.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -2357,14 +2292,7 @@ values.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -4471,14 +4399,7 @@ most recent SQA documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -4522,8 +4443,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -8440,14 +8359,7 @@ lower temperature than would otherwise be possible, but there is a practical low
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -9902,14 +9814,7 @@ most recent SQA documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -9953,8 +9858,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -14044,14 +13947,7 @@ will eventually be slower regardless of constant factors.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -14868,9 +14764,6 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -15334,18 +15227,11 @@ most recent SQA documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 Computer science at Higher level is like learning both the theory and practice of engineering -- you must understand the principles (algorithms, data structures, networking) and apply them (programming, system design). The course spans the full stack: from the physics of silicon (hardware) to the logic of code (software) to the architecture of distributed systems (networks). The key to success is not memorising facts but understanding relationships: how does the choice of data structure affect algorithm performance? How does the network topology affect security? Everything is connected.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -15389,8 +15275,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -16198,9 +16082,6 @@ practical implementation, and key applications.
 - streams and lambda expressions
 - exception handling
 - the JVM and garbage collection
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
@@ -17241,9 +17122,6 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -18077,9 +17955,6 @@ including key theorems, methods, and problem-solving approaches.
 - polynomial division and the factor theorem
 - partial fractions
 - binomial expansion
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## Cross-References
 
@@ -19235,14 +19110,7 @@ $f(x) = 2x^3 - 3x^2 - x + 4$.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -19363,14 +19231,7 @@ most recent SQA documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -20284,9 +20145,6 @@ including key theorems, methods, and problem-solving approaches.
 - hypothesis testing
 - correlation and regression
 - sampling methods
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## Cross-References
 
@@ -21944,9 +21802,6 @@ including key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
 
 - [Algebra and Functions](/maths/1-algebra-functions/1_algebra-functions/) -- Vector operations use algebraic techniques including dot product and cross product.
@@ -22333,14 +22188,7 @@ friction in the cord reduce the total mechanical energy, producing heat.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -22375,8 +22223,6 @@ import PhetSimulation from "@components/PhetSimulation";
 ## Higher Dynamics
 
 <PhetSimulation client:only="solid-js" simulationId="gravity-and-orbits" title="Gravity and Orbits"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Motion in a Straight Line
 
@@ -23315,8 +23161,6 @@ import PhetSimulation from "@components/PhetSimulation";
 ## Higher Electricity
 
 <PhetSimulation client:only="solid-js" simulationId="circuit-construction-kit-dc" title="Circuit Construction Kit: DC"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Electric Charge and Current
 
@@ -24735,14 +24579,7 @@ most recent SQA documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -24786,8 +24623,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -24896,8 +24731,6 @@ $$
 For constant acceleration $a$:
 
 <PhetSimulation client:only="solid-js" simulationId="forces-and-motion-basics" title="Forces and Motion: Basics"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 $$
 v = u + at

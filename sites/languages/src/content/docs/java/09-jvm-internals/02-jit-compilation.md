@@ -634,9 +634,6 @@ Compiled (use `-XX:+PrintCompilation`).
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 The JIT compiler is the JVM's secret weapon for making Java fast despite being an interpreted language. Instead of compiling all code ahead of time, the JVM waits to see which methods are actually called frequently, the "hot paths", and compiles only those to optimized native machine code. It profiles your running application, discovers that a virtual call always targets the same class in practice, and then devirtualizes it into a direct call. This means Java can achieve performance rivaling C++ for hot code while retaining the portability and safety of bytecode.

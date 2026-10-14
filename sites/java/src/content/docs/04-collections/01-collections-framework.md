@@ -1224,9 +1224,6 @@ System.out.println(nullSafeTree);  // [null, Alice]
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 The Collections Framework provides a hierarchy of interfaces (List, Set, Queue, Map) with concrete implementations optimized for different use cases. ArrayList is almost always the right default because its contiguous memory layout gives excellent cache performance, while LinkedList is rarely faster despite its theoretical advantages. HashMap uses a secondary hash function to spread bits evenly across buckets, and treeifies long chains to maintain O(log n) worst-case performance. The equals/hashCode contract is the foundation that makes hash-based collections work -- violating it causes silent data loss. Immutable collections from List.of() and Set.of() are compact and thread-safe by design.

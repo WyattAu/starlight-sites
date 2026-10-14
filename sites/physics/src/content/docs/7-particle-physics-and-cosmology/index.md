@@ -88,8 +88,6 @@ Start with the Standard Model to understand the foundations, then progress to Fe
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:

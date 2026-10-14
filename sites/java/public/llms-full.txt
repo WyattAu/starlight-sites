@@ -1072,9 +1072,6 @@ convenience -- they do not introduce a new type.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 Control flow in Java is deliberately strict to prevent bugs. The if statement requires an explicit boolean condition, eliminating the C-style trap of using integers as truth values. Switch expressions replaced the traditional switch statement by eliminating fall-through bugs, enabling exhaustiveness checking with sealed classes, and producing values directly. The try-with-resources statement guarantees that resources are closed in reverse order even if an exception occurs, removing an entire class of resource leak bugs. Checked exceptions force you to handle recoverable errors at compile time, though this remains controversial because it creates boilerplate. Assertions verify internal invariants during development but are disabled in production.
@@ -2067,13 +2064,7 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -3005,9 +2996,6 @@ The Java type system reflects a series of deliberate tradeoffs:
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -4499,9 +4487,6 @@ graph TD
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 Classes are blueprints for creating objects. A class defines fields (state) and methods (behavior), and every class ultimately extends Object, inheriting equals, hashCode, and toString. Interfaces are contracts that specify what a class must do without defining how -- Java's implicit interface satisfaction means any type that implements the required methods automatically satisfies the interface. Abstract classes provide partial implementation for closely related types, while interfaces define capabilities that unrelated types can share. The equals/hashCode contract is critical because hash-based collections depend on it -- if two objects are equal, they must have the same hash code or HashMap will silently fail.
@@ -5443,13 +5428,7 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -6687,9 +6666,6 @@ System.out.println(nullSafeTree);  // [null, Alice]
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 The Collections Framework provides a hierarchy of interfaces (List, Set, Queue, Map) with concrete implementations optimized for different use cases. ArrayList is almost always the right default because its contiguous memory layout gives excellent cache performance, while LinkedList is rarely faster despite its theoretical advantages. HashMap uses a secondary hash function to spread bits evenly across buckets, and treeifies long chains to maintain O(log n) worst-case performance. The equals/hashCode contract is the foundation that makes hash-based collections work -- violating it causes silent data loss. Immutable collections from List.of() and Set.of() are compact and thread-safe by design.
@@ -7686,13 +7662,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -8867,9 +8837,6 @@ List<String> cities = List.of(user)
 4. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -10102,9 +10069,6 @@ structure (the scope is lexically scoped via try-with-resources).
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 Concurrency is about managing multiple tasks that may execute interleaved on a single core or truly in parallel on multiple cores. The Java Memory Model defines happens-before relationships that guarantee when writes by one thread become visible to another -- without these guarantees, CPU caches and instruction reordering can cause threads to see stale data. Synchronized blocks acquire intrinsic locks that provide mutual exclusion, but they lack fairness, timeout, and multiple condition variables. Volatile guarantees visibility and ordering but not atomicity of compound operations. CompletableFuture chains asynchronous computations with a fluent API, and virtual threads decouple Java threads from OS threads so blocking I/O is cheap.
@@ -11008,13 +10972,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -12402,10 +12360,6 @@ Tight.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -13142,13 +13096,7 @@ underlying theory, practical implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -14014,13 +13962,7 @@ underlying theory, practical implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -14726,9 +14668,6 @@ Native memory that is not part of the heap. Virtual threads eliminate this probl
 The JVM class loading system works like a chain of trust. When your code needs a class, the request travels up to the bootstrap loader, which loads core Java classes. Only if the parent cannot find it does the child try. This prevents malicious code from replacing trusted classes. The memory model ensures that all threads see a consistent view of shared data through happens-before relationships, like agreed-upon rules for how information flows between workers in different rooms.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -15555,9 +15494,6 @@ Garbage collection is the JVM's automatic memory manager. It traces from GC root
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Java notes.
@@ -16201,9 +16137,6 @@ Compiled (use `-XX:+PrintCompilation`).
 The JIT compiler is like a chef who starts by following a recipe exactly (interpretation) but then starts improvising shortcuts after making the dish many times (compilation). The JVM watches which methods are called frequently and optimizes those hot paths into native machine code. Deoptimization is the safety net: if the JIT's assumptions prove wrong, it bails back to interpretation. This adaptive approach combines fast startup with peak performance.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Io-Nio
 
@@ -18272,17 +18205,11 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 NIO is built on three abstractions: buffers hold data, channels move data, and selectors monitor multiple channels for readiness. Think of a selector as a receptionist who handles many phone lines simultaneously, only picking up when someone calls. Selectors enable non-blocking I/O, where a single thread can manage thousands of connections. The buffer's flip, clear, and compact operations manage the transition between reading and writing modes, like flipping a notepad between write and read pages.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -19234,17 +19161,11 @@ practical implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Annotations are metadata that attach information to code elements without changing their behavior. Built-in annotations like @Override and @SuppressWarnings communicate intent to the compiler. Custom annotations enable frameworks to process code declaratively. Reflection is the ability to inspect and modify code at runtime, which is how frameworks like Spring discover and wire components. Together, annotations and reflection form the backbone of modern Java frameworks.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -20180,17 +20101,11 @@ practical implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Generics add a layer of type safety to collections and other parameterized types. Before generics, you could put anything in a list and had to cast when retrieving. Generics let the compiler catch type mismatches at compile time instead of runtime. Type erasure means generic type information is removed after compilation, which is why you cannot do `new T()` or `instanceof List<String>`. Wildcards provide flexibility: `? extends T` for reading, `? super T` for writing.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -21131,17 +21046,11 @@ implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Java's exception hierarchy separates recoverable errors (exceptions) from unrecoverable JVM failures (errors). Checked exceptions force callers to handle anticipated failures, while unchecked exceptions signal programming bugs. The try-with-resources pattern ensures cleanup happens automatically, like a librarian who always returns books to their shelf regardless of whether the reader finished. Effective exception handling means catching specific types, providing meaningful messages, and never silently swallowing errors.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -22176,9 +22085,6 @@ theory, practical implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Build tools automate the process of compiling, testing, and packaging Java code. Maven uses a convention-over-configuration approach with a fixed directory layout and declarative XML. Gradle offers more flexibility with a Groovy or Kotlin DSL. Both manage dependencies by downloading libraries from central repositories and resolving version conflicts. The standard directory layout (src/main/java, src/test/java) makes projects recognizable across the Java ecosystem.
@@ -23159,9 +23065,6 @@ implementation, and key applications.
 - transaction processing (ACID)
 - NoSQL and distributed databases
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Testing is the practice of verifying that code behaves as expected. Unit tests check individual methods in isolation, integration tests verify how components work together, and end-to-end tests validate complete user workflows. JUnit 5 provides annotations like @Test and @BeforeEach to structure tests, while assertions like assertEquals verify outcomes. Mocking isolates the unit under test by replacing collaborators with controlled fakes.
@@ -23228,8 +23131,6 @@ This site provides comprehensive study materials covering:
 - JVM
 - Design patterns
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -23254,8 +23155,6 @@ programming fundamentals
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -23273,18 +23172,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Java Fundamentals Flashcards](/flashcards-java-basics/)
 - [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -23293,8 +23185,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -23348,18 +23238,11 @@ Java is "write once, run anywhere", code compiles to bytecode that runs on the J
 - **[Concurrency](/06-concurrency/01-concurrency/):** Multithreading and concurrent programming.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -23368,8 +23251,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -25499,9 +25380,6 @@ practical implementation, and key applications.
 - hash tables
 - graphs and their representations
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -25973,8 +25851,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Further Resources
 

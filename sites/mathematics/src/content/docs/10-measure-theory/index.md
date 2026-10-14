@@ -84,8 +84,6 @@ Start with sigma-algebras and measures to build foundational knowledge, then pro
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:

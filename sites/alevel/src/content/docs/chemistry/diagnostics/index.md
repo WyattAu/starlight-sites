@@ -32,10 +32,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 - [Diag Transition Metals](/chemistry/diagnostics/diag-transition-metals/)
 - [Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -46,11 +43,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ```mermaid
 graph TD

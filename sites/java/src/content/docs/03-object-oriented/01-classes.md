@@ -1477,9 +1477,6 @@ graph TD
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 Classes are blueprints for creating objects. A class defines fields (state) and methods (behavior), and every class ultimately extends Object, inheriting equals, hashCode, and toString. Interfaces are contracts that specify what a class must do without defining how -- Java's implicit interface satisfaction means any type that implements the required methods automatically satisfies the interface. Abstract classes provide partial implementation for closely related types, while interfaces define capabilities that unrelated types can share. The equals/hashCode contract is critical because hash-based collections depend on it -- if two objects are equal, they must have the same hash code or HashMap will silently fail.

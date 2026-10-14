@@ -812,9 +812,6 @@ theorems, methods, and problem-solving approaches.
 - proof and geometric reasoning
 - equations of curves
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
 
 | Topic     | Site    | Link                                                                                           |
@@ -823,9 +820,6 @@ applying these mathematical techniques.
 | [Vectors] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors/)             |
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

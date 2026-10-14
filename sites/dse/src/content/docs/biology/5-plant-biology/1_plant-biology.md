@@ -1650,9 +1650,6 @@ within the DSE specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Plant
 Biology with other biology topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -2027,9 +2024,6 @@ and evaluate experimental evidence critically.
 > > > > > > > Stashed changes:docs/docs_dse/Biology/plant-biology.md
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

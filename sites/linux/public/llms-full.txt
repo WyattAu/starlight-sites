@@ -1191,17 +1191,11 @@ implementation, and key applications.
 - shell scripting with bash
 - package management
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Bash scripting is like writing a recipe for a computer chef -- variables are the ingredients, conditionals (if/else) are the decision points, loops (for/while) are the repetition instructions, and functions are sub-recipes. The shebang (#!/bin/bash) tells the system which chef to use. Bash is not just a command language -- it is a full programming language with variables, arrays, string manipulation, and arithmetic. The key to good scripts is error handling: always check return codes, quote your variables, and use set -e to stop on errors. A script without error handling is like a recipe without safety instructions.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -2113,17 +2107,11 @@ implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Core utilities are the Swiss Army knife of Linux -- ls lists files like a directory reader, cp copies files like a photocopier, mv moves files like a filing clerk, rm deletes files like a shredder, and chmod changes permissions like a security manager. The power comes from combining them: ls | grep '.txt' | wc -l counts text files by piping the directory listing through a filter and counting the results. Understanding the core utilities is like learning the alphabet -- once you know the letters, you can write anything. The GNU extensions add extra features, but the POSIX basics are universal.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -2997,17 +2985,11 @@ implementation, and key applications.
 - rebasing and cherry-picking
 - Git workflows (GitFlow, trunk-based)
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 The shell is like a translator between you and the operating system -- you speak human (commands), the kernel speaks machine (syscalls), and the shell bridges the gap. Bash is the most common translator, but zsh and dash are alternatives with different strengths. The shell's prompt (PS1) is like a conversation indicator -- it tells you who you are, where you are, and what the shell is ready to do. Environment variables are like the shell's memory -- they store settings (PATH, HOME) that affect how commands run. Understanding the shell means understanding how Linux works at the most fundamental level.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -4070,17 +4052,11 @@ implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Text processing in Linux is like having a team of specialised editors -- grep finds lines matching a pattern, sed makes find-and-replace changes, awk processes structured data, and sort/order/uniq organise the results. Regular expressions are the pattern language that these tools share: they let you describe what you are looking for with precision. The Unix philosophy of small, composable tools means you can chain them together like building blocks: cat file | grep error | sort | uniq -c finds all error lines, sorts them, and counts duplicates. This pipeline approach turns complex text transformations into simple, readable commands.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -4907,17 +4883,11 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 File permissions are like the security system of a building -- the owner has the master key (full access), the group has a shared keycard (limited access), and everyone else gets whatever the building manager allows. The permission bits (rwx for owner, group, others) are like three sets of switches: read lets you look, write lets you change, and execute lets you use. chmod is the tool that flips these switches, and chown changes who holds the master key. The principle of least privilege means giving each user only the permissions they need -- like giving the janitor access to the maintenance closet but not the CEO's office.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -5707,17 +5677,11 @@ practical implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 File systems are like different filing systems in an office -- ext4 is the reliable, well-organised filing cabinet; XFS is the high-performance system for large files; Btrfs is the modern system with snapshots and compression. The VFS layer is the universal filing interface that lets you use any filing system without changing how you access files. Mounting is like opening a filing cabinet: you attach a storage device to a directory so its contents become accessible. The mount point is the door through which you access the files. Unmounting is like closing the cabinet -- you must finish using it before you can safely disconnect it.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -6680,17 +6644,11 @@ practical implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Cron is like having a tireless personal assistant who checks your to-do list every minute and executes tasks at the scheduled times. The crontab is your list of instructions, and the five time fields (minute, hour, day, month, weekday) are like setting multiple alarms. The key is understanding the difference between cron (periodic tasks at fixed times) and at (one-time tasks at a specific time). Anacron extends cron to handle tasks that should run even if the machine was off -- it catches up on missed jobs when the system comes back online. Think of cron as your automation backbone: if you do something more than once, schedule it.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -7565,17 +7523,11 @@ practical implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 I/O redirection is like rerouting pipes in a plumbing system -- stdout is the main water flow, stderr is the overflow drain, and you can redirect either to a different destination. The > operator sends output to a file (like diverting a river into a reservoir), >> appends to a file (adding to the reservoir), and < reads from a file (drawing from the reservoir). Pipes (|) connect the output of one command to the input of another, like linking water pipes in series. File descriptors are the pipe labels: 0 is stdin (input pipe), 1 is stdout (output pipe), and 2 is stderr (error pipe). The key insight is that everything in Unix is a file, and redirection is how you control the flow of data between files and processes.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -8382,17 +8334,11 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Processes are like workers in a factory -- each has a task (program), a workspace (memory), and a status (running, sleeping, stopped). Fork is like cloning a worker: the child gets a copy of the parent's workspace. Exec is like giving the clone a new task -- same worker, different job. Wait is the parent checking in on the child. Signals are like alarm bells: SIGTERM asks a process to shut down politely, SIGKILL forces it to stop immediately, and SIGHUP tells it to re-read its configuration. The key insight is that process management is about resource allocation: the kernel decides which worker gets the CPU, how much memory they can use, and when they get休息.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -9246,9 +9192,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 
@@ -10242,13 +10185,7 @@ implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -11189,9 +11126,6 @@ implementation, and key applications.
 - protocols (HTTP, FTP, SMTP)
 - encryption and security
 - client-server and peer-to-peer
-
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Worked Examples
 
@@ -13031,9 +12965,6 @@ implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -13933,9 +13864,6 @@ implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -14834,9 +14762,6 @@ and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -15728,9 +15653,6 @@ implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -15797,8 +15719,6 @@ This site provides comprehensive study materials covering:
 - Networking
 - Security
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -15823,8 +15743,6 @@ basic computing
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -15842,18 +15760,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Introduction to Linux](/intro/)
 - [LVM and Disk Partitioning](/lvm-and-disk-partitioning/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -15862,8 +15773,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -17343,14 +17252,7 @@ Run.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -19253,17 +19155,11 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 LVM is like having a storage system with rubber walls -- you can resize, move, and rearrange partitions without unplugging drives or losing data. Physical volumes are the raw drives, volume groups are pools of storage assembled from multiple drives, and logical volumes are the partitions you actually use. The key advantage over traditional partitioning is flexibility: if you run out of space on one volume, you can add a new drive to the pool and extend the volume without downtime. Snapshots in LVM are like taking a photograph of your storage at a point in time -- useful for backups and testing. Think of LVM as the difference between carved-in-stone partitions and adjustable shelves.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

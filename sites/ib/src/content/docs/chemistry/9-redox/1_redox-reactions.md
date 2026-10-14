@@ -1135,9 +1135,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Redox](./)

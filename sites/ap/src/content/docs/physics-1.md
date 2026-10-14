@@ -584,9 +584,6 @@ weights qualitative explanations alongside quantitative solutions.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 AP Physics 1 is the **algebra-based introduction to mechanics**, it describes how objects move and why. The course builds from kinematics (describing motion) through forces (causing motion) to energy and momentum (conservation laws that simplify complex problems).

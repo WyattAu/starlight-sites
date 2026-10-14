@@ -55,7 +55,6 @@ graph TD
     S --> Q[Heat Transfer]
 ```
 
-
 ## Contents
 
 1. [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/)
@@ -102,8 +101,6 @@ University-level thermal physics notes covering thermodynamics, statistical mech
 Start with the laws of thermodynamics to build foundational knowledge, then progress to statistical mechanics and phase transitions. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 

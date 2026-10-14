@@ -625,5 +625,3 @@ Occurred after the original migration. Always test the rollback path.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

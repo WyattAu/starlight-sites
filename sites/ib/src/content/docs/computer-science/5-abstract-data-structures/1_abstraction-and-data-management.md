@@ -1648,9 +1648,6 @@ practical implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
 
 | Topic             | Site       | Link                                                                                                                 |

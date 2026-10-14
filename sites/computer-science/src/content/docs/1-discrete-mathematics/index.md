@@ -87,8 +87,6 @@ Start with logic and proofs to build foundational reasoning skills, then progres
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:

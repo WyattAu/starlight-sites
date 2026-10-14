@@ -937,9 +937,6 @@ acknowledges the extract's complexity and explores multiple possible interpretat
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [English](./)

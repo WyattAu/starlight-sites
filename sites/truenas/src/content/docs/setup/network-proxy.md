@@ -132,18 +132,11 @@ networks:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 A network proxy is the middleman between your server and the outside world. Reverse proxies sit in front of your services, routing incoming requests to the right internal server, like a receptionist who directs visitors to the correct office. They add a layer of security by hiding internal server details and can handle SSL termination, load balancing, and caching. Without a proxy, every service would need its own public port, like a building where every office has its own front door on the street.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

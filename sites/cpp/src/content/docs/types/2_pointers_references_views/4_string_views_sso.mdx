@@ -728,9 +728,6 @@ optimization, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 A `std::string_view` is a lightweight "lens" over a sequence of characters, it tells you where the characters are and how many there are, but it does not own them. Think of it like pointing at a page in a book: you can read the text, but you cannot tear the page out or modify it. This is why string views are so fast, they never allocate memory, never copy data, and are just two pointers (or a pointer and a length) under the hood. The trade-off is that you must ensure the original string outlives the view, or you will be reading garbage.

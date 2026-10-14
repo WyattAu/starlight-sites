@@ -1460,10 +1460,6 @@ inflation target, triggering a gilt market crisis and forcing a policy reversal.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/) -- GDP measurement and economic indicators provide the empirical foundation for evaluating Keynesian and monetarist predictions.

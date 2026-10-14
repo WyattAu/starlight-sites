@@ -1163,9 +1163,6 @@ List<String> cities = List.of(user)
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 Streams are pipelines that describe computations over data without modifying the source. They are lazy -- intermediate operations like filter and map build a description of the pipeline, and nothing executes until a terminal operation like collect or forEach triggers processing. This laziness enables short-circuiting (findFirst stops at the first match) and fusion (multiple operations merge into a single pass). Parallel streams split work across ForkJoinPool workers using work-stealing, but they only help for large, CPU-bound datasets with efficiently splittable sources. Optional makes the absence of a value explicit at the type level, forcing callers to handle both cases and eliminating null pointer exceptions.

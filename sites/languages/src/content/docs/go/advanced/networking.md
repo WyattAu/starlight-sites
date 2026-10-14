@@ -460,9 +460,6 @@ client := &http.Client{
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[net/http](/go/standard-library/net-http/):** HTTP server and client patterns that build on networking fundamentals.

@@ -841,9 +841,6 @@ practical implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
 
 | Topic                   | Site    | Link                                                                                                           |
@@ -853,9 +850,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 | [Computer Architecture] | DSE     | [View](https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems/)                             |
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

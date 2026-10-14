@@ -882,9 +882,6 @@ Signal processing), an unexpected GC pause can cause deadline misses. Profile yo
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/), The PyObject header, reference counting, and type dispatch explain why dynamic typing has a runtime cost.

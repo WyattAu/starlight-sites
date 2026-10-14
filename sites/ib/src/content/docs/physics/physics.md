@@ -1552,9 +1552,6 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [Atomic Structure and Periodicity](/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity/) -- Quantum physics and atomic models connect to the particulate nature of matter in chemistry.

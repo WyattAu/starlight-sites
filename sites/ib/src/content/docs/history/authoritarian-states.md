@@ -446,9 +446,6 @@ debates surrounding them, is essential for constructing high-scoring comparative
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Cold War](/history/cold-war/):** Cold War geopolitics shaped the 20th century

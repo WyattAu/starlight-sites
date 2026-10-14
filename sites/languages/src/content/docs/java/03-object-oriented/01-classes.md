@@ -1484,9 +1484,6 @@ graph TD
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [Java Interfaces](https://go.wyattau.com/intermediate/interfaces/) -- Interfaces define contracts that classes must implement, complementing class inheritance.

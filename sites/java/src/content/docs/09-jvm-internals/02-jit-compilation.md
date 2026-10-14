@@ -638,5 +638,3 @@ The JIT compiler is like a chef who starts by following a recipe exactly (interp
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

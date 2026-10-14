@@ -581,17 +581,11 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 Traefik is a modern reverse proxy that automatically discovers services and configures routes, like a concierge who learns about new hotel rooms as they are added and automatically assigns guests to them. Unlike traditional proxies that require manual configuration for each service, Traefik watches for new containers or services and provisions routing rules on the fly. It integrates with Let's Encrypt to automatically obtain and renew TLS certificates, so your services are always accessible over HTTPS without manual certificate management.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

@@ -1412,10 +1412,6 @@ may drive platforms underground or offshore, leaving workers with no protection 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/) -- Employment and unemployment statistics are key macroeconomic indicators derived from labour market data.

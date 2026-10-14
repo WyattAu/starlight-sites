@@ -565,13 +565,7 @@ implementation, and key applications.
 - shell scripting with bash
 - package management
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -3019,13 +3013,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -3975,17 +3963,11 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Class modifiers are like traffic signs on a highway -- they tell other drivers (external libraries) whether they can enter your lane (extend), merge into your lane (implement), or drive alongside you (mixin). The 'base' modifier says 'you must follow my lead' -- only extends is allowed, preserving your invariants. The 'interface' modifier says 'you must build your own car' -- only implements is allowed, forcing callers to provide their own implementation. The 'final' modifier says 'this lane is closed' -- no one can follow you. These modifiers are the library author's way of communicating the inheritance contract before a single line of code is written.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -5171,13 +5153,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -6285,17 +6261,11 @@ implementation, and key applications.
 - encryption and security
 - client-server and peer-to-peer
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Sealed classes are like a locked menu at a restaurant -- you know exactly what dishes are available, and the waiter (compiler) will not let you order something that is not on the list. This is the power of exhaustive pattern matching: when you add a new dish (subtype), every waiter who handles the menu must update their notes (switch statements). The sealed class enforces this at compile time, not runtime, catching missing cases before they reach production. Think of it as the difference between a restaurant with a fixed menu (sealed) and a buffet where anything can appear (abstract class).
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -7690,17 +7660,11 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Navigation in Flutter is like a stack of plates -- each push adds a new plate on top, and each pop removes the topmost one. Navigator 1.0 is like manually stacking plates: you decide exactly when to add and remove. GoRouter is like a conveyor belt that automatically stacks plates based on the URL -- the URL determines what is on the table, and the back button reverses the conveyor. Deep linking is like telling the conveyor belt to start at a specific plate rather than the beginning. ShellRoute is like a tray that holds multiple plates in different compartments -- the tray stays while the plates inside change.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -8635,13 +8599,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -9956,17 +9914,11 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 State management is like the nervous system of a Flutter app -- it senses changes (state), processes them (logic), and triggers responses (UI rebuilds). setState is a local reflex arc: fast but limited to one muscle (widget). Provider is the peripheral nervous system: it distributes signals down the widget tree through InheritedWidget. Riverpod is the central nervous system: providers are global neurons that can be accessed from anywhere, with auto-disposal acting as synaptic pruning. BLoC is the conscious decision-making process: events go in, states come out, and every transition is traceable. Choose the right nervous system for the complexity of your app.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -11361,17 +11313,11 @@ including key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Intuition
 
 Platform channels are like a telephone line between Dart and native code -- MethodChannel is a direct call (request-response), EventChannel is a live broadcast (streaming), and Pigeon is the automated switchboard that generates the wiring diagrams. The serialization codec is the language translator: it converts Dart objects to a format the other side understands. The biggest pitfall is blocking the main thread -- it is like tying up the telephone line with a long conversation while the house is on fire. Always offload heavy native work to background threads and call back when done.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -12791,17 +12737,11 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Testing is like a safety net under a trapeze artist -- you hope you never need it, but you cannot perform without it. Unit tests catch individual missteps, widget tests verify that the trapeze (widget tree) is properly rigged, and integration tests ensure the whole act (app flow) works end to end. Mocking with mockito creates stand-in performers who follow a script, letting you test in isolation. The Arrange-Act-Assert pattern is your rehearsal protocol: set up the stage, perform the move, check the landing. Property-based testing stress-tests the net itself by throwing random loads at it to find weak points.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -12860,8 +12800,6 @@ This site provides comprehensive study materials covering:
 - Flutter
 - Testing
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -12886,8 +12824,6 @@ programming fundamentals
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -12905,18 +12841,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Introduction to Dart & Flutter](/01-intro/)
 - [Best Practices](/04-best-practices/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -12925,8 +12854,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -13073,14 +13000,7 @@ URL: https://dart.wyattau.com/04-best-practices/
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -14218,17 +14138,11 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Code generation is like a photocopy machine for boilerplate -- you write the original (annotated class), and the machine produces the copies (generated files) with copyWith, equality, and serialization already filled in. Build_runner is the power cord that connects the machine to your source code. The generated files (.freezed.dart, .g.dart) are the copies that should not be edited by hand -- they are disposable and can be regenerated at any time. The discipline is: change the original, regenerate the copies, and never write by hand what the machine can produce reliably.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -15474,17 +15388,11 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Dependency injection is like ordering food delivery instead of cooking -- you specify what you want (interface), the kitchen (provider) prepares it, and you do not need to know the recipe (implementation). Constructor injection is the transparent kitchen: you see exactly what ingredients go in. GetIt is the mystery box: you ask for a dish by name and trust the kitchen to deliver. Riverpod is the smart kitchen: it knows what ingredients you need, prepares them lazily, and cleans up when you are done eating. The key insight is that DI is not about frameworks -- it is about making dependencies explicit, visible, and replaceable.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -16580,13 +16488,7 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -18301,9 +18203,6 @@ practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Dart FFI is like having a universal translator between Dart and C -- it lets you speak directly to native libraries without an interpreter. Pointers are raw memory addresses, like street addresses in a city where there are no zip codes or house numbers. Structs are like blueprints that map Dart objects to C memory layouts. The critical difference from Dart's garbage-collected world is that native memory must be freed manually -- there is no automatic cleanup crew. Isolates are like separate houses on the same street: they share the road (message passing) but not the furniture (memory), preventing the data races that plague thread-based concurrency.
@@ -18435,15 +18334,9 @@ Dart is a language designed for UI development, it compiles to native code for m
 
 ## Detailed Content
 
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -18452,8 +18345,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## See also
 
@@ -19397,13 +19288,7 @@ theory, practical implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -19441,7 +19326,6 @@ D. It compiles successfully',
 - With null safety enabled, all non-nullable variables must be initialized at declaration. `String name;` without an initializer or `late` keyword produces a compilation error. To fix: initialize it (`String name = 'Alice';`), make it nullable (`String? name;`), or defer with `late` (`late String name;`).
 *Difficulty: easy*
 
-
 **Q2. What is the type of `List&lt;int&gt;? numbers = [1, 2, 3];`?**
 
 A. The variable is of type `List&lt;int&gt;?` and currently holds a non-null `List&lt;int&gt;
@@ -19453,7 +19337,6 @@ D. It is of type `dynamic`',
 - `List&lt;int&gt;?` is a nullable list type. The variable `numbers` can hold either a `List&lt;int&gt;` or `null`. The initializer `[1, 2, 3]` is a valid `List&lt;int&gt;`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null.
 *Difficulty: easy*
 
-
 **Q3. Which Dart collection type guarantees uniqueness of elements?**
 
 A. List
@@ -19464,7 +19347,6 @@ D. Queue
 **Answer: B**
 - A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `{'a', 'b', 'a'}` becomes `{'a', 'b'}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`).
 *Difficulty: easy*
-
 
 ---
 
@@ -19481,7 +19363,6 @@ D. Compilation error
 - `Stream.fromIterable` creates a single-subscription stream that emits each element of the iterable as a separate event. The listener multiplies each value by 2: 1*2=2, 2*2=4, 3*2=6. Events are delivered asynchronously but in order for synchronous iterables. After emitting all three, the stream completes.
 *Difficulty: medium*
 
-
 **Q5. Given `Future&lt;String&gt; fetchName() async \{ await Future.delayed(Duration(seconds: 1)); return 'Alice'; \}`, what is the type of `var result = fetchName();`?**
 
 A. String
@@ -19492,7 +19373,6 @@ D. void
 **Answer: C**
 - Calling an async function without `await` returns the Future immediately without waiting for it to complete. `var result = fetchName();` gives `result` the type `Future&lt;String&gt;`, not `String`. To get the String value, you must `await` it: `var result = await fetchName();` which yields type `String`.
 *Difficulty: medium*
-
 
 ---
 
@@ -19509,7 +19389,6 @@ D. switch (r) \{ case Result(): ... \}',
 - Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching.
 *Difficulty: medium*
 
-
 **Q7. In Dart 3 records, how do you access the first positional field of `var record = ('Alice', 30);`?**
 
 A. record[0]
@@ -19520,7 +19399,6 @@ D. record.$1
 **Answer: D**
 - Record positional fields are accessed via `$1`, `$2`, `$3`, etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
 *Difficulty: medium*
-
 
 ---
 
@@ -19534,7 +19412,6 @@ B. Calls Animal's walk method instead", 'Compilation error: Walker cannot be use
 **Answer: A**
 - Mixins inject their method implementations into the class that uses them. `Person` gains the `walk()` method from `Walker`. If `Person` also defines `walk()`, its own method takes precedence (override). If `Animal` defines `walk()` and `Walker` also defines it, the mixin's linearization order determines which wins -- mixins applied later have higher priority.
 *Difficulty: medium*
-
 
 &lt;PracticeProblem client:only="solid-js" question=\{`Given \`extension on String \{ String get reversed => split('').reversed.join(); \}\`, what does \`"hello".reversed\` return?`\} options=\{['"olleh"', '"hello"', 'Compilation error: String already has reversed', 'null']\} correctAnswer=\{0\} explanation="Extension methods add members to existing types. This extension adds a`reversed` getter to `String`.`split('')` creates `['h','e','l','l','o']`,`.reversed` produces `['o','l','l','e','h']`, and`.join()` yields `'olleh'`. Extensions are resolved at compile time -- if`String` later adds a `reversed` member, the real member takes priority." difficulty="medium"  />
 
@@ -19553,7 +19430,6 @@ D. Rewrite the project from scratch with null safety from day one',
 - The recommended migration flow: 1) Enable null safety incrementally with `// @dart=2.12` or per-package. 2) Run the migration tool (`dart fix --apply`). 3) Review: add `?` where nulls are intentional, replace `!` with proper null checks, use `late` for fields initialized in `initState` or constructors. 4) Run analysis (`dart analyze`) to find remaining issues. 5) Remove `!` operators one by one -- each removed operator is a safety improvement.
 *Difficulty: hard*
 
-
 **Q10. In a Flutter StatefulWidget, which lifecycle method should you use to initialize data that depends on `BuildContext` or to subscribe to a stream?**
 
 A. the constructor
@@ -19564,7 +19440,6 @@ D. build
 **Answer: B**
 - `initState()` is called once when the State object is created, before `build()`. It is the correct place to initialize data, subscribe to streams, and set up controllers that depend on `this.context`. Do NOT call `BuildContext`-dependent methods (like `Theme.of(context)`) in `initState` -- use `didChangeDependencies` for those. Clean up subscriptions in `dispose()`.
 *Difficulty: hard*
-
 
 ## Intuition
 
@@ -19587,18 +19462,11 @@ D. build
 - **[Site Home](../../):** Main landing page for dart notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -19607,8 +19475,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## See also
 
@@ -20920,9 +20786,6 @@ than no test at all.
 Dart testing follows the testing pyramid: many fast unit tests at the base, fewer widget tests in the middle, and a handful of integration tests at the top. This is not just convention -- it is economics. Unit tests run in milliseconds and catch logic errors early; integration tests run in seconds but catch only the bugs that survive lower-level testing. Golden tests are the visual regression detector: they compare pixel-by-pixel against a reference image, catching design drift that logic tests cannot detect. FakeAsync is the time machine that lets you test debounce, timeout, and periodic logic without wall-clock delays.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

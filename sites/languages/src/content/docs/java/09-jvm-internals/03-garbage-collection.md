@@ -822,9 +822,6 @@ java -XX:+UseZGC \
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Types and Variables](/java/02-fundamentals/01-types-and-variables/):** Object lifecycle and reference types that GC manages.

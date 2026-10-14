@@ -770,9 +770,6 @@ practical implementation, and key applications.
 - exception handling
 - the JVM and garbage collection
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
 
 - [Hardware](/computer-science/1-hardware/1_hardware/) -- Network interfaces and protocols depend on the physical hardware layer of computing systems.

@@ -1089,9 +1089,6 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 ZFS is not just a filesystem but a complete storage management system that combines the roles of filesystem, volume manager, and RAID controller. Think of it as a self-healing bookshelf: it not only stores your books but also checks for damaged pages, repairs them automatically from backup copies, and alerts you when a book is wearing out. The copy-on-write mechanism means that every modification creates a new version of the data rather than overwriting the old one, like a word processor that saves every revision.
@@ -2177,17 +2174,11 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 File sharing and permissions are the access control system for your data. Permissions determine who can read, write, or execute files, like the lock system on a building where different keys open different doors. Sharing protocols (SMB, NFS,AFP) are the languages that different operating systems speak to access shared files, the way different postal services use different formats but all deliver mail to the same address. Getting permissions wrong can expose sensitive data or lock out legitimate users, so they must be configured carefully.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -3343,17 +3334,11 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 Backup is the practice of keeping copies of your data in case the original is lost or damaged. The 3-2-1 rule says keep 3 copies on 2 different media with 1 offsite, the way you might keep important documents in a safe at home, a safety deposit box at the bank, and a digital scan in cloud storage. Replication is the process of automatically copying data between systems, like a secretary who files a copy of every document in two different cabinets. The key insight is that a backup you have never tested is not a backup.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -4406,17 +4391,11 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 Apps and services are the software applications that run on your TrueNAS server, each providing a specific function like file sharing, media streaming, or backup. Think of them as appliances in a kitchen: each one does a specific job, and the kitchen works best when you choose appliances that complement each other. TrueNAS SCALE uses Docker containers to run these services, isolating them from each other so that a problem with one does not affect the others, the way separate burners on a stove can operate independently.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -5460,17 +5439,11 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 Monitoring is the vital signs of your server: CPU usage, memory consumption, disk health, and network traffic are the pulse, temperature, and blood pressure of your system. Alerting is the alarm that goes off when something goes wrong, like a smoke detector that warns you before a small problem becomes a catastrophic failure. The goal is not to watch every metric constantly but to set thresholds that trigger notifications when something deviates from normal, the way a thermostat triggers the furnace when the temperature drops.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -6528,13 +6501,7 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -6607,8 +6574,6 @@ This site provides comprehensive study materials covering:
 - Storage management
 - Networking
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -6633,8 +6598,6 @@ basic networking
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -6652,18 +6615,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Introduction to TrueNAS](/intro/)
 - [TrueNAS Practice](/practice-truenas/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -6672,8 +6628,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -7560,18 +7514,11 @@ Dedicated NAS, 64 GB recommended).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 TrueNAS is a storage operating system designed to make enterprise-grade storage accessible to home users and small businesses. It is built on ZFS, which provides data integrity, snapshots, and RAID-like protection without the complexity of traditional storage arrays. Think of TrueNAS as a bank vault for your data: it protects against drive failures, accidental deletions, and even ransomware through its snapshot system, while also providing easy access to your files from any device on your network.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -7617,8 +7564,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Further Resources
 
@@ -7715,18 +7660,11 @@ import PracticeProblem from "@components/PracticeProblem";
 - **[Site Home](../../):** Main landing page for truenas notes.
 - **Practice:** Practice problems for revision.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -7735,8 +7673,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -9250,17 +9186,11 @@ implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 ZFS encryption protects your data at rest, ensuring that even if someone steals your hard drives, they cannot read the contents. It works like a locked safe: the data is encrypted with a key, and without the key, the data is meaningless noise. ZFS encryption is transparent to legitimate users, who access data normally through the mounted filesystem, but completely opaque to anyone who does not have the encryption key. The key insight is that encryption protects against physical theft, while proper permissions protect against unauthorized access by authorized users.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -10053,17 +9983,11 @@ key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 Setting up a home server is like building a small data center in your closet. The key decisions are what hardware to use, how much storage you need, and how to keep it running reliably. Think of the server as a librarian who never sleeps: it stores your files, serves media to your devices, and runs services in the background. The investment in time upfront pays dividends in convenience and data ownership, the way building a good workshop saves time on every future project.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -10198,18 +10122,11 @@ networks:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 A network proxy is the middleman between your server and the outside world. Reverse proxies sit in front of your services, routing incoming requests to the right internal server, like a receptionist who directs visitors to the correct office. They add a layer of security by hiding internal server details and can handle SSL termination, load balancing, and caching. Without a proxy, every service would need its own public port, like a building where every office has its own front door on the street.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -10794,17 +10711,11 @@ principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-A thorough understanding of these concepts, combined with regular practice and review, is essential
-for mastery of this topic.
-
 ## Intuition
 
 Traefik is a modern reverse proxy that automatically discovers services and configures routes, like a concierge who learns about new hotel rooms as they are added and automatically assigns guests to them. Unlike traditional proxies that require manual configuration for each service, Traefik watches for new containers or services and provisions routing rules on the fly. It integrates with Let's Encrypt to automatically obtain and renew TLS certificates, so your services are always accessible over HTTPS without manual certificate management.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 

@@ -766,9 +766,6 @@ Dart testing follows the testing pyramid: many fast unit tests at the base, fewe
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Dart](./)

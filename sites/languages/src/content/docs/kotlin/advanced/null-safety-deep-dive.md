@@ -355,9 +355,6 @@ Kotlin's null safety is like a building's fire code -- it prevents disasters by 
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Types and Variables](/kotlin/basics/types-and-variables/):** Nullable type declarations and type inference fundamentals.

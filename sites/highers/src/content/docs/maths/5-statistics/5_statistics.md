@@ -799,9 +799,6 @@ including key theorems, methods, and problem-solving approaches.
 - correlation and regression
 - sampling methods
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
 
 - [Algebra and Functions](/maths/1-algebra-functions/1_algebra-functions/) -- Statistical distributions are defined using algebraic functions, connecting probability to function theory.

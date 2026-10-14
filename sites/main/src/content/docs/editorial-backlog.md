@@ -328,3 +328,46 @@ a reader arriving at the graduate tier will hit.
 
 **Gate.** `scripts/fix-filler-content.py --check` now runs in the preflight, so
 neither class can reappear.
+
+## 12. Generic template paragraphs removed (3,301 instances); 344 pages were passing the depth gate on boilerplate
+
+The most-repeated paragraph in the network appeared **706 times across 28
+sites**: "Worked examples demonstrating the application of key concepts are
+covered in the detailed sub-pages linked above." It is true of every page and
+therefore false as content. Thirty distinct such paragraphs accounted for
+**8,385 instances across 1,929 files**.
+
+A paragraph counts as boilerplate here if it appears on 30 or more pages
+network-wide and is plain prose. Blocks that begin with a heading, table,
+list, quote or JSX are never touched, and paragraphs carrying an aside fence
+are never touched -- see the note below.
+
+**Removed: 3,301 instances across 1,311 files.** Thirty distinct paragraphs
+were in scope.
+
+**Not removed: 344 pages.** The fixer removes a paragraph only if the page
+stays at or above its tier minimum afterwards. On 344 pages it would not, so
+the boilerplate is left in place and the page is reported. That is the honest
+outcome: those pages were meeting the depth standard partly on text that
+says nothing about their subject, and deleting the padding does not fix them,
+it only reveals them. Most are `index.md` landing pages sitting at 25-31 body
+lines against a tier-1 minimum of 30 -- they are close to being pure
+boilerplate.
+
+**A bug worth recording.** The first pass broke 190 `:::tip` directives. Some
+boilerplate paragraphs have an aside's *closing* `:::` glued to their last
+line, so removing them as prose orphaned the opener. Nothing in a
+paragraph-frequency measurement would show this -- it surfaced only because
+the aside gate runs earlier in the preflight and went red. Fence-bearing
+blocks are now excluded, and `tests/unit/fix-generic-boilerplate.test.js`
+pins the case.
+
+**Deliberate boilerplate was kept.** Four paragraphs repeat the
+`wyattsnotes.wyattau.com` network promotion on many pages. That is site
+chrome rather than content padding, and removing it is a presentation decision
+this project has not made, so the fixer excludes anything containing that
+host.
+
+**Gate.** `scripts/fix-generic-boilerplate.py --check` runs in the preflight.
+It is slower than the other gates because it measures paragraph frequency
+network-wide; the check is one pass and takes about a minute.

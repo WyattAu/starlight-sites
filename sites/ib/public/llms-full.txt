@@ -54,8 +54,6 @@ This site provides comprehensive study materials covering:
 - Biology
 - Psychology
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -80,8 +78,6 @@ IB Diploma enrolment
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -99,18 +95,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Complete IB Study Guide, All Subjects & Papers](/hub/)
 - [IB Theory of Knowledge (TOK)](/ib-theory-of-knowledge/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -119,8 +108,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -6800,14 +6787,7 @@ Human Physiology (largely independent)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -6853,8 +6833,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -18786,8 +18764,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Biology content for the Ib qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -18827,8 +18803,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Cross-References
 
@@ -27379,9 +27353,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Acids And Bases](./)
@@ -30055,14 +30026,7 @@ For the A-Level treatment of this topic, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -36767,14 +36731,7 @@ Stoichiometry (foundational -- not a separate diagnostic)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -40418,7 +40375,6 @@ URL: https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/
 sources:
   - text: Standard textbook reference
 
-
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Measurement And Data Processing alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
 # Measurement And Data Processing
@@ -40442,8 +40398,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -40452,12 +40406,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -40467,8 +40416,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -40544,7 +40491,6 @@ URL: https://ib.wyattau.com/chemistry/3-periodicity/
 sources:
   - text: Standard textbook reference
 
-
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Periodicity feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Periodicity
@@ -40568,8 +40514,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -40578,12 +40522,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -40593,8 +40532,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -40670,7 +40607,6 @@ URL: https://ib.wyattau.com/chemistry/5-energetics/
 sources:
   - text: Standard textbook reference
 
-
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Energetics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Energetics
@@ -40694,8 +40630,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -40704,12 +40638,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -40719,8 +40648,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -40734,7 +40661,6 @@ URL: https://ib.wyattau.com/chemistry/6-kinetics/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Kinetics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -40759,8 +40685,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -40769,12 +40693,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -40784,8 +40703,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -40799,7 +40716,6 @@ URL: https://ib.wyattau.com/chemistry/7-equilibrium/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Equilibrium alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
@@ -40824,8 +40740,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -40834,12 +40748,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -40849,8 +40758,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -41193,8 +41100,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Cross-References
 
@@ -48384,9 +48289,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Redox](./)
@@ -53418,9 +53320,6 @@ practical implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
 
 | Topic             | Site       | Link                                                                                                                 |
@@ -56292,14 +56191,7 @@ flowchart TD
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -56687,14 +56579,7 @@ Use this checklist to track your preparation:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -58256,9 +58141,6 @@ implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
 
 | Topic           | Site    | Link                                                                                                     |
@@ -59115,9 +58997,6 @@ practical implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
 
 | Topic                   | Site    | Link                                                                                                           |
@@ -59127,9 +59006,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 | [Computer Architecture] | DSE     | [View](https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems/)                             |
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -60195,14 +60071,7 @@ If you get this wrong, revise: [Efficiency](#efficiency) and [Nested Loops](#alg
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -62275,9 +62144,6 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Resource Management](./)
@@ -62565,7 +62431,6 @@ URL: https://ib.wyattau.com/computer-science/2-computer-organization/
 sources:
   - text: Standard textbook reference
 
-
 This section covers computational thinking, data structures, algorithms, and systems. If Computer Organization feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Computer Organization
@@ -62589,8 +62454,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -62599,12 +62462,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -62614,8 +62472,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -62629,7 +62485,6 @@ URL: https://ib.wyattau.com/computer-science/3-networks/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -62654,8 +62509,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -62664,12 +62517,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -62679,8 +62527,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -62756,7 +62602,6 @@ URL: https://ib.wyattau.com/computer-science/5-abstract-data-structures/
 sources:
   - text: Standard textbook reference
 
-
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Abstract Data Structures, attempt the practice problems cold, and only then check the worked solutions.
 
 # Abstract Data Structures
@@ -62780,8 +62625,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -62790,12 +62633,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -62805,8 +62643,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -62820,7 +62656,6 @@ URL: https://ib.wyattau.com/computer-science/6-resource-management/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
@@ -62845,8 +62680,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -62855,12 +62688,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -62870,8 +62698,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -62885,7 +62711,6 @@ URL: https://ib.wyattau.com/computer-science/7-control/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. Use the diagnostic tests to find out whether Control needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -62910,8 +62735,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -62920,12 +62743,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -62935,8 +62753,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -62950,7 +62766,6 @@ URL: https://ib.wyattau.com/computer-science/8-object-oriented-programming/
 
 sources:
   - text: Standard textbook reference
-
 
 This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Object Oriented Programming, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -62975,8 +62790,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ## Common Mistakes
 
 - Skipping prerequisite material before attempting this section
@@ -62985,12 +62798,7 @@ This section introduces fundamental concepts that form the foundation for advanc
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -63000,8 +62808,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ## See also
 
@@ -63159,8 +62965,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Computer Science content for the Ib qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -63200,8 +63004,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## Cross-References
 
@@ -63980,14 +63782,7 @@ Encryption with the speed of symmetric encryption.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -64678,14 +64473,7 @@ void selectionSort(int[] arr) {
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -66614,14 +66402,7 @@ END IF
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -66987,14 +66768,7 @@ Work.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -67833,14 +67607,7 @@ and lengths. Parameterized queries ensure user input is treated as data, never a
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -68753,14 +68520,7 @@ would likely require a hot standby configuration.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -73302,8 +73062,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## Additional Notes
 
 This content is regularly updated to reflect the latest specification changes and examination patterns. Check back for new practice questions and worked examples.
@@ -77783,8 +77541,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Cross-References
 
@@ -90253,9 +90009,6 @@ Blanche can wash but she cannot wash away the past.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ---
 
 ## Chronicle Of A Death Foretold
@@ -92247,10 +92000,6 @@ Following pairings are especially productive:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -92921,14 +92670,7 @@ Audience's understanding of the central themes?"
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -93426,14 +93168,7 @@ throughout all assessed work:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -94553,10 +94288,7 @@ This section covers literary analysis, language techniques, and critical writing
 - [Unseen Poetry Practice 2](/english/unseen-poetry-practice-2/)
 - [Unseen Poetry Practice 3](/english/unseen-poetry-practice-3/)
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -94567,11 +94299,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.
 
@@ -95511,9 +95239,6 @@ acknowledges the extract's complexity and explores multiple possible interpretat
 </details>
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -96606,9 +96331,6 @@ timed conditions will approach the examination with the confidence and fluency t
 demands.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -99097,14 +98819,7 @@ _Streetcar_ is a domestic tragedy that resolves through the failure of action.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -100488,14 +100203,7 @@ At [../climate-change](/geography/climate-change/).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -100762,14 +100470,7 @@ At [../climate-change](/geography/climate-change/).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -101050,14 +100751,7 @@ For related topics, see [./atmospheric-systems](/geography/climate/atmospheric-s
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -101521,14 +101215,7 @@ The demographic transition is a society's journey from high birth and death rate
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -101806,14 +101493,7 @@ A drainage basin is a complete water machine: precipitation enters, water is sto
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -102583,14 +102263,7 @@ Flood management is the art of choosing between fighting water and making room f
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -103229,14 +102902,7 @@ productivity, drought conditions, and deforestation.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -103410,14 +103076,7 @@ Paper 1.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -103459,10 +103118,7 @@ This section provides study materials and resources for geography. The Geography
 - [Practice Urban Environments](/geography/practice-urban-environments/)
 - [Urban Environments](/geography/urban-environments/)
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -103472,8 +103128,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.
 
@@ -103733,14 +103387,7 @@ For related topics, see [./trade-and-aid](/geography/development/trade-and-aid/)
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -103981,14 +103628,7 @@ Migration is the calculus of human decision-making: individuals weigh gradients 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -104445,14 +104085,7 @@ Population policies are instruments played on a timescale longer than political 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -105019,14 +104652,7 @@ For related topics, see [./measuring-development](/geography/development/measuri
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -105263,14 +104889,7 @@ For related topics, see [./measuring-development](/geography/development/measuri
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -105541,14 +105160,7 @@ Cities are thermal machines. Concrete and asphalt absorb solar radiation like a 
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -106005,14 +105617,7 @@ Sustainable urban planning is like designing a building that must stand for cent
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -106294,14 +105899,7 @@ Urbanisation is gravity in human form -- people are pulled toward economic oppor
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -106555,14 +106153,7 @@ Water scarcity is not just about how much rain falls but about whether societies
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## History
 
@@ -107299,9 +106890,6 @@ debates surrounding them, is essential for constructing high-scoring comparative
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Cold War](/history/cold-war/):** Cold War geopolitics shaped the 20th century
@@ -107731,9 +107319,6 @@ The historiographical debates surrounding these wars remain vibrant and essentia
 of sophisticated historical analysis.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -108320,9 +107905,6 @@ competing explanations for the origins, course, and conclusion of the conflict.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Cold War](/history/cold-war/):** Cold War geopolitics shaped the 20th century
@@ -108813,9 +108395,6 @@ democracies to survive and the factors that contribute to their downfall.
 Democracy is like a house with many rooms -- economic stability, institutional trust, and leadership are all load-bearing walls. When the economy crumbles (Weimar hyperinflation, the Great Depression), the other walls must hold. The USA survived because its constitutional framework, democratic traditions, and Roosevelt's leadership provided redundancy. Weimar failed because its proportional representation fragmented parliament while Article 48 gave the executive authoritarian powers, creating a structural trap. Spain lacked the democratic traditions and middle-class consensus needed to absorb shocks. The key insight is that democracy is not a default state -- it requires active maintenance through institutions, leadership, and economic foundations.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -110311,9 +109890,6 @@ Historical methodology is like being a detective at a crime scene: every source 
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ---
 
 ## History
@@ -110935,18 +110511,11 @@ Essays.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 Studying history is like assembling a jigsaw puzzle where the picture on the box keeps changing. Each historian brings a different frame -- Marxist, revisionist, post-revisionist -- that highlights certain pieces and obscures others. The comparative method is your magnifying glass: it lets you see patterns across cases that invisible within a single study. When you compare Mao's China with Hitler's Germany, you are not just listing similarities; you are testing whether the mechanisms of authoritarian power follow common logic or diverge because of culture, ideology, and circumstance. The strongest historical arguments weigh evidence like a scale, not a hammer.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -111272,10 +110841,7 @@ This section provides study materials and resources for history. If History feel
 - [The Cold War](/history/the-cold-war/)
 - [The Move To Global War](/history/the-move-to-global-war/)
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -111286,11 +110852,7 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 Keep practising and reviewing to master this topic.
 
@@ -111905,14 +111467,7 @@ Planning notes:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -112970,9 +112525,6 @@ Civil rights movements are like rivers carving through rock -- they appear sudde
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [History](./)
@@ -113639,14 +113191,7 @@ Civil wars are the most destructive form of conflict because they pit citizens a
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -115125,18 +114670,11 @@ his reforms.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 The Cold War was like two chess grandmasters locked in a game where neither could afford to lose -- Mutually Assured Destruction turned the nuclear arsenal into the world's most expensive peacekeeping force. The paradox is that the weapons designed to destroy civilisation prevented the war that would have destroyed it. Understanding the Cold War requires thinking in systems: the arms race was not a series of independent decisions but a feedback loop where each side's actions provoked reactions that both sides had anticipated but could not prevent. Détente emerged when both players recognised that the game itself was becoming unwinnable.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -116388,18 +115926,11 @@ Court), are the direct institutional descendants of Nuremberg.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 The road to World War II is like watching a series of dominoes fall in slow motion -- each concession to aggression (Rhineland, Anschluss, Munich) emboldened the next, while the League of Nations proved to be a paper tiger whose bark was worse than its bite. The key pattern is that economic crisis (the Great Depression) created the political conditions (extremism, nationalism) that made aggressive foreign policy popular. Appeasement was not directly cowardice -- it was a rational calculation by leaders who remembered the slaughter of 1914-1918 and desperately wanted to avoid repeating it. The tragedy is that their reasonable fears produced catastrophically wrong conclusions.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 
@@ -117129,9 +116660,6 @@ $= \frac{40}{27} + \frac{40}{27} + 3 = \frac{80}{27} + 3 = \frac{161}{27} \appro
 | **Total**                  | **15**    | **63**      |                  |
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -120910,8 +120438,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## See Also
 
 - [Diagnostics](./)
@@ -121699,8 +121225,6 @@ This page includes:
 
 ## Exam Preparation
 
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
-
 ## See Also
 
 - [Diagnostics](./)
@@ -121922,8 +121446,6 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 
@@ -122952,14 +122474,7 @@ the Coverage Map (Section 7).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -126086,8 +125601,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ---
 
 ## Integration
@@ -127047,10 +126560,6 @@ Integration is accumulation. When you integrate a velocity function, you are add
 6. Cancelling terms instead of factors, $\frac{ab + ac}{a}$ simplifies to $b + c$, not $bc$.
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 
@@ -129005,9 +128514,6 @@ theorems, methods, and problem-solving approaches.
 - differential equations
 - applications to kinematics
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ---
 
 ## Cross-References
@@ -129885,14 +129391,7 @@ The fourth and seventh columns are identical, confirming equivalence.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -130866,14 +130365,7 @@ Mathematics is the science of patterns. Algebra captures relationships between q
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -133373,13 +132865,7 @@ key theorems, methods, and problem-solving approaches.
 - partial fractions
 - binomial expansion
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -142924,14 +142410,7 @@ If you get this wrong, revise: Separable differential equations (HL, Topic 5).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -143902,9 +143381,6 @@ theorems, methods, and problem-solving approaches.
 - the sine and cosine rules
 - radian measure and arc length
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Intuition
 
 Trigonometry is the mathematics of rotation and waves. The unit circle is a clock face where every angle maps to a point: sine is the height, cosine is the horizontal distance. Think of sine and cosine as two dancers moving in sync -- when one is at maximum, the other is at zero, and they smoothly trade places. The Pythagorean identity is just the unit circle equation x-squared plus y-squared equals one wearing different clothes. Compound angle formulas tell you what happens when you rotate by two angles in sequence -- like adding two turns on a steering wheel. The sine and cosine rules are the generalisations of Pythagoras for triangles that lack a right angle.
@@ -144737,9 +144213,6 @@ theorems, methods, and problem-solving approaches.
 - proof and geometric reasoning
 - equations of curves
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
 
 | Topic     | Site    | Link                                                                                           |
@@ -144748,9 +144221,6 @@ applying these mathematical techniques.
 | [Vectors] | IB      | [View](https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors/)             |
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## See Also
 
@@ -145073,14 +144543,7 @@ Understanding the assessment structure is like knowing the rules of a game befor
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -145888,9 +145351,6 @@ within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Atomic and
 Nuclear Physics with other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Intuition
 
@@ -153600,14 +153060,7 @@ prioritise revision over extension work.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -154537,9 +153990,6 @@ self-marking and building a personal test matrix.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Space Time And Motion](./)
@@ -155364,9 +154814,6 @@ questions within the IB specification for this topic, each with a full worked so
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Electric
 and Magnetic Fields with other physics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Summary
 
 This topic covers the fundamental principles of electric and magnetic fields, including the key
@@ -155394,9 +154841,6 @@ and past paper questions, is essential for success in examinations.
 | [Magnetic Fields] | DSE     | [View](https://dse.wyattau.com/physics/3-electricity-and-magnetism/2_electricity-and-magnetism/) |
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -156237,9 +155681,6 @@ the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Energy and
 Conservation with other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Common Pitfalls
 
@@ -157436,9 +156877,6 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Space Time And Motion](./)
@@ -158330,9 +157768,6 @@ questions within the IB specification for this topic, each with a full worked so
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Gravitational Fields with other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Summary
 
@@ -160659,9 +160094,6 @@ within the IB specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Kinematics
 with other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Common Pitfalls
 
@@ -163128,9 +162560,6 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [Atomic Structure and Periodicity](/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity/) -- Quantum physics and atomic models connect to the particulate nature of matter in chemistry.
@@ -164841,10 +164270,6 @@ Approximately $3.2\,\mathrm{kg}$ of $^{235}\mathrm{U}$ is consumed per day.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
@@ -165869,9 +165294,6 @@ questions within the IB specification for this topic, each with a full worked so
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Rotational
 Motion with other physics topics to test synthesis under exam conditions.
-
-See for instructions on
-self-marking and building a personal test matrix.
 
 ## Common Pitfalls
 
@@ -167100,14 +166522,7 @@ The IB Physics syllabus is a map of the physical world organized into five terri
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -168020,9 +167435,6 @@ within the IB specification for this topic, each with a full worked solution.
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Thermodynamics with other physics topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Summary
 
 This topic covers the fundamental principles of thermodynamics, including the key equations,
@@ -168052,9 +167464,6 @@ and past paper questions, is essential for success in examinations.
 | [Thermodynamics]  | University | [View](https://physics.wyattau.com/) |
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -168694,14 +168103,7 @@ Wave phenomena reveal the wave nature of light and sound. Diffraction gratings p
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -169568,9 +168970,6 @@ Wave properties describe how disturbances travel through space. The fundamental 
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ---
 
 ## Common Mistakes
@@ -170161,14 +169560,7 @@ Thermal physics connects microscopic molecular motion to macroscopic temperature
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -170823,14 +170215,7 @@ Waves carry energy without carrying matter, like a stadium wave where people sta
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -171453,14 +170838,7 @@ Diffraction is observable.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -171690,14 +171068,7 @@ and improves your ability to tackle synoptic questions.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -172930,14 +172301,7 @@ For an overview of developmental topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -173222,14 +172586,7 @@ For an overview of abnormal psychology topics, see [Abnormal Psychology](/psycho
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -173622,14 +172979,7 @@ For an overview of developmental topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -174162,14 +173512,7 @@ For an overview of biological topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -174482,14 +173825,7 @@ For an overview of developmental topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -174954,14 +174290,7 @@ For an overview of sociocultural topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -175247,14 +174576,7 @@ For an overview of abnormal psychology topics, see [Abnormal Psychology](/psycho
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -176164,14 +175486,7 @@ For an overview of biological topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -176840,14 +176155,7 @@ For an overview of cognitive topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -177184,14 +176492,7 @@ For an overview of cognitive topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -177569,14 +176870,7 @@ For an overview of these topics at the biological level of analysis, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -178083,14 +177377,7 @@ For an overview of sociocultural topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -178245,14 +177532,7 @@ The following pages are available:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -178631,14 +177911,7 @@ Qualitative research reports include the following sections:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -179084,14 +178357,7 @@ Association (APA). Key conventions include:
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -179388,14 +178654,7 @@ For an overview of sociocultural topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 
@@ -179899,14 +179158,7 @@ For an overview of cognitive topics, see
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 
@@ -180223,14 +179475,7 @@ For an overview of abnormal psychology topics, see [Abnormal Psychology](/psycho
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

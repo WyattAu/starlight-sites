@@ -55,7 +55,6 @@ graph TD
     W --> L[Light]
 ```
 
-
 ## Contents
 
 1. [Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)
@@ -95,8 +94,6 @@ University-level electromagnetism notes covering Maxwell's equations, electrodyn
 Start with Maxwell's equations to understand the foundations, then progress to electrodynamics and relativity. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 

@@ -905,13 +905,7 @@ including key theorems, methods, and problem-solving approaches.
 - the sine and cosine rules
 - radian measure and arc length
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Intuition
 

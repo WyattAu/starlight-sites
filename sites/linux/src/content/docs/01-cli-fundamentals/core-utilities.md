@@ -903,17 +903,11 @@ implementation, and key applications.
 - error handling and debugging
 - modular design
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Core utilities are the Swiss Army knife of Linux -- ls lists files like a directory reader, cp copies files like a photocopier, mv moves files like a filing clerk, rm deletes files like a shredder, and chmod changes permissions like a security manager. The power comes from combining them: ls | grep '.txt' | wc -l counts text files by piping the directory listing through a filter and counting the results. Understanding the core utilities is like learning the alphabet -- once you know the letters, you can write anything. The GNU extensions add extra features, but the POSIX basics are universal.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Cross-References
 

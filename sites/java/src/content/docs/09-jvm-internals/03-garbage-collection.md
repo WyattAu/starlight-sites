@@ -826,9 +826,6 @@ Garbage collection is the JVM's automatic memory manager. It traces from GC root
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Java notes.

@@ -401,9 +401,6 @@ structure before proceeding.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 Chemistry connects the invisible world of atoms and electrons to the tangible world we experience every day. When a metal rusts, a battery powers a phone, or food is digested, chemical reactions are at work. The key to understanding chemistry is thinking at the level of particles: atoms gain or lose electrons to form ions, share electrons to form covalent bonds, and rearrange those bonds during reactions. Every chemical change is, at its core, about making and breaking bonds --- and the energy stored in those bonds determines whether a reaction releases heat (exothermic) or absorbs it (endothermic).

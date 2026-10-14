@@ -1031,9 +1031,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Electrochemistry with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Intuition
 
 **Electrochemistry is like a conversation between electricity and chemistry, electrons flowing to create or consume reactions.**

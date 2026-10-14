@@ -56,7 +56,6 @@ graph TD
     W --> P[Polarization]
 ```
 
-
 ## Contents
 
 1. [The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)
@@ -106,8 +105,6 @@ University-level optics and wave physics notes covering interference, diffractio
 Start with the wave equation to build foundational knowledge, then progress to interference and diffraction. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 

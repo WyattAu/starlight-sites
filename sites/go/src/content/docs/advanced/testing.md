@@ -395,9 +395,6 @@ fi
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 Go's testing framework is built into the toolchain -- test files are just regular Go files with a _test.go suffix that the compiler excludes from production builds. Table-driven tests are the idiomatic pattern: define a slice of test cases and iterate with t.Run for named subtests. Interfaces enable mocking -- design code around interfaces so tests can swap real implementations for fakes. Benchmarks measure performance by running code repeatedly until timing stabilizes. Fuzzing automatically generates random inputs to find edge cases that cause panics. The key principle is test behavior, not implementation details, so tests remain useful even when you refactor internal code.

@@ -489,9 +489,6 @@ Democracy is like a house with many rooms -- economic stability, institutional t
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Cold War](/history/cold-war/):** Cold War geopolitics shaped the 20th century

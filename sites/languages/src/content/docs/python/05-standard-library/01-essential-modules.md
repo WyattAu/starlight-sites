@@ -1130,10 +1130,6 @@ For more complex date arithmetic (business days, holidays, recurrence rules), th
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 Python's standard library is a Swiss Army knife that comes pre-installed. The `os` and `sys` modules are your operating system遥控器, letting you interact with files, processes, and environment variables. `pathlib` is a modern replacement that treats file paths as objects with methods rather than strings to concatenate, the way you would use a GPS address instead of reading a paper map. `collections` provides specialized containers that are faster or more appropriate than plain lists and dicts for specific tasks, like using a screwdriver instead of a hammer when the job calls for precision.

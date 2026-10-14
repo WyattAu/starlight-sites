@@ -921,9 +921,6 @@ The Java type system reflects a series of deliberate tradeoffs:
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 Java's type system is built on two pillars: primitives for speed and objects for abstraction. Primitives are the raw bit patterns that live on the stack -- they are fast but cannot participate in generics or be null. Wrapper classes like Integer and Double bridge this gap by packaging primitives as heap objects, enabling them to work with collections and generics at the cost of allocation overhead. Autoboxing automates this conversion, but it hides the performance penalty and can cause subtle bugs like NPEs from unboxing nulls. The string pool deduplicates immutable strings, and the JVM's type erasure means generic type information exists only at compile time, not runtime.

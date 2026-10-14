@@ -1443,10 +1443,6 @@ better on liveability indicators.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [Supply-Side Policy](/economics/macro/05-supply-side-policy/) -- Supply-side policies aim to shift LRAS, directly affecting the potential output measured by GDP.

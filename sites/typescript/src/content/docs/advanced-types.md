@@ -1052,9 +1052,6 @@ abstractions.
 - Utility type patterns: state machine types, AST visitor pattern, and type-safe pub/sub with
   wildcard handlers.
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
 
 - [Generics](/generics/) - How generic constraints and type parameters compose with advanced type operators

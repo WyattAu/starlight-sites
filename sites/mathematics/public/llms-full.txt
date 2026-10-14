@@ -1973,8 +1973,6 @@ Start with groups to build foundational knowledge, then progress to rings and fi
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -4344,8 +4342,6 @@ University-level measure theory notes covering sigma-algebras, measures, and Leb
 Start with sigma-algebras and measures to build foundational knowledge, then progress to Lebesgue integration and Lp spaces. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -6982,8 +6978,6 @@ Start with normed spaces to build foundational knowledge, then progress to Hilbe
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -8970,8 +8964,6 @@ University-level differential geometry notes covering manifolds, forms, and Riem
 Start with smooth manifolds to build foundational knowledge, then progress to differential forms and Riemannian geometry. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -12258,8 +12250,6 @@ University-level linear algebra notes covering vector spaces, matrices, and deco
 Start with vector spaces to build foundational knowledge, then progress to matrices and decompositions. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -16281,8 +16271,6 @@ Start with the real number system to build foundational knowledge, then progress
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -19278,8 +19266,6 @@ University-level multivariable calculus notes covering partial derivatives, vect
 Start with partial derivatives to build foundational knowledge, then progress to vector calculus and optimisation. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -22585,8 +22571,6 @@ University-level differential equations notes covering ODEs, Laplace transforms,
 Start with first-order ODEs to build foundational knowledge, then progress to second-order and systems. Each section includes worked examples and practice problems. The key is to learn to classify ODEs and identify the appropriate solution method.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -27364,8 +27348,6 @@ Start with complex numbers review to build foundational knowledge, then progress
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -30633,8 +30615,6 @@ University-level probability theory notes covering probability spaces, random va
 Start with probability spaces to build foundational knowledge, then progress to random variables and limit theorems. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -35665,8 +35645,6 @@ Start with topological spaces to build foundational knowledge, then progress to 
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -36816,7 +36794,6 @@ graph TD
     C --> D[Integration]
 ```
 
-
 Wyatt's Notes provides comprehensive study materials for university-level mathematics. These notes cover linear algebra, calculus, differential equations, abstract algebra, and more, building from foundational concepts to advanced mathematical theory.
 
 ### Why Trust These Resources?
@@ -36860,8 +36837,6 @@ This site provides comprehensive study materials covering:
 - Statistics
 - Number theory
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -36886,8 +36861,6 @@ high school mathematics, mathematical maturity
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -36905,18 +36878,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Mathematics](./)
 - [abstract algebra](/abstract-algebra/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -36925,8 +36891,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -43391,10 +43355,7 @@ Mathematics is the foundation of all quantitative disciplines. These notes provi
 
 **Treating definitions as interchangeable across fields:** The word "normal" means different things in group theory (normal subgroups), linear algebra (normal matrices), and topology (normal spaces). Always check which definition applies in the current context, they are not the same concept wearing different hats.
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -43404,8 +43365,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ---
 
@@ -43500,18 +43459,11 @@ The interconnectedness of mathematical subjects is not a coincidence, it reflect
 
 The proof techniques themselves are not arbitrary logical exercises. Direct proof builds a chain from assumptions to conclusion. Proof by contradiction exploits the fact that if a statement isn't true, assuming it's true must create a logical impossibility. Induction captures the idea that if something holds for a base case and each step preserves it, it holds for all natural numbers. Each technique is a tool for attacking a different kind of problem, and learning to recognise which technique to reach for is the core skill of mathematical reasoning.
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -43520,8 +43472,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -49099,8 +49049,6 @@ University-level mathematics notes covering analysis, algebra, and geometry.
 Start with the foundational subjects (real analysis, linear algebra) to build the necessary background, then progress to more advanced topics. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -55866,7 +55814,6 @@ URL: https://mathematics.wyattau.com/demos/
 sources:
   - text: Spivak - Calculus
 
-
 This section covers essential mathematical techniques and theories. If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Demos
@@ -55999,8 +55946,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ### Functions and Their Behaviour
 
 A function $f: A \to B$ assigns to each element of a set $A$ (the domain) exactly one element of a set $B$ (the codomain). Functions are the fundamental objects of calculus and analysis. Key properties include:
@@ -56042,17 +55987,12 @@ Linear algebra studies vector spaces and linear maps between them. Core concepts
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 - *Calculus* by Michael Spivak, A rigorous treatment of single-variable calculus with excellent exercises
 - *Linear Algebra Done Right* by Sheldon Axler, A modern approach to linear algebra emphasising conceptual understanding
 - *Visual Complex Analysis* by Tristan Needham, Demonstrates the power of visualisation in complex analysis
 - *Interactive Linear Algebra* by Dan Margalit and Joseph Rabinoff, Free online textbook with interactive demos
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -56062,8 +56002,6 @@ This section provides comprehensive study materials and resources. Content is or
 - Cross-references to related topics
 
 ## Study Tips
-
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
 
 ---
 

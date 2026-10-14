@@ -1159,9 +1159,6 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Type hints in Python are like labeling boxes in a warehouse: they do not change what is inside, but they help you find things faster and notice when someone puts the wrong item in the wrong box. The `@overload` decorator is like having multiple different instruction manuals for the same machine, each describing what happens when you feed it a different material. Generics are templates that let you write one function that works for many types, the same way a cookie cutter makes the same shape regardless of which dough you use. Type guards are bouncers at a nightclub door, checking IDs and letting only the right types past.

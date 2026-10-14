@@ -890,9 +890,6 @@ no redundancy) or under-normalising (leaving transitive dependencies that cause 
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 <Citations sources={[
   {title="Database System Concepts", author="Silberschatz, Korth and Sudarshan", year="2019", type="book"},
   {title="An Introduction to Database Systems", author="Date", year="2003", type="book"},

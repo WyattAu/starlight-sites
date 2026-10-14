@@ -1879,9 +1879,6 @@ within the A-Level specification for this topic, each with a full worked solutio
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Ecology
 with other biology topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## 33. Trophic Levels and Feeding Relationships
 
 ### 33.1 Food Chains and Food Webs

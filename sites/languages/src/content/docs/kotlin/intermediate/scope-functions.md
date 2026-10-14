@@ -378,9 +378,6 @@ Scope functions let you execute a block of code within the context of an object,
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Intermediate](./)

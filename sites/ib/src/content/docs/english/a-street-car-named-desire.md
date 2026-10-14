@@ -517,5 +517,3 @@ Blanche can wash but she cannot wash away the past.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

@@ -9,7 +9,6 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: Standard textbook reference
 
-
 This section provides study materials and resources for diagnostics. If Diagnostics | AP Mathematics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Diagnostics
@@ -61,8 +60,6 @@ Use the cross-references to link related concepts across subjects where applicab
 - Retake the diagnostic after targeted study to measure improvement
 
 ## Key Concepts
-
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
 
 ### Limits and Continuity
 
@@ -327,17 +324,12 @@ where $C' = 2C$. This is the equation of a hyperbola (for $C' \neq 0$) or a pair
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 - *Calculus: Early Transcendentals* by James Stewart, The standard AP Calculus textbook
 - *Thomas' Calculus*, Another excellent comprehensive calculus textbook
 - *AP Calculus Premium* by Barron's, Exam preparation with practice tests
 - *The Calculus Lifesaver* by Adrian Banner, Accessible supplementary guide with worked examples
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -348,4 +340,3 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

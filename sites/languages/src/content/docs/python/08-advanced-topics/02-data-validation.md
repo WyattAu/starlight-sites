@@ -1133,17 +1133,11 @@ implementation, and key applications.
 - transaction processing (ACID)
 - NoSQL and distributed databases
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Data validation is the bouncer at the door of your application, checking every piece of data that tries to enter. Without it, you are letting strangers walk into your house and rearrange your furniture. The garbage-in-garbage-out principle means that if you feed a program bad data, it will produce bad results with perfect confidence. Pydantic models are like molds: pour data in, and if it does not fit the shape, it gets rejected immediately with a clear error message rather than silently corrupting your system three layers deeper.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ---
 

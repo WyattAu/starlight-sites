@@ -391,9 +391,6 @@ file.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for licensing notes.
@@ -401,15 +398,9 @@ linked above.
 
 ## Detailed Explanation
 
-This topic covers the fundamental principles and applications in depth.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems.
 
 ### Common Mistakes
 
@@ -422,8 +413,6 @@ Worked examples demonstrate how to apply the concepts to solve problems.
 Consult the recommended textbooks and additional resources.
 
 ## Summary
-
-This topic provides comprehensive coverage of the subject matter.
 
 ### Key Takeaways
 
@@ -456,6 +445,4 @@ This topic provides comprehensive coverage of the subject matter.
 - Connect with other licensing topics for a complete understanding
 
 ## Summary
-
-Review the key concepts and practice regularly to master this topic.
 

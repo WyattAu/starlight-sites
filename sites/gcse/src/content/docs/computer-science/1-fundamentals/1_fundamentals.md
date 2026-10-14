@@ -812,9 +812,6 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Cross-References
 
 - [Algebra](/maths/2-algebra/2_algebra/) -- Binary and hexadecimal number systems require understanding of base conversion and place value.

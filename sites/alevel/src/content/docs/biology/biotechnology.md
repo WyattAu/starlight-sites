@@ -2349,10 +2349,6 @@ vitamin A) in the endosperm of the rice grain. It was developed to address vitam
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [Genetics and DNA](/biology/genetics-and-dna/) -- Understanding DNA structure and replication is essential for grasping how restriction enzymes and vectors work in recombinant DNA technology.

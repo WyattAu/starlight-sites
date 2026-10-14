@@ -54,6 +54,7 @@ run 'forward references'      node scripts/lint-forward-refs.js
 run 'cross-site links'        node scripts/lint-cross-site-links.js --advisory
 run 'cross-site docs prefix'  python3 scripts/fix-cross-site-docs-prefix.py --check
 run 'template filler'         python3 scripts/fix-filler-content.py --check
+run 'generic boilerplate'    python3 scripts/fix-generic-boilerplate.py --check
 run 'shared-asset integrity'  node scripts/sync-shared.mjs --check
 
 echo

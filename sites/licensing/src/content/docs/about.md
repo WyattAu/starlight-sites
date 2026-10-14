@@ -51,8 +51,6 @@ This site provides comprehensive study materials covering:
 - Open source
 - Compliance
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -77,8 +75,6 @@ none
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -96,18 +92,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Licensing](/intro/)
 - [Open Source Licenses](/osi-licenses/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -117,19 +106,11 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 ## Detailed Explanation
-
-This topic covers the fundamental principles and applications in depth.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems.
 
 ### Common Mistakes
 
@@ -141,10 +122,7 @@ Worked examples demonstrate how to apply the concepts to solve problems.
 
 Consult the recommended textbooks and additional resources.
 
-
 ## Summary
-
-This topic provides comprehensive coverage of the subject matter.
 
 ### Key Takeaways
 
@@ -158,13 +136,11 @@ This topic provides comprehensive coverage of the subject matter.
 2. Complete the practice problems
 3. Explore related topics in other sections
 
-
 ## Practice Tips
 
 - Review this material regularly
 - Apply concepts to real scenarios
 - Connect with related topics
-
 
 ## Key Points
 
@@ -172,15 +148,11 @@ This topic provides comprehensive coverage of the subject matter.
 - Apply concepts to real scenarios
 - Connect with related topics
 
-
 ## Final Notes
 
 - Understanding this topic is important for software licensing
 - Review the key concepts and practice regularly
 - Connect with other licensing topics for a complete understanding
 
-
 ## Summary
-
-Review the key concepts and practice regularly to master this topic.
 

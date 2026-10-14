@@ -1256,9 +1256,6 @@ and evaluate experimental evidence critically.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Nervous System And Immunology](./)

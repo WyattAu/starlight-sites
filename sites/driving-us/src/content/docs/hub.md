@@ -292,15 +292,9 @@ You can retake the test after a waiting period, typically 1 to 7 days depending 
 
 ## Detailed Explanation
 
-This topic covers the fundamental principles and applications in depth.
-
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems.
 
 ### Common Mistakes
 
@@ -313,8 +307,6 @@ Worked examples demonstrate how to apply the concepts to solve problems.
 Consult the recommended textbooks and additional resources.
 
 ## Summary
-
-This topic provides comprehensive coverage of the subject matter.
 
 ### Key Takeaways
 
@@ -347,8 +339,6 @@ This topic provides comprehensive coverage of the subject matter.
 - Connect with other driving topics for a complete understanding
 
 ## Summary
-
-Review the key concepts and practice regularly to master this topic.
 
 ## State Guides
 

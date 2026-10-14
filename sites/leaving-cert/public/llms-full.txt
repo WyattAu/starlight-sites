@@ -49,18 +49,11 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 - [ILC Flashcards: Biology](/flashcards-biology/)
 - [ILC Flashcards: Chemistry](/flashcards-chemistry/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -69,8 +62,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -1050,18 +1041,11 @@ Through past papers under timed conditions is one of the most effective preparat
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 The Irish Leaving Certificate is like the final exam of a two-year apprenticeship in learning itself -- it tests not just what you know but how well you can think under pressure. The SEC system values precision (in maths and science) and expression (in English and history) equally. Understanding the marking schemes is as important as understanding the content: knowing what the examiner rewards (showing working, using specific evidence, addressing the question) can mean the difference between grades. The most successful students treat the Leaving Cert as a skill to be practised, not just knowledge to be memorised.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -2222,14 +2206,7 @@ and starch, volume, pH).
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -4996,14 +4973,7 @@ most recent SEC documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -5047,8 +5017,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -9013,14 +8981,7 @@ expected properties. The element has not yet been synthesised, so the claim rema
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -9483,14 +9444,7 @@ most recent SEC documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -9534,8 +9488,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -13660,14 +13612,7 @@ HDDs remain useful for large-capacity storage where speed is less critical.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -14540,9 +14485,6 @@ implementation, and key applications.
 - operating systems and scheduling
 - interrupts and polling
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -15006,18 +14948,11 @@ most recent SEC documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Intuition
 
 Leaving Certificate Computer Science bridges the gap between theoretical understanding and practical application -- you must understand how computers work (hardware), how to instruct them (programming), how to store data (databases), how to connect them (networking), and how to think systematically (computational thinking). The course rewards both memorisation of key concepts and the ability to apply them in unfamiliar contexts. The practical programming project is where theory meets reality: it tests whether you can design, implement, and evaluate a software solution to a real problem.
 
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -15061,8 +14996,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -16732,9 +16665,6 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -18335,9 +18265,6 @@ theorems, methods, and problem-solving approaches.
 - differential equations
 - applications to kinematics
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## See Also
 
 - [Calculus](./)
@@ -18705,14 +18632,7 @@ Perimeter $= 2(13 + 5) = 2(18) = 36\,\text{cm}$.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -19598,14 +19518,7 @@ most recent SEC documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -19649,8 +19562,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -20480,9 +20391,6 @@ including key theorems, methods, and problem-solving approaches.
 - recurrence relations
 - convergence tests
 - mathematical induction
-
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
 
 ## See Also
 
@@ -21322,9 +21230,6 @@ including key theorems, methods, and problem-solving approaches.
 - correlation and regression
 - sampling methods
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## See Also
 
 - [Probability Statistics](./)
@@ -21714,14 +21619,7 @@ being more favourable for massive objects.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -21760,8 +21658,6 @@ Syllabus.
 ## Electric Charge and Current
 
 <PhetSimulation client:only="solid-js" simulationId="circuit-construction-kit-dc" title="Circuit Construction Kit: DC"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Electric Charge (OL/HL)
 
@@ -23977,14 +23873,7 @@ most recent SEC documentation for definitive syllabus and assessment requirement
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
 
 ## Common Pitfalls
 
@@ -24028,8 +23917,6 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
-
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
 ## Overview
 
@@ -24189,8 +24076,6 @@ A projectile moves under the influence of gravity alone (ignoring air resistance
 Motion into horizontal and vertical components.
 
 <PhetSimulation client:only="solid-js" simulationId="forces-and-motion-basics" title="Forces and Motion: Basics"  />
-
-Explore the simulation above to develop intuition for this topic.
 
 ### Key Principles
 

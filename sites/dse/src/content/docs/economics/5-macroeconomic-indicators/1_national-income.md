@@ -1802,9 +1802,6 @@ success in this subject.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [Money and Banking](/economics/8-money-and-banking/1_money-and-banking/) -- Money supply and banking systems directly affect the macroeconomic indicators measured here.

@@ -382,9 +382,6 @@ code. Practice each function with realistic examples to build fluency.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [Intermediate](./)

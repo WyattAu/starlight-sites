@@ -38,7 +38,6 @@ sources:
 - [Diag Trigonometry](/maths/diagnostics/diag-trigonometry/)
 - [Diag Vectors](/maths/diagnostics/diag-vectors/)
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
@@ -52,4 +51,3 @@ This section provides comprehensive study materials and resources. Work through 
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

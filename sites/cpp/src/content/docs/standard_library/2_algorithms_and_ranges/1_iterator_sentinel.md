@@ -621,14 +621,9 @@ practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-Understanding these concepts thoroughly is essential for both examinations and practical
-programming, and requires both theoretical knowledge and hands-on practice.
-
 ## Intuition
 
 Iterators are the reading heads of a tape player: they point to one element at a time and can move forward, backward, or jump to a position. Sentinels mark the end of the tape, telling the algorithm when to stop. The key insight is that iterators decouple algorithms from containers: the same `std::sort` works on vectors, arrays, and even custom data structures, the way the same key can open different locks if they share the same mechanism.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

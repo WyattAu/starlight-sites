@@ -9,7 +9,6 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: Spivak - Calculus
 
-
 This section covers essential mathematical techniques and theories. If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Demos
@@ -142,8 +141,6 @@ Use the cross-references to link related concepts across subjects where applicab
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ### Functions and Their Behaviour
 
 A function $f: A \to B$ assigns to each element of a set $A$ (the domain) exactly one element of a set $B$ (the codomain). Functions are the fundamental objects of calculus and analysis. Key properties include:
@@ -185,17 +182,12 @@ Linear algebra studies vector spaces and linear maps between them. Core concepts
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 - *Calculus* by Michael Spivak, A rigorous treatment of single-variable calculus with excellent exercises
 - *Linear Algebra Done Right* by Sheldon Axler, A modern approach to linear algebra emphasising conceptual understanding
 - *Visual Complex Analysis* by Tristan Needham, Demonstrates the power of visualisation in complex analysis
 - *Interactive Linear Algebra* by Dan Margalit and Joseph Rabinoff, Free online textbook with interactive demos
 
-
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -206,4 +198,3 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

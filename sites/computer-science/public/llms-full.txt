@@ -2355,8 +2355,6 @@ Start with complexity analysis to build foundational knowledge, then progress to
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -3648,8 +3646,6 @@ University-level discrete mathematics notes covering logic, sets, proofs, combin
 Start with logic and proofs to build foundational reasoning skills, then progress to combinatorics and graph theory. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -11117,8 +11113,6 @@ Start with algorithm analysis to understand complexity, then progress to data st
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -13033,8 +13027,6 @@ University-level computer systems notes covering operating systems, architecture
 Start with operating systems fundamentals, then progress to architecture and networking. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -16815,8 +16807,6 @@ Start with network models to understand the layered approach, then progress to e
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -20421,8 +20411,6 @@ Start with automata theory to build foundational knowledge, then progress to com
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -23614,8 +23602,6 @@ A recommended study path is:
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -26659,8 +26645,6 @@ University-level operating systems notes covering processes, memory, file system
 Start with process management to understand the foundational concepts, then progress to memory and file systems. Each section includes worked examples and practice problems.
 
 ## Navigation
-
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
 
 ## Additional Resources
 
@@ -31604,8 +31588,6 @@ Start with automata theory to build foundational knowledge, then progress to com
 
 ## Navigation
 
-Use the sidebar to browse topics, or start with the introductory pages linked from the sidebar.
-
 ## Additional Resources
 
 Each section includes:
@@ -32692,7 +32674,6 @@ graph TD
     B --> C[Solution]
 ```
 
-
 Wyatt's Notes provides comprehensive study materials for computer science theory. These notes cover algorithms, data structures, computational complexity, formal languages, and discrete mathematics, building the theoretical foundation essential for computer scientists.
 
 ### Why Trust These Resources?
@@ -32735,8 +32716,6 @@ This site provides comprehensive study materials covering:
 - Networks
 - Theory of computation
 
-Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
-
 ## How to Use These Notes
 
 1. **Start with fundamentals**, begin with the core topics before moving to advanced material
@@ -32761,8 +32740,6 @@ programming experience, discrete mathematics
 
 ## About Wyatt's Notes
 
-Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
-
 ## Related Sites
 
 - **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
@@ -32780,18 +32757,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - [Computing](./)
 - [Algorithms and Data Structures](/algorithms-and-data-structures/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -32800,8 +32770,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 
@@ -44089,15 +44057,11 @@ import { practiceQuestions } from '@/data/flashcards/computing/practice-discrete
 
 ### Logic and Proofs
 
-
 ### Sets and Functions
-
 
 ### Graph Theory and Algorithms
 
-
 ### Complexity and Recurrences
-
 
 ## Common Mistakes
 
@@ -44129,18 +44093,11 @@ import { practiceQuestions } from '@/data/flashcards/computing/practice-discrete
 - [Computing](./)
 - [Discrete Mathematics](/discrete-mathematics/)
 
-
 ## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -44149,8 +44106,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 - Failing to connect concepts across topics
 
 ### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ---
 

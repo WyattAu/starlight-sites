@@ -794,9 +794,6 @@ including key theorems, methods, and problem-solving approaches.
 - problem-solving strategies
 - applications and modelling
 
-Regular practice with a variety of question types is essential to build fluency and confidence in
-applying these mathematical techniques.
-
 ## Cross-References
 
 - [Algebra and Functions](/maths/1-algebra-functions/1_algebra-functions/) -- Vector operations use algebraic techniques including dot product and cross product.

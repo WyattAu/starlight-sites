@@ -60,7 +60,6 @@ Complete preparation for civics and citizenship tests across countries.
 - [Us Citizenship](./us-citizenship)
 - [About This Site](./about)
 
-
 ## Overview
 
 This section provides comprehensive study materials and resources. Work through the Civics Tests sections in order, starting with Practice and Us Citizenship and building toward Practice and Us Citizenship, then check yourself with the practice problems for each topic.
@@ -74,19 +73,11 @@ This section provides comprehensive study materials and resources. Work through 
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
-
 ## Detailed Explanation
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
 
 ### Core Concepts
 
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
 ### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
 
 ### Common Mistakes
 
@@ -96,15 +87,12 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 ### Further Reading
 
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 ### Study Tips
 
 1. Start with the basics before moving to advanced topics
 2. Practice problems after reading each section
 3. Connect this material to related topics
 4. Review regularly to reinforce learning
-
 
 ## Advanced Topics
 
@@ -128,10 +116,7 @@ Focus on these areas when preparing for assessments and examinations.
 - Consult recommended textbooks
 - Practice with sample questions
 
-
 ## Summary
-
-This topic provides comprehensive coverage of the subject matter.
 
 ### Key Takeaways
 
@@ -144,7 +129,6 @@ This topic provides comprehensive coverage of the subject matter.
 1. Review the worked examples
 2. Complete the practice problems
 3. Explore related topics in other sections
-
 
 Good luck with your studies!
 

@@ -424,9 +424,6 @@ Delegation is the principle of forwarding a responsibility to another object rat
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [Coroutines](https://kotlin.wyattau.com/intermediate/coroutines/), StateFlow and MutableStateFlow use property delegation for reactive state management in coroutine-based architectures.

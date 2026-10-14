@@ -603,5 +603,3 @@ Manual `stop_token` integration as shown above is the recommended approach.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.

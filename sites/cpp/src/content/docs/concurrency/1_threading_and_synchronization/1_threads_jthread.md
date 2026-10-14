@@ -579,9 +579,6 @@ success in history.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Intuition
 
 C++ threads are OS-level execution contexts. `std::thread` spawns a new thread, and `std::jthread` (C++20) adds automatic joining on destruction. Think of threads as workers in a factory: each runs independently but shares the same workspace (memory). The challenge is synchronisation: without locks, concurrent access to shared data causes data races. `std::mutex` is the traffic light that ensures only one thread accesses a critical section at a time. `std::jthread` also supports cooperative cancellation via stop tokens.

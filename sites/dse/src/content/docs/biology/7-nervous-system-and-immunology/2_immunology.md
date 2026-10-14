@@ -878,9 +878,6 @@ antigens, attacking the body's own tissues.
 :::tip
 which covers immune system topics within the DSE specification.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1273,10 +1270,6 @@ which process is being described.
    > > > > > > > Stashed changes:docs/docs_dse/Biology/immunology.md
 
 ## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
 
 ## Worked Examples
 

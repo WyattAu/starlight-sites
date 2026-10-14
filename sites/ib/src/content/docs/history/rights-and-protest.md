@@ -767,9 +767,6 @@ Civil rights movements are like rivers carving through rock -- they appear sudde
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## See Also
 
 - [History](./)

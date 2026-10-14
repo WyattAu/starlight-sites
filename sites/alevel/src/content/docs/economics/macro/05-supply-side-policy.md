@@ -1374,10 +1374,6 @@ imbalances were addressed.
 
 ## Summary
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
 ## Cross-References
 
 - [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/) -- GDP growth and productivity measures are the outcomes that supply-side policies aim to improve.

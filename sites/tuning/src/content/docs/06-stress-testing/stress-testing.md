@@ -1001,9 +1001,6 @@ essential for examination success.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [CPU Fundamentals](/01-cpu-tuning/cpu-fundamentals/) - How CPU architecture affects stress test behavior and thermal limits

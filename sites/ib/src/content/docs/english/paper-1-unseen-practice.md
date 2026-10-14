@@ -734,9 +734,6 @@ demands.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - **[Poetry Analysis](/english/poetry-analysis-guide/):** Literary analysis develops through study

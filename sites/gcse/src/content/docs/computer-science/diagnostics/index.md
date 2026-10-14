@@ -94,8 +94,6 @@ Study your weakest areas using the topic notes, then retake the diagnostic to me
 
 ## Key Concepts
 
-This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
-
 ### Systems Architecture
 
 The **processor** (CPU) is the brain of the computer. It executes instructions stored in memory and performs arithmetic and logic operations. Key concepts include:
@@ -234,16 +232,12 @@ Boolean logic is the mathematics of true and false values. It underpins all digi
 
 ## Further Reading
 
-For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 - *GCSE Computer Science for OCR* by Bob Reeves, Comprehensive textbook aligned to the specification
 - *Computer Science: A Concise Introduction* by David Cohen, Clear explanations of fundamental concepts
 - *Hello World! Computer Programming for Kids and Other Beginners* by Warren and Carter Sande, Accessible introduction to programming
 - CS Unplugged (csunplugged.org), Activities for learning computer science without a computer
 
 ## Overview
-
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
 
 ## Key Topics
 
@@ -254,4 +248,3 @@ This section provides comprehensive study materials and resources. Content is or
 
 ## Study Tips
 
-Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.

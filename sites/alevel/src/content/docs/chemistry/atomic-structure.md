@@ -958,9 +958,6 @@ questions within the A-Level specification for this topic, each with a full work
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine Atomic
 Structure and Periodicity with other chemistry topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ## Common Pitfalls
 
 1. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.

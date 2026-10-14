@@ -1797,9 +1797,6 @@ success in this subject.
 
 ## Worked Examples
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
 ## Cross-References
 
 - [National Income](/economics/5-macroeconomic-indicators/1_national-income/) -- Money supply and banking activity are measured through national income accounting and GDP.

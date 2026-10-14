@@ -150,8 +150,6 @@ Each page in this section includes:
 
 ## Exam Preparation
 
-Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
-
 ## Overview
 
 This landing page provides comprehensive coverage of Maths content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.
@@ -195,8 +193,6 @@ This page includes:
 Mechanics is the art of predicting what happens next when objects push, pull, and collide. Think of it as Newton's detective work: every moving object tells a story through its acceleration, and forces are the motives behind that motion. The SUVAT equations are like a travel timetable for objects under constant acceleration, recording where they started, how fast they are going, and when they will arrive. Energy methods offer a shortcut by asking what changed rather than tracing every step. Forces always come in pairs through action and reaction, which is why a swimmer moves forward by pushing water backward.
 
 ## Exam Preparation
-
-Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
 ## See Also
 

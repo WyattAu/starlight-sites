@@ -1031,9 +1031,6 @@ medulla:
   **Homeostasis\*\*? Review the
   which covers homeostatic topics within the DSE specification.
 
-See for instructions on
-self-marking and building a personal test matrix.
-
 ---
 
 <!-- Breadcrumb Schema for SEO -->

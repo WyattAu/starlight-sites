@@ -9,8 +9,6 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: Standard textbook reference
 
-This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
-
 # TypeScript
 
 TypeScript is a statically-typed superset of JavaScript developed and maintained by Microsoft. It adds optional type annotations, interfaces, generics, and other features to JavaScript, enabling developers to catch errors at compile time rather than at runtime. TypeScript compiles to plain JavaScript, meaning it runs anywhere JavaScript runs: in browsers, on servers (Node.js), and in any JavaScript runtime.
