@@ -5,7 +5,7 @@ title: "Approximation Methods"
 tags:
   - Physics
   - University
-description: "Approximation Methods: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
+description: "Approximation methods in quantum mechanics: time-independent perturbation theory, degenerate perturbation theory and why it is a separate case, the perturbed infinite square well, the variational principle and why its answer is always an upper bound, and the WKB approximation. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -16,6 +16,52 @@ description: "Approximation Methods: comprehensive educational content notes wit
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "8_approximation Methods", "url": "https://physics.wyattau.com/5-quantum-mechanics/8_approximation-methods"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Write the first-order energy correction in non-degenerate perturbation theory.
+- What goes wrong when the unperturbed level is degenerate?
+- What does the variational principle give you, and what does it *not*?
+- What is the WKB validity condition near a turning point?
+- Which of these three methods gives an exact answer, and when?
+
+Check your answers against the text. Prompt 2 is the one that separates a
+procedure from an understanding: degenerate perturbation theory is not
+non-degenerate theory with extra steps, it is a different problem.
+
+## Motivation: almost nothing in quantum mechanics is exactly soluble
+
+Exactly soluble problems form a short list: the square well, the harmonic
+oscillator, the hydrogen atom, and a handful of others. Everything else -- any
+atom with two electrons, any anharmonic oscillator, any real molecule -- has no
+closed-form solution.
+
+So the subject is organised around three ways of getting an answer anyway, and
+they are worth distinguishing because they give *different kinds* of answer:
+
+- **Perturbation theory** assumes the problem is close to one you can solve,
+  and writes the answer as a series in a small parameter. It gives numbers,
+  and it fails when the parameter is not small.
+- **The variational principle** makes a guess and proves the guess is an upper
+  bound on the ground-state energy. It gives a *bound*, always valid, never
+  exact.
+- **WKB** assumes the potential varies slowly compared with the wavelength. It
+  gives the exponential behaviour that dominates tunnelling, and it breaks
+  exactly where the physics is most interesting -- at turning points.
+
+None of these is a lesser version of the others. Perturbation theory is how the
+Lamb shift was predicted; the variational principle is how the ground-state
+energy of helium is bounded to high accuracy; WKB is why tunnelling has an
+exponential law at all.
+
+**Degeneracy is a separate case, not a special case.** In non-degenerate
+theory the first-order correction is $\langle n^{(0)}|\hat{V}|n^{(0)}\rangle$.
+That expression assumes $|n^{(0)}\rangle$ is uniquely determined, and a
+degenerate level has *no* unique choice. The fix is to diagonalise $\hat{V}$
+inside the degenerate subspace first -- which is not a patch on the method but
+the statement that the perturbation chooses which basis the problem wants.
 
 ### 8.1 Time-Independent Perturbation Theory
 
@@ -275,6 +321,80 @@ theory.
 
 Approximation methods tackle quantum problems that cannot be solved exactly. Perturbation theory treats a complicated Hamiltonian as a simple known part plus a small correction, then systematically calculates how the correction shifts energy levels and wavefunctions. The key assumption is that the correction is small compared to the energy spacing of the unperturbed system. The variational method provides an upper bound on the ground state energy by testing trial wavefunctions and minimizing the expectation value. WKB approximates the wavefunction as a locally oscillating function whose wavelength varies with position, working best when the potential changes slowly compared to the wavelength. These methods turn intractable problems into calculable ones.
 :::
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Perturbation theory always converges | no | the series is asymptotic; for most potentials it diverges for *every* nonzero coupling, and is still useful |
+| The variational method gives the ground-state energy | no | it gives an upper bound, and without knowing the exact value you cannot say how far off it is |
+| A good trial wave function needs to be close to the truth | no | the method only cares about the energy expectation; a poor trial function can give a good energy and bad everything else |
+| Degenerate perturbation theory is optional | no | using the non-degenerate formula on a degenerate level divides by zero |
+| WKB gives good wave functions everywhere | no | it fails at turning points, which is precisely where the connection formulae are needed |
+| The variational principle works for excited states | no, not directly | any trial function orthogonal to the exact ground state bounds the first excited state; but you do not know the exact ground state |
+| First-order perturbation theory is always the dominant correction | no | if the matrix element vanishes by symmetry, second order dominates |
+| WKB counts bound states | yes | $\oint p\,dx = 2\pi\hbar(n + \tfrac12)$ reproduces the harmonic oscillator and square-well spectra exactly |
+
+The first row is the one that generalises furthest and surprises people most.
+Asymptotic series get *better* for the first few terms and then diverge, and
+the practical skill is knowing when to stop adding terms.
+
+The last row is worth internalising as a check: the WKB quantisation condition
+reproduces the harmonic oscillator spectrum with no error at all, which is a
+good indication that the method is capturing something structural rather than
+approximating.
+
+## Where the research frontier is
+
+- **Beyond Hartree-Fock.** Coupled cluster and full configuration interaction
+  are the systematic versions of perturbation theory, and their cost grows
+  exponentially with system size.
+- **Density functional theory.** The exact functional exists but is unknown;
+  every practical calculation uses an approximation to it, and improving the
+  functional is an open problem.
+- **Semiclassical methods.** WKB and its modern descendants are used where the
+  potential is smooth and the system is large; the mismatch with quantum
+  behaviour at caustics is the active question.
+- **Tensor networks and quantum computing.** Both are attempts to get
+  many-body answers without the exponential cost, and neither is a replacement
+  for perturbation theory -- they are a different kind of answer.
+- **Renormalisation.** Perturbation theory around an interacting fixed point
+  requires reorganising the expansion, which is what the renormalisation group
+  does; how that interacts with the asymptotic character of the series is the
+  open question.
+
+## Interleaving problems
+
+Mix these with [one-dimensional
+problems](/5-quantum-mechanics/5_one-dimensional-problems/), [angular
+momentum](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/),
+[operators](/5-quantum-mechanics/4_operators-and-observables/), [Real
+Analysis](https://mathematics.wyattau.com/3-real-analysis/3_series/) and
+[Optimisation](https://mathematics.wyattau.com/9-optimisation/1_introduction-to-optimisation/).
+
+1. (Operators.) Derive the first-order energy correction
+   $E_n^{(1)} = \langle n^{(0)}|\hat{V}|n^{(0)}\rangle$ by inserting the
+   perturbation expansion into the Schrodinger equation and matching powers of
+   $\lambda$. Identify the step that requires the level to be non-degenerate.
+2. (Linear algebra.) Show that diagonalising $\hat{V}$ inside a degenerate
+   subspace is the same as diagonalising the perturbation matrix
+   $V_{ij} = \langle i^{(0)}|\hat{V}|j^{(0)}\rangle$, and explain why the
+   resulting basis is the one in which the perturbation is "already diagonal".
+3. (Real analysis.) Show that the perturbation series for the quartic
+   oscillator diverges for every nonzero coupling, by estimating the growth of
+   the coefficients. Then explain in what sense the series is still useful.
+4. (One-dimensional problems.) Apply the variational method to the infinite
+   square well with a trial function $\psi = x(L-x)$ and compare the resulting
+   energy with the exact value. How much of the error comes from the trial
+   function's shape rather than its normalisation?
+5. (WKB.) Derive the WKB quantisation condition
+   $\oint p\,dx = 2\pi\hbar(n + \tfrac12)$ for the harmonic oscillator and
+   confirm it reproduces the exact spectrum. Then explain where the extra
+   $\tfrac12$ comes from.
+6. (Research.) Density functional theory claims that the ground-state density
+   determines everything. State the Hohenberg-Kohn theorem precisely, then
+   explain why it is an existence result rather than a method -- and what the
+   practical gap is.
 
 ## Cross-References
 

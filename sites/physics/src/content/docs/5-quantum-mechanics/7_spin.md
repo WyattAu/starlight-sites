@@ -5,7 +5,7 @@ title: "Spin | Physics - Wyatt's Notes"
 tags:
   - Physics
   - University
-description: 'Spin is an form of angular momentum with no classical analogue. For spin- partic Comprehensive educational content coverage with definitions and practice proble'
+description: "Spin: the spin operators, the Pauli matrices and their properties, deriving them from the commutation relations alone, spin-1/2 in a magnetic field, the Stern-Gerlach experiment, and why a spin-1/2 state returns to itself only after 720 degrees. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -16,6 +16,57 @@ description: 'Spin is an form of angular momentum with no classical analogue. Fo
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "7_spin", "url": "https://physics.wyattau.com/5-quantum-mechanics/7_spin"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Write down the three Pauli matrices.
+- What are their eigenvalues, and what is $[\sigma_x, \sigma_y]$?
+- How many independent parameters specify a general spin-1/2 state?
+- What does the Stern-Gerlach experiment actually demonstrate?
+- After a $360^\circ$ rotation, does a spin-1/2 state return to itself?
+
+Check your answers against the text. Prompt 5 is the one that is almost always
+answered wrong, and it is not a formality: the sign change is measurable.
+
+## Motivation: spin is where the algebra has to be enough
+
+The angular momentum page argued that the algebra, not the geometry, is the
+physics. Spin is where that claim stops being a slogan, because the geometric
+route is unavailable.
+
+For orbital angular momentum there is an object to rotate:
+$\hat{\mathbf{L}} = \hat{\mathbf{r}} \times \hat{\mathbf{p}}$. For spin there is
+no such object -- an electron is not a spinning ball, and the naive picture
+fails twice over. Treating the electron as a sphere of radius
+$\sim e^2/mc^2$ rotating fast enough to produce the observed magnetic moment
+puts a point on its surface well past the speed of light. And a point particle
+has no surface to rotate.
+
+So spin is *postulated* as an independent degree of freedom, and the only
+structure it is required to have is the angular momentum algebra. From
+$[S_x, S_y] = i\hbar S_z$ alone, plus Hermiticity and tracelessness in two
+dimensions, the Pauli matrices follow -- and the derivation in section 7.3 does
+exactly that.
+
+**Two things to notice in that derivation.** First, it produces $2\times2$
+matrices without anyone choosing a dimension: the smallest non-trivial
+representation of the algebra *is* two-dimensional, which is what "spin-1/2"
+means. Second, it produces three Hermitian, traceless, unitary matrices whose
+squares are the identity -- a set with no classical counterpart, because no
+classical quantity squares to one while failing to commute with the others.
+
+**The Bloch sphere.** A general spin-1/2 state is
+
+$$
+\lvert\psi\rangle = \cos\frac{\theta}{2}\lvert\uparrow\rangle +
+e^{i\phi}\sin\frac{\theta}{2}\lvert\downarrow\rangle ,
+$$
+
+which is two angles -- a point on a sphere. The global phase has already been
+divided out, so the *relative* phase $\phi$ is the only phase left, and it is
+half the story of what a qubit is.
 
 ### 7.1 The Spin Operators
 
@@ -191,8 +242,8 @@ $$
 \mathbf{F} = \nabla(\boldsymbol{\mu}\cdot\mathbf{B})
 $$
 
-For a field $\mathbf{B} = B(z)\hat{z}$ with $\partial B_z/\partial z \neq 0$ The $z$-component of
-force Is $F_z = \mu_z\,\partial B_z/\partial z$. Since $\mu_z = \gamma m_s\hbar$ and
+For a field $\mathbf{B} = B(z)\hat{z}$ with $\partial B_z/\partial z \neq 0$, the $z$-component of
+force is $F_z = \mu_z\,\partial B_z/\partial z$. Since $\mu_z = \gamma m_s\hbar$ and
 $m_s = \pm 1/2$:
 
 $$
@@ -328,7 +379,7 @@ $$
 
 </details>
 
-### 7.7 Common Mistakes
+### 7.6 Common Mistakes
 
 **Mistake 1: Confusing probability with probability amplitude.**
 In quantum mechanics, the probability of a measurement outcome is the square of the absolute value of the probability amplitude. Do not confuse the amplitude (a complex number) with the probability (a real number between 0 and 1).
@@ -344,6 +395,79 @@ The singlet state $|0,0\rangle$ is antisymmetric under particle exchange, while 
 
 **Mistake 5: Assuming that spin-1/2 particles have only two states.**
 A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\rangle$), but a system of two spin-1/2 particles has four states (triplet and singlet). Do not assume that the number of states is always two; the answer varies based on on the number of particles.
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Spin is the electron rotating about its axis | no | a classical sphere of the electron's mass and charge spinning fast enough to give the observed moment has a surface speed far beyond $c$, and the electron is a point particle anyway |
+| A $360^\circ$ rotation returns the state to itself | no | $\lvert\psi\rangle \to -\lvert\psi\rangle$, which is measurable by interferometry; the state returns only after $720^\circ$ |
+| Measuring $S_x$, then $S_z$, then $S_x$ again reproduces the first result | no | the second measurement destroys the first; the third is random, exactly as the non-commutation predicts |
+| $\lvert\uparrow\rangle + \lvert\downarrow\rangle$ has a definite $z$-component | no | it is an $S_x$ eigenstate; it has no definite $S_z$ at all |
+| The Stern-Gerlach apparatus measures a classical magnetic dipole | no | it measures spin, and a classical dipole would produce a *continuous* spread on the screen rather than two spots |
+| $\sigma_x\sigma_y$ is Hermitian | no | the product of two Hermitian matrices is Hermitian only if they commute, and $\sigma_x$ and $\sigma_y$ do not |
+| Spin adds to orbital angular momentum by simple addition | no | total angular momentum is built from Clebsch-Gordan coefficients, and $l = 1$ with $s = 1/2$ gives $j = 3/2$ *or* $j = 1/2$, not $3/2$ alone |
+| Spin-half particles are fermions because they are spin-half | that is the theorem | the spin-statistics connection is not derivable from non-relativistic QM and requires relativity |
+
+The second row is the one to internalise, because it is the difference between
+spin-1/2 and everything classical. The $720^\circ$ requirement is not a
+mathematical curiosity -- it has been measured with neutrons, and it is why
+spinors are not vectors.
+
+The last row is the deepest item on the page. Spin was postulated to explain a
+spectroscopy anomaly; the spin-statistics theorem then shows that the *same*
+quantum number fixes whether the particle is a fermion. Nothing in this course
+derives it, and the derivation needs relativity.
+
+## Where the research frontier is
+
+- **Spintronics.** Using spin rather than charge to carry information, which
+  promises lower dissipation. The open problem is injecting and preserving spin
+  efficiently at room temperature across a metal-semiconductor interface.
+- **Spin qubits.** Electron and nuclear spins in silicon and diamond are among
+  the longest-coherence qubits available, and the scaling question is control
+  fan-out rather than decoherence.
+- **Topological spin textures.** Skyrmions are nanoscale whirls of magnetisation
+  that can be moved with tiny currents, and are a candidate for racetrack
+  memory.
+- **Spin-statistics.** The theorem holds in relativistic QFT, but the derivation
+  assumes locality and a vacuum; what survives in topologically non-trivial
+  settings is an active area, with anyons as the counterexample.
+- **Weak measurement.** Spin trajectories in a Stern-Gerlach magnet have been
+  reconstructed by weak measurement, and what those "trajectories" mean is
+  genuinely contested.
+
+## Interleaving problems
+
+Mix these with the [postulates](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/),
+[angular
+momentum](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/),
+[operators](/5-quantum-mechanics/4_operators-and-observables/), [Linear
+Algebra](https://mathematics.wyattau.com/2-linear-algebra/1_vectors-and-vector-spaces/)
+and [Symplectic Structure and KAM
+Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/).
+
+1. (Linear algebra.) Derive the Pauli matrices from
+   $[\sigma_i, \sigma_j] = 2i\epsilon_{ijk}\sigma_k$, together with Hermiticity,
+   tracelessness and unit determinant. Identify which assumption fixes the
+   dimension, and show that $3\times3$ matrices do not satisfy it.
+2. (Operators.) Compute $[\sigma_x, \sigma_y]$ explicitly and confirm it equals
+   $2i\sigma_z$. Then show that $\sigma_i\sigma_j = \delta_{ij}I +
+   i\epsilon_{ijk}\sigma_k$, which encodes both the commutator and the
+   anticommutator in one line.
+3. (Angular momentum.) Show that $S^2 = \frac{3}{4}\hbar^2 I$ for spin-1/2, and
+   explain why $s = 1/2$ is the *smallest* non-trivial representation. What
+   would $s = 0$ correspond to?
+4. (Wave functions.) Parametrise a general spin-1/2 state by two angles and show
+   that the relative phase is half the azimuthal angle on the Bloch sphere. Then
+   explain why the factor of a half is the $720^\circ$ rotation in disguise.
+5. (Classical mechanics.) A classical magnetic dipole in a Stern-Gerlach field
+   produces a continuous distribution of deflections. Show that this follows
+   from a continuous distribution of $\mu_z$, and hence that the two-spot result
+   is a direct measurement of quantisation rather than of magnetism.
+6. (Research.) State the spin-statistics connection precisely and explain why
+   its proof requires relativity. Then describe what an anyon is and what breaks
+   in two dimensions that allows it.
 
 ## Cross-References
 
