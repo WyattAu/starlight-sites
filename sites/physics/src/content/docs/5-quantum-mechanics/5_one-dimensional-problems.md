@@ -5,7 +5,7 @@ title: "One-Dimensional Problems"
 tags:
   - Physics
   - University
-description: "A particle of mass in a potential for and otherwise. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+description: "One-dimensional quantum problems: the infinite square well, the harmonic oscillator, the free particle, parity, the virial theorem, the finite square well, the delta potential, and tunnelling. Each solved completely, with the boundary conditions doing the physics. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -16,6 +16,50 @@ description: "A particle of mass in a potential for and otherwise. Comprehensive
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "5_one Dimensional Problems", "url": "https://physics.wyattau.com/5-quantum-mechanics/5_one-dimensional-problems"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What are the energy levels of the infinite square well, and what sets the
+  spacing between them?
+- What is the lowest energy of the well, and why is it not zero?
+- What makes the harmonic oscillator soluble in closed form?
+- What does the parity of a state mean, and when is it a good quantum number?
+- What is the tunnelling probability's dependence on barrier width?
+
+Check your answers against the text. Prompt 2 is the one to sit with: a
+particle in a box cannot sit still, and *that* is a statement about the size of
+the box rather than about the particle.
+
+## Motivation: boundary conditions are the physics
+
+Nothing in the Schrodinger equation knows that a well has walls. The equation
+inside the well is the same free-particle equation, and its solutions are
+sines and cosines with *any* wavelength. Every number that comes out of the
+infinite square well -- the energies $E_n = n^2\pi^2\hbar^2/2mL^2$, the
+orthogonality of the states, the nodes -- comes from the boundary conditions
+and nothing else.
+
+That is worth stating plainly, because the standard presentation makes it look
+as though solving the equation produces the quantisation. It does not.
+Quantisation is a statement that only certain wavelengths fit, and "fit" is a
+boundary-condition word.
+
+**The zero-point energy is the same argument in disguise.** Localising a
+particle to width $L$ costs momentum of order $\hbar/L$, so the kinetic energy
+is at least $\hbar^2/2mL^2$. The exact answer $E_1 = \pi^2\hbar^2/2mL^2$ is
+that estimate with $\pi^2$ in the right place. Shrink the box and the ground
+state energy *rises*, which is why an electron confined to an atom has tens of
+electron-volts and a proton confined to a nucleus has millions.
+
+**Tunnelling is the same boundary-condition story in the other direction.**
+Inside a barrier with $E < V_0$, the solutions are exponentials rather than
+oscillations -- not because the equation changed, but because the sign of
+$E - V$ flipped and turned the differential equation from oscillatory to
+exponential. The decay constant $\kappa$ is the only new object, and the
+transmission probability goes as $e^{-2\kappa a}$. Everything else is
+bookkeeping.
 
 ### 5.1 The Infinite Square Well
 
@@ -35,9 +79,9 @@ $$
 
 **Boundary conditions:** $\phi(0) = \phi(L) = 0$.
 
-From $\phi(0) = 0$: $B = 0$ So $\phi(x) = A\sin(kx)$.
+From $\phi(0) = 0$: $B = 0$, so $\phi(x) = A\sin(kx)$.
 
-From $\phi(L) = 0$: $\sin(kL) = 0$ Which requires $kL = n\pi$ for $n = 1, 2, 3, \ldots$
+From $\phi(L) = 0$: $\sin(kL) = 0$, which requires $kL = n\pi$ for $n = 1, 2, 3, \ldots$
 
 Therefore $k_n = n\pi/L$ and:
 
@@ -448,6 +492,81 @@ of about 10.
 ## Intuition
 
 One-dimensional quantum problems are the laboratory where quantum weirdness becomes visible. The infinite square well is like a ball bouncing in a perfectly elastic box: the standing waves that fit inside determine the allowed energies, and the zero-point energy means the ball can never be perfectly still. The harmonic oscillator is the quantum version of a pendulum: the ladder operators let you climb up and down the energy ladder one rung at a time, and each rung costs exactly one quantum of energy. The delta function potential is an infinitely sharp spike that still manages to bind a particle, showing that even an infinitely narrow potential can trap a quantum state. Quantum tunneling is the most dramatic departure from classical physics: a particle can pass through a barrier it classically cannot climb over, like a ball rolling through a wall. The thinner and lower the barrier, the more likely the tunnel, which is how nuclear decay and scanning tunneling microscopes work.
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| A particle in a box can have zero energy | no | $E_1 = \pi^2\hbar^2/2mL^2 > 0$; zero energy would need zero momentum and a position known to width $L$, violating the uncertainty principle |
+| The infinite well is the limit of the finite well | yes, and it is a useful check | as $V_0 \to \infty$ the finite-well energies approach the infinite-well ones from below |
+| Tunnelling probability is $e^{-2\kappa a}$ | only for a thick barrier | the exact $T$ has a prefactor $16E(V_0-E)/V_0^2$, which matters when $E$ is close to $V_0$ |
+| Parity is always a good quantum number | no | it requires the potential to be even about the origin; shift the well to $[0,L]$ and parity is lost |
+| A delta potential gives a continuous spectrum | no | the attractive delta has exactly one bound state, and it is the only 1D potential with a single one |
+| The harmonic oscillator states are evenly spaced by $\hbar\omega$ | yes | this is special and is why it is exactly soluble; anharmonic terms split the spacing |
+| Higher-energy states have more nodes | yes | and this is not a coincidence: $n-1$ nodes is what makes the states orthogonal |
+| Wave functions must be continuous | no | $\psi$ is continuous only where $V$ is finite; at an infinite wall it is zero, and at a delta potential $\psi$ is continuous but $\psi'$ is not |
+
+The first row is the one that generalises furthest. The zero-point energy is
+not a curiosity of the square well -- it is why atoms do not collapse, why
+helium does not freeze at absolute zero, and why the cosmological constant is
+not obviously zero.
+
+The last row is the one people trip on when moving from the infinite to the
+finite well: the matching conditions are *different*, and using the wrong ones
+gives eigenvalues that are close enough to look plausible.
+
+## Where the research frontier is
+
+- **Tunnelling in real devices.** The $e^{-2\kappa a}$ law is the whole of
+  scanning tunnelling microscopy, flash memory and resonant tunnelling
+  diodes; the open problems are inelastic tunnelling and interactions between
+  the tunnelling particle and the barrier.
+- **Quantum well engineering.** Superlattices and quantum wells are engineered
+  by choosing layer widths and compositions, so the level structure becomes a
+  design variable rather than a given.
+- **The WKB approximation beyond 1D.** WKB gives the exponential factor and
+  the pre-factor, and its failure near turning points is exactly what the
+  connection formulae patch; how well it carries into higher dimensions is
+  still studied.
+- **Stochastic simulation.** Propagating the Schrodinger equation numerically
+  for a particle in a well is the standard test problem for time integrators,
+  because the exact propagator is unitary and finite steps are not.
+- **Many-particle wells.** Adding a second particle to a well makes the
+  problem interacting, and the level structure changes qualitatively; that is
+  where the field's hard problems begin.
+
+## Interleaving problems
+
+Mix these with the [postulates](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/),
+[wave
+functions](/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation/),
+[operators](/5-quantum-mechanics/4_operators-and-observables/), [Linear
+Algebra](https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+and [Fourier
+methods](https://mathematics.wyattau.com/6-ordinary-differential-equations/1_introduction-to-odes/).
+
+1. (Operators.) Compute $\langle x\rangle$ and $\langle p\rangle$ for the
+   $n$-th state of the infinite square well without integrating, using parity:
+   $\phi_n(x)$ is symmetric or antisymmetric about $L/2$, so the integrands are
+   odd.
+2. (Linear algebra.) Show that the infinite-well states $\sqrt{2/L}\sin(n\pi
+   x/L)$ are orthonormal on $[0,L]$. Where does the orthogonality come from
+   -- the equation, or the boundary conditions?
+3. (Wave functions.) Show that the virial theorem $2\langle T\rangle =
+   n\langle V\rangle$ holds for the harmonic oscillator and that $\langle T
+   \rangle = \langle V \rangle$ for the infinite well. Why do the two
+   potentials give different results?
+4. (Classical mechanics.) Compare the classical period of a particle in the
+   infinite well with the quantum beating period between $n$ and $n+1$. Show
+   that they agree as $n \to \infty$, which is the correspondence principle
+   working rather than being assumed.
+5. (Operators.) Show that the tunnelling exponent $\kappa$ is the imaginary
+   part of the wave number inside the barrier, and hence that $e^{-2\kappa a}$
+   is $|e^{ik a}|^2$ with $k$ analytically continued. That continuation is why
+   the same equation gives both.
+6. (Research.) Derive the WKB connection formulae at a single turning point,
+   and state the condition under which they are valid. Then explain why a
+   double turning point needs an extra phase of $\pi/4$.
 
 ## Cross-References
 
