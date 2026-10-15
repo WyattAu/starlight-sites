@@ -5,7 +5,7 @@ title: Identical Particles and Exchange Symmetry
 tags:
   - Physics
   - University
-description: "Identical particles and exchange symmetry: the symmetrisation postulate, bosons and fermions, the exchange interaction and why it is not a force, the helium atom, Slater determinants, and what the Pauli principle does and does not forbid. With recall prompts, counterexamples by name and interleaving problems. Tier U."h definitions and practice problems."
+description: "Identical particles and exchange symmetry: the symmetrisation postulate, bosons and fermions, the exchange interaction and why it is not a force, the helium atom, Slater determinants, and what the Pauli principle does and does not forbid. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->

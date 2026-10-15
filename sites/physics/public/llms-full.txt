@@ -27482,10 +27482,59 @@ URL: https://physics.wyattau.com/5-quantum-mechanics/12_time-dependent-perturbat
 }
 </script>
 
-### 11.1 Fermi's Golden Rule
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Write Fermi's Golden Rule. What does each factor mean?
+- Why does a density of final states appear at all?
+- What is the selection rule for electric dipole transitions, and where does it
+  come from?
+- Does a *static* perturbation cause transitions between non-degenerate states?
+- What did Einstein have to assume to get the $A$ coefficient?
+
+Check your answers against the text. Prompt 4 is the one that reveals what
+"time-dependent" is doing in the title: a constant perturbation cannot cause
+transitions at all.
+
+## Motivation: energy conservation is a long-time limit
+
+Time-independent perturbation theory asks how energy levels *shift*.
+Time-dependent perturbation theory asks a different question: how does a state
+*change*? The two are not variants of one method, because the answer to the
+second is about rates, and rates need something to be conserved.
+
+**A constant perturbation causes no transitions.** If $\hat{V}$ does not depend
+on time, then in the interaction picture the amplitude for $|i\rangle \to |f\rangle$ is
+
+$$
+c_f(t) = -\frac{i}{\hbar}V_{fi}\int_0^t e^{i\omega_{fi}t'}\,\mathrm{d}t'
+= -\frac{i}{\hbar}V_{fi}\,e^{i\omega_{fi}t/2}\,
+\frac{2\sin(\omega_{fi}t/2)}{\omega_{fi}},
+$$
+
+which is peaked at $\omega_{fi} = 0$ and oscillates elsewhere. For long times,
+$\left|\frac{\sin(\omega t/2)}{\omega/2}\right|^2 \to 2\pi t\,\delta(\omega)$:
+the probability grows *linearly* with $t$ only at $\omega_{fi} = 0$, and
+vanishes elsewhere. That linear growth is what "a rate" means, and it is why
+the Golden Rule has a $t$ in its derivation and no $t$ in its answer.
+
+**Energy conservation is not assumed; it emerges.** The $\delta(\omega_{fi})$
+above is the statement that a transition only happens when the perturbation
+supplies exactly the energy difference. For a *finite* time the peak has width
+$\sim 1/t$, so energy conservation holds only to within $\hbar/t$ -- and short
+pulses really do drive nominally off-resonant transitions. That is not an
+approximation to correct; it is physics.
+
+**The density of states is what makes the rate finite.** For a discrete final
+state the probability oscillates forever. Summing over a continuum replaces the
+square of a sinc by a smooth density $\rho(E_f)$, and that is the whole
+difference between a Rabi oscillation and a decay.
+
+### 12.1 Fermi's Golden Rule
 
 For a time-dependent perturbation $\hat{V}(t) = \hat{V}\,e^{-i\omega t}$ applied to an initial state
-$|i\rangle$ The transition rate to a continuum of final states $|f\rangle$ is:
+$|i\rangle$, the transition rate to a continuum of final states $|f\rangle$ is:
 
 $$
 \Gamma_{i \to f} = \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f)
@@ -27518,7 +27567,7 @@ $$
 \Gamma = \int \frac{d|c_f|^2}{dt}\,\rho(E_f)\,dE_f = \frac{2\pi}{\hbar}|\langle f|\hat{V}|i\rangle|^2\rho(E_f) \quad \blacksquare
 $$
 
-### 11.2 Selection Rules for Electric Dipole Transitions
+### 12.2 Selection Rules for Electric Dipole Transitions
 
 The electric dipole matrix element:
 
@@ -27541,7 +27590,7 @@ $$
 With $|\langle 1s|z|2p, m=0\rangle| = \frac{2^7\sqrt{2}}{3^5}a_0$ This gives
 $A_{2p \to 1s} \approx 6.3 \times 10^8$ s$^{-1}$Corresponding to a lifetime $\tau \approx 1.6$ ns.
 
-### 11.3 Spontaneous Emission and Einstein Coefficients
+### 12.3 Spontaneous Emission and Einstein Coefficients
 
 The **Einstein $A$ coefficient** (spontaneous emission rate) is related to the $B$ coefficient
 (stimulated emission/absorption):
@@ -27633,6 +27682,80 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 ## Intuition
 
 Time-dependent perturbation theory treats external influences as small disturbances to a quantum system. When a system is subjected to a time-varying field, transitions between energy levels become possible. The transition rate depends on how much the perturbation overlaps with the initial and final states, measured by matrix elements. Fermi's golden rule packages this into a simple formula: the transition rate is proportional to the square of the matrix element times the density of final states. This explains atomic transitions, photon absorption, and spontaneous emission, forming the basis of spectroscopy and laser physics.
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Fermi's Golden Rule applies to any transition | no | it requires a continuum of final states; between two bound states the system Rabi-oscillates instead |
+| The transition rate is constant from $t = 0$ | no | it is linear at first and only becomes constant after a transient of order $\hbar/\Delta E$ |
+| A static perturbation causes transitions | no | $\int e^{i\omega_{fi}t'}\,\mathrm{d}t'$ vanishes for long times unless $\omega_{fi} = 0$, i.e. unless the states are degenerate |
+| Spontaneous emission follows from the Schrodinger equation | no | a time-dependent potential couples to a classical field, which cannot produce spontaneous emission; Einstein had to *postulate* the $A$ coefficient from detailed balance |
+| Selection rules are absolute | no | they are selection rules for the dipole approximation; electric quadrupole and magnetic dipole transitions are weaker but real, and "forbidden" lines are observed in astrophysics |
+| Energy conservation is exact in a finite process | no | it holds to within $\Delta E \sim \hbar/t$; short pulses drive off-resonant transitions routinely |
+| Stronger perturbation always gives a larger transition rate | no | beyond the perturbative regime the population oscillates (Rabi) and the rate concept stops applying |
+
+The fourth row is the most important and is usually glossed. Spontaneous
+emission cannot be derived from a classical field coupled to a quantum atom --
+a classical field has no vacuum fluctuations to stimulate it. Einstein got the
+$A$ coefficient in 1917 by demanding detailed balance with the (derivable) $B$
+coefficient and the Planck spectrum, and that argument is still the cleanest
+route to it.
+
+The last row is the boundary of the method: once the perturbation is strong
+enough to move appreciable population, "rate" is the wrong concept and the
+oscillation is the physics.
+
+## Where the research frontier is
+
+- **Strong-field and attosecond physics.** Fields intense enough to ionise with
+  many photons, or short enough to resolve electron motion, sit outside
+  perturbation theory entirely. Above-threshold ionisation and high-harmonic
+  generation are the standard phenomena.
+- **Floquet engineering.** Periodic driving creates effective Hamiltonians with
+  band structures that the undriven system does not have, which is now used to
+  realise topological phases on demand.
+- **Cavity QED and the Purcell effect.** Spontaneous emission is not a fixed
+  property of an atom: putting it in a cavity changes the density of states and
+  so changes the rate. That is the Golden Rule with an engineered $\rho$.
+- **Landau-Zener transitions.** A swept two-level crossing has an exact
+  solution, and it is the building block for adiabatic quantum computing and
+  for control protocols in qubits.
+- **Quantum control.** Shaped pulses that drive a system to a chosen target
+  state, with the pulse found by optimisation rather than intuition.
+
+## Interleaving problems
+
+Mix these with [approximation
+methods](/5-quantum-mechanics/8_approximation-methods/), [angular
+momentum](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/),
+[operators](/5-quantum-mechanics/4_operators-and-observables/), [Series and
+Limits](https://mathematics.wyattau.com/3-real-analysis/3_series/) and
+[Thermodynamics and Statistical
+Mechanics](/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/).
+
+1. (Series and limits.) Show that
+   $\left|\frac{\sin(\omega t/2)}{\omega/2}\right|^2 \to 2\pi t\,\delta(\omega)$
+   as $t \to \infty$ in the sense of distributions, by integrating against a
+   test function. Identify where the factor of $2\pi$ comes from.
+2. (Operators.) Show that the dipole matrix element
+   $\langle f|\hat{\mathbf{r}}|i\rangle$ vanishes unless $l_f = l_i \pm 1$, by
+   writing $\hat{\mathbf{r}}$ in spherical coordinates and using the
+   properties of spherical harmonics. Which quantum number is *not* constrained,
+   and why?
+3. (Angular momentum.) A photon carries one unit of angular momentum. Show that
+   this is what makes $\Delta l = \pm 1$ a *conservation* statement rather than
+   merely a selection rule, and explain what happens for $\Delta l = \pm 2$.
+4. (Thermal physics.) Einstein's argument: given the $B$ coefficient and the
+   Planck spectrum, derive the $A$ coefficient from detailed balance. Then
+   explain what quantum mechanics adds that classical electrodynamics cannot
+   supply.
+5. (Approximation methods.) A perturbation that is constant in time but switched
+   on suddenly at $t = 0$ is *not* time-independent in this sense. Show that it
+   causes transitions, and explain how a sudden switch supplies energy.
+6. (Research.) The Landau-Zener formula gives the transition probability for a
+   linearly swept two-level crossing. Derive it, state the adiabatic limit, and
+   explain why the result is exact rather than perturbative.
 
 ## Cross-References
 

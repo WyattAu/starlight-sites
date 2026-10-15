@@ -36,6 +36,7 @@ run () {
 run 'biome'                   bunx biome check .
 
 run 'aside directives'        node scripts/lint-asides.js
+run 'frontmatter YAML'        node scripts/lint-frontmatter-yaml.js
 run 'mdx parse'               node --max-old-space-size=2048 scripts/lint-mdx-parse.js
 run 'display math delimiters' node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
 run 'prose damage'            python3 scripts/fix-prose-damage.py --check
