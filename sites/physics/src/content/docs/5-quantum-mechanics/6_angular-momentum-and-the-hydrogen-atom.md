@@ -5,7 +5,7 @@ title: Angular Momentum and the Hydrogen Atom
 tags:
   - Physics
   - University
-description: "Study notes for Angular Momentum and the Hydrogen Atom with worked examples, practice problems, and key concepts for exam preparation."
+description: "Angular momentum and the hydrogen atom: the angular momentum operators, ladder operators and the eigenvalue spectrum from the commutation relations alone, spherical harmonics, the hydrogen atom solved completely, orbital shapes and quantum numbers, and where the Bohr model disagrees with quantum mechanics. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -16,6 +16,62 @@ description: "Study notes for Angular Momentum and the Hydrogen Atom with worked
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "6_angular Momentum And The Hydrogen Atom", "url": "https://physics.wyattau.com/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Write the commutation relations among $L_x$, $L_y$ and $L_z$.
+- What are the allowed values of $l$ and $m$?
+- What is the magnitude of $\mathbf{L}$ in the state with quantum number $l$?
+- How many states have a given $n$ in hydrogen?
+- What does the Bohr model predict for the ground-state angular momentum, and
+  what is it actually?
+
+Check your answers against the text. Prompt 5 is the one that matters most,
+because the two answers differ and the difference is measurable.
+
+## Motivation: the algebra does all the work
+
+The striking thing about angular momentum in quantum mechanics is not that it
+is quantised. It is that the quantisation follows from three commutation
+relations,
+
+$$
+[L_x, L_y] = i\hbar L_z, \qquad [L_y, L_z] = i\hbar L_x, \qquad [L_z, L_x] =
+i\hbar L_y,
+$$
+
+and from nothing else. No differential equation is solved, no boundary
+condition is imposed, and no assumption is made about what $\mathbf{L}$ is
+made of. Everything else on this page -- the allowed values of $l$, the
+$l(l+1)$ rather than $l^2$, the ladder structure, even the possibility of
+half-integer eigenvalues -- is already in those three lines.
+
+That is worth seeing clearly, because it is what makes spin possible. Spin has
+nothing to do with rotating a body in space, so the derivation via
+$\hat{\mathbf{L}} = \hat{\mathbf{r}} \times \hat{\mathbf{p}}$ cannot apply to
+it. But spin satisfies the same three commutation relations, so it inherits
+the same spectrum. The algebra, not the geometry, is the physics.
+
+**Why $l(l+1)$ and not $l^2$.** The ladder operators give
+
+$$
+L^2 = L_z^2 \pm \hbar L_z + L_\mp L_\pm,
+$$
+
+and the second term is a positive operator, so $L^2 \ge L_z^2 \pm \hbar L_z$.
+That inequality bounds $m$ above and below and forces the top of the ladder to
+satisfy $l = m_{\max}$ -- and the magnitude comes out $\sqrt{l(l+1)}\hbar$,
+not $l\hbar$. The extra $+1$ is not a correction; it is the statement that you
+cannot know all three components at once.
+
+**The hydrogen atom is the payoff.** Separating variables in spherical
+coordinates turns the angular part into exactly the $L^2$ and $L_z$ eigenvalue
+problems, and the radial equation into one whose solutions exist only for
+specific $E$. Three quantum numbers appear because the problem has three
+compatible symmetries, and the energy depends only on $n$ -- which is why
+there are degeneracies to break.
 
 ### 6.1 Angular Momentum Operators
 
@@ -312,6 +368,82 @@ order $\alpha^2 E_n$ where $\alpha \approx 1/137$ is the fine structure constant
 ## Intuition
 
 Angular momentum in quantum mechanics is like a spinning top that can only point in certain discrete directions. The ladder operators are like climbing stairs: you can raise or lower the magnetic quantum number one step at a time, but you cannot stop between steps. The hydrogen atom is nature's simplest atom and the hydrogen of quantum mechanics: the electron orbits the nucleus not in fixed paths but in probability clouds shaped like dumbbells, clovers, and spheres. The quantum numbers are like an address: n tells you the floor (energy), l tells you the room shape (angular momentum), and m tells you the orientation. The energy depends only on n, which is a hidden symmetry of the Coulomb potential. The selection rules are like dance rules: the electron can only jump between certain states, which is why hydrogen emits only specific colors of light.
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| The Bohr model gives the right angular momentum | no | it predicts $L = n\hbar$, so the ground state has $L = \hbar$; quantum mechanics gives $l = 0$ and $L = 0$, and this is measured |
+| $L_z$ can equal $\lvert\mathbf{L}\rvert$ | no | $\lvert L_z\rvert \le \hbar\sqrt{l(l+1)} < \hbar(l+1)$; if $L_z = \lvert\mathbf{L}\rvert$ then $L_x$ and $L_y$ would both be known exactly |
+| Orbital angular momentum can be half-integer | no | single-valuedness of the wave function under $2\pi$ rotation forces integer $l$; spin is a different operator and is exempt |
+| The hydrogen ground state has $l = 1$ | no | $l = 0$, so it is spherically symmetric and $\psi$ is maximal at the origin |
+| $\psi_{100}$ vanishes at the nucleus | no | it is *maximal* there; the probability of finding the electron at the origin is the largest of any state |
+| $n$ determines $l$ | no | it only bounds it, $l \le n-1$; for $n = 2$ both $l = 0$ and $l = 1$ occur at the same energy |
+| Angular momentum is conserved because the state is an eigenstate of $L^2$ | no | conservation is about commuting with $\hat{H}$; a state can be an $L^2$ eigenstate and still not be stationary |
+| The energy depends on $l$ | no | for the Coulomb potential the energy depends only on $n$, which is why there are degeneracies to break |
+
+The first row is the most important and the most under-appreciated. The Bohr
+model is usually presented as "right but incomplete", and for the energy
+levels that is fair. For angular momentum it is simply wrong: it predicts a
+ground state that does not exist, and the discrepancy is the first sign that a
+planar orbit is not what an electron does.
+
+The last row is the one with the most physics behind it. The Coulomb
+degeneracy is an *accidental* symmetry -- it is higher than the spherical
+symmetry would suggest -- and it is precisely that accident which makes the
+hydrogen spectrum clean enough to be the standard first example.
+
+## Where the research frontier is
+
+- **Breaking the degeneracy.** The Lamb shift, from vacuum fluctuations, splits
+  $2s$ from $2p$ and was the first evidence for QED. Measuring it to high
+  precision is still the standard test of bound-state QED.
+- **The proton radius puzzle.** Muonic hydrogen gives a proton radius about
+  4% smaller than electronic hydrogen does, and resolving whether that is new
+  physics or a systematic took a decade of work.
+- **Rydberg atoms.** Large-$n$ hydrogen-like atoms have enormous dipoles and
+  long lifetimes, and are now used as qubits and as electric-field sensors.
+- **Angular momentum coupling.** Real atoms have many electrons, and the
+  coupling schemes ($LS$ and $jj$) and their term symbols are where the
+  algebra above earns its keep.
+- **Exotic "hydrogen" atoms.** Positronium, muonium and antiprotonic atoms
+  reuse the hydrogen solution with different masses, testing QED and CPT in
+  ways ordinary hydrogen cannot.
+
+## Interleaving problems
+
+Mix these with the [postulates](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/),
+[operators](/5-quantum-mechanics/4_operators-and-observables/), [one-dimensional
+problems](/5-quantum-mechanics/5_one-dimensional-problems/), [Symplectic
+Structure and KAM Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/),
+[Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+and [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/).
+
+1. (Operators.) Compute $[L_x, L_y]$ from
+   $\hat{\mathbf{L}} = \hat{\mathbf{r}} \times \hat{\mathbf{p}}$ using only
+   $[\hat{x}_i, \hat{p}_j] = i\hbar\delta_{ij}$. Then explain why the result
+   holds for spin even though spin has no $\hat{\mathbf{r}}$ or
+   $\hat{\mathbf{p}}$.
+2. (Linear algebra.) From the commutation relations alone, construct the
+   ladder operators and prove that $l$ is restricted to integer or half-integer
+   values. Identify the single step that forces the quantisation, and say what
+   would happen if that step were unavailable.
+3. (Wave functions.) Show that $\psi_{100} = (\pi a_0^3)^{-1/2}e^{-r/a_0}$
+   satisfies the time-independent Schrodinger equation with
+   $E = -13.6\,\mathrm{eV}$, by direct substitution. Then compute
+   $\langle r\rangle$ and confirm it is $3a_0/2$, not $a_0$.
+4. (Classical mechanics.) The Kepler problem is classically integrable and has
+   an extra conserved quantity, the Runge-Lenz vector. Show that its quantum
+   counterpart is what produces the *accidental* degeneracy between different
+   $l$ at the same $n$.
+5. (Hamiltonian mechanics.) Compare the classical eccentricity of a Kepler
+   orbit with the quantum numbers $n$ and $l$, and show that large $n$ with
+   $l = n-1$ reproduces circular orbits. What does large $n$ with small $l$
+   correspond to classically?
+6. (Research.) The proton radius puzzle: muonic hydrogen spectroscopy gives
+   $r_p \approx 0.84\,\mathrm{fm}$ against $0.88\,\mathrm{fm}$ from electronic
+   hydrogen. State what would have to be true for both to be right, and why
+   the resolution matters more than the number.
 
 ## Cross-References
 
