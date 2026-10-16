@@ -371,3 +371,38 @@ host.
 **Gate.** `scripts/fix-generic-boilerplate.py --check` runs in the preflight.
 It is slower than the other gates because it measures paragraph frequency
 network-wide; the check is one pass and takes about a minute.
+
+## 13. Probability course duplicated inside a statistics page
+
+`8-probability-and-statistics/6_probability-and-statistics.md` is 2,655 lines.
+Sections 1-6 are the probability course: probability spaces, random variables,
+common distributions, expectation and MGFs, joint distributions, limit
+theorems. **Those duplicate pages 1-5 of the same directory**, which were
+rebuilt to flagship standard earlier.
+
+Sections 7-8 are the statistics course -- maximum likelihood, Fisher
+information, Cramer-Rao, confidence intervals, hypothesis testing,
+Neyman-Pearson, p-values and the standard tests, 464 lines of real content.
+
+Statistics was therefore reachable only by scrolling past 2,000 lines of
+repetition, and a reader landing on it had no way to know the material had
+already been covered better.
+
+**Extracted.** Sections 7-8 are now
+`7_estimation-and-hypothesis-testing.md`, a standalone page with the full study
+scaffolding. Extraction was verified lossless against the source: 612 LaTeX
+commands across 49 distinct commands, none fewer in the new page, and no
+tab characters or mangled backslash sequences.
+
+**Not yet removed.** The duplicated probability sections are still in the
+source page. Deleting them is a separate decision because something may link
+directly into `6_probability-and-statistics/#2-random-variables` and similar
+anchors, and those links would break. The work is:
+
+1. Grep the network for anchor links into `6_probability-and-statistics/`.
+2. Repoint any that target a section which exists on pages 1-5.
+3. Reduce the page to a stub pointing at the real pages, or delete it and add
+   a redirect.
+
+Until then the site carries the probability course twice, and the two copies
+will drift.
