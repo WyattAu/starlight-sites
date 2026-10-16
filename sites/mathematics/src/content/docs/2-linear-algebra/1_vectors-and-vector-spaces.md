@@ -5,7 +5,7 @@ title: "Vectors and Vector Spaces"
 tags:
   - Mathematics
   - University
-description: 'A over a field ( or ) is a set equipped With two operations: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Vectors and vector spaces: the axioms, subspaces, and why the definition is what it is -- a set closed under two operations that satisfy eight rules, chosen so that linear combinations stay inside. The definition is not arbitrary: every axiom is needed, and the examples include function spaces. With recall prompts, counterexamples by name and interleaving problems. Tier F-U."
 ---
 
 :::note[Historical Context]
@@ -22,6 +22,51 @@ The vector space was introduced by Giuseppe Peano (1888), building on Grassmann'
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "1_vectors And Vector Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/1_vectors-and-vector-spaces"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What two operations define a vector space?
+- How many axioms are there, and what are the two identity elements?
+- Is the empty set a vector space? Why not?
+- What is the smallest subspace any vector space has?
+- Give three examples of vector spaces that are not $\mathbb{R}^n$.
+
+Check your answers against the text. Prompt 3 is the one that stops people
+writing nonsense: an empty set has no zero vector, and the axioms cannot even
+be stated without one.
+
+## Motivation: the axioms are reverse-engineered, not invented
+
+A definition in mathematics is often presented as a decree. The definition of
+a vector space is better read as the answer to a question: *what is the
+smallest structure that makes linear combinations meaningful?*
+
+Everything on this page exists so that the phrase "$a v + b w$" has a unique
+answer that stays in the set. That requires two operations (add the vectors,
+scale by a scalar), associativity and commutativity so that order does not
+matter, identities so that "add nothing" and "scale by one" do something
+sensible, and distributivity so that scaling distributes over the two kinds of
+addition. The axioms are not a list to memorise -- they are the minimum
+conditions under which the phrase you already wanted to write is well defined.
+
+**Why this is worth the abstraction.** The same eight axioms are satisfied by
+arrows in space, by polynomials, by continuous functions, by solutions of a
+differential equation, and by $n$-tuples of any field. Nothing in the theory
+refers to what the vectors *are* -- only to what you can *do* with them. One
+proof covers all of them, which is the entire point of axiomatising.
+
+**The non-obvious example is the most useful one.** The set of solutions of a
+homogeneous linear differential equation is a vector space: adding two
+solutions gives a solution, and scaling one gives a solution. That single
+observation is why the solution space of a homogeneous ODE has a dimension,
+and why "general solution" means "linear combination of independent
+solutions". Without the vector space axioms, that sentence has no meaning.
+
+> **Exercise.** Check that the set of polynomials of degree at most 3 is a
+> vector space, and find its dimension. Then check that the polynomials of
+> degree *exactly* 3 are not, and identify which axiom fails.
 
 ### 1.1 Definition of a Vector Space
 
@@ -334,6 +379,73 @@ The connection to function spaces is where the abstraction pays off most. In qua
 :::tip[Research Connections]
 Vector spaces are the foundation of quantum computing: qubits exist in a 2-dimensional complex vector space, and quantum gates are unitary linear transformations. Google's quantum supremacy experiment (2019, Sycamore processor) demonstrated a computation in a 53-qubit vector space that would take classical supercomputers ~10,000 years. Current research includes: quantum error correction (surface codes on stabiliser codes), topological quantum computing (Majorana fermions), and the intersection of linear algebra with machine learning (neural network weight spaces, kernel methods, dimensionality reduction via SVD/PCA).
 :::
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| The empty set is a vector space | no | the axioms require a zero vector, so no vector space is empty |
+| $\mathbb{R}^2$ is a subspace of $\mathbb{R}^3$ | no | it is *isomorphic* to a subspace; as literally written its elements are pairs, not triples |
+| The union of two subspaces is a subspace | no | two distinct lines through the origin have a union that is not closed under addition |
+| Polynomials of degree exactly $n$ form a vector space | no | adding two of them can cancel the leading term |
+| Every vector space has a zero vector | yes, and it is unique | this follows from the axioms, and it is the reason the empty set fails |
+| The solution set of $Ax = b$ is a subspace | no | unless $b = 0$; it does not contain the zero vector |
+| A vector space needs an order on its vectors | no | the axioms never mention one; imposing one is an extra structure, not part of the space |
+| Functions form a vector space only if they are continuous | no | *all* functions from a set to a field form a vector space; continuity is extra structure |
+
+The third row is the classic, and it is worth seeing why: the union of the
+$x$-axis and the $y$-axis contains $(1,0)$ and $(0,1)$ but not their sum. The
+*sum* of subspaces is a subspace; the union almost never is.
+
+The seventh row is the one that matters for the rest of mathematics. A vector
+space has no notion of length, angle or order. Those come later -- inner
+product spaces, normed spaces, ordered fields -- and confusing an added
+structure with part of the definition is how people end up trying to take
+"intra-vector" dot products before an inner product has been defined.
+
+## Where the research frontier is
+
+- **Infinite-dimensional spaces.** Everything here carries over, but bases
+  become unconstructible and dimension becomes a cardinal. That is the
+  boundary between algebra and functional analysis, and it is crossed on the
+  [functional analysis track](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
+- **Fields other than $\mathbb{R}$ and $\mathbb{C}$.** Vector spaces over a
+  finite field underpin error-correcting codes and cryptography, and the theory
+  changes character when the field is not ordered.
+- **Modules.** Drop the requirement that the scalars form a field and keep a
+  ring, and bases can stop existing entirely. The structure theorem for
+  finitely generated modules over a principal ideal domain is what survives,
+  and it is what produces the Jordan form.
+- **Category theory.** Vector spaces and linear maps form a category, and the
+  whole of linear algebra can be restated as the statement that this category
+  has certain properties. That restatement is what makes quantum information
+  theory possible to write down.
+
+## Interleaving problems
+
+Mix these with [Linear Independence, Span, Basis and
+Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/),
+[Systems of Linear
+Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Newtonian Mechanics
+Review](https://physics.wyattau.com/1-classical-mechanics/1_newtonian-mechanics-review/) and
+[Functional
+Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
+
+1. (Axioms.) Verify that the set of all $2\times2$ matrices is a vector space
+   over $\mathbb{R}$, listing each axiom as you check it. Then show that the
+   invertible ones are not, by exhibiting a failure of closure.
+2. (Subspaces.) Show that the set of polynomials with $p(0) = 0$ is a subspace
+   of the polynomial space, and find its dimension.
+3. (Subspaces.) Give two subspaces of $\mathbb{R}^2$ whose union is not a
+   subspace, and compute the smallest subspace containing both.
+4. (Null space.) Show that the solution set of a *homogeneous* system $Ax = 0$
+   is a subspace, and identify exactly which step fails when $b \neq 0$.
+5. (Functional analysis.) Show that the set of solutions of $y'' + y = 0$ is a
+   two-dimensional vector space, and find a basis. Then explain why this makes
+   "general solution" a precise statement.
+6. (Research.) Show that the axiom "every vector space has a basis" implies
+   the axiom of choice. This is why infinite-dimensional bases are
+   unconstructible and why analysis avoids them.
 
 ## Cross-References
 
