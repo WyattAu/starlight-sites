@@ -6,7 +6,7 @@ interface Props {
   description: string
 }
 
-const { title, description } = Astro.props
+const { title, description, fullBleed = false } = Astro.props
 
 // SEO-optimized title and description
 const seoTitle = "Wyatt's Notes | Free Study Notes for IB, A-Level, GCSE, AP, DSE, University STEM"
@@ -261,22 +261,31 @@ const ogImage = `${siteUrl}/img/social-card.svg`
     });
   </script>
 
-  <div class="container">
-    <main id="main-content">
-      <slot />
-    </main>
+    {
+      /* fullBleed pages own their <main> and <footer>. Wrapping them here
+         produced two <main> landmarks and a footer rendered twice, and capped
+         a full-viewport hero inside a 1200px container. */
+      fullBleed ? (
+        <slot />
+      ) : (
+        <div class="container">
+          <main id="main-content">
+            <slot />
+          </main>
 
-    <footer>
-      <div class="footer-inner">
-        <div class="footer-text">2026 Wyatt Au. Licensed under AGPLv3.</div>
-        <div class="footer-links">
-          <a href="https://github.com/WyattAu/starlight-sites" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://search.wyattau.com/" target="_blank" rel="noopener noreferrer">Search</a>
-          <a href="https://github.com/WyattAu/starlight-sites/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer">License</a>
+          <footer>
+            <div class="footer-inner">
+              <div class="footer-text">2026 Wyatt Au. Licensed under AGPLv3.</div>
+              <div class="footer-links">
+                <a href="https://github.com/WyattAu/starlight-sites" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://search.wyattau.com/" target="_blank" rel="noopener noreferrer">Search</a>
+                <a href="https://github.com/WyattAu/starlight-sites/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer">License</a>
+              </div>
+            </div>
+          </footer>
         </div>
-      </div>
-    </footer>
-  </div>
+      )
+    }
 
   <script>
     if ('serviceWorker' in navigator) {
