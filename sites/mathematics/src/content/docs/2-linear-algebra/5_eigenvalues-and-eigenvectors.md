@@ -5,7 +5,7 @@ title: "Eigenvalues and Eigenvectors"
 tags:
   - Mathematics
   - University
-description: 'Let . A scalar is an of if there Exists a non-zero vector such that Comprehensive educational content coverage with definitions and practice problems.'
+description: "Eigenvalues and eigenvectors: the characteristic polynomial, diagonalisation, the Cayley-Hamilton theorem, Jordan normal form, and the spectral theorem for real symmetric matrices -- with what each is for, why not every matrix is diagonalisable, and what you get instead. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -16,6 +16,60 @@ description: 'Let . A scalar is an of if there Exists a non-zero vector such tha
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "5_eigenvalues And Eigenvectors", "url": "https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define an eigenvalue and an eigenvector.
+- How do you find them? Write the equation whose roots they are.
+- What does it mean for a matrix to be diagonalisable, and what is the
+  condition?
+- State the Cayley-Hamilton theorem.
+- What does the spectral theorem guarantee for a real symmetric matrix, and why
+  is that matrix class special?
+
+Check your answers against the text. Prompt 3 is the one that separates
+computing eigenvalues from understanding the map: the condition is about
+eigenvectors, not eigenvalues.
+
+## Motivation: eigenvectors are the directions the map does not rotate
+
+A linear map mixes coordinates. Almost every vector you feed in comes out
+pointing somewhere unrelated. The eigenvectors are the exceptions: they come
+out pointing along themselves, changed only in length.
+
+That is the whole idea, and everything else follows from wanting to exploit it.
+If a basis of eigenvectors exists, then in that basis the map does nothing but
+scale each coordinate independently -- which is what diagonalisation *is*. A
+hard coupled problem becomes $n$ easy uncoupled ones.
+
+**The characteristic polynomial is where the eigenvalues hide.** An
+eigenvector satisfies $(A - \lambda I)v = 0$ with $v \neq 0$, which is possible
+only when $A - \lambda I$ is singular, so
+
+$$
+\det(A - \lambda I) = 0 .
+$$
+
+That determinant is a polynomial of degree $n$, so an $n \times n$ matrix has
+$n$ eigenvalues counted with multiplicity -- over $\mathbb{C}$, always. Over
+$\mathbb{R}$ it may have none at all, and a rotation is the standard example.
+
+**Not every matrix is diagonalisable, and Jordan form is what you get instead.**
+Diagonalisability is a statement about *eigenvectors*: you need $n$ of them,
+independent. A repeated eigenvalue may come with fewer independent
+eigenvectors than its algebraic multiplicity, and the missing directions are
+supplied by generalised eigenvectors -- which is what a Jordan block records.
+The distinction between algebraic and geometric multiplicity is the entire
+content of section 5.5.
+
+**Why symmetric matrices are the special case.** A real symmetric matrix is
+always diagonalisable, *by an orthogonal matrix*, and always has real
+eigenvalues. That is the spectral theorem, and it is why symmetric matrices are
+the ones that appear as observables in quantum mechanics and as quadratic forms
+in geometry: their eigenbases are orthonormal, so the change of basis costs
+nothing geometrically.
 
 ### 5.1 Definitions
 
@@ -414,6 +468,81 @@ $\blacksquare$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "5_eigenvalues And Eigenvectors", "url": "https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors"}]
 }
 </script>
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Every square matrix is diagonalisable | no | $\begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ is nilpotent with one eigenvalue and only one eigenvector |
+| Every real matrix has real eigenvalues | no | a rotation by $90^\circ$ has eigenvalues $\pm i$ |
+| Distinct eigenvalues imply diagonalisable | yes | but the converse fails: the identity matrix has one eigenvalue and is diagonalisable |
+| A repeated eigenvalue implies a defective matrix | no | $I$ has eigenvalue $1$ with multiplicity $n$ and a full eigenspace |
+| Algebraic and geometric multiplicity are equal | no | they are equal exactly when the matrix is diagonalisable; the Jordan block is the counterexample |
+| $AB$ and $BA$ have different eigenvalues | no | they have the same characteristic polynomial, even when $A$ and $B$ are rectangular |
+| The spectral theorem holds for all square matrices | no | it needs a normal matrix; symmetric, Hermitian, unitary and orthogonal are the standard special cases |
+| Eigenvalues are continuous in the matrix entries | yes | but eigenvectors need not be, and that failure is what pseudospectra measure |
+
+The first row is the one to internalise, because everything else on the page is
+organised around it. The question "is this matrix diagonalisable?" is not about
+the eigenvalues -- it is about whether there are enough *eigenvectors*, and
+eigenvalues only ever give you a necessary condition.
+
+The last row is the numerical point. Eigenvalues are well-behaved; eigenvectors
+of a non-normal matrix can move discontinuously under an arbitrarily small
+perturbation, which is why stability analysis of non-normal systems is subtle.
+
+## Where the research frontier is
+
+- **The QR algorithm.** Computing eigenvalues is one of the ten algorithms with
+  the greatest influence on science and engineering in the twentieth century,
+  and it works by iterating a factorisation until the matrix converges to
+  Schur form.
+- **Random matrix theory.** The distribution of eigenvalues of a large random
+  matrix is universal -- it does not depend on the distribution of the entries
+  -- and the semicircle law and Tracy-Widom distribution now appear in number
+  theory and physics.
+- **Pseudospectra.** For non-normal matrices the spectrum is the wrong object:
+  the $\epsilon$-pseudospectrum describes what actually governs transient growth,
+  and it can be enormous when the spectrum looks innocuous.
+- **Spectral graph theory.** The eigenvalues of a graph's adjacency or Laplacian
+  matrix determine connectivity, expansion and random-walk behaviour, which is
+  the mathematical engine behind PageRank.
+- **Generalised and polynomial eigenvalue problems.** $Av = \lambda Bv$ arises
+  in vibration analysis, and the theory is richer because $B$ may be singular.
+
+## Interleaving problems
+
+Mix these with [Systems of Linear
+Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Systems of
+Differential
+Equations](/5-ordinary-differential-equations/2_first-order-odes/), [Spectral
+Theory](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/),
+[Representation
+Theory](/15-graduate-representation-theory/1_representation-theory-of-finite-groups/)
+and [Quantum
+Operators](https://physics.wyattau.com/5-quantum-mechanics/4_operators-and-observables/).
+
+1. (Determinants.) Derive the characteristic polynomial of
+   $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ and show that its roots
+   satisfy $\lambda^2 - (\operatorname{tr}A)\lambda + \det A = 0$. That identity
+   is the $2 \times 2$ case of Cayley-Hamilton.
+2. (Differential equations.) Diagonalise the system $\dot{x} = Ax$ for
+   $A = \begin{pmatrix} 0 & 1 \\ -2 & 3 \end{pmatrix}$ and write the general
+   solution. The eigenvalues are the exponents -- explain what a defective
+   eigenvalue does to the solution, and why the answer involves $te^{\lambda t}$.
+3. (Spectral theory.) State the spectral theorem for self-adjoint operators and
+   identify exactly which part of the finite-dimensional proof fails. That
+   failure is why the theorem is a theorem.
+4. (Representation theory.) Show that a representation of a finite group makes
+   every group element diagonalisable, since some power of each element is the
+   identity. Then explain why that fact gives the group algebra the structure
+   the character theory needs.
+5. (Quantum mechanics.) Explain why an observable must be a self-adjoint
+   operator in terms of the spectral theorem: real eigenvalues, orthonormal
+   eigenbasis, and somewhere for the Born-rule probabilities to live.
+6. (Numerical analysis.) Describe the power method: iterating $x, Ax, A^2x,
+   \ldots$ converges to the dominant eigenvector. Show why, and explain what
+   happens when the two largest eigenvalues are equal in magnitude.
 
 ## Cross-References
 
