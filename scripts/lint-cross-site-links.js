@@ -32,6 +32,9 @@ const ADVISORY = process.argv.includes('--advisory')
 /** Absolute link to a wyattau.com zone, capturing host and path. */
 const LINK = /\]\(\s*(https?:\/\/([a-z0-9-]+)\.wyattau\.com)(\/[^)\s#]*)?/g
 
+/** Internal-style link, i.e. one written relative to the current site. */
+const INTERNAL = /\]\(\s*(\/[^)\s#]*)\s*\)/g
+
 function walk(dir, out = []) {
   if (!fs.existsSync(dir)) return out
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -114,7 +117,26 @@ for (const site of fs.readdirSync(SITES_DIR, { withFileTypes: true })) {
 }
 
 const dead = []
+const misfiled = []
 let checked = 0
+
+/**
+ * An internal-style link `/x` is misfiled when it does not exist on the site
+ * it was written on, but exists on exactly one other site. That is
+ * unambiguous: the author used a route from the wrong site, and the repair is
+ * the absolute URL. This caught three such links across two pages in one
+ * session, all pointing at physics routes from mathematics pages.
+ */
+function sourceSiteOf(file) {
+  const parts = file.split(path.sep)
+  const i = parts.indexOf('sites')
+  return i === -1 ? null : parts[i + 1]
+}
+
+function sourceRoutesOf(slug, allRoutes) {
+  const host = domainOf(path.join(SITES_DIR, slug))
+  return host ? allRoutes.get(host) : null
+}
 
 for (const file of walk(SITES_DIR)) {
   if (!/\.mdx?$/.test(file)) continue
@@ -126,7 +148,30 @@ for (const file of walk(SITES_DIR)) {
   } catch {
     continue
   }
+  const ownSlug = sourceSiteOf(rel)
+  const ownRoutes = ownSlug ? byHost.get(domainOf(path.join(SITES_DIR, ownSlug))) : null
+
   let m
+  INTERNAL.lastIndex = 0
+  while ((m = INTERNAL.exec(text)) !== null) {
+    const target = m[1] || '/'
+    if (target === '/') continue
+    const n = normalise(target)
+    const hits = []
+    for (const [host, routes] of byHost) {
+      if (ownRoutes === routes) continue
+      if (routes.has(n)) hits.push(host)
+    }
+    // Exactly one other site has it, and the source site does not.
+    if (ownRoutes && !ownRoutes.has(n) && hits.length === 1) {
+      const line = text.slice(0, m.index).split('\n').length
+      misfiled.push(
+        `${rel}:${line} -> ${n} exists only on ${hits[0]}.wyattau.com (written as an internal link)`,
+      )
+    }
+  }
+
+  m = null
   LINK.lastIndex = 0
   while ((m = LINK.exec(text)) !== null) {
     const host = m[2]
@@ -143,6 +188,12 @@ for (const file of walk(SITES_DIR)) {
 
 for (const host of [...unvalidated].sort()) {
   console.log(`  note: not validating links to ${host}.wyattau.com (non-standard routing)`)
+}
+
+if (misfiled.length) {
+  console.log(`Found ${misfiled.length} cross-site link(s) written as internal:`)
+  for (const d of misfiled.slice(0, 25)) console.log(`  ${d}`)
+  if (misfiled.length > 25) console.log(`  ...and ${misfiled.length - 25} more`)
 }
 
 if (dead.length) {

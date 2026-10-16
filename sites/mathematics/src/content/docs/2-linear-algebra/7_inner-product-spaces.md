@@ -5,7 +5,7 @@ title: "Inner Product Spaces"
 tags:
   - Mathematics
   - University
-description: 'An on a vector space over (where or ) is a Function satisfying: Comprehensive educational content coverage with definitions and practice problems.'
+description: "Inner product spaces: the axioms, the norm they induce, orthogonality, the Gram-Schmidt process, orthogonal projection and why it is the closest point, least squares approximation, and the L^2 case. An inner product is the extra structure that gives a vector space lengths, angles and a notion of perpendicular. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -16,6 +16,53 @@ description: 'An on a vector space over (where or ) is a Function satisfying: Co
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "7_inner Product Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/7_inner-product-spaces"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- State the three defining properties of an inner product.
+- Why is the conjugate symmetry
+  $\langle u, v\rangle = \overline{\langle v, u\rangle}$ rather than plain
+  symmetry?
+- Write the norm induced by an inner product.
+- State the Cauchy-Schwarz inequality. What does it let you define?
+- What is the orthogonal complement of a subspace?
+
+Check your answers against the text. Prompt 2 is the one that matters for
+quantum mechanics: without the conjugate, a complex vector space could not have
+$\langle v, v\rangle \ge 0$.
+
+## Motivation: an inner product is the structure you have to *add*
+
+A vector space has no lengths and no angles. You cannot ask whether two vectors
+are perpendicular, because nothing in the eight axioms mentions geometry. That
+is not an oversight -- it is what makes the definition apply to so many things.
+
+An inner product is the extra structure that supplies all of it. Given one,
+you get:
+
+- a **norm**, $\lVert v\rVert = \sqrt{\langle v, v\rangle}$;
+- **angles**, through the Cauchy-Schwarz inequality
+  $\lvert\langle u,v\rangle\rvert \le \lVert u\rVert\lVert v\rVert$, which
+  makes $\cos\theta = \frac{\langle u,v\rangle}{\lVert u\rVert\lVert v\rVert}$
+  well defined;
+- **orthogonality**, $\langle u, v\rangle = 0$;
+- and, most usefully, the ability to *decompose* a vector into independent
+  pieces.
+
+**Why the conjugate matters.** Over $\mathbb{R}$ symmetry is enough. Over
+$\mathbb{C}$, plain symmetry would force $\langle v, v\rangle$ to be complex,
+and then $\lVert v\rVert$ has no meaning. Requiring conjugate symmetry makes
+$\langle v,v\rangle$ real, so positivity can be stated, and it is the reason
+quantum mechanical inner products are $\langle\phi|\psi\rangle$ rather than
+$\langle\psi|\phi\rangle$.
+
+**Orthogonal projection is why any of this is practical.** Given a subspace,
+every vector splits uniquely into a piece inside it and a piece perpendicular
+to it. The inside piece is the *best approximation* the subspace can offer --
+and "best approximation given a subspace" is precisely what least squares asks.
+The entire theory of fitting data to a model is an orthogonal projection.
 
 ### 7.1 Definition of an Inner Product
 
@@ -302,6 +349,74 @@ The Cauchy-Schwarz inequality is the foundation: it says the "correlation" betwe
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "7_inner Product Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/7_inner-product-spaces"}]
 }
 </script>
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Every norm comes from an inner product | no | the $\ell^1$ and $\ell^\infty$ norms on $\mathbb{R}^2$ do not; only the $\ell^2$ norm does |
+| Orthogonal vectors are independent | no | only if they are *non-zero*; $\langle 0, v\rangle = 0$ for every $v$ |
+| An orthogonal set is automatically a basis | no | it must also span; orthogonality gives independence for free but not spanning |
+| Cauchy-Schwarz is a special case of something stronger | yes | it is the case $k=2$ of Hölder's inequality, and the proof technique is the same |
+| Gram-Schmidt changes the span | no | it produces an orthonormal basis *for the same space* at every step |
+| The orthogonal projection is the closest point | yes | and this is a theorem, not a definition -- it is what makes least squares meaningful |
+| Inner products are unique | no | $\langle u,v\rangle = u^Tv$ and $\langle u,v\rangle = 2u^Tv$ both satisfy the axioms |
+| Two vectors with zero inner product must have zero length | no | $\langle (1,0), (0,1)\rangle = 0$ and both have length one |
+
+The first row is the one that shapes functional analysis. A norm comes from an
+inner product exactly when it satisfies the parallelogram law, and spaces whose
+norms fail that -- $\ell^1$, $\ell^\infty$, $C[0,1]$ with the sup norm -- are
+the ones where orthogonal projection and least squares stop working. That is
+why $L^2$ is the Hilbert space that appears in quantum mechanics rather than
+$L^p$ for other $p$.
+
+## Where the research frontier is
+
+- **Hilbert spaces.** Completing an inner product space gives a Hilbert space,
+  and everything finite-dimensional carries over except compactness of the unit
+  ball. That is the boundary crossed on the [functional analysis
+  track](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
+- **Numerical stability of Gram-Schmidt.** The classical algorithm is
+  numerically unstable and the modified version is not; why, and what that
+  costs, is an active question in numerical analysis.
+- **Frames.** Generalising bases to overcomplete spanning sets, which is what
+  makes robust signal representation possible; the theory is still developing.
+- **Reproducing kernel Hilbert spaces.** Inner products on spaces of functions,
+  which is the mathematical foundation of Gaussian processes and kernel methods
+  in machine learning.
+- **Quantum information.** The geometry of the Bloch sphere is inner-product
+  geometry, and distinguishing quantum states is a question about how their
+  inner products behave.
+
+## Interleaving problems
+
+Mix these with [Eigenvalues and
+Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/), [Vectors and
+Vector Spaces](/2-linear-algebra/1_vectors-and-vector-spaces/), [Quantum
+Operators](https://physics.wyattau.com/5-quantum-mechanics/4_operators-and-observables/), [Inner Product
+and Hilbert
+Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/) and
+[Spectral Theory](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/).
+
+1. (Axioms.) Show that $\langle u, v\rangle = u^T \begin{pmatrix} 2 & 0 \\ 0 &
+   1 \end{pmatrix} v$ satisfies the inner product axioms on $\mathbb{R}^2$,
+   and find the unit circle under the norm it induces.
+2. (Norms.) Show that the $\ell^1$ norm on $\mathbb{R}^2$ fails the
+   parallelogram law, and conclude that it does not come from an inner
+   product.
+3. (Gram-Schmidt.) Apply Gram-Schmidt to $\{(1,1,0), (1,0,1), (0,1,1)\}$ in
+   $\mathbb{R}^3$, and verify the result is orthonormal. Then explain why the
+   third vector changes when the first is rescaled.
+4. (Least squares.) Show that the least-squares solution of $Ax = b$ solves the
+   normal equations $A^TAx = A^Tb$, by writing $b$ as its projection onto the
+   column space plus an orthogonal remainder.
+5. (Quantum mechanics.) Show that the Born rule
+   $P(a_n) = |\langle a_n|\psi\rangle|^2$ is a statement about orthogonal
+   projection, and explain why probabilities must be projection norms rather
+   than inner products.
+6. (Spectral theory.) Show that a self-adjoint operator has orthogonal
+   eigenvectors for distinct eigenvalues, using the inner product rather than
+   determinants. That is the finite-dimensional seed of the spectral theorem.
 
 ## Cross-References
 
