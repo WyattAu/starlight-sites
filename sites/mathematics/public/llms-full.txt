@@ -14323,6 +14323,57 @@ URL: https://mathematics.wyattau.com/2-linear-algebra/8_singular-value-decomposi
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- State the SVD of a matrix $A$. What are the shapes of the three factors?
+- Does every matrix have one? What about a non-square matrix?
+- How are the singular values related to the eigenvalues of $A^TA$?
+- State the Eckart-Young theorem.
+- What is the condition number, and what does a large one tell you?
+
+Check your answers against the text. Prompt 2 is the one that separates the
+SVD from the spectral theorem: the spectral theorem needs a square, normal
+matrix, and the SVD does not care.
+
+## Motivation: the theorem that works for every matrix
+
+Diagonalisation is the tool of section 5, and it has a catch: it needs a
+square matrix with a full set of eigenvectors. Rectangular matrices -- the ones
+that describe data, transformations between different spaces, and every
+least-squares problem -- are left out.
+
+The singular value decomposition removes every one of those restrictions. Any
+$m \times n$ matrix, real or complex, singular or not, admits a factorisation
+
+$$
+A = U\Sigma V^T,
+$$
+
+with $U$ and $V$ orthogonal and $\Sigma$ diagonal with non-negative entries.
+Those entries are the **singular values**, and they are the answer to a
+geometric question rather than an algebraic one.
+
+**The geometric picture is the best way in.** Every linear map does three
+things, in this order: rotate, scale along the axes, rotate again. That is all
+the SVD says. The columns of $V$ are the directions in the domain that get
+mapped to the directions of $U$ in the codomain, and $\Sigma$ says how much
+each is stretched.
+
+**Why the singular values are what they are.** They are the square roots of the
+eigenvalues of $A^TA$, which is symmetric and positive semidefinite -- so the
+spectral theorem applies and the square roots are real and non-negative. That
+is the whole relationship to section 5: the SVD is the spectral theorem applied
+to $A^TA$, written so that it says something about $A$.
+
+**What it buys you.** The Eckart-Young theorem says that truncating the SVD to
+the largest $k$ singular values gives the *best* rank-$k$ approximation, in the
+least-squares sense -- not a good approximation, the best one. That single
+theorem is the basis of data compression, principal component analysis, noise
+reduction and recommender systems, and it is why the SVD is the most useful
+theorem in applied linear algebra.
+
 ### 8.1 Existence of the SVD
 
 **Theorem 8.1 (Singular Value Decomposition).** Every matrix
@@ -14644,6 +14695,75 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
 - **The SVD and eigendecomposition are different decompositions.** The SVD always exists for any
   matrix, but the eigendecomposition requires the matrix to be square. Even for symmetric matrices,
   the singular values are $|\lambda_i|$ Not $\lambda_i$.
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Singular values are eigenvalues | no | they are the square roots of the eigenvalues of $A^TA$, which are not eigenvalues of $A$; for a non-symmetric $A$ they differ |
+| Only square matrices have an SVD | no | every $m \times n$ matrix has one, and that is the whole point |
+| The singular values are distinct | no | repeated singular values are common and make the factors $U$ and $V$ non-unique |
+| The SVD is unique | no | $\Sigma$ is unique up to ordering, but $U$ and $V$ are not unique when singular values coincide |
+| Zero singular values mean the matrix is useless | no | they tell you the rank, and the corresponding right singular vectors span the null space -- which is what you want when solving $Ax = 0$ |
+| A large condition number means the answer is wrong | no | it means the answer may be *sensitive*; the computed solution can still be accurate if the data is exact |
+| Truncating the SVD loses information | yes, and that is the point | the rank-$k$ truncation is the closest rank-$k$ matrix there is, so what is lost is the part that is least well determined |
+| The pseudoinverse is computed by inverting $A$ | no | it is computed from the SVD by inverting the non-zero singular values, which works when $A$ is not invertible at all |
+
+The first row is the most common confusion, and it is worth being precise:
+for a symmetric positive semidefinite $A$ the singular values and eigenvalues
+*coincide*, and that special case is why the two ideas get muddled.
+
+The condition number row is the practical one. $\kappa(A) = \sigma_{\max} /
+\sigma_{\min}$ measures how much a relative error in the input can be amplified,
+and a large value is why some linear systems cannot be solved reliably no
+matter how good the algorithm is.
+
+## Where the research frontier is
+
+- **Randomised numerical linear algebra.** Computing a rank-$k$ SVD by sampling
+  rather than by exact factorisation, which is how very large matrices are
+  handled in practice.
+- **Robust low-rank approximation.** Eckart-Young is optimal in least squares,
+  which is catastrophic under outliers; replacing the norm is the active
+  question.
+- **Matrix completion.** The Netflix problem: recover a matrix from a tiny
+  sample of entries, using low rank as the prior, with theory that is still
+  being sharpened.
+- **Tensor decompositions.** The SVD does not generalise uniquely to higher
+  orders, and the competing generalisations -- CP, Tucker, tensor train -- are
+  an active design space.
+- **Non-negative matrix factorisation.** Restricting the factors to be
+  non-negative makes the problem non-convex but interpretable, and the theory
+  is far less complete than for the SVD.
+
+## Interleaving problems
+
+Mix these with [Eigenvalues and
+Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/), [Inner Product
+Spaces](/2-linear-algebra/7_inner-product-spaces/), [Systems of Linear
+Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Real Analysis](https://mathematics.wyattau.com/3-real-analysis/3_series/).
+
+1. (Eigenvalues.) Show that the singular values of $A$ are the square roots of
+   the eigenvalues of $A^TA$, and hence that the largest singular value equals
+   the operator norm $\lVert A \rVert_2$. Then compute both for a rotation
+   matrix and explain the answer.
+2. (Inner product spaces.) Prove that the best rank-$k$ approximation in the
+   Frobenius norm keeps the $k$ largest singular values. Identify which part of
+   the proof uses orthogonality and would fail in a general norm.
+3. (Systems of equations.) Use the SVD to write down the solution of
+   $Ax = b$ of minimum norm when $A$ is rank-deficient, and explain what the
+   small singular values do to it.
+4. (Optimisation.) Principal component analysis centres a data matrix and takes
+   its SVD. Show that the leading right singular vectors maximise the projected
+   variance, which is why PCA is an optimisation problem rather than a
+   definition.
+5. (Numerical analysis.) A matrix with condition number $10^{16}$ cannot be
+   reliably inverted in double precision. Explain what that number means in
+   terms of the singular values, and why it is a statement about the problem
+   rather than the algorithm.
+6. (Research.) State the Eckart-Young theorem precisely and explain why it
+   fails if the Frobenius norm is replaced by the operator norm -- and what the
+   correct answer is in that norm.
 
 ## Cross-References
 
