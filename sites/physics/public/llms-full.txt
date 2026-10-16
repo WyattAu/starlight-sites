@@ -26729,7 +26729,60 @@ URL: https://physics.wyattau.com/5-quantum-mechanics/13_scattering-theory/
 }
 </script>
 
-### 12.1 Partial Wave Analysis
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- What is a cross-section, and what are its dimensions?
+- Write the partial wave expansion of the scattering amplitude.
+- What is a phase shift, and what does $\delta_l = 0$ mean physically?
+- State the Born approximation and the condition for it to be valid.
+- What is the difference between a bound state and a resonance?
+
+Check your answers against the text. Prompt 1 is the one that connects this
+page to experiment: everything on it exists to predict a number someone can
+measure.
+
+## Motivation: scattering is how anything is known
+
+Nobody has ever seen an atomic nucleus. What Rutherford saw in 1911 was that
+alpha particles occasionally came *backwards*, and he inferred from the angular
+distribution that the positive charge was concentrated in a region $10^5$
+times smaller than the atom.
+
+That is the pattern for the whole subject, and it has not changed. The
+electron's magnetic moment, the proton's internal structure, the existence of
+the up and down quarks -- every one of these was inferred from how something
+scattered off something else. Scattering theory is not one topic among many;
+it is the interface between theory and experiment at every scale.
+
+**The central object is the scattering amplitude $f(\theta)$.** Far from the
+target the wave function is a plane wave plus an outgoing spherical wave:
+
+$$
+\psi \sim e^{ikz} + f(\theta)\,\frac{e^{ikr}}{r},
+$$
+
+and $f(\theta)$ contains everything. The differential cross-section is
+$|f(\theta)|^2$, the total cross-section is its integral, and resonances show
+up as rapid variation of its phase. Solving a scattering problem means finding
+one complex-valued function of one angle.
+
+**Why expand in partial waves.** A central potential is spherically symmetric,
+so angular momentum is conserved and each $l$ evolves independently. That
+decomposes a problem in three dimensions into a stack of one-dimensional
+problems -- one radial equation per $l$ -- each with a single number to
+describe it, the phase shift $\delta_l$. The amplitude becomes
+
+$$
+f(\theta) = \frac{1}{k}\sum_l (2l+1)\,e^{i\delta_l}\sin\delta_l\,P_l(\cos\theta),
+$$
+
+and the physics of a complicated 3D collision is now a list of angles. This is
+the same move as diagonalising an operator: the basis in which the problem
+decouples is the one worth using.
+
+### 13.1 Partial Wave Analysis
 
 For a spherically symmetric potential $V(r)$ The scattering amplitude can be expanded in partial
 waves:
@@ -26753,7 +26806,7 @@ $$
 \sigma_l^{\max} = \frac{4\pi}{k^2}(2l + 1)
 $$
 
-### 12.2 The Born Approximation
+### 13.2 The Born Approximation
 
 For a weak potential, the scattering amplitude to first order is:
 
@@ -26772,7 +26825,7 @@ $$
 
 Setting $\mu = 0$ (Coulomb potential), this reproduces the Rutherford scattering formula.
 
-### 12.3 Resonance Scattering
+### 13.3 Resonance Scattering
 
 When the scattering energy is near a quasi-bound state, the phase shift passes through $\pi/2$
 (resonance):
@@ -26979,6 +27032,80 @@ As $k \to 0$: $a_s \to \pm\infty$ (diverges), changing sign as the bound state a
 Scattering theory extracts information about forces by firing particles at targets and analyzing how they deflect. The differential cross-section tells you the probability of scattering into a given solid angle, and it is directly measurable. For a central potential, the scattering amplitude is decomposed into partial waves, each corresponding to a specific angular momentum. The scattering length characterizes low-energy scattering and diverges when a new bound state appears, signaling a resonance. The optical theorem connects the total cross-section to the forward scattering amplitude, reflecting the fact that particles removed from the forward beam must go somewhere. Partial wave analysis turns a complex three-dimensional scattering problem into a sum of one-dimensional problems.
 
 </details>
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| The quantum cross-section of a hard sphere matches the classical one | no | low-energy $s$-wave scattering gives $\sigma = 4\pi a^2$, four times the classical $\pi a^2$, because the wave diffracts around the sphere |
+| A resonance is a bound state | no | it is a *quasi*-bound state: metastable, with a finite lifetime, appearing as a pole of the $S$-matrix on the unphysical sheet rather than on the real axis |
+| The Born approximation needs a weak potential | incomplete | it needs $\lvert V\rvert$ small compared with the kinetic energy *and* the potential to vary slowly on the scale of the wavelength |
+| Higher partial waves matter at low energy | no | the centrifugal barrier suppresses them, and only the $l = 0$ wave contributes; that is why low-energy cross-sections are isotropic |
+| Phase shifts are small for weak scattering | not necessarily | a resonance makes $\delta_l$ swing through $\pi$ rapidly even for a weak potential |
+| Cross-sections cannot exceed the geometric size | no | the hard-sphere result above is *larger*, and a resonance can exceed it by orders of magnitude |
+| Scattering conserves probability, so $S$ is unitary | yes | and this is the constraint that makes the phase shifts real for real potentials |
+
+The first row is the one that most strongly marks the difference between
+classical and quantum intuition. A classical ball bearing thrown at a
+basketball is shadowed by it; a long-wavelength quantum particle is *diffracted*
+by it, and the forward diffraction adds exactly the extra $3\pi a^2$.
+
+The third row is the one that catches people applying the Born approximation to
+a Coulomb field, where it fails not because the potential is strong but because
+it is long-ranged, and the amplitude has to be treated separately.
+
+## Where the research frontier is
+
+- **The inverse scattering problem.** Given the scattering data, can the
+  potential be reconstructed? In one dimension the answer is yes, exactly, via
+  the Gel'fand-Levitan equation -- and that result is the mathematical
+  foundation of soliton theory.
+- **Few-body scattering.** Three bodies do not reduce to pairwise problems, and
+  the Faddeev equations are the framework; Efimov states, where three bodies
+  bind even though no pair does, are the celebrated prediction.
+- **Scattering in quantum field theory.** The $S$-matrix is the central object
+  and its analyticity properties are what make dispersion relations possible;
+  the modern amplitudes programme tries to compute it without a Hamiltonian at
+  all.
+- **Cold atoms and Feshbach resonances.** A magnetic field tunes a resonance
+  through threshold, letting experimentalists dial the interaction strength
+  between two atoms from zero to infinity. That control is what makes
+  precision many-body physics possible.
+- **Scattering and quantum chaos.** How chaotic classical dynamics shows up in
+  scattering data -- through the statistics of resonance spacings -- connects
+  to random matrix theory.
+
+## Interleaving problems
+
+Mix these with [one-dimensional
+problems](/5-quantum-mechanics/5_one-dimensional-problems/), [angular
+momentum](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/),
+[approximation
+methods](/5-quantum-mechanics/8_approximation-methods/), [Symplectic Structure
+and KAM Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/)
+and [Ordinary Differential
+Equations](https://mathematics.wyattau.com/5-ordinary-differential-equations/1_introduction-and-classification/).
+
+1. (Angular momentum.) Derive the partial wave expansion by expanding a plane
+   wave in spherical harmonics and identifying each $l$ term as an incoming and
+   an outgoing wave. Show that only the phase of each can change, and that this
+   is why one number per $l$ suffices.
+2. (Operators.) Prove that the $S$-matrix is unitary for a real potential, and
+   explain why unitarity is what makes the phase shifts real. What goes wrong
+   with absorption?
+3. (One-dimensional problems.) Show that the 1D transmission and reflection
+   coefficients of the barrier problem are the $l = 0$ partial-wave result in
+   disguise, and identify what the higher $l$ waves add in three dimensions.
+4. (Approximation methods.) Derive the Born approximation as first-order
+   perturbation theory in $\hat{V}$, and show that it is the Fourier transform
+   of the potential evaluated at the momentum transfer. Then explain why that
+   makes electron diffraction a way of *photographing* potentials.
+5. (Classical mechanics.) Derive the Rutherford cross-section classically from
+   the Coulomb force, and show that quantum mechanics gives the same answer.
+   That agreement is unusual -- identify what makes it work.
+6. (Research.) State the Gel'fand-Levitan equation and explain in what sense it
+   solves the inverse problem exactly. Why does the reconstruction need the
+   *bound state* data as well as the scattering data?
 
 ## Cross-References
 
