@@ -196,6 +196,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Probability-And-Statistics
 
+- [Estimation And Hypothesis Testing](https://mathematics.wyattau.com/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
 - [Flashcards Probability Statistics](https://mathematics.wyattau.com/8-probability-and-statistics/7_flashcards-probability-statistics/)
 - [Index](https://mathematics.wyattau.com/8-probability-and-statistics/)
 - [Joint Distributions And Independence](https://mathematics.wyattau.com/8-probability-and-statistics/3_joint-distributions-and-independence/)

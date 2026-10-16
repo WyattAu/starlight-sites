@@ -302,7 +302,8 @@ Probability theory provides the mathematical framework for uncertainty. Starting
 - [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/), marginal and conditional distributions, covariance, and correlation
 - [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/), law of large numbers and central limit theorem
 - [Transformations and Convolutions](/8-probability-and-statistics/5_transformations-and-convolutions/), changing variables and adding random variables
-- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/), estimation, hypothesis testing, and confidence intervals
+- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/), the combined probability and statistics reference
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/), maximum likelihood, the Cramer-Rao bound, the Neyman-Pearson lemma, p-values and the standard tests
 
 ---
 
