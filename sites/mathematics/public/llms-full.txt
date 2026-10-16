@@ -13555,6 +13555,53 @@ URL: https://mathematics.wyattau.com/2-linear-algebra/3_matrices/
 }
 </script>
 
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- When is $AB$ defined, and what are its dimensions?
+- Is $AB = BA$? Give a counterexample or say when it holds.
+- What is $\det(AB)$ in terms of $\det(A)$ and $\det(B)$?
+- What does the determinant measure geometrically?
+- When is a matrix invertible, in three equivalent ways?
+
+Check your answers against the text. Prompt 2 is the one that distinguishes
+matrix algebra from the algebra you learned at school, and the failure is not
+an anomaly -- it is what makes order matter.
+
+## Motivation: a matrix is a map, and the algebra records composition
+
+A matrix is presented as a rectangular array of numbers. That is the
+*notation*, not the *object*. A matrix is a linear map, written in a chosen
+basis, and every operation on matrices is the notation for an operation on
+maps.
+
+Multiplication is the clearest example. If $A$ and $B$ are maps, then
+$(AB)v = A(Bv)$ means "apply $B$ first, then $A$" -- multiplication *is*
+composition, which is why the order cannot be arbitrary and why the middle
+dimensions must agree. Once that is internalised, several rules stop being
+things to remember:
+
+- $AB \neq BA$ because doing things in a different order is genuinely
+  different -- rotating then scaling is not scaling then rotating.
+- $(AB)^T = B^TA^T$ because reversing a composition reverses the order.
+- $\det(AB) = \det(A)\det(B)$ because the determinant measures how a map
+  scales *volume*, and volumes scale multiplicatively under composition.
+
+**The determinant measures volume.** For a $2\times2$ matrix it is the
+(oriented) area of the image of the unit square; for $3\times3$, the oriented
+volume of the image of the unit cube. A negative determinant means the map
+flips orientation. That single sentence explains the multiplicative rule, why a
+singular matrix has determinant zero (it squashes the cube flat), and why
+$\det(A^{-1}) = 1/\det A$.
+
+**Row reduction beats cofactor expansion.** Cofactor expansion is $O(n!)$ and
+row reduction is $O(n^3)$; at $n = 20$ the difference is already
+$2.4 \times 10^{18}$ operations against $8\times10^3$. The efficient method
+uses the fact that row operations change the determinant in known ways -- swap
+negates, scale multiplies, add leaves alone -- so reduce to upper triangular
+and multiply the diagonal.
+
 ### 3.1 Matrix Operations
 
 An $m \times n$ matrix $A$ over $F$ is a rectangular array of $mn$ elements from $F$ Arranged in $m$
@@ -13921,6 +13968,73 @@ factor of 57. $\blacksquare$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "3_matrices", "url": "https://mathematics.wyattau.com/2-linear-algebra/3_matrices"}]
 }
 </script>
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| $AB = BA$ | no | $\begin{pmatrix}0&1\\0&0\end{pmatrix}\begin{pmatrix}1&0\\0&0\end{pmatrix} \neq$ the reverse, and neither product is zero |
+| $\det(A+B) = \det A + \det B$ | no | take $A = B = I$: $\det(2I) = 2^n$ while $\det I + \det I = 2$ |
+| Every square matrix has an inverse | no | a singular matrix does not, and singularity is detected by $\det A = 0$ |
+| $\det(A + B) = 0$ implies $A$ and $B$ are singular | no | take $A = I$, $B = -I$: both invertible, $\det(A+B) = 0$ |
+| Cofactor expansion is the standard way to compute a determinant | no | it is $O(n!)$; row reduction is $O(n^3)$ and is what software does |
+| $A^2 = A$ implies $A = 0$ or $A = I$ | no | projections satisfy $A^2 = A$ and are neither; they are diagonalisable with eigenvalues $0$ and $1$ |
+| An invertible matrix times a singular one is singular | no | the product of an invertible and a singular matrix *is* singular -- this row is true, and it is worth checking why |
+| $\operatorname{rank}(AB) \le \min(\operatorname{rank}A, \operatorname{rank}B)$ | yes | composition cannot increase rank, which is why multiplying cannot promote a singular matrix to invertible |
+
+The first row is the one to internalise, because non-commutativity is the
+signature of matrices. A good concrete check: rotation matrices in the plane
+*do* commute with each other, and scaling matrices commute with each other, but
+a rotation and a scale in a different order give different results once the
+scale is anisotropic.
+
+The second row is the most commonly assumed linearity that does not hold. The
+determinant is multiplicative, not additive, and the $I, -I$ example is the
+cleanest refutation.
+
+## Where the research frontier is
+
+- **Fast matrix multiplication.** The schoolbook method is $O(n^3)$; Strassen
+  is $O(n^{2.807})$ and the best known bound is around $O(n^{2.37})$. Whether
+  $\Theta(n^2)$ is achievable is a major open problem.
+- **Numerical stability.** LU with partial pivoting is the standard inverse
+  method, and why it is stable in practice despite having exponential worst-case
+  growth factor is still not fully explained.
+- **Structured matrices.** Toeplitz, Hankel and sparse matrices have
+  multiplication costs far below $O(n^3)$, and exploiting structure is where
+  the practical gains are.
+- **Tensor rank.** Rank for higher-order arrays is not unique and is NP-hard to
+  compute, which is a genuinely different world from the matrix case.
+- **Random matrices.** Products of random matrices, and the distribution of
+  their singular values, are central to numerical analysis and to theoretical
+  physics.
+
+## Interleaving problems
+
+Mix these with [Eigenvalues and
+Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/), [Systems of
+Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Vectors
+and Vector Spaces](/2-linear-algebra/1_vectors-and-vector-spaces/), [Singular
+Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/) and
+[Linear Independence, Span, Basis and
+Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/).
+
+1. (Operations.) Show that matrix multiplication is associative by thinking of
+   matrices as maps, rather than by expanding indices.
+2. (Determinants.) Prove $\det(AB) = \det A \det B$ for $2\times2$ matrices by
+   direct computation, then explain why the same identity holds in every
+   dimension and what property of the determinant makes it true.
+3. (Inverses.) Show that a matrix with a zero row cannot be invertible, in
+   three ways: by determinant, by systems of equations, and by maps.
+4. (Eigenvalues.) Show that the eigenvalues of a triangular matrix are its
+   diagonal entries, and hence that the determinant is their product. This is
+   why row reduction to triangular form is how software finds eigenvalues.
+5. (Singular value decomposition.) Show that $\det A$ is the product of the
+   singular values of $A$ up to sign, and explain why the sign is
+   $\operatorname{sign}(\det U \det V)$.
+6. (Rank.) Show that $\operatorname{rank}(AB) \le
+   \operatorname{rank}(A)$ by thinking of the columns of $AB$ as $A$ applied to
+   columns of $B$. Then give an example where the rank strictly drops.
 
 ## Cross-References
 
