@@ -5,7 +5,7 @@ title: Linear Independence, Span, Basis, and Dimension
 tags:
   - Mathematics
   - University
-description: "Study notes for Linear Independence, Span, Basis, and Dimension with worked examples, practice problems, and key concepts for exam preparation."
+description: "Linear independence, span, basis and dimension: the Steinitz exchange lemma, the dimension formula, the rank-nullity theorem and what each is for. Why dimension is the invariant that makes every basis the same size, and why rank plus nullity always equals the number of columns. With recall prompts, counterexamples by name and interleaving problems. Tier U."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -16,6 +16,54 @@ description: "Study notes for Linear Independence, Span, Basis, and Dimension wi
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "2_linear Independence Span Basis And Dimension", "url": "https://mathematics.wyattau.com/2-linear-algebra/2_linear-independence-span-basis-and-dimension"}]
 }
 </script>
+
+## Recall prompts
+
+Attempt these from memory *before* reading.
+
+- Define linear independence.
+- What is a basis, and what two things does it have to do?
+- State the dimension formula and the rank-nullity theorem. How are they
+  related?
+- Does $\mathbb{R}^3$ have a basis of two vectors? Of four?
+- What is the rank of a matrix, in terms of its rows and its columns?
+
+Check your answers against the text. Prompt 4 is the one that makes dimension
+a *theorem* rather than a definition: that you cannot have both is the
+Steinitz exchange lemma.
+
+## Motivation: dimension is the invariant, and it has to be proved
+
+The naive idea is that dimension is the number of coordinates. But "the number
+of coordinates" presupposes a basis, and the whole point of the concept is that
+every basis gives the same number.
+
+Suppose someone hands you $\{(1,0), (0,1), (1,1)\}$ as a basis for
+$\mathbb{R}^2$. Three vectors. Someone else hands you $\{(1,0), (0,1)\}$. Two.
+Both claim to be a basis. If dimension were just "how many vectors", those are
+different answers -- so either the word is broken, or something deeper is going
+on.
+
+**The something deeper is the Steinitz exchange lemma.** An independent set is
+never larger than a spanning set. That single result forces all bases of a
+space to have the same size, and *that* is what makes "dimension" a property of
+the space rather than of a choice of basis. It is the first genuinely
+structural theorem in the subject, and it is why every later result -- rank-
+nullity, the dimension formula, the existence of eigenbases -- can even be
+stated.
+
+**Rank-nullity is the same idea applied to a map.** A linear map $T: V \to W$
+collapses some directions (the kernel) and preserves the rest (the image).
+Nothing is lost: what is collapsed plus what is preserved is everything you
+started with,
+
+$$
+\dim V = \dim\ker T + \dim\operatorname{im} T .
+$$
+
+It reads like arithmetic and it is a theorem about how maps behave, and it is
+the reason a system of equations is either inconsistent, underdetermined, or
+has a unique solution -- with no fourth option.
 
 ### 2.1 Linear Independence
 
@@ -338,6 +386,75 @@ $\blacksquare$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "2_linear Independence Span Basis And Dimension", "url": "https://mathematics.wyattau.com/2-linear-algebra/2_linear-independence-span-basis-and-dimension"}]
 }
 </script>
+
+## Counterexamples worth knowing by name
+
+| Claim | True? | Counterexample |
+| ----- | ----- | -------------- |
+| Any set of vectors that spans is a basis | no | it may not be independent; $\{(1,0),(0,1),(1,1)\}$ spans $\mathbb{R}^2$ and is not a basis |
+| Any independent set is a basis | no | it may not span; a single vector in $\mathbb{R}^2$ is independent and spans a line |
+| A subset of a basis is a basis | no | it is independent but does not span |
+| Adding a vector to a basis gives a basis | no | if it is already in the span the set becomes dependent |
+| Rank equals the number of non-zero rows | no | that is the number of *non-zero rows in row echelon form*; before elimination non-zero rows can be dependent |
+| Rank-nullity applies to any function | no | it needs linearity; a general function has neither a kernel that is a subspace nor an image that is one |
+| An infinite-dimensional space can have a finite basis | no | the existence of a finite basis is the definition of finite-dimensional |
+| Two subspaces of dimensions $p$ and $q$ span a space of dimension $p+q$ | no | they may overlap; $\dim(U+W) = \dim U + \dim V - \dim(U\cap V)$ |
+
+The first four rows are all the same trap from different angles: a basis needs
+*two* properties, and each is easy to satisfy on its own. The definition is
+deliberately two clauses long.
+
+The last row is the one that catches people who remember the dimension formula
+but forget the intersection term, and it is worth writing out the two-plane
+example in $\mathbb{R}^3$ where the planes are distinct: dimensions 2 and 2,
+span 3, intersection 1.
+
+## Where the research frontier is
+
+- **Infinite dimensions.** The exchange lemma needs a finiteness argument, and
+  in infinite dimensions the statement "every independent set can be extended
+  to a basis" is equivalent to the axiom of choice. Hamel bases exist but are
+  unconstructible, which is why analysis uses Schauder bases instead.
+- **Module theory.** Drop the field and keep the ring, and bases stop
+  existing: $\mathbb{Z}$ as a module over itself has a basis, but ideals need
+  not. The structure theorem for finitely generated modules over a PID is what
+  survives, and it is what gives the Jordan form.
+- **Matroid theory.** Independence axiomatised. Every matrix gives a matroid
+  on its columns, and the theory abstracts exactly the properties that make
+  exchange arguments work.
+- **Dimension in quantum mechanics.** Hilbert spaces can be infinite-
+  dimensional, and the finite-dimensional intuition about bases and dimension
+  carries over only with care -- separability, orthonormal bases and the
+  spectral theorem are the replacements.
+
+## Interleaving problems
+
+Mix these with [Vectors and Vector
+Spaces](/2-linear-algebra/1_vectors-and-vector-spaces/), [Eigenvalues and
+Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/), [Systems of
+Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Measure
+Theory](/10-measure-theory/2_measures/) and [Representation
+Theory](/15-graduate-representation-theory/1_representation-theory-of-finite-groups/).
+
+1. (Vectors.) Determine whether $\{(1,1,0), (0,1,1), (1,0,1)\}$ is independent
+   in $\mathbb{R}^3$, and whether it spans. Then state the dimension of its
+   span.
+2. (Eigenvalues.) Show that eigenvectors belonging to distinct eigenvalues are
+   linearly independent, by induction on the number of eigenvalues. This is
+   why an $n \times n$ matrix with $n$ distinct eigenvalues is diagonalisable.
+3. (Systems of equations.) A consistent system $Ax = b$ with $A$ of rank $r$
+   and $n$ columns has how many free parameters in its solution? Derive the
+   answer from rank-nullity rather than by elimination.
+4. (Measure theory.) State what goes wrong with dimension for the space of
+   functions spanned by $\{1, x, x^2, \ldots\}$, and explain why that space is
+   infinite-dimensional but has a countable spanning set.
+5. (Representation theory.) A representation of a group on a vector space has
+   a dimension. Explain why irreducible representations have dimensions that
+   are constrained by the group's order, referencing the sum-of-squares
+   theorem.
+6. (Research.) Prove that any two bases of a vector space have the same
+   cardinality in the infinite-dimensional case, and explain where the proof
+   requires the axiom of choice.
 
 ## Cross-References
 
