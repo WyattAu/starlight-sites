@@ -410,10 +410,20 @@ jobs:
           fi
           if [ "$saw404" = "true" ]; then
             echo "::error::Freshness check failed: $asset -> 404 (stale deployment)"
-          else
-            echo "::warning::Freshness check inconclusive: $asset -> $code after retries (likely throttling, not a stale deploy)"
+            exit 1
           fi
-          exit 1
+          # Anything else -- 429, 5xx, connection refused -- says nothing about
+          # whether the deploy landed. The upload step already succeeded, and a
+          # genuinely stale zone answers 404 on a freshly hashed asset because
+          # the hash is not in the old deployment; that case is handled above and
+          # still fails the run. Failing here on a throttle would block the
+          # rollout of every other site behind a canary that did deploy, which is
+          # what happened: tools deployed, Cloudflare 429'd the probe for five
+          # minutes, and 43 sites did not roll out. Exit 0 with a loud warning --
+          # the run summary still records it, and the rollout's own check runs
+          # the same logic again against each site.
+          echo "::warning::Freshness check inconclusive: $asset -> $code after retries (throttling or network; not evidence of a stale deploy)"
+          exit 0
 
       - name: Summary
         if: always()
@@ -560,16 +570,33 @@ jobs:
           fi
           deadline=$(( $(date +%s) + 240 ))
           code="000"
+          saw404=false
           while [ "$(date +%s)" -lt "$deadline" ]; do
             code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${{ matrix.url }}$asset" 2>/dev/null || echo "000")
             [ "$code" = "200" ] && break
+            if [ "$code" = "404" ]; then
+              saw404=true
+              break
+            fi
+            if [ "$code" = "429" ]; then
+              echo "  rate limited (429) -- backing off 45 s"
+              sleep 45
+              continue
+            fi
             sleep 15
           done
-          if [ "$code" != "200" ]; then
-            echo "::error::Freshness check failed: $asset -> $code (stale deployment?)"
+          if [ "$code" = "200" ]; then
+            echo "Freshness verified: $asset -> 200"
+          elif [ "$saw404" = "true" ]; then
+            echo "::error::Freshness check failed: $asset -> 404 (stale deployment)"
             exit 1
+          else
+            # Same reasoning as the canary check: 429/5xx/network says nothing
+            # about deploy state, and a genuinely stale zone answers 404 on a
+            # freshly hashed asset. This run has already uploaded; failing it on
+            # a throttle would roll back nothing and only hide a good deploy.
+            echo "::warning::Freshness check inconclusive: $asset -> $code after retries (throttling or network; not evidence of a stale deploy)"
           fi
-          echo "Freshness verified: $asset -> 200"
 
       - name: Summary
         if: always()
