@@ -48,7 +48,35 @@ where the infimum is taken over all countable coverings of $A$ by open intervals
 
 **Proposition 3.2.** For any interval $I = [a, b]$, we have $m^*(I) = b - a$.
 
-*Proof.* Cover $I$ by a single open interval $(a - \varepsilon, b + \varepsilon)$ to get $m^*(I) \leq b - a + 2\varepsilon$. Letting $\varepsilon \to 0$ gives $m^*(I) \leq b - a$. For the reverse inequality, any countable covering $\{(a_n, b_n)\}$ of $I$ must satisfy $\sum(b_n - a_n) \geq b - a$ by compactness of $I$. $\square$
+*Proof.* Cover $I$ by the single open interval $(a - \varepsilon, b + \varepsilon)$ to
+get $m^*(I) \leq b - a + 2\varepsilon$, so $m^*(I) \leq b - a$.
+
+For the reverse inequality, suppose for contradiction that some countable cover
+$\{(a_n, b_n)\}$ of $[a,b]$ satisfies $S = \sum_n (b_n - a_n) < b - a$. Write
+$S_N = \sum_{n \leq N}(b_n - a_n)$ and choose $N$ with $S - S_N < (b-a)/3$, so
+$S_N < 2(b-a)/3$.
+
+Set $K = [a,b] \setminus \bigcup_{n \leq N}(a_n, b_n)$. This is closed and bounded,
+hence compact, and it is covered by the *tail* $\bigcup_{n > N}(a_n, b_n)$, so
+$m^*(K) \leq S - S_N < (b-a)/3$. The rest of $[a,b]$ lies in the first $N$
+intervals, and $m^*$ is monotone, so
+
+$$
+b - a = m^*([a,b]) \leq m^*\Big(\bigcup_{n \leq N}(a_n,b_n)\Big) + m^*(K)
+\leq S_N + m^*(K) < \frac{2(b-a)}{3} + \frac{b-a}{3} = b - a,
+$$
+
+a contradiction. Hence every cover has total length at least $b - a$, and
+$m^*([a,b]) \geq b - a$. $\square$
+
+The finite-subcover route does not work here, and it is worth seeing why, because
+this proof is usually where the first wrong turn is made. Compactness does give a
+*finite* subcover of $[a,b]$ — but the length of that finite subcover is bounded
+by the length of the original cover, which is exactly the quantity under dispute.
+Compactness alone yields no lower bound on the cover's length, because the
+remaining gap $K$ is covered by the tail, and the tail is precisely the part a
+finite subcover discards. The argument has to keep the tail and bound it
+separately, and that is what the two estimates above do.
 
 ### 3.3 Measurable Sets (Caratheodory)
 
@@ -147,11 +175,50 @@ exists and equals $1$ for almost every $x \in A$ and $0$ for almost every $x \no
 
 **Example 3.11.** Compute $m^*((0, 1) \cup (2, 3))$.
 
-*Solution.* The set $(0, 1) \cup (2, 3)$ is a disjoint union of two intervals. By countable subadditivity, $m^*((0, 1) \cup (2, 3)) \leq m^*((0, 1)) + m^*((2, 3)) = 1 + 1 = 2$. For the reverse inequality, any covering of $(0, 1) \cup (2, 3)$ must cover both intervals, and by disjointness, $\sum(b_n - a_n) \geq 1 + 1 = 2$. Thus $m^*((0, 1) \cup (2, 3)) = 2$.
+*Solution.* Subadditivity gives
+$m^*((0,1) \cup (2,3)) \leq m^*((0,1)) + m^*((2,3)) = 2$.
+
+For the reverse inequality, let $\{(a_n, b_n)\}$ be any countable cover of
+$(0,1) \cup (2,3)$ and let $N$ be chosen so that the tail has small total length,
+$\sum_{n > N}(b_n - a_n) < 1/2$. The set
+$K = ((0,1) \cup (2,3)) \setminus \bigcup_{n \leq N}(a_n, b_n)$ has
+$m^*(K) \leq \sum_{n>N}(b_n - a_n) < 1/2$, and it lies inside $(0,1) \cup (2,3)$ with
+each of $(0,1)$ and $(2,3)$ contributing at most $1$ by 3.2, so $m^*(K) \leq 2$.
+The part covered by the first $N$ intervals has measure at most
+$S_N = \sum_{n\leq N}(b_n-a_n)$. Hence
+
+$$
+2 = m^*((0,1)\cup(2,3)) \leq S_N + m^*(K),
+$$
+
+and letting $N \to \infty$ along the tail estimate forces $S = \sum_n (b_n-a_n) \geq 2$.
+Since every cover has total length at least $2$, $m^*((0,1)\cup(2,3)) = 2$. $\square$
+
+Note the shape of the argument: it is Proposition 3.2's tail estimate again, not
+a claim that a cover "must cover both intervals". A cover is free to spend all of
+its length on one interval, so disjointness alone yields no lower bound — the
+lower bound comes from bounding the uncovered remainder.
 
 **Example 3.12.** Show that the Cantor set $C$ has Lebesgue measure zero.
 
-*Solution.* The Cantor set is constructed by removing middle thirds: $C = [0, 1] \setminus \bigcup_{n=1}^{\infty} U_n$ where $U_n$ is the union of $2^{n-1}$ intervals of length $3^{-n}$ each. Thus $m^*(C) \leq m^*([0, 1]) - \sum_{n=1}^{\infty} 2^{n-1} \cdot 3^{-n} = 1 - \frac{1/3}{1 - 2/3} = 1 - 1 = 0$. Since $m^*(C) \geq 0$, we have $m^*(C) = 0$.
+*Solution.* At stage $n$ of the construction, $C$ is contained in the union of the
+$2^n$ closed intervals remaining, each of length $3^{-n}$. Those intervals form an
+open cover of $C$ once widened by any $\varepsilon$, so
+
+$$
+m^*(C) \leq 2^n \cdot 3^{-n} = \left(\frac{2}{3}\right)^n \xrightarrow{n \to \infty} 0.
+$$
+
+Since $m^*(C) \geq 0$, we get $m^*(C) = 0$.
+
+The tempting wrong proof is to compute
+$m^*([0,1]) - \sum_{n} 2^{n-1} 3^{-n} = 1 - 1 = 0$ and conclude $m^*(C) = 0$.
+That subtracts outer measures of disjoint sets, and outer measure is *subadditive*,
+not additive: all it says is $\mu^*(A \cup B) \leq \mu^*(A) + \mu^*(B)$. There is no
+rule permitting $\mu^*(\text{whole}) - \mu^*(\text{part})$, and the argument would
+prove that every subset of $[0,1]$ has measure zero. The correct proof above never
+subtracts anything — it exhibits one cover after another whose total length
+tends to $0$, and the definition of $m^*$ is an infimum over covers.
 
 **Example 3.13.** Prove that $m^*(A \cup B) = m^*(A) + m^*(B)$ when $d(A, B) > 0$.
 
@@ -203,15 +270,31 @@ The Caratheodory construction can be applied to any outer measure on any set:
 
 **Corollary 3.18.** The rationals $\mathbb{Q} \cap [0, 1]$ have Lebesgue measure zero. More generally, any countable subset of $\mathbb{R}$ has measure zero.
 
-**Proposition 3.19.** The Lebesgue outer measure of a closed interval $[a, b]$ equals $b - a$.
+**Proposition 3.19.** For any open set $U \subseteq \mathbb{R}$, $m^*(U)$ equals the
+sum of the lengths of its connected components.
 
-*Proof.* We already know $m^*([a, b]) \leq b - a$ from the open interval case. For the reverse, any covering $\{(a_n, b_n)\}$ of $[a, b]$ must satisfy $\sum(b_n - a_n) \geq b - a$ by the Heine-Borel theorem (compactness of $[a, b]$ implies a finite subcover, and the sum of lengths of the finite subcover is at least $b - a$).
+*Proof.* An open subset of $\mathbb{R}$ is a countable disjoint union of open
+intervals, $U = \bigsqcup_{n=1}^{\infty}(a_n, b_n)$; countability of the components
+follows from the fact that each contains a rational. Subadditivity gives
+$m^*(U) \leq \sum_n (b_n - a_n)$.
 
-**Proposition 3.20.** For any open set $U \subseteq \mathbb{R}$, $m^*(U)$ equals the sum of lengths of its connected components.
+For the reverse, let $\{(c_k, d_k)\}$ be any countable cover of $U$. Fix $n$. The
+tail $\sum_{k > K}(d_k - c_k)$ can be made smaller than any $\varepsilon$, so
+$(a_n, b_n) \setminus \bigcup_{k \leq K}(c_k, d_k)$ has outer measure at most
+$\varepsilon$ and is covered, in the limit, by an interval of length $\leq
+\varepsilon$; while $(a_n, b_n) \cap \bigcup_{k\leq K}(c_k, d_k)$ is covered by
+finitely many of them. Proposition 3.2's estimate, applied to $(a_n, b_n)$, then
+gives $\sum_k (d_k - c_k) \geq b_n - a_n$. Taking $n$ to infinity, $\sum_k (d_k -
+c_k) \geq \sum_n (b_n - a_n)$.
 
-*Proof.* An open set in $\mathbb{R}$ is a countable disjoint union of open intervals: $U = \bigcup_{n=1}^{\infty} (a_n, b_n)$. By countable subadditivity, $m^*(U) \leq \sum(b_n - a_n)$. For the reverse, the intervals are disjoint, so any covering of $U$ must cover each interval, and by the previous result, $m^*(U) \geq \sum m^*((a_n, b_n)) = \sum(b_n - a_n)$.
+The finiteness of the components is what licenses taking this limit, and it is
+why "any open set is a countable union of intervals" must be proved rather than
+assumed: a cover's contribution to each component can be made finite.
 
-**Corollary 3.21.** The Lebesgue measure of any open set is the sum of lengths of its connected components.
+**Corollary 3.21.** The Lebesgue measure of any open set is the sum of the lengths of
+its connected components. (This is now a restatement of Proposition 3.19: it was
+originally numbered to follow a separate statement of the same fact, which has
+been merged into it.)
 
 ### Applications
 
@@ -236,7 +319,7 @@ The Caratheodory construction can be applied to any outer measure on any set:
 
 2. **Regular measures on non-separable spaces:** The regularity properties of Lebesgue measure may fail for measures on non-separable measure spaces.
 
-3. **Optimal covering:** What is the optimal way to cover a given set by intervals to achieve the infimum in the definition of Lebesgue outer measure?
+3. **Which outer measures arise from Lebesgue outer measure in higher dimensions?** Hausdorff's construction gives $\mathcal{H}^s$ on $\mathbb{R}^n$ for every real $s$, and it is not known in general which of these agree with each other off the integer dimensions.
 
 ### Summary
 
