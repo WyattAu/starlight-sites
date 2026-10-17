@@ -68,6 +68,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Differential Forms](https://mathematics.wyattau.com/12-differential-geometry/4_differential-forms/)
 - [Flashcards Differential Geometry](https://mathematics.wyattau.com/12-differential-geometry/11_flashcards-differential-geometry/)
 - [Geodesics](https://mathematics.wyattau.com/12-differential-geometry/6_geodesics/)
+- [Hodge Theory](https://mathematics.wyattau.com/12-differential-geometry/14_hodge-theory/)
 - [Index](https://mathematics.wyattau.com/12-differential-geometry/)
 - [Practice Differential Geometry](https://mathematics.wyattau.com/12-differential-geometry/12_practice-differential-geometry/)
 - [Riemannian Geometry](https://mathematics.wyattau.com/12-differential-geometry/5_riemannian-geometry/)
