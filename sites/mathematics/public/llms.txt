@@ -64,6 +64,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 - [Applications](https://mathematics.wyattau.com/12-differential-geometry/9_applications/)
 - [Curvature](https://mathematics.wyattau.com/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](https://mathematics.wyattau.com/12-differential-geometry/13_de-rham-cohomology/)
 - [Differential Forms](https://mathematics.wyattau.com/12-differential-geometry/4_differential-forms/)
 - [Flashcards Differential Geometry](https://mathematics.wyattau.com/12-differential-geometry/11_flashcards-differential-geometry/)
 - [Geodesics](https://mathematics.wyattau.com/12-differential-geometry/6_geodesics/)
