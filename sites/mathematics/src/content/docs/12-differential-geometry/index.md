@@ -80,6 +80,10 @@ depend only on items 4 and 5 above.
   class has a unique harmonic representative, so the Betti numbers are the
   dimensions of kernels of an elliptic operator and topology becomes computable
   by PDE.
+- [Kähler Manifolds and Calabi–Yau](/12-differential-geometry/15_kahler-manifolds-and-calabi-yau/) —
+  where complex structure, metric and symplectic form agree; the Hodge numbers
+  $h^{p,q}$ appear, and Yau's theorem produces Ricci-flat metrics, the
+  Calabi–Yau condition.
 
 ## Overview
 

@@ -114,7 +114,7 @@ In string theory, the worldsheet of a propagating string is a 2-dimensional Lore
 embedded in a higher-dimensional spacetime. The equations of motion derive from the Polyakov
 action, whose symmetries include diffeomorphism invariance and Weyl rescaling.
 
-**Calabi-Yau manifolds** are compact Ricci-flat K\"ahler manifolds used for the extra spatial
+**Calabi-Yau manifolds** are compact Ricci-flat Kähler manifolds used for the extra spatial
 dimensions in string compactifications. Their holonomy group $SU(n)$ preserves supersymmetry,
 and their Hodge numbers determine the particle spectrum of the effective 4-dimensional theory.
 
