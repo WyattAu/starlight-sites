@@ -55,7 +55,9 @@ const BASE = 'https://mathematics.wyattau.com'
         }
         return n
       })(),
-      h2: document.querySelector('h1, h2') ? document.querySelector('h1,h2').textContent.trim().slice(0, 44) : '',
+      h2: document.querySelector('h1, h2')
+        ? document.querySelector('h1,h2').textContent.trim().slice(0, 44)
+        : '',
     }))
     const clean = m.scrollW <= m.innerW + 1
     if (!clean) bad++
@@ -80,7 +82,10 @@ const BASE = 'https://mathematics.wyattau.com'
   }
 
   // 4. KaTeX still single-rendered (self-hosted CSS did not regress).
-  await page.goto(BASE + '/9-topology/9_introduction-to-algebraic-topology/', { waitUntil: 'load', timeout: 60000 })
+  await page.goto(BASE + '/9-topology/9_introduction-to-algebraic-topology/', {
+    waitUntil: 'load',
+    timeout: 60000,
+  })
   await page.waitForTimeout(2200)
   const math = await page.evaluate(() => {
     const el = document.querySelector('.katex-mathml')
@@ -90,12 +95,14 @@ const BASE = 'https://mathematics.wyattau.com'
   })
   const mathOk = !math.present || (math.pos === 'absolute' && math.w <= 2)
   if (!mathOk) bad++
-  console.log(`\n--- katex ---\n${mathOk ? 'ok      ' : 'BROKEN  '} .katex-mathml ${JSON.stringify(math)}`)
+  console.log(
+    `\n--- katex ---\n${mathOk ? 'ok      ' : 'BROKEN  '} .katex-mathml ${JSON.stringify(math)}`,
+  )
 
   await b.close()
   console.log(`\n${bad === 0 ? 'ALL PRODUCTION CHECKS PASS' : `${bad} CHECK(S) FAILED`}`)
   process.exit(bad ? 1 : 0)
-})().catch((e) => {
+})().catch(e => {
   console.error('ERR:', e.message.split('\n')[0])
   process.exit(2)
 })
