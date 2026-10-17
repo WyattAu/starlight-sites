@@ -501,9 +501,11 @@ mentions of a topic that has no page of its own:
 
 1. Sobolev spaces and the embedding theorems (10 mentions) -- the functional
    analysis the PDE applications lean on.
-2. Mayer-Vietoris (8) -- the computational tool the algebraic-topology page uses
-   to compute $H^*(S^2)$ and $H^*(\Sigma_2)$ and the de Rham page cites; a page
-   would let both computations stop being self-contained digressions.
+2. ~~Mayer-Vietoris~~ -- closed without a new page: it is already §9.8 of the
+   algebraic-topology page with both computations done in full. The de Rham
+   page's cross-reference now points at that section rather than gesturing, and
+   duplicating it elsewhere would have created exactly the drift the monolith
+   retirement removed.
 3. Gelfand representation and Gelfand-Raikov (6) -- cited by the Peter-Weyl page
    as its one unproved ingredient.
 4. Elliptic regularity (4) -- the black box the Hodge theorem names.

@@ -264,7 +264,7 @@ in the language of differential forms.
 - **[Differential Forms](/12-differential-geometry/4_differential-forms/)** — the exterior derivative and Stokes' theorem, both used from the first line.
 - **[Smooth Manifolds](/12-differential-geometry/1_smooth-manifolds/)** — the definition of the underlying object and of pullback.
 - **[The Gauss–Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/)** — $\chi$ as the alternating sum of Betti numbers.
-- **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)** — the chain-level mirror: $\partial^2 = 0$ and singular homology, of which de Rham theory is the dual.
+- **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)** — the chain-level mirror: $\partial^2 = 0$ and singular homology, of which de Rham theory is the dual. Its §9.8 proves the Mayer–Vietoris sequence and computes $H^*(S^2)$ and $H^*(\Sigma_2)$ with it, which is the computation this page's §3 shows is needed before $H^1$ can be pinned down.
 - **[Hodge Theory](/12-differential-geometry/14_hodge-theory/)** — every de Rham class has a unique harmonic representative; the dimension of the harmonic forms is the Betti number.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)** — the self-adjoint operator theory that the Hodge Laplacian rests on.
 - **[Applications of Differential Geometry](/12-differential-geometry/9_applications/)** — Maxwell's equations in the language of $d$, where $dF = 0$ and $d{*F} = J$ are the closed-form conditions.
