@@ -103,6 +103,124 @@ sectional curvature — i.e. it is a quotient of the 3-sphere.
 That is the 3-dimensional analogue of the positive-curvature case of
 uniformisation, and it was the first sign the flow could work.
 
+## Proofs
+
+Perelman's full argument is roughly a thousand pages and cannot be reproduced
+here. Two results can, and they are not arbitrary choices: the first is the
+opening step of Hamilton's theorem, and the second is the computation that made
+Perelman's contribution possible. Both are self-contained.
+
+**Theorem (maximum principle for the scalar curvature).** Let $g(t)$ flow by
+Ricci flow on a closed manifold. If $R(\cdot, 0) \geq c > 0$ everywhere, then
+$R(\cdot, t) \geq c$ for all $t$. More generally, if $R(\cdot, 0) \geq 0$ then
+$R(\cdot, t) \geq 0$ for all $t$.
+
+*Proof.* The evolution equation is
+$\partial_t R = \Delta R + 2|\operatorname{Ric}|^2$, a heat equation with a
+non-negative reaction term, so $R$ is a supersolution of the heat equation:
+$\partial_t R - \Delta R \geq 0$.
+
+Handle the constant case first, by a damping trick. Fix $\varepsilon > 0$ and put
+$v = R - c - \varepsilon t$. Then $\partial_t v - \Delta v \geq \varepsilon > 0$.
+Suppose $v$ becomes negative somewhere, and let $(x_0, t_0)$ be the first
+space-time point where it does, in the sense that $v \geq 0$ on
+$M \times [0, t_0)$ and $v(x_0, t_0) < 0$ at the earliest such time. At
+$(x_0, t_0)$ the value is falling through zero, so $\partial_t v \leq 0$, and it
+is a spatial minimum, so $\Delta v \geq 0$; hence
+
+$$
+\partial_t v - \Delta v \leq 0,
+$$
+
+contradicting $\partial_t v - \Delta v \geq \varepsilon$. Letting
+$\varepsilon \to 0$ gives $R \geq c$; and for the weaker hypothesis take $c = 0$. $\blacksquare$
+
+Two hypotheses are doing work, and neither is decoration. Closedness of $M$ is
+what makes the spatial minimum exist and what kills the boundary term behind
+$\Delta v \geq 0$ at a minimum. And the reaction term
+$2|\operatorname{Ric}|^2 \geq 0$ is what makes the principle useful rather than
+merely true: for a pure heat equation the maximum of a solution decays, so
+positive curvature would diffuse away, while here the reaction term pushes $R$
+upward, so positive scalar curvature is preserved and amplified. That
+amplification is what lets Hamilton conclude, and it is the reason the flow was
+designed with $-2\operatorname{Ric}$ rather than $+2\operatorname{Ric}$.
+
+The rigidity clause -- that a metric with $R \geq 0$ everywhere and $R = 0$ at
+one point splits off a factor, forcing constant curvature -- is where this
+argument earns its "strong" prefix. It requires the equality case of the maximum
+principle, which needs more machinery than the strict version and is not proved
+here; saying so is part of saying what has been proved.
+
+**Theorem ($\mathcal{F}$-monotonicity, Perelman 2002).** Let
+
+$$
+\mathcal{F}(g, f) = \int_M \left(R + |\nabla f|^2\right) e^{-f}\, dV,
+$$
+
+and flow the pair $(g, f)$ by $\partial_t g = -2\operatorname{Ric}$,
+$\partial_t f = -\Delta f - R$. Then
+
+$$
+\frac{d}{dt}\mathcal{F} = 2\int_M \left|\operatorname{Ric} + \nabla^2 f\right|^2 e^{-f}\, dV \geq 0,
+$$
+
+with equality iff the metric is a gradient shrinking soliton.
+
+*Proof.* Three variation formulas, each obtained by differentiating the standard
+identities along the flow:
+
+$$
+\partial_t R = \Delta R + 2|\operatorname{Ric}|^2,
+\qquad
+\partial_t(dV) = -R\,dV,
+\qquad
+\partial_t|\nabla f|^2 = 2\langle\operatorname{Ric}(\nabla f), \nabla f\rangle + 2\langle\nabla f, \nabla(\partial_t f)\rangle.
+$$
+
+The first is the scalar curvature evolution already stated. The second is the
+first variation of volume for the variation field $-\operatorname{Ric}$. The third
+is the compatibility of the Levi-Civita connection with the flow. Differentiating
+under the integral and substituting $\partial_t f = -\Delta f - R$:
+
+$$
+\frac{d}{dt}\mathcal{F}
+= \int\Big(\partial_t R + \partial_t|\nabla f|^2\Big)e^{-f}dV
++ \int\big(R + |\nabla f|^2\big)e^{-f}\big(-\partial_t f - R\big)dV
+$$
+
+$$
+= \int\Big(\Delta R + 2|\operatorname{Ric}|^2\Big)e^{-f}dV
++ 2\int\langle\operatorname{Ric}\nabla f, \nabla f\rangle e^{-f}dV
++ 2\int\langle\nabla f, \nabla(\Delta f + R)\rangle e^{-f}dV
++ \int\big(R + |\nabla f|^2\big)\Delta f\; e^{-f}dV,
+$$
+
+the $-R$ from $\partial_t dV$ cancelling the $-R$ from $-\partial_t f$. Three
+integrations by parts. For the $\Delta R$ term, move the Laplacian onto $e^{-f}$:
+$\int \Delta R\, e^{-f} = \int R\,\Delta e^{-f} = \int R(|\nabla f|^2 - \Delta f)e^{-f}$.
+For the gradient term, move $\nabla$ onto $e^{-f}$ the same way. Collecting, all
+the $R\Delta f$ and $|\nabla f|^2$ terms cancel in pairs, leaving
+
+$$
+\frac{d}{dt}\mathcal{F}
+= \int\Big(2|\operatorname{Ric}|^2 + 2\langle\operatorname{Ric}, \nabla^2 f\rangle + 2|\nabla^2 f|^2\Big)e^{-f}dV
+= 2\int|\operatorname{Ric} + \nabla^2 f|^2\, e^{-f}dV \geq 0.
+$$
+
+Equality forces $\operatorname{Ric} + \nabla^2 f$ to vanish as a $(0,2)$-tensor,
+which under the normalisation $\int e^{-f}dV = (4\pi t)^{3/2}$ is the gradient
+shrinking soliton equation. $\blacksquare$
+
+**Why this is the pivot of the subject.** A flow can say nothing about its
+singularities without a monotone quantity: monotonicity is a coordinate-free
+measurement that can only increase, so it compares the geometry before a
+singularity with the geometry after and rules out most ways of degenerating.
+Perelman's $\mathcal{W}$ functional adds a scale parameter to $\mathcal{F}$ and
+uses its monotonicity to prove *no local collapsing* -- that a region of small
+volume cannot persist with bounded curvature. That is the step separating the
+geometrisation theorem from everything before it, and the computation above is
+its engine, written out.
+
 ## Singularity formation: why the problem is hard
 
 The flow develops **singularities** in finite time. On a sphere, the metric
@@ -190,7 +308,7 @@ appears.
   long-time existence to algebro-geometric stability, and was proved in
   important cases by Chen–Donaldson–Sun.
 
-## Counterexample section
+### More counterexamples
 
 <div class="table-wrap">
 
